@@ -63,10 +63,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 |---|---|---|---|
 | <a id="b01-c11"></a>[B01-C11](../clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md) | Movimiento aparente del Sol y las estrellas | Rotación terrestre, horizonte, culminación y estaciones desde un lugar concreto. | Registro de trayectorias con fecha y lugar |
 | <a id="b01-c12"></a>[B01-C12](../clases/B01/B01-C12-fases-lunares-y-ciclos-celestes/CLASE.md) | Fases lunares y ciclos celestes | Geometría Sol–Tierra–Luna, fases, eclipses y calendarios como ciclos medibles. | Predicción de una fase y su comprobación |
-| <a id="b01-c13"></a>B01-C13 | Sistema solar como sistema físico | Componentes, escalas y leyes que lo organizan; modelo a escala. | Modelo a escala con tabla de datos |
-| <a id="b01-c14"></a>B01-C14 | Estrellas y sus principales propiedades | Brillo, color, temperatura, tamaño y distancia; cómo se relacionan. | Comparación de estrellas con datos publicados |
-| <a id="b01-c15"></a>B01-C15 | Galaxias y agrupaciones cósmicas | Tipos de galaxias, grupos y cúmulos; estructura a gran escala como observación. | Ficha de una galaxia y su entorno |
-| <a id="b01-c16"></a>B01-C16 | Expansión del universo como observación | Corrimiento al rojo, ley de Hubble y por qué no hay centro; incertidumbre en H₀. | Estimación de distancia o edad con error |
+| <a id="b01-c13"></a>[B01-C13](../clases/B01/B01-C13-sistema-solar-como-sistema-fisico/CLASE.md) | Sistema solar como sistema físico | Componentes, escalas y leyes que lo organizan; modelo a escala. | Modelo a escala con tabla de datos |
+| <a id="b01-c14"></a>[B01-C14](../clases/B01/B01-C14-estrellas-y-sus-principales-propiedades/CLASE.md) | Estrellas y sus principales propiedades | Brillo, color, temperatura, tamaño y distancia; cómo se relacionan. | Comparación de estrellas con datos publicados |
+| <a id="b01-c15"></a>[B01-C15](../clases/B01/B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md) | Galaxias y agrupaciones cósmicas | Tipos de galaxias, grupos y cúmulos; estructura a gran escala como observación. | Ficha de una galaxia y su entorno |
+| <a id="b01-c16"></a>[B01-C16](../clases/B01/B01-C16-expansion-del-universo-como-observacion/CLASE.md) | Expansión del universo como observación | Corrimiento al rojo, ley de Hubble y por qué no hay centro; incertidumbre en H₀. | Estimación de distancia o edad con error |
 
 ### Tramo 4 · Modelos, error, fuentes y proyecto
 

@@ -1,7 +1,7 @@
 # B01-C12 — Fases lunares y ciclos celestes
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C11 — Movimiento aparente del Sol y las estrellas](../B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md) · [Siguiente: B01-C13 — Sistema solar como sistema físico →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C11 — Movimiento aparente del Sol y las estrellas](../B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md) · [Siguiente: B01-C13 — Sistema solar como sistema físico →](../B01-C13-sistema-solar-como-sistema-fisico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Las fases nacen de la geometría Sol–Tierra–Luna y se repiten cada 29,53 dí
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B01-C11 — Movimiento aparente del Sol y las estrellas](../B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C13 — Sistema solar como sistema físico →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c13)
+[← Anterior: B01-C11 — Movimiento aparente del Sol y las estrellas](../B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C13 — Sistema solar como sistema físico →](../B01-C13-sistema-solar-como-sistema-fisico/CLASE.md)
 <!-- /nav -->
