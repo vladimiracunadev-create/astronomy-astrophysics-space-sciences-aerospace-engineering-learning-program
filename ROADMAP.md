@@ -21,6 +21,19 @@ Este roadmap resume la resolución del repositorio y de sus contenidos. El detal
 
 **Cierre:** catálogo sincronizado, CI verde, visor publicado y metadatos públicos coherentes.
 
+## Horizonte 0 · refinamiento curricular
+
+Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICULAR.md). Precede al piloto.
+
+- [ ] Auditoría reproducible de plantillas, descripciones repetidas y solapamientos.
+- [ ] Decidir los 88 solapamientos ruta/tronco sin renumerar IDs.
+- [ ] Diferenciar las 1.920 clases derivadas por plantilla de los 192 módulos.
+- [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
+- [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
+- [ ] Dependencias por capacidad sin ciclos.
+
+**Cierre:** informe de refinamiento y piloto doble (un bloque del tronco y un módulo de ruta).
+
 ## Horizonte B · piloto B01
 
 - [ ] Llevar B01-C01–B01-C20 de E0 a E5.

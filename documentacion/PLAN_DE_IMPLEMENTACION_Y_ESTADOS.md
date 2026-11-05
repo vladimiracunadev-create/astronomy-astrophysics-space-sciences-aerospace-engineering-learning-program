@@ -48,6 +48,12 @@ Los criterios detallados están en el [estándar pedagógico](ESTANDAR_PEDAGOGIC
 
 **Cierre:** validadores verdes, documentación coherente, catálogo sincronizado y visor publicado.
 
+### Horizonte 0 · refinamiento curricular
+
+**Objetivo:** corregir la uniformidad estructural y las clases derivadas por plantilla antes de redactar. Ver [plan de refinamiento curricular](PLAN_DE_REFINAMIENTO_CURRICULAR.md).
+
+**Cierre:** auditoría regenerable, solapamientos decididos, módulos de ruta diferenciados, dependencias por capacidad y piloto doble. Sin renumerar IDs ni avanzar estados.
+
 ### Horizonte B · piloto B01
 
 **Objetivo:** resolver las 20 clases de B01 de E0 a E5 antes de escalar.

@@ -7,6 +7,7 @@ Esta carpeta contiene el contrato académico, editorial y técnico del **Program
 1. [Alcance y contrato del repositorio](ALCANCE_Y_CONTRATO_DEL_REPOSITORIO.md)
 2. [Estándar pedagógico, científico, de evidencia y evaluación](ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
 3. [Plan de implementación y estados](PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md)
+   - [Plan de refinamiento curricular](PLAN_DE_REFINAMIENTO_CURRICULAR.md)
 4. [Matriz de cobertura temática](MATRIZ_DE_COBERTURA.md)
 5. [Mapa de rutas profesionales](MAPA_DE_RUTAS_PROFESIONALES.md)
 6. [Contrato visual y de experiencia](ESTANDAR_VISUAL_Y_DE_EXPERIENCIA.md)
