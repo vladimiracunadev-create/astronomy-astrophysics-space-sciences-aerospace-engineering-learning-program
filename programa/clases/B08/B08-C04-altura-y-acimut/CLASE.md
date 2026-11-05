@@ -120,7 +120,7 @@ Acimut desde el norte hacia el este (algunas fuentes lo miden desde el sur: lée
 | S1 | NASA SVS 5415, *Moon Phase and Libration, 2025* (JPL DE421) | https://svs.gsfc.nasa.gov/5415/ ; `mooninfo_2025.txt` | RA/Dec J2000 de la Luna, 4–5 nov 2025 | 2026-11-05 | Datos leídos |
 | S2 | USNO, *Rise, Set, and Twilight Definitions* | https://aa.usno.navy.mil/faq/RST_defs | Refracción de 34′; tránsito (cruce del meridiano, altura máxima) | 2026-11-05 | Página leída |
 | S3 | NASA NSSDC, *Moon Fact Sheet* (act. 11-ene-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html | Diámetro angular de la Luna ≈ 1896″ en oposición | 2026-11-05 | Página leída |
-| S4 | astropy 8.0.2 / pyerfa 2.0.1.5 | https://www.astropy.org | Altura 40,5929°, acimut 17,9926° para la fila de las 03:00 UT (prueba del laboratorio) | 2026-11-05 | Ejecutado localmente; valores copiados |
+| S4 | astropy, documentación v8.0.2: «Coordinates» y «Solar System Ephemerides» | https://docs.astropy.org/en/stable/coordinates/ ; https://docs.astropy.org/en/stable/coordinates/solarsystem.html | Según la documentación, AltAz usa información de rotación terrestre y la efeméride integrada usa elementos orbitales aproximados (errores de unos segundos a ~1,5 minutos de arco según el planeta); uso en esta clase: Altura 40,5929°, acimut 17,9926° para la fila de las 03:00 UT (prueba del laboratorio) (valores generados por nosotros con astropy 8.0.2 y pyerfa 2.0.1.5, no publicados) | 2026-11-05 | Documentación leída; valores ejecutados localmente |
 
 Límites: las fórmulas esféricas son estándar y se verifican con S4; la regla del puño y el dedo no tiene fuente; el tiempo sidéreo se toma de un modelo de baja precisión (C05).
 
@@ -225,6 +225,8 @@ La tabla debe usar la época correcta, mostrar al menos un cálculo manual compl
 </details>
 
 ## 17. Laboratorio: [`altacimut.py`](altacimut.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Reproducir la tabla de la sección 5. **Datos:** posiciones de la NASA (observadas-calculadas, DE421) y alturas simuladas. **Procedimiento:** `python altacimut.py`. La prueba compara con astropy (S4) y con el tránsito meridiano; se detiene si difieren más de 0,03° en altura. **Resultados reales (Python 3.12.9):**
 

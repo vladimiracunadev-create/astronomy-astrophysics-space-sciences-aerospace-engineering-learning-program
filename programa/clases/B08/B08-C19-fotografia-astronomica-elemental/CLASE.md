@@ -220,6 +220,8 @@ La ficha contiene los cálculos de 8.1–8.2, rotula original o procesada, anota
 
 ## 17. Laboratorio: [`exposicion.py`](exposicion.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Calcular escala, campo, estela y tiempo máximo. **Datos:** publicados (NASA) y configuraciones de ejemplo. **Procedimiento:** `python exposicion.py`; las pruebas verifican 1,0313″/px para 1000 mm y 5 µm, el ritmo de 15,041″/s y el campo de 39,6°. **Resultados reales (Python 3.12.9):**
 
 ```text

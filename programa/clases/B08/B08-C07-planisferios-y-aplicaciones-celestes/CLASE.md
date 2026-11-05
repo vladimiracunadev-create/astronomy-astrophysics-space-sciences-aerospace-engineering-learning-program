@@ -100,7 +100,7 @@ Planisferio y aplicación usan hora local u oficial; el cálculo y la bitácora,
 |---|---|---|---|---|---|
 | S1 | NASA SVS 5415 (JPL DE421) | https://svs.gsfc.nasa.gov/5415/ ; `mooninfo_2025.txt` | Posición de la Luna el 5-nov-2025 | 2026-11-05 | Datos leídos |
 | S2 | Stellarium | https://stellarium.org/ | Planetario libre y de código abierto; ojo desnudo, binoculares o telescopio; catálogo base de más de 600 000 estrellas; más de 220 millones adicionales; constelaciones de más de 40 culturas | 2026-11-05 | Página leída (no nombra la licencia) |
-| S3 | astropy 8.0.2 / pyerfa 2.0.1.5 | https://www.astropy.org | GMST usado como prueba en `astrolib_b08.py` | 2026-11-05 | Ejecutado localmente |
+| S3 | astropy, documentación v8.0.2: «Coordinates» y «Solar System Ephemerides» | https://docs.astropy.org/en/stable/coordinates/ ; https://docs.astropy.org/en/stable/coordinates/solarsystem.html | Según la documentación, AltAz usa información de rotación terrestre y la efeméride integrada usa elementos orbitales aproximados (errores de unos segundos a ~1,5 minutos de arco según el planeta); uso en esta clase: GMST usado como prueba en `astrolib_b08.py` (valores generados por nosotros con astropy 8.0.2 y pyerfa 2.0.1.5, no publicados) | 2026-11-05 | Documentación leída; valores ejecutados localmente |
 
 Límites: no se probó ninguna aplicación; el funcionamiento del planisferio físico se describe desde la geometría de C02–C05 y no desde la documentación de un fabricante. El modo nocturno rojo es una práctica general sin fuente en esta clase.
 
@@ -212,6 +212,8 @@ Se acepta papel, cartón o una hoja de cálculo. Cumple si las tres comprobacion
 </details>
 
 ## 17. Laboratorio: [`planisferio_digital.py`](planisferio_digital.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Reproducir la lógica del planisferio. **Datos:** simulados (calculados) para `φ = −30,0°`, `λ = −70,7°`. **Procedimiento:** `python planisferio_digital.py`; la prueba comprueba que la AR del meridiano es el TSL, que el ecuador toca el horizonte en el este y el oeste exactos y que el límite circumpolar es −60°. **Resultados reales (Python 3.12.9):**
 

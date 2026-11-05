@@ -220,6 +220,8 @@ Cumple si todas las filas pasan la validación o están marcadas con su motivo, 
 
 ## 17. Laboratorio: [`bitacora.py`](bitacora.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Validar una bitácora con reglas y contrastar una estimación con un cálculo. **Datos:** seis filas sintéticas; posiciones de la Luna de la NASA; altura calculada. **Procedimiento:** `python bitacora.py`; la prueba exige que la primera fila pase y que cada una de las otras cinco sea rechazada con el motivo esperado. **Resultados reales (Python 3.12.9):**
 
 ```text

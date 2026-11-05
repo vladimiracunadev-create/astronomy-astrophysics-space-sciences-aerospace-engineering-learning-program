@@ -36,7 +36,7 @@ La evidencia es la **ficha de catálogo** del ejercicio 12.
 
 ## 5. Un caso real: tres maneras de decir «la Cruz del Sur»
 
-Sigues en el valle del Elqui, de noche. ESO la llama «la Cruz del Sur» y dice que su pie apunta siempre al polo sur celeste (S4); un colega te dice «mira esa estrella» y la nombra con un nombre propio tradicional, y un programa de telescopio acepta solo identificadores de catálogo. Los tres hablan de lo mismo con lenguajes distintos. En esta clase aprendes a traducir entre ellos y a anotar cuál usaste.
+Sigues en el valle del Elqui, de noche. ESO la clasifica oficialmente como la constelación Crux, «la Cruz del Sur», y la presenta como una marca útil para identificar el polo sur celeste (S4); un colega te dice «mira esa estrella» y la nombra con un nombre propio tradicional, y un programa de telescopio acepta solo identificadores de catálogo. Los tres hablan de lo mismo con lenguajes distintos. En esta clase aprendes a traducir entre ellos y a anotar cuál usaste.
 
 ## 6. Vocabulario
 
@@ -98,7 +98,7 @@ Las constelaciones se escriben con su nombre en español en las clases; las abre
 | S1 | IAU, *The Constellations* (FAQ) | https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx | 88 constelaciones; Delporte; 1925/1928/1930; líneas de AR/Dec; J2000; variables | 2026-11-05 | Página leída |
 | S2 | ESA, *Hipparcos and Tycho catalogues* | https://www.cosmos.esa.int/web/hipparcos/catalogues | Versión final de junio de 1997; numeración HIP hasta 118322 | 2026-11-05 | Página leída (no declara el número de estrellas) |
 | S3 | ESA, *Gaia DR3* | https://www.cosmos.esa.int/web/gaia/dr3 | Liberación el 13-jun-2022; 1 811 709 771 fuentes; ~1,47 × 10⁹ con astrometría; época 2016,0 | 2026-11-05 | Página leída |
-| S4 | ESO, «Navigating the stars» (18-oct-2024) | https://www.eso.org/public/blog/navigating-the-stars/ | Cruz del Sur; pie apunta al polo sur celeste | 2026-11-05 | Página leída (divulgativa) |
+| S4 | ESO, imagen «The Southern Cross» (ESO/Y. Beletsky, 3-dic-2009) | https://www.eso.org/public/images/yb_southern_cross_cc/ | Crux es la constelación oficial «Cruz del Sur»; marca útil para el polo sur celeste | 2026-11-05 | Página leída (institucional, texto breve) |
 | S5 | Stellarium | https://stellarium.org/ | Catálogo por defecto de «más de 600 000 estrellas»; adicionales de más de 220 millones; constelaciones de más de 40 culturas | 2026-11-05 | Página leída |
 
 Límites: no se consultaron las reglas de las designaciones de Bayer y Flamsteed, ni el número exacto de estrellas de Hipparcos, ni los límites numéricos de las 88 constelaciones.
@@ -212,6 +212,8 @@ La ficha cumple si el cálculo del número de fuentes usa el área del campo y l
 </details>
 
 ## 17. Laboratorio: [`densidad_de_catalogo.py`](densidad_de_catalogo.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Calcular cuántas fuentes de un catálogo caben, en promedio, en un campo. **Datos:** publicados (Gaia DR3, Stellarium); resultados calculados. **Procedimiento:** `python densidad_de_catalogo.py`; la prueba detiene el programa si el área de la esfera difiere de 41 252,96 grados cuadrados en más de 0,01. **Resultados reales (Python 3.12.9):**
 

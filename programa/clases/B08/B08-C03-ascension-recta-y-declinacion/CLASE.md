@@ -105,7 +105,7 @@ AR hacia el este, de 0 h a 24 h. Dec con signo. Salvo que se indique, las coorde
 |---|---|---|---|---|---|
 | S1 | NASA SVS 5415, *Moon Phase and Libration, 2025* (JPL DE421) | https://svs.gsfc.nasa.gov/5415/ ; `mooninfo_2025.txt` | RA/Dec J2000 de la Luna (filas del 4–5 nov 2025) | 2026-11-05 | Datos descargados y leídos; la página indica «J2000» |
 | S2 | IAU, *The Constellations* (FAQ) | https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx | Los límites de las constelaciones se definen con líneas de AR y Dec y se publican en J2000 | 2026-11-05 | Página leída |
-| S3 | astropy 8.0.2 / pyerfa 2.0.1.5 (referencia numérica) | https://www.astropy.org | Precesión J2000→2025-11-05 usada como prueba | 2026-11-05 | Ejecutado localmente; valores copiados |
+| S3 | astropy, documentación v8.0.2: «Coordinates» y «Solar System Ephemerides» | https://docs.astropy.org/en/stable/coordinates/ ; https://docs.astropy.org/en/stable/coordinates/solarsystem.html | Según la documentación, AltAz usa información de rotación terrestre y la efeméride integrada usa elementos orbitales aproximados (errores de unos segundos a ~1,5 minutos de arco según el planeta); uso en esta clase: Precesión J2000→2025-11-05 usada como prueba (valores generados por nosotros con astropy 8.0.2 y pyerfa 2.0.1.5, no publicados) | 2026-11-05 | Documentación leída; valores ejecutados localmente |
 | S4 | NASA NSSDC, *Moon Fact Sheet* (act. 11-ene-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html | Revolución sidérea 27,3217 d; distancia media 384 400 km; radio 1737,4 km | 2026-11-05 | Página leída |
 | S5 | NASA NSSDC, *Earth Fact Sheet* (act. 15-nov-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | Radio medio de la Tierra 6371 km | 2026-11-05 | Página leída |
 
@@ -221,6 +221,8 @@ La ficha debe contener la conversión correcta de unidades, la época declarada,
 </details>
 
 ## 17. Laboratorio: [`coordenadas.py`](coordenadas.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Convertir y comparar coordenadas, y medir el efecto de la precesión. **Datos:** observados-calculados (posiciones de la NASA); precesión simulada. **Procedimiento:** `python coordenadas.py`. Detiene el programa si falla la prueba analítica (15° por hora de AR, polo a polo 180°) o la comparación con astropy. **Resultados reales (Python 3.12.9):**
 

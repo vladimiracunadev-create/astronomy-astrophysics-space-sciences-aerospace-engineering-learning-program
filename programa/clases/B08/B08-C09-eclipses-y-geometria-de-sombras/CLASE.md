@@ -225,6 +225,8 @@ El plan debe indicar la fuente del eclipse (S1), el tipo y la región; mencionar
 
 ## 17. Laboratorio: [`eclipses.py`](eclipses.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Calcular la geometría de sombras y comprobar las candidatas de 2025. **Datos:** constantes publicadas de la NASA y filas de la tabla SVS 5415; salidas simuladas. **Procedimiento:** `python eclipses.py`; la prueba detiene el programa si el modelo no marca exactamente como candidatas las lunas nuevas del 29 de marzo y del 21 de septiembre. **Resultados reales (Python 3.12.9):**
 
 ```text

@@ -216,6 +216,8 @@ El plan usa `Ω cos δ`, calcula el tiempo de cruce, declara supuestos, cita S1 
 
 ## 17. Laboratorio: [`seguimiento.py`](seguimiento.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Calcular tasas de seguimiento y comprobar fórmulas contra métodos independientes. **Datos:** rotación sidérea publicada; resultados simulados. **Procedimiento:** `python seguimiento.py`; las pruebas comparan las fórmulas altacimutales con diferencias finitas y la deriva polar con una simulación de rotación. **Resultados reales (Python 3.12.9):**
 
 ```text

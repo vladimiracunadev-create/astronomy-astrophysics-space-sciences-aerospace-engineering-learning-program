@@ -221,6 +221,8 @@ Un plan válido prefiere la proyección o los datos abiertos; si usa visor o fil
 
 ## 17. Laboratorio: [`solar.py`](solar.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Calcular el tamaño de una imagen proyectada y la rotación solar, con control del diámetro angular. **Datos:** publicados (NASA) y estimados (SILSO). **Procedimiento:** `python solar.py` (no se mira el Sol); la prueba compara el diámetro angular publicado con `2R/D` (0,5 %). **Resultados reales (Python 3.12.9):**
 
 ```text

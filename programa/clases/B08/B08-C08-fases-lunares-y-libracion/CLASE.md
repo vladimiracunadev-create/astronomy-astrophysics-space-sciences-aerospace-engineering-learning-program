@@ -217,6 +217,8 @@ El diario debe incluir siete filas con UT, estimación, valor de referencia con 
 
 ## 17. Laboratorio: [`fases.py`](fases.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Reproducir con geometría las fases de la NASA. **Datos:** ocho filas de la NASA (calculadas con DE421) y la posición del Sol del modelo (simulada). **Procedimiento:** `python fases.py`; la prueba detiene el programa si la fase difiere más de 0,3 puntos o el diámetro más de 1″. **Resultados reales (Python 3.12.9):**
 
 ```text

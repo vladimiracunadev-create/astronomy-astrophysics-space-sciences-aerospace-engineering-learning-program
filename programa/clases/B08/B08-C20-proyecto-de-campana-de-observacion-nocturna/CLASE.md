@@ -107,7 +107,7 @@ Tiempo en UT; hora local con desfase declarado y fuente. Los umbrales de los cri
 | S3 | NASA Science, *Eclipse safety* | https://science.nasa.gov/eclipses/safety/ | Seguridad solar (R1) | 2026-11-05 | Página leída |
 | S4 | AAS, *Solar filters…* y *How to tell if your eclipse glasses… are safe* | https://eclipse.aas.org/eye-safety/viewers-filters ; https://eclipse.aas.org/eye-safety/how-to-tell-if-viewers-are-safe | Filtros al frente, verificación de proveedores | 2026-11-05 | Páginas leídas (sin fecha) |
 | S5 | IMO, *Visual observation* y *Meteor Shower Calendar* | https://imo.net/observations/methods/visual-observation/ ; https://imo.net/calendar/ | Método de registro y calendario (si la campaña es de meteoros) | 2026-11-05 | Páginas leídas |
-| S6 | astropy 8.0.2 / pyerfa 2.0.1.5 | https://www.astropy.org | Referencia numérica de las pruebas de la biblioteca y de la tabla de planetas | 2026-11-05 | Ejecutado localmente |
+| S6 | astropy, documentación v8.0.2: «Coordinates» y «Solar System Ephemerides» | https://docs.astropy.org/en/stable/coordinates/ ; https://docs.astropy.org/en/stable/coordinates/solarsystem.html | Según la documentación, AltAz usa información de rotación terrestre y la efeméride integrada usa elementos orbitales aproximados (errores de unos segundos a ~1,5 minutos de arco según el planeta); uso en esta clase: Referencia numérica de las pruebas de la biblioteca y de la tabla de planetas (valores generados por nosotros con astropy 8.0.2 y pyerfa 2.0.1.5, no publicados) | 2026-11-05 | Documentación leída; valores ejecutados localmente |
 
 Límites: el pronóstico meteorológico, la normativa de acceso y de iluminación del sitio y los permisos **no se consultaron**; los umbrales y los requisitos son una propuesta didáctica; no es una guía de gestión de proyectos ni un procedimiento de seguridad certificado.
 
@@ -225,6 +225,8 @@ El plan cumple si cada requisito es verificable, R1 (seguridad solar) es crític
 </details>
 
 ## 17. Laboratorio: [`campana.py`](campana.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Verificar los requisitos y decidir go/no-go para las dos noches. **Datos:** reutiliza los de C12 (NASA y modelo del Sol) y la tabla de planetas de C10. **Procedimiento:** `python campana.py`; las pruebas exigen que cada requisito tenga criterio, método y fuente, que exista el requisito de seguridad solar, que la noche de Luna llena sea NO-GO, la de Luna nueva GO, y que con 80 % de nubes ambas sean NO-GO. **Resultados reales (Python 3.12.9):**
 

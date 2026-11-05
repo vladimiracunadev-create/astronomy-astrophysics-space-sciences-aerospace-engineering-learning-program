@@ -21,7 +21,7 @@ La decisión central: **elegir qué método de orientación usar según la hora,
 1. Definir norte geográfico (verdadero), norte magnético y declinación magnética, y explicar por qué difieren.
 2. Hallar el norte con una vara y su sombra, y estimar el error de ese método.
 3. Calcular el acimut del orto (salida) del Sol a partir de la declinación del Sol y la latitud.
-4. Encontrar el sur con la Cruz del Sur y las estrellas «Punteras», y decir por qué no hay una «estrella polar» austral brillante.
+4. Encontrar el sur con la Cruz del Sur y decir qué parte de ese método está respaldada por una fuente y cuál es práctica.
 5. Combinar dos métodos y reportar el rumbo con su incertidumbre.
 6. Adaptar la orientación a una persona que no ve, o a una noche nublada.
 
@@ -92,7 +92,7 @@ Para `φ = −30°` y `δ = −15,8°` (5 de noviembre), `A ≈ 108,4°`: unos 1
 
 ### 8.3 La Cruz del Sur y el polo sur celeste
 
-En el hemisferio sur no hay una estrella brillante señalando el polo, como ocurre con la Polar en el norte (afirmación general que no se verificó en una fuente de esta clase). La fuente S5 solo afirma que el pie de la Cruz apunta siempre hacia el polo sur celeste; el resto de este apartado es método práctico. Método: prolonga el eje largo de la Cruz, del brazo mayor hacia su pie, unas 4,5 veces su longitud; el punto al que llegas está cerca del polo sur celeste. Bajas desde ese punto una vertical hasta el horizonte y obtienes el **sur** con un error de pocos grados. La cifra «4,5 veces» es una regla práctica que no se verificó en una fuente de esta clase; la comprobarás tú en el laboratorio sin código. Las dos estrellas brillantes de Centauro, α y β Cen (las «Punteras»), apuntan aproximadamente hacia la Cruz (S5).
+En el hemisferio sur no hay una estrella brillante señalando el polo, como ocurre con la Polar en el norte (afirmación general que no se verificó en una fuente de esta clase). La fuente S5 (ESO, página de una imagen) dice solo que las cuatro estrellas principales de la Cruz son una marca útil para identificar el polo sur celeste; todo lo demás de este apartado (que el pie apunte al polo, el eje largo y la cifra de 4,5 longitudes) es método práctico que esta clase no verificó en una fuente. Método: prolonga el eje largo de la Cruz, del brazo mayor hacia su pie, unas 4,5 veces su longitud; el punto al que llegas está cerca del polo sur celeste. Bajas desde ese punto una vertical hasta el horizonte y obtienes el **sur** con un error de pocos grados. La cifra «4,5 veces» es una regla práctica que no se verificó en una fuente de esta clase; la comprobarás tú en el laboratorio sin código.
 
 ### 8.4 La brújula y la declinación
 
@@ -122,9 +122,11 @@ Acimut desde el norte hacia el este. Latitud sur negativa. El orto se define con
 | S2 | NOAA NCEI, *World Magnetic Model* | https://www.ncei.noaa.gov/products/world-magnetic-model | WMM2025 liberado el 17-dic-2024, válido hasta fines de 2029; definición de declinación | 2026-11-05 | Página leída (mutable) |
 | S3 | USNO, *Rise, Set, and Twilight Definitions* | https://aa.usno.navy.mil/faq/RST_defs | Orto/ocaso con −50′; tránsito; definiciones | 2026-11-05 | Página leída |
 | S4 | NASA NSSDC, *Earth Fact Sheet* (act. 15-nov-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | Oblicuidad 23,44°; rotación sidérea 23,9345 h | 2026-11-05 | Página leída |
-| S5 | ESO, blog «Navigating the stars» (H. Huysegoms, 18-oct-2024) | https://www.eso.org/public/blog/navigating-the-stars/ | El pie de la Cruz apunta al polo sur celeste; las Punteras apuntan a la Cruz | 2026-11-05 | Página leída (divulgativa) |
+| S5 | ESO, imagen «The Southern Cross» (ESO/Y. Beletsky, 3-dic-2009) | https://www.eso.org/public/images/yb_southern_cross_cc/ | Las cuatro estrellas de la Cruz forman una marca útil para identificar el polo sur celeste; la Cruz es la constelación Crux | 2026-11-05 | Página leída (institucional, texto breve) |
 | S6 | NASA, *Eclipse safety* | https://science.nasa.gov/eclipses/safety/ | Seguridad solar (sección 21) | 2026-11-05 | Página leída |
 | S7 | AAS, *How to tell if your eclipse glasses or handheld solar viewers are safe* | https://eclipse.aas.org/eye-safety/how-to-tell-if-viewers-are-safe | ISO 12312-2; una etiqueta no basta; proveedores verificados | 2026-11-05 | Página leída (mutable) |
+
+Lectura complementaria divulgativa (no sostiene ninguna afirmación de la clase): ESO, blog «Navigating the stars» (18-oct-2024), https://www.eso.org/public/blog/navigating-the-stars/.
 
 Límites: el método de las «4,5 longitudes», la ausencia de una estrella polar austral brillante y las cifras de error de la vara son prácticas didácticas, no resultados de fuente. La declinación magnética local no se obtuvo.
 
@@ -194,7 +196,7 @@ Equinoccio: 90°. Diciembre: `cos A = −0,397/0,866 = −0,458`, `A = 117,3°`.
 
 <details><summary>Solución comentada</summary>
 
-El pie apunta hacia el polo (S5). La altura del polo es igual al valor absoluto de la latitud: unos 30°. Si el pie está a 30° y el polo a 30°, la Cruz está «de pie» sobre el polo, un caso sencillo.
+Según el método práctico, el pie apunta hacia el polo; S5 respalda solo que la Cruz sirve de marca para identificarlo. La altura del polo es igual al valor absoluto de la latitud: unos 30°. Si el pie está a 30° y el polo a 30°, la Cruz está «de pie» sobre el polo, un caso sencillo.
 </details>
 
 **Ejercicio 7.** Explica por qué «el Sol sale por el este» es una aproximación y da el error máximo a −30°.
@@ -240,6 +242,8 @@ La tarjeta lista el valor de cada acimut con su incertidumbre, usa dos métodos 
 </details>
 
 ## 17. Laboratorio: [`orientacion.py`](orientacion.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Comprobar la fórmula del orto contra el cálculo con el Sol completo. **Datos:** simulados (calculados) para `φ = −30,0°`, `λ = −70,7°`. **Procedimiento:** ejecutar `python orientacion.py`. La prueba detiene el programa si el acimut numérico se aleja más de 0,5° de la fórmula. **Resultados reales (Python 3.12.9):**
 

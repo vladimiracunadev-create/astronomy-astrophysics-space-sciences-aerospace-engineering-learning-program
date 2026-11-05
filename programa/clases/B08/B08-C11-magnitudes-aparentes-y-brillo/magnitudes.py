@@ -5,7 +5,7 @@
 Datos PUBLICADOS: magnitud visual aparente del Sol -26,74 (NASA Sun Fact Sheet, act. 9-may-2024) y de la Luna llena
 -12,74 (NASA Moon Fact Sheet, media en oposición, act. 11-ene-2024), consultadas 2026-11-05; límite de referencia 6,5
 de la definición de ZHR de la IMO (glosario, consultado 2026-11-05). Definición: 5 magnitudes = factor 100 en flujo
-(J. Battat, «Working with Magnitudes and Color Indices», 2005, PDF leído 2026-11-05). Salidas CALCULADAS.
+(J. Battat, apuntes de 2005, secundaria) y puntos cero bolométricos IAU 2015 B2 (resumen arXiv:1510.06262). Salidas CALCULADAS.
 Supuestos del cálculo de ganancia (SIMULADOS, declarados): pupila dilatada del ojo 7 mm, instrumento sin pérdidas,
 fuente puntual, cielo oscuro e ideal. Dominio: fuentes puntuales; no vale para objetos extensos.
 Prueba independiente: ejemplo trabajado de Battat (dos estrellas idénticas de magnitud 5 se ven de magnitud 4,25).
@@ -16,6 +16,8 @@ import math
 import sys
 
 M_SOL, M_LUNA_LLENA = -26.74, -12.74
+IRRADIANCIA_M0_W_M2 = 2.518e-8     # IAU 2015 B2 (arXiv:1510.06262, resumen): m_bol = 0
+IRRADIANCIA_SOLAR_NOMINAL = 1361.0  # IAU 2015 B3, W/m2
 LM_REFERENCIA = 6.5
 PUPILA_MM = 7.0                                    # supuesto declarado
 
@@ -39,6 +41,7 @@ def ganancia_apertura_mag(d_mm: float, pupila_mm: float = PUPILA_MM) -> float:
 
 
 def pruebas() -> None:
+    assert abs(-2.5 * math.log10(IRRADIANCIA_SOLAR_NOMINAL / IRRADIANCIA_M0_W_M2) - (-26.832)) < 0.002   # IAU B2: m_bol(Sol)
     assert abs(razon_flujo(5.0) - 100.0) < 1e-9
     assert abs(razon_flujo(1.0) - 2.5119) < 1e-4
     assert abs(suma_magnitudes(5.0, 5.0) - 4.25) < 0.005, suma_magnitudes(5.0, 5.0)     # ejemplo de Battat
@@ -51,6 +54,7 @@ def main() -> int:
     pruebas()
     print(f"python {sys.version.split()[0]} | pruebas OK")
     print(f"Una magnitud = factor {razon_flujo(1):.4f}; 5 magnitudes = {razon_flujo(5):.1f}; 10 magnitudes = {razon_flujo(10):.0f}")
+    print(f"m_bol(Sol) con puntos cero IAU 2015: {-2.5 * math.log10(IRRADIANCIA_SOLAR_NOMINAL / IRRADIANCIA_M0_W_M2):.3f} (IAU: -26,832; la magnitud visual NASA es -26,74, otra banda)")
     print(f"Dos estrellas de magnitud 5 juntas: {suma_magnitudes(5.0, 5.0):.4f}")
     print(f"Estrellas de magnitud 3,0 y 4,0 juntas: {suma_magnitudes(3.0, 4.0):.3f}")
     print(f"Sol / Luna llena: {razon_flujo(M_LUNA_LLENA - M_SOL):,.0f} veces (magnitudes {M_SOL} y {M_LUNA_LLENA})")

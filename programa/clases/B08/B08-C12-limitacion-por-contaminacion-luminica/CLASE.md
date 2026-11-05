@@ -105,7 +105,7 @@ Las horas son UT. La noche astronómica se define con el Sol a −18° (S4). Las
 | S4 | USNO, *Rise, Set, and Twilight Definitions* | https://aa.usno.navy.mil/faq/RST_defs | Crepúsculo astronómico: Sol a 18° bajo el horizonte | 2026-11-05 | Página leída |
 | S5 | ESO, *Paranal Observatory* | https://www.eso.org/public/teles-instr/paranal-observatory/ | Atacama, 2635 m, VLT, «uno de los mejores sitios» | 2026-11-05 | Página leída |
 | S6 | ESO, *La Silla Observatory* | https://www.eso.org/public/teles-instr/lasilla/ | Borde del desierto de Atacama, a unos 600 km al norte de Santiago, 2400 m; cielos oscuros | 2026-11-05 | Página leída |
-| S7 | astropy 8.0.2 / pyerfa 2.0.1.5 | https://www.astropy.org | Instantes de crepúsculo astronómico (prueba del laboratorio) | 2026-11-05 | Ejecutado localmente |
+| S7 | astropy, documentación v8.0.2: «Coordinates» y «Solar System Ephemerides» | https://docs.astropy.org/en/stable/coordinates/ ; https://docs.astropy.org/en/stable/coordinates/solarsystem.html | Según la documentación, AltAz usa información de rotación terrestre y la efeméride integrada usa elementos orbitales aproximados (errores de unos segundos a ~1,5 minutos de arco según el planeta); uso en esta clase: Instantes de crepúsculo astronómico (prueba del laboratorio) (valores generados por nosotros con astropy 8.0.2 y pyerfa 2.0.1.5, no publicados) | 2026-11-05 | Documentación leída; valores ejecutados localmente |
 
 Límites: no se leyó el cuerpo del artículo de Falchi ni se obtuvo el atlas para Chile; la normativa chilena y las áreas de protección astronómica **no se consultaron** (las fuentes oficiales no se abrieron en esta redacción); no se midió el brillo del cielo en unidades físicas; buenas prácticas de iluminación (apantallado, tono cálido, regulación) son recomendaciones generales no verificadas aquí.
 
@@ -217,6 +217,8 @@ Debe incluir datos de al menos dos observadores o dos áreas, media y SEM, fecha
 </details>
 
 ## 17. Laboratorio: [`ventana_oscura.py`](ventana_oscura.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Calcular las horas de noche astronómica sin Luna. **Datos:** posiciones lunares de la NASA (calculadas, copiadas) y Sol de baja precisión (simulado). **Procedimiento:** `python ventana_oscura.py`; la prueba compara el crepúsculo con astropy (6 min de tolerancia) y exige que la noche de Luna nueva tenga más horas sin Luna. **Resultados reales (Python 3.12.9):**
 

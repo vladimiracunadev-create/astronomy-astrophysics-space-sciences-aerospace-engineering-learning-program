@@ -70,7 +70,7 @@ flowchart TD
 
 ### 8.1 La altura del polo es tu latitud
 
-Si estás en el polo sur, el polo celeste está sobre tu cabeza (altura 90°), y el horizonte coincide con el ecuador celeste. Si estás en el ecuador terrestre, el eje es horizontal y el polo está en el horizonte (0°). Entre ambos, la altura del polo sur celeste es `|φ|`. En el Elqui (`φ = −30°`) el polo sur celeste está a 30° sobre el horizonte, hacia el sur. Verifica con C01: el pie de la Cruz del Sur apunta hacia él (S2).
+Si estás en el polo sur, el polo celeste está sobre tu cabeza (altura 90°), y el horizonte coincide con el ecuador celeste. Si estás en el ecuador terrestre, el eje es horizontal y el polo está en el horizonte (0°). Entre ambos, la altura del polo sur celeste es `|φ|`. En el Elqui (`φ = −30°`) el polo sur celeste está a 30° sobre el horizonte, hacia el sur. Verifica con C01: la Cruz del Sur sirve de marca para identificarlo (método práctico de C01; ESO la describe como una marca útil para el polo sur celeste, S2).
 
 **Pausa.** Con la afirmación anterior, ¿a qué altura estaría el polo sur celeste en un lugar de latitud −18°? <details><summary>Respuesta</summary>18° sobre el horizonte sur.</details>
 
@@ -104,7 +104,7 @@ Se ignoran refracción (que eleva los astros cerca del horizonte unos 34′, S3)
 | ID | Fuente | Localizador | Respalda | Consulta | Estado |
 |---|---|---|---|---|---|
 | S1 | NASA SVS 5415, *Moon Phase and Libration, 2025* (JPL DE421) | https://svs.gsfc.nasa.gov/5415/ ; `mooninfo_2025.txt` | RA/Dec de la Luna el 4–5 nov 2025 | 2026-11-05 | Datos leídos |
-| S2 | ESO, «Navigating the stars» (18-oct-2024) | https://www.eso.org/public/blog/navigating-the-stars/ | El pie de la Cruz apunta al polo sur celeste | 2026-11-05 | Página leída (divulgativa) |
+| S2 | ESO, imagen «The Southern Cross» (ESO/Y. Beletsky, 3-dic-2009) | https://www.eso.org/public/images/yb_southern_cross_cc/ | La Cruz es una marca útil para identificar el polo sur celeste | 2026-11-05 | Página leída (institucional, texto breve) |
 | S3 | USNO, *Rise, Set, and Twilight Definitions* | https://aa.usno.navy.mil/faq/RST_defs | Refracción de 34′ en el horizonte; definición de tránsito | 2026-11-05 | Página leída |
 | S4 | NASA NSSDC, *Earth Fact Sheet* | https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | Rotación sidérea 23,9345 h | 2026-11-05 | Página leída |
 
@@ -221,6 +221,8 @@ Se acepta una carta con alturas medidas (clinómetro, teléfono o estimación co
 </details>
 
 ## 17. Laboratorio: [`horizonte.py`](horizonte.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Contrastar la fórmula de las horas sobre el horizonte con un barrido numérico del ángulo horario. **Datos:** simulados (calculados) para `φ = −30°`. **Procedimiento:** `python horizonte.py`; la prueba detiene el programa si ambos métodos difieren más de 0,05 h. **Resultados reales (Python 3.12.9):**
 

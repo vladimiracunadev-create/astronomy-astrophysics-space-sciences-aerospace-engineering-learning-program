@@ -226,6 +226,8 @@ El informe usa la fórmula de 8.2, cita S2 y S3, declara qué es sintético, cal
 
 ## 17. Laboratorio: [`meteoros.py`](meteoros.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Calcular la ZHR simplificada y la altura de un radiante sintético en el Elqui. **Datos:** sintéticos, con tiempo sidéreo validado contra astropy. **Procedimiento:** `python meteoros.py`; las pruebas verifican los casos analíticos y que la altura máxima del radiante es `90° − |lat − dec|`. **Resultados reales (Python 3.12.9):**
 
 ```text

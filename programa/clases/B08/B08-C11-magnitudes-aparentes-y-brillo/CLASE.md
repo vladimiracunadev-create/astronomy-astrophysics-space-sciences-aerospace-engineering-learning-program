@@ -42,7 +42,7 @@ Esa noche del 5 de noviembre de 2025, la Luna estaba casi llena. Para la NASA, l
 
 ## 6. Vocabulario
 
-La **magnitud aparente** `m` es una medida logarítmica del flujo de luz que llega de un objeto, como se ve desde la Tierra; la escala crece al disminuir el brillo y los valores negativos son más brillantes que el cero (S3). Una diferencia de 5 magnitudes equivale a un factor 100 en flujo, definición establecida en 1856 (S3). El **flujo** `F` es la energía luminosa que llega por unidad de área y tiempo. La **magnitud límite** es la del objeto más débil que se puede ver en un cielo y con un instrumento dados; la IMO usa 6,5 como referencia en su definición de ZHR (S4). La **ganancia** es cuántas magnitudes más débil se llega con un instrumento. Una **fuente puntual** es la que el instrumento no resuelve (una estrella); un **objeto extenso** (la Luna, una nebulosa) no cumple las reglas de esta clase.
+La **magnitud aparente** `m` es una medida logarítmica del flujo de luz que llega de un objeto, como se ve desde la Tierra; la escala crece al disminuir el brillo y los valores negativos son más brillantes que el cero (S3). Una diferencia de 5 magnitudes equivale a un factor 100 en flujo; unos apuntes de curso (S6) la atribuyen a una definición de 1856 (el artículo de Pogson, S5, no se pudo leer) y la escala logarítmica es coherente con los puntos cero fijados por la IAU en 2015 (S3), que el laboratorio comprueba. El **flujo** `F` es la energía luminosa que llega por unidad de área y tiempo. La **magnitud límite** es la del objeto más débil que se puede ver en un cielo y con un instrumento dados; la IMO usa 6,5 como referencia en su definición de ZHR (S4). La **ganancia** es cuántas magnitudes más débil se llega con un instrumento. Una **fuente puntual** es la que el instrumento no resuelve (una estrella); un **objeto extenso** (la Luna, una nebulosa) no cumple las reglas de esta clase.
 
 ## 7. Modelo mental: una escala que se comprime
 
@@ -63,13 +63,13 @@ flowchart LR
 
 ### 8.1 De magnitudes a flujos
 
-Si dos objetos tienen magnitudes `m₁` y `m₂`, sus flujos cumplen `F₁/F₂ = 100^((m₂ − m₁)/5)` (S3). Para `Δm = 1`, el cociente es `100^(1/5) = 2,512`; para `Δm = 2,5`, es 10. El Sol (−26,74) y la Luna llena (−12,74): `Δm = 14`, `F_Sol/F_Luna = 100^(14/5) = 10^5,6 = 3,98 × 10⁵`. El laboratorio da 398 107.
+Si dos objetos tienen magnitudes `m₁` y `m₂`, sus flujos cumplen `F₁/F₂ = 100^((m₂ − m₁)/5)` (S6; comprobación con la IAU en la sección 17). Para `Δm = 1`, el cociente es `100^(1/5) = 2,512`; para `Δm = 2,5`, es 10. El Sol (−26,74) y la Luna llena (−12,74): `Δm = 14`, `F_Sol/F_Luna = 100^(14/5) = 10^5,6 = 3,98 × 10⁵`. El laboratorio da 398 107.
 
 **Pausa.** Una estrella de magnitud 1 frente a una de magnitud 6: ¿cuánto flujo más? <details><summary>Respuesta</summary>`Δm = 5`, factor 100.</details>
 
 ### 8.2 Combinar magnitudes
 
-Los flujos se suman; las magnitudes no. Dos estrellas idénticas de magnitud 5, no resueltas, tienen flujo doble: `m = 5 + 2,5 log₁₀(0,5) = 4,25`, no 10 (ejemplo de S3). La fórmula general es `m = −2,5 log₁₀(Σ 10^(−0,4 mᵢ))`. Estrellas de magnitud 3,0 y 4,0 juntas dan 2,636. El resultado está siempre más cerca de la más brillante.
+Los flujos se suman; las magnitudes no. Dos estrellas idénticas de magnitud 5, no resueltas, tienen flujo doble: `m = 5 + 2,5 log₁₀(0,5) = 4,25`, no 10 (ejemplo de S6). La fórmula general es `m = −2,5 log₁₀(Σ 10^(−0,4 mᵢ))`. Estrellas de magnitud 3,0 y 4,0 juntas dan 2,636. El resultado está siempre más cerca de la más brillante.
 
 ### 8.3 Ganancia de un instrumento (teórica)
 
@@ -100,10 +100,12 @@ La magnitud visual V se refiere a la banda del ojo; en esta clase se omite la ba
 |---|---|---|---|---|---|
 | S1 | NASA NSSDC, *Sun Fact Sheet* (act. 9-may-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html | Magnitud visual aparente del Sol −26,74 | 2026-11-05 | Página leída |
 | S2 | NASA NSSDC, *Moon Fact Sheet* (act. 11-ene-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html | Magnitud visual aparente media en oposición −12,74 | 2026-11-05 | Página leída |
-| S3 | J. Battat, «Working with Magnitudes and Color Indices» (12-may-2005), apuntes | https://lweb.cfa.harvard.edu/~dfabricant/huchra/ay145/magnitudes.pdf | Definición de 1856: 5 magnitudes = factor 100; 1 mag = 2,512; ejemplo de dos estrellas idénticas (5 → 4,25); «los flujos se suman, las magnitudes no» | 2026-11-05 | PDF leído (texto extraído con PyMuPDF; apuntes de curso, fuente secundaria) |
+| S3 | IAU, Resolución B2 de 2015 sobre los puntos cero de las magnitudes bolométricas (Mamajek et al., arXiv:1510.06262) | https://arxiv.org/abs/1510.06262 | M_bol = 0 corresponde a 3,0128 × 10²⁸ W; m_bol = 0 a una irradiancia de ≈ 2,518 × 10⁻⁸ W m⁻²; con la irradiancia solar nominal de 1361 W m⁻² resulta m_bol(Sol) ≈ −26,832 | 2026-11-05 | Resumen consultado (no el texto completo) |
+| S5 | N. Pogson, «Magnitudes of Thirty-six of the Minor Planets…», MNRAS 17, 12–15 (14-nov-1856), doi:10.1093/mnras/17.1.12 | https://academic.oup.com/mnras/article-lookup/doi/10.1093/mnras/17.1.12 | Solo metadatos bibliográficos: el artículo no se pudo leer (acceso restringido) | 2026-11-05 | Solo metadatos; no respalda ninguna afirmación numérica |
+| S6 | J. Battat, «Working with Magnitudes and Color Indices» (12-may-2005), apuntes (lectura complementaria) | https://lweb.cfa.harvard.edu/~dfabricant/huchra/ay145/magnitudes.pdf | Definición de 5 mag = factor 100 (1 mag = 2,512); ejemplo de dos estrellas idénticas (5 → 4,25) | 2026-11-05 | PDF leído (apuntes de curso, fuente secundaria) |
 | S4 | IMO, *Glossary* | https://imo.net/resources/glossary/ | ZHR: magnitud límite de 6,5 y radiante en el cenit; magnitud límite = estrella más débil visible | 2026-11-05 | Página leída |
 
-Límites: la pupila de 7 mm, la pérdida de luz de los instrumentos y la ganancia ideal son supuestos o resultados del modelo, no datos de fuente. Los apuntes de Battat son material de curso (fuente secundaria): sirven para la definición y el ejemplo, no para fijar el cero de la escala.
+Límites: la pupila de 7 mm, la pérdida de luz de los instrumentos y la ganancia ideal son supuestos o resultados del modelo, no datos de fuente. Los apuntes de Battat (S6) son material de curso, fuente secundaria: sirven para el ejemplo, no para fijar el cero de la escala. Del texto de la IAU (S3) solo se leyó el resumen: los puntos cero bolométricos no son el cero de la magnitud visual V de las tablas de la NASA.
 
 ## 12. Cómo ver la escala
 
@@ -177,7 +179,7 @@ La **fórmula ideal** es rápida y da la cota. El **conteo de estrellas** (C12, 
 
 <details><summary>Solución comentada</summary>
 
-Las magnitudes no se suman; se suman los flujos. El resultado es 4,25: más brillante que cada una, no más débil (S3).
+Las magnitudes no se suman; se suman los flujos. El resultado es 4,25: más brillante que cada una, no más débil (S6).
 </details>
 
 **Ejercicio 8.** Si bajo cielo con la Luna tu límite a simple vista es 5,5 en vez de 6,5, ¿qué fracción de flujo has perdido?
@@ -217,10 +219,13 @@ La escalera debe estar ordenada, con cocientes calculados con `100^(Δm/5)`, fue
 
 ## 17. Laboratorio: [`magnitudes.py`](magnitudes.py)
 
-**Objetivo.** Calcular razones de flujo, sumas de magnitudes y ganancias ideales. **Datos:** publicados (NASA, IMO, Battat); resultados calculados. **Procedimiento:** `python magnitudes.py`; se detiene si no se reproduce el ejemplo de Battat (5 + 5 → 4,25). **Resultados reales (Python 3.12.9):**
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
+**Objetivo.** Calcular razones de flujo, sumas de magnitudes y ganancias ideales. **Datos:** publicados (NASA, IMO, IAU B2, Battat); resultados calculados. **Procedimiento:** `python magnitudes.py`; se detiene si no se reproduce el ejemplo de Battat (5 + 5 → 4,25) o si la irradiancia solar nominal de la IAU no da m_bol ≈ −26,832 con el punto cero de 2,518 × 10⁻⁸ W m⁻². **Resultados reales (Python 3.12.9):**
 
 ```text
 Una magnitud = factor 2.5119; 5 magnitudes = 100.0; 10 magnitudes = 10000
+m_bol(Sol) con los puntos cero de la IAU 2015 (1361 W/m² y 2,518e-8 W/m²): -26.832 (IAU: -26,832)
 Dos estrellas de magnitud 5 juntas: 4.2474
 Estrellas de magnitud 3,0 y 4,0 juntas: 2.636
 Sol / Luna llena: 398,107 veces

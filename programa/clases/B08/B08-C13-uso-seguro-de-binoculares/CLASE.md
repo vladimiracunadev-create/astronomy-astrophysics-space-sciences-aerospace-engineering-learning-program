@@ -218,6 +218,8 @@ La ficha debe tener los cálculos de 8.1 y 13, declarar sus supuestos, citar la 
 
 ## 17. Laboratorio: [`binoculares.py`](binoculares.py)
 
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
+
 **Objetivo.** Calcular los números derivados de la especificación. **Datos:** especificaciones tipo (NASA recomienda el rango 7×35–10×50); resultados simulados bajo supuestos declarados. **Procedimiento:** `python binoculares.py`; las pruebas analíticas detienen el programa si fallan. **Resultados reales (Python 3.12.9):**
 
 ```text

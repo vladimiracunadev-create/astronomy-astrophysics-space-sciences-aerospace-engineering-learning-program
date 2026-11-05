@@ -112,7 +112,7 @@ La elongación se da como separación angular de 0° a 180° con el lado (este/o
 | S2 | NASA NSSDC, *Planetary Fact Sheet – Ratio to Earth Values* (act. 18-mar-2025) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html | Distancia al Sol (UA) y período orbital (años), 3 cifras | 2026-11-05 | Página leída |
 | S3 | USNO, *Rise, Set, and Twilight Definitions* | https://aa.usno.navy.mil/faq/RST_defs | Crepúsculo astronómico: Sol a 18° bajo el horizonte | 2026-11-05 | Página leída |
 | S4 | NASA NSSDC, *Earth Fact Sheet* (act. 15-nov-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | Período sidéreo de la Tierra 365,256 d | 2026-11-05 | Página leída |
-| S5 | astropy 8.0.2 / pyerfa 2.0.1.5 | https://www.astropy.org | Elongaciones, alturas y fechas de conjunciones/oposiciones usadas como referencia independiente | 2026-11-05 | Ejecutado localmente; valores copiados |
+| S5 | astropy, documentación v8.0.2: «Coordinates» y «Solar System Ephemerides» | https://docs.astropy.org/en/stable/coordinates/ ; https://docs.astropy.org/en/stable/coordinates/solarsystem.html | Según la documentación, AltAz usa información de rotación terrestre y la efeméride integrada usa elementos orbitales aproximados (errores de unos segundos a ~1,5 minutos de arco según el planeta); uso en esta clase: Elongaciones, alturas y fechas de conjunciones/oposiciones usadas como referencia independiente (valores generados por nosotros con astropy 8.0.2 y pyerfa 2.0.1.5, no publicados) | 2026-11-05 | Documentación leída; valores ejecutados localmente |
 
 Límites: los valores de S5 son una efeméride de baja a media precisión (no una publicación oficial) y no se compararon con almanaques impresos ni con el USNO. No se consultó la elongación máxima real de Mercurio y Venus.
 
@@ -217,6 +217,8 @@ El pronóstico debe usar una efeméride con fuente citada, la regla del crepúsc
 </details>
 
 ## 17. Laboratorio: [`elongacion.py`](elongacion.py)
+
+**Requisitos:** Python 3.9 o superior y solo la biblioteca estándar; no hace falta instalar nada. Los valores de referencia de astropy 8.0.2 / pyerfa 2.0.1.5 están copiados en el código (no se importa astropy); para regenerarlos: `pip install astropy==8.0.2` (o `uv pip install astropy==8.0.2`). Los scripts comparten `programa/clases/B08/astrolib_b08.py`; si falta, Python avisa con un ImportError que nombra el módulo.
 
 **Objetivo.** Calcular elongaciones máximas y períodos sinódicos y contrastarlos con una referencia independiente. **Datos:** publicados (NASA, 3 cifras) y calculados (astropy, copiados). **Procedimiento:** `python elongacion.py`; se detiene si la elongación analítica y la numérica difieren más de 0,01° o si un período sinódico difiere más de 1 % (Venus, Júpiter) o 3 % (Marte) de la referencia. **Resultados reales (Python 3.12.9):**
 
