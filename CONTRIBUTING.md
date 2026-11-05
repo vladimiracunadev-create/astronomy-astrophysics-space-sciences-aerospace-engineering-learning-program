@@ -31,6 +31,12 @@ Gracias por mejorar el **Programa Integral de Astronomía, Astrofísica, Ciencia
 
 Una propuesta de clase o ampliación debe incluir propósito, resultados observables, prerrequisitos, nivel N0–N5, fuentes, actividad, evidencia, evaluación, continuidad y análisis antirrepetición. Los contenidos se resuelven primero como piloto; no se generan miles de plantillas para simular completitud.
 
+## Licencias y derecho de contribución
+
+Al enviar una contribución declaras que puedes aportarla y que no incorpora material incompatible o confidencial. El código propio se aporta bajo Apache-2.0; la expresión educativa original, bajo CC BY-NC-SA 4.0. Un dataset, activo o fragmento externo debe registrar titular, fuente, versión, licencia, cambios y atribución antes de incorporarse.
+
+Consulta la [matriz de licenciamiento](documentacion/LICENSING_MATRIX.md). Si no puedes demostrar el permiso de redistribución, incluye una referencia en vez de copiar el recurso.
+
 ## Informes de errores
 
 Incluye ID exacto, archivo, comportamiento esperado, evidencia y alcance. Para una fuente o norma, añade organismo, título, versión, fecha, localizador y jurisdicción aplicable.

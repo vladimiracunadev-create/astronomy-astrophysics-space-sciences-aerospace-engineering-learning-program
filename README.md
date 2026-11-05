@@ -13,6 +13,8 @@
 [![Catálogo](https://img.shields.io/badge/catálogo-5.120_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
 [![Estado](https://img.shields.io/badge/clases_redactadas-0_de_5.120-d73a49?style=for-the-badge)](STATUS.md)
 [![Idioma](https://img.shields.io/badge/idioma-español_de_Chile-007c83?style=for-the-badge)](README.md)
+[![Código](https://img.shields.io/badge/código-Apache--2.0-d22128?style=for-the-badge)](LICENSE)
+[![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [🌐 Explorar el catálogo](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/) ·
 [📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) ·
@@ -21,6 +23,7 @@
 [🗺️ Roadmap](ROADMAP.md) ·
 [✅ Estado verificable](STATUS.md) ·
 [📖 Documentación](documentacion/README.md) ·
+[⚖️ Licencias](documentacion/LICENCIAS_Y_PROCEDENCIA.md) ·
 [🤝 Contribuir](CONTRIBUTING.md)
 
 </div>
@@ -151,3 +154,9 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 El nombre académico formal es **Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial** y el repositorio es `astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program`. No se utiliza una sigla como nombre alternativo.
 
 La versión documental `0.1.0` fija la línea base del catálogo. Las futuras ampliaciones serán aditivas, conservarán los IDs existentes y registrarán dependencias, fuentes y decisiones. Consulta el [contrato del repositorio](documentacion/ALCANCE_Y_CONTRATO_DEL_REPOSITORIO.md) antes de proponer cambios.
+
+## ⚖️ Licenciamiento diferenciado
+
+El software propio —scripts, workflows, configuración y componentes funcionales— se publica bajo [Apache License 2.0](LICENSE). La expresión educativa original, la arquitectura curricular y la documentación se publican bajo [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Datos, activos, fuentes de terceros y marcas conservan reglas específicas.
+
+Consulta el [centro de licencias](documentacion/LICENCIAS_Y_PROCEDENCIA.md), la [matriz por componente](documentacion/LICENSING_MATRIX.md) y la [auditoría vigente](LICENSING_AUDIT.md). La publicación no relicencia obras externas ni implica patrocinio institucional.

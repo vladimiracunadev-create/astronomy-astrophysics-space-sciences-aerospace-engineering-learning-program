@@ -13,6 +13,9 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 - Estándar `clase-profunda-cientifica` de 22 funciones.
 - Resolución editorial E0–E6 y niveles pedagógicos N0–N5.
 - Documentación pública, estado verificable, roadmap y guía de contribución.
+- Licenciamiento diferenciado: Apache-2.0 para software y CC BY-NC-SA 4.0 para contenido educativo original.
+- Políticas separadas para datos, activos, terceros, marcas, uso comercial e historial de licencias.
+- Guías profesionales de syllabus, carga, fuentes, verificación, dependencias, portafolio, seguridad, soporte y conducta.
 
 ### Estado honesto
 

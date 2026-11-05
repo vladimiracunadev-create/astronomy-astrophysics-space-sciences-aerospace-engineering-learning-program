@@ -16,6 +16,8 @@
 | Clases en E0 · catalogada | 5.120 | campo `estado=solo_titulo_y_referencia_preliminar` |
 | Clases en E1–E6 | 0 | catálogo |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
+| Régimen de software | Apache-2.0 | `LICENSE` |
+| Régimen de contenido original | CC BY-NC-SA 4.0 | `LICENSE-CONTENT.md` |
 
 ## Qué está validado
 
@@ -25,6 +27,7 @@
 - existencia de 64 índices de bloque, 192 índices de módulo y 24 índices de ruta;
 - presencia de título, descripción preliminar y tres referencias iniciales por registro;
 - conservación del estado preliminar de las 5.120 unidades.
+- presencia de una matriz diferenciada para software, contenido, datos, activos, terceros y marcas.
 
 ## Qué no está validado
 

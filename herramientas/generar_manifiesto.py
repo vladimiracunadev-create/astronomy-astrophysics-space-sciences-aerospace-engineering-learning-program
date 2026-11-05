@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Regenera el manifiesto SHA-256 de los archivos versionables del programa."""
 
 from __future__ import annotations

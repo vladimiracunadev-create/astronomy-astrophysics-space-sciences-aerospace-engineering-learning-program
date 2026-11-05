@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 # Catálogo espacial: comprobaciones de estructura documental; no certifica corrección científica futura.
 from pathlib import Path
 import csv, json, sys, re
@@ -9,6 +10,7 @@ def check(condition,detail):
 with (ROOT/'catalogo/clases.json').open(encoding='utf-8') as f: cat=json.load(f)
 with (ROOT/'catalogo/clases.csv').open(encoding='utf-8-sig',newline='') as f: csv_rows=list(csv.DictReader(f))
 with (ROOT/'catalogo/clases.jsonl').open(encoding='utf-8') as f: jsonl=[json.loads(x) for x in f if x.strip()]
+with (ROOT/'metadatos/programa.json').open(encoding='utf-8') as f: programa=json.load(f)
 check(len(cat)==5120,f'Cantidad de fichas: {len(cat)} vs 5120')
 check(len(csv_rows)==len(cat),'CSV difiere en cantidad de filas')
 check(len(jsonl)==len(cat),'JSONL difiere en cantidad de registros')
@@ -33,6 +35,13 @@ for mid in {x['modulo_id'] for x in cat if x['modulo_id']}:
  check(len([x for x in cat if x['modulo_id']==mid])==20,f'{mid}: no hay 20 clases')
 check((ROOT/'PROGRAMA_ACADEMICO_COMPLETO.md').exists(),'Falta índice completo legible')
 check((ROOT/'visor/index.html').exists(),'Falta visor local')
+legal_files=['LICENSE','LICENSE-CONTENT.md','DATA_LICENSES.md','ASSET_LICENSES.md','THIRD_PARTY_NOTICES.md','TRADEMARKS.md','LICENSING_AUDIT.md','documentacion/LICENSING_MATRIX.md']
+for legal_file in legal_files:
+ check((ROOT/legal_file).exists(),f'Falta archivo de licenciamiento: {legal_file}')
+check('Apache License' in (ROOT/'LICENSE').read_text(encoding='utf-8'),'LICENSE no identifica Apache License')
+check('CC BY-NC-SA 4.0' in (ROOT/'LICENSE-CONTENT.md').read_text(encoding='utf-8'),'LICENSE-CONTENT no identifica CC BY-NC-SA 4.0')
+check(programa.get('licencia_codigo')=='Apache-2.0','Metadato de licencia de código incorrecto')
+check(programa.get('licencia_contenido_original')=='CC-BY-NC-SA-4.0','Metadato de licencia de contenido incorrecto')
 for key in ['titulo','descripcion_preliminar','fuentes_preliminares','numero_clase','id']:
  check(all(key in x for x in cat),f'Falta campo {key} en fichas')
 print('Catálogo:',len(cat),'clases | 64 bloques | 24 rutas | 192 módulos')

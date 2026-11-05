@@ -17,5 +17,9 @@
   "clases_desarrolladas": 0,
   "fuentes_por_unidad": "orientativas_no_validadas_individualmente",
   "metodologia": "20 clases por bloque o modulo",
-  "relacion_con_otras_formaciones": "repositorio independiente; interoperabilidad federada por manifiestos, sin reestructurar repositorios externos"
+  "relacion_con_otras_formaciones": "repositorio independiente; interoperabilidad federada por manifiestos, sin reestructurar repositorios externos",
+  "licencia_codigo": "Apache-2.0",
+  "licencia_contenido_original": "CC-BY-NC-SA-4.0",
+  "licenciamiento_diferenciado": true,
+  "politica_licencias": "documentacion/LICENCIAS_Y_PROCEDENCIA.md"
 }

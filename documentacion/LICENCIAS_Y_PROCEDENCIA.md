@@ -1,13 +1,28 @@
-# Licencias, fuentes y atribuciones: decisiones pendientes
+# Licencias, procedencia y derechos
 
-La presente propuesta es un artefacto curricular original. Para su publicación bajo una identidad de autor debe decidirse explícitamente la licencia correspondiente. **La versión actual no impone una licencia a textos, marcas o futuros datasets.**
+Este repositorio utiliza licencias diferenciadas porque combina software, expresión educativa, catálogos, metadatos, activos y referencias de terceros. La licencia aplicable se determina por la naturaleza del componente, no sólo por su extensión o carpeta.
 
-Separar en la implementación:
-- Código propio: licencia a determinar por titular (MIT es una posibilidad, no una asignación automática).
-- Currículo y textos: licencia de contenidos a determinar de manera independiente.
-- Datos científicos: licencias y condiciones del proveedor, archivo por archivo.
-- Fotografías, diagramas, logotipos, mapas y archivos: atribución, licencia y permisos específicos.
-- Estándares técnicos: utilizar referencias y fragmentos permitidos; no redistribuir automáticamente estándares completos.
-- Nombre comercial: no se concede uso de marcas de NASA, ESA, ESO, ALMA ni demás organismos.
+## Resumen ejecutivo
 
-La disponibilidad pública de un documento NO autoriza su redistribución íntegra. El índice puede apuntar a fuentes externas verificadas y el futuro material debe citar correctamente las afirmaciones relevantes.
+| Componente | Régimen principal | Documento rector |
+|---|---|---|
+| código, scripts, workflows y configuración funcional | Apache License 2.0 | [`LICENSE`](../LICENSE) |
+| texto educativo, estructura curricular y documentación original | CC BY-NC-SA 4.0 | [`LICENSE-CONTENT.md`](../LICENSE-CONTENT.md) |
+| catálogos y metadatos | régimen por campo y procedencia | [`DATA_LICENSES.md`](../DATA_LICENSES.md) |
+| imágenes, audio, video, modelos y diagramas | régimen por activo | [`ASSET_LICENSES.md`](../ASSET_LICENSES.md) |
+| software, fuentes y recursos externos | licencia del titular | [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md) |
+| nombres, emblemas y presentación distintiva | derechos de marca separados | [`TRADEMARKS.md`](../TRADEMARKS.md) |
+
+La [matriz detallada](LICENSING_MATRIX.md) resuelve archivos mixtos y casos futuros. La [auditoría](../LICENSING_AUDIT.md) registra alcance y pendientes. La [historia](LICENSING_HISTORY.md) evita interpretar la política de forma retroactiva.
+
+## Regla de procedencia
+
+Antes de incorporar material externo se registra titular, fuente, versión, licencia o permiso, alcance de reutilización, cambios y atribución. Si el permiso no puede comprobarse, se conserva únicamente una referencia o enlace. Que un documento sea público o gratuito no autoriza copiarlo íntegramente.
+
+Las fuentes preliminares del catálogo orientan la investigación futura; no prueban lectura completa, vigencia, conformidad, patrocinio ni permiso de redistribución.
+
+## Uso comercial
+
+Apache-2.0 permite uso comercial del software sujeto a sus condiciones. La licencia pública del contenido educativo es no comercial. Las solicitudes que excedan ese permiso se tratan según [uso comercial y licencias adicionales](COMMERCIAL_USE.md).
+
+> Esta documentación organiza permisos y atribuciones del proyecto; no constituye asesoría jurídica.
