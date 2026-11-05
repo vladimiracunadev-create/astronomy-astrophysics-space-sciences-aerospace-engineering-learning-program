@@ -1,7 +1,7 @@
 # B05-C12 — Ondas mecánicas y frecuencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C11 — Movimiento oscilatorio](../B05-C11-movimiento-oscilatorio/CLASE.md) · [Siguiente: B05-C13 — Temperatura y energía térmica →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C11 — Movimiento oscilatorio](../B05-C11-movimiento-oscilatorio/CLASE.md) · [Siguiente: B05-C13 — Temperatura y energía térmica →](../B05-C13-temperatura-y-energia-termica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -278,5 +278,5 @@ Una onda mecánica transporta energía por un medio con `v = f λ`; el sonido ne
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B05-C11 — Movimiento oscilatorio](../B05-C11-movimiento-oscilatorio/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C13 — Temperatura y energía térmica →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c13)
+[← Anterior: B05-C11 — Movimiento oscilatorio](../B05-C11-movimiento-oscilatorio/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C13 — Temperatura y energía térmica →](../B05-C13-temperatura-y-energia-termica/CLASE.md)
 <!-- /nav -->
