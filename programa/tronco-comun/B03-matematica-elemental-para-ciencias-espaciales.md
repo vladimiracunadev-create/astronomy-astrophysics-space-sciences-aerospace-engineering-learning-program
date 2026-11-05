@@ -46,15 +46,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b03-c02"></a>[B03-C02](../clases/B03/B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md) | Fracciones y razones de magnitudes | Fracciones, razones adimensionales y proporciones para comparar radios y masas de astros. | Tabla de razones comentada |
 | <a id="b03-c03"></a>[B03-C03](../clases/B03/B03-C03-porcentajes-y-escalas-comparativas/CLASE.md) | Porcentajes y escalas comparativas | Cambio porcentual, base de referencia, punto porcentual y error relativo con perihelio, afelio y constantes. | Tabla de cambios porcentuales |
 | <a id="b03-c04"></a>[B03-C04](../clases/B03/B03-C04-potencias-y-raices/CLASE.md) | Potencias y raíces | Reglas de potencias, exponentes negativos y fraccionarios, raíces y la tercera ley de Kepler con los ocho planetas. | Hoja de predicciones de Kepler |
-| <a id="b03-c05"></a>B03-C05 | Notación científica y órdenes de magnitud | Mantisa y exponente, operar con potencias de diez, comparar escalas por órdenes de magnitud. | Tabla de órdenes de magnitud |
+| <a id="b03-c05"></a>[B03-C05](../clases/B03/B03-C05-notacion-cientifica-y-ordenes-de-magnitud/CLASE.md) | Notación científica y órdenes de magnitud | Mantisa y exponente, operar con potencias de diez, comparar escalas por órdenes de magnitud. | Tabla de órdenes de magnitud |
 
 ### Tramo 2 · Unidades y conversiones
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b03-c06"></a>B03-C06 | Unidades del Sistema Internacional | Unidades base, derivadas y prefijos; escritura correcta y análisis dimensional. | Ficha de análisis dimensional |
-| <a id="b03-c07"></a>B03-C07 | Conversión de distancia y velocidad | Factores de conversión entre m, km, au y entre m/s, km/s y km/h. | Hoja de conversiones verificada |
-| <a id="b03-c08"></a>B03-C08 | Tiempo y conversiones astronómicas | Segundos, días, años y ángulos (grados, minutos y segundos de arco, horas). | Tabla de tiempos y ángulos convertidos |
+| <a id="b03-c06"></a>[B03-C06](../clases/B03/B03-C06-unidades-del-sistema-internacional/CLASE.md) | Unidades del Sistema Internacional | Unidades base, derivadas y prefijos; escritura correcta y análisis dimensional. | Ficha de análisis dimensional |
+| <a id="b03-c07"></a>[B03-C07](../clases/B03/B03-C07-conversion-de-distancia-y-velocidad/CLASE.md) | Conversión de distancia y velocidad | Factores de conversión entre m, km, au y entre m/s, km/s y km/h. | Hoja de conversiones verificada |
+| <a id="b03-c08"></a>[B03-C08](../clases/B03/B03-C08-tiempo-y-conversiones-astronomicas/CLASE.md) | Tiempo y conversiones astronómicas | Segundos, días, años y ángulos (grados, minutos y segundos de arco, horas). | Tabla de tiempos y ángulos convertidos |
 
 ### Tramo 3 · Razonamiento cuantitativo y álgebra inicial
 

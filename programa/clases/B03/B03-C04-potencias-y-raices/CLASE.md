@@ -1,7 +1,7 @@
 # B03-C04 — Potencias y raíces
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C03 — Porcentajes y escalas comparativas](../B03-C03-porcentajes-y-escalas-comparativas/CLASE.md) · [Siguiente: B03-C05 — Notación científica y órdenes de magnitud →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C03 — Porcentajes y escalas comparativas](../B03-C03-porcentajes-y-escalas-comparativas/CLASE.md) · [Siguiente: B03-C05 — Notación científica y órdenes de magnitud →](../B03-C05-notacion-cientifica-y-ordenes-de-magnitud/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Una potencia cuenta factores repetidos; las reglas se deducen de contar; las ra�
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B03-C03 — Porcentajes y escalas comparativas](../B03-C03-porcentajes-y-escalas-comparativas/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C05 — Notación científica y órdenes de magnitud →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c05)
+[← Anterior: B03-C03 — Porcentajes y escalas comparativas](../B03-C03-porcentajes-y-escalas-comparativas/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C05 — Notación científica y órdenes de magnitud →](../B03-C05-notacion-cientifica-y-ordenes-de-magnitud/CLASE.md)
 <!-- /nav -->
