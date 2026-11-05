@@ -1,7 +1,7 @@
 # B04-C16 — Geometría de esferas y círculos máximos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C15 — Rotación de puntos y ejes](../B04-C15-rotacion-de-puntos-y-ejes/CLASE.md) · [Siguiente: B04-C17 — Proyecciones cartográficas elementales →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C15 — Rotación de puntos y ejes](../B04-C15-rotacion-de-puntos-y-ejes/CLASE.md) · [Siguiente: B04-C17 — Proyecciones cartográficas elementales →](../B04-C17-proyecciones-cartograficas-elementales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ El camino más corto sobre una esfera es un arco de círculo máximo; su distanc
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B04-C15 — Rotación de puntos y ejes](../B04-C15-rotacion-de-puntos-y-ejes/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C17 — Proyecciones cartográficas elementales →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c17)
+[← Anterior: B04-C15 — Rotación de puntos y ejes](../B04-C15-rotacion-de-puntos-y-ejes/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C17 — Proyecciones cartográficas elementales →](../B04-C17-proyecciones-cartograficas-elementales/CLASE.md)
 <!-- /nav -->

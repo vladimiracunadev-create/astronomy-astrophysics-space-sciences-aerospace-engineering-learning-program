@@ -1,7 +1,7 @@
 # B05-C01 — Magnitudes físicas y dimensiones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B04-C20 — Triangulación espacial aplicada](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c20) · [Siguiente: B05-C02 — Posición, velocidad y aceleración →](../B05-C02-posicion-velocidad-y-aceleracion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B04-C20 — Triangulación espacial aplicada](../../B04/B04-C20-triangulacion-espacial-aplicada/CLASE.md) · [Siguiente: B05-C02 — Posición, velocidad y aceleración →](../B05-C02-posicion-velocidad-y-aceleracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ Una magnitud es un valor con unidad y una dimensión; las ecuaciones deben ser h
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B04-C20 — Triangulación espacial aplicada](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c20) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C02 — Posición, velocidad y aceleración →](../B05-C02-posicion-velocidad-y-aceleracion/CLASE.md)
+[← Anterior: B04-C20 — Triangulación espacial aplicada](../../B04/B04-C20-triangulacion-espacial-aplicada/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C02 — Posición, velocidad y aceleración →](../B05-C02-posicion-velocidad-y-aceleracion/CLASE.md)
 <!-- /nav -->

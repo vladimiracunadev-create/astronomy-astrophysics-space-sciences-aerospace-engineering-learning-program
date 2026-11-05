@@ -72,10 +72,10 @@ flowchart LR
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b04-c17"></a>B04-C17 | Proyecciones cartográficas elementales | Proyecciones Mercator y ortográfica, distorsión de escala y elección según el uso. | Comparación de distorsiones de dos proyecciones |
-| <a id="b04-c18"></a>B04-C18 | Cónicas y secciones orbitales | Elipse, parábola e hipérbola, ecuación polar común y clasificación por excentricidad (Halley y ʻOumuamua). | Clasificación de órbitas con justificación |
-| <a id="b04-c19"></a>B04-C19 | Transformaciones de coordenadas astronómicas | Ecuatoriales, eclípticas y galácticas encadenadas con rotaciones y comprobadas contra definiciones. | Cadena de transformaciones con pruebas |
-| <a id="b04-c20"></a>B04-C20 | Triangulación espacial aplicada | Paralaje y bases largas: distancia, ángulo, incertidumbre y diseño de una medición por triangulación. | Plan de triangulación con incertidumbre |
+| <a id="b04-c17"></a>[B04-C17](../clases/B04/B04-C17-proyecciones-cartograficas-elementales/CLASE.md) | Proyecciones cartográficas elementales | Proyecciones Mercator y ortográfica, distorsión de escala y elección según el uso. | Comparación de distorsiones de dos proyecciones |
+| <a id="b04-c18"></a>[B04-C18](../clases/B04/B04-C18-conicas-y-secciones-orbitales/CLASE.md) | Cónicas y secciones orbitales | Elipse, parábola e hipérbola, ecuación polar común y clasificación por excentricidad (Halley y ʻOumuamua). | Clasificación de órbitas con justificación |
+| <a id="b04-c19"></a>[B04-C19](../clases/B04/B04-C19-transformaciones-de-coordenadas-astronomicas/CLASE.md) | Transformaciones de coordenadas astronómicas | Ecuatoriales, eclípticas y galácticas encadenadas con rotaciones y comprobadas contra definiciones. | Cadena de transformaciones con pruebas |
+| <a id="b04-c20"></a>[B04-C20](../clases/B04/B04-C20-triangulacion-espacial-aplicada/CLASE.md) | Triangulación espacial aplicada | Paralaje y bases largas: distancia, ángulo, incertidumbre y diseño de una medición por triangulación. | Plan de triangulación con incertidumbre |
 
 ## 🧵 Hilos que atraviesan el bloque
 
