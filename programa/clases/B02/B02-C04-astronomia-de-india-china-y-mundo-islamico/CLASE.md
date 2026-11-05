@@ -1,7 +1,7 @@
 # B02-C04 — Astronomía de India, China y mundo islámico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C03 — Astronomía griega y helenística](../B02-C03-astronomia-griega-y-helenistica/CLASE.md) · [Siguiente: B02-C05 — Cosmovisiones andinas del cielo →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C03 — Astronomía griega y helenística](../B02-C03-astronomia-griega-y-helenistica/CLASE.md) · [Siguiente: B02-C05 — Cosmovisiones andinas del cielo →](../B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -285,5 +285,5 @@ Registros, instrumentos y textos de método son tres tipos de evidencia; cada tr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B02-C03 — Astronomía griega y helenística](../B02-C03-astronomia-griega-y-helenistica/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C05 — Cosmovisiones andinas del cielo →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c05)
+[← Anterior: B02-C03 — Astronomía griega y helenística](../B02-C03-astronomia-griega-y-helenistica/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C05 — Cosmovisiones andinas del cielo →](../B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md)
 <!-- /nav -->
