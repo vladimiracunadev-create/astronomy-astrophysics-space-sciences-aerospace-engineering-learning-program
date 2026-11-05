@@ -1,0 +1,856 @@
+{
+  "ruta_id": "R01",
+  "modulos": [
+    {
+      "modulo": "R01-M01",
+      "nombre": "Atmósferas estelares",
+      "temas": [
+        {
+          "clases_ruta": "R01-M01-C01..C02",
+          "tema": "Transferencia radiativa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Ecuación de transferencia radiativa en atmósferas estelares",
+            "necesidad": "El rol necesita resolver la ecuación de transferencia (profundidad óptica, función fuente); B17 solo introduce opacidades y B35 trata atmósferas planetarias, no la estelar."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C03..C04",
+          "tema": "Modelos LTE y no LTE",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Equilibrio termodinámico local y desviaciones no LTE",
+            "necesidad": "Ninguna clase del tronco trata cuándo vale el LTE ni las poblaciones atómicas fuera de equilibrio, base de la interpretación de espectros estelares."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C05..C06",
+          "tema": "Opacidad continua",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Opacidad continua: ligado-libre, libre-libre y H-",
+            "necesidad": "B17-C09 solo menciona opacidades; falta la física de los procesos continuos que dominan la opacidad de la fotosfera estelar."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C07..C08",
+          "tema": "Opacidad de líneas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Opacidad de líneas: ensanchamiento y perfil de Voigt",
+            "necesidad": "B29 describe líneas observadas, pero no el coeficiente de absorción ni los mecanismos de ensanchamiento que determinan su perfil."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C09..C10",
+          "tema": "Equilibrio radiativo",
+          "destino": "existente",
+          "tronco": [
+            "B17-C05",
+            "B17-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M01-C11..C12",
+          "tema": "Estructura de temperatura",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Relación T-τ y estructura térmica de la fotosfera",
+            "necesidad": "Ninguna clase deriva la estratificación de temperatura de una atmósfera gris o no gris; es el insumo de todo modelo de atmósfera."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C13..C14",
+          "tema": "Turbulencia atmosférica estelar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Micro y macroturbulencia y granulación estelar",
+            "necesidad": "B26-C11 trata turbulencia terrestre para óptica adaptativa; falta la turbulencia convectiva de la fotosfera estelar y su efecto en las líneas."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C15..C16",
+          "tema": "Campos magnéticos superficiales",
+          "destino": "existente",
+          "tronco": [
+            "B17-C11",
+            "B17-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M01-C17..C18",
+          "tema": "Modelos de atmósferas 1D y 3D",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Modelos de atmósferas estelares 1D y 3D hidrodinámicos",
+            "necesidad": "Ninguna clase compara rejillas de modelos plano-paralelos con simulaciones 3D ni discute sus consecuencias en abundancias derivadas."
+          }
+        },
+        {
+          "clases_ruta": "R01-M01-C19..C20",
+          "tema": "Inversión de perfiles espectrales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Síntesis espectral e inversión de perfiles",
+            "necesidad": "Falta el método inverso que ajusta perfiles de línea (incluidos Stokes) para recuperar la estructura de la atmósfera; B29-C18 solo extrae espectros."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M02",
+      "nombre": "Modelos de interiores estelares",
+      "temas": [
+        {
+          "clases_ruta": "R01-M02-C01..C02",
+          "tema": "Ecuaciones de estructura estelar",
+          "destino": "existente",
+          "tronco": [
+            "B17-C04",
+            "B17-C05",
+            "B17-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M02-C03..C04",
+          "tema": "Equilibrio hidrostático",
+          "destino": "existente",
+          "tronco": [
+            "B17-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M02-C05..C06",
+          "tema": "Gradientes radiativos",
+          "destino": "existente",
+          "tronco": [
+            "B17-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M02-C07..C08",
+          "tema": "Transporte convectivo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux",
+            "necesidad": "B17-C05 menciona el transporte convectivo, pero no el criterio de inestabilidad ni la teoría de longitud de mezcla usada en los modelos."
+          }
+        },
+        {
+          "clases_ruta": "R01-M02-C09..C10",
+          "tema": "Ecuaciones de estado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Ecuaciones de estado estelares: gas ideal, radiación y degeneración",
+            "necesidad": "B20-C01 y B20-C04 cubren degeneración y estado nuclear de objetos compactos, no la ecuación de estado general de interiores de secuencia principal."
+          }
+        },
+        {
+          "clases_ruta": "R01-M02-C11..C12",
+          "tema": "Generación de energía nuclear",
+          "destino": "existente",
+          "tronco": [
+            "B17-C06",
+            "B17-C07",
+            "B17-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M02-C13..C14",
+          "tema": "Opacidades estelares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Opacidad media de Rosseland y tablas de opacidad en interiores",
+            "necesidad": "B17-C09 es introductoria; el modelado de interiores exige opacidades medias y su uso en el gradiente radiativo."
+          }
+        },
+        {
+          "clases_ruta": "R01-M02-C15..C16",
+          "tema": "Condiciones de frontera",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Condiciones de frontera centrales y superficiales en modelos estelares",
+            "necesidad": "B11-C12 trata fronteras en general; falta cómo cerrar el sistema de estructura estelar con condiciones en centro y superficie."
+          }
+        },
+        {
+          "clases_ruta": "R01-M02-C17..C18",
+          "tema": "Códigos evolutivos estelares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Códigos de evolución estelar: configuración, verificación y límites",
+            "necesidad": "Ninguna clase enseña a configurar y verificar un código evolutivo (malla, pasos de tiempo, física de entrada), competencia central del rol."
+          }
+        },
+        {
+          "clases_ruta": "R01-M02-C19..C20",
+          "tema": "Calibración por observaciones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Calibración de modelos estelares con el Sol y binarias",
+            "necesidad": "Falta el contraste sistemático de modelos con restricciones observacionales (Sol, binarias eclipsantes) y el ajuste de parámetros libres."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M03",
+      "nombre": "Evolución estelar avanzada",
+      "temas": [
+        {
+          "clases_ruta": "R01-M03-C01..C02",
+          "tema": "Presecuencia principal",
+          "destino": "existente",
+          "tronco": [
+            "B17-C01",
+            "B17-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C03..C04",
+          "tema": "Secuencia principal",
+          "destino": "existente",
+          "tronco": [
+            "B17-C03",
+            "B17-C06",
+            "B17-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C05..C06",
+          "tema": "Subgigantes y gigantes",
+          "destino": "existente",
+          "tronco": [
+            "B17-C15",
+            "B17-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C07..C08",
+          "tema": "Rama asintótica de gigantes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B17",
+            "titulo": "Rama asintótica de gigantes: pulsos térmicos y proceso s",
+            "necesidad": "B17-C16 y B17-C18 describen gigantes y etapas finales de forma general; falta la fase AGB, los dragados y la producción de elementos s."
+          }
+        },
+        {
+          "clases_ruta": "R01-M03-C09..C10",
+          "tema": "Pérdida de masa",
+          "destino": "existente",
+          "tronco": [
+            "B17-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C11..C12",
+          "tema": "Estrellas masivas",
+          "destino": "existente",
+          "tronco": [
+            "B17-C17",
+            "B20-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C13..C14",
+          "tema": "Binariedad y transferencia de masa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B17",
+            "titulo": "Evolución binaria: lóbulo de Roche y transferencia de masa",
+            "necesidad": "B20-C13 trata binarias compactas ya formadas; ninguna clase explica cómo la transferencia de masa altera la evolución de estrellas en sistemas binarios."
+          }
+        },
+        {
+          "clases_ruta": "R01-M03-C15..C16",
+          "tema": "Remanentes estelares",
+          "destino": "existente",
+          "tronco": [
+            "B17-C18",
+            "B20-C02",
+            "B20-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C17..C18",
+          "tema": "Metallicidad y evolución",
+          "destino": "existente",
+          "tronco": [
+            "B18-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M03-C19..C20",
+          "tema": "Isocronas y edades",
+          "destino": "existente",
+          "tronco": [
+            "B17-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M04",
+      "nombre": "Espectroscopía estelar avanzada",
+      "temas": [
+        {
+          "clases_ruta": "R01-M04-C01..C02",
+          "tema": "Medición de perfiles de línea",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Medición de perfiles de línea: ancho equivalente y ajuste",
+            "necesidad": "B29-C10 y B29-C11 presentan líneas de emisión y absorción cualitativamente; falta medir anchos equivalentes y ajustar perfiles con incertidumbre."
+          }
+        },
+        {
+          "clases_ruta": "R01-M04-C03..C04",
+          "tema": "Resolución y dispersión espectral",
+          "destino": "existente",
+          "tronco": [
+            "B29-C06",
+            "B29-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M04-C05..C06",
+          "tema": "Modelado de continua",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Normalización y modelado del continuo espectral",
+            "necesidad": "Ninguna clase enseña a normalizar el continuo, paso previo a medir líneas y derivar parámetros estelares."
+          }
+        },
+        {
+          "clases_ruta": "R01-M04-C07..C08",
+          "tema": "Abundancias químicas",
+          "destino": "existente",
+          "tronco": [
+            "B29-C14",
+            "B17-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M04-C09..C10",
+          "tema": "Velocidades radiales",
+          "destino": "existente",
+          "tronco": [
+            "B22-C03",
+            "B29-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M04-C11..C12",
+          "tema": "Rotación y ensanchamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Ensanchamiento rotacional y v sin i",
+            "necesidad": "B17-C11 describe la rotación estelar físicamente; falta medir su efecto en el perfil de línea y separarlo de otros ensanchamientos."
+          }
+        },
+        {
+          "clases_ruta": "R01-M04-C13..C14",
+          "tema": "Efecto Zeeman",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
+            "titulo": "Efecto Zeeman y diagnóstico de campos magnéticos estelares",
+            "necesidad": "B05-C17 y B17-C11 no cubren el desdoblamiento Zeeman ni su uso como diagnóstico espectropolarimétrico del campo estelar."
+          }
+        },
+        {
+          "clases_ruta": "R01-M04-C15..C16",
+          "tema": "Calibraciones espectroscópicas",
+          "destino": "existente",
+          "tronco": [
+            "B29-C08",
+            "B29-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M04-C17..C18",
+          "tema": "Espectros de alta resolución",
+          "destino": "existente",
+          "tronco": [
+            "B29-C06",
+            "B29-C07",
+            "B29-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M04-C19..C20",
+          "tema": "Evaluación de incertidumbre química",
+          "destino": "existente",
+          "tronco": [
+            "B29-C19",
+            "B12-C16"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M05",
+      "nombre": "Asterosismología",
+      "temas": [
+        {
+          "clases_ruta": "R01-M05-C01..C02",
+          "tema": "Modos de oscilación",
+          "destino": "existente",
+          "tronco": [
+            "B17-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M05-C03..C04",
+          "tema": "Oscilaciones radiales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Oscilaciones radiales y relación período-densidad media",
+            "necesidad": "B17-C14 es una introducción; falta la teoría de modos radiales y la relación entre período y densidad media."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C05..C06",
+          "tema": "Oscilaciones no radiales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Oscilaciones no radiales: modos p, g y mixtos",
+            "necesidad": "Ninguna clase desarrolla grados e índices de modos, armónicos esféricos ni la distinción entre modos de presión y de gravedad."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C07..C08",
+          "tema": "Transformadas de series temporales",
+          "destino": "existente",
+          "tronco": [
+            "B15-C05",
+            "B15-C06",
+            "B22-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M05-C09..C10",
+          "tema": "Frecuencias características",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Frecuencias características: Δν, νmax y espaciado de períodos",
+            "necesidad": "Falta la extracción de los observables sísmicos globales que dan masa y radio estelares mediante relaciones de escala."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C11..C12",
+          "tema": "Inversión del interior estelar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Inversión asterosísmica de perfiles internos",
+            "necesidad": "Ninguna clase trata los métodos inversos que recuperan velocidad del sonido y densidad internas a partir de frecuencias."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C13..C14",
+          "tema": "Rotación interna",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Rotación interna a partir del desdoblamiento de frecuencias",
+            "necesidad": "Falta la técnica de medir rotación interna con desdoblamientos rotacionales; B17-C11 solo trata la rotación superficial."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C15..C16",
+          "tema": "Gigantes rojas oscilantes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Gigantes rojas oscilantes y modos mixtos",
+            "necesidad": "B17-C16 describe gigantes rojas, pero no su espectro de oscilaciones ni cómo distinguir rama de gigantes y núcleo de helio."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C17..C18",
+          "tema": "Datos de misiones fotométricas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Series fotométricas de Kepler, TESS y PLATO para asterosismología",
+            "necesidad": "B22-C02 trata curvas de luz para tránsitos; falta preparar series largas y sistemáticas de misiones para análisis sísmico."
+          }
+        },
+        {
+          "clases_ruta": "R01-M05-C19..C20",
+          "tema": "Ajuste de modelos sísmicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Interiores estelares y asterosismología",
+            "titulo": "Ajuste de modelos estelares a frecuencias sísmicas",
+            "necesidad": "Ninguna clase enseña el ajuste de rejillas de modelos a frecuencias y el tratamiento de efectos de superficie."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M06",
+      "nombre": "Poblaciones estelares",
+      "temas": [
+        {
+          "clases_ruta": "R01-M06-C01..C02",
+          "tema": "Diagramas color-magnitud",
+          "destino": "existente",
+          "tronco": [
+            "B17-C03",
+            "B17-C19",
+            "B29-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M06-C03..C04",
+          "tema": "Funciones de luminosidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Funciones de luminosidad estelar",
+            "necesidad": "Ninguna clase construye ni interpreta la distribución de estrellas por luminosidad y su corrección por volumen y selección."
+          }
+        },
+        {
+          "clases_ruta": "R01-M06-C05..C06",
+          "tema": "Funciones iniciales de masa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Función inicial de masa y su universalidad",
+            "necesidad": "B17-C01 y B17-C02 tratan formación estelar sin la distribución de masas resultante ni su impacto en poblaciones sintéticas."
+          }
+        },
+        {
+          "clases_ruta": "R01-M06-C07..C08",
+          "tema": "Metallicidad poblacional",
+          "destino": "existente",
+          "tronco": [
+            "B18-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M06-C09..C10",
+          "tema": "Poblaciones de disco",
+          "destino": "existente",
+          "tronco": [
+            "B18-C01",
+            "B18-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M06-C11..C12",
+          "tema": "Poblaciones de halo",
+          "destino": "existente",
+          "tronco": [
+            "B18-C01",
+            "B18-C07",
+            "B18-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M06-C13..C14",
+          "tema": "Cúmulos globulares",
+          "destino": "existente",
+          "tronco": [
+            "B18-C06",
+            "B17-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M06-C15..C16",
+          "tema": "Cúmulos abiertos",
+          "destino": "existente",
+          "tronco": [
+            "B18-C06",
+            "B17-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M06-C17..C18",
+          "tema": "Cinemática estelar Gaia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Cinemática estelar con Gaia: movimientos propios y espacio de fase",
+            "necesidad": "B18-C07 trata dinámica de poblaciones en general; falta el uso de astrometría de Gaia y de velocidades 6D."
+          }
+        },
+        {
+          "clases_ruta": "R01-M06-C19..C20",
+          "tema": "Reconstrucción de historia estelar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Historia de formación estelar a partir de poblaciones resueltas",
+            "necesidad": "Ninguna clase enseña a inferir la historia de formación estelar ajustando diagramas color-magnitud con poblaciones sintéticas."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M07",
+      "nombre": "Simulación de galaxias",
+      "temas": [
+        {
+          "clases_ruta": "R01-M07-C01..C02",
+          "tema": "Potenciales gravitatorios galácticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Potenciales galácticos: Plummer, Miyamoto-Nagai y NFW",
+            "necesidad": "B09-C20 trata campos gravitatorios generales; faltan los potenciales analíticos estándar de disco, bulbo y halo."
+          }
+        },
+        {
+          "clases_ruta": "R01-M07-C03..C04",
+          "tema": "Distribuciones de masa",
+          "destino": "existente",
+          "tronco": [
+            "B18-C08",
+            "B18-C15",
+            "B09-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M07-C05..C06",
+          "tema": "Modelos de discos",
+          "destino": "existente",
+          "tronco": [
+            "B18-C01",
+            "B18-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M07-C07..C08",
+          "tema": "Halos de materia oscura",
+          "destino": "existente",
+          "tronco": [
+            "B18-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M07-C09..C10",
+          "tema": "Simulación de N cuerpos",
+          "destino": "existente",
+          "tronco": [
+            "B43-C08",
+            "B43-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M07-C11..C12",
+          "tema": "Simulación hidrodinámica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Hidrodinámica en simulaciones: SPH y métodos de malla",
+            "necesidad": "B11-C13 y B11-C14 dan las bases numéricas de EDP; falta su aplicación al gas en galaxias (SPH, malla adaptativa)."
+          }
+        },
+        {
+          "clases_ruta": "R01-M07-C13..C14",
+          "tema": "Formación estelar submalla",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Modelos submalla de formación estelar y retroalimentación",
+            "necesidad": "B18-C16 trata la retroalimentación físicamente; falta cómo parametrizarla bajo la resolución de una simulación."
+          }
+        },
+        {
+          "clases_ruta": "R01-M07-C15..C16",
+          "tema": "Interacciones de galaxias",
+          "destino": "existente",
+          "tronco": [
+            "B18-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M07-C17..C18",
+          "tema": "Postprocesamiento observacional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Observaciones sintéticas de galaxias simuladas",
+            "necesidad": "Ninguna clase enseña a generar imágenes y espectros sintéticos para comparar simulaciones con observaciones."
+          }
+        },
+        {
+          "clases_ruta": "R01-M07-C19..C20",
+          "tema": "Validación de galaxias simuladas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
+            "titulo": "Validación de galaxias simuladas frente a observaciones",
+            "necesidad": "B14-C10 y B11-C19 validan código numérico; falta validar la física galáctica contra relaciones de escala observadas."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R01-M08",
+      "nombre": "Investigación estelar y galáctica",
+      "temas": [
+        {
+          "clases_ruta": "R01-M08-C01..C02",
+          "tema": "Preguntas de investigación",
+          "destino": "existente",
+          "tronco": [
+            "B01-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M08-C03..C04",
+          "tema": "Búsqueda sistemática bibliográfica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Metodología de la investigación científica",
+            "titulo": "Búsqueda bibliográfica sistemática y gestión de referencias",
+            "necesidad": "Ninguna clase enseña a buscar, filtrar y registrar literatura con ADS y arXiv de forma sistemática y reproducible."
+          }
+        },
+        {
+          "clases_ruta": "R01-M08-C05..C06",
+          "tema": "Selección de catálogos",
+          "destino": "existente",
+          "tronco": [
+            "B18-C19",
+            "B14-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M08-C07..C08",
+          "tema": "Curación de datos",
+          "destino": "existente",
+          "tronco": [
+            "B14-C08",
+            "B12-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M08-C09..C10",
+          "tema": "Definición de hipótesis",
+          "destino": "existente",
+          "tronco": [
+            "B01-C07",
+            "B12-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M08-C11..C12",
+          "tema": "Diseño de análisis",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Metodología de la investigación científica",
+            "titulo": "Diseño de un plan de análisis y preregistro",
+            "necesidad": "B12 cubre técnicas estadísticas; falta planificar el análisis completo antes de ver los datos y documentar decisiones."
+          }
+        },
+        {
+          "clases_ruta": "R01-M08-C13..C14",
+          "tema": "Estadística de resultados",
+          "destino": "existente",
+          "tronco": [
+            "B12-C08",
+            "B12-C09",
+            "B12-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M08-C15..C16",
+          "tema": "Reproducibilidad de código",
+          "destino": "existente",
+          "tronco": [
+            "B14-C09",
+            "B14-C19",
+            "B64-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R01-M08-C17..C18",
+          "tema": "Revisión por pares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Metodología de la investigación científica",
+            "titulo": "Revisión por pares y respuesta a árbitros",
+            "necesidad": "Ninguna clase explica el proceso de arbitraje ni cómo responder críticas de manera constructiva y documentada."
+          }
+        },
+        {
+          "clases_ruta": "R01-M08-C19..C20",
+          "tema": "Redacción de artículo científico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Metodología de la investigación científica",
+            "titulo": "Redacción de un artículo científico",
+            "necesidad": "B64-C19 trata propuestas de misión; falta la estructura, el estilo y la presentación de resultados en un artículo."
+          }
+        }
+      ]
+    }
+  ]
+}
