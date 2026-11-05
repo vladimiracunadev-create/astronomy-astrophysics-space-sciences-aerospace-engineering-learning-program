@@ -1,7 +1,7 @@
 # B08-C04 — Altura y acimut
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C03 — Ascensión recta y declinación](../B08-C03-ascension-recta-y-declinacion/CLASE.md) · [Siguiente: B08-C05 — Tiempo sidéreo y solar →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C03 — Ascensión recta y declinación](../B08-C03-ascension-recta-y-declinacion/CLASE.md) · [Siguiente: B08-C05 — Tiempo sidéreo y solar →](../B08-C05-tiempo-sidereo-y-solar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -279,5 +279,5 @@ Altura y acimut dependen de tu lugar y de la hora; se obtienen de AR y Dec con e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B08-C03 — Ascensión recta y declinación](../B08-C03-ascension-recta-y-declinacion/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C05 — Tiempo sidéreo y solar →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c05)
+[← Anterior: B08-C03 — Ascensión recta y declinación](../B08-C03-ascension-recta-y-declinacion/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C05 — Tiempo sidéreo y solar →](../B08-C05-tiempo-sidereo-y-solar/CLASE.md)
 <!-- /nav -->
