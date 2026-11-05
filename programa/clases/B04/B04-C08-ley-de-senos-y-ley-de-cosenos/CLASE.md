@@ -1,7 +1,7 @@
 # B04-C08 — Ley de senos y ley de cosenos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C07 — Triángulos y distancias angulares](../B04-C07-triangulos-y-distancias-angulares/CLASE.md) · [Siguiente: B04-C09 — Circunferencias y elipses →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C07 — Triángulos y distancias angulares](../B04-C07-triangulos-y-distancias-angulares/CLASE.md) · [Siguiente: B04-C09 — Circunferencias y elipses →](../B04-C09-circunferencias-y-elipses/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ Con la ley de cosenos y la de senos se resuelve cualquier triángulo plano; hay 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B04-C07 — Triángulos y distancias angulares](../B04-C07-triangulos-y-distancias-angulares/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C09 — Circunferencias y elipses →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c09)
+[← Anterior: B04-C07 — Triángulos y distancias angulares](../B04-C07-triangulos-y-distancias-angulares/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C09 — Circunferencias y elipses →](../B04-C09-circunferencias-y-elipses/CLASE.md)
 <!-- /nav -->

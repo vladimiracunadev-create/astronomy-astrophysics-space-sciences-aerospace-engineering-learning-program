@@ -54,15 +54,15 @@ flowchart LR
 | <a id="b04-c06"></a>[B04-C06](../clases/B04/B04-C06-identidades-trigonometricas/CLASE.md) | Identidades trigonométricas | Razones trigonométricas en radianes, identidades fundamentales, suma de ángulos y aproximación de ángulo pequeño con su error. | Hoja de identidades verificadas numéricamente |
 | <a id="b04-c07"></a>[B04-C07](../clases/B04/B04-C07-triangulos-y-distancias-angulares/CLASE.md) | Triángulos y distancias angulares | Triángulo rectángulo, tamaño angular y distancia (Sol, Luna, paralaje); medir sin llegar al objeto. | Cálculo de tamaño o distancia por ángulo |
 | <a id="b04-c08"></a>[B04-C08](../clases/B04/B04-C08-ley-de-senos-y-ley-de-cosenos/CLASE.md) | Ley de senos y ley de cosenos | Resolver triángulos no rectángulos; elongaciones y distancias planetarias en el plano orbital. | Resolución de un triángulo astronómico con comprobación |
-| <a id="b04-c09"></a>B04-C09 | Circunferencias y elipses | Ecuación de circunferencia y elipse, semiejes, excentricidad, focos y distancias extremas de una órbita. | Ficha geométrica de una órbita |
-| <a id="b04-c10"></a>B04-C10 | Coordenadas polares y cartesianas | Pasar de (x, y) a (r, θ) con el cuadrante correcto; ecuación polar de una órbita. | Tabla de conversión y órbita en polares |
+| <a id="b04-c09"></a>[B04-C09](../clases/B04/B04-C09-circunferencias-y-elipses/CLASE.md) | Circunferencias y elipses | Ecuación de circunferencia y elipse, semiejes, excentricidad, focos y distancias extremas de una órbita. | Ficha geométrica de una órbita |
+| <a id="b04-c10"></a>[B04-C10](../clases/B04/B04-C10-coordenadas-polares-y-cartesianas/CLASE.md) | Coordenadas polares y cartesianas | Pasar de (x, y) a (r, θ) con el cuadrante correcto; ecuación polar de una órbita. | Tabla de conversión y órbita en polares |
 
 ### Tramo 3 · Direcciones en el espacio
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b04-c11"></a>B04-C11 | Coordenadas esféricas | Longitud, latitud y ángulo polar; ascensión recta y declinación; vector unitario de una dirección del cielo. | Dirección de una estrella como vector |
-| <a id="b04-c12"></a>B04-C12 | Vectores y componentes | Suma de vectores, componentes y módulo; velocidad orbital y sus componentes. | Descomposición de un movimiento en componentes |
+| <a id="b04-c11"></a>[B04-C11](../clases/B04/B04-C11-coordenadas-esfericas/CLASE.md) | Coordenadas esféricas | Longitud, latitud y ángulo polar; ascensión recta y declinación; vector unitario de una dirección del cielo. | Dirección de una estrella como vector |
+| <a id="b04-c12"></a>[B04-C12](../clases/B04/B04-C12-vectores-y-componentes/CLASE.md) | Vectores y componentes | Suma de vectores, componentes y módulo; velocidad orbital y sus componentes. | Descomposición de un movimiento en componentes |
 | <a id="b04-c13"></a>B04-C13 | Producto escalar y ángulo entre vectores | Producto escalar, ángulo entre direcciones y separación angular de dos estrellas. | Tabla de separaciones angulares verificada |
 | <a id="b04-c14"></a>B04-C14 | Producto vectorial y orientación | Producto vectorial, regla de la mano derecha, normal a un plano y orientación de una órbita. | Orientación de una órbita a partir de sus elementos |
 | <a id="b04-c15"></a>B04-C15 | Rotación de puntos y ejes | Matrices de rotación, rotaciones activa y pasiva, composición y comprobación de ortogonalidad. | Rotación documentada con sus pruebas |
