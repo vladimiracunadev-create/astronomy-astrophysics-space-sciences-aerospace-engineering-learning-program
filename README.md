@@ -11,7 +11,7 @@
 
 [![Versión documental](https://img.shields.io/badge/versión_documental-0.1.0-6f42c1?style=for-the-badge)](CHANGELOG.md)
 [![Catálogo](https://img.shields.io/badge/catálogo-5.120_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
-[![Estado](https://img.shields.io/badge/clases_redactadas-0_de_5.120-d73a49?style=for-the-badge)](STATUS.md)
+[![Estado](https://img.shields.io/badge/textos_redactados-160_de_5.120-d97706?style=for-the-badge)](STATUS.md)
 [![Idioma](https://img.shields.io/badge/idioma-español_de_Chile-007c83?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-d22128?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -31,7 +31,7 @@
 ---
 
 > [!IMPORTANT]
-> **El catálogo está definido; los contenidos aún no están redactados.** Los 5.120 registros contienen un título, una descripción y fuentes preliminares. No deben presentarse como clases desarrolladas, impartidas, revisadas ni verificadas. El contador actual es **0/5.120 clases completamente redactadas**.
+> **El catálogo está definido y sus 5.120 registros siguen en E0.** Hay **160 clases con texto redactado** (el área A01, bloques B01 a B08), pendientes de aprobación y de revisión disciplinar; las otras 4.960 solo tienen título, descripción y fuentes preliminares. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/5.120**.
 
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
@@ -49,7 +49,20 @@ Es una arquitectura curricular única y extensible. No son 24 programas separado
 | Módulos de especialización | 192 |
 | Clases especializadas catalogadas | 3.840 |
 | **Clases catalogadas** | **5.120** |
+| Clases con texto redactado, pendientes de revisión (A01) | 160 |
 | **Clases completamente redactadas y verificadas** | **0** |
+
+## 🧮 Cómo suman las 5.120 clases
+
+Las 5.120 clases **no** salen de «8 bloques de 20 clases por área». Esa cuenta solo describe el **tronco común**. Las rutas profesionales son una segunda estructura, aparte de las áreas:
+
+| Estructura | Cómo se compone | Clases |
+|---|---|---:|
+| **Tronco común** (áreas A01–A08) | 8 áreas × 8 bloques × 20 clases = 64 bloques × 20 | **1.280** |
+| **Rutas profesionales** (R01–R24) | 24 rutas × 8 módulos × 20 clases = 192 módulos × 20 | **3.840** |
+| **Total del catálogo** | 1.280 + 3.840 | **5.120** |
+
+Por eso un área reúne 160 clases (8 × 20) y una ruta también reúne 160 (8 × 20), pero hay 8 áreas y 24 rutas: `8 × 160 = 1.280` y `24 × 160 = 3.840`. Las rutas **no** están dentro de las áreas; reutilizan el tronco común y profundizan un campo. Nadie cursa las 5.120: cada persona recorre el tronco que su diagnóstico indica y una o más rutas. Detalle y comprobación: [estructura y conteo del catálogo](documentacion/ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md).
 
 La estructura permite estudiar por diagnóstico y ruta. Nadie necesita cursar las 5.120 unidades ni seguir una duración académica inventada: la carga y las equivalencias se definirán después de pilotajes reales.
 
@@ -68,7 +81,7 @@ flowchart LR
 Este mapa deja el contenido previsto visible desde la portada, con el mismo lenguaje visual de tablas, enlaces directos y rutas navegables usado en los programas de aprendizaje de referencia. Cada bloque contiene 20 clases numeradas y enlaza su ficha completa.
 
 > [!IMPORTANT]
-> Este es un mapa de referencia para ordenar el trabajo. Los 1.280 registros permanecen en E0: sólo título, descripción y referencias preliminares. No son clases redactadas, impartidas ni verificadas.
+> Este es un mapa de referencia para ordenar el trabajo. Todos los registros permanecen en E0. Las clases de A01 (160) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título, descripción y referencias preliminares. Ninguna está impartida ni verificada.
 
 ### A01 · Alfabetización científica, astronómica y tecnológica
 
@@ -317,7 +330,7 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 
 ### ❌ Lo que no es
 
-- 🚫 una colección de 5.120 clases ya redactadas: actualmente todas conservan sólo título, descripción y referencias preliminares;
+- 🚫 una colección de 5.120 clases ya redactadas y verificadas: hoy hay 160 con texto redactado (A01), sin revisión disciplinar, y 4.960 que conservan sólo título, descripción y referencias preliminares;
 - 🚫 veinticuatro programas separados: las rutas reutilizan un mismo tronco y pertenecen a una sola formación;
 - 🚫 una universidad, carrera acreditada, título, certificación ni licencia profesional;
 - 🚫 autorización para diseñar, fabricar, lanzar, pilotar, diagnosticar o intervenir sistemas reales sin normativa y profesionales competentes;
