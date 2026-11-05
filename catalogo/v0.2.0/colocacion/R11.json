@@ -1,0 +1,821 @@
+{
+  "ruta_id": "R11",
+  "modulos": [
+    {
+      "modulo": "R11-M01",
+      "nombre": "Mecánica de fluidos para propulsión",
+      "temas": [
+        {
+          "clases_ruta": "R11-M01-C01..C02",
+          "tema": "Conservación de masa en fluidos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Conservación de masa en fluidos",
+            "necesidad": "Ninguna clase del tronco trata la mecánica de fluidos; B05-C14 solo ve gases y presión. Es la base para toberas y aerodinámica."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C03..C04",
+          "tema": "Ecuaciones de Euler",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Ecuaciones de Euler para flujo no viscoso",
+            "necesidad": "Aporta las ecuaciones de flujo ideal base del análisis de toberas; el tronco no incluye mecánica de fluidos."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C05..C06",
+          "tema": "Ecuaciones de Navier-Stokes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Ecuaciones de Navier-Stokes",
+            "necesidad": "Aporta el modelo general de flujo viscoso; ninguna clase del tronco lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C07..C08",
+          "tema": "Regímenes laminares y turbulentos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Regímenes laminar y turbulento",
+            "necesidad": "Enseña a distinguir regímenes y su efecto en arrastre y calor; no existe en el tronco."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C09..C10",
+          "tema": "Fluidos compresibles",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Dinámica de fluidos compresibles",
+            "necesidad": "Cubre el flujo con densidad variable necesario para propulsión; B47-C03 trata fuerzas aerodinámicas sin flujo compresible."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C11..C12",
+          "tema": "Flujos supersónicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Flujos supersónicos",
+            "necesidad": "Aporta el comportamiento del flujo a Mach>1 en toberas y vehículos; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C13..C14",
+          "tema": "Ondas de choque",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Ondas de choque normales y oblicuas",
+            "necesidad": "Enseña saltos de propiedades en choques, clave en reentrada y toberas; B23-C14 trata choques astrofísicos, no gasdinámicos."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C15..C16",
+          "tema": "Flujo por toberas como teoría",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Flujo en toberas convergente-divergentes",
+            "necesidad": "Aporta la teoría de expansión en toberas; B48-C03 trata la cámara pero no el flujo por la tobera."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C17..C18",
+          "tema": "CFD académico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "CFD académico: fundamentos y límites",
+            "necesidad": "Aplica B11-C14/C15 a flujos; ninguna clase construye una simulación CFD ni discute sus límites."
+          }
+        },
+        {
+          "clases_ruta": "R11-M01-C19..C20",
+          "tema": "Validación de flujo idealizado",
+          "destino": "existente",
+          "tronco": [
+            "B11-C19",
+            "B49-C17"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M02",
+      "nombre": "Termodinámica de sistemas propulsivos",
+      "temas": [
+        {
+          "clases_ruta": "R11-M02-C01..C02",
+          "tema": "Primera ley termodinámica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Primera ley de la termodinámica en sistemas abiertos",
+            "necesidad": "B05-C13 ve temperatura y energía térmica, pero no la formulación de volumen de control usada en propulsión."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C03..C04",
+          "tema": "Segunda ley y entropía",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Segunda ley y entropía",
+            "necesidad": "Ninguna clase del tronco trata entropía ni irreversibilidad, necesarias para eficiencias propulsivas."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C05..C06",
+          "tema": "Gas ideal y real",
+          "destino": "existente",
+          "tronco": [
+            "B06-C09",
+            "B05-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M02-C07..C08",
+          "tema": "Procesos adiabáticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Procesos adiabáticos e isentrópicos",
+            "necesidad": "Aporta las relaciones isentrópicas usadas en toberas; no existe en el tronco."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C09..C10",
+          "tema": "Entalpía de flujo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Entalpía de flujo y entalpía total",
+            "necesidad": "Concepto de energía de flujo para el análisis de motores; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C11..C12",
+          "tema": "Transferencia de calor",
+          "destino": "existente",
+          "tronco": [
+            "B51-C02",
+            "B51-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M02-C13..C14",
+          "tema": "Propiedades de gases calientes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Propiedades de gases calientes",
+            "necesidad": "Aporta propiedades termofísicas de gases de combustión a alta temperatura; B06-C09 trata gases en general."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C15..C16",
+          "tema": "Ciclos térmicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Ciclos termodinámicos de propulsión",
+            "necesidad": "Enseña ciclos de motores térmicos; B51-C11 trata ciclos térmicos de ensayo, no termodinámicos."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C17..C18",
+          "tema": "Eficiencias termodinámicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
+            "titulo": "Eficiencias termodinámicas de motores",
+            "necesidad": "Cuantifica la conversión de energía en propulsión; no cubierta por ninguna clase."
+          }
+        },
+        {
+          "clases_ruta": "R11-M02-C19..C20",
+          "tema": "Análisis de límites físicos",
+          "destino": "existente",
+          "tronco": [
+            "B48-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M03",
+      "nombre": "Modelos de propulsión química",
+      "temas": [
+        {
+          "clases_ruta": "R11-M03-C01..C02",
+          "tema": "Impulso específico",
+          "destino": "existente",
+          "tronco": [
+            "B48-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C03..C04",
+          "tema": "Balance energético de propulsión",
+          "destino": "existente",
+          "tronco": [
+            "B48-C18",
+            "B06-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C05..C06",
+          "tema": "Modelos de combustión conceptual",
+          "destino": "existente",
+          "tronco": [
+            "B48-C02",
+            "B06-C12",
+            "B06-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C07..C08",
+          "tema": "Expansión de gases",
+          "destino": "existente",
+          "tronco": [
+            "B48-C03",
+            "B06-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C09..C10",
+          "tema": "Rendimiento ideal de cohetes",
+          "destino": "existente",
+          "tronco": [
+            "B48-C01",
+            "B47-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C11..C12",
+          "tema": "Modelos de masa",
+          "destino": "existente",
+          "tronco": [
+            "B48-C17",
+            "B47-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C13..C14",
+          "tema": "Ecuación de Tsiolkovski",
+          "destino": "existente",
+          "tronco": [
+            "B47-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C15..C16",
+          "tema": "Presupuesto de delta-v",
+          "destino": "existente",
+          "tronco": [
+            "B45-C09",
+            "B48-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C17..C18",
+          "tema": "Pérdidas de rendimiento",
+          "destino": "existente",
+          "tronco": [
+            "B47-C08",
+            "B47-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M03-C19..C20",
+          "tema": "Comparación de arquitecturas conceptuales",
+          "destino": "existente",
+          "tronco": [
+            "B48-C20",
+            "B48-C05",
+            "B48-C04"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M04",
+      "nombre": "Tecnologías de propulsión eléctrica",
+      "temas": [
+        {
+          "clases_ruta": "R11-M04-C01..C02",
+          "tema": "Propulsión electrostática",
+          "destino": "existente",
+          "tronco": [
+            "B48-C07",
+            "B48-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C03..C04",
+          "tema": "Propulsión electromagnética",
+          "destino": "existente",
+          "tronco": [
+            "B48-C09",
+            "B48-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C05..C06",
+          "tema": "Motores iónicos",
+          "destino": "existente",
+          "tronco": [
+            "B48-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C07..C08",
+          "tema": "Propulsores Hall",
+          "destino": "existente",
+          "tronco": [
+            "B48-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C09..C10",
+          "tema": "Fuentes de alimentación",
+          "destino": "existente",
+          "tronco": [
+            "B52-C08",
+            "B52-C09",
+            "B48-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C11..C12",
+          "tema": "Erosión de componentes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B48",
+            "titulo": "Erosión y vida útil de propulsores eléctricos",
+            "necesidad": "La erosión limita la vida del propulsor y no se trata en B48, que describe tipos sin analizar su degradación."
+          }
+        },
+        {
+          "clases_ruta": "R11-M04-C13..C14",
+          "tema": "Ciclos de trabajo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B48",
+            "titulo": "Ciclos de trabajo y operación de propulsión eléctrica",
+            "necesidad": "Relaciona potencia disponible y tiempo de empuje; B48 y B52 no tratan el ciclo de trabajo del propulsor."
+          }
+        },
+        {
+          "clases_ruta": "R11-M04-C15..C16",
+          "tema": "Balance de energía",
+          "destino": "existente",
+          "tronco": [
+            "B48-C18",
+            "B52-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C17..C18",
+          "tema": "Eficiencia propulsiva",
+          "destino": "existente",
+          "tronco": [
+            "B48-C01",
+            "B48-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M04-C19..C20",
+          "tema": "Madurez de tecnologías eléctricas",
+          "destino": "existente",
+          "tronco": [
+            "B48-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M05",
+      "nombre": "Dinámica de vehículos de lanzamiento",
+      "temas": [
+        {
+          "clases_ruta": "R11-M05-C01..C02",
+          "tema": "Ecuaciones de movimiento",
+          "destino": "existente",
+          "tronco": [
+            "B47-C02",
+            "B47-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M05-C03..C04",
+          "tema": "Modelos de atmósfera",
+          "destino": "existente",
+          "tronco": [
+            "B42-C07",
+            "B47-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M05-C05..C06",
+          "tema": "Arrastre y sustentación",
+          "destino": "existente",
+          "tronco": [
+            "B47-C03",
+            "B47-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M05-C07..C08",
+          "tema": "Centro de presión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B47",
+            "titulo": "Centro de presión y margen estático",
+            "necesidad": "Es condición de estabilidad de lanzadores; B47-C17 trata estabilidad de descenso pero no el centro de presión."
+          }
+        },
+        {
+          "clases_ruta": "R11-M05-C09..C10",
+          "tema": "Centro de masa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B47",
+            "titulo": "Centro de masa y su variación con el consumo de propelente",
+            "necesidad": "Afecta estabilidad y control; ninguna clase de B47 cubre la variación de masa e inercia en ascenso."
+          }
+        },
+        {
+          "clases_ruta": "R11-M05-C11..C12",
+          "tema": "Estabilidad de vuelo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B47",
+            "titulo": "Estabilidad de vuelo de lanzadores en ascenso",
+            "necesidad": "B47 cubre estabilidad en descenso, no en ascenso con cargas aerodinámicas."
+          }
+        },
+        {
+          "clases_ruta": "R11-M05-C13..C14",
+          "tema": "Cargas dinámicas",
+          "destino": "existente",
+          "tronco": [
+            "B47-C10",
+            "B50-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M05-C15..C16",
+          "tema": "Orientación y control",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B47",
+            "titulo": "Guiado y control de actitud de lanzadores (TVC)",
+            "necesidad": "Aporta el control del vector de empuje; B53 trata ADCS de satélites, no el de lanzadores."
+          }
+        },
+        {
+          "clases_ruta": "R11-M05-C17..C18",
+          "tema": "Separación como evento simulado",
+          "destino": "existente",
+          "tronco": [
+            "B47-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M05-C19..C20",
+          "tema": "Análisis de dispersión de trayectoria",
+          "destino": "existente",
+          "tronco": [
+            "B47-C13",
+            "B45-C18",
+            "B12-C14"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M06",
+      "nombre": "Ascenso y reentrada atmosféricos",
+      "temas": [
+        {
+          "clases_ruta": "R11-M06-C01..C02",
+          "tema": "Perfiles de ascenso",
+          "destino": "existente",
+          "tronco": [
+            "B47-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C03..C04",
+          "tema": "Pérdidas gravitacionales",
+          "destino": "existente",
+          "tronco": [
+            "B47-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C05..C06",
+          "tema": "Pérdidas aerodinámicas",
+          "destino": "existente",
+          "tronco": [
+            "B47-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C07..C08",
+          "tema": "Inyección orbital",
+          "destino": "existente",
+          "tronco": [
+            "B47-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C09..C10",
+          "tema": "Dinámica de reentrada",
+          "destino": "existente",
+          "tronco": [
+            "B47-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C11..C12",
+          "tema": "Flujo de calor de reentrada",
+          "destino": "existente",
+          "tronco": [
+            "B47-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C13..C14",
+          "tema": "Escudos térmicos",
+          "destino": "existente",
+          "tronco": [
+            "B47-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C15..C16",
+          "tema": "Corredores de entrada",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B47",
+            "titulo": "Corredores de entrada y límites de trayectoria",
+            "necesidad": "B47-C14 trata la dinámica de reentrada, pero no el corredor de entrada permitido."
+          }
+        },
+        {
+          "clases_ruta": "R11-M06-C17..C18",
+          "tema": "Aterrizaje controlado como modelo",
+          "destino": "existente",
+          "tronco": [
+            "B47-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M06-C19..C20",
+          "tema": "Simulación de misión de entrada",
+          "destino": "existente",
+          "tronco": [
+            "B47-C20",
+            "B47-C14"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M07",
+      "nombre": "Seguridad y evaluación de sistemas de lanzamiento",
+      "temas": [
+        {
+          "clases_ruta": "R11-M07-C01..C02",
+          "tema": "Cultura de seguridad aeroespacial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Cultura de seguridad aeroespacial y aprendizaje de incidentes",
+            "necesidad": "Aporta la dimensión cultural de la seguridad; B54-C16 cubre seguridad funcional técnica y ninguna clase trata cultura de seguridad."
+          }
+        },
+        {
+          "clases_ruta": "R11-M07-C03..C04",
+          "tema": "Identificación de peligros",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B49",
+            "titulo": "Identificación de peligros en sistemas de lanzamiento (HAZID)",
+            "necesidad": "Aporta el análisis preliminar de peligros; B49-C16 trata riesgos técnicos genéricos, no la identificación de peligros de seguridad."
+          }
+        },
+        {
+          "clases_ruta": "R11-M07-C05..C06",
+          "tema": "Análisis de fallos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B49",
+            "titulo": "Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales",
+            "necesidad": "Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B49-C16 trata la gestión de riesgos técnicos en general y B54-C12 la detección en vuelo, pero ninguna enseña FMEA."
+          }
+        },
+        {
+          "clases_ruta": "R11-M07-C07..C08",
+          "tema": "Revisiones de seguridad",
+          "destino": "existente",
+          "tronco": [
+            "B49-C13",
+            "B49-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M07-C09..C10",
+          "tema": "Seguridad de instalaciones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Seguridad de instalaciones y operaciones de sitio de lanzamiento",
+            "necesidad": "Cubre zonas de seguridad, exclusión y gestión de sitio; B47-C19 solo ve seguridad de rango conceptual."
+          }
+        },
+        {
+          "clases_ruta": "R11-M07-C11..C12",
+          "tema": "Protección ambiental",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Protección ambiental de las actividades de lanzamiento",
+            "necesidad": "Cubre impacto ambiental de lanzamientos; ninguna clase de B62-B64 lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R11-M07-C13..C14",
+          "tema": "Responsabilidad regulatoria",
+          "destino": "existente",
+          "tronco": [
+            "B63-C08",
+            "B63-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M07-C15..C16",
+          "tema": "Límites de experimentación educativa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Límites legales y de seguridad de la experimentación educativa",
+            "necesidad": "Establece los límites de lo que una experimentación educativa puede hacer con seguridad; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R11-M07-C17..C18",
+          "tema": "Procesos de autorización",
+          "destino": "existente",
+          "tronco": [
+            "B63-C08",
+            "B63-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M07-C19..C20",
+          "tema": "Casos documentados de accidentes",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19",
+            "B56-C17"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R11-M08",
+      "nombre": "Simulación de misión propulsiva",
+      "temas": [
+        {
+          "clases_ruta": "R11-M08-C01..C02",
+          "tema": "Modelo integrado de vehículo",
+          "destino": "existente",
+          "tronco": [
+            "B47-C20",
+            "B49-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C03..C04",
+          "tema": "Definición de etapas conceptuales",
+          "destino": "existente",
+          "tronco": [
+            "B47-C01",
+            "B47-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C05..C06",
+          "tema": "Perfil de empuje como entrada",
+          "destino": "existente",
+          "tronco": [
+            "B48-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C07..C08",
+          "tema": "Trayectoria simulada",
+          "destino": "existente",
+          "tronco": [
+            "B47-C20",
+            "B47-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C09..C10",
+          "tema": "Condiciones iniciales",
+          "destino": "existente",
+          "tronco": [
+            "B47-C13",
+            "B11-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C11..C12",
+          "tema": "Variaciones ambientales",
+          "destino": "existente",
+          "tronco": [
+            "B42-C07",
+            "B12-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C13..C14",
+          "tema": "Integración numérica",
+          "destino": "existente",
+          "tronco": [
+            "B11-C07",
+            "B11-C08",
+            "B11-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C15..C16",
+          "tema": "Rendimiento contra requisitos",
+          "destino": "existente",
+          "tronco": [
+            "B49-C04",
+            "B49-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C17..C18",
+          "tema": "Análisis de fallo simulado",
+          "destino": "existente",
+          "tronco": [
+            "B47-C20",
+            "B49-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R11-M08-C19..C20",
+          "tema": "Informe de simulación y límites",
+          "destino": "existente",
+          "tronco": [
+            "B12-C20",
+            "B14-C19",
+            "B49-C17"
+          ]
+        }
+      ]
+    }
+  ]
+}
