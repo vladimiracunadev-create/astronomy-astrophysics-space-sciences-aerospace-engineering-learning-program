@@ -1,7 +1,7 @@
 # B06-C01 — Estructura atómica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B05-C20 — Problema físico integrado de satélite ideal](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c20) · [Siguiente: B06-C02 — Tabla periódica y abundancias cósmicas →](../B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B05-C20 — Problema físico integrado de satélite ideal](../../B05/B05-C20-problema-fisico-integrado-de-satelite-ideal/CLASE.md) · [Siguiente: B06-C02 — Tabla periódica y abundancias cósmicas →](../B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,5 +320,5 @@ El átomo tiene niveles de energía cuantizados; un salto entre niveles emite o 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B05-C20 — Problema físico integrado de satélite ideal](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c20) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C02 — Tabla periódica y abundancias cósmicas →](../B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md)
+[← Anterior: B05-C20 — Problema físico integrado de satélite ideal](../../B05/B05-C20-problema-fisico-integrado-de-satelite-ideal/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C02 — Tabla periódica y abundancias cósmicas →](../B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md)
 <!-- /nav -->

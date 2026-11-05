@@ -1,7 +1,7 @@
 # B05-C16 — Corriente y circuitos elementales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C15 — Campos eléctricos](../B05-C15-campos-electricos/CLASE.md) · [Siguiente: B05-C17 — Campos magnéticos →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C15 — Campos eléctricos](../B05-C15-campos-electricos/CLASE.md) · [Siguiente: B05-C17 — Campos magnéticos →](../B05-C17-campos-magneticos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -284,5 +284,5 @@ La corriente es carga por tiempo, la ley de Ohm liga `V`, `I` y `R`, las leyes d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B05-C15 — Campos eléctricos](../B05-C15-campos-electricos/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C17 — Campos magnéticos →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c17)
+[← Anterior: B05-C15 — Campos eléctricos](../B05-C15-campos-electricos/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C17 — Campos magnéticos →](../B05-C17-campos-magneticos/CLASE.md)
 <!-- /nav -->

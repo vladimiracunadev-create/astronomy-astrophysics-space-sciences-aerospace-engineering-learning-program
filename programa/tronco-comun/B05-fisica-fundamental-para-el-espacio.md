@@ -2,94 +2,108 @@
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A01 — Alfabetización científica, astronómica y tecnológica
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N1 (fundamentos) · **Clases:** 20 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 20 clases enlazadas en la tabla están redactadas. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar y aprobación del autor.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia física fundamental para el espacio; cubre desde «Magnitudes físicas y dimensiones» hasta «Problema físico integrado de satélite ideal». Los títulos son la especificación curricular inicial, no una lección escrita.
+Reúne la física que sostiene todo lo que viene después: cómo se describe un movimiento, qué lo causa, qué se conserva, cómo actúan la gravedad, el calor, las cargas y la luz. Todo el bloque gira alrededor de un mismo **satélite ideal** (1000 kg en órbita circular a 400 km) que crece de clase en clase hasta un problema integrado. Enseña a **plantear un modelo físico, calcularlo con unidades, verificarlo y declarar dónde deja de valer**, hábitos que reutilizan los bloques de matemática, simulación y astrodinámica.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B05-C01 — Magnitudes físicas y dimensiones
+1. Expresar cualquier magnitud con su unidad SI y dimensión, y comprobar la coherencia dimensional de una ecuación.
+2. Describir movimientos rectilíneos, circulares y oscilatorios con posición, velocidad y aceleración, y explicar sus causas con las leyes de Newton y diagramas de cuerpo libre.
+3. Usar trabajo, energía, momento lineal y momento angular, y saber qué se conserva en cada caso.
+4. Aplicar la gravitación universal para obtener períodos, velocidades y energías de órbitas circulares y transferencias simples.
+5. Relacionar temperatura, presión y energía térmica con el comportamiento de un gas y con el equilibrio radiativo.
+6. Calcular campos y fuerzas eléctricas y magnéticas, resolver circuitos simples y describir la radiación electromagnética y la óptica básica.
+7. Resolver y validar un problema físico integrado, separando datos publicados, sintéticos y simulados.
 
-Explica el fenómeno o técnica de «magnitudes físicas y dimensiones» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B05-C02 — Posición, velocidad y aceleración
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Magnitudes y unidades,<br/>cinemática y<br/>leyes de Newton"]
+    B["C05-C08<br/>Fuerzas, trabajo,<br/>energía y<br/>momento lineal"]
+    C["C09-C12<br/>Giro, gravitación,<br/>oscilaciones<br/>y ondas"]
+    D["C13-C20<br/>Calor y gases, campos,<br/>circuitos, luz y<br/>problema integrado"]
+    A --> B --> C --> D
+```
 
-Delimita «posición, velocidad y aceleración», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cuatro tramos encadenados: lenguaje de medida y descripción del movimiento (C01–C04), herramientas de dinámica y conservación (C05–C08), giro, gravitación, oscilaciones y ondas (C09–C12) y, por último, termodinámica elemental, electromagnetismo, óptica y el problema integrado del satélite ideal (C13–C20).
 
-### B05-C03 — Movimiento rectilíneo y circular
+## 🗂️ Las 20 clases en resumen
 
-Introduce el contexto y los principios de «movimiento rectilíneo y circular» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque. La columna «Evidencia» indica el producto que demostrará el aprendizaje; el título y el contenido de cada clase siguen el estándar pedagógico del programa.
 
-### B05-C04 — Leyes del movimiento de Newton
+### Tramo 1 · Medida y movimiento
 
-Ubica «leyes del movimiento de Newton» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b05-c01"></a>[B05-C01](../clases/B05/B05-C01-magnitudes-fisicas-y-dimensiones/CLASE.md) | Magnitudes físicas y dimensiones | Magnitud, unidad y dimensión; análisis dimensional; conversión de unidades; el caso de la sonda perdida por un error de unidades. | Hoja de verificación dimensional |
+| <a id="b05-c02"></a>[B05-C02](../clases/B05/B05-C02-posicion-velocidad-y-aceleracion/CLASE.md) | Posición, velocidad y aceleración | Marco de referencia, vectores, velocidad media e instantánea, aceleración centrípeta y derivación numérica. | Ficha de movimiento |
+| <a id="b05-c03"></a>[B05-C03](../clases/B05/B05-C03-movimiento-rectilineo-y-circular/CLASE.md) | Movimiento rectilíneo y circular | Fórmulas del movimiento con aceleración constante y del movimiento circular uniforme; órbitas circulares a tres alturas. | Hoja de modelo cinemático |
+| <a id="b05-c04"></a>[B05-C04](../clases/B05/B05-C04-leyes-del-movimiento-de-newton/CLASE.md) | Leyes del movimiento de Newton | Las tres leyes, masa y peso, ingravidez como caída libre e integración numérica de `F = m a`. | Planteamiento de dinámica |
 
-### B05-C05 — Diagramas de cuerpo libre
+### Tramo 2 · Fuerzas, energía y momento
 
-Presenta qué significa «diagramas de cuerpo libre», sus elementos esenciales y su función dentro de física fundamental para el espacio.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b05-c05"></a>[B05-C05](../clases/B05/B05-C05-diagramas-de-cuerpo-libre/CLASE.md) | Diagramas de cuerpo libre | Aislar un cuerpo, descomponer fuerzas, equilibrio y aceleración; tensión en cables según el ángulo. | Diagrama y planteamiento |
+| <a id="b05-c06"></a>[B05-C06](../clases/B05/B05-C06-trabajo-y-energia/CLASE.md) | Trabajo y energía | Trabajo, teorema trabajo–energía, energía potencial gravitatoria y energía necesaria para llegar a órbita. | Hoja de balance energético |
+| <a id="b05-c07"></a>[B05-C07](../clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md) | Conservación de energía mecánica | Energía específica, altura máxima, velocidad de escape de la Tierra y la Luna, deriva de energía de un integrador. | Informe de energía y escape |
+| <a id="b05-c08"></a>[B05-C08](../clases/B05/B05-C08-momento-lineal-e-impulsos/CLASE.md) | Momento lineal e impulsos | Momento, impulso, choques inelásticos y ecuación del cohete deducida paso a paso. | Hoja de momento e impulso |
 
-### B05-C06 — Trabajo y energía
+### Tramo 3 · Giro, gravitación, oscilaciones y ondas
 
-Explica el fenómeno o técnica de «trabajo y energía» y su aplicación observable o tecnológica.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b05-c09"></a>[B05-C09](../clases/B05/B05-C09-momento-angular-y-torque/CLASE.md) | Momento angular y torque | Momento angular, torque, fuerza central, segunda ley de Kepler y `r_p v_p = r_a v_a`. | Hoja de momento angular |
+| <a id="b05-c10"></a>[B05-C10](../clases/B05/B05-C10-gravitacion-universal/CLASE.md) | Gravitación universal | Ley del cuadrado inverso, `G` frente a `GM`, tercera ley de Kepler y prueba de la Luna con datos publicados. | Prueba de consistencia gravitatoria |
+| <a id="b05-c11"></a>[B05-C11](../clases/B05/B05-C11-movimiento-oscilatorio/CLASE.md) | Movimiento oscilatorio | Oscilador masa–resorte, péndulo, amortiguamiento y resonancia; verificación contra la solución analítica. | Ficha de oscilador |
+| <a id="b05-c12"></a>[B05-C12](../clases/B05/B05-C12-ondas-mecanicas-y-frecuencia/CLASE.md) | Ondas mecánicas y frecuencia | `v = f λ`, velocidad del sonido, superposición, Doppler mecánico, muestreo y aliasing con una DFT. | Informe de señal y frecuencia |
 
-### B05-C07 — Conservación de energía mecánica
+### Tramo 4 · Calor, campos, luz e integración
 
-Delimita «conservación de energía mecánica», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b05-c13"></a>[B05-C13](../clases/B05/B05-C13-temperatura-y-energia-termica/CLASE.md) | Temperatura y energía térmica | Temperatura y energía de las partículas, calor, Stefan–Boltzmann y equilibrio radiativo; temperatura efectiva del Sol. | Balance térmico |
+| <a id="b05-c14"></a>[B05-C14](../clases/B05/B05-C14-gases-y-presion/CLASE.md) | Gases y presión | Gas ideal, procesos con una magnitud fija, atmósfera isoterma y fuerza sobre una superficie. | Hoja de gas y presión |
+| <a id="b05-c15"></a>[B05-C15](../clases/B05/B05-C15-campos-electricos/CLASE.md) | Campos eléctricos | Ley de Coulomb, campo, superposición, partículas en campo uniforme y cociente eléctrico/gravitatorio. | Hoja de campo eléctrico |
+| <a id="b05-c16"></a>[B05-C16](../clases/B05/B05-C16-corriente-y-circuitos-elementales/CLASE.md) | Corriente y circuitos elementales | Ohm, Kirchhoff, análisis nodal, balance de potencia y presupuesto de energía con eclipse. | Hoja de circuito y presupuesto de energía |
+| <a id="b05-c17"></a>[B05-C17](../clases/B05/B05-C17-campos-magneticos/CLASE.md) | Campos magnéticos | Fuerza de Lorentz, giro de partículas, campo de un hilo y comparación con el campo terrestre publicado. | Hoja de partícula en campo magnético |
+| <a id="b05-c18"></a>[B05-C18](../clases/B05/B05-C18-electromagnetismo-y-radiacion/CLASE.md) | Electromagnetismo y radiación | `c = 1/√(ε₀μ₀)`, espectro, energía del fotón, cuadrado inverso y radiación ionizante, sin dosis ni límites. | Ficha de banda y flujo |
+| <a id="b05-c19"></a>[B05-C19](../clases/B05/B05-C19-optica-y-velocidad-de-la-luz/CLASE.md) | Óptica y velocidad de la luz | Snell, lente delgada, límite de difracción, resolución desde órbita y tiempos de luz. | Hoja de óptica y tiempo de luz |
+| <a id="b05-c20"></a>[B05-C20](../clases/B05/B05-C20-problema-fisico-integrado-de-satelite-ideal/CLASE.md) | Problema físico integrado de satélite ideal | Integración de todo el bloque: órbita, energía, momento angular, transferencia de Hohmann, propelente, validación numérica y límites. | Informe de problema integrado |
 
-### B05-C08 — Momento lineal e impulsos
+## 🧵 Hilos que atraviesan el bloque
 
-Introduce el contexto y los principios de «momento lineal e impulsos» para comprender su uso científico.
+- **El satélite ideal:** aparece en C01 y crece hasta C20; cada clase añade una pregunta al mismo modelo.
+- **Conservación:** energía (C06–C07), momento lineal (C08), momento angular (C09) y balance de potencia (C16) enseñan a verificar con una cantidad que no cambia.
+- **Unidades y dimensiones:** C01 las introduce y todas las clases las exigen; el caso de la sonda perdida por un error de unidades vuelve en C20.
+- **Modelo y dominio de validez:** cada clase declara qué ignora (sin atmósfera, masa puntual, gas ideal, campo uniforme…).
+- **Verificación numérica:** casi todas las clases incluyen un laboratorio con prueba contra un caso analítico o una referencia publicada.
 
-### B05-C09 — Momento angular y torque
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-Describe los componentes principales de «momento angular y torque» y por qué son relevantes para esta disciplina.
+- Una hoja o ficha por clase, con retroalimentación y recuperación con otro caso.
+- Portafolio con la primera versión y la corregida de al menos tres evidencias.
+- Informe integrado de C20 con rúbrica publicada antes. Condiciones críticas que no se compensan con promedio: unidades y marco declarados, rótulo de datos publicados, sintéticos o simulados, citar solo lo consultado y **no presentar una simulación educativa como cálculo de misión, certificación de vuelo ni de seguridad**.
 
-### B05-C10 — Gravitación universal
+## ⚠️ Seguridad y límites
 
-Presenta qué significa «gravitación universal», sus elementos esenciales y su función dentro de física fundamental para el espacio.
+El bloque es educativo. Sus laboratorios usan modelos ideales y datos en gran parte sintéticos, y no sirven para diseñar ni operar naves, recipientes a presión, instalaciones eléctricas ni protección radiológica. C18 describe qué radiación es ionizante pero no da dosis ni límites. Observar el Sol requiere filtros certificados y supervisión (B01).
 
-### B05-C11 — Movimiento oscilatorio
+## Fuentes consultadas por el bloque
 
-Explica el fenómeno o técnica de «movimiento oscilatorio» y su aplicación observable o tecnológica.
+Todas se consultaron el 2026-11-05; el detalle por afirmación está en la sección 11 de cada clase.
 
-### B05-C12 — Ondas mecánicas y frecuencia
-
-Delimita «ondas mecánicas y frecuencia», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B05-C13 — Temperatura y energía térmica
-
-Introduce el contexto y los principios de «temperatura y energía térmica» para comprender su uso científico.
-
-### B05-C14 — Gases y presión
-
-Describe los componentes principales de «gases y presión» y por qué son relevantes para esta disciplina.
-
-### B05-C15 — Campos eléctricos
-
-Presenta qué significa «campos eléctricos», sus elementos esenciales y su función dentro de física fundamental para el espacio.
-
-### B05-C16 — Corriente y circuitos elementales
-
-Explica el fenómeno o técnica de «corriente y circuitos elementales» y su aplicación observable o tecnológica.
-
-### B05-C17 — Campos magnéticos
-
-Delimita «campos magnéticos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B05-C18 — Electromagnetismo y radiación
-
-Caracteriza «electromagnetismo y radiación», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
-
-### B05-C19 — Óptica y velocidad de la luz
-
-Describe los componentes principales de «óptica y velocidad de la luz» y por qué son relevantes para esta disciplina.
-
-### B05-C20 — Problema físico integrado de satélite ideal
-
-Presenta qué significa «problema físico integrado de satélite ideal», sus elementos esenciales y su función dentro de física fundamental para el espacio.
+- **BIPM**, *SI defining constants*: constantes definitorias exactas (`c`, `h`, `e`, `k`, `N_A`, Δν_Cs). https://www.bipm.org/en/measurement-units/si-defining-constants
+- **NIST, CODATA 2022**, valores de `G`, `g_n`, `ε₀`, `μ₀`, `R`, `σ`, `k_B`, `N_A`, `m_p`, `m_e`. https://physics.nist.gov/cuu/Constants/index.html
+- **NASA NSSDC**, *Earth Fact Sheet* (act. 15-nov-2024), *Moon Fact Sheet* (act. 11-ene-2024), *Sun Fact Sheet* (act. 9-may-2024).
+- **NASA Science**, «Mars Climate Orbiter»; **NASA**, «Space Station Facts and Figures»; **NASA Science**, «Electromagnetic Spectrum: Introduction»; **NASA Science**, «Van Allen Probes» (solo lo que la página afirma).
+- **NASA Glenn**, *Beginner's Guide to Aeronautics*, «Speed of Sound».
+- **NOAA NCEI**, «World Magnetic Model».
 
 ## Fuentes de orientación preliminar
 
@@ -98,4 +112,6 @@ Presenta qué significa «problema físico integrado de satélite ideal», sus e
 - **[ESO]** [European Southern Observatory](https://www.eso.org/) — Observatorios ópticos, instrumentación y astronomía profesional.
 - **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes preliminares es orientativa por bloque. No significa que cada afirmación esté respaldada por ellas: la verificación afirmación por afirmación está en la sección 11 de cada clase, con sus límites.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B06 — Química y materia del universo](./B06-quimica-y-materia-del-universo.md)
