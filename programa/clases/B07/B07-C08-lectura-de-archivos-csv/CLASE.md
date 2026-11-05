@@ -1,7 +1,7 @@
 # B07-C08 — Lectura de archivos CSV
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C07 — Listas y estructuras de datos](../B07-C07-listas-y-estructuras-de-datos/CLASE.md) · [Siguiente: B07-C09 — Cálculos científicos básicos con Python →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C07 — Listas y estructuras de datos](../B07-C07-listas-y-estructuras-de-datos/CLASE.md) · [Siguiente: B07-C09 — Cálculos científicos básicos con Python →](../B07-C09-calculos-cientificos-basicos-con-python/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Un CSV es una tabla en texto: se abre con `encoding` y `newline=""`, se recorre 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B07-C07 — Listas y estructuras de datos](../B07-C07-listas-y-estructuras-de-datos/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C09 — Cálculos científicos básicos con Python →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c09)
+[← Anterior: B07-C07 — Listas y estructuras de datos](../B07-C07-listas-y-estructuras-de-datos/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C09 — Cálculos científicos básicos con Python →](../B07-C09-calculos-cientificos-basicos-con-python/CLASE.md)
 <!-- /nav -->
