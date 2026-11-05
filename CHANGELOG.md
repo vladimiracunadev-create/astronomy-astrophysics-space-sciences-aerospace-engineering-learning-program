@@ -17,6 +17,7 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 - Políticas separadas para datos, activos, terceros, marcas, uso comercial e historial de licencias.
 - Guías profesionales de syllabus, carga, fuentes, verificación, dependencias, portafolio, seguridad, soporte y conducta.
 - Mapas navegables en el README principal para las 8 áreas, 64 bloques, 1.280 clases transversales, 24 rutas y 192 módulos todavía en E0.
+- Cierre visual del README con alcance, exclusiones, idea fuerza, licencias diferenciadas y firma del autor.
 
 ### Estado honesto
 

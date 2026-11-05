@@ -298,14 +298,67 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 - Seguridad, ética y fronteras profesionales visibles.
 - Interoperabilidad con otros programas mediante manifiestos y metadatos, sin modificar repositorios ajenos.
 
-## 📌 Identidad y alcance
+## 🎯 Qué es y qué no es este programa
 
-El nombre académico formal es **Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial** y el repositorio es `astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program`. No se utiliza una sigla como nombre alternativo.
+<table>
+<tr>
+<td valign="top" width="50%">
 
-La versión documental `0.1.0` fija la línea base del catálogo. Las futuras ampliaciones serán aditivas, conservarán los IDs existentes y registrarán dependencias, fuentes y decisiones. Consulta el [contrato del repositorio](documentacion/ALCANCE_Y_CONTRATO_DEL_REPOSITORIO.md) antes de proponer cambios.
+### ✅ Lo que sí es
 
-## ⚖️ Licenciamiento diferenciado
+- 🌌 un **programa independiente** con una arquitectura curricular única para astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial;
+- 🗂️ un catálogo ordenado de **5.120 unidades E0**, con 8 áreas, 64 bloques, 24 rutas y 192 módulos enlazados;
+- 🧭 una referencia para planificar recorridos transversales y profesionales sin perder IDs, dependencias ni trazabilidad;
+- 🎓 un estándar pedagógico y científico que define cómo una futura clase deberá avanzar desde E0 hasta E6;
+- 🌐 un repositorio público, navegable y legible por personas y máquinas, con visor estático y validación reproducible.
 
-El software propio —scripts, workflows, configuración y componentes funcionales— se publica bajo [Apache License 2.0](LICENSE). La expresión educativa original, la arquitectura curricular y la documentación se publican bajo [CC BY-NC-SA 4.0](LICENSE-CONTENT.md). Datos, activos, fuentes de terceros y marcas conservan reglas específicas.
+</td>
+<td valign="top" width="50%">
 
-Consulta el [centro de licencias](documentacion/LICENCIAS_Y_PROCEDENCIA.md), la [matriz por componente](documentacion/LICENSING_MATRIX.md) y la [auditoría vigente](LICENSING_AUDIT.md). La publicación no relicencia obras externas ni implica patrocinio institucional.
+### ❌ Lo que no es
+
+- 🚫 una colección de 5.120 clases ya redactadas: actualmente todas conservan sólo título, descripción y referencias preliminares;
+- 🚫 veinticuatro programas separados: las rutas reutilizan un mismo tronco y pertenecen a una sola formación;
+- 🚫 una universidad, carrera acreditada, título, certificación ni licencia profesional;
+- 🚫 autorización para diseñar, fabricar, lanzar, pilotar, diagnosticar o intervenir sistemas reales sin normativa y profesionales competentes;
+- 🚫 una reproducción de libros, normas o documentación institucional, ni un proyecto patrocinado por los organismos citados.
+
+</td>
+</tr>
+</table>
+
+## 💡 Idea fuerza
+
+> El valor de este programa no está en afirmar que miles de clases ya existen, sino en **hacer visible cómo deberán construirse**: una secuencia estable, fuentes con alcance declarado, decisiones científicas reproducibles, práctica auténtica, evidencia, accesibilidad y puertas de calidad que impidan confundir un título catalogado con aprendizaje verificado.
+
+## 📄 Licencias y propiedad intelectual
+
+Este repositorio separa las obras por su naturaleza:
+
+- **Código propio, scripts, workflows, configuración y componentes funcionales:** [Apache License 2.0](LICENSE).
+- **Arquitectura curricular, documentación, rutas, futuras clases, ejercicios, evaluaciones, diagramas y materiales educativos originales:** [CC BY-NC-SA 4.0](LICENSE-CONTENT.md).
+- **Catálogos, metadatos y futuros datos científicos:** consulta [DATA_LICENSES.md](DATA_LICENSES.md); hechos y datos externos no se relicencian automáticamente.
+- **Imágenes, audio, video, modelos, tipografías y otros activos:** consulta [ASSET_LICENSES.md](ASSET_LICENSES.md).
+- **Herramientas, fuentes y material de terceros:** conservan sus licencias y derechos originales; consulta [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Copyright © 2026 **Vladimir Acuña** (`vladimiracunadev-create`). La [historia del licenciamiento](documentacion/LICENSING_HISTORY.md) distingue las revisiones anteriores que no tenían una concesión explícita y evita interpretaciones retroactivas. Las licencias no conceden derechos de marca, acreditación ni carácter oficial: consulta [TRADEMARKS.md](TRADEMARKS.md), la [matriz por componente](documentacion/LICENSING_MATRIX.md) y la [auditoría vigente](LICENSING_AUDIT.md).
+
+---
+
+<div align="center">
+
+**Hecho para ordenar y desarrollar una formación espacial profunda, verificable y accesible.**
+
+[⬆️ Explorar el catálogo de 5.120 unidades](PROGRAMA_ACADEMICO_COMPLETO.md)
+
+<br>
+
+**¿Te resulta útil? ⭐ Dale una estrella al repositorio.**
+
+[![GitHub stars](https://img.shields.io/github/stars/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program?style=social)](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program?style=social)](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/network/members)
+[![Follow](https://img.shields.io/github/followers/vladimiracunadev-create?style=social&label=Follow)](https://github.com/vladimiracunadev-create)
+
+Hecho con 🧠 y ☕ por [Vladimir Acuña](https://github.com/vladimiracunadev-create)
+
+</div>
