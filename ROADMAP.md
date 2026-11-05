@@ -23,7 +23,7 @@ Este roadmap resume la resolución del repositorio y de sus contenidos. El detal
 
 ## Horizonte 0 · refinamiento curricular
 
-Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICULAR.md). Precede al piloto.
+Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICULAR.md). Precede a la redacción masiva.
 
 - [ ] Auditoría reproducible de plantillas, descripciones repetidas y solapamientos.
 - [ ] Decidir los 88 solapamientos ruta/tronco sin renumerar IDs.
@@ -32,11 +32,11 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
 - [ ] Guías pedagógicas por bloque y módulo (B01 hecho como plantilla; 63 bloques y 192 módulos pendientes).
-- [ ] Borrador piloto B01-C01 creado (sin revisión humana; no cuenta como clase redactada).
+- [x] B01-C01 redactada y aprobada por el autor (conserva E0 en el catálogo hasta registrar revisión disciplinar).
 
-**Cierre:** informe de refinamiento y piloto doble (un bloque del tronco y un módulo de ruta).
+**Cierre:** informe de refinamiento y contraste metodológico (un bloque del tronco y un módulo de ruta).
 
-## Horizonte B · piloto B01
+## Horizonte B · resolución de B01
 
 - [ ] Llevar B01-C01–B01-C20 de E0 a E5.
 - [ ] Auditar dependencias, fuentes, ejercicios, soluciones y accesibilidad.

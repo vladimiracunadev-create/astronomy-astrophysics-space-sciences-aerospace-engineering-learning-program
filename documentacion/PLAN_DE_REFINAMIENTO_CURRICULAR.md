@@ -2,7 +2,7 @@
 
 **Fecha:** 5 de noviembre de 2026 · **Versión documental:** `0.1.0` · **Estado:** propuesta; ninguna clase cambia de estado con este documento.
 
-Este plan se ejecuta **antes** del piloto B01 del [plan de implementación](PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md). Su objetivo es que el contenido que se redacte sea completo, diferenciado y no repetitivo, en lugar de redactar 5.120 clases sobre una estructura uniforme.
+Este plan se ejecuta **antes** de la resolución masiva de B01 del [plan de implementación](PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md). Su objetivo es que el contenido que se redacte sea completo, diferenciado y no repetitivo, en lugar de redactar 5.120 clases sobre una estructura uniforme.
 
 ## 1. Diagnóstico de la línea base `0.1.0`
 
@@ -78,9 +78,9 @@ Detectados por búsqueda de títulos; cada uno debe confirmarse antes de crear u
 - Validador de ciclos y de saltos de nivel N0–N5.
 - **Puerta:** grafo sin ciclos; cada ruta con diagnóstico de entrada y camino mínimo.
 
-### L7 · Piloto metodológico (reemplaza la entrada directa a B01)
+### L7 · Contraste metodológico (reemplaza la entrada directa a B01)
 
-- Piloto doble: **un bloque del tronco (B01)** y **un módulo de ruta refinado** (por ejemplo R01-M01), porque la estructura de ruta no queda representada por B01.
+- Contraste doble: **un bloque del tronco (B01)** y **un módulo de ruta refinado** (por ejemplo R01-M01), porque la estructura de ruta no queda representada por B01.
 - Medir carga real por clase y por función del estándar para recalibrar el peso (L4).
 - **Puerta:** informe de lecciones y decisión explícita de escalar o corregir.
 
@@ -97,10 +97,10 @@ Detectados por búsqueda de títulos; cada uno debe confirmarse antes de crear u
 
 ```text
 L1 auditoría → L2 solapamientos → L3 módulos de ruta
-→ L4 pesos ‖ L5 vacíos → L6 dependencias → L7 piloto doble
+→ L4 pesos ‖ L5 vacíos → L6 dependencias → L7 contraste doble
 ```
 
-L8 se aplica bloque a bloque junto con L3 y L5. Piloto ya iniciado: [borrador de B01-C01](../programa/pilotos/B01-C01-naturaleza-del-universo/CLASE.md) (22 funciones, laboratorio con prueba analítica), sin revisión humana y sin cambiar el estado E0 del catálogo.
+L8 se aplica bloque a bloque junto con L3 y L5. Primera clase resuelta: [B01-C01](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md) (22 funciones, laboratorio con prueba analítica), aprobada por el autor; el catálogo conserva E0.
 
 L4 y L5 pueden avanzar en paralelo una vez cerrada L2. L3 se aplica por rutas en lotes pequeños para permitir revisión disciplinar.
 
@@ -112,14 +112,14 @@ L4 y L5 pueden avanzar en paralelo una vez cerrada L2. L3 se aplica por rutas en
 - [ ] Clasificación núcleo/ampliable/consolidado por unidad (L4).
 - [ ] Vacíos confirmados, descartados o propuestos como ampliaciones (L5).
 - [ ] Dependencias por capacidad sin ciclos (L6).
-- [ ] Piloto doble con informe (L7).
+- [ ] Contraste doble con informe (L7).
 - [ ] `python herramientas/validar_catalogo.py` verde antes y después de cada lote; `STATUS.md`, changelog y manifiestos actualizados.
 
 ## 6. Decisiones abiertas
 
 1. ¿Se mantiene el recuento de 5.120 como base inmutable y se reporta aparte el catálogo ampliado?
 2. ¿Dónde se guardan los títulos refinados: metadatos adicionales (recomendado) o una versión `0.2.0` del catálogo?
-3. ¿Qué rutas se refinan primero? Propuesta: R01 (por el piloto), luego las de mayor demanda profesional.
+3. ¿Qué rutas se refinan primero? Propuesta: R01 (por el contraste), luego las de mayor demanda profesional.
 
 ## 7. Límites
 

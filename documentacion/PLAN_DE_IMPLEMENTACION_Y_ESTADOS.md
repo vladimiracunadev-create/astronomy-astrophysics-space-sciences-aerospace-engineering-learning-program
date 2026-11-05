@@ -52,9 +52,9 @@ Los criterios detallados están en el [estándar pedagógico](ESTANDAR_PEDAGOGIC
 
 **Objetivo:** corregir la uniformidad estructural y las clases derivadas por plantilla antes de redactar. Ver [plan de refinamiento curricular](PLAN_DE_REFINAMIENTO_CURRICULAR.md).
 
-**Cierre:** auditoría regenerable, solapamientos decididos, módulos de ruta diferenciados, dependencias por capacidad y piloto doble. Sin renumerar IDs ni avanzar estados.
+**Cierre:** auditoría regenerable, solapamientos decididos, módulos de ruta diferenciados, dependencias por capacidad y contraste metodológico. Sin renumerar IDs ni avanzar estados.
 
-### Horizonte B · piloto B01
+### Horizonte B · resolución de B01
 
 **Objetivo:** resolver las 20 clases de B01 de E0 a E5 antes de escalar.
 

@@ -1,8 +1,10 @@
 # B01-C01 — Naturaleza del universo
 
-> **Borrador piloto del estándar `clase-profunda-cientifica`.** Contiene las 22 funciones, pero **no ha tenido revisión humana disciplinar**. El catálogo mantiene esta clase en **E0**; este documento **no cuenta** como clase redactada, verificada ni validada (reglas de `AGENTS.md`).
+> **Clase aprobada por el autor del programa (2026-11-05)** bajo el estándar `clase-profunda-cientifica`. En el catálogo conserva el estado E0 hasta registrar la revisión disciplinar que exigen `AGENTS.md` y el estándar para avanzar de etapa.
 
-[🏠 Programa](../../../README.md) · [📚 Bloque B01](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C02 →](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c02)
+<!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C02 — Escalas desde la Tierra al cosmos observable →](../B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md)
+<!-- /nav -->
 
 [🧪 Laboratorio](laboratorio_edad_y_horizonte.py) · [📝 Ficha editorial](FICHA_EDITORIAL.md)
 
@@ -90,7 +92,7 @@ Hay además una imagen que ayuda a imaginar la expansión del universo. Piensa e
 
 La luz es muy rápida, pero no instantánea: viaja a `c = 299 792 458 m/s`. Eso significa que cuando miras algo, lo ves como era cuando la luz salió de él. Si divides una distancia `d` por `c`, obtienes el tiempo `t = d / c` que la luz tardó en llegar.
 
-Algunos casos concretos. El Sol está a 1 unidad astronómica (1 au = 149 597 870 700 m, la distancia media Tierra–Sol): su luz tarda unos 499 segundos, es decir, 8,3 minutos; ves el Sol de hace 8 minutos. La Luna está a unos 384 400 km: su luz tarda 1,28 s. Próxima Centauri, la estrella más cercana al Sol, está a 4,2465 años luz: su luz salió hace 4,2465 años. Y la galaxia de Andrómeda está a unos 2,5 millones de años luz: la ves como era hace 2,5 millones de años. Cuanto más lejos miras, más atrás en el tiempo estás mirando. Esta idea, simple, es la que convierte a los telescopios en máquinas del tiempo.
+Algunos casos concretos. El Sol está a 1 unidad astronómica (1 au = 149 597 870 700 m, la distancia media Tierra–Sol): su luz tarda unos 499 segundos, es decir, 8,3 minutos; ves el Sol de hace 8 minutos. La Luna está a unos 384 400 km: su luz tarda 1,28 s. Próxima Centauri, la estrella más cercana al Sol, está a 4,244 años luz (1,301 pc; fuente S6): su luz salió hace 4,244 años. Y la galaxia de Andrómeda está a unos 2,5 millones de años luz (765 ± 28 kpc; fuente S7): la ves como era hace 2,5 millones de años. Cuanto más lejos miras, más atrás en el tiempo estás mirando. Esta idea, simple, es la que convierte a los telescopios en máquinas del tiempo.
 
 De aquí sale una unidad cómoda para distancias enormes: el **año luz**, que es la *distancia* que recorre la luz en un año (no una unidad de tiempo, aunque lleve «año» en el nombre). Vale 9,4607 × 10¹⁵ m. Los astrónomos también usan el **parsec** (1 pc ≈ 3,0857 × 10¹⁶ m ≈ 3,26 años luz) y su millón de veces mayor, el **megaparsec** (1 Mpc = 10⁶ pc ≈ 3,0857 × 10¹⁹ km).
 
@@ -138,7 +140,7 @@ Si hoy la expansión sigue un ritmo `H₀`, hay una escala de tiempo natural: `t
 
 Con las unidades de `H₀` hay un atajo cómodo. Como `1 Mpc = 3,0857 × 10¹⁹ km`, resulta que `t_H = 977,8 / H₀` en miles de millones de años (Gyr) cuando `H₀` está en km/s/Mpc. Por ejemplo, con `H₀ = 70`, `t_H = 977,8/70 = 13,97 Gyr`.
 
-Pero `t_H` **no es exactamente la edad del universo**: la expansión no ha tenido siempre el mismo ritmo. En el modelo ΛCDM la expansión se frenó al principio por la atracción de la materia, y más tarde se aceleró por la llamada energía oscura; ambos efectos se compensan en parte, y por eso `1/H₀` queda cerca de la edad, pero sin igualarla. Para obtener la edad hay que *integrar* esa historia, y eso hace el laboratorio de la sección 17: con `H₀ = 67,4` y `Ωm = 0,315` (la fracción de materia hoy) da 13,79 Gyr, mientras que `1/H₀` daría 14,51 Gyr.
+Pero `t_H` **no es exactamente la edad del universo**: la expansión no ha tenido siempre el mismo ritmo. En el modelo ΛCDM la expansión se frenó al principio por la atracción de la materia, y más tarde se aceleró por la llamada energía oscura; ambos efectos se compensan en parte, y por eso `1/H₀` queda cerca de la edad, pero sin igualarla. Para obtener la edad hay que *integrar* esa historia, y eso hace el laboratorio de la sección 17: con `H₀ = 67,4` y `Ωm = 0,315` (la fracción de materia hoy) da 13,79 Gyr, mientras que `1/H₀` daría 14,51 Gyr. El análisis completo de Planck publica 13,797 ± 0,023 Gyr (fuente S1, Tabla 1): nuestro cálculo simplificado coincide con él dentro de esa incertidumbre.
 
 Para fijar ideas hay un caso límite con solución exacta: un universo hecho *solo de materia* (el llamado modelo de Einstein–de Sitter). En él la edad es exactamente `2/(3H₀)`, es decir, dos tercios del tiempo de Hubble: 9,31 Gyr para `H₀ = 70`. Lo usaremos como referencia para verificar que nuestro código no se equivoca.
 
@@ -183,13 +185,15 @@ Cada cifra importante de esta clase tiene un origen declarado. La tabla indica q
 
 | ID | Fuente | Localizador | Respalda | Estado de verificación |
 |---|---|---|---|---|
-| S1 | Planck Collaboration (Aghanim, N. et al.), *Planck 2018 results. VI. Cosmological parameters*, A&A 641, A6 (2020) | DOI 10.1051/0004-6361/201833910 · arXiv:1807.06209 | `H₀ = 67,4 ± 0,5`; `Ωm = 0,315 ± 0,007` (base-ΛCDM) | Resumen consultado el 2026-11-05. No se leyó el artículo completo; la edad no se toma de aquí, se calcula |
-| S2 | Riess, A. G. et al., *A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty…* (2022) | DOI 10.3847/2041-8213/ac5c5b · arXiv:2112.04510 | `H₀ = 73,04 ± 1,04` | Resumen consultado el 2026-11-05 |
-| S3 | BIPM, *The International System of Units (SI): Defining constants* | https://www.bipm.org/en/measurement-units/si-defining-constants | `c = 299 792 458 m/s` exacta | Página consultada el 2026-11-05. Falta citar la edición de la *SI Brochure* (9.ª ed., 2019) con sección |
-| S4 | IAU, Resolución B2 de 2012, *Re-définition de l'unité astronomique de longueur* | https://www.iau.org/Iau/Publications/List-of-Resolutions.aspx | `au` exacta (149 597 870 700 m) | Título confirmado el 2026-11-05 en la lista de la IAU; **el valor no se leyó en el texto de la resolución** y la definición de parsec (IAU 2015) **no se consultó** |
-| S5 | Hubble, E., *A relation between distance and radial velocity among extra-galactic nebulae*, PNAS 15, 168 (1929) | DOI 10.1073/pnas.15.3.168 | Relación histórica distancia–velocidad | El sitio del editor devolvió acceso denegado el 2026-11-05: **cita no verificada**; solo uso histórico |
+| S1 | Planck Collaboration (Aghanim, N. et al.), *Planck 2018 results. VI. Cosmological parameters*, A&A 641, A6 (2020) | DOI 10.1051/0004-6361/201833910 · arXiv:1807.06209 | Resumen: `H₀ = 67,4 ± 0,5`; `Ωm = 0,315 ± 0,007` (base-ΛCDM). Tabla 1 (TT,TE,EE+lowE+lensing): `H₀ = 67,36 ± 0,54`, `Ωm = 0,3153 ± 0,0073`, edad `13,797 ± 0,023 Gyr` | Resumen y Tabla 1 del manuscrito arXiv (versión del 10 de agosto de 2021) leídos el 2026-11-05. La edad publicada sirve para contrastar el cálculo del laboratorio; el resto del artículo no se usó |
+| S2 | Riess, A. G. et al., *A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team*, ApJL (2022) | DOI 10.3847/2041-8213/ac5c5b · arXiv:2112.04510 | Resultado base de la muestra cefeidas–SN Ia: `H₀ = 73,04 ± 1,04` (incluye sistemáticos) | Resumen y texto del manuscrito (versión del 20 de julio de 2022) consultados el 2026-11-05; no se reprodujo su análisis |
+| S3 | BIPM, *The International System of Units (SI)*, 9.ª edición (2019), texto bilingüe | https://www.bipm.org/en/measurement-units/si-defining-constants · PDF de la 9.ª ed. | Definición del segundo; `c = 299 792 458 m/s`; `1 au = 149 597 870 700 m` (tabla de unidades no SI aceptadas) | Página y PDF consultados el 2026-11-05 |
+| S4 | IAU, Resolución B2 de 2012, *on the re-definition of the astronomical unit of length* (XXVIII Asamblea General); IAU, Resolución B2 de 2015, nota 4 (definición de parsec) | Textos enlazados desde https://www.iau.org/Iau/Publications/List-of-Resolutions.aspx | 2012: `1 au = 149 597 870 700 m` exactamente (recomendación 1). 2015: `1 pc = (648 000/π) au` exactamente, ≈ 3,085 677 581… × 10¹⁶ m | Textos de ambas resoluciones leídos el 2026-11-05 |
+| S5 | Hubble, E., *A relation between distance and radial velocity among extra-galactic nebulae*, PNAS 15(3), 168–173 (1929) | DOI 10.1073/pnas.15.3.168 · PMCID PMC522427 | Referencia histórica de la relación distancia–velocidad | Ficha bibliográfica confirmada el 2026-11-05 en PubMed Central; el artículo no se usa para ninguna cifra de la clase |
+| S6 | NASA Exoplanet Archive, tabla `ps` (consulta TAP: host «Proxima Cen») | https://exoplanetarchive.ipac.caltech.edu | Distancia 1,30119 pc; paralaje 768,5 ± 0,2 mas | Consulta del 2026-11-05; archivo mutable, se cita la fecha |
+| S7 | Riess, A. G., Fliri, J., Valls-Gabaud, D., *Cepheid Period-Luminosity Relations in the Near-Infrared and the Distance to M31 from the HST WFC3* (2012) | arXiv:1110.3769 · DOI 10.1088/0004-637X/745/2/156 | Distancia a M31 de 765 ± 28 kpc (módulo 24,42 ± 0,05 ± 0,03) | Resumen consultado el 2026-11-05 |
 
-Lo que **no** respaldan estas fuentes: que ΛCDM sea la descripción definitiva del universo. Se citan resultados y se parafrasean; no se reproduce texto ni figuras. La fuente S5 no sostiene ninguna cifra de esta clase.
+Lo que **no** respaldan estas fuentes: que ΛCDM sea la descripción definitiva del universo. Se citan resultados y se parafrasean; no se reproduce texto ni figuras. S5 es de interés histórico y no sostiene ninguna cifra de esta clase.
 
 ## 12. Cómo ver las escalas
 
@@ -199,7 +203,7 @@ Las distancias del universo abarcan tantos órdenes de magnitud que solo se pued
 |---|---|---|
 | Tierra–Luna | 3,844 × 10⁸ | 8,6 |
 | Tierra–Sol | 1,496 × 10¹¹ | 11,2 |
-| Próxima Centauri | ≈ 4,02 × 10¹⁶ | 16,6 |
+| Próxima Centauri | ≈ 4,01 × 10¹⁶ | 16,6 |
 | Andrómeda | ≈ 2,4 × 10²² | 22,4 |
 | Horizonte observable (ΛCDM) | ≈ 4,4 × 10²⁶ | 26,6 |
 
@@ -240,11 +244,11 @@ Estos tres ejercicios te acompañan con apoyos que van disminuyendo. Intenta res
 Sol: `1,495978707 × 10¹¹ m / 2,99792458 × 10⁸ m/s = 499,0 s = 8,32 min`. Luna: `3,844 × 10⁸ m / 2,998 × 10⁸ m/s = 1,282 s`. Ves el Sol como era hace ~8 min y la Luna como era hace ~1,3 s. Si te salió un número absurdo, revisa que la distancia esté en metros y la velocidad en m/s: mezclar km con m es el error más común.
 </details>
 
-**Ejercicio 2 · con una pista.** Próxima Centauri está a 4,2465 años luz. Calcula su distancia en metros y en parsecs, y di cuánto tarda en llegarnos su luz. *Pista:* 1 ly = 9,4607 × 10¹⁵ m y 1 pc ≈ 3,2616 ly.
+**Ejercicio 2 · con una pista.** Próxima Centauri está a 4,244 años luz. Calcula su distancia en metros y en parsecs, y di cuánto tarda en llegarnos su luz. *Pista:* 1 ly = 9,4607 × 10¹⁵ m y 1 pc ≈ 3,2616 ly.
 
 <details><summary>Solución comentada</summary>
 
-`4,2465 × 9,4607 × 10¹⁵ = 4,017 × 10¹⁶ m`; en parsecs, `4,2465 / 3,2616 = 1,302 pc`. La luz tarda 4,2465 años, porque un año luz es, por definición, lo que la luz recorre en un año.
+`4,244 × 9,4607 × 10¹⁵ = 4,015 × 10¹⁶ m`; en parsecs, `4,244 / 3,2616 = 1,301 pc`. La luz tarda 4,244 años, porque un año luz es, por definición, lo que la luz recorre en un año.
 </details>
 
 **Ejercicio 3 · casi autónomo.** Andrómeda está a unos 2,5 × 10⁶ años luz. Calcula su distancia en metros y explica por qué no corresponde estimarla con `d = v/H₀` (sección 8.3).
@@ -335,6 +339,8 @@ Una ficha completa puede usar Próxima Centauri o Andrómeda para el tiempo de l
 | 73,04 | 0,315 | 12,726 | 42,57 |
 | 70,00 | 0,300 | 13,461 | 45,28 |
 
+**Contraste con una fuente.** La primera fila (13,791 Gyr) coincide con la edad publicada por Planck, 13,797 ± 0,023 Gyr (S1, Tabla 1): la diferencia es de 0,006 Gyr, menor que la incertidumbre publicada. Es una buena señal para el código, aunque no prueba el modelo.
+
 **Cómo leerlos.** Al subir `H₀`, el universo resulta más joven y más pequeño: tu predicción se cumple. Cuidado con la segunda fila: **no** es un resultado del equipo SH0ES, sino el efecto de poner su `H₀` en un modelo cuyo `Ωm` viene de Planck, mezclando parámetros de dos mediciones. Sirve para ver la sensibilidad del modelo, no como cosmología.
 
 **Límites.** No es un ajuste a datos; no incluye neutrinos masivos ni curvatura; no se debe usar como cálculo de investigación. Es un experimento de cálculo sin riesgos físicos; si más adelante lo amplías con observaciones reales, nunca mires al Sol sin un filtro certificado.
@@ -342,7 +348,7 @@ Una ficha completa puede usar Próxima Centauri o Andrómeda para el tiempo de l
 Para ejecutarlo (requiere `numpy` y `scipy`):
 
 ```bash
-python programa/pilotos/B01-C01-naturaleza-del-universo/laboratorio_edad_y_horizonte.py
+python programa/clases/B01/B01-C01-naturaleza-del-universo/laboratorio_edad_y_horizonte.py
 ```
 
 ## 18. Errores frecuentes y cómo corregirlos
@@ -391,8 +397,10 @@ Mirar lejos es mirar al pasado, y toda cifra cosmológica es el resultado de un 
 
 **Continuidad.** La clase B01-C02 reutiliza lo que acabas de practicar: convertir unidades y expresar un orden de magnitud con su incertidumbre, para construir una escalera de escalas desde la Tierra hasta el cosmos observable. Más adelante, B01-C16 retomará la clasificación observación/inferencia/modelo, aplicada a la expansión.
 
-**Referencias:** ver sección 11. S4 y S5 deben verificarse en su texto completo antes de pasar a E2; S1 y S2 requieren lectura de las secciones citadas.
+**Referencias:** ver sección 11. De S1 y S2 se usaron el resumen y las tablas citadas; para avanzar de etapa falta una revisión disciplinar de cómo se usan.
 
+<!-- nav:bottom -->
 ---
 
-[← Anterior: inicio del bloque](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [📚 Bloque B01](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C02 — Escalas desde la Tierra al cosmos observable →](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c02)
+[← Inicio del bloque](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C02 — Escalas desde la Tierra al cosmos observable →](../B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md)
+<!-- /nav -->

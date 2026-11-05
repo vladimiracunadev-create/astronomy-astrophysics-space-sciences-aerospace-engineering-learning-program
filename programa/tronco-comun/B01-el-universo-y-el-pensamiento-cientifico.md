@@ -2,8 +2,8 @@
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A01 — Alfabetización científica, astronómica y tecnológica
-**Nivel:** N0 → N1 (descubrimiento y fundamentos) · **Clases:** 20 · **Carga:** por calibrar en el piloto
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 20 clases siguen en **E0**: no hay lecciones desarrolladas, salvo el **borrador piloto** de [B01-C01](../pilotos/B01-C01-naturaleza-del-universo/CLASE.md), que no cuenta como clase redactada.
+**Nivel:** N0 → N1 (descubrimiento y fundamentos) · **Clases:** 20 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; el resto son resúmenes de especificación. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
 ## 🎯 Propósito del bloque
 
@@ -41,8 +41,8 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| [B01-C01](../pilotos/B01-C01-naturaleza-del-universo/CLASE.md) | Naturaleza del universo | Qué es el universo y el universo observable; separar observación, inferencia y modelo con cifras reales (edad, expansión). | Ficha de escala y edad |
-| <a id="b01-c02"></a>B01-C02 | Escalas desde la Tierra al cosmos observable | Órdenes de magnitud y notación científica; recorrer 26 órdenes de magnitud con unidades de longitud. | Escalera de escalas con conversiones |
+| <a id="b01-c01"></a>[B01-C01](../clases/B01/B01-C01-naturaleza-del-universo/CLASE.md) | Naturaleza del universo | Qué es el universo y el universo observable; separar observación, inferencia y modelo con cifras reales (edad, expansión). | Ficha de escala y edad |
+| <a id="b01-c02"></a>[B01-C02](../clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md) | Escalas desde la Tierra al cosmos observable | Órdenes de magnitud y notación científica; recorrer 26 órdenes de magnitud con unidades de longitud. | Escalera de escalas con conversiones |
 | <a id="b01-c03"></a>B01-C03 | Objetos celestes y sus diferencias | Criterios para distinguir planeta, estrella, galaxia, nebulosa y cúmulo; qué los define y cómo se observan. | Clasificación justificada de objetos |
 | <a id="b01-c04"></a>B01-C04 | Espacio y tiempo en ciencia | Cómo se miden posición y tiempo; sistemas de referencia y escalas temporales básicas. | Registro de tiempo y posición con referencia declarada |
 

@@ -24,3 +24,6 @@ jobs:
 
       - name: Validar estructura y estado
         run: python herramientas/validar_catalogo.py
+
+      - name: Comprobar navegación entre clases
+        run: python herramientas/actualizar_navegacion.py --check
