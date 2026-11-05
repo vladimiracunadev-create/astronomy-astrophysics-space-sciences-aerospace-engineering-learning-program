@@ -1,5 +1,378 @@
 {
   "ruta_id": "R20",
-  "estado": "pendiente",
-  "rol": "Arquitectura y hábitats extraterrestres"
+  "estado": "definido",
+  "rol": "Arquitecto/a de hábitats y sistemas de soporte vital extraterrestres",
+  "resumen": "Diseña un hábitat presurizado para una tripulación: dispone módulos y accesos sobre un emplazamiento, cierra los balances de aire, agua, alimento y energía, y demuestra que protege a las personas de radiación, fugas y fallos.",
+  "decide": "Qué disposición y qué sistemas de soporte vital mantienen vivas y en condiciones de trabajar a las personas dentro de los presupuestos de masa, energía y riesgo, y qué se resuelve con redundancia, con blindaje o con cambio de arquitectura.",
+  "entrega": "Requisitos de habitabilidad trazables, planos de distribución, balances de masa (aire, agua, alimento) y de energía con incertidumbre, matriz de riesgo ambiental y un diseño integral revisado.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Unidades, incertidumbre y fuentes",
+      "clases": [
+        "B01-C04",
+        "B01-C08",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Reportar cualquier cifra de diseño de un hábitat con unidad, incertidumbre y fuente.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática de balances",
+      "clases": [
+        "B03-C05",
+        "B03-C10",
+        "B03-C11",
+        "B03-C14",
+        "B03-C17",
+        "B04-C12..C14"
+      ],
+      "capacidad": "Resolver proporciones, despejes, áreas, volúmenes y vectores que aparecen en balances de masa y de espacio.",
+      "omitible_si": "aprueba el diagnóstico de matemática"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Física de gases, calor y electricidad del hábitat",
+      "clases": [
+        "B05-C01",
+        "B05-C04..C07",
+        "B05-C10",
+        "B05-C13..C14",
+        "B05-C16..C18",
+        "B05-C20"
+      ],
+      "capacidad": "Aplicar energía, calor, gases y circuitos elementales al balance de un recinto habitable.",
+      "nota": "Se omiten ondas, oscilaciones y óptica, que el rol no usa de entrada.",
+      "omitible_si": "aprueba el diagnóstico de física"
+    },
+    {
+      "orden": 4,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Química del aire, del agua y de los materiales",
+      "clases": [
+        "B06-C06..C13",
+        "B06-C15"
+      ],
+      "capacidad": "Plantear balances de masa y de reacción para oxígeno, CO2, agua y soluciones.",
+      "omitible_si": "aprueba el diagnóstico de química"
+    },
+    {
+      "orden": 5,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Cálculo reproducible",
+      "clases": [
+        "B07-C09..C11",
+        "B07-C17",
+        "B07-C19"
+      ],
+      "capacidad": "Programar y probar un balance de masas con unidades y gráficos.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Incertidumbre en balances",
+      "clases": [
+        "B12-C16",
+        "B12-C17",
+        "B12-C20",
+        "B13-C03",
+        "B13-C04",
+        "B13-C13"
+      ],
+      "capacidad": "Propagar incertidumbres y declarar el margen de un balance de aire, agua o energía.",
+      "nota": "B12-C20 se integra en el informe del paso final."
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ingeniería de sistemas de hábitat",
+      "clases": [
+        "B49-C01..C06",
+        "B49-C09..C11",
+        "B49-C16",
+        "B49-C17",
+        "B49-C20"
+      ],
+      "capacidad": "Pasar de las necesidades de una tripulación a requisitos verificables y presupuestos de masa, energía y datos.",
+      "nota": "Se omiten B49-C07, C08 y C12 a C15 (arquitectura formal, interfaces, MBSE, revisiones, configuración): se estudian si el proyecto crece a varios equipos."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Hábitats espaciales y soporte vital",
+      "clases": [
+        "B60-C01..C20"
+      ],
+      "capacidad": "Describir y dimensionar la atmósfera, el agua, los residuos, el alimento y la protección de un hábitat presurizado.",
+      "nota": "Es el eje del rol. Los módulos R20-M02 a M06 profundizan C03 a C09, C12, C14, C15 y C20: aquí se aprende el concepto y en la ruta se pide el balance, la validación y la aplicación profesional."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Terreno y regolito del emplazamiento",
+      "clases": [
+        "B34-C05",
+        "B34-C07",
+        "B34-C18",
+        "B34-C19",
+        "B40-C04",
+        "B40-C05",
+        "B40-C11..C13"
+      ],
+      "capacidad": "Leer el terreno lunar o marciano y su regolito como restricción de emplazamiento y de construcción.",
+      "nota": "B40-C11 a C13 anticipan la construcción con regolito que R21-M06 trata desde la fabricación; aquí solo se usa como material de obra del hábitat."
+    },
+    {
+      "orden": 10,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Arquitectura de entornos extraterrestres",
+      "clases": [
+        "R20-M01-C01..C20"
+      ],
+      "capacidad": "Disponer módulos, accesos, rutas de evacuación y crecimiento de un asentamiento sobre un emplazamiento real.",
+      "nota": "M01-C03 y M01-C04 repiten el regolito del paso anterior: se piden como evaluación de relieve para el emplazamiento, no como geología."
+    },
+    {
+      "orden": 11,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Sistemas de soporte vital ECLSS",
+      "clases": [
+        "R20-M02-C01..C20"
+      ],
+      "capacidad": "Cerrar el balance metabólico, de CO2, de agua y de residuos de una tripulación y verificar la redundancia.",
+      "nota": "Repite temas de B60-C04 a C09; la evidencia que se pide es un balance verificado con incertidumbre."
+    },
+    {
+      "orden": 12,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Control de atmósfera y presiones",
+      "clases": [
+        "R20-M03-C01..C20"
+      ],
+      "capacidad": "Definir presión, composición y respuesta ante fugas y desviaciones de un volumen presurizado.",
+      "nota": "Repite B60-C02 a C04; se profundiza en sensores, fugas y respuestas."
+    },
+    {
+      "orden": 13,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Estructuras y materiales del recinto presurizado",
+      "clases": [
+        "B50-C01",
+        "B50-C05",
+        "B50-C06",
+        "B50-C09",
+        "B50-C10",
+        "B50-C12",
+        "B50-C13"
+      ],
+      "capacidad": "Comprender cargas, materiales y análisis estructural del recinto que contiene la atmósfera."
+    },
+    {
+      "orden": 14,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Entorno térmico del hábitat",
+      "clases": [
+        "B51-C01",
+        "B51-C02",
+        "B51-C04",
+        "B51-C07",
+        "B51-C08",
+        "B51-C12",
+        "B51-C16",
+        "B51-C18"
+      ],
+      "capacidad": "Estimar el balance térmico de un recinto y de sus radiadores, incluido el polvo lunar."
+    },
+    {
+      "orden": 15,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Energía del hábitat",
+      "clases": [
+        "B52-C01",
+        "B52-C04",
+        "B52-C05",
+        "B52-C11",
+        "B52-C13",
+        "B52-C19"
+      ],
+      "capacidad": "Presupuestar la energía de un hábitat durante el día, la noche y los eclipses con redundancia.",
+      "nota": "R20-M08 y R21-M05 retoman este presupuesto a escala de asentamiento."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Ciclos cerrados de agua",
+      "clases": [
+        "R20-M04-C01..C20"
+      ],
+      "capacidad": "Calcular la recuperación total de agua y vigilar su calidad microbiológica."
+    },
+    {
+      "orden": 17,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Recursos, nutrición y residuos",
+      "clases": [
+        "B40-C14..C16",
+        "B59-C11",
+        "B59-C12"
+      ],
+      "capacidad": "Relacionar cultivos, residuos y microbioma con el ciclo de materiales del hábitat."
+    },
+    {
+      "orden": 18,
+      "fase": "ruta",
+      "tipo": "recomendada",
+      "titulo": "Producción de alimentos en hábitats",
+      "clases": [
+        "R20-M05-C01..C16",
+        "R20-M05-C19..C20"
+      ],
+      "capacidad": "Dimensionar un sistema de cultivo y su uso de agua, luz y nutrientes.",
+      "nota": "Se omiten M05-C17 y C18 (almacenamiento y conservación) si el plan de alimentos se resuelve con B60-C11."
+    },
+    {
+      "orden": 19,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Radiación y clima espacial",
+      "clases": [
+        "B23-C12..C14",
+        "B23-C18",
+        "B23-C19",
+        "B59-C06",
+        "B59-C07"
+      ],
+      "capacidad": "Estimar la exposición a tormentas solares y a radiación galáctica y su efecto sobre la tripulación."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Blindaje y protección ambiental",
+      "clases": [
+        "R20-M06-C01..C20"
+      ],
+      "capacidad": "Diseñar el refugio, el blindaje y la protección frente a radiación, micrometeoritos y despresurización.",
+      "nota": "Repite B60-C14 y C15; la evidencia pedida es una matriz de riesgo ambiental."
+    },
+    {
+      "orden": 21,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Salud y desempeño de la tripulación",
+      "clases": [
+        "B59-C01",
+        "B59-C02",
+        "B59-C08",
+        "B59-C09",
+        "B58-C16..C18"
+      ],
+      "capacidad": "Traducir los efectos de gravedad parcial, sueño, aislamiento y convivencia en requisitos de diseño."
+    },
+    {
+      "orden": 22,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Ergonomía y bienestar de tripulación",
+      "clases": [
+        "R20-M07-C01..C14",
+        "R20-M07-C19..C20"
+      ],
+      "capacidad": "Evaluar volúmenes, privacidad, ruido y luz con criterios humanos.",
+      "nota": "M07-C15 a C18 (espacios de trabajo, convivencia) se cubren con el paso anterior; se retoman si el proyecto lo exige."
+    },
+    {
+      "orden": 23,
+      "fase": "tronco",
+      "tipo": "opcional",
+      "titulo": "Construcción y mantenimiento robóticos",
+      "clases": [
+        "B61-C13..C15",
+        "B61-C17",
+        "B61-C18"
+      ],
+      "capacidad": "Evaluar qué parte de la construcción y el mantenimiento puede hacerse sin tripulación."
+    },
+    {
+      "orden": 24,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Protección planetaria y ética",
+      "clases": [
+        "B37-C17",
+        "B37-C18",
+        "B63-C18",
+        "B64-C13"
+      ],
+      "capacidad": "Aplicar contención de contaminación y criterios éticos a un asentamiento.",
+      "nota": "La protección planetaria se cita como restricción; la norma aplicable depende de la versión y la jurisdicción."
+    },
+    {
+      "orden": 25,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Diseño integral de hábitat lunar o marciano",
+      "clases": [
+        "R20-M08-C01..C20"
+      ],
+      "capacidad": "Presentar un hábitat completo con balances de energía, agua y atmósfera, logística, emergencias y revisión final.",
+      "nota": "Es el proyecto final del rol."
+    },
+    {
+      "orden": 26,
+      "fase": "integracion",
+      "tipo": "recomendada",
+      "titulo": "Informe y portafolio",
+      "clases": [
+        "B64-C19",
+        "B64-C20"
+      ],
+      "capacidad": "Redactar una propuesta y un portafolio con las evidencias del diseño."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Normas de factores humanos y habitabilidad con edición y alcance",
+      "motivo": "El catálogo trata habitabilidad (B60-C01, R20-M07) pero ninguna clase estudia estándares como NASA-STD-3001 Vol. 2 (Rev. F, 14/07/2026 según standards.nasa.gov/node/237, consultado el 05/11/2026) ni su traducción a requisitos; la búsqueda por «norma» y «estándar» en los títulos solo devolvió CCSDS y mitigación de desechos.",
+      "propuesta": "clases nuevas en B60 o bloque transversal de estándares y aseguramiento del producto"
+    },
+    {
+      "tema": "Diseño arquitectónico y planificación espacial (programa, circulación, composición) como disciplina",
+      "motivo": "R20-M01 cubre distribución de módulos, pero ningún título trata el análisis de programa, la representación de planos ni el modelado de información de construcción.",
+      "propuesta": "módulo nuevo de R20 o clases nuevas en B60"
+    },
+    {
+      "tema": "Modelado de ventilación y transporte de aire en recintos",
+      "motivo": "B11-C13 a C15 tratan ecuaciones en derivadas parciales y diferencias finitas, pero ningún título aplica ventilación, mezcla de contaminantes o transporte de humedad a un volumen cerrado.",
+      "propuesta": "clases nuevas en B60 o en R20-M03"
+    },
+    {
+      "tema": "Hábitats rotatorios y gravedad artificial",
+      "motivo": "Se buscaron «rotación», «gravedad artificial» y «rotatorio» en los títulos: B59-C18 trata la gravedad parcial como investigación médica, pero ninguna clase estudia el diseño de un hábitat con gravedad por rotación.",
+      "propuesta": "clases nuevas en B60"
+    }
+  ]
 }
