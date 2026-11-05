@@ -1,7 +1,7 @@
 # B06-C12 — Termoquímica y energía de reacción
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C11 — Diagramas de fase](../B06-C11-diagramas-de-fase/CLASE.md) · [Siguiente: B06-C13 — Equilibrio químico →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C11 — Diagramas de fase](../B06-C11-diagramas-de-fase/CLASE.md) · [Siguiente: B06-C13 — Equilibrio químico →](../B06-C13-equilibrio-quimico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ La ley de Hess permite obtener la energía de una reacción a partir de entalpí
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B06-C11 — Diagramas de fase](../B06-C11-diagramas-de-fase/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C13 — Equilibrio químico →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c13)
+[← Anterior: B06-C11 — Diagramas de fase](../B06-C11-diagramas-de-fase/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C13 — Equilibrio químico →](../B06-C13-equilibrio-quimico/CLASE.md)
 <!-- /nav -->

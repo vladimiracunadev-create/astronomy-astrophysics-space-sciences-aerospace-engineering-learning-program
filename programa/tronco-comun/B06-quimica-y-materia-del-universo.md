@@ -71,10 +71,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b06-c13"></a>B06-C13 | Equilibrio químico | Constante de equilibrio, cociente de reacción, principio de Le Chatelier y tabla de concentraciones. | Cálculo de equilibrio verificado |
-| <a id="b06-c14"></a>B06-C14 | Cinética química inicial | Velocidad, orden, vida media y la ecuación de Arrhenius; por qué la química se frena en el frío. | Curva de decaimiento con su modelo |
-| <a id="b06-c15"></a>B06-C15 | Ácidos, bases y soluciones | Concentración, pH, ácidos fuertes y débiles y transferencia de protones. | Cálculo de pH con supuestos declarados |
-| <a id="b06-c16"></a>B06-C16 | Química orgánica esencial | Hidrocarburos, grupos funcionales, masa molar de fórmulas y la química orgánica de un asteroide. | Ficha de moléculas orgánicas |
+| <a id="b06-c13"></a>[B06-C13](../clases/B06/B06-C13-equilibrio-quimico/CLASE.md) | Equilibrio químico | Constante de equilibrio, cociente de reacción, principio de Le Chatelier y tabla de concentraciones. | Cálculo de equilibrio verificado |
+| <a id="b06-c14"></a>[B06-C14](../clases/B06/B06-C14-cinetica-quimica-inicial/CLASE.md) | Cinética química inicial | Velocidad, orden, vida media y la ecuación de Arrhenius; por qué la química se frena en el frío. | Curva de decaimiento con su modelo |
+| <a id="b06-c15"></a>[B06-C15](../clases/B06/B06-C15-acidos-bases-y-soluciones/CLASE.md) | Ácidos, bases y soluciones | Concentración, pH, ácidos fuertes y débiles y transferencia de protones. | Cálculo de pH con supuestos declarados |
+| <a id="b06-c16"></a>[B06-C16](../clases/B06/B06-C16-quimica-organica-esencial/CLASE.md) | Química orgánica esencial | Hidrocarburos, grupos funcionales, masa molar de fórmulas y la química orgánica de un asteroide. | Ficha de moléculas orgánicas |
 
 ### Tramo 5 · Luz, hielos, minerales y meteoritos
 
