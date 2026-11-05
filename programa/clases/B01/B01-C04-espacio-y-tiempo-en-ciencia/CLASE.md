@@ -1,7 +1,7 @@
 # B01-C04 — Espacio y tiempo en ciencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C03 — Objetos celestes y sus diferencias](../B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md) · [Siguiente: B01-C05 — Observación frente a interpretación →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C03 — Objetos celestes y sus diferencias](../B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md) · [Siguiente: B01-C05 — Observación frente a interpretación →](../B01-C05-observacion-frente-a-interpretacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ Medir el tiempo es contar ciclos, y hoy el segundo se define con un átomo; situ
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B01-C03 — Objetos celestes y sus diferencias](../B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C05 — Observación frente a interpretación →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c05)
+[← Anterior: B01-C03 — Objetos celestes y sus diferencias](../B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C05 — Observación frente a interpretación →](../B01-C05-observacion-frente-a-interpretacion/CLASE.md)
 <!-- /nav -->

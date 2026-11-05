@@ -50,10 +50,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b01-c05"></a>B01-C05 | Observación frente a interpretación | Qué es un dato y qué es una lectura de ese dato; ejemplos donde la interpretación cambió. | Tabla de afirmaciones O/I/M |
-| <a id="b01-c06"></a>B01-C06 | Preguntas investigables en astronomía | Convertir curiosidad en preguntas que pueden responderse con datos accesibles. | Banco de preguntas con criterio de viabilidad |
-| <a id="b01-c07"></a>B01-C07 | Hipótesis y predicciones falsables | Formular una hipótesis, derivar una predicción y decir qué resultado la refutaría. | Hipótesis con predicción y criterio de refutación |
-| <a id="b01-c08"></a>B01-C08 | Mediciones y unidades astronómicas | Unidades SI y astronómicas (au, ly, pc); conversión y análisis dimensional. | Hoja de conversiones verificada |
+| <a id="b01-c05"></a>[B01-C05](../clases/B01/B01-C05-observacion-frente-a-interpretacion/CLASE.md) | Observación frente a interpretación | Qué es un dato y qué es una lectura de ese dato; ejemplos donde la interpretación cambió. | Tabla de afirmaciones O/I/M |
+| <a id="b01-c06"></a>[B01-C06](../clases/B01/B01-C06-preguntas-investigables-en-astronomia/CLASE.md) | Preguntas investigables en astronomía | Convertir curiosidad en preguntas que pueden responderse con datos accesibles. | Banco de preguntas con criterio de viabilidad |
+| <a id="b01-c07"></a>[B01-C07](../clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md) | Hipótesis y predicciones falsables | Formular una hipótesis, derivar una predicción y decir qué resultado la refutaría. | Hipótesis con predicción y criterio de refutación |
+| <a id="b01-c08"></a>[B01-C08](../clases/B01/B01-C08-mediciones-y-unidades-astronomicas/CLASE.md) | Mediciones y unidades astronómicas | Unidades SI y astronómicas (au, ly, pc); conversión y análisis dimensional. | Hoja de conversiones verificada |
 | <a id="b01-c09"></a>B01-C09 | Luz como fuente de información | Qué información trae la luz: dirección, brillo, color y espectro; límites de lo que revela. | Interpretación de un espectro sencillo |
 | <a id="b01-c10"></a>B01-C10 | Limitaciones de los sentidos humanos | Qué no vemos (rango espectral, brillo, resolución) y por qué se usan instrumentos. | Comparación sentido–instrumento |
 
