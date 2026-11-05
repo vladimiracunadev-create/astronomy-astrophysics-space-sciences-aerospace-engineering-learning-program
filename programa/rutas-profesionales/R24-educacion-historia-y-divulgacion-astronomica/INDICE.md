@@ -1,0 +1,22 @@
+# R24 — Educación historia y divulgación astronómica
+
+**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+**Estado:** índice de especialización (solo títulos y referencias preliminares).
+**Estructura:** 8 módulos de 20 clases = 160 clases por ruta.
+
+## Módulos
+
+- [R24-M01 — Historia de la ciencia astronómica](./R24-M01-historia-de-la-ciencia-astronomica.md)
+- [R24-M02 — Arqueoastronomía comparada](./R24-M02-arqueoastronomia-comparada.md)
+- [R24-M03 — Astronomías culturales y saberes](./R24-M03-astronomias-culturales-y-saberes.md)
+- [R24-M04 — Observación astronómica educativa](./R24-M04-observacion-astronomica-educativa.md)
+- [R24-M05 — Diseño de secuencias pedagógicas](./R24-M05-diseno-de-secuencias-pedagogicas.md)
+- [R24-M06 — Ciencia ciudadana astronómica](./R24-M06-ciencia-ciudadana-astronomica.md)
+- [R24-M07 — Accesibilidad e inclusión educativa](./R24-M07-accesibilidad-e-inclusion-educativa.md)
+- [R24-M08 — Investigación y divulgación científica](./R24-M08-investigacion-y-divulgacion-cientifica.md)
+
+## Fuentes sugeridas
+
+- **[IAU]** [International Astronomical Union: resolutions](https://www.iau.org/Iau/Publications/List-of-Resolutions.aspx) — Nomenclatura, tiempos, sistemas de referencia y recomendaciones científicas.
+- **[ESO]** [European Southern Observatory](https://www.eso.org/) — Observatorios ópticos, instrumentación y astronomía profesional.
+- **[NASA-DATA]** [NASA Science Data](https://science.data.nasa.gov/) — Portal general de datos y servicios científicos.

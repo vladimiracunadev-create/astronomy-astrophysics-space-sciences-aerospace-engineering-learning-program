@@ -1,0 +1,770 @@
+[
+  {
+    "id": "B01",
+    "nombre": "El universo y el pensamiento científico",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B02",
+    "nombre": "Historia, arqueoastronomía y culturas del cielo",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B03",
+    "nombre": "Matemática elemental para ciencias espaciales",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B04",
+    "nombre": "Álgebra, trigonometría y geometría espacial",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B05",
+    "nombre": "Física fundamental para el espacio",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B06",
+    "nombre": "Química y materia del universo",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B07",
+    "nombre": "Informática científica desde cero",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B08",
+    "nombre": "Observación del cielo y astronomía práctica",
+    "area": "A01",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "IAU",
+      "ESO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B09",
+    "nombre": "Cálculo diferencial e integral",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B10",
+    "nombre": "Álgebra lineal y matemáticas geométricas",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B11",
+    "nombre": "Ecuaciones diferenciales y simulación numérica",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B12",
+    "nombre": "Probabilidad, estadística e incertidumbre",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B13",
+    "nombre": "Metrología, tiempo y mediciones científicas",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B14",
+    "nombre": "Computación científica y ciencia abierta",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B15",
+    "nombre": "Señales, imágenes y estimación científica",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B16",
+    "nombre": "Sistemas dinámicos y control automático",
+    "area": "A02",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "IERS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B17",
+    "nombre": "Física y evolución de estrellas",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B18",
+    "nombre": "Galaxias y medio interestelar",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B19",
+    "nombre": "Relatividad y cosmología",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B20",
+    "nombre": "Objetos compactos y altas energías",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B21",
+    "nombre": "Astronomía multimensajero",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B22",
+    "nombre": "Astronomía temporal y exoplanetas",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B23",
+    "nombre": "Heliofísica y física de plasmas",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B24",
+    "nombre": "Física cuántica, nuclear y astropartículas",
+    "area": "A03",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-DATA",
+      "ESA-SCIENCE",
+      "LIGO",
+      "ADS"
+    ]
+  },
+  {
+    "id": "B25",
+    "nombre": "Óptica geométrica y diseño de telescopios",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B26",
+    "nombre": "Óptica física y óptica adaptativa",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B27",
+    "nombre": "Construcción y mecánica de telescopios",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B28",
+    "nombre": "Detectores y adquisición astronómica",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B29",
+    "nombre": "Espectroscopía, fotometría y polarimetría",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B30",
+    "nombre": "Radioastronomía e interferometría",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B31",
+    "nombre": "Instrumentación y observatorios espaciales",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B32",
+    "nombre": "Operaciones de observatorios científicos",
+    "area": "A04",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "ALMA",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ]
+  },
+  {
+    "id": "B33",
+    "nombre": "Formación y dinámica de sistemas planetarios",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B34",
+    "nombre": "Astrogeología y geodesia planetaria",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B35",
+    "nombre": "Atmósferas y climatología planetaria",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B36",
+    "nombre": "Astroquímica y geoquímica extraterrestre",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B37",
+    "nombre": "Astrobiología y vida extraterrestre",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B38",
+    "nombre": "Observación terrestre y geociencias orbitales",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B39",
+    "nombre": "Asteroides, cometas y defensa planetaria",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B40",
+    "nombre": "Recursos in situ y sostenibilidad extraterrestre",
+    "area": "A05",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "COSPAR",
+      "NASA-EO"
+    ]
+  },
+  {
+    "id": "B41",
+    "nombre": "Mecánica orbital fundamental",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B42",
+    "nombre": "Perturbaciones y evolución de órbitas",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B43",
+    "nombre": "Mecánica celeste, resonancias y caos",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B44",
+    "nombre": "Estimación de órbitas y navegación espacial",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B45",
+    "nombre": "Trayectorias y misiones interplanetarias",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B46",
+    "nombre": "Dinámica cislunar y operaciones de proximidad",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B47",
+    "nombre": "Dinámica de lanzamiento y reentrada",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B48",
+    "nombre": "Tecnologías de propulsión espacial",
+    "area": "A06",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS",
+      "IERS"
+    ]
+  },
+  {
+    "id": "B49",
+    "nombre": "Ingeniería de sistemas y diseño de misiones",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B50",
+    "nombre": "Estructuras, materiales y fabricación espacial",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B51",
+    "nombre": "Gestión térmica y entorno espacial",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B52",
+    "nombre": "Sistemas de potencia y energía espacial",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B53",
+    "nombre": "Sensores y control de actitud",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B54",
+    "nombre": "Aviónica y software crítico espacial",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B55",
+    "nombre": "Comunicaciones y navegación satelital",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B56",
+    "nombre": "Integración, ensayos y calificación espacial",
+    "area": "A07",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-SYSTEMS",
+      "ECSS",
+      "CCSDS"
+    ]
+  },
+  {
+    "id": "B57",
+    "nombre": "Control y operación de misiones espaciales",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B58",
+    "nombre": "Astronáutica y preparación de astronautas",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B59",
+    "nombre": "Medicina y biología espacial",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B60",
+    "nombre": "Hábitats espaciales y soporte vital",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B61",
+    "nombre": "Robótica y construcción extraterrestre",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B62",
+    "nombre": "Tráfico espacial y sostenibilidad orbital",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B63",
+    "nombre": "Derecho, seguridad y geopolítica espacial",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  },
+  {
+    "id": "B64",
+    "nombre": "Industria, economía, ética y proyectos espaciales",
+    "area": "A08",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "UNOOSA",
+      "ITU",
+      "NASA-SYSTEMS"
+    ]
+  }
+]

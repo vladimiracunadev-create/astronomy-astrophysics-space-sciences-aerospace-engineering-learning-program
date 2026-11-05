@@ -1,0 +1,29 @@
+# Documentación del programa
+
+Esta carpeta contiene el contrato académico, editorial y técnico del **Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial**. Describe lo que existe y las condiciones para desarrollarlo; no convierte el catálogo preliminar en contenido terminado.
+
+## Lectura recomendada
+
+1. [Alcance y contrato del repositorio](ALCANCE_Y_CONTRATO_DEL_REPOSITORIO.md)
+2. [Estándar pedagógico, científico, de evidencia y evaluación](ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
+3. [Plan de implementación y estados](PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md)
+4. [Matriz de cobertura temática](MATRIZ_DE_COBERTURA.md)
+5. [Mapa de rutas profesionales](MAPA_DE_RUTAS_PROFESIONALES.md)
+6. [Contrato visual y de experiencia](ESTANDAR_VISUAL_Y_DE_EXPERIENCIA.md)
+7. [IDs, ampliaciones y compatibilidad](CONVENIOS_DE_IDENTIFICACION_Y_AMPLIACION.md)
+8. [Licencias, fuentes y atribuciones](LICENCIAS_Y_PROCEDENCIA.md)
+
+## Fuentes de verdad
+
+| Afirmación | Fuente canónica |
+|---|---|
+| Identidad, versión y cifras generales | `metadatos/programa.json` |
+| Registros de clase | `catalogo/clases.jsonl` |
+| Exportaciones equivalentes | `catalogo/clases.csv` y `catalogo/clases.json` |
+| Estado real de desarrollo | `STATUS.md` y campo `estado` del catálogo |
+| Requisitos para una clase futura | `documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md` |
+| Orden de implementación | `ROADMAP.md` y `documentacion/PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md` |
+
+## Regla de honestidad
+
+Los 5.120 registros están en E0: título y referencia preliminar. Ningún documento debe describirlos como clases redactadas, impartidas, revisadas, verificadas o certificadas. Cuando una clase avance, su cambio de estado deberá estar respaldado por artefactos auditables y por las puertas E1–E6.

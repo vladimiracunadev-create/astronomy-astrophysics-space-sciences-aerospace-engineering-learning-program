@@ -1,0 +1,21 @@
+{
+  "nombre": "Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial",
+  "repositorio": "astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
+  "version": "0.1.0",
+  "fecha_corte": "2026-10-31",
+  "tipo": "programa_educativo",
+  "idioma_principal": "es-CL",
+  "sin_semestres_ni_horas": true,
+  "estado": "malla_exhaustiva_de_titulos_y_referencias_preliminares",
+  "areas": 8,
+  "bloques_tronco_comun": 64,
+  "clases_tronco_comun": 1280,
+  "rutas_profesionales": 24,
+  "modulos_especializados": 192,
+  "clases_especializadas": 3840,
+  "total_clases": 5120,
+  "clases_desarrolladas": 0,
+  "fuentes_por_unidad": "orientativas_no_validadas_individualmente",
+  "metodologia": "20 clases por bloque o modulo",
+  "relacion_con_otras_formaciones": "repositorio independiente; interoperabilidad federada por manifiestos, sin reestructurar repositorios externos"
+}

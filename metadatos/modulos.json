@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "R01-M01",
+    "ruta_id": "R01",
+    "titulo": "Atmósferas estelares",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md"
+  },
+  {
+    "id": "R01-M02",
+    "ruta_id": "R01",
+    "titulo": "Modelos de interiores estelares",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md"
+  },
+  {
+    "id": "R01-M03",
+    "ruta_id": "R01",
+    "titulo": "Evolución estelar avanzada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M03-evolucion-estelar-avanzada.md"
+  },
+  {
+    "id": "R01-M04",
+    "ruta_id": "R01",
+    "titulo": "Espectroscopía estelar avanzada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M04-espectroscopia-estelar-avanzada.md"
+  },
+  {
+    "id": "R01-M05",
+    "ruta_id": "R01",
+    "titulo": "Asterosismología",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M05-asterosismologia.md"
+  },
+  {
+    "id": "R01-M06",
+    "ruta_id": "R01",
+    "titulo": "Poblaciones estelares",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M06-poblaciones-estelares.md"
+  },
+  {
+    "id": "R01-M07",
+    "ruta_id": "R01",
+    "titulo": "Simulación de galaxias",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M07-simulacion-de-galaxias.md"
+  },
+  {
+    "id": "R01-M08",
+    "ruta_id": "R01",
+    "titulo": "Investigación estelar y galáctica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ADS",
+      "NASA-DATA",
+      "ESO"
+    ],
+    "archivo": "programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M08-investigacion-estelar-y-galactica.md"
+  },
+  {
+    "id": "R02-M01",
+    "ruta_id": "R02",
+    "titulo": "Relatividad avanzada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M01-relatividad-avanzada.md"
+  },
+  {
+    "id": "R02-M02",
+    "ruta_id": "R02",
+    "titulo": "Universo temprano",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M02-universo-temprano.md"
+  },
+  {
+    "id": "R02-M03",
+    "ruta_id": "R02",
+    "titulo": "Radiación cósmica de fondo",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M03-radiacion-cosmica-de-fondo.md"
+  },
+  {
+    "id": "R02-M04",
+    "ruta_id": "R02",
+    "titulo": "Formación de estructuras cósmicas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M04-formacion-de-estructuras-cosmicas.md"
+  },
+  {
+    "id": "R02-M05",
+    "ruta_id": "R02",
+    "titulo": "Materia oscura",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M05-materia-oscura.md"
+  },
+  {
+    "id": "R02-M06",
+    "ruta_id": "R02",
+    "titulo": "Astrofísica de altas energías",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M06-astrofisica-de-altas-energias.md"
+  },
+  {
+    "id": "R02-M07",
+    "ruta_id": "R02",
+    "titulo": "Astronomía multimensajero",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M07-astronomia-multimensajero.md"
+  },
+  {
+    "id": "R02-M08",
+    "ruta_id": "R02",
+    "titulo": "Inferencia y parámetros cosmológicos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "LIGO",
+      "ADS",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M08-inferencia-y-parametros-cosmologicos.md"
+  },
+  {
+    "id": "R03-M01",
+    "ruta_id": "R03",
+    "titulo": "Diseño óptico computacional",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M01-diseno-optico-computacional.md"
+  },
+  {
+    "id": "R03-M02",
+    "ruta_id": "R03",
+    "titulo": "Aberraciones y tolerancias ópticas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M02-aberraciones-y-tolerancias-opticas.md"
+  },
+  {
+    "id": "R03-M03",
+    "ruta_id": "R03",
+    "titulo": "Fabricación y pruebas ópticas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M03-fabricacion-y-pruebas-opticas.md"
+  },
+  {
+    "id": "R03-M04",
+    "ruta_id": "R03",
+    "titulo": "Monturas y mecánica de precisión",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M04-monturas-y-mecanica-de-precision.md"
+  },
+  {
+    "id": "R03-M05",
+    "ruta_id": "R03",
+    "titulo": "Óptica adaptativa profesional",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M05-optica-adaptativa-profesional.md"
+  },
+  {
+    "id": "R03-M06",
+    "ruta_id": "R03",
+    "titulo": "Fotometría instrumental avanzada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M06-fotometria-instrumental-avanzada.md"
+  },
+  {
+    "id": "R03-M07",
+    "ruta_id": "R03",
+    "titulo": "Automatización de observatorios",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M07-automatizacion-de-observatorios.md"
+  },
+  {
+    "id": "R03-M08",
+    "ruta_id": "R03",
+    "titulo": "Proyecto completo de instrumentación óptica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ESO",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M08-proyecto-completo-de-instrumentacion-optica.md"
+  },
+  {
+    "id": "R04-M01",
+    "ruta_id": "R04",
+    "titulo": "Ingeniería de antenas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M01-ingenieria-de-antenas.md"
+  },
+  {
+    "id": "R04-M02",
+    "ruta_id": "R04",
+    "titulo": "Receptores de bajo ruido",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M02-receptores-de-bajo-ruido.md"
+  },
+  {
+    "id": "R04-M03",
+    "ruta_id": "R04",
+    "titulo": "Radiofrecuencia y cadenas de recepción",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M03-radiofrecuencia-y-cadenas-de-recepcion.md"
+  },
+  {
+    "id": "R04-M04",
+    "ruta_id": "R04",
+    "titulo": "Radioastronomía con SDR",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M04-radioastronomia-con-sdr.md"
+  },
+  {
+    "id": "R04-M05",
+    "ruta_id": "R04",
+    "titulo": "Calibración de interferómetros",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M05-calibracion-de-interferometros.md"
+  },
+  {
+    "id": "R04-M06",
+    "ruta_id": "R04",
+    "titulo": "Correlación de señales astronómicas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M06-correlacion-de-senales-astronomicas.md"
+  },
+  {
+    "id": "R04-M07",
+    "ruta_id": "R04",
+    "titulo": "VLBI y geodesia",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M07-vlbi-y-geodesia.md"
+  },
+  {
+    "id": "R04-M08",
+    "ruta_id": "R04",
+    "titulo": "Reducción profesional de datos de radio",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ALMA",
+      "ESO",
+      "IAU"
+    ],
+    "archivo": "programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M08-reduccion-profesional-de-datos-de-radio.md"
+  },
+  {
+    "id": "R05-M01",
+    "ruta_id": "R05",
+    "titulo": "Geodesia planetaria",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M01-geodesia-planetaria.md"
+  },
+  {
+    "id": "R05-M02",
+    "ruta_id": "R05",
+    "titulo": "Geofísica de interiores",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M02-geofisica-de-interiores.md"
+  },
+  {
+    "id": "R05-M03",
+    "ruta_id": "R05",
+    "titulo": "Geomorfología comparada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M03-geomorfologia-comparada.md"
+  },
+  {
+    "id": "R05-M04",
+    "ruta_id": "R05",
+    "titulo": "Geología de impactos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M04-geologia-de-impactos.md"
+  },
+  {
+    "id": "R05-M05",
+    "ruta_id": "R05",
+    "titulo": "Vulcanismo planetario",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M05-vulcanismo-planetario.md"
+  },
+  {
+    "id": "R05-M06",
+    "ruta_id": "R05",
+    "titulo": "Criósferas y mundos helados",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M06-criosferas-y-mundos-helados.md"
+  },
+  {
+    "id": "R05-M07",
+    "ruta_id": "R05",
+    "titulo": "Cartografía y estratigrafía planetaria",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M07-cartografia-y-estratigrafia-planetaria.md"
+  },
+  {
+    "id": "R05-M08",
+    "ruta_id": "R05",
+    "titulo": "Muestras y resultados de misiones planetarias",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "USGS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M08-muestras-y-resultados-de-misiones-planetarias.md"
+  },
+  {
+    "id": "R06-M01",
+    "ruta_id": "R06",
+    "titulo": "Cinética astroquímica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M01-cinetica-astroquimica.md"
+  },
+  {
+    "id": "R06-M02",
+    "ruta_id": "R06",
+    "titulo": "Espectros moleculares",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M02-espectros-moleculares.md"
+  },
+  {
+    "id": "R06-M03",
+    "ruta_id": "R06",
+    "titulo": "Química de granos interestelares",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M03-quimica-de-granos-interestelares.md"
+  },
+  {
+    "id": "R06-M04",
+    "ruta_id": "R06",
+    "titulo": "Química prebiótica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M04-quimica-prebiotica.md"
+  },
+  {
+    "id": "R06-M05",
+    "ruta_id": "R06",
+    "titulo": "Extremófilos y biosferas límite",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M05-extremofilos-y-biosferas-limite.md"
+  },
+  {
+    "id": "R06-M06",
+    "ruta_id": "R06",
+    "titulo": "Mundos oceánicos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M06-mundos-oceanicos.md"
+  },
+  {
+    "id": "R06-M07",
+    "ruta_id": "R06",
+    "titulo": "Biofirmas y tecnofirmas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M07-biofirmas-y-tecnofirmas.md"
+  },
+  {
+    "id": "R06-M08",
+    "ruta_id": "R06",
+    "titulo": "Protección planetaria aplicada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "COSPAR",
+      "NASA-PDS",
+      "ADS"
+    ],
+    "archivo": "programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M08-proteccion-planetaria-aplicada.md"
+  },
+  {
+    "id": "R07-M01",
+    "ruta_id": "R07",
+    "titulo": "Plasmas avanzados",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M01-plasmas-avanzados.md"
+  },
+  {
+    "id": "R07-M02",
+    "ruta_id": "R07",
+    "titulo": "Magnetohidrodinámica aplicada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M02-magnetohidrodinamica-aplicada.md"
+  },
+  {
+    "id": "R07-M03",
+    "ruta_id": "R07",
+    "titulo": "Física de corona solar",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M03-fisica-de-corona-solar.md"
+  },
+  {
+    "id": "R07-M04",
+    "ruta_id": "R07",
+    "titulo": "Erupciones solares",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M04-erupciones-solares.md"
+  },
+  {
+    "id": "R07-M05",
+    "ruta_id": "R07",
+    "titulo": "Magnetosferas y radiación",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M05-magnetosferas-y-radiacion.md"
+  },
+  {
+    "id": "R07-M06",
+    "ruta_id": "R07",
+    "titulo": "Observatorios heliofísicos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M06-observatorios-heliofisicos.md"
+  },
+  {
+    "id": "R07-M07",
+    "ruta_id": "R07",
+    "titulo": "Impactos tecnológicos del clima espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M07-impactos-tecnologicos-del-clima-espacial.md"
+  },
+  {
+    "id": "R07-M08",
+    "ruta_id": "R07",
+    "titulo": "Modelos de pronóstico espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NOAA-SWPC",
+      "NASA-DATA",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M08-modelos-de-pronostico-espacial.md"
+  },
+  {
+    "id": "R08-M01",
+    "ruta_id": "R08",
+    "titulo": "Algoritmos numéricos avanzados",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M01-algoritmos-numericos-avanzados.md"
+  },
+  {
+    "id": "R08-M02",
+    "ruta_id": "R08",
+    "titulo": "Computación de alto rendimiento",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M02-computacion-de-alto-rendimiento.md"
+  },
+  {
+    "id": "R08-M03",
+    "ruta_id": "R08",
+    "titulo": "Métodos para ecuaciones en derivadas parciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M03-metodos-para-ecuaciones-en-derivadas-parciales.md"
+  },
+  {
+    "id": "R08-M04",
+    "ruta_id": "R08",
+    "titulo": "Problemas inversos astronómicos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M04-problemas-inversos-astronomicos.md"
+  },
+  {
+    "id": "R08-M05",
+    "ruta_id": "R08",
+    "titulo": "Modelos bayesianos científicos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M05-modelos-bayesianos-cientificos.md"
+  },
+  {
+    "id": "R08-M06",
+    "ruta_id": "R08",
+    "titulo": "Aprendizaje automático científico",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M06-aprendizaje-automatico-cientifico.md"
+  },
+  {
+    "id": "R08-M07",
+    "ruta_id": "R08",
+    "titulo": "Verificación y validación computacional",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M07-verificacion-y-validacion-computacional.md"
+  },
+  {
+    "id": "R08-M08",
+    "ruta_id": "R08",
+    "titulo": "Publicación de investigación reproducible",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NIST",
+      "NASA-NTRS",
+      "JPL-SPICE"
+    ],
+    "archivo": "programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M08-publicacion-de-investigacion-reproducible.md"
+  },
+  {
+    "id": "R09-M01",
+    "ruta_id": "R09",
+    "titulo": "Transferencias orbitales avanzadas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M01-transferencias-orbitales-avanzadas.md"
+  },
+  {
+    "id": "R09-M02",
+    "ruta_id": "R09",
+    "titulo": "Problemas de Lambert",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M02-problemas-de-lambert.md"
+  },
+  {
+    "id": "R09-M03",
+    "ruta_id": "R09",
+    "titulo": "Dinámica interplanetaria de N cuerpos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M03-dinamica-interplanetaria-de-n-cuerpos.md"
+  },
+  {
+    "id": "R09-M04",
+    "ruta_id": "R09",
+    "titulo": "Asistencias gravitacionales múltiples",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M04-asistencias-gravitacionales-multiples.md"
+  },
+  {
+    "id": "R09-M05",
+    "ruta_id": "R09",
+    "titulo": "Trayectorias de bajo empuje",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M05-trayectorias-de-bajo-empuje.md"
+  },
+  {
+    "id": "R09-M06",
+    "ruta_id": "R09",
+    "titulo": "Ventanas y oportunidades de misión",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M06-ventanas-y-oportunidades-de-mision.md"
+  },
+  {
+    "id": "R09-M07",
+    "ruta_id": "R09",
+    "titulo": "Optimización e incertidumbre orbital",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M07-optimizacion-e-incertidumbre-orbital.md"
+  },
+  {
+    "id": "R09-M08",
+    "ruta_id": "R09",
+    "titulo": "Verificación de trayectorias interplanetarias",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-HORIZONS",
+      "JPL-SPICE",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M08-verificacion-de-trayectorias-interplanetarias.md"
+  },
+  {
+    "id": "R10-M01",
+    "ruta_id": "R10",
+    "titulo": "Sensores de orientación",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M01-sensores-de-orientacion.md"
+  },
+  {
+    "id": "R10-M02",
+    "ruta_id": "R10",
+    "titulo": "Navegación inercial espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M02-navegacion-inercial-espacial.md"
+  },
+  {
+    "id": "R10-M03",
+    "ruta_id": "R10",
+    "titulo": "Filtrado y estimación de estado",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M03-filtrado-y-estimacion-de-estado.md"
+  },
+  {
+    "id": "R10-M04",
+    "ruta_id": "R10",
+    "titulo": "Determinación orbital de precisión",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M04-determinacion-orbital-de-precision.md"
+  },
+  {
+    "id": "R10-M05",
+    "ruta_id": "R10",
+    "titulo": "Navegación óptica autónoma",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M05-navegacion-optica-autonoma.md"
+  },
+  {
+    "id": "R10-M06",
+    "ruta_id": "R10",
+    "titulo": "Fusión multisensorial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M06-fusion-multisensorial.md"
+  },
+  {
+    "id": "R10-M07",
+    "ruta_id": "R10",
+    "titulo": "Control autónomo de vehículos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M07-control-autonomo-de-vehiculos.md"
+  },
+  {
+    "id": "R10-M08",
+    "ruta_id": "R10",
+    "titulo": "Encuentro y operaciones de proximidad",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "JPL-SPICE",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M08-encuentro-y-operaciones-de-proximidad.md"
+  },
+  {
+    "id": "R11-M01",
+    "ruta_id": "R11",
+    "titulo": "Mecánica de fluidos para propulsión",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M01-mecanica-de-fluidos-para-propulsion.md"
+  },
+  {
+    "id": "R11-M02",
+    "ruta_id": "R11",
+    "titulo": "Termodinámica de sistemas propulsivos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M02-termodinamica-de-sistemas-propulsivos.md"
+  },
+  {
+    "id": "R11-M03",
+    "ruta_id": "R11",
+    "titulo": "Modelos de propulsión química",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M03-modelos-de-propulsion-quimica.md"
+  },
+  {
+    "id": "R11-M04",
+    "ruta_id": "R11",
+    "titulo": "Tecnologías de propulsión eléctrica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M04-tecnologias-de-propulsion-electrica.md"
+  },
+  {
+    "id": "R11-M05",
+    "ruta_id": "R11",
+    "titulo": "Dinámica de vehículos de lanzamiento",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M05-dinamica-de-vehiculos-de-lanzamiento.md"
+  },
+  {
+    "id": "R11-M06",
+    "ruta_id": "R11",
+    "titulo": "Ascenso y reentrada atmosféricos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M06-ascenso-y-reentrada-atmosfericos.md"
+  },
+  {
+    "id": "R11-M07",
+    "ruta_id": "R11",
+    "titulo": "Seguridad y evaluación de sistemas de lanzamiento",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M07-seguridad-y-evaluacion-de-sistemas-de-lanzamiento.md"
+  },
+  {
+    "id": "R11-M08",
+    "ruta_id": "R11",
+    "titulo": "Simulación de misión propulsiva",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M08-simulacion-de-mision-propulsiva.md"
+  },
+  {
+    "id": "R12-M01",
+    "ruta_id": "R12",
+    "titulo": "Arquitectura de misión satelital",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M01-arquitectura-de-mision-satelital.md"
+  },
+  {
+    "id": "R12-M02",
+    "ruta_id": "R12",
+    "titulo": "Diseño de cargas útiles",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M02-diseno-de-cargas-utiles.md"
+  },
+  {
+    "id": "R12-M03",
+    "ruta_id": "R12",
+    "titulo": "Plataformas y buses satelitales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M03-plataformas-y-buses-satelitales.md"
+  },
+  {
+    "id": "R12-M04",
+    "ruta_id": "R12",
+    "titulo": "Sistema eléctrico de potencia",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M04-sistema-electrico-de-potencia.md"
+  },
+  {
+    "id": "R12-M05",
+    "ruta_id": "R12",
+    "titulo": "Sistema de comunicaciones satelitales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M05-sistema-de-comunicaciones-satelitales.md"
+  },
+  {
+    "id": "R12-M06",
+    "ruta_id": "R12",
+    "titulo": "Sistema de determinación y control de actitud",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M06-sistema-de-determinacion-y-control-de-actitud.md"
+  },
+  {
+    "id": "R12-M07",
+    "ruta_id": "R12",
+    "titulo": "Ingeniería de interfaces y configuración",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M07-ingenieria-de-interfaces-y-configuracion.md"
+  },
+  {
+    "id": "R12-M08",
+    "ruta_id": "R12",
+    "titulo": "Integración y calificación de CubeSat",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M08-integracion-y-calificacion-de-cubesat.md"
+  },
+  {
+    "id": "R13-M01",
+    "ruta_id": "R13",
+    "titulo": "Electrónica embarcada avanzada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M01-electronica-embarcada-avanzada.md"
+  },
+  {
+    "id": "R13-M02",
+    "ruta_id": "R13",
+    "titulo": "Arquitectura de computadores de vuelo",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M02-arquitectura-de-computadores-de-vuelo.md"
+  },
+  {
+    "id": "R13-M03",
+    "ruta_id": "R13",
+    "titulo": "Sistemas de tiempo real",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M03-sistemas-de-tiempo-real.md"
+  },
+  {
+    "id": "R13-M04",
+    "ruta_id": "R13",
+    "titulo": "Comunicaciones y buses internos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M04-comunicaciones-y-buses-internos.md"
+  },
+  {
+    "id": "R13-M05",
+    "ruta_id": "R13",
+    "titulo": "Tolerancia a fallos de hardware y software",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M05-tolerancia-a-fallos-de-hardware-y-software.md"
+  },
+  {
+    "id": "R13-M06",
+    "ruta_id": "R13",
+    "titulo": "Recuperación autónoma de anomalías",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M06-recuperacion-autonoma-de-anomalias.md"
+  },
+  {
+    "id": "R13-M07",
+    "ruta_id": "R13",
+    "titulo": "Seguridad y aseguramiento del software",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M07-seguridad-y-aseguramiento-del-software.md"
+  },
+  {
+    "id": "R13-M08",
+    "ruta_id": "R13",
+    "titulo": "Verificación integral de aviónica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "ECSS",
+      "CCSDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M08-verificacion-integral-de-avionica.md"
+  },
+  {
+    "id": "R14-M01",
+    "ruta_id": "R14",
+    "titulo": "Materiales aeroespaciales avanzados",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M01-materiales-aeroespaciales-avanzados.md"
+  },
+  {
+    "id": "R14-M02",
+    "ruta_id": "R14",
+    "titulo": "Mecánica estructural espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M02-mecanica-estructural-espacial.md"
+  },
+  {
+    "id": "R14-M03",
+    "ruta_id": "R14",
+    "titulo": "Elementos finitos y análisis de tensiones",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M03-elementos-finitos-y-analisis-de-tensiones.md"
+  },
+  {
+    "id": "R14-M04",
+    "ruta_id": "R14",
+    "titulo": "Vibraciones y dinámica estructural",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M04-vibraciones-y-dinamica-estructural.md"
+  },
+  {
+    "id": "R14-M05",
+    "ruta_id": "R14",
+    "titulo": "Fabricación avanzada y mecanismos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M05-fabricacion-avanzada-y-mecanismos.md"
+  },
+  {
+    "id": "R14-M06",
+    "ruta_id": "R14",
+    "titulo": "Control térmico de vehículos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M06-control-termico-de-vehiculos.md"
+  },
+  {
+    "id": "R14-M07",
+    "ruta_id": "R14",
+    "titulo": "Protección contra ambientes espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M07-proteccion-contra-ambientes-espaciales.md"
+  },
+  {
+    "id": "R14-M08",
+    "ruta_id": "R14",
+    "titulo": "Calificación estructural y térmica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "ECSS",
+      "NASA-SMALLSAT",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M08-calificacion-estructural-y-termica.md"
+  },
+  {
+    "id": "R15-M01",
+    "ruta_id": "R15",
+    "titulo": "Antenas espaciales avanzadas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M01-antenas-espaciales-avanzadas.md"
+  },
+  {
+    "id": "R15-M02",
+    "ruta_id": "R15",
+    "titulo": "Presupuesto de enlace de misión",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M02-presupuesto-de-enlace-de-mision.md"
+  },
+  {
+    "id": "R15-M03",
+    "ruta_id": "R15",
+    "titulo": "Modulación y codificación de canal",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M03-modulacion-y-codificacion-de-canal.md"
+  },
+  {
+    "id": "R15-M04",
+    "ruta_id": "R15",
+    "titulo": "Diseño de redes de estaciones terrestres",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M04-diseno-de-redes-de-estaciones-terrestres.md"
+  },
+  {
+    "id": "R15-M05",
+    "ruta_id": "R15",
+    "titulo": "Enlaces de radiofrecuencia profundos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M05-enlaces-de-radiofrecuencia-profundos.md"
+  },
+  {
+    "id": "R15-M06",
+    "ruta_id": "R15",
+    "titulo": "Enlaces ópticos espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M06-enlaces-opticos-espaciales.md"
+  },
+  {
+    "id": "R15-M07",
+    "ruta_id": "R15",
+    "titulo": "Sincronización y protocolos de misión",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M07-sincronizacion-y-protocolos-de-mision.md"
+  },
+  {
+    "id": "R15-M08",
+    "ruta_id": "R15",
+    "titulo": "Operaciones integrales de estaciones terrestres",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "CCSDS",
+      "ITU",
+      "NASA-SMALLSAT"
+    ],
+    "archivo": "programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M08-operaciones-integrales-de-estaciones-terrestres.md"
+  },
+  {
+    "id": "R16-M01",
+    "ruta_id": "R16",
+    "titulo": "Instrumentos orbitales para observación terrestre",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M01-instrumentos-orbitales-para-observacion-terrestre.md"
+  },
+  {
+    "id": "R16-M02",
+    "ruta_id": "R16",
+    "titulo": "Procesamiento multiespectral",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M02-procesamiento-multiespectral.md"
+  },
+  {
+    "id": "R16-M03",
+    "ruta_id": "R16",
+    "titulo": "Radar de apertura sintética",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M03-radar-de-apertura-sintetica.md"
+  },
+  {
+    "id": "R16-M04",
+    "ruta_id": "R16",
+    "titulo": "Altimetría y LiDAR orbital",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M04-altimetria-y-lidar-orbital.md"
+  },
+  {
+    "id": "R16-M05",
+    "ruta_id": "R16",
+    "titulo": "Calibración radiométrica de imágenes",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M05-calibracion-radiometrica-de-imagenes.md"
+  },
+  {
+    "id": "R16-M06",
+    "ruta_id": "R16",
+    "titulo": "Plataformas de datos geoespaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M06-plataformas-de-datos-geoespaciales.md"
+  },
+  {
+    "id": "R16-M07",
+    "ruta_id": "R16",
+    "titulo": "IA para monitoreo de desastres",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M07-ia-para-monitoreo-de-desastres.md"
+  },
+  {
+    "id": "R16-M08",
+    "ruta_id": "R16",
+    "titulo": "Diseño de servicios satelitales de observación",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-EO",
+      "NASA-DATA",
+      "USGS"
+    ],
+    "archivo": "programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M08-diseno-de-servicios-satelitales-de-observacion.md"
+  },
+  {
+    "id": "R17-M01",
+    "ruta_id": "R17",
+    "titulo": "Cinemática de manipuladores espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M01-cinematica-de-manipuladores-espaciales.md"
+  },
+  {
+    "id": "R17-M02",
+    "ruta_id": "R17",
+    "titulo": "Dinámica de robots sobre otros cuerpos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M02-dinamica-de-robots-sobre-otros-cuerpos.md"
+  },
+  {
+    "id": "R17-M03",
+    "ruta_id": "R17",
+    "titulo": "Visión artificial y percepción espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M03-vision-artificial-y-percepcion-espacial.md"
+  },
+  {
+    "id": "R17-M04",
+    "ruta_id": "R17",
+    "titulo": "Localización y mapeo SLAM",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M04-localizacion-y-mapeo-slam.md"
+  },
+  {
+    "id": "R17-M05",
+    "ruta_id": "R17",
+    "titulo": "Teleoperación con retardo",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M05-teleoperacion-con-retardo.md"
+  },
+  {
+    "id": "R17-M06",
+    "ruta_id": "R17",
+    "titulo": "Manipulación y mantenimiento orbital",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M06-manipulacion-y-mantenimiento-orbital.md"
+  },
+  {
+    "id": "R17-M07",
+    "ruta_id": "R17",
+    "titulo": "Exploración autónoma planetaria",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M07-exploracion-autonoma-planetaria.md"
+  },
+  {
+    "id": "R17-M08",
+    "ruta_id": "R17",
+    "titulo": "Integración de misión robótica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-SMALLSAT",
+      "NASA-NTRS",
+      "NASA-PDS"
+    ],
+    "archivo": "programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M08-integracion-de-mision-robotica.md"
+  },
+  {
+    "id": "R18-M01",
+    "ruta_id": "R18",
+    "titulo": "Preparación física y factores humanos",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M01-preparacion-fisica-y-factores-humanos.md"
+  },
+  {
+    "id": "R18-M02",
+    "ruta_id": "R18",
+    "titulo": "Sistemas de vehículos tripulados",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M02-sistemas-de-vehiculos-tripulados.md"
+  },
+  {
+    "id": "R18-M03",
+    "ruta_id": "R18",
+    "titulo": "Operaciones de cabina espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M03-operaciones-de-cabina-espacial.md"
+  },
+  {
+    "id": "R18-M04",
+    "ruta_id": "R18",
+    "titulo": "Actividades extravehiculares EVA",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M04-actividades-extravehiculares-eva.md"
+  },
+  {
+    "id": "R18-M05",
+    "ruta_id": "R18",
+    "titulo": "Robótica para tripulaciones",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M05-robotica-para-tripulaciones.md"
+  },
+  {
+    "id": "R18-M06",
+    "ruta_id": "R18",
+    "titulo": "Procedimientos de emergencia espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M06-procedimientos-de-emergencia-espacial.md"
+  },
+  {
+    "id": "R18-M07",
+    "ruta_id": "R18",
+    "titulo": "Coordinación y liderazgo de tripulación",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M07-coordinacion-y-liderazgo-de-tripulacion.md"
+  },
+  {
+    "id": "R18-M08",
+    "ruta_id": "R18",
+    "titulo": "Simulación integral de vuelo tripulado",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-SYSTEMS",
+      "NASA-NTRS"
+    ],
+    "archivo": "programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M08-simulacion-integral-de-vuelo-tripulado.md"
+  },
+  {
+    "id": "R19-M01",
+    "ruta_id": "R19",
+    "titulo": "Fisiología espacial avanzada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M01-fisiologia-espacial-avanzada.md"
+  },
+  {
+    "id": "R19-M02",
+    "ruta_id": "R19",
+    "titulo": "Adaptaciones a microgravedad",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M02-adaptaciones-a-microgravedad.md"
+  },
+  {
+    "id": "R19-M03",
+    "ruta_id": "R19",
+    "titulo": "Radiobiología espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M03-radiobiologia-espacial.md"
+  },
+  {
+    "id": "R19-M04",
+    "ruta_id": "R19",
+    "titulo": "Salud conductual en aislamiento",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M04-salud-conductual-en-aislamiento.md"
+  },
+  {
+    "id": "R19-M05",
+    "ruta_id": "R19",
+    "titulo": "Telemedicina y monitorización",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M05-telemedicina-y-monitorizacion.md"
+  },
+  {
+    "id": "R19-M06",
+    "ruta_id": "R19",
+    "titulo": "Urgencias médicas simuladas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M06-urgencias-medicas-simuladas.md"
+  },
+  {
+    "id": "R19-M07",
+    "ruta_id": "R19",
+    "titulo": "Rehabilitación de astronautas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M07-rehabilitacion-de-astronautas.md"
+  },
+  {
+    "id": "R19-M08",
+    "ruta_id": "R19",
+    "titulo": "Investigación biomédica en ambiente espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "NASA-NTRS",
+      "NIST"
+    ],
+    "archivo": "programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M08-investigacion-biomedica-en-ambiente-espacial.md"
+  },
+  {
+    "id": "R20-M01",
+    "ruta_id": "R20",
+    "titulo": "Arquitectura de entornos extraterrestres",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M01-arquitectura-de-entornos-extraterrestres.md"
+  },
+  {
+    "id": "R20-M02",
+    "ruta_id": "R20",
+    "titulo": "Sistemas de soporte vital ECLSS",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M02-sistemas-de-soporte-vital-eclss.md"
+  },
+  {
+    "id": "R20-M03",
+    "ruta_id": "R20",
+    "titulo": "Control de atmósfera y presiones",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M03-control-de-atmosfera-y-presiones.md"
+  },
+  {
+    "id": "R20-M04",
+    "ruta_id": "R20",
+    "titulo": "Ciclos cerrados de agua",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M04-ciclos-cerrados-de-agua.md"
+  },
+  {
+    "id": "R20-M05",
+    "ruta_id": "R20",
+    "titulo": "Producción de alimentos en hábitats",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M05-produccion-de-alimentos-en-habitats.md"
+  },
+  {
+    "id": "R20-M06",
+    "ruta_id": "R20",
+    "titulo": "Blindaje y protección ambiental",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M06-blindaje-y-proteccion-ambiental.md"
+  },
+  {
+    "id": "R20-M07",
+    "ruta_id": "R20",
+    "titulo": "Ergonomía y bienestar de tripulación",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M07-ergonomia-y-bienestar-de-tripulacion.md"
+  },
+  {
+    "id": "R20-M08",
+    "ruta_id": "R20",
+    "titulo": "Diseño integral de hábitat lunar o marciano",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-HUMAN",
+      "ECSS",
+      "NASA-SYSTEMS"
+    ],
+    "archivo": "programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M08-diseno-integral-de-habitat-lunar-o-marciano.md"
+  },
+  {
+    "id": "R21-M01",
+    "ruta_id": "R21",
+    "titulo": "Prospección geológica extraterrestre",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M01-prospeccion-geologica-extraterrestre.md"
+  },
+  {
+    "id": "R21-M02",
+    "ruta_id": "R21",
+    "titulo": "Hielos y volátiles de interés",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M02-hielos-y-volatiles-de-interes.md"
+  },
+  {
+    "id": "R21-M03",
+    "ruta_id": "R21",
+    "titulo": "Procesamiento de recursos in situ",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M03-procesamiento-de-recursos-in-situ.md"
+  },
+  {
+    "id": "R21-M04",
+    "ruta_id": "R21",
+    "titulo": "Robótica para recursos espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M04-robotica-para-recursos-espaciales.md"
+  },
+  {
+    "id": "R21-M05",
+    "ruta_id": "R21",
+    "titulo": "Sistemas energéticos de instalaciones",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M05-sistemas-energeticos-de-instalaciones.md"
+  },
+  {
+    "id": "R21-M06",
+    "ruta_id": "R21",
+    "titulo": "Manufactura en cuerpos celestes",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M06-manufactura-en-cuerpos-celestes.md"
+  },
+  {
+    "id": "R21-M07",
+    "ruta_id": "R21",
+    "titulo": "Logística de suministros interplanetarios",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M07-logistica-de-suministros-interplanetarios.md"
+  },
+  {
+    "id": "R21-M08",
+    "ruta_id": "R21",
+    "titulo": "Viabilidad técnica y económica ISRU",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "NASA-PDS",
+      "NASA-SMALLSAT",
+      "UNOOSA"
+    ],
+    "archivo": "programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M08-viabilidad-tecnica-y-economica-isru.md"
+  },
+  {
+    "id": "R22-M01",
+    "ruta_id": "R22",
+    "titulo": "Vigilancia y conciencia situacional espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M01-vigilancia-y-conciencia-situacional-espacial.md"
+  },
+  {
+    "id": "R22-M02",
+    "ruta_id": "R22",
+    "titulo": "Seguimiento de objetos orbitales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M02-seguimiento-de-objetos-orbitales.md"
+  },
+  {
+    "id": "R22-M03",
+    "ruta_id": "R22",
+    "titulo": "Riesgo de conjunciones y colisiones",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M03-riesgo-de-conjunciones-y-colisiones.md"
+  },
+  {
+    "id": "R22-M04",
+    "ruta_id": "R22",
+    "titulo": "Mitigación de desechos espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M04-mitigacion-de-desechos-espaciales.md"
+  },
+  {
+    "id": "R22-M05",
+    "ruta_id": "R22",
+    "titulo": "Seguridad de infraestructura crítica espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M05-seguridad-de-infraestructura-critica-espacial.md"
+  },
+  {
+    "id": "R22-M06",
+    "ruta_id": "R22",
+    "titulo": "Ciberdefensa y continuidad satelital",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M06-ciberdefensa-y-continuidad-satelital.md"
+  },
+  {
+    "id": "R22-M07",
+    "ruta_id": "R22",
+    "titulo": "Geopolítica y doctrina espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M07-geopolitica-y-doctrina-espacial.md"
+  },
+  {
+    "id": "R22-M08",
+    "ruta_id": "R22",
+    "titulo": "Gestión institucional de crisis espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "NASA-SMALLSAT",
+      "ECSS"
+    ],
+    "archivo": "programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M08-gestion-institucional-de-crisis-espaciales.md"
+  },
+  {
+    "id": "R23-M01",
+    "ruta_id": "R23",
+    "titulo": "Tratados de derecho espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M01-tratados-de-derecho-espacial.md"
+  },
+  {
+    "id": "R23-M02",
+    "ruta_id": "R23",
+    "titulo": "Legislaciones y supervisión nacionales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M02-legislaciones-y-supervision-nacionales.md"
+  },
+  {
+    "id": "R23-M03",
+    "ruta_id": "R23",
+    "titulo": "Espectro radioeléctrico y licencias",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M03-espectro-radioelectrico-y-licencias.md"
+  },
+  {
+    "id": "R23-M04",
+    "ruta_id": "R23",
+    "titulo": "Responsabilidad civil y estatal espacial",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M04-responsabilidad-civil-y-estatal-espacial.md"
+  },
+  {
+    "id": "R23-M05",
+    "ruta_id": "R23",
+    "titulo": "Seguros espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M05-seguros-espaciales.md"
+  },
+  {
+    "id": "R23-M06",
+    "ruta_id": "R23",
+    "titulo": "Financiamiento de negocios espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M06-financiamiento-de-negocios-espaciales.md"
+  },
+  {
+    "id": "R23-M07",
+    "ruta_id": "R23",
+    "titulo": "Creación y operación de empresas espaciales",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M07-creacion-y-operacion-de-empresas-espaciales.md"
+  },
+  {
+    "id": "R23-M08",
+    "ruta_id": "R23",
+    "titulo": "Gobernanza ética y sostenibilidad",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "UNOOSA",
+      "ITU",
+      "OECD-SPACE"
+    ],
+    "archivo": "programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M08-gobernanza-etica-y-sostenibilidad.md"
+  },
+  {
+    "id": "R24-M01",
+    "ruta_id": "R24",
+    "titulo": "Historia de la ciencia astronómica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M01-historia-de-la-ciencia-astronomica.md"
+  },
+  {
+    "id": "R24-M02",
+    "ruta_id": "R24",
+    "titulo": "Arqueoastronomía comparada",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M02-arqueoastronomia-comparada.md"
+  },
+  {
+    "id": "R24-M03",
+    "ruta_id": "R24",
+    "titulo": "Astronomías culturales y saberes",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M03-astronomias-culturales-y-saberes.md"
+  },
+  {
+    "id": "R24-M04",
+    "ruta_id": "R24",
+    "titulo": "Observación astronómica educativa",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M04-observacion-astronomica-educativa.md"
+  },
+  {
+    "id": "R24-M05",
+    "ruta_id": "R24",
+    "titulo": "Diseño de secuencias pedagógicas",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M05-diseno-de-secuencias-pedagogicas.md"
+  },
+  {
+    "id": "R24-M06",
+    "ruta_id": "R24",
+    "titulo": "Ciencia ciudadana astronómica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M06-ciencia-ciudadana-astronomica.md"
+  },
+  {
+    "id": "R24-M07",
+    "ruta_id": "R24",
+    "titulo": "Accesibilidad e inclusión educativa",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M07-accesibilidad-e-inclusion-educativa.md"
+  },
+  {
+    "id": "R24-M08",
+    "ruta_id": "R24",
+    "titulo": "Investigación y divulgación científica",
+    "total_clases": 20,
+    "fuentes_preliminares": [
+      "IAU",
+      "ESO",
+      "NASA-DATA"
+    ],
+    "archivo": "programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M08-investigacion-y-divulgacion-cientifica.md"
+  }
+]

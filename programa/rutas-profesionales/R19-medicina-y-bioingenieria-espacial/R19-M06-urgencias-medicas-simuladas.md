@@ -1,0 +1,98 @@
+# R19-M06 — Urgencias médicas simuladas
+
+**Ruta profesional:** R19 — Medicina y bioingeniería espacial
+**Estado:** 20 títulos de clases más referencias de alcance. No son lecciones desarrolladas.
+
+## Alcance preliminar
+
+Profundiza en «Urgencias médicas simuladas» dentro de la especialización profesional «Medicina y bioingeniería espacial». Se desarrollan diez temas centrales y, para cada tema, una clase conceptual seguida de una aplicación diferenciada.
+
+## Clases
+
+### R19-M06-C01 — Triage en misión
+
+Explica el fenómeno o técnica de «triage en misión» y su aplicación observable o tecnológica.
+
+### R19-M06-C02 — Caso práctico de triage en misión
+
+Ejercita «triage en misión» con un procedimiento verificable, criterios de aceptación y evaluación de errores.
+
+### R19-M06-C03 — Procedimientos de primeros auxilios
+
+Introduce el contexto y los principios de «procedimientos de primeros auxilios» para comprender su uso científico.
+
+### R19-M06-C04 — Análisis y evaluación de procedimientos de primeros auxilios
+
+Aplica «procedimientos de primeros auxilios» a un escenario práctico con método, comprobaciones y conclusiones trazables.
+
+### R19-M06-C05 — Atención remota simulada
+
+Presenta qué significa «atención remota simulada», sus elementos esenciales y su función dentro de urgencias médicas simuladas.
+
+### R19-M06-C06 — Modelado o interpretación de atención remota simulada
+
+Examina «atención remota simulada» con cálculos, datos o análisis de casos y documenta sus límites de validez.
+
+### R19-M06-C07 — Gestión de medicamentos
+
+Delimita «gestión de medicamentos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+
+### R19-M06-C08 — Validación de resultados de gestión de medicamentos
+
+Contrasta alternativas y resultados de «gestión de medicamentos» en un problema profesional contextualizado.
+
+### R19-M06-C09 — Contención médica
+
+Describe los componentes principales de «contención médica» y por qué son relevantes para esta disciplina.
+
+### R19-M06-C10 — Aplicación profesional de contención médica
+
+Aplicación guiada de «contención médica» mediante un caso, criterios de medida, supuestos y evidencia reproducible.
+
+### R19-M06-C11 — Emergencia cardiovascular simulada
+
+Caracteriza «emergencia cardiovascular simulada», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
+
+### R19-M06-C12 — Caso práctico de emergencia cardiovascular simulada
+
+Ejercita «emergencia cardiovascular simulada» con un procedimiento verificable, criterios de aceptación y evaluación de errores.
+
+### R19-M06-C13 — Problemas respiratorios simulados
+
+Introduce el contexto y los principios de «problemas respiratorios simulados» para comprender su uso científico.
+
+### R19-M06-C14 — Análisis y evaluación de problemas respiratorios simulados
+
+Aplica «problemas respiratorios simulados» a un escenario práctico con método, comprobaciones y conclusiones trazables.
+
+### R19-M06-C15 — Gestión de equipo médico
+
+Presenta qué significa «gestión de equipo médico», sus elementos esenciales y su función dentro de urgencias médicas simuladas.
+
+### R19-M06-C16 — Modelado o interpretación de gestión de equipo médico
+
+Examina «gestión de equipo médico» con cálculos, datos o análisis de casos y documenta sus límites de validez.
+
+### R19-M06-C17 — Comunicaciones críticas
+
+Delimita «comunicaciones críticas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+
+### R19-M06-C18 — Validación de resultados de comunicaciones críticas
+
+Contrasta alternativas y resultados de «comunicaciones críticas» en un problema profesional contextualizado.
+
+### R19-M06-C19 — Debriefing de escenario clínico
+
+Describe los componentes principales de «debriefing de escenario clínico» y por qué son relevantes para esta disciplina.
+
+### R19-M06-C20 — Aplicación profesional de debriefing de escenario clínico
+
+Aplicación guiada de «debriefing de escenario clínico» mediante un caso, criterios de medida, supuestos y evidencia reproducible.
+
+## Fuentes de orientación preliminar
+
+- **[NASA-HUMAN]** [NASA Human Research Program](https://www.nasa.gov/hrp/) — Factores humanos, medicina y riesgos de exploración tripulada.
+- **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos e investigación histórica y actual.
+- **[NIST]** [NIST Publications](https://www.nist.gov/publications) — Metrología, física, seguridad, computación y normas.
+
+> Son puntos de partida institucionales, no citas de respaldo clase por clase. La bibliografía definitiva debe verificarse durante la elaboración de las lecciones.

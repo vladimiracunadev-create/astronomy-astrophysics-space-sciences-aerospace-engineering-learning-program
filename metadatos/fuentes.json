@@ -1,0 +1,152 @@
+[
+  {
+    "id": "NASA-SYSTEMS",
+    "titulo": "NASA Systems Engineering Handbook",
+    "url": "https://www.nasa.gov/reference/systems-engineering-handbook/",
+    "uso_preliminar": "Ingeniería de sistemas, verificación, validación y gestión técnica."
+  },
+  {
+    "id": "NASA-SMALLSAT",
+    "titulo": "NASA State-of-the-Art of Small Spacecraft Technology, edición 2026",
+    "url": "https://www.nasa.gov/smallsat-institute/sst-soa/",
+    "uso_preliminar": "Referencia panorámica sobre plataformas y subsistemas de satélites pequeños."
+  },
+  {
+    "id": "NASA-DATA",
+    "titulo": "NASA Science Data",
+    "url": "https://science.data.nasa.gov/",
+    "uso_preliminar": "Portal general de datos y servicios científicos."
+  },
+  {
+    "id": "NASA-PDS",
+    "titulo": "NASA Planetary Data System",
+    "url": "https://pds.nasa.gov/",
+    "uso_preliminar": "Archivo de datos de misiones y ciencias planetarias."
+  },
+  {
+    "id": "JPL-HORIZONS",
+    "titulo": "JPL Solar System Dynamics Horizons",
+    "url": "https://ssd.jpl.nasa.gov/horizons/",
+    "uso_preliminar": "Efemérides y geometría del sistema solar."
+  },
+  {
+    "id": "JPL-SPICE",
+    "titulo": "NASA NAIF SPICE",
+    "url": "https://naif.jpl.nasa.gov/naif/",
+    "uso_preliminar": "Geometría de observación, referencias espaciales y tiempos."
+  },
+  {
+    "id": "IAU",
+    "titulo": "International Astronomical Union: resolutions",
+    "url": "https://www.iau.org/Iau/Publications/List-of-Resolutions.aspx",
+    "uso_preliminar": "Nomenclatura, tiempos, sistemas de referencia y recomendaciones científicas."
+  },
+  {
+    "id": "ECSS",
+    "titulo": "European Cooperation for Space Standardization",
+    "url": "https://ecss.nl/",
+    "uso_preliminar": "Estándares y buenas prácticas europeos aplicables a proyectos espaciales."
+  },
+  {
+    "id": "ESA-SCIENCE",
+    "titulo": "European Space Agency Science",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science",
+    "uso_preliminar": "Misiones, descubrimientos y material científico institucional."
+  },
+  {
+    "id": "ESO",
+    "titulo": "European Southern Observatory",
+    "url": "https://www.eso.org/",
+    "uso_preliminar": "Observatorios ópticos, instrumentación y astronomía profesional."
+  },
+  {
+    "id": "ALMA",
+    "titulo": "Atacama Large Millimeter/submillimeter Array",
+    "url": "https://www.almaobservatory.org/",
+    "uso_preliminar": "Radioastronomía interferométrica de ALMA y sus productos de ciencia."
+  },
+  {
+    "id": "CCSDS",
+    "titulo": "Consultative Committee for Space Data Systems",
+    "url": "https://ccsds.org/publications/",
+    "uso_preliminar": "Protocolos, recomendaciones y estándares de intercambio de datos espaciales."
+  },
+  {
+    "id": "ITU",
+    "titulo": "International Telecommunication Union",
+    "url": "https://www.itu.int/",
+    "uso_preliminar": "Telecomunicaciones y coordinación del espectro internacional."
+  },
+  {
+    "id": "UNOOSA",
+    "titulo": "United Nations Office for Outer Space Affairs",
+    "url": "https://www.unoosa.org/",
+    "uso_preliminar": "Tratados, regulación e iniciativas de cooperación internacional."
+  },
+  {
+    "id": "COSPAR",
+    "titulo": "Committee on Space Research",
+    "url": "https://cosparhq.cnes.fr/",
+    "uso_preliminar": "Protección planetaria y cooperación en investigación espacial."
+  },
+  {
+    "id": "NOAA-SWPC",
+    "titulo": "NOAA Space Weather Prediction Center",
+    "url": "https://www.swpc.noaa.gov/",
+    "uso_preliminar": "Datos y avisos de condiciones solares y geomagnéticas."
+  },
+  {
+    "id": "USGS",
+    "titulo": "USGS Astrogeology Science Center",
+    "url": "https://www.usgs.gov/centers/astrogeology-science-center",
+    "uso_preliminar": "Cartografía, geología y sistemas de referencia de superficies planetarias."
+  },
+  {
+    "id": "NASA-HUMAN",
+    "titulo": "NASA Human Research Program",
+    "url": "https://www.nasa.gov/hrp/",
+    "uso_preliminar": "Factores humanos, medicina y riesgos de exploración tripulada."
+  },
+  {
+    "id": "NASA-EO",
+    "titulo": "NASA Earthdata",
+    "url": "https://www.earthdata.nasa.gov/",
+    "uso_preliminar": "Datos abiertos de observación de la Tierra."
+  },
+  {
+    "id": "NASA-NTRS",
+    "titulo": "NASA Technical Reports Server",
+    "url": "https://ntrs.nasa.gov/",
+    "uso_preliminar": "Informes técnicos e investigación histórica y actual."
+  },
+  {
+    "id": "NIST",
+    "titulo": "NIST Publications",
+    "url": "https://www.nist.gov/publications",
+    "uso_preliminar": "Metrología, física, seguridad, computación y normas."
+  },
+  {
+    "id": "IERS",
+    "titulo": "International Earth Rotation and Reference Systems Service",
+    "url": "https://www.iers.org/",
+    "uso_preliminar": "Rotación terrestre y sistemas de referencia."
+  },
+  {
+    "id": "LIGO",
+    "titulo": "LIGO Scientific Collaboration",
+    "url": "https://www.ligo.org/",
+    "uso_preliminar": "Observaciones y métodos de ondas gravitacionales."
+  },
+  {
+    "id": "ADS",
+    "titulo": "NASA Astrophysics Data System",
+    "url": "https://ui.adsabs.harvard.edu/",
+    "uso_preliminar": "Índice bibliográfico de literatura astronómica y física."
+  },
+  {
+    "id": "OECD-SPACE",
+    "titulo": "OECD Space Economy",
+    "url": "https://www.oecd.org/en/topics/space-economy.html",
+    "uso_preliminar": "Economía espacial, métricas y análisis institucionales."
+  }
+]
