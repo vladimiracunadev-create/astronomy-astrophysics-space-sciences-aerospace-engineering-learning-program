@@ -267,9 +267,21 @@ df31377533fe03f054bcc20e0ba0ca4b5d09eb2b37b9500dd52c127b69156602  programa/clase
 bc9f9cecd21305ac74efbd43a0844b392772faedd37f6eac16d01efd6bf8a12a  programa/clases/B08/B08-C03-ascension-recta-y-declinacion/CLASE.md
 171e3255b77cb8c48ea1c4367f5f4962d4bd62a90b5eb06171b97723aea1fc61  programa/clases/B08/B08-C03-ascension-recta-y-declinacion/FICHA_EDITORIAL.md
 bfcec8498dd5c6bed065b1e7d1944b9220c8fa12a2e5ccd4fa3b03d40403e6ce  programa/clases/B08/B08-C03-ascension-recta-y-declinacion/coordenadas.py
-8c12d04b00c34771533a0771e095d2c41f6265fcac22459f99813ac8c60a9816  programa/clases/B08/B08-C04-altura-y-acimut/CLASE.md
+8604a7f155d470f2a46a84e62fc44df06683886354d584eb7d6d20947789339e  programa/clases/B08/B08-C04-altura-y-acimut/CLASE.md
 15753ffabb0b50ed1dd821fe3df8da4fcd093c7d974bee3f8686256aea1d2cc4  programa/clases/B08/B08-C04-altura-y-acimut/FICHA_EDITORIAL.md
 256268b1c3fe2ea49cef8f8aca241cba34070510e9fcc3ed5cdb1c5f0d08c635  programa/clases/B08/B08-C04-altura-y-acimut/altacimut.py
+6fc1138091487c0a0feddbb5b6c927aa84b2417f388225ffc4229d2234990758  programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md
+9577bcd4d4be4666e0e095ceb70a9db7b91389bdd6a9f1203ff1fa20e4ffc306  programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/FICHA_EDITORIAL.md
+ab8d537ab81d9702c15f6f0dd42b5267752f2e07f75e44e800eda1319ad79514  programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/tiempo.py
+b66d34ab9240f14662c61afcf3e24fab5216304bb4ae898953c364d8318f25f0  programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/CLASE.md
+ba8e233a2d9da02f5a96f463a6ad52fdb7765ce962175565d5fdfa2f76467a75  programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/FICHA_EDITORIAL.md
+725d946f86445367b668c654ce394cae95ae0ab1723250855d5f48c1f29104cd  programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/densidad_de_catalogo.py
+372346aaa2dd0a3ae80a7ff82d46f080d98b2408df27a254d61e183609e70a9d  programa/clases/B08/B08-C07-planisferios-y-aplicaciones-celestes/CLASE.md
+81db25d6569fe59e8de91c0b03e447f7ccf2e0de2325c4537fcd9f55d4919704  programa/clases/B08/B08-C07-planisferios-y-aplicaciones-celestes/FICHA_EDITORIAL.md
+8165c5f00a8cf6f2e462977a3de6fc8cf894a18c5680977df043491d7fc15597  programa/clases/B08/B08-C07-planisferios-y-aplicaciones-celestes/planisferio_digital.py
+cc46f61fbcc1f26846a84a980817f0db602d8afbbe4d6b0a0be3225332bc2326  programa/clases/B08/B08-C08-fases-lunares-y-libracion/CLASE.md
+ca8988f44d8e7f977587621dad79fc8deed5ed9f58cfe9955188c3f50930c035  programa/clases/B08/B08-C08-fases-lunares-y-libracion/FICHA_EDITORIAL.md
+ad108520876994bc734eb8bf46c19057c9e8a3e6c4fc20d8baceae346d62f200  programa/clases/B08/B08-C08-fases-lunares-y-libracion/fases.py
 9573d10332ca28a16a481f32c228e3f17a2adc627dda482f937c824bb5dd31e2  programa/clases/B08/astrolib_b08.py
 8a75c33f20bc76347a7c07c40c4b943b3b6de9e2a81859fbded445f9f6166d9b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 78d71365f442161a742b1fb4a0b711cd7cc9941740cb36fad5e8deebcb01bd2f  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
@@ -337,6 +349,7 @@ cce0291c1e0fecc35586879a90a48ef85b2699432c9beb9d158c98e793cdea66  programa/rutas
 ab6fbdb77bbf872fb6e38cf2d74aa2dcbd0d1ecb34e35157edc0c7688f7bfa5d  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/INDICE.md
 18a729d9124ba3a71a5ec506832f5ec551466d8ba95ae11574af986c360a7084  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M01-algoritmos-numericos-avanzados.md
 00a8dfc7eec7367f723577de0ca089db6c511b06cacc11386572290da701197b  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M02-computacion-de-alto-rendimiento.md
+6a251913a60ea0ea5190c166eda8fcaefcf6b53e962e1296abe061f5c67c3b3e  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M03-metodos-para-ecuaciones-en-derivadas-parciales.md
 c1cf7b6577bda0b2a6a0b331a81d8d7f23a9d982622f89930c91bc9972330274  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M04-problemas-inversos-astronomicos.md
 566d813d49fe2d914d196eff0dafd8ed32e752216a0a92f69307104c1858cfde  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M05-modelos-bayesianos-cientificos.md
 22ca22425b621d3130f1b332bdeebbaa1dda62ba32420814f50b391ad2600783  programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M06-aprendizaje-automatico-cientifico.md
@@ -392,6 +405,7 @@ bbb9274f699845d051fefcc6a6008b53267154619d0632c861a30415fc7aec07  programa/rutas
 7f789971c2d9497f072fb5e040f7a30eccd0d5900c489f8bf4aab603c6a1d017  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M04-vibraciones-y-dinamica-estructural.md
 eaf75156e6e6dc40bfafaeac4c03cafd7dcd2ed8851e7bfe61944654bf5d54f7  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M05-fabricacion-avanzada-y-mecanismos.md
 ff76e0264caeccf65c5d1f18e968870ba57c3c5c241aef957ef6f0f5d19f81ad  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M06-control-termico-de-vehiculos.md
+60dd80d186a24c33b247dc06e8522cbd92e85ee65405dfc59fca6a74011902b9  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M07-proteccion-contra-ambientes-espaciales.md
 5bc81460dc221615707a8d1308983a330542fb750fd6da713f6d1a3960f7d3b9  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M08-calificacion-estructural-y-termica.md
 effdc216cce5dfa282597a2542085afbbd2b02093e8d48104dd3329fb3815e5c  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/INDICE.md
 e99cb1fff4fc6def25be69f0d785b676cba78404f933944f00ed1255dc8f186a  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M01-antenas-espaciales-avanzadas.md
@@ -399,6 +413,7 @@ e99cb1fff4fc6def25be69f0d785b676cba78404f933944f00ed1255dc8f186a  programa/rutas
 32c5d4ee87eb84ca289ed769b55bd7c127086b338250e32c211518f33db2f671  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M03-modulacion-y-codificacion-de-canal.md
 cca6fc0df83cb41e21ed455bb4eb6ff0b1940a2e8c6f3875cc84df4065d8cf2d  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M05-enlaces-de-radiofrecuencia-profundos.md
 def74e83a146923cc06ecedd8171f731f573c903f962ef98c03e9e6cda853b54  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M06-enlaces-opticos-espaciales.md
+466ae76413e2bcee9b83430a3e0cfe19e0d5357191fe0fecff76ef8afd6e55cf  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M07-sincronizacion-y-protocolos-de-mision.md
 077184feadf12fad3b8bb3ed606a83c69cb80944f639a036fb87cf4b97e84db4  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/INDICE.md
 66d2fa5a5293838414981aec3b956441ddcdd6dd78e73dabe8ef00846965f32b  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M02-procesamiento-multiespectral.md
 05f731eed0fa0158203ac94a87ef1863843c2564e8e28b5ca1c096579162ad4e  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M03-radar-de-apertura-sintetica.md
@@ -416,10 +431,12 @@ bff779865b452043e7321c2b990818d71b047822efef1fbaab42015d95412a9e  programa/rutas
 0f419531f463f2743befcf44dd3c0e92356ddf56eef7c43e85ed89706310092d  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M07-exploracion-autonoma-planetaria.md
 eea3b3860914cd8d8206ee82a1a7a24cc581d53bad3afc71e30ad8e2df0b55cf  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M08-integracion-de-mision-robotica.md
 674afc1f6dcca77fc6e2fc4f5d9bd5c7f2a627533400196a0ec457847a1dc84c  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/INDICE.md
+a29a3874a8b597495e3692f699bbaa906e81977c91ffe7e4754cb8761d0ee7fd  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M01-preparacion-fisica-y-factores-humanos.md
 638c90145b9424a143edeb9a1e8a441024b8edc5db6119d06e0a0578a2791848  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M02-sistemas-de-vehiculos-tripulados.md
 e6f8415669859ee6d0faeb222dd2acb95558141dbd722c27734c0ef4c0bb6a3f  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M03-operaciones-de-cabina-espacial.md
 06d9613b27a3711a37e3bbb1a65adee17075d580fcd00da12d396c5015eae42c  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M04-actividades-extravehiculares-eva.md
 65a2ca7c73ad1ea6310fccab4060ee5aac9b50fe2c00091ed0225d91e7e87a7e  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M05-robotica-para-tripulaciones.md
+491dbbfb41da8db43b4c2d65638c1acd174591efd59421861000d6f8dce8313f  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M06-procedimientos-de-emergencia-espacial.md
 0cf477f71ce73ea196f71cbfaf36fe17d14ea734ca46ca52b16f9daa26980075  programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/INDICE.md
 e1258812b89f84de5f33f5f9fc6884e07fa49ee2284bb7a47d38efd0954e75a4  programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M01-fisiologia-espacial-avanzada.md
 416a4509ea2c9cbebfc614bcfa68bdce1cdadb2987c253d50229a5e12ebfe3b8  programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M02-adaptaciones-a-microgravedad.md
@@ -443,6 +460,7 @@ aacfd9e716a66c3ba62d59602561485b6aaa3bba02fe64c2c6a201744fe304b8  programa/rutas
 b205410ab3fb425488bf7451a6c8ef813e768ca1cbd1dca43c14c0883825cbfc  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M03-procesamiento-de-recursos-in-situ.md
 8e36dff4cfddd45cf8ad402b719a01598bc1f09990637cf6b2d116f2056b5e38  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M04-robotica-para-recursos-espaciales.md
 c045d7ccff091a06c22f5fa62c1a05a7ce98a70e446f17096295a8e7a5e42549  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M06-manufactura-en-cuerpos-celestes.md
+432478b811ef1ad0977e7b383986831eeba41c496c8c4b39de11e597f3eea66a  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M08-viabilidad-tecnica-y-economica-isru.md
 20195ef0d0d3059f582dcd60adda5860e86d180917074fbe061d3adee8f94acd  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/INDICE.md
 289c89834ab6a2f7537fd2690841434438db8955af2e8befc50a8a77082474ac  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/INDICE.md
 3971fcb92d87cc2bff19c1e86e23309f5f6c23a39a3525afbc9f912aa14a8033  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M01-tratados-de-derecho-espacial.md
