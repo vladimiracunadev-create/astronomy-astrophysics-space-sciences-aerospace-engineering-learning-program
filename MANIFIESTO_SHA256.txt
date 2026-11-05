@@ -708,7 +708,7 @@ f79f3848b1f02c9bd059017d68ce9fc82cda0417e1e2b9997442b3a4b8b5bb30  programa/tronc
 6e4f28e92b3584a5dfe625cd9aeb913bde8fedb7aca9932924408751152b7183  programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md
 3f97f3b2ad90f5ce5292b1b1cbb94840a75a6383ba0fee94e743e87512900024  programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md
 631af6847702f16d6993ba0bfa75fb028db5a0d8339c2ea72cc6dd17ee5d901d  programa/tronco-comun/B06-quimica-y-materia-del-universo.md
-fb267528e615a51584857eb43ee6861ced999b0647f7bd9c8e96ce06b44a1d69  programa/tronco-comun/B07-informatica-cientifica-desde-cero.md
+f8bdf46046272a72ebd10784b983b86994219e90e454102803af7447270a6b00  programa/tronco-comun/B07-informatica-cientifica-desde-cero.md
 28bf50b489e6a1b53ecb6fda5874cbb0deb403ce86ee479120878d5ccada6ce8  programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md
 a38485b2fff439c23e4f838d310684b222ad581b7abcf06f05e399018ae94c4e  programa/tronco-comun/B09-calculo-diferencial-e-integral.md
 e9fcc37cd1ea5cad7d11e0ddc13e45a3b1d7609d830333e399d9b0525ad32830  programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md
