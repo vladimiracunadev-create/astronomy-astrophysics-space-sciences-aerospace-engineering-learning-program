@@ -1,5 +1,357 @@
 {
   "ruta_id": "R22",
-  "estado": "pendiente",
-  "rol": "Seguridad defensa y resiliencia de infraestructuras espaciales"
+  "estado": "definido",
+  "rol": "Analista de seguridad, resiliencia y gestión de riesgos de infraestructuras espaciales",
+  "resumen": "Evalúa y protege la continuidad de satélites, estaciones y servicios: sigue objetos, calcula riesgos de colisión, modela amenazas con enfoque defensivo y coordina la respuesta institucional ante una crisis.",
+  "decide": "Qué riesgo es aceptable, cuándo maniobrar o conmutar a respaldo, qué controles defensivos priorizar y cuándo escalar una crisis a la institución o a otros operadores.",
+  "entrega": "Informes de precisión de seguimiento, decisiones documentadas de conjunción, modelos defensivos de riesgo de infraestructura, planes de fin de vida y de continuidad, y un informe posterior a un incidente simulado.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Unidades, incertidumbre y fuentes",
+      "clases": [
+        "B01-C04",
+        "B01-C08",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Reportar cualquier cifra de riesgo con unidad, marco de referencia, incertidumbre y fuente.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática y geometría operativas",
+      "clases": [
+        "B03-C05",
+        "B03-C11",
+        "B04-C07",
+        "B04-C12..C14",
+        "B04-C18",
+        "B04-C19"
+      ],
+      "capacidad": "Resolver los cálculos geométricos y vectoriales de distancias y aproximaciones entre objetos.",
+      "omitible_si": "aprueba el diagnóstico de matemática"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Física del movimiento",
+      "clases": [
+        "B05-C01",
+        "B05-C02",
+        "B05-C04",
+        "B05-C06..C10",
+        "B05-C18"
+      ],
+      "capacidad": "Aplicar mecánica, energía y gravitación a un objeto en órbita.",
+      "omitible_si": "aprueba el diagnóstico de física"
+    },
+    {
+      "orden": 4,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Programación y datos",
+      "clases": [
+        "B07-C08",
+        "B07-C09",
+        "B07-C13..C17",
+        "B07-C19"
+      ],
+      "capacidad": "Escribir y probar el código de un análisis de datos de seguimiento.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 5,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Probabilidad e incertidumbre",
+      "clases": [
+        "B12-C02..C05",
+        "B12-C07..C09",
+        "B12-C12",
+        "B12-C14",
+        "B12-C16",
+        "B12-C18..C20"
+      ],
+      "capacidad": "Expresar un riesgo como probabilidad con su incertidumbre y simularlo con Monte Carlo.",
+      "nota": "B12-C20 se integra en el informe del paso final."
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Tiempo y marcos de referencia",
+      "clases": [
+        "B13-C08",
+        "B13-C09",
+        "B13-C11",
+        "B13-C12"
+      ],
+      "capacidad": "Comparar posiciones y observaciones en la escala de tiempo y el marco adecuados."
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Simulación y estimación",
+      "clases": [
+        "B11-C05",
+        "B11-C07..C09",
+        "B11-C19",
+        "B11-C20",
+        "B15-C01",
+        "B15-C03",
+        "B15-C15..C17"
+      ],
+      "capacidad": "Integrar una trayectoria, comprobar su error y estimar un estado con un filtro de Kalman elemental."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Órbita del objeto",
+      "clases": [
+        "B41-C01..C17",
+        "B41-C20"
+      ],
+      "capacidad": "Describir una órbita, su período y su geometría y propagarla con un modelo verificable."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Perturbaciones que degradan la predicción",
+      "clases": [
+        "B42-C01..C03",
+        "B42-C06..C09",
+        "B42-C12",
+        "B42-C18..C20"
+      ],
+      "capacidad": "Estimar cómo el arrastre, J2 y la presión solar degradan una predicción orbital en el tiempo."
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Estimación de órbitas",
+      "clases": [
+        "B44-C01..C12",
+        "B44-C15",
+        "B44-C16",
+        "B44-C19",
+        "B44-C20"
+      ],
+      "capacidad": "Determinar una órbita a partir de observaciones y declarar su covarianza y su precisión."
+    },
+    {
+      "orden": 11,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Tráfico espacial y sostenibilidad orbital",
+      "clases": [
+        "B62-C01..C20"
+      ],
+      "capacidad": "Describir la población de objetos, las conjunciones, los desechos y la gobernanza del tráfico.",
+      "nota": "Es el eje del rol junto con B63. Los módulos R22-M01 a M04 profundizan C02 a C09, C11 a C13 y C20: la ruta pide análisis de datos y un reporte documentado."
+    },
+    {
+      "orden": 12,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Vigilancia y conciencia situacional espacial",
+      "clases": [
+        "R22-M01-C01..C20"
+      ],
+      "capacidad": "Reconocer qué ven los sensores civiles, con qué calidad, y cómo se comparte y se reporta un evento orbital.",
+      "nota": "Repite B62-C02 a C04; se pide calidad de datos y límites de la vigilancia."
+    },
+    {
+      "orden": 13,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Seguimiento de objetos orbitales",
+      "clases": [
+        "R22-M02-C01..C20"
+      ],
+      "capacidad": "Producir un informe de precisión de seguimiento con TLE/OMM, SGP4 y efemérides de referencia.",
+      "nota": "Repite B44-C06 a C12 y B42-C20; el nuevo requisito es asociación de objetos y validación con efemérides."
+    },
+    {
+      "orden": 14,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Riesgo de conjunciones y colisiones",
+      "clases": [
+        "R22-M03-C01..C20"
+      ],
+      "capacidad": "Evaluar una alerta de conjunción, decidir si maniobrar y documentar la decisión.",
+      "nota": "Repite B62-C05 a C08 y C20; la evidencia es una decisión documentada y un postanálisis."
+    },
+    {
+      "orden": 15,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Operaciones de proximidad y evasión",
+      "clases": [
+        "B46-C09",
+        "B46-C10",
+        "B46-C11",
+        "B46-C14",
+        "B46-C17",
+        "B46-C20"
+      ],
+      "capacidad": "Entender el movimiento relativo, el encuentro y la evasión seguros de dos objetos."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Mitigación de desechos espaciales",
+      "clases": [
+        "R22-M04-C01..C20"
+      ],
+      "capacidad": "Evaluar un plan de fin de vida frente a normas de mitigación vigentes.",
+      "nota": "Repite B62-C09 a C14; las normas se citan con versión y fecha (por ejemplo, las directrices del IADC y las prácticas estándar de cada país)."
+    },
+    {
+      "orden": 17,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Operación de misiones y recuperación",
+      "clases": [
+        "B57-C01..C09",
+        "B57-C13..C15",
+        "B57-C18",
+        "B57-C20"
+      ],
+      "capacidad": "Describir los roles, los procedimientos y la recuperación ante anomalías de un centro de control."
+    },
+    {
+      "orden": 18,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Software crítico y enlaces seguros",
+      "clases": [
+        "B54-C07..C13",
+        "B54-C17",
+        "B54-C18",
+        "B55-C11..C15",
+        "B55-C19"
+      ],
+      "capacidad": "Explicar cómo se autentican, registran y actualizan telecomandos y telemetría, y cómo se protege el enlace y la estación terrestre.",
+      "nota": "B54-C17 trata la ciberseguridad de la aviónica a nivel de ingeniería; el módulo de la ruta añade el modelo de amenazas y la respuesta."
+    },
+    {
+      "orden": 19,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Clima espacial como amenaza de continuidad",
+      "clases": [
+        "B23-C18..C20"
+      ],
+      "capacidad": "Relacionar una tormenta geomagnética con la degradación de servicios satelitales."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Seguridad de infraestructura crítica espacial",
+      "clases": [
+        "R22-M05-C01..C20"
+      ],
+      "capacidad": "Modelar de forma defensiva los segmentos críticos, sus dependencias y su continuidad de servicio.",
+      "nota": "Repite B63-C16; se pide un modelo defensivo de riesgos."
+    },
+    {
+      "orden": 21,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Ciberdefensa y continuidad satelital",
+      "clases": [
+        "R22-M06-C01..C20"
+      ],
+      "capacidad": "Definir controles de autenticación, acceso, inventario, detección y recuperación para una estación y un satélite.",
+      "nota": "Solo enfoque defensivo. M06-C19 y M06-C20 (ejercicio de defensa controlada) se realizan únicamente en un entorno de laboratorio autorizado, con sistemas propios o simulados y reglas de actuación escritas; no se enseñan técnicas de intrusión ni de interferencia."
+    },
+    {
+      "orden": 22,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Derecho, seguridad y geopolítica espacial",
+      "clases": [
+        "B63-C01..C20"
+      ],
+      "capacidad": "Explicar el marco jurídico y de seguridad que rodea a una infraestructura espacial y quién responde por qué.",
+      "nota": "Es el eje jurídico del rol. R22-M07 lo profundiza con doctrina declarada públicamente; ninguna clase es asesoría legal y la normativa depende de jurisdicción y versión."
+    },
+    {
+      "orden": 23,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Defensa planetaria, riesgo y seguros",
+      "clases": [
+        "B39-C06..C11",
+        "B39-C17..C19",
+        "B64-C08",
+        "B49-C16",
+        "B49-C17"
+      ],
+      "capacidad": "Aplicar la misma lógica de riesgo a un objeto cercano a la Tierra y a un activo asegurable."
+    },
+    {
+      "orden": 24,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Geopolítica y doctrina espacial",
+      "clases": [
+        "R22-M07-C01..C20"
+      ],
+      "capacidad": "Analizar con fuentes públicas doctrinas, tratados y normas de conducta, y distinguir hecho de atribución.",
+      "nota": "Solo tratamiento histórico, regulatorio y comparado; no se analizan capacidades de daño ni se dan instrucciones operativas."
+    },
+    {
+      "orden": 25,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Gestión institucional de crisis espaciales",
+      "clases": [
+        "R22-M08-C01..C20"
+      ],
+      "capacidad": "Dirigir el análisis de una crisis: detección, clasificación, roles, comunicación, evidencia, recuperación y posincidente.",
+      "nota": "Es el proyecto final del rol."
+    },
+    {
+      "orden": 26,
+      "fase": "integracion",
+      "tipo": "recomendada",
+      "titulo": "Informe y portafolio",
+      "clases": [
+        "B64-C13",
+        "B64-C19"
+      ],
+      "capacidad": "Redactar un informe defensivo con trazabilidad de fuentes y límites éticos."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Marcos y estándares de ciberseguridad aplicados a sistemas espaciales con edición y fecha",
+      "motivo": "R22-M06 y B54-C17 tratan ciberseguridad, pero ningún título estudia marcos publicados como NIST IR 8401 (Satellite Ground Segment: Applying the Cybersecurity Framework to Satellite Command and Control, 03/01/2023 según csrc.nist.gov consultado el 05/11/2026) ni estándares de seguridad de enlace; la búsqueda de «CCSDS» solo devolvió telemetría y telecomando, y «norma»/«estándar» no devolvió clases de ciberseguridad.",
+      "propuesta": "clases nuevas en B54 o bloque nuevo transversal de estándares y aseguramiento del producto"
+    },
+    {
+      "tema": "Resiliencia de navegación y sincronización (PNT) frente a interferencias, con enfoque defensivo",
+      "motivo": "B55-C16 y B62 tratan GNSS y radiointerferencia, pero ningún título aborda la detección, la mitigación o la redundancia de PNT frente a interferencias; la búsqueda de «suplantación», «jamming» y «spoofing» no devolvió clases.",
+      "propuesta": "clases nuevas en B55 o módulo nuevo de R22"
+    },
+    {
+      "tema": "Gestión de riesgos de la cadena de suministro de hardware y software de satélites",
+      "motivo": "R22-M05-C09 nombra las dependencias de proveedores como título, pero no hay clases sobre inventario de componentes, procedencia de software ni evaluación de proveedores.",
+      "propuesta": "clases nuevas en R22-M05 o en B54"
+    }
+  ]
 }

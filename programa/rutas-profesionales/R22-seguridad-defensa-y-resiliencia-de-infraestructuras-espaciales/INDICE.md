@@ -7,6 +7,7 @@
 ## Recorrido
 
 - [Recorrido del rol: qué clases usar y en qué orden](RECORRIDO.md)
+- [Guía del rol: qué es, qué decide y qué entrega](GUIA_DEL_ROL.md)
 
 ## Módulos
 
