@@ -1,7 +1,7 @@
 # B05-C08 — Momento lineal e impulsos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C07 — Conservación de energía mecánica](../B05-C07-conservacion-de-energia-mecanica/CLASE.md) · [Siguiente: B05-C09 — Momento angular y torque →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C07 — Conservación de energía mecánica](../B05-C07-conservacion-de-energia-mecanica/CLASE.md) · [Siguiente: B05-C09 — Momento angular y torque →](../B05-C09-momento-angular-y-torque/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -280,5 +280,5 @@ El momento lineal se conserva en sistemas aislados; el impulso cambia el momento
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B05-C07 — Conservación de energía mecánica](../B05-C07-conservacion-de-energia-mecanica/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C09 — Momento angular y torque →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c09)
+[← Anterior: B05-C07 — Conservación de energía mecánica](../B05-C07-conservacion-de-energia-mecanica/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C09 — Momento angular y torque →](../B05-C09-momento-angular-y-torque/CLASE.md)
 <!-- /nav -->
