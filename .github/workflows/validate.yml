@@ -33,3 +33,6 @@ jobs:
 
       - name: Comprobar recorridos generados
         run: python herramientas/generar_recorridos.py --check
+
+      - name: Comprobar distribución de módulos
+        run: python herramientas/consolidar_distribucion.py --check

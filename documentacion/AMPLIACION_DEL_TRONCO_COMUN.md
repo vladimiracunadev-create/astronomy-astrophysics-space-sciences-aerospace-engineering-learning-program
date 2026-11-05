@@ -1,5 +1,7 @@
 # Ampliación del tronco común
 
+> **Modelo.** Hay un solo conjunto de clases (el tronco común: áreas y bloques) y los roles son recorridos sobre él, como en el programa de ciberseguridad del autor. Los módulos de las rutas no tienen contenido propio: sus temas se ubican en el bloque del tronco que les corresponde o, si no existe, se proponen como clases nuevas. **En esta etapa no se redacta ninguna clase nueva**: se obtienen, se distribuyen y se amplía la estructura.
+
 El tronco común de la línea base `0.1.0` tiene 8 áreas, 64 bloques y 1.280 clases. Los [recorridos por rol](GUIA_DE_RECORRIDOS_POR_ROL.md) muestran que no bastan: cada rol necesita temas que el tronco no cubre o cubre solo con un título. Este documento fija cómo se amplía **sin romper nada**.
 
 ## Principios
@@ -35,13 +37,25 @@ Los archivos `catalogo/clases.*` de la línea base no se editan. Los validadores
 
 Toda propuesta incluye: necesidad y roles que la requieren (con enlace a su `hueco`), público, fuentes localizadas, nivel N0–N5, dependencias por capacidad, evidencia de aprendizaje y un análisis antirrepetición contra el catálogo existente. Sin ese contraste, no se incorpora.
 
+## Distribución de los módulos de las rutas
+
+Cada módulo de ruta tiene 10 temas (sus 20 clases son pares «concepto + aplicación» del mismo tema). Cada rol, en su archivo `metadatos/recorridos/Rxx.json`, ubica cada tema en el tronco con el campo `modulos`:
+
+- `existente`: el tema ya está en una o varias clases del tronco (se listan sus IDs);
+- `nueva`: no existe; se propone una clase en un bloque existente (continúa su numeración: `B49-C21`) o en un bloque nuevo (`B65`, …), con su área.
+
+`python herramientas/consolidar_distribucion.py` recoge lo que declaran todos los roles y genera, en `catalogo/ampliaciones/v0.2.0/`: `distribucion_modulos.json` (dónde vive cada par de clases de ruta; los IDs `Rxx-Mxx-Cnn` se conservan como alias), `clases_nuevas.jsonl` (solo título y estado E0, deduplicadas entre roles), `bloques_nuevos.json` y `TAMANOS_DE_AREA.md`.
+
+## Las áreas no tienen el mismo tamaño
+
+La línea base reparte 160 clases a cada área (8 bloques × 20). Esa simetría es una convención de la versión `0.1.0`, no una medida de lo que cada campo necesita. La ampliación hace crecer cada área según la demanda real de los roles; `TAMANOS_DE_AREA.md` muestra el resultado y se actualiza con cada rol que se ubica. Las 160 clases básicas del área A01 no se tocan.
+
 ## Orden de trabajo
 
-1. Definir el recorrido de los 24 roles (`pendiente` → `definido`).
-2. Consolidar los `huecos` por tema y por frecuencia entre roles.
-3. Agrupar en propuestas (bloques nuevos, clases en bloques existentes, módulos de ruta).
-4. Registrar la ampliación `0.2.0` y su matriz de compatibilidad.
-5. Redactar las clases nuevas con la [guía de redacción](GUIA_DE_REDACCION_DE_CLASES.md).
+1. Definir el recorrido de los 24 roles (`pendiente` → `definido`) y ubicar los 10 temas de cada uno de sus 8 módulos (`modulos`).
+2. Consolidar la distribución (`consolidar_distribucion.py`) y revisar los tamaños de área.
+3. Registrar la ampliación `0.2.0` y su matriz de compatibilidad (los IDs de la línea base permanecen idénticos).
+4. Solo después, y por decisión explícita, redactar las clases nuevas con la [guía de redacción](GUIA_DE_REDACCION_DE_CLASES.md).
 
 ## Conteo
 

@@ -7,7 +7,8 @@ Comprueba contra catalogo/clases.jsonl (solo lectura) que:
 - cada recorrido «definido» tiene pasos con orden consecutivo, fase, tipo y capacidad;
 - todos los IDs y rangos existen en el catálogo y no se repite ninguna clase en un rol;
 - las fases respetan el orden fundamentos -> (tronco | ruta) -> integracion;
-- el recorrido cubre al menos una clase de cada uno de los 8 módulos de su ruta.
+- el mapa de módulos ubica cada tema de los 8 módulos en una clase del tronco (existente) o propone una clase nueva,
+  y los pasos incluyen todo lo que ese mapa exige.
 No valida corrección pedagógica: eso requiere revisión humana.
 """
 
@@ -47,6 +48,7 @@ def cargar_roles() -> list[dict]:
 
 def main() -> int:
     errores: list[str] = []
+    avisos: list[str] = []
     ids = cargar_catalogo()
     datos = {"roles": cargar_roles()}
     rutas = json.loads((ROOT / "metadatos" / "rutas.json").read_text(encoding="utf-8"))
@@ -107,11 +109,50 @@ def main() -> int:
                         usadas.add(cid)
                 except ValueError as e:
                     errores.append(f"{rid} paso {n}: {e}")
-        # los IDs de módulo de ruta se construyen como Rxx-Myy-Cnn
-        modulos = {f"{rid}-M{i:02d}" for i in range(1, 9)}
-        cubiertos = {c.rsplit("-C", 1)[0] for c in usadas if c.startswith(rid + "-M")}
-        if cubiertos != modulos:
-            errores.append(f"{rid}: módulos sin cubrir: {sorted(modulos - cubiertos)}")
+        if "modulos" in rol:
+            # Mapa de módulos: el contenido de cada módulo vive en el tronco (o es una clase nueva propuesta)
+            esperadas_ruta: set[str] = set()
+            esperadas_tronco: set[str] = set()
+            nuevas_ruta: set[str] = set()
+            mods = rol.get("modulos", [])
+            if sorted(m.get("modulo", "") for m in mods) != [f"{rid}-M{i:02d}" for i in range(1, 9)]:
+                errores.append(f"{rid}: 'modulos' debe describir exactamente los 8 módulos de la ruta")
+            for m in mods:
+                pares = []
+                for t in m.get("temas", []):
+                    pares.append(t.get("clases_ruta", ""))
+                    dest = t.get("destino")
+                    if dest == "existente":
+                        if not t.get("tronco"):
+                            errores.append(f"{m['modulo']} {t.get('clases_ruta')}: destino existente sin clases del tronco")
+                        for c in t.get("tronco", []):
+                            if not re.match(r"^B\d{2}-C\d{2}$", c) or c not in ids:
+                                errores.append(f"{m['modulo']} {t.get('clases_ruta')}: {c} no es una clase del tronco existente")
+                            esperadas_tronco.add(c)
+                    elif dest == "nueva":
+                        prop = t.get("propuesta", {})
+                        if not (prop.get("area") and prop.get("bloque") and prop.get("titulo")):
+                            errores.append(f"{m['modulo']} {t.get('clases_ruta')}: destino nueva requiere propuesta con area, bloque y titulo")
+                        try:
+                            for c in expandir(t.get("clases_ruta", "")):
+                                nuevas_ruta.add(c)
+                                esperadas_ruta.add(c)
+                        except ValueError as e:
+                            errores.append(f"{m['modulo']}: {e}")
+                    else:
+                        errores.append(f"{m['modulo']} {t.get('clases_ruta')}: destino debe ser 'existente' o 'nueva'")
+                esperados = [f"{m['modulo']}-C{n:02d}..C{n + 1:02d}" for n in range(1, 20, 2)]
+                if sorted(pares) != esperados:
+                    errores.append(f"{m['modulo']}: los temas no cubren exactamente los 10 pares de clases C01..C20")
+            # un ID de ruta en los pasos solo se admite como referencia provisional de un tema nuevo
+            for c in sorted(usadas):
+                if c.startswith("R") and c not in nuevas_ruta:
+                    errores.append(f"{rid}: {c} está en los pasos pero su tema existe en el tronco; usa la clase del tronco")
+            faltan = (esperadas_tronco | esperadas_ruta) - usadas
+            if faltan:
+                errores.append(f"{rid}: los pasos no incluyen {len(faltan)} clases que exige el mapa de módulos, p. ej. {sorted(faltan)[:5]}")
+        else:
+            avisos.append(f"{rid}: sin mapa de módulos (pendiente): falta ubicar sus 10 temas por módulo en el tronco común")
         tronco = {c for c in usadas if c.startswith("B")}
         ruta = {c for c in usadas if c.startswith("R")}
         for c in usadas:
@@ -129,6 +170,8 @@ def main() -> int:
     print(f"Recorridos por rol: {definidos} definidos de {len(datos['roles'])}")
     for rid, t, r, n in resumen:
         print(f"  {rid}: {n} pasos · {t} clases del tronco · {r} de la ruta")
+    for a_ in avisos:
+        print("  aviso:", a_)
     if errores:
         print("VALIDACIÓN CON ERRORES:", len(errores))
         for e in errores:

@@ -1,0 +1,607 @@
+{
+  "R12-M01-C01..C02": {
+    "tema": "Objetivo del satélite",
+    "destino": "existente",
+    "tronco": [
+      "B49-C01"
+    ]
+  },
+  "R12-M01-C03..C04": {
+    "tema": "Requisitos de servicio",
+    "destino": "existente",
+    "tronco": [
+      "B49-C04"
+    ]
+  },
+  "R12-M01-C05..C06": {
+    "tema": "Órbita y cobertura",
+    "destino": "existente",
+    "tronco": [
+      "B41-C07",
+      "B41-C08",
+      "B55-C17"
+    ]
+  },
+  "R12-M01-C07..C08": {
+    "tema": "Presupuesto de masa",
+    "destino": "existente",
+    "tronco": [
+      "B49-C09"
+    ]
+  },
+  "R12-M01-C09..C10": {
+    "tema": "Presupuesto de energía",
+    "destino": "existente",
+    "tronco": [
+      "B49-C10"
+    ]
+  },
+  "R12-M01-C11..C12": {
+    "tema": "Presupuesto de datos",
+    "destino": "existente",
+    "tronco": [
+      "B49-C11"
+    ]
+  },
+  "R12-M01-C13..C14": {
+    "tema": "Arquitectura de plataforma",
+    "destino": "existente",
+    "tronco": [
+      "B49-C07"
+    ]
+  },
+  "R12-M01-C15..C16": {
+    "tema": "Cargas útiles compatibles",
+    "destino": "existente",
+    "tronco": [
+      "B49-C08"
+    ]
+  },
+  "R12-M01-C17..C18": {
+    "tema": "Redundancia de misión",
+    "destino": "nueva",
+    "tronco": [
+      "B49-C21"
+    ]
+  },
+  "R12-M01-C19..C20": {
+    "tema": "Revisión conceptual de diseño",
+    "destino": "existente",
+    "tronco": [
+      "B49-C13"
+    ]
+  },
+  "R12-M02-C01..C02": {
+    "tema": "Objetivos de carga útil",
+    "destino": "existente",
+    "tronco": [
+      "B31-C02"
+    ]
+  },
+  "R12-M02-C03..C04": {
+    "tema": "Sensores ópticos",
+    "destino": "existente",
+    "tronco": [
+      "B28-C02",
+      "B28-C03"
+    ]
+  },
+  "R12-M02-C05..C06": {
+    "tema": "Sensores de radio",
+    "destino": "existente",
+    "tronco": [
+      "B30-C06",
+      "B30-C07"
+    ]
+  },
+  "R12-M02-C07..C08": {
+    "tema": "Dosímetros",
+    "destino": "nueva",
+    "tronco": [
+      "B51-C21"
+    ]
+  },
+  "R12-M02-C09..C10": {
+    "tema": "Carga útil educativa",
+    "destino": "nueva",
+    "tronco": [
+      "B31-C21"
+    ]
+  },
+  "R12-M02-C11..C12": {
+    "tema": "Resolución y sensibilidad",
+    "destino": "existente",
+    "tronco": [
+      "B28-C04",
+      "B28-C06",
+      "B28-C17"
+    ]
+  },
+  "R12-M02-C13..C14": {
+    "tema": "Masa y energía de instrumento",
+    "destino": "existente",
+    "tronco": [
+      "B49-C09",
+      "B49-C10",
+      "B51-C20"
+    ]
+  },
+  "R12-M02-C15..C16": {
+    "tema": "Calibración de carga útil",
+    "destino": "existente",
+    "tronco": [
+      "B31-C15",
+      "B13-C05"
+    ]
+  },
+  "R12-M02-C17..C18": {
+    "tema": "Flujo de datos científicos",
+    "destino": "existente",
+    "tronco": [
+      "B31-C16",
+      "B31-C18",
+      "B57-C16"
+    ]
+  },
+  "R12-M02-C19..C20": {
+    "tema": "Aceptación de carga útil",
+    "destino": "existente",
+    "tronco": [
+      "B56-C19"
+    ]
+  },
+  "R12-M03-C01..C02": {
+    "tema": "CubeSat Unit y dimensiones",
+    "destino": "nueva",
+    "tronco": [
+      "B65-C01"
+    ]
+  },
+  "R12-M03-C03..C04": {
+    "tema": "Plataforma estructural",
+    "destino": "existente",
+    "tronco": [
+      "B50-C20"
+    ]
+  },
+  "R12-M03-C05..C06": {
+    "tema": "Arquitectura de buses",
+    "destino": "existente",
+    "tronco": [
+      "B49-C07",
+      "B54-C07"
+    ]
+  },
+  "R12-M03-C07..C08": {
+    "tema": "Mecanismos y desplegables",
+    "destino": "existente",
+    "tronco": [
+      "B50-C13"
+    ]
+  },
+  "R12-M03-C09..C10": {
+    "tema": "Paneles de interfaces",
+    "destino": "existente",
+    "tronco": [
+      "B56-C05"
+    ]
+  },
+  "R12-M03-C11..C12": {
+    "tema": "Componentes comerciales",
+    "destino": "nueva",
+    "tronco": [
+      "B65-C02"
+    ]
+  },
+  "R12-M03-C13..C14": {
+    "tema": "Compatibilidad electromagnética",
+    "destino": "existente",
+    "tronco": [
+      "B56-C13",
+      "B56-C14"
+    ]
+  },
+  "R12-M03-C15..C16": {
+    "tema": "Diseño térmico de plataforma",
+    "destino": "existente",
+    "tronco": [
+      "B51-C01",
+      "B51-C18"
+    ]
+  },
+  "R12-M03-C17..C18": {
+    "tema": "Análisis de compatibilidad",
+    "destino": "existente",
+    "tronco": [
+      "B49-C08"
+    ]
+  },
+  "R12-M03-C19..C20": {
+    "tema": "Selección argumentada de plataforma",
+    "destino": "nueva",
+    "tronco": [
+      "B65-C03"
+    ]
+  },
+  "R12-M04-C01..C02": {
+    "tema": "Generación fotovoltaica",
+    "destino": "existente",
+    "tronco": [
+      "B52-C02",
+      "B52-C03"
+    ]
+  },
+  "R12-M04-C03..C04": {
+    "tema": "Baterías de a bordo",
+    "destino": "existente",
+    "tronco": [
+      "B52-C05",
+      "B52-C06"
+    ]
+  },
+  "R12-M04-C05..C06": {
+    "tema": "Regulación de potencia",
+    "destino": "existente",
+    "tronco": [
+      "B52-C08",
+      "B52-C09"
+    ]
+  },
+  "R12-M04-C07..C08": {
+    "tema": "Distribución de buses",
+    "destino": "existente",
+    "tronco": [
+      "B52-C07"
+    ]
+  },
+  "R12-M04-C09..C10": {
+    "tema": "Protecciones eléctricas",
+    "destino": "existente",
+    "tronco": [
+      "B52-C10",
+      "B56-C03"
+    ]
+  },
+  "R12-M04-C11..C12": {
+    "tema": "Estados de bajo consumo",
+    "destino": "nueva",
+    "tronco": [
+      "B52-C21"
+    ]
+  },
+  "R12-M04-C13..C14": {
+    "tema": "Energía en eclipse",
+    "destino": "existente",
+    "tronco": [
+      "B52-C04",
+      "B52-C13"
+    ]
+  },
+  "R12-M04-C15..C16": {
+    "tema": "Dimensionamiento de arreglos",
+    "destino": "existente",
+    "tronco": [
+      "B52-C01",
+      "B52-C19"
+    ]
+  },
+  "R12-M04-C17..C18": {
+    "tema": "Márgenes de potencia",
+    "destino": "existente",
+    "tronco": [
+      "B52-C12"
+    ]
+  },
+  "R12-M04-C19..C20": {
+    "tema": "Prueba de ciclo eléctrico",
+    "destino": "existente",
+    "tronco": [
+      "B52-C20",
+      "B56-C16"
+    ]
+  },
+  "R12-M05-C01..C02": {
+    "tema": "Antenas de CubeSat",
+    "destino": "nueva",
+    "tronco": [
+      "B65-C04"
+    ]
+  },
+  "R12-M05-C03..C04": {
+    "tema": "Presupuesto de enlace",
+    "destino": "existente",
+    "tronco": [
+      "B55-C05",
+      "B55-C06"
+    ]
+  },
+  "R12-M05-C05..C06": {
+    "tema": "Radio TT&C",
+    "destino": "existente",
+    "tronco": [
+      "B55-C11",
+      "B55-C12"
+    ]
+  },
+  "R12-M05-C07..C08": {
+    "tema": "Bandas autorizadas",
+    "destino": "existente",
+    "tronco": [
+      "B55-C03",
+      "B55-C19",
+      "B63-C09"
+    ]
+  },
+  "R12-M05-C09..C10": {
+    "tema": "Codificación de datos",
+    "destino": "existente",
+    "tronco": [
+      "B55-C08",
+      "B55-C09"
+    ]
+  },
+  "R12-M05-C11..C12": {
+    "tema": "Protocolo de comunicación",
+    "destino": "existente",
+    "tronco": [
+      "B55-C13"
+    ]
+  },
+  "R12-M05-C13..C14": {
+    "tema": "Estación terrestre",
+    "destino": "existente",
+    "tronco": [
+      "B55-C14"
+    ]
+  },
+  "R12-M05-C15..C16": {
+    "tema": "Gestión de telemetría",
+    "destino": "existente",
+    "tronco": [
+      "B54-C08",
+      "B57-C06"
+    ]
+  },
+  "R12-M05-C17..C18": {
+    "tema": "Análisis de contactos",
+    "destino": "existente",
+    "tronco": [
+      "B55-C15",
+      "B57-C04"
+    ]
+  },
+  "R12-M05-C19..C20": {
+    "tema": "Prueba de enlace extremo a extremo",
+    "destino": "existente",
+    "tronco": [
+      "B56-C16"
+    ]
+  },
+  "R12-M06-C01..C02": {
+    "tema": "Sensores de actitud",
+    "destino": "existente",
+    "tronco": [
+      "B53-C03",
+      "B53-C04",
+      "B53-C05",
+      "B53-C06",
+      "B53-C07"
+    ]
+  },
+  "R12-M06-C03..C04": {
+    "tema": "Dinámica rotacional",
+    "destino": "existente",
+    "tronco": [
+      "B53-C01",
+      "B53-C02"
+    ]
+  },
+  "R12-M06-C05..C06": {
+    "tema": "Detumbling",
+    "destino": "existente",
+    "tronco": [
+      "B53-C16"
+    ]
+  },
+  "R12-M06-C07..C08": {
+    "tema": "Ruedas de reacción",
+    "destino": "existente",
+    "tronco": [
+      "B53-C11"
+    ]
+  },
+  "R12-M06-C09..C10": {
+    "tema": "Magnetopares",
+    "destino": "existente",
+    "tronco": [
+      "B53-C12"
+    ]
+  },
+  "R12-M06-C11..C12": {
+    "tema": "Control de apuntamiento",
+    "destino": "existente",
+    "tronco": [
+      "B53-C15"
+    ]
+  },
+  "R12-M06-C13..C14": {
+    "tema": "Perturbaciones orbitales",
+    "destino": "existente",
+    "tronco": [
+      "B53-C18"
+    ]
+  },
+  "R12-M06-C15..C16": {
+    "tema": "Presupuesto de error",
+    "destino": "nueva",
+    "tronco": [
+      "B53-C21"
+    ]
+  },
+  "R12-M06-C17..C18": {
+    "tema": "Modos seguros",
+    "destino": "existente",
+    "tronco": [
+      "B54-C11",
+      "B54-C12"
+    ]
+  },
+  "R12-M06-C19..C20": {
+    "tema": "Prueba de controlador ADCS",
+    "destino": "existente",
+    "tronco": [
+      "B53-C19",
+      "B53-C20"
+    ]
+  },
+  "R12-M07-C01..C02": {
+    "tema": "Documentos de control de interfaces",
+    "destino": "existente",
+    "tronco": [
+      "B56-C05",
+      "B49-C08"
+    ]
+  },
+  "R12-M07-C03..C04": {
+    "tema": "Matriz de requisitos",
+    "destino": "existente",
+    "tronco": [
+      "B49-C04",
+      "B49-C05"
+    ]
+  },
+  "R12-M07-C05..C06": {
+    "tema": "Control de configuración",
+    "destino": "existente",
+    "tronco": [
+      "B49-C15",
+      "B54-C18"
+    ]
+  },
+  "R12-M07-C07..C08": {
+    "tema": "Gestión de masas",
+    "destino": "existente",
+    "tronco": [
+      "B49-C09"
+    ]
+  },
+  "R12-M07-C09..C10": {
+    "tema": "Gestión térmica",
+    "destino": "existente",
+    "tronco": [
+      "B51-C20",
+      "B51-C18"
+    ]
+  },
+  "R12-M07-C11..C12": {
+    "tema": "Interfaces mecánicas",
+    "destino": "existente",
+    "tronco": [
+      "B56-C06"
+    ]
+  },
+  "R12-M07-C13..C14": {
+    "tema": "Interfaces eléctricas",
+    "destino": "existente",
+    "tronco": [
+      "B56-C07"
+    ]
+  },
+  "R12-M07-C15..C16": {
+    "tema": "Interfaces de software",
+    "destino": "nueva",
+    "tronco": [
+      "B54-C21"
+    ]
+  },
+  "R12-M07-C17..C18": {
+    "tema": "Gestión de cambios",
+    "destino": "existente",
+    "tronco": [
+      "B49-C15"
+    ]
+  },
+  "R12-M07-C19..C20": {
+    "tema": "Revisión de coherencia integral",
+    "destino": "existente",
+    "tronco": [
+      "B49-C14"
+    ]
+  },
+  "R12-M08-C01..C02": {
+    "tema": "Plan de ensamblaje",
+    "destino": "existente",
+    "tronco": [
+      "B56-C01"
+    ]
+  },
+  "R12-M08-C03..C04": {
+    "tema": "Procedimientos de integración",
+    "destino": "existente",
+    "tronco": [
+      "B56-C06",
+      "B56-C07",
+      "B56-C08"
+    ]
+  },
+  "R12-M08-C05..C06": {
+    "tema": "Control ESD",
+    "destino": "existente",
+    "tronco": [
+      "B56-C02",
+      "B56-C03"
+    ]
+  },
+  "R12-M08-C07..C08": {
+    "tema": "Pruebas de subsistemas",
+    "destino": "existente",
+    "tronco": [
+      "B56-C08"
+    ]
+  },
+  "R12-M08-C09..C10": {
+    "tema": "Pruebas funcionales",
+    "destino": "existente",
+    "tronco": [
+      "B56-C16"
+    ]
+  },
+  "R12-M08-C11..C12": {
+    "tema": "Vibración y choque",
+    "destino": "existente",
+    "tronco": [
+      "B56-C09",
+      "B56-C10"
+    ]
+  },
+  "R12-M08-C13..C14": {
+    "tema": "Vacío térmico",
+    "destino": "existente",
+    "tronco": [
+      "B56-C12",
+      "B51-C19"
+    ]
+  },
+  "R12-M08-C15..C16": {
+    "tema": "Trazabilidad de evidencia",
+    "destino": "existente",
+    "tronco": [
+      "B56-C18"
+    ]
+  },
+  "R12-M08-C17..C18": {
+    "tema": "Resolución de no conformidades",
+    "destino": "existente",
+    "tronco": [
+      "B56-C17"
+    ]
+  },
+  "R12-M08-C19..C20": {
+    "tema": "Revisión de aceptación de CubeSat",
+    "destino": "existente",
+    "tronco": [
+      "B56-C19",
+      "B56-C20"
+    ]
+  }
+}
