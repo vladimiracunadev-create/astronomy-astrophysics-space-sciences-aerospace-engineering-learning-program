@@ -17,7 +17,7 @@ Este roadmap resume la resolución del repositorio y de sus contenidos. El detal
 - [x] Documentar alcance, estado, estándar y puertas de calidad.
 - [x] Añadir validación continua del catálogo.
 - [x] Preparar publicación del visor con GitHub Pages.
-- [ ] Confirmar ejecución verde en el repositorio público.
+- [x] Confirmar ejecución verde en el repositorio público.
 
 **Cierre:** catálogo sincronizado, CI verde, visor publicado y metadatos públicos coherentes.
 
