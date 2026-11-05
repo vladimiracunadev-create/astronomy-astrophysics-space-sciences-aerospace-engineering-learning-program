@@ -1,5 +1,336 @@
 {
   "ruta_id": "R15",
-  "estado": "pendiente",
-  "rol": "Telecomunicaciones y estaciones terrestres espaciales"
+  "estado": "definido",
+  "rol": "Ingeniero/a de telecomunicaciones espaciales y estaciones terrestres",
+  "resumen": "Diseña, valida y opera los enlaces entre una nave y el suelo: presupuesta el enlace, elige antenas, modulación y codificación, y opera la estación que recibe la telemetría y envía los telecomandos.",
+  "decide": "Qué antena, banda, modulación y codificación cierran un enlace con margen, cómo se sincroniza y se protege, y cómo se opera la estación que lo sostiene.",
+  "entrega": "Presupuestos de enlace con margen y fuentes, especificaciones de estación y de protocolo, planes de pases y registros de operación, e informes de diagnóstico de enlace.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Unidades, incertidumbre y fuentes",
+      "clases": [
+        "B01-C04",
+        "B01-C08",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Reportar cualquier cifra de un enlace (decibelios, potencia, frecuencia) con unidad, incertidumbre y fuente.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática, ondas y circuitos básicos",
+      "clases": [
+        "B03-C05..C08",
+        "B03-C13..C14",
+        "B03-C18",
+        "B04-C05..C08",
+        "B04-C10..C14",
+        "B05-C11..C12",
+        "B05-C15..C19"
+      ],
+      "capacidad": "Manejar logaritmos, trigonometría, ondas y circuitos para calcular pérdidas, fases y ganancias.",
+      "omitible_si": "aprueba el diagnóstico de matemática y física"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Programación para datos de enlace",
+      "clases": [
+        "B07-C05..C12",
+        "B07-C14..C17",
+        "B07-C19"
+      ],
+      "capacidad": "Escribir y probar scripts que procesen telemetría, registros y archivos de pase.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 4,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Álgebra lineal y rotaciones para apuntado",
+      "clases": [
+        "B10-C01..C09",
+        "B10-C12..C13",
+        "B10-C16"
+      ],
+      "capacidad": "Cambiar de marco para apuntar una antena desde el sistema local al inercial.",
+      "nota": "Se omiten tensores y cuaterniones salvo que la estación use seguimiento de alta dinámica."
+    },
+    {
+      "orden": 5,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Incertidumbre, estadística y metrología de RF",
+      "clases": [
+        "B12-C01..C09",
+        "B12-C14",
+        "B12-C16",
+        "B12-C18",
+        "B13-C01..C09",
+        "B13-C12..C13",
+        "B13-C18..C20"
+      ],
+      "capacidad": "Medir y justificar con incertidumbre una potencia, una frecuencia o una tasa de error, y entender escalas de tiempo.",
+      "nota": "B13-C06 a C09 (patrones de tiempo y frecuencia, UTC, TAI) son la base de R15-M07."
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Datos y análisis reproducibles",
+      "clases": [
+        "B14-C04",
+        "B14-C05",
+        "B14-C07",
+        "B14-C09..C12",
+        "B14-C17..C18"
+      ],
+      "capacidad": "Mantener reproducibles las cadenas de procesado de telemetría y los análisis de enlace.",
+      "omitible_si": "demuestra un repositorio de análisis con pruebas y entorno fijado"
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Señales, ruido y estimación",
+      "clases": [
+        "B15-C01..C17"
+      ],
+      "capacidad": "Analizar una señal en tiempo y frecuencia, filtrarla y estimar parámetros con ruido.",
+      "nota": "C18 a C20 (filtros de partículas, reconstrucción, proyecto de seguimiento) se omiten; el filtrado de Kalman (C17) se queda por su uso en seguimiento."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Lazos de control y sincronización",
+      "clases": [
+        "B16-C01..C07",
+        "B16-C11..C12"
+      ],
+      "capacidad": "Entender un lazo realimentado, su estabilidad y su sintonía, que es la base de los lazos de seguimiento de portadora y de antena.",
+      "nota": "Sin diseño de control moderno (C13 en adelante)."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Receptores y radioastronomía instrumental",
+      "clases": [
+        "B30-C01..C10"
+      ],
+      "capacidad": "Describir un receptor de radio, su ruido y su cadena de conversión.",
+      "nota": "Es un solapamiento deliberado con B55-C06/C07 y R15-M02: aquí se ve la cadena de recepción de un radiotelescopio; en B55 y R15, de una estación de satélite."
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Órbita y visibilidad de pases",
+      "clases": [
+        "B41-C01..C04",
+        "B41-C07..C08",
+        "B41-C10..C13",
+        "B41-C16",
+        "B44-C03..C05",
+        "B44-C15..C16"
+      ],
+      "capacidad": "Calcular cuándo y dónde se ve un satélite desde una estación y medir su rango y Doppler.",
+      "nota": "Se limita a lo necesario para predecir pases y entender mediciones de seguimiento; la determinación completa de órbita es de R10."
+    },
+    {
+      "orden": 11,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ingeniería de sistemas y operaciones de misión",
+      "clases": [
+        "B49-C03..C05",
+        "B49-C08",
+        "B49-C11",
+        "B49-C13..C14",
+        "B49-C16..C17",
+        "B57-C01..C09",
+        "B57-C13..C17"
+      ],
+      "capacidad": "Derivar requisitos de enlace y de operación y planificar contactos, comandos y respuesta a anomalías.",
+      "nota": "B57 es el tronco de operaciones; R15-M08 lo aplica a la operación de una estación concreta."
+    },
+    {
+      "orden": 12,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Comunicaciones y navegación satelital",
+      "clases": [
+        "B55-C01..C20"
+      ],
+      "capacidad": "Cerrar un presupuesto de enlace, elegir modulación y codificación y definir la estación terrena.",
+      "nota": "Es el eje del rol. Las clases de la ruta M02, M03 y M05 lo profundizan; cada una pide una evidencia distinta (cálculo, prueba o caso)."
+    },
+    {
+      "orden": 13,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Aviónica: buses, telemetría y telecomandos",
+      "clases": [
+        "B54-C07..C09",
+        "B54-C13..C14",
+        "B54-C17"
+      ],
+      "capacidad": "Entender el formato de telemetría y telecomando que produce el computador de vuelo y su ciberseguridad.",
+      "nota": "Aviónica y software crítico es de R13; aquí solo la interfaz que ve la estación."
+    },
+    {
+      "orden": 14,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Interferencia, derecho y ciberseguridad de comunicaciones",
+      "clases": [
+        "B62-C17",
+        "B63-C04",
+        "B63-C08..C09",
+        "B63-C13..C16"
+      ],
+      "capacidad": "Situar una estación o un enlace en su marco regulatorio y reconocer interferencia, bloqueo y ciberamenazas.",
+      "nota": "B63-C09 y B55-C19 comparten el tema de normas y espectro; aquí desde el derecho, allá desde la ingeniería. Ciberseguridad espacial en profundidad: R22."
+    },
+    {
+      "orden": 15,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Antenas espaciales avanzadas",
+      "clases": [
+        "R15-M01-C01..C20"
+      ],
+      "capacidad": "Dimensionar y apuntar una antena, y justificar la elección entre alternativas.",
+      "nota": "Profundiza B55-C06 (ganancias y pérdidas de antena) y B30-C03 a C05; añade arreglos de fase, polarización y calibración de patrón."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Presupuesto de enlace de misión",
+      "clases": [
+        "R15-M02-C01..C20"
+      ],
+      "capacidad": "Cerrar y defender el presupuesto ascendente y descendente de un enlace con su margen.",
+      "nota": "Repite B55-C04 a C07; aquí se exigen lluvia, polarización, Eb/N0 y los dos sentidos del enlace."
+    },
+    {
+      "orden": 17,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Modulación y codificación de canal",
+      "clases": [
+        "R15-M03-C01..C20"
+      ],
+      "capacidad": "Elegir y probar modulación, codificación y tramas CCSDS de un enlace.",
+      "nota": "Repite B55-C08 a C12; aquí se profundiza con LDPC, Reed-Solomon, entrelazado y prueba de enlace digital."
+    },
+    {
+      "orden": 18,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Sincronización y protocolos de misión",
+      "clases": [
+        "R15-M07-C01..C20"
+      ],
+      "capacidad": "Sincronizar una estación al tiempo de la misión y validar los protocolos del enlace.",
+      "nota": "Reutiliza B13-C07/C08 y B55-C11/C12; añade configuración y calidad de servicio."
+    },
+    {
+      "orden": 19,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Diseño de redes de estaciones terrestres",
+      "clases": [
+        "R15-M04-C01..C20"
+      ],
+      "capacidad": "Diseñar cobertura, redundancia, operación remota y seguridad de una red de estaciones.",
+      "nota": "Profundiza B55-C14 y C17."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Operaciones integrales de estaciones terrestres",
+      "clases": [
+        "R15-M08-C01..C20"
+      ],
+      "capacidad": "Planificar y operar pases, diagnosticar el enlace y mantener una estación.",
+      "nota": "Reutiliza B57-C04 a C09; aquí se opera el lado terreno con registro y mantenimiento."
+    },
+    {
+      "orden": 21,
+      "fase": "ruta",
+      "tipo": "recomendada",
+      "titulo": "Enlaces de radiofrecuencia profundos",
+      "clases": [
+        "R15-M05-C01..C20"
+      ],
+      "capacidad": "Presupuestar y operar un enlace de espacio profundo con Doppler y rango.",
+      "nota": "Complementa B55-C13 (protocolos de espacio profundo) y B44-C17. Es especialización: se puede dejar para después de operar enlaces de órbita baja.",
+      "omitible_si": "el rol se limita a satélites de órbita baja"
+    },
+    {
+      "orden": 22,
+      "fase": "ruta",
+      "tipo": "opcional",
+      "titulo": "Enlaces ópticos espaciales",
+      "clases": [
+        "R15-M06-C01",
+        "R15-M06-C03",
+        "R15-M06-C05",
+        "R15-M06-C07",
+        "R15-M06-C09",
+        "R15-M06-C11",
+        "R15-M06-C13",
+        "R15-M06-C15",
+        "R15-M06-C17",
+        "R15-M06-C19"
+      ],
+      "capacidad": "Describir terminales, apuntamiento, atmósfera y márgenes de un enlace óptico.",
+      "nota": "Se toma la clase de cada tema y se omite su caso o validación, porque en el rol lo óptico es complementario a lo de radiofrecuencia; B55-C18 es el contexto en el tronco.",
+      "omitible_si": "el rol no incluye comunicaciones ópticas"
+    },
+    {
+      "orden": 23,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Campaña integral de operación de una estación",
+      "clases": [
+        "B57-C20"
+      ],
+      "capacidad": "Planificar y simular de extremo a extremo una campaña de operación y su respuesta a incidentes.",
+      "nota": "Es el cierre del rol: simula la jornada de control con lo aprendido; R15-M08-C19 y C20 (simulación de campaña) ya se cursaron en el paso de operaciones integrales, y R15-M04-C17 aporta la gestión de incidentes."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Medida y caracterización de hardware de radiofrecuencia en laboratorio",
+      "motivo": "Ningún título del catálogo trata analizadores de espectro, analizadores vectoriales de redes, ni bancos de prueba de transpondedores; R15-M03-C19 y C20 cubren solo la prueba de un enlace digital.",
+      "propuesta": "clases nuevas en B55 o módulo nuevo de R15"
+    },
+    {
+      "tema": "Enlaces entre satélites y redes de retransmisión",
+      "motivo": "B55-C17 trata constelaciones y cobertura, y R18-M05 protocolos de relevo para astronautas, pero no hay clases de enlaces intersatelitales ni de integración con redes de relevo.",
+      "propuesta": "clases nuevas en B55 o módulo nuevo de R15"
+    },
+    {
+      "tema": "Software y automatización de la estación terrena, incluida su operación como servicio",
+      "motivo": "B57-C01 introduce el segmento terrestre; no hay clases sobre software de estación, automatización de pases ni servicios de estación terrena en la nube (la búsqueda de «nube» solo da astrofísica y R15-M06).",
+      "propuesta": "bloque nuevo o módulo nuevo de R15"
+    },
+    {
+      "tema": "Normas de ingeniería espacial de comunicaciones con versión y jurisdicción",
+      "motivo": "B55-C11, C12 y R15-M03-C17 tratan CCSDS por tema, pero no hay clases sobre normas con versión ni sobre aseguramiento del producto.",
+      "propuesta": "bloque nuevo transversal de estándares y aseguramiento del producto"
+    }
+  ]
 }
