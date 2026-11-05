@@ -1,7 +1,7 @@
 # B08-C16 — Observación solar con filtros certificados
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C15 — Monturas y seguimiento inicial](../B08-C15-monturas-y-seguimiento-inicial/CLASE.md) · [Siguiente: B08-C17 — Registro sistemático en bitácora →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C15 — Monturas y seguimiento inicial](../B08-C15-monturas-y-seguimiento-inicial/CLASE.md) · [Siguiente: B08-C17 — Registro sistemático en bitácora →](../B08-C17-registro-sistematico-en-bitacora/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -273,5 +273,5 @@ La observación solar segura se basa en métodos que no exponen los ojos: proyec
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B08-C15 — Monturas y seguimiento inicial](../B08-C15-monturas-y-seguimiento-inicial/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C17 — Registro sistemático en bitácora →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c17)
+[← Anterior: B08-C15 — Monturas y seguimiento inicial](../B08-C15-monturas-y-seguimiento-inicial/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C17 — Registro sistemático en bitácora →](../B08-C17-registro-sistematico-en-bitacora/CLASE.md)
 <!-- /nav -->
