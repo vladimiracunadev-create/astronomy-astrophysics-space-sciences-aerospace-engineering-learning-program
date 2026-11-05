@@ -63,10 +63,10 @@ flowchart LR
 |---|---|---|---|
 | <a id="b04-c11"></a>[B04-C11](../clases/B04/B04-C11-coordenadas-esfericas/CLASE.md) | Coordenadas esféricas | Longitud, latitud y ángulo polar; ascensión recta y declinación; vector unitario de una dirección del cielo. | Dirección de una estrella como vector |
 | <a id="b04-c12"></a>[B04-C12](../clases/B04/B04-C12-vectores-y-componentes/CLASE.md) | Vectores y componentes | Suma de vectores, componentes y módulo; velocidad orbital y sus componentes. | Descomposición de un movimiento en componentes |
-| <a id="b04-c13"></a>B04-C13 | Producto escalar y ángulo entre vectores | Producto escalar, ángulo entre direcciones y separación angular de dos estrellas. | Tabla de separaciones angulares verificada |
-| <a id="b04-c14"></a>B04-C14 | Producto vectorial y orientación | Producto vectorial, regla de la mano derecha, normal a un plano y orientación de una órbita. | Orientación de una órbita a partir de sus elementos |
-| <a id="b04-c15"></a>B04-C15 | Rotación de puntos y ejes | Matrices de rotación, rotaciones activa y pasiva, composición y comprobación de ortogonalidad. | Rotación documentada con sus pruebas |
-| <a id="b04-c16"></a>B04-C16 | Geometría de esferas y círculos máximos | Distancia angular sobre una esfera, círculo máximo y ley de cosenos esférica. | Distancia sobre la esfera por dos métodos |
+| <a id="b04-c13"></a>[B04-C13](../clases/B04/B04-C13-producto-escalar-y-angulo-entre-vectores/CLASE.md) | Producto escalar y ángulo entre vectores | Producto escalar, ángulo entre direcciones y separación angular de dos estrellas. | Tabla de separaciones angulares verificada |
+| <a id="b04-c14"></a>[B04-C14](../clases/B04/B04-C14-producto-vectorial-y-orientacion/CLASE.md) | Producto vectorial y orientación | Producto vectorial, regla de la mano derecha, normal a un plano y orientación de una órbita. | Orientación de una órbita a partir de sus elementos |
+| <a id="b04-c15"></a>[B04-C15](../clases/B04/B04-C15-rotacion-de-puntos-y-ejes/CLASE.md) | Rotación de puntos y ejes | Matrices de rotación, rotaciones activa y pasiva, composición y comprobación de ortogonalidad. | Rotación documentada con sus pruebas |
+| <a id="b04-c16"></a>[B04-C16](../clases/B04/B04-C16-geometria-de-esferas-y-circulos-maximos/CLASE.md) | Geometría de esferas y círculos máximos | Distancia angular sobre una esfera, círculo máximo y ley de cosenos esférica. | Distancia sobre la esfera por dos métodos |
 
 ### Tramo 4 · Esfera, mapas, órbitas y triangulación
 

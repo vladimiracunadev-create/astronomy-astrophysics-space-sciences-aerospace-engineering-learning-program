@@ -1,7 +1,7 @@
 # B04-C12 — Vectores y componentes
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C11 — Coordenadas esféricas](../B04-C11-coordenadas-esfericas/CLASE.md) · [Siguiente: B04-C13 — Producto escalar y ángulo entre vectores →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C11 — Coordenadas esféricas](../B04-C11-coordenadas-esfericas/CLASE.md) · [Siguiente: B04-C13 — Producto escalar y ángulo entre vectores →](../B04-C13-producto-escalar-y-angulo-entre-vectores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Un vector se suma por componentes, su módulo sale de Pitágoras y se descompone
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B04-C11 — Coordenadas esféricas](../B04-C11-coordenadas-esfericas/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C13 — Producto escalar y ángulo entre vectores →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c13)
+[← Anterior: B04-C11 — Coordenadas esféricas](../B04-C11-coordenadas-esfericas/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C13 — Producto escalar y ángulo entre vectores →](../B04-C13-producto-escalar-y-angulo-entre-vectores/CLASE.md)
 <!-- /nav -->
