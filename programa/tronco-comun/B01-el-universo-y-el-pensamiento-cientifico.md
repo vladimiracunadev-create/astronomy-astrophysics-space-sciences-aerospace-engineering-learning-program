@@ -43,8 +43,8 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 |---|---|---|---|
 | <a id="b01-c01"></a>[B01-C01](../clases/B01/B01-C01-naturaleza-del-universo/CLASE.md) | Naturaleza del universo | Qué es el universo y el universo observable; separar observación, inferencia y modelo con cifras reales (edad, expansión). | Ficha de escala y edad |
 | <a id="b01-c02"></a>[B01-C02](../clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md) | Escalas desde la Tierra al cosmos observable | Órdenes de magnitud y notación científica; recorrer 26 órdenes de magnitud con unidades de longitud. | Escalera de escalas con conversiones |
-| <a id="b01-c03"></a>B01-C03 | Objetos celestes y sus diferencias | Criterios para distinguir planeta, estrella, galaxia, nebulosa y cúmulo; qué los define y cómo se observan. | Clasificación justificada de objetos |
-| <a id="b01-c04"></a>B01-C04 | Espacio y tiempo en ciencia | Cómo se miden posición y tiempo; sistemas de referencia y escalas temporales básicas. | Registro de tiempo y posición con referencia declarada |
+| <a id="b01-c03"></a>[B01-C03](../clases/B01/B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md) | Objetos celestes y sus diferencias | Criterios para distinguir planeta, estrella, galaxia, nebulosa y cúmulo; qué los define y cómo se observan. | Clasificación justificada de objetos |
+| <a id="b01-c04"></a>[B01-C04](../clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/CLASE.md) | Espacio y tiempo en ciencia | Cómo se miden posición y tiempo; sistemas de referencia y escalas temporales básicas. | Registro de tiempo y posición con referencia declarada |
 
 ### Tramo 2 · Observar, preguntar y medir
 

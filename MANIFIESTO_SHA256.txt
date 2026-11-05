@@ -61,9 +61,14 @@ c9eff378bba3c962cd23d2d5c0d5041055a2b2dcc887933a134eb512cd9bedac  metadatos/ruta
 cca989813c7eb999e21a19f672f520f0c8ab2f2b697178f8d299081020c5f7d6  programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md
 27338f954bee8253ffd6e912564ec38cca0389bca6037ece3d8ad48101c4008c  programa/clases/B01/B01-C01-naturaleza-del-universo/FICHA_EDITORIAL.md
 56e623dc5e8cbe23f55545e38294b8beaac3609d757af9ebb9c75ea76487375b  programa/clases/B01/B01-C01-naturaleza-del-universo/laboratorio_edad_y_horizonte.py
-3700708a6d6d468ac71060cc187fb68db98fcf0795f0f21e0897fb2d8bef52b9  programa/clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md
+ae87d45e445804dfcf241f1bd725181b8b1f36014438082618618f7f32e0db5d  programa/clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md
 005a9d1890e2bf76115eb07b0a9247ea73fee4b7af73e6d2f4d764a3498619bc  programa/clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/FICHA_EDITORIAL.md
 9464539016f768a93b2730f8489e49095a7cd2f1b580e6d4d6dfbd22a9792c83  programa/clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/escalera_de_escalas.py
+bf448b21368f6fc5dc2e66fce5d2231785c650c8054d8751d78382c768f0ad14  programa/clases/B01/B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md
+b5205c7f6d55fc73f868e06328e9bb457d5728ea36a2ea001debe51c3d87bc79  programa/clases/B01/B01-C03-objetos-celestes-y-sus-diferencias/FICHA_EDITORIAL.md
+02b0f3734c316710a18f9b3577797fff5c7f30a7b504f43d82a546c4fa53b602  programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/CLASE.md
+fb7adbd9712c35df7e104b500457c9a5a9723c138147643cc5dd1689d11c86c1  programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/FICHA_EDITORIAL.md
+80fcb8092159f36232d135ef688aed9bd9d0187d23f74d6c91b51886e936efc7  programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/ciclos_y_tiempos.py
 8a75c33f20bc76347a7c07c40c4b943b3b6de9e2a81859fbded445f9f6166d9b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 78d71365f442161a742b1fb4a0b711cd7cc9941740cb36fad5e8deebcb01bd2f  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
 772593778e01bc0043851261f5851ea9a4011d5ef04f32726dc2e7ffb479d3de  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md
@@ -280,7 +285,7 @@ a26fc4e5f0786b1438daeaa08480cb93910e1c9990d682e82e379f839938fb0b  programa/rutas
 92fa6cc346ba1f0ba5cafe9d29751e0f7ea146c3b253df655f6ccbe6e2d32a9b  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M06-ciencia-ciudadana-astronomica.md
 f4ef1e488f926a992721491100a2a60f64be609e683c1998192ac501f26fc62d  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M07-accesibilidad-e-inclusion-educativa.md
 c312e6b81406ab6b93e83a0ee853f099fb7210342ac7e186b61f24ef6e5d65ee  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M08-investigacion-y-divulgacion-cientifica.md
-3c3a41d5dbb7e06225cd74f3637f7b285a742690930d23a6969a5ab456853091  programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md
+40986792ff746b3611201e2dea58bf84ebbb7167401c450456f94cd2c003da69  programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md
 931b92ad3b8818e9f2cab4014b31487847efdee1a27166c03857797e85cb82ec  programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md
 a4f45d8b8f846c0350a2e6ca12ef74ff0d78b495c99029fe9de9299b432773fe  programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md
 3ec9becc53de85bbb8f7e229100c0a0ba80b15a6837da082d201add4cb414269  programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md

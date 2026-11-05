@@ -1,7 +1,7 @@
 # B01-C02 — Escalas desde la Tierra al cosmos observable
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C01 — Naturaleza del universo](../B01-C01-naturaleza-del-universo/CLASE.md) · [Siguiente: B01-C03 — Objetos celestes y sus diferencias →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c03)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C01 — Naturaleza del universo](../B01-C01-naturaleza-del-universo/CLASE.md) · [Siguiente: B01-C03 — Objetos celestes y sus diferencias →](../B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,5 +320,5 @@ Las distancias del universo se ordenan en una escalera: cada peldaño mide un ra
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B01-C01 — Naturaleza del universo](../B01-C01-naturaleza-del-universo/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C03 — Objetos celestes y sus diferencias →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c03)
+[← Anterior: B01-C01 — Naturaleza del universo](../B01-C01-naturaleza-del-universo/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C03 — Objetos celestes y sus diferencias →](../B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md)
 <!-- /nav -->
