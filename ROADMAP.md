@@ -38,7 +38,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 ## Horizonte B · resolución de B01
 
-- [ ] Llevar B01-C01–B01-C20 de E0 a E5 (redactadas: C01 a C04; faltan C05 a C20).
+- [ ] Llevar B01-C01–B01-C20 de E0 a E5 (redactadas las 20; pendiente revisión disciplinar y aprobación del autor de C02 a C20).
 - [ ] Auditar dependencias, fuentes, ejercicios, soluciones y accesibilidad.
 - [ ] Documentar carga, repetición, errores y decisiones editoriales.
 
@@ -46,7 +46,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 ## Horizontes C–F · tronco transversal
 
-- [ ] B02–B08: observación, historia, fundamentos e informática inicial.
+- [ ] B02–B08: observación, historia, fundamentos e informática inicial (textos redactados; pendientes revisión disciplinar y aprobación; todas siguen en E0).
 - [ ] B09–B16: matemática, datos, computación y control.
 - [ ] B17–B40: astrofísica, observación y ciencias planetarias.
 - [ ] B41–B64: astrodinámica, ingeniería, operaciones y sociedad.
