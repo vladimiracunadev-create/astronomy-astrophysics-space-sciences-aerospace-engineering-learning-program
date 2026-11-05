@@ -62,10 +62,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b06-c09"></a>B06-C09 | Gases ideales y no ideales | Ley de los gases ideales, densidad y altura de escala de atmósferas, y cuándo falla el modelo ideal. | Tabla de densidades atmosféricas verificada |
-| <a id="b06-c10"></a>B06-C10 | Estados de la materia | Sólido, líquido, gas y plasma comparando energía térmica con energía de cohesión. | Comparación energía térmica–cohesión |
-| <a id="b06-c11"></a>B06-C11 | Diagramas de fase | Lectura de los diagramas del agua y del CO₂; Marte, Venus y la Tierra en el diagrama; Clausius–Clapeyron. | Ubicación de un ambiente en el diagrama de fases |
-| <a id="b06-c12"></a>B06-C12 | Termoquímica y energía de reacción | Entalpía de formación, ley de Hess y energía por masa de una reacción. | Ficha de energía de reacción con incertidumbre |
+| <a id="b06-c09"></a>[B06-C09](../clases/B06/B06-C09-gases-ideales-y-no-ideales/CLASE.md) | Gases ideales y no ideales | Ley de los gases ideales, densidad y altura de escala de atmósferas, y cuándo falla el modelo ideal. | Tabla de densidades atmosféricas verificada |
+| <a id="b06-c10"></a>[B06-C10](../clases/B06/B06-C10-estados-de-la-materia/CLASE.md) | Estados de la materia | Sólido, líquido, gas y plasma comparando energía térmica con energía de cohesión. | Comparación energía térmica–cohesión |
+| <a id="b06-c11"></a>[B06-C11](../clases/B06/B06-C11-diagramas-de-fase/CLASE.md) | Diagramas de fase | Lectura de los diagramas del agua y del CO₂; Marte, Venus y la Tierra en el diagrama; Clausius–Clapeyron. | Ubicación de un ambiente en el diagrama de fases |
+| <a id="b06-c12"></a>[B06-C12](../clases/B06/B06-C12-termoquimica-y-energia-de-reaccion/CLASE.md) | Termoquímica y energía de reacción | Entalpía de formación, ley de Hess y energía por masa de una reacción. | Ficha de energía de reacción con incertidumbre |
 
 ### Tramo 4 · Equilibrio, cinética, ácidos y carbono
 

@@ -1,7 +1,7 @@
 # B06-C08 — Reacciones y conservación de masa
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C07 — Estequiometría elemental](../B06-C07-estequiometria-elemental/CLASE.md) · [Siguiente: B06-C09 — Gases ideales y no ideales →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C07 — Estequiometría elemental](../B06-C07-estequiometria-elemental/CLASE.md) · [Siguiente: B06-C09 — Gases ideales y no ideales →](../B06-C09-gases-ideales-y-no-ideales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ En una reacción química se conservan los átomos y la carga; la masa se conser
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B06-C07 — Estequiometría elemental](../B06-C07-estequiometria-elemental/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C09 — Gases ideales y no ideales →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c09)
+[← Anterior: B06-C07 — Estequiometría elemental](../B06-C07-estequiometria-elemental/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C09 — Gases ideales y no ideales →](../B06-C09-gases-ideales-y-no-ideales/CLASE.md)
 <!-- /nav -->
