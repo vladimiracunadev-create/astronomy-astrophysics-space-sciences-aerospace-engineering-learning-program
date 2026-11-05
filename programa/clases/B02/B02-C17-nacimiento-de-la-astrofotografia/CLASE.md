@@ -1,7 +1,7 @@
 # B02-C17 — Nacimiento de la astrofotografía
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C16 — Historia de la espectroscopía astronómica](../B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md) · [Siguiente: B02-C18 — Expansión de la astronomía en Chile →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c18)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C16 — Historia de la espectroscopía astronómica](../B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md) · [Siguiente: B02-C18 — Expansión de la astronomía en Chile →](../B02-C18-expansion-de-la-astronomia-en-chile/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ La fotografía convirtió el cielo en un archivo y mostró lo que el ojo no ve, 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B02-C16 — Historia de la espectroscopía astronómica](../B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C18 — Expansión de la astronomía en Chile →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c18)
+[← Anterior: B02-C16 — Historia de la espectroscopía astronómica](../B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C18 — Expansión de la astronomía en Chile →](../B02-C18-expansion-de-la-astronomia-en-chile/CLASE.md)
 <!-- /nav -->

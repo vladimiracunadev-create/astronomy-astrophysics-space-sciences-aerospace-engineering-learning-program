@@ -1,7 +1,7 @@
 # B03-C01 — Números y operaciones fundamentales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B02-C20 — Patrimonio astronómico y ética cultural](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c20) · [Siguiente: B03-C02 — Fracciones y razones de magnitudes →](../B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B02-C20 — Patrimonio astronómico y ética cultural](../../B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md) · [Siguiente: B03-C02 — Fracciones y razones de magnitudes →](../B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ Las operaciones se hacen con un orden acordado, los números reales incluyen irr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B02-C20 — Patrimonio astronómico y ética cultural](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c20) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C02 — Fracciones y razones de magnitudes →](../B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md)
+[← Anterior: B02-C20 — Patrimonio astronómico y ética cultural](../../B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C02 — Fracciones y razones de magnitudes →](../B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md)
 <!-- /nav -->
