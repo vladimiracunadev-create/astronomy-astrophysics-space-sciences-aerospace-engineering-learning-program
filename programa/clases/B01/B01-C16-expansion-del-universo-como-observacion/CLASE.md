@@ -1,7 +1,7 @@
 # B01-C16 — Expansión del universo como observación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C15 — Galaxias y agrupaciones cósmicas](../B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md) · [Siguiente: B01-C17 — Construcción de modelos científicos →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C15 — Galaxias y agrupaciones cósmicas](../B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md) · [Siguiente: B01-C17 — Construcción de modelos científicos →](../B01-C17-construccion-de-modelos-cientificos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La ley de Hubble es una relación observada entre corrimiento y distancia; sus p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B01-C15 — Galaxias y agrupaciones cósmicas](../B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C17 — Construcción de modelos científicos →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c17)
+[← Anterior: B01-C15 — Galaxias y agrupaciones cósmicas](../B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C17 — Construcción de modelos científicos →](../B01-C17-construccion-de-modelos-cientificos/CLASE.md)
 <!-- /nav -->

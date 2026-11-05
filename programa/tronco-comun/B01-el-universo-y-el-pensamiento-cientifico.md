@@ -72,10 +72,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b01-c17"></a>B01-C17 | Construcción de modelos científicos | Un modelo como simplificación con dominio de validez; contrastar modelo y dato. | Modelo simple con su límite declarado |
-| <a id="b01-c18"></a>B01-C18 | Incertidumbre y errores elementales | Error aleatorio y sistemático, cifras significativas y propagación simple. | Reporte de medición con incertidumbre |
-| <a id="b01-c19"></a>B01-C19 | Fuentes confiables y desinformación espacial | Jerarquía de fuentes, detección de afirmaciones sin respaldo y verificación de titulares. | Informe de verificación de una noticia |
-| <a id="b01-c20"></a>B01-C20 | Proyecto de observación científica inicial | Integrar pregunta, hipótesis, medición, incertidumbre y fuentes en una observación real. | Proyecto con bitácora, datos y conclusión acotada |
+| <a id="b01-c17"></a>[B01-C17](../clases/B01/B01-C17-construccion-de-modelos-cientificos/CLASE.md) | Construcción de modelos científicos | Un modelo como simplificación con dominio de validez; contrastar modelo y dato. | Modelo simple con su límite declarado |
+| <a id="b01-c18"></a>[B01-C18](../clases/B01/B01-C18-incertidumbre-y-errores-elementales/CLASE.md) | Incertidumbre y errores elementales | Error aleatorio y sistemático, cifras significativas y propagación simple. | Reporte de medición con incertidumbre |
+| <a id="b01-c19"></a>[B01-C19](../clases/B01/B01-C19-fuentes-confiables-y-desinformacion-espacial/CLASE.md) | Fuentes confiables y desinformación espacial | Jerarquía de fuentes, detección de afirmaciones sin respaldo y verificación de titulares. | Informe de verificación de una noticia |
+| <a id="b01-c20"></a>[B01-C20](../clases/B01/B01-C20-proyecto-de-observacion-cientifica-inicial/CLASE.md) | Proyecto de observación científica inicial | Integrar pregunta, hipótesis, medición, incertidumbre y fuentes en una observación real. | Proyecto con bitácora, datos y conclusión acotada |
 
 ## 🧵 Hilos que atraviesan el bloque
 

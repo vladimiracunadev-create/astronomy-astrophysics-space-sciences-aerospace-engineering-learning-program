@@ -1,7 +1,7 @@
 # B02-C01 — Calendarios astronómicos en civilizaciones antiguas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B01-C20 — Proyecto de observación científica inicial](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c20) · [Siguiente: B02-C02 — Observación mesopotámica y egipcia →](../B02-C02-observacion-mesopotamica-y-egipcia/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B01-C20 — Proyecto de observación científica inicial](../../B01/B01-C20-proyecto-de-observacion-cientifica-inicial/CLASE.md) · [Siguiente: B02-C02 — Observación mesopotámica y egipcia →](../B02-C02-observacion-mesopotamica-y-egipcia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ Un calendario es una decisión sobre qué ciclo respetar y qué error tolerar. S
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B01-C20 — Proyecto de observación científica inicial](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c20) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C02 — Observación mesopotámica y egipcia →](../B02-C02-observacion-mesopotamica-y-egipcia/CLASE.md)
+[← Anterior: B01-C20 — Proyecto de observación científica inicial](../../B01/B01-C20-proyecto-de-observacion-cientifica-inicial/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C02 — Observación mesopotámica y egipcia →](../B02-C02-observacion-mesopotamica-y-egipcia/CLASE.md)
 <!-- /nav -->
