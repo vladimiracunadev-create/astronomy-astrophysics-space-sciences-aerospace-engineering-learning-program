@@ -16,6 +16,7 @@
 | Clases en E0 · catalogada | 5.120 | campo `estado=solo_titulo_y_referencia_preliminar` |
 | Clases en E1–E6 | 0 | catálogo |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
+| Clases con texto redactado (A01 · B01-C01 a C04) | 4 de 160 del área A01 (C01 aprobada por el autor; C02–C04 pendientes de aprobación; ninguna con revisión disciplinar) | `programa/clases/B01/` |
 | Régimen de software | Apache-2.0 | `LICENSE` |
 | Régimen de contenido original | CC BY-NC-SA 4.0 | `LICENSE-CONTENT.md` |
 
@@ -34,7 +35,7 @@
 - exactitud científica de las futuras clases;
 - lectura completa, vigencia o conformidad de las fuentes preliminares;
 - prerrequisitos clase por clase;
-- ejercicios, soluciones, laboratorios o simulaciones;
+- ejercicios, soluciones, laboratorios o simulaciones de las clases aún no redactadas (las cuatro de `programa/clases/B01/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa);
 - accesibilidad de contenidos todavía inexistentes;
 - equivalencias de horas, créditos, títulos o certificaciones;
 - revisión disciplinar externa o pilotaje con estudiantes.

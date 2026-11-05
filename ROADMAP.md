@@ -38,7 +38,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 ## Horizonte B · resolución de B01
 
-- [ ] Llevar B01-C01–B01-C20 de E0 a E5.
+- [ ] Llevar B01-C01–B01-C20 de E0 a E5 (redactadas: C01 a C04; faltan C05 a C20).
 - [ ] Auditar dependencias, fuentes, ejercicios, soluciones y accesibilidad.
 - [ ] Documentar carga, repetición, errores y decisiones editoriales.
 
