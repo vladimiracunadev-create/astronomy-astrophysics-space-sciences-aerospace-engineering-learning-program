@@ -1,7 +1,7 @@
 # B08-C08 — Fases lunares y libración
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C07 — Planisferios y aplicaciones celestes](../B08-C07-planisferios-y-aplicaciones-celestes/CLASE.md) · [Siguiente: B08-C09 — Eclipses y geometría de sombras →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C07 — Planisferios y aplicaciones celestes](../B08-C07-planisferios-y-aplicaciones-celestes/CLASE.md) · [Siguiente: B08-C09 — Eclipses y geometría de sombras →](../B08-C09-eclipses-y-geometria-de-sombras/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -273,5 +273,5 @@ Las fases son geometría de iluminación: la Luna siempre está iluminada a medi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B08-C07 — Planisferios y aplicaciones celestes](../B08-C07-planisferios-y-aplicaciones-celestes/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C09 — Eclipses y geometría de sombras →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c09)
+[← Anterior: B08-C07 — Planisferios y aplicaciones celestes](../B08-C07-planisferios-y-aplicaciones-celestes/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C09 — Eclipses y geometría de sombras →](../B08-C09-eclipses-y-geometria-de-sombras/CLASE.md)
 <!-- /nav -->
