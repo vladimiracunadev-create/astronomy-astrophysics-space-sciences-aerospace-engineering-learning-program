@@ -1,7 +1,7 @@
 # B04-C04 — Funciones y gráficas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C03 — Sistemas de ecuaciones elementales](../B04-C03-sistemas-de-ecuaciones-elementales/CLASE.md) · [Siguiente: B04-C05 — Funciones exponenciales y logarítmicas →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B04-C03 — Sistemas de ecuaciones elementales](../B04-C03-sistemas-de-ecuaciones-elementales/CLASE.md) · [Siguiente: B04-C05 — Funciones exponenciales y logarítmicas →](../B04-C05-funciones-exponenciales-y-logaritmicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Una función es una regla con su dominio; su gráfica y su tabla son dos formas 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B04-C03 — Sistemas de ecuaciones elementales](../B04-C03-sistemas-de-ecuaciones-elementales/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C05 — Funciones exponenciales y logarítmicas →](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md#b04-c05)
+[← Anterior: B04-C03 — Sistemas de ecuaciones elementales](../B04-C03-sistemas-de-ecuaciones-elementales/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C05 — Funciones exponenciales y logarítmicas →](../B04-C05-funciones-exponenciales-y-logaritmicas/CLASE.md)
 <!-- /nav -->

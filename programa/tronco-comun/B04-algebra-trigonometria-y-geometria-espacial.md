@@ -45,15 +45,15 @@ flowchart LR
 | <a id="b04-c02"></a>[B04-C02](../clases/B04/B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md) | Ecuaciones lineales y cuadráticas | Despejar, resolver con la fórmula cuadrática, interpretar el discriminante y elegir la raíz con sentido físico (caída lunar, tiempo de luz). | Informe de una ecuación física resuelta |
 | <a id="b04-c03"></a>[B04-C03](../clases/B04/B04-C03-sistemas-de-ecuaciones-elementales/CLASE.md) | Sistemas de ecuaciones elementales | Resolver sistemas 2×2 y 3×3, reconocer casos sin solución única y medir cuándo un sistema es frágil (calibración, rumbos). | Calibración con su comprobación |
 | <a id="b04-c04"></a>[B04-C04](../clases/B04/B04-C04-funciones-y-graficas/CLASE.md) | Funciones y gráficas | Dominio, rango, funciones de potencia, inversa y lectura honesta de gráficas con datos planetarios (tercera ley de Kepler como función). | Ficha de una relación contrastada con datos |
-| <a id="b04-c05"></a>B04-C05 | Funciones exponenciales y logarítmicas | Crecimiento por factores, logaritmos, escala de magnitudes y módulo de distancia; resolver exponentes con logaritmos. | Tabla magnitud–flujo–distancia con comprobación |
+| <a id="b04-c05"></a>[B04-C05](../clases/B04/B04-C05-funciones-exponenciales-y-logaritmicas/CLASE.md) | Funciones exponenciales y logarítmicas | Crecimiento por factores, logaritmos, escala de magnitudes y módulo de distancia; resolver exponentes con logaritmos. | Tabla magnitud–flujo–distancia con comprobación |
 
 ### Tramo 2 · Trigonometría y curvas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b04-c06"></a>B04-C06 | Identidades trigonométricas | Razones trigonométricas en radianes, identidades fundamentales, suma de ángulos y aproximación de ángulo pequeño con su error. | Hoja de identidades verificadas numéricamente |
-| <a id="b04-c07"></a>B04-C07 | Triángulos y distancias angulares | Triángulo rectángulo, tamaño angular y distancia (Sol, Luna, paralaje); medir sin llegar al objeto. | Cálculo de tamaño o distancia por ángulo |
-| <a id="b04-c08"></a>B04-C08 | Ley de senos y ley de cosenos | Resolver triángulos no rectángulos; elongaciones y distancias planetarias en el plano orbital. | Resolución de un triángulo astronómico con comprobación |
+| <a id="b04-c06"></a>[B04-C06](../clases/B04/B04-C06-identidades-trigonometricas/CLASE.md) | Identidades trigonométricas | Razones trigonométricas en radianes, identidades fundamentales, suma de ángulos y aproximación de ángulo pequeño con su error. | Hoja de identidades verificadas numéricamente |
+| <a id="b04-c07"></a>[B04-C07](../clases/B04/B04-C07-triangulos-y-distancias-angulares/CLASE.md) | Triángulos y distancias angulares | Triángulo rectángulo, tamaño angular y distancia (Sol, Luna, paralaje); medir sin llegar al objeto. | Cálculo de tamaño o distancia por ángulo |
+| <a id="b04-c08"></a>[B04-C08](../clases/B04/B04-C08-ley-de-senos-y-ley-de-cosenos/CLASE.md) | Ley de senos y ley de cosenos | Resolver triángulos no rectángulos; elongaciones y distancias planetarias en el plano orbital. | Resolución de un triángulo astronómico con comprobación |
 | <a id="b04-c09"></a>B04-C09 | Circunferencias y elipses | Ecuación de circunferencia y elipse, semiejes, excentricidad, focos y distancias extremas de una órbita. | Ficha geométrica de una órbita |
 | <a id="b04-c10"></a>B04-C10 | Coordenadas polares y cartesianas | Pasar de (x, y) a (r, θ) con el cuadrante correcto; ecuación polar de una órbita. | Tabla de conversión y órbita en polares |
 
