@@ -64,15 +64,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b03-c10"></a>[B03-C10](../clases/B03/B03-C10-proporcionalidad-directa-e-inversa/CLASE.md) | Proporcionalidad directa e inversa | Constante de proporcionalidad, ley del inverso del cuadrado y comprobación de relaciones. | Cuaderno de proporcionalidades |
 | <a id="b03-c11"></a>[B03-C11](../clases/B03/B03-C11-estimacion-y-redondeo-responsable/CLASE.md) | Estimación y redondeo responsable | Cifras significativas, estimación de Fermi, cotas y cuándo redondear. | Informe de estimación con cotas |
 | <a id="b03-c12"></a>[B03-C12](../clases/B03/B03-C12-variables-y-constantes-cientificas/CLASE.md) | Variables y constantes científicas | Variables, parámetros, constantes exactas y medidas; G y GM. | Glosario de variables y constantes |
-| <a id="b03-c13"></a>B03-C13 | Expresiones algebraicas iniciales | Traducir enunciados a expresiones, evaluar, simplificar y factorizar. | Ficha de expresiones |
-| <a id="b03-c14"></a>B03-C14 | Despeje de ecuaciones elementales | Operaciones inversas, despejar una variable de una fórmula y verificarla por sustitución. | Hoja de despejes verificados |
+| <a id="b03-c13"></a>[B03-C13](../clases/B03/B03-C13-expresiones-algebraicas-iniciales/CLASE.md) | Expresiones algebraicas iniciales | Traducir enunciados a expresiones, evaluar, simplificar y factorizar. | Ficha de expresiones |
+| <a id="b03-c14"></a>[B03-C14](../clases/B03/B03-C14-despeje-de-ecuaciones-elementales/CLASE.md) | Despeje de ecuaciones elementales | Operaciones inversas, despejar una variable de una fórmula y verificarla por sustitución. | Hoja de despejes verificados |
 
 ### Tramo 4 · Representar, medir y geometrizar
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b03-c15"></a>B03-C15 | Representación cartesiana de datos | Ejes, escalas lineal y logarítmica, ejes rotulados y gráficos accesibles. | Gráfico cartesiano accesible |
-| <a id="b03-c16"></a>B03-C16 | Pendiente e interpretación de gráficos | Pendiente como tasa de cambio, recta de ajuste y lectura de una gráfica log–log. | Informe de pendiente con unidades |
+| <a id="b03-c15"></a>[B03-C15](../clases/B03/B03-C15-representacion-cartesiana-de-datos/CLASE.md) | Representación cartesiana de datos | Ejes, escalas lineal y logarítmica, ejes rotulados y gráficos accesibles. | Gráfico cartesiano accesible |
+| <a id="b03-c16"></a>[B03-C16](../clases/B03/B03-C16-pendiente-e-interpretacion-de-graficos/CLASE.md) | Pendiente e interpretación de gráficos | Pendiente como tasa de cambio, recta de ajuste y lectura de una gráfica log–log. | Informe de pendiente con unidades |
 | <a id="b03-c17"></a>B03-C17 | Áreas y volúmenes elementales | Círculo, esfera, cilindro; densidad media y potencia interceptada. | Hoja de áreas y volúmenes |
 | <a id="b03-c18"></a>B03-C18 | Razones trigonométricas iniciales | Seno, coseno y tangente, tamaño angular y paralaje. | Ficha de triángulo y ángulo |
 | <a id="b03-c19"></a>B03-C19 | Propagación elemental de redondeos | Cotas de error y combinación de incertidumbres en sumas y productos. | Balance de redondeos e incertidumbre |

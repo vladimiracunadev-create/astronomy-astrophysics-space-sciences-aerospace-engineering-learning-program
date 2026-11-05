@@ -1,7 +1,7 @@
 # B03-C12 — Variables y constantes científicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C11 — Estimación y redondeo responsable](../B03-C11-estimacion-y-redondeo-responsable/CLASE.md) · [Siguiente: B03-C13 — Expresiones algebraicas iniciales →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C11 — Estimación y redondeo responsable](../B03-C11-estimacion-y-redondeo-responsable/CLASE.md) · [Siguiente: B03-C13 — Expresiones algebraicas iniciales →](../B03-C13-expresiones-algebraicas-iniciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Una fórmula mezcla variables, parámetros y constantes; las constantes pueden s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B03-C11 — Estimación y redondeo responsable](../B03-C11-estimacion-y-redondeo-responsable/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C13 — Expresiones algebraicas iniciales →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c13)
+[← Anterior: B03-C11 — Estimación y redondeo responsable](../B03-C11-estimacion-y-redondeo-responsable/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C13 — Expresiones algebraicas iniciales →](../B03-C13-expresiones-algebraicas-iniciales/CLASE.md)
 <!-- /nav -->
