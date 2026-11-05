@@ -1,5 +1,305 @@
 {
   "ruta_id": "R23",
-  "estado": "pendiente",
-  "rol": "Derecho políticas y negocios espaciales"
+  "estado": "definido",
+  "rol": "Analista de derecho, políticas y negocios espaciales",
+  "resumen": "Interpreta tratados, licencias y contratos del sector espacial, evalúa la responsabilidad y el riesgo de un proyecto y arma el caso de negocio para financiarlo, asegurarlo y operarlo dentro de la regulación vigente.",
+  "decide": "Qué obligaciones legales y regulatorias aplican a un proyecto en cada jurisdicción, qué riesgo se transfiere por contrato o seguro y qué debe consultarse a un profesional habilitado antes de actuar.",
+  "entrega": "Matrices comparativas de obligaciones por jurisdicción con versión y fecha, análisis de casos de responsabilidad, cronograma regulatorio de licencias y espectro, plan empresarial con escenarios y un código de conducta.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Fuentes, unidades y lectura de cifras",
+      "clases": [
+        "B01-C08",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Leer y citar una cifra técnica con su unidad, su incertidumbre y su fuente antes de usarla en un argumento.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática de porcentajes y escalas",
+      "clases": [
+        "B03-C02",
+        "B03-C03",
+        "B03-C05",
+        "B03-C10",
+        "B03-C11",
+        "B03-C15",
+        "B03-C16"
+      ],
+      "capacidad": "Manejar razones, porcentajes, escalas y gráficos al comparar costos, plazos y riesgos.",
+      "omitible_si": "aprueba el diagnóstico de matemática"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Datos y documentos reproducibles",
+      "clases": [
+        "B07-C08",
+        "B07-C16",
+        "B07-C19"
+      ],
+      "capacidad": "Mantener una tabla de datos y una documentación que otra persona pueda revisar.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 4,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Estadística para el riesgo",
+      "clases": [
+        "B12-C01..C05",
+        "B12-C07",
+        "B12-C08",
+        "B12-C16",
+        "B12-C20"
+      ],
+      "capacidad": "Describir una probabilidad de falla o de daño con su intervalo y comunicarla sin sobreafirmar."
+    },
+    {
+      "orden": 5,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Historia de la exploración y del derecho",
+      "clases": [
+        "B02-C19",
+        "B02-C20",
+        "B01-C06"
+      ],
+      "capacidad": "Situar un tratado o una controversia en la historia de la exploración espacial."
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Órbitas y lanzamientos para quienes no los calculan",
+      "clases": [
+        "B41-C01",
+        "B41-C03",
+        "B41-C07",
+        "B41-C08",
+        "B41-C16",
+        "B41-C17",
+        "B47-C01",
+        "B47-C14",
+        "B47-C19",
+        "B38-C01",
+        "B38-C02"
+      ],
+      "capacidad": "Explicar qué es una órbita, un lanzamiento y una reentrada con precisión suficiente para aplicar una regla jurídica.",
+      "nota": "No se calcula: se comprende lo necesario para leer un contrato, una licencia o un informe técnico."
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ingeniería de misión y gestión técnica",
+      "clases": [
+        "B49-C01..C05",
+        "B49-C13",
+        "B49-C14",
+        "B49-C16..C19",
+        "B52-C16..C18",
+        "B57-C01",
+        "B57-C02",
+        "B57-C18"
+      ],
+      "capacidad": "Leer requisitos, hitos y riesgos de un proyecto y reconocer su efecto en el contrato y en la licencia."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Espectro y comunicaciones",
+      "clases": [
+        "B55-C02..C05",
+        "B55-C14",
+        "B55-C19"
+      ],
+      "capacidad": "Explicar qué es un enlace, una banda y una estación terrestre y por qué se coordina el espectro."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Tráfico espacial y sostenibilidad orbital",
+      "clases": [
+        "B62-C01..C20"
+      ],
+      "capacidad": "Describir los objetos orbitales, las conjunciones, los desechos y la gobernanza del tráfico que el derecho debe ordenar.",
+      "nota": "Los módulos R23-M01, M04 y M08 retoman C05 a C19 desde la responsabilidad y la gobernanza."
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Derecho, seguridad y geopolítica espacial",
+      "clases": [
+        "B63-C01..C20"
+      ],
+      "capacidad": "Explicar los tratados, los organismos, la autorización de operadores y la responsabilidad por daños.",
+      "nota": "Es el eje del rol. R23-M01 a M04 profundizan C01 a C10 y C19: la ruta pide interpretar, comparar y aplicar a casos. Ninguna clase es asesoría legal; toda norma se cita con jurisdicción, versión y fecha."
+    },
+    {
+      "orden": 11,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Tratados de derecho espacial",
+      "clases": [
+        "R23-M01-C01..C20"
+      ],
+      "capacidad": "Interpretar un tratado frente a un caso y construir una matriz comparativa de obligaciones.",
+      "nota": "Repite B63-C01 a C06 y C10: la evidencia pedida es la interpretación de casos, no el resumen del texto."
+    },
+    {
+      "orden": 12,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Legislaciones y supervisión nacionales",
+      "clases": [
+        "R23-M02-C01..C20"
+      ],
+      "capacidad": "Comparar el régimen de autorización, registro y supervisión de varios países y señalar lo que debe verificarse.",
+      "nota": "Repite B63-C07, C08 y C19. M02-C15 y M02-C16 (ley chilena) son solo títulos: la norma aplicable se verifica en la fuente oficial vigente, con fecha."
+    },
+    {
+      "orden": 13,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Espectro radioeléctrico y licencias",
+      "clases": [
+        "R23-M03-C01..C20"
+      ],
+      "capacidad": "Planificar la coordinación y la licencia de un enlace y evaluar el riesgo de incumplimiento.",
+      "nota": "Repite B55-C19 y B63-C09."
+    },
+    {
+      "orden": 14,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Responsabilidad civil y estatal espacial",
+      "clases": [
+        "R23-M04-C01..C20"
+      ],
+      "capacidad": "Atribuir responsabilidad por un daño en superficie o en órbita y preparar una reclamación.",
+      "nota": "Repite B63-C03 y C10."
+    },
+    {
+      "orden": 15,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Protección planetaria, defensa planetaria y ética",
+      "clases": [
+        "B37-C17..C19",
+        "B39-C17..C19",
+        "B40-C17"
+      ],
+      "capacidad": "Reconocer las restricciones de protección planetaria y de uso de recursos en la ley y la política."
+    },
+    {
+      "orden": 16,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Industria, economía y proyectos espaciales",
+      "clases": [
+        "B64-C01..C12"
+      ],
+      "capacidad": "Describir la cadena de valor, el financiamiento, los seguros y los contratos de la industria espacial."
+    },
+    {
+      "orden": 17,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Seguros espaciales",
+      "clases": [
+        "R23-M05-C01..C16",
+        "R23-M05-C19..C20"
+      ],
+      "capacidad": "Leer una póliza, sus exclusiones y límites y simular una cobertura.",
+      "nota": "Se omiten M05-C17 y C18 (reaseguro) salvo que el proyecto trate un portafolio."
+    },
+    {
+      "orden": 18,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Financiamiento de negocios espaciales",
+      "clases": [
+        "R23-M06-C01..C20"
+      ],
+      "capacidad": "Armar una proyección de flujos y un pitch financiero sostenido con evidencia.",
+      "nota": "No es asesoría financiera: las cifras de los ejercicios son hipótesis de aprendizaje."
+    },
+    {
+      "orden": 19,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Ética, ciencia abierta y gestión",
+      "clases": [
+        "B64-C13..C18"
+      ],
+      "capacidad": "Aplicar ética de datos, ciencia abierta, gestión de proyectos y comunicación a un proyecto con obligaciones legales."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Creación y operación de empresas espaciales",
+      "clases": [
+        "R23-M07-C01..C20"
+      ],
+      "capacidad": "Redactar el plan de una empresa espacial con su cadena de valor, su propiedad intelectual y sus controles de exportación.",
+      "nota": "Repite B64-C01 a C04 y C09; se pide un plan empresarial."
+    },
+    {
+      "orden": 21,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Gobernanza ética y sostenibilidad",
+      "clases": [
+        "R23-M08-C01..C20"
+      ],
+      "capacidad": "Evaluar la gobernanza de un proyecto frente al uso pacífico, la sostenibilidad orbital y la equidad de acceso, y consolidar un código de conducta.",
+      "nota": "Es el proyecto final del rol: se entrega junto con la matriz de obligaciones de R23-M01."
+    },
+    {
+      "orden": 22,
+      "fase": "integracion",
+      "tipo": "recomendada",
+      "titulo": "Propuesta y portafolio",
+      "clases": [
+        "B64-C19",
+        "B64-C20"
+      ],
+      "capacidad": "Consolidar un caso completo (jurídico, regulatorio y de negocio) en un portafolio."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Derecho internacional público general: fuentes, sujetos y responsabilidad del Estado",
+      "motivo": "B63 y R23-M01 parten de los tratados espaciales, pero ningún título trata las fuentes del derecho internacional, la costumbre ni los criterios generales de atribución; la búsqueda de «derecho internacional» no devolvió clases.",
+      "propuesta": "clases nuevas en B63"
+    },
+    {
+      "tema": "Derecho chileno aplicable a actividades espaciales, con jurisdicción y vigencia",
+      "motivo": "R23-M02-C15 y C16 son títulos («Ley chilena aplicable a verificar») sin una clase concreta; no se pudo verificar en esta sesión la normativa vigente, por lo que no se afirma contenido.",
+      "propuesta": "clases nuevas en R23-M02 una vez se documenten las fuentes oficiales"
+    },
+    {
+      "tema": "Análisis financiero: valor presente, tasa de descuento y valoración de una empresa",
+      "motivo": "R23-M06 tiene «proyección de flujos» y «evaluación de viabilidad» como títulos; ningún título nombra valoración, valor presente neto ni tasa de descuento (búsquedas de «valor presente», «VPN», «TIR» y «descuento» sin resultados).",
+      "propuesta": "clases nuevas en B64"
+    },
+    {
+      "tema": "Método de caso jurídico: redacción, citación de normas y de jurisprudencia",
+      "motivo": "M01-C17 y M04-C19 piden casos jurídicos, pero ninguna clase enseña a estructurar, citar y redactar un análisis jurídico.",
+      "propuesta": "clases nuevas en R23-M01"
+    }
+  ]
 }
