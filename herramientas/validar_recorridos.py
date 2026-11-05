@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Valida metadatos/recorridos.json: qué clases usa cada rol y en qué orden.
+"""Valida metadatos/recorridos/Rxx.json (un archivo por rol): qué clases usa cada rol y en qué orden.
 
 Comprueba contra catalogo/clases.jsonl (solo lectura) que:
 - están las 24 rutas, una vez cada una;
@@ -41,10 +41,14 @@ def expandir(token: str) -> list[str]:
     return [f"{pref}-C{n:02d}" for n in range(a, b + 1)]
 
 
+def cargar_roles() -> list[dict]:
+    return [json.loads(p.read_text(encoding="utf-8")) for p in sorted((ROOT / "metadatos" / "recorridos").glob("R*.json"))]
+
+
 def main() -> int:
     errores: list[str] = []
     ids = cargar_catalogo()
-    datos = json.loads((ROOT / "metadatos" / "recorridos.json").read_text(encoding="utf-8"))
+    datos = {"roles": cargar_roles()}
     rutas = json.loads((ROOT / "metadatos" / "rutas.json").read_text(encoding="utf-8"))
     esperadas = {r["id"]: r for r in rutas}
     vistas = [r["ruta_id"] for r in datos["roles"]]

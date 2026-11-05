@@ -6,7 +6,7 @@ El tronco común de la línea base `0.1.0` tiene 8 áreas, 64 bloques y 1.280 cl
 
 1. **La línea base no se toca.** Los 5.120 IDs, sus títulos y su significado siguen igual. Las 160 clases del área A01 (B01 a B08), que son el conocimiento básico, se conservan íntegras.
 2. **La ampliación es aditiva y versionada.** Se registra aparte, con una versión (`0.2.0` y siguientes) y una matriz de compatibilidad, según los [convenios de identificación](CONVENIOS_DE_IDENTIFICACION_Y_AMPLIACION.md).
-3. **La demanda sale de los roles.** Cada hueco registrado en `metadatos/recorridos.json` es una necesidad documentada. Los huecos de los 24 roles se consolidan antes de crear unidades.
+3. **La demanda sale de los roles.** Cada hueco registrado en `metadatos/recorridos/Rxx.json` es una necesidad documentada. Los huecos de los 24 roles se consolidan antes de crear unidades.
 4. **Una unidad nueva debe ganarse su lugar.** Solo se añade si no puede resolverse profundizando o conectando una existente.
 5. **Las áreas crecen, no se renumeran.** El área es un atributo, no parte del ID: las clases y bloques nuevos declaran a qué área pertenecen.
 

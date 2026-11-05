@@ -8,7 +8,7 @@ El catálogo `0.1.0` da a todas las rutas el mismo tamaño (8 módulos × 20 cla
 
 ## Fuente de verdad y herramientas
 
-- `metadatos/recorridos.json`: un registro por ruta. Estado `definido` o `pendiente`.
+- `metadatos/recorridos/Rxx.json`: un archivo por ruta (así varias personas pueden editar roles distintos sin conflictos). Estado `definido` o `pendiente`.
 - `herramientas/validar_recorridos.py`: valida estructura y existencia de cada ID contra el catálogo.
 - `herramientas/generar_recorridos.py`: genera `programa/rutas-profesionales/<ruta>/RECORRIDO.md` a partir del JSON (no se edita a mano) y enlaza el recorrido en el `INDICE.md` de la ruta. `--check` falla si algo está desactualizado.
 

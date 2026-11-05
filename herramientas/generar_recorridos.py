@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Genera RECORRIDO.md de cada ruta a partir de metadatos/recorridos.json.
+"""Genera RECORRIDO.md de cada ruta a partir de metadatos/recorridos/Rxx.json.
 
 El JSON es la fuente de verdad; los RECORRIDO.md son derivados y no se editan a mano.
 Uso:
@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from validar_recorridos import expandir  # noqa: E402
+from validar_recorridos import cargar_roles, expandir  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RUTAS = ROOT / "programa" / "rutas-profesionales"
@@ -87,7 +87,7 @@ def render(rol: dict, t: dict[str, str]) -> str:
 
 def main() -> int:
     check = "--check" in sys.argv
-    datos = json.loads((ROOT / "metadatos" / "recorridos.json").read_text(encoding="utf-8"))
+    datos = {"roles": cargar_roles()}
     t = titulos()
     desactualizados = []
     for rol in datos["roles"]:
