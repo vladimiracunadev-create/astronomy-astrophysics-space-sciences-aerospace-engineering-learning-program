@@ -1,7 +1,7 @@
 # B07-C04 — Condicionales y decisiones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C03 — Operadores y expresiones](../B07-C03-operadores-y-expresiones/CLASE.md) · [Siguiente: B07-C05 — Bucles y simulaciones sencillas →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C03 — Operadores y expresiones](../B07-C03-operadores-y-expresiones/CLASE.md) · [Siguiente: B07-C05 — Bucles y simulaciones sencillas →](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ Un condicional hace que el programa elija entre ramas según una condición; sol
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B07-C03 — Operadores y expresiones](../B07-C03-operadores-y-expresiones/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C05 — Bucles y simulaciones sencillas →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c05)
+[← Anterior: B07-C03 — Operadores y expresiones](../B07-C03-operadores-y-expresiones/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C05 — Bucles y simulaciones sencillas →](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md)
 <!-- /nav -->
