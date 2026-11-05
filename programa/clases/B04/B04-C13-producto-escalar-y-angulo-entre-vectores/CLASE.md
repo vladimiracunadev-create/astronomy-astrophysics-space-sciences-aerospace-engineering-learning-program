@@ -45,7 +45,7 @@ Con cuatro o cinco aciertos, sigue; si no, repasa C06, C11 y C12.
 
 ## 5. Un caso real: ¿cuán lejos están, en el cielo, dos estrellas vecinas?
 
-Del NASA Exoplanet Archive (S1; datos estimados, archivo mutable) tomas las coordenadas de cinco estrellas cercanas. Convertidas a vectores unitarios en C11, el producto escalar de dos de ellas es el coseno del ángulo que las separa. Para tau Ceti (`(0,8642; 0,4217; −0,2745)`) y eps Eridani (`(0,5905; 0,7901; −0,1643)`): `0,5103 + 0,3332 + 0,0451 = 0,8886`, y `arccos(0,8886) = 27,30°`. Para Próxima Centauri y tau Ceti sale `−0,1888`, es decir `100,88°`: están casi en lados opuestos del cielo. En esta clase construyes la tabla de las diez parejas y la contrastas con una fórmula alternativa. Las coordenadas de la fuente se tratan como direcciones aproximadas, con marco y época no verificados.
+Del NASA Exoplanet Archive (S1; datos estimados, archivo mutable) tomas las coordenadas de cinco estrellas cercanas. Convertidas a vectores unitarios en C11, el producto escalar de dos de ellas es el coseno del ángulo que las separa. Para tau Ceti (`(0,8642; 0,4217; −0,2745)`) y eps Eridani (`(0,5905; 0,7901; −0,1643)`): `0,5103 + 0,3332 + 0,0451 = 0,8886`, y `arccos(0,8886) = 27,30°`. Para Próxima Centauri y tau Ceti sale `−0,1888`, es decir `100,88°`: están casi en lados opuestos del cielo. En esta clase construyes la tabla de las diez parejas y la contrastas con una fórmula alternativa. Las coordenadas de la fuente se tratan como direcciones aproximadas, con marco y época no declarados por la documentación del archivo (sección 11).
 
 ## 6. Vocabulario
 
@@ -105,16 +105,16 @@ Si `γ` es minúsculo, `cos γ` es casi 1 y `1 − cos γ ≈ γ²/2` se pierde 
 
 ## 10. Convenciones y referencias
 
-El ángulo entre vectores se define entre 0° y 180° sin signo. Las direcciones usan la convención de ejes de C11 (S2): `x` hacia `(α, δ) = (0, 0)`, `y` hacia `(90°, 0)`, `z` hacia el polo celeste norte. La separación angular no depende del marco mientras ambos vectores estén en el mismo; sí depende de que las coordenadas sean de la misma época. Los datos de S1 son **estimados** y no se verificó su marco ni su época.
+El ángulo entre vectores se define entre 0° y 180° sin signo. Las direcciones usan la convención de ejes de C11 (S2): `x` hacia `(α, δ) = (0, 0)`, `y` hacia `(90°, 0)`, `z` hacia el polo celeste norte. La separación angular no depende del marco mientras ambos vectores estén en el mismo; sí depende de que las coordenadas sean de la misma época. Los datos de S1 son **estimados**; la documentación del archivo no declara su marco ni su época (sección 11), de modo que la clase no los afirma.
 
 ## 11. De dónde sale lo que afirmamos
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
-| S1 | NASA Exoplanet Archive, consulta TAP (tabla `pscomppars`, columnas `ra`, `dec`) | https://exoplanetarchive.ipac.caltech.edu/TAP | Coordenadas de Próxima Cen, tau Cet, eps Eri, GJ 1061 y Teegarden's Star (grados) | Consulta del 2026-11-05 (mutable; estimado; marco y época no verificados) |
+| S1 | NASA Exoplanet Archive, consulta TAP (tabla `pscomppars`, columnas `ra`, `dec`) | consulta TAP https://exoplanetarchive.ipac.caltech.edu/TAP (tabla `pscomppars`, columnas `ra`, `dec`); documentación de columnas: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html | Coordenadas de Próxima Cen, tau Cet, eps Eri, GJ 1061 y Teegarden's Star (grados) | Consulta del 2026-11-05 (mutable; estimado). Documentación leída el 2026-11-05: `ra` y `dec` son ascensión recta y declinación «en grados decimales»; **no declara marco de referencia ni época** |
 | S2 | ESA, *The Hipparcos and Tycho Catalogues*, SP-1200, vol. 1, § 1.5.3 (ec. 1.5.5), p. 91 | https://www.cosmos.esa.int/documents/532822/552851/vol1_all.pdf | Vectores base del sistema ecuatorial: `x` hacia `(0, 0)`, `y` hacia `(+90°, 0)`, `z` hacia `δ = +90°` | PDF leído el 2026-11-05 |
 
-Límites: el producto escalar y sus propiedades son matemáticas estándar y se comprueban en el laboratorio. No se contrastan las separaciones con un valor publicado: son cálculos propios con direcciones de S1.
+Límites: La documentación de columnas del archivo (leída el 2026-11-05) define `ra` y `dec` como ascensión recta y declinación del sistema planetario en grados decimales, y `sy_dist` y `sy_plx` como distancia en pc y paralaje en mas; **no indica marco de referencia (ICRS, J2000…) ni época, ni el catálogo del que proceden**. La clase no afirma ninguno: usa los valores como direcciones aproximadas, con fines didácticos. La página de columnas leída corresponde a la tabla de sistemas planetarios (PS); la tabla compuesta `pscomppars` comparte esos nombres, pero su propia página de columnas vigente no se localizó (la que abrió está retirada desde 2015 y usa nombres `st_*`), por lo que esa correspondencia no se verificó. El producto escalar y sus propiedades son matemáticas estándar y se comprueban en el laboratorio. No se contrastan las separaciones con un valor publicado: son cálculos propios con direcciones de S1.
 
 ## 12. Cómo ver las separaciones
 
@@ -256,7 +256,7 @@ Proxima Cen – Teegarden      -0.69472      134.0046      134.0046
 python programa/clases/B04/B04-C13-producto-escalar-y-angulo-entre-vectores/separaciones_angulares.py
 ```
 
-**Límites:** direcciones puras; coordenadas de época no verificada; no es una herramienta de astrometría.
+**Límites:** direcciones puras; marco y época de las coordenadas no declarados por la fuente; no es una herramienta de astrometría.
 
 ## 18. Errores frecuentes y cómo corregirlos
 

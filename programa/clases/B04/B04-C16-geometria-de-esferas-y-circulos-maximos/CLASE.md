@@ -110,7 +110,7 @@ El cuarto de meridiano usando `R_e = 6378,1 km` da 10 018,7 km y con `R_p = 6356
 
 ## 10. Convenciones y referencias
 
-Latitud al norte positiva, longitud al este positiva y acimut medido desde el norte en sentido horario (S2). Para las estrellas, `λ = α` y `φ = δ`. La esfera usada es una aproximación; los puntos terrestres son **sintéticos**; las coordenadas de las estrellas son las de S3 (estimadas, marco y época no verificados). Los nombres de lugares reales no se usan para evitar atribuir distancias reales a rutas concretas.
+Latitud al norte positiva, longitud al este positiva y acimut medido desde el norte en sentido horario (S2). Para las estrellas, `λ = α` y `φ = δ`. La esfera usada es una aproximación; los puntos terrestres son **sintéticos**; las coordenadas de las estrellas son las de S3 (estimadas; la documentación del archivo no declara su marco ni su época). Los nombres de lugares reales no se usan para evitar atribuir distancias reales a rutas concretas.
 
 ## 11. De dónde sale lo que afirmamos
 
@@ -118,9 +118,9 @@ Latitud al norte positiva, longitud al este positiva y acimut medido desde el no
 |---|---|---|---|---|
 | S1 | IAU, Resolución B3 de 2015, arXiv:1510.07674 | https://arxiv.org/pdf/1510.07674 | `R_eE = 6,3781 × 10⁶ m` y `R_pE = 6,3568 × 10⁶ m` nominales | Texto leído el 2026-11-05 |
 | S2 | USGS, J. P. Snyder, *Map Projections – A Working Manual* (Prof. Paper 1395, 1987), cap. 5, ec. (5-2), (5-3), (5-3a), (5-4b) | https://pubs.usgs.gov/pp/1395/report.pdf, p. 30 | Fórmula del coseno, forma estable (haversine) y acimut | PDF leído (texto) el 2026-11-05 |
-| S3 | NASA Exoplanet Archive, consulta TAP (`pscomppars`, `ra`, `dec`) | https://exoplanetarchive.ipac.caltech.edu/TAP | Coordenadas de Próxima Cen, tau Cet y eps Eri | Consulta del 2026-11-05 (mutable; estimado; marco y época no verificados) |
+| S3 | NASA Exoplanet Archive, consulta TAP (`pscomppars`, `ra`, `dec`) | consulta TAP https://exoplanetarchive.ipac.caltech.edu/TAP (tabla `pscomppars`, columnas `ra`, `dec`); documentación de columnas: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html | Coordenadas de Próxima Cen, tau Cet y eps Eri | Consulta del 2026-11-05 (mutable; estimado). Documentación leída el 2026-11-05: `ra` y `dec` son ascensión recta y declinación «en grados decimales»; **no declara marco de referencia ni época** |
 
-Límites: el radio medio de la esfera es un cálculo propio a partir de valores nominales y no una cifra publicada de radio medio. S2 describe la fórmula y avisa de su imprecisión; la magnitud de la pérdida de cifras sale del laboratorio. No se consultaron fórmulas de geodesia sobre elipsoide.
+Límites: La documentación de columnas del archivo (leída el 2026-11-05) define `ra` y `dec` como ascensión recta y declinación del sistema planetario en grados decimales, y `sy_dist` y `sy_plx` como distancia en pc y paralaje en mas; **no indica marco de referencia (ICRS, J2000…) ni época, ni el catálogo del que proceden**. La clase no afirma ninguno: usa los valores como direcciones aproximadas, con fines didácticos. La página de columnas leída corresponde a la tabla de sistemas planetarios (PS); la tabla compuesta `pscomppars` comparte esos nombres, pero su propia página de columnas vigente no se localizó (la que abrió está retirada desde 2015 y usa nombres `st_*`), por lo que esa correspondencia no se verificó. El radio medio de la esfera es un cálculo propio a partir de valores nominales y no una cifra publicada de radio medio. S2 describe la fórmula y avisa de su imprecisión; la magnitud de la pérdida de cifras sale del laboratorio. No se consultaron fórmulas de geodesia sobre elipsoide.
 
 ## 12. Cómo ver los resultados
 

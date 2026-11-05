@@ -102,18 +102,18 @@ Dos valores de ε, 23,4392911° (Hipparcos, S1) y 23,43927944° (IAU 2006, S3), 
 
 ## 10. Convenciones y referencias
 
-Las matrices actúan sobre **componentes** (rotación pasiva de ejes) y siguen la convención de S1: `[x_K y_K z_K] = [x y z] A_K`, donde `A_K` tiene como columnas los ejes eclípticos escritos en el sistema ecuatorial; las componentes se transforman con la traspuesta `A_Kᵀ = R_x(ε)`. Los ángulos positivos siguen la regla de la mano derecha alrededor del eje. La dirección de Próxima de S2 se trata como aproximada (marco y época no verificados). El ángulo de 30° y los vectores de prueba son **sintéticos**.
+Las matrices actúan sobre **componentes** (rotación pasiva de ejes) y siguen la convención de S1: `[x_K y_K z_K] = [x y z] A_K`, donde `A_K` tiene como columnas los ejes eclípticos escritos en el sistema ecuatorial; las componentes se transforman con la traspuesta `A_Kᵀ = R_x(ε)`. Los ángulos positivos siguen la regla de la mano derecha alrededor del eje. La dirección de Próxima de S2 se trata como aproximada: la documentación del archivo no declara su marco ni su época. El ángulo de 30° y los vectores de prueba son **sintéticos**.
 
 ## 11. De dónde sale lo que afirmamos
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
 | S1 | ESA, *The Hipparcos and Tycho Catalogues*, SP-1200, vol. 1, § 1.5.3, ec. (1.5.6)–(1.5.7), pp. 91–92 | https://www.cosmos.esa.int/documents/532822/552851/vol1_all.pdf | `ε = 23° 26′ 21,448″ = 23,4392911…°`; `A_K` con `cos ε = 0,9174820621` y `sen ε = 0,3977771559`; relación `[x_K y_K z_K] = [x y z] A_K` | PDF leído (texto) el 2026-11-05 |
-| S2 | NASA Exoplanet Archive, consulta TAP (`pscomppars`, `ra`, `dec`) | https://exoplanetarchive.ipac.caltech.edu/TAP | Próxima Cen: `α = 217,3934657°`, `δ = −62,6761821°` | Consulta del 2026-11-05 (mutable; estimado; marco y época no verificados) |
+| S2 | NASA Exoplanet Archive, consulta TAP (`pscomppars`, `ra`, `dec`) | consulta TAP https://exoplanetarchive.ipac.caltech.edu/TAP (tabla `pscomppars`, columnas `ra`, `dec`); documentación de columnas: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html | Próxima Cen: `α = 217,3934657°`, `δ = −62,6761821°` | Consulta del 2026-11-05 (mutable; estimado). Documentación leída el 2026-11-05: `ra` y `dec` son ascensión recta y declinación «en grados decimales»; **no declara marco de referencia ni época** |
 | S3 | IERS Conventions (2010), TN36, tabla de constantes y § 5 | https://iers-conventions.obspm.fr/content/tn36.pdf | `ε₀ = 84381,406″` (IAU 2006); `ε₀ = 84381,448″` era el valor de IAU 2000 | PDF leído el 2026-11-05 |
 | S4 | IERS Conventions (2010), TN36, § 5.1 | idem | `R₁`, `R₂`, `R₃` denotan rotaciones con ángulo positivo alrededor de los ejes 1, 2 y 3 | PDF leído el 2026-11-05 (la forma explícita de la matriz no está ahí; se usa la de S1) |
 
-Límites: la clase usa solo el ángulo ε constante; no aplica precisión, nutación ni la época. No se consultó la definición explícita de `R₁`, `R₂` y `R₃` de la IERS; la forma de las matrices sale de S1 y se comprueba numéricamente en el laboratorio.
+Límites: La documentación de columnas del archivo (leída el 2026-11-05) define `ra` y `dec` como ascensión recta y declinación del sistema planetario en grados decimales, y `sy_dist` y `sy_plx` como distancia en pc y paralaje en mas; **no indica marco de referencia (ICRS, J2000…) ni época, ni el catálogo del que proceden**. La clase no afirma ninguno: usa los valores como direcciones aproximadas, con fines didácticos. La página de columnas leída corresponde a la tabla de sistemas planetarios (PS); la tabla compuesta `pscomppars` comparte esos nombres, pero su propia página de columnas vigente no se localizó (la que abrió está retirada desde 2015 y usa nombres `st_*`), por lo que esa correspondencia no se verificó. La clase usa solo el ángulo ε constante; no aplica precisión, nutación ni la época. No se consultó la definición explícita de `R₁`, `R₂` y `R₃` de la IERS; la forma de las matrices sale de S1 y se comprueba numéricamente en el laboratorio.
 
 ## 12. Cómo ver los resultados
 

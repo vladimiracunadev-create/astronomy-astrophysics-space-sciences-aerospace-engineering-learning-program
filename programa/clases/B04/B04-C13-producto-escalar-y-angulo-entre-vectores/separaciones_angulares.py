@@ -4,7 +4,7 @@
 
 Datos (PUBLICADOS; estimados): NASA Exoplanet Archive, tabla pscomppars, columnas
 ra y dec (grados decimales), consulta TAP del 2026-11-05 (archivo mutable; marco y
-época no verificados, tratados como ICRS aproximado, solo con fines didácticos):
+época no declarados por la documentación del archivo; solo con fines didácticos):
 Proxima Cen (217,3934657; -62,6761821), tau Cet (26,0093029; -15,9337987),
 eps Eri (53,2284306; -9,4581715), GJ 1061 (54,0032486; -44,5143104),
 Teegarden (43,2691449; 16,8649024). Vectores de prueba: SINTÉTICOS.

@@ -108,16 +108,16 @@ La cadena `ecuatorial → eclíptico → ecuatorial → galáctico` es igual a l
 
 ## 10. Convenciones y referencias
 
-Todos los vectores están referidos al ICRS (ecuatorial). La convención de matrices es la de S1: las columnas de `A` son los ejes del sistema nuevo escritos en el viejo. Los ángulos de longitud van de 0° a 360° y los de latitud, de −90° a +90°. La dirección de Próxima es la de S2, con marco y época no verificados; los ángulos de prueba `(0°, 0°)`, `(90°, 0°)` y `(266,4°; −28,94°)` son **sintéticos**. La matriz eclíptica usa solo ε (sin precesión).
+Las matrices de S1 están definidas respecto del ICRS (ecuatorial); los vectores de la clase se consideran referidos a él por construcción didáctica. La convención de matrices es la de S1: las columnas de `A` son los ejes del sistema nuevo escritos en el viejo. Los ángulos de longitud van de 0° a 360° y los de latitud, de −90° a +90°. La dirección de Próxima es la de S2, cuyo marco y época la documentación del archivo no declara (por tanto, que esté en el ICRS es una hipótesis didáctica, no un dato); los ángulos de prueba `(0°, 0°)`, `(90°, 0°)` y `(266,4°; −28,94°)` son **sintéticos**. La matriz eclíptica usa solo ε (sin precesión).
 
 ## 11. De dónde sale lo que afirmamos
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
 | S1 | ESA, *The Hipparcos and Tycho Catalogues*, SP-1200, vol. 1, § 1.5.3, ec. (1.5.5)–(1.5.11), pp. 91–92 | https://www.cosmos.esa.int/documents/532822/552851/vol1_all.pdf | `α_G = 192,85948°`, `δ_G = +27,12825°` (1.5.9); `l_Ω = 32,93192°` (1.5.10); matriz `A_G` (1.5.11); `ε = 23° 26′ 21,448″` y `A_K` (1.5.7); relación `[x_G y_G z_G] = [x y z] A_G` | PDF leído (texto) el 2026-11-05 |
-| S2 | NASA Exoplanet Archive, consulta TAP (`pscomppars`, `ra`, `dec`) | https://exoplanetarchive.ipac.caltech.edu/TAP | Próxima Cen: `α = 217,3934657°`, `δ = −62,6761821°` | Consulta del 2026-11-05 (mutable; estimado; marco y época no verificados) |
+| S2 | NASA Exoplanet Archive, consulta TAP (`pscomppars`, `ra`, `dec`) | consulta TAP https://exoplanetarchive.ipac.caltech.edu/TAP (tabla `pscomppars`, columnas `ra`, `dec`); documentación de columnas: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html | Próxima Cen: `α = 217,3934657°`, `δ = −62,6761821°` | Consulta del 2026-11-05 (mutable; estimado). Documentación leída el 2026-11-05: `ra` y `dec` son ascensión recta y declinación «en grados decimales»; **no declara marco de referencia ni época** |
 
-Límites: no se consultó ninguna cifra publicada de las coordenadas galácticas de Próxima ni del centro galáctico; `l = 313,93°`, `b = −1,92°` y `(266,405°; −28,936°)` son cálculos propios con las matrices de S1. S1 afirma que estas constantes son consistentes con la definición de 1960 «al nivel» de la calidad de los marcos ópticos previos; la clase no lo contrasta. No se tratan la precesión ni el cambio de época.
+Límites: La documentación de columnas del archivo (leída el 2026-11-05) define `ra` y `dec` como ascensión recta y declinación del sistema planetario en grados decimales, y `sy_dist` y `sy_plx` como distancia en pc y paralaje en mas; **no indica marco de referencia (ICRS, J2000…) ni época, ni el catálogo del que proceden**. La clase no afirma ninguno: usa los valores como direcciones aproximadas, con fines didácticos. La página de columnas leída corresponde a la tabla de sistemas planetarios (PS); la tabla compuesta `pscomppars` comparte esos nombres, pero su propia página de columnas vigente no se localizó (la que abrió está retirada desde 2015 y usa nombres `st_*`), por lo que esa correspondencia no se verificó. No se consultó ninguna cifra publicada de las coordenadas galácticas de Próxima ni del centro galáctico; `l = 313,93°`, `b = −1,92°` y `(266,405°; −28,936°)` son cálculos propios con las matrices de S1. S1 afirma que estas constantes son consistentes con la definición de 1960 «al nivel» de la calidad de los marcos ópticos previos; la clase no lo contrasta. No se tratan la precesión ni el cambio de época.
 
 ## 12. Cómo ver los resultados
 
@@ -143,7 +143,7 @@ Datos: `v_eq = (−0,36468; −0,27876; −0,88843)` (C11), `ε = 23,4392911°` 
 
 **Paso 4 · Ángulos.** `l = atan2(−0,71983; 0,69334) = −46,07° + 360° = 313,93°`; `b = atan2(−0,03347; 0,99944) = −1,92°`. Comprobación de norma: `0,48072 + 0,51816 + 0,00112 = 1,00000` ✓.
 
-**Paso 5 · Vuelta y límite.** `A_G v_G` devuelve `v_eq` a `10⁻⁶` (la matriz tiene 10 decimales). Resultado con 4 cifras: `l = 313,93°`, `b = −1,92°`. Depende de que `(α, δ)` esté en el marco ICRS (no verificado) y no incluye movimiento propio.
+**Paso 5 · Vuelta y límite.** `A_G v_G` devuelve `v_eq` a `10⁻⁶` (la matriz tiene 10 decimales). Resultado con 4 cifras: `l = 313,93°`, `b = −1,92°`. Depende de que `(α, δ)` esté en el marco ICRS (hipótesis didáctica: la documentación del archivo no declara el marco) y no incluye movimiento propio.
 
 ## 14. Distintas formas de transformar
 
@@ -281,7 +281,7 @@ El producto es tu **cadena de transformaciones con pruebas** (ejercicio 12).
 | Matrices | Sin convención | Convención parcial | Convención de S1 y traspuesta correcta | Construye la matriz desde el polo |
 | Pruebas | Solo ida y vuelta | Una prueba de casos conocidos | Polo, nodo e ida y vuelta | Prueba la cadena frente a la directa |
 | Precisión | Ignora el redondeo | Lo menciona | Usa `atan2` y declara tolerancia | Cuantifica el efecto de una matriz truncada |
-| Marco | Sin declarar | Parcial | ICRS y época declarados como no verificados | Explica qué faltaría (precesión) |
+| Marco | Sin declarar | Parcial | ICRS (hipótesis) y época declarados como no declarados por la fuente | Explica qué faltaría (precesión) |
 | Fuentes | Sin fuente | Sin fecha | Con localizador y fecha | Marca cálculo propio frente a publicado |
 
 **Condiciones críticas (no se compensan con promedio):** declarar marco y convención de matrices; probar con casos conocidos además de la ida y vuelta; citar solo fuentes consultadas.

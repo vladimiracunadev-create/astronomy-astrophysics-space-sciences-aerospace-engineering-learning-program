@@ -5,7 +5,7 @@
 Datos (PUBLICADOS): ESA, Hipparcos Catalogue SP-1200, vol. 1, ec. (1.5.7): para
 ε = 23°26′21,448″ = 23,4392911°, cos ε = +0,9174820621 y sen ε = +0,3977771559 (matriz
 A_K, equatorial → eclíptico); IERS Conventions 2010 (TN36): ε0 = 84381,406″ (IAU 2006).
-Dirección de Próxima Cen (NASA Exoplanet Archive, 2026-11-05; marco y época no verificados):
+Dirección de Próxima Cen (NASA Exoplanet Archive, 2026-11-05; marco y época no declarados por la documentación del archivo):
 α = 217,3934657°, δ = −62,6761821°. Ángulos de otras pruebas: SINTÉTICOS.
 Modelo: rotación de ejes (pasiva) alrededor del eje x por el ángulo ε: las componentes
 eclípticas son v_ecl = R_x(ε) v_eq con R_x(ε) = [[1,0,0],[0,cos ε, sen ε],[0,-sen ε, cos ε]].

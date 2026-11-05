@@ -6,7 +6,7 @@ Datos (PUBLICADOS): ESA, Hipparcos Catalogue SP-1200, vol. 1, § 1.5.3: polo nor
 (ICRS) α_G = 192,85948°, δ_G = +27,12825° (ec. 1.5.9); longitud galáctica del nodo
 ascendente del plano galáctico sobre el ecuador l_Ω = 32,93192° (ec. 1.5.10); matriz
 A_G a 10 decimales (ec. 1.5.11); ε = 23°26′21,448″ (ec. 1.5.7). Dirección de Próxima Cen:
-NASA Exoplanet Archive (2026-11-05; ra, dec; marco y época no verificados).
+NASA Exoplanet Archive (2026-11-05; ra, dec; marco y época no declarados por la documentación del archivo; su uso como ICRS es una hipótesis didáctica).
 Modelo: [x_G y_G z_G] = [x y z] A_G (S1): las componentes galácticas son A_Gᵀ · v_ecuatorial;
 las eclípticas, R_x(ε) · v_ecuatorial. Supuestos: matrices constantes (sin precesión, sin
 movimiento propio). Validez: direcciones respecto del ICRS. Tolerancia de las pruebas:

@@ -109,7 +109,6 @@ La variable independiente va en el eje horizontal y la dependiente en el vertica
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
 | S1 | NASA NSSDC, *Planetary Fact Sheet – Metric* (actualizada 2025-03-18) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/ | Distancia al Sol y periodo orbital de Venus (108,2; 224,7), Tierra (149,6; 365,2), Marte (228,0; 687,0), Júpiter (778,5; 4331) | Consultada el 2026-11-05; datos estimados |
-| S2 | Laboratorio de esta clase | `funciones_y_kepler.py` | Cociente `P/a^1,5`, inversa y pendiente log-log | Ejecución del 2026-11-05 |
 
 Límites: la fuente lista «Distance from Sun»; aquí se usa como distancia media (semieje mayor), lo que debe confirmar la revisión disciplinar. La ley `P ∝ a^(3/2)` no se demuestra en esta clase. En la consulta, la columna «Mean radius» de la tabla resumida no coincidía con el radio medio habitual de la Tierra; por eso la clase no usa esa columna.
 
@@ -234,7 +233,7 @@ Ficha completa: fuente con fecha, tabla de datos con unidades, función con cons
 
 ## 17. Laboratorio: la función periodo(distancia)
 
-El script [funciones_y_kepler.py](funciones_y_kepler.py) calcula `k` con la Tierra, la compara con los otros tres planetas y dibuja una gráfica de texto. Antes comprueba: que la inversa deshaga la función, que cuadruplicar `a` multiplique `P` por 8, que la función sea creciente, que `f(0) = 0` y que los datos coincidan con el modelo dentro del 2 %.
+El script [funciones_y_kepler.py](funciones_y_kepler.py) calcula `k` con la Tierra, la compara con los otros tres planetas y dibuja una gráfica de texto. Sus resultados son un **cálculo propio** con los datos de S1, no una fuente: por eso no figura en la tabla de la sección 11. Antes comprueba: que la inversa deshaga la función, que cuadruplicar `a` multiplique `P` por 8, que la función sea creciente, que `f(0) = 0` y que los datos coincidan con el modelo dentro del 2 %.
 
 **Datos:** publicados (estimados). **Predice antes de ejecutar:** ¿cuál será la mayor diferencia porcentual? (Pequeña, del orden de 0,1 %, en Júpiter.) **Ejecución del 2026-11-05 (Python 3.12.9):**
 

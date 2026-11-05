@@ -45,7 +45,7 @@ Con cuatro o cinco aciertos, sigue; si no, repasa C06 y C10.
 
 ## 5. Un caso real: dónde apuntar para ver Próxima Centauri
 
-El NASA Exoplanet Archive lista para Próxima Centauri una ascensión recta `α = 217,3934657°` y una declinación `δ = −62,6761821°` (S1; datos estimados, archivo mutable). Eso equivale a `α = 14 h 29 min 34,4 s` y `δ = −62° 40′ 34,3″`: una estrella del cielo austral. Convertida en vector unitario da `(−0,3647; −0,2788; −0,8884)`. El tercer componente, grande y negativo, dice que la estrella está cerca del polo sur celeste: es lo que se espera de `δ = −62,7°`. Las otras cuatro estrellas del laboratorio muestran otras direcciones: tau Ceti y eps Eridani cerca del ecuador celeste, GJ 1061 al sur, Teegarden's Star al norte. Esa tabla de vectores es la entrada de la clase siguiente. El marco de referencia y la época exactos de estas coordenadas no se verificaron en la consulta; se tratan como un ICRS aproximado, con fines didácticos.
+El NASA Exoplanet Archive lista para Próxima Centauri una ascensión recta `α = 217,3934657°` y una declinación `δ = −62,6761821°` (S1; datos estimados, archivo mutable). Eso equivale a `α = 14 h 29 min 34,4 s` y `δ = −62° 40′ 34,3″`: una estrella del cielo austral. Convertida en vector unitario da `(−0,3647; −0,2788; −0,8884)`. El tercer componente, grande y negativo, dice que la estrella está cerca del polo sur celeste: es lo que se espera de `δ = −62,7°`. Las otras cuatro estrellas del laboratorio muestran otras direcciones: tau Ceti y eps Eridani cerca del ecuador celeste, GJ 1061 al sur, Teegarden's Star al norte. Esa tabla de vectores es la entrada de la clase siguiente. La documentación del archivo no declara el marco de referencia ni la época de estas coordenadas; la clase no los afirma y las trata como direcciones aproximadas, con fines didácticos.
 
 ## 6. Vocabulario
 
@@ -102,16 +102,16 @@ Las coordenadas dependen del marco de referencia (hacia dónde apunta el eje `x`
 
 ## 10. Convenciones y referencias
 
-`x` hacia `(0°, 0°)`, `y` hacia `(90°, 0°)`, `z` hacia `δ = +90°` (S2). `α` crece en sentido antihorario vista desde el polo norte celeste (hacia el este). `δ` positivo al norte. Las posiciones de la clase son **estimadas** y corresponden al archivo consultado el 2026-11-05; el marco (ICRS aproximado) y la época no se verificaron en esa consulta. Los dos ángulos de «latitud −24,6° y longitud −70,4°» del laboratorio son **sintéticos** y se usan solo para mostrar que las mismas fórmulas valen para cualquier esfera.
+`x` hacia `(0°, 0°)`, `y` hacia `(90°, 0°)`, `z` hacia `δ = +90°` (S2). `α` crece en sentido antihorario vista desde el polo norte celeste (hacia el este). `δ` positivo al norte. Las posiciones de la clase son **estimadas** y corresponden al archivo consultado el 2026-11-05; la documentación del archivo no declara el marco ni la época de `ra` y `dec` (sección 11), de modo que no se afirman. Los dos ángulos de «latitud −24,6° y longitud −70,4°» del laboratorio son **sintéticos** y se usan solo para mostrar que las mismas fórmulas valen para cualquier esfera.
 
 ## 11. De dónde sale lo que afirmamos
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
-| S1 | NASA Exoplanet Archive, consulta TAP (tabla `pscomppars`, columnas `ra`, `dec`) | https://exoplanetarchive.ipac.caltech.edu/TAP | Coordenadas de Próxima Cen (217,3934657; −62,6761821), tau Cet (26,0093029; −15,9337987), eps Eri (53,2284306; −9,4581715), GJ 1061 (54,0032486; −44,5143104) y Teegarden's Star (43,2691449; 16,8649024), en grados | Consulta del 2026-11-05 (archivo mutable; estimado; marco y época no verificados) |
+| S1 | NASA Exoplanet Archive, consulta TAP (tabla `pscomppars`, columnas `ra`, `dec`) | consulta TAP https://exoplanetarchive.ipac.caltech.edu/TAP (tabla `pscomppars`, columnas `ra`, `dec`); documentación de columnas: https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html | Coordenadas de Próxima Cen (217,3934657; −62,6761821), tau Cet (26,0093029; −15,9337987), eps Eri (53,2284306; −9,4581715), GJ 1061 (54,0032486; −44,5143104) y Teegarden's Star (43,2691449; 16,8649024), en grados | Consulta del 2026-11-05 (mutable; estimado). Documentación leída el 2026-11-05: `ra` y `dec` son ascensión recta y declinación «en grados decimales»; **no declara marco de referencia ni época** |
 | S2 | ESA, *The Hipparcos and Tycho Catalogues*, SP-1200, vol. 1, § 1.5.3 (ec. 1.5.5) | https://www.cosmos.esa.int/documents/532822/552851/vol1_all.pdf, p. 91 | Vectores base: `x` hacia `(α, δ) = (0, 0)`, `y` hacia `(+90°, 0)`, `z` hacia `δ = +90°`; `u = (cos δ cos α, cos δ sen α, sen δ)` | PDF leído (texto) el 2026-11-05 |
 
-Límites: no se consultó la documentación del archivo para saber a qué catálogo, marco y época pertenecen `ra` y `dec`; la clase usa los valores como direcciones aproximadas. La afirmación sobre el movimiento propio es cualitativa y no se cuantifica con datos consultados.
+Límites: La documentación de columnas del archivo (leída el 2026-11-05) define `ra` y `dec` como ascensión recta y declinación del sistema planetario en grados decimales, y `sy_dist` y `sy_plx` como distancia en pc y paralaje en mas; **no indica marco de referencia (ICRS, J2000…) ni época, ni el catálogo del que proceden**. La clase no afirma ninguno: usa los valores como direcciones aproximadas, con fines didácticos. La página de columnas leída corresponde a la tabla de sistemas planetarios (PS); la tabla compuesta `pscomppars` comparte esos nombres, pero su propia página de columnas vigente no se localizó (la que abrió está retirada desde 2015 y usa nombres `st_*`), por lo que esa correspondencia no se verificó. La afirmación sobre el movimiento propio es cualitativa y no se cuantifica con datos consultados.
 
 ## 12. Cómo ver las direcciones
 
@@ -248,7 +248,7 @@ Teegarden       43.2691   2h53m04.59s   16.8649   16°51′53.6″   0.6968   0.
 python programa/clases/B04/B04-C11-coordenadas-esfericas/direcciones_esfericas.py
 ```
 
-**Límites:** solo direcciones (sin distancia ni movimiento propio); marco y época no verificados; no es una herramienta de apuntado.
+**Límites:** solo direcciones (sin distancia ni movimiento propio); marco y época de las posiciones del archivo no declarados por su documentación; no es una herramienta de apuntado.
 
 ## 18. Errores frecuentes y cómo corregirlos
 

@@ -6,7 +6,7 @@ Datos (PUBLICADOS): USGS, Snyder, Map Projections - A Working Manual (PP 1395, 1
 ecuaciones (5-3), (5-3a) y (5-4b) para la distancia de círculo máximo y el acimut;
 radios nominales de la Tierra de IAU 2015 B3: R_e = 6,3781e6 m, R_p = 6,3568e6 m. Radio
 medio de la esfera de la clase: (2 R_e + R_p)/3 (cálculo propio). Estrellas: NASA Exoplanet
-Archive (2026-11-05; ra y dec, marco y época no verificados). Puntos terrestres: SINTÉTICOS.
+Archive (2026-11-05; ra y dec, marco y época no declarados por la documentación del archivo). Puntos terrestres: SINTÉTICOS.
 Modelo: esfera de radio R; longitud λ hacia el este y latitud φ al norte.
 Supuestos: Tierra esférica (error de forma hasta ~0,3 % en distancias); sin relieve.
 Validez: toda la esfera con (5-3a); (5-3) pierde cifras para c pequeño.
