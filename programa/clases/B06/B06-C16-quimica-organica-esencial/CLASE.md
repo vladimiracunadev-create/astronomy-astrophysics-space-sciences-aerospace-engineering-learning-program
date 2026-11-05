@@ -1,7 +1,7 @@
 # B06-C16 — Química orgánica esencial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C15 — Ácidos, bases y soluciones](../B06-C15-acidos-bases-y-soluciones/CLASE.md) · [Siguiente: B06-C17 — Espectros atómicos y moleculares →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C15 — Ácidos, bases y soluciones](../B06-C15-acidos-bases-y-soluciones/CLASE.md) · [Siguiente: B06-C17 — Espectros atómicos y moleculares →](../B06-C17-espectros-atomicos-y-moleculares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ El carbono, con cuatro enlaces, forma cadenas, anillos y grupos funcionales; la 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B06-C15 — Ácidos, bases y soluciones](../B06-C15-acidos-bases-y-soluciones/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C17 — Espectros atómicos y moleculares →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c17)
+[← Anterior: B06-C15 — Ácidos, bases y soluciones](../B06-C15-acidos-bases-y-soluciones/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C17 — Espectros atómicos y moleculares →](../B06-C17-espectros-atomicos-y-moleculares/CLASE.md)
 <!-- /nav -->

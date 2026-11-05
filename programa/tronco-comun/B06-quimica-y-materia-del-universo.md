@@ -3,7 +3,7 @@
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A01 — Alfabetización científica, astronómica y tecnológica
 **Nivel:** N1 (fundamentos) · **Clases:** 20 · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; el resto son resúmenes de especificación. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 20 clases están redactadas y enlazadas en la tabla, cada una con su laboratorio de cálculo y su ficha editorial. Todas conservan el estado E0 en el catálogo y están pendientes de revisión disciplinar y del autor.
 
 ## 🎯 Propósito del bloque
 
@@ -36,9 +36,9 @@ flowchart LR
 
 ## 🗂️ Las 20 clases en resumen
 
-**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga en E0, su enlace lleva a su fila en esta tabla.
+**Navegación:** cada clase enlaza a la anterior, a la siguiente y a este bloque.
 
-Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje.
+Los resúmenes describen lo que cada clase enseña (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje.
 
 ### Tramo 1 · Estructura de la materia
 
@@ -80,10 +80,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b06-c17"></a>B06-C17 | Espectros atómicos y moleculares | Series de Rydberg, identificación de líneas, corrimiento Doppler y bandas moleculares. | Identificación de líneas en un espectro |
-| <a id="b06-c18"></a>B06-C18 | Fotoquímica y radiación | Energía del fotón, umbrales de ionización y de ruptura de enlaces y seguridad con radiación. | Tabla fotón–umbral con medidas de seguridad |
-| <a id="b06-c19"></a>B06-C19 | Química de hielos y minerales | Hielos de agua, CO₂ y amoníaco; silicatos; el papel de los hielos en las nubes y en los asteroides. | Ficha de un hielo o mineral |
-| <a id="b06-c20"></a>B06-C20 | Análisis químico introductorio de meteoritos | Comparar el Sol con los meteoritos, composición de Bennu y buenas prácticas de muestras. | Informe de comparación Sol–meteorito |
+| <a id="b06-c17"></a>[B06-C17](../clases/B06/B06-C17-espectros-atomicos-y-moleculares/CLASE.md) | Espectros atómicos y moleculares | Series de Rydberg, identificación de líneas, corrimiento Doppler y bandas moleculares. | Identificación de líneas en un espectro |
+| <a id="b06-c18"></a>[B06-C18](../clases/B06/B06-C18-fotoquimica-y-radiacion/CLASE.md) | Fotoquímica y radiación | Energía del fotón, umbrales de ionización y de ruptura de enlaces y seguridad con radiación. | Tabla fotón–umbral con medidas de seguridad |
+| <a id="b06-c19"></a>[B06-C19](../clases/B06/B06-C19-quimica-de-hielos-y-minerales/CLASE.md) | Química de hielos y minerales | Hielos de agua, CO₂ y amoníaco; silicatos; el papel de los hielos en las nubes y en los asteroides. | Ficha de un hielo o mineral |
+| <a id="b06-c20"></a>[B06-C20](../clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md) | Análisis químico introductorio de meteoritos | Comparar el Sol con los meteoritos, composición de Bennu y buenas prácticas de muestras. | Informe de comparación Sol–meteorito |
 
 ## 🧵 Hilos que atraviesan el bloque
 
@@ -109,7 +109,7 @@ El bloque es teórico y de cálculo: ninguna clase exige reactivos. Si algún do
 - **[ESO]** [European Southern Observatory](https://www.eso.org/) — Observatorios ópticos, instrumentación y astronomía profesional.
 - **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
 
-**Fuentes realmente consultadas hasta ahora (2026-11-05)**, citadas en la sección 11 de cada clase: NIST CODATA 2022; NIST Atomic Weights and Isotopic Compositions; NIST Atomic Spectra Database v5.12; NIST Chemistry WebBook; NIST CCCBDB (agua); BIPM, *SI Brochure*, 9.ª ed.; Asplund et al. (2009); Glavin et al. (2025); McClure et al. (2023, resumen); fichas de datos de la NASA NSSDC (Tierra, Marte, Venus, Sol) y nota de prensa de la NASA sobre Bennu (2 dic. 2025).
+**Fuentes realmente consultadas (2026-11-05)**, citadas con localizador y estado en la sección 11 de cada clase: NIST, *CODATA Recommended Values* (2022); NIST, *Atomic Weights and Isotopic Compositions*; NIST, *Atomic Spectra Database* v5.12 (líneas y energías de ionización); NIST Chemistry WebBook (agua, CO₂, CH₄); NIST CCCBDB (geometría del agua); BIPM, *The International System of Units (SI)*, 9.ª ed.; Asplund, Grevesse, Sauval y Scott (2009), PDF; Glavin et al. (2025), PDF en NASA NTRS; McClure et al. (2023), **sólo resumen**; fichas de datos de la NASA NSSDC (Tierra, Marte, Venus, Sol); nota de prensa de la NASA sobre Bennu (2 dic. 2025), **no** los artículos originales. No se pudo abrir la IUPAC Gold Book (acceso denegado), por lo que no se cita; no se consultó ninguna fuente de organismos reguladores de seguridad radiológica. Cifras sin fuente propia (por ejemplo `K_w` o los parámetros de van der Waals) se rotulan como valores de trabajo o sintéticos en cada clase.
 
 > La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
 

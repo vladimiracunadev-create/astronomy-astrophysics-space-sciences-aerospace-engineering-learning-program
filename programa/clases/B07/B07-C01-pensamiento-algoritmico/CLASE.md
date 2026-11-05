@@ -1,7 +1,7 @@
 # B07-C01 — Pensamiento algorítmico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B06-C20 — Análisis químico introductorio de meteoritos](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c20) · [Siguiente: B07-C02 — Tipos de datos y variables →](../B07-C02-tipos-de-datos-y-variables/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B06-C20 — Análisis químico introductorio de meteoritos](../../B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md) · [Siguiente: B07-C02 — Tipos de datos y variables →](../B07-C02-tipos-de-datos-y-variables/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -326,5 +326,5 @@ Un algoritmo es una secuencia finita y no ambigua de pasos que transforma una en
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B06-C20 — Análisis químico introductorio de meteoritos](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c20) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C02 — Tipos de datos y variables →](../B07-C02-tipos-de-datos-y-variables/CLASE.md)
+[← Anterior: B06-C20 — Análisis químico introductorio de meteoritos](../../B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C02 — Tipos de datos y variables →](../B07-C02-tipos-de-datos-y-variables/CLASE.md)
 <!-- /nav -->
