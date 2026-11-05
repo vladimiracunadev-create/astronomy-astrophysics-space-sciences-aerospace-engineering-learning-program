@@ -35,7 +35,7 @@
 - exactitud científica de las futuras clases;
 - lectura completa, vigencia o conformidad de las fuentes preliminares;
 - prerrequisitos clase por clase;
-- ejercicios, soluciones, laboratorios o simulaciones de las clases aún no redactadas (las 160 de `programa/clases/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa; 144 de 146 scripts de laboratorio se ejecutaron sin error el 2026-11-05 en un equipo sin `astropy` (los otros 2 requieren esa biblioteca o comparan versiones declaradas); 5 clases de B02 citan fuentes enciclopédicas rotuladas como secundarias);
+- ejercicios, soluciones, laboratorios o simulaciones de las clases aún no redactadas (las 160 de `programa/clases/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa; 144 de 146 scripts de laboratorio se ejecutaron sin error el 2026-11-05 en un equipo sin `astropy` (los otros 2 requieren esa biblioteca o comparan versiones declaradas); las fuentes enciclopédicas y divulgativas de B02, B04 y B08 se reemplazaron o se rotularon (quedan secundarias o divulgativas, por ejemplo en B02-C17, y una fuente académica pendiente sobre el calendario mapuche en B02-C01));
 - accesibilidad de contenidos todavía inexistentes;
 - equivalencias de horas, créditos, títulos o certificaciones;
 - revisión disciplinar externa o pilotaje con estudiantes.
