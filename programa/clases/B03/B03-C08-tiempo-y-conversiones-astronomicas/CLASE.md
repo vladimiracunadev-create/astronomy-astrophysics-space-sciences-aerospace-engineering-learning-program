@@ -1,7 +1,7 @@
 # B03-C08 — Tiempo y conversiones astronómicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C07 — Conversión de distancia y velocidad](../B03-C07-conversion-de-distancia-y-velocidad/CLASE.md) · [Siguiente: B03-C09 — Operaciones con números negativos →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C07 — Conversión de distancia y velocidad](../B03-C07-conversion-de-distancia-y-velocidad/CLASE.md) · [Siguiente: B03-C09 — Operaciones con números negativos →](../B03-C09-operaciones-con-numeros-negativos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ El tiempo y los ángulos se convierten con equivalencias exactas y base 60; conv
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B03-C07 — Conversión de distancia y velocidad](../B03-C07-conversion-de-distancia-y-velocidad/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C09 — Operaciones con números negativos →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c09)
+[← Anterior: B03-C07 — Conversión de distancia y velocidad](../B03-C07-conversion-de-distancia-y-velocidad/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C09 — Operaciones con números negativos →](../B03-C09-operaciones-con-numeros-negativos/CLASE.md)
 <!-- /nav -->

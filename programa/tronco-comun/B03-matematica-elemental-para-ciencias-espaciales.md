@@ -60,10 +60,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b03-c09"></a>B03-C09 | Operaciones con números negativos | Signos, valor absoluto y convenciones: cuenta regresiva, tiempo de luz y energía ligada. | Registro de signos y convenciones |
-| <a id="b03-c10"></a>B03-C10 | Proporcionalidad directa e inversa | Constante de proporcionalidad, ley del inverso del cuadrado y comprobación de relaciones. | Cuaderno de proporcionalidades |
-| <a id="b03-c11"></a>B03-C11 | Estimación y redondeo responsable | Cifras significativas, estimación de Fermi, cotas y cuándo redondear. | Informe de estimación con cotas |
-| <a id="b03-c12"></a>B03-C12 | Variables y constantes científicas | Variables, parámetros, constantes exactas y medidas; G y GM. | Glosario de variables y constantes |
+| <a id="b03-c09"></a>[B03-C09](../clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md) | Operaciones con números negativos | Signos, valor absoluto y convenciones: cuenta regresiva, tiempo de luz y energía ligada. | Registro de signos y convenciones |
+| <a id="b03-c10"></a>[B03-C10](../clases/B03/B03-C10-proporcionalidad-directa-e-inversa/CLASE.md) | Proporcionalidad directa e inversa | Constante de proporcionalidad, ley del inverso del cuadrado y comprobación de relaciones. | Cuaderno de proporcionalidades |
+| <a id="b03-c11"></a>[B03-C11](../clases/B03/B03-C11-estimacion-y-redondeo-responsable/CLASE.md) | Estimación y redondeo responsable | Cifras significativas, estimación de Fermi, cotas y cuándo redondear. | Informe de estimación con cotas |
+| <a id="b03-c12"></a>[B03-C12](../clases/B03/B03-C12-variables-y-constantes-cientificas/CLASE.md) | Variables y constantes científicas | Variables, parámetros, constantes exactas y medidas; G y GM. | Glosario de variables y constantes |
 | <a id="b03-c13"></a>B03-C13 | Expresiones algebraicas iniciales | Traducir enunciados a expresiones, evaluar, simplificar y factorizar. | Ficha de expresiones |
 | <a id="b03-c14"></a>B03-C14 | Despeje de ecuaciones elementales | Operaciones inversas, despejar una variable de una fórmula y verificarla por sustitución. | Hoja de despejes verificados |
 
