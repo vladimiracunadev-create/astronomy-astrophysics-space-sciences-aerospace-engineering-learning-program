@@ -1,5 +1,376 @@
 {
   "ruta_id": "R16",
-  "estado": "pendiente",
-  "rol": "Observación terrestre y geointeligencia científica"
+  "estado": "definido",
+  "rol": "Analista de observación terrestre y geointeligencia científica",
+  "resumen": "Convierte imágenes y mediciones de satélites de observación en información fiable: calibra, corrige, clasifica y valida productos, y diseña los servicios de datos que los entregan a un usuario.",
+  "decide": "Qué sensor, qué corrección, qué método y qué incertidumbre permiten responder la pregunta del usuario con datos de observación, y cuándo el resultado no es suficientemente fiable para decidir.",
+  "entrega": "Productos de datos con metadatos y trazabilidad, informes de calidad y de incertidumbre, mapas reproducibles, servicios y catálogos de datos, y la propuesta técnica de un servicio de observación.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Unidades, incertidumbre y fuentes",
+      "clases": [
+        "B01-C04",
+        "B01-C08",
+        "B01-C16",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Reportar una medición de teledetección con unidad, resolución, incertidumbre y fuente.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática, coordenadas y proyecciones",
+      "clases": [
+        "B03-C05..C08",
+        "B03-C13..C16",
+        "B04-C06..C08",
+        "B04-C10..C17"
+      ],
+      "capacidad": "Pasar entre sistemas de coordenadas y proyecciones y calcular distancias y áreas sobre la esfera.",
+      "omitible_si": "aprueba el diagnóstico de matemática"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Física de la radiación y la luz",
+      "clases": [
+        "B05-C13",
+        "B05-C15..C19",
+        "B06-C17..C18"
+      ],
+      "capacidad": "Describir cómo la radiación electromagnética interactúa con la superficie y la atmósfera.",
+      "omitible_si": "aprueba el diagnóstico de física"
+    },
+    {
+      "orden": 4,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Programación y datos",
+      "clases": [
+        "B07-C05..C17",
+        "B07-C19"
+      ],
+      "capacidad": "Escribir y probar código que lea, transforme y grafique datos de imágenes y tablas.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 5,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Álgebra lineal para imágenes",
+      "clases": [
+        "B10-C01..C08",
+        "B10-C10..C11",
+        "B10-C16"
+      ],
+      "capacidad": "Aplicar autovalores y descomposiciones a la reducción de dimensión y a la corrección geométrica de imágenes.",
+      "nota": "Sin tensores ni cuaterniones."
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Estadística, regresión e incertidumbre",
+      "clases": [
+        "B12-C01..C11",
+        "B12-C16..C19",
+        "B13-C03..C05",
+        "B13-C11..C13",
+        "B13-C17..C20"
+      ],
+      "capacidad": "Estimar parámetros con intervalo de confianza, detectar valores atípicos y construir un presupuesto de incertidumbre radiométrica.",
+      "omitible_si": "aprueba el diagnóstico de estadística",
+      "nota": "B13-C17 (calibración radiométrica) es la base de R16-M05."
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Computación científica y ciencia abierta",
+      "clases": [
+        "B14-C02..C09",
+        "B14-C11..C19"
+      ],
+      "capacidad": "Procesar tablas y matrices grandes de forma reproducible, con datos versionados y entornos fijados.",
+      "nota": "Se omiten C01 (arquitectura de software científico) y C10 (pruebas de regresión numérica); conviene añadir C10 si el rol mantiene cadenas de procesado en producción."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Señales, imágenes y estimación",
+      "clases": [
+        "B15-C01..C16"
+      ],
+      "capacidad": "Filtrar, segmentar, alinear y ajustar modelos a imágenes y series temporales.",
+      "nota": "Se omiten C17 a C20 (filtros recursivos y seguimiento); no son núcleo de teledetección."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Detectores y calibración de imágenes",
+      "clases": [
+        "B28-C01..C07",
+        "B28-C11..C15",
+        "B28-C17..C20"
+      ],
+      "capacidad": "Entender el origen del ruido de un detector y calibrar una imagen (bias, dark, flat).",
+      "nota": "Origen astronómico; es la misma física que el sensor de un satélite de observación. R16-M05 lo extiende a la calibración absoluta."
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Fotometría y espectroscopía",
+      "clases": [
+        "B29-C01..C03",
+        "B29-C08..C09",
+        "B29-C13",
+        "B29-C19"
+      ],
+      "capacidad": "Convertir cuentas a unidades físicas y relacionar el espectro con la composición.",
+      "nota": "Solapa con R16-M05 (radiancia y reflectancia); aquí la formación del concepto, allá su calibración absoluta."
+    },
+    {
+      "orden": 11,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Instrumentos en órbita",
+      "clases": [
+        "B31-C02..C04",
+        "B31-C10",
+        "B31-C14..C16",
+        "B31-C18"
+      ],
+      "capacidad": "Relacionar los requisitos de un instrumento orbital con su apuntamiento, calibración a bordo y descarga de datos.",
+      "nota": "Los ejemplos son astronómicos; R16-M01 los aplica a observar la Tierra."
+    },
+    {
+      "orden": 12,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Órbitas de observación",
+      "clases": [
+        "B41-C01..C08",
+        "B41-C16",
+        "B42-C02..C04",
+        "B42-C13"
+      ],
+      "capacidad": "Elegir una órbita heliosincrónica o inclinada que dé la revisita y la iluminación pedidas.",
+      "nota": "Se omite la mecánica de maniobras; R16-M01-C13 (órbita y revisita) lo aplica a una misión de observación."
+    },
+    {
+      "orden": 13,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Observación terrestre y geociencias orbitales",
+      "clases": [
+        "B38-C01..C20"
+      ],
+      "capacidad": "Describir qué mide cada tipo de sensor, qué responde y cuáles son sus límites de resolución.",
+      "nota": "Es el eje temático del rol. R16-M01 a R16-M04 lo profundizan."
+    },
+    {
+      "orden": 14,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Atmósfera y propagación",
+      "clases": [
+        "B35-C01..C04",
+        "B35-C08..C09",
+        "B35-C12",
+        "B35-C18"
+      ],
+      "capacidad": "Entender cómo la atmósfera modifica la señal que llega al sensor.",
+      "nota": "Atmósferas planetarias; la terrestre es el caso de partida de R16-M02-C03 (corrección atmosférica)."
+    },
+    {
+      "orden": 15,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Geodesia y topografía",
+      "clases": [
+        "B34-C03..C04",
+        "B34-C07",
+        "B34-C18..C19"
+      ],
+      "capacidad": "Relacionar geoide, elipsoide y modelos de elevación, y declarar la incertidumbre de un mapa.",
+      "nota": "Origen planetario; comparte método con R16-M04 (altimetría)."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Instrumentos orbitales para observación terrestre",
+      "clases": [
+        "R16-M01-C01..C20"
+      ],
+      "capacidad": "Dimensionar un instrumento de observación según resolución, banda y revisita.",
+      "nota": "Profundiza B38-C02 a C04 y C07 a C11 con diseño de carga útil."
+    },
+    {
+      "orden": 17,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Calibración radiométrica de imágenes",
+      "clases": [
+        "R16-M05-C01",
+        "R16-M05-C03",
+        "R16-M05-C05",
+        "R16-M05-C07",
+        "R16-M05-C09",
+        "R16-M05-C11",
+        "R16-M05-C13",
+        "R16-M05-C15",
+        "R16-M05-C17",
+        "R16-M05-C19"
+      ],
+      "capacidad": "Convertir cuentas digitales en radiancia y reflectancia con incertidumbre documentada.",
+      "nota": "Se toma la clase de cada tema y se omite su caso o validación porque B13-C17 y B28-C12 a C14 ya piden ese tipo de evidencia; el informe de calidad (C19) es el producto."
+    },
+    {
+      "orden": 18,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Procesamiento multiespectral",
+      "clases": [
+        "R16-M02-C01..C20"
+      ],
+      "capacidad": "Corregir, clasificar y detectar cambios en imágenes multibanda con incertidumbre reportada.",
+      "nota": "Repite B38-C05 y C06 y B15-C09 a C14; aquí se exige un mapa reproducible con incertidumbre de clasificación."
+    },
+    {
+      "orden": 19,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Radar de apertura sintética",
+      "clases": [
+        "R16-M03-C01..C20"
+      ],
+      "capacidad": "Formar imágenes SAR e interferogramas y medir desplazamiento del terreno.",
+      "nota": "Profundiza B38-C07 y C08."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Altimetría y LiDAR orbital",
+      "clases": [
+        "R16-M04-C01..C10",
+        "R16-M04-C13..C14",
+        "R16-M04-C17..C20"
+      ],
+      "capacidad": "Generar y validar modelos de elevación con puntos de control.",
+      "nota": "Repite B38-C09 y C11; se omiten correcciones atmosféricas (C11, C12) y nubes de puntos (C15, C16) si el rol no procesa LiDAR directamente."
+    },
+    {
+      "orden": 21,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Plataformas de datos geoespaciales",
+      "clases": [
+        "R16-M06-C01..C20"
+      ],
+      "capacidad": "Publicar datos con catálogos, formatos en la nube y servicios estándar.",
+      "nota": "Reutiliza B14-C05 a C07 y C17; añade STAC, GeoTIFF y servicios OGC."
+    },
+    {
+      "orden": 22,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Ingeniería de sistemas de misión de observación",
+      "clases": [
+        "B49-C01..C05",
+        "B49-C07..C11",
+        "B49-C16..C19"
+      ],
+      "capacidad": "Convertir una necesidad de usuario en requisitos, presupuestos y verificación de un servicio de observación.",
+      "nota": "Se omiten revisiones formales (C13 a C15)."
+    },
+    {
+      "orden": 23,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Enlace de datos y operaciones",
+      "clases": [
+        "B55-C01..C04",
+        "B55-C11",
+        "B55-C14",
+        "B55-C17",
+        "B57-C01",
+        "B57-C04",
+        "B57-C16"
+      ],
+      "capacidad": "Estimar el volumen de datos de descarga y las ventanas de contacto de una misión de observación.",
+      "nota": "Comunicaciones espaciales en profundidad: R15."
+    },
+    {
+      "orden": 24,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "IA para monitoreo de desastres",
+      "clases": [
+        "R16-M07-C01..C20"
+      ],
+      "capacidad": "Entrenar, evaluar y comunicar un modelo de detección de eventos con tasa de falsos positivos y ética de alertas.",
+      "nota": "Es el punto de contacto con la inteligencia artificial; no hay aprendizaje automático general en el tronco (ver huecos)."
+    },
+    {
+      "orden": 25,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Derecho, ética y economía del dato espacial",
+      "clases": [
+        "B63-C06..C09",
+        "B63-C13",
+        "B63-C16..C18",
+        "B64-C03..C05",
+        "B64-C10",
+        "B64-C13..C16"
+      ],
+      "capacidad": "Situar un producto de observación en su marco regulatorio, ético y económico.",
+      "nota": "Sin tratar el uso dual y la privacidad de imágenes de alta resolución en profundidad (ver huecos)."
+    },
+    {
+      "orden": 26,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Diseño de servicios satelitales de observación",
+      "clases": [
+        "R16-M08-C01..C20"
+      ],
+      "capacidad": "Diseñar, especificar y proponer un servicio de observación de extremo a extremo.",
+      "nota": "Es el proyecto final del rol; puede cerrarse con B38-C20 (caso de estudio de Chile) y B64-C19."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Aprendizaje automático general, validación y exactitud temática",
+      "motivo": "Sólo hay aprendizaje automático en R08-M06 (redes neuronales informadas por la física, anomalías) y en R16-M07; no hay clases de aprendizaje supervisado general, matriz de confusión, muestreo para validación ni sobreajuste.",
+      "propuesta": "bloque nuevo de aprendizaje automático científico o clases nuevas en B15"
+    },
+    {
+      "tema": "Series temporales de imágenes y cubos de datos",
+      "motivo": "B14-C13 a C18 tratan paralelismo y flujos pero no cubos de datos ni catálogos de series de imágenes; R16-M06-C05 cubre STAC en una clase.",
+      "propuesta": "clases nuevas en B14 o módulo nuevo de R16"
+    },
+    {
+      "tema": "Uso dual, privacidad y regulación de imágenes de alta resolución (geointeligencia)",
+      "motivo": "Sólo existen B63-C13, R16-M08-C15 y R22-M01/M07, que no tratan el análisis de imágenes para fines de seguridad ni el límite ético de su resolución.",
+      "propuesta": "clases nuevas en B63 o módulo nuevo de R16"
+    },
+    {
+      "tema": "Aplicaciones temáticas de producción (agricultura, ciudades, costas, hidrología)",
+      "motivo": "B38 las menciona por fenómeno (sequías, incendios) pero no hay clases de agricultura de precisión, mapeo urbano ni hidrología desde satélite.",
+      "propuesta": "clases nuevas en B38 o módulo nuevo de R16"
+    }
+  ]
 }
