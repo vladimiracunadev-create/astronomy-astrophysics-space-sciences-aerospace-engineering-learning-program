@@ -1,7 +1,7 @@
 # B01-C08 — Mediciones y unidades astronómicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C07 — Hipótesis y predicciones falsables](../B01-C07-hipotesis-y-predicciones-falsables/CLASE.md) · [Siguiente: B01-C09 — Luz como fuente de información →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [← Anterior: B01-C07 — Hipótesis y predicciones falsables](../B01-C07-hipotesis-y-predicciones-falsables/CLASE.md) · [Siguiente: B01-C09 — Luz como fuente de información →](../B01-C09-luz-como-fuente-de-informacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ Las unidades astronómicas son longitudes definidas o convenidas, y se convierte
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B01-C07 — Hipótesis y predicciones falsables](../B01-C07-hipotesis-y-predicciones-falsables/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C09 — Luz como fuente de información →](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c09)
+[← Anterior: B01-C07 — Hipótesis y predicciones falsables](../B01-C07-hipotesis-y-predicciones-falsables/CLASE.md) · [📚 Bloque B01](../../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C09 — Luz como fuente de información →](../B01-C09-luz-como-fuente-de-informacion/CLASE.md)
 <!-- /nav -->

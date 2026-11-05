@@ -54,15 +54,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b01-c06"></a>[B01-C06](../clases/B01/B01-C06-preguntas-investigables-en-astronomia/CLASE.md) | Preguntas investigables en astronomía | Convertir curiosidad en preguntas que pueden responderse con datos accesibles. | Banco de preguntas con criterio de viabilidad |
 | <a id="b01-c07"></a>[B01-C07](../clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md) | Hipótesis y predicciones falsables | Formular una hipótesis, derivar una predicción y decir qué resultado la refutaría. | Hipótesis con predicción y criterio de refutación |
 | <a id="b01-c08"></a>[B01-C08](../clases/B01/B01-C08-mediciones-y-unidades-astronomicas/CLASE.md) | Mediciones y unidades astronómicas | Unidades SI y astronómicas (au, ly, pc); conversión y análisis dimensional. | Hoja de conversiones verificada |
-| <a id="b01-c09"></a>B01-C09 | Luz como fuente de información | Qué información trae la luz: dirección, brillo, color y espectro; límites de lo que revela. | Interpretación de un espectro sencillo |
-| <a id="b01-c10"></a>B01-C10 | Limitaciones de los sentidos humanos | Qué no vemos (rango espectral, brillo, resolución) y por qué se usan instrumentos. | Comparación sentido–instrumento |
+| <a id="b01-c09"></a>[B01-C09](../clases/B01/B01-C09-luz-como-fuente-de-informacion/CLASE.md) | Luz como fuente de información | Qué información trae la luz: dirección, brillo, color y espectro; límites de lo que revela. | Interpretación de un espectro sencillo |
+| <a id="b01-c10"></a>[B01-C10](../clases/B01/B01-C10-limitaciones-de-los-sentidos-humanos/CLASE.md) | Limitaciones de los sentidos humanos | Qué no vemos (rango espectral, brillo, resolución) y por qué se usan instrumentos. | Comparación sentido–instrumento |
 
 ### Tramo 3 · El cielo y sus objetos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b01-c11"></a>B01-C11 | Movimiento aparente del Sol y las estrellas | Rotación terrestre, horizonte, culminación y estaciones desde un lugar concreto. | Registro de trayectorias con fecha y lugar |
-| <a id="b01-c12"></a>B01-C12 | Fases lunares y ciclos celestes | Geometría Sol–Tierra–Luna, fases, eclipses y calendarios como ciclos medibles. | Predicción de una fase y su comprobación |
+| <a id="b01-c11"></a>[B01-C11](../clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md) | Movimiento aparente del Sol y las estrellas | Rotación terrestre, horizonte, culminación y estaciones desde un lugar concreto. | Registro de trayectorias con fecha y lugar |
+| <a id="b01-c12"></a>[B01-C12](../clases/B01/B01-C12-fases-lunares-y-ciclos-celestes/CLASE.md) | Fases lunares y ciclos celestes | Geometría Sol–Tierra–Luna, fases, eclipses y calendarios como ciclos medibles. | Predicción de una fase y su comprobación |
 | <a id="b01-c13"></a>B01-C13 | Sistema solar como sistema físico | Componentes, escalas y leyes que lo organizan; modelo a escala. | Modelo a escala con tabla de datos |
 | <a id="b01-c14"></a>B01-C14 | Estrellas y sus principales propiedades | Brillo, color, temperatura, tamaño y distancia; cómo se relacionan. | Comparación de estrellas con datos publicados |
 | <a id="b01-c15"></a>B01-C15 | Galaxias y agrupaciones cósmicas | Tipos de galaxias, grupos y cúmulos; estructura a gran escala como observación. | Ficha de una galaxia y su entorno |
