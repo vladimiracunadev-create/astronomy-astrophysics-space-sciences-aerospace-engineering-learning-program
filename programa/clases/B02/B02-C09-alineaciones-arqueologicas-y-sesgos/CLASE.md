@@ -1,7 +1,7 @@
 # B02-C09 — Alineaciones arqueológicas y sesgos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C08 — Arqueoastronomía y sus métodos](../B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md) · [Siguiente: B02-C10 — Geocentrismo y heliocentrismo →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c10)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C08 — Arqueoastronomía y sus métodos](../B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md) · [Siguiente: B02-C10 — Geocentrismo y heliocentrismo →](../B02-C10-geocentrismo-y-heliocentrismo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ Con suficientes objetivos, el azar produce alineaciones; la defensa es fijar de 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B02-C08 — Arqueoastronomía y sus métodos](../B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C10 — Geocentrismo y heliocentrismo →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c10)
+[← Anterior: B02-C08 — Arqueoastronomía y sus métodos](../B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C10 — Geocentrismo y heliocentrismo →](../B02-C10-geocentrismo-y-heliocentrismo/CLASE.md)
 <!-- /nav -->
