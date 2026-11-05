@@ -1,7 +1,7 @@
 # B07-C06 — Funciones y modularidad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C05 — Bucles y simulaciones sencillas](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md) · [Siguiente: B07-C07 — Listas y estructuras de datos →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C05 — Bucles y simulaciones sencillas](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md) · [Siguiente: B07-C07 — Listas y estructuras de datos →](../B07-C07-listas-y-estructuras-de-datos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ Una función recibe parámetros, hace un trabajo y devuelve un valor; un módulo
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B07-C05 — Bucles y simulaciones sencillas](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C07 — Listas y estructuras de datos →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c07)
+[← Anterior: B07-C05 — Bucles y simulaciones sencillas](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C07 — Listas y estructuras de datos →](../B07-C07-listas-y-estructuras-de-datos/CLASE.md)
 <!-- /nav -->

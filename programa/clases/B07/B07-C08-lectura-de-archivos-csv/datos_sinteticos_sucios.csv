@@ -1,0 +1,6 @@
+nombre,semieje_1e6km,masa_1e24kg
+Alfa,100.0,1.5
+Beta,200.0,
+Gamma,abc,2.0
+Delta,"300,0",3.0
+Epsilon,400.0,4.0,extra
