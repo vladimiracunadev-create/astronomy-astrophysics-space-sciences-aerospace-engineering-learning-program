@@ -1,5 +1,339 @@
 {
   "ruta_id": "R14",
-  "estado": "pendiente",
-  "rol": "Materiales estructuras e ingeniería térmica espacial"
+  "estado": "definido",
+  "rol": "Ingeniero/a de estructuras, materiales y térmica de vehículos espaciales",
+  "resumen": "Define materiales, dimensiona la estructura y el control térmico de un vehículo o instrumento espacial, y demuestra con análisis y ensayos que resiste lanzamiento, vacío y ciclos térmicos.",
+  "decide": "Qué material, qué espesores y qué control térmico cumplen los requisitos con margen suficiente, y qué ensayo demuestra que el diseño es aceptable.",
+  "entrega": "Informes de análisis estructural y térmico trazables a requisitos, modelos de elementos finitos y de nodos documentados, selección de materiales y plan e informe de calificación.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Unidades, incertidumbre y fuentes",
+      "clases": [
+        "B01-C04",
+        "B01-C08",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Reportar cualquier cifra de diseño con unidad, incertidumbre y fuente.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Cálculo y álgebra para análisis de ingeniería",
+      "clases": [
+        "B03-C05..C08",
+        "B03-C13..C14",
+        "B04-C01..C05",
+        "B04-C12..C14",
+        "B09-C03..C04",
+        "B09-C07",
+        "B09-C11..C12",
+        "B09-C15..C17"
+      ],
+      "capacidad": "Plantear y resolver las ecuaciones de equilibrio, deformación y flujo de calor de una pieza.",
+      "omitible_si": "aprueba el diagnóstico de matemática y cálculo"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Mecánica, calor y electromagnetismo básicos",
+      "clases": [
+        "B05-C02",
+        "B05-C04..C09",
+        "B05-C11",
+        "B05-C13..C14",
+        "B05-C18"
+      ],
+      "capacidad": "Aplicar leyes de Newton, energía, oscilaciones y calor a un componente.",
+      "omitible_si": "aprueba el diagnóstico de física"
+    },
+    {
+      "orden": 4,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Materia, fases y reacciones",
+      "clases": [
+        "B06-C04",
+        "B06-C10..C12"
+      ],
+      "capacidad": "Relacionar enlace, fase y energía de reacción con el comportamiento de un material.",
+      "omitible_si": "acredita química general universitaria",
+      "nota": "Se toman solo las clases que explican por qué un material cambia de comportamiento con la temperatura y el vacío."
+    },
+    {
+      "orden": 5,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Programación y pruebas para análisis",
+      "clases": [
+        "B07-C05..C09",
+        "B07-C11",
+        "B07-C13..C14",
+        "B07-C17",
+        "B07-C19"
+      ],
+      "capacidad": "Escribir y probar código que calcule márgenes o resuelva un modelo simple.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Álgebra lineal para elementos finitos",
+      "clases": [
+        "B10-C01..C10",
+        "B10-C19"
+      ],
+      "capacidad": "Resolver sistemas lineales, autovalores y descomposiciones que sostienen el método de elementos finitos y el análisis modal.",
+      "nota": "Se omiten rotaciones y tensores (C12 a C18) salvo que el análisis incluya orientación de cuerpo rígido."
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ecuaciones diferenciales y discretización",
+      "clases": [
+        "B11-C01..C07",
+        "B11-C09",
+        "B11-C12..C15",
+        "B11-C19"
+      ],
+      "capacidad": "Discretizar una ecuación de calor o de vibración y comprobar la convergencia de la solución.",
+      "nota": "B11-C15 es una introducción a elementos finitos; R14-M03 la aplica a tensiones y B50-C12 a una estructura espacial."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Incertidumbre y metrología de ensayos",
+      "clases": [
+        "B12-C07",
+        "B12-C10",
+        "B12-C16..C18",
+        "B13-C03..C05",
+        "B13-C12..C13",
+        "B13-C16..C17",
+        "B13-C19..C20"
+      ],
+      "capacidad": "Propagar incertidumbres y justificar márgenes de un ensayo térmico o estructural.",
+      "nota": "B13-C16 (calibración térmica) sirve a los sensores de los ensayos de vacío térmico."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Datos y análisis reproducibles",
+      "clases": [
+        "B14-C03",
+        "B14-C04",
+        "B14-C10",
+        "B14-C12",
+        "B14-C17"
+      ],
+      "capacidad": "Mantener reproducibles los modelos y los datos de ensayo.",
+      "omitible_si": "demuestra un repositorio de análisis con pruebas y entorno fijado"
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "opcional",
+      "titulo": "Dinámica de sistemas y control",
+      "clases": [
+        "B16-C01..C06"
+      ],
+      "capacidad": "Describir la respuesta transitoria de un sistema térmico o mecánico con un modelo de estados.",
+      "nota": "Solo hasta funciones de transferencia y diagramas de bloques; el diseño de controladores no es núcleo del rol."
+    },
+    {
+      "orden": 11,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Órbita y entorno de carga del vehículo",
+      "clases": [
+        "B41-C01..C04",
+        "B41-C16",
+        "B47-C10",
+        "B47-C15..C16"
+      ],
+      "capacidad": "Relacionar la órbita con eclipses, ciclos térmicos y cargas de lanzamiento y reentrada.",
+      "nota": "B47-C15 y C16 son el contexto de la protección térmica de reentrada, que R11-M06 profundiza para lanzadores."
+    },
+    {
+      "orden": 12,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ingeniería de sistemas y requisitos",
+      "clases": [
+        "B49-C04..C05",
+        "B49-C08..C09",
+        "B49-C13..C17"
+      ],
+      "capacidad": "Derivar requisitos estructurales y térmicos verificables, con trazabilidad e interfaces.",
+      "nota": "Se toma el núcleo de requisitos, interfaces, revisiones y verificación; no el diseño completo de misión (C20)."
+    },
+    {
+      "orden": 13,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Materiales y estructuras espaciales",
+      "clases": [
+        "B50-C01..C12"
+      ],
+      "capacidad": "Elegir materiales y verificar que una estructura resiste los modos de carga del lanzamiento.",
+      "nota": "Es la base del rol. R14-M01 a R14-M04 profundizan C02 a C12; cada clase de la ruta pide una evidencia distinta (modelo, validación o caso)."
+    },
+    {
+      "orden": 14,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Materiales aeroespaciales avanzados",
+      "clases": [
+        "R14-M01-C01..C20"
+      ],
+      "capacidad": "Seleccionar con criterios múltiples una aleación, compuesto, polímero o cerámica para un entorno dado.",
+      "nota": "Repite B50-C02 a C08 (aleaciones, compuestos, cerámicos, vacío, desgasificación, fatiga). Aquí se profundiza con titanio, cerámicos térmicos y selección multicriterio."
+    },
+    {
+      "orden": 15,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Mecánica estructural espacial",
+      "clases": [
+        "R14-M02-C01..C20"
+      ],
+      "capacidad": "Calcular tensiones, uniones, pandeo y márgenes de seguridad de una estructura.",
+      "nota": "Profundiza B50-C09 (análisis de cargas); introduce coeficientes de seguridad y margen estructural."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Elementos finitos y análisis de tensiones",
+      "clases": [
+        "R14-M03-C01..C20"
+      ],
+      "capacidad": "Construir, converger, documentar y correlacionar con ensayo un modelo de elementos finitos.",
+      "nota": "Reutiliza B50-C12 y B11-C15; aquí se exige malla, convergencia y documentación, no solo ejecutar un programa."
+    },
+    {
+      "orden": 17,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Vibraciones y dinámica estructural",
+      "clases": [
+        "R14-M04-C01..C20"
+      ],
+      "capacidad": "Predecir modos, respuesta armónica y aleatoria, y fatiga por vibración.",
+      "nota": "Profundiza B50-C10 y C11 (modal y resonancias)."
+    },
+    {
+      "orden": 18,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Gestión térmica y entorno",
+      "clases": [
+        "B51-C01..C14",
+        "B51-C17..C20"
+      ],
+      "capacidad": "Armar un balance térmico y definir el control térmico pasivo o activo de un vehículo.",
+      "nota": "B51-C15 y C16 (electrificación, polvo lunar) se tratan en R14-M07."
+    },
+    {
+      "orden": 19,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Control térmico de vehículos",
+      "clases": [
+        "R14-M06-C01..C20"
+      ],
+      "capacidad": "Construir y validar un modelo de nodos y los márgenes térmicos de un vehículo.",
+      "nota": "Repite B51-C01 a C10 y C18; la ruta exige modelo transitorio, sensores y márgenes validados."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Protección contra ambientes espaciales",
+      "clases": [
+        "R14-M07-C01..C20"
+      ],
+      "capacidad": "Evaluar la degradación de superficies y definir un plan de protección contra radiación, oxígeno atómico, impactos y contaminación.",
+      "nota": "Repite B51-C12 a C16; aquí se añaden micrometeoritos, blindaje pasivo y plan de protección."
+    },
+    {
+      "orden": 21,
+      "fase": "tronco",
+      "tipo": "opcional",
+      "titulo": "Mecanismos, fabricación e inspección en el tronco",
+      "clases": [
+        "B50-C13..C20"
+      ],
+      "capacidad": "Diseñar la estructura de una plataforma y especificar inspección y control dimensional.",
+      "nota": "Es el cierre de B50; R14-M05 lo desarrolla."
+    },
+    {
+      "orden": 22,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Fabricación avanzada y mecanismos",
+      "clases": [
+        "R14-M05-C01..C20"
+      ],
+      "capacidad": "Especificar fabricación, tolerancias, tratamientos y aceptación de una pieza o mecanismo.",
+      "nota": "Profundiza B50-C13 a C19 (mecanismos, manufactura aditiva, tolerancias, inspección)."
+    },
+    {
+      "orden": 23,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Integración, contaminación y pruebas ambientales",
+      "clases": [
+        "B56-C01..C06",
+        "B56-C09..C12",
+        "B56-C15",
+        "B56-C17..C19"
+      ],
+      "capacidad": "Planificar ensayos de vibración, choque, térmicos y de vacío con trazabilidad de evidencias.",
+      "nota": "Se omiten EMC y EMI (C13, C14) y pruebas de extremo a extremo (C16); son de sistema eléctrico."
+    },
+    {
+      "orden": 24,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Calificación estructural y térmica",
+      "clases": [
+        "R14-M08-C01..C20"
+      ],
+      "capacidad": "Planificar, simular e informar la calificación estructural y térmica de un vehículo.",
+      "nota": "Es el proyecto final del rol; reutiliza B56-C09 a C12 y pide plan, desviaciones, criterios de aceptación e informe."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Ensayo acústico y ruido de lanzamiento",
+      "motivo": "Ningún título del catálogo trata el ensayo acústico ni el campo acústico del lanzamiento; B50-C01, B56-C09 y B56-C10 cubren vibración y choque pero no ruido acústico.",
+      "propuesta": "clases nuevas en B56 sobre ensayos acústicos y entorno de lanzamiento"
+    },
+    {
+      "tema": "Normas y estándares de ingeniería espacial con versión y jurisdicción",
+      "motivo": "No hay clases sobre estándares de ingeniería espacial (por ejemplo de agencias o ECSS); R13-M07-C17 menciona normas de aseguramiento solo para software.",
+      "propuesta": "bloque nuevo transversal de estándares y aseguramiento del producto"
+    },
+    {
+      "tema": "Interfaz con el lanzador y cargas acopladas con un proveedor concreto",
+      "motivo": "B50-C01 y B47-C10 tratan el entorno de forma genérica; no hay clases de documentación de interfaz ni de análisis de cargas acopladas lanzador-satélite.",
+      "propuesta": "clases nuevas en B56 o módulo nuevo de R14"
+    },
+    {
+      "tema": "Transferencia de calor con cambio de fase y mecánica de fluidos aplicadas a control térmico",
+      "motivo": "Los tubos de calor (B51-C09, R14-M06-C09) se tratan sin una base de transferencia de calor con cambio de fase; la mecánica de fluidos aparece solo en R11-M01 y R11-M02, orientadas a propulsión.",
+      "propuesta": "clases nuevas en B51 o módulo nuevo de R14"
+    }
+  ]
 }
