@@ -31,6 +31,8 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
+- [ ] Guías pedagógicas por bloque y módulo (B01 hecho como plantilla; 63 bloques y 192 módulos pendientes).
+- [ ] Borrador piloto B01-C01 creado (sin revisión humana; no cuenta como clase redactada).
 
 **Cierre:** informe de refinamiento y piloto doble (un bloque del tronco y un módulo de ruta).
 

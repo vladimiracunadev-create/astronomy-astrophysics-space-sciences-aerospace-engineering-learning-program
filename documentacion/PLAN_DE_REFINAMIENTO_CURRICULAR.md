@@ -84,12 +84,21 @@ Detectados por búsqueda de títulos; cada uno debe confirmarse antes de crear u
 - Medir carga real por clase y por función del estándar para recalibrar el peso (L4).
 - **Puerta:** informe de lecciones y decisión explícita de escalar o corregir.
 
+### L8 · Bloques pedagógicos
+
+- Cada bloque y cada módulo de ruta tendrá una **guía pedagógica**: propósito, resultados, secuencia (diagrama con descripción textual), tabla de clases con *qué se aprende* y *evidencia*, hilos transversales, evaluación, seguridad y fuentes.
+- Los resúmenes por clase se escriben a partir del refinamiento (L3, L5) y se rotulan «especificación propuesta» hasta tener revisión.
+- **Primer resultado:** [B01](../programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) reescrito con ese formato. Es la plantilla para los 63 bloques restantes y los 192 módulos.
+- **Puerta:** ninguna guía describe una clase como desarrollada si el catálogo la mantiene en E0.
+
 ## 4. Orden de ejecución
 
 ```text
 L1 auditoría → L2 solapamientos → L3 módulos de ruta
 → L4 pesos ‖ L5 vacíos → L6 dependencias → L7 piloto doble
 ```
+
+L8 se aplica bloque a bloque junto con L3 y L5. Piloto ya iniciado: [borrador de B01-C01](../programa/pilotos/B01-C01-naturaleza-del-universo/CLASE.md) (22 funciones, laboratorio con prueba analítica), sin revisión humana y sin cambiar el estado E0 del catálogo.
 
 L4 y L5 pueden avanzar en paralelo una vez cerrada L2. L3 se aplica por rutas en lotes pequeños para permitir revisión disciplinar.
 

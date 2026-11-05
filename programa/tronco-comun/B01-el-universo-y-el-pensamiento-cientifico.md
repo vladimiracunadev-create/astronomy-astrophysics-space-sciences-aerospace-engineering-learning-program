@@ -2,94 +2,94 @@
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A01 — Alfabetización científica, astronómica y tecnológica
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N0 → N1 (descubrimiento y fundamentos) · **Clases:** 20 · **Carga:** por calibrar en el piloto
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 20 clases siguen en **E0**: no hay lecciones desarrolladas, salvo el **borrador piloto** de [B01-C01](../pilotos/B01-C01-naturaleza-del-universo/CLASE.md), que no cuenta como clase redactada.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia el universo y el pensamiento científico; cubre desde «Naturaleza del universo» hasta «Proyecto de observación científica inicial». Los títulos son la especificación curricular inicial, no una lección escrita.
+Es la puerta de entrada al programa. Enseña a **mirar el universo como lo hace la ciencia**: qué existe, a qué escala, cómo lo sabemos y con qué confianza. No exige conocimientos previos; prepara el lenguaje de medida, evidencia y modelo que usan los 63 bloques siguientes.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B01-C01 — Naturaleza del universo
+1. Describir el universo y sus escalas, desde la Tierra hasta el cosmos observable, con unidades correctas.
+2. Distinguir **observación**, **inferencia** y **modelo** en cualquier afirmación astronómica.
+3. Formular preguntas investigables y predicciones que puedan fallar.
+4. Medir, estimar errores y reportar incertidumbre de forma elemental.
+5. Evaluar fuentes y detectar desinformación espacial.
+6. Completar un proyecto de observación inicial con evidencia revisable.
 
-Explica el fenómeno o técnica de «naturaleza del universo» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B01-C02 — Escalas desde la Tierra al cosmos observable
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Qué es el universo,<br/>escalas, objetos,<br/>espacio y tiempo"]
+    B["C05-C10<br/>Observar, preguntar,<br/>predecir y medir"]
+    C["C11-C16<br/>Cielo y objetos reales:<br/>Sol, Luna, planetas,<br/>estrellas, galaxias"]
+    D["C17-C20<br/>Modelos, error,<br/>fuentes y proyecto"]
+    A --> B --> C --> D
+```
 
-Delimita «escalas desde la Tierra al cosmos observable», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cuatro tramos encadenados: marco general (C01–C04), método de observación y medida (C05–C10), recorrido por objetos y fenómenos observables (C11–C16) y cierre con modelos, incertidumbre, fuentes y proyecto (C17–C20).
 
-### B01-C03 — Objetos celestes y sus diferencias
+## 🗂️ Las 20 clases en resumen
 
-Introduce el contexto y los principios de «objetos celestes y sus diferencias» para comprender su uso científico.
+Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje.
 
-### B01-C04 — Espacio y tiempo en ciencia
+### Tramo 1 · Marco general
 
-Describe los componentes principales de «espacio y tiempo en ciencia» y por qué son relevantes para esta disciplina.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| [B01-C01](../pilotos/B01-C01-naturaleza-del-universo/CLASE.md) | Naturaleza del universo | Qué es el universo y el universo observable; separar observación, inferencia y modelo con cifras reales (edad, expansión). | Ficha de escala y edad |
+| B01-C02 | Escalas desde la Tierra al cosmos observable | Órdenes de magnitud y notación científica; recorrer 26 órdenes de magnitud con unidades de longitud. | Escalera de escalas con conversiones |
+| B01-C03 | Objetos celestes y sus diferencias | Criterios para distinguir planeta, estrella, galaxia, nebulosa y cúmulo; qué los define y cómo se observan. | Clasificación justificada de objetos |
+| B01-C04 | Espacio y tiempo en ciencia | Cómo se miden posición y tiempo; sistemas de referencia y escalas temporales básicas. | Registro de tiempo y posición con referencia declarada |
 
-### B01-C05 — Observación frente a interpretación
+### Tramo 2 · Observar, preguntar y medir
 
-Describe «observación frente a interpretación», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B01-C05 | Observación frente a interpretación | Qué es un dato y qué es una lectura de ese dato; ejemplos donde la interpretación cambió. | Tabla de afirmaciones O/I/M |
+| B01-C06 | Preguntas investigables en astronomía | Convertir curiosidad en preguntas que pueden responderse con datos accesibles. | Banco de preguntas con criterio de viabilidad |
+| B01-C07 | Hipótesis y predicciones falsables | Formular una hipótesis, derivar una predicción y decir qué resultado la refutaría. | Hipótesis con predicción y criterio de refutación |
+| B01-C08 | Mediciones y unidades astronómicas | Unidades SI y astronómicas (au, ly, pc); conversión y análisis dimensional. | Hoja de conversiones verificada |
+| B01-C09 | Luz como fuente de información | Qué información trae la luz: dirección, brillo, color y espectro; límites de lo que revela. | Interpretación de un espectro sencillo |
+| B01-C10 | Limitaciones de los sentidos humanos | Qué no vemos (rango espectral, brillo, resolución) y por qué se usan instrumentos. | Comparación sentido–instrumento |
 
-### B01-C06 — Preguntas investigables en astronomía
+### Tramo 3 · El cielo y sus objetos
 
-Explica el fenómeno o técnica de «preguntas investigables en astronomía» y su aplicación observable o tecnológica.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B01-C11 | Movimiento aparente del Sol y las estrellas | Rotación terrestre, horizonte, culminación y estaciones desde un lugar concreto. | Registro de trayectorias con fecha y lugar |
+| B01-C12 | Fases lunares y ciclos celestes | Geometría Sol–Tierra–Luna, fases, eclipses y calendarios como ciclos medibles. | Predicción de una fase y su comprobación |
+| B01-C13 | Sistema solar como sistema físico | Componentes, escalas y leyes que lo organizan; modelo a escala. | Modelo a escala con tabla de datos |
+| B01-C14 | Estrellas y sus principales propiedades | Brillo, color, temperatura, tamaño y distancia; cómo se relacionan. | Comparación de estrellas con datos publicados |
+| B01-C15 | Galaxias y agrupaciones cósmicas | Tipos de galaxias, grupos y cúmulos; estructura a gran escala como observación. | Ficha de una galaxia y su entorno |
+| B01-C16 | Expansión del universo como observación | Corrimiento al rojo, ley de Hubble y por qué no hay centro; incertidumbre en H₀. | Estimación de distancia o edad con error |
 
-### B01-C07 — Hipótesis y predicciones falsables
+### Tramo 4 · Modelos, error, fuentes y proyecto
 
-Delimita «hipótesis y predicciones falsables», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B01-C17 | Construcción de modelos científicos | Un modelo como simplificación con dominio de validez; contrastar modelo y dato. | Modelo simple con su límite declarado |
+| B01-C18 | Incertidumbre y errores elementales | Error aleatorio y sistemático, cifras significativas y propagación simple. | Reporte de medición con incertidumbre |
+| B01-C19 | Fuentes confiables y desinformación espacial | Jerarquía de fuentes, detección de afirmaciones sin respaldo y verificación de titulares. | Informe de verificación de una noticia |
+| B01-C20 | Proyecto de observación científica inicial | Integrar pregunta, hipótesis, medición, incertidumbre y fuentes en una observación real. | Proyecto con bitácora, datos y conclusión acotada |
 
-### B01-C08 — Mediciones y unidades astronómicas
+## 🧵 Hilos que atraviesan el bloque
 
-Introduce el contexto y los principios de «mediciones y unidades astronómicas» para comprender su uso científico.
+- **Escala:** C02, C13–C16 retoman los órdenes de magnitud de C01.
+- **Método:** C05–C07 y C17 construyen el ciclo pregunta → hipótesis → predicción → modelo.
+- **Evidencia:** C08, C18 y C19 enseñan unidad, error y fuente, que se reutilizan en el proyecto C20.
 
-### B01-C09 — Luz como fuente de información
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-Describe los componentes principales de «luz como fuente de información» y por qué son relevantes para esta disciplina.
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: primera versión, retroalimentación y cambio.
+- Proyecto C20 con rúbrica publicada antes; las condiciones críticas (no presentar lo simulado como observado, citar solo lo consultado) no se compensan con promedio.
 
-### B01-C10 — Limitaciones de los sentidos humanos
+## ⚠️ Seguridad y límites
 
-Presenta qué significa «limitaciones de los sentidos humanos», sus elementos esenciales y su función dentro de el universo y el pensamiento científico.
-
-### B01-C11 — Movimiento aparente del Sol y las estrellas
-
-Explica el fenómeno o técnica de «movimiento aparente del Sol y las estrellas» y su aplicación observable o tecnológica.
-
-### B01-C12 — Fases lunares y ciclos celestes
-
-Delimita «fases lunares y ciclos celestes», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B01-C13 — Sistema solar como sistema físico
-
-Introduce «sistema solar como sistema físico» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-
-### B01-C14 — Estrellas y sus principales propiedades
-
-Describe los componentes principales de «estrellas y sus principales propiedades» y por qué son relevantes para esta disciplina.
-
-### B01-C15 — Galaxias y agrupaciones cósmicas
-
-Presenta qué significa «galaxias y agrupaciones cósmicas», sus elementos esenciales y su función dentro de el universo y el pensamiento científico.
-
-### B01-C16 — Expansión del universo como observación
-
-Describe «expansión del universo como observación», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B01-C17 — Construcción de modelos científicos
-
-Introduce «construcción de modelos científicos» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-
-### B01-C18 — Incertidumbre y errores elementales
-
-Introduce el contexto y los principios de «incertidumbre y errores elementales» para comprender su uso científico.
-
-### B01-C19 — Fuentes confiables y desinformación espacial
-
-Describe los componentes principales de «fuentes confiables y desinformación espacial» y por qué son relevantes para esta disciplina.
-
-### B01-C20 — Proyecto de observación científica inicial
-
-Introduce «proyecto de observación científica inicial» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+Cualquier observación del Sol exige filtros certificados y supervisión; el bloque es educativo y no sustituye orientación profesional. Las cosmovisiones culturales se estudian en B02 como saberes propios.
 
 ## Fuentes de orientación preliminar
 
@@ -99,3 +99,5 @@ Introduce «proyecto de observación científica inicial» como problema de inge
 - **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
 
 > La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B02 — Historia, arqueoastronomía y culturas del cielo](./B02-historia-arqueoastronomia-y-culturas-del-cielo.md)
