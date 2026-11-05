@@ -1,0 +1,802 @@
+{
+  "ruta_id": "R10",
+  "modulos": [
+    {
+      "modulo": "R10-M01",
+      "nombre": "Sensores de orientación",
+      "temas": [
+        {
+          "clases_ruta": "R10-M01-C01..C02",
+          "tema": "Sensores solares",
+          "destino": "existente",
+          "tronco": [
+            "B53-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C03..C04",
+          "tema": "Sensores de horizonte",
+          "destino": "existente",
+          "tronco": [
+            "B53-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C05..C06",
+          "tema": "Magnetómetros triaxiales",
+          "destino": "existente",
+          "tronco": [
+            "B53-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C07..C08",
+          "tema": "Giroscopios",
+          "destino": "existente",
+          "tronco": [
+            "B53-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C09..C10",
+          "tema": "Star trackers",
+          "destino": "existente",
+          "tronco": [
+            "B53-C07",
+            "B44-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C11..C12",
+          "tema": "Errores de alineación",
+          "destino": "existente",
+          "tronco": [
+            "B53-C08",
+            "B13-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C13..C14",
+          "tema": "Sesgos térmicos",
+          "destino": "existente",
+          "tronco": [
+            "B13-C16",
+            "B53-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C15..C16",
+          "tema": "Calibración de orientación",
+          "destino": "existente",
+          "tronco": [
+            "B53-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C17..C18",
+          "tema": "Modelado de mediciones",
+          "destino": "existente",
+          "tronco": [
+            "B44-C01",
+            "B53-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M01-C19..C20",
+          "tema": "Presupuesto de error angular",
+          "destino": "existente",
+          "tronco": [
+            "B13-C13",
+            "B53-C15",
+            "B31-C10"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M02",
+      "nombre": "Navegación inercial espacial",
+      "temas": [
+        {
+          "clases_ruta": "R10-M02-C01..C02",
+          "tema": "Navegación inercial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Principios de navegación inercial espacial",
+            "necesidad": "El rol necesita comprender cómo se propaga posición y velocidad a partir de una IMU; B53 solo trata el giroscopio como sensor de actitud y B44 estima órbita con observaciones externas, por lo que ninguna clase actual cubre la navegación inercial."
+          }
+        },
+        {
+          "clases_ruta": "R10-M02-C03..C04",
+          "tema": "Modelo de acelerómetros",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Modelo de error de acelerómetros",
+            "necesidad": "Aporta el modelado de sesgo, factor de escala y ruido de acelerómetros, necesario para predecir el error de navegación; B53 solo cubre sensores de actitud y ninguna clase trata acelerómetros."
+          }
+        },
+        {
+          "clases_ruta": "R10-M02-C05..C06",
+          "tema": "Integración strapdown",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Mecanización strapdown e integración de actitud y velocidad",
+            "necesidad": "Enseña la integración de las mediciones de una IMU fija al vehículo para obtener actitud, velocidad y posición; B10-C12..C15 dan las rotaciones y cuaterniones, pero ninguna clase construye la mecanización."
+          }
+        },
+        {
+          "clases_ruta": "R10-M02-C07..C08",
+          "tema": "Deriva de giroscopios",
+          "destino": "existente",
+          "tronco": [
+            "B53-C06",
+            "B13-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M02-C09..C10",
+          "tema": "Marcos de navegación",
+          "destino": "existente",
+          "tronco": [
+            "B10-C16",
+            "B13-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M02-C11..C12",
+          "tema": "Modelos de gravedad",
+          "destino": "existente",
+          "tronco": [
+            "B42-C02",
+            "B41-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M02-C13..C14",
+          "tema": "Corrección de sesgos",
+          "destino": "existente",
+          "tronco": [
+            "B53-C08",
+            "B44-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M02-C15..C16",
+          "tema": "Fusión con otras mediciones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Fusión inercial con mediciones externas (acoplamiento débil y fuerte)",
+            "necesidad": "Cubre cómo se corrige la deriva inercial con mediciones externas; B44-C08..C10 dan los filtros, pero ninguna clase los aplica al acoplamiento inercial/externo."
+          }
+        },
+        {
+          "clases_ruta": "R10-M02-C17..C18",
+          "tema": "Navegación sin GPS",
+          "destino": "existente",
+          "tronco": [
+            "B44-C13",
+            "B44-C14",
+            "B44-C17",
+            "B44-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M02-C19..C20",
+          "tema": "Evaluación de deriva acumulada",
+          "destino": "existente",
+          "tronco": [
+            "B44-C19",
+            "B13-C13"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M03",
+      "nombre": "Filtrado y estimación de estado",
+      "temas": [
+        {
+          "clases_ruta": "R10-M03-C01..C02",
+          "tema": "Estado dinámico y covarianza",
+          "destino": "existente",
+          "tronco": [
+            "B16-C01",
+            "B16-C02",
+            "B12-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C03..C04",
+          "tema": "Filtro de Kalman",
+          "destino": "existente",
+          "tronco": [
+            "B15-C17",
+            "B44-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C05..C06",
+          "tema": "Filtro de Kalman extendido",
+          "destino": "existente",
+          "tronco": [
+            "B44-C09",
+            "B44-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C07..C08",
+          "tema": "Filtro unscented",
+          "destino": "existente",
+          "tronco": [
+            "B44-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C09..C10",
+          "tema": "Filtro de partículas",
+          "destino": "existente",
+          "tronco": [
+            "B15-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C11..C12",
+          "tema": "Observabilidad",
+          "destino": "existente",
+          "tronco": [
+            "B16-C13",
+            "B44-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C13..C14",
+          "tema": "Consistencia estadística",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Consistencia de filtros: innovaciones y pruebas NEES/NIS",
+            "necesidad": "Enseña a verificar que un filtro es estadísticamente consistente con sus covarianzas; B44-C11/C12 tratan covarianza y propagación pero no las pruebas de consistencia."
+          }
+        },
+        {
+          "clases_ruta": "R10-M03-C15..C16",
+          "tema": "Procesamiento fuera de secuencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Medidas retardadas y fuera de secuencia en filtros de estimación",
+            "necesidad": "Cubre la incorporación de mediciones que llegan con retardo o desordenadas; ninguna clase de B44 ni B15 trata este problema de procesamiento."
+          }
+        },
+        {
+          "clases_ruta": "R10-M03-C17..C18",
+          "tema": "Manejo de fallos de sensores",
+          "destino": "existente",
+          "tronco": [
+            "B54-C12",
+            "B12-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M03-C19..C20",
+          "tema": "Validación con datos sintéticos",
+          "destino": "existente",
+          "tronco": [
+            "B12-C14",
+            "B44-C20",
+            "B14-C10"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M04",
+      "nombre": "Determinación orbital de precisión",
+      "temas": [
+        {
+          "clases_ruta": "R10-M04-C01..C02",
+          "tema": "Medidas Doppler",
+          "destino": "existente",
+          "tronco": [
+            "B44-C04",
+            "B55-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C03..C04",
+          "tema": "Medidas de rango",
+          "destino": "existente",
+          "tronco": [
+            "B44-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C05..C06",
+          "tema": "Ángulos observados",
+          "destino": "existente",
+          "tronco": [
+            "B44-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C07..C08",
+          "tema": "Determinación orbital inicial",
+          "destino": "existente",
+          "tronco": [
+            "B44-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C09..C10",
+          "tema": "Estimación por lotes",
+          "destino": "existente",
+          "tronco": [
+            "B44-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C11..C12",
+          "tema": "Estabilidad numérica",
+          "destino": "existente",
+          "tronco": [
+            "B11-C09",
+            "B11-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C13..C14",
+          "tema": "Estimación de parámetros dinámicos",
+          "destino": "existente",
+          "tronco": [
+            "B44-C07",
+            "B12-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C15..C16",
+          "tema": "Seguimiento de estaciones",
+          "destino": "existente",
+          "tronco": [
+            "B44-C15",
+            "B57-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C17..C18",
+          "tema": "Métricas de residual",
+          "destino": "existente",
+          "tronco": [
+            "B44-C07",
+            "B44-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M04-C19..C20",
+          "tema": "Comparación de órbitas estimadas",
+          "destino": "existente",
+          "tronco": [
+            "B44-C20",
+            "B44-C12"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M05",
+      "nombre": "Navegación óptica autónoma",
+      "temas": [
+        {
+          "clases_ruta": "R10-M05-C01..C02",
+          "tema": "Navegación por imágenes",
+          "destino": "existente",
+          "tronco": [
+            "B44-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M05-C03..C04",
+          "tema": "Detección de bordes planetarios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Detección de limbo y bordes planetarios en imágenes de navegación",
+            "necesidad": "Aporta la extracción de horizonte y bordes del cuerpo como medición de navegación; B15-C13 trata segmentación genérica y B44-C13 la navegación óptica sin esta técnica."
+          }
+        },
+        {
+          "clases_ruta": "R10-M05-C05..C06",
+          "tema": "Localización de hitos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Navegación por hitos y correlación de terreno",
+            "necesidad": "Cubre la localización por reconocimiento de hitos superficiales; B44-C13 presenta la navegación óptica pero no la correspondencia con hitos conocidos."
+          }
+        },
+        {
+          "clases_ruta": "R10-M05-C07..C08",
+          "tema": "Navegación estelar",
+          "destino": "existente",
+          "tronco": [
+            "B44-C14",
+            "B53-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M05-C09..C10",
+          "tema": "Navegación por pulsar como investigación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Navegación por púlsares de rayos X como técnica de investigación",
+            "necesidad": "Introduce una técnica experimental de navegación autónoma; B44-C13..C17 no la tratan y B20 estudia púlsares solo como objetos astrofísicos."
+          }
+        },
+        {
+          "clases_ruta": "R10-M05-C11..C12",
+          "tema": "Pose relativa",
+          "destino": "existente",
+          "tronco": [
+            "B46-C13",
+            "B46-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M05-C13..C14",
+          "tema": "Cámaras de navegación",
+          "destino": "existente",
+          "tronco": [
+            "B44-C13",
+            "B44-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M05-C15..C16",
+          "tema": "Matching de características",
+          "destino": "existente",
+          "tronco": [
+            "B15-C14",
+            "B15-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M05-C17..C18",
+          "tema": "Errores de iluminación",
+          "destino": "existente",
+          "tronco": [
+            "B46-C18",
+            "B44-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M05-C19..C20",
+          "tema": "Verificación de soluciones ópticas",
+          "destino": "existente",
+          "tronco": [
+            "B44-C19",
+            "B44-C20",
+            "B49-C17"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M06",
+      "nombre": "Fusión multisensorial",
+      "temas": [
+        {
+          "clases_ruta": "R10-M06-C01..C02",
+          "tema": "Sincronización multisensor",
+          "destino": "existente",
+          "tronco": [
+            "B44-C16",
+            "B13-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M06-C03..C04",
+          "tema": "Manejo de latencia",
+          "destino": "existente",
+          "tronco": [
+            "B54-C05",
+            "B61-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M06-C05..C06",
+          "tema": "Sensores redundantes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Redundancia de sensores y arbitraje de mediciones",
+            "necesidad": "Enseña a combinar y arbitrar sensores redundantes para mantener la solución de navegación; B54-C12 trata FDIR general, no el arbitraje de mediciones."
+          }
+        },
+        {
+          "clases_ruta": "R10-M06-C07..C08",
+          "tema": "Modelos de ruido",
+          "destino": "existente",
+          "tronco": [
+            "B15-C03",
+            "B28-C06",
+            "B13-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M06-C09..C10",
+          "tema": "Fusión IMU-cámara",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Fusión IMU-cámara",
+            "necesidad": "Aporta la fusión visual-inercial que complementa a cada sensor; ni B44 ni B53 acoplan IMU y cámara en una sola solución de navegación."
+          }
+        },
+        {
+          "clases_ruta": "R10-M06-C11..C12",
+          "tema": "Fusión radio-óptica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Fusión radio-óptica en navegación de espacio profundo",
+            "necesidad": "Combina Doppler/rango con imágenes ópticas para reducir incertidumbre; B44-C04 y C13 las tratan por separado."
+          }
+        },
+        {
+          "clases_ruta": "R10-M06-C13..C14",
+          "tema": "Detección de discrepancias",
+          "destino": "existente",
+          "tronco": [
+            "B57-C13",
+            "B12-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M06-C15..C16",
+          "tema": "Filtrado distribuido",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Filtrado distribuido y descentralizado",
+            "necesidad": "Cubre arquitecturas de estimación repartidas entre nodos o plataformas; B44-C08..C10 tratan filtros centralizados."
+          }
+        },
+        {
+          "clases_ruta": "R10-M06-C17..C18",
+          "tema": "Estimación robusta",
+          "destino": "existente",
+          "tronco": [
+            "B12-C11",
+            "B12-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M06-C19..C20",
+          "tema": "Evaluación de degradación sensorial",
+          "destino": "existente",
+          "tronco": [
+            "B54-C12",
+            "B53-C08",
+            "B31-C14"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M07",
+      "nombre": "Control autónomo de vehículos",
+      "temas": [
+        {
+          "clases_ruta": "R10-M07-C01..C02",
+          "tema": "Autonomía a bordo",
+          "destino": "existente",
+          "tronco": [
+            "B44-C18",
+            "B61-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M07-C03..C04",
+          "tema": "Planificación por objetivos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Autonomía a bordo y planificación de decisiones",
+            "titulo": "Planificación por objetivos a bordo",
+            "necesidad": "Cubre cómo el vehículo selecciona y secuencia acciones para cumplir objetivos sin intervención de Tierra; B57-C04/C09 planifican desde Tierra y ninguna clase trata la planificación a bordo."
+          }
+        },
+        {
+          "clases_ruta": "R10-M07-C05..C06",
+          "tema": "Control predictivo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B53",
+            "titulo": "Control predictivo basado en modelo (MPC) para vehículos espaciales",
+            "necesidad": "Aporta el control con restricciones explícitas; B16-C15..C17 cubren LQR, robusto y no lineal, pero no el control predictivo."
+          }
+        },
+        {
+          "clases_ruta": "R10-M07-C07..C08",
+          "tema": "Restricciones de seguridad",
+          "destino": "existente",
+          "tronco": [
+            "B54-C16",
+            "B61-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M07-C09..C10",
+          "tema": "Sistemas de decisión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Autonomía a bordo y planificación de decisiones",
+            "titulo": "Sistemas de decisión autónomos y máquinas de estados de comportamiento",
+            "necesidad": "Enseña la arquitectura de decisión a bordo (reglas, máquinas de estados, árboles de comportamiento); B07-C04 solo introduce condicionales."
+          }
+        },
+        {
+          "clases_ruta": "R10-M07-C11..C12",
+          "tema": "Diagnóstico automático",
+          "destino": "existente",
+          "tronco": [
+            "B54-C12",
+            "B57-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M07-C13..C14",
+          "tema": "Gestión de incertidumbre",
+          "destino": "existente",
+          "tronco": [
+            "B12-C16",
+            "B12-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M07-C15..C16",
+          "tema": "Estados seguros",
+          "destino": "existente",
+          "tronco": [
+            "B54-C11",
+            "B57-C08",
+            "B57-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M07-C17..C18",
+          "tema": "Supervisión desde Tierra",
+          "destino": "existente",
+          "tronco": [
+            "B57-C07",
+            "B57-C03",
+            "B61-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M07-C19..C20",
+          "tema": "Verificación de control autónomo",
+          "destino": "existente",
+          "tronco": [
+            "B53-C19",
+            "B16-C19",
+            "B54-C14"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R10-M08",
+      "nombre": "Encuentro y operaciones de proximidad",
+      "temas": [
+        {
+          "clases_ruta": "R10-M08-C01..C02",
+          "tema": "Cinemática de movimiento relativo",
+          "destino": "existente",
+          "tronco": [
+            "B46-C09",
+            "B46-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C03..C04",
+          "tema": "Guiado de encuentro",
+          "destino": "existente",
+          "tronco": [
+            "B46-C10",
+            "B46-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C05..C06",
+          "tema": "Sensores de proximidad",
+          "destino": "existente",
+          "tronco": [
+            "B46-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C07..C08",
+          "tema": "Control de distancia",
+          "destino": "existente",
+          "tronco": [
+            "B46-C11",
+            "B46-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C09..C10",
+          "tema": "Conos de aproximación",
+          "destino": "existente",
+          "tronco": [
+            "B46-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C11..C12",
+          "tema": "Planificación evasiva",
+          "destino": "existente",
+          "tronco": [
+            "B46-C14",
+            "B62-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C13..C14",
+          "tema": "Restricciones de contacto",
+          "destino": "existente",
+          "tronco": [
+            "B46-C16",
+            "B46-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C15..C16",
+          "tema": "Acoplamiento simulado",
+          "destino": "existente",
+          "tronco": [
+            "B46-C16",
+            "B46-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C17..C18",
+          "tema": "Fallas de navegación relativa",
+          "destino": "existente",
+          "tronco": [
+            "B46-C12",
+            "B54-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R10-M08-C19..C20",
+          "tema": "Prueba de misión de rendezvous",
+          "destino": "existente",
+          "tronco": [
+            "B46-C20",
+            "B56-C16"
+          ]
+        }
+      ]
+    }
+  ]
+}
