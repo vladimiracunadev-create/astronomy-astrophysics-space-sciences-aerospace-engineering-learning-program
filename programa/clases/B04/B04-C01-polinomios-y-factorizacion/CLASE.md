@@ -1,7 +1,7 @@
 # B04-C01 — Polinomios y factorización
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B03-C20 — Problema integrado de escala del sistema solar](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c20) · [Siguiente: B04-C02 — Ecuaciones lineales y cuadráticas →](../B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [← Anterior: B03-C20 — Problema integrado de escala del sistema solar](../../B03/B03-C20-problema-integrado-de-escala-del-sistema-solar/CLASE.md) · [Siguiente: B04-C02 — Ecuaciones lineales y cuadráticas →](../B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Un polinomio es una suma de correcciones de tamaño decreciente; se evalúa bien
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B03-C20 — Problema integrado de escala del sistema solar](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c20) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C02 — Ecuaciones lineales y cuadráticas →](../B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md)
+[← Anterior: B03-C20 — Problema integrado de escala del sistema solar](../../B03/B03-C20-problema-integrado-de-escala-del-sistema-solar/CLASE.md) · [📚 Bloque B04](../../../tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) · [Siguiente: B04-C02 — Ecuaciones lineales y cuadráticas →](../B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md)
 <!-- /nav -->

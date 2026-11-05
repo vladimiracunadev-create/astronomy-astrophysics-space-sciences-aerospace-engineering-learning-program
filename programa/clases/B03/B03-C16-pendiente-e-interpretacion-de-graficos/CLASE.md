@@ -1,7 +1,7 @@
 # B03-C16 — Pendiente e interpretación de gráficos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C15 — Representación cartesiana de datos](../B03-C15-representacion-cartesiana-de-datos/CLASE.md) · [Siguiente: B03-C17 — Áreas y volúmenes elementales →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [← Anterior: B03-C15 — Representación cartesiana de datos](../B03-C15-representacion-cartesiana-de-datos/CLASE.md) · [Siguiente: B03-C17 — Áreas y volúmenes elementales →](../B03-C17-areas-y-volumenes-elementales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ La pendiente es el cambio de una magnitud por unidad de la otra, con signo y uni
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B03-C15 — Representación cartesiana de datos](../B03-C15-representacion-cartesiana-de-datos/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C17 — Áreas y volúmenes elementales →](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md#b03-c17)
+[← Anterior: B03-C15 — Representación cartesiana de datos](../B03-C15-representacion-cartesiana-de-datos/CLASE.md) · [📚 Bloque B03](../../../tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) · [Siguiente: B03-C17 — Áreas y volúmenes elementales →](../B03-C17-areas-y-volumenes-elementales/CLASE.md)
 <!-- /nav -->

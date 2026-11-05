@@ -73,15 +73,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 |---|---|---|---|
 | <a id="b03-c15"></a>[B03-C15](../clases/B03/B03-C15-representacion-cartesiana-de-datos/CLASE.md) | Representación cartesiana de datos | Ejes, escalas lineal y logarítmica, ejes rotulados y gráficos accesibles. | Gráfico cartesiano accesible |
 | <a id="b03-c16"></a>[B03-C16](../clases/B03/B03-C16-pendiente-e-interpretacion-de-graficos/CLASE.md) | Pendiente e interpretación de gráficos | Pendiente como tasa de cambio, recta de ajuste y lectura de una gráfica log–log. | Informe de pendiente con unidades |
-| <a id="b03-c17"></a>B03-C17 | Áreas y volúmenes elementales | Círculo, esfera, cilindro; densidad media y potencia interceptada. | Hoja de áreas y volúmenes |
-| <a id="b03-c18"></a>B03-C18 | Razones trigonométricas iniciales | Seno, coseno y tangente, tamaño angular y paralaje. | Ficha de triángulo y ángulo |
-| <a id="b03-c19"></a>B03-C19 | Propagación elemental de redondeos | Cotas de error y combinación de incertidumbres en sumas y productos. | Balance de redondeos e incertidumbre |
+| <a id="b03-c17"></a>[B03-C17](../clases/B03/B03-C17-areas-y-volumenes-elementales/CLASE.md) | Áreas y volúmenes elementales | Círculo, esfera, cilindro; densidad media y potencia interceptada. | Hoja de áreas y volúmenes |
+| <a id="b03-c18"></a>[B03-C18](../clases/B03/B03-C18-razones-trigonometricas-iniciales/CLASE.md) | Razones trigonométricas iniciales | Seno, coseno y tangente, tamaño angular y paralaje. | Ficha de triángulo y ángulo |
+| <a id="b03-c19"></a>[B03-C19](../clases/B03/B03-C19-propagacion-elemental-de-redondeos/CLASE.md) | Propagación elemental de redondeos | Cotas de error y combinación de incertidumbres en sumas y productos. | Balance de redondeos e incertidumbre |
 
 ### Tramo 5 · Integración
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b03-c20"></a>B03-C20 | Problema integrado de escala del sistema solar | Requisitos, factor de escala, tabla de maqueta y verificaciones cruzadas. | Informe de maqueta con verificaciones |
+| <a id="b03-c20"></a>[B03-C20](../clases/B03/B03-C20-problema-integrado-de-escala-del-sistema-solar/CLASE.md) | Problema integrado de escala del sistema solar | Requisitos, factor de escala, tabla de maqueta y verificaciones cruzadas. | Informe de maqueta con verificaciones |
 
 ## 🧵 Hilos que atraviesan el bloque
 
