@@ -70,12 +70,16 @@ b5205c7f6d55fc73f868e06328e9bb457d5728ea36a2ea001debe51c3d87bc79  programa/clase
 fb7adbd9712c35df7e104b500457c9a5a9723c138147643cc5dd1689d11c86c1  programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/FICHA_EDITORIAL.md
 80fcb8092159f36232d135ef688aed9bd9d0187d23f74d6c91b51886e936efc7  programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/ciclos_y_tiempos.py
 8e09f8591924a0929afaf0b17347633cec6b54450dc9943fd5c293ea7178c556  programa/clases/B05/B05-C01-magnitudes-fisicas-y-dimensiones/CLASE.md
+a87641a17c5b1d22d777edbcf54133e78cd8eac9caabe8a54e57f0e0611b25cb  programa/clases/B05/B05-C01-magnitudes-fisicas-y-dimensiones/FICHA_EDITORIAL.md
 f49c1c48d71263d1cda4442248ffb193b9ae63dc5b3a4444a33bd2e4f0f18bf9  programa/clases/B05/B05-C01-magnitudes-fisicas-y-dimensiones/analisis_dimensional.py
 7d2824b689225527de1ce917b2dfc5eaffd419fcaa5ead7a34db57bc223b202c  programa/clases/B05/B05-C02-posicion-velocidad-y-aceleracion/CLASE.md
+2faf625dd0a1fef771860dd91e90a5b8b336a380a2075483f88d6a67c5fba75a  programa/clases/B05/B05-C02-posicion-velocidad-y-aceleracion/FICHA_EDITORIAL.md
 21b5cfb6ba4a2c93560d632709381191ae40ccaad09975db1da8807b7e6cc2e2  programa/clases/B05/B05-C02-posicion-velocidad-y-aceleracion/cinematica_numerica.py
 3c9ce2dc5d9917cd65256702ddefaa9b21abeef54df946dada92278bce7972b1  programa/clases/B05/B05-C03-movimiento-rectilineo-y-circular/CLASE.md
+2aa2f50c714308aba853ed538ad0eabab3c0c183f08ef5660c3386be01ad5bf6  programa/clases/B05/B05-C03-movimiento-rectilineo-y-circular/FICHA_EDITORIAL.md
 a73f6a68636b1a703a077a54fb5eede5a9cb4caeeaa163d83779b8cb7586becd  programa/clases/B05/B05-C03-movimiento-rectilineo-y-circular/movimiento_uniforme_y_circular.py
 440462553aa5d21496582f2e527c6d4aa522ddd562ca4dd65f71239efd8e11ec  programa/clases/B05/B05-C04-leyes-del-movimiento-de-newton/CLASE.md
+77d82c146ac564cb2181214f20acc85feef5f04988961cf9476eb3422a6d053d  programa/clases/B05/B05-C04-leyes-del-movimiento-de-newton/FICHA_EDITORIAL.md
 06b098e7b0dfce81f3ff8c38730f25617e82efcc2b65ac0bc6e1b8b56025b8a6  programa/clases/B05/B05-C04-leyes-del-movimiento-de-newton/orbita_newton.py
 8a75c33f20bc76347a7c07c40c4b943b3b6de9e2a81859fbded445f9f6166d9b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 78d71365f442161a742b1fb4a0b711cd7cc9941740cb36fad5e8deebcb01bd2f  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
