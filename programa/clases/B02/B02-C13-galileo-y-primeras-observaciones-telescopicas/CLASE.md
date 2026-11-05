@@ -1,7 +1,7 @@
 # B02-C13 — Galileo y primeras observaciones telescópicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C12 — Tycho Brahe y observaciones sistemáticas](../B02-C12-tycho-brahe-y-observaciones-sistematicas/CLASE.md) · [Siguiente: B02-C14 — Kepler y reconstrucción de órbitas →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c14)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [← Anterior: B02-C12 — Tycho Brahe y observaciones sistemáticas](../B02-C12-tycho-brahe-y-observaciones-sistematicas/CLASE.md) · [Siguiente: B02-C14 — Kepler y reconstrucción de órbitas →](../B02-C14-kepler-y-reconstruccion-de-orbitas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ El telescopio mostró lo que no se veía y obligó a distinguir lo observado de 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B02-C12 — Tycho Brahe y observaciones sistemáticas](../B02-C12-tycho-brahe-y-observaciones-sistematicas/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C14 — Kepler y reconstrucción de órbitas →](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md#b02-c14)
+[← Anterior: B02-C12 — Tycho Brahe y observaciones sistemáticas](../B02-C12-tycho-brahe-y-observaciones-sistematicas/CLASE.md) · [📚 Bloque B02](../../../tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) · [Siguiente: B02-C14 — Kepler y reconstrucción de órbitas →](../B02-C14-kepler-y-reconstruccion-de-orbitas/CLASE.md)
 <!-- /nav -->
