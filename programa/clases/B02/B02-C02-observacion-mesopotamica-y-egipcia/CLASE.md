@@ -47,13 +47,13 @@ Con cuatro o cinco aciertos, sigue. Con tres o menos, repasa C01.
 
 ## 5. Un caso real: los diarios de Babilonia
 
-Los *diarios astronómicos babilónicos* son textos cuneiformes en acadio, redactados aproximadamente entre el 747 a. C. y el 61 a. C., unos 700 años. Registraban observaciones astronómicas (la mayor parte de cada sección mensual), pero también hechos políticos, clima y precios de productos como cebada y dátiles. Sobreviven varios cientos de tablillas, pocas completas, la mayoría datadas entre el 400 y el 60 a. C. y conservadas sobre todo en el Museo Británico; la edición moderna principal es la de Sachs y Hunger (S1).
+Los *diarios astronómicos babilónicos* son textos cuneiformes que la edición de referencia, de Abraham Sachs completada por Hermann Hunger (Academia Austriaca de Ciencias, 1988), reúne en tres volúmenes: diarios de 652 a 262 a. C., de 261 a 165 a. C. y de 164 a 60 a. C. Su introducción cuenta unas 1 200 piezas, casi todas dañadas. Cada diario sigue un orden: Luna, planetas, solsticios, equinoccios y fenómenos de Sirio, meteoros y cometas, clima, precios de productos, nivel del río y hechos históricos. El nombre acadio de las tablillas significa «vigilancia regular», y la introducción documenta que el templo Esangila de Babilonia empleaba personas encargadas de observar de forma regular; las anotaciones se hacían día a día y luego se compilaban diarios de medio año (S1).
 
-Lo importante: el registro continuo de siglos es lo que permite descubrir regularidades largas. Ten presente el límite: S1 es un artículo enciclopédico secundario que localiza la información, y los textos no declaran su propósito; la relación con la adivinación se infiere de paralelos con otros textos, no está dicha por las propias tablillas.
+Lo importante: el registro continuo de siglos es lo que permite descubrir regularidades largas. La misma introducción señala que los informes de eclipses conservados en tablillas llegan hasta la segunda mitad del siglo VIII a. C., lo que concuerda con la afirmación de Ptolomeo de que disponía de registros de eclipses más o menos continuos desde Nabonassar (747–734 a. C.) (S1). Ten presente el límite: S1 es una introducción preliminar, redactada antes de terminar la edición, y la copia que leímos está alojada en un sitio particular; no dice que los diarios tuvieran un propósito único, sino que los mismos observadores probablemente preparaban almanaques y tablas.
 
 ## 6. Vocabulario
 
-Un **registro** es una observación anotada con fecha. Una **regularidad** es un patrón que se repite en los registros. Un **eclipse** ocurre cuando el Sol, la Tierra y la Luna se alinean; en un eclipse lunar la Luna entra en la sombra de la Tierra y en uno solar la Luna tapa al Sol. El **mes sinódico** (29,53 d) va de luna nueva a luna nueva. El **mes dracónico** es el tiempo entre dos pasos de la Luna por el mismo nodo (punto donde su órbita cruza el plano de la órbita de la Tierra). El **mes anómalo** va de perigeo a perigeo (punto de mayor cercanía a la Tierra). El **Saros** es el intervalo de unos 6 585,3 días tras el cual los eclipses se repiten con geometría semejante (S2). El **calendario civil egipcio** tenía 365 días: 12 meses de 30 días y cinco días adicionales, sin días bisiestos (S3).
+Un **registro** es una observación anotada con fecha. Una **regularidad** es un patrón que se repite en los registros. Un **eclipse** ocurre cuando el Sol, la Tierra y la Luna se alinean; en un eclipse lunar la Luna entra en la sombra de la Tierra y en uno solar la Luna tapa al Sol. El **mes sinódico** (29,53 d) va de luna nueva a luna nueva. El **mes dracónico** es el tiempo entre dos pasos de la Luna por el mismo nodo (punto donde su órbita cruza el plano de la órbita de la Tierra). El **mes anómalo** va de perigeo a perigeo (punto de mayor cercanía a la Tierra). El **Saros** es el intervalo de unos 6 585,3 días tras el cual los eclipses se repiten con geometría semejante (S2). El **calendario civil egipcio** tenía 365 días: tres estaciones de cuatro meses de 30 días y cinco días adicionales al final (S3).
 
 ## 7. Modelo mental: tres relojes lunares que casi se sincronizan
 
@@ -86,7 +86,7 @@ Un Saros dura 6 585 días enteros más 0,3223 d (7,7 h). En ese tercio de día l
 
 ### 8.4 Egipto: un calendario civil sin bisiestos
 
-El calendario civil egipcio tuvo 365 días (12 meses de 30 días más cinco extra) sin días bisiestos, y por eso se desfasaba respecto del año solar un día cada cuatro años aproximadamente; el ciclo de unos 1 460 años (llamado ciclo sotíaco) lo asocia la bibliografía al orto helíaco de Sirio y a la crecida del Nilo. La fuente consultada advierte que la duración exacta es incierta y que el ciclo pudo aplicarse de forma esquemática. También indica que un decreto ptolemaico del 238 a. C. propuso un día extra cada cuatro años, que fue resistido y abandonado (S3). Con B02-C01, la deriva del calendario de 365 d es `0,242 d/año`.
+El calendario civil egipcio tuvo 365 días (tres estaciones de cuatro meses de 30 días, más cinco días adicionales); según Parker, su introducción se sitúa entre unos 2937 y 2821 a. C., un rango de más de un siglo (S3). Como el año civil quedaba corto un cuarto de día, se desfasaba respecto de las estaciones; Parker indica que volvía a su posición original tras un ciclo sotíaco de 1 460 años, ligado al orto helíaco de Sirio, que anunciaba la crecida del Nilo, y advierte que las coincidencias sotíacas se calculan con tablas astronómicas y son «más probables», no seguras (S3). Gautschy (2024) añade que hacia la primera mitad del tercer milenio a. C. ya existía un calendario civil de 365 días, algo notable cuando las ciudades-estado de Mesopotamia mantenían calendarios lunares, y que los especialistas discrepan sobre si siguió operando un calendario lunar paralelo (S4). Parker indica también que el decreto de Canopo de 239 a. C. ordenó un día extra cada cuatro años, que fue ignorado, y que el año bisiesto no se estableció firmemente hasta hacia 30–26 a. C. (S3). Con B02-C01, la deriva del calendario de 365 d es `0,242 d/año`.
 
 ### 8.5 Lo que decimos y lo que no decimos
 
@@ -110,11 +110,12 @@ Los valores de S2 son aproximados «hacia el año 2000», con períodos medios; 
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
-| S1 | «Babylonian astronomical diaries», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Babylonian_astronomical_diaries | Naturaleza, fechas, contenido y ediciones de los diarios | Página consultada el 2026-11-05; **fuente secundaria**, pendiente de contraste con Sachs y Hunger |
+| S1 | A. J. Sachs y H. Hunger, *Astronomical Diaries and Related Texts from Babylonia*, vols. I–III, Österreichische Akademie der Wissenschaften, Denkschriften 195 (Viena, 1988), «Introduction» | https://www.spirasolaris.ca/SHDiariesA12.pdf | Volúmenes y años cubiertos, ~1 200 piezas, contenido de los diarios, observadores del templo Esangila, registros de eclipses desde el siglo VIII a. C. | PDF (introducción preliminar) leído con PyMuPDF el 2026-11-05; copia alojada en un sitio particular, no en el editor |
 | S2 | NASA Eclipse Web Site, «Saros» | https://eclipse.gsfc.nasa.gov/SEsaros/SEsaros.html | 223/239/242 meses; Saros ≈ 6 585,3 d; origen del término | Consultada el 2026-11-05 |
-| S3 | «Egyptian calendar», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Egyptian_calendar | Estructura 12×30+5, sin bisiestos, ciclo sotíaco, decreto ptolemaico | Primeros ~100 000 caracteres consultados el 2026-11-05; **fuente secundaria** |
+| S3 | R. A. Parker, «Egyptian Astronomy, Astrology, and Calendrical Reckoning», *Complete Dictionary of Scientific Biography* (reproducido en Encyclopedia.com) | https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/egyptian-astronomy-astrology-and-calendrical-reckoning | Estructura del calendario civil, rango de introducción, ciclo sotíaco, decreto de Canopo (239 a. C.), incertidumbres | Consultada el 2026-11-05; enciclopedia académica (obra de referencia secundaria de un especialista) |
+| S4 | R. Gautschy, «Lunar Calendar», *UCLA Encyclopedia of Egyptology* 1(1) (2024), doi:10.5070/G9.3898, CC BY 4.0, revisada por pares | https://escholarship.org/uc/item/4zq1z7q1 | Calendario civil de 365 días en la primera mitad del tercer milenio a. C.; orto helíaco de Sirio; debate sobre calendarios lunares | PDF leído con PyMuPDF el 2026-11-05 |
 
-Límites: S1 y S3 son enciclopédicas y localizan fuentes sin sustituirlas; no se leyó a Sachs y Hunger ni a Parker o Neugebauer. Los cálculos de la sección 8.3 son nuestros.
+Límites: S1 es una introducción preliminar y no leímos los textos de las tablillas; S3 es una obra de referencia y S4 una síntesis enciclopédica; ninguna reemplaza fuentes primarias egipcias. Los cálculos de la sección 8.3 son nuestros.
 
 ## 12. Cómo ver el Saros
 
@@ -196,14 +197,14 @@ La **regularidad empírica** (Saros) predice con registros pero no explica; deja
 
 <details><summary>Solución comentada</summary>
 
-`365/0,25 = 1 460` años. S3 advierte que la duración exacta es incierta (sección 8.4).
+`365/0,25 = 1 460` años, la cifra del ciclo sotíaco que da S3; Parker advierte que las coincidencias se calculan con tablas y son «más probables», no ciertas (sección 8.4).
 </details>
 
 **Ejercicio 8.** El texto dice «los babilonios predijeron los eclipses con el Saros». ¿Qué parte se apoya en nuestras fuentes y qué parte falta?
 
 <details><summary>Solución comentada</summary>
 
-S2 respalda que los caldeos conocían un período de repetición; no respalda cómo lo usaron ni con qué precisión. Para eso hay que consultar a Aaboe y otros (citados por S1). El texto debe suavizarse.
+S2 respalda que los caldeos conocían un período de repetición; no respalda cómo lo usaron ni con qué precisión. Para eso hay que consultar bibliografía especializada de asiriología. El texto debe suavizarse.
 </details>
 
 **Ejercicio 9 · transferencia.** Un registro muestra eclipses cada 6 585 d con una deriva de 0,32 d. ¿Cuántos Saros tarda en acumular un día?
@@ -217,7 +218,7 @@ S2 respalda que los caldeos conocían un período de repetición; no respalda c�
 
 <details><summary>Solución comentada</summary>
 
-Porque conserva fechas y observaciones con una continuidad de siglos que no puede reproducirse; sirve de dato histórico. Su finalidad original no está declarada en los textos (S1).
+Porque conserva fechas y observaciones con una continuidad de siglos que no puede reproducirse; sirve de dato histórico. La introducción de S1 no atribuye a los diarios un propósito único.
 </details>
 
 **Ejercicio 11 · transferencia.** Un divulgador escribe «los egipcios tenían un calendario más exacto que el nuestro». Evalúa con la deriva.
@@ -287,7 +288,7 @@ Un registro largo permite hallar regularidades y predecir sin explicar; el Saros
 
 **Continuidad.** B02-C03 usa tu capacidad de **separar registro, regla y modelo** para ver cómo la astronomía griega pasó de las reglas a los modelos geométricos.
 
-**Referencias:** ver sección 11. S1 y S3 son fuentes enciclopédicas secundarias.
+**Referencias:** ver sección 11. S1 es una introducción de edición académica; S3 y S4 son obras de referencia.
 
 <!-- nav:bottom -->
 ---

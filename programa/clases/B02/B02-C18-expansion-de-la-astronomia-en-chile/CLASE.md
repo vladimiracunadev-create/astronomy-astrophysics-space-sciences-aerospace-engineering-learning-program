@@ -61,12 +61,12 @@ La astronomía en Chile se expande en tres etapas visibles en las fuentes.
 
 ```mermaid
 flowchart LR
-    A["1849-1853:<br/>expedición de Gilliss,<br/>observatorio en Santa Lucía"] --> B["1959-1976:<br/>búsqueda de sitios,<br/>ESO y CTIO"]
+    A["1849-1853:<br/>expedición de Gilliss,<br/>observatorio en Santa Lucía"] --> B["1958-1974:<br/>búsqueda de sitios,<br/>ESO y CTIO"]
     B --> C["Desde fines del s. XX:<br/>Paranal, Las Campanas,<br/>Chajnantor (ALMA)"]
     C --> D["Preguntas actuales:<br/>territorio, comunidades,<br/>cielos oscuros"]
 ```
 
-*Descripción textual:* tres etapas encadenadas: una expedición que da origen a un observatorio nacional (1849–1853), la búsqueda de sitios y llegada de observatorios internacionales (1959–1976) y la expansión posterior con Paranal, Las Campanas y ALMA; todas conducen a preguntas actuales sobre territorio, comunidades y cielos oscuros.
+*Descripción textual:* tres etapas encadenadas: una expedición que da origen a un observatorio nacional (1849–1853), la búsqueda de sitios y llegada de observatorios internacionales (1958–1974) y la expansión posterior con Paranal, Las Campanas y ALMA; todas conducen a preguntas actuales sobre territorio, comunidades y cielos oscuros.
 
 Analogía: una ciudad que crece por barrios. El límite: aquí cada «barrio» es una institución con un acuerdo propio con el Estado de Chile, que no consultamos.
 
@@ -78,7 +78,7 @@ S1 describe dos pequeños edificios enviados desde Washington y montados sobre p
 
 ### 8.2 Buscar un sitio
 
-Según un artículo enciclopédico sobre el Observatorio Interamericano de Cerro Tololo (S3), en 1959 el astrónomo Jürgen Stock llegó a Santiago a buscar sitio para la Universidad de Chicago, se identificó Cerro Tololo ese año, se seleccionó en 1962, la construcción comenzó en 1963 y las observaciones regulares, en 1965; el telescopio Blanco de 4 m se completó en 1974 y operó con fines científicos desde 1976. El observatorio está a unos 80 km al este de La Serena, a 2 207 m (S3). Son datos de una fuente secundaria.
+Según el blog oficial de NOIRLab (S3), la idea de un observatorio internacional en Chile la propuso en junio de 1958 Federico Rutllant, astrónomo de la Universidad de Chile, durante una visita al Observatorio Yerkes; en 1960, con el apoyo de la Fundación Nacional de Ciencias (NSF), AURA asumió el «proyecto Chile», y los informes de Kitt Peak de 1960–1961 registran que los estudios de sitios ya habían comenzado. Tras más de un año de pruebas la decisión quedó entre dos cerros de la región de Coquimbo, y el 23 de noviembre de 1962 se decidió oficialmente que sería Cerro Tololo; dos días después AURA compró casi 30 000 hectáreas y el 2 de diciembre se izó una bandera simbólica. Jürgen Stock, que supervisaba los estudios de sitio, sería el primer director. A comienzos de 1964 se allanó la cumbre, 14 m por debajo de la altura original; ese año comenzaron las excavaciones para los primeros telescopios; en 1967 se instaló y vio su primera luz el telescopio SMARTS de 1,5 m; el telescopio Blanco de 4 m fue puesto en servicio en 1974. La cumbre está a unos 2 200 m (S3). La misma fuente indica que «Tololo» significa «al borde del abismo» y que se piensa que el nombre lo dio el antiguo pueblo diaguita; una administradora del observatorio opina que adoptarlo «validó y respetó la cultura indígena», una valoración que es opinión de una persona de la institución.
 
 ### 8.3 ESO en Chile
 
@@ -102,7 +102,7 @@ Los observatorios están en un territorio con historia y comunidades. Las fuente
 |---|---|---|---|
 | altitud La Silla | altura | m | ≈ 2 400 (S5) |
 | altitud Paranal | altura | m | 2 635 (S6) |
-| altitud Cerro Tololo | altura | m | 2 207 (S3) |
+| altitud Cerro Tololo | altura | m | ≈ 2 200 (S3) |
 | altitud Chajnantor | altura | m | ≈ 5 000 (S7) |
 | antenas de ALMA | número | — | 66 (S7) |
 | `A` | área geométrica | m² | `N·π(D/2)²` |
@@ -117,7 +117,7 @@ Las fechas son las de las fuentes citadas; donde discrepan, lo decimos. Las áre
 |---|---|---|---|---|
 | S1 | Memoria Chilena (Biblioteca Nacional), «Observatorio astronómico del cerro Santa Lucía (1849-1872)» | https://www.memoriachilena.gob.cl/602/w3-article-661471.html | Gilliss, primera observación (6-dic-1849), estudiantes, compra de 1853, Moesta | Consultada el 2026-11-05; divulgación institucional |
 | S2 | Linda Hall Library, «James Melville Gilliss» (Scientist of the Day) | https://www.lindahall.org/about/news/scientist-of-the-day/james-melville-gilliss/ | Expedición 1848–1852; paralaje solar; traslados | Consultada el 2026-11-05 |
-| S3 | «Cerro Tololo Inter-American Observatory», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Cerro_Tololo_Inter-American_Observatory | Selección de sitio, fechas, Blanco, altitud | Consultada el 2026-11-05; **fuente secundaria** |
+| S3 | NOIRLab (NSF), blog «60 Years of Discovery from Cerro Tololo, the Observatory on the ‘Edge of the Abyss’» (23-nov-2022) | https://noirlab.edu/public/blog/anniversary-ctio | Propuesta de Rutllant (1958), AURA/NSF (1960), selección el 23-nov-1962, compra de terreno, obras de 1964, 1967, Blanco en 1974, altitud, origen del nombre | Página leída (HTML) el 2026-11-05; blog institucional con valoraciones del personal |
 | S4 | ESO, «About ESO» | https://www.eso.org/public/about-eso/ | Fundación 1962, sitios en Chile, ELT | Consultada el 2026-11-05 |
 | S5 | ESO, «La Silla» | https://www.eso.org/public/teles-instr/lasilla/ | Primer observatorio de ESO; ~2 400 m; ISO 9001 | Consultada el 2026-11-05 |
 | S6 | ESO, «Paranal Observatory» | https://www.eso.org/public/teles-instr/paranal-observatory/ | 2 635 m; VLT; ELT | Consultada el 2026-11-05 |
@@ -136,18 +136,18 @@ Esta tabla es la versión accesible de una línea de tiempo.
 | 1849 | Gilliss instala el observatorio; primera observación el 6 de diciembre | S1 |
 | 1852 | Termina la expedición | S1, S2 |
 | 1853 | Compra por el gobierno de Montt; Moesta, primer director | S1 |
-| 1959 | Búsqueda de sitio por J. Stock | S3 |
-| 1962 | Fundación de ESO; selección de Cerro Tololo | S4, S3 |
-| 1965 | Observaciones regulares en Cerro Tololo | S3 |
-| 1974–1976 | Telescopio Blanco: completado y operativo | S3 |
+| 1958 | Propuesta de Federico Rutllant (U. de Chile) de un observatorio internacional | S3 |
+| 1962 | Fundación de ESO (S4); selección de Cerro Tololo el 23 de noviembre (S3) | S4, S3 |
+| 1967 | Primera luz del telescopio SMARTS de 1,5 m en Cerro Tololo | S3 |
+| 1974 | Telescopio Blanco de 4 m puesto en servicio | S3 |
 
-Descripción larga: un salto de más de un siglo entre la etapa de Gilliss y la llegada de los grandes observatorios, con un núcleo de hitos entre 1959 y 1976.
+Descripción larga: un salto de más de un siglo entre la etapa de Gilliss y la llegada de los grandes observatorios, con un núcleo de hitos entre 1958 y 1974.
 
 ## 13. Ejemplo trabajado: ¿cuánto separa la etapa nacional de la internacional?
 
 **Paso 1.** De la primera observación de Gilliss (1849) a la fundación de ESO (1962): `1962 − 1849 = 113` años.
 
-**Paso 2.** Del inicio de observaciones regulares en Cerro Tololo (1965) a la operación científica del Blanco (1976): `11` años.
+**Paso 2.** De la selección de Cerro Tololo (1962) a la puesta en servicio del Blanco (1974): `12` años.
 
 **Paso 3. Altitudes.** Paranal supera a La Silla en `2 635 − 2 400 = 235 m` y Chajnantor a Paranal en `≈ 5 000 − 2 635 ≈ 2 365 m`.
 
@@ -249,7 +249,7 @@ Una ficha completa usa la sección 11 como modelo, distingue fuentes institucion
 
 ## 17. Actividad sin código: línea de tiempo y áreas
 
-Esta clase no usa script. En una hoja de cálculo arma la línea de tiempo de la sección 12 con una columna de fuente y estado, y calcula las áreas colectoras de los ejercicios 1 a 5. **Qué observar:** cuántos hitos descansan en fuentes secundarias. **Resultado esperado:** áreas de 113,1; 5 655; 462; 6 569 m²; los hitos de Cerro Tololo descansan en una fuente secundaria.
+Esta clase no usa script. En una hoja de cálculo arma la línea de tiempo de la sección 12 con una columna de fuente y estado, y calcula las áreas colectoras de los ejercicios 1 a 5. **Qué observar:** cuántos hitos descansan en fuentes institucionales y cuántos en divulgación. **Resultado esperado:** áreas de 113,1; 5 655; 462; 6 569 m²; los hitos de Cerro Tololo descansan en un blog institucional (S3).
 
 ## 18. Errores frecuentes y cómo corregirlos
 
@@ -286,13 +286,13 @@ Los observatorios están en un territorio con historia y comunidades vivas; habl
 
 ## 22. Para cerrar y seguir
 
-La astronomía profesional llegó a Chile con una expedición (1849) y se amplió con la llegada de observatorios internacionales desde 1959–1962; hoy el país concentra instrumentos de altura. Queda abierta la pregunta de cómo esa expansión se relaciona con el territorio y sus comunidades, que cerramos en C20 después de ver la exploración espacial en C19.
+La astronomía profesional llegó a Chile con una expedición (1849) y se amplió con la llegada de observatorios internacionales desde 1958–1962; hoy el país concentra instrumentos de altura. Queda abierta la pregunta de cómo esa expansión se relaciona con el territorio y sus comunidades, que cerramos en C20 después de ver la exploración espacial en C19.
 
 **Glosario español–inglés.** observatorio · *observatory*; paralaje solar · *solar parallax*; interferómetro · *interferometer*; área colectora · *collecting area*; cielos oscuros · *dark skies*; sitio astronómico · *astronomical site*.
 
 **Continuidad.** B02-C19 usa tu capacidad de **datar y contrastar fuentes** para recorrer la exploración espacial. B02-C20 retoma las preguntas de territorio y patrimonio.
 
-**Referencias:** ver sección 11. S3 es secundaria; S1 y S2 son divulgación institucional.
+**Referencias:** ver sección 11. S1, S2 y S3 son divulgación institucional.
 
 <!-- nav:bottom -->
 ---

@@ -49,7 +49,7 @@ Con cuatro o cinco aciertos, sigue. Con tres o menos, repasa C01 y C04.
 
 Un artículo de divulgación académica presentado en un simposio de la Unión Astronómica Internacional describe que el Cusco inca pudo tener hasta 16 torres en el horizonte para observar la salida del Sol, que fueron destruidas durante la extirpación española de la religión indígena, y que dos pilares sobreviven en el cerro Saywa, sobre Urubamba (S1). Un comunicado de 2007 sobre el sitio de Chankillo afirma, en cambio, que los «pilares solares» cercanos al Cusco descritos en textos del siglo XVI no habían sido localizados (S2).
 
-No sabemos, con lo que consultamos, quién tiene razón ni si se refieren a los mismos pilares; la diferencia puede deberse a investigaciones posteriores, a definiciones distintas o a errores. Lo que sí sabemos es que debemos decirlo: ante dos fuentes en tensión, no elegimos la que nos conviene. Límites: S1 es un texto breve de una sola autoría y S2 es un comunicado de prensa.
+La tesis doctoral de Gullberg (2009) coincide con S1 en lo esencial: según su resumen, los incas construyeron varias torres en los horizontes del Cusco para marcar salidas o puestas del Sol en fechas significativas, todas destruidas, y sobreviven dos pilares solares sobre el actual pueblo de Urubamba que, vistos desde un peñón de granito en el patio del palacio de Huayna Capac, marcan el amanecer del solsticio de junio (S6). Por lo tanto, la tensión con el comunicado de 2007 es parcial: el comunicado habla de los pilares descritos en textos del siglo XVI y su localización, y los pilares de Urubamba se han descrito después y por un autor que ya es la fuente de S1. No podemos decidir con lo consultado si se trata de los mismos pilares ni si hay contraste independiente; lo declaramos. Límites: S1 y S6 son del mismo autor, S1 es un texto breve y S2 es un comunicado de prensa.
 
 ## 6. Vocabulario
 
@@ -79,11 +79,13 @@ Según S1, el Sol ocupaba el centro de la religión y la agricultura inca; los i
 
 ### 8.2 Luz y sombra en las huacas
 
-S1 describe tres lugares cerca del Cusco: en Kenko Grande, dos gnomones tallados forman al amanecer del solsticio de junio un efecto que se conoce como «el despertar del puma»; en Lacco, una cueva se orienta al amanecer del solsticio de junio e ilumina un altar; y en la Huaca 44 dos círculos tallados permitirían señalar las seis direcciones solares principales. Son afirmaciones del autor sobre alineaciones, apoyadas en su libro de 2020, que no consultamos y que no hemos podido comprobar con mediciones propias.
+S1 describe tres lugares cerca del Cusco: en Kenko Grande, dos gnomones tallados forman al amanecer del solsticio de junio un efecto que se conoce como «el despertar del puma»; en Lacco, una cueva se orienta al amanecer del solsticio de junio e ilumina un altar; y en la Huaca 44 dos círculos tallados permitirían señalar las seis direcciones solares principales. Son afirmaciones del autor sobre alineaciones, apoyadas en su libro de 2020, que no consultamos; el resumen de su tesis de 2009 describe un estudio de 29 sitios cerca del Cusco, en el Valle Sagrado y entre Machu Picchu y Llactapata, en busca de alineaciones solares y de 25 motivos iconográficos (S6). No hemos podido comprobar ninguna con mediciones propias.
 
 ### 8.3 Constelaciones oscuras
 
 S1 describe, citando a Urton (1981), que los incas reconocían figuras en las nubes oscuras de la Vía Láctea: una serpiente (Machacuay), un sapo (Hanp'atu), una perdiz (Yutu, identificada con el Saco de Carbón), una llama (Yacana, entre Centaurus y Escorpio), una cría de llama (Unallamacha) y un zorro (Atoq); y relaciona la salida del zorro con la época de nacimiento de zorros terrestres hacia el 15–23 de diciembre. Esta relación entre cielo y ciclo biológico es un ejemplo de lo que significa una cosmovisión: el cielo y la vida están conectados en una misma explicación. Un estudio de la Universidad del Cusco (S3) advierte que la identificación de constelaciones incas está lejos de ser exhaustiva, por la dificultad de obtener datos y la heterogeneidad de las fuentes.
+
+Un estudio sobre una comunidad atacameña actual, la de Socaire (23°35′ S, 3 274 m, región de Antofagasta), recoge la misma idea con otra mirada: según Moyano (S7), allí el calendario combina fechas prehispánicas y cristianas (el 24 de junio coincide con San Juan, el mercado de ganado y el solsticio de invierno), la fecha más importante es la limpieza del canal de riego a fines de octubre, cuando se invoca a las montañas, y la vida social se organiza por el riego, la siembra y las fiestas. Para Socaire, Moyano sostiene que existe una relación entre observaciones astronómicas, culto a las montañas y prácticas agrícolas, y explica la percepción de una «mano gigante» en cinco volcanes con un marco psicológico propio (pareidolia, apofenia, hierofanía); esas interpretaciones son del autor, basadas en trabajo de campo entre diciembre de 2008 y octubre de 2009, y no una descripción hecha por la comunidad. Moyano cita también a otros autores para decir que en el Cusco se percibían un puma y una llama en la Vía Láctea cerca de α y β Centauri (S7), coherente con S1 pero de segunda mano.
 
 ### 8.4 Pléyades y lluvia
 
@@ -120,8 +122,10 @@ Los nombres quechuas se escriben como los dan las fuentes; la ortografía puede 
 | S3 | E. Pacheco, S. Flores y E. Salazar, «Some notes on the Inka constellations», *Proc. IAU* S260 (2011) | https://www.cambridge.org/core/journals/proceedings-of-the-international-astronomical-union/article/some-notes-on-the-inka-constellations/4EF980EAC67CC4BC78815551B9610A0E | Límites de la investigación sobre constelaciones incas | Solo el resumen, 2026-11-05 |
 | S4 | G. Magli, «At the other end of the sun's path. A new interpretation of Machu Picchu», *Nexus Network J.* 12 (2010), arXiv:0904.4882 | https://arxiv.org/abs/0904.4882 | Interpretación como centro de peregrinación | Solo el resumen, 2026-11-05 |
 | S5 | H. Neilson, «Overview of Indigenous rights and outer space for the IAU-CPS Policy Hub», arXiv:2412.06675 | https://arxiv.org/html/2412.06675v1 | Consentimiento libre, previo e informado; contaminación lumínica como pérdida cultural | Consultada el 2026-11-05 |
+| S6 | S. R. Gullberg, *The cosmology of Inca huacas*, tesis doctoral, James Cook University (2009), doi:10.25903/43yn-6232 | https://researchonline.jcu.edu.au/10346/ | Estudio de 29 sitios; torres del Cusco destruidas; dos pilares sobre Urubamba; River Intihuatana en el eje del solsticio | Solo el resumen del repositorio, 2026-11-05; tesis completa (23 MB) no leída |
+| S7 | R. Moyano, «Sub-tropical astronomy in the southern Andes: the ceque system in Socaire, Atacama, northern Chile», *Proc. IAU* Symp. 278 (2011), doi:10.1017/S1743921311012518 | https://doi.org/10.1017/S1743921311012518 | Comunidad atacameña (Lican Antay) de Socaire; calendario; culto a montañas; datos de campo 2008–2009; puma/llama del Cusco (citando a otros) | PDF (13 pp.) leído con PyMuPDF el 2026-11-05; ponencia de congreso; interpretaciones propias del autor |
 
-Límites: no consultamos a Urton, Zuidema, Bauer y Dearborn, Orlove ni el libro de Gullberg (2020). Las conversaciones con comunidades andinas actuales no están representadas en estas fuentes. Pendiente de fuente: ceques, calendario inca, y toda la astronomía de los Andes del sur.
+Límites: no consultamos a Urton, Zuidema, Bauer y Dearborn, Orlove ni el libro de Gullberg (2020); S1 y S6 son del mismo autor. Las conversaciones con comunidades andinas actuales no están representadas en estas fuentes. Pendiente de fuente: ceques, calendario inca, y toda la astronomía de los Andes del sur.
 
 ## 12. Cómo ver el cielo andino
 
@@ -140,13 +144,13 @@ Si lo dibujas, señala que las figuras están en las zonas **oscuras**, usa cont
 
 ## 13. Ejemplo trabajado: ¿qué sabemos de los pilares del Cusco?
 
-**Paso 1 · Afirmación A (S1).** Hubo hasta 16 torres; dos pilares sobreviven en Saywa.
+**Paso 1 · Afirmación A (S1, S6).** Hubo torres en los horizontes del Cusco, hasta 16 según S1; dos pilares sobreviven sobre Urubamba (cerro Saywa en S1).
 
 **Paso 2 · Afirmación B (S2, 2007).** Los pilares descritos en textos del siglo XVI no habían sido localizados.
 
-**Paso 3 · Posibles explicaciones.** Hallazgos posteriores a 2007; distintas definiciones de «pilar»; que S1 se refiera a otros; o error. No podemos decidir con lo consultado.
+**Paso 3 · Posibles explicaciones.** Hallazgos posteriores a 2007 (S6 describe dos pilares en Urubamba, del mismo autor que S1); distintas definiciones de «pilar»; que S1 se refiera a otros; o error. No podemos decidir con lo consultado.
 
-**Paso 4 · Redacción responsable.** «Una fuente propone que dos pilares sobreviven en Saywa; un comunicado de 2007 decía que los pilares descritos en las crónicas no habían sido localizados. Pendiente de contraste con la literatura arqueológica.»
+**Paso 4 · Redacción responsable.** «Un autor (Gullberg, 2009 y 2021) propone que dos pilares sobreviven sobre Urubamba; un comunicado de 2007 decía que los pilares descritos en las crónicas no habían sido localizados. Pendiente de contraste independiente con la literatura arqueológica.»
 
 **Sentido físico.** Una afirmación se sostiene tanto como su fuente y su fecha; la honestidad es dejar la tensión visible.
 
@@ -287,7 +291,7 @@ Una cosmovisión andina articula cielo, cultivo y paisaje; se la estudia cruzand
 
 **Continuidad.** B02-C06 usa tu capacidad de **declarar las capas de evidencia** para abordar, con mayor cautela, los pueblos originarios de Chile.
 
-**Referencias:** ver sección 11. S1 es breve y cita obras no consultadas; S2 es comunicado; S3 y S4 son solo resúmenes.
+**Referencias:** ver sección 11. S1 es breve y cita obras no consultadas; S6 es un resumen de tesis; S7 es una ponencia de congreso; S2 es comunicado; S3 y S4 son solo resúmenes.
 
 <!-- nav:bottom -->
 ---

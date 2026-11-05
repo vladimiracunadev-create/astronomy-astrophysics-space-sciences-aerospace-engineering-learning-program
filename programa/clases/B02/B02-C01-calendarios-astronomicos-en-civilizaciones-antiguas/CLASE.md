@@ -88,7 +88,7 @@ Una solución es añadir un día cada cierto número de años. El año juliano p
 
 ### 8.3 Dejar derivar y contar la vuelta
 
-Otra estrategia es no corregir y observar la deriva como un ciclo más. Un calendario civil de 365 días exactos recorre las estaciones completas en `365/0,25 ≈ 1 460` años si se compara con el año juliano de 365,25 d, un número que la tradición historiográfica asocia con el Egipto antiguo (esa asociación no la consultamos en una fuente primaria para esta clase; queda marcada como pendiente en la sección 11). Lo que importa aquí es el método: una deriva constante se convierte en un ciclo largo y medible.
+Otra estrategia es no corregir y observar la deriva como un ciclo más. El calendario civil egipcio tuvo 365 días, sin bisiestos; según Parker, su introducción se sitúa entre unos 2937 y 2821 a. C., y se desfasaba respecto de las estaciones hasta volver a su posición tras un ciclo sotíaco de 1 460 años, cifra que Parker presenta como «más probable», no segura (S7); Gautschy confirma un calendario civil de 365 días ya en la primera mitad del tercer milenio a. C. (S9). Con nuestro cálculo, un calendario de 365 días exactos recorre las estaciones completas en `365/0,25 = 1 460` años si se compara con el año juliano de 365,25 d. Lo que importa aquí es el método: una deriva constante se convierte en un ciclo largo y medible.
 
 ### 8.4 Combinar ciclos: el calendario circular
 
@@ -97,6 +97,8 @@ Un resumen estructural del calendario maya, según el resumen de un artículo de
 ### 8.5 Luna y Sol juntos: el ciclo metónico
 
 Doce meses sinódicos suman `12 × 29,53 = 354,36 d`, once días menos que un año. Para que un calendario lunar siga a las estaciones hay que añadir un mes de vez en cuando. Una regularidad útil es que `19 × 365,242 = 6 939,60 d` y `235 × 29,53 = 6 939,55 d`, que difieren en solo 0,05 d. Por eso 19 años equivalen casi exactamente a 235 meses, y un calendario lunisolar puede repartir 7 meses extra en 19 años. Los autores del estudio sobre el mecanismo de Anticitera describen un dial de calendario metónico en ese aparato (S4); es un indicio de que el ciclo se conocía y se usaba, no una descripción general de todos los calendarios griegos.
+
+Otra tradición resolvió el mismo problema intercalando meses. Según Stephenson, el calendario chino tradicional es lunisolar: la mayoría de los años tiene doce meses lunares de 29 o 30 días y cada dos o tres años se inserta un decimotercer mes para mantenerlo acorde con las estaciones; además, ya en la dinastía Shang se introdujo un ciclo de 60 días que continuó sin interrupción por más de 3 000 años (S8). Nuestro cálculo concuerda: doce meses sinódicos suman 354,36 d, unos 11 d menos que el año trópico, de modo que en dos años se acumulan unos 22 d y en tres unos 33 d, más que un mes de 29,5 d.
 
 ### 8.6 El cielo como calendario: marcar el horizonte
 
@@ -127,8 +129,11 @@ Todos los períodos son valores medios publicados, no efemérides, y se redondea
 | S4 | Freeth et al., «A Model of the Cosmos in the ancient Greek Antikythera Mechanism», *Sci. Rep.* 11, 5821 (2021), doi:10.1038/s41598-021-84310-w | https://pmc.ncbi.nlm.nih.gov/articles/PMC7955085 | Dial de calendario metónico; la reconstrucción es parcial | Texto consultado el 2026-11-05 (resumen y secciones indicadas por la herramienta) |
 | S5 | T. Chanier, «The Mayan Long Count Calendar», arXiv:1312.1456 | https://arxiv.org/abs/1312.1456 | Estructura: Haab' 365 d, Tzolk'in 260 d, tun/katun/baktun | Solo el resumen, 2026-11-05; sus propuestas de origen son hipótesis del autor |
 | S6 | Comunicado sobre Ghezzi y Ruggles, «Chankillo: a 2300-year-old solar observatory in coastal Peru», *Science* 315 (2007), doi:10.1126/science.1136415 | https://www.eurekalert.org/news-releases/735620 | 13 torres, dos puntos de observación, siglo IV a. C. según los autores | Comunicado consultado el 2026-11-05; el artículo no se leyó |
+| S7 | R. A. Parker, «Egyptian Astronomy, Astrology, and Calendrical Reckoning», *Complete Dictionary of Scientific Biography* (reproducido en Encyclopedia.com) | https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/egyptian-astronomy-astrology-and-calendrical-reckoning | Calendario civil egipcio de 365 días; rango de introducción; ciclo sotíaco de 1 460 años | Consultada el 2026-11-05; obra de referencia de un especialista |
+| S8 | F. R. Stephenson, «East Asian Astronomical Records», *Highlights of Astronomy* 12, UAI (2002), doi:10.1017/S1539299600013642 | https://doi.org/10.1017/S1539299600013642 | Calendario chino lunisolar; decimotercer mes cada dos o tres años; ciclo de 60 días | PDF leído con PyMuPDF el 2026-11-05 |
+| S9 | R. Gautschy, «Lunar Calendar», *UCLA Encyclopedia of Egyptology* 1(1) (2024), doi:10.5070/G9.3898, revisada por pares | https://escholarship.org/uc/item/4zq1z7q1 | Calendario civil de 365 días en la primera mitad del tercer milenio a. C. | PDF leído con PyMuPDF el 2026-11-05 |
 
-**Pendiente de fuente:** la asociación del calendario civil de 365 días con el Egipto antiguo y la regla gregoriana de 97 bisiestos cada 400 años son conocimiento general que no verificamos con una fuente consultada para esta clase. La regla gregoriana es aritmética verificable en el script; la asociación egipcia debe confirmarse antes de la revisión disciplinar. Las fuentes de orientación del bloque (NASA-DATA, IAU, ESO, ADS) son preliminares.
+**Pendiente de fuente:** la regla gregoriana de 97 bisiestos cada 400 años es aritmética verificable en el script, pero no consultamos una fuente sobre su origen histórico. S1 (nota de la Universidad de Chile) es divulgación institucional sobre el año nuevo mapuche; no tenemos una fuente académica sobre ese calendario ni sobre cómo se cuentan los días, y no la afirmamos. Las fuentes de orientación del bloque (NASA-DATA, IAU, ESO, ADS) son preliminares.
 
 ## 12. Cómo ver los calendarios
 
@@ -301,7 +306,7 @@ Un calendario es una decisión sobre qué ciclo respetar y qué error tolerar. S
 
 **Continuidad.** B02-C02 usa tu capacidad de **calcular la deriva de un ciclo** para entender cómo se registraron y predijeron fenómenos en Mesopotamia y Egipto. B02-C08 retomará el caso de Chankillo.
 
-**Referencias:** ver sección 11. S1 y S6 son divulgativas; S5 es solo resumen.
+**Referencias:** ver sección 11. S1 y S6 son divulgativas; S5 es solo resumen; S7, S8 y S9 son fuentes académicas.
 
 <!-- nav:bottom -->
 ---

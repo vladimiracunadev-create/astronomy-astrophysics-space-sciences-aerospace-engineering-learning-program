@@ -47,13 +47,13 @@ Con cuatro o cinco aciertos, sigue. Con tres o menos, repasa B01-C04.
 
 ## 5. Un caso real: Vega en una placa
 
-Según un artículo enciclopédico sobre astrofotografía, William Cranch Bond y John Adams Whipple obtuvieron una daguerrotipia de Vega el 16–17 de julio de 1850 con el refractor de 15 pulgadas de Harvard, considerada la primera fotografía de una estrella distinta del Sol; John William Draper habría hecho el 23 de marzo de 1840 un daguerrotipo de la Luna de 20 minutos de exposición, y Daguerre había intentado una Luna en 1839 con un resultado borroso por falta de seguimiento (S1). El mismo artículo advierte que la palabra «primero» varía de un pasaje a otro y que varios logros se atribuyen a personas que trabajaron bajo instrucciones de otras (S1).
+Astronomy.com recoge que el 16–17 de julio de 1850 William Bond y el daguerrotipista John Adams Whipple obtuvieron con el refractor de 15 pulgadas del Observatorio de Harvard una exposición de 90 segundos de Vega, que presenta como la primera fotografía de una estrella aparte del Sol (S4). La misma fuente advierte que esa afirmación se da sin discutir alternativas y que otras fuentes consultadas por búsqueda (no leídas) dan 100 segundos. Del hito lunar, Astronomy.com cuenta que John William Draper anunció el 23 de marzo de 1840 un daguerrotipo exitoso de una Luna de 17 días, y que se cree que Louis Daguerre fotografió la Luna el 2 de enero de 1839, pero no sobrevive detalle de esa imagen porque su laboratorio se incendió en marzo de 1839 (S1). La fuente de la Luna también deja una discrepancia sin explicar: un pie de foto habla de una toma del 26 de marzo de 1840 invertida como en un espejo, y el texto, de un anuncio del 23 (S1).
 
-Es útil como ejemplo de cuidado con la atribución. Límite: S1 es enciclopédico y secundario; no leímos las fuentes originales ni los registros de Harvard.
+Es útil como ejemplo de cuidado con la atribución. Límite: S1 y S4 son divulgación de una revista de astronomía, no estudios; no leímos las fuentes originales ni los registros de Harvard.
 
 ## 6. Vocabulario
 
-La **astrofotografía** es el registro fotográfico de objetos celestes. El **daguerrotipo** es una imagen sobre una placa metálica sensibilizada, de los primeros procedimientos fotográficos. La **placa de colodión húmedo** es una placa de vidrio sensibilizada que debe exponerse húmeda; la **placa seca** se prepara con antelación y se conserva, lo que facilita exposiciones largas (S1). La **exposición** es el tiempo de captura. El **seguimiento** (guiado) es mover el instrumento para compensar el giro de la Tierra. El **espectrograma** es la fotografía de un espectro (C16). Una **colección de placas** es un archivo de negativos de vidrio del cielo, como los más de 550 000 de Harvard (S2).
+La **astrofotografía** es el registro fotográfico de objetos celestes. El **daguerrotipo** es una imagen sobre una placa metálica sensibilizada, de los primeros procedimientos fotográficos. La **placa seca de gelatina** es una placa de vidrio con emulsión que se desarrolló a comienzos de la década de 1870 (Maddox) y que, según S5, llegó a ser más sensible y barata. La **exposición** es el tiempo de captura. El **seguimiento** (guiado) es mover el instrumento para compensar el giro de la Tierra. El **espectrograma** es la fotografía de un espectro (C16). Una **colección de placas** es un archivo de negativos de vidrio del cielo, como los más de 550 000 de Harvard (S2).
 
 ## 7. Modelo mental: luz acumulada y cielo que se mueve
 
@@ -76,15 +76,15 @@ Analogía: fotografiar a un corredor con obturador lento. El límite: aquí el �
 
 ### 8.1 Los primeros hitos
 
-S1 recoge: 1840, la Luna (20 minutos, J. W. Draper); 1845, el Sol (Foucault y Fizeau); 1850, Vega (Bond y Whipple); 1851, la corona solar en un eclipse (Berkowski, siguiendo instrucciones de Busch); 1863, el primer espectrograma fotográfico de estrellas (Miller y Huggins, con colodión húmedo); 1872, el espectro de Vega con líneas de absorción (Henry Draper); 1876, uso de placas secas en espectroscopía por los Huggins; 1880, la nebulosa de Orión con 51 minutos (Henry Draper); 1883, exposiciones de hasta 60 minutos con un reflector de 36 pulgadas (Common), las primeras en mostrar estrellas invisibles al ojo (S1). Son afirmaciones del artículo, con las cautelas de S1.
+Con las fuentes consultadas: 1840, daguerrotipo de la Luna de Draper, anunciado el 23 de marzo (S1; S5 lo califica de primera persona en fotografiar un objeto celeste); 1850, Vega con 90 s (Bond y Whipple, S4); comienzos de la década de 1870, placas secas de gelatina desarrolladas por Maddox (S5); 1880, la nebulosa de Orión de Henry Draper, hijo de John W. Draper, con una exposición de 51 minutos en placa seca, «esencialmente la primera astrofoto de cielo profundo» según S5; 1883, la nebulosa de Orión por Andrew Common, con 60 minutos el 26 de febrero de 1883, con un reflector de 36 pulgadas montado en el jardín de su casa en Ealing, una de once fotografías de la serie y una de las primeras de alta resolución de la nebulosa, que muestra detalles invisibles a simple vista (S6). No consultamos fuentes sobre espectros fotográficos, el Sol o los eclipses, por lo que no se tratan.
 
 ### 8.2 El problema del giro
 
-La Tierra gira una vez respecto de las estrellas en 23,9345 h (B01-C04), es decir, `360°/23,9345 h = 15,04° por hora = 0,2507° por minuto = 15,04″ por segundo de tiempo` (cerca del ecuador celeste). En 20 minutos: `5,01°`; en 51 minutos: `12,8°`; en 60 minutos: `15,0°`. Sin seguimiento, cada estrella dibuja un arco de esa longitud. En los casos de S1 las exposiciones largas tuvieron que hacerse con el instrumento siguiendo el cielo; no sabemos cómo lo hizo cada autor, porque S1 no lo detalla.
+La Tierra gira una vez respecto de las estrellas en 23,9345 h (B01-C04), es decir, `360°/23,9345 h = 15,04° por hora = 0,2507° por minuto = 15,04″ por segundo de tiempo` (cerca del ecuador celeste). En 90 segundos: `0,38°`; en 51 minutos: `12,8°`; en 60 minutos: `15,0°`. Sin seguimiento, cada estrella dibuja un arco de esa longitud. Para exposiciones largas, como las de S5 y S6, el instrumento tuvo que seguir el cielo; no sabemos cómo lo hizo cada autor, porque las fuentes consultadas no lo detallan.
 
 ### 8.3 Más luz acumulada
 
-En una exposición, lo que se acumula es luz: un objeto de la mitad de brillo necesita el doble de tiempo para dejar la misma marca (aproximación válida mientras la placa responda de forma lineal, lo que no siempre ocurre con las emulsiones antiguas). Por eso las exposiciones de decenas de minutos de S1 revelaron lo que el ojo no veía: el ojo no acumula (B01-C10).
+En una exposición, lo que se acumula es luz: un objeto de la mitad de brillo necesita el doble de tiempo para dejar la misma marca (aproximación válida mientras la placa responda de forma lineal, lo que no siempre ocurre con las emulsiones antiguas). Por eso las exposiciones de decenas de minutos de S5 y S6 revelaron lo que el ojo no veía: el ojo no acumula (B01-C10).
 
 ### 8.4 De la imagen al dato
 
@@ -92,48 +92,51 @@ Una fotografía es un dato si se registran fecha, hora, instrumento, exposición
 
 ### 8.5 La espectrofotografía
 
-Con la placa, los espectros de C16 se pudieron guardar, medir y comparar: S1 recoge la fotografía espectral de estrellas desde 1863 y las líneas de Vega en 1872. La combinación de espectro y archivo prepara la astronomía física del siglo XX.
+Con la placa, los espectros de C16 se podrían guardar, medir y comparar. Esta clase no consultó fuentes sobre los primeros espectros fotográficos, así que no fechamos ese hito; queda pendiente. La combinación de espectro y archivo prepara la astronomía física del siglo XX (afirmación nuestra).
 
 ### 8.6 Atribución cuidadosa
 
-S1 muestra que los hitos tienen matices: la Luna de Draper se califica de «primera exitosa»; el hito de la nebulosa se describe de dos maneras en el mismo artículo; Whipple trabajó bajo Bond; Berkowski siguió instrucciones de Busch, ausente. Por eso redactamos «según S1» y evitamos «el primero» sin matiz.
+Las fuentes muestran que los hitos tienen matices: S4 afirma un «primero» sin discutir alternativas; S1 recoge una creencia sobre Daguerre sin detalles y una discrepancia de fechas en un pie de foto; S5 llama a Draper «el primero» en fotografiar un objeto celeste y a su Orión «esencialmente» la primera astrofoto de cielo profundo; Whipple trabajó con Bond. Por eso redactamos «según la fuente» y evitamos «el primero» sin matiz.
 
 ## 9. Magnitudes, símbolos y unidades
 
 | Símbolo | Qué es | Unidad | Valor o nota |
 |---|---|---|---|
 | `ω` | velocidad de giro respecto de las estrellas | °/h | 15,04 |
-| `t_exp` | tiempo de exposición | min | 20; 51; 60 (S1) |
+| `t_exp` | tiempo de exposición | min | 1,5; 51; 60 (S4, S5, S6) |
 | `Δθ` | desplazamiento durante la exposición | grados | `ω·t_exp` |
 | placas de Harvard | cantidad | — | > 550 000 (S2) |
 
 ## 10. Convenciones y referencias
 
-El desplazamiento se da cerca del ecuador celeste; para objetos próximos al polo celeste el arco angular es menor. Las fechas son las de S1, con sus matices. No tratamos la sensibilidad de las emulsiones.
+El desplazamiento se da cerca del ecuador celeste; para objetos próximos al polo celeste el arco angular es menor. Las fechas son las de S1, S4, S5 y S6, con sus matices. No tratamos la sensibilidad de las emulsiones.
 
 ## 11. De dónde sale lo que afirmamos
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
-| S1 | «Astrophotography», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Astrophotography | Hitos de 1839–1883, exposiciones, atribuciones y sus cautelas | Primeros ~100 000 caracteres, 2026-11-05; **fuente secundaria** |
+| S1 | Astronomy.com, «March 23, 1840: The first photo of the Moon» | https://www.astronomy.com/today-in-the-history-of-astronomy/march-23-1840-the-first-photo-of-the-moon/ | Anuncio de Draper (23-mar-1840), Luna de 17 días, intento de Daguerre en 1839, discrepancia de fechas | Consultada el 2026-11-05; divulgación de una revista; no da el tiempo de exposición |
 | S2 | Harvard College Observatory, DASCH | https://dasch.cfa.harvard.edu/ | Más de 550 000 placas de vidrio; digitalización terminada en 2024; escalas de 100 años | Consultada el 2026-11-05 |
 | S3 | NASA NSSDC, *Earth Fact Sheet* | https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | Rotación sidérea 23,9345 h | Consultada el 2026-11-05 |
+| S4 | Astronomy.com, «July 16, 1850: Bond and Whipple photograph Vega» | https://www.astronomy.com/today-in-the-history-of-astronomy/july-16-1850-bond-and-whipple-photograph-vega/ | Vega, 16–17 jul 1850, refractor de 15 pulgadas, 90 s | Consultada el 2026-11-05; divulgación de una revista |
+| S5 | Las Cumbres Observatory, «Photography revolutionizes observations» (Space Book) | https://lco.global/spacebook/telescopes/photography-revolutionizes-observations/ | Draper 1840; placas secas (Maddox); Orión de H. Draper, 51 min, 1880; ventajas del registro fotográfico | Consultada el 2026-11-05; recurso educativo institucional |
+| S6 | Science Museum Group, «Photograph of the Great Nebula in Orion, 1883» | https://collection.sciencemuseumgroup.org.uk/objects/co486047 | Common, 26-feb-1883, 60 min, reflector de 36 pulgadas | Consultada el 2026-11-05; registro de colección de museo |
 
-Límites: S1 es enciclopédica y no sustituye fuentes primarias (Draper, Bond, Huggins); no consultamos la página de línea de tiempo de las placas de Harvard (no abrió) ni sobre los orígenes del archivo. El detalle de cómo se logró el seguimiento en cada hito queda pendiente.
+Límites: S1 y S4 son divulgación y S5 es educativa; ningún texto sustituye fuentes primarias (Draper, Bond, Common); no consultamos la página de línea de tiempo de las placas de Harvard (no abrió) ni sobre los orígenes del archivo. El detalle de cómo se logró el seguimiento en cada hito queda pendiente.
 
 ## 12. Cómo ver la cronología
 
 Esta tabla es la versión accesible de una línea de tiempo.
 
-| Año | Hito (según S1) | Exposición | Desplazamiento del cielo |
+| Año | Hito (según las fuentes) | Exposición | Desplazamiento del cielo |
 |---|---|---|---|
-| 1840 | Luna (J. W. Draper) | 20 min | 5,0° |
-| 1850 | Vega (Bond y Whipple) | no indicada | — |
-| 1863 | Espectro estelar (Miller y Huggins) | no indicada | — |
-| 1880 | Nebulosa de Orión (H. Draper) | 51 min | 12,8° |
-| 1883 | Imágenes de estrellas invisibles (Common) | hasta 60 min | 15,0° |
+| 1840 | Luna (J. W. Draper, S1) | no indicada | — |
+| 1850 | Vega (Bond y Whipple, S4) | 90 s | 0,38° |
+| década de 1870 | Placas secas de gelatina (S5) | — | — |
+| 1880 | Nebulosa de Orión (H. Draper, S5) | 51 min | 12,8° |
+| 1883 | Nebulosa de Orión (Common, S6) | 60 min | 15,0° |
 
-Si lo dibujas, usa una línea de tiempo con puntos de forma distinta y rotula cada año. Descripción larga: cinco hitos a lo largo de 43 años; las exposiciones crecen de 20 a 60 minutos.
+Si lo dibujas, usa una línea de tiempo con puntos de forma distinta y rotula cada año. Descripción larga: cinco hitos a lo largo de 43 años; las exposiciones crecen de 90 segundos a 60 minutos.
 
 ## 13. Ejemplo trabajado: ¿cuánto se mueve el cielo en 51 minutos?
 
@@ -143,13 +146,13 @@ Si lo dibujas, usa una línea de tiempo con puntos de forma distinta y rotula ca
 
 **Paso 3.** `Δθ = 15,041 × 0,85 = 12,78°`.
 
-**Paso 4. Incertidumbre.** La exposición de 51 min es una cifra de S1 (secundaria); el resultado supone un objeto cerca del ecuador celeste.
+**Paso 4. Incertidumbre.** La exposición de 51 min es una cifra de S5 (recurso educativo); el resultado supone un objeto cerca del ecuador celeste.
 
 **Sentido físico.** En 51 minutos, el cielo gira una distancia equivalente a unos 25 diámetros de la Luna llena (que mide unos 0,5°, dato de ejemplo): sin seguimiento no habría imagen.
 
 ## 14. Comparación de técnicas
 
-El **daguerrotipo** daba imágenes finas pero era poco sensible; el **colodión húmedo** era más sensible pero debía usarse húmedo; la **placa seca** se preparaba antes y permitía exposiciones largas (S1). Cada técnica cambió qué se podía registrar.
+El **daguerrotipo** (Draper 1840, Bond y Whipple 1850) fue el primer registro; las **placas secas de gelatina** de la década de 1870 llegaron a ser más sensibles y baratas, y con una de ellas Henry Draper expuso 51 minutos la nebulosa de Orión (S5). Cada técnica cambió qué se podía registrar; no consultamos fuentes que comparen sus sensibilidades.
 
 ## 15. Práctica guiada
 
@@ -167,11 +170,11 @@ El **daguerrotipo** daba imágenes finas pero era poco sensible; el **colodión 
 `15,041″` por segundo de tiempo (15,041° × 3 600″/° ÷ 3 600 s).
 </details>
 
-**Ejercicio 3 · casi autónomo.** ¿Cuántos grados se mueve el cielo en 20 minutos?
+**Ejercicio 3 · casi autónomo.** ¿Cuántos grados se mueve el cielo en los 90 segundos de la exposición de Vega?
 
 <details><summary>Solución comentada</summary>
 
-`15,041 × 20/60 = 5,01°`.
+`15,041 × 90/3 600 = 0,376°`: unos 23 minutos de arco, lo que muestra que ya con 90 s hacía falta seguimiento.
 </details>
 
 ## 16. Práctica autónoma, transferencia e integrador
@@ -197,11 +200,11 @@ El **daguerrotipo** daba imágenes finas pero era poco sensible; el **colodión 
 El doble; la linealidad es una aproximación.
 </details>
 
-**Ejercicio 7.** ¿Por qué una placa seca favorecía exposiciones largas?
+**Ejercicio 7.** ¿Qué ventaja atribuye S5 a las placas secas de gelatina?
 
 <details><summary>Solución comentada</summary>
 
-Porque se preparaba con antelación y no debía exponerse húmeda como el colodión (S1).
+Según S5 llegaron a ser más sensibles y baratas, lo que favoreció exposiciones largas como la de 51 minutos de la nebulosa de Orión. S5 no compara los procesos en detalle.
 </details>
 
 **Ejercicio 8.** ¿Qué metadatos necesita una placa para ser dato científico?
@@ -211,11 +214,11 @@ Porque se preparaba con antelación y no debía exponerse húmeda como el colodi
 Fecha y hora con escala de tiempo, lugar, instrumento, exposición, emulsión, dirección apuntada y operador.
 </details>
 
-**Ejercicio 9 · transferencia.** Un compañero dice: «Draper hizo la primera foto de la Luna». Reescríbelo con las cautelas de S1.
+**Ejercicio 9 · transferencia.** Un compañero dice: «Draper hizo la primera foto de la Luna». Reescríbelo con las cautelas de S1 y S5.
 
 <details><summary>Solución comentada</summary>
 
-«Según un artículo enciclopédico, J. W. Draper hizo en 1840 un daguerrotipo de la Luna de 20 minutos que se considera el primer logro exitoso; Daguerre lo había intentado en 1839 sin éxito.»
+«Según Astronomy.com, J. W. Draper anunció en marzo de 1840 un daguerrotipo exitoso de la Luna; se cree que Daguerre la había fotografiado en 1839, pero no sobrevive detalle de esa imagen.»
 </details>
 
 **Ejercicio 10 · transferencia.** Whipple trabajó bajo Bond y Berkowski siguió instrucciones de Busch. ¿Qué lección da para dar crédito?
@@ -241,7 +244,7 @@ Sigue la sección 13: cálculo de `Δθ`, tabla de fuentes, atribución matizada
 
 ## 17. Actividad sin código: tabla de giro
 
-Esta clase no usa script. En una hoja de cálculo calcula `Δθ` para exposiciones de 1 s, 10 s, 1 min, 20 min, 51 min y 60 min. **Qué observar:** el desplazamiento es proporcional al tiempo y en solo 4 segundos ya supera 1 minuto de arco (ejercicio 5). **Resultado esperado:** 0,004°; 0,042°; 0,25°; 5,01°; 12,78°; 15,04°.
+Esta clase no usa script. En una hoja de cálculo calcula `Δθ` para exposiciones de 1 s, 10 s, 1 min, 90 s, 51 min y 60 min. **Qué observar:** el desplazamiento es proporcional al tiempo y en solo 4 segundos ya supera 1 minuto de arco (ejercicio 5). **Resultado esperado:** 0,004°; 0,042°; 0,25°; 0,376°; 12,78°; 15,04°.
 
 ## 18. Errores frecuentes y cómo corregirlos
 

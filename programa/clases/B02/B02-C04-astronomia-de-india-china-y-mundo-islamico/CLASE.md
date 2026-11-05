@@ -80,11 +80,13 @@ Qué podemos concluir y qué no: que existen instrumentos monumentales de piedra
 
 ### 8.2 China: registros y calendario
 
-Un artículo enciclopédico recoge que se registraron unos 1 600 eclipses solares y lunares desde el 750 a. C., que los nombres de las mansiones lunares aparecen en huesos oraculares de la dinastía Shang, y que Guo Shoujing diseñó instrumentos y el calendario Shoushi (1281) en el siglo XIII, además del Observatorio de Gaocheng (1276). El mismo texto advierte que algunas fechas necesitan mejor sustento, y que una posible influencia de la matemática islámica sobre Guo es posibilidad, no hecho (S4). Por eso estas cifras se usan solo como orientación.
+Según Stephenson (S4), los registros más antiguos de China son los de la dinastía Shang (desde alrededor de 1300 a. C.): textos de adivinación grabados en huesos, con pocas observaciones; entre ellos se han identificado referencias a eclipses, pero la interpretación de muchos caracteres es incierta y las fechas están incompletas (nunca consta el año), de modo que no se pueden derivar fechas sin ambigüedad. Registros regulares aparecen en el *Chunqiu* (722–480 a. C.), con 36 observaciones de eclipses solares, la serie más antigua de este tipo en el mundo según S4. Tras la unificación de 221 a. C. se nombraron astrónomos imperiales para mantener una vigilancia regular del cielo, y desde la dinastía Han los tratados astronómicos de las historias dinásticas anotan eclipses, conjunciones, «estrellas visitantes» (en general novas y a veces supernovas), cometas, meteoros, auroras y manchas solares; S4 advierte que los registros originales fueron a menudo abreviados, que casi no sobreviven textos originales y que las series sistemáticas solo existen desde unos 200 a. C. (S4). Li Ciyuan contó 960 registros chinos de eclipses solares anteriores a 1500 d. C., procedentes sobre todo de historias dinásticas con registros del observatorio real (S7).
+
+Sobre el calendario, MacTutor (S6) recoge que Guo Shoujing calculó la longitud del año con una exactitud de 26 segundos, que el emperador Kublai Kan adoptó el nuevo calendario en 1281 y que se mantuvo 364 años; que construyó diecisiete instrumentos nuevos (trece instalados en el observatorio de Dadu, la actual Pekín, y cuatro portátiles) y mejoró el gnomon con una barra y el principio de cámara oscura; y que el observatorio de Pekín se estableció en 1279. S6 no trata ni el observatorio de Gaocheng ni la influencia islámica, de modo que no afirmamos nada al respecto.
 
 ### 8.3 El mundo islámico: Maraga
 
-Según un artículo enciclopédico, el observatorio de Maraga fue patrocinado por el gobernante ilkhánida Hulagu y dirigido por Nasir al-Din al-Tusi; su construcción comenzó en 1259 y duró unos tres a cinco años; funcionó más de cincuenta años; Mu'ayyid al-Din al-'Urdi supervisó la construcción de instrumentos, y el *Zij-i Ilkhani* son tablas planetarias asociadas a ese centro (S5). La página también señala que el diseño influyó en observatorios posteriores como el de Ulugh Beg en Samarcanda. No dice nada sobre Copérnico, de modo que no afirmamos esa relación; es una hipótesis que requiere otras fuentes.
+Según MacTutor (S5), tras conquistar Bagdad en 1258, Hulagu aceptó los planes de Nasir al-Din al-Tusi para un observatorio en Maraga, en el noroeste de Irán, donde había establecido su capital; la construcción comenzó en 1259 al oeste de la ciudad y el observatorio estuvo operativo en 1262. Astrónomos chinos ayudaron en su construcción y operación. Tenía un cuadrante mural de cobre de unos 4 m y un cuadrante azimutal inventado por al-Tusi, y una biblioteca con libros de muchas ciencias. El *Zij-i Ilkhani*, escrito primero en persa y luego traducido al árabe, se basó en unos 12 años de observaciones y contiene tablas para calcular posiciones planetarias y un catálogo de estrellas (S5). S5 no menciona a Copérnico ni a Ulugh Beg, de modo que no afirmamos esas relaciones; son hipótesis que requieren otras fuentes.
 
 ### 8.4 Comparar sin jerarquizar
 
@@ -96,8 +98,8 @@ Los tres casos usan evidencia de tipo distinto: un registro (supernova), un inst
 |---|---|---|---|
 | `H` | altura del Samrat Yantra | m | 27 (S3, fuente turística) |
 | años de construcción | Jantar Mantar | año | 1728–1734 (S3) |
-| inicio de Maraga | construcción | año | 1259 (S5) |
-| eclipses registrados en China | número | — | ≈ 1 600 desde el 750 a. C. (S4, secundaria) |
+| inicio de Maraga | construcción | año | 1259; operativo en 1262 (S5) |
+| eclipses solares del *Chunqiu* | número | — | 36 entre 722 y 480 a. C. (S4) |
 | evento | supernova | año | 1054 (S1) |
 
 ## 10. Convenciones y referencias
@@ -111,8 +113,10 @@ Las fechas son las que dan las fuentes; la mayoría son secundarias o divulgativ
 | S1 | Chandra X-ray Center, «Supernova Remnants: SNR 30 (Crab)», FAQ | https://chandra.harvard.edu/resources/faq/sources/snr/snr-30.html | China tiene los mejores registros de la supernova de 1054; registros árabes y europeos casi no sobreviven | Consultada el 2026-11-05; FAQ institucional |
 | S2 | D. A. Green y F. R. Stephenson, «The Historical Supernovae», arXiv:astro-ph/0301603 | https://arxiv.org/abs/astro-ph/0301603 | Registros de supernovas de hace dos milenios, mayoritariamente de Asia oriental para eventos antiguos | Solo el resumen, 2026-11-05 |
 | S3 | Incredible India (portal de turismo del Gobierno de India), «Jantar Mantar» | https://www.incredibleindia.gov.in/en/rajasthan/jaipur/jantar-mantar | Constructor, fechas, instrumentos, estatus patrimonial | Consultada el 2026-11-05; **fuente turística** |
-| S4 | «Chinese astronomy», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Chinese_astronomy | Eclipses, mansiones lunares, Guo Shoujing, Su Song | Primeros ~100 000 caracteres, 2026-11-05; **secundaria**, con aviso de falta de citas |
-| S5 | «Maragha observatory», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Maragha_observatory | Fundación, directores, instrumentos, influencia | Consultada el 2026-11-05; **secundaria** |
+| S4 | F. R. Stephenson, «East Asian Astronomical Records», en *Highlights of Astronomy* 12, Unión Astronómica Internacional (2002), doi:10.1017/S1539299600013642 | https://doi.org/10.1017/S1539299600013642 | Registros Shang, *Chunqiu* (36 eclipses), historias dinásticas, «estrellas visitantes», límites de las series | PDF (5 pp.) leído con PyMuPDF el 2026-11-05 |
+| S5 | MacTutor (Universidad de St Andrews), «Nasir al-Din al-Tusi» | https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Nasir/ | Maraga: 1259, 1262, instrumentos, biblioteca, *Zij-i Ilkhani* | Consultada el 2026-11-05; secundaria académica |
+| S6 | MacTutor (Universidad de St Andrews), «Guo Shoujing» | https://mathshistory.st-andrews.ac.uk/Biographies/Guo_Shoujing/ | Calendario de 1281, 17 instrumentos, observatorio de Pekín (1279) | Consultada el 2026-11-05; secundaria académica |
+| S7 | Li Ciyuan, resumen en la sesión «Astronomical Archives», IAU Commission 41 (Asamblea General 2000) | https://astro.uni-bonn.de/~pbrosche/iaucomm41/meetings/ga2000/as_li.html | 960 registros de eclipses solares chinos anteriores a 1500 d. C. y sus fuentes | Consultada el 2026-11-05; resumen de una charla |
 
 Límites: no leímos textos originales ni bibliografía especializada (por ejemplo, de historia de la astronomía india o islámica); la ficha oficial de UNESCO para Jantar Mantar no abrió. La India antigua no se trata porque no consultamos fuentes sobre ella, y la sección no debe leerse como que no existiera.
 
@@ -124,8 +128,8 @@ Esta tabla es la versión accesible de un mapa de casos.
 |---|---|---|---|
 | Supernova de 1054 | Registro | 1054 | S1, S2 |
 | Jantar Mantar | Instrumento monumental | 1728–1734 | S3 |
-| Mansiones lunares y eclipses | Registro | desde ≈ 750 a. C. | S4 |
-| Maraga | Institución | 1259 en adelante | S5 |
+| Registros chinos de eclipses | Registro | 722–480 a. C. (*Chunqiu*) | S4 |
+| Maraga | Institución | 1259–1262 (construcción) | S5 |
 
 Descripción larga: cuatro casos repartidos en tres tipos de evidencia, ordenados por cronología.
 
@@ -163,20 +167,20 @@ Supernova y mansiones: registro; Jantar Mantar: instrumento; Maraga: institució
 `1734 − 1728 = 6` años.
 </details>
 
-**Ejercicio 3 · casi autónomo.** ¿Cuántos años funcionó Maraga según S5, como mínimo, desde 1259 si estuvo activo más de 50 años?
+**Ejercicio 3 · casi autónomo.** ¿Cuántos años pasaron entre el comienzo de la construcción de Maraga y su puesta en marcha según S5?
 
 <details><summary>Solución comentada</summary>
 
-Más de 50 años, es decir, hasta después de ≈ 1309; la página indica que estaba casi inactivo a principios del siglo XIV (S5).
+`1262 − 1259 = 3` años (S5). El *Zij-i Ilkhani* se basó en unos 12 años de observaciones, así que el observatorio operó al menos esa duración.
 </details>
 
 ## 16. Práctica autónoma, transferencia e integrador
 
-**Ejercicio 4.** ¿Cuántos eclipses por siglo, en promedio, implica la cifra de 1 600 desde el 750 a. C.? Usa 2 800 años como estimación.
+**Ejercicio 4.** ¿Cuántos eclipses solares por siglo, en promedio, registra el *Chunqiu* (36 entre 722 y 480 a. C.)?
 
 <details><summary>Solución comentada</summary>
 
-`1 600/28 ≈ 57` por siglo. Es una cifra orientativa: la fuente no da fecha de término ni exactitud (S4).
+El período dura `722 − 480 = 242` años; `36/2,42 ≈ 15` por siglo. Es un promedio: no todos los eclipses visibles se registraron (S4 no da el número de eclipses totales ocurridos).
 </details>
 
 **Ejercicio 5.** Si la supernova de 1054 está a unos 6 500 años luz (valor de divulgación, no consultado en nuestras fuentes), ¿cuándo ocurrió realmente la explosión?
@@ -186,18 +190,18 @@ Más de 50 años, es decir, hasta después de ≈ 1309; la página indica que es
 Hace unos `1054 + 6 500` años desde 1054, es decir, unos 5 500 años a. C.: lo registrado en 1054 es el momento en que llegó la luz. Esta cifra de distancia no se consultó; el cálculo ilustra la idea de B01-C04.
 </details>
 
-**Ejercicio 6.** Clasifica S1 a S5 por tipo de fuente (institucional, académica, turística, enciclopédica).
+**Ejercicio 6.** Clasifica S1 a S7 por tipo de fuente (institucional, académica, turística, secundaria académica).
 
 <details><summary>Solución comentada</summary>
 
-S1 institucional (FAQ); S2 académica (resumen); S3 turística oficial; S4 y S5 enciclopédicas.
+S1 institucional (FAQ); S2 académica (resumen); S3 turística oficial; S4 y S7 académicas (Stephenson; Li Ciyuan, nota de congreso); S5 y S6 secundarias académicas (MacTutor).
 </details>
 
-**Ejercicio 7.** Reescribe «Guo Shoujing aprendió trigonometría islámica» de acuerdo con S4.
+**Ejercicio 7.** Reescribe «Guo Shoujing aprendió trigonometría islámica» de acuerdo con S6.
 
 <details><summary>Solución comentada</summary>
 
-«Un artículo enciclopédico indica que la matemática islámica pudo haber influido en la trigonometría esférica de Guo Shoujing; no es un hecho establecido» (S4).
+«Las fuentes consultadas (S6) no tratan una influencia islámica sobre Guo Shoujing; la afirmación no tiene sustento aquí y requiere otra fuente.»
 </details>
 
 **Ejercicio 8.** ¿Por qué no podemos decir que Maraga influyó en Copérnico?
@@ -280,7 +284,7 @@ Registros, instrumentos y textos de método son tres tipos de evidencia; cada tr
 
 **Continuidad.** B02-C05 usa tu capacidad de **declarar el tipo de evidencia** para acercarse a las cosmovisiones andinas con respeto.
 
-**Referencias:** ver sección 11. S3 es turística y S4 y S5 son enciclopédicas.
+**Referencias:** ver sección 11. S3 es turística; S4 y S7 son académicas; S5 y S6 son secundarias académicas.
 
 <!-- nav:bottom -->
 ---

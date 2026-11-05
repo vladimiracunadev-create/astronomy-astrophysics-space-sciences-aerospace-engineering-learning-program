@@ -33,14 +33,14 @@ Necesitas ángulos y proporciones. Cinco preguntas:
 
 1. ¿Qué fracción de la circunferencia es 7,2°?
 2. Si 1/50 de un círculo mide 5 000 unidades, ¿cuánto mide el círculo completo?
-3. ¿Cuántos kilómetros son 5 000 estadios si 1 estadio = 0,185 km?
+3. ¿Cuántos kilómetros son 5 000 estadios si 1 estadio = 0,2 km?
 4. ¿Qué es la incertidumbre de un resultado?
 5. ¿Qué diferencia hay entre un hecho y una interpretación?
 
 <details>
 <summary>Ver respuestas</summary>
 
-1. 7,2/360 = 1/50. 2. 250 000. 3. 925 km. 4. El rango en que puede estar el valor verdadero dadas las limitaciones de la medida. 5. El hecho se observa; la interpretación lo explica y puede cambiar.
+1. 7,2/360 = 1/50. 2. 250 000. 3. 1 000 km. 4. El rango en que puede estar el valor verdadero dadas las limitaciones de la medida. 5. El hecho se observa; la interpretación lo explica y puede cambiar.
 </details>
 
 ## 5. Un caso real: una máquina del mar Egeo
@@ -73,19 +73,19 @@ Analogía: medir la vuelta de una naranja contando una porción: si una cuña oc
 
 ### 8.1 Eratóstenes: el método
 
-Según el relato conservado, en Siene (actual Asuán) el Sol del mediodía del solsticio de verano iluminaba el fondo de un pozo, mientras que en Alejandría una vara vertical proyectaba sombra de unos 7,2°, o 1/50 de círculo. Con una distancia de unos 5 000 estadios entre ambas, la circunferencia sale `5 000 × 50 = 250 000` estadios (S2).
+Según MacTutor, Eratóstenes comparó la sombra de mediodía en el solsticio de verano en Siene (actual Asuán) con la de Alejandría, suponiendo el Sol tan lejano que sus rayos llegan paralelos. La distancia cenital en Alejandría fue de 7°12′ (7,2°, o 1/50 de círculo); con unos 5 000 estadios entre las ciudades la circunferencia sale `5 000 × 50 = 250 000` estadios, la cifra que se le atribuye (S2). MacTutor recoge además la tesis de Rawlins de que esa medición angular fue la única que Eratóstenes hizo por sí mismo, con un error de unos 16′ (S2); los 5 000 estadios aparecen en la fuente solo de forma indirecta, en el título de una referencia.
 
 ### 8.2 La unidad es el problema
 
-Dependiendo del valor del estadio, que se discute entre unos 160 m y unos 210 m, el resultado va de `250 000 × 0,160 = 40 000 km` a `250 000 × 0,210 = 52 500 km`. El valor moderno, calculado con el radio ecuatorial de 6 378,137 km (S3), es `2π × 6 378,137 = 40 075 km`. El resultado antiguo es compatible con el moderno solo para ciertas elecciones de estadio, de modo que la «exactitud» depende de una conversión incierta (S2). Además, la fuente señala que sus dos supuestos geográficos eran inexactos (Siene no está exactamente en el trópico ni sobre el mismo meridiano) y que los errores se compensaron en parte (S2).
+Según S2, la exactitud depende de la longitud del estadio, que los especialistas discuten desde hace mucho. Con 157,2 m (valor deducido de Plinio) el resultado es `250 000 × 0,1572 = 39 300 km`, lo que S2 llama «notable»; con 166,7 m (valor que propone Gulbekian) es `250 000 × 0,1667 = 41 675 km`, un resultado «menos bueno» en palabras de S2. El valor moderno, calculado con el radio ecuatorial de 6 378,137 km (S3), es `2π × 6 378,137 = 40 075 km`. La «exactitud» del resultado antiguo depende, entonces, de una conversión de unidades incierta: entre −1,9 % y +4,0 % con los dos valores citados, y más con otros que no consultamos.
 
 ### 8.3 Cómo conocemos a Eratóstenes
 
-Su libro *Sobre la medida de la Tierra* no se conserva; el método se conoce por una versión simplificada de Cleomedes (S2). Esto cambia el tipo de afirmación: no decimos «Eratóstenes midió 252 000 estadios» sin matiz, sino «una fuente tardía informa que...».
+Su tratado *Sobre la medida de la Tierra* se perdió; S2 indica que detalles del cálculo aparecen en obras de Cleomedes, Teón de Esmirna y Estrabón. Esto cambia el tipo de afirmación: no decimos «Eratóstenes midió 250 000 estadios» sin matiz, sino «según autores posteriores...».
 
 ### 8.4 Hiparco: precesión y catálogo
 
-Hiparco (hacia 190–120 a. C.) suele considerarse el descubridor de la precesión, hacia 127 a. C., al comparar longitudes de estrellas como Espiga con registros anteriores de Timocaris y Aristilo; concluyó que los equinoccios se desplazan al menos 1° por siglo. Su catálogo de unas 850 estrellas según fuentes romanas está perdido; el de Ptolomeo (1 025 estrellas) deriva de él y se discute cuánto copió de Hiparco (S4). También fue de los primeros en usar sistemáticamente datos babilónicos: ciertos períodos que Ptolomeo le atribuye ya aparecen en textos babilónicos. No está resuelto quién originó algunos valores (S4). Con esto, la astronomía griega se entiende como una herencia compartida, no como un origen aislado.
+Según MacTutor (S4), Hiparco nació hacia 190 a. C. en Nicea y murió hacia 120 a. C., probablemente en Rodas; se le atribuye el descubrimiento de la precesión, con una tasa de unos 46″ por año (el valor moderno es de unos 50,26″), y su cálculo del año a partir de datos babilónicos corresponde a unos 1° por siglo. Probablemente catalogó unas 850 estrellas hacia 129 a. C. Algunos sostienen que Ptolomeo basó su catálogo en el de Hiparco, pero S4 recoge el análisis de Vogt (1925), según el cual el catálogo de Ptolomeo no pudo producirse a partir de las posiciones de Hiparco. De Hiparco sobrevive una sola obra, el *Comentario a Arato y Eudoxo*; casi todo lo demás se conoce por Ptolomeo. S4 añade que, según Swerdlow y Toomer, Hiparco usó parámetros babilónicos y los contrastó con eclipses observados, que los confirmaron en lugar de descubrirlos; los especialistas discrepan sobre la exactitud de sus observaciones y sobre cuánto del *Almagesto* es suyo. Con esto, la astronomía griega se entiende como una herencia compartida, no como un origen aislado.
 
 ### 8.5 Anticitera como evidencia de ciclos
 
@@ -95,12 +95,12 @@ El estudio de 2021 indica que el mecanismo incluye un dial de calendario metóni
 
 | Símbolo | Qué es | Unidad | Valor o nota |
 |---|---|---|---|
-| `θ` | diferencia angular del Sol | grados | 7,2 (relato, S2) |
+| `θ` | diferencia angular del Sol | grados | 7,2 = 7°12′ (S2) |
 | `d` | distancia entre ciudades | estadios | ≈ 5 000 (S2) |
 | `C` | circunferencia | estadios o km | 250 000 estadios |
-| `e` | longitud del estadio | m | 160–210 (discutido, S2) |
+| `e` | longitud del estadio | m | 157,2 y 166,7 (dos propuestas, S2) |
 | `R_eq` | radio ecuatorial moderno | km | 6 378,137 (S3) |
-| precesión | desplazamiento | °/siglo | ≥ 1 (Hiparco, S4) |
+| precesión | desplazamiento | ″/año | ≈ 46 (Hiparco); ≈ 1°/siglo (S4) |
 
 ## 10. Convenciones y referencias
 
@@ -111,11 +111,11 @@ Los datos antiguos son relatos o reconstrucciones; los modernos son medidas. Los
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
 | S1 | Freeth et al., «A Model of the Cosmos in the ancient Greek Antikythera Mechanism», *Sci. Rep.* 11, 5821 (2021) | https://pmc.ncbi.nlm.nih.gov/articles/PMC7955085 | 82 fragmentos, un tercio sobrevive; dial metónico y de Saros; partes hipotéticas | Consultada el 2026-11-05 |
-| S2 | «Eratosthenes», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Eratosthenes | Método, 7,2°, 5 000 estadios, 250 000, incertidumbre del estadio, Cleomedes | Primeros ~100 000 caracteres, 2026-11-05; **secundaria** |
+| S2 | MacTutor (Universidad de St Andrews), «Eratosthenes of Cyrene» | https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/ | 7°12′, 250 000 estadios, valores del estadio (157,2 y 166,7 m), tratado perdido, Cleomedes, Teón y Estrabón, tesis de Rawlins | Consultada el 2026-11-05; archivo de historia de la matemática (secundaria académica) |
 | S3 | NASA NSSDC, *Earth Fact Sheet* | https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html | Radio ecuatorial 6 378,137 km | Consultada el 2026-11-05 |
-| S4 | «Hipparchus», artículo enciclopédico (Wikipedia, en) | https://en.wikipedia.org/wiki/Hipparchus | Precesión, catálogo, datos babilónicos, incertidumbres | Primeros ~100 000 caracteres, 2026-11-05; **secundaria** |
+| S4 | MacTutor (Universidad de St Andrews), «Hipparchus of Rhodes» | https://mathshistory.st-andrews.ac.uk/Biographies/Hipparchus/ | Fechas, precesión (46″/año; ~1°/siglo), catálogo de ~850 estrellas, disputa de Vogt, uso de datos babilónicos, obra superviviente | Consultada el 2026-11-05; secundaria académica |
 
-Límites: S2 y S4 son secundarias; no se leyó a Cleomedes, Ptolomeo ni a los editores del catálogo. Los cálculos de 8.2 son nuestros. La datación del mecanismo no se afirma.
+Límites: S2 y S4 son biografías académicas secundarias (MacTutor); no se leyó a Cleomedes, Estrabón ni a Ptolomeo. La anécdota del pozo de Siene no figura en S2 y se eliminó. Los cálculos de 8.2 son nuestros. La datación del mecanismo no se afirma.
 
 ## 12. Cómo ver el resultado
 
@@ -123,11 +123,10 @@ Esta tabla es la versión accesible de un gráfico de barras.
 
 | Estadio | Circunferencia (250 000 estadios) | Comparación con 40 075 km |
 |---|---|---|
-| 160 m | 40 000 km | −0,2 % |
-| 185 m | 46 250 km | +15 % |
-| 210 m | 52 500 km | +31 % |
+| 157,2 m | 39 300 km | −1,9 % |
+| 166,7 m | 41 675 km | +4,0 % |
 
-Si lo dibujas, empieza el eje en cero y marca el valor moderno con una línea. Descripción larga: según el estadio elegido, el resultado va de casi exacto a un tercio mayor.
+Si lo dibujas, empieza el eje en cero y marca el valor moderno con una línea. Descripción larga: con los dos valores de estadio que cita S2, el resultado queda entre un 2 % por debajo y un 4 % por encima del valor moderno.
 
 ## 13. Ejemplo trabajado: ¿qué tan bueno fue el resultado?
 
@@ -135,11 +134,11 @@ Si lo dibujas, empieza el eje en cero y marca el valor moderno con una línea. D
 
 **Paso 2 · Circunferencia.** `5 000 × 50 = 250 000` estadios.
 
-**Paso 3 · Conversión.** Con 0,185 km: `250 000 × 0,185 = 46 250 km`.
+**Paso 3 · Conversión.** Con 0,1667 km: `250 000 × 0,1667 = 41 675 km`.
 
-**Paso 4 · Comparación.** Frente a `40 075 km`: `(46 250 − 40 075)/40 075 = +15,4 %`.
+**Paso 4 · Comparación.** Frente a `40 075 km`: `(41 675 − 40 075)/40 075 = +4,0 %`.
 
-**Paso 5 · Incertidumbre.** El estadio tiene un rango de 160–210 m: el resultado va de −0,2 % a +31 % (sección 12).
+**Paso 5 · Incertidumbre.** Con los dos valores de S2 (157,2 y 166,7 m) el resultado va de −1,9 % a +4,0 % (sección 12); otros valores del estadio darían otros errores.
 
 **Sentido físico.** La conclusión no es «acertó» o «falló», sino que el método es sólido y que la medida antigua no puede juzgarse sin saber el valor de la unidad.
 
@@ -156,11 +155,11 @@ Una **fuente primaria** (el texto del propio autor) es lo ideal; muchas se perdi
 `250 000` estadios. Si usaste 7,2 en lugar de la fracción 1/50, revisa el cálculo: `360/7,2 = 50`.
 </details>
 
-**Ejercicio 2 · con una pista.** Convierte a km con 0,16 km por estadio. *Pista:* multiplica.
+**Ejercicio 2 · con una pista.** Convierte a km con 0,1572 km por estadio. *Pista:* multiplica.
 
 <details><summary>Solución comentada</summary>
 
-`250 000 × 0,16 = 40 000 km`.
+`250 000 × 0,1572 = 39 300 km`.
 </details>
 
 **Ejercicio 3 · casi autónomo.** Calcula la circunferencia moderna `2πR_eq` con 6 378,137 km.
@@ -172,11 +171,11 @@ Una **fuente primaria** (el texto del propio autor) es lo ideal; muchas se perdi
 
 ## 16. Práctica autónoma, transferencia e integrador
 
-**Ejercicio 4.** Calcula el error relativo para estadios de 0,185 km.
+**Ejercicio 4.** Calcula el error relativo para estadios de 0,1667 km.
 
 <details><summary>Solución comentada</summary>
 
-`+15,4 %` (sección 13).
+`+4,0 %` (sección 13).
 </details>
 
 **Ejercicio 5.** Si la sombra en Alejandría fuese de 7,5°, ¿qué circunferencia saldría con 5 000 estadios?
@@ -186,32 +185,32 @@ Una **fuente primaria** (el texto del propio autor) es lo ideal; muchas se perdi
 `360/7,5 = 48`; `5 000 × 48 = 240 000` estadios. Un cambio de 0,3° altera el resultado en un 4 %.
 </details>
 
-**Ejercicio 6.** ¿Qué distancia entre las ciudades daría 46 250 km con la misma sombra (7,2°)?
+**Ejercicio 6.** ¿Qué distancia entre las ciudades daría 41 675 km con la misma sombra (7,2°)?
 
 <details><summary>Solución comentada</summary>
 
-`46 250/50 = 925 km`.
+`41 675/50 = 833,5 km`.
 </details>
 
-**Ejercicio 7.** Calcula cuánto se habría desplazado un equinoccio en 150 años con 1° por siglo.
+**Ejercicio 7.** Calcula cuánto se habría desplazado un equinoccio en 150 años con 1° por siglo y con 46″ por año.
 
 <details><summary>Solución comentada</summary>
 
-`1,5°` como mínimo, porque Hiparco dio «al menos» 1° por siglo (S4).
+Con 1° por siglo: `1,5°`; con 46″/año: `46 × 150 = 6 900″ = 1,92°`. Las dos cifras son de S4 y difieren en un 28 %: la tasa depende de cómo se la derive.
 </details>
 
 **Ejercicio 8.** Explica por qué es importante que el libro de Eratóstenes no se conserve.
 
 <details><summary>Solución comentada</summary>
 
-Porque lo que sabemos viene de un resumen posterior, de modo que cifras y detalles pudieron cambiar (S2). Hay que escribir «según Cleomedes».
+Porque lo que sabemos viene de obras posteriores (Cleomedes, Teón, Estrabón), de modo que cifras y detalles pudieron cambiar (S2). Hay que escribir «según autores posteriores».
 </details>
 
 **Ejercicio 9 · transferencia.** Un artículo dice: «los griegos descubrieron los ciclos de los eclipses». Matiza con C02 y S4.
 
 <details><summary>Solución comentada</summary>
 
-Los períodos que se atribuyen a Hiparco aparecen ya en textos babilónicos; los griegos los usaron y los integraron en modelos (S4, S1). Es herencia compartida.
+Según S4, Hiparco usó parámetros babilónicos y los contrastó con eclipses observados; los griegos los integraron en modelos geométricos (S4, S1). Es herencia compartida.
 </details>
 
 **Ejercicio 10 · transferencia.** El estudio de Anticitera reconoce que no puede afirmar que su modelo sea una réplica. ¿Qué lección da sobre cómo presentar una reconstrucción?
@@ -237,7 +236,7 @@ Sigue el ejemplo de la sección 13: fracción, circunferencia, conversión con r
 
 ## 17. Actividad sin código: el rango del estadio
 
-Esta clase no usa script. Haz una tabla en papel o en una hoja de cálculo con estadios de 0,16 a 0,21 km, de a 0,01, calcula `250 000 × e` y el error relativo frente a 40 075 km. **Qué observar:** el error pasa por cero cerca de 0,16 km y crece linealmente. **Datos:** relato histórico (S2) y valor moderno (S3). **Resultado esperado:** 0,16 km → 40 000 km (−0,2 %); 0,185 km → 46 250 km (+15,4 %); 0,21 km → 52 500 km (+31,0 %).
+Esta clase no usa script. Haz una tabla en papel o en una hoja de cálculo con estadios de 0,150 a 0,190 km, de a 0,005, calcula `250 000 × e` y el error relativo frente a 40 075 km. **Qué observar:** el error pasa por cero cerca de 0,160 km y crece linealmente con el estadio. **Datos:** cifras históricas (S2) y valor moderno (S3). **Resultado esperado:** 0,1572 km → 39 300 km (−1,9 %); 0,1667 km → 41 675 km (+4,0 %); 0,190 km → 47 500 km (+18,5 %).
 
 ## 18. Errores frecuentes y cómo corregirlos
 
@@ -280,7 +279,7 @@ Los griegos y helenísticos convirtieron registros en modelos geométricos y mid
 
 **Continuidad.** B02-C04 usa tu capacidad de **distinguir tipos de fuente** para recorrer la astronomía de India, China y el mundo islámico.
 
-**Referencias:** ver sección 11. S2 y S4 son secundarias.
+**Referencias:** ver sección 11. S2 y S4 son secundarias académicas (MacTutor).
 
 <!-- nav:bottom -->
 ---
