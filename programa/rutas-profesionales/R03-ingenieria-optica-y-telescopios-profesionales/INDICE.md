@@ -4,6 +4,10 @@
 **Estado:** índice de especialización (solo títulos y referencias preliminares).
 **Estructura:** 8 módulos de 20 clases = 160 clases por ruta.
 
+## Recorrido
+
+- [Recorrido del rol: qué clases usar y en qué orden](RECORRIDO.md)
+
 ## Módulos
 
 - [R03-M01 — Diseño óptico computacional](./R03-M01-diseno-optico-computacional.md)

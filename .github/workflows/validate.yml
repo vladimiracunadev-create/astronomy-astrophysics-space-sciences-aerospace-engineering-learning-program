@@ -27,3 +27,9 @@ jobs:
 
       - name: Comprobar navegación entre clases
         run: python herramientas/actualizar_navegacion.py --check
+
+      - name: Validar recorridos por rol
+        run: python herramientas/validar_recorridos.py
+
+      - name: Comprobar recorridos generados
+        run: python herramientas/generar_recorridos.py --check

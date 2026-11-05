@@ -10,6 +10,8 @@ Esta carpeta contiene el contrato académico, editorial y técnico del **Program
    - [Plan de refinamiento curricular](PLAN_DE_REFINAMIENTO_CURRICULAR.md)
    - [Guía de redacción de clases](GUIA_DE_REDACCION_DE_CLASES.md)
    - [Estructura y conteo del catálogo](ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md)
+   - [Recorridos por rol](GUIA_DE_RECORRIDOS_POR_ROL.md)
+   - [Ampliación del tronco común](AMPLIACION_DEL_TRONCO_COMUN.md)
 4. [Matriz de cobertura temática](MATRIZ_DE_COBERTURA.md)
 5. [Mapa de rutas profesionales](MAPA_DE_RUTAS_PROFESIONALES.md)
 6. [Contrato visual y de experiencia](ESTANDAR_VISUAL_Y_DE_EXPERIENCIA.md)

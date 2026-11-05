@@ -4,6 +4,10 @@
 **Estado:** índice de especialización (solo títulos y referencias preliminares).
 **Estructura:** 8 módulos de 20 clases = 160 clases por ruta.
 
+## Recorrido
+
+- [Recorrido del rol: qué clases usar y en qué orden](RECORRIDO.md)
+
 ## Módulos
 
 - [R02-M01 — Relatividad avanzada](./R02-M01-relatividad-avanzada.md)

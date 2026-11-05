@@ -4,6 +4,10 @@
 **Estado:** índice de especialización (solo títulos y referencias preliminares).
 **Estructura:** 8 módulos de 20 clases = 160 clases por ruta.
 
+## Recorrido
+
+- [Recorrido del rol: qué clases usar y en qué orden](RECORRIDO.md)
+
 ## Módulos
 
 - [R13-M01 — Electrónica embarcada avanzada](./R13-M01-electronica-embarcada-avanzada.md)
