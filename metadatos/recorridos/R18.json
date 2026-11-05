@@ -1,5 +1,310 @@
 {
   "ruta_id": "R18",
-  "estado": "pendiente",
-  "rol": "Astronáutica tripulada y entrenamiento de astronautas"
+  "estado": "definido",
+  "rol": "Especialista en operaciones de vuelo tripulado y entrenamiento de tripulaciones",
+  "resumen": "Prepara y evalúa la actuación de una tripulación en vuelo: procedimientos, operaciones de cabina, actividades extravehiculares, emergencias, coordinación y simulaciones de misión.",
+  "decide": "Qué procedimientos, qué entrenamiento y qué criterios de desempeño hacen que una tripulación esté lista para una misión, y cuándo una simulación demuestra que no lo está.",
+  "entrega": "Planes y registros de entrenamiento, procedimientos y listas de comprobación, evaluaciones de desempeño y de simulaciones, informes postincidente y lecciones aprendidas.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Unidades, incertidumbre y fuentes",
+      "clases": [
+        "B01-C04",
+        "B01-C08",
+        "B01-C17",
+        "B01-C18",
+        "B01-C19"
+      ],
+      "capacidad": "Reportar una cifra de misión con unidad, incertidumbre y fuente.",
+      "omitible_si": "aprueba el diagnóstico de unidades y marcos"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática y física de apoyo",
+      "clases": [
+        "B03-C05..C08",
+        "B03-C11",
+        "B03-C13..C16",
+        "B05-C02..C09",
+        "B05-C11",
+        "B05-C13"
+      ],
+      "capacidad": "Resolver con cálculo simple tiempos, masas, energías y velocidades de una operación.",
+      "omitible_si": "aprueba el diagnóstico de matemática y física"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Química básica del aire y del agua",
+      "clases": [
+        "B06-C06",
+        "B06-C09..C11"
+      ],
+      "capacidad": "Relacionar presión, gases y fases con la atmósfera de una cabina.",
+      "omitible_si": "acredita química general universitaria"
+    },
+    {
+      "orden": 4,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Programación y registros",
+      "clases": [
+        "B07-C05..C09",
+        "B07-C14..C16",
+        "B07-C19"
+      ],
+      "capacidad": "Ordenar y analizar registros de entrenamiento y de simulación con un programa propio.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 5,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Estadística y evaluación de desempeño",
+      "clases": [
+        "B12-C01..C09",
+        "B12-C16",
+        "B13-C03..C05",
+        "B13-C12"
+      ],
+      "capacidad": "Medir desempeño y variabilidad con intervalos de confianza y sin sobreinterpretar muestras pequeñas.",
+      "nota": "B12-C09 (pruebas de hipótesis) es la base de R18-M07-C19 (evaluación de desempeño de equipo)."
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Órbita y trayectoria de una misión tripulada",
+      "clases": [
+        "B41-C01..C07",
+        "B41-C16",
+        "B46-C10..C12",
+        "B46-C16",
+        "B46-C20",
+        "B47-C10..C12"
+      ],
+      "capacidad": "Entender el perfil de una misión tripulada: órbita, encuentro, acoplamiento y cargas durante el ascenso.",
+      "nota": "Sin diseño de trayectorias; solo lo necesario para operar y entrenar."
+    },
+    {
+      "orden": 7,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ingeniería de sistemas de misión",
+      "clases": [
+        "B49-C03..C05",
+        "B49-C08",
+        "B49-C16..C19"
+      ],
+      "capacidad": "Entender los requisitos de una misión tripulada y su trazabilidad hasta los procedimientos.",
+      "nota": "Requisitos y verificación; no el diseño completo de misión."
+    },
+    {
+      "orden": 8,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Astronáutica y preparación de astronautas",
+      "clases": [
+        "B58-C01..C20"
+      ],
+      "capacidad": "Describir el ciclo de una tripulación: selección, entrenamiento, vuelo, retorno y reintegración.",
+      "nota": "Es el eje del rol. R18-M01 a R18-M08 profundizan C04, C05, C06, C07 a C13 y C20."
+    },
+    {
+      "orden": 9,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Control y operación de misiones espaciales",
+      "clases": [
+        "B57-C01..C20"
+      ],
+      "capacidad": "Conocer el segmento terrestre, los roles de control, los procedimientos y las anomalías desde el centro de control.",
+      "nota": "Un especialista en entrenamiento debe entender a quien da instrucciones a la tripulación desde tierra; R18-M08-C15 (control de misión) lo aplica a una simulación."
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Hábitats espaciales y soporte vital",
+      "clases": [
+        "B60-C01..C09",
+        "B60-C13",
+        "B60-C16..C18"
+      ],
+      "capacidad": "Describir cómo un volumen presurizado mantiene aire, agua, temperatura y seguridad.",
+      "nota": "Se omiten alimentos, agricultura, residuos y arquitectura lunar (C10 a C12, C19, C20); son de R20."
+    },
+    {
+      "orden": 11,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Medicina y biología espacial",
+      "clases": [
+        "B59-C01..C16",
+        "B59-C19"
+      ],
+      "capacidad": "Describir los efectos de la microgravedad y la radiación sobre el cuerpo y las contramedidas.",
+      "nota": "Conocimiento de contexto para un especialista en entrenamiento. Medicina clínica: R19; este recorrido no sustituye formación médica ni supervisión sanitaria."
+    },
+    {
+      "orden": 12,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Robótica tripulada y aviónica visible",
+      "clases": [
+        "B61-C01..C03",
+        "B61-C07",
+        "B61-C11..C13",
+        "B61-C17",
+        "B54-C09",
+        "B54-C12"
+      ],
+      "capacidad": "Reconocer qué hace el robot y qué hace el tripulante, y cómo se registran los estados del vehículo.",
+      "nota": "Robótica en profundidad: R17."
+    },
+    {
+      "orden": 13,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Integración y pruebas de extremo a extremo",
+      "clases": [
+        "B56-C16..C18"
+      ],
+      "capacidad": "Reconocer cómo se prueba de principio a fin un sistema tripulado y cómo se registran anomalías.",
+      "nota": "Ensayos físicos de componentes: R14 y R12."
+    },
+    {
+      "orden": 14,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Derecho, seguridad y ética tripulada",
+      "clases": [
+        "B63-C01..C03",
+        "B63-C08",
+        "B63-C10",
+        "B63-C18",
+        "B64-C13",
+        "B64-C15..C17"
+      ],
+      "capacidad": "Conocer el marco legal de la tripulación, la responsabilidad y la gestión de equipos multidisciplinarios.",
+      "nota": "Sin tratar el derecho espacial en profundidad (R23)."
+    },
+    {
+      "orden": 15,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Preparación física y factores humanos",
+      "clases": [
+        "R18-M01-C01..C10",
+        "R18-M01-C13..C20"
+      ],
+      "capacidad": "Describir el acondicionamiento previo al vuelo y sus límites, sin dar prescripciones médicas.",
+      "nota": "Repite B58-C04 y B59-C16; se omite nutrición (C11, C12), que corresponde a R19. Educativo: la prescripción individual requiere profesional de la salud."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Sistemas de vehículos tripulados",
+      "clases": [
+        "R18-M02-C01..C20"
+      ],
+      "capacidad": "Explicar y operar los sistemas de una cabina: presión, energía, ambiente, comunicaciones y configuración.",
+      "nota": "Repite B58-C05 y B60-C02 a C09; aquí se añade inventario, configuración y procedimientos."
+    },
+    {
+      "orden": 17,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Operaciones de cabina espacial",
+      "clases": [
+        "R18-M03-C01..C20"
+      ],
+      "capacidad": "Ejecutar procedimientos nominales con listas de comprobación y registrar anomalías.",
+      "nota": "Repite B58-C06 y B57-C08/C09."
+    },
+    {
+      "orden": 18,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Actividades extravehiculares",
+      "clases": [
+        "R18-M04-C01..C20"
+      ],
+      "capacidad": "Planificar y evaluar una actividad extravehicular, sus riesgos y sus emergencias simuladas.",
+      "nota": "Repite B58-C10 y C11; añade sistemas portátiles, comunicaciones y fatiga."
+    },
+    {
+      "orden": 19,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Robótica para tripulaciones",
+      "clases": [
+        "R18-M05-C01..C20"
+      ],
+      "capacidad": "Operar y coordinarse con manipuladores y robots compartidos en una estación.",
+      "nota": "Repite B58-C12 y B61-C11 a C13; aquí desde el punto de vista de la tripulación."
+    },
+    {
+      "orden": 20,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Coordinación y liderazgo de tripulación",
+      "clases": [
+        "R18-M07-C01..C20"
+      ],
+      "capacidad": "Aplicar comunicación cerrada, liderazgo distribuido y gestión del error humano.",
+      "nota": "Repite B58-C07, C08, C16 y C18; añade carga cognitiva y conciencia situacional."
+    },
+    {
+      "orden": 21,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Procedimientos de emergencia espacial",
+      "clases": [
+        "R18-M06-C01..C20"
+      ],
+      "capacidad": "Ejecutar y evaluar procedimientos de emergencia con priorización de decisiones.",
+      "nota": "Repite B58-C13; añade escenarios concretos y evaluación postincidente."
+    },
+    {
+      "orden": 22,
+      "fase": "integracion",
+      "tipo": "obligatoria",
+      "titulo": "Simulación integral de vuelo tripulado",
+      "clases": [
+        "R18-M08-C01..C20"
+      ],
+      "capacidad": "Planificar, ejecutar y evaluar una misión tripulada simulada de extremo a extremo.",
+      "nota": "Es el proyecto final del rol; reutiliza B58-C20 y B57-C20."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Entrenamiento aeronáutico, vuelo parabólico y pilotaje",
+      "motivo": "Ningún título trata aeronáutica, vuelo en aeronave, vuelo parabólico ni pilotaje; B47 es dinámica de lanzamiento y reentrada. Se verificó con la búsqueda de «piloto», «aeronave», «parabólico» y «aviación», que no devuelve títulos pertinentes.",
+      "propuesta": "bloque nuevo de aeronáutica y vuelo, o clases nuevas en B58"
+    },
+    {
+      "tema": "Selección psicológica y evaluación psicométrica de candidatos",
+      "motivo": "Sólo B58-C03 (Selección y aptitud) y R18-M07 tratan el tema; no hay clases de psicología aplicada, psicometría ni evaluación de aislamiento y estrés.",
+      "propuesta": "clases nuevas en B58 o módulo nuevo de R18"
+    },
+    {
+      "tema": "Análisis de necesidades de entrenamiento y diseño instruccional para tripulaciones",
+      "motivo": "R24-M05 trata resultados de aprendizaje pero para educación astronómica; ninguna clase trata análisis de tareas, currículo de entrenamiento ni evaluación de competencias de tripulación.",
+      "propuesta": "módulo nuevo de R18 o bloque nuevo transversal de formación"
+    },
+    {
+      "tema": "Idioma operacional y comunicación técnica multilingüe",
+      "motivo": "Sólo R24-M07-C13 trata lenguaje claro; no hay clases de comunicación técnica en idioma operacional ni de fraseología.",
+      "propuesta": "clases nuevas en B58 o módulo nuevo de R18"
+    }
+  ]
 }
