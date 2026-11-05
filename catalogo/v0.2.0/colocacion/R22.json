@@ -1,0 +1,819 @@
+{
+  "ruta_id": "R22",
+  "modulos": [
+    {
+      "modulo": "R22-M01",
+      "nombre": "Vigilancia y conciencia situacional espacial",
+      "temas": [
+        {
+          "clases_ruta": "R22-M01-C01..C02",
+          "tema": "Objetos residentes espaciales",
+          "destino": "existente",
+          "tronco": [
+            "B62-C01",
+            "B62-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M01-C03..C04",
+          "tema": "Sensores ópticos",
+          "destino": "existente",
+          "tronco": [
+            "B62-C03",
+            "B63-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M01-C05..C06",
+          "tema": "Radar de seguimiento",
+          "destino": "existente",
+          "tronco": [
+            "B62-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M01-C07..C08",
+          "tema": "Catálogos orbitales",
+          "destino": "existente",
+          "tronco": [
+            "B62-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M01-C09..C10",
+          "tema": "Identificación de objetos",
+          "destino": "existente",
+          "tronco": [
+            "B62-C02",
+            "B63-C04",
+            "B63-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M01-C11..C12",
+          "tema": "Calidad de datos SSA",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B62",
+            "titulo": "Calidad, latencia y trazabilidad de datos de vigilancia espacial",
+            "necesidad": "B32-C11 trata calidad de datos astronómicos; ninguna clase evalúa datos de vigilancia (latencia, cobertura, trazabilidad)."
+          }
+        },
+        {
+          "clases_ruta": "R22-M01-C13..C14",
+          "tema": "Situational awareness civil",
+          "destino": "existente",
+          "tronco": [
+            "B63-C13",
+            "B62-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M01-C15..C16",
+          "tema": "Compartición de información",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B62",
+            "titulo": "Intercambio de datos de vigilancia entre operadores y Estados",
+            "necesidad": "B62-C18 trata gestión del tráfico en general; no cubre formatos ni acuerdos de intercambio."
+          }
+        },
+        {
+          "clases_ruta": "R22-M01-C17..C18",
+          "tema": "Limitaciones de vigilancia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B62",
+            "titulo": "Cobertura, sesgos y límites de las redes de vigilancia",
+            "necesidad": "Aporta la comprensión de qué no ve una red de sensores; B62-C15 trata solo mega constelaciones."
+          }
+        },
+        {
+          "clases_ruta": "R22-M01-C19..C20",
+          "tema": "Reporte de evento orbital",
+          "destino": "existente",
+          "tronco": [
+            "B62-C20",
+            "B57-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M02",
+      "nombre": "Seguimiento de objetos orbitales",
+      "temas": [
+        {
+          "clases_ruta": "R22-M02-C01..C02",
+          "tema": "Observaciones de rastreo",
+          "destino": "existente",
+          "tronco": [
+            "B44-C01",
+            "B44-C02",
+            "B44-C03",
+            "B44-C04",
+            "B55-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M02-C03..C04",
+          "tema": "Órbitas preliminares",
+          "destino": "existente",
+          "tronco": [
+            "B44-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M02-C05..C06",
+          "tema": "Estimación de estados",
+          "destino": "existente",
+          "tronco": [
+            "B44-C07",
+            "B44-C08",
+            "B44-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M02-C07..C08",
+          "tema": "Catálogos TLE/OMM",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Formatos TLE y OMM de elementos orbitales",
+            "necesidad": "B62-C02 trata catálogos; nadie enseña a leer e interpretar los formatos TLE y OMM."
+          }
+        },
+        {
+          "clases_ruta": "R22-M02-C09..C10",
+          "tema": "Propagación SGP4",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B42",
+            "titulo": "Propagador SGP4 y teoría general de perturbaciones",
+            "necesidad": "B42-C20 compara propagadores pero no enseña SGP4/SDP4."
+          }
+        },
+        {
+          "clases_ruta": "R22-M02-C11..C12",
+          "tema": "Covarianza de seguimiento",
+          "destino": "existente",
+          "tronco": [
+            "B44-C11",
+            "B44-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M02-C13..C14",
+          "tema": "Asociación de objetos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Asociación de observaciones y correlación de pistas",
+            "necesidad": "Cubre vincular observaciones con objetos catalogados; B44-C15 trata geometría de red, no la asociación."
+          }
+        },
+        {
+          "clases_ruta": "R22-M02-C15..C16",
+          "tema": "Diferencias entre propagadores",
+          "destino": "existente",
+          "tronco": [
+            "B42-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M02-C17..C18",
+          "tema": "Validación con efemérides",
+          "destino": "existente",
+          "tronco": [
+            "B44-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M02-C19..C20",
+          "tema": "Informe de precisión de seguimiento",
+          "destino": "existente",
+          "tronco": [
+            "B44-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M03",
+      "nombre": "Riesgo de conjunciones y colisiones",
+      "temas": [
+        {
+          "clases_ruta": "R22-M03-C01..C02",
+          "tema": "Detección de conjunciones",
+          "destino": "existente",
+          "tronco": [
+            "B62-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C03..C04",
+          "tema": "Distancia de aproximación",
+          "destino": "existente",
+          "tronco": [
+            "B62-C05",
+            "B46-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C05..C06",
+          "tema": "Incertidumbre de posición",
+          "destino": "existente",
+          "tronco": [
+            "B44-C11",
+            "B62-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C07..C08",
+          "tema": "Probabilidad de colisión",
+          "destino": "existente",
+          "tronco": [
+            "B62-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C09..C10",
+          "tema": "Ventanas de maniobra",
+          "destino": "existente",
+          "tronco": [
+            "B62-C07",
+            "B46-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C11..C12",
+          "tema": "Restricciones operativas",
+          "destino": "existente",
+          "tronco": [
+            "B62-C07",
+            "B57-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C13..C14",
+          "tema": "Evaluación de alertas",
+          "destino": "existente",
+          "tronco": [
+            "B62-C20",
+            "B62-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C15..C16",
+          "tema": "Decisión documentada",
+          "destino": "existente",
+          "tronco": [
+            "B62-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C17..C18",
+          "tema": "Postanálisis de conjunción",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19",
+            "B62-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M03-C19..C20",
+          "tema": "Simulacro de respuesta a alerta",
+          "destino": "existente",
+          "tronco": [
+            "B63-C20",
+            "B62-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M04",
+      "nombre": "Mitigación de desechos espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R22-M04-C01..C02",
+          "tema": "Fragmentación orbital",
+          "destino": "existente",
+          "tronco": [
+            "B62-C09",
+            "B62-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C03..C04",
+          "tema": "Entorno de residuos",
+          "destino": "existente",
+          "tronco": [
+            "B62-C01",
+            "B62-C09",
+            "B62-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C05..C06",
+          "tema": "Diseño para desorbitación",
+          "destino": "existente",
+          "tronco": [
+            "B62-C11",
+            "B62-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C07..C08",
+          "tema": "Pasivación al fin de vida",
+          "destino": "existente",
+          "tronco": [
+            "B62-C11",
+            "B62-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C09..C10",
+          "tema": "Reentrada no controlada",
+          "destino": "existente",
+          "tronco": [
+            "B62-C14",
+            "B47-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C11..C12",
+          "tema": "Seguimiento de fragmentos",
+          "destino": "existente",
+          "tronco": [
+            "B62-C03",
+            "B62-C04",
+            "B62-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C13..C14",
+          "tema": "Prevención de colisiones",
+          "destino": "existente",
+          "tronco": [
+            "B62-C07",
+            "B46-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C15..C16",
+          "tema": "Medición de sostenibilidad",
+          "destino": "existente",
+          "tronco": [
+            "B62-C19",
+            "B62-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M04-C17..C18",
+          "tema": "Normas de mitigación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B62",
+            "titulo": "Directrices técnicas de mitigación de desechos (IADC, ISO 24113)",
+            "necesidad": "B62-C11 enseña diseño para mitigación; ninguna clase trata las directrices de IADC e ISO ni su verificación."
+          }
+        },
+        {
+          "clases_ruta": "R22-M04-C19..C20",
+          "tema": "Evaluación de plan de fin de vida",
+          "destino": "existente",
+          "tronco": [
+            "B62-C12",
+            "B62-C13"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M05",
+      "nombre": "Seguridad de infraestructura crítica espacial",
+      "temas": [
+        {
+          "clases_ruta": "R22-M05-C01..C02",
+          "tema": "Segmentos críticos de sistema",
+          "destino": "existente",
+          "tronco": [
+            "B63-C16",
+            "B57-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C03..C04",
+          "tema": "Amenazas de disponibilidad",
+          "destino": "existente",
+          "tronco": [
+            "B63-C14",
+            "B63-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C05..C06",
+          "tema": "Pérdidas de comunicación",
+          "destino": "existente",
+          "tronco": [
+            "B63-C15",
+            "B55-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C07..C08",
+          "tema": "Fallos de energía",
+          "destino": "existente",
+          "tronco": [
+            "B52-C11",
+            "B57-C12",
+            "B52-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C09..C10",
+          "tema": "Dependencias de proveedores",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Dependencias de proveedores y cadena de suministro de infraestructura espacial",
+            "necesidad": "Aporta el análisis de dependencias y concentración de proveedores; B63-C16 solo introduce infraestructura crítica."
+          }
+        },
+        {
+          "clases_ruta": "R22-M05-C11..C12",
+          "tema": "Respaldo de estaciones",
+          "destino": "existente",
+          "tronco": [
+            "B57-C17",
+            "B55-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C13..C14",
+          "tema": "Gestión de incidentes",
+          "destino": "existente",
+          "tronco": [
+            "B57-C15",
+            "B63-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C15..C16",
+          "tema": "Monitoreo de integridad",
+          "destino": "existente",
+          "tronco": [
+            "B57-C13",
+            "B54-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M05-C17..C18",
+          "tema": "Continuidad de servicio",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Continuidad de servicio: impacto y objetivos de recuperación",
+            "necesidad": "Enseña análisis de impacto y objetivos de tiempo de recuperación; B57-C14 trata solo procedimientos."
+          }
+        },
+        {
+          "clases_ruta": "R22-M05-C19..C20",
+          "tema": "Modelo defensivo de riesgos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Modelo defensivo de riesgos de infraestructura espacial",
+            "necesidad": "Cubre identificar activos, amenazas y controles defensivos; B49-C16 trata riesgos técnicos y B63-C14 amenazas sin modelo."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M06",
+      "nombre": "Ciberdefensa y continuidad satelital",
+      "temas": [
+        {
+          "clases_ruta": "R22-M06-C01..C02",
+          "tema": "Modelo de amenazas satelital",
+          "destino": "existente",
+          "tronco": [
+            "B63-C14",
+            "B54-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M06-C03..C04",
+          "tema": "Seguridad de estaciones terrestres",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Seguridad de estaciones terrestres y segmento de control",
+            "necesidad": "Aporta controles de seguridad física y lógica de estaciones; B55-C14 trata solo estaciones como infraestructura de enlace."
+          }
+        },
+        {
+          "clases_ruta": "R22-M06-C05..C06",
+          "tema": "Autenticación de telecomandos",
+          "destino": "existente",
+          "tronco": [
+            "B57-C07",
+            "B55-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M06-C07..C08",
+          "tema": "Cifrado de enlaces",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B55",
+            "titulo": "Protección criptográfica de enlaces espaciales",
+            "necesidad": "B55 trata modulación y codificación de errores; la confidencialidad y autenticación (CCSDS SDLS) no está cubierta."
+          }
+        },
+        {
+          "clases_ruta": "R22-M06-C09..C10",
+          "tema": "Control de accesos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Control de accesos y gestión de identidades en operaciones",
+            "necesidad": "Cubre privilegios mínimos, segregación de roles y auditoría; B57-C07 trata solo autorización de telecomandos."
+          }
+        },
+        {
+          "clases_ruta": "R22-M06-C11..C12",
+          "tema": "Inventario y parches",
+          "destino": "existente",
+          "tronco": [
+            "B54-C13",
+            "B54-C18",
+            "B49-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M06-C13..C14",
+          "tema": "Detección de anomalías",
+          "destino": "existente",
+          "tronco": [
+            "B57-C13",
+            "B54-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M06-C15..C16",
+          "tema": "Respuesta a incidentes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Respuesta a incidentes cibernéticos en operaciones de misión",
+            "necesidad": "Aporta el ciclo detección, contención, erradicación y lecciones; B57-C15 trata emergencias operativas, no incidentes cibernéticos."
+          }
+        },
+        {
+          "clases_ruta": "R22-M06-C17..C18",
+          "tema": "Recuperación segura",
+          "destino": "existente",
+          "tronco": [
+            "B57-C14",
+            "B54-C11",
+            "B54-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M06-C19..C20",
+          "tema": "Ejercicio de defensa controlada",
+          "destino": "existente",
+          "tronco": [
+            "B54-C19",
+            "B63-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M07",
+      "nombre": "Geopolítica y doctrina espacial",
+      "temas": [
+        {
+          "clases_ruta": "R22-M07-C01..C02",
+          "tema": "Historia de seguridad espacial",
+          "destino": "existente",
+          "tronco": [
+            "B63-C12",
+            "B02-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M07-C03..C04",
+          "tema": "Doctrinas declaradas públicamente",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Doctrinas y políticas espaciales declaradas públicamente",
+            "necesidad": "B63-C11 y C12 tratan límites y la historia; ninguna enseña a leer las doctrinas públicas de los Estados."
+          }
+        },
+        {
+          "clases_ruta": "R22-M07-C05..C06",
+          "tema": "Tratados y restricciones",
+          "destino": "existente",
+          "tronco": [
+            "B63-C01",
+            "B63-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M07-C07..C08",
+          "tema": "Protección de servicios duales",
+          "destino": "existente",
+          "tronco": [
+            "B63-C16",
+            "B63-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M07-C09..C10",
+          "tema": "Diplomacia de incidentes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Diplomacia y comunicación entre Estados ante incidentes espaciales",
+            "necesidad": "B63-C20 simula la respuesta institucional; la diplomacia entre Estados no está cubierta."
+          }
+        },
+        {
+          "clases_ruta": "R22-M07-C11..C12",
+          "tema": "Normas de conducta responsable",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Normas de comportamiento responsable en el espacio",
+            "necesidad": "B63-C11 trata límites militares; las normas voluntarias de conducta responsable no tienen clase."
+          }
+        },
+        {
+          "clases_ruta": "R22-M07-C13..C14",
+          "tema": "Escalada y desescalada",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Escalada, desescalada y medidas de fomento de la confianza",
+            "necesidad": "Enseña la dinámica de escalada y medidas de transparencia; sin clase equivalente."
+          }
+        },
+        {
+          "clases_ruta": "R22-M07-C15..C16",
+          "tema": "Desinformación y atribución",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Atribución de incidentes y desinformación en el dominio espacial",
+            "necesidad": "B01-C19 trata desinformación general; la atribución técnica y política de incidentes espaciales no está cubierta."
+          }
+        },
+        {
+          "clases_ruta": "R22-M07-C17..C18",
+          "tema": "Ética de decisiones",
+          "destino": "existente",
+          "tronco": [
+            "B63-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M07-C19..C20",
+          "tema": "Análisis comparado de políticas",
+          "destino": "existente",
+          "tronco": [
+            "B63-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R22-M08",
+      "nombre": "Gestión institucional de crisis espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R22-M08-C01..C02",
+          "tema": "Detección de crisis",
+          "destino": "existente",
+          "tronco": [
+            "B57-C13",
+            "B63-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M08-C03..C04",
+          "tema": "Clasificación de impacto",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Clasificación de severidad e impacto de incidentes espaciales",
+            "necesidad": "Aporta escalas de severidad para priorizar la respuesta; B39-C10 clasifica solo impactos de asteroides."
+          }
+        },
+        {
+          "clases_ruta": "R22-M08-C05..C06",
+          "tema": "Roles institucionales",
+          "destino": "existente",
+          "tronco": [
+            "B57-C03",
+            "B63-C06",
+            "B63-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M08-C07..C08",
+          "tema": "Comunicaciones de crisis",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Comunicación de crisis con operadores, autoridades y público",
+            "necesidad": "B64-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta."
+          }
+        },
+        {
+          "clases_ruta": "R22-M08-C09..C10",
+          "tema": "Coordinación internacional",
+          "destino": "existente",
+          "tronco": [
+            "B63-C06",
+            "B62-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M08-C11..C12",
+          "tema": "Preservación de evidencias",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Preservación de evidencias y cadena de custodia de datos de incidentes",
+            "necesidad": "B56-C18 trata trazabilidad de ensayos; la custodia de evidencia de incidentes no está cubierta."
+          }
+        },
+        {
+          "clases_ruta": "R22-M08-C13..C14",
+          "tema": "Continuidad de servicios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
+            "titulo": "Planes de continuidad institucional y de operaciones",
+            "necesidad": "Cubre continuidad de funciones institucionales; sin clase equivalente."
+          }
+        },
+        {
+          "clases_ruta": "R22-M08-C15..C16",
+          "tema": "Planes de recuperación",
+          "destino": "existente",
+          "tronco": [
+            "B57-C14",
+            "B57-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M08-C17..C18",
+          "tema": "Simulacro de mesa",
+          "destino": "existente",
+          "tronco": [
+            "B63-C20",
+            "B58-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R22-M08-C19..C20",
+          "tema": "Informe posterior al incidente",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19",
+            "B62-C20"
+          ]
+        }
+      ]
+    }
+  ]
+}

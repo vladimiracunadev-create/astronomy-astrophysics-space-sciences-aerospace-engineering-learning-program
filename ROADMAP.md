@@ -4,13 +4,13 @@ Este roadmap resume la resolución del repositorio y de sus contenidos. El detal
 
 ## Línea base `0.1.0` · publicada como catálogo
 
-- [x] 5.120 IDs estables con título y descripción preliminar.
-- [x] 64 bloques transversales y 24 rutas con 192 módulos.
+- [x] 5.120 IDs estables con título y descripción preliminar (línea base `0.1.0`).
+- [x] 64 bloques transversales y 24 rutas con 192 módulos (línea base `0.1.0`).
 - [x] Catálogo equivalente en JSONL, JSON y CSV.
 - [x] Visor estático con búsqueda y filtros.
 - [x] Validador reproducible de estructura y estado preliminar.
 - [x] Estándar `clase-profunda-cientifica` y estados E0–E6 documentados.
-- [ ] Clases completamente redactadas y verificadas: **0/5.120**.
+- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa `0.2.0`; 160 con texto redactado en A01).
 
 ## Horizonte A · integridad y publicación
 
@@ -27,11 +27,12 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 - [ ] Auditoría reproducible de plantillas, descripciones repetidas y solapamientos.
 - [ ] Decidir los 88 solapamientos ruta/tronco sin renumerar IDs.
-- [ ] Diferenciar las 1.920 clases derivadas por plantilla de los 192 módulos.
+- [x] Ubicar los 1.920 temas de los 192 módulos en áreas y bloques (`catalogo/v0.2.0/colocacion/`); resuelve las clases derivadas por plantilla.
 - [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
-- [ ] Guías pedagógicas por bloque y módulo (B01 hecho como plantilla; 63 bloques y 192 módulos pendientes).
+- [ ] Guías pedagógicas por bloque (B01–B08 hechas; faltan B09–B64 y los 69 bloques nuevos).
+- [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas sin redactar).
 - [x] B01-C01 redactada y aprobada por el autor (conserva E0 en el catálogo hasta registrar revisión disciplinar).
 
 **Cierre:** informe de refinamiento y contraste metodológico (un bloque del tronco y un módulo de ruta).
@@ -59,7 +60,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Añadir diagnóstico, checkpoints, proyecto final y criterio de salida.
 - [ ] Probar que no hay duplicación mecánica con bloques ya desarrollados.
 
-**Cierre por ruta:** ocho módulos E5, evidencia acumulativa y límites profesionales explícitos. La ruta no se presenta como titulación independiente.
+**Cierre por ruta:** el recorrido completo de la ruta en E5, evidencia acumulativa y límites profesionales explícitos. La ruta no se presenta como titulación independiente.
 
 ## Horizonte H · pilotaje y mantenimiento
 

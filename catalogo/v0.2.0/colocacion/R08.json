@@ -1,0 +1,844 @@
+{
+  "ruta_id": "R08",
+  "modulos": [
+    {
+      "modulo": "R08-M01",
+      "nombre": "Algoritmos numéricos avanzados",
+      "temas": [
+        {
+          "clases_ruta": "R08-M01-C01..C02",
+          "tema": "Integración de alta precisión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B11",
+            "titulo": "Integración numérica de alta precisión",
+            "necesidad": "Métodos de orden alto (Taylor, Gauss-Radau) y aritmética extendida para integrar trayectorias largas; B11-C07/C08 cubren RK4 y paso adaptativo, no alta precisión."
+          }
+        },
+        {
+          "clases_ruta": "R08-M01-C03..C04",
+          "tema": "Integradores simplécticos",
+          "destino": "existente",
+          "tronco": [
+            "B11-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M01-C05..C06",
+          "tema": "Métodos implícitos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B11",
+            "titulo": "Métodos implícitos y sistemas rígidos",
+            "necesidad": "Euler implícito, BDF y rigidez; B11-C09 trata estabilidad pero ningún método implícito."
+          }
+        },
+        {
+          "clases_ruta": "R08-M01-C07..C08",
+          "tema": "Tolerancias adaptativas",
+          "destino": "existente",
+          "tronco": [
+            "B11-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M01-C09..C10",
+          "tema": "Resolución de sistemas lineales",
+          "destino": "existente",
+          "tronco": [
+            "B10-C05",
+            "B10-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M01-C11..C12",
+          "tema": "Optimización restringida",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B11",
+            "titulo": "Optimización restringida: Lagrange, KKT y SQP",
+            "necesidad": "B11-C17 trata optimización numérica sin restricciones; falta el caso restringido usado en diseño de trayectorias."
+          }
+        },
+        {
+          "clases_ruta": "R08-M01-C13..C14",
+          "tema": "Métodos espectrales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B11",
+            "titulo": "Métodos espectrales avanzados (Chebyshev y Fourier)",
+            "necesidad": "B11-C16 es solo introductorio; el módulo exige colocación, convergencia exponencial y aliasing."
+          }
+        },
+        {
+          "clases_ruta": "R08-M01-C15..C16",
+          "tema": "Errores de redondeo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B11",
+            "titulo": "Aritmética de punto flotante y errores de redondeo",
+            "necesidad": "IEEE 754, cancelación y acumulación de error en cálculo científico; B03-C11 y C19 tratan redondeo elemental, no punto flotante."
+          }
+        },
+        {
+          "clases_ruta": "R08-M01-C17..C18",
+          "tema": "Benchmark de algoritmos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B11",
+            "titulo": "Benchmark de algoritmos numéricos",
+            "necesidad": "Diseño de comparaciones justas de precisión y costo entre algoritmos; ninguna clase actual lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R08-M01-C19..C20",
+          "tema": "Pruebas de convergencia",
+          "destino": "existente",
+          "tronco": [
+            "B11-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M02",
+      "nombre": "Computación de alto rendimiento",
+      "temas": [
+        {
+          "clases_ruta": "R08-M02-C01..C02",
+          "tema": "Arquitecturas HPC",
+          "destino": "existente",
+          "tronco": [
+            "B14-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M02-C03..C04",
+          "tema": "Procesamiento multinúcleo",
+          "destino": "existente",
+          "tronco": [
+            "B14-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M02-C05..C06",
+          "tema": "Ejecución por procesos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Computación de alto rendimiento",
+            "titulo": "Procesos, hilos y concurrencia",
+            "necesidad": "Diferencia entre hilos y procesos y el GIL; B14-C13 presenta paralelismo sin el modelo de ejecución."
+          }
+        },
+        {
+          "clases_ruta": "R08-M02-C07..C08",
+          "tema": "MPI conceptual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Computación de alto rendimiento",
+            "titulo": "Paso de mensajes con MPI",
+            "necesidad": "Comunicación punto a punto y colectiva entre procesos; B14-C16 menciona HPC sin MPI."
+          }
+        },
+        {
+          "clases_ruta": "R08-M02-C09..C10",
+          "tema": "Programación GPU",
+          "destino": "existente",
+          "tronco": [
+            "B14-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M02-C11..C12",
+          "tema": "Estructuras de memoria",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Computación de alto rendimiento",
+            "titulo": "Jerarquía y estructuras de memoria",
+            "necesidad": "Caché, disposición de arreglos y ancho de banda; condiciona el rendimiento y no aparece en B14."
+          }
+        },
+        {
+          "clases_ruta": "R08-M02-C13..C14",
+          "tema": "Vectorización",
+          "destino": "existente",
+          "tronco": [
+            "B14-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M02-C15..C16",
+          "tema": "Paralelismo de datos",
+          "destino": "existente",
+          "tronco": [
+            "B14-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M02-C17..C18",
+          "tema": "Perfilado de rendimiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Computación de alto rendimiento",
+            "titulo": "Perfilado de rendimiento",
+            "necesidad": "Uso de profilers para hallar cuellos de botella; ausente en B14-C14."
+          }
+        },
+        {
+          "clases_ruta": "R08-M02-C19..C20",
+          "tema": "Experimentos de escalabilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Computación de alto rendimiento",
+            "titulo": "Experimentos de escalabilidad",
+            "necesidad": "Escalado fuerte y débil, Amdahl y Gustafson; ninguna clase actual los trata."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M03",
+      "nombre": "Métodos para ecuaciones en derivadas parciales",
+      "temas": [
+        {
+          "clases_ruta": "R08-M03-C01..C02",
+          "tema": "Ecuación de calor",
+          "destino": "existente",
+          "tronco": [
+            "B11-C13",
+            "B11-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M03-C03..C04",
+          "tema": "Ecuación de onda",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Métodos numéricos para EDP y fluidos computacionales",
+            "titulo": "Ecuación de onda: esquemas y dispersión numérica",
+            "necesidad": "Esquemas explícitos para ondas y su error de fase; B11-C13 solo presenta las EDP en general."
+          }
+        },
+        {
+          "clases_ruta": "R08-M03-C05..C06",
+          "tema": "Ecuaciones de Poisson",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Métodos numéricos para EDP y fluidos computacionales",
+            "titulo": "Ecuación de Poisson: relajación y multigrid",
+            "necesidad": "Solucionadores iterativos del problema elíptico (potencial gravitatorio y electrostático); no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M03-C07..C08",
+          "tema": "Ecuaciones de Navier-Stokes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Métodos numéricos para EDP y fluidos computacionales",
+            "titulo": "Ecuaciones de Navier-Stokes y dinámica de fluidos computacional",
+            "necesidad": "Formulación incompresible y compresible discretizada; ninguna clase del tronco trata CFD."
+          }
+        },
+        {
+          "clases_ruta": "R08-M03-C09..C10",
+          "tema": "Discretización espacial",
+          "destino": "existente",
+          "tronco": [
+            "B11-C14",
+            "B11-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M03-C11..C12",
+          "tema": "Condiciones de contorno",
+          "destino": "existente",
+          "tronco": [
+            "B11-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M03-C13..C14",
+          "tema": "Mallas regulares",
+          "destino": "existente",
+          "tronco": [
+            "B11-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M03-C15..C16",
+          "tema": "Mallas adaptativas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Métodos numéricos para EDP y fluidos computacionales",
+            "titulo": "Mallas adaptativas (AMR)",
+            "necesidad": "Refinamiento adaptativo guiado por error; B11 trata mallas fijas."
+          }
+        },
+        {
+          "clases_ruta": "R08-M03-C17..C18",
+          "tema": "Estabilidad CFL",
+          "destino": "existente",
+          "tronco": [
+            "B11-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M03-C19..C20",
+          "tema": "Comparación de soluciones",
+          "destino": "existente",
+          "tronco": [
+            "B11-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M04",
+      "nombre": "Problemas inversos astronómicos",
+      "temas": [
+        {
+          "clases_ruta": "R08-M04-C01..C02",
+          "tema": "Problemas directos e inversos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Problemas inversos y estimación de modelos",
+            "titulo": "Problemas directos e inversos y mal condicionamiento",
+            "necesidad": "Define el problema inverso, la no unicidad y el mal planteamiento; B15-C15 estima parámetros sin esta teoría."
+          }
+        },
+        {
+          "clases_ruta": "R08-M04-C03..C04",
+          "tema": "Regularización de Tikhonov",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Problemas inversos y estimación de modelos",
+            "titulo": "Regularización de Tikhonov",
+            "necesidad": "Regularización y selección del parámetro (curva L); ausente en B10-C07, que solo trata mínimos cuadrados."
+          }
+        },
+        {
+          "clases_ruta": "R08-M04-C05..C06",
+          "tema": "Máxima verosimilitud",
+          "destino": "existente",
+          "tronco": [
+            "B12-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M04-C07..C08",
+          "tema": "Modelos de observación",
+          "destino": "existente",
+          "tronco": [
+            "B44-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M04-C09..C10",
+          "tema": "Identificabilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Problemas inversos y estimación de modelos",
+            "titulo": "Identificabilidad de parámetros",
+            "necesidad": "Cuándo los datos determinan los parámetros; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M04-C11..C12",
+          "tema": "Reconstrucción tomográfica",
+          "destino": "existente",
+          "tronco": [
+            "B15-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M04-C13..C14",
+          "tema": "Inversión espectral",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Problemas inversos y estimación de modelos",
+            "titulo": "Inversión espectral",
+            "necesidad": "Recuperar parámetros físicos desde espectros mediante inversión; B29 describe espectros sin inversión formal."
+          }
+        },
+        {
+          "clases_ruta": "R08-M04-C15..C16",
+          "tema": "Inversión gravimétrica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B34",
+            "titulo": "Inversión gravimétrica y modelos de densidad",
+            "necesidad": "B34-C03 trata el campo gravitatorio; falta invertir anomalías para inferir estructura interior."
+          }
+        },
+        {
+          "clases_ruta": "R08-M04-C17..C18",
+          "tema": "Cuantificación de incertidumbre",
+          "destino": "existente",
+          "tronco": [
+            "B12-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M04-C19..C20",
+          "tema": "Pruebas con datos sintéticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Problemas inversos y estimación de modelos",
+            "titulo": "Pruebas de inversión con datos sintéticos",
+            "necesidad": "Experimentos con datos simulados y el «crimen inverso»; ninguna clase actual lo trata."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M05",
+      "nombre": "Modelos bayesianos científicos",
+      "temas": [
+        {
+          "clases_ruta": "R08-M05-C01..C02",
+          "tema": "Regla de Bayes",
+          "destino": "existente",
+          "tronco": [
+            "B12-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M05-C03..C04",
+          "tema": "Priors físicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Priors físicamente informados",
+            "necesidad": "Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C05..C06",
+          "tema": "Modelos jerárquicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Modelos jerárquicos",
+            "necesidad": "Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C07..C08",
+          "tema": "MCMC",
+          "destino": "existente",
+          "tronco": [
+            "B12-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M05-C09..C10",
+          "tema": "Hamiltonian Monte Carlo conceptual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Hamiltonian Monte Carlo y NUTS",
+            "necesidad": "Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C11..C12",
+          "tema": "Diagnóstico de convergencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Diagnóstico de convergencia de cadenas",
+            "necesidad": "R-hat, tamaño efectivo y divergencias; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C13..C14",
+          "tema": "Inferencia variacional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Inferencia variacional",
+            "necesidad": "Aproximación variacional y ELBO como alternativa a MCMC; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C15..C16",
+          "tema": "Predicción posterior",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Distribución predictiva posterior",
+            "necesidad": "Predicción y chequeos predictivos; B12-C12 no los desarrolla."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C17..C18",
+          "tema": "Comparación de modelos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Comparación de modelos bayesianos",
+            "necesidad": "Evidencia, Bayes factor y criterios WAIC/LOO; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M05-C19..C20",
+          "tema": "Calibración probabilística",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Inferencia bayesiana y computación probabilística",
+            "titulo": "Calibración probabilística",
+            "necesidad": "Coberturas y diagramas de calibración de inferencias; ausente."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M06",
+      "nombre": "Aprendizaje automático científico",
+      "temas": [
+        {
+          "clases_ruta": "R08-M06-C01..C02",
+          "tema": "Ingeniería de características científicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Ingeniería de características científicas",
+            "necesidad": "Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C03..C04",
+          "tema": "Aprendizaje supervisado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Aprendizaje supervisado",
+            "necesidad": "Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C05..C06",
+          "tema": "Regresión no lineal",
+          "destino": "existente",
+          "tronco": [
+            "B12-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M06-C07..C08",
+          "tema": "Redes neuronales físicas PINN",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Redes neuronales informadas por la física (PINN)",
+            "necesidad": "Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C09..C10",
+          "tema": "Modelos sustitutos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Modelos sustitutos (surrogates)",
+            "necesidad": "Emuladores de simuladores costosos; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C11..C12",
+          "tema": "Detección de anomalías",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Detección de anomalías",
+            "necesidad": "Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C13..C14",
+          "tema": "Aprendizaje no supervisado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Aprendizaje no supervisado",
+            "necesidad": "Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C15..C16",
+          "tema": "Validación fuera de distribución",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Validación fuera de distribución",
+            "necesidad": "Detectar y medir degradación cuando los datos salen del entrenamiento; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C17..C18",
+          "tema": "Interpretabilidad física",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Interpretabilidad con consistencia física",
+            "necesidad": "Importancia de variables y restricciones físicas de modelos; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R08-M06-C19..C20",
+          "tema": "Prevención de fuga de datos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Aprendizaje automático científico",
+            "titulo": "Prevención de fuga de datos",
+            "necesidad": "Particiones por tiempo o fuente y fugas de información; ausente."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M07",
+      "nombre": "Verificación y validación computacional",
+      "temas": [
+        {
+          "clases_ruta": "R08-M07-C01..C02",
+          "tema": "Pruebas unitarias numéricas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Pruebas unitarias numéricas con tolerancias",
+            "necesidad": "B07-C17 prueba funciones matemáticas simples; falta comparar con tolerancias y diseñar pruebas numéricas."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C03..C04",
+          "tema": "Pruebas de propiedades físicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Pruebas de propiedades físicas",
+            "necesidad": "Conservación de energía y simetrías como pruebas; B11-C10 la trata como tema, no como método de prueba."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C05..C06",
+          "tema": "Casos analíticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Casos analíticos de validación",
+            "necesidad": "Usar soluciones exactas como pruebas de código; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C07..C08",
+          "tema": "Soluciones de referencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Soluciones de referencia y manufactured solutions",
+            "necesidad": "Método de soluciones fabricadas y comparaciones con código de referencia; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C09..C10",
+          "tema": "Validación por conjuntos oficiales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Validación con conjuntos oficiales",
+            "necesidad": "Contrastar con datos de referencia (efemérides, catálogos) y criterios de aceptación; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C11..C12",
+          "tema": "Análisis dimensional automatizado",
+          "destino": "existente",
+          "tronco": [
+            "B14-C04",
+            "B13-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M07-C13..C14",
+          "tema": "Pruebas metamórficas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Pruebas metamórficas",
+            "necesidad": "Pruebas basadas en relaciones entre ejecuciones cuando no hay solución exacta; ausentes."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C15..C16",
+          "tema": "Pruebas de regresión",
+          "destino": "existente",
+          "tronco": [
+            "B14-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M07-C17..C18",
+          "tema": "Trazabilidad científica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Trazabilidad científica de resultados",
+            "necesidad": "Vincular cada cifra con código, datos y versión; B13-C19 trata metadatos de calibración, no trazabilidad de cálculo."
+          }
+        },
+        {
+          "clases_ruta": "R08-M07-C19..C20",
+          "tema": "Informe de verificación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "nuevo: Verificación y validación de software científico",
+            "titulo": "Informe de verificación y validación",
+            "necesidad": "Estructura de un informe V&V con evidencias y límites; no cubierto."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R08-M08",
+      "nombre": "Publicación de investigación reproducible",
+      "temas": [
+        {
+          "clases_ruta": "R08-M08-C01..C02",
+          "tema": "Protocolo preregistrado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B14",
+            "titulo": "Protocolo preregistrado de análisis",
+            "necesidad": "Redactar hipótesis, métodos y criterios antes de ver los datos; B64-C14 trata ciencia abierta en general."
+          }
+        },
+        {
+          "clases_ruta": "R08-M08-C03..C04",
+          "tema": "Gestión de datos FAIR",
+          "destino": "existente",
+          "tronco": [
+            "B14-C19",
+            "B64-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C05..C06",
+          "tema": "Versionado de experimentos",
+          "destino": "existente",
+          "tronco": [
+            "B14-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C07..C08",
+          "tema": "Repositorios de código",
+          "destino": "existente",
+          "tronco": [
+            "B14-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C09..C10",
+          "tema": "Entornos reproducibles uv",
+          "destino": "existente",
+          "tronco": [
+            "B14-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C11..C12",
+          "tema": "Metadatos científicos",
+          "destino": "existente",
+          "tronco": [
+            "B13-C19",
+            "B14-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C13..C14",
+          "tema": "Documentación de hipótesis",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B14",
+            "titulo": "Documentación de hipótesis y decisiones de análisis",
+            "necesidad": "Registro de hipótesis, desviaciones y decisiones; ausente en B14."
+          }
+        },
+        {
+          "clases_ruta": "R08-M08-C15..C16",
+          "tema": "Notebooks auditables",
+          "destino": "existente",
+          "tronco": [
+            "B14-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C17..C18",
+          "tema": "Licencias de datos",
+          "destino": "existente",
+          "tronco": [
+            "B64-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R08-M08-C19..C20",
+          "tema": "Paquete de reproducibilidad completo",
+          "destino": "existente",
+          "tronco": [
+            "B14-C20",
+            "B14-C19"
+          ]
+        }
+      ]
+    }
+  ]
+}

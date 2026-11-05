@@ -21,5 +21,14 @@
   "licencia_codigo": "Apache-2.0",
   "licencia_contenido_original": "CC-BY-NC-SA-4.0",
   "licenciamiento_diferenciado": true,
-  "politica_licencias": "documentacion/LICENCIAS_Y_PROCEDENCIA.md"
+  "politica_licencias": "documentacion/LICENCIAS_Y_PROCEDENCIA.md",
+  "estructura_vigente": {
+    "version": "0.2.0",
+    "areas": 12,
+    "bloques": 133,
+    "clases": 2077,
+    "clases_programadas": 797,
+    "estado": "aprobada_por_el_autor_2026-11-05",
+    "nota": "La linea base 0.1.0 (5120 registros) se conserva sin editar."
+  }
 }

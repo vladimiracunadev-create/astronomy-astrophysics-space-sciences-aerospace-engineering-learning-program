@@ -1,5 +1,7 @@
 # B15 — Señales, imágenes y estimación científica
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 4 clases programadas (`B15-C21` a `B15-C24`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Estado:** malla preliminar; no contiene clases desarrolladas.

@@ -4,7 +4,7 @@
 
 Este plan separa tres dimensiones que no deben confundirse:
 
-1. **cobertura del catálogo:** 5.120/5.120 IDs definidos;
+1. **cobertura del catálogo:** 5.120/5.120 IDs de la línea base definidos y programa `0.2.0` de 2.077 clases ubicadas;
 2. **resolución editorial:** avance E0–E6 de cada clase;
 3. **dominio del estudiante:** profundidad N0–N5 demostrada mediante evidencias.
 
@@ -14,7 +14,7 @@ Este plan separa tres dimensiones que no deben confundirse:
 |---|---|
 | IDs, títulos y ubicación curricular | completo para la línea base `0.1.0` |
 | Descripciones y fuentes preliminares | presentes, todavía no verificadas clase por clase |
-| Clases en E0 · catalogada | 5.120 |
+| Clases en E0 · catalogada | 5.120 de la línea base (2.077 en el programa `0.2.0`) |
 | Clases en E1 o superior | 0 |
 | Clases completamente redactadas y verificadas | 0 |
 | Visor del catálogo | disponible como archivo estático |

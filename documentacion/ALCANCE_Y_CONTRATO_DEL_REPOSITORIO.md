@@ -9,9 +9,9 @@ Es un programa único, continuo, independiente, versionado y extensible; **no** 
 
 ## 2. Inventario canónico
 
-- 8 áreas y 64 bloques de formación transversal, 20 clases por bloque.
-- 24 rutas profesionales, cada una con 8 módulos de 20 clases.
-- 5.120 registros únicos; un identificador permanente para cada clase.
+- 12 áreas y 133 bloques (64 de la línea base y 69 nuevos) con 2.077 clases: 1.280 de la línea base y 797 programadas, sin redactar.
+- 24 rutas profesionales como recorridos sobre áreas y bloques; los 192 módulos de la línea base se conservan como equivalencias.
+- Línea base `0.1.0` de 5.120 registros únicos y programa `0.2.0`; un identificador permanente para cada clase.
 - La clasificación pedagógica de seis niveles: descubrimiento, fundamentos, aplicación, desarrollo, profesional, investigación.
 - Prerrequisitos explícitos; posibilidad de diagnóstico inicial y reconocimiento de conocimientos demostrado mediante evaluaciones.
 - Relación entre contenido fundamental y especializaciones para evitar duplicar temas ya explicados.
@@ -98,7 +98,7 @@ Evitar interfaces decorativas sin funcionalidad. Priorizar carga rápida, diseñ
 
 - Revisar siempre README, el catálogo, la estructura existente, las instrucciones de repositorio y el estado de pruebas antes de cambiar nada.
 - No sobrescribir ni eliminar módulos, clases, rutas, fuentes o trabajos previos válidos.
-- Preservar los 5.120 IDs; las extensiones usarán IDs nuevos y registro de cambios.
+- Preservar los IDs de la línea base (5.120); la reorganización `0.2.0` no borra ni renumera ninguno y las clases nuevas usan IDs nuevos.
 - Cada etapa debe incluir matriz de cambios, pruebas automatizadas, registro de fuentes y contraste de cobertura.
 - Por cada bloque implementado: pruebas de calidad, reporte de errores y documentación de evolución.
 - Preferencias técnicas: `uv` para proyectos Python; `pnpm` para JS, evitando dependencias innecesarias. No imponer frameworks pesados.

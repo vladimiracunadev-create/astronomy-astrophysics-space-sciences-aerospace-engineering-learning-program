@@ -1,5 +1,7 @@
 # Ampliación del tronco común
 
+> **Estado `0.2.0`:** la ampliación se ejecutó. La colocación de los 192 módulos de ruta vive en `catalogo/v0.2.0/colocacion/Rxx.json`; el resultado (12 áreas, 133 bloques, 2.077 clases) es el [programa completo](../PROGRAMA_ACADEMICO_COMPLETO.md). `consolidar_distribucion.py` y `metadatos/recorridos/` son la ruta anterior basada en recorridos y no son la fuente de esta estructura.
+
 > **Modelo.** Hay un solo conjunto de clases (el tronco común: áreas y bloques) y los roles son recorridos sobre él, como en el programa de ciberseguridad del autor. Los módulos de las rutas no tienen contenido propio: sus temas se ubican en el bloque del tronco que les corresponde o, si no existe, se proponen como clases nuevas. **En esta etapa no se redacta ninguna clase nueva**: se obtienen, se distribuyen y se amplía la estructura.
 
 El tronco común de la línea base `0.1.0` tiene 8 áreas, 64 bloques y 1.280 clases. Los [recorridos por rol](GUIA_DE_RECORRIDOS_POR_ROL.md) muestran que no bastan: cada rol necesita temas que el tronco no cubre o cubre solo con un título. Este documento fija cómo se amplía **sin romper nada**.

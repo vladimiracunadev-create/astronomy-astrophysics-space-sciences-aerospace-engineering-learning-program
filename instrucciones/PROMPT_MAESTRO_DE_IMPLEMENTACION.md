@@ -6,7 +6,7 @@ No renombrar ni simplificar como CIETES o acrónimos equivalentes.
 
 ## Encargo
 
-Transformar gradualmente la **malla documental de 5.120 clases** en un programa educativo científico y profesional, preservando todas las convenciones, archivos y relaciones establecidas en la versión 0.1.0, sin inventar contenidos desarrollados ni sobrescribir trabajo válido. La línea base actual solo contiene títulos y referencias preliminares.
+Transformar gradualmente la **malla documental (línea base de 5.120 registros; programa `0.2.0` de 2.077 clases)** en un programa educativo científico y profesional, preservando todas las convenciones, archivos y relaciones establecidas en la versión 0.1.0, sin inventar contenidos desarrollados ni sobrescribir trabajo válido. La línea base actual solo contiene títulos y referencias preliminares.
 
 ## Primera acción obligatoria
 
@@ -14,7 +14,7 @@ Transformar gradualmente la **malla documental de 5.120 clases** en un programa 
 2. Auditar `AGENTS.md`, `README`, `CHANGELOG`, tests y convenciones reales del repositorio; no asumir que un paquete local es la versión más reciente una vez publicado.
 3. Ejecutar validaciones existentes; conservar salida de línea base.
 4. Analizar duplicados, vacíos y dependencias. Proponer implementación **aditiva** sin romper IDs ni funcionamiento.
-5. Trabajar en el bloque o módulo solicitado, sin consumir tokens procesando los 5.120 registros completos innecesariamente.
+5. Trabajar en el bloque o módulo solicitado, sin consumir tokens procesando todos los registros innecesariamente.
 
 ## Contrato por clase
 
@@ -36,4 +36,4 @@ Entregar archivos concretos, diferencias auditables, informes de fuentes, númer
 
 ## No tocar
 
-Prohibido renombrar el repositorio, fusionar otras formaciones o modificar contenidos externos sin permiso. No alterar los 5.120 IDs registrados; las ampliaciones se documentan como extensiones nuevas del catálogo con controles de compatibilidad.
+Prohibido renombrar el repositorio, fusionar otras formaciones o modificar contenidos externos sin permiso. No alterar los IDs registrados en la línea base; las ampliaciones se documentan como extensiones nuevas del catálogo con controles de compatibilidad.

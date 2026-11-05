@@ -1,0 +1,830 @@
+{
+  "ruta_id": "R21",
+  "modulos": [
+    {
+      "modulo": "R21-M01",
+      "nombre": "Prospección geológica extraterrestre",
+      "temas": [
+        {
+          "clases_ruta": "R21-M01-C01..C02",
+          "tema": "Espectroscopía de minerales",
+          "destino": "existente",
+          "tronco": [
+            "B34-C17",
+            "B29-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M01-C03..C04",
+          "tema": "Imágenes hiperespectrales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B34",
+            "titulo": "Imágenes hiperespectrales de superficies planetarias",
+            "necesidad": "B38-C05 trata imágenes multiespectrales terrestres y B34-C17 la mineralogía; ninguna enseña cubos hiperespectrales y su análisis en cuerpos planetarios."
+          }
+        },
+        {
+          "clases_ruta": "R21-M01-C05..C06",
+          "tema": "Cartografía de regolito",
+          "destino": "existente",
+          "tronco": [
+            "B34-C08",
+            "B34-C18",
+            "B40-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M01-C07..C08",
+          "tema": "Altimetría de terreno",
+          "destino": "existente",
+          "tronco": [
+            "B34-C07",
+            "B38-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M01-C09..C10",
+          "tema": "Radar subsuperficial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B34",
+            "titulo": "Radar de penetración subsuperficial en cuerpos planetarios",
+            "necesidad": "B38-C07 y B39-C12 tratan SAR y radar planetario de superficie; ninguna clase cubre el sondeo del subsuelo."
+          }
+        },
+        {
+          "clases_ruta": "R21-M01-C11..C12",
+          "tema": "Prospección de volátiles",
+          "destino": "existente",
+          "tronco": [
+            "B40-C02",
+            "B40-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M01-C13..C14",
+          "tema": "Incertidumbre geológica",
+          "destino": "existente",
+          "tronco": [
+            "B34-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M01-C15..C16",
+          "tema": "Selección de sitios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Selección de sitios de extracción con criterios múltiples",
+            "necesidad": "Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B40 no trata la selección."
+          }
+        },
+        {
+          "clases_ruta": "R21-M01-C17..C18",
+          "tema": "Evaluación ambiental",
+          "destino": "existente",
+          "tronco": [
+            "B40-C17",
+            "B37-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M01-C19..C20",
+          "tema": "Programa de prospección",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Diseño de un programa de prospección por fases",
+            "necesidad": "Enseña a secuenciar reconocimiento, muestreo y confirmación; no hay clase que integre la prospección en un programa."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M02",
+      "nombre": "Hielos y volátiles de interés",
+      "temas": [
+        {
+          "clases_ruta": "R21-M02-C01..C02",
+          "tema": "Hielo en cráteres sombreados",
+          "destino": "existente",
+          "tronco": [
+            "B40-C02",
+            "B34-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M02-C03..C04",
+          "tema": "Hidratación de minerales",
+          "destino": "existente",
+          "tronco": [
+            "B40-C03",
+            "B34-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M02-C05..C06",
+          "tema": "Volátiles en regolito",
+          "destino": "existente",
+          "tronco": [
+            "B40-C03",
+            "B40-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M02-C07..C08",
+          "tema": "Muestreo criogénico conceptual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Muestreo criogénico y preservación de volátiles en muestras",
+            "necesidad": "Cubre toma y conservación de muestras sin pérdida de volátiles; B36-C18 trata solo contaminación de muestras."
+          }
+        },
+        {
+          "clases_ruta": "R21-M02-C09..C10",
+          "tema": "Estimación de reservas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Estimación de reservas y categorías de recursos",
+            "necesidad": "Enseña a clasificar recursos y reservas con incertidumbre; B12 trata estimación general pero no su aplicación a reservas."
+          }
+        },
+        {
+          "clases_ruta": "R21-M02-C11..C12",
+          "tema": "Modelos de distribución",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Modelos geoestadísticos de distribución de volátiles",
+            "necesidad": "Aporta interpolación y kriging espacial aplicado a volátiles; B12-C03 trata distribuciones de probabilidad en general."
+          }
+        },
+        {
+          "clases_ruta": "R21-M02-C13..C14",
+          "tema": "Pérdida de volátiles",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Pérdida de volátiles por sublimación y migración térmica",
+            "necesidad": "Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B40 ni B51."
+          }
+        },
+        {
+          "clases_ruta": "R21-M02-C15..C16",
+          "tema": "Almacenamiento aislado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B40",
+            "titulo": "Almacenamiento criogénico y aislado de volátiles extraídos",
+            "necesidad": "B51-C17 trata criogenia de instrumentos; ninguna clase cubre almacenar volátiles extraídos con aislamiento y mínima pérdida."
+          }
+        },
+        {
+          "clases_ruta": "R21-M02-C17..C18",
+          "tema": "Sensores de volátiles",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Sensores para volátiles: espectrometría de neutrones y de masas",
+            "necesidad": "Aporta los sensores que detectan y cuantifican volátiles; B28-C02 y B53-C04 no los tratan."
+          }
+        },
+        {
+          "clases_ruta": "R21-M02-C19..C20",
+          "tema": "Informe de disponibilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
+            "titulo": "Informe de disponibilidad de volátiles con incertidumbre",
+            "necesidad": "Enseña a redactar el informe técnico de disponibilidad con intervalos de confianza; sin clase equivalente."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M03",
+      "nombre": "Procesamiento de recursos in situ",
+      "temas": [
+        {
+          "clases_ruta": "R21-M03-C01..C02",
+          "tema": "Separación granulométrica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B40",
+            "titulo": "Beneficio y separación granulométrica de regolito",
+            "necesidad": "Cubre tamizado y separación por tamaño o propiedades; B40-C04 caracteriza regolito pero no el beneficio previo al procesamiento."
+          }
+        },
+        {
+          "clases_ruta": "R21-M03-C03..C04",
+          "tema": "Procesamiento de regolito",
+          "destino": "existente",
+          "tronco": [
+            "B40-C06",
+            "B40-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C05..C06",
+          "tema": "Extracción de agua conceptual",
+          "destino": "existente",
+          "tronco": [
+            "B40-C06",
+            "B40-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C07..C08",
+          "tema": "Purificación de recursos",
+          "destino": "existente",
+          "tronco": [
+            "B40-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C09..C10",
+          "tema": "Procesamiento electroquímico",
+          "destino": "existente",
+          "tronco": [
+            "B40-C10",
+            "B40-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C11..C12",
+          "tema": "Producción de oxígeno",
+          "destino": "existente",
+          "tronco": [
+            "B40-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C13..C14",
+          "tema": "Análisis energético",
+          "destino": "existente",
+          "tronco": [
+            "B40-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C15..C16",
+          "tema": "Subproductos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B40",
+            "titulo": "Subproductos y flujos residuales de procesos ISRU",
+            "necesidad": "Enseña a aprovechar o gestionar los subproductos (metales, escoria, gases); B40-C16 solo trata desechos de tripulación."
+          }
+        },
+        {
+          "clases_ruta": "R21-M03-C17..C18",
+          "tema": "Sistemas cerrados",
+          "destino": "existente",
+          "tronco": [
+            "B40-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M03-C19..C20",
+          "tema": "Balance de proceso ISRU",
+          "destino": "existente",
+          "tronco": [
+            "B40-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M04",
+      "nombre": "Robótica para recursos espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R21-M04-C01..C02",
+          "tema": "Rovers de prospección",
+          "destino": "existente",
+          "tronco": [
+            "B61-C01",
+            "B40-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M04-C03..C04",
+          "tema": "Excavación robótica conceptual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Excavación y manejo de regolito con robots",
+            "necesidad": "B61-C06 trata movilidad y C10 manipulación; ninguna enseña excavación, carga y acarreo de regolito."
+          }
+        },
+        {
+          "clases_ruta": "R21-M04-C05..C06",
+          "tema": "Movilidad en regolito",
+          "destino": "existente",
+          "tronco": [
+            "B61-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M04-C07..C08",
+          "tema": "Manipulación de muestras",
+          "destino": "existente",
+          "tronco": [
+            "B61-C10",
+            "B36-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M04-C09..C10",
+          "tema": "Autonomía de transporte",
+          "destino": "existente",
+          "tronco": [
+            "B61-C16",
+            "B61-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M04-C11..C12",
+          "tema": "Sensores de maquinaria",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Monitoreo de condición de maquinaria extraterrestre",
+            "necesidad": "Aporta sensores y diagnóstico de salud de excavadoras y rovers; B61-C03 trata percepción, no monitoreo de condición."
+          }
+        },
+        {
+          "clases_ruta": "R21-M04-C13..C14",
+          "tema": "Gestión de polvo",
+          "destino": "existente",
+          "tronco": [
+            "B51-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M04-C15..C16",
+          "tema": "Desgaste mecánico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B50",
+            "titulo": "Desgaste abrasivo por regolito en mecanismos",
+            "necesidad": "B50-C14 trata rodamientos y lubricación; el desgaste abrasivo por polvo lunar no está cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R21-M04-C17..C18",
+          "tema": "Seguridad robótica",
+          "destino": "existente",
+          "tronco": [
+            "B61-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M04-C19..C20",
+          "tema": "Evaluación de productividad virtual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Simulación de productividad de flotas de maquinaria",
+            "necesidad": "Enseña a estimar productividad con simulación; B61-C20 integra una misión robótica sin métricas de producción."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M05",
+      "nombre": "Sistemas energéticos de instalaciones",
+      "temas": [
+        {
+          "clases_ruta": "R21-M05-C01..C02",
+          "tema": "Energía solar superficial",
+          "destino": "existente",
+          "tronco": [
+            "B52-C02",
+            "B52-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C03..C04",
+          "tema": "Almacenamiento electroquímico",
+          "destino": "existente",
+          "tronco": [
+            "B52-C05",
+            "B52-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C05..C06",
+          "tema": "Suministro en noche lunar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B52",
+            "titulo": "Suministro de energía durante la noche lunar",
+            "necesidad": "B52-C13 trata eclipses orbitales de horas; la noche lunar de unos 14 días exige otra estrategia."
+          }
+        },
+        {
+          "clases_ruta": "R21-M05-C07..C08",
+          "tema": "Generadores alternativos conceptuales",
+          "destino": "existente",
+          "tronco": [
+            "B52-C15",
+            "B52-C16",
+            "B52-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C09..C10",
+          "tema": "Distribución de potencia",
+          "destino": "existente",
+          "tronco": [
+            "B52-C07",
+            "B52-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C11..C12",
+          "tema": "Gestión térmica",
+          "destino": "existente",
+          "tronco": [
+            "B51-C07",
+            "B51-C10",
+            "B51-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C13..C14",
+          "tema": "Cargas prioritarias",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B52",
+            "titulo": "Priorización y deslastre de cargas eléctricas",
+            "necesidad": "Aporta la lógica de cargas prioritarias en escasez de energía; B52-C07 trata distribución sin priorización."
+          }
+        },
+        {
+          "clases_ruta": "R21-M05-C15..C16",
+          "tema": "Mantenimiento energético",
+          "destino": "existente",
+          "tronco": [
+            "B61-C12",
+            "B52-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C17..C18",
+          "tema": "Riesgo de disponibilidad",
+          "destino": "existente",
+          "tronco": [
+            "B49-C16",
+            "B52-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M05-C19..C20",
+          "tema": "Dimensionamiento de energía de planta",
+          "destino": "existente",
+          "tronco": [
+            "B52-C19",
+            "B49-C10"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M06",
+      "nombre": "Manufactura en cuerpos celestes",
+      "temas": [
+        {
+          "clases_ruta": "R21-M06-C01..C02",
+          "tema": "Sinterización de regolito",
+          "destino": "existente",
+          "tronco": [
+            "B40-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M06-C03..C04",
+          "tema": "Impresión aditiva",
+          "destino": "existente",
+          "tronco": [
+            "B40-C13",
+            "B50-C15",
+            "B61-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M06-C05..C06",
+          "tema": "Materiales compuestos locales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B50",
+            "titulo": "Compuestos y aglomerantes a base de regolito",
+            "necesidad": "B50-C03 trata compuestos terrestres; no hay clase sobre materiales compuestos con regolito."
+          }
+        },
+        {
+          "clases_ruta": "R21-M06-C07..C08",
+          "tema": "Producción de piezas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B50",
+            "titulo": "Producción de piezas y repuestos con materia prima in situ",
+            "necesidad": "Cubre la cadena desde regolito hasta pieza funcional; B40-C13 imprime estructuras sin cubrir repuestos."
+          }
+        },
+        {
+          "clases_ruta": "R21-M06-C09..C10",
+          "tema": "Tolerancias de fabricación",
+          "destino": "existente",
+          "tronco": [
+            "B50-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M06-C11..C12",
+          "tema": "Control de defectos",
+          "destino": "existente",
+          "tronco": [
+            "B50-C08",
+            "B50-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M06-C13..C14",
+          "tema": "Reciclaje de materiales",
+          "destino": "existente",
+          "tronco": [
+            "B40-C15",
+            "B40-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M06-C15..C16",
+          "tema": "Inspección no destructiva",
+          "destino": "existente",
+          "tronco": [
+            "B50-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M06-C17..C18",
+          "tema": "Gestión de inventario",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Gestión de inventario de materias primas y piezas",
+            "necesidad": "Enseña control de existencias y trazabilidad de materiales en una instalación remota; sin clase equivalente."
+          }
+        },
+        {
+          "clases_ruta": "R21-M06-C19..C20",
+          "tema": "Propuesta de manufactura espacial",
+          "destino": "existente",
+          "tronco": [
+            "B64-C04",
+            "B64-C19",
+            "B50-C15"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M07",
+      "nombre": "Logística de suministros interplanetarios",
+      "temas": [
+        {
+          "clases_ruta": "R21-M07-C01..C02",
+          "tema": "Carga y volumen de misión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Dimensionamiento de carga y volumen de misión",
+            "necesidad": "Aporta el cálculo de masa y volumen de carga por misión; B49-C09 solo trata presupuestos de masa del vehículo."
+          }
+        },
+        {
+          "clases_ruta": "R21-M07-C03..C04",
+          "tema": "Ventanas de transporte",
+          "destino": "existente",
+          "tronco": [
+            "B45-C03",
+            "B45-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M07-C05..C06",
+          "tema": "Inventarios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Gestión de inventarios y reposición de suministros",
+            "necesidad": "Cubre niveles de reposición y reservas de seguridad con demoras interplanetarias; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R21-M07-C07..C08",
+          "tema": "Repuestos críticos",
+          "destino": "existente",
+          "tronco": [
+            "B61-C19",
+            "B49-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M07-C09..C10",
+          "tema": "Almacenamiento remoto",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Almacenamiento remoto y depósitos de suministros",
+            "necesidad": "Enseña depósitos de larga duración y su degradación; B60-C11 solo trata alimentos."
+          }
+        },
+        {
+          "clases_ruta": "R21-M07-C11..C12",
+          "tema": "Transporte sobre superficie",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Transporte de carga sobre superficie planetaria",
+            "necesidad": "Aporta vehículos de carga, rutas y energía de transporte; B61-C06 trata solo movilidad robótica."
+          }
+        },
+        {
+          "clases_ruta": "R21-M07-C13..C14",
+          "tema": "Gestión de fallas",
+          "destino": "existente",
+          "tronco": [
+            "B49-C16",
+            "B57-C14",
+            "B60-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M07-C15..C16",
+          "tema": "Logística cislunar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Logística cislunar: nodos, depósitos y rutas de reabastecimiento",
+            "necesidad": "B46 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa."
+          }
+        },
+        {
+          "clases_ruta": "R21-M07-C17..C18",
+          "tema": "Análisis de dependencia terrestre",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
+            "titulo": "Dependencia de suministros terrestres y cierre de lazos logísticos",
+            "necesidad": "Cuantifica qué parte de los suministros debe venir de la Tierra; B40-C15 trata ciclo cerrado de materiales."
+          }
+        },
+        {
+          "clases_ruta": "R21-M07-C19..C20",
+          "tema": "Optimización logística conceptual",
+          "destino": "existente",
+          "tronco": [
+            "B40-C19",
+            "B11-C17"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R21-M08",
+      "nombre": "Viabilidad técnica y económica ISRU",
+      "temas": [
+        {
+          "clases_ruta": "R21-M08-C01..C02",
+          "tema": "Capacidad tecnológica TRL",
+          "destino": "existente",
+          "tronco": [
+            "B49-C18",
+            "B48-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M08-C03..C04",
+          "tema": "Costos de transporte",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B64",
+            "titulo": "Costos de transporte por kilogramo a superficie",
+            "necesidad": "B64-C05 estima costos de misión; el costo por kg a órbita y superficie y su sensibilidad no está cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R21-M08-C05..C06",
+          "tema": "CapEx y OpEx conceptuales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B64",
+            "titulo": "CapEx y OpEx de una instalación extraterrestre",
+            "necesidad": "Introduce modelos de costos de capital y operación de una planta; B64-C05 estima solo misión."
+          }
+        },
+        {
+          "clases_ruta": "R21-M08-C07..C08",
+          "tema": "Riesgo geológico",
+          "destino": "existente",
+          "tronco": [
+            "B34-C19",
+            "B49-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M08-C09..C10",
+          "tema": "Disponibilidad energética",
+          "destino": "existente",
+          "tronco": [
+            "B52-C19",
+            "B40-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M08-C11..C12",
+          "tema": "Mercados potenciales",
+          "destino": "existente",
+          "tronco": [
+            "B64-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M08-C13..C14",
+          "tema": "Marco legal de recursos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B63",
+            "titulo": "Derecho y marcos de recursos espaciales",
+            "necesidad": "B63 trata tratados generales; ninguna clase enseña la apropiación y uso de recursos (Acuerdos Artemis, leyes nacionales)."
+          }
+        },
+        {
+          "clases_ruta": "R21-M08-C15..C16",
+          "tema": "Sostenibilidad ambiental",
+          "destino": "existente",
+          "tronco": [
+            "B40-C17",
+            "B40-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M08-C17..C18",
+          "tema": "Escenarios financieros",
+          "destino": "existente",
+          "tronco": [
+            "B64-C05",
+            "B64-C06",
+            "B64-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R21-M08-C19..C20",
+          "tema": "Estudio de viabilidad de instalación",
+          "destino": "existente",
+          "tronco": [
+            "B40-C19",
+            "B40-C20",
+            "B64-C12"
+          ]
+        }
+      ]
+    }
+  ]
+}

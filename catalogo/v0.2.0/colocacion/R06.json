@@ -1,0 +1,833 @@
+{
+  "ruta_id": "R06",
+  "modulos": [
+    {
+      "modulo": "R06-M01",
+      "nombre": "Cinética astroquímica",
+      "temas": [
+        {
+          "clases_ruta": "R06-M01-C01..C02",
+          "tema": "Ecuaciones de reacción",
+          "destino": "existente",
+          "tronco": [
+            "B06-C08",
+            "B36-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M01-C03..C04",
+          "tema": "Colisiones moleculares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Cinética y modelado astroquímico",
+            "titulo": "Colisiones moleculares y secciones eficaces en gas interestelar",
+            "necesidad": "B06-C14 trata cinética inicial; falta la teoría de colisiones y las secciones eficaces del gas interestelar."
+          }
+        },
+        {
+          "clases_ruta": "R06-M01-C05..C06",
+          "tema": "Reacciones ion-molécula",
+          "destino": "existente",
+          "tronco": [
+            "B36-C03",
+            "B36-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M01-C07..C08",
+          "tema": "Reacciones fotolíticas",
+          "destino": "existente",
+          "tronco": [
+            "B36-C08",
+            "B06-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M01-C09..C10",
+          "tema": "Química de fase gaseosa",
+          "destino": "existente",
+          "tronco": [
+            "B36-C04",
+            "B36-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M01-C11..C12",
+          "tema": "Tasas de reacción",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Cinética y modelado astroquímico",
+            "titulo": "Coeficientes de velocidad dependientes de la temperatura y bases cinéticas",
+            "necesidad": "B06-C14 trata cinética inicial; falta el uso de coeficientes tipo Arrhenius y de bases de datos astroquímicas (KIDA, UMIST)."
+          }
+        },
+        {
+          "clases_ruta": "R06-M01-C13..C14",
+          "tema": "Equilibrio frente a no equilibrio",
+          "destino": "existente",
+          "tronco": [
+            "B06-C13",
+            "B36-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M01-C15..C16",
+          "tema": "Redes de reacción",
+          "destino": "existente",
+          "tronco": [
+            "B36-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M01-C17..C18",
+          "tema": "Solución numérica de redes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Cinética y modelado astroquímico",
+            "titulo": "Integración numérica de redes químicas rígidas",
+            "necesidad": "B11-C09 trata estabilidad numérica general; falta la integración de sistemas rígidos (stiff)."
+          }
+        },
+        {
+          "clases_ruta": "R06-M01-C19..C20",
+          "tema": "Validación con abundancias observadas",
+          "destino": "existente",
+          "tronco": [
+            "B36-C19",
+            "B36-C10",
+            "B12-C10"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M02",
+      "nombre": "Espectros moleculares",
+      "temas": [
+        {
+          "clases_ruta": "R06-M02-C01..C02",
+          "tema": "Espectros rotacionales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Espectros rotacionales de moléculas: niveles y reglas de selección",
+            "necesidad": "B06-C17 y B30-C12 son visión general; falta el rotor rígido, sus niveles y reglas de selección."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C03..C04",
+          "tema": "Espectros vibracionales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Espectros vibracionales de moléculas",
+            "necesidad": "Ninguna clase trata niveles vibracionales ni bandas ro-vibracionales."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C05..C06",
+          "tema": "Transiciones electrónicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Transiciones electrónicas moleculares",
+            "necesidad": "Ninguna clase trata transiciones electrónicas moleculares ni Franck-Condon."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C07..C08",
+          "tema": "Momentos dipolares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Momentos dipolares y fuerza de línea",
+            "necesidad": "Ninguna clase relaciona momento dipolar con intensidad de línea."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C09..C10",
+          "tema": "Constantes espectroscópicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Constantes espectroscópicas y ajuste de espectros",
+            "necesidad": "Ninguna clase trata ajuste de constantes espectroscópicas."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C11..C12",
+          "tema": "Anchos de línea",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Ensanchamiento de líneas moleculares: natural, Doppler y por presión",
+            "necesidad": "B29-C12 trata el efecto Doppler; no los mecanismos de ensanchamiento de línea."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C13..C14",
+          "tema": "Bancos de datos moleculares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA",
+            "necesidad": "B14 no cubre el uso de catálogos espectroscópicos moleculares."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C15..C16",
+          "tema": "Identificación de líneas",
+          "destino": "existente",
+          "tronco": [
+            "B36-C10",
+            "B36-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M02-C17..C18",
+          "tema": "Mezclas moleculares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Espectroscopía molecular para astroquímica",
+            "titulo": "Mezclas moleculares y confusión de líneas",
+            "necesidad": "Ninguna clase trata mezcla y confusión de líneas en fuentes ricas."
+          }
+        },
+        {
+          "clases_ruta": "R06-M02-C19..C20",
+          "tema": "Incertidumbre de identificación",
+          "destino": "existente",
+          "tronco": [
+            "B36-C19",
+            "B12-C09",
+            "B12-C16"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M03",
+      "nombre": "Química de granos interestelares",
+      "temas": [
+        {
+          "clases_ruta": "R06-M03-C01..C02",
+          "tema": "Composición de granos",
+          "destino": "existente",
+          "tronco": [
+            "B36-C05",
+            "B18-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M03-C03..C04",
+          "tema": "Adsorción molecular",
+          "destino": "existente",
+          "tronco": [
+            "B36-C07",
+            "B36-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M03-C05..C06",
+          "tema": "Desorción térmica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Química de granos y hielos interestelares",
+            "titulo": "Desorción térmica de hielos interestelares",
+            "necesidad": "B36-C06 describe hielos; falta la desorción térmica y su cinética."
+          }
+        },
+        {
+          "clases_ruta": "R06-M03-C07..C08",
+          "tema": "Fotodesorción",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Química de granos y hielos interestelares",
+            "titulo": "Fotodesorción de hielos interestelares",
+            "necesidad": "Ninguna clase trata fotodesorción."
+          }
+        },
+        {
+          "clases_ruta": "R06-M03-C09..C10",
+          "tema": "Reacciones superficiales",
+          "destino": "existente",
+          "tronco": [
+            "B36-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M03-C11..C12",
+          "tema": "Hielos mixtos",
+          "destino": "existente",
+          "tronco": [
+            "B36-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M03-C13..C14",
+          "tema": "Irradiación de granos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Química de granos y hielos interestelares",
+            "titulo": "Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos",
+            "necesidad": "Ninguna clase trata radiólisis de hielos ni los productos de irradiación."
+          }
+        },
+        {
+          "clases_ruta": "R06-M03-C15..C16",
+          "tema": "Crecimiento del polvo",
+          "destino": "existente",
+          "tronco": [
+            "B33-C03",
+            "B18-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M03-C17..C18",
+          "tema": "Modelos de laboratorio criogénico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Química de granos y hielos interestelares",
+            "titulo": "Laboratorio de astroquímica de hielos en ultra alto vacío criogénico",
+            "necesidad": "Ninguna clase trata montajes de laboratorio criogénico de hielos astrofísicos."
+          }
+        },
+        {
+          "clases_ruta": "R06-M03-C19..C20",
+          "tema": "Balance químico de fases",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Cinética y modelado astroquímico",
+            "titulo": "Balance químico gas-grano: modelos de tres fases",
+            "necesidad": "B36-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M04",
+      "nombre": "Química prebiótica",
+      "temas": [
+        {
+          "clases_ruta": "R06-M04-C01..C02",
+          "tema": "Moléculas orgánicas simples",
+          "destino": "existente",
+          "tronco": [
+            "B06-C16",
+            "B36-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C03..C04",
+          "tema": "Nucleótidos y precursores",
+          "destino": "existente",
+          "tronco": [
+            "B36-C17",
+            "B37-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C05..C06",
+          "tema": "Aminoácidos de origen no biológico",
+          "destino": "existente",
+          "tronco": [
+            "B36-C17",
+            "B36-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C07..C08",
+          "tema": "Química hidrotermal",
+          "destino": "existente",
+          "tronco": [
+            "B36-C16",
+            "B37-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C09..C10",
+          "tema": "Ciclos de energía y gradientes",
+          "destino": "existente",
+          "tronco": [
+            "B37-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C11..C12",
+          "tema": "Síntesis abiótica",
+          "destino": "existente",
+          "tronco": [
+            "B37-C04",
+            "B36-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C13..C14",
+          "tema": "Autoorganización molecular",
+          "destino": "existente",
+          "tronco": [
+            "B37-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C15..C16",
+          "tema": "Polimerización experimental",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "B37",
+            "titulo": "Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio",
+            "necesidad": "B37-C03 trata el origen de autorreplicantes; ninguna clase trata la polimerización experimental y sus límites."
+          }
+        },
+        {
+          "clases_ruta": "R06-M04-C17..C18",
+          "tema": "Falsos positivos prebióticos",
+          "destino": "existente",
+          "tronco": [
+            "B37-C15",
+            "B36-C19",
+            "B36-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M04-C19..C20",
+          "tema": "Evaluación de hipótesis de origen",
+          "destino": "existente",
+          "tronco": [
+            "B37-C04",
+            "B37-C01"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M05",
+      "nombre": "Extremófilos y biosferas límite",
+      "temas": [
+        {
+          "clases_ruta": "R06-M05-C01..C02",
+          "tema": "Tolerancia a radiación biológica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Radiotolerancia biológica y reparación del ADN",
+            "necesidad": "B37-C05 es visión general; falta la radiotolerancia y su reparación del ADN."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C03..C04",
+          "tema": "Termófilos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Termófilos e hipertermófilos",
+            "necesidad": "Ninguna clase trata termófilos como categoría."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C05..C06",
+          "tema": "Psicrófilos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Psicrófilos y vida en frío",
+            "necesidad": "Ninguna clase trata psicrófilos."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C07..C08",
+          "tema": "Halófilos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Halófilos y vida en salmueras",
+            "necesidad": "Ninguna clase trata halófilos."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C09..C10",
+          "tema": "Acidófilos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Acidófilos y alcalófilos",
+            "necesidad": "Ninguna clase trata acidófilos."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C11..C12",
+          "tema": "Metabolismos quimiolitotróficos",
+          "destino": "existente",
+          "tronco": [
+            "B37-C07",
+            "B37-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M05-C13..C14",
+          "tema": "Biofilms extremos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Biofilms en ambientes extremos",
+            "necesidad": "Ninguna clase trata biofilms."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C15..C16",
+          "tema": "Energética microbiana",
+          "destino": "existente",
+          "tronco": [
+            "B37-C07",
+            "B37-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M05-C17..C18",
+          "tema": "Cultivo en condiciones análogas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Extremófilos y límites de la vida",
+            "titulo": "Cultivo de extremófilos no patógenos en condiciones análogas",
+            "necesidad": "Ninguna clase trata cultivo en cámaras análogas de organismos no patógenos."
+          }
+        },
+        {
+          "clases_ruta": "R06-M05-C19..C20",
+          "tema": "Extrapolación y límites planetarios",
+          "destino": "existente",
+          "tronco": [
+            "B37-C05",
+            "B37-C06",
+            "B37-C08"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M06",
+      "nombre": "Mundos oceánicos",
+      "temas": [
+        {
+          "clases_ruta": "R06-M06-C01..C02",
+          "tema": "Interior de Europa",
+          "destino": "existente",
+          "tronco": [
+            "B34-C14",
+            "B37-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C03..C04",
+          "tema": "Interior de Encélado",
+          "destino": "existente",
+          "tronco": [
+            "B34-C15",
+            "B37-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C05..C06",
+          "tema": "Tidal heating",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Geofísica de interiores planetarios",
+            "titulo": "Calentamiento por marea y equilibrio térmico en satélites",
+            "necesidad": "B42-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado)."
+          }
+        },
+        {
+          "clases_ruta": "R06-M06-C07..C08",
+          "tema": "Química oceánica",
+          "destino": "existente",
+          "tronco": [
+            "B36-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C09..C10",
+          "tema": "Interacción agua-roca",
+          "destino": "existente",
+          "tronco": [
+            "B36-C16",
+            "B36-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C11..C12",
+          "tema": "Plumas y emisiones",
+          "destino": "existente",
+          "tronco": [
+            "B34-C15",
+            "B37-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C13..C14",
+          "tema": "Fuentes de energía químicas",
+          "destino": "existente",
+          "tronco": [
+            "B37-C07",
+            "B36-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C15..C16",
+          "tema": "Estrategias de detección remota",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Criósferas y mundos helados",
+            "titulo": "Detección remota de océanos subsuperficiales: inducción magnética, libración y radar",
+            "necesidad": "Ninguna clase trata detección de océanos subsuperficiales por inducción magnética, libración y radar."
+          }
+        },
+        {
+          "clases_ruta": "R06-M06-C17..C18",
+          "tema": "Contaminación biológica",
+          "destino": "existente",
+          "tronco": [
+            "B37-C17",
+            "B37-C18",
+            "B36-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M06-C19..C20",
+          "tema": "Priorización de objetivos científicos",
+          "destino": "existente",
+          "tronco": [
+            "B37-C20",
+            "B37-C09",
+            "B37-C10"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M07",
+      "nombre": "Biofirmas y tecnofirmas",
+      "temas": [
+        {
+          "clases_ruta": "R06-M07-C01..C02",
+          "tema": "Gases con potencial biológico",
+          "destino": "existente",
+          "tronco": [
+            "B37-C13",
+            "B22-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C03..C04",
+          "tema": "Combinaciones de biofirmas",
+          "destino": "existente",
+          "tronco": [
+            "B37-C13",
+            "B37-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C05..C06",
+          "tema": "Contexto geoquímico",
+          "destino": "existente",
+          "tronco": [
+            "B37-C15",
+            "B36-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C07..C08",
+          "tema": "Fotosíntesis y espectros",
+          "destino": "existente",
+          "tronco": [
+            "B37-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C09..C10",
+          "tema": "Falsos positivos atmosféricos",
+          "destino": "existente",
+          "tronco": [
+            "B37-C15",
+            "B35-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C11..C12",
+          "tema": "Señales de actividad tecnológica",
+          "destino": "existente",
+          "tronco": [
+            "B37-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C13..C14",
+          "tema": "Radio SETI",
+          "destino": "existente",
+          "tronco": [
+            "B37-C16",
+            "B30-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C15..C16",
+          "tema": "Artefactos de datos",
+          "destino": "existente",
+          "tronco": [
+            "B21-C14",
+            "B15-C03",
+            "B13-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C17..C18",
+          "tema": "Estadística de detección",
+          "destino": "existente",
+          "tronco": [
+            "B12-C09",
+            "B21-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M07-C19..C20",
+          "tema": "Evaluación de evidencias extraordinarias",
+          "destino": "existente",
+          "tronco": [
+            "B24-C20",
+            "B37-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R06-M08",
+      "nombre": "Protección planetaria aplicada",
+      "temas": [
+        {
+          "clases_ruta": "R06-M08-C01..C02",
+          "tema": "Categorías COSPAR",
+          "destino": "existente",
+          "tronco": [
+            "B37-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M08-C03..C04",
+          "tema": "Misiones de retorno de muestra",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Exploración in situ y análisis de muestras planetarias",
+            "titulo": "Misiones de retorno de muestras: salvaguardas históricas y regulatorias",
+            "necesidad": "B37-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio)."
+          }
+        },
+        {
+          "clases_ruta": "R06-M08-C05..C06",
+          "tema": "Biocarga inicial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B56",
+            "titulo": "Biocarga de naves espaciales: verificación y requisitos normativos",
+            "necesidad": "B56-C04 trata contaminación en integración; falta la verificación de biocarga según normas de protección planetaria."
+          }
+        },
+        {
+          "clases_ruta": "R06-M08-C07..C08",
+          "tema": "Esterilización y validación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B56",
+            "titulo": "Validación de procesos de reducción de biocarga",
+            "necesidad": "B56 no trata la validación de procesos de reducción de biocarga."
+          }
+        },
+        {
+          "clases_ruta": "R06-M08-C09..C10",
+          "tema": "Restricciones de aterrizaje",
+          "destino": "existente",
+          "tronco": [
+            "B37-C18",
+            "B63-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M08-C11..C12",
+          "tema": "Contención de muestras",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Exploración in situ y análisis de muestras planetarias",
+            "titulo": "Contención de muestras extraterrestres: instalaciones y principios",
+            "necesidad": "Ninguna clase trata contención de muestras (enfoque defensivo)."
+          }
+        },
+        {
+          "clases_ruta": "R06-M08-C13..C14",
+          "tema": "Análisis de riesgos biológicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A05",
+            "bloque": "nuevo: Exploración in situ y análisis de muestras planetarias",
+            "titulo": "Evaluación de riesgos biológicos de muestras: marcos de decisión",
+            "necesidad": "Ninguna clase trata marcos de decisión de evaluación de riesgo biológico de muestras."
+          }
+        },
+        {
+          "clases_ruta": "R06-M08-C15..C16",
+          "tema": "Documentación de conformidad",
+          "destino": "existente",
+          "tronco": [
+            "B56-C18",
+            "B63-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M08-C17..C18",
+          "tema": "Gestión de incumplimientos",
+          "destino": "existente",
+          "tronco": [
+            "B56-C17",
+            "B63-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R06-M08-C19..C20",
+          "tema": "Protocolo de protección conceptual",
+          "destino": "existente",
+          "tronco": [
+            "B37-C18",
+            "B37-C20"
+          ]
+        }
+      ]
+    }
+  ]
+}

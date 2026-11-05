@@ -1,5 +1,7 @@
 # B11 — Ecuaciones diferenciales y simulación numérica
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 6 clases programadas (`B11-C21` a `B11-C26`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Estado:** malla preliminar; no contiene clases desarrolladas.

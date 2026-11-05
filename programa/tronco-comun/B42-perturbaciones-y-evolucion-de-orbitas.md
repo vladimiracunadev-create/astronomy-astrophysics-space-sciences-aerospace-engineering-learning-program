@@ -1,5 +1,7 @@
 # B42 — Perturbaciones y evolución de órbitas
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 1 clases programadas (`B42-C21` a `B42-C21`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial
 **Estado:** malla preliminar; no contiene clases desarrolladas.

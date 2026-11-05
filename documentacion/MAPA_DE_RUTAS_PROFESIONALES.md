@@ -1,6 +1,6 @@
 # Rutas profesionales y reconocimientos de conocimiento previo
 
-El catálogo contiene 24 rutas, 8 módulos por ruta y 20 clases por módulo. **No equivale a 24 titulaciones oficiales**. El avance exige demostrar competencias y completar requisitos aplicables, no cursar ciegamente los 1.280 temas transversales.
+El programa contiene 24 rutas que son recorridos sobre áreas y bloques: no tienen contenido propio (los 192 módulos de la línea base se conservan como equivalencias). **No equivale a 24 titulaciones oficiales**. El avance exige demostrar competencias y completar requisitos aplicables, no cursar ciegamente todas las clases.
 
 | ID | Ruta completa | Clases propias | Bloques comunes recomendados inicialmente |
 |---|---|---|

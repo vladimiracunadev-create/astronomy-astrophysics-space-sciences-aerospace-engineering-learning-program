@@ -1,0 +1,819 @@
+{
+  "ruta_id": "R04",
+  "modulos": [
+    {
+      "modulo": "R04-M01",
+      "nombre": "Ingeniería de antenas",
+      "temas": [
+        {
+          "clases_ruta": "R04-M01-C01..C02",
+          "tema": "Antenas dipolo y monopolo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Antenas de hilo: dipolo, monopolo e impedancia de radiación",
+            "necesidad": "B30 arranca en antenas parabólicas (C03); ninguna clase del tronco enseña antenas de hilo, resistencia de radiación ni su uso como elemento de arreglo o de banda baja."
+          }
+        },
+        {
+          "clases_ruta": "R04-M01-C03..C04",
+          "tema": "Antenas parabólicas",
+          "destino": "existente",
+          "tronco": [
+            "B30-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M01-C05..C06",
+          "tema": "Diagramas de radiación",
+          "destino": "existente",
+          "tronco": [
+            "B30-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M01-C07..C08",
+          "tema": "Ganancia y apertura efectiva",
+          "destino": "existente",
+          "tronco": [
+            "B30-C05",
+            "B55-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M01-C09..C10",
+          "tema": "Polarización de antenas",
+          "destino": "existente",
+          "tronco": [
+            "B30-C13",
+            "B26-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M01-C11..C12",
+          "tema": "Temperatura de ruido",
+          "destino": "existente",
+          "tronco": [
+            "B30-C05",
+            "B30-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M01-C13..C14",
+          "tema": "Impedancias y adaptación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Adaptación de impedancias y líneas de transmisión en antenas",
+            "necesidad": "B55 trata presupuesto de enlace y ganancias, pero ninguna clase enseña impedancia característica, ROE ni redes de adaptación entre antena y receptor."
+          }
+        },
+        {
+          "clases_ruta": "R04-M01-C15..C16",
+          "tema": "Apuntado de antenas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores",
+            "necesidad": "B27 cubre monturas y encoders de telescopios ópticos; ningún bloque trata modelos de apuntado, errores por flexión y calibración de apuntado de grandes antenas de radio."
+          }
+        },
+        {
+          "clases_ruta": "R04-M01-C17..C18",
+          "tema": "Arreglos de antenas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Arreglos de antenas: factor de arreglo y formación de haz",
+            "necesidad": "B30-C14 trata líneas de base interferométricas, pero no el factor de arreglo, el control de lóbulos ni la formación de haz de arreglos de fase."
+          }
+        },
+        {
+          "clases_ruta": "R04-M01-C19..C20",
+          "tema": "Calibración de patrones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Medición y calibración de patrones de antena",
+            "necesidad": "B30-C04 enseña a interpretar diagramas de radiación; falta la competencia de medirlos (campo lejano, fuentes celestes, drones) y calibrarlos."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M02",
+      "nombre": "Receptores de bajo ruido",
+      "temas": [
+        {
+          "clases_ruta": "R04-M02-C01..C02",
+          "tema": "Ruido térmico",
+          "destino": "existente",
+          "tronco": [
+            "B30-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M02-C03..C04",
+          "tema": "Amplificadores LNA",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Amplificadores de bajo ruido (LNA): tecnología, ganancia y adaptación",
+            "necesidad": "B30-C07 describe la cadena superheterodina de forma general; ninguna clase trata el diseño ni la caracterización de amplificadores de bajo ruido HEMT/SiGe."
+          }
+        },
+        {
+          "clases_ruta": "R04-M02-C05..C06",
+          "tema": "Criogenia de receptores",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Criogenia y refrigeración de receptores de radio",
+            "necesidad": "B28-C08 y B31-C13 tratan enfriamiento de detectores ópticos y de instrumentos orbitales; ninguna cubre criostatos, cabezas frías y ruido físico de receptores de radio."
+          }
+        },
+        {
+          "clases_ruta": "R04-M02-C07..C08",
+          "tema": "Figura de ruido",
+          "destino": "existente",
+          "tronco": [
+            "B55-C07",
+            "B30-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M02-C09..C10",
+          "tema": "Estabilidad de ganancia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Estabilidad de ganancia de receptores y variaciones de ganancia",
+            "necesidad": "B30-C08 trata estabilidad de osciladores; ninguna clase enseña deriva de ganancia, varianza de Allan de radiómetros ni técnicas de conmutación tipo Dicke."
+          }
+        },
+        {
+          "clases_ruta": "R04-M02-C11..C12",
+          "tema": "Ancho de banda efectivo",
+          "destino": "existente",
+          "tronco": [
+            "B30-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M02-C13..C14",
+          "tema": "Linealidad de receptor",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Linealidad, compresión e intermodulación de receptores de RF",
+            "necesidad": "B28-C10 trata no linealidad de detectores ópticos; no hay clase sobre punto de compresión, productos de intermodulación y rango dinámico de receptores de RF."
+          }
+        },
+        {
+          "clases_ruta": "R04-M02-C15..C16",
+          "tema": "Calibración de temperatura",
+          "destino": "existente",
+          "tronco": [
+            "B13-C17",
+            "B30-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M02-C17..C18",
+          "tema": "Interferencias de radiofrecuencia",
+          "destino": "existente",
+          "tronco": [
+            "B62-C17",
+            "B56-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M02-C19..C20",
+          "tema": "Evaluación de sensibilidad",
+          "destino": "existente",
+          "tronco": [
+            "B30-C06",
+            "B30-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M03",
+      "nombre": "Radiofrecuencia y cadenas de recepción",
+      "temas": [
+        {
+          "clases_ruta": "R04-M03-C01..C02",
+          "tema": "Amplificación en radiofrecuencia",
+          "destino": "existente",
+          "tronco": [
+            "B30-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C03..C04",
+          "tema": "Filtros pasabanda",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Filtros de radiofrecuencia pasabanda y rechazo de banda imagen",
+            "necesidad": "Ninguna clase del tronco enseña diseño ni selección de filtros pasabanda de RF; B15-C07 trata solo filtrado digital."
+          }
+        },
+        {
+          "clases_ruta": "R04-M03-C05..C06",
+          "tema": "Conversión de frecuencia",
+          "destino": "existente",
+          "tronco": [
+            "B30-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C07..C08",
+          "tema": "Osciladores locales",
+          "destino": "existente",
+          "tronco": [
+            "B30-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C09..C10",
+          "tema": "Relojes y fase",
+          "destino": "existente",
+          "tronco": [
+            "B30-C08",
+            "B13-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C11..C12",
+          "tema": "Mezcladores de frecuencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Antenas y receptores de radioastronomía",
+            "titulo": "Mezcladores de frecuencia: pérdida de conversión y productos espurios",
+            "necesidad": "B30-C07 presenta la conversión de modo general; falta la competencia específica de mezcladores (pérdida de conversión, aislamiento, espurios, mezcladores SIS/HEB)."
+          }
+        },
+        {
+          "clases_ruta": "R04-M03-C13..C14",
+          "tema": "Digitalización de IF",
+          "destino": "existente",
+          "tronco": [
+            "B30-C09",
+            "B15-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C15..C16",
+          "tema": "Blindaje electromagnético",
+          "destino": "existente",
+          "tronco": [
+            "B56-C13",
+            "B56-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C17..C18",
+          "tema": "Compatibilidad RF",
+          "destino": "existente",
+          "tronco": [
+            "B56-C13",
+            "B62-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M03-C19..C20",
+          "tema": "Ensayo de cadena de recepción",
+          "destino": "existente",
+          "tronco": [
+            "B13-C20",
+            "B13-C17"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M04",
+      "nombre": "Radioastronomía con SDR",
+      "temas": [
+        {
+          "clases_ruta": "R04-M04-C01..C02",
+          "tema": "Plataformas de radio definida por software",
+          "destino": "existente",
+          "tronco": [
+            "B30-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C03..C04",
+          "tema": "Ganancia y muestreo SDR",
+          "destino": "existente",
+          "tronco": [
+            "B30-C10",
+            "B15-C02",
+            "B30-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C05..C06",
+          "tema": "Calibración de frecuencias",
+          "destino": "existente",
+          "tronco": [
+            "B30-C08",
+            "B13-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C07..C08",
+          "tema": "Espectrogramas astronómicos",
+          "destino": "existente",
+          "tronco": [
+            "B15-C06",
+            "B30-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C09..C10",
+          "tema": "Observación de radio solar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B23",
+            "titulo": "Radioemisión solar: estallidos de radio y su observación",
+            "necesidad": "B23 trata erupciones y CME en general; ninguna clase enseña los tipos de estallido de radio solar (I-V), su espectro dinámico ni su observación con receptores de aficionado o SDR."
+          }
+        },
+        {
+          "clases_ruta": "R04-M04-C11..C12",
+          "tema": "Recepción de hidrógeno neutral",
+          "destino": "existente",
+          "tronco": [
+            "B30-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C13..C14",
+          "tema": "Interferencias locales",
+          "destino": "existente",
+          "tronco": [
+            "B62-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C15..C16",
+          "tema": "Filtrado de señales",
+          "destino": "existente",
+          "tronco": [
+            "B15-C07",
+            "B15-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C17..C18",
+          "tema": "Registro de observaciones",
+          "destino": "existente",
+          "tronco": [
+            "B32-C17",
+            "B13-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M04-C19..C20",
+          "tema": "Validación de observaciones caseras",
+          "destino": "existente",
+          "tronco": [
+            "B30-C20",
+            "B13-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M05",
+      "nombre": "Calibración de interferómetros",
+      "temas": [
+        {
+          "clases_ruta": "R04-M05-C01..C02",
+          "tema": "Visibilidades interferométricas",
+          "destino": "existente",
+          "tronco": [
+            "B30-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M05-C03..C04",
+          "tema": "Calibradores de fase",
+          "destino": "existente",
+          "tronco": [
+            "B30-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M05-C05..C06",
+          "tema": "Calibradores de amplitud",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Calibración de amplitud y escala de flujo con calibradores primarios",
+            "necesidad": "B30-C17 trata solo calibración de fase; ninguna clase enseña escala de flujo, calibradores primarios ni el bootstrap de flujos."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C07..C08",
+          "tema": "Cierre de fase",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Cantidades de cierre: fase y amplitud de cierre",
+            "necesidad": "Las cantidades de cierre son la base de la imagen sin fase y de la autocalibración; B30-C17 no las trata."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C09..C10",
+          "tema": "Ganancias complejas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Ganancias complejas por antena y soluciones de calibración",
+            "necesidad": "Ninguna clase formula la ecuación de medida interferométrica ni resuelve ganancias complejas por antena/base (matrices de Jones)."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C11..C12",
+          "tema": "Errores de banda",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Respuesta de banda y errores dependientes de la frecuencia",
+            "necesidad": "B30-C15 trata correladores y visibilidades; no hay clase sobre respuesta de banda (bandpass) ni sus errores en observaciones espectrales."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C13..C14",
+          "tema": "Corrección ionosférica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección",
+            "necesidad": "B23-C17 trata auroras y corrientes ionosféricas, no los efectos de la ionosfera sobre fase y polarización de señales de radio ni su corrección."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C15..C16",
+          "tema": "Auto calibración",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Autocalibración iterativa con modelo de cielo",
+            "necesidad": "Ninguna clase enseña self-cal (modelo, solución de ganancias, convergencia y sesgos)."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C17..C18",
+          "tema": "Evaluación de residuos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Evaluación de residuos y diagnóstico de calidad de calibración",
+            "necesidad": "B13-C20 valida cadenas de medida en general; falta el diagnóstico de residuos de visibilidad y de calidad de la calibración interferométrica."
+          }
+        },
+        {
+          "clases_ruta": "R04-M05-C19..C20",
+          "tema": "Validación de imágenes calibradas",
+          "destino": "existente",
+          "tronco": [
+            "B30-C19",
+            "B13-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M06",
+      "nombre": "Correlación de señales astronómicas",
+      "temas": [
+        {
+          "clases_ruta": "R04-M06-C01..C02",
+          "tema": "Muestreo de señales",
+          "destino": "existente",
+          "tronco": [
+            "B15-C02",
+            "B30-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C03..C04",
+          "tema": "Alineación temporal",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Compensación de retardo y alineación temporal de flujos de antenas",
+            "necesidad": "B44-C16 sincroniza tiempo de navegación; ninguna clase trata el seguimiento de retardo y la alineación de flujos digitales en un correlador."
+          }
+        },
+        {
+          "clases_ruta": "R04-M06-C05..C06",
+          "tema": "Correlación cruzada",
+          "destino": "existente",
+          "tronco": [
+            "B30-C15",
+            "B12-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C07..C08",
+          "tema": "Correladores FX",
+          "destino": "existente",
+          "tronco": [
+            "B30-C15",
+            "B15-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C09..C10",
+          "tema": "Correladores XF",
+          "destino": "existente",
+          "tronco": [
+            "B30-C15",
+            "B15-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C11..C12",
+          "tema": "Geometría de líneas de base",
+          "destino": "existente",
+          "tronco": [
+            "B30-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C13..C14",
+          "tema": "Fringe stopping",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Fringe stopping y rotación de fase por retardo geométrico",
+            "necesidad": "B30-C14 define la línea de base; no se enseña la rotación de fase que detiene las franjas ni la tasa de franjas."
+          }
+        },
+        {
+          "clases_ruta": "R04-M06-C15..C16",
+          "tema": "Canalización espectral",
+          "destino": "existente",
+          "tronco": [
+            "B15-C05",
+            "B15-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C17..C18",
+          "tema": "Capacidad de procesamiento",
+          "destino": "existente",
+          "tronco": [
+            "B14-C13",
+            "B14-C14",
+            "B14-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M06-C19..C20",
+          "tema": "Prueba numérica de correlador",
+          "destino": "existente",
+          "tronco": [
+            "B14-C10"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M07",
+      "nombre": "VLBI y geodesia",
+      "temas": [
+        {
+          "clases_ruta": "R04-M07-C01..C02",
+          "tema": "Redes de antenas geodésicas",
+          "destino": "existente",
+          "tronco": [
+            "B30-C18",
+            "B13-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M07-C03..C04",
+          "tema": "Relojes atómicos de estación",
+          "destino": "existente",
+          "tronco": [
+            "B13-C07",
+            "B30-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M07-C05..C06",
+          "tema": "Retardos geométricos",
+          "destino": "existente",
+          "tronco": [
+            "B30-C14",
+            "B30-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M07-C07..C08",
+          "tema": "Retardos atmosféricos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Retardo troposférico e ionosférico en VLBI y su modelado",
+            "necesidad": "B55-C04 trata pérdidas de propagación de enlaces; no hay clase sobre retardo húmedo/seco y funciones de mapeo en geodesia por VLBI."
+          }
+        },
+        {
+          "clases_ruta": "R04-M07-C09..C10",
+          "tema": "Fringes VLBI",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Búsqueda de franjas VLBI: ajuste de retardo y tasa",
+            "necesidad": "B30-C18 presenta VLBI de forma general; falta el ajuste de franjas (fringe fitting) sobre retardo y tasa de retardo."
+          }
+        },
+        {
+          "clases_ruta": "R04-M07-C11..C12",
+          "tema": "Sistemas de referencia celestes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B13",
+            "titulo": "Sistema de referencia celeste ICRF y cuásares",
+            "necesidad": "B13-C11 trata referencias terrestres; ninguna clase enseña el ICRF, su materialización con cuásares ni la transformación celeste-terrestre."
+          }
+        },
+        {
+          "clases_ruta": "R04-M07-C13..C14",
+          "tema": "Rotación terrestre",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B13",
+            "titulo": "Parámetros de orientación terrestre: precesión, nutación, UT1 y movimiento polar",
+            "necesidad": "B13-C10 trata tiempo sidéreo; ninguna clase enseña la orientación de la Tierra (EOP) ni su determinación."
+          }
+        },
+        {
+          "clases_ruta": "R04-M07-C15..C16",
+          "tema": "Análisis de observaciones VLBI",
+          "destino": "existente",
+          "tronco": [
+            "B30-C18",
+            "B44-C07",
+            "B44-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M07-C17..C18",
+          "tema": "Geodesia de alta precisión",
+          "destino": "existente",
+          "tronco": [
+            "B38-C10",
+            "B30-C18",
+            "B34-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M07-C19..C20",
+          "tema": "Estándares de archivos VLBI",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Formatos de datos VLBI y geodésicos",
+            "necesidad": "B14-C06 y B14-C07 tratan FITS y HDF5 genéricos; no hay clase sobre formatos de grabación y de producto de VLBI (VDIF, FITS-IDI, vgosDB)."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R04-M08",
+      "nombre": "Reducción profesional de datos de radio",
+      "temas": [
+        {
+          "clases_ruta": "R04-M08-C01..C02",
+          "tema": "Importación de visibilidades",
+          "destino": "existente",
+          "tronco": [
+            "B30-C15",
+            "B14-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C03..C04",
+          "tema": "Inspección de metadatos",
+          "destino": "existente",
+          "tronco": [
+            "B28-C19",
+            "B14-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C05..C06",
+          "tema": "Marcado de datos espurios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Marcado de datos espurios e interferencia en visibilidades",
+            "necesidad": "B12-C19 trata atípicos en general; falta el flagging específico de RFI y fallos de antena en visibilidades."
+          }
+        },
+        {
+          "clases_ruta": "R04-M08-C07..C08",
+          "tema": "Calibración de banda",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A04",
+            "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
+            "titulo": "Calibración de banda en la reducción de datos de síntesis",
+            "necesidad": "Aplicación operativa de la respuesta de banda en el flujo de reducción (soluciones, interpolación, validación) que ninguna clase actual cubre."
+          }
+        },
+        {
+          "clases_ruta": "R04-M08-C09..C10",
+          "tema": "Síntesis de apertura",
+          "destino": "existente",
+          "tronco": [
+            "B30-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C11..C12",
+          "tema": "Algoritmo CLEAN",
+          "destino": "existente",
+          "tronco": [
+            "B30-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C13..C14",
+          "tema": "Restauración de imágenes",
+          "destino": "existente",
+          "tronco": [
+            "B15-C11",
+            "B30-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C15..C16",
+          "tema": "Medición de flujo",
+          "destino": "existente",
+          "tronco": [
+            "B15-C12",
+            "B15-C16",
+            "B13-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C17..C18",
+          "tema": "Incertidumbre de imágenes",
+          "destino": "existente",
+          "tronco": [
+            "B12-C16",
+            "B13-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R04-M08-C19..C20",
+          "tema": "Archivo científico reproducible",
+          "destino": "existente",
+          "tronco": [
+            "B14-C19",
+            "B14-C12",
+            "B32-C17"
+          ]
+        }
+      ]
+    }
+  ]
+}

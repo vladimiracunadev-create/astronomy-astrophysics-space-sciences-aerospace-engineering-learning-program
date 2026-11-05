@@ -1,5 +1,7 @@
 # B56 — Integración, ensayos y calificación espacial
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 4 clases programadas (`B56-C21` a `B56-C24`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales
 **Estado:** malla preliminar; no contiene clases desarrolladas.

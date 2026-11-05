@@ -1,0 +1,846 @@
+{
+  "ruta_id": "R17",
+  "modulos": [
+    {
+      "modulo": "R17-M01",
+      "nombre": "Cinemática de manipuladores espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R17-M01-C01..C02",
+          "tema": "Marcos de referencia robóticos",
+          "destino": "existente",
+          "tronco": [
+            "B10-C16",
+            "B61-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M01-C03..C04",
+          "tema": "Transformaciones homogéneas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg)",
+            "necesidad": "B10 enseña rotaciones y cambio de marcos, pero ninguna clase une rotación y traslación en una transformación homogénea ni parametriza la cadena de eslabones de un brazo."
+          }
+        },
+        {
+          "clases_ruta": "R17-M01-C05..C06",
+          "tema": "Cinemática directa",
+          "destino": "existente",
+          "tronco": [
+            "B61-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M01-C07..C08",
+          "tema": "Cinemática inversa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Cinemática inversa y redundancia de manipuladores",
+            "necesidad": "B61-C02 presenta la cinemática de manipuladores en una sola clase; resolver la cinemática inversa (soluciones múltiples, redundancia, métodos numéricos) exige su propia clase."
+          }
+        },
+        {
+          "clases_ruta": "R17-M01-C09..C10",
+          "tema": "Jacobianos cinemáticos",
+          "destino": "existente",
+          "tronco": [
+            "B10-C19",
+            "B61-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M01-C11..C12",
+          "tema": "Singularidades",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Singularidades y manipulabilidad de brazos robóticos",
+            "necesidad": "B10-C11 (SVD) da la herramienta matemática, pero ninguna clase analiza singularidades y pérdida de movilidad de un brazo ni su evasión."
+          }
+        },
+        {
+          "clases_ruta": "R17-M01-C13..C14",
+          "tema": "Restricciones articulares",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Límites articulares, espacio de trabajo y evitación de colisiones",
+            "necesidad": "Ninguna clase del tronco trata las restricciones articulares, el espacio de trabajo alcanzable ni la evitación de autocolisiones de un manipulador."
+          }
+        },
+        {
+          "clases_ruta": "R17-M01-C15..C16",
+          "tema": "Planificación en espacio articular",
+          "destino": "existente",
+          "tronco": [
+            "B61-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M01-C17..C18",
+          "tema": "Calibración de manipuladores",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Calibración cinemática de manipuladores",
+            "necesidad": "B13-C05 trata calibración instrumental general; no existe una clase sobre identificar parámetros cinemáticos reales de un brazo a partir de mediciones."
+          }
+        },
+        {
+          "clases_ruta": "R17-M01-C19..C20",
+          "tema": "Simulación de brazo robótico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Simulación de un brazo robótico espacial",
+            "necesidad": "B61-C20 integra una misión completa y B16-C20 un simulador de orientación; falta la simulación específica de cinemática y dinámica de un brazo."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M02",
+      "nombre": "Dinámica de robots sobre otros cuerpos",
+      "temas": [
+        {
+          "clases_ruta": "R17-M02-C01..C02",
+          "tema": "Dinámica multibody",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Dinámica multicuerpo de rovers y manipuladores",
+            "necesidad": "B05 y B50 dan mecánica y análisis estructural, pero ninguna clase formula la dinámica de sistemas de cuerpos articulados con contactos."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C03..C04",
+          "tema": "Contacto rueda-regolito",
+          "destino": "existente",
+          "tronco": [
+            "B61-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M02-C05..C06",
+          "tema": "Tracción en terrenos sueltos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Terramecánica: tracción y hundimiento en suelos sueltos",
+            "necesidad": "B61-C06 introduce la movilidad sobre regolito; falta el modelo de interacción rueda-suelo (presión, cizalladura, hundimiento) que sostiene la tracción."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C07..C08",
+          "tema": "Deslizamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Deslizamiento y estimación de patinaje",
+            "necesidad": "Ninguna clase trata el deslizamiento de ruedas sobre suelo suelto ni cómo estimarlo para corregir odometría y control."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C09..C10",
+          "tema": "Suspensión rover",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Suspensión rocker-bogie y mecánica de rovers",
+            "necesidad": "El tronco no contiene una clase sobre arquitecturas de suspensión de rovers ni su efecto en la adaptación al terreno."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C11..C12",
+          "tema": "Distribución de cargas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Distribución de cargas y estabilidad ante vuelco",
+            "necesidad": "B05-C05 da los diagramas de cuerpo libre, pero falta aplicarlos al reparto de carga por rueda y a márgenes de estabilidad en pendiente."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C13..C14",
+          "tema": "Dinamometría",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Dinamometría y medición de fuerzas de tracción",
+            "necesidad": "B13 cubre metrología general; falta la medición de tracción y resistencia al avance con bancos y celdas de carga para validar modelos de locomoción."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C15..C16",
+          "tema": "Modelos de locomoción",
+          "destino": "existente",
+          "tronco": [
+            "B61-C06",
+            "B61-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M02-C17..C18",
+          "tema": "Simulación de pendiente",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Simulación de movilidad sobre pendientes y terreno",
+            "necesidad": "Ninguna clase simula la dinámica de un rover sobre pendientes y terrenos deformables para evaluar tracción y estabilidad."
+          }
+        },
+        {
+          "clases_ruta": "R17-M02-C19..C20",
+          "tema": "Pruebas de movilidad en entorno análogo",
+          "destino": "existente",
+          "tronco": [
+            "B61-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M03",
+      "nombre": "Visión artificial y percepción espacial",
+      "temas": [
+        {
+          "clases_ruta": "R17-M03-C01..C02",
+          "tema": "Cámaras estereoscópicas",
+          "destino": "existente",
+          "tronco": [
+            "B61-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M03-C03..C04",
+          "tema": "Calibración intrínseca",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Calibración intrínseca de cámaras",
+            "necesidad": "B28 trata detectores astronómicos, no el modelo geométrico de cámara (focal, distorsión) necesario para visión robótica."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C05..C06",
+          "tema": "Calibración extrínseca",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Calibración extrínseca y registro multisensor",
+            "necesidad": "Ninguna clase cubre la pose relativa cámara-robot ni entre sensores, base de la visión estéreo y la fusión."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C07..C08",
+          "tema": "Mapas de profundidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Mapas de profundidad y correspondencia estéreo",
+            "necesidad": "B61-C04 introduce el estéreo; falta la clase de cálculo de disparidad y mapas de profundidad con sus errores."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C09..C10",
+          "tema": "Detección de obstáculos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Detección de obstáculos y mapas de traversabilidad",
+            "necesidad": "B61-C03 es una visión general de sensores; ninguna clase construye detección de obstáculos y traversabilidad a partir de percepción."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C11..C12",
+          "tema": "Segmentación semántica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Segmentación semántica de superficies planetarias",
+            "necesidad": "B15-C13 trata segmentación clásica de imágenes; no hay una clase de segmentación semántica con aprendizaje automático (no existe bloque de aprendizaje automático)."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C13..C14",
+          "tema": "Detección de piedras",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Detección y catalogación de rocas en imágenes de superficie",
+            "necesidad": "Ningún bloque trata la detección de rocas como peligro de navegación y objetivo científico en imágenes de rovers."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C15..C16",
+          "tema": "Estimación de pose",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Estimación de pose de objetos y objetivos por visión",
+            "necesidad": "B53-C09 estima actitud de satélites con sensores específicos; falta la estimación de pose de objetos por visión (PnP, marcadores)."
+          }
+        },
+        {
+          "clases_ruta": "R17-M03-C17..C18",
+          "tema": "Fusión de imágenes",
+          "destino": "existente",
+          "tronco": [
+            "B15-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M03-C19..C20",
+          "tema": "Métricas de percepción",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Percepción visual robótica",
+            "titulo": "Métricas de evaluación de percepción",
+            "necesidad": "Ninguna clase define métricas (precisión, recall, IoU, error de profundidad) para validar algoritmos de percepción."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M04",
+      "nombre": "Localización y mapeo SLAM",
+      "temas": [
+        {
+          "clases_ruta": "R17-M04-C01..C02",
+          "tema": "Odómetro visual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "Odometría visual",
+            "necesidad": "B61-C05 menciona SLAM; ninguna clase desarrolla la estimación de movimiento a partir de secuencias de imágenes."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C03..C04",
+          "tema": "Odometría inercial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Navegación inercial y fusión multisensorial",
+            "titulo": "Odometría inercial y preintegración de IMU",
+            "necesidad": "B53-C06 trata giroscopios; falta la integración de acelerómetros y giróscopos para estimar movimiento de un robot y su deriva."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C05..C06",
+          "tema": "Mapas de características",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "Detección y descriptores de características",
+            "necesidad": "B15-C12 detecta fuentes astronómicas; no cubre características locales robustas para correspondencia entre imágenes."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C07..C08",
+          "tema": "SLAM gráfico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "SLAM basado en grafos de poses",
+            "necesidad": "B61-C05 ofrece solo una introducción; el SLAM gráfico con optimización no lineal necesita su clase."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C09..C10",
+          "tema": "Cierre de bucles",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "Cierre de bucles y consistencia global",
+            "necesidad": "Ninguna clase trata el reconocimiento de lugares visitados y la corrección global del mapa."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C11..C12",
+          "tema": "Mapas de ocupación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "Mapas de ocupación y rejillas de elevación",
+            "necesidad": "El tronco no contiene representaciones de mapa para navegación autónoma."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C13..C14",
+          "tema": "Localización probabilística",
+          "destino": "existente",
+          "tronco": [
+            "B61-C05",
+            "B15-C17",
+            "B15-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M04-C15..C16",
+          "tema": "Evaluación de deriva",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "Evaluación de deriva y error de trayectoria",
+            "necesidad": "B44-C19 evalúa precisión de navegación orbital; falta la evaluación de error de trayectoria (ATE/RPE) en localización de robots."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C17..C18",
+          "tema": "Robustez de mapeo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Localización y mapeo robótico",
+            "titulo": "Robustez del mapeo ante entornos degradados",
+            "necesidad": "B12-C11 y C19 dan regresión robusta y valores atípicos, pero no su aplicación a mapeo con texturas pobres, polvo y cambios de iluminación."
+          }
+        },
+        {
+          "clases_ruta": "R17-M04-C19..C20",
+          "tema": "Validación con rutas conocidas",
+          "destino": "existente",
+          "tronco": [
+            "B61-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M05",
+      "nombre": "Teleoperación con retardo",
+      "temas": [
+        {
+          "clases_ruta": "R17-M05-C01..C02",
+          "tema": "Latencia Tierra-Marte",
+          "destino": "existente",
+          "tronco": [
+            "B61-C07",
+            "B55-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M05-C03..C04",
+          "tema": "Control supervisado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Teleoperación y autonomía supervisada",
+            "titulo": "Control supervisado y autonomía compartida",
+            "necesidad": "B61-C07 trata teleoperación con latencia; falta el paradigma de control supervisado donde el operador da metas y el robot ejecuta."
+          }
+        },
+        {
+          "clases_ruta": "R17-M05-C05..C06",
+          "tema": "Comandos discretos",
+          "destino": "existente",
+          "tronco": [
+            "B54-C09",
+            "B57-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M05-C07..C08",
+          "tema": "Protocolos seguros",
+          "destino": "existente",
+          "tronco": [
+            "B54-C17",
+            "B55-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M05-C09..C10",
+          "tema": "Interfaces humano-robot",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Teleoperación y autonomía supervisada",
+            "titulo": "Interfaces humano-robot para operación remota",
+            "necesidad": "B60-C16 trata ergonomía física; ninguna clase diseña interfaces y visualización para operar robots a distancia."
+          }
+        },
+        {
+          "clases_ruta": "R17-M05-C11..C12",
+          "tema": "Autonomía de bajo nivel",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Teleoperación y autonomía supervisada",
+            "titulo": "Autonomía de bajo nivel y comportamientos reactivos",
+            "necesidad": "No existe clase sobre comportamientos autónomos de bajo nivel (seguridad, parada, reflejos) que sostienen la operación con retardo."
+          }
+        },
+        {
+          "clases_ruta": "R17-M05-C13..C14",
+          "tema": "Respuestas a pérdida de enlace",
+          "destino": "existente",
+          "tronco": [
+            "B54-C11",
+            "B57-C15",
+            "B57-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M05-C15..C16",
+          "tema": "Colas de comandos",
+          "destino": "existente",
+          "tronco": [
+            "B57-C09",
+            "B57-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M05-C17..C18",
+          "tema": "Telemetría de operación",
+          "destino": "existente",
+          "tronco": [
+            "B57-C06",
+            "B54-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M05-C19..C20",
+          "tema": "Simulación de teleoperación retardada",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Teleoperación y autonomía supervisada",
+            "titulo": "Simulación de teleoperación con retardo",
+            "necesidad": "B57-C20 simula una jornada de control; falta simular retardo, pérdida de paquetes y operación supervisada de un robot."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M06",
+      "nombre": "Manipulación y mantenimiento orbital",
+      "temas": [
+        {
+          "clases_ruta": "R17-M06-C01..C02",
+          "tema": "Inspección visual de satélites",
+          "destino": "existente",
+          "tronco": [
+            "B61-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C03..C04",
+          "tema": "Control relativo",
+          "destino": "existente",
+          "tronco": [
+            "B46-C09",
+            "B46-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C05..C06",
+          "tema": "Agarre en microgravedad",
+          "destino": "existente",
+          "tronco": [
+            "B46-C16",
+            "B61-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C07..C08",
+          "tema": "Herramientas robóticas",
+          "destino": "existente",
+          "tronco": [
+            "B61-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C09..C10",
+          "tema": "Manipulación de componentes",
+          "destino": "existente",
+          "tronco": [
+            "B61-C12",
+            "B61-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C11..C12",
+          "tema": "Reabastecimiento como concepto",
+          "destino": "existente",
+          "tronco": [
+            "B61-C12",
+            "B61-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C13..C14",
+          "tema": "Mantenimiento predictivo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B54",
+            "titulo": "Mantenimiento predictivo y pronóstico de salud de sistemas",
+            "necesidad": "B54-C12 detecta, aísla y recupera fallos, pero ninguna clase estima vida útil restante ni anticipa degradación de componentes."
+          }
+        },
+        {
+          "clases_ruta": "R17-M06-C15..C16",
+          "tema": "Control de fuerzas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Control de fuerza e impedancia en manipulación",
+            "necesidad": "B16 trata control clásico; falta el control de contacto (fuerza, impedancia) para manipular componentes en microgravedad."
+          }
+        },
+        {
+          "clases_ruta": "R17-M06-C17..C18",
+          "tema": "Prevención de contactos peligrosos",
+          "destino": "existente",
+          "tronco": [
+            "B61-C17",
+            "B46-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M06-C19..C20",
+          "tema": "Ensayo de reparación en gemelo digital",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Gemelo digital para ensayo de reparaciones robóticas",
+            "necesidad": "B61-C20 simula una misión; falta construir y usar un gemelo digital de un satélite y su brazo para ensayar reparaciones."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M07",
+      "nombre": "Exploración autónoma planetaria",
+      "temas": [
+        {
+          "clases_ruta": "R17-M07-C01..C02",
+          "tema": "Selección de objetivos científicos",
+          "destino": "existente",
+          "tronco": [
+            "B61-C16",
+            "B49-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M07-C03..C04",
+          "tema": "Planificación de ruta",
+          "destino": "existente",
+          "tronco": [
+            "B61-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M07-C05..C06",
+          "tema": "Evaluación de riesgo de terreno",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Movilidad de robots planetarios",
+            "titulo": "Traversabilidad y evaluación de riesgo de terreno",
+            "necesidad": "B34 describe geología de superficies, pero ninguna clase convierte pendiente, rugosidad y rocas en riesgo de navegación."
+          }
+        },
+        {
+          "clases_ruta": "R17-M07-C07..C08",
+          "tema": "Autonomía de navegación",
+          "destino": "existente",
+          "tronco": [
+            "B61-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M07-C09..C10",
+          "tema": "Clasificación de muestras",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Clasificación y priorización autónoma de muestras a bordo",
+            "necesidad": "B34-C17 enseña mineralogía espectral en tierra; falta la clasificación autónoma a bordo para decidir qué medir o transmitir."
+          }
+        },
+        {
+          "clases_ruta": "R17-M07-C11..C12",
+          "tema": "Gestión de energía rover",
+          "destino": "existente",
+          "tronco": [
+            "B52-C19",
+            "B57-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M07-C13..C14",
+          "tema": "Gestión de ventanas de comunicación",
+          "destino": "existente",
+          "tronco": [
+            "B57-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M07-C15..C16",
+          "tema": "Detección de eventos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Detección autónoma de eventos científicos",
+            "necesidad": "B57-C13 detecta anomalías de plataforma; ninguna clase trata detección autónoma de fenómenos de interés científico (polvo, nubes)."
+          }
+        },
+        {
+          "clases_ruta": "R17-M07-C17..C18",
+          "tema": "Diagnóstico autónomo",
+          "destino": "existente",
+          "tronco": [
+            "B54-C12",
+            "B57-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M07-C19..C20",
+          "tema": "Validación de misión exploratoria",
+          "destino": "existente",
+          "tronco": [
+            "B61-C20",
+            "B61-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R17-M08",
+      "nombre": "Integración de misión robótica",
+      "temas": [
+        {
+          "clases_ruta": "R17-M08-C01..C02",
+          "tema": "Requisitos de misión robótica",
+          "destino": "existente",
+          "tronco": [
+            "B49-C04",
+            "B49-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M08-C03..C04",
+          "tema": "Diseño de plataforma",
+          "destino": "existente",
+          "tronco": [
+            "B49-C07",
+            "B61-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M08-C05..C06",
+          "tema": "Selección de sensores",
+          "destino": "existente",
+          "tronco": [
+            "B61-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M08-C07..C08",
+          "tema": "Arquitectura de autonomía",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Autonomía a bordo y planificación de decisiones",
+            "titulo": "Arquitectura de autonomía a bordo (percepción-decisión-acción)",
+            "necesidad": "B49-C07 trata arquitecturas de sistema en general; falta la arquitectura de software de autonomía (capas, planificador, ejecutivo)."
+          }
+        },
+        {
+          "clases_ruta": "R17-M08-C09..C10",
+          "tema": "Diseño de simulador",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Diseño de simulador de misión robótica",
+            "necesidad": "B16-C20 y B07-C20 simulan casos concretos; falta diseñar un simulador de entorno, sensores y dinámica para una misión robótica."
+          }
+        },
+        {
+          "clases_ruta": "R17-M08-C11..C12",
+          "tema": "Integración de actuadores virtuales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B61",
+            "titulo": "Modelos de actuadores virtuales e integración en simulación",
+            "necesidad": "Ninguna clase modela actuadores virtuales (saturación, retardo, holgura) ni su integración con el software de control."
+          }
+        },
+        {
+          "clases_ruta": "R17-M08-C13..C14",
+          "tema": "Pruebas SIL",
+          "destino": "existente",
+          "tronco": [
+            "B54-C14",
+            "B54-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M08-C15..C16",
+          "tema": "Pruebas de escenarios adversos",
+          "destino": "existente",
+          "tronco": [
+            "B61-C17",
+            "B54-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M08-C17..C18",
+          "tema": "Métricas de éxito",
+          "destino": "existente",
+          "tronco": [
+            "B49-C17",
+            "B64-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R17-M08-C19..C20",
+          "tema": "Informe de misión robótica",
+          "destino": "existente",
+          "tronco": [
+            "B61-C20",
+            "B64-C19"
+          ]
+        }
+      ]
+    }
+  ]
+}

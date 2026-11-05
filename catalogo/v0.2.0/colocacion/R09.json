@@ -1,0 +1,825 @@
+{
+  "ruta_id": "R09",
+  "modulos": [
+    {
+      "modulo": "R09-M01",
+      "nombre": "Transferencias orbitales avanzadas",
+      "temas": [
+        {
+          "clases_ruta": "R09-M01-C01..C02",
+          "tema": "Transferencia de Hohmann generalizada",
+          "destino": "existente",
+          "tronco": [
+            "B41-C18",
+            "B45-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M01-C03..C04",
+          "tema": "Transferencias bi-elípticas",
+          "destino": "existente",
+          "tronco": [
+            "B45-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M01-C05..C06",
+          "tema": "Transferencias no coplanares",
+          "destino": "existente",
+          "tronco": [
+            "B45-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M01-C07..C08",
+          "tema": "Maniobras con delta-v limitado",
+          "destino": "existente",
+          "tronco": [
+            "B45-C09",
+            "B45-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M01-C09..C10",
+          "tema": "Transferencias con cambios de plano",
+          "destino": "existente",
+          "tronco": [
+            "B41-C19",
+            "B45-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M01-C11..C12",
+          "tema": "Intersección de cónicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Intersección de cónicas en transferencias",
+            "necesidad": "Geometría de transferencias por intersección de órbitas elípticas; B45-C01 trata geometría general, no este método."
+          }
+        },
+        {
+          "clases_ruta": "R09-M01-C13..C14",
+          "tema": "Modelos de primer impulso",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Modelos de primer impulso",
+            "necesidad": "Optimización del primer impulso y del tiempo de vuelo; ausente en B45."
+          }
+        },
+        {
+          "clases_ruta": "R09-M01-C15..C16",
+          "tema": "Métricas de energía C3",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Energía característica C3 y exceso hiperbólico",
+            "necesidad": "Medida de energía de escape (C3, V-infinito) para dimensionar lanzamiento; B41-C15 solo trata velocidad de escape."
+          }
+        },
+        {
+          "clases_ruta": "R09-M01-C17..C18",
+          "tema": "Sensibilidad a ventana",
+          "destino": "existente",
+          "tronco": [
+            "B45-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M01-C19..C20",
+          "tema": "Comparación de soluciones óptimas",
+          "destino": "existente",
+          "tronco": [
+            "B45-C12"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M02",
+      "nombre": "Problemas de Lambert",
+      "temas": [
+        {
+          "clases_ruta": "R09-M02-C01..C02",
+          "tema": "Definición de Lambert",
+          "destino": "existente",
+          "tronco": [
+            "B45-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M02-C03..C04",
+          "tema": "Transferencias de arco corto",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Lambert de arco corto",
+            "necesidad": "Resolución del caso de transferencia < 180°; B45-C04 solo enuncia la ecuación."
+          }
+        },
+        {
+          "clases_ruta": "R09-M02-C05..C06",
+          "tema": "Transferencias de arco largo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Lambert de arco largo",
+            "necesidad": "Caso > 180° y orientación del plano; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M02-C07..C08",
+          "tema": "Solución universal",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Formulación de variables universales",
+            "necesidad": "Solución unificada para elipse, parábola e hipérbola; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M02-C09..C10",
+          "tema": "Solución multirrevolución",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Lambert multirrevolución",
+            "necesidad": "Soluciones con revoluciones completas y selección de rama; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M02-C11..C12",
+          "tema": "Tratamiento de singularidades",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Singularidades del problema de Lambert",
+            "necesidad": "Caso colineal y 180°, y su tratamiento numérico; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M02-C13..C14",
+          "tema": "Métodos iterativos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Algoritmos iterativos para Lambert (Gooding, Izzo)",
+            "necesidad": "Convergencia y velocidad de algoritmos de solución; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M02-C15..C16",
+          "tema": "Sensibilidad temporal",
+          "destino": "existente",
+          "tronco": [
+            "B42-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M02-C17..C18",
+          "tema": "Validación por integración",
+          "destino": "existente",
+          "tronco": [
+            "B42-C18",
+            "B41-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M02-C19..C20",
+          "tema": "Benchmark entre métodos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
+            "titulo": "Benchmark entre solucionadores de Lambert",
+            "necesidad": "Comparación de precisión y costo entre métodos; no cubierto."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M03",
+      "nombre": "Dinámica interplanetaria de N cuerpos",
+      "temas": [
+        {
+          "clases_ruta": "R09-M03-C01..C02",
+          "tema": "Efemérides de N cuerpos",
+          "destino": "existente",
+          "tronco": [
+            "B43-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C03..C04",
+          "tema": "Campos gravitatorios planetarios",
+          "destino": "existente",
+          "tronco": [
+            "B42-C02",
+            "B34-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C05..C06",
+          "tema": "Perturbaciones de terceros cuerpos",
+          "destino": "existente",
+          "tronco": [
+            "B42-C09",
+            "B42-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C07..C08",
+          "tema": "Perturbación no gravitacional",
+          "destino": "existente",
+          "tronco": [
+            "B42-C06",
+            "B42-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C09..C10",
+          "tema": "Integración adaptativa",
+          "destino": "existente",
+          "tronco": [
+            "B11-C08",
+            "B42-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C11..C12",
+          "tema": "Paso cercano de satélites",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B43",
+            "titulo": "Pasos cercanos a satélites naturales en integración de N cuerpos",
+            "necesidad": "Manejo de encuentros con lunas y paso de paso adaptativo; ausente en B43."
+          }
+        },
+        {
+          "clases_ruta": "R09-M03-C13..C14",
+          "tema": "Capturas temporales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B43",
+            "titulo": "Capturas temporales y cuasi-satélites",
+            "necesidad": "Captura de pequeños cuerpos y órbitas de herradura; B43 trata resonancias, no capturas."
+          }
+        },
+        {
+          "clases_ruta": "R09-M03-C15..C16",
+          "tema": "Dinámica de resonancias",
+          "destino": "existente",
+          "tronco": [
+            "B43-C10",
+            "B43-C11",
+            "B43-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C17..C18",
+          "tema": "Covarianza en N cuerpos",
+          "destino": "existente",
+          "tronco": [
+            "B44-C11",
+            "B44-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M03-C19..C20",
+          "tema": "Pruebas frente a SPICE",
+          "destino": "existente",
+          "tronco": [
+            "B44-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M04",
+      "nombre": "Asistencias gravitacionales múltiples",
+      "temas": [
+        {
+          "clases_ruta": "R09-M04-C01..C02",
+          "tema": "Geometría de sobrevuelo",
+          "destino": "existente",
+          "tronco": [
+            "B45-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M04-C03..C04",
+          "tema": "Parámetro de impacto B-plane",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Plano B y parámetro de impacto",
+            "necesidad": "Geometría B-plane para apuntar sobrevuelos; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M04-C05..C06",
+          "tema": "Ángulo de deflexión",
+          "destino": "existente",
+          "tronco": [
+            "B45-C07",
+            "B41-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M04-C07..C08",
+          "tema": "Cambio de energía heliocéntrica",
+          "destino": "existente",
+          "tronco": [
+            "B45-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M04-C09..C10",
+          "tema": "Resonancias para sobrevuelos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Resonancias para sobrevuelos",
+            "necesidad": "Retornos resonantes de sobrevuelo para encadenar encuentros; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M04-C11..C12",
+          "tema": "Encadenamiento de asistencias",
+          "destino": "existente",
+          "tronco": [
+            "B45-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M04-C13..C14",
+          "tema": "Sobrevuelos de lunas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Sobrevuelos de lunas y tours de sistemas planetarios",
+            "necesidad": "Diseño de tours de lunas (Galileo, Cassini); B45-C20 es un caso, no la técnica."
+          }
+        },
+        {
+          "clases_ruta": "R09-M04-C15..C16",
+          "tema": "Restricciones de iluminación",
+          "destino": "existente",
+          "tronco": [
+            "B45-C17",
+            "B46-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M04-C17..C18",
+          "tema": "Optimización de secuencias",
+          "destino": "existente",
+          "tronco": [
+            "B45-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M04-C19..C20",
+          "tema": "Márgenes de maniobra",
+          "destino": "existente",
+          "tronco": [
+            "B45-C09",
+            "B45-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M05",
+      "nombre": "Trayectorias de bajo empuje",
+      "temas": [
+        {
+          "clases_ruta": "R09-M05-C01..C02",
+          "tema": "Propulsión de bajo empuje",
+          "destino": "existente",
+          "tronco": [
+            "B45-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M05-C03..C04",
+          "tema": "Ecuaciones variacionales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Ecuaciones variacionales y matriz de transición de estados",
+            "necesidad": "Sensibilidades para optimización y corrección; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C05..C06",
+          "tema": "Método de disparo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Método de disparo para control óptimo",
+            "necesidad": "Disparo simple y múltiple; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C07..C08",
+          "tema": "Métodos directos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Métodos directos de transcripción",
+            "necesidad": "Colocación y programación no lineal; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C09..C10",
+          "tema": "Trayectorias de espirales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Trayectorias espirales de bajo empuje",
+            "necesidad": "Espirales de escape y captura con propulsión eléctrica; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C11..C12",
+          "tema": "Optimización de empuje",
+          "destino": "existente",
+          "tronco": [
+            "B45-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M05-C13..C14",
+          "tema": "Limitaciones de energía",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Limitaciones de potencia en propulsión eléctrica",
+            "necesidad": "Variación de potencia solar con distancia y su efecto en empuje; B52 y B48 no conectan con trayectoria."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C15..C16",
+          "tema": "Restricciones de orientación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Restricciones de orientación del empuje",
+            "necesidad": "Pointing del propulsor y paneles; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C17..C18",
+          "tema": "Modelos de aceleración",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Modelos de aceleración para bajo empuje",
+            "necesidad": "Modelos continuos de aceleración; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M05-C19..C20",
+          "tema": "Validación de trayectoria continua",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Validación de trayectorias de empuje continuo",
+            "necesidad": "Reintegración y chequeos de optimalidad; ausente."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M06",
+      "nombre": "Ventanas y oportunidades de misión",
+      "temas": [
+        {
+          "clases_ruta": "R09-M06-C01..C02",
+          "tema": "Geometría de ventanas",
+          "destino": "existente",
+          "tronco": [
+            "B45-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M06-C03..C04",
+          "tema": "Fases heliocéntricas",
+          "destino": "existente",
+          "tronco": [
+            "B45-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M06-C05..C06",
+          "tema": "Sincronía de lanzamiento",
+          "destino": "existente",
+          "tronco": [
+            "B47-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M06-C07..C08",
+          "tema": "Duración de misión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Duración de misión y tiempo de vuelo como restricción",
+            "necesidad": "Relación entre tiempo de vuelo, delta-v y costo; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M06-C09..C10",
+          "tema": "Restricciones de eclipses",
+          "destino": "existente",
+          "tronco": [
+            "B52-C04",
+            "B57-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M06-C11..C12",
+          "tema": "Operaciones de destino",
+          "destino": "existente",
+          "tronco": [
+            "B45-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M06-C13..C14",
+          "tema": "Disponibilidad de seguimiento",
+          "destino": "existente",
+          "tronco": [
+            "B44-C15",
+            "B55-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M06-C15..C16",
+          "tema": "Restricciones de radiación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Restricciones de radiación en trayectorias",
+            "necesidad": "Cruces de cinturones y eventos solares como restricción de ruta; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M06-C17..C18",
+          "tema": "Análisis de calendario",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Análisis de calendario con gráficos pork-chop",
+            "necesidad": "Construcción de mapas fecha lanzamiento-llegada; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M06-C19..C20",
+          "tema": "Trade-offs tiempo y combustible",
+          "destino": "existente",
+          "tronco": [
+            "B45-C09",
+            "B45-C12"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M07",
+      "nombre": "Optimización e incertidumbre orbital",
+      "temas": [
+        {
+          "clases_ruta": "R09-M07-C01..C02",
+          "tema": "Variables de diseño orbital",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Variables de diseño orbital",
+            "necesidad": "Elección y parametrización de variables en problemas de diseño; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M07-C03..C04",
+          "tema": "Funciones objetivo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Funciones objetivo de diseño de trayectorias",
+            "necesidad": "Definir objetivos y costes; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M07-C05..C06",
+          "tema": "Optimización multicriterio",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Optimización multicriterio y frentes de Pareto",
+            "necesidad": "Compromisos entre delta-v, tiempo y riesgo; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M07-C07..C08",
+          "tema": "Restricciones dinámicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Restricciones dinámicas en optimización",
+            "necesidad": "Manejo de restricciones de trayectoria; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M07-C09..C10",
+          "tema": "Métodos de gradiente",
+          "destino": "existente",
+          "tronco": [
+            "B11-C17",
+            "B09-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M07-C11..C12",
+          "tema": "Optimización heurística",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Optimización heurística (algoritmos genéticos y enjambres)",
+            "necesidad": "Métodos globales para espacios con muchos mínimos locales; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M07-C13..C14",
+          "tema": "Dispersiones iniciales",
+          "destino": "existente",
+          "tronco": [
+            "B45-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M07-C15..C16",
+          "tema": "Propagación de incertidumbres",
+          "destino": "existente",
+          "tronco": [
+            "B44-C12",
+            "B12-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M07-C17..C18",
+          "tema": "Presupuestos de corrección",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Presupuestos de maniobras de corrección",
+            "necesidad": "Estimación estadística de delta-v de corrección; no cubierto."
+          }
+        },
+        {
+          "clases_ruta": "R09-M07-C19..C20",
+          "tema": "Robustez ante fallas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
+            "titulo": "Robustez de trayectoria ante fallas",
+            "necesidad": "Diseñar ventanas de recuperación ante fallo de maniobra; ausente."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R09-M08",
+      "nombre": "Verificación de trayectorias interplanetarias",
+      "temas": [
+        {
+          "clases_ruta": "R09-M08-C01..C02",
+          "tema": "Modelos keplerianos de control",
+          "destino": "existente",
+          "tronco": [
+            "B41-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C03..C04",
+          "tema": "Horizons como referencia",
+          "destino": "existente",
+          "tronco": [
+            "B44-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C05..C06",
+          "tema": "Kernels SPICE",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Kernels SPICE y su uso en navegación",
+            "necesidad": "Estructura de kernels (SPK, CK, LSK) y toolkit; B44-C20 usa efemérides de referencia sin enseñar SPICE."
+          }
+        },
+        {
+          "clases_ruta": "R09-M08-C07..C08",
+          "tema": "Marcos y escalas temporales",
+          "destino": "existente",
+          "tronco": [
+            "B13-C08",
+            "B13-C11",
+            "B10-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C09..C10",
+          "tema": "Comparación de integradores",
+          "destino": "existente",
+          "tronco": [
+            "B42-C20",
+            "B11-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C11..C12",
+          "tema": "Verificación de residuales",
+          "destino": "existente",
+          "tronco": [
+            "B44-C07",
+            "B44-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C13..C14",
+          "tema": "Validación de maniobras",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B45",
+            "titulo": "Validación de maniobras por reintegración",
+            "necesidad": "Chequear una maniobra impulsiva reintegrando antes y después; ausente."
+          }
+        },
+        {
+          "clases_ruta": "R09-M08-C15..C16",
+          "tema": "Métricas de error",
+          "destino": "existente",
+          "tronco": [
+            "B44-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C17..C18",
+          "tema": "Automatización de pruebas",
+          "destino": "existente",
+          "tronco": [
+            "B14-C10",
+            "B07-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R09-M08-C19..C20",
+          "tema": "Informe de navegación verificable",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Informe de navegación verificable",
+            "necesidad": "Estructura de informe con datos, versiones y tolerancias; B44-C20 trata la validación, no el informe."
+          }
+        }
+      ]
+    }
+  ]
+}

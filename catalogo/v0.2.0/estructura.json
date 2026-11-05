@@ -1,0 +1,1029 @@
+[
+  {
+    "area": "A01",
+    "titulo": "Alfabetización científica, astronómica y tecnológica",
+    "bloques": [
+      {
+        "id": "B01",
+        "titulo": "El universo y el pensamiento científico",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B02",
+        "titulo": "Historia, arqueoastronomía y culturas del cielo",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B03",
+        "titulo": "Matemática elemental para ciencias espaciales",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B04",
+        "titulo": "Álgebra, trigonometría y geometría espacial",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B05",
+        "titulo": "Física fundamental para el espacio",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B06",
+        "titulo": "Química y materia del universo",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B07",
+        "titulo": "Informática científica desde cero",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B08",
+        "titulo": "Observación del cielo y astronomía práctica",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      }
+    ],
+    "existentes": 160,
+    "programadas": 0
+  },
+  {
+    "area": "A02",
+    "titulo": "Matemática, física computacional y métodos científicos",
+    "bloques": [
+      {
+        "id": "B09",
+        "titulo": "Cálculo diferencial e integral",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B10",
+        "titulo": "Álgebra lineal y matemáticas geométricas",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B11",
+        "titulo": "Ecuaciones diferenciales y simulación numérica",
+        "existentes": 20,
+        "programadas": 6,
+        "nuevo": false
+      },
+      {
+        "id": "B12",
+        "titulo": "Probabilidad, estadística e incertidumbre",
+        "existentes": 20,
+        "programadas": 6,
+        "nuevo": false
+      },
+      {
+        "id": "B13",
+        "titulo": "Metrología, tiempo y mediciones científicas",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B14",
+        "titulo": "Computación científica y ciencia abierta",
+        "existentes": 20,
+        "programadas": 11,
+        "nuevo": false
+      },
+      {
+        "id": "B15",
+        "titulo": "Señales, imágenes y estimación científica",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B16",
+        "titulo": "Sistemas dinámicos y control automático",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B65",
+        "titulo": "Aprendizaje automático científico",
+        "existentes": 0,
+        "programadas": 12,
+        "nuevo": true
+      },
+      {
+        "id": "B66",
+        "titulo": "Computación de alto rendimiento",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B67",
+        "titulo": "Inferencia bayesiana y computación probabilística",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B68",
+        "titulo": "Metodología de la investigación científica",
+        "existentes": 0,
+        "programadas": 4,
+        "nuevo": true
+      },
+      {
+        "id": "B69",
+        "titulo": "Métodos numéricos para EDP y fluidos computacionales",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B70",
+        "titulo": "Problemas inversos y estimación de modelos",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B71",
+        "titulo": "Verificación y validación de software científico",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      }
+    ],
+    "existentes": 160,
+    "programadas": 77
+  },
+  {
+    "area": "A03",
+    "titulo": "Astrofísica y ciencias fundamentales del universo",
+    "bloques": [
+      {
+        "id": "B17",
+        "titulo": "Física y evolución de estrellas",
+        "existentes": 20,
+        "programadas": 2,
+        "nuevo": false
+      },
+      {
+        "id": "B18",
+        "titulo": "Galaxias y medio interestelar",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B19",
+        "titulo": "Relatividad y cosmología",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B20",
+        "titulo": "Objetos compactos y altas energías",
+        "existentes": 20,
+        "programadas": 2,
+        "nuevo": false
+      },
+      {
+        "id": "B21",
+        "titulo": "Astronomía multimensajero",
+        "existentes": 20,
+        "programadas": 2,
+        "nuevo": false
+      },
+      {
+        "id": "B22",
+        "titulo": "Astronomía temporal y exoplanetas",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B23",
+        "titulo": "Heliofísica y física de plasmas",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B24",
+        "titulo": "Física cuántica, nuclear y astropartículas",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B72",
+        "titulo": "Atmósferas estelares y espectroscopía estelar cuantitativa",
+        "existentes": 0,
+        "programadas": 12,
+        "nuevo": true
+      },
+      {
+        "id": "B73",
+        "titulo": "Clima espacial: impactos, pronóstico y riesgo",
+        "existentes": 0,
+        "programadas": 14,
+        "nuevo": true
+      },
+      {
+        "id": "B74",
+        "titulo": "Corona solar y erupciones: diagnóstico y modelos",
+        "existentes": 0,
+        "programadas": 9,
+        "nuevo": true
+      },
+      {
+        "id": "B75",
+        "titulo": "Física avanzada de plasmas y MHD espacial",
+        "existentes": 0,
+        "programadas": 10,
+        "nuevo": true
+      },
+      {
+        "id": "B76",
+        "titulo": "Formación de estructuras cósmicas y materia oscura",
+        "existentes": 0,
+        "programadas": 11,
+        "nuevo": true
+      },
+      {
+        "id": "B77",
+        "titulo": "Interiores estelares y asterosismología",
+        "existentes": 0,
+        "programadas": 14,
+        "nuevo": true
+      },
+      {
+        "id": "B78",
+        "titulo": "Poblaciones estelares y simulación de galaxias",
+        "existentes": 0,
+        "programadas": 9,
+        "nuevo": true
+      },
+      {
+        "id": "B79",
+        "titulo": "Relatividad general avanzada",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B80",
+        "titulo": "Universo temprano y radiación cósmica de fondo",
+        "existentes": 0,
+        "programadas": 15,
+        "nuevo": true
+      }
+    ],
+    "existentes": 160,
+    "programadas": 112
+  },
+  {
+    "area": "A04",
+    "titulo": "Óptica, telescopios y observatorios científicos",
+    "bloques": [
+      {
+        "id": "B25",
+        "titulo": "Óptica geométrica y diseño de telescopios",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B26",
+        "titulo": "Óptica física y óptica adaptativa",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B27",
+        "titulo": "Construcción y mecánica de telescopios",
+        "existentes": 20,
+        "programadas": 6,
+        "nuevo": false
+      },
+      {
+        "id": "B28",
+        "titulo": "Detectores y adquisición astronómica",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B29",
+        "titulo": "Espectroscopía, fotometría y polarimetría",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B30",
+        "titulo": "Radioastronomía e interferometría",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B31",
+        "titulo": "Instrumentación y observatorios espaciales",
+        "existentes": 20,
+        "programadas": 5,
+        "nuevo": false
+      },
+      {
+        "id": "B32",
+        "titulo": "Operaciones de observatorios científicos",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B81",
+        "titulo": "Antenas y receptores de radioastronomía",
+        "existentes": 0,
+        "programadas": 11,
+        "nuevo": true
+      },
+      {
+        "id": "B82",
+        "titulo": "Diseño óptico computacional y tolerancias",
+        "existentes": 0,
+        "programadas": 15,
+        "nuevo": true
+      },
+      {
+        "id": "B83",
+        "titulo": "Interferometría avanzada y reducción de datos de radio",
+        "existentes": 0,
+        "programadas": 14,
+        "nuevo": true
+      }
+    ],
+    "existentes": 160,
+    "programadas": 62
+  },
+  {
+    "area": "A05",
+    "titulo": "Ciencias planetarias, astroquímica y habitabilidad",
+    "bloques": [
+      {
+        "id": "B33",
+        "titulo": "Formación y dinámica de sistemas planetarios",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B34",
+        "titulo": "Astrogeología y geodesia planetaria",
+        "existentes": 20,
+        "programadas": 10,
+        "nuevo": false
+      },
+      {
+        "id": "B35",
+        "titulo": "Atmósferas y climatología planetaria",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B36",
+        "titulo": "Astroquímica y geoquímica extraterrestre",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B37",
+        "titulo": "Astrobiología y vida extraterrestre",
+        "existentes": 20,
+        "programadas": 1,
+        "nuevo": false
+      },
+      {
+        "id": "B38",
+        "titulo": "Observación terrestre y geociencias orbitales",
+        "existentes": 20,
+        "programadas": 14,
+        "nuevo": false
+      },
+      {
+        "id": "B39",
+        "titulo": "Asteroides, cometas y defensa planetaria",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B40",
+        "titulo": "Recursos in situ y sostenibilidad extraterrestre",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B84",
+        "titulo": "Cinética y modelado astroquímico",
+        "existentes": 0,
+        "programadas": 4,
+        "nuevo": true
+      },
+      {
+        "id": "B85",
+        "titulo": "Cráteres de impacto y geología de impactos",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B86",
+        "titulo": "Espectroscopía molecular para astroquímica",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B87",
+        "titulo": "Exploración in situ y análisis de muestras planetarias",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B88",
+        "titulo": "Extremófilos y límites de la vida",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B89",
+        "titulo": "Geofísica de interiores planetarios",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B90",
+        "titulo": "Geomorfología y procesos superficiales planetarios",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B91",
+        "titulo": "Prospección y evaluación de reservas de recursos extraterrestres",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B92",
+        "titulo": "Química de granos y hielos interestelares",
+        "existentes": 0,
+        "programadas": 4,
+        "nuevo": true
+      },
+      {
+        "id": "B93",
+        "titulo": "Radar de apertura sintética e interferometría (profundización)",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B94",
+        "titulo": "Vulcanismo planetario",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      }
+    ],
+    "existentes": 160,
+    "programadas": 97
+  },
+  {
+    "area": "A06",
+    "titulo": "Mecánica orbital, navegación y vuelo espacial",
+    "bloques": [
+      {
+        "id": "B41",
+        "titulo": "Mecánica orbital fundamental",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B42",
+        "titulo": "Perturbaciones y evolución de órbitas",
+        "existentes": 20,
+        "programadas": 1,
+        "nuevo": false
+      },
+      {
+        "id": "B43",
+        "titulo": "Mecánica celeste, resonancias y caos",
+        "existentes": 20,
+        "programadas": 2,
+        "nuevo": false
+      },
+      {
+        "id": "B44",
+        "titulo": "Estimación de órbitas y navegación espacial",
+        "existentes": 20,
+        "programadas": 10,
+        "nuevo": false
+      },
+      {
+        "id": "B45",
+        "titulo": "Trayectorias y misiones interplanetarias",
+        "existentes": 20,
+        "programadas": 10,
+        "nuevo": false
+      },
+      {
+        "id": "B46",
+        "titulo": "Dinámica cislunar y operaciones de proximidad",
+        "existentes": 20,
+        "programadas": 0,
+        "nuevo": false
+      },
+      {
+        "id": "B47",
+        "titulo": "Dinámica de lanzamiento y reentrada",
+        "existentes": 20,
+        "programadas": 5,
+        "nuevo": false
+      },
+      {
+        "id": "B48",
+        "titulo": "Tecnologías de propulsión espacial",
+        "existentes": 20,
+        "programadas": 2,
+        "nuevo": false
+      },
+      {
+        "id": "B95",
+        "titulo": "Fluidos, termodinámica y aerotermodinámica de propulsión",
+        "existentes": 0,
+        "programadas": 16,
+        "nuevo": true
+      },
+      {
+        "id": "B96",
+        "titulo": "Navegación inercial y fusión multisensorial",
+        "existentes": 0,
+        "programadas": 9,
+        "nuevo": true
+      },
+      {
+        "id": "B97",
+        "titulo": "Optimización de trayectorias y diseño robusto",
+        "existentes": 0,
+        "programadas": 15,
+        "nuevo": true
+      },
+      {
+        "id": "B98",
+        "titulo": "Problema de Lambert y transferencias de dos puntos",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      }
+    ],
+    "existentes": 160,
+    "programadas": 77
+  },
+  {
+    "area": "A07",
+    "titulo": "Ingeniería y construcción de sistemas espaciales",
+    "bloques": [
+      {
+        "id": "B49",
+        "titulo": "Ingeniería de sistemas y diseño de misiones",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B50",
+        "titulo": "Estructuras, materiales y fabricación espacial",
+        "existentes": 20,
+        "programadas": 18,
+        "nuevo": false
+      },
+      {
+        "id": "B51",
+        "titulo": "Gestión térmica y entorno espacial",
+        "existentes": 20,
+        "programadas": 9,
+        "nuevo": false
+      },
+      {
+        "id": "B52",
+        "titulo": "Sistemas de potencia y energía espacial",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B53",
+        "titulo": "Sensores y control de actitud",
+        "existentes": 20,
+        "programadas": 2,
+        "nuevo": false
+      },
+      {
+        "id": "B54",
+        "titulo": "Aviónica y software crítico espacial",
+        "existentes": 20,
+        "programadas": 24,
+        "nuevo": false
+      },
+      {
+        "id": "B55",
+        "titulo": "Comunicaciones y navegación satelital",
+        "existentes": 20,
+        "programadas": 5,
+        "nuevo": false
+      },
+      {
+        "id": "B56",
+        "titulo": "Integración, ensayos y calificación espacial",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B99",
+        "titulo": "Antenas y propagación para enlaces espaciales",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B100",
+        "titulo": "Comunicaciones ópticas espaciales (profundización)",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B101",
+        "titulo": "Electrónica embarcada y compatibilidad electromagnética",
+        "existentes": 0,
+        "programadas": 4,
+        "nuevo": true
+      },
+      {
+        "id": "B102",
+        "titulo": "Modulación, codificación y protocolos de enlace",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B103",
+        "titulo": "Plataformas de satélites pequeños y CubeSat",
+        "existentes": 0,
+        "programadas": 4,
+        "nuevo": true
+      }
+    ],
+    "existentes": 160,
+    "programadas": 99
+  },
+  {
+    "area": "A08",
+    "titulo": "Operaciones de misión y robótica espacial",
+    "bloques": [
+      {
+        "id": "B57",
+        "titulo": "Control y operación de misiones espaciales",
+        "existentes": 20,
+        "programadas": 10,
+        "nuevo": false
+      },
+      {
+        "id": "B61",
+        "titulo": "Robótica y construcción extraterrestre",
+        "existentes": 20,
+        "programadas": 7,
+        "nuevo": false
+      },
+      {
+        "id": "B104",
+        "titulo": "Autonomía y teleoperación espacial",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B105",
+        "titulo": "Localización y mapeo robótico",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B106",
+        "titulo": "Logística y cadena de suministro extraterrestre",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B107",
+        "titulo": "Manipuladores robóticos espaciales",
+        "existentes": 0,
+        "programadas": 10,
+        "nuevo": true
+      },
+      {
+        "id": "B108",
+        "titulo": "Movilidad de robots planetarios",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      },
+      {
+        "id": "B109",
+        "titulo": "Percepción visual robótica",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      }
+    ],
+    "existentes": 40,
+    "programadas": 65
+  },
+  {
+    "area": "A09",
+    "titulo": "Astronáutica humana, medicina y hábitats",
+    "bloques": [
+      {
+        "id": "B58",
+        "titulo": "Astronáutica y preparación de astronautas",
+        "existentes": 20,
+        "programadas": 3,
+        "nuevo": false
+      },
+      {
+        "id": "B59",
+        "titulo": "Medicina y biología espacial",
+        "existentes": 20,
+        "programadas": 7,
+        "nuevo": false
+      },
+      {
+        "id": "B60",
+        "titulo": "Hábitats espaciales y soporte vital",
+        "existentes": 20,
+        "programadas": 9,
+        "nuevo": false
+      },
+      {
+        "id": "B110",
+        "titulo": "Acondicionamiento físico y rehabilitación de astronautas",
+        "existentes": 0,
+        "programadas": 10,
+        "nuevo": true
+      },
+      {
+        "id": "B111",
+        "titulo": "Actividades extravehiculares y trajes espaciales",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B112",
+        "titulo": "Arquitectura y factores humanos de hábitats extraterrestres",
+        "existentes": 0,
+        "programadas": 12,
+        "nuevo": true
+      },
+      {
+        "id": "B113",
+        "titulo": "Emergencias y seguridad de tripulación",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B114",
+        "titulo": "Factores humanos y liderazgo de tripulación",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B115",
+        "titulo": "Radiobiología y protección radiológica espacial",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B116",
+        "titulo": "Salud conductual y bienestar en aislamiento",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B117",
+        "titulo": "Seguridad y respuesta a emergencias en hábitats",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B118",
+        "titulo": "Sistemas bioregenerativos y cultivo en hábitats",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B119",
+        "titulo": "Telemedicina y monitorización de salud en misión",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B120",
+        "titulo": "Urgencias médicas y atención clínica en misión",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      }
+    ],
+    "existentes": 60,
+    "programadas": 93
+  },
+  {
+    "area": "A10",
+    "titulo": "Entorno orbital, derecho y seguridad espacial",
+    "bloques": [
+      {
+        "id": "B62",
+        "titulo": "Tráfico espacial y sostenibilidad orbital",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B63",
+        "titulo": "Derecho, seguridad y geopolítica espacial",
+        "existentes": 20,
+        "programadas": 16,
+        "nuevo": false
+      },
+      {
+        "id": "B121",
+        "titulo": "Espectro, licencias y regulación satelital",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B122",
+        "titulo": "Regulación nacional de actividades espaciales",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      },
+      {
+        "id": "B123",
+        "titulo": "Resiliencia y continuidad de infraestructura espacial",
+        "existentes": 0,
+        "programadas": 10,
+        "nuevo": true
+      },
+      {
+        "id": "B124",
+        "titulo": "Responsabilidad, daños y controversias espaciales",
+        "existentes": 0,
+        "programadas": 4,
+        "nuevo": true
+      }
+    ],
+    "existentes": 40,
+    "programadas": 45
+  },
+  {
+    "area": "A11",
+    "titulo": "Economía, industria y gestión de proyectos espaciales",
+    "bloques": [
+      {
+        "id": "B64",
+        "titulo": "Industria, economía, ética y proyectos espaciales",
+        "existentes": 20,
+        "programadas": 4,
+        "nuevo": false
+      },
+      {
+        "id": "B125",
+        "titulo": "Creación y operación de empresas espaciales",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B126",
+        "titulo": "Financiamiento de proyectos y negocios espaciales",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B127",
+        "titulo": "Seguros espaciales",
+        "existentes": 0,
+        "programadas": 8,
+        "nuevo": true
+      }
+    ],
+    "existentes": 20,
+    "programadas": 24
+  },
+  {
+    "area": "A12",
+    "titulo": "Educación, historia aplicada y divulgación astronómica",
+    "bloques": [
+      {
+        "id": "B128",
+        "titulo": "Accesibilidad e inclusión en la enseñanza de la astronomía",
+        "existentes": 0,
+        "programadas": 11,
+        "nuevo": true
+      },
+      {
+        "id": "B129",
+        "titulo": "Ciencia ciudadana astronómica",
+        "existentes": 0,
+        "programadas": 7,
+        "nuevo": true
+      },
+      {
+        "id": "B130",
+        "titulo": "Comunicación y divulgación científica",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B131",
+        "titulo": "Didáctica de la astronomía",
+        "existentes": 0,
+        "programadas": 11,
+        "nuevo": true
+      },
+      {
+        "id": "B132",
+        "titulo": "Historia y arqueoastronomía aplicadas",
+        "existentes": 0,
+        "programadas": 6,
+        "nuevo": true
+      },
+      {
+        "id": "B133",
+        "titulo": "Saberes astronómicos y educación intercultural",
+        "existentes": 0,
+        "programadas": 5,
+        "nuevo": true
+      }
+    ],
+    "existentes": 0,
+    "programadas": 46
+  }
+]

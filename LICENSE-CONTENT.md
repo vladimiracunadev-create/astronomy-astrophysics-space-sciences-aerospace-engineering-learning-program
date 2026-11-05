@@ -10,13 +10,13 @@ Identidad pública: `vladimiracunadev-create`
 
 Esta licencia cubre, cuando sean originales del proyecto:
 
-- la selección, secuencia y estructura editorial de las 5.120 unidades catalogadas;
+- la selección, secuencia y estructura editorial de las 5.120 unidades de la línea base y del programa unificado de 2.077 clases;
 - títulos, descripciones preliminares, índices, mapas curriculares y rutas profesionales;
 - documentación pedagógica, metodología, guías, evaluaciones y explicaciones;
 - futuros ejercicios, casos ficticios, soluciones razonadas, diagramas y plantillas;
 - texto educativo publicado en Markdown, HTML, PDF u otro formato derivado.
 
-El catálogo actual contiene descripciones preliminares, no 5.120 clases redactadas. La licencia no cambia ese estado.
+El catálogo actual contiene descripciones preliminares, no clases redactadas, salvo las 160 de A01 indicadas en `STATUS.md`. La licencia no cambia ese estado.
 
 El código independiente, scripts, workflows, configuraciones y componentes funcionales se rigen por [Apache License 2.0](LICENSE). Un archivo mixto puede contener código Apache-2.0 y contenido educativo CC BY-NC-SA 4.0; cada capa conserva su régimen.
 

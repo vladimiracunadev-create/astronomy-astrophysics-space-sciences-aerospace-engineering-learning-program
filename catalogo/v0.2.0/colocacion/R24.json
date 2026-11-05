@@ -1,0 +1,837 @@
+{
+  "ruta_id": "R24",
+  "modulos": [
+    {
+      "modulo": "R24-M01",
+      "nombre": "Historia de la ciencia astronómica",
+      "temas": [
+        {
+          "clases_ruta": "R24-M01-C01..C02",
+          "tema": "Astronomía en Mesopotamia",
+          "destino": "existente",
+          "tronco": [
+            "B02-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C03..C04",
+          "tema": "Astronomía grecorromana",
+          "destino": "existente",
+          "tronco": [
+            "B02-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C05..C06",
+          "tema": "Astronomía islámica",
+          "destino": "existente",
+          "tronco": [
+            "B02-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C07..C08",
+          "tema": "Astronomía de Asia",
+          "destino": "existente",
+          "tronco": [
+            "B02-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C09..C10",
+          "tema": "Revolución copernicana",
+          "destino": "existente",
+          "tronco": [
+            "B02-C10",
+            "B02-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C11..C12",
+          "tema": "Nacimiento de la astrofísica",
+          "destino": "existente",
+          "tronco": [
+            "B02-C16",
+            "B02-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C13..C14",
+          "tema": "Observación desde Chile",
+          "destino": "existente",
+          "tronco": [
+            "B02-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C15..C16",
+          "tema": "Historia de satélites",
+          "destino": "existente",
+          "tronco": [
+            "B02-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C17..C18",
+          "tema": "Historia de misiones tripuladas",
+          "destino": "existente",
+          "tronco": [
+            "B58-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M01-C19..C20",
+          "tema": "Crítica histórica de fuentes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Historia y arqueoastronomía aplicadas",
+            "titulo": "Crítica histórica de fuentes y método historiográfico",
+            "necesidad": "Contar la historia de la astronomía exige evaluar fuentes de época; B01-C19 trata fuentes de desinformación actual, no el método histórico."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M02",
+      "nombre": "Arqueoastronomía comparada",
+      "temas": [
+        {
+          "clases_ruta": "R24-M02-C01..C02",
+          "tema": "Métodos arqueoastronómicos",
+          "destino": "existente",
+          "tronco": [
+            "B02-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M02-C03..C04",
+          "tema": "Arqueología de observatorios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Historia y arqueoastronomía aplicadas",
+            "titulo": "Arqueología de observatorios y de instrumentos antiguos",
+            "necesidad": "B02-C08 presenta los métodos; falta tratar cómo se estudian y datan los observatorios e instrumentos materiales."
+          }
+        },
+        {
+          "clases_ruta": "R24-M02-C05..C06",
+          "tema": "Monumentos megalíticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Historia y arqueoastronomía aplicadas",
+            "titulo": "Monumentos megalíticos y astronomía",
+            "necesidad": "Los monumentos megalíticos son el caso clásico de la arqueoastronomía y no tienen clase propia."
+          }
+        },
+        {
+          "clases_ruta": "R24-M02-C07..C08",
+          "tema": "Calendarios agrícolas",
+          "destino": "existente",
+          "tronco": [
+            "B02-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M02-C09..C10",
+          "tema": "Geometría de alineamientos",
+          "destino": "existente",
+          "tronco": [
+            "B02-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M02-C11..C12",
+          "tema": "Estadística de orientación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Historia y arqueoastronomía aplicadas",
+            "titulo": "Estadística de orientaciones en arqueoastronomía",
+            "necesidad": "Decidir si un conjunto de orientaciones es intencional exige estadística; B02-C09 trata sesgos, no el análisis estadístico."
+          }
+        },
+        {
+          "clases_ruta": "R24-M02-C13..C14",
+          "tema": "Contexto ritual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Historia y arqueoastronomía aplicadas",
+            "titulo": "Contexto ritual y social de la observación del cielo",
+            "necesidad": "Interpretar un sitio exige su contexto social y ritual; el catálogo trata alineaciones sin ese contexto."
+          }
+        },
+        {
+          "clases_ruta": "R24-M02-C15..C16",
+          "tema": "Sesgos de interpretación",
+          "destino": "existente",
+          "tronco": [
+            "B02-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M02-C17..C18",
+          "tema": "Patrimonio astronómico",
+          "destino": "existente",
+          "tronco": [
+            "B02-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M02-C19..C20",
+          "tema": "Informe de sitio arqueoastronómico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Historia y arqueoastronomía aplicadas",
+            "titulo": "Informe de un sitio arqueoastronómico",
+            "necesidad": "El informe de sitio es el producto profesional de la arqueoastronomía; ninguna clase enseña a escribirlo."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M03",
+      "nombre": "Astronomías culturales y saberes",
+      "temas": [
+        {
+          "clases_ruta": "R24-M03-C01..C02",
+          "tema": "Cosmovisiones indígenas",
+          "destino": "existente",
+          "tronco": [
+            "B02-C05",
+            "B02-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M03-C03..C04",
+          "tema": "Astronomía de los Andes",
+          "destino": "existente",
+          "tronco": [
+            "B02-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M03-C05..C06",
+          "tema": "Relaciones cielo-territorio",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Saberes astronómicos y educación intercultural",
+            "titulo": "Relaciones entre cielo y territorio en los saberes tradicionales",
+            "necesidad": "Los saberes del cielo están ligados al territorio; B02-C05 y C06 los presentan sin tratar esa relación."
+          }
+        },
+        {
+          "clases_ruta": "R24-M03-C07..C08",
+          "tema": "Calendarios tradicionales",
+          "destino": "existente",
+          "tronco": [
+            "B02-C01",
+            "B02-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M03-C09..C10",
+          "tema": "Narrativas orales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Saberes astronómicos y educación intercultural",
+            "titulo": "Narrativas orales y transmisión del saber del cielo",
+            "necesidad": "La transmisión oral es la forma de conservación de muchos saberes; ninguna clase la trata."
+          }
+        },
+        {
+          "clases_ruta": "R24-M03-C11..C12",
+          "tema": "Astronomía polinesia",
+          "destino": "existente",
+          "tronco": [
+            "B02-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M03-C13..C14",
+          "tema": "Colaboración con comunidades",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Saberes astronómicos y educación intercultural",
+            "titulo": "Colaboración con comunidades en investigación y educación",
+            "necesidad": "Trabajar con comunidades exige un método respetuoso; B02-C20 trata ética cultural en general."
+          }
+        },
+        {
+          "clases_ruta": "R24-M03-C15..C16",
+          "tema": "Consentimiento cultural",
+          "destino": "existente",
+          "tronco": [
+            "B02-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M03-C17..C18",
+          "tema": "Riesgos de apropiación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Saberes astronómicos y educación intercultural",
+            "titulo": "Riesgos de apropiación cultural en la divulgación",
+            "necesidad": "Divulgar saberes ajenos puede apropiarlos; el catálogo no trata ese riesgo en la divulgación."
+          }
+        },
+        {
+          "clases_ruta": "R24-M03-C19..C20",
+          "tema": "Unidad de enseñanza intercultural",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Saberes astronómicos y educación intercultural",
+            "titulo": "Diseño de una unidad de enseñanza intercultural",
+            "necesidad": "Integrar saberes y ciencia en el aula es el cierre del módulo; no hay clase que lo trate."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M04",
+      "nombre": "Observación astronómica educativa",
+      "temas": [
+        {
+          "clases_ruta": "R24-M04-C01..C02",
+          "tema": "Uso didáctico de planisferios",
+          "destino": "existente",
+          "tronco": [
+            "B08-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C03..C04",
+          "tema": "Observación solar segura",
+          "destino": "existente",
+          "tronco": [
+            "B08-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C05..C06",
+          "tema": "Observación lunar",
+          "destino": "existente",
+          "tronco": [
+            "B08-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C07..C08",
+          "tema": "Eclipses escolares",
+          "destino": "existente",
+          "tronco": [
+            "B08-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C09..C10",
+          "tema": "Meteoros y cometas",
+          "destino": "existente",
+          "tronco": [
+            "B08-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C11..C12",
+          "tema": "Telescopios escolares",
+          "destino": "existente",
+          "tronco": [
+            "B08-C14",
+            "B08-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C13..C14",
+          "tema": "Registro de observaciones",
+          "destino": "existente",
+          "tronco": [
+            "B08-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M04-C15..C16",
+          "tema": "Actividades de medición",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Actividades de medición astronómica para el aula",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M04-C17..C18",
+          "tema": "Problemas de accesibilidad nocturna",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Accesibilidad de la observación nocturna",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M04-C19..C20",
+          "tema": "Diseño de salida observacional",
+          "destino": "existente",
+          "tronco": [
+            "B08-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M05",
+      "nombre": "Diseño de secuencias pedagógicas",
+      "temas": [
+        {
+          "clases_ruta": "R24-M05-C01..C02",
+          "tema": "Resultados de aprendizaje",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Resultados de aprendizaje observables en astronomía",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C03..C04",
+          "tema": "Conocimientos previos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Conocimientos previos y concepciones alternativas",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C05..C06",
+          "tema": "Secuenciación conceptual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Secuenciación conceptual de una unidad",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C07..C08",
+          "tema": "Demostraciones visuales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Demostraciones visuales y modelos para el aula",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C09..C10",
+          "tema": "Aprendizaje basado en problemas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Aprendizaje basado en problemas con datos astronómicos",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C11..C12",
+          "tema": "Ejercicios de transferencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Ejercicios de transferencia",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C13..C14",
+          "tema": "Evaluación formativa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Evaluación formativa en el aula de astronomía",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C15..C16",
+          "tema": "Rúbricas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Rúbricas de evaluación",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C17..C18",
+          "tema": "Retroalimentación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Retroalimentación efectiva",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        },
+        {
+          "clases_ruta": "R24-M05-C19..C20",
+          "tema": "Plan completo de clase astronómica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Didáctica de la astronomía",
+            "titulo": "Plan completo de una clase de astronomía",
+            "necesidad": "El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M06",
+      "nombre": "Ciencia ciudadana astronómica",
+      "temas": [
+        {
+          "clases_ruta": "R24-M06-C01..C02",
+          "tema": "Redes de observadores aficionados",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Redes de observadores aficionados",
+            "necesidad": "B32-C19 menciona la ciencia ciudadana en un observatorio profesional; falta tratar las redes de aficionados."
+          }
+        },
+        {
+          "clases_ruta": "R24-M06-C03..C04",
+          "tema": "Proyectos de clasificación",
+          "destino": "existente",
+          "tronco": [
+            "B18-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M06-C05..C06",
+          "tema": "Fotometría participativa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Fotometría participativa",
+            "necesidad": "Medir brillos con voluntarios es una práctica propia de la ciencia ciudadana; B29 trata fotometría profesional."
+          }
+        },
+        {
+          "clases_ruta": "R24-M06-C07..C08",
+          "tema": "Seguimiento de meteoros",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Seguimiento ciudadano de meteoros",
+            "necesidad": "El seguimiento de meteoros es un proyecto clásico de aficionados; B08-C18 es solo introductorio."
+          }
+        },
+        {
+          "clases_ruta": "R24-M06-C09..C10",
+          "tema": "Contribución de medidas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Contribución de medidas voluntarias con control de calidad",
+            "necesidad": "Las medidas de voluntarios solo sirven con protocolos de contribución; no hay clase al respecto."
+          }
+        },
+        {
+          "clases_ruta": "R24-M06-C11..C12",
+          "tema": "Calidad de datos voluntarios",
+          "destino": "existente",
+          "tronco": [
+            "B32-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M06-C13..C14",
+          "tema": "Consentimiento y privacidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Consentimiento y privacidad de participantes",
+            "necesidad": "Los proyectos ciudadanos recogen datos de personas; el catálogo no trata su consentimiento ni privacidad."
+          }
+        },
+        {
+          "clases_ruta": "R24-M06-C15..C16",
+          "tema": "Motivación de participantes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Motivación y permanencia de participantes",
+            "necesidad": "Sostener un proyecto ciudadano depende de la motivación de la gente; no está tratado."
+          }
+        },
+        {
+          "clases_ruta": "R24-M06-C17..C18",
+          "tema": "Publicación de resultados",
+          "destino": "existente",
+          "tronco": [
+            "B14-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M06-C19..C20",
+          "tema": "Proyecto ciudadano validable",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Ciencia ciudadana astronómica",
+            "titulo": "Proyecto de ciencia ciudadana validable",
+            "necesidad": "El cierre integra diseño, calidad y publicación de un proyecto ciudadano; no existe tal proyecto."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M07",
+      "nombre": "Accesibilidad e inclusión educativa",
+      "temas": [
+        {
+          "clases_ruta": "R24-M07-C01..C02",
+          "tema": "Diseño universal de aprendizaje",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Diseño universal de aprendizaje aplicado a la astronomía",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C03..C04",
+          "tema": "Alternativas a observación visual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Alternativas a la observación visual",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C05..C06",
+          "tema": "Lectores de pantalla",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Documentos y contenidos para lectores de pantalla",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C07..C08",
+          "tema": "Subtítulos y transcripciones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Subtítulos y transcripciones",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C09..C10",
+          "tema": "Contraste visual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Contraste y color accesibles",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C11..C12",
+          "tema": "Modelos táctiles",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Modelos táctiles y sonificación",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C13..C14",
+          "tema": "Lenguaje claro",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Lenguaje claro y redacción accesible",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C15..C16",
+          "tema": "Apoyo multilingüe",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Apoyo multilingüe y glosarios",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C17..C18",
+          "tema": "Acceso con baja conectividad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Acceso con baja conectividad",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        },
+        {
+          "clases_ruta": "R24-M07-C19..C20",
+          "tema": "Auditoría de accesibilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Accesibilidad e inclusión en la enseñanza de la astronomía",
+            "titulo": "Auditoría de accesibilidad de un recurso educativo",
+            "necesidad": "Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R24-M08",
+      "nombre": "Investigación y divulgación científica",
+      "temas": [
+        {
+          "clases_ruta": "R24-M08-C01..C02",
+          "tema": "Búsqueda de fuentes científicas",
+          "destino": "existente",
+          "tronco": [
+            "B01-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M08-C03..C04",
+          "tema": "Comunicación de incertidumbre",
+          "destino": "existente",
+          "tronco": [
+            "B01-C18",
+            "B64-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M08-C05..C06",
+          "tema": "Redacción divulgativa",
+          "destino": "existente",
+          "tronco": [
+            "B64-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M08-C07..C08",
+          "tema": "Infografías con fuentes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Comunicación y divulgación científica",
+            "titulo": "Infografías con fuentes verificables",
+            "necesidad": "Comunicar con imágenes exige mantener la fuente y la incertidumbre; B64-C18 trata comunicación en general."
+          }
+        },
+        {
+          "clases_ruta": "R24-M08-C09..C10",
+          "tema": "Visualización de datos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Comunicación y divulgación científica",
+            "titulo": "Visualización de datos para comunicar",
+            "necesidad": "Elegir un gráfico honesto para el público es una competencia propia; B15 trata datos, no su comunicación."
+          }
+        },
+        {
+          "clases_ruta": "R24-M08-C11..C12",
+          "tema": "Comunicación oral",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Comunicación y divulgación científica",
+            "titulo": "Comunicación oral de la ciencia",
+            "necesidad": "Presentar ante público requiere técnicas propias; B64-C18 es de comunicación escrita y general."
+          }
+        },
+        {
+          "clases_ruta": "R24-M08-C13..C14",
+          "tema": "Divulgación en redes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Comunicación y divulgación científica",
+            "titulo": "Divulgación científica en redes sociales",
+            "necesidad": "Las redes tienen formatos y riesgos propios; no están tratados."
+          }
+        },
+        {
+          "clases_ruta": "R24-M08-C15..C16",
+          "tema": "Lucha contra desinformación",
+          "destino": "existente",
+          "tronco": [
+            "B01-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R24-M08-C17..C18",
+          "tema": "Evaluación de comprensión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Comunicación y divulgación científica",
+            "titulo": "Evaluación de la comprensión del público",
+            "necesidad": "Saber si la divulgación funcionó exige medir la comprensión; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R24-M08-C19..C20",
+          "tema": "Publicación de proyecto educativo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Educación, historia aplicada y divulgación astronómica",
+            "bloque": "nuevo: Comunicación y divulgación científica",
+            "titulo": "Publicación de un proyecto educativo",
+            "necesidad": "Cerrar un proyecto educativo implica publicarlo de forma abierta y verificable; no hay clase al respecto."
+          }
+        }
+      ]
+    }
+  ]
+}

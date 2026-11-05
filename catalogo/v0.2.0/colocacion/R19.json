@@ -1,0 +1,826 @@
+{
+  "ruta_id": "R19",
+  "modulos": [
+    {
+      "modulo": "R19-M01",
+      "nombre": "Fisiología espacial avanzada",
+      "temas": [
+        {
+          "clases_ruta": "R19-M01-C01..C02",
+          "tema": "Fisiología cardiovascular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M01-C03..C04",
+          "tema": "Fisiología musculoesquelética",
+          "destino": "existente",
+          "tronco": [
+            "B59-C02",
+            "B59-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M01-C05..C06",
+          "tema": "Sistema vestibular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M01-C07..C08",
+          "tema": "Fisiología respiratoria",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Fisiología respiratoria en microgravedad y atmósferas de cabina",
+            "necesidad": "B59 y B60-C03 tratan atmósfera y exposición, pero no la fisiología respiratoria ni los cambios de ventilación y perfusión."
+          }
+        },
+        {
+          "clases_ruta": "R19-M01-C09..C10",
+          "tema": "Sistema neuroendocrino",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Sistema neuroendocrino y respuesta al estrés en vuelo",
+            "necesidad": "Ninguna clase trata los ejes neuroendocrinos ni su alteración en el espacio."
+          }
+        },
+        {
+          "clases_ruta": "R19-M01-C11..C12",
+          "tema": "Funciones visuales",
+          "destino": "existente",
+          "tronco": [
+            "B59-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M01-C13..C14",
+          "tema": "Termorregulación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Termorregulación humana en vuelo",
+            "necesidad": "B60-C08 trata el control térmico del hábitat, no la termorregulación del cuerpo."
+          }
+        },
+        {
+          "clases_ruta": "R19-M01-C15..C16",
+          "tema": "Ritmos circadianos",
+          "destino": "existente",
+          "tronco": [
+            "B59-C08",
+            "B60-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M01-C17..C18",
+          "tema": "Respuesta inmune",
+          "destino": "existente",
+          "tronco": [
+            "B59-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M01-C19..C20",
+          "tema": "Indicadores clínicos de vuelo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Indicadores clínicos y biomarcadores de vuelo",
+            "necesidad": "B59 describe sistemas por separado; falta la clase de indicadores clínicos para seguirlos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M02",
+      "nombre": "Adaptaciones a microgravedad",
+      "temas": [
+        {
+          "clases_ruta": "R19-M02-C01..C02",
+          "tema": "Redistribución de fluidos",
+          "destino": "existente",
+          "tronco": [
+            "B59-C01",
+            "B59-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C03..C04",
+          "tema": "Pérdida de densidad ósea",
+          "destino": "existente",
+          "tronco": [
+            "B59-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C05..C06",
+          "tema": "Atrofia muscular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C07..C08",
+          "tema": "Desacondicionamiento cardiovascular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C09..C10",
+          "tema": "Cambios vestibulares",
+          "destino": "existente",
+          "tronco": [
+            "B59-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C11..C12",
+          "tema": "Cambios de visión",
+          "destino": "existente",
+          "tronco": [
+            "B59-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C13..C14",
+          "tema": "Adaptación motora",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Adaptación sensoriomotora y control motor en microgravedad",
+            "necesidad": "B59-C04 trata el vestibular; falta la adaptación del control motor."
+          }
+        },
+        {
+          "clases_ruta": "R19-M02-C15..C16",
+          "tema": "Efectos de gravedad parcial",
+          "destino": "existente",
+          "tronco": [
+            "B59-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C17..C18",
+          "tema": "Contramedidas de ejercicio",
+          "destino": "existente",
+          "tronco": [
+            "B59-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M02-C19..C20",
+          "tema": "Estimación de recuperación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Estimación y modelado de la recuperación posterior al vuelo",
+            "necesidad": "B59-C17 describe la rehabilitación; falta modelar y estimar la recuperación esperada."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M03",
+      "nombre": "Radiobiología espacial",
+      "temas": [
+        {
+          "clases_ruta": "R19-M03-C01..C02",
+          "tema": "Radiación de partículas",
+          "destino": "existente",
+          "tronco": [
+            "B23-C14",
+            "B24-C13",
+            "B59-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M03-C03..C04",
+          "tema": "Dosis absorbida",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Radiobiología y protección radiológica espacial",
+            "titulo": "Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica",
+            "necesidad": "B59-C06 introduce la exposición; falta la definición de dosis absorbida y LET."
+          }
+        },
+        {
+          "clases_ruta": "R19-M03-C05..C06",
+          "tema": "Dosis equivalente",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Radiobiología y protección radiológica espacial",
+            "titulo": "Dosis equivalente y dosis efectiva",
+            "necesidad": "Ninguna clase trata factores de ponderación y dosis equivalente."
+          }
+        },
+        {
+          "clases_ruta": "R19-M03-C07..C08",
+          "tema": "Efectos agudos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Radiobiología y protección radiológica espacial",
+            "titulo": "Efectos agudos de la radiación",
+            "necesidad": "Ninguna clase cubre síndromes agudos y umbrales. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M03-C09..C10",
+          "tema": "Efectos crónicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Radiobiología y protección radiológica espacial",
+            "titulo": "Efectos crónicos y carcinogénesis por radiación",
+            "necesidad": "Ninguna clase cubre riesgo de cáncer y efectos tardíos."
+          }
+        },
+        {
+          "clases_ruta": "R19-M03-C11..C12",
+          "tema": "Mutación y reparación del ADN",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Radiobiología y protección radiológica espacial",
+            "titulo": "Daño y reparación del ADN por radiación espacial",
+            "necesidad": "Falta la clase de mecanismos moleculares de daño y reparación."
+          }
+        },
+        {
+          "clases_ruta": "R19-M03-C13..C14",
+          "tema": "Dosímetros de tripulación",
+          "destino": "existente",
+          "tronco": [
+            "B59-C07",
+            "B24-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M03-C15..C16",
+          "tema": "Blindaje biológico",
+          "destino": "existente",
+          "tronco": [
+            "B60-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M03-C17..C18",
+          "tema": "Modelos de riesgo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Radiobiología y protección radiológica espacial",
+            "titulo": "Modelos de riesgo de radiación para misiones",
+            "necesidad": "Falta la clase de estimación de riesgo por misión."
+          }
+        },
+        {
+          "clases_ruta": "R19-M03-C19..C20",
+          "tema": "Restricciones éticas y de exposición",
+          "destino": "existente",
+          "tronco": [
+            "B59-C19",
+            "B63-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M04",
+      "nombre": "Salud conductual en aislamiento",
+      "temas": [
+        {
+          "clases_ruta": "R19-M04-C01..C02",
+          "tema": "Aislamiento prolongado",
+          "destino": "existente",
+          "tronco": [
+            "B59-C09",
+            "B58-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M04-C03..C04",
+          "tema": "Ritmos de sueño",
+          "destino": "existente",
+          "tronco": [
+            "B59-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M04-C05..C06",
+          "tema": "Estrés operacional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Salud conductual y bienestar en aislamiento",
+            "titulo": "Estrés operacional y estrategias de afrontamiento",
+            "necesidad": "B59-C09 presenta salud mental en aislamiento, pero no el estrés operacional. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M04-C07..C08",
+          "tema": "Ansiedad en escenarios simulados",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Salud conductual y bienestar en aislamiento",
+            "titulo": "Ansiedad y respuesta emocional en escenarios simulados",
+            "necesidad": "Ninguna clase trata la respuesta emocional ante simulaciones de riesgo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M04-C09..C10",
+          "tema": "Cohesión de equipo",
+          "destino": "existente",
+          "tronco": [
+            "B58-C18",
+            "B58-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M04-C11..C12",
+          "tema": "Comunicación diferida",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Salud conductual y bienestar en aislamiento",
+            "titulo": "Comunicación diferida y soporte psicológico a distancia",
+            "necesidad": "Ninguna clase trata el efecto del retardo en el apoyo psicológico."
+          }
+        },
+        {
+          "clases_ruta": "R19-M04-C13..C14",
+          "tema": "Autonomía personal",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Salud conductual y bienestar en aislamiento",
+            "titulo": "Autonomía personal y gestión del tiempo en aislamiento",
+            "necesidad": "Falta la clase sobre autonomía y rutinas."
+          }
+        },
+        {
+          "clases_ruta": "R19-M04-C15..C16",
+          "tema": "Fatiga cognitiva",
+          "destino": "existente",
+          "tronco": [
+            "B58-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M04-C17..C18",
+          "tema": "Intervenciones de apoyo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Salud conductual y bienestar en aislamiento",
+            "titulo": "Intervenciones de apoyo y contramedidas conductuales",
+            "necesidad": "Falta la clase sobre intervenciones de apoyo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M04-C19..C20",
+          "tema": "Evaluación ética de bienestar",
+          "destino": "existente",
+          "tronco": [
+            "B59-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M05",
+      "nombre": "Telemedicina y monitorización",
+      "temas": [
+        {
+          "clases_ruta": "R19-M05-C01..C02",
+          "tema": "Sensores fisiológicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Sensores fisiológicos y wearables para vuelo",
+            "necesidad": "Ninguna clase trata los sensores fisiológicos ni su precisión."
+          }
+        },
+        {
+          "clases_ruta": "R19-M05-C03..C04",
+          "tema": "Signos vitales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Signos vitales: medición, interpretación y límites",
+            "necesidad": "Falta la clase de signos vitales y sus rangos."
+          }
+        },
+        {
+          "clases_ruta": "R19-M05-C05..C06",
+          "tema": "Teleconsulta diferida",
+          "destino": "existente",
+          "tronco": [
+            "B59-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M05-C07..C08",
+          "tema": "Historia clínica remota",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Historia clínica remota y registros médicos de misión",
+            "necesidad": "Ninguna clase trata registros clínicos de misión."
+          }
+        },
+        {
+          "clases_ruta": "R19-M05-C09..C10",
+          "tema": "Transmisión segura de datos",
+          "destino": "existente",
+          "tronco": [
+            "B54-C17",
+            "B55-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M05-C11..C12",
+          "tema": "Triage asistido",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Triage asistido por decisión",
+            "necesidad": "Falta la clase de apoyo a decisiones de triage a distancia."
+          }
+        },
+        {
+          "clases_ruta": "R19-M05-C13..C14",
+          "tema": "Alertas de salud",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Alertas de salud y umbrales de monitorización",
+            "necesidad": "Ninguna clase trata alertas de salud ni su gestión."
+          }
+        },
+        {
+          "clases_ruta": "R19-M05-C15..C16",
+          "tema": "Dispositivos biomédicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)",
+            "necesidad": "Ninguna clase trata los dispositivos biomédicos de a bordo."
+          }
+        },
+        {
+          "clases_ruta": "R19-M05-C17..C18",
+          "tema": "Privacidad de tripulación",
+          "destino": "existente",
+          "tronco": [
+            "B64-C13",
+            "B63-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M05-C19..C20",
+          "tema": "Diseño de panel de monitoreo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Telemedicina y monitorización de salud en misión",
+            "titulo": "Diseño de paneles de monitoreo de salud",
+            "necesidad": "Falta el diseño de paneles de salud."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M06",
+      "nombre": "Urgencias médicas simuladas",
+      "temas": [
+        {
+          "clases_ruta": "R19-M06-C01..C02",
+          "tema": "Triage en misión",
+          "destino": "existente",
+          "tronco": [
+            "B59-C14",
+            "B58-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M06-C03..C04",
+          "tema": "Procedimientos de primeros auxilios",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Urgencias médicas y atención clínica en misión",
+            "titulo": "Primeros auxilios y procedimientos básicos en entorno espacial",
+            "necesidad": "Ninguna clase trata primeros auxilios en microgravedad. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M06-C05..C06",
+          "tema": "Atención remota simulada",
+          "destino": "existente",
+          "tronco": [
+            "B59-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M06-C07..C08",
+          "tema": "Gestión de medicamentos",
+          "destino": "existente",
+          "tronco": [
+            "B59-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M06-C09..C10",
+          "tema": "Contención médica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Urgencias médicas y atención clínica en misión",
+            "titulo": "Contención de riesgos biológicos y químicos en cabina",
+            "necesidad": "Ninguna clase trata la contención de riesgos biológicos o químicos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M06-C11..C12",
+          "tema": "Emergencia cardiovascular simulada",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Urgencias médicas y atención clínica en misión",
+            "titulo": "Emergencia cardiovascular simulada",
+            "necesidad": "Ninguna clase simula una emergencia cardiovascular. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M06-C13..C14",
+          "tema": "Problemas respiratorios simulados",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Urgencias médicas y atención clínica en misión",
+            "titulo": "Problemas respiratorios simulados",
+            "necesidad": "Ninguna clase simula problemas respiratorios. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M06-C15..C16",
+          "tema": "Gestión de equipo médico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Urgencias médicas y atención clínica en misión",
+            "titulo": "Inventario y gestión del equipo médico a bordo",
+            "necesidad": "Ninguna clase trata el equipo médico de a bordo."
+          }
+        },
+        {
+          "clases_ruta": "R19-M06-C17..C18",
+          "tema": "Comunicaciones críticas",
+          "destino": "existente",
+          "tronco": [
+            "B58-C08",
+            "B55-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M06-C19..C20",
+          "tema": "Debriefing de escenario clínico",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M07",
+      "nombre": "Rehabilitación de astronautas",
+      "temas": [
+        {
+          "clases_ruta": "R19-M07-C01..C02",
+          "tema": "Reacondicionamiento muscular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C17",
+            "B59-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M07-C03..C04",
+          "tema": "Recuperación ósea",
+          "destino": "existente",
+          "tronco": [
+            "B59-C17",
+            "B59-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M07-C05..C06",
+          "tema": "Rehabilitación vestibular",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Rehabilitación vestibular y del equilibrio posterior al vuelo",
+            "necesidad": "B59-C04 describe el sistema vestibular; falta su rehabilitación. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R19-M07-C07..C08",
+          "tema": "Rehabilitación visual",
+          "destino": "existente",
+          "tronco": [
+            "B59-C05",
+            "B59-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M07-C09..C10",
+          "tema": "Seguimiento cardiovascular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C17",
+            "B59-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M07-C11..C12",
+          "tema": "Readaptación terrestre",
+          "destino": "existente",
+          "tronco": [
+            "B58-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M07-C13..C14",
+          "tema": "Planes de ejercicio",
+          "destino": "existente",
+          "tronco": [
+            "B59-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M07-C15..C16",
+          "tema": "Evaluación funcional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Evaluación funcional posterior al vuelo",
+            "necesidad": "Falta la clase de pruebas funcionales de retorno."
+          }
+        },
+        {
+          "clases_ruta": "R19-M07-C17..C18",
+          "tema": "Progresión de recuperación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Progresión de recuperación y criterios de alta",
+            "necesidad": "Falta la clase de progresión y criterios."
+          }
+        },
+        {
+          "clases_ruta": "R19-M07-C19..C20",
+          "tema": "Indicadores de rehabilitación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Indicadores de rehabilitación y seguimiento",
+            "necesidad": "Falta la clase de indicadores de rehabilitación."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R19-M08",
+      "nombre": "Investigación biomédica en ambiente espacial",
+      "temas": [
+        {
+          "clases_ruta": "R19-M08-C01..C02",
+          "tema": "Formulación de hipótesis biomédica",
+          "destino": "existente",
+          "tronco": [
+            "B12-C09",
+            "B59-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M08-C03..C04",
+          "tema": "Protocolos con sujetos",
+          "destino": "existente",
+          "tronco": [
+            "B59-C20",
+            "B59-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M08-C05..C06",
+          "tema": "Consentimiento informado",
+          "destino": "existente",
+          "tronco": [
+            "B59-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M08-C07..C08",
+          "tema": "Riesgos de investigación",
+          "destino": "existente",
+          "tronco": [
+            "B59-C19",
+            "B49-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M08-C09..C10",
+          "tema": "Medidas fisiológicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Medidas fisiológicas y biomarcadores en investigación espacial",
+            "necesidad": "B59-C20 diseña protocolos; falta la elección de medidas."
+          }
+        },
+        {
+          "clases_ruta": "R19-M08-C11..C12",
+          "tema": "Instrumentos validados",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B59",
+            "titulo": "Instrumentos validados y psicometría en investigación",
+            "necesidad": "Ninguna clase trata validación de instrumentos."
+          }
+        },
+        {
+          "clases_ruta": "R19-M08-C13..C14",
+          "tema": "Estadística longitudinal",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B12",
+            "titulo": "Modelos longitudinales y de efectos mixtos para muestras pequeñas",
+            "necesidad": "B12 trata regresión; falta el análisis longitudinal con medidas repetidas."
+          }
+        },
+        {
+          "clases_ruta": "R19-M08-C15..C16",
+          "tema": "Sesgos en poblaciones pequeñas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B12",
+            "titulo": "Sesgos y potencia estadística en poblaciones pequeñas",
+            "necesidad": "B12 trata inferencia; falta lo de poblaciones pequeñas."
+          }
+        },
+        {
+          "clases_ruta": "R19-M08-C17..C18",
+          "tema": "Reproducibilidad",
+          "destino": "existente",
+          "tronco": [
+            "B14-C09",
+            "B64-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R19-M08-C19..C20",
+          "tema": "Informe ético de investigación",
+          "destino": "existente",
+          "tronco": [
+            "B64-C13",
+            "B59-C19"
+          ]
+        }
+      ]
+    }
+  ]
+}

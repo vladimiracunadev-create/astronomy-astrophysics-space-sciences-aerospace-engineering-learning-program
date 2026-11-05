@@ -1,0 +1,831 @@
+{
+  "ruta_id": "R23",
+  "modulos": [
+    {
+      "modulo": "R23-M01",
+      "nombre": "Tratados de derecho espacial",
+      "temas": [
+        {
+          "clases_ruta": "R23-M01-C01..C02",
+          "tema": "Tratado del Espacio Ultraterrestre",
+          "destino": "existente",
+          "tronco": [
+            "B63-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C03..C04",
+          "tema": "Acuerdo de Salvamento",
+          "destino": "existente",
+          "tronco": [
+            "B63-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C05..C06",
+          "tema": "Convenio de Responsabilidad",
+          "destino": "existente",
+          "tronco": [
+            "B63-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C07..C08",
+          "tema": "Convenio de Registro",
+          "destino": "existente",
+          "tronco": [
+            "B63-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C09..C10",
+          "tema": "Acuerdo de la Luna",
+          "destino": "existente",
+          "tronco": [
+            "B63-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C11..C12",
+          "tema": "Resoluciones ONU sobre sostenibilidad",
+          "destino": "existente",
+          "tronco": [
+            "B63-C06",
+            "B62-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C13..C14",
+          "tema": "Práctica estatal",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Marco jurídico internacional del espacio (profundización)",
+            "titulo": "Práctica estatal y costumbre internacional en el derecho espacial",
+            "necesidad": "El derecho espacial se desarrolla también por la práctica de los Estados; B63 presenta tratados, no la costumbre ni la práctica."
+          }
+        },
+        {
+          "clases_ruta": "R23-M01-C15..C16",
+          "tema": "Interpretación de tratados",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Marco jurídico internacional del espacio (profundización)",
+            "titulo": "Interpretación de tratados internacionales",
+            "necesidad": "B63 enseña los tratados y su contenido, pero no el método jurídico de interpretarlos y aplicarlos; este tema lo requiere el rol."
+          }
+        },
+        {
+          "clases_ruta": "R23-M01-C17..C18",
+          "tema": "Casos jurídicos",
+          "destino": "existente",
+          "tronco": [
+            "B63-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M01-C19..C20",
+          "tema": "Matriz comparativa de obligaciones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Marco jurídico internacional del espacio (profundización)",
+            "titulo": "Matriz comparativa de obligaciones jurídicas por actor",
+            "necesidad": "Distinguir qué obligaciones recaen en Estados y operadores exige una comparación sistemática; B63 las trata una por una."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M02",
+      "nombre": "Legislaciones y supervisión nacionales",
+      "temas": [
+        {
+          "clases_ruta": "R23-M02-C01..C02",
+          "tema": "Autorización de operadores",
+          "destino": "existente",
+          "tronco": [
+            "B63-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M02-C03..C04",
+          "tema": "Supervisión continua",
+          "destino": "existente",
+          "tronco": [
+            "B63-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M02-C05..C06",
+          "tema": "Registro de objetos",
+          "destino": "existente",
+          "tronco": [
+            "B63-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M02-C07..C08",
+          "tema": "Requisitos de lanzamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Regulación nacional de actividades espaciales",
+            "titulo": "Licencias y requisitos nacionales para el lanzamiento",
+            "necesidad": "Lanzar desde o hacia un país exige licencia y requisitos propios; B63-C08 trata la autorización en general."
+          }
+        },
+        {
+          "clases_ruta": "R23-M02-C09..C10",
+          "tema": "Licenciamiento remoto",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Regulación nacional de actividades espaciales",
+            "titulo": "Licenciamiento de actividades de teledetección",
+            "necesidad": "Las imágenes satelitales de alta resolución tienen regulación propia; ninguna clase la trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M02-C11..C12",
+          "tema": "Responsabilidad nacional",
+          "destino": "existente",
+          "tronco": [
+            "B63-C03",
+            "B63-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M02-C13..C14",
+          "tema": "Protección ambiental",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Regulación nacional de actividades espaciales",
+            "titulo": "Protección ambiental en la legislación espacial",
+            "necesidad": "Las leyes nacionales incluyen requisitos ambientales y de mitigación de desechos que el catálogo no trata como tema regulatorio."
+          }
+        },
+        {
+          "clases_ruta": "R23-M02-C15..C16",
+          "tema": "Ley chilena aplicable a verificar",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Regulación nacional de actividades espaciales",
+            "titulo": "Marco legal espacial en Chile",
+            "necesidad": "El programa se enseña en Chile y requiere reconocer el marco local; B63-C19 compara legislaciones sin centrarse en el marco chileno (a verificar con fuentes oficiales)."
+          }
+        },
+        {
+          "clases_ruta": "R23-M02-C17..C18",
+          "tema": "Comparación regional",
+          "destino": "existente",
+          "tronco": [
+            "B63-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M02-C19..C20",
+          "tema": "Análisis de cumplimiento multinacional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Regulación nacional de actividades espaciales",
+            "titulo": "Cumplimiento regulatorio en varias jurisdicciones",
+            "necesidad": "Una misión con socios de varios países debe cumplir regímenes distintos; ninguna clase trata el análisis de cumplimiento."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M03",
+      "nombre": "Espectro radioeléctrico y licencias",
+      "temas": [
+        {
+          "clases_ruta": "R23-M03-C01..C02",
+          "tema": "Asignación de frecuencias",
+          "destino": "existente",
+          "tronco": [
+            "B55-C02",
+            "B55-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M03-C03..C04",
+          "tema": "Coordinación internacional ITU",
+          "destino": "existente",
+          "tronco": [
+            "B55-C19",
+            "B63-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M03-C05..C06",
+          "tema": "Licencias satelitales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Espectro, licencias y regulación satelital",
+            "titulo": "Licencias satelitales y procedimiento de notificación",
+            "necesidad": "Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B63-C09 presenta las normas sin el procedimiento."
+          }
+        },
+        {
+          "clases_ruta": "R23-M03-C07..C08",
+          "tema": "Interferencias perjudiciales",
+          "destino": "existente",
+          "tronco": [
+            "B63-C15",
+            "B62-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M03-C09..C10",
+          "tema": "Radioastronomía protegida",
+          "destino": "existente",
+          "tronco": [
+            "B62-C17",
+            "B30-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M03-C11..C12",
+          "tema": "Zonas de coordinación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Espectro, licencias y regulación satelital",
+            "titulo": "Zonas de coordinación entre servicios radioeléctricos",
+            "necesidad": "Coordinar con otros servicios define dónde y cómo se puede operar; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M03-C13..C14",
+          "tema": "Slots orbitales como concepto",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Espectro, licencias y regulación satelital",
+            "titulo": "Posiciones orbitales y espectro como recursos limitados",
+            "necesidad": "Las posiciones orbitales y el espectro son recursos escasos con reglas de asignación; no están tratados como concepto jurídico."
+          }
+        },
+        {
+          "clases_ruta": "R23-M03-C15..C16",
+          "tema": "Documentación regulatoria",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Espectro, licencias y regulación satelital",
+            "titulo": "Documentación regulatoria de un sistema satelital",
+            "necesidad": "El expediente regulatorio es un entregable del rol; B56-C05 documenta interfaces, no trámites regulatorios."
+          }
+        },
+        {
+          "clases_ruta": "R23-M03-C17..C18",
+          "tema": "Riesgos de incumplimiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Espectro, licencias y regulación satelital",
+            "titulo": "Riesgos de incumplimiento regulatorio",
+            "necesidad": "Incumplir condiciones de licencia puede inhabilitar una misión; ninguna clase trata ese riesgo."
+          }
+        },
+        {
+          "clases_ruta": "R23-M03-C19..C20",
+          "tema": "Caso de planificación regulatoria",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Espectro, licencias y regulación satelital",
+            "titulo": "Caso de planificación regulatoria de un sistema satelital",
+            "necesidad": "Integrar licencias, frecuencias y plazos en un plan es el cierre del módulo; no existe un caso integrador regulatorio."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M04",
+      "nombre": "Responsabilidad civil y estatal espacial",
+      "temas": [
+        {
+          "clases_ruta": "R23-M04-C01..C02",
+          "tema": "Responsabilidad estatal",
+          "destino": "existente",
+          "tronco": [
+            "B63-C03",
+            "B63-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M04-C03..C04",
+          "tema": "Responsabilidad de operadores",
+          "destino": "existente",
+          "tronco": [
+            "B63-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M04-C05..C06",
+          "tema": "Daños en superficie",
+          "destino": "existente",
+          "tronco": [
+            "B63-C10",
+            "B62-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M04-C07..C08",
+          "tema": "Daños en órbita",
+          "destino": "existente",
+          "tronco": [
+            "B63-C10",
+            "B62-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M04-C09..C10",
+          "tema": "Prueba de daño",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Responsabilidad, daños y controversias espaciales",
+            "titulo": "Prueba del daño y cuantificación de la reparación",
+            "necesidad": "Reclamar exige probar y cuantificar el daño; B63-C10 define la responsabilidad sin su prueba."
+          }
+        },
+        {
+          "clases_ruta": "R23-M04-C11..C12",
+          "tema": "Causalidad jurídica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Responsabilidad, daños y controversias espaciales",
+            "titulo": "Causalidad y atribución jurídica del daño",
+            "necesidad": "Atribuir un daño a un actor exige establecer causalidad; ninguna clase la trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M04-C13..C14",
+          "tema": "Mecanismos de reclamación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Responsabilidad, daños y controversias espaciales",
+            "titulo": "Mecanismos de reclamación entre Estados",
+            "necesidad": "El convenio de responsabilidad prevé vías de reclamación; ninguna clase explica cómo se tramitan."
+          }
+        },
+        {
+          "clases_ruta": "R23-M04-C15..C16",
+          "tema": "Arbitraje y resolución",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Responsabilidad, daños y controversias espaciales",
+            "titulo": "Arbitraje y resolución de controversias espaciales",
+            "necesidad": "Las disputas comerciales y entre Estados se resuelven por arbitraje y otras vías; no hay clase al respecto."
+          }
+        },
+        {
+          "clases_ruta": "R23-M04-C17..C18",
+          "tema": "Cláusulas contractuales",
+          "destino": "existente",
+          "tronco": [
+            "B64-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M04-C19..C20",
+          "tema": "Caso jurídico de incidente",
+          "destino": "existente",
+          "tronco": [
+            "B63-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M05",
+      "nombre": "Seguros espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R23-M05-C01..C02",
+          "tema": "Riesgos asegurables",
+          "destino": "existente",
+          "tronco": [
+            "B64-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M05-C03..C04",
+          "tema": "Seguro de lanzamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Seguros de lanzamiento",
+            "necesidad": "B64-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C05..C06",
+          "tema": "Seguro en órbita",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Seguros en órbita",
+            "necesidad": "La cobertura durante la vida en órbita difiere de la de lanzamiento y no está tratada."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C07..C08",
+          "tema": "Seguro de responsabilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Seguros de responsabilidad civil espacial",
+            "necesidad": "La responsabilidad por daños a terceros se asegura aparte; ninguna clase la trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C09..C10",
+          "tema": "Exclusiones de pólizas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Exclusiones, deducibles y límites de pólizas",
+            "necesidad": "Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C11..C12",
+          "tema": "Evaluación actuarial básica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Evaluación actuarial básica del riesgo espacial",
+            "necesidad": "Estimar primas y pérdidas requiere nociones actuariales; B12 trata estadística sin su aplicación a seguros."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C13..C14",
+          "tema": "Deducibles y límites",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Exclusiones, deducibles y límites de pólizas",
+            "necesidad": "Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C15..C16",
+          "tema": "Gestión de siniestros",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Gestión de siniestros espaciales",
+            "necesidad": "Tras una pérdida hay un proceso de reclamación y peritaje que ninguna clase describe."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C17..C18",
+          "tema": "Reaseguro espacial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Reaseguro espacial",
+            "necesidad": "El riesgo espacial se reparte mediante reaseguro; no hay clase al respecto."
+          }
+        },
+        {
+          "clases_ruta": "R23-M05-C19..C20",
+          "tema": "Simulación de cobertura",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Seguros espaciales",
+            "titulo": "Simulación de cobertura de seguros para una misión",
+            "necesidad": "Integrar los seguros de una misión en un caso permite practicar la decisión; no existe tal caso."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M06",
+      "nombre": "Financiamiento de negocios espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R23-M06-C01..C02",
+          "tema": "Fuentes públicas de financiamiento",
+          "destino": "existente",
+          "tronco": [
+            "B64-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M06-C03..C04",
+          "tema": "Capital semilla",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
+            "titulo": "Capital semilla y financiamiento inicial",
+            "necesidad": "B64-C07 trata el financiamiento privado en general, no las etapas iniciales de una empresa."
+          }
+        },
+        {
+          "clases_ruta": "R23-M06-C05..C06",
+          "tema": "Capital de riesgo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
+            "titulo": "Capital de riesgo en empresas espaciales",
+            "necesidad": "El capital de riesgo tiene lógica y condiciones propias; el catálogo no las trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M06-C07..C08",
+          "tema": "Financiación de infraestructura",
+          "destino": "existente",
+          "tronco": [
+            "B64-C06",
+            "B64-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M06-C09..C10",
+          "tema": "Contratos de servicios",
+          "destino": "existente",
+          "tronco": [
+            "B64-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M06-C11..C12",
+          "tema": "Presupuestos de misión",
+          "destino": "existente",
+          "tronco": [
+            "B64-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M06-C13..C14",
+          "tema": "Proyección de flujos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
+            "titulo": "Proyección de flujos de caja de un proyecto espacial",
+            "necesidad": "Decidir si un proyecto es sostenible exige proyectar sus flujos; B64-C05 estima costos sin flujos de caja."
+          }
+        },
+        {
+          "clases_ruta": "R23-M06-C15..C16",
+          "tema": "Costo de adquisición",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
+            "titulo": "Costo de adquisición de clientes y economía unitaria",
+            "necesidad": "Un negocio espacial debe medir cuánto cuesta ganar un cliente; no está tratado."
+          }
+        },
+        {
+          "clases_ruta": "R23-M06-C17..C18",
+          "tema": "Evaluación de viabilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
+            "titulo": "Evaluación de viabilidad económica de un negocio espacial",
+            "necesidad": "B64-C12 evalúa retorno científico, no la viabilidad económica de un negocio."
+          }
+        },
+        {
+          "clases_ruta": "R23-M06-C19..C20",
+          "tema": "Pitch financiero basado en evidencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
+            "titulo": "Presentación financiera ante inversionistas con evidencia",
+            "necesidad": "Presentar a inversionistas exige comunicar cifras con evidencia; B64-C19 redacta propuestas de misión, no financieras."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M07",
+      "nombre": "Creación y operación de empresas espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R23-M07-C01..C02",
+          "tema": "Cadena de valor espacial",
+          "destino": "existente",
+          "tronco": [
+            "B64-C01"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M07-C03..C04",
+          "tema": "Segmento upstream",
+          "destino": "existente",
+          "tronco": [
+            "B64-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M07-C05..C06",
+          "tema": "Segmento downstream",
+          "destino": "existente",
+          "tronco": [
+            "B64-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M07-C07..C08",
+          "tema": "Mercado de datos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Creación y operación de empresas espaciales",
+            "titulo": "Mercado de datos espaciales",
+            "necesidad": "Los datos son un producto con mercado propio; B64-C03 trata los segmentos en general."
+          }
+        },
+        {
+          "clases_ruta": "R23-M07-C09..C10",
+          "tema": "Propiedad intelectual",
+          "destino": "existente",
+          "tronco": [
+            "B64-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M07-C11..C12",
+          "tema": "Modelo de suscripción",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Creación y operación de empresas espaciales",
+            "titulo": "Modelos de ingresos: suscripción y servicio",
+            "necesidad": "El modelo de ingresos define la empresa; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M07-C13..C14",
+          "tema": "Gobierno corporativo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Creación y operación de empresas espaciales",
+            "titulo": "Gobierno corporativo de una empresa espacial",
+            "necesidad": "Las decisiones de una empresa se estructuran en su gobierno; no hay clase al respecto."
+          }
+        },
+        {
+          "clases_ruta": "R23-M07-C15..C16",
+          "tema": "Alianzas internacionales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Creación y operación de empresas espaciales",
+            "titulo": "Alianzas y cooperación internacional empresarial",
+            "necesidad": "Las empresas espaciales dependen de alianzas con socios de otros países; no está tratado."
+          }
+        },
+        {
+          "clases_ruta": "R23-M07-C17..C18",
+          "tema": "Riesgos de exportación y controles",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Creación y operación de empresas espaciales",
+            "titulo": "Control de exportaciones y transferencia de tecnología",
+            "necesidad": "La tecnología espacial está sujeta a controles de exportación que condicionan el negocio; ninguna clase los trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M07-C19..C20",
+          "tema": "Plan empresarial de empresa espacial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Creación y operación de empresas espaciales",
+            "titulo": "Plan empresarial de una empresa espacial",
+            "necesidad": "Integrar mercado, finanzas y operación en un plan es el cierre del módulo; B64-C20 es un proyecto general."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R23-M08",
+      "nombre": "Gobernanza ética y sostenibilidad",
+      "temas": [
+        {
+          "clases_ruta": "R23-M08-C01..C02",
+          "tema": "Uso pacífico del espacio",
+          "destino": "existente",
+          "tronco": [
+            "B63-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M08-C03..C04",
+          "tema": "Principio de no apropiación",
+          "destino": "existente",
+          "tronco": [
+            "B63-C01",
+            "B63-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M08-C05..C06",
+          "tema": "Sostenibilidad orbital",
+          "destino": "existente",
+          "tronco": [
+            "B62-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M08-C07..C08",
+          "tema": "Equidad de acceso",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Gobernanza, equidad y sostenibilidad espacial",
+            "titulo": "Equidad de acceso al espacio",
+            "necesidad": "El acceso desigual al espacio es un asunto de gobernanza que el catálogo no trata."
+          }
+        },
+        {
+          "clases_ruta": "R23-M08-C09..C10",
+          "tema": "Protección planetaria",
+          "destino": "existente",
+          "tronco": [
+            "B37-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M08-C11..C12",
+          "tema": "Ciencia abierta",
+          "destino": "existente",
+          "tronco": [
+            "B64-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M08-C13..C14",
+          "tema": "Seguridad de datos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Gobernanza, equidad y sostenibilidad espacial",
+            "titulo": "Seguridad y gobernanza de datos espaciales",
+            "necesidad": "Los datos espaciales requieren políticas de acceso y seguridad; B64-C13 trata ética de datos de investigación."
+          }
+        },
+        {
+          "clases_ruta": "R23-M08-C15..C16",
+          "tema": "Impacto de mega constelaciones",
+          "destino": "existente",
+          "tronco": [
+            "B62-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R23-M08-C17..C18",
+          "tema": "Gobernanza de recursos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "nueva: Derecho, política y economía espacial",
+            "bloque": "nuevo: Gobernanza, equidad y sostenibilidad espacial",
+            "titulo": "Gobernanza de los recursos espaciales",
+            "necesidad": "La explotación de recursos extraterrestres plantea cuestiones de gobernanza que B40 trata solo técnicamente."
+          }
+        },
+        {
+          "clases_ruta": "R23-M08-C19..C20",
+          "tema": "Código de conducta profesional",
+          "destino": "existente",
+          "tronco": [
+            "B63-C18",
+            "B64-C13"
+          ]
+        }
+      ]
+    }
+  ]
+}

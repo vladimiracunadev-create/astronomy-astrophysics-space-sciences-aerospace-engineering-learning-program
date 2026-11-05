@@ -1,5 +1,7 @@
 # B63 — Derecho, seguridad y geopolítica espacial
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 16 clases programadas (`B63-C21` a `B63-C36`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A08 — Astronáutica humana, operaciones, sociedad y futuro espacial
 **Estado:** malla preliminar; no contiene clases desarrolladas.

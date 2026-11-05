@@ -2,16 +2,16 @@
 
 # 🌌 Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 
-## **5.120 clases planificadas · 64 bloques transversales · 24 rutas profesionales · 192 módulos especializados**
+## **2.077 clases planificadas · 12 áreas · 133 bloques · 24 rutas profesionales**
 
 **Un programa independiente en español que organiza, con IDs estables y trazabilidad, el recorrido desde la observación del cielo y los fundamentos científicos hasta la investigación, la ingeniería y las operaciones espaciales.**
 
 [![Validación](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/actions/workflows/validate.yml)
 [![Pages](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/actions/workflows/pages.yml/badge.svg?branch=main)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/)
 
-[![Versión documental](https://img.shields.io/badge/versión_documental-0.1.0-6f42c1?style=for-the-badge)](CHANGELOG.md)
-[![Catálogo](https://img.shields.io/badge/catálogo-5.120_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
-[![Estado](https://img.shields.io/badge/textos_redactados-160_de_5.120-d97706?style=for-the-badge)](STATUS.md)
+[![Versión documental](https://img.shields.io/badge/versión_documental-0.2.0-6f42c1?style=for-the-badge)](CHANGELOG.md)
+[![Catálogo](https://img.shields.io/badge/programa-2.077_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
+[![Estado](https://img.shields.io/badge/textos_redactados-160_de_2.077-d97706?style=for-the-badge)](STATUS.md)
 [![Idioma](https://img.shields.io/badge/idioma-español_de_Chile-007c83?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-d22128?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -31,62 +31,59 @@
 ---
 
 > [!IMPORTANT]
-> **El catálogo está definido y sus 5.120 registros siguen en E0.** Hay **160 clases con texto redactado** (el área A01, bloques B01 a B08), pendientes de aprobación y de revisión disciplinar; las otras 4.960 solo tienen título, descripción y fuentes preliminares. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/5.120**.
+> **El programa está planificado (2.077 clases en 133 bloques) y todas sus clases siguen en E0.** Hay **160 clases con texto redactado** (el área A01, bloques B01 a B08), pendientes de aprobación y de revisión disciplinar; las otras 1.120 de la línea base solo tienen título y descripción preliminar y las 797 restantes están programadas, sin redactar. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/2.077**.
 
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
 
 ## 🎯 Qué es este programa
 
-Es una arquitectura curricular única y extensible. No son 24 programas separados: las rutas profesionales reutilizan un tronco transversal y profundizan competencias concretas sin renumerar ni duplicar lo ya definido.
+Es una arquitectura curricular única y extensible: **un solo conjunto de clases organizado en áreas y bloques**. Las rutas profesionales no tienen contenido propio: son recorridos que ordenan clases de esas áreas y bloques. No son 24 programas separados.
 
 | Superficie | Estado verificable |
 |---|---:|
-| Áreas transversales | 8 |
-| Bloques transversales | 64 |
-| Clases transversales catalogadas | 1.280 |
-| Rutas profesionales | 24 |
-| Módulos de especialización | 192 |
-| Clases especializadas catalogadas | 3.840 |
-| **Clases catalogadas** | **5.120** |
+| Áreas | 12 |
+| Bloques | 133 (64 de la línea base y 69 nuevos programados) |
+| Clases de la línea base en el tronco | 1.280 |
+| Clases programadas (citadas, ubicadas y justificadas; **no redactadas**) | 797 |
+| **Clases del programa** | **2.077** |
+| Rutas profesionales (recorridos sobre áreas y bloques) | 24 |
 | Clases con texto redactado, pendientes de revisión (A01) | 160 |
 | **Clases completamente redactadas y verificadas** | **0** |
 
-## 🧮 Cómo suman las 5.120 clases
+## 🧮 Cómo se organiza y cuánto suma
 
-Las 5.120 clases **no** salen de «8 bloques de 20 clases por área». Esa cuenta solo describe el **tronco común**. Las rutas profesionales son una segunda estructura, aparte de las áreas:
+El tronco de la línea base `0.1.0` tenía 8 áreas, 64 bloques y 1.280 clases; las rutas profesionales sumaban otras 3.840 clases en 192 módulos, para una referencia inicial de 5.120. Esa cifra fue un punto de partida, no una meta. En esta versión **todo el contenido de los módulos de las rutas se ubicó dentro de áreas y bloques**: de sus 1.920 temas, 1.101 ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). El resultado son **12 áreas, 133 bloques y 2.077 clases**.
 
-| Estructura | Cómo se compone | Clases |
-|---|---|---:|
-| **Tronco común** (áreas A01–A08) | 8 áreas × 8 bloques × 20 clases = 64 bloques × 20 | **1.280** |
-| **Rutas profesionales** (R01–R24) | 24 rutas × 8 módulos × 20 clases = 192 módulos × 20 | **3.840** |
-| **Total del catálogo** | 1.280 + 3.840 | **5.120** |
+Las áreas **no** tienen el mismo tamaño: crecen con el contenido que necesitan, y A01 (160 clases, conocimiento básico) no cambia. Los IDs de la línea base se conservan; los bloques B57–B64 pasan a las áreas A08 a A11 sin cambiar el ID de ninguna de sus clases. Las clases programadas se agregan al final de un bloque existente (`B49-C21`…) o forman bloques nuevos (`B65`…). Los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias: el [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) indica, módulo por módulo, dónde vive hoy su contenido. Detalle de la línea base: [estructura y conteo del catálogo](documentacion/ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md).
 
-Por eso un área reúne 160 clases (8 × 20) y una ruta también reúne 160 (8 × 20), pero hay 8 áreas y 24 rutas: `8 × 160 = 1.280` y `24 × 160 = 3.840`. Las rutas **no** están dentro de las áreas; reutilizan el tronco común y profundizan un campo. Nadie cursa las 5.120: cada persona recorre el tronco que su diagnóstico indica y una o más rutas. Detalle y comprobación: [estructura y conteo del catálogo](documentacion/ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md).
-
-La estructura permite estudiar por diagnóstico y ruta. Nadie necesita cursar las 5.120 unidades ni seguir una duración académica inventada: la carga y las equivalencias se definirán después de pilotajes reales.
+Nadie necesita cursar todo: el diagnóstico indica qué partes del tronco hacen falta y una ruta profesional ordena las clases de su campo. La carga y las equivalencias se definirán después de pilotajes reales.
 
 ```mermaid
 flowchart LR
     A["Diagnóstico inicial"] --> B["Fundamentos N0–N2"]
-    B --> C["Tronco científico y técnico N2–N3"]
-    C --> D["Ruta profesional N3–N4"]
+    B --> C["Áreas y bloques N2–N3"]
+    C --> D["Ruta profesional: recorrido N3–N4"]
     D --> E["Proyecto y portafolio"]
     E --> F["Investigación y revisión N5"]
     F -. "recuperación y actualización" .-> B
 ```
 
-## 🗂️ Los 64 bloques, agrupados en 8 áreas
+## 🗂️ Las 12 áreas y 133 bloques
 
-Este mapa deja el contenido previsto visible desde la portada, con el mismo lenguaje visual de tablas, enlaces directos y rutas navegables usado en los programas de aprendizaje de referencia. Cada bloque contiene 20 clases numeradas y enlaza su ficha completa.
+Este mapa deja el contenido visible desde la portada. Cada bloque muestra su rango de clases; las **programadas** son clases citadas con su ubicación y la necesidad que resuelven, todavía sin redactar.
 
 > [!IMPORTANT]
-> Este es un mapa de referencia para ordenar el trabajo. Todos los registros permanecen en E0. Las clases de A01 (160) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título, descripción y referencias preliminares. Ninguna está impartida ni verificada.
+> Todos los registros permanecen en E0. Las clases de A01 (160) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título y descripción preliminar, o es una clase programada sin redactar. Ninguna está impartida ni verificada.
 
 ### A01 · Alfabetización científica, astronómica y tecnológica
 
+Punto de partida común: observar y medir el cielo, entender la ciencia como método y adquirir la matemática, la física, la química y la informática básicas. Nivel N0–N1. **Sin cambios respecto de la línea base.**
+
+*8 bloques · 160 clases de la línea base · 0 programadas · 160 en total.*
+
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
+|---|---|---:|---|
 | B01 | El universo y el pensamiento científico | B01-C01 → B01-C20 | [📘 ver las 20 clases](programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) |
 | B02 | Historia, arqueoastronomía y culturas del cielo | B02-C01 → B02-C20 | [📘 ver las 20 clases](programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) |
 | B03 | Matemática elemental para ciencias espaciales | B03-C01 → B03-C20 | [📘 ver las 20 clases](programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) |
@@ -98,130 +95,263 @@ Este mapa deja el contenido previsto visible desde la portada, con el mismo leng
 
 ### A02 · Matemática, física computacional y métodos científicos
 
+Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación, estadística e incertidumbre, metrología, computación científica, señales y control; más aprendizaje automático, inferencia y verificación de software. Nivel N2–N3.
+
+*15 bloques · 160 clases de la línea base · 77 programadas · 237 en total.*
+
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
+|---|---|---:|---|
 | B09 | Cálculo diferencial e integral | B09-C01 → B09-C20 | [📘 ver las 20 clases](programa/tronco-comun/B09-calculo-diferencial-e-integral.md) |
 | B10 | Álgebra lineal y matemáticas geométricas | B10-C01 → B10-C20 | [📘 ver las 20 clases](programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) |
-| B11 | Ecuaciones diferenciales y simulación numérica | B11-C01 → B11-C20 | [📘 ver las 20 clases](programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) |
-| B12 | Probabilidad, estadística e incertidumbre | B12-C01 → B12-C20 | [📘 ver las 20 clases](programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) |
-| B13 | Metrología, tiempo y mediciones científicas | B13-C01 → B13-C20 | [📘 ver las 20 clases](programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) |
-| B14 | Computación científica y ciencia abierta | B14-C01 → B14-C20 | [📘 ver las 20 clases](programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) |
-| B15 | Señales, imágenes y estimación científica | B15-C01 → B15-C20 | [📘 ver las 20 clases](programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) |
+| B11 | Ecuaciones diferenciales y simulación numérica | B11-C01 → B11-C26 (6 programadas) | [📘 ver el bloque](programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) |
+| B12 | Probabilidad, estadística e incertidumbre | B12-C01 → B12-C26 (6 programadas) | [📘 ver el bloque](programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) |
+| B13 | Metrología, tiempo y mediciones científicas | B13-C01 → B13-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) |
+| B14 | Computación científica y ciencia abierta | B14-C01 → B14-C31 (11 programadas) | [📘 ver el bloque](programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) |
+| B15 | Señales, imágenes y estimación científica | B15-C01 → B15-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) |
 | B16 | Sistemas dinámicos y control automático | B16-C01 → B16-C20 | [📘 ver las 20 clases](programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) |
+| B65 | Aprendizaje automático científico | B65-C01 → B65-C12 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b65--aprendizaje-automático-científico) |
+| B66 | Computación de alto rendimiento | B66-C01 → B66-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b66--computación-de-alto-rendimiento) |
+| B67 | Inferencia bayesiana y computación probabilística | B67-C01 → B67-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b67--inferencia-bayesiana-y-computación-probabilística) |
+| B68 | Metodología de la investigación científica | B68-C01 → B68-C04 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b68--metodología-de-la-investigación-científica) |
+| B69 | Métodos numéricos para EDP y fluidos computacionales | B69-C01 → B69-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b69--métodos-numéricos-para-edp-y-fluidos-computacionales) |
+| B70 | Problemas inversos y estimación de modelos | B70-C01 → B70-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b70--problemas-inversos-y-estimación-de-modelos) |
+| B71 | Verificación y validación de software científico | B71-C01 → B71-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b71--verificación-y-validación-de-software-científico) |
 
 ### A03 · Astrofísica y ciencias fundamentales del universo
 
+La física del universo: estrellas, galaxias, cosmología, objetos compactos, mensajeros, exoplanetas, el Sol y su plasma, y física nuclear y de partículas, con profundización en interiores estelares, universo temprano y clima espacial. Nivel N2–N4.
+
+*17 bloques · 160 clases de la línea base · 112 programadas · 272 en total.*
+
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
-| B17 | Física y evolución de estrellas | B17-C01 → B17-C20 | [📘 ver las 20 clases](programa/tronco-comun/B17-fisica-y-evolucion-de-estrellas.md) |
+|---|---|---:|---|
+| B17 | Física y evolución de estrellas | B17-C01 → B17-C22 (2 programadas) | [📘 ver el bloque](programa/tronco-comun/B17-fisica-y-evolucion-de-estrellas.md) |
 | B18 | Galaxias y medio interestelar | B18-C01 → B18-C20 | [📘 ver las 20 clases](programa/tronco-comun/B18-galaxias-y-medio-interestelar.md) |
-| B19 | Relatividad y cosmología | B19-C01 → B19-C20 | [📘 ver las 20 clases](programa/tronco-comun/B19-relatividad-y-cosmologia.md) |
-| B20 | Objetos compactos y altas energías | B20-C01 → B20-C20 | [📘 ver las 20 clases](programa/tronco-comun/B20-objetos-compactos-y-altas-energias.md) |
-| B21 | Astronomía multimensajero | B21-C01 → B21-C20 | [📘 ver las 20 clases](programa/tronco-comun/B21-astronomia-multimensajero.md) |
+| B19 | Relatividad y cosmología | B19-C01 → B19-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B19-relatividad-y-cosmologia.md) |
+| B20 | Objetos compactos y altas energías | B20-C01 → B20-C22 (2 programadas) | [📘 ver el bloque](programa/tronco-comun/B20-objetos-compactos-y-altas-energias.md) |
+| B21 | Astronomía multimensajero | B21-C01 → B21-C22 (2 programadas) | [📘 ver el bloque](programa/tronco-comun/B21-astronomia-multimensajero.md) |
 | B22 | Astronomía temporal y exoplanetas | B22-C01 → B22-C20 | [📘 ver las 20 clases](programa/tronco-comun/B22-astronomia-temporal-y-exoplanetas.md) |
-| B23 | Heliofísica y física de plasmas | B23-C01 → B23-C20 | [📘 ver las 20 clases](programa/tronco-comun/B23-heliofisica-y-fisica-de-plasmas.md) |
+| B23 | Heliofísica y física de plasmas | B23-C01 → B23-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B23-heliofisica-y-fisica-de-plasmas.md) |
 | B24 | Física cuántica, nuclear y astropartículas | B24-C01 → B24-C20 | [📘 ver las 20 clases](programa/tronco-comun/B24-fisica-cuantica-nuclear-y-astroparticulas.md) |
+| B72 | Atmósferas estelares y espectroscopía estelar cuantitativa | B72-C01 → B72-C12 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b72--atmósferas-estelares-y-espectroscopía-estelar-cuantitativa) |
+| B73 | Clima espacial: impactos, pronóstico y riesgo | B73-C01 → B73-C14 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b73--clima-espacial-impactos-pronóstico-y-riesgo) |
+| B74 | Corona solar y erupciones: diagnóstico y modelos | B74-C01 → B74-C09 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b74--corona-solar-y-erupciones-diagnóstico-y-modelos) |
+| B75 | Física avanzada de plasmas y MHD espacial | B75-C01 → B75-C10 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b75--física-avanzada-de-plasmas-y-mhd-espacial) |
+| B76 | Formación de estructuras cósmicas y materia oscura | B76-C01 → B76-C11 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b76--formación-de-estructuras-cósmicas-y-materia-oscura) |
+| B77 | Interiores estelares y asterosismología | B77-C01 → B77-C14 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b77--interiores-estelares-y-asterosismología) |
+| B78 | Poblaciones estelares y simulación de galaxias | B78-C01 → B78-C09 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b78--poblaciones-estelares-y-simulación-de-galaxias) |
+| B79 | Relatividad general avanzada | B79-C01 → B79-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b79--relatividad-general-avanzada) |
+| B80 | Universo temprano y radiación cósmica de fondo | B80-C01 → B80-C15 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b80--universo-temprano-y-radiación-cósmica-de-fondo) |
 
 ### A04 · Óptica, telescopios y observatorios científicos
 
+Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastronomía y observatorios terrestres y espaciales, con profundización en diseño óptico, antenas e interferometría. Nivel N3–N4.
+
+*11 bloques · 160 clases de la línea base · 62 programadas · 222 en total.*
+
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
+|---|---|---:|---|
 | B25 | Óptica geométrica y diseño de telescopios | B25-C01 → B25-C20 | [📘 ver las 20 clases](programa/tronco-comun/B25-optica-geometrica-y-diseno-de-telescopios.md) |
-| B26 | Óptica física y óptica adaptativa | B26-C01 → B26-C20 | [📘 ver las 20 clases](programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md) |
-| B27 | Construcción y mecánica de telescopios | B27-C01 → B27-C20 | [📘 ver las 20 clases](programa/tronco-comun/B27-construccion-y-mecanica-de-telescopios.md) |
+| B26 | Óptica física y óptica adaptativa | B26-C01 → B26-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md) |
+| B27 | Construcción y mecánica de telescopios | B27-C01 → B27-C26 (6 programadas) | [📘 ver el bloque](programa/tronco-comun/B27-construccion-y-mecanica-de-telescopios.md) |
 | B28 | Detectores y adquisición astronómica | B28-C01 → B28-C20 | [📘 ver las 20 clases](programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md) |
-| B29 | Espectroscopía, fotometría y polarimetría | B29-C01 → B29-C20 | [📘 ver las 20 clases](programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) |
+| B29 | Espectroscopía, fotometría y polarimetría | B29-C01 → B29-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) |
 | B30 | Radioastronomía e interferometría | B30-C01 → B30-C20 | [📘 ver las 20 clases](programa/tronco-comun/B30-radioastronomia-e-interferometria.md) |
-| B31 | Instrumentación y observatorios espaciales | B31-C01 → B31-C20 | [📘 ver las 20 clases](programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) |
-| B32 | Operaciones de observatorios científicos | B32-C01 → B32-C20 | [📘 ver las 20 clases](programa/tronco-comun/B32-operaciones-de-observatorios-cientificos.md) |
+| B31 | Instrumentación y observatorios espaciales | B31-C01 → B31-C25 (5 programadas) | [📘 ver el bloque](programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) |
+| B32 | Operaciones de observatorios científicos | B32-C01 → B32-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B32-operaciones-de-observatorios-cientificos.md) |
+| B81 | Antenas y receptores de radioastronomía | B81-C01 → B81-C11 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b81--antenas-y-receptores-de-radioastronomía) |
+| B82 | Diseño óptico computacional y tolerancias | B82-C01 → B82-C15 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b82--diseño-óptico-computacional-y-tolerancias) |
+| B83 | Interferometría avanzada y reducción de datos de radio | B83-C01 → B83-C14 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b83--interferometría-avanzada-y-reducción-de-datos-de-radio) |
 
 ### A05 · Ciencias planetarias, astroquímica y habitabilidad
 
+Los mundos y la vida: formación planetaria, geología, atmósferas, química, astrobiología, observación terrestre, cuerpos menores y recursos, con bloques nuevos de vulcanismo, impactos, geofísica y astroquímica. Nivel N2–N4.
+
+*19 bloques · 160 clases de la línea base · 97 programadas · 257 en total.*
+
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
+|---|---|---:|---|
 | B33 | Formación y dinámica de sistemas planetarios | B33-C01 → B33-C20 | [📘 ver las 20 clases](programa/tronco-comun/B33-formacion-y-dinamica-de-sistemas-planetarios.md) |
-| B34 | Astrogeología y geodesia planetaria | B34-C01 → B34-C20 | [📘 ver las 20 clases](programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) |
+| B34 | Astrogeología y geodesia planetaria | B34-C01 → B34-C30 (10 programadas) | [📘 ver el bloque](programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) |
 | B35 | Atmósferas y climatología planetaria | B35-C01 → B35-C20 | [📘 ver las 20 clases](programa/tronco-comun/B35-atmosferas-y-climatologia-planetaria.md) |
 | B36 | Astroquímica y geoquímica extraterrestre | B36-C01 → B36-C20 | [📘 ver las 20 clases](programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md) |
-| B37 | Astrobiología y vida extraterrestre | B37-C01 → B37-C20 | [📘 ver las 20 clases](programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md) |
-| B38 | Observación terrestre y geociencias orbitales | B38-C01 → B38-C20 | [📘 ver las 20 clases](programa/tronco-comun/B38-observacion-terrestre-y-geociencias-orbitales.md) |
+| B37 | Astrobiología y vida extraterrestre | B37-C01 → B37-C21 (1 programadas) | [📘 ver el bloque](programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md) |
+| B38 | Observación terrestre y geociencias orbitales | B38-C01 → B38-C34 (14 programadas) | [📘 ver el bloque](programa/tronco-comun/B38-observacion-terrestre-y-geociencias-orbitales.md) |
 | B39 | Asteroides, cometas y defensa planetaria | B39-C01 → B39-C20 | [📘 ver las 20 clases](programa/tronco-comun/B39-asteroides-cometas-y-defensa-planetaria.md) |
-| B40 | Recursos in situ y sostenibilidad extraterrestre | B40-C01 → B40-C20 | [📘 ver las 20 clases](programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) |
+| B40 | Recursos in situ y sostenibilidad extraterrestre | B40-C01 → B40-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) |
+| B84 | Cinética y modelado astroquímico | B84-C01 → B84-C04 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b84--cinética-y-modelado-astroquímico) |
+| B85 | Cráteres de impacto y geología de impactos | B85-C01 → B85-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b85--cráteres-de-impacto-y-geología-de-impactos) |
+| B86 | Espectroscopía molecular para astroquímica | B86-C01 → B86-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b86--espectroscopía-molecular-para-astroquímica) |
+| B87 | Exploración in situ y análisis de muestras planetarias | B87-C01 → B87-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias) |
+| B88 | Extremófilos y límites de la vida | B88-C01 → B88-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b88--extremófilos-y-límites-de-la-vida) |
+| B89 | Geofísica de interiores planetarios | B89-C01 → B89-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b89--geofísica-de-interiores-planetarios) |
+| B90 | Geomorfología y procesos superficiales planetarios | B90-C01 → B90-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b90--geomorfología-y-procesos-superficiales-planetarios) |
+| B91 | Prospección y evaluación de reservas de recursos extraterrestres | B91-C01 → B91-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b91--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres) |
+| B92 | Química de granos y hielos interestelares | B92-C01 → B92-C04 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b92--química-de-granos-y-hielos-interestelares) |
+| B93 | Radar de apertura sintética e interferometría (profundización) | B93-C01 → B93-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b93--radar-de-apertura-sintética-e-interferometría-profundización) |
+| B94 | Vulcanismo planetario | B94-C01 → B94-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b94--vulcanismo-planetario) |
 
 ### A06 · Mecánica orbital, navegación y vuelo espacial
 
+Órbitas, perturbaciones, navegación, trayectorias, dinámica cislunar, lanzamiento y propulsión, con optimización de trayectorias, transferencias de Lambert y fluidos de propulsión. Nivel N3–N4.
+
+*12 bloques · 160 clases de la línea base · 77 programadas · 237 en total.*
+
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
+|---|---|---:|---|
 | B41 | Mecánica orbital fundamental | B41-C01 → B41-C20 | [📘 ver las 20 clases](programa/tronco-comun/B41-mecanica-orbital-fundamental.md) |
-| B42 | Perturbaciones y evolución de órbitas | B42-C01 → B42-C20 | [📘 ver las 20 clases](programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) |
-| B43 | Mecánica celeste, resonancias y caos | B43-C01 → B43-C20 | [📘 ver las 20 clases](programa/tronco-comun/B43-mecanica-celeste-resonancias-y-caos.md) |
-| B44 | Estimación de órbitas y navegación espacial | B44-C01 → B44-C20 | [📘 ver las 20 clases](programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) |
-| B45 | Trayectorias y misiones interplanetarias | B45-C01 → B45-C20 | [📘 ver las 20 clases](programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) |
+| B42 | Perturbaciones y evolución de órbitas | B42-C01 → B42-C21 (1 programadas) | [📘 ver el bloque](programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) |
+| B43 | Mecánica celeste, resonancias y caos | B43-C01 → B43-C22 (2 programadas) | [📘 ver el bloque](programa/tronco-comun/B43-mecanica-celeste-resonancias-y-caos.md) |
+| B44 | Estimación de órbitas y navegación espacial | B44-C01 → B44-C30 (10 programadas) | [📘 ver el bloque](programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) |
+| B45 | Trayectorias y misiones interplanetarias | B45-C01 → B45-C30 (10 programadas) | [📘 ver el bloque](programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) |
 | B46 | Dinámica cislunar y operaciones de proximidad | B46-C01 → B46-C20 | [📘 ver las 20 clases](programa/tronco-comun/B46-dinamica-cislunar-y-operaciones-de-proximidad.md) |
-| B47 | Dinámica de lanzamiento y reentrada | B47-C01 → B47-C20 | [📘 ver las 20 clases](programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md) |
-| B48 | Tecnologías de propulsión espacial | B48-C01 → B48-C20 | [📘 ver las 20 clases](programa/tronco-comun/B48-tecnologias-de-propulsion-espacial.md) |
+| B47 | Dinámica de lanzamiento y reentrada | B47-C01 → B47-C25 (5 programadas) | [📘 ver el bloque](programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md) |
+| B48 | Tecnologías de propulsión espacial | B48-C01 → B48-C22 (2 programadas) | [📘 ver el bloque](programa/tronco-comun/B48-tecnologias-de-propulsion-espacial.md) |
+| B95 | Fluidos, termodinámica y aerotermodinámica de propulsión | B95-C01 → B95-C16 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b95--fluidos-termodinámica-y-aerotermodinámica-de-propulsión) |
+| B96 | Navegación inercial y fusión multisensorial | B96-C01 → B96-C09 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b96--navegación-inercial-y-fusión-multisensorial) |
+| B97 | Optimización de trayectorias y diseño robusto | B97-C01 → B97-C15 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b97--optimización-de-trayectorias-y-diseño-robusto) |
+| B98 | Problema de Lambert y transferencias de dos puntos | B98-C01 → B98-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b98--problema-de-lambert-y-transferencias-de-dos-puntos) |
 
 ### A07 · Ingeniería y construcción de sistemas espaciales
 
-| Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
-| B49 | Ingeniería de sistemas y diseño de misiones | B49-C01 → B49-C20 | [📘 ver las 20 clases](programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
-| B50 | Estructuras, materiales y fabricación espacial | B50-C01 → B50-C20 | [📘 ver las 20 clases](programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) |
-| B51 | Gestión térmica y entorno espacial | B51-C01 → B51-C20 | [📘 ver las 20 clases](programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) |
-| B52 | Sistemas de potencia y energía espacial | B52-C01 → B52-C20 | [📘 ver las 20 clases](programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) |
-| B53 | Sensores y control de actitud | B53-C01 → B53-C20 | [📘 ver las 20 clases](programa/tronco-comun/B53-sensores-y-control-de-actitud.md) |
-| B54 | Aviónica y software crítico espacial | B54-C01 → B54-C20 | [📘 ver las 20 clases](programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) |
-| B55 | Comunicaciones y navegación satelital | B55-C01 → B55-C20 | [📘 ver las 20 clases](programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) |
-| B56 | Integración, ensayos y calificación espacial | B56-C01 → B56-C20 | [📘 ver las 20 clases](programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) |
+La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, potencia, actitud, aviónica, comunicaciones, integración y ensayos, con enlaces, antenas, comunicaciones ópticas y plataformas pequeñas. Nivel N3–N4.
 
-### A08 · Astronáutica humana, operaciones, sociedad y futuro espacial
+*13 bloques · 160 clases de la línea base · 99 programadas · 259 en total.*
 
 | Bloque | Contenido previsto | Clases | Ficha |
-|---|---|---:|---:|
-| B57 | Control y operación de misiones espaciales | B57-C01 → B57-C20 | [📘 ver las 20 clases](programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) |
-| B58 | Astronáutica y preparación de astronautas | B58-C01 → B58-C20 | [📘 ver las 20 clases](programa/tronco-comun/B58-astronautica-y-preparacion-de-astronautas.md) |
-| B59 | Medicina y biología espacial | B59-C01 → B59-C20 | [📘 ver las 20 clases](programa/tronco-comun/B59-medicina-y-biologia-espacial.md) |
-| B60 | Hábitats espaciales y soporte vital | B60-C01 → B60-C20 | [📘 ver las 20 clases](programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md) |
-| B61 | Robótica y construcción extraterrestre | B61-C01 → B61-C20 | [📘 ver las 20 clases](programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md) |
-| B62 | Tráfico espacial y sostenibilidad orbital | B62-C01 → B62-C20 | [📘 ver las 20 clases](programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md) |
-| B63 | Derecho, seguridad y geopolítica espacial | B63-C01 → B63-C20 | [📘 ver las 20 clases](programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) |
-| B64 | Industria, economía, ética y proyectos espaciales | B64-C01 → B64-C20 | [📘 ver las 20 clases](programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) |
+|---|---|---:|---|
+| B49 | Ingeniería de sistemas y diseño de misiones | B49-C01 → B49-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
+| B50 | Estructuras, materiales y fabricación espacial | B50-C01 → B50-C38 (18 programadas) | [📘 ver el bloque](programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) |
+| B51 | Gestión térmica y entorno espacial | B51-C01 → B51-C29 (9 programadas) | [📘 ver el bloque](programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) |
+| B52 | Sistemas de potencia y energía espacial | B52-C01 → B52-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) |
+| B53 | Sensores y control de actitud | B53-C01 → B53-C22 (2 programadas) | [📘 ver el bloque](programa/tronco-comun/B53-sensores-y-control-de-actitud.md) |
+| B54 | Aviónica y software crítico espacial | B54-C01 → B54-C44 (24 programadas) | [📘 ver el bloque](programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) |
+| B55 | Comunicaciones y navegación satelital | B55-C01 → B55-C25 (5 programadas) | [📘 ver el bloque](programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) |
+| B56 | Integración, ensayos y calificación espacial | B56-C01 → B56-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) |
+| B99 | Antenas y propagación para enlaces espaciales | B99-C01 → B99-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b99--antenas-y-propagación-para-enlaces-espaciales) |
+| B100 | Comunicaciones ópticas espaciales (profundización) | B100-C01 → B100-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b100--comunicaciones-ópticas-espaciales-profundización) |
+| B101 | Electrónica embarcada y compatibilidad electromagnética | B101-C01 → B101-C04 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b101--electrónica-embarcada-y-compatibilidad-electromagnética) |
+| B102 | Modulación, codificación y protocolos de enlace | B102-C01 → B102-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b102--modulación-codificación-y-protocolos-de-enlace) |
+| B103 | Plataformas de satélites pequeños y CubeSat | B103-C01 → B103-C04 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b103--plataformas-de-satélites-pequeños-y-cubesat) |
 
-➡️ **[Ver el índice plano de las 5.120 clases catalogadas](PROGRAMA_ACADEMICO_COMPLETO.md)**
+### A08 · Operaciones de misión y robótica espacial
 
-## 🧭 Las 24 rutas profesionales y sus módulos
+Operar la misión y construir fuera de la Tierra: control de misión, robótica, percepción, movilidad, manipulación, autonomía y logística extraterrestre. Nivel N3–N4.
 
-Las rutas funcionan como recorridos por especialización o rol dentro del mismo programa. Cada ruta reúne ocho módulos de 20 clases y reutilizará los bloques transversales que correspondan; no son 24 programas separados.
+*8 bloques · 40 clases de la línea base · 65 programadas · 105 en total.*
+
+| Bloque | Contenido previsto | Clases | Ficha |
+|---|---|---:|---|
+| B57 | Control y operación de misiones espaciales | B57-C01 → B57-C30 (10 programadas) | [📘 ver el bloque](programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) |
+| B61 | Robótica y construcción extraterrestre | B61-C01 → B61-C27 (7 programadas) | [📘 ver el bloque](programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md) |
+| B104 | Autonomía y teleoperación espacial | B104-C01 → B104-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b104--autonomía-y-teleoperación-espacial) |
+| B105 | Localización y mapeo robótico | B105-C01 → B105-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b105--localización-y-mapeo-robótico) |
+| B106 | Logística y cadena de suministro extraterrestre | B106-C01 → B106-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b106--logística-y-cadena-de-suministro-extraterrestre) |
+| B107 | Manipuladores robóticos espaciales | B107-C01 → B107-C10 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b107--manipuladores-robóticos-espaciales) |
+| B108 | Movilidad de robots planetarios | B108-C01 → B108-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b108--movilidad-de-robots-planetarios) |
+| B109 | Percepción visual robótica | B109-C01 → B109-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b109--percepción-visual-robótica) |
+
+### A09 · Astronáutica humana, medicina y hábitats
+
+La persona en el espacio: preparación de astronautas, medicina y biología, hábitats y soporte vital, con bloques nuevos de salud, radiación, emergencias y bioregeneración. Nivel N3–N4.
+
+*14 bloques · 60 clases de la línea base · 93 programadas · 153 en total.*
+
+| Bloque | Contenido previsto | Clases | Ficha |
+|---|---|---:|---|
+| B58 | Astronáutica y preparación de astronautas | B58-C01 → B58-C23 (3 programadas) | [📘 ver el bloque](programa/tronco-comun/B58-astronautica-y-preparacion-de-astronautas.md) |
+| B59 | Medicina y biología espacial | B59-C01 → B59-C27 (7 programadas) | [📘 ver el bloque](programa/tronco-comun/B59-medicina-y-biologia-espacial.md) |
+| B60 | Hábitats espaciales y soporte vital | B60-C01 → B60-C29 (9 programadas) | [📘 ver el bloque](programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md) |
+| B110 | Acondicionamiento físico y rehabilitación de astronautas | B110-C01 → B110-C10 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b110--acondicionamiento-físico-y-rehabilitación-de-astronautas) |
+| B111 | Actividades extravehiculares y trajes espaciales | B111-C01 → B111-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b111--actividades-extravehiculares-y-trajes-espaciales) |
+| B112 | Arquitectura y factores humanos de hábitats extraterrestres | B112-C01 → B112-C12 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b112--arquitectura-y-factores-humanos-de-hábitats-extraterrestres) |
+| B113 | Emergencias y seguridad de tripulación | B113-C01 → B113-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b113--emergencias-y-seguridad-de-tripulación) |
+| B114 | Factores humanos y liderazgo de tripulación | B114-C01 → B114-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b114--factores-humanos-y-liderazgo-de-tripulación) |
+| B115 | Radiobiología y protección radiológica espacial | B115-C01 → B115-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b115--radiobiología-y-protección-radiológica-espacial) |
+| B116 | Salud conductual y bienestar en aislamiento | B116-C01 → B116-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b116--salud-conductual-y-bienestar-en-aislamiento) |
+| B117 | Seguridad y respuesta a emergencias en hábitats | B117-C01 → B117-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b117--seguridad-y-respuesta-a-emergencias-en-hábitats) |
+| B118 | Sistemas bioregenerativos y cultivo en hábitats | B118-C01 → B118-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b118--sistemas-bioregenerativos-y-cultivo-en-hábitats) |
+| B119 | Telemedicina y monitorización de salud en misión | B119-C01 → B119-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b119--telemedicina-y-monitorización-de-salud-en-misión) |
+| B120 | Urgencias médicas y atención clínica en misión | B120-C01 → B120-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b120--urgencias-médicas-y-atención-clínica-en-misión) |
+
+### A10 · Entorno orbital, derecho y seguridad espacial
+
+Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho internacional y nacional, espectro y licencias, responsabilidad, seguridad y resiliencia. Tratamiento histórico, jurídico, defensivo y de resiliencia. Nivel N3–N4.
+
+*6 bloques · 40 clases de la línea base · 45 programadas · 85 en total.*
+
+| Bloque | Contenido previsto | Clases | Ficha |
+|---|---|---:|---|
+| B62 | Tráfico espacial y sostenibilidad orbital | B62-C01 → B62-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md) |
+| B63 | Derecho, seguridad y geopolítica espacial | B63-C01 → B63-C36 (16 programadas) | [📘 ver el bloque](programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) |
+| B121 | Espectro, licencias y regulación satelital | B121-C01 → B121-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b121--espectro-licencias-y-regulación-satelital) |
+| B122 | Regulación nacional de actividades espaciales | B122-C01 → B122-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b122--regulación-nacional-de-actividades-espaciales) |
+| B123 | Resiliencia y continuidad de infraestructura espacial | B123-C01 → B123-C10 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b123--resiliencia-y-continuidad-de-infraestructura-espacial) |
+| B124 | Responsabilidad, daños y controversias espaciales | B124-C01 → B124-C04 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b124--responsabilidad-daños-y-controversias-espaciales) |
+
+### A11 · Economía, industria y gestión de proyectos espaciales
+
+Cadena de valor, costos, financiamiento, seguros, creación de empresas y gestión de proyectos espaciales. Nivel N3–N4.
+
+*4 bloques · 20 clases de la línea base · 24 programadas · 44 en total.*
+
+| Bloque | Contenido previsto | Clases | Ficha |
+|---|---|---:|---|
+| B64 | Industria, economía, ética y proyectos espaciales | B64-C01 → B64-C24 (4 programadas) | [📘 ver el bloque](programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) |
+| B125 | Creación y operación de empresas espaciales | B125-C01 → B125-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b125--creación-y-operación-de-empresas-espaciales) |
+| B126 | Financiamiento de proyectos y negocios espaciales | B126-C01 → B126-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b126--financiamiento-de-proyectos-y-negocios-espaciales) |
+| B127 | Seguros espaciales | B127-C01 → B127-C08 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b127--seguros-espaciales) |
+
+### A12 · Educación, historia aplicada y divulgación astronómica
+
+Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas, saberes y educación intercultural, didáctica, ciencia ciudadana, accesibilidad y comunicación. Nivel N3–N4.
+
+*6 bloques · 0 clases de la línea base · 46 programadas · 46 en total.*
+
+| Bloque | Contenido previsto | Clases | Ficha |
+|---|---|---:|---|
+| B128 | Accesibilidad e inclusión en la enseñanza de la astronomía | B128-C01 → B128-C11 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b128--accesibilidad-e-inclusión-en-la-enseñanza-de-la-astronomía) |
+| B129 | Ciencia ciudadana astronómica | B129-C01 → B129-C07 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b129--ciencia-ciudadana-astronómica) |
+| B130 | Comunicación y divulgación científica | B130-C01 → B130-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b130--comunicación-y-divulgación-científica) |
+| B131 | Didáctica de la astronomía | B131-C01 → B131-C11 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b131--didáctica-de-la-astronomía) |
+| B132 | Historia y arqueoastronomía aplicadas | B132-C01 → B132-C06 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b132--historia-y-arqueoastronomía-aplicadas) |
+| B133 | Saberes astronómicos y educación intercultural | B133-C01 → B133-C05 (programadas) | [📋 ver en el programa](PROGRAMA_ACADEMICO_COMPLETO.md#b133--saberes-astronómicos-y-educación-intercultural) |
+
+➡️ **[Ver el programa completo: 2.077 clases en 133 bloques](PROGRAMA_ACADEMICO_COMPLETO.md)**
+
+## 🧭 Las 24 rutas profesionales
+
+Cada ruta es un recorrido por rol dentro del mismo programa: indica qué clases de las áreas y bloques usa y en qué orden. No tiene contenido propio ni es un programa separado.
 
 > [!NOTE]
-> Las rutas también permanecen en E0. Los módulos y títulos sirven para ordenar futuras especificaciones, fuentes y dependencias; todavía no constituyen formación terminada ni habilitación profesional.
+> Los recorridos se están definiendo rol por rol; los que aún no tienen recorrido lo indican en su página. Ninguna ruta constituye formación terminada ni habilitación profesional.
 
-| Ruta | Módulos previstos | Clases | Índice |
-|---|---|---:|---:|
-| **R01 · Astrofísica estelar y galáctica** | [M01](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md) · Atmósferas estelares<br>[M02](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md) · Modelos de interiores estelares<br>[M03](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M03-evolucion-estelar-avanzada.md) · Evolución estelar avanzada<br>[M04](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M04-espectroscopia-estelar-avanzada.md) · Espectroscopía estelar avanzada<br>[M05](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M05-asterosismologia.md) · Asterosismología<br>[M06](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M06-poblaciones-estelares.md) · Poblaciones estelares<br>[M07](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M07-simulacion-de-galaxias.md) · Simulación de galaxias<br>[M08](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M08-investigacion-estelar-y-galactica.md) · Investigación estelar y galáctica | 160 | [🧭 abrir](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md) |
-| **R02 · Cosmología y astrofísica extrema** | [M01](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M01-relatividad-avanzada.md) · Relatividad avanzada<br>[M02](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M02-universo-temprano.md) · Universo temprano<br>[M03](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M03-radiacion-cosmica-de-fondo.md) · Radiación cósmica de fondo<br>[M04](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M04-formacion-de-estructuras-cosmicas.md) · Formación de estructuras cósmicas<br>[M05](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M05-materia-oscura.md) · Materia oscura<br>[M06](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M06-astrofisica-de-altas-energias.md) · Astrofísica de altas energías<br>[M07](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M07-astronomia-multimensajero.md) · Astronomía multimensajero<br>[M08](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/R02-M08-inferencia-y-parametros-cosmologicos.md) · Inferencia y parámetros cosmológicos | 160 | [🧭 abrir](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/INDICE.md) |
-| **R03 · Ingeniería óptica y telescopios profesionales** | [M01](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M01-diseno-optico-computacional.md) · Diseño óptico computacional<br>[M02](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M02-aberraciones-y-tolerancias-opticas.md) · Aberraciones y tolerancias ópticas<br>[M03](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M03-fabricacion-y-pruebas-opticas.md) · Fabricación y pruebas ópticas<br>[M04](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M04-monturas-y-mecanica-de-precision.md) · Monturas y mecánica de precisión<br>[M05](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M05-optica-adaptativa-profesional.md) · Óptica adaptativa profesional<br>[M06](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M06-fotometria-instrumental-avanzada.md) · Fotometría instrumental avanzada<br>[M07](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M07-automatizacion-de-observatorios.md) · Automatización de observatorios<br>[M08](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/R03-M08-proyecto-completo-de-instrumentacion-optica.md) · Proyecto completo de instrumentación óptica | 160 | [🧭 abrir](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/INDICE.md) |
-| **R04 · Radioastronomía e interferometría** | [M01](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M01-ingenieria-de-antenas.md) · Ingeniería de antenas<br>[M02](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M02-receptores-de-bajo-ruido.md) · Receptores de bajo ruido<br>[M03](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M03-radiofrecuencia-y-cadenas-de-recepcion.md) · Radiofrecuencia y cadenas de recepción<br>[M04](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M04-radioastronomia-con-sdr.md) · Radioastronomía con SDR<br>[M05](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M05-calibracion-de-interferometros.md) · Calibración de interferómetros<br>[M06](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M06-correlacion-de-senales-astronomicas.md) · Correlación de señales astronómicas<br>[M07](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M07-vlbi-y-geodesia.md) · VLBI y geodesia<br>[M08](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/R04-M08-reduccion-profesional-de-datos-de-radio.md) · Reducción profesional de datos de radio | 160 | [🧭 abrir](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/INDICE.md) |
-| **R05 · Ciencias planetarias y astrogeología** | [M01](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M01-geodesia-planetaria.md) · Geodesia planetaria<br>[M02](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M02-geofisica-de-interiores.md) · Geofísica de interiores<br>[M03](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M03-geomorfologia-comparada.md) · Geomorfología comparada<br>[M04](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M04-geologia-de-impactos.md) · Geología de impactos<br>[M05](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M05-vulcanismo-planetario.md) · Vulcanismo planetario<br>[M06](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M06-criosferas-y-mundos-helados.md) · Criósferas y mundos helados<br>[M07](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M07-cartografia-y-estratigrafia-planetaria.md) · Cartografía y estratigrafía planetaria<br>[M08](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/R05-M08-muestras-y-resultados-de-misiones-planetarias.md) · Muestras y resultados de misiones planetarias | 160 | [🧭 abrir](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/INDICE.md) |
-| **R06 · Astroquímica y astrobiología** | [M01](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M01-cinetica-astroquimica.md) · Cinética astroquímica<br>[M02](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M02-espectros-moleculares.md) · Espectros moleculares<br>[M03](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M03-quimica-de-granos-interestelares.md) · Química de granos interestelares<br>[M04](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M04-quimica-prebiotica.md) · Química prebiótica<br>[M05](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M05-extremofilos-y-biosferas-limite.md) · Extremófilos y biosferas límite<br>[M06](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M06-mundos-oceanicos.md) · Mundos oceánicos<br>[M07](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M07-biofirmas-y-tecnofirmas.md) · Biofirmas y tecnofirmas<br>[M08](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/R06-M08-proteccion-planetaria-aplicada.md) · Protección planetaria aplicada | 160 | [🧭 abrir](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/INDICE.md) |
-| **R07 · Heliofísica y climatología espacial** | [M01](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M01-plasmas-avanzados.md) · Plasmas avanzados<br>[M02](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M02-magnetohidrodinamica-aplicada.md) · Magnetohidrodinámica aplicada<br>[M03](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M03-fisica-de-corona-solar.md) · Física de corona solar<br>[M04](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M04-erupciones-solares.md) · Erupciones solares<br>[M05](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M05-magnetosferas-y-radiacion.md) · Magnetosferas y radiación<br>[M06](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M06-observatorios-heliofisicos.md) · Observatorios heliofísicos<br>[M07](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M07-impactos-tecnologicos-del-clima-espacial.md) · Impactos tecnológicos del clima espacial<br>[M08](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/R07-M08-modelos-de-pronostico-espacial.md) · Modelos de pronóstico espacial | 160 | [🧭 abrir](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/INDICE.md) |
-| **R08 · Matemática y computación científica espacial** | [M01](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M01-algoritmos-numericos-avanzados.md) · Algoritmos numéricos avanzados<br>[M02](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M02-computacion-de-alto-rendimiento.md) · Computación de alto rendimiento<br>[M03](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M03-metodos-para-ecuaciones-en-derivadas-parciales.md) · Métodos para ecuaciones en derivadas parciales<br>[M04](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M04-problemas-inversos-astronomicos.md) · Problemas inversos astronómicos<br>[M05](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M05-modelos-bayesianos-cientificos.md) · Modelos bayesianos científicos<br>[M06](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M06-aprendizaje-automatico-cientifico.md) · Aprendizaje automático científico<br>[M07](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M07-verificacion-y-validacion-computacional.md) · Verificación y validación computacional<br>[M08](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/R08-M08-publicacion-de-investigacion-reproducible.md) · Publicación de investigación reproducible | 160 | [🧭 abrir](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/INDICE.md) |
-| **R09 · Astrodinámica interplanetaria** | [M01](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M01-transferencias-orbitales-avanzadas.md) · Transferencias orbitales avanzadas<br>[M02](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M02-problemas-de-lambert.md) · Problemas de Lambert<br>[M03](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M03-dinamica-interplanetaria-de-n-cuerpos.md) · Dinámica interplanetaria de N cuerpos<br>[M04](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M04-asistencias-gravitacionales-multiples.md) · Asistencias gravitacionales múltiples<br>[M05](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M05-trayectorias-de-bajo-empuje.md) · Trayectorias de bajo empuje<br>[M06](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M06-ventanas-y-oportunidades-de-mision.md) · Ventanas y oportunidades de misión<br>[M07](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M07-optimizacion-e-incertidumbre-orbital.md) · Optimización e incertidumbre orbital<br>[M08](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/R09-M08-verificacion-de-trayectorias-interplanetarias.md) · Verificación de trayectorias interplanetarias | 160 | [🧭 abrir](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/INDICE.md) |
-| **R10 · Navegación guiado y autonomía espacial** | [M01](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M01-sensores-de-orientacion.md) · Sensores de orientación<br>[M02](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M02-navegacion-inercial-espacial.md) · Navegación inercial espacial<br>[M03](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M03-filtrado-y-estimacion-de-estado.md) · Filtrado y estimación de estado<br>[M04](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M04-determinacion-orbital-de-precision.md) · Determinación orbital de precisión<br>[M05](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M05-navegacion-optica-autonoma.md) · Navegación óptica autónoma<br>[M06](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M06-fusion-multisensorial.md) · Fusión multisensorial<br>[M07](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M07-control-autonomo-de-vehiculos.md) · Control autónomo de vehículos<br>[M08](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/R10-M08-encuentro-y-operaciones-de-proximidad.md) · Encuentro y operaciones de proximidad | 160 | [🧭 abrir](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/INDICE.md) |
-| **R11 · Ingeniería de lanzadores y propulsión** | [M01](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M01-mecanica-de-fluidos-para-propulsion.md) · Mecánica de fluidos para propulsión<br>[M02](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M02-termodinamica-de-sistemas-propulsivos.md) · Termodinámica de sistemas propulsivos<br>[M03](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M03-modelos-de-propulsion-quimica.md) · Modelos de propulsión química<br>[M04](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M04-tecnologias-de-propulsion-electrica.md) · Tecnologías de propulsión eléctrica<br>[M05](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M05-dinamica-de-vehiculos-de-lanzamiento.md) · Dinámica de vehículos de lanzamiento<br>[M06](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M06-ascenso-y-reentrada-atmosfericos.md) · Ascenso y reentrada atmosféricos<br>[M07](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M07-seguridad-y-evaluacion-de-sistemas-de-lanzamiento.md) · Seguridad y evaluación de sistemas de lanzamiento<br>[M08](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/R11-M08-simulacion-de-mision-propulsiva.md) · Simulación de misión propulsiva | 160 | [🧭 abrir](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/INDICE.md) |
-| **R12 · Ingeniería y construcción de satélites y CubeSats** | [M01](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M01-arquitectura-de-mision-satelital.md) · Arquitectura de misión satelital<br>[M02](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M02-diseno-de-cargas-utiles.md) · Diseño de cargas útiles<br>[M03](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M03-plataformas-y-buses-satelitales.md) · Plataformas y buses satelitales<br>[M04](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M04-sistema-electrico-de-potencia.md) · Sistema eléctrico de potencia<br>[M05](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M05-sistema-de-comunicaciones-satelitales.md) · Sistema de comunicaciones satelitales<br>[M06](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M06-sistema-de-determinacion-y-control-de-actitud.md) · Sistema de determinación y control de actitud<br>[M07](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M07-ingenieria-de-interfaces-y-configuracion.md) · Ingeniería de interfaces y configuración<br>[M08](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M08-integracion-y-calificacion-de-cubesat.md) · Integración y calificación de CubeSat | 160 | [🧭 abrir](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/INDICE.md) |
-| **R13 · Aviónica y software espacial de alta fiabilidad** | [M01](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M01-electronica-embarcada-avanzada.md) · Electrónica embarcada avanzada<br>[M02](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M02-arquitectura-de-computadores-de-vuelo.md) · Arquitectura de computadores de vuelo<br>[M03](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M03-sistemas-de-tiempo-real.md) · Sistemas de tiempo real<br>[M04](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M04-comunicaciones-y-buses-internos.md) · Comunicaciones y buses internos<br>[M05](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M05-tolerancia-a-fallos-de-hardware-y-software.md) · Tolerancia a fallos de hardware y software<br>[M06](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M06-recuperacion-autonoma-de-anomalias.md) · Recuperación autónoma de anomalías<br>[M07](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M07-seguridad-y-aseguramiento-del-software.md) · Seguridad y aseguramiento del software<br>[M08](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M08-verificacion-integral-de-avionica.md) · Verificación integral de aviónica | 160 | [🧭 abrir](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/INDICE.md) |
-| **R14 · Materiales estructuras e ingeniería térmica espacial** | [M01](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M01-materiales-aeroespaciales-avanzados.md) · Materiales aeroespaciales avanzados<br>[M02](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M02-mecanica-estructural-espacial.md) · Mecánica estructural espacial<br>[M03](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M03-elementos-finitos-y-analisis-de-tensiones.md) · Elementos finitos y análisis de tensiones<br>[M04](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M04-vibraciones-y-dinamica-estructural.md) · Vibraciones y dinámica estructural<br>[M05](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M05-fabricacion-avanzada-y-mecanismos.md) · Fabricación avanzada y mecanismos<br>[M06](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M06-control-termico-de-vehiculos.md) · Control térmico de vehículos<br>[M07](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M07-proteccion-contra-ambientes-espaciales.md) · Protección contra ambientes espaciales<br>[M08](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M08-calificacion-estructural-y-termica.md) · Calificación estructural y térmica | 160 | [🧭 abrir](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/INDICE.md) |
-| **R15 · Telecomunicaciones y estaciones terrestres espaciales** | [M01](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M01-antenas-espaciales-avanzadas.md) · Antenas espaciales avanzadas<br>[M02](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M02-presupuesto-de-enlace-de-mision.md) · Presupuesto de enlace de misión<br>[M03](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M03-modulacion-y-codificacion-de-canal.md) · Modulación y codificación de canal<br>[M04](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M04-diseno-de-redes-de-estaciones-terrestres.md) · Diseño de redes de estaciones terrestres<br>[M05](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M05-enlaces-de-radiofrecuencia-profundos.md) · Enlaces de radiofrecuencia profundos<br>[M06](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M06-enlaces-opticos-espaciales.md) · Enlaces ópticos espaciales<br>[M07](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M07-sincronizacion-y-protocolos-de-mision.md) · Sincronización y protocolos de misión<br>[M08](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M08-operaciones-integrales-de-estaciones-terrestres.md) · Operaciones integrales de estaciones terrestres | 160 | [🧭 abrir](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/INDICE.md) |
-| **R16 · Observación terrestre y geointeligencia científica** | [M01](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M01-instrumentos-orbitales-para-observacion-terrestre.md) · Instrumentos orbitales para observación terrestre<br>[M02](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M02-procesamiento-multiespectral.md) · Procesamiento multiespectral<br>[M03](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M03-radar-de-apertura-sintetica.md) · Radar de apertura sintética<br>[M04](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M04-altimetria-y-lidar-orbital.md) · Altimetría y LiDAR orbital<br>[M05](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M05-calibracion-radiometrica-de-imagenes.md) · Calibración radiométrica de imágenes<br>[M06](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M06-plataformas-de-datos-geoespaciales.md) · Plataformas de datos geoespaciales<br>[M07](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M07-ia-para-monitoreo-de-desastres.md) · IA para monitoreo de desastres<br>[M08](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M08-diseno-de-servicios-satelitales-de-observacion.md) · Diseño de servicios satelitales de observación | 160 | [🧭 abrir](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/INDICE.md) |
-| **R17 · Robótica espacial y sistemas autónomos** | [M01](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M01-cinematica-de-manipuladores-espaciales.md) · Cinemática de manipuladores espaciales<br>[M02](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M02-dinamica-de-robots-sobre-otros-cuerpos.md) · Dinámica de robots sobre otros cuerpos<br>[M03](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M03-vision-artificial-y-percepcion-espacial.md) · Visión artificial y percepción espacial<br>[M04](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M04-localizacion-y-mapeo-slam.md) · Localización y mapeo SLAM<br>[M05](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M05-teleoperacion-con-retardo.md) · Teleoperación con retardo<br>[M06](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M06-manipulacion-y-mantenimiento-orbital.md) · Manipulación y mantenimiento orbital<br>[M07](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M07-exploracion-autonoma-planetaria.md) · Exploración autónoma planetaria<br>[M08](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M08-integracion-de-mision-robotica.md) · Integración de misión robótica | 160 | [🧭 abrir](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/INDICE.md) |
-| **R18 · Astronáutica tripulada y entrenamiento de astronautas** | [M01](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M01-preparacion-fisica-y-factores-humanos.md) · Preparación física y factores humanos<br>[M02](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M02-sistemas-de-vehiculos-tripulados.md) · Sistemas de vehículos tripulados<br>[M03](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M03-operaciones-de-cabina-espacial.md) · Operaciones de cabina espacial<br>[M04](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M04-actividades-extravehiculares-eva.md) · Actividades extravehiculares EVA<br>[M05](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M05-robotica-para-tripulaciones.md) · Robótica para tripulaciones<br>[M06](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M06-procedimientos-de-emergencia-espacial.md) · Procedimientos de emergencia espacial<br>[M07](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M07-coordinacion-y-liderazgo-de-tripulacion.md) · Coordinación y liderazgo de tripulación<br>[M08](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M08-simulacion-integral-de-vuelo-tripulado.md) · Simulación integral de vuelo tripulado | 160 | [🧭 abrir](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/INDICE.md) |
-| **R19 · Medicina y bioingeniería espacial** | [M01](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M01-fisiologia-espacial-avanzada.md) · Fisiología espacial avanzada<br>[M02](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M02-adaptaciones-a-microgravedad.md) · Adaptaciones a microgravedad<br>[M03](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M03-radiobiologia-espacial.md) · Radiobiología espacial<br>[M04](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M04-salud-conductual-en-aislamiento.md) · Salud conductual en aislamiento<br>[M05](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M05-telemedicina-y-monitorizacion.md) · Telemedicina y monitorización<br>[M06](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M06-urgencias-medicas-simuladas.md) · Urgencias médicas simuladas<br>[M07](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M07-rehabilitacion-de-astronautas.md) · Rehabilitación de astronautas<br>[M08](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/R19-M08-investigacion-biomedica-en-ambiente-espacial.md) · Investigación biomédica en ambiente espacial | 160 | [🧭 abrir](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/INDICE.md) |
-| **R20 · Arquitectura y hábitats extraterrestres** | [M01](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M01-arquitectura-de-entornos-extraterrestres.md) · Arquitectura de entornos extraterrestres<br>[M02](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M02-sistemas-de-soporte-vital-eclss.md) · Sistemas de soporte vital ECLSS<br>[M03](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M03-control-de-atmosfera-y-presiones.md) · Control de atmósfera y presiones<br>[M04](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M04-ciclos-cerrados-de-agua.md) · Ciclos cerrados de agua<br>[M05](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M05-produccion-de-alimentos-en-habitats.md) · Producción de alimentos en hábitats<br>[M06](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M06-blindaje-y-proteccion-ambiental.md) · Blindaje y protección ambiental<br>[M07](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M07-ergonomia-y-bienestar-de-tripulacion.md) · Ergonomía y bienestar de tripulación<br>[M08](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M08-diseno-integral-de-habitat-lunar-o-marciano.md) · Diseño integral de hábitat lunar o marciano | 160 | [🧭 abrir](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/INDICE.md) |
-| **R21 · Recursos extraterrestres y economía industrial espacial** | [M01](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M01-prospeccion-geologica-extraterrestre.md) · Prospección geológica extraterrestre<br>[M02](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M02-hielos-y-volatiles-de-interes.md) · Hielos y volátiles de interés<br>[M03](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M03-procesamiento-de-recursos-in-situ.md) · Procesamiento de recursos in situ<br>[M04](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M04-robotica-para-recursos-espaciales.md) · Robótica para recursos espaciales<br>[M05](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M05-sistemas-energeticos-de-instalaciones.md) · Sistemas energéticos de instalaciones<br>[M06](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M06-manufactura-en-cuerpos-celestes.md) · Manufactura en cuerpos celestes<br>[M07](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M07-logistica-de-suministros-interplanetarios.md) · Logística de suministros interplanetarios<br>[M08](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M08-viabilidad-tecnica-y-economica-isru.md) · Viabilidad técnica y económica ISRU | 160 | [🧭 abrir](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/INDICE.md) |
-| **R22 · Seguridad defensa y resiliencia de infraestructuras espaciales** | [M01](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M01-vigilancia-y-conciencia-situacional-espacial.md) · Vigilancia y conciencia situacional espacial<br>[M02](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M02-seguimiento-de-objetos-orbitales.md) · Seguimiento de objetos orbitales<br>[M03](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M03-riesgo-de-conjunciones-y-colisiones.md) · Riesgo de conjunciones y colisiones<br>[M04](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M04-mitigacion-de-desechos-espaciales.md) · Mitigación de desechos espaciales<br>[M05](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M05-seguridad-de-infraestructura-critica-espacial.md) · Seguridad de infraestructura crítica espacial<br>[M06](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M06-ciberdefensa-y-continuidad-satelital.md) · Ciberdefensa y continuidad satelital<br>[M07](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M07-geopolitica-y-doctrina-espacial.md) · Geopolítica y doctrina espacial<br>[M08](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/R22-M08-gestion-institucional-de-crisis-espaciales.md) · Gestión institucional de crisis espaciales | 160 | [🧭 abrir](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/INDICE.md) |
-| **R23 · Derecho políticas y negocios espaciales** | [M01](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M01-tratados-de-derecho-espacial.md) · Tratados de derecho espacial<br>[M02](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M02-legislaciones-y-supervision-nacionales.md) · Legislaciones y supervisión nacionales<br>[M03](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M03-espectro-radioelectrico-y-licencias.md) · Espectro radioeléctrico y licencias<br>[M04](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M04-responsabilidad-civil-y-estatal-espacial.md) · Responsabilidad civil y estatal espacial<br>[M05](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M05-seguros-espaciales.md) · Seguros espaciales<br>[M06](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M06-financiamiento-de-negocios-espaciales.md) · Financiamiento de negocios espaciales<br>[M07](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M07-creacion-y-operacion-de-empresas-espaciales.md) · Creación y operación de empresas espaciales<br>[M08](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M08-gobernanza-etica-y-sostenibilidad.md) · Gobernanza ética y sostenibilidad | 160 | [🧭 abrir](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/INDICE.md) |
-| **R24 · Educación historia y divulgación astronómica** | [M01](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M01-historia-de-la-ciencia-astronomica.md) · Historia de la ciencia astronómica<br>[M02](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M02-arqueoastronomia-comparada.md) · Arqueoastronomía comparada<br>[M03](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M03-astronomias-culturales-y-saberes.md) · Astronomías culturales y saberes<br>[M04](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M04-observacion-astronomica-educativa.md) · Observación astronómica educativa<br>[M05](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M05-diseno-de-secuencias-pedagogicas.md) · Diseño de secuencias pedagógicas<br>[M06](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M06-ciencia-ciudadana-astronomica.md) · Ciencia ciudadana astronómica<br>[M07](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M07-accesibilidad-e-inclusion-educativa.md) · Accesibilidad e inclusión educativa<br>[M08](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M08-investigacion-y-divulgacion-cientifica.md) · Investigación y divulgación científica | 160 | [🧭 abrir](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/INDICE.md) |
+| Ruta | Recorrido | Índice |
+|---|---|---|
+| **R01 · Astrofísica estelar y galáctica** | [🧭 recorrido](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md) |
+| **R02 · Cosmología y astrofísica extrema** | [🧭 recorrido](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R02-cosmologia-y-astrofisica-extrema/INDICE.md) |
+| **R03 · Ingeniería óptica y telescopios profesionales** | [🧭 recorrido](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R03-ingenieria-optica-y-telescopios-profesionales/INDICE.md) |
+| **R04 · Radioastronomía e interferometría** | [🧭 recorrido](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R04-radioastronomia-e-interferometria/INDICE.md) |
+| **R05 · Ciencias planetarias y astrogeología** | [🧭 recorrido](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R05-ciencias-planetarias-y-astrogeologia/INDICE.md) |
+| **R06 · Astroquímica y astrobiología** | [🧭 recorrido](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R06-astroquimica-y-astrobiologia/INDICE.md) |
+| **R07 · Heliofísica y climatología espacial** | [🧭 recorrido](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R07-heliofisica-y-climatologia-espacial/INDICE.md) |
+| **R08 · Matemática y computación científica espacial** | [🧭 recorrido](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R08-matematica-y-computacion-cientifica-espacial/INDICE.md) |
+| **R09 · Astrodinámica interplanetaria** | [🧭 recorrido](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R09-astrodinamica-interplanetaria/INDICE.md) |
+| **R10 · Navegación guiado y autonomía espacial** | [🧭 recorrido](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R10-navegacion-guiado-y-autonomia-espacial/INDICE.md) |
+| **R11 · Ingeniería de lanzadores y propulsión** | [🧭 recorrido](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R11-ingenieria-de-lanzadores-y-propulsion/INDICE.md) |
+| **R12 · Ingeniería y construcción de satélites y CubeSats** | [🧭 recorrido](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/INDICE.md) |
+| **R13 · Aviónica y software espacial de alta fiabilidad** | [🧭 recorrido](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/INDICE.md) |
+| **R14 · Materiales estructuras e ingeniería térmica espacial** | [🧭 recorrido](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/INDICE.md) |
+| **R15 · Telecomunicaciones y estaciones terrestres espaciales** | [🧭 recorrido](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/INDICE.md) |
+| **R16 · Observación terrestre y geointeligencia científica** | [🧭 recorrido](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/INDICE.md) |
+| **R17 · Robótica espacial y sistemas autónomos** | [🧭 recorrido](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/INDICE.md) |
+| **R18 · Astronáutica tripulada y entrenamiento de astronautas** | [🧭 recorrido](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/INDICE.md) |
+| **R19 · Medicina y bioingeniería espacial** | [🧭 recorrido](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R19-medicina-y-bioingenieria-espacial/INDICE.md) |
+| **R20 · Arquitectura y hábitats extraterrestres** | [🧭 recorrido](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/INDICE.md) |
+| **R21 · Recursos extraterrestres y economía industrial espacial** | [🧭 recorrido](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/INDICE.md) |
+| **R22 · Seguridad defensa y resiliencia de infraestructuras espaciales** | [🧭 recorrido](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/INDICE.md) |
+| **R23 · Derecho políticas y negocios espaciales** | [🧭 recorrido](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/INDICE.md) |
+| **R24 · Educación historia y divulgación astronómica** | [🧭 recorrido](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/RECORRIDO.md) | [📋 abrir](programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/INDICE.md) |
 
 ➡️ **[Comparar las rutas y su relación con el tronco común](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md)**
 
@@ -274,10 +404,12 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 
 ## 🗂️ Qué contiene hoy
 
-- [`PROGRAMA_ACADEMICO_COMPLETO.md`](PROGRAMA_ACADEMICO_COMPLETO.md): índice legible de las 5.120 unidades.
-- [`catalogo/clases.jsonl`](catalogo/clases.jsonl): fuente canónica legible por máquinas, sincronizada con CSV y JSON.
-- [`programa/tronco-comun/`](programa/tronco-comun/): 64 fichas de bloque con 20 títulos cada una.
-- [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas y 192 módulos.
+- [`PROGRAMA_ACADEMICO_COMPLETO.md`](PROGRAMA_ACADEMICO_COMPLETO.md): índice unificado de 2.077 clases en 12 áreas y 133 bloques, con la correspondencia de los módulos de ruta.
+- [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
+- [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
+- [`programa/tronco-comun/`](programa/tronco-comun/): fichas de los 64 bloques de la línea base.
+- [`programa/clases/`](programa/clases/): las 160 clases redactadas de A01.
+- [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
 - [`metadatos/`](metadatos/): inventarios y relaciones estructurales.
 - [`documentacion/`](documentacion/): alcance, pedagogía, experiencia, cobertura, rutas y plan de implementación.
 - [`fuentes/`](fuentes/): referencias institucionales preliminares, todavía no verificadas clase por clase.
@@ -296,7 +428,7 @@ python herramientas/validar_catalogo.py
 La salida esperada es:
 
 ```text
-Catálogo: 5120 clases | 64 bloques | 24 rutas | 192 módulos
+Catálogo: 5120 clases | 64 bloques | 24 rutas | 192 módulos   (línea base 0.1.0)
 VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 ```
 
@@ -320,8 +452,8 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 ### ✅ Lo que sí es
 
 - 🌌 un **programa independiente** con una arquitectura curricular única para astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial;
-- 🗂️ un catálogo ordenado de **5.120 unidades E0**, con 8 áreas, 64 bloques, 24 rutas y 192 módulos enlazados;
-- 🧭 una referencia para planificar recorridos transversales y profesionales sin perder IDs, dependencias ni trazabilidad;
+- 🗂️ un programa ordenado de **2.077 clases** en 12 áreas y 133 bloques, todas en E0, con IDs estables sobre una línea base de 5.120 registros;
+- 🧭 una referencia para planificar recorridos profesionales sobre áreas y bloques sin perder IDs, dependencias ni trazabilidad;
 - 🎓 un estándar pedagógico y científico que define cómo una futura clase deberá avanzar desde E0 hasta E6;
 - 🌐 un repositorio público, navegable y legible por personas y máquinas, con visor estático y validación reproducible.
 
@@ -330,8 +462,8 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 
 ### ❌ Lo que no es
 
-- 🚫 una colección de 5.120 clases ya redactadas y verificadas: hoy hay 160 con texto redactado (A01), sin revisión disciplinar, y 4.960 que conservan sólo título, descripción y referencias preliminares;
-- 🚫 veinticuatro programas separados: las rutas reutilizan un mismo tronco y pertenecen a una sola formación;
+- 🚫 una colección de 2.077 clases ya redactadas y verificadas: hoy hay 160 con texto redactado (A01), sin revisión disciplinar; el resto conserva título y descripción preliminar o está programado sin redactar;
+- 🚫 veinticuatro programas separados: las rutas son recorridos sobre las mismas áreas y bloques de una sola formación;
 - 🚫 una universidad, carrera acreditada, título, certificación ni licencia profesional;
 - 🚫 autorización para diseñar, fabricar, lanzar, pilotar, diagnosticar o intervenir sistemas reales sin normativa y profesionales competentes;
 - 🚫 una reproducción de libros, normas o documentación institucional, ni un proyecto patrocinado por los organismos citados.
@@ -362,7 +494,7 @@ Copyright © 2026 **Vladimir Acuña** (`vladimiracunadev-create`). La [historia 
 
 **Hecho para ordenar y desarrollar una formación espacial profunda, verificable y accesible.**
 
-[⬆️ Explorar el catálogo de 5.120 unidades](PROGRAMA_ACADEMICO_COMPLETO.md)
+[⬆️ Explorar el programa de 2.077 clases](PROGRAMA_ACADEMICO_COMPLETO.md)
 
 <br>
 

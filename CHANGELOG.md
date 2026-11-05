@@ -2,6 +2,24 @@
 
 Todos los cambios relevantes de este programa se documentan aquí. Las referencias históricas se conservan; el estado actual se mantiene en `STATUS.md`.
 
+## [0.2.0] — 2026-11-05
+
+### Cambiado
+
+- Estructura unificada: todo el contenido vive en áreas y bloques. Los 192 módulos de las rutas se ubicaron en el tronco (1.920 temas: 1.101 en clases existentes y 819 en clases programadas).
+- Programa de 12 áreas, 133 bloques y 2.077 clases (1.280 de la línea base y 797 programadas, sin redactar). `PROGRAMA_ACADEMICO_COMPLETO.md` y el README se reescribieron.
+- Los bloques B57–B64 pasan a las áreas A08 a A11. Ningún ID se borra ni se renumera; los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias.
+- Las rutas profesionales son recorridos sobre áreas y bloques (`metadatos/recorridos/`).
+
+### Añadido
+
+- 160 clases redactadas del área A01 (B01–B08), con fichas, ejercicios y laboratorios; pendientes de revisión disciplinar.
+- `catalogo/v0.2.0/` (colocación, estructura, clases programadas, equivalencias) y herramientas de validación y generación.
+
+### Estado honesto
+
+- Todas las clases del programa siguen en E0 en el catálogo; clases redactadas y verificadas: 0.
+
 ## [0.1.0] — 2026-11-05
 
 ### Añadido

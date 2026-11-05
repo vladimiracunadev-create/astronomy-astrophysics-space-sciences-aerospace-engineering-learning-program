@@ -1,5 +1,7 @@
 # B53 — Sensores y control de actitud
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 2 clases programadas (`B53-C21` a `B53-C22`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales
 **Estado:** malla preliminar; no contiene clases desarrolladas.

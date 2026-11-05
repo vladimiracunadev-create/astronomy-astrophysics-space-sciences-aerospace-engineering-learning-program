@@ -1,5 +1,7 @@
 # B58 — Astronáutica y preparación de astronautas
 
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 3 clases programadas (`B58-C21` a `B58-C23`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A08 — Astronáutica humana, operaciones, sociedad y futuro espacial
 **Estado:** malla preliminar; no contiene clases desarrolladas.

@@ -5,7 +5,7 @@
 1. revisa el [README](README.md), la [documentación](documentacion/README.md) y el [estado](STATUS.md);
 2. ejecuta `python herramientas/validar_catalogo.py` si el problema es estructural;
 3. busca una incidencia existente;
-4. confirma que no estás interpretando los 5.120 registros E0 como clases terminadas.
+4. confirma que no estás interpretando las clases en E0 o programadas como clases terminadas.
 
 ## Qué incluir
 

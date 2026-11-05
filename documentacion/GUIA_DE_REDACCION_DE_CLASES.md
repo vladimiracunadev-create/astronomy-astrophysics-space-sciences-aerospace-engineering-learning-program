@@ -1,6 +1,6 @@
 # Guía de redacción de clases
 
-Esta guía fija cómo se escribe cada clase para que las 5.120 sigan una misma voz, un mismo orden y los mismos controles. Se deriva de [B01-C01](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md), aprobada por el autor del programa, y del [estándar pedagógico](ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md), que prevalece si hay diferencias.
+Esta guía fija cómo se escribe cada clase para que todas las clases sigan una misma voz, un mismo orden y los mismos controles. Se deriva de [B01-C01](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md), aprobada por el autor del programa, y del [estándar pedagógico](ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md), que prevalece si hay diferencias.
 
 ## 1. Dónde vive cada clase
 

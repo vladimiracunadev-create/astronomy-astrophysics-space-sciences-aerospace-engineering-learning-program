@@ -1,0 +1,805 @@
+{
+  "ruta_id": "R18",
+  "modulos": [
+    {
+      "modulo": "R18-M01",
+      "nombre": "Preparación física y factores humanos",
+      "temas": [
+        {
+          "clases_ruta": "R18-M01-C01..C02",
+          "tema": "Adaptación física previa al vuelo",
+          "destino": "existente",
+          "tronco": [
+            "B58-C04",
+            "B58-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M01-C03..C04",
+          "tema": "Resistencia cardiovascular",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Entrenamiento cardiorrespiratorio y de resistencia de astronautas",
+            "necesidad": "B58-C04 es acondicionamiento general; el diseño del entrenamiento de resistencia para vuelo no tiene clase propia."
+          }
+        },
+        {
+          "clases_ruta": "R18-M01-C05..C06",
+          "tema": "Fortalecimiento muscular",
+          "destino": "existente",
+          "tronco": [
+            "B59-C03",
+            "B59-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M01-C07..C08",
+          "tema": "Movilidad articular",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Movilidad articular, flexibilidad y postura",
+            "necesidad": "Ninguna clase trata movilidad articular y postura, relevantes en trajes y microgravedad."
+          }
+        },
+        {
+          "clases_ruta": "R18-M01-C09..C10",
+          "tema": "Entrenamiento vestibular",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Entrenamiento vestibular y de orientación espacial",
+            "necesidad": "B59-C04 describe el sistema vestibular, pero no el entrenamiento para prepararse a la desorientación."
+          }
+        },
+        {
+          "clases_ruta": "R18-M01-C11..C12",
+          "tema": "Nutrición preoperacional",
+          "destino": "existente",
+          "tronco": [
+            "B59-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M01-C13..C14",
+          "tema": "Sueño y ritmos",
+          "destino": "existente",
+          "tronco": [
+            "B59-C08",
+            "B60-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M01-C15..C16",
+          "tema": "Evaluación de rendimiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Evaluación del rendimiento físico y cognitivo de tripulantes",
+            "necesidad": "B58-C03 trata selección y aptitud; falta la evaluación periódica de rendimiento físico y cognitivo."
+          }
+        },
+        {
+          "clases_ruta": "R18-M01-C17..C18",
+          "tema": "Prevención de lesiones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
+            "titulo": "Prevención de lesiones en entrenamiento y trabajo operativo",
+            "necesidad": "No hay clase sobre lesiones típicas de entrenamiento, EVA y reacondicionamiento."
+          }
+        },
+        {
+          "clases_ruta": "R18-M01-C19..C20",
+          "tema": "Límites médicos de entrenamiento",
+          "destino": "existente",
+          "tronco": [
+            "B58-C03",
+            "B59-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M02",
+      "nombre": "Sistemas de vehículos tripulados",
+      "temas": [
+        {
+          "clases_ruta": "R18-M02-C01..C02",
+          "tema": "Cabinas presurizadas",
+          "destino": "existente",
+          "tronco": [
+            "B60-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C03..C04",
+          "tema": "Sistemas de energía",
+          "destino": "existente",
+          "tronco": [
+            "B52-C01",
+            "B52-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C05..C06",
+          "tema": "Sistemas de navegación",
+          "destino": "existente",
+          "tronco": [
+            "B44-C18",
+            "B55-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C07..C08",
+          "tema": "Control ambiental de cabina",
+          "destino": "existente",
+          "tronco": [
+            "B60-C09",
+            "B60-C08",
+            "B60-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C09..C10",
+          "tema": "Monitoreo de atmósfera",
+          "destino": "existente",
+          "tronco": [
+            "B60-C03",
+            "B60-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C11..C12",
+          "tema": "Gestión de agua",
+          "destino": "existente",
+          "tronco": [
+            "B60-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C13..C14",
+          "tema": "Sistema contra incendios",
+          "destino": "existente",
+          "tronco": [
+            "B60-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C15..C16",
+          "tema": "Comunicaciones a Tierra",
+          "destino": "existente",
+          "tronco": [
+            "B55-C20",
+            "B55-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C17..C18",
+          "tema": "Configuración de nave",
+          "destino": "existente",
+          "tronco": [
+            "B58-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M02-C19..C20",
+          "tema": "Procedimientos de inventario",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Operaciones de cabina y vehículos tripulados",
+            "titulo": "Inventario, logística y estiba a bordo",
+            "necesidad": "B61-C19 es logística robótica de piezas; no hay clase de inventario, consumibles y estiba de una nave tripulada."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M03",
+      "nombre": "Operaciones de cabina espacial",
+      "temas": [
+        {
+          "clases_ruta": "R18-M03-C01..C02",
+          "tema": "Roles del comandante",
+          "destino": "existente",
+          "tronco": [
+            "B58-C07",
+            "B58-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C03..C04",
+          "tema": "Procedimientos nominales",
+          "destino": "existente",
+          "tronco": [
+            "B58-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C05..C06",
+          "tema": "Listas de comprobación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Operaciones de cabina y vehículos tripulados",
+            "titulo": "Diseño y uso de listas de comprobación de cabina",
+            "necesidad": "B58-C06 cubre procedimientos en general; falta diseñar, ejecutar y verificar checklists de cabina."
+          }
+        },
+        {
+          "clases_ruta": "R18-M03-C07..C08",
+          "tema": "Gestión de estados de vehículo",
+          "destino": "existente",
+          "tronco": [
+            "B57-C08",
+            "B54-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C09..C10",
+          "tema": "Comunicaciones operacionales",
+          "destino": "existente",
+          "tronco": [
+            "B58-C08",
+            "B57-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C11..C12",
+          "tema": "Control de carga útil",
+          "destino": "existente",
+          "tronco": [
+            "B57-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C13..C14",
+          "tema": "Trabajo en turnos",
+          "destino": "existente",
+          "tronco": [
+            "B58-C17",
+            "B59-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C15..C16",
+          "tema": "Ejecución de experimentos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Operaciones de cabina y vehículos tripulados",
+            "titulo": "Ejecución de experimentos a bordo: procedimientos y registro",
+            "necesidad": "B57-C10 planifica cargas útiles desde tierra; falta la ejecución de experimentos por la tripulación."
+          }
+        },
+        {
+          "clases_ruta": "R18-M03-C17..C18",
+          "tema": "Registro de anomalías",
+          "destino": "existente",
+          "tronco": [
+            "B57-C13",
+            "B56-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M03-C19..C20",
+          "tema": "Debriefing de cabina",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M04",
+      "nombre": "Actividades extravehiculares EVA",
+      "temas": [
+        {
+          "clases_ruta": "R18-M04-C01..C02",
+          "tema": "Objetivos y tipos de EVA",
+          "destino": "existente",
+          "tronco": [
+            "B58-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M04-C03..C04",
+          "tema": "Trajes presurizados",
+          "destino": "existente",
+          "tronco": [
+            "B58-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M04-C05..C06",
+          "tema": "Sistemas portátiles de soporte vital",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Actividades extravehiculares y trajes espaciales",
+            "titulo": "Sistemas portátiles de soporte vital (PLSS)",
+            "necesidad": "B60-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase."
+          }
+        },
+        {
+          "clases_ruta": "R18-M04-C07..C08",
+          "tema": "Planificación de desplazamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Actividades extravehiculares y trajes espaciales",
+            "titulo": "Planificación de desplazamientos y rutas de EVA",
+            "necesidad": "Ninguna clase planifica rutas y accesibilidad de una EVA en una estructura."
+          }
+        },
+        {
+          "clases_ruta": "R18-M04-C09..C10",
+          "tema": "Herramientas EVA",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Actividades extravehiculares y trajes espaciales",
+            "titulo": "Herramientas y equipos de EVA",
+            "necesidad": "No hay clase sobre herramientas EVA (torque, reacción, sujeción de herramientas)."
+          }
+        },
+        {
+          "clases_ruta": "R18-M04-C11..C12",
+          "tema": "Sistemas de sujeción",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Actividades extravehiculares y trajes espaciales",
+            "titulo": "Sistemas de sujeción y restricción de pies",
+            "necesidad": "Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad."
+          }
+        },
+        {
+          "clases_ruta": "R18-M04-C13..C14",
+          "tema": "Gestión de fatiga",
+          "destino": "existente",
+          "tronco": [
+            "B58-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M04-C15..C16",
+          "tema": "Comunicaciones EVA",
+          "destino": "existente",
+          "tronco": [
+            "B58-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M04-C17..C18",
+          "tema": "Emergencias simuladas",
+          "destino": "existente",
+          "tronco": [
+            "B58-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M04-C19..C20",
+          "tema": "Evaluación de secuencia de EVA",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Actividades extravehiculares y trajes espaciales",
+            "titulo": "Evaluación de secuencias y líneas de tiempo de EVA",
+            "necesidad": "Falta evaluar la secuencia de una EVA (tiempos, consumibles, márgenes) antes de ejecutarla."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M05",
+      "nombre": "Robótica para tripulaciones",
+      "temas": [
+        {
+          "clases_ruta": "R18-M05-C01..C02",
+          "tema": "Manipuladores de estaciones",
+          "destino": "existente",
+          "tronco": [
+            "B61-C02",
+            "B58-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C03..C04",
+          "tema": "Interfaces de teleoperación",
+          "destino": "existente",
+          "tronco": [
+            "B61-C07",
+            "B58-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C05..C06",
+          "tema": "Captura de carga útil",
+          "destino": "existente",
+          "tronco": [
+            "B46-C16",
+            "B61-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C07..C08",
+          "tema": "Coordinación visual",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Coordinación visual y cámaras en operaciones con manipulador",
+            "necesidad": "Ninguna clase trata las vistas y cámaras disponibles para el operador, los puntos ciegos y la referencia visual en operaciones con brazo."
+          }
+        },
+        {
+          "clases_ruta": "R18-M05-C09..C10",
+          "tema": "Zonas de seguridad",
+          "destino": "existente",
+          "tronco": [
+            "B61-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C11..C12",
+          "tema": "Planificación de movimientos",
+          "destino": "existente",
+          "tronco": [
+            "B61-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C13..C14",
+          "tema": "Gestión de fallas robóticas",
+          "destino": "existente",
+          "tronco": [
+            "B61-C17",
+            "B54-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C15..C16",
+          "tema": "Robótica compartida",
+          "destino": "existente",
+          "tronco": [
+            "B61-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M05-C17..C18",
+          "tema": "Protocolos de relevo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Teleoperación y autonomía supervisada",
+            "titulo": "Protocolos de relevo de control entre operadores",
+            "necesidad": "Ninguna clase trata el traspaso seguro del control robótico entre operadores y entre tripulación y tierra."
+          }
+        },
+        {
+          "clases_ruta": "R18-M05-C19..C20",
+          "tema": "Simulación de tarea con manipulador",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Manipuladores robóticos espaciales",
+            "titulo": "Simulación de una tarea tripulada con manipulador",
+            "necesidad": "B61-C20 integra una misión robótica; falta simular una tarea con operador humano (captura, ensamblaje)."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M06",
+      "nombre": "Procedimientos de emergencia espacial",
+      "temas": [
+        {
+          "clases_ruta": "R18-M06-C01..C02",
+          "tema": "Despresurización simulada",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Emergencias y seguridad de tripulación",
+            "titulo": "Despresurización: detección, aislamiento y respuesta",
+            "necesidad": "B60-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa."
+          }
+        },
+        {
+          "clases_ruta": "R18-M06-C03..C04",
+          "tema": "Pérdida de comunicación",
+          "destino": "existente",
+          "tronco": [
+            "B57-C15",
+            "B54-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M06-C05..C06",
+          "tema": "Incendio en hábitat como escenario",
+          "destino": "existente",
+          "tronco": [
+            "B60-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M06-C07..C08",
+          "tema": "Pérdida de energía",
+          "destino": "existente",
+          "tronco": [
+            "B52-C11",
+            "B57-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M06-C09..C10",
+          "tema": "Falla de sistema ambiental",
+          "destino": "existente",
+          "tronco": [
+            "B60-C09",
+            "B60-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M06-C11..C12",
+          "tema": "Aislamiento médico",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Emergencias y seguridad de tripulación",
+            "titulo": "Protocolos operativos de aislamiento de un tripulante enfermo o contaminado",
+            "necesidad": "B59-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+          }
+        },
+        {
+          "clases_ruta": "R18-M06-C13..C14",
+          "tema": "Evacuación simulada",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Emergencias y seguridad de tripulación",
+            "titulo": "Evacuación y refugio de emergencia",
+            "necesidad": "Ninguna clase trata evacuación, refugio y vehículos de escape."
+          }
+        },
+        {
+          "clases_ruta": "R18-M06-C15..C16",
+          "tema": "Priorización de decisiones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Emergencias y seguridad de tripulación",
+            "titulo": "Priorización y decisiones bajo emergencia",
+            "necesidad": "B58-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas."
+          }
+        },
+        {
+          "clases_ruta": "R18-M06-C17..C18",
+          "tema": "Uso de checklists",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Emergencias y seguridad de tripulación",
+            "titulo": "Checklists de emergencia: ejecución y verificación cruzada",
+            "necesidad": "Los checklists de emergencia se ejecutan bajo estrés con lectura y verificación cruzada; no tienen clase propia."
+          }
+        },
+        {
+          "clases_ruta": "R18-M06-C19..C20",
+          "tema": "Evaluación postincidente",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19",
+            "B49-C16"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M07",
+      "nombre": "Coordinación y liderazgo de tripulación",
+      "temas": [
+        {
+          "clases_ruta": "R18-M07-C01..C02",
+          "tema": "Factores humanos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
+            "titulo": "Fundamentos de factores humanos en operaciones espaciales",
+            "necesidad": "B60-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores)."
+          }
+        },
+        {
+          "clases_ruta": "R18-M07-C03..C04",
+          "tema": "Liderazgo distribuido",
+          "destino": "existente",
+          "tronco": [
+            "B58-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M07-C05..C06",
+          "tema": "Comunicación cerrada",
+          "destino": "existente",
+          "tronco": [
+            "B58-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M07-C07..C08",
+          "tema": "Resolución de conflictos",
+          "destino": "existente",
+          "tronco": [
+            "B58-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M07-C09..C10",
+          "tema": "Gestión intercultural",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
+            "titulo": "Gestión intercultural en tripulaciones multinacionales",
+            "necesidad": "Ninguna clase trata diferencias culturales y de idioma en equipos internacionales."
+          }
+        },
+        {
+          "clases_ruta": "R18-M07-C11..C12",
+          "tema": "Carga cognitiva",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
+            "titulo": "Carga cognitiva y gestión de la atención",
+            "necesidad": "Ninguna clase trata la carga cognitiva ni el diseño de tareas para limitarla."
+          }
+        },
+        {
+          "clases_ruta": "R18-M07-C13..C14",
+          "tema": "Conciencia situacional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
+            "titulo": "Conciencia situacional en operaciones de vuelo",
+            "necesidad": "B63-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación."
+          }
+        },
+        {
+          "clases_ruta": "R18-M07-C15..C16",
+          "tema": "Toma de decisiones con incertidumbre",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
+            "titulo": "Toma de decisiones con incertidumbre en equipo",
+            "necesidad": "B12 da herramientas estadísticas, no la decisión grupal bajo presión."
+          }
+        },
+        {
+          "clases_ruta": "R18-M07-C17..C18",
+          "tema": "Gestión del error humano",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
+            "titulo": "Gestión del error humano y cultura de seguridad",
+            "necesidad": "Falta la clase sobre tipos de error, barreras y reporte."
+          }
+        },
+        {
+          "clases_ruta": "R18-M07-C19..C20",
+          "tema": "Evaluación de desempeño de equipo",
+          "destino": "existente",
+          "tronco": [
+            "B58-C20",
+            "B58-C09"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R18-M08",
+      "nombre": "Simulación integral de vuelo tripulado",
+      "temas": [
+        {
+          "clases_ruta": "R18-M08-C01..C02",
+          "tema": "Arquitectura de misión tripulada",
+          "destino": "existente",
+          "tronco": [
+            "B49-C07",
+            "B58-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C03..C04",
+          "tema": "Plan de fases de vuelo",
+          "destino": "existente",
+          "tronco": [
+            "B49-C03",
+            "B57-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C05..C06",
+          "tema": "Asignación de roles",
+          "destino": "existente",
+          "tronco": [
+            "B58-C02",
+            "B57-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C07..C08",
+          "tema": "Procedimientos de cabina",
+          "destino": "existente",
+          "tronco": [
+            "B58-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C09..C10",
+          "tema": "Cronograma de experimentos",
+          "destino": "existente",
+          "tronco": [
+            "B57-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C11..C12",
+          "tema": "Eventos EVA simulados",
+          "destino": "existente",
+          "tronco": [
+            "B58-C10",
+            "B58-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C13..C14",
+          "tema": "Escenarios de emergencia",
+          "destino": "existente",
+          "tronco": [
+            "B58-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C15..C16",
+          "tema": "Control de misión",
+          "destino": "existente",
+          "tronco": [
+            "B57-C03",
+            "B57-C20"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C17..C18",
+          "tema": "Criterios de desempeño",
+          "destino": "existente",
+          "tronco": [
+            "B58-C20",
+            "B49-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R18-M08-C19..C20",
+          "tema": "Informe y lecciones aprendidas",
+          "destino": "existente",
+          "tronco": [
+            "B57-C19",
+            "B58-C20"
+          ]
+        }
+      ]
+    }
+  ]
+}

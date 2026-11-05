@@ -1,5 +1,7 @@
 # R06 — Astroquímica y astrobiología
 
+> **Capa heredada (`0.2.0`).** El contenido de esta ruta vive en las áreas y bloques del tronco común; esta página conserva la lista de la línea base `0.1.0`. Para saber dónde está cada tema, consulta el [programa completo](../../../PROGRAMA_ACADEMICO_COMPLETO.md) (sección de equivalencias) y el recorrido de la ruta (`RECORRIDO.md`).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Estado:** índice de especialización (solo títulos y referencias preliminares).
 **Estructura:** 8 módulos de 20 clases = 160 clases por ruta.
