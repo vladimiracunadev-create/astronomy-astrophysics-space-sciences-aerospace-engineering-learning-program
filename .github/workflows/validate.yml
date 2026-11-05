@@ -36,3 +36,6 @@ jobs:
 
       - name: Comprobar distribución de módulos
         run: python herramientas/consolidar_distribucion.py --check
+
+      - name: Validar colocación de módulos en áreas y bloques
+        run: python herramientas/validar_colocacion.py
