@@ -92,7 +92,7 @@ Para `φ = −30°` y `δ = −15,8°` (5 de noviembre), `A ≈ 108,4°`: unos 1
 
 ### 8.3 La Cruz del Sur y el polo sur celeste
 
-En el hemisferio sur no hay una estrella brillante en el polo; la más cercana, σ Octantis, es débil (la fuente S5 solo afirma que el pie de la Cruz apunta siempre hacia el polo sur celeste; el resto de este apartado es método práctico). Método: prolonga el eje largo de la Cruz, del brazo mayor hacia su pie, unas 4,5 veces su longitud; el punto al que llegas está cerca del polo sur celeste. Bajas desde ese punto una vertical hasta el horizonte y obtienes el **sur** con un error de pocos grados. La cifra «4,5 veces» es una regla práctica que no se verificó en una fuente de esta clase; la comprobarás tú en el laboratorio sin código. Las dos estrellas brillantes de Centauro, α y β Cen (las «Punteras»), apuntan aproximadamente hacia la Cruz (S5).
+En el hemisferio sur no hay una estrella brillante señalando el polo, como ocurre con la Polar en el norte (afirmación general que no se verificó en una fuente de esta clase). La fuente S5 solo afirma que el pie de la Cruz apunta siempre hacia el polo sur celeste; el resto de este apartado es método práctico. Método: prolonga el eje largo de la Cruz, del brazo mayor hacia su pie, unas 4,5 veces su longitud; el punto al que llegas está cerca del polo sur celeste. Bajas desde ese punto una vertical hasta el horizonte y obtienes el **sur** con un error de pocos grados. La cifra «4,5 veces» es una regla práctica que no se verificó en una fuente de esta clase; la comprobarás tú en el laboratorio sin código. Las dos estrellas brillantes de Centauro, α y β Cen (las «Punteras»), apuntan aproximadamente hacia la Cruz (S5).
 
 ### 8.4 La brújula y la declinación
 
@@ -126,7 +126,7 @@ Acimut desde el norte hacia el este. Latitud sur negativa. El orto se define con
 | S6 | NASA, *Eclipse safety* | https://science.nasa.gov/eclipses/safety/ | Seguridad solar (sección 21) | 2026-11-05 | Página leída |
 | S7 | AAS, *How to tell if your eclipse glasses or handheld solar viewers are safe* | https://eclipse.aas.org/eye-safety/how-to-tell-if-viewers-are-safe | ISO 12312-2; una etiqueta no basta; proveedores verificados | 2026-11-05 | Página leída (mutable) |
 
-Límites: el método de las «4,5 longitudes», la elección de σ Octantis como marcador y las cifras de error de la vara son prácticas didácticas, no resultados de fuente. La declinación magnética local no se obtuvo.
+Límites: el método de las «4,5 longitudes», la ausencia de una estrella polar austral brillante y las cifras de error de la vara son prácticas didácticas, no resultados de fuente. La declinación magnética local no se obtuvo.
 
 ## 12. Cómo ver (o sentir) la orientación
 

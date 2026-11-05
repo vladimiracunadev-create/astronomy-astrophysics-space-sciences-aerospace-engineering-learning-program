@@ -1,7 +1,7 @@
 # B08-C12 — Limitación por contaminación lumínica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C11 — Magnitudes aparentes y brillo](../B08-C11-magnitudes-aparentes-y-brillo/CLASE.md) · [Siguiente: B08-C13 — Uso seguro de binoculares →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C11 — Magnitudes aparentes y brillo](../B08-C11-magnitudes-aparentes-y-brillo/CLASE.md) · [Siguiente: B08-C13 — Uso seguro de binoculares →](../B08-C13-uso-seguro-de-binoculares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -265,5 +265,5 @@ La magnitud límite mide tu cielo; la Luna es la contaminación natural más fá
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B08-C11 — Magnitudes aparentes y brillo](../B08-C11-magnitudes-aparentes-y-brillo/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C13 — Uso seguro de binoculares →](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md#b08-c13)
+[← Anterior: B08-C11 — Magnitudes aparentes y brillo](../B08-C11-magnitudes-aparentes-y-brillo/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C13 — Uso seguro de binoculares →](../B08-C13-uso-seguro-de-binoculares/CLASE.md)
 <!-- /nav -->
