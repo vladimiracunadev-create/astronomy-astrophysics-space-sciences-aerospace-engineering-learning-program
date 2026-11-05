@@ -1,0 +1,841 @@
+{
+  "ruta_id": "R02",
+  "modulos": [
+    {
+      "modulo": "R02-M01",
+      "nombre": "Relatividad avanzada",
+      "temas": [
+        {
+          "clases_ruta": "R02-M01-C01..C02",
+          "tema": "Cálculo tensorial relativista",
+          "destino": "existente",
+          "tronco": [
+            "B10-C17",
+            "B10-C18",
+            "B19-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M01-C03..C04",
+          "tema": "Geometría diferencial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Relatividad general avanzada",
+            "titulo": "Variedades, tensor métrico y geometría diferencial",
+            "necesidad": "B19-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general."
+          }
+        },
+        {
+          "clases_ruta": "R02-M01-C05..C06",
+          "tema": "Conexión afín",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Relatividad general avanzada",
+            "titulo": "Conexión afín y símbolos de Christoffel",
+            "necesidad": "Ninguna clase define la derivada covariante ni los símbolos de Christoffel, necesarios para escribir geodésicas y curvatura."
+          }
+        },
+        {
+          "clases_ruta": "R02-M01-C07..C08",
+          "tema": "Geodésicas",
+          "destino": "existente",
+          "tronco": [
+            "B19-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M01-C09..C10",
+          "tema": "Curvatura de Riemann",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Relatividad general avanzada",
+            "titulo": "Tensor de Riemann, Ricci y curvatura escalar",
+            "necesidad": "B19-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones."
+          }
+        },
+        {
+          "clases_ruta": "R02-M01-C11..C12",
+          "tema": "Tensor energía-momento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Relatividad general avanzada",
+            "titulo": "Tensor de energía-momento y fuentes de curvatura",
+            "necesidad": "Ninguna clase describe el tensor energía-momento de fluidos y campos que actúa como fuente en las ecuaciones de Einstein."
+          }
+        },
+        {
+          "clases_ruta": "R02-M01-C13..C14",
+          "tema": "Ecuaciones de Einstein",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Relatividad general avanzada",
+            "titulo": "Ecuaciones de campo de Einstein y límite newtoniano",
+            "necesidad": "B19-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano."
+          }
+        },
+        {
+          "clases_ruta": "R02-M01-C15..C16",
+          "tema": "Métricas estacionarias",
+          "destino": "existente",
+          "tronco": [
+            "B20-C07",
+            "B20-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M01-C17..C18",
+          "tema": "Relatividad numérica inicial",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Relatividad general avanzada",
+            "titulo": "Introducción a la relatividad numérica: formalismo 3+1",
+            "necesidad": "B11 trata métodos numéricos generales; ninguna clase presenta la descomposición 3+1 ni la evolución numérica de espacio-tiempos."
+          }
+        },
+        {
+          "clases_ruta": "R02-M01-C19..C20",
+          "tema": "Predicciones observacionales",
+          "destino": "existente",
+          "tronco": [
+            "B19-C10",
+            "B20-C09",
+            "B21-C05"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M02",
+      "nombre": "Universo temprano",
+      "temas": [
+        {
+          "clases_ruta": "R02-M02-C01..C02",
+          "tema": "Inflación cósmica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Inflación cósmica: motivación y dinámica básica",
+            "necesidad": "Ningún bloque del tronco trata la inflación; B19 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales."
+          }
+        },
+        {
+          "clases_ruta": "R02-M02-C03..C04",
+          "tema": "Recalentamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Recalentamiento y transición a la era de radiación",
+            "necesidad": "Ninguna clase explica cómo termina la inflación y se puebla el universo con radiación y partículas."
+          }
+        },
+        {
+          "clases_ruta": "R02-M02-C05..C06",
+          "tema": "Era de radiación",
+          "destino": "existente",
+          "tronco": [
+            "B19-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M02-C07..C08",
+          "tema": "Desacoplamiento de neutrinos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Desacoplamiento de neutrinos y fondo cósmico de neutrinos",
+            "necesidad": "B24-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano."
+          }
+        },
+        {
+          "clases_ruta": "R02-M02-C09..C10",
+          "tema": "Nucleosíntesis primordial",
+          "destino": "existente",
+          "tronco": [
+            "B19-C16",
+            "B36-C02"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M02-C11..C12",
+          "tema": "Recombinación cósmica",
+          "destino": "existente",
+          "tronco": [
+            "B19-C14",
+            "B19-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M02-C13..C14",
+          "tema": "Horizonte y planitud",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Problemas del horizonte y de la planitud",
+            "necesidad": "Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B19-C13."
+          }
+        },
+        {
+          "clases_ruta": "R02-M02-C15..C16",
+          "tema": "Perturbaciones primordiales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Perturbaciones primordiales y espectro escalar",
+            "necesidad": "Falta cómo las fluctuaciones cuánticas generan el espectro de perturbaciones que siembra el CMB y las estructuras."
+          }
+        },
+        {
+          "clases_ruta": "R02-M02-C17..C18",
+          "tema": "Campos escalares cosmológicos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Campos escalares en cosmología: potenciales y evolución",
+            "necesidad": "Ninguna clase trata campos escalares como contenido del universo (inflatón, quintaesencia) ni sus ecuaciones de movimiento."
+          }
+        },
+        {
+          "clases_ruta": "R02-M02-C19..C20",
+          "tema": "Restricciones de teorías tempranas",
+          "destino": "existente",
+          "tronco": [
+            "B19-C20",
+            "B24-C18"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M03",
+      "nombre": "Radiación cósmica de fondo",
+      "temas": [
+        {
+          "clases_ruta": "R02-M03-C01..C02",
+          "tema": "Anisotropías del fondo",
+          "destino": "existente",
+          "tronco": [
+            "B19-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M03-C03..C04",
+          "tema": "Espectro angular de potencias",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Espectro angular de potencias del CMB",
+            "necesidad": "B19-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C05..C06",
+          "tema": "Polarización E y B",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Polarización E y B del fondo cósmico",
+            "necesidad": "B26-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C07..C08",
+          "tema": "Efecto Sachs-Wolfe",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado",
+            "necesidad": "Ninguna clase trata el corrimiento gravitacional de los fotones del fondo por potenciales cosmológicos."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C09..C10",
+          "tema": "Foregrounds galácticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Emisiones de primer plano galácticas y su separación",
+            "necesidad": "Falta identificar y separar sincrotrón, polvo y otras emisiones galácticas que contaminan las mediciones del CMB."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C11..C12",
+          "tema": "Efecto Sunyaev-Zeldovich",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Efecto Sunyaev-Zeldovich térmico y cinemático",
+            "necesidad": "B18-C13 describe cúmulos de galaxias, pero no la distorsión del fondo por electrones calientes del medio intracúmulo."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C13..C14",
+          "tema": "Análisis de mapas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Análisis de mapas del CMB: pixelización esférica y máscaras",
+            "necesidad": "B15-C09 trata imágenes planas; faltan mapas en la esfera, armónicos y manejo de máscaras."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C15..C16",
+          "tema": "Covarianza instrumental",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Ruido, haz y covarianza instrumental en mapas del fondo",
+            "necesidad": "B12-C18 trata matrices de covarianza en general; falta modelar ruido, haz y filtrado en un instrumento de CMB."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C17..C18",
+          "tema": "Datos de Planck",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Productos de datos de Planck y misiones del CMB",
+            "necesidad": "Ninguna clase enseña a usar mapas, máscaras y verosimilitudes publicados por las misiones del fondo cósmico."
+          }
+        },
+        {
+          "clases_ruta": "R02-M03-C19..C20",
+          "tema": "Limitaciones observacionales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
+            "titulo": "Varianza cósmica y límites de las mediciones del fondo",
+            "necesidad": "Falta explicar qué limita la precisión del CMB (varianza cósmica, sistemáticos) y cómo se cuantifica."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M04",
+      "nombre": "Formación de estructuras cósmicas",
+      "temas": [
+        {
+          "clases_ruta": "R02-M04-C01..C02",
+          "tema": "Fluctuaciones de densidad",
+          "destino": "existente",
+          "tronco": [
+            "B19-C17",
+            "B18-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M04-C03..C04",
+          "tema": "Crecimiento lineal",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Crecimiento lineal de perturbaciones de densidad",
+            "necesidad": "B19-C17 y B18-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C05..C06",
+          "tema": "Transferencia de materia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Función de transferencia y espectro de materia",
+            "necesidad": "Ninguna clase explica cómo la evolución en las eras de radiación y materia modifica el espectro primordial."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C07..C08",
+          "tema": "Funciones de correlación",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Funciones de correlación de galaxias",
+            "necesidad": "B18-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C09..C10",
+          "tema": "Espectro de potencia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Espectro de potencia de materia",
+            "necesidad": "Ninguna clase define el espectro de potencia P(k) ni su estimación a partir de catálogos de galaxias."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C11..C12",
+          "tema": "Simulaciones cosmológicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica",
+            "necesidad": "B43-C08 trata N cuerpos de mecánica celeste; falta la expansión cósmica, condiciones iniciales y fronteras periódicas."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C13..C14",
+          "tema": "Halos de materia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Formación de halos y función de masa",
+            "necesidad": "B18-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C15..C16",
+          "tema": "Formación de cúmulos",
+          "destino": "existente",
+          "tronco": [
+            "B18-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M04-C17..C18",
+          "tema": "Oscilaciones acústicas bariónicas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Oscilaciones acústicas bariónicas como regla estándar",
+            "necesidad": "Ninguna clase presenta las BAO como escala característica en la distribución de materia ni su uso en distancias cosmológicas."
+          }
+        },
+        {
+          "clases_ruta": "R02-M04-C19..C20",
+          "tema": "Sesgos de trazadores",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Sesgo de galaxias y trazadores de la materia",
+            "necesidad": "B18-C19 trata sesgos de selección; falta el sesgo entre galaxias y materia total y su impacto en los parámetros."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M05",
+      "nombre": "Materia oscura",
+      "temas": [
+        {
+          "clases_ruta": "R02-M05-C01..C02",
+          "tema": "Evidencia de materia no luminosa",
+          "destino": "existente",
+          "tronco": [
+            "B19-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M05-C03..C04",
+          "tema": "Curvas de rotación",
+          "destino": "existente",
+          "tronco": [
+            "B18-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M05-C05..C06",
+          "tema": "Lentes gravitacionales",
+          "destino": "existente",
+          "tronco": [
+            "B18-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M05-C07..C08",
+          "tema": "Cúmulos en colisión",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Cúmulos en colisión como prueba de materia oscura",
+            "necesidad": "B18-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan."
+          }
+        },
+        {
+          "clases_ruta": "R02-M05-C09..C10",
+          "tema": "Modelos de halo",
+          "destino": "existente",
+          "tronco": [
+            "B18-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M05-C11..C12",
+          "tema": "Candidatos de partículas",
+          "destino": "existente",
+          "tronco": [
+            "B24-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M05-C13..C14",
+          "tema": "Búsqueda directa",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Búsqueda directa de materia oscura en laboratorio",
+            "necesidad": "B24-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa."
+          }
+        },
+        {
+          "clases_ruta": "R02-M05-C15..C16",
+          "tema": "Búsqueda indirecta",
+          "destino": "existente",
+          "tronco": [
+            "B24-C16",
+            "B20-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M05-C17..C18",
+          "tema": "Modelos modificados como alternativas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
+            "titulo": "Gravedad modificada (MOND y relativistas) frente a materia oscura",
+            "necesidad": "Ninguna clase presenta alternativas a la materia oscura ni las confronta con lentes, cúmulos y CMB."
+          }
+        },
+        {
+          "clases_ruta": "R02-M05-C19..C20",
+          "tema": "Restricciones conjuntas",
+          "destino": "existente",
+          "tronco": [
+            "B24-C18",
+            "B19-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M06",
+      "nombre": "Astrofísica de altas energías",
+      "temas": [
+        {
+          "clases_ruta": "R02-M06-C01..C02",
+          "tema": "Procesos de acreción",
+          "destino": "existente",
+          "tronco": [
+            "B20-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C03..C04",
+          "tema": "Radiación sincrotrón",
+          "destino": "existente",
+          "tronco": [
+            "B20-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C05..C06",
+          "tema": "Compton inverso",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B20",
+            "titulo": "Dispersión Compton inversa y emisión de alta energía",
+            "necesidad": "B20-C12 cubre sincrotrón; ninguna clase trata la dispersión Compton inversa que da la emisión gamma de fuentes compactas."
+          }
+        },
+        {
+          "clases_ruta": "R02-M06-C07..C08",
+          "tema": "Partículas aceleradas",
+          "destino": "existente",
+          "tronco": [
+            "B23-C14",
+            "B24-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C09..C10",
+          "tema": "Estrellas compactas",
+          "destino": "existente",
+          "tronco": [
+            "B20-C02",
+            "B20-C03",
+            "B20-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C11..C12",
+          "tema": "Explosiones gamma",
+          "destino": "existente",
+          "tronco": [
+            "B20-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C13..C14",
+          "tema": "Chorros relativistas",
+          "destino": "existente",
+          "tronco": [
+            "B20-C11"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C15..C16",
+          "tema": "Fuentes de rayos X",
+          "destino": "existente",
+          "tronco": [
+            "B20-C19",
+            "B31-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C17..C18",
+          "tema": "Detectores de alta energía",
+          "destino": "existente",
+          "tronco": [
+            "B20-C19",
+            "B31-C05",
+            "B31-C06",
+            "B24-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M06-C19..C20",
+          "tema": "Análisis espectral energético",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B20",
+            "titulo": "Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental",
+            "necesidad": "B20-C20 pide análisis multibanda; ninguna clase enseña el ajuste de espectros de alta energía con matrices de respuesta y estadística de conteos."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M07",
+      "nombre": "Astronomía multimensajero",
+      "temas": [
+        {
+          "clases_ruta": "R02-M07-C01..C02",
+          "tema": "Formas de onda gravitacional",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B21",
+            "titulo": "Formas de onda gravitacionales y filtro acoplado",
+            "necesidad": "B21-C05 a B21-C07 introducen ondas y fuentes; falta el modelado de plantillas y la detección por filtro acoplado."
+          }
+        },
+        {
+          "clases_ruta": "R02-M07-C03..C04",
+          "tema": "Fuentes de neutrinos",
+          "destino": "existente",
+          "tronco": [
+            "B21-C03",
+            "B20-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C05..C06",
+          "tema": "Alertas electromagnéticas",
+          "destino": "existente",
+          "tronco": [
+            "B21-C09",
+            "B21-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C07..C08",
+          "tema": "Kilonovas",
+          "destino": "existente",
+          "tronco": [
+            "B21-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C09..C10",
+          "tema": "Redes de interferómetros",
+          "destino": "existente",
+          "tronco": [
+            "B21-C06",
+            "B21-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C11..C12",
+          "tema": "Significancia de coincidencias",
+          "destino": "existente",
+          "tronco": [
+            "B21-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C13..C14",
+          "tema": "Localización de eventos",
+          "destino": "existente",
+          "tronco": [
+            "B21-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C15..C16",
+          "tema": "Modelos multiobservatorio",
+          "destino": "existente",
+          "tronco": [
+            "B21-C11",
+            "B21-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C17..C18",
+          "tema": "Datos de eventos públicos",
+          "destino": "existente",
+          "tronco": [
+            "B21-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M07-C19..C20",
+          "tema": "Inferencia de fuente conjunta",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B21",
+            "titulo": "Inferencia bayesiana conjunta de parámetros de fuente multimensajero",
+            "necesidad": "B21-C12 trata modelos de emisión conjunta; falta combinar mensajeros en una verosimilitud única y propagar incertidumbres."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R02-M08",
+      "nombre": "Inferencia y parámetros cosmológicos",
+      "temas": [
+        {
+          "clases_ruta": "R02-M08-C01..C02",
+          "tema": "Parámetros de modelo Lambda-CDM",
+          "destino": "existente",
+          "tronco": [
+            "B19-C19"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M08-C03..C04",
+          "tema": "Verosimilitud cosmológica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B19",
+            "titulo": "Verosimilitud cosmológica con datos combinados",
+            "necesidad": "B12 enseña estimación general; falta construir verosimilitudes con datos de CMB, BAO y supernovas."
+          }
+        },
+        {
+          "clases_ruta": "R02-M08-C05..C06",
+          "tema": "Covarianzas de datos",
+          "destino": "existente",
+          "tronco": [
+            "B12-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M08-C07..C08",
+          "tema": "Muestreo MCMC",
+          "destino": "existente",
+          "tronco": [
+            "B12-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M08-C09..C10",
+          "tema": "Priors científicos",
+          "destino": "existente",
+          "tronco": [
+            "B12-C12"
+          ]
+        },
+        {
+          "clases_ruta": "R02-M08-C11..C12",
+          "tema": "Inferencia jerárquica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B12",
+            "titulo": "Modelos jerárquicos bayesianos",
+            "necesidad": "B12-C12 cubre inferencia bayesiana simple; ninguna clase trata modelos jerárquicos con hiperparámetros."
+          }
+        },
+        {
+          "clases_ruta": "R02-M08-C13..C14",
+          "tema": "Degeneraciones de parámetros",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B19",
+            "titulo": "Degeneraciones de parámetros cosmológicos",
+            "necesidad": "Ninguna clase analiza correlaciones y degeneraciones entre parámetros cosmológicos ni cómo romperlas con datos complementarios."
+          }
+        },
+        {
+          "clases_ruta": "R02-M08-C15..C16",
+          "tema": "Comparación de modelos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B12",
+            "titulo": "Comparación de modelos: evidencia bayesiana y criterios de información",
+            "necesidad": "B12-C09 trata pruebas de hipótesis; falta comparar modelos con evidencia bayesiana, AIC y BIC."
+          }
+        },
+        {
+          "clases_ruta": "R02-M08-C17..C18",
+          "tema": "Tensiones observacionales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A03",
+            "bloque": "B19",
+            "titulo": "Tensiones observacionales: constante de Hubble y S8",
+            "necesidad": "B19-C19 y B19-C20 no tratan discrepancias entre conjuntos de datos ni cómo evaluarlas."
+          }
+        },
+        {
+          "clases_ruta": "R02-M08-C19..C20",
+          "tema": "Reproducibilidad de cadenas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A02",
+            "bloque": "B12",
+            "titulo": "Diagnóstico de convergencia y reproducibilidad de cadenas MCMC",
+            "necesidad": "B12-C13 presenta MCMC; falta diagnosticar convergencia y garantizar semillas, versiones y registros reproducibles."
+          }
+        }
+      ]
+    }
+  ]
+}
