@@ -1,5 +1,286 @@
 {
   "ruta_id": "R24",
-  "estado": "pendiente",
-  "rol": "Educación historia y divulgación astronómica"
+  "estado": "definido",
+  "rol": "Educador/a, historiador/a y divulgador/a de la astronomía",
+  "resumen": "Diseña, evalúa y publica experiencias de enseñanza y divulgación de la astronomía: sabe observar, explica con rigor, cuenta su historia con fuentes y trabaja con saberes de pueblos originarios con consentimiento y respeto.",
+  "decide": "Qué contenido, qué actividad y qué evidencia de aprendizaje funcionan para un público concreto, qué fuentes son confiables y cuándo una idea requiere ser tratada con la comunidad que la posee.",
+  "entrega": "Planes de clase con rúbricas y evaluación, salidas observacionales seguras, proyectos de ciencia ciudadana, materiales accesibles, piezas de divulgación con fuentes y una crítica documentada de fuentes históricas.",
+  "pasos": [
+    {
+      "orden": 1,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "El universo y el pensamiento científico",
+      "clases": [
+        "B01-C01..C20"
+      ],
+      "capacidad": "Distinguir observación de interpretación, formular preguntas investigables y evaluar fuentes y desinformación.",
+      "omitible_si": "aprueba el diagnóstico de método científico"
+    },
+    {
+      "orden": 2,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Matemática de escalas y gráficos",
+      "clases": [
+        "B03-C03",
+        "B03-C05",
+        "B03-C07",
+        "B03-C08",
+        "B03-C10",
+        "B03-C11",
+        "B03-C15",
+        "B03-C16",
+        "B03-C20",
+        "B04-C07",
+        "B04-C16"
+      ],
+      "capacidad": "Manejar escalas, proporciones y gráficos para explicar tamaños, distancias y tiempos del cosmos.",
+      "omitible_si": "aprueba el diagnóstico de matemática"
+    },
+    {
+      "orden": 3,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Física esencial para explicar",
+      "clases": [
+        "B05-C01..C04",
+        "B05-C10",
+        "B05-C18",
+        "B05-C19"
+      ],
+      "capacidad": "Explicar movimiento, gravedad y luz con ejemplos correctos y sin errores comunes.",
+      "omitible_si": "aprueba el diagnóstico de física"
+    },
+    {
+      "orden": 4,
+      "fase": "fundamentos",
+      "tipo": "recomendada",
+      "titulo": "Datos y documentación",
+      "clases": [
+        "B07-C08..C10",
+        "B07-C14",
+        "B07-C16",
+        "B07-C19"
+      ],
+      "capacidad": "Preparar una actividad con datos reales y una documentación reutilizable.",
+      "omitible_si": "demuestra un proyecto en Python con pruebas"
+    },
+    {
+      "orden": 5,
+      "fase": "fundamentos",
+      "tipo": "obligatoria",
+      "titulo": "Observación del cielo y astronomía práctica",
+      "clases": [
+        "B08-C01..C20"
+      ],
+      "capacidad": "Observar con seguridad, orientarse en el cielo, usar instrumentos de iniciación y registrar una campaña.",
+      "nota": "Es el eje práctico del rol: R24-M04 lo profundiza desde la enseñanza.",
+      "omitible_si": "demuestra una bitácora de observación y el uso seguro de filtros solares"
+    },
+    {
+      "orden": 6,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Historia, arqueoastronomía y culturas del cielo",
+      "clases": [
+        "B02-C01..C20"
+      ],
+      "capacidad": "Narrar la historia de la astronomía y de las culturas del cielo con fuentes y sin anacronismos.",
+      "nota": "Repite temas de R24-M01 a M03: aquí se aprende el panorama y en la ruta se pide el análisis crítico de fuentes y el trabajo con comunidades."
+    },
+    {
+      "orden": 7,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Historia de la ciencia astronómica",
+      "clases": [
+        "R24-M01-C01..C20"
+      ],
+      "capacidad": "Analizar críticamente una fuente histórica y situar un descubrimiento en su contexto.",
+      "nota": "Repite B02-C03 a C19; la evidencia pedida es la crítica de fuentes."
+    },
+    {
+      "orden": 8,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Arqueoastronomía comparada",
+      "clases": [
+        "R24-M02-C01..C20"
+      ],
+      "capacidad": "Evaluar una alineación con geometría y estadística y redactar un informe de sitio sin sobreinterpretar.",
+      "nota": "Repite B02-C08, C09 y C20; se añade el contraste estadístico y el informe."
+    },
+    {
+      "orden": 9,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Astronomías culturales y saberes",
+      "clases": [
+        "R24-M03-C01..C20"
+      ],
+      "capacidad": "Trabajar con saberes astronómicos de pueblos originarios como conocimientos propios, con consentimiento, colaboración y sin apropiación.",
+      "nota": "Estos saberes no se presentan como mitología ni como ciencia ‘primitiva’: pertenecen a sus comunidades, que deciden qué se comparte y cómo. Las fuentes deben ser verificadas y, cuando existan, elaboradas con las propias comunidades. Repite B02-C05 y C06."
+    },
+    {
+      "orden": 10,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Contenido astronómico para enseñar",
+      "clases": [
+        "B17-C03",
+        "B17-C06",
+        "B17-C18",
+        "B17-C19",
+        "B18-C01",
+        "B18-C03",
+        "B18-C09",
+        "B18-C18",
+        "B19-C11",
+        "B19-C15",
+        "B20-C03",
+        "B20-C07",
+        "B21-C05",
+        "B22-C01",
+        "B22-C13",
+        "B23-C03",
+        "B23-C04",
+        "B23-C12",
+        "B23-C19",
+        "B33-C01",
+        "B33-C18",
+        "B35-C09",
+        "B37-C12",
+        "B41-C01",
+        "B41-C16"
+      ],
+      "capacidad": "Explicar con rigor las estrellas, las galaxias, el Sol, los planetas y los exoplanetas sin simplificar hasta el error.",
+      "nota": "Selección panorámica; no sustituye las rutas científicas (R01, R02, R05)."
+    },
+    {
+      "orden": 11,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Medición e incertidumbre al alcance de la clase",
+      "clases": [
+        "B12-C04",
+        "B12-C06",
+        "B12-C08",
+        "B13-C03",
+        "B13-C04",
+        "B13-C05"
+      ],
+      "capacidad": "Enseñar la diferencia entre exactitud y precisión y entre error e incertidumbre con una actividad medible."
+    },
+    {
+      "orden": 12,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Observación astronómica educativa",
+      "clases": [
+        "R24-M04-C01..C20"
+      ],
+      "capacidad": "Diseñar una salida observacional segura, con registro, mediciones y alternativas accesibles.",
+      "nota": "Repite B08-C08 a C20; se pide un diseño de salida con seguridad y accesibilidad nocturna."
+    },
+    {
+      "orden": 13,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Diseño de secuencias pedagógicas",
+      "clases": [
+        "R24-M05-C01..C20"
+      ],
+      "capacidad": "Diseñar un plan de clase con resultados de aprendizaje, evaluación formativa y rúbricas.",
+      "nota": "Es el eje pedagógico del rol."
+    },
+    {
+      "orden": 14,
+      "fase": "tronco",
+      "tipo": "recomendada",
+      "titulo": "Observatorios y cielo oscuro",
+      "clases": [
+        "B32-C18",
+        "B32-C19",
+        "B62-C16",
+        "B62-C17",
+        "B31-C01",
+        "B58-C01"
+      ],
+      "capacidad": "Explicar cómo funciona un observatorio, qué es el cielo oscuro y por qué lo amenazan las constelaciones de satélites."
+    },
+    {
+      "orden": 15,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Ciencia ciudadana astronómica",
+      "clases": [
+        "R24-M06-C01..C20"
+      ],
+      "capacidad": "Diseñar un proyecto ciudadano con control de calidad de datos, consentimiento y publicación de resultados.",
+      "nota": "Repite B32-C19."
+    },
+    {
+      "orden": 16,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Accesibilidad e inclusión educativa",
+      "clases": [
+        "R24-M07-C01..C20"
+      ],
+      "capacidad": "Adaptar una actividad astronómica para personas con distintas capacidades y contextos y auditar su accesibilidad."
+    },
+    {
+      "orden": 17,
+      "fase": "tronco",
+      "tipo": "obligatoria",
+      "titulo": "Ética, ciencia abierta y comunicación",
+      "clases": [
+        "B64-C13",
+        "B64-C14",
+        "B64-C18"
+      ],
+      "capacidad": "Comunicar ciencia con ética de datos, reproducibilidad y respeto a las fuentes.",
+      "nota": "Repite R24-M08; la ruta añade la práctica de divulgación."
+    },
+    {
+      "orden": 18,
+      "fase": "ruta",
+      "tipo": "obligatoria",
+      "titulo": "Investigación y divulgación científica",
+      "clases": [
+        "R24-M08-C01..C20"
+      ],
+      "capacidad": "Producir y publicar una pieza de divulgación con fuentes, incertidumbre, visualización y evaluación de comprensión.",
+      "nota": "Repite B64-C18 y B01-C19; es el proyecto final del rol."
+    },
+    {
+      "orden": 19,
+      "fase": "integracion",
+      "tipo": "recomendada",
+      "titulo": "Proyecto educativo y portafolio",
+      "clases": [
+        "B64-C19",
+        "B64-C20"
+      ],
+      "capacidad": "Consolidar un proyecto educativo completo y su portafolio."
+    }
+  ],
+  "huecos": [
+    {
+      "tema": "Saberes astronómicos específicos de pueblos originarios de Chile y su transmisión",
+      "motivo": "B02-C06 y R24-M03 nombran el tema de manera general; ningún título identifica pueblos concretos ni una fuente elaborada con las comunidades (búsqueda de mapuche, aymara, selk’nam, kawésqar, diaguita, atacameño y rapanui sin resultados). Tampoco se pudo verificar en esta sesión una fuente que los respalde, por lo que no se afirma contenido.",
+      "propuesta": "clases nuevas en B02 o módulo nuevo de R24, con fuentes verificadas y consentimiento de las comunidades"
+    },
+    {
+      "tema": "Producción de recursos audiovisuales, planetario y museografía",
+      "motivo": "R24-M08 trata redacción, infografías y comunicación oral; la búsqueda de «planetario», «museo», «podcast», «audiovisual» y «video» no devolvió clases sobre producción multimedia ni espacios de divulgación.",
+      "propuesta": "clases nuevas en R24-M08 o módulo nuevo de R24"
+    },
+    {
+      "tema": "Investigación en educación astronómica: instrumentos validados y análisis de aprendizaje",
+      "motivo": "R24-M05-C13 (evaluación formativa) y R24-M08-C17 (evaluación de comprensión) son títulos, pero ninguna clase enseña a diseñar o validar un instrumento de evaluación ni a analizar resultados de aprendizaje.",
+      "propuesta": "clases nuevas en R24-M05"
+    }
+  ]
 }
