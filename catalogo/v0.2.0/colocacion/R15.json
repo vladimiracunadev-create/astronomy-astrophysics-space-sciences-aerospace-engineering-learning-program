@@ -1,0 +1,833 @@
+{
+  "ruta_id": "R15",
+  "modulos": [
+    {
+      "modulo": "R15-M01",
+      "nombre": "Antenas espaciales avanzadas",
+      "temas": [
+        {
+          "clases_ruta": "R15-M01-C01..C02",
+          "tema": "Teoría de antenas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Fundamentos de teoría de antenas",
+            "necesidad": "Diseñar o elegir una antena exige entender cómo radia; el catálogo trata antenas de radiotelescopio (B30-C03) y ganancias de enlace (B55-C06), no los fundamentos de su teoría."
+          }
+        },
+        {
+          "clases_ruta": "R15-M01-C03..C04",
+          "tema": "Apertura y ganancia",
+          "destino": "existente",
+          "tronco": [
+            "B30-C05",
+            "B55-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M01-C05..C06",
+          "tema": "Diagramas y lóbulos",
+          "destino": "existente",
+          "tronco": [
+            "B30-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M01-C07..C08",
+          "tema": "Polarización",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Polarización de antenas y pérdidas por desadaptación",
+            "necesidad": "Un enlace pierde potencia si la polarización de las antenas no coincide; B26-C08 trata la polarización de la luz y B30-C13 la polarimetría de fuentes, no la desadaptación en un enlace."
+          }
+        },
+        {
+          "clases_ruta": "R15-M01-C09..C10",
+          "tema": "Arreglos de fase",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Arreglos de antenas y antenas de barrido electrónico",
+            "necesidad": "Las antenas de barrido electrónico se usan en satélites y estaciones; B30-C17 trata la calibración de fase de interferómetros, no los arreglos de antenas."
+          }
+        },
+        {
+          "clases_ruta": "R15-M01-C11..C12",
+          "tema": "Antenas desplegables",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Antenas desplegables y estructuras de gran apertura",
+            "necesidad": "Las antenas de un satélite pequeño deben plegarse y desplegarse; B50-C13 trata mecanismos en general, no el diseño de la antena desplegable."
+          }
+        },
+        {
+          "clases_ruta": "R15-M01-C13..C14",
+          "tema": "Eficiencia de antena",
+          "destino": "existente",
+          "tronco": [
+            "B55-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M01-C15..C16",
+          "tema": "Apuntado de estación",
+          "destino": "existente",
+          "tronco": [
+            "B57-C05",
+            "B55-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M01-C17..C18",
+          "tema": "Calibración de patrón",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Medición y calibración de antenas",
+            "necesidad": "Un patrón de radiación se acepta tras medirlo en cámara o campo abierto; ninguna clase trata la medición de antenas."
+          }
+        },
+        {
+          "clases_ruta": "R15-M01-C19..C20",
+          "tema": "Análisis de compromiso de antenas",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Selección y compromiso de diseño de antenas",
+            "necesidad": "Elegir tipo de antena equilibra ganancia, masa, apertura y costo; ninguna clase enseña a decidirlo."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M02",
+      "nombre": "Presupuesto de enlace de misión",
+      "temas": [
+        {
+          "clases_ruta": "R15-M02-C01..C02",
+          "tema": "Ecuación de Friis",
+          "destino": "existente",
+          "tronco": [
+            "B55-C04",
+            "B55-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M02-C03..C04",
+          "tema": "Atenuación atmosférica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Atenuación atmosférica y efectos de la lluvia en enlaces",
+            "necesidad": "La lluvia y los gases atmosféricos reducen la señal en bandas altas; B55-C04 trata solo la pérdida de espacio libre."
+          }
+        },
+        {
+          "clases_ruta": "R15-M02-C05..C06",
+          "tema": "Pérdidas de polarización",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Polarización de antenas y pérdidas por desadaptación",
+            "necesidad": "Un enlace pierde potencia si la polarización de las antenas no coincide; B26-C08 trata la polarización de la luz y B30-C13 la polarimetría de fuentes, no la desadaptación en un enlace."
+          }
+        },
+        {
+          "clases_ruta": "R15-M02-C07..C08",
+          "tema": "Temperatura de ruido",
+          "destino": "existente",
+          "tronco": [
+            "B55-C07",
+            "B30-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M02-C09..C10",
+          "tema": "Relación C/N0",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B55",
+            "titulo": "Relación C/N0, Eb/N0 y tasa de error de bit",
+            "necesidad": "Cerrar un presupuesto de enlace exige traducir potencia y ruido a tasa de error; B55-C05 da el presupuesto sin tratar esas relaciones."
+          }
+        },
+        {
+          "clases_ruta": "R15-M02-C11..C12",
+          "tema": "Margen de enlace",
+          "destino": "existente",
+          "tronco": [
+            "B55-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M02-C13..C14",
+          "tema": "BER y Eb/N0",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B55",
+            "titulo": "Relación C/N0, Eb/N0 y tasa de error de bit",
+            "necesidad": "Cerrar un presupuesto de enlace exige traducir potencia y ruido a tasa de error; B55-C05 da el presupuesto sin tratar esas relaciones."
+          }
+        },
+        {
+          "clases_ruta": "R15-M02-C15..C16",
+          "tema": "Efectos de lluvia",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Atenuación atmosférica y efectos de la lluvia en enlaces",
+            "necesidad": "La lluvia y los gases atmosféricos reducen la señal en bandas altas; B55-C04 trata solo la pérdida de espacio libre."
+          }
+        },
+        {
+          "clases_ruta": "R15-M02-C17..C18",
+          "tema": "Presupuesto ascendente",
+          "destino": "existente",
+          "tronco": [
+            "B55-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M02-C19..C20",
+          "tema": "Presupuesto descendente",
+          "destino": "existente",
+          "tronco": [
+            "B55-C05"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M03",
+      "nombre": "Modulación y codificación de canal",
+      "temas": [
+        {
+          "clases_ruta": "R15-M03-C01..C02",
+          "tema": "Modulación PSK",
+          "destino": "existente",
+          "tronco": [
+            "B55-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M03-C03..C04",
+          "tema": "Modulación QAM",
+          "destino": "existente",
+          "tronco": [
+            "B55-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M03-C05..C06",
+          "tema": "Codificación convolucional",
+          "destino": "existente",
+          "tronco": [
+            "B55-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M03-C07..C08",
+          "tema": "Códigos Reed-Solomon",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Códigos Reed-Solomon y LDPC",
+            "necesidad": "Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B55-C09 trata la corrección de errores en general."
+          }
+        },
+        {
+          "clases_ruta": "R15-M03-C09..C10",
+          "tema": "Códigos LDPC",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Códigos Reed-Solomon y LDPC",
+            "necesidad": "Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B55-C09 trata la corrección de errores en general."
+          }
+        },
+        {
+          "clases_ruta": "R15-M03-C11..C12",
+          "tema": "Entrelazado",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Entrelazado y concatenación de códigos",
+            "necesidad": "Para soportar ráfagas de errores los códigos se concatenan y entrelazan; B55-C09 no lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R15-M03-C13..C14",
+          "tema": "Sincronización de bit",
+          "destino": "existente",
+          "tronco": [
+            "B55-C10"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M03-C15..C16",
+          "tema": "Corrección de errores",
+          "destino": "existente",
+          "tronco": [
+            "B55-C09",
+            "B54-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M03-C17..C18",
+          "tema": "Tramas CCSDS",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Tramas de transferencia de telemetría y telecomando",
+            "necesidad": "Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B55-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama."
+          }
+        },
+        {
+          "clases_ruta": "R15-M03-C19..C20",
+          "tema": "Prueba de enlace digital",
+          "destino": "existente",
+          "tronco": [
+            "B56-C16"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M04",
+      "nombre": "Diseño de redes de estaciones terrestres",
+      "temas": [
+        {
+          "clases_ruta": "R15-M04-C01..C02",
+          "tema": "Cobertura de estaciones",
+          "destino": "existente",
+          "tronco": [
+            "B55-C17",
+            "B57-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M04-C03..C04",
+          "tema": "Visibilidad de pases",
+          "destino": "existente",
+          "tronco": [
+            "B57-C04",
+            "B32-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M04-C05..C06",
+          "tema": "Coordinación temporal",
+          "destino": "existente",
+          "tronco": [
+            "B57-C17",
+            "B44-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M04-C07..C08",
+          "tema": "Redes de estaciones",
+          "destino": "existente",
+          "tronco": [
+            "B57-C05",
+            "B57-C17"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M04-C09..C10",
+          "tema": "Enlaces hacia centros de datos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Transferencia de datos entre estación y centro de datos",
+            "necesidad": "Los datos recibidos deben llegar al centro de procesamiento con integridad y plazo; B57-C16 gestiona datos científicos sin tratar el transporte desde la estación."
+          }
+        },
+        {
+          "clases_ruta": "R15-M04-C11..C12",
+          "tema": "Redundancia terrestre",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Continuidad y redundancia de las operaciones terrestres",
+            "necesidad": "Una estación fuera de servicio puede perder un contacto irrepetible; B57 trata la coordinación de varias estaciones pero no la continuidad operativa."
+          }
+        },
+        {
+          "clases_ruta": "R15-M04-C13..C14",
+          "tema": "Operación remota",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Operación remota y automatizada de estaciones",
+            "necesidad": "Muchas estaciones se operan a distancia; ninguna clase trata la operación remota ni su automatización."
+          }
+        },
+        {
+          "clases_ruta": "R15-M04-C15..C16",
+          "tema": "Seguridad física",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Seguridad física y control de acceso de estaciones terrestres",
+            "necesidad": "Una estación terrena es infraestructura crítica; B63-C16 trata infraestructura crítica en general, no su protección física operativa."
+          }
+        },
+        {
+          "clases_ruta": "R15-M04-C17..C18",
+          "tema": "Gestión de incidentes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Gestión de incidentes en la operación de estaciones",
+            "necesidad": "Responder a una falla en pleno contacto exige un procedimiento; B57-C14 trata recuperación del satélite, no incidentes de la estación."
+          }
+        },
+        {
+          "clases_ruta": "R15-M04-C19..C20",
+          "tema": "Diseño de red global",
+          "destino": "existente",
+          "tronco": [
+            "B55-C20",
+            "B57-C17"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M05",
+      "nombre": "Enlaces de radiofrecuencia profundos",
+      "temas": [
+        {
+          "clases_ruta": "R15-M05-C01..C02",
+          "tema": "Pérdidas de espacio profundo",
+          "destino": "existente",
+          "tronco": [
+            "B55-C04",
+            "B55-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M05-C03..C04",
+          "tema": "Antenas de gran apertura",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Antenas de gran apertura y estaciones de espacio profundo",
+            "necesidad": "Los enlaces de espacio profundo dependen de antenas de decenas de metros; B30-C03 trata antenas parabólicas de radioastronomía, no su diseño para comunicaciones."
+          }
+        },
+        {
+          "clases_ruta": "R15-M05-C05..C06",
+          "tema": "Bandas X y Ka",
+          "destino": "existente",
+          "tronco": [
+            "B55-C03"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M05-C07..C08",
+          "tema": "Seguimiento Doppler",
+          "destino": "existente",
+          "tronco": [
+            "B55-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M05-C09..C10",
+          "tema": "Medidas de rango",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A06",
+            "bloque": "B44",
+            "titulo": "Medidas de rango y Doppler para determinar la órbita",
+            "necesidad": "Medir la distancia con señales de radio alimenta la determinación orbital; B44 trata estimación y geometría de seguimiento sin la medida de rango."
+          }
+        },
+        {
+          "clases_ruta": "R15-M05-C11..C12",
+          "tema": "Osciladores ultraestables",
+          "destino": "existente",
+          "tronco": [
+            "B30-C08"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M05-C13..C14",
+          "tema": "Telemetría débil",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "B55",
+            "titulo": "Recepción de telemetría débil",
+            "necesidad": "En espacio profundo la señal llega cerca del umbral; B55 no trata las técnicas para recibir telemetría de muy baja potencia."
+          }
+        },
+        {
+          "clases_ruta": "R15-M05-C15..C16",
+          "tema": "Corrección atmosférica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Antenas y propagación para enlaces espaciales",
+            "titulo": "Atenuación atmosférica y efectos de la lluvia en enlaces",
+            "necesidad": "La lluvia y los gases atmosféricos reducen la señal en bandas altas; B55-C04 trata solo la pérdida de espacio libre."
+          }
+        },
+        {
+          "clases_ruta": "R15-M05-C17..C18",
+          "tema": "Planificación de sesiones",
+          "destino": "existente",
+          "tronco": [
+            "B57-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M05-C19..C20",
+          "tema": "Caso de enlace interplanetario",
+          "destino": "existente",
+          "tronco": [
+            "B55-C05",
+            "B55-C13"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M06",
+      "nombre": "Enlaces ópticos espaciales",
+      "temas": [
+        {
+          "clases_ruta": "R15-M06-C01..C02",
+          "tema": "Terminales ópticos",
+          "destino": "existente",
+          "tronco": [
+            "B55-C18"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M06-C03..C04",
+          "tema": "Fuentes láser espaciales",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Fuentes láser y amplificadores para enlaces espaciales",
+            "necesidad": "Un terminal óptico depende de su láser y amplificador; B55-C18 presenta las comunicaciones ópticas sin tratar sus fuentes."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C05..C06",
+          "tema": "Dispersión del haz",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Divergencia del haz y pérdidas por apuntamiento óptico",
+            "necesidad": "El haz láser es estrecho y cualquier error de apuntamiento cuesta potencia; ninguna clase lo cuantifica."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C07..C08",
+          "tema": "Apuntamiento fino",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Adquisición, apuntamiento y seguimiento ópticos",
+            "necesidad": "Un enlace óptico exige apuntar con precisión de microrradianes; B31-C10 y B53-C15 tratan estabilidad de apuntamiento sin la adquisición del enlace."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C09..C10",
+          "tema": "Atmósfera y nubes",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Atmósfera y nubes en enlaces ópticos con la Tierra",
+            "necesidad": "Las nubes y la turbulencia limitan los enlaces ópticos hacia estaciones terrestres; B26 trata turbulencia para telescopios, no su efecto en comunicaciones."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C11..C12",
+          "tema": "Detectores ópticos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Receptores y detectores para comunicaciones ópticas",
+            "necesidad": "El receptor óptico de comunicaciones usa detectores distintos a los de imagen (B28); su elección no está cubierta."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C13..C14",
+          "tema": "Modulación óptica",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Modulación y codificación en enlaces ópticos",
+            "necesidad": "La modulación óptica difiere de la de radiofrecuencia (B55-C08); ninguna clase la trata."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C15..C16",
+          "tema": "Enlace óptico de espacio profundo",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Enlaces ópticos de espacio profundo",
+            "necesidad": "Los enlaces ópticos de espacio profundo tienen desafíos de potencia y latencia propios; no hay clase que los reúna."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C17..C18",
+          "tema": "Márgenes y disponibilidad",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Comunicaciones ópticas espaciales (profundización)",
+            "titulo": "Márgenes y disponibilidad de enlaces ópticos",
+            "necesidad": "Decidir la disponibilidad de un enlace óptico exige márgenes por clima y apuntamiento; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R15-M06-C19..C20",
+          "tema": "Evaluación de arquitectura óptica",
+          "destino": "existente",
+          "tronco": [
+            "B55-C18",
+            "B55-C20"
+          ]
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M07",
+      "nombre": "Sincronización y protocolos de misión",
+      "temas": [
+        {
+          "clases_ruta": "R15-M07-C01..C02",
+          "tema": "Tiempo UTC y TAI",
+          "destino": "existente",
+          "tronco": [
+            "B13-C08",
+            "B13-C09"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M07-C03..C04",
+          "tema": "Estándares de frecuencia",
+          "destino": "existente",
+          "tronco": [
+            "B13-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M07-C05..C06",
+          "tema": "Sincronización de estación",
+          "destino": "existente",
+          "tronco": [
+            "B44-C16"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M07-C07..C08",
+          "tema": "Protocolos CCSDS",
+          "destino": "existente",
+          "tronco": [
+            "B55-C11",
+            "B55-C12",
+            "B55-C13"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M07-C09..C10",
+          "tema": "Telemetría transfer frame",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Tramas de transferencia de telemetría y telecomando",
+            "necesidad": "Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B55-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama."
+          }
+        },
+        {
+          "clases_ruta": "R15-M07-C11..C12",
+          "tema": "Telecomandos transfer frame",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Tramas de transferencia de telemetría y telecomando",
+            "necesidad": "Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B55-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama."
+          }
+        },
+        {
+          "clases_ruta": "R15-M07-C13..C14",
+          "tema": "Enrutamiento y almacenamiento",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Redes con retardo y desconexión: enrutamiento y almacenamiento",
+            "necesidad": "Las redes interplanetarias toleran retardos largos y desconexiones; B55-C13 nombra los protocolos sin tratar el almacenamiento y reenvío."
+          }
+        },
+        {
+          "clases_ruta": "R15-M07-C15..C16",
+          "tema": "Calidad de servicio",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Calidad de servicio y prioridades en redes espaciales",
+            "necesidad": "Repartir un enlace escaso entre tráficos exige prioridades; ninguna clase trata la calidad de servicio."
+          }
+        },
+        {
+          "clases_ruta": "R15-M07-C17..C18",
+          "tema": "Gestión de configuraciones",
+          "destino": "existente",
+          "tronco": [
+            "B49-C15"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M07-C19..C20",
+          "tema": "Validación de protocolos",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A07",
+            "bloque": "nuevo: Modulación, codificación y protocolos de enlace",
+            "titulo": "Validación y conformidad de protocolos de enlace",
+            "necesidad": "Probar que una implementación cumple el protocolo es un requisito de interoperabilidad; B56 trata pruebas generales."
+          }
+        }
+      ]
+    },
+    {
+      "modulo": "R15-M08",
+      "nombre": "Operaciones integrales de estaciones terrestres",
+      "temas": [
+        {
+          "clases_ruta": "R15-M08-C01..C02",
+          "tema": "Gestión de estación terrestre",
+          "destino": "existente",
+          "tronco": [
+            "B55-C14",
+            "B57-C05"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M08-C03..C04",
+          "tema": "Planificación de pases",
+          "destino": "existente",
+          "tronco": [
+            "B57-C04"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M08-C05..C06",
+          "tema": "Operación de RF",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Operación de equipos de radiofrecuencia en la estación",
+            "necesidad": "Operar transmisores y receptores con seguridad y regulación es tarea diaria de la estación; ninguna clase lo trata."
+          }
+        },
+        {
+          "clases_ruta": "R15-M08-C07..C08",
+          "tema": "Control de antena",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Control y seguimiento de la antena de estación",
+            "necesidad": "Seguir un satélite exige controlar la antena con predicciones y correcciones; B55-C15 trata el rastreo y Doppler, no el control de la antena."
+          }
+        },
+        {
+          "clases_ruta": "R15-M08-C09..C10",
+          "tema": "Recepción de telemetría",
+          "destino": "existente",
+          "tronco": [
+            "B57-C06"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M08-C11..C12",
+          "tema": "Envío autorizado de telecomandos",
+          "destino": "existente",
+          "tronco": [
+            "B57-C07"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M08-C13..C14",
+          "tema": "Diagnóstico de enlace",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Diagnóstico de fallas de enlace",
+            "necesidad": "Encontrar por qué un enlace no cierra exige un método de diagnóstico; B55-C05 da el presupuesto, no el diagnóstico en operación."
+          }
+        },
+        {
+          "clases_ruta": "R15-M08-C15..C16",
+          "tema": "Mantenimiento preventivo",
+          "destino": "existente",
+          "tronco": [
+            "B32-C14"
+          ]
+        },
+        {
+          "clases_ruta": "R15-M08-C17..C18",
+          "tema": "Registro de operaciones",
+          "destino": "nueva",
+          "propuesta": {
+            "area": "A08",
+            "bloque": "B57",
+            "titulo": "Registro y auditoría de operaciones",
+            "necesidad": "Las operaciones de estación requieren bitácora y trazabilidad; B63-C07 trata el registro de objetos, no el de operaciones."
+          }
+        },
+        {
+          "clases_ruta": "R15-M08-C19..C20",
+          "tema": "Simulación de campaña de operación",
+          "destino": "existente",
+          "tronco": [
+            "B57-C20"
+          ]
+        }
+      ]
+    }
+  ]
+}
