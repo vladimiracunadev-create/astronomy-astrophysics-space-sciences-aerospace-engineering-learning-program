@@ -288,7 +288,7 @@
   "huecos": [
     {
       "tema": "Entrenamiento aeronáutico, vuelo parabólico y pilotaje",
-      "motivo": "Ningún título trata aeronáutica, vuelo en aeronave, vuelo parabólico ni pilotaje; B47 es dinámica de lanzamiento y reentrada. Se verificó con la búsqueda de «piloto», «aeronave», «parabólico» y «aviación», que no devuelve títulos pertinentes.",
+      "motivo": "Ningún título trata aeronáutica, vuelo en aeronave, vuelo parabólico ni pilotaje; B47 es dinámica de lanzamiento y reentrada. Se verificó buscando en los títulos «aeronave», «parabólico», «aeronáutica» y «aviación», sin resultados pertinentes.",
       "propuesta": "bloque nuevo de aeronáutica y vuelo, o clases nuevas en B58"
     },
     {
