@@ -1,0 +1,14 @@
+# Parámetros de la órbita de la Tierra para una simulación (ejemplo de la clase B07-C16).
+# Datos PUBLICADOS por el NASA NSSDC (fichas Earth y Sun Fact Sheet), consultados el 2026-11-05.
+cuerpo_central:
+  nombre: Sol
+  gm_km3_s2: 1.32712e+11      # GM del Sol; ficha del Sol: 132 712 x 10^6 km³/s²
+planeta:
+  nombre: Tierra
+  semieje_km: 1.49598e+8      # 149,598 x 10^6 km (semieje mayor)
+  periodo_sidereo_d: 365.256
+simulacion:
+  paso_s: 3600.0             # valor ELEGIDO para el ejemplo (no es un dato publicado)
+  dias: 365.256
+  semilla: null              # sin azar en esta simulación
+etiquetas: [orbita, ejemplo, publicado]

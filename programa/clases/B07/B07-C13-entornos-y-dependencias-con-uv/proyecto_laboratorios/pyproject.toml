@@ -1,0 +1,19 @@
+[project]
+name = "b07-laboratorios"
+version = "0.1.0"
+description = "Entorno reproducible para los laboratorios del bloque B07 (ejemplo de clase)."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.4.4",
+    "matplotlib==3.10.8",
+    "astropy==8.0.2",
+    "pyyaml==6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.2.0",
+]
+
+[tool.uv]
+package = false

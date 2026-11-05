@@ -1,7 +1,7 @@
 # B07-C12 — Manejo de errores y excepciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C11 — Gestión de unidades en programas](../B07-C11-gestion-de-unidades-en-programas/CLASE.md) · [Siguiente: B07-C13 — Entornos y dependencias con uv →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C11 — Gestión de unidades en programas](../B07-C11-gestion-de-unidades-en-programas/CLASE.md) · [Siguiente: B07-C13 — Entornos y dependencias con uv →](../B07-C13-entornos-y-dependencias-con-uv/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -319,5 +319,5 @@ Una excepción es una alarma que sube por la pila; la atiendes con `try/except` 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B07-C11 — Gestión de unidades en programas](../B07-C11-gestion-de-unidades-en-programas/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C13 — Entornos y dependencias con uv →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c13)
+[← Anterior: B07-C11 — Gestión de unidades en programas](../B07-C11-gestion-de-unidades-en-programas/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C13 — Entornos y dependencias con uv →](../B07-C13-entornos-y-dependencias-con-uv/CLASE.md)
 <!-- /nav -->
