@@ -2,21 +2,16 @@
 
 > **Borrador piloto del estándar `clase-profunda-cientifica`.** Contiene las 22 funciones, pero **no ha tenido revisión humana disciplinar**. El catálogo mantiene esta clase en **E0**; este documento **no cuenta** como clase redactada, verificada ni validada (reglas de `AGENTS.md`).
 
-[⬆️ Bloque B01](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Laboratorio](laboratorio_edad_y_horizonte.py)
+[🏠 Programa](../../../README.md) · [📚 Bloque B01](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C02 →](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c02)
 
-## 1. Identidad y estado editorial
+[🧪 Laboratorio](laboratorio_edad_y_horizonte.py) · [📝 Ficha editorial](FICHA_EDITORIAL.md)
 
-| Campo | Valor |
-|---|---|
-| ID permanente | `B01-C01` (sin cambios) |
-| Título | Naturaleza del universo |
-| Ubicación | Área A01 · Bloque B01 · clase 1 de 20 |
-| Versión del borrador | `0.0.1-piloto` · 2026-11-05 |
-| Autoría | Borrador asistido por IA (Claude Sonnet 5.5) a pedido de Vladimir Acuña |
-| Revisores | **Pendientes** (conceptual, matemático, dimensional, accesibilidad) |
-| Estado oficial | E0 · catalogada |
-| Nivel de entrada → salida | N0 · descubrimiento → N1 · fundamentos, con cálculo elemental y análisis de error |
-| Fuentes | S1–S3 consultadas (S1 y S2 solo resumen); S4 parcial; S5 sin verificar (sección 11) |
+## 1. Ubicación, nivel y alcance
+
+- **Dónde estás:** Área A01 · Bloque B01 · clase 1 de 20 (`B01-C01`).
+- **Nivel:** parte de N0 (descubrimiento) y llega a N1 (fundamentos, con cálculo elemental y análisis de error).
+- **Qué abarca:** qué es el universo y qué parte podemos observar; cómo separar lo observado de lo inferido y de lo modelado.
+- **Qué no abarca:** la historia de la cosmología (B02), la relatividad (bloques de física) ni la derivación de las ecuaciones del modelo.
 
 ## 2. Propósito y decisión central
 
@@ -286,3 +281,7 @@ Ejecución: `python programa/pilotos/B01-C01-naturaleza-del-universo/laboratorio
 **Continuidad.** B01-C02 reutiliza la capacidad de **convertir unidades y expresar un orden de magnitud con su incertidumbre** para construir la escalera de escalas desde la Tierra al cosmos observable. B01-C16 retomará la **clasificación O/I/M** aplicada a la expansión.
 
 **Referencias:** ver sección 11. S4 y S5 deben verificarse en su texto completo antes de pasar a E2; S1 y S2 requieren lectura de las secciones citadas.
+
+---
+
+[← Anterior: inicio del bloque](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [📚 Bloque B01](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) · [Siguiente: B01-C02 — Escalas desde la Tierra al cosmos observable →](../../tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md#b01-c02)

@@ -33,6 +33,8 @@ flowchart LR
 
 ## 🗂️ Las 20 clases en resumen
 
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga en E0, su enlace lleva a su fila en esta tabla.
+
 Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje.
 
 ### Tramo 1 · Marco general
@@ -40,40 +42,40 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | [B01-C01](../pilotos/B01-C01-naturaleza-del-universo/CLASE.md) | Naturaleza del universo | Qué es el universo y el universo observable; separar observación, inferencia y modelo con cifras reales (edad, expansión). | Ficha de escala y edad |
-| B01-C02 | Escalas desde la Tierra al cosmos observable | Órdenes de magnitud y notación científica; recorrer 26 órdenes de magnitud con unidades de longitud. | Escalera de escalas con conversiones |
-| B01-C03 | Objetos celestes y sus diferencias | Criterios para distinguir planeta, estrella, galaxia, nebulosa y cúmulo; qué los define y cómo se observan. | Clasificación justificada de objetos |
-| B01-C04 | Espacio y tiempo en ciencia | Cómo se miden posición y tiempo; sistemas de referencia y escalas temporales básicas. | Registro de tiempo y posición con referencia declarada |
+| <a id="b01-c02"></a>B01-C02 | Escalas desde la Tierra al cosmos observable | Órdenes de magnitud y notación científica; recorrer 26 órdenes de magnitud con unidades de longitud. | Escalera de escalas con conversiones |
+| <a id="b01-c03"></a>B01-C03 | Objetos celestes y sus diferencias | Criterios para distinguir planeta, estrella, galaxia, nebulosa y cúmulo; qué los define y cómo se observan. | Clasificación justificada de objetos |
+| <a id="b01-c04"></a>B01-C04 | Espacio y tiempo en ciencia | Cómo se miden posición y tiempo; sistemas de referencia y escalas temporales básicas. | Registro de tiempo y posición con referencia declarada |
 
 ### Tramo 2 · Observar, preguntar y medir
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B01-C05 | Observación frente a interpretación | Qué es un dato y qué es una lectura de ese dato; ejemplos donde la interpretación cambió. | Tabla de afirmaciones O/I/M |
-| B01-C06 | Preguntas investigables en astronomía | Convertir curiosidad en preguntas que pueden responderse con datos accesibles. | Banco de preguntas con criterio de viabilidad |
-| B01-C07 | Hipótesis y predicciones falsables | Formular una hipótesis, derivar una predicción y decir qué resultado la refutaría. | Hipótesis con predicción y criterio de refutación |
-| B01-C08 | Mediciones y unidades astronómicas | Unidades SI y astronómicas (au, ly, pc); conversión y análisis dimensional. | Hoja de conversiones verificada |
-| B01-C09 | Luz como fuente de información | Qué información trae la luz: dirección, brillo, color y espectro; límites de lo que revela. | Interpretación de un espectro sencillo |
-| B01-C10 | Limitaciones de los sentidos humanos | Qué no vemos (rango espectral, brillo, resolución) y por qué se usan instrumentos. | Comparación sentido–instrumento |
+| <a id="b01-c05"></a>B01-C05 | Observación frente a interpretación | Qué es un dato y qué es una lectura de ese dato; ejemplos donde la interpretación cambió. | Tabla de afirmaciones O/I/M |
+| <a id="b01-c06"></a>B01-C06 | Preguntas investigables en astronomía | Convertir curiosidad en preguntas que pueden responderse con datos accesibles. | Banco de preguntas con criterio de viabilidad |
+| <a id="b01-c07"></a>B01-C07 | Hipótesis y predicciones falsables | Formular una hipótesis, derivar una predicción y decir qué resultado la refutaría. | Hipótesis con predicción y criterio de refutación |
+| <a id="b01-c08"></a>B01-C08 | Mediciones y unidades astronómicas | Unidades SI y astronómicas (au, ly, pc); conversión y análisis dimensional. | Hoja de conversiones verificada |
+| <a id="b01-c09"></a>B01-C09 | Luz como fuente de información | Qué información trae la luz: dirección, brillo, color y espectro; límites de lo que revela. | Interpretación de un espectro sencillo |
+| <a id="b01-c10"></a>B01-C10 | Limitaciones de los sentidos humanos | Qué no vemos (rango espectral, brillo, resolución) y por qué se usan instrumentos. | Comparación sentido–instrumento |
 
 ### Tramo 3 · El cielo y sus objetos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B01-C11 | Movimiento aparente del Sol y las estrellas | Rotación terrestre, horizonte, culminación y estaciones desde un lugar concreto. | Registro de trayectorias con fecha y lugar |
-| B01-C12 | Fases lunares y ciclos celestes | Geometría Sol–Tierra–Luna, fases, eclipses y calendarios como ciclos medibles. | Predicción de una fase y su comprobación |
-| B01-C13 | Sistema solar como sistema físico | Componentes, escalas y leyes que lo organizan; modelo a escala. | Modelo a escala con tabla de datos |
-| B01-C14 | Estrellas y sus principales propiedades | Brillo, color, temperatura, tamaño y distancia; cómo se relacionan. | Comparación de estrellas con datos publicados |
-| B01-C15 | Galaxias y agrupaciones cósmicas | Tipos de galaxias, grupos y cúmulos; estructura a gran escala como observación. | Ficha de una galaxia y su entorno |
-| B01-C16 | Expansión del universo como observación | Corrimiento al rojo, ley de Hubble y por qué no hay centro; incertidumbre en H₀. | Estimación de distancia o edad con error |
+| <a id="b01-c11"></a>B01-C11 | Movimiento aparente del Sol y las estrellas | Rotación terrestre, horizonte, culminación y estaciones desde un lugar concreto. | Registro de trayectorias con fecha y lugar |
+| <a id="b01-c12"></a>B01-C12 | Fases lunares y ciclos celestes | Geometría Sol–Tierra–Luna, fases, eclipses y calendarios como ciclos medibles. | Predicción de una fase y su comprobación |
+| <a id="b01-c13"></a>B01-C13 | Sistema solar como sistema físico | Componentes, escalas y leyes que lo organizan; modelo a escala. | Modelo a escala con tabla de datos |
+| <a id="b01-c14"></a>B01-C14 | Estrellas y sus principales propiedades | Brillo, color, temperatura, tamaño y distancia; cómo se relacionan. | Comparación de estrellas con datos publicados |
+| <a id="b01-c15"></a>B01-C15 | Galaxias y agrupaciones cósmicas | Tipos de galaxias, grupos y cúmulos; estructura a gran escala como observación. | Ficha de una galaxia y su entorno |
+| <a id="b01-c16"></a>B01-C16 | Expansión del universo como observación | Corrimiento al rojo, ley de Hubble y por qué no hay centro; incertidumbre en H₀. | Estimación de distancia o edad con error |
 
 ### Tramo 4 · Modelos, error, fuentes y proyecto
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B01-C17 | Construcción de modelos científicos | Un modelo como simplificación con dominio de validez; contrastar modelo y dato. | Modelo simple con su límite declarado |
-| B01-C18 | Incertidumbre y errores elementales | Error aleatorio y sistemático, cifras significativas y propagación simple. | Reporte de medición con incertidumbre |
-| B01-C19 | Fuentes confiables y desinformación espacial | Jerarquía de fuentes, detección de afirmaciones sin respaldo y verificación de titulares. | Informe de verificación de una noticia |
-| B01-C20 | Proyecto de observación científica inicial | Integrar pregunta, hipótesis, medición, incertidumbre y fuentes en una observación real. | Proyecto con bitácora, datos y conclusión acotada |
+| <a id="b01-c17"></a>B01-C17 | Construcción de modelos científicos | Un modelo como simplificación con dominio de validez; contrastar modelo y dato. | Modelo simple con su límite declarado |
+| <a id="b01-c18"></a>B01-C18 | Incertidumbre y errores elementales | Error aleatorio y sistemático, cifras significativas y propagación simple. | Reporte de medición con incertidumbre |
+| <a id="b01-c19"></a>B01-C19 | Fuentes confiables y desinformación espacial | Jerarquía de fuentes, detección de afirmaciones sin respaldo y verificación de titulares. | Informe de verificación de una noticia |
+| <a id="b01-c20"></a>B01-C20 | Proyecto de observación científica inicial | Integrar pregunta, hipótesis, medición, incertidumbre y fuentes en una observación real. | Proyecto con bitácora, datos y conclusión acotada |
 
 ## 🧵 Hilos que atraviesan el bloque
 
