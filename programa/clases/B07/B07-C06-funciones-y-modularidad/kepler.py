@@ -52,6 +52,7 @@ def planeta_a_razon(nombre: str) -> float:
 
 
 def pruebas() -> None:
+    """Comprueba las funciones con casos exactos y las ocho razones con la tolerancia declarada."""
     assert normalizar(10.0, 5.0) == 2.0
     assert razon_kepler(1.0, 1.0) == 1.0
     assert periodo_predicho(4.0) == 8.0                     # 4 ** 1,5

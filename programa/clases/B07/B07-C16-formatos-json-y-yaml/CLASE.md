@@ -1,7 +1,7 @@
 # B07-C16 — Formatos JSON y YAML
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C15 — Terminal y rutas de archivos](../B07-C15-terminal-y-rutas-de-archivos/CLASE.md) · [Siguiente: B07-C17 — Pruebas de funciones matemáticas →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [← Anterior: B07-C15 — Terminal y rutas de archivos](../B07-C15-terminal-y-rutas-de-archivos/CLASE.md) · [Siguiente: B07-C17 — Pruebas de funciones matemáticas →](../B07-C17-pruebas-de-funciones-matematicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ JSON y YAML guardan estructuras anidadas de manera legible: JSON es estricto y p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B07-C15 — Terminal y rutas de archivos](../B07-C15-terminal-y-rutas-de-archivos/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C17 — Pruebas de funciones matemáticas →](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c17)
+[← Anterior: B07-C15 — Terminal y rutas de archivos](../B07-C15-terminal-y-rutas-de-archivos/CLASE.md) · [📚 Bloque B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) · [Siguiente: B07-C17 — Pruebas de funciones matemáticas →](../B07-C17-pruebas-de-funciones-matematicas/CLASE.md)
 <!-- /nav -->

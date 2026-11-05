@@ -1,7 +1,7 @@
 # B08-C01 — Orientación geográfica y puntos cardinales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B07-C20 — Primer simulador de un movimiento celeste](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c20) · [Siguiente: B08-C02 — Esfera celeste y horizonte local →](../B08-C02-esfera-celeste-y-horizonte-local/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B07-C20 — Primer simulador de un movimiento celeste](../../B07/B07-C20-primer-simulador-de-un-movimiento-celeste/CLASE.md) · [Siguiente: B08-C02 — Esfera celeste y horizonte local →](../B08-C02-esfera-celeste-y-horizonte-local/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Orientarse es dar un acimut con su incertidumbre. Con una vara obtienes el norte
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B07-C20 — Primer simulador de un movimiento celeste](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md#b07-c20) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C02 — Esfera celeste y horizonte local →](../B08-C02-esfera-celeste-y-horizonte-local/CLASE.md)
+[← Anterior: B07-C20 — Primer simulador de un movimiento celeste](../../B07/B07-C20-primer-simulador-de-un-movimiento-celeste/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B08-C02 — Esfera celeste y horizonte local →](../B08-C02-esfera-celeste-y-horizonte-local/CLASE.md)
 <!-- /nav -->
