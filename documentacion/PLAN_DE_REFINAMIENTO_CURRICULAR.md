@@ -89,6 +89,7 @@ Detectados por búsqueda de títulos; cada uno debe confirmarse antes de crear u
 - Cada bloque y cada módulo de ruta tendrá una **guía pedagógica**: propósito, resultados, secuencia (diagrama con descripción textual), tabla de clases con *qué se aprende* y *evidencia*, hilos transversales, evaluación, seguridad y fuentes.
 - Los resúmenes por clase se escriben a partir del refinamiento (L3, L5) y se rotulan «especificación propuesta» hasta tener revisión.
 - **Primer resultado:** [B01](../programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) reescrito con ese formato. Es la plantilla para los 63 bloques restantes y los 192 módulos.
+- **Voz pedagógica:** cada clase enseña con prosa explicativa dirigida al estudiante (motivación, ejemplo conductor, analogías con su límite, pausas para pensar y soluciones comentadas). Las tablas se reservan para referencia (símbolos, fuentes, rúbrica). Todo ejercicio debe usar solo conceptos ya explicados en el texto y remitir a la sección donde se enseñaron.
 - **Navegación:** cada clase enlaza arriba y abajo a la anterior, a la siguiente y a su bloque; si la vecina aún no existe como página, el enlace lleva a su fila en la guía del bloque. Los metadatos editoriales (versión, autoría, revisores, estado) van en una ficha aparte y no en el cuerpo de la clase.
 - **Puerta:** ninguna guía describe una clase como desarrollada si el catálogo la mantiene en E0.
 
