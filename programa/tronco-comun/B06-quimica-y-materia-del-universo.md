@@ -48,15 +48,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b06-c02"></a>[B06-C02](../clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md) | Tabla periódica y abundancias cósmicas | Configuración electrónica, periodos y grupos; abundancias solares en escala logarítmica y su paso a fracciones en número y en masa. | Ficha de composición solar |
 | <a id="b06-c03"></a>[B06-C03](../clases/B06/B06-C03-isotopos-y-masa-atomica/CLASE.md) | Isótopos y masa atómica | Isótopos, promedio ponderado, intervalos de peso atómico, razones isotópicas y notación δ. | Ficha isotópica |
 | <a id="b06-c04"></a>[B06-C04](../clases/B06/B06-C04-enlaces-ionicos-y-covalentes/CLASE.md) | Enlaces iónicos y covalentes | Electrones de valencia, estructuras de Lewis y energía de Coulomb frente a la agitación térmica. | Ficha de enlace |
-| <a id="b06-c05"></a>B06-C05 | Moléculas y geometría molecular | Pares de electrones, geometrías lineal, angular y tetraédrica, polaridad y ángulos medidos. | Ficha geométrica de una molécula |
+| <a id="b06-c05"></a>[B06-C05](../clases/B06/B06-C05-moleculas-y-geometria-molecular/CLASE.md) | Moléculas y geometría molecular | Pares de electrones, geometrías lineal, angular y tetraédrica, polaridad y ángulos medidos. | Ficha geométrica de una molécula |
 
 ### Tramo 2 · Contabilidad química
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b06-c06"></a>B06-C06 | Cantidad de sustancia y mol | El mol y la constante de Avogadro del SI; masa molar; de gramos a átomos en una muestra real. | Hoja de conversión masa–mol–átomos |
-| <a id="b06-c07"></a>B06-C07 | Estequiometría elemental | Fórmulas y composición porcentual; masa molar media de una atmósfera a partir de su composición. | Balance de composición de una atmósfera |
-| <a id="b06-c08"></a>B06-C08 | Reacciones y conservación de masa | Balancear ecuaciones, conservar átomos y carga, y distinguir la conservación química de la nuclear. | Ecuación balanceada con verificación |
+| <a id="b06-c06"></a>[B06-C06](../clases/B06/B06-C06-cantidad-de-sustancia-y-mol/CLASE.md) | Cantidad de sustancia y mol | El mol y la constante de Avogadro del SI; masa molar; de gramos a átomos en una muestra real. | Hoja de conversión masa–mol–átomos |
+| <a id="b06-c07"></a>[B06-C07](../clases/B06/B06-C07-estequiometria-elemental/CLASE.md) | Estequiometría elemental | Fórmulas y composición porcentual; masa molar media de una atmósfera a partir de su composición. | Balance de composición de una atmósfera |
+| <a id="b06-c08"></a>[B06-C08](../clases/B06/B06-C08-reacciones-y-conservacion-de-masa/CLASE.md) | Reacciones y conservación de masa | Balancear ecuaciones, conservar átomos y carga, y distinguir la conservación química de la nuclear. | Ecuación balanceada con verificación |
 
 ### Tramo 3 · Gases, estados, fases y energía
 

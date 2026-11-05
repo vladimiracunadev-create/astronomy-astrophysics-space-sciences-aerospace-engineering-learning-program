@@ -1,7 +1,7 @@
 # B06-C04 — Enlaces iónicos y covalentes
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C03 — Isótopos y masa atómica](../B06-C03-isotopos-y-masa-atomica/CLASE.md) · [Siguiente: B06-C05 — Moléculas y geometría molecular →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [← Anterior: B06-C03 — Isótopos y masa atómica](../B06-C03-isotopos-y-masa-atomica/CLASE.md) · [Siguiente: B06-C05 — Moléculas y geometría molecular →](../B06-C05-moleculas-y-geometria-molecular/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ Los átomos se unen cediendo o compartiendo electrones; la ley de Coulomb permit
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B06-C03 — Isótopos y masa atómica](../B06-C03-isotopos-y-masa-atomica/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C05 — Moléculas y geometría molecular →](../../../tronco-comun/B06-quimica-y-materia-del-universo.md#b06-c05)
+[← Anterior: B06-C03 — Isótopos y masa atómica](../B06-C03-isotopos-y-masa-atomica/CLASE.md) · [📚 Bloque B06](../../../tronco-comun/B06-quimica-y-materia-del-universo.md) · [Siguiente: B06-C05 — Moléculas y geometría molecular →](../B06-C05-moleculas-y-geometria-molecular/CLASE.md)
 <!-- /nav -->
