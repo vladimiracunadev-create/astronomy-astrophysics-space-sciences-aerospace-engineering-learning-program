@@ -1,7 +1,7 @@
 # B05-C04 — Leyes del movimiento de Newton
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C03 — Movimiento rectilíneo y circular](../B05-C03-movimiento-rectilineo-y-circular/CLASE.md) · [Siguiente: B05-C05 — Diagramas de cuerpo libre →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [← Anterior: B05-C03 — Movimiento rectilíneo y circular](../B05-C03-movimiento-rectilineo-y-circular/CLASE.md) · [Siguiente: B05-C05 — Diagramas de cuerpo libre →](../B05-C05-diagramas-de-cuerpo-libre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -283,5 +283,5 @@ La fuerza neta determina la aceleración, la masa mide la inercia, las fuerzas a
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B05-C03 — Movimiento rectilíneo y circular](../B05-C03-movimiento-rectilineo-y-circular/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C05 — Diagramas de cuerpo libre →](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md#b05-c05)
+[← Anterior: B05-C03 — Movimiento rectilíneo y circular](../B05-C03-movimiento-rectilineo-y-circular/CLASE.md) · [📚 Bloque B05](../../../tronco-comun/B05-fisica-fundamental-para-el-espacio.md) · [Siguiente: B05-C05 — Diagramas de cuerpo libre →](../B05-C05-diagramas-de-cuerpo-libre/CLASE.md)
 <!-- /nav -->
