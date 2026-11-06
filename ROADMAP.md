@@ -31,8 +31,8 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
-- [ ] Guías pedagógicas por bloque (B01–B08 hechas; faltan B09–B124 y los 69 bloques nuevos).
-- [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas sin redactar).
+- [ ] Guías pedagógicas por bloque (B01–B23, es decir A01 y A02, hechas; faltan B24–B133).
+- [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas: 77 de A02 ya con texto y 720 sin redactar).
 - [x] B01-C01 redactada y aprobada por el autor (conserva E0 en el catálogo hasta registrar revisión disciplinar).
 
 **Cierre:** informe de refinamiento y contraste metodológico (un bloque del tronco y un módulo de ruta).

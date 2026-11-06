@@ -76,15 +76,8 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 4. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 5. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 6. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-7. 📚 [**B17** · Aprendizaje automático científico](../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md) — A02 · 12 clases
-8. 📚 [**B18** · Computación de alto rendimiento](../programa/tronco-comun/B18-computacion-de-alto-rendimiento.md) — A02 · 5 clases
-9. 📚 [**B19** · Inferencia bayesiana y computación probabilística](../programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) — A02 · 8 clases
-10. 📚 [**B20** · Metodología de la investigación científica](../programa/tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) — A02 · 4 clases
-11. 📚 [**B21** · Métodos numéricos para EDP y fluidos computacionales](../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) — A02 · 5 clases
-12. 📚 [**B22** · Problemas inversos y estimación de modelos](../programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) — A02 · 5 clases
-13. 📚 [**B23** · Verificación y validación de software científico](../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) — A02 · 8 clases
-14. 📚 [**B24** · Física y evolución de estrellas](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) — A03 · 22 clases
-15. 📚 [**B29** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) — A03 · 20 clases
+7. 📚 [**B24** · Física y evolución de estrellas](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) — A03 · 22 clases
+8. 📚 [**B29** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) — A03 · 20 clases
 
 ### 🎯 El núcleo del rol
 

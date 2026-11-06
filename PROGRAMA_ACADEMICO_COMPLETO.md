@@ -2562,7 +2562,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 - **B119-C20 — Simulación de respuesta institucional a incidentes.** Presenta «simulación de respuesta institucional a incidentes» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
 - **B119-C21 — Cultura de seguridad aeroespacial y aprendizaje de incidentes.** *Programada.* Aporta la dimensión cultural de la seguridad; B88-C16 cubre seguridad funcional técnica y ninguna clase trata cultura de seguridad.
 - **B119-C22 — Seguridad de instalaciones y operaciones de sitio de lanzamiento.** *Programada.* Cubre zonas de seguridad, exclusión y gestión de sitio; B77-C19 solo ve seguridad de rango conceptual.
-- **B119-C23 — Protección ambiental de las actividades de lanzamiento.** *Programada.* Cubre impacto ambiental de lanzamientos; ninguna clase de B118-B124 lo trata.
+- **B119-C23 — Protección ambiental de las actividades de lanzamiento.** *Programada.* Cubre impacto ambiental de lanzamientos; ninguna clase de B118, B119 ni B124 lo trata.
 - **B119-C24 — Límites legales y de seguridad de la experimentación educativa.** *Programada.* Establece los límites de lo que una experimentación educativa puede hacer con seguridad; ninguna clase lo trata.
 - **B119-C25 — Derecho y marcos de recursos espaciales.** *Programada.* B119 trata tratados generales; ninguna clase enseña la apropiación y uso de recursos (Acuerdos Artemis, leyes nacionales).
 - **B119-C26 — Doctrinas y políticas espaciales declaradas públicamente.** *Programada.* B119-C11 y C12 tratan límites y la historia; ninguna enseña a leer las doctrinas públicas de los Estados.

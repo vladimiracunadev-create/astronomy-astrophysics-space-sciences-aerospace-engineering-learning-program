@@ -81,7 +81,6 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 ### 🧱 Fundamentos (según tu diagnóstico)
 
 1. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — A07 · 24 clases
-2. 📚 [**B122** · Resiliencia y continuidad de infraestructura espacial](../programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) — A10 · 10 clases
 
 ### 🎯 El núcleo del rol
 

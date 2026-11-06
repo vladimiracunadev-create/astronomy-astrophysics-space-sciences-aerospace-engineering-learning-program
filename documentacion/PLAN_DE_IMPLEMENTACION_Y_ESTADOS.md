@@ -90,7 +90,7 @@ Los criterios detallados están en el [estándar pedagógico](ESTANDAR_PEDAGOGIC
 
 **Cierre:** resultados reproducibles en entornos declarados y revisión matemática/computacional.
 
-### Horizonte E · ciencias del universo y los mundos B24–B59
+### Horizonte E · ciencias del universo y los mundos B24–B70
 
 **Objetivo:** resolver astrofísica, observación, ciencias planetarias, astrobiología y geociencias orbitales.
 
@@ -101,7 +101,7 @@ Los criterios detallados están en el [estándar pedagógico](ESTANDAR_PEDAGOGIC
 
 **Cierre:** trazabilidad de datos y afirmaciones, revisión disciplinar por muestras y proyectos integradores.
 
-### Horizonte F · astrodinámica e ingeniería B71–B124
+### Horizonte F · astrodinámica e ingeniería B71–B133
 
 **Objetivo:** resolver mecánica orbital, diseño de misiones, sistemas, operaciones, sostenibilidad, derecho y gestión.
 

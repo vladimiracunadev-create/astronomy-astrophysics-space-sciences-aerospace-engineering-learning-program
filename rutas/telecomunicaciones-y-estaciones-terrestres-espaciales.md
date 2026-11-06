@@ -85,8 +85,6 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 6. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 7. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 8. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-9. 📚 [**B93** · Electrónica embarcada y compatibilidad electromagnética](../programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) — A07 · 4 clases
-10. 📚 [**B95** · Plataformas de satélites pequeños y CubeSat](../programa/tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) — A07 · 4 clases
 
 ### 🎯 El núcleo del rol
 

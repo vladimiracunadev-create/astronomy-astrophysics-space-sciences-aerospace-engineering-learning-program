@@ -83,10 +83,6 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 4. 📚 [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) — A01 · 20 clases
 5. 📚 [**B07** · Informática científica desde cero](../programa/tronco-comun/B07-informatica-cientifica-desde-cero.md) — A01 · 20 clases
 6. 📚 [**B08** · Observación del cielo y astronomía práctica](../programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) — A01 · 20 clases
-7. 📚 [**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) — A08 · 7 clases
-8. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../programa/tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) — A08 · 7 clases
-9. 📚 [**B102** · Movilidad de robots planetarios](../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) — A08 · 8 clases
-10. 📚 [**B103** · Percepción visual robótica](../programa/tronco-comun/B103-percepcion-visual-robotica.md) — A08 · 8 clases
 
 ### 🎯 El núcleo del rol
 

@@ -84,13 +84,6 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 2. 📚 [**B04** · Álgebra, trigonometría y geometría espacial](../programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) — A01 · 20 clases
 3. 📚 [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) — A01 · 20 clases
 4. 📚 [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) — A01 · 20 clases
-5. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — A08 · 27 clases
-6. 📚 [**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) — A08 · 8 clases
-7. 📚 [**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) — A08 · 7 clases
-8. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../programa/tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) — A08 · 7 clases
-9. 📚 [**B101** · Manipuladores robóticos espaciales](../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) — A08 · 10 clases
-10. 📚 [**B102** · Movilidad de robots planetarios](../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) — A08 · 8 clases
-11. 📚 [**B103** · Percepción visual robótica](../programa/tronco-comun/B103-percepcion-visual-robotica.md) — A08 · 8 clases
 
 ### 🎯 El núcleo del rol
 

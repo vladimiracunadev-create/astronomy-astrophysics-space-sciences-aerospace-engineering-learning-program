@@ -11,7 +11,7 @@
 
 [![Versión documental](https://img.shields.io/badge/versión_documental-0.2.0-6f42c1?style=for-the-badge)](CHANGELOG.md)
 [![Catálogo](https://img.shields.io/badge/programa-2.077_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
-[![Estado](https://img.shields.io/badge/textos_redactados-160_de_2.077-d97706?style=for-the-badge)](STATUS.md)
+[![Estado](https://img.shields.io/badge/textos_redactados-397_de_2.077-d97706?style=for-the-badge)](STATUS.md)
 [![Idioma](https://img.shields.io/badge/idioma-español_de_Chile-007c83?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-d22128?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -74,7 +74,7 @@ flowchart LR
 Este mapa deja el contenido visible desde la portada. Cada bloque muestra su rango de clases; las **programadas** son clases citadas con su ubicación y la necesidad que resuelven, todavía sin redactar.
 
 > [!IMPORTANT]
-> Todos los registros permanecen en E0. Las clases de A01 (160) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título y descripción preliminar, o es una clase programada sin redactar. Ninguna está impartida ni verificada.
+> Todos los registros permanecen en E0. Las clases de A01 (160) y A02 (237) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título y descripción preliminar, o es una clase programada sin redactar. Ninguna está impartida ni verificada.
 
 ### A01 · Alfabetización científica, astronómica y tecnológica
 
@@ -464,7 +464,7 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 
 ### ❌ Lo que no es
 
-- 🚫 una colección de 2.077 clases ya redactadas y verificadas: hoy hay 160 con texto redactado (A01), sin revisión disciplinar; el resto conserva título y descripción preliminar o está programado sin redactar;
+- 🚫 una colección de 2.077 clases ya redactadas y verificadas: hoy hay 397 con texto redactado (A01 y A02), sin revisión disciplinar; el resto conserva título y descripción preliminar o está programado sin redactar;
 - 🚫 veinticuatro programas separados: las rutas son recorridos sobre las mismas áreas y bloques de una sola formación;
 - 🚫 una universidad, carrera acreditada, título, certificación ni licencia profesional;
 - 🚫 autorización para diseñar, fabricar, lanzar, pilotar, diagnosticar o intervenir sistemas reales sin normativa y profesionales competentes;
