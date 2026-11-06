@@ -1,7 +1,7 @@
 # B12-C12 — Inferencia bayesiana
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C11 — Regresión robusta](../B12-C11-regresion-robusta/CLASE.md) · [Siguiente: B12-C13 — Cadenas de Markov y muestreo →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C11 — Regresión robusta](../B12-C11-regresion-robusta/CLASE.md) · [Siguiente: B12-C13 — Cadenas de Markov y muestreo →](../B12-C13-cadenas-de-markov-y-muestreo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Bayes combina un prior con la verosimilitud para dar una posterior; en los casos
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B12-C11 — Regresión robusta](../B12-C11-regresion-robusta/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C13 — Cadenas de Markov y muestreo →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c13)
+[← Anterior: B12-C11 — Regresión robusta](../B12-C11-regresion-robusta/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C13 — Cadenas de Markov y muestreo →](../B12-C13-cadenas-de-markov-y-muestreo/CLASE.md)
 <!-- /nav -->
