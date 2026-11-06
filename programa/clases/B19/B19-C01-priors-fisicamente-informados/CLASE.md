@@ -1,7 +1,7 @@
 # B19-C01 — Priors físicamente informados
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [← Anterior: B18-C05 — Experimentos de escalabilidad](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md#b18-c05) · [Siguiente: B19-C02 — Modelos jerárquicos →](../B19-C02-modelos-jerarquicos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [← Anterior: B18-C05 — Experimentos de escalabilidad](../../B18/B18-C05-experimentos-de-escalabilidad/CLASE.md) · [Siguiente: B19-C02 — Modelos jerárquicos →](../B19-C02-modelos-jerarquicos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ El prior es parte del modelo: se construye con restricciones físicas, se prueba
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B18-C05 — Experimentos de escalabilidad](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md#b18-c05) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [Siguiente: B19-C02 — Modelos jerárquicos →](../B19-C02-modelos-jerarquicos/CLASE.md)
+[← Anterior: B18-C05 — Experimentos de escalabilidad](../../B18/B18-C05-experimentos-de-escalabilidad/CLASE.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [Siguiente: B19-C02 — Modelos jerárquicos →](../B19-C02-modelos-jerarquicos/CLASE.md)
 <!-- /nav -->

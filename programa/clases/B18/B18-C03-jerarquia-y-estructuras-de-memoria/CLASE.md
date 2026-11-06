@@ -1,6 +1,7 @@
 # B18-C03 — Jerarquía y estructuras de memoria
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [← Anterior: B18-C02 — Paso de mensajes con MPI](../B18-C02-paso-de-mensajes-con-mpi/CLASE.md) · [Siguiente: B18-C04 — Perfilado de rendimiento →](../B18-C04-perfilado-de-rendimiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,4 +307,7 @@ La memoria es una escalera cuyo escalón lento se paga por líneas de 64 bytes; 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B18-C02 — Paso de mensajes con MPI](../B18-C02-paso-de-mensajes-con-mpi/CLASE.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [Siguiente: B18-C04 — Perfilado de rendimiento →](../B18-C04-perfilado-de-rendimiento/CLASE.md)
 <!-- /nav -->

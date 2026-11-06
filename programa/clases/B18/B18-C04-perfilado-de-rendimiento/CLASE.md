@@ -1,6 +1,7 @@
 # B18-C04 — Perfilado de rendimiento
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [← Anterior: B18-C03 — Jerarquía y estructuras de memoria](../B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md) · [Siguiente: B18-C05 — Experimentos de escalabilidad →](../B18-C05-experimentos-de-escalabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,4 +305,7 @@ Perfilar es medir antes de decidir: se predice el recuento de llamadas, se lee `
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B18-C03 — Jerarquía y estructuras de memoria](../B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [Siguiente: B18-C05 — Experimentos de escalabilidad →](../B18-C05-experimentos-de-escalabilidad/CLASE.md)
 <!-- /nav -->

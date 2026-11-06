@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 281 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 286 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -463,11 +463,11 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *Bloque nuevo (5 clases): Procesos, hilos y concurrencia; Paso de mensajes con MPI; Jerarquía y estructuras de memoria…*
 
-- **B18-C01 — Procesos, hilos y concurrencia.** *Programada.* Diferencia entre hilos y procesos y el GIL; B14-C13 presenta paralelismo sin el modelo de ejecución.
-- **B18-C02 — Paso de mensajes con MPI.** *Programada.* Comunicación punto a punto y colectiva entre procesos; B14-C16 menciona HPC sin MPI.
-- **B18-C03 — Jerarquía y estructuras de memoria.** *Programada.* Caché, disposición de arreglos y ancho de banda; condiciona el rendimiento y no aparece en B14.
-- **B18-C04 — Perfilado de rendimiento.** *Programada.* Uso de profilers para hallar cuellos de botella; ausente en B14-C14.
-- **B18-C05 — Experimentos de escalabilidad.** *Programada.* Escalado fuerte y débil, Amdahl y Gustafson; ninguna clase actual los trata.
+- **B18-C01 — Procesos, hilos y concurrencia.** *Texto redactado, pendiente de revisión.* Diferencia entre hilos y procesos y el GIL; B14-C13 presenta paralelismo sin el modelo de ejecución.
+- **B18-C02 — Paso de mensajes con MPI.** *Texto redactado, pendiente de revisión.* Comunicación punto a punto y colectiva entre procesos; B14-C16 menciona HPC sin MPI.
+- **B18-C03 — Jerarquía y estructuras de memoria.** *Texto redactado, pendiente de revisión.* Caché, disposición de arreglos y ancho de banda; condiciona el rendimiento y no aparece en B14.
+- **B18-C04 — Perfilado de rendimiento.** *Texto redactado, pendiente de revisión.* Uso de profilers para hallar cuellos de botella; ausente en B14-C14.
+- **B18-C05 — Experimentos de escalabilidad.** *Texto redactado, pendiente de revisión.* Escalado fuerte y débil, Amdahl y Gustafson; ninguna clase actual los trata.
 
 ### B19 — Inferencia bayesiana y computación probabilística
 
