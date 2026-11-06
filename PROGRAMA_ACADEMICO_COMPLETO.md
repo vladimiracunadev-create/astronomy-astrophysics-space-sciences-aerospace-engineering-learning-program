@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 346 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 356 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -288,10 +288,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B11-C18 — Interpolación y extrapolación.** Introduce el contexto y los principios de «interpolación y extrapolación» para comprender su uso científico.
 - **B11-C19 — Estimación de error y convergencia.** Presenta «estimación de error y convergencia» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
 - **B11-C20 — Propagador reproducible de trayectoria.** Presenta qué significa «propagador reproducible de trayectoria», sus elementos esenciales y su función dentro de ecuaciones diferenciales y simulación numérica.
-- **B11-C21 — Integración numérica de alta precisión.** *Programada.* Métodos de orden alto (Taylor, Gauss-Radau) y aritmética extendida para integrar trayectorias largas; B11-C07/C08 cubren RK4 y paso adaptativo, no alta precisión.
-- **B11-C22 — Métodos implícitos y sistemas rígidos.** *Programada.* Euler implícito, BDF y rigidez; B11-C09 trata estabilidad pero ningún método implícito.
-- **B11-C23 — Optimización restringida: Lagrange, KKT y SQP.** *Programada.* B11-C17 trata optimización numérica sin restricciones; falta el caso restringido usado en diseño de trayectorias.
-- **B11-C24 — Métodos espectrales avanzados (Chebyshev y Fourier).** *Programada.* B11-C16 es solo introductorio; el módulo exige colocación, convergencia exponencial y aliasing.
+- **B11-C21 — Integración numérica de alta precisión.** *Texto redactado, pendiente de revisión.* Métodos de orden alto (Taylor, Gauss-Radau) y aritmética extendida para integrar trayectorias largas; B11-C07/C08 cubren RK4 y paso adaptativo, no alta precisión.
+- **B11-C22 — Métodos implícitos y sistemas rígidos.** *Texto redactado, pendiente de revisión.* Euler implícito, BDF y rigidez; B11-C09 trata estabilidad pero ningún método implícito.
+- **B11-C23 — Optimización restringida: Lagrange, KKT y SQP.** *Texto redactado, pendiente de revisión.* B11-C17 trata optimización numérica sin restricciones; falta el caso restringido usado en diseño de trayectorias.
+- **B11-C24 — Métodos espectrales avanzados (Chebyshev y Fourier).** *Texto redactado, pendiente de revisión.* B11-C16 es solo introductorio; el módulo exige colocación, convergencia exponencial y aliasing.
 - **B11-C25 — Aritmética de punto flotante y errores de redondeo.** *Programada.* IEEE 754, cancelación y acumulación de error en cálculo científico; B03-C11 y C19 tratan redondeo elemental, no punto flotante.
 - **B11-C26 — Benchmark de algoritmos numéricos.** *Programada.* Diseño de comparaciones justas de precisión y costo entre algoritmos; ninguna clase actual lo trata.
 
