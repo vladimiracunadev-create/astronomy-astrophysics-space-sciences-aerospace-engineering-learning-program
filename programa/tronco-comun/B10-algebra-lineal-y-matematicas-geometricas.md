@@ -56,15 +56,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b10-c06"></a>[B10-C06](../clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md) | Producto interno y ortogonalidad | Norma, ángulo, Cauchy–Schwarz, Gram–Schmidt; ángulo de incidencia solar sobre un panel. | Ficha de ángulos y bases ortonormales |
 | <a id="b10-c07"></a>[B10-C07](../clases/B10/B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md) | Proyecciones y mínimos cuadrados | Proyección ortogonal, ecuaciones normales, residuos; ajuste de una trayectoria con ruido sintético. | Informe de ajuste con residuos |
 | <a id="b10-c08"></a>[B10-C08](../clases/B10/B10-C08-autovalores-y-autovectores/CLASE.md) | Autovalores y autovectores | Ecuación característica, traza y determinante; ejes principales de inercia de un satélite. | Ficha de ejes principales |
-| <a id="b10-c09"></a>B10-C09 | Diagonalización y estabilidad | Diagonalizar, potencias y exponencial de matrices; estabilidad de sistemas lineales. | Informe de estabilidad |
-| <a id="b10-c10"></a>B10-C10 | Descomposiciones matriciales | LU, QR y Cholesky; cuándo conviene cada una y cómo se verifican. | Cuaderno de factorizaciones |
-| <a id="b10-c11"></a>B10-C11 | Valores singulares y SVD | SVD, rango efectivo, número de condición y aproximación de bajo rango. | Informe SVD con rango efectivo |
+| <a id="b10-c09"></a>[B10-C09](../clases/B10/B10-C09-diagonalizacion-y-estabilidad/CLASE.md) | Diagonalización y estabilidad | Diagonalizar, potencias y exponencial de matrices; estabilidad de sistemas lineales. | Informe de estabilidad |
+| <a id="b10-c10"></a>[B10-C10](../clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md) | Descomposiciones matriciales | LU, QR y Cholesky; cuándo conviene cada una y cómo se verifican. | Cuaderno de factorizaciones |
+| <a id="b10-c11"></a>[B10-C11](../clases/B10/B10-C11-valores-singulares-y-svd/CLASE.md) | Valores singulares y SVD | SVD, rango efectivo, número de condición y aproximación de bajo rango. | Informe SVD con rango efectivo |
 
 ### Tramo 3 · Orientación en el espacio
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b10-c12"></a>B10-C12 | Rotaciones en el plano y espacio | Rotación activa y pasiva, ejes, eje–ángulo; la rotación diaria de la Tierra. | Hoja de rotaciones con convenciones |
+| <a id="b10-c12"></a>[B10-C12](../clases/B10/B10-C12-rotaciones-en-el-plano-y-espacio/CLASE.md) | Rotaciones en el plano y espacio | Rotación activa y pasiva, ejes, eje–ángulo; la rotación diaria de la Tierra. | Hoja de rotaciones con convenciones |
 | <a id="b10-c13"></a>B10-C13 | Matrices de rotación tridimensional | Matrices elementales, grupo de rotaciones, fórmula de Rodrigues y convención de SPICE. | Cuaderno de matrices de rotación |
 | <a id="b10-c14"></a>B10-C14 | Ángulos de Euler y singularidades | Secuencias de ejes, ambigüedad y bloqueo de cardán. | Informe de singularidad |
 | <a id="b10-c15"></a>B10-C15 | Cuaterniones unitarios | Álgebra de cuaterniones, composición, doble cobertura y convención escalar‑primero. | Hoja de cuaterniones verificada |

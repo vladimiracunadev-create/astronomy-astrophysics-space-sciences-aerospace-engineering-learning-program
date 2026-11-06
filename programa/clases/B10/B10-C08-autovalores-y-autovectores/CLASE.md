@@ -1,7 +1,7 @@
 # B10-C08 — Autovalores y autovectores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C07 — Proyecciones y mínimos cuadrados](../B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md) · [Siguiente: B10-C09 — Diagonalización y estabilidad →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C07 — Proyecciones y mínimos cuadrados](../B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md) · [Siguiente: B10-C09 — Diagonalización y estabilidad →](../B10-C09-diagonalizacion-y-estabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ Un autovector es una dirección que la matriz solo estira; el autovalor es el fa
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B10-C07 — Proyecciones y mínimos cuadrados](../B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C09 — Diagonalización y estabilidad →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c09)
+[← Anterior: B10-C07 — Proyecciones y mínimos cuadrados](../B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C09 — Diagonalización y estabilidad →](../B10-C09-diagonalizacion-y-estabilidad/CLASE.md)
 <!-- /nav -->
