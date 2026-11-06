@@ -2,7 +2,7 @@
 
 > **Principio rector:** una clase no es un tema desarrollado en prosa; es una capacidad observable sustentada por evidencia, práctica, evaluación y continuidad.
 
-Este documento define el estándar **`clase-profunda-cientifica`** que deberá utilizarse al redactar, revisar y aceptar contenidos del programa. A la fecha, ninguna clase del programa ha completado la revisión que este estándar exige; las 160 de A01 tienen texto redactado y están pendientes de revisión.
+Este documento define el estándar **`clase-profunda-cientifica`** que deberá utilizarse al redactar, revisar y aceptar contenidos del programa. A la fecha, ninguna clase del programa ha completado la revisión que este estándar exige; las 397 de A01 y A02 tienen texto redactado y están pendientes de revisión.
 
 ## 1. Condición mínima de existencia
 

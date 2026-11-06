@@ -80,7 +80,7 @@ Este mapa deja el contenido visible desde la portada. Cada bloque muestra su ran
 
 Punto de partida común: observar y medir el cielo, entender la ciencia como método y adquirir la matemática, la física, la química y la informática básicas. Nivel N0–N1. **Sin cambios respecto de la línea base.**
 
-*8 bloques · 160 clases de la línea base · 0 programadas · 160 en total.*
+*8 bloques · 160 clases de la línea base · 0 programadas · 160 en total · 160 con texto redactado.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -97,7 +97,7 @@ Punto de partida común: observar y medir el cielo, entender la ciencia como mé
 
 Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación, estadística e incertidumbre, metrología, computación científica, señales y control; más aprendizaje automático, inferencia y verificación de software. Nivel N2–N3.
 
-*15 bloques · 160 clases de la línea base · 77 programadas · 237 en total.*
+*15 bloques · 160 clases de la línea base · 77 programadas · 237 en total · 237 con texto redactado.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -409,7 +409,7 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`PROGRAMA_ACADEMICO_COMPLETO.md`](PROGRAMA_ACADEMICO_COMPLETO.md): índice unificado de 2.077 clases en 12 áreas y 133 bloques, con la correspondencia de los módulos de ruta.
 - [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
 - [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
-- [`programa/tronco-comun/`](programa/tronco-comun/): fichas de los 64 bloques de la línea base.
+- [`programa/tronco-comun/`](programa/tronco-comun/): guías de los 133 bloques (64 de la línea base y 69 nuevos); las de A01 y A02 están reescritas como guía pedagógica.
 - [`programa/clases/`](programa/clases/): las 397 clases redactadas de A01 y A02.
 - [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
 - [`metadatos/`](metadatos/): inventarios y relaciones estructurales.

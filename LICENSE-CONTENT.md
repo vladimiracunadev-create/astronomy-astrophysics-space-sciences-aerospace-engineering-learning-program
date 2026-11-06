@@ -16,7 +16,7 @@ Esta licencia cubre, cuando sean originales del proyecto:
 - futuros ejercicios, casos ficticios, soluciones razonadas, diagramas y plantillas;
 - texto educativo publicado en Markdown, HTML, PDF u otro formato derivado.
 
-El catálogo actual contiene descripciones preliminares, no clases redactadas, salvo las 160 de A01 indicadas en `STATUS.md`. La licencia no cambia ese estado.
+El catálogo actual contiene descripciones preliminares, no clases redactadas, salvo las 397 de A01 y A02 indicadas en `STATUS.md`. La licencia no cambia ese estado.
 
 El código independiente, scripts, workflows, configuraciones y componentes funcionales se rigen por [Apache License 2.0](LICENSE). Un archivo mixto puede contener código Apache-2.0 y contenido educativo CC BY-NC-SA 4.0; cada capa conserva su régimen.
 

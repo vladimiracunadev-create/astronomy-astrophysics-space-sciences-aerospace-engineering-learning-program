@@ -48,9 +48,9 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 ## Horizontes C–F · tronco transversal
 
 - [ ] B02–B08: observación, historia, fundamentos e informática inicial (textos redactados; pendientes revisión disciplinar y aprobación; todas siguen en E0).
-- [ ] B09–B16: matemática, datos, computación y control.
-- [ ] B24–B59: astrofísica, observación y ciencias planetarias.
-- [ ] B71–B124: astrodinámica, ingeniería, operaciones y sociedad.
+- [ ] B09–B23 (A02): matemática, datos, computación y control (textos redactados, con laboratorio ejecutado según los informes de cada sesión; pendientes de revisión disciplinar y aprobación; todas siguen en E0).
+- [ ] B24–B70 (A03–A05): astrofísica, observación y ciencias planetarias.
+- [ ] B71–B133 (A06–A12): astrodinámica, ingeniería, operaciones y sociedad.
 
 **Cierre por bloque:** todas las clases en E5, dependencias auditadas, proyecto integrador y revisión disciplinar registrada.
 
