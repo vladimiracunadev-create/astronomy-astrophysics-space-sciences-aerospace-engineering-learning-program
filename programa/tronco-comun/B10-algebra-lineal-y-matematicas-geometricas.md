@@ -65,10 +65,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b10-c12"></a>[B10-C12](../clases/B10/B10-C12-rotaciones-en-el-plano-y-espacio/CLASE.md) | Rotaciones en el plano y espacio | Rotación activa y pasiva, ejes, eje–ángulo; la rotación diaria de la Tierra. | Hoja de rotaciones con convenciones |
-| <a id="b10-c13"></a>B10-C13 | Matrices de rotación tridimensional | Matrices elementales, grupo de rotaciones, fórmula de Rodrigues y convención de SPICE. | Cuaderno de matrices de rotación |
-| <a id="b10-c14"></a>B10-C14 | Ángulos de Euler y singularidades | Secuencias de ejes, ambigüedad y bloqueo de cardán. | Informe de singularidad |
-| <a id="b10-c15"></a>B10-C15 | Cuaterniones unitarios | Álgebra de cuaterniones, composición, doble cobertura y convención escalar‑primero. | Hoja de cuaterniones verificada |
-| <a id="b10-c16"></a>B10-C16 | Transformación de marcos de referencia | Cadena de marcos, rotación terrestre, velocidades en marco giratorio. | Cadena de marcos documentada |
+| <a id="b10-c13"></a>[B10-C13](../clases/B10/B10-C13-matrices-de-rotacion-tridimensional/CLASE.md) | Matrices de rotación tridimensional | Matrices elementales, grupo de rotaciones, fórmula de Rodrigues y convención de SPICE. | Cuaderno de matrices de rotación |
+| <a id="b10-c14"></a>[B10-C14](../clases/B10/B10-C14-angulos-de-euler-y-singularidades/CLASE.md) | Ángulos de Euler y singularidades | Secuencias de ejes, ambigüedad y bloqueo de cardán. | Informe de singularidad |
+| <a id="b10-c15"></a>[B10-C15](../clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md) | Cuaterniones unitarios | Álgebra de cuaterniones, composición, doble cobertura y convención escalar‑primero. | Hoja de cuaterniones verificada |
+| <a id="b10-c16"></a>[B10-C16](../clases/B10/B10-C16-transformacion-de-marcos-de-referencia/CLASE.md) | Transformación de marcos de referencia | Cadena de marcos, rotación terrestre, velocidades en marco giratorio. | Cadena de marcos documentada |
 
 ### Tramo 4 · Tensores, linealización y orientación satelital
 

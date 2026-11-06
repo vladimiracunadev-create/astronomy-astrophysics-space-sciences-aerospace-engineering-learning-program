@@ -1,7 +1,7 @@
 # B10-C12 — Rotaciones en el plano y espacio
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C11 — Valores singulares y SVD](../B10-C11-valores-singulares-y-svd/CLASE.md) · [Siguiente: B10-C13 — Matrices de rotación tridimensional →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C11 — Valores singulares y SVD](../B10-C11-valores-singulares-y-svd/CLASE.md) · [Siguiente: B10-C13 — Matrices de rotación tridimensional →](../B10-C13-matrices-de-rotacion-tridimensional/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ Una rotación es una matriz ortogonal de determinante 1; su inversa es su transp
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B10-C11 — Valores singulares y SVD](../B10-C11-valores-singulares-y-svd/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C13 — Matrices de rotación tridimensional →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c13)
+[← Anterior: B10-C11 — Valores singulares y SVD](../B10-C11-valores-singulares-y-svd/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C13 — Matrices de rotación tridimensional →](../B10-C13-matrices-de-rotacion-tridimensional/CLASE.md)
 <!-- /nav -->
