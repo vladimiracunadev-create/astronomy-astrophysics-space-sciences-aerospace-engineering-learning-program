@@ -1,6 +1,7 @@
 # B15-C11 — Deconvolución y enfoque
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C10 — Histogramas y normalización](../B15-C10-histogramas-y-normalizacion/CLASE.md) · [Siguiente: B15-C12 — Detección de fuentes astronómicas →](../B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -329,4 +330,7 @@ Un desenfoque es una convolución con la PSF; invertirlo directamente amplifica 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C10 — Histogramas y normalización](../B15-C10-histogramas-y-normalizacion/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C12 — Detección de fuentes astronómicas →](../B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md)
 <!-- /nav -->

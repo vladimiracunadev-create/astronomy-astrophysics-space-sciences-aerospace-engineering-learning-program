@@ -1,6 +1,7 @@
 # B15-C09 — Procesamiento de imágenes digitales
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C08 — Convolución y respuesta impulsional](../B15-C08-convolucion-y-respuesta-impulsional/CLASE.md) · [Siguiente: B15-C10 — Histogramas y normalización →](../B15-C10-histogramas-y-normalizacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,4 +313,7 @@ Una imagen es una matriz que mezcla electrónica, oscuridad, sensibilidad, cielo
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C08 — Convolución y respuesta impulsional](../B15-C08-convolucion-y-respuesta-impulsional/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C10 — Histogramas y normalización →](../B15-C10-histogramas-y-normalizacion/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B15-C08 — Convolución y respuesta impulsional
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C07 — Filtrado digital](../B15-C07-filtrado-digital/CLASE.md) · [Siguiente: B15-C09 — Procesamiento de imágenes digitales →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C07 — Filtrado digital](../B15-C07-filtrado-digital/CLASE.md) · [Siguiente: B15-C09 — Procesamiento de imágenes digitales →](../B15-C09-procesamiento-de-imagenes-digitales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -317,5 +317,5 @@ Un sistema lineal e invariante queda descrito por su respuesta impulsional; la s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B15-C07 — Filtrado digital](../B15-C07-filtrado-digital/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C09 — Procesamiento de imágenes digitales →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c09)
+[← Anterior: B15-C07 — Filtrado digital](../B15-C07-filtrado-digital/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C09 — Procesamiento de imágenes digitales →](../B15-C09-procesamiento-de-imagenes-digitales/CLASE.md)
 <!-- /nav -->

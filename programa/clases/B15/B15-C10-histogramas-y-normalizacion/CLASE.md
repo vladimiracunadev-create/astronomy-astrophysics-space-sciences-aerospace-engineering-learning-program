@@ -1,6 +1,7 @@
 # B15-C10 — Histogramas y normalización
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C09 — Procesamiento de imágenes digitales](../B15-C09-procesamiento-de-imagenes-digitales/CLASE.md) · [Siguiente: B15-C11 — Deconvolución y enfoque →](../B15-C11-deconvolucion-y-enfoque/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -324,4 +325,7 @@ El histograma resume los valores; los límites y el estiramiento deciden lo que 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C09 — Procesamiento de imágenes digitales](../B15-C09-procesamiento-de-imagenes-digitales/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C11 — Deconvolución y enfoque →](../B15-C11-deconvolucion-y-enfoque/CLASE.md)
 <!-- /nav -->
