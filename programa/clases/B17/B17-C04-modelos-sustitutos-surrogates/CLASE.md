@@ -1,7 +1,7 @@
 # B17-C04 — Modelos sustitutos (surrogates)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [← Anterior: B17-C03 — Redes neuronales informadas por la física (PINN)](../B17-C03-redes-neuronales-informadas-por-la-fisica-pinn/CLASE.md) · [Siguiente: B17-C05 — Detección de anomalías →](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md#b17-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [← Anterior: B17-C03 — Redes neuronales informadas por la física (PINN)](../B17-C03-redes-neuronales-informadas-por-la-fisica-pinn/CLASE.md) · [Siguiente: B17-C05 — Detección de anomalías →](../B17-C05-deteccion-de-anomalias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ Un modelo sustituto compra velocidad con aproximación: se verifica el simulador
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B17-C03 — Redes neuronales informadas por la física (PINN)](../B17-C03-redes-neuronales-informadas-por-la-fisica-pinn/CLASE.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [Siguiente: B17-C05 — Detección de anomalías →](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md#b17-c05)
+[← Anterior: B17-C03 — Redes neuronales informadas por la física (PINN)](../B17-C03-redes-neuronales-informadas-por-la-fisica-pinn/CLASE.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [Siguiente: B17-C05 — Detección de anomalías →](../B17-C05-deteccion-de-anomalias/CLASE.md)
 <!-- /nav -->

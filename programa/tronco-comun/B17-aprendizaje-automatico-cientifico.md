@@ -31,19 +31,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B17-C05 — Detección de anomalías
 
-*Programada.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
+*Texto redactado, pendiente de revisión.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
 
 ### B17-C06 — Aprendizaje no supervisado
 
-*Programada.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
+*Texto redactado, pendiente de revisión.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
 
 ### B17-C07 — Validación fuera de distribución
 
-*Programada.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.
+*Texto redactado, pendiente de revisión.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.
 
 ### B17-C08 — Interpretabilidad con consistencia física
 
-*Programada.* Importancia de variables y restricciones físicas de modelos; ausente.
+*Texto redactado, pendiente de revisión.* Importancia de variables y restricciones físicas de modelos; ausente.
 
 ### B17-C09 — Prevención de fuga de datos
 

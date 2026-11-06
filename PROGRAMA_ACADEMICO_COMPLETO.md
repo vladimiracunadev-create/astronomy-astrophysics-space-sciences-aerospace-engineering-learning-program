@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 335 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 346 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -350,9 +350,9 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B13-C18 — Intercomparación de instrumentos.** Introduce el contexto y los principios de «intercomparación de instrumentos» para comprender su uso científico.
 - **B13-C19 — Metadatos y registros de calibración.** Describe «metadatos y registros de calibración», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B13-C20 — Validación de una cadena de medida.** Presenta qué significa «validación de una cadena de medida», sus elementos esenciales y su función dentro de metrología, tiempo y mediciones científicas.
-- **B13-C21 — Sistema de referencia celeste ICRF y cuásares.** *Programada.* B13-C11 trata referencias terrestres; ninguna clase enseña el ICRF, su materialización con cuásares ni la transformación celeste-terrestre.
-- **B13-C22 — Parámetros de orientación terrestre: precesión, nutación, UT1 y movimiento polar.** *Programada.* B13-C10 trata tiempo sidéreo; ninguna clase enseña la orientación de la Tierra (EOP) ni su determinación.
-- **B13-C23 — Estabilidad y deriva temporal de instrumentos.** *Programada.* Un sensor cambia con los años y esa deriva debe seguirse; B13-C05 trata calibración puntual, no su evolución.
+- **B13-C21 — Sistema de referencia celeste ICRF y cuásares.** *Texto redactado, pendiente de revisión.* B13-C11 trata referencias terrestres; ninguna clase enseña el ICRF, su materialización con cuásares ni la transformación celeste-terrestre.
+- **B13-C22 — Parámetros de orientación terrestre: precesión, nutación, UT1 y movimiento polar.** *Texto redactado, pendiente de revisión.* B13-C10 trata tiempo sidéreo; ninguna clase enseña la orientación de la Tierra (EOP) ni su determinación.
+- **B13-C23 — Estabilidad y deriva temporal de instrumentos.** *Texto redactado, pendiente de revisión.* Un sensor cambia con los años y esa deriva debe seguirse; B13-C05 trata calibración puntual, no su evolución.
 
 ### B14 — Computación científica y ciencia abierta
 
@@ -450,10 +450,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B17-C02 — Aprendizaje supervisado.** *Texto redactado, pendiente de revisión.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
 - **B17-C03 — Redes neuronales informadas por la física (PINN).** *Texto redactado, pendiente de revisión.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
 - **B17-C04 — Modelos sustitutos (surrogates).** *Texto redactado, pendiente de revisión.* Emuladores de simuladores costosos; no cubierto.
-- **B17-C05 — Detección de anomalías.** *Programada.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
-- **B17-C06 — Aprendizaje no supervisado.** *Programada.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
-- **B17-C07 — Validación fuera de distribución.** *Programada.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.
-- **B17-C08 — Interpretabilidad con consistencia física.** *Programada.* Importancia de variables y restricciones físicas de modelos; ausente.
+- **B17-C05 — Detección de anomalías.** *Texto redactado, pendiente de revisión.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
+- **B17-C06 — Aprendizaje no supervisado.** *Texto redactado, pendiente de revisión.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
+- **B17-C07 — Validación fuera de distribución.** *Texto redactado, pendiente de revisión.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.
+- **B17-C08 — Interpretabilidad con consistencia física.** *Texto redactado, pendiente de revisión.* Importancia de variables y restricciones físicas de modelos; ausente.
 - **B17-C09 — Prevención de fuga de datos.** *Programada.* Particiones por tiempo o fuente y fugas de información; ausente.
 - **B17-C10 — Conjuntos de datos etiquetados para aprendizaje supervisado.** *Programada.* Entrenar un modelo exige muestras etiquetadas bien construidas; el catálogo no tiene bloque de aprendizaje automático.
 - **B17-C11 — Redes de segmentación semántica de imágenes.** *Programada.* Delimitar fenómenos en imágenes con redes profundas es un método propio; B15-C13 trata segmentación clásica.
