@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "MANIFIESTO_SHA256.txt"
-EXCLUDED_PARTS = {".git", "__pycache__"}
+EXCLUDED_PARTS = {".git", ".claude", "__pycache__"}
 EXCLUDED_NAMES = {OUTPUT.name}
 
 
