@@ -344,7 +344,7 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 | 🎓 **Educación historia y divulgación astronómica** | A01: B01, B02, B08; A02: B14; A03: B25; A04: B48; A09: B104; A11: B124; A12: B128, B129, B130, B131, B132, B133 | [📖 abrir](rutas/educacion-historia-y-divulgacion-astronomica.md) |
 <!-- /roles -->
 
-➡️ **[Comparar las rutas y su relación con el tronco común](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md)**
+🧭 **Elegir un rol.** El [índice de rutas](rutas/README.md) reúne los 24 roles con el orden recomendado de áreas y bloques de cada uno; la guía de cada rol detalla su práctica, sus evidencias y su progresión. Un rol no tiene clases propias: todo lo que estudia vive en las áreas y bloques de arriba.
 
 ## 🧠 Estándar para generar los contenidos
 
