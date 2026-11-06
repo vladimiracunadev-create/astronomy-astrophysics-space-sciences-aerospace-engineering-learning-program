@@ -1,7 +1,7 @@
 # B12-C04 — Esperanza y varianza
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C03 — Distribuciones de probabilidad](../B12-C03-distribuciones-de-probabilidad/CLASE.md) · [Siguiente: B12-C05 — Covarianza y correlación →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C03 — Distribuciones de probabilidad](../B12-C03-distribuciones-de-probabilidad/CLASE.md) · [Siguiente: B12-C05 — Covarianza y correlación →](../B12-C05-covarianza-y-correlacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ La esperanza es el centro; la varianza, la dispersión al cuadrado. Las transfor
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B12-C03 — Distribuciones de probabilidad](../B12-C03-distribuciones-de-probabilidad/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C05 — Covarianza y correlación →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c05)
+[← Anterior: B12-C03 — Distribuciones de probabilidad](../B12-C03-distribuciones-de-probabilidad/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C05 — Covarianza y correlación →](../B12-C05-covarianza-y-correlacion/CLASE.md)
 <!-- /nav -->
