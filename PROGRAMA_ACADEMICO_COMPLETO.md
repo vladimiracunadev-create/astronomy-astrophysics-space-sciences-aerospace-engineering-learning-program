@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 200 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 264 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -446,10 +446,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *Bloque nuevo (12 clases): Ingeniería de características científicas; Aprendizaje supervisado; Redes neuronales informadas por la física (PINN)…*
 
-- **B17-C01 — Ingeniería de características científicas.** *Programada.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
-- **B17-C02 — Aprendizaje supervisado.** *Programada.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
-- **B17-C03 — Redes neuronales informadas por la física (PINN).** *Programada.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
-- **B17-C04 — Modelos sustitutos (surrogates).** *Programada.* Emuladores de simuladores costosos; no cubierto.
+- **B17-C01 — Ingeniería de características científicas.** *Texto redactado, pendiente de revisión.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
+- **B17-C02 — Aprendizaje supervisado.** *Texto redactado, pendiente de revisión.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
+- **B17-C03 — Redes neuronales informadas por la física (PINN).** *Texto redactado, pendiente de revisión.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
+- **B17-C04 — Modelos sustitutos (surrogates).** *Texto redactado, pendiente de revisión.* Emuladores de simuladores costosos; no cubierto.
 - **B17-C05 — Detección de anomalías.** *Programada.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
 - **B17-C06 — Aprendizaje no supervisado.** *Programada.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
 - **B17-C07 — Validación fuera de distribución.** *Programada.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.

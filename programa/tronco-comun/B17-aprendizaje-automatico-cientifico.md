@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B17-C01 — Ingeniería de características científicas
 
-*Programada.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
+*Texto redactado, pendiente de revisión.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
 
 ### B17-C02 — Aprendizaje supervisado
 
-*Programada.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
+*Texto redactado, pendiente de revisión.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
 
 ### B17-C03 — Redes neuronales informadas por la física (PINN)
 
-*Programada.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
+*Texto redactado, pendiente de revisión.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
 
 ### B17-C04 — Modelos sustitutos (surrogates)
 
-*Programada.* Emuladores de simuladores costosos; no cubierto.
+*Texto redactado, pendiente de revisión.* Emuladores de simuladores costosos; no cubierto.
 
 ### B17-C05 — Detección de anomalías
 
