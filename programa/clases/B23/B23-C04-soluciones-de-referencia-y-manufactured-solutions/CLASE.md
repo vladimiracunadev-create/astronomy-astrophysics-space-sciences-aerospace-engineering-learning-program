@@ -1,6 +1,7 @@
 # B23-C04 — Soluciones de referencia y manufactured solutions
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C03 — Casos analíticos de validación](../B23-C03-casos-analiticos-de-validacion/CLASE.md) · [Siguiente: B23-C05 — Validación con conjuntos oficiales →](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md#b23-c05)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -326,4 +327,7 @@ Fabricar una solución convierte cualquier ecuación en una con respuesta conoci
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B23-C03 — Casos analíticos de validación](../B23-C03-casos-analiticos-de-validacion/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B23-C05 — Validación con conjuntos oficiales →](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md#b23-c05)
 <!-- /nav -->

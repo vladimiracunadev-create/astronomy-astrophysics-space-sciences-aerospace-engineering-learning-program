@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B23-C01 — Pruebas unitarias numéricas con tolerancias
 
-*Programada.* B07-C17 prueba funciones matemáticas simples; falta comparar con tolerancias y diseñar pruebas numéricas.
+*Texto redactado, pendiente de revisión.* B07-C17 prueba funciones matemáticas simples; falta comparar con tolerancias y diseñar pruebas numéricas.
 
 ### B23-C02 — Pruebas de propiedades físicas
 
-*Programada.* Conservación de energía y simetrías como pruebas; B11-C10 la trata como tema, no como método de prueba.
+*Texto redactado, pendiente de revisión.* Conservación de energía y simetrías como pruebas; B11-C10 la trata como tema, no como método de prueba.
 
 ### B23-C03 — Casos analíticos de validación
 
-*Programada.* Usar soluciones exactas como pruebas de código; no cubierto.
+*Texto redactado, pendiente de revisión.* Usar soluciones exactas como pruebas de código; no cubierto.
 
 ### B23-C04 — Soluciones de referencia y manufactured solutions
 
-*Programada.* Método de soluciones fabricadas y comparaciones con código de referencia; no cubierto.
+*Texto redactado, pendiente de revisión.* Método de soluciones fabricadas y comparaciones con código de referencia; no cubierto.
 
 ### B23-C05 — Validación con conjuntos oficiales
 

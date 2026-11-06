@@ -1,6 +1,7 @@
 # B23-C02 — Pruebas de propiedades físicas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C01 — Pruebas unitarias numéricas con tolerancias](../B23-C01-pruebas-unitarias-numericas-con-tolerancias/CLASE.md) · [Siguiente: B23-C03 — Casos analíticos de validación →](../B23-C03-casos-analiticos-de-validacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -331,4 +332,7 @@ Una propiedad física convierte lo que sabes del mundo en una prueba sin respues
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B23-C01 — Pruebas unitarias numéricas con tolerancias](../B23-C01-pruebas-unitarias-numericas-con-tolerancias/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B23-C03 — Casos analíticos de validación →](../B23-C03-casos-analiticos-de-validacion/CLASE.md)
 <!-- /nav -->

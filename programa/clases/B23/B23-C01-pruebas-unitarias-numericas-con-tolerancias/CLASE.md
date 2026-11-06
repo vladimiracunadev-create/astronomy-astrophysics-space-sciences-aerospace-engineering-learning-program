@@ -1,6 +1,7 @@
 # B23-C01 — Pruebas unitarias numéricas con tolerancias
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B22-C05 — Pruebas de inversión con datos sintéticos](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md#b22-c05) · [Siguiente: B23-C02 — Pruebas de propiedades físicas →](../B23-C02-pruebas-de-propiedades-fisicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,4 +323,7 @@ Una tolerancia es una decisión con justificación: el piso lo pone la aritméti
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B22-C05 — Pruebas de inversión con datos sintéticos](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md#b22-c05) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B23-C02 — Pruebas de propiedades físicas →](../B23-C02-pruebas-de-propiedades-fisicas/CLASE.md)
 <!-- /nav -->

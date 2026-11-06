@@ -1,6 +1,7 @@
 # B23-C03 — Casos analíticos de validación
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C02 — Pruebas de propiedades físicas](../B23-C02-pruebas-de-propiedades-fisicas/CLASE.md) · [Siguiente: B23-C04 — Soluciones de referencia y manufactured solutions →](../B23-C04-soluciones-de-referencia-y-manufactured-solutions/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -323,4 +324,7 @@ Una solución exacta convierte «parece bien» en una medida: el valor te dice c
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B23-C02 — Pruebas de propiedades físicas](../B23-C02-pruebas-de-propiedades-fisicas/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B23-C04 — Soluciones de referencia y manufactured solutions →](../B23-C04-soluciones-de-referencia-y-manufactured-solutions/CLASE.md)
 <!-- /nav -->
