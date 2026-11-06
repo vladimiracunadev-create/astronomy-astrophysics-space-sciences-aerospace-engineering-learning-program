@@ -71,15 +71,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b13-c12"></a>[B13-C12](../clases/B13/B13-C12-incertidumbre-expandida/CLASE.md) | Incertidumbre expandida | Incertidumbre típica, factor de cobertura y nivel de confianza; qué asume `k = 2`. | Reporte con `U` y cobertura simulada |
-| <a id="b13-c13"></a>B13-C13 | Presupuestos de incertidumbre | Propagación de varianzas, coeficientes de sensibilidad y contribuciones dominantes. | Presupuesto de una medida indirecta |
-| <a id="b13-c14"></a>B13-C14 | Repetibilidad y reproducibilidad | Condiciones de repetibilidad y reproducibilidad; separar variación intra e inter laboratorio. | Estudio de dos operadores |
+| <a id="b13-c13"></a>[B13-C13](../clases/B13/B13-C13-presupuestos-de-incertidumbre/CLASE.md) | Presupuestos de incertidumbre | Propagación de varianzas, coeficientes de sensibilidad y contribuciones dominantes. | Presupuesto de una medida indirecta |
+| <a id="b13-c14"></a>[B13-C14](../clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md) | Repetibilidad y reproducibilidad | Condiciones de repetibilidad y reproducibilidad; separar variación intra e inter laboratorio. | Estudio de dos operadores |
 
 ### Tramo 5 · Cadenas instrumentales completas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b13-c15"></a>B13-C15 | Sensibilidad de detectores | Relación señal-ruido de un detector con ruido de disparo, de lectura y de oscuridad. | Señal mínima para una relación dada |
-| <a id="b13-c16"></a>B13-C16 | Calibración térmica | Calibración de un sensor de temperatura por dos puntos y balance térmico de una superficie. | Calibración térmica con incertidumbre |
+| <a id="b13-c15"></a>[B13-C15](../clases/B13/B13-C15-sensibilidad-de-detectores/CLASE.md) | Sensibilidad de detectores | Relación señal-ruido de un detector con ruido de disparo, de lectura y de oscuridad. | Señal mínima para una relación dada |
+| <a id="b13-c16"></a>[B13-C16](../clases/B13/B13-C16-calibracion-termica/CLASE.md) | Calibración térmica | Calibración de un sensor de temperatura por dos puntos y balance térmico de una superficie. | Calibración térmica con incertidumbre |
 | <a id="b13-c17"></a>B13-C17 | Calibración radiométrica | Ley de Planck, radiancia y calibración con una fuente de cuerpo negro. | Calibración radiancia–cuentas |
 | <a id="b13-c18"></a>B13-C18 | Intercomparación de instrumentos | Diferencia normalizada entre dos instrumentos y media ponderada. | Informe de intercomparación |
 | <a id="b13-c19"></a>B13-C19 | Metadatos y registros de calibración | Qué debe contener un registro de calibración y cómo validarlo y firmarlo. | Registro de calibración validado |

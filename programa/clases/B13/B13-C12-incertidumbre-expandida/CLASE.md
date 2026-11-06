@@ -1,7 +1,7 @@
 # B13-C12 — Incertidumbre expandida
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C11 — Sistemas de referencia terrestres](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md) · [Siguiente: B13-C13 — Presupuestos de incertidumbre →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C11 — Sistemas de referencia terrestres](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md) · [Siguiente: B13-C13 — Presupuestos de incertidumbre →](../B13-C13-presupuestos-de-incertidumbre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ La incertidumbre expandida es `U = k u`; su cobertura real depende de `k`, de lo
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B13-C11 — Sistemas de referencia terrestres](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C13 — Presupuestos de incertidumbre →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c13)
+[← Anterior: B13-C11 — Sistemas de referencia terrestres](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C13 — Presupuestos de incertidumbre →](../B13-C13-presupuestos-de-incertidumbre/CLASE.md)
 <!-- /nav -->
