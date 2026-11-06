@@ -1,7 +1,7 @@
 # B13-C20 — Validación de una cadena de medida
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C19 — Metadatos y registros de calibración](../B13-C19-metadatos-y-registros-de-calibracion/CLASE.md) · [Siguiente: B13-C21 — Sistema de referencia celeste ICRF y cuásares →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C19 — Metadatos y registros de calibración](../B13-C19-metadatos-y-registros-de-calibracion/CLASE.md) · [Siguiente: B13-C21 — Sistema de referencia celeste ICRF y cuásares →](../B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Una cadena de medida se calibra, se presupuesta y se **valida con referencias in
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B13-C19 — Metadatos y registros de calibración](../B13-C19-metadatos-y-registros-de-calibracion/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C21 — Sistema de referencia celeste ICRF y cuásares →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c21)
+[← Anterior: B13-C19 — Metadatos y registros de calibración](../B13-C19-metadatos-y-registros-de-calibracion/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C21 — Sistema de referencia celeste ICRF y cuásares →](../B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md)
 <!-- /nav -->

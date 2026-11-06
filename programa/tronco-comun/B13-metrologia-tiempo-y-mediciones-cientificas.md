@@ -1,11 +1,11 @@
 # B13 — Metrología, tiempo y mediciones científicas
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 3 clases programadas (`B13-C21` a `B13-C23`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B13-C21` a `B13-C23`), ya redactadas y listadas en el tramo 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
-**Nivel:** N2 (fundamentos aplicados) · **Clases:** 20 · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B13-C21` a `B13-C23` siguen solo programadas.
+**Nivel:** N2 (fundamentos aplicados) · **Clases:** 20 + 3 de la ampliación · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B13-C21` a `B13-C23` (ampliación `0.2.0`) también están redactadas y conservan el mismo estado.
 
 ## 🎯 Propósito del bloque
 
@@ -34,7 +34,7 @@ flowchart LR
 
 **Descripción textual.** Cinco tramos encadenados: fundamentos de medida (C01–C04), calibración y tiempo (C05–C09), geometría del tiempo y de la Tierra (C10–C11), incertidumbre cuantificada (C12–C14) y cadenas instrumentales completas (C15–C20), que terminan en una validación integradora.
 
-## 🗂️ Las 20 clases en resumen
+## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
@@ -85,11 +85,20 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b13-c19"></a>[B13-C19](../clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md) | Metadatos y registros de calibración | Qué debe contener un registro de calibración y cómo validarlo y firmarlo. | Registro de calibración validado |
 | <a id="b13-c20"></a>[B13-C20](../clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md) | Validación de una cadena de medida | Integrar patrón, calibración, presupuesto y validación frente a un criterio de aceptación. | Informe de validación de una cadena |
 
+### Tramo 6 · Ampliación `0.2.0`: orientación celeste-terrestre y deriva
+
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b13-c21"></a>[B13-C21](../clases/B13/B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md) | Sistema de referencia celeste ICRF y cuásares | El ICRS y su realización ICRF1–3 con cuásares; convertir milisegundos de arco en metros y calcular separaciones angulares sin perder precisión. | Ficha del marco celeste y su error en metros |
+| <a id="b13-c22"></a>[B13-C22](../clases/B13/B13-C22-parametros-de-orientacion-terrestre-precesion-nutacion-ut1-y-movimiento-polar/CLASE.md) | Parámetros de orientación terrestre: precesión, nutación, UT1 y movimiento polar | La cadena `[GCRS] = Q R W [ITRS]` y el efecto en metros de UT1−UTC, el movimiento polar y el polo celeste. | Tabla de efectos de los EOP en metros |
+| <a id="b13-c23"></a>[B13-C23](../clases/B13/B13-C23-estabilidad-y-deriva-temporal-de-instrumentos/CLASE.md) | Estabilidad y deriva temporal de instrumentos | Seguir la deriva con una referencia estable, ajustar la tendencia con su incertidumbre, calcular el tiempo de detección y corregir. | Informe de seguimiento de deriva |
+
 ## 🧵 Hilos que atraviesan el bloque
 
 - **Incertidumbre:** C03–C04 la separan en sesgo y dispersión; C12–C14 la cuantifican; C20 la usa para aceptar o rechazar una cadena.
 - **Tiempo:** C06–C10 construyen la cadena segundo → reloj → escala → fecha → ángulo de rotación.
 - **Trazabilidad:** C01–C02 la definen; C05, C16–C17 la aplican a instrumentos; C19 la registra.
+- **Orientación y deriva (ampliación):** C21–C22 extienden C10–C11 al marco celeste; C23 extiende C05 en el tiempo.
 - **Verificación independiente:** cada laboratorio contrasta con un caso analítico o una referencia.
 
 ## 📝 Evaluación del bloque (propuesta, por calibrar)
