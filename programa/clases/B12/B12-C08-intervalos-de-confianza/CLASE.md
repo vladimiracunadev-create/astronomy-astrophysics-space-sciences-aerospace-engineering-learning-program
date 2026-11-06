@@ -1,7 +1,7 @@
 # B12-C08 — Intervalos de confianza
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C07 — Estimación de parámetros](../B12-C07-estimacion-de-parametros/CLASE.md) · [Siguiente: B12-C09 — Pruebas de hipótesis →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C07 — Estimación de parámetros](../B12-C07-estimacion-de-parametros/CLASE.md) · [Siguiente: B12-C09 — Pruebas de hipótesis →](../B12-C09-pruebas-de-hipotesis/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Un intervalo de confianza convierte una estimación y su error típico en un ran
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B12-C07 — Estimación de parámetros](../B12-C07-estimacion-de-parametros/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C09 — Pruebas de hipótesis →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c09)
+[← Anterior: B12-C07 — Estimación de parámetros](../B12-C07-estimacion-de-parametros/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C09 — Pruebas de hipótesis →](../B12-C09-pruebas-de-hipotesis/CLASE.md)
 <!-- /nav -->
