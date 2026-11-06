@@ -1,7 +1,7 @@
 # B10-C01 — Espacios vectoriales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B09-C20 — Aplicaciones a campos gravitatorios](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c20) · [Siguiente: B10-C02 — Bases y dimensión →](../B10-C02-bases-y-dimension/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B09-C20 — Aplicaciones a campos gravitatorios](../../B09/B09-C20-aplicaciones-a-campos-gravitatorios/CLASE.md) · [Siguiente: B10-C02 — Bases y dimensión →](../B10-C02-bases-y-dimension/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ Un espacio vectorial es un conjunto cerrado bajo suma y escalamiento; un subespa
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B09-C20 — Aplicaciones a campos gravitatorios](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c20) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C02 — Bases y dimensión →](../B10-C02-bases-y-dimension/CLASE.md)
+[← Anterior: B09-C20 — Aplicaciones a campos gravitatorios](../../B09/B09-C20-aplicaciones-a-campos-gravitatorios/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C02 — Bases y dimensión →](../B10-C02-bases-y-dimension/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B09-C16 — Derivadas parciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C15 — Funciones de varias variables](../B09-C15-funciones-de-varias-variables/CLASE.md) · [Siguiente: B09-C17 — Gradiente y derivada direccional →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C15 — Funciones de varias variables](../B09-C15-funciones-de-varias-variables/CLASE.md) · [Siguiente: B09-C17 — Gradiente y derivada direccional →](../B09-C17-gradiente-y-derivada-direccional/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ La derivada parcial mide la sensibilidad a una variable con las demás fijas; co
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B09-C15 — Funciones de varias variables](../B09-C15-funciones-de-varias-variables/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C17 — Gradiente y derivada direccional →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c17)
+[← Anterior: B09-C15 — Funciones de varias variables](../B09-C15-funciones-de-varias-variables/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C17 — Gradiente y derivada direccional →](../B09-C17-gradiente-y-derivada-direccional/CLASE.md)
 <!-- /nav -->
