@@ -1,7 +1,7 @@
 # B13-C16 — Calibración térmica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C15 — Sensibilidad de detectores](../B13-C15-sensibilidad-de-detectores/CLASE.md) · [Siguiente: B13-C17 — Calibración radiométrica →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C15 — Sensibilidad de detectores](../B13-C15-sensibilidad-de-detectores/CLASE.md) · [Siguiente: B13-C17 — Calibración radiométrica →](../B13-C17-calibracion-radiometrica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ El kelvin se define con `k`; un sensor lineal se calibra con dos referencias y s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B13-C15 — Sensibilidad de detectores](../B13-C15-sensibilidad-de-detectores/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C17 — Calibración radiométrica →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c17)
+[← Anterior: B13-C15 — Sensibilidad de detectores](../B13-C15-sensibilidad-de-detectores/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C17 — Calibración radiométrica →](../B13-C17-calibracion-radiometrica/CLASE.md)
 <!-- /nav -->

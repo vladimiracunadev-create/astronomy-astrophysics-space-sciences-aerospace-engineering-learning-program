@@ -80,10 +80,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b13-c15"></a>[B13-C15](../clases/B13/B13-C15-sensibilidad-de-detectores/CLASE.md) | Sensibilidad de detectores | Relación señal-ruido de un detector con ruido de disparo, de lectura y de oscuridad. | Señal mínima para una relación dada |
 | <a id="b13-c16"></a>[B13-C16](../clases/B13/B13-C16-calibracion-termica/CLASE.md) | Calibración térmica | Calibración de un sensor de temperatura por dos puntos y balance térmico de una superficie. | Calibración térmica con incertidumbre |
-| <a id="b13-c17"></a>B13-C17 | Calibración radiométrica | Ley de Planck, radiancia y calibración con una fuente de cuerpo negro. | Calibración radiancia–cuentas |
-| <a id="b13-c18"></a>B13-C18 | Intercomparación de instrumentos | Diferencia normalizada entre dos instrumentos y media ponderada. | Informe de intercomparación |
-| <a id="b13-c19"></a>B13-C19 | Metadatos y registros de calibración | Qué debe contener un registro de calibración y cómo validarlo y firmarlo. | Registro de calibración validado |
-| <a id="b13-c20"></a>B13-C20 | Validación de una cadena de medida | Integrar patrón, calibración, presupuesto y validación frente a un criterio de aceptación. | Informe de validación de una cadena |
+| <a id="b13-c17"></a>[B13-C17](../clases/B13/B13-C17-calibracion-radiometrica/CLASE.md) | Calibración radiométrica | Ley de Planck, radiancia y calibración con una fuente de cuerpo negro. | Calibración radiancia–cuentas |
+| <a id="b13-c18"></a>[B13-C18](../clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md) | Intercomparación de instrumentos | Diferencia normalizada entre dos instrumentos y media ponderada. | Informe de intercomparación |
+| <a id="b13-c19"></a>[B13-C19](../clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md) | Metadatos y registros de calibración | Qué debe contener un registro de calibración y cómo validarlo y firmarlo. | Registro de calibración validado |
+| <a id="b13-c20"></a>[B13-C20](../clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md) | Validación de una cadena de medida | Integrar patrón, calibración, presupuesto y validación frente a un criterio de aceptación. | Informe de validación de una cadena |
 
 ## 🧵 Hilos que atraviesan el bloque
 
