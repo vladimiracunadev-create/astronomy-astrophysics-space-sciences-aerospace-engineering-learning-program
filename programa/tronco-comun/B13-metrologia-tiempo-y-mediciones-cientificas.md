@@ -4,100 +4,111 @@
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N2 (fundamentos aplicados) · **Clases:** 20 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B13-C21` a `B13-C23` siguen solo programadas.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia metrología, tiempo y mediciones científicas; cubre desde «Sistema Internacional y constantes» hasta «Validación de una cadena de medida». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña a **medir con garantías**: qué unidades y constantes sostienen una medida, cómo se mide y se distribuye el tiempo, cómo se fija la posición sobre la Tierra, cómo se cuantifica la incertidumbre y cómo se calibra, compara y valida una cadena de medida. Es el lenguaje de confianza que usan todos los bloques que manejan datos de instrumentos, de seguimiento y de navegación.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B13-C01 — Sistema Internacional y constantes
+1. Explicar el SI, sus siete constantes definitorias y la trazabilidad de una medida a un patrón.
+2. Distinguir exactitud, precisión, sesgo y dispersión, y separar errores sistemáticos de aleatorios.
+3. Convertir entre escalas de tiempo (UTC, TAI, TT, TDB), tratar segundos intercalares y calcular el tiempo sidéreo.
+4. Pasar entre coordenadas geodésicas y cartesianas terrestres con un sistema de referencia declarado.
+5. Calcular y reportar incertidumbres (típica, combinada, expandida) y construir un presupuesto.
+6. Calibrar, comparar y validar instrumentos y documentar la cadena con metadatos completos.
 
-Introduce «sistema Internacional y constantes» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+## 🧭 Secuencia del bloque
 
-### B13-C02 — Dimensiones y trazabilidad
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Unidades, constantes,<br/>trazabilidad y error"]
+    B["C05-C09<br/>Calibración, patrones,<br/>relojes y escalas de tiempo"]
+    C["C10-C11<br/>Tiempo sidéreo<br/>y referencias terrestres"]
+    D["C12-C14<br/>Incertidumbre expandida,<br/>presupuestos y repetibilidad"]
+    E["C15-C20<br/>Detectores, calibración térmica<br/>y radiométrica, intercomparación,<br/>metadatos y validación"]
+    A --> B --> C --> D --> E
+```
 
-Delimita «dimensiones y trazabilidad», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cinco tramos encadenados: fundamentos de medida (C01–C04), calibración y tiempo (C05–C09), geometría del tiempo y de la Tierra (C10–C11), incertidumbre cuantificada (C12–C14) y cadenas instrumentales completas (C15–C20), que terminan en una validación integradora.
 
-### B13-C03 — Exactitud frente a precisión
+## 🗂️ Las 20 clases en resumen
 
-Introduce el contexto y los principios de «exactitud frente a precisión» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B13-C04 — Errores sistemáticos y aleatorios
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** (rotulados) o valores publicados con fuente y fecha.
 
-Describe los componentes principales de «errores sistemáticos y aleatorios» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Unidades, constantes, trazabilidad y error
 
-### B13-C05 — Calibración instrumental
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b13-c01"></a>[B13-C01](../clases/B13/B13-C01-sistema-internacional-y-constantes/CLASE.md) | Sistema Internacional y constantes | Las siete constantes exactas del SI, distinguir exacto de medido y convertir sin perder cifras (tiempo de luz, GM, au). | Hoja de constantes y conversiones |
+| <a id="b13-c02"></a>[B13-C02](../clases/B13/B13-C02-dimensiones-y-trazabilidad/CLASE.md) | Dimensiones y trazabilidad | Análisis dimensional con vectores de exponentes; trazabilidad como cadena documentada cuya incertidumbre se acumula. | Informe de consistencia y trazabilidad |
+| <a id="b13-c03"></a>[B13-C03](../clases/B13/B13-C03-exactitud-frente-a-precision/CLASE.md) | Exactitud frente a precisión | Sesgo, dispersión y error cuadrático medio; por qué promediar no corrige un sesgo. | Tabla de cuatro instrumentos |
+| <a id="b13-c04"></a>[B13-C04](../clases/B13/B13-C04-errores-sistematicos-y-aleatorios/CLASE.md) | Errores sistemáticos y aleatorios | Ley `1/√n`, sesgo constante frente a deriva y cómo se descubre un sesgo. | Diagnóstico de una serie de medidas |
 
-Describe «calibración instrumental», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
+### Tramo 2 · Calibración y tiempo
 
-### B13-C06 — Patrones de longitud y tiempo
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b13-c05"></a>B13-C05 | Calibración instrumental | Curva de calibración por mínimos cuadrados con incertidumbre de pendiente y ordenada; inversión de la curva. | Curva de calibración con su incertidumbre |
+| <a id="b13-c06"></a>B13-C06 | Patrones de longitud y tiempo | Cómo se realizan el metro y el segundo, y cómo un error de frecuencia se convierte en error de distancia. | Cuaderno de equivalencias tiempo–distancia |
+| <a id="b13-c07"></a>B13-C07 | Relojes atómicos y frecuencia | Estabilidad de frecuencia, desviación de Allan y tipos de ruido de un reloj. | Curva de estabilidad con su interpretación |
+| <a id="b13-c08"></a>B13-C08 | Escalas UTC, TAI, TT y TDB | Qué mide cada escala, cómo se convierten y qué usa una efeméride. | Conversión verificada entre cuatro escalas |
+| <a id="b13-c09"></a>B13-C09 | Segundos intercalares y cronología | Fechas julianas, el calendario y el tratamiento de los segundos intercalares. | Conversor de fechas con prueba de segundo intercalar |
 
-Explica el fenómeno o técnica de «patrones de longitud y tiempo» y su aplicación observable o tecnológica.
+### Tramo 3 · Tiempo sidéreo y referencias terrestres
 
-### B13-C07 — Relojes atómicos y frecuencia
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b13-c10"></a>B13-C10 | Tiempo sidéreo local y terrestre | Ángulo de rotación terrestre, día sidéreo y ángulo horario local de una dirección celeste. | Tabla de ángulo de rotación y culminación |
+| <a id="b13-c11"></a>B13-C11 | Sistemas de referencia terrestres | ITRS/ITRF, elipsoide, conversión geodésica ↔ cartesiana y velocidad por rotación. | Conversor de coordenadas con ida y vuelta |
 
-Delimita «relojes atómicos y frecuencia», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Incertidumbre cuantificada
 
-### B13-C08 — Escalas UTC, TAI, TT y TDB
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b13-c12"></a>B13-C12 | Incertidumbre expandida | Incertidumbre típica, factor de cobertura y nivel de confianza; qué asume `k = 2`. | Reporte con `U` y cobertura simulada |
+| <a id="b13-c13"></a>B13-C13 | Presupuestos de incertidumbre | Propagación de varianzas, coeficientes de sensibilidad y contribuciones dominantes. | Presupuesto de una medida indirecta |
+| <a id="b13-c14"></a>B13-C14 | Repetibilidad y reproducibilidad | Condiciones de repetibilidad y reproducibilidad; separar variación intra e inter laboratorio. | Estudio de dos operadores |
 
-Introduce el contexto y los principios de «escalas UTC, TAI, TT y TDB» para comprender su uso científico.
+### Tramo 5 · Cadenas instrumentales completas
 
-### B13-C09 — Segundos intercalares y cronología
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b13-c15"></a>B13-C15 | Sensibilidad de detectores | Relación señal-ruido de un detector con ruido de disparo, de lectura y de oscuridad. | Señal mínima para una relación dada |
+| <a id="b13-c16"></a>B13-C16 | Calibración térmica | Calibración de un sensor de temperatura por dos puntos y balance térmico de una superficie. | Calibración térmica con incertidumbre |
+| <a id="b13-c17"></a>B13-C17 | Calibración radiométrica | Ley de Planck, radiancia y calibración con una fuente de cuerpo negro. | Calibración radiancia–cuentas |
+| <a id="b13-c18"></a>B13-C18 | Intercomparación de instrumentos | Diferencia normalizada entre dos instrumentos y media ponderada. | Informe de intercomparación |
+| <a id="b13-c19"></a>B13-C19 | Metadatos y registros de calibración | Qué debe contener un registro de calibración y cómo validarlo y firmarlo. | Registro de calibración validado |
+| <a id="b13-c20"></a>B13-C20 | Validación de una cadena de medida | Integrar patrón, calibración, presupuesto y validación frente a un criterio de aceptación. | Informe de validación de una cadena |
 
-Describe los componentes principales de «segundos intercalares y cronología» y por qué son relevantes para esta disciplina.
+## 🧵 Hilos que atraviesan el bloque
 
-### B13-C10 — Tiempo sidéreo local y terrestre
+- **Incertidumbre:** C03–C04 la separan en sesgo y dispersión; C12–C14 la cuantifican; C20 la usa para aceptar o rechazar una cadena.
+- **Tiempo:** C06–C10 construyen la cadena segundo → reloj → escala → fecha → ángulo de rotación.
+- **Trazabilidad:** C01–C02 la definen; C05, C16–C17 la aplican a instrumentos; C19 la registra.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico o una referencia.
 
-Presenta qué significa «tiempo sidéreo local y terrestre», sus elementos esenciales y su función dentro de metrología, tiempo y mediciones científicas.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B13-C11 — Sistemas de referencia terrestres
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: una cadena de medida completa (C20) con presupuesto, calibración, metadatos y validación.
+- Las condiciones críticas (no tratar una estimación como exacta, declarar siempre la incertidumbre, rotular lo sintético y citar solo lo consultado) no se compensan con promedio.
 
-Introduce «sistemas de referencia terrestres» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+## ⚠️ Seguridad y límites
 
-### B13-C12 — Incertidumbre expandida
-
-Delimita «incertidumbre expandida», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B13-C13 — Presupuestos de incertidumbre
-
-Introduce el contexto y los principios de «presupuestos de incertidumbre» para comprender su uso científico.
-
-### B13-C14 — Repetibilidad y reproducibilidad
-
-Describe los componentes principales de «repetibilidad y reproducibilidad» y por qué son relevantes para esta disciplina.
-
-### B13-C15 — Sensibilidad de detectores
-
-Presenta qué significa «sensibilidad de detectores», sus elementos esenciales y su función dentro de metrología, tiempo y mediciones científicas.
-
-### B13-C16 — Calibración térmica
-
-Describe «calibración térmica», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B13-C17 — Calibración radiométrica
-
-Describe «calibración radiométrica», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B13-C18 — Intercomparación de instrumentos
-
-Introduce el contexto y los principios de «intercomparación de instrumentos» para comprender su uso científico.
-
-### B13-C19 — Metadatos y registros de calibración
-
-Describe «metadatos y registros de calibración», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B13-C20 — Validación de una cadena de medida
-
-Presenta qué significa «validación de una cadena de medida», sus elementos esenciales y su función dentro de metrología, tiempo y mediciones científicas.
+El bloque es educativo. Los instrumentos y datos de laboratorio son simulados y no sustituyen la calibración acreditada, los certificados de un laboratorio ni los productos oficiales del BIPM o del IERS. Las predicciones de tiempo y de orientación terrestre con fines operativos deben usar los boletines vigentes. Las cifras publicadas se citan con fecha de consulta.
 
 ## Fuentes de orientación preliminar
 
-- **[NIST]** [NIST Publications](https://www.nist.gov/publications) — Metrología, física, seguridad, computación y normas.
-- **[IERS]** [International Earth Rotation and Reference Systems Service](https://www.iers.org/) — Rotación terrestre y sistemas de referencia.
-- **[JPL-SPICE]** [NASA NAIF SPICE](https://naif.jpl.nasa.gov/naif/) — Geometría de observación, referencias espaciales y tiempos.
-- **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos e investigación histórica y actual.
+- **[NIST]** [National Institute of Standards and Technology](https://www.nist.gov/) — Constantes, patrones y metrología.
+- **[IERS]** [International Earth Rotation and Reference Systems Service](https://www.iers.org/) — Convenciones, rotación terrestre y sistemas de referencia.
+- **[JPL-SPICE]** [NASA NAIF/SPICE](https://naif.jpl.nasa.gov/naif/) — Tiempo y referencias en misiones.
+- **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos de misión.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B14 — Computación científica y ciencia abierta](./B14-computacion-cientifica-y-ciencia-abierta.md)
