@@ -1,7 +1,7 @@
 # B22-C05 — Pruebas de inversión con datos sintéticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B22-C04 — Inversión espectral](../B22-C04-inversion-espectral/CLASE.md) · [Siguiente: B23-C01 — Pruebas unitarias numéricas con tolerancias →](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md#b23-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B22-C04 — Inversión espectral](../B22-C04-inversion-espectral/CLASE.md) · [Siguiente: B23-C01 — Pruebas unitarias numéricas con tolerancias →](../../B23/B23-C01-pruebas-unitarias-numericas-con-tolerancias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ Una prueba sintética permite medir el error de una inversión porque se conoce 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B22-C04 — Inversión espectral](../B22-C04-inversion-espectral/CLASE.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B23-C01 — Pruebas unitarias numéricas con tolerancias →](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md#b23-c01)
+[← Anterior: B22-C04 — Inversión espectral](../B22-C04-inversion-espectral/CLASE.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B23-C01 — Pruebas unitarias numéricas con tolerancias →](../../B23/B23-C01-pruebas-unitarias-numericas-con-tolerancias/CLASE.md)
 <!-- /nav -->

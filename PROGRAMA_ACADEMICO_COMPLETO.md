@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 294 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 299 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -505,11 +505,11 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *Bloque nuevo (5 clases): Problemas directos e inversos y mal condicionamiento; Regularización de Tikhonov; Identificabilidad de parámetros…*
 
-- **B22-C01 — Problemas directos e inversos y mal condicionamiento.** *Programada.* Define el problema inverso, la no unicidad y el mal planteamiento; B15-C15 estima parámetros sin esta teoría.
-- **B22-C02 — Regularización de Tikhonov.** *Programada.* Regularización y selección del parámetro (curva L); ausente en B10-C07, que solo trata mínimos cuadrados.
-- **B22-C03 — Identificabilidad de parámetros.** *Programada.* Cuándo los datos determinan los parámetros; no cubierto.
-- **B22-C04 — Inversión espectral.** *Programada.* Recuperar parámetros físicos desde espectros mediante inversión; B45 describe espectros sin inversión formal.
-- **B22-C05 — Pruebas de inversión con datos sintéticos.** *Programada.* Experimentos con datos simulados y el «crimen inverso»; ninguna clase actual lo trata.
+- **B22-C01 — Problemas directos e inversos y mal condicionamiento.** *Texto redactado, pendiente de revisión.* Define el problema inverso, la no unicidad y el mal planteamiento; B15-C15 estima parámetros sin esta teoría.
+- **B22-C02 — Regularización de Tikhonov.** *Texto redactado, pendiente de revisión.* Regularización y selección del parámetro (curva L); ausente en B10-C07, que solo trata mínimos cuadrados.
+- **B22-C03 — Identificabilidad de parámetros.** *Texto redactado, pendiente de revisión.* Cuándo los datos determinan los parámetros; no cubierto.
+- **B22-C04 — Inversión espectral.** *Texto redactado, pendiente de revisión.* Recuperar parámetros físicos desde espectros mediante inversión; B45 describe espectros sin inversión formal.
+- **B22-C05 — Pruebas de inversión con datos sintéticos.** *Texto redactado, pendiente de revisión.* Experimentos con datos simulados y el «crimen inverso»; ninguna clase actual lo trata.
 
 ### B23 — Verificación y validación de software científico
 
