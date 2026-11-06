@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B111-C01 — Fundamentos de factores humanos en operaciones espaciales
 
-*Programada, sin redactar.* B106-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores).
+*Programada.* B106-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores).
 
 ### B111-C02 — Gestión intercultural en tripulaciones multinacionales
 
-*Programada, sin redactar.* Ninguna clase trata diferencias culturales y de idioma en equipos internacionales.
+*Programada.* Ninguna clase trata diferencias culturales y de idioma en equipos internacionales.
 
 ### B111-C03 — Carga cognitiva y gestión de la atención
 
-*Programada, sin redactar.* Ninguna clase trata la carga cognitiva ni el diseño de tareas para limitarla.
+*Programada.* Ninguna clase trata la carga cognitiva ni el diseño de tareas para limitarla.
 
 ### B111-C04 — Conciencia situacional en operaciones de vuelo
 
-*Programada, sin redactar.* B119-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación.
+*Programada.* B119-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación.
 
 ### B111-C05 — Toma de decisiones con incertidumbre en equipo
 
-*Programada, sin redactar.* B12 da herramientas estadísticas, no la decisión grupal bajo presión.
+*Programada.* B12 da herramientas estadísticas, no la decisión grupal bajo presión.
 
 ### B111-C06 — Gestión del error humano y cultura de seguridad
 
-*Programada, sin redactar.* Falta la clase sobre tipos de error, barreras y reporte.
+*Programada.* Falta la clase sobre tipos de error, barreras y reporte.
 
 ## Roles que lo usan
 

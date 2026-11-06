@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B115-C01 — Cultivos hidropónicos para hábitats
 
-*Programada, sin redactar.* B106-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos.
+*Programada.* B106-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos.
 
 ### B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento
 
-*Programada, sin redactar.* Aporta espectro, fotoperiodo y eficiencia energética para plantas; B106-C13 trata la iluminación humana.
+*Programada.* Aporta espectro, fotoperiodo y eficiencia energética para plantas; B106-C13 trata la iluminación humana.
 
 ### B115-C03 — Control de nutrientes y solución nutritiva
 
-*Programada, sin redactar.* Enseña dosificación y monitoreo de nutrientes en circuito cerrado; no hay clase equivalente.
+*Programada.* Enseña dosificación y monitoreo de nutrientes en circuito cerrado; no hay clase equivalente.
 
 ### B115-C04 — Sistemas aeropónicos
 
-*Programada, sin redactar.* Cubre cultivo con raíces en niebla, ventajas de masa y agua; no cubierto en B106-C12.
+*Programada.* Cubre cultivo con raíces en niebla, ventajas de masa y agua; no cubierto en B106-C12.
 
 ### B115-C05 — Ciclos de producción y calendarización de cultivos
 
-*Programada, sin redactar.* Aporta la planificación escalonada de siembra y cosecha para cubrir demanda de una tripulación.
+*Programada.* Aporta la planificación escalonada de siembra y cosecha para cubrir demanda de una tripulación.
 
 ### B115-C06 — Balance de agua y evapotranspiración en cultivos
 
-*Programada, sin redactar.* Enseña a cuantificar el agua de cultivo y su recuperación; B106-C06 trata solo reciclaje de agua humana.
+*Programada.* Enseña a cuantificar el agua de cultivo y su recuperación; B106-C06 trata solo reciclaje de agua humana.
 
 ### B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats
 
-*Programada, sin redactar.* Cubre patógenos, microbioma de plantas y control higiénico de cultivos; B105-C11 trata solo el microbioma humano.
+*Programada.* Cubre patógenos, microbioma de plantas y control higiénico de cultivos; B105-C11 trata solo el microbioma humano.
 
 ## Roles que lo usan
 

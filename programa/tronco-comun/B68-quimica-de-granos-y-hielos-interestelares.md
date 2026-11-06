@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B68-C01 — Desorción térmica de hielos interestelares
 
-*Programada, sin redactar.* B55-C06 describe hielos; falta la desorción térmica y su cinética.
+*Programada.* B55-C06 describe hielos; falta la desorción térmica y su cinética.
 
 ### B68-C02 — Fotodesorción de hielos interestelares
 
-*Programada, sin redactar.* Ninguna clase trata fotodesorción.
+*Programada.* Ninguna clase trata fotodesorción.
 
 ### B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos
 
-*Programada, sin redactar.* Ninguna clase trata radiólisis de hielos ni los productos de irradiación.
+*Programada.* Ninguna clase trata radiólisis de hielos ni los productos de irradiación.
 
 ### B68-C04 — Laboratorio de astroquímica de hielos en ultra alto vacío criogénico
 
-*Programada, sin redactar.* Ninguna clase trata montajes de laboratorio criogénico de hielos astrofísicos.
+*Programada.* Ninguna clase trata montajes de laboratorio criogénico de hielos astrofísicos.
 
 ## Roles que lo usan
 

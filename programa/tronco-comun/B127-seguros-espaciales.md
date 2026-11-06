@@ -15,35 +15,35 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B127-C01 — Seguros de lanzamiento
 
-*Programada, sin redactar.* B124-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias.
+*Programada.* B124-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias.
 
 ### B127-C02 — Seguros en órbita
 
-*Programada, sin redactar.* La cobertura durante la vida en órbita difiere de la de lanzamiento y no está tratada.
+*Programada.* La cobertura durante la vida en órbita difiere de la de lanzamiento y no está tratada.
 
 ### B127-C03 — Seguros de responsabilidad civil espacial
 
-*Programada, sin redactar.* La responsabilidad por daños a terceros se asegura aparte; ninguna clase la trata.
+*Programada.* La responsabilidad por daños a terceros se asegura aparte; ninguna clase la trata.
 
 ### B127-C04 — Exclusiones, deducibles y límites de pólizas
 
-*Programada, sin redactar.* Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trata.
+*Programada.* Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trata.
 
 ### B127-C05 — Evaluación actuarial básica del riesgo espacial
 
-*Programada, sin redactar.* Estimar primas y pérdidas requiere nociones actuariales; B12 trata estadística sin su aplicación a seguros.
+*Programada.* Estimar primas y pérdidas requiere nociones actuariales; B12 trata estadística sin su aplicación a seguros.
 
 ### B127-C06 — Gestión de siniestros espaciales
 
-*Programada, sin redactar.* Tras una pérdida hay un proceso de reclamación y peritaje que ninguna clase describe.
+*Programada.* Tras una pérdida hay un proceso de reclamación y peritaje que ninguna clase describe.
 
 ### B127-C07 — Reaseguro espacial
 
-*Programada, sin redactar.* El riesgo espacial se reparte mediante reaseguro; no hay clase al respecto.
+*Programada.* El riesgo espacial se reparte mediante reaseguro; no hay clase al respecto.
 
 ### B127-C08 — Simulación de cobertura de seguros para una misión
 
-*Programada, sin redactar.* Integrar los seguros de una misión en un caso permite practicar la decisión; no existe tal caso.
+*Programada.* Integrar los seguros de una misión en un caso permite practicar la decisión; no existe tal caso.
 
 ## Roles que lo usan
 

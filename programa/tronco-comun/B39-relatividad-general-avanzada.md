@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B39-C01 — Variedades, tensor métrico y geometría diferencial
 
-*Programada, sin redactar.* B26-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general.
+*Programada.* B26-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general.
 
 ### B39-C02 — Conexión afín y símbolos de Christoffel
 
-*Programada, sin redactar.* Ninguna clase define la derivada covariante ni los símbolos de Christoffel, necesarios para escribir geodésicas y curvatura.
+*Programada.* Ninguna clase define la derivada covariante ni los símbolos de Christoffel, necesarios para escribir geodésicas y curvatura.
 
 ### B39-C03 — Tensor de Riemann, Ricci y curvatura escalar
 
-*Programada, sin redactar.* B26-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones.
+*Programada.* B26-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones.
 
 ### B39-C04 — Tensor de energía-momento y fuentes de curvatura
 
-*Programada, sin redactar.* Ninguna clase describe el tensor energía-momento de fluidos y campos que actúa como fuente en las ecuaciones de Einstein.
+*Programada.* Ninguna clase describe el tensor energía-momento de fluidos y campos que actúa como fuente en las ecuaciones de Einstein.
 
 ### B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano
 
-*Programada, sin redactar.* B26-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano.
+*Programada.* B26-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano.
 
 ### B39-C06 — Introducción a la relatividad numérica: formalismo 3+1
 
-*Programada, sin redactar.* B11 trata métodos numéricos generales; ninguna clase presenta la descomposición 3+1 ni la evolución numérica de espacio-tiempos.
+*Programada.* B11 trata métodos numéricos generales; ninguna clase presenta la descomposición 3+1 ni la evolución numérica de espacio-tiempos.
 
 ## Roles que lo usan
 

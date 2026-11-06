@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B65-C01 — Convección del manto y evolución térmica de interiores planetarios
 
-*Programada, sin redactar.* B53-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica.
+*Programada.* B53-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica.
 
 ### B65-C02 — Dinamos planetarias y campos magnéticos de origen interno
 
-*Programada, sin redactar.* B30 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos.
+*Programada.* B30 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos.
 
 ### B65-C03 — Magnetismo cortical remanente y anomalías magnéticas
 
-*Programada, sin redactar.* Ninguna clase enseña la magnetización remanente de la corteza ni su uso para reconstruir antiguos campos (Marte, Luna).
+*Programada.* Ninguna clase enseña la magnetización remanente de la corteza ni su uso para reconstruir antiguos campos (Marte, Luna).
 
 ### B65-C04 — Flujo térmico planetario y balance térmico del interior
 
-*Programada, sin redactar.* B52-C17 trata evolución térmica por colisiones; no hay clase sobre flujo térmico superficial, radiactividad y enfriamiento secular.
+*Programada.* B52-C17 trata evolución térmica por colisiones; no hay clase sobre flujo térmico superficial, radiactividad y enfriamiento secular.
 
 ### B65-C05 — Inversión geofísica conjunta: validación de modelos interiores
 
-*Programada, sin redactar.* Ninguna clase enseña a confrontar modelos interiores con gravedad, sísmica y magnetismo ni a tratar la no unicidad de la inversión.
+*Programada.* Ninguna clase enseña a confrontar modelos interiores con gravedad, sísmica y magnetismo ni a tratar la no unicidad de la inversión.
 
 ### B65-C06 — Calentamiento por marea y equilibrio térmico en satélites
 
-*Programada, sin redactar.* B72-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado).
+*Programada.* B72-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado).
 
 ## Roles que lo usan
 

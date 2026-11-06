@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B110-C01 — Despresurización: detección, aislamiento y respuesta
 
-*Programada, sin redactar.* B106-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa.
+*Programada.* B106-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa.
 
 ### B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado
 
-*Programada, sin redactar.* B105-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* B105-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B110-C03 — Evacuación y refugio de emergencia
 
-*Programada, sin redactar.* Ninguna clase trata evacuación, refugio y vehículos de escape.
+*Programada.* Ninguna clase trata evacuación, refugio y vehículos de escape.
 
 ### B110-C04 — Priorización y decisiones bajo emergencia
 
-*Programada, sin redactar.* B104-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas.
+*Programada.* B104-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas.
 
 ### B110-C05 — Checklists de emergencia: ejecución y verificación cruzada
 
-*Programada, sin redactar.* Los checklists de emergencia se ejecutan bajo estrés con lectura y verificación cruzada; no tienen clase propia.
+*Programada.* Los checklists de emergencia se ejecutan bajo estrés con lectura y verificación cruzada; no tienen clase propia.
 
 ## Roles que lo usan
 

@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B116-C01 — Sensores fisiológicos y wearables para vuelo
 
-*Programada, sin redactar.* Ninguna clase trata los sensores fisiológicos ni su precisión.
+*Programada.* Ninguna clase trata los sensores fisiológicos ni su precisión.
 
 ### B116-C02 — Signos vitales: medición, interpretación y límites
 
-*Programada, sin redactar.* Falta la clase de signos vitales y sus rangos.
+*Programada.* Falta la clase de signos vitales y sus rangos.
 
 ### B116-C03 — Historia clínica remota y registros médicos de misión
 
-*Programada, sin redactar.* Ninguna clase trata registros clínicos de misión.
+*Programada.* Ninguna clase trata registros clínicos de misión.
 
 ### B116-C04 — Triage asistido por decisión
 
-*Programada, sin redactar.* Falta la clase de apoyo a decisiones de triage a distancia.
+*Programada.* Falta la clase de apoyo a decisiones de triage a distancia.
 
 ### B116-C05 — Alertas de salud y umbrales de monitorización
 
-*Programada, sin redactar.* Ninguna clase trata alertas de salud ni su gestión.
+*Programada.* Ninguna clase trata alertas de salud ni su gestión.
 
 ### B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)
 
-*Programada, sin redactar.* Ninguna clase trata los dispositivos biomédicos de a bordo.
+*Programada.* Ninguna clase trata los dispositivos biomédicos de a bordo.
 
 ### B116-C07 — Diseño de paneles de monitoreo de salud
 
-*Programada, sin redactar.* Falta el diseño de paneles de salud.
+*Programada.* Falta el diseño de paneles de salud.
 
 ## Roles que lo usan
 

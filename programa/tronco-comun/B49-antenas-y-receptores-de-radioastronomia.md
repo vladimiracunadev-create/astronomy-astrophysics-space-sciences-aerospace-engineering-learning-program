@@ -15,47 +15,47 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B49-C01 — Antenas de hilo: dipolo, monopolo e impedancia de radiación
 
-*Programada, sin redactar.* B46 arranca en antenas parabólicas (C03); ninguna clase del tronco enseña antenas de hilo, resistencia de radiación ni su uso como elemento de arreglo o de banda baja.
+*Programada.* B46 arranca en antenas parabólicas (C03); ninguna clase del tronco enseña antenas de hilo, resistencia de radiación ni su uso como elemento de arreglo o de banda baja.
 
 ### B49-C02 — Adaptación de impedancias y líneas de transmisión en antenas
 
-*Programada, sin redactar.* B89 trata presupuesto de enlace y ganancias, pero ninguna clase enseña impedancia característica, ROE ni redes de adaptación entre antena y receptor.
+*Programada.* B89 trata presupuesto de enlace y ganancias, pero ninguna clase enseña impedancia característica, ROE ni redes de adaptación entre antena y receptor.
 
 ### B49-C03 — Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores
 
-*Programada, sin redactar.* B43 cubre monturas y encoders de telescopios ópticos; ningún bloque trata modelos de apuntado, errores por flexión y calibración de apuntado de grandes antenas de radio.
+*Programada.* B43 cubre monturas y encoders de telescopios ópticos; ningún bloque trata modelos de apuntado, errores por flexión y calibración de apuntado de grandes antenas de radio.
 
 ### B49-C04 — Arreglos de antenas: factor de arreglo y formación de haz
 
-*Programada, sin redactar.* B46-C14 trata líneas de base interferométricas, pero no el factor de arreglo, el control de lóbulos ni la formación de haz de arreglos de fase.
+*Programada.* B46-C14 trata líneas de base interferométricas, pero no el factor de arreglo, el control de lóbulos ni la formación de haz de arreglos de fase.
 
 ### B49-C05 — Medición y calibración de patrones de antena
 
-*Programada, sin redactar.* B46-C04 enseña a interpretar diagramas de radiación; falta la competencia de medirlos (campo lejano, fuentes celestes, drones) y calibrarlos.
+*Programada.* B46-C04 enseña a interpretar diagramas de radiación; falta la competencia de medirlos (campo lejano, fuentes celestes, drones) y calibrarlos.
 
 ### B49-C06 — Amplificadores de bajo ruido (LNA): tecnología, ganancia y adaptación
 
-*Programada, sin redactar.* B46-C07 describe la cadena superheterodina de forma general; ninguna clase trata el diseño ni la caracterización de amplificadores de bajo ruido HEMT/SiGe.
+*Programada.* B46-C07 describe la cadena superheterodina de forma general; ninguna clase trata el diseño ni la caracterización de amplificadores de bajo ruido HEMT/SiGe.
 
 ### B49-C07 — Criogenia y refrigeración de receptores de radio
 
-*Programada, sin redactar.* B44-C08 y B47-C13 tratan enfriamiento de detectores ópticos y de instrumentos orbitales; ninguna cubre criostatos, cabezas frías y ruido físico de receptores de radio.
+*Programada.* B44-C08 y B47-C13 tratan enfriamiento de detectores ópticos y de instrumentos orbitales; ninguna cubre criostatos, cabezas frías y ruido físico de receptores de radio.
 
 ### B49-C08 — Estabilidad de ganancia de receptores y variaciones de ganancia
 
-*Programada, sin redactar.* B46-C08 trata estabilidad de osciladores; ninguna clase enseña deriva de ganancia, varianza de Allan de radiómetros ni técnicas de conmutación tipo Dicke.
+*Programada.* B46-C08 trata estabilidad de osciladores; ninguna clase enseña deriva de ganancia, varianza de Allan de radiómetros ni técnicas de conmutación tipo Dicke.
 
 ### B49-C09 — Linealidad, compresión e intermodulación de receptores de RF
 
-*Programada, sin redactar.* B44-C10 trata no linealidad de detectores ópticos; no hay clase sobre punto de compresión, productos de intermodulación y rango dinámico de receptores de RF.
+*Programada.* B44-C10 trata no linealidad de detectores ópticos; no hay clase sobre punto de compresión, productos de intermodulación y rango dinámico de receptores de RF.
 
 ### B49-C10 — Filtros de radiofrecuencia pasabanda y rechazo de banda imagen
 
-*Programada, sin redactar.* Ninguna clase del tronco enseña diseño ni selección de filtros pasabanda de RF; B15-C07 trata solo filtrado digital.
+*Programada.* Ninguna clase del tronco enseña diseño ni selección de filtros pasabanda de RF; B15-C07 trata solo filtrado digital.
 
 ### B49-C11 — Mezcladores de frecuencia: pérdida de conversión y productos espurios
 
-*Programada, sin redactar.* B46-C07 presenta la conversión de modo general; falta la competencia específica de mezcladores (pérdida de conversión, aislamiento, espurios, mezcladores SIS/HEB).
+*Programada.* B46-C07 presenta la conversión de modo general; falta la competencia específica de mezcladores (pérdida de conversión, aislamiento, espurios, mezcladores SIS/HEB).
 
 ## Roles que lo usan
 

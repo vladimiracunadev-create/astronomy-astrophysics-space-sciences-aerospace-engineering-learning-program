@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B132-C01 — Crítica histórica de fuentes y método historiográfico
 
-*Programada, sin redactar.* Contar la historia de la astronomía exige evaluar fuentes de época; B01-C19 trata fuentes de desinformación actual, no el método histórico.
+*Programada.* Contar la historia de la astronomía exige evaluar fuentes de época; B01-C19 trata fuentes de desinformación actual, no el método histórico.
 
 ### B132-C02 — Arqueología de observatorios y de instrumentos antiguos
 
-*Programada, sin redactar.* B02-C08 presenta los métodos; falta tratar cómo se estudian y datan los observatorios e instrumentos materiales.
+*Programada.* B02-C08 presenta los métodos; falta tratar cómo se estudian y datan los observatorios e instrumentos materiales.
 
 ### B132-C03 — Monumentos megalíticos y astronomía
 
-*Programada, sin redactar.* Los monumentos megalíticos son el caso clásico de la arqueoastronomía y no tienen clase propia.
+*Programada.* Los monumentos megalíticos son el caso clásico de la arqueoastronomía y no tienen clase propia.
 
 ### B132-C04 — Estadística de orientaciones en arqueoastronomía
 
-*Programada, sin redactar.* Decidir si un conjunto de orientaciones es intencional exige estadística; B02-C09 trata sesgos, no el análisis estadístico.
+*Programada.* Decidir si un conjunto de orientaciones es intencional exige estadística; B02-C09 trata sesgos, no el análisis estadístico.
 
 ### B132-C05 — Contexto ritual y social de la observación del cielo
 
-*Programada, sin redactar.* Interpretar un sitio exige su contexto social y ritual; el catálogo trata alineaciones sin ese contexto.
+*Programada.* Interpretar un sitio exige su contexto social y ritual; el catálogo trata alineaciones sin ese contexto.
 
 ### B132-C06 — Informe de un sitio arqueoastronómico
 
-*Programada, sin redactar.* El informe de sitio es el producto profesional de la arqueoastronomía; ninguna clase enseña a escribirlo.
+*Programada.* El informe de sitio es el producto profesional de la arqueoastronomía; ninguna clase enseña a escribirlo.
 
 ## Roles que lo usan
 

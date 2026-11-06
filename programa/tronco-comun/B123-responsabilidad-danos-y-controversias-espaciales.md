@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B123-C01 — Prueba del daño y cuantificación de la reparación
 
-*Programada, sin redactar.* Reclamar exige probar y cuantificar el daño; B119-C10 define la responsabilidad sin su prueba.
+*Programada.* Reclamar exige probar y cuantificar el daño; B119-C10 define la responsabilidad sin su prueba.
 
 ### B123-C02 — Causalidad y atribución jurídica del daño
 
-*Programada, sin redactar.* Atribuir un daño a un actor exige establecer causalidad; ninguna clase la trata.
+*Programada.* Atribuir un daño a un actor exige establecer causalidad; ninguna clase la trata.
 
 ### B123-C03 — Mecanismos de reclamación entre Estados
 
-*Programada, sin redactar.* El convenio de responsabilidad prevé vías de reclamación; ninguna clase explica cómo se tramitan.
+*Programada.* El convenio de responsabilidad prevé vías de reclamación; ninguna clase explica cómo se tramitan.
 
 ### B123-C04 — Arbitraje y resolución de controversias espaciales
 
-*Programada, sin redactar.* Las disputas comerciales y entre Estados se resuelven por arbitraje y otras vías; no hay clase al respecto.
+*Programada.* Las disputas comerciales y entre Estados se resuelven por arbitraje y otras vías; no hay clase al respecto.
 
 ## Roles que lo usan
 

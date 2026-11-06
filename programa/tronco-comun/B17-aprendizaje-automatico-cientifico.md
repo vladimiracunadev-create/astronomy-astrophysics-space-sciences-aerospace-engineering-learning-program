@@ -15,51 +15,51 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B17-C01 — Ingeniería de características científicas
 
-*Programada, sin redactar.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
+*Programada.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
 
 ### B17-C02 — Aprendizaje supervisado
 
-*Programada, sin redactar.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
+*Programada.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
 
 ### B17-C03 — Redes neuronales informadas por la física (PINN)
 
-*Programada, sin redactar.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
+*Programada.* Incorporar ecuaciones diferenciales a la pérdida; requiere redes y B11, pero no está cubierto.
 
 ### B17-C04 — Modelos sustitutos (surrogates)
 
-*Programada, sin redactar.* Emuladores de simuladores costosos; no cubierto.
+*Programada.* Emuladores de simuladores costosos; no cubierto.
 
 ### B17-C05 — Detección de anomalías
 
-*Programada, sin redactar.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
+*Programada.* Métodos no paramétricos y de aprendizaje; B12-C19 trata valores atípicos estadísticos.
 
 ### B17-C06 — Aprendizaje no supervisado
 
-*Programada, sin redactar.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
+*Programada.* Agrupamiento y reducción de dimensión; B10-C11 trata SVD sin agrupamiento.
 
 ### B17-C07 — Validación fuera de distribución
 
-*Programada, sin redactar.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.
+*Programada.* Detectar y medir degradación cuando los datos salen del entrenamiento; ausente.
 
 ### B17-C08 — Interpretabilidad con consistencia física
 
-*Programada, sin redactar.* Importancia de variables y restricciones físicas de modelos; ausente.
+*Programada.* Importancia de variables y restricciones físicas de modelos; ausente.
 
 ### B17-C09 — Prevención de fuga de datos
 
-*Programada, sin redactar.* Particiones por tiempo o fuente y fugas de información; ausente.
+*Programada.* Particiones por tiempo o fuente y fugas de información; ausente.
 
 ### B17-C10 — Conjuntos de datos etiquetados para aprendizaje supervisado
 
-*Programada, sin redactar.* Entrenar un modelo exige muestras etiquetadas bien construidas; el catálogo no tiene bloque de aprendizaje automático.
+*Programada.* Entrenar un modelo exige muestras etiquetadas bien construidas; el catálogo no tiene bloque de aprendizaje automático.
 
 ### B17-C11 — Redes de segmentación semántica de imágenes
 
-*Programada, sin redactar.* Delimitar fenómenos en imágenes con redes profundas es un método propio; B15-C13 trata segmentación clásica.
+*Programada.* Delimitar fenómenos en imágenes con redes profundas es un método propio; B15-C13 trata segmentación clásica.
 
 ### B17-C12 — Evaluación de modelos: precisión, exhaustividad y falsos positivos
 
-*Programada, sin redactar.* Un modelo de alertas se juzga por sus falsos positivos y negativos; el catálogo los trata solo para biofirmas y tránsitos.
+*Programada.* Un modelo de alertas se juzga por sus falsos positivos y negativos; el catálogo los trata solo para biofirmas y tránsitos.
 
 ## Roles que lo usan
 

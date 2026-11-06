@@ -15,35 +15,35 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B67-C01 — Selección de sitios de extracción con criterios múltiples
 
-*Programada, sin redactar.* Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B59 no trata la selección.
+*Programada.* Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B59 no trata la selección.
 
 ### B67-C02 — Diseño de un programa de prospección por fases
 
-*Programada, sin redactar.* Enseña a secuenciar reconocimiento, muestreo y confirmación; no hay clase que integre la prospección en un programa.
+*Programada.* Enseña a secuenciar reconocimiento, muestreo y confirmación; no hay clase que integre la prospección en un programa.
 
 ### B67-C03 — Muestreo criogénico y preservación de volátiles en muestras
 
-*Programada, sin redactar.* Cubre toma y conservación de muestras sin pérdida de volátiles; B55-C18 trata solo contaminación de muestras.
+*Programada.* Cubre toma y conservación de muestras sin pérdida de volátiles; B55-C18 trata solo contaminación de muestras.
 
 ### B67-C04 — Estimación de reservas y categorías de recursos
 
-*Programada, sin redactar.* Enseña a clasificar recursos y reservas con incertidumbre; B12 trata estimación general pero no su aplicación a reservas.
+*Programada.* Enseña a clasificar recursos y reservas con incertidumbre; B12 trata estimación general pero no su aplicación a reservas.
 
 ### B67-C05 — Modelos geoestadísticos de distribución de volátiles
 
-*Programada, sin redactar.* Aporta interpolación y kriging espacial aplicado a volátiles; B12-C03 trata distribuciones de probabilidad en general.
+*Programada.* Aporta interpolación y kriging espacial aplicado a volátiles; B12-C03 trata distribuciones de probabilidad en general.
 
 ### B67-C06 — Pérdida de volátiles por sublimación y migración térmica
 
-*Programada, sin redactar.* Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B59 ni B85.
+*Programada.* Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B59 ni B85.
 
 ### B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas
 
-*Programada, sin redactar.* Aporta los sensores que detectan y cuantifican volátiles; B44-C02 y B87-C04 no los tratan.
+*Programada.* Aporta los sensores que detectan y cuantifican volátiles; B44-C02 y B87-C04 no los tratan.
 
 ### B67-C08 — Informe de disponibilidad de volátiles con incertidumbre
 
-*Programada, sin redactar.* Enseña a redactar el informe técnico de disponibilidad con intervalos de confianza; sin clase equivalente.
+*Programada.* Enseña a redactar el informe técnico de disponibilidad con intervalos de confianza; sin clase equivalente.
 
 ## Roles que lo usan
 

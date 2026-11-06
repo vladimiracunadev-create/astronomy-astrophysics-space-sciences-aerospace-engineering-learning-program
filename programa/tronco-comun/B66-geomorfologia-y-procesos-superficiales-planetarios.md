@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B66-C01 — Valles y canales: morfología y origen en superficies planetarias
 
-*Programada, sin redactar.* B53 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo.
+*Programada.* B53 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo.
 
 ### B66-C02 — Procesos de ladera y transporte de masa
 
-*Programada, sin redactar.* Ninguna clase trata deslizamientos, flujos de detritos ni transporte de masa gravitatorio en cuerpos con gravedad distinta de la terrestre.
+*Programada.* Ninguna clase trata deslizamientos, flujos de detritos ni transporte de masa gravitatorio en cuerpos con gravedad distinta de la terrestre.
 
 ### B66-C03 — Procesos eólicos: dunas, ripples y erosión planetaria
 
-*Programada, sin redactar.* B54 trata atmósferas pero ninguna clase enseña transporte de arena y formas eólicas en Marte, Venus y Titán.
+*Programada.* B54 trata atmósferas pero ninguna clase enseña transporte de arena y formas eólicas en Marte, Venus y Titán.
 
 ### B66-C04 — Redes fluviales fósiles y paleohidrología marciana
 
-*Programada, sin redactar.* Ninguna clase enseña a leer redes de drenaje fósiles ni a estimar caudales y duración del agua superficial.
+*Programada.* Ninguna clase enseña a leer redes de drenaje fósiles ni a estimar caudales y duración del agua superficial.
 
 ### B66-C05 — Depósitos sedimentarios y sedimentología planetaria
 
-*Programada, sin redactar.* Ninguna clase trata deltas, estratos y facies sedimentarias como archivo de ambientes pasados en Marte y Titán.
+*Programada.* Ninguna clase trata deltas, estratos y facies sedimentarias como archivo de ambientes pasados en Marte y Titán.
 
 ## Roles que lo usan
 

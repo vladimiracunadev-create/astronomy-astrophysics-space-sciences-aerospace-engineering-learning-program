@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B82-C01 — Lambert de arco corto
 
-*Programada, sin redactar.* Resolución del caso de transferencia < 180°; B75-C04 solo enuncia la ecuación.
+*Programada.* Resolución del caso de transferencia < 180°; B75-C04 solo enuncia la ecuación.
 
 ### B82-C02 — Lambert de arco largo
 
-*Programada, sin redactar.* Caso > 180° y orientación del plano; ausente.
+*Programada.* Caso > 180° y orientación del plano; ausente.
 
 ### B82-C03 — Formulación de variables universales
 
-*Programada, sin redactar.* Solución unificada para elipse, parábola e hipérbola; no cubierto.
+*Programada.* Solución unificada para elipse, parábola e hipérbola; no cubierto.
 
 ### B82-C04 — Lambert multirrevolución
 
-*Programada, sin redactar.* Soluciones con revoluciones completas y selección de rama; ausente.
+*Programada.* Soluciones con revoluciones completas y selección de rama; ausente.
 
 ### B82-C05 — Singularidades del problema de Lambert
 
-*Programada, sin redactar.* Caso colineal y 180°, y su tratamiento numérico; no cubierto.
+*Programada.* Caso colineal y 180°, y su tratamiento numérico; no cubierto.
 
 ### B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo)
 
-*Programada, sin redactar.* Convergencia y velocidad de algoritmos de solución; ausente.
+*Programada.* Convergencia y velocidad de algoritmos de solución; ausente.
 
 ### B82-C07 — Benchmark entre solucionadores de Lambert
 
-*Programada, sin redactar.* Comparación de precisión y costo entre métodos; no cubierto.
+*Programada.* Comparación de precisión y costo entre métodos; no cubierto.
 
 ## Roles que lo usan
 

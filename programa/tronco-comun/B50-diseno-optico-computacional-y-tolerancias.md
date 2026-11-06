@@ -15,63 +15,63 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B50-C01 — Trazado exacto de rayos y aberraciones de orden superior
 
-*Programada, sin redactar.* B41-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales.
+*Programada.* B41-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales.
 
 ### B50-C02 — Optimización de superficies: función de mérito y restricciones
 
-*Programada, sin redactar.* B11-C17 da optimización numérica general; falta definir funciones de mérito y variables de diseño ópticas.
+*Programada.* B11-C17 da optimización numérica general; falta definir funciones de mérito y variables de diseño ópticas.
 
 ### B50-C03 — Sistemas catadióptricos: Schmidt y Maksutov
 
-*Programada, sin redactar.* B41 trata refractores y reflectores por separado; ninguna clase combina ambos tipos de elementos.
+*Programada.* B41 trata refractores y reflectores por separado; ninguna clase combina ambos tipos de elementos.
 
 ### B50-C04 — Telecentricidad, viñeteo y diseño del campo
 
-*Programada, sin redactar.* B41-C11 trata campo y escala; falta la telecentricidad y el viñeteo como criterios de diseño.
+*Programada.* B41-C11 trata campo y escala; falta la telecentricidad y el viñeteo como criterios de diseño.
 
 ### B50-C05 — Luz parásita y análisis de rayos dispersos
 
-*Programada, sin redactar.* Ninguna clase trata la luz difusa, reflexiones fantasma y deflectores que limitan el contraste de un instrumento.
+*Programada.* Ninguna clase trata la luz difusa, reflexiones fantasma y deflectores que limitan el contraste de un instrumento.
 
 ### B50-C06 — Software de diseño óptico: modelos reproducibles y verificación
 
-*Programada, sin redactar.* Falta usar herramientas de diseño óptico con archivos de modelo versionados y verificados contra cálculos analíticos.
+*Programada.* Falta usar herramientas de diseño óptico con archivos de modelo versionados y verificados contra cálculos analíticos.
 
 ### B50-C07 — Curvatura de campo y aplanadores
 
-*Programada, sin redactar.* B41-C13 y B41-C14 cubren otras aberraciones; ninguna trata la curvatura de campo ni los elementos que la corrigen.
+*Programada.* B41-C13 y B41-C14 cubren otras aberraciones; ninguna trata la curvatura de campo ni los elementos que la corrigen.
 
 ### B50-C08 — Distorsión geométrica y su calibración
 
-*Programada, sin redactar.* Ninguna clase mide ni modela la distorsión del campo, relevante para astrometría y mosaicos.
+*Programada.* Ninguna clase mide ni modela la distorsión del campo, relevante para astrometría y mosaicos.
 
 ### B50-C09 — Asignación y balance de tolerancias ópticas
 
-*Programada, sin redactar.* Falta repartir tolerancias entre elementos para cumplir un desempeño objetivo con costo razonable.
+*Programada.* Falta repartir tolerancias entre elementos para cumplir un desempeño objetivo con costo razonable.
 
 ### B50-C10 — Errores de centrado y su efecto en el desempeño
 
-*Programada, sin redactar.* Ninguna clase cuantifica el efecto del descentramiento de elementos sobre la calidad de imagen.
+*Programada.* Ninguna clase cuantifica el efecto del descentramiento de elementos sobre la calidad de imagen.
 
 ### B50-C11 — Errores de inclinación de elementos y superficies
 
-*Programada, sin redactar.* Ninguna clase trata la sensibilidad a inclinación de espejos y lentes ni su compensación.
+*Programada.* Ninguna clase trata la sensibilidad a inclinación de espejos y lentes ni su compensación.
 
 ### B50-C12 — Sensibilidad térmica del desempeño óptico y atermalización
 
-*Programada, sin redactar.* B43-C11 trata dilatación mecánica; falta su efecto en foco y aberraciones y el diseño atérmico.
+*Programada.* B43-C11 trata dilatación mecánica; falta su efecto en foco y aberraciones y el diseño atérmico.
 
 ### B50-C13 — Análisis Monte Carlo de tolerancias ópticas
 
-*Programada, sin redactar.* B12-C14 enseña Monte Carlo en general; falta aplicarlo a conjuntos de tolerancias y a la distribución del desempeño.
+*Programada.* B12-C14 enseña Monte Carlo en general; falta aplicarlo a conjuntos de tolerancias y a la distribución del desempeño.
 
 ### B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones
 
-*Programada, sin redactar.* B42-C06 y B42-C07 definen PSF y OTF; falta traducirlos en criterios de aceptación y especificaciones verificables.
+*Programada.* B42-C06 y B42-C07 definen PSF y OTF; falta traducirlos en criterios de aceptación y especificaciones verificables.
 
 ### B50-C15 — Presupuesto de error de frente de onda de un instrumento
 
-*Programada, sin redactar.* B13-C13 y B83-C09 trazan presupuestos de incertidumbre y masa; falta repartir el error de frente de onda entre diseño, fabricación y alineación.
+*Programada.* B13-C13 y B83-C09 trazan presupuestos de incertidumbre y masa; falta repartir el error de frente de onda entre diseño, fabricación y alineación.
 
 ## Roles que lo usan
 

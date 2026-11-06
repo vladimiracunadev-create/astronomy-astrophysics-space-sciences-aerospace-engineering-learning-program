@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B64-C01 — Radiotolerancia biológica y reparación del ADN
 
-*Programada, sin redactar.* B56-C05 es visión general; falta la radiotolerancia y su reparación del ADN.
+*Programada.* B56-C05 es visión general; falta la radiotolerancia y su reparación del ADN.
 
 ### B64-C02 — Termófilos e hipertermófilos
 
-*Programada, sin redactar.* Ninguna clase trata termófilos como categoría.
+*Programada.* Ninguna clase trata termófilos como categoría.
 
 ### B64-C03 — Psicrófilos y vida en frío
 
-*Programada, sin redactar.* Ninguna clase trata psicrófilos.
+*Programada.* Ninguna clase trata psicrófilos.
 
 ### B64-C04 — Halófilos y vida en salmueras
 
-*Programada, sin redactar.* Ninguna clase trata halófilos.
+*Programada.* Ninguna clase trata halófilos.
 
 ### B64-C05 — Acidófilos y alcalófilos
 
-*Programada, sin redactar.* Ninguna clase trata acidófilos.
+*Programada.* Ninguna clase trata acidófilos.
 
 ### B64-C06 — Biofilms en ambientes extremos
 
-*Programada, sin redactar.* Ninguna clase trata biofilms.
+*Programada.* Ninguna clase trata biofilms.
 
 ### B64-C07 — Cultivo de extremófilos no patógenos en condiciones análogas
 
-*Programada, sin redactar.* Ninguna clase trata cultivo en cámaras análogas de organismos no patógenos.
+*Programada.* Ninguna clase trata cultivo en cámaras análogas de organismos no patógenos.
 
 ## Roles que lo usan
 

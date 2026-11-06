@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales
 
-*Programada, sin redactar.* Los saberes del cielo están ligados al territorio; B02-C05 y C06 los presentan sin tratar esa relación.
+*Programada.* Los saberes del cielo están ligados al territorio; B02-C05 y C06 los presentan sin tratar esa relación.
 
 ### B133-C02 — Narrativas orales y transmisión del saber del cielo
 
-*Programada, sin redactar.* La transmisión oral es la forma de conservación de muchos saberes; ninguna clase la trata.
+*Programada.* La transmisión oral es la forma de conservación de muchos saberes; ninguna clase la trata.
 
 ### B133-C03 — Colaboración con comunidades en investigación y educación
 
-*Programada, sin redactar.* Trabajar con comunidades exige un método respetuoso; B02-C20 trata ética cultural en general.
+*Programada.* Trabajar con comunidades exige un método respetuoso; B02-C20 trata ética cultural en general.
 
 ### B133-C04 — Riesgos de apropiación cultural en la divulgación
 
-*Programada, sin redactar.* Divulgar saberes ajenos puede apropiarlos; el catálogo no trata ese riesgo en la divulgación.
+*Programada.* Divulgar saberes ajenos puede apropiarlos; el catálogo no trata ese riesgo en la divulgación.
 
 ### B133-C05 — Diseño de una unidad de enseñanza intercultural
 
-*Programada, sin redactar.* Integrar saberes y ciencia en el aula es el cierre del módulo; no hay clase que lo trate.
+*Programada.* Integrar saberes y ciencia en el aula es el cierre del módulo; no hay clase que lo trate.
 
 ## Roles que lo usan
 

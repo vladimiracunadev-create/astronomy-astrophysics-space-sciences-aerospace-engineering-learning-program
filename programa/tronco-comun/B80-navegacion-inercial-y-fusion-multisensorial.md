@@ -15,39 +15,39 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B80-C01 — Principios de navegación inercial espacial
 
-*Programada, sin redactar.* El rol necesita comprender cómo se propaga posición y velocidad a partir de una IMU; B87 solo trata el giroscopio como sensor de actitud y B74 estima órbita con observaciones externas, por lo que ninguna clase actual cubre la navegación inercial.
+*Programada.* El rol necesita comprender cómo se propaga posición y velocidad a partir de una IMU; B87 solo trata el giroscopio como sensor de actitud y B74 estima órbita con observaciones externas, por lo que ninguna clase actual cubre la navegación inercial.
 
 ### B80-C02 — Modelo de error de acelerómetros
 
-*Programada, sin redactar.* Aporta el modelado de sesgo, factor de escala y ruido de acelerómetros, necesario para predecir el error de navegación; B87 solo cubre sensores de actitud y ninguna clase trata acelerómetros.
+*Programada.* Aporta el modelado de sesgo, factor de escala y ruido de acelerómetros, necesario para predecir el error de navegación; B87 solo cubre sensores de actitud y ninguna clase trata acelerómetros.
 
 ### B80-C03 — Mecanización strapdown e integración de actitud y velocidad
 
-*Programada, sin redactar.* Enseña la integración de las mediciones de una IMU fija al vehículo para obtener actitud, velocidad y posición; B10-C12..C15 dan las rotaciones y cuaterniones, pero ninguna clase construye la mecanización.
+*Programada.* Enseña la integración de las mediciones de una IMU fija al vehículo para obtener actitud, velocidad y posición; B10-C12..C15 dan las rotaciones y cuaterniones, pero ninguna clase construye la mecanización.
 
 ### B80-C04 — Fusión inercial con mediciones externas (acoplamiento débil y fuerte)
 
-*Programada, sin redactar.* Cubre cómo se corrige la deriva inercial con mediciones externas; B74-C08..C10 dan los filtros, pero ninguna clase los aplica al acoplamiento inercial/externo.
+*Programada.* Cubre cómo se corrige la deriva inercial con mediciones externas; B74-C08..C10 dan los filtros, pero ninguna clase los aplica al acoplamiento inercial/externo.
 
 ### B80-C05 — Redundancia de sensores y arbitraje de mediciones
 
-*Programada, sin redactar.* Enseña a combinar y arbitrar sensores redundantes para mantener la solución de navegación; B88-C12 trata FDIR general, no el arbitraje de mediciones.
+*Programada.* Enseña a combinar y arbitrar sensores redundantes para mantener la solución de navegación; B88-C12 trata FDIR general, no el arbitraje de mediciones.
 
 ### B80-C06 — Fusión IMU-cámara
 
-*Programada, sin redactar.* Aporta la fusión visual-inercial que complementa a cada sensor; ni B74 ni B87 acoplan IMU y cámara en una sola solución de navegación.
+*Programada.* Aporta la fusión visual-inercial que complementa a cada sensor; ni B74 ni B87 acoplan IMU y cámara en una sola solución de navegación.
 
 ### B80-C07 — Fusión radio-óptica en navegación de espacio profundo
 
-*Programada, sin redactar.* Combina Doppler/rango con imágenes ópticas para reducir incertidumbre; B74-C04 y C13 las tratan por separado.
+*Programada.* Combina Doppler/rango con imágenes ópticas para reducir incertidumbre; B74-C04 y C13 las tratan por separado.
 
 ### B80-C08 — Filtrado distribuido y descentralizado
 
-*Programada, sin redactar.* Cubre arquitecturas de estimación repartidas entre nodos o plataformas; B74-C08..C10 tratan filtros centralizados.
+*Programada.* Cubre arquitecturas de estimación repartidas entre nodos o plataformas; B74-C08..C10 tratan filtros centralizados.
 
 ### B80-C09 — Odometría inercial y preintegración de IMU
 
-*Programada, sin redactar.* B87-C06 trata giroscopios; falta la integración de acelerómetros y giróscopos para estimar movimiento de un robot y su deriva.
+*Programada.* B87-C06 trata giroscopios; falta la integración de acelerómetros y giróscopos para estimar movimiento de un robot y su deriva.
 
 ## Roles que lo usan
 

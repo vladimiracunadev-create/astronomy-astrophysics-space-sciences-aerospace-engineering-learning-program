@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B113-C01 — Estrés operacional y estrategias de afrontamiento
 
-*Programada, sin redactar.* B105-C09 presenta salud mental en aislamiento, pero no el estrés operacional. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* B105-C09 presenta salud mental en aislamiento, pero no el estrés operacional. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B113-C02 — Ansiedad y respuesta emocional en escenarios simulados
 
-*Programada, sin redactar.* Ninguna clase trata la respuesta emocional ante simulaciones de riesgo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Ninguna clase trata la respuesta emocional ante simulaciones de riesgo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B113-C03 — Comunicación diferida y soporte psicológico a distancia
 
-*Programada, sin redactar.* Ninguna clase trata el efecto del retardo en el apoyo psicológico.
+*Programada.* Ninguna clase trata el efecto del retardo en el apoyo psicológico.
 
 ### B113-C04 — Autonomía personal y gestión del tiempo en aislamiento
 
-*Programada, sin redactar.* Falta la clase sobre autonomía y rutinas.
+*Programada.* Falta la clase sobre autonomía y rutinas.
 
 ### B113-C05 — Intervenciones de apoyo y contramedidas conductuales
 
-*Programada, sin redactar.* Falta la clase sobre intervenciones de apoyo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Falta la clase sobre intervenciones de apoyo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ## Roles que lo usan
 

@@ -1,7 +1,7 @@
 # B15-C01 — Series temporales discretas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B14-C20 — Proyecto reproducible de análisis astronómico](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c20) · [Siguiente: B15-C02 — Muestreo y aliasing →](../B15-C02-muestreo-y-aliasing/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B14-C31 — APIs de servicios de datos](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c31) · [Siguiente: B15-C02 — Muestreo y aliasing →](../B15-C02-muestreo-y-aliasing/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ Una serie discreta es una tabla de valores con instantes; se resume con media, d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C20 — Proyecto reproducible de análisis astronómico](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c20) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C02 — Muestreo y aliasing →](../B15-C02-muestreo-y-aliasing/CLASE.md)
+[← Anterior: B14-C31 — APIs de servicios de datos](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c31) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C02 — Muestreo y aliasing →](../B15-C02-muestreo-y-aliasing/CLASE.md)
 <!-- /nav -->

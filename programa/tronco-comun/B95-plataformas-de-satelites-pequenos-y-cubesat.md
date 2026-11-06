@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B95-C01 — Unidad CubeSat, dimensiones y formatos
 
-*Programada, sin redactar.* El formato por unidades fija masa, volumen y compatibilidad con el lanzador; el catálogo no tiene una clase sobre el estándar de la plataforma.
+*Programada.* El formato por unidades fija masa, volumen y compatibilidad con el lanzador; el catálogo no tiene una clase sobre el estándar de la plataforma.
 
 ### B95-C02 — Componentes comerciales en vuelo: selección y riesgo
 
-*Programada, sin redactar.* Los satélites pequeños usan componentes comerciales; elegirlos y evaluar su riesgo de radiación y fiabilidad no está cubierto en B84 a B88.
+*Programada.* Los satélites pequeños usan componentes comerciales; elegirlos y evaluar su riesgo de radiación y fiabilidad no está cubierto en B84 a B88.
 
 ### B95-C03 — Selección y comparación de plataformas
 
-*Programada, sin redactar.* El rol decide entre plataformas disponibles con criterios trazables; solo existe arquitectura general de sistemas (B83-C07).
+*Programada.* El rol decide entre plataformas disponibles con criterios trazables; solo existe arquitectura general de sistemas (B83-C07).
 
 ### B95-C04 — Antenas desplegables para satélites pequeños
 
-*Programada, sin redactar.* Los CubeSat usan antenas que se despliegan tras el lanzamiento; B89-C06 trata ganancias y pérdidas, no el diseño ni el despliegue en un volumen mínimo.
+*Programada.* Los CubeSat usan antenas que se despliegan tras el lanzamiento; B89-C06 trata ganancias y pérdidas, no el diseño ni el despliegue en un volumen mínimo.
 
 ## Roles que lo usan
 

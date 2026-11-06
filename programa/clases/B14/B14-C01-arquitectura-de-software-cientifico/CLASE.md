@@ -1,7 +1,7 @@
 # B14-C01 — Arquitectura de software científico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B13-C20 — Validación de una cadena de medida](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c20) · [Siguiente: B14-C02 — Arreglos multidimensionales NumPy →](../B14-C02-arreglos-multidimensionales-numpy/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B13-C23 — Estabilidad y deriva temporal de instrumentos](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c23) · [Siguiente: B14-C02 — Arreglos multidimensionales NumPy →](../B14-C02-arreglos-multidimensionales-numpy/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,5 +322,5 @@ Un programa científico se vuelve confiable cuando la ciencia vive en funciones 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B13-C20 — Validación de una cadena de medida](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c20) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C02 — Arreglos multidimensionales NumPy →](../B14-C02-arreglos-multidimensionales-numpy/CLASE.md)
+[← Anterior: B13-C23 — Estabilidad y deriva temporal de instrumentos](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c23) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C02 — Arreglos multidimensionales NumPy →](../B14-C02-arreglos-multidimensionales-numpy/CLASE.md)
 <!-- /nav -->

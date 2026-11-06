@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B69-C01 — Principio Doppler y resolución en azimut del SAR
 
-*Programada, sin redactar.* La resolución fina del SAR sale del procesamiento Doppler; B57-C07 presenta el sistema sin ese principio.
+*Programada.* La resolución fina del SAR sale del procesamiento Doppler; B57-C07 presenta el sistema sin ese principio.
 
 ### B69-C02 — Formación de imágenes SAR
 
-*Programada, sin redactar.* Pasar de ecos crudos a una imagen requiere procesamiento SAR; no hay clase que lo trate.
+*Programada.* Pasar de ecos crudos a una imagen requiere procesamiento SAR; no hay clase que lo trate.
 
 ### B69-C03 — Ruido speckle y filtrado en imágenes SAR
 
-*Programada, sin redactar.* El speckle limita la interpretación de imágenes SAR y se filtra con técnicas propias.
+*Programada.* El speckle limita la interpretación de imágenes SAR y se filtra con técnicas propias.
 
 ### B69-C04 — Polarimetría SAR
 
-*Programada, sin redactar.* Los canales de polarización distinguen superficies; B42-C08 trata polarización de la luz, no del radar.
+*Programada.* Los canales de polarización distinguen superficies; B42-C08 trata polarización de la luz, no del radar.
 
 ### B69-C05 — Coherencia interferométrica y decorrelación
 
-*Programada, sin redactar.* La calidad de un interferograma depende de la coherencia; B57-C08 presenta InSAR sin tratarla.
+*Programada.* La calidad de un interferograma depende de la coherencia; B57-C08 presenta InSAR sin tratarla.
 
 ### B69-C06 — Deslizamientos y subsidencia medidos con InSAR
 
-*Programada, sin redactar.* Aplicar InSAR a laderas y subsidencia es una aplicación propia no cubierta por B57-C17 (terremotos).
+*Programada.* Aplicar InSAR a laderas y subsidencia es una aplicación propia no cubierta por B57-C17 (terremotos).
 
 ### B69-C07 — Evaluación de la calidad de un interferograma
 
-*Programada, sin redactar.* Aceptar un resultado InSAR exige revisar fase, coherencia y artefactos; ninguna clase enseña esa evaluación.
+*Programada.* Aceptar un resultado InSAR exige revisar fase, coherencia y artefactos; ninguna clase enseña esa evaluación.
 
 ## Roles que lo usan
 

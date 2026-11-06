@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B93-C01 — Diseño de PCB espacial (conceptual)
 
-*Programada, sin redactar.* El tronco no trata el diseño de placas electrónicas; B90 integra y B86 trata potencia, pero nadie cubre el diseño de PCB.
+*Programada.* El tronco no trata el diseño de placas electrónicas; B90 integra y B86 trata potencia, pero nadie cubre el diseño de PCB.
 
 ### B93-C02 — Selección de componentes y derating
 
-*Programada, sin redactar.* Cubre la selección de componentes calificados y derating; ninguna clase lo trata.
+*Programada.* Cubre la selección de componentes calificados y derating; ninguna clase lo trata.
 
 ### B93-C03 — Integridad de señal en electrónica embarcada
 
-*Programada, sin redactar.* Aporta reflexiones, crosstalk y temporización de señales; no existe en el tronco.
+*Programada.* Aporta reflexiones, crosstalk y temporización de señales; no existe en el tronco.
 
 ### B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating)
 
-*Programada, sin redactar.* Cuantifica la confiabilidad de la electrónica; B83-C16 y B86-C11 no calculan MTBF.
+*Programada.* Cuantifica la confiabilidad de la electrónica; B83-C16 y B86-C11 no calculan MTBF.
 
 ## Roles que lo usan
 

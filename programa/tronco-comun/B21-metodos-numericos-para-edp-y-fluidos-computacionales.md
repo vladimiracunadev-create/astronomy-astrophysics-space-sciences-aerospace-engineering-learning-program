@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación
 
-*Programada, sin redactar.* Esquemas conservativos para MHD y fluidos compresibles; B11-C14 solo cubre diferencias finitas y B11-C13 no desarrolla leyes hiperbólicas.
+*Programada.* Esquemas conservativos para MHD y fluidos compresibles; B11-C14 solo cubre diferencias finitas y B11-C13 no desarrolla leyes hiperbólicas.
 
 ### B21-C02 — Ecuación de onda: esquemas y dispersión numérica
 
-*Programada, sin redactar.* Esquemas explícitos para ondas y su error de fase; B11-C13 solo presenta las EDP en general.
+*Programada.* Esquemas explícitos para ondas y su error de fase; B11-C13 solo presenta las EDP en general.
 
 ### B21-C03 — Ecuación de Poisson: relajación y multigrid
 
-*Programada, sin redactar.* Solucionadores iterativos del problema elíptico (potencial gravitatorio y electrostático); no cubierto.
+*Programada.* Solucionadores iterativos del problema elíptico (potencial gravitatorio y electrostático); no cubierto.
 
 ### B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional
 
-*Programada, sin redactar.* Formulación incompresible y compresible discretizada; ninguna clase del tronco trata CFD.
+*Programada.* Formulación incompresible y compresible discretizada; ninguna clase del tronco trata CFD.
 
 ### B21-C05 — Mallas adaptativas (AMR)
 
-*Programada, sin redactar.* Refinamiento adaptativo guiado por error; B11 trata mallas fijas.
+*Programada.* Refinamiento adaptativo guiado por error; B11 trata mallas fijas.
 
 ## Roles que lo usan
 

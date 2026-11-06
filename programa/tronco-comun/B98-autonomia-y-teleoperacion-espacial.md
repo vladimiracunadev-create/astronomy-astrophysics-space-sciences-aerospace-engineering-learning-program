@@ -15,35 +15,35 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B98-C01 — Planificación por objetivos a bordo
 
-*Programada, sin redactar.* Cubre cómo el vehículo selecciona y secuencia acciones para cumplir objetivos sin intervención de Tierra; B96-C04/C09 planifican desde Tierra y ninguna clase trata la planificación a bordo.
+*Programada.* Cubre cómo el vehículo selecciona y secuencia acciones para cumplir objetivos sin intervención de Tierra; B96-C04/C09 planifican desde Tierra y ninguna clase trata la planificación a bordo.
 
 ### B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento
 
-*Programada, sin redactar.* Enseña la arquitectura de decisión a bordo (reglas, máquinas de estados, árboles de comportamiento); B07-C04 solo introduce condicionales.
+*Programada.* Enseña la arquitectura de decisión a bordo (reglas, máquinas de estados, árboles de comportamiento); B07-C04 solo introduce condicionales.
 
 ### B98-C03 — Control supervisado y autonomía compartida
 
-*Programada, sin redactar.* B97-C07 trata teleoperación con latencia; falta el paradigma de control supervisado donde el operador da metas y el robot ejecuta.
+*Programada.* B97-C07 trata teleoperación con latencia; falta el paradigma de control supervisado donde el operador da metas y el robot ejecuta.
 
 ### B98-C04 — Interfaces humano-robot para operación remota
 
-*Programada, sin redactar.* B106-C16 trata ergonomía física; ninguna clase diseña interfaces y visualización para operar robots a distancia.
+*Programada.* B106-C16 trata ergonomía física; ninguna clase diseña interfaces y visualización para operar robots a distancia.
 
 ### B98-C05 — Autonomía de bajo nivel y comportamientos reactivos
 
-*Programada, sin redactar.* No existe clase sobre comportamientos autónomos de bajo nivel (seguridad, parada, reflejos) que sostienen la operación con retardo.
+*Programada.* No existe clase sobre comportamientos autónomos de bajo nivel (seguridad, parada, reflejos) que sostienen la operación con retardo.
 
 ### B98-C06 — Simulación de teleoperación con retardo
 
-*Programada, sin redactar.* B96-C20 simula una jornada de control; falta simular retardo, pérdida de paquetes y operación supervisada de un robot.
+*Programada.* B96-C20 simula una jornada de control; falta simular retardo, pérdida de paquetes y operación supervisada de un robot.
 
 ### B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción)
 
-*Programada, sin redactar.* B83-C07 trata arquitecturas de sistema en general; falta la arquitectura de software de autonomía (capas, planificador, ejecutivo).
+*Programada.* B83-C07 trata arquitecturas de sistema en general; falta la arquitectura de software de autonomía (capas, planificador, ejecutivo).
 
 ### B98-C08 — Protocolos de relevo de control entre operadores
 
-*Programada, sin redactar.* Ninguna clase trata el traspaso seguro del control robótico entre operadores y entre tripulación y tierra.
+*Programada.* Ninguna clase trata el traspaso seguro del control robótico entre operadores y entre tripulación y tierra.
 
 ## Roles que lo usan
 

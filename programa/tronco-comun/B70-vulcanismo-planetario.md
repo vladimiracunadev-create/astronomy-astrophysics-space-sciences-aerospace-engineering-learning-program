@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias
 
-*Programada, sin redactar.* B53-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología.
+*Programada.* B53-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología.
 
 ### B70-C02 — Domos volcánicos y vulcanismo evolucionado
 
-*Programada, sin redactar.* Ninguna clase trata domos ni magmas evolucionados.
+*Programada.* Ninguna clase trata domos ni magmas evolucionados.
 
 ### B70-C03 — Calderas planetarias: formación y colapso
 
-*Programada, sin redactar.* Ninguna clase trata la mecánica de calderas.
+*Programada.* Ninguna clase trata la mecánica de calderas.
 
 ### B70-C04 — Vulcanismo marciano: provincias, edades y evolución
 
-*Programada, sin redactar.* B53-C11 es genérico; el caso Marte (Tharsis, Olimpo) requiere clase propia.
+*Programada.* B53-C11 es genérico; el caso Marte (Tharsis, Olimpo) requiere clase propia.
 
 ### B70-C05 — Actividad volcánica venusina: llanuras, coronas e indicios de actividad reciente
 
-*Programada, sin redactar.* B54-C13 trata la atmósfera de Venus; la superficie y su vulcanismo no están cubiertos.
+*Programada.* B54-C13 trata la atmósfera de Venus; la superficie y su vulcanismo no están cubiertos.
 
 ### B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles
 
-*Programada, sin redactar.* B53-C15 describe Encélado; la mecánica del criovulcanismo como categoría no está cubierta.
+*Programada.* B53-C15 describe Encélado; la mecánica del criovulcanismo como categoría no está cubierta.
 
 ### B70-C07 — Flujos de lava y depósitos piroclásticos
 
-*Programada, sin redactar.* Ninguna clase trata reología de lavas, longitud de flujo ni depósitos explosivos.
+*Programada.* Ninguna clase trata reología de lavas, longitud de flujo ni depósitos explosivos.
 
 ## Roles que lo usan
 

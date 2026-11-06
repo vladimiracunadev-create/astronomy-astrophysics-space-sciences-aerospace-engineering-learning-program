@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats
 
-*Programada, sin redactar.* Aporta el diseño y verificación de rutas de evacuación; B104-C13 y B106-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios.
+*Programada.* Aporta el diseño y verificación de rutas de evacuación; B104-C13 y B106-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios.
 
 ### B114-C02 — Detección, localización y respuesta a fugas de presión
 
-*Programada, sin redactar.* Cubre el análisis de tasa de fuga, localización y respuesta; B106-C02 trata solo la presurización.
+*Programada.* Cubre el análisis de tasa de fuga, localización y respuesta; B106-C02 trata solo la presurización.
 
 ### B114-C03 — Alarmas y procedimientos ante desviaciones atmosféricas
 
-*Programada, sin redactar.* Aporta la lógica de alarmas, umbrales y procedimientos ante desviaciones de O2, CO2 o presión; B106-C17 solo trata incendios.
+*Programada.* Aporta la lógica de alarmas, umbrales y procedimientos ante desviaciones de O2, CO2 o presión; B106-C17 solo trata incendios.
 
 ### B114-C04 — Refugio contra tormentas solares y compartimentos de protección
 
-*Programada, sin redactar.* Aporta el diseño de refugios con blindaje reforzado y su uso operativo; B106-C14 trata protección en general.
+*Programada.* Aporta el diseño de refugios con blindaje reforzado y su uso operativo; B106-C14 trata protección en general.
 
 ### B114-C05 — Despresurización: escenarios, tiempos y respuesta
 
-*Programada, sin redactar.* Enseña análisis de despresurización rápida y lenta y el tiempo de respuesta; no cubierto en B106 ni B104.
+*Programada.* Enseña análisis de despresurización rápida y lenta y el tiempo de respuesta; no cubierto en B106 ni B104.
 
 ### B114-C06 — Matriz de riesgo ambiental de un hábitat
 
-*Programada, sin redactar.* Cubre identificación y clasificación de riesgos (radiación, impacto, despresurización) con matriz; B83-C16 trata riesgos técnicos genéricos.
+*Programada.* Cubre identificación y clasificación de riesgos (radiación, impacto, despresurización) con matriz; B83-C16 trata riesgos técnicos genéricos.
 
 ## Roles que lo usan
 

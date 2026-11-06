@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica
 
-*Programada, sin redactar.* B105-C06 introduce la exposición; falta la definición de dosis absorbida y LET.
+*Programada.* B105-C06 introduce la exposición; falta la definición de dosis absorbida y LET.
 
 ### B112-C02 — Dosis equivalente y dosis efectiva
 
-*Programada, sin redactar.* Ninguna clase trata factores de ponderación y dosis equivalente.
+*Programada.* Ninguna clase trata factores de ponderación y dosis equivalente.
 
 ### B112-C03 — Efectos agudos de la radiación
 
-*Programada, sin redactar.* Ninguna clase cubre síndromes agudos y umbrales. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Ninguna clase cubre síndromes agudos y umbrales. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B112-C04 — Efectos crónicos y carcinogénesis por radiación
 
-*Programada, sin redactar.* Ninguna clase cubre riesgo de cáncer y efectos tardíos.
+*Programada.* Ninguna clase cubre riesgo de cáncer y efectos tardíos.
 
 ### B112-C05 — Daño y reparación del ADN por radiación espacial
 
-*Programada, sin redactar.* Falta la clase de mecanismos moleculares de daño y reparación.
+*Programada.* Falta la clase de mecanismos moleculares de daño y reparación.
 
 ### B112-C06 — Modelos de riesgo de radiación para misiones
 
-*Programada, sin redactar.* Falta la clase de estimación de riesgo por misión.
+*Programada.* Falta la clase de estimación de riesgo por misión.
 
 ## Roles que lo usan
 

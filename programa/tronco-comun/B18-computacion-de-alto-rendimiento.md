@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B18-C01 — Procesos, hilos y concurrencia
 
-*Programada, sin redactar.* Diferencia entre hilos y procesos y el GIL; B14-C13 presenta paralelismo sin el modelo de ejecución.
+*Programada.* Diferencia entre hilos y procesos y el GIL; B14-C13 presenta paralelismo sin el modelo de ejecución.
 
 ### B18-C02 — Paso de mensajes con MPI
 
-*Programada, sin redactar.* Comunicación punto a punto y colectiva entre procesos; B14-C16 menciona HPC sin MPI.
+*Programada.* Comunicación punto a punto y colectiva entre procesos; B14-C16 menciona HPC sin MPI.
 
 ### B18-C03 — Jerarquía y estructuras de memoria
 
-*Programada, sin redactar.* Caché, disposición de arreglos y ancho de banda; condiciona el rendimiento y no aparece en B14.
+*Programada.* Caché, disposición de arreglos y ancho de banda; condiciona el rendimiento y no aparece en B14.
 
 ### B18-C04 — Perfilado de rendimiento
 
-*Programada, sin redactar.* Uso de profilers para hallar cuellos de botella; ausente en B14-C14.
+*Programada.* Uso de profilers para hallar cuellos de botella; ausente en B14-C14.
 
 ### B18-C05 — Experimentos de escalabilidad
 
-*Programada, sin redactar.* Escalado fuerte y débil, Amdahl y Gustafson; ninguna clase actual los trata.
+*Programada.* Escalado fuerte y débil, Amdahl y Gustafson; ninguna clase actual los trata.
 
 ## Roles que lo usan
 

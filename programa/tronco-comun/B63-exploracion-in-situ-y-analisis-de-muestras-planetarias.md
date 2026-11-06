@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B63-C01 — Instrumentación de sondas y rovers planetarios
 
-*Programada, sin redactar.* B47 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros).
+*Programada.* B47 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros).
 
 ### B63-C02 — Muestreo superficial y estrategias de recolección
 
-*Programada, sin redactar.* B59 trata extracción de volátiles; no el muestreo científico ni su estrategia.
+*Programada.* B59 trata extracción de volátiles; no el muestreo científico ni su estrategia.
 
 ### B63-C03 — Curaduría y cadena de custodia de muestras
 
-*Programada, sin redactar.* B13-C02 trata trazabilidad métrica; falta la curaduría de muestras planetarias y su cadena de custodia.
+*Programada.* B13-C02 trata trazabilidad métrica; falta la curaduría de muestras planetarias y su cadena de custodia.
 
 ### B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias
 
-*Programada, sin redactar.* B56-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio).
+*Programada.* B56-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio).
 
 ### B63-C05 — Contención de muestras extraterrestres: instalaciones y principios
 
-*Programada, sin redactar.* Ninguna clase trata contención de muestras (enfoque defensivo).
+*Programada.* Ninguna clase trata contención de muestras (enfoque defensivo).
 
 ### B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión
 
-*Programada, sin redactar.* Ninguna clase trata marcos de decisión de evaluación de riesgo biológico de muestras.
+*Programada.* Ninguna clase trata marcos de decisión de evaluación de riesgo biológico de muestras.
 
 ## Roles que lo usan
 

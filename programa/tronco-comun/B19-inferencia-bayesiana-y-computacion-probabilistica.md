@@ -15,35 +15,35 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B19-C01 — Priors físicamente informados
 
-*Programada, sin redactar.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
+*Programada.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
 
 ### B19-C02 — Modelos jerárquicos
 
-*Programada, sin redactar.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
+*Programada.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
 
 ### B19-C03 — Hamiltonian Monte Carlo y NUTS
 
-*Programada, sin redactar.* Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis.
+*Programada.* Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis.
 
 ### B19-C04 — Diagnóstico de convergencia de cadenas
 
-*Programada, sin redactar.* R-hat, tamaño efectivo y divergencias; no cubierto.
+*Programada.* R-hat, tamaño efectivo y divergencias; no cubierto.
 
 ### B19-C05 — Inferencia variacional
 
-*Programada, sin redactar.* Aproximación variacional y ELBO como alternativa a MCMC; no cubierto.
+*Programada.* Aproximación variacional y ELBO como alternativa a MCMC; no cubierto.
 
 ### B19-C06 — Distribución predictiva posterior
 
-*Programada, sin redactar.* Predicción y chequeos predictivos; B12-C12 no los desarrolla.
+*Programada.* Predicción y chequeos predictivos; B12-C12 no los desarrolla.
 
 ### B19-C07 — Comparación de modelos bayesianos
 
-*Programada, sin redactar.* Evidencia, Bayes factor y criterios WAIC/LOO; no cubierto.
+*Programada.* Evidencia, Bayes factor y criterios WAIC/LOO; no cubierto.
 
 ### B19-C08 — Calibración probabilística
 
-*Programada, sin redactar.* Coberturas y diagramas de calibración de inferencias; ausente.
+*Programada.* Coberturas y diagramas de calibración de inferencias; ausente.
 
 ## Roles que lo usan
 

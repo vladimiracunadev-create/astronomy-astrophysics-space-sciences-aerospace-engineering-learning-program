@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B94-C01 — Códigos Reed-Solomon y LDPC
 
-*Programada, sin redactar.* Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B89-C09 trata la corrección de errores en general.
+*Programada.* Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B89-C09 trata la corrección de errores en general.
 
 ### B94-C02 — Entrelazado y concatenación de códigos
 
-*Programada, sin redactar.* Para soportar ráfagas de errores los códigos se concatenan y entrelazan; B89-C09 no lo trata.
+*Programada.* Para soportar ráfagas de errores los códigos se concatenan y entrelazan; B89-C09 no lo trata.
 
 ### B94-C03 — Tramas de transferencia de telemetría y telecomando
 
-*Programada, sin redactar.* Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B89-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama.
+*Programada.* Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B89-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama.
 
 ### B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento
 
-*Programada, sin redactar.* Las redes interplanetarias toleran retardos largos y desconexiones; B89-C13 nombra los protocolos sin tratar el almacenamiento y reenvío.
+*Programada.* Las redes interplanetarias toleran retardos largos y desconexiones; B89-C13 nombra los protocolos sin tratar el almacenamiento y reenvío.
 
 ### B94-C05 — Calidad de servicio y prioridades en redes espaciales
 
-*Programada, sin redactar.* Repartir un enlace escaso entre tráficos exige prioridades; ninguna clase trata la calidad de servicio.
+*Programada.* Repartir un enlace escaso entre tráficos exige prioridades; ninguna clase trata la calidad de servicio.
 
 ### B94-C06 — Validación y conformidad de protocolos de enlace
 
-*Programada, sin redactar.* Probar que una implementación cumple el protocolo es un requisito de interoperabilidad; B90 trata pruebas generales.
+*Programada.* Probar que una implementación cumple el protocolo es un requisito de interoperabilidad; B90 trata pruebas generales.
 
 ## Roles que lo usan
 

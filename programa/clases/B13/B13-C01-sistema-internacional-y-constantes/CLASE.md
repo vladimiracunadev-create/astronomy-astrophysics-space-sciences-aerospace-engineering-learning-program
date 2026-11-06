@@ -1,7 +1,7 @@
 # B13-C01 — Sistema Internacional y constantes
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B12-C20 — Informe de incertidumbre de una misión](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c20) · [Siguiente: B13-C02 — Dimensiones y trazabilidad →](../B13-C02-dimensiones-y-trazabilidad/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B12-C26 — Sesgos y potencia estadística en poblaciones pequeñas](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c26) · [Siguiente: B13-C02 — Dimensiones y trazabilidad →](../B13-C02-dimensiones-y-trazabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ El SI se apoya en siete constantes exactas; las unidades derivadas y los patrone
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B12-C20 — Informe de incertidumbre de una misión](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c20) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C02 — Dimensiones y trazabilidad →](../B13-C02-dimensiones-y-trazabilidad/CLASE.md)
+[← Anterior: B12-C26 — Sesgos y potencia estadística en poblaciones pequeñas](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c26) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C02 — Dimensiones y trazabilidad →](../B13-C02-dimensiones-y-trazabilidad/CLASE.md)
 <!-- /nav -->

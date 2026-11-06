@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B22-C01 — Problemas directos e inversos y mal condicionamiento
 
-*Programada, sin redactar.* Define el problema inverso, la no unicidad y el mal planteamiento; B15-C15 estima parámetros sin esta teoría.
+*Programada.* Define el problema inverso, la no unicidad y el mal planteamiento; B15-C15 estima parámetros sin esta teoría.
 
 ### B22-C02 — Regularización de Tikhonov
 
-*Programada, sin redactar.* Regularización y selección del parámetro (curva L); ausente en B10-C07, que solo trata mínimos cuadrados.
+*Programada.* Regularización y selección del parámetro (curva L); ausente en B10-C07, que solo trata mínimos cuadrados.
 
 ### B22-C03 — Identificabilidad de parámetros
 
-*Programada, sin redactar.* Cuándo los datos determinan los parámetros; no cubierto.
+*Programada.* Cuándo los datos determinan los parámetros; no cubierto.
 
 ### B22-C04 — Inversión espectral
 
-*Programada, sin redactar.* Recuperar parámetros físicos desde espectros mediante inversión; B45 describe espectros sin inversión formal.
+*Programada.* Recuperar parámetros físicos desde espectros mediante inversión; B45 describe espectros sin inversión formal.
 
 ### B22-C05 — Pruebas de inversión con datos sintéticos
 
-*Programada, sin redactar.* Experimentos con datos simulados y el «crimen inverso»; ninguna clase actual lo trata.
+*Programada.* Experimentos con datos simulados y el «crimen inverso»; ninguna clase actual lo trata.
 
 ## Roles que lo usan
 

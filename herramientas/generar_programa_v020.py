@@ -214,7 +214,7 @@ def escribir_todo() -> dict:
           "Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. "
           f"La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene {len(estructura)} áreas, {nb} bloques y {miles(total_exist + total_prog)} clases. "
           "Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a "
-          f"{total_prog} clases programadas distintas (varios temas coinciden en una misma clase). Ninguna clase está redactada salvo las 160 de A01, que están pendientes de revisión disciplinar.", "",
+          f"{total_prog} clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay {len(glob.glob(str(ROOT / 'programa' / 'clases' / '*' / '*' / 'CLASE.md')))} clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.", "",
           "**Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.", ""]
     for a, (aid, titulo, intro) in zip(estructura, AREAS):
         L += [f"## {aid} — {titulo}", "", intro, ""]
@@ -228,7 +228,7 @@ def escribir_todo() -> dict:
                 for r in base["clases"]:
                     L.append(f"- **{r['id']} — {r['titulo']}.** {r['descripcion_preliminar']}")
                 for e in ext:
-                    L.append(f"- **{e['id']} — {e['titulo']}.** *Programada.* {e['necesidad']}")
+                    L.append(f"- **{e['id']} — {e['titulo']}.** {marca(e)}")
                 L.append("")
             else:
                 nuevo = next(x for x in nuevos if x["id"] == b["id"])
@@ -237,7 +237,7 @@ def escribir_todo() -> dict:
                       f"*Bloque nuevo ({len(nuevo['clases'])} clases): {muestra}"
                       + ("…" if len(nuevo["clases"]) > 3 else ".") + "*", ""]
                 for e in nuevo["clases"]:
-                    L.append(f"- **{e['id']} — {e['titulo']}.** *Programada.* {e['necesidad']}")
+                    L.append(f"- **{e['id']} — {e['titulo']}.** {marca(e)}")
                 L.append("")
     # --- equivalencias ---
     equiv = {}
@@ -284,6 +284,16 @@ def escribir_todo() -> dict:
     return {"areas": len(estructura), "bloques": nb, "existentes": total_exist, "programadas": total_prog}
 
 
+def redactada(cid: str) -> bool:
+    return bool(glob.glob(str(ROOT / "programa" / "clases" / cid.split("-")[0] / f"{cid}-*" / "CLASE.md")))
+
+
+def marca(e: dict) -> str:
+    if redactada(e["id"]):
+        return f"*Texto redactado, pendiente de revisión.* {e['necesidad']}"
+    return f"*Programada.* {e['necesidad']}"
+
+
 def slug(titulo: str) -> str:
     base = unicodedata.normalize("NFD", titulo.lower()).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", base).strip("-")
@@ -310,7 +320,7 @@ def escribir_guias_y_metadatos(estructura, nuevos, bloques_base) -> None:
         roles = sorted({r for c in b["clases"] for r in c["roles"]})
         L += ["## Clases programadas", ""]
         for c in b["clases"]:
-            L += [f"### {c['id']} — {c['titulo']}", "", f"*Programada, sin redactar.* {c['necesidad']}", ""]
+            L += [f"### {c['id']} — {c['titulo']}", "", marca(c), ""]
         L += ["## Roles que lo usan", ""]
         L += [f"- [{nombre_ruta[r]}](../../rutas/{dir_ruta[r]}.md)" for r in roles]
         L.append("")

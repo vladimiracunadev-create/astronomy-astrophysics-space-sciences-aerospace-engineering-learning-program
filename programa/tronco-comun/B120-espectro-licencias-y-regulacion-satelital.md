@@ -15,27 +15,27 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B120-C01 — Licencias satelitales y procedimiento de notificación
 
-*Programada, sin redactar.* Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B119-C09 presenta las normas sin el procedimiento.
+*Programada.* Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B119-C09 presenta las normas sin el procedimiento.
 
 ### B120-C02 — Zonas de coordinación entre servicios radioeléctricos
 
-*Programada, sin redactar.* Coordinar con otros servicios define dónde y cómo se puede operar; ninguna clase lo trata.
+*Programada.* Coordinar con otros servicios define dónde y cómo se puede operar; ninguna clase lo trata.
 
 ### B120-C03 — Posiciones orbitales y espectro como recursos limitados
 
-*Programada, sin redactar.* Las posiciones orbitales y el espectro son recursos escasos con reglas de asignación; no están tratados como concepto jurídico.
+*Programada.* Las posiciones orbitales y el espectro son recursos escasos con reglas de asignación; no están tratados como concepto jurídico.
 
 ### B120-C04 — Documentación regulatoria de un sistema satelital
 
-*Programada, sin redactar.* El expediente regulatorio es un entregable del rol; B90-C05 documenta interfaces, no trámites regulatorios.
+*Programada.* El expediente regulatorio es un entregable del rol; B90-C05 documenta interfaces, no trámites regulatorios.
 
 ### B120-C05 — Riesgos de incumplimiento regulatorio
 
-*Programada, sin redactar.* Incumplir condiciones de licencia puede inhabilitar una misión; ninguna clase trata ese riesgo.
+*Programada.* Incumplir condiciones de licencia puede inhabilitar una misión; ninguna clase trata ese riesgo.
 
 ### B120-C06 — Caso de planificación regulatoria de un sistema satelital
 
-*Programada, sin redactar.* Integrar licencias, frecuencias y plazos en un plan es el cierre del módulo; no existe un caso integrador regulatorio.
+*Programada.* Integrar licencias, frecuencias y plazos en un plan es el cierre del módulo; no existe un caso integrador regulatorio.
 
 ## Roles que lo usan
 

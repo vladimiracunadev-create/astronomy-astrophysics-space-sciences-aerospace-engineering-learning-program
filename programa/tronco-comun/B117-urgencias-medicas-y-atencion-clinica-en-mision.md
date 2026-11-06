@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial
 
-*Programada, sin redactar.* Ninguna clase trata primeros auxilios en microgravedad. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Ninguna clase trata primeros auxilios en microgravedad. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B117-C02 — Contención de riesgos biológicos y químicos en cabina
 
-*Programada, sin redactar.* Ninguna clase trata la contención de riesgos biológicos o químicos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Ninguna clase trata la contención de riesgos biológicos o químicos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B117-C03 — Emergencia cardiovascular simulada
 
-*Programada, sin redactar.* Ninguna clase simula una emergencia cardiovascular. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Ninguna clase simula una emergencia cardiovascular. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B117-C04 — Problemas respiratorios simulados
 
-*Programada, sin redactar.* Ninguna clase simula problemas respiratorios. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+*Programada.* Ninguna clase simula problemas respiratorios. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B117-C05 — Inventario y gestión del equipo médico a bordo
 
-*Programada, sin redactar.* Ninguna clase trata el equipo médico de a bordo.
+*Programada.* Ninguna clase trata el equipo médico de a bordo.
 
 ## Roles que lo usan
 

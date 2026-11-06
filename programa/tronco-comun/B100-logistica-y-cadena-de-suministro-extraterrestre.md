@@ -15,31 +15,31 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B100-C01 — Gestión de inventario de materias primas y piezas
 
-*Programada, sin redactar.* Enseña control de existencias y trazabilidad de materiales en una instalación remota; sin clase equivalente.
+*Programada.* Enseña control de existencias y trazabilidad de materiales en una instalación remota; sin clase equivalente.
 
 ### B100-C02 — Dimensionamiento de carga y volumen de misión
 
-*Programada, sin redactar.* Aporta el cálculo de masa y volumen de carga por misión; B83-C09 solo trata presupuestos de masa del vehículo.
+*Programada.* Aporta el cálculo de masa y volumen de carga por misión; B83-C09 solo trata presupuestos de masa del vehículo.
 
 ### B100-C03 — Gestión de inventarios y reposición de suministros
 
-*Programada, sin redactar.* Cubre niveles de reposición y reservas de seguridad con demoras interplanetarias; no cubierto.
+*Programada.* Cubre niveles de reposición y reservas de seguridad con demoras interplanetarias; no cubierto.
 
 ### B100-C04 — Almacenamiento remoto y depósitos de suministros
 
-*Programada, sin redactar.* Enseña depósitos de larga duración y su degradación; B106-C11 solo trata alimentos.
+*Programada.* Enseña depósitos de larga duración y su degradación; B106-C11 solo trata alimentos.
 
 ### B100-C05 — Transporte de carga sobre superficie planetaria
 
-*Programada, sin redactar.* Aporta vehículos de carga, rutas y energía de transporte; B97-C06 trata solo movilidad robótica.
+*Programada.* Aporta vehículos de carga, rutas y energía de transporte; B97-C06 trata solo movilidad robótica.
 
 ### B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento
 
-*Programada, sin redactar.* B76 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa.
+*Programada.* B76 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa.
 
 ### B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos
 
-*Programada, sin redactar.* Cuantifica qué parte de los suministros debe venir de la Tierra; B59-C15 trata ciclo cerrado de materiales.
+*Programada.* Cuantifica qué parte de los suministros debe venir de la Tierra; B59-C15 trata ciclo cerrado de materiales.
 
 ## Roles que lo usan
 

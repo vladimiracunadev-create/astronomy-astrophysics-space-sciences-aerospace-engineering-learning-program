@@ -15,23 +15,23 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B108-C01 — Sistemas portátiles de soporte vital (PLSS)
 
-*Programada, sin redactar.* B106-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase.
+*Programada.* B106-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase.
 
 ### B108-C02 — Planificación de desplazamientos y rutas de EVA
 
-*Programada, sin redactar.* Ninguna clase planifica rutas y accesibilidad de una EVA en una estructura.
+*Programada.* Ninguna clase planifica rutas y accesibilidad de una EVA en una estructura.
 
 ### B108-C03 — Herramientas y equipos de EVA
 
-*Programada, sin redactar.* No hay clase sobre herramientas EVA (torque, reacción, sujeción de herramientas).
+*Programada.* No hay clase sobre herramientas EVA (torque, reacción, sujeción de herramientas).
 
 ### B108-C04 — Sistemas de sujeción y restricción de pies
 
-*Programada, sin redactar.* Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad.
+*Programada.* Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad.
 
 ### B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA
 
-*Programada, sin redactar.* Falta evaluar la secuencia de una EVA (tiempos, consumibles, márgenes) antes de ejecutarla.
+*Programada.* Falta evaluar la secuencia de una EVA (tiempos, consumibles, márgenes) antes de ejecutarla.
 
 ## Roles que lo usan
 

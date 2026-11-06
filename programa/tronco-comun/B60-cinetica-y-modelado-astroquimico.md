@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar
 
-*Programada, sin redactar.* B06-C14 trata cinética inicial; falta la teoría de colisiones y las secciones eficaces del gas interestelar.
+*Programada.* B06-C14 trata cinética inicial; falta la teoría de colisiones y las secciones eficaces del gas interestelar.
 
 ### B60-C02 — Coeficientes de velocidad dependientes de la temperatura y bases cinéticas
 
-*Programada, sin redactar.* B06-C14 trata cinética inicial; falta el uso de coeficientes tipo Arrhenius y de bases de datos astroquímicas (KIDA, UMIST).
+*Programada.* B06-C14 trata cinética inicial; falta el uso de coeficientes tipo Arrhenius y de bases de datos astroquímicas (KIDA, UMIST).
 
 ### B60-C03 — Integración numérica de redes químicas rígidas
 
-*Programada, sin redactar.* B11-C09 trata estabilidad numérica general; falta la integración de sistemas rígidos (stiff).
+*Programada.* B11-C09 trata estabilidad numérica general; falta la integración de sistemas rígidos (stiff).
 
 ### B60-C04 — Balance químico gas-grano: modelos de tres fases
 
-*Programada, sin redactar.* B55-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases.
+*Programada.* B55-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases.
 
 ## Roles que lo usan
 

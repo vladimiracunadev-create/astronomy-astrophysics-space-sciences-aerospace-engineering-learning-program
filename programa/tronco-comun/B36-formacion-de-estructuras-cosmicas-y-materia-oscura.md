@@ -15,47 +15,47 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B36-C01 — Crecimiento lineal de perturbaciones de densidad
 
-*Programada, sin redactar.* B26-C17 y B25-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones.
+*Programada.* B26-C17 y B25-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones.
 
 ### B36-C02 — Función de transferencia y espectro de materia
 
-*Programada, sin redactar.* Ninguna clase explica cómo la evolución en las eras de radiación y materia modifica el espectro primordial.
+*Programada.* Ninguna clase explica cómo la evolución en las eras de radiación y materia modifica el espectro primordial.
 
 ### B36-C03 — Funciones de correlación de galaxias
 
-*Programada, sin redactar.* B25-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos.
+*Programada.* B25-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos.
 
 ### B36-C04 — Espectro de potencia de materia
 
-*Programada, sin redactar.* Ninguna clase define el espectro de potencia P(k) ni su estimación a partir de catálogos de galaxias.
+*Programada.* Ninguna clase define el espectro de potencia P(k) ni su estimación a partir de catálogos de galaxias.
 
 ### B36-C05 — Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica
 
-*Programada, sin redactar.* B73-C08 trata N cuerpos de mecánica celeste; falta la expansión cósmica, condiciones iniciales y fronteras periódicas.
+*Programada.* B73-C08 trata N cuerpos de mecánica celeste; falta la expansión cósmica, condiciones iniciales y fronteras periódicas.
 
 ### B36-C06 — Formación de halos y función de masa
 
-*Programada, sin redactar.* B25-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos.
+*Programada.* B25-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos.
 
 ### B36-C07 — Oscilaciones acústicas bariónicas como regla estándar
 
-*Programada, sin redactar.* Ninguna clase presenta las BAO como escala característica en la distribución de materia ni su uso en distancias cosmológicas.
+*Programada.* Ninguna clase presenta las BAO como escala característica en la distribución de materia ni su uso en distancias cosmológicas.
 
 ### B36-C08 — Sesgo de galaxias y trazadores de la materia
 
-*Programada, sin redactar.* B25-C19 trata sesgos de selección; falta el sesgo entre galaxias y materia total y su impacto en los parámetros.
+*Programada.* B25-C19 trata sesgos de selección; falta el sesgo entre galaxias y materia total y su impacto en los parámetros.
 
 ### B36-C09 — Cúmulos en colisión como prueba de materia oscura
 
-*Programada, sin redactar.* B25-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan.
+*Programada.* B25-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan.
 
 ### B36-C10 — Búsqueda directa de materia oscura en laboratorio
 
-*Programada, sin redactar.* B31-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa.
+*Programada.* B31-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa.
 
 ### B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura
 
-*Programada, sin redactar.* Ninguna clase presenta alternativas a la materia oscura ni las confronta con lentes, cúmulos y CMB.
+*Programada.* Ninguna clase presenta alternativas a la materia oscura ni las confronta con lentes, cúmulos y CMB.
 
 ## Roles que lo usan
 
