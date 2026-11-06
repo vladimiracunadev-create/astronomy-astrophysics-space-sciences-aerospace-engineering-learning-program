@@ -31,11 +31,11 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B23-C05 — Validación con conjuntos oficiales
 
-*Programada.* Contrastar con datos de referencia (efemérides, catálogos) y criterios de aceptación; ausente.
+*Texto redactado, pendiente de revisión.* Contrastar con datos de referencia (efemérides, catálogos) y criterios de aceptación; ausente.
 
 ### B23-C06 — Pruebas metamórficas
 
-*Programada.* Pruebas basadas en relaciones entre ejecuciones cuando no hay solución exacta; ausentes.
+*Texto redactado, pendiente de revisión.* Pruebas basadas en relaciones entre ejecuciones cuando no hay solución exacta; ausentes.
 
 ### B23-C07 — Trazabilidad científica de resultados
 

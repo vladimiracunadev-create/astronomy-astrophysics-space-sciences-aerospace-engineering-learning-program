@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 333 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 335 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -519,8 +519,8 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B23-C02 — Pruebas de propiedades físicas.** *Texto redactado, pendiente de revisión.* Conservación de energía y simetrías como pruebas; B11-C10 la trata como tema, no como método de prueba.
 - **B23-C03 — Casos analíticos de validación.** *Texto redactado, pendiente de revisión.* Usar soluciones exactas como pruebas de código; no cubierto.
 - **B23-C04 — Soluciones de referencia y manufactured solutions.** *Texto redactado, pendiente de revisión.* Método de soluciones fabricadas y comparaciones con código de referencia; no cubierto.
-- **B23-C05 — Validación con conjuntos oficiales.** *Programada.* Contrastar con datos de referencia (efemérides, catálogos) y criterios de aceptación; ausente.
-- **B23-C06 — Pruebas metamórficas.** *Programada.* Pruebas basadas en relaciones entre ejecuciones cuando no hay solución exacta; ausentes.
+- **B23-C05 — Validación con conjuntos oficiales.** *Texto redactado, pendiente de revisión.* Contrastar con datos de referencia (efemérides, catálogos) y criterios de aceptación; ausente.
+- **B23-C06 — Pruebas metamórficas.** *Texto redactado, pendiente de revisión.* Pruebas basadas en relaciones entre ejecuciones cuando no hay solución exacta; ausentes.
 - **B23-C07 — Trazabilidad científica de resultados.** *Programada.* Vincular cada cifra con código, datos y versión; B13-C19 trata metadatos de calibración, no trazabilidad de cálculo.
 - **B23-C08 — Informe de verificación y validación.** *Programada.* Estructura de un informe V&V con evidencias y límites; no cubierto.
 
