@@ -756,7 +756,7 @@ bc4cdf886fa259df24d526c61c70914d50427ce22d48c60d34021ff5e77116c2  programa/rutas
 378a1b584be151b42a77a26fc1b652a083f6ddf155cf8d1b1676df0d142897a3  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M05-sistema-de-comunicaciones-satelitales.md
 a65e59fc75030817d81feaeef83c0e3f7bed628b2696ee0fd7f45022d5af1867  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M07-ingenieria-de-interfaces-y-configuracion.md
 0bcd4a1f9c8285d4182867ce10e39a7d681ad3ffb9a008d13d1e894ad7af29a5  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M08-integracion-y-calificacion-de-cubesat.md
-d02b0a8299a13f5c76afbaf163c3355c4fc34824664d73d03feb2ccd766121b7  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/RECORRIDO.md
+06f5dddeb8c34dc3b5700d7adbdc66279379f30dbf6513bb8428610344567df8  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/RECORRIDO.md
 ca6d46208a619941247f7bc3de6e6de516b6d64dff24d9becf5b67ac5911f3d4  programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/INDICE.md
 c1e0190f4bbe14f8922b0b2ef0cdc9584316c23c332b6bca0011551277669839  programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M01-electronica-embarcada-avanzada.md
 073c25de09b5c0f4107556136097ac8553f36a1b417877d71a16ebfbb0943be9  programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M02-arquitectura-de-computadores-de-vuelo.md
@@ -776,7 +776,7 @@ c2100764f3f04521b633ef3b6a5e640f1bffcf78405bda6fe1d8233684daa2b3  programa/rutas
 48639fa5fb12ab1b7d491d93b3f6974d362a702c8f6454bd8170d7e4422afc5c  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M06-control-termico-de-vehiculos.md
 aa808aa96bbd68acf281dfab28db475c35b9b80775af0c7abaefced7a8ba12ad  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M07-proteccion-contra-ambientes-espaciales.md
 263340ddc36f3a358c99ff379a28edbc30c6867ec951a7b937309fc0ef4a1784  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M08-calificacion-estructural-y-termica.md
-c98e46bc7db8edec01d0de31b285ded6a586c68d358651dc276e49eadc5ceba5  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/RECORRIDO.md
+b503866734b9bf44a1e46437482c9f5a31fddf173df0b38d6315c1c4ebb945f0  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/RECORRIDO.md
 e7c8c95ce1b929d423be27daf02fc142d6c6ce3430b64cbba09b2c01c5f1e91c  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/GUIA_DEL_ROL.md
 b08261b3a57e63e91fc56efaa20962de7cad10129aa56e1ed0397bfafc82987d  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/INDICE.md
 7a680e2f1ac0529cadd5a9d97063f69cbd1b7140f462d701cdd829bbbc2c9408  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M01-antenas-espaciales-avanzadas.md
@@ -805,7 +805,7 @@ bf6b02ee803e1415692cff588cfc5a0eb70b319452e8818d9713bfa1900ab401  programa/rutas
 9a3115a0386a387799088064de828423e404628e5fb78894f81195dbbeefc182  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M06-manipulacion-y-mantenimiento-orbital.md
 1626c6626e73d4d8370c179b718c5b44c5ac2585278f195199d6683493344fa7  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M07-exploracion-autonoma-planetaria.md
 d4ea76704da93310ee7780dd8f90d7ce4e6e05af3eb6f1cd480e6c3ca80896f7  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M08-integracion-de-mision-robotica.md
-6ec94a6a8f72c99990739f4a5c2bdd18d2ccd436a55412821d44cec3c7a6cbcc  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/RECORRIDO.md
+58101c62340741f3eb8f39cc73893398b31bba9f46c62a9e0fad9d6e353537b8  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/RECORRIDO.md
 9b5be70a526e1b03518dd5b70958d1066158952bb1855f09b18eeea4c07c9af8  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/GUIA_DEL_ROL.md
 196e5ea9027b1ef94ee580ce7b660e4b0250eac9067eabc436f54a95ca3ad273  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/INDICE.md
 0cb02095e63e0615d4043b4c3cc4f7b496da69cea48c770868934a7d4c2c748c  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M01-preparacion-fisica-y-factores-humanos.md
