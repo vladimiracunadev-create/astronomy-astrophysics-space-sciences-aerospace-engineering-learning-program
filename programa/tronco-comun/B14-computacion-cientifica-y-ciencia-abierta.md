@@ -90,10 +90,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b14-c21"></a>B14-C21 | Datos de misiones planetarias: PDS4, etiquetas y SPICE | Estructura de archivos PDS4 y su lectura; etiquetas y kernels de geometría. | Lectura verificada de un producto de misión |
-| <a id="b14-c22"></a>B14-C22 | Acceso a datos heliofísicos abiertos con SunPy | Acceso práctico a archivos heliofísicos (VSO, JSOC, CDAWeb). | Descarga y lectura documentadas de datos solares |
-| <a id="b14-c23"></a>B14-C23 | Protocolo preregistrado de análisis | Redactar hipótesis, métodos y criterios antes de ver los datos. | Protocolo preregistrado con criterios de decisión |
-| <a id="b14-c24"></a>B14-C24 | Documentación de hipótesis y decisiones de análisis | Registro de hipótesis, desviaciones y decisiones durante el análisis. | Bitácora de decisiones y desviaciones |
+| <a id="b14-c21"></a>[B14-C21](../clases/B14/B14-C21-datos-de-misiones-planetarias-pds4-etiquetas-y-spice/CLASE.md) | Datos de misiones planetarias: PDS4, etiquetas y SPICE | Estructura de archivos PDS4 y su lectura; etiquetas y kernels de geometría. | Lectura verificada de un producto de misión |
+| <a id="b14-c22"></a>[B14-C22](../clases/B14/B14-C22-acceso-a-datos-heliofisicos-abiertos-con-sunpy/CLASE.md) | Acceso a datos heliofísicos abiertos con SunPy | Acceso práctico a archivos heliofísicos (VSO, JSOC, CDAWeb). | Descarga y lectura documentadas de datos solares |
+| <a id="b14-c23"></a>[B14-C23](../clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md) | Protocolo preregistrado de análisis | Redactar hipótesis, métodos y criterios antes de ver los datos. | Protocolo preregistrado con criterios de decisión |
+| <a id="b14-c24"></a>[B14-C24](../clases/B14/B14-C24-documentacion-de-hipotesis-y-decisiones-de-analisis/CLASE.md) | Documentación de hipótesis y decisiones de análisis | Registro de hipótesis, desviaciones y decisiones durante el análisis. | Bitácora de decisiones y desviaciones |
 | <a id="b14-c25"></a>B14-C25 | Catálogos de datos geoespaciales y metadatos (STAC) | Encontrar y reutilizar escenas satelitales con catálogos y metadatos estándar. | Búsqueda reproducible en un catálogo |
 | <a id="b14-c26"></a>B14-C26 | Formatos de datos ráster geoespaciales: GeoTIFF y COG | Formatos ráster de observación terrestre y lectura por regiones. | Auditoría de un ráster |
 | <a id="b14-c27"></a>B14-C27 | Procesamiento por teselas de grandes volúmenes de imágenes | Procesar coberturas que no caben en memoria dividiéndolas en teselas. | Procesamiento por teselas verificado |

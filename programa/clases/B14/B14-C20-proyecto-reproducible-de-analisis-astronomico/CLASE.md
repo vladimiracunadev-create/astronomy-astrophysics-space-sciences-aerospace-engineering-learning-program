@@ -1,7 +1,7 @@
 # B14-C20 — Proyecto reproducible de análisis astronómico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C19 — Publicación de código y datos](../B14-C19-publicacion-de-codigo-y-datos/CLASE.md) · [Siguiente: B14-C21 — Datos de misiones planetarias: PDS4, etiquetas y SPICE →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C19 — Publicación de código y datos](../B14-C19-publicacion-de-codigo-y-datos/CLASE.md) · [Siguiente: B14-C21 — Datos de misiones planetarias: PDS4, etiquetas y SPICE →](../B14-C21-datos-de-misiones-planetarias-pds4-etiquetas-y-spice/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ Un análisis reproducible es una cadena de comprobaciones: datos con huella, aju
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C19 — Publicación de código y datos](../B14-C19-publicacion-de-codigo-y-datos/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C21 — Datos de misiones planetarias: PDS4, etiquetas y SPICE →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c21)
+[← Anterior: B14-C19 — Publicación de código y datos](../B14-C19-publicacion-de-codigo-y-datos/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C21 — Datos de misiones planetarias: PDS4, etiquetas y SPICE →](../B14-C21-datos-de-misiones-planetarias-pds4-etiquetas-y-spice/CLASE.md)
 <!-- /nav -->
