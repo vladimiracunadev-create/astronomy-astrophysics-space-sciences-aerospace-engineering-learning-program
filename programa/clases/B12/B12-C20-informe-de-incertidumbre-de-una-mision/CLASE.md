@@ -1,7 +1,7 @@
 # B12-C20 — Informe de incertidumbre de una misión
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C19 — Detección de valores atípicos](../B12-C19-deteccion-de-valores-atipicos/CLASE.md) · [Siguiente: B12-C21 — Modelos jerárquicos bayesianos →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C19 — Detección de valores atípicos](../B12-C19-deteccion-de-valores-atipicos/CLASE.md) · [Siguiente: B12-C21 — Modelos jerárquicos bayesianos →](../B12-C21-modelos-jerarquicos-bayesianos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ El informe de incertidumbre documenta el mensurando, los componentes de tipo A y
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B12-C19 — Detección de valores atípicos](../B12-C19-deteccion-de-valores-atipicos/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C21 — Modelos jerárquicos bayesianos →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c21)
+[← Anterior: B12-C19 — Detección de valores atípicos](../B12-C19-deteccion-de-valores-atipicos/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C21 — Modelos jerárquicos bayesianos →](../B12-C21-modelos-jerarquicos-bayesianos/CLASE.md)
 <!-- /nav -->
