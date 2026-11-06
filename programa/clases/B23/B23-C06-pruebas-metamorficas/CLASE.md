@@ -1,7 +1,7 @@
 # B23-C06 — Pruebas metamórficas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C05 — Validación con conjuntos oficiales](../B23-C05-validacion-con-conjuntos-oficiales/CLASE.md) · [Siguiente: B23-C07 — Trazabilidad científica de resultados →](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md#b23-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C05 — Validación con conjuntos oficiales](../B23-C05-validacion-con-conjuntos-oficiales/CLASE.md) · [Siguiente: B23-C07 — Trazabilidad científica de resultados →](../B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -329,5 +329,5 @@ Una relación metamórfica convierte la simetría, las unidades y la composició
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B23-C05 — Validación con conjuntos oficiales](../B23-C05-validacion-con-conjuntos-oficiales/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B23-C07 — Trazabilidad científica de resultados →](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md#b23-c07)
+[← Anterior: B23-C05 — Validación con conjuntos oficiales](../B23-C05-validacion-con-conjuntos-oficiales/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B23-C07 — Trazabilidad científica de resultados →](../B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md)
 <!-- /nav -->
