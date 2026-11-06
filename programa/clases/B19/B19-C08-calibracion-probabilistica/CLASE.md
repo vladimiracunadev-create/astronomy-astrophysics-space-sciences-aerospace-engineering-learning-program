@@ -1,7 +1,7 @@
 # B19-C08 — Calibración probabilística
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [← Anterior: B19-C07 — Comparación de modelos bayesianos](../B19-C07-comparacion-de-modelos-bayesianos/CLASE.md) · [Siguiente: B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias →](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md#b20-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [← Anterior: B19-C07 — Comparación de modelos bayesianos](../B19-C07-comparacion-de-modelos-bayesianos/CLASE.md) · [Siguiente: B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias →](../../B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ Un procedimiento está calibrado si sus probabilidades se parecen a las frecuenc
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B19-C07 — Comparación de modelos bayesianos](../B19-C07-comparacion-de-modelos-bayesianos/CLASE.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [Siguiente: B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias →](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md#b20-c01)
+[← Anterior: B19-C07 — Comparación de modelos bayesianos](../B19-C07-comparacion-de-modelos-bayesianos/CLASE.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [Siguiente: B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias →](../../B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md)
 <!-- /nav -->

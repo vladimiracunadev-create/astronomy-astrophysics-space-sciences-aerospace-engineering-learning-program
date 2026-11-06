@@ -1,7 +1,7 @@
 # B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [← Anterior: B19-C08 — Calibración probabilística](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md#b19-c08) · [Siguiente: B20-C02 — Diseño de un plan de análisis y preregistro →](../B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [← Anterior: B19-C08 — Calibración probabilística](../../B19/B19-C08-calibracion-probabilistica/CLASE.md) · [Siguiente: B20-C02 — Diseño de un plan de análisis y preregistro →](../B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -334,5 +334,5 @@ Una búsqueda sistemática es un procedimiento con pregunta, criterios anteriore
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B19-C08 — Calibración probabilística](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md#b19-c08) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [Siguiente: B20-C02 — Diseño de un plan de análisis y preregistro →](../B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md)
+[← Anterior: B19-C08 — Calibración probabilística](../../B19/B19-C08-calibracion-probabilistica/CLASE.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [Siguiente: B20-C02 — Diseño de un plan de análisis y preregistro →](../B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md)
 <!-- /nav -->
