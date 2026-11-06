@@ -1,7 +1,7 @@
 # B15-C12 — Detección de fuentes astronómicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C11 — Deconvolución y enfoque](../B15-C11-deconvolucion-y-enfoque/CLASE.md) · [Siguiente: B15-C13 — Segmentación de imágenes →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C11 — Deconvolución y enfoque](../B15-C11-deconvolucion-y-enfoque/CLASE.md) · [Siguiente: B15-C13 — Segmentación de imágenes →](../B15-C13-segmentacion-de-imagenes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -329,5 +329,5 @@ Detectar es filtrar con la PSF, comparar con el ruido de la imagen filtrada y fi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B15-C11 — Deconvolución y enfoque](../B15-C11-deconvolucion-y-enfoque/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C13 — Segmentación de imágenes →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c13)
+[← Anterior: B15-C11 — Deconvolución y enfoque](../B15-C11-deconvolucion-y-enfoque/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C13 — Segmentación de imágenes →](../B15-C13-segmentacion-de-imagenes/CLASE.md)
 <!-- /nav -->

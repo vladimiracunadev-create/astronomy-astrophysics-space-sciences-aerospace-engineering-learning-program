@@ -67,7 +67,7 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b15-c10"></a>[B15-C10](../clases/B15/B15-C10-histogramas-y-normalizacion/CLASE.md) | Histogramas y normalización | Histograma, estiramiento de contraste y escalas lineal, logarítmica y asinh; no confundir la visualización con el dato. | Imagen normalizada con escala declarada |
 | <a id="b15-c11"></a>[B15-C11](../clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md) | Deconvolución y enfoque | PSF, desenfoque como convolución y deconvolución (Richardson–Lucy); amplificación del ruido. | Deconvolución con medida de mejora y de artefactos |
 | <a id="b15-c12"></a>[B15-C12](../clases/B15/B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md) | Detección de fuentes astronómicas | Estimar el fondo, umbral de significancia, relación señal–ruido, completitud y falsos positivos. | Catálogo de fuentes con criterios de detección |
-| <a id="b15-c13"></a>B15-C13 | Segmentación de imágenes | Umbralización, regiones conectadas y métricas de acuerdo; separar objetos del fondo. | Máscara segmentada con métricas |
+| <a id="b15-c13"></a>[B15-C13](../clases/B15/B15-C13-segmentacion-de-imagenes/CLASE.md) | Segmentación de imágenes | Umbralización, regiones conectadas y métricas de acuerdo; separar objetos del fondo. | Máscara segmentada con métricas |
 | <a id="b15-c14"></a>B15-C14 | Registro y alineación | Correlación cruzada y transformaciones afines; alineación con precisión subpíxel. | Alineación con error medido |
 
 ### Tramo 4 · Estimación y seguimiento

@@ -1,6 +1,7 @@
 # B15-C13 — Segmentación de imágenes
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C12 — Detección de fuentes astronómicas](../B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md) · [Siguiente: B15-C14 — Registro y alineación →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c14)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,4 +311,7 @@ Segmentar es asignar etiquetas a píxeles; Otsu elige el umbral que mejor separa
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C12 — Detección de fuentes astronómicas](../B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C14 — Registro y alineación →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c14)
 <!-- /nav -->
