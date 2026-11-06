@@ -1,7 +1,7 @@
 # B09-C04 — Reglas de derivación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C03 — Derivada como tasa de cambio](../B09-C03-derivada-como-tasa-de-cambio/CLASE.md) · [Siguiente: B09-C05 — Derivadas trigonométricas →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C03 — Derivada como tasa de cambio](../B09-C03-derivada-como-tasa-de-cambio/CLASE.md) · [Siguiente: B09-C05 — Derivadas trigonométricas →](../B09-C05-derivadas-trigonometricas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ Las reglas de potencia, suma, producto, cociente y cadena derivan casi todo; la 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B09-C03 — Derivada como tasa de cambio](../B09-C03-derivada-como-tasa-de-cambio/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C05 — Derivadas trigonométricas →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c05)
+[← Anterior: B09-C03 — Derivada como tasa de cambio](../B09-C03-derivada-como-tasa-de-cambio/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C05 — Derivadas trigonométricas →](../B09-C05-derivadas-trigonometricas/CLASE.md)
 <!-- /nav -->
