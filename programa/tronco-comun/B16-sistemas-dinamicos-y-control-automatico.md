@@ -69,10 +69,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b16-c13"></a>B16-C13 | Observabilidad y controlabilidad | Pruebas de rango, grammianos y qué se pierde con menos actuadores o sensores. | Informe de rango |
-| <a id="b16-c14"></a>B16-C14 | Observadores de estados | Observador de Luenberger, estimación de sesgo de giroscopio, principio de separación. | Observador verificado |
-| <a id="b16-c15"></a>B16-C15 | Control óptimo LQR | Costo cuadrático, ecuación de Riccati, compromiso esfuerzo–error. | Diseño LQR comparado |
-| <a id="b16-c16"></a>B16-C16 | Control robusto inicial | Incertidumbre de inercia, picos de S y T, ganancia pequeña. | Informe de robustez |
+| <a id="b16-c13"></a>[B16-C13](../clases/B16/B16-C13-observabilidad-y-controlabilidad/CLASE.md) | Observabilidad y controlabilidad | Pruebas de rango, grammianos y qué se pierde con menos actuadores o sensores. | Informe de rango |
+| <a id="b16-c14"></a>[B16-C14](../clases/B16/B16-C14-observadores-de-estados/CLASE.md) | Observadores de estados | Observador de Luenberger, estimación de sesgo de giroscopio, principio de separación. | Observador verificado |
+| <a id="b16-c15"></a>[B16-C15](../clases/B16/B16-C15-control-optimo-lqr/CLASE.md) | Control óptimo LQR | Costo cuadrático, ecuación de Riccati, compromiso esfuerzo–error. | Diseño LQR comparado |
+| <a id="b16-c16"></a>[B16-C16](../clases/B16/B16-C16-control-robusto-inicial/CLASE.md) | Control robusto inicial | Incertidumbre de inercia, picos de S y T, ganancia pequeña. | Informe de robustez |
 
 ### Tramo 5 · No linealidad, verificación y simulador
 

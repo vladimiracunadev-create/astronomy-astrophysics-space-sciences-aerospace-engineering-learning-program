@@ -1,7 +1,7 @@
 # B16-C12 — Sintonía de controladores PID
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C11 — Control proporcional integral derivativo](../B16-C11-control-proporcional-integral-derivativo/CLASE.md) · [Siguiente: B16-C13 — Observabilidad y controlabilidad →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C11 — Control proporcional integral derivativo](../B16-C11-control-proporcional-integral-derivativo/CLASE.md) · [Siguiente: B16-C13 — Observabilidad y controlabilidad →](../B16-C13-observabilidad-y-controlabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ Con modelo se colocan polos; sin modelo se mide la ganancia última y se aplica 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B16-C11 — Control proporcional integral derivativo](../B16-C11-control-proporcional-integral-derivativo/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C13 — Observabilidad y controlabilidad →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c13)
+[← Anterior: B16-C11 — Control proporcional integral derivativo](../B16-C11-control-proporcional-integral-derivativo/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C13 — Observabilidad y controlabilidad →](../B16-C13-observabilidad-y-controlabilidad/CLASE.md)
 <!-- /nav -->
