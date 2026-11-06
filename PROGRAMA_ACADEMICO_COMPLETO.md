@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 368 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 380 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -378,10 +378,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B14-C18 — Flujos de datos espaciales.** Describe «flujos de datos espaciales», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B14-C19 — Publicación de código y datos.** Describe «publicación de código y datos», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B14-C20 — Proyecto reproducible de análisis astronómico.** Introduce «proyecto reproducible de análisis astronómico» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B14-C21 — Datos de misiones planetarias: PDS4, etiquetas y SPICE.** *Programada.* B14-C18 trata flujos de datos espaciales; falta la estructura de archivos PDS4 y su lectura.
-- **B14-C22 — Acceso a datos heliofísicos abiertos con SunPy.** *Programada.* B14-C05 y C18 tratan catálogos y flujos en general; falta el acceso práctico a archivos heliofísicos (VSO, JSOC, CDAWeb).
-- **B14-C23 — Protocolo preregistrado de análisis.** *Programada.* Redactar hipótesis, métodos y criterios antes de ver los datos; B124-C14 trata ciencia abierta en general.
-- **B14-C24 — Documentación de hipótesis y decisiones de análisis.** *Programada.* Registro de hipótesis, desviaciones y decisiones; ausente en B14.
+- **B14-C21 — Datos de misiones planetarias: PDS4, etiquetas y SPICE.** *Texto redactado, pendiente de revisión.* B14-C18 trata flujos de datos espaciales; falta la estructura de archivos PDS4 y su lectura.
+- **B14-C22 — Acceso a datos heliofísicos abiertos con SunPy.** *Texto redactado, pendiente de revisión.* B14-C05 y C18 tratan catálogos y flujos en general; falta el acceso práctico a archivos heliofísicos (VSO, JSOC, CDAWeb).
+- **B14-C23 — Protocolo preregistrado de análisis.** *Texto redactado, pendiente de revisión.* Redactar hipótesis, métodos y criterios antes de ver los datos; B124-C14 trata ciencia abierta en general.
+- **B14-C24 — Documentación de hipótesis y decisiones de análisis.** *Texto redactado, pendiente de revisión.* Registro de hipótesis, desviaciones y decisiones; ausente en B14.
 - **B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC).** *Programada.* Encontrar y reutilizar escenas satelitales exige catálogos con metadatos estándar; B14-C05 trata tablas astronómicas, no catálogos de observación terrestre.
 - **B14-C26 — Formatos de datos ráster geoespaciales: GeoTIFF y COG.** *Programada.* B14-C06 trata el formato FITS astronómico; los datos de observación terrestre usan formatos ráster geoespaciales distintos.
 - **B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes.** *Programada.* Las coberturas globales no caben en memoria y se procesan por teselas; B14-C13 a C16 tratan paralelismo, no esta técnica.
