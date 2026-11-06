@@ -1,7 +1,7 @@
 # B14-C24 — Documentación de hipótesis y decisiones de análisis
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C23 — Protocolo preregistrado de análisis](../B14-C23-protocolo-preregistrado-de-analisis/CLASE.md) · [Siguiente: B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC) →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c25)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C23 — Protocolo preregistrado de análisis](../B14-C23-protocolo-preregistrado-de-analisis/CLASE.md) · [Siguiente: B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC) →](../B14-C25-catalogos-de-datos-geoespaciales-y-metadatos-stac/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Documentar un análisis es anotar, en el momento y de modo que solo se pueda amp
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C23 — Protocolo preregistrado de análisis](../B14-C23-protocolo-preregistrado-de-analisis/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC) →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c25)
+[← Anterior: B14-C23 — Protocolo preregistrado de análisis](../B14-C23-protocolo-preregistrado-de-analisis/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC) →](../B14-C25-catalogos-de-datos-geoespaciales-y-metadatos-stac/CLASE.md)
 <!-- /nav -->
