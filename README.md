@@ -80,7 +80,7 @@ Este mapa deja el contenido visible desde la portada. Cada bloque muestra su ran
 
 Punto de partida común: observar y medir el cielo, entender la ciencia como método y adquirir la matemática, la física, la química y la informática básicas. Nivel N0–N1. **Sin cambios respecto de la línea base.**
 
-*8 bloques · 160 clases de la línea base · 0 programadas · 160 en total · 160 con texto redactado.*
+*8 bloques · 160 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -97,7 +97,7 @@ Punto de partida común: observar y medir el cielo, entender la ciencia como mé
 
 Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación, estadística e incertidumbre, metrología, computación científica, señales y control; más aprendizaje automático, inferencia y verificación de software. Nivel N2–N3.
 
-*15 bloques · 160 clases de la línea base · 77 programadas · 237 en total · 237 con texto redactado.*
+*15 bloques · 237 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -121,7 +121,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 La física del universo: estrellas, galaxias, cosmología, objetos compactos, mensajeros, exoplanetas, el Sol y su plasma, y física nuclear y de partículas, con profundización en interiores estelares, universo temprano y clima espacial. Nivel N2–N4.
 
-*17 bloques · 160 clases de la línea base · 112 programadas · 272 en total.*
+*17 bloques · 272 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -147,7 +147,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastronomía y observatorios terrestres y espaciales, con profundización en diseño óptico, antenas e interferometría. Nivel N3–N4.
 
-*11 bloques · 160 clases de la línea base · 62 programadas · 222 en total.*
+*11 bloques · 222 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -167,7 +167,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 Los mundos y la vida: formación planetaria, geología, atmósferas, química, astrobiología, observación terrestre, cuerpos menores y recursos, con bloques nuevos de vulcanismo, impactos, geofísica y astroquímica. Nivel N2–N4.
 
-*19 bloques · 160 clases de la línea base · 97 programadas · 257 en total.*
+*19 bloques · 257 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -195,7 +195,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 Órbitas, perturbaciones, navegación, trayectorias, dinámica cislunar, lanzamiento y propulsión, con optimización de trayectorias, transferencias de Lambert y fluidos de propulsión. Nivel N3–N4.
 
-*12 bloques · 160 clases de la línea base · 77 programadas · 237 en total.*
+*12 bloques · 237 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -216,7 +216,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, potencia, actitud, aviónica, comunicaciones, integración y ensayos, con enlaces, antenas, comunicaciones ópticas y plataformas pequeñas. Nivel N3–N4.
 
-*13 bloques · 160 clases de la línea base · 99 programadas · 259 en total.*
+*13 bloques · 259 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -238,7 +238,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 Operar la misión y construir fuera de la Tierra: control de misión, robótica, percepción, movilidad, manipulación, autonomía y logística extraterrestre. Nivel N3–N4.
 
-*8 bloques · 40 clases de la línea base · 65 programadas · 105 en total.*
+*8 bloques · 105 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -255,7 +255,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 La persona en el espacio: preparación de astronautas, medicina y biología, hábitats y soporte vital, con bloques nuevos de salud, radiación, emergencias y bioregeneración. Nivel N3–N4.
 
-*14 bloques · 60 clases de la línea base · 93 programadas · 153 en total.*
+*14 bloques · 153 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -278,7 +278,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho internacional y nacional, espectro y licencias, responsabilidad, seguridad y resiliencia. Tratamiento histórico, jurídico, defensivo y de resiliencia. Nivel N3–N4.
 
-*6 bloques · 40 clases de la línea base · 45 programadas · 85 en total.*
+*6 bloques · 85 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -293,7 +293,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 Cadena de valor, costos, financiamiento, seguros, creación de empresas y gestión de proyectos espaciales. Nivel N3–N4.
 
-*4 bloques · 20 clases de la línea base · 24 programadas · 44 en total.*
+*4 bloques · 44 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
@@ -306,7 +306,7 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 
 Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas, saberes y educación intercultural, didáctica, ciencia ciudadana, accesibilidad y comunicación. Nivel N3–N4.
 
-*6 bloques · 0 clases de la línea base · 46 programadas · 46 en total.*
+*6 bloques · 46 clases.*
 
 | Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
