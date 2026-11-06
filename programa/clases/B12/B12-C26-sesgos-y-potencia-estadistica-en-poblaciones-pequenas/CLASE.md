@@ -157,7 +157,7 @@ Descripción larga: la curva sube desde 0,24 con 6 por grupo hasta 0,81 con 26 (
 
 ## 14. Comparación de métodos
 
-La **prueba `t` y el valor `p`** son lo habitual, pero con muestras pequeñas dan poco. La **estimación con intervalo** comunica mejor lo que se sabe. Los **diseños intra-unidad** reducen la varianza. Los **análisis bayesianos** (C12) permiten incorporar información previa y reducir la exageración mediante priors realistas. La **replicación y los metaanálisis** acumulan evidencia. Un estudio pequeño es útil como piloto exploratorio, no como prueba confirmatoria.
+La **prueba `t` y el valor `p`** son lo habitual, pero con muestras pequeñas dan poco. La **estimación con intervalo** comunica mejor lo que se sabe. Los **diseños intra-unidad** reducen la varianza. Los **análisis bayesianos** (C12) permiten incorporar información previa y reducir la exageración mediante priors realistas. La **replicación y los metaanálisis** acumulan evidencia. Un estudio pequeño es útil como exploración preliminar, no como prueba confirmatoria.
 
 ## 15. Práctica guiada
 

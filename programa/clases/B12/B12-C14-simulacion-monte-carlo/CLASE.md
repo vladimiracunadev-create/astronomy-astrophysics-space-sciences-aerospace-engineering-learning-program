@@ -139,7 +139,7 @@ Descripción larga: en un gráfico logarítmico, el error absoluto cae como una 
 
 **Paso 2 · Objetivo.** Conocer `p` con un error relativo del 1 %.
 
-**Paso 3 · Tamaño.** `N = (1−p)/(p·10⁻⁴) ≈ 75 100` muestras (con `p` conocido de antemano; en la práctica se usa una estimación piloto).
+**Paso 3 · Tamaño.** `N = (1−p)/(p·10⁻⁴) ≈ 75 100` muestras (con `p` conocido de antemano; en la práctica se usa una estimación preliminar).
 
 **Paso 4 · Ejecución.** Con `N = 10⁵`: `p̂ = 0,118200`, error típico teórico `0,0010` (0,87 % relativo).
 

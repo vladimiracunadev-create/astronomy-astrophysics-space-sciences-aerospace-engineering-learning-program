@@ -839,7 +839,7 @@ a5c398dc42d047cd58e8aa8e1e6d8f3dc51a68480708094fcc2ff78eb4ab574a  programa/clase
 f56cdfd1de8d804d38bf15f5b0ba332c07dc3e7b633804d3a8e6524811a50bf7  programa/clases/B12/B12-C13-cadenas-de-markov-y-muestreo/CLASE.md
 0179cb175870197ce7fdc6685e11bbcfa54bb700da93c842b40be9243708adc2  programa/clases/B12/B12-C13-cadenas-de-markov-y-muestreo/FICHA_EDITORIAL.md
 78bff1ff6b2d58da50203587054b7f62d59ec3a4bec6592dae9fd7aecba00c8c  programa/clases/B12/B12-C13-cadenas-de-markov-y-muestreo/markov_metropolis.py
-4814d7cee74f3236b7bfba3a4a3398fe37930d7fc45cce6e88b44f54e84d9638  programa/clases/B12/B12-C14-simulacion-monte-carlo/CLASE.md
+d0a7908bf601101f0b2152291457eced26cd909057217cb9d628a8aa1d83325e  programa/clases/B12/B12-C14-simulacion-monte-carlo/CLASE.md
 3d0bfc9a730f2a12bc970fa4dd3d8449da1d49f50e41f16f4f77f879b6dc5a7e  programa/clases/B12/B12-C14-simulacion-monte-carlo/FICHA_EDITORIAL.md
 fc32ab4f2395569ddf9c24f6b87b19a6450ad079e2bf930bc583be5d159f0a37  programa/clases/B12/B12-C14-simulacion-monte-carlo/monte_carlo_error.py
 b1d6ce84f7fdd8692dca6ede79e67252533ea59c6907815048b01931cb40df8e  programa/clases/B12/B12-C15-muestreo-de-importancia/CLASE.md
@@ -875,7 +875,7 @@ d059b3f0f01e04ca08adb6904838236d027fbd4651f61bfd1c4f688c8d83ea7a  programa/clase
 834ab28d426c8ee126da1b51480df68ca6584166e48bc01230745766754b5c36  programa/clases/B12/B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/CLASE.md
 aef894b58079585a1537eefdd8fe0f3b8e7793e5de8548b5e53e62bb5d77b1b6  programa/clases/B12/B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/FICHA_EDITORIAL.md
 c13cb355d919fcb2371372e5853d7814621659542c6732cf97f289511531a451  programa/clases/B12/B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/intercepto_aleatorio.py
-aea55b80f8538796fc82507011ebca29631750fe77b3f996fcca2ff6262ae827  programa/clases/B12/B12-C26-sesgos-y-potencia-estadistica-en-poblaciones-pequenas/CLASE.md
+c14677b9a764d63a1615ce7e9e2d8d4ab088a1504e301e9a27825e492a60ea13  programa/clases/B12/B12-C26-sesgos-y-potencia-estadistica-en-poblaciones-pequenas/CLASE.md
 6a65c5a95ddc7f97300aed75721e822059644bef0472a6aacc85f3660cfb5e12  programa/clases/B12/B12-C26-sesgos-y-potencia-estadistica-en-poblaciones-pequenas/FICHA_EDITORIAL.md
 ba30ce7001c365edcfb22745159cc6374c1af45982f085814fe3ba26ba1eedad  programa/clases/B12/B12-C26-sesgos-y-potencia-estadistica-en-poblaciones-pequenas/potencia_sesgo.py
 79e4ad87abda177ebc6c00f3ae5adb7af4e212e786cf63803d501b9907754a41  programa/clases/B13/B13-C01-sistema-internacional-y-constantes/CLASE.md
