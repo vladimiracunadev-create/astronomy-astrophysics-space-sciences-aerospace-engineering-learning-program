@@ -1,7 +1,7 @@
 # B14-C28 — Bases de datos espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes](../B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md) · [Siguiente: B14-C29 — Servicios de datos geoespaciales estándar (OGC) →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c29)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes](../B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md) · [Siguiente: B14-C29 — Servicios de datos geoespaciales estándar (OGC) →](../B14-C29-servicios-de-datos-geoespaciales-estandar-ogc/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ Un índice R-tree encuentra cajas por región sin recorrerlas todas; es un filtr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes](../B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C29 — Servicios de datos geoespaciales estándar (OGC) →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c29)
+[← Anterior: B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes](../B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C29 — Servicios de datos geoespaciales estándar (OGC) →](../B14-C29-servicios-de-datos-geoespaciales-estandar-ogc/CLASE.md)
 <!-- /nav -->

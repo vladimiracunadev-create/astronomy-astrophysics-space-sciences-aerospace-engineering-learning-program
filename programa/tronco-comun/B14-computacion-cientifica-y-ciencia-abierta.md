@@ -1,11 +1,11 @@
 # B14 — Computación científica y ciencia abierta
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 11 clases programadas (`B14-C21` a `B14-C31`), que entran en la tabla como tramo 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 11 clases programadas (`B14-C21` a `B14-C31`), ya redactadas y en la tabla como tramo 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Nivel:** N2 (fundamentos aplicados) · **Clases:** 20 de línea base + 11 programadas · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; las demás son resúmenes de especificación. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 31 clases están redactadas (con ficha editorial y, donde corresponde, laboratorio ejecutado); todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Los laboratorios de las clases C15, C16 y C17 no usan GPU, clúster ni contenedor, y los de C21, C22, C25, C26, C29 y C31 usan formatos o servicios simplificados o locales: cada clase lo declara en su aviso de alcance.
 
 ## 🎯 Propósito del bloque
 
@@ -86,7 +86,7 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b14-c19"></a>[B14-C19](../clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md) | Publicación de código y datos | Licencias, metadatos, citación, identificadores persistentes y principios FAIR. | Paquete publicable con ficha de metadatos |
 | <a id="b14-c20"></a>[B14-C20](../clases/B14/B14-C20-proyecto-reproducible-de-analisis-astronomico/CLASE.md) | Proyecto reproducible de análisis astronómico | Integrar arquitectura, datos, pruebas, entorno y publicación en un análisis completo. | Repositorio reproducible con informe |
 
-### Tramo 6 · Ampliación programada (sin redactar)
+### Tramo 6 · Ampliación programada (observación terrestre, datos de misión y ciencia abierta)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
@@ -98,9 +98,9 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b14-c26"></a>[B14-C26](../clases/B14/B14-C26-formatos-de-datos-raster-geoespaciales-geotiff-y-cog/CLASE.md) | Formatos de datos ráster geoespaciales: GeoTIFF y COG | Formatos ráster de observación terrestre y lectura por regiones. | Auditoría de un ráster |
 | <a id="b14-c27"></a>[B14-C27](../clases/B14/B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md) | Procesamiento por teselas de grandes volúmenes de imágenes | Procesar coberturas que no caben en memoria dividiéndolas en teselas. | Procesamiento por teselas verificado |
 | <a id="b14-c28"></a>[B14-C28](../clases/B14/B14-C28-bases-de-datos-espaciales/CLASE.md) | Bases de datos espaciales | Consultas espaciales sobre datos geográficos. | Consultas espaciales con resultados comprobados |
-| <a id="b14-c29"></a>B14-C29 | Servicios de datos geoespaciales estándar (OGC) | Publicar y consumir datos mediante servicios estándar. | Servicio descrito y consumido |
-| <a id="b14-c30"></a>B14-C30 | Cadenas de procesamiento automatizado de datos | Cadenas automáticas con control de calidad para producir datos de forma continua. | Cadena automatizada con controles de calidad |
-| <a id="b14-c31"></a>B14-C31 | APIs de servicios de datos | Interfaces programables para entregar datos a otros sistemas. | API documentada con pruebas |
+| <a id="b14-c29"></a>[B14-C29](../clases/B14/B14-C29-servicios-de-datos-geoespaciales-estandar-ogc/CLASE.md) | Servicios de datos geoespaciales estándar (OGC) | Publicar y consumir datos mediante servicios estándar. | Servicio descrito y consumido |
+| <a id="b14-c30"></a>[B14-C30](../clases/B14/B14-C30-cadenas-de-procesamiento-automatizado-de-datos/CLASE.md) | Cadenas de procesamiento automatizado de datos | Cadenas automáticas con control de calidad para producir datos de forma continua. | Cadena automatizada con controles de calidad |
+| <a id="b14-c31"></a>[B14-C31](../clases/B14/B14-C31-apis-de-servicios-de-datos/CLASE.md) | APIs de servicios de datos | Interfaces programables para entregar datos a otros sistemas. | API documentada con pruebas |
 
 ## 🧵 Hilos que atraviesan el bloque
 
