@@ -1,7 +1,7 @@
 # B08-C20 — Proyecto de campaña de observación nocturna
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C19 — Fotografía astronómica elemental](../B08-C19-fotografia-astronomica-elemental/CLASE.md) · [Siguiente: B09-C01 — Límites de funciones reales →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [← Anterior: B08-C19 — Fotografía astronómica elemental](../B08-C19-fotografia-astronomica-elemental/CLASE.md) · [Siguiente: B09-C01 — Límites de funciones reales →](../../B09/B09-C01-limites-de-funciones-reales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -278,5 +278,5 @@ Una campaña de observación es un proyecto con requisitos verificables, compone
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B08-C19 — Fotografía astronómica elemental](../B08-C19-fotografia-astronomica-elemental/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B09-C01 — Límites de funciones reales →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c01)
+[← Anterior: B08-C19 — Fotografía astronómica elemental](../B08-C19-fotografia-astronomica-elemental/CLASE.md) · [📚 Bloque B08](../../../tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) · [Siguiente: B09-C01 — Límites de funciones reales →](../../B09/B09-C01-limites-de-funciones-reales/CLASE.md)
 <!-- /nav -->
