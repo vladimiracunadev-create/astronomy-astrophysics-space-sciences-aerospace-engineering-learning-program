@@ -1,6 +1,7 @@
 # B11-C13 — Ecuaciones en derivadas parciales
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C12 — Problemas de frontera](../B11-C12-problemas-de-frontera/CLASE.md) · [Siguiente: B11-C14 — Diferencias finitas →](../B11-C14-diferencias-finitas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,4 +314,7 @@ Las EDP se clasifican en parabólicas, hiperbólicas y elípticas; cada tipo pid
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C12 — Problemas de frontera](../B11-C12-problemas-de-frontera/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C14 — Diferencias finitas →](../B11-C14-diferencias-finitas/CLASE.md)
 <!-- /nav -->

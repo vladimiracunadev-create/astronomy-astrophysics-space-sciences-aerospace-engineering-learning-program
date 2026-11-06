@@ -1,6 +1,7 @@
 # B11-C16 — Métodos espectrales iniciales
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C15 — Elementos finitos introductorios](../B11-C15-elementos-finitos-introductorios/CLASE.md) · [Siguiente: B11-C17 — Optimización numérica →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c17)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,4 +317,7 @@ Derivar es multiplicar por `i k` en el espacio de Fourier; la convergencia es ex
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C15 — Elementos finitos introductorios](../B11-C15-elementos-finitos-introductorios/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C17 — Optimización numérica →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c17)
 <!-- /nav -->

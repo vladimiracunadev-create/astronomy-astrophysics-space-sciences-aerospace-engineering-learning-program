@@ -1,6 +1,7 @@
 # B11-C14 — Diferencias finitas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C13 — Ecuaciones en derivadas parciales](../B11-C13-ecuaciones-en-derivadas-parciales/CLASE.md) · [Siguiente: B11-C15 — Elementos finitos introductorios →](../B11-C15-elementos-finitos-introductorios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,4 +310,7 @@ Las diferencias centrales dan orden 2 en espacio; FTCS exige `r ≤ 1/2` y su co
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C13 — Ecuaciones en derivadas parciales](../B11-C13-ecuaciones-en-derivadas-parciales/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C15 — Elementos finitos introductorios →](../B11-C15-elementos-finitos-introductorios/CLASE.md)
 <!-- /nav -->

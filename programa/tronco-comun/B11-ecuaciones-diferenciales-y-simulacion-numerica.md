@@ -73,10 +73,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b11-c12"></a>[B11-C12](../clases/B11/B11-C12-problemas-de-frontera/CLASE.md) | Problemas de frontera | Diferencias finitas tridiagonales, tiro lineal y no lineal, existencia y unicidad. | Informe de frontera |
-| <a id="b11-c13"></a>B11-C13 | Ecuaciones en derivadas parciales | Clasificación (calor, onda, Laplace, advección), condiciones, solución por separación de variables. | Ficha de clasificación y solución exacta |
-| <a id="b11-c14"></a>B11-C14 | Diferencias finitas | Esquemas, error de truncamiento, estabilidad de FTCS, condición `r ≤ 1/2`. | Informe de malla y estabilidad |
-| <a id="b11-c15"></a>B11-C15 | Elementos finitos introductorios | Forma débil, funciones de base lineales, ensamblaje; orden 2 en 1D. | Informe de convergencia de elementos finitos |
-| <a id="b11-c16"></a>B11-C16 | Métodos espectrales iniciales | Derivada por transformada de Fourier, convergencia exponencial, aliasing. | Comparación espectral frente a diferencias |
+| <a id="b11-c13"></a>[B11-C13](../clases/B11/B11-C13-ecuaciones-en-derivadas-parciales/CLASE.md) | Ecuaciones en derivadas parciales | Clasificación (calor, onda, Laplace, advección), condiciones, solución por separación de variables. | Ficha de clasificación y solución exacta |
+| <a id="b11-c14"></a>[B11-C14](../clases/B11/B11-C14-diferencias-finitas/CLASE.md) | Diferencias finitas | Esquemas, error de truncamiento, estabilidad de FTCS, condición `r ≤ 1/2`. | Informe de malla y estabilidad |
+| <a id="b11-c15"></a>[B11-C15](../clases/B11/B11-C15-elementos-finitos-introductorios/CLASE.md) | Elementos finitos introductorios | Forma débil, funciones de base lineales, ensamblaje; orden 2 en 1D. | Informe de convergencia de elementos finitos |
+| <a id="b11-c16"></a>[B11-C16](../clases/B11/B11-C16-metodos-espectrales-iniciales/CLASE.md) | Métodos espectrales iniciales | Derivada por transformada de Fourier, convergencia exponencial, aliasing. | Comparación espectral frente a diferencias |
 
 ### Tramo 5 · Herramientas numéricas y propagador
 

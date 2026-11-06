@@ -1,6 +1,7 @@
 # B11-C15 — Elementos finitos introductorios
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C14 — Diferencias finitas](../B11-C14-diferencias-finitas/CLASE.md) · [Siguiente: B11-C16 — Métodos espectrales iniciales →](../B11-C16-metodos-espectrales-iniciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,4 +311,7 @@ La forma débil pide menos derivadas; las funciones sombrero llevan a un sistema
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C14 — Diferencias finitas](../B11-C14-diferencias-finitas/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C16 — Métodos espectrales iniciales →](../B11-C16-metodos-espectrales-iniciales/CLASE.md)
 <!-- /nav -->
