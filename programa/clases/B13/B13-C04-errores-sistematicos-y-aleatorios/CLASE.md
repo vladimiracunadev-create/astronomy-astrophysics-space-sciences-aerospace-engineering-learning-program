@@ -1,7 +1,7 @@
 # B13-C04 — Errores sistemáticos y aleatorios
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C03 — Exactitud frente a precisión](../B13-C03-exactitud-frente-a-precision/CLASE.md) · [Siguiente: B13-C05 — Calibración instrumental →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C03 — Exactitud frente a precisión](../B13-C03-exactitud-frente-a-precision/CLASE.md) · [Siguiente: B13-C05 — Calibración instrumental →](../B13-C05-calibracion-instrumental/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ El ruido se reduce promediando como `1/√n`; el sesgo no, y se revela solo comp
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B13-C03 — Exactitud frente a precisión](../B13-C03-exactitud-frente-a-precision/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C05 — Calibración instrumental →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c05)
+[← Anterior: B13-C03 — Exactitud frente a precisión](../B13-C03-exactitud-frente-a-precision/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C05 — Calibración instrumental →](../B13-C05-calibracion-instrumental/CLASE.md)
 <!-- /nav -->

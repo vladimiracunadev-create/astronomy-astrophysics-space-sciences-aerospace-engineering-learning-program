@@ -53,10 +53,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b13-c05"></a>B13-C05 | Calibración instrumental | Curva de calibración por mínimos cuadrados con incertidumbre de pendiente y ordenada; inversión de la curva. | Curva de calibración con su incertidumbre |
-| <a id="b13-c06"></a>B13-C06 | Patrones de longitud y tiempo | Cómo se realizan el metro y el segundo, y cómo un error de frecuencia se convierte en error de distancia. | Cuaderno de equivalencias tiempo–distancia |
-| <a id="b13-c07"></a>B13-C07 | Relojes atómicos y frecuencia | Estabilidad de frecuencia, desviación de Allan y tipos de ruido de un reloj. | Curva de estabilidad con su interpretación |
-| <a id="b13-c08"></a>B13-C08 | Escalas UTC, TAI, TT y TDB | Qué mide cada escala, cómo se convierten y qué usa una efeméride. | Conversión verificada entre cuatro escalas |
+| <a id="b13-c05"></a>[B13-C05](../clases/B13/B13-C05-calibracion-instrumental/CLASE.md) | Calibración instrumental | Curva de calibración por mínimos cuadrados con incertidumbre de pendiente y ordenada; inversión de la curva. | Curva de calibración con su incertidumbre |
+| <a id="b13-c06"></a>[B13-C06](../clases/B13/B13-C06-patrones-de-longitud-y-tiempo/CLASE.md) | Patrones de longitud y tiempo | Cómo se realizan el metro y el segundo, y cómo un error de frecuencia se convierte en error de distancia. | Cuaderno de equivalencias tiempo–distancia |
+| <a id="b13-c07"></a>[B13-C07](../clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) | Relojes atómicos y frecuencia | Estabilidad de frecuencia, desviación de Allan y tipos de ruido de un reloj. | Curva de estabilidad con su interpretación |
+| <a id="b13-c08"></a>[B13-C08](../clases/B13/B13-C08-escalas-utc-tai-tt-y-tdb/CLASE.md) | Escalas UTC, TAI, TT y TDB | Qué mide cada escala, cómo se convierten y qué usa una efeméride. | Conversión verificada entre cuatro escalas |
 | <a id="b13-c09"></a>B13-C09 | Segundos intercalares y cronología | Fechas julianas, el calendario y el tratamiento de los segundos intercalares. | Conversor de fechas con prueba de segundo intercalar |
 
 ### Tramo 3 · Tiempo sidéreo y referencias terrestres
