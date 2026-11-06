@@ -324,7 +324,11 @@ def escribir_guias_y_metadatos(estructura, nuevos, bloques_base) -> None:
         L += ["## Roles que lo usan", ""]
         L += [f"- [{nombre_ruta[r]}](../../rutas/{dir_ruta[r]}.md)" for r in roles]
         L.append("")
-        (ROOT / "programa" / "tronco-comun" / f"{b['id']}-{slug(b['nombre'])}.md").write_text(chr(10).join(L), encoding="utf-8", newline=chr(10))
+        destino = ROOT / "programa" / "tronco-comun" / f"{b['id']}-{slug(b['nombre'])}.md"
+        # No pisar una guía ya reescrita como guía pedagógica (la plantilla de bloque programado dice «ninguna está redactada»).
+        if destino.exists() and "y ninguna está redactada: " not in destino.read_text(encoding="utf-8"):
+            continue
+        destino.write_text(chr(10).join(L), encoding="utf-8", newline=chr(10))
     # metadatos: todos los bloques y áreas en orden consecutivo
     previos = {x["id"]: x for x in json.loads((ROOT / "metadatos" / "bloques.json").read_text(encoding="utf-8"))}
     out = []
