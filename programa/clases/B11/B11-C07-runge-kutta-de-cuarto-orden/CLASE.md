@@ -1,6 +1,7 @@
 # B11-C07 — Runge-Kutta de cuarto orden
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C06 — Método de Heun](../B11-C06-metodo-de-heun/CLASE.md) · [Siguiente: B11-C08 — Integradores de paso adaptativo →](../B11-C08-integradores-de-paso-adaptativo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,4 +319,7 @@ RK4 combina cuatro pendientes con pesos 1, 2, 2, 1; su error global baja como `h
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C06 — Método de Heun](../B11-C06-metodo-de-heun/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C08 — Integradores de paso adaptativo →](../B11-C08-integradores-de-paso-adaptativo/CLASE.md)
 <!-- /nav -->

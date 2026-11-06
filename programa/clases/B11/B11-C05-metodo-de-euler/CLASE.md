@@ -1,6 +1,7 @@
 # B11-C05 — Método de Euler
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C04 — Sistemas de ecuaciones diferenciales](../B11-C04-sistemas-de-ecuaciones-diferenciales/CLASE.md) · [Siguiente: B11-C06 — Método de Heun →](../B11-C06-metodo-de-heun/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,4 +312,7 @@ Euler avanza siguiendo la tangente; su error local es `∝ h²` y el global `∝
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C04 — Sistemas de ecuaciones diferenciales](../B11-C04-sistemas-de-ecuaciones-diferenciales/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C06 — Método de Heun →](../B11-C06-metodo-de-heun/CLASE.md)
 <!-- /nav -->

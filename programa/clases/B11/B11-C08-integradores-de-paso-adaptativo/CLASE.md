@@ -1,6 +1,7 @@
 # B11-C08 — Integradores de paso adaptativo
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C07 — Runge-Kutta de cuarto orden](../B11-C07-runge-kutta-de-cuarto-orden/CLASE.md) · [Siguiente: B11-C09 — Análisis de estabilidad numérica →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c09)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -328,4 +329,7 @@ Un integrador adaptativo estima el error de cada paso, lo acepta o rechaza segú
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C07 — Runge-Kutta de cuarto orden](../B11-C07-runge-kutta-de-cuarto-orden/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C09 — Análisis de estabilidad numérica →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c09)
 <!-- /nav -->

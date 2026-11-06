@@ -1,7 +1,7 @@
 # B11-C04 — Sistemas de ecuaciones diferenciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C03 — Ecuaciones de primer orden](../B11-C03-ecuaciones-de-primer-orden/CLASE.md) · [Siguiente: B11-C05 — Método de Euler →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C03 — Ecuaciones de primer orden](../B11-C03-ecuaciones-de-primer-orden/CLASE.md) · [Siguiente: B11-C05 — Método de Euler →](../B11-C05-metodo-de-euler/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Toda EDO de orden `m` se convierte en un sistema de `m` ecuaciones de primer ord
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B11-C03 — Ecuaciones de primer orden](../B11-C03-ecuaciones-de-primer-orden/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C05 — Método de Euler →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c05)
+[← Anterior: B11-C03 — Ecuaciones de primer orden](../B11-C03-ecuaciones-de-primer-orden/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C05 — Método de Euler →](../B11-C05-metodo-de-euler/CLASE.md)
 <!-- /nav -->

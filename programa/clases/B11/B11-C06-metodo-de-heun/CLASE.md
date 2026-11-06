@@ -1,6 +1,7 @@
 # B11-C06 — Método de Heun
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C05 — Método de Euler](../B11-C05-metodo-de-euler/CLASE.md) · [Siguiente: B11-C07 — Runge-Kutta de cuarto orden →](../B11-C07-runge-kutta-de-cuarto-orden/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,4 +315,7 @@ Heun promedia dos pendientes con una evaluación adicional, es de orden 2, y a i
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C05 — Método de Euler](../B11-C05-metodo-de-euler/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C07 — Runge-Kutta de cuarto orden →](../B11-C07-runge-kutta-de-cuarto-orden/CLASE.md)
 <!-- /nav -->
