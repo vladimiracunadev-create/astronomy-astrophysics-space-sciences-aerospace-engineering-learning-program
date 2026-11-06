@@ -1,6 +1,7 @@
 # B22-C02 — Regularización de Tikhonov
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B22-C01 — Problemas directos e inversos y mal condicionamiento](../B22-C01-problemas-directos-e-inversos-y-mal-condicionamiento/CLASE.md) · [Siguiente: B22-C03 — Identificabilidad de parámetros →](../B22-C03-identificabilidad-de-parametros/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -338,4 +339,7 @@ La regularización de Tikhonov minimiza el desajuste más `λ²` veces el tamañ
 **Referencias:** ver sección 11. De S2 se leyó solo parte; la implementación del vértice es propia.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B22-C01 — Problemas directos e inversos y mal condicionamiento](../B22-C01-problemas-directos-e-inversos-y-mal-condicionamiento/CLASE.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B22-C03 — Identificabilidad de parámetros →](../B22-C03-identificabilidad-de-parametros/CLASE.md)
 <!-- /nav -->

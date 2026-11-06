@@ -1,6 +1,7 @@
 # B22-C04 — Inversión espectral
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B22-C03 — Identificabilidad de parámetros](../B22-C03-identificabilidad-de-parametros/CLASE.md) · [Siguiente: B22-C05 — Pruebas de inversión con datos sintéticos →](../B22-C05-pruebas-de-inversion-con-datos-sinteticos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -340,4 +341,7 @@ Un espectro se invierte con un modelo directo; con un parámetro bien determinad
 **Referencias:** ver sección 11. De S4 solo se usó el resumen; Planck, Wien y Rayleigh–Jeans son resultados estándar verificados numéricamente.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B22-C03 — Identificabilidad de parámetros](../B22-C03-identificabilidad-de-parametros/CLASE.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B22-C05 — Pruebas de inversión con datos sintéticos →](../B22-C05-pruebas-de-inversion-con-datos-sinteticos/CLASE.md)
 <!-- /nav -->

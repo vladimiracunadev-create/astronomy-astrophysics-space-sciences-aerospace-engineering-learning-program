@@ -1,6 +1,7 @@
 # B22-C03 — Identificabilidad de parámetros
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B22-C02 — Regularización de Tikhonov](../B22-C02-regularizacion-de-tikhonov/CLASE.md) · [Siguiente: B22-C04 — Inversión espectral →](../B22-C04-inversion-espectral/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,4 +304,7 @@ Un parámetro está determinado por los datos solo si el modelo no lo confunde c
 **Referencias:** ver sección 11. De S5 se usaron las definiciones y se leyó solo parte de la página.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B22-C02 — Regularización de Tikhonov](../B22-C02-regularizacion-de-tikhonov/CLASE.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B22-C04 — Inversión espectral →](../B22-C04-inversion-espectral/CLASE.md)
 <!-- /nav -->
