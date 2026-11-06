@@ -1,7 +1,7 @@
 # B19-C04 — Diagnóstico de convergencia de cadenas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [← Anterior: B19-C03 — Hamiltonian Monte Carlo y NUTS](../B19-C03-hamiltonian-monte-carlo-y-nuts/CLASE.md) · [Siguiente: B19-C05 — Inferencia variacional →](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md#b19-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [← Anterior: B19-C03 — Hamiltonian Monte Carlo y NUTS](../B19-C03-hamiltonian-monte-carlo-y-nuts/CLASE.md) · [Siguiente: B19-C05 — Inferencia variacional →](../B19-C05-inferencia-variacional/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ La convergencia no se demuestra, se intenta refutar con varias pruebas: concorda
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B19-C03 — Hamiltonian Monte Carlo y NUTS](../B19-C03-hamiltonian-monte-carlo-y-nuts/CLASE.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [Siguiente: B19-C05 — Inferencia variacional →](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md#b19-c05)
+[← Anterior: B19-C03 — Hamiltonian Monte Carlo y NUTS](../B19-C03-hamiltonian-monte-carlo-y-nuts/CLASE.md) · [📚 Bloque B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) · [Siguiente: B19-C05 — Inferencia variacional →](../B19-C05-inferencia-variacional/CLASE.md)
 <!-- /nav -->
