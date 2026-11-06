@@ -1,6 +1,7 @@
 # B15-C17 — Filtros de Kalman introductorios
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C16 — Ajuste de curvas](../B15-C16-ajuste-de-curvas/CLASE.md) · [Siguiente: B15-C18 — Filtros de partículas iniciales →](../B15-C18-filtros-de-particulas-iniciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,4 +309,7 @@ El filtro de Kalman alterna predicción (con el modelo) y corrección (con la me
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C16 — Ajuste de curvas](../B15-C16-ajuste-de-curvas/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C18 — Filtros de partículas iniciales →](../B15-C18-filtros-de-particulas-iniciales/CLASE.md)
 <!-- /nav -->
