@@ -1,7 +1,7 @@
 # B12-C16 — Propagación de incertidumbre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C15 — Muestreo de importancia](../B12-C15-muestreo-de-importancia/CLASE.md) · [Siguiente: B12-C17 — Análisis de sensibilidad →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B12-C15 — Muestreo de importancia](../B12-C15-muestreo-de-importancia/CLASE.md) · [Siguiente: B12-C17 — Análisis de sensibilidad →](../B12-C17-analisis-de-sensibilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ La ley de propagación combina en cuadratura las incertidumbres ponderadas por s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B12-C15 — Muestreo de importancia](../B12-C15-muestreo-de-importancia/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C17 — Análisis de sensibilidad →](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md#b12-c17)
+[← Anterior: B12-C15 — Muestreo de importancia](../B12-C15-muestreo-de-importancia/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C17 — Análisis de sensibilidad →](../B12-C17-analisis-de-sensibilidad/CLASE.md)
 <!-- /nav -->
