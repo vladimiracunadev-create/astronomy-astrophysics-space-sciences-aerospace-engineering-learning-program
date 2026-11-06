@@ -82,10 +82,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b11-c17"></a>B11-C17 | Optimización numérica | Mínimos, Newton, descenso por gradiente, sección áurea, mínimos cuadrados. | Informe de optimización con verificación |
-| <a id="b11-c18"></a>B11-C18 | Interpolación y extrapolación | Lagrange, error de interpolación, fenómeno de Runge, nodos de Chebyshev, peligros de extrapolar. | Tabla de interpolación con cota de error |
-| <a id="b11-c19"></a>B11-C19 | Estimación de error y convergencia | Orden observado, Richardson, error de truncamiento frente a redondeo, presupuesto de error. | Estudio de convergencia con presupuesto de error |
-| <a id="b11-c20"></a>B11-C20 | Propagador reproducible de trayectoria | Configuración declarada, versiones, huella de resultados, pruebas contra Kepler. | Propagador con pruebas y huella reproducible |
+| <a id="b11-c17"></a>[B11-C17](../clases/B11/B11-C17-optimizacion-numerica/CLASE.md) | Optimización numérica | Mínimos, Newton, descenso por gradiente, sección áurea, mínimos cuadrados. | Informe de optimización con verificación |
+| <a id="b11-c18"></a>[B11-C18](../clases/B11/B11-C18-interpolacion-y-extrapolacion/CLASE.md) | Interpolación y extrapolación | Lagrange, error de interpolación, fenómeno de Runge, nodos de Chebyshev, peligros de extrapolar. | Tabla de interpolación con cota de error |
+| <a id="b11-c19"></a>[B11-C19](../clases/B11/B11-C19-estimacion-de-error-y-convergencia/CLASE.md) | Estimación de error y convergencia | Orden observado, Richardson, error de truncamiento frente a redondeo, presupuesto de error. | Estudio de convergencia con presupuesto de error |
+| <a id="b11-c20"></a>[B11-C20](../clases/B11/B11-C20-propagador-reproducible-de-trayectoria/CLASE.md) | Propagador reproducible de trayectoria | Configuración declarada, versiones, huella de resultados, pruebas contra Kepler. | Propagador con pruebas y huella reproducible |
 
 ### Tramo 6 · Ampliación programada (sin redactar al publicar esta guía)
 

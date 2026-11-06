@@ -1,6 +1,7 @@
 # B11-C19 — Estimación de error y convergencia
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C18 — Interpolación y extrapolación](../B11-C18-interpolacion-y-extrapolacion/CLASE.md) · [Siguiente: B11-C20 — Propagador reproducible de trayectoria →](../B11-C20-propagador-reproducible-de-trayectoria/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,4 +321,7 @@ El error total tiene truncamiento (baja con `h^p`), redondeo (sube como `ε/h`),
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C18 — Interpolación y extrapolación](../B11-C18-interpolacion-y-extrapolacion/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C20 — Propagador reproducible de trayectoria →](../B11-C20-propagador-reproducible-de-trayectoria/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B11-C17 — Optimización numérica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C16 — Métodos espectrales iniciales](../B11-C16-metodos-espectrales-iniciales/CLASE.md) · [Siguiente: B11-C18 — Interpolación y extrapolación →](../B11-C18-interpolacion-y-extrapolacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,4 +319,7 @@ La sección áurea busca sin derivadas, Newton converge cuadráticamente, Gauss�
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C16 — Métodos espectrales iniciales](../B11-C16-metodos-espectrales-iniciales/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C18 — Interpolación y extrapolación →](../B11-C18-interpolacion-y-extrapolacion/CLASE.md)
 <!-- /nav -->
