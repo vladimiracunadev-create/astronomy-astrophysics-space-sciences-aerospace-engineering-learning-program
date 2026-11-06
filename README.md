@@ -82,16 +82,16 @@ Punto de partida común: observar y medir el cielo, entender la ciencia como mé
 
 *8 bloques · 160 clases de la línea base · 0 programadas · 160 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B01 | El universo y el pensamiento científico | B01-C01 → B01-C20 | [📘 ver las 20 clases](programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) |
-| B02 | Historia, arqueoastronomía y culturas del cielo | B02-C01 → B02-C20 | [📘 ver las 20 clases](programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) |
-| B03 | Matemática elemental para ciencias espaciales | B03-C01 → B03-C20 | [📘 ver las 20 clases](programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) |
-| B04 | Álgebra, trigonometría y geometría espacial | B04-C01 → B04-C20 | [📘 ver las 20 clases](programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) |
-| B05 | Física fundamental para el espacio | B05-C01 → B05-C20 | [📘 ver las 20 clases](programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) |
-| B06 | Química y materia del universo | B06-C01 → B06-C20 | [📘 ver las 20 clases](programa/tronco-comun/B06-quimica-y-materia-del-universo.md) |
-| B07 | Informática científica desde cero | B07-C01 → B07-C20 | [📘 ver las 20 clases](programa/tronco-comun/B07-informatica-cientifica-desde-cero.md) |
-| B08 | Observación del cielo y astronomía práctica | B08-C01 → B08-C20 | [📘 ver las 20 clases](programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) |
+| B01 | El universo y el pensamiento científico | C01 a C20 | [📘](programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) |
+| B02 | Historia, arqueoastronomía y culturas del cielo | C01 a C20 | [📘](programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) |
+| B03 | Matemática elemental para ciencias espaciales | C01 a C20 | [📘](programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md) |
+| B04 | Álgebra, trigonometría y geometría espacial | C01 a C20 | [📘](programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md) |
+| B05 | Física fundamental para el espacio | C01 a C20 | [📘](programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) |
+| B06 | Química y materia del universo | C01 a C20 | [📘](programa/tronco-comun/B06-quimica-y-materia-del-universo.md) |
+| B07 | Informática científica desde cero | C01 a C20 | [📘](programa/tronco-comun/B07-informatica-cientifica-desde-cero.md) |
+| B08 | Observación del cielo y astronomía práctica | C01 a C20 | [📘](programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) |
 
 ### A02 · Matemática, física computacional y métodos científicos
 
@@ -99,23 +99,23 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *15 bloques · 160 clases de la línea base · 77 programadas · 237 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B09 | Cálculo diferencial e integral | B09-C01 → B09-C20 | [📘 ver las 20 clases](programa/tronco-comun/B09-calculo-diferencial-e-integral.md) |
-| B10 | Álgebra lineal y matemáticas geométricas | B10-C01 → B10-C20 | [📘 ver las 20 clases](programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) |
-| B11 | Ecuaciones diferenciales y simulación numérica | B11-C01 → B11-C26 | [📘 ver el bloque](programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) |
-| B12 | Probabilidad, estadística e incertidumbre | B12-C01 → B12-C26 | [📘 ver el bloque](programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) |
-| B13 | Metrología, tiempo y mediciones científicas | B13-C01 → B13-C23 | [📘 ver el bloque](programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) |
-| B14 | Computación científica y ciencia abierta | B14-C01 → B14-C31 | [📘 ver el bloque](programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) |
-| B15 | Señales, imágenes y estimación científica | B15-C01 → B15-C24 | [📘 ver el bloque](programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) |
-| B16 | Sistemas dinámicos y control automático | B16-C01 → B16-C20 | [📘 ver las 20 clases](programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) |
-| B17 | Aprendizaje automático científico | B17-C01 → B17-C12 | [📘 ver el bloque](programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md) |
-| B18 | Computación de alto rendimiento | B18-C01 → B18-C05 | [📘 ver el bloque](programa/tronco-comun/B18-computacion-de-alto-rendimiento.md) |
-| B19 | Inferencia bayesiana y computación probabilística | B19-C01 → B19-C08 | [📘 ver el bloque](programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) |
-| B20 | Metodología de la investigación científica | B20-C01 → B20-C04 | [📘 ver el bloque](programa/tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) |
-| B21 | Métodos numéricos para EDP y fluidos computacionales | B21-C01 → B21-C05 | [📘 ver el bloque](programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) |
-| B22 | Problemas inversos y estimación de modelos | B22-C01 → B22-C05 | [📘 ver el bloque](programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) |
-| B23 | Verificación y validación de software científico | B23-C01 → B23-C08 | [📘 ver el bloque](programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) |
+| B09 | Cálculo diferencial e integral | C01 a C20 | [📘](programa/tronco-comun/B09-calculo-diferencial-e-integral.md) |
+| B10 | Álgebra lineal y matemáticas geométricas | C01 a C20 | [📘](programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) |
+| B11 | Ecuaciones diferenciales y simulación numérica | C01 a C26 | [📘](programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) |
+| B12 | Probabilidad, estadística e incertidumbre | C01 a C26 | [📘](programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) |
+| B13 | Metrología, tiempo y mediciones científicas | C01 a C23 | [📘](programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) |
+| B14 | Computación científica y ciencia abierta | C01 a C31 | [📘](programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) |
+| B15 | Señales, imágenes y estimación científica | C01 a C24 | [📘](programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) |
+| B16 | Sistemas dinámicos y control automático | C01 a C20 | [📘](programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) |
+| B17 | Aprendizaje automático científico | C01 a C12 | [📘](programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md) |
+| B18 | Computación de alto rendimiento | C01 a C05 | [📘](programa/tronco-comun/B18-computacion-de-alto-rendimiento.md) |
+| B19 | Inferencia bayesiana y computación probabilística | C01 a C08 | [📘](programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md) |
+| B20 | Metodología de la investigación científica | C01 a C04 | [📘](programa/tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) |
+| B21 | Métodos numéricos para EDP y fluidos computacionales | C01 a C05 | [📘](programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) |
+| B22 | Problemas inversos y estimación de modelos | C01 a C05 | [📘](programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) |
+| B23 | Verificación y validación de software científico | C01 a C08 | [📘](programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) |
 
 ### A03 · Astrofísica y ciencias fundamentales del universo
 
@@ -123,25 +123,25 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *17 bloques · 160 clases de la línea base · 112 programadas · 272 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B24 | Física y evolución de estrellas | B24-C01 → B24-C22 | [📘 ver el bloque](programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) |
-| B25 | Galaxias y medio interestelar | B25-C01 → B25-C20 | [📘 ver las 20 clases](programa/tronco-comun/B25-galaxias-y-medio-interestelar.md) |
-| B26 | Relatividad y cosmología | B26-C01 → B26-C23 | [📘 ver el bloque](programa/tronco-comun/B26-relatividad-y-cosmologia.md) |
-| B27 | Objetos compactos y altas energías | B27-C01 → B27-C22 | [📘 ver el bloque](programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md) |
-| B28 | Astronomía multimensajero | B28-C01 → B28-C22 | [📘 ver el bloque](programa/tronco-comun/B28-astronomia-multimensajero.md) |
-| B29 | Astronomía temporal y exoplanetas | B29-C01 → B29-C20 | [📘 ver las 20 clases](programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) |
-| B30 | Heliofísica y física de plasmas | B30-C01 → B30-C23 | [📘 ver el bloque](programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) |
-| B31 | Física cuántica, nuclear y astropartículas | B31-C01 → B31-C20 | [📘 ver las 20 clases](programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) |
-| B32 | Atmósferas estelares y espectroscopía estelar cuantitativa | B32-C01 → B32-C12 | [📘 ver el bloque](programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md) |
-| B33 | Clima espacial: impactos, pronóstico y riesgo | B33-C01 → B33-C14 | [📘 ver el bloque](programa/tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) |
-| B34 | Corona solar y erupciones: diagnóstico y modelos | B34-C01 → B34-C09 | [📘 ver el bloque](programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) |
-| B35 | Física avanzada de plasmas y MHD espacial | B35-C01 → B35-C10 | [📘 ver el bloque](programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) |
-| B36 | Formación de estructuras cósmicas y materia oscura | B36-C01 → B36-C11 | [📘 ver el bloque](programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) |
-| B37 | Interiores estelares y asterosismología | B37-C01 → B37-C14 | [📘 ver el bloque](programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md) |
-| B38 | Poblaciones estelares y simulación de galaxias | B38-C01 → B38-C09 | [📘 ver el bloque](programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md) |
-| B39 | Relatividad general avanzada | B39-C01 → B39-C06 | [📘 ver el bloque](programa/tronco-comun/B39-relatividad-general-avanzada.md) |
-| B40 | Universo temprano y radiación cósmica de fondo | B40-C01 → B40-C15 | [📘 ver el bloque](programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) |
+| B24 | Física y evolución de estrellas | C01 a C22 | [📘](programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) |
+| B25 | Galaxias y medio interestelar | C01 a C20 | [📘](programa/tronco-comun/B25-galaxias-y-medio-interestelar.md) |
+| B26 | Relatividad y cosmología | C01 a C23 | [📘](programa/tronco-comun/B26-relatividad-y-cosmologia.md) |
+| B27 | Objetos compactos y altas energías | C01 a C22 | [📘](programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md) |
+| B28 | Astronomía multimensajero | C01 a C22 | [📘](programa/tronco-comun/B28-astronomia-multimensajero.md) |
+| B29 | Astronomía temporal y exoplanetas | C01 a C20 | [📘](programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) |
+| B30 | Heliofísica y física de plasmas | C01 a C23 | [📘](programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) |
+| B31 | Física cuántica, nuclear y astropartículas | C01 a C20 | [📘](programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) |
+| B32 | Atmósferas estelares y espectroscopía estelar cuantitativa | C01 a C12 | [📘](programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md) |
+| B33 | Clima espacial: impactos, pronóstico y riesgo | C01 a C14 | [📘](programa/tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) |
+| B34 | Corona solar y erupciones: diagnóstico y modelos | C01 a C09 | [📘](programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) |
+| B35 | Física avanzada de plasmas y MHD espacial | C01 a C10 | [📘](programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) |
+| B36 | Formación de estructuras cósmicas y materia oscura | C01 a C11 | [📘](programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) |
+| B37 | Interiores estelares y asterosismología | C01 a C14 | [📘](programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md) |
+| B38 | Poblaciones estelares y simulación de galaxias | C01 a C09 | [📘](programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md) |
+| B39 | Relatividad general avanzada | C01 a C06 | [📘](programa/tronco-comun/B39-relatividad-general-avanzada.md) |
+| B40 | Universo temprano y radiación cósmica de fondo | C01 a C15 | [📘](programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) |
 
 ### A04 · Óptica, telescopios y observatorios científicos
 
@@ -149,19 +149,19 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 *11 bloques · 160 clases de la línea base · 62 programadas · 222 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B41 | Óptica geométrica y diseño de telescopios | B41-C01 → B41-C20 | [📘 ver las 20 clases](programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) |
-| B42 | Óptica física y óptica adaptativa | B42-C01 → B42-C24 | [📘 ver el bloque](programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) |
-| B43 | Construcción y mecánica de telescopios | B43-C01 → B43-C26 | [📘 ver el bloque](programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) |
-| B44 | Detectores y adquisición astronómica | B44-C01 → B44-C20 | [📘 ver las 20 clases](programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) |
-| B45 | Espectroscopía, fotometría y polarimetría | B45-C01 → B45-C24 | [📘 ver el bloque](programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) |
-| B46 | Radioastronomía e interferometría | B46-C01 → B46-C20 | [📘 ver las 20 clases](programa/tronco-comun/B46-radioastronomia-e-interferometria.md) |
-| B47 | Instrumentación y observatorios espaciales | B47-C01 → B47-C25 | [📘 ver el bloque](programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) |
-| B48 | Operaciones de observatorios científicos | B48-C01 → B48-C23 | [📘 ver el bloque](programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) |
-| B49 | Antenas y receptores de radioastronomía | B49-C01 → B49-C11 | [📘 ver el bloque](programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) |
-| B50 | Diseño óptico computacional y tolerancias | B50-C01 → B50-C15 | [📘 ver el bloque](programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) |
-| B51 | Interferometría avanzada y reducción de datos de radio | B51-C01 → B51-C14 | [📘 ver el bloque](programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) |
+| B41 | Óptica geométrica y diseño de telescopios | C01 a C20 | [📘](programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) |
+| B42 | Óptica física y óptica adaptativa | C01 a C24 | [📘](programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) |
+| B43 | Construcción y mecánica de telescopios | C01 a C26 | [📘](programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) |
+| B44 | Detectores y adquisición astronómica | C01 a C20 | [📘](programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) |
+| B45 | Espectroscopía, fotometría y polarimetría | C01 a C24 | [📘](programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) |
+| B46 | Radioastronomía e interferometría | C01 a C20 | [📘](programa/tronco-comun/B46-radioastronomia-e-interferometria.md) |
+| B47 | Instrumentación y observatorios espaciales | C01 a C25 | [📘](programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) |
+| B48 | Operaciones de observatorios científicos | C01 a C23 | [📘](programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) |
+| B49 | Antenas y receptores de radioastronomía | C01 a C11 | [📘](programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) |
+| B50 | Diseño óptico computacional y tolerancias | C01 a C15 | [📘](programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) |
+| B51 | Interferometría avanzada y reducción de datos de radio | C01 a C14 | [📘](programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) |
 
 ### A05 · Ciencias planetarias, astroquímica y habitabilidad
 
@@ -169,27 +169,27 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 *19 bloques · 160 clases de la línea base · 97 programadas · 257 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B52 | Formación y dinámica de sistemas planetarios | B52-C01 → B52-C20 | [📘 ver las 20 clases](programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) |
-| B53 | Astrogeología y geodesia planetaria | B53-C01 → B53-C30 | [📘 ver el bloque](programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) |
-| B54 | Atmósferas y climatología planetaria | B54-C01 → B54-C20 | [📘 ver las 20 clases](programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) |
-| B55 | Astroquímica y geoquímica extraterrestre | B55-C01 → B55-C20 | [📘 ver las 20 clases](programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) |
-| B56 | Astrobiología y vida extraterrestre | B56-C01 → B56-C21 | [📘 ver el bloque](programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) |
-| B57 | Observación terrestre y geociencias orbitales | B57-C01 → B57-C34 | [📘 ver el bloque](programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) |
-| B58 | Asteroides, cometas y defensa planetaria | B58-C01 → B58-C20 | [📘 ver las 20 clases](programa/tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) |
-| B59 | Recursos in situ y sostenibilidad extraterrestre | B59-C01 → B59-C23 | [📘 ver el bloque](programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) |
-| B60 | Cinética y modelado astroquímico | B60-C01 → B60-C04 | [📘 ver el bloque](programa/tronco-comun/B60-cinetica-y-modelado-astroquimico.md) |
-| B61 | Cráteres de impacto y geología de impactos | B61-C01 → B61-C07 | [📘 ver el bloque](programa/tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) |
-| B62 | Espectroscopía molecular para astroquímica | B62-C01 → B62-C08 | [📘 ver el bloque](programa/tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) |
-| B63 | Exploración in situ y análisis de muestras planetarias | B63-C01 → B63-C06 | [📘 ver el bloque](programa/tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) |
-| B64 | Extremófilos y límites de la vida | B64-C01 → B64-C07 | [📘 ver el bloque](programa/tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) |
-| B65 | Geofísica de interiores planetarios | B65-C01 → B65-C06 | [📘 ver el bloque](programa/tronco-comun/B65-geofisica-de-interiores-planetarios.md) |
-| B66 | Geomorfología y procesos superficiales planetarios | B66-C01 → B66-C05 | [📘 ver el bloque](programa/tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md) |
-| B67 | Prospección y evaluación de reservas de recursos extraterrestres | B67-C01 → B67-C08 | [📘 ver el bloque](programa/tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) |
-| B68 | Química de granos y hielos interestelares | B68-C01 → B68-C04 | [📘 ver el bloque](programa/tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md) |
-| B69 | Radar de apertura sintética e interferometría (profundización) | B69-C01 → B69-C07 | [📘 ver el bloque](programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) |
-| B70 | Vulcanismo planetario | B70-C01 → B70-C07 | [📘 ver el bloque](programa/tronco-comun/B70-vulcanismo-planetario.md) |
+| B52 | Formación y dinámica de sistemas planetarios | C01 a C20 | [📘](programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) |
+| B53 | Astrogeología y geodesia planetaria | C01 a C30 | [📘](programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) |
+| B54 | Atmósferas y climatología planetaria | C01 a C20 | [📘](programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) |
+| B55 | Astroquímica y geoquímica extraterrestre | C01 a C20 | [📘](programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) |
+| B56 | Astrobiología y vida extraterrestre | C01 a C21 | [📘](programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) |
+| B57 | Observación terrestre y geociencias orbitales | C01 a C34 | [📘](programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) |
+| B58 | Asteroides, cometas y defensa planetaria | C01 a C20 | [📘](programa/tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) |
+| B59 | Recursos in situ y sostenibilidad extraterrestre | C01 a C23 | [📘](programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) |
+| B60 | Cinética y modelado astroquímico | C01 a C04 | [📘](programa/tronco-comun/B60-cinetica-y-modelado-astroquimico.md) |
+| B61 | Cráteres de impacto y geología de impactos | C01 a C07 | [📘](programa/tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) |
+| B62 | Espectroscopía molecular para astroquímica | C01 a C08 | [📘](programa/tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) |
+| B63 | Exploración in situ y análisis de muestras planetarias | C01 a C06 | [📘](programa/tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) |
+| B64 | Extremófilos y límites de la vida | C01 a C07 | [📘](programa/tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) |
+| B65 | Geofísica de interiores planetarios | C01 a C06 | [📘](programa/tronco-comun/B65-geofisica-de-interiores-planetarios.md) |
+| B66 | Geomorfología y procesos superficiales planetarios | C01 a C05 | [📘](programa/tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md) |
+| B67 | Prospección y evaluación de reservas de recursos extraterrestres | C01 a C08 | [📘](programa/tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) |
+| B68 | Química de granos y hielos interestelares | C01 a C04 | [📘](programa/tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md) |
+| B69 | Radar de apertura sintética e interferometría (profundización) | C01 a C07 | [📘](programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) |
+| B70 | Vulcanismo planetario | C01 a C07 | [📘](programa/tronco-comun/B70-vulcanismo-planetario.md) |
 
 ### A06 · Mecánica orbital, navegación y vuelo espacial
 
@@ -197,20 +197,20 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 *12 bloques · 160 clases de la línea base · 77 programadas · 237 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B71 | Mecánica orbital fundamental | B71-C01 → B71-C20 | [📘 ver las 20 clases](programa/tronco-comun/B71-mecanica-orbital-fundamental.md) |
-| B72 | Perturbaciones y evolución de órbitas | B72-C01 → B72-C21 | [📘 ver el bloque](programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) |
-| B73 | Mecánica celeste, resonancias y caos | B73-C01 → B73-C22 | [📘 ver el bloque](programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) |
-| B74 | Estimación de órbitas y navegación espacial | B74-C01 → B74-C30 | [📘 ver el bloque](programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) |
-| B75 | Trayectorias y misiones interplanetarias | B75-C01 → B75-C30 | [📘 ver el bloque](programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) |
-| B76 | Dinámica cislunar y operaciones de proximidad | B76-C01 → B76-C20 | [📘 ver las 20 clases](programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) |
-| B77 | Dinámica de lanzamiento y reentrada | B77-C01 → B77-C25 | [📘 ver el bloque](programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) |
-| B78 | Tecnologías de propulsión espacial | B78-C01 → B78-C22 | [📘 ver el bloque](programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md) |
-| B79 | Fluidos, termodinámica y aerotermodinámica de propulsión | B79-C01 → B79-C16 | [📘 ver el bloque](programa/tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) |
-| B80 | Navegación inercial y fusión multisensorial | B80-C01 → B80-C09 | [📘 ver el bloque](programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) |
-| B81 | Optimización de trayectorias y diseño robusto | B81-C01 → B81-C15 | [📘 ver el bloque](programa/tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) |
-| B82 | Problema de Lambert y transferencias de dos puntos | B82-C01 → B82-C07 | [📘 ver el bloque](programa/tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md) |
+| B71 | Mecánica orbital fundamental | C01 a C20 | [📘](programa/tronco-comun/B71-mecanica-orbital-fundamental.md) |
+| B72 | Perturbaciones y evolución de órbitas | C01 a C21 | [📘](programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) |
+| B73 | Mecánica celeste, resonancias y caos | C01 a C22 | [📘](programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) |
+| B74 | Estimación de órbitas y navegación espacial | C01 a C30 | [📘](programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) |
+| B75 | Trayectorias y misiones interplanetarias | C01 a C30 | [📘](programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) |
+| B76 | Dinámica cislunar y operaciones de proximidad | C01 a C20 | [📘](programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) |
+| B77 | Dinámica de lanzamiento y reentrada | C01 a C25 | [📘](programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) |
+| B78 | Tecnologías de propulsión espacial | C01 a C22 | [📘](programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md) |
+| B79 | Fluidos, termodinámica y aerotermodinámica de propulsión | C01 a C16 | [📘](programa/tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) |
+| B80 | Navegación inercial y fusión multisensorial | C01 a C09 | [📘](programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) |
+| B81 | Optimización de trayectorias y diseño robusto | C01 a C15 | [📘](programa/tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) |
+| B82 | Problema de Lambert y transferencias de dos puntos | C01 a C07 | [📘](programa/tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md) |
 
 ### A07 · Ingeniería y construcción de sistemas espaciales
 
@@ -218,21 +218,21 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 *13 bloques · 160 clases de la línea base · 99 programadas · 259 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B83 | Ingeniería de sistemas y diseño de misiones | B83-C01 → B83-C24 | [📘 ver el bloque](programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
-| B84 | Estructuras, materiales y fabricación espacial | B84-C01 → B84-C38 | [📘 ver el bloque](programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) |
-| B85 | Gestión térmica y entorno espacial | B85-C01 → B85-C29 | [📘 ver el bloque](programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) |
-| B86 | Sistemas de potencia y energía espacial | B86-C01 → B86-C23 | [📘 ver el bloque](programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) |
-| B87 | Sensores y control de actitud | B87-C01 → B87-C22 | [📘 ver el bloque](programa/tronco-comun/B87-sensores-y-control-de-actitud.md) |
-| B88 | Aviónica y software crítico espacial | B88-C01 → B88-C44 | [📘 ver el bloque](programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) |
-| B89 | Comunicaciones y navegación satelital | B89-C01 → B89-C25 | [📘 ver el bloque](programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) |
-| B90 | Integración, ensayos y calificación espacial | B90-C01 → B90-C24 | [📘 ver el bloque](programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) |
-| B91 | Antenas y propagación para enlaces espaciales | B91-C01 → B91-C08 | [📘 ver el bloque](programa/tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) |
-| B92 | Comunicaciones ópticas espaciales (profundización) | B92-C01 → B92-C08 | [📘 ver el bloque](programa/tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) |
-| B93 | Electrónica embarcada y compatibilidad electromagnética | B93-C01 → B93-C04 | [📘 ver el bloque](programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) |
-| B94 | Modulación, codificación y protocolos de enlace | B94-C01 → B94-C06 | [📘 ver el bloque](programa/tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) |
-| B95 | Plataformas de satélites pequeños y CubeSat | B95-C01 → B95-C04 | [📘 ver el bloque](programa/tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) |
+| B83 | Ingeniería de sistemas y diseño de misiones | C01 a C24 | [📘](programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
+| B84 | Estructuras, materiales y fabricación espacial | C01 a C38 | [📘](programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) |
+| B85 | Gestión térmica y entorno espacial | C01 a C29 | [📘](programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) |
+| B86 | Sistemas de potencia y energía espacial | C01 a C23 | [📘](programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) |
+| B87 | Sensores y control de actitud | C01 a C22 | [📘](programa/tronco-comun/B87-sensores-y-control-de-actitud.md) |
+| B88 | Aviónica y software crítico espacial | C01 a C44 | [📘](programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) |
+| B89 | Comunicaciones y navegación satelital | C01 a C25 | [📘](programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) |
+| B90 | Integración, ensayos y calificación espacial | C01 a C24 | [📘](programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) |
+| B91 | Antenas y propagación para enlaces espaciales | C01 a C08 | [📘](programa/tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) |
+| B92 | Comunicaciones ópticas espaciales (profundización) | C01 a C08 | [📘](programa/tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) |
+| B93 | Electrónica embarcada y compatibilidad electromagnética | C01 a C04 | [📘](programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) |
+| B94 | Modulación, codificación y protocolos de enlace | C01 a C06 | [📘](programa/tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) |
+| B95 | Plataformas de satélites pequeños y CubeSat | C01 a C04 | [📘](programa/tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) |
 
 ### A08 · Operaciones de misión y robótica espacial
 
@@ -240,16 +240,16 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 *8 bloques · 40 clases de la línea base · 65 programadas · 105 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B96 | Control y operación de misiones espaciales | B96-C01 → B96-C30 | [📘 ver el bloque](programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) |
-| B97 | Robótica y construcción extraterrestre | B97-C01 → B97-C27 | [📘 ver el bloque](programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) |
-| B98 | Autonomía y teleoperación espacial | B98-C01 → B98-C08 | [📘 ver el bloque](programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) |
-| B99 | Localización y mapeo robótico | B99-C01 → B99-C07 | [📘 ver el bloque](programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) |
-| B100 | Logística y cadena de suministro extraterrestre | B100-C01 → B100-C07 | [📘 ver el bloque](programa/tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) |
-| B101 | Manipuladores robóticos espaciales | B101-C01 → B101-C10 | [📘 ver el bloque](programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) |
-| B102 | Movilidad de robots planetarios | B102-C01 → B102-C08 | [📘 ver el bloque](programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) |
-| B103 | Percepción visual robótica | B103-C01 → B103-C08 | [📘 ver el bloque](programa/tronco-comun/B103-percepcion-visual-robotica.md) |
+| B96 | Control y operación de misiones espaciales | C01 a C30 | [📘](programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) |
+| B97 | Robótica y construcción extraterrestre | C01 a C27 | [📘](programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) |
+| B98 | Autonomía y teleoperación espacial | C01 a C08 | [📘](programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) |
+| B99 | Localización y mapeo robótico | C01 a C07 | [📘](programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) |
+| B100 | Logística y cadena de suministro extraterrestre | C01 a C07 | [📘](programa/tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) |
+| B101 | Manipuladores robóticos espaciales | C01 a C10 | [📘](programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) |
+| B102 | Movilidad de robots planetarios | C01 a C08 | [📘](programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) |
+| B103 | Percepción visual robótica | C01 a C08 | [📘](programa/tronco-comun/B103-percepcion-visual-robotica.md) |
 
 ### A09 · Astronáutica humana, medicina y hábitats
 
@@ -257,22 +257,22 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 *14 bloques · 60 clases de la línea base · 93 programadas · 153 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B104 | Astronáutica y preparación de astronautas | B104-C01 → B104-C23 | [📘 ver el bloque](programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) |
-| B105 | Medicina y biología espacial | B105-C01 → B105-C27 | [📘 ver el bloque](programa/tronco-comun/B105-medicina-y-biologia-espacial.md) |
-| B106 | Hábitats espaciales y soporte vital | B106-C01 → B106-C29 | [📘 ver el bloque](programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) |
-| B107 | Acondicionamiento físico y rehabilitación de astronautas | B107-C01 → B107-C10 | [📘 ver el bloque](programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) |
-| B108 | Actividades extravehiculares y trajes espaciales | B108-C01 → B108-C05 | [📘 ver el bloque](programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) |
-| B109 | Arquitectura y factores humanos de hábitats extraterrestres | B109-C01 → B109-C12 | [📘 ver el bloque](programa/tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) |
-| B110 | Emergencias y seguridad de tripulación | B110-C01 → B110-C05 | [📘 ver el bloque](programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) |
-| B111 | Factores humanos y liderazgo de tripulación | B111-C01 → B111-C06 | [📘 ver el bloque](programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) |
-| B112 | Radiobiología y protección radiológica espacial | B112-C01 → B112-C06 | [📘 ver el bloque](programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) |
-| B113 | Salud conductual y bienestar en aislamiento | B113-C01 → B113-C05 | [📘 ver el bloque](programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) |
-| B114 | Seguridad y respuesta a emergencias en hábitats | B114-C01 → B114-C06 | [📘 ver el bloque](programa/tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) |
-| B115 | Sistemas bioregenerativos y cultivo en hábitats | B115-C01 → B115-C07 | [📘 ver el bloque](programa/tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) |
-| B116 | Telemedicina y monitorización de salud en misión | B116-C01 → B116-C07 | [📘 ver el bloque](programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) |
-| B117 | Urgencias médicas y atención clínica en misión | B117-C01 → B117-C05 | [📘 ver el bloque](programa/tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) |
+| B104 | Astronáutica y preparación de astronautas | C01 a C23 | [📘](programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) |
+| B105 | Medicina y biología espacial | C01 a C27 | [📘](programa/tronco-comun/B105-medicina-y-biologia-espacial.md) |
+| B106 | Hábitats espaciales y soporte vital | C01 a C29 | [📘](programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) |
+| B107 | Acondicionamiento físico y rehabilitación de astronautas | C01 a C10 | [📘](programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) |
+| B108 | Actividades extravehiculares y trajes espaciales | C01 a C05 | [📘](programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) |
+| B109 | Arquitectura y factores humanos de hábitats extraterrestres | C01 a C12 | [📘](programa/tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) |
+| B110 | Emergencias y seguridad de tripulación | C01 a C05 | [📘](programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) |
+| B111 | Factores humanos y liderazgo de tripulación | C01 a C06 | [📘](programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) |
+| B112 | Radiobiología y protección radiológica espacial | C01 a C06 | [📘](programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) |
+| B113 | Salud conductual y bienestar en aislamiento | C01 a C05 | [📘](programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) |
+| B114 | Seguridad y respuesta a emergencias en hábitats | C01 a C06 | [📘](programa/tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) |
+| B115 | Sistemas bioregenerativos y cultivo en hábitats | C01 a C07 | [📘](programa/tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) |
+| B116 | Telemedicina y monitorización de salud en misión | C01 a C07 | [📘](programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) |
+| B117 | Urgencias médicas y atención clínica en misión | C01 a C05 | [📘](programa/tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) |
 
 ### A10 · Entorno orbital, derecho y seguridad espacial
 
@@ -280,14 +280,14 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 *6 bloques · 40 clases de la línea base · 45 programadas · 85 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B118 | Tráfico espacial y sostenibilidad orbital | B118-C01 → B118-C24 | [📘 ver el bloque](programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) |
-| B119 | Derecho, seguridad y geopolítica espacial | B119-C01 → B119-C36 | [📘 ver el bloque](programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) |
-| B120 | Espectro, licencias y regulación satelital | B120-C01 → B120-C06 | [📘 ver el bloque](programa/tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) |
-| B121 | Regulación nacional de actividades espaciales | B121-C01 → B121-C05 | [📘 ver el bloque](programa/tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) |
-| B122 | Resiliencia y continuidad de infraestructura espacial | B122-C01 → B122-C10 | [📘 ver el bloque](programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) |
-| B123 | Responsabilidad, daños y controversias espaciales | B123-C01 → B123-C04 | [📘 ver el bloque](programa/tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) |
+| B118 | Tráfico espacial y sostenibilidad orbital | C01 a C24 | [📘](programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) |
+| B119 | Derecho, seguridad y geopolítica espacial | C01 a C36 | [📘](programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) |
+| B120 | Espectro, licencias y regulación satelital | C01 a C06 | [📘](programa/tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) |
+| B121 | Regulación nacional de actividades espaciales | C01 a C05 | [📘](programa/tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) |
+| B122 | Resiliencia y continuidad de infraestructura espacial | C01 a C10 | [📘](programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) |
+| B123 | Responsabilidad, daños y controversias espaciales | C01 a C04 | [📘](programa/tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) |
 
 ### A11 · Economía, industria y gestión de proyectos espaciales
 
@@ -295,12 +295,12 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 
 *4 bloques · 20 clases de la línea base · 24 programadas · 44 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B124 | Industria, economía, ética y proyectos espaciales | B124-C01 → B124-C24 | [📘 ver el bloque](programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) |
-| B125 | Creación y operación de empresas espaciales | B125-C01 → B125-C06 | [📘 ver el bloque](programa/tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) |
-| B126 | Financiamiento de proyectos y negocios espaciales | B126-C01 → B126-C06 | [📘 ver el bloque](programa/tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) |
-| B127 | Seguros espaciales | B127-C01 → B127-C08 | [📘 ver el bloque](programa/tronco-comun/B127-seguros-espaciales.md) |
+| B124 | Industria, economía, ética y proyectos espaciales | C01 a C24 | [📘](programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) |
+| B125 | Creación y operación de empresas espaciales | C01 a C06 | [📘](programa/tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) |
+| B126 | Financiamiento de proyectos y negocios espaciales | C01 a C06 | [📘](programa/tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) |
+| B127 | Seguros espaciales | C01 a C08 | [📘](programa/tronco-comun/B127-seguros-espaciales.md) |
 
 ### A12 · Educación, historia aplicada y divulgación astronómica
 
@@ -308,14 +308,14 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 *6 bloques · 0 clases de la línea base · 46 programadas · 46 en total.*
 
-| Bloque | Contenido previsto | Clases | Ficha |
+| Bloque | Contenido previsto | Clases | Guía |
 |---|---|---:|---|
-| B128 | Accesibilidad e inclusión en la enseñanza de la astronomía | B128-C01 → B128-C11 | [📘 ver el bloque](programa/tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) |
-| B129 | Ciencia ciudadana astronómica | B129-C01 → B129-C07 | [📘 ver el bloque](programa/tronco-comun/B129-ciencia-ciudadana-astronomica.md) |
-| B130 | Comunicación y divulgación científica | B130-C01 → B130-C06 | [📘 ver el bloque](programa/tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) |
-| B131 | Didáctica de la astronomía | B131-C01 → B131-C11 | [📘 ver el bloque](programa/tronco-comun/B131-didactica-de-la-astronomia.md) |
-| B132 | Historia y arqueoastronomía aplicadas | B132-C01 → B132-C06 | [📘 ver el bloque](programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) |
-| B133 | Saberes astronómicos y educación intercultural | B133-C01 → B133-C05 | [📘 ver el bloque](programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) |
+| B128 | Accesibilidad e inclusión en la enseñanza de la astronomía | C01 a C11 | [📘](programa/tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) |
+| B129 | Ciencia ciudadana astronómica | C01 a C07 | [📘](programa/tronco-comun/B129-ciencia-ciudadana-astronomica.md) |
+| B130 | Comunicación y divulgación científica | C01 a C06 | [📘](programa/tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) |
+| B131 | Didáctica de la astronomía | C01 a C11 | [📘](programa/tronco-comun/B131-didactica-de-la-astronomia.md) |
+| B132 | Historia y arqueoastronomía aplicadas | C01 a C06 | [📘](programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) |
+| B133 | Saberes astronómicos y educación intercultural | C01 a C05 | [📘](programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) |
 
 ➡️ **[Ver el programa completo: 2.077 clases en 133 bloques](PROGRAMA_ACADEMICO_COMPLETO.md)**
 
