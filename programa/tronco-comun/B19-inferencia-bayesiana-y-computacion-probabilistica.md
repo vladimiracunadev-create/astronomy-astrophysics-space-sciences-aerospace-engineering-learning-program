@@ -15,19 +15,19 @@ Este bloque existe porque los contenidos de los roles que lo necesitan no estaba
 
 ### B19-C01 — Priors físicamente informados
 
-*Programada.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
+*Texto redactado, pendiente de revisión.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
 
 ### B19-C02 — Modelos jerárquicos
 
-*Programada.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
+*Texto redactado, pendiente de revisión.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
 
 ### B19-C03 — Hamiltonian Monte Carlo y NUTS
 
-*Programada.* Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis.
+*Texto redactado, pendiente de revisión.* Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis.
 
 ### B19-C04 — Diagnóstico de convergencia de cadenas
 
-*Programada.* R-hat, tamaño efectivo y divergencias; no cubierto.
+*Texto redactado, pendiente de revisión.* R-hat, tamaño efectivo y divergencias; no cubierto.
 
 ### B19-C05 — Inferencia variacional
 

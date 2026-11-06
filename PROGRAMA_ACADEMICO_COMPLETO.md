@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 264 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 281 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -473,10 +473,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *Bloque nuevo (8 clases): Priors físicamente informados; Modelos jerárquicos; Hamiltonian Monte Carlo y NUTS…*
 
-- **B19-C01 — Priors físicamente informados.** *Programada.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
-- **B19-C02 — Modelos jerárquicos.** *Programada.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
-- **B19-C03 — Hamiltonian Monte Carlo y NUTS.** *Programada.* Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis.
-- **B19-C04 — Diagnóstico de convergencia de cadenas.** *Programada.* R-hat, tamaño efectivo y divergencias; no cubierto.
+- **B19-C01 — Priors físicamente informados.** *Texto redactado, pendiente de revisión.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
+- **B19-C02 — Modelos jerárquicos.** *Texto redactado, pendiente de revisión.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
+- **B19-C03 — Hamiltonian Monte Carlo y NUTS.** *Texto redactado, pendiente de revisión.* Muestreo con gradientes; B12-C13 solo cubre Markov y Metropolis.
+- **B19-C04 — Diagnóstico de convergencia de cadenas.** *Texto redactado, pendiente de revisión.* R-hat, tamaño efectivo y divergencias; no cubierto.
 - **B19-C05 — Inferencia variacional.** *Programada.* Aproximación variacional y ELBO como alternativa a MCMC; no cubierto.
 - **B19-C06 — Distribución predictiva posterior.** *Programada.* Predicción y chequeos predictivos; B12-C12 no los desarrolla.
 - **B19-C07 — Comparación de modelos bayesianos.** *Programada.* Evidencia, Bayes factor y criterios WAIC/LOO; no cubierto.
