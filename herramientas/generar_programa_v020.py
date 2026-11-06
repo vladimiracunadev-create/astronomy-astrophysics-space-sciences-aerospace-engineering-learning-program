@@ -218,7 +218,7 @@ def escribir_todo() -> dict:
                 ext = extension.get(b["id"], [])
                 L += [f"### {b['id']} — {b['titulo']}", ""]
                 if ext:
-                    L += [f"*Bloque ampliado: {len(base['clases'])} clases de la línea base y {len(ext)} programadas.*", ""]
+                    L += [f"*Bloque ampliado: {len(base['clases'])} clases de la línea base y {len(ext)} más.*", ""]
                 for r in base["clases"]:
                     L.append(f"- **{r['id']} — {r['titulo']}.** {r['descripcion_preliminar']}")
                 for e in ext:
@@ -228,7 +228,7 @@ def escribir_todo() -> dict:
                 nuevo = next(x for x in nuevos if x["id"] == b["id"])
                 muestra = "; ".join(c["titulo"] for c in nuevo["clases"][:3])
                 L += [f"### {b['id']} — {b['titulo']}", "",
-                      f"*Bloque nuevo, programado ({len(nuevo['clases'])} clases): {muestra}"
+                      f"*Bloque nuevo ({len(nuevo['clases'])} clases): {muestra}"
                       + ("…" if len(nuevo["clases"]) > 3 else ".") + "*", ""]
                 for e in nuevo["clases"]:
                     L.append(f"- **{e['id']} — {e['titulo']}.** *Programada.* {e['necesidad']}")

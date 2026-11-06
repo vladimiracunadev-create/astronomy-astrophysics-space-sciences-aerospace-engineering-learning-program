@@ -39,3 +39,6 @@ jobs:
 
       - name: Validar colocación de módulos en áreas y bloques
         run: python herramientas/validar_colocacion.py
+
+      - name: Comprobar guías por rol
+        run: python herramientas/generar_rutas_por_rol.py --check

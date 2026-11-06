@@ -266,7 +266,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B11 — Ecuaciones diferenciales y simulación numérica
 
-*Bloque ampliado: 20 clases de la línea base y 6 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 6 más.*
 
 - **B11-C01 — Ecuaciones diferenciales ordinarias.** Explica el fenómeno o técnica de «ecuaciones diferenciales ordinarias» y su aplicación observable o tecnológica.
 - **B11-C02 — Problemas de valor inicial.** Delimita «problemas de valor inicial», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -297,7 +297,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B12 — Probabilidad, estadística e incertidumbre
 
-*Bloque ampliado: 20 clases de la línea base y 6 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 6 más.*
 
 - **B12-C01 — Espacios muestrales y eventos.** Explica el fenómeno o técnica de «espacios muestrales y eventos» y su aplicación observable o tecnológica.
 - **B12-C02 — Variables aleatorias.** Delimita «variables aleatorias», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -328,7 +328,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B13 — Metrología, tiempo y mediciones científicas
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B13-C01 — Sistema Internacional y constantes.** Introduce «sistema Internacional y constantes» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B13-C02 — Dimensiones y trazabilidad.** Delimita «dimensiones y trazabilidad», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -356,7 +356,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B14 — Computación científica y ciencia abierta
 
-*Bloque ampliado: 20 clases de la línea base y 11 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 11 más.*
 
 - **B14-C01 — Arquitectura de software científico.** Explica el fenómeno o técnica de «arquitectura de software científico» y su aplicación observable o tecnológica.
 - **B14-C02 — Arreglos multidimensionales NumPy.** Delimita «arreglos multidimensionales NumPy», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -392,7 +392,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B15 — Señales, imágenes y estimación científica
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B15-C01 — Series temporales discretas.** Explica el fenómeno o técnica de «series temporales discretas» y su aplicación observable o tecnológica.
 - **B15-C02 — Muestreo y aliasing.** Delimita «muestreo y aliasing», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -444,7 +444,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B65 — Aprendizaje automático científico
 
-*Bloque nuevo, programado (12 clases): Ingeniería de características científicas; Aprendizaje supervisado; Redes neuronales informadas por la física (PINN)…*
+*Bloque nuevo (12 clases): Ingeniería de características científicas; Aprendizaje supervisado; Redes neuronales informadas por la física (PINN)…*
 
 - **B65-C01 — Ingeniería de características científicas.** *Programada.* Construir variables con sentido físico y unidades; B14 trata datos pero no aprendizaje automático.
 - **B65-C02 — Aprendizaje supervisado.** *Programada.* Clasificación y regresión con validación cruzada; ningún bloque del tronco cubre aprendizaje automático.
@@ -461,7 +461,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B66 — Computación de alto rendimiento
 
-*Bloque nuevo, programado (5 clases): Procesos, hilos y concurrencia; Paso de mensajes con MPI; Jerarquía y estructuras de memoria…*
+*Bloque nuevo (5 clases): Procesos, hilos y concurrencia; Paso de mensajes con MPI; Jerarquía y estructuras de memoria…*
 
 - **B66-C01 — Procesos, hilos y concurrencia.** *Programada.* Diferencia entre hilos y procesos y el GIL; B14-C13 presenta paralelismo sin el modelo de ejecución.
 - **B66-C02 — Paso de mensajes con MPI.** *Programada.* Comunicación punto a punto y colectiva entre procesos; B14-C16 menciona HPC sin MPI.
@@ -471,7 +471,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B67 — Inferencia bayesiana y computación probabilística
 
-*Bloque nuevo, programado (8 clases): Priors físicamente informados; Modelos jerárquicos; Hamiltonian Monte Carlo y NUTS…*
+*Bloque nuevo (8 clases): Priors físicamente informados; Modelos jerárquicos; Hamiltonian Monte Carlo y NUTS…*
 
 - **B67-C01 — Priors físicamente informados.** *Programada.* Construcción y sensibilidad de priors con restricciones físicas; B12-C12 introduce Bayes sin esta práctica.
 - **B67-C02 — Modelos jerárquicos.** *Programada.* Estructura de niveles y encogimiento parcial para poblaciones; ausente en B12.
@@ -484,7 +484,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B68 — Metodología de la investigación científica
 
-*Bloque nuevo, programado (4 clases): Búsqueda bibliográfica sistemática y gestión de referencias; Diseño de un plan de análisis y preregistro; Revisión por pares y respuesta a árbitros…*
+*Bloque nuevo (4 clases): Búsqueda bibliográfica sistemática y gestión de referencias; Diseño de un plan de análisis y preregistro; Revisión por pares y respuesta a árbitros…*
 
 - **B68-C01 — Búsqueda bibliográfica sistemática y gestión de referencias.** *Programada.* Ninguna clase enseña a buscar, filtrar y registrar literatura con ADS y arXiv de forma sistemática y reproducible.
 - **B68-C02 — Diseño de un plan de análisis y preregistro.** *Programada.* B12 cubre técnicas estadísticas; falta planificar el análisis completo antes de ver los datos y documentar decisiones.
@@ -493,7 +493,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B69 — Métodos numéricos para EDP y fluidos computacionales
 
-*Bloque nuevo, programado (5 clases): Volúmenes finitos y solucionadores de Riemann para leyes de conservación; Ecuación de onda: esquemas y dispersión numérica; Ecuación de Poisson: relajación y multigrid…*
+*Bloque nuevo (5 clases): Volúmenes finitos y solucionadores de Riemann para leyes de conservación; Ecuación de onda: esquemas y dispersión numérica; Ecuación de Poisson: relajación y multigrid…*
 
 - **B69-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación.** *Programada.* Esquemas conservativos para MHD y fluidos compresibles; B11-C14 solo cubre diferencias finitas y B11-C13 no desarrolla leyes hiperbólicas.
 - **B69-C02 — Ecuación de onda: esquemas y dispersión numérica.** *Programada.* Esquemas explícitos para ondas y su error de fase; B11-C13 solo presenta las EDP en general.
@@ -503,7 +503,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B70 — Problemas inversos y estimación de modelos
 
-*Bloque nuevo, programado (5 clases): Problemas directos e inversos y mal condicionamiento; Regularización de Tikhonov; Identificabilidad de parámetros…*
+*Bloque nuevo (5 clases): Problemas directos e inversos y mal condicionamiento; Regularización de Tikhonov; Identificabilidad de parámetros…*
 
 - **B70-C01 — Problemas directos e inversos y mal condicionamiento.** *Programada.* Define el problema inverso, la no unicidad y el mal planteamiento; B15-C15 estima parámetros sin esta teoría.
 - **B70-C02 — Regularización de Tikhonov.** *Programada.* Regularización y selección del parámetro (curva L); ausente en B10-C07, que solo trata mínimos cuadrados.
@@ -513,7 +513,7 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 ### B71 — Verificación y validación de software científico
 
-*Bloque nuevo, programado (8 clases): Pruebas unitarias numéricas con tolerancias; Pruebas de propiedades físicas; Casos analíticos de validación…*
+*Bloque nuevo (8 clases): Pruebas unitarias numéricas con tolerancias; Pruebas de propiedades físicas; Casos analíticos de validación…*
 
 - **B71-C01 — Pruebas unitarias numéricas con tolerancias.** *Programada.* B07-C17 prueba funciones matemáticas simples; falta comparar con tolerancias y diseñar pruebas numéricas.
 - **B71-C02 — Pruebas de propiedades físicas.** *Programada.* Conservación de energía y simetrías como pruebas; B11-C10 la trata como tema, no como método de prueba.
@@ -530,7 +530,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B17 — Física y evolución de estrellas
 
-*Bloque ampliado: 20 clases de la línea base y 2 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 2 más.*
 
 - **B17-C01 — Colapso de nubes moleculares.** Explica el fenómeno o técnica de «colapso de nubes moleculares» y su aplicación observable o tecnológica.
 - **B17-C02 — Formación de protoestrellas.** Delimita «formación de protoestrellas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -580,7 +580,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B19 — Relatividad y cosmología
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B19-C01 — Postulados de relatividad especial.** Explica el fenómeno o técnica de «postulados de relatividad especial» y su aplicación observable o tecnológica.
 - **B19-C02 — Transformaciones de Lorentz.** Delimita «transformaciones de Lorentz», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -608,7 +608,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B20 — Objetos compactos y altas energías
 
-*Bloque ampliado: 20 clases de la línea base y 2 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 2 más.*
 
 - **B20-C01 — Presión de degeneración.** Explica el fenómeno o técnica de «presión de degeneración» y su aplicación observable o tecnológica.
 - **B20-C02 — Enanas blancas y límite de Chandrasekhar.** Delimita «enanas blancas y límite de Chandrasekhar», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -635,7 +635,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B21 — Astronomía multimensajero
 
-*Bloque ampliado: 20 clases de la línea base y 2 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 2 más.*
 
 - **B21-C01 — Fundamentos de mensajeros astronómicos.** Explica el fenómeno o técnica de «fundamentos de mensajeros astronómicos» y su aplicación observable o tecnológica.
 - **B21-C02 — Fotones en múltiples longitudes de onda.** Delimita «fotones en múltiples longitudes de onda», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -685,7 +685,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B23 — Heliofísica y física de plasmas
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B23-C01 — Estructura interna del Sol.** Explica el fenómeno o técnica de «estructura interna del Sol» y su aplicación observable o tecnológica.
 - **B23-C02 — Fotosfera, cromosfera y corona.** Delimita «fotosfera, cromosfera y corona», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -736,7 +736,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B72 — Atmósferas estelares y espectroscopía estelar cuantitativa
 
-*Bloque nuevo, programado (12 clases): Ecuación de transferencia radiativa en atmósferas estelares; Equilibrio termodinámico local y desviaciones no LTE; Opacidad continua: ligado-libre, libre-libre y H-…*
+*Bloque nuevo (12 clases): Ecuación de transferencia radiativa en atmósferas estelares; Equilibrio termodinámico local y desviaciones no LTE; Opacidad continua: ligado-libre, libre-libre y H-…*
 
 - **B72-C01 — Ecuación de transferencia radiativa en atmósferas estelares.** *Programada.* El rol necesita resolver la ecuación de transferencia (profundidad óptica, función fuente); B17 solo introduce opacidades y B35 trata atmósferas planetarias, no la estelar.
 - **B72-C02 — Equilibrio termodinámico local y desviaciones no LTE.** *Programada.* Ninguna clase del tronco trata cuándo vale el LTE ni las poblaciones atómicas fuera de equilibrio, base de la interpretación de espectros estelares.
@@ -753,7 +753,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B73 — Clima espacial: impactos, pronóstico y riesgo
 
-*Bloque nuevo, programado (14 clases): Validación de modelos MHD con eventos solares documentados; Modelos de propagación de CME; Eventos extremos históricos de clima espacial…*
+*Bloque nuevo (14 clases): Validación de modelos MHD con eventos solares documentados; Modelos de propagación de CME; Eventos extremos históricos de clima espacial…*
 
 - **B73-C01 — Validación de modelos MHD con eventos solares documentados.** *Programada.* Enseña a contrastar simulación y evento observado con métricas; ninguna clase actual trata la validación de modelos heliosféricos.
 - **B73-C02 — Modelos de propagación de CME.** *Programada.* Modelos de arrastre y MHD para la llegada de CME a la Tierra; B23-C13 describe el fenómeno sin modelar su propagación.
@@ -772,7 +772,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B74 — Corona solar y erupciones: diagnóstico y modelos
 
-*Bloque nuevo, programado (9 clases): Calentamiento coronal: mecanismos y evidencias; Emisión EUV y rayos X de la corona; Bucles magnéticos coronales…*
+*Bloque nuevo (9 clases): Calentamiento coronal: mecanismos y evidencias; Emisión EUV y rayos X de la corona; Bucles magnéticos coronales…*
 
 - **B74-C01 — Calentamiento coronal: mecanismos y evidencias.** *Programada.* B23-C02 describe la corona pero no el problema del calentamiento (ondas frente a nanofulguraciones), competencia central de la física coronal.
 - **B74-C02 — Emisión EUV y rayos X de la corona.** *Programada.* Formación de líneas EUV, función de contribución y medida de emisión; B29 trata espectroscopía general, no plasma coronal.
@@ -786,7 +786,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B75 — Física avanzada de plasmas y MHD espacial
 
-*Bloque nuevo, programado (10 clases): Funciones de distribución de velocidades en plasmas; Ondas de Alfvén y ondas magnetosónicas; Inestabilidades de plasma: cinéticas y de fluido…*
+*Bloque nuevo (10 clases): Funciones de distribución de velocidades en plasmas; Ondas de Alfvén y ondas magnetosónicas; Inestabilidades de plasma: cinéticas y de fluido…*
 
 - **B75-C01 — Funciones de distribución de velocidades en plasmas.** *Programada.* Introduce la función de distribución (Maxwell, kappa) como objeto central de la física de plasmas; B23 trata partículas cargadas y Debye pero no describe el plasma mediante distribuciones.
 - **B75-C02 — Ondas de Alfvén y ondas magnetosónicas.** *Programada.* B23-C08 cubre ondas de plasma electrostáticas y B23-C09 la MHD en general, pero ninguna clase desarrolla la dispersión y propagación de ondas de Alfvén.
@@ -801,7 +801,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B76 — Formación de estructuras cósmicas y materia oscura
 
-*Bloque nuevo, programado (11 clases): Crecimiento lineal de perturbaciones de densidad; Función de transferencia y espectro de materia; Funciones de correlación de galaxias…*
+*Bloque nuevo (11 clases): Crecimiento lineal de perturbaciones de densidad; Función de transferencia y espectro de materia; Funciones de correlación de galaxias…*
 
 - **B76-C01 — Crecimiento lineal de perturbaciones de densidad.** *Programada.* B19-C17 y B18-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones.
 - **B76-C02 — Función de transferencia y espectro de materia.** *Programada.* Ninguna clase explica cómo la evolución en las eras de radiación y materia modifica el espectro primordial.
@@ -817,7 +817,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B77 — Interiores estelares y asterosismología
 
-*Bloque nuevo, programado (14 clases): Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux; Ecuaciones de estado estelares: gas ideal, radiación y degeneración; Opacidad media de Rosseland y tablas de opacidad en interiores…*
+*Bloque nuevo (14 clases): Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux; Ecuaciones de estado estelares: gas ideal, radiación y degeneración; Opacidad media de Rosseland y tablas de opacidad en interiores…*
 
 - **B77-C01 — Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux.** *Programada.* B17-C05 menciona el transporte convectivo, pero no el criterio de inestabilidad ni la teoría de longitud de mezcla usada en los modelos.
 - **B77-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración.** *Programada.* B20-C01 y B20-C04 cubren degeneración y estado nuclear de objetos compactos, no la ecuación de estado general de interiores de secuencia principal.
@@ -836,7 +836,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B78 — Poblaciones estelares y simulación de galaxias
 
-*Bloque nuevo, programado (9 clases): Funciones de luminosidad estelar; Función inicial de masa y su universalidad; Cinemática estelar con Gaia: movimientos propios y espacio de fase…*
+*Bloque nuevo (9 clases): Funciones de luminosidad estelar; Función inicial de masa y su universalidad; Cinemática estelar con Gaia: movimientos propios y espacio de fase…*
 
 - **B78-C01 — Funciones de luminosidad estelar.** *Programada.* Ninguna clase construye ni interpreta la distribución de estrellas por luminosidad y su corrección por volumen y selección.
 - **B78-C02 — Función inicial de masa y su universalidad.** *Programada.* B17-C01 y B17-C02 tratan formación estelar sin la distribución de masas resultante ni su impacto en poblaciones sintéticas.
@@ -850,7 +850,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B79 — Relatividad general avanzada
 
-*Bloque nuevo, programado (6 clases): Variedades, tensor métrico y geometría diferencial; Conexión afín y símbolos de Christoffel; Tensor de Riemann, Ricci y curvatura escalar…*
+*Bloque nuevo (6 clases): Variedades, tensor métrico y geometría diferencial; Conexión afín y símbolos de Christoffel; Tensor de Riemann, Ricci y curvatura escalar…*
 
 - **B79-C01 — Variedades, tensor métrico y geometría diferencial.** *Programada.* B19-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general.
 - **B79-C02 — Conexión afín y símbolos de Christoffel.** *Programada.* Ninguna clase define la derivada covariante ni los símbolos de Christoffel, necesarios para escribir geodésicas y curvatura.
@@ -861,7 +861,7 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 ### B80 — Universo temprano y radiación cósmica de fondo
 
-*Bloque nuevo, programado (15 clases): Inflación cósmica: motivación y dinámica básica; Recalentamiento y transición a la era de radiación; Desacoplamiento de neutrinos y fondo cósmico de neutrinos…*
+*Bloque nuevo (15 clases): Inflación cósmica: motivación y dinámica básica; Recalentamiento y transición a la era de radiación; Desacoplamiento de neutrinos y fondo cósmico de neutrinos…*
 
 - **B80-C01 — Inflación cósmica: motivación y dinámica básica.** *Programada.* Ningún bloque del tronco trata la inflación; B19 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales.
 - **B80-C02 — Recalentamiento y transición a la era de radiación.** *Programada.* Ninguna clase explica cómo termina la inflación y se puebla el universo con radiación y partículas.
@@ -908,7 +908,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B26 — Óptica física y óptica adaptativa
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B26-C01 — Ecuaciones de onda electromagnética.** Ubica «ecuaciones de onda electromagnética» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B26-C02 — Principio de Huygens-Fresnel.** Delimita «principio de Huygens-Fresnel», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -937,7 +937,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B27 — Construcción y mecánica de telescopios
 
-*Bloque ampliado: 20 clases de la línea base y 6 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 6 más.*
 
 - **B27-C01 — Requisitos ópticos y mecánicos.** Explica el fenómeno o técnica de «requisitos ópticos y mecánicos» y su aplicación observable o tecnológica.
 - **B27-C02 — Selección de geometría instrumental.** Delimita «selección de geometría instrumental», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -991,7 +991,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B29 — Espectroscopía, fotometría y polarimetría
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B29-C01 — Radiometría y fotometría.** Describe «radiometría y fotometría», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B29-C02 — Magnitudes y sistemas de filtros.** Introduce «magnitudes y sistemas de filtros» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
@@ -1043,7 +1043,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B31 — Instrumentación y observatorios espaciales
 
-*Bloque ampliado: 20 clases de la línea base y 5 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 5 más.*
 
 - **B31-C01 — Ventajas de observación fuera de atmósfera.** Describe «ventajas de observación fuera de atmósfera», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B31-C02 — Requisitos de instrumentos orbitales.** Delimita «requisitos de instrumentos orbitales», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1073,7 +1073,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B32 — Operaciones de observatorios científicos
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B32-C01 — Observatorio como sistema socio-técnico.** Introduce «observatorio como sistema socio-técnico» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B32-C02 — Concesión de tiempo de observación.** Describe «concesión de tiempo de observación», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
@@ -1101,7 +1101,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B81 — Antenas y receptores de radioastronomía
 
-*Bloque nuevo, programado (11 clases): Antenas de hilo: dipolo, monopolo e impedancia de radiación; Adaptación de impedancias y líneas de transmisión en antenas; Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores…*
+*Bloque nuevo (11 clases): Antenas de hilo: dipolo, monopolo e impedancia de radiación; Adaptación de impedancias y líneas de transmisión en antenas; Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores…*
 
 - **B81-C01 — Antenas de hilo: dipolo, monopolo e impedancia de radiación.** *Programada.* B30 arranca en antenas parabólicas (C03); ninguna clase del tronco enseña antenas de hilo, resistencia de radiación ni su uso como elemento de arreglo o de banda baja.
 - **B81-C02 — Adaptación de impedancias y líneas de transmisión en antenas.** *Programada.* B55 trata presupuesto de enlace y ganancias, pero ninguna clase enseña impedancia característica, ROE ni redes de adaptación entre antena y receptor.
@@ -1117,7 +1117,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B82 — Diseño óptico computacional y tolerancias
 
-*Bloque nuevo, programado (15 clases): Trazado exacto de rayos y aberraciones de orden superior; Optimización de superficies: función de mérito y restricciones; Sistemas catadióptricos: Schmidt y Maksutov…*
+*Bloque nuevo (15 clases): Trazado exacto de rayos y aberraciones de orden superior; Optimización de superficies: función de mérito y restricciones; Sistemas catadióptricos: Schmidt y Maksutov…*
 
 - **B82-C01 — Trazado exacto de rayos y aberraciones de orden superior.** *Programada.* B25-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales.
 - **B82-C02 — Optimización de superficies: función de mérito y restricciones.** *Programada.* B11-C17 da optimización numérica general; falta definir funciones de mérito y variables de diseño ópticas.
@@ -1137,7 +1137,7 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 ### B83 — Interferometría avanzada y reducción de datos de radio
 
-*Bloque nuevo, programado (14 clases): Calibración de amplitud y escala de flujo con calibradores primarios; Cantidades de cierre: fase y amplitud de cierre; Ganancias complejas por antena y soluciones de calibración…*
+*Bloque nuevo (14 clases): Calibración de amplitud y escala de flujo con calibradores primarios; Cantidades de cierre: fase y amplitud de cierre; Ganancias complejas por antena y soluciones de calibración…*
 
 - **B83-C01 — Calibración de amplitud y escala de flujo con calibradores primarios.** *Programada.* B30-C17 trata solo calibración de fase; ninguna clase enseña escala de flujo, calibradores primarios ni el bootstrap de flujos.
 - **B83-C02 — Cantidades de cierre: fase y amplitud de cierre.** *Programada.* Las cantidades de cierre son la base de la imagen sin fase y de la autocalibración; B30-C17 no las trata.
@@ -1183,7 +1183,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B34 — Astrogeología y geodesia planetaria
 
-*Bloque ampliado: 20 clases de la línea base y 10 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 10 más.*
 
 - **B34-C01 — Interior de planetas rocosos.** Explica el fenómeno o técnica de «interior de planetas rocosos» y su aplicación observable o tecnológica.
 - **B34-C02 — Sismología planetaria.** Delimita «sismología planetaria», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1264,7 +1264,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B37 — Astrobiología y vida extraterrestre
 
-*Bloque ampliado: 20 clases de la línea base y 1 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 1 más.*
 
 - **B37-C01 — Definiciones operativas de vida.** Explica el fenómeno o técnica de «definiciones operativas de vida» y su aplicación observable o tecnológica.
 - **B37-C02 — Bioquímica y metabolismo terrestre.** Delimita «bioquímica y metabolismo terrestre», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1290,7 +1290,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B38 — Observación terrestre y geociencias orbitales
 
-*Bloque ampliado: 20 clases de la línea base y 14 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 14 más.*
 
 - **B38-C01 — Fundamentos de teledetección.** Describe «fundamentos de teledetección», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B38-C02 — Resolución espacial y temporal.** Delimita «resolución espacial y temporal», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1352,7 +1352,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B40 — Recursos in situ y sostenibilidad extraterrestre
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B40-C01 — Concepto de utilización de recursos in situ.** Explica el fenómeno o técnica de «concepto de utilización de recursos in situ» y su aplicación observable o tecnológica.
 - **B40-C02 — Prospección de hielo lunar.** Delimita «prospección de hielo lunar», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1380,7 +1380,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B84 — Cinética y modelado astroquímico
 
-*Bloque nuevo, programado (4 clases): Colisiones moleculares y secciones eficaces en gas interestelar; Coeficientes de velocidad dependientes de la temperatura y bases cinéticas; Integración numérica de redes químicas rígidas…*
+*Bloque nuevo (4 clases): Colisiones moleculares y secciones eficaces en gas interestelar; Coeficientes de velocidad dependientes de la temperatura y bases cinéticas; Integración numérica de redes químicas rígidas…*
 
 - **B84-C01 — Colisiones moleculares y secciones eficaces en gas interestelar.** *Programada.* B06-C14 trata cinética inicial; falta la teoría de colisiones y las secciones eficaces del gas interestelar.
 - **B84-C02 — Coeficientes de velocidad dependientes de la temperatura y bases cinéticas.** *Programada.* B06-C14 trata cinética inicial; falta el uso de coeficientes tipo Arrhenius y de bases de datos astroquímicas (KIDA, UMIST).
@@ -1389,7 +1389,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B85 — Cráteres de impacto y geología de impactos
 
-*Bloque nuevo, programado (7 clases): Dinámica de eyección y escalado de cráteres; Cráteres simples: morfología y formación; Cráteres complejos: colapso, picos centrales y terrazas…*
+*Bloque nuevo (7 clases): Dinámica de eyección y escalado de cráteres; Cráteres simples: morfología y formación; Cráteres complejos: colapso, picos centrales y terrazas…*
 
 - **B85-C01 — Dinámica de eyección y escalado de cráteres.** *Programada.* B34-C10 y B39-C15 son visión general; falta la mecánica de eyección y las leyes de escalado de cráteres.
 - **B85-C02 — Cráteres simples: morfología y formación.** *Programada.* B34-C08 trata cartografía de cráteres; no la morfología ni formación de cráteres simples.
@@ -1401,7 +1401,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B86 — Espectroscopía molecular para astroquímica
 
-*Bloque nuevo, programado (8 clases): Espectros rotacionales de moléculas: niveles y reglas de selección; Espectros vibracionales de moléculas; Transiciones electrónicas moleculares…*
+*Bloque nuevo (8 clases): Espectros rotacionales de moléculas: niveles y reglas de selección; Espectros vibracionales de moléculas; Transiciones electrónicas moleculares…*
 
 - **B86-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección.** *Programada.* B06-C17 y B30-C12 son visión general; falta el rotor rígido, sus niveles y reglas de selección.
 - **B86-C02 — Espectros vibracionales de moléculas.** *Programada.* Ninguna clase trata niveles vibracionales ni bandas ro-vibracionales.
@@ -1414,7 +1414,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B87 — Exploración in situ y análisis de muestras planetarias
 
-*Bloque nuevo, programado (6 clases): Instrumentación de sondas y rovers planetarios; Muestreo superficial y estrategias de recolección; Curaduría y cadena de custodia de muestras…*
+*Bloque nuevo (6 clases): Instrumentación de sondas y rovers planetarios; Muestreo superficial y estrategias de recolección; Curaduría y cadena de custodia de muestras…*
 
 - **B87-C01 — Instrumentación de sondas y rovers planetarios.** *Programada.* B31 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros).
 - **B87-C02 — Muestreo superficial y estrategias de recolección.** *Programada.* B40 trata extracción de volátiles; no el muestreo científico ni su estrategia.
@@ -1425,7 +1425,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B88 — Extremófilos y límites de la vida
 
-*Bloque nuevo, programado (7 clases): Radiotolerancia biológica y reparación del ADN; Termófilos e hipertermófilos; Psicrófilos y vida en frío…*
+*Bloque nuevo (7 clases): Radiotolerancia biológica y reparación del ADN; Termófilos e hipertermófilos; Psicrófilos y vida en frío…*
 
 - **B88-C01 — Radiotolerancia biológica y reparación del ADN.** *Programada.* B37-C05 es visión general; falta la radiotolerancia y su reparación del ADN.
 - **B88-C02 — Termófilos e hipertermófilos.** *Programada.* Ninguna clase trata termófilos como categoría.
@@ -1437,7 +1437,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B89 — Geofísica de interiores planetarios
 
-*Bloque nuevo, programado (6 clases): Convección del manto y evolución térmica de interiores planetarios; Dinamos planetarias y campos magnéticos de origen interno; Magnetismo cortical remanente y anomalías magnéticas…*
+*Bloque nuevo (6 clases): Convección del manto y evolución térmica de interiores planetarios; Dinamos planetarias y campos magnéticos de origen interno; Magnetismo cortical remanente y anomalías magnéticas…*
 
 - **B89-C01 — Convección del manto y evolución térmica de interiores planetarios.** *Programada.* B34-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica.
 - **B89-C02 — Dinamos planetarias y campos magnéticos de origen interno.** *Programada.* B23 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos.
@@ -1448,7 +1448,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B90 — Geomorfología y procesos superficiales planetarios
 
-*Bloque nuevo, programado (5 clases): Valles y canales: morfología y origen en superficies planetarias; Procesos de ladera y transporte de masa; Procesos eólicos: dunas, ripples y erosión planetaria…*
+*Bloque nuevo (5 clases): Valles y canales: morfología y origen en superficies planetarias; Procesos de ladera y transporte de masa; Procesos eólicos: dunas, ripples y erosión planetaria…*
 
 - **B90-C01 — Valles y canales: morfología y origen en superficies planetarias.** *Programada.* B34 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo.
 - **B90-C02 — Procesos de ladera y transporte de masa.** *Programada.* Ninguna clase trata deslizamientos, flujos de detritos ni transporte de masa gravitatorio en cuerpos con gravedad distinta de la terrestre.
@@ -1458,7 +1458,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B91 — Prospección y evaluación de reservas de recursos extraterrestres
 
-*Bloque nuevo, programado (8 clases): Selección de sitios de extracción con criterios múltiples; Diseño de un programa de prospección por fases; Muestreo criogénico y preservación de volátiles en muestras…*
+*Bloque nuevo (8 clases): Selección de sitios de extracción con criterios múltiples; Diseño de un programa de prospección por fases; Muestreo criogénico y preservación de volátiles en muestras…*
 
 - **B91-C01 — Selección de sitios de extracción con criterios múltiples.** *Programada.* Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B40 no trata la selección.
 - **B91-C02 — Diseño de un programa de prospección por fases.** *Programada.* Enseña a secuenciar reconocimiento, muestreo y confirmación; no hay clase que integre la prospección en un programa.
@@ -1471,7 +1471,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B92 — Química de granos y hielos interestelares
 
-*Bloque nuevo, programado (4 clases): Desorción térmica de hielos interestelares; Fotodesorción de hielos interestelares; Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos…*
+*Bloque nuevo (4 clases): Desorción térmica de hielos interestelares; Fotodesorción de hielos interestelares; Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos…*
 
 - **B92-C01 — Desorción térmica de hielos interestelares.** *Programada.* B36-C06 describe hielos; falta la desorción térmica y su cinética.
 - **B92-C02 — Fotodesorción de hielos interestelares.** *Programada.* Ninguna clase trata fotodesorción.
@@ -1480,7 +1480,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B93 — Radar de apertura sintética e interferometría (profundización)
 
-*Bloque nuevo, programado (7 clases): Principio Doppler y resolución en azimut del SAR; Formación de imágenes SAR; Ruido speckle y filtrado en imágenes SAR…*
+*Bloque nuevo (7 clases): Principio Doppler y resolución en azimut del SAR; Formación de imágenes SAR; Ruido speckle y filtrado en imágenes SAR…*
 
 - **B93-C01 — Principio Doppler y resolución en azimut del SAR.** *Programada.* La resolución fina del SAR sale del procesamiento Doppler; B38-C07 presenta el sistema sin ese principio.
 - **B93-C02 — Formación de imágenes SAR.** *Programada.* Pasar de ecos crudos a una imagen requiere procesamiento SAR; no hay clase que lo trate.
@@ -1492,7 +1492,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B94 — Vulcanismo planetario
 
-*Bloque nuevo, programado (7 clases): Volcanismo basáltico: escudos, fisuras y llanuras planetarias; Domos volcánicos y vulcanismo evolucionado; Calderas planetarias: formación y colapso…*
+*Bloque nuevo (7 clases): Volcanismo basáltico: escudos, fisuras y llanuras planetarias; Domos volcánicos y vulcanismo evolucionado; Calderas planetarias: formación y colapso…*
 
 - **B94-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias.** *Programada.* B34-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología.
 - **B94-C02 — Domos volcánicos y vulcanismo evolucionado.** *Programada.* Ninguna clase trata domos ni magmas evolucionados.
@@ -1531,7 +1531,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B42 — Perturbaciones y evolución de órbitas
 
-*Bloque ampliado: 20 clases de la línea base y 1 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 1 más.*
 
 - **B42-C01 — Limitaciones del problema de dos cuerpos.** Explica el fenómeno o técnica de «limitaciones del problema de dos cuerpos» y su aplicación observable o tecnológica.
 - **B42-C02 — Potencial gravitatorio no esférico.** Delimita «potencial gravitatorio no esférico», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1557,7 +1557,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B43 — Mecánica celeste, resonancias y caos
 
-*Bloque ampliado: 20 clases de la línea base y 2 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 2 más.*
 
 - **B43-C01 — Problema restringido de tres cuerpos.** Explica el fenómeno o técnica de «problema restringido de tres cuerpos» y su aplicación observable o tecnológica.
 - **B43-C02 — Marcos rotatorios sinódicos.** Delimita «marcos rotatorios sinódicos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1584,7 +1584,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B44 — Estimación de órbitas y navegación espacial
 
-*Bloque ampliado: 20 clases de la línea base y 10 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 10 más.*
 
 - **B44-C01 — Modelos de observación.** Describe «modelos de observación», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B44-C02 — Observación angular y astrometría.** Describe «observación angular y astrometría», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
@@ -1619,7 +1619,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B45 — Trayectorias y misiones interplanetarias
 
-*Bloque ampliado: 20 clases de la línea base y 10 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 10 más.*
 
 - **B45-C01 — Geometría de transferencias heliocéntricas.** Explica el fenómeno o técnica de «geometría de transferencias heliocéntricas» y su aplicación observable o tecnológica.
 - **B45-C02 — Ángulos de fase planetaria.** Delimita «ángulos de fase planetaria», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1677,7 +1677,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B47 — Dinámica de lanzamiento y reentrada
 
-*Bloque ampliado: 20 clases de la línea base y 5 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 5 más.*
 
 - **B47-C01 — Sistemas de lanzamiento.** Introduce «sistemas de lanzamiento» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B47-C02 — Movimiento en atmósfera.** Delimita «movimiento en atmósfera», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1707,7 +1707,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B48 — Tecnologías de propulsión espacial
 
-*Bloque ampliado: 20 clases de la línea base y 2 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 2 más.*
 
 - **B48-C01 — Empuje e impulso específico.** Explica el fenómeno o técnica de «empuje e impulso específico» y su aplicación observable o tecnológica.
 - **B48-C02 — Propulsión química como sistema físico.** Introduce «propulsión química como sistema físico» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
@@ -1734,7 +1734,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B95 — Fluidos, termodinámica y aerotermodinámica de propulsión
 
-*Bloque nuevo, programado (16 clases): Conservación de masa en fluidos; Ecuaciones de Euler para flujo no viscoso; Ecuaciones de Navier-Stokes…*
+*Bloque nuevo (16 clases): Conservación de masa en fluidos; Ecuaciones de Euler para flujo no viscoso; Ecuaciones de Navier-Stokes…*
 
 - **B95-C01 — Conservación de masa en fluidos.** *Programada.* Ninguna clase del tronco trata la mecánica de fluidos; B05-C14 solo ve gases y presión. Es la base para toberas y aerodinámica.
 - **B95-C02 — Ecuaciones de Euler para flujo no viscoso.** *Programada.* Aporta las ecuaciones de flujo ideal base del análisis de toberas; el tronco no incluye mecánica de fluidos.
@@ -1755,7 +1755,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B96 — Navegación inercial y fusión multisensorial
 
-*Bloque nuevo, programado (9 clases): Principios de navegación inercial espacial; Modelo de error de acelerómetros; Mecanización strapdown e integración de actitud y velocidad…*
+*Bloque nuevo (9 clases): Principios de navegación inercial espacial; Modelo de error de acelerómetros; Mecanización strapdown e integración de actitud y velocidad…*
 
 - **B96-C01 — Principios de navegación inercial espacial.** *Programada.* El rol necesita comprender cómo se propaga posición y velocidad a partir de una IMU; B53 solo trata el giroscopio como sensor de actitud y B44 estima órbita con observaciones externas, por lo que ninguna clase actual cubre la navegación inercial.
 - **B96-C02 — Modelo de error de acelerómetros.** *Programada.* Aporta el modelado de sesgo, factor de escala y ruido de acelerómetros, necesario para predecir el error de navegación; B53 solo cubre sensores de actitud y ninguna clase trata acelerómetros.
@@ -1769,7 +1769,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B97 — Optimización de trayectorias y diseño robusto
 
-*Bloque nuevo, programado (15 clases): Ecuaciones variacionales y matriz de transición de estados; Método de disparo para control óptimo; Métodos directos de transcripción…*
+*Bloque nuevo (15 clases): Ecuaciones variacionales y matriz de transición de estados; Método de disparo para control óptimo; Métodos directos de transcripción…*
 
 - **B97-C01 — Ecuaciones variacionales y matriz de transición de estados.** *Programada.* Sensibilidades para optimización y corrección; ausente.
 - **B97-C02 — Método de disparo para control óptimo.** *Programada.* Disparo simple y múltiple; no cubierto.
@@ -1789,7 +1789,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 
 ### B98 — Problema de Lambert y transferencias de dos puntos
 
-*Bloque nuevo, programado (7 clases): Lambert de arco corto; Lambert de arco largo; Formulación de variables universales…*
+*Bloque nuevo (7 clases): Lambert de arco corto; Lambert de arco largo; Formulación de variables universales…*
 
 - **B98-C01 — Lambert de arco corto.** *Programada.* Resolución del caso de transferencia < 180°; B45-C04 solo enuncia la ecuación.
 - **B98-C02 — Lambert de arco largo.** *Programada.* Caso > 180° y orientación del plano; ausente.
@@ -1805,7 +1805,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B49 — Ingeniería de sistemas y diseño de misiones
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B49-C01 — Necesidad de misión y caso científico.** Explica el fenómeno o técnica de «necesidad de misión y caso científico» y su aplicación observable o tecnológica.
 - **B49-C02 — Partes interesadas y usuarios.** Delimita «partes interesadas y usuarios», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1834,7 +1834,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B50 — Estructuras, materiales y fabricación espacial
 
-*Bloque ampliado: 20 clases de la línea base y 18 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 18 más.*
 
 - **B50-C01 — Entorno mecánico de lanzamiento.** Explica el fenómeno o técnica de «entorno mecánico de lanzamiento» y su aplicación observable o tecnológica.
 - **B50-C02 — Propiedades de aleaciones.** Delimita «propiedades de aleaciones», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1877,7 +1877,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B51 — Gestión térmica y entorno espacial
 
-*Bloque ampliado: 20 clases de la línea base y 9 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 9 más.*
 
 - **B51-C01 — Balance radiativo de satélite.** Explica el fenómeno o técnica de «balance radiativo de satélite» y su aplicación observable o tecnológica.
 - **B51-C02 — Conducción térmica en estructuras.** Delimita «conducción térmica en estructuras», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1911,7 +1911,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B52 — Sistemas de potencia y energía espacial
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B52-C01 — Balance de potencia eléctrica.** Explica el fenómeno o técnica de «balance de potencia eléctrica» y su aplicación observable o tecnológica.
 - **B52-C02 — Celdas solares.** Delimita «celdas solares», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1939,7 +1939,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B53 — Sensores y control de actitud
 
-*Bloque ampliado: 20 clases de la línea base y 2 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 2 más.*
 
 - **B53-C01 — Dinámica de cuerpo rígido.** Explica el fenómeno o técnica de «dinámica de cuerpo rígido» y su aplicación observable o tecnológica.
 - **B53-C02 — Representaciones de orientación.** Delimita «representaciones de orientación», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -1966,7 +1966,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B54 — Aviónica y software crítico espacial
 
-*Bloque ampliado: 20 clases de la línea base y 24 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 24 más.*
 
 - **B54-C01 — Arquitectura de computador de vuelo.** Explica el fenómeno o técnica de «arquitectura de computador de vuelo» y su aplicación observable o tecnológica.
 - **B54-C02 — Microcontroladores embarcados.** Delimita «microcontroladores embarcados», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2015,7 +2015,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B55 — Comunicaciones y navegación satelital
 
-*Bloque ampliado: 20 clases de la línea base y 5 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 5 más.*
 
 - **B55-C01 — Electromagnetismo aplicado a enlaces.** Explica el fenómeno o técnica de «electromagnetismo aplicado a enlaces» y su aplicación observable o tecnológica.
 - **B55-C02 — Frecuencia y espectro espacial.** Describe «frecuencia y espectro espacial», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
@@ -2045,7 +2045,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B56 — Integración, ensayos y calificación espacial
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B56-C01 — Plan de ensamblaje e integración.** Introduce «plan de ensamblaje e integración» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B56-C02 — Buenas prácticas de sala limpia.** Delimita «buenas prácticas de sala limpia», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2074,7 +2074,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B99 — Antenas y propagación para enlaces espaciales
 
-*Bloque nuevo, programado (8 clases): Fundamentos de teoría de antenas; Polarización de antenas y pérdidas por desadaptación; Arreglos de antenas y antenas de barrido electrónico…*
+*Bloque nuevo (8 clases): Fundamentos de teoría de antenas; Polarización de antenas y pérdidas por desadaptación; Arreglos de antenas y antenas de barrido electrónico…*
 
 - **B99-C01 — Fundamentos de teoría de antenas.** *Programada.* Diseñar o elegir una antena exige entender cómo radia; el catálogo trata antenas de radiotelescopio (B30-C03) y ganancias de enlace (B55-C06), no los fundamentos de su teoría.
 - **B99-C02 — Polarización de antenas y pérdidas por desadaptación.** *Programada.* Un enlace pierde potencia si la polarización de las antenas no coincide; B26-C08 trata la polarización de la luz y B30-C13 la polarimetría de fuentes, no la desadaptación en un enlace.
@@ -2087,7 +2087,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B100 — Comunicaciones ópticas espaciales (profundización)
 
-*Bloque nuevo, programado (8 clases): Fuentes láser y amplificadores para enlaces espaciales; Divergencia del haz y pérdidas por apuntamiento óptico; Adquisición, apuntamiento y seguimiento ópticos…*
+*Bloque nuevo (8 clases): Fuentes láser y amplificadores para enlaces espaciales; Divergencia del haz y pérdidas por apuntamiento óptico; Adquisición, apuntamiento y seguimiento ópticos…*
 
 - **B100-C01 — Fuentes láser y amplificadores para enlaces espaciales.** *Programada.* Un terminal óptico depende de su láser y amplificador; B55-C18 presenta las comunicaciones ópticas sin tratar sus fuentes.
 - **B100-C02 — Divergencia del haz y pérdidas por apuntamiento óptico.** *Programada.* El haz láser es estrecho y cualquier error de apuntamiento cuesta potencia; ninguna clase lo cuantifica.
@@ -2100,7 +2100,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B101 — Electrónica embarcada y compatibilidad electromagnética
 
-*Bloque nuevo, programado (4 clases): Diseño de PCB espacial (conceptual); Selección de componentes y derating; Integridad de señal en electrónica embarcada…*
+*Bloque nuevo (4 clases): Diseño de PCB espacial (conceptual); Selección de componentes y derating; Integridad de señal en electrónica embarcada…*
 
 - **B101-C01 — Diseño de PCB espacial (conceptual).** *Programada.* El tronco no trata el diseño de placas electrónicas; B56 integra y B52 trata potencia, pero nadie cubre el diseño de PCB.
 - **B101-C02 — Selección de componentes y derating.** *Programada.* Cubre la selección de componentes calificados y derating; ninguna clase lo trata.
@@ -2109,7 +2109,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B102 — Modulación, codificación y protocolos de enlace
 
-*Bloque nuevo, programado (6 clases): Códigos Reed-Solomon y LDPC; Entrelazado y concatenación de códigos; Tramas de transferencia de telemetría y telecomando…*
+*Bloque nuevo (6 clases): Códigos Reed-Solomon y LDPC; Entrelazado y concatenación de códigos; Tramas de transferencia de telemetría y telecomando…*
 
 - **B102-C01 — Códigos Reed-Solomon y LDPC.** *Programada.* Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B55-C09 trata la corrección de errores en general.
 - **B102-C02 — Entrelazado y concatenación de códigos.** *Programada.* Para soportar ráfagas de errores los códigos se concatenan y entrelazan; B55-C09 no lo trata.
@@ -2120,7 +2120,7 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 
 ### B103 — Plataformas de satélites pequeños y CubeSat
 
-*Bloque nuevo, programado (4 clases): Unidad CubeSat, dimensiones y formatos; Componentes comerciales en vuelo: selección y riesgo; Selección y comparación de plataformas…*
+*Bloque nuevo (4 clases): Unidad CubeSat, dimensiones y formatos; Componentes comerciales en vuelo: selección y riesgo; Selección y comparación de plataformas…*
 
 - **B103-C01 — Unidad CubeSat, dimensiones y formatos.** *Programada.* El formato por unidades fija masa, volumen y compatibilidad con el lanzador; el catálogo no tiene una clase sobre el estándar de la plataforma.
 - **B103-C02 — Componentes comerciales en vuelo: selección y riesgo.** *Programada.* Los satélites pequeños usan componentes comerciales; elegirlos y evaluar su riesgo de radiación y fiabilidad no está cubierto en B50 a B54.
@@ -2133,7 +2133,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B57 — Control y operación de misiones espaciales
 
-*Bloque ampliado: 20 clases de la línea base y 10 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 10 más.*
 
 - **B57-C01 — Segmento espacial y segmento terrestre.** Explica el fenómeno o técnica de «segmento espacial y segmento terrestre» y su aplicación observable o tecnológica.
 - **B57-C02 — Concepto de operaciones de misión.** Delimita «concepto de operaciones de misión», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2168,7 +2168,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B61 — Robótica y construcción extraterrestre
 
-*Bloque ampliado: 20 clases de la línea base y 7 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 7 más.*
 
 - **B61-C01 — Robots rover y orbitadores.** Explica el fenómeno o técnica de «robots rover y orbitadores» y su aplicación observable o tecnológica.
 - **B61-C02 — Cinemática de manipuladores.** Delimita «cinemática de manipuladores», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2200,7 +2200,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B104 — Autonomía y teleoperación espacial
 
-*Bloque nuevo, programado (8 clases): Planificación por objetivos a bordo; Sistemas de decisión autónomos y máquinas de estados de comportamiento; Control supervisado y autonomía compartida…*
+*Bloque nuevo (8 clases): Planificación por objetivos a bordo; Sistemas de decisión autónomos y máquinas de estados de comportamiento; Control supervisado y autonomía compartida…*
 
 - **B104-C01 — Planificación por objetivos a bordo.** *Programada.* Cubre cómo el vehículo selecciona y secuencia acciones para cumplir objetivos sin intervención de Tierra; B57-C04/C09 planifican desde Tierra y ninguna clase trata la planificación a bordo.
 - **B104-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento.** *Programada.* Enseña la arquitectura de decisión a bordo (reglas, máquinas de estados, árboles de comportamiento); B07-C04 solo introduce condicionales.
@@ -2213,7 +2213,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B105 — Localización y mapeo robótico
 
-*Bloque nuevo, programado (7 clases): Odometría visual; Detección y descriptores de características; SLAM basado en grafos de poses…*
+*Bloque nuevo (7 clases): Odometría visual; Detección y descriptores de características; SLAM basado en grafos de poses…*
 
 - **B105-C01 — Odometría visual.** *Programada.* B61-C05 menciona SLAM; ninguna clase desarrolla la estimación de movimiento a partir de secuencias de imágenes.
 - **B105-C02 — Detección y descriptores de características.** *Programada.* B15-C12 detecta fuentes astronómicas; no cubre características locales robustas para correspondencia entre imágenes.
@@ -2225,7 +2225,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B106 — Logística y cadena de suministro extraterrestre
 
-*Bloque nuevo, programado (7 clases): Gestión de inventario de materias primas y piezas; Dimensionamiento de carga y volumen de misión; Gestión de inventarios y reposición de suministros…*
+*Bloque nuevo (7 clases): Gestión de inventario de materias primas y piezas; Dimensionamiento de carga y volumen de misión; Gestión de inventarios y reposición de suministros…*
 
 - **B106-C01 — Gestión de inventario de materias primas y piezas.** *Programada.* Enseña control de existencias y trazabilidad de materiales en una instalación remota; sin clase equivalente.
 - **B106-C02 — Dimensionamiento de carga y volumen de misión.** *Programada.* Aporta el cálculo de masa y volumen de carga por misión; B49-C09 solo trata presupuestos de masa del vehículo.
@@ -2237,7 +2237,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B107 — Manipuladores robóticos espaciales
 
-*Bloque nuevo, programado (10 clases): Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg); Cinemática inversa y redundancia de manipuladores; Singularidades y manipulabilidad de brazos robóticos…*
+*Bloque nuevo (10 clases): Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg); Cinemática inversa y redundancia de manipuladores; Singularidades y manipulabilidad de brazos robóticos…*
 
 - **B107-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg).** *Programada.* B10 enseña rotaciones y cambio de marcos, pero ninguna clase une rotación y traslación en una transformación homogénea ni parametriza la cadena de eslabones de un brazo.
 - **B107-C02 — Cinemática inversa y redundancia de manipuladores.** *Programada.* B61-C02 presenta la cinemática de manipuladores en una sola clase; resolver la cinemática inversa (soluciones múltiples, redundancia, métodos numéricos) exige su propia clase.
@@ -2252,7 +2252,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B108 — Movilidad de robots planetarios
 
-*Bloque nuevo, programado (8 clases): Dinámica multicuerpo de rovers y manipuladores; Terramecánica: tracción y hundimiento en suelos sueltos; Deslizamiento y estimación de patinaje…*
+*Bloque nuevo (8 clases): Dinámica multicuerpo de rovers y manipuladores; Terramecánica: tracción y hundimiento en suelos sueltos; Deslizamiento y estimación de patinaje…*
 
 - **B108-C01 — Dinámica multicuerpo de rovers y manipuladores.** *Programada.* B05 y B50 dan mecánica y análisis estructural, pero ninguna clase formula la dinámica de sistemas de cuerpos articulados con contactos.
 - **B108-C02 — Terramecánica: tracción y hundimiento en suelos sueltos.** *Programada.* B61-C06 introduce la movilidad sobre regolito; falta el modelo de interacción rueda-suelo (presión, cizalladura, hundimiento) que sostiene la tracción.
@@ -2265,7 +2265,7 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 
 ### B109 — Percepción visual robótica
 
-*Bloque nuevo, programado (8 clases): Calibración intrínseca de cámaras; Calibración extrínseca y registro multisensor; Mapas de profundidad y correspondencia estéreo…*
+*Bloque nuevo (8 clases): Calibración intrínseca de cámaras; Calibración extrínseca y registro multisensor; Mapas de profundidad y correspondencia estéreo…*
 
 - **B109-C01 — Calibración intrínseca de cámaras.** *Programada.* B28 trata detectores astronómicos, no el modelo geométrico de cámara (focal, distorsión) necesario para visión robótica.
 - **B109-C02 — Calibración extrínseca y registro multisensor.** *Programada.* Ninguna clase cubre la pose relativa cámara-robot ni entre sensores, base de la visión estéreo y la fusión.
@@ -2282,7 +2282,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B58 — Astronáutica y preparación de astronautas
 
-*Bloque ampliado: 20 clases de la línea base y 3 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 3 más.*
 
 - **B58-C01 — Historia de vuelos tripulados.** Explica el fenómeno o técnica de «historia de vuelos tripulados» y su aplicación observable o tecnológica.
 - **B58-C02 — Requisitos de tripulación.** Delimita «requisitos de tripulación», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2310,7 +2310,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B59 — Medicina y biología espacial
 
-*Bloque ampliado: 20 clases de la línea base y 7 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 7 más.*
 
 - **B59-C01 — Respuesta cardiovascular a microgravedad.** Explica el fenómeno o técnica de «respuesta cardiovascular a microgravedad» y su aplicación observable o tecnológica.
 - **B59-C02 — Pérdida de masa ósea.** Delimita «pérdida de masa ósea», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2342,7 +2342,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B60 — Hábitats espaciales y soporte vital
 
-*Bloque ampliado: 20 clases de la línea base y 9 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 9 más.*
 
 - **B60-C01 — Requisitos de habitabilidad.** Explica el fenómeno o técnica de «requisitos de habitabilidad» y su aplicación observable o tecnológica.
 - **B60-C02 — Presurización de módulos.** Delimita «presurización de módulos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2376,7 +2376,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B110 — Acondicionamiento físico y rehabilitación de astronautas
 
-*Bloque nuevo, programado (10 clases): Entrenamiento cardiorrespiratorio y de resistencia de astronautas; Movilidad articular, flexibilidad y postura; Entrenamiento vestibular y de orientación espacial…*
+*Bloque nuevo (10 clases): Entrenamiento cardiorrespiratorio y de resistencia de astronautas; Movilidad articular, flexibilidad y postura; Entrenamiento vestibular y de orientación espacial…*
 
 - **B110-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas.** *Programada.* B58-C04 es acondicionamiento general; el diseño del entrenamiento de resistencia para vuelo no tiene clase propia.
 - **B110-C02 — Movilidad articular, flexibilidad y postura.** *Programada.* Ninguna clase trata movilidad articular y postura, relevantes en trajes y microgravedad.
@@ -2391,7 +2391,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B111 — Actividades extravehiculares y trajes espaciales
 
-*Bloque nuevo, programado (5 clases): Sistemas portátiles de soporte vital (PLSS); Planificación de desplazamientos y rutas de EVA; Herramientas y equipos de EVA…*
+*Bloque nuevo (5 clases): Sistemas portátiles de soporte vital (PLSS); Planificación de desplazamientos y rutas de EVA; Herramientas y equipos de EVA…*
 
 - **B111-C01 — Sistemas portátiles de soporte vital (PLSS).** *Programada.* B60-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase.
 - **B111-C02 — Planificación de desplazamientos y rutas de EVA.** *Programada.* Ninguna clase planifica rutas y accesibilidad de una EVA en una estructura.
@@ -2401,7 +2401,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B112 — Arquitectura y factores humanos de hábitats extraterrestres
 
-*Bloque nuevo, programado (12 clases): Selección de emplazamiento para un asentamiento extraterrestre; Zonificación y distribución funcional de módulos de un hábitat; Accesos, esclusas y transferencia entre ambientes presurizados…*
+*Bloque nuevo (12 clases): Selección de emplazamiento para un asentamiento extraterrestre; Zonificación y distribución funcional de módulos de un hábitat; Accesos, esclusas y transferencia entre ambientes presurizados…*
 
 - **B112-C01 — Selección de emplazamiento para un asentamiento extraterrestre.** *Programada.* Aporta criterios de elección de sitio (relieve, iluminación, recursos, comunicaciones, seguridad); B60-C19 presenta una arquitectura lunar conceptual pero ninguna clase enseña a comparar y elegir emplazamientos.
 - **B112-C02 — Zonificación y distribución funcional de módulos de un hábitat.** *Programada.* Enseña a organizar módulos y zonas (vida, trabajo, higiene, almacenamiento) por flujos y adyacencias; B60-C02 trata solo la presurización de cada módulo.
@@ -2418,7 +2418,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B113 — Emergencias y seguridad de tripulación
 
-*Bloque nuevo, programado (5 clases): Despresurización: detección, aislamiento y respuesta; Protocolos operativos de aislamiento de un tripulante enfermo o contaminado; Evacuación y refugio de emergencia…*
+*Bloque nuevo (5 clases): Despresurización: detección, aislamiento y respuesta; Protocolos operativos de aislamiento de un tripulante enfermo o contaminado; Evacuación y refugio de emergencia…*
 
 - **B113-C01 — Despresurización: detección, aislamiento y respuesta.** *Programada.* B60-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa.
 - **B113-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado.** *Programada.* B59-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
@@ -2428,7 +2428,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B114 — Factores humanos y liderazgo de tripulación
 
-*Bloque nuevo, programado (6 clases): Fundamentos de factores humanos en operaciones espaciales; Gestión intercultural en tripulaciones multinacionales; Carga cognitiva y gestión de la atención…*
+*Bloque nuevo (6 clases): Fundamentos de factores humanos en operaciones espaciales; Gestión intercultural en tripulaciones multinacionales; Carga cognitiva y gestión de la atención…*
 
 - **B114-C01 — Fundamentos de factores humanos en operaciones espaciales.** *Programada.* B60-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores).
 - **B114-C02 — Gestión intercultural en tripulaciones multinacionales.** *Programada.* Ninguna clase trata diferencias culturales y de idioma en equipos internacionales.
@@ -2439,7 +2439,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B115 — Radiobiología y protección radiológica espacial
 
-*Bloque nuevo, programado (6 clases): Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica; Dosis equivalente y dosis efectiva; Efectos agudos de la radiación…*
+*Bloque nuevo (6 clases): Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica; Dosis equivalente y dosis efectiva; Efectos agudos de la radiación…*
 
 - **B115-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica.** *Programada.* B59-C06 introduce la exposición; falta la definición de dosis absorbida y LET.
 - **B115-C02 — Dosis equivalente y dosis efectiva.** *Programada.* Ninguna clase trata factores de ponderación y dosis equivalente.
@@ -2450,7 +2450,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B116 — Salud conductual y bienestar en aislamiento
 
-*Bloque nuevo, programado (5 clases): Estrés operacional y estrategias de afrontamiento; Ansiedad y respuesta emocional en escenarios simulados; Comunicación diferida y soporte psicológico a distancia…*
+*Bloque nuevo (5 clases): Estrés operacional y estrategias de afrontamiento; Ansiedad y respuesta emocional en escenarios simulados; Comunicación diferida y soporte psicológico a distancia…*
 
 - **B116-C01 — Estrés operacional y estrategias de afrontamiento.** *Programada.* B59-C09 presenta salud mental en aislamiento, pero no el estrés operacional. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 - **B116-C02 — Ansiedad y respuesta emocional en escenarios simulados.** *Programada.* Ninguna clase trata la respuesta emocional ante simulaciones de riesgo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
@@ -2460,7 +2460,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B117 — Seguridad y respuesta a emergencias en hábitats
 
-*Bloque nuevo, programado (6 clases): Rutas de evacuación y salidas de emergencia en hábitats; Detección, localización y respuesta a fugas de presión; Alarmas y procedimientos ante desviaciones atmosféricas…*
+*Bloque nuevo (6 clases): Rutas de evacuación y salidas de emergencia en hábitats; Detección, localización y respuesta a fugas de presión; Alarmas y procedimientos ante desviaciones atmosféricas…*
 
 - **B117-C01 — Rutas de evacuación y salidas de emergencia en hábitats.** *Programada.* Aporta el diseño y verificación de rutas de evacuación; B58-C13 y B60-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios.
 - **B117-C02 — Detección, localización y respuesta a fugas de presión.** *Programada.* Cubre el análisis de tasa de fuga, localización y respuesta; B60-C02 trata solo la presurización.
@@ -2471,7 +2471,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B118 — Sistemas bioregenerativos y cultivo en hábitats
 
-*Bloque nuevo, programado (7 clases): Cultivos hidropónicos para hábitats; Iluminación de cultivos con LED y espectro de crecimiento; Control de nutrientes y solución nutritiva…*
+*Bloque nuevo (7 clases): Cultivos hidropónicos para hábitats; Iluminación de cultivos con LED y espectro de crecimiento; Control de nutrientes y solución nutritiva…*
 
 - **B118-C01 — Cultivos hidropónicos para hábitats.** *Programada.* B60-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos.
 - **B118-C02 — Iluminación de cultivos con LED y espectro de crecimiento.** *Programada.* Aporta espectro, fotoperiodo y eficiencia energética para plantas; B60-C13 trata la iluminación humana.
@@ -2483,7 +2483,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B119 — Telemedicina y monitorización de salud en misión
 
-*Bloque nuevo, programado (7 clases): Sensores fisiológicos y wearables para vuelo; Signos vitales: medición, interpretación y límites; Historia clínica remota y registros médicos de misión…*
+*Bloque nuevo (7 clases): Sensores fisiológicos y wearables para vuelo; Signos vitales: medición, interpretación y límites; Historia clínica remota y registros médicos de misión…*
 
 - **B119-C01 — Sensores fisiológicos y wearables para vuelo.** *Programada.* Ninguna clase trata los sensores fisiológicos ni su precisión.
 - **B119-C02 — Signos vitales: medición, interpretación y límites.** *Programada.* Falta la clase de signos vitales y sus rangos.
@@ -2495,7 +2495,7 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 
 ### B120 — Urgencias médicas y atención clínica en misión
 
-*Bloque nuevo, programado (5 clases): Primeros auxilios y procedimientos básicos en entorno espacial; Contención de riesgos biológicos y químicos en cabina; Emergencia cardiovascular simulada…*
+*Bloque nuevo (5 clases): Primeros auxilios y procedimientos básicos en entorno espacial; Contención de riesgos biológicos y químicos en cabina; Emergencia cardiovascular simulada…*
 
 - **B120-C01 — Primeros auxilios y procedimientos básicos en entorno espacial.** *Programada.* Ninguna clase trata primeros auxilios en microgravedad. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 - **B120-C02 — Contención de riesgos biológicos y químicos en cabina.** *Programada.* Ninguna clase trata la contención de riesgos biológicos o químicos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
@@ -2509,7 +2509,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 ### B62 — Tráfico espacial y sostenibilidad orbital
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B62-C01 — Población de objetos orbitales.** Explica el fenómeno o técnica de «población de objetos orbitales» y su aplicación observable o tecnológica.
 - **B62-C02 — Catálogos de objetos espaciales.** Delimita «catálogos de objetos espaciales», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2538,7 +2538,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 ### B63 — Derecho, seguridad y geopolítica espacial
 
-*Bloque ampliado: 20 clases de la línea base y 16 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 16 más.*
 
 - **B63-C01 — Tratado del Espacio Ultraterrestre.** Ubica «tratado del Espacio Ultraterrestre» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B63-C02 — Acuerdo de Salvamento.** Delimita «acuerdo de Salvamento», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2579,7 +2579,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 ### B121 — Espectro, licencias y regulación satelital
 
-*Bloque nuevo, programado (6 clases): Licencias satelitales y procedimiento de notificación; Zonas de coordinación entre servicios radioeléctricos; Posiciones orbitales y espectro como recursos limitados…*
+*Bloque nuevo (6 clases): Licencias satelitales y procedimiento de notificación; Zonas de coordinación entre servicios radioeléctricos; Posiciones orbitales y espectro como recursos limitados…*
 
 - **B121-C01 — Licencias satelitales y procedimiento de notificación.** *Programada.* Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B63-C09 presenta las normas sin el procedimiento.
 - **B121-C02 — Zonas de coordinación entre servicios radioeléctricos.** *Programada.* Coordinar con otros servicios define dónde y cómo se puede operar; ninguna clase lo trata.
@@ -2590,7 +2590,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 ### B122 — Regulación nacional de actividades espaciales
 
-*Bloque nuevo, programado (5 clases): Licencias y requisitos nacionales para el lanzamiento; Licenciamiento de actividades de teledetección; Protección ambiental en la legislación espacial…*
+*Bloque nuevo (5 clases): Licencias y requisitos nacionales para el lanzamiento; Licenciamiento de actividades de teledetección; Protección ambiental en la legislación espacial…*
 
 - **B122-C01 — Licencias y requisitos nacionales para el lanzamiento.** *Programada.* Lanzar desde o hacia un país exige licencia y requisitos propios; B63-C08 trata la autorización en general.
 - **B122-C02 — Licenciamiento de actividades de teledetección.** *Programada.* Las imágenes satelitales de alta resolución tienen regulación propia; ninguna clase la trata.
@@ -2600,7 +2600,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 ### B123 — Resiliencia y continuidad de infraestructura espacial
 
-*Bloque nuevo, programado (10 clases): Dependencias de proveedores y cadena de suministro de infraestructura espacial; Continuidad de servicio: impacto y objetivos de recuperación; Modelo defensivo de riesgos de infraestructura espacial…*
+*Bloque nuevo (10 clases): Dependencias de proveedores y cadena de suministro de infraestructura espacial; Continuidad de servicio: impacto y objetivos de recuperación; Modelo defensivo de riesgos de infraestructura espacial…*
 
 - **B123-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial.** *Programada.* Aporta el análisis de dependencias y concentración de proveedores; B63-C16 solo introduce infraestructura crítica.
 - **B123-C02 — Continuidad de servicio: impacto y objetivos de recuperación.** *Programada.* Enseña análisis de impacto y objetivos de tiempo de recuperación; B57-C14 trata solo procedimientos.
@@ -2615,7 +2615,7 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 
 ### B124 — Responsabilidad, daños y controversias espaciales
 
-*Bloque nuevo, programado (4 clases): Prueba del daño y cuantificación de la reparación; Causalidad y atribución jurídica del daño; Mecanismos de reclamación entre Estados…*
+*Bloque nuevo (4 clases): Prueba del daño y cuantificación de la reparación; Causalidad y atribución jurídica del daño; Mecanismos de reclamación entre Estados…*
 
 - **B124-C01 — Prueba del daño y cuantificación de la reparación.** *Programada.* Reclamar exige probar y cuantificar el daño; B63-C10 define la responsabilidad sin su prueba.
 - **B124-C02 — Causalidad y atribución jurídica del daño.** *Programada.* Atribuir un daño a un actor exige establecer causalidad; ninguna clase la trata.
@@ -2628,7 +2628,7 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 
 ### B64 — Industria, economía, ética y proyectos espaciales
 
-*Bloque ampliado: 20 clases de la línea base y 4 programadas.*
+*Bloque ampliado: 20 clases de la línea base y 4 más.*
 
 - **B64-C01 — Cadena de valor de industria espacial.** Explica el fenómeno o técnica de «cadena de valor de industria espacial» y su aplicación observable o tecnológica.
 - **B64-C02 — Agencias científicas y empresas.** Delimita «agencias científicas y empresas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
@@ -2657,7 +2657,7 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 
 ### B125 — Creación y operación de empresas espaciales
 
-*Bloque nuevo, programado (6 clases): Mercado de datos espaciales; Modelos de ingresos: suscripción y servicio; Gobierno corporativo de una empresa espacial…*
+*Bloque nuevo (6 clases): Mercado de datos espaciales; Modelos de ingresos: suscripción y servicio; Gobierno corporativo de una empresa espacial…*
 
 - **B125-C01 — Mercado de datos espaciales.** *Programada.* Los datos son un producto con mercado propio; B64-C03 trata los segmentos en general.
 - **B125-C02 — Modelos de ingresos: suscripción y servicio.** *Programada.* El modelo de ingresos define la empresa; ninguna clase lo trata.
@@ -2668,7 +2668,7 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 
 ### B126 — Financiamiento de proyectos y negocios espaciales
 
-*Bloque nuevo, programado (6 clases): Capital semilla y financiamiento inicial; Capital de riesgo en empresas espaciales; Proyección de flujos de caja de un proyecto espacial…*
+*Bloque nuevo (6 clases): Capital semilla y financiamiento inicial; Capital de riesgo en empresas espaciales; Proyección de flujos de caja de un proyecto espacial…*
 
 - **B126-C01 — Capital semilla y financiamiento inicial.** *Programada.* B64-C07 trata el financiamiento privado en general, no las etapas iniciales de una empresa.
 - **B126-C02 — Capital de riesgo en empresas espaciales.** *Programada.* El capital de riesgo tiene lógica y condiciones propias; el catálogo no las trata.
@@ -2679,7 +2679,7 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 
 ### B127 — Seguros espaciales
 
-*Bloque nuevo, programado (8 clases): Seguros de lanzamiento; Seguros en órbita; Seguros de responsabilidad civil espacial…*
+*Bloque nuevo (8 clases): Seguros de lanzamiento; Seguros en órbita; Seguros de responsabilidad civil espacial…*
 
 - **B127-C01 — Seguros de lanzamiento.** *Programada.* B64-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias.
 - **B127-C02 — Seguros en órbita.** *Programada.* La cobertura durante la vida en órbita difiere de la de lanzamiento y no está tratada.
@@ -2696,7 +2696,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 ### B128 — Accesibilidad e inclusión en la enseñanza de la astronomía
 
-*Bloque nuevo, programado (11 clases): Accesibilidad de la observación nocturna; Diseño universal de aprendizaje aplicado a la astronomía; Alternativas a la observación visual…*
+*Bloque nuevo (11 clases): Accesibilidad de la observación nocturna; Diseño universal de aprendizaje aplicado a la astronomía; Alternativas a la observación visual…*
 
 - **B128-C01 — Accesibilidad de la observación nocturna.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
 - **B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
@@ -2712,7 +2712,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 ### B129 — Ciencia ciudadana astronómica
 
-*Bloque nuevo, programado (7 clases): Redes de observadores aficionados; Fotometría participativa; Seguimiento ciudadano de meteoros…*
+*Bloque nuevo (7 clases): Redes de observadores aficionados; Fotometría participativa; Seguimiento ciudadano de meteoros…*
 
 - **B129-C01 — Redes de observadores aficionados.** *Programada.* B32-C19 menciona la ciencia ciudadana en un observatorio profesional; falta tratar las redes de aficionados.
 - **B129-C02 — Fotometría participativa.** *Programada.* Medir brillos con voluntarios es una práctica propia de la ciencia ciudadana; B29 trata fotometría profesional.
@@ -2724,7 +2724,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 ### B130 — Comunicación y divulgación científica
 
-*Bloque nuevo, programado (6 clases): Infografías con fuentes verificables; Visualización de datos para comunicar; Comunicación oral de la ciencia…*
+*Bloque nuevo (6 clases): Infografías con fuentes verificables; Visualización de datos para comunicar; Comunicación oral de la ciencia…*
 
 - **B130-C01 — Infografías con fuentes verificables.** *Programada.* Comunicar con imágenes exige mantener la fuente y la incertidumbre; B64-C18 trata comunicación en general.
 - **B130-C02 — Visualización de datos para comunicar.** *Programada.* Elegir un gráfico honesto para el público es una competencia propia; B15 trata datos, no su comunicación.
@@ -2735,7 +2735,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 ### B131 — Didáctica de la astronomía
 
-*Bloque nuevo, programado (11 clases): Actividades de medición astronómica para el aula; Resultados de aprendizaje observables en astronomía; Conocimientos previos y concepciones alternativas…*
+*Bloque nuevo (11 clases): Actividades de medición astronómica para el aula; Resultados de aprendizaje observables en astronomía; Conocimientos previos y concepciones alternativas…*
 
 - **B131-C01 — Actividades de medición astronómica para el aula.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
 - **B131-C02 — Resultados de aprendizaje observables en astronomía.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
@@ -2751,7 +2751,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 ### B132 — Historia y arqueoastronomía aplicadas
 
-*Bloque nuevo, programado (6 clases): Crítica histórica de fuentes y método historiográfico; Arqueología de observatorios y de instrumentos antiguos; Monumentos megalíticos y astronomía…*
+*Bloque nuevo (6 clases): Crítica histórica de fuentes y método historiográfico; Arqueología de observatorios y de instrumentos antiguos; Monumentos megalíticos y astronomía…*
 
 - **B132-C01 — Crítica histórica de fuentes y método historiográfico.** *Programada.* Contar la historia de la astronomía exige evaluar fuentes de época; B01-C19 trata fuentes de desinformación actual, no el método histórico.
 - **B132-C02 — Arqueología de observatorios y de instrumentos antiguos.** *Programada.* B02-C08 presenta los métodos; falta tratar cómo se estudian y datan los observatorios e instrumentos materiales.
@@ -2762,7 +2762,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 ### B133 — Saberes astronómicos y educación intercultural
 
-*Bloque nuevo, programado (5 clases): Relaciones entre cielo y territorio en los saberes tradicionales; Narrativas orales y transmisión del saber del cielo; Colaboración con comunidades en investigación y educación…*
+*Bloque nuevo (5 clases): Relaciones entre cielo y territorio en los saberes tradicionales; Narrativas orales y transmisión del saber del cielo; Colaboración con comunidades en investigación y educación…*
 
 - **B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales.** *Programada.* Los saberes del cielo están ligados al territorio; B02-C05 y C06 los presentan sin tratar esa relación.
 - **B133-C02 — Narrativas orales y transmisión del saber del cielo.** *Programada.* La transmisión oral es la forma de conservación de muchos saberes; ninguna clase la trata.
