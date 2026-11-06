@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 380 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 384 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -414,10 +414,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B15-C18 — Filtros de partículas iniciales.** Introduce el contexto y los principios de «filtros de partículas iniciales» para comprender su uso científico.
 - **B15-C19 — Reconstrucción por datos incompletos.** Introduce «reconstrucción por datos incompletos» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B15-C20 — Proyecto de detección y seguimiento.** Introduce «proyecto de detección y seguimiento» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B15-C21 — Series temporales multivariadas y regresión dinámica.** *Programada.* B15 trata series univariadas y filtros; faltan modelos multivariados (VAR, regresión con retardo) para relacionar viento solar e índices.
-- **B15-C22 — Clasificación supervisada de imágenes.** *Programada.* Producir mapas temáticos exige clasificadores entrenados con muestras; B15 trata segmentación y filtrado, no clasificación supervisada.
-- **B15-C23 — Clasificación no supervisada y agrupamiento de imágenes.** *Programada.* Cuando no hay muestras se agrupan los píxeles; B15 no trata agrupamiento.
-- **B15-C24 — Fusión de imágenes de distintos sensores.** *Programada.* Combinar resolución espacial y espectral de sensores distintos es una técnica propia; B15-C19 reconstruye imágenes sin fusionarlas.
+- **B15-C21 — Series temporales multivariadas y regresión dinámica.** *Texto redactado, pendiente de revisión.* B15 trata series univariadas y filtros; faltan modelos multivariados (VAR, regresión con retardo) para relacionar viento solar e índices.
+- **B15-C22 — Clasificación supervisada de imágenes.** *Texto redactado, pendiente de revisión.* Producir mapas temáticos exige clasificadores entrenados con muestras; B15 trata segmentación y filtrado, no clasificación supervisada.
+- **B15-C23 — Clasificación no supervisada y agrupamiento de imágenes.** *Texto redactado, pendiente de revisión.* Cuando no hay muestras se agrupan los píxeles; B15 no trata agrupamiento.
+- **B15-C24 — Fusión de imágenes de distintos sensores.** *Texto redactado, pendiente de revisión.* Combinar resolución espacial y espectral de sensores distintos es una técnica propia; B15-C19 reconstruye imágenes sin fusionarlas.
 
 ### B16 — Sistemas dinámicos y control automático
 
