@@ -65,7 +65,7 @@ flowchart LR
 
 *Descripción textual:* los actuadores actúan sobre el estado a través de `B`, y los sensores lo miran a través de `C`; la controlabilidad pregunta si los actuadores alcanzan todas las direcciones del estado, y la observabilidad si los sensores las ven.
 
-La analogía: un conductor (actuadores) y un copiloto con mapa (sensores); si el volante no gira a la izquierda, hay destinos inalcanzables; si el mapa no muestra una zona, hay lugares donde no sabes dónde estás. Su límite: la analogía no captura que en un sistema lineal es cuestión de rango, no de grado (aunque el costo sí tiene grados, sección 8.4).
+La analogía: un conductor (actuadores) y quien lee el mapa (sensores); si el volante no gira a la izquierda, hay destinos inalcanzables; si el mapa no muestra una zona, hay lugares donde no sabes dónde estás. Su límite: la analogía no captura que en un sistema lineal es cuestión de rango, no de grado (aunque el costo sí tiene grados, sección 8.4).
 
 ## 8. La explicación, paso a paso
 

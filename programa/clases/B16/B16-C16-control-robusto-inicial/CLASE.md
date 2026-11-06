@@ -1,7 +1,7 @@
 # B16-C16 — Control robusto inicial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C15 — Control óptimo LQR](../B16-C15-control-optimo-lqr/CLASE.md) · [Siguiente: B16-C17 — Control no lineal →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C15 — Control óptimo LQR](../B16-C15-control-optimo-lqr/CLASE.md) · [Siguiente: B16-C17 — Control no lineal →](../B16-C17-control-no-lineal/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ La robustez se cuantifica con los picos de `S` y `T`, la ganancia pequeña da un
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B16-C15 — Control óptimo LQR](../B16-C15-control-optimo-lqr/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C17 — Control no lineal →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c17)
+[← Anterior: B16-C15 — Control óptimo LQR](../B16-C15-control-optimo-lqr/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C17 — Control no lineal →](../B16-C17-control-no-lineal/CLASE.md)
 <!-- /nav -->

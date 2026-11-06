@@ -1,7 +1,7 @@
 # B17-C01 — Ingeniería de características científicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [← Anterior: B16-C20 — Control de orientación en un simulador](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c20) · [Siguiente: B17-C02 — Aprendizaje supervisado →](../B17-C02-aprendizaje-supervisado/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [← Anterior: B16-C20 — Control de orientación en un simulador](../../B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md) · [Siguiente: B17-C02 — Aprendizaje supervisado →](../B17-C02-aprendizaje-supervisado/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ Una buena característica tiene unidad (o es adimensional), fórmula, supuestos 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B16-C20 — Control de orientación en un simulador](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c20) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [Siguiente: B17-C02 — Aprendizaje supervisado →](../B17-C02-aprendizaje-supervisado/CLASE.md)
+[← Anterior: B16-C20 — Control de orientación en un simulador](../../B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [Siguiente: B17-C02 — Aprendizaje supervisado →](../B17-C02-aprendizaje-supervisado/CLASE.md)
 <!-- /nav -->

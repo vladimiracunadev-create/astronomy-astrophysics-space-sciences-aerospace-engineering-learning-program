@@ -78,10 +78,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b16-c17"></a>B16-C17 | Control no lineal | Ecuaciones de Euler, Lyapunov, desrotación por realimentación de velocidad. | Análisis de Lyapunov |
-| <a id="b16-c18"></a>B16-C18 | Saturación y anti-windup | Límite de par y de momento; windup; recálculo hacia atrás. | Comparación con y sin anti-windup |
-| <a id="b16-c19"></a>B16-C19 | Verificación de lazo cerrado | Matriz de verificación, convergencia del simulador, Monte Carlo de parámetros. | Informe de verificación |
-| <a id="b16-c20"></a>B16-C20 | Control de orientación en un simulador | Simulador de tres ejes con cuaterniones, PD de actitud, saturación y pruebas. | Simulador verificado |
+| <a id="b16-c17"></a>[B16-C17](../clases/B16/B16-C17-control-no-lineal/CLASE.md) | Control no lineal | Ecuaciones de Euler, Lyapunov, desrotación por realimentación de velocidad. | Análisis de Lyapunov |
+| <a id="b16-c18"></a>[B16-C18](../clases/B16/B16-C18-saturacion-y-anti-windup/CLASE.md) | Saturación y anti-windup | Límite de par y de momento; windup; recálculo hacia atrás. | Comparación con y sin anti-windup |
+| <a id="b16-c19"></a>[B16-C19](../clases/B16/B16-C19-verificacion-de-lazo-cerrado/CLASE.md) | Verificación de lazo cerrado | Matriz de verificación, convergencia del simulador, Monte Carlo de parámetros. | Informe de verificación |
+| <a id="b16-c20"></a>[B16-C20](../clases/B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md) | Control de orientación en un simulador | Simulador de tres ejes con cuaterniones, PD de actitud, saturación y pruebas. | Simulador verificado |
 
 ## 🧵 Hilos que atraviesan el bloque
 

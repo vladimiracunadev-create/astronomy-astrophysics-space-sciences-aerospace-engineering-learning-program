@@ -68,7 +68,7 @@ flowchart LR
 
 *Descripción textual:* el error alimenta tres ramas en paralelo (proporcional, integral y derivativa) que se suman para formar la orden de par.
 
-La analogía es conducir: presente (dónde estás respecto del carril), pasado (llevas un rato desviándote a un lado), futuro (la curva que viene). Su límite: el piloto anticipa por conocimiento, la derivada solo extrapola la pendiente actual y amplifica el ruido.
+La analogía es conducir: presente (dónde estás respecto del carril), pasado (llevas un rato desviándote a un lado), futuro (la curva que viene). Su límite: quien conduce anticipa por conocimiento, la derivada solo extrapola la pendiente actual y amplifica el ruido.
 
 ## 8. La explicación, paso a paso
 
