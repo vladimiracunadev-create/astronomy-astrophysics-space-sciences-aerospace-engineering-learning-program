@@ -72,10 +72,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b14-c13"></a>B14-C13 | Computación paralela | Procesos e hilos, reparto de trabajo, ley de Amdahl y límites de la aceleración. | Medición de aceleración frente a la teórica |
-| <a id="b14-c14"></a>B14-C14 | Vectorización y rendimiento | Medir antes de optimizar; vectorizar con arreglos y reconocer cuellos de botella. | Informe de perfilado con mejora medida |
-| <a id="b14-c15"></a>B14-C15 | Cálculo en GPU y limitaciones | Qué se acelera en GPU, transferencia de datos y precisión numérica; cuándo no conviene. | Comparación CPU–GPU con sus límites |
-| <a id="b14-c16"></a>B14-C16 | Computación distribuida y HPC | Clústeres, colas de trabajo, comunicación entre nodos y escalado débil y fuerte. | Plan de ejecución escalable |
+| <a id="b14-c13"></a>[B14-C13](../clases/B14/B14-C13-computacion-paralela/CLASE.md) | Computación paralela | Procesos e hilos, reparto de trabajo, ley de Amdahl y límites de la aceleración. | Medición de aceleración frente a la teórica |
+| <a id="b14-c14"></a>[B14-C14](../clases/B14/B14-C14-vectorizacion-y-rendimiento/CLASE.md) | Vectorización y rendimiento | Medir antes de optimizar; vectorizar con arreglos y reconocer cuellos de botella. | Informe de perfilado con mejora medida |
+| <a id="b14-c15"></a>[B14-C15](../clases/B14/B14-C15-calculo-en-gpu-y-limitaciones/CLASE.md) | Cálculo en GPU y limitaciones | Qué se acelera en GPU, transferencia de datos y precisión numérica; cuándo no conviene. | Comparación CPU–GPU con sus límites |
+| <a id="b14-c16"></a>[B14-C16](../clases/B14/B14-C16-computacion-distribuida-y-hpc/CLASE.md) | Computación distribuida y HPC | Clústeres, colas de trabajo, comunicación entre nodos y escalado débil y fuerte. | Plan de ejecución escalable |
 
 ### Tramo 5 · Entornos, flujos, publicación y proyecto
 

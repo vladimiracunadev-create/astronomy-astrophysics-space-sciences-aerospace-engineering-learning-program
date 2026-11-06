@@ -1,7 +1,7 @@
 # B14-C12 — Ejecución reproducible con uv
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C11 — Control de versiones de datos](../B14-C11-control-de-versiones-de-datos/CLASE.md) · [Siguiente: B14-C13 — Computación paralela →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C11 — Control de versiones de datos](../B14-C11-control-de-versiones-de-datos/CLASE.md) · [Siguiente: B14-C13 — Computación paralela →](../B14-C13-computacion-paralela/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ Instalar dependencias es ejecutar código de terceros: las sumas del bloqueo pro
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C11 — Control de versiones de datos](../B14-C11-control-de-versiones-de-datos/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C13 — Computación paralela →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c13)
+[← Anterior: B14-C11 — Control de versiones de datos](../B14-C11-control-de-versiones-de-datos/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C13 — Computación paralela →](../B14-C13-computacion-paralela/CLASE.md)
 <!-- /nav -->
