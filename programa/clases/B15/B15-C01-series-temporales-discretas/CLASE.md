@@ -118,6 +118,7 @@ Los huecos rompen la regla `tₙ = t₀ + n Δt`. Hay tres respuestas posibles: 
 | S1 | MAST/STScI, *TESS* (página de la misión) | https://archive.stsci.edu/missions-and-data/tess | Datos de objetivos con cadencia aproximada de 2 min; imágenes completas aproximadamente cada 30 min (según esa página) | Consultada el 2026-11-05 mediante extracción automática |
 | S2 | NIST/SEMATECH, *e-Handbook of Statistical Methods*, §1.3.5.12 «Autocorrelation» | https://www.itl.nist.gov/div898/handbook/eda/section3/eda35c.htm | Autocorrelación al retardo k para datos equiespaciados; uso para detectar no aleatoriedad | Consultada el 2026-11-05 mediante extracción automática |
 | S3 | NASA/NSSDC, *Sun Fact Sheet* (actualizada 2024-05-09) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html | Periodo de rotación sidérea 609,12 h a 16° de latitud | Consultada el 2026-11-05 mediante extracción automática |
+| S4 | NASA/HEASARC, *TESS* (portal de la misión) | https://heasarc.gsfc.nasa.gov/docs/tess/ | Cada sector de observación dura aproximadamente 27 días (noticia «TESS Cycle 10 pointings»; ver ejercicio 4) | Consultada el 2026-11-05 mediante extracción automática |
 
 Límites: la fórmula de `r_k` y la corrección `N − 1` se enseñan como resultados estándar; no se reprodujo el texto de S2. Los datos del laboratorio son sintéticos.
 
@@ -181,7 +182,7 @@ Media 0; suma de cuadrados 6. Para `k = 1`: cinco productos de `−1`, suma `−
 
 <details><summary>Solución comentada</summary>
 
-`27 × 720 = 19 440` (8.2). Una órbita de TESS dura unos 13,7 d; el ejercicio no la usa.
+`27 × 720 = 19 440` (8.2). Es el orden de una serie de un sector de TESS, que según la página de la misión (S4) dura aproximadamente 27 días.
 </details>
 
 **Ejercicio 5.** Dos series, `[1; 2; 3; 4]` y `[3; 1; 4; 2]`, tienen la misma media y la misma `s`. Calcula `r₁` de cada una (usa la fórmula de 8.5) y di qué te muestra.

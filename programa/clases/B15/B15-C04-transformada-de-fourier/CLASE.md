@@ -1,7 +1,7 @@
 # B15-C04 — Transformada de Fourier
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C03 — Ruido blanco y coloreado](../B15-C03-ruido-blanco-y-coloreado/CLASE.md) · [Siguiente: B15-C05 — Transformada rápida de Fourier →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C03 — Ruido blanco y coloreado](../B15-C03-ruido-blanco-y-coloreado/CLASE.md) · [Siguiente: B15-C05 — Transformada rápida de Fourier →](../B15-C05-transformada-rapida-de-fourier/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ La DFT compara la serie con oscilaciones de prueba y devuelve amplitud y fase po
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B15-C03 — Ruido blanco y coloreado](../B15-C03-ruido-blanco-y-coloreado/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C05 — Transformada rápida de Fourier →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c05)
+[← Anterior: B15-C03 — Ruido blanco y coloreado](../B15-C03-ruido-blanco-y-coloreado/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C05 — Transformada rápida de Fourier →](../B15-C05-transformada-rapida-de-fourier/CLASE.md)
 <!-- /nav -->

@@ -49,15 +49,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b15-c02"></a>[B15-C02](../clases/B15/B15-C02-muestreo-y-aliasing/CLASE.md) | Muestreo y aliasing | Frecuencia de Nyquist y alias; predecir la frecuencia aparente y elegir la cadencia. | Tabla de aliasing verificada |
 | <a id="b15-c03"></a>[B15-C03](../clases/B15/B15-C03-ruido-blanco-y-coloreado/CLASE.md) | Ruido blanco y coloreado | Ruido blanco, AR(1) y paseo aleatorio; cuánto ayuda promediar y muestras efectivas. | Informe de ruido |
 | <a id="b15-c04"></a>[B15-C04](../clases/B15/B15-C04-transformada-de-fourier/CLASE.md) | Transformada de Fourier | DFT, bins y frecuencias, amplitud, fuga espectral; identidades de Parseval y de convolución. | Espectro verificado |
-| <a id="b15-c05"></a>B15-C05 | Transformada rápida de Fourier | Idea de dividir y combinar; coste N log N frente a N²; uso correcto de las rutinas de FFT. | Tabla de tiempos y exactitud |
-| <a id="b15-c06"></a>B15-C06 | Análisis espectral de señales | Periodograma, ventanas, promedio de Welch y muestreo irregular (Lomb–Scargle); nivel de ruido y significancia. | Espectro con ventana y umbral declarados |
+| <a id="b15-c05"></a>[B15-C05](../clases/B15/B15-C05-transformada-rapida-de-fourier/CLASE.md) | Transformada rápida de Fourier | Idea de dividir y combinar; coste N log N frente a N²; uso correcto de las rutinas de FFT. | Tabla de tiempos y exactitud |
+| <a id="b15-c06"></a>[B15-C06](../clases/B15/B15-C06-analisis-espectral-de-senales/CLASE.md) | Análisis espectral de señales | Periodograma, ventanas, promedio de Welch y muestreo irregular (Lomb–Scargle); nivel de ruido y significancia. | Espectro con ventana y umbral declarados |
 
 ### Tramo 2 · Filtros y convolución
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b15-c07"></a>B15-C07 | Filtrado digital | Filtros de media móvil, FIR e IIR sencillos; respuesta en frecuencia, retardo y efectos de borde. | Filtro con respuesta comprobada |
-| <a id="b15-c08"></a>B15-C08 | Convolución y respuesta impulsional | Convolución discreta, respuesta impulsional y sistemas lineales invariantes; convolución rápida con FFT. | Convolución verificada con un sistema físico sencillo |
+| <a id="b15-c07"></a>[B15-C07](../clases/B15/B15-C07-filtrado-digital/CLASE.md) | Filtrado digital | Filtros de media móvil, FIR e IIR sencillos; respuesta en frecuencia, retardo y efectos de borde. | Filtro con respuesta comprobada |
+| <a id="b15-c08"></a>[B15-C08](../clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md) | Convolución y respuesta impulsional | Convolución discreta, respuesta impulsional y sistemas lineales invariantes; convolución rápida con FFT. | Convolución verificada con un sistema físico sencillo |
 
 ### Tramo 3 · Imágenes
 
