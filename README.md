@@ -306,7 +306,7 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 | B132 | Historia y arqueoastronomía aplicadas | C01 a C06 | [📘](programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) |
 | B133 | Saberes astronómicos y educación intercultural | C01 a C05 | [📘](programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) |
 
-➡️ **[Ver el programa completo: 2.077 clases en 133 bloques](PROGRAMA_ACADEMICO_COMPLETO.md)**
+📖 **Detalle de cada clase.** El [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) lista, bloque por bloque, el título y la descripción de cada clase, o la necesidad que resuelve si está programada, y marca las que ya tienen texto. Para estudiar una clase redactada, ábrela desde la guía de su bloque (columna 📘); la numeración anterior de los bloques está en [`numeracion_bloques.json`](catalogo/v0.2.0/numeracion_bloques.json).
 
 ## 🧭 Los 24 roles y su ruta de áreas y bloques
 
