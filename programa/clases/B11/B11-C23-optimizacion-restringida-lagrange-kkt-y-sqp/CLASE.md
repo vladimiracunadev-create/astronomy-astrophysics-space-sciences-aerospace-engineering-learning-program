@@ -1,6 +1,7 @@
 # B11-C23 — Optimización restringida: Lagrange, KKT y SQP
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C22 — Métodos implícitos y sistemas rígidos](../B11-C22-metodos-implicitos-y-sistemas-rigidos/CLASE.md) · [Siguiente: B11-C24 — Métodos espectrales avanzados (Chebyshev y Fourier) →](../B11-C24-metodos-espectrales-avanzados-chebyshev-y-fourier/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,4 +311,7 @@ El Lagrangiano convierte una restricción en un multiplicador; las condiciones K
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C22 — Métodos implícitos y sistemas rígidos](../B11-C22-metodos-implicitos-y-sistemas-rigidos/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C24 — Métodos espectrales avanzados (Chebyshev y Fourier) →](../B11-C24-metodos-espectrales-avanzados-chebyshev-y-fourier/CLASE.md)
 <!-- /nav -->

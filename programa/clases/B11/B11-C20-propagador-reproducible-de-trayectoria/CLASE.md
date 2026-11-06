@@ -1,7 +1,7 @@
 # B11-C20 — Propagador reproducible de trayectoria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C19 — Estimación de error y convergencia](../B11-C19-estimacion-de-error-y-convergencia/CLASE.md) · [Siguiente: B11-C21 — Integración numérica de alta precisión →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C19 — Estimación de error y convergencia](../B11-C19-estimacion-de-error-y-convergencia/CLASE.md) · [Siguiente: B11-C21 — Integración numérica de alta precisión →](../B11-C21-integracion-numerica-de-alta-precision/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ Un propagador reproducible tiene configuración declarada, métodos intercambiab
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B11-C19 — Estimación de error y convergencia](../B11-C19-estimacion-de-error-y-convergencia/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C21 — Integración numérica de alta precisión →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c21)
+[← Anterior: B11-C19 — Estimación de error y convergencia](../B11-C19-estimacion-de-error-y-convergencia/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C21 — Integración numérica de alta precisión →](../B11-C21-integracion-numerica-de-alta-precision/CLASE.md)
 <!-- /nav -->

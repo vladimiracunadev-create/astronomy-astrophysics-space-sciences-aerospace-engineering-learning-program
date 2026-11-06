@@ -1,6 +1,7 @@
 # B11-C22 — Métodos implícitos y sistemas rígidos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C21 — Integración numérica de alta precisión](../B11-C21-integracion-numerica-de-alta-precision/CLASE.md) · [Siguiente: B11-C23 — Optimización restringida: Lagrange, KKT y SQP →](../B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,4 +308,7 @@ Los métodos implícitos resuelven una ecuación por paso (Newton con jacobiano)
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C21 — Integración numérica de alta precisión](../B11-C21-integracion-numerica-de-alta-precision/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C23 — Optimización restringida: Lagrange, KKT y SQP →](../B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md)
 <!-- /nav -->

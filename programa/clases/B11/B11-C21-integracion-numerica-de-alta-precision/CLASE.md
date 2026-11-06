@@ -1,6 +1,7 @@
 # B11-C21 — Integración numérica de alta precisión
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C20 — Propagador reproducible de trayectoria](../B11-C20-propagador-reproducible-de-trayectoria/CLASE.md) · [Siguiente: B11-C22 — Métodos implícitos y sistemas rígidos →](../B11-C22-metodos-implicitos-y-sistemas-rigidos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,4 +308,7 @@ La extrapolación de Richardson sobre el punto medio modificado da métodos de o
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C20 — Propagador reproducible de trayectoria](../B11-C20-propagador-reproducible-de-trayectoria/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C22 — Métodos implícitos y sistemas rígidos →](../B11-C22-metodos-implicitos-y-sistemas-rigidos/CLASE.md)
 <!-- /nav -->
