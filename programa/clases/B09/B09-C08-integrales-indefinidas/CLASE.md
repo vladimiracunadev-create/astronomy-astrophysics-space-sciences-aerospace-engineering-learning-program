@@ -1,7 +1,7 @@
 # B09-C08 — Integrales indefinidas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C07 — Optimización con derivadas](../B09-C07-optimizacion-con-derivadas/CLASE.md) · [Siguiente: B09-C09 — Integración por sustitución →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C07 — Optimización con derivadas](../B09-C07-optimizacion-con-derivadas/CLASE.md) · [Siguiente: B09-C09 — Integración por sustitución →](../B09-C09-integracion-por-sustitucion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ La integral indefinida deshace la derivada y deja una constante que se fija con 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B09-C07 — Optimización con derivadas](../B09-C07-optimizacion-con-derivadas/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C09 — Integración por sustitución →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c09)
+[← Anterior: B09-C07 — Optimización con derivadas](../B09-C07-optimizacion-con-derivadas/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C09 — Integración por sustitución →](../B09-C09-integracion-por-sustitucion/CLASE.md)
 <!-- /nav -->
