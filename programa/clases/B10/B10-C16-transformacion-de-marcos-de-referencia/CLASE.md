@@ -1,7 +1,7 @@
 # B10-C16 — Transformación de marcos de referencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C15 — Cuaterniones unitarios](../B10-C15-cuaterniones-unitarios/CLASE.md) · [Siguiente: B10-C17 — Tensores y notación indicial →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C15 — Cuaterniones unitarios](../B10-C15-cuaterniones-unitarios/CLASE.md) · [Siguiente: B10-C17 — Tensores y notación indicial →](../B10-C17-tensores-y-notacion-indicial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,5 +320,5 @@ Un marco es un conjunto de ejes ligado a un punto; el IERS relaciona los sistema
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B10-C15 — Cuaterniones unitarios](../B10-C15-cuaterniones-unitarios/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C17 — Tensores y notación indicial →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c17)
+[← Anterior: B10-C15 — Cuaterniones unitarios](../B10-C15-cuaterniones-unitarios/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C17 — Tensores y notación indicial →](../B10-C17-tensores-y-notacion-indicial/CLASE.md)
 <!-- /nav -->

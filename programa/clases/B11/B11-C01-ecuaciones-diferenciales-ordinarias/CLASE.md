@@ -1,7 +1,7 @@
 # B11-C01 — Ecuaciones diferenciales ordinarias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B10-C20 — Cinemática de orientación satelital](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c20) · [Siguiente: B11-C02 — Problemas de valor inicial →](../B11-C02-problemas-de-valor-inicial/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B10-C20 — Cinemática de orientación satelital](../../B10/B10-C20-cinematica-de-orientacion-satelital/CLASE.md) · [Siguiente: B11-C02 — Problemas de valor inicial →](../B11-C02-problemas-de-valor-inicial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Una EDO impone una ley de cambio; sus soluciones forman una familia; una funció
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B10-C20 — Cinemática de orientación satelital](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c20) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C02 — Problemas de valor inicial →](../B11-C02-problemas-de-valor-inicial/CLASE.md)
+[← Anterior: B10-C20 — Cinemática de orientación satelital](../../B10/B10-C20-cinematica-de-orientacion-satelital/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C02 — Problemas de valor inicial →](../B11-C02-problemas-de-valor-inicial/CLASE.md)
 <!-- /nav -->

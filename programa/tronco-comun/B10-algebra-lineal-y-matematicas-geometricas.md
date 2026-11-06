@@ -74,10 +74,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b10-c17"></a>B10-C17 | Tensores y notación indicial | Convención de suma, delta de Kronecker, Levi‑Civita, tensor de inercia. | Hoja de notación indicial |
-| <a id="b10-c18"></a>B10-C18 | Producto tensorial y contracción | Producto externo, contracción y traza; tensor de marea gravitatoria. | Ficha del tensor de marea |
-| <a id="b10-c19"></a>B10-C19 | Jacobianos y linealización | Jacobiano, aproximación lineal y su error; conversión de coordenadas. | Informe de linealización |
-| <a id="b10-c20"></a>B10-C20 | Cinemática de orientación satelital | Ecuaciones de cinemática con cuaterniones, integración y verificación. | Simulación de actitud verificada |
+| <a id="b10-c17"></a>[B10-C17](../clases/B10/B10-C17-tensores-y-notacion-indicial/CLASE.md) | Tensores y notación indicial | Convención de suma, delta de Kronecker, Levi‑Civita, tensor de inercia. | Hoja de notación indicial |
+| <a id="b10-c18"></a>[B10-C18](../clases/B10/B10-C18-producto-tensorial-y-contraccion/CLASE.md) | Producto tensorial y contracción | Producto externo, contracción y traza; tensor de marea gravitatoria. | Ficha del tensor de marea |
+| <a id="b10-c19"></a>[B10-C19](../clases/B10/B10-C19-jacobianos-y-linealizacion/CLASE.md) | Jacobianos y linealización | Jacobiano, aproximación lineal y su error; conversión de coordenadas. | Informe de linealización |
+| <a id="b10-c20"></a>[B10-C20](../clases/B10/B10-C20-cinematica-de-orientacion-satelital/CLASE.md) | Cinemática de orientación satelital | Ecuaciones de cinemática con cuaterniones, integración y verificación. | Simulación de actitud verificada |
 
 ## 🧵 Hilos que atraviesan el bloque
 
