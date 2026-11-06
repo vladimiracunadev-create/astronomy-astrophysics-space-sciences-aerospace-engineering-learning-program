@@ -46,9 +46,9 @@ Dicho sin adornos: hay **mucha trazabilidad** y **muchas decisiones de compromis
 
 - **Soporte vital:** requisitos de habitabilidad, presurización, atmósfera respirable, control de dióxido de carbono, oxígeno, reciclaje de agua, humedad, residuos y fiabilidad con redundancia, en [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md).
 - **Calidad del aire y del agua:** contaminantes de cabina, filtración, monitoreo de gases y de microbiología, tratamiento de aguas grises y de orina (también en B106).
-- **Arquitectura y factores humanos:** emplazamiento, zonificación, accesos y esclusas, polvo lunar, crecimiento modular, antropometría, volumen por tripulante, diseño inclusivo, acústica y evaluación de maquetas, en [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../../programa/tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md).
-- **Seguridad y emergencias:** rutas de evacuación, fugas de presión, alarmas, refugio contra tormentas solares, despresurización y matriz de riesgo, en [**B114** · Seguridad y respuesta a emergencias en hábitats](../../programa/tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md).
-- **Alimento y ciclos biológicos:** cultivo hidropónico y aeropónico, iluminación, solución nutritiva, balance de agua y bioseguridad, en [**B115** · Sistemas bioregenerativos y cultivo en hábitats](../../programa/tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md).
+- **Arquitectura y factores humanos:** emplazamiento, zonificación, accesos y esclusas, polvo lunar, crecimiento modular, antropometría, volumen por tripulante, diseño inclusivo, acústica y evaluación de maquetas, en [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../programa/tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md).
+- **Seguridad y emergencias:** rutas de evacuación, fugas de presión, alarmas, refugio contra tormentas solares, despresurización y matriz de riesgo, en [**B114** · Seguridad y respuesta a emergencias en hábitats](../programa/tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md).
+- **Alimento y ciclos biológicos:** cultivo hidropónico y aeropónico, iluminación, solución nutritiva, balance de agua y bioseguridad, en [**B115** · Sistemas bioregenerativos y cultivo en hábitats](../programa/tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md).
 - **Entorno y recursos:** radiación y plasma ([**B30**](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)), térmica ([**B85**](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)), energía ([**B86**](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md)) y recursos in situ ([**B59**](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md)).
 - **Incertidumbre:** propagar errores en un balance y justificar un margen con números, no con intuición.
 
@@ -158,9 +158,9 @@ Roles vecinos con los que se comparte formación: [astronáutica tripulada](astr
 
 1. **Asienta la base** con el área A01 y, según tu diagnóstico, con [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) y [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md).
 2. Recorre el **soporte vital** en [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) y arma un balance de aire y agua para una tripulación de ejemplo, con su incertidumbre.
-3. Pasa a la **disposición y los factores humanos** con [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../../programa/tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) y dibuja un plano con sus rutas de evacuación.
-4. Cierra el **riesgo** con [**B114** · Seguridad y respuesta a emergencias en hábitats](../../programa/tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) y escribe tu matriz de riesgo ambiental.
-5. Reúne tu **expediente** con el alimento ([**B115**](../../programa/tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md)) y el diseño integral, y guarda su historia.
+3. Pasa a la **disposición y los factores humanos** con [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../programa/tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) y dibuja un plano con sus rutas de evacuación.
+4. Cierra el **riesgo** con [**B114** · Seguridad y respuesta a emergencias en hábitats](../programa/tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) y escribe tu matriz de riesgo ambiental.
+5. Reúne tu **expediente** con el alimento ([**B115**](../programa/tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md)) y el diseño integral, y guarda su historia.
 
 <!-- pie:inicio -->
 ---

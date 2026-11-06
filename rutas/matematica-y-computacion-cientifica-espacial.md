@@ -37,12 +37,12 @@ Dicho sin adornos: **un código que corre no es un código correcto**, y disting
 
 ### Conocimiento técnico
 
-- **Ecuaciones diferenciales y simulación** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)); **métodos numéricos para EDP** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md)).
+- **Ecuaciones diferenciales y simulación** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)); **métodos numéricos para EDP** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md)).
 - **Álgebra lineal** ([**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md)); **probabilidad y estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
-- **Inferencia bayesiana** ([**B19** · Inferencia bayesiana y computación probabilística](../../programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md)); **problemas inversos** ([**B22** · Problemas inversos y estimación de modelos](../../programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md)).
-- **Aprendizaje automático científico** ([**B17** · Aprendizaje automático científico](../../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md)).
-- **Computación de alto rendimiento** ([**B18** · Computación de alto rendimiento](../../programa/tronco-comun/B18-computacion-de-alto-rendimiento.md)).
-- **Verificación y validación** ([**B23** · Verificación y validación de software científico](../../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md)); **computación científica y ciencia abierta** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
+- **Inferencia bayesiana** ([**B19** · Inferencia bayesiana y computación probabilística](../programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md)); **problemas inversos** ([**B22** · Problemas inversos y estimación de modelos](../programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md)).
+- **Aprendizaje automático científico** ([**B17** · Aprendizaje automático científico](../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md)).
+- **Computación de alto rendimiento** ([**B18** · Computación de alto rendimiento](../programa/tronco-comun/B18-computacion-de-alto-rendimiento.md)).
+- **Verificación y validación** ([**B23** · Verificación y validación de software científico](../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md)); **computación científica y ciencia abierta** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
 ### Herramientas del oficio
 
@@ -139,9 +139,9 @@ Roles vecinos con los que se comparte formación: [Astrofísica estelar y galác
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
 2. Estudia **ecuaciones diferenciales** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)), **álgebra lineal** ([**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md)) y **estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
-3. Profundiza en **métodos numéricos para EDP** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md)) y **problemas inversos** ([**B22** · Problemas inversos y estimación de modelos](../../programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md)).
-4. Avanza a **inferencia bayesiana** ([**B19** · Inferencia bayesiana y computación probabilística](../../programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md)) y **aprendizaje automático científico** ([**B17** · Aprendizaje automático científico](../../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md)).
-5. Cierra con **cómputo de alto rendimiento** ([**B18** · Computación de alto rendimiento](../../programa/tronco-comun/B18-computacion-de-alto-rendimiento.md)) y **verificación y validación** ([**B23** · Verificación y validación de software científico](../../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md)).
+3. Profundiza en **métodos numéricos para EDP** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md)) y **problemas inversos** ([**B22** · Problemas inversos y estimación de modelos](../programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md)).
+4. Avanza a **inferencia bayesiana** ([**B19** · Inferencia bayesiana y computación probabilística](../programa/tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md)) y **aprendizaje automático científico** ([**B17** · Aprendizaje automático científico](../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md)).
+5. Cierra con **cómputo de alto rendimiento** ([**B18** · Computación de alto rendimiento](../programa/tronco-comun/B18-computacion-de-alto-rendimiento.md)) y **verificación y validación** ([**B23** · Verificación y validación de software científico](../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md)).
 
 <!-- pie:inicio -->
 ---

@@ -37,10 +37,10 @@ Dicho sin adornos: **el sistema de coordenadas y la calibración** son el error 
 ### Conocimiento técnico
 
 - **Astrogeología y geodesia planetaria:** forma, topografía, cartografía ([**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md)).
-- **Geofísica de interiores:** estructura, gravedad, térmica ([**B65** · Geofísica de interiores planetarios](../../programa/tronco-comun/B65-geofisica-de-interiores-planetarios.md)).
-- **Geomorfología y procesos superficiales** ([**B66** · Geomorfología y procesos superficiales planetarios](../../programa/tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md)); **cráteres de impacto** ([**B61** · Cráteres de impacto y geología de impactos](../../programa/tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md)); **vulcanismo planetario** ([**B70** · Vulcanismo planetario](../../programa/tronco-comun/B70-vulcanismo-planetario.md)).
+- **Geofísica de interiores:** estructura, gravedad, térmica ([**B65** · Geofísica de interiores planetarios](../programa/tronco-comun/B65-geofisica-de-interiores-planetarios.md)).
+- **Geomorfología y procesos superficiales** ([**B66** · Geomorfología y procesos superficiales planetarios](../programa/tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md)); **cráteres de impacto** ([**B61** · Cráteres de impacto y geología de impactos](../programa/tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md)); **vulcanismo planetario** ([**B70** · Vulcanismo planetario](../programa/tronco-comun/B70-vulcanismo-planetario.md)).
 - **Atmósferas, química y astrobiología:** contexto de los procesos ([**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md), [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md), [**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md)).
-- **Exploración in situ y muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../../programa/tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md)).
+- **Exploración in situ y muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../programa/tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md)).
 - **Datos, estadística y computación** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 
 ### Herramientas del oficio
@@ -159,8 +159,8 @@ Roles vecinos con los que se comparte formación: [Astroquímica y astrobiologí
 
 1. **Asienta la base** con el área A01 (física y química) y la matemática de tu diagnóstico.
 2. Estudia **astrogeología y geodesia planetaria** ([**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md)) y **atmósferas** ([**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md)).
-3. Profundiza en **geomorfología** ([**B66** · Geomorfología y procesos superficiales planetarios](../../programa/tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md)), **impactos** ([**B61** · Cráteres de impacto y geología de impactos](../../programa/tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md)) y **vulcanismo** ([**B70** · Vulcanismo planetario](../../programa/tronco-comun/B70-vulcanismo-planetario.md)).
-4. Aprende **geofísica de interiores** ([**B65** · Geofísica de interiores planetarios](../../programa/tronco-comun/B65-geofisica-de-interiores-planetarios.md)) y el análisis de **muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../../programa/tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md)).
+3. Profundiza en **geomorfología** ([**B66** · Geomorfología y procesos superficiales planetarios](../programa/tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md)), **impactos** ([**B61** · Cráteres de impacto y geología de impactos](../programa/tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md)) y **vulcanismo** ([**B70** · Vulcanismo planetario](../programa/tronco-comun/B70-vulcanismo-planetario.md)).
+4. Aprende **geofísica de interiores** ([**B65** · Geofísica de interiores planetarios](../programa/tronco-comun/B65-geofisica-de-interiores-planetarios.md)) y el análisis de **muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../programa/tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md)).
 5. Reúne tu **análisis con datos abiertos** y su historial.
 
 <!-- pie:inicio -->

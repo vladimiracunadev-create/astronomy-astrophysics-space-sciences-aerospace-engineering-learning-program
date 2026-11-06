@@ -14,8 +14,8 @@ Una tripulación es un sistema: personas, un vehículo, un control de misión en
 
 Tres miradas se reparten el oficio:
 
-- **Procedimientos y operaciones.** Nominales y de emergencia, actividades extravehiculares y trabajo con robots ([**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md), [**B108** · Actividades extravehiculares y trajes espaciales](../../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md), [**B110** · Emergencias y seguridad de tripulación](../../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)).
-- **Factores humanos.** Carga cognitiva, conciencia situacional, comunicación cerrada, error humano y liderazgo distribuido ([**B111** · Factores humanos y liderazgo de tripulación](../../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md)).
+- **Procedimientos y operaciones.** Nominales y de emergencia, actividades extravehiculares y trabajo con robots ([**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md), [**B108** · Actividades extravehiculares y trajes espaciales](../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md), [**B110** · Emergencias y seguridad de tripulación](../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)).
+- **Factores humanos.** Carga cognitiva, conciencia situacional, comunicación cerrada, error humano y liderazgo distribuido ([**B111** · Factores humanos y liderazgo de tripulación](../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md)).
 - **Evaluación y aprendizaje.** Criterios observables, *debriefing*, informes postincidente y lecciones aprendidas.
 
 ### 🚫 Qué NO es este rol (y con quién se confunde)
@@ -43,11 +43,11 @@ El incidente se registra para aprender, no para culpar. La habilidad es **observ
 ### Conocimiento técnico
 
 - **Sistemas de un vehículo tripulado:** presión, energía, ambiente, comunicaciones y configuración ([**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md), [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md), [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md)).
-- **Procedimientos y emergencias:** nominales y de emergencia; seguridad de la tripulación ([**B110** · Emergencias y seguridad de tripulación](../../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)).
-- **Actividades extravehiculares y trajes:** planificación, fatiga y comunicaciones ([**B108** · Actividades extravehiculares y trajes espaciales](../../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md)).
+- **Procedimientos y emergencias:** nominales y de emergencia; seguridad de la tripulación ([**B110** · Emergencias y seguridad de tripulación](../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)).
+- **Actividades extravehiculares y trajes:** planificación, fatiga y comunicaciones ([**B108** · Actividades extravehiculares y trajes espaciales](../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md)).
 - **Robótica compartida y operaciones:** trabajo con manipuladores y control de misión ([**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md), [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md)).
-- **Factores humanos:** carga cognitiva, conciencia situacional, liderazgo ([**B111** · Factores humanos y liderazgo de tripulación](../../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md)).
-- **Contexto médico:** efectos de la microgravedad y la radiación, solo para entenderlos ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md)).
+- **Factores humanos:** carga cognitiva, conciencia situacional, liderazgo ([**B111** · Factores humanos y liderazgo de tripulación](../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md)).
+- **Contexto médico:** efectos de la microgravedad y la radiación, solo para entenderlos ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md)).
 - **Estadística básica:** evaluar desempeño sin sobreinterpretar muestras pequeñas ([**B03** · Matemática elemental para ciencias espaciales](../programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md)).
 
 ### Herramientas del oficio
@@ -162,8 +162,8 @@ Roles vecinos con los que se comparte formación: [medicina y bioingeniería esp
 
 1. **Asienta la base** con [**B03** · Matemática elemental para ciencias espaciales](../programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md), [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md), [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) y [**B07** · Informática científica desde cero](../programa/tronco-comun/B07-informatica-cientifica-desde-cero.md).
 2. Conoce el oficio con [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) y lee con calma lo que aquí es contexto y lo que no puedes hacer sin habilitación.
-3. Estudia emergencias y actividad extravehicular con [**B110** · Emergencias y seguridad de tripulación](../../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) y [**B108** · Actividades extravehiculares y trajes espaciales](../../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md); escribe un escenario de emergencia simulado.
-4. Aprende factores humanos y liderazgo con [**B111** · Factores humanos y liderazgo de tripulación](../../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) y diseña criterios observables de desempeño.
+3. Estudia emergencias y actividad extravehicular con [**B110** · Emergencias y seguridad de tripulación](../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) y [**B108** · Actividades extravehiculares y trajes espaciales](../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md); escribe un escenario de emergencia simulado.
+4. Aprende factores humanos y liderazgo con [**B111** · Factores humanos y liderazgo de tripulación](../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) y diseña criterios observables de desempeño.
 5. Reúne tu **expediente simulado** y guarda su historia: primera versión, retroalimentación y cambios.
 
 <!-- pie:inicio -->

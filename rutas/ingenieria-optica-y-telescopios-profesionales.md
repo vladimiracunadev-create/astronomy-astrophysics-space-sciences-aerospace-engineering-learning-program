@@ -39,7 +39,7 @@ Dicho sin adornos: casi todo trabajo consiste en **convertir una tolerancia en u
 
 ### Conocimiento técnico
 
-- **Óptica geométrica y diseño de telescopios:** formación de imagen, aberraciones, configuraciones ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md), [**B50** · Diseño óptico computacional y tolerancias](../../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md)).
+- **Óptica geométrica y diseño de telescopios:** formación de imagen, aberraciones, configuraciones ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md), [**B50** · Diseño óptico computacional y tolerancias](../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md)).
 - **Óptica física y adaptativa:** difracción, frente de onda, corrección en tiempo real ([**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md)).
 - **Construcción y mecánica de telescopios:** monturas, pulido, colimación, pruebas ([**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md)).
 - **Detectores y adquisición:** sensores, calibración, ruido ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md)).
@@ -156,7 +156,7 @@ Roles vecinos con los que se comparte formación: [Radioastronomía e interferom
 1. **Asienta la base** con el área A01 y la matemática y la física de tu diagnóstico.
 2. Estudia **óptica geométrica y diseño de telescopios** ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md)) y **óptica física y adaptativa** ([**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md)).
 3. Aprende **construcción y mecánica de telescopios** ([**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md)) y **detectores** ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md)).
-4. Profundiza en **diseño óptico computacional y tolerancias** ([**B50** · Diseño óptico computacional y tolerancias](../../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md)).
+4. Profundiza en **diseño óptico computacional y tolerancias** ([**B50** · Diseño óptico computacional y tolerancias](../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md)).
 5. Reúne tu **expediente de diseño** y guarda su historial.
 
 <!-- pie:inicio -->

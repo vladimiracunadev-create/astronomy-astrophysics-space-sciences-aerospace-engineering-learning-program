@@ -39,8 +39,8 @@ Dicho sin adornos: **un buen diseño se reconoce porque se sabe dónde falla**.
 
 - **Mecánica orbital** ([**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md)); **perturbaciones** ([**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md)); **mecánica celeste y caos** ([**B73** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md)).
 - **Estimación de órbitas** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)).
-- **Trayectorias y misiones interplanetarias** ([**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)); **problema de Lambert** ([**B82** · Problema de Lambert y transferencias de dos puntos](../../programa/tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md)).
-- **Optimización de trayectorias y diseño robusto** ([**B81** · Optimización de trayectorias y diseño robusto](../../programa/tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md)).
+- **Trayectorias y misiones interplanetarias** ([**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)); **problema de Lambert** ([**B82** · Problema de Lambert y transferencias de dos puntos](../programa/tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md)).
+- **Optimización de trayectorias y diseño robusto** ([**B81** · Optimización de trayectorias y diseño robusto](../programa/tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md)).
 - **Dinámica cislunar** ([**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
@@ -149,8 +149,8 @@ Roles vecinos con los que se comparte formación: [Navegación guiado y autonom�
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
 2. Estudia **mecánica orbital** ([**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md)) y **perturbaciones** ([**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md)).
-3. Avanza a **trayectorias interplanetarias** ([**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)) y al **problema de Lambert** ([**B82** · Problema de Lambert y transferencias de dos puntos](../../programa/tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md)).
-4. Profundiza en **optimización y robustez** ([**B81** · Optimización de trayectorias y diseño robusto](../../programa/tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md)).
+3. Avanza a **trayectorias interplanetarias** ([**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)) y al **problema de Lambert** ([**B82** · Problema de Lambert y transferencias de dos puntos](../programa/tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md)).
+4. Profundiza en **optimización y robustez** ([**B81** · Optimización de trayectorias y diseño robusto](../programa/tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md)).
 5. Reúne tu **diseño documentado** con su historial.
 
 <!-- pie:inicio -->

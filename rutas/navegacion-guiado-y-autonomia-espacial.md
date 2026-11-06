@@ -37,9 +37,9 @@ Dicho sin adornos: **un filtro que reporta poca incertidumbre y se equivoca much
 
 ### Conocimiento técnico
 
-- **Estimación de órbitas y navegación** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)); **navegación inercial y fusión multisensorial** ([**B80** · Navegación inercial y fusión multisensorial](../../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)).
+- **Estimación de órbitas y navegación** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)); **navegación inercial y fusión multisensorial** ([**B80** · Navegación inercial y fusión multisensorial](../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)).
 - **Sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)); **sensores y control de actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
-- **Autonomía y teleoperación** ([**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)); **localización y mapeo** ([**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
+- **Autonomía y teleoperación** ([**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)); **localización y mapeo** ([**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
 - **Probabilidad y estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)); **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
@@ -152,8 +152,8 @@ Roles vecinos con los que se comparte formación: [Astrodinámica interplanetari
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
 2. Estudia **estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)), **sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)) y **estimación de órbitas** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)).
-3. Profundiza en **navegación inercial y fusión** ([**B80** · Navegación inercial y fusión multisensorial](../../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)) y **sensores y actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
-4. Avanza a **autonomía** ([**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)) y **localización y mapeo** ([**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
+3. Profundiza en **navegación inercial y fusión** ([**B80** · Navegación inercial y fusión multisensorial](../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)) y **sensores y actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
+4. Avanza a **autonomía** ([**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)) y **localización y mapeo** ([**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
 5. Reúne tu **estimador verificado** con su historial.
 
 <!-- pie:inicio -->

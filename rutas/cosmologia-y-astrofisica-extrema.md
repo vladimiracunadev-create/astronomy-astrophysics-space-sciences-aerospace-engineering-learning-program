@@ -37,9 +37,9 @@ Dicho sin adornos: **la estadística es el oficio**. Una curva bonita sin interv
 
 ### Conocimiento técnico
 
-- **Relatividad y cosmología:** expansión, geometría, componentes del universo ([**B26** · Relatividad y cosmología](../programa/tronco-comun/B26-relatividad-y-cosmologia.md), [**B39** · Relatividad general avanzada](../../programa/tronco-comun/B39-relatividad-general-avanzada.md)).
-- **Universo temprano y radiación de fondo:** física de la época primitiva y su huella ([**B40** · Universo temprano y radiación cósmica de fondo](../../programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md)).
-- **Estructuras y materia oscura:** formación de galaxias y cúmulos ([**B36** · Formación de estructuras cósmicas y materia oscura](../../programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md), [**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md)).
+- **Relatividad y cosmología:** expansión, geometría, componentes del universo ([**B26** · Relatividad y cosmología](../programa/tronco-comun/B26-relatividad-y-cosmologia.md), [**B39** · Relatividad general avanzada](../programa/tronco-comun/B39-relatividad-general-avanzada.md)).
+- **Universo temprano y radiación de fondo:** física de la época primitiva y su huella ([**B40** · Universo temprano y radiación cósmica de fondo](../programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md)).
+- **Estructuras y materia oscura:** formación de galaxias y cúmulos ([**B36** · Formación de estructuras cósmicas y materia oscura](../programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md), [**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md)).
 - **Objetos compactos y altas energías:** agujeros negros, estrellas de neutrones, estallidos ([**B27** · Objetos compactos y altas energías](../programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md)).
 - **Multimensajero:** neutrinos, ondas gravitacionales y luz ([**B28** · Astronomía multimensajero](../programa/tronco-comun/B28-astronomia-multimensajero.md)).
 - **Inferencia estadística y cómputo:** parámetros, covarianzas y análisis reproducible ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
@@ -155,7 +155,7 @@ Roles vecinos con los que se comparte formación: [Astrofísica estelar y galác
 1. **Asienta la base** con el área A01 y la matemática (cálculo y álgebra lineal) de tu diagnóstico.
 2. Estudia **relatividad y cosmología** ([**B26** · Relatividad y cosmología](../programa/tronco-comun/B26-relatividad-y-cosmologia.md)) y **objetos compactos** ([**B27** · Objetos compactos y altas energías](../programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md)).
 3. Aprende **inferencia y manejo de incertidumbre** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)) y análisis reproducible ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
-4. Profundiza en **universo temprano** ([**B40** · Universo temprano y radiación cósmica de fondo](../../programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md)) o en **estructuras y materia oscura** ([**B36** · Formación de estructuras cósmicas y materia oscura](../../programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md)).
+4. Profundiza en **universo temprano** ([**B40** · Universo temprano y radiación cósmica de fondo](../programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md)) o en **estructuras y materia oscura** ([**B36** · Formación de estructuras cósmicas y materia oscura](../programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md)).
 5. Reúne tu **inferencia reproducible** con su historial.
 
 <!-- pie:inicio -->

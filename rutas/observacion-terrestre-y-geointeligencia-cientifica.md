@@ -15,7 +15,7 @@ Los sensores se agrupan en dos familias que debes dominar: los **activos**, que 
 El rol se vive en tres miradas:
 
 - **Procesamiento y calidad.** Calibración, corrección atmosférica y geométrica, productos listos para análisis. Su pregunta: *¿puedo confiar en este dato?*
-- **Análisis y producto.** Índices, interferogramas, clasificaciones, modelos de elevación y detección de cambios ([**B69** · Radar de apertura sintética e interferometría (profundización)](../../programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md)). Su pregunta: *¿qué dice esto, con qué error?*
+- **Análisis y producto.** Índices, interferogramas, clasificaciones, modelos de elevación y detección de cambios ([**B69** · Radar de apertura sintética e interferometría (profundización)](../programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md)). Su pregunta: *¿qué dice esto, con qué error?*
 - **Servicio y datos.** Catálogos, formatos, versiones y reproducibilidad para que otros usen el producto. Su pregunta: *¿alguien más puede repetirlo y entenderlo?*
 
 ### 🚫 Qué NO es este rol (y con quién se confunde)
@@ -46,10 +46,10 @@ Una parte importante del día son tareas de datos: catálogos, formatos, version
 
 - **Resoluciones y sensores:** compromisos entre las cuatro resoluciones; sensores activos y pasivos ([**B57** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md)).
 - **Radiometría y calibración:** de cuentas digitales a magnitud física; corrección atmosférica; índices espectrales ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md), [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md)).
-- **Radar e interferometría:** radar de apertura sintética, coherencia y desplazamiento ([**B69** · Radar de apertura sintética e interferometría (profundización)](../../programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md)); altimetría y LiDAR.
+- **Radar e interferometría:** radar de apertura sintética, coherencia y desplazamiento ([**B69** · Radar de apertura sintética e interferometría (profundización)](../programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md)); altimetría y LiDAR.
 - **Estadística aplicada:** muestreo, incertidumbre, validación y falsos positivos ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
 - **Geometría y datos:** coordenadas, proyecciones, formatos, catálogos y servicios estándar ([**B04** · Álgebra, trigonometría y geometría espacial](../programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md), [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)).
-- **Aprendizaje automático:** clasificación supervisada, con validación fuera de la región de entrenamiento ([**B17** · Aprendizaje automático científico](../../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md)).
+- **Aprendizaje automático:** clasificación supervisada, con validación fuera de la región de entrenamiento ([**B17** · Aprendizaje automático científico](../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md)).
 - **Programación y entornos reproducibles** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
 ### Herramientas del oficio
@@ -170,8 +170,8 @@ Roles vecinos con los que se comparte formación: [ciencias planetarias y astrog
 1. **Asienta la base** con [**B09** · Cálculo diferencial e integral](../programa/tronco-comun/B09-calculo-diferencial-e-integral.md), [**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md), [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) y [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md).
 2. Aprende los sensores y las resoluciones con [**B57** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) y produce un índice espectral reproducible.
 3. Incorpora el análisis de incertidumbre con [**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) y [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md): matriz de error y puntos de control.
-4. Profundiza en radar con [**B69** · Radar de apertura sintética e interferometría (profundización)](../../programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) y evalúa la coherencia de un interferograma.
-5. Reúne tu **portafolio** de productos reproducibles; si te atrae el aprendizaje automático, suma [**B17** · Aprendizaje automático científico](../../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md).
+4. Profundiza en radar con [**B69** · Radar de apertura sintética e interferometría (profundización)](../programa/tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) y evalúa la coherencia de un interferograma.
+5. Reúne tu **portafolio** de productos reproducibles; si te atrae el aprendizaje automático, suma [**B17** · Aprendizaje automático científico](../programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md).
 
 <!-- pie:inicio -->
 ---

@@ -44,12 +44,12 @@ Dicho sin adornos: hay **mucha preparación invisible** —seguridad, accesibili
 ### Conocimiento técnico
 
 - **Astronomía para explicar:** el universo y el método científico ([**B01**](../programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md)), observación práctica del cielo con instrumentos de iniciación y uso seguro ([**B08** · Observación del cielo y astronomía práctica](../programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md)) y la base de física y matemática que sostiene lo que explicas.
-- **Historia y culturas del cielo:** calendarios antiguos, cosmovisiones andinas, astronomía de pueblos originarios de Chile, revolución copernicana, astronomía en Chile y patrimonio, en [**B02** · Historia, arqueoastronomía y culturas del cielo](../programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md); y su aplicación con método en [**B132** · Historia y arqueoastronomía aplicadas](../../programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md).
-- **Didáctica:** resultados de aprendizaje, concepciones alternativas, secuenciación, demostraciones, evaluación formativa, rúbricas y retroalimentación, en [**B131** · Didáctica de la astronomía](../../programa/tronco-comun/B131-didactica-de-la-astronomia.md).
-- **Accesibilidad e inclusión:** diseño universal de aprendizaje, observación accesible, lectores de pantalla, subtítulos, modelos táctiles, sonificación y auditoría de un recurso, en [**B128**](../../programa/tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md).
-- **Ciencia ciudadana:** redes de observadores, fotometría participativa, meteoros, control de calidad, consentimiento y privacidad, en [**B129**](../../programa/tronco-comun/B129-ciencia-ciudadana-astronomica.md).
-- **Comunicación:** infografías con fuentes, visualización de datos, comunicación oral y en redes, evaluación de la comprensión, en [**B130**](../../programa/tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md).
-- **Saberes e interculturalidad:** cielo y territorio, narrativas orales, colaboración con comunidades, riesgos de apropiación y diseño de una unidad intercultural, en [**B133**](../../programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md).
+- **Historia y culturas del cielo:** calendarios antiguos, cosmovisiones andinas, astronomía de pueblos originarios de Chile, revolución copernicana, astronomía en Chile y patrimonio, en [**B02** · Historia, arqueoastronomía y culturas del cielo](../programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md); y su aplicación con método en [**B132** · Historia y arqueoastronomía aplicadas](../programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md).
+- **Didáctica:** resultados de aprendizaje, concepciones alternativas, secuenciación, demostraciones, evaluación formativa, rúbricas y retroalimentación, en [**B131** · Didáctica de la astronomía](../programa/tronco-comun/B131-didactica-de-la-astronomia.md).
+- **Accesibilidad e inclusión:** diseño universal de aprendizaje, observación accesible, lectores de pantalla, subtítulos, modelos táctiles, sonificación y auditoría de un recurso, en [**B128**](../programa/tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md).
+- **Ciencia ciudadana:** redes de observadores, fotometría participativa, meteoros, control de calidad, consentimiento y privacidad, en [**B129**](../programa/tronco-comun/B129-ciencia-ciudadana-astronomica.md).
+- **Comunicación:** infografías con fuentes, visualización de datos, comunicación oral y en redes, evaluación de la comprensión, en [**B130**](../programa/tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md).
+- **Saberes e interculturalidad:** cielo y territorio, narrativas orales, colaboración con comunidades, riesgos de apropiación y diseño de una unidad intercultural, en [**B133**](../programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md).
 
 ### Herramientas del oficio
 
@@ -149,7 +149,7 @@ Este rol no tiene, en este programa, una certificación profesional única verif
 - 📘 **IAU Office of Astronomy for Education (OAE) — «About us»** — indica que la OAE apoya la educación primaria y secundaria con astronomía, que ayuda a docentes a llevar la astronomía a sus aulas y que ofrece recursos y redes de coordinadores nacionales. (https://astro4edu.org/about-us)
 - 📗 **Principios CARE para datos indígenas** — resumidos por la Universidad de Auckland: beneficio colectivo, autoridad para controlar, responsabilidad y ética, elaborados por la Global Indigenous Data Alliance. La página original de esa alianza no se pudo abrir; se usa el resumen universitario. (https://www.auckland.ac.nz/en/research/research-resources/research-data/research-data-policies-ethics-requirements/care-principles-indigenous-data.html)
 
-No se pudo verificar ninguna fuente específica sobre saberes astronómicos de pueblos originarios de Chile, por lo que esta guía **no afirma contenido** sobre ellos: se aprenden con las propias comunidades y con fuentes elaboradas con ellas, como enseña [**B133**](../../programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md). Los requisitos para ejercer la docencia dependen de cada país.
+No se pudo verificar ninguna fuente específica sobre saberes astronómicos de pueblos originarios de Chile, por lo que esta guía **no afirma contenido** sobre ellos: se aprenden con las propias comunidades y con fuentes elaboradas con ellas, como enseña [**B133**](../programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md). Los requisitos para ejercer la docencia dependen de cada país.
 
 ## 📈 Progresión del rol
 
@@ -171,9 +171,9 @@ Roles vecinos con los que se comparte formación: [derecho, políticas y negocio
 
 1. **Asienta la base** con [**B01** · El universo y el pensamiento científico](../programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md) y [**B08** · Observación del cielo y astronomía práctica](../programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md); observa de verdad antes de enseñar a observar.
 2. Recorre la **historia y las culturas del cielo** en [**B02** · Historia, arqueoastronomía y culturas del cielo](../programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md) y practica la crítica de una fuente.
-3. Aprende a **diseñar el aprendizaje** con [**B131** · Didáctica de la astronomía](../../programa/tronco-comun/B131-didactica-de-la-astronomia.md) y escribe un plan de clase con rúbrica.
-4. Hazlo **inclusivo y compartible** con [**B128**](../../programa/tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) y [**B130**](../../programa/tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md).
-5. Cierra con la **colaboración con comunidades** en [**B133**](../../programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md), con ciencia ciudadana ([**B129**](../../programa/tronco-comun/B129-ciencia-ciudadana-astronomica.md)), y reúne tu portafolio con su historia.
+3. Aprende a **diseñar el aprendizaje** con [**B131** · Didáctica de la astronomía](../programa/tronco-comun/B131-didactica-de-la-astronomia.md) y escribe un plan de clase con rúbrica.
+4. Hazlo **inclusivo y compartible** con [**B128**](../programa/tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) y [**B130**](../programa/tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md).
+5. Cierra con la **colaboración con comunidades** en [**B133**](../programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md), con ciencia ciudadana ([**B129**](../programa/tronco-comun/B129-ciencia-ciudadana-astronomica.md)), y reúne tu portafolio con su historia.
 
 <!-- pie:inicio -->
 ---

@@ -39,9 +39,9 @@ Dicho sin adornos: hay **más tiempo frente a un editor y a una gráfica que fre
 ### Conocimiento técnico
 
 - **Física estelar:** equilibrio, transporte de energía, fusión y evolución ([**B24** · Física y evolución de estrellas](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md)).
-- **Radiación y espectros:** formación de líneas, atmósferas, abundancias ([**B32** · Atmósferas estelares y espectroscopía estelar cuantitativa](../../programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md), [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md)).
-- **Interiores y oscilaciones:** modelos de estructura y asterosismología ([**B37** · Interiores estelares y asterosismología](../../programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md)).
-- **Galaxias y poblaciones:** estructura, medio interestelar, historia de formación estelar y simulación ([**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md), [**B38** · Poblaciones estelares y simulación de galaxias](../../programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md)).
+- **Radiación y espectros:** formación de líneas, atmósferas, abundancias ([**B32** · Atmósferas estelares y espectroscopía estelar cuantitativa](../programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md), [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md)).
+- **Interiores y oscilaciones:** modelos de estructura y asterosismología ([**B37** · Interiores estelares y asterosismología](../programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md)).
+- **Galaxias y poblaciones:** estructura, medio interestelar, historia de formación estelar y simulación ([**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md), [**B38** · Poblaciones estelares y simulación de galaxias](../programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md)).
 - **Estadística e incertidumbre:** inferencia, ajuste y propagación de errores ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)).
 - **Computación científica:** análisis reproducible y manejo de datos astronómicos ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
@@ -160,9 +160,9 @@ Roles vecinos con los que se comparte formación: [Cosmología y astrofísica ex
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la matemática y la programación que tu diagnóstico pida.
-2. Recorre la **física estelar** ([**B24** · Física y evolución de estrellas](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md)) y la **radiación y los espectros** ([**B32** · Atmósferas estelares y espectroscopía estelar cuantitativa](../../programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md)).
+2. Recorre la **física estelar** ([**B24** · Física y evolución de estrellas](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md)) y la **radiación y los espectros** ([**B32** · Atmósferas estelares y espectroscopía estelar cuantitativa](../programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md)).
 3. Aprende a **tratar datos con incertidumbre** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)) y a hacerlo de forma reproducible ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
-4. Elige una mirada (observación, modelado o simulación) y profundiza: [**B37** · Interiores estelares y asterosismología](../../programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md) o [**B38** · Poblaciones estelares y simulación de galaxias](../../programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md).
+4. Elige una mirada (observación, modelado o simulación) y profundiza: [**B37** · Interiores estelares y asterosismología](../programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md) o [**B38** · Poblaciones estelares y simulación de galaxias](../programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md).
 5. Reúne tu **análisis reproducible** y guarda su historia.
 
 <!-- pie:inicio -->
