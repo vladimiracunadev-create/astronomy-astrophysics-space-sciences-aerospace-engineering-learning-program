@@ -3,7 +3,7 @@
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Nivel:** N2 (fundamentos aplicados) · **Clases:** 20 de la línea base + 6 programadas (C21–C26) · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; el resto son resúmenes de especificación. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 26 clases (20 de la línea base y 6 de la ampliación `0.2.0`) están redactadas y enlazadas en la tabla, pendientes de revisión disciplinar. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
 > **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 6 clases programadas (`B11-C21` a `B11-C26`). Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
@@ -38,7 +38,7 @@ flowchart LR
 
 ## 🗂️ Las clases en resumen
 
-**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga en E0 o programada, su enlace lleva a su fila en esta tabla.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; la fila de cada clase lleva a su `CLASE.md`.
 
 Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje.
 
@@ -87,7 +87,7 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b11-c19"></a>[B11-C19](../clases/B11/B11-C19-estimacion-de-error-y-convergencia/CLASE.md) | Estimación de error y convergencia | Orden observado, Richardson, error de truncamiento frente a redondeo, presupuesto de error. | Estudio de convergencia con presupuesto de error |
 | <a id="b11-c20"></a>[B11-C20](../clases/B11/B11-C20-propagador-reproducible-de-trayectoria/CLASE.md) | Propagador reproducible de trayectoria | Configuración declarada, versiones, huella de resultados, pruebas contra Kepler. | Propagador con pruebas y huella reproducible |
 
-### Tramo 6 · Ampliación programada (sin redactar al publicar esta guía)
+### Tramo 6 · Ampliación (clases programadas ya redactadas)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
