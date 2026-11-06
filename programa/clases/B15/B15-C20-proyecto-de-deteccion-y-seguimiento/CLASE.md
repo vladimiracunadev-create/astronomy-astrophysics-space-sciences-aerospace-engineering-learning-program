@@ -1,6 +1,7 @@
 # B15-C20 — Proyecto de detección y seguimiento
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C19 — Reconstrucción por datos incompletos](../B15-C19-reconstruccion-por-datos-incompletos/CLASE.md) · [Siguiente: B15-C21 — Series temporales multivariadas y regresión dinámica →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c21)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,4 +310,7 @@ Una cadena de detección y seguimiento se diseña con requisitos medibles, se ve
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C19 — Reconstrucción por datos incompletos](../B15-C19-reconstruccion-por-datos-incompletos/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C21 — Series temporales multivariadas y regresión dinámica →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c21)
 <!-- /nav -->

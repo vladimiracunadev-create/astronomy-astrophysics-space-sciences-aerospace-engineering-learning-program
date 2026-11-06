@@ -1,6 +1,7 @@
 # B15-C19 — Reconstrucción por datos incompletos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C18 — Filtros de partículas iniciales](../B15-C18-filtros-de-particulas-iniciales/CLASE.md) · [Siguiente: B15-C20 — Proyecto de detección y seguimiento →](../B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -317,4 +318,7 @@ Reconstruir exige saber algo de la señal: suavidad (interpolación), un modelo 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C18 — Filtros de partículas iniciales](../B15-C18-filtros-de-particulas-iniciales/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C20 — Proyecto de detección y seguimiento →](../B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md)
 <!-- /nav -->

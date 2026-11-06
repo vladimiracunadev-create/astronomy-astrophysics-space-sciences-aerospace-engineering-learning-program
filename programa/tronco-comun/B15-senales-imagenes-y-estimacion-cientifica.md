@@ -78,13 +78,13 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b15-c16"></a>[B15-C16](../clases/B15/B15-C16-ajuste-de-curvas/CLASE.md) | Ajuste de curvas | Mínimos cuadrados lineales y no lineales, residuos, χ² e incertidumbre de los parámetros. | Ajuste con residuos y parámetros con error |
 | <a id="b15-c17"></a>[B15-C17](../clases/B15/B15-C17-filtros-de-kalman-introductorios/CLASE.md) | Filtros de Kalman introductorios | Modelo de estado, predicción y actualización; seguimiento de un objeto en una dimensión. | Seguimiento filtrado frente a verdad conocida |
 | <a id="b15-c18"></a>[B15-C18](../clases/B15/B15-C18-filtros-de-particulas-iniciales/CLASE.md) | Filtros de partículas iniciales | Representar la incertidumbre con muestras ponderadas; remuestreo y casos no lineales. | Seguimiento por partículas comparado con Kalman |
-| <a id="b15-c19"></a>B15-C19 | Reconstrucción por datos incompletos | Interpolar, regularizar y reconstruir con huecos; cuantificar el error de la reconstrucción. | Reconstrucción con error medido |
+| <a id="b15-c19"></a>[B15-C19](../clases/B15/B15-C19-reconstruccion-por-datos-incompletos/CLASE.md) | Reconstrucción por datos incompletos | Interpolar, regularizar y reconstruir con huecos; cuantificar el error de la reconstrucción. | Reconstrucción con error medido |
 
 ### Tramo 5 · Integración
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b15-c20"></a>B15-C20 | Proyecto de detección y seguimiento | Integrar calibración, detección, alineación y seguimiento en un caso sintético con verdad conocida. | Proyecto con datos sintéticos, código verificado e informe |
+| <a id="b15-c20"></a>[B15-C20](../clases/B15/B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md) | Proyecto de detección y seguimiento | Integrar calibración, detección, alineación y seguimiento en un caso sintético con verdad conocida. | Proyecto con datos sintéticos, código verificado e informe |
 
 ## 🧵 Hilos que atraviesan el bloque
 

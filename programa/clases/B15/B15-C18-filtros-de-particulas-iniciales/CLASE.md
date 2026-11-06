@@ -1,7 +1,7 @@
 # B15-C18 — Filtros de partículas iniciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C17 — Filtros de Kalman introductorios](../B15-C17-filtros-de-kalman-introductorios/CLASE.md) · [Siguiente: B15-C19 — Reconstrucción por datos incompletos →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C17 — Filtros de Kalman introductorios](../B15-C17-filtros-de-kalman-introductorios/CLASE.md) · [Siguiente: B15-C19 — Reconstrucción por datos incompletos →](../B15-C19-reconstruccion-por-datos-incompletos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,5 +322,5 @@ El filtro de partículas representa la incertidumbre con muestras ponderadas: pr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B15-C17 — Filtros de Kalman introductorios](../B15-C17-filtros-de-kalman-introductorios/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C19 — Reconstrucción por datos incompletos →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c19)
+[← Anterior: B15-C17 — Filtros de Kalman introductorios](../B15-C17-filtros-de-kalman-introductorios/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C19 — Reconstrucción por datos incompletos →](../B15-C19-reconstruccion-por-datos-incompletos/CLASE.md)
 <!-- /nav -->
