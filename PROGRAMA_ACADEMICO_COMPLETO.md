@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 384 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 397 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -319,12 +319,12 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B12-C18 — Matrices de covarianza.** Introduce el contexto y los principios de «matrices de covarianza» para comprender su uso científico.
 - **B12-C19 — Detección de valores atípicos.** Describe «detección de valores atípicos», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B12-C20 — Informe de incertidumbre de una misión.** Presenta qué significa «informe de incertidumbre de una misión», sus elementos esenciales y su función dentro de probabilidad, estadística e incertidumbre.
-- **B12-C21 — Modelos jerárquicos bayesianos.** *Programada.* B12-C12 cubre inferencia bayesiana simple; ninguna clase trata modelos jerárquicos con hiperparámetros.
-- **B12-C22 — Comparación de modelos: evidencia bayesiana y criterios de información.** *Programada.* B12-C09 trata pruebas de hipótesis; falta comparar modelos con evidencia bayesiana, AIC y BIC.
-- **B12-C23 — Diagnóstico de convergencia y reproducibilidad de cadenas MCMC.** *Programada.* B12-C13 presenta MCMC; falta diagnosticar convergencia y garantizar semillas, versiones y registros reproducibles.
-- **B12-C24 — Métricas de habilidad (skill scores) de pronóstico.** *Programada.* Brier, TSS y HSS frente a un pronóstico de referencia; B12 trata estadística general sin evaluación de pronósticos.
-- **B12-C25 — Modelos longitudinales y de efectos mixtos para muestras pequeñas.** *Programada.* B12 trata regresión; falta el análisis longitudinal con medidas repetidas.
-- **B12-C26 — Sesgos y potencia estadística en poblaciones pequeñas.** *Programada.* B12 trata inferencia; falta lo de poblaciones pequeñas.
+- **B12-C21 — Modelos jerárquicos bayesianos.** *Texto redactado, pendiente de revisión.* B12-C12 cubre inferencia bayesiana simple; ninguna clase trata modelos jerárquicos con hiperparámetros.
+- **B12-C22 — Comparación de modelos: evidencia bayesiana y criterios de información.** *Texto redactado, pendiente de revisión.* B12-C09 trata pruebas de hipótesis; falta comparar modelos con evidencia bayesiana, AIC y BIC.
+- **B12-C23 — Diagnóstico de convergencia y reproducibilidad de cadenas MCMC.** *Texto redactado, pendiente de revisión.* B12-C13 presenta MCMC; falta diagnosticar convergencia y garantizar semillas, versiones y registros reproducibles.
+- **B12-C24 — Métricas de habilidad (skill scores) de pronóstico.** *Texto redactado, pendiente de revisión.* Brier, TSS y HSS frente a un pronóstico de referencia; B12 trata estadística general sin evaluación de pronósticos.
+- **B12-C25 — Modelos longitudinales y de efectos mixtos para muestras pequeñas.** *Texto redactado, pendiente de revisión.* B12 trata regresión; falta el análisis longitudinal con medidas repetidas.
+- **B12-C26 — Sesgos y potencia estadística en poblaciones pequeñas.** *Texto redactado, pendiente de revisión.* B12 trata inferencia; falta lo de poblaciones pequeñas.
 
 ### B13 — Metrología, tiempo y mediciones científicas
 
@@ -382,13 +382,13 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 - **B14-C22 — Acceso a datos heliofísicos abiertos con SunPy.** *Texto redactado, pendiente de revisión.* B14-C05 y C18 tratan catálogos y flujos en general; falta el acceso práctico a archivos heliofísicos (VSO, JSOC, CDAWeb).
 - **B14-C23 — Protocolo preregistrado de análisis.** *Texto redactado, pendiente de revisión.* Redactar hipótesis, métodos y criterios antes de ver los datos; B124-C14 trata ciencia abierta en general.
 - **B14-C24 — Documentación de hipótesis y decisiones de análisis.** *Texto redactado, pendiente de revisión.* Registro de hipótesis, desviaciones y decisiones; ausente en B14.
-- **B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC).** *Programada.* Encontrar y reutilizar escenas satelitales exige catálogos con metadatos estándar; B14-C05 trata tablas astronómicas, no catálogos de observación terrestre.
-- **B14-C26 — Formatos de datos ráster geoespaciales: GeoTIFF y COG.** *Programada.* B14-C06 trata el formato FITS astronómico; los datos de observación terrestre usan formatos ráster geoespaciales distintos.
-- **B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes.** *Programada.* Las coberturas globales no caben en memoria y se procesan por teselas; B14-C13 a C16 tratan paralelismo, no esta técnica.
-- **B14-C28 — Bases de datos espaciales.** *Programada.* Consultar datos geográficos exige bases espaciales; B14-C07 trata almacenamiento científico, no consultas espaciales.
-- **B14-C29 — Servicios de datos geoespaciales estándar (OGC).** *Programada.* Publicar datos para otros sistemas requiere servicios estándar; ninguna clase los trata.
-- **B14-C30 — Cadenas de procesamiento automatizado de datos.** *Programada.* Producir datos de forma continua exige cadenas automáticas con control de calidad; B14 trata flujos pero no su automatización operativa.
-- **B14-C31 — APIs de servicios de datos.** *Programada.* Entregar datos a otros sistemas se hace con interfaces programables; ninguna clase las trata.
+- **B14-C25 — Catálogos de datos geoespaciales y metadatos (STAC).** *Texto redactado, pendiente de revisión.* Encontrar y reutilizar escenas satelitales exige catálogos con metadatos estándar; B14-C05 trata tablas astronómicas, no catálogos de observación terrestre.
+- **B14-C26 — Formatos de datos ráster geoespaciales: GeoTIFF y COG.** *Texto redactado, pendiente de revisión.* B14-C06 trata el formato FITS astronómico; los datos de observación terrestre usan formatos ráster geoespaciales distintos.
+- **B14-C27 — Procesamiento por teselas de grandes volúmenes de imágenes.** *Texto redactado, pendiente de revisión.* Las coberturas globales no caben en memoria y se procesan por teselas; B14-C13 a C16 tratan paralelismo, no esta técnica.
+- **B14-C28 — Bases de datos espaciales.** *Texto redactado, pendiente de revisión.* Consultar datos geográficos exige bases espaciales; B14-C07 trata almacenamiento científico, no consultas espaciales.
+- **B14-C29 — Servicios de datos geoespaciales estándar (OGC).** *Texto redactado, pendiente de revisión.* Publicar datos para otros sistemas requiere servicios estándar; ninguna clase los trata.
+- **B14-C30 — Cadenas de procesamiento automatizado de datos.** *Texto redactado, pendiente de revisión.* Producir datos de forma continua exige cadenas automáticas con control de calidad; B14 trata flujos pero no su automatización operativa.
+- **B14-C31 — APIs de servicios de datos.** *Texto redactado, pendiente de revisión.* Entregar datos a otros sistemas se hace con interfaces programables; ninguna clase las trata.
 
 ### B15 — Señales, imágenes y estimación científica
 
