@@ -1,7 +1,7 @@
 # B20-C04 — Redacción de un artículo científico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [← Anterior: B20-C03 — Revisión por pares y respuesta a árbitros](../B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md) · [Siguiente: B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación →](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md#b21-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [← Anterior: B20-C03 — Revisión por pares y respuesta a árbitros](../B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md) · [Siguiente: B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación →](../../B21/B21-C01-volumenes-finitos-y-solucionadores-de-riemann-para-leyes-de-conservacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -348,5 +348,5 @@ Un artículo organiza la evidencia en afirmaciones apoyadas y acotadas: introduc
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B20-C03 — Revisión por pares y respuesta a árbitros](../B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [Siguiente: B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación →](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md#b21-c01)
+[← Anterior: B20-C03 — Revisión por pares y respuesta a árbitros](../B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md) · [📚 Bloque B20](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md) · [Siguiente: B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación →](../../B21/B21-C01-volumenes-finitos-y-solucionadores-de-riemann-para-leyes-de-conservacion/CLASE.md)
 <!-- /nav -->

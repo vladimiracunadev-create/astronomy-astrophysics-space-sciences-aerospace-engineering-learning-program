@@ -76,8 +76,8 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 |---|---|---|---|
 | <a id="b15-c15"></a>[B15-C15](../clases/B15/B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md) | Estimación de parámetros — Señales, imágenes y estimación científica | Estimadores, sesgo y varianza, máxima verosimilitud y cota de Cramér–Rao aplicadas a señales. | Estimador comparado con su cota |
 | <a id="b15-c16"></a>[B15-C16](../clases/B15/B15-C16-ajuste-de-curvas/CLASE.md) | Ajuste de curvas | Mínimos cuadrados lineales y no lineales, residuos, χ² e incertidumbre de los parámetros. | Ajuste con residuos y parámetros con error |
-| <a id="b15-c17"></a>B15-C17 | Filtros de Kalman introductorios | Modelo de estado, predicción y actualización; seguimiento de un objeto en una dimensión. | Seguimiento filtrado frente a verdad conocida |
-| <a id="b15-c18"></a>B15-C18 | Filtros de partículas iniciales | Representar la incertidumbre con muestras ponderadas; remuestreo y casos no lineales. | Seguimiento por partículas comparado con Kalman |
+| <a id="b15-c17"></a>[B15-C17](../clases/B15/B15-C17-filtros-de-kalman-introductorios/CLASE.md) | Filtros de Kalman introductorios | Modelo de estado, predicción y actualización; seguimiento de un objeto en una dimensión. | Seguimiento filtrado frente a verdad conocida |
+| <a id="b15-c18"></a>[B15-C18](../clases/B15/B15-C18-filtros-de-particulas-iniciales/CLASE.md) | Filtros de partículas iniciales | Representar la incertidumbre con muestras ponderadas; remuestreo y casos no lineales. | Seguimiento por partículas comparado con Kalman |
 | <a id="b15-c19"></a>B15-C19 | Reconstrucción por datos incompletos | Interpolar, regularizar y reconstruir con huecos; cuantificar el error de la reconstrucción. | Reconstrucción con error medido |
 
 ### Tramo 5 · Integración
