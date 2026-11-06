@@ -1,7 +1,7 @@
 # B16-C04 — Respuesta transitoria y estacionaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C03 — Sistemas lineales invariantes](../B16-C03-sistemas-lineales-invariantes/CLASE.md) · [Siguiente: B16-C05 — Funciones de transferencia →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C03 — Sistemas lineales invariantes](../B16-C03-sistemas-lineales-invariantes/CLASE.md) · [Siguiente: B16-C05 — Funciones de transferencia →](../B16-C05-funciones-de-transferencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ La respuesta de un lazo se resume en `tr`, `tp`, `Mp`, `ts` y `e_ss`. En segundo
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B16-C03 — Sistemas lineales invariantes](../B16-C03-sistemas-lineales-invariantes/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C05 — Funciones de transferencia →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c05)
+[← Anterior: B16-C03 — Sistemas lineales invariantes](../B16-C03-sistemas-lineales-invariantes/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C05 — Funciones de transferencia →](../B16-C05-funciones-de-transferencia/CLASE.md)
 <!-- /nav -->
