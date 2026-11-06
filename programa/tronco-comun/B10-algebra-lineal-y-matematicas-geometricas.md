@@ -47,15 +47,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b10-c02"></a>[B10-C02](../clases/B10/B10-C02-bases-y-dimension/CLASE.md) | Bases y dimensión | Independencia, bases, coordenadas, rango y nulidad; la base orbital de una órbita inclinada. | Cuaderno de bases |
 | <a id="b10-c03"></a>[B10-C03](../clases/B10/B10-C03-matrices-y-operadores-lineales/CLASE.md) | Matrices y operadores lineales | Matriz como operador, producto como composición, no conmutatividad; estación terrestre que gira. | Hoja de operadores |
 | <a id="b10-c04"></a>[B10-C04](../clases/B10/B10-C04-determinantes-y-soluciones/CLASE.md) | Determinantes y soluciones | Determinante como área o volumen, invertibilidad, regla de Cramer; triangulación con dos estaciones. | Informe de geometría de visuales |
-| <a id="b10-c05"></a>B10-C05 | Sistemas lineales y eliminación | Eliminación gaussiana con pivoteo, sustitución, condición; trilateración plana. | Bitácora de eliminación con verificación |
+| <a id="b10-c05"></a>[B10-C05](../clases/B10/B10-C05-sistemas-lineales-y-eliminacion/CLASE.md) | Sistemas lineales y eliminación | Eliminación gaussiana con pivoteo, sustitución, condición; trilateración plana. | Bitácora de eliminación con verificación |
 
 ### Tramo 2 · Geometría de los datos y descomposiciones
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b10-c06"></a>B10-C06 | Producto interno y ortogonalidad | Norma, ángulo, Cauchy–Schwarz, Gram–Schmidt; ángulo de incidencia solar sobre un panel. | Ficha de ángulos y bases ortonormales |
-| <a id="b10-c07"></a>B10-C07 | Proyecciones y mínimos cuadrados | Proyección ortogonal, ecuaciones normales, residuos; ajuste de una trayectoria con ruido sintético. | Informe de ajuste con residuos |
-| <a id="b10-c08"></a>B10-C08 | Autovalores y autovectores | Ecuación característica, traza y determinante; ejes principales de inercia de un satélite. | Ficha de ejes principales |
+| <a id="b10-c06"></a>[B10-C06](../clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md) | Producto interno y ortogonalidad | Norma, ángulo, Cauchy–Schwarz, Gram–Schmidt; ángulo de incidencia solar sobre un panel. | Ficha de ángulos y bases ortonormales |
+| <a id="b10-c07"></a>[B10-C07](../clases/B10/B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md) | Proyecciones y mínimos cuadrados | Proyección ortogonal, ecuaciones normales, residuos; ajuste de una trayectoria con ruido sintético. | Informe de ajuste con residuos |
+| <a id="b10-c08"></a>[B10-C08](../clases/B10/B10-C08-autovalores-y-autovectores/CLASE.md) | Autovalores y autovectores | Ecuación característica, traza y determinante; ejes principales de inercia de un satélite. | Ficha de ejes principales |
 | <a id="b10-c09"></a>B10-C09 | Diagonalización y estabilidad | Diagonalizar, potencias y exponencial de matrices; estabilidad de sistemas lineales. | Informe de estabilidad |
 | <a id="b10-c10"></a>B10-C10 | Descomposiciones matriciales | LU, QR y Cholesky; cuándo conviene cada una y cómo se verifican. | Cuaderno de factorizaciones |
 | <a id="b10-c11"></a>B10-C11 | Valores singulares y SVD | SVD, rango efectivo, número de condición y aproximación de bajo rango. | Informe SVD con rango efectivo |

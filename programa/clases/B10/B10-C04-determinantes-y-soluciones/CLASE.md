@@ -1,7 +1,7 @@
 # B10-C04 — Determinantes y soluciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C03 — Matrices y operadores lineales](../B10-C03-matrices-y-operadores-lineales/CLASE.md) · [Siguiente: B10-C05 — Sistemas lineales y eliminación →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [← Anterior: B10-C03 — Matrices y operadores lineales](../B10-C03-matrices-y-operadores-lineales/CLASE.md) · [Siguiente: B10-C05 — Sistemas lineales y eliminación →](../B10-C05-sistemas-lineales-y-eliminacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ El determinante mide cuánto escala un operador el área o el volumen; cero sign
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B10-C03 — Matrices y operadores lineales](../B10-C03-matrices-y-operadores-lineales/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C05 — Sistemas lineales y eliminación →](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md#b10-c05)
+[← Anterior: B10-C03 — Matrices y operadores lineales](../B10-C03-matrices-y-operadores-lineales/CLASE.md) · [📚 Bloque B10](../../../tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) · [Siguiente: B10-C05 — Sistemas lineales y eliminación →](../B10-C05-sistemas-lineales-y-eliminacion/CLASE.md)
 <!-- /nav -->
