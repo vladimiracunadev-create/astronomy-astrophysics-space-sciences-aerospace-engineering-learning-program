@@ -40,17 +40,6 @@
 
 Es una arquitectura curricular única y extensible: **un solo conjunto de clases organizado en áreas y bloques**. Las rutas profesionales no tienen contenido propio: son recorridos que ordenan clases de esas áreas y bloques. No son 24 programas separados.
 
-| Superficie | Estado verificable |
-|---|---:|
-| Áreas | 12 |
-| Bloques | 133 (64 de la línea base y 69 nuevos programados) |
-| Clases de la línea base en el tronco | 1.280 |
-| Clases programadas (citadas, ubicadas y justificadas) | 797, de las cuales 77 (todas de A02) ya tienen texto y 720 siguen **sin redactar** |
-| **Clases del programa** | **2.077** |
-| Rutas profesionales (recorridos sobre áreas y bloques) | 24 |
-| Clases con texto redactado, pendientes de revisión (A01 y A02) | 397 (160 de A01 y 237 de A02) |
-| **Clases completamente redactadas y verificadas** | **0** |
-
 ## 🧮 Cómo se organiza y cuánto suma
 
 El tronco de la línea base `0.1.0` tenía 8 áreas, 64 bloques y 1.280 clases; las rutas profesionales sumaban otras 3.840 clases en 192 módulos, para una referencia inicial de 5.120. Esa cifra fue un punto de partida, no una meta. En esta versión **todo el contenido de los módulos de las rutas se ubicó dentro de áreas y bloques**: de sus 1.920 temas, 1.101 ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). El resultado son **12 áreas, 133 bloques y 2.077 clases**.
