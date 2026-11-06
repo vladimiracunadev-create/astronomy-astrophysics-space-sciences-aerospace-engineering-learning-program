@@ -839,9 +839,21 @@ b0d2e5df8d74c9b13ce098a1e315be556cdc993706d766ff02617c9b3fb93a69  programa/clase
 d33029376c814e5fa2be1a10f85e99f0c9e9b35baffee8da82361535ae0658ee  programa/clases/B14/B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md
 7a001120b1ecfa50493e6c815f7386fffcaeb0c36baf1c50873c931a23e48fc1  programa/clases/B14/B14-C07-hdf5-y-almacenamiento-cientifico/FICHA_EDITORIAL.md
 846747c8104fc15b64d60148fc88ef6cb16effe777e509004e78f440b484604d  programa/clases/B14/B14-C07-hdf5-y-almacenamiento-cientifico/hdf5_curva_de_luz.py
-e726c89287ed07739b079316a4a9e0e8fe606eff99a10a7cfc687bab1382d466  programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/CLASE.md
+c787d34607553731ba03ba37fad1dc66989c1a6f40664a3b0f962b3bd5b69b7f  programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/CLASE.md
 1334349570929136524162171f5675235ac20ef01a01316419ea3494862549e0  programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/FICHA_EDITORIAL.md
 e0108bcc447c9e9a2a2e4dbb8d33af9df5c54835b107d807c2c86c8fe3ed7fd2  programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/limpieza_de_bitacora.py
+c541489bf38ac1549acecdf075a1cabca318ce7bb54eb1831f2b28b9826d53dc  programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md
+35f1d1b8e51c8c31c371e96d8a5932f9064091dcb36c6b1e5973f90b42e11537  programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/FICHA_EDITORIAL.md
+8ec824f430e12bc81f08d3209c3a1bd6b792370cb7ab625ad9511b5eabb166cb  programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/cuaderno_reproducible.py
+72de13162c9423c70e011e134dc1a541d0388c7f98deb4d9bbaf1e7b17272c03  programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/CLASE.md
+ceec26a32f82f6da5af70a4a62129e41f985764b00a9b514b63105d5d63a7ca7  programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/FICHA_EDITORIAL.md
+ac25d0c5a20608775fdf0a2194a1903ec5f8b32664680311d0e8b397f737ef51  programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/regresion_orbital.py
+bdbf7b031786f4d31929c9927b1fbc78e5e6793611e55391af30cbe7f6b4449f  programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md
+5fcc52d8f3f19777550c779926202a68465e60829a104bd6bd17d7e2b8afad8f  programa/clases/B14/B14-C11-control-de-versiones-de-datos/FICHA_EDITORIAL.md
+c4afea8557f9d56dc2f1ad8b835205deb51bacf318ba70605b7dacf0456d9c67  programa/clases/B14/B14-C11-control-de-versiones-de-datos/versiones_de_datos.py
+5f8af44a9a0619b590988a67531fc7a5c3bb1f3b078c0cf22ff46dd4905895ca  programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md
+17ee27fa1711eba6dc491a801facd96fd577759f14fd59ffc9b6c284f8d8aade  programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/FICHA_EDITORIAL.md
+139d8ac907dfb3110d17ef1436c441476fc594828f58ae6374e00fd3fed20d1d  programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/entorno_reproducible.py
 ff737bb439367df61e1ef9e9e5cf27c29f396e5a6abea7c95bb587c15184c269  programa/clases/B15/B15-C01-series-temporales-discretas/CLASE.md
 812d499a9d7a308fd2fada4793bf418198d49825eae778ccd7b7a156d9207e83  programa/clases/B15/B15-C01-series-temporales-discretas/FICHA_EDITORIAL.md
 0b9c8ae86b7df12fb6dabdbfdb611e2d3d06c326dcc77c85c0357ac37bb2ea11  programa/clases/B15/B15-C01-series-temporales-discretas/serie_discreta.py
@@ -1055,7 +1067,7 @@ bc4cdf886fa259df24d526c61c70914d50427ce22d48c60d34021ff5e77116c2  programa/rutas
 378a1b584be151b42a77a26fc1b652a083f6ddf155cf8d1b1676df0d142897a3  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M05-sistema-de-comunicaciones-satelitales.md
 a65e59fc75030817d81feaeef83c0e3f7bed628b2696ee0fd7f45022d5af1867  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M07-ingenieria-de-interfaces-y-configuracion.md
 0bcd4a1f9c8285d4182867ce10e39a7d681ad3ffb9a008d13d1e894ad7af29a5  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/R12-M08-integracion-y-calificacion-de-cubesat.md
-49ecd3a5cd570097c2dfc61f0f043202c366ee146954e3b28ed3dc536ea9be04  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/RECORRIDO.md
+4e12ecf50f105408cd516b484f7c45d360f3e6e5ca3c381d87af3f48686367ee  programa/rutas-profesionales/R12-ingenieria-y-construccion-de-satelites-y-cubesats/RECORRIDO.md
 ca6d46208a619941247f7bc3de6e6de516b6d64dff24d9becf5b67ac5911f3d4  programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/INDICE.md
 c1e0190f4bbe14f8922b0b2ef0cdc9584316c23c332b6bca0011551277669839  programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M01-electronica-embarcada-avanzada.md
 073c25de09b5c0f4107556136097ac8553f36a1b417877d71a16ebfbb0943be9  programa/rutas-profesionales/R13-avionica-y-software-espacial-de-alta-fiabilidad/R13-M02-arquitectura-de-computadores-de-vuelo.md
@@ -1075,7 +1087,7 @@ c2100764f3f04521b633ef3b6a5e640f1bffcf78405bda6fe1d8233684daa2b3  programa/rutas
 48639fa5fb12ab1b7d491d93b3f6974d362a702c8f6454bd8170d7e4422afc5c  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M06-control-termico-de-vehiculos.md
 aa808aa96bbd68acf281dfab28db475c35b9b80775af0c7abaefced7a8ba12ad  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M07-proteccion-contra-ambientes-espaciales.md
 263340ddc36f3a358c99ff379a28edbc30c6867ec951a7b937309fc0ef4a1784  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/R14-M08-calificacion-estructural-y-termica.md
-37ef2f143001517a20db5e44636e2d6264eb259d3d571a751dd8394ffdabb49b  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/RECORRIDO.md
+58d607f01492e846ec7ff1767ca181ded8fddfcbe4dd3167ec2e71638c7ee514  programa/rutas-profesionales/R14-materiales-estructuras-e-ingenieria-termica-espacial/RECORRIDO.md
 e7c8c95ce1b929d423be27daf02fc142d6c6ce3430b64cbba09b2c01c5f1e91c  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/GUIA_DEL_ROL.md
 b08261b3a57e63e91fc56efaa20962de7cad10129aa56e1ed0397bfafc82987d  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/INDICE.md
 7a680e2f1ac0529cadd5a9d97063f69cbd1b7140f462d701cdd829bbbc2c9408  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M01-antenas-espaciales-avanzadas.md
@@ -1084,7 +1096,7 @@ b08261b3a57e63e91fc56efaa20962de7cad10129aa56e1ed0397bfafc82987d  programa/rutas
 ca5f2a3cfc19f76f73ab8506366617f96c7f385f66021b7d47529f12bc82673b  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M05-enlaces-de-radiofrecuencia-profundos.md
 e512340b4c3e5cf90f2e07053a927df8ddea4999091bf7ba07ee4e8b9d2f6e16  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M06-enlaces-opticos-espaciales.md
 51260710eb16b04010a78e73b5fe1e2d5c956d986c415e01a087078e63fa89f3  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/R15-M07-sincronizacion-y-protocolos-de-mision.md
-506bca822c630934b054086ff3c7dba38e3a14b784d6eea7e2d1f6e993fd33a5  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/RECORRIDO.md
+11e6d304b969e74317fc89920d8260e25d4a3efc2ec079e7bf258c45dfd557c4  programa/rutas-profesionales/R15-telecomunicaciones-y-estaciones-terrestres-espaciales/RECORRIDO.md
 8a7d494e1d614e52096116d4f9e34db2ac948e20687451c318ff2ec301d0b597  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/GUIA_DEL_ROL.md
 6ad7f022d1deb763fc8b46bf18d78aba9ea2d7fedb98f3df8050b3a7f91aa761  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/INDICE.md
 3fe4732bcbbb5f0f72a8213e8993097c8247646e75908b4c933c8333ec52489e  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M02-procesamiento-multiespectral.md
@@ -1093,7 +1105,7 @@ de7264ff9b9d32e47cf4320968a25d5aed71601656642bc81f9e9597d8096c5a  programa/rutas
 bd9384aa4a37f8506c8ef7926d2f306d0d4076a9136aae8965c337a35680a759  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M05-calibracion-radiometrica-de-imagenes.md
 f1ebe6be993cd8228dce919fe8fa967ebbf4e8dfc9d0e9cccbcc8ac8d5d76328  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M06-plataformas-de-datos-geoespaciales.md
 eed02abe169c3e450ebc7206e452ab9dd319a018d21341778504c62d1793da29  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/R16-M07-ia-para-monitoreo-de-desastres.md
-041fe8b0ef67bebcaaf92b5c655b096d5500e73a02c96e8a6325a0f41b58ec29  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/RECORRIDO.md
+4849b3c5d97a2ed1cc348a18529edd752fc8fac24452019e62c355832071411d  programa/rutas-profesionales/R16-observacion-terrestre-y-geointeligencia-cientifica/RECORRIDO.md
 8e02df9e6e1d4454f2e9bd1e7a34bb86c4b148a637fa82352286842530d85610  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/GUIA_DEL_ROL.md
 3597a7b3adfa8b8e96c3fb6bcaf5410edf408182c5e15618cd5a80a4c62c9f1a  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/INDICE.md
 3ab14e142e5591ff5144b32161ebada08feaffdf454b10b2ca6428d70c49740d  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M01-cinematica-de-manipuladores-espaciales.md
@@ -1104,7 +1116,7 @@ bf6b02ee803e1415692cff588cfc5a0eb70b319452e8818d9713bfa1900ab401  programa/rutas
 9a3115a0386a387799088064de828423e404628e5fb78894f81195dbbeefc182  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M06-manipulacion-y-mantenimiento-orbital.md
 1626c6626e73d4d8370c179b718c5b44c5ac2585278f195199d6683493344fa7  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M07-exploracion-autonoma-planetaria.md
 d4ea76704da93310ee7780dd8f90d7ce4e6e05af3eb6f1cd480e6c3ca80896f7  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/R17-M08-integracion-de-mision-robotica.md
-318e571062d93ee269a7a50881d5143b1e605c6cfe871c584e5a6f47ee2b1925  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/RECORRIDO.md
+de3d509325ede8858775b2e3f272e43e73357dac70247ba60742889a44ac3270  programa/rutas-profesionales/R17-robotica-espacial-y-sistemas-autonomos/RECORRIDO.md
 9b5be70a526e1b03518dd5b70958d1066158952bb1855f09b18eeea4c07c9af8  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/GUIA_DEL_ROL.md
 196e5ea9027b1ef94ee580ce7b660e4b0250eac9067eabc436f54a95ca3ad273  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/INDICE.md
 0cb02095e63e0615d4043b4c3cc4f7b496da69cea48c770868934a7d4c2c748c  programa/rutas-profesionales/R18-astronautica-tripulada-y-entrenamiento-de-astronautas/R18-M01-preparacion-fisica-y-factores-humanos.md
@@ -1145,7 +1157,7 @@ f3c905257458d3c844e7ddb8a64a83e8357a3dbb17f0dff1e5367daf5d0b5a49  programa/rutas
 17d14134e6bc25f5cb8aeba04cad7848bd5ef4aee800ec3f472e69bc16e2c141  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M04-robotica-para-recursos-espaciales.md
 6d72bc23349e1498dae25a67ae66fc1ff39ab5e606535bb0b3b8727266fd9a3e  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M06-manufactura-en-cuerpos-celestes.md
 3401283f781d79990ff4c5c08a08896e279ba1261e4f4de2af279bbf54c832f5  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M08-viabilidad-tecnica-y-economica-isru.md
-296ed72303b98883fbc0da5f172930b38243fa0846a0d4b822643d5905a06289  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/RECORRIDO.md
+2a7650cf00f8fe00d9dabe50ff6bdb029f612eb1e797e03743b52df1b238d4d2  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/RECORRIDO.md
 48fa4f04ea0f7469c2da08b6c14e5cf2f2538e2f486745d626e1afa0adf4a7b5  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/GUIA_DEL_ROL.md
 859677d1a6aae0ef987dbde54c4f5c7ce8cf80b0a14b48a489ac50fff9828314  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/INDICE.md
 f05d1717e1c85cabecfc2fa953e2563bdf2362e344911d1913eb97d8ced01f8a  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/RECORRIDO.md
@@ -1218,7 +1230,7 @@ c6a380f25091c1788fa2be4f3c58a958c70881f4783ad5ecc89580c360def02d  programa/tronc
 57df01c120bc72399ebce06e8fd2830ea584706688c977840dbf10b6bd7e1f59  programa/tronco-comun/B131-didactica-de-la-astronomia.md
 2fca8f2c3006798fea6ebfbe6f84a170bf386984d28fbaaddcf3030713534b1f  programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md
 fc5768b2d0c981a4dc84906c9f3bea5df8b76c343142e1993e99544792d241f5  programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md
-37b48d6b129c7e37f9c09e7c0dfd59348bb6a03975d0ea418bbaa4ea8b7c98cc  programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md
+1a21d01ba35dec5b5d7a065b48c7a5bc3f63bba90ac84c6df6e836b91dcc85f9  programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md
 2d90dedefadea44f9e039cbaa8c2ad934c119c72e5a0352e4d006cd3698c2dec  programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md
 46c3fb188b48c5e548b8106b9e94d7d609189711e5b495810c148cb1e51300c3  programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md
 5f774227312d9471ed701a333f697727c3d14dfcf320f4a6cd0acb56e7b37631  programa/tronco-comun/B17-aprendizaje-automatico-cientifico.md
