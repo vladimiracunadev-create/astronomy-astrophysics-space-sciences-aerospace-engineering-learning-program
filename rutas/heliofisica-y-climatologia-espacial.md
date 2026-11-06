@@ -37,9 +37,9 @@ Dicho sin adornos: **la incertidumbre del pronóstico** es parte del producto, n
 
 ### Conocimiento técnico
 
-- **Heliofísica y física de plasmas** ([**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)); **plasmas y MHD avanzada** ([**B35** · Física avanzada de plasmas y MHD espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b35--física-avanzada-de-plasmas-y-mhd-espacial)).
-- **Corona solar y erupciones** ([**B34** · Corona solar y erupciones: diagnóstico y modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b34--corona-solar-y-erupciones-diagnóstico-y-modelos)); **clima espacial: impactos, pronóstico y riesgo** ([**B33** · Clima espacial: impactos, pronóstico y riesgo](../PROGRAMA_ACADEMICO_COMPLETO.md#b33--clima-espacial-impactos-pronóstico-y-riesgo)).
-- **Ecuaciones diferenciales y métodos numéricos** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md), [**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales)).
+- **Heliofísica y física de plasmas** ([**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)); **plasmas y MHD avanzada** ([**B35** · Física avanzada de plasmas y MHD espacial](../../programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md)).
+- **Corona solar y erupciones** ([**B34** · Corona solar y erupciones: diagnóstico y modelos](../../programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md)); **clima espacial: impactos, pronóstico y riesgo** ([**B33** · Clima espacial: impactos, pronóstico y riesgo](../../programa/tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md)).
+- **Ecuaciones diferenciales y métodos numéricos** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md), [**B21** · Métodos numéricos para EDP y fluidos computacionales](../../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md)).
 - **Estadística e incertidumbre** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)); **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Instrumentación espacial** ([**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md)) y **entorno térmico y de radiación** ([**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)).
 - **Computación científica reproducible** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
@@ -83,15 +83,15 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 2. 📚 [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) — usa 1 de 23 clases: `B13-` C05
 3. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — usa 4 de 31 clases: `B14-` C09, C12, C20, C22
 4. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — usa 3 de 24 clases: `B15-` C01, C17, C21
-5. 📚 [**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales) — usa 1 de 5 clases: `B21-` C01
+5. 📚 [**B21** · Métodos numéricos para EDP y fluidos computacionales](../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) — usa 1 de 5 clases: `B21-` C01
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
 6. 📚 [**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) — usa 18 de 23 clases: `B30-` C02, C05–C18, C20, C22–C23
 7. 📚 [**B31** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) — usa 1 de 20 clases: `B31-` C14
-8. 📚 [**B33** · Clima espacial: impactos, pronóstico y riesgo](../PROGRAMA_ACADEMICO_COMPLETO.md#b33--clima-espacial-impactos-pronóstico-y-riesgo) — usa 14 de 14 clases: `B33-` C01–C14
-9. 📚 [**B34** · Corona solar y erupciones: diagnóstico y modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b34--corona-solar-y-erupciones-diagnóstico-y-modelos) — usa 9 de 9 clases: `B34-` C01–C09
-10. 📚 [**B35** · Física avanzada de plasmas y MHD espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b35--física-avanzada-de-plasmas-y-mhd-espacial) — usa 10 de 10 clases: `B35-` C01–C10
+8. 📚 [**B33** · Clima espacial: impactos, pronóstico y riesgo](../programa/tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) — usa 14 de 14 clases: `B33-` C01–C14
+9. 📚 [**B34** · Corona solar y erupciones: diagnóstico y modelos](../programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) — usa 9 de 9 clases: `B34-` C01–C09
+10. 📚 [**B35** · Física avanzada de plasmas y MHD espacial](../programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) — usa 10 de 10 clases: `B35-` C01–C10
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
@@ -152,8 +152,8 @@ Roles vecinos con los que se comparte formación: [Astrofísica estelar y galác
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
 2. Estudia **heliofísica y plasmas** ([**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)) y **ecuaciones diferenciales** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
-3. Profundiza en **corona y erupciones** ([**B34** · Corona solar y erupciones: diagnóstico y modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b34--corona-solar-y-erupciones-diagnóstico-y-modelos)) y **MHD avanzada** ([**B35** · Física avanzada de plasmas y MHD espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b35--física-avanzada-de-plasmas-y-mhd-espacial)).
-4. Avanza a **clima espacial** ([**B33** · Clima espacial: impactos, pronóstico y riesgo](../PROGRAMA_ACADEMICO_COMPLETO.md#b33--clima-espacial-impactos-pronóstico-y-riesgo)) y a los **métodos numéricos** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales)).
+3. Profundiza en **corona y erupciones** ([**B34** · Corona solar y erupciones: diagnóstico y modelos](../../programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md)) y **MHD avanzada** ([**B35** · Física avanzada de plasmas y MHD espacial](../../programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md)).
+4. Avanza a **clima espacial** ([**B33** · Clima espacial: impactos, pronóstico y riesgo](../../programa/tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md)) y a los **métodos numéricos** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../../programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md)).
 5. Reúne tu **análisis documentado** con su historial.
 
 <!-- pie:inicio -->

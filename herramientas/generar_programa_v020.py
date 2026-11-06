@@ -280,7 +280,55 @@ def escribir_todo() -> dict:
             fh.write(json.dumps({"id": e["id"], "area": e["area"], "bloque_id": e["bloque_id"], "titulo": e["titulo"],
                                  "estado": "programada_sin_redactar", "necesidad": e["necesidad"], "roles": e["roles"],
                                  "origen": e["origen"]}, ensure_ascii=False) + "\n")
+    escribir_guias_y_metadatos(estructura, nuevos, bloques_base)
     return {"areas": len(estructura), "bloques": nb, "existentes": total_exist, "programadas": total_prog}
+
+
+def slug(titulo: str) -> str:
+    base = unicodedata.normalize("NFD", titulo.lower()).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", base).strip("-")
+
+
+def escribir_guias_y_metadatos(estructura, nuevos, bloques_base) -> None:
+    """Guía de cada bloque nuevo en programa/tronco-comun/ y metadatos de los 133 bloques, en orden consecutivo."""
+    rutas = json.loads((ROOT / "metadatos" / "rutas.json").read_text(encoding="utf-8"))
+    nombre_ruta = {r["id"]: r["nombre"] for r in rutas}
+    dir_ruta = {r["id"]: Path(glob.glob(str(ROOT / "programa" / "rutas-profesionales" / f"{r['id']}-*"))[0]).name[len(r["id"]) + 1:] for r in rutas}
+    areas = {aid: titulo for aid, titulo, _ in AREAS}
+    for b in nuevos:
+        L = [f"# {b['id']} — {b['nombre']}", "",
+             f"> **Bloque nuevo de la estructura `0.2.0`.** Sus {len(b['clases'])} clases están programadas y ninguna está redactada: "
+             "se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.", "",
+             "**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  ",
+             f"**Área:** {b['area']} — {areas[b['area']]}  ",
+             "**Estado:** programado; no contiene clases desarrolladas.  ",
+             f"**Total:** {len(b['clases'])} clases programadas.", "",
+             "## Alcance", "",
+             f"Este bloque existe porque los contenidos de los roles que lo necesitan no estaban cubiertos por ninguna clase de la línea base. "
+             f"Cubre desde «{b['clases'][0]['titulo']}» hasta «{b['clases'][-1]['titulo']}». "
+             "El orden de las clases es el de su programación y no es todavía una secuencia pedagógica revisada.", ""]
+        roles = sorted({r for c in b["clases"] for r in c["roles"]})
+        L += ["## Clases programadas", ""]
+        for c in b["clases"]:
+            L += [f"### {c['id']} — {c['titulo']}", "", f"*Programada, sin redactar.* {c['necesidad']}", ""]
+        L += ["## Roles que lo usan", ""]
+        L += [f"- [{nombre_ruta[r]}](../../rutas/{dir_ruta[r]}.md)" for r in roles]
+        L.append("")
+        (ROOT / "programa" / "tronco-comun" / f"{b['id']}-{slug(b['nombre'])}.md").write_text(chr(10).join(L), encoding="utf-8", newline=chr(10))
+    # metadatos: todos los bloques y áreas en orden consecutivo
+    previos = {x["id"]: x for x in json.loads((ROOT / "metadatos" / "bloques.json").read_text(encoding="utf-8"))}
+    out = []
+    for a in estructura:
+        for b in a["bloques"]:
+            x = dict(previos.get(b["id"], {}))
+            x.update({"id": b["id"], "nombre": b["titulo"], "area": a["area"],
+                      "total_clases": b["existentes"] + b["programadas"],
+                      "estado_programa": "nuevo_programado" if b["nuevo"] else "linea_base"})
+            x.setdefault("fuentes_preliminares", [])
+            out.append(x)
+    (ROOT / "metadatos" / "bloques.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8", newline=chr(10))
+    ar = [{"id": a["area"], "nombre": a["titulo"], "bloques": [b["id"] for b in a["bloques"]]} for a in estructura]
+    (ROOT / "metadatos" / "areas.json").write_text(json.dumps(ar, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8", newline=chr(10))
 
 
 if __name__ == "__main__":

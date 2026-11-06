@@ -38,8 +38,8 @@ Dicho sin adornos: la mayor parte del tiempo se va en **separar señal de error*
 ### Conocimiento técnico
 
 - **Radioastronomía y propagación:** espectro radio, antenas, ruido de sistema y radiometría ([**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)).
-- **Antenas y receptores:** diseño, ganancia, temperatura de ruido ([**B49** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b49--antenas-y-receptores-de-radioastronomía)).
-- **Interferometría y reducción de datos:** líneas de base, correladores, calibración y síntesis ([**B51** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b51--interferometría-avanzada-y-reducción-de-datos-de-radio), [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)).
+- **Antenas y receptores:** diseño, ganancia, temperatura de ruido ([**B49** · Antenas y receptores de radioastronomía](../../programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md)).
+- **Interferometría y reducción de datos:** líneas de base, correladores, calibración y síntesis ([**B51** · Interferometría avanzada y reducción de datos de radio](../../programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md), [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)).
 - **Señales e imágenes:** procesamiento, transformadas y estimación ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Metrología y tiempo:** estabilidad de frecuencia y sincronización ([**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)).
 - **Computación científica:** reducción de datos reproducible ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
@@ -97,8 +97,8 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 7. 📚 [**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) — usa 1 de 20 clases: `B44-` C19
 8. 📚 [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md) — usa 17 de 20 clases: `B46-` C03–C11, C13–C20
 9. 📚 [**B48** · Operaciones de observatorios científicos](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) — usa 1 de 23 clases: `B48-` C17
-10. 📚 [**B49** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b49--antenas-y-receptores-de-radioastronomía) — usa 11 de 11 clases: `B49-` C01–C11
-11. 📚 [**B51** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b51--interferometría-avanzada-y-reducción-de-datos-de-radio) — usa 14 de 14 clases: `B51-` C01–C14
+10. 📚 [**B49** · Antenas y receptores de radioastronomía](../programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) — usa 11 de 11 clases: `B49-` C01–C11
+11. 📚 [**B51** · Interferometría avanzada y reducción de datos de radio](../programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) — usa 14 de 14 clases: `B51-` C01–C14
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
@@ -158,8 +158,8 @@ Roles vecinos con los que se comparte formación: [Ingeniería óptica y telesco
 
 1. **Asienta la base** con el área A01 y la física de ondas de tu diagnóstico.
 2. Estudia **radioastronomía** ([**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)) y **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
-3. Profundiza en **antenas y receptores** ([**B49** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b49--antenas-y-receptores-de-radioastronomía)).
-4. Avanza a **interferometría y reducción de datos** ([**B51** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b51--interferometría-avanzada-y-reducción-de-datos-de-radio)).
+3. Profundiza en **antenas y receptores** ([**B49** · Antenas y receptores de radioastronomía](../../programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md)).
+4. Avanza a **interferometría y reducción de datos** ([**B51** · Interferometría avanzada y reducción de datos de radio](../../programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md)).
 5. Reúne tu **análisis documentado** con su historial.
 
 <!-- pie:inicio -->

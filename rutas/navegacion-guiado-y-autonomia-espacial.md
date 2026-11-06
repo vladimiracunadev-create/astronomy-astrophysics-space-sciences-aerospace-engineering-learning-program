@@ -37,9 +37,9 @@ Dicho sin adornos: **un filtro que reporta poca incertidumbre y se equivoca much
 
 ### Conocimiento técnico
 
-- **Estimación de órbitas y navegación** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)); **navegación inercial y fusión multisensorial** ([**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial)).
+- **Estimación de órbitas y navegación** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)); **navegación inercial y fusión multisensorial** ([**B80** · Navegación inercial y fusión multisensorial](../../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)).
 - **Sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)); **sensores y control de actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
-- **Autonomía y teleoperación** ([**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial)); **localización y mapeo** ([**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico)).
+- **Autonomía y teleoperación** ([**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)); **localización y mapeo** ([**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
 - **Probabilidad y estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)); **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
@@ -96,7 +96,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 11. 📚 [**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) — usa 1 de 21 clases: `B72-` C02
 12. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 23 de 30 clases: `B74-` C01–C04, C06–C10, C12–C20, C23–C27
 13. 📚 [**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 10 de 20 clases: `B76-` C09–C14, C16–C18, C20
-14. 📚 [**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial) — usa 8 de 9 clases: `B80-` C01–C08
+14. 📚 [**B80** · Navegación inercial y fusión multisensorial](../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) — usa 8 de 9 clases: `B80-` C01–C08
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
@@ -110,7 +110,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 20. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 6 de 30 clases: `B96-` C03, C05, C07–C08, C13, C15
 21. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — usa 3 de 27 clases: `B97-` C07, C16–C17
-22. 📚 [**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial) — usa 2 de 8 clases: `B98-` C01–C02
+22. 📚 [**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) — usa 2 de 8 clases: `B98-` C01–C02
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
@@ -152,8 +152,8 @@ Roles vecinos con los que se comparte formación: [Astrodinámica interplanetari
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
 2. Estudia **estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)), **sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)) y **estimación de órbitas** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)).
-3. Profundiza en **navegación inercial y fusión** ([**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial)) y **sensores y actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
-4. Avanza a **autonomía** ([**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial)) y **localización y mapeo** ([**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico)).
+3. Profundiza en **navegación inercial y fusión** ([**B80** · Navegación inercial y fusión multisensorial](../../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)) y **sensores y actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
+4. Avanza a **autonomía** ([**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)) y **localización y mapeo** ([**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
 5. Reúne tu **estimador verificado** con su historial.
 
 <!-- pie:inicio -->

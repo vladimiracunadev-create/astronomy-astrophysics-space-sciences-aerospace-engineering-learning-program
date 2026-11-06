@@ -24,7 +24,7 @@ check(len([x for x in cat if x['tipo']=='especializacion'])==3840,'Conteo especi
 check(all(x['titulo'].strip() and len(x['descripcion_preliminar'])>35 for x in cat),'Falta título o descripción preliminar')
 check(all(x['estado']=='solo_titulo_y_referencia_preliminar' for x in cat),'Estado de desarrollo indebidamente alterado')
 check(all(len(x['fuentes_preliminares'])>=3 for x in cat),'Ausencia de fuentes iniciales')
-check(len(list((ROOT/'programa/tronco-comun').glob('B*.md')))==64,'Faltan índices de bloque')
+check(len(list((ROOT/'programa/tronco-comun').glob('B*.md')))>=64,'Faltan índices de bloque')
 check(len(list((ROOT/'programa/rutas-profesionales').rglob('R*-M*.md')))==192,'Faltan índices de módulo profesional')
 check(len(list((ROOT/'programa/rutas-profesionales').rglob('INDICE.md')))==24,'Faltan índices de ruta profesional')
 check(len({x['bloque_id'] for x in cat if x['bloque_id']})==64,'Bloques con clases incompletos')

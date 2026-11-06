@@ -10,9 +10,9 @@ Un satélite que no se comunica es un objeto inerte. Todo lo que la misión prod
 
 Su unidad de trabajo es el **enlace** y el **pase**: una ventana de tiempo en la que el satélite es visible, con un presupuesto que debe cerrar y un registro que demuestra qué ocurrió. El rol se reparte en tres miradas:
 
-- **Diseño del enlace.** Calcula potencia, ganancia, pérdidas, ruido y relación señal/ruido; elige banda, modulación y codificación ([**B91** · Antenas y propagación para enlaces espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--antenas-y-propagación-para-enlaces-espaciales), [**B94** · Modulación, codificación y protocolos de enlace](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--modulación,-codificación-y-protocolos-de-enlace)). Su pregunta: *¿cierra el enlace con margen y cómo lo defiendo?*
+- **Diseño del enlace.** Calcula potencia, ganancia, pérdidas, ruido y relación señal/ruido; elige banda, modulación y codificación ([**B91** · Antenas y propagación para enlaces espaciales](../../programa/tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md), [**B94** · Modulación, codificación y protocolos de enlace](../../programa/tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md)). Su pregunta: *¿cierra el enlace con margen y cómo lo defiendo?*
 - **Estación terrestre.** Antena, radio, apuntado, enrutado hacia el centro de datos y automatización de pases. Su pregunta: *¿la estación recibe y registra lo que debe, pase tras pase?*
-- **Enlaces especiales.** Espacio profundo y comunicaciones ópticas, con mucho más ancho de banda pero con apuntamiento muy fino y dependencia de las nubes ([**B92** · Comunicaciones ópticas espaciales (profundización)](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--comunicaciones-ópticas-espaciales-profundización)).
+- **Enlaces especiales.** Espacio profundo y comunicaciones ópticas, con mucho más ancho de banda pero con apuntamiento muy fino y dependencia de las nubes ([**B92** · Comunicaciones ópticas espaciales (profundización)](../../programa/tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md)).
 
 Muchas carreras empiezan operando pases y se abren hacia el diseño de enlaces o hacia redes de estaciones; este programa te hace recorrer las tres miradas.
 
@@ -41,12 +41,12 @@ La habilidad no es dominar un equipo, sino **distinguir rápido entre un problem
 
 ### Conocimiento técnico
 
-- **Propagación, antenas y ruido:** pérdida de espacio libre, ganancia, temperatura de ruido, relación señal/ruido y Eb/N0 ([**B91** · Antenas y propagación para enlaces espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--antenas-y-propagación-para-enlaces-espaciales), [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md)).
-- **Modulación y codificación:** esquemas digitales, corrección de errores, sincronización de portadora y de bit ([**B94** · Modulación, codificación y protocolos de enlace](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--modulación,-codificación-y-protocolos-de-enlace), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
+- **Propagación, antenas y ruido:** pérdida de espacio libre, ganancia, temperatura de ruido, relación señal/ruido y Eb/N0 ([**B91** · Antenas y propagación para enlaces espaciales](../../programa/tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md), [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md)).
+- **Modulación y codificación:** esquemas digitales, corrección de errores, sincronización de portadora y de bit ([**B94** · Modulación, codificación y protocolos de enlace](../../programa/tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Protocolos y tramas:** telemetría, telecomando y su validación.
 - **Tiempo y frecuencia:** UTC, TAI, estándares de frecuencia y Doppler ([**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)).
 - **Pases y apuntado:** predicción de visibilidad a partir de la órbita y planificación de contactos ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md), [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md)).
-- **Enlaces ópticos:** presupuesto, apuntamiento y efectos atmosféricos ([**B92** · Comunicaciones ópticas espaciales (profundización)](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--comunicaciones-ópticas-espaciales-profundización)).
+- **Enlaces ópticos:** presupuesto, apuntamiento y efectos atmosféricos ([**B92** · Comunicaciones ópticas espaciales (profundización)](../../programa/tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md)).
 - **Programación y estadística** para procesar registros y automatizar cálculos ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md), [**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
 
 ### Herramientas del oficio
@@ -85,8 +85,8 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 6. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 7. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 8. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-9. 📚 [**B93** · Electrónica embarcada y compatibilidad electromagnética](../PROGRAMA_ACADEMICO_COMPLETO.md#b93--electrónica-embarcada-y-compatibilidad-electromagnética) — A07 · 4 clases
-10. 📚 [**B95** · Plataformas de satélites pequeños y CubeSat](../PROGRAMA_ACADEMICO_COMPLETO.md#b95--plataformas-de-satélites-pequeños-y-cubesat) — A07 · 4 clases
+9. 📚 [**B93** · Electrónica embarcada y compatibilidad electromagnética](../programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) — A07 · 4 clases
+10. 📚 [**B95** · Plataformas de satélites pequeños y CubeSat](../programa/tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) — A07 · 4 clases
 
 ### 🎯 El núcleo del rol
 
@@ -109,9 +109,9 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 6. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 1 de 44 clases: `B88-` C04
 7. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 18 de 25 clases: `B89-` C03–C15, C17–C18, C20, C23–C24
 8. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 1 de 24 clases: `B90-` C16
-9. 📚 [**B91** · Antenas y propagación para enlaces espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--antenas-y-propagación-para-enlaces-espaciales) — usa 8 de 8 clases: `B91-` C01–C08
-10. 📚 [**B92** · Comunicaciones ópticas espaciales (profundización)](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--comunicaciones-ópticas-espaciales-profundización) — usa 8 de 8 clases: `B92-` C01–C08
-11. 📚 [**B94** · Modulación, codificación y protocolos de enlace](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--modulación-codificación-y-protocolos-de-enlace) — usa 6 de 6 clases: `B94-` C01–C06
+9. 📚 [**B91** · Antenas y propagación para enlaces espaciales](../programa/tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) — usa 8 de 8 clases: `B91-` C01–C08
+10. 📚 [**B92** · Comunicaciones ópticas espaciales (profundización)](../programa/tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) — usa 8 de 8 clases: `B92-` C01–C08
+11. 📚 [**B94** · Modulación, codificación y protocolos de enlace](../programa/tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) — usa 6 de 6 clases: `B94-` C01–C06
 
 **A08 · Operaciones de misión y robótica espacial**
 
@@ -158,10 +158,10 @@ Roles vecinos con los que se comparte formación: [satélites y CubeSats](ingeni
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con física, señales y probabilidad: [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) y [**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md).
-2. Calcula tu primer presupuesto de enlace con [**B91** · Antenas y propagación para enlaces espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--antenas-y-propagación-para-enlaces-espaciales) y [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md).
-3. Aprende modulación, codificación y protocolos con [**B94** · Modulación, codificación y protocolos de enlace](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--modulación,-codificación-y-protocolos-de-enlace) y valida una cadena con curvas de tasa de error.
+2. Calcula tu primer presupuesto de enlace con [**B91** · Antenas y propagación para enlaces espaciales](../../programa/tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) y [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md).
+3. Aprende modulación, codificación y protocolos con [**B94** · Modulación, codificación y protocolos de enlace](../../programa/tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) y valida una cadena con curvas de tasa de error.
 4. Practica la operación con [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md): planifica pases y simula una campaña con registros.
-5. Reúne tu **expediente** y guarda su historia; si te atrae la profundización, explora [**B92** · Comunicaciones ópticas espaciales (profundización)](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--comunicaciones-ópticas-espaciales-profundización).
+5. Reúne tu **expediente** y guarda su historia; si te atrae la profundización, explora [**B92** · Comunicaciones ópticas espaciales (profundización)](../../programa/tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md).
 
 <!-- pie:inicio -->
 ---

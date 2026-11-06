@@ -14,8 +14,8 @@ Una tripulación es un sistema: personas, un vehículo, un control de misión en
 
 Tres miradas se reparten el oficio:
 
-- **Procedimientos y operaciones.** Nominales y de emergencia, actividades extravehiculares y trabajo con robots ([**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md), [**B108** · Actividades extravehiculares y trajes espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b108--actividades-extravehiculares-y-trajes-espaciales), [**B110** · Emergencias y seguridad de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b110--emergencias-y-seguridad-de-tripulación)).
-- **Factores humanos.** Carga cognitiva, conciencia situacional, comunicación cerrada, error humano y liderazgo distribuido ([**B111** · Factores humanos y liderazgo de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b111--factores-humanos-y-liderazgo-de-tripulación)).
+- **Procedimientos y operaciones.** Nominales y de emergencia, actividades extravehiculares y trabajo con robots ([**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md), [**B108** · Actividades extravehiculares y trajes espaciales](../../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md), [**B110** · Emergencias y seguridad de tripulación](../../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)).
+- **Factores humanos.** Carga cognitiva, conciencia situacional, comunicación cerrada, error humano y liderazgo distribuido ([**B111** · Factores humanos y liderazgo de tripulación](../../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md)).
 - **Evaluación y aprendizaje.** Criterios observables, *debriefing*, informes postincidente y lecciones aprendidas.
 
 ### 🚫 Qué NO es este rol (y con quién se confunde)
@@ -43,11 +43,11 @@ El incidente se registra para aprender, no para culpar. La habilidad es **observ
 ### Conocimiento técnico
 
 - **Sistemas de un vehículo tripulado:** presión, energía, ambiente, comunicaciones y configuración ([**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md), [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md), [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md)).
-- **Procedimientos y emergencias:** nominales y de emergencia; seguridad de la tripulación ([**B110** · Emergencias y seguridad de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b110--emergencias-y-seguridad-de-tripulación)).
-- **Actividades extravehiculares y trajes:** planificación, fatiga y comunicaciones ([**B108** · Actividades extravehiculares y trajes espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b108--actividades-extravehiculares-y-trajes-espaciales)).
+- **Procedimientos y emergencias:** nominales y de emergencia; seguridad de la tripulación ([**B110** · Emergencias y seguridad de tripulación](../../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)).
+- **Actividades extravehiculares y trajes:** planificación, fatiga y comunicaciones ([**B108** · Actividades extravehiculares y trajes espaciales](../../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md)).
 - **Robótica compartida y operaciones:** trabajo con manipuladores y control de misión ([**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md), [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md)).
-- **Factores humanos:** carga cognitiva, conciencia situacional, liderazgo ([**B111** · Factores humanos y liderazgo de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b111--factores-humanos-y-liderazgo-de-tripulación)).
-- **Contexto médico:** efectos de la microgravedad y la radiación, solo para entenderlos ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../PROGRAMA_ACADEMICO_COMPLETO.md#b107--acondicionamiento-físico-y-rehabilitación-de-astronautas)).
+- **Factores humanos:** carga cognitiva, conciencia situacional, liderazgo ([**B111** · Factores humanos y liderazgo de tripulación](../../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md)).
+- **Contexto médico:** efectos de la microgravedad y la radiación, solo para entenderlos ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md)).
 - **Estadística básica:** evaluar desempeño sin sobreinterpretar muestras pequeñas ([**B03** · Matemática elemental para ciencias espaciales](../programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md)).
 
 ### Herramientas del oficio
@@ -83,10 +83,10 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 4. 📚 [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) — A01 · 20 clases
 5. 📚 [**B07** · Informática científica desde cero](../programa/tronco-comun/B07-informatica-cientifica-desde-cero.md) — A01 · 20 clases
 6. 📚 [**B08** · Observación del cielo y astronomía práctica](../programa/tronco-comun/B08-observacion-del-cielo-y-astronomia-practica.md) — A01 · 20 clases
-7. 📚 [**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico) — A08 · 7 clases
-8. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../PROGRAMA_ACADEMICO_COMPLETO.md#b100--logística-y-cadena-de-suministro-extraterrestre) — A08 · 7 clases
-9. 📚 [**B102** · Movilidad de robots planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b102--movilidad-de-robots-planetarios) — A08 · 8 clases
-10. 📚 [**B103** · Percepción visual robótica](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--percepción-visual-robótica) — A08 · 8 clases
+7. 📚 [**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) — A08 · 7 clases
+8. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../programa/tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) — A08 · 7 clases
+9. 📚 [**B102** · Movilidad de robots planetarios](../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) — A08 · 8 clases
+10. 📚 [**B103** · Percepción visual robótica](../programa/tronco-comun/B103-percepcion-visual-robotica.md) — A08 · 8 clases
 
 ### 🎯 El núcleo del rol
 
@@ -107,18 +107,18 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 8. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 8 de 30 clases: `B96-` C03, C08–C10, C13, C15, C19–C20
 9. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — usa 6 de 27 clases: `B97-` C02, C07–C09, C13, C17
-10. 📚 [**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial) — usa 1 de 8 clases: `B98-` C08
-11. 📚 [**B101** · Manipuladores robóticos espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b101--manipuladores-robóticos-espaciales) — usa 2 de 10 clases: `B101-` C09–C10
+10. 📚 [**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) — usa 1 de 8 clases: `B98-` C08
+11. 📚 [**B101** · Manipuladores robóticos espaciales](../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) — usa 2 de 10 clases: `B101-` C09–C10
 
 **A09 · Astronáutica humana, medicina y hábitats**
 
 12. 📚 [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) — usa 19 de 23 clases: `B104-` C02–C13, C15–C17, C20–C23
 13. 📚 [**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md) — usa 5 de 27 clases: `B105-` C03, C08, C12, C16, C19
 14. 📚 [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) — usa 10 de 29 clases: `B106-` C02–C04, C06–C09, C13, C17–C18
-15. 📚 [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../PROGRAMA_ACADEMICO_COMPLETO.md#b107--acondicionamiento-físico-y-rehabilitación-de-astronautas) — usa 5 de 10 clases: `B107-` C01–C05
-16. 📚 [**B108** · Actividades extravehiculares y trajes espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b108--actividades-extravehiculares-y-trajes-espaciales) — usa 5 de 5 clases: `B108-` C01–C05
-17. 📚 [**B110** · Emergencias y seguridad de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b110--emergencias-y-seguridad-de-tripulación) — usa 5 de 5 clases: `B110-` C01–C05
-18. 📚 [**B111** · Factores humanos y liderazgo de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b111--factores-humanos-y-liderazgo-de-tripulación) — usa 6 de 6 clases: `B111-` C01–C06
+15. 📚 [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) — usa 5 de 10 clases: `B107-` C01–C05
+16. 📚 [**B108** · Actividades extravehiculares y trajes espaciales](../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) — usa 5 de 5 clases: `B108-` C01–C05
+17. 📚 [**B110** · Emergencias y seguridad de tripulación](../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) — usa 5 de 5 clases: `B110-` C01–C05
+18. 📚 [**B111** · Factores humanos y liderazgo de tripulación](../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) — usa 6 de 6 clases: `B111-` C01–C06
 
 <!-- /ruta -->
 
@@ -162,8 +162,8 @@ Roles vecinos con los que se comparte formación: [medicina y bioingeniería esp
 
 1. **Asienta la base** con [**B03** · Matemática elemental para ciencias espaciales](../programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md), [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md), [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) y [**B07** · Informática científica desde cero](../programa/tronco-comun/B07-informatica-cientifica-desde-cero.md).
 2. Conoce el oficio con [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) y lee con calma lo que aquí es contexto y lo que no puedes hacer sin habilitación.
-3. Estudia emergencias y actividad extravehicular con [**B110** · Emergencias y seguridad de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b110--emergencias-y-seguridad-de-tripulación) y [**B108** · Actividades extravehiculares y trajes espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b108--actividades-extravehiculares-y-trajes-espaciales); escribe un escenario de emergencia simulado.
-4. Aprende factores humanos y liderazgo con [**B111** · Factores humanos y liderazgo de tripulación](../PROGRAMA_ACADEMICO_COMPLETO.md#b111--factores-humanos-y-liderazgo-de-tripulación) y diseña criterios observables de desempeño.
+3. Estudia emergencias y actividad extravehicular con [**B110** · Emergencias y seguridad de tripulación](../../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) y [**B108** · Actividades extravehiculares y trajes espaciales](../../programa/tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md); escribe un escenario de emergencia simulado.
+4. Aprende factores humanos y liderazgo con [**B111** · Factores humanos y liderazgo de tripulación](../../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) y diseña criterios observables de desempeño.
 5. Reúne tu **expediente simulado** y guarda su historia: primera versión, retroalimentación y cambios.
 
 <!-- pie:inicio -->

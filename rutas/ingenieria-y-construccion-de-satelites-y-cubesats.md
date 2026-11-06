@@ -111,7 +111,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 11. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 6 de 44 clases: `B88-` C07–C08, C11–C12, C18, C21
 12. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 12 de 25 clases: `B89-` C03, C05–C06, C08–C09, C11–C15, C17, C19
 13. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 17 de 24 clases: `B90-` C01–C03, C05–C10, C12–C14, C16–C20
-14. 📚 [**B95** · Plataformas de satélites pequeños y CubeSat](../PROGRAMA_ACADEMICO_COMPLETO.md#b95--plataformas-de-satélites-pequeños-y-cubesat) — usa 4 de 4 clases: `B95-` C01–C04
+14. 📚 [**B95** · Plataformas de satélites pequeños y CubeSat](../programa/tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) — usa 4 de 4 clases: `B95-` C01–C04
 
 **A08 · Operaciones de misión y robótica espacial**
 

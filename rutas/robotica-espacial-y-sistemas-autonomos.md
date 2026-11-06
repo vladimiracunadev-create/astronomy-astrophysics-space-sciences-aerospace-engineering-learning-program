@@ -12,9 +12,9 @@ Su unidad de trabajo es la **tarea verificada**: no «el robot funciona», sino 
 
 Tres frentes se reparten el oficio:
 
-- **Manipulación.** Brazos y mecanismos: cinemática directa e inversa, singularidades, restricciones articulares, captura y acoplamiento ([**B101** · Manipuladores robóticos espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b101--manipuladores-robóticos-espaciales)).
-- **Movilidad y localización.** Rovers y vehículos de superficie: tracción en terreno suelto, odometría, mapeo y localización simultánea ([**B102** · Movilidad de robots planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b102--movilidad-de-robots-planetarios), [**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico), [**B103** · Percepción visual robótica](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--percepción-visual-robótica)).
-- **Autonomía y teleoperación.** Qué delega el operador al robot, cómo se controla con retardo y qué ocurre si se pierde el enlace ([**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial)).
+- **Manipulación.** Brazos y mecanismos: cinemática directa e inversa, singularidades, restricciones articulares, captura y acoplamiento ([**B101** · Manipuladores robóticos espaciales](../../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md)).
+- **Movilidad y localización.** Rovers y vehículos de superficie: tracción en terreno suelto, odometría, mapeo y localización simultánea ([**B102** · Movilidad de robots planetarios](../../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md), [**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md), [**B103** · Percepción visual robótica](../../programa/tronco-comun/B103-percepcion-visual-robotica.md)).
+- **Autonomía y teleoperación.** Qué delega el operador al robot, cómo se controla con retardo y qué ocurre si se pierde el enlace ([**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)).
 
 Un recordatorio práctico de la referencia de la NASA sobre tecnología de satélites pequeños: los mecanismos han contribuido a más del 10 % de las fallas reportadas de satélites pequeños, por lo que se diseñan con margen, ensayo de vida y prueba «como se vuela».
 
@@ -42,11 +42,11 @@ La habilidad no es hacer que el robot funcione una vez, sino **saber en qué con
 
 ### Conocimiento técnico
 
-- **Cinemática y dinámica:** rotaciones, jacobianos, cinemática directa e inversa, dinámica multicuerpo ([**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md), [**B101** · Manipuladores robóticos espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b101--manipuladores-robóticos-espaciales)).
-- **Control y estimación:** estabilidad, saturación, filtros de Kalman y de partículas ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md), [**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial)).
-- **Percepción:** visión, calibración, mapas de profundidad y SLAM ([**B103** · Percepción visual robótica](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--percepción-visual-robótica), [**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico)).
-- **Movilidad:** interacción rueda-terreno y planificación de rutas ([**B102** · Movilidad de robots planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b102--movilidad-de-robots-planetarios)).
-- **Autonomía y teleoperación:** control supervisado, colas de comandos, respuesta a pérdida de enlace ([**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial)).
+- **Cinemática y dinámica:** rotaciones, jacobianos, cinemática directa e inversa, dinámica multicuerpo ([**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md), [**B101** · Manipuladores robóticos espaciales](../../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md)).
+- **Control y estimación:** estabilidad, saturación, filtros de Kalman y de partículas ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md), [**B80** · Navegación inercial y fusión multisensorial](../../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md)).
+- **Percepción:** visión, calibración, mapas de profundidad y SLAM ([**B103** · Percepción visual robótica](../../programa/tronco-comun/B103-percepcion-visual-robotica.md), [**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md)).
+- **Movilidad:** interacción rueda-terreno y planificación de rutas ([**B102** · Movilidad de robots planetarios](../../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md)).
+- **Autonomía y teleoperación:** control supervisado, colas de comandos, respuesta a pérdida de enlace ([**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md)).
 - **Operaciones de proximidad:** aproximación y acoplamiento ([**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md)).
 - **Software y pruebas:** programación, simulación, reproducibilidad ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md), [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md)).
 - **Incertidumbre:** propagar errores de sensores y justificar márgenes ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
@@ -97,7 +97,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
 3. 📚 [**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 4 de 20 clases: `B76-` C09, C12, C14, C16
-4. 📚 [**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial) — usa 1 de 9 clases: `B80-` C09
+4. 📚 [**B80** · Navegación inercial y fusión multisensorial](../programa/tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) — usa 1 de 9 clases: `B80-` C09
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
@@ -110,11 +110,11 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 9. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 8 de 30 clases: `B96-` C04, C06–C07, C09, C12–C15
 10. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — usa 20 de 27 clases: `B97-` C01–C08, C10–C12, C16–C24
-11. 📚 [**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial) — usa 5 de 8 clases: `B98-` C03–C07
-12. 📚 [**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico) — usa 7 de 7 clases: `B99-` C01–C07
-13. 📚 [**B101** · Manipuladores robóticos espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b101--manipuladores-robóticos-espaciales) — usa 8 de 10 clases: `B101-` C01–C08
-14. 📚 [**B102** · Movilidad de robots planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b102--movilidad-de-robots-planetarios) — usa 8 de 8 clases: `B102-` C01–C08
-15. 📚 [**B103** · Percepción visual robótica](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--percepción-visual-robótica) — usa 8 de 8 clases: `B103-` C01–C08
+11. 📚 [**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) — usa 5 de 8 clases: `B98-` C03–C07
+12. 📚 [**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) — usa 7 de 7 clases: `B99-` C01–C07
+13. 📚 [**B101** · Manipuladores robóticos espaciales](../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) — usa 8 de 10 clases: `B101-` C01–C08
+14. 📚 [**B102** · Movilidad de robots planetarios](../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) — usa 8 de 8 clases: `B102-` C01–C08
+15. 📚 [**B103** · Percepción visual robótica](../programa/tronco-comun/B103-percepcion-visual-robotica.md) — usa 8 de 8 clases: `B103-` C01–C08
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
@@ -161,9 +161,9 @@ Roles vecinos con los que se comparte formación: [navegación, guiado y autonom
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con [**B09** · Cálculo diferencial e integral](../programa/tronco-comun/B09-calculo-diferencial-e-integral.md), [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md), [**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) y [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md).
-2. Aprende cinemática y manipulación con [**B101** · Manipuladores robóticos espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b101--manipuladores-robóticos-espaciales) y simula un brazo con pruebas.
-3. Aprende percepción y localización con [**B103** · Percepción visual robótica](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--percepción-visual-robótica) y [**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico); mide la deriva de tu odometría.
-4. Estudia movilidad y autonomía con [**B102** · Movilidad de robots planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b102--movilidad-de-robots-planetarios) y [**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial); simula teleoperación con retardo y pérdida de enlace.
+2. Aprende cinemática y manipulación con [**B101** · Manipuladores robóticos espaciales](../../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) y simula un brazo con pruebas.
+3. Aprende percepción y localización con [**B103** · Percepción visual robótica](../../programa/tronco-comun/B103-percepcion-visual-robotica.md) y [**B99** · Localización y mapeo robótico](../../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md); mide la deriva de tu odometría.
+4. Estudia movilidad y autonomía con [**B102** · Movilidad de robots planetarios](../../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) y [**B98** · Autonomía y teleoperación espacial](../../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md); simula teleoperación con retardo y pérdida de enlace.
 5. Reúne tu **portafolio** de simulaciones y guarda su historia: primera versión, retroalimentación y cambios.
 
 <!-- pie:inicio -->

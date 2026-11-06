@@ -14,9 +14,9 @@ Su unidad de trabajo es el **protocolo con evidencia**: una pregunta, una medici
 
 Tres miradas se reparten el oficio:
 
-- **Fisiología y contramedidas.** Cómo se adaptan los sistemas cardiovascular, musculoesquelético, vestibular, visual e inmune, y qué contramedidas existen ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../PROGRAMA_ACADEMICO_COMPLETO.md#b107--acondicionamiento-físico-y-rehabilitación-de-astronautas)).
-- **Radiación y entorno.** Dosis, efectos agudos y crónicos y modelos de riesgo ([**B112** · Radiobiología y protección radiológica espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--radiobiología-y-protección-radiológica-espacial)).
-- **Salud conductual, monitorización y atención a distancia.** Aislamiento, comunicación diferida, telemedicina y privacidad ([**B113** · Salud conductual y bienestar en aislamiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b113--salud-conductual-y-bienestar-en-aislamiento), [**B116** · Telemedicina y monitorización de salud en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b116--telemedicina-y-monitorización-de-salud-en-misión), [**B117** · Urgencias médicas y atención clínica en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b117--urgencias-médicas-y-atención-clínica-en-misión)).
+- **Fisiología y contramedidas.** Cómo se adaptan los sistemas cardiovascular, musculoesquelético, vestibular, visual e inmune, y qué contramedidas existen ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md)).
+- **Radiación y entorno.** Dosis, efectos agudos y crónicos y modelos de riesgo ([**B112** · Radiobiología y protección radiológica espacial](../../programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md)).
+- **Salud conductual, monitorización y atención a distancia.** Aislamiento, comunicación diferida, telemedicina y privacidad ([**B113** · Salud conductual y bienestar en aislamiento](../../programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md), [**B116** · Telemedicina y monitorización de salud en misión](../../programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md), [**B117** · Urgencias médicas y atención clínica en misión](../../programa/tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md)).
 
 ### 🚫 Qué NO es este rol (y con quién se confunde)
 
@@ -43,10 +43,10 @@ La habilidad es **no conformarte con un resultado atractivo**: preguntarte qué 
 ### Conocimiento técnico
 
 - **Fisiología por sistemas:** cardiovascular, musculoesquelético, vestibular, visual e inmune, y su adaptación a la gravedad parcial ([**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md)).
-- **Radiación:** dosis absorbida y equivalente, efectos agudos y crónicos, modelos de riesgo ([**B112** · Radiobiología y protección radiológica espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--radiobiología-y-protección-radiológica-espacial), [**B31** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md), [**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)).
-- **Salud conductual:** aislamiento, ambientes confinados y comunicación diferida ([**B113** · Salud conductual y bienestar en aislamiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b113--salud-conductual-y-bienestar-en-aislamiento)).
-- **Telemedicina y datos de salud:** monitorización, privacidad y seguridad ([**B116** · Telemedicina y monitorización de salud en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b116--telemedicina-y-monitorización-de-salud-en-misión)).
-- **Atención en misión (educativo):** urgencias y rehabilitación en simulación ([**B117** · Urgencias médicas y atención clínica en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b117--urgencias-médicas-y-atención-clínica-en-misión), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../PROGRAMA_ACADEMICO_COMPLETO.md#b107--acondicionamiento-físico-y-rehabilitación-de-astronautas)).
+- **Radiación:** dosis absorbida y equivalente, efectos agudos y crónicos, modelos de riesgo ([**B112** · Radiobiología y protección radiológica espacial](../../programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md), [**B31** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md), [**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)).
+- **Salud conductual:** aislamiento, ambientes confinados y comunicación diferida ([**B113** · Salud conductual y bienestar en aislamiento](../../programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md)).
+- **Telemedicina y datos de salud:** monitorización, privacidad y seguridad ([**B116** · Telemedicina y monitorización de salud en misión](../../programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md)).
+- **Atención en misión (educativo):** urgencias y rehabilitación en simulación ([**B117** · Urgencias médicas y atención clínica en misión](../../programa/tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md), [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md)).
 - **Estadística y metrología:** reproducibilidad en poblaciones muy pequeñas ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
 - **Química, física y programación de apoyo** ([**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md), [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md), [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
@@ -85,12 +85,12 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 3. 📚 [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) — A01 · 20 clases
 4. 📚 [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) — A01 · 20 clases
 5. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — A08 · 27 clases
-6. 📚 [**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial) — A08 · 8 clases
-7. 📚 [**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico) — A08 · 7 clases
-8. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../PROGRAMA_ACADEMICO_COMPLETO.md#b100--logística-y-cadena-de-suministro-extraterrestre) — A08 · 7 clases
-9. 📚 [**B101** · Manipuladores robóticos espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b101--manipuladores-robóticos-espaciales) — A08 · 10 clases
-10. 📚 [**B102** · Movilidad de robots planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b102--movilidad-de-robots-planetarios) — A08 · 8 clases
-11. 📚 [**B103** · Percepción visual robótica](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--percepción-visual-robótica) — A08 · 8 clases
+6. 📚 [**B98** · Autonomía y teleoperación espacial](../programa/tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) — A08 · 8 clases
+7. 📚 [**B99** · Localización y mapeo robótico](../programa/tronco-comun/B99-localizacion-y-mapeo-robotico.md) — A08 · 7 clases
+8. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../programa/tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) — A08 · 7 clases
+9. 📚 [**B101** · Manipuladores robóticos espaciales](../programa/tronco-comun/B101-manipuladores-roboticos-espaciales.md) — A08 · 10 clases
+10. 📚 [**B102** · Movilidad de robots planetarios](../programa/tronco-comun/B102-movilidad-de-robots-planetarios.md) — A08 · 8 clases
+11. 📚 [**B103** · Percepción visual robótica](../programa/tronco-comun/B103-percepcion-visual-robotica.md) — A08 · 8 clases
 
 ### 🎯 El núcleo del rol
 
@@ -119,11 +119,11 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 9. 📚 [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) — usa 6 de 23 clases: `B104-` C08, C13, C16–C19
 10. 📚 [**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md) — usa 25 de 27 clases: `B105-` C01–C10, C13–C27
 11. 📚 [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) — usa 2 de 29 clases: `B106-` C13–C14
-12. 📚 [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../PROGRAMA_ACADEMICO_COMPLETO.md#b107--acondicionamiento-físico-y-rehabilitación-de-astronautas) — usa 5 de 10 clases: `B107-` C06–C10
-13. 📚 [**B112** · Radiobiología y protección radiológica espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--radiobiología-y-protección-radiológica-espacial) — usa 6 de 6 clases: `B112-` C01–C06
-14. 📚 [**B113** · Salud conductual y bienestar en aislamiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b113--salud-conductual-y-bienestar-en-aislamiento) — usa 5 de 5 clases: `B113-` C01–C05
-15. 📚 [**B116** · Telemedicina y monitorización de salud en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b116--telemedicina-y-monitorización-de-salud-en-misión) — usa 7 de 7 clases: `B116-` C01–C07
-16. 📚 [**B117** · Urgencias médicas y atención clínica en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b117--urgencias-médicas-y-atención-clínica-en-misión) — usa 5 de 5 clases: `B117-` C01–C05
+12. 📚 [**B107** · Acondicionamiento físico y rehabilitación de astronautas](../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) — usa 5 de 10 clases: `B107-` C06–C10
+13. 📚 [**B112** · Radiobiología y protección radiológica espacial](../programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) — usa 6 de 6 clases: `B112-` C01–C06
+14. 📚 [**B113** · Salud conductual y bienestar en aislamiento](../programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) — usa 5 de 5 clases: `B113-` C01–C05
+15. 📚 [**B116** · Telemedicina y monitorización de salud en misión](../programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) — usa 7 de 7 clases: `B116-` C01–C07
+16. 📚 [**B117** · Urgencias médicas y atención clínica en misión](../programa/tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) — usa 5 de 5 clases: `B117-` C01–C05
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
@@ -176,8 +176,8 @@ Roles vecinos con los que se comparte formación: [astronáutica y entrenamiento
 
 1. **Asienta la base** con [**B03** · Matemática elemental para ciencias espaciales](../programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md), [**B04** · Álgebra, trigonometría y geometría espacial](../programa/tronco-comun/B04-algebra-trigonometria-y-geometria-espacial.md), [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) y [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md); añade biología y fisiología humana fuera del programa.
 2. Aprende la fisiología espacial con [**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md) y escribe una revisión de evidencia con sus límites.
-3. Estudia la radiación con [**B112** · Radiobiología y protección radiológica espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--radiobiología-y-protección-radiológica-espacial) y la estadística de muestras pequeñas con [**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md).
-4. Explora salud conductual y monitorización con [**B113** · Salud conductual y bienestar en aislamiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b113--salud-conductual-y-bienestar-en-aislamiento) y [**B116** · Telemedicina y monitorización de salud en misión](../PROGRAMA_ACADEMICO_COMPLETO.md#b116--telemedicina-y-monitorización-de-salud-en-misión); diseña un panel de monitorización con privacidad.
+3. Estudia la radiación con [**B112** · Radiobiología y protección radiológica espacial](../../programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) y la estadística de muestras pequeñas con [**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md).
+4. Explora salud conductual y monitorización con [**B113** · Salud conductual y bienestar en aislamiento](../../programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) y [**B116** · Telemedicina y monitorización de salud en misión](../../programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md); diseña un panel de monitorización con privacidad.
 5. Reúne tu **expediente simulado** (con datos sintéticos o públicos) y guarda su historia: primera versión, retroalimentación y cambios.
 
 <!-- pie:inicio -->

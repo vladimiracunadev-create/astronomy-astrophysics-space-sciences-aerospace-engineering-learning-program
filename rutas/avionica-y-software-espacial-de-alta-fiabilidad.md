@@ -38,11 +38,11 @@ Dicho sin adornos: **la mayor parte del trabajo es probar lo que no debería ocu
 ### Conocimiento técnico
 
 - **Aviónica y software crítico espacial** ([**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md)).
-- **Electrónica embarcada y compatibilidad electromagnética** ([**B93** · Electrónica embarcada y compatibilidad electromagnética](../PROGRAMA_ACADEMICO_COMPLETO.md#b93--electrónica-embarcada-y-compatibilidad-electromagnética)).
+- **Electrónica embarcada y compatibilidad electromagnética** ([**B93** · Electrónica embarcada y compatibilidad electromagnética](../../programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md)).
 - **Ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)); **integración, ensayos y calificación** ([**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md)).
-- **Verificación y validación de software** ([**B23** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b23--verificación-y-validación-de-software-científico)).
+- **Verificación y validación de software** ([**B23** · Verificación y validación de software científico](../../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md)).
 - **Sensores y control de actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
-- **Computación científica** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)) y **resiliencia de infraestructura espacial** ([**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial)).
+- **Computación científica** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)) y **resiliencia de infraestructura espacial** ([**B122** · Resiliencia y continuidad de infraestructura espacial](../../programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md)).
 
 ### Herramientas del oficio
 
@@ -98,7 +98,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 6. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 41 de 44 clases: `B88-` C01–C17, C19–C20, C22–C43
 7. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 2 de 25 clases: `B89-` C09, C11
 8. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 8 de 24 clases: `B90-` C05, C07–C08, C13–C14, C16, C18–C19
-9. 📚 [**B93** · Electrónica embarcada y compatibilidad electromagnética](../PROGRAMA_ACADEMICO_COMPLETO.md#b93--electrónica-embarcada-y-compatibilidad-electromagnética) — usa 4 de 4 clases: `B93-` C01–C04
+9. 📚 [**B93** · Electrónica embarcada y compatibilidad electromagnética](../programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) — usa 4 de 4 clases: `B93-` C01–C04
 
 **A08 · Operaciones de misión y robótica espacial**
 
@@ -140,8 +140,8 @@ Roles vecinos con los que se comparte formación: [Navegación guiado y autonom�
 
 1. **Asienta la base** con el área A01 (informática científica) y la matemática de tu diagnóstico.
 2. Estudia **aviónica y software crítico** ([**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md)) y **sensores y control de actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
-3. Profundiza en **electrónica embarcada** ([**B93** · Electrónica embarcada y compatibilidad electromagnética](../PROGRAMA_ACADEMICO_COMPLETO.md#b93--electrónica-embarcada-y-compatibilidad-electromagnética)) e **ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)).
-4. Avanza a **integración y ensayos** ([**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md)) y **verificación de software** ([**B23** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b23--verificación-y-validación-de-software-científico)).
+3. Profundiza en **electrónica embarcada** ([**B93** · Electrónica embarcada y compatibilidad electromagnética](../../programa/tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md)) e **ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)).
+4. Avanza a **integración y ensayos** ([**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md)) y **verificación de software** ([**B23** · Verificación y validación de software científico](../../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md)).
 5. Reúne tu **software con su evidencia** y su historial.
 
 <!-- pie:inicio -->

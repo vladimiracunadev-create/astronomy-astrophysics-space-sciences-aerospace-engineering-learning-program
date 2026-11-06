@@ -39,7 +39,7 @@ Dicho sin adornos: casi todo trabajo consiste en **convertir una tolerancia en u
 
 ### Conocimiento técnico
 
-- **Óptica geométrica y diseño de telescopios:** formación de imagen, aberraciones, configuraciones ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md), [**B50** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b50--diseño-óptico-computacional-y-tolerancias)).
+- **Óptica geométrica y diseño de telescopios:** formación de imagen, aberraciones, configuraciones ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md), [**B50** · Diseño óptico computacional y tolerancias](../../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md)).
 - **Óptica física y adaptativa:** difracción, frente de onda, corrección en tiempo real ([**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md)).
 - **Construcción y mecánica de telescopios:** monturas, pulido, colimación, pruebas ([**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md)).
 - **Detectores y adquisición:** sensores, calibración, ruido ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md)).
@@ -102,7 +102,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 8. 📚 [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) — usa 9 de 24 clases: `B45-` C02–C03, C09, C17, C19, C21–C24
 9. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B47-` C11
 10. 📚 [**B48** · Operaciones de observatorios científicos](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) — usa 12 de 23 clases: `B48-` C04, C07–C10, C13–C15, C20–C23
-11. 📚 [**B50** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b50--diseño-óptico-computacional-y-tolerancias) — usa 15 de 15 clases: `B50-` C01–C15
+11. 📚 [**B50** · Diseño óptico computacional y tolerancias](../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) — usa 15 de 15 clases: `B50-` C01–C15
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
@@ -156,7 +156,7 @@ Roles vecinos con los que se comparte formación: [Radioastronomía e interferom
 1. **Asienta la base** con el área A01 y la matemática y la física de tu diagnóstico.
 2. Estudia **óptica geométrica y diseño de telescopios** ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md)) y **óptica física y adaptativa** ([**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md)).
 3. Aprende **construcción y mecánica de telescopios** ([**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md)) y **detectores** ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md)).
-4. Profundiza en **diseño óptico computacional y tolerancias** ([**B50** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b50--diseño-óptico-computacional-y-tolerancias)).
+4. Profundiza en **diseño óptico computacional y tolerancias** ([**B50** · Diseño óptico computacional y tolerancias](../../programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md)).
 5. Reúne tu **expediente de diseño** y guarda su historial.
 
 <!-- pie:inicio -->

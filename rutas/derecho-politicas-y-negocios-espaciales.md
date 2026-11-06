@@ -47,11 +47,11 @@ Dicho sin adornos: hay **mucha lectura y mucha precisión**; la habilidad es sab
 ### Conocimiento técnico
 
 - **Derecho espacial internacional:** tratado del espacio, salvamento, responsabilidad, registro, organismos, uso pacífico, interpretación de tratados y práctica estatal, en [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md).
-- **Regulación nacional:** licencias de lanzamiento y de teledetección, protección ambiental, marco legal en Chile y cumplimiento en varias jurisdicciones, en [**B121** · Regulación nacional de actividades espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b121--regulación-nacional-de-actividades-espaciales).
-- **Espectro y licencias satelitales:** notificación, zonas de coordinación, posiciones orbitales como recurso limitado y documentación regulatoria, en [**B120** · Espectro, licencias y regulación satelital](../PROGRAMA_ACADEMICO_COMPLETO.md#b120--espectro-licencias-y-regulación-satelital).
-- **Responsabilidad y controversias:** prueba del daño, causalidad, reclamaciones entre Estados, arbitraje, en [**B123** · Responsabilidad, daños y controversias espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b123--responsabilidad-daños-y-controversias-espaciales).
-- **Seguros:** lanzamiento, órbita, responsabilidad civil, exclusiones, reaseguro y simulación de cobertura, en [**B127** · Seguros espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b127--seguros-espaciales).
-- **Empresa y financiamiento:** modelos de ingresos, gobierno corporativo, alianzas, control de exportaciones, capital semilla y de riesgo, flujos y viabilidad, en [**B125**](../PROGRAMA_ACADEMICO_COMPLETO.md#b125--creación-y-operación-de-empresas-espaciales) y [**B126**](../PROGRAMA_ACADEMICO_COMPLETO.md#b126--financiamiento-de-proyectos-y-negocios-espaciales), con la base industrial de [**B124**](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md).
+- **Regulación nacional:** licencias de lanzamiento y de teledetección, protección ambiental, marco legal en Chile y cumplimiento en varias jurisdicciones, en [**B121** · Regulación nacional de actividades espaciales](../../programa/tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md).
+- **Espectro y licencias satelitales:** notificación, zonas de coordinación, posiciones orbitales como recurso limitado y documentación regulatoria, en [**B120** · Espectro, licencias y regulación satelital](../../programa/tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md).
+- **Responsabilidad y controversias:** prueba del daño, causalidad, reclamaciones entre Estados, arbitraje, en [**B123** · Responsabilidad, daños y controversias espaciales](../../programa/tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md).
+- **Seguros:** lanzamiento, órbita, responsabilidad civil, exclusiones, reaseguro y simulación de cobertura, en [**B127** · Seguros espaciales](../../programa/tronco-comun/B127-seguros-espaciales.md).
+- **Empresa y financiamiento:** modelos de ingresos, gobierno corporativo, alianzas, control de exportaciones, capital semilla y de riesgo, flujos y viabilidad, en [**B125**](../../programa/tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) y [**B126**](../../programa/tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md), con la base industrial de [**B124**](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md).
 - **Entender el proyecto:** ingeniería de sistemas y diseño de misiones ([**B83**](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)), tráfico y sostenibilidad ([**B118**](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md)) y comunicaciones satelitales ([**B89**](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md)).
 
 ### Herramientas del oficio
@@ -81,7 +81,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 ### 🧱 Fundamentos (según tu diagnóstico)
 
 1. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — A07 · 24 clases
-2. 📚 [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial) — A10 · 10 clases
+2. 📚 [**B122** · Resiliencia y continuidad de infraestructura espacial](../programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) — A10 · 10 clases
 
 ### 🎯 El núcleo del rol
 
@@ -101,16 +101,16 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 4. 📚 [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) — usa 5 de 24 clases: `B118-` C05, C14–C15, C17, C19
 5. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 21 de 36 clases: `B119-` C01–C11, C15, C18–C20, C31–C36
-6. 📚 [**B120** · Espectro, licencias y regulación satelital](../PROGRAMA_ACADEMICO_COMPLETO.md#b120--espectro-licencias-y-regulación-satelital) — usa 6 de 6 clases: `B120-` C01–C06
-7. 📚 [**B121** · Regulación nacional de actividades espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b121--regulación-nacional-de-actividades-espaciales) — usa 5 de 5 clases: `B121-` C01–C05
-8. 📚 [**B123** · Responsabilidad, daños y controversias espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b123--responsabilidad-daños-y-controversias-espaciales) — usa 4 de 4 clases: `B123-` C01–C04
+6. 📚 [**B120** · Espectro, licencias y regulación satelital](../programa/tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) — usa 6 de 6 clases: `B120-` C01–C06
+7. 📚 [**B121** · Regulación nacional de actividades espaciales](../programa/tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) — usa 5 de 5 clases: `B121-` C01–C05
+8. 📚 [**B123** · Responsabilidad, daños y controversias espaciales](../programa/tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) — usa 4 de 4 clases: `B123-` C01–C04
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
 9. 📚 [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) — usa 10 de 24 clases: `B124-` C01, C03, C05–C10, C13–C14
-10. 📚 [**B125** · Creación y operación de empresas espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b125--creación-y-operación-de-empresas-espaciales) — usa 6 de 6 clases: `B125-` C01–C06
-11. 📚 [**B126** · Financiamiento de proyectos y negocios espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b126--financiamiento-de-proyectos-y-negocios-espaciales) — usa 6 de 6 clases: `B126-` C01–C06
-12. 📚 [**B127** · Seguros espaciales](../PROGRAMA_ACADEMICO_COMPLETO.md#b127--seguros-espaciales) — usa 8 de 8 clases: `B127-` C01–C08
+10. 📚 [**B125** · Creación y operación de empresas espaciales](../programa/tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) — usa 6 de 6 clases: `B125-` C01–C06
+11. 📚 [**B126** · Financiamiento de proyectos y negocios espaciales](../programa/tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) — usa 6 de 6 clases: `B126-` C01–C06
+12. 📚 [**B127** · Seguros espaciales](../programa/tronco-comun/B127-seguros-espaciales.md) — usa 8 de 8 clases: `B127-` C01–C08
 
 <!-- /ruta -->
 
@@ -154,9 +154,9 @@ Roles vecinos con los que se comparte formación: [seguridad y resiliencia de in
 
 1. **Asienta la base** con [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) para entender qué es un hito y un requisito.
 2. Recorre el **marco internacional** en [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) y arma una matriz de obligaciones con versión y fecha.
-3. Pasa a lo **nacional y al espectro** con [**B121**](../PROGRAMA_ACADEMICO_COMPLETO.md#b121--regulación-nacional-de-actividades-espaciales) y [**B120**](../PROGRAMA_ACADEMICO_COMPLETO.md#b120--espectro-licencias-y-regulación-satelital).
-4. Estudia la **responsabilidad y los seguros** en [**B123**](../PROGRAMA_ACADEMICO_COMPLETO.md#b123--responsabilidad-daños-y-controversias-espaciales) y [**B127**](../PROGRAMA_ACADEMICO_COMPLETO.md#b127--seguros-espaciales).
-5. Cierra con el **negocio** en [**B125**](../PROGRAMA_ACADEMICO_COMPLETO.md#b125--creación-y-operación-de-empresas-espaciales) y [**B126**](../PROGRAMA_ACADEMICO_COMPLETO.md#b126--financiamiento-de-proyectos-y-negocios-espaciales) y reúne tu expediente con su historia.
+3. Pasa a lo **nacional y al espectro** con [**B121**](../../programa/tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) y [**B120**](../../programa/tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md).
+4. Estudia la **responsabilidad y los seguros** en [**B123**](../../programa/tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) y [**B127**](../../programa/tronco-comun/B127-seguros-espaciales.md).
+5. Cierra con el **negocio** en [**B125**](../../programa/tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) y [**B126**](../../programa/tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) y reúne tu expediente con su historia.
 
 <!-- pie:inicio -->
 ---

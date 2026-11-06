@@ -46,7 +46,7 @@ Dicho sin adornos: se trabaja con **datos imperfectos y decisiones con consecuen
 - **Mecánica orbital y estimación:** órbitas, perturbaciones, determinación y covarianza, en [**B71**](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md), [**B72**](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) y [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md).
 - **Tráfico y sostenibilidad:** población de objetos, catálogos, seguimiento óptico y por radar, conjunciones, probabilidad de colisión, evasión, desechos, fin de vida, calidad y límites de las redes de vigilancia, en [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md).
 - **Marco jurídico y de política:** tratados, registro, autorización de operadores, doctrinas declaradas públicamente, normas de comportamiento responsable, atribución y desinformación, en [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md).
-- **Resiliencia y continuidad:** dependencias de proveedores, impacto y objetivos de recuperación, modelo defensivo de riesgos, seguridad de estaciones, accesos, respuesta a incidentes, severidad, comunicación de crisis, evidencias y continuidad institucional, en [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial).
+- **Resiliencia y continuidad:** dependencias de proveedores, impacto y objetivos de recuperación, modelo defensivo de riesgos, seguridad de estaciones, accesos, respuesta a incidentes, severidad, comunicación de crisis, evidencias y continuidad institucional, en [**B122** · Resiliencia y continuidad de infraestructura espacial](../../programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md).
 - **Software crítico, comunicaciones y operaciones:** [**B88**](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md), [**B89**](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) y [**B96**](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md).
 - **Probabilidad e incertidumbre:** cómo se propaga la incertidumbre del seguimiento a una probabilidad de colisión y cuándo esa cifra no basta para decidir.
 
@@ -112,7 +112,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 12. 📚 [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) — usa 22 de 24 clases: `B118-` C01–C15, C18–C24
 13. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 19 de 36 clases: `B119-` C01, C04, C06–C08, C11–C16, C18–C20, C26–C30
-14. 📚 [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial) — usa 10 de 10 clases: `B122-` C01–C10
+14. 📚 [**B122** · Resiliencia y continuidad de infraestructura espacial](../programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) — usa 10 de 10 clases: `B122-` C01–C10
 
 <!-- /ruta -->
 
@@ -158,7 +158,7 @@ Roles vecinos con los que se comparte formación: [telecomunicaciones y estacion
 2. Aprende la **estimación y el seguimiento** con [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md).
 3. Recorre **tráfico y sostenibilidad** en [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) y documenta una evaluación de conjunción.
 4. Estudia el **marco y la doctrina** en [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md), con fuentes públicas.
-5. Cierra con la **resiliencia** en [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial) y reúne tu expediente con un informe de simulacro.
+5. Cierra con la **resiliencia** en [**B122** · Resiliencia y continuidad de infraestructura espacial](../../programa/tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) y reúne tu expediente con un informe de simulacro.
 
 <!-- pie:inicio -->
 ---

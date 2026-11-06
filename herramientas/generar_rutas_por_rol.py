@@ -102,8 +102,6 @@ def datos():
 
 
 def enlace_bloque(bid: str, b: dict) -> str:
-    if b["nuevo"]:
-        return f"../PROGRAMA_ACADEMICO_COMPLETO.md#{ancla(bid + ' — ' + b['titulo'])}"
     return "../programa/tronco-comun/" + os.path.basename(glob.glob(str(ROOT / "programa" / "tronco-comun" / f"{bid}-*.md"))[0])
 
 

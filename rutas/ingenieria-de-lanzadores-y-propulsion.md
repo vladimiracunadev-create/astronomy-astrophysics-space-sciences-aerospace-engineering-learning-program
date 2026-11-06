@@ -38,7 +38,7 @@ Dicho sin adornos: **las unidades y los márgenes** se equivocan con más frecue
 ### Conocimiento técnico
 
 - **Dinámica de lanzamiento y reentrada** ([**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md)).
-- **Tecnologías de propulsión** ([**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md)); **fluidos, termodinámica y aerotermodinámica de propulsión** ([**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--fluidos-termodinámica-y-aerotermodinámica-de-propulsión)).
+- **Tecnologías de propulsión** ([**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md)); **fluidos, termodinámica y aerotermodinámica de propulsión** ([**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../../programa/tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md)).
 - **Ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)); **gestión térmica** ([**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 - **Derecho, seguridad y geopolítica espacial** como contexto ([**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md)).
@@ -94,7 +94,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 7. 📚 [**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) — usa 2 de 30 clases: `B75-` C09, C18
 8. 📚 [**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) — usa 22 de 25 clases: `B77-` C01–C10, C12–C16, C18, C20–C25
 9. 📚 [**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md) — usa 15 de 22 clases: `B78-` C01–C09, C17–C22
-10. 📚 [**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--fluidos-termodinámica-y-aerotermodinámica-de-propulsión) — usa 16 de 16 clases: `B79-` C01–C16
+10. 📚 [**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../programa/tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) — usa 16 de 16 clases: `B79-` C01–C16
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
@@ -148,7 +148,7 @@ Roles vecinos con los que se comparte formación: [Astrodinámica interplanetari
 
 1. **Asienta la base** con el área A01 y la física de tu diagnóstico.
 2. Estudia **dinámica de lanzamiento y reentrada** ([**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md)) y **propulsión** ([**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md)).
-3. Profundiza en **fluidos y termodinámica de propulsión** ([**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--fluidos-termodinámica-y-aerotermodinámica-de-propulsión)).
+3. Profundiza en **fluidos y termodinámica de propulsión** ([**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../../programa/tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md)).
 4. Avanza a **ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)) y **gestión térmica** ([**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)).
 5. Reúne tu **análisis documentado** con su historial.
 
