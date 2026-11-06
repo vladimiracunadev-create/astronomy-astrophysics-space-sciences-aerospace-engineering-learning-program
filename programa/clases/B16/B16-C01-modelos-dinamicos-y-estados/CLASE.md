@@ -1,7 +1,7 @@
 # B16-C01 — Modelos dinámicos y estados
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B15-C24 — Fusión de imágenes de distintos sensores](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c24) · [Siguiente: B16-C02 — Representaciones en espacio de estados →](../B16-C02-representaciones-en-espacio-de-estados/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B15-C24 — Fusión de imágenes de distintos sensores](../../B15/B15-C24-fusion-de-imagenes-de-distintos-sensores/CLASE.md) · [Siguiente: B16-C02 — Representaciones en espacio de estados →](../B16-C02-representaciones-en-espacio-de-estados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -319,5 +319,5 @@ Un modelo dinámico relaciona entradas, estado y salidas; el estado es la memori
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B15-C24 — Fusión de imágenes de distintos sensores](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c24) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C02 — Representaciones en espacio de estados →](../B16-C02-representaciones-en-espacio-de-estados/CLASE.md)
+[← Anterior: B15-C24 — Fusión de imágenes de distintos sensores](../../B15/B15-C24-fusion-de-imagenes-de-distintos-sensores/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C02 — Representaciones en espacio de estados →](../B16-C02-representaciones-en-espacio-de-estados/CLASE.md)
 <!-- /nav -->
