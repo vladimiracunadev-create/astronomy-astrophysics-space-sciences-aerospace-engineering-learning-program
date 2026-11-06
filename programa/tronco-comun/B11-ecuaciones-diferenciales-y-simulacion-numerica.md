@@ -95,8 +95,8 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b11-c22"></a>[B11-C22](../clases/B11/B11-C22-metodos-implicitos-y-sistemas-rigidos/CLASE.md) | Métodos implícitos y sistemas rígidos | Euler implícito, BDF, rigidez; resolver el sistema no lineal de cada paso. | Informe de un problema rígido |
 | <a id="b11-c23"></a>[B11-C23](../clases/B11/B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md) | Optimización restringida: Lagrange, KKT y SQP | Multiplicadores de Lagrange, condiciones KKT y SQP en diseño de trayectorias. | Problema restringido resuelto y verificado |
 | <a id="b11-c24"></a>[B11-C24](../clases/B11/B11-C24-metodos-espectrales-avanzados-chebyshev-y-fourier/CLASE.md) | Métodos espectrales avanzados (Chebyshev y Fourier) | Colocación, convergencia exponencial y aliasing. | Resolución espectral de una EDO o EDP |
-| <a id="b11-c25"></a>B11-C25 | Aritmética de punto flotante y errores de redondeo | IEEE 754, cancelación y acumulación de error en cálculo científico. | Ficha de errores de redondeo |
-| <a id="b11-c26"></a>B11-C26 | Benchmark de algoritmos numéricos | Comparaciones justas de precisión y costo entre algoritmos. | Benchmark documentado y reproducible |
+| <a id="b11-c25"></a>[B11-C25](../clases/B11/B11-C25-aritmetica-de-punto-flotante-y-errores-de-redondeo/CLASE.md) | Aritmética de punto flotante y errores de redondeo | IEEE 754, cancelación y acumulación de error en cálculo científico. | Ficha de errores de redondeo |
+| <a id="b11-c26"></a>[B11-C26](../clases/B11/B11-C26-benchmark-de-algoritmos-numericos/CLASE.md) | Benchmark de algoritmos numéricos | Comparaciones justas de precisión y costo entre algoritmos. | Benchmark documentado y reproducible |
 
 ## 🧵 Hilos que atraviesan el bloque
 

@@ -1,7 +1,7 @@
 # B12-C01 — Espacios muestrales y eventos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B11-C26 — Benchmark de algoritmos numéricos](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c26) · [Siguiente: B12-C02 — Variables aleatorias →](../B12-C02-variables-aleatorias/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [← Anterior: B11-C26 — Benchmark de algoritmos numéricos](../../B11/B11-C26-benchmark-de-algoritmos-numericos/CLASE.md) · [Siguiente: B12-C02 — Variables aleatorias →](../B12-C02-variables-aleatorias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Un espacio muestral lista lo que puede pasar, los pesos dicen cuánto, un evento
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B11-C26 — Benchmark de algoritmos numéricos](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c26) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C02 — Variables aleatorias →](../B12-C02-variables-aleatorias/CLASE.md)
+[← Anterior: B11-C26 — Benchmark de algoritmos numéricos](../../B11/B11-C26-benchmark-de-algoritmos-numericos/CLASE.md) · [📚 Bloque B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) · [Siguiente: B12-C02 — Variables aleatorias →](../B12-C02-variables-aleatorias/CLASE.md)
 <!-- /nav -->

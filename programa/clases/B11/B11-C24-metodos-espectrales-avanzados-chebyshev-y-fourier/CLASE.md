@@ -1,7 +1,7 @@
 # B11-C24 — Métodos espectrales avanzados (Chebyshev y Fourier)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C23 — Optimización restringida: Lagrange, KKT y SQP](../B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md) · [Siguiente: B11-C25 — Aritmética de punto flotante y errores de redondeo →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c25)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C23 — Optimización restringida: Lagrange, KKT y SQP](../B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md) · [Siguiente: B11-C25 — Aritmética de punto flotante y errores de redondeo →](../B11-C25-aritmetica-de-punto-flotante-y-errores-de-redondeo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -326,5 +326,5 @@ La matriz de Chebyshev es exacta hasta el grado `N`; la colocación resuelve un 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B11-C23 — Optimización restringida: Lagrange, KKT y SQP](../B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C25 — Aritmética de punto flotante y errores de redondeo →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c25)
+[← Anterior: B11-C23 — Optimización restringida: Lagrange, KKT y SQP](../B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C25 — Aritmética de punto flotante y errores de redondeo →](../B11-C25-aritmetica-de-punto-flotante-y-errores-de-redondeo/CLASE.md)
 <!-- /nav -->
