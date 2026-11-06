@@ -1,7 +1,7 @@
 # B14-C16 — Computación distribuida y HPC
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C15 — Cálculo en GPU y limitaciones](../B14-C15-calculo-en-gpu-y-limitaciones/CLASE.md) · [Siguiente: B14-C17 — Contenedores y ambientes científicos →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C15 — Cálculo en GPU y limitaciones](../B14-C15-calculo-en-gpu-y-limitaciones/CLASE.md) · [Siguiente: B14-C17 — Contenedores y ambientes científicos →](../B14-C17-contenedores-y-ambientes-cientificos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -321,5 +321,5 @@ En un clúster los trabajos se piden con un guion y los recursos se justifican c
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C15 — Cálculo en GPU y limitaciones](../B14-C15-calculo-en-gpu-y-limitaciones/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C17 — Contenedores y ambientes científicos →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c17)
+[← Anterior: B14-C15 — Cálculo en GPU y limitaciones](../B14-C15-calculo-en-gpu-y-limitaciones/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C17 — Contenedores y ambientes científicos →](../B14-C17-contenedores-y-ambientes-cientificos/CLASE.md)
 <!-- /nav -->

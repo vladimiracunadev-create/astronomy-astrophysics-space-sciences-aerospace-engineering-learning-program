@@ -81,10 +81,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b14-c17"></a>B14-C17 | Contenedores y ambientes científicos | Imágenes y contenedores para empaquetar un entorno; qué reproducen y qué no. | Definición de contenedor verificada |
-| <a id="b14-c18"></a>B14-C18 | Flujos de datos espaciales | De la adquisición a la tabla analizable: archivos remotos, consultas, caché y procedencia. | Diagrama de flujo con procedencia |
-| <a id="b14-c19"></a>B14-C19 | Publicación de código y datos | Licencias, metadatos, citación, identificadores persistentes y principios FAIR. | Paquete publicable con ficha de metadatos |
-| <a id="b14-c20"></a>B14-C20 | Proyecto reproducible de análisis astronómico | Integrar arquitectura, datos, pruebas, entorno y publicación en un análisis completo. | Repositorio reproducible con informe |
+| <a id="b14-c17"></a>[B14-C17](../clases/B14/B14-C17-contenedores-y-ambientes-cientificos/CLASE.md) | Contenedores y ambientes científicos | Imágenes y contenedores para empaquetar un entorno; qué reproducen y qué no. | Definición de contenedor verificada |
+| <a id="b14-c18"></a>[B14-C18](../clases/B14/B14-C18-flujos-de-datos-espaciales/CLASE.md) | Flujos de datos espaciales | De la adquisición a la tabla analizable: archivos remotos, consultas, caché y procedencia. | Diagrama de flujo con procedencia |
+| <a id="b14-c19"></a>[B14-C19](../clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md) | Publicación de código y datos | Licencias, metadatos, citación, identificadores persistentes y principios FAIR. | Paquete publicable con ficha de metadatos |
+| <a id="b14-c20"></a>[B14-C20](../clases/B14/B14-C20-proyecto-reproducible-de-analisis-astronomico/CLASE.md) | Proyecto reproducible de análisis astronómico | Integrar arquitectura, datos, pruebas, entorno y publicación en un análisis completo. | Repositorio reproducible con informe |
 
 ### Tramo 6 · Ampliación programada (sin redactar)
 
