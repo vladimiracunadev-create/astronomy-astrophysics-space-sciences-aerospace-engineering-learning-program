@@ -15,6 +15,7 @@
 | Rutas profesionales (recorridos sobre áreas y bloques) | 24 | `metadatos/recorridos/` |
 | Clases en E0 | todas las del programa | catálogo |
 | Clases con texto redactado (A01, B01–B08) | 160 de 160; B01-C01 aprobada por el autor, las otras 159 pendientes de aprobación; ninguna con revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A02, B09–B23) | 237 de 237 (160 de la línea base y 77 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases programadas (citadas, ubicadas, sin redactar) | 797 | `catalogo/v0.2.0/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |

@@ -10,7 +10,7 @@ Este roadmap resume la resolución del repositorio y de sus contenidos. El detal
 - [x] Visor estático con búsqueda y filtros.
 - [x] Validador reproducible de estructura y estado preliminar.
 - [x] Estándar `clase-profunda-cientifica` y estados E0–E6 documentados.
-- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa `0.2.0`; 160 con texto redactado en A01).
+- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa `0.2.0`; 397 con texto redactado en A01 y A02).
 
 ## Horizonte A · integridad y publicación
 

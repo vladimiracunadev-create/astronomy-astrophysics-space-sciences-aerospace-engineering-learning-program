@@ -14,6 +14,7 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 ### Añadido
 
 - 160 clases redactadas del área A01 (B01–B08), con fichas, ejercicios y laboratorios; pendientes de revisión disciplinar.
+- 237 clases redactadas del área A02 (B09–B23), 160 de la línea base y 77 antes programadas, con fichas, ejercicios, laboratorios y guía de cada bloque; pendientes de revisión disciplinar.
 - `catalogo/v0.2.0/` (colocación, estructura, clases programadas, equivalencias) y herramientas de validación y generación.
 
 ### Estado honesto

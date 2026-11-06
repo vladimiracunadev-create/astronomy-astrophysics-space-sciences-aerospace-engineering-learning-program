@@ -31,7 +31,7 @@
 ---
 
 > [!IMPORTANT]
-> **El programa está planificado (2.077 clases en 133 bloques) y todas sus clases siguen en E0.** Hay **160 clases con texto redactado** (el área A01, bloques B01 a B08), pendientes de aprobación y de revisión disciplinar; las otras 1.120 de la línea base solo tienen título y descripción preliminar y las 797 restantes están programadas, sin redactar. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/2.077**.
+> **El programa está planificado (2.077 clases en 133 bloques) y todas sus clases siguen en E0.** Hay **397 clases con texto redactado**: el área A01 (160, bloques B01 a B08) y el área A02 (237, bloques B09 a B23, de ellas 160 de la línea base y 77 antes programadas), pendientes de aprobación y de revisión disciplinar. Las otras 960 de la línea base solo tienen título y descripción preliminar y las 720 programadas restantes siguen sin redactar. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/2.077**.
 
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
@@ -410,7 +410,7 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
 - [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
 - [`programa/tronco-comun/`](programa/tronco-comun/): fichas de los 64 bloques de la línea base.
-- [`programa/clases/`](programa/clases/): las 160 clases redactadas de A01.
+- [`programa/clases/`](programa/clases/): las 397 clases redactadas de A01 y A02.
 - [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
 - [`metadatos/`](metadatos/): inventarios y relaciones estructurales.
 - [`documentacion/`](documentacion/): alcance, pedagogía, experiencia, cobertura, rutas y plan de implementación.

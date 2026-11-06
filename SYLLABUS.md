@@ -1,6 +1,6 @@
 # Syllabus general
 
-Este syllabus describe la arquitectura del único programa y no afirma que existan clases redactadas más allá de las 160 de A01. La línea base actual está en E0: títulos, ubicación y referencias preliminares.
+Este syllabus describe la arquitectura del único programa y no afirma que existan clases redactadas más allá de las 397 de A01 y A02. La línea base actual está en E0: títulos, ubicación y referencias preliminares.
 
 ## Propósito
 
