@@ -1,6 +1,7 @@
 # B11-C10 — Conservación de energía numérica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C09 — Análisis de estabilidad numérica](../B11-C09-analisis-de-estabilidad-numerica/CLASE.md) · [Siguiente: B11-C11 — Métodos simplécticos →](../B11-C11-metodos-simplecticos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,4 +323,7 @@ La energía y el momento angular son pruebas baratas; Euler y Heun derivan de fo
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C09 — Análisis de estabilidad numérica](../B11-C09-analisis-de-estabilidad-numerica/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C11 — Métodos simplécticos →](../B11-C11-metodos-simplecticos/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B11-C09 — Análisis de estabilidad numérica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C08 — Integradores de paso adaptativo](../B11-C08-integradores-de-paso-adaptativo/CLASE.md) · [Siguiente: B11-C10 — Conservación de energía numérica →](../B11-C10-conservacion-de-energia-numerica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,4 +312,7 @@ Cada paso multiplica el error por `R(hλ)`; la estabilidad exige `|R| ≤ 1`; el
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C08 — Integradores de paso adaptativo](../B11-C08-integradores-de-paso-adaptativo/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C10 — Conservación de energía numérica →](../B11-C10-conservacion-de-energia-numerica/CLASE.md)
 <!-- /nav -->

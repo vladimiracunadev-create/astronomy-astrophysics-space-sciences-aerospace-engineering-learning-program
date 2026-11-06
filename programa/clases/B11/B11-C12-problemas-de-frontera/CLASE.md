@@ -1,6 +1,7 @@
 # B11-C12 — Problemas de frontera
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C11 — Métodos simplécticos](../B11-C11-metodos-simplecticos/CLASE.md) · [Siguiente: B11-C13 — Ecuaciones en derivadas parciales →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c13)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,4 +313,7 @@ Un BVP pone condiciones en dos extremos y puede tener cero, una o varias solucio
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C11 — Métodos simplécticos](../B11-C11-metodos-simplecticos/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C13 — Ecuaciones en derivadas parciales →](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md#b11-c13)
 <!-- /nav -->

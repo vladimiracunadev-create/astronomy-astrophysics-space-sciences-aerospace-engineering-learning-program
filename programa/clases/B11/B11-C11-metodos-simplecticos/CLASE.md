@@ -1,6 +1,7 @@
 # B11-C11 — Métodos simplécticos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [← Anterior: B11-C10 — Conservación de energía numérica](../B11-C10-conservacion-de-energia-numerica/CLASE.md) · [Siguiente: B11-C12 — Problemas de frontera →](../B11-C12-problemas-de-frontera/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -329,4 +330,7 @@ El leapfrog es de orden 2, reversible y simpléctico: su error de energía queda
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B11-C10 — Conservación de energía numérica](../B11-C10-conservacion-de-energia-numerica/CLASE.md) · [📚 Bloque B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) · [Siguiente: B11-C12 — Problemas de frontera →](../B11-C12-problemas-de-frontera/CLASE.md)
 <!-- /nav -->
