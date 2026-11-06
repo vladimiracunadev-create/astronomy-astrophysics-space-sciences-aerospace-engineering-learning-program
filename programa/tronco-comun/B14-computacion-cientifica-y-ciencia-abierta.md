@@ -63,10 +63,10 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b14-c09"></a>B14-C09 | Jupyter y experimentos reproducibles | Cuadernos como registro de un experimento: orden de ejecución, semillas, estado oculto y exportación. | Cuaderno que se ejecuta de principio a fin |
-| <a id="b14-c10"></a>B14-C10 | Pruebas de regresión numérica | Fijar resultados de referencia, tolerancias y detección de cambios numéricos entre versiones. | Batería de regresión con tolerancias justificadas |
-| <a id="b14-c11"></a>B14-C11 | Control de versiones de datos | Versionar datos grandes con sumas de verificación y metadatos sin duplicar el repositorio. | Historial de datos con verificación de integridad |
-| <a id="b14-c12"></a>B14-C12 | Ejecución reproducible con uv | Fijar versiones de Python y dependencias en un archivo de bloqueo y recrear el entorno. | Entorno recreable desde cero |
+| <a id="b14-c09"></a>[B14-C09](../clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md) | Jupyter y experimentos reproducibles | Cuadernos como registro de un experimento: orden de ejecución, semillas, estado oculto y exportación. | Cuaderno que se ejecuta de principio a fin |
+| <a id="b14-c10"></a>[B14-C10](../clases/B14/B14-C10-pruebas-de-regresion-numerica/CLASE.md) | Pruebas de regresión numérica | Fijar resultados de referencia, tolerancias y detección de cambios numéricos entre versiones. | Batería de regresión con tolerancias justificadas |
+| <a id="b14-c11"></a>[B14-C11](../clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md) | Control de versiones de datos | Versionar datos grandes con sumas de verificación y metadatos sin duplicar el repositorio. | Historial de datos con verificación de integridad |
+| <a id="b14-c12"></a>[B14-C12](../clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md) | Ejecución reproducible con uv | Fijar versiones de Python y dependencias en un archivo de bloqueo y recrear el entorno. | Entorno recreable desde cero |
 
 ### Tramo 4 · Rendimiento y escala
 

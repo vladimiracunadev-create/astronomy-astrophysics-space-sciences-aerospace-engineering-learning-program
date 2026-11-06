@@ -1,7 +1,7 @@
 # B14-C08 — Pandas y limpieza de datos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C07 — HDF5 y almacenamiento científico](../B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md) · [Siguiente: B14-C09 — Jupyter y experimentos reproducibles →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C07 — HDF5 y almacenamiento científico](../B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md) · [Siguiente: B14-C09 — Jupyter y experimentos reproducibles →](../B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Limpiar es una cadena de pasos contables: normalizar, convertir centinelas, quit
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C07 — HDF5 y almacenamiento científico](../B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C09 — Jupyter y experimentos reproducibles →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c09)
+[← Anterior: B14-C07 — HDF5 y almacenamiento científico](../B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C09 — Jupyter y experimentos reproducibles →](../B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md)
 <!-- /nav -->
