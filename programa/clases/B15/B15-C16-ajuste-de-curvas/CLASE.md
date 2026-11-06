@@ -1,6 +1,7 @@
 # B15-C16 — Ajuste de curvas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C15 — Estimación de parámetros — Señales, imágenes y estimación científica](../B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md) · [Siguiente: B15-C17 — Filtros de Kalman introductorios →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c17)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -323,4 +324,7 @@ Ajustar es minimizar la suma de cuadrados de los residuos; los modelos lineales 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C15 — Estimación de parámetros — Señales, imágenes y estimación científica](../B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C17 — Filtros de Kalman introductorios →](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md#b15-c17)
 <!-- /nav -->

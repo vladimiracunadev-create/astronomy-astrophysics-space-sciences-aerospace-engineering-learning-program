@@ -1,6 +1,7 @@
 # B15-C15 — Estimación de parámetros — Señales, imágenes y estimación científica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C14 — Registro y alineación](../B15-C14-registro-y-alineacion/CLASE.md) · [Siguiente: B15-C16 — Ajuste de curvas →](../B15-C16-ajuste-de-curvas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,4 +307,7 @@ Un estimador se juzga por sesgo y varianza; el MLE es eficiente con muchos datos
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C14 — Registro y alineación](../B15-C14-registro-y-alineacion/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C16 — Ajuste de curvas →](../B15-C16-ajuste-de-curvas/CLASE.md)
 <!-- /nav -->

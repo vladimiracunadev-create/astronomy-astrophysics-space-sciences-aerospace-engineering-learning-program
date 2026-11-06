@@ -68,14 +68,14 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b15-c11"></a>[B15-C11](../clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md) | Deconvolución y enfoque | PSF, desenfoque como convolución y deconvolución (Richardson–Lucy); amplificación del ruido. | Deconvolución con medida de mejora y de artefactos |
 | <a id="b15-c12"></a>[B15-C12](../clases/B15/B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md) | Detección de fuentes astronómicas | Estimar el fondo, umbral de significancia, relación señal–ruido, completitud y falsos positivos. | Catálogo de fuentes con criterios de detección |
 | <a id="b15-c13"></a>[B15-C13](../clases/B15/B15-C13-segmentacion-de-imagenes/CLASE.md) | Segmentación de imágenes | Umbralización, regiones conectadas y métricas de acuerdo; separar objetos del fondo. | Máscara segmentada con métricas |
-| <a id="b15-c14"></a>B15-C14 | Registro y alineación | Correlación cruzada y transformaciones afines; alineación con precisión subpíxel. | Alineación con error medido |
+| <a id="b15-c14"></a>[B15-C14](../clases/B15/B15-C14-registro-y-alineacion/CLASE.md) | Registro y alineación | Correlación cruzada y transformaciones afines; alineación con precisión subpíxel. | Alineación con error medido |
 
 ### Tramo 4 · Estimación y seguimiento
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b15-c15"></a>B15-C15 | Estimación de parámetros — Señales, imágenes y estimación científica | Estimadores, sesgo y varianza, máxima verosimilitud y cota de Cramér–Rao aplicadas a señales. | Estimador comparado con su cota |
-| <a id="b15-c16"></a>B15-C16 | Ajuste de curvas | Mínimos cuadrados lineales y no lineales, residuos, χ² e incertidumbre de los parámetros. | Ajuste con residuos y parámetros con error |
+| <a id="b15-c15"></a>[B15-C15](../clases/B15/B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md) | Estimación de parámetros — Señales, imágenes y estimación científica | Estimadores, sesgo y varianza, máxima verosimilitud y cota de Cramér–Rao aplicadas a señales. | Estimador comparado con su cota |
+| <a id="b15-c16"></a>[B15-C16](../clases/B15/B15-C16-ajuste-de-curvas/CLASE.md) | Ajuste de curvas | Mínimos cuadrados lineales y no lineales, residuos, χ² e incertidumbre de los parámetros. | Ajuste con residuos y parámetros con error |
 | <a id="b15-c17"></a>B15-C17 | Filtros de Kalman introductorios | Modelo de estado, predicción y actualización; seguimiento de un objeto en una dimensión. | Seguimiento filtrado frente a verdad conocida |
 | <a id="b15-c18"></a>B15-C18 | Filtros de partículas iniciales | Representar la incertidumbre con muestras ponderadas; remuestreo y casos no lineales. | Seguimiento por partículas comparado con Kalman |
 | <a id="b15-c19"></a>B15-C19 | Reconstrucción por datos incompletos | Interpolar, regularizar y reconstruir con huecos; cuantificar el error de la reconstrucción. | Reconstrucción con error medido |

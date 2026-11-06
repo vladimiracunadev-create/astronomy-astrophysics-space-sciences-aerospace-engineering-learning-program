@@ -1,6 +1,7 @@
 # B15-C14 — Registro y alineación
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [← Anterior: B15-C13 — Segmentación de imágenes](../B15-C13-segmentacion-de-imagenes/CLASE.md) · [Siguiente: B15-C15 — Estimación de parámetros — Señales, imágenes y estimación científica →](../B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,4 +317,7 @@ Registrar es estimar la transformación entre imágenes; la correlación de fase
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B15-C13 — Segmentación de imágenes](../B15-C13-segmentacion-de-imagenes/CLASE.md) · [📚 Bloque B15](../../../tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) · [Siguiente: B15-C15 — Estimación de parámetros — Señales, imágenes y estimación científica →](../B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md)
 <!-- /nav -->
