@@ -8,7 +8,7 @@
 
 Vigésima y última clase del bloque B08. Integras todo lo anterior —orientación, coordenadas, tiempo, Luna, planetas, brillo, cielo oscuro, instrumentos, seguridad, registro, meteoros y fotografía— en un **proyecto de campaña de observación nocturna**, tratado como un problema de ingeniería: tiene requisitos, componentes, criterios de comprobación y una decisión de seguir o cancelar. Nivel N1.
 
-Verás cómo escribir requisitos verificables, dividir la campaña en componentes, decidir con datos si se sale, asignar roles, prever riesgos y cerrar con un informe. No verás gestión de proyectos formal (B49, B64) ni observación profesional (B32).
+Verás cómo escribir requisitos verificables, dividir la campaña en componentes, decidir con datos si se sale, asignar roles, prever riesgos y cerrar con un informe. No verás gestión de proyectos formal (B83, B124) ni observación profesional (B48).
 
 ## 2. Por qué esta clase existe
 
@@ -271,7 +271,7 @@ Una campaña de observación es un proyecto con requisitos verificables, compone
 
 **Glosario español–inglés.** campaña de observación · *observing campaign*; requisito · *requirement*; criterio de comprobación · *verification criterion*; go / no-go · *go / no-go*; plan de contingencia · *contingency plan*; informe de cierre · *closing report*; trazabilidad · *traceability*.
 
-**Continuidad.** Con B08 termina la parte práctica de A01. Los bloques B09 en adelante retoman las herramientas matemáticas y físicas; B32 trata las operaciones de observatorios científicos.
+**Continuidad.** Con B08 termina la parte práctica de A01. Los bloques B09 en adelante retoman las herramientas matemáticas y físicas; B48 trata las operaciones de observatorios científicos.
 
 **Referencias:** ver sección 11.
 

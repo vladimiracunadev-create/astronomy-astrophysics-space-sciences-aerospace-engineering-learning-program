@@ -94,7 +94,7 @@ Si observas una estrella desde dos puntos separados por una base `b`, su direcci
 
 ### 8.6 Resolución angular y tamaño mínimo
 
-Un instrumento que distingue detalles de `θ` radianes a distancia `d` resuelve estructuras de tamaño `d·θ`. Con `θ = 1″` y `d = 384 400 km`: `384 400 × 4,848 × 10⁻⁶ = 1,86 km`. Es el tamaño del detalle más pequeño que se separa en la Luna. Se estudia en B25 y B26.
+Un instrumento que distingue detalles de `θ` radianes a distancia `d` resuelve estructuras de tamaño `d·θ`. Con `θ = 1″` y `d = 384 400 km`: `384 400 × 4,848 × 10⁻⁶ = 1,86 km`. Es el tamaño del detalle más pequeño que se separa en la Luna. Se estudia en B41 y B42.
 
 ## 9. Magnitudes, símbolos y unidades
 

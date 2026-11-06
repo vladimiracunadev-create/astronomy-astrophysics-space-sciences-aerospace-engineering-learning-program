@@ -13,7 +13,7 @@
             "area": "A03",
             "bloque": "nuevo: Física avanzada de plasmas y MHD espacial",
             "titulo": "Funciones de distribución de velocidades en plasmas",
-            "necesidad": "Introduce la función de distribución (Maxwell, kappa) como objeto central de la física de plasmas; B23 trata partículas cargadas y Debye pero no describe el plasma mediante distribuciones."
+            "necesidad": "Introduce la función de distribución (Maxwell, kappa) como objeto central de la física de plasmas; B30 trata partículas cargadas y Debye pero no describe el plasma mediante distribuciones."
           }
         },
         {
@@ -21,7 +21,7 @@
           "tema": "Debye shielding",
           "destino": "existente",
           "tronco": [
-            "B23-C07"
+            "B30-C07"
           ]
         },
         {
@@ -29,7 +29,7 @@
           "tema": "Frecuencia de plasma",
           "destino": "existente",
           "tronco": [
-            "B23-C08"
+            "B30-C08"
           ]
         },
         {
@@ -37,7 +37,7 @@
           "tema": "Radio de Larmor",
           "destino": "existente",
           "tronco": [
-            "B23-C06"
+            "B30-C06"
           ]
         },
         {
@@ -48,7 +48,7 @@
             "area": "A03",
             "bloque": "nuevo: Física avanzada de plasmas y MHD espacial",
             "titulo": "Ondas de Alfvén y ondas magnetosónicas",
-            "necesidad": "B23-C08 cubre ondas de plasma electrostáticas y B23-C09 la MHD en general, pero ninguna clase desarrolla la dispersión y propagación de ondas de Alfvén."
+            "necesidad": "B30-C08 cubre ondas de plasma electrostáticas y B30-C09 la MHD en general, pero ninguna clase desarrolla la dispersión y propagación de ondas de Alfvén."
           }
         },
         {
@@ -56,7 +56,7 @@
           "tema": "Ondas electrostáticas",
           "destino": "existente",
           "tronco": [
-            "B23-C08"
+            "B30-C08"
           ]
         },
         {
@@ -78,7 +78,7 @@
             "area": "A03",
             "bloque": "nuevo: Física avanzada de plasmas y MHD espacial",
             "titulo": "Colisiones, régimen cinético y ecuación de Vlasov",
-            "necesidad": "Se necesita el criterio fluido frente a cinético y la ecuación de Vlasov; B23 asume el plasma como fluido sin establecer cuándo falla esa descripción."
+            "necesidad": "Se necesita el criterio fluido frente a cinético y la ecuación de Vlasov; B30 asume el plasma como fluido sin establecer cuándo falla esa descripción."
           }
         },
         {
@@ -100,7 +100,7 @@
             "area": "A03",
             "bloque": "nuevo: Física avanzada de plasmas y MHD espacial",
             "titulo": "Mediciones in situ de plasmas espaciales",
-            "necesidad": "Enseña a interpretar mediciones de naves (distribuciones, campos, momentos) y sus sesgos; B31-C09 trata el detector pero no el análisis del plasma medido."
+            "necesidad": "Enseña a interpretar mediciones de naves (distribuciones, campos, momentos) y sus sesgos; B47-C09 trata el detector pero no el análisis del plasma medido."
           }
         }
       ]
@@ -114,7 +114,7 @@
           "tema": "Ecuaciones MHD",
           "destino": "existente",
           "tronco": [
-            "B23-C09"
+            "B30-C09"
           ]
         },
         {
@@ -125,7 +125,7 @@
             "area": "A03",
             "bloque": "nuevo: Física avanzada de plasmas y MHD espacial",
             "titulo": "Congelamiento del flujo magnético y conservación en MHD ideal",
-            "necesidad": "Teorema de Alfvén y conservación de flujo y helicidad; B23-C09 presenta las ecuaciones MHD sin desarrollar las leyes de conservación que sostienen el resto del módulo."
+            "necesidad": "Teorema de Alfvén y conservación de flujo y helicidad; B30-C09 presenta las ecuaciones MHD sin desarrollar las leyes de conservación que sostienen el resto del módulo."
           }
         },
         {
@@ -136,7 +136,7 @@
             "area": "A03",
             "bloque": "nuevo: Física avanzada de plasmas y MHD espacial",
             "titulo": "Flujos de plasma estacionarios y balance de presiones",
-            "necesidad": "Flujos, equilibrio de presiones y Bernoulli magnético; no están en B23 ni en B09-B11."
+            "necesidad": "Flujos, equilibrio de presiones y Bernoulli magnético; no están en B30 ni en B09-B11."
           }
         },
         {
@@ -144,7 +144,7 @@
           "tema": "Choques magnetohidrodinámicos",
           "destino": "existente",
           "tronco": [
-            "B23-C14"
+            "B30-C14"
           ]
         },
         {
@@ -152,7 +152,7 @@
           "tema": "Re conexión magnética",
           "destino": "existente",
           "tronco": [
-            "B23-C11"
+            "B30-C11"
           ]
         },
         {
@@ -182,7 +182,7 @@
           "tema": "Modelos de viento solar",
           "destino": "existente",
           "tronco": [
-            "B23-C10"
+            "B30-C10"
           ]
         },
         {
@@ -218,7 +218,7 @@
           "tema": "Estructura coronal",
           "destino": "existente",
           "tronco": [
-            "B23-C02"
+            "B30-C02"
           ]
         },
         {
@@ -226,7 +226,7 @@
           "tema": "Campos coronales",
           "destino": "existente",
           "tronco": [
-            "B23-C05"
+            "B30-C05"
           ]
         },
         {
@@ -237,7 +237,7 @@
             "area": "A03",
             "bloque": "nuevo: Corona solar y erupciones: diagnóstico y modelos",
             "titulo": "Calentamiento coronal: mecanismos y evidencias",
-            "necesidad": "B23-C02 describe la corona pero no el problema del calentamiento (ondas frente a nanofulguraciones), competencia central de la física coronal."
+            "necesidad": "B30-C02 describe la corona pero no el problema del calentamiento (ondas frente a nanofulguraciones), competencia central de la física coronal."
           }
         },
         {
@@ -248,7 +248,7 @@
             "area": "A03",
             "bloque": "nuevo: Corona solar y erupciones: diagnóstico y modelos",
             "titulo": "Emisión EUV y rayos X de la corona",
-            "necesidad": "Formación de líneas EUV, función de contribución y medida de emisión; B29 trata espectroscopía general, no plasma coronal."
+            "necesidad": "Formación de líneas EUV, función de contribución y medida de emisión; B45 trata espectroscopía general, no plasma coronal."
           }
         },
         {
@@ -259,7 +259,7 @@
             "area": "A03",
             "bloque": "nuevo: Corona solar y erupciones: diagnóstico y modelos",
             "titulo": "Bucles magnéticos coronales",
-            "necesidad": "Estructura, equilibrio y oscilaciones de los bucles; no cubierto en B23."
+            "necesidad": "Estructura, equilibrio y oscilaciones de los bucles; no cubierto en B30."
           }
         },
         {
@@ -281,7 +281,7 @@
             "area": "A03",
             "bloque": "nuevo: Corona solar y erupciones: diagnóstico y modelos",
             "titulo": "Diagnóstico de densidad electrónica coronal",
-            "necesidad": "Cocientes de líneas y medida de emisión para inferir densidad; B29 no aplica la espectroscopía a plasma coronal."
+            "necesidad": "Cocientes de líneas y medida de emisión para inferir densidad; B45 no aplica la espectroscopía a plasma coronal."
           }
         },
         {
@@ -289,9 +289,9 @@
           "tema": "Espectros solares",
           "destino": "existente",
           "tronco": [
-            "B29-C10",
-            "B29-C11",
-            "B29-C12"
+            "B45-C10",
+            "B45-C11",
+            "B45-C12"
           ]
         },
         {
@@ -327,7 +327,7 @@
           "tema": "Fulguraciones solares",
           "destino": "existente",
           "tronco": [
-            "B23-C12"
+            "B30-C12"
           ]
         },
         {
@@ -335,7 +335,7 @@
           "tema": "Eyecciones de masa coronal",
           "destino": "existente",
           "tronco": [
-            "B23-C13"
+            "B30-C13"
           ]
         },
         {
@@ -346,7 +346,7 @@
             "area": "A03",
             "bloque": "nuevo: Corona solar y erupciones: diagnóstico y modelos",
             "titulo": "Erupciones de filamentos y prominencias",
-            "necesidad": "Equilibrio, inestabilidad y erupción de filamentos como precursores de CME; B23-C13 trata la CME ya eyectada."
+            "necesidad": "Equilibrio, inestabilidad y erupción de filamentos como precursores de CME; B30-C13 trata la CME ya eyectada."
           }
         },
         {
@@ -354,7 +354,7 @@
           "tema": "Aceleración de partículas",
           "destino": "existente",
           "tronco": [
-            "B23-C14"
+            "B30-C14"
           ]
         },
         {
@@ -362,7 +362,7 @@
           "tema": "Campos y reconexión",
           "destino": "existente",
           "tronco": [
-            "B23-C11"
+            "B30-C11"
           ]
         },
         {
@@ -373,7 +373,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Modelos de propagación de CME",
-            "necesidad": "Modelos de arrastre y MHD para la llegada de CME a la Tierra; B23-C13 describe el fenómeno sin modelar su propagación."
+            "necesidad": "Modelos de arrastre y MHD para la llegada de CME a la Tierra; B30-C13 describe el fenómeno sin modelar su propagación."
           }
         },
         {
@@ -381,7 +381,7 @@
           "tema": "Choques interplanetarios",
           "destino": "existente",
           "tronco": [
-            "B23-C14"
+            "B30-C14"
           ]
         },
         {
@@ -392,7 +392,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Eventos extremos históricos de clima espacial",
-            "necesidad": "Carrington 1859, Quebec 1989 y Halloween 2003 como casos para dimensionar el peor escenario; B23-C19 es solo panorama."
+            "necesidad": "Carrington 1859, Quebec 1989 y Halloween 2003 como casos para dimensionar el peor escenario; B30-C19 es solo panorama."
           }
         },
         {
@@ -403,7 +403,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Escalas de severidad de clima espacial",
-            "necesidad": "Escalas NOAA G/S/R y su construcción; necesarias para medir y comunicar severidad y ausentes en B23."
+            "necesidad": "Escalas NOAA G/S/R y su construcción; necesarias para medir y comunicar severidad y ausentes en B30."
           }
         },
         {
@@ -414,7 +414,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Comunicación de riesgo y alertas de clima espacial",
-            "necesidad": "Redacción de alertas operativas para usuarios no expertos; B64-C18 trata divulgación general, no alertas de riesgo."
+            "necesidad": "Redacción de alertas operativas para usuarios no expertos; B124-C18 trata divulgación general, no alertas de riesgo."
           }
         }
       ]
@@ -428,7 +428,7 @@
           "tema": "Magnetopausa",
           "destino": "existente",
           "tronco": [
-            "B23-C15"
+            "B30-C15"
           ]
         },
         {
@@ -436,7 +436,7 @@
           "tema": "Cola magnética",
           "destino": "existente",
           "tronco": [
-            "B23-C15"
+            "B30-C15"
           ]
         },
         {
@@ -445,9 +445,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B23",
+            "bloque": "B30",
             "titulo": "Anillo de corriente y corrientes magnetosféricas",
-            "necesidad": "B23-C15 a C18 tratan magnetosfera y tormentas, pero ninguna explica el anillo de corriente ni su relación con el índice Dst."
+            "necesidad": "B30-C15 a C18 tratan magnetosfera y tormentas, pero ninguna explica el anillo de corriente ni su relación con el índice Dst."
           }
         },
         {
@@ -455,7 +455,7 @@
           "tema": "Cinturones de radiación",
           "destino": "existente",
           "tronco": [
-            "B23-C16"
+            "B30-C16"
           ]
         },
         {
@@ -463,7 +463,7 @@
           "tema": "Tormentas geomagnéticas",
           "destino": "existente",
           "tronco": [
-            "B23-C18"
+            "B30-C18"
           ]
         },
         {
@@ -471,7 +471,7 @@
           "tema": "Corrientes ionosféricas",
           "destino": "existente",
           "tronco": [
-            "B23-C17"
+            "B30-C17"
           ]
         },
         {
@@ -479,7 +479,7 @@
           "tema": "Precipitación auroral",
           "destino": "existente",
           "tronco": [
-            "B23-C17"
+            "B30-C17"
           ]
         },
         {
@@ -488,9 +488,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B23",
+            "bloque": "B30",
             "titulo": "Índices geomagnéticos Kp y Dst",
-            "necesidad": "Definición, cálculo y uso de los índices; B23-C18 menciona tormentas sin enseñar los índices ni su construcción."
+            "necesidad": "Definición, cálculo y uso de los índices; B30-C18 menciona tormentas sin enseñar los índices ni su construcción."
           }
         },
         {
@@ -499,9 +499,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Efectos de partículas energéticas en electrónica y materiales",
-            "necesidad": "B51 trata entorno térmico y de superficie, pero no efectos de evento único ni dosis total ionizante en componentes."
+            "necesidad": "B85 trata entorno térmico y de superficie, pero no efectos de evento único ni dosis total ionizante en componentes."
           }
         },
         {
@@ -510,7 +510,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Modelos de exposición a radiación en órbita",
             "necesidad": "Uso de modelos AE9/AP9 y herramientas tipo SPENVIS para calcular dosis por órbita; ninguna clase actual los trata."
           }
@@ -526,7 +526,7 @@
           "tema": "Imágenes coronográficas",
           "destino": "existente",
           "tronco": [
-            "B31-C07"
+            "B47-C07"
           ]
         },
         {
@@ -535,9 +535,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B31",
+            "bloque": "B47",
             "titulo": "Magnetógrafos y medición de campos solares",
-            "necesidad": "B29-C15 trata polarimetría general; falta el magnetógrafo (efecto Zeeman) y la producción de magnetogramas."
+            "necesidad": "B45-C15 trata polarimetría general; falta el magnetógrafo (efecto Zeeman) y la producción de magnetogramas."
           }
         },
         {
@@ -546,9 +546,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B31",
+            "bloque": "B47",
             "titulo": "Misiones de física solar: SOHO, SDO y Solar Orbiter",
-            "necesidad": "B31 cubre observatorios espaciales generales, sin las misiones heliofísicas ni su instrumental específico."
+            "necesidad": "B47 cubre observatorios espaciales generales, sin las misiones heliofísicas ni su instrumental específico."
           }
         },
         {
@@ -557,9 +557,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B31",
+            "bloque": "B47",
             "titulo": "Sondas heliosféricas: Parker Solar Probe y Voyager",
-            "necesidad": "Diseño de mediciones in situ cerca del Sol y en el borde de la heliosfera; no cubierto en B31."
+            "necesidad": "Diseño de mediciones in situ cerca del Sol y en el borde de la heliosfera; no cubierto en B47."
           }
         },
         {
@@ -567,8 +567,8 @@
           "tema": "Detectores de partículas",
           "destino": "existente",
           "tronco": [
-            "B31-C09",
-            "B24-C14"
+            "B47-C09",
+            "B31-C14"
           ]
         },
         {
@@ -577,9 +577,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B31",
+            "bloque": "B47",
             "titulo": "Instrumentos de plasma y campos in situ",
-            "necesidad": "Analizadores electrostáticos, copas de Faraday y magnetómetros fluxgate para viento solar; no cubierto en B31."
+            "necesidad": "Analizadores electrostáticos, copas de Faraday y magnetómetros fluxgate para viento solar; no cubierto en B47."
           }
         },
         {
@@ -617,7 +617,7 @@
             "area": "A03",
             "bloque": "nuevo: Corona solar y erupciones: diagnóstico y modelos",
             "titulo": "Integración multiinstrumento de datos heliofísicos",
-            "necesidad": "Alinear imágenes, campos y partículas de varios instrumentos para un mismo evento; B21-C11 es multimensajero astrofísico, no heliofísico."
+            "necesidad": "Alinear imágenes, campos y partículas de varios instrumentos para un mismo evento; B28-C11 es multimensajero astrofísico, no heliofísico."
           }
         }
       ]
@@ -632,9 +632,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B55",
+            "bloque": "B89",
             "titulo": "Efectos ionosféricos y centelleo en señales GNSS",
-            "necesidad": "B55-C16 trata GNSS como navegación, pero no los errores y pérdidas de señal causados por perturbaciones ionosféricas."
+            "necesidad": "B89-C16 trata GNSS como navegación, pero no los errores y pérdidas de señal causados por perturbaciones ionosféricas."
           }
         },
         {
@@ -645,7 +645,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Corrientes geomagnéticas inducidas (GIC)",
-            "necesidad": "Acoplo geoeléctrico entre tormentas y conductores a tierra; B23-C19 solo lo enumera."
+            "necesidad": "Acoplo geoeléctrico entre tormentas y conductores a tierra; B30-C19 solo lo enumera."
           }
         },
         {
@@ -667,7 +667,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Dosis de radiación en aviación",
-            "necesidad": "Cálculo de dosis en vuelos polares y eventos de partículas; B59-C06 trata exposición de tripulaciones espaciales, no aviación."
+            "necesidad": "Cálculo de dosis en vuelos polares y eventos de partículas; B105-C06 trata exposición de tripulaciones espaciales, no aviación."
           }
         },
         {
@@ -675,9 +675,9 @@
           "tema": "Efectos en satélites",
           "destino": "existente",
           "tronco": [
-            "B51-C15",
-            "B42-C06",
-            "B42-C07"
+            "B85-C15",
+            "B72-C06",
+            "B72-C07"
           ]
         },
         {
@@ -686,9 +686,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B55",
+            "bloque": "B89",
             "titulo": "Propagación ionosférica y comunicaciones HF",
-            "necesidad": "B55-C04 trata pérdidas en espacio libre; falta la reflexión ionosférica y la degradación HF durante tormentas."
+            "necesidad": "B89-C04 trata pérdidas en espacio libre; falta la reflexión ionosférica y la degradación HF durante tormentas."
           }
         },
         {
@@ -696,8 +696,8 @@
           "tema": "Radiación para tripulación",
           "destino": "existente",
           "tronco": [
-            "B59-C06",
-            "B59-C07"
+            "B105-C06",
+            "B105-C07"
           ]
         },
         {
@@ -705,7 +705,7 @@
           "tema": "Gestión de infraestructura crítica",
           "destino": "existente",
           "tronco": [
-            "B63-C16"
+            "B119-C16"
           ]
         },
         {
@@ -716,7 +716,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Planes de continuidad ante eventos de clima espacial",
-            "necesidad": "Plan escalonado de operación degradada y recuperación; B63-C16 trata la protección de infraestructura de forma general."
+            "necesidad": "Plan escalonado de operación degradada y recuperación; B119-C16 trata la protección de infraestructura de forma general."
           }
         },
         {
@@ -724,7 +724,7 @@
           "tema": "Análisis de episodio documentado",
           "destino": "existente",
           "tronco": [
-            "B23-C20"
+            "B30-C20"
           ]
         }
       ]
@@ -741,7 +741,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Modelos de viento solar para pronóstico (Parker y WSA)",
-            "necesidad": "B23-C10 describe el viento solar; falta construir y usar modelos que lo predicen como entrada de pronóstico."
+            "necesidad": "B30-C10 describe el viento solar; falta construir y usar modelos que lo predicen como entrada de pronóstico."
           }
         },
         {
@@ -763,7 +763,7 @@
             "area": "A03",
             "bloque": "nuevo: Clima espacial: impactos, pronóstico y riesgo",
             "titulo": "Pronóstico de llegada y severidad de CME",
-            "necesidad": "Predicción de tiempo de llegada y Bz de una CME; B23-C13 describe CME sin pronóstico."
+            "necesidad": "Predicción de tiempo de llegada y Bz de una CME; B30-C13 describe CME sin pronóstico."
           }
         },
         {
@@ -782,7 +782,7 @@
           "tema": "Asimilación de observaciones",
           "destino": "existente",
           "tronco": [
-            "B44-C08",
+            "B74-C08",
             "B15-C17"
           ]
         },

@@ -37,11 +37,11 @@ Dicho sin adornos: **las unidades y los márgenes** se equivocan con más frecue
 
 ### Conocimiento técnico
 
-- **Dinámica de lanzamiento y reentrada** ([**B47** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md)).
-- **Tecnologías de propulsión** ([**B48** · Tecnologías de propulsión espacial](../programa/tronco-comun/B48-tecnologias-de-propulsion-espacial.md)); **fluidos, termodinámica y aerotermodinámica de propulsión** ([**B95** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b95--fluidos-termodinámica-y-aerotermodinámica-de-propulsión)).
-- **Ingeniería de sistemas** ([**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md)); **gestión térmica** ([**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md)).
+- **Dinámica de lanzamiento y reentrada** ([**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md)).
+- **Tecnologías de propulsión** ([**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md)); **fluidos, termodinámica y aerotermodinámica de propulsión** ([**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--fluidos-termodinámica-y-aerotermodinámica-de-propulsión)).
+- **Ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)); **gestión térmica** ([**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
-- **Derecho, seguridad y geopolítica espacial** como contexto ([**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md)).
+- **Derecho, seguridad y geopolítica espacial** como contexto ([**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md)).
 
 ### Herramientas del oficio
 
@@ -90,27 +90,27 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-6. 📚 [**B42** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) — usa 1 de 21 clases: `B42-` C07
-7. 📚 [**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) — usa 2 de 30 clases: `B45-` C09, C18
-8. 📚 [**B47** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md) — usa 22 de 25 clases: `B47-` C01–C10, C12–C16, C18, C20–C25
-9. 📚 [**B48** · Tecnologías de propulsión espacial](../programa/tronco-comun/B48-tecnologias-de-propulsion-espacial.md) — usa 15 de 22 clases: `B48-` C01–C09, C17–C22
-10. 📚 [**B95** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b95--fluidos-termodinámica-y-aerotermodinámica-de-propulsión) — usa 16 de 16 clases: `B95-` C01–C16
+6. 📚 [**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) — usa 1 de 21 clases: `B72-` C07
+7. 📚 [**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) — usa 2 de 30 clases: `B75-` C09, C18
+8. 📚 [**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) — usa 22 de 25 clases: `B77-` C01–C10, C12–C16, C18, C20–C25
+9. 📚 [**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md) — usa 15 de 22 clases: `B78-` C01–C09, C17–C22
+10. 📚 [**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--fluidos-termodinámica-y-aerotermodinámica-de-propulsión) — usa 16 de 16 clases: `B79-` C01–C16
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-11. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 8 de 24 clases: `B49-` C04, C07, C13–C14, C16–C17, C21–C22
-12. 📚 [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) — usa 1 de 38 clases: `B50-` C09
-13. 📚 [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) — usa 2 de 29 clases: `B51-` C02, C04
-14. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — usa 3 de 23 clases: `B52-` C01, C08–C09
-15. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 1 de 24 clases: `B56-` C17
+11. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 8 de 24 clases: `B83-` C04, C07, C13–C14, C16–C17, C21–C22
+12. 📚 [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) — usa 1 de 38 clases: `B84-` C09
+13. 📚 [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) — usa 2 de 29 clases: `B85-` C02, C04
+14. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — usa 3 de 23 clases: `B86-` C01, C08–C09
+15. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 1 de 24 clases: `B90-` C17
 
 **A08 · Operaciones de misión y robótica espacial**
 
-16. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B57-` C19
+16. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B96-` C19
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-17. 📚 [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) — usa 7 de 36 clases: `B63-` C07–C08, C10, C21–C24
+17. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 7 de 36 clases: `B119-` C07–C08, C10, C21–C24
 
 <!-- /ruta -->
 
@@ -147,9 +147,9 @@ Roles vecinos con los que se comparte formación: [Astrodinámica interplanetari
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la física de tu diagnóstico.
-2. Estudia **dinámica de lanzamiento y reentrada** ([**B47** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md)) y **propulsión** ([**B48** · Tecnologías de propulsión espacial](../programa/tronco-comun/B48-tecnologias-de-propulsion-espacial.md)).
-3. Profundiza en **fluidos y termodinámica de propulsión** ([**B95** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b95--fluidos-termodinámica-y-aerotermodinámica-de-propulsión)).
-4. Avanza a **ingeniería de sistemas** ([**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md)) y **gestión térmica** ([**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md)).
+2. Estudia **dinámica de lanzamiento y reentrada** ([**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md)) y **propulsión** ([**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md)).
+3. Profundiza en **fluidos y termodinámica de propulsión** ([**B79** · Fluidos, termodinámica y aerotermodinámica de propulsión](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--fluidos-termodinámica-y-aerotermodinámica-de-propulsión)).
+4. Avanza a **ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)) y **gestión térmica** ([**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)).
 5. Reúne tu **análisis documentado** con su historial.
 
 <!-- pie:inicio -->

@@ -98,7 +98,7 @@ Evitar interfaces decorativas sin funcionalidad. Priorizar carga rápida, diseñ
 
 - Revisar siempre README, el catálogo, la estructura existente, las instrucciones de repositorio y el estado de pruebas antes de cambiar nada.
 - No sobrescribir ni eliminar módulos, clases, rutas, fuentes o trabajos previos válidos.
-- Preservar los IDs de la línea base (5.120); la reorganización `0.2.0` no borra ni renumera ninguno y las clases nuevas usan IDs nuevos.
+- Conservar las 5.120 clases de la línea base; la reorganización `0.2.0` no borra ninguna, numera los bloques de forma consecutiva (B01–B133) y registra el número anterior de cada bloque.
 - Cada etapa debe incluir matriz de cambios, pruebas automatizadas, registro de fuentes y contraste de cobertura.
 - Por cada bloque implementado: pruebas de calidad, reporte de errores y documentación de evolución.
 - Preferencias técnicas: `uv` para proyectos Python; `pnpm` para JS, evitando dependencias innecesarias. No imponer frameworks pesados.

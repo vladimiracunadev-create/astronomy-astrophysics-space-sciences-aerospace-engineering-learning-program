@@ -59,5 +59,5 @@ Se entra implementando y validando módulos (percepción, cinemática, control);
 
 - Un robot cerca de personas o de activos de terceros necesita límites de fuerza, distancia y parada segura verificados antes de operar; este recorrido no sustituye la certificación ni la supervisión profesional.
 - La autonomía no debe esconder decisiones que afecten a vidas o bienes: se deja registrada y puede ser anulada por un operador.
-- Los robots de servicio o de captura pueden usarse con fines no pacíficos: se aplica el marco de dual use y de normas del tronco (B63).
+- Los robots de servicio o de captura pueden usarse con fines no pacíficos: se aplica el marco de dual use y de normas del tronco (B119).
 - Una prueba en simulación no autoriza una operación real.

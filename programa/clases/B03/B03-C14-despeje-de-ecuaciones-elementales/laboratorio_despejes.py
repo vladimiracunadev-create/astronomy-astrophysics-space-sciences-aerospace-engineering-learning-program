@@ -5,7 +5,7 @@
 Datos: (GM) nominal de la Tierra 3,986004e14 m3 s-2 y (GM) nominal del Sol 1,3271244e20 m3 s-2
 (IAU 2015 B3); velocidad de escape terrestre 11,186 km/s y radio medio 6371 km (NASA Earth Fact
 Sheet); semieje terrestre 149,598e6 km y período sidéreo 365,256 d (NASA). Fórmulas DADAS (se
-justifican en B05 y B41): v_esc = sqrt(2 GM / R) y T^2 = 4 pi^2 a^3 / GM. Modelo: dos cuerpos,
+justifican en B05 y B71): v_esc = sqrt(2 GM / R) y T^2 = 4 pi^2 a^3 / GM. Modelo: dos cuerpos,
 órbita circular o elíptica de semieje a. Validez: comprobación numérica de despejes. Tolerancia:
 0,1 % frente a los datos de la NASA/IAU; 1e-9 en la verificación por sustitución.
 """

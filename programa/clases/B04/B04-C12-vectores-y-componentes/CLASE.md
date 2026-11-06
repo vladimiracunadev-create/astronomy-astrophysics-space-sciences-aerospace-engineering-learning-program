@@ -65,7 +65,7 @@ flowchart LR
 
 *Descripción textual:* la velocidad de la Tierra y la velocidad de la sonda respecto de la Tierra se suman componente a componente para dar la velocidad de la sonda respecto del Sol, cuyo módulo se calcula con Pitágoras.
 
-Analogía: una barca que cruza un río; su velocidad respecto de la orilla es la suma de la que da el remo y la de la corriente. Su límite: en velocidades cercanas a la de la luz la suma simple deja de valer (relatividad, B19); a las velocidades de esta clase el error es despreciable.
+Analogía: una barca que cruza un río; su velocidad respecto de la orilla es la suma de la que da el remo y la de la corriente. Su límite: en velocidades cercanas a la de la luz la suma simple deja de valer (relatividad, B26); a las velocidades de esta clase el error es despreciable.
 
 ## 8. La explicación, paso a paso
 

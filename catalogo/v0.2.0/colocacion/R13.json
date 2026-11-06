@@ -13,7 +13,7 @@
             "area": "A07",
             "bloque": "nuevo: Electrónica embarcada y compatibilidad electromagnética",
             "titulo": "Diseño de PCB espacial (conceptual)",
-            "necesidad": "El tronco no trata el diseño de placas electrónicas; B56 integra y B52 trata potencia, pero nadie cubre el diseño de PCB."
+            "necesidad": "El tronco no trata el diseño de placas electrónicas; B90 integra y B86 trata potencia, pero nadie cubre el diseño de PCB."
           }
         },
         {
@@ -32,8 +32,8 @@
           "tema": "Compatibilidad eléctrica",
           "destino": "existente",
           "tronco": [
-            "B56-C07",
-            "B52-C07"
+            "B90-C07",
+            "B86-C07"
           ]
         },
         {
@@ -52,8 +52,8 @@
           "tema": "Conversión de potencia",
           "destino": "existente",
           "tronco": [
-            "B52-C08",
-            "B52-C09"
+            "B86-C08",
+            "B86-C09"
           ]
         },
         {
@@ -61,8 +61,8 @@
           "tema": "Blindaje EMI",
           "destino": "existente",
           "tronco": [
-            "B56-C13",
-            "B56-C14"
+            "B90-C13",
+            "B90-C14"
           ]
         },
         {
@@ -70,8 +70,8 @@
           "tema": "Radiación y electrónica",
           "destino": "existente",
           "tronco": [
-            "B54-C03",
-            "B31-C14"
+            "B88-C03",
+            "B47-C14"
           ]
         },
         {
@@ -79,7 +79,7 @@
           "tema": "Prueba funcional de placas",
           "destino": "existente",
           "tronco": [
-            "B56-C08"
+            "B90-C08"
           ]
         },
         {
@@ -90,7 +90,7 @@
             "area": "A07",
             "bloque": "nuevo: Electrónica embarcada y compatibilidad electromagnética",
             "titulo": "Análisis de confiabilidad de electrónica (MTBF y derating)",
-            "necesidad": "Cuantifica la confiabilidad de la electrónica; B49-C16 y B52-C11 no calculan MTBF."
+            "necesidad": "Cuantifica la confiabilidad de la electrónica; B83-C16 y B86-C11 no calculan MTBF."
           }
         },
         {
@@ -98,8 +98,8 @@
           "tema": "Documentación de electrónica",
           "destino": "existente",
           "tronco": [
-            "B56-C05",
-            "B56-C18"
+            "B90-C05",
+            "B90-C18"
           ]
         }
       ]
@@ -113,7 +113,7 @@
           "tema": "Arquitecturas OBC",
           "destino": "existente",
           "tronco": [
-            "B54-C01"
+            "B88-C01"
           ]
         },
         {
@@ -121,8 +121,8 @@
           "tema": "Procesadores y microcontroladores",
           "destino": "existente",
           "tronco": [
-            "B54-C02",
-            "B54-C03"
+            "B88-C02",
+            "B88-C03"
           ]
         },
         {
@@ -130,7 +130,7 @@
           "tema": "Memoria ECC",
           "destino": "existente",
           "tronco": [
-            "B54-C04"
+            "B88-C04"
           ]
         },
         {
@@ -139,9 +139,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Interrupciones y manejo de excepciones en el computador de vuelo",
-            "necesidad": "B54-C05/C06 tratan RTOS pero no el sistema de interrupciones."
+            "necesidad": "B88-C05/C06 tratan RTOS pero no el sistema de interrupciones."
           }
         },
         {
@@ -149,8 +149,8 @@
           "tema": "Temporización",
           "destino": "existente",
           "tronco": [
-            "B54-C05",
-            "B44-C16"
+            "B88-C05",
+            "B74-C16"
           ]
         },
         {
@@ -159,9 +159,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Arquitectura de software de vuelo: capas y ejecutivo",
-            "necesidad": "B54-C01 trata hardware; nadie trata la jerarquía de software de vuelo."
+            "necesidad": "B88-C01 trata hardware; nadie trata la jerarquía de software de vuelo."
           }
         },
         {
@@ -170,7 +170,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Capa de abstracción de hardware (HAL) y controladores",
             "necesidad": "Aporta la capa que aísla el software del hardware; no cubierta."
           }
@@ -181,9 +181,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Redundancia de procesamiento y ejecución en paralelo (lockstep)",
-            "necesidad": "B54 trata tolerancia a radiación y FDIR, pero no la redundancia de procesadores."
+            "necesidad": "B88 trata tolerancia a radiación y FDIR, pero no la redundancia de procesadores."
           }
         },
         {
@@ -191,8 +191,8 @@
           "tema": "Supervisión de computadores",
           "destino": "existente",
           "tronco": [
-            "B54-C11",
-            "B54-C12"
+            "B88-C11",
+            "B88-C12"
           ]
         },
         {
@@ -200,7 +200,7 @@
           "tema": "Evaluación de arquitectura",
           "destino": "existente",
           "tronco": [
-            "B54-C20"
+            "B88-C20"
           ]
         }
       ]
@@ -214,7 +214,7 @@
           "tema": "Planificación de tareas",
           "destino": "existente",
           "tronco": [
-            "B54-C06"
+            "B88-C06"
           ]
         },
         {
@@ -223,9 +223,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Latencia de interrupciones y jitter",
-            "necesidad": "Cuantifica el retardo de respuesta; B54-C05/C06 no lo tratan."
+            "necesidad": "Cuantifica el retardo de respuesta; B88-C05/C06 no lo tratan."
           }
         },
         {
@@ -233,8 +233,8 @@
           "tema": "RTOS y prioridades",
           "destino": "existente",
           "tronco": [
-            "B54-C05",
-            "B54-C06"
+            "B88-C05",
+            "B88-C06"
           ]
         },
         {
@@ -243,7 +243,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Exclusión mutua y semáforos",
             "necesidad": "Cubre la sincronización entre tareas; no existe en el tronco."
           }
@@ -254,7 +254,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Inversión de prioridad y deadlocks",
             "necesidad": "Cubre errores clásicos de concurrencia; no existe en el tronco."
           }
@@ -264,7 +264,7 @@
           "tema": "Sistemas deterministas",
           "destino": "existente",
           "tronco": [
-            "B54-C05"
+            "B88-C05"
           ]
         },
         {
@@ -272,8 +272,8 @@
           "tema": "Registro de eventos",
           "destino": "existente",
           "tronco": [
-            "B54-C10",
-            "B54-C08"
+            "B88-C10",
+            "B88-C08"
           ]
         },
         {
@@ -282,9 +282,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Gestión de memoria determinista en software de vuelo",
-            "necesidad": "Asignación estática, fragmentación y fugas; B54-C04 solo corrige errores de memoria."
+            "necesidad": "Asignación estática, fragmentación y fugas; B88-C04 solo corrige errores de memoria."
           }
         },
         {
@@ -292,8 +292,8 @@
           "tema": "Pruebas de plazos",
           "destino": "existente",
           "tronco": [
-            "B54-C14",
-            "B54-C05"
+            "B88-C14",
+            "B88-C05"
           ]
         },
         {
@@ -302,7 +302,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Análisis de peor caso de tiempo de ejecución (WCET)",
             "necesidad": "Cubre el cálculo de tiempos máximos; no existe en el tronco."
           }
@@ -318,7 +318,7 @@
           "tema": "Bus I2C",
           "destino": "existente",
           "tronco": [
-            "B54-C07"
+            "B88-C07"
           ]
         },
         {
@@ -326,7 +326,7 @@
           "tema": "Bus SPI",
           "destino": "existente",
           "tronco": [
-            "B54-C07"
+            "B88-C07"
           ]
         },
         {
@@ -334,7 +334,7 @@
           "tema": "Bus CAN",
           "destino": "existente",
           "tronco": [
-            "B54-C07"
+            "B88-C07"
           ]
         },
         {
@@ -342,7 +342,7 @@
           "tema": "SpaceWire",
           "destino": "existente",
           "tronco": [
-            "B54-C07"
+            "B88-C07"
           ]
         },
         {
@@ -350,8 +350,8 @@
           "tema": "Protocolos de telemetría interna",
           "destino": "existente",
           "tronco": [
-            "B54-C08",
-            "B55-C11"
+            "B88-C08",
+            "B89-C11"
           ]
         },
         {
@@ -360,9 +360,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Topologías de red de datos a bordo",
-            "necesidad": "B54-C07 trata buses individuales, no la topología."
+            "necesidad": "B88-C07 trata buses individuales, no la topología."
           }
         },
         {
@@ -370,8 +370,8 @@
           "tema": "Sincronización de mensajes",
           "destino": "existente",
           "tronco": [
-            "B44-C16",
-            "B54-C07"
+            "B74-C16",
+            "B88-C07"
           ]
         },
         {
@@ -379,8 +379,8 @@
           "tema": "Detección de errores de bus",
           "destino": "existente",
           "tronco": [
-            "B55-C09",
-            "B54-C07"
+            "B89-C09",
+            "B88-C07"
           ]
         },
         {
@@ -388,8 +388,8 @@
           "tema": "Instrumentación de tráfico",
           "destino": "existente",
           "tronco": [
-            "B54-C08",
-            "B54-C19"
+            "B88-C08",
+            "B88-C19"
           ]
         },
         {
@@ -397,8 +397,8 @@
           "tema": "Pruebas de interoperabilidad",
           "destino": "existente",
           "tronco": [
-            "B56-C07",
-            "B56-C16"
+            "B90-C07",
+            "B90-C16"
           ]
         }
       ]
@@ -412,9 +412,9 @@
           "tema": "Fallos transitorios",
           "destino": "existente",
           "tronco": [
-            "B54-C03",
-            "B54-C12",
-            "B31-C14"
+            "B88-C03",
+            "B88-C12",
+            "B47-C14"
           ]
         },
         {
@@ -422,8 +422,8 @@
           "tema": "Fallos permanentes",
           "destino": "existente",
           "tronco": [
-            "B54-C12",
-            "B52-C11"
+            "B88-C12",
+            "B86-C11"
           ]
         },
         {
@@ -431,7 +431,7 @@
           "tema": "ECC y EDAC",
           "destino": "existente",
           "tronco": [
-            "B54-C04"
+            "B88-C04"
           ]
         },
         {
@@ -439,7 +439,7 @@
           "tema": "Watchdogs",
           "destino": "existente",
           "tronco": [
-            "B54-C11"
+            "B88-C11"
           ]
         },
         {
@@ -447,8 +447,8 @@
           "tema": "Modo seguro",
           "destino": "existente",
           "tronco": [
-            "B54-C12",
-            "B57-C15"
+            "B88-C12",
+            "B96-C15"
           ]
         },
         {
@@ -457,9 +457,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Redundancia fría y caliente: estrategias y conmutación",
-            "necesidad": "B49 trata redundancia de misión; B54 no cubre cómo conmutar unidades redundantes."
+            "necesidad": "B83 trata redundancia de misión; B88 no cubre cómo conmutar unidades redundantes."
           }
         },
         {
@@ -468,9 +468,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Votación y redundancia modular triple (TMR)",
-            "necesidad": "Aporta la votación entre canales; B54 no la trata."
+            "necesidad": "Aporta la votación entre canales; B88 no la trata."
           }
         },
         {
@@ -478,7 +478,7 @@
           "tema": "Detección FDIR",
           "destino": "existente",
           "tronco": [
-            "B54-C12"
+            "B88-C12"
           ]
         },
         {
@@ -487,9 +487,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B49",
+            "bloque": "B83",
             "titulo": "Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales",
-            "necesidad": "Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B49-C16 trata la gestión de riesgos técnicos en general y B54-C12 la detección en vuelo, pero ninguna enseña FMEA."
+            "necesidad": "Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B83-C16 trata la gestión de riesgos técnicos en general y B88-C12 la detección en vuelo, pero ninguna enseña FMEA."
           }
         },
         {
@@ -498,9 +498,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Pruebas de inyección de fallos",
-            "necesidad": "Verifica FDIR provocando fallos; B54-C14 y C19 no cubren inyección."
+            "necesidad": "Verifica FDIR provocando fallos; B88-C14 y C19 no cubren inyección."
           }
         }
       ]
@@ -514,8 +514,8 @@
           "tema": "Gestión autónoma de estados",
           "destino": "existente",
           "tronco": [
-            "B57-C08",
-            "B54-C09"
+            "B96-C08",
+            "B88-C09"
           ]
         },
         {
@@ -524,9 +524,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B49",
+            "bloque": "B83",
             "titulo": "Árboles de fallos (FTA) y análisis de causas",
-            "necesidad": "Permite descomponer un evento no deseado en causas combinadas y cuantificar su probabilidad; ninguna clase de B49 o B54 enseña el análisis deductivo de fallos."
+            "necesidad": "Permite descomponer un evento no deseado en causas combinadas y cuantificar su probabilidad; ninguna clase de B83 o B88 enseña el análisis deductivo de fallos."
           }
         },
         {
@@ -534,8 +534,8 @@
           "tema": "Monitoreo de salud",
           "destino": "existente",
           "tronco": [
-            "B54-C08",
-            "B57-C06"
+            "B88-C08",
+            "B96-C06"
           ]
         },
         {
@@ -543,8 +543,8 @@
           "tema": "Detección de anomalías",
           "destino": "existente",
           "tronco": [
-            "B57-C13",
-            "B54-C12"
+            "B96-C13",
+            "B88-C12"
           ]
         },
         {
@@ -553,9 +553,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B57",
+            "bloque": "B96",
             "titulo": "Diagnóstico explicable de anomalías",
-            "necesidad": "Permite justificar un diagnóstico automático; B57-C13 detecta anomalías sin explicabilidad."
+            "necesidad": "Permite justificar un diagnóstico automático; B96-C13 detecta anomalías sin explicabilidad."
           }
         },
         {
@@ -563,8 +563,8 @@
           "tema": "Recuperación de procesos",
           "destino": "existente",
           "tronco": [
-            "B54-C11",
-            "B57-C14"
+            "B88-C11",
+            "B96-C14"
           ]
         },
         {
@@ -573,9 +573,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Reinicio en caliente y persistencia de estado",
-            "necesidad": "Cubre el estado que sobrevive a reinicios; B54-C11 trata watchdogs pero no la persistencia."
+            "necesidad": "Cubre el estado que sobrevive a reinicios; B88-C11 trata watchdogs pero no la persistencia."
           }
         },
         {
@@ -583,8 +583,8 @@
           "tema": "Prioridades de supervivencia",
           "destino": "existente",
           "tronco": [
-            "B57-C15",
-            "B57-C08"
+            "B96-C15",
+            "B96-C08"
           ]
         },
         {
@@ -592,8 +592,8 @@
           "tema": "Telemetría de incidentes",
           "destino": "existente",
           "tronco": [
-            "B54-C10",
-            "B57-C06"
+            "B88-C10",
+            "B96-C06"
           ]
         },
         {
@@ -601,8 +601,8 @@
           "tema": "Validación de recuperación",
           "destino": "existente",
           "tronco": [
-            "B57-C14",
-            "B54-C14"
+            "B96-C14",
+            "B88-C14"
           ]
         }
       ]
@@ -616,8 +616,8 @@
           "tema": "Ciclo de vida seguro",
           "destino": "existente",
           "tronco": [
-            "B54-C16",
-            "B54-C17"
+            "B88-C16",
+            "B88-C17"
           ]
         },
         {
@@ -625,8 +625,8 @@
           "tema": "Revisión de requisitos",
           "destino": "existente",
           "tronco": [
-            "B49-C04",
-            "B49-C05"
+            "B83-C04",
+            "B83-C05"
           ]
         },
         {
@@ -635,9 +635,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Codificación defensiva y estándares de código seguro",
-            "necesidad": "B54-C15 analiza código estáticamente, pero no enseña a escribir defensivamente."
+            "necesidad": "B88-C15 analiza código estáticamente, pero no enseña a escribir defensivamente."
           }
         },
         {
@@ -645,7 +645,7 @@
           "tema": "Análisis estático",
           "destino": "existente",
           "tronco": [
-            "B54-C15"
+            "B88-C15"
           ]
         },
         {
@@ -654,9 +654,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Fuzzing autorizado de software embarcado en banco de pruebas",
-            "necesidad": "Técnica de pruebas con entradas inválidas en entorno controlado; B54-C14 no la cubre."
+            "necesidad": "Técnica de pruebas con entradas inválidas en entorno controlado; B88-C14 no la cubre."
           }
         },
         {
@@ -664,8 +664,8 @@
           "tema": "Firmas de firmware",
           "destino": "existente",
           "tronco": [
-            "B54-C13",
-            "B54-C17"
+            "B88-C13",
+            "B88-C17"
           ]
         },
         {
@@ -674,9 +674,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Gestión de claves y secretos en aviónica",
-            "necesidad": "B54-C17 trata ciberseguridad general sin gestión de secretos."
+            "necesidad": "B88-C17 trata ciberseguridad general sin gestión de secretos."
           }
         },
         {
@@ -684,7 +684,7 @@
           "tema": "Actualización verificada",
           "destino": "existente",
           "tronco": [
-            "B54-C13"
+            "B88-C13"
           ]
         },
         {
@@ -693,7 +693,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Normas de aseguramiento de software (ECSS, DO-178C)",
             "necesidad": "Ninguna clase presenta las normas de aseguramiento aplicables."
           }
@@ -704,7 +704,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Auditoría de software espacial",
             "necesidad": "Cubre la revisión independiente de procesos y evidencias del software; no existe en el tronco."
           }
@@ -720,8 +720,8 @@
           "tema": "Plan de pruebas de aviónica",
           "destino": "existente",
           "tronco": [
-            "B54-C20",
-            "B49-C17"
+            "B88-C20",
+            "B83-C17"
           ]
         },
         {
@@ -730,9 +730,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Pruebas SIL y PIL del software de vuelo",
-            "necesidad": "B54-C19 cubre HIL, no software-in-the-loop ni processor-in-the-loop."
+            "necesidad": "B88-C19 cubre HIL, no software-in-the-loop ni processor-in-the-loop."
           }
         },
         {
@@ -740,7 +740,7 @@
           "tema": "HIL",
           "destino": "existente",
           "tronco": [
-            "B54-C19"
+            "B88-C19"
           ]
         },
         {
@@ -749,7 +749,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Simuladores y mocks de sensores para pruebas",
             "necesidad": "Aporta dobles de prueba de sensores; no cubierto."
           }
@@ -759,8 +759,8 @@
           "tema": "Simulación de buses",
           "destino": "existente",
           "tronco": [
-            "B54-C19",
-            "B54-C07"
+            "B88-C19",
+            "B88-C07"
           ]
         },
         {
@@ -769,9 +769,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B54",
+            "bloque": "B88",
             "titulo": "Pruebas de carga y estrés del software de vuelo",
-            "necesidad": "B54-C14 no cubre pruebas de carga."
+            "necesidad": "B88-C14 no cubre pruebas de carga."
           }
         },
         {
@@ -780,7 +780,7 @@
           "destino": "existente",
           "tronco": [
             "B14-C10",
-            "B54-C14"
+            "B88-C14"
           ]
         },
         {
@@ -788,8 +788,8 @@
           "tema": "Matriz de trazabilidad",
           "destino": "existente",
           "tronco": [
-            "B49-C05",
-            "B56-C18"
+            "B83-C05",
+            "B90-C18"
           ]
         },
         {
@@ -797,8 +797,8 @@
           "tema": "Resultados de validación",
           "destino": "existente",
           "tronco": [
-            "B56-C18",
-            "B56-C16"
+            "B90-C18",
+            "B90-C16"
           ]
         },
         {
@@ -806,9 +806,9 @@
           "tema": "Informe técnico de liberación",
           "destino": "existente",
           "tronco": [
-            "B56-C19",
-            "B49-C14",
-            "B56-C18"
+            "B90-C19",
+            "B83-C14",
+            "B90-C18"
           ]
         }
       ]

@@ -8,7 +8,7 @@
 
 Segunda clase del bloque B06. En C01 viste que cada átomo es una escalera de niveles de energía. Aquí usas esa idea para entender por qué los elementos se ordenan en una tabla y, después, miras cuánto de cada elemento hay en el Sol. Sigues en el nivel N1.
 
-Verás cómo el número atómico ordena los elementos, cómo la configuración de electrones explica los periodos y los grupos, qué es una escala logarítmica de abundancias y cómo se pasa de ella a fracciones en número y en masa. No verás todavía cómo se fabrican los elementos en las estrellas (B17) ni el detalle de los orbitales (B24).
+Verás cómo el número atómico ordena los elementos, cómo la configuración de electrones explica los periodos y los grupos, qué es una escala logarítmica de abundancias y cómo se pasa de ella a fracciones en número y en masa. No verás todavía cómo se fabrican los elementos en las estrellas (B24) ni el detalle de los orbitales (B31).
 
 ## 2. Por qué esta clase existe
 
@@ -77,7 +77,7 @@ flowchart LR
 
 *Descripción textual:* una cadena de cinco elementos. Helio y neón tienen su última capa llena; litio y sodio, que vienen justo después, tienen un único electrón en una capa nueva; el magnesio añade un segundo.
 
-La analogía del edificio sirve para ver por qué la reactividad se repite: elementos del mismo grupo tienen el mismo número de electrones en el piso más alto. Su límite: los «pisos» no son recintos con paredes; los electrones están repartidos en regiones que verás en B24, y a partir de `Z = 21` hay excepciones al orden simple de llenado.
+La analogía del edificio sirve para ver por qué la reactividad se repite: elementos del mismo grupo tienen el mismo número de electrones en el piso más alto. Su límite: los «pisos» no son recintos con paredes; los electrones están repartidos en regiones que verás en B31, y a partir de `Z = 21` hay excepciones al orden simple de llenado.
 
 ## 8. La explicación, paso a paso
 
@@ -163,7 +163,7 @@ Si dibujas barras, usa un eje logarítmico y etiqueta cada barra con el símbolo
 
 ## 14. Dos formas de decir la composición
 
-La **escala logarítmica** `A(X)` es cómoda para comparar elementos separados por muchos órdenes de magnitud y es la que usan las tablas de espectroscopia. La **fracción en masa** (X, Y, Z) es la que necesitan los modelos de estructura estelar (B17). La primera se parece al conteo de átomos que ve un espectro; la segunda, al peso que siente la gravedad. Hay que convertir con cuidado y declarar siempre la base: confundirlas es el error más común en este tema.
+La **escala logarítmica** `A(X)` es cómoda para comparar elementos separados por muchos órdenes de magnitud y es la que usan las tablas de espectroscopia. La **fracción en masa** (X, Y, Z) es la que necesitan los modelos de estructura estelar (B24). La primera se parece al conteo de átomos que ve un espectro; la segunda, al peso que siente la gravedad. Hay que convertir con cuidado y declarar siempre la base: confundirlas es el error más común en este tema.
 
 ## 15. Práctica guiada
 
@@ -243,7 +243,7 @@ Averiguas qué base usa la hoja (número o masa) y qué compilación de abundanc
 
 <details><summary>Solución comentada</summary>
 
-Le falta declarar la base (¿en masa o en número?) y el objeto (¿la fotosfera del Sol?). En la fotosfera solar, X = 0,738 en masa y 92 % en número (S1). Para el universo en conjunto hay que citar otros datos (B19).
+Le falta declarar la base (¿en masa o en número?) y el objeto (¿la fotosfera del Sol?). En la fotosfera solar, X = 0,738 en masa y 92 % en número (S1). Para el universo en conjunto hay que citar otros datos (B26).
 </details>
 
 **Ejercicio 12 · integrador.** Elabora la *ficha de composición solar* (sección 20): para H, He, O, C, Ne, N, Mg, Si, Fe da `A(X)`, `N_X/N_H`, fracción en número y en masa; declara fuente, edición, base y la incertidumbre de `A(O)`.

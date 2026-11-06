@@ -14,7 +14,7 @@ Verás los cuatro estados de la materia, cómo comparar la energía térmica `kT
 
 En Marte, la temperatura media es 214 K y la presión media en superficie 6,36 mb (S1). Ese valor está casi en el punto triple del agua, la presión mínima a la que puede existir agua líquida (S2). La Tierra, a 288 K y 1014 mb, tiene océanos; Venus, a 737 K, ya no puede tener agua líquida en superficie. Una sola magnitud, la razón entre energía de cohesión y energía térmica, ya anticipa el orden.
 
-La decisión central es: **dados una sustancia y un ambiente, ¿qué estado cabe esperar y qué razón entre energías lo decide?** Aprenderás a calcular `kT`, a convertir energías de cohesión a eV por molécula y a interpretar su cociente. Es la puerta de C11 (diagramas de fase), C19 (hielos) y de los plasmas de B23.
+La decisión central es: **dados una sustancia y un ambiente, ¿qué estado cabe esperar y qué razón entre energías lo decide?** Aprenderás a calcular `kT`, a convertir energías de cohesión a eV por molécula y a interpretar su cociente. Es la puerta de C11 (diagramas de fase), C19 (hielos) y de los plasmas de B30.
 
 ## 3. Lo que podrás hacer al terminar
 
@@ -77,7 +77,7 @@ La analogía del baile sirve para el balance de energías; su límite es que el 
 
 ### 8.1 Los cuatro estados
 
-Sólido, líquido y gas se distinguen por el orden y la distancia entre partículas. El plasma se obtiene cuando la agitación (o la radiación) es tan intensa que arranca electrones de los átomos. En el universo observable, la materia ordinaria que brilla, como las estrellas y el gas entre ellas, está en gran parte en estado de plasma (se estudia en B23).
+Sólido, líquido y gas se distinguen por el orden y la distancia entre partículas. El plasma se obtiene cuando la agitación (o la radiación) es tan intensa que arranca electrones de los átomos. En el universo observable, la materia ordinaria que brilla, como las estrellas y el gas entre ellas, está en gran parte en estado de plasma (se estudia en B30).
 
 ### 8.2 La energía térmica `kT`
 
@@ -93,7 +93,7 @@ Para el agua: Marte `0,4561/0,01844 = 24,7`; Tierra `18,4`; Venus `7,2`; fotosfe
 
 ### 8.5 Plasma: la energía de ionización
 
-La energía para ionizar el hidrógeno desde su estado fundamental es 13,598 eV (S6). La temperatura en la que `kT` iguala esa energía es `13,598/8,617 × 10⁻⁵ = 157 800 K`. En la fotosfera (5772 K), `E_ion/kT = 27`: el gas es en su mayoría de átomos neutros, con una fracción pequeña ionizada. Los plasmas de temperaturas del orden de 10⁵ K o más se estudian en B23. Como el cociente no tiene que ser 1 para que haya ionización apreciable (hay partículas más energéticas que la media), este número da un orden de magnitud y no un umbral.
+La energía para ionizar el hidrógeno desde su estado fundamental es 13,598 eV (S6). La temperatura en la que `kT` iguala esa energía es `13,598/8,617 × 10⁻⁵ = 157 800 K`. En la fotosfera (5772 K), `E_ion/kT = 27`: el gas es en su mayoría de átomos neutros, con una fracción pequeña ionizada. Los plasmas de temperaturas del orden de 10⁵ K o más se estudian en B30. Como el cociente no tiene que ser 1 para que haya ionización apreciable (hay partículas más energéticas que la media), este número da un orden de magnitud y no un umbral.
 
 ## 9. Magnitudes, símbolos y unidades
 

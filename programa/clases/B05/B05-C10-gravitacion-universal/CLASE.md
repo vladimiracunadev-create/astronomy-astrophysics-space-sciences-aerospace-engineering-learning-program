@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Décima clase de B05, a mitad del bloque. Usaste `GM` como dato en C03–C09; ahora lo explicas: de dónde viene la fuerza que sostiene a satélites, a la Luna y a los planetas. Nivel N1. Usas `ΣF = m a` (C04), movimiento circular (C03) y momento angular (C09). No verás relatividad general (bloque B19) ni mareas.
+Décima clase de B05, a mitad del bloque. Usaste `GM` como dato en C03–C09; ahora lo explicas: de dónde viene la fuerza que sostiene a satélites, a la Luna y a los planetas. Nivel N1. Usas `ΣF = m a` (C04), movimiento circular (C03) y momento angular (C09). No verás relatividad general (bloque B26) ni mareas.
 
 ## 2. Por qué esta clase existe
 
@@ -86,7 +86,7 @@ La aceleración lunar hacia la Tierra debe ser `g(r_L) = GM/r_L² = 2,6976 × 10
 
 ### 8.5 Dominio de validez
 
-La ley en forma puntual vale también para cuerpos esféricos de densidad simétrica (resultado de Newton que usamos sin demostrar) con `r` medido desde el centro. Falla para distancias comparables al tamaño del cuerpo si este no es esférico, para campos muy fuertes o velocidades cercanas a `c` (relatividad general, B19) y para ajustes de alta precisión de órbitas reales, donde se añaden el achatamiento terrestre, el Sol, la Luna y la atmósfera.
+La ley en forma puntual vale también para cuerpos esféricos de densidad simétrica (resultado de Newton que usamos sin demostrar) con `r` medido desde el centro. Falla para distancias comparables al tamaño del cuerpo si este no es esférico, para campos muy fuertes o velocidades cercanas a `c` (relatividad general, B26) y para ajustes de alta precisión de órbitas reales, donde se añaden el achatamiento terrestre, el Sol, la Luna y la atmósfera.
 
 ## 9. Magnitudes, símbolos y unidades
 

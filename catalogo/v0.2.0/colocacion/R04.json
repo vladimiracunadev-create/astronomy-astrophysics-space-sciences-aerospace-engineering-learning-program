@@ -13,7 +13,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Antenas de hilo: dipolo, monopolo e impedancia de radiación",
-            "necesidad": "B30 arranca en antenas parabólicas (C03); ninguna clase del tronco enseña antenas de hilo, resistencia de radiación ni su uso como elemento de arreglo o de banda baja."
+            "necesidad": "B46 arranca en antenas parabólicas (C03); ninguna clase del tronco enseña antenas de hilo, resistencia de radiación ni su uso como elemento de arreglo o de banda baja."
           }
         },
         {
@@ -21,7 +21,7 @@
           "tema": "Antenas parabólicas",
           "destino": "existente",
           "tronco": [
-            "B30-C03"
+            "B46-C03"
           ]
         },
         {
@@ -29,7 +29,7 @@
           "tema": "Diagramas de radiación",
           "destino": "existente",
           "tronco": [
-            "B30-C04"
+            "B46-C04"
           ]
         },
         {
@@ -37,8 +37,8 @@
           "tema": "Ganancia y apertura efectiva",
           "destino": "existente",
           "tronco": [
-            "B30-C05",
-            "B55-C06"
+            "B46-C05",
+            "B89-C06"
           ]
         },
         {
@@ -46,8 +46,8 @@
           "tema": "Polarización de antenas",
           "destino": "existente",
           "tronco": [
-            "B30-C13",
-            "B26-C08"
+            "B46-C13",
+            "B42-C08"
           ]
         },
         {
@@ -55,8 +55,8 @@
           "tema": "Temperatura de ruido",
           "destino": "existente",
           "tronco": [
-            "B30-C05",
-            "B30-C06"
+            "B46-C05",
+            "B46-C06"
           ]
         },
         {
@@ -67,7 +67,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Adaptación de impedancias y líneas de transmisión en antenas",
-            "necesidad": "B55 trata presupuesto de enlace y ganancias, pero ninguna clase enseña impedancia característica, ROE ni redes de adaptación entre antena y receptor."
+            "necesidad": "B89 trata presupuesto de enlace y ganancias, pero ninguna clase enseña impedancia característica, ROE ni redes de adaptación entre antena y receptor."
           }
         },
         {
@@ -78,7 +78,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores",
-            "necesidad": "B27 cubre monturas y encoders de telescopios ópticos; ningún bloque trata modelos de apuntado, errores por flexión y calibración de apuntado de grandes antenas de radio."
+            "necesidad": "B43 cubre monturas y encoders de telescopios ópticos; ningún bloque trata modelos de apuntado, errores por flexión y calibración de apuntado de grandes antenas de radio."
           }
         },
         {
@@ -89,7 +89,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Arreglos de antenas: factor de arreglo y formación de haz",
-            "necesidad": "B30-C14 trata líneas de base interferométricas, pero no el factor de arreglo, el control de lóbulos ni la formación de haz de arreglos de fase."
+            "necesidad": "B46-C14 trata líneas de base interferométricas, pero no el factor de arreglo, el control de lóbulos ni la formación de haz de arreglos de fase."
           }
         },
         {
@@ -100,7 +100,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Medición y calibración de patrones de antena",
-            "necesidad": "B30-C04 enseña a interpretar diagramas de radiación; falta la competencia de medirlos (campo lejano, fuentes celestes, drones) y calibrarlos."
+            "necesidad": "B46-C04 enseña a interpretar diagramas de radiación; falta la competencia de medirlos (campo lejano, fuentes celestes, drones) y calibrarlos."
           }
         }
       ]
@@ -114,7 +114,7 @@
           "tema": "Ruido térmico",
           "destino": "existente",
           "tronco": [
-            "B30-C06"
+            "B46-C06"
           ]
         },
         {
@@ -125,7 +125,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Amplificadores de bajo ruido (LNA): tecnología, ganancia y adaptación",
-            "necesidad": "B30-C07 describe la cadena superheterodina de forma general; ninguna clase trata el diseño ni la caracterización de amplificadores de bajo ruido HEMT/SiGe."
+            "necesidad": "B46-C07 describe la cadena superheterodina de forma general; ninguna clase trata el diseño ni la caracterización de amplificadores de bajo ruido HEMT/SiGe."
           }
         },
         {
@@ -136,7 +136,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Criogenia y refrigeración de receptores de radio",
-            "necesidad": "B28-C08 y B31-C13 tratan enfriamiento de detectores ópticos y de instrumentos orbitales; ninguna cubre criostatos, cabezas frías y ruido físico de receptores de radio."
+            "necesidad": "B44-C08 y B47-C13 tratan enfriamiento de detectores ópticos y de instrumentos orbitales; ninguna cubre criostatos, cabezas frías y ruido físico de receptores de radio."
           }
         },
         {
@@ -144,8 +144,8 @@
           "tema": "Figura de ruido",
           "destino": "existente",
           "tronco": [
-            "B55-C07",
-            "B30-C06"
+            "B89-C07",
+            "B46-C06"
           ]
         },
         {
@@ -156,7 +156,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Estabilidad de ganancia de receptores y variaciones de ganancia",
-            "necesidad": "B30-C08 trata estabilidad de osciladores; ninguna clase enseña deriva de ganancia, varianza de Allan de radiómetros ni técnicas de conmutación tipo Dicke."
+            "necesidad": "B46-C08 trata estabilidad de osciladores; ninguna clase enseña deriva de ganancia, varianza de Allan de radiómetros ni técnicas de conmutación tipo Dicke."
           }
         },
         {
@@ -164,7 +164,7 @@
           "tema": "Ancho de banda efectivo",
           "destino": "existente",
           "tronco": [
-            "B30-C06"
+            "B46-C06"
           ]
         },
         {
@@ -175,7 +175,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Linealidad, compresión e intermodulación de receptores de RF",
-            "necesidad": "B28-C10 trata no linealidad de detectores ópticos; no hay clase sobre punto de compresión, productos de intermodulación y rango dinámico de receptores de RF."
+            "necesidad": "B44-C10 trata no linealidad de detectores ópticos; no hay clase sobre punto de compresión, productos de intermodulación y rango dinámico de receptores de RF."
           }
         },
         {
@@ -184,7 +184,7 @@
           "destino": "existente",
           "tronco": [
             "B13-C17",
-            "B30-C06"
+            "B46-C06"
           ]
         },
         {
@@ -192,8 +192,8 @@
           "tema": "Interferencias de radiofrecuencia",
           "destino": "existente",
           "tronco": [
-            "B62-C17",
-            "B56-C14"
+            "B118-C17",
+            "B90-C14"
           ]
         },
         {
@@ -201,8 +201,8 @@
           "tema": "Evaluación de sensibilidad",
           "destino": "existente",
           "tronco": [
-            "B30-C06",
-            "B30-C20"
+            "B46-C06",
+            "B46-C20"
           ]
         }
       ]
@@ -216,7 +216,7 @@
           "tema": "Amplificación en radiofrecuencia",
           "destino": "existente",
           "tronco": [
-            "B30-C07"
+            "B46-C07"
           ]
         },
         {
@@ -235,7 +235,7 @@
           "tema": "Conversión de frecuencia",
           "destino": "existente",
           "tronco": [
-            "B30-C07"
+            "B46-C07"
           ]
         },
         {
@@ -243,7 +243,7 @@
           "tema": "Osciladores locales",
           "destino": "existente",
           "tronco": [
-            "B30-C08"
+            "B46-C08"
           ]
         },
         {
@@ -251,7 +251,7 @@
           "tema": "Relojes y fase",
           "destino": "existente",
           "tronco": [
-            "B30-C08",
+            "B46-C08",
             "B13-C07"
           ]
         },
@@ -263,7 +263,7 @@
             "area": "A04",
             "bloque": "nuevo: Antenas y receptores de radioastronomía",
             "titulo": "Mezcladores de frecuencia: pérdida de conversión y productos espurios",
-            "necesidad": "B30-C07 presenta la conversión de modo general; falta la competencia específica de mezcladores (pérdida de conversión, aislamiento, espurios, mezcladores SIS/HEB)."
+            "necesidad": "B46-C07 presenta la conversión de modo general; falta la competencia específica de mezcladores (pérdida de conversión, aislamiento, espurios, mezcladores SIS/HEB)."
           }
         },
         {
@@ -271,7 +271,7 @@
           "tema": "Digitalización de IF",
           "destino": "existente",
           "tronco": [
-            "B30-C09",
+            "B46-C09",
             "B15-C02"
           ]
         },
@@ -280,8 +280,8 @@
           "tema": "Blindaje electromagnético",
           "destino": "existente",
           "tronco": [
-            "B56-C13",
-            "B56-C14"
+            "B90-C13",
+            "B90-C14"
           ]
         },
         {
@@ -289,8 +289,8 @@
           "tema": "Compatibilidad RF",
           "destino": "existente",
           "tronco": [
-            "B56-C13",
-            "B62-C17"
+            "B90-C13",
+            "B118-C17"
           ]
         },
         {
@@ -313,7 +313,7 @@
           "tema": "Plataformas de radio definida por software",
           "destino": "existente",
           "tronco": [
-            "B30-C10"
+            "B46-C10"
           ]
         },
         {
@@ -321,9 +321,9 @@
           "tema": "Ganancia y muestreo SDR",
           "destino": "existente",
           "tronco": [
-            "B30-C10",
+            "B46-C10",
             "B15-C02",
-            "B30-C09"
+            "B46-C09"
           ]
         },
         {
@@ -331,7 +331,7 @@
           "tema": "Calibración de frecuencias",
           "destino": "existente",
           "tronco": [
-            "B30-C08",
+            "B46-C08",
             "B13-C05"
           ]
         },
@@ -341,7 +341,7 @@
           "destino": "existente",
           "tronco": [
             "B15-C06",
-            "B30-C10"
+            "B46-C10"
           ]
         },
         {
@@ -350,9 +350,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B23",
+            "bloque": "B30",
             "titulo": "Radioemisión solar: estallidos de radio y su observación",
-            "necesidad": "B23 trata erupciones y CME en general; ninguna clase enseña los tipos de estallido de radio solar (I-V), su espectro dinámico ni su observación con receptores de aficionado o SDR."
+            "necesidad": "B30 trata erupciones y CME en general; ninguna clase enseña los tipos de estallido de radio solar (I-V), su espectro dinámico ni su observación con receptores de aficionado o SDR."
           }
         },
         {
@@ -360,7 +360,7 @@
           "tema": "Recepción de hidrógeno neutral",
           "destino": "existente",
           "tronco": [
-            "B30-C11"
+            "B46-C11"
           ]
         },
         {
@@ -368,7 +368,7 @@
           "tema": "Interferencias locales",
           "destino": "existente",
           "tronco": [
-            "B62-C17"
+            "B118-C17"
           ]
         },
         {
@@ -385,7 +385,7 @@
           "tema": "Registro de observaciones",
           "destino": "existente",
           "tronco": [
-            "B32-C17",
+            "B48-C17",
             "B13-C19"
           ]
         },
@@ -394,7 +394,7 @@
           "tema": "Validación de observaciones caseras",
           "destino": "existente",
           "tronco": [
-            "B30-C20",
+            "B46-C20",
             "B13-C18"
           ]
         }
@@ -409,7 +409,7 @@
           "tema": "Visibilidades interferométricas",
           "destino": "existente",
           "tronco": [
-            "B30-C15"
+            "B46-C15"
           ]
         },
         {
@@ -417,7 +417,7 @@
           "tema": "Calibradores de fase",
           "destino": "existente",
           "tronco": [
-            "B30-C17"
+            "B46-C17"
           ]
         },
         {
@@ -428,7 +428,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Calibración de amplitud y escala de flujo con calibradores primarios",
-            "necesidad": "B30-C17 trata solo calibración de fase; ninguna clase enseña escala de flujo, calibradores primarios ni el bootstrap de flujos."
+            "necesidad": "B46-C17 trata solo calibración de fase; ninguna clase enseña escala de flujo, calibradores primarios ni el bootstrap de flujos."
           }
         },
         {
@@ -439,7 +439,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Cantidades de cierre: fase y amplitud de cierre",
-            "necesidad": "Las cantidades de cierre son la base de la imagen sin fase y de la autocalibración; B30-C17 no las trata."
+            "necesidad": "Las cantidades de cierre son la base de la imagen sin fase y de la autocalibración; B46-C17 no las trata."
           }
         },
         {
@@ -461,7 +461,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Respuesta de banda y errores dependientes de la frecuencia",
-            "necesidad": "B30-C15 trata correladores y visibilidades; no hay clase sobre respuesta de banda (bandpass) ni sus errores en observaciones espectrales."
+            "necesidad": "B46-C15 trata correladores y visibilidades; no hay clase sobre respuesta de banda (bandpass) ni sus errores en observaciones espectrales."
           }
         },
         {
@@ -472,7 +472,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección",
-            "necesidad": "B23-C17 trata auroras y corrientes ionosféricas, no los efectos de la ionosfera sobre fase y polarización de señales de radio ni su corrección."
+            "necesidad": "B30-C17 trata auroras y corrientes ionosféricas, no los efectos de la ionosfera sobre fase y polarización de señales de radio ni su corrección."
           }
         },
         {
@@ -502,7 +502,7 @@
           "tema": "Validación de imágenes calibradas",
           "destino": "existente",
           "tronco": [
-            "B30-C19",
+            "B46-C19",
             "B13-C18"
           ]
         }
@@ -518,7 +518,7 @@
           "destino": "existente",
           "tronco": [
             "B15-C02",
-            "B30-C09"
+            "B46-C09"
           ]
         },
         {
@@ -529,7 +529,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Compensación de retardo y alineación temporal de flujos de antenas",
-            "necesidad": "B44-C16 sincroniza tiempo de navegación; ninguna clase trata el seguimiento de retardo y la alineación de flujos digitales en un correlador."
+            "necesidad": "B74-C16 sincroniza tiempo de navegación; ninguna clase trata el seguimiento de retardo y la alineación de flujos digitales en un correlador."
           }
         },
         {
@@ -537,7 +537,7 @@
           "tema": "Correlación cruzada",
           "destino": "existente",
           "tronco": [
-            "B30-C15",
+            "B46-C15",
             "B12-C05"
           ]
         },
@@ -546,7 +546,7 @@
           "tema": "Correladores FX",
           "destino": "existente",
           "tronco": [
-            "B30-C15",
+            "B46-C15",
             "B15-C05"
           ]
         },
@@ -555,7 +555,7 @@
           "tema": "Correladores XF",
           "destino": "existente",
           "tronco": [
-            "B30-C15",
+            "B46-C15",
             "B15-C08"
           ]
         },
@@ -564,7 +564,7 @@
           "tema": "Geometría de líneas de base",
           "destino": "existente",
           "tronco": [
-            "B30-C14"
+            "B46-C14"
           ]
         },
         {
@@ -575,7 +575,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Fringe stopping y rotación de fase por retardo geométrico",
-            "necesidad": "B30-C14 define la línea de base; no se enseña la rotación de fase que detiene las franjas ni la tasa de franjas."
+            "necesidad": "B46-C14 define la línea de base; no se enseña la rotación de fase que detiene las franjas ni la tasa de franjas."
           }
         },
         {
@@ -616,7 +616,7 @@
           "tema": "Redes de antenas geodésicas",
           "destino": "existente",
           "tronco": [
-            "B30-C18",
+            "B46-C18",
             "B13-C11"
           ]
         },
@@ -626,7 +626,7 @@
           "destino": "existente",
           "tronco": [
             "B13-C07",
-            "B30-C08"
+            "B46-C08"
           ]
         },
         {
@@ -634,8 +634,8 @@
           "tema": "Retardos geométricos",
           "destino": "existente",
           "tronco": [
-            "B30-C14",
-            "B30-C18"
+            "B46-C14",
+            "B46-C18"
           ]
         },
         {
@@ -646,7 +646,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Retardo troposférico e ionosférico en VLBI y su modelado",
-            "necesidad": "B55-C04 trata pérdidas de propagación de enlaces; no hay clase sobre retardo húmedo/seco y funciones de mapeo en geodesia por VLBI."
+            "necesidad": "B89-C04 trata pérdidas de propagación de enlaces; no hay clase sobre retardo húmedo/seco y funciones de mapeo en geodesia por VLBI."
           }
         },
         {
@@ -657,7 +657,7 @@
             "area": "A04",
             "bloque": "nuevo: Interferometría avanzada y reducción de datos de radio",
             "titulo": "Búsqueda de franjas VLBI: ajuste de retardo y tasa",
-            "necesidad": "B30-C18 presenta VLBI de forma general; falta el ajuste de franjas (fringe fitting) sobre retardo y tasa de retardo."
+            "necesidad": "B46-C18 presenta VLBI de forma general; falta el ajuste de franjas (fringe fitting) sobre retardo y tasa de retardo."
           }
         },
         {
@@ -687,9 +687,9 @@
           "tema": "Análisis de observaciones VLBI",
           "destino": "existente",
           "tronco": [
-            "B30-C18",
-            "B44-C07",
-            "B44-C01"
+            "B46-C18",
+            "B74-C07",
+            "B74-C01"
           ]
         },
         {
@@ -697,9 +697,9 @@
           "tema": "Geodesia de alta precisión",
           "destino": "existente",
           "tronco": [
-            "B38-C10",
-            "B30-C18",
-            "B34-C04"
+            "B57-C10",
+            "B46-C18",
+            "B53-C04"
           ]
         },
         {
@@ -724,7 +724,7 @@
           "tema": "Importación de visibilidades",
           "destino": "existente",
           "tronco": [
-            "B30-C15",
+            "B46-C15",
             "B14-C05"
           ]
         },
@@ -733,7 +733,7 @@
           "tema": "Inspección de metadatos",
           "destino": "existente",
           "tronco": [
-            "B28-C19",
+            "B44-C19",
             "B14-C06"
           ]
         },
@@ -764,7 +764,7 @@
           "tema": "Síntesis de apertura",
           "destino": "existente",
           "tronco": [
-            "B30-C16"
+            "B46-C16"
           ]
         },
         {
@@ -772,7 +772,7 @@
           "tema": "Algoritmo CLEAN",
           "destino": "existente",
           "tronco": [
-            "B30-C19"
+            "B46-C19"
           ]
         },
         {
@@ -781,7 +781,7 @@
           "destino": "existente",
           "tronco": [
             "B15-C11",
-            "B30-C19"
+            "B46-C19"
           ]
         },
         {
@@ -810,7 +810,7 @@
           "tronco": [
             "B14-C19",
             "B14-C12",
-            "B32-C17"
+            "B48-C17"
           ]
         }
       ]

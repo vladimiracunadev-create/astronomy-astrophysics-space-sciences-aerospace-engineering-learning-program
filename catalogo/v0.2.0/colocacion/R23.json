@@ -10,7 +10,7 @@
           "tema": "Tratado del Espacio Ultraterrestre",
           "destino": "existente",
           "tronco": [
-            "B63-C01"
+            "B119-C01"
           ]
         },
         {
@@ -18,7 +18,7 @@
           "tema": "Acuerdo de Salvamento",
           "destino": "existente",
           "tronco": [
-            "B63-C02"
+            "B119-C02"
           ]
         },
         {
@@ -26,7 +26,7 @@
           "tema": "Convenio de Responsabilidad",
           "destino": "existente",
           "tronco": [
-            "B63-C03"
+            "B119-C03"
           ]
         },
         {
@@ -34,7 +34,7 @@
           "tema": "Convenio de Registro",
           "destino": "existente",
           "tronco": [
-            "B63-C04"
+            "B119-C04"
           ]
         },
         {
@@ -42,7 +42,7 @@
           "tema": "Acuerdo de la Luna",
           "destino": "existente",
           "tronco": [
-            "B63-C05"
+            "B119-C05"
           ]
         },
         {
@@ -50,8 +50,8 @@
           "tema": "Resoluciones ONU sobre sostenibilidad",
           "destino": "existente",
           "tronco": [
-            "B63-C06",
-            "B62-C19"
+            "B119-C06",
+            "B118-C19"
           ]
         },
         {
@@ -62,7 +62,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Marco jurídico internacional del espacio (profundización)",
             "titulo": "Práctica estatal y costumbre internacional en el derecho espacial",
-            "necesidad": "El derecho espacial se desarrolla también por la práctica de los Estados; B63 presenta tratados, no la costumbre ni la práctica."
+            "necesidad": "El derecho espacial se desarrolla también por la práctica de los Estados; B119 presenta tratados, no la costumbre ni la práctica."
           }
         },
         {
@@ -73,7 +73,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Marco jurídico internacional del espacio (profundización)",
             "titulo": "Interpretación de tratados internacionales",
-            "necesidad": "B63 enseña los tratados y su contenido, pero no el método jurídico de interpretarlos y aplicarlos; este tema lo requiere el rol."
+            "necesidad": "B119 enseña los tratados y su contenido, pero no el método jurídico de interpretarlos y aplicarlos; este tema lo requiere el rol."
           }
         },
         {
@@ -81,7 +81,7 @@
           "tema": "Casos jurídicos",
           "destino": "existente",
           "tronco": [
-            "B63-C19"
+            "B119-C19"
           ]
         },
         {
@@ -92,7 +92,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Marco jurídico internacional del espacio (profundización)",
             "titulo": "Matriz comparativa de obligaciones jurídicas por actor",
-            "necesidad": "Distinguir qué obligaciones recaen en Estados y operadores exige una comparación sistemática; B63 las trata una por una."
+            "necesidad": "Distinguir qué obligaciones recaen en Estados y operadores exige una comparación sistemática; B119 las trata una por una."
           }
         }
       ]
@@ -106,7 +106,7 @@
           "tema": "Autorización de operadores",
           "destino": "existente",
           "tronco": [
-            "B63-C08"
+            "B119-C08"
           ]
         },
         {
@@ -114,7 +114,7 @@
           "tema": "Supervisión continua",
           "destino": "existente",
           "tronco": [
-            "B63-C08"
+            "B119-C08"
           ]
         },
         {
@@ -122,7 +122,7 @@
           "tema": "Registro de objetos",
           "destino": "existente",
           "tronco": [
-            "B63-C07"
+            "B119-C07"
           ]
         },
         {
@@ -133,7 +133,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Regulación nacional de actividades espaciales",
             "titulo": "Licencias y requisitos nacionales para el lanzamiento",
-            "necesidad": "Lanzar desde o hacia un país exige licencia y requisitos propios; B63-C08 trata la autorización en general."
+            "necesidad": "Lanzar desde o hacia un país exige licencia y requisitos propios; B119-C08 trata la autorización en general."
           }
         },
         {
@@ -152,8 +152,8 @@
           "tema": "Responsabilidad nacional",
           "destino": "existente",
           "tronco": [
-            "B63-C03",
-            "B63-C10"
+            "B119-C03",
+            "B119-C10"
           ]
         },
         {
@@ -175,7 +175,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Regulación nacional de actividades espaciales",
             "titulo": "Marco legal espacial en Chile",
-            "necesidad": "El programa se enseña en Chile y requiere reconocer el marco local; B63-C19 compara legislaciones sin centrarse en el marco chileno (a verificar con fuentes oficiales)."
+            "necesidad": "El programa se enseña en Chile y requiere reconocer el marco local; B119-C19 compara legislaciones sin centrarse en el marco chileno (a verificar con fuentes oficiales)."
           }
         },
         {
@@ -183,7 +183,7 @@
           "tema": "Comparación regional",
           "destino": "existente",
           "tronco": [
-            "B63-C19"
+            "B119-C19"
           ]
         },
         {
@@ -208,8 +208,8 @@
           "tema": "Asignación de frecuencias",
           "destino": "existente",
           "tronco": [
-            "B55-C02",
-            "B55-C19"
+            "B89-C02",
+            "B89-C19"
           ]
         },
         {
@@ -217,8 +217,8 @@
           "tema": "Coordinación internacional ITU",
           "destino": "existente",
           "tronco": [
-            "B55-C19",
-            "B63-C09"
+            "B89-C19",
+            "B119-C09"
           ]
         },
         {
@@ -229,7 +229,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Espectro, licencias y regulación satelital",
             "titulo": "Licencias satelitales y procedimiento de notificación",
-            "necesidad": "Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B63-C09 presenta las normas sin el procedimiento."
+            "necesidad": "Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B119-C09 presenta las normas sin el procedimiento."
           }
         },
         {
@@ -237,8 +237,8 @@
           "tema": "Interferencias perjudiciales",
           "destino": "existente",
           "tronco": [
-            "B63-C15",
-            "B62-C17"
+            "B119-C15",
+            "B118-C17"
           ]
         },
         {
@@ -246,8 +246,8 @@
           "tema": "Radioastronomía protegida",
           "destino": "existente",
           "tronco": [
-            "B62-C17",
-            "B30-C01"
+            "B118-C17",
+            "B46-C01"
           ]
         },
         {
@@ -280,7 +280,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Espectro, licencias y regulación satelital",
             "titulo": "Documentación regulatoria de un sistema satelital",
-            "necesidad": "El expediente regulatorio es un entregable del rol; B56-C05 documenta interfaces, no trámites regulatorios."
+            "necesidad": "El expediente regulatorio es un entregable del rol; B90-C05 documenta interfaces, no trámites regulatorios."
           }
         },
         {
@@ -316,8 +316,8 @@
           "tema": "Responsabilidad estatal",
           "destino": "existente",
           "tronco": [
-            "B63-C03",
-            "B63-C10"
+            "B119-C03",
+            "B119-C10"
           ]
         },
         {
@@ -325,7 +325,7 @@
           "tema": "Responsabilidad de operadores",
           "destino": "existente",
           "tronco": [
-            "B63-C10"
+            "B119-C10"
           ]
         },
         {
@@ -333,8 +333,8 @@
           "tema": "Daños en superficie",
           "destino": "existente",
           "tronco": [
-            "B63-C10",
-            "B62-C14"
+            "B119-C10",
+            "B118-C14"
           ]
         },
         {
@@ -342,8 +342,8 @@
           "tema": "Daños en órbita",
           "destino": "existente",
           "tronco": [
-            "B63-C10",
-            "B62-C05"
+            "B119-C10",
+            "B118-C05"
           ]
         },
         {
@@ -354,7 +354,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Responsabilidad, daños y controversias espaciales",
             "titulo": "Prueba del daño y cuantificación de la reparación",
-            "necesidad": "Reclamar exige probar y cuantificar el daño; B63-C10 define la responsabilidad sin su prueba."
+            "necesidad": "Reclamar exige probar y cuantificar el daño; B119-C10 define la responsabilidad sin su prueba."
           }
         },
         {
@@ -395,7 +395,7 @@
           "tema": "Cláusulas contractuales",
           "destino": "existente",
           "tronco": [
-            "B64-C10"
+            "B124-C10"
           ]
         },
         {
@@ -403,7 +403,7 @@
           "tema": "Caso jurídico de incidente",
           "destino": "existente",
           "tronco": [
-            "B63-C20"
+            "B119-C20"
           ]
         }
       ]
@@ -417,7 +417,7 @@
           "tema": "Riesgos asegurables",
           "destino": "existente",
           "tronco": [
-            "B64-C08"
+            "B124-C08"
           ]
         },
         {
@@ -428,7 +428,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Seguros espaciales",
             "titulo": "Seguros de lanzamiento",
-            "necesidad": "B64-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias."
+            "necesidad": "B124-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias."
           }
         },
         {
@@ -530,7 +530,7 @@
           "tema": "Fuentes públicas de financiamiento",
           "destino": "existente",
           "tronco": [
-            "B64-C06"
+            "B124-C06"
           ]
         },
         {
@@ -541,7 +541,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
             "titulo": "Capital semilla y financiamiento inicial",
-            "necesidad": "B64-C07 trata el financiamiento privado en general, no las etapas iniciales de una empresa."
+            "necesidad": "B124-C07 trata el financiamiento privado en general, no las etapas iniciales de una empresa."
           }
         },
         {
@@ -560,8 +560,8 @@
           "tema": "Financiación de infraestructura",
           "destino": "existente",
           "tronco": [
-            "B64-C06",
-            "B64-C07"
+            "B124-C06",
+            "B124-C07"
           ]
         },
         {
@@ -569,7 +569,7 @@
           "tema": "Contratos de servicios",
           "destino": "existente",
           "tronco": [
-            "B64-C10"
+            "B124-C10"
           ]
         },
         {
@@ -577,7 +577,7 @@
           "tema": "Presupuestos de misión",
           "destino": "existente",
           "tronco": [
-            "B64-C05"
+            "B124-C05"
           ]
         },
         {
@@ -588,7 +588,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
             "titulo": "Proyección de flujos de caja de un proyecto espacial",
-            "necesidad": "Decidir si un proyecto es sostenible exige proyectar sus flujos; B64-C05 estima costos sin flujos de caja."
+            "necesidad": "Decidir si un proyecto es sostenible exige proyectar sus flujos; B124-C05 estima costos sin flujos de caja."
           }
         },
         {
@@ -610,7 +610,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
             "titulo": "Evaluación de viabilidad económica de un negocio espacial",
-            "necesidad": "B64-C12 evalúa retorno científico, no la viabilidad económica de un negocio."
+            "necesidad": "B124-C12 evalúa retorno científico, no la viabilidad económica de un negocio."
           }
         },
         {
@@ -621,7 +621,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Financiamiento de proyectos y negocios espaciales",
             "titulo": "Presentación financiera ante inversionistas con evidencia",
-            "necesidad": "Presentar a inversionistas exige comunicar cifras con evidencia; B64-C19 redacta propuestas de misión, no financieras."
+            "necesidad": "Presentar a inversionistas exige comunicar cifras con evidencia; B124-C19 redacta propuestas de misión, no financieras."
           }
         }
       ]
@@ -635,7 +635,7 @@
           "tema": "Cadena de valor espacial",
           "destino": "existente",
           "tronco": [
-            "B64-C01"
+            "B124-C01"
           ]
         },
         {
@@ -643,7 +643,7 @@
           "tema": "Segmento upstream",
           "destino": "existente",
           "tronco": [
-            "B64-C03"
+            "B124-C03"
           ]
         },
         {
@@ -651,7 +651,7 @@
           "tema": "Segmento downstream",
           "destino": "existente",
           "tronco": [
-            "B64-C03"
+            "B124-C03"
           ]
         },
         {
@@ -662,7 +662,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Creación y operación de empresas espaciales",
             "titulo": "Mercado de datos espaciales",
-            "necesidad": "Los datos son un producto con mercado propio; B64-C03 trata los segmentos en general."
+            "necesidad": "Los datos son un producto con mercado propio; B124-C03 trata los segmentos en general."
           }
         },
         {
@@ -670,7 +670,7 @@
           "tema": "Propiedad intelectual",
           "destino": "existente",
           "tronco": [
-            "B64-C09"
+            "B124-C09"
           ]
         },
         {
@@ -725,7 +725,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Creación y operación de empresas espaciales",
             "titulo": "Plan empresarial de una empresa espacial",
-            "necesidad": "Integrar mercado, finanzas y operación en un plan es el cierre del módulo; B64-C20 es un proyecto general."
+            "necesidad": "Integrar mercado, finanzas y operación en un plan es el cierre del módulo; B124-C20 es un proyecto general."
           }
         }
       ]
@@ -739,7 +739,7 @@
           "tema": "Uso pacífico del espacio",
           "destino": "existente",
           "tronco": [
-            "B63-C11"
+            "B119-C11"
           ]
         },
         {
@@ -747,8 +747,8 @@
           "tema": "Principio de no apropiación",
           "destino": "existente",
           "tronco": [
-            "B63-C01",
-            "B63-C05"
+            "B119-C01",
+            "B119-C05"
           ]
         },
         {
@@ -756,7 +756,7 @@
           "tema": "Sostenibilidad orbital",
           "destino": "existente",
           "tronco": [
-            "B62-C19"
+            "B118-C19"
           ]
         },
         {
@@ -775,7 +775,7 @@
           "tema": "Protección planetaria",
           "destino": "existente",
           "tronco": [
-            "B37-C18"
+            "B56-C18"
           ]
         },
         {
@@ -783,7 +783,7 @@
           "tema": "Ciencia abierta",
           "destino": "existente",
           "tronco": [
-            "B64-C14"
+            "B124-C14"
           ]
         },
         {
@@ -794,7 +794,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Gobernanza, equidad y sostenibilidad espacial",
             "titulo": "Seguridad y gobernanza de datos espaciales",
-            "necesidad": "Los datos espaciales requieren políticas de acceso y seguridad; B64-C13 trata ética de datos de investigación."
+            "necesidad": "Los datos espaciales requieren políticas de acceso y seguridad; B124-C13 trata ética de datos de investigación."
           }
         },
         {
@@ -802,7 +802,7 @@
           "tema": "Impacto de mega constelaciones",
           "destino": "existente",
           "tronco": [
-            "B62-C15"
+            "B118-C15"
           ]
         },
         {
@@ -813,7 +813,7 @@
             "area": "nueva: Derecho, política y economía espacial",
             "bloque": "nuevo: Gobernanza, equidad y sostenibilidad espacial",
             "titulo": "Gobernanza de los recursos espaciales",
-            "necesidad": "La explotación de recursos extraterrestres plantea cuestiones de gobernanza que B40 trata solo técnicamente."
+            "necesidad": "La explotación de recursos extraterrestres plantea cuestiones de gobernanza que B59 trata solo técnicamente."
           }
         },
         {
@@ -821,8 +821,8 @@
           "tema": "Código de conducta profesional",
           "destino": "existente",
           "tronco": [
-            "B63-C18",
-            "B64-C13"
+            "B119-C18",
+            "B124-C13"
           ]
         }
       ]

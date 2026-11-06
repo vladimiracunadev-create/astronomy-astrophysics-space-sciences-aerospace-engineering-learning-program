@@ -8,7 +8,7 @@
 
 Quinta clase del bloque B06 y cierre de su primer tramo. En C04 contaste los pares de electrones de una molécula. Aquí das el paso siguiente: esos pares se repelen y por eso los átomos adoptan una forma en el espacio. Esa forma decide si una molécula es polar, cómo se pega a otras y qué colores absorbe. Sigues en el nivel N1.
 
-Verás cómo predecir la forma con los pares de electrones (modelo de repulsión de pares), cómo calcular un ángulo de enlace a partir de coordenadas, qué significa que una molécula sea polar y por qué el agua y el dióxido de carbono, con la misma fórmula de tres átomos, se comportan tan distinto. No verás orbitales ni cálculos cuánticos de geometría (B24).
+Verás cómo predecir la forma con los pares de electrones (modelo de repulsión de pares), cómo calcular un ángulo de enlace a partir de coordenadas, qué significa que una molécula sea polar y por qué el agua y el dióxido de carbono, con la misma fórmula de tres átomos, se comportan tan distinto. No verás orbitales ni cálculos cuánticos de geometría (B31).
 
 ## 2. Por qué esta clase existe
 

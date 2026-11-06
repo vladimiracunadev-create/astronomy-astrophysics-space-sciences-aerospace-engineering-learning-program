@@ -37,11 +37,11 @@ Dicho sin adornos: **un buen diseño se reconoce porque se sabe dónde falla**.
 
 ### Conocimiento técnico
 
-- **Mecánica orbital** ([**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md)); **perturbaciones** ([**B42** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md)); **mecánica celeste y caos** ([**B43** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B43-mecanica-celeste-resonancias-y-caos.md)).
-- **Estimación de órbitas** ([**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md)).
-- **Trayectorias y misiones interplanetarias** ([**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md)); **problema de Lambert** ([**B98** · Problema de Lambert y transferencias de dos puntos](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--problema-de-lambert-y-transferencias-de-dos-puntos)).
-- **Optimización de trayectorias y diseño robusto** ([**B97** · Optimización de trayectorias y diseño robusto](../PROGRAMA_ACADEMICO_COMPLETO.md#b97--optimización-de-trayectorias-y-diseño-robusto)).
-- **Dinámica cislunar** ([**B46** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B46-dinamica-cislunar-y-operaciones-de-proximidad.md)).
+- **Mecánica orbital** ([**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md)); **perturbaciones** ([**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md)); **mecánica celeste y caos** ([**B73** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md)).
+- **Estimación de órbitas** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)).
+- **Trayectorias y misiones interplanetarias** ([**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)); **problema de Lambert** ([**B82** · Problema de Lambert y transferencias de dos puntos](../PROGRAMA_ACADEMICO_COMPLETO.md#b82--problema-de-lambert-y-transferencias-de-dos-puntos)).
+- **Optimización de trayectorias y diseño robusto** ([**B81** · Optimización de trayectorias y diseño robusto](../PROGRAMA_ACADEMICO_COMPLETO.md#b81--optimización-de-trayectorias-y-diseño-robusto)).
+- **Dinámica cislunar** ([**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
 ### Herramientas del oficio
@@ -90,28 +90,28 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-8. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B34-` C03
+8. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B53-` C03
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-9. 📚 [**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md) — usa 4 de 20 clases: `B41-` C09, C18–C20
-10. 📚 [**B42** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) — usa 8 de 21 clases: `B42-` C02, C06, C08–C10, C18–C20
-11. 📚 [**B43** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B43-mecanica-celeste-resonancias-y-caos.md) — usa 6 de 22 clases: `B43-` C08, C10–C12, C21–C22
-12. 📚 [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 8 de 30 clases: `B44-` C07, C11–C12, C15, C19–C22
-13. 📚 [**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) — usa 26 de 30 clases: `B45-` C01–C14, C17–C18, C21–C30
-14. 📚 [**B46** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B46-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 1 de 20 clases: `B46-` C18
-15. 📚 [**B47** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md) — usa 1 de 25 clases: `B47-` C11
-16. 📚 [**B97** · Optimización de trayectorias y diseño robusto](../PROGRAMA_ACADEMICO_COMPLETO.md#b97--optimización-de-trayectorias-y-diseño-robusto) — usa 15 de 15 clases: `B97-` C01–C15
-17. 📚 [**B98** · Problema de Lambert y transferencias de dos puntos](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--problema-de-lambert-y-transferencias-de-dos-puntos) — usa 7 de 7 clases: `B98-` C01–C07
+9. 📚 [**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md) — usa 4 de 20 clases: `B71-` C09, C18–C20
+10. 📚 [**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) — usa 8 de 21 clases: `B72-` C02, C06, C08–C10, C18–C20
+11. 📚 [**B73** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) — usa 6 de 22 clases: `B73-` C08, C10–C12, C21–C22
+12. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 8 de 30 clases: `B74-` C07, C11–C12, C15, C19–C22
+13. 📚 [**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) — usa 26 de 30 clases: `B75-` C01–C14, C17–C18, C21–C30
+14. 📚 [**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 1 de 20 clases: `B76-` C18
+15. 📚 [**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) — usa 1 de 25 clases: `B77-` C11
+16. 📚 [**B81** · Optimización de trayectorias y diseño robusto](../PROGRAMA_ACADEMICO_COMPLETO.md#b81--optimización-de-trayectorias-y-diseño-robusto) — usa 15 de 15 clases: `B81-` C01–C15
+17. 📚 [**B82** · Problema de Lambert y transferencias de dos puntos](../PROGRAMA_ACADEMICO_COMPLETO.md#b82--problema-de-lambert-y-transferencias-de-dos-puntos) — usa 7 de 7 clases: `B82-` C01–C07
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-18. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — usa 1 de 23 clases: `B52-` C04
-19. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — usa 1 de 25 clases: `B55-` C14
+18. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — usa 1 de 23 clases: `B86-` C04
+19. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 1 de 25 clases: `B89-` C14
 
 **A08 · Operaciones de misión y robótica espacial**
 
-20. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B57-` C11
+20. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B96-` C11
 
 <!-- /ruta -->
 
@@ -148,9 +148,9 @@ Roles vecinos con los que se comparte formación: [Navegación guiado y autonom�
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
-2. Estudia **mecánica orbital** ([**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md)) y **perturbaciones** ([**B42** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md)).
-3. Avanza a **trayectorias interplanetarias** ([**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md)) y al **problema de Lambert** ([**B98** · Problema de Lambert y transferencias de dos puntos](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--problema-de-lambert-y-transferencias-de-dos-puntos)).
-4. Profundiza en **optimización y robustez** ([**B97** · Optimización de trayectorias y diseño robusto](../PROGRAMA_ACADEMICO_COMPLETO.md#b97--optimización-de-trayectorias-y-diseño-robusto)).
+2. Estudia **mecánica orbital** ([**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md)) y **perturbaciones** ([**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md)).
+3. Avanza a **trayectorias interplanetarias** ([**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)) y al **problema de Lambert** ([**B82** · Problema de Lambert y transferencias de dos puntos](../PROGRAMA_ACADEMICO_COMPLETO.md#b82--problema-de-lambert-y-transferencias-de-dos-puntos)).
+4. Profundiza en **optimización y robustez** ([**B81** · Optimización de trayectorias y diseño robusto](../PROGRAMA_ACADEMICO_COMPLETO.md#b81--optimización-de-trayectorias-y-diseño-robusto)).
 5. Reúne tu **diseño documentado** con su historial.
 
 <!-- pie:inicio -->

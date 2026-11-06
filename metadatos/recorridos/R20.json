@@ -100,14 +100,14 @@
       "tipo": "obligatoria",
       "titulo": "Ingeniería de sistemas de hábitat",
       "clases": [
-        "B49-C01..C06",
-        "B49-C09..C11",
-        "B49-C16",
-        "B49-C17",
-        "B49-C20"
+        "B83-C01..C06",
+        "B83-C09..C11",
+        "B83-C16",
+        "B83-C17",
+        "B83-C20"
       ],
       "capacidad": "Pasar de las necesidades de una tripulación a requisitos verificables y presupuestos de masa, energía y datos.",
-      "nota": "Se omiten B49-C07, C08 y C12 a C15 (arquitectura formal, interfaces, MBSE, revisiones, configuración): se estudian si el proyecto crece a varios equipos."
+      "nota": "Se omiten B83-C07, C08 y C12 a C15 (arquitectura formal, interfaces, MBSE, revisiones, configuración): se estudian si el proyecto crece a varios equipos."
     },
     {
       "orden": 8,
@@ -115,7 +115,7 @@
       "tipo": "obligatoria",
       "titulo": "Hábitats espaciales y soporte vital",
       "clases": [
-        "B60-C01..C20"
+        "B106-C01..C20"
       ],
       "capacidad": "Describir y dimensionar la atmósfera, el agua, los residuos, el alimento y la protección de un hábitat presurizado.",
       "nota": "Es el eje del rol. Los módulos R20-M02 a M06 profundizan C03 a C09, C12, C14, C15 y C20: aquí se aprende el concepto y en la ruta se pide el balance, la validación y la aplicación profesional."
@@ -126,16 +126,16 @@
       "tipo": "obligatoria",
       "titulo": "Terreno y regolito del emplazamiento",
       "clases": [
-        "B34-C05",
-        "B34-C07",
-        "B34-C18",
-        "B34-C19",
-        "B40-C04",
-        "B40-C05",
-        "B40-C11..C13"
+        "B53-C05",
+        "B53-C07",
+        "B53-C18",
+        "B53-C19",
+        "B59-C04",
+        "B59-C05",
+        "B59-C11..C13"
       ],
       "capacidad": "Leer el terreno lunar o marciano y su regolito como restricción de emplazamiento y de construcción.",
-      "nota": "B40-C11 a C13 anticipan la construcción con regolito que R21-M06 trata desde la fabricación; aquí solo se usa como material de obra del hábitat."
+      "nota": "B59-C11 a C13 anticipan la construcción con regolito que R21-M06 trata desde la fabricación; aquí solo se usa como material de obra del hábitat."
     },
     {
       "orden": 10,
@@ -157,7 +157,7 @@
         "R20-M02-C01..C20"
       ],
       "capacidad": "Cerrar el balance metabólico, de CO2, de agua y de residuos de una tripulación y verificar la redundancia.",
-      "nota": "Repite temas de B60-C04 a C09; la evidencia que se pide es un balance verificado con incertidumbre."
+      "nota": "Repite temas de B106-C04 a C09; la evidencia que se pide es un balance verificado con incertidumbre."
     },
     {
       "orden": 12,
@@ -168,7 +168,7 @@
         "R20-M03-C01..C20"
       ],
       "capacidad": "Definir presión, composición y respuesta ante fugas y desviaciones de un volumen presurizado.",
-      "nota": "Repite B60-C02 a C04; se profundiza en sensores, fugas y respuestas."
+      "nota": "Repite B106-C02 a C04; se profundiza en sensores, fugas y respuestas."
     },
     {
       "orden": 13,
@@ -176,13 +176,13 @@
       "tipo": "recomendada",
       "titulo": "Estructuras y materiales del recinto presurizado",
       "clases": [
-        "B50-C01",
-        "B50-C05",
-        "B50-C06",
-        "B50-C09",
-        "B50-C10",
-        "B50-C12",
-        "B50-C13"
+        "B84-C01",
+        "B84-C05",
+        "B84-C06",
+        "B84-C09",
+        "B84-C10",
+        "B84-C12",
+        "B84-C13"
       ],
       "capacidad": "Comprender cargas, materiales y análisis estructural del recinto que contiene la atmósfera."
     },
@@ -192,14 +192,14 @@
       "tipo": "recomendada",
       "titulo": "Entorno térmico del hábitat",
       "clases": [
-        "B51-C01",
-        "B51-C02",
-        "B51-C04",
-        "B51-C07",
-        "B51-C08",
-        "B51-C12",
-        "B51-C16",
-        "B51-C18"
+        "B85-C01",
+        "B85-C02",
+        "B85-C04",
+        "B85-C07",
+        "B85-C08",
+        "B85-C12",
+        "B85-C16",
+        "B85-C18"
       ],
       "capacidad": "Estimar el balance térmico de un recinto y de sus radiadores, incluido el polvo lunar."
     },
@@ -209,12 +209,12 @@
       "tipo": "obligatoria",
       "titulo": "Energía del hábitat",
       "clases": [
-        "B52-C01",
-        "B52-C04",
-        "B52-C05",
-        "B52-C11",
-        "B52-C13",
-        "B52-C19"
+        "B86-C01",
+        "B86-C04",
+        "B86-C05",
+        "B86-C11",
+        "B86-C13",
+        "B86-C19"
       ],
       "capacidad": "Presupuestar la energía de un hábitat durante el día, la noche y los eclipses con redundancia.",
       "nota": "R20-M08 y R21-M05 retoman este presupuesto a escala de asentamiento."
@@ -235,9 +235,9 @@
       "tipo": "recomendada",
       "titulo": "Recursos, nutrición y residuos",
       "clases": [
-        "B40-C14..C16",
-        "B59-C11",
-        "B59-C12"
+        "B59-C14..C16",
+        "B105-C11",
+        "B105-C12"
       ],
       "capacidad": "Relacionar cultivos, residuos y microbioma con el ciclo de materiales del hábitat."
     },
@@ -251,7 +251,7 @@
         "R20-M05-C19..C20"
       ],
       "capacidad": "Dimensionar un sistema de cultivo y su uso de agua, luz y nutrientes.",
-      "nota": "Se omiten M05-C17 y C18 (almacenamiento y conservación) si el plan de alimentos se resuelve con B60-C11."
+      "nota": "Se omiten M05-C17 y C18 (almacenamiento y conservación) si el plan de alimentos se resuelve con B106-C11."
     },
     {
       "orden": 19,
@@ -259,11 +259,11 @@
       "tipo": "obligatoria",
       "titulo": "Radiación y clima espacial",
       "clases": [
-        "B23-C12..C14",
-        "B23-C18",
-        "B23-C19",
-        "B59-C06",
-        "B59-C07"
+        "B30-C12..C14",
+        "B30-C18",
+        "B30-C19",
+        "B105-C06",
+        "B105-C07"
       ],
       "capacidad": "Estimar la exposición a tormentas solares y a radiación galáctica y su efecto sobre la tripulación."
     },
@@ -276,7 +276,7 @@
         "R20-M06-C01..C20"
       ],
       "capacidad": "Diseñar el refugio, el blindaje y la protección frente a radiación, micrometeoritos y despresurización.",
-      "nota": "Repite B60-C14 y C15; la evidencia pedida es una matriz de riesgo ambiental."
+      "nota": "Repite B106-C14 y C15; la evidencia pedida es una matriz de riesgo ambiental."
     },
     {
       "orden": 21,
@@ -284,11 +284,11 @@
       "tipo": "recomendada",
       "titulo": "Salud y desempeño de la tripulación",
       "clases": [
-        "B59-C01",
-        "B59-C02",
-        "B59-C08",
-        "B59-C09",
-        "B58-C16..C18"
+        "B105-C01",
+        "B105-C02",
+        "B105-C08",
+        "B105-C09",
+        "B104-C16..C18"
       ],
       "capacidad": "Traducir los efectos de gravedad parcial, sueño, aislamiento y convivencia en requisitos de diseño."
     },
@@ -310,9 +310,9 @@
       "tipo": "opcional",
       "titulo": "Construcción y mantenimiento robóticos",
       "clases": [
-        "B61-C13..C15",
-        "B61-C17",
-        "B61-C18"
+        "B97-C13..C15",
+        "B97-C17",
+        "B97-C18"
       ],
       "capacidad": "Evaluar qué parte de la construcción y el mantenimiento puede hacerse sin tripulación."
     },
@@ -322,10 +322,10 @@
       "tipo": "recomendada",
       "titulo": "Protección planetaria y ética",
       "clases": [
-        "B37-C17",
-        "B37-C18",
-        "B63-C18",
-        "B64-C13"
+        "B56-C17",
+        "B56-C18",
+        "B119-C18",
+        "B124-C13"
       ],
       "capacidad": "Aplicar contención de contaminación y criterios éticos a un asentamiento.",
       "nota": "La protección planetaria se cita como restricción; la norma aplicable depende de la versión y la jurisdicción."
@@ -347,8 +347,8 @@
       "tipo": "recomendada",
       "titulo": "Informe y portafolio",
       "clases": [
-        "B64-C19",
-        "B64-C20"
+        "B124-C19",
+        "B124-C20"
       ],
       "capacidad": "Redactar una propuesta y un portafolio con las evidencias del diseño."
     }
@@ -356,23 +356,23 @@
   "huecos": [
     {
       "tema": "Normas de factores humanos y habitabilidad con edición y alcance",
-      "motivo": "El catálogo trata habitabilidad (B60-C01, R20-M07) pero ninguna clase estudia estándares como NASA-STD-3001 Vol. 2 (Rev. F, 14/07/2026 según standards.nasa.gov/node/237, consultado el 05/11/2026) ni su traducción a requisitos; la búsqueda por «norma» y «estándar» en los títulos solo devolvió CCSDS y mitigación de desechos.",
-      "propuesta": "clases nuevas en B60 o bloque transversal de estándares y aseguramiento del producto"
+      "motivo": "El catálogo trata habitabilidad (B106-C01, R20-M07) pero ninguna clase estudia estándares como NASA-STD-3001 Vol. 2 (Rev. F, 14/07/2026 según standards.nasa.gov/node/237, consultado el 05/11/2026) ni su traducción a requisitos; la búsqueda por «norma» y «estándar» en los títulos solo devolvió CCSDS y mitigación de desechos.",
+      "propuesta": "clases nuevas en B106 o bloque transversal de estándares y aseguramiento del producto"
     },
     {
       "tema": "Diseño arquitectónico y planificación espacial (programa, circulación, composición) como disciplina",
       "motivo": "R20-M01 cubre distribución de módulos, pero ningún título trata el análisis de programa, la representación de planos ni el modelado de información de construcción.",
-      "propuesta": "módulo nuevo de R20 o clases nuevas en B60"
+      "propuesta": "módulo nuevo de R20 o clases nuevas en B106"
     },
     {
       "tema": "Modelado de ventilación y transporte de aire en recintos",
       "motivo": "B11-C13 a C15 tratan ecuaciones en derivadas parciales y diferencias finitas, pero ningún título aplica ventilación, mezcla de contaminantes o transporte de humedad a un volumen cerrado.",
-      "propuesta": "clases nuevas en B60 o en R20-M03"
+      "propuesta": "clases nuevas en B106 o en R20-M03"
     },
     {
       "tema": "Hábitats rotatorios y gravedad artificial",
-      "motivo": "Se buscaron «rotación», «gravedad artificial» y «rotatorio» en los títulos: B59-C18 trata la gravedad parcial como investigación médica, pero ninguna clase estudia el diseño de un hábitat con gravedad por rotación.",
-      "propuesta": "clases nuevas en B60"
+      "motivo": "Se buscaron «rotación», «gravedad artificial» y «rotatorio» en los títulos: B105-C18 trata la gravedad parcial como investigación médica, pero ninguna clase estudia el diseño de un hábitat con gravedad por rotación.",
+      "propuesta": "clases nuevas en B106"
     }
   ]
 }

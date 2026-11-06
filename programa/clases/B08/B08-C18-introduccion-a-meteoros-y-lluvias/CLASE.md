@@ -8,7 +8,7 @@
 
 Decimoctava clase del bloque B08. Hasta aquí observaste objetos que persisten; los meteoros son eventos que duran un instante. Aprendes **qué son, por qué hay lluvias en fechas fijas, cómo contarlos con método y cómo convertir tu conteo en una tasa comparable**. Es una actividad ideal para el cielo oscuro, sin equipo y para grupos. Nivel N1.
 
-Verás meteoroide, meteoro y meteorito, lluvias de meteoros y su calendario según la IMO, la tasa horaria cenital (ZHR) y su corrección por magnitud límite y altura del radiante, y el registro en bitácora. No verás dinámica de cometas ni órbitas de meteoroides (B39) ni observación por video o radio.
+Verás meteoroide, meteoro y meteorito, lluvias de meteoros y su calendario según la IMO, la tasa horaria cenital (ZHR) y su corrección por magnitud límite y altura del radiante, y el registro en bitácora. No verás dinámica de cometas ni órbitas de meteoroides (B58) ni observación por video o radio.
 
 ## 2. Por qué esta clase existe
 

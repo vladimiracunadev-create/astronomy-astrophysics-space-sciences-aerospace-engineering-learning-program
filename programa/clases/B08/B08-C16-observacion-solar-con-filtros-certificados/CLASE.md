@@ -8,7 +8,7 @@
 
 Decimosexta clase del bloque B08 y la más sensible en seguridad. El Sol es la estrella más cercana y la única que se estudia en detalle desde casa, pero mirarlo sin protección adecuada puede causar daño ocular grave. Esta clase enseña **qué es una protección certificada, cómo verificar que lo es, cómo observar el Sol sin equipo especial (proyección) y cómo estudiarlo con datos abiertos**. Nivel N1.
 
-Verás la norma ISO 12312-2 para visores solares y lo que dice sobre ella la AAS, las reglas para filtros en telescopios y binoculares, la proyección con orificio, el tamaño del Sol y su rotación, y fuentes abiertas (SDO, SILSO). No verás espectroheliografía ni observación en H-alfa (B29, B23).
+Verás la norma ISO 12312-2 para visores solares y lo que dice sobre ella la AAS, las reglas para filtros en telescopios y binoculares, la proyección con orificio, el tamaño del Sol y su rotación, y fuentes abiertas (SDO, SILSO). No verás espectroheliografía ni observación en H-alfa (B45, B30).
 
 ## 2. Por qué esta clase existe
 

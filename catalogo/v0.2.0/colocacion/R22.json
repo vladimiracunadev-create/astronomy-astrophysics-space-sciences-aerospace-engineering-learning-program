@@ -10,8 +10,8 @@
           "tema": "Objetos residentes espaciales",
           "destino": "existente",
           "tronco": [
-            "B62-C01",
-            "B62-C02"
+            "B118-C01",
+            "B118-C02"
           ]
         },
         {
@@ -19,8 +19,8 @@
           "tema": "Sensores ópticos",
           "destino": "existente",
           "tronco": [
-            "B62-C03",
-            "B63-C13"
+            "B118-C03",
+            "B119-C13"
           ]
         },
         {
@@ -28,7 +28,7 @@
           "tema": "Radar de seguimiento",
           "destino": "existente",
           "tronco": [
-            "B62-C04"
+            "B118-C04"
           ]
         },
         {
@@ -36,7 +36,7 @@
           "tema": "Catálogos orbitales",
           "destino": "existente",
           "tronco": [
-            "B62-C02"
+            "B118-C02"
           ]
         },
         {
@@ -44,9 +44,9 @@
           "tema": "Identificación de objetos",
           "destino": "existente",
           "tronco": [
-            "B62-C02",
-            "B63-C04",
-            "B63-C07"
+            "B118-C02",
+            "B119-C04",
+            "B119-C07"
           ]
         },
         {
@@ -55,9 +55,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B62",
+            "bloque": "B118",
             "titulo": "Calidad, latencia y trazabilidad de datos de vigilancia espacial",
-            "necesidad": "B32-C11 trata calidad de datos astronómicos; ninguna clase evalúa datos de vigilancia (latencia, cobertura, trazabilidad)."
+            "necesidad": "B48-C11 trata calidad de datos astronómicos; ninguna clase evalúa datos de vigilancia (latencia, cobertura, trazabilidad)."
           }
         },
         {
@@ -65,8 +65,8 @@
           "tema": "Situational awareness civil",
           "destino": "existente",
           "tronco": [
-            "B63-C13",
-            "B62-C18"
+            "B119-C13",
+            "B118-C18"
           ]
         },
         {
@@ -75,9 +75,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B62",
+            "bloque": "B118",
             "titulo": "Intercambio de datos de vigilancia entre operadores y Estados",
-            "necesidad": "B62-C18 trata gestión del tráfico en general; no cubre formatos ni acuerdos de intercambio."
+            "necesidad": "B118-C18 trata gestión del tráfico en general; no cubre formatos ni acuerdos de intercambio."
           }
         },
         {
@@ -86,9 +86,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B62",
+            "bloque": "B118",
             "titulo": "Cobertura, sesgos y límites de las redes de vigilancia",
-            "necesidad": "Aporta la comprensión de qué no ve una red de sensores; B62-C15 trata solo mega constelaciones."
+            "necesidad": "Aporta la comprensión de qué no ve una red de sensores; B118-C15 trata solo mega constelaciones."
           }
         },
         {
@@ -96,8 +96,8 @@
           "tema": "Reporte de evento orbital",
           "destino": "existente",
           "tronco": [
-            "B62-C20",
-            "B57-C19"
+            "B118-C20",
+            "B96-C19"
           ]
         }
       ]
@@ -111,11 +111,11 @@
           "tema": "Observaciones de rastreo",
           "destino": "existente",
           "tronco": [
-            "B44-C01",
-            "B44-C02",
-            "B44-C03",
-            "B44-C04",
-            "B55-C15"
+            "B74-C01",
+            "B74-C02",
+            "B74-C03",
+            "B74-C04",
+            "B89-C15"
           ]
         },
         {
@@ -123,7 +123,7 @@
           "tema": "Órbitas preliminares",
           "destino": "existente",
           "tronco": [
-            "B44-C06"
+            "B74-C06"
           ]
         },
         {
@@ -131,9 +131,9 @@
           "tema": "Estimación de estados",
           "destino": "existente",
           "tronco": [
-            "B44-C07",
-            "B44-C08",
-            "B44-C09"
+            "B74-C07",
+            "B74-C08",
+            "B74-C09"
           ]
         },
         {
@@ -142,9 +142,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B44",
+            "bloque": "B74",
             "titulo": "Formatos TLE y OMM de elementos orbitales",
-            "necesidad": "B62-C02 trata catálogos; nadie enseña a leer e interpretar los formatos TLE y OMM."
+            "necesidad": "B118-C02 trata catálogos; nadie enseña a leer e interpretar los formatos TLE y OMM."
           }
         },
         {
@@ -153,9 +153,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B42",
+            "bloque": "B72",
             "titulo": "Propagador SGP4 y teoría general de perturbaciones",
-            "necesidad": "B42-C20 compara propagadores pero no enseña SGP4/SDP4."
+            "necesidad": "B72-C20 compara propagadores pero no enseña SGP4/SDP4."
           }
         },
         {
@@ -163,8 +163,8 @@
           "tema": "Covarianza de seguimiento",
           "destino": "existente",
           "tronco": [
-            "B44-C11",
-            "B44-C12"
+            "B74-C11",
+            "B74-C12"
           ]
         },
         {
@@ -173,9 +173,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B44",
+            "bloque": "B74",
             "titulo": "Asociación de observaciones y correlación de pistas",
-            "necesidad": "Cubre vincular observaciones con objetos catalogados; B44-C15 trata geometría de red, no la asociación."
+            "necesidad": "Cubre vincular observaciones con objetos catalogados; B74-C15 trata geometría de red, no la asociación."
           }
         },
         {
@@ -183,7 +183,7 @@
           "tema": "Diferencias entre propagadores",
           "destino": "existente",
           "tronco": [
-            "B42-C20"
+            "B72-C20"
           ]
         },
         {
@@ -191,7 +191,7 @@
           "tema": "Validación con efemérides",
           "destino": "existente",
           "tronco": [
-            "B44-C20"
+            "B74-C20"
           ]
         },
         {
@@ -199,7 +199,7 @@
           "tema": "Informe de precisión de seguimiento",
           "destino": "existente",
           "tronco": [
-            "B44-C19"
+            "B74-C19"
           ]
         }
       ]
@@ -213,7 +213,7 @@
           "tema": "Detección de conjunciones",
           "destino": "existente",
           "tronco": [
-            "B62-C05"
+            "B118-C05"
           ]
         },
         {
@@ -221,8 +221,8 @@
           "tema": "Distancia de aproximación",
           "destino": "existente",
           "tronco": [
-            "B62-C05",
-            "B46-C11"
+            "B118-C05",
+            "B76-C11"
           ]
         },
         {
@@ -230,8 +230,8 @@
           "tema": "Incertidumbre de posición",
           "destino": "existente",
           "tronco": [
-            "B44-C11",
-            "B62-C08"
+            "B74-C11",
+            "B118-C08"
           ]
         },
         {
@@ -239,7 +239,7 @@
           "tema": "Probabilidad de colisión",
           "destino": "existente",
           "tronco": [
-            "B62-C06"
+            "B118-C06"
           ]
         },
         {
@@ -247,8 +247,8 @@
           "tema": "Ventanas de maniobra",
           "destino": "existente",
           "tronco": [
-            "B62-C07",
-            "B46-C14"
+            "B118-C07",
+            "B76-C14"
           ]
         },
         {
@@ -256,8 +256,8 @@
           "tema": "Restricciones operativas",
           "destino": "existente",
           "tronco": [
-            "B62-C07",
-            "B57-C04"
+            "B118-C07",
+            "B96-C04"
           ]
         },
         {
@@ -265,8 +265,8 @@
           "tema": "Evaluación de alertas",
           "destino": "existente",
           "tronco": [
-            "B62-C20",
-            "B62-C05"
+            "B118-C20",
+            "B118-C05"
           ]
         },
         {
@@ -274,7 +274,7 @@
           "tema": "Decisión documentada",
           "destino": "existente",
           "tronco": [
-            "B62-C20"
+            "B118-C20"
           ]
         },
         {
@@ -282,8 +282,8 @@
           "tema": "Postanálisis de conjunción",
           "destino": "existente",
           "tronco": [
-            "B57-C19",
-            "B62-C20"
+            "B96-C19",
+            "B118-C20"
           ]
         },
         {
@@ -291,8 +291,8 @@
           "tema": "Simulacro de respuesta a alerta",
           "destino": "existente",
           "tronco": [
-            "B63-C20",
-            "B62-C20"
+            "B119-C20",
+            "B118-C20"
           ]
         }
       ]
@@ -306,8 +306,8 @@
           "tema": "Fragmentación orbital",
           "destino": "existente",
           "tronco": [
-            "B62-C09",
-            "B62-C10"
+            "B118-C09",
+            "B118-C10"
           ]
         },
         {
@@ -315,9 +315,9 @@
           "tema": "Entorno de residuos",
           "destino": "existente",
           "tronco": [
-            "B62-C01",
-            "B62-C09",
-            "B62-C10"
+            "B118-C01",
+            "B118-C09",
+            "B118-C10"
           ]
         },
         {
@@ -325,8 +325,8 @@
           "tema": "Diseño para desorbitación",
           "destino": "existente",
           "tronco": [
-            "B62-C11",
-            "B62-C13"
+            "B118-C11",
+            "B118-C13"
           ]
         },
         {
@@ -334,8 +334,8 @@
           "tema": "Pasivación al fin de vida",
           "destino": "existente",
           "tronco": [
-            "B62-C11",
-            "B62-C12"
+            "B118-C11",
+            "B118-C12"
           ]
         },
         {
@@ -343,8 +343,8 @@
           "tema": "Reentrada no controlada",
           "destino": "existente",
           "tronco": [
-            "B62-C14",
-            "B47-C14"
+            "B118-C14",
+            "B77-C14"
           ]
         },
         {
@@ -352,9 +352,9 @@
           "tema": "Seguimiento de fragmentos",
           "destino": "existente",
           "tronco": [
-            "B62-C03",
-            "B62-C04",
-            "B62-C15"
+            "B118-C03",
+            "B118-C04",
+            "B118-C15"
           ]
         },
         {
@@ -362,8 +362,8 @@
           "tema": "Prevención de colisiones",
           "destino": "existente",
           "tronco": [
-            "B62-C07",
-            "B46-C14"
+            "B118-C07",
+            "B76-C14"
           ]
         },
         {
@@ -371,8 +371,8 @@
           "tema": "Medición de sostenibilidad",
           "destino": "existente",
           "tronco": [
-            "B62-C19",
-            "B62-C18"
+            "B118-C19",
+            "B118-C18"
           ]
         },
         {
@@ -381,9 +381,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B62",
+            "bloque": "B118",
             "titulo": "Directrices técnicas de mitigación de desechos (IADC, ISO 24113)",
-            "necesidad": "B62-C11 enseña diseño para mitigación; ninguna clase trata las directrices de IADC e ISO ni su verificación."
+            "necesidad": "B118-C11 enseña diseño para mitigación; ninguna clase trata las directrices de IADC e ISO ni su verificación."
           }
         },
         {
@@ -391,8 +391,8 @@
           "tema": "Evaluación de plan de fin de vida",
           "destino": "existente",
           "tronco": [
-            "B62-C12",
-            "B62-C13"
+            "B118-C12",
+            "B118-C13"
           ]
         }
       ]
@@ -406,8 +406,8 @@
           "tema": "Segmentos críticos de sistema",
           "destino": "existente",
           "tronco": [
-            "B63-C16",
-            "B57-C01"
+            "B119-C16",
+            "B96-C01"
           ]
         },
         {
@@ -415,8 +415,8 @@
           "tema": "Amenazas de disponibilidad",
           "destino": "existente",
           "tronco": [
-            "B63-C14",
-            "B63-C15"
+            "B119-C14",
+            "B119-C15"
           ]
         },
         {
@@ -424,8 +424,8 @@
           "tema": "Pérdidas de comunicación",
           "destino": "existente",
           "tronco": [
-            "B63-C15",
-            "B55-C20"
+            "B119-C15",
+            "B89-C20"
           ]
         },
         {
@@ -433,9 +433,9 @@
           "tema": "Fallos de energía",
           "destino": "existente",
           "tronco": [
-            "B52-C11",
-            "B57-C12",
-            "B52-C13"
+            "B86-C11",
+            "B96-C12",
+            "B86-C13"
           ]
         },
         {
@@ -446,7 +446,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Dependencias de proveedores y cadena de suministro de infraestructura espacial",
-            "necesidad": "Aporta el análisis de dependencias y concentración de proveedores; B63-C16 solo introduce infraestructura crítica."
+            "necesidad": "Aporta el análisis de dependencias y concentración de proveedores; B119-C16 solo introduce infraestructura crítica."
           }
         },
         {
@@ -454,8 +454,8 @@
           "tema": "Respaldo de estaciones",
           "destino": "existente",
           "tronco": [
-            "B57-C17",
-            "B55-C14"
+            "B96-C17",
+            "B89-C14"
           ]
         },
         {
@@ -463,8 +463,8 @@
           "tema": "Gestión de incidentes",
           "destino": "existente",
           "tronco": [
-            "B57-C15",
-            "B63-C20"
+            "B96-C15",
+            "B119-C20"
           ]
         },
         {
@@ -472,8 +472,8 @@
           "tema": "Monitoreo de integridad",
           "destino": "existente",
           "tronco": [
-            "B57-C13",
-            "B54-C12"
+            "B96-C13",
+            "B88-C12"
           ]
         },
         {
@@ -484,7 +484,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Continuidad de servicio: impacto y objetivos de recuperación",
-            "necesidad": "Enseña análisis de impacto y objetivos de tiempo de recuperación; B57-C14 trata solo procedimientos."
+            "necesidad": "Enseña análisis de impacto y objetivos de tiempo de recuperación; B96-C14 trata solo procedimientos."
           }
         },
         {
@@ -495,7 +495,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Modelo defensivo de riesgos de infraestructura espacial",
-            "necesidad": "Cubre identificar activos, amenazas y controles defensivos; B49-C16 trata riesgos técnicos y B63-C14 amenazas sin modelo."
+            "necesidad": "Cubre identificar activos, amenazas y controles defensivos; B83-C16 trata riesgos técnicos y B119-C14 amenazas sin modelo."
           }
         }
       ]
@@ -509,8 +509,8 @@
           "tema": "Modelo de amenazas satelital",
           "destino": "existente",
           "tronco": [
-            "B63-C14",
-            "B54-C17"
+            "B119-C14",
+            "B88-C17"
           ]
         },
         {
@@ -521,7 +521,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Seguridad de estaciones terrestres y segmento de control",
-            "necesidad": "Aporta controles de seguridad física y lógica de estaciones; B55-C14 trata solo estaciones como infraestructura de enlace."
+            "necesidad": "Aporta controles de seguridad física y lógica de estaciones; B89-C14 trata solo estaciones como infraestructura de enlace."
           }
         },
         {
@@ -529,8 +529,8 @@
           "tema": "Autenticación de telecomandos",
           "destino": "existente",
           "tronco": [
-            "B57-C07",
-            "B55-C12"
+            "B96-C07",
+            "B89-C12"
           ]
         },
         {
@@ -539,9 +539,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B55",
+            "bloque": "B89",
             "titulo": "Protección criptográfica de enlaces espaciales",
-            "necesidad": "B55 trata modulación y codificación de errores; la confidencialidad y autenticación (CCSDS SDLS) no está cubierta."
+            "necesidad": "B89 trata modulación y codificación de errores; la confidencialidad y autenticación (CCSDS SDLS) no está cubierta."
           }
         },
         {
@@ -552,7 +552,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Control de accesos y gestión de identidades en operaciones",
-            "necesidad": "Cubre privilegios mínimos, segregación de roles y auditoría; B57-C07 trata solo autorización de telecomandos."
+            "necesidad": "Cubre privilegios mínimos, segregación de roles y auditoría; B96-C07 trata solo autorización de telecomandos."
           }
         },
         {
@@ -560,9 +560,9 @@
           "tema": "Inventario y parches",
           "destino": "existente",
           "tronco": [
-            "B54-C13",
-            "B54-C18",
-            "B49-C15"
+            "B88-C13",
+            "B88-C18",
+            "B83-C15"
           ]
         },
         {
@@ -570,8 +570,8 @@
           "tema": "Detección de anomalías",
           "destino": "existente",
           "tronco": [
-            "B57-C13",
-            "B54-C12"
+            "B96-C13",
+            "B88-C12"
           ]
         },
         {
@@ -582,7 +582,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Respuesta a incidentes cibernéticos en operaciones de misión",
-            "necesidad": "Aporta el ciclo detección, contención, erradicación y lecciones; B57-C15 trata emergencias operativas, no incidentes cibernéticos."
+            "necesidad": "Aporta el ciclo detección, contención, erradicación y lecciones; B96-C15 trata emergencias operativas, no incidentes cibernéticos."
           }
         },
         {
@@ -590,9 +590,9 @@
           "tema": "Recuperación segura",
           "destino": "existente",
           "tronco": [
-            "B57-C14",
-            "B54-C11",
-            "B54-C13"
+            "B96-C14",
+            "B88-C11",
+            "B88-C13"
           ]
         },
         {
@@ -600,8 +600,8 @@
           "tema": "Ejercicio de defensa controlada",
           "destino": "existente",
           "tronco": [
-            "B54-C19",
-            "B63-C20"
+            "B88-C19",
+            "B119-C20"
           ]
         }
       ]
@@ -615,7 +615,7 @@
           "tema": "Historia de seguridad espacial",
           "destino": "existente",
           "tronco": [
-            "B63-C12",
+            "B119-C12",
             "B02-C19"
           ]
         },
@@ -625,9 +625,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Doctrinas y políticas espaciales declaradas públicamente",
-            "necesidad": "B63-C11 y C12 tratan límites y la historia; ninguna enseña a leer las doctrinas públicas de los Estados."
+            "necesidad": "B119-C11 y C12 tratan límites y la historia; ninguna enseña a leer las doctrinas públicas de los Estados."
           }
         },
         {
@@ -635,8 +635,8 @@
           "tema": "Tratados y restricciones",
           "destino": "existente",
           "tronco": [
-            "B63-C01",
-            "B63-C11"
+            "B119-C01",
+            "B119-C11"
           ]
         },
         {
@@ -644,8 +644,8 @@
           "tema": "Protección de servicios duales",
           "destino": "existente",
           "tronco": [
-            "B63-C16",
-            "B63-C11"
+            "B119-C16",
+            "B119-C11"
           ]
         },
         {
@@ -654,9 +654,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Diplomacia y comunicación entre Estados ante incidentes espaciales",
-            "necesidad": "B63-C20 simula la respuesta institucional; la diplomacia entre Estados no está cubierta."
+            "necesidad": "B119-C20 simula la respuesta institucional; la diplomacia entre Estados no está cubierta."
           }
         },
         {
@@ -665,9 +665,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Normas de comportamiento responsable en el espacio",
-            "necesidad": "B63-C11 trata límites militares; las normas voluntarias de conducta responsable no tienen clase."
+            "necesidad": "B119-C11 trata límites militares; las normas voluntarias de conducta responsable no tienen clase."
           }
         },
         {
@@ -676,7 +676,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Escalada, desescalada y medidas de fomento de la confianza",
             "necesidad": "Enseña la dinámica de escalada y medidas de transparencia; sin clase equivalente."
           }
@@ -687,7 +687,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Atribución de incidentes y desinformación en el dominio espacial",
             "necesidad": "B01-C19 trata desinformación general; la atribución técnica y política de incidentes espaciales no está cubierta."
           }
@@ -697,7 +697,7 @@
           "tema": "Ética de decisiones",
           "destino": "existente",
           "tronco": [
-            "B63-C18"
+            "B119-C18"
           ]
         },
         {
@@ -705,7 +705,7 @@
           "tema": "Análisis comparado de políticas",
           "destino": "existente",
           "tronco": [
-            "B63-C19"
+            "B119-C19"
           ]
         }
       ]
@@ -719,8 +719,8 @@
           "tema": "Detección de crisis",
           "destino": "existente",
           "tronco": [
-            "B57-C13",
-            "B63-C13"
+            "B96-C13",
+            "B119-C13"
           ]
         },
         {
@@ -731,7 +731,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Clasificación de severidad e impacto de incidentes espaciales",
-            "necesidad": "Aporta escalas de severidad para priorizar la respuesta; B39-C10 clasifica solo impactos de asteroides."
+            "necesidad": "Aporta escalas de severidad para priorizar la respuesta; B58-C10 clasifica solo impactos de asteroides."
           }
         },
         {
@@ -739,9 +739,9 @@
           "tema": "Roles institucionales",
           "destino": "existente",
           "tronco": [
-            "B57-C03",
-            "B63-C06",
-            "B63-C08"
+            "B96-C03",
+            "B119-C06",
+            "B119-C08"
           ]
         },
         {
@@ -752,7 +752,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Comunicación de crisis con operadores, autoridades y público",
-            "necesidad": "B64-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta."
+            "necesidad": "B124-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta."
           }
         },
         {
@@ -760,8 +760,8 @@
           "tema": "Coordinación internacional",
           "destino": "existente",
           "tronco": [
-            "B63-C06",
-            "B62-C18"
+            "B119-C06",
+            "B118-C18"
           ]
         },
         {
@@ -772,7 +772,7 @@
             "area": "A08",
             "bloque": "nuevo: Resiliencia y continuidad de infraestructura espacial",
             "titulo": "Preservación de evidencias y cadena de custodia de datos de incidentes",
-            "necesidad": "B56-C18 trata trazabilidad de ensayos; la custodia de evidencia de incidentes no está cubierta."
+            "necesidad": "B90-C18 trata trazabilidad de ensayos; la custodia de evidencia de incidentes no está cubierta."
           }
         },
         {
@@ -791,8 +791,8 @@
           "tema": "Planes de recuperación",
           "destino": "existente",
           "tronco": [
-            "B57-C14",
-            "B57-C19"
+            "B96-C14",
+            "B96-C19"
           ]
         },
         {
@@ -800,8 +800,8 @@
           "tema": "Simulacro de mesa",
           "destino": "existente",
           "tronco": [
-            "B63-C20",
-            "B58-C09"
+            "B119-C20",
+            "B104-C09"
           ]
         },
         {
@@ -809,8 +809,8 @@
           "tema": "Informe posterior al incidente",
           "destino": "existente",
           "tronco": [
-            "B57-C19",
-            "B62-C20"
+            "B96-C19",
+            "B118-C20"
           ]
         }
       ]

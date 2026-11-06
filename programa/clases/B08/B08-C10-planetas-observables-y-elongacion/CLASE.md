@@ -8,7 +8,7 @@
 
 Décima clase del bloque B08. Has seguido al Sol y a la Luna; ahora sigues a los **planetas visibles a simple vista**, que no están fijos entre las estrellas y cuya visibilidad depende de un ángulo: la **elongación**, su separación angular del Sol. Nivel N1.
 
-Verás por qué Mercurio y Venus se alejan poco del Sol, por qué Marte, Júpiter y Saturno pueden verse toda la noche, cómo se calcula el período sinódico y cómo decidir qué ver una noche dada. No verás las leyes de Kepler (B41) ni la fotografía planetaria (C19).
+Verás por qué Mercurio y Venus se alejan poco del Sol, por qué Marte, Júpiter y Saturno pueden verse toda la noche, cómo se calcula el período sinódico y cómo decidir qué ver una noche dada. No verás las leyes de Kepler (B71) ni la fotografía planetaria (C19).
 
 ## 2. Por qué esta clase existe
 

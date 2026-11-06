@@ -294,7 +294,7 @@ El producto es tu **juego de pruebas con demostración de sensibilidad**: prueba
 
 ## 21. Ética, seguridad y límites
 
-Un juego de pruebas aprobado da confianza, no certeza: en software con consecuencias reales (misiones, seguridad) se exige verificación y validación independientes (bloques B54 y B56). Declarar los límites de las pruebas es honestidad profesional. Sin datos personales. Material educativo.
+Un juego de pruebas aprobado da confianza, no certeza: en software con consecuencias reales (misiones, seguridad) se exige verificación y validación independientes (bloques B88 y B90). Declarar los límites de las pruebas es honestidad profesional. Sin datos personales. Material educativo.
 
 ## 22. Para cerrar y seguir
 

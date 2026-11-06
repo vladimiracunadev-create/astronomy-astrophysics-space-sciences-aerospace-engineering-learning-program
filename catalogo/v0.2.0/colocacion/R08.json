@@ -346,7 +346,7 @@
           "tema": "Modelos de observación",
           "destino": "existente",
           "tronco": [
-            "B44-C01"
+            "B74-C01"
           ]
         },
         {
@@ -376,7 +376,7 @@
             "area": "A02",
             "bloque": "nuevo: Problemas inversos y estimación de modelos",
             "titulo": "Inversión espectral",
-            "necesidad": "Recuperar parámetros físicos desde espectros mediante inversión; B29 describe espectros sin inversión formal."
+            "necesidad": "Recuperar parámetros físicos desde espectros mediante inversión; B45 describe espectros sin inversión formal."
           }
         },
         {
@@ -385,9 +385,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Inversión gravimétrica y modelos de densidad",
-            "necesidad": "B34-C03 trata el campo gravitatorio; falta invertir anomalías para inferir estructura interior."
+            "necesidad": "B53-C03 trata el campo gravitatorio; falta invertir anomalías para inferir estructura interior."
           }
         },
         {
@@ -757,7 +757,7 @@
             "area": "A02",
             "bloque": "B14",
             "titulo": "Protocolo preregistrado de análisis",
-            "necesidad": "Redactar hipótesis, métodos y criterios antes de ver los datos; B64-C14 trata ciencia abierta en general."
+            "necesidad": "Redactar hipótesis, métodos y criterios antes de ver los datos; B124-C14 trata ciencia abierta en general."
           }
         },
         {
@@ -766,7 +766,7 @@
           "destino": "existente",
           "tronco": [
             "B14-C19",
-            "B64-C14"
+            "B124-C14"
           ]
         },
         {
@@ -826,7 +826,7 @@
           "tema": "Licencias de datos",
           "destino": "existente",
           "tronco": [
-            "B64-C09"
+            "B124-C09"
           ]
         },
         {

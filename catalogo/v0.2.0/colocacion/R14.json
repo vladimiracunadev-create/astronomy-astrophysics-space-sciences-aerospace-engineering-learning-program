@@ -10,7 +10,7 @@
           "tema": "Aleaciones de aluminio",
           "destino": "existente",
           "tronco": [
-            "B50-C02"
+            "B84-C02"
           ]
         },
         {
@@ -18,8 +18,8 @@
           "tema": "Titanio aeroespacial",
           "destino": "existente",
           "tronco": [
-            "B50-C02",
-            "B50-C05"
+            "B84-C02",
+            "B84-C05"
           ]
         },
         {
@@ -27,7 +27,7 @@
           "tema": "Materiales compuestos",
           "destino": "existente",
           "tronco": [
-            "B50-C03"
+            "B84-C03"
           ]
         },
         {
@@ -35,7 +35,7 @@
           "tema": "Polímeros espaciales",
           "destino": "existente",
           "tronco": [
-            "B50-C04"
+            "B84-C04"
           ]
         },
         {
@@ -43,7 +43,7 @@
           "tema": "Cerámicos térmicos",
           "destino": "existente",
           "tronco": [
-            "B50-C04"
+            "B84-C04"
           ]
         },
         {
@@ -51,8 +51,8 @@
           "tema": "Fatiga en vacío",
           "destino": "existente",
           "tronco": [
-            "B50-C06",
-            "B50-C08"
+            "B84-C06",
+            "B84-C08"
           ]
         },
         {
@@ -60,7 +60,7 @@
           "tema": "Desgasificación",
           "destino": "existente",
           "tronco": [
-            "B50-C07"
+            "B84-C07"
           ]
         },
         {
@@ -69,9 +69,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Efectos de la radiación ionizante en materiales y electrónica",
-            "necesidad": "B51-C14 trata solo la degradación ultravioleta y B59-C06 la radiación sobre personas; ninguna clase enseña el daño por radiación ionizante en materiales y componentes."
+            "necesidad": "B85-C14 trata solo la degradación ultravioleta y B105-C06 la radiación sobre personas; ninguna clase enseña el daño por radiación ionizante en materiales y componentes."
           }
         },
         {
@@ -80,9 +80,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Compatibilidad química y galvánica de materiales",
-            "necesidad": "La elección de materiales debe evitar corrosión galvánica y reacciones con fluidos; B50-C05 selecciona materiales sin tratar su compatibilidad química."
+            "necesidad": "La elección de materiales debe evitar corrosión galvánica y reacciones con fluidos; B84-C05 selecciona materiales sin tratar su compatibilidad química."
           }
         },
         {
@@ -90,7 +90,7 @@
           "tema": "Selección multicriterio",
           "destino": "existente",
           "tronco": [
-            "B50-C05"
+            "B84-C05"
           ]
         }
       ]
@@ -105,9 +105,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Tensión, deformación y elasticidad lineal",
-            "necesidad": "El rol de estructuras necesita la base de tensiones y deformaciones antes de cargas y elementos finitos; B50 empieza en el entorno de lanzamiento y en materiales sin esa base."
+            "necesidad": "El rol de estructuras necesita la base de tensiones y deformaciones antes de cargas y elementos finitos; B84 empieza en el entorno de lanzamiento y en materiales sin esa base."
           }
         },
         {
@@ -116,9 +116,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Tensión, deformación y elasticidad lineal",
-            "necesidad": "El rol de estructuras necesita la base de tensiones y deformaciones antes de cargas y elementos finitos; B50 empieza en el entorno de lanzamiento y en materiales sin esa base."
+            "necesidad": "El rol de estructuras necesita la base de tensiones y deformaciones antes de cargas y elementos finitos; B84 empieza en el entorno de lanzamiento y en materiales sin esa base."
           }
         },
         {
@@ -127,9 +127,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Vigas y placas: flexión y pandeo",
-            "necesidad": "Dimensionar largueros y paneles exige flexión y pandeo; B50-C09 analiza cargas pero no el comportamiento de vigas y placas esbeltas."
+            "necesidad": "Dimensionar largueros y paneles exige flexión y pandeo; B84-C09 analiza cargas pero no el comportamiento de vigas y placas esbeltas."
           }
         },
         {
@@ -138,9 +138,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Vigas y placas: flexión y pandeo",
-            "necesidad": "Dimensionar largueros y paneles exige flexión y pandeo; B50-C09 analiza cargas pero no el comportamiento de vigas y placas esbeltas."
+            "necesidad": "Dimensionar largueros y paneles exige flexión y pandeo; B84-C09 analiza cargas pero no el comportamiento de vigas y placas esbeltas."
           }
         },
         {
@@ -148,7 +148,7 @@
           "tema": "Uniones atornilladas",
           "destino": "existente",
           "tronco": [
-            "B50-C17"
+            "B84-C17"
           ]
         },
         {
@@ -156,7 +156,7 @@
           "tema": "Cargas estáticas",
           "destino": "existente",
           "tronco": [
-            "B50-C09"
+            "B84-C09"
           ]
         },
         {
@@ -164,8 +164,8 @@
           "tema": "Dinámica estructural",
           "destino": "existente",
           "tronco": [
-            "B50-C10",
-            "B50-C11"
+            "B84-C10",
+            "B84-C11"
           ]
         },
         {
@@ -174,9 +174,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Factores de seguridad y márgenes estructurales",
-            "necesidad": "Declarar un margen estructural exige definir factores de seguridad y cargas límite y últimas; ninguna clase de B50 lo hace."
+            "necesidad": "Declarar un margen estructural exige definir factores de seguridad y cargas límite y últimas; ninguna clase de B84 lo hace."
           }
         },
         {
@@ -185,9 +185,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Comportamiento estructural no lineal: plasticidad y contacto",
-            "necesidad": "Más allá del límite elástico o con contacto el análisis lineal falla; B50-C08 trata fatiga y fractura, no el comportamiento no lineal."
+            "necesidad": "Más allá del límite elástico o con contacto el análisis lineal falla; B84-C08 trata fatiga y fractura, no el comportamiento no lineal."
           }
         },
         {
@@ -196,9 +196,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Factores de seguridad y márgenes estructurales",
-            "necesidad": "Declarar un margen estructural exige definir factores de seguridad y cargas límite y últimas; ninguna clase de B50 lo hace."
+            "necesidad": "Declarar un margen estructural exige definir factores de seguridad y cargas límite y últimas; ninguna clase de B84 lo hace."
           }
         }
       ]
@@ -213,9 +213,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Generación de mallas y convergencia en elementos finitos",
-            "necesidad": "B50-C12 presenta el método; falta enseñar a construir una malla y a demostrar su convergencia antes de confiar en un resultado."
+            "necesidad": "B84-C12 presenta el método; falta enseñar a construir una malla y a demostrar su convergencia antes de confiar en un resultado."
           }
         },
         {
@@ -224,9 +224,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Tipos de elementos finitos: viga, placa y sólido",
-            "necesidad": "Elegir el elemento adecuado decide la validez del modelo; B50-C12 no enseña los tipos de elementos."
+            "necesidad": "Elegir el elemento adecuado decide la validez del modelo; B84-C12 no enseña los tipos de elementos."
           }
         },
         {
@@ -235,9 +235,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Tipos de elementos finitos: viga, placa y sólido",
-            "necesidad": "Elegir el elemento adecuado decide la validez del modelo; B50-C12 no enseña los tipos de elementos."
+            "necesidad": "Elegir el elemento adecuado decide la validez del modelo; B84-C12 no enseña los tipos de elementos."
           }
         },
         {
@@ -246,9 +246,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Tipos de elementos finitos: viga, placa y sólido",
-            "necesidad": "Elegir el elemento adecuado decide la validez del modelo; B50-C12 no enseña los tipos de elementos."
+            "necesidad": "Elegir el elemento adecuado decide la validez del modelo; B84-C12 no enseña los tipos de elementos."
           }
         },
         {
@@ -257,7 +257,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Condiciones de contorno y cargas en modelos de elementos finitos",
             "necesidad": "Un modelo mal restringido da resultados falsos; ninguna clase enseña cómo representar apoyos y cargas reales."
           }
@@ -268,9 +268,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Generación de mallas y convergencia en elementos finitos",
-            "necesidad": "B50-C12 presenta el método; falta enseñar a construir una malla y a demostrar su convergencia antes de confiar en un resultado."
+            "necesidad": "B84-C12 presenta el método; falta enseñar a construir una malla y a demostrar su convergencia antes de confiar en un resultado."
           }
         },
         {
@@ -279,9 +279,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Concentraciones de tensión y entallas",
-            "necesidad": "Los agujeros y cambios de sección concentran tensión y causan fallas por fatiga; B50-C08 no trata el factor de concentración."
+            "necesidad": "Los agujeros y cambios de sección concentran tensión y causan fallas por fatiga; B84-C08 no trata el factor de concentración."
           }
         },
         {
@@ -289,8 +289,8 @@
           "tema": "Análisis modal",
           "destino": "existente",
           "tronco": [
-            "B50-C10",
-            "B50-C12"
+            "B84-C10",
+            "B84-C12"
           ]
         },
         {
@@ -299,9 +299,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Correlación modelo-ensayo y actualización de modelos",
-            "necesidad": "Un modelo estructural se acepta cuando coincide con el ensayo; B56 trata ensayos pero no cómo contrastarlos con el modelo."
+            "necesidad": "Un modelo estructural se acepta cuando coincide con el ensayo; B90 trata ensayos pero no cómo contrastarlos con el modelo."
           }
         },
         {
@@ -310,9 +310,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Documentación y revisión de análisis de elementos finitos",
-            "necesidad": "Un análisis solo es revisable si queda documentado con supuestos y verificación; B56-C05 documenta interfaces, no análisis."
+            "necesidad": "Un análisis solo es revisable si queda documentado con supuestos y verificación; B90-C05 documenta interfaces, no análisis."
           }
         }
       ]
@@ -326,8 +326,8 @@
           "tema": "Frecuencias naturales",
           "destino": "existente",
           "tronco": [
-            "B50-C10",
-            "B50-C11"
+            "B84-C10",
+            "B84-C11"
           ]
         },
         {
@@ -335,7 +335,7 @@
           "tema": "Modos propios",
           "destino": "existente",
           "tronco": [
-            "B50-C10"
+            "B84-C10"
           ]
         },
         {
@@ -343,7 +343,7 @@
           "tema": "Resonancia",
           "destino": "existente",
           "tronco": [
-            "B50-C11"
+            "B84-C11"
           ]
         },
         {
@@ -352,9 +352,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Vibración aleatoria y densidad espectral de potencia",
-            "necesidad": "El lanzamiento excita la estructura con vibración aleatoria descrita en el dominio de la frecuencia; B50-C11 trata resonancias, no el análisis estadístico."
+            "necesidad": "El lanzamiento excita la estructura con vibración aleatoria descrita en el dominio de la frecuencia; B84-C11 trata resonancias, no el análisis estadístico."
           }
         },
         {
@@ -363,7 +363,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Respuesta armónica y funciones de transferencia estructural",
             "necesidad": "Predecir la respuesta de una estructura a una excitación periódica requiere funciones de transferencia; el catálogo no las trata para estructuras."
           }
@@ -373,7 +373,7 @@
           "tema": "Choque mecánico",
           "destino": "existente",
           "tronco": [
-            "B56-C10"
+            "B90-C10"
           ]
         },
         {
@@ -381,7 +381,7 @@
           "tema": "Fatiga por vibración",
           "destino": "existente",
           "tronco": [
-            "B50-C08"
+            "B84-C08"
           ]
         },
         {
@@ -389,7 +389,7 @@
           "tema": "Aislamiento",
           "destino": "existente",
           "tronco": [
-            "B31-C11"
+            "B47-C11"
           ]
         },
         {
@@ -398,9 +398,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B56",
+            "bloque": "B90",
             "titulo": "Instrumentación y adquisición de datos en ensayos",
-            "necesidad": "Los ensayos dinámicos y de calificación dependen de acelerómetros, sensores y adquisición; B56 trata los ensayos pero no cómo se instrumentan ni cómo se toman los datos."
+            "necesidad": "Los ensayos dinámicos y de calificación dependen de acelerómetros, sensores y adquisición; B90 trata los ensayos pero no cómo se instrumentan ni cómo se toman los datos."
           }
         },
         {
@@ -408,8 +408,8 @@
           "tema": "Interpretación de ensayos",
           "destino": "existente",
           "tronco": [
-            "B56-C09",
-            "B56-C17"
+            "B90-C09",
+            "B90-C17"
           ]
         }
       ]
@@ -423,7 +423,7 @@
           "tema": "Fabricación aditiva metálica",
           "destino": "existente",
           "tronco": [
-            "B50-C15"
+            "B84-C15"
           ]
         },
         {
@@ -431,7 +431,7 @@
           "tema": "Fabricación aditiva polimérica",
           "destino": "existente",
           "tronco": [
-            "B50-C15"
+            "B84-C15"
           ]
         },
         {
@@ -439,7 +439,7 @@
           "tema": "Mecanismos desplegables",
           "destino": "existente",
           "tronco": [
-            "B50-C13"
+            "B84-C13"
           ]
         },
         {
@@ -447,7 +447,7 @@
           "tema": "Lubricación espacial",
           "destino": "existente",
           "tronco": [
-            "B50-C14"
+            "B84-C14"
           ]
         },
         {
@@ -456,9 +456,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Tratamientos y recubrimientos superficiales de componentes espaciales",
-            "necesidad": "Anodizado, recubrimientos y acabados protegen y modifican propiedades térmicas y de desgaste; B50 no los trata."
+            "necesidad": "Anodizado, recubrimientos y acabados protegen y modifican propiedades térmicas y de desgaste; B84 no los trata."
           }
         },
         {
@@ -466,7 +466,7 @@
           "tema": "Tolerancias geométricas",
           "destino": "existente",
           "tronco": [
-            "B50-C16"
+            "B84-C16"
           ]
         },
         {
@@ -474,8 +474,8 @@
           "tema": "Inspección dimensional",
           "destino": "existente",
           "tronco": [
-            "B50-C18",
-            "B50-C19"
+            "B84-C18",
+            "B84-C19"
           ]
         },
         {
@@ -484,9 +484,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B56",
+            "bloque": "B90",
             "titulo": "Prototipado y modelos de ingeniería de subconjuntos",
-            "necesidad": "Los prototipos reducen riesgo antes del modelo de vuelo; B56 parte de unidades ya definidas y no trata cómo prototipar subconjuntos."
+            "necesidad": "Los prototipos reducen riesgo antes del modelo de vuelo; B90 parte de unidades ya definidas y no trata cómo prototipar subconjuntos."
           }
         },
         {
@@ -495,9 +495,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Control de procesos de fabricación y calidad",
-            "necesidad": "Garantizar piezas repetibles exige controlar el proceso y no solo inspeccionar; B50-C19 inspecciona sin tratar control estadístico de proceso."
+            "necesidad": "Garantizar piezas repetibles exige controlar el proceso y no solo inspeccionar; B84-C19 inspecciona sin tratar control estadístico de proceso."
           }
         },
         {
@@ -505,7 +505,7 @@
           "tema": "Aceptación de pieza",
           "destino": "existente",
           "tronco": [
-            "B56-C19"
+            "B90-C19"
           ]
         }
       ]
@@ -519,7 +519,7 @@
           "tema": "Balance térmico",
           "destino": "existente",
           "tronco": [
-            "B51-C01"
+            "B85-C01"
           ]
         },
         {
@@ -527,7 +527,7 @@
           "tema": "Radiación de superficies",
           "destino": "existente",
           "tronco": [
-            "B51-C04"
+            "B85-C04"
           ]
         },
         {
@@ -535,7 +535,7 @@
           "tema": "Aislantes MLI",
           "destino": "existente",
           "tronco": [
-            "B51-C06"
+            "B85-C06"
           ]
         },
         {
@@ -543,7 +543,7 @@
           "tema": "Radiadores",
           "destino": "existente",
           "tronco": [
-            "B51-C07"
+            "B85-C07"
           ]
         },
         {
@@ -551,7 +551,7 @@
           "tema": "Tubos de calor",
           "destino": "existente",
           "tronco": [
-            "B51-C09"
+            "B85-C09"
           ]
         },
         {
@@ -559,7 +559,7 @@
           "tema": "Control activo",
           "destino": "existente",
           "tronco": [
-            "B51-C10"
+            "B85-C10"
           ]
         },
         {
@@ -568,9 +568,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Sensores y telemetría térmica",
-            "necesidad": "Medir la temperatura en vuelo y en ensayo exige elegir sensores y calibrarlos; B51 modela y controla sin tratar la medición."
+            "necesidad": "Medir la temperatura en vuelo y en ensayo exige elegir sensores y calibrarlos; B85 modela y controla sin tratar la medición."
           }
         },
         {
@@ -579,9 +579,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Análisis térmico transitorio y casos extremos",
-            "necesidad": "Los casos de diseño térmico son transitorios (eclipse, arranque); B51-C18 modela por nodos sin tratar la dinámica en el tiempo."
+            "necesidad": "Los casos de diseño térmico son transitorios (eclipse, arranque); B85-C18 modela por nodos sin tratar la dinámica en el tiempo."
           }
         },
         {
@@ -589,7 +589,7 @@
           "tema": "Modelos de nodos",
           "destino": "existente",
           "tronco": [
-            "B51-C18"
+            "B85-C18"
           ]
         },
         {
@@ -598,9 +598,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Márgenes y correlación térmica",
-            "necesidad": "Aceptar un diseño térmico exige margen sobre los límites de los componentes y correlación con ensayo; B51-C19 ensaya pero no define márgenes."
+            "necesidad": "Aceptar un diseño térmico exige margen sobre los límites de los componentes y correlación con ensayo; B85-C19 ensaya pero no define márgenes."
           }
         }
       ]
@@ -614,7 +614,7 @@
           "tema": "Oxígeno atómico",
           "destino": "existente",
           "tronco": [
-            "B51-C13"
+            "B85-C13"
           ]
         },
         {
@@ -623,9 +623,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Efectos de la radiación ionizante en materiales y electrónica",
-            "necesidad": "B51-C14 trata solo la degradación ultravioleta y B59-C06 la radiación sobre personas; ninguna clase enseña el daño por radiación ionizante en materiales y componentes."
+            "necesidad": "B85-C14 trata solo la degradación ultravioleta y B105-C06 la radiación sobre personas; ninguna clase enseña el daño por radiación ionizante en materiales y componentes."
           }
         },
         {
@@ -633,7 +633,7 @@
           "tema": "Radiación ultravioleta",
           "destino": "existente",
           "tronco": [
-            "B51-C14"
+            "B85-C14"
           ]
         },
         {
@@ -641,7 +641,7 @@
           "tema": "Micrometeoritos",
           "destino": "existente",
           "tronco": [
-            "B60-C15"
+            "B106-C15"
           ]
         },
         {
@@ -649,7 +649,7 @@
           "tema": "Polvo abrasivo",
           "destino": "existente",
           "tronco": [
-            "B51-C16"
+            "B85-C16"
           ]
         },
         {
@@ -657,7 +657,7 @@
           "tema": "Ciclos térmicos extremos",
           "destino": "existente",
           "tronco": [
-            "B51-C11"
+            "B85-C11"
           ]
         },
         {
@@ -665,7 +665,7 @@
           "tema": "Contaminación de superficies",
           "destino": "existente",
           "tronco": [
-            "B56-C04"
+            "B90-C04"
           ]
         },
         {
@@ -674,7 +674,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Protección pasiva frente al ambiente espacial",
             "necesidad": "El diseño de blindajes y del plan de protección integra radiación, micrometeoritos y contaminación; el catálogo trata cada efecto por separado, no la protección como diseño."
           }
@@ -685,7 +685,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Evaluación y modelado de la degradación en órbita",
             "necesidad": "Predecir la vida de un material expuesto exige modelar su degradación acumulada; el catálogo trata efectos aislados."
           }
@@ -696,7 +696,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B51",
+            "bloque": "B85",
             "titulo": "Protección pasiva frente al ambiente espacial",
             "necesidad": "El diseño de blindajes y del plan de protección integra radiación, micrometeoritos y contaminación; el catálogo trata cada efecto por separado, no la protección como diseño."
           }
@@ -712,7 +712,7 @@
           "tema": "Plan de calificación",
           "destino": "existente",
           "tronco": [
-            "B56-C20"
+            "B90-C20"
           ]
         },
         {
@@ -720,8 +720,8 @@
           "tema": "Cargas límite",
           "destino": "existente",
           "tronco": [
-            "B50-C09",
-            "B47-C10"
+            "B84-C09",
+            "B77-C10"
           ]
         },
         {
@@ -729,7 +729,7 @@
           "tema": "Ensayos de vibración",
           "destino": "existente",
           "tronco": [
-            "B56-C09"
+            "B90-C09"
           ]
         },
         {
@@ -737,7 +737,7 @@
           "tema": "Ensayos de choque",
           "destino": "existente",
           "tronco": [
-            "B56-C10"
+            "B90-C10"
           ]
         },
         {
@@ -745,8 +745,8 @@
           "tema": "Vacío térmico",
           "destino": "existente",
           "tronco": [
-            "B56-C12",
-            "B51-C19"
+            "B90-C12",
+            "B85-C19"
           ]
         },
         {
@@ -754,8 +754,8 @@
           "tema": "Ciclado térmico",
           "destino": "existente",
           "tronco": [
-            "B56-C11",
-            "B51-C11"
+            "B90-C11",
+            "B85-C11"
           ]
         },
         {
@@ -764,9 +764,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B56",
+            "bloque": "B90",
             "titulo": "Instrumentación y adquisición de datos en ensayos",
-            "necesidad": "Los ensayos dinámicos y de calificación dependen de acelerómetros, sensores y adquisición; B56 trata los ensayos pero no cómo se instrumentan ni cómo se toman los datos."
+            "necesidad": "Los ensayos dinámicos y de calificación dependen de acelerómetros, sensores y adquisición; B90 trata los ensayos pero no cómo se instrumentan ni cómo se toman los datos."
           }
         },
         {
@@ -774,7 +774,7 @@
           "tema": "Análisis de desviaciones",
           "destino": "existente",
           "tronco": [
-            "B56-C17"
+            "B90-C17"
           ]
         },
         {
@@ -782,7 +782,7 @@
           "tema": "Criterios de aceptación",
           "destino": "existente",
           "tronco": [
-            "B56-C19"
+            "B90-C19"
           ]
         },
         {
@@ -790,8 +790,8 @@
           "tema": "Informe de calificación",
           "destino": "existente",
           "tronco": [
-            "B56-C18",
-            "B56-C20"
+            "B90-C18",
+            "B90-C20"
           ]
         }
       ]

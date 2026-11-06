@@ -10,8 +10,8 @@
           "tema": "Radiometría terrestre",
           "destino": "existente",
           "tronco": [
-            "B38-C03",
-            "B29-C01"
+            "B57-C03",
+            "B45-C01"
           ]
         },
         {
@@ -19,8 +19,8 @@
           "tema": "Óptica multibanda",
           "destino": "existente",
           "tronco": [
-            "B38-C04",
-            "B38-C05"
+            "B57-C04",
+            "B57-C05"
           ]
         },
         {
@@ -29,9 +29,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Sensores infrarrojos térmicos para observación terrestre",
-            "necesidad": "La temperatura de superficie se mide con sensores térmicos propios; B38 trata ópticos y radar, no los infrarrojos térmicos."
+            "necesidad": "La temperatura de superficie se mide con sensores térmicos propios; B57 trata ópticos y radar, no los infrarrojos térmicos."
           }
         },
         {
@@ -40,9 +40,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Espectrómetros de imagen e hiperespectrales",
-            "necesidad": "Los instrumentos hiperespectrales dan cientos de bandas; B38-C05 trata imágenes multiespectrales solamente."
+            "necesidad": "Los instrumentos hiperespectrales dan cientos de bandas; B57-C05 trata imágenes multiespectrales solamente."
           }
         },
         {
@@ -50,7 +50,7 @@
           "tema": "Radar orbital",
           "destino": "existente",
           "tronco": [
-            "B38-C07"
+            "B57-C07"
           ]
         },
         {
@@ -58,8 +58,8 @@
           "tema": "Altímetros",
           "destino": "existente",
           "tronco": [
-            "B38-C09",
-            "B38-C11"
+            "B57-C09",
+            "B57-C11"
           ]
         },
         {
@@ -68,9 +68,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Diseño de órbita y revisita para observación terrestre",
-            "necesidad": "La frecuencia de revisita depende de la órbita y del ancho de barrido; B41 trata órbitas en general, no su diseño para observación."
+            "necesidad": "La frecuencia de revisita depende de la órbita y del ancho de barrido; B71 trata órbitas en general, no su diseño para observación."
           }
         },
         {
@@ -78,7 +78,7 @@
           "tema": "Calibración a bordo",
           "destino": "existente",
           "tronco": [
-            "B31-C15"
+            "B47-C15"
           ]
         },
         {
@@ -86,8 +86,8 @@
           "tema": "Limitaciones de resolución",
           "destino": "existente",
           "tronco": [
-            "B38-C02",
-            "B38-C03"
+            "B57-C02",
+            "B57-C03"
           ]
         },
         {
@@ -96,9 +96,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Diseño de una carga útil de observación terrestre",
-            "necesidad": "Integrar bandas, resolución y revisita en una carga útil es el cierre del diseño de observación; B31-C02 fija requisitos de instrumentos, no la carga terrestre."
+            "necesidad": "Integrar bandas, resolución y revisita en una carga útil es el cierre del diseño de observación; B47-C02 fija requisitos de instrumentos, no la carga terrestre."
           }
         }
       ]
@@ -113,9 +113,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Selección de bandas espectrales según el fenómeno",
-            "necesidad": "Qué bandas medir depende del fenómeno (vegetación, agua, fuego); B38-C06 aplica índices, pero no enseña a elegir las bandas."
+            "necesidad": "Qué bandas medir depende del fenómeno (vegetación, agua, fuego); B57-C06 aplica índices, pero no enseña a elegir las bandas."
           }
         },
         {
@@ -124,9 +124,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Corrección atmosférica de imágenes",
-            "necesidad": "La atmósfera altera lo que registra el satélite; B38-C13 estudia aerosoles como fenómeno, no cómo corregir las imágenes."
+            "necesidad": "La atmósfera altera lo que registra el satélite; B57-C13 estudia aerosoles como fenómeno, no cómo corregir las imágenes."
           }
         },
         {
@@ -135,7 +135,7 @@
           "destino": "existente",
           "tronco": [
             "B13-C17",
-            "B28-C20"
+            "B44-C20"
           ]
         },
         {
@@ -143,7 +143,7 @@
           "tema": "Índices espectrales",
           "destino": "existente",
           "tronco": [
-            "B38-C06"
+            "B57-C06"
           ]
         },
         {
@@ -174,7 +174,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Detección de cambios en series de imágenes",
             "necesidad": "Monitorear el territorio es comparar fechas; ninguna clase trata la detección de cambios."
           }
@@ -219,7 +219,7 @@
           "tema": "Geometría radar",
           "destino": "existente",
           "tronco": [
-            "B38-C07"
+            "B57-C07"
           ]
         },
         {
@@ -230,7 +230,7 @@
             "area": "A05",
             "bloque": "nuevo: Radar de apertura sintética e interferometría (profundización)",
             "titulo": "Principio Doppler y resolución en azimut del SAR",
-            "necesidad": "La resolución fina del SAR sale del procesamiento Doppler; B38-C07 presenta el sistema sin ese principio."
+            "necesidad": "La resolución fina del SAR sale del procesamiento Doppler; B57-C07 presenta el sistema sin ese principio."
           }
         },
         {
@@ -263,7 +263,7 @@
             "area": "A05",
             "bloque": "nuevo: Radar de apertura sintética e interferometría (profundización)",
             "titulo": "Polarimetría SAR",
-            "necesidad": "Los canales de polarización distinguen superficies; B26-C08 trata polarización de la luz, no del radar."
+            "necesidad": "Los canales de polarización distinguen superficies; B42-C08 trata polarización de la luz, no del radar."
           }
         },
         {
@@ -271,7 +271,7 @@
           "tema": "Interferometría InSAR",
           "destino": "existente",
           "tronco": [
-            "B38-C08"
+            "B57-C08"
           ]
         },
         {
@@ -282,7 +282,7 @@
             "area": "A05",
             "bloque": "nuevo: Radar de apertura sintética e interferometría (profundización)",
             "titulo": "Coherencia interferométrica y decorrelación",
-            "necesidad": "La calidad de un interferograma depende de la coherencia; B38-C08 presenta InSAR sin tratarla."
+            "necesidad": "La calidad de un interferograma depende de la coherencia; B57-C08 presenta InSAR sin tratarla."
           }
         },
         {
@@ -290,8 +290,8 @@
           "tema": "Desplazamiento del terreno",
           "destino": "existente",
           "tronco": [
-            "B38-C08",
-            "B38-C17"
+            "B57-C08",
+            "B57-C17"
           ]
         },
         {
@@ -302,7 +302,7 @@
             "area": "A05",
             "bloque": "nuevo: Radar de apertura sintética e interferometría (profundización)",
             "titulo": "Deslizamientos y subsidencia medidos con InSAR",
-            "necesidad": "Aplicar InSAR a laderas y subsidencia es una aplicación propia no cubierta por B38-C17 (terremotos)."
+            "necesidad": "Aplicar InSAR a laderas y subsidencia es una aplicación propia no cubierta por B57-C17 (terremotos)."
           }
         },
         {
@@ -327,7 +327,7 @@
           "tema": "Principios de altimetría",
           "destino": "existente",
           "tronco": [
-            "B38-C09"
+            "B57-C09"
           ]
         },
         {
@@ -335,7 +335,7 @@
           "tema": "Altimetría radar",
           "destino": "existente",
           "tronco": [
-            "B38-C09"
+            "B57-C09"
           ]
         },
         {
@@ -343,8 +343,8 @@
           "tema": "Altimetría láser",
           "destino": "existente",
           "tronco": [
-            "B38-C11",
-            "B34-C07"
+            "B57-C11",
+            "B53-C07"
           ]
         },
         {
@@ -352,7 +352,7 @@
           "tema": "LiDAR orbital",
           "destino": "existente",
           "tronco": [
-            "B38-C11"
+            "B57-C11"
           ]
         },
         {
@@ -361,9 +361,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Modelos digitales de elevación",
-            "necesidad": "Los modelos de elevación son el producto de la altimetría; B34-C07 trata topografía planetaria, no el producto terrestre."
+            "necesidad": "Los modelos de elevación son el producto de la altimetría; B53-C07 trata topografía planetaria, no el producto terrestre."
           }
         },
         {
@@ -372,9 +372,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Correcciones atmosféricas en altimetría",
-            "necesidad": "El retardo atmosférico sesga la altura medida y se corrige con modelos específicos; B38-C09 no los trata."
+            "necesidad": "El retardo atmosférico sesga la altura medida y se corrige con modelos específicos; B57-C09 no los trata."
           }
         },
         {
@@ -382,8 +382,8 @@
           "tema": "Altura de hielo y océano",
           "destino": "existente",
           "tronco": [
-            "B38-C12",
-            "B38-C14"
+            "B57-C12",
+            "B57-C14"
           ]
         },
         {
@@ -392,9 +392,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Nubes de puntos tridimensionales",
-            "necesidad": "Los datos LiDAR son nubes de puntos que se filtran y clasifican; B38-C11 no trata ese procesamiento."
+            "necesidad": "Los datos LiDAR son nubes de puntos que se filtran y clasifican; B57-C11 no trata ese procesamiento."
           }
         },
         {
@@ -403,9 +403,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Errores y validación de modelos de elevación",
-            "necesidad": "Un modelo de elevación solo es útil con su error conocido y validado contra puntos de control; B38-C09 presenta la altimetría sin tratar la validación."
+            "necesidad": "Un modelo de elevación solo es útil con su error conocido y validado contra puntos de control; B57-C09 presenta la altimetría sin tratar la validación."
           }
         },
         {
@@ -414,9 +414,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Errores y validación de modelos de elevación",
-            "necesidad": "Un modelo de elevación solo es útil con su error conocido y validado contra puntos de control; B38-C09 presenta la altimetría sin tratar la validación."
+            "necesidad": "Un modelo de elevación solo es útil con su error conocido y validado contra puntos de control; B57-C09 presenta la altimetría sin tratar la validación."
           }
         }
       ]
@@ -430,8 +430,8 @@
           "tema": "Radiancia y reflectancia",
           "destino": "existente",
           "tronco": [
-            "B29-C01",
-            "B38-C03"
+            "B45-C01",
+            "B57-C03"
           ]
         },
         {
@@ -440,7 +440,7 @@
           "destino": "existente",
           "tronco": [
             "B13-C17",
-            "B31-C15"
+            "B47-C15"
           ]
         },
         {
@@ -457,7 +457,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Sitios de calibración terrestres",
             "necesidad": "La calibración en vuelo se verifica con superficies terrestres estables; ninguna clase trata esos sitios."
           }
@@ -467,9 +467,9 @@
           "tema": "Corrección de detector",
           "destino": "existente",
           "tronco": [
-            "B28-C12",
-            "B28-C13",
-            "B28-C14"
+            "B44-C12",
+            "B44-C13",
+            "B44-C14"
           ]
         },
         {
@@ -496,7 +496,7 @@
           "tema": "Detección de anomalías",
           "destino": "existente",
           "tronco": [
-            "B57-C13"
+            "B96-C13"
           ]
         },
         {
@@ -645,7 +645,7 @@
           "tema": "Eventos de incendio",
           "destino": "existente",
           "tronco": [
-            "B38-C16"
+            "B57-C16"
           ]
         },
         {
@@ -653,7 +653,7 @@
           "tema": "Inundaciones y sequías",
           "destino": "existente",
           "tronco": [
-            "B38-C15"
+            "B57-C15"
           ]
         },
         {
@@ -661,7 +661,7 @@
           "tema": "Volcanismo",
           "destino": "existente",
           "tronco": [
-            "B38-C18"
+            "B57-C18"
           ]
         },
         {
@@ -669,7 +669,7 @@
           "tema": "Deformación sísmica",
           "destino": "existente",
           "tronco": [
-            "B38-C17"
+            "B57-C17"
           ]
         },
         {
@@ -678,9 +678,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Deforestación y cambio de uso del suelo",
-            "necesidad": "El cambio de cobertura vegetal es un tema propio de monitoreo; B38-C06 trata solo los índices de vegetación."
+            "necesidad": "El cambio de cobertura vegetal es un tema propio de monitoreo; B57-C06 trata solo los índices de vegetación."
           }
         },
         {
@@ -711,7 +711,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B38",
+            "bloque": "B57",
             "titulo": "Alertas tempranas y ética en el monitoreo de desastres",
             "necesidad": "Emitir alertas afecta a personas y exige criterios éticos y de comunicación; ninguna clase de observación terrestre lo trata."
           }
@@ -721,7 +721,7 @@
           "tema": "Estudio de caso de desastre en Chile",
           "destino": "existente",
           "tronco": [
-            "B38-C20"
+            "B57-C20"
           ]
         }
       ]
@@ -735,8 +735,8 @@
           "tema": "Necesidades del usuario final",
           "destino": "existente",
           "tronco": [
-            "B49-C01",
-            "B49-C02"
+            "B83-C01",
+            "B83-C02"
           ]
         },
         {
@@ -744,8 +744,8 @@
           "tema": "Cobertura espacial",
           "destino": "existente",
           "tronco": [
-            "B38-C02",
-            "B55-C17"
+            "B57-C02",
+            "B89-C17"
           ]
         },
         {
@@ -754,9 +754,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B64",
+            "bloque": "B124",
             "titulo": "Acuerdos de nivel de servicio para productos de datos",
-            "necesidad": "Un servicio de observación se compromete con plazos y calidad; B64 trata propuestas de valor sin acuerdos de nivel de servicio."
+            "necesidad": "Un servicio de observación se compromete con plazos y calidad; B124 trata propuestas de valor sin acuerdos de nivel de servicio."
           }
         },
         {
@@ -798,9 +798,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B64",
+            "bloque": "B124",
             "titulo": "Modelo de costo de un servicio de datos",
-            "necesidad": "Fijar el precio o presupuesto de un servicio exige un modelo de costo; B64 trata financiamiento sin modelar costos de un servicio."
+            "necesidad": "Fijar el precio o presupuesto de un servicio exige un modelo de costo; B124 trata financiamiento sin modelar costos de un servicio."
           }
         },
         {
@@ -808,7 +808,7 @@
           "tema": "Protección de datos",
           "destino": "existente",
           "tronco": [
-            "B64-C13"
+            "B124-C13"
           ]
         },
         {
@@ -816,8 +816,8 @@
           "tema": "Pruebas operativas",
           "destino": "existente",
           "tronco": [
-            "B56-C16",
-            "B57-C20"
+            "B90-C16",
+            "B96-C20"
           ]
         },
         {
@@ -825,8 +825,8 @@
           "tema": "Propuesta técnica y comercial",
           "destino": "existente",
           "tronco": [
-            "B64-C04",
-            "B64-C19"
+            "B124-C04",
+            "B124-C19"
           ]
         }
       ]

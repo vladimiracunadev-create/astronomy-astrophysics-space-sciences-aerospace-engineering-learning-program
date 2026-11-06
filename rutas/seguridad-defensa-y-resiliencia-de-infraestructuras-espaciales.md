@@ -21,7 +21,7 @@ En la práctica el rol se reparte en tres miradas que conviene conocer antes de 
 ### 🚫 Qué NO es este rol (y con quién se confunde)
 
 - **No es ciberseguridad general.** Comparte el vocabulario defensivo, pero los activos, los tiempos (un satélite no se reinicia fácilmente) y los marcos jurídicos son del sector espacial.
-- **No es operación de misiones.** El centro de control (bloque [**B57**](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md)) opera el satélite; tú evalúas su exposición y su continuidad y te coordinas con él.
+- **No es operación de misiones.** El centro de control (bloque [**B96**](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md)) opera el satélite; tú evalúas su exposición y su continuidad y te coordinas con él.
 - **No es derecho espacial.** El marco jurídico se conoce, pero su interpretación pertenece a [Derecho, políticas y negocios espaciales](derecho-politicas-y-negocios-espaciales.md).
 - **No es el especialista de un solo componente.** [Telecomunicaciones y estaciones terrestres](telecomunicaciones-y-estaciones-terrestres-espaciales.md) y [aviónica y software de alta fiabilidad](avionica-y-software-espacial-de-alta-fiabilidad.md) profundizan cada parte; este rol evalúa la exposición del conjunto.
 - **No es un rol ofensivo ni militar operativo.** Este programa no enseña capacidades de daño. Las doctrinas y la historia se estudian a partir de fuentes públicas.
@@ -43,11 +43,11 @@ Dicho sin adornos: se trabaja con **datos imperfectos y decisiones con consecuen
 
 ### Conocimiento técnico
 
-- **Mecánica orbital y estimación:** órbitas, perturbaciones, determinación y covarianza, en [**B41**](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md), [**B42**](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) y [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md).
-- **Tráfico y sostenibilidad:** población de objetos, catálogos, seguimiento óptico y por radar, conjunciones, probabilidad de colisión, evasión, desechos, fin de vida, calidad y límites de las redes de vigilancia, en [**B62** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md).
-- **Marco jurídico y de política:** tratados, registro, autorización de operadores, doctrinas declaradas públicamente, normas de comportamiento responsable, atribución y desinformación, en [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md).
-- **Resiliencia y continuidad:** dependencias de proveedores, impacto y objetivos de recuperación, modelo defensivo de riesgos, seguridad de estaciones, accesos, respuesta a incidentes, severidad, comunicación de crisis, evidencias y continuidad institucional, en [**B123** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b123--resiliencia-y-continuidad-de-infraestructura-espacial).
-- **Software crítico, comunicaciones y operaciones:** [**B54**](../programa/tronco-comun/B54-avionica-y-software-critico-espacial.md), [**B55**](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) y [**B57**](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md).
+- **Mecánica orbital y estimación:** órbitas, perturbaciones, determinación y covarianza, en [**B71**](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md), [**B72**](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) y [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md).
+- **Tráfico y sostenibilidad:** población de objetos, catálogos, seguimiento óptico y por radar, conjunciones, probabilidad de colisión, evasión, desechos, fin de vida, calidad y límites de las redes de vigilancia, en [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md).
+- **Marco jurídico y de política:** tratados, registro, autorización de operadores, doctrinas declaradas públicamente, normas de comportamiento responsable, atribución y desinformación, en [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md).
+- **Resiliencia y continuidad:** dependencias de proveedores, impacto y objetivos de recuperación, modelo defensivo de riesgos, seguridad de estaciones, accesos, respuesta a incidentes, severidad, comunicación de crisis, evidencias y continuidad institucional, en [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial).
+- **Software crítico, comunicaciones y operaciones:** [**B88**](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md), [**B89**](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) y [**B96**](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md).
 - **Probabilidad e incertidumbre:** cómo se propaga la incertidumbre del seguimiento a una probabilidad de colisión y cuándo esa cifra no basta para decidir.
 
 ### Herramientas del oficio
@@ -76,9 +76,9 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 ### 🧱 Fundamentos (según tu diagnóstico)
 
-1. 📚 [**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md) — A06 · 20 clases
-2. 📚 [**B43** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B43-mecanica-celeste-resonancias-y-caos.md) — A06 · 22 clases
-3. 📚 [**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) — A06 · 30 clases
+1. 📚 [**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md) — A06 · 20 clases
+2. 📚 [**B73** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) — A06 · 22 clases
+3. 📚 [**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) — A06 · 30 clases
 
 ### 🎯 El núcleo del rol
 
@@ -88,31 +88,31 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-2. 📚 [**B42** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) — usa 2 de 21 clases: `B42-` C20–C21
-3. 📚 [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 14 de 30 clases: `B44-` C01–C04, C06–C09, C11–C12, C19–C20, C29–C30
-4. 📚 [**B46** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B46-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 2 de 20 clases: `B46-` C11, C14
-5. 📚 [**B47** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md) — usa 1 de 25 clases: `B47-` C14
+2. 📚 [**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) — usa 2 de 21 clases: `B72-` C20–C21
+3. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 14 de 30 clases: `B74-` C01–C04, C06–C09, C11–C12, C19–C20, C29–C30
+4. 📚 [**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 2 de 20 clases: `B76-` C11, C14
+5. 📚 [**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) — usa 1 de 25 clases: `B77-` C14
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-6. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 1 de 24 clases: `B49-` C15
-7. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — usa 2 de 23 clases: `B52-` C11, C13
-8. 📚 [**B54** · Aviónica y software crítico espacial](../programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) — usa 6 de 44 clases: `B54-` C11–C13, C17–C19
-9. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — usa 5 de 25 clases: `B55-` C12, C14–C15, C20, C25
+6. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 1 de 24 clases: `B83-` C15
+7. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — usa 2 de 23 clases: `B86-` C11, C13
+8. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 6 de 44 clases: `B88-` C11–C13, C17–C19
+9. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 5 de 25 clases: `B89-` C12, C14–C15, C20, C25
 
 **A08 · Operaciones de misión y robótica espacial**
 
-10. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 10 de 30 clases: `B57-` C01, C03–C04, C07, C12–C15, C17, C19
+10. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 10 de 30 clases: `B96-` C01, C03–C04, C07, C12–C15, C17, C19
 
 **A09 · Astronáutica humana, medicina y hábitats**
 
-11. 📚 [**B58** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B58-astronautica-y-preparacion-de-astronautas.md) — usa 1 de 23 clases: `B58-` C09
+11. 📚 [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) — usa 1 de 23 clases: `B104-` C09
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-12. 📚 [**B62** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md) — usa 22 de 24 clases: `B62-` C01–C15, C18–C24
-13. 📚 [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) — usa 19 de 36 clases: `B63-` C01, C04, C06–C08, C11–C16, C18–C20, C26–C30
-14. 📚 [**B123** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b123--resiliencia-y-continuidad-de-infraestructura-espacial) — usa 10 de 10 clases: `B123-` C01–C10
+12. 📚 [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) — usa 22 de 24 clases: `B118-` C01–C15, C18–C24
+13. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 19 de 36 clases: `B119-` C01, C04, C06–C08, C11–C16, C18–C20, C26–C30
+14. 📚 [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial) — usa 10 de 10 clases: `B122-` C01–C10
 
 <!-- /ruta -->
 
@@ -126,7 +126,7 @@ El producto que demuestra el rol es un **expediente de seguridad y resiliencia**
 - modelo defensivo de riesgos de una infraestructura, con objetivos de recuperación;
 - informe posterior a un simulacro de crisis o incidente simulado.
 
-Las clases del programa cierran con ejercicios y proyectos que alimentan ese expediente (por ejemplo, la evaluación de riesgo de conjunción documentada de B62 y la simulación de respuesta institucional de B63). Guarda la primera versión, la retroalimentación y los cambios.
+Las clases del programa cierran con ejercicios y proyectos que alimentan ese expediente (por ejemplo, la evaluación de riesgo de conjunción documentada de B118 y la simulación de respuesta institucional de B119). Guarda la primera versión, la retroalimentación y los cambios.
 
 ## 🎓 Reconocimientos y referencias profesionales
 
@@ -154,11 +154,11 @@ Roles vecinos con los que se comparte formación: [telecomunicaciones y estacion
 
 ## 🚀 Siguientes pasos
 
-1. **Asienta la base** con [**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md) y probabilidad e incertidumbre.
-2. Aprende la **estimación y el seguimiento** con [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md).
-3. Recorre **tráfico y sostenibilidad** en [**B62** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md) y documenta una evaluación de conjunción.
-4. Estudia el **marco y la doctrina** en [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md), con fuentes públicas.
-5. Cierra con la **resiliencia** en [**B123** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b123--resiliencia-y-continuidad-de-infraestructura-espacial) y reúne tu expediente con un informe de simulacro.
+1. **Asienta la base** con [**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md) y probabilidad e incertidumbre.
+2. Aprende la **estimación y el seguimiento** con [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md).
+3. Recorre **tráfico y sostenibilidad** en [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) y documenta una evaluación de conjunción.
+4. Estudia el **marco y la doctrina** en [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md), con fuentes públicas.
+5. Cierra con la **resiliencia** en [**B122** · Resiliencia y continuidad de infraestructura espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b122--resiliencia-y-continuidad-de-infraestructura-espacial) y reúne tu expediente con un informe de simulacro.
 
 <!-- pie:inicio -->
 ---

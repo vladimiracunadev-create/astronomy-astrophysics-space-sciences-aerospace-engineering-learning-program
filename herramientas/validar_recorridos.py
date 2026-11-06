@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 FASES = ["fundamentos", "tronco", "ruta", "integracion"]
 TIPOS = {"obligatoria", "recomendada", "opcional"}
-PAT_B = re.compile(r"^(B\d{2})-C(\d{2})(?:\.\.C(\d{2}))?$")
+PAT_B = re.compile(r"^(B\d{2,3})-C(\d{2})(?:\.\.C(\d{2}))?$")
 PAT_M = re.compile(r"^(R\d{2}-M\d{2})-C(\d{2})(?:\.\.C(\d{2}))?$")
 
 
@@ -126,7 +126,7 @@ def main() -> int:
                         if not t.get("tronco"):
                             errores.append(f"{m['modulo']} {t.get('clases_ruta')}: destino existente sin clases del tronco")
                         for c in t.get("tronco", []):
-                            if not re.match(r"^B\d{2}-C\d{2}$", c) or c not in ids:
+                            if not re.match(r"^B\d{2,3}-C\d{2}$", c) or c not in ids:
                                 errores.append(f"{m['modulo']} {t.get('clases_ruta')}: {c} no es una clase del tronco existente")
                             esperadas_tronco.add(c)
                     elif dest == "nueva":

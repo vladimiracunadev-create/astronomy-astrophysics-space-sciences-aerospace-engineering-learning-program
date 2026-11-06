@@ -18,8 +18,8 @@ El tronco común de la línea base `0.1.0` tiene 8 áreas, 64 bloques y 1.280 cl
 
 | Qué se añade | ID | Ejemplo |
 |---|---|---|
-| Bloque nuevo | continúa la numeración: `B65`, `B66`, … con su `area` declarada en los metadatos de ampliación | `B65-C01` |
-| Clases nuevas en un bloque existente | continúan: `B49-C21`, `B49-C22`, … | `B49-C21` |
+| Bloque nuevo | propuesta intermedia `BP01`, `BP02`, … (superada: en la estructura `0.2.0` los bloques se numeran de forma consecutiva, ver `catalogo/v0.2.0/numeracion_bloques.json`) | `BP01-C01` |
+| Clases nuevas en un bloque existente | continúan: `B83-C21`, `B83-C22`, … | `B83-C21` |
 | Módulo nuevo en una ruta | `R12-M09`, con clases `R12-M09-C01…` | `R12-M09-C01` |
 
 Un bloque nuevo no tiene por qué tener exactamente 20 clases; el tamaño se justifica por la capacidad que enseña. Los bloques y módulos existentes conservan sus 20 clases originales; las ampliadas se identifican como «extensión» y no cambian el significado de las anteriores.
@@ -44,7 +44,7 @@ Toda propuesta incluye: necesidad y roles que la requieren (con enlace a su `hue
 Cada módulo de ruta tiene 10 temas (sus 20 clases son pares «concepto + aplicación» del mismo tema). Cada rol, en su archivo `metadatos/recorridos/Rxx.json`, ubica cada tema en el tronco con el campo `modulos`:
 
 - `existente`: el tema ya está en una o varias clases del tronco (se listan sus IDs);
-- `nueva`: no existe; se propone una clase en un bloque existente (continúa su numeración: `B49-C21`) o en un bloque nuevo (`B65`, …), con su área.
+- `nueva`: no existe; se propone una clase en un bloque existente (continúa su numeración: `B83-C21`) o en un bloque nuevo (`B17`, …), con su área.
 
 `python herramientas/consolidar_distribucion.py` recoge lo que declaran todos los roles y genera, en `catalogo/ampliaciones/v0.2.0/`: `distribucion_modulos.json` (dónde vive cada par de clases de ruta; los IDs `Rxx-Mxx-Cnn` se conservan como alias), `clases_nuevas.jsonl` (solo título y estado E0, deduplicadas entre roles), `bloques_nuevos.json` y `TAMANOS_DE_AREA.md`.
 

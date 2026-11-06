@@ -14,7 +14,7 @@ Verás la energía de un fotón en eV y en kJ/mol, los umbrales de ionización y
 
 El hidrógeno de una nube o de una atmósfera puede ser ionizado por un fotón de longitud de onda menor que 91,2 nm. Un fotón de Lyman-alfa (121,6 nm) no lo ioniza desde el estado fundamental, pero tiene 22 veces la energía necesaria para evaporar una molécula de agua. Entender esas comparaciones es entender por qué el ultravioleta transforma la materia y el infrarrojo, en general, sólo la calienta.
 
-La decisión central es: **dado un fotón de cierta longitud de onda, ¿qué puede hacer a una molécula o a un átomo, y qué precauciones exige trabajar con esa radiación?** Aprenderás a calcular energía de fotones, a compararla con umbrales y a establecer medidas de seguridad. Es base para B23, B28 y B29, donde se usa radiación real.
+La decisión central es: **dado un fotón de cierta longitud de onda, ¿qué puede hacer a una molécula o a un átomo, y qué precauciones exige trabajar con esa radiación?** Aprenderás a calcular energía de fotones, a compararla con umbrales y a establecer medidas de seguridad. Es base para B30, B44 y B45, donde se usa radiación real.
 
 ## 3. Lo que podrás hacer al terminar
 
@@ -300,7 +300,7 @@ Un fotón tiene energía `h c/λ`; si supera el umbral de un proceso (ionizar, e
 
 **Glosario español–inglés.** fotoquímica · *photochemistry*; energía del fotón · *photon energy*; radiación ionizante · *ionizing radiation*; umbral · *threshold*; ultravioleta · *ultraviolet*; infrarrojo · *infrared*; límite de Lyman · *Lyman limit*.
 
-**Continuidad.** B06-C19 describe los hielos y minerales que absorben y emiten esta radiación. B23, B28 y B29 retoman la radiación y su detección.
+**Continuidad.** B06-C19 describe los hielos y minerales que absorben y emiten esta radiación. B30, B44 y B45 retoman la radiación y su detección.
 
 **Referencias:** ver sección 11. S1 a S3 son consultas del 2026-11-05; no se consultó ninguna fuente reguladora de seguridad.
 

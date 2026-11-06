@@ -386,174 +386,6 @@
   {
     "fuente_id": "NASA-DATA",
     "tipo": "bloque",
-    "unidad_id": "B17",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B17",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B17",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B17",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
-    "unidad_id": "B18",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B18",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B18",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B18",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
-    "unidad_id": "B19",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B19",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B19",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B19",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
-    "unidad_id": "B20",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B20",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B20",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B20",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
-    "unidad_id": "B21",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B21",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B21",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B21",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
-    "unidad_id": "B22",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B22",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B22",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B22",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
-    "unidad_id": "B23",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESA-SCIENCE",
-    "tipo": "bloque",
-    "unidad_id": "B23",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "LIGO",
-    "tipo": "bloque",
-    "unidad_id": "B23",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ADS",
-    "tipo": "bloque",
-    "unidad_id": "B23",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-DATA",
-    "tipo": "bloque",
     "unidad_id": "B24",
     "asignacion": "preliminar_ajustar_por_clase"
   },
@@ -576,397 +408,187 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ESO",
+    "fuente_id": "NASA-DATA",
     "tipo": "bloque",
     "unidad_id": "B25",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ALMA",
+    "fuente_id": "ESA-SCIENCE",
     "tipo": "bloque",
     "unidad_id": "B25",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "LIGO",
     "tipo": "bloque",
     "unidad_id": "B25",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-NTRS",
+    "fuente_id": "ADS",
     "tipo": "bloque",
     "unidad_id": "B25",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ESO",
+    "fuente_id": "NASA-DATA",
     "tipo": "bloque",
     "unidad_id": "B26",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ALMA",
+    "fuente_id": "ESA-SCIENCE",
     "tipo": "bloque",
     "unidad_id": "B26",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "LIGO",
     "tipo": "bloque",
     "unidad_id": "B26",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-NTRS",
+    "fuente_id": "ADS",
     "tipo": "bloque",
     "unidad_id": "B26",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ESO",
+    "fuente_id": "NASA-DATA",
     "tipo": "bloque",
     "unidad_id": "B27",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ALMA",
+    "fuente_id": "ESA-SCIENCE",
     "tipo": "bloque",
     "unidad_id": "B27",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "LIGO",
     "tipo": "bloque",
     "unidad_id": "B27",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-NTRS",
+    "fuente_id": "ADS",
     "tipo": "bloque",
     "unidad_id": "B27",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ESO",
+    "fuente_id": "NASA-DATA",
     "tipo": "bloque",
     "unidad_id": "B28",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ALMA",
+    "fuente_id": "ESA-SCIENCE",
     "tipo": "bloque",
     "unidad_id": "B28",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "LIGO",
     "tipo": "bloque",
     "unidad_id": "B28",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-NTRS",
+    "fuente_id": "ADS",
     "tipo": "bloque",
     "unidad_id": "B28",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ESO",
+    "fuente_id": "NASA-DATA",
     "tipo": "bloque",
     "unidad_id": "B29",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ALMA",
+    "fuente_id": "ESA-SCIENCE",
     "tipo": "bloque",
     "unidad_id": "B29",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "LIGO",
     "tipo": "bloque",
     "unidad_id": "B29",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-NTRS",
+    "fuente_id": "ADS",
     "tipo": "bloque",
     "unidad_id": "B29",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
+    "fuente_id": "NASA-DATA",
+    "tipo": "bloque",
+    "unidad_id": "B30",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ESA-SCIENCE",
+    "tipo": "bloque",
+    "unidad_id": "B30",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "LIGO",
+    "tipo": "bloque",
+    "unidad_id": "B30",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ADS",
+    "tipo": "bloque",
+    "unidad_id": "B30",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-DATA",
+    "tipo": "bloque",
+    "unidad_id": "B31",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ESA-SCIENCE",
+    "tipo": "bloque",
+    "unidad_id": "B31",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "LIGO",
+    "tipo": "bloque",
+    "unidad_id": "B31",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ADS",
+    "tipo": "bloque",
+    "unidad_id": "B31",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
     "fuente_id": "ESO",
-    "tipo": "bloque",
-    "unidad_id": "B30",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ALMA",
-    "tipo": "bloque",
-    "unidad_id": "B30",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SMALLSAT",
-    "tipo": "bloque",
-    "unidad_id": "B30",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-NTRS",
-    "tipo": "bloque",
-    "unidad_id": "B30",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESO",
-    "tipo": "bloque",
-    "unidad_id": "B31",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ALMA",
-    "tipo": "bloque",
-    "unidad_id": "B31",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SMALLSAT",
-    "tipo": "bloque",
-    "unidad_id": "B31",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-NTRS",
-    "tipo": "bloque",
-    "unidad_id": "B31",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ESO",
-    "tipo": "bloque",
-    "unidad_id": "B32",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ALMA",
-    "tipo": "bloque",
-    "unidad_id": "B32",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SMALLSAT",
-    "tipo": "bloque",
-    "unidad_id": "B32",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-NTRS",
-    "tipo": "bloque",
-    "unidad_id": "B32",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B33",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B33",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B33",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B33",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B34",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B34",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B34",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B34",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B35",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B35",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B35",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B35",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B36",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B36",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B36",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B36",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B37",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B37",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B37",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B37",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B38",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B38",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B38",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B38",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B39",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B39",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B39",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B39",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-PDS",
-    "tipo": "bloque",
-    "unidad_id": "B40",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "USGS",
-    "tipo": "bloque",
-    "unidad_id": "B40",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "COSPAR",
-    "tipo": "bloque",
-    "unidad_id": "B40",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-EO",
-    "tipo": "bloque",
-    "unidad_id": "B40",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
     "tipo": "bloque",
     "unidad_id": "B41",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B41",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B41",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -978,19 +600,19 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B41",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B42",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B42",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B42",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1002,19 +624,19 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B42",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B43",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B43",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B43",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1026,19 +648,19 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B43",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B44",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B44",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B44",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1050,19 +672,19 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B44",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B45",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B45",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B45",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1074,19 +696,19 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B45",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B46",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B46",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B46",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1098,19 +720,19 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B46",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B47",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
+    "fuente_id": "ALMA",
+    "tipo": "bloque",
+    "unidad_id": "B47",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
     "unidad_id": "B47",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1122,31 +744,13 @@
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "IERS",
-    "tipo": "bloque",
-    "unidad_id": "B47",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "JPL-HORIZONS",
+    "fuente_id": "ESO",
     "tipo": "bloque",
     "unidad_id": "B48",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "JPL-SPICE",
-    "tipo": "bloque",
-    "unidad_id": "B48",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-NTRS",
-    "tipo": "bloque",
-    "unidad_id": "B48",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "IERS",
+    "fuente_id": "ALMA",
     "tipo": "bloque",
     "unidad_id": "B48",
     "asignacion": "preliminar_ajustar_por_clase"
@@ -1154,385 +758,781 @@
   {
     "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B49",
+    "unidad_id": "B48",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SYSTEMS",
+    "fuente_id": "NASA-NTRS",
     "tipo": "bloque",
-    "unidad_id": "B49",
+    "unidad_id": "B48",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ECSS",
-    "tipo": "bloque",
-    "unidad_id": "B49",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "CCSDS",
-    "tipo": "bloque",
-    "unidad_id": "B49",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SMALLSAT",
-    "tipo": "bloque",
-    "unidad_id": "B50",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SYSTEMS",
-    "tipo": "bloque",
-    "unidad_id": "B50",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ECSS",
-    "tipo": "bloque",
-    "unidad_id": "B50",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "CCSDS",
-    "tipo": "bloque",
-    "unidad_id": "B50",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SMALLSAT",
-    "tipo": "bloque",
-    "unidad_id": "B51",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SYSTEMS",
-    "tipo": "bloque",
-    "unidad_id": "B51",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ECSS",
-    "tipo": "bloque",
-    "unidad_id": "B51",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "CCSDS",
-    "tipo": "bloque",
-    "unidad_id": "B51",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "NASA-PDS",
     "tipo": "bloque",
     "unidad_id": "B52",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SYSTEMS",
+    "fuente_id": "USGS",
     "tipo": "bloque",
     "unidad_id": "B52",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ECSS",
+    "fuente_id": "COSPAR",
     "tipo": "bloque",
     "unidad_id": "B52",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "CCSDS",
+    "fuente_id": "NASA-EO",
     "tipo": "bloque",
     "unidad_id": "B52",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "NASA-PDS",
     "tipo": "bloque",
     "unidad_id": "B53",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SYSTEMS",
+    "fuente_id": "USGS",
     "tipo": "bloque",
     "unidad_id": "B53",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ECSS",
+    "fuente_id": "COSPAR",
     "tipo": "bloque",
     "unidad_id": "B53",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "CCSDS",
+    "fuente_id": "NASA-EO",
     "tipo": "bloque",
     "unidad_id": "B53",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SMALLSAT",
+    "fuente_id": "NASA-PDS",
     "tipo": "bloque",
     "unidad_id": "B54",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-SYSTEMS",
+    "fuente_id": "USGS",
     "tipo": "bloque",
     "unidad_id": "B54",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "COSPAR",
+    "tipo": "bloque",
+    "unidad_id": "B54",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-EO",
+    "tipo": "bloque",
+    "unidad_id": "B54",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-PDS",
+    "tipo": "bloque",
+    "unidad_id": "B55",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "USGS",
+    "tipo": "bloque",
+    "unidad_id": "B55",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "COSPAR",
+    "tipo": "bloque",
+    "unidad_id": "B55",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-EO",
+    "tipo": "bloque",
+    "unidad_id": "B55",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-PDS",
+    "tipo": "bloque",
+    "unidad_id": "B56",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "USGS",
+    "tipo": "bloque",
+    "unidad_id": "B56",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "COSPAR",
+    "tipo": "bloque",
+    "unidad_id": "B56",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-EO",
+    "tipo": "bloque",
+    "unidad_id": "B56",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-PDS",
+    "tipo": "bloque",
+    "unidad_id": "B57",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "USGS",
+    "tipo": "bloque",
+    "unidad_id": "B57",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "COSPAR",
+    "tipo": "bloque",
+    "unidad_id": "B57",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-EO",
+    "tipo": "bloque",
+    "unidad_id": "B57",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-PDS",
+    "tipo": "bloque",
+    "unidad_id": "B58",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "USGS",
+    "tipo": "bloque",
+    "unidad_id": "B58",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "COSPAR",
+    "tipo": "bloque",
+    "unidad_id": "B58",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-EO",
+    "tipo": "bloque",
+    "unidad_id": "B58",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-PDS",
+    "tipo": "bloque",
+    "unidad_id": "B59",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "USGS",
+    "tipo": "bloque",
+    "unidad_id": "B59",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "COSPAR",
+    "tipo": "bloque",
+    "unidad_id": "B59",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-EO",
+    "tipo": "bloque",
+    "unidad_id": "B59",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B71",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B71",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B71",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B71",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B72",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B72",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B72",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B72",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B73",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B73",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B73",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B73",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B74",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B74",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B74",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B74",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B75",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B75",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B75",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B75",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B76",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B76",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B76",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B76",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B77",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B77",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B77",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B77",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-HORIZONS",
+    "tipo": "bloque",
+    "unidad_id": "B78",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "JPL-SPICE",
+    "tipo": "bloque",
+    "unidad_id": "B78",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-NTRS",
+    "tipo": "bloque",
+    "unidad_id": "B78",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "IERS",
+    "tipo": "bloque",
+    "unidad_id": "B78",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SMALLSAT",
+    "tipo": "bloque",
+    "unidad_id": "B83",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B83",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B54",
+    "unidad_id": "B83",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B54",
+    "unidad_id": "B83",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B55",
+    "unidad_id": "B84",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B55",
+    "unidad_id": "B84",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B55",
+    "unidad_id": "B84",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B55",
+    "unidad_id": "B84",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B56",
+    "unidad_id": "B85",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B56",
+    "unidad_id": "B85",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B56",
+    "unidad_id": "B85",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B56",
+    "unidad_id": "B85",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-HUMAN",
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B57",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "UNOOSA",
-    "tipo": "bloque",
-    "unidad_id": "B57",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ITU",
-    "tipo": "bloque",
-    "unidad_id": "B57",
+    "unidad_id": "B86",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B57",
+    "unidad_id": "B86",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-HUMAN",
+    "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B58",
+    "unidad_id": "B86",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "UNOOSA",
+    "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B58",
+    "unidad_id": "B86",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ITU",
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B58",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SYSTEMS",
-    "tipo": "bloque",
-    "unidad_id": "B58",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-HUMAN",
-    "tipo": "bloque",
-    "unidad_id": "B59",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "UNOOSA",
-    "tipo": "bloque",
-    "unidad_id": "B59",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ITU",
-    "tipo": "bloque",
-    "unidad_id": "B59",
+    "unidad_id": "B87",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B59",
+    "unidad_id": "B87",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-HUMAN",
+    "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B60",
+    "unidad_id": "B87",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "UNOOSA",
+    "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B60",
+    "unidad_id": "B87",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ITU",
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B60",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SYSTEMS",
-    "tipo": "bloque",
-    "unidad_id": "B60",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-HUMAN",
-    "tipo": "bloque",
-    "unidad_id": "B61",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "UNOOSA",
-    "tipo": "bloque",
-    "unidad_id": "B61",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ITU",
-    "tipo": "bloque",
-    "unidad_id": "B61",
+    "unidad_id": "B88",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B61",
+    "unidad_id": "B88",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-HUMAN",
+    "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B62",
+    "unidad_id": "B88",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "UNOOSA",
+    "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B62",
+    "unidad_id": "B88",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ITU",
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B62",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-SYSTEMS",
-    "tipo": "bloque",
-    "unidad_id": "B62",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "NASA-HUMAN",
-    "tipo": "bloque",
-    "unidad_id": "B63",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "UNOOSA",
-    "tipo": "bloque",
-    "unidad_id": "B63",
-    "asignacion": "preliminar_ajustar_por_clase"
-  },
-  {
-    "fuente_id": "ITU",
-    "tipo": "bloque",
-    "unidad_id": "B63",
+    "unidad_id": "B89",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B63",
+    "unidad_id": "B89",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "NASA-HUMAN",
+    "fuente_id": "ECSS",
     "tipo": "bloque",
-    "unidad_id": "B64",
+    "unidad_id": "B89",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "UNOOSA",
+    "fuente_id": "CCSDS",
     "tipo": "bloque",
-    "unidad_id": "B64",
+    "unidad_id": "B89",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
-    "fuente_id": "ITU",
+    "fuente_id": "NASA-SMALLSAT",
     "tipo": "bloque",
-    "unidad_id": "B64",
+    "unidad_id": "B90",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {
     "fuente_id": "NASA-SYSTEMS",
     "tipo": "bloque",
-    "unidad_id": "B64",
+    "unidad_id": "B90",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ECSS",
+    "tipo": "bloque",
+    "unidad_id": "B90",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "CCSDS",
+    "tipo": "bloque",
+    "unidad_id": "B90",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B96",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B96",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B96",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B96",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B104",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B104",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B104",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B104",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B105",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B105",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B105",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B105",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B106",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B106",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B106",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B106",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B97",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B97",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B97",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B97",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B118",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B118",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B118",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B118",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B119",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B119",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B119",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B119",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-HUMAN",
+    "tipo": "bloque",
+    "unidad_id": "B124",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "UNOOSA",
+    "tipo": "bloque",
+    "unidad_id": "B124",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "ITU",
+    "tipo": "bloque",
+    "unidad_id": "B124",
+    "asignacion": "preliminar_ajustar_por_clase"
+  },
+  {
+    "fuente_id": "NASA-SYSTEMS",
+    "tipo": "bloque",
+    "unidad_id": "B124",
     "asignacion": "preliminar_ajustar_por_clase"
   },
   {

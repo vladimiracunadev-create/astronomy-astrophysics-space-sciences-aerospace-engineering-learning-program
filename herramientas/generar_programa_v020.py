@@ -9,8 +9,8 @@ Salidas:
   catalogo/v0.2.0/clases_programadas.jsonl  clases programadas (no redactadas) con su necesidad
   catalogo/v0.2.0/equivalencias.json     dónde vive cada tema de cada módulo de ruta
 
-Reglas: A01 (B01-B08) no cambia; los IDs de B09-B64 se conservan; las clases programadas se agregan al
-final de un bloque existente (Bnn-C21, ...) o forman bloques nuevos (B65, ...). No se redacta ninguna clase.
+Reglas: A01 (B01-B08) no cambia; los bloques se numeran de forma consecutiva en orden de área; las clases programadas se agregan al
+final de un bloque existente (Bnn-C21, ...) o forman bloques nuevos (con numeración consecutiva). No se redacta ninguna clase.
 """
 
 from __future__ import annotations
@@ -54,15 +54,15 @@ AREAS = [
 ]
 AREA_ORDEN = [a[0] for a in AREAS]
 
-# Los bloques existentes B57-B64 se reordenan en áreas más claras (el ID de cada clase no cambia).
-AREA_BLOQUE_EXISTENTE = {"B57": "A08", "B61": "A08", "B58": "A09", "B59": "A09", "B60": "A09", "B62": "A10", "B63": "A10", "B64": "A11"}
+# Cinco bloques existentes (antes B57-B64 en la línea base 0.1.0) se reubican en áreas más claras.
+AREA_BLOQUE_EXISTENTE = {"B96": "A08", "B97": "A08", "B104": "A09", "B105": "A09", "B106": "A09", "B118": "A10", "B119": "A10", "B124": "A11"}
 
 # Bloques nuevos pequeños que se absorben en un bloque existente (como clases C21+).
 FUSION = {
-    "Criósferas y mundos helados": "B34",
-    "Gobernanza, equidad y sostenibilidad espacial": "B63",
-    "Marco jurídico internacional del espacio (profundización)": "B63",
-    "Operaciones de cabina y vehículos tripulados": "B58",
+    "Criósferas y mundos helados": "B53",
+    "Gobernanza, equidad y sostenibilidad espacial": "B119",
+    "Marco jurídico internacional del espacio (profundización)": "B119",
+    "Operaciones de cabina y vehículos tripulados": "B104",
     "Autonomía a bordo y planificación de decisiones": "nuevo: Autonomía y teleoperación espacial",
     "Teleoperación y autonomía supervisada": "nuevo: Autonomía y teleoperación espacial",
 }
@@ -136,7 +136,7 @@ def construir():
                 e["origen"].append(t["clases_ruta"])
                 t["_k"] = k
 
-    # --- bloques nuevos: área final y numeración B65+ ---
+    # --- bloques nuevos: área final y numeración consecutiva ---
     nuevos = {}
     for (destino, _), e in propuestas.items():
         if destino.startswith("nuevo: "):
@@ -148,10 +148,16 @@ def construir():
                 AREA_NUEVO[nombre] = e["area_propuesta"]
             nuevos.setdefault(nombre, {"nombre": nombre, "area": AREA_NUEVO[nombre], "clases": []})
     orden = sorted(nuevos.values(), key=lambda b: (AREA_ORDEN.index(b["area"]), norm(b["nombre"])))
-    n = 65
-    for b in orden:
-        b["id"] = f"B{n}"
-        n += 1
+    # numeración consecutiva por área: los bloques existentes ya la traen y los nuevos continúan
+    n = 0
+    for aid in AREA_ORDEN:
+        for bid in [x for x in bloques_base if area_de_existente(x) == aid]:
+            n += 1
+            assert bid == f"B{n:02d}", f"el bloque {bid} debería ser B{n:02d} para que la numeración sea consecutiva"
+        for b in orden:
+            if b["area"] == aid:
+                n += 1
+                b["id"] = f"B{n:02d}"
     por_nombre = {b["nombre"]: b for b in orden}
 
     # --- numerar clases programadas ---
@@ -198,7 +204,7 @@ def escribir_todo() -> dict:
           "**Alcance:** índice unificado de clases: todo el contenido del programa vive dentro de áreas (A) y bloques (B). "
           "Los contenidos que antes formaban los módulos de las rutas profesionales se ubicaron en el bloque que les corresponde; "
           "lo que ningún bloque cubría aparece como **clase programada**: citada, ubicada y justificada, **no redactada**. "
-          "El área A01 no cambia. Los IDs de la línea base se conservan.", "",
+          "El área A01 no cambia. Los bloques están numerados de forma consecutiva (B01–B133).", "",
           "## Resumen", "",
           "| Área | Bloques | Clases de la línea base | Clases programadas | Total |", "|---|---:|---:|---:|---:|"]
     for a in estructura:

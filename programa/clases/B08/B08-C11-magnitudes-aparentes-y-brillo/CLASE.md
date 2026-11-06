@@ -8,7 +8,7 @@
 
 Undécima clase del bloque B08. Has localizado la Luna, el Sol y los planetas; ahora los **comparas por brillo**. La escala de magnitudes es la forma en que la astronomía dice cuánto brilla un objeto, y tiene una peculiaridad: los números más pequeños (incluso negativos) son los más brillantes. Nivel N1.
 
-Verás la definición de magnitud aparente, su relación logarítmica con el flujo, cómo combinar magnitudes, qué mejora un instrumento y por qué la ganancia teórica no se alcanza en el campo. No verás fotometría con detectores (B29) ni extinción atmosférica.
+Verás la definición de magnitud aparente, su relación logarítmica con el flujo, cómo combinar magnitudes, qué mejora un instrumento y por qué la ganancia teórica no se alcanza en el campo. No verás fotometría con detectores (B45) ni extinción atmosférica.
 
 ## 2. Por qué esta clase existe
 
@@ -92,7 +92,7 @@ La ganancia teórica supone cielo perfectamente oscuro, instrumento sin pérdida
 
 ## 10. Convenciones y referencias
 
-La magnitud visual V se refiere a la banda del ojo; en esta clase se omite la banda. Las magnitudes del Sol y de la Luna son valores medios de la NASA. El cero de la escala se fija con una estrella de referencia y no se trata aquí (B29). Los logaritmos son decimales.
+La magnitud visual V se refiere a la banda del ojo; en esta clase se omite la banda. Las magnitudes del Sol y de la Luna son valores medios de la NASA. El cero de la escala se fija con una estrella de referencia y no se trata aquí (B45). Los logaritmos son decimales.
 
 ## 11. De dónde sale lo que afirmamos
 

@@ -13,7 +13,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Ecuación de transferencia radiativa en atmósferas estelares",
-            "necesidad": "El rol necesita resolver la ecuación de transferencia (profundidad óptica, función fuente); B17 solo introduce opacidades y B35 trata atmósferas planetarias, no la estelar."
+            "necesidad": "El rol necesita resolver la ecuación de transferencia (profundidad óptica, función fuente); B24 solo introduce opacidades y B54 trata atmósferas planetarias, no la estelar."
           }
         },
         {
@@ -35,7 +35,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Opacidad continua: ligado-libre, libre-libre y H-",
-            "necesidad": "B17-C09 solo menciona opacidades; falta la física de los procesos continuos que dominan la opacidad de la fotosfera estelar."
+            "necesidad": "B24-C09 solo menciona opacidades; falta la física de los procesos continuos que dominan la opacidad de la fotosfera estelar."
           }
         },
         {
@@ -46,7 +46,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Opacidad de líneas: ensanchamiento y perfil de Voigt",
-            "necesidad": "B29 describe líneas observadas, pero no el coeficiente de absorción ni los mecanismos de ensanchamiento que determinan su perfil."
+            "necesidad": "B45 describe líneas observadas, pero no el coeficiente de absorción ni los mecanismos de ensanchamiento que determinan su perfil."
           }
         },
         {
@@ -54,8 +54,8 @@
           "tema": "Equilibrio radiativo",
           "destino": "existente",
           "tronco": [
-            "B17-C05",
-            "B17-C09"
+            "B24-C05",
+            "B24-C09"
           ]
         },
         {
@@ -77,7 +77,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Micro y macroturbulencia y granulación estelar",
-            "necesidad": "B26-C11 trata turbulencia terrestre para óptica adaptativa; falta la turbulencia convectiva de la fotosfera estelar y su efecto en las líneas."
+            "necesidad": "B42-C11 trata turbulencia terrestre para óptica adaptativa; falta la turbulencia convectiva de la fotosfera estelar y su efecto en las líneas."
           }
         },
         {
@@ -85,8 +85,8 @@
           "tema": "Campos magnéticos superficiales",
           "destino": "existente",
           "tronco": [
-            "B17-C11",
-            "B17-C12"
+            "B24-C11",
+            "B24-C12"
           ]
         },
         {
@@ -108,7 +108,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Síntesis espectral e inversión de perfiles",
-            "necesidad": "Falta el método inverso que ajusta perfiles de línea (incluidos Stokes) para recuperar la estructura de la atmósfera; B29-C18 solo extrae espectros."
+            "necesidad": "Falta el método inverso que ajusta perfiles de línea (incluidos Stokes) para recuperar la estructura de la atmósfera; B45-C18 solo extrae espectros."
           }
         }
       ]
@@ -122,9 +122,9 @@
           "tema": "Ecuaciones de estructura estelar",
           "destino": "existente",
           "tronco": [
-            "B17-C04",
-            "B17-C05",
-            "B17-C20"
+            "B24-C04",
+            "B24-C05",
+            "B24-C20"
           ]
         },
         {
@@ -132,7 +132,7 @@
           "tema": "Equilibrio hidrostático",
           "destino": "existente",
           "tronco": [
-            "B17-C04"
+            "B24-C04"
           ]
         },
         {
@@ -140,7 +140,7 @@
           "tema": "Gradientes radiativos",
           "destino": "existente",
           "tronco": [
-            "B17-C05"
+            "B24-C05"
           ]
         },
         {
@@ -151,7 +151,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux",
-            "necesidad": "B17-C05 menciona el transporte convectivo, pero no el criterio de inestabilidad ni la teoría de longitud de mezcla usada en los modelos."
+            "necesidad": "B24-C05 menciona el transporte convectivo, pero no el criterio de inestabilidad ni la teoría de longitud de mezcla usada en los modelos."
           }
         },
         {
@@ -162,7 +162,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Ecuaciones de estado estelares: gas ideal, radiación y degeneración",
-            "necesidad": "B20-C01 y B20-C04 cubren degeneración y estado nuclear de objetos compactos, no la ecuación de estado general de interiores de secuencia principal."
+            "necesidad": "B27-C01 y B27-C04 cubren degeneración y estado nuclear de objetos compactos, no la ecuación de estado general de interiores de secuencia principal."
           }
         },
         {
@@ -170,9 +170,9 @@
           "tema": "Generación de energía nuclear",
           "destino": "existente",
           "tronco": [
-            "B17-C06",
-            "B17-C07",
-            "B17-C08"
+            "B24-C06",
+            "B24-C07",
+            "B24-C08"
           ]
         },
         {
@@ -183,7 +183,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Opacidad media de Rosseland y tablas de opacidad en interiores",
-            "necesidad": "B17-C09 es introductoria; el modelado de interiores exige opacidades medias y su uso en el gradiente radiativo."
+            "necesidad": "B24-C09 es introductoria; el modelado de interiores exige opacidades medias y su uso en el gradiente radiativo."
           }
         },
         {
@@ -230,8 +230,8 @@
           "tema": "Presecuencia principal",
           "destino": "existente",
           "tronco": [
-            "B17-C01",
-            "B17-C02"
+            "B24-C01",
+            "B24-C02"
           ]
         },
         {
@@ -239,9 +239,9 @@
           "tema": "Secuencia principal",
           "destino": "existente",
           "tronco": [
-            "B17-C03",
-            "B17-C06",
-            "B17-C07"
+            "B24-C03",
+            "B24-C06",
+            "B24-C07"
           ]
         },
         {
@@ -249,8 +249,8 @@
           "tema": "Subgigantes y gigantes",
           "destino": "existente",
           "tronco": [
-            "B17-C15",
-            "B17-C16"
+            "B24-C15",
+            "B24-C16"
           ]
         },
         {
@@ -259,9 +259,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B17",
+            "bloque": "B24",
             "titulo": "Rama asintótica de gigantes: pulsos térmicos y proceso s",
-            "necesidad": "B17-C16 y B17-C18 describen gigantes y etapas finales de forma general; falta la fase AGB, los dragados y la producción de elementos s."
+            "necesidad": "B24-C16 y B24-C18 describen gigantes y etapas finales de forma general; falta la fase AGB, los dragados y la producción de elementos s."
           }
         },
         {
@@ -269,7 +269,7 @@
           "tema": "Pérdida de masa",
           "destino": "existente",
           "tronco": [
-            "B17-C17"
+            "B24-C17"
           ]
         },
         {
@@ -277,8 +277,8 @@
           "tema": "Estrellas masivas",
           "destino": "existente",
           "tronco": [
-            "B17-C17",
-            "B20-C15"
+            "B24-C17",
+            "B27-C15"
           ]
         },
         {
@@ -287,9 +287,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B17",
+            "bloque": "B24",
             "titulo": "Evolución binaria: lóbulo de Roche y transferencia de masa",
-            "necesidad": "B20-C13 trata binarias compactas ya formadas; ninguna clase explica cómo la transferencia de masa altera la evolución de estrellas en sistemas binarios."
+            "necesidad": "B27-C13 trata binarias compactas ya formadas; ninguna clase explica cómo la transferencia de masa altera la evolución de estrellas en sistemas binarios."
           }
         },
         {
@@ -297,9 +297,9 @@
           "tema": "Remanentes estelares",
           "destino": "existente",
           "tronco": [
-            "B17-C18",
-            "B20-C02",
-            "B20-C03"
+            "B24-C18",
+            "B27-C02",
+            "B27-C03"
           ]
         },
         {
@@ -307,7 +307,7 @@
           "tema": "Metallicidad y evolución",
           "destino": "existente",
           "tronco": [
-            "B18-C17"
+            "B25-C17"
           ]
         },
         {
@@ -315,7 +315,7 @@
           "tema": "Isocronas y edades",
           "destino": "existente",
           "tronco": [
-            "B17-C19"
+            "B24-C19"
           ]
         }
       ]
@@ -332,7 +332,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Medición de perfiles de línea: ancho equivalente y ajuste",
-            "necesidad": "B29-C10 y B29-C11 presentan líneas de emisión y absorción cualitativamente; falta medir anchos equivalentes y ajustar perfiles con incertidumbre."
+            "necesidad": "B45-C10 y B45-C11 presentan líneas de emisión y absorción cualitativamente; falta medir anchos equivalentes y ajustar perfiles con incertidumbre."
           }
         },
         {
@@ -340,8 +340,8 @@
           "tema": "Resolución y dispersión espectral",
           "destino": "existente",
           "tronco": [
-            "B29-C06",
-            "B29-C07"
+            "B45-C06",
+            "B45-C07"
           ]
         },
         {
@@ -360,8 +360,8 @@
           "tema": "Abundancias químicas",
           "destino": "existente",
           "tronco": [
-            "B29-C14",
-            "B17-C10"
+            "B45-C14",
+            "B24-C10"
           ]
         },
         {
@@ -369,8 +369,8 @@
           "tema": "Velocidades radiales",
           "destino": "existente",
           "tronco": [
-            "B22-C03",
-            "B29-C12"
+            "B29-C03",
+            "B45-C12"
           ]
         },
         {
@@ -381,7 +381,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Ensanchamiento rotacional y v sin i",
-            "necesidad": "B17-C11 describe la rotación estelar físicamente; falta medir su efecto en el perfil de línea y separarlo de otros ensanchamientos."
+            "necesidad": "B24-C11 describe la rotación estelar físicamente; falta medir su efecto en el perfil de línea y separarlo de otros ensanchamientos."
           }
         },
         {
@@ -392,7 +392,7 @@
             "area": "A03",
             "bloque": "nuevo: Atmósferas estelares y espectroscopía estelar cuantitativa",
             "titulo": "Efecto Zeeman y diagnóstico de campos magnéticos estelares",
-            "necesidad": "B05-C17 y B17-C11 no cubren el desdoblamiento Zeeman ni su uso como diagnóstico espectropolarimétrico del campo estelar."
+            "necesidad": "B05-C17 y B24-C11 no cubren el desdoblamiento Zeeman ni su uso como diagnóstico espectropolarimétrico del campo estelar."
           }
         },
         {
@@ -400,8 +400,8 @@
           "tema": "Calibraciones espectroscópicas",
           "destino": "existente",
           "tronco": [
-            "B29-C08",
-            "B29-C09"
+            "B45-C08",
+            "B45-C09"
           ]
         },
         {
@@ -409,9 +409,9 @@
           "tema": "Espectros de alta resolución",
           "destino": "existente",
           "tronco": [
-            "B29-C06",
-            "B29-C07",
-            "B29-C18"
+            "B45-C06",
+            "B45-C07",
+            "B45-C18"
           ]
         },
         {
@@ -419,7 +419,7 @@
           "tema": "Evaluación de incertidumbre química",
           "destino": "existente",
           "tronco": [
-            "B29-C19",
+            "B45-C19",
             "B12-C16"
           ]
         }
@@ -434,7 +434,7 @@
           "tema": "Modos de oscilación",
           "destino": "existente",
           "tronco": [
-            "B17-C14"
+            "B24-C14"
           ]
         },
         {
@@ -445,7 +445,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Oscilaciones radiales y relación período-densidad media",
-            "necesidad": "B17-C14 es una introducción; falta la teoría de modos radiales y la relación entre período y densidad media."
+            "necesidad": "B24-C14 es una introducción; falta la teoría de modos radiales y la relación entre período y densidad media."
           }
         },
         {
@@ -466,7 +466,7 @@
           "tronco": [
             "B15-C05",
             "B15-C06",
-            "B22-C19"
+            "B29-C19"
           ]
         },
         {
@@ -499,7 +499,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Rotación interna a partir del desdoblamiento de frecuencias",
-            "necesidad": "Falta la técnica de medir rotación interna con desdoblamientos rotacionales; B17-C11 solo trata la rotación superficial."
+            "necesidad": "Falta la técnica de medir rotación interna con desdoblamientos rotacionales; B24-C11 solo trata la rotación superficial."
           }
         },
         {
@@ -510,7 +510,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Gigantes rojas oscilantes y modos mixtos",
-            "necesidad": "B17-C16 describe gigantes rojas, pero no su espectro de oscilaciones ni cómo distinguir rama de gigantes y núcleo de helio."
+            "necesidad": "B24-C16 describe gigantes rojas, pero no su espectro de oscilaciones ni cómo distinguir rama de gigantes y núcleo de helio."
           }
         },
         {
@@ -521,7 +521,7 @@
             "area": "A03",
             "bloque": "nuevo: Interiores estelares y asterosismología",
             "titulo": "Series fotométricas de Kepler, TESS y PLATO para asterosismología",
-            "necesidad": "B22-C02 trata curvas de luz para tránsitos; falta preparar series largas y sistemáticas de misiones para análisis sísmico."
+            "necesidad": "B29-C02 trata curvas de luz para tránsitos; falta preparar series largas y sistemáticas de misiones para análisis sísmico."
           }
         },
         {
@@ -546,9 +546,9 @@
           "tema": "Diagramas color-magnitud",
           "destino": "existente",
           "tronco": [
-            "B17-C03",
-            "B17-C19",
-            "B29-C02"
+            "B24-C03",
+            "B24-C19",
+            "B45-C02"
           ]
         },
         {
@@ -570,7 +570,7 @@
             "area": "A03",
             "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
             "titulo": "Función inicial de masa y su universalidad",
-            "necesidad": "B17-C01 y B17-C02 tratan formación estelar sin la distribución de masas resultante ni su impacto en poblaciones sintéticas."
+            "necesidad": "B24-C01 y B24-C02 tratan formación estelar sin la distribución de masas resultante ni su impacto en poblaciones sintéticas."
           }
         },
         {
@@ -578,7 +578,7 @@
           "tema": "Metallicidad poblacional",
           "destino": "existente",
           "tronco": [
-            "B18-C17"
+            "B25-C17"
           ]
         },
         {
@@ -586,8 +586,8 @@
           "tema": "Poblaciones de disco",
           "destino": "existente",
           "tronco": [
-            "B18-C01",
-            "B18-C07"
+            "B25-C01",
+            "B25-C07"
           ]
         },
         {
@@ -595,9 +595,9 @@
           "tema": "Poblaciones de halo",
           "destino": "existente",
           "tronco": [
-            "B18-C01",
-            "B18-C07",
-            "B18-C15"
+            "B25-C01",
+            "B25-C07",
+            "B25-C15"
           ]
         },
         {
@@ -605,8 +605,8 @@
           "tema": "Cúmulos globulares",
           "destino": "existente",
           "tronco": [
-            "B18-C06",
-            "B17-C19"
+            "B25-C06",
+            "B24-C19"
           ]
         },
         {
@@ -614,8 +614,8 @@
           "tema": "Cúmulos abiertos",
           "destino": "existente",
           "tronco": [
-            "B18-C06",
-            "B17-C19"
+            "B25-C06",
+            "B24-C19"
           ]
         },
         {
@@ -626,7 +626,7 @@
             "area": "A03",
             "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
             "titulo": "Cinemática estelar con Gaia: movimientos propios y espacio de fase",
-            "necesidad": "B18-C07 trata dinámica de poblaciones en general; falta el uso de astrometría de Gaia y de velocidades 6D."
+            "necesidad": "B25-C07 trata dinámica de poblaciones en general; falta el uso de astrometría de Gaia y de velocidades 6D."
           }
         },
         {
@@ -662,8 +662,8 @@
           "tema": "Distribuciones de masa",
           "destino": "existente",
           "tronco": [
-            "B18-C08",
-            "B18-C15",
+            "B25-C08",
+            "B25-C15",
             "B09-C20"
           ]
         },
@@ -672,8 +672,8 @@
           "tema": "Modelos de discos",
           "destino": "existente",
           "tronco": [
-            "B18-C01",
-            "B18-C02"
+            "B25-C01",
+            "B25-C02"
           ]
         },
         {
@@ -681,7 +681,7 @@
           "tema": "Halos de materia oscura",
           "destino": "existente",
           "tronco": [
-            "B18-C15"
+            "B25-C15"
           ]
         },
         {
@@ -689,8 +689,8 @@
           "tema": "Simulación de N cuerpos",
           "destino": "existente",
           "tronco": [
-            "B43-C08",
-            "B43-C09"
+            "B73-C08",
+            "B73-C09"
           ]
         },
         {
@@ -712,7 +712,7 @@
             "area": "A03",
             "bloque": "nuevo: Poblaciones estelares y simulación de galaxias",
             "titulo": "Modelos submalla de formación estelar y retroalimentación",
-            "necesidad": "B18-C16 trata la retroalimentación físicamente; falta cómo parametrizarla bajo la resolución de una simulación."
+            "necesidad": "B25-C16 trata la retroalimentación físicamente; falta cómo parametrizarla bajo la resolución de una simulación."
           }
         },
         {
@@ -720,7 +720,7 @@
           "tema": "Interacciones de galaxias",
           "destino": "existente",
           "tronco": [
-            "B18-C12"
+            "B25-C12"
           ]
         },
         {
@@ -775,7 +775,7 @@
           "tema": "Selección de catálogos",
           "destino": "existente",
           "tronco": [
-            "B18-C19",
+            "B25-C19",
             "B14-C05"
           ]
         },
@@ -825,7 +825,7 @@
           "tronco": [
             "B14-C09",
             "B14-C19",
-            "B64-C14"
+            "B124-C14"
           ]
         },
         {
@@ -847,7 +847,7 @@
             "area": "A02",
             "bloque": "nuevo: Metodología de la investigación científica",
             "titulo": "Redacción de un artículo científico",
-            "necesidad": "B64-C19 trata propuestas de misión; falta la estructura, el estilo y la presentación de resultados en un artículo."
+            "necesidad": "B124-C19 trata propuestas de misión; falta la estructura, el estilo y la presentación de resultados en un artículo."
           }
         }
       ]

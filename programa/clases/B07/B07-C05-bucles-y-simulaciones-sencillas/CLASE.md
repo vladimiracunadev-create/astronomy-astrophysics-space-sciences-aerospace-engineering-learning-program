@@ -229,7 +229,7 @@ El error baja 100 veces (de 0,1 % a 0,001 %) mientras el costo sube 100 veces: p
 
 <details><summary>Solución comentada</summary>
 
-No: a esa altura la gravedad ya no es la misma que en la superficie y la hipótesis de `g` constante deja de valer; además, el modelo ignora el rozamiento atmosférico en la parte baja. Hay que citar un modelo de gravedad variable (B11, B41).
+No: a esa altura la gravedad ya no es la misma que en la superficie y la hipótesis de `g` constante deja de valer; además, el modelo ignora el rozamiento atmosférico en la parte baja. Hay que citar un modelo de gravedad variable (B11, B71).
 </details>
 
 **Ejercicio 12 · integrador.** Entrega un **informe de convergencia**: para Tierra o Marte, tabla de `dt` (cuatro valores), resultado de Euler, resultado exacto y error relativo; comprobación de que el error relativo es `dt/t`; y una frase sobre el límite del modelo.

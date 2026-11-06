@@ -5,7 +5,7 @@
 Datos: configuraciones de EJEMPLO (apertura D, distancia focal F, oculares), no productos reales. Modelo (SIMULADO):
 razón focal N = F/D; aumento M = F/f_ocular; pupila de salida = D/M; campo real = campo aparente/M (campo aparente SUPUESTO de
 50 grados); poder separador teórico de Rayleigh theta = 1,22 lambda/D con lambda = 550 nm (ecuación estándar de difracción; se
-desarrolla en B26 y no se verificó en una fuente de esta clase); tamaño lunar mínimo resuelto = distancia x theta, con la
+desarrolla en B42 y no se verificó en una fuente de esta clase); tamaño lunar mínimo resuelto = distancia x theta, con la
 distancia de la Luna del 5-nov-2025 a las 12:00 UT (357 024 km, NASA SVS 5415). Ganancia ideal en magnitud: 5 log10(D/7 mm) (C11).
 Dominio: fuente puntual y óptica perfecta; la turbulencia y la calidad real empeoran el resultado. Tolerancia: 1e-9 en casos analíticos.
 Prueba independiente: D = 100 mm, lambda = 550 nm -> 1,384 segundos de arco (cálculo a mano); un telescopio con M = 2 D(mm)

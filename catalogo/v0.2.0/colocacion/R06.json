@@ -11,7 +11,7 @@
           "destino": "existente",
           "tronco": [
             "B06-C08",
-            "B36-C03"
+            "B55-C03"
           ]
         },
         {
@@ -30,8 +30,8 @@
           "tema": "Reacciones ion-molécula",
           "destino": "existente",
           "tronco": [
-            "B36-C03",
-            "B36-C04"
+            "B55-C03",
+            "B55-C04"
           ]
         },
         {
@@ -39,7 +39,7 @@
           "tema": "Reacciones fotolíticas",
           "destino": "existente",
           "tronco": [
-            "B36-C08",
+            "B55-C08",
             "B06-C18"
           ]
         },
@@ -48,8 +48,8 @@
           "tema": "Química de fase gaseosa",
           "destino": "existente",
           "tronco": [
-            "B36-C04",
-            "B36-C03"
+            "B55-C04",
+            "B55-C03"
           ]
         },
         {
@@ -69,7 +69,7 @@
           "destino": "existente",
           "tronco": [
             "B06-C13",
-            "B36-C04"
+            "B55-C04"
           ]
         },
         {
@@ -77,7 +77,7 @@
           "tema": "Redes de reacción",
           "destino": "existente",
           "tronco": [
-            "B36-C20"
+            "B55-C20"
           ]
         },
         {
@@ -96,8 +96,8 @@
           "tema": "Validación con abundancias observadas",
           "destino": "existente",
           "tronco": [
-            "B36-C19",
-            "B36-C10",
+            "B55-C19",
+            "B55-C10",
             "B12-C10"
           ]
         }
@@ -115,7 +115,7 @@
             "area": "A05",
             "bloque": "nuevo: Espectroscopía molecular para astroquímica",
             "titulo": "Espectros rotacionales de moléculas: niveles y reglas de selección",
-            "necesidad": "B06-C17 y B30-C12 son visión general; falta el rotor rígido, sus niveles y reglas de selección."
+            "necesidad": "B06-C17 y B46-C12 son visión general; falta el rotor rígido, sus niveles y reglas de selección."
           }
         },
         {
@@ -170,7 +170,7 @@
             "area": "A05",
             "bloque": "nuevo: Espectroscopía molecular para astroquímica",
             "titulo": "Ensanchamiento de líneas moleculares: natural, Doppler y por presión",
-            "necesidad": "B29-C12 trata el efecto Doppler; no los mecanismos de ensanchamiento de línea."
+            "necesidad": "B45-C12 trata el efecto Doppler; no los mecanismos de ensanchamiento de línea."
           }
         },
         {
@@ -189,8 +189,8 @@
           "tema": "Identificación de líneas",
           "destino": "existente",
           "tronco": [
-            "B36-C10",
-            "B36-C09"
+            "B55-C10",
+            "B55-C09"
           ]
         },
         {
@@ -209,7 +209,7 @@
           "tema": "Incertidumbre de identificación",
           "destino": "existente",
           "tronco": [
-            "B36-C19",
+            "B55-C19",
             "B12-C09",
             "B12-C16"
           ]
@@ -225,8 +225,8 @@
           "tema": "Composición de granos",
           "destino": "existente",
           "tronco": [
-            "B36-C05",
-            "B18-C04"
+            "B55-C05",
+            "B25-C04"
           ]
         },
         {
@@ -234,8 +234,8 @@
           "tema": "Adsorción molecular",
           "destino": "existente",
           "tronco": [
-            "B36-C07",
-            "B36-C05"
+            "B55-C07",
+            "B55-C05"
           ]
         },
         {
@@ -246,7 +246,7 @@
             "area": "A05",
             "bloque": "nuevo: Química de granos y hielos interestelares",
             "titulo": "Desorción térmica de hielos interestelares",
-            "necesidad": "B36-C06 describe hielos; falta la desorción térmica y su cinética."
+            "necesidad": "B55-C06 describe hielos; falta la desorción térmica y su cinética."
           }
         },
         {
@@ -265,7 +265,7 @@
           "tema": "Reacciones superficiales",
           "destino": "existente",
           "tronco": [
-            "B36-C07"
+            "B55-C07"
           ]
         },
         {
@@ -273,7 +273,7 @@
           "tema": "Hielos mixtos",
           "destino": "existente",
           "tronco": [
-            "B36-C06"
+            "B55-C06"
           ]
         },
         {
@@ -292,8 +292,8 @@
           "tema": "Crecimiento del polvo",
           "destino": "existente",
           "tronco": [
-            "B33-C03",
-            "B18-C04"
+            "B52-C03",
+            "B25-C04"
           ]
         },
         {
@@ -315,7 +315,7 @@
             "area": "A05",
             "bloque": "nuevo: Cinética y modelado astroquímico",
             "titulo": "Balance químico gas-grano: modelos de tres fases",
-            "necesidad": "B36-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases."
+            "necesidad": "B55-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases."
           }
         }
       ]
@@ -330,7 +330,7 @@
           "destino": "existente",
           "tronco": [
             "B06-C16",
-            "B36-C10"
+            "B55-C10"
           ]
         },
         {
@@ -338,8 +338,8 @@
           "tema": "Nucleótidos y precursores",
           "destino": "existente",
           "tronco": [
-            "B36-C17",
-            "B37-C03"
+            "B55-C17",
+            "B56-C03"
           ]
         },
         {
@@ -347,8 +347,8 @@
           "tema": "Aminoácidos de origen no biológico",
           "destino": "existente",
           "tronco": [
-            "B36-C17",
-            "B36-C12"
+            "B55-C17",
+            "B55-C12"
           ]
         },
         {
@@ -356,8 +356,8 @@
           "tema": "Química hidrotermal",
           "destino": "existente",
           "tronco": [
-            "B36-C16",
-            "B37-C07"
+            "B55-C16",
+            "B56-C07"
           ]
         },
         {
@@ -365,7 +365,7 @@
           "tema": "Ciclos de energía y gradientes",
           "destino": "existente",
           "tronco": [
-            "B37-C07"
+            "B56-C07"
           ]
         },
         {
@@ -373,8 +373,8 @@
           "tema": "Síntesis abiótica",
           "destino": "existente",
           "tronco": [
-            "B37-C04",
-            "B36-C17"
+            "B56-C04",
+            "B55-C17"
           ]
         },
         {
@@ -382,7 +382,7 @@
           "tema": "Autoorganización molecular",
           "destino": "existente",
           "tronco": [
-            "B37-C03"
+            "B56-C03"
           ]
         },
         {
@@ -391,9 +391,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B37",
+            "bloque": "B56",
             "titulo": "Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio",
-            "necesidad": "B37-C03 trata el origen de autorreplicantes; ninguna clase trata la polimerización experimental y sus límites."
+            "necesidad": "B56-C03 trata el origen de autorreplicantes; ninguna clase trata la polimerización experimental y sus límites."
           }
         },
         {
@@ -401,9 +401,9 @@
           "tema": "Falsos positivos prebióticos",
           "destino": "existente",
           "tronco": [
-            "B37-C15",
-            "B36-C19",
-            "B36-C18"
+            "B56-C15",
+            "B55-C19",
+            "B55-C18"
           ]
         },
         {
@@ -411,8 +411,8 @@
           "tema": "Evaluación de hipótesis de origen",
           "destino": "existente",
           "tronco": [
-            "B37-C04",
-            "B37-C01"
+            "B56-C04",
+            "B56-C01"
           ]
         }
       ]
@@ -429,7 +429,7 @@
             "area": "A05",
             "bloque": "nuevo: Extremófilos y límites de la vida",
             "titulo": "Radiotolerancia biológica y reparación del ADN",
-            "necesidad": "B37-C05 es visión general; falta la radiotolerancia y su reparación del ADN."
+            "necesidad": "B56-C05 es visión general; falta la radiotolerancia y su reparación del ADN."
           }
         },
         {
@@ -481,8 +481,8 @@
           "tema": "Metabolismos quimiolitotróficos",
           "destino": "existente",
           "tronco": [
-            "B37-C07",
-            "B37-C02"
+            "B56-C07",
+            "B56-C02"
           ]
         },
         {
@@ -501,8 +501,8 @@
           "tema": "Energética microbiana",
           "destino": "existente",
           "tronco": [
-            "B37-C07",
-            "B37-C02"
+            "B56-C07",
+            "B56-C02"
           ]
         },
         {
@@ -521,9 +521,9 @@
           "tema": "Extrapolación y límites planetarios",
           "destino": "existente",
           "tronco": [
-            "B37-C05",
-            "B37-C06",
-            "B37-C08"
+            "B56-C05",
+            "B56-C06",
+            "B56-C08"
           ]
         }
       ]
@@ -537,8 +537,8 @@
           "tema": "Interior de Europa",
           "destino": "existente",
           "tronco": [
-            "B34-C14",
-            "B37-C09"
+            "B53-C14",
+            "B56-C09"
           ]
         },
         {
@@ -546,8 +546,8 @@
           "tema": "Interior de Encélado",
           "destino": "existente",
           "tronco": [
-            "B34-C15",
-            "B37-C10"
+            "B53-C15",
+            "B56-C10"
           ]
         },
         {
@@ -558,7 +558,7 @@
             "area": "A05",
             "bloque": "nuevo: Geofísica de interiores planetarios",
             "titulo": "Calentamiento por marea y equilibrio térmico en satélites",
-            "necesidad": "B42-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado)."
+            "necesidad": "B72-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado)."
           }
         },
         {
@@ -566,7 +566,7 @@
           "tema": "Química oceánica",
           "destino": "existente",
           "tronco": [
-            "B36-C15"
+            "B55-C15"
           ]
         },
         {
@@ -574,8 +574,8 @@
           "tema": "Interacción agua-roca",
           "destino": "existente",
           "tronco": [
-            "B36-C16",
-            "B36-C15"
+            "B55-C16",
+            "B55-C15"
           ]
         },
         {
@@ -583,8 +583,8 @@
           "tema": "Plumas y emisiones",
           "destino": "existente",
           "tronco": [
-            "B34-C15",
-            "B37-C10"
+            "B53-C15",
+            "B56-C10"
           ]
         },
         {
@@ -592,8 +592,8 @@
           "tema": "Fuentes de energía químicas",
           "destino": "existente",
           "tronco": [
-            "B37-C07",
-            "B36-C16"
+            "B56-C07",
+            "B55-C16"
           ]
         },
         {
@@ -612,9 +612,9 @@
           "tema": "Contaminación biológica",
           "destino": "existente",
           "tronco": [
-            "B37-C17",
-            "B37-C18",
-            "B36-C18"
+            "B56-C17",
+            "B56-C18",
+            "B55-C18"
           ]
         },
         {
@@ -622,9 +622,9 @@
           "tema": "Priorización de objetivos científicos",
           "destino": "existente",
           "tronco": [
-            "B37-C20",
-            "B37-C09",
-            "B37-C10"
+            "B56-C20",
+            "B56-C09",
+            "B56-C10"
           ]
         }
       ]
@@ -638,8 +638,8 @@
           "tema": "Gases con potencial biológico",
           "destino": "existente",
           "tronco": [
-            "B37-C13",
-            "B22-C11"
+            "B56-C13",
+            "B29-C11"
           ]
         },
         {
@@ -647,8 +647,8 @@
           "tema": "Combinaciones de biofirmas",
           "destino": "existente",
           "tronco": [
-            "B37-C13",
-            "B37-C14"
+            "B56-C13",
+            "B56-C14"
           ]
         },
         {
@@ -656,8 +656,8 @@
           "tema": "Contexto geoquímico",
           "destino": "existente",
           "tronco": [
-            "B37-C15",
-            "B36-C19"
+            "B56-C15",
+            "B55-C19"
           ]
         },
         {
@@ -665,7 +665,7 @@
           "tema": "Fotosíntesis y espectros",
           "destino": "existente",
           "tronco": [
-            "B37-C14"
+            "B56-C14"
           ]
         },
         {
@@ -673,8 +673,8 @@
           "tema": "Falsos positivos atmosféricos",
           "destino": "existente",
           "tronco": [
-            "B37-C15",
-            "B35-C10"
+            "B56-C15",
+            "B54-C10"
           ]
         },
         {
@@ -682,7 +682,7 @@
           "tema": "Señales de actividad tecnológica",
           "destino": "existente",
           "tronco": [
-            "B37-C16"
+            "B56-C16"
           ]
         },
         {
@@ -690,8 +690,8 @@
           "tema": "Radio SETI",
           "destino": "existente",
           "tronco": [
-            "B37-C16",
-            "B30-C01"
+            "B56-C16",
+            "B46-C01"
           ]
         },
         {
@@ -699,7 +699,7 @@
           "tema": "Artefactos de datos",
           "destino": "existente",
           "tronco": [
-            "B21-C14",
+            "B28-C14",
             "B15-C03",
             "B13-C04"
           ]
@@ -710,7 +710,7 @@
           "destino": "existente",
           "tronco": [
             "B12-C09",
-            "B21-C13"
+            "B28-C13"
           ]
         },
         {
@@ -718,8 +718,8 @@
           "tema": "Evaluación de evidencias extraordinarias",
           "destino": "existente",
           "tronco": [
-            "B24-C20",
-            "B37-C19"
+            "B31-C20",
+            "B56-C19"
           ]
         }
       ]
@@ -733,7 +733,7 @@
           "tema": "Categorías COSPAR",
           "destino": "existente",
           "tronco": [
-            "B37-C18"
+            "B56-C18"
           ]
         },
         {
@@ -744,7 +744,7 @@
             "area": "A05",
             "bloque": "nuevo: Exploración in situ y análisis de muestras planetarias",
             "titulo": "Misiones de retorno de muestras: salvaguardas históricas y regulatorias",
-            "necesidad": "B37-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio)."
+            "necesidad": "B56-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio)."
           }
         },
         {
@@ -753,9 +753,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B56",
+            "bloque": "B90",
             "titulo": "Biocarga de naves espaciales: verificación y requisitos normativos",
-            "necesidad": "B56-C04 trata contaminación en integración; falta la verificación de biocarga según normas de protección planetaria."
+            "necesidad": "B90-C04 trata contaminación en integración; falta la verificación de biocarga según normas de protección planetaria."
           }
         },
         {
@@ -764,9 +764,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B56",
+            "bloque": "B90",
             "titulo": "Validación de procesos de reducción de biocarga",
-            "necesidad": "B56 no trata la validación de procesos de reducción de biocarga."
+            "necesidad": "B90 no trata la validación de procesos de reducción de biocarga."
           }
         },
         {
@@ -774,8 +774,8 @@
           "tema": "Restricciones de aterrizaje",
           "destino": "existente",
           "tronco": [
-            "B37-C18",
-            "B63-C01"
+            "B56-C18",
+            "B119-C01"
           ]
         },
         {
@@ -805,8 +805,8 @@
           "tema": "Documentación de conformidad",
           "destino": "existente",
           "tronco": [
-            "B56-C18",
-            "B63-C08"
+            "B90-C18",
+            "B119-C08"
           ]
         },
         {
@@ -814,8 +814,8 @@
           "tema": "Gestión de incumplimientos",
           "destino": "existente",
           "tronco": [
-            "B56-C17",
-            "B63-C10"
+            "B90-C17",
+            "B119-C10"
           ]
         },
         {
@@ -823,8 +823,8 @@
           "tema": "Protocolo de protección conceptual",
           "destino": "existente",
           "tronco": [
-            "B37-C18",
-            "B37-C20"
+            "B56-C18",
+            "B56-C20"
           ]
         }
       ]

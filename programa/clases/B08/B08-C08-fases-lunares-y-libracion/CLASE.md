@@ -78,7 +78,7 @@ El diámetro angular es `θ = 2 arctan(R_L/d)`, con `R_L = 1737,4 km` (S2). A 38
 
 ### 8.4 Libración
 
-Como la rotación es sincrónica, ves siempre la misma cara, pero las tablas de la NASA muestran el punto de la Luna que mira a la Tierra (el «punto subterrestre») moviéndose: en 2025 su longitud selenográfica varió entre −7,7° y +8,0°, y su latitud entre −6,8° y +6,9°. Esos balanceos (libración) permiten ver unos grados más allá del borde y explican que se vea «un poco más de la mitad» de la superficie (S3). La causa del vaivén (una órbita no circular e inclinada, y la inclinación del eje) es una explicación estándar que no se consultó en una fuente de esta clase y se verá en B41.
+Como la rotación es sincrónica, ves siempre la misma cara, pero las tablas de la NASA muestran el punto de la Luna que mira a la Tierra (el «punto subterrestre») moviéndose: en 2025 su longitud selenográfica varió entre −7,7° y +8,0°, y su latitud entre −6,8° y +6,9°. Esos balanceos (libración) permiten ver unos grados más allá del borde y explican que se vea «un poco más de la mitad» de la superficie (S3). La causa del vaivén (una órbita no circular e inclinada, y la inclinación del eje) es una explicación estándar que no se consultó en una fuente de esta clase y se verá en B71.
 
 ## 9. Magnitudes, símbolos y unidades
 

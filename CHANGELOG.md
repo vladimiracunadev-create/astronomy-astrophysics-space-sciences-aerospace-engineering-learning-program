@@ -8,7 +8,7 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 - Estructura unificada: todo el contenido vive en áreas y bloques. Los 192 módulos de las rutas se ubicaron en el tronco (1.920 temas: 1.101 en clases existentes y 819 en clases programadas).
 - Programa de 12 áreas, 133 bloques y 2.077 clases (1.280 de la línea base y 797 programadas, sin redactar). `PROGRAMA_ACADEMICO_COMPLETO.md` y el README se reescribieron.
-- Los bloques B57–B64 pasan a las áreas A08 a A11. Ningún ID se borra ni se renumera; los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias.
+- Los bloques de la línea base B57–B64 pasan a las áreas A08 a A11 y todos los bloques se numeran de forma consecutiva (B01–B133) siguiendo el orden de las áreas, por autorización del autor (2026-11-05). El prefijo de bloque cambia en las clases (por ejemplo, B17-C01 pasa a ser B24-C01); la tabla anterior→nuevo está en `catalogo/v0.2.0/numeracion_bloques.json`. Ninguna clase se borra; los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias.
 - Las rutas profesionales son recorridos sobre áreas y bloques (`metadatos/recorridos/`).
 
 ### Añadido

@@ -10,8 +10,8 @@
           "tema": "Espectroscopía de minerales",
           "destino": "existente",
           "tronco": [
-            "B34-C17",
-            "B29-C14"
+            "B53-C17",
+            "B45-C14"
           ]
         },
         {
@@ -20,9 +20,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Imágenes hiperespectrales de superficies planetarias",
-            "necesidad": "B38-C05 trata imágenes multiespectrales terrestres y B34-C17 la mineralogía; ninguna enseña cubos hiperespectrales y su análisis en cuerpos planetarios."
+            "necesidad": "B57-C05 trata imágenes multiespectrales terrestres y B53-C17 la mineralogía; ninguna enseña cubos hiperespectrales y su análisis en cuerpos planetarios."
           }
         },
         {
@@ -30,9 +30,9 @@
           "tema": "Cartografía de regolito",
           "destino": "existente",
           "tronco": [
-            "B34-C08",
-            "B34-C18",
-            "B40-C04"
+            "B53-C08",
+            "B53-C18",
+            "B59-C04"
           ]
         },
         {
@@ -40,8 +40,8 @@
           "tema": "Altimetría de terreno",
           "destino": "existente",
           "tronco": [
-            "B34-C07",
-            "B38-C09"
+            "B53-C07",
+            "B57-C09"
           ]
         },
         {
@@ -50,9 +50,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Radar de penetración subsuperficial en cuerpos planetarios",
-            "necesidad": "B38-C07 y B39-C12 tratan SAR y radar planetario de superficie; ninguna clase cubre el sondeo del subsuelo."
+            "necesidad": "B57-C07 y B58-C12 tratan SAR y radar planetario de superficie; ninguna clase cubre el sondeo del subsuelo."
           }
         },
         {
@@ -60,8 +60,8 @@
           "tema": "Prospección de volátiles",
           "destino": "existente",
           "tronco": [
-            "B40-C02",
-            "B40-C03"
+            "B59-C02",
+            "B59-C03"
           ]
         },
         {
@@ -69,7 +69,7 @@
           "tema": "Incertidumbre geológica",
           "destino": "existente",
           "tronco": [
-            "B34-C19"
+            "B53-C19"
           ]
         },
         {
@@ -80,7 +80,7 @@
             "area": "A05",
             "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
             "titulo": "Selección de sitios de extracción con criterios múltiples",
-            "necesidad": "Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B40 no trata la selección."
+            "necesidad": "Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B59 no trata la selección."
           }
         },
         {
@@ -88,8 +88,8 @@
           "tema": "Evaluación ambiental",
           "destino": "existente",
           "tronco": [
-            "B40-C17",
-            "B37-C18"
+            "B59-C17",
+            "B56-C18"
           ]
         },
         {
@@ -114,8 +114,8 @@
           "tema": "Hielo en cráteres sombreados",
           "destino": "existente",
           "tronco": [
-            "B40-C02",
-            "B34-C13"
+            "B59-C02",
+            "B53-C13"
           ]
         },
         {
@@ -123,8 +123,8 @@
           "tema": "Hidratación de minerales",
           "destino": "existente",
           "tronco": [
-            "B40-C03",
-            "B34-C17"
+            "B59-C03",
+            "B53-C17"
           ]
         },
         {
@@ -132,8 +132,8 @@
           "tema": "Volátiles en regolito",
           "destino": "existente",
           "tronco": [
-            "B40-C03",
-            "B40-C06"
+            "B59-C03",
+            "B59-C06"
           ]
         },
         {
@@ -144,7 +144,7 @@
             "area": "A05",
             "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
             "titulo": "Muestreo criogénico y preservación de volátiles en muestras",
-            "necesidad": "Cubre toma y conservación de muestras sin pérdida de volátiles; B36-C18 trata solo contaminación de muestras."
+            "necesidad": "Cubre toma y conservación de muestras sin pérdida de volátiles; B55-C18 trata solo contaminación de muestras."
           }
         },
         {
@@ -177,7 +177,7 @@
             "area": "A05",
             "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
             "titulo": "Pérdida de volátiles por sublimación y migración térmica",
-            "necesidad": "Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B40 ni B51."
+            "necesidad": "Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B59 ni B85."
           }
         },
         {
@@ -186,9 +186,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B40",
+            "bloque": "B59",
             "titulo": "Almacenamiento criogénico y aislado de volátiles extraídos",
-            "necesidad": "B51-C17 trata criogenia de instrumentos; ninguna clase cubre almacenar volátiles extraídos con aislamiento y mínima pérdida."
+            "necesidad": "B85-C17 trata criogenia de instrumentos; ninguna clase cubre almacenar volátiles extraídos con aislamiento y mínima pérdida."
           }
         },
         {
@@ -199,7 +199,7 @@
             "area": "A05",
             "bloque": "nuevo: Prospección y evaluación de reservas de recursos extraterrestres",
             "titulo": "Sensores para volátiles: espectrometría de neutrones y de masas",
-            "necesidad": "Aporta los sensores que detectan y cuantifican volátiles; B28-C02 y B53-C04 no los tratan."
+            "necesidad": "Aporta los sensores que detectan y cuantifican volátiles; B44-C02 y B87-C04 no los tratan."
           }
         },
         {
@@ -225,9 +225,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B40",
+            "bloque": "B59",
             "titulo": "Beneficio y separación granulométrica de regolito",
-            "necesidad": "Cubre tamizado y separación por tamaño o propiedades; B40-C04 caracteriza regolito pero no el beneficio previo al procesamiento."
+            "necesidad": "Cubre tamizado y separación por tamaño o propiedades; B59-C04 caracteriza regolito pero no el beneficio previo al procesamiento."
           }
         },
         {
@@ -235,8 +235,8 @@
           "tema": "Procesamiento de regolito",
           "destino": "existente",
           "tronco": [
-            "B40-C06",
-            "B40-C08"
+            "B59-C06",
+            "B59-C08"
           ]
         },
         {
@@ -244,8 +244,8 @@
           "tema": "Extracción de agua conceptual",
           "destino": "existente",
           "tronco": [
-            "B40-C06",
-            "B40-C07"
+            "B59-C06",
+            "B59-C07"
           ]
         },
         {
@@ -253,7 +253,7 @@
           "tema": "Purificación de recursos",
           "destino": "existente",
           "tronco": [
-            "B40-C07"
+            "B59-C07"
           ]
         },
         {
@@ -261,8 +261,8 @@
           "tema": "Procesamiento electroquímico",
           "destino": "existente",
           "tronco": [
-            "B40-C10",
-            "B40-C08"
+            "B59-C10",
+            "B59-C08"
           ]
         },
         {
@@ -270,7 +270,7 @@
           "tema": "Producción de oxígeno",
           "destino": "existente",
           "tronco": [
-            "B40-C08"
+            "B59-C08"
           ]
         },
         {
@@ -278,7 +278,7 @@
           "tema": "Análisis energético",
           "destino": "existente",
           "tronco": [
-            "B40-C10"
+            "B59-C10"
           ]
         },
         {
@@ -287,9 +287,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B40",
+            "bloque": "B59",
             "titulo": "Subproductos y flujos residuales de procesos ISRU",
-            "necesidad": "Enseña a aprovechar o gestionar los subproductos (metales, escoria, gases); B40-C16 solo trata desechos de tripulación."
+            "necesidad": "Enseña a aprovechar o gestionar los subproductos (metales, escoria, gases); B59-C16 solo trata desechos de tripulación."
           }
         },
         {
@@ -297,7 +297,7 @@
           "tema": "Sistemas cerrados",
           "destino": "existente",
           "tronco": [
-            "B40-C15"
+            "B59-C15"
           ]
         },
         {
@@ -305,7 +305,7 @@
           "tema": "Balance de proceso ISRU",
           "destino": "existente",
           "tronco": [
-            "B40-C20"
+            "B59-C20"
           ]
         }
       ]
@@ -319,8 +319,8 @@
           "tema": "Rovers de prospección",
           "destino": "existente",
           "tronco": [
-            "B61-C01",
-            "B40-C02"
+            "B97-C01",
+            "B59-C02"
           ]
         },
         {
@@ -329,9 +329,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B61",
+            "bloque": "B97",
             "titulo": "Excavación y manejo de regolito con robots",
-            "necesidad": "B61-C06 trata movilidad y C10 manipulación; ninguna enseña excavación, carga y acarreo de regolito."
+            "necesidad": "B97-C06 trata movilidad y C10 manipulación; ninguna enseña excavación, carga y acarreo de regolito."
           }
         },
         {
@@ -339,7 +339,7 @@
           "tema": "Movilidad en regolito",
           "destino": "existente",
           "tronco": [
-            "B61-C06"
+            "B97-C06"
           ]
         },
         {
@@ -347,8 +347,8 @@
           "tema": "Manipulación de muestras",
           "destino": "existente",
           "tronco": [
-            "B61-C10",
-            "B36-C18"
+            "B97-C10",
+            "B55-C18"
           ]
         },
         {
@@ -356,8 +356,8 @@
           "tema": "Autonomía de transporte",
           "destino": "existente",
           "tronco": [
-            "B61-C16",
-            "B61-C08"
+            "B97-C16",
+            "B97-C08"
           ]
         },
         {
@@ -366,9 +366,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B61",
+            "bloque": "B97",
             "titulo": "Monitoreo de condición de maquinaria extraterrestre",
-            "necesidad": "Aporta sensores y diagnóstico de salud de excavadoras y rovers; B61-C03 trata percepción, no monitoreo de condición."
+            "necesidad": "Aporta sensores y diagnóstico de salud de excavadoras y rovers; B97-C03 trata percepción, no monitoreo de condición."
           }
         },
         {
@@ -376,7 +376,7 @@
           "tema": "Gestión de polvo",
           "destino": "existente",
           "tronco": [
-            "B51-C16"
+            "B85-C16"
           ]
         },
         {
@@ -385,9 +385,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Desgaste abrasivo por regolito en mecanismos",
-            "necesidad": "B50-C14 trata rodamientos y lubricación; el desgaste abrasivo por polvo lunar no está cubierto."
+            "necesidad": "B84-C14 trata rodamientos y lubricación; el desgaste abrasivo por polvo lunar no está cubierto."
           }
         },
         {
@@ -395,7 +395,7 @@
           "tema": "Seguridad robótica",
           "destino": "existente",
           "tronco": [
-            "B61-C17"
+            "B97-C17"
           ]
         },
         {
@@ -404,9 +404,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B61",
+            "bloque": "B97",
             "titulo": "Simulación de productividad de flotas de maquinaria",
-            "necesidad": "Enseña a estimar productividad con simulación; B61-C20 integra una misión robótica sin métricas de producción."
+            "necesidad": "Enseña a estimar productividad con simulación; B97-C20 integra una misión robótica sin métricas de producción."
           }
         }
       ]
@@ -420,8 +420,8 @@
           "tema": "Energía solar superficial",
           "destino": "existente",
           "tronco": [
-            "B52-C02",
-            "B52-C03"
+            "B86-C02",
+            "B86-C03"
           ]
         },
         {
@@ -429,8 +429,8 @@
           "tema": "Almacenamiento electroquímico",
           "destino": "existente",
           "tronco": [
-            "B52-C05",
-            "B52-C06"
+            "B86-C05",
+            "B86-C06"
           ]
         },
         {
@@ -439,9 +439,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B52",
+            "bloque": "B86",
             "titulo": "Suministro de energía durante la noche lunar",
-            "necesidad": "B52-C13 trata eclipses orbitales de horas; la noche lunar de unos 14 días exige otra estrategia."
+            "necesidad": "B86-C13 trata eclipses orbitales de horas; la noche lunar de unos 14 días exige otra estrategia."
           }
         },
         {
@@ -449,9 +449,9 @@
           "tema": "Generadores alternativos conceptuales",
           "destino": "existente",
           "tronco": [
-            "B52-C15",
-            "B52-C16",
-            "B52-C17"
+            "B86-C15",
+            "B86-C16",
+            "B86-C17"
           ]
         },
         {
@@ -459,8 +459,8 @@
           "tema": "Distribución de potencia",
           "destino": "existente",
           "tronco": [
-            "B52-C07",
-            "B52-C08"
+            "B86-C07",
+            "B86-C08"
           ]
         },
         {
@@ -468,9 +468,9 @@
           "tema": "Gestión térmica",
           "destino": "existente",
           "tronco": [
-            "B51-C07",
-            "B51-C10",
-            "B51-C08"
+            "B85-C07",
+            "B85-C10",
+            "B85-C08"
           ]
         },
         {
@@ -479,9 +479,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B52",
+            "bloque": "B86",
             "titulo": "Priorización y deslastre de cargas eléctricas",
-            "necesidad": "Aporta la lógica de cargas prioritarias en escasez de energía; B52-C07 trata distribución sin priorización."
+            "necesidad": "Aporta la lógica de cargas prioritarias en escasez de energía; B86-C07 trata distribución sin priorización."
           }
         },
         {
@@ -489,8 +489,8 @@
           "tema": "Mantenimiento energético",
           "destino": "existente",
           "tronco": [
-            "B61-C12",
-            "B52-C14"
+            "B97-C12",
+            "B86-C14"
           ]
         },
         {
@@ -498,8 +498,8 @@
           "tema": "Riesgo de disponibilidad",
           "destino": "existente",
           "tronco": [
-            "B49-C16",
-            "B52-C11"
+            "B83-C16",
+            "B86-C11"
           ]
         },
         {
@@ -507,8 +507,8 @@
           "tema": "Dimensionamiento de energía de planta",
           "destino": "existente",
           "tronco": [
-            "B52-C19",
-            "B49-C10"
+            "B86-C19",
+            "B83-C10"
           ]
         }
       ]
@@ -522,7 +522,7 @@
           "tema": "Sinterización de regolito",
           "destino": "existente",
           "tronco": [
-            "B40-C12"
+            "B59-C12"
           ]
         },
         {
@@ -530,9 +530,9 @@
           "tema": "Impresión aditiva",
           "destino": "existente",
           "tronco": [
-            "B40-C13",
-            "B50-C15",
-            "B61-C15"
+            "B59-C13",
+            "B84-C15",
+            "B97-C15"
           ]
         },
         {
@@ -541,9 +541,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Compuestos y aglomerantes a base de regolito",
-            "necesidad": "B50-C03 trata compuestos terrestres; no hay clase sobre materiales compuestos con regolito."
+            "necesidad": "B84-C03 trata compuestos terrestres; no hay clase sobre materiales compuestos con regolito."
           }
         },
         {
@@ -552,9 +552,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B50",
+            "bloque": "B84",
             "titulo": "Producción de piezas y repuestos con materia prima in situ",
-            "necesidad": "Cubre la cadena desde regolito hasta pieza funcional; B40-C13 imprime estructuras sin cubrir repuestos."
+            "necesidad": "Cubre la cadena desde regolito hasta pieza funcional; B59-C13 imprime estructuras sin cubrir repuestos."
           }
         },
         {
@@ -562,7 +562,7 @@
           "tema": "Tolerancias de fabricación",
           "destino": "existente",
           "tronco": [
-            "B50-C16"
+            "B84-C16"
           ]
         },
         {
@@ -570,8 +570,8 @@
           "tema": "Control de defectos",
           "destino": "existente",
           "tronco": [
-            "B50-C08",
-            "B50-C18"
+            "B84-C08",
+            "B84-C18"
           ]
         },
         {
@@ -579,8 +579,8 @@
           "tema": "Reciclaje de materiales",
           "destino": "existente",
           "tronco": [
-            "B40-C15",
-            "B40-C16"
+            "B59-C15",
+            "B59-C16"
           ]
         },
         {
@@ -588,7 +588,7 @@
           "tema": "Inspección no destructiva",
           "destino": "existente",
           "tronco": [
-            "B50-C19"
+            "B84-C19"
           ]
         },
         {
@@ -607,9 +607,9 @@
           "tema": "Propuesta de manufactura espacial",
           "destino": "existente",
           "tronco": [
-            "B64-C04",
-            "B64-C19",
-            "B50-C15"
+            "B124-C04",
+            "B124-C19",
+            "B84-C15"
           ]
         }
       ]
@@ -626,7 +626,7 @@
             "area": "A08",
             "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
             "titulo": "Dimensionamiento de carga y volumen de misión",
-            "necesidad": "Aporta el cálculo de masa y volumen de carga por misión; B49-C09 solo trata presupuestos de masa del vehículo."
+            "necesidad": "Aporta el cálculo de masa y volumen de carga por misión; B83-C09 solo trata presupuestos de masa del vehículo."
           }
         },
         {
@@ -634,8 +634,8 @@
           "tema": "Ventanas de transporte",
           "destino": "existente",
           "tronco": [
-            "B45-C03",
-            "B45-C09"
+            "B75-C03",
+            "B75-C09"
           ]
         },
         {
@@ -654,8 +654,8 @@
           "tema": "Repuestos críticos",
           "destino": "existente",
           "tronco": [
-            "B61-C19",
-            "B49-C16"
+            "B97-C19",
+            "B83-C16"
           ]
         },
         {
@@ -666,7 +666,7 @@
             "area": "A08",
             "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
             "titulo": "Almacenamiento remoto y depósitos de suministros",
-            "necesidad": "Enseña depósitos de larga duración y su degradación; B60-C11 solo trata alimentos."
+            "necesidad": "Enseña depósitos de larga duración y su degradación; B106-C11 solo trata alimentos."
           }
         },
         {
@@ -677,7 +677,7 @@
             "area": "A08",
             "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
             "titulo": "Transporte de carga sobre superficie planetaria",
-            "necesidad": "Aporta vehículos de carga, rutas y energía de transporte; B61-C06 trata solo movilidad robótica."
+            "necesidad": "Aporta vehículos de carga, rutas y energía de transporte; B97-C06 trata solo movilidad robótica."
           }
         },
         {
@@ -685,9 +685,9 @@
           "tema": "Gestión de fallas",
           "destino": "existente",
           "tronco": [
-            "B49-C16",
-            "B57-C14",
-            "B60-C18"
+            "B83-C16",
+            "B96-C14",
+            "B106-C18"
           ]
         },
         {
@@ -698,7 +698,7 @@
             "area": "A08",
             "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
             "titulo": "Logística cislunar: nodos, depósitos y rutas de reabastecimiento",
-            "necesidad": "B46 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa."
+            "necesidad": "B76 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa."
           }
         },
         {
@@ -709,7 +709,7 @@
             "area": "A08",
             "bloque": "nuevo: Logística y cadena de suministro extraterrestre",
             "titulo": "Dependencia de suministros terrestres y cierre de lazos logísticos",
-            "necesidad": "Cuantifica qué parte de los suministros debe venir de la Tierra; B40-C15 trata ciclo cerrado de materiales."
+            "necesidad": "Cuantifica qué parte de los suministros debe venir de la Tierra; B59-C15 trata ciclo cerrado de materiales."
           }
         },
         {
@@ -717,7 +717,7 @@
           "tema": "Optimización logística conceptual",
           "destino": "existente",
           "tronco": [
-            "B40-C19",
+            "B59-C19",
             "B11-C17"
           ]
         }
@@ -732,8 +732,8 @@
           "tema": "Capacidad tecnológica TRL",
           "destino": "existente",
           "tronco": [
-            "B49-C18",
-            "B48-C19"
+            "B83-C18",
+            "B78-C19"
           ]
         },
         {
@@ -742,9 +742,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B64",
+            "bloque": "B124",
             "titulo": "Costos de transporte por kilogramo a superficie",
-            "necesidad": "B64-C05 estima costos de misión; el costo por kg a órbita y superficie y su sensibilidad no está cubierto."
+            "necesidad": "B124-C05 estima costos de misión; el costo por kg a órbita y superficie y su sensibilidad no está cubierto."
           }
         },
         {
@@ -753,9 +753,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B64",
+            "bloque": "B124",
             "titulo": "CapEx y OpEx de una instalación extraterrestre",
-            "necesidad": "Introduce modelos de costos de capital y operación de una planta; B64-C05 estima solo misión."
+            "necesidad": "Introduce modelos de costos de capital y operación de una planta; B124-C05 estima solo misión."
           }
         },
         {
@@ -763,8 +763,8 @@
           "tema": "Riesgo geológico",
           "destino": "existente",
           "tronco": [
-            "B34-C19",
-            "B49-C16"
+            "B53-C19",
+            "B83-C16"
           ]
         },
         {
@@ -772,8 +772,8 @@
           "tema": "Disponibilidad energética",
           "destino": "existente",
           "tronco": [
-            "B52-C19",
-            "B40-C10"
+            "B86-C19",
+            "B59-C10"
           ]
         },
         {
@@ -781,7 +781,7 @@
           "tema": "Mercados potenciales",
           "destino": "existente",
           "tronco": [
-            "B64-C03"
+            "B124-C03"
           ]
         },
         {
@@ -790,9 +790,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Derecho y marcos de recursos espaciales",
-            "necesidad": "B63 trata tratados generales; ninguna clase enseña la apropiación y uso de recursos (Acuerdos Artemis, leyes nacionales)."
+            "necesidad": "B119 trata tratados generales; ninguna clase enseña la apropiación y uso de recursos (Acuerdos Artemis, leyes nacionales)."
           }
         },
         {
@@ -800,8 +800,8 @@
           "tema": "Sostenibilidad ambiental",
           "destino": "existente",
           "tronco": [
-            "B40-C17",
-            "B40-C15"
+            "B59-C17",
+            "B59-C15"
           ]
         },
         {
@@ -809,9 +809,9 @@
           "tema": "Escenarios financieros",
           "destino": "existente",
           "tronco": [
-            "B64-C05",
-            "B64-C06",
-            "B64-C07"
+            "B124-C05",
+            "B124-C06",
+            "B124-C07"
           ]
         },
         {
@@ -819,9 +819,9 @@
           "tema": "Estudio de viabilidad de instalación",
           "destino": "existente",
           "tronco": [
-            "B40-C19",
-            "B40-C20",
-            "B64-C12"
+            "B59-C19",
+            "B59-C20",
+            "B124-C12"
           ]
         }
       ]

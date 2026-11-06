@@ -128,31 +128,31 @@
       "tipo": "obligatoria",
       "titulo": "Contenido astronómico para enseñar",
       "clases": [
-        "B17-C03",
-        "B17-C06",
-        "B17-C18",
-        "B17-C19",
-        "B18-C01",
-        "B18-C03",
-        "B18-C09",
-        "B18-C18",
-        "B19-C11",
-        "B19-C15",
-        "B20-C03",
-        "B20-C07",
-        "B21-C05",
-        "B22-C01",
-        "B22-C13",
-        "B23-C03",
-        "B23-C04",
-        "B23-C12",
-        "B23-C19",
-        "B33-C01",
-        "B33-C18",
-        "B35-C09",
-        "B37-C12",
-        "B41-C01",
-        "B41-C16"
+        "B24-C03",
+        "B24-C06",
+        "B24-C18",
+        "B24-C19",
+        "B25-C01",
+        "B25-C03",
+        "B25-C09",
+        "B25-C18",
+        "B26-C11",
+        "B26-C15",
+        "B27-C03",
+        "B27-C07",
+        "B28-C05",
+        "B29-C01",
+        "B29-C13",
+        "B30-C03",
+        "B30-C04",
+        "B30-C12",
+        "B30-C19",
+        "B52-C01",
+        "B52-C18",
+        "B54-C09",
+        "B56-C12",
+        "B71-C01",
+        "B71-C16"
       ],
       "capacidad": "Explicar con rigor las estrellas, las galaxias, el Sol, los planetas y los exoplanetas sin simplificar hasta el error.",
       "nota": "Selección panorámica; no sustituye las rutas científicas (R01, R02, R05)."
@@ -200,12 +200,12 @@
       "tipo": "recomendada",
       "titulo": "Observatorios y cielo oscuro",
       "clases": [
-        "B32-C18",
-        "B32-C19",
-        "B62-C16",
-        "B62-C17",
-        "B31-C01",
-        "B58-C01"
+        "B48-C18",
+        "B48-C19",
+        "B118-C16",
+        "B118-C17",
+        "B47-C01",
+        "B104-C01"
       ],
       "capacidad": "Explicar cómo funciona un observatorio, qué es el cielo oscuro y por qué lo amenazan las constelaciones de satélites."
     },
@@ -218,7 +218,7 @@
         "R24-M06-C01..C20"
       ],
       "capacidad": "Diseñar un proyecto ciudadano con control de calidad de datos, consentimiento y publicación de resultados.",
-      "nota": "Repite B32-C19."
+      "nota": "Repite B48-C19."
     },
     {
       "orden": 16,
@@ -236,9 +236,9 @@
       "tipo": "obligatoria",
       "titulo": "Ética, ciencia abierta y comunicación",
       "clases": [
-        "B64-C13",
-        "B64-C14",
-        "B64-C18"
+        "B124-C13",
+        "B124-C14",
+        "B124-C18"
       ],
       "capacidad": "Comunicar ciencia con ética de datos, reproducibilidad y respeto a las fuentes.",
       "nota": "Repite R24-M08; la ruta añade la práctica de divulgación."
@@ -252,7 +252,7 @@
         "R24-M08-C01..C20"
       ],
       "capacidad": "Producir y publicar una pieza de divulgación con fuentes, incertidumbre, visualización y evaluación de comprensión.",
-      "nota": "Repite B64-C18 y B01-C19; es el proyecto final del rol."
+      "nota": "Repite B124-C18 y B01-C19; es el proyecto final del rol."
     },
     {
       "orden": 19,
@@ -260,8 +260,8 @@
       "tipo": "recomendada",
       "titulo": "Proyecto educativo y portafolio",
       "clases": [
-        "B64-C19",
-        "B64-C20"
+        "B124-C19",
+        "B124-C20"
       ],
       "capacidad": "Consolidar un proyecto educativo completo y su portafolio."
     }

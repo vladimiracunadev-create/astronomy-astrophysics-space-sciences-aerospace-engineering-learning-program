@@ -133,17 +133,17 @@
       "tipo": "obligatoria",
       "titulo": "Radiación y partículas",
       "clases": [
-        "B24-C07..C08",
-        "B24-C13..C14",
-        "B23-C03",
-        "B23-C06",
-        "B23-C10",
-        "B23-C12..C16",
-        "B23-C19",
-        "B31-C14"
+        "B31-C07..C08",
+        "B31-C13..C14",
+        "B30-C03",
+        "B30-C06",
+        "B30-C10",
+        "B30-C12..C16",
+        "B30-C19",
+        "B47-C14"
       ],
       "capacidad": "Describir las fuentes de radiación espacial y cómo se mide.",
-      "nota": "Clases de contexto físico; R19-M03 aplica la dosis al cuerpo. B23-C16 y B23-C19 se revisitan en R07 (heliofísica)."
+      "nota": "Clases de contexto físico; R19-M03 aplica la dosis al cuerpo. B30-C16 y B30-C19 se revisitan en R07 (heliofísica)."
     },
     {
       "orden": 11,
@@ -151,7 +151,7 @@
       "tipo": "obligatoria",
       "titulo": "Medicina y biología espacial",
       "clases": [
-        "B59-C01..C20"
+        "B105-C01..C20"
       ],
       "capacidad": "Describir los efectos del vuelo sobre cada sistema del cuerpo y las contramedidas disponibles.",
       "nota": "Es el eje del rol. R19-M01 a R19-M08 profundizan C01 a C17 y C19 con casos y evidencia."
@@ -162,9 +162,9 @@
       "tipo": "obligatoria",
       "titulo": "Hábitats espaciales y soporte vital",
       "clases": [
-        "B60-C01..C09",
-        "B60-C13..C14",
-        "B60-C17"
+        "B106-C01..C09",
+        "B106-C13..C14",
+        "B106-C17"
       ],
       "capacidad": "Relacionar el ambiente de una cabina con la salud (aire, agua, luz, radiación, incendios).",
       "nota": "Se omiten el diseño del hábitat y la agricultura (R20)."
@@ -175,9 +175,9 @@
       "tipo": "recomendada",
       "titulo": "Astronáutica y preparación",
       "clases": [
-        "B58-C03..C04",
-        "B58-C13",
-        "B58-C17..C19"
+        "B104-C03..C04",
+        "B104-C13",
+        "B104-C17..C19"
       ],
       "capacidad": "Conocer cómo se selecciona, entrena y reintegra a una tripulación desde el punto de vista de salud.",
       "nota": "Parte conductual: R19-M04. El entrenamiento operativo es de R18."
@@ -188,9 +188,9 @@
       "tipo": "recomendada",
       "titulo": "Astrobiología y contaminación biológica",
       "clases": [
-        "B37-C02",
-        "B37-C05",
-        "B37-C17..C19"
+        "B56-C02",
+        "B56-C05",
+        "B56-C17..C19"
       ],
       "capacidad": "Relacionar bioquímica terrestre, extremófilos y protección planetaria con el cuidado de la tripulación y de las muestras.",
       "nota": "Solapa con R06 (astroquímica y astrobiología); aquí solo lo necesario para la contaminación biológica de una cabina y la ética de protección planetaria."
@@ -201,9 +201,9 @@
       "tipo": "recomendada",
       "titulo": "Ingeniería de sistemas y operaciones de salud",
       "clases": [
-        "B49-C03..C05",
-        "B49-C16..C17",
-        "B57-C13..C15"
+        "B83-C03..C05",
+        "B83-C16..C17",
+        "B96-C13..C15"
       ],
       "capacidad": "Trazar requisitos de salud a procedimientos y gestionar riesgos y anomalías con criterio de ingeniería.",
       "nota": "Un plan médico es un sistema con requisitos, riesgos y verificación."
@@ -214,13 +214,13 @@
       "tipo": "obligatoria",
       "titulo": "Derecho, bioética y datos",
       "clases": [
-        "B63-C01..C03",
-        "B63-C10",
-        "B63-C18",
-        "B64-C13..C14"
+        "B119-C01..C03",
+        "B119-C10",
+        "B119-C18",
+        "B124-C13..C14"
       ],
       "capacidad": "Situar la investigación y la atención de una tripulación en su marco legal, ético y de datos.",
-      "nota": "Complementa B59-C19 (bioética en investigación tripulada)."
+      "nota": "Complementa B105-C19 (bioética en investigación tripulada)."
     },
     {
       "orden": 17,
@@ -231,7 +231,7 @@
         "R19-M01-C01..C20"
       ],
       "capacidad": "Interpretar indicadores clínicos de vuelo por sistema fisiológico.",
-      "nota": "Repite B59-C01 a C10; aquí se pide interpretar datos, no solo describir efectos."
+      "nota": "Repite B105-C01 a C10; aquí se pide interpretar datos, no solo describir efectos."
     },
     {
       "orden": 18,
@@ -242,7 +242,7 @@
         "R19-M02-C01..C20"
       ],
       "capacidad": "Describir y comparar adaptaciones y contramedidas, y estimar la recuperación.",
-      "nota": "Repite B59-C01 a C05 y C16; añade gravedad parcial y adaptación motora."
+      "nota": "Repite B105-C01 a C05 y C16; añade gravedad parcial y adaptación motora."
     },
     {
       "orden": 19,
@@ -253,7 +253,7 @@
         "R19-M03-C01..C20"
       ],
       "capacidad": "Calcular dosis equivalente y comparar modelos de riesgo, con sus restricciones éticas.",
-      "nota": "Repite B59-C06 y C07; añade dosimetría, efectos agudos y crónicos y blindaje."
+      "nota": "Repite B105-C06 y C07; añade dosimetría, efectos agudos y crónicos y blindaje."
     },
     {
       "orden": 20,
@@ -264,7 +264,7 @@
         "R19-M04-C01..C20"
       ],
       "capacidad": "Evaluar con criterios éticos el estrés, el sueño y la cohesión en aislamiento.",
-      "nota": "Repite B59-C08 y C09 y B58-C18."
+      "nota": "Repite B105-C08 y C09 y B104-C18."
     },
     {
       "orden": 21,
@@ -275,7 +275,7 @@
         "R19-M05-C01..C20"
       ],
       "capacidad": "Diseñar una monitorización remota con privacidad y alertas de salud.",
-      "nota": "Repite B59-C15; añade sensores, triage asistido y panel de monitoreo."
+      "nota": "Repite B105-C15; añade sensores, triage asistido y panel de monitoreo."
     },
     {
       "orden": 22,
@@ -286,7 +286,7 @@
         "R19-M06-C01..C20"
       ],
       "capacidad": "Planificar y evaluar escenarios de urgencia simulada con comunicaciones críticas.",
-      "nota": "Repite B59-C14. Todas las clases son de simulación: no capacitan para atención real ni sustituyen formación clínica."
+      "nota": "Repite B105-C14. Todas las clases son de simulación: no capacitan para atención real ni sustituyen formación clínica."
     },
     {
       "orden": 23,
@@ -297,7 +297,7 @@
         "R19-M07-C01..C20"
       ],
       "capacidad": "Describir planes de readaptación y sus indicadores de progresión.",
-      "nota": "Repite B59-C17. Educativo: la prescripción individual requiere profesionales habilitados."
+      "nota": "Repite B105-C17. Educativo: la prescripción individual requiere profesionales habilitados."
     },
     {
       "orden": 24,
@@ -308,13 +308,13 @@
         "R19-M08-C01..C20"
       ],
       "capacidad": "Diseñar un protocolo de investigación con consentimiento informado, estadística longitudinal y control de sesgos.",
-      "nota": "Es el proyecto final del rol; profundiza B59-C18 a C20 y se cierra con el informe ético de investigación (C19, C20)."
+      "nota": "Es el proyecto final del rol; profundiza B105-C18 a C20 y se cierra con el informe ético de investigación (C19, C20)."
     }
   ],
   "huecos": [
     {
       "tema": "Biología celular y molecular, anatomía y fisiología humana generales",
-      "motivo": "Ningún título del catálogo trata biología celular, genética general, anatomía ni fisiología humana como base: B06 es química, B37-C02 y C05 son bioquímica y extremófilos, y B59 y R19-M01 presuponen esa base. Se verificó buscando «biolog», «celula», «genet» y «adn», que solo devuelve astrobiología y R19-M03.",
+      "motivo": "Ningún título del catálogo trata biología celular, genética general, anatomía ni fisiología humana como base: B06 es química, B56-C02 y C05 son bioquímica y extremófilos, y B105 y R19-M01 presuponen esa base. Se verificó buscando «biolog», «celula», «genet» y «adn», que solo devuelve astrobiología y R19-M03.",
       "propuesta": "bloque nuevo de biología y fisiología humana de base (fundamentos)"
     },
     {
@@ -324,13 +324,13 @@
     },
     {
       "tema": "Farmacología y gestión de medicamentos en el espacio",
-      "motivo": "Sólo hay B59-C13 (Farmacología y microgravedad) y R19-M06-C07 (gestión de medicamentos); no hay clases de estabilidad, dosificación ni toxicología en ambiente cerrado.",
-      "propuesta": "clases nuevas en B59 o módulo nuevo de R19"
+      "motivo": "Sólo hay B105-C13 (Farmacología y microgravedad) y R19-M06-C07 (gestión de medicamentos); no hay clases de estabilidad, dosificación ni toxicología en ambiente cerrado.",
+      "propuesta": "clases nuevas en B105 o módulo nuevo de R19"
     },
     {
       "tema": "Dispositivos médicos: diseño, regulación y verificación",
       "motivo": "R19-M05-C15 trata dispositivos biomédicos en una clase; no hay clases de regulación ni de verificación de dispositivos médicos para vuelo.",
-      "propuesta": "clases nuevas en B59 o módulo nuevo de R19"
+      "propuesta": "clases nuevas en B105 o módulo nuevo de R19"
     },
     {
       "tema": "Epidemiología y bioestadística clínica",

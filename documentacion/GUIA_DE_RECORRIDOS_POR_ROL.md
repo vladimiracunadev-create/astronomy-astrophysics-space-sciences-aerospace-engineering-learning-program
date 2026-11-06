@@ -26,7 +26,7 @@ El catálogo `0.1.0` da a todas las rutas el mismo tamaño (8 módulos × 20 cla
 
 Cada **paso** tiene: `fase` (`fundamentos`, `tronco`, `ruta`, `integracion`), `tipo` (`obligatoria`, `recomendada`, `opcional`), `titulo`, `clases`, `capacidad` (qué puede hacer la persona al terminarlo; mínimo una frase), y opcionalmente `nota` y `omitible_si` (la evidencia o diagnóstico que permite saltarlo).
 
-`clases` acepta IDs sueltos (`B01-C08`) y rangos dentro de un mismo bloque o módulo (`B49-C01..C20`, `R12-M04-C01..C20`).
+`clases` acepta IDs sueltos (`B01-C08`) y rangos dentro de un mismo bloque o módulo (`B83-C01..C20`, `R12-M04-C01..C20`).
 
 ## Reglas
 

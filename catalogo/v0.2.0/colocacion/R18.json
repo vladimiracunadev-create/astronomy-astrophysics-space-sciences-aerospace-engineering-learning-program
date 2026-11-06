@@ -10,8 +10,8 @@
           "tema": "Adaptación física previa al vuelo",
           "destino": "existente",
           "tronco": [
-            "B58-C04",
-            "B58-C03"
+            "B104-C04",
+            "B104-C03"
           ]
         },
         {
@@ -22,7 +22,7 @@
             "area": "A08",
             "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
             "titulo": "Entrenamiento cardiorrespiratorio y de resistencia de astronautas",
-            "necesidad": "B58-C04 es acondicionamiento general; el diseño del entrenamiento de resistencia para vuelo no tiene clase propia."
+            "necesidad": "B104-C04 es acondicionamiento general; el diseño del entrenamiento de resistencia para vuelo no tiene clase propia."
           }
         },
         {
@@ -30,8 +30,8 @@
           "tema": "Fortalecimiento muscular",
           "destino": "existente",
           "tronco": [
-            "B59-C03",
-            "B59-C16"
+            "B105-C03",
+            "B105-C16"
           ]
         },
         {
@@ -53,7 +53,7 @@
             "area": "A08",
             "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
             "titulo": "Entrenamiento vestibular y de orientación espacial",
-            "necesidad": "B59-C04 describe el sistema vestibular, pero no el entrenamiento para prepararse a la desorientación."
+            "necesidad": "B105-C04 describe el sistema vestibular, pero no el entrenamiento para prepararse a la desorientación."
           }
         },
         {
@@ -61,7 +61,7 @@
           "tema": "Nutrición preoperacional",
           "destino": "existente",
           "tronco": [
-            "B59-C12"
+            "B105-C12"
           ]
         },
         {
@@ -69,8 +69,8 @@
           "tema": "Sueño y ritmos",
           "destino": "existente",
           "tronco": [
-            "B59-C08",
-            "B60-C13"
+            "B105-C08",
+            "B106-C13"
           ]
         },
         {
@@ -81,7 +81,7 @@
             "area": "A08",
             "bloque": "nuevo: Acondicionamiento físico y rehabilitación de astronautas",
             "titulo": "Evaluación del rendimiento físico y cognitivo de tripulantes",
-            "necesidad": "B58-C03 trata selección y aptitud; falta la evaluación periódica de rendimiento físico y cognitivo."
+            "necesidad": "B104-C03 trata selección y aptitud; falta la evaluación periódica de rendimiento físico y cognitivo."
           }
         },
         {
@@ -100,8 +100,8 @@
           "tema": "Límites médicos de entrenamiento",
           "destino": "existente",
           "tronco": [
-            "B58-C03",
-            "B59-C19"
+            "B104-C03",
+            "B105-C19"
           ]
         }
       ]
@@ -115,7 +115,7 @@
           "tema": "Cabinas presurizadas",
           "destino": "existente",
           "tronco": [
-            "B60-C02"
+            "B106-C02"
           ]
         },
         {
@@ -123,8 +123,8 @@
           "tema": "Sistemas de energía",
           "destino": "existente",
           "tronco": [
-            "B52-C01",
-            "B52-C07"
+            "B86-C01",
+            "B86-C07"
           ]
         },
         {
@@ -132,8 +132,8 @@
           "tema": "Sistemas de navegación",
           "destino": "existente",
           "tronco": [
-            "B44-C18",
-            "B55-C16"
+            "B74-C18",
+            "B89-C16"
           ]
         },
         {
@@ -141,9 +141,9 @@
           "tema": "Control ambiental de cabina",
           "destino": "existente",
           "tronco": [
-            "B60-C09",
-            "B60-C08",
-            "B60-C07"
+            "B106-C09",
+            "B106-C08",
+            "B106-C07"
           ]
         },
         {
@@ -151,8 +151,8 @@
           "tema": "Monitoreo de atmósfera",
           "destino": "existente",
           "tronco": [
-            "B60-C03",
-            "B60-C04"
+            "B106-C03",
+            "B106-C04"
           ]
         },
         {
@@ -160,7 +160,7 @@
           "tema": "Gestión de agua",
           "destino": "existente",
           "tronco": [
-            "B60-C06"
+            "B106-C06"
           ]
         },
         {
@@ -168,7 +168,7 @@
           "tema": "Sistema contra incendios",
           "destino": "existente",
           "tronco": [
-            "B60-C17"
+            "B106-C17"
           ]
         },
         {
@@ -176,8 +176,8 @@
           "tema": "Comunicaciones a Tierra",
           "destino": "existente",
           "tronco": [
-            "B55-C20",
-            "B55-C14"
+            "B89-C20",
+            "B89-C14"
           ]
         },
         {
@@ -185,7 +185,7 @@
           "tema": "Configuración de nave",
           "destino": "existente",
           "tronco": [
-            "B58-C05"
+            "B104-C05"
           ]
         },
         {
@@ -196,7 +196,7 @@
             "area": "A08",
             "bloque": "nuevo: Operaciones de cabina y vehículos tripulados",
             "titulo": "Inventario, logística y estiba a bordo",
-            "necesidad": "B61-C19 es logística robótica de piezas; no hay clase de inventario, consumibles y estiba de una nave tripulada."
+            "necesidad": "B97-C19 es logística robótica de piezas; no hay clase de inventario, consumibles y estiba de una nave tripulada."
           }
         }
       ]
@@ -210,8 +210,8 @@
           "tema": "Roles del comandante",
           "destino": "existente",
           "tronco": [
-            "B58-C07",
-            "B58-C02"
+            "B104-C07",
+            "B104-C02"
           ]
         },
         {
@@ -219,7 +219,7 @@
           "tema": "Procedimientos nominales",
           "destino": "existente",
           "tronco": [
-            "B58-C06"
+            "B104-C06"
           ]
         },
         {
@@ -230,7 +230,7 @@
             "area": "A08",
             "bloque": "nuevo: Operaciones de cabina y vehículos tripulados",
             "titulo": "Diseño y uso de listas de comprobación de cabina",
-            "necesidad": "B58-C06 cubre procedimientos en general; falta diseñar, ejecutar y verificar checklists de cabina."
+            "necesidad": "B104-C06 cubre procedimientos en general; falta diseñar, ejecutar y verificar checklists de cabina."
           }
         },
         {
@@ -238,8 +238,8 @@
           "tema": "Gestión de estados de vehículo",
           "destino": "existente",
           "tronco": [
-            "B57-C08",
-            "B54-C09"
+            "B96-C08",
+            "B88-C09"
           ]
         },
         {
@@ -247,8 +247,8 @@
           "tema": "Comunicaciones operacionales",
           "destino": "existente",
           "tronco": [
-            "B58-C08",
-            "B57-C03"
+            "B104-C08",
+            "B96-C03"
           ]
         },
         {
@@ -256,7 +256,7 @@
           "tema": "Control de carga útil",
           "destino": "existente",
           "tronco": [
-            "B57-C10"
+            "B96-C10"
           ]
         },
         {
@@ -264,8 +264,8 @@
           "tema": "Trabajo en turnos",
           "destino": "existente",
           "tronco": [
-            "B58-C17",
-            "B59-C08"
+            "B104-C17",
+            "B105-C08"
           ]
         },
         {
@@ -276,7 +276,7 @@
             "area": "A08",
             "bloque": "nuevo: Operaciones de cabina y vehículos tripulados",
             "titulo": "Ejecución de experimentos a bordo: procedimientos y registro",
-            "necesidad": "B57-C10 planifica cargas útiles desde tierra; falta la ejecución de experimentos por la tripulación."
+            "necesidad": "B96-C10 planifica cargas útiles desde tierra; falta la ejecución de experimentos por la tripulación."
           }
         },
         {
@@ -284,8 +284,8 @@
           "tema": "Registro de anomalías",
           "destino": "existente",
           "tronco": [
-            "B57-C13",
-            "B56-C17"
+            "B96-C13",
+            "B90-C17"
           ]
         },
         {
@@ -293,7 +293,7 @@
           "tema": "Debriefing de cabina",
           "destino": "existente",
           "tronco": [
-            "B57-C19"
+            "B96-C19"
           ]
         }
       ]
@@ -307,7 +307,7 @@
           "tema": "Objetivos y tipos de EVA",
           "destino": "existente",
           "tronco": [
-            "B58-C10"
+            "B104-C10"
           ]
         },
         {
@@ -315,7 +315,7 @@
           "tema": "Trajes presurizados",
           "destino": "existente",
           "tronco": [
-            "B58-C11"
+            "B104-C11"
           ]
         },
         {
@@ -326,7 +326,7 @@
             "area": "A08",
             "bloque": "nuevo: Actividades extravehiculares y trajes espaciales",
             "titulo": "Sistemas portátiles de soporte vital (PLSS)",
-            "necesidad": "B60-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase."
+            "necesidad": "B106-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase."
           }
         },
         {
@@ -367,7 +367,7 @@
           "tema": "Gestión de fatiga",
           "destino": "existente",
           "tronco": [
-            "B58-C17"
+            "B104-C17"
           ]
         },
         {
@@ -375,7 +375,7 @@
           "tema": "Comunicaciones EVA",
           "destino": "existente",
           "tronco": [
-            "B58-C08"
+            "B104-C08"
           ]
         },
         {
@@ -383,7 +383,7 @@
           "tema": "Emergencias simuladas",
           "destino": "existente",
           "tronco": [
-            "B58-C13"
+            "B104-C13"
           ]
         },
         {
@@ -408,8 +408,8 @@
           "tema": "Manipuladores de estaciones",
           "destino": "existente",
           "tronco": [
-            "B61-C02",
-            "B58-C12"
+            "B97-C02",
+            "B104-C12"
           ]
         },
         {
@@ -417,8 +417,8 @@
           "tema": "Interfaces de teleoperación",
           "destino": "existente",
           "tronco": [
-            "B61-C07",
-            "B58-C12"
+            "B97-C07",
+            "B104-C12"
           ]
         },
         {
@@ -426,8 +426,8 @@
           "tema": "Captura de carga útil",
           "destino": "existente",
           "tronco": [
-            "B46-C16",
-            "B61-C13"
+            "B76-C16",
+            "B97-C13"
           ]
         },
         {
@@ -446,7 +446,7 @@
           "tema": "Zonas de seguridad",
           "destino": "existente",
           "tronco": [
-            "B61-C17"
+            "B97-C17"
           ]
         },
         {
@@ -454,7 +454,7 @@
           "tema": "Planificación de movimientos",
           "destino": "existente",
           "tronco": [
-            "B61-C08"
+            "B97-C08"
           ]
         },
         {
@@ -462,8 +462,8 @@
           "tema": "Gestión de fallas robóticas",
           "destino": "existente",
           "tronco": [
-            "B61-C17",
-            "B54-C12"
+            "B97-C17",
+            "B88-C12"
           ]
         },
         {
@@ -471,7 +471,7 @@
           "tema": "Robótica compartida",
           "destino": "existente",
           "tronco": [
-            "B61-C09"
+            "B97-C09"
           ]
         },
         {
@@ -493,7 +493,7 @@
             "area": "A08",
             "bloque": "nuevo: Manipuladores robóticos espaciales",
             "titulo": "Simulación de una tarea tripulada con manipulador",
-            "necesidad": "B61-C20 integra una misión robótica; falta simular una tarea con operador humano (captura, ensamblaje)."
+            "necesidad": "B97-C20 integra una misión robótica; falta simular una tarea con operador humano (captura, ensamblaje)."
           }
         }
       ]
@@ -510,7 +510,7 @@
             "area": "A08",
             "bloque": "nuevo: Emergencias y seguridad de tripulación",
             "titulo": "Despresurización: detección, aislamiento y respuesta",
-            "necesidad": "B60-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa."
+            "necesidad": "B106-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa."
           }
         },
         {
@@ -518,8 +518,8 @@
           "tema": "Pérdida de comunicación",
           "destino": "existente",
           "tronco": [
-            "B57-C15",
-            "B54-C11"
+            "B96-C15",
+            "B88-C11"
           ]
         },
         {
@@ -527,7 +527,7 @@
           "tema": "Incendio en hábitat como escenario",
           "destino": "existente",
           "tronco": [
-            "B60-C17"
+            "B106-C17"
           ]
         },
         {
@@ -535,8 +535,8 @@
           "tema": "Pérdida de energía",
           "destino": "existente",
           "tronco": [
-            "B52-C11",
-            "B57-C15"
+            "B86-C11",
+            "B96-C15"
           ]
         },
         {
@@ -544,8 +544,8 @@
           "tema": "Falla de sistema ambiental",
           "destino": "existente",
           "tronco": [
-            "B60-C09",
-            "B60-C18"
+            "B106-C09",
+            "B106-C18"
           ]
         },
         {
@@ -556,7 +556,7 @@
             "area": "A08",
             "bloque": "nuevo: Emergencias y seguridad de tripulación",
             "titulo": "Protocolos operativos de aislamiento de un tripulante enfermo o contaminado",
-            "necesidad": "B59-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
+            "necesidad": "B105-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional."
           }
         },
         {
@@ -578,7 +578,7 @@
             "area": "A08",
             "bloque": "nuevo: Emergencias y seguridad de tripulación",
             "titulo": "Priorización y decisiones bajo emergencia",
-            "necesidad": "B58-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas."
+            "necesidad": "B104-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas."
           }
         },
         {
@@ -597,8 +597,8 @@
           "tema": "Evaluación postincidente",
           "destino": "existente",
           "tronco": [
-            "B57-C19",
-            "B49-C16"
+            "B96-C19",
+            "B83-C16"
           ]
         }
       ]
@@ -615,7 +615,7 @@
             "area": "A08",
             "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
             "titulo": "Fundamentos de factores humanos en operaciones espaciales",
-            "necesidad": "B60-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores)."
+            "necesidad": "B106-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores)."
           }
         },
         {
@@ -623,7 +623,7 @@
           "tema": "Liderazgo distribuido",
           "destino": "existente",
           "tronco": [
-            "B58-C07"
+            "B104-C07"
           ]
         },
         {
@@ -631,7 +631,7 @@
           "tema": "Comunicación cerrada",
           "destino": "existente",
           "tronco": [
-            "B58-C08"
+            "B104-C08"
           ]
         },
         {
@@ -639,7 +639,7 @@
           "tema": "Resolución de conflictos",
           "destino": "existente",
           "tronco": [
-            "B58-C16"
+            "B104-C16"
           ]
         },
         {
@@ -672,7 +672,7 @@
             "area": "A08",
             "bloque": "nuevo: Factores humanos y liderazgo de tripulación",
             "titulo": "Conciencia situacional en operaciones de vuelo",
-            "necesidad": "B63-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación."
+            "necesidad": "B119-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación."
           }
         },
         {
@@ -702,8 +702,8 @@
           "tema": "Evaluación de desempeño de equipo",
           "destino": "existente",
           "tronco": [
-            "B58-C20",
-            "B58-C09"
+            "B104-C20",
+            "B104-C09"
           ]
         }
       ]
@@ -717,8 +717,8 @@
           "tema": "Arquitectura de misión tripulada",
           "destino": "existente",
           "tronco": [
-            "B49-C07",
-            "B58-C02"
+            "B83-C07",
+            "B104-C02"
           ]
         },
         {
@@ -726,8 +726,8 @@
           "tema": "Plan de fases de vuelo",
           "destino": "existente",
           "tronco": [
-            "B49-C03",
-            "B57-C09"
+            "B83-C03",
+            "B96-C09"
           ]
         },
         {
@@ -735,8 +735,8 @@
           "tema": "Asignación de roles",
           "destino": "existente",
           "tronco": [
-            "B58-C02",
-            "B57-C03"
+            "B104-C02",
+            "B96-C03"
           ]
         },
         {
@@ -744,7 +744,7 @@
           "tema": "Procedimientos de cabina",
           "destino": "existente",
           "tronco": [
-            "B58-C06"
+            "B104-C06"
           ]
         },
         {
@@ -752,7 +752,7 @@
           "tema": "Cronograma de experimentos",
           "destino": "existente",
           "tronco": [
-            "B57-C10"
+            "B96-C10"
           ]
         },
         {
@@ -760,8 +760,8 @@
           "tema": "Eventos EVA simulados",
           "destino": "existente",
           "tronco": [
-            "B58-C10",
-            "B58-C15"
+            "B104-C10",
+            "B104-C15"
           ]
         },
         {
@@ -769,7 +769,7 @@
           "tema": "Escenarios de emergencia",
           "destino": "existente",
           "tronco": [
-            "B58-C13"
+            "B104-C13"
           ]
         },
         {
@@ -777,8 +777,8 @@
           "tema": "Control de misión",
           "destino": "existente",
           "tronco": [
-            "B57-C03",
-            "B57-C20"
+            "B96-C03",
+            "B96-C20"
           ]
         },
         {
@@ -786,8 +786,8 @@
           "tema": "Criterios de desempeño",
           "destino": "existente",
           "tronco": [
-            "B58-C20",
-            "B49-C17"
+            "B104-C20",
+            "B83-C17"
           ]
         },
         {
@@ -795,8 +795,8 @@
           "tema": "Informe y lecciones aprendidas",
           "destino": "existente",
           "tronco": [
-            "B57-C19",
-            "B58-C20"
+            "B96-C19",
+            "B104-C20"
           ]
         }
       ]

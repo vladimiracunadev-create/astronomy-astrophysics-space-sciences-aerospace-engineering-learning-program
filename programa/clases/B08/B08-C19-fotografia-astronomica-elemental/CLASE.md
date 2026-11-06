@@ -8,7 +8,7 @@
 
 Decimonovena clase del bloque B08. Una cámara registra lo que el ojo no acumula: luz durante segundos. También tropieza con el mismo obstáculo que el telescopio: el cielo se mueve. Aquí aprendes **qué decide una fotografía astronómica elemental**: escala, campo, tiempo de exposición sin seguimiento, y cómo documentarla honestamente. Nivel N1.
 
-Verás escala de placa, campo, estela de estrellas, tiempo máximo de exposición sin seguimiento, el tamaño de la Luna en la imagen, y las reglas de seguridad para fotografiar el Sol. No verás apilado, calibración con imágenes de corrección ni detectores (B28, B15).
+Verás escala de placa, campo, estela de estrellas, tiempo máximo de exposición sin seguimiento, el tamaño de la Luna en la imagen, y las reglas de seguridad para fotografiar el Sol. No verás apilado, calibración con imágenes de corrección ni detectores (B44, B15).
 
 ## 2. Por qué esta clase existe
 

@@ -132,17 +132,17 @@
       "tipo": "obligatoria",
       "titulo": "Geología y química de cuerpos",
       "clases": [
-        "B34-C01",
-        "B34-C03",
-        "B34-C05",
-        "B34-C07",
-        "B34-C09",
-        "B34-C10",
-        "B34-C16..C19",
-        "B36-C12",
-        "B36-C14",
-        "B36-C18",
-        "B36-C19"
+        "B53-C01",
+        "B53-C03",
+        "B53-C05",
+        "B53-C07",
+        "B53-C09",
+        "B53-C10",
+        "B53-C16..C19",
+        "B55-C12",
+        "B55-C14",
+        "B55-C18",
+        "B55-C19"
       ],
       "capacidad": "Interpretar la geología, la gravedad y la química de un cuerpo como restricción de un recurso."
     },
@@ -152,12 +152,12 @@
       "tipo": "obligatoria",
       "titulo": "Teledetección de superficies",
       "clases": [
-        "B38-C01..C03",
-        "B38-C05",
-        "B38-C07",
-        "B38-C09",
-        "B38-C11",
-        "B38-C19"
+        "B57-C01..C03",
+        "B57-C05",
+        "B57-C07",
+        "B57-C09",
+        "B57-C11",
+        "B57-C19"
       ],
       "capacidad": "Elegir el sensor y la resolución adecuados para mapear un recurso desde órbita."
     },
@@ -167,11 +167,11 @@
       "tipo": "recomendada",
       "titulo": "Asteroides como fuente",
       "clases": [
-        "B39-C01",
-        "B39-C03",
-        "B39-C05",
-        "B39-C13",
-        "B39-C16"
+        "B58-C01",
+        "B58-C03",
+        "B58-C05",
+        "B58-C13",
+        "B58-C16"
       ],
       "capacidad": "Caracterizar un asteroide cercano como posible fuente de materiales."
     },
@@ -181,10 +181,10 @@
       "tipo": "obligatoria",
       "titulo": "Recursos in situ y sostenibilidad",
       "clases": [
-        "B40-C01..C20"
+        "B59-C01..C20"
       ],
       "capacidad": "Describir la cadena de un recurso in situ desde la prospección hasta la planta y su logística.",
-      "nota": "Es el eje del rol. Los módulos R21-M01 a M03 profundizan B40-C02 a C10 y C18 a C20: la ruta pide cálculo y evidencia, no solo concepto."
+      "nota": "Es el eje del rol. Los módulos R21-M01 a M03 profundizan B59-C02 a C10 y C18 a C20: la ruta pide cálculo y evidencia, no solo concepto."
     },
     {
       "orden": 13,
@@ -195,7 +195,7 @@
         "R21-M01-C01..C20"
       ],
       "capacidad": "Planificar una campaña de prospección con espectroscopía, altimetría y radar y declarar su incertidumbre.",
-      "nota": "Repite B40-C02 a C05 y partes de B38; se pide un programa de prospección con riesgo geológico."
+      "nota": "Repite B59-C02 a C05 y partes de B57; se pide un programa de prospección con riesgo geológico."
     },
     {
       "orden": 14,
@@ -213,18 +213,18 @@
       "tipo": "recomendada",
       "titulo": "Entorno térmico y energético de la planta",
       "clases": [
-        "B51-C01",
-        "B51-C04",
-        "B51-C07",
-        "B51-C09",
-        "B51-C17",
-        "B52-C01",
-        "B52-C02",
-        "B52-C05",
-        "B52-C13",
-        "B52-C16",
-        "B52-C17",
-        "B52-C19"
+        "B85-C01",
+        "B85-C04",
+        "B85-C07",
+        "B85-C09",
+        "B85-C17",
+        "B86-C01",
+        "B86-C02",
+        "B86-C05",
+        "B86-C13",
+        "B86-C16",
+        "B86-C17",
+        "B86-C19"
       ],
       "capacidad": "Presupuestar el calor y la energía de una instalación, incluida la noche lunar."
     },
@@ -237,7 +237,7 @@
         "R21-M03-C01..C20"
       ],
       "capacidad": "Cerrar el balance de masa y de energía de un proceso ISRU.",
-      "nota": "Repite B40-C06 a C10; la evidencia es un balance de proceso con incertidumbre."
+      "nota": "Repite B59-C06 a C10; la evidencia es un balance de proceso con incertidumbre."
     },
     {
       "orden": 17,
@@ -245,12 +245,12 @@
       "tipo": "recomendada",
       "titulo": "Robótica de superficie",
       "clases": [
-        "B61-C01",
-        "B61-C06",
-        "B61-C08",
-        "B61-C13..C16",
-        "B61-C18",
-        "B61-C19"
+        "B97-C01",
+        "B97-C06",
+        "B97-C08",
+        "B97-C13..C16",
+        "B97-C18",
+        "B97-C19"
       ],
       "capacidad": "Valorar qué excavación y transporte pueden hacer robots y con qué autonomía."
     },
@@ -264,7 +264,7 @@
         "R21-M04-C15..C20"
       ],
       "capacidad": "Estimar la productividad virtual y la seguridad de una flota de excavación y transporte.",
-      "nota": "M04-C13 y M04-C14 (gestión de polvo) se cubren con B51-C16 si se aborda; se retoman si el proyecto lo requiere."
+      "nota": "M04-C13 y M04-C14 (gestión de polvo) se cubren con B85-C16 si se aborda; se retoman si el proyecto lo requiere."
     },
     {
       "orden": 19,
@@ -275,7 +275,7 @@
         "R21-M05-C01..C20"
       ],
       "capacidad": "Dimensionar la energía de una planta y su disponibilidad.",
-      "nota": "Retoma B52 a escala de instalación."
+      "nota": "Retoma B86 a escala de instalación."
     },
     {
       "orden": 20,
@@ -286,7 +286,7 @@
         "R21-M06-C01..C20"
       ],
       "capacidad": "Definir una línea de manufactura con regolito, su control de defectos y su inventario.",
-      "nota": "Repite B40-C11 a C13 y B50-C15; se pide una propuesta de manufactura."
+      "nota": "Repite B59-C11 a C13 y B84-C15; se pide una propuesta de manufactura."
     },
     {
       "orden": 21,
@@ -294,14 +294,14 @@
       "tipo": "obligatoria",
       "titulo": "Transporte y delta-v",
       "clases": [
-        "B45-C03",
-        "B45-C09",
-        "B45-C10",
-        "B45-C12",
-        "B46-C01",
-        "B46-C03",
-        "B47-C05",
-        "B47-C06"
+        "B75-C03",
+        "B75-C09",
+        "B75-C10",
+        "B75-C12",
+        "B76-C01",
+        "B76-C03",
+        "B77-C05",
+        "B77-C06"
       ],
       "capacidad": "Calcular el delta-v y la masa de transportar un producto entre superficie, órbita y la Tierra."
     },
@@ -321,16 +321,16 @@
       "tipo": "obligatoria",
       "titulo": "Gestión de proyecto y costos",
       "clases": [
-        "B49-C01..C05",
-        "B49-C09",
-        "B49-C10",
-        "B49-C16",
-        "B49-C18",
-        "B64-C01..C12",
-        "B64-C15"
+        "B83-C01..C05",
+        "B83-C09",
+        "B83-C10",
+        "B83-C16",
+        "B83-C18",
+        "B124-C01..C12",
+        "B124-C15"
       ],
       "capacidad": "Costear un proyecto y analizar riesgo, madurez tecnológica, financiamiento y mercados.",
-      "nota": "B64-C05 (costos de misión) se aplica a la planta ISRU en el módulo final."
+      "nota": "B124-C05 (costos de misión) se aplica a la planta ISRU en el módulo final."
     },
     {
       "orden": 24,
@@ -338,10 +338,10 @@
       "tipo": "recomendada",
       "titulo": "Derecho y gobernanza de recursos",
       "clases": [
-        "B63-C01..C05",
-        "B63-C08",
-        "B63-C10",
-        "B63-C18"
+        "B119-C01..C05",
+        "B119-C08",
+        "B119-C10",
+        "B119-C18"
       ],
       "capacidad": "Reconocer qué marco jurídico condiciona la extracción y qué decisiones requieren asesoría legal.",
       "nota": "No es asesoría legal: la normativa depende de jurisdicción y versión. R21-M08-C13 la retoma desde la viabilidad."
@@ -363,8 +363,8 @@
       "tipo": "recomendada",
       "titulo": "Propuesta y portafolio",
       "clases": [
-        "B64-C19",
-        "B64-C20"
+        "B124-C19",
+        "B124-C20"
       ],
       "capacidad": "Redactar la propuesta de una instalación y consolidar el portafolio."
     }
@@ -373,17 +373,17 @@
     {
       "tema": "Clasificación de recursos y reservas con estándares de reporte",
       "motivo": "R21-M02-C09 trata la estimación de reservas, pero ningún título aborda marcos de reporte de recursos y reservas minerales ni su adaptación extraterrestre (búsqueda de «reserva», «recursos minerales» y «geoestadística»).",
-      "propuesta": "clases nuevas en B40 o módulo nuevo de R21"
+      "propuesta": "clases nuevas en B59 o módulo nuevo de R21"
     },
     {
       "tema": "Ingeniería minera: geotecnia, excavación y planificación de mina",
-      "motivo": "Búsqueda de «minería», «voladura», «geotecnia» y «cielo abierto» sin resultados; B40-C18 trata la fiabilidad de equipos y R21-M04-C03 la excavación robótica conceptual.",
+      "motivo": "Búsqueda de «minería», «voladura», «geotecnia» y «cielo abierto» sin resultados; B59-C18 trata la fiabilidad de equipos y R21-M04-C03 la excavación robótica conceptual.",
       "propuesta": "módulo nuevo de R21"
     },
     {
       "tema": "Evaluación económica: valor presente, tasas de descuento y sensibilidad",
       "motivo": "R21-M08 tiene CapEx/OpEx y escenarios financieros como títulos, pero ninguno nombra valor presente neto ni tasa de descuento; la búsqueda de «valor presente», «VPN», «TIR» y «descuento» no devolvió clases económicas.",
-      "propuesta": "clases nuevas en B64"
+      "propuesta": "clases nuevas en B124"
     },
     {
       "tema": "Normas y estándares de ingeniería espacial con versión y jurisdicción",

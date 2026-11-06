@@ -31,7 +31,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
-- [ ] Guías pedagógicas por bloque (B01–B08 hechas; faltan B09–B64 y los 69 bloques nuevos).
+- [ ] Guías pedagógicas por bloque (B01–B08 hechas; faltan B09–B124 y los 69 bloques nuevos).
 - [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas sin redactar).
 - [x] B01-C01 redactada y aprobada por el autor (conserva E0 en el catálogo hasta registrar revisión disciplinar).
 
@@ -49,8 +49,8 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 - [ ] B02–B08: observación, historia, fundamentos e informática inicial (textos redactados; pendientes revisión disciplinar y aprobación; todas siguen en E0).
 - [ ] B09–B16: matemática, datos, computación y control.
-- [ ] B17–B40: astrofísica, observación y ciencias planetarias.
-- [ ] B41–B64: astrodinámica, ingeniería, operaciones y sociedad.
+- [ ] B24–B59: astrofísica, observación y ciencias planetarias.
+- [ ] B71–B124: astrodinámica, ingeniería, operaciones y sociedad.
 
 **Cierre por bloque:** todas las clases en E5, dependencias auditadas, proyecto integrador y revisión disciplinar registrada.
 

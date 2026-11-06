@@ -10,8 +10,8 @@
           "tema": "Marcos de coordenadas planetarias",
           "destino": "existente",
           "tronco": [
-            "B34-C05",
-            "B34-C06"
+            "B53-C05",
+            "B53-C06"
           ]
         },
         {
@@ -20,9 +20,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Rotación y orientación de cuerpos planetarios: polos y meridiano origen",
-            "necesidad": "B34-C05 y B34-C06 tratan marcos lunar y marciano; ninguna clase enseña los modelos de rotación IAU (polo, meridiano origen, precesión) de cuerpos del sistema solar."
+            "necesidad": "B53-C05 y B53-C06 tratan marcos lunar y marciano; ninguna clase enseña los modelos de rotación IAU (polo, meridiano origen, precesión) de cuerpos del sistema solar."
           }
         },
         {
@@ -30,7 +30,7 @@
           "tema": "Geoides planetarios",
           "destino": "existente",
           "tronco": [
-            "B34-C04"
+            "B53-C04"
           ]
         },
         {
@@ -38,7 +38,7 @@
           "tema": "Gravedad por armónicos",
           "destino": "existente",
           "tronco": [
-            "B34-C03"
+            "B53-C03"
           ]
         },
         {
@@ -46,8 +46,8 @@
           "tema": "Medición de campo gravitatorio",
           "destino": "existente",
           "tronco": [
-            "B34-C03",
-            "B44-C04"
+            "B53-C03",
+            "B74-C04"
           ]
         },
         {
@@ -55,7 +55,7 @@
           "tema": "Altimetría láser",
           "destino": "existente",
           "tronco": [
-            "B34-C07"
+            "B53-C07"
           ]
         },
         {
@@ -63,8 +63,8 @@
           "tema": "Topografía radial",
           "destino": "existente",
           "tronco": [
-            "B34-C07",
-            "B34-C04"
+            "B53-C07",
+            "B53-C04"
           ]
         },
         {
@@ -72,8 +72,8 @@
           "tema": "Geodesia Doppler",
           "destino": "existente",
           "tronco": [
-            "B44-C04",
-            "B55-C15"
+            "B74-C04",
+            "B89-C15"
           ]
         },
         {
@@ -81,8 +81,8 @@
           "tema": "Geodesia satelital",
           "destino": "existente",
           "tronco": [
-            "B38-C10",
-            "B34-C06"
+            "B57-C10",
+            "B53-C06"
           ]
         },
         {
@@ -90,9 +90,9 @@
           "tema": "Ajuste de sistemas de referencia",
           "destino": "existente",
           "tronco": [
-            "B44-C07",
+            "B74-C07",
             "B13-C11",
-            "B34-C05"
+            "B53-C05"
           ]
         }
       ]
@@ -106,8 +106,8 @@
           "tema": "Diferenciación de interiores",
           "destino": "existente",
           "tronco": [
-            "B33-C18",
-            "B34-C01"
+            "B52-C18",
+            "B53-C01"
           ]
         },
         {
@@ -115,8 +115,8 @@
           "tema": "Densidad y momento de inercia",
           "destino": "existente",
           "tronco": [
-            "B34-C01",
-            "B34-C03"
+            "B53-C01",
+            "B53-C03"
           ]
         },
         {
@@ -124,7 +124,7 @@
           "tema": "Sismología lunar",
           "destino": "existente",
           "tronco": [
-            "B34-C02"
+            "B53-C02"
           ]
         },
         {
@@ -132,7 +132,7 @@
           "tema": "Sismología marciana",
           "destino": "existente",
           "tronco": [
-            "B34-C02"
+            "B53-C02"
           ]
         },
         {
@@ -143,7 +143,7 @@
             "area": "A05",
             "bloque": "nuevo: Geofísica de interiores planetarios",
             "titulo": "Convección del manto y evolución térmica de interiores planetarios",
-            "necesidad": "B34-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica."
+            "necesidad": "B53-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica."
           }
         },
         {
@@ -154,7 +154,7 @@
             "area": "A05",
             "bloque": "nuevo: Geofísica de interiores planetarios",
             "titulo": "Dinamos planetarias y campos magnéticos de origen interno",
-            "necesidad": "B23 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos."
+            "necesidad": "B30 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos."
           }
         },
         {
@@ -176,7 +176,7 @@
             "area": "A05",
             "bloque": "nuevo: Geofísica de interiores planetarios",
             "titulo": "Flujo térmico planetario y balance térmico del interior",
-            "necesidad": "B33-C17 trata evolución térmica por colisiones; no hay clase sobre flujo térmico superficial, radiactividad y enfriamiento secular."
+            "necesidad": "B52-C17 trata evolución térmica por colisiones; no hay clase sobre flujo térmico superficial, radiactividad y enfriamiento secular."
           }
         },
         {
@@ -184,9 +184,9 @@
           "tema": "Modelos de estructura interior",
           "destino": "existente",
           "tronco": [
-            "B34-C01",
-            "B34-C02",
-            "B34-C03"
+            "B53-C01",
+            "B53-C02",
+            "B53-C03"
           ]
         },
         {
@@ -211,8 +211,8 @@
           "tema": "Morfología de cráteres",
           "destino": "existente",
           "tronco": [
-            "B34-C08",
-            "B34-C10"
+            "B53-C08",
+            "B53-C10"
           ]
         },
         {
@@ -223,7 +223,7 @@
             "area": "A05",
             "bloque": "nuevo: Geomorfología y procesos superficiales planetarios",
             "titulo": "Valles y canales: morfología y origen en superficies planetarias",
-            "necesidad": "B34 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo."
+            "necesidad": "B53 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo."
           }
         },
         {
@@ -242,7 +242,7 @@
           "tema": "Formas de origen glaciar",
           "destino": "existente",
           "tronco": [
-            "B34-C13"
+            "B53-C13"
           ]
         },
         {
@@ -253,7 +253,7 @@
             "area": "A05",
             "bloque": "nuevo: Geomorfología y procesos superficiales planetarios",
             "titulo": "Procesos eólicos: dunas, ripples y erosión planetaria",
-            "necesidad": "B35 trata atmósferas pero ninguna clase enseña transporte de arena y formas eólicas en Marte, Venus y Titán."
+            "necesidad": "B54 trata atmósferas pero ninguna clase enseña transporte de arena y formas eólicas en Marte, Venus y Titán."
           }
         },
         {
@@ -283,7 +283,7 @@
           "tema": "Tectónica superficial",
           "destino": "existente",
           "tronco": [
-            "B34-C12"
+            "B53-C12"
           ]
         },
         {
@@ -291,7 +291,7 @@
           "tema": "Estadística de formas geológicas",
           "destino": "existente",
           "tronco": [
-            "B34-C08",
+            "B53-C08",
             "B12-C03"
           ]
         },
@@ -300,8 +300,8 @@
           "tema": "Interpretación geomorfológica",
           "destino": "existente",
           "tronco": [
-            "B34-C09",
-            "B34-C18"
+            "B53-C09",
+            "B53-C18"
           ]
         }
       ]
@@ -315,8 +315,8 @@
           "tema": "Física del impacto",
           "destino": "existente",
           "tronco": [
-            "B34-C10",
-            "B39-C15"
+            "B53-C10",
+            "B58-C15"
           ]
         },
         {
@@ -327,7 +327,7 @@
             "area": "A05",
             "bloque": "nuevo: Cráteres de impacto y geología de impactos",
             "titulo": "Dinámica de eyección y escalado de cráteres",
-            "necesidad": "B34-C10 y B39-C15 son visión general; falta la mecánica de eyección y las leyes de escalado de cráteres."
+            "necesidad": "B53-C10 y B58-C15 son visión general; falta la mecánica de eyección y las leyes de escalado de cráteres."
           }
         },
         {
@@ -338,7 +338,7 @@
             "area": "A05",
             "bloque": "nuevo: Cráteres de impacto y geología de impactos",
             "titulo": "Cráteres simples: morfología y formación",
-            "necesidad": "B34-C08 trata cartografía de cráteres; no la morfología ni formación de cráteres simples."
+            "necesidad": "B53-C08 trata cartografía de cráteres; no la morfología ni formación de cráteres simples."
           }
         },
         {
@@ -371,7 +371,7 @@
             "area": "A05",
             "bloque": "nuevo: Cráteres de impacto y geología de impactos",
             "titulo": "Fusión por impacto y metamorfismo de choque",
-            "necesidad": "Ninguna clase trata fusión, brechas ni metamorfismo de choque; B36-C12 se limita a la geoquímica de meteoritos."
+            "necesidad": "Ninguna clase trata fusión, brechas ni metamorfismo de choque; B55-C12 se limita a la geoquímica de meteoritos."
           }
         },
         {
@@ -382,7 +382,7 @@
             "area": "A05",
             "bloque": "nuevo: Cráteres de impacto y geología de impactos",
             "titulo": "Datación por conteo de cráteres: funciones de producción y edades de modelo",
-            "necesidad": "B34-C09 trata estratigrafía relativa; falta la cronología por conteo de cráteres y sus incertidumbres."
+            "necesidad": "B53-C09 trata estratigrafía relativa; falta la cronología por conteo de cráteres y sus incertidumbres."
           }
         },
         {
@@ -402,9 +402,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Meteorización espacial: micrometeoritos, viento solar y maduración del regolito",
-            "necesidad": "B36-C14 y B40-C04 tratan composición de regolitos; falta la maduración espectral y la meteorización de superficies sin atmósfera."
+            "necesidad": "B55-C14 y B59-C04 tratan composición de regolitos; falta la maduración espectral y la meteorización de superficies sin atmósfera."
           }
         },
         {
@@ -412,9 +412,9 @@
           "tema": "Cartografía de terreno de impacto",
           "destino": "existente",
           "tronco": [
-            "B34-C08",
-            "B34-C18",
-            "B34-C10"
+            "B53-C08",
+            "B53-C18",
+            "B53-C10"
           ]
         }
       ]
@@ -428,8 +428,8 @@
           "tema": "Magma y diferenciación",
           "destino": "existente",
           "tronco": [
-            "B33-C18",
-            "B34-C11"
+            "B52-C18",
+            "B53-C11"
           ]
         },
         {
@@ -440,7 +440,7 @@
             "area": "A05",
             "bloque": "nuevo: Vulcanismo planetario",
             "titulo": "Volcanismo basáltico: escudos, fisuras y llanuras planetarias",
-            "necesidad": "B34-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología."
+            "necesidad": "B53-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología."
           }
         },
         {
@@ -473,7 +473,7 @@
             "area": "A05",
             "bloque": "nuevo: Vulcanismo planetario",
             "titulo": "Vulcanismo marciano: provincias, edades y evolución",
-            "necesidad": "B34-C11 es genérico; el caso Marte (Tharsis, Olimpo) requiere clase propia."
+            "necesidad": "B53-C11 es genérico; el caso Marte (Tharsis, Olimpo) requiere clase propia."
           }
         },
         {
@@ -484,7 +484,7 @@
             "area": "A05",
             "bloque": "nuevo: Vulcanismo planetario",
             "titulo": "Actividad volcánica venusina: llanuras, coronas e indicios de actividad reciente",
-            "necesidad": "B35-C13 trata la atmósfera de Venus; la superficie y su vulcanismo no están cubiertos."
+            "necesidad": "B54-C13 trata la atmósfera de Venus; la superficie y su vulcanismo no están cubiertos."
           }
         },
         {
@@ -495,7 +495,7 @@
             "area": "A05",
             "bloque": "nuevo: Vulcanismo planetario",
             "titulo": "Criovulcanismo: lavas heladas y emisión de volátiles",
-            "necesidad": "B34-C15 describe Encélado; la mecánica del criovulcanismo como categoría no está cubierta."
+            "necesidad": "B53-C15 describe Encélado; la mecánica del criovulcanismo como categoría no está cubierta."
           }
         },
         {
@@ -514,8 +514,8 @@
           "tema": "Teledetección térmica volcánica",
           "destino": "existente",
           "tronco": [
-            "B38-C18",
-            "B38-C01"
+            "B57-C18",
+            "B57-C01"
           ]
         },
         {
@@ -523,8 +523,8 @@
           "tema": "Reconstrucción de historia eruptiva",
           "destino": "existente",
           "tronco": [
-            "B34-C09",
-            "B34-C11"
+            "B53-C09",
+            "B53-C11"
           ]
         }
       ]
@@ -538,9 +538,9 @@
           "tema": "Hielos de agua y otros volátiles",
           "destino": "existente",
           "tronco": [
-            "B36-C06",
+            "B55-C06",
             "B06-C19",
-            "B34-C13"
+            "B53-C13"
           ]
         },
         {
@@ -559,8 +559,8 @@
           "tema": "Fracturas de corteza helada",
           "destino": "existente",
           "tronco": [
-            "B34-C14",
-            "B34-C12"
+            "B53-C14",
+            "B53-C12"
           ]
         },
         {
@@ -568,9 +568,9 @@
           "tema": "Océanos subsuperficiales",
           "destino": "existente",
           "tronco": [
-            "B36-C15",
-            "B37-C09",
-            "B37-C10"
+            "B55-C15",
+            "B56-C09",
+            "B56-C10"
           ]
         },
         {
@@ -581,7 +581,7 @@
             "area": "A05",
             "bloque": "nuevo: Geofísica de interiores planetarios",
             "titulo": "Calentamiento por marea y equilibrio térmico en satélites",
-            "necesidad": "B42-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado)."
+            "necesidad": "B72-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado)."
           }
         },
         {
@@ -589,8 +589,8 @@
           "tema": "Plumas de Encélado",
           "destino": "existente",
           "tronco": [
-            "B34-C15",
-            "B37-C10"
+            "B53-C15",
+            "B56-C10"
           ]
         },
         {
@@ -598,7 +598,7 @@
           "tema": "Geología de Europa",
           "destino": "existente",
           "tronco": [
-            "B34-C14"
+            "B53-C14"
           ]
         },
         {
@@ -606,7 +606,7 @@
           "tema": "Terrenos poligonales",
           "destino": "existente",
           "tronco": [
-            "B34-C13"
+            "B53-C13"
           ]
         },
         {
@@ -617,7 +617,7 @@
             "area": "A05",
             "bloque": "nuevo: Criósferas y mundos helados",
             "titulo": "Sondeo radar de penetración de hielo",
-            "necesidad": "B38-C14 trata glaciares terrestres; no hay clase sobre radar de penetración (RIME, REASON, SHARAD) en hielo planetario."
+            "necesidad": "B57-C14 trata glaciares terrestres; no hay clase sobre radar de penetración (RIME, REASON, SHARAD) en hielo planetario."
           }
         },
         {
@@ -625,9 +625,9 @@
           "tema": "Inferencias de habitabilidad",
           "destino": "existente",
           "tronco": [
-            "B37-C09",
-            "B37-C10",
-            "B37-C06"
+            "B56-C09",
+            "B56-C10",
+            "B56-C06"
           ]
         }
       ]
@@ -641,8 +641,8 @@
           "tema": "Cartografía orbital",
           "destino": "existente",
           "tronco": [
-            "B34-C08",
-            "B34-C18"
+            "B53-C08",
+            "B53-C18"
           ]
         },
         {
@@ -650,8 +650,8 @@
           "tema": "Modelos digitales de elevación",
           "destino": "existente",
           "tronco": [
-            "B34-C07",
-            "B34-C18"
+            "B53-C07",
+            "B53-C18"
           ]
         },
         {
@@ -659,7 +659,7 @@
           "tema": "Estratigrafía relativa",
           "destino": "existente",
           "tronco": [
-            "B34-C09"
+            "B53-C09"
           ]
         },
         {
@@ -667,8 +667,8 @@
           "tema": "Unidades geológicas",
           "destino": "existente",
           "tronco": [
-            "B34-C09",
-            "B34-C18"
+            "B53-C09",
+            "B53-C18"
           ]
         },
         {
@@ -676,8 +676,8 @@
           "tema": "Análisis de lineamientos",
           "destino": "existente",
           "tronco": [
-            "B34-C12",
-            "B34-C18"
+            "B53-C12",
+            "B53-C18"
           ]
         },
         {
@@ -685,8 +685,8 @@
           "tema": "Composición mineral multiespectral",
           "destino": "existente",
           "tronco": [
-            "B34-C17",
-            "B38-C05"
+            "B53-C17",
+            "B57-C05"
           ]
         },
         {
@@ -694,9 +694,9 @@
           "tema": "Sistemas GIS",
           "destino": "existente",
           "tronco": [
-            "B34-C18",
-            "B38-C19",
-            "B34-C20"
+            "B53-C18",
+            "B57-C19",
+            "B53-C20"
           ]
         },
         {
@@ -705,7 +705,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Corrección geométrica y ortorrectificación de imágenes planetarias",
             "necesidad": "B15-C14 trata registro genérico; falta la ortorrectificación con modelos de cámara y geometría de misión."
           }
@@ -715,7 +715,7 @@
           "tema": "Mapas con incertidumbre",
           "destino": "existente",
           "tronco": [
-            "B34-C19"
+            "B53-C19"
           ]
         },
         {
@@ -724,9 +724,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A05",
-            "bloque": "B34",
+            "bloque": "B53",
             "titulo": "Publicación de mapas geológicos planetarios: estándares y leyendas",
-            "necesidad": "B34-C18 enseña a producir mapas; falta publicar con estándares de cartografía planetaria, leyenda y metadatos."
+            "necesidad": "B53-C18 enseña a producir mapas; falta publicar con estándares de cartografía planetaria, leyenda y metadatos."
           }
         }
       ]
@@ -743,7 +743,7 @@
             "area": "A05",
             "bloque": "nuevo: Exploración in situ y análisis de muestras planetarias",
             "titulo": "Instrumentación de sondas y rovers planetarios",
-            "necesidad": "B31 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros)."
+            "necesidad": "B47 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros)."
           }
         },
         {
@@ -754,7 +754,7 @@
             "area": "A05",
             "bloque": "nuevo: Exploración in situ y análisis de muestras planetarias",
             "titulo": "Muestreo superficial y estrategias de recolección",
-            "necesidad": "B40 trata extracción de volátiles; no el muestreo científico ni su estrategia."
+            "necesidad": "B59 trata extracción de volátiles; no el muestreo científico ni su estrategia."
           }
         },
         {
@@ -762,9 +762,9 @@
           "tema": "Espectrómetros de rover",
           "destino": "existente",
           "tronco": [
-            "B29-C14",
-            "B31-C08",
-            "B36-C10"
+            "B45-C14",
+            "B47-C08",
+            "B55-C10"
           ]
         },
         {
@@ -772,7 +772,7 @@
           "tema": "Análisis de meteoritos",
           "destino": "existente",
           "tronco": [
-            "B36-C12",
+            "B55-C12",
             "B06-C20"
           ]
         },
@@ -792,8 +792,8 @@
           "tema": "Contaminación de muestras",
           "destino": "existente",
           "tronco": [
-            "B36-C18",
-            "B37-C17"
+            "B55-C18",
+            "B56-C17"
           ]
         },
         {
@@ -822,7 +822,7 @@
           "tema": "Integración de mediciones",
           "destino": "existente",
           "tronco": [
-            "B36-C19",
+            "B55-C19",
             "B12-C16",
             "B13-C18"
           ]
@@ -832,7 +832,7 @@
           "tema": "Redacción de reporte de misión",
           "destino": "existente",
           "tronco": [
-            "B64-C19",
+            "B124-C19",
             "B12-C20"
           ]
         }

@@ -61,7 +61,7 @@ def validar_archivo(ruta: Path, ids: set[str], area_bloque: dict[str, str], erro
                 if not tr:
                     errores.append(f"{clave}: destino existente sin clases del tronco")
                 for c in tr:
-                    if not re.match(r"^B\d{2}-C\d{2}$", c) or c not in ids:
+                    if not re.match(r"^B\d{2,3}-C\d{2}$", c) or c not in ids:
                         errores.append(f"{clave}: {c} no es una clase existente del tronco")
             elif dest == "nueva":
                 nuevas += 1
@@ -76,7 +76,7 @@ def validar_archivo(ruta: Path, ids: set[str], area_bloque: dict[str, str], erro
                     errores.append(f"{clave}: area debe ser A02..A08 o 'nueva: <nombre>' (A01 no admite clases programadas)")
                 if re.match(r"^B0[1-8]$", bloque):
                     errores.append(f"{clave}: las clases programadas no pueden ir en B01-B08 (A01)")
-                elif re.match(r"^B\d{2}$", bloque):
+                elif re.match(r"^B\d{2,3}$", bloque):
                     if bloque not in area_bloque:
                         errores.append(f"{clave}: el bloque {bloque} no existe")
                     elif area_bloque[bloque] != area:

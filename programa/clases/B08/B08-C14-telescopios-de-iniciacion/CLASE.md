@@ -8,7 +8,7 @@
 
 Decimocuarta clase del bloque B08. Con los binoculares aprendiste apertura, aumento y pupila de salida; el telescopio usa las mismas ideas pero aumenta más y abarca menos. Aquí entiendes sus partes y cuentas básicas, y aprendes a no caer en la publicidad de aumentos. Nivel N1.
 
-Verás tipos de telescopio (refractor, reflector, Dobson), razón focal, aumento, pupila de salida, campo, poder separador y qué se puede ver con uno de iniciación. No verás monturas (C15), óptica geométrica detallada (B25) ni fabricación (B27).
+Verás tipos de telescopio (refractor, reflector, Dobson), razón focal, aumento, pupila de salida, campo, poder separador y qué se puede ver con uno de iniciación. No verás monturas (C15), óptica geométrica detallada (B41) ni fabricación (B43).
 
 ## 2. Por qué esta clase existe
 
@@ -75,7 +75,7 @@ Con el Dobson de 200 mm y F = 1200 mm: `N = 1200/200 = 6`. Con un ocular de 25 m
 
 ### 8.3 Qué límite impone la apertura
 
-El poder separador teórico es `θ = 1,22 λ/D` (ecuación de la teoría de la difracción; la desarrolla B26). Con λ = 550 nm: 70 mm → 1,98″; 114 mm → 1,21″; 200 mm → 0,69″. A la distancia de la Luna del caso (357 024 km), `θ` equivale a rasgos de 3,4 km, 2,1 km y 1,2 km respectivamente (calculados). Son límites teóricos para un instrumento perfecto: la turbulencia de la atmósfera (el *seeing*) y la calidad de la óptica los empeoran, de manera que en la práctica los rasgos visibles son mayores. Un aumento mayor que el necesario para aprovechar ese detalle solo hace la imagen más grande y borrosa: de ahí que 600× en 60 mm (pupila de salida de 0,1 mm) sea absurdo.
+El poder separador teórico es `θ = 1,22 λ/D` (ecuación de la teoría de la difracción; la desarrolla B42). Con λ = 550 nm: 70 mm → 1,98″; 114 mm → 1,21″; 200 mm → 0,69″. A la distancia de la Luna del caso (357 024 km), `θ` equivale a rasgos de 3,4 km, 2,1 km y 1,2 km respectivamente (calculados). Son límites teóricos para un instrumento perfecto: la turbulencia de la atmósfera (el *seeing*) y la calidad de la óptica los empeoran, de manera que en la práctica los rasgos visibles son mayores. Un aumento mayor que el necesario para aprovechar ese detalle solo hace la imagen más grande y borrosa: de ahí que 600× en 60 mm (pupila de salida de 0,1 mm) sea absurdo.
 
 ### 8.4 La primera noche
 

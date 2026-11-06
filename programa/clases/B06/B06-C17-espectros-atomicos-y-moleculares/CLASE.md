@@ -8,13 +8,13 @@
 
 Decimoséptima clase del bloque B06 y apertura de su último tramo, donde la química se encuentra con la luz. En C01 calculaste las líneas del hidrógeno; en B01-C09 viste que la luz trae información. Aquí juntas ambas cosas para leer un espectro: reconocer qué líneas hay, de qué elemento son y qué dicen del movimiento del objeto. Sigues en el nivel N1.
 
-Verás tipos de espectros (continuo, de emisión, de absorción), las series del hidrógeno más allá de Balmer, cómo identificar líneas con una lista de referencia, cómo obtener el corrimiento al rojo `z` y la velocidad, y la idea de los espectros moleculares (rotación). No verás instrumentación (B29) ni cálculos cuánticos de intensidades.
+Verás tipos de espectros (continuo, de emisión, de absorción), las series del hidrógeno más allá de Balmer, cómo identificar líneas con una lista de referencia, cómo obtener el corrimiento al rojo `z` y la velocidad, y la idea de los espectros moleculares (rotación). No verás instrumentación (B45) ni cálculos cuánticos de intensidades.
 
 ## 2. Por qué esta clase existe
 
 En B01-C01 estimaste la velocidad de una galaxia con una sola línea, H-alfa en 662,9 nm. Pero ¿cómo se sabe que esa línea es H-alfa y no otra? La respuesta es que nunca se confía en una sola línea: se buscan varias, con el patrón de separaciones del hidrógeno, y todas deben dar el mismo `z`. Esa verificación cruzada es lo que convierte una rayita en una medida.
 
-La decisión central es: **dada una lista de longitudes de onda observadas, ¿qué elemento y qué `z` las explican, con qué margen de error, y qué pasaría si me equivocara de línea?** Aprenderás a comparar con una lista de referencia, a ajustar `z` con varias líneas y a evaluar la consistencia. Es base de B29 y de todo análisis de la composición de estrellas y galaxias.
+La decisión central es: **dada una lista de longitudes de onda observadas, ¿qué elemento y qué `z` las explican, con qué margen de error, y qué pasaría si me equivocara de línea?** Aprenderás a comparar con una lista de referencia, a ajustar `z` con varias líneas y a evaluar la consistencia. Es base de B45 y de todo análisis de la composición de estrellas y galaxias.
 
 ## 3. Lo que podrás hacer al terminar
 
@@ -270,7 +270,7 @@ python programa/clases/B06/B06-C17-espectros-atomicos-y-moleculares/identificar_
 
 **Olvidar el sentido del signo de `z`.** Se corrige con el ejercicio 9.
 
-**Aplicar `v = c z` a `z` grande.** Para `z` grande se necesita la relatividad (B19); se corrige reconociendo `z ≪ 1`.
+**Aplicar `v = c z` a `z` grande.** Para `z` grande se necesita la relatividad (B26); se corrige reconociendo `z ≪ 1`.
 
 **Confundir emisión con absorción.** Se corrige con la sección 8.1.
 
@@ -302,7 +302,7 @@ Un espectro es una huella: las líneas de emisión o absorción de un elemento t
 
 **Glosario español–inglés.** espectro · *spectrum*; línea de emisión · *emission line*; línea de absorción · *absorption line*; corrimiento al rojo · *redshift*; serie espectral · *spectral series*; rotor rígido · *rigid rotor*; longitud de onda de reposo · *rest wavelength*.
 
-**Continuidad.** B06-C18 estudia qué ocurre cuando un fotón de estas energías incide sobre una molécula. B29 desarrolla la espectroscopia astronómica y B19, el corrimiento al rojo cosmológico.
+**Continuidad.** B06-C18 estudia qué ocurre cuando un fotón de estas energías incide sobre una molécula. B45 desarrolla la espectroscopia astronómica y B26, el corrimiento al rojo cosmológico.
 
 **Referencias:** ver sección 11. S1 y S2 son datos oficiales; el espectro observado y el rotor son sintéticos.
 

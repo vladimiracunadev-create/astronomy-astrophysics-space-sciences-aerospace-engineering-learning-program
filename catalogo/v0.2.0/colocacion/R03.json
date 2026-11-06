@@ -10,9 +10,9 @@
           "tema": "Trazado paraxial",
           "destino": "existente",
           "tronco": [
-            "B25-C05",
-            "B25-C06",
-            "B25-C08"
+            "B41-C05",
+            "B41-C06",
+            "B41-C08"
           ]
         },
         {
@@ -23,7 +23,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Trazado exacto de rayos y aberraciones de orden superior",
-            "necesidad": "B25-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales."
+            "necesidad": "B41-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales."
           }
         },
         {
@@ -42,9 +42,9 @@
           "tema": "Sistemas reflectivos",
           "destino": "existente",
           "tronco": [
-            "B25-C04",
-            "B25-C16",
-            "B25-C17"
+            "B41-C04",
+            "B41-C16",
+            "B41-C17"
           ]
         },
         {
@@ -52,8 +52,8 @@
           "tema": "Sistemas refractivos",
           "destino": "existente",
           "tronco": [
-            "B25-C05",
-            "B25-C15"
+            "B41-C05",
+            "B41-C15"
           ]
         },
         {
@@ -64,7 +64,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Sistemas catadióptricos: Schmidt y Maksutov",
-            "necesidad": "B25 trata refractores y reflectores por separado; ninguna clase combina ambos tipos de elementos."
+            "necesidad": "B41 trata refractores y reflectores por separado; ninguna clase combina ambos tipos de elementos."
           }
         },
         {
@@ -72,7 +72,7 @@
           "tema": "Diseño de pupilas",
           "destino": "existente",
           "tronco": [
-            "B25-C09"
+            "B41-C09"
           ]
         },
         {
@@ -83,7 +83,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Telecentricidad, viñeteo y diseño del campo",
-            "necesidad": "B25-C11 trata campo y escala; falta la telecentricidad y el viñeteo como criterios de diseño."
+            "necesidad": "B41-C11 trata campo y escala; falta la telecentricidad y el viñeteo como criterios de diseño."
           }
         },
         {
@@ -119,8 +119,8 @@
           "tema": "Aberración cromática",
           "destino": "existente",
           "tronco": [
-            "B25-C14",
-            "B25-C15"
+            "B41-C14",
+            "B41-C15"
           ]
         },
         {
@@ -128,8 +128,8 @@
           "tema": "Coma y astigmatismo",
           "destino": "existente",
           "tronco": [
-            "B25-C13",
-            "B25-C14"
+            "B41-C13",
+            "B41-C14"
           ]
         },
         {
@@ -140,7 +140,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Curvatura de campo y aplanadores",
-            "necesidad": "B25-C13 y B25-C14 cubren otras aberraciones; ninguna trata la curvatura de campo ni los elementos que la corrigen."
+            "necesidad": "B41-C13 y B41-C14 cubren otras aberraciones; ninguna trata la curvatura de campo ni los elementos que la corrigen."
           }
         },
         {
@@ -195,7 +195,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Sensibilidad térmica del desempeño óptico y atermalización",
-            "necesidad": "B27-C11 trata dilatación mecánica; falta su efecto en foco y aberraciones y el diseño atérmico."
+            "necesidad": "B43-C11 trata dilatación mecánica; falta su efecto en foco y aberraciones y el diseño atérmico."
           }
         },
         {
@@ -217,7 +217,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Criterios de aceptación: Strehl, error de frente de onda y especificaciones",
-            "necesidad": "B26-C06 y B26-C07 definen PSF y OTF; falta traducirlos en criterios de aceptación y especificaciones verificables."
+            "necesidad": "B42-C06 y B42-C07 definen PSF y OTF; falta traducirlos en criterios de aceptación y especificaciones verificables."
           }
         }
       ]
@@ -232,9 +232,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B27",
+            "bloque": "B43",
             "titulo": "Selección de vidrios ópticos: catálogos, homogeneidad y diagramas",
-            "necesidad": "B27-C03 trata sustratos de espejos; falta elegir vidrios para lentes según dispersión, transmisión y homogeneidad."
+            "necesidad": "B43-C03 trata sustratos de espejos; falta elegir vidrios para lentes según dispersión, transmisión y homogeneidad."
           }
         },
         {
@@ -242,7 +242,7 @@
           "tema": "Sustratos de espejos",
           "destino": "existente",
           "tronco": [
-            "B27-C03"
+            "B43-C03"
           ]
         },
         {
@@ -250,7 +250,7 @@
           "tema": "Esmerilado controlado",
           "destino": "existente",
           "tronco": [
-            "B27-C04"
+            "B43-C04"
           ]
         },
         {
@@ -258,7 +258,7 @@
           "tema": "Pulido de precisión",
           "destino": "existente",
           "tronco": [
-            "B27-C05"
+            "B43-C05"
           ]
         },
         {
@@ -267,9 +267,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B27",
+            "bloque": "B43",
             "titulo": "Interferometría de superficie y mapas de error de forma",
-            "necesidad": "B26-C09 enseña la interferometría de dos haces; falta aplicarla a medir y mapear el error de forma de una superficie."
+            "necesidad": "B42-C09 enseña la interferometría de dos haces; falta aplicarla a medir y mapear el error de forma de una superficie."
           }
         },
         {
@@ -278,7 +278,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B27",
+            "bloque": "B43",
             "titulo": "Medición de rugosidad y su efecto en la luz dispersa",
             "necesidad": "Ninguna clase mide la rugosidad superficial ni vincula su valor con dispersión y pérdida de contraste."
           }
@@ -288,7 +288,7 @@
           "tema": "Recubrimientos reflectantes",
           "destino": "existente",
           "tronco": [
-            "B27-C07"
+            "B43-C07"
           ]
         },
         {
@@ -297,9 +297,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B27",
+            "bloque": "B43",
             "titulo": "Recubrimientos antirreflectantes de capas múltiples",
-            "necesidad": "B27-C07 trata reflectantes metálicos; falta el diseño de capas antirreflectantes y su respuesta espectral."
+            "necesidad": "B43-C07 trata reflectantes metálicos; falta el diseño de capas antirreflectantes y su respuesta espectral."
           }
         },
         {
@@ -307,7 +307,7 @@
           "tema": "Metrología en taller",
           "destino": "existente",
           "tronco": [
-            "B27-C06",
+            "B43-C06",
             "B13-C20"
           ]
         },
@@ -316,9 +316,9 @@
           "tema": "Inspección de piezas",
           "destino": "existente",
           "tronco": [
-            "B50-C16",
-            "B50-C18",
-            "B50-C19"
+            "B84-C16",
+            "B84-C18",
+            "B84-C19"
           ]
         }
       ]
@@ -332,7 +332,7 @@
           "tema": "Diseño de montura altacimutal",
           "destino": "existente",
           "tronco": [
-            "B27-C13"
+            "B43-C13"
           ]
         },
         {
@@ -340,8 +340,8 @@
           "tema": "Diseño de montura ecuatorial",
           "destino": "existente",
           "tronco": [
-            "B27-C12",
-            "B27-C17"
+            "B43-C12",
+            "B43-C17"
           ]
         },
         {
@@ -350,9 +350,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B27",
+            "bloque": "B43",
             "titulo": "Rodamientos y apoyos de precisión en telescopios",
-            "necesidad": "B50-C14 trata rodamientos espaciales; falta la selección y precarga de apoyos para monturas terrestres."
+            "necesidad": "B84-C14 trata rodamientos espaciales; falta la selección y precarga de apoyos para monturas terrestres."
           }
         },
         {
@@ -360,7 +360,7 @@
           "tema": "Transmisiones y holguras",
           "destino": "existente",
           "tronco": [
-            "B27-C14"
+            "B43-C14"
           ]
         },
         {
@@ -368,7 +368,7 @@
           "tema": "Motores y servos",
           "destino": "existente",
           "tronco": [
-            "B27-C15"
+            "B43-C15"
           ]
         },
         {
@@ -376,7 +376,7 @@
           "tema": "Encoders absolutos",
           "destino": "existente",
           "tronco": [
-            "B27-C16"
+            "B43-C16"
           ]
         },
         {
@@ -385,9 +385,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B27",
+            "bloque": "B43",
             "titulo": "Modelo de flexiones y de apuntado de una montura",
-            "necesidad": "B27-C10 y B50-C12 dan estructura y elementos finitos; falta el modelo de apuntado que corrige las flexiones."
+            "necesidad": "B43-C10 y B84-C12 dan estructura y elementos finitos; falta el modelo de apuntado que corrige las flexiones."
           }
         },
         {
@@ -395,8 +395,8 @@
           "tema": "Alineación y apuntado",
           "destino": "existente",
           "tronco": [
-            "B27-C17",
-            "B27-C18"
+            "B43-C17",
+            "B43-C18"
           ]
         },
         {
@@ -404,8 +404,8 @@
           "tema": "Aislamiento de vibraciones",
           "destino": "existente",
           "tronco": [
-            "B50-C11",
-            "B31-C11"
+            "B84-C11",
+            "B47-C11"
           ]
         },
         {
@@ -413,8 +413,8 @@
           "tema": "Mantenimiento preventivo",
           "destino": "existente",
           "tronco": [
-            "B27-C19",
-            "B32-C14"
+            "B43-C19",
+            "B48-C14"
           ]
         }
       ]
@@ -428,8 +428,8 @@
           "tema": "Sensores de frente de onda",
           "destino": "existente",
           "tronco": [
-            "B26-C13",
-            "B26-C14"
+            "B42-C13",
+            "B42-C14"
           ]
         },
         {
@@ -438,9 +438,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B26",
+            "bloque": "B42",
             "titulo": "Estrellas guía naturales y cobertura de cielo",
-            "necesidad": "B26-C17 trata estrellas guía artificiales; falta el presupuesto de fotones y la cobertura de cielo con estrellas naturales."
+            "necesidad": "B42-C17 trata estrellas guía artificiales; falta el presupuesto de fotones y la cobertura de cielo con estrellas naturales."
           }
         },
         {
@@ -448,7 +448,7 @@
           "tema": "Estrellas guía láser",
           "destino": "existente",
           "tronco": [
-            "B26-C17"
+            "B42-C17"
           ]
         },
         {
@@ -456,7 +456,7 @@
           "tema": "Espejos deformables",
           "destino": "existente",
           "tronco": [
-            "B26-C15"
+            "B42-C15"
           ]
         },
         {
@@ -464,7 +464,7 @@
           "tema": "Control en lazo cerrado",
           "destino": "existente",
           "tronco": [
-            "B26-C16"
+            "B42-C16"
           ]
         },
         {
@@ -472,8 +472,8 @@
           "tema": "Turbulencia atmosférica",
           "destino": "existente",
           "tronco": [
-            "B26-C11",
-            "B26-C12"
+            "B42-C11",
+            "B42-C12"
           ]
         },
         {
@@ -482,9 +482,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B26",
+            "bloque": "B42",
             "titulo": "Reconstructores de frente de onda: zonal y modal",
-            "necesidad": "B26-C13 mide el frente de onda; falta reconstruir la fase a partir de las pendientes con métodos zonal y modal."
+            "necesidad": "B42-C13 mide el frente de onda; falta reconstruir la fase a partir de las pendientes con métodos zonal y modal."
           }
         },
         {
@@ -492,7 +492,7 @@
           "tema": "Arquitectura multiconjugada",
           "destino": "existente",
           "tronco": [
-            "B26-C18"
+            "B42-C18"
           ]
         },
         {
@@ -501,7 +501,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B26",
+            "bloque": "B42",
             "titulo": "Calibración de la matriz de interacción y aberraciones no comunes",
             "necesidad": "Ninguna clase trata cómo calibrar el lazo de óptica adaptativa ni las aberraciones fuera del camino común."
           }
@@ -512,9 +512,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B26",
+            "bloque": "B42",
             "titulo": "Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada",
-            "necesidad": "B26-C06 y B26-C07 definen PSF y OTF; falta evaluar la corrección con métricas estandarizadas."
+            "necesidad": "B42-C06 y B42-C07 definen PSF y OTF; falta evaluar la corrección con métricas estandarizadas."
           }
         }
       ]
@@ -528,7 +528,7 @@
           "tema": "Calibración fotométrica",
           "destino": "existente",
           "tronco": [
-            "B29-C09",
+            "B45-C09",
             "B13-C17"
           ]
         },
@@ -537,8 +537,8 @@
           "tema": "Filtros astronómicos",
           "destino": "existente",
           "tronco": [
-            "B29-C02",
-            "B29-C03"
+            "B45-C02",
+            "B45-C03"
           ]
         },
         {
@@ -547,9 +547,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B29",
+            "bloque": "B45",
             "titulo": "Estándares fotométricos y sistemas de referencia",
-            "necesidad": "B29-C02 presenta sistemas de filtros; falta usar estrellas estándar y sistemas de referencia para calibrar la escala."
+            "necesidad": "B45-C02 presenta sistemas de filtros; falta usar estrellas estándar y sistemas de referencia para calibrar la escala."
           }
         },
         {
@@ -558,7 +558,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B29",
+            "bloque": "B45",
             "titulo": "Extinción atmosférica, masa de aire y coeficientes de color",
             "necesidad": "Ninguna clase corrige la absorción de la atmósfera en la fotometría terrestre."
           }
@@ -569,9 +569,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B29",
+            "bloque": "B45",
             "titulo": "Fotometría de apertura y estimación del cielo",
-            "necesidad": "B29-C17 trata fotometría diferencial; falta elegir apertura, estimar cielo y razonar el error."
+            "necesidad": "B45-C17 trata fotometría diferencial; falta elegir apertura, estimar cielo y razonar el error."
           }
         },
         {
@@ -580,9 +580,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B29",
+            "bloque": "B45",
             "titulo": "Fotometría por ajuste de PSF",
-            "necesidad": "B26-C06 define la PSF; falta ajustarla para medir flujos en campos poblados."
+            "necesidad": "B42-C06 define la PSF; falta ajustarla para medir flujos en campos poblados."
           }
         },
         {
@@ -590,7 +590,7 @@
           "tema": "Selección de comparación",
           "destino": "existente",
           "tronco": [
-            "B29-C17"
+            "B45-C17"
           ]
         },
         {
@@ -599,7 +599,7 @@
           "destino": "existente",
           "tronco": [
             "B12-C16",
-            "B29-C19"
+            "B45-C19"
           ]
         },
         {
@@ -607,8 +607,8 @@
           "tema": "Detección de variabilidad",
           "destino": "existente",
           "tronco": [
-            "B22-C14",
-            "B22-C19"
+            "B29-C14",
+            "B29-C19"
           ]
         },
         {
@@ -616,7 +616,7 @@
           "tema": "Construcción de curvas de luz",
           "destino": "existente",
           "tronco": [
-            "B22-C02"
+            "B29-C02"
           ]
         }
       ]
@@ -630,8 +630,8 @@
           "tema": "Planificador astronómico",
           "destino": "existente",
           "tronco": [
-            "B32-C04",
-            "B32-C20"
+            "B48-C04",
+            "B48-C20"
           ]
         },
         {
@@ -640,9 +640,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B32",
+            "bloque": "B48",
             "titulo": "Protocolos estándar de control instrumental (ASCOM e INDI)",
-            "necesidad": "B32-C09 trata control remoto; falta la capa de protocolos estándar para integrar equipos de distintos fabricantes."
+            "necesidad": "B48-C09 trata control remoto; falta la capa de protocolos estándar para integrar equipos de distintos fabricantes."
           }
         },
         {
@@ -650,7 +650,7 @@
           "tema": "Control de cúpula",
           "destino": "existente",
           "tronco": [
-            "B32-C08"
+            "B48-C08"
           ]
         },
         {
@@ -659,7 +659,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B32",
+            "bloque": "B48",
             "titulo": "Control automático del enfocador y autoenfoque",
             "necesidad": "Ninguna clase trata el control del foco ni los algoritmos de autoenfoque durante la noche."
           }
@@ -669,8 +669,8 @@
           "tema": "Adquisición automatizada",
           "destino": "existente",
           "tronco": [
-            "B32-C09",
-            "B28-C18"
+            "B48-C09",
+            "B44-C18"
           ]
         },
         {
@@ -678,10 +678,10 @@
           "tema": "Secuencias de calibración",
           "destino": "existente",
           "tronco": [
-            "B32-C13",
-            "B28-C12",
-            "B28-C13",
-            "B28-C14"
+            "B48-C13",
+            "B44-C12",
+            "B44-C13",
+            "B44-C14"
           ]
         },
         {
@@ -689,9 +689,9 @@
           "tema": "Observatorio remoto",
           "destino": "existente",
           "tronco": [
-            "B32-C07",
-            "B32-C09",
-            "B32-C10"
+            "B48-C07",
+            "B48-C09",
+            "B48-C10"
           ]
         },
         {
@@ -699,7 +699,7 @@
           "tema": "Manejo de fallas",
           "destino": "existente",
           "tronco": [
-            "B32-C15"
+            "B48-C15"
           ]
         },
         {
@@ -708,9 +708,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A04",
-            "bloque": "B32",
+            "bloque": "B48",
             "titulo": "Observabilidad del software de observatorio: registros, métricas y alertas",
-            "necesidad": "B54-C08 trata telemetría de satélites; falta registrar y vigilar el software de un observatorio."
+            "necesidad": "B88-C08 trata telemetría de satélites; falta registrar y vigilar el software de un observatorio."
           }
         },
         {
@@ -718,8 +718,8 @@
           "tema": "Seguridad operacional",
           "destino": "existente",
           "tronco": [
-            "B32-C07",
-            "B54-C17"
+            "B48-C07",
+            "B88-C17"
           ]
         }
       ]
@@ -733,8 +733,8 @@
           "tema": "Definición de requisitos ópticos",
           "destino": "existente",
           "tronco": [
-            "B27-C01",
-            "B49-C04"
+            "B43-C01",
+            "B83-C04"
           ]
         },
         {
@@ -742,8 +742,8 @@
           "tema": "Selección de arquitectura",
           "destino": "existente",
           "tronco": [
-            "B27-C02",
-            "B49-C07"
+            "B43-C02",
+            "B83-C07"
           ]
         },
         {
@@ -754,7 +754,7 @@
             "area": "A04",
             "bloque": "nuevo: Diseño óptico computacional y tolerancias",
             "titulo": "Presupuesto de error de frente de onda de un instrumento",
-            "necesidad": "B13-C13 y B49-C09 trazan presupuestos de incertidumbre y masa; falta repartir el error de frente de onda entre diseño, fabricación y alineación."
+            "necesidad": "B13-C13 y B83-C09 trazan presupuestos de incertidumbre y masa; falta repartir el error de frente de onda entre diseño, fabricación y alineación."
           }
         },
         {
@@ -762,8 +762,8 @@
           "tema": "Modelo óptico detallado",
           "destino": "existente",
           "tronco": [
-            "B25-C08",
-            "B25-C20"
+            "B41-C08",
+            "B41-C20"
           ]
         },
         {
@@ -771,9 +771,9 @@
           "tema": "Diseño mecánico de soporte",
           "destino": "existente",
           "tronco": [
-            "B27-C09",
-            "B27-C10",
-            "B27-C20"
+            "B43-C09",
+            "B43-C10",
+            "B43-C20"
           ]
         },
         {
@@ -781,9 +781,9 @@
           "tema": "Diseño de sensado",
           "destino": "existente",
           "tronco": [
-            "B28-C04",
-            "B28-C05",
-            "B28-C17"
+            "B44-C04",
+            "B44-C05",
+            "B44-C17"
           ]
         },
         {
@@ -791,7 +791,7 @@
           "tema": "Plan de calibración",
           "destino": "existente",
           "tronco": [
-            "B28-C20",
+            "B44-C20",
             "B13-C19",
             "B13-C20"
           ]
@@ -801,9 +801,9 @@
           "tema": "Plan de pruebas",
           "destino": "existente",
           "tronco": [
-            "B49-C17",
-            "B56-C08",
-            "B56-C16"
+            "B83-C17",
+            "B90-C08",
+            "B90-C16"
           ]
         },
         {
@@ -811,8 +811,8 @@
           "tema": "Evaluación de costo y riesgo",
           "destino": "existente",
           "tronco": [
-            "B49-C16",
-            "B64-C05"
+            "B83-C16",
+            "B124-C05"
           ]
         },
         {
@@ -820,8 +820,8 @@
           "tema": "Revisión final de diseño",
           "destino": "existente",
           "tronco": [
-            "B49-C13",
-            "B49-C14"
+            "B83-C13",
+            "B83-C14"
           ]
         }
       ]

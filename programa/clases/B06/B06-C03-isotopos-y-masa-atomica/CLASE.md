@@ -8,7 +8,7 @@
 
 Tercera clase del bloque B06. En C02 viste que un elemento queda definido por su número atómico `Z`. Aquí descubres que no todos los átomos de un elemento pesan lo mismo, y que de ahí sale la «masa atómica» de las tablas. Sigues en el nivel N1.
 
-Verás qué es un isótopo, cómo se calcula una masa atómica media a partir de las masas y las abundancias de sus isótopos, por qué la tabla de pesos atómicos a veces da un intervalo y cómo los cocientes isotópicos se usan en astronomía como huellas del origen de un material. No verás todavía desintegración radiactiva ni nucleosíntesis (B24 y B17).
+Verás qué es un isótopo, cómo se calcula una masa atómica media a partir de las masas y las abundancias de sus isótopos, por qué la tabla de pesos atómicos a veces da un intervalo y cómo los cocientes isotópicos se usan en astronomía como huellas del origen de un material. No verás todavía desintegración radiactiva ni nucleosíntesis (B31 y B24).
 
 ## 2. Por qué esta clase existe
 

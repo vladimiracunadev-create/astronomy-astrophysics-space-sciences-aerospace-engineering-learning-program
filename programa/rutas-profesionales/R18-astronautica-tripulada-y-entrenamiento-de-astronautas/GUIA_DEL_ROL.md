@@ -17,7 +17,7 @@ Su unidad de trabajo es el **escenario de entrenamiento y su evaluación**: qué
 - **No es medicina espacial** ([R19](../R19-medicina-y-bioingenieria-espacial/INDICE.md)): conoce los efectos del vuelo en el cuerpo, pero el diagnóstico y el tratamiento los hacen profesionales de la salud.
 - **No es robótica espacial** ([R17](../R17-robotica-espacial-y-sistemas-autonomos/INDICE.md)): coordina con robots; no los diseña.
 - **No es arquitectura de hábitats** ([R20](../R20-arquitectura-y-habitats-extraterrestres/INDICE.md)): conoce los sistemas de soporte vital desde el uso, no desde el diseño.
-- **No es control de misión puro** (tronco B57): interactúa con él, pero su foco es la tripulación.
+- **No es control de misión puro** (tronco B96): interactúa con él, pero su foco es la tripulación.
 - **No es entrenador deportivo ni psicólogo clínico.** El acondicionamiento y la salud mental tienen profesionales propios.
 
 ## Un día de trabajo

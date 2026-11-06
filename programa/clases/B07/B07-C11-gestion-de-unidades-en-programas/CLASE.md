@@ -294,7 +294,7 @@ El producto es tu **hoja de unidades verificadas**: tabla de resultados con unid
 
 ## 21. Ética, seguridad y límites
 
-Los errores de unidades pueden tener consecuencias graves en sistemas reales; verificar unidades y contrastar con referencias es una responsabilidad del autor del software. No sustituye la revisión por pares ni la verificación y validación de software crítico (bloque B54). Sin datos personales.
+Los errores de unidades pueden tener consecuencias graves en sistemas reales; verificar unidades y contrastar con referencias es una responsabilidad del autor del software. No sustituye la revisión por pares ni la verificación y validación de software crítico (bloque B88). Sin datos personales.
 
 ## 22. Para cerrar y seguir
 

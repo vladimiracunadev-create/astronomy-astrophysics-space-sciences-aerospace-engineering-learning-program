@@ -8,7 +8,7 @@
 
 Duodécima clase del bloque B08 y cierre de la parte de observación a simple vista. En [B08-C11](../B08-C11-magnitudes-aparentes-y-brillo/CLASE.md) calculaste cuánto podría ver un instrumento en un cielo ideal; aquí estudias **qué empeora ese cielo**: la Luna, la luz artificial y la propia atmósfera, y cómo medirlo. Nivel N1.
 
-Verás la magnitud límite como medida del cielo, la luz de la Luna como contaminación natural cuantificable, el atlas mundial de brillo artificial, los observatorios de Chile como contexto y buenas prácticas para reducir tu impacto. No verás fotometría del cielo con instrumentos (B28–B29).
+Verás la magnitud límite como medida del cielo, la luz de la Luna como contaminación natural cuantificable, el atlas mundial de brillo artificial, los observatorios de Chile como contexto y buenas prácticas para reducir tu impacto. No verás fotometría del cielo con instrumentos (B44–B45).
 
 ## 2. Por qué esta clase existe
 
@@ -126,7 +126,7 @@ Tres compañeros reportan `5,8`, `6,0` y `5,5` (datos sintéticos, ilustrativos)
 
 ## 14. Comparación de métodos
 
-El **conteo visual** es gratuito pero depende del ojo; un **medidor de brillo del cielo** da una cifra física, pero cuesta y exige calibración (B28); el **atlas** (S2) da un contexto regional pero no tu patio. La **posición de la Luna** es el factor natural más fácil de controlar eligiendo la fecha. Un informe sólido combina al menos dos.
+El **conteo visual** es gratuito pero depende del ojo; un **medidor de brillo del cielo** da una cifra física, pero cuesta y exige calibración (B44); el **atlas** (S2) da un contexto regional pero no tu patio. La **posición de la Luna** es el factor natural más fácil de controlar eligiendo la fecha. Un informe sólido combina al menos dos.
 
 ## 15. Práctica guiada
 

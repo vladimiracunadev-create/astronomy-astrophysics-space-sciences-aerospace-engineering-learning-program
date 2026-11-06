@@ -40,12 +40,12 @@ Hay mucho cálculo reproducible y mucha documentación. La habilidad no es resol
 
 ### Conocimiento técnico
 
-- **Mecánica de sólidos:** elasticidad, pandeo, uniones atornilladas, fatiga y fractura ([**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md)).
+- **Mecánica de sólidos:** elasticidad, pandeo, uniones atornilladas, fatiga y fractura ([**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md)).
 - **Elementos finitos:** malla, convergencia, condiciones de contorno, análisis modal y correlación con ensayos; apoyado en [**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) y [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md).
-- **Transferencia de calor:** conducción y radiación, modelos de nodos, casos extremos caliente y frío ([**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md)).
+- **Transferencia de calor:** conducción y radiación, modelos de nodos, casos extremos caliente y frío ([**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)).
 - **Materiales:** aleaciones, compuestos, polímeros y cerámicos; comportamiento en vacío y desgasificación.
 - **Entorno espacial:** oxígeno atómico, radiación, ultravioleta, micrometeoritos y contaminación.
-- **Ensayos y calificación:** vibración, choque, vacío térmico y criterios de aceptación ([**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md)).
+- **Ensayos y calificación:** vibración, choque, vacío térmico y criterios de aceptación ([**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md)).
 - **Incertidumbre y medición:** propagar errores y justificar un margen con números ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)).
 - **Programación** para automatizar cálculos y hacerlos reproducibles ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
@@ -86,30 +86,30 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 7. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 8. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 9. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-10. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — A07 · 23 clases
-11. 📚 [**B53** · Sensores y control de actitud](../programa/tronco-comun/B53-sensores-y-control-de-actitud.md) — A07 · 22 clases
-12. 📚 [**B54** · Aviónica y software crítico espacial](../programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) — A07 · 44 clases
-13. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — A07 · 25 clases
+10. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — A07 · 23 clases
+11. 📚 [**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md) — A07 · 22 clases
+12. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — A07 · 44 clases
+13. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — A07 · 25 clases
 
 ### 🎯 El núcleo del rol
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-1. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B31-` C11
+1. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B47-` C11
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-2. 📚 [**B47** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B47-dinamica-de-lanzamiento-y-reentrada.md) — usa 1 de 25 clases: `B47-` C10
+2. 📚 [**B77** · Dinámica de lanzamiento y reentrada](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) — usa 1 de 25 clases: `B77-` C10
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-3. 📚 [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) — usa 33 de 38 clases: `B50-` C02–C19, C21–C35
-4. 📚 [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) — usa 18 de 29 clases: `B51-` C01, C04, C06–C07, C09–C11, C13–C14, C16, C18–C19, C24–C29
-5. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 11 de 24 clases: `B56-` C04, C09–C12, C17–C20, C23–C24
+3. 📚 [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) — usa 33 de 38 clases: `B84-` C02–C19, C21–C35
+4. 📚 [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) — usa 18 de 29 clases: `B85-` C01, C04, C06–C07, C09–C11, C13–C14, C16, C18–C19, C24–C29
+5. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 11 de 24 clases: `B90-` C04, C09–C12, C17–C20, C23–C24
 
 **A09 · Astronáutica humana, medicina y hábitats**
 
-6. 📚 [**B60** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md) — usa 1 de 29 clases: `B60-` C15
+6. 📚 [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) — usa 1 de 29 clases: `B106-` C15
 
 <!-- /ruta -->
 
@@ -152,9 +152,9 @@ Roles vecinos con los que se comparte formación: [satélites y CubeSats](ingeni
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con física y matemática: [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md), [**B09** · Cálculo diferencial e integral](../programa/tronco-comun/B09-calculo-diferencial-e-integral.md), [**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) y [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md).
-2. Aprende estructuras y materiales con [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) y resuelve una pieza con elementos finitos y su solución analítica.
-3. Modela el control térmico con [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md): un satélite pequeño con caso caliente y frío.
-4. Aprende a demostrar con [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) y escribe un plan de calificación con criterios de aceptación.
+2. Aprende estructuras y materiales con [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) y resuelve una pieza con elementos finitos y su solución analítica.
+3. Modela el control térmico con [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md): un satélite pequeño con caso caliente y frío.
+4. Aprende a demostrar con [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) y escribe un plan de calificación con criterios de aceptación.
 5. Reúne tu **expediente** y guarda su historia: primera versión, retroalimentación y cambios.
 
 <!-- pie:inicio -->

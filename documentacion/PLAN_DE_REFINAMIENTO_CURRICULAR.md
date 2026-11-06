@@ -16,7 +16,7 @@ Mediciones reproducibles sobre `catalogo/clases.jsonl`:
 | Clases derivadas por plantilla | 1.920 de 3.840 clases de rutas (todas las pares) repiten el tema anterior con un prefijo fijo: «Caso práctico de…», «Análisis y evaluación de…», «Modelado o interpretación de…», «Validación de resultados de…», «Aplicación profesional de…» | Cada módulo tiene 10 temas propios, no 20; no hay casos distintos |
 | Descripciones rotativas | Las descripciones preliminares son un conjunto reducido de frases que rotan por posición (p. ej. 192 módulos comparten la misma frase en la clase 4) | No informan decisión, dato ni evidencia de cada clase |
 | Títulos defectuosos | 133 títulos de rutas concatenan el nombre del módulo (p. ej. «Equilibrio radiativo — Atmósferas estelares») | Corrección editorial |
-| Solapamiento ruta/tronco | 88 temas de rutas casi idénticos a clases de bloques (p. ej. B27-C13 y R03-M04-C01; B18-C08 y R02-M05-C03) | Riesgo de duplicación; falta declarar reutilización o profundización |
+| Solapamiento ruta/tronco | 88 temas de rutas casi idénticos a clases de bloques (p. ej. B43-C13 y R03-M04-C01; B25-C08 y R02-M05-C03) | Riesgo de duplicación; falta declarar reutilización o profundización |
 | Dependencias | Solo recomendaciones por rangos de bloques en `MAPA_DE_RUTAS_PROFESIONALES.md` | No hay prerrequisitos por capacidad |
 | Cierre uniforme | Los bloques terminan casi siempre en proyecto, diseño o simulación | Poca variación de evidencia |
 

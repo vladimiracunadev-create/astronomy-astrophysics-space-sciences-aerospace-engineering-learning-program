@@ -92,7 +92,7 @@ Un decimal como `27,3217` es una suma: `27 + 3/10 + 2/100 + 1/1 000 + 7/10 000`.
 
 ### 8.4 Cuando «exacto» no lo es: números en el computador
 
-Un computador guarda los decimales en binario, y casi ningún decimal como `0,1` se escribe exactamente en binario. Por eso en muchos lenguajes `0,1 + 0,2` da `0,30000000000000004`. No es un fallo del programa: es la consecuencia de usar una cantidad finita de cifras binarias. Dos consecuencias prácticas: no comparar decimales con `==` y distinguir entre un número **exacto** (`1/3` guardado como fracción) y su **aproximación** decimal (`0,333…`). En el bloque B19 y en B03-C19 verás cuánto error se acumula.
+Un computador guarda los decimales en binario, y casi ningún decimal como `0,1` se escribe exactamente en binario. Por eso en muchos lenguajes `0,1 + 0,2` da `0,30000000000000004`. No es un fallo del programa: es la consecuencia de usar una cantidad finita de cifras binarias. Dos consecuencias prácticas: no comparar decimales con `==` y distinguir entre un número **exacto** (`1/3` guardado como fracción) y su **aproximación** decimal (`0,333…`). En el bloque B26 y en B03-C19 verás cuánto error se acumula.
 
 ### 8.5 Un cálculo completo: el período medio de la Luna
 

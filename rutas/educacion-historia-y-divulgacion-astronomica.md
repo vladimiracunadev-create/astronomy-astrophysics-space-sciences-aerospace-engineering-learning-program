@@ -82,13 +82,13 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 3. 📚 [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) — A01 · 20 clases
 4. 📚 [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md) — A01 · 20 clases
 5. 📚 [**B07** · Informática científica desde cero](../programa/tronco-comun/B07-informatica-cientifica-desde-cero.md) — A01 · 20 clases
-6. 📚 [**B25** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B25-optica-geometrica-y-diseno-de-telescopios.md) — A04 · 20 clases
-7. 📚 [**B26** · Óptica física y óptica adaptativa](../programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md) — A04 · 24 clases
-8. 📚 [**B27** · Construcción y mecánica de telescopios](../programa/tronco-comun/B27-construccion-y-mecanica-de-telescopios.md) — A04 · 26 clases
-9. 📚 [**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md) — A04 · 20 clases
-10. 📚 [**B29** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) — A04 · 24 clases
-11. 📚 [**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md) — A04 · 20 clases
-12. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — A04 · 25 clases
+6. 📚 [**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) — A04 · 20 clases
+7. 📚 [**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) — A04 · 24 clases
+8. 📚 [**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) — A04 · 26 clases
+9. 📚 [**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) — A04 · 20 clases
+10. 📚 [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) — A04 · 24 clases
+11. 📚 [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md) — A04 · 20 clases
+12. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — A04 · 25 clases
 
 ### 🎯 El núcleo del rol
 
@@ -104,19 +104,19 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
-5. 📚 [**B18** · Galaxias y medio interestelar](../programa/tronco-comun/B18-galaxias-y-medio-interestelar.md) — usa 1 de 20 clases: `B18-` C20
+5. 📚 [**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md) — usa 1 de 20 clases: `B25-` C20
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-6. 📚 [**B32** · Operaciones de observatorios científicos](../programa/tronco-comun/B32-operaciones-de-observatorios-cientificos.md) — usa 1 de 23 clases: `B32-` C11
+6. 📚 [**B48** · Operaciones de observatorios científicos](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) — usa 1 de 23 clases: `B48-` C11
 
 **A09 · Astronáutica humana, medicina y hábitats**
 
-7. 📚 [**B58** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B58-astronautica-y-preparacion-de-astronautas.md) — usa 1 de 23 clases: `B58-` C01
+7. 📚 [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) — usa 1 de 23 clases: `B104-` C01
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
-8. 📚 [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) — usa 1 de 24 clases: `B64-` C18
+8. 📚 [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) — usa 1 de 24 clases: `B124-` C18
 
 **A12 · Educación, historia aplicada y divulgación astronómica**
 

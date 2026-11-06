@@ -76,7 +76,7 @@
           "tema": "Historia de misiones tripuladas",
           "destino": "existente",
           "tronco": [
-            "B58-C01"
+            "B104-C01"
           ]
         },
         {
@@ -517,7 +517,7 @@
             "area": "nueva: Educación, historia aplicada y divulgación astronómica",
             "bloque": "nuevo: Ciencia ciudadana astronómica",
             "titulo": "Redes de observadores aficionados",
-            "necesidad": "B32-C19 menciona la ciencia ciudadana en un observatorio profesional; falta tratar las redes de aficionados."
+            "necesidad": "B48-C19 menciona la ciencia ciudadana en un observatorio profesional; falta tratar las redes de aficionados."
           }
         },
         {
@@ -525,7 +525,7 @@
           "tema": "Proyectos de clasificación",
           "destino": "existente",
           "tronco": [
-            "B18-C20"
+            "B25-C20"
           ]
         },
         {
@@ -536,7 +536,7 @@
             "area": "nueva: Educación, historia aplicada y divulgación astronómica",
             "bloque": "nuevo: Ciencia ciudadana astronómica",
             "titulo": "Fotometría participativa",
-            "necesidad": "Medir brillos con voluntarios es una práctica propia de la ciencia ciudadana; B29 trata fotometría profesional."
+            "necesidad": "Medir brillos con voluntarios es una práctica propia de la ciencia ciudadana; B45 trata fotometría profesional."
           }
         },
         {
@@ -566,7 +566,7 @@
           "tema": "Calidad de datos voluntarios",
           "destino": "existente",
           "tronco": [
-            "B32-C11"
+            "B48-C11"
           ]
         },
         {
@@ -746,7 +746,7 @@
           "destino": "existente",
           "tronco": [
             "B01-C18",
-            "B64-C18"
+            "B124-C18"
           ]
         },
         {
@@ -754,7 +754,7 @@
           "tema": "Redacción divulgativa",
           "destino": "existente",
           "tronco": [
-            "B64-C18"
+            "B124-C18"
           ]
         },
         {
@@ -765,7 +765,7 @@
             "area": "nueva: Educación, historia aplicada y divulgación astronómica",
             "bloque": "nuevo: Comunicación y divulgación científica",
             "titulo": "Infografías con fuentes verificables",
-            "necesidad": "Comunicar con imágenes exige mantener la fuente y la incertidumbre; B64-C18 trata comunicación en general."
+            "necesidad": "Comunicar con imágenes exige mantener la fuente y la incertidumbre; B124-C18 trata comunicación en general."
           }
         },
         {
@@ -787,7 +787,7 @@
             "area": "nueva: Educación, historia aplicada y divulgación astronómica",
             "bloque": "nuevo: Comunicación y divulgación científica",
             "titulo": "Comunicación oral de la ciencia",
-            "necesidad": "Presentar ante público requiere técnicas propias; B64-C18 es de comunicación escrita y general."
+            "necesidad": "Presentar ante público requiere técnicas propias; B124-C18 es de comunicación escrita y general."
           }
         },
         {

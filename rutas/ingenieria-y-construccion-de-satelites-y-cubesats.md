@@ -93,33 +93,33 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-2. 📚 [**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md) — usa 5 de 20 clases: `B28-` C02–C04, C06, C17
-3. 📚 [**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md) — usa 2 de 20 clases: `B30-` C06–C07
-4. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — usa 5 de 25 clases: `B31-` C02, C15–C16, C18, C25
+2. 📚 [**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) — usa 5 de 20 clases: `B44-` C02–C04, C06, C17
+3. 📚 [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md) — usa 2 de 20 clases: `B46-` C06–C07
+4. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 5 de 25 clases: `B47-` C02, C15–C16, C18, C25
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-5. 📚 [**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md) — usa 2 de 20 clases: `B41-` C07–C08
+5. 📚 [**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md) — usa 2 de 20 clases: `B71-` C07–C08
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-6. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 12 de 24 clases: `B49-` C01, C04–C05, C07–C11, C13–C15, C23
-7. 📚 [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) — usa 2 de 38 clases: `B50-` C13, C20
-8. 📚 [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) — usa 5 de 29 clases: `B51-` C01, C18–C20, C23
-9. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — usa 15 de 23 clases: `B52-` C01–C10, C12–C13, C19–C21
-10. 📚 [**B53** · Sensores y control de actitud](../programa/tronco-comun/B53-sensores-y-control-de-actitud.md) — usa 15 de 22 clases: `B53-` C01–C07, C11–C12, C15–C16, C18–C20, C22
-11. 📚 [**B54** · Aviónica y software crítico espacial](../programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) — usa 6 de 44 clases: `B54-` C07–C08, C11–C12, C18, C21
-12. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — usa 12 de 25 clases: `B55-` C03, C05–C06, C08–C09, C11–C15, C17, C19
-13. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 17 de 24 clases: `B56-` C01–C03, C05–C10, C12–C14, C16–C20
-14. 📚 [**B103** · Plataformas de satélites pequeños y CubeSat](../PROGRAMA_ACADEMICO_COMPLETO.md#b103--plataformas-de-satélites-pequeños-y-cubesat) — usa 4 de 4 clases: `B103-` C01–C04
+6. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 12 de 24 clases: `B83-` C01, C04–C05, C07–C11, C13–C15, C23
+7. 📚 [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) — usa 2 de 38 clases: `B84-` C13, C20
+8. 📚 [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) — usa 5 de 29 clases: `B85-` C01, C18–C20, C23
+9. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — usa 15 de 23 clases: `B86-` C01–C10, C12–C13, C19–C21
+10. 📚 [**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md) — usa 15 de 22 clases: `B87-` C01–C07, C11–C12, C15–C16, C18–C20, C22
+11. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 6 de 44 clases: `B88-` C07–C08, C11–C12, C18, C21
+12. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 12 de 25 clases: `B89-` C03, C05–C06, C08–C09, C11–C15, C17, C19
+13. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 17 de 24 clases: `B90-` C01–C03, C05–C10, C12–C14, C16–C20
+14. 📚 [**B95** · Plataformas de satélites pequeños y CubeSat](../PROGRAMA_ACADEMICO_COMPLETO.md#b95--plataformas-de-satélites-pequeños-y-cubesat) — usa 4 de 4 clases: `B95-` C01–C04
 
 **A08 · Operaciones de misión y robótica espacial**
 
-15. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 3 de 30 clases: `B57-` C04, C06, C16
+15. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 3 de 30 clases: `B96-` C04, C06, C16
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-16. 📚 [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) — usa 1 de 36 clases: `B63-` C09
+16. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 1 de 36 clases: `B119-` C09
 
 <!-- /ruta -->
 
@@ -161,9 +161,9 @@ Roles vecinos con los que se comparte formación: [aviónica y software](avionic
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y, según tu diagnóstico, con matemática, física y programación.
-2. Recorre el **núcleo de ingeniería de sistemas** ([**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md)) y arma un presupuesto de masa, energía y datos para un satélite de ejemplo.
-3. Profundiza un subsistema a elección y cierra su presupuesto: [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) (potencia), [**B53** · Sensores y control de actitud](../programa/tronco-comun/B53-sensores-y-control-de-actitud.md) (actitud), [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) (comunicaciones) o [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) (térmica).
-4. Practica la **integración y los ensayos** con [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) y escribe un plan de calificación con criterios de aceptación.
+2. Recorre el **núcleo de ingeniería de sistemas** ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md)) y arma un presupuesto de masa, energía y datos para un satélite de ejemplo.
+3. Profundiza un subsistema a elección y cierra su presupuesto: [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) (potencia), [**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md) (actitud), [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) (comunicaciones) o [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) (térmica).
+4. Practica la **integración y los ensayos** con [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) y escribe un plan de calificación con criterios de aceptación.
 5. Reúne tu **expediente** y guarda su historia: primera versión, retroalimentación y cambios.
 
 <!-- pie:inicio -->

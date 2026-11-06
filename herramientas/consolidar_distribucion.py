@@ -50,7 +50,7 @@ def construir() -> dict:
     siguiente_en_bloque: dict[str, int] = defaultdict(lambda: 21)
     distribucion: dict[str, dict] = {}
     claves_bloque: dict[tuple, str] = {}
-    n_bloque = 65
+    n_bloque = 1
     # primer paso: registrar los bloques nuevos en orden determinista (área, nombre)
     pendientes = []
     for rol in cargar_roles():
@@ -61,7 +61,7 @@ def construir() -> dict:
                     if mt:
                         pendientes.append((t["propuesta"]["area"], mt.group(1)))
     for area, nombre in sorted(set((a, n) for a, n in pendientes), key=lambda x: (x[0], norm(x[1]))):
-        bid = f"B{n_bloque}"
+        bid = f"BP{n_bloque:02d}"
         n_bloque += 1
         claves_bloque[(area, norm(nombre))] = bid
         nuevos_bloques[bid] = {"id": bid, "nombre": nombre, "area": area, "estado": "propuesta", "clases": 0}

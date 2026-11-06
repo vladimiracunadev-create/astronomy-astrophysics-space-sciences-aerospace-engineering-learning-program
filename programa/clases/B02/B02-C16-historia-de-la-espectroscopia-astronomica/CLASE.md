@@ -8,7 +8,7 @@
 
 Decimosexta clase del bloque B02. Hasta Newton, la astronomía medía **dónde** están los astros. Con la espectroscopía se empieza a preguntar **de qué están hechos**. Nivel N1.
 
-Verás las líneas oscuras del espectro solar, cómo Kirchhoff y Bunsen las convirtieron en firmas químicas, el episodio del helio de 1868 (un elemento visto en el Sol antes que en la Tierra) y harás un laboratorio que calcula las líneas del hidrógeno con la constante de Rydberg y las compara con las medidas del NIST. No verás la física cuántica que explica las líneas (bloque A07 en adelante) ni la espectroscopía moderna (B29).
+Verás las líneas oscuras del espectro solar, cómo Kirchhoff y Bunsen las convirtieron en firmas químicas, el episodio del helio de 1868 (un elemento visto en el Sol antes que en la Tierra) y harás un laboratorio que calcula las líneas del hidrógeno con la constante de Rydberg y las compara con las medidas del NIST. No verás la física cuántica que explica las líneas (bloque A07 en adelante) ni la espectroscopía moderna (B45).
 
 ## 2. Por qué esta clase existe
 
@@ -95,7 +95,7 @@ Las tablas del NIST para las líneas del hidrógeno dan longitudes de onda **en 
 
 ### 8.6 Qué no dice una línea
 
-Una línea dice qué elemento y, con otras características, algo de temperatura, presión o movimiento. No dice cuánto hay sin un modelo, ni dónde se produce sin contexto. Las condiciones cambian las líneas: por eso la espectroscopía moderna (B29) combina varias.
+Una línea dice qué elemento y, con otras características, algo de temperatura, presión o movimiento. No dice cuánto hay sin un modelo, ni dónde se produce sin contexto. Las condiciones cambian las líneas: por eso la espectroscopía moderna (B45) combina varias.
 
 ## 9. Magnitudes, símbolos y unidades
 
@@ -152,7 +152,7 @@ Si lo dibujas, usa un eje de longitud de onda de 400 a 700 nm, marca cada línea
 
 ## 14. Comparación de métodos
 
-La **fórmula teórica** (Rydberg) permite predecir líneas; la **tabla medida** (NIST) es la referencia empírica. El **desplazamiento Doppler** cambiará las longitudes en objetos en movimiento (B29). Se contrasta cada una con la otra para detectar errores de convención, como mezclar aire y vacío.
+La **fórmula teórica** (Rydberg) permite predecir líneas; la **tabla medida** (NIST) es la referencia empírica. El **desplazamiento Doppler** cambiará las longitudes en objetos en movimiento (B45). Se contrasta cada una con la otra para detectar errores de convención, como mezclar aire y vacío.
 
 ## 15. Práctica guiada
 
@@ -293,7 +293,7 @@ Las líneas del espectro son firmas químicas; el helio mostró que se puede ver
 
 **Glosario español–inglés.** espectro · *spectrum*; línea de absorción · *absorption line*; línea de emisión · *emission line*; constante de Rydberg · *Rydberg constant*; serie de Balmer · *Balmer series*; longitud de onda en vacío · *vacuum wavelength*.
 
-**Continuidad.** B02-C17 usa tu capacidad de **registrar luz con una convención declarada** para entender el nacimiento de la astrofotografía. B29 retomará la espectroscopía.
+**Continuidad.** B02-C17 usa tu capacidad de **registrar luz con una convención declarada** para entender el nacimiento de la astrofotografía. B45 retomará la espectroscopía.
 
 **Referencias:** ver sección 11. S1 es divulgación; S2 a S4 son datos oficiales.
 

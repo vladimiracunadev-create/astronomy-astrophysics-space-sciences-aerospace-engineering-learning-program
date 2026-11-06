@@ -306,7 +306,7 @@ En la masa que fermenta, desde cualquier pasa todas las demás se alejan y ningu
 
 <details><summary>Solución comentada</summary>
 
-`t_H = 13,97 Gyr`; ΛCDM ≈ 13,46 Gyr; solo materia = 9,31 Gyr. Un universo con solo materia se frena todo el tiempo, por eso es el más joven; en ΛCDM el frenado inicial se compensa en parte con la aceleración posterior, por eso queda cerca de `t_H`. Que 13,97 y 13,46 estén tan próximos es casi una coincidencia de estos parámetros. Para decidir entre modelos se necesitan observaciones independientes, como la edad de las estrellas más antiguas (bloque B17).
+`t_H = 13,97 Gyr`; ΛCDM ≈ 13,46 Gyr; solo materia = 9,31 Gyr. Un universo con solo materia se frena todo el tiempo, por eso es el más joven; en ΛCDM el frenado inicial se compensa en parte con la aceleración posterior, por eso queda cerca de `t_H`. Que 13,97 y 13,46 estén tan próximos es casi una coincidencia de estos parámetros. Para decidir entre modelos se necesitan observaciones independientes, como la edad de las estrellas más antiguas (bloque B24).
 </details>
 
 **Ejercicio 11 · transferencia.** Un titular dice: «el universo mide 93 000 millones de años luz de diámetro pero tiene 13 800 millones de años: imposible». Evalúa la afirmación (sección 8.5).

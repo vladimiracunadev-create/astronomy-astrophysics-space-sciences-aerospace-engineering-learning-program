@@ -57,7 +57,7 @@
             "area": "A06",
             "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
             "titulo": "Dinámica de fluidos compresibles",
-            "necesidad": "Cubre el flujo con densidad variable necesario para propulsión; B47-C03 trata fuerzas aerodinámicas sin flujo compresible."
+            "necesidad": "Cubre el flujo con densidad variable necesario para propulsión; B77-C03 trata fuerzas aerodinámicas sin flujo compresible."
           }
         },
         {
@@ -79,7 +79,7 @@
             "area": "A06",
             "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
             "titulo": "Ondas de choque normales y oblicuas",
-            "necesidad": "Enseña saltos de propiedades en choques, clave en reentrada y toberas; B23-C14 trata choques astrofísicos, no gasdinámicos."
+            "necesidad": "Enseña saltos de propiedades en choques, clave en reentrada y toberas; B30-C14 trata choques astrofísicos, no gasdinámicos."
           }
         },
         {
@@ -90,7 +90,7 @@
             "area": "A06",
             "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
             "titulo": "Flujo en toberas convergente-divergentes",
-            "necesidad": "Aporta la teoría de expansión en toberas; B48-C03 trata la cámara pero no el flujo por la tobera."
+            "necesidad": "Aporta la teoría de expansión en toberas; B78-C03 trata la cámara pero no el flujo por la tobera."
           }
         },
         {
@@ -110,7 +110,7 @@
           "destino": "existente",
           "tronco": [
             "B11-C19",
-            "B49-C17"
+            "B83-C17"
           ]
         }
       ]
@@ -177,8 +177,8 @@
           "tema": "Transferencia de calor",
           "destino": "existente",
           "tronco": [
-            "B51-C02",
-            "B51-C04"
+            "B85-C02",
+            "B85-C04"
           ]
         },
         {
@@ -200,7 +200,7 @@
             "area": "A06",
             "bloque": "nuevo: Fluidos, termodinámica y aerotermodinámica de propulsión",
             "titulo": "Ciclos termodinámicos de propulsión",
-            "necesidad": "Enseña ciclos de motores térmicos; B51-C11 trata ciclos térmicos de ensayo, no termodinámicos."
+            "necesidad": "Enseña ciclos de motores térmicos; B85-C11 trata ciclos térmicos de ensayo, no termodinámicos."
           }
         },
         {
@@ -219,7 +219,7 @@
           "tema": "Análisis de límites físicos",
           "destino": "existente",
           "tronco": [
-            "B48-C18"
+            "B78-C18"
           ]
         }
       ]
@@ -233,7 +233,7 @@
           "tema": "Impulso específico",
           "destino": "existente",
           "tronco": [
-            "B48-C01"
+            "B78-C01"
           ]
         },
         {
@@ -241,7 +241,7 @@
           "tema": "Balance energético de propulsión",
           "destino": "existente",
           "tronco": [
-            "B48-C18",
+            "B78-C18",
             "B06-C12"
           ]
         },
@@ -250,7 +250,7 @@
           "tema": "Modelos de combustión conceptual",
           "destino": "existente",
           "tronco": [
-            "B48-C02",
+            "B78-C02",
             "B06-C12",
             "B06-C14"
           ]
@@ -260,7 +260,7 @@
           "tema": "Expansión de gases",
           "destino": "existente",
           "tronco": [
-            "B48-C03",
+            "B78-C03",
             "B06-C09"
           ]
         },
@@ -269,8 +269,8 @@
           "tema": "Rendimiento ideal de cohetes",
           "destino": "existente",
           "tronco": [
-            "B48-C01",
-            "B47-C05"
+            "B78-C01",
+            "B77-C05"
           ]
         },
         {
@@ -278,8 +278,8 @@
           "tema": "Modelos de masa",
           "destino": "existente",
           "tronco": [
-            "B48-C17",
-            "B47-C06"
+            "B78-C17",
+            "B77-C06"
           ]
         },
         {
@@ -287,7 +287,7 @@
           "tema": "Ecuación de Tsiolkovski",
           "destino": "existente",
           "tronco": [
-            "B47-C05"
+            "B77-C05"
           ]
         },
         {
@@ -295,8 +295,8 @@
           "tema": "Presupuesto de delta-v",
           "destino": "existente",
           "tronco": [
-            "B45-C09",
-            "B48-C17"
+            "B75-C09",
+            "B78-C17"
           ]
         },
         {
@@ -304,8 +304,8 @@
           "tema": "Pérdidas de rendimiento",
           "destino": "existente",
           "tronco": [
-            "B47-C08",
-            "B47-C09"
+            "B77-C08",
+            "B77-C09"
           ]
         },
         {
@@ -313,9 +313,9 @@
           "tema": "Comparación de arquitecturas conceptuales",
           "destino": "existente",
           "tronco": [
-            "B48-C20",
-            "B48-C05",
-            "B48-C04"
+            "B78-C20",
+            "B78-C05",
+            "B78-C04"
           ]
         }
       ]
@@ -329,8 +329,8 @@
           "tema": "Propulsión electrostática",
           "destino": "existente",
           "tronco": [
-            "B48-C07",
-            "B48-C06"
+            "B78-C07",
+            "B78-C06"
           ]
         },
         {
@@ -338,8 +338,8 @@
           "tema": "Propulsión electromagnética",
           "destino": "existente",
           "tronco": [
-            "B48-C09",
-            "B48-C08"
+            "B78-C09",
+            "B78-C08"
           ]
         },
         {
@@ -347,7 +347,7 @@
           "tema": "Motores iónicos",
           "destino": "existente",
           "tronco": [
-            "B48-C07"
+            "B78-C07"
           ]
         },
         {
@@ -355,7 +355,7 @@
           "tema": "Propulsores Hall",
           "destino": "existente",
           "tronco": [
-            "B48-C08"
+            "B78-C08"
           ]
         },
         {
@@ -363,9 +363,9 @@
           "tema": "Fuentes de alimentación",
           "destino": "existente",
           "tronco": [
-            "B52-C08",
-            "B52-C09",
-            "B48-C06"
+            "B86-C08",
+            "B86-C09",
+            "B78-C06"
           ]
         },
         {
@@ -374,9 +374,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B48",
+            "bloque": "B78",
             "titulo": "Erosión y vida útil de propulsores eléctricos",
-            "necesidad": "La erosión limita la vida del propulsor y no se trata en B48, que describe tipos sin analizar su degradación."
+            "necesidad": "La erosión limita la vida del propulsor y no se trata en B78, que describe tipos sin analizar su degradación."
           }
         },
         {
@@ -385,9 +385,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B48",
+            "bloque": "B78",
             "titulo": "Ciclos de trabajo y operación de propulsión eléctrica",
-            "necesidad": "Relaciona potencia disponible y tiempo de empuje; B48 y B52 no tratan el ciclo de trabajo del propulsor."
+            "necesidad": "Relaciona potencia disponible y tiempo de empuje; B78 y B86 no tratan el ciclo de trabajo del propulsor."
           }
         },
         {
@@ -395,8 +395,8 @@
           "tema": "Balance de energía",
           "destino": "existente",
           "tronco": [
-            "B48-C18",
-            "B52-C01"
+            "B78-C18",
+            "B86-C01"
           ]
         },
         {
@@ -404,8 +404,8 @@
           "tema": "Eficiencia propulsiva",
           "destino": "existente",
           "tronco": [
-            "B48-C01",
-            "B48-C18"
+            "B78-C01",
+            "B78-C18"
           ]
         },
         {
@@ -413,7 +413,7 @@
           "tema": "Madurez de tecnologías eléctricas",
           "destino": "existente",
           "tronco": [
-            "B48-C19"
+            "B78-C19"
           ]
         }
       ]
@@ -427,8 +427,8 @@
           "tema": "Ecuaciones de movimiento",
           "destino": "existente",
           "tronco": [
-            "B47-C02",
-            "B47-C12"
+            "B77-C02",
+            "B77-C12"
           ]
         },
         {
@@ -436,8 +436,8 @@
           "tema": "Modelos de atmósfera",
           "destino": "existente",
           "tronco": [
-            "B42-C07",
-            "B47-C02"
+            "B72-C07",
+            "B77-C02"
           ]
         },
         {
@@ -445,8 +445,8 @@
           "tema": "Arrastre y sustentación",
           "destino": "existente",
           "tronco": [
-            "B47-C03",
-            "B47-C04"
+            "B77-C03",
+            "B77-C04"
           ]
         },
         {
@@ -455,9 +455,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B47",
+            "bloque": "B77",
             "titulo": "Centro de presión y margen estático",
-            "necesidad": "Es condición de estabilidad de lanzadores; B47-C17 trata estabilidad de descenso pero no el centro de presión."
+            "necesidad": "Es condición de estabilidad de lanzadores; B77-C17 trata estabilidad de descenso pero no el centro de presión."
           }
         },
         {
@@ -466,9 +466,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B47",
+            "bloque": "B77",
             "titulo": "Centro de masa y su variación con el consumo de propelente",
-            "necesidad": "Afecta estabilidad y control; ninguna clase de B47 cubre la variación de masa e inercia en ascenso."
+            "necesidad": "Afecta estabilidad y control; ninguna clase de B77 cubre la variación de masa e inercia en ascenso."
           }
         },
         {
@@ -477,9 +477,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B47",
+            "bloque": "B77",
             "titulo": "Estabilidad de vuelo de lanzadores en ascenso",
-            "necesidad": "B47 cubre estabilidad en descenso, no en ascenso con cargas aerodinámicas."
+            "necesidad": "B77 cubre estabilidad en descenso, no en ascenso con cargas aerodinámicas."
           }
         },
         {
@@ -487,8 +487,8 @@
           "tema": "Cargas dinámicas",
           "destino": "existente",
           "tronco": [
-            "B47-C10",
-            "B50-C09"
+            "B77-C10",
+            "B84-C09"
           ]
         },
         {
@@ -497,9 +497,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B47",
+            "bloque": "B77",
             "titulo": "Guiado y control de actitud de lanzadores (TVC)",
-            "necesidad": "Aporta el control del vector de empuje; B53 trata ADCS de satélites, no el de lanzadores."
+            "necesidad": "Aporta el control del vector de empuje; B87 trata ADCS de satélites, no el de lanzadores."
           }
         },
         {
@@ -507,7 +507,7 @@
           "tema": "Separación como evento simulado",
           "destino": "existente",
           "tronco": [
-            "B47-C07"
+            "B77-C07"
           ]
         },
         {
@@ -515,8 +515,8 @@
           "tema": "Análisis de dispersión de trayectoria",
           "destino": "existente",
           "tronco": [
-            "B47-C13",
-            "B45-C18",
+            "B77-C13",
+            "B75-C18",
             "B12-C14"
           ]
         }
@@ -531,7 +531,7 @@
           "tema": "Perfiles de ascenso",
           "destino": "existente",
           "tronco": [
-            "B47-C12"
+            "B77-C12"
           ]
         },
         {
@@ -539,7 +539,7 @@
           "tema": "Pérdidas gravitacionales",
           "destino": "existente",
           "tronco": [
-            "B47-C08"
+            "B77-C08"
           ]
         },
         {
@@ -547,7 +547,7 @@
           "tema": "Pérdidas aerodinámicas",
           "destino": "existente",
           "tronco": [
-            "B47-C09"
+            "B77-C09"
           ]
         },
         {
@@ -555,7 +555,7 @@
           "tema": "Inyección orbital",
           "destino": "existente",
           "tronco": [
-            "B47-C13"
+            "B77-C13"
           ]
         },
         {
@@ -563,7 +563,7 @@
           "tema": "Dinámica de reentrada",
           "destino": "existente",
           "tronco": [
-            "B47-C14"
+            "B77-C14"
           ]
         },
         {
@@ -571,7 +571,7 @@
           "tema": "Flujo de calor de reentrada",
           "destino": "existente",
           "tronco": [
-            "B47-C15"
+            "B77-C15"
           ]
         },
         {
@@ -579,7 +579,7 @@
           "tema": "Escudos térmicos",
           "destino": "existente",
           "tronco": [
-            "B47-C16"
+            "B77-C16"
           ]
         },
         {
@@ -588,9 +588,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B47",
+            "bloque": "B77",
             "titulo": "Corredores de entrada y límites de trayectoria",
-            "necesidad": "B47-C14 trata la dinámica de reentrada, pero no el corredor de entrada permitido."
+            "necesidad": "B77-C14 trata la dinámica de reentrada, pero no el corredor de entrada permitido."
           }
         },
         {
@@ -598,7 +598,7 @@
           "tema": "Aterrizaje controlado como modelo",
           "destino": "existente",
           "tronco": [
-            "B47-C18"
+            "B77-C18"
           ]
         },
         {
@@ -606,8 +606,8 @@
           "tema": "Simulación de misión de entrada",
           "destino": "existente",
           "tronco": [
-            "B47-C20",
-            "B47-C14"
+            "B77-C20",
+            "B77-C14"
           ]
         }
       ]
@@ -622,9 +622,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Cultura de seguridad aeroespacial y aprendizaje de incidentes",
-            "necesidad": "Aporta la dimensión cultural de la seguridad; B54-C16 cubre seguridad funcional técnica y ninguna clase trata cultura de seguridad."
+            "necesidad": "Aporta la dimensión cultural de la seguridad; B88-C16 cubre seguridad funcional técnica y ninguna clase trata cultura de seguridad."
           }
         },
         {
@@ -633,9 +633,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B49",
+            "bloque": "B83",
             "titulo": "Identificación de peligros en sistemas de lanzamiento (HAZID)",
-            "necesidad": "Aporta el análisis preliminar de peligros; B49-C16 trata riesgos técnicos genéricos, no la identificación de peligros de seguridad."
+            "necesidad": "Aporta el análisis preliminar de peligros; B83-C16 trata riesgos técnicos genéricos, no la identificación de peligros de seguridad."
           }
         },
         {
@@ -644,9 +644,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A07",
-            "bloque": "B49",
+            "bloque": "B83",
             "titulo": "Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales",
-            "necesidad": "Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B49-C16 trata la gestión de riesgos técnicos en general y B54-C12 la detección en vuelo, pero ninguna enseña FMEA."
+            "necesidad": "Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B83-C16 trata la gestión de riesgos técnicos en general y B88-C12 la detección en vuelo, pero ninguna enseña FMEA."
           }
         },
         {
@@ -654,8 +654,8 @@
           "tema": "Revisiones de seguridad",
           "destino": "existente",
           "tronco": [
-            "B49-C13",
-            "B49-C14"
+            "B83-C13",
+            "B83-C14"
           ]
         },
         {
@@ -664,9 +664,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Seguridad de instalaciones y operaciones de sitio de lanzamiento",
-            "necesidad": "Cubre zonas de seguridad, exclusión y gestión de sitio; B47-C19 solo ve seguridad de rango conceptual."
+            "necesidad": "Cubre zonas de seguridad, exclusión y gestión de sitio; B77-C19 solo ve seguridad de rango conceptual."
           }
         },
         {
@@ -675,9 +675,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Protección ambiental de las actividades de lanzamiento",
-            "necesidad": "Cubre impacto ambiental de lanzamientos; ninguna clase de B62-B64 lo trata."
+            "necesidad": "Cubre impacto ambiental de lanzamientos; ninguna clase de B118-B124 lo trata."
           }
         },
         {
@@ -685,8 +685,8 @@
           "tema": "Responsabilidad regulatoria",
           "destino": "existente",
           "tronco": [
-            "B63-C08",
-            "B63-C10"
+            "B119-C08",
+            "B119-C10"
           ]
         },
         {
@@ -695,7 +695,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B63",
+            "bloque": "B119",
             "titulo": "Límites legales y de seguridad de la experimentación educativa",
             "necesidad": "Establece los límites de lo que una experimentación educativa puede hacer con seguridad; ninguna clase lo trata."
           }
@@ -705,8 +705,8 @@
           "tema": "Procesos de autorización",
           "destino": "existente",
           "tronco": [
-            "B63-C08",
-            "B63-C07"
+            "B119-C08",
+            "B119-C07"
           ]
         },
         {
@@ -714,8 +714,8 @@
           "tema": "Casos documentados de accidentes",
           "destino": "existente",
           "tronco": [
-            "B57-C19",
-            "B56-C17"
+            "B96-C19",
+            "B90-C17"
           ]
         }
       ]
@@ -729,8 +729,8 @@
           "tema": "Modelo integrado de vehículo",
           "destino": "existente",
           "tronco": [
-            "B47-C20",
-            "B49-C07"
+            "B77-C20",
+            "B83-C07"
           ]
         },
         {
@@ -738,8 +738,8 @@
           "tema": "Definición de etapas conceptuales",
           "destino": "existente",
           "tronco": [
-            "B47-C01",
-            "B47-C07"
+            "B77-C01",
+            "B77-C07"
           ]
         },
         {
@@ -747,7 +747,7 @@
           "tema": "Perfil de empuje como entrada",
           "destino": "existente",
           "tronco": [
-            "B48-C01"
+            "B78-C01"
           ]
         },
         {
@@ -755,8 +755,8 @@
           "tema": "Trayectoria simulada",
           "destino": "existente",
           "tronco": [
-            "B47-C20",
-            "B47-C12"
+            "B77-C20",
+            "B77-C12"
           ]
         },
         {
@@ -764,7 +764,7 @@
           "tema": "Condiciones iniciales",
           "destino": "existente",
           "tronco": [
-            "B47-C13",
+            "B77-C13",
             "B11-C02"
           ]
         },
@@ -773,7 +773,7 @@
           "tema": "Variaciones ambientales",
           "destino": "existente",
           "tronco": [
-            "B42-C07",
+            "B72-C07",
             "B12-C14"
           ]
         },
@@ -792,8 +792,8 @@
           "tema": "Rendimiento contra requisitos",
           "destino": "existente",
           "tronco": [
-            "B49-C04",
-            "B49-C17"
+            "B83-C04",
+            "B83-C17"
           ]
         },
         {
@@ -801,8 +801,8 @@
           "tema": "Análisis de fallo simulado",
           "destino": "existente",
           "tronco": [
-            "B47-C20",
-            "B49-C16"
+            "B77-C20",
+            "B83-C16"
           ]
         },
         {
@@ -812,7 +812,7 @@
           "tronco": [
             "B12-C20",
             "B14-C19",
-            "B49-C17"
+            "B83-C17"
           ]
         }
       ]

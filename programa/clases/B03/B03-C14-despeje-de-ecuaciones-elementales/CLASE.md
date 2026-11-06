@@ -120,7 +120,7 @@ Se escribe cada paso en una línea nueva con la operación aplicada a ambos lado
 | S2 | IAU 2015, Resolución B3 (Mamajek et al., arXiv:1510.07674) | https://arxiv.org/abs/1510.07674 | (GM)ᴺ de la Tierra = 3,986004 × 10¹⁴ m³ s⁻² y del Sol = 1,3271244 × 10²⁰ m³ s⁻² | PDF leído el 2026-11-05 |
 | S3 | NASA NSSDC, *Moon Fact Sheet* (act. 11-ene-2024) | https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html | Semieje lunar 384 400 km; velocidad orbital media 1,022 km/s | Página consultada el 2026-11-05 |
 
-Límites: las fórmulas `v_esc = √(2GM/R)` y `T² = 4π²a³/GM` no se demuestran ni se tomaron de una fuente en esta clase; son modelos estándar de dos cuerpos cuya validez se comprueba aquí solo por coincidencia numérica con S1 y S2. Su deducción llega en B05 y B41.
+Límites: las fórmulas `v_esc = √(2GM/R)` y `T² = 4π²a³/GM` no se demuestran ni se tomaron de una fuente en esta clase; son modelos estándar de dos cuerpos cuya validez se comprueba aquí solo por coincidencia numérica con S1 y S2. Su deducción llega en B05 y B71.
 
 ## 12. Cómo ver los despejes
 
@@ -290,7 +290,7 @@ Una ecuación se conserva si se opera igual en ambos lados; se despeja deshacien
 
 **Glosario español–inglés.** ecuación · *equation*; incógnita · *unknown*; despejar · *to solve for*; operación inversa · *inverse operation*; verificar · *to verify*; solución · *solution*; fórmula · *formula*.
 
-**Continuidad.** B03-C15 y C16 representan estas relaciones en gráficos. B04 amplía el álgebra y B05 y B41 deducen las fórmulas aquí dadas.
+**Continuidad.** B03-C15 y C16 representan estas relaciones en gráficos. B04 amplía el álgebra y B05 y B71 deducen las fórmulas aquí dadas.
 
 **Referencias:** ver sección 11. Todas las fuentes son datos oficiales consultados.
 

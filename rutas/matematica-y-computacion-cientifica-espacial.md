@@ -37,12 +37,12 @@ Dicho sin adornos: **un código que corre no es un código correcto**, y disting
 
 ### Conocimiento técnico
 
-- **Ecuaciones diferenciales y simulación** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)); **métodos numéricos para EDP** ([**B69** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b69--métodos-numéricos-para-edp-y-fluidos-computacionales)).
+- **Ecuaciones diferenciales y simulación** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)); **métodos numéricos para EDP** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales)).
 - **Álgebra lineal** ([**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md)); **probabilidad y estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
-- **Inferencia bayesiana** ([**B67** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b67--inferencia-bayesiana-y-computación-probabilística)); **problemas inversos** ([**B70** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b70--problemas-inversos-y-estimación-de-modelos)).
-- **Aprendizaje automático científico** ([**B65** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--aprendizaje-automático-científico)).
-- **Computación de alto rendimiento** ([**B66** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b66--computación-de-alto-rendimiento)).
-- **Verificación y validación** ([**B71** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b71--verificación-y-validación-de-software-científico)); **computación científica y ciencia abierta** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
+- **Inferencia bayesiana** ([**B19** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b19--inferencia-bayesiana-y-computación-probabilística)); **problemas inversos** ([**B22** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b22--problemas-inversos-y-estimación-de-modelos)).
+- **Aprendizaje automático científico** ([**B17** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b17--aprendizaje-automático-científico)).
+- **Computación de alto rendimiento** ([**B18** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b18--computación-de-alto-rendimiento)).
+- **Verificación y validación** ([**B23** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b23--verificación-y-validación-de-software-científico)); **computación científica y ciencia abierta** ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
 ### Herramientas del oficio
 
@@ -84,24 +84,24 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 4. 📚 [**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) — usa 2 de 23 clases: `B13-` C02, C19
 5. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — usa 14 de 31 clases: `B14-` C04, C06, C09–C16, C19–C20, C23–C24
 6. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — usa 1 de 24 clases: `B15-` C19
-7. 📚 [**B65** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--aprendizaje-automático-científico) — usa 9 de 12 clases: `B65-` C01–C09
-8. 📚 [**B66** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b66--computación-de-alto-rendimiento) — usa 5 de 5 clases: `B66-` C01–C05
-9. 📚 [**B67** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b67--inferencia-bayesiana-y-computación-probabilística) — usa 8 de 8 clases: `B67-` C01–C08
-10. 📚 [**B69** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b69--métodos-numéricos-para-edp-y-fluidos-computacionales) — usa 4 de 5 clases: `B69-` C02–C05
-11. 📚 [**B70** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b70--problemas-inversos-y-estimación-de-modelos) — usa 5 de 5 clases: `B70-` C01–C05
-12. 📚 [**B71** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b71--verificación-y-validación-de-software-científico) — usa 8 de 8 clases: `B71-` C01–C08
+7. 📚 [**B17** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b17--aprendizaje-automático-científico) — usa 9 de 12 clases: `B17-` C01–C09
+8. 📚 [**B18** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b18--computación-de-alto-rendimiento) — usa 5 de 5 clases: `B18-` C01–C05
+9. 📚 [**B19** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b19--inferencia-bayesiana-y-computación-probabilística) — usa 8 de 8 clases: `B19-` C01–C08
+10. 📚 [**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales) — usa 4 de 5 clases: `B21-` C02–C05
+11. 📚 [**B22** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b22--problemas-inversos-y-estimación-de-modelos) — usa 5 de 5 clases: `B22-` C01–C05
+12. 📚 [**B23** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b23--verificación-y-validación-de-software-científico) — usa 8 de 8 clases: `B23-` C01–C08
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-13. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B34-` C28
+13. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B53-` C28
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-14. 📚 [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 1 de 30 clases: `B44-` C01
+14. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 1 de 30 clases: `B74-` C01
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
-15. 📚 [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) — usa 2 de 24 clases: `B64-` C09, C14
+15. 📚 [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) — usa 2 de 24 clases: `B124-` C09, C14
 
 <!-- /ruta -->
 
@@ -139,9 +139,9 @@ Roles vecinos con los que se comparte formación: [Astrofísica estelar y galác
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
 2. Estudia **ecuaciones diferenciales** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)), **álgebra lineal** ([**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md)) y **estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)).
-3. Profundiza en **métodos numéricos para EDP** ([**B69** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b69--métodos-numéricos-para-edp-y-fluidos-computacionales)) y **problemas inversos** ([**B70** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b70--problemas-inversos-y-estimación-de-modelos)).
-4. Avanza a **inferencia bayesiana** ([**B67** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b67--inferencia-bayesiana-y-computación-probabilística)) y **aprendizaje automático científico** ([**B65** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--aprendizaje-automático-científico)).
-5. Cierra con **cómputo de alto rendimiento** ([**B66** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b66--computación-de-alto-rendimiento)) y **verificación y validación** ([**B71** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b71--verificación-y-validación-de-software-científico)).
+3. Profundiza en **métodos numéricos para EDP** ([**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales)) y **problemas inversos** ([**B22** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b22--problemas-inversos-y-estimación-de-modelos)).
+4. Avanza a **inferencia bayesiana** ([**B19** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b19--inferencia-bayesiana-y-computación-probabilística)) y **aprendizaje automático científico** ([**B17** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b17--aprendizaje-automático-científico)).
+5. Cierra con **cómputo de alto rendimiento** ([**B18** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b18--computación-de-alto-rendimiento)) y **verificación y validación** ([**B23** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b23--verificación-y-validación-de-software-científico)).
 
 <!-- pie:inicio -->
 ---

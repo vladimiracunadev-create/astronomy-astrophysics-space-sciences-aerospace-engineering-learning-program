@@ -222,7 +222,7 @@ Cuando los valores abarcan varios órdenes de magnitud o te interesa la variaci�
 
 <details><summary>Solución comentada</summary>
 
-Una figura con ocho puntos alineados es **coherente** con una ley de potencias de exponente 1,5; no la demuestra ni dice por qué. La explicación proviene de la teoría de la gravitación (bloque B41), no del gráfico.
+Una figura con ocho puntos alineados es **coherente** con una ley de potencias de exponente 1,5; no la demuestra ni dice por qué. La explicación proviene de la teoría de la gravitación (bloque B71), no del gráfico.
 </details>
 
 **Ejercicio 11 · transferencia.** Un gráfico con eje y truncado (empieza en 5000) en lugar de en 0 hace que una diferencia del 2 % parezca enorme. ¿Qué principio se viola y cómo lo evitas?

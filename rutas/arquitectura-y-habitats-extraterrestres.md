@@ -44,12 +44,12 @@ Dicho sin adornos: hay **mucha trazabilidad** y **muchas decisiones de compromis
 
 ### Conocimiento técnico
 
-- **Soporte vital:** requisitos de habitabilidad, presurización, atmósfera respirable, control de dióxido de carbono, oxígeno, reciclaje de agua, humedad, residuos y fiabilidad con redundancia, en [**B60** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md).
-- **Calidad del aire y del agua:** contaminantes de cabina, filtración, monitoreo de gases y de microbiología, tratamiento de aguas grises y de orina (también en B60).
-- **Arquitectura y factores humanos:** emplazamiento, zonificación, accesos y esclusas, polvo lunar, crecimiento modular, antropometría, volumen por tripulante, diseño inclusivo, acústica y evaluación de maquetas, en [**B112** · Arquitectura y factores humanos de hábitats extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--arquitectura-y-factores-humanos-de-hábitats-extraterrestres).
-- **Seguridad y emergencias:** rutas de evacuación, fugas de presión, alarmas, refugio contra tormentas solares, despresurización y matriz de riesgo, en [**B117** · Seguridad y respuesta a emergencias en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b117--seguridad-y-respuesta-a-emergencias-en-hábitats).
-- **Alimento y ciclos biológicos:** cultivo hidropónico y aeropónico, iluminación, solución nutritiva, balance de agua y bioseguridad, en [**B118** · Sistemas bioregenerativos y cultivo en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b118--sistemas-bioregenerativos-y-cultivo-en-hábitats).
-- **Entorno y recursos:** radiación y plasma ([**B23**](../programa/tronco-comun/B23-heliofisica-y-fisica-de-plasmas.md)), térmica ([**B51**](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md)), energía ([**B52**](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md)) y recursos in situ ([**B40**](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md)).
+- **Soporte vital:** requisitos de habitabilidad, presurización, atmósfera respirable, control de dióxido de carbono, oxígeno, reciclaje de agua, humedad, residuos y fiabilidad con redundancia, en [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md).
+- **Calidad del aire y del agua:** contaminantes de cabina, filtración, monitoreo de gases y de microbiología, tratamiento de aguas grises y de orina (también en B106).
+- **Arquitectura y factores humanos:** emplazamiento, zonificación, accesos y esclusas, polvo lunar, crecimiento modular, antropometría, volumen por tripulante, diseño inclusivo, acústica y evaluación de maquetas, en [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b109--arquitectura-y-factores-humanos-de-hábitats-extraterrestres).
+- **Seguridad y emergencias:** rutas de evacuación, fugas de presión, alarmas, refugio contra tormentas solares, despresurización y matriz de riesgo, en [**B114** · Seguridad y respuesta a emergencias en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b114--seguridad-y-respuesta-a-emergencias-en-hábitats).
+- **Alimento y ciclos biológicos:** cultivo hidropónico y aeropónico, iluminación, solución nutritiva, balance de agua y bioseguridad, en [**B115** · Sistemas bioregenerativos y cultivo en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b115--sistemas-bioregenerativos-y-cultivo-en-hábitats).
+- **Entorno y recursos:** radiación y plasma ([**B30**](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md)), térmica ([**B85**](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md)), energía ([**B86**](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md)) y recursos in situ ([**B59**](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md)).
 - **Incertidumbre:** propagar errores en un balance y justificar un margen con números, no con intuición.
 
 ### Herramientas del oficio
@@ -87,35 +87,35 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
-1. 📚 [**B23** · Heliofísica y física de plasmas](../programa/tronco-comun/B23-heliofisica-y-fisica-de-plasmas.md) — usa 3 de 23 clases: `B23-` C12–C14
+1. 📚 [**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) — usa 3 de 23 clases: `B30-` C12–C14
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-2. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B34-` C07
-3. 📚 [**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md) — usa 1 de 21 clases: `B37-` C17
-4. 📚 [**B40** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — usa 8 de 23 clases: `B40-` C02–C04, C07, C11, C15–C16, C19
+2. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B53-` C07
+3. 📚 [**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) — usa 1 de 21 clases: `B56-` C17
+4. 📚 [**B59** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — usa 8 de 23 clases: `B59-` C02–C04, C07, C11, C15–C16, C19
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-5. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 3 de 24 clases: `B49-` C08, C13–C14
-6. 📚 [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) — usa 2 de 38 clases: `B50-` C05, C09
-7. 📚 [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) — usa 3 de 29 clases: `B51-` C06–C07, C16
-8. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — usa 2 de 23 clases: `B52-` C01, C19
-9. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 2 de 24 clases: `B56-` C04–C05
+5. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 3 de 24 clases: `B83-` C08, C13–C14
+6. 📚 [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) — usa 2 de 38 clases: `B84-` C05, C09
+7. 📚 [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) — usa 3 de 29 clases: `B85-` C06–C07, C16
+8. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — usa 2 de 23 clases: `B86-` C01, C19
+9. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 2 de 24 clases: `B90-` C04–C05
 
 **A08 · Operaciones de misión y robótica espacial**
 
-10. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B57-` C15
-11. 📚 [**B61** · Robótica y construcción extraterrestre](../programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md) — usa 1 de 27 clases: `B61-` C19
+10. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B96-` C15
+11. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — usa 1 de 27 clases: `B97-` C19
 
 **A09 · Astronáutica humana, medicina y hábitats**
 
-12. 📚 [**B58** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B58-astronautica-y-preparacion-de-astronautas.md) — usa 6 de 23 clases: `B58-` C02, C13, C16–C18, C20
-13. 📚 [**B59** · Medicina y biología espacial](../programa/tronco-comun/B59-medicina-y-biologia-espacial.md) — usa 4 de 27 clases: `B59-` C06, C08–C09, C12
-14. 📚 [**B60** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md) — usa 28 de 29 clases: `B60-` C01–C15, C17–C29
-15. 📚 [**B112** · Arquitectura y factores humanos de hábitats extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--arquitectura-y-factores-humanos-de-hábitats-extraterrestres) — usa 12 de 12 clases: `B112-` C01–C12
-16. 📚 [**B117** · Seguridad y respuesta a emergencias en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b117--seguridad-y-respuesta-a-emergencias-en-hábitats) — usa 6 de 6 clases: `B117-` C01–C06
-17. 📚 [**B118** · Sistemas bioregenerativos y cultivo en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b118--sistemas-bioregenerativos-y-cultivo-en-hábitats) — usa 7 de 7 clases: `B118-` C01–C07
+12. 📚 [**B104** · Astronáutica y preparación de astronautas](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) — usa 6 de 23 clases: `B104-` C02, C13, C16–C18, C20
+13. 📚 [**B105** · Medicina y biología espacial](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md) — usa 4 de 27 clases: `B105-` C06, C08–C09, C12
+14. 📚 [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) — usa 28 de 29 clases: `B106-` C01–C15, C17–C29
+15. 📚 [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b109--arquitectura-y-factores-humanos-de-hábitats-extraterrestres) — usa 12 de 12 clases: `B109-` C01–C12
+16. 📚 [**B114** · Seguridad y respuesta a emergencias en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b114--seguridad-y-respuesta-a-emergencias-en-hábitats) — usa 6 de 6 clases: `B114-` C01–C06
+17. 📚 [**B115** · Sistemas bioregenerativos y cultivo en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b115--sistemas-bioregenerativos-y-cultivo-en-hábitats) — usa 7 de 7 clases: `B115-` C01–C07
 
 <!-- /ruta -->
 
@@ -129,7 +129,7 @@ El producto que demuestra el rol es un **expediente de diseño de un hábitat** 
 - matriz de riesgo ambiental con detección, mitigación y tiempo disponible;
 - diseño integral de un hábitat lunar o marciano con revisión final.
 
-Las clases del programa cierran con ejercicios, laboratorios y proyectos que alimentan ese expediente (por ejemplo, el proyecto de balance ambiental de hábitat de B60 y la matriz de riesgo ambiental de B117). Cada pieza declara sus supuestos, sus fuentes y su versión; guarda también la primera versión, la retroalimentación y los cambios.
+Las clases del programa cierran con ejercicios, laboratorios y proyectos que alimentan ese expediente (por ejemplo, el proyecto de balance ambiental de hábitat de B106 y la matriz de riesgo ambiental de B114). Cada pieza declara sus supuestos, sus fuentes y su versión; guarda también la primera versión, la retroalimentación y los cambios.
 
 ## 🎓 Reconocimientos y referencias profesionales
 
@@ -157,10 +157,10 @@ Roles vecinos con los que se comparte formación: [astronáutica tripulada](astr
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y, según tu diagnóstico, con [**B05** · Física fundamental para el espacio](../programa/tronco-comun/B05-fisica-fundamental-para-el-espacio.md) y [**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md).
-2. Recorre el **soporte vital** en [**B60** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md) y arma un balance de aire y agua para una tripulación de ejemplo, con su incertidumbre.
-3. Pasa a la **disposición y los factores humanos** con [**B112** · Arquitectura y factores humanos de hábitats extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b112--arquitectura-y-factores-humanos-de-hábitats-extraterrestres) y dibuja un plano con sus rutas de evacuación.
-4. Cierra el **riesgo** con [**B117** · Seguridad y respuesta a emergencias en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b117--seguridad-y-respuesta-a-emergencias-en-hábitats) y escribe tu matriz de riesgo ambiental.
-5. Reúne tu **expediente** con el alimento ([**B118**](../PROGRAMA_ACADEMICO_COMPLETO.md#b118--sistemas-bioregenerativos-y-cultivo-en-hábitats)) y el diseño integral, y guarda su historia.
+2. Recorre el **soporte vital** en [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) y arma un balance de aire y agua para una tripulación de ejemplo, con su incertidumbre.
+3. Pasa a la **disposición y los factores humanos** con [**B109** · Arquitectura y factores humanos de hábitats extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b109--arquitectura-y-factores-humanos-de-hábitats-extraterrestres) y dibuja un plano con sus rutas de evacuación.
+4. Cierra el **riesgo** con [**B114** · Seguridad y respuesta a emergencias en hábitats](../PROGRAMA_ACADEMICO_COMPLETO.md#b114--seguridad-y-respuesta-a-emergencias-en-hábitats) y escribe tu matriz de riesgo ambiental.
+5. Reúne tu **expediente** con el alimento ([**B115**](../PROGRAMA_ACADEMICO_COMPLETO.md#b115--sistemas-bioregenerativos-y-cultivo-en-hábitats)) y el diseño integral, y guarda su historia.
 
 <!-- pie:inicio -->
 ---

@@ -39,13 +39,13 @@ Dicho sin adornos: casi todo trabajo consiste en **convertir una tolerancia en u
 
 ### Conocimiento técnico
 
-- **Óptica geométrica y diseño de telescopios:** formación de imagen, aberraciones, configuraciones ([**B25** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B25-optica-geometrica-y-diseno-de-telescopios.md), [**B82** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b82--diseño-óptico-computacional-y-tolerancias)).
-- **Óptica física y adaptativa:** difracción, frente de onda, corrección en tiempo real ([**B26** · Óptica física y óptica adaptativa](../programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md)).
-- **Construcción y mecánica de telescopios:** monturas, pulido, colimación, pruebas ([**B27** · Construcción y mecánica de telescopios](../programa/tronco-comun/B27-construccion-y-mecanica-de-telescopios.md)).
-- **Detectores y adquisición:** sensores, calibración, ruido ([**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md)).
-- **Espectroscopía y fotometría:** instrumentos de medida y su calibración ([**B29** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md)).
-- **Operación de observatorios:** automatización y calidad de datos ([**B32** · Operaciones de observatorios científicos](../programa/tronco-comun/B32-operaciones-de-observatorios-cientificos.md)).
-- **Ingeniería de sistemas y ensayos:** presupuestos y pruebas de integración ([**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md), [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md)).
+- **Óptica geométrica y diseño de telescopios:** formación de imagen, aberraciones, configuraciones ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md), [**B50** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b50--diseño-óptico-computacional-y-tolerancias)).
+- **Óptica física y adaptativa:** difracción, frente de onda, corrección en tiempo real ([**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md)).
+- **Construcción y mecánica de telescopios:** monturas, pulido, colimación, pruebas ([**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md)).
+- **Detectores y adquisición:** sensores, calibración, ruido ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md)).
+- **Espectroscopía y fotometría:** instrumentos de medida y su calibración ([**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md)).
+- **Operación de observatorios:** automatización y calidad de datos ([**B48** · Operaciones de observatorios científicos](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md)).
+- **Ingeniería de sistemas y ensayos:** presupuestos y pruebas de integración ([**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md), [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md)).
 
 ### Herramientas del oficio
 
@@ -80,7 +80,7 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 5. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 6. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 7. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-8. 📚 [**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md) — A04 · 20 clases
+8. 📚 [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md) — A04 · 20 clases
 
 ### 🎯 El núcleo del rol
 
@@ -91,29 +91,29 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
-3. 📚 [**B22** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B22-astronomia-temporal-y-exoplanetas.md) — usa 3 de 20 clases: `B22-` C02, C14, C19
+3. 📚 [**B29** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) — usa 3 de 20 clases: `B29-` C02, C14, C19
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-4. 📚 [**B25** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B25-optica-geometrica-y-diseno-de-telescopios.md) — usa 11 de 20 clases: `B25-` C04–C06, C08–C09, C13–C17, C20
-5. 📚 [**B26** · Óptica física y óptica adaptativa](../programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md) — usa 12 de 24 clases: `B26-` C11–C18, C21–C24
-6. 📚 [**B27** · Construcción y mecánica de telescopios](../programa/tronco-comun/B27-construccion-y-mecanica-de-telescopios.md) — usa 24 de 26 clases: `B27-` C01–C07, C09–C10, C12–C26
-7. 📚 [**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md) — usa 8 de 20 clases: `B28-` C04–C05, C12–C14, C17–C18, C20
-8. 📚 [**B29** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) — usa 9 de 24 clases: `B29-` C02–C03, C09, C17, C19, C21–C24
-9. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B31-` C11
-10. 📚 [**B32** · Operaciones de observatorios científicos](../programa/tronco-comun/B32-operaciones-de-observatorios-cientificos.md) — usa 12 de 23 clases: `B32-` C04, C07–C10, C13–C15, C20–C23
-11. 📚 [**B82** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b82--diseño-óptico-computacional-y-tolerancias) — usa 15 de 15 clases: `B82-` C01–C15
+4. 📚 [**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) — usa 11 de 20 clases: `B41-` C04–C06, C08–C09, C13–C17, C20
+5. 📚 [**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) — usa 12 de 24 clases: `B42-` C11–C18, C21–C24
+6. 📚 [**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) — usa 24 de 26 clases: `B43-` C01–C07, C09–C10, C12–C26
+7. 📚 [**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) — usa 8 de 20 clases: `B44-` C04–C05, C12–C14, C17–C18, C20
+8. 📚 [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) — usa 9 de 24 clases: `B45-` C02–C03, C09, C17, C19, C21–C24
+9. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B47-` C11
+10. 📚 [**B48** · Operaciones de observatorios científicos](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) — usa 12 de 23 clases: `B48-` C04, C07–C10, C13–C15, C20–C23
+11. 📚 [**B50** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b50--diseño-óptico-computacional-y-tolerancias) — usa 15 de 15 clases: `B50-` C01–C15
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-12. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 6 de 24 clases: `B49-` C04, C07, C13–C14, C16–C17
-13. 📚 [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) — usa 4 de 38 clases: `B50-` C11, C16, C18–C19
-14. 📚 [**B54** · Aviónica y software crítico espacial](../programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) — usa 1 de 44 clases: `B54-` C17
-15. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 2 de 24 clases: `B56-` C08, C16
+12. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 6 de 24 clases: `B83-` C04, C07, C13–C14, C16–C17
+13. 📚 [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) — usa 4 de 38 clases: `B84-` C11, C16, C18–C19
+14. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 1 de 44 clases: `B88-` C17
+15. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 2 de 24 clases: `B90-` C08, C16
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
-16. 📚 [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) — usa 1 de 24 clases: `B64-` C05
+16. 📚 [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) — usa 1 de 24 clases: `B124-` C05
 
 <!-- /ruta -->
 
@@ -154,9 +154,9 @@ Roles vecinos con los que se comparte formación: [Radioastronomía e interferom
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la matemática y la física de tu diagnóstico.
-2. Estudia **óptica geométrica y diseño de telescopios** ([**B25** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B25-optica-geometrica-y-diseno-de-telescopios.md)) y **óptica física y adaptativa** ([**B26** · Óptica física y óptica adaptativa](../programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md)).
-3. Aprende **construcción y mecánica de telescopios** ([**B27** · Construcción y mecánica de telescopios](../programa/tronco-comun/B27-construccion-y-mecanica-de-telescopios.md)) y **detectores** ([**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md)).
-4. Profundiza en **diseño óptico computacional y tolerancias** ([**B82** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b82--diseño-óptico-computacional-y-tolerancias)).
+2. Estudia **óptica geométrica y diseño de telescopios** ([**B41** · Óptica geométrica y diseño de telescopios](../programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md)) y **óptica física y adaptativa** ([**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md)).
+3. Aprende **construcción y mecánica de telescopios** ([**B43** · Construcción y mecánica de telescopios](../programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md)) y **detectores** ([**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md)).
+4. Profundiza en **diseño óptico computacional y tolerancias** ([**B50** · Diseño óptico computacional y tolerancias](../PROGRAMA_ACADEMICO_COMPLETO.md#b50--diseño-óptico-computacional-y-tolerancias)).
 5. Reúne tu **expediente de diseño** y guarda su historial.
 
 <!-- pie:inicio -->

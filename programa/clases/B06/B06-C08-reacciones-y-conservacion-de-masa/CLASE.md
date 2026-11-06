@@ -49,7 +49,7 @@ Con cuatro o cinco aciertos, sigue. Con tres o menos, repasa C06 y C07.
 
 El Sol obtiene su energía fusionando núcleos de hidrógeno en helio. Con las masas atómicas relativas de la NIST, `¹H = 1,007 825 032 23` y `⁴He = 4,002 603 254 13` (S1), cuatro átomos de hidrógeno pesan `4,031 300 129 u` y un átomo de helio `4,002 603 254 u`. La diferencia es `0,028 696 875 u`. Multiplicada por `c²` y expresada en electronvoltios (con la constante de masa atómica de CODATA 2022, S2), da `26,73 MeV` por núcleo de helio formado. Es el 0,71 % de la masa inicial.
 
-Este número es nuestro cálculo con masas atómicas neutras: incluye la energía que se libera cuando los positrones producidos se aniquilan con electrones. Ten presente el límite: no estudiamos aquí los pasos de la cadena nuclear (B17, B24), sólo el balance total.
+Este número es nuestro cálculo con masas atómicas neutras: incluye la energía que se libera cuando los positrones producidos se aniquilan con electrones. Ten presente el límite: no estudiamos aquí los pasos de la cadena nuclear (B24, B31), sólo el balance total.
 
 ## 6. Vocabulario
 

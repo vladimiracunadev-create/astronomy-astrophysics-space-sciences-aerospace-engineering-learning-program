@@ -10,8 +10,8 @@
           "tema": "Transferencia de Hohmann generalizada",
           "destino": "existente",
           "tronco": [
-            "B41-C18",
-            "B45-C01"
+            "B71-C18",
+            "B75-C01"
           ]
         },
         {
@@ -19,7 +19,7 @@
           "tema": "Transferencias bi-elípticas",
           "destino": "existente",
           "tronco": [
-            "B45-C05"
+            "B75-C05"
           ]
         },
         {
@@ -27,7 +27,7 @@
           "tema": "Transferencias no coplanares",
           "destino": "existente",
           "tronco": [
-            "B45-C13"
+            "B75-C13"
           ]
         },
         {
@@ -35,8 +35,8 @@
           "tema": "Maniobras con delta-v limitado",
           "destino": "existente",
           "tronco": [
-            "B45-C09",
-            "B45-C10"
+            "B75-C09",
+            "B75-C10"
           ]
         },
         {
@@ -44,8 +44,8 @@
           "tema": "Transferencias con cambios de plano",
           "destino": "existente",
           "tronco": [
-            "B41-C19",
-            "B45-C13"
+            "B71-C19",
+            "B75-C13"
           ]
         },
         {
@@ -54,9 +54,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Intersección de cónicas en transferencias",
-            "necesidad": "Geometría de transferencias por intersección de órbitas elípticas; B45-C01 trata geometría general, no este método."
+            "necesidad": "Geometría de transferencias por intersección de órbitas elípticas; B75-C01 trata geometría general, no este método."
           }
         },
         {
@@ -65,9 +65,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Modelos de primer impulso",
-            "necesidad": "Optimización del primer impulso y del tiempo de vuelo; ausente en B45."
+            "necesidad": "Optimización del primer impulso y del tiempo de vuelo; ausente en B75."
           }
         },
         {
@@ -76,9 +76,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Energía característica C3 y exceso hiperbólico",
-            "necesidad": "Medida de energía de escape (C3, V-infinito) para dimensionar lanzamiento; B41-C15 solo trata velocidad de escape."
+            "necesidad": "Medida de energía de escape (C3, V-infinito) para dimensionar lanzamiento; B71-C15 solo trata velocidad de escape."
           }
         },
         {
@@ -86,7 +86,7 @@
           "tema": "Sensibilidad a ventana",
           "destino": "existente",
           "tronco": [
-            "B45-C03"
+            "B75-C03"
           ]
         },
         {
@@ -94,7 +94,7 @@
           "tema": "Comparación de soluciones óptimas",
           "destino": "existente",
           "tronco": [
-            "B45-C12"
+            "B75-C12"
           ]
         }
       ]
@@ -108,7 +108,7 @@
           "tema": "Definición de Lambert",
           "destino": "existente",
           "tronco": [
-            "B45-C04"
+            "B75-C04"
           ]
         },
         {
@@ -119,7 +119,7 @@
             "area": "A06",
             "bloque": "nuevo: Problema de Lambert y transferencias de dos puntos",
             "titulo": "Lambert de arco corto",
-            "necesidad": "Resolución del caso de transferencia < 180°; B45-C04 solo enuncia la ecuación."
+            "necesidad": "Resolución del caso de transferencia < 180°; B75-C04 solo enuncia la ecuación."
           }
         },
         {
@@ -182,7 +182,7 @@
           "tema": "Sensibilidad temporal",
           "destino": "existente",
           "tronco": [
-            "B42-C19"
+            "B72-C19"
           ]
         },
         {
@@ -190,8 +190,8 @@
           "tema": "Validación por integración",
           "destino": "existente",
           "tronco": [
-            "B42-C18",
-            "B41-C20"
+            "B72-C18",
+            "B71-C20"
           ]
         },
         {
@@ -216,7 +216,7 @@
           "tema": "Efemérides de N cuerpos",
           "destino": "existente",
           "tronco": [
-            "B43-C08"
+            "B73-C08"
           ]
         },
         {
@@ -224,8 +224,8 @@
           "tema": "Campos gravitatorios planetarios",
           "destino": "existente",
           "tronco": [
-            "B42-C02",
-            "B34-C03"
+            "B72-C02",
+            "B53-C03"
           ]
         },
         {
@@ -233,8 +233,8 @@
           "tema": "Perturbaciones de terceros cuerpos",
           "destino": "existente",
           "tronco": [
-            "B42-C09",
-            "B42-C10"
+            "B72-C09",
+            "B72-C10"
           ]
         },
         {
@@ -242,8 +242,8 @@
           "tema": "Perturbación no gravitacional",
           "destino": "existente",
           "tronco": [
-            "B42-C06",
-            "B42-C08"
+            "B72-C06",
+            "B72-C08"
           ]
         },
         {
@@ -252,7 +252,7 @@
           "destino": "existente",
           "tronco": [
             "B11-C08",
-            "B42-C18"
+            "B72-C18"
           ]
         },
         {
@@ -261,9 +261,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B43",
+            "bloque": "B73",
             "titulo": "Pasos cercanos a satélites naturales en integración de N cuerpos",
-            "necesidad": "Manejo de encuentros con lunas y paso de paso adaptativo; ausente en B43."
+            "necesidad": "Manejo de encuentros con lunas y paso de paso adaptativo; ausente en B73."
           }
         },
         {
@@ -272,9 +272,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B43",
+            "bloque": "B73",
             "titulo": "Capturas temporales y cuasi-satélites",
-            "necesidad": "Captura de pequeños cuerpos y órbitas de herradura; B43 trata resonancias, no capturas."
+            "necesidad": "Captura de pequeños cuerpos y órbitas de herradura; B73 trata resonancias, no capturas."
           }
         },
         {
@@ -282,9 +282,9 @@
           "tema": "Dinámica de resonancias",
           "destino": "existente",
           "tronco": [
-            "B43-C10",
-            "B43-C11",
-            "B43-C12"
+            "B73-C10",
+            "B73-C11",
+            "B73-C12"
           ]
         },
         {
@@ -292,8 +292,8 @@
           "tema": "Covarianza en N cuerpos",
           "destino": "existente",
           "tronco": [
-            "B44-C11",
-            "B44-C12"
+            "B74-C11",
+            "B74-C12"
           ]
         },
         {
@@ -301,7 +301,7 @@
           "tema": "Pruebas frente a SPICE",
           "destino": "existente",
           "tronco": [
-            "B44-C20"
+            "B74-C20"
           ]
         }
       ]
@@ -315,7 +315,7 @@
           "tema": "Geometría de sobrevuelo",
           "destino": "existente",
           "tronco": [
-            "B45-C07"
+            "B75-C07"
           ]
         },
         {
@@ -324,7 +324,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Plano B y parámetro de impacto",
             "necesidad": "Geometría B-plane para apuntar sobrevuelos; ausente."
           }
@@ -334,8 +334,8 @@
           "tema": "Ángulo de deflexión",
           "destino": "existente",
           "tronco": [
-            "B45-C07",
-            "B41-C09"
+            "B75-C07",
+            "B71-C09"
           ]
         },
         {
@@ -343,7 +343,7 @@
           "tema": "Cambio de energía heliocéntrica",
           "destino": "existente",
           "tronco": [
-            "B45-C06"
+            "B75-C06"
           ]
         },
         {
@@ -352,7 +352,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Resonancias para sobrevuelos",
             "necesidad": "Retornos resonantes de sobrevuelo para encadenar encuentros; ausente."
           }
@@ -362,7 +362,7 @@
           "tema": "Encadenamiento de asistencias",
           "destino": "existente",
           "tronco": [
-            "B45-C08"
+            "B75-C08"
           ]
         },
         {
@@ -371,9 +371,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Sobrevuelos de lunas y tours de sistemas planetarios",
-            "necesidad": "Diseño de tours de lunas (Galileo, Cassini); B45-C20 es un caso, no la técnica."
+            "necesidad": "Diseño de tours de lunas (Galileo, Cassini); B75-C20 es un caso, no la técnica."
           }
         },
         {
@@ -381,8 +381,8 @@
           "tema": "Restricciones de iluminación",
           "destino": "existente",
           "tronco": [
-            "B45-C17",
-            "B46-C18"
+            "B75-C17",
+            "B76-C18"
           ]
         },
         {
@@ -390,7 +390,7 @@
           "tema": "Optimización de secuencias",
           "destino": "existente",
           "tronco": [
-            "B45-C12"
+            "B75-C12"
           ]
         },
         {
@@ -398,8 +398,8 @@
           "tema": "Márgenes de maniobra",
           "destino": "existente",
           "tronco": [
-            "B45-C09",
-            "B45-C18"
+            "B75-C09",
+            "B75-C18"
           ]
         }
       ]
@@ -413,7 +413,7 @@
           "tema": "Propulsión de bajo empuje",
           "destino": "existente",
           "tronco": [
-            "B45-C11"
+            "B75-C11"
           ]
         },
         {
@@ -465,7 +465,7 @@
           "tema": "Optimización de empuje",
           "destino": "existente",
           "tronco": [
-            "B45-C12"
+            "B75-C12"
           ]
         },
         {
@@ -476,7 +476,7 @@
             "area": "A06",
             "bloque": "nuevo: Optimización de trayectorias y diseño robusto",
             "titulo": "Limitaciones de potencia en propulsión eléctrica",
-            "necesidad": "Variación de potencia solar con distancia y su efecto en empuje; B52 y B48 no conectan con trayectoria."
+            "necesidad": "Variación de potencia solar con distancia y su efecto en empuje; B86 y B78 no conectan con trayectoria."
           }
         },
         {
@@ -523,7 +523,7 @@
           "tema": "Geometría de ventanas",
           "destino": "existente",
           "tronco": [
-            "B45-C03"
+            "B75-C03"
           ]
         },
         {
@@ -531,7 +531,7 @@
           "tema": "Fases heliocéntricas",
           "destino": "existente",
           "tronco": [
-            "B45-C02"
+            "B75-C02"
           ]
         },
         {
@@ -539,7 +539,7 @@
           "tema": "Sincronía de lanzamiento",
           "destino": "existente",
           "tronco": [
-            "B47-C11"
+            "B77-C11"
           ]
         },
         {
@@ -548,7 +548,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Duración de misión y tiempo de vuelo como restricción",
             "necesidad": "Relación entre tiempo de vuelo, delta-v y costo; no cubierto."
           }
@@ -558,8 +558,8 @@
           "tema": "Restricciones de eclipses",
           "destino": "existente",
           "tronco": [
-            "B52-C04",
-            "B57-C11"
+            "B86-C04",
+            "B96-C11"
           ]
         },
         {
@@ -567,7 +567,7 @@
           "tema": "Operaciones de destino",
           "destino": "existente",
           "tronco": [
-            "B45-C14"
+            "B75-C14"
           ]
         },
         {
@@ -575,8 +575,8 @@
           "tema": "Disponibilidad de seguimiento",
           "destino": "existente",
           "tronco": [
-            "B44-C15",
-            "B55-C14"
+            "B74-C15",
+            "B89-C14"
           ]
         },
         {
@@ -585,7 +585,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Restricciones de radiación en trayectorias",
             "necesidad": "Cruces de cinturones y eventos solares como restricción de ruta; ausente."
           }
@@ -596,7 +596,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Análisis de calendario con gráficos pork-chop",
             "necesidad": "Construcción de mapas fecha lanzamiento-llegada; ausente."
           }
@@ -606,8 +606,8 @@
           "tema": "Trade-offs tiempo y combustible",
           "destino": "existente",
           "tronco": [
-            "B45-C09",
-            "B45-C12"
+            "B75-C09",
+            "B75-C12"
           ]
         }
       ]
@@ -685,7 +685,7 @@
           "tema": "Dispersiones iniciales",
           "destino": "existente",
           "tronco": [
-            "B45-C18"
+            "B75-C18"
           ]
         },
         {
@@ -693,7 +693,7 @@
           "tema": "Propagación de incertidumbres",
           "destino": "existente",
           "tronco": [
-            "B44-C12",
+            "B74-C12",
             "B12-C16"
           ]
         },
@@ -730,7 +730,7 @@
           "tema": "Modelos keplerianos de control",
           "destino": "existente",
           "tronco": [
-            "B41-C20"
+            "B71-C20"
           ]
         },
         {
@@ -738,7 +738,7 @@
           "tema": "Horizons como referencia",
           "destino": "existente",
           "tronco": [
-            "B44-C20"
+            "B74-C20"
           ]
         },
         {
@@ -747,9 +747,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B44",
+            "bloque": "B74",
             "titulo": "Kernels SPICE y su uso en navegación",
-            "necesidad": "Estructura de kernels (SPK, CK, LSK) y toolkit; B44-C20 usa efemérides de referencia sin enseñar SPICE."
+            "necesidad": "Estructura de kernels (SPK, CK, LSK) y toolkit; B74-C20 usa efemérides de referencia sin enseñar SPICE."
           }
         },
         {
@@ -767,7 +767,7 @@
           "tema": "Comparación de integradores",
           "destino": "existente",
           "tronco": [
-            "B42-C20",
+            "B72-C20",
             "B11-C19"
           ]
         },
@@ -776,8 +776,8 @@
           "tema": "Verificación de residuales",
           "destino": "existente",
           "tronco": [
-            "B44-C07",
-            "B44-C20"
+            "B74-C07",
+            "B74-C20"
           ]
         },
         {
@@ -786,7 +786,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B45",
+            "bloque": "B75",
             "titulo": "Validación de maniobras por reintegración",
             "necesidad": "Chequear una maniobra impulsiva reintegrando antes y después; ausente."
           }
@@ -796,7 +796,7 @@
           "tema": "Métricas de error",
           "destino": "existente",
           "tronco": [
-            "B44-C19"
+            "B74-C19"
           ]
         },
         {
@@ -814,9 +814,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A06",
-            "bloque": "B44",
+            "bloque": "B74",
             "titulo": "Informe de navegación verificable",
-            "necesidad": "Estructura de informe con datos, versiones y tolerancias; B44-C20 trata la validación, no el informe."
+            "necesidad": "Estructura de informe con datos, versiones y tolerancias; B74-C20 trata la validación, no el informe."
           }
         }
       ]

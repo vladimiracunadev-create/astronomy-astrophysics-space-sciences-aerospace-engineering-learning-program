@@ -8,7 +8,7 @@
 
 Primera clase del bloque B06, «Química y materia del universo». Hasta aquí has usado la luz como mensajera (B01-C09) y has visto que una galaxia revela su velocidad por una línea de color. En esta clase abres esa línea y miras dentro del átomo que la produce. Sigues en el nivel N1.
 
-Verás de qué está hecho un átomo, qué significa que sus electrones tengan «niveles» de energía, cómo un salto entre niveles emite un fotón de un color exacto y cómo un modelo sencillo, el de Bohr, predice las líneas del hidrógeno con una exactitud notable. No verás todavía mecánica cuántica formal, orbitales ni átomos con muchos electrones; eso queda para B24.
+Verás de qué está hecho un átomo, qué significa que sus electrones tengan «niveles» de energía, cómo un salto entre niveles emite un fotón de un color exacto y cómo un modelo sencillo, el de Bohr, predice las líneas del hidrógeno con una exactitud notable. No verás todavía mecánica cuántica formal, orbitales ni átomos con muchos electrones; eso queda para B31.
 
 ## 2. Por qué esta clase existe
 
@@ -109,7 +109,7 @@ Si `n_bajo = 2` se obtiene la **serie de Balmer**, las únicas líneas del hidr�
 
 ### 8.5 Hasta dónde llega el modelo
 
-El modelo de Bohr acierta con el hidrógeno y con iones de un solo electrón (por ejemplo He⁺, donde la energía se multiplica por `Z²`), pero falla cuando hay dos o más electrones, porque estos se repelen entre sí y la fórmula deja de valer. Tampoco explica por qué algunas líneas se parten en componentes muy cercanas: la NIST registra para H-alfa componentes entre 656,2710 y 656,2909 nm (S2), una «estructura fina» que el modelo de Bohr ignora. Para ir más allá hace falta la mecánica cuántica (B24).
+El modelo de Bohr acierta con el hidrógeno y con iones de un solo electrón (por ejemplo He⁺, donde la energía se multiplica por `Z²`), pero falla cuando hay dos o más electrones, porque estos se repelen entre sí y la fórmula deja de valer. Tampoco explica por qué algunas líneas se parten en componentes muy cercanas: la NIST registra para H-alfa componentes entre 656,2710 y 656,2909 nm (S2), una «estructura fina» que el modelo de Bohr ignora. Para ir más allá hace falta la mecánica cuántica (B31).
 
 ## 9. Magnitudes, símbolos y unidades
 

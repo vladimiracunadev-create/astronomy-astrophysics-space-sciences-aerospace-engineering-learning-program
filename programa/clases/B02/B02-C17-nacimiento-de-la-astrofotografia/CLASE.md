@@ -8,7 +8,7 @@
 
 Decimoséptima clase del bloque B02. El ojo humano olvida; una placa fotográfica no. Aquí ves cuándo y cómo la fotografía se convirtió en un instrumento científico para registrar el cielo, y qué problemas técnicos tuvo que resolver. Nivel N1.
 
-Verás los primeros hitos (la Luna, el Sol, Vega, los espectros, la nebulosa de Orión), el problema del seguimiento durante exposiciones largas, que cuantificarás, y la colección de placas de Harvard como archivo científico. No verás procesamiento de imágenes ni detectores modernos (bloques B15 y B28).
+Verás los primeros hitos (la Luna, el Sol, Vega, los espectros, la nebulosa de Orión), el problema del seguimiento durante exposiciones largas, que cuantificarás, y la colección de placas de Harvard como archivo científico. No verás procesamiento de imágenes ni detectores modernos (bloques B15 y B44).
 
 ## 2. Por qué esta clase existe
 
@@ -285,7 +285,7 @@ La fotografía convirtió el cielo en un archivo y mostró lo que el ojo no ve, 
 
 **Glosario español–inglés.** astrofotografía · *astrophotography*; daguerrotipo · *daguerreotype*; placa seca · *dry plate*; exposición · *exposure*; seguimiento · *tracking/guiding*; placa de vidrio · *glass plate*.
 
-**Continuidad.** B02-C18 usa tu capacidad de **calcular efectos de la rotación** para situar la expansión de los observatorios en Chile. B28 retomará los detectores.
+**Continuidad.** B02-C18 usa tu capacidad de **calcular efectos de la rotación** para situar la expansión de los observatorios en Chile. B44 retomará los detectores.
 
 **Referencias:** ver sección 11. S1 es enciclopédica.
 

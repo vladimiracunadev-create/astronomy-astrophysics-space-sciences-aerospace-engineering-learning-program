@@ -43,13 +43,13 @@ Dicho sin adornos: hay **mucha incertidumbre que comunicar** y pocas certezas; l
 
 ### Conocimiento técnico
 
-- **Prospección y reservas:** selección de sitios, programa por fases, muestreo y preservación de volátiles, categorías de recursos, geoestadística, sensores de volátiles e informe con incertidumbre, en [**B91** · Prospección y evaluación de reservas de recursos extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres).
-- **Recursos in situ:** hielo lunar, agua en regolito, minerales marcianos, extracción de volátiles, producción de oxígeno, electrólisis y balances energéticos, construcción con regolito y diseño conceptual de planta, en [**B40** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md).
-- **Geología y química de superficies:** [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) y [**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md).
-- **Energía, térmica y materiales:** [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md), [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) y [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md).
-- **Robótica de superficie:** [**B61** · Robótica y construcción extraterrestre](../programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md).
-- **Logística:** inventarios, carga, depósitos, transporte en superficie y cislunar, y dependencia de suministros terrestres, en [**B106** · Logística y cadena de suministro extraterrestre](../PROGRAMA_ACADEMICO_COMPLETO.md#b106--logística-y-cadena-de-suministro-extraterrestre), apoyada en trayectorias y delta-v ([**B45**](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md)).
-- **Economía:** estimación de costos, financiamiento, costos de transporte por kilogramo y CapEx/OpEx de una instalación, en [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md).
+- **Prospección y reservas:** selección de sitios, programa por fases, muestreo y preservación de volátiles, categorías de recursos, geoestadística, sensores de volátiles e informe con incertidumbre, en [**B67** · Prospección y evaluación de reservas de recursos extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b67--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres).
+- **Recursos in situ:** hielo lunar, agua en regolito, minerales marcianos, extracción de volátiles, producción de oxígeno, electrólisis y balances energéticos, construcción con regolito y diseño conceptual de planta, en [**B59** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md).
+- **Geología y química de superficies:** [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) y [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md).
+- **Energía, térmica y materiales:** [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md), [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) y [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md).
+- **Robótica de superficie:** [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md).
+- **Logística:** inventarios, carga, depósitos, transporte en superficie y cislunar, y dependencia de suministros terrestres, en [**B100** · Logística y cadena de suministro extraterrestre](../PROGRAMA_ACADEMICO_COMPLETO.md#b100--logística-y-cadena-de-suministro-extraterrestre), apoyada en trayectorias y delta-v ([**B75**](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md)).
+- **Economía:** estimación de costos, financiamiento, costos de transporte por kilogramo y CapEx/OpEx de una instalación, en [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md).
 - **Estadística y simulación:** intervalos, Monte Carlo y propagación de incertidumbre ([**B11**](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
 ### Herramientas del oficio
@@ -78,9 +78,9 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 ### 🧱 Fundamentos (según tu diagnóstico)
 
-1. 📚 [**B33** · Formación y dinámica de sistemas planetarios](../programa/tronco-comun/B33-formacion-y-dinamica-de-sistemas-planetarios.md) — A05 · 20 clases
-2. 📚 [**B35** · Atmósferas y climatología planetaria](../programa/tronco-comun/B35-atmosferas-y-climatologia-planetaria.md) — A05 · 20 clases
-3. 📚 [**B39** · Asteroides, cometas y defensa planetaria](../programa/tronco-comun/B39-asteroides-cometas-y-defensa-planetaria.md) — A05 · 20 clases
+1. 📚 [**B52** · Formación y dinámica de sistemas planetarios](../programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) — A05 · 20 clases
+2. 📚 [**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) — A05 · 20 clases
+3. 📚 [**B58** · Asteroides, cometas y defensa planetaria](../programa/tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) — A05 · 20 clases
 
 ### 🎯 El núcleo del rol
 
@@ -90,46 +90,46 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-2. 📚 [**B29** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) — usa 1 de 24 clases: `B29-` C14
+2. 📚 [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) — usa 1 de 24 clases: `B45-` C14
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-3. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 8 de 30 clases: `B34-` C07–C08, C13, C17–C19, C29–C30
-4. 📚 [**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md) — usa 1 de 20 clases: `B36-` C18
-5. 📚 [**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md) — usa 1 de 21 clases: `B37-` C18
-6. 📚 [**B38** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B38-observacion-terrestre-y-geociencias-orbitales.md) — usa 1 de 34 clases: `B38-` C09
-7. 📚 [**B40** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — usa 17 de 23 clases: `B40-` C02–C04, C06–C08, C10, C12–C13, C15–C17, C19–C23
-8. 📚 [**B91** · Prospección y evaluación de reservas de recursos extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres) — usa 8 de 8 clases: `B91-` C01–C08
+3. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 8 de 30 clases: `B53-` C07–C08, C13, C17–C19, C29–C30
+4. 📚 [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) — usa 1 de 20 clases: `B55-` C18
+5. 📚 [**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) — usa 1 de 21 clases: `B56-` C18
+6. 📚 [**B57** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) — usa 1 de 34 clases: `B57-` C09
+7. 📚 [**B59** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — usa 17 de 23 clases: `B59-` C02–C04, C06–C08, C10, C12–C13, C15–C17, C19–C23
+8. 📚 [**B67** · Prospección y evaluación de reservas de recursos extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b67--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres) — usa 8 de 8 clases: `B67-` C01–C08
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-9. 📚 [**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) — usa 2 de 30 clases: `B45-` C03, C09
-10. 📚 [**B48** · Tecnologías de propulsión espacial](../programa/tronco-comun/B48-tecnologias-de-propulsion-espacial.md) — usa 1 de 22 clases: `B48-` C19
+9. 📚 [**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) — usa 2 de 30 clases: `B75-` C03, C09
+10. 📚 [**B78** · Tecnologías de propulsión espacial](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md) — usa 1 de 22 clases: `B78-` C19
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-11. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 3 de 24 clases: `B49-` C10, C16, C18
-12. 📚 [**B50** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B50-estructuras-materiales-y-fabricacion-espacial.md) — usa 8 de 38 clases: `B50-` C08, C15–C16, C18–C19, C36–C38
-13. 📚 [**B51** · Gestión térmica y entorno espacial](../programa/tronco-comun/B51-gestion-termica-y-entorno-espacial.md) — usa 4 de 29 clases: `B51-` C07–C08, C10, C16
-14. 📚 [**B52** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md) — usa 14 de 23 clases: `B52-` C02–C03, C05–C08, C11, C14–C17, C19, C22–C23
+11. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 3 de 24 clases: `B83-` C10, C16, C18
+12. 📚 [**B84** · Estructuras, materiales y fabricación espacial](../programa/tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) — usa 8 de 38 clases: `B84-` C08, C15–C16, C18–C19, C36–C38
+13. 📚 [**B85** · Gestión térmica y entorno espacial](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md) — usa 4 de 29 clases: `B85-` C07–C08, C10, C16
+14. 📚 [**B86** · Sistemas de potencia y energía espacial](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) — usa 14 de 23 clases: `B86-` C02–C03, C05–C08, C11, C14–C17, C19, C22–C23
 
 **A08 · Operaciones de misión y robótica espacial**
 
-15. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B57-` C14
-16. 📚 [**B61** · Robótica y construcción extraterrestre](../programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md) — usa 12 de 27 clases: `B61-` C01, C06, C08, C10, C12, C15–C17, C19, C25–C27
-17. 📚 [**B106** · Logística y cadena de suministro extraterrestre](../PROGRAMA_ACADEMICO_COMPLETO.md#b106--logística-y-cadena-de-suministro-extraterrestre) — usa 7 de 7 clases: `B106-` C01–C07
+15. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 1 de 30 clases: `B96-` C14
+16. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — usa 12 de 27 clases: `B97-` C01, C06, C08, C10, C12, C15–C17, C19, C25–C27
+17. 📚 [**B100** · Logística y cadena de suministro extraterrestre](../PROGRAMA_ACADEMICO_COMPLETO.md#b100--logística-y-cadena-de-suministro-extraterrestre) — usa 7 de 7 clases: `B100-` C01–C07
 
 **A09 · Astronáutica humana, medicina y hábitats**
 
-18. 📚 [**B60** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B60-habitats-espaciales-y-soporte-vital.md) — usa 1 de 29 clases: `B60-` C18
+18. 📚 [**B106** · Hábitats espaciales y soporte vital](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) — usa 1 de 29 clases: `B106-` C18
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-19. 📚 [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) — usa 1 de 36 clases: `B63-` C25
+19. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 1 de 36 clases: `B119-` C25
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
-20. 📚 [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) — usa 9 de 24 clases: `B64-` C03–C07, C12, C19, C23–C24
+20. 📚 [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) — usa 9 de 24 clases: `B124-` C03–C07, C12, C19, C23–C24
 
 <!-- /ruta -->
 
@@ -143,7 +143,7 @@ El producto que demuestra el rol es un **estudio de viabilidad de una instalaci�
 - dimensionamiento de energía y logística;
 - escenarios de costo de inversión y operación, comparados con el costo de traerlo desde la Tierra.
 
-Las clases del programa cierran con ejercicios y proyectos que alimentan ese expediente (por ejemplo, el informe de disponibilidad de volátiles de B91 y el diseño conceptual de planta ISRU de B40). Declara qué datos son reales y cuáles son hipótesis, y guarda la primera versión, la retroalimentación y los cambios.
+Las clases del programa cierran con ejercicios y proyectos que alimentan ese expediente (por ejemplo, el informe de disponibilidad de volátiles de B67 y el diseño conceptual de planta ISRU de B59). Declara qué datos son reales y cuáles son hipótesis, y guarda la primera versión, la retroalimentación y los cambios.
 
 ## 🎓 Reconocimientos y referencias profesionales
 
@@ -170,11 +170,11 @@ Roles vecinos con los que se comparte formación: [ciencias planetarias y astrog
 
 ## 🚀 Siguientes pasos
 
-1. **Asienta la base** con química, estadística y programación, y con [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) para entender el terreno.
-2. Recorre los **recursos in situ** en [**B40** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) y calcula el balance de masa y de energía de un proceso de agua u oxígeno.
-3. Aprende a **estimar reservas con incertidumbre** en [**B91** · Prospección y evaluación de reservas de recursos extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b91--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres) y redacta un informe de disponibilidad.
-4. Suma **energía, robótica y logística** con [**B52**](../programa/tronco-comun/B52-sistemas-de-potencia-y-energia-espacial.md), [**B61**](../programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md) y [**B106**](../PROGRAMA_ACADEMICO_COMPLETO.md#b106--logística-y-cadena-de-suministro-extraterrestre).
-5. Cierra con la **viabilidad económica** en [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) y reúne tu expediente con su historia.
+1. **Asienta la base** con química, estadística y programación, y con [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) para entender el terreno.
+2. Recorre los **recursos in situ** en [**B59** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) y calcula el balance de masa y de energía de un proceso de agua u oxígeno.
+3. Aprende a **estimar reservas con incertidumbre** en [**B67** · Prospección y evaluación de reservas de recursos extraterrestres](../PROGRAMA_ACADEMICO_COMPLETO.md#b67--prospección-y-evaluación-de-reservas-de-recursos-extraterrestres) y redacta un informe de disponibilidad.
+4. Suma **energía, robótica y logística** con [**B86**](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md), [**B97**](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) y [**B100**](../PROGRAMA_ACADEMICO_COMPLETO.md#b100--logística-y-cadena-de-suministro-extraterrestre).
+5. Cierra con la **viabilidad económica** en [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) y reúne tu expediente con su historia.
 
 <!-- pie:inicio -->
 ---

@@ -8,7 +8,7 @@
 
 Novena clase del bloque B08. En [B08-C08](../B08-C08-fases-lunares-y-libracion/CLASE.md) viste que la Luna recorre sus fases cada mes; aquí explicas por qué **no hay un eclipse cada mes** y qué decide si es total, anular o parcial. Esta es la primera clase del bloque en que el Sol entra como protagonista: la seguridad se trata desde el principio. Nivel N1.
 
-Verás conos de sombra, tamaños angulares, ventanas de eclipse, el calendario de eclipses visibles desde Chile en la tabla de la NASA y cómo observar con seguridad. No verás cálculo de trayectorias de eclipse (B41 y siguientes) ni fotografía (C19).
+Verás conos de sombra, tamaños angulares, ventanas de eclipse, el calendario de eclipses visibles desde Chile en la tabla de la NASA y cómo observar con seguridad. No verás cálculo de trayectorias de eclipse (B71 y siguientes) ni fotografía (C19).
 
 ## 2. Por qué esta clase existe
 

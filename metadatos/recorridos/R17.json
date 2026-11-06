@@ -147,9 +147,9 @@
       "tipo": "recomendada",
       "titulo": "Estimación de estado y navegación",
       "clases": [
-        "B44-C08..C10",
-        "B44-C13..C14",
-        "B44-C18"
+        "B74-C08..C10",
+        "B74-C13..C14",
+        "B74-C18"
       ],
       "capacidad": "Aplicar filtros de Kalman y navegación óptica a la estimación de estado de un vehículo.",
       "nota": "Estimación de órbitas completa: R10."
@@ -160,8 +160,8 @@
       "tipo": "obligatoria",
       "titulo": "Robótica y construcción extraterrestre",
       "clases": [
-        "B61-C01..C13",
-        "B61-C16..C20"
+        "B97-C01..C13",
+        "B97-C16..C20"
       ],
       "capacidad": "Describir los sistemas robóticos espaciales y sus modos de percepción, movilidad, teleoperación y seguridad.",
       "nota": "Es el eje del rol; R17-M01 a R17-M08 profundizan C02, C03, C05, C07 y C16. Se omiten construcción y impresión 3D (C14, C15) salvo que el rol incluya construcción robótica."
@@ -175,7 +175,7 @@
         "R17-M01-C01..C20"
       ],
       "capacidad": "Calcular cinemática directa, inversa y jacobianos de un brazo y planificar su movimiento en el espacio articular.",
-      "nota": "Repite B61-C02 y B10-C13 a C16; aquí se exigen singularidades, restricciones articulares y calibración."
+      "nota": "Repite B97-C02 y B10-C13 a C16; aquí se exigen singularidades, restricciones articulares y calibración."
     },
     {
       "orden": 14,
@@ -187,7 +187,7 @@
         "R17-M02-C15..C20"
       ],
       "capacidad": "Modelar tracción, deslizamiento y suspensión de un rover sobre terreno suelto.",
-      "nota": "Profundiza B61-C06; se omite dinamometría (C13, C14), que depende de instalaciones de ensayo."
+      "nota": "Profundiza B97-C06; se omite dinamometría (C13, C14), que depende de instalaciones de ensayo."
     },
     {
       "orden": 15,
@@ -198,7 +198,7 @@
         "R17-M03-C01..C20"
       ],
       "capacidad": "Calibrar cámaras, construir mapas de profundidad y detectar obstáculos.",
-      "nota": "Repite B61-C03 y C04 y B15-C09 a C14; aquí se pide calibración, métricas de percepción y estimación de pose."
+      "nota": "Repite B97-C03 y C04 y B15-C09 a C14; aquí se pide calibración, métricas de percepción y estimación de pose."
     },
     {
       "orden": 16,
@@ -209,7 +209,7 @@
         "R17-M04-C01..C20"
       ],
       "capacidad": "Localizar un robot y construir un mapa con deriva acotada.",
-      "nota": "Repite B61-C05; añade odometría, cierre de bucles y validación con rutas conocidas."
+      "nota": "Repite B97-C05; añade odometría, cierre de bucles y validación con rutas conocidas."
     },
     {
       "orden": 17,
@@ -217,11 +217,11 @@
       "tipo": "recomendada",
       "titulo": "Aviónica y software crítico",
       "clases": [
-        "B54-C01..C02",
-        "B54-C05..C09",
-        "B54-C11..C12",
-        "B54-C14..C16",
-        "B54-C19"
+        "B88-C01..C02",
+        "B88-C05..C09",
+        "B88-C11..C12",
+        "B88-C14..C16",
+        "B88-C19"
       ],
       "capacidad": "Diseñar el software de tiempo real y la detección de fallas de un robot.",
       "nota": "Aviónica de alta fiabilidad en profundidad: R13."
@@ -232,14 +232,14 @@
       "tipo": "recomendada",
       "titulo": "Enlace y operación de misión",
       "clases": [
-        "B49-C03..C05",
-        "B49-C08",
-        "B49-C16..C18",
-        "B55-C04",
-        "B55-C11",
-        "B55-C13",
-        "B57-C09",
-        "B57-C13..C15"
+        "B83-C03..C05",
+        "B83-C08",
+        "B83-C16..C18",
+        "B89-C04",
+        "B89-C11",
+        "B89-C13",
+        "B96-C09",
+        "B96-C13..C15"
       ],
       "capacidad": "Derivar requisitos y entender el retardo, la telemetría y la respuesta a anomalías en la operación remota.",
       "nota": "Comunicaciones: R15."
@@ -253,7 +253,7 @@
         "R17-M05-C01..C20"
       ],
       "capacidad": "Diseñar un esquema de teleoperación con control supervisado y respuesta a pérdida de enlace.",
-      "nota": "Repite B61-C07; aquí se añaden colas de comandos, protocolos seguros y simulación del retardo."
+      "nota": "Repite B97-C07; aquí se añaden colas de comandos, protocolos seguros y simulación del retardo."
     },
     {
       "orden": 20,
@@ -261,9 +261,9 @@
       "tipo": "recomendada",
       "titulo": "Dinámica de proximidad y captura",
       "clases": [
-        "B46-C09..C14",
-        "B46-C16..C18",
-        "B46-C20"
+        "B76-C09..C14",
+        "B76-C16..C18",
+        "B76-C20"
       ],
       "capacidad": "Describir la dinámica relativa de dos vehículos y la aproximación segura.",
       "nota": "Es el contexto orbital de R17-M06. La parte de rover no lo necesita."
@@ -277,7 +277,7 @@
         "R17-M06-C01..C20"
       ],
       "capacidad": "Planear la inspección, el agarre y la reparación de un satélite con control de fuerzas y prevención de contactos.",
-      "nota": "Profundiza B61-C10 a C13 y B46-C16."
+      "nota": "Profundiza B97-C10 a C13 y B76-C16."
     },
     {
       "orden": 22,
@@ -288,7 +288,7 @@
         "R17-M07-C01..C20"
       ],
       "capacidad": "Diseñar la autonomía de navegación, energía y diagnóstico de un rover de exploración.",
-      "nota": "Profundiza B61-C16; reutiliza R17-M04 para la localización."
+      "nota": "Profundiza B97-C16; reutiliza R17-M04 para la localización."
     },
     {
       "orden": 23,
@@ -296,8 +296,8 @@
       "tipo": "opcional",
       "titulo": "Construcción robótica",
       "clases": [
-        "B61-C14..C15",
-        "B40-C11..C13"
+        "B97-C14..C15",
+        "B59-C11..C13"
       ],
       "capacidad": "Describir cómo un robot construye con regolito o por manufactura aditiva.",
       "nota": "Opcional, solo para quien especialice en construcción extraterrestre.",
@@ -309,7 +309,7 @@
       "tipo": "obligatoria",
       "titulo": "Ética y responsabilidad en sistemas autónomos",
       "clases": [
-        "B63-C17..C18"
+        "B119-C17..C18"
       ],
       "capacidad": "Identificar los riesgos legales y éticos de delegar decisiones a un sistema autónomo.",
       "nota": "Pocas clases, pero críticas: una autonomía que daña personas o bienes no se corrige después del hecho."
@@ -323,29 +323,29 @@
         "R17-M08-C01..C20"
       ],
       "capacidad": "Especificar, simular y verificar una misión robótica con pruebas SIL y escenarios adversos.",
-      "nota": "Es el proyecto final del rol; se apoya en B61-C20 (misión robótica integrada simulada), ya incluida en el paso del tronco."
+      "nota": "Es el proyecto final del rol; se apoya en B97-C20 (misión robótica integrada simulada), ya incluida en el paso del tronco."
     }
   ],
   "huecos": [
     {
       "tema": "Middleware, arquitectura de software y herramientas de integración de robots",
-      "motivo": "La búsqueda de «middleware» y «sistema operativo de robots» no devuelve títulos; B54 trata aviónica y R17-M08-C07 la arquitectura de autonomía, pero no hay clases de software de robots modular ni de integración de sensores y actuadores reales.",
-      "propuesta": "clases nuevas en B61 o módulo nuevo de R17"
+      "motivo": "La búsqueda de «middleware» y «sistema operativo de robots» no devuelve títulos; B88 trata aviónica y R17-M08-C07 la arquitectura de autonomía, pero no hay clases de software de robots modular ni de integración de sensores y actuadores reales.",
+      "propuesta": "clases nuevas en B97 o módulo nuevo de R17"
     },
     {
       "tema": "Aprendizaje por refuerzo y planificación automática de tareas",
       "motivo": "El único aprendizaje automático del catálogo es R08-M06 (supervisado, no supervisado y PINN) y R16-M07; ningún título trata aprendizaje por refuerzo ni planificación de tareas de alto nivel para autonomía.",
-      "propuesta": "bloque nuevo de aprendizaje automático científico o clases nuevas en B61"
+      "propuesta": "bloque nuevo de aprendizaje automático científico o clases nuevas en B97"
     },
     {
       "tema": "Excavación e interacción herramienta-suelo",
-      "motivo": "B61-C14 y B40-C11 tratan construcción con regolito, y R17-M02 la interacción rueda-regolito, pero no hay clases de excavación, barrenado ni dinámica herramienta-suelo.",
-      "propuesta": "clases nuevas en B61 o módulo nuevo de R17"
+      "motivo": "B97-C14 y B59-C11 tratan construcción con regolito, y R17-M02 la interacción rueda-regolito, pero no hay clases de excavación, barrenado ni dinámica herramienta-suelo.",
+      "propuesta": "clases nuevas en B97 o módulo nuevo de R17"
     },
     {
       "tema": "Accionamientos de articulación espaciales (motores, reductores, lubricación y térmica de actuadores)",
-      "motivo": "B27-C14 y C15 y R03-M04-C09 tratan motores y reductores de telescopios; ninguna clase trata accionamientos robóticos en vacío ni temperatura extrema.",
-      "propuesta": "clases nuevas en B61 o módulo nuevo de R17"
+      "motivo": "B43-C14 y C15 y R03-M04-C09 tratan motores y reductores de telescopios; ninguna clase trata accionamientos robóticos en vacío ni temperatura extrema.",
+      "propuesta": "clases nuevas en B97 o módulo nuevo de R17"
     }
   ]
 }

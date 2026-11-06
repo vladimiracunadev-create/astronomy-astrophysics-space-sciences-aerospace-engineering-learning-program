@@ -124,10 +124,10 @@
       "tipo": "obligatoria",
       "titulo": "Receptores y radioastronomía instrumental",
       "clases": [
-        "B30-C01..C10"
+        "B46-C01..C10"
       ],
       "capacidad": "Describir un receptor de radio, su ruido y su cadena de conversión.",
-      "nota": "Es un solapamiento deliberado con B55-C06/C07 y R15-M02: aquí se ve la cadena de recepción de un radiotelescopio; en B55 y R15, de una estación de satélite."
+      "nota": "Es un solapamiento deliberado con B89-C06/C07 y R15-M02: aquí se ve la cadena de recepción de un radiotelescopio; en B89 y R15, de una estación de satélite."
     },
     {
       "orden": 10,
@@ -135,12 +135,12 @@
       "tipo": "obligatoria",
       "titulo": "Órbita y visibilidad de pases",
       "clases": [
-        "B41-C01..C04",
-        "B41-C07..C08",
-        "B41-C10..C13",
-        "B41-C16",
-        "B44-C03..C05",
-        "B44-C15..C16"
+        "B71-C01..C04",
+        "B71-C07..C08",
+        "B71-C10..C13",
+        "B71-C16",
+        "B74-C03..C05",
+        "B74-C15..C16"
       ],
       "capacidad": "Calcular cuándo y dónde se ve un satélite desde una estación y medir su rango y Doppler.",
       "nota": "Se limita a lo necesario para predecir pases y entender mediciones de seguimiento; la determinación completa de órbita es de R10."
@@ -151,16 +151,16 @@
       "tipo": "obligatoria",
       "titulo": "Ingeniería de sistemas y operaciones de misión",
       "clases": [
-        "B49-C03..C05",
-        "B49-C08",
-        "B49-C11",
-        "B49-C13..C14",
-        "B49-C16..C17",
-        "B57-C01..C09",
-        "B57-C13..C17"
+        "B83-C03..C05",
+        "B83-C08",
+        "B83-C11",
+        "B83-C13..C14",
+        "B83-C16..C17",
+        "B96-C01..C09",
+        "B96-C13..C17"
       ],
       "capacidad": "Derivar requisitos de enlace y de operación y planificar contactos, comandos y respuesta a anomalías.",
-      "nota": "B57 es el tronco de operaciones; R15-M08 lo aplica a la operación de una estación concreta."
+      "nota": "B96 es el tronco de operaciones; R15-M08 lo aplica a la operación de una estación concreta."
     },
     {
       "orden": 12,
@@ -168,7 +168,7 @@
       "tipo": "obligatoria",
       "titulo": "Comunicaciones y navegación satelital",
       "clases": [
-        "B55-C01..C20"
+        "B89-C01..C20"
       ],
       "capacidad": "Cerrar un presupuesto de enlace, elegir modulación y codificación y definir la estación terrena.",
       "nota": "Es el eje del rol. Las clases de la ruta M02, M03 y M05 lo profundizan; cada una pide una evidencia distinta (cálculo, prueba o caso)."
@@ -179,9 +179,9 @@
       "tipo": "recomendada",
       "titulo": "Aviónica: buses, telemetría y telecomandos",
       "clases": [
-        "B54-C07..C09",
-        "B54-C13..C14",
-        "B54-C17"
+        "B88-C07..C09",
+        "B88-C13..C14",
+        "B88-C17"
       ],
       "capacidad": "Entender el formato de telemetría y telecomando que produce el computador de vuelo y su ciberseguridad.",
       "nota": "Aviónica y software crítico es de R13; aquí solo la interfaz que ve la estación."
@@ -192,13 +192,13 @@
       "tipo": "recomendada",
       "titulo": "Interferencia, derecho y ciberseguridad de comunicaciones",
       "clases": [
-        "B62-C17",
-        "B63-C04",
-        "B63-C08..C09",
-        "B63-C13..C16"
+        "B118-C17",
+        "B119-C04",
+        "B119-C08..C09",
+        "B119-C13..C16"
       ],
       "capacidad": "Situar una estación o un enlace en su marco regulatorio y reconocer interferencia, bloqueo y ciberamenazas.",
-      "nota": "B63-C09 y B55-C19 comparten el tema de normas y espectro; aquí desde el derecho, allá desde la ingeniería. Ciberseguridad espacial en profundidad: R22."
+      "nota": "B119-C09 y B89-C19 comparten el tema de normas y espectro; aquí desde el derecho, allá desde la ingeniería. Ciberseguridad espacial en profundidad: R22."
     },
     {
       "orden": 15,
@@ -209,7 +209,7 @@
         "R15-M01-C01..C20"
       ],
       "capacidad": "Dimensionar y apuntar una antena, y justificar la elección entre alternativas.",
-      "nota": "Profundiza B55-C06 (ganancias y pérdidas de antena) y B30-C03 a C05; añade arreglos de fase, polarización y calibración de patrón."
+      "nota": "Profundiza B89-C06 (ganancias y pérdidas de antena) y B46-C03 a C05; añade arreglos de fase, polarización y calibración de patrón."
     },
     {
       "orden": 16,
@@ -220,7 +220,7 @@
         "R15-M02-C01..C20"
       ],
       "capacidad": "Cerrar y defender el presupuesto ascendente y descendente de un enlace con su margen.",
-      "nota": "Repite B55-C04 a C07; aquí se exigen lluvia, polarización, Eb/N0 y los dos sentidos del enlace."
+      "nota": "Repite B89-C04 a C07; aquí se exigen lluvia, polarización, Eb/N0 y los dos sentidos del enlace."
     },
     {
       "orden": 17,
@@ -231,7 +231,7 @@
         "R15-M03-C01..C20"
       ],
       "capacidad": "Elegir y probar modulación, codificación y tramas CCSDS de un enlace.",
-      "nota": "Repite B55-C08 a C12; aquí se profundiza con LDPC, Reed-Solomon, entrelazado y prueba de enlace digital."
+      "nota": "Repite B89-C08 a C12; aquí se profundiza con LDPC, Reed-Solomon, entrelazado y prueba de enlace digital."
     },
     {
       "orden": 18,
@@ -242,7 +242,7 @@
         "R15-M07-C01..C20"
       ],
       "capacidad": "Sincronizar una estación al tiempo de la misión y validar los protocolos del enlace.",
-      "nota": "Reutiliza B13-C07/C08 y B55-C11/C12; añade configuración y calidad de servicio."
+      "nota": "Reutiliza B13-C07/C08 y B89-C11/C12; añade configuración y calidad de servicio."
     },
     {
       "orden": 19,
@@ -253,7 +253,7 @@
         "R15-M04-C01..C20"
       ],
       "capacidad": "Diseñar cobertura, redundancia, operación remota y seguridad de una red de estaciones.",
-      "nota": "Profundiza B55-C14 y C17."
+      "nota": "Profundiza B89-C14 y C17."
     },
     {
       "orden": 20,
@@ -264,7 +264,7 @@
         "R15-M08-C01..C20"
       ],
       "capacidad": "Planificar y operar pases, diagnosticar el enlace y mantener una estación.",
-      "nota": "Reutiliza B57-C04 a C09; aquí se opera el lado terreno con registro y mantenimiento."
+      "nota": "Reutiliza B96-C04 a C09; aquí se opera el lado terreno con registro y mantenimiento."
     },
     {
       "orden": 21,
@@ -275,7 +275,7 @@
         "R15-M05-C01..C20"
       ],
       "capacidad": "Presupuestar y operar un enlace de espacio profundo con Doppler y rango.",
-      "nota": "Complementa B55-C13 (protocolos de espacio profundo) y B44-C17. Es especialización: se puede dejar para después de operar enlaces de órbita baja.",
+      "nota": "Complementa B89-C13 (protocolos de espacio profundo) y B74-C17. Es especialización: se puede dejar para después de operar enlaces de órbita baja.",
       "omitible_si": "el rol se limita a satélites de órbita baja"
     },
     {
@@ -296,7 +296,7 @@
         "R15-M06-C19"
       ],
       "capacidad": "Describir terminales, apuntamiento, atmósfera y márgenes de un enlace óptico.",
-      "nota": "Se toma la clase de cada tema y se omite su caso o validación, porque en el rol lo óptico es complementario a lo de radiofrecuencia; B55-C18 es el contexto en el tronco.",
+      "nota": "Se toma la clase de cada tema y se omite su caso o validación, porque en el rol lo óptico es complementario a lo de radiofrecuencia; B89-C18 es el contexto en el tronco.",
       "omitible_si": "el rol no incluye comunicaciones ópticas"
     },
     {
@@ -305,7 +305,7 @@
       "tipo": "obligatoria",
       "titulo": "Campaña integral de operación de una estación",
       "clases": [
-        "B57-C20"
+        "B96-C20"
       ],
       "capacidad": "Planificar y simular de extremo a extremo una campaña de operación y su respuesta a incidentes.",
       "nota": "Es el cierre del rol: simula la jornada de control con lo aprendido; R15-M08-C19 y C20 (simulación de campaña) ya se cursaron en el paso de operaciones integrales, y R15-M04-C17 aporta la gestión de incidentes."
@@ -315,21 +315,21 @@
     {
       "tema": "Medida y caracterización de hardware de radiofrecuencia en laboratorio",
       "motivo": "Ningún título del catálogo trata analizadores de espectro, analizadores vectoriales de redes, ni bancos de prueba de transpondedores; R15-M03-C19 y C20 cubren solo la prueba de un enlace digital.",
-      "propuesta": "clases nuevas en B55 o módulo nuevo de R15"
+      "propuesta": "clases nuevas en B89 o módulo nuevo de R15"
     },
     {
       "tema": "Enlaces entre satélites y redes de retransmisión",
-      "motivo": "B55-C17 trata constelaciones y cobertura, y R18-M05 protocolos de relevo para astronautas, pero no hay clases de enlaces intersatelitales ni de integración con redes de relevo.",
-      "propuesta": "clases nuevas en B55 o módulo nuevo de R15"
+      "motivo": "B89-C17 trata constelaciones y cobertura, y R18-M05 protocolos de relevo para astronautas, pero no hay clases de enlaces intersatelitales ni de integración con redes de relevo.",
+      "propuesta": "clases nuevas en B89 o módulo nuevo de R15"
     },
     {
       "tema": "Software y automatización de la estación terrena, incluida su operación como servicio",
-      "motivo": "B57-C01 introduce el segmento terrestre; no hay clases sobre software de estación, automatización de pases ni servicios de estación terrena en la nube (la búsqueda de «nube» solo da astrofísica y R15-M06).",
+      "motivo": "B96-C01 introduce el segmento terrestre; no hay clases sobre software de estación, automatización de pases ni servicios de estación terrena en la nube (la búsqueda de «nube» solo da astrofísica y R15-M06).",
       "propuesta": "bloque nuevo o módulo nuevo de R15"
     },
     {
       "tema": "Normas de ingeniería espacial de comunicaciones con versión y jurisdicción",
-      "motivo": "B55-C11, C12 y R15-M03-C17 tratan CCSDS por tema, pero no hay clases sobre normas con versión ni sobre aseguramiento del producto.",
+      "motivo": "B89-C11, C12 y R15-M03-C17 tratan CCSDS por tema, pero no hay clases sobre normas con versión ni sobre aseguramiento del producto.",
       "propuesta": "bloque nuevo transversal de estándares y aseguramiento del producto"
     }
   ]

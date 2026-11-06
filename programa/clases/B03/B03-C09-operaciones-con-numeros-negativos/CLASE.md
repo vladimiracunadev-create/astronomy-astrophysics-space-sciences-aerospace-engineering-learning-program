@@ -122,7 +122,7 @@ El signo menos se escribe siempre (`−3`, no «3 negativo»); los negativos en 
 | S2 | IAU 2015, Resolución B3 (Mamajek et al., arXiv:1510.07674) | https://arxiv.org/abs/1510.07674 | (GM)ᴺ de la Tierra = 3,986004 × 10¹⁴ m³ s⁻² (nominal, exacto por definición) | PDF leído el 2026-11-05 |
 | S3 | BIPM, *The International System of Units (SI)*, 9.ª ed. (2019) | https://doi.org/10.59161/AUEZ1291 | `c` = 299 792 458 m/s; 1 au = 149 597 870 700 m | PDF leído el 2026-11-05 |
 
-Límites: la fórmula de la energía específica y el criterio ligado/no ligado son modelo estándar de dos cuerpos que esta clase usa sin demostrar (se estudia en B05 y B41); su coincidencia numérica con los datos de S1 y S2 es nuestra comprobación. La cuenta regresiva es un ejemplo sintético.
+Límites: la fórmula de la energía específica y el criterio ligado/no ligado son modelo estándar de dos cuerpos que esta clase usa sin demostrar (se estudia en B05 y B71); su coincidencia numérica con los datos de S1 y S2 es nuestra comprobación. La cuenta regresiva es un ejemplo sintético.
 
 ## 12. Cómo ver los signos
 

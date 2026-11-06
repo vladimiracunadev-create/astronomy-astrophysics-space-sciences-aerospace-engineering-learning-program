@@ -37,9 +37,9 @@ Dicho sin adornos: **un filtro que reporta poca incertidumbre y se equivoca much
 
 ### Conocimiento técnico
 
-- **Estimación de órbitas y navegación** ([**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md)); **navegación inercial y fusión multisensorial** ([**B96** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b96--navegación-inercial-y-fusión-multisensorial)).
-- **Sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)); **sensores y control de actitud** ([**B53** · Sensores y control de actitud](../programa/tronco-comun/B53-sensores-y-control-de-actitud.md)).
-- **Autonomía y teleoperación** ([**B104** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b104--autonomía-y-teleoperación-espacial)); **localización y mapeo** ([**B105** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b105--localización-y-mapeo-robótico)).
+- **Estimación de órbitas y navegación** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)); **navegación inercial y fusión multisensorial** ([**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial)).
+- **Sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)); **sensores y control de actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
+- **Autonomía y teleoperación** ([**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial)); **localización y mapeo** ([**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico)).
 - **Probabilidad y estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)); **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Simulación numérica** ([**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
@@ -70,8 +70,8 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 ### 🧱 Fundamentos (según tu diagnóstico)
 
 1. 📚 [**B09** · Cálculo diferencial e integral](../programa/tronco-comun/B09-calculo-diferencial-e-integral.md) — A02 · 20 clases
-2. 📚 [**B43** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B43-mecanica-celeste-resonancias-y-caos.md) — A06 · 22 clases
-3. 📚 [**B45** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B45-trayectorias-y-misiones-interplanetarias.md) — A06 · 30 clases
+2. 📚 [**B73** · Mecánica celeste, resonancias y caos](../programa/tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) — A06 · 22 clases
+3. 📚 [**B75** · Trayectorias y misiones interplanetarias](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md) — A06 · 30 clases
 
 ### 🎯 El núcleo del rol
 
@@ -87,34 +87,34 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-8. 📚 [**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md) — usa 1 de 20 clases: `B28-` C06
-9. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — usa 2 de 25 clases: `B31-` C10, C14
+8. 📚 [**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) — usa 1 de 20 clases: `B44-` C06
+9. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 2 de 25 clases: `B47-` C10, C14
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-10. 📚 [**B41** · Mecánica orbital fundamental](../programa/tronco-comun/B41-mecanica-orbital-fundamental.md) — usa 1 de 20 clases: `B41-` C02
-11. 📚 [**B42** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B42-perturbaciones-y-evolucion-de-orbitas.md) — usa 1 de 21 clases: `B42-` C02
-12. 📚 [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 23 de 30 clases: `B44-` C01–C04, C06–C10, C12–C20, C23–C27
-13. 📚 [**B46** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B46-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 10 de 20 clases: `B46-` C09–C14, C16–C18, C20
-14. 📚 [**B96** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b96--navegación-inercial-y-fusión-multisensorial) — usa 8 de 9 clases: `B96-` C01–C08
+10. 📚 [**B71** · Mecánica orbital fundamental](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md) — usa 1 de 20 clases: `B71-` C02
+11. 📚 [**B72** · Perturbaciones y evolución de órbitas](../programa/tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) — usa 1 de 21 clases: `B72-` C02
+12. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 23 de 30 clases: `B74-` C01–C04, C06–C10, C12–C20, C23–C27
+13. 📚 [**B76** · Dinámica cislunar y operaciones de proximidad](../programa/tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) — usa 10 de 20 clases: `B76-` C09–C14, C16–C18, C20
+14. 📚 [**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial) — usa 8 de 9 clases: `B80-` C01–C08
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-15. 📚 [**B49** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B49-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 1 de 24 clases: `B49-` C17
-16. 📚 [**B53** · Sensores y control de actitud](../programa/tronco-comun/B53-sensores-y-control-de-actitud.md) — usa 10 de 22 clases: `B53-` C03–C09, C15, C19, C21
-17. 📚 [**B54** · Aviónica y software crítico espacial](../programa/tronco-comun/B54-avionica-y-software-critico-espacial.md) — usa 5 de 44 clases: `B54-` C05, C11–C12, C14, C16
-18. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — usa 1 de 25 clases: `B55-` C15
-19. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 1 de 24 clases: `B56-` C16
+15. 📚 [**B83** · Ingeniería de sistemas y diseño de misiones](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) — usa 1 de 24 clases: `B83-` C17
+16. 📚 [**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md) — usa 10 de 22 clases: `B87-` C03–C09, C15, C19, C21
+17. 📚 [**B88** · Aviónica y software crítico espacial](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md) — usa 5 de 44 clases: `B88-` C05, C11–C12, C14, C16
+18. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 1 de 25 clases: `B89-` C15
+19. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 1 de 24 clases: `B90-` C16
 
 **A08 · Operaciones de misión y robótica espacial**
 
-20. 📚 [**B57** · Control y operación de misiones espaciales](../programa/tronco-comun/B57-control-y-operacion-de-misiones-espaciales.md) — usa 6 de 30 clases: `B57-` C03, C05, C07–C08, C13, C15
-21. 📚 [**B61** · Robótica y construcción extraterrestre](../programa/tronco-comun/B61-robotica-y-construccion-extraterrestre.md) — usa 3 de 27 clases: `B61-` C07, C16–C17
-22. 📚 [**B104** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b104--autonomía-y-teleoperación-espacial) — usa 2 de 8 clases: `B104-` C01–C02
+20. 📚 [**B96** · Control y operación de misiones espaciales](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) — usa 6 de 30 clases: `B96-` C03, C05, C07–C08, C13, C15
+21. 📚 [**B97** · Robótica y construcción extraterrestre](../programa/tronco-comun/B97-robotica-y-construccion-extraterrestre.md) — usa 3 de 27 clases: `B97-` C07, C16–C17
+22. 📚 [**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial) — usa 2 de 8 clases: `B98-` C01–C02
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-23. 📚 [**B62** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md) — usa 1 de 24 clases: `B62-` C07
+23. 📚 [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) — usa 1 de 24 clases: `B118-` C07
 
 <!-- /ruta -->
 
@@ -151,9 +151,9 @@ Roles vecinos con los que se comparte formación: [Astrodinámica interplanetari
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la matemática de tu diagnóstico.
-2. Estudia **estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)), **sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)) y **estimación de órbitas** ([**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md)).
-3. Profundiza en **navegación inercial y fusión** ([**B96** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b96--navegación-inercial-y-fusión-multisensorial)) y **sensores y actitud** ([**B53** · Sensores y control de actitud](../programa/tronco-comun/B53-sensores-y-control-de-actitud.md)).
-4. Avanza a **autonomía** ([**B104** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b104--autonomía-y-teleoperación-espacial)) y **localización y mapeo** ([**B105** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b105--localización-y-mapeo-robótico)).
+2. Estudia **estadística** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)), **sistemas dinámicos y control** ([**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md)) y **estimación de órbitas** ([**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md)).
+3. Profundiza en **navegación inercial y fusión** ([**B80** · Navegación inercial y fusión multisensorial](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--navegación-inercial-y-fusión-multisensorial)) y **sensores y actitud** ([**B87** · Sensores y control de actitud](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md)).
+4. Avanza a **autonomía** ([**B98** · Autonomía y teleoperación espacial](../PROGRAMA_ACADEMICO_COMPLETO.md#b98--autonomía-y-teleoperación-espacial)) y **localización y mapeo** ([**B99** · Localización y mapeo robótico](../PROGRAMA_ACADEMICO_COMPLETO.md#b99--localización-y-mapeo-robótico)).
 5. Reúne tu **estimador verificado** con su historial.
 
 <!-- pie:inicio -->

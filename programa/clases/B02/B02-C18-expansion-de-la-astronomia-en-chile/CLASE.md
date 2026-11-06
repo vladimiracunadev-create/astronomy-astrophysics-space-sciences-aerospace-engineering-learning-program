@@ -86,7 +86,7 @@ ESO se fundó en 1962 como organización intergubernamental con 16 estados miemb
 
 ### 8.4 ALMA
 
-ALMA reúne 66 antenas en la meseta de Chajnantor, a unos 5 000 m: un conjunto principal de 50 antenas de 12 m, un conjunto compacto de 4 antenas de 12 m y 12 de 7 m; sus socios son ESO, NRAO y NAOJ en colaboración con la República de Chile (S7). Con 54 antenas de 12 m, el área geométrica es `54 × π × 6² = 6 107 m²`, y con las 12 de 7 m se suman `12 × π × 3,5² = 462 m²`: unos 6 570 m². Es un cálculo nuestro (área geométrica, no eficaz) y el interferómetro se comporta como una única antena de gran diámetro (B30).
+ALMA reúne 66 antenas en la meseta de Chajnantor, a unos 5 000 m: un conjunto principal de 50 antenas de 12 m, un conjunto compacto de 4 antenas de 12 m y 12 de 7 m; sus socios son ESO, NRAO y NAOJ en colaboración con la República de Chile (S7). Con 54 antenas de 12 m, el área geométrica es `54 × π × 6² = 6 107 m²`, y con las 12 de 7 m se suman `12 × π × 3,5² = 462 m²`: unos 6 570 m². Es un cálculo nuestro (área geométrica, no eficaz) y el interferómetro se comporta como una única antena de gran diámetro (B46).
 
 ### 8.5 Las otras instituciones
 

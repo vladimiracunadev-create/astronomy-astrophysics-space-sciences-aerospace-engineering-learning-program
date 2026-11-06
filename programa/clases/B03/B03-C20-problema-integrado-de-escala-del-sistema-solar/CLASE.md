@@ -299,7 +299,7 @@ Un problema de ingeniería se plantea con requisitos, se resuelve con un factor 
 
 **Glosario español–inglés.** factor de escala · *scale factor*; maqueta · *scale model*; requisito · *requirement*; verificación · *verification*; validación · *validation*; restricción · *constraint*; tiempo de luz · *light-travel time*.
 
-**Continuidad.** El bloque B04 retoma álgebra, trigonometría y geometría con más profundidad; B05, la física que justifica las fórmulas dadas; B08, la observación del cielo; B49, la ingeniería de sistemas y de requisitos de misión.
+**Continuidad.** El bloque B04 retoma álgebra, trigonometría y geometría con más profundidad; B05, la física que justifica las fórmulas dadas; B08, la observación del cielo; B83, la ingeniería de sistemas y de requisitos de misión.
 
 **Referencias:** ver sección 11. Todas las fuentes son datos oficiales consultados.
 

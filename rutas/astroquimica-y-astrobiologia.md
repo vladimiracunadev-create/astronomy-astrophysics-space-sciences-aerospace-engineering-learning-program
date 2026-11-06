@@ -38,11 +38,11 @@ Dicho sin adornos: **la parte difícil es descartar explicaciones**, no encontra
 ### Conocimiento técnico
 
 - **Química y materia del universo:** estructura, reacciones y equilibrio ([**B06** · Química y materia del universo](../programa/tronco-comun/B06-quimica-y-materia-del-universo.md)).
-- **Astroquímica y geoquímica extraterrestre** ([**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md)); **cinética** ([**B84** · Cinética y modelado astroquímico](../PROGRAMA_ACADEMICO_COMPLETO.md#b84--cinética-y-modelado-astroquímico)); **espectroscopía molecular** ([**B86** · Espectroscopía molecular para astroquímica](../PROGRAMA_ACADEMICO_COMPLETO.md#b86--espectroscopía-molecular-para-astroquímica)); **granos y hielos** ([**B92** · Química de granos y hielos interestelares](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--química-de-granos-y-hielos-interestelares)).
-- **Astrobiología y vida extraterrestre** ([**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md)); **extremófilos y límites de la vida** ([**B88** · Extremófilos y límites de la vida](../PROGRAMA_ACADEMICO_COMPLETO.md#b88--extremófilos-y-límites-de-la-vida)).
-- **Muestras y ambientes** ([**B87** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias), [**B89** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b89--geofísica-de-interiores-planetarios)).
+- **Astroquímica y geoquímica extraterrestre** ([**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md)); **cinética** ([**B60** · Cinética y modelado astroquímico](../PROGRAMA_ACADEMICO_COMPLETO.md#b60--cinética-y-modelado-astroquímico)); **espectroscopía molecular** ([**B62** · Espectroscopía molecular para astroquímica](../PROGRAMA_ACADEMICO_COMPLETO.md#b62--espectroscopía-molecular-para-astroquímica)); **granos y hielos** ([**B68** · Química de granos y hielos interestelares](../PROGRAMA_ACADEMICO_COMPLETO.md#b68--química-de-granos-y-hielos-interestelares)).
+- **Astrobiología y vida extraterrestre** ([**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md)); **extremófilos y límites de la vida** ([**B64** · Extremófilos y límites de la vida](../PROGRAMA_ACADEMICO_COMPLETO.md#b64--extremófilos-y-límites-de-la-vida)).
+- **Muestras y ambientes** ([**B63** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b63--exploración-in-situ-y-análisis-de-muestras-planetarias), [**B65** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--geofísica-de-interiores-planetarios)).
 - **Estadística y cómputo:** incertidumbre, ajuste y reproducibilidad ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
-- **Protección planetaria y ética** ([**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md), [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md)).
+- **Protección planetaria y ética** ([**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md), [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md)).
 
 ### Herramientas del oficio
 
@@ -75,9 +75,9 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 3. 📚 [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) — A02 · 26 clases
 4. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 5. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-6. 📚 [**B38** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B38-observacion-terrestre-y-geociencias-orbitales.md) — A05 · 34 clases
-7. 📚 [**B39** · Asteroides, cometas y defensa planetaria](../programa/tronco-comun/B39-asteroides-cometas-y-defensa-planetaria.md) — A05 · 20 clases
-8. 📚 [**B40** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — A05 · 23 clases
+6. 📚 [**B57** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) — A05 · 34 clases
+7. 📚 [**B58** · Asteroides, cometas y defensa planetaria](../programa/tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) — A05 · 20 clases
+8. 📚 [**B59** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — A05 · 23 clases
 
 ### 🎯 El núcleo del rol
 
@@ -93,36 +93,36 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
-5. 📚 [**B18** · Galaxias y medio interestelar](../programa/tronco-comun/B18-galaxias-y-medio-interestelar.md) — usa 1 de 20 clases: `B18-` C04
-6. 📚 [**B21** · Astronomía multimensajero](../programa/tronco-comun/B21-astronomia-multimensajero.md) — usa 2 de 22 clases: `B21-` C13–C14
-7. 📚 [**B22** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B22-astronomia-temporal-y-exoplanetas.md) — usa 1 de 20 clases: `B22-` C11
-8. 📚 [**B24** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B24-fisica-cuantica-nuclear-y-astroparticulas.md) — usa 1 de 20 clases: `B24-` C20
+5. 📚 [**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md) — usa 1 de 20 clases: `B25-` C04
+6. 📚 [**B28** · Astronomía multimensajero](../programa/tronco-comun/B28-astronomia-multimensajero.md) — usa 2 de 22 clases: `B28-` C13–C14
+7. 📚 [**B29** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) — usa 1 de 20 clases: `B29-` C11
+8. 📚 [**B31** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) — usa 1 de 20 clases: `B31-` C20
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-9. 📚 [**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md) — usa 1 de 20 clases: `B30-` C01
+9. 📚 [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md) — usa 1 de 20 clases: `B46-` C01
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-10. 📚 [**B33** · Formación y dinámica de sistemas planetarios](../programa/tronco-comun/B33-formacion-y-dinamica-de-sistemas-planetarios.md) — usa 1 de 20 clases: `B33-` C03
-11. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 3 de 30 clases: `B34-` C14–C15, C27
-12. 📚 [**B35** · Atmósferas y climatología planetaria](../programa/tronco-comun/B35-atmosferas-y-climatologia-planetaria.md) — usa 1 de 20 clases: `B35-` C10
-13. 📚 [**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md) — usa 15 de 20 clases: `B36-` C03–C10, C12, C15–C20
-14. 📚 [**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md) — usa 19 de 21 clases: `B37-` C01–C10, C13–C21
-15. 📚 [**B84** · Cinética y modelado astroquímico](../PROGRAMA_ACADEMICO_COMPLETO.md#b84--cinética-y-modelado-astroquímico) — usa 4 de 4 clases: `B84-` C01–C04
-16. 📚 [**B86** · Espectroscopía molecular para astroquímica](../PROGRAMA_ACADEMICO_COMPLETO.md#b86--espectroscopía-molecular-para-astroquímica) — usa 8 de 8 clases: `B86-` C01–C08
-17. 📚 [**B87** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias) — usa 3 de 6 clases: `B87-` C04–C06
-18. 📚 [**B88** · Extremófilos y límites de la vida](../PROGRAMA_ACADEMICO_COMPLETO.md#b88--extremófilos-y-límites-de-la-vida) — usa 7 de 7 clases: `B88-` C01–C07
-19. 📚 [**B89** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b89--geofísica-de-interiores-planetarios) — usa 1 de 6 clases: `B89-` C06
-20. 📚 [**B92** · Química de granos y hielos interestelares](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--química-de-granos-y-hielos-interestelares) — usa 4 de 4 clases: `B92-` C01–C04
+10. 📚 [**B52** · Formación y dinámica de sistemas planetarios](../programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) — usa 1 de 20 clases: `B52-` C03
+11. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 3 de 30 clases: `B53-` C14–C15, C27
+12. 📚 [**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) — usa 1 de 20 clases: `B54-` C10
+13. 📚 [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) — usa 15 de 20 clases: `B55-` C03–C10, C12, C15–C20
+14. 📚 [**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) — usa 19 de 21 clases: `B56-` C01–C10, C13–C21
+15. 📚 [**B60** · Cinética y modelado astroquímico](../PROGRAMA_ACADEMICO_COMPLETO.md#b60--cinética-y-modelado-astroquímico) — usa 4 de 4 clases: `B60-` C01–C04
+16. 📚 [**B62** · Espectroscopía molecular para astroquímica](../PROGRAMA_ACADEMICO_COMPLETO.md#b62--espectroscopía-molecular-para-astroquímica) — usa 8 de 8 clases: `B62-` C01–C08
+17. 📚 [**B63** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b63--exploración-in-situ-y-análisis-de-muestras-planetarias) — usa 3 de 6 clases: `B63-` C04–C06
+18. 📚 [**B64** · Extremófilos y límites de la vida](../PROGRAMA_ACADEMICO_COMPLETO.md#b64--extremófilos-y-límites-de-la-vida) — usa 7 de 7 clases: `B64-` C01–C07
+19. 📚 [**B65** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--geofísica-de-interiores-planetarios) — usa 1 de 6 clases: `B65-` C06
+20. 📚 [**B68** · Química de granos y hielos interestelares](../PROGRAMA_ACADEMICO_COMPLETO.md#b68--química-de-granos-y-hielos-interestelares) — usa 4 de 4 clases: `B68-` C01–C04
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-21. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 4 de 24 clases: `B56-` C17–C18, C21–C22
+21. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 4 de 24 clases: `B90-` C17–C18, C21–C22
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-22. 📚 [**B63** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B63-derecho-seguridad-y-geopolitica-espacial.md) — usa 3 de 36 clases: `B63-` C01, C08, C10
+22. 📚 [**B119** · Derecho, seguridad y geopolítica espacial](../programa/tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) — usa 3 de 36 clases: `B119-` C01, C08, C10
 
 <!-- /ruta -->
 
@@ -162,9 +162,9 @@ Roles vecinos con los que se comparte formación: [Ciencias planetarias y astrog
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 (química y física) y la matemática de tu diagnóstico.
-2. Estudia **astroquímica y geoquímica** ([**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md)) y **astrobiología** ([**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md)).
-3. Profundiza en **cinética** ([**B84** · Cinética y modelado astroquímico](../PROGRAMA_ACADEMICO_COMPLETO.md#b84--cinética-y-modelado-astroquímico)), **espectroscopía molecular** ([**B86** · Espectroscopía molecular para astroquímica](../PROGRAMA_ACADEMICO_COMPLETO.md#b86--espectroscopía-molecular-para-astroquímica)) y **granos y hielos** ([**B92** · Química de granos y hielos interestelares](../PROGRAMA_ACADEMICO_COMPLETO.md#b92--química-de-granos-y-hielos-interestelares)).
-4. Aprende **extremófilos y límites de la vida** ([**B88** · Extremófilos y límites de la vida](../PROGRAMA_ACADEMICO_COMPLETO.md#b88--extremófilos-y-límites-de-la-vida)) y el análisis de **muestras** ([**B87** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias)).
+2. Estudia **astroquímica y geoquímica** ([**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md)) y **astrobiología** ([**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md)).
+3. Profundiza en **cinética** ([**B60** · Cinética y modelado astroquímico](../PROGRAMA_ACADEMICO_COMPLETO.md#b60--cinética-y-modelado-astroquímico)), **espectroscopía molecular** ([**B62** · Espectroscopía molecular para astroquímica](../PROGRAMA_ACADEMICO_COMPLETO.md#b62--espectroscopía-molecular-para-astroquímica)) y **granos y hielos** ([**B68** · Química de granos y hielos interestelares](../PROGRAMA_ACADEMICO_COMPLETO.md#b68--química-de-granos-y-hielos-interestelares)).
+4. Aprende **extremófilos y límites de la vida** ([**B64** · Extremófilos y límites de la vida](../PROGRAMA_ACADEMICO_COMPLETO.md#b64--extremófilos-y-límites-de-la-vida)) y el análisis de **muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b63--exploración-in-situ-y-análisis-de-muestras-planetarias)).
 5. Reúne tu **análisis documentado** y su historial.
 
 <!-- pie:inicio -->

@@ -12,7 +12,7 @@
           "tronco": [
             "B10-C17",
             "B10-C18",
-            "B19-C04"
+            "B26-C04"
           ]
         },
         {
@@ -23,7 +23,7 @@
             "area": "A03",
             "bloque": "nuevo: Relatividad general avanzada",
             "titulo": "Variedades, tensor métrico y geometría diferencial",
-            "necesidad": "B19-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general."
+            "necesidad": "B26-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general."
           }
         },
         {
@@ -42,7 +42,7 @@
           "tema": "Geodésicas",
           "destino": "existente",
           "tronco": [
-            "B19-C08"
+            "B26-C08"
           ]
         },
         {
@@ -53,7 +53,7 @@
             "area": "A03",
             "bloque": "nuevo: Relatividad general avanzada",
             "titulo": "Tensor de Riemann, Ricci y curvatura escalar",
-            "necesidad": "B19-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones."
+            "necesidad": "B26-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones."
           }
         },
         {
@@ -75,7 +75,7 @@
             "area": "A03",
             "bloque": "nuevo: Relatividad general avanzada",
             "titulo": "Ecuaciones de campo de Einstein y límite newtoniano",
-            "necesidad": "B19-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano."
+            "necesidad": "B26-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano."
           }
         },
         {
@@ -83,8 +83,8 @@
           "tema": "Métricas estacionarias",
           "destino": "existente",
           "tronco": [
-            "B20-C07",
-            "B20-C08"
+            "B27-C07",
+            "B27-C08"
           ]
         },
         {
@@ -103,9 +103,9 @@
           "tema": "Predicciones observacionales",
           "destino": "existente",
           "tronco": [
-            "B19-C10",
-            "B20-C09",
-            "B21-C05"
+            "B26-C10",
+            "B27-C09",
+            "B28-C05"
           ]
         }
       ]
@@ -122,7 +122,7 @@
             "area": "A03",
             "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
             "titulo": "Inflación cósmica: motivación y dinámica básica",
-            "necesidad": "Ningún bloque del tronco trata la inflación; B19 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales."
+            "necesidad": "Ningún bloque del tronco trata la inflación; B26 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales."
           }
         },
         {
@@ -141,7 +141,7 @@
           "tema": "Era de radiación",
           "destino": "existente",
           "tronco": [
-            "B19-C14"
+            "B26-C14"
           ]
         },
         {
@@ -152,7 +152,7 @@
             "area": "A03",
             "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
             "titulo": "Desacoplamiento de neutrinos y fondo cósmico de neutrinos",
-            "necesidad": "B24-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano."
+            "necesidad": "B31-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano."
           }
         },
         {
@@ -160,8 +160,8 @@
           "tema": "Nucleosíntesis primordial",
           "destino": "existente",
           "tronco": [
-            "B19-C16",
-            "B36-C02"
+            "B26-C16",
+            "B55-C02"
           ]
         },
         {
@@ -169,8 +169,8 @@
           "tema": "Recombinación cósmica",
           "destino": "existente",
           "tronco": [
-            "B19-C14",
-            "B19-C15"
+            "B26-C14",
+            "B26-C15"
           ]
         },
         {
@@ -181,7 +181,7 @@
             "area": "A03",
             "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
             "titulo": "Problemas del horizonte y de la planitud",
-            "necesidad": "Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B19-C13."
+            "necesidad": "Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B26-C13."
           }
         },
         {
@@ -211,8 +211,8 @@
           "tema": "Restricciones de teorías tempranas",
           "destino": "existente",
           "tronco": [
-            "B19-C20",
-            "B24-C18"
+            "B26-C20",
+            "B31-C18"
           ]
         }
       ]
@@ -226,7 +226,7 @@
           "tema": "Anisotropías del fondo",
           "destino": "existente",
           "tronco": [
-            "B19-C15"
+            "B26-C15"
           ]
         },
         {
@@ -237,7 +237,7 @@
             "area": "A03",
             "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
             "titulo": "Espectro angular de potencias del CMB",
-            "necesidad": "B19-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos."
+            "necesidad": "B26-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos."
           }
         },
         {
@@ -248,7 +248,7 @@
             "area": "A03",
             "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
             "titulo": "Polarización E y B del fondo cósmico",
-            "necesidad": "B26-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico."
+            "necesidad": "B42-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico."
           }
         },
         {
@@ -281,7 +281,7 @@
             "area": "A03",
             "bloque": "nuevo: Universo temprano y radiación cósmica de fondo",
             "titulo": "Efecto Sunyaev-Zeldovich térmico y cinemático",
-            "necesidad": "B18-C13 describe cúmulos de galaxias, pero no la distorsión del fondo por electrones calientes del medio intracúmulo."
+            "necesidad": "B25-C13 describe cúmulos de galaxias, pero no la distorsión del fondo por electrones calientes del medio intracúmulo."
           }
         },
         {
@@ -339,8 +339,8 @@
           "tema": "Fluctuaciones de densidad",
           "destino": "existente",
           "tronco": [
-            "B19-C17",
-            "B18-C18"
+            "B26-C17",
+            "B25-C18"
           ]
         },
         {
@@ -351,7 +351,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Crecimiento lineal de perturbaciones de densidad",
-            "necesidad": "B19-C17 y B18-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones."
+            "necesidad": "B26-C17 y B25-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones."
           }
         },
         {
@@ -373,7 +373,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Funciones de correlación de galaxias",
-            "necesidad": "B18-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos."
+            "necesidad": "B25-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos."
           }
         },
         {
@@ -395,7 +395,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica",
-            "necesidad": "B43-C08 trata N cuerpos de mecánica celeste; falta la expansión cósmica, condiciones iniciales y fronteras periódicas."
+            "necesidad": "B73-C08 trata N cuerpos de mecánica celeste; falta la expansión cósmica, condiciones iniciales y fronteras periódicas."
           }
         },
         {
@@ -406,7 +406,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Formación de halos y función de masa",
-            "necesidad": "B18-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos."
+            "necesidad": "B25-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos."
           }
         },
         {
@@ -414,7 +414,7 @@
           "tema": "Formación de cúmulos",
           "destino": "existente",
           "tronco": [
-            "B18-C13"
+            "B25-C13"
           ]
         },
         {
@@ -436,7 +436,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Sesgo de galaxias y trazadores de la materia",
-            "necesidad": "B18-C19 trata sesgos de selección; falta el sesgo entre galaxias y materia total y su impacto en los parámetros."
+            "necesidad": "B25-C19 trata sesgos de selección; falta el sesgo entre galaxias y materia total y su impacto en los parámetros."
           }
         }
       ]
@@ -450,7 +450,7 @@
           "tema": "Evidencia de materia no luminosa",
           "destino": "existente",
           "tronco": [
-            "B19-C18"
+            "B26-C18"
           ]
         },
         {
@@ -458,7 +458,7 @@
           "tema": "Curvas de rotación",
           "destino": "existente",
           "tronco": [
-            "B18-C08"
+            "B25-C08"
           ]
         },
         {
@@ -466,7 +466,7 @@
           "tema": "Lentes gravitacionales",
           "destino": "existente",
           "tronco": [
-            "B18-C14"
+            "B25-C14"
           ]
         },
         {
@@ -477,7 +477,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Cúmulos en colisión como prueba de materia oscura",
-            "necesidad": "B18-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan."
+            "necesidad": "B25-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan."
           }
         },
         {
@@ -485,7 +485,7 @@
           "tema": "Modelos de halo",
           "destino": "existente",
           "tronco": [
-            "B18-C15"
+            "B25-C15"
           ]
         },
         {
@@ -493,7 +493,7 @@
           "tema": "Candidatos de partículas",
           "destino": "existente",
           "tronco": [
-            "B24-C17"
+            "B31-C17"
           ]
         },
         {
@@ -504,7 +504,7 @@
             "area": "A03",
             "bloque": "nuevo: Formación de estructuras cósmicas y materia oscura",
             "titulo": "Búsqueda directa de materia oscura en laboratorio",
-            "necesidad": "B24-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa."
+            "necesidad": "B31-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa."
           }
         },
         {
@@ -512,8 +512,8 @@
           "tema": "Búsqueda indirecta",
           "destino": "existente",
           "tronco": [
-            "B24-C16",
-            "B20-C19"
+            "B31-C16",
+            "B27-C19"
           ]
         },
         {
@@ -532,8 +532,8 @@
           "tema": "Restricciones conjuntas",
           "destino": "existente",
           "tronco": [
-            "B24-C18",
-            "B19-C20"
+            "B31-C18",
+            "B26-C20"
           ]
         }
       ]
@@ -547,7 +547,7 @@
           "tema": "Procesos de acreción",
           "destino": "existente",
           "tronco": [
-            "B20-C10"
+            "B27-C10"
           ]
         },
         {
@@ -555,7 +555,7 @@
           "tema": "Radiación sincrotrón",
           "destino": "existente",
           "tronco": [
-            "B20-C12"
+            "B27-C12"
           ]
         },
         {
@@ -564,9 +564,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B20",
+            "bloque": "B27",
             "titulo": "Dispersión Compton inversa y emisión de alta energía",
-            "necesidad": "B20-C12 cubre sincrotrón; ninguna clase trata la dispersión Compton inversa que da la emisión gamma de fuentes compactas."
+            "necesidad": "B27-C12 cubre sincrotrón; ninguna clase trata la dispersión Compton inversa que da la emisión gamma de fuentes compactas."
           }
         },
         {
@@ -574,8 +574,8 @@
           "tema": "Partículas aceleradas",
           "destino": "existente",
           "tronco": [
-            "B23-C14",
-            "B24-C13"
+            "B30-C14",
+            "B31-C13"
           ]
         },
         {
@@ -583,9 +583,9 @@
           "tema": "Estrellas compactas",
           "destino": "existente",
           "tronco": [
-            "B20-C02",
-            "B20-C03",
-            "B20-C05"
+            "B27-C02",
+            "B27-C03",
+            "B27-C05"
           ]
         },
         {
@@ -593,7 +593,7 @@
           "tema": "Explosiones gamma",
           "destino": "existente",
           "tronco": [
-            "B20-C17"
+            "B27-C17"
           ]
         },
         {
@@ -601,7 +601,7 @@
           "tema": "Chorros relativistas",
           "destino": "existente",
           "tronco": [
-            "B20-C11"
+            "B27-C11"
           ]
         },
         {
@@ -609,8 +609,8 @@
           "tema": "Fuentes de rayos X",
           "destino": "existente",
           "tronco": [
-            "B20-C19",
-            "B31-C05"
+            "B27-C19",
+            "B47-C05"
           ]
         },
         {
@@ -618,10 +618,10 @@
           "tema": "Detectores de alta energía",
           "destino": "existente",
           "tronco": [
-            "B20-C19",
-            "B31-C05",
-            "B31-C06",
-            "B24-C14"
+            "B27-C19",
+            "B47-C05",
+            "B47-C06",
+            "B31-C14"
           ]
         },
         {
@@ -630,9 +630,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B20",
+            "bloque": "B27",
             "titulo": "Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental",
-            "necesidad": "B20-C20 pide análisis multibanda; ninguna clase enseña el ajuste de espectros de alta energía con matrices de respuesta y estadística de conteos."
+            "necesidad": "B27-C20 pide análisis multibanda; ninguna clase enseña el ajuste de espectros de alta energía con matrices de respuesta y estadística de conteos."
           }
         }
       ]
@@ -647,9 +647,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B21",
+            "bloque": "B28",
             "titulo": "Formas de onda gravitacionales y filtro acoplado",
-            "necesidad": "B21-C05 a B21-C07 introducen ondas y fuentes; falta el modelado de plantillas y la detección por filtro acoplado."
+            "necesidad": "B28-C05 a B28-C07 introducen ondas y fuentes; falta el modelado de plantillas y la detección por filtro acoplado."
           }
         },
         {
@@ -657,8 +657,8 @@
           "tema": "Fuentes de neutrinos",
           "destino": "existente",
           "tronco": [
-            "B21-C03",
-            "B20-C18"
+            "B28-C03",
+            "B27-C18"
           ]
         },
         {
@@ -666,8 +666,8 @@
           "tema": "Alertas electromagnéticas",
           "destino": "existente",
           "tronco": [
-            "B21-C09",
-            "B21-C16"
+            "B28-C09",
+            "B28-C16"
           ]
         },
         {
@@ -675,7 +675,7 @@
           "tema": "Kilonovas",
           "destino": "existente",
           "tronco": [
-            "B21-C18"
+            "B28-C18"
           ]
         },
         {
@@ -683,8 +683,8 @@
           "tema": "Redes de interferómetros",
           "destino": "existente",
           "tronco": [
-            "B21-C06",
-            "B21-C16"
+            "B28-C06",
+            "B28-C16"
           ]
         },
         {
@@ -692,7 +692,7 @@
           "tema": "Significancia de coincidencias",
           "destino": "existente",
           "tronco": [
-            "B21-C13"
+            "B28-C13"
           ]
         },
         {
@@ -700,7 +700,7 @@
           "tema": "Localización de eventos",
           "destino": "existente",
           "tronco": [
-            "B21-C10"
+            "B28-C10"
           ]
         },
         {
@@ -708,8 +708,8 @@
           "tema": "Modelos multiobservatorio",
           "destino": "existente",
           "tronco": [
-            "B21-C11",
-            "B21-C12"
+            "B28-C11",
+            "B28-C12"
           ]
         },
         {
@@ -717,7 +717,7 @@
           "tema": "Datos de eventos públicos",
           "destino": "existente",
           "tronco": [
-            "B21-C17"
+            "B28-C17"
           ]
         },
         {
@@ -726,9 +726,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B21",
+            "bloque": "B28",
             "titulo": "Inferencia bayesiana conjunta de parámetros de fuente multimensajero",
-            "necesidad": "B21-C12 trata modelos de emisión conjunta; falta combinar mensajeros en una verosimilitud única y propagar incertidumbres."
+            "necesidad": "B28-C12 trata modelos de emisión conjunta; falta combinar mensajeros en una verosimilitud única y propagar incertidumbres."
           }
         }
       ]
@@ -742,7 +742,7 @@
           "tema": "Parámetros de modelo Lambda-CDM",
           "destino": "existente",
           "tronco": [
-            "B19-C19"
+            "B26-C19"
           ]
         },
         {
@@ -751,7 +751,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B19",
+            "bloque": "B26",
             "titulo": "Verosimilitud cosmológica con datos combinados",
             "necesidad": "B12 enseña estimación general; falta construir verosimilitudes con datos de CMB, BAO y supernovas."
           }
@@ -797,7 +797,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B19",
+            "bloque": "B26",
             "titulo": "Degeneraciones de parámetros cosmológicos",
             "necesidad": "Ninguna clase analiza correlaciones y degeneraciones entre parámetros cosmológicos ni cómo romperlas con datos complementarios."
           }
@@ -819,9 +819,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A03",
-            "bloque": "B19",
+            "bloque": "B26",
             "titulo": "Tensiones observacionales: constante de Hubble y S8",
-            "necesidad": "B19-C19 y B19-C20 no tratan discrepancias entre conjuntos de datos ni cómo evaluarlas."
+            "necesidad": "B26-C19 y B26-C20 no tratan discrepancias entre conjuntos de datos ni cómo evaluarlas."
           }
         },
         {

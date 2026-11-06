@@ -9,7 +9,7 @@ Este rol protege la continuidad de lo que el espacio presta a la sociedad: saté
 ## Qué NO es (y con quién se confunde)
 
 - **No es ciberseguridad general.** Comparte el vocabulario defensivo, pero los activos, los tiempos (un satélite no se reinicia fácilmente) y los marcos jurídicos son del sector espacial.
-- **No es operación de misiones.** El centro de control (bloque B57) opera el satélite; este rol evalúa su exposición y su continuidad y se coordina con él.
+- **No es operación de misiones.** El centro de control (bloque B96) opera el satélite; este rol evalúa su exposición y su continuidad y se coordina con él.
 - **No es derecho espacial.** El marco jurídico se conoce, pero su interpretación pertenece a [R23](../R23-derecho-politicas-y-negocios-espaciales/INDICE.md).
 - **No es un rol ofensivo ni militar operativo.** Este programa no enseña capacidades de daño, técnicas de intrusión ni de interferencia. La historia y las doctrinas se estudian a partir de fuentes públicas.
 

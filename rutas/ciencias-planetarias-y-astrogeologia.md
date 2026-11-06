@@ -36,11 +36,11 @@ Dicho sin adornos: **el sistema de coordenadas y la calibración** son el error 
 
 ### Conocimiento técnico
 
-- **Astrogeología y geodesia planetaria:** forma, topografía, cartografía ([**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md)).
-- **Geofísica de interiores:** estructura, gravedad, térmica ([**B89** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b89--geofísica-de-interiores-planetarios)).
-- **Geomorfología y procesos superficiales** ([**B90** · Geomorfología y procesos superficiales planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b90--geomorfología-y-procesos-superficiales-planetarios)); **cráteres de impacto** ([**B85** · Cráteres de impacto y geología de impactos](../PROGRAMA_ACADEMICO_COMPLETO.md#b85--cráteres-de-impacto-y-geología-de-impactos)); **vulcanismo planetario** ([**B94** · Vulcanismo planetario](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--vulcanismo-planetario)).
-- **Atmósferas, química y astrobiología:** contexto de los procesos ([**B35** · Atmósferas y climatología planetaria](../programa/tronco-comun/B35-atmosferas-y-climatologia-planetaria.md), [**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md), [**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md)).
-- **Exploración in situ y muestras** ([**B87** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias)).
+- **Astrogeología y geodesia planetaria:** forma, topografía, cartografía ([**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md)).
+- **Geofísica de interiores:** estructura, gravedad, térmica ([**B65** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--geofísica-de-interiores-planetarios)).
+- **Geomorfología y procesos superficiales** ([**B66** · Geomorfología y procesos superficiales planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b66--geomorfología-y-procesos-superficiales-planetarios)); **cráteres de impacto** ([**B61** · Cráteres de impacto y geología de impactos](../PROGRAMA_ACADEMICO_COMPLETO.md#b61--cráteres-de-impacto-y-geología-de-impactos)); **vulcanismo planetario** ([**B70** · Vulcanismo planetario](../PROGRAMA_ACADEMICO_COMPLETO.md#b70--vulcanismo-planetario)).
+- **Atmósferas, química y astrobiología:** contexto de los procesos ([**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md), [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md), [**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md)).
+- **Exploración in situ y muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b63--exploración-in-situ-y-análisis-de-muestras-planetarias)).
 - **Datos, estadística y computación** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 
 ### Herramientas del oficio
@@ -74,8 +74,8 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 3. 📚 [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) — A02 · 26 clases
 4. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 5. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-6. 📚 [**B35** · Atmósferas y climatología planetaria](../programa/tronco-comun/B35-atmosferas-y-climatologia-planetaria.md) — A05 · 20 clases
-7. 📚 [**B40** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B40-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — A05 · 23 clases
+6. 📚 [**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) — A05 · 20 clases
+7. 📚 [**B59** · Recursos in situ y sostenibilidad extraterrestre](../programa/tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) — A05 · 23 clases
 
 ### 🎯 El núcleo del rol
 
@@ -91,34 +91,34 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-5. 📚 [**B29** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) — usa 1 de 24 clases: `B29-` C14
-6. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B31-` C08
+5. 📚 [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) — usa 1 de 24 clases: `B45-` C14
+6. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 1 de 25 clases: `B47-` C08
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-7. 📚 [**B33** · Formación y dinámica de sistemas planetarios](../programa/tronco-comun/B33-formacion-y-dinamica-de-sistemas-planetarios.md) — usa 1 de 20 clases: `B33-` C18
-8. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 25 de 30 clases: `B34-` C01–C15, C17–C26
-9. 📚 [**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md) — usa 6 de 20 clases: `B36-` C06, C10, C12, C15, C18–C19
-10. 📚 [**B37** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B37-astrobiologia-y-vida-extraterrestre.md) — usa 4 de 21 clases: `B37-` C06, C09–C10, C17
-11. 📚 [**B38** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B38-observacion-terrestre-y-geociencias-orbitales.md) — usa 5 de 34 clases: `B38-` C01, C05, C10, C18–C19
-12. 📚 [**B39** · Asteroides, cometas y defensa planetaria](../programa/tronco-comun/B39-asteroides-cometas-y-defensa-planetaria.md) — usa 1 de 20 clases: `B39-` C15
-13. 📚 [**B85** · Cráteres de impacto y geología de impactos](../PROGRAMA_ACADEMICO_COMPLETO.md#b85--cráteres-de-impacto-y-geología-de-impactos) — usa 7 de 7 clases: `B85-` C01–C07
-14. 📚 [**B87** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias) — usa 3 de 6 clases: `B87-` C01–C03
-15. 📚 [**B89** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b89--geofísica-de-interiores-planetarios) — usa 6 de 6 clases: `B89-` C01–C06
-16. 📚 [**B90** · Geomorfología y procesos superficiales planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b90--geomorfología-y-procesos-superficiales-planetarios) — usa 5 de 5 clases: `B90-` C01–C05
-17. 📚 [**B94** · Vulcanismo planetario](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--vulcanismo-planetario) — usa 7 de 7 clases: `B94-` C01–C07
+7. 📚 [**B52** · Formación y dinámica de sistemas planetarios](../programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) — usa 1 de 20 clases: `B52-` C18
+8. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 25 de 30 clases: `B53-` C01–C15, C17–C26
+9. 📚 [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) — usa 6 de 20 clases: `B55-` C06, C10, C12, C15, C18–C19
+10. 📚 [**B56** · Astrobiología y vida extraterrestre](../programa/tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) — usa 4 de 21 clases: `B56-` C06, C09–C10, C17
+11. 📚 [**B57** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) — usa 5 de 34 clases: `B57-` C01, C05, C10, C18–C19
+12. 📚 [**B58** · Asteroides, cometas y defensa planetaria](../programa/tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) — usa 1 de 20 clases: `B58-` C15
+13. 📚 [**B61** · Cráteres de impacto y geología de impactos](../PROGRAMA_ACADEMICO_COMPLETO.md#b61--cráteres-de-impacto-y-geología-de-impactos) — usa 7 de 7 clases: `B61-` C01–C07
+14. 📚 [**B63** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b63--exploración-in-situ-y-análisis-de-muestras-planetarias) — usa 3 de 6 clases: `B63-` C01–C03
+15. 📚 [**B65** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--geofísica-de-interiores-planetarios) — usa 6 de 6 clases: `B65-` C01–C06
+16. 📚 [**B66** · Geomorfología y procesos superficiales planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b66--geomorfología-y-procesos-superficiales-planetarios) — usa 5 de 5 clases: `B66-` C01–C05
+17. 📚 [**B70** · Vulcanismo planetario](../PROGRAMA_ACADEMICO_COMPLETO.md#b70--vulcanismo-planetario) — usa 7 de 7 clases: `B70-` C01–C07
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-18. 📚 [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 2 de 30 clases: `B44-` C04, C07
+18. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 2 de 30 clases: `B74-` C04, C07
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-19. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — usa 1 de 25 clases: `B55-` C15
+19. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 1 de 25 clases: `B89-` C15
 
 **A11 · Economía, industria y gestión de proyectos espaciales**
 
-20. 📚 [**B64** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B64-industria-economia-etica-y-proyectos-espaciales.md) — usa 1 de 24 clases: `B64-` C19
+20. 📚 [**B124** · Industria, economía, ética y proyectos espaciales](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) — usa 1 de 24 clases: `B124-` C19
 
 <!-- /ruta -->
 
@@ -158,9 +158,9 @@ Roles vecinos con los que se comparte formación: [Astroquímica y astrobiologí
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 (física y química) y la matemática de tu diagnóstico.
-2. Estudia **astrogeología y geodesia planetaria** ([**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md)) y **atmósferas** ([**B35** · Atmósferas y climatología planetaria](../programa/tronco-comun/B35-atmosferas-y-climatologia-planetaria.md)).
-3. Profundiza en **geomorfología** ([**B90** · Geomorfología y procesos superficiales planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b90--geomorfología-y-procesos-superficiales-planetarios)), **impactos** ([**B85** · Cráteres de impacto y geología de impactos](../PROGRAMA_ACADEMICO_COMPLETO.md#b85--cráteres-de-impacto-y-geología-de-impactos)) y **vulcanismo** ([**B94** · Vulcanismo planetario](../PROGRAMA_ACADEMICO_COMPLETO.md#b94--vulcanismo-planetario)).
-4. Aprende **geofísica de interiores** ([**B89** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b89--geofísica-de-interiores-planetarios)) y el análisis de **muestras** ([**B87** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b87--exploración-in-situ-y-análisis-de-muestras-planetarias)).
+2. Estudia **astrogeología y geodesia planetaria** ([**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md)) y **atmósferas** ([**B54** · Atmósferas y climatología planetaria](../programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md)).
+3. Profundiza en **geomorfología** ([**B66** · Geomorfología y procesos superficiales planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b66--geomorfología-y-procesos-superficiales-planetarios)), **impactos** ([**B61** · Cráteres de impacto y geología de impactos](../PROGRAMA_ACADEMICO_COMPLETO.md#b61--cráteres-de-impacto-y-geología-de-impactos)) y **vulcanismo** ([**B70** · Vulcanismo planetario](../PROGRAMA_ACADEMICO_COMPLETO.md#b70--vulcanismo-planetario)).
+4. Aprende **geofísica de interiores** ([**B65** · Geofísica de interiores planetarios](../PROGRAMA_ACADEMICO_COMPLETO.md#b65--geofísica-de-interiores-planetarios)) y el análisis de **muestras** ([**B63** · Exploración in situ y análisis de muestras planetarias](../PROGRAMA_ACADEMICO_COMPLETO.md#b63--exploración-in-situ-y-análisis-de-muestras-planetarias)).
 5. Reúne tu **análisis con datos abiertos** y su historial.
 
 <!-- pie:inicio -->

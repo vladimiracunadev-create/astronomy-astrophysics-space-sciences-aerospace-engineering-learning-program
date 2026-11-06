@@ -8,7 +8,7 @@
 
 Vigésima y última clase del bloque B07. Reúne todo lo anterior en un proyecto completo: lees parámetros desde un archivo ([C16](../B07-C16-formatos-json-y-yaml/CLASE.md)), simulas con un bucle ([C05](../B07-C05-bucles-y-simulaciones-sencillas/CLASE.md)) sobre funciones probadas ([C06](../B07-C06-funciones-y-modularidad/CLASE.md), [C17](../B07-C17-pruebas-de-funciones-matematicas/CLASE.md)), cuidas las unidades ([C11](../B07-C11-gestion-de-unidades-en-programas/CLASE.md)), representas gráficamente el resultado ([C10](../B07-C10-graficos-bidimensionales-iniciales/CLASE.md)) y dejas el resultado reproducible ([C19](../B07-C19-documentacion-y-reproducibilidad/CLASE.md)). El objeto: la **Tierra orbitando el Sol**. Nivel N2.
 
-Verás la aceleración gravitatoria, dos métodos de integración (Euler y leapfrog), magnitudes conservadas (energía y momento angular), convergencia con el paso y comparación con un dato publicado. No verás órbitas con excentricidad, varios cuerpos, perturbaciones ni integradores de orden superior: eso es de los bloques B11 y B41 en adelante.
+Verás la aceleración gravitatoria, dos métodos de integración (Euler y leapfrog), magnitudes conservadas (energía y momento angular), convergencia con el paso y comparación con un dato publicado. No verás órbitas con excentricidad, varios cuerpos, perturbaciones ni integradores de orden superior: eso es de los bloques B11 y B71 en adelante.
 
 ## 2. Por qué esta clase existe
 
@@ -311,7 +311,7 @@ El producto es tu **simulador verificado**: código con docstrings y cabecera, p
 
 ## 21. Ética, seguridad y límites
 
-Un simulador bien presentado puede persuadir más de lo que merece: declara qué modela y qué no, y no lo uses para decisiones de diseño o navegación reales. Los simuladores de trayectorias para misiones requieren verificación y validación independientes, modelos de perturbaciones y datos de efemérides (bloques B41–B46 y B54). Sin datos personales. Material educativo.
+Un simulador bien presentado puede persuadir más de lo que merece: declara qué modela y qué no, y no lo uses para decisiones de diseño o navegación reales. Los simuladores de trayectorias para misiones requieren verificación y validación independientes, modelos de perturbaciones y datos de efemérides (bloques B71–B76 y B88). Sin datos personales. Material educativo.
 
 ## 22. Para cerrar y seguir
 
@@ -319,7 +319,7 @@ Un simulador de la órbita de la Tierra reúne el bloque entero: parámetros val
 
 **Glosario español–inglés.** simulador · *simulator*; parámetro gravitacional · *standard gravitational parameter*; integrador · *integrator*; paso de tiempo · *time step*; orden de convergencia · *order of convergence*; energía específica · *specific energy*; momento angular · *angular momentum*; error de cierre · *closure error*.
 
-**Continuidad.** El bloque [B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) termina aquí. El bloque B08 (observación del cielo y astronomía práctica) usa tu capacidad de **programar y verificar** para procesar observaciones reales; y los bloques B11 y B41 retomarán la simulación con métodos y modelos más completos.
+**Continuidad.** El bloque [B07](../../../tronco-comun/B07-informatica-cientifica-desde-cero.md) termina aquí. El bloque B08 (observación del cielo y astronomía práctica) usa tu capacidad de **programar y verificar** para procesar observaciones reales; y los bloques B11 y B71 retomarán la simulación con métodos y modelos más completos.
 
 **Referencias:** ver sección 11.
 

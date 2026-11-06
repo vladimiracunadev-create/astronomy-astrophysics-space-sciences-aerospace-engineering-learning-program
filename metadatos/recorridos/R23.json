@@ -81,17 +81,17 @@
       "tipo": "obligatoria",
       "titulo": "Órbitas y lanzamientos para quienes no los calculan",
       "clases": [
-        "B41-C01",
-        "B41-C03",
-        "B41-C07",
-        "B41-C08",
-        "B41-C16",
-        "B41-C17",
-        "B47-C01",
-        "B47-C14",
-        "B47-C19",
-        "B38-C01",
-        "B38-C02"
+        "B71-C01",
+        "B71-C03",
+        "B71-C07",
+        "B71-C08",
+        "B71-C16",
+        "B71-C17",
+        "B77-C01",
+        "B77-C14",
+        "B77-C19",
+        "B57-C01",
+        "B57-C02"
       ],
       "capacidad": "Explicar qué es una órbita, un lanzamiento y una reentrada con precisión suficiente para aplicar una regla jurídica.",
       "nota": "No se calcula: se comprende lo necesario para leer un contrato, una licencia o un informe técnico."
@@ -102,14 +102,14 @@
       "tipo": "obligatoria",
       "titulo": "Ingeniería de misión y gestión técnica",
       "clases": [
-        "B49-C01..C05",
-        "B49-C13",
-        "B49-C14",
-        "B49-C16..C19",
-        "B52-C16..C18",
-        "B57-C01",
-        "B57-C02",
-        "B57-C18"
+        "B83-C01..C05",
+        "B83-C13",
+        "B83-C14",
+        "B83-C16..C19",
+        "B86-C16..C18",
+        "B96-C01",
+        "B96-C02",
+        "B96-C18"
       ],
       "capacidad": "Leer requisitos, hitos y riesgos de un proyecto y reconocer su efecto en el contrato y en la licencia."
     },
@@ -119,9 +119,9 @@
       "tipo": "recomendada",
       "titulo": "Espectro y comunicaciones",
       "clases": [
-        "B55-C02..C05",
-        "B55-C14",
-        "B55-C19"
+        "B89-C02..C05",
+        "B89-C14",
+        "B89-C19"
       ],
       "capacidad": "Explicar qué es un enlace, una banda y una estación terrestre y por qué se coordina el espectro."
     },
@@ -131,7 +131,7 @@
       "tipo": "obligatoria",
       "titulo": "Tráfico espacial y sostenibilidad orbital",
       "clases": [
-        "B62-C01..C20"
+        "B118-C01..C20"
       ],
       "capacidad": "Describir los objetos orbitales, las conjunciones, los desechos y la gobernanza del tráfico que el derecho debe ordenar.",
       "nota": "Los módulos R23-M01, M04 y M08 retoman C05 a C19 desde la responsabilidad y la gobernanza."
@@ -142,7 +142,7 @@
       "tipo": "obligatoria",
       "titulo": "Derecho, seguridad y geopolítica espacial",
       "clases": [
-        "B63-C01..C20"
+        "B119-C01..C20"
       ],
       "capacidad": "Explicar los tratados, los organismos, la autorización de operadores y la responsabilidad por daños.",
       "nota": "Es el eje del rol. R23-M01 a M04 profundizan C01 a C10 y C19: la ruta pide interpretar, comparar y aplicar a casos. Ninguna clase es asesoría legal; toda norma se cita con jurisdicción, versión y fecha."
@@ -156,7 +156,7 @@
         "R23-M01-C01..C20"
       ],
       "capacidad": "Interpretar un tratado frente a un caso y construir una matriz comparativa de obligaciones.",
-      "nota": "Repite B63-C01 a C06 y C10: la evidencia pedida es la interpretación de casos, no el resumen del texto."
+      "nota": "Repite B119-C01 a C06 y C10: la evidencia pedida es la interpretación de casos, no el resumen del texto."
     },
     {
       "orden": 12,
@@ -167,7 +167,7 @@
         "R23-M02-C01..C20"
       ],
       "capacidad": "Comparar el régimen de autorización, registro y supervisión de varios países y señalar lo que debe verificarse.",
-      "nota": "Repite B63-C07, C08 y C19. M02-C15 y M02-C16 (ley chilena) son solo títulos: la norma aplicable se verifica en la fuente oficial vigente, con fecha."
+      "nota": "Repite B119-C07, C08 y C19. M02-C15 y M02-C16 (ley chilena) son solo títulos: la norma aplicable se verifica en la fuente oficial vigente, con fecha."
     },
     {
       "orden": 13,
@@ -178,7 +178,7 @@
         "R23-M03-C01..C20"
       ],
       "capacidad": "Planificar la coordinación y la licencia de un enlace y evaluar el riesgo de incumplimiento.",
-      "nota": "Repite B55-C19 y B63-C09."
+      "nota": "Repite B89-C19 y B119-C09."
     },
     {
       "orden": 14,
@@ -189,7 +189,7 @@
         "R23-M04-C01..C20"
       ],
       "capacidad": "Atribuir responsabilidad por un daño en superficie o en órbita y preparar una reclamación.",
-      "nota": "Repite B63-C03 y C10."
+      "nota": "Repite B119-C03 y C10."
     },
     {
       "orden": 15,
@@ -197,9 +197,9 @@
       "tipo": "recomendada",
       "titulo": "Protección planetaria, defensa planetaria y ética",
       "clases": [
-        "B37-C17..C19",
-        "B39-C17..C19",
-        "B40-C17"
+        "B56-C17..C19",
+        "B58-C17..C19",
+        "B59-C17"
       ],
       "capacidad": "Reconocer las restricciones de protección planetaria y de uso de recursos en la ley y la política."
     },
@@ -209,7 +209,7 @@
       "tipo": "obligatoria",
       "titulo": "Industria, economía y proyectos espaciales",
       "clases": [
-        "B64-C01..C12"
+        "B124-C01..C12"
       ],
       "capacidad": "Describir la cadena de valor, el financiamiento, los seguros y los contratos de la industria espacial."
     },
@@ -242,7 +242,7 @@
       "tipo": "recomendada",
       "titulo": "Ética, ciencia abierta y gestión",
       "clases": [
-        "B64-C13..C18"
+        "B124-C13..C18"
       ],
       "capacidad": "Aplicar ética de datos, ciencia abierta, gestión de proyectos y comunicación a un proyecto con obligaciones legales."
     },
@@ -255,7 +255,7 @@
         "R23-M07-C01..C20"
       ],
       "capacidad": "Redactar el plan de una empresa espacial con su cadena de valor, su propiedad intelectual y sus controles de exportación.",
-      "nota": "Repite B64-C01 a C04 y C09; se pide un plan empresarial."
+      "nota": "Repite B124-C01 a C04 y C09; se pide un plan empresarial."
     },
     {
       "orden": 21,
@@ -274,8 +274,8 @@
       "tipo": "recomendada",
       "titulo": "Propuesta y portafolio",
       "clases": [
-        "B64-C19",
-        "B64-C20"
+        "B124-C19",
+        "B124-C20"
       ],
       "capacidad": "Consolidar un caso completo (jurídico, regulatorio y de negocio) en un portafolio."
     }
@@ -283,8 +283,8 @@
   "huecos": [
     {
       "tema": "Derecho internacional público general: fuentes, sujetos y responsabilidad del Estado",
-      "motivo": "B63 y R23-M01 parten de los tratados espaciales, pero ningún título trata las fuentes del derecho internacional, la costumbre ni los criterios generales de atribución; la búsqueda de «derecho internacional» no devolvió clases.",
-      "propuesta": "clases nuevas en B63"
+      "motivo": "B119 y R23-M01 parten de los tratados espaciales, pero ningún título trata las fuentes del derecho internacional, la costumbre ni los criterios generales de atribución; la búsqueda de «derecho internacional» no devolvió clases.",
+      "propuesta": "clases nuevas en B119"
     },
     {
       "tema": "Derecho chileno aplicable a actividades espaciales, con jurisdicción y vigencia",
@@ -294,7 +294,7 @@
     {
       "tema": "Análisis financiero: valor presente, tasa de descuento y valoración de una empresa",
       "motivo": "R23-M06 tiene «proyección de flujos» y «evaluación de viabilidad» como títulos; ningún título nombra valoración, valor presente neto ni tasa de descuento (búsquedas de «valor presente», «VPN», «TIR» y «descuento» sin resultados).",
-      "propuesta": "clases nuevas en B64"
+      "propuesta": "clases nuevas en B124"
     },
     {
       "tema": "Método de caso jurídico: redacción, citación de normas y de jurisprudencia",

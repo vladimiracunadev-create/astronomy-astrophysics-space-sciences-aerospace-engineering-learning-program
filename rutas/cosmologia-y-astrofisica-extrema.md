@@ -37,11 +37,11 @@ Dicho sin adornos: **la estadística es el oficio**. Una curva bonita sin interv
 
 ### Conocimiento técnico
 
-- **Relatividad y cosmología:** expansión, geometría, componentes del universo ([**B19** · Relatividad y cosmología](../programa/tronco-comun/B19-relatividad-y-cosmologia.md), [**B79** · Relatividad general avanzada](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--relatividad-general-avanzada)).
-- **Universo temprano y radiación de fondo:** física de la época primitiva y su huella ([**B80** · Universo temprano y radiación cósmica de fondo](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--universo-temprano-y-radiación-cósmica-de-fondo)).
-- **Estructuras y materia oscura:** formación de galaxias y cúmulos ([**B76** · Formación de estructuras cósmicas y materia oscura](../PROGRAMA_ACADEMICO_COMPLETO.md#b76--formación-de-estructuras-cósmicas-y-materia-oscura), [**B18** · Galaxias y medio interestelar](../programa/tronco-comun/B18-galaxias-y-medio-interestelar.md)).
-- **Objetos compactos y altas energías:** agujeros negros, estrellas de neutrones, estallidos ([**B20** · Objetos compactos y altas energías](../programa/tronco-comun/B20-objetos-compactos-y-altas-energias.md)).
-- **Multimensajero:** neutrinos, ondas gravitacionales y luz ([**B21** · Astronomía multimensajero](../programa/tronco-comun/B21-astronomia-multimensajero.md)).
+- **Relatividad y cosmología:** expansión, geometría, componentes del universo ([**B26** · Relatividad y cosmología](../programa/tronco-comun/B26-relatividad-y-cosmologia.md), [**B39** · Relatividad general avanzada](../PROGRAMA_ACADEMICO_COMPLETO.md#b39--relatividad-general-avanzada)).
+- **Universo temprano y radiación de fondo:** física de la época primitiva y su huella ([**B40** · Universo temprano y radiación cósmica de fondo](../PROGRAMA_ACADEMICO_COMPLETO.md#b40--universo-temprano-y-radiación-cósmica-de-fondo)).
+- **Estructuras y materia oscura:** formación de galaxias y cúmulos ([**B36** · Formación de estructuras cósmicas y materia oscura](../PROGRAMA_ACADEMICO_COMPLETO.md#b36--formación-de-estructuras-cósmicas-y-materia-oscura), [**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md)).
+- **Objetos compactos y altas energías:** agujeros negros, estrellas de neutrones, estallidos ([**B27** · Objetos compactos y altas energías](../programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md)).
+- **Multimensajero:** neutrinos, ondas gravitacionales y luz ([**B28** · Astronomía multimensajero](../programa/tronco-comun/B28-astronomia-multimensajero.md)).
 - **Inferencia estadística y cómputo:** parámetros, covarianzas y análisis reproducible ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md), [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
 
 ### Herramientas del oficio
@@ -76,8 +76,15 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 4. 📚 [**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) — A02 · 31 clases
 5. 📚 [**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md) — A02 · 24 clases
 6. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-7. 📚 [**B17** · Física y evolución de estrellas](../programa/tronco-comun/B17-fisica-y-evolucion-de-estrellas.md) — A03 · 22 clases
-8. 📚 [**B22** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B22-astronomia-temporal-y-exoplanetas.md) — A03 · 20 clases
+7. 📚 [**B17** · Aprendizaje automático científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b17--aprendizaje-automático-científico) — A02 · 12 clases
+8. 📚 [**B18** · Computación de alto rendimiento](../PROGRAMA_ACADEMICO_COMPLETO.md#b18--computación-de-alto-rendimiento) — A02 · 5 clases
+9. 📚 [**B19** · Inferencia bayesiana y computación probabilística](../PROGRAMA_ACADEMICO_COMPLETO.md#b19--inferencia-bayesiana-y-computación-probabilística) — A02 · 8 clases
+10. 📚 [**B20** · Metodología de la investigación científica](../PROGRAMA_ACADEMICO_COMPLETO.md#b20--metodología-de-la-investigación-científica) — A02 · 4 clases
+11. 📚 [**B21** · Métodos numéricos para EDP y fluidos computacionales](../PROGRAMA_ACADEMICO_COMPLETO.md#b21--métodos-numéricos-para-edp-y-fluidos-computacionales) — A02 · 5 clases
+12. 📚 [**B22** · Problemas inversos y estimación de modelos](../PROGRAMA_ACADEMICO_COMPLETO.md#b22--problemas-inversos-y-estimación-de-modelos) — A02 · 5 clases
+13. 📚 [**B23** · Verificación y validación de software científico](../PROGRAMA_ACADEMICO_COMPLETO.md#b23--verificación-y-validación-de-software-científico) — A02 · 8 clases
+14. 📚 [**B24** · Física y evolución de estrellas](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) — A03 · 22 clases
+15. 📚 [**B29** · Astronomía temporal y exoplanetas](../programa/tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) — A03 · 20 clases
 
 ### 🎯 El núcleo del rol
 
@@ -88,23 +95,23 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
-3. 📚 [**B18** · Galaxias y medio interestelar](../programa/tronco-comun/B18-galaxias-y-medio-interestelar.md) — usa 5 de 20 clases: `B18-` C08, C13–C15, C18
-4. 📚 [**B19** · Relatividad y cosmología](../programa/tronco-comun/B19-relatividad-y-cosmologia.md) — usa 13 de 23 clases: `B19-` C04, C08, C10, C14–C23
-5. 📚 [**B20** · Objetos compactos y altas energías](../programa/tronco-comun/B20-objetos-compactos-y-altas-energias.md) — usa 14 de 22 clases: `B20-` C02–C03, C05, C07–C12, C17–C19, C21–C22
-6. 📚 [**B21** · Astronomía multimensajero](../programa/tronco-comun/B21-astronomia-multimensajero.md) — usa 13 de 22 clases: `B21-` C03, C05–C06, C09–C13, C16–C18, C21–C22
-7. 📚 [**B23** · Heliofísica y física de plasmas](../programa/tronco-comun/B23-heliofisica-y-fisica-de-plasmas.md) — usa 1 de 23 clases: `B23-` C14
-8. 📚 [**B24** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B24-fisica-cuantica-nuclear-y-astroparticulas.md) — usa 5 de 20 clases: `B24-` C13–C14, C16–C18
-9. 📚 [**B76** · Formación de estructuras cósmicas y materia oscura](../PROGRAMA_ACADEMICO_COMPLETO.md#b76--formación-de-estructuras-cósmicas-y-materia-oscura) — usa 11 de 11 clases: `B76-` C01–C11
-10. 📚 [**B79** · Relatividad general avanzada](../PROGRAMA_ACADEMICO_COMPLETO.md#b79--relatividad-general-avanzada) — usa 6 de 6 clases: `B79-` C01–C06
-11. 📚 [**B80** · Universo temprano y radiación cósmica de fondo](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--universo-temprano-y-radiación-cósmica-de-fondo) — usa 15 de 15 clases: `B80-` C01–C15
+3. 📚 [**B25** · Galaxias y medio interestelar](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md) — usa 5 de 20 clases: `B25-` C08, C13–C15, C18
+4. 📚 [**B26** · Relatividad y cosmología](../programa/tronco-comun/B26-relatividad-y-cosmologia.md) — usa 13 de 23 clases: `B26-` C04, C08, C10, C14–C23
+5. 📚 [**B27** · Objetos compactos y altas energías](../programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md) — usa 14 de 22 clases: `B27-` C02–C03, C05, C07–C12, C17–C19, C21–C22
+6. 📚 [**B28** · Astronomía multimensajero](../programa/tronco-comun/B28-astronomia-multimensajero.md) — usa 13 de 22 clases: `B28-` C03, C05–C06, C09–C13, C16–C18, C21–C22
+7. 📚 [**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) — usa 1 de 23 clases: `B30-` C14
+8. 📚 [**B31** · Física cuántica, nuclear y astropartículas](../programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) — usa 5 de 20 clases: `B31-` C13–C14, C16–C18
+9. 📚 [**B36** · Formación de estructuras cósmicas y materia oscura](../PROGRAMA_ACADEMICO_COMPLETO.md#b36--formación-de-estructuras-cósmicas-y-materia-oscura) — usa 11 de 11 clases: `B36-` C01–C11
+10. 📚 [**B39** · Relatividad general avanzada](../PROGRAMA_ACADEMICO_COMPLETO.md#b39--relatividad-general-avanzada) — usa 6 de 6 clases: `B39-` C01–C06
+11. 📚 [**B40** · Universo temprano y radiación cósmica de fondo](../PROGRAMA_ACADEMICO_COMPLETO.md#b40--universo-temprano-y-radiación-cósmica-de-fondo) — usa 15 de 15 clases: `B40-` C01–C15
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-12. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — usa 2 de 25 clases: `B31-` C05–C06
+12. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — usa 2 de 25 clases: `B47-` C05–C06
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-13. 📚 [**B36** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B36-astroquimica-y-geoquimica-extraterrestre.md) — usa 1 de 20 clases: `B36-` C02
+13. 📚 [**B55** · Astroquímica y geoquímica extraterrestre](../programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) — usa 1 de 20 clases: `B55-` C02
 
 <!-- /ruta -->
 
@@ -146,9 +153,9 @@ Roles vecinos con los que se comparte formación: [Astrofísica estelar y galác
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la matemática (cálculo y álgebra lineal) de tu diagnóstico.
-2. Estudia **relatividad y cosmología** ([**B19** · Relatividad y cosmología](../programa/tronco-comun/B19-relatividad-y-cosmologia.md)) y **objetos compactos** ([**B20** · Objetos compactos y altas energías](../programa/tronco-comun/B20-objetos-compactos-y-altas-energias.md)).
+2. Estudia **relatividad y cosmología** ([**B26** · Relatividad y cosmología](../programa/tronco-comun/B26-relatividad-y-cosmologia.md)) y **objetos compactos** ([**B27** · Objetos compactos y altas energías](../programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md)).
 3. Aprende **inferencia y manejo de incertidumbre** ([**B12** · Probabilidad, estadística e incertidumbre](../programa/tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md)) y análisis reproducible ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
-4. Profundiza en **universo temprano** ([**B80** · Universo temprano y radiación cósmica de fondo](../PROGRAMA_ACADEMICO_COMPLETO.md#b80--universo-temprano-y-radiación-cósmica-de-fondo)) o en **estructuras y materia oscura** ([**B76** · Formación de estructuras cósmicas y materia oscura](../PROGRAMA_ACADEMICO_COMPLETO.md#b76--formación-de-estructuras-cósmicas-y-materia-oscura)).
+4. Profundiza en **universo temprano** ([**B40** · Universo temprano y radiación cósmica de fondo](../PROGRAMA_ACADEMICO_COMPLETO.md#b40--universo-temprano-y-radiación-cósmica-de-fondo)) o en **estructuras y materia oscura** ([**B36** · Formación de estructuras cósmicas y materia oscura](../PROGRAMA_ACADEMICO_COMPLETO.md#b36--formación-de-estructuras-cósmicas-y-materia-oscura)).
 5. Reúne tu **inferencia reproducible** con su historial.
 
 <!-- pie:inicio -->

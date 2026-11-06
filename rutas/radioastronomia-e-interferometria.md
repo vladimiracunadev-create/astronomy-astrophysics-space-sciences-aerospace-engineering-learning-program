@@ -37,9 +37,9 @@ Dicho sin adornos: la mayor parte del tiempo se va en **separar señal de error*
 
 ### Conocimiento técnico
 
-- **Radioastronomía y propagación:** espectro radio, antenas, ruido de sistema y radiometría ([**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md)).
-- **Antenas y receptores:** diseño, ganancia, temperatura de ruido ([**B81** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b81--antenas-y-receptores-de-radioastronomía)).
-- **Interferometría y reducción de datos:** líneas de base, correladores, calibración y síntesis ([**B83** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b83--interferometría-avanzada-y-reducción-de-datos-de-radio), [**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md)).
+- **Radioastronomía y propagación:** espectro radio, antenas, ruido de sistema y radiometría ([**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)).
+- **Antenas y receptores:** diseño, ganancia, temperatura de ruido ([**B49** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b49--antenas-y-receptores-de-radioastronomía)).
+- **Interferometría y reducción de datos:** líneas de base, correladores, calibración y síntesis ([**B51** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b51--interferometría-avanzada-y-reducción-de-datos-de-radio), [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)).
 - **Señales e imágenes:** procesamiento, transformadas y estimación ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
 - **Metrología y tiempo:** estabilidad de frecuencia y sincronización ([**B13** · Metrología, tiempo y mediciones científicas](../programa/tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md)).
 - **Computación científica:** reducción de datos reproducible ([**B14** · Computación científica y ciencia abierta](../programa/tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md)).
@@ -75,8 +75,8 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 3. 📚 [**B10** · Álgebra lineal y matemáticas geométricas](../programa/tronco-comun/B10-algebra-lineal-y-matematicas-geometricas.md) — A02 · 20 clases
 4. 📚 [**B11** · Ecuaciones diferenciales y simulación numérica](../programa/tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md) — A02 · 26 clases
 5. 📚 [**B16** · Sistemas dinámicos y control automático](../programa/tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) — A02 · 20 clases
-6. 📚 [**B29** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B29-espectroscopia-fotometria-y-polarimetria.md) — A04 · 24 clases
-7. 📚 [**B31** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B31-instrumentacion-y-observatorios-espaciales.md) — A04 · 25 clases
+6. 📚 [**B45** · Espectroscopía, fotometría y polarimetría](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) — A04 · 24 clases
+7. 📚 [**B47** · Instrumentación y observatorios espaciales](../programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) — A04 · 25 clases
 
 ### 🎯 El núcleo del rol
 
@@ -89,34 +89,34 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 **A03 · Astrofísica y ciencias fundamentales del universo**
 
-5. 📚 [**B23** · Heliofísica y física de plasmas](../programa/tronco-comun/B23-heliofisica-y-fisica-de-plasmas.md) — usa 1 de 23 clases: `B23-` C21
+5. 📚 [**B30** · Heliofísica y física de plasmas](../programa/tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) — usa 1 de 23 clases: `B30-` C21
 
 **A04 · Óptica, telescopios y observatorios científicos**
 
-6. 📚 [**B26** · Óptica física y óptica adaptativa](../programa/tronco-comun/B26-optica-fisica-y-optica-adaptativa.md) — usa 1 de 24 clases: `B26-` C08
-7. 📚 [**B28** · Detectores y adquisición astronómica](../programa/tronco-comun/B28-detectores-y-adquisicion-astronomica.md) — usa 1 de 20 clases: `B28-` C19
-8. 📚 [**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md) — usa 17 de 20 clases: `B30-` C03–C11, C13–C20
-9. 📚 [**B32** · Operaciones de observatorios científicos](../programa/tronco-comun/B32-operaciones-de-observatorios-cientificos.md) — usa 1 de 23 clases: `B32-` C17
-10. 📚 [**B81** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b81--antenas-y-receptores-de-radioastronomía) — usa 11 de 11 clases: `B81-` C01–C11
-11. 📚 [**B83** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b83--interferometría-avanzada-y-reducción-de-datos-de-radio) — usa 14 de 14 clases: `B83-` C01–C14
+6. 📚 [**B42** · Óptica física y óptica adaptativa](../programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) — usa 1 de 24 clases: `B42-` C08
+7. 📚 [**B44** · Detectores y adquisición astronómica](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md) — usa 1 de 20 clases: `B44-` C19
+8. 📚 [**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md) — usa 17 de 20 clases: `B46-` C03–C11, C13–C20
+9. 📚 [**B48** · Operaciones de observatorios científicos](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md) — usa 1 de 23 clases: `B48-` C17
+10. 📚 [**B49** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b49--antenas-y-receptores-de-radioastronomía) — usa 11 de 11 clases: `B49-` C01–C11
+11. 📚 [**B51** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b51--interferometría-avanzada-y-reducción-de-datos-de-radio) — usa 14 de 14 clases: `B51-` C01–C14
 
 **A05 · Ciencias planetarias, astroquímica y habitabilidad**
 
-12. 📚 [**B34** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B34-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B34-` C04
-13. 📚 [**B38** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B38-observacion-terrestre-y-geociencias-orbitales.md) — usa 1 de 34 clases: `B38-` C10
+12. 📚 [**B53** · Astrogeología y geodesia planetaria](../programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) — usa 1 de 30 clases: `B53-` C04
+13. 📚 [**B57** · Observación terrestre y geociencias orbitales](../programa/tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) — usa 1 de 34 clases: `B57-` C10
 
 **A06 · Mecánica orbital, navegación y vuelo espacial**
 
-14. 📚 [**B44** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B44-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 2 de 30 clases: `B44-` C01, C07
+14. 📚 [**B74** · Estimación de órbitas y navegación espacial](../programa/tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) — usa 2 de 30 clases: `B74-` C01, C07
 
 **A07 · Ingeniería y construcción de sistemas espaciales**
 
-15. 📚 [**B55** · Comunicaciones y navegación satelital](../programa/tronco-comun/B55-comunicaciones-y-navegacion-satelital.md) — usa 2 de 25 clases: `B55-` C06–C07
-16. 📚 [**B56** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B56-integracion-ensayos-y-calificacion-espacial.md) — usa 2 de 24 clases: `B56-` C13–C14
+15. 📚 [**B89** · Comunicaciones y navegación satelital](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) — usa 2 de 25 clases: `B89-` C06–C07
+16. 📚 [**B90** · Integración, ensayos y calificación espacial](../programa/tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) — usa 2 de 24 clases: `B90-` C13–C14
 
 **A10 · Entorno orbital, derecho y seguridad espacial**
 
-17. 📚 [**B62** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B62-trafico-espacial-y-sostenibilidad-orbital.md) — usa 1 de 24 clases: `B62-` C17
+17. 📚 [**B118** · Tráfico espacial y sostenibilidad orbital](../programa/tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) — usa 1 de 24 clases: `B118-` C17
 
 <!-- /ruta -->
 
@@ -157,9 +157,9 @@ Roles vecinos con los que se comparte formación: [Ingeniería óptica y telesco
 ## 🚀 Siguientes pasos
 
 1. **Asienta la base** con el área A01 y la física de ondas de tu diagnóstico.
-2. Estudia **radioastronomía** ([**B30** · Radioastronomía e interferometría](../programa/tronco-comun/B30-radioastronomia-e-interferometria.md)) y **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
-3. Profundiza en **antenas y receptores** ([**B81** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b81--antenas-y-receptores-de-radioastronomía)).
-4. Avanza a **interferometría y reducción de datos** ([**B83** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b83--interferometría-avanzada-y-reducción-de-datos-de-radio)).
+2. Estudia **radioastronomía** ([**B46** · Radioastronomía e interferometría](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md)) y **señales e imágenes** ([**B15** · Señales, imágenes y estimación científica](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md)).
+3. Profundiza en **antenas y receptores** ([**B49** · Antenas y receptores de radioastronomía](../PROGRAMA_ACADEMICO_COMPLETO.md#b49--antenas-y-receptores-de-radioastronomía)).
+4. Avanza a **interferometría y reducción de datos** ([**B51** · Interferometría avanzada y reducción de datos de radio](../PROGRAMA_ACADEMICO_COMPLETO.md#b51--interferometría-avanzada-y-reducción-de-datos-de-radio)).
 5. Reúne tu **análisis documentado** con su historial.
 
 <!-- pie:inicio -->

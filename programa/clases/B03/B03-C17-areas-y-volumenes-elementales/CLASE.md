@@ -148,7 +148,7 @@ Si la dibujas, usa círculos con áreas proporcionales y rotula los factores; no
 
 ## 14. Esfera, elipsoide o forma real: cuándo usar cada modelo
 
-La **esfera** basta para órdenes de magnitud y comparaciones entre cuerpos (error ≈ 0,3 % en la Tierra). El **elipsoide** es necesario cuando la precisión de unas pocas diezmilésimas importa. La **forma real** (con relieve) hace falta en geodesia y navegación (B34, B38). Con cuerpos irregulares como asteroides, la esfera puede fallar por un factor 2 o más. Siempre se declara el modelo.
+La **esfera** basta para órdenes de magnitud y comparaciones entre cuerpos (error ≈ 0,3 % en la Tierra). El **elipsoide** es necesario cuando la precisión de unas pocas diezmilésimas importa. La **forma real** (con relieve) hace falta en geodesia y navegación (B53, B57). Con cuerpos irregulares como asteroides, la esfera puede fallar por un factor 2 o más. Siempre se declara el modelo.
 
 ## 15. Práctica guiada
 
@@ -286,7 +286,7 @@ El perímetro crece con `r`, el área con `r²` y el volumen con `r³`; la densi
 
 **Glosario español–inglés.** área · *area*; volumen · *volume*; esfera · *sphere*; cilindro · *cylinder*; elipsoide · *ellipsoid*; densidad · *density*; sección transversal · *cross section*; achatamiento · *flattening*.
 
-**Continuidad.** B03-C18 y C20 usan estas fórmulas en problemas de tamaño angular y de maqueta. B34 y B38 tratan formas planetarias reales.
+**Continuidad.** B03-C18 y C20 usan estas fórmulas en problemas de tamaño angular y de maqueta. B53 y B57 tratan formas planetarias reales.
 
 **Referencias:** ver sección 11. Todas las fuentes son datos oficiales consultados.
 

@@ -12,7 +12,7 @@ Rutas profesionales 24 rutas × 8 módulos × 20 clases  = 3.840 clases
                                               Total   = 5.120 clases
 ```
 
-- **Tronco común.** Cada área (A01–A08) agrupa 8 bloques (B01–B64 en total, 64 bloques) y cada bloque tiene 20 clases. Un área tiene 8 × 20 = 160 clases; las 8 áreas suman 1.280.
+- **Tronco común.** Cada área (A01–A08) agrupa 8 bloques (64 bloques en la línea base `0.1.0`; en la estructura `0.2.0` se numeran de forma consecutiva dentro de B01–B133) y cada bloque tiene 20 clases. Un área tiene 8 × 20 = 160 clases; las 8 áreas suman 1.280.
 - **Rutas profesionales.** Cada ruta (R01–R24) tiene 8 módulos (192 módulos en total) y cada módulo tiene 20 clases. Una ruta tiene también 160 clases; las 24 rutas suman 3.840.
 - Las rutas **no** son parte de las áreas: son un segundo eje que reutiliza el tronco y lo profundiza.
 

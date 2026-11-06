@@ -13,7 +13,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Selección de emplazamiento para un asentamiento extraterrestre",
-            "necesidad": "Aporta criterios de elección de sitio (relieve, iluminación, recursos, comunicaciones, seguridad); B60-C19 presenta una arquitectura lunar conceptual pero ninguna clase enseña a comparar y elegir emplazamientos."
+            "necesidad": "Aporta criterios de elección de sitio (relieve, iluminación, recursos, comunicaciones, seguridad); B106-C19 presenta una arquitectura lunar conceptual pero ninguna clase enseña a comparar y elegir emplazamientos."
           }
         },
         {
@@ -21,9 +21,9 @@
           "tema": "Regolito y relieve",
           "destino": "existente",
           "tronco": [
-            "B40-C04",
-            "B40-C11",
-            "B34-C07"
+            "B59-C04",
+            "B59-C11",
+            "B53-C07"
           ]
         },
         {
@@ -31,8 +31,8 @@
           "tema": "Arquitecturas presurizadas",
           "destino": "existente",
           "tronco": [
-            "B60-C02",
-            "B60-C19"
+            "B106-C02",
+            "B106-C19"
           ]
         },
         {
@@ -43,7 +43,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Zonificación y distribución funcional de módulos de un hábitat",
-            "necesidad": "Enseña a organizar módulos y zonas (vida, trabajo, higiene, almacenamiento) por flujos y adyacencias; B60-C02 trata solo la presurización de cada módulo."
+            "necesidad": "Enseña a organizar módulos y zonas (vida, trabajo, higiene, almacenamiento) por flujos y adyacencias; B106-C02 trata solo la presurización de cada módulo."
           }
         },
         {
@@ -54,7 +54,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Accesos, esclusas y transferencia entre ambientes presurizados",
-            "necesidad": "Cubre el diseño de esclusas y puntos de acceso (ciclo de presurización, polvo, EVA); ninguna clase de B58 o B60 trata la arquitectura de accesos."
+            "necesidad": "Cubre el diseño de esclusas y puntos de acceso (ciclo de presurización, polvo, EVA); ninguna clase de B104 o B106 trata la arquitectura de accesos."
           }
         },
         {
@@ -62,8 +62,8 @@
           "tema": "Iluminación y ciclo circadiano",
           "destino": "existente",
           "tronco": [
-            "B60-C13",
-            "B59-C08"
+            "B106-C13",
+            "B105-C08"
           ]
         },
         {
@@ -74,7 +74,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Mitigación de polvo lunar en accesos y hábitats",
-            "necesidad": "B51-C16 describe el polvo lunar como contaminante del entorno, pero no el diseño de barreras, limpieza y esclusas para impedir su ingreso al hábitat."
+            "necesidad": "B85-C16 describe el polvo lunar como contaminante del entorno, pero no el diseño de barreras, limpieza y esclusas para impedir su ingreso al hábitat."
           }
         },
         {
@@ -85,7 +85,7 @@
             "area": "A08",
             "bloque": "nuevo: Seguridad y respuesta a emergencias en hábitats",
             "titulo": "Rutas de evacuación y salidas de emergencia en hábitats",
-            "necesidad": "Aporta el diseño y verificación de rutas de evacuación; B58-C13 y B60-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios."
+            "necesidad": "Aporta el diseño y verificación de rutas de evacuación; B104-C13 y B106-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios."
           }
         },
         {
@@ -96,7 +96,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Crecimiento modular y escalabilidad de asentamientos",
-            "necesidad": "Enseña a planificar el crecimiento de un asentamiento por fases sin rediseño; B60-C19 es solo un concepto inicial de asentamiento lunar."
+            "necesidad": "Enseña a planificar el crecimiento de un asentamiento por fases sin rediseño; B106-C19 es solo un concepto inicial de asentamiento lunar."
           }
         },
         {
@@ -104,8 +104,8 @@
           "tema": "Evaluación arquitectónica de hábitat",
           "destino": "existente",
           "tronco": [
-            "B60-C01",
-            "B60-C19"
+            "B106-C01",
+            "B106-C19"
           ]
         }
       ]
@@ -119,8 +119,8 @@
           "tema": "Balance metabólico de oxígeno",
           "destino": "existente",
           "tronco": [
-            "B60-C03",
-            "B60-C05"
+            "B106-C03",
+            "B106-C05"
           ]
         },
         {
@@ -128,7 +128,7 @@
           "tema": "Remoción de dióxido de carbono",
           "destino": "existente",
           "tronco": [
-            "B60-C04"
+            "B106-C04"
           ]
         },
         {
@@ -136,7 +136,7 @@
           "tema": "Reciclaje de agua",
           "destino": "existente",
           "tronco": [
-            "B60-C06"
+            "B106-C06"
           ]
         },
         {
@@ -145,9 +145,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Depuración de trazas gaseosas de la atmósfera de cabina",
-            "necesidad": "Cubre carbón activo, catalizadores y filtros para contaminantes gaseosos traza; B60-C03 y C04 tratan composición y CO2 pero no la depuración de trazas."
+            "necesidad": "Cubre carbón activo, catalizadores y filtros para contaminantes gaseosos traza; B106-C03 y C04 tratan composición y CO2 pero no la depuración de trazas."
           }
         },
         {
@@ -156,9 +156,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Fuentes e identificación de contaminantes del aire de cabina",
-            "necesidad": "Enseña qué contaminantes genera una cabina cerrada (materiales, equipos, metabolismo) y cómo identificarlos; ninguna clase de B60 o B56 lo trata."
+            "necesidad": "Enseña qué contaminantes genera una cabina cerrada (materiales, equipos, metabolismo) y cómo identificarlos; ninguna clase de B106 o B90 lo trata."
           }
         },
         {
@@ -166,8 +166,8 @@
           "tema": "Gestión de residuos",
           "destino": "existente",
           "tronco": [
-            "B60-C10",
-            "B40-C16"
+            "B106-C10",
+            "B59-C16"
           ]
         },
         {
@@ -175,7 +175,7 @@
           "tema": "Subsistemas ECLSS",
           "destino": "existente",
           "tronco": [
-            "B60-C09"
+            "B106-C09"
           ]
         },
         {
@@ -183,8 +183,8 @@
           "tema": "Consumo de potencia",
           "destino": "existente",
           "tronco": [
-            "B60-C09",
-            "B52-C01"
+            "B106-C09",
+            "B86-C01"
           ]
         },
         {
@@ -192,7 +192,7 @@
           "tema": "Redundancia vital",
           "destino": "existente",
           "tronco": [
-            "B60-C18"
+            "B106-C18"
           ]
         },
         {
@@ -200,7 +200,7 @@
           "tema": "Verificación de balance de masas",
           "destino": "existente",
           "tronco": [
-            "B60-C20"
+            "B106-C20"
           ]
         }
       ]
@@ -214,8 +214,8 @@
           "tema": "Presión de cabina",
           "destino": "existente",
           "tronco": [
-            "B60-C02",
-            "B60-C03"
+            "B106-C02",
+            "B106-C03"
           ]
         },
         {
@@ -223,8 +223,8 @@
           "tema": "Fracciones de oxígeno",
           "destino": "existente",
           "tronco": [
-            "B60-C03",
-            "B60-C05"
+            "B106-C03",
+            "B106-C05"
           ]
         },
         {
@@ -232,7 +232,7 @@
           "tema": "Concentración de CO2",
           "destino": "existente",
           "tronco": [
-            "B60-C04"
+            "B106-C04"
           ]
         },
         {
@@ -240,7 +240,7 @@
           "tema": "Control de humedad",
           "destino": "existente",
           "tronco": [
-            "B60-C07"
+            "B106-C07"
           ]
         },
         {
@@ -249,9 +249,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Control de partículas y polvo respirable en cabina",
-            "necesidad": "Aporta filtración HEPA y control de partículas en microgravedad y gravedad parcial; B60-C03 no aborda aerosoles ni polvo respirable."
+            "necesidad": "Aporta filtración HEPA y control de partículas en microgravedad y gravedad parcial; B106-C03 no aborda aerosoles ni polvo respirable."
           }
         },
         {
@@ -260,7 +260,7 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Calidad del aire y límites de exposición en cabina",
             "necesidad": "Introduce índices y límites de exposición (SMAC) para evaluar la salubridad del aire; ninguna clase actual define criterios de calidad del aire."
           }
@@ -271,9 +271,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Sensores de presión, gases y humedad para monitoreo de hábitat",
-            "necesidad": "Enseña la selección, calibración y redundancia de sensores atmosféricos de cabina; B53-C04 trata sensores de actitud, no ambientales."
+            "necesidad": "Enseña la selección, calibración y redundancia de sensores atmosféricos de cabina; B87-C04 trata sensores de actitud, no ambientales."
           }
         },
         {
@@ -284,7 +284,7 @@
             "area": "A08",
             "bloque": "nuevo: Seguridad y respuesta a emergencias en hábitats",
             "titulo": "Detección, localización y respuesta a fugas de presión",
-            "necesidad": "Cubre el análisis de tasa de fuga, localización y respuesta; B60-C02 trata solo la presurización."
+            "necesidad": "Cubre el análisis de tasa de fuga, localización y respuesta; B106-C02 trata solo la presurización."
           }
         },
         {
@@ -295,7 +295,7 @@
             "area": "A08",
             "bloque": "nuevo: Seguridad y respuesta a emergencias en hábitats",
             "titulo": "Alarmas y procedimientos ante desviaciones atmosféricas",
-            "necesidad": "Aporta la lógica de alarmas, umbrales y procedimientos ante desviaciones de O2, CO2 o presión; B60-C17 solo trata incendios."
+            "necesidad": "Aporta la lógica de alarmas, umbrales y procedimientos ante desviaciones de O2, CO2 o presión; B106-C17 solo trata incendios."
           }
         },
         {
@@ -303,10 +303,10 @@
           "tema": "Control de atmósfera de hábitat",
           "destino": "existente",
           "tronco": [
-            "B60-C03",
-            "B60-C04",
-            "B60-C05",
-            "B60-C07"
+            "B106-C03",
+            "B106-C04",
+            "B106-C05",
+            "B106-C07"
           ]
         }
       ]
@@ -320,8 +320,8 @@
           "tema": "Fuentes de agua",
           "destino": "existente",
           "tronco": [
-            "B40-C02",
-            "B40-C03"
+            "B59-C02",
+            "B59-C03"
           ]
         },
         {
@@ -329,8 +329,8 @@
           "tema": "Balance hídrico",
           "destino": "existente",
           "tronco": [
-            "B60-C06",
-            "B60-C20"
+            "B106-C06",
+            "B106-C20"
           ]
         },
         {
@@ -339,9 +339,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Tratamiento de aguas grises en hábitats",
-            "necesidad": "Cubre filtración, biorreactores y desinfección de aguas grises; B60-C06 trata el reciclaje en general sin esta etapa."
+            "necesidad": "Cubre filtración, biorreactores y desinfección de aguas grises; B106-C06 trata el reciclaje en general sin esta etapa."
           }
         },
         {
@@ -350,9 +350,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Tratamiento de orina y recuperación de agua",
-            "necesidad": "Enseña destilación y procesos de recuperación a partir de orina; no hay clase específica y B60-C10 solo trata residuos humanos en general."
+            "necesidad": "Enseña destilación y procesos de recuperación a partir de orina; no hay clase específica y B106-C10 solo trata residuos humanos en general."
           }
         },
         {
@@ -360,7 +360,7 @@
           "tema": "Condensación de humedad",
           "destino": "existente",
           "tronco": [
-            "B60-C07"
+            "B106-C07"
           ]
         },
         {
@@ -368,8 +368,8 @@
           "tema": "Purificación por membranas",
           "destino": "existente",
           "tronco": [
-            "B40-C07",
-            "B60-C06"
+            "B59-C07",
+            "B106-C06"
           ]
         },
         {
@@ -378,9 +378,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Monitoreo microbiológico de agua y superficies del hábitat",
-            "necesidad": "B59-C11 trata el microbioma humano; ninguna clase enseña el muestreo, límites y control microbiológico del agua potable y superficies."
+            "necesidad": "B105-C11 trata el microbioma humano; ninguna clase enseña el muestreo, límites y control microbiológico del agua potable y superficies."
           }
         },
         {
@@ -389,9 +389,9 @@
           "destino": "nueva",
           "propuesta": {
             "area": "A08",
-            "bloque": "B60",
+            "bloque": "B106",
             "titulo": "Almacenamiento y distribución de agua potable en hábitats",
-            "necesidad": "Aporta tanques, presurización y prevención de contaminación del agua almacenada; no cubierto en B60-C06."
+            "necesidad": "Aporta tanques, presurización y prevención de contaminación del agua almacenada; no cubierto en B106-C06."
           }
         },
         {
@@ -399,8 +399,8 @@
           "tema": "Pérdidas del circuito",
           "destino": "existente",
           "tronco": [
-            "B40-C15",
-            "B60-C20"
+            "B59-C15",
+            "B106-C20"
           ]
         },
         {
@@ -408,8 +408,8 @@
           "tema": "Cálculo de recuperación total",
           "destino": "existente",
           "tronco": [
-            "B60-C06",
-            "B60-C20"
+            "B106-C06",
+            "B106-C20"
           ]
         }
       ]
@@ -423,7 +423,7 @@
           "tema": "Necesidades nutricionales",
           "destino": "existente",
           "tronco": [
-            "B59-C12"
+            "B105-C12"
           ]
         },
         {
@@ -434,7 +434,7 @@
             "area": "A08",
             "bloque": "nuevo: Sistemas bioregenerativos y cultivo en hábitats",
             "titulo": "Cultivos hidropónicos para hábitats",
-            "necesidad": "B60-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos."
+            "necesidad": "B106-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos."
           }
         },
         {
@@ -445,7 +445,7 @@
             "area": "A08",
             "bloque": "nuevo: Sistemas bioregenerativos y cultivo en hábitats",
             "titulo": "Iluminación de cultivos con LED y espectro de crecimiento",
-            "necesidad": "Aporta espectro, fotoperiodo y eficiencia energética para plantas; B60-C13 trata la iluminación humana."
+            "necesidad": "Aporta espectro, fotoperiodo y eficiencia energética para plantas; B106-C13 trata la iluminación humana."
           }
         },
         {
@@ -467,7 +467,7 @@
             "area": "A08",
             "bloque": "nuevo: Sistemas bioregenerativos y cultivo en hábitats",
             "titulo": "Sistemas aeropónicos",
-            "necesidad": "Cubre cultivo con raíces en niebla, ventajas de masa y agua; no cubierto en B60-C12."
+            "necesidad": "Cubre cultivo con raíces en niebla, ventajas de masa y agua; no cubierto en B106-C12."
           }
         },
         {
@@ -489,7 +489,7 @@
             "area": "A08",
             "bloque": "nuevo: Sistemas bioregenerativos y cultivo en hábitats",
             "titulo": "Balance de agua y evapotranspiración en cultivos",
-            "necesidad": "Enseña a cuantificar el agua de cultivo y su recuperación; B60-C06 trata solo reciclaje de agua humana."
+            "necesidad": "Enseña a cuantificar el agua de cultivo y su recuperación; B106-C06 trata solo reciclaje de agua humana."
           }
         },
         {
@@ -500,7 +500,7 @@
             "area": "A08",
             "bloque": "nuevo: Sistemas bioregenerativos y cultivo en hábitats",
             "titulo": "Bioseguridad e inocuidad alimentaria en hábitats",
-            "necesidad": "Cubre patógenos, microbioma de plantas y control higiénico de cultivos; B59-C11 trata solo el microbioma humano."
+            "necesidad": "Cubre patógenos, microbioma de plantas y control higiénico de cultivos; B105-C11 trata solo el microbioma humano."
           }
         },
         {
@@ -508,7 +508,7 @@
           "tema": "Almacenamiento y conservación",
           "destino": "existente",
           "tronco": [
-            "B60-C11"
+            "B106-C11"
           ]
         },
         {
@@ -516,9 +516,9 @@
           "tema": "Plan de alimentos de hábitat",
           "destino": "existente",
           "tronco": [
-            "B60-C11",
-            "B60-C12",
-            "B59-C12"
+            "B106-C11",
+            "B106-C12",
+            "B105-C12"
           ]
         }
       ]
@@ -532,8 +532,8 @@
           "tema": "Flujo de radiación externa",
           "destino": "existente",
           "tronco": [
-            "B59-C06",
-            "B60-C14"
+            "B105-C06",
+            "B106-C14"
           ]
         },
         {
@@ -541,8 +541,8 @@
           "tema": "Blindaje por regolito",
           "destino": "existente",
           "tronco": [
-            "B40-C11",
-            "B60-C14"
+            "B59-C11",
+            "B106-C14"
           ]
         },
         {
@@ -550,8 +550,8 @@
           "tema": "Protección por materiales",
           "destino": "existente",
           "tronco": [
-            "B60-C14",
-            "B50-C05"
+            "B106-C14",
+            "B84-C05"
           ]
         },
         {
@@ -559,7 +559,7 @@
           "tema": "Micrometeoritos",
           "destino": "existente",
           "tronco": [
-            "B60-C15"
+            "B106-C15"
           ]
         },
         {
@@ -567,10 +567,10 @@
           "tema": "Tormentas solares",
           "destino": "existente",
           "tronco": [
-            "B23-C12",
-            "B23-C13",
-            "B23-C14",
-            "B59-C06"
+            "B30-C12",
+            "B30-C13",
+            "B30-C14",
+            "B105-C06"
           ]
         },
         {
@@ -578,9 +578,9 @@
           "tema": "Protección térmica de hábitat",
           "destino": "existente",
           "tronco": [
-            "B60-C08",
-            "B51-C06",
-            "B51-C07"
+            "B106-C08",
+            "B85-C06",
+            "B85-C07"
           ]
         },
         {
@@ -591,7 +591,7 @@
             "area": "A08",
             "bloque": "nuevo: Seguridad y respuesta a emergencias en hábitats",
             "titulo": "Refugio contra tormentas solares y compartimentos de protección",
-            "necesidad": "Aporta el diseño de refugios con blindaje reforzado y su uso operativo; B60-C14 trata protección en general."
+            "necesidad": "Aporta el diseño de refugios con blindaje reforzado y su uso operativo; B106-C14 trata protección en general."
           }
         },
         {
@@ -602,7 +602,7 @@
             "area": "A08",
             "bloque": "nuevo: Seguridad y respuesta a emergencias en hábitats",
             "titulo": "Despresurización: escenarios, tiempos y respuesta",
-            "necesidad": "Enseña análisis de despresurización rápida y lenta y el tiempo de respuesta; no cubierto en B60 ni B58."
+            "necesidad": "Enseña análisis de despresurización rápida y lenta y el tiempo de respuesta; no cubierto en B106 ni B104."
           }
         },
         {
@@ -610,9 +610,9 @@
           "tema": "Control de contaminación",
           "destino": "existente",
           "tronco": [
-            "B56-C04",
-            "B37-C17",
-            "B51-C16"
+            "B90-C04",
+            "B56-C17",
+            "B85-C16"
           ]
         },
         {
@@ -623,7 +623,7 @@
             "area": "A08",
             "bloque": "nuevo: Seguridad y respuesta a emergencias en hábitats",
             "titulo": "Matriz de riesgo ambiental de un hábitat",
-            "necesidad": "Cubre identificación y clasificación de riesgos (radiación, impacto, despresurización) con matriz; B49-C16 trata riesgos técnicos genéricos."
+            "necesidad": "Cubre identificación y clasificación de riesgos (radiación, impacto, despresurización) con matriz; B83-C16 trata riesgos técnicos genéricos."
           }
         }
       ]
@@ -640,7 +640,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Antropometría y dimensionamiento para tripulación",
-            "necesidad": "Aporta datos antropométricos y de postura en gravedad parcial para dimensionar espacios; B60-C16 trata ergonomía solo en microgravedad."
+            "necesidad": "Aporta datos antropométricos y de postura en gravedad parcial para dimensionar espacios; B106-C16 trata ergonomía solo en microgravedad."
           }
         },
         {
@@ -651,7 +651,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Asignación de volúmenes habitables por tripulante",
-            "necesidad": "Enseña el volumen neto habitable y su distribución; no cubierto en B60-C01."
+            "necesidad": "Enseña el volumen neto habitable y su distribución; no cubierto en B106-C01."
           }
         },
         {
@@ -673,7 +673,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Privacidad y espacios personales",
-            "necesidad": "Cubre diseño de cabinas y privacidad acústica y visual; B58-C18 trata convivencia pero no el diseño."
+            "necesidad": "Cubre diseño de cabinas y privacidad acústica y visual; B104-C18 trata convivencia pero no el diseño."
           }
         },
         {
@@ -692,8 +692,8 @@
           "tema": "Iluminación saludable",
           "destino": "existente",
           "tronco": [
-            "B60-C13",
-            "B59-C08"
+            "B106-C13",
+            "B105-C08"
           ]
         },
         {
@@ -701,7 +701,7 @@
           "tema": "Gestión de fatiga",
           "destino": "existente",
           "tronco": [
-            "B58-C17"
+            "B104-C17"
           ]
         },
         {
@@ -712,7 +712,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Diseño de espacios de trabajo, mantenimiento y laboratorio",
-            "necesidad": "Cubre estaciones de trabajo, accesibilidad a equipos y mantenimiento en hábitat; B60-C16 solo ergonomía en microgravedad."
+            "necesidad": "Cubre estaciones de trabajo, accesibilidad a equipos y mantenimiento en hábitat; B106-C16 solo ergonomía en microgravedad."
           }
         },
         {
@@ -720,9 +720,9 @@
           "tema": "Diseño psicológico de convivencia",
           "destino": "existente",
           "tronco": [
-            "B58-C18",
-            "B58-C16",
-            "B59-C09"
+            "B104-C18",
+            "B104-C16",
+            "B105-C09"
           ]
         },
         {
@@ -733,7 +733,7 @@
             "area": "A08",
             "bloque": "nuevo: Arquitectura y factores humanos de hábitats extraterrestres",
             "titulo": "Evaluación de factores humanos de maquetas y distribuciones",
-            "necesidad": "Enseña pruebas con maquetas y listas de verificación de habitabilidad; no cubierto en B58 ni B60."
+            "necesidad": "Enseña pruebas con maquetas y listas de verificación de habitabilidad; no cubierto en B104 ni B106."
           }
         }
       ]
@@ -747,8 +747,8 @@
           "tema": "Necesidades de una tripulación",
           "destino": "existente",
           "tronco": [
-            "B58-C02",
-            "B60-C01"
+            "B104-C02",
+            "B106-C01"
           ]
         },
         {
@@ -756,8 +756,8 @@
           "tema": "Requisitos estructurales",
           "destino": "existente",
           "tronco": [
-            "B60-C01",
-            "B50-C09"
+            "B106-C01",
+            "B84-C09"
           ]
         },
         {
@@ -765,8 +765,8 @@
           "tema": "Balance de energía",
           "destino": "existente",
           "tronco": [
-            "B60-C20",
-            "B52-C19"
+            "B106-C20",
+            "B86-C19"
           ]
         },
         {
@@ -774,8 +774,8 @@
           "tema": "Balance hídrico",
           "destino": "existente",
           "tronco": [
-            "B60-C20",
-            "B60-C06"
+            "B106-C20",
+            "B106-C06"
           ]
         },
         {
@@ -783,8 +783,8 @@
           "tema": "Balance de atmósfera",
           "destino": "existente",
           "tronco": [
-            "B60-C20",
-            "B60-C03"
+            "B106-C20",
+            "B106-C03"
           ]
         },
         {
@@ -792,8 +792,8 @@
           "tema": "Logística y suministros",
           "destino": "existente",
           "tronco": [
-            "B40-C19",
-            "B61-C19"
+            "B59-C19",
+            "B97-C19"
           ]
         },
         {
@@ -801,8 +801,8 @@
           "tema": "Interfaces de sistemas",
           "destino": "existente",
           "tronco": [
-            "B49-C08",
-            "B56-C05"
+            "B83-C08",
+            "B90-C05"
           ]
         },
         {
@@ -810,9 +810,9 @@
           "tema": "Seguridad y emergencias",
           "destino": "existente",
           "tronco": [
-            "B58-C13",
-            "B60-C17",
-            "B57-C15"
+            "B104-C13",
+            "B106-C17",
+            "B96-C15"
           ]
         },
         {
@@ -820,8 +820,8 @@
           "tema": "Simulación integrada",
           "destino": "existente",
           "tronco": [
-            "B60-C20",
-            "B58-C20"
+            "B106-C20",
+            "B104-C20"
           ]
         },
         {
@@ -829,8 +829,8 @@
           "tema": "Revisión final de hábitat",
           "destino": "existente",
           "tronco": [
-            "B49-C13",
-            "B49-C14"
+            "B83-C13",
+            "B83-C14"
           ]
         }
       ]
