@@ -1,7 +1,7 @@
 # B13-C08 — Escalas UTC, TAI, TT y TDB
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C07 — Relojes atómicos y frecuencia](../B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) · [Siguiente: B13-C09 — Segundos intercalares y cronología →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [← Anterior: B13-C07 — Relojes atómicos y frecuencia](../B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) · [Siguiente: B13-C09 — Segundos intercalares y cronología →](../B13-C09-segundos-intercalares-y-cronologia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ UTC es la hora civil con saltos; TAI es continua; TT es TAI más `32,184 s`; TDB
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B13-C07 — Relojes atómicos y frecuencia](../B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C09 — Segundos intercalares y cronología →](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md#b13-c09)
+[← Anterior: B13-C07 — Relojes atómicos y frecuencia](../B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) · [📚 Bloque B13](../../../tronco-comun/B13-metrologia-tiempo-y-mediciones-cientificas.md) · [Siguiente: B13-C09 — Segundos intercalares y cronología →](../B13-C09-segundos-intercalares-y-cronologia/CLASE.md)
 <!-- /nav -->

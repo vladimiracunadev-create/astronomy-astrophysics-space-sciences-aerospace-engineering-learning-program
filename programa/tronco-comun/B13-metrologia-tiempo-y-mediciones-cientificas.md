@@ -57,20 +57,20 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b13-c06"></a>[B13-C06](../clases/B13/B13-C06-patrones-de-longitud-y-tiempo/CLASE.md) | Patrones de longitud y tiempo | Cómo se realizan el metro y el segundo, y cómo un error de frecuencia se convierte en error de distancia. | Cuaderno de equivalencias tiempo–distancia |
 | <a id="b13-c07"></a>[B13-C07](../clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) | Relojes atómicos y frecuencia | Estabilidad de frecuencia, desviación de Allan y tipos de ruido de un reloj. | Curva de estabilidad con su interpretación |
 | <a id="b13-c08"></a>[B13-C08](../clases/B13/B13-C08-escalas-utc-tai-tt-y-tdb/CLASE.md) | Escalas UTC, TAI, TT y TDB | Qué mide cada escala, cómo se convierten y qué usa una efeméride. | Conversión verificada entre cuatro escalas |
-| <a id="b13-c09"></a>B13-C09 | Segundos intercalares y cronología | Fechas julianas, el calendario y el tratamiento de los segundos intercalares. | Conversor de fechas con prueba de segundo intercalar |
+| <a id="b13-c09"></a>[B13-C09](../clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md) | Segundos intercalares y cronología | Fechas julianas, el calendario y el tratamiento de los segundos intercalares. | Conversor de fechas con prueba de segundo intercalar |
 
 ### Tramo 3 · Tiempo sidéreo y referencias terrestres
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b13-c10"></a>B13-C10 | Tiempo sidéreo local y terrestre | Ángulo de rotación terrestre, día sidéreo y ángulo horario local de una dirección celeste. | Tabla de ángulo de rotación y culminación |
-| <a id="b13-c11"></a>B13-C11 | Sistemas de referencia terrestres | ITRS/ITRF, elipsoide, conversión geodésica ↔ cartesiana y velocidad por rotación. | Conversor de coordenadas con ida y vuelta |
+| <a id="b13-c10"></a>[B13-C10](../clases/B13/B13-C10-tiempo-sidereo-local-y-terrestre/CLASE.md) | Tiempo sidéreo local y terrestre | Ángulo de rotación terrestre, día sidéreo y ángulo horario local de una dirección celeste. | Tabla de ángulo de rotación y culminación |
+| <a id="b13-c11"></a>[B13-C11](../clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md) | Sistemas de referencia terrestres | ITRS/ITRF, elipsoide, conversión geodésica ↔ cartesiana y velocidad por rotación. | Conversor de coordenadas con ida y vuelta |
 
 ### Tramo 4 · Incertidumbre cuantificada
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b13-c12"></a>B13-C12 | Incertidumbre expandida | Incertidumbre típica, factor de cobertura y nivel de confianza; qué asume `k = 2`. | Reporte con `U` y cobertura simulada |
+| <a id="b13-c12"></a>[B13-C12](../clases/B13/B13-C12-incertidumbre-expandida/CLASE.md) | Incertidumbre expandida | Incertidumbre típica, factor de cobertura y nivel de confianza; qué asume `k = 2`. | Reporte con `U` y cobertura simulada |
 | <a id="b13-c13"></a>B13-C13 | Presupuestos de incertidumbre | Propagación de varianzas, coeficientes de sensibilidad y contribuciones dominantes. | Presupuesto de una medida indirecta |
 | <a id="b13-c14"></a>B13-C14 | Repetibilidad y reproducibilidad | Condiciones de repetibilidad y reproducibilidad; separar variación intra e inter laboratorio. | Estudio de dos operadores |
 
