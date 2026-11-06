@@ -55,15 +55,15 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 | <a id="b16-c06"></a>[B16-C06](../clases/B16/B16-C06-diagramas-de-bloques/CLASE.md) | Diagramas de bloques | Serie, paralelo y realimentación; L, S y T; derivada sobre el error o la medida. | Reducción comentada |
 | <a id="b16-c07"></a>[B16-C07](../clases/B16/B16-C07-realimentacion-y-estabilidad/CLASE.md) | Realimentación y estabilidad | Estabilidad por polos; P sobre doble integrador; sensibilidad; efecto del retardo. | Dossier de estabilidad |
 | <a id="b16-c08"></a>[B16-C08](../clases/B16/B16-C08-criterio-de-routh-hurwitz/CLASE.md) | Criterio de Routh-Hurwitz | Arreglo de Routh, ganancia crítica y casos especiales. | Tabla de estabilidad paramétrica |
-| <a id="b16-c09"></a>B16-C09 | Lugar de las raíces | Trayectoria de los polos con la ganancia: asíntotas, ruptura, cruce. | Ficha de lugar de las raíces |
-| <a id="b16-c10"></a>B16-C10 | Diagramas de Bode y Nyquist | Respuesta en frecuencia, márgenes de ganancia y fase, criterio de Nyquist, margen de retardo. | Informe de márgenes |
+| <a id="b16-c09"></a>[B16-C09](../clases/B16/B16-C09-lugar-de-las-raices/CLASE.md) | Lugar de las raíces | Trayectoria de los polos con la ganancia: asíntotas, ruptura, cruce. | Ficha de lugar de las raíces |
+| <a id="b16-c10"></a>[B16-C10](../clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md) | Diagramas de Bode y Nyquist | Respuesta en frecuencia, márgenes de ganancia y fase, criterio de Nyquist, margen de retardo. | Informe de márgenes |
 
 ### Tramo 3 · PID
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b16-c11"></a>B16-C11 | Control proporcional integral derivativo | Acción P, I y D; error estacionario ante perturbación; límite de Ki. | Comparación PD frente a PID |
-| <a id="b16-c12"></a>B16-C12 | Sintonía de controladores PID | Ganancia última (Ziegler–Nichols), colocación de polos y compromisos de sintonía. | Informe de sintonía |
+| <a id="b16-c11"></a>[B16-C11](../clases/B16/B16-C11-control-proporcional-integral-derivativo/CLASE.md) | Control proporcional integral derivativo | Acción P, I y D; error estacionario ante perturbación; límite de Ki. | Comparación PD frente a PID |
+| <a id="b16-c12"></a>[B16-C12](../clases/B16/B16-C12-sintonia-de-controladores-pid/CLASE.md) | Sintonía de controladores PID | Ganancia última (Ziegler–Nichols), colocación de polos y compromisos de sintonía. | Informe de sintonía |
 
 ### Tramo 4 · Control en espacio de estados
 

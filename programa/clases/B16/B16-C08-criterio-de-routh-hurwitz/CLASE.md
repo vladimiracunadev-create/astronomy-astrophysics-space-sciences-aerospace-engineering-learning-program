@@ -1,7 +1,7 @@
 # B16-C08 — Criterio de Routh-Hurwitz
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C07 — Realimentación y estabilidad](../B16-C07-realimentacion-y-estabilidad/CLASE.md) · [Siguiente: B16-C09 — Lugar de las raíces →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [← Anterior: B16-C07 — Realimentación y estabilidad](../B16-C07-realimentacion-y-estabilidad/CLASE.md) · [Siguiente: B16-C09 — Lugar de las raíces →](../B16-C09-lugar-de-las-raices/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ El criterio de Routh–Hurwitz cuenta las raíces del semiplano derecho a partir
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B16-C07 — Realimentación y estabilidad](../B16-C07-realimentacion-y-estabilidad/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C09 — Lugar de las raíces →](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md#b16-c09)
+[← Anterior: B16-C07 — Realimentación y estabilidad](../B16-C07-realimentacion-y-estabilidad/CLASE.md) · [📚 Bloque B16](../../../tronco-comun/B16-sistemas-dinamicos-y-control-automatico.md) · [Siguiente: B16-C09 — Lugar de las raíces →](../B16-C09-lugar-de-las-raices/CLASE.md)
 <!-- /nav -->
