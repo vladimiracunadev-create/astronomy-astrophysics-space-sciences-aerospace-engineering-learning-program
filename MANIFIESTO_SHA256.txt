@@ -7893,6 +7893,7 @@ bebffb5f8eafaa0d46ae84e16b7db9fc021144bd51185204cc79b9ebeff734b1  .claude/worktr
 fc5155fd710d82c776152611eab8a1b6af1891f0ddcbea28c5e03c0bce9a9ee2  .claude/worktrees/objective-roentgen-f51087/programa/clases/B09/B09-C04-reglas-de-derivacion/CLASE.md
 13560d20e3bb9b186ae46087ffebd7a31461bbd6801e6c9e11428f07422455ff  .claude/worktrees/objective-roentgen-f51087/programa/clases/B09/B09-C04-reglas-de-derivacion/FICHA_EDITORIAL.md
 20404b75be418e928e76432e0a53d0bb76e20df0e4f523b8c4e79e213a752d27  .claude/worktrees/objective-roentgen-f51087/programa/clases/B09/B09-C04-reglas-de-derivacion/reglas_y_marea.py
+50a7774b9b8a7dde4bbc966e60d7437552aea69395ca4fe06e8dd4f11c2b9e4f  .claude/worktrees/objective-roentgen-f51087/programa/clases/B09/B09-C05-derivadas-trigonometricas/CLASE.md
 a8126ab6f154a912698ac4c14d395a632d0742914f62e8b915606ccaa3d8a113  .claude/worktrees/objective-roentgen-f51087/programa/clases/B09/B09-C05-derivadas-trigonometricas/seguimiento_de_estrella.py
 fd0dea4dd8e08f41d55a6db3507e9a625d06537b8c7aff756a082f7b7205b10a  .claude/worktrees/objective-roentgen-f51087/programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 12e2c051acdf5e8f590edb3a729dfc92bf337b009c1e7ced6970d01b0213da2b  .claude/worktrees/objective-roentgen-f51087/programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
