@@ -22,7 +22,15 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
+<<<<<<< HEAD
 Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 290 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+=======
+<<<<<<< HEAD
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 286 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+=======
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 248 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+>>>>>>> 5249d0f (feat: add B20-C01..C04 literature search, analysis plan and preregistration, peer review, scientific article writing)
+>>>>>>> 244a791 (feat: add B20-C01..C04 literature search, analysis plan and preregistration, peer review, scientific article writing)
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -486,10 +494,10 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *Bloque nuevo (4 clases): Búsqueda bibliográfica sistemática y gestión de referencias; Diseño de un plan de análisis y preregistro; Revisión por pares y respuesta a árbitros…*
 
-- **B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias.** *Programada.* Ninguna clase enseña a buscar, filtrar y registrar literatura con ADS y arXiv de forma sistemática y reproducible.
-- **B20-C02 — Diseño de un plan de análisis y preregistro.** *Programada.* B12 cubre técnicas estadísticas; falta planificar el análisis completo antes de ver los datos y documentar decisiones.
-- **B20-C03 — Revisión por pares y respuesta a árbitros.** *Programada.* Ninguna clase explica el proceso de arbitraje ni cómo responder críticas de manera constructiva y documentada.
-- **B20-C04 — Redacción de un artículo científico.** *Programada.* B124-C19 trata propuestas de misión; falta la estructura, el estilo y la presentación de resultados en un artículo.
+- **B20-C01 — Búsqueda bibliográfica sistemática y gestión de referencias.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña a buscar, filtrar y registrar literatura con ADS y arXiv de forma sistemática y reproducible.
+- **B20-C02 — Diseño de un plan de análisis y preregistro.** *Texto redactado, pendiente de revisión.* B12 cubre técnicas estadísticas; falta planificar el análisis completo antes de ver los datos y documentar decisiones.
+- **B20-C03 — Revisión por pares y respuesta a árbitros.** *Texto redactado, pendiente de revisión.* Ninguna clase explica el proceso de arbitraje ni cómo responder críticas de manera constructiva y documentada.
+- **B20-C04 — Redacción de un artículo científico.** *Texto redactado, pendiente de revisión.* B124-C19 trata propuestas de misión; falta la estructura, el estilo y la presentación de resultados en un artículo.
 
 ### B21 — Métodos numéricos para EDP y fluidos computacionales
 
