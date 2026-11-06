@@ -8,7 +8,7 @@
 4. avanza cuando puedas presentar la evidencia indicada;
 5. conserva resultados, retroalimentación y revisiones en un portafolio.
 
-Mientras las unidades permanezcan en E0, el catálogo sirve para planificar y auditar cobertura, no para estudiar una clase terminada.
+Mientras las unidades permanezcan en E0, el catálogo sirve para planificar y auditar cobertura. Las 397 clases de A01 y A02 ya tienen texto, ejercicios y laboratorio, pero siguen pendientes de revisión disciplinar y de aprobación del autor: sirven para estudiar con ese aviso, no como clases terminadas.
 
 ## Para diseñar contenidos
 

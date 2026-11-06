@@ -1,6 +1,6 @@
 # Estado verificable
 
-**Fecha de verificación:** 5 de noviembre de 2026 · **Versión documental:** `0.1.0`
+**Fecha de verificación:** 6 de noviembre de 2026 · **Versión documental:** `0.2.0`
 
 ## Resumen
 
@@ -16,7 +16,7 @@
 | Clases en E0 | todas las del programa | catálogo |
 | Clases con texto redactado (A01, B01–B08) | 160 de 160; B01-C01 aprobada por el autor, las otras 159 pendientes de aprobación; ninguna con revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (A02, B09–B23) | 237 de 237 (160 de la línea base y 77 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
-| Clases programadas (citadas, ubicadas, sin redactar) | 797 | `catalogo/v0.2.0/clases_programadas.jsonl` |
+| Clases programadas (citadas y ubicadas) | 797: 77 de A02 ya tienen texto y 720 siguen sin redactar | `catalogo/v0.2.0/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |
 | Régimen de contenido original | CC BY-NC-SA 4.0 | `LICENSE-CONTENT.md` |
@@ -37,7 +37,7 @@
 - exactitud científica de las futuras clases;
 - lectura completa, vigencia o conformidad de las fuentes preliminares;
 - prerrequisitos clase por clase;
-- ejercicios, soluciones, laboratorios o simulaciones de las clases aún no redactadas (las 160 de A01 en `programa/clases/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa; 144 de 146 scripts de laboratorio se ejecutaron sin error el 2026-11-05 en un equipo sin `astropy` (los otros 2 requieren esa biblioteca o comparan versiones declaradas); las fuentes enciclopédicas y divulgativas de B02, B04 y B08 se reemplazaron o se rotularon (quedan secundarias o divulgativas, por ejemplo en B02-C17, y una fuente académica pendiente sobre el calendario mapuche en B02-C01));
+- ejercicios, soluciones, laboratorios o simulaciones de las clases aún no redactadas (las 397 de A01 y A02 en `programa/clases/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa; los laboratorios de A02 se ejecutaron según los informes de sus sesiones de redacción y no se ha repetido esa ejecución de forma independiente; 144 de 146 scripts de laboratorio se ejecutaron sin error el 2026-11-05 en un equipo sin `astropy` (los otros 2 requieren esa biblioteca o comparan versiones declaradas); las fuentes enciclopédicas y divulgativas de B02, B04 y B08 se reemplazaron o se rotularon (quedan secundarias o divulgativas, por ejemplo en B02-C17, y una fuente académica pendiente sobre el calendario mapuche en B02-C01));
 - accesibilidad de contenidos todavía inexistentes;
 - equivalencias de horas, créditos, títulos o certificaciones;
 - revisión disciplinar externa o pilotaje con estudiantes;

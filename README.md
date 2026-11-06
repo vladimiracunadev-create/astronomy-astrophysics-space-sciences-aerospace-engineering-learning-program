@@ -45,10 +45,10 @@ Es una arquitectura curricular única y extensible: **un solo conjunto de clases
 | Áreas | 12 |
 | Bloques | 133 (64 de la línea base y 69 nuevos programados) |
 | Clases de la línea base en el tronco | 1.280 |
-| Clases programadas (citadas, ubicadas y justificadas; **no redactadas**) | 797 |
+| Clases programadas (citadas, ubicadas y justificadas) | 797, de las cuales 77 (todas de A02) ya tienen texto y 720 siguen **sin redactar** |
 | **Clases del programa** | **2.077** |
 | Rutas profesionales (recorridos sobre áreas y bloques) | 24 |
-| Clases con texto redactado, pendientes de revisión (A01) | 160 |
+| Clases con texto redactado, pendientes de revisión (A01 y A02) | 397 (160 de A01 y 237 de A02) |
 | **Clases completamente redactadas y verificadas** | **0** |
 
 ## 🧮 Cómo se organiza y cuánto suma
