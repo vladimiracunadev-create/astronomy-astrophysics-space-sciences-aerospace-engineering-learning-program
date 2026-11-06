@@ -1,7 +1,7 @@
 # B17-C08 — Interpretabilidad con consistencia física
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [← Anterior: B17-C07 — Validación fuera de distribución](../B17-C07-validacion-fuera-de-distribucion/CLASE.md) · [Siguiente: B17-C09 — Prevención de fuga de datos →](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md#b17-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [← Anterior: B17-C07 — Validación fuera de distribución](../B17-C07-validacion-fuera-de-distribucion/CLASE.md) · [Siguiente: B17-C09 — Prevención de fuga de datos →](../B17-C09-prevencion-de-fuga-de-datos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ La importancia por permutación mide cuánto depende un modelo de una variable, 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B17-C07 — Validación fuera de distribución](../B17-C07-validacion-fuera-de-distribucion/CLASE.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [Siguiente: B17-C09 — Prevención de fuga de datos →](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md#b17-c09)
+[← Anterior: B17-C07 — Validación fuera de distribución](../B17-C07-validacion-fuera-de-distribucion/CLASE.md) · [📚 Bloque B17](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md) · [Siguiente: B17-C09 — Prevención de fuga de datos →](../B17-C09-prevencion-de-fuga-de-datos/CLASE.md)
 <!-- /nav -->

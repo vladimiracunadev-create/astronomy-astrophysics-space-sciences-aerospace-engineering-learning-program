@@ -1,7 +1,7 @@
 # B18-C01 — Procesos, hilos y concurrencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [← Anterior: B17-C12 — Evaluación de modelos: precisión, exhaustividad y falsos positivos](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md#b17-c12) · [Siguiente: B18-C02 — Paso de mensajes con MPI →](../B18-C02-paso-de-mensajes-con-mpi/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [← Anterior: B17-C12 — Evaluación de modelos: precisión, exhaustividad y falsos positivos](../../B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md) · [Siguiente: B18-C02 — Paso de mensajes con MPI →](../B18-C02-paso-de-mensajes-con-mpi/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Un proceso tiene memoria propia y un hilo comparte la de su proceso; el GIL de C
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B17-C12 — Evaluación de modelos: precisión, exhaustividad y falsos positivos](../../../tronco-comun/B17-aprendizaje-automatico-cientifico.md#b17-c12) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [Siguiente: B18-C02 — Paso de mensajes con MPI →](../B18-C02-paso-de-mensajes-con-mpi/CLASE.md)
+[← Anterior: B17-C12 — Evaluación de modelos: precisión, exhaustividad y falsos positivos](../../B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md) · [📚 Bloque B18](../../../tronco-comun/B18-computacion-de-alto-rendimiento.md) · [Siguiente: B18-C02 — Paso de mensajes con MPI →](../B18-C02-paso-de-mensajes-con-mpi/CLASE.md)
 <!-- /nav -->
