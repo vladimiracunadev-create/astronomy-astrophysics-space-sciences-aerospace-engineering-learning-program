@@ -1,7 +1,7 @@
 # B09-C12 — Teorema fundamental del cálculo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C11 — Integrales definidas](../B09-C11-integrales-definidas/CLASE.md) · [Siguiente: B09-C13 — Áreas y volúmenes por integración →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [← Anterior: B09-C11 — Integrales definidas](../B09-C11-integrales-definidas/CLASE.md) · [Siguiente: B09-C13 — Áreas y volúmenes por integración →](../B09-C13-areas-y-volumenes-por-integracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ El teorema fundamental une derivada e integral: el total acumulado es la diferen
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B09-C11 — Integrales definidas](../B09-C11-integrales-definidas/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C13 — Áreas y volúmenes por integración →](../../../tronco-comun/B09-calculo-diferencial-e-integral.md#b09-c13)
+[← Anterior: B09-C11 — Integrales definidas](../B09-C11-integrales-definidas/CLASE.md) · [📚 Bloque B09](../../../tronco-comun/B09-calculo-diferencial-e-integral.md) · [Siguiente: B09-C13 — Áreas y volúmenes por integración →](../B09-C13-areas-y-volumenes-por-integracion/CLASE.md)
 <!-- /nav -->
