@@ -1,7 +1,7 @@
 # B14-C04 — Unidades y constantes con Astropy
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C03 — Análisis numérico con SciPy](../B14-C03-analisis-numerico-con-scipy/CLASE.md) · [Siguiente: B14-C05 — Tablas astronómicas y catálogos →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [← Anterior: B14-C03 — Análisis numérico con SciPy](../B14-C03-analisis-numerico-con-scipy/CLASE.md) · [Siguiente: B14-C05 — Tablas astronómicas y catálogos →](../B14-C05-tablas-astronomicas-y-catalogos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ Las unidades deben viajar con el número y las conversiones ocurrir en la fronte
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B14-C03 — Análisis numérico con SciPy](../B14-C03-analisis-numerico-con-scipy/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C05 — Tablas astronómicas y catálogos →](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md#b14-c05)
+[← Anterior: B14-C03 — Análisis numérico con SciPy](../B14-C03-analisis-numerico-con-scipy/CLASE.md) · [📚 Bloque B14](../../../tronco-comun/B14-computacion-cientifica-y-ciencia-abierta.md) · [Siguiente: B14-C05 — Tablas astronómicas y catálogos →](../B14-C05-tablas-astronomicas-y-catalogos/CLASE.md)
 <!-- /nav -->
