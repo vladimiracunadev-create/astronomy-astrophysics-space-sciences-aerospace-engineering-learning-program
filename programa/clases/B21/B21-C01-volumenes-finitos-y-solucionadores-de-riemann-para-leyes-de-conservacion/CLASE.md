@@ -1,7 +1,7 @@
 # B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [← Anterior: B20-C04 — Redacción de un artículo científico](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md#b20-c04) · [Siguiente: B21-C02 — Ecuación de onda: esquemas y dispersión numérica →](../B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [← Anterior: B20-C04 — Redacción de un artículo científico](../../B20/B20-C04-redaccion-de-un-articulo-cientifico/CLASE.md) · [Siguiente: B21-C02 — Ecuación de onda: esquemas y dispersión numérica →](../B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -364,5 +364,5 @@ Un esquema de volúmenes finitos conserva porque cada flujo se resta de un lado 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B20-C04 — Redacción de un artículo científico](../../../tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md#b20-c04) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [Siguiente: B21-C02 — Ecuación de onda: esquemas y dispersión numérica →](../B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md)
+[← Anterior: B20-C04 — Redacción de un artículo científico](../../B20/B20-C04-redaccion-de-un-articulo-cientifico/CLASE.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [Siguiente: B21-C02 — Ecuación de onda: esquemas y dispersión numérica →](../B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md)
 <!-- /nav -->

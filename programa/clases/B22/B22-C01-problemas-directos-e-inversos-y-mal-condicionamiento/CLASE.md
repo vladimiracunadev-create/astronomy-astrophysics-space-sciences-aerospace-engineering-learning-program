@@ -1,7 +1,7 @@
 # B22-C01 — Problemas directos e inversos y mal condicionamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B21-C05 — Mallas adaptativas (AMR)](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md#b21-c05) · [Siguiente: B22-C02 — Regularización de Tikhonov →](../B22-C02-regularizacion-de-tikhonov/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [← Anterior: B21-C05 — Mallas adaptativas (AMR)](../../B21/B21-C05-mallas-adaptativas-amr/CLASE.md) · [Siguiente: B22-C02 — Regularización de Tikhonov →](../B22-C02-regularizacion-de-tikhonov/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -328,5 +328,5 @@ Un problema inverso busca la causa desde el efecto. Hadamard pide existencia, un
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B21-C05 — Mallas adaptativas (AMR)](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md#b21-c05) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B22-C02 — Regularización de Tikhonov →](../B22-C02-regularizacion-de-tikhonov/CLASE.md)
+[← Anterior: B21-C05 — Mallas adaptativas (AMR)](../../B21/B21-C05-mallas-adaptativas-amr/CLASE.md) · [📚 Bloque B22](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md) · [Siguiente: B22-C02 — Regularización de Tikhonov →](../B22-C02-regularizacion-de-tikhonov/CLASE.md)
 <!-- /nav -->

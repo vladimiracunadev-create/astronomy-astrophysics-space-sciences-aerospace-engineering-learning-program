@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 299 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 308 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -495,11 +495,11 @@ Los lenguajes cuantitativos del programa: cálculo, álgebra lineal, simulación
 
 *Bloque nuevo (5 clases): Volúmenes finitos y solucionadores de Riemann para leyes de conservación; Ecuación de onda: esquemas y dispersión numérica; Ecuación de Poisson: relajación y multigrid…*
 
-- **B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación.** *Programada.* Esquemas conservativos para MHD y fluidos compresibles; B11-C14 solo cubre diferencias finitas y B11-C13 no desarrolla leyes hiperbólicas.
-- **B21-C02 — Ecuación de onda: esquemas y dispersión numérica.** *Programada.* Esquemas explícitos para ondas y su error de fase; B11-C13 solo presenta las EDP en general.
-- **B21-C03 — Ecuación de Poisson: relajación y multigrid.** *Programada.* Solucionadores iterativos del problema elíptico (potencial gravitatorio y electrostático); no cubierto.
-- **B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional.** *Programada.* Formulación incompresible y compresible discretizada; ninguna clase del tronco trata CFD.
-- **B21-C05 — Mallas adaptativas (AMR).** *Programada.* Refinamiento adaptativo guiado por error; B11 trata mallas fijas.
+- **B21-C01 — Volúmenes finitos y solucionadores de Riemann para leyes de conservación.** *Texto redactado, pendiente de revisión.* Esquemas conservativos para MHD y fluidos compresibles; B11-C14 solo cubre diferencias finitas y B11-C13 no desarrolla leyes hiperbólicas.
+- **B21-C02 — Ecuación de onda: esquemas y dispersión numérica.** *Texto redactado, pendiente de revisión.* Esquemas explícitos para ondas y su error de fase; B11-C13 solo presenta las EDP en general.
+- **B21-C03 — Ecuación de Poisson: relajación y multigrid.** *Texto redactado, pendiente de revisión.* Solucionadores iterativos del problema elíptico (potencial gravitatorio y electrostático); no cubierto.
+- **B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional.** *Texto redactado, pendiente de revisión.* Formulación incompresible y compresible discretizada; ninguna clase del tronco trata CFD.
+- **B21-C05 — Mallas adaptativas (AMR).** *Texto redactado, pendiente de revisión.* Refinamiento adaptativo guiado por error; B11 trata mallas fijas.
 
 ### B22 — Problemas inversos y estimación de modelos
 

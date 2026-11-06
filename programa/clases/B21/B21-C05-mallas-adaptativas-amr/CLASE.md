@@ -1,7 +1,7 @@
 # B21-C05 — Mallas adaptativas (AMR)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [← Anterior: B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional](../B21-C04-ecuaciones-de-navier-stokes-y-dinamica-de-fluidos-computacional/CLASE.md) · [Siguiente: B22-C01 — Problemas directos e inversos y mal condicionamiento →](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md#b22-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [← Anterior: B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional](../B21-C04-ecuaciones-de-navier-stokes-y-dinamica-de-fluidos-computacional/CLASE.md) · [Siguiente: B22-C01 — Problemas directos e inversos y mal condicionamiento →](../../B22/B22-C01-problemas-directos-e-inversos-y-mal-condicionamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -323,5 +323,5 @@ La malla adaptativa refina donde un criterio de error lo pide, usa restricción 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional](../B21-C04-ecuaciones-de-navier-stokes-y-dinamica-de-fluidos-computacional/CLASE.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [Siguiente: B22-C01 — Problemas directos e inversos y mal condicionamiento →](../../../tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md#b22-c01)
+[← Anterior: B21-C04 — Ecuaciones de Navier-Stokes y dinámica de fluidos computacional](../B21-C04-ecuaciones-de-navier-stokes-y-dinamica-de-fluidos-computacional/CLASE.md) · [📚 Bloque B21](../../../tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md) · [Siguiente: B22-C01 — Problemas directos e inversos y mal condicionamiento →](../../B22/B22-C01-problemas-directos-e-inversos-y-mal-condicionamiento/CLASE.md)
 <!-- /nav -->
