@@ -1,7 +1,7 @@
 # B30-C10 — Viento solar y heliosfera
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [← Anterior: B30-C09 — Magnetohidrodinámica](../B30-C09-magnetohidrodinamica/CLASE.md) · [Siguiente: B30-C11 — Reconexión magnética →](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md#b30-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [← Anterior: B30-C09 — Magnetohidrodinámica](../B30-C09-magnetohidrodinamica/CLASE.md) · [Siguiente: B30-C11 — Reconexión magnética →](../B30-C11-reconexion-magnetica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -323,5 +323,5 @@ El viento de Parker a 1,5 MK pasa por `c_s` a `4,59 R_☉`, llega a `562 km/s` a
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B30-C09 — Magnetohidrodinámica](../B30-C09-magnetohidrodinamica/CLASE.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [Siguiente: B30-C11 — Reconexión magnética →](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md#b30-c11)
+[← Anterior: B30-C09 — Magnetohidrodinámica](../B30-C09-magnetohidrodinamica/CLASE.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [Siguiente: B30-C11 — Reconexión magnética →](../B30-C11-reconexion-magnetica/CLASE.md)
 <!-- /nav -->

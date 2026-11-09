@@ -66,34 +66,34 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b30-c10"></a>[B30-C10](../clases/B30/B30-C10-viento-solar-y-heliosfera/CLASE.md) | Viento solar y heliosfera | Solución transónica de Parker y espiral magnética. | Ficha del viento solar |
-| <a id="b30-c11"></a>B30-C11 | Reconexión magnética | Difusión resistiva, tasa de Sweet–Parker y energía liberada. | Ficha de reconexión |
-| <a id="b30-c12"></a>B30-C12 | Erupciones y fulguraciones solares | Clases de rayos X, ley de potencias y efecto Neupert. | Ficha de fulguraciones |
-| <a id="b30-c13"></a>B30-C13 | Eyecciones de masa coronal | Modelo de arrastre y tiempo de tránsito a 1 au. | Ficha de una eyección de masa coronal |
-| <a id="b30-c14"></a>B30-C14 | Choques y aceleración de partículas | Saltos de Rankine–Hugoniot y aceleración difusiva. | Ficha de un choque |
+| <a id="b30-c11"></a>[B30-C11](../clases/B30/B30-C11-reconexion-magnetica/CLASE.md) | Reconexión magnética | Difusión resistiva, tasa de Sweet–Parker y energía liberada. | Ficha de reconexión |
+| <a id="b30-c12"></a>[B30-C12](../clases/B30/B30-C12-erupciones-y-fulguraciones-solares/CLASE.md) | Erupciones y fulguraciones solares | Clases de rayos X, ley de potencias y efecto Neupert. | Ficha de fulguraciones |
+| <a id="b30-c13"></a>[B30-C13](../clases/B30/B30-C13-eyecciones-de-masa-coronal/CLASE.md) | Eyecciones de masa coronal | Modelo de arrastre y tiempo de tránsito a 1 au. | Ficha de una eyección de masa coronal |
+| <a id="b30-c14"></a>[B30-C14](../clases/B30/B30-C14-choques-y-aceleracion-de-particulas/CLASE.md) | Choques y aceleración de partículas | Saltos de Rankine–Hugoniot y aceleración difusiva. | Ficha de un choque |
 
 ### Tramo 4 · Magnetosfera, tormentas e impactos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b30-c15"></a>B30-C15 | Magnetosfera terrestre | Distancia de la magnetopausa y órbita geoestacionaria. | Ficha de la magnetosfera |
-| <a id="b30-c16"></a>B30-C16 | Cinturones de Van Allen | Latitud de espejo, periodo de rebote y radio de giro. | Ficha de partículas atrapadas |
-| <a id="b30-c17"></a>B30-C17 | Auroras y corrientes ionosféricas | Capa de Chapman y energía de las líneas auroral. | Ficha de la ionosfera y las auroras |
-| <a id="b30-c18"></a>B30-C18 | Tormentas geomagnéticas | Ecuación de Burton e integración de una tormenta. | Ficha de una tormenta |
-| <a id="b30-c19"></a>B30-C19 | Impactos del clima espacial | Corrientes inducidas y niveles de retorno. | Ficha de impactos |
+| <a id="b30-c15"></a>[B30-C15](../clases/B30/B30-C15-magnetosfera-terrestre/CLASE.md) | Magnetosfera terrestre | Distancia de la magnetopausa y órbita geoestacionaria. | Ficha de la magnetosfera |
+| <a id="b30-c16"></a>[B30-C16](../clases/B30/B30-C16-cinturones-de-van-allen/CLASE.md) | Cinturones de Van Allen | Latitud de espejo, periodo de rebote y radio de giro. | Ficha de partículas atrapadas |
+| <a id="b30-c17"></a>[B30-C17](../clases/B30/B30-C17-auroras-y-corrientes-ionosfericas/CLASE.md) | Auroras y corrientes ionosféricas | Capa de Chapman y energía de las líneas auroral. | Ficha de la ionosfera y las auroras |
+| <a id="b30-c18"></a>[B30-C18](../clases/B30/B30-C18-tormentas-geomagneticas/CLASE.md) | Tormentas geomagnéticas | Ecuación de Burton e integración de una tormenta. | Ficha de una tormenta |
+| <a id="b30-c19"></a>[B30-C19](../clases/B30/B30-C19-impactos-del-clima-espacial/CLASE.md) | Impactos del clima espacial | Corrientes inducidas y niveles de retorno. | Ficha de impactos |
 
 ### Tramo 5 · Alerta real
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b30-c20"></a>B30-C20 | Análisis de alerta solar real | Escalas oficiales G, S y R y clasificación de series. | Informe de alerta |
+| <a id="b30-c20"></a>[B30-C20](../clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md) | Análisis de alerta solar real | Escalas oficiales G, S y R y clasificación de series. | Informe de alerta |
 
 ### Tramo 6 · Ampliación `0.2.0`: radio, anillo de corriente e índices
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b30-c21"></a>B30-C21 | Radioemisión solar: estallidos de radio y su observación | Espectro dinámico, deriva de un estallido tipo III y velocidad del haz. | Ficha de un estallido de radio |
-| <a id="b30-c22"></a>B30-C22 | Anillo de corriente y corrientes magnetosféricas | Energía del dipolo y relación de Dessler–Parker–Sckopke. | Ficha del anillo de corriente |
-| <a id="b30-c23"></a>B30-C23 | Índices geomagnéticos Kp y Dst | Escala Kp de 28 valores y construcción del Dst. | Ficha de índices geomagnéticos |
+| <a id="b30-c21"></a>[B30-C21](../clases/B30/B30-C21-radioemision-solar-estallidos-de-radio-y-su-observacion/CLASE.md) | Radioemisión solar: estallidos de radio y su observación | Espectro dinámico, deriva de un estallido tipo III y velocidad del haz. | Ficha de un estallido de radio |
+| <a id="b30-c22"></a>[B30-C22](../clases/B30/B30-C22-anillo-de-corriente-y-corrientes-magnetosfericas/CLASE.md) | Anillo de corriente y corrientes magnetosféricas | Energía del dipolo y relación de Dessler–Parker–Sckopke. | Ficha del anillo de corriente |
+| <a id="b30-c23"></a>[B30-C23](../clases/B30/B30-C23-indices-geomagneticos-kp-y-dst/CLASE.md) | Índices geomagnéticos Kp y Dst | Escala Kp de 28 valores y construcción del Dst. | Ficha de índices geomagnéticos |
 
 ## 🧵 Hilos que atraviesan el bloque
 

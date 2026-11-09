@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 536 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 549 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -707,9 +707,9 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B30-C18 — Tormentas geomagnéticas.** Ubica «tormentas geomagnéticas» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B30-C19 — Impactos del clima espacial.** Describe los componentes principales de «impactos del clima espacial» y por qué son relevantes para esta disciplina.
 - **B30-C20 — Análisis de alerta solar real.** Presenta qué significa «análisis de alerta solar real», sus elementos esenciales y su función dentro de heliofísica y física de plasmas.
-- **B30-C21 — Radioemisión solar: estallidos de radio y su observación.** *Programada.* B30 trata erupciones y CME en general; ninguna clase enseña los tipos de estallido de radio solar (I-V), su espectro dinámico ni su observación con receptores de aficionado o SDR.
-- **B30-C22 — Anillo de corriente y corrientes magnetosféricas.** *Programada.* B30-C15 a C18 tratan magnetosfera y tormentas, pero ninguna explica el anillo de corriente ni su relación con el índice Dst.
-- **B30-C23 — Índices geomagnéticos Kp y Dst.** *Programada.* Definición, cálculo y uso de los índices; B30-C18 menciona tormentas sin enseñar los índices ni su construcción.
+- **B30-C21 — Radioemisión solar: estallidos de radio y su observación.** *Texto redactado, pendiente de revisión.* B30 trata erupciones y CME en general; ninguna clase enseña los tipos de estallido de radio solar (I-V), su espectro dinámico ni su observación con receptores de aficionado o SDR.
+- **B30-C22 — Anillo de corriente y corrientes magnetosféricas.** *Texto redactado, pendiente de revisión.* B30-C15 a C18 tratan magnetosfera y tormentas, pero ninguna explica el anillo de corriente ni su relación con el índice Dst.
+- **B30-C23 — Índices geomagnéticos Kp y Dst.** *Texto redactado, pendiente de revisión.* Definición, cálculo y uso de los índices; B30-C18 menciona tormentas sin enseñar los índices ni su construcción.
 
 ### B31 — Física cuántica, nuclear y astropartículas
 
