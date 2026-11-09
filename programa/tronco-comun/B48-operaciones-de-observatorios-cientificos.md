@@ -46,54 +46,54 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b48-c01"></a>B48-C01 | Observatorio como sistema socio-técnico | Eficiencia global como producto de factores y su verificación. | Ficha del observatorio como sistema |
-| <a id="b48-c02"></a>B48-C02 | Concesión de tiempo de observación | Reparto de horas por cuotas con dos métodos y horas efectivas por clima. | Ficha de la concesión de tiempo |
-| <a id="b48-c03"></a>B48-C03 | Propuestas científicas y criterios | Revisores ruidosos y correlación con el mérito verdadero. | Ficha de propuestas y criterios |
-| <a id="b48-c04"></a>B48-C04 | Planificación por visibilidad | Altitud, masa de aire y horas de visibilidad por dos vías. | Ficha de planificación por visibilidad |
+| <a id="b48-c01"></a>[B48-C01](../clases/B48/B48-C01-observatorio-como-sistema-socio-tecnico/CLASE.md) | Observatorio como sistema socio-técnico | Eficiencia global como producto de factores y su verificación. | Ficha del observatorio como sistema |
+| <a id="b48-c02"></a>[B48-C02](../clases/B48/B48-C02-concesion-de-tiempo-de-observacion/CLASE.md) | Concesión de tiempo de observación | Reparto de horas por cuotas con dos métodos y horas efectivas por clima. | Ficha de la concesión de tiempo |
+| <a id="b48-c03"></a>[B48-C03](../clases/B48/B48-C03-propuestas-cientificas-y-criterios/CLASE.md) | Propuestas científicas y criterios | Revisores ruidosos y correlación con el mérito verdadero. | Ficha de propuestas y criterios |
+| <a id="b48-c04"></a>[B48-C04](../clases/B48/B48-C04-planificacion-por-visibilidad/CLASE.md) | Planificación por visibilidad | Altitud, masa de aire y horas de visibilidad por dos vías. | Ficha de planificación por visibilidad |
 
 ### Tramo 2 · Sitio y entorno
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b48-c05"></a>B48-C05 | Ventanas atmosféricas | Recta de Bouguer, extinción y fracción de banda útil. | Ficha de las ventanas atmosféricas |
-| <a id="b48-c06"></a>B48-C06 | Meteorología de observatorios | Punto de rocío, viento de Ornstein-Uhlenbeck y cierre con histéresis. | Ficha de meteorología del observatorio |
-| <a id="b48-c07"></a>B48-C07 | Seguridad en instalaciones remotas | Autonomía de respaldo y probabilidad de corte más largo. | Ficha de seguridad en instalaciones remotas |
+| <a id="b48-c05"></a>[B48-C05](../clases/B48/B48-C05-ventanas-atmosfericas/CLASE.md) | Ventanas atmosféricas | Recta de Bouguer, extinción y fracción de banda útil. | Ficha de las ventanas atmosféricas |
+| <a id="b48-c06"></a>[B48-C06](../clases/B48/B48-C06-meteorologia-de-observatorios/CLASE.md) | Meteorología de observatorios | Punto de rocío, viento de Ornstein-Uhlenbeck y cierre con histéresis. | Ficha de meteorología del observatorio |
+| <a id="b48-c07"></a>[B48-C07](../clases/B48/B48-C07-seguridad-en-instalaciones-remotas/CLASE.md) | Seguridad en instalaciones remotas | Autonomía de respaldo y probabilidad de corte más largo. | Ficha de seguridad en instalaciones remotas |
 
 ### Tramo 3 · Telescopio automatizado
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b48-c08"></a>B48-C08 | Automatización de cúpulas | Azimut de cúpula por cuadrática y por bisección con descentrado. | Ficha de la automatización de cúpulas |
-| <a id="b48-c09"></a>B48-C09 | Control remoto de telescopios | Retardo de propagación, latencia y falsos disparos de vigilancia. | Ficha del control remoto |
-| <a id="b48-c10"></a>B48-C10 | Redes de instrumentos | Estimación de desfase de reloj con rutas asimétricas. | Ficha de la red de instrumentos |
+| <a id="b48-c08"></a>[B48-C08](../clases/B48/B48-C08-automatizacion-de-cupulas/CLASE.md) | Automatización de cúpulas | Azimut de cúpula por cuadrática y por bisección con descentrado. | Ficha de la automatización de cúpulas |
+| <a id="b48-c09"></a>[B48-C09](../clases/B48/B48-C09-control-remoto-de-telescopios/CLASE.md) | Control remoto de telescopios | Retardo de propagación, latencia y falsos disparos de vigilancia. | Ficha del control remoto |
+| <a id="b48-c10"></a>[B48-C10](../clases/B48/B48-C10-redes-de-instrumentos/CLASE.md) | Redes de instrumentos | Estimación de desfase de reloj con rutas asimétricas. | Ficha de la red de instrumentos |
 
 ### Tramo 4 · Calidad y calibración
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b48-c11"></a>B48-C11 | Calidad y clasificación de datos | Fracción de noches por clase de calidad, analítica y simulada. | Ficha de calidad y clasificación de datos |
-| <a id="b48-c12"></a>B48-C12 | Monitorización de seeing | Varianza de movimiento diferencial y r0 con su incertidumbre. | Ficha de la monitorización de seeing |
-| <a id="b48-c13"></a>B48-C13 | Calibraciones nocturnas | Curva de transferencia de fotones: ganancia y ruido de lectura. | Ficha de calibraciones nocturnas |
-| <a id="b48-c14"></a>B48-C14 | Mantenimiento preventivo | Costo por unidad de tiempo y reemplazo preventivo óptimo. | Ficha de mantenimiento preventivo |
-| <a id="b48-c15"></a>B48-C15 | Gestión de fallas de instrumentos | Disponibilidad MTBF/MTTR y redundancia 1 de 2. | Ficha de gestión de fallas |
+| <a id="b48-c11"></a>[B48-C11](../clases/B48/B48-C11-calidad-y-clasificacion-de-datos/CLASE.md) | Calidad y clasificación de datos | Fracción de noches por clase de calidad, analítica y simulada. | Ficha de calidad y clasificación de datos |
+| <a id="b48-c12"></a>[B48-C12](../clases/B48/B48-C12-monitorizacion-de-seeing/CLASE.md) | Monitorización de seeing | Varianza de movimiento diferencial y r0 con su incertidumbre. | Ficha de la monitorización de seeing |
+| <a id="b48-c13"></a>[B48-C13](../clases/B48/B48-C13-calibraciones-nocturnas/CLASE.md) | Calibraciones nocturnas | Curva de transferencia de fotones: ganancia y ruido de lectura. | Ficha de calibraciones nocturnas |
+| <a id="b48-c14"></a>[B48-C14](../clases/B48/B48-C14-mantenimiento-preventivo/CLASE.md) | Mantenimiento preventivo | Costo por unidad de tiempo y reemplazo preventivo óptimo. | Ficha de mantenimiento preventivo |
+| <a id="b48-c15"></a>[B48-C15](../clases/B48/B48-C15-gestion-de-fallas-de-instrumentos/CLASE.md) | Gestión de fallas de instrumentos | Disponibilidad MTBF/MTTR y redundancia 1 de 2. | Ficha de gestión de fallas |
 
 ### Tramo 5 · Datos y sociedad
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b48-c16"></a>B48-C16 | Procesamiento de datos en línea | Cola M/D/1 y tasa de datos de la reducción en línea. | Ficha del procesamiento en línea |
-| <a id="b48-c17"></a>B48-C17 | Gestión de archivos observacionales | SHA-256, CRC y probabilidad de colisión. | Ficha de la gestión de archivos |
-| <a id="b48-c18"></a>B48-C18 | Protección del cielo oscuro | Suma de brillos en magnitudes y tiempo de exposición limitado por cielo. | Ficha del cielo oscuro |
-| <a id="b48-c19"></a>B48-C19 | Divulgación y ciencia ciudadana | Voto mayoritario y ponderado de voluntarios. | Ficha de ciencia ciudadana |
-| <a id="b48-c20"></a>B48-C20 | Diseño de una campaña observacional profesional | Probabilidad de completar una campaña con noches despejadas. | Ficha de la campaña observacional |
+| <a id="b48-c16"></a>[B48-C16](../clases/B48/B48-C16-procesamiento-de-datos-en-linea/CLASE.md) | Procesamiento de datos en línea | Cola M/D/1 y tasa de datos de la reducción en línea. | Ficha del procesamiento en línea |
+| <a id="b48-c17"></a>[B48-C17](../clases/B48/B48-C17-gestion-de-archivos-observacionales/CLASE.md) | Gestión de archivos observacionales | SHA-256, CRC y probabilidad de colisión. | Ficha de la gestión de archivos |
+| <a id="b48-c18"></a>[B48-C18](../clases/B48/B48-C18-proteccion-del-cielo-oscuro/CLASE.md) | Protección del cielo oscuro | Suma de brillos en magnitudes y tiempo de exposición limitado por cielo. | Ficha del cielo oscuro |
+| <a id="b48-c19"></a>[B48-C19](../clases/B48/B48-C19-divulgacion-y-ciencia-ciudadana/CLASE.md) | Divulgación y ciencia ciudadana | Voto mayoritario y ponderado de voluntarios. | Ficha de ciencia ciudadana |
+| <a id="b48-c20"></a>[B48-C20](../clases/B48/B48-C20-diseno-de-una-campana-observacional-profesional/CLASE.md) | Diseño de una campaña observacional profesional | Probabilidad de completar una campaña con noches despejadas. | Ficha de la campaña observacional |
 
 ### Tramo 6 · Software de observatorio
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b48-c21"></a>B48-C21 | Protocolos estándar de control instrumental (ASCOM e INDI) | Adaptador común sobre dos protocolos y latencia de sondeo. | Ficha de protocolos de control instrumental |
-| <a id="b48-c22"></a>B48-C22 | Control automático del enfocador y autoenfoque | Curva en V, ajuste cuadrático y mínimo de enfoque. | Ficha del autoenfoque |
-| <a id="b48-c23"></a>B48-C23 | Observabilidad del software de observatorio: registros, métricas y alertas | Falsas alarmas k de m y retardo de detección. | Ficha de observabilidad del software |
+| <a id="b48-c21"></a>[B48-C21](../clases/B48/B48-C21-protocolos-estandar-de-control-instrumental-ascom-e-indi/CLASE.md) | Protocolos estándar de control instrumental (ASCOM e INDI) | Adaptador común sobre dos protocolos y latencia de sondeo. | Ficha de protocolos de control instrumental |
+| <a id="b48-c22"></a>[B48-C22](../clases/B48/B48-C22-control-automatico-del-enfocador-y-autoenfoque/CLASE.md) | Control automático del enfocador y autoenfoque | Curva en V, ajuste cuadrático y mínimo de enfoque. | Ficha del autoenfoque |
+| <a id="b48-c23"></a>[B48-C23](../clases/B48/B48-C23-observabilidad-del-software-de-observatorio-registros-metricas-y-alertas/CLASE.md) | Observabilidad del software de observatorio: registros, métricas y alertas | Falsas alarmas k de m y retardo de detección. | Ficha de observabilidad del software |
 
 ## 🧵 Hilos que atraviesan el bloque
 

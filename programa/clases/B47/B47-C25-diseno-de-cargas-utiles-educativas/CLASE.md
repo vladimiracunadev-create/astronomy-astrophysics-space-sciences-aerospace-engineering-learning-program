@@ -1,7 +1,7 @@
 # B47-C25 — Diseño de cargas útiles educativas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B47-C24 — Instrumentos de plasma y campos in situ](../B47-C24-instrumentos-de-plasma-y-campos-in-situ/CLASE.md) · [Siguiente: B48-C01 — Observatorio como sistema socio-técnico →](../../../tronco-comun/B48-operaciones-de-observatorios-cientificos.md#b48-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B47-C24 — Instrumentos de plasma y campos in situ](../B47-C24-instrumentos-de-plasma-y-campos-in-situ/CLASE.md) · [Siguiente: B48-C01 — Observatorio como sistema socio-técnico →](../../B48/B48-C01-observatorio-como-sistema-socio-tecnico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,5 +320,5 @@ El diseño ilustrativo da GSD `17,2 m`, balance `+1.18 W`, `2,6` imágenes por p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B47-C24 — Instrumentos de plasma y campos in situ](../B47-C24-instrumentos-de-plasma-y-campos-in-situ/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B48-C01 — Observatorio como sistema socio-técnico →](../../../tronco-comun/B48-operaciones-de-observatorios-cientificos.md#b48-c01)
+[← Anterior: B47-C24 — Instrumentos de plasma y campos in situ](../B47-C24-instrumentos-de-plasma-y-campos-in-situ/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B48-C01 — Observatorio como sistema socio-técnico →](../../B48/B48-C01-observatorio-como-sistema-socio-tecnico/CLASE.md)
 <!-- /nav -->

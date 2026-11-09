@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 828 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 851 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -1095,9 +1095,9 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 - **B48-C18 — Protección del cielo oscuro.** Caracteriza «protección del cielo oscuro», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
 - **B48-C19 — Divulgación y ciencia ciudadana.** Describe los componentes principales de «divulgación y ciencia ciudadana» y por qué son relevantes para esta disciplina.
 - **B48-C20 — Diseño de una campaña observacional profesional.** Introduce «diseño de una campaña observacional profesional» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B48-C21 — Protocolos estándar de control instrumental (ASCOM e INDI).** *Programada.* B48-C09 trata control remoto; falta la capa de protocolos estándar para integrar equipos de distintos fabricantes.
-- **B48-C22 — Control automático del enfocador y autoenfoque.** *Programada.* Ninguna clase trata el control del foco ni los algoritmos de autoenfoque durante la noche.
-- **B48-C23 — Observabilidad del software de observatorio: registros, métricas y alertas.** *Programada.* B88-C08 trata telemetría de satélites; falta registrar y vigilar el software de un observatorio.
+- **B48-C21 — Protocolos estándar de control instrumental (ASCOM e INDI).** *Texto redactado, pendiente de revisión.* B48-C09 trata control remoto; falta la capa de protocolos estándar para integrar equipos de distintos fabricantes.
+- **B48-C22 — Control automático del enfocador y autoenfoque.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el control del foco ni los algoritmos de autoenfoque durante la noche.
+- **B48-C23 — Observabilidad del software de observatorio: registros, métricas y alertas.** *Texto redactado, pendiente de revisión.* B88-C08 trata telemetría de satélites; falta registrar y vigilar el software de un observatorio.
 
 ### B49 — Antenas y receptores de radioastronomía
 
