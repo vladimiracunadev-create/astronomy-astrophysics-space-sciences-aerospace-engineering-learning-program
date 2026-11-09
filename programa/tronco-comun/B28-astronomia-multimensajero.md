@@ -74,15 +74,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b28-c12"></a>[B28-C12](../clases/B28/B28-C12-modelos-de-emision-conjunta/CLASE.md) | Modelos de emisión conjunta | Chorro estructurado y brillo según el ángulo de visión. | Ficha de emisión conjunta según el ángulo |
-| <a id="b28-c13"></a>B28-C13 | Estadística de significancia | Valor p a sigma, factor de pruebas y combinación de valores p. | Ficha de significancia combinada |
-| <a id="b28-c14"></a>B28-C14 | Ruidos instrumentales | Ruido coloreado, espectro de potencia y filtro de blanqueo. | Ficha de ruido y blanqueo |
+| <a id="b28-c13"></a>[B28-C13](../clases/B28/B28-C13-estadistica-de-significancia/CLASE.md) | Estadística de significancia | Valor p a sigma, factor de pruebas y combinación de valores p. | Ficha de significancia combinada |
+| <a id="b28-c14"></a>[B28-C14](../clases/B28/B28-C14-ruidos-instrumentales/CLASE.md) | Ruidos instrumentales | Ruido coloreado, espectro de potencia y filtro de blanqueo. | Ficha de ruido y blanqueo |
 
 ### Tramo 5 · Seguimiento, redes y archivos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b28-c15"></a>B28-C15 | Búsqueda de contrapartidas ópticas | Teselado de una región de localización y probabilidad acumulada. | Plan de teselado con su cobertura |
-| <a id="b28-c16"></a>B28-C16 | Redes internacionales de alertas | Visibilidad desde una red de sitios y disponibilidad combinada. | Ficha de cobertura de una red |
+| <a id="b28-c15"></a>[B28-C15](../clases/B28/B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md) | Búsqueda de contrapartidas ópticas | Teselado de una región de localización y probabilidad acumulada. | Plan de teselado con su cobertura |
+| <a id="b28-c16"></a>[B28-C16](../clases/B28/B28-C16-redes-internacionales-de-alertas/CLASE.md) | Redes internacionales de alertas | Visibilidad desde una red de sitios y disponibilidad combinada. | Ficha de cobertura de una red |
 | <a id="b28-c17"></a>B28-C17 | Archivos de eventos multimensajero | Registro con identificador, versión y huella; validación y duplicados. | Archivo validado con informe de errores |
 
 ### Tramo 6 · Interpretación y caso integrado

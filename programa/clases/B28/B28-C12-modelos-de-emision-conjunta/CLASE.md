@@ -1,7 +1,7 @@
 # B28-C12 — Modelos de emisión conjunta
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C11 — Coincidencias entre observatorios](../B28-C11-coincidencias-entre-observatorios/CLASE.md) · [Siguiente: B28-C13 — Estadística de significancia →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C11 — Coincidencias entre observatorios](../B28-C11-coincidencias-entre-observatorios/CLASE.md) · [Siguiente: B28-C13 — Estadística de significancia →](../B28-C13-estadistica-de-significancia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ El brillo de un chorro estructurado cae de forma monótona con el ángulo de vis
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B28-C11 — Coincidencias entre observatorios](../B28-C11-coincidencias-entre-observatorios/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C13 — Estadística de significancia →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c13)
+[← Anterior: B28-C11 — Coincidencias entre observatorios](../B28-C11-coincidencias-entre-observatorios/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C13 — Estadística de significancia →](../B28-C13-estadistica-de-significancia/CLASE.md)
 <!-- /nav -->
