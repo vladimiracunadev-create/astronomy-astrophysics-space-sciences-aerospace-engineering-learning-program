@@ -1,7 +1,7 @@
 # B35-C05 — Simulación de plasmas por partículas (PIC)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [← Anterior: B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov](../B35-C04-colisiones-regimen-cinetico-y-ecuacion-de-vlasov/CLASE.md) · [Siguiente: B35-C06 — Mediciones in situ de plasmas espaciales →](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md#b35-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [← Anterior: B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov](../B35-C04-colisiones-regimen-cinetico-y-ecuacion-de-vlasov/CLASE.md) · [Siguiente: B35-C06 — Mediciones in situ de plasmas espaciales →](../B35-C06-mediciones-in-situ-de-plasmas-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ El código PIC reproduce la frecuencia de plasma y la tasa de dos haces con erro
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov](../B35-C04-colisiones-regimen-cinetico-y-ecuacion-de-vlasov/CLASE.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [Siguiente: B35-C06 — Mediciones in situ de plasmas espaciales →](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md#b35-c06)
+[← Anterior: B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov](../B35-C04-colisiones-regimen-cinetico-y-ecuacion-de-vlasov/CLASE.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [Siguiente: B35-C06 — Mediciones in situ de plasmas espaciales →](../B35-C06-mediciones-in-situ-de-plasmas-espaciales/CLASE.md)
 <!-- /nav -->

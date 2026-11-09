@@ -53,16 +53,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b35-c05"></a>[B35-C05](../clases/B35/B35-C05-simulacion-de-plasmas-por-particulas-pic/CLASE.md) | Simulación de plasmas por partículas (PIC) | PIC 1D: oscilación y dos haces. | Ficha de la simulación PIC |
-| <a id="b35-c06"></a>B35-C06 | Mediciones in situ de plasmas espaciales | Momentos desde cuentas con ruido y truncamiento. | Ficha de las mediciones in situ |
+| <a id="b35-c06"></a>[B35-C06](../clases/B35/B35-C06-mediciones-in-situ-de-plasmas-espaciales/CLASE.md) | Mediciones in situ de plasmas espaciales | Momentos desde cuentas con ruido y truncamiento. | Ficha de las mediciones in situ |
 
 ### Tramo 3 · MHD, turbulencia y fronteras
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b35-c07"></a>B35-C07 | Congelamiento del flujo magnético y conservación en MHD ideal | Flujo, difusión y enlace magnético. | Ficha del flujo congelado |
-| <a id="b35-c08"></a>B35-C08 | Flujos de plasma estacionarios y balance de presiones | Lámina de Harris, tobera isoterma y magnetopausa. | Ficha del balance de presiones |
-| <a id="b35-c09"></a>B35-C09 | Turbulencia en plasmas y MHD | Espectros, estructura e intermitencia. | Ficha de la turbulencia |
-| <a id="b35-c10"></a>B35-C10 | Condiciones de frontera en modelos MHD | Reflexión en fronteras de una onda de Alfvén. | Ficha de las fronteras MHD |
+| <a id="b35-c07"></a>[B35-C07](../clases/B35/B35-C07-congelamiento-del-flujo-magnetico-y-conservacion-en-mhd-ideal/CLASE.md) | Congelamiento del flujo magnético y conservación en MHD ideal | Flujo, difusión y enlace magnético. | Ficha del flujo congelado |
+| <a id="b35-c08"></a>[B35-C08](../clases/B35/B35-C08-flujos-de-plasma-estacionarios-y-balance-de-presiones/CLASE.md) | Flujos de plasma estacionarios y balance de presiones | Lámina de Harris, tobera isoterma y magnetopausa. | Ficha del balance de presiones |
+| <a id="b35-c09"></a>[B35-C09](../clases/B35/B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md) | Turbulencia en plasmas y MHD | Espectros, estructura e intermitencia. | Ficha de la turbulencia |
+| <a id="b35-c10"></a>[B35-C10](../clases/B35/B35-C10-condiciones-de-frontera-en-modelos-mhd/CLASE.md) | Condiciones de frontera en modelos MHD | Reflexión en fronteras de una onda de Alfvén. | Ficha de las fronteras MHD |
 
 ## 🧵 Hilos que atraviesan el bloque
 
