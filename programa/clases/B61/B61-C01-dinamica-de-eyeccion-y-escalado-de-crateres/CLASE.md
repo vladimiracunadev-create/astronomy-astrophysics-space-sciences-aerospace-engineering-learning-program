@@ -1,7 +1,7 @@
 # B61-C01 — Dinámica de eyección y escalado de cráteres
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [← Anterior: B60-C04 — Balance químico gas-grano: modelos de tres fases](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md#b60-c04) · [Siguiente: B61-C02 — Cráteres simples: morfología y formación →](../B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [← Anterior: B60-C04 — Balance químico gas-grano: modelos de tres fases](../../B60/B60-C04-balance-quimico-gas-grano-modelos-de-tres-fases/CLASE.md) · [Siguiente: B61-C02 — Cráteres simples: morfología y formación →](../B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ El radio de un cráter sale de un grupo adimensional y de un exponente de acopla
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B60-C04 — Balance químico gas-grano: modelos de tres fases](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md#b60-c04) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [Siguiente: B61-C02 — Cráteres simples: morfología y formación →](../B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md)
+[← Anterior: B60-C04 — Balance químico gas-grano: modelos de tres fases](../../B60/B60-C04-balance-quimico-gas-grano-modelos-de-tres-fases/CLASE.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [Siguiente: B61-C02 — Cráteres simples: morfología y formación →](../B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md)
 <!-- /nav -->

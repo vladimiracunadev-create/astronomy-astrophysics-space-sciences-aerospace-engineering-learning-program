@@ -1,7 +1,7 @@
 # B60-C04 — Balance químico gas-grano: modelos de tres fases
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B60](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md) · [← Anterior: B60-C03 — Integración numérica de redes químicas rígidas](../B60-C03-integracion-numerica-de-redes-quimicas-rigidas/CLASE.md) · [Siguiente: B61-C01 — Dinámica de eyección y escalado de cráteres →](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md#b61-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B60](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md) · [← Anterior: B60-C03 — Integración numérica de redes químicas rígidas](../B60-C03-integracion-numerica-de-redes-quimicas-rigidas/CLASE.md) · [Siguiente: B61-C01 — Dinámica de eyección y escalado de cráteres →](../../B61/B61-C01-dinamica-de-eyeccion-y-escalado-de-crateres/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -340,5 +340,5 @@ Separar la superficie del manto cambia la predicción de calentamiento: a 25 K e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B60-C03 — Integración numérica de redes químicas rígidas](../B60-C03-integracion-numerica-de-redes-quimicas-rigidas/CLASE.md) · [📚 Bloque B60](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md) · [Siguiente: B61-C01 — Dinámica de eyección y escalado de cráteres →](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md#b61-c01)
+[← Anterior: B60-C03 — Integración numérica de redes químicas rígidas](../B60-C03-integracion-numerica-de-redes-quimicas-rigidas/CLASE.md) · [📚 Bloque B60](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md) · [Siguiente: B61-C01 — Dinámica de eyección y escalado de cráteres →](../../B61/B61-C01-dinamica-de-eyeccion-y-escalado-de-crateres/CLASE.md)
 <!-- /nav -->
