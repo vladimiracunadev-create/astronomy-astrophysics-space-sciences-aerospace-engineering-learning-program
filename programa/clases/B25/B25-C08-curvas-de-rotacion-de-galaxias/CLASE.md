@@ -1,7 +1,7 @@
 # B25-C08 — Curvas de rotación de galaxias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C07 — Dinámica de poblaciones estelares](../B25-C07-dinamica-de-poblaciones-estelares/CLASE.md) · [Siguiente: B25-C09 — Galaxias elípticas y espirales →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C07 — Dinámica de poblaciones estelares](../B25-C07-dinamica-de-poblaciones-estelares/CLASE.md) · [Siguiente: B25-C09 — Galaxias elípticas y espirales →](../B25-C09-galaxias-elipticas-y-espirales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Un disco estelar de `3,8 × 10¹⁰ M☉` solo explica el `0,62` de la velocidad
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B25-C07 — Dinámica de poblaciones estelares](../B25-C07-dinamica-de-poblaciones-estelares/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C09 — Galaxias elípticas y espirales →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c09)
+[← Anterior: B25-C07 — Dinámica de poblaciones estelares](../B25-C07-dinamica-de-poblaciones-estelares/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C09 — Galaxias elípticas y espirales →](../B25-C09-galaxias-elipticas-y-espirales/CLASE.md)
 <!-- /nav -->
