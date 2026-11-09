@@ -1,6 +1,7 @@
 # B44-C06 — Ruido de lectura
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C05 — Pozo lleno y rango dinámico](../B44-C05-pozo-lleno-y-rango-dinamico/CLASE.md) · [Siguiente: B44-C07 — Corriente oscura →](../B44-C07-corriente-oscura/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,4 +293,5 @@ Dos cuadros de bias dan `5,03 e⁻` frente a `5,00 e⁻` impuestos. Queda una pr
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C05 — Pozo lleno y rango dinámico](../B44-C05-pozo-lleno-y-rango-dinamico/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C07 — Corriente oscura →](../B44-C07-corriente-oscura/CLASE.md)
 <!-- /nav -->

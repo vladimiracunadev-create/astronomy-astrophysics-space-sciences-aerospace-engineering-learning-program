@@ -1,6 +1,7 @@
 # B44-C13 — Calibración con dark
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C12 — Calibración con bias](../B44-C12-calibracion-con-bias/CLASE.md) · [Siguiente: B44-C14 — Calibración con flat →](../B44-C14-calibracion-con-flat/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,4 +294,5 @@ El dark escalado desde `60 s` es compatible con el directo a `300 s` en media, p
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C12 — Calibración con bias](../B44-C12-calibracion-con-bias/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C14 — Calibración con flat →](../B44-C14-calibracion-con-flat/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B44-C02 — Sensores CCD
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C01 — Principios fotoeléctricos](../B44-C01-principios-fotoelectricos/CLASE.md) · [Siguiente: B44-C03 — Sensores CMOS →](../B44-C03-sensores-cmos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,4 +291,5 @@ Con `CTE = 0,99999` la esquina de un CCD de 2048 × 2048 pierde el 4 %. Queda un
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C01 — Principios fotoeléctricos](../B44-C01-principios-fotoelectricos/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C03 — Sensores CMOS →](../B44-C03-sensores-cmos/CLASE.md)
 <!-- /nav -->

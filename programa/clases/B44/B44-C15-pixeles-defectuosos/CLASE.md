@@ -1,6 +1,7 @@
 # B44-C15 — Píxeles defectuosos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C14 — Calibración con flat](../B44-C14-calibracion-con-flat/CLASE.md) · [Siguiente: B44-C16 — Ruido cósmico e identificación →](../B44-C16-ruido-cosmico-e-identificacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,4 +290,5 @@ La MAD detecta los `50` defectos sin falsos positivos y la reparación deja la m
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C14 — Calibración con flat](../B44-C14-calibracion-con-flat/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C16 — Ruido cósmico e identificación →](../B44-C16-ruido-cosmico-e-identificacion/CLASE.md)
 <!-- /nav -->

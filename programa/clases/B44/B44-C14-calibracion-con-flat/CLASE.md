@@ -1,6 +1,7 @@
 # B44-C14 — Calibración con flat
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C13 — Calibración con dark](../B44-C13-calibracion-con-dark/CLASE.md) · [Siguiente: B44-C15 — Píxeles defectuosos →](../B44-C15-pixeles-defectuosos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,4 +289,5 @@ Un flat de 80 cuadros reduce la no uniformidad de `0,0386` a `0,00738`, a pocos 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C13 — Calibración con dark](../B44-C13-calibracion-con-dark/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C15 — Píxeles defectuosos →](../B44-C15-pixeles-defectuosos/CLASE.md)
 <!-- /nav -->

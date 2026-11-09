@@ -1,6 +1,7 @@
 # B44-C03 — Sensores CMOS
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C02 — Sensores CCD](../B44-C02-sensores-ccd/CLASE.md) · [Siguiente: B44-C04 — Eficiencia cuántica espectral →](../B44-C04-eficiencia-cuantica-espectral/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,4 +293,5 @@ Un reinicio de 10 fF mete `40,17 e⁻`; el CDS lo deja en `2,85 e⁻`. Queda una
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C02 — Sensores CCD](../B44-C02-sensores-ccd/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C04 — Eficiencia cuántica espectral →](../B44-C04-eficiencia-cuantica-espectral/CLASE.md)
 <!-- /nav -->

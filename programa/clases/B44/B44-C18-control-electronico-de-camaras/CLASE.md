@@ -1,6 +1,7 @@
 # B44-C18 — Control electrónico de cámaras
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C17 — Escala de imagen y muestreo](../B44-C17-escala-de-imagen-y-muestreo/CLASE.md) · [Siguiente: B44-C19 — Formato FITS y metadatos →](../B44-C19-formato-fits-y-metadatos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,4 +302,5 @@ La lectura de `4,69 s` cuesta un `7,26 %` de tiempo muerto; con binning `2 × 2`
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C17 — Escala de imagen y muestreo](../B44-C17-escala-de-imagen-y-muestreo/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C19 — Formato FITS y metadatos →](../B44-C19-formato-fits-y-metadatos/CLASE.md)
 <!-- /nav -->

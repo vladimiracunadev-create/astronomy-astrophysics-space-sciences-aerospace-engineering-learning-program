@@ -1,6 +1,7 @@
 # B44-C11 — Tiempo de exposición
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C10 — No linealidad y saturación](../B44-C10-no-linealidad-y-saturacion/CLASE.md) · [Siguiente: B44-C12 — Calibración con bias →](../B44-C12-calibracion-con-bias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,4 +303,5 @@ La exposición mínima de `171,4 s` pierde un 3 % de SNR frente a un cuadro úni
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C10 — No linealidad y saturación](../B44-C10-no-linealidad-y-saturacion/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C12 — Calibración con bias →](../B44-C12-calibracion-con-bias/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B44-C19 — Formato FITS y metadatos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C18 — Control electrónico de cámaras](../B44-C18-control-electronico-de-camaras/CLASE.md) · [Siguiente: B44-C20 — Pipeline inicial de calibración de imágenes →](../B44-C20-pipeline-inicial-de-calibracion-de-imagenes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -286,4 +287,5 @@ Un archivo mínimo de `5760` bytes se lee igual por dos vías y conserva el valo
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C18 — Control electrónico de cámaras](../B44-C18-control-electronico-de-camaras/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C20 — Pipeline inicial de calibración de imágenes →](../B44-C20-pipeline-inicial-de-calibracion-de-imagenes/CLASE.md)
 <!-- /nav -->

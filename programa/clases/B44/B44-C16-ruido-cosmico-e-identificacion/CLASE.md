@@ -1,6 +1,7 @@
 # B44-C16 — Ruido cósmico e identificación
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C15 — Píxeles defectuosos](../B44-C15-pixeles-defectuosos/CLASE.md) · [Siguiente: B44-C17 — Escala de imagen y muestreo →](../B44-C17-escala-de-imagen-y-muestreo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,4 +288,5 @@ Con 5 cuadros se detectan los `540` impactos y la mediana limpia el apilado (`10
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C15 — Píxeles defectuosos](../B44-C15-pixeles-defectuosos/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C17 — Escala de imagen y muestreo →](../B44-C17-escala-de-imagen-y-muestreo/CLASE.md)
 <!-- /nav -->

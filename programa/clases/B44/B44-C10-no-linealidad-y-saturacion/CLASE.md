@@ -1,6 +1,7 @@
 # B44-C10 — No linealidad y saturación
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C09 — Ganancia electrónica](../B44-C09-ganancia-electronica/CLASE.md) · [Siguiente: B44-C11 — Tiempo de exposición →](../B44-C11-tiempo-de-exposicion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ Con `b = 1,5 × 10⁻⁶`, la respuesta se desvía un 1 % hacia `6667 ADU`, much
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C09 — Ganancia electrónica](../B44-C09-ganancia-electronica/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C11 — Tiempo de exposición →](../B44-C11-tiempo-de-exposicion/CLASE.md)
 <!-- /nav -->

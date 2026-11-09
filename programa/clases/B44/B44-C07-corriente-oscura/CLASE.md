@@ -1,6 +1,7 @@
 # B44-C07 — Corriente oscura
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C06 — Ruido de lectura](../B44-C06-ruido-de-lectura/CLASE.md) · [Siguiente: B44-C08 — Enfriamiento de detectores →](../B44-C08-enfriamiento-de-detectores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,4 +298,5 @@ En el modelo de juguete, 20 K menos reducen la oscuridad `6,34` veces. Queda una
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C06 — Ruido de lectura](../B44-C06-ruido-de-lectura/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C08 — Enfriamiento de detectores →](../B44-C08-enfriamiento-de-detectores/CLASE.md)
 <!-- /nav -->

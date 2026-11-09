@@ -1,6 +1,7 @@
 # B44-C17 — Escala de imagen y muestreo
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C16 — Ruido cósmico e identificación](../B44-C16-ruido-cosmico-e-identificacion/CLASE.md) · [Siguiente: B44-C18 — Control electrónico de cámaras →](../B44-C18-control-electronico-de-camaras/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ La escala de `0,464″/pix` muestrea bien un seeing de `1,5″` pero no la image
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C16 — Ruido cósmico e identificación](../B44-C16-ruido-cosmico-e-identificacion/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C18 — Control electrónico de cámaras →](../B44-C18-control-electronico-de-camaras/CLASE.md)
 <!-- /nav -->

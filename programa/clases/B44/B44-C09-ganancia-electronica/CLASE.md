@@ -1,6 +1,7 @@
 # B44-C09 — Ganancia electrónica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C08 — Enfriamiento de detectores](../B44-C08-enfriamiento-de-detectores/CLASE.md) · [Siguiente: B44-C10 — No linealidad y saturación →](../B44-C10-no-linealidad-y-saturacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,4 +299,5 @@ La cascada de 40 etapas da `g = 7,04` y `F² = 1,78`; con muchas etapas, `F² �
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C08 — Enfriamiento de detectores](../B44-C08-enfriamiento-de-detectores/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C10 — No linealidad y saturación →](../B44-C10-no-linealidad-y-saturacion/CLASE.md)
 <!-- /nav -->

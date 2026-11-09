@@ -1,6 +1,7 @@
 # B44-C04 — Eficiencia cuántica espectral
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C03 — Sensores CMOS](../B44-C03-sensores-cmos/CLASE.md) · [Siguiente: B44-C05 — Pozo lleno y rango dinámico →](../B44-C05-pozo-lleno-y-rango-dinamico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,4 +306,5 @@ Con una curva de juguete, la banda de 500 a 800 nm convierte `10⁶` fotones en 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C03 — Sensores CMOS](../B44-C03-sensores-cmos/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C05 — Pozo lleno y rango dinámico →](../B44-C05-pozo-lleno-y-rango-dinamico/CLASE.md)
 <!-- /nav -->

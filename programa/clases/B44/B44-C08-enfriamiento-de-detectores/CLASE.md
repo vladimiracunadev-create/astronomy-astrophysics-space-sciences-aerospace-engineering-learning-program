@@ -1,6 +1,7 @@
 # B44-C08 — Enfriamiento de detectores
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C07 — Corriente oscura](../B44-C07-corriente-oscura/CLASE.md) · [Siguiente: B44-C09 — Ganancia electrónica →](../B44-C09-ganancia-electronica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,4 +298,5 @@ El modelo llega a `233 K` con `τ = 400 s` y reduce la oscuridad más de 600 vec
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C07 — Corriente oscura](../B44-C07-corriente-oscura/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C09 — Ganancia electrónica →](../B44-C09-ganancia-electronica/CLASE.md)
 <!-- /nav -->

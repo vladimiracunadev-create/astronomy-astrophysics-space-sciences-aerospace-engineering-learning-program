@@ -1,6 +1,7 @@
 # B44-C20 — Pipeline inicial de calibración de imágenes
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C19 — Formato FITS y metadatos](../B44-C19-formato-fits-y-metadatos/CLASE.md) · [Siguiente: B45-C01 — Radiometría y fotometría →](../../../tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md#b45-c01)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,4 +295,5 @@ El pipeline recupera el flujo con un error de `0,385 %` frente a `7,563 %` sin c
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C19 — Formato FITS y metadatos](../B44-C19-formato-fits-y-metadatos/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B45-C01 — Radiometría y fotometría →](../../../tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md#b45-c01)
 <!-- /nav -->

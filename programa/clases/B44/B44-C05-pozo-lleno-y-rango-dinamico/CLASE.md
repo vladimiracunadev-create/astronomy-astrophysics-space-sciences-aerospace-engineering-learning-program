@@ -1,6 +1,7 @@
 # B44-C05 — Pozo lleno y rango dinámico
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C04 — Eficiencia cuántica espectral](../B44-C04-eficiencia-cuantica-espectral/CLASE.md) · [Siguiente: B44-C06 — Ruido de lectura →](../B44-C06-ruido-de-lectura/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,4 +299,5 @@ El rango de `10 000` y la media máxima de `49 483 e⁻` fijan lo medible. Queda
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C04 — Eficiencia cuántica espectral](../B44-C04-eficiencia-cuantica-espectral/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C06 — Ruido de lectura →](../B44-C06-ruido-de-lectura/CLASE.md)
 <!-- /nav -->

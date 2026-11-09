@@ -43,36 +43,36 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b44-c01"></a>B44-C01 | Principios fotoeléctricos | Energía del fotón, longitud de corte y estadística de Poisson. | Ficha de los principios fotoeléctricos |
-| <a id="b44-c02"></a>B44-C02 | Sensores CCD | Transferencia de carga, eficiencia de transferencia y pérdida acumulada. | Ficha del sensor CCD |
-| <a id="b44-c03"></a>B44-C03 | Sensores CMOS | Ruido kTC, muestreo doble correlacionado y obturador rodante. | Ficha del sensor CMOS |
-| <a id="b44-c04"></a>B44-C04 | Eficiencia cuántica espectral | Eficiencia cuántica efectiva integrada sobre una banda. | Ficha de la eficiencia cuántica |
-| <a id="b44-c05"></a>B44-C05 | Pozo lleno y rango dinámico | Rango dinámico, SNR y saturación del pozo. | Ficha del pozo lleno y el rango dinámico |
+| <a id="b44-c01"></a>[B44-C01](../clases/B44/B44-C01-principios-fotoelectricos/CLASE.md) | Principios fotoeléctricos | Energía del fotón, longitud de corte y estadística de Poisson. | Ficha de los principios fotoeléctricos |
+| <a id="b44-c02"></a>[B44-C02](../clases/B44/B44-C02-sensores-ccd/CLASE.md) | Sensores CCD | Transferencia de carga, eficiencia de transferencia y pérdida acumulada. | Ficha del sensor CCD |
+| <a id="b44-c03"></a>[B44-C03](../clases/B44/B44-C03-sensores-cmos/CLASE.md) | Sensores CMOS | Ruido kTC, muestreo doble correlacionado y obturador rodante. | Ficha del sensor CMOS |
+| <a id="b44-c04"></a>[B44-C04](../clases/B44/B44-C04-eficiencia-cuantica-espectral/CLASE.md) | Eficiencia cuántica espectral | Eficiencia cuántica efectiva integrada sobre una banda. | Ficha de la eficiencia cuántica |
+| <a id="b44-c05"></a>[B44-C05](../clases/B44/B44-C05-pozo-lleno-y-rango-dinamico/CLASE.md) | Pozo lleno y rango dinámico | Rango dinámico, SNR y saturación del pozo. | Ficha del pozo lleno y el rango dinámico |
 
 ### Tramo 2 · Ruido y características
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b44-c06"></a>B44-C06 | Ruido de lectura | Ruido de lectura por diferencia de dos cuadros de bias. | Ficha del ruido de lectura |
-| <a id="b44-c07"></a>B44-C07 | Corriente oscura | Ley térmica de la corriente oscura y ajuste lineal con la exposición. | Ficha de la corriente oscura |
-| <a id="b44-c08"></a>B44-C08 | Enfriamiento de detectores | Enfriamiento de primer orden y su efecto en la corriente oscura. | Ficha del enfriamiento |
-| <a id="b44-c09"></a>B44-C09 | Ganancia electrónica | Ganancia por cascada y factor de ruido en exceso. | Ficha de la ganancia electrónica |
-| <a id="b44-c10"></a>B44-C10 | No linealidad y saturación | Ajuste cuadrático, desviación de la linealidad y umbral de saturación. | Ficha de la linealidad y la saturación |
-| <a id="b44-c11"></a>B44-C11 | Tiempo de exposición | SNR frente a la exposición y exposición mínima limitada por el cielo. | Ficha del tiempo de exposición |
+| <a id="b44-c06"></a>[B44-C06](../clases/B44/B44-C06-ruido-de-lectura/CLASE.md) | Ruido de lectura | Ruido de lectura por diferencia de dos cuadros de bias. | Ficha del ruido de lectura |
+| <a id="b44-c07"></a>[B44-C07](../clases/B44/B44-C07-corriente-oscura/CLASE.md) | Corriente oscura | Ley térmica de la corriente oscura y ajuste lineal con la exposición. | Ficha de la corriente oscura |
+| <a id="b44-c08"></a>[B44-C08](../clases/B44/B44-C08-enfriamiento-de-detectores/CLASE.md) | Enfriamiento de detectores | Enfriamiento de primer orden y su efecto en la corriente oscura. | Ficha del enfriamiento |
+| <a id="b44-c09"></a>[B44-C09](../clases/B44/B44-C09-ganancia-electronica/CLASE.md) | Ganancia electrónica | Ganancia por cascada y factor de ruido en exceso. | Ficha de la ganancia electrónica |
+| <a id="b44-c10"></a>[B44-C10](../clases/B44/B44-C10-no-linealidad-y-saturacion/CLASE.md) | No linealidad y saturación | Ajuste cuadrático, desviación de la linealidad y umbral de saturación. | Ficha de la linealidad y la saturación |
+| <a id="b44-c11"></a>[B44-C11](../clases/B44/B44-C11-tiempo-de-exposicion/CLASE.md) | Tiempo de exposición | SNR frente a la exposición y exposición mínima limitada por el cielo. | Ficha del tiempo de exposición |
 
 ### Tramo 3 · Calibración y adquisición
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b44-c12"></a>B44-C12 | Calibración con bias | Cuadro maestro de bias y propagación de ruido. | Ficha de la calibración con bias |
-| <a id="b44-c13"></a>B44-C13 | Calibración con dark | Cuadro maestro de dark y reescalado por exposición. | Ficha de la calibración con dark |
-| <a id="b44-c14"></a>B44-C14 | Calibración con flat | Cuadro maestro de flat y no uniformidad residual. | Ficha de la calibración con flat |
-| <a id="b44-c15"></a>B44-C15 | Píxeles defectuosos | Detección robusta con MAD, reemplazo por mediana y máscara. | Ficha de los píxeles defectuosos |
-| <a id="b44-c16"></a>B44-C16 | Ruido cósmico e identificación | Rechazo de rayos cósmicos con pila de cuadros y probabilidad de coincidencia. | Ficha de los rayos cósmicos |
-| <a id="b44-c17"></a>B44-C17 | Escala de imagen y muestreo | Escala de placa, Airy y muestreo de Nyquist. | Ficha de la escala y el muestreo |
-| <a id="b44-c18"></a>B44-C18 | Control electrónico de cámaras | Tiempo de lectura, tiempo muerto, cuantización y binning. | Ficha de la electrónica de la cámara |
-| <a id="b44-c19"></a>B44-C19 | Formato FITS y metadatos | Cabecera FITS mínima escrita y leída por dos vías. | Ficha del formato FITS |
-| <a id="b44-c20"></a>B44-C20 | Pipeline inicial de calibración de imágenes | Cadena completa bias, dark, flat y fotometría de apertura. | Ficha del pipeline de calibración |
+| <a id="b44-c12"></a>[B44-C12](../clases/B44/B44-C12-calibracion-con-bias/CLASE.md) | Calibración con bias | Cuadro maestro de bias y propagación de ruido. | Ficha de la calibración con bias |
+| <a id="b44-c13"></a>[B44-C13](../clases/B44/B44-C13-calibracion-con-dark/CLASE.md) | Calibración con dark | Cuadro maestro de dark y reescalado por exposición. | Ficha de la calibración con dark |
+| <a id="b44-c14"></a>[B44-C14](../clases/B44/B44-C14-calibracion-con-flat/CLASE.md) | Calibración con flat | Cuadro maestro de flat y no uniformidad residual. | Ficha de la calibración con flat |
+| <a id="b44-c15"></a>[B44-C15](../clases/B44/B44-C15-pixeles-defectuosos/CLASE.md) | Píxeles defectuosos | Detección robusta con MAD, reemplazo por mediana y máscara. | Ficha de los píxeles defectuosos |
+| <a id="b44-c16"></a>[B44-C16](../clases/B44/B44-C16-ruido-cosmico-e-identificacion/CLASE.md) | Ruido cósmico e identificación | Rechazo de rayos cósmicos con pila de cuadros y probabilidad de coincidencia. | Ficha de los rayos cósmicos |
+| <a id="b44-c17"></a>[B44-C17](../clases/B44/B44-C17-escala-de-imagen-y-muestreo/CLASE.md) | Escala de imagen y muestreo | Escala de placa, Airy y muestreo de Nyquist. | Ficha de la escala y el muestreo |
+| <a id="b44-c18"></a>[B44-C18](../clases/B44/B44-C18-control-electronico-de-camaras/CLASE.md) | Control electrónico de cámaras | Tiempo de lectura, tiempo muerto, cuantización y binning. | Ficha de la electrónica de la cámara |
+| <a id="b44-c19"></a>[B44-C19](../clases/B44/B44-C19-formato-fits-y-metadatos/CLASE.md) | Formato FITS y metadatos | Cabecera FITS mínima escrita y leída por dos vías. | Ficha del formato FITS |
+| <a id="b44-c20"></a>[B44-C20](../clases/B44/B44-C20-pipeline-inicial-de-calibracion-de-imagenes/CLASE.md) | Pipeline inicial de calibración de imágenes | Cadena completa bias, dark, flat y fotometría de apertura. | Ficha del pipeline de calibración |
 
 ## 🧵 Hilos que atraviesan el bloque
 

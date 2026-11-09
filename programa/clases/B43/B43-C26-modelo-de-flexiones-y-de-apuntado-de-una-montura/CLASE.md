@@ -1,7 +1,7 @@
 # B43-C26 — Modelo de flexiones y de apuntado de una montura
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B43](../../../tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) · [← Anterior: B43-C25 — Rodamientos y apoyos de precisión en telescopios](../B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md) · [Siguiente: B44-C01 — Principios fotoeléctricos →](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md#b44-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B43](../../../tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) · [← Anterior: B43-C25 — Rodamientos y apoyos de precisión en telescopios](../B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md) · [Siguiente: B44-C01 — Principios fotoeléctricos →](../../B44/B44-C01-principios-fotoelectricos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ El ajuste devuelve los siete parámetros con `error/σ` menor que `1,7` y baja e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B43-C25 — Rodamientos y apoyos de precisión en telescopios](../B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md) · [📚 Bloque B43](../../../tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) · [Siguiente: B44-C01 — Principios fotoeléctricos →](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md#b44-c01)
+[← Anterior: B43-C25 — Rodamientos y apoyos de precisión en telescopios](../B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md) · [📚 Bloque B43](../../../tronco-comun/B43-construccion-y-mecanica-de-telescopios.md) · [Siguiente: B44-C01 — Principios fotoeléctricos →](../../B44/B44-C01-principios-fotoelectricos/CLASE.md)
 <!-- /nav -->

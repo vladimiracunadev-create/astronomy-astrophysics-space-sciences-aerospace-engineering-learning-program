@@ -1,6 +1,7 @@
 # B44-C12 — Calibración con bias
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B44-C11 — Tiempo de exposición](../B44-C11-tiempo-de-exposicion/CLASE.md) · [Siguiente: B44-C13 — Calibración con dark →](../B44-C13-calibracion-con-dark/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,4 +298,5 @@ Un maestro de 25 cuadros añade `0,8 ADU` y la resta deja `4,12 ADU`. Queda una 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B44-C11 — Tiempo de exposición](../B44-C11-tiempo-de-exposicion/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C13 — Calibración con dark →](../B44-C13-calibracion-con-dark/CLASE.md)
 <!-- /nav -->

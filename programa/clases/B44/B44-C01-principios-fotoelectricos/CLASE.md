@@ -1,6 +1,7 @@
 # B44-C01 — Principios fotoeléctricos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [← Anterior: B43-C26 — Modelo de flexiones y de apuntado de una montura](../../B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md) · [Siguiente: B44-C02 — Sensores CCD →](../B44-C02-sensores-ccd/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,4 +306,5 @@ Un fotón de `550 nm` aporta `2,2543 eV`; el silicio de este modelo corta en `11
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B43-C26 — Modelo de flexiones y de apuntado de una montura](../../B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md) · [📚 Bloque B44](../../../tronco-comun/B44-detectores-y-adquisicion-astronomica.md) · [Siguiente: B44-C02 — Sensores CCD →](../B44-C02-sensores-ccd/CLASE.md)
 <!-- /nav -->
