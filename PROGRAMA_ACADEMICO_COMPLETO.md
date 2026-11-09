@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 451 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 454 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -602,9 +602,9 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B26-C18 — Materia oscura y evidencias.** Introduce el contexto y los principios de «materia oscura y evidencias» para comprender su uso científico.
 - **B26-C19 — Energía oscura y parámetros.** Describe los componentes principales de «energía oscura y parámetros» y por qué son relevantes para esta disciplina.
 - **B26-C20 — Límites observacionales de modelos cosmológicos.** Presenta «límites observacionales de modelos cosmológicos» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B26-C21 — Verosimilitud cosmológica con datos combinados.** *Programada.* B12 enseña estimación general; falta construir verosimilitudes con datos de CMB, BAO y supernovas.
-- **B26-C22 — Degeneraciones de parámetros cosmológicos.** *Programada.* Ninguna clase analiza correlaciones y degeneraciones entre parámetros cosmológicos ni cómo romperlas con datos complementarios.
-- **B26-C23 — Tensiones observacionales: constante de Hubble y S8.** *Programada.* B26-C19 y B26-C20 no tratan discrepancias entre conjuntos de datos ni cómo evaluarlas.
+- **B26-C21 — Verosimilitud cosmológica con datos combinados.** *Texto redactado, pendiente de revisión.* B12 enseña estimación general; falta construir verosimilitudes con datos de CMB, BAO y supernovas.
+- **B26-C22 — Degeneraciones de parámetros cosmológicos.** *Texto redactado, pendiente de revisión.* Ninguna clase analiza correlaciones y degeneraciones entre parámetros cosmológicos ni cómo romperlas con datos complementarios.
+- **B26-C23 — Tensiones observacionales: constante de Hubble y S8.** *Texto redactado, pendiente de revisión.* B26-C19 y B26-C20 no tratan discrepancias entre conjuntos de datos ni cómo evaluarlas.
 
 ### B27 — Objetos compactos y altas energías
 

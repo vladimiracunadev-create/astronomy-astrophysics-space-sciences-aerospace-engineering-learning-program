@@ -1,7 +1,7 @@
 # B26-C20 — Límites observacionales de modelos cosmológicos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C19 — Energía oscura y parámetros](../B26-C19-energia-oscura-y-parametros/CLASE.md) · [Siguiente: B26-C21 — Verosimilitud cosmológica con datos combinados →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C19 — Energía oscura y parámetros](../B26-C19-energia-oscura-y-parametros/CLASE.md) · [Siguiente: B26-C21 — Verosimilitud cosmológica con datos combinados →](../B26-C21-verosimilitud-cosmologica-con-datos-combinados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -84,7 +84,7 @@ La incertidumbre decrece como `1/√N`: con `N = 100`, `0,040`; para `0,018` (el
 
 ### 8.5 Comparación con resultados publicados
 
-El resultado sintético (`0,335 ± 0,040`) es compatible con Pantheon+ (`0,334 ± 0,018`) pero menos preciso. La diferencia entre Pantheon+ y DESI BAO (`0,295 ± 0,015`) es de `0,039` frente a una incertidumbre combinada de `0,023`: `1,7σ`, ejercicio de C21.
+El resultado sintético (`0,335 ± 0,040`) es compatible con Pantheon+ (`0,334 ± 0,018`) pero menos preciso. La diferencia entre Pantheon+ y DESI BAO (`0,295 ± 0,015`) es de `0,039` frente a una incertidumbre combinada de `0,023`: `1,7σ`, tema de C21.
 
 ## 9. Magnitudes, símbolos y unidades
 
@@ -194,7 +194,7 @@ Descripción larga: el ajuste sintético reproduce el valor de Pantheon+ con el 
 
 <details><summary>Solución comentada</summary>
 
-`0,039`; incertidumbre combinada `√(0,018² + 0,015²) = 0,0234`; `1,67σ`.
+`0,039`; incertidumbre combinada `√(0,018² + 0,015²) = 0,0234`; `1,66σ`.
 </details>
 
 **Ejercicio 9 · transferencia.** Un compañero dice: «el intervalo [0,295; 0,375] tiene un 68 % de probabilidad de contener `Ω_m`». Responde con 8.3.
@@ -294,5 +294,5 @@ Un `χ²` con la constante marginalizada da `Ω_m = 0,335 ± 0,040` con 100 supe
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B26-C19 — Energía oscura y parámetros](../B26-C19-energia-oscura-y-parametros/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C21 — Verosimilitud cosmológica con datos combinados →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c21)
+[← Anterior: B26-C19 — Energía oscura y parámetros](../B26-C19-energia-oscura-y-parametros/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C21 — Verosimilitud cosmológica con datos combinados →](../B26-C21-verosimilitud-cosmologica-con-datos-combinados/CLASE.md)
 <!-- /nav -->

@@ -91,9 +91,9 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b26-c21"></a>B26-C21 | Verosimilitud cosmológica con datos combinados | Combinación de restricciones gaussianas y consistencia. | Combinación de restricciones de `Ω_m` |
-| <a id="b26-c22"></a>B26-C22 | Degeneraciones de parámetros cosmológicos | Matriz de Fisher, correlación y ruptura de degeneraciones. | Elipse de Fisher antes y después |
-| <a id="b26-c23"></a>B26-C23 | Tensiones observacionales: constante de Hubble y S8 | Significancia estadística de discrepancias. | Informe de significancia de dos tensiones |
+| <a id="b26-c21"></a>[B26-C21](../clases/B26/B26-C21-verosimilitud-cosmologica-con-datos-combinados/CLASE.md) | Verosimilitud cosmológica con datos combinados | Combinación de restricciones gaussianas y consistencia. | Combinación de restricciones de `Ω_m` |
+| <a id="b26-c22"></a>[B26-C22](../clases/B26/B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md) | Degeneraciones de parámetros cosmológicos | Matriz de Fisher, correlación y ruptura de degeneraciones. | Elipse de Fisher antes y después |
+| <a id="b26-c23"></a>[B26-C23](../clases/B26/B26-C23-tensiones-observacionales-constante-de-hubble-y-s8/CLASE.md) | Tensiones observacionales: constante de Hubble y S8 | Significancia estadística de discrepancias. | Informe de significancia de dos tensiones |
 
 ## 🧵 Hilos que atraviesan el bloque
 
