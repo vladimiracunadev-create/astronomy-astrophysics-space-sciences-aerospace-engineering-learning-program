@@ -1,7 +1,7 @@
 # B26-C04 — Espacio-tiempo de Minkowski
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C03 — Dilatación temporal y contracción](../B26-C03-dilatacion-temporal-y-contraccion/CLASE.md) · [Siguiente: B26-C05 — Equivalencia entre masa y energía →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C03 — Dilatación temporal y contracción](../B26-C03-dilatacion-temporal-y-contraccion/CLASE.md) · [Siguiente: B26-C05 — Equivalencia entre masa y energía →](../B26-C05-equivalencia-entre-masa-y-energia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ El intervalo clasifica los pares de eventos, el cono de luz fija la causalidad y
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B26-C03 — Dilatación temporal y contracción](../B26-C03-dilatacion-temporal-y-contraccion/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C05 — Equivalencia entre masa y energía →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c05)
+[← Anterior: B26-C03 — Dilatación temporal y contracción](../B26-C03-dilatacion-temporal-y-contraccion/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C05 — Equivalencia entre masa y energía →](../B26-C05-equivalencia-entre-masa-y-energia/CLASE.md)
 <!-- /nav -->

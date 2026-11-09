@@ -50,15 +50,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b26-c02"></a>[B26-C02](../clases/B26/B26-C02-transformaciones-de-lorentz/CLASE.md) | Transformaciones de Lorentz | Boost, invariante del intervalo y composición de boosts. | Hoja de transformaciones verificadas |
 | <a id="b26-c03"></a>[B26-C03](../clases/B26/B26-C03-dilatacion-temporal-y-contraccion/CLASE.md) | Dilatación temporal y contracción | Tiempo propio y longitud propia aplicados a la supervivencia de muones. | Tabla de supervivencia de muones |
 | <a id="b26-c04"></a>[B26-C04](../clases/B26/B26-C04-espacio-tiempo-de-minkowski/CLASE.md) | Espacio-tiempo de Minkowski | Géneros del intervalo, conos de luz, causalidad y tiempo propio. | Ficha de causalidad y tiempo propio |
-| <a id="b26-c05"></a>B26-C05 | Equivalencia entre masa y energía | `E² = (pc)² + (mc²)²`, límite clásico y balances energéticos. | Balance de energía relativista |
+| <a id="b26-c05"></a>[B26-C05](../clases/B26/B26-C05-equivalencia-entre-masa-y-energia/CLASE.md) | Equivalencia entre masa y energía | `E² = (pc)² + (mc²)²`, límite clásico y balances energéticos. | Balance de energía relativista |
 
 ### Tramo 2 · Gravedad como geometría
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b26-c06"></a>B26-C06 | Principio de equivalencia | Aceleración y gravedad localmente indistinguibles; corrimiento por aceleración. | Ficha de corrimiento por aceleración |
-| <a id="b26-c07"></a>B26-C07 | Curvatura y métricas | Métrica, radio de Schwarzschild y distancia propia. | Ficha de métrica y distancia propia |
-| <a id="b26-c08"></a>B26-C08 | Geodésicas gravitacionales | Geodésicas sobre superficies y precesión del perihelio. | Verificación de la precesión |
+| <a id="b26-c06"></a>[B26-C06](../clases/B26/B26-C06-principio-de-equivalencia/CLASE.md) | Principio de equivalencia | Aceleración y gravedad localmente indistinguibles; corrimiento por aceleración. | Ficha de corrimiento por aceleración |
+| <a id="b26-c07"></a>[B26-C07](../clases/B26/B26-C07-curvatura-y-metricas/CLASE.md) | Curvatura y métricas | Métrica, radio de Schwarzschild y distancia propia. | Ficha de métrica y distancia propia |
+| <a id="b26-c08"></a>[B26-C08](../clases/B26/B26-C08-geodesicas-gravitacionales/CLASE.md) | Geodésicas gravitacionales | Geodésicas sobre superficies y precesión del perihelio. | Verificación de la precesión |
 | <a id="b26-c09"></a>B26-C09 | Relatividad general introductoria | Campo débil, ecuación de Einstein cualitativa y deflexión de la luz. | Cálculo de la deflexión solar |
 | <a id="b26-c10"></a>B26-C10 | Desplazamiento gravitacional al rojo | Corrimiento exacto y de campo débil, y contraste con la prueba de Galileo. | Tabla de corrimientos |
 
