@@ -42,22 +42,22 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b49-c01"></a>B49-C01 | Antenas de hilo: dipolo, monopolo e impedancia de radiación | Resistencia de radiación del dipolo y del monopolo, longitud resonante. | Ficha de las antenas de hilo |
-| <a id="b49-c02"></a>B49-C02 | Adaptación de impedancias y líneas de transmisión en antenas | Coeficiente de reflexión, ROE, transformador de cuarto de onda y carta de Smith numérica. | Ficha de la adaptación de impedancias |
-| <a id="b49-c03"></a>B49-C03 | Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores | Modelo de apuntado con armónicos, ajuste por mínimos cuadrados y error residual. | Ficha del modelo de apuntado |
-| <a id="b49-c04"></a>B49-C04 | Arreglos de antenas: factor de arreglo y formación de haz | Factor de arreglo, nulos, lóbulos laterales y pesos de Taylor o Hann. | Ficha del factor de arreglo |
-| <a id="b49-c05"></a>B49-C05 | Medición y calibración de patrones de antena | Pérdida por error de apuntado, cociente de patrones y nulo del patrón medido. | Ficha del patrón de antena medido |
+| <a id="b49-c01"></a>[B49-C01](../clases/B49/B49-C01-antenas-de-hilo-dipolo-monopolo-e-impedancia-de-radiacion/CLASE.md) | Antenas de hilo: dipolo, monopolo e impedancia de radiación | Resistencia de radiación del dipolo y del monopolo, longitud resonante. | Ficha de las antenas de hilo |
+| <a id="b49-c02"></a>[B49-C02](../clases/B49/B49-C02-adaptacion-de-impedancias-y-lineas-de-transmision-en-antenas/CLASE.md) | Adaptación de impedancias y líneas de transmisión en antenas | Coeficiente de reflexión, ROE, transformador de cuarto de onda y carta de Smith numérica. | Ficha de la adaptación de impedancias |
+| <a id="b49-c03"></a>[B49-C03](../clases/B49/B49-C03-apuntamiento-y-seguimiento-de-radiotelescopios-modelos-de-apuntado-y-errores/CLASE.md) | Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores | Modelo de apuntado con armónicos, ajuste por mínimos cuadrados y error residual. | Ficha del modelo de apuntado |
+| <a id="b49-c04"></a>[B49-C04](../clases/B49/B49-C04-arreglos-de-antenas-factor-de-arreglo-y-formacion-de-haz/CLASE.md) | Arreglos de antenas: factor de arreglo y formación de haz | Factor de arreglo, nulos, lóbulos laterales y pesos de Taylor o Hann. | Ficha del factor de arreglo |
+| <a id="b49-c05"></a>[B49-C05](../clases/B49/B49-C05-medicion-y-calibracion-de-patrones-de-antena/CLASE.md) | Medición y calibración de patrones de antena | Pérdida por error de apuntado, cociente de patrones y nulo del patrón medido. | Ficha del patrón de antena medido |
 
 ### Tramo 2 · Receptor y cadena de radiofrecuencia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b49-c06"></a>B49-C06 | Amplificadores de bajo ruido (LNA): tecnología, ganancia y adaptación | Fórmula de Friis, temperatura de ruido de la cascada y desadaptación. | Ficha del amplificador de bajo ruido |
-| <a id="b49-c07"></a>B49-C07 | Criogenia y refrigeración de receptores de radio | Ruido de Johnson, temperatura de ruido de la cascada fría y potencia de enfriamiento. | Ficha de la criogenia del receptor |
-| <a id="b49-c08"></a>B49-C08 | Estabilidad de ganancia de receptores y variaciones de ganancia | Sensibilidad del radiómetro, varianza de Allan y conmutación tipo Dicke. | Ficha de la estabilidad de ganancia |
-| <a id="b49-c09"></a>B49-C09 | Linealidad, compresión e intermodulación de receptores de RF | Punto de compresión, punto de intercepción de tercer orden y rango libre de espurios. | Ficha de la linealidad del receptor |
-| <a id="b49-c10"></a>B49-C10 | Filtros de radiofrecuencia pasabanda y rechazo de banda imagen | Respuesta de Butterworth, rechazo de la banda imagen y pérdida de inserción. | Ficha del filtro pasabanda |
-| <a id="b49-c11"></a>B49-C11 | Mezcladores de frecuencia: pérdida de conversión y productos espurios | Frecuencias de productos de mezcla, pérdida de conversión y espurios de orden bajo. | Ficha del mezclador de frecuencia |
+| <a id="b49-c06"></a>[B49-C06](../clases/B49/B49-C06-amplificadores-de-bajo-ruido-lna-tecnologia-ganancia-y-adaptacion/CLASE.md) | Amplificadores de bajo ruido (LNA): tecnología, ganancia y adaptación | Fórmula de Friis, temperatura de ruido de la cascada y desadaptación. | Ficha del amplificador de bajo ruido |
+| <a id="b49-c07"></a>[B49-C07](../clases/B49/B49-C07-criogenia-y-refrigeracion-de-receptores-de-radio/CLASE.md) | Criogenia y refrigeración de receptores de radio | Ruido de Johnson, temperatura de ruido de la cascada fría y potencia de enfriamiento. | Ficha de la criogenia del receptor |
+| <a id="b49-c08"></a>[B49-C08](../clases/B49/B49-C08-estabilidad-de-ganancia-de-receptores-y-variaciones-de-ganancia/CLASE.md) | Estabilidad de ganancia de receptores y variaciones de ganancia | Sensibilidad del radiómetro, varianza de Allan y conmutación tipo Dicke. | Ficha de la estabilidad de ganancia |
+| <a id="b49-c09"></a>[B49-C09](../clases/B49/B49-C09-linealidad-compresion-e-intermodulacion-de-receptores-de-rf/CLASE.md) | Linealidad, compresión e intermodulación de receptores de RF | Punto de compresión, punto de intercepción de tercer orden y rango libre de espurios. | Ficha de la linealidad del receptor |
+| <a id="b49-c10"></a>[B49-C10](../clases/B49/B49-C10-filtros-de-radiofrecuencia-pasabanda-y-rechazo-de-banda-imagen/CLASE.md) | Filtros de radiofrecuencia pasabanda y rechazo de banda imagen | Respuesta de Butterworth, rechazo de la banda imagen y pérdida de inserción. | Ficha del filtro pasabanda |
+| <a id="b49-c11"></a>[B49-C11](../clases/B49/B49-C11-mezcladores-de-frecuencia-perdida-de-conversion-y-productos-espurios/CLASE.md) | Mezcladores de frecuencia: pérdida de conversión y productos espurios | Frecuencias de productos de mezcla, pérdida de conversión y espurios de orden bajo. | Ficha del mezclador de frecuencia |
 
 ## 🧵 Hilos que atraviesan el bloque
 

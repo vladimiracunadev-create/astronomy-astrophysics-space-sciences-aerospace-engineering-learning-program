@@ -1,7 +1,7 @@
 # B48-C23 — Observabilidad del software de observatorio: registros, métricas y alertas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B48](../../../tronco-comun/B48-operaciones-de-observatorios-cientificos.md) · [← Anterior: B48-C22 — Control automático del enfocador y autoenfoque](../B48-C22-control-automatico-del-enfocador-y-autoenfoque/CLASE.md) · [Siguiente: B49-C01 — Antenas de hilo: dipolo, monopolo e impedancia de radiación →](../../../tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md#b49-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B48](../../../tronco-comun/B48-operaciones-de-observatorios-cientificos.md) · [← Anterior: B48-C22 — Control automático del enfocador y autoenfoque](../B48-C22-control-automatico-del-enfocador-y-autoenfoque/CLASE.md) · [Siguiente: B49-C01 — Antenas de hilo: dipolo, monopolo e impedancia de radiación →](../../B49/B49-C01-antenas-de-hilo-dipolo-monopolo-e-impedancia-de-radiacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ La regla 3 de 5 detecta con probabilidad 0,969 y retardo 3,6 muestras con muy po
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B48-C22 — Control automático del enfocador y autoenfoque](../B48-C22-control-automatico-del-enfocador-y-autoenfoque/CLASE.md) · [📚 Bloque B48](../../../tronco-comun/B48-operaciones-de-observatorios-cientificos.md) · [Siguiente: B49-C01 — Antenas de hilo: dipolo, monopolo e impedancia de radiación →](../../../tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md#b49-c01)
+[← Anterior: B48-C22 — Control automático del enfocador y autoenfoque](../B48-C22-control-automatico-del-enfocador-y-autoenfoque/CLASE.md) · [📚 Bloque B48](../../../tronco-comun/B48-operaciones-de-observatorios-cientificos.md) · [Siguiente: B49-C01 — Antenas de hilo: dipolo, monopolo e impedancia de radiación →](../../B49/B49-C01-antenas-de-hilo-dipolo-monopolo-e-impedancia-de-radiacion/CLASE.md)
 <!-- /nav -->
