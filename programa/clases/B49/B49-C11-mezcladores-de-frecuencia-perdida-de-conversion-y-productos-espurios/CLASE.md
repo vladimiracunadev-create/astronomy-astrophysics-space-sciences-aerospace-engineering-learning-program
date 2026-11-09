@@ -1,7 +1,7 @@
 # B49-C11 — Mezcladores de frecuencia: pérdida de conversión y productos espurios
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B49](../../../tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) · [← Anterior: B49-C10 — Filtros de radiofrecuencia pasabanda y rechazo de banda imagen](../B49-C10-filtros-de-radiofrecuencia-pasabanda-y-rechazo-de-banda-imagen/CLASE.md) · [Siguiente: B50-C01 — Trazado exacto de rayos y aberraciones de orden superior →](../../../tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md#b50-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B49](../../../tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) · [← Anterior: B49-C10 — Filtros de radiofrecuencia pasabanda y rechazo de banda imagen](../B49-C10-filtros-de-radiofrecuencia-pasabanda-y-rechazo-de-banda-imagen/CLASE.md) · [Siguiente: B50-C01 — Trazado exacto de rayos y aberraciones de orden superior →](../../B50/B50-C01-trazado-exacto-de-rayos-y-aberraciones-de-orden-superior/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Un conmutador ideal pierde 3,92 dB, genera espurios 1/m y escala el ruido de la 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B49-C10 — Filtros de radiofrecuencia pasabanda y rechazo de banda imagen](../B49-C10-filtros-de-radiofrecuencia-pasabanda-y-rechazo-de-banda-imagen/CLASE.md) · [📚 Bloque B49](../../../tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) · [Siguiente: B50-C01 — Trazado exacto de rayos y aberraciones de orden superior →](../../../tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md#b50-c01)
+[← Anterior: B49-C10 — Filtros de radiofrecuencia pasabanda y rechazo de banda imagen](../B49-C10-filtros-de-radiofrecuencia-pasabanda-y-rechazo-de-banda-imagen/CLASE.md) · [📚 Bloque B49](../../../tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md) · [Siguiente: B50-C01 — Trazado exacto de rayos y aberraciones de orden superior →](../../B50/B50-C01-trazado-exacto-de-rayos-y-aberraciones-de-orden-superior/CLASE.md)
 <!-- /nav -->

@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 862 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 877 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -1119,21 +1119,21 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 
 *Bloque nuevo (15 clases): Trazado exacto de rayos y aberraciones de orden superior; Optimización de superficies: función de mérito y restricciones; Sistemas catadióptricos: Schmidt y Maksutov…*
 
-- **B50-C01 — Trazado exacto de rayos y aberraciones de orden superior.** *Programada.* B41-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales.
-- **B50-C02 — Optimización de superficies: función de mérito y restricciones.** *Programada.* B11-C17 da optimización numérica general; falta definir funciones de mérito y variables de diseño ópticas.
-- **B50-C03 — Sistemas catadióptricos: Schmidt y Maksutov.** *Programada.* B41 trata refractores y reflectores por separado; ninguna clase combina ambos tipos de elementos.
-- **B50-C04 — Telecentricidad, viñeteo y diseño del campo.** *Programada.* B41-C11 trata campo y escala; falta la telecentricidad y el viñeteo como criterios de diseño.
-- **B50-C05 — Luz parásita y análisis de rayos dispersos.** *Programada.* Ninguna clase trata la luz difusa, reflexiones fantasma y deflectores que limitan el contraste de un instrumento.
-- **B50-C06 — Software de diseño óptico: modelos reproducibles y verificación.** *Programada.* Falta usar herramientas de diseño óptico con archivos de modelo versionados y verificados contra cálculos analíticos.
-- **B50-C07 — Curvatura de campo y aplanadores.** *Programada.* B41-C13 y B41-C14 cubren otras aberraciones; ninguna trata la curvatura de campo ni los elementos que la corrigen.
-- **B50-C08 — Distorsión geométrica y su calibración.** *Programada.* Ninguna clase mide ni modela la distorsión del campo, relevante para astrometría y mosaicos.
-- **B50-C09 — Asignación y balance de tolerancias ópticas.** *Programada.* Falta repartir tolerancias entre elementos para cumplir un desempeño objetivo con costo razonable.
-- **B50-C10 — Errores de centrado y su efecto en el desempeño.** *Programada.* Ninguna clase cuantifica el efecto del descentramiento de elementos sobre la calidad de imagen.
-- **B50-C11 — Errores de inclinación de elementos y superficies.** *Programada.* Ninguna clase trata la sensibilidad a inclinación de espejos y lentes ni su compensación.
-- **B50-C12 — Sensibilidad térmica del desempeño óptico y atermalización.** *Programada.* B43-C11 trata dilatación mecánica; falta su efecto en foco y aberraciones y el diseño atérmico.
-- **B50-C13 — Análisis Monte Carlo de tolerancias ópticas.** *Programada.* B12-C14 enseña Monte Carlo en general; falta aplicarlo a conjuntos de tolerancias y a la distribución del desempeño.
-- **B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones.** *Programada.* B42-C06 y B42-C07 definen PSF y OTF; falta traducirlos en criterios de aceptación y especificaciones verificables.
-- **B50-C15 — Presupuesto de error de frente de onda de un instrumento.** *Programada.* B13-C13 y B83-C09 trazan presupuestos de incertidumbre y masa; falta repartir el error de frente de onda entre diseño, fabricación y alineación.
+- **B50-C01 — Trazado exacto de rayos y aberraciones de orden superior.** *Texto redactado, pendiente de revisión.* B41-C08 enseña trazado en aproximación paraxial; falta el trazado exacto de rayos que cuantifica las aberraciones reales.
+- **B50-C02 — Optimización de superficies: función de mérito y restricciones.** *Texto redactado, pendiente de revisión.* B11-C17 da optimización numérica general; falta definir funciones de mérito y variables de diseño ópticas.
+- **B50-C03 — Sistemas catadióptricos: Schmidt y Maksutov.** *Texto redactado, pendiente de revisión.* B41 trata refractores y reflectores por separado; ninguna clase combina ambos tipos de elementos.
+- **B50-C04 — Telecentricidad, viñeteo y diseño del campo.** *Texto redactado, pendiente de revisión.* B41-C11 trata campo y escala; falta la telecentricidad y el viñeteo como criterios de diseño.
+- **B50-C05 — Luz parásita y análisis de rayos dispersos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la luz difusa, reflexiones fantasma y deflectores que limitan el contraste de un instrumento.
+- **B50-C06 — Software de diseño óptico: modelos reproducibles y verificación.** *Texto redactado, pendiente de revisión.* Falta usar herramientas de diseño óptico con archivos de modelo versionados y verificados contra cálculos analíticos.
+- **B50-C07 — Curvatura de campo y aplanadores.** *Texto redactado, pendiente de revisión.* B41-C13 y B41-C14 cubren otras aberraciones; ninguna trata la curvatura de campo ni los elementos que la corrigen.
+- **B50-C08 — Distorsión geométrica y su calibración.** *Texto redactado, pendiente de revisión.* Ninguna clase mide ni modela la distorsión del campo, relevante para astrometría y mosaicos.
+- **B50-C09 — Asignación y balance de tolerancias ópticas.** *Texto redactado, pendiente de revisión.* Falta repartir tolerancias entre elementos para cumplir un desempeño objetivo con costo razonable.
+- **B50-C10 — Errores de centrado y su efecto en el desempeño.** *Texto redactado, pendiente de revisión.* Ninguna clase cuantifica el efecto del descentramiento de elementos sobre la calidad de imagen.
+- **B50-C11 — Errores de inclinación de elementos y superficies.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la sensibilidad a inclinación de espejos y lentes ni su compensación.
+- **B50-C12 — Sensibilidad térmica del desempeño óptico y atermalización.** *Texto redactado, pendiente de revisión.* B43-C11 trata dilatación mecánica; falta su efecto en foco y aberraciones y el diseño atérmico.
+- **B50-C13 — Análisis Monte Carlo de tolerancias ópticas.** *Texto redactado, pendiente de revisión.* B12-C14 enseña Monte Carlo en general; falta aplicarlo a conjuntos de tolerancias y a la distribución del desempeño.
+- **B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones.** *Texto redactado, pendiente de revisión.* B42-C06 y B42-C07 definen PSF y OTF; falta traducirlos en criterios de aceptación y especificaciones verificables.
+- **B50-C15 — Presupuesto de error de frente de onda de un instrumento.** *Texto redactado, pendiente de revisión.* B13-C13 y B83-C09 trazan presupuestos de incertidumbre y masa; falta repartir el error de frente de onda entre diseño, fabricación y alineación.
 
 ### B51 — Interferometría avanzada y reducción de datos de radio
 

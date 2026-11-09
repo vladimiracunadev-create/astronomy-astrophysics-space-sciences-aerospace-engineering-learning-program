@@ -43,31 +43,31 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b50-c01"></a>B50-C01 | Trazado exacto de rayos y aberraciones de orden superior | Trazado exacto frente a paraxial y serie de la aberración esférica. | Ficha del trazado exacto |
-| <a id="b50-c02"></a>B50-C02 | Optimización de superficies: función de mérito y restricciones | Mínimos cuadrados amortiguados con restricción de focal. | Ficha de la optimización de superficies |
-| <a id="b50-c03"></a>B50-C03 | Sistemas catadióptricos: Schmidt y Maksutov | Corrector de Schmidt, menisco de Maksutov y campo con diafragma en el centro. | Ficha de los sistemas catadióptricos |
-| <a id="b50-c04"></a>B50-C04 | Telecentricidad, viñeteo y diseño del campo | Ángulo del rayo principal, apertura telecéntrica y viñeteo por dos círculos. | Ficha de telecentricidad y viñeteo |
-| <a id="b50-c05"></a>B50-C05 | Luz parásita y análisis de rayos dispersos | Fantasmas de Fresnel, desenfoque del fantasma y factor de vista. | Ficha de la luz parásita |
-| <a id="b50-c06"></a>B50-C06 | Software de diseño óptico: modelos reproducibles y verificación | Modelo en JSON, huella y regresión analítica. | Ficha de un modelo reproducible |
+| <a id="b50-c01"></a>[B50-C01](../clases/B50/B50-C01-trazado-exacto-de-rayos-y-aberraciones-de-orden-superior/CLASE.md) | Trazado exacto de rayos y aberraciones de orden superior | Trazado exacto frente a paraxial y serie de la aberración esférica. | Ficha del trazado exacto |
+| <a id="b50-c02"></a>[B50-C02](../clases/B50/B50-C02-optimizacion-de-superficies-funcion-de-merito-y-restricciones/CLASE.md) | Optimización de superficies: función de mérito y restricciones | Mínimos cuadrados amortiguados con restricción de focal. | Ficha de la optimización de superficies |
+| <a id="b50-c03"></a>[B50-C03](../clases/B50/B50-C03-sistemas-catadioptricos-schmidt-y-maksutov/CLASE.md) | Sistemas catadióptricos: Schmidt y Maksutov | Corrector de Schmidt, menisco de Maksutov y campo con diafragma en el centro. | Ficha de los sistemas catadióptricos |
+| <a id="b50-c04"></a>[B50-C04](../clases/B50/B50-C04-telecentricidad-vineteo-y-diseno-del-campo/CLASE.md) | Telecentricidad, viñeteo y diseño del campo | Ángulo del rayo principal, apertura telecéntrica y viñeteo por dos círculos. | Ficha de telecentricidad y viñeteo |
+| <a id="b50-c05"></a>[B50-C05](../clases/B50/B50-C05-luz-parasita-y-analisis-de-rayos-dispersos/CLASE.md) | Luz parásita y análisis de rayos dispersos | Fantasmas de Fresnel, desenfoque del fantasma y factor de vista. | Ficha de la luz parásita |
+| <a id="b50-c06"></a>[B50-C06](../clases/B50/B50-C06-software-de-diseno-optico-modelos-reproducibles-y-verificacion/CLASE.md) | Software de diseño óptico: modelos reproducibles y verificación | Modelo en JSON, huella y regresión analítica. | Ficha de un modelo reproducible |
 
 ### Tramo 2 · Aberraciones de campo y distorsión
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b50-c07"></a>B50-C07 | Curvatura de campo y aplanadores | Superficie de Petzval, esfera concéntrica con el diafragma y aplanador. | Ficha de la curvatura de campo |
-| <a id="b50-c08"></a>B50-C08 | Distorsión geométrica y su calibración | Mapas f·tanθ y f·θ y ajuste polinómico de la distorsión. | Ficha de la distorsión y su calibración |
+| <a id="b50-c07"></a>[B50-C07](../clases/B50/B50-C07-curvatura-de-campo-y-aplanadores/CLASE.md) | Curvatura de campo y aplanadores | Superficie de Petzval, esfera concéntrica con el diafragma y aplanador. | Ficha de la curvatura de campo |
+| <a id="b50-c08"></a>[B50-C08](../clases/B50/B50-C08-distorsion-geometrica-y-su-calibracion/CLASE.md) | Distorsión geométrica y su calibración | Mapas f·tanθ y f·θ y ajuste polinómico de la distorsión. | Ficha de la distorsión y su calibración |
 
 ### Tramo 3 · Tolerancias y desempeño
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b50-c09"></a>B50-C09 | Asignación y balance de tolerancias ópticas | Multiplicadores de Lagrange frente a asignación igual. | Ficha de la asignación de tolerancias |
-| <a id="b50-c10"></a>B50-C10 | Errores de centrado y su efecto en el desempeño | Coma por descentramiento: linealidad y simetría. | Ficha del descentramiento |
-| <a id="b50-c11"></a>B50-C11 | Errores de inclinación de elementos y superficies | Espejo plano a 2α y punto de pivote libre de coma. | Ficha de la inclinación |
-| <a id="b50-c12"></a>B50-C12 | Sensibilidad térmica del desempeño óptico y atermalización | Desplazamiento del foco: fórmula frente a trazado y CTE de la carcasa atérmica. | Ficha de la sensibilidad térmica |
-| <a id="b50-c13"></a>B50-C13 | Análisis Monte Carlo de tolerancias ópticas | Media del cuadrado del error frente a suma cuadrática y rendimiento. | Ficha del Monte Carlo de tolerancias |
-| <a id="b50-c14"></a>B50-C14 | Criterios de aceptación: Strehl, error de frente de onda y especificaciones | Strehl exacto frente a Maréchal y banda de guarda. | Ficha de los criterios de aceptación |
-| <a id="b50-c15"></a>B50-C15 | Presupuesto de error de frente de onda de un instrumento | Superficie a frente de onda, suma cuadrática y Strehl del instrumento. | Ficha del presupuesto de frente de onda |
+| <a id="b50-c09"></a>[B50-C09](../clases/B50/B50-C09-asignacion-y-balance-de-tolerancias-opticas/CLASE.md) | Asignación y balance de tolerancias ópticas | Multiplicadores de Lagrange frente a asignación igual. | Ficha de la asignación de tolerancias |
+| <a id="b50-c10"></a>[B50-C10](../clases/B50/B50-C10-errores-de-centrado-y-su-efecto-en-el-desempeno/CLASE.md) | Errores de centrado y su efecto en el desempeño | Coma por descentramiento: linealidad y simetría. | Ficha del descentramiento |
+| <a id="b50-c11"></a>[B50-C11](../clases/B50/B50-C11-errores-de-inclinacion-de-elementos-y-superficies/CLASE.md) | Errores de inclinación de elementos y superficies | Espejo plano a 2α y punto de pivote libre de coma. | Ficha de la inclinación |
+| <a id="b50-c12"></a>[B50-C12](../clases/B50/B50-C12-sensibilidad-termica-del-desempeno-optico-y-atermalizacion/CLASE.md) | Sensibilidad térmica del desempeño óptico y atermalización | Desplazamiento del foco: fórmula frente a trazado y CTE de la carcasa atérmica. | Ficha de la sensibilidad térmica |
+| <a id="b50-c13"></a>[B50-C13](../clases/B50/B50-C13-analisis-monte-carlo-de-tolerancias-opticas/CLASE.md) | Análisis Monte Carlo de tolerancias ópticas | Media del cuadrado del error frente a suma cuadrática y rendimiento. | Ficha del Monte Carlo de tolerancias |
+| <a id="b50-c14"></a>[B50-C14](../clases/B50/B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md) | Criterios de aceptación: Strehl, error de frente de onda y especificaciones | Strehl exacto frente a Maréchal y banda de guarda. | Ficha de los criterios de aceptación |
+| <a id="b50-c15"></a>[B50-C15](../clases/B50/B50-C15-presupuesto-de-error-de-frente-de-onda-de-un-instrumento/CLASE.md) | Presupuesto de error de frente de onda de un instrumento | Superficie a frente de onda, suma cuadrática y Strehl del instrumento. | Ficha del presupuesto de frente de onda |
 
 ## 🧵 Hilos que atraviesan el bloque
 
