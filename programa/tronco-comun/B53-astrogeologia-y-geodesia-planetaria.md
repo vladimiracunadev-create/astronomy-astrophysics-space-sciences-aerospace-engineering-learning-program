@@ -46,17 +46,17 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B53-C01 | Interior de planetas rocosos | Masa, presión e inercia de un modelo de dos capas. | Ficha del interior de un planeta sintético |
-| B53-C02 | Sismología planetaria | Rayo sísmico, tiempo de viaje y distancia por S−P con su error. | Ficha de la distancia sísmica y su incertidumbre |
-| B53-C03 | Campo gravitatorio planetario | Potencial con J2 frente a la suma directa; el error cae como (a/r)⁴. | Ficha del campo gravitatorio de un cuerpo sintético |
-| B53-C04 | Geoides y elipsoides | Esferoide de Maclaurin, achatamiento y ondulación del geoide. | Ficha de la figura de equilibrio y su ondulación |
+| <a id="b53-c01"></a>[B53-C01](../clases/B53/B53-C01-interior-de-planetas-rocosos/CLASE.md) | Interior de planetas rocosos | Masa, presión e inercia de un modelo de dos capas. | Ficha del interior de un planeta sintético |
+| <a id="b53-c02"></a>[B53-C02](../clases/B53/B53-C02-sismologia-planetaria/CLASE.md) | Sismología planetaria | Rayo sísmico, tiempo de viaje y distancia por S−P con su error. | Ficha de la distancia sísmica y su incertidumbre |
+| <a id="b53-c03"></a>[B53-C03](../clases/B53/B53-C03-campo-gravitatorio-planetario/CLASE.md) | Campo gravitatorio planetario | Potencial con J2 frente a la suma directa; el error cae como (a/r)⁴. | Ficha del campo gravitatorio de un cuerpo sintético |
+| <a id="b53-c04"></a>[B53-C04](../clases/B53/B53-C04-geoides-y-elipsoides/CLASE.md) | Geoides y elipsoides | Esferoide de Maclaurin, achatamiento y ondulación del geoide. | Ficha de la figura de equilibrio y su ondulación |
 | B53-C28 | Inversión gravimétrica y modelos de densidad | Anomalía de una esfera enterrada, ajuste de profundidad y no unicidad. | Ficha de la inversión gravimétrica |
 
 ### Tramo 2 · Marcos de referencia y topografía
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B53-C05 | Sistemas de coordenadas lunares | Conversión lat/lon, rotación entre marcos y proyección polar. | Ficha del sistema de coordenadas lunar |
+| <a id="b53-c05"></a>[B53-C05](../clases/B53/B53-C05-sistemas-de-coordenadas-lunares/CLASE.md) | Sistemas de coordenadas lunares | Conversión lat/lon, rotación entre marcos y proyección polar. | Ficha del sistema de coordenadas lunar |
 | B53-C06 | Geodesia de Marte | Latitud planetocéntrica y planetográfica y altura elipsoidal. | Ficha de la geodesia sobre un elipsoide |
 | B53-C21 | Rotación y orientación de cuerpos planetarios: polos y meridiano origen | Polo, meridiano origen y matriz de rotación de un cuerpo. | Ficha de orientación de un cuerpo |
 | B53-C07 | Topografía por altimetría | Cruces de pasadas y estimación de sesgos de órbita. | Ficha del ajuste por cruces de pasadas |

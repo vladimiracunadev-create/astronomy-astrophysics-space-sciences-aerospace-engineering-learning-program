@@ -1,7 +1,7 @@
 # B52-C20 — Simulación de formación planetaria simplificada
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C19 — Estabilidad a largo plazo de sistemas](../B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md) · [Siguiente: B53-C01 — Interior de planetas rocosos →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C19 — Estabilidad a largo plazo de sistemas](../B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md) · [Siguiente: B53-C01 — Interior de planetas rocosos →](../../B53/B53-C01-interior-de-planetas-rocosos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ La simulación sintética reduce doce embriones a `5` cuerpos, con todas las com
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B52-C19 — Estabilidad a largo plazo de sistemas](../B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B53-C01 — Interior de planetas rocosos →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c01)
+[← Anterior: B52-C19 — Estabilidad a largo plazo de sistemas](../B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B53-C01 — Interior de planetas rocosos →](../../B53/B53-C01-interior-de-planetas-rocosos/CLASE.md)
 <!-- /nav -->
