@@ -98,7 +98,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b27-c21"></a>[B27-C21](../clases/B27/B27-C21-dispersion-compton-inversa-y-emision-de-alta-energia/CLASE.md) | Dispersión Compton inversa y emisión de alta energía | Energía de fotones dispersados, régimen de Klein–Nishina y razón sincrotrón/Compton. | Ficha de dispersión Compton inversa |
-| <a id="b27-c22"></a>B27-C22 | Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental | Ajuste con matriz de respuesta y estadística de conteos. | Ajuste espectral con respuesta |
+| <a id="b27-c22"></a>[B27-C22](../clases/B27/B27-C22-analisis-espectral-de-rayos-x-y-gamma/CLASE.md) | Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental | Ajuste con matriz de respuesta y estadística de conteos. | Ajuste espectral con respuesta |
 
 ## 🧵 Hilos que atraviesan el bloque
 
