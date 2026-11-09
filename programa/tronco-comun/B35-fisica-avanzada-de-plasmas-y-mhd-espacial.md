@@ -1,58 +1,96 @@
 # B35 — Física avanzada de plasmas y MHD espacial
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 10 clases están programadas y ninguna está redactada: se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
-**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  
-**Área:** A03 — Astrofísica y ciencias fundamentales del universo  
-**Estado:** programado; no contiene clases desarrolladas.  
-**Total:** 10 clases programadas.
+**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+**Área:** A03 — Astrofísica y ciencias fundamentales del universo
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 10 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance
+## 🎯 Propósito del bloque
 
-Este bloque existe porque los contenidos de los roles que lo necesitan no estaban cubiertos por ninguna clase de la línea base. Cubre desde «Funciones de distribución de velocidades en plasmas» hasta «Condiciones de frontera en modelos MHD». El orden de las clases es el de su programación y no es todavía una secuencia pedagógica revisada.
+Enseña **cómo se describen y se simulan los plasmas espaciales más allá del fluido simple**: las funciones de distribución de velocidades, las ondas de Alfvén y magnetosónicas, las inestabilidades, el régimen cinético y la ecuación de Vlasov, la simulación por partículas, la interpretación de mediciones in situ, el flujo congelado y sus conservaciones, los flujos estacionarios y el balance de presiones, la turbulencia y las condiciones de frontera de los modelos MHD. Cada clase cierra con un cálculo verificable contra un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases programadas
+## 📚 Al terminar el bloque podrás
 
-### B35-C01 — Funciones de distribución de velocidades en plasmas
+1. Comparar distribuciones maxwelliana y kappa y calcular sus momentos.
+2. Calcular velocidades de fase de las ondas MHD y verificarlas con una simulación.
+3. Obtener tasas de crecimiento de inestabilidades de dos haces y de Kelvin–Helmholtz.
+4. Decidir cuándo un plasma es no colisional y reproducir el amortiguamiento de Landau.
+5. Escribir y validar un código de partículas unidimensional.
+6. Estimar momentos y sus incertidumbres desde cuentas de un instrumento.
+7. Reconocer la conservación del flujo, el balance de presiones, los espectros turbulentos y las fronteras no reflectantes.
 
-*Programada.* Introduce la función de distribución (Maxwell, kappa) como objeto central de la física de plasmas; B30 trata partículas cargadas y Debye pero no describe el plasma mediante distribuciones.
+## 🧭 Secuencia del bloque
 
-### B35-C02 — Ondas de Alfvén y ondas magnetosónicas
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Cinética"]
+    B["C05-C06<br/>Simular y medir"]
+    C["C07-C10<br/>MHD"]
+    A --> B --> C
+```
 
-*Programada.* B30-C08 cubre ondas de plasma electrostáticas y B30-C09 la MHD en general, pero ninguna clase desarrolla la dispersión y propagación de ondas de Alfvén.
+**Descripción textual.** Tres tramos encadenados: descripción cinética y ondas (C01–C04), simulación y medición (C05–C06) y MHD, turbulencia y fronteras (C07–C10).
 
-### B35-C03 — Inestabilidades de plasma: cinéticas y de fluido
+## 🗂️ Las 10 clases en resumen
 
-*Programada.* Ninguna clase del tronco trata la estabilidad lineal de plasmas (two-stream, Kelvin-Helmholtz, tearing); es base para turbulencia, reconexión y choques.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-*Programada.* Se necesita el criterio fluido frente a cinético y la ecuación de Vlasov; B30 asume el plasma como fluido sin establecer cuándo falla esa descripción.
+### Tramo 1 · Descripción cinética y ondas
 
-### B35-C05 — Simulación de plasmas por partículas (PIC)
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b35-c01"></a>B35-C01 | Funciones de distribución de velocidades en plasmas | Maxwell, kappa y sus momentos. | Ficha de las distribuciones de velocidad |
+| <a id="b35-c02"></a>B35-C02 | Ondas de Alfvén y ondas magnetosónicas | Velocidades de fase y simulación de una onda. | Ficha de las ondas MHD |
+| <a id="b35-c03"></a>B35-C03 | Inestabilidades de plasma: cinéticas y de fluido | Dos haces y Kelvin–Helmholtz. | Ficha de las inestabilidades |
+| <a id="b35-c04"></a>B35-C04 | Colisiones, régimen cinético y ecuación de Vlasov | Longitud de Debye, camino libre y amortiguamiento de Landau. | Ficha del régimen cinético |
 
-*Programada.* El método particle-in-cell no aparece en B11 ni B14; es la herramienta estándar para plasmas no colisionales en heliofísica.
+### Tramo 2 · Simulación y medición
 
-### B35-C06 — Mediciones in situ de plasmas espaciales
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b35-c05"></a>B35-C05 | Simulación de plasmas por partículas (PIC) | PIC 1D: oscilación y dos haces. | Ficha de la simulación PIC |
+| <a id="b35-c06"></a>B35-C06 | Mediciones in situ de plasmas espaciales | Momentos desde cuentas con ruido y truncamiento. | Ficha de las mediciones in situ |
 
-*Programada.* Enseña a interpretar mediciones de naves (distribuciones, campos, momentos) y sus sesgos; B47-C09 trata el detector pero no el análisis del plasma medido.
+### Tramo 3 · MHD, turbulencia y fronteras
 
-### B35-C07 — Congelamiento del flujo magnético y conservación en MHD ideal
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b35-c07"></a>B35-C07 | Congelamiento del flujo magnético y conservación en MHD ideal | Flujo, difusión y enlace magnético. | Ficha del flujo congelado |
+| <a id="b35-c08"></a>B35-C08 | Flujos de plasma estacionarios y balance de presiones | Lámina de Harris, tobera isoterma y magnetopausa. | Ficha del balance de presiones |
+| <a id="b35-c09"></a>B35-C09 | Turbulencia en plasmas y MHD | Espectros, estructura e intermitencia. | Ficha de la turbulencia |
+| <a id="b35-c10"></a>B35-C10 | Condiciones de frontera en modelos MHD | Reflexión en fronteras de una onda de Alfvén. | Ficha de las fronteras MHD |
 
-*Programada.* Teorema de Alfvén y conservación de flujo y helicidad; B30-C09 presenta las ecuaciones MHD sin desarrollar las leyes de conservación que sostienen el resto del módulo.
+## 🧵 Hilos que atraviesan el bloque
 
-### B35-C08 — Flujos de plasma estacionarios y balance de presiones
+- **De la partícula al fluido:** C01 y C04 establecen cuándo basta el fluido; C07 y C08 desarrollan el fluido ideal.
+- **Ondas e inestabilidades:** C02 y C03 comparten la relación de dispersión; C05 reproduce la inestabilidad de C03 con partículas.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico, dos vías de cálculo o una simulación con semilla fija.
+- **Observado frente a ilustrativo:** solo las constantes de NIST y los resúmenes de arXiv se citan con fecha; los demás números son sintéticos y se rotulan.
 
-*Programada.* Flujos, equilibrio de presiones y Bernoulli magnético; no están en B30 ni en B09-B11.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B35-C09 — Turbulencia en plasmas y MHD
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha del régimen cinético (C04) y ficha de la simulación PIC (C05).
+- Las condiciones críticas (rotular lo sintético, no presentar un modelo como dato de una nave y citar solo lo consultado) no se compensan con promedio.
 
-*Programada.* Cascadas, espectros e intermitencia en el viento solar; ninguna clase actual trata turbulencia de plasmas.
+## ⚠️ Seguridad y límites
 
-### B35-C10 — Condiciones de frontera en modelos MHD
-
-*Programada.* Cómo imponer fronteras físicas y numéricas en simulaciones heliosféricas; B11-C12 trata fronteras de forma genérica, sin el caso MHD.
+El bloque es educativo. Los modelos son simplificados y no sustituyen a los códigos de investigación ni a los datos de misiones; los parámetros del viento solar y de la magnetosfera son ilustrativos y no se presentan como mediciones. Solo las constantes de NIST CODATA 2022 y los resúmenes de arXiv citados se consultaron; el resto se rotula como ilustrativo o sintético.
 
 ## Roles que lo usan
 
 - [Heliofísica y climatología espacial](../../rutas/heliofisica-y-climatologia-espacial.md)
+
+## Fuentes de orientación preliminar
+
+- **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.
+- **[IAU-B3]** [UAI, Resolución B3 de 2015](https://arxiv.org/abs/1510.07674) — Valores nominales solares y planetarios.
+- **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
+
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B36 — Formación de estructuras cósmicas y materia oscura](./B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md)
