@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 478 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 484 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -630,8 +630,8 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B27-C18 — Neutrinos de supernova.** Introduce el contexto y los principios de «neutrinos de supernova» para comprender su uso científico.
 - **B27-C19 — Observatorios de rayos X y gamma.** Describe los componentes principales de «observatorios de rayos X y gamma» y por qué son relevantes para esta disciplina.
 - **B27-C20 — Análisis multibanda de evento extremo.** Presenta qué significa «análisis multibanda de evento extremo», sus elementos esenciales y su función dentro de objetos compactos y altas energías.
-- **B27-C21 — Dispersión Compton inversa y emisión de alta energía.** *Programada.* B27-C12 cubre sincrotrón; ninguna clase trata la dispersión Compton inversa que da la emisión gamma de fuentes compactas.
-- **B27-C22 — Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental.** *Programada.* B27-C20 pide análisis multibanda; ninguna clase enseña el ajuste de espectros de alta energía con matrices de respuesta y estadística de conteos.
+- **B27-C21 — Dispersión Compton inversa y emisión de alta energía.** *Texto redactado, pendiente de revisión.* B27-C12 cubre sincrotrón; ninguna clase trata la dispersión Compton inversa que da la emisión gamma de fuentes compactas.
+- **B27-C22 — Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental.** *Texto redactado, pendiente de revisión.* B27-C20 pide análisis multibanda; ninguna clase enseña el ajuste de espectros de alta energía con matrices de respuesta y estadística de conteos.
 
 ### B28 — Astronomía multimensajero
 

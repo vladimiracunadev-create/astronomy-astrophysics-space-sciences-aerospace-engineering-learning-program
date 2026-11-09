@@ -83,21 +83,21 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b27-c14"></a>[B27-C14](../clases/B27/B27-C14-supernovas-termonucleares/CLASE.md) | Supernovas termonucleares | Cadena radiactiva y curva de luz tardía. | Curva de luz radiactiva de una SN Ia |
 | <a id="b27-c15"></a>[B27-C15](../clases/B27/B27-C15-supernovas-de-colapso/CLASE.md) | Supernovas de colapso | Balance de energía y escala de tiempo del colapso. | Balance energético de un colapso |
 | <a id="b27-c16"></a>[B27-C16](../clases/B27/B27-C16-eventos-de-disrupcion-por-marea/CLASE.md) | Eventos de disrupción por marea | Radio de marea, masa de Hills y tasa de caída de masa. | Ficha de un evento de disrupción |
-| <a id="b27-c17"></a>B27-C17 | Explosiones de rayos gamma | Factor de Lorentz, colimación y retardo de llegada. | Ficha energética de una explosión de rayos gamma |
+| <a id="b27-c17"></a>[B27-C17](../clases/B27/B27-C17-explosiones-de-rayos-gamma/CLASE.md) | Explosiones de rayos gamma | Factor de Lorentz, colimación y retardo de llegada. | Ficha energética de una explosión de rayos gamma |
 
 ### Tramo 6 · Mensajeros y observación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b27-c18"></a>B27-C18 | Neutrinos de supernova | Número de neutrinos, sucesos esperados y retraso por masa. | Ficha de neutrinos de supernova |
-| <a id="b27-c19"></a>B27-C19 | Observatorios de rayos X y gamma | Estadística de conteos, significancia y sensibilidad. | Ficha de sensibilidad de un observatorio |
-| <a id="b27-c20"></a>B27-C20 | Análisis multibanda de evento extremo | Distribución espectral de energía y retardos entre bandas. | Análisis multibanda de un evento |
+| <a id="b27-c18"></a>[B27-C18](../clases/B27/B27-C18-neutrinos-de-supernova/CLASE.md) | Neutrinos de supernova | Número de neutrinos, sucesos esperados y retraso por masa. | Ficha de neutrinos de supernova |
+| <a id="b27-c19"></a>[B27-C19](../clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md) | Observatorios de rayos X y gamma | Estadística de conteos, significancia y sensibilidad. | Ficha de sensibilidad de un observatorio |
+| <a id="b27-c20"></a>[B27-C20](../clases/B27/B27-C20-analisis-multibanda-de-evento-extremo/CLASE.md) | Análisis multibanda de evento extremo | Distribución espectral de energía y retardos entre bandas. | Análisis multibanda de un evento |
 
 ### Tramo 7 · Ampliación `0.2.0`: emisión de alta energía y espectros
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b27-c21"></a>B27-C21 | Dispersión Compton inversa y emisión de alta energía | Energía de fotones dispersados, régimen de Klein–Nishina y razón sincrotrón/Compton. | Ficha de dispersión Compton inversa |
+| <a id="b27-c21"></a>[B27-C21](../clases/B27/B27-C21-dispersion-compton-inversa-y-emision-de-alta-energia/CLASE.md) | Dispersión Compton inversa y emisión de alta energía | Energía de fotones dispersados, régimen de Klein–Nishina y razón sincrotrón/Compton. | Ficha de dispersión Compton inversa |
 | <a id="b27-c22"></a>B27-C22 | Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental | Ajuste con matriz de respuesta y estadística de conteos. | Ajuste espectral con respuesta |
 
 ## 🧵 Hilos que atraviesan el bloque

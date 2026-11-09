@@ -1,7 +1,7 @@
 # B27-C16 — Eventos de disrupción por marea
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C15 — Supernovas de colapso](../B27-C15-supernovas-de-colapso/CLASE.md) · [Siguiente: B27-C17 — Explosiones de rayos gamma →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C15 — Supernovas de colapso](../B27-C15-supernovas-de-colapso/CLASE.md) · [Siguiente: B27-C17 — Explosiones de rayos gamma →](../B27-C17-explosiones-de-rayos-gamma/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ El radio de marea crece como `M^{1/3}`, la masa de Hills fija el umbral (`1,14 �
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B27-C15 — Supernovas de colapso](../B27-C15-supernovas-de-colapso/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C17 — Explosiones de rayos gamma →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c17)
+[← Anterior: B27-C15 — Supernovas de colapso](../B27-C15-supernovas-de-colapso/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C17 — Explosiones de rayos gamma →](../B27-C17-explosiones-de-rayos-gamma/CLASE.md)
 <!-- /nav -->
