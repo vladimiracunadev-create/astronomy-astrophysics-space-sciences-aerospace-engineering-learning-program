@@ -1,7 +1,7 @@
 # B24-C12 — Manchas y actividad estelar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C11 — Rotación y campos magnéticos](../B24-C11-rotacion-y-campos-magneticos/CLASE.md) · [Siguiente: B24-C13 — Estrellas variables →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C11 — Rotación y campos magnéticos](../B24-C11-rotacion-y-campos-magneticos/CLASE.md) · [Siguiente: B24-C13 — Estrellas variables →](../B24-C13-estrellas-variables/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Una mancha de contraste `c` y radio angular `ρ` baja el brillo en `(1−c) sen�
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B24-C11 — Rotación y campos magnéticos](../B24-C11-rotacion-y-campos-magneticos/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C13 — Estrellas variables →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c13)
+[← Anterior: B24-C11 — Rotación y campos magnéticos](../B24-C11-rotacion-y-campos-magneticos/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C13 — Estrellas variables →](../B24-C13-estrellas-variables/CLASE.md)
 <!-- /nav -->
