@@ -1,7 +1,7 @@
 # B26-C16 — Nucleosíntesis primordial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C15 — Radiación cósmica de fondo](../B26-C15-radiacion-cosmica-de-fondo/CLASE.md) · [Siguiente: B26-C17 — Estructura cosmológica →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C15 — Radiación cósmica de fondo](../B26-C15-radiacion-cosmica-de-fondo/CLASE.md) · [Siguiente: B26-C17 — Estructura cosmológica →](../B26-C17-estructura-cosmologica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ La diferencia de masa neutrón–protón, la desintegración libre y el cuello d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B26-C15 — Radiación cósmica de fondo](../B26-C15-radiacion-cosmica-de-fondo/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C17 — Estructura cosmológica →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c17)
+[← Anterior: B26-C15 — Radiación cósmica de fondo](../B26-C15-radiacion-cosmica-de-fondo/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C17 — Estructura cosmológica →](../B26-C17-estructura-cosmologica/CLASE.md)
 <!-- /nav -->

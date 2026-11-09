@@ -82,10 +82,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b26-c17"></a>B26-C17 | Estructura cosmológica | Crecimiento lineal de perturbaciones y escala BAO. | Curva de crecimiento |
-| <a id="b26-c18"></a>B26-C18 | Materia oscura y evidencias | Curvas de rotación, halo y lentes gravitacionales. | Curva de rotación con halo |
-| <a id="b26-c19"></a>B26-C19 | Energía oscura y parámetros | Distancia de luminosidad y aceleración cósmica. | Tabla de distancias de luminosidad |
-| <a id="b26-c20"></a>B26-C20 | Límites observacionales de modelos cosmológicos | Ajuste por `χ²` y regiones de confianza. | Ajuste de `Ω_m` con su incertidumbre |
+| <a id="b26-c17"></a>[B26-C17](../clases/B26/B26-C17-estructura-cosmologica/CLASE.md) | Estructura cosmológica | Crecimiento lineal de perturbaciones y escala BAO. | Curva de crecimiento |
+| <a id="b26-c18"></a>[B26-C18](../clases/B26/B26-C18-materia-oscura-y-evidencias/CLASE.md) | Materia oscura y evidencias | Curvas de rotación, halo y lentes gravitacionales. | Curva de rotación con halo |
+| <a id="b26-c19"></a>[B26-C19](../clases/B26/B26-C19-energia-oscura-y-parametros/CLASE.md) | Energía oscura y parámetros | Distancia de luminosidad y aceleración cósmica. | Tabla de distancias de luminosidad |
+| <a id="b26-c20"></a>[B26-C20](../clases/B26/B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md) | Límites observacionales de modelos cosmológicos | Ajuste por `χ²` y regiones de confianza. | Ajuste de `Ω_m` con su incertidumbre |
 
 ### Tramo 6 · Ampliación `0.2.0`: inferencia y tensiones
 

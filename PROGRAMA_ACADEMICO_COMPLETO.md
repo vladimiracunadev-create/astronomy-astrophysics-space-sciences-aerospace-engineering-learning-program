@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 447 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 451 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
