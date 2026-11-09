@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 610 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 615 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -788,11 +788,11 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (10 clases): Funciones de distribución de velocidades en plasmas; Ondas de Alfvén y ondas magnetosónicas; Inestabilidades de plasma: cinéticas y de fluido…*
 
-- **B35-C01 — Funciones de distribución de velocidades en plasmas.** *Programada.* Introduce la función de distribución (Maxwell, kappa) como objeto central de la física de plasmas; B30 trata partículas cargadas y Debye pero no describe el plasma mediante distribuciones.
-- **B35-C02 — Ondas de Alfvén y ondas magnetosónicas.** *Programada.* B30-C08 cubre ondas de plasma electrostáticas y B30-C09 la MHD en general, pero ninguna clase desarrolla la dispersión y propagación de ondas de Alfvén.
-- **B35-C03 — Inestabilidades de plasma: cinéticas y de fluido.** *Programada.* Ninguna clase del tronco trata la estabilidad lineal de plasmas (two-stream, Kelvin-Helmholtz, tearing); es base para turbulencia, reconexión y choques.
-- **B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov.** *Programada.* Se necesita el criterio fluido frente a cinético y la ecuación de Vlasov; B30 asume el plasma como fluido sin establecer cuándo falla esa descripción.
-- **B35-C05 — Simulación de plasmas por partículas (PIC).** *Programada.* El método particle-in-cell no aparece en B11 ni B14; es la herramienta estándar para plasmas no colisionales en heliofísica.
+- **B35-C01 — Funciones de distribución de velocidades en plasmas.** *Texto redactado, pendiente de revisión.* Introduce la función de distribución (Maxwell, kappa) como objeto central de la física de plasmas; B30 trata partículas cargadas y Debye pero no describe el plasma mediante distribuciones.
+- **B35-C02 — Ondas de Alfvén y ondas magnetosónicas.** *Texto redactado, pendiente de revisión.* B30-C08 cubre ondas de plasma electrostáticas y B30-C09 la MHD en general, pero ninguna clase desarrolla la dispersión y propagación de ondas de Alfvén.
+- **B35-C03 — Inestabilidades de plasma: cinéticas y de fluido.** *Texto redactado, pendiente de revisión.* Ninguna clase del tronco trata la estabilidad lineal de plasmas (two-stream, Kelvin-Helmholtz, tearing); es base para turbulencia, reconexión y choques.
+- **B35-C04 — Colisiones, régimen cinético y ecuación de Vlasov.** *Texto redactado, pendiente de revisión.* Se necesita el criterio fluido frente a cinético y la ecuación de Vlasov; B30 asume el plasma como fluido sin establecer cuándo falla esa descripción.
+- **B35-C05 — Simulación de plasmas por partículas (PIC).** *Texto redactado, pendiente de revisión.* El método particle-in-cell no aparece en B11 ni B14; es la herramienta estándar para plasmas no colisionales en heliofísica.
 - **B35-C06 — Mediciones in situ de plasmas espaciales.** *Programada.* Enseña a interpretar mediciones de naves (distribuciones, campos, momentos) y sus sesgos; B47-C09 trata el detector pero no el análisis del plasma medido.
 - **B35-C07 — Congelamiento del flujo magnético y conservación en MHD ideal.** *Programada.* Teorema de Alfvén y conservación de flujo y helicidad; B30-C09 presenta las ecuaciones MHD sin desarrollar las leyes de conservación que sostienen el resto del módulo.
 - **B35-C08 — Flujos de plasma estacionarios y balance de presiones.** *Programada.* Flujos, equilibrio de presiones y Bernoulli magnético; no están en B30 ni en B09-B11.

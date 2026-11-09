@@ -1,7 +1,7 @@
 # B34-C09 — Integración multiinstrumento de datos heliofísicos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B34](../../../tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) · [← Anterior: B34-C08 — Erupciones de filamentos y prominencias](../B34-C08-erupciones-de-filamentos-y-prominencias/CLASE.md) · [Siguiente: B35-C01 — Funciones de distribución de velocidades en plasmas →](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md#b35-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B34](../../../tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) · [← Anterior: B34-C08 — Erupciones de filamentos y prominencias](../B34-C08-erupciones-de-filamentos-y-prominencias/CLASE.md) · [Siguiente: B35-C01 — Funciones de distribución de velocidades en plasmas →](../../B35/B35-C01-funciones-de-distribucion-de-velocidades-en-plasmas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -283,5 +283,5 @@ Tres series sintéticas con cadencias de 2 a 24 s se alinean con errores menores
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B34-C08 — Erupciones de filamentos y prominencias](../B34-C08-erupciones-de-filamentos-y-prominencias/CLASE.md) · [📚 Bloque B34](../../../tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) · [Siguiente: B35-C01 — Funciones de distribución de velocidades en plasmas →](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md#b35-c01)
+[← Anterior: B34-C08 — Erupciones de filamentos y prominencias](../B34-C08-erupciones-de-filamentos-y-prominencias/CLASE.md) · [📚 Bloque B34](../../../tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md) · [Siguiente: B35-C01 — Funciones de distribución de velocidades en plasmas →](../../B35/B35-C01-funciones-de-distribucion-de-velocidades-en-plasmas/CLASE.md)
 <!-- /nav -->

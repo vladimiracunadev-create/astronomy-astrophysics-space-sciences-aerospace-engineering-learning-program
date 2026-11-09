@@ -43,16 +43,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b35-c01"></a>B35-C01 | Funciones de distribución de velocidades en plasmas | Maxwell, kappa y sus momentos. | Ficha de las distribuciones de velocidad |
-| <a id="b35-c02"></a>B35-C02 | Ondas de Alfvén y ondas magnetosónicas | Velocidades de fase y simulación de una onda. | Ficha de las ondas MHD |
-| <a id="b35-c03"></a>B35-C03 | Inestabilidades de plasma: cinéticas y de fluido | Dos haces y Kelvin–Helmholtz. | Ficha de las inestabilidades |
-| <a id="b35-c04"></a>B35-C04 | Colisiones, régimen cinético y ecuación de Vlasov | Longitud de Debye, camino libre y amortiguamiento de Landau. | Ficha del régimen cinético |
+| <a id="b35-c01"></a>[B35-C01](../clases/B35/B35-C01-funciones-de-distribucion-de-velocidades-en-plasmas/CLASE.md) | Funciones de distribución de velocidades en plasmas | Maxwell, kappa y sus momentos. | Ficha de las distribuciones de velocidad |
+| <a id="b35-c02"></a>[B35-C02](../clases/B35/B35-C02-ondas-de-alfven-y-ondas-magnetosonicas/CLASE.md) | Ondas de Alfvén y ondas magnetosónicas | Velocidades de fase y simulación de una onda. | Ficha de las ondas MHD |
+| <a id="b35-c03"></a>[B35-C03](../clases/B35/B35-C03-inestabilidades-de-plasma-cineticas-y-de-fluido/CLASE.md) | Inestabilidades de plasma: cinéticas y de fluido | Dos haces y Kelvin–Helmholtz. | Ficha de las inestabilidades |
+| <a id="b35-c04"></a>[B35-C04](../clases/B35/B35-C04-colisiones-regimen-cinetico-y-ecuacion-de-vlasov/CLASE.md) | Colisiones, régimen cinético y ecuación de Vlasov | Longitud de Debye, camino libre y amortiguamiento de Landau. | Ficha del régimen cinético |
 
 ### Tramo 2 · Simulación y medición
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b35-c05"></a>B35-C05 | Simulación de plasmas por partículas (PIC) | PIC 1D: oscilación y dos haces. | Ficha de la simulación PIC |
+| <a id="b35-c05"></a>[B35-C05](../clases/B35/B35-C05-simulacion-de-plasmas-por-particulas-pic/CLASE.md) | Simulación de plasmas por partículas (PIC) | PIC 1D: oscilación y dos haces. | Ficha de la simulación PIC |
 | <a id="b35-c06"></a>B35-C06 | Mediciones in situ de plasmas espaciales | Momentos desde cuentas con ruido y truncamiento. | Ficha de las mediciones in situ |
 
 ### Tramo 3 · MHD, turbulencia y fronteras
