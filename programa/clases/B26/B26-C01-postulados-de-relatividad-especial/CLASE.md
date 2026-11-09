@@ -1,7 +1,7 @@
 # B26-C01 — Postulados de relatividad especial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B25-C20 — Proyecto de clasificación galáctica](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c20) · [Siguiente: B26-C02 — Transformaciones de Lorentz →](../B26-C02-transformaciones-de-lorentz/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B25-C20 — Proyecto de clasificación galáctica](../../B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md) · [Siguiente: B26-C02 — Transformaciones de Lorentz →](../B26-C02-transformaciones-de-lorentz/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Dos postulados bastan: la física es la misma en todo marco inercial y la luz va
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B25-C20 — Proyecto de clasificación galáctica](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c20) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C02 — Transformaciones de Lorentz →](../B26-C02-transformaciones-de-lorentz/CLASE.md)
+[← Anterior: B25-C20 — Proyecto de clasificación galáctica](../../B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C02 — Transformaciones de Lorentz →](../B26-C02-transformaciones-de-lorentz/CLASE.md)
 <!-- /nav -->

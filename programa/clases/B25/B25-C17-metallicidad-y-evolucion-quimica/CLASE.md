@@ -1,7 +1,7 @@
 # B25-C17 — Metalicidad y evolución química
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C16 — Retroalimentación estelar](../B25-C16-retroalimentacion-estelar/CLASE.md) · [Siguiente: B25-C18 — Estructura cósmica a gran escala →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c18)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C16 — Retroalimentación estelar](../B25-C16-retroalimentacion-estelar/CLASE.md) · [Siguiente: B25-C18 — Estructura cósmica a gran escala →](../B25-C18-estructura-cosmica-a-gran-escala/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ En una caja cerrada `Z = y ln(1/μ)`: con `y = 0,010` y `μ = 0,3` se llega a 0,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B25-C16 — Retroalimentación estelar](../B25-C16-retroalimentacion-estelar/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C18 — Estructura cósmica a gran escala →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c18)
+[← Anterior: B25-C16 — Retroalimentación estelar](../B25-C16-retroalimentacion-estelar/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C18 — Estructura cósmica a gran escala →](../B25-C18-estructura-cosmica-a-gran-escala/CLASE.md)
 <!-- /nav -->
