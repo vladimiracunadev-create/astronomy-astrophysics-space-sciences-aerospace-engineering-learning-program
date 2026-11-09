@@ -1,7 +1,7 @@
 # B52-C14 — Cinturones de asteroides
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C13 — Pequeños cuerpos remanentes](../B52-C13-pequenos-cuerpos-remanentes/CLASE.md) · [Siguiente: B52-C15 — Cinturón de Kuiper →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C13 — Pequeños cuerpos remanentes](../B52-C13-pequenos-cuerpos-remanentes/CLASE.md) · [Siguiente: B52-C15 — Cinturón de Kuiper →](../B52-C15-cinturon-de-kuiper/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ Las resonancias 4:1, 3:1, 5:2, 7:3 y 2:1 están en `2.06`–`3.28 ua`. Queda una
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B52-C13 — Pequeños cuerpos remanentes](../B52-C13-pequenos-cuerpos-remanentes/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C15 — Cinturón de Kuiper →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c15)
+[← Anterior: B52-C13 — Pequeños cuerpos remanentes](../B52-C13-pequenos-cuerpos-remanentes/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C15 — Cinturón de Kuiper →](../B52-C15-cinturon-de-kuiper/CLASE.md)
 <!-- /nav -->

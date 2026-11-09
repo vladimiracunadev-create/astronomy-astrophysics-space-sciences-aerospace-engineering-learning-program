@@ -68,15 +68,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b52-c12"></a>[B52-C12](../clases/B52/B52-C12-anillos-planetarios/CLASE.md) | Anillos planetarios | Límite de Roche con un modelo de dos esferas. | Ficha del límite de Roche |
 | <a id="b52-c13"></a>[B52-C13](../clases/B52/B52-C13-pequenos-cuerpos-remanentes/CLASE.md) | Pequeños cuerpos remanentes | Distribución de tamaños en ley de potencias y su estimación. | Ficha de la distribución de tamaños |
 | <a id="b52-c14"></a>[B52-C14](../clases/B52/B52-C14-cinturones-de-asteroides/CLASE.md) | Cinturones de asteroides | Lagunas de Kirkwood como resonancias con Júpiter. | Ficha de las lagunas de Kirkwood |
-| <a id="b52-c15"></a>B52-C15 | Cinturón de Kuiper | Resonancias con Neptuno y temperatura de equilibrio a 40 ua. | Ficha del cinturón de Kuiper |
-| <a id="b52-c16"></a>B52-C16 | Nube de Oort | Energía de ligadura, periodo y perturbación por el paso de una estrella. | Ficha de las perturbaciones de la nube de Oort |
+| <a id="b52-c15"></a>[B52-C15](../clases/B52/B52-C15-cinturon-de-kuiper/CLASE.md) | Cinturón de Kuiper | Resonancias con Neptuno y temperatura de equilibrio a 40 ua. | Ficha del cinturón de Kuiper |
+| <a id="b52-c16"></a>[B52-C16](../clases/B52/B52-C16-nube-de-oort/CLASE.md) | Nube de Oort | Energía de ligadura, periodo y perturbación por el paso de una estrella. | Ficha de las perturbaciones de la nube de Oort |
 
 ### Tramo 4 · Calor, estabilidad y simulación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b52-c17"></a>B52-C17 | Colisiones y evolución térmica | Calentamiento por impacto y enfriamiento por conducción de una esfera. | Ficha del enfriamiento de un cuerpo |
-| <a id="b52-c18"></a>B52-C18 | Diferenciación planetaria | Calentamiento por decaimiento radiactivo y energía gravitatoria de la diferenciación. | Ficha del calor y la energía de diferenciación |
+| <a id="b52-c17"></a>[B52-C17](../clases/B52/B52-C17-colisiones-y-evolucion-termica/CLASE.md) | Colisiones y evolución térmica | Calentamiento por impacto y enfriamiento por conducción de una esfera. | Ficha del enfriamiento de un cuerpo |
+| <a id="b52-c18"></a>[B52-C18](../clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md) | Diferenciación planetaria | Calentamiento por decaimiento radiactivo y energía gravitatoria de la diferenciación. | Ficha del calor y la energía de diferenciación |
 | <a id="b52-c19"></a>B52-C19 | Estabilidad a largo plazo de sistemas | Integración simpléctica, conservación y sensibilidad a las condiciones iniciales. | Ficha de la estabilidad de un sistema |
 | <a id="b52-c20"></a>B52-C20 | Simulación de formación planetaria simplificada | Fusión de embriones con comprobaciones de masa, momento angular y energía. | Ficha de la simulación de formación |
 
