@@ -1,97 +1,116 @@
 # B26 — Relatividad y cosmología
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 3 clases programadas (`B26-C21` a `B26-C23`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B26-C21` a `B26-C23`), listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 3 de la ampliación · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia relatividad y cosmología; cubre desde «Postulados de relatividad especial» hasta «Límites observacionales de modelos cosmológicos». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo el espacio, el tiempo y la gravedad dan forma al universo**, desde los dos postulados de la relatividad especial hasta el modelo cosmológico estándar y sus tensiones. Cada clase cierra con un cálculo verificable contra un caso analítico o una referencia independiente; las cifras observadas se citan con fuente y se distinguen de los datos sintéticos o ilustrativos.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B26-C01 — Postulados de relatividad especial
+1. Aplicar los postulados de la relatividad especial: composición de velocidades, transformaciones de Lorentz, dilatación del tiempo y contracción de longitudes.
+2. Usar el intervalo de Minkowski para decidir causalidad y calcular tiempos propios, y relacionar masa y energía.
+3. Explicar el principio de equivalencia, las métricas, las geodésicas y sus predicciones (corrimiento al rojo gravitacional, deflexión de la luz, precesión del perihelio).
+4. Describir la expansión del universo, la ley de Hubble–Lemaître y la escalera de distancias con su incertidumbre.
+5. Calcular con el modelo FLRW la edad, la evolución térmica, la radiación de fondo y la nucleosíntesis primordial.
+6. Explicar las evidencias de materia y energía oscuras y el crecimiento de estructuras.
+7. Combinar restricciones observacionales, analizar degeneraciones y evaluar las tensiones de Hubble y de `S₈`.
 
-Explica el fenómeno o técnica de «postulados de relatividad especial» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B26-C02 — Transformaciones de Lorentz
+```mermaid
+flowchart LR
+    A["C01-C05<br/>Relatividad especial"]
+    B["C06-C10<br/>Gravedad como geometría"]
+    C["C11-C13<br/>Expansión y modelo FLRW"]
+    D["C14-C16<br/>Universo temprano"]
+    E["C17-C20<br/>Estructura y componentes oscuros"]
+    F["C21-C23<br/>Inferencia y tensiones"]
+    A --> B --> C --> D --> E --> F
+```
 
-Delimita «transformaciones de Lorentz», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Seis tramos encadenados: relatividad especial (C01–C05), relatividad general introductoria (C06–C10), expansión y modelo de Friedmann (C11–C13), universo temprano (C14–C16), estructura y componentes oscuros (C17–C20) y la ampliación con verosimilitudes, degeneraciones y tensiones (C21–C23).
 
-### B26-C03 — Dilatación temporal y contracción
+## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
 
-Introduce el contexto y los principios de «dilatación temporal y contracción» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B26-C04 — Espacio-tiempo de Minkowski
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Describe los componentes principales de «espacio-tiempo de Minkowski» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Relatividad especial
 
-### B26-C05 — Equivalencia entre masa y energía
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b26-c01"></a>[B26-C01](../clases/B26/B26-C01-postulados-de-relatividad-especial/CLASE.md) | Postulados de relatividad especial | Constancia de `c`, composición de velocidades y rapidez. | Hoja de composición de velocidades |
+| <a id="b26-c02"></a>[B26-C02](../clases/B26/B26-C02-transformaciones-de-lorentz/CLASE.md) | Transformaciones de Lorentz | Boost, invariante del intervalo y composición de boosts. | Hoja de transformaciones verificadas |
+| <a id="b26-c03"></a>[B26-C03](../clases/B26/B26-C03-dilatacion-temporal-y-contraccion/CLASE.md) | Dilatación temporal y contracción | Tiempo propio y longitud propia aplicados a la supervivencia de muones. | Tabla de supervivencia de muones |
+| <a id="b26-c04"></a>[B26-C04](../clases/B26/B26-C04-espacio-tiempo-de-minkowski/CLASE.md) | Espacio-tiempo de Minkowski | Géneros del intervalo, conos de luz, causalidad y tiempo propio. | Ficha de causalidad y tiempo propio |
+| <a id="b26-c05"></a>B26-C05 | Equivalencia entre masa y energía | `E² = (pc)² + (mc²)²`, límite clásico y balances energéticos. | Balance de energía relativista |
 
-Presenta qué significa «equivalencia entre masa y energía», sus elementos esenciales y su función dentro de relatividad y cosmología.
+### Tramo 2 · Gravedad como geometría
 
-### B26-C06 — Principio de equivalencia
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b26-c06"></a>B26-C06 | Principio de equivalencia | Aceleración y gravedad localmente indistinguibles; corrimiento por aceleración. | Ficha de corrimiento por aceleración |
+| <a id="b26-c07"></a>B26-C07 | Curvatura y métricas | Métrica, radio de Schwarzschild y distancia propia. | Ficha de métrica y distancia propia |
+| <a id="b26-c08"></a>B26-C08 | Geodésicas gravitacionales | Geodésicas sobre superficies y precesión del perihelio. | Verificación de la precesión |
+| <a id="b26-c09"></a>B26-C09 | Relatividad general introductoria | Campo débil, ecuación de Einstein cualitativa y deflexión de la luz. | Cálculo de la deflexión solar |
+| <a id="b26-c10"></a>B26-C10 | Desplazamiento gravitacional al rojo | Corrimiento exacto y de campo débil, y contraste con la prueba de Galileo. | Tabla de corrimientos |
 
-Explica el fenómeno o técnica de «principio de equivalencia» y su aplicación observable o tecnológica.
+### Tramo 3 · Expansión y modelo FLRW
 
-### B26-C07 — Curvatura y métricas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b26-c11"></a>B26-C11 | Expansión cósmica y ley de Hubble-Lemaître | Ley de Hubble, ajuste con dispersión y tiempo de Hubble. | Ajuste de la ley con su incertidumbre |
+| <a id="b26-c12"></a>B26-C12 | Escalas de distancia cosmológicas | Escalera de distancias y propagación de errores. | Presupuesto de la escalera |
+| <a id="b26-c13"></a>B26-C13 | Modelo FLRW — Relatividad y cosmología | Ecuación de Friedmann y edad del universo. | Cálculo de la edad |
 
-Delimita «curvatura y métricas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Universo temprano
 
-### B26-C08 — Geodésicas gravitacionales
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b26-c14"></a>B26-C14 | Evolución térmica del universo | `T(z)`, densidad de radiación e igualdad materia–radiación. | Línea de tiempo térmica |
+| <a id="b26-c15"></a>B26-C15 | Radiación cósmica de fondo | Cuerpo negro cósmico, densidad de fotones y máximo espectral. | Ficha del cuerpo negro cósmico |
+| <a id="b26-c16"></a>B26-C16 | Nucleosíntesis primordial | Razón neutrón/protón y fracción de helio. | Cálculo de la fracción de helio |
 
-Introduce el contexto y los principios de «geodésicas gravitacionales» para comprender su uso científico.
+### Tramo 5 · Estructura y componentes oscuros
 
-### B26-C09 — Relatividad general introductoria
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b26-c17"></a>B26-C17 | Estructura cosmológica | Crecimiento lineal de perturbaciones y escala BAO. | Curva de crecimiento |
+| <a id="b26-c18"></a>B26-C18 | Materia oscura y evidencias | Curvas de rotación, halo y lentes gravitacionales. | Curva de rotación con halo |
+| <a id="b26-c19"></a>B26-C19 | Energía oscura y parámetros | Distancia de luminosidad y aceleración cósmica. | Tabla de distancias de luminosidad |
+| <a id="b26-c20"></a>B26-C20 | Límites observacionales de modelos cosmológicos | Ajuste por `χ²` y regiones de confianza. | Ajuste de `Ω_m` con su incertidumbre |
 
-Describe los componentes principales de «relatividad general introductoria» y por qué son relevantes para esta disciplina.
+### Tramo 6 · Ampliación `0.2.0`: inferencia y tensiones
 
-### B26-C10 — Desplazamiento gravitacional al rojo
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b26-c21"></a>B26-C21 | Verosimilitud cosmológica con datos combinados | Combinación de restricciones gaussianas y consistencia. | Combinación de restricciones de `Ω_m` |
+| <a id="b26-c22"></a>B26-C22 | Degeneraciones de parámetros cosmológicos | Matriz de Fisher, correlación y ruptura de degeneraciones. | Elipse de Fisher antes y después |
+| <a id="b26-c23"></a>B26-C23 | Tensiones observacionales: constante de Hubble y S8 | Significancia estadística de discrepancias. | Informe de significancia de dos tensiones |
 
-Presenta qué significa «desplazamiento gravitacional al rojo», sus elementos esenciales y su función dentro de relatividad y cosmología.
+## 🧵 Hilos que atraviesan el bloque
 
-### B26-C11 — Expansión cósmica y ley de Hubble-Lemaître
+- **Invariantes:** el intervalo (C02, C04) y la energía–momento (C05) son lo que no cambia entre observadores.
+- **Escalas de tiempo y distancia:** C03, C10 y C11–C13 convierten teoría en números medibles.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico o una referencia.
+- **Datos observados frente a modelos:** C11–C23 distinguen lo medido, lo ajustado y lo supuesto.
 
-Ubica «expansión cósmica y ley de Hubble-Lemaître» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B26-C12 — Escalas de distancia cosmológicas
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: la combinación de restricciones y el análisis de tensiones (C21–C23).
+- Las condiciones críticas (rotular lo sintético y lo ilustrativo, no presentar un ajuste como medida y citar solo lo consultado) no se compensan con promedio.
 
-Delimita «escalas de distancia cosmológicas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+## ⚠️ Seguridad y límites
 
-### B26-C13 — Modelo FLRW — Relatividad y cosmología
-
-Presenta «modelo FLRW — Relatividad y cosmología» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-
-### B26-C14 — Evolución térmica del universo
-
-Describe los componentes principales de «evolución térmica del universo» y por qué son relevantes para esta disciplina.
-
-### B26-C15 — Radiación cósmica de fondo
-
-Caracteriza «radiación cósmica de fondo», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
-
-### B26-C16 — Nucleosíntesis primordial
-
-Explica el fenómeno o técnica de «nucleosíntesis primordial» y su aplicación observable o tecnológica.
-
-### B26-C17 — Estructura cosmológica
-
-Delimita «estructura cosmológica», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B26-C18 — Materia oscura y evidencias
-
-Introduce el contexto y los principios de «materia oscura y evidencias» para comprender su uso científico.
-
-### B26-C19 — Energía oscura y parámetros
-
-Describe los componentes principales de «energía oscura y parámetros» y por qué son relevantes para esta disciplina.
-
-### B26-C20 — Límites observacionales de modelos cosmológicos
-
-Presenta «límites observacionales de modelos cosmológicos» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
+El bloque es educativo. Los modelos son simplificados (marcos planos, métricas sencillas, ΛCDM plano) y no sustituyen la literatura primaria ni los códigos de análisis cosmológico. Las cifras publicadas se citan con fecha de consulta y estado; en esta primera redacción de la mayoría de artículos solo se consultó el resumen.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +119,6 @@ Presenta «límites observacionales de modelos cosmológicos» mediante definici
 - **[LIGO]** [LIGO Scientific Collaboration](https://www.ligo.org/) — Observaciones y métodos de ondas gravitacionales.
 - **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B27 — Objetos compactos y altas energías](./B27-objetos-compactos-y-altas-energias.md)
