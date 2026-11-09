@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 651 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 654 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -811,9 +811,9 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B36-C06 — Formación de halos y función de masa.** *Texto redactado, pendiente de revisión.* B25-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos.
 - **B36-C07 — Oscilaciones acústicas bariónicas como regla estándar.** *Texto redactado, pendiente de revisión.* Ninguna clase presenta las BAO como escala característica en la distribución de materia ni su uso en distancias cosmológicas.
 - **B36-C08 — Sesgo de galaxias y trazadores de la materia.** *Texto redactado, pendiente de revisión.* B25-C19 trata sesgos de selección; falta el sesgo entre galaxias y materia total y su impacto en los parámetros.
-- **B36-C09 — Cúmulos en colisión como prueba de materia oscura.** *Programada.* B25-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan.
-- **B36-C10 — Búsqueda directa de materia oscura en laboratorio.** *Programada.* B31-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa.
-- **B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura.** *Programada.* Ninguna clase presenta alternativas a la materia oscura ni las confronta con lentes, cúmulos y CMB.
+- **B36-C09 — Cúmulos en colisión como prueba de materia oscura.** *Texto redactado, pendiente de revisión.* B25-C13 describe cúmulos en general; falta analizar los sistemas en colisión donde masa y gas bariónico se separan.
+- **B36-C10 — Búsqueda directa de materia oscura en laboratorio.** *Texto redactado, pendiente de revisión.* B31-C14 trata detectores de partículas en general; falta el diseño, el fondo y las señales de experimentos de detección directa.
+- **B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura.** *Texto redactado, pendiente de revisión.* Ninguna clase presenta alternativas a la materia oscura ni las confronta con lentes, cúmulos y CMB.
 
 ### B37 — Interiores estelares y asterosismología
 

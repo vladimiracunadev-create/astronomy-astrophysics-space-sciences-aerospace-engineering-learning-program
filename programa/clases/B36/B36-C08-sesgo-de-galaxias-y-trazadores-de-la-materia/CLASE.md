@@ -1,7 +1,7 @@
 # B36-C08 — Sesgo de galaxias y trazadores de la materia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [← Anterior: B36-C07 — Oscilaciones acústicas bariónicas como regla estándar](../B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md) · [Siguiente: B36-C09 — Cúmulos en colisión como prueba de materia oscura →](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [← Anterior: B36-C07 — Oscilaciones acústicas bariónicas como regla estándar](../B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md) · [Siguiente: B36-C09 — Cúmulos en colisión como prueba de materia oscura →](../B36-C09-cumulos-en-colision-como-prueba-de-materia-oscura/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ El sesgo de umbral coincide con φ(ν)/p (`1,986` frente a `1,939` a `ν = 1,5`)
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B36-C07 — Oscilaciones acústicas bariónicas como regla estándar](../B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [Siguiente: B36-C09 — Cúmulos en colisión como prueba de materia oscura →](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c09)
+[← Anterior: B36-C07 — Oscilaciones acústicas bariónicas como regla estándar](../B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [Siguiente: B36-C09 — Cúmulos en colisión como prueba de materia oscura →](../B36-C09-cumulos-en-colision-como-prueba-de-materia-oscura/CLASE.md)
 <!-- /nav -->

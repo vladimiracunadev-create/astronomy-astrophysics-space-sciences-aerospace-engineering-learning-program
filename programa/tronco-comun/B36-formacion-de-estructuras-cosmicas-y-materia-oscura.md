@@ -61,9 +61,9 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b36-c09"></a>B36-C09 | Cúmulos en colisión como prueba de materia oscura | Desplazamiento masa-gas y lente de esfera isoterma. | Ficha del cúmulo en colisión |
-| <a id="b36-c10"></a>B36-C10 | Búsqueda directa de materia oscura en laboratorio | Tasa de retroceso, modulación y límite sin fondo. | Ficha de la detección directa |
-| <a id="b36-c11"></a>B36-C11 | Gravedad modificada (MOND y relativistas) frente a materia oscura | Relación de aceleración y curva plana frente a halo. | Ficha de la gravedad modificada |
+| <a id="b36-c09"></a>[B36-C09](../clases/B36/B36-C09-cumulos-en-colision-como-prueba-de-materia-oscura/CLASE.md) | Cúmulos en colisión como prueba de materia oscura | Desplazamiento masa-gas y lente de esfera isoterma. | Ficha del cúmulo en colisión |
+| <a id="b36-c10"></a>[B36-C10](../clases/B36/B36-C10-busqueda-directa-de-materia-oscura-en-laboratorio/CLASE.md) | Búsqueda directa de materia oscura en laboratorio | Tasa de retroceso, modulación y límite sin fondo. | Ficha de la detección directa |
+| <a id="b36-c11"></a>[B36-C11](../clases/B36/B36-C11-gravedad-modificada-mond-y-relativistas-frente-a-materia-oscura/CLASE.md) | Gravedad modificada (MOND y relativistas) frente a materia oscura | Relación de aceleración y curva plana frente a halo. | Ficha de la gravedad modificada |
 
 ## 🧵 Hilos que atraviesan el bloque
 

@@ -1,7 +1,7 @@
 # B37-C01 — Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [← Anterior: B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c11) · [Siguiente: B37-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración →](../B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [← Anterior: B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura](../../B36/B36-C11-gravedad-modificada-mond-y-relativistas-frente-a-materia-oscura/CLASE.md) · [Siguiente: B37-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración →](../B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ La convección fija el gradiente real cerca del adiabático y la fracción del f
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c11) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [Siguiente: B37-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración →](../B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md)
+[← Anterior: B36-C11 — Gravedad modificada (MOND y relativistas) frente a materia oscura](../../B36/B36-C11-gravedad-modificada-mond-y-relativistas-frente-a-materia-oscura/CLASE.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [Siguiente: B37-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración →](../B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md)
 <!-- /nav -->
