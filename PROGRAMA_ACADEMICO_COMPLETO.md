@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 604 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 610 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -852,12 +852,12 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (6 clases): Variedades, tensor métrico y geometría diferencial; Conexión afín y símbolos de Christoffel; Tensor de Riemann, Ricci y curvatura escalar…*
 
-- **B39-C01 — Variedades, tensor métrico y geometría diferencial.** *Programada.* B26-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general.
-- **B39-C02 — Conexión afín y símbolos de Christoffel.** *Programada.* Ninguna clase define la derivada covariante ni los símbolos de Christoffel, necesarios para escribir geodésicas y curvatura.
-- **B39-C03 — Tensor de Riemann, Ricci y curvatura escalar.** *Programada.* B26-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones.
-- **B39-C04 — Tensor de energía-momento y fuentes de curvatura.** *Programada.* Ninguna clase describe el tensor energía-momento de fluidos y campos que actúa como fuente en las ecuaciones de Einstein.
-- **B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano.** *Programada.* B26-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano.
-- **B39-C06 — Introducción a la relatividad numérica: formalismo 3+1.** *Programada.* B11 trata métodos numéricos generales; ninguna clase presenta la descomposición 3+1 ni la evolución numérica de espacio-tiempos.
+- **B39-C01 — Variedades, tensor métrico y geometría diferencial.** *Texto redactado, pendiente de revisión.* B26-C07 introduce curvatura y métricas sin el aparato de variedades, vectores tangentes ni tensor métrico general.
+- **B39-C02 — Conexión afín y símbolos de Christoffel.** *Texto redactado, pendiente de revisión.* Ninguna clase define la derivada covariante ni los símbolos de Christoffel, necesarios para escribir geodésicas y curvatura.
+- **B39-C03 — Tensor de Riemann, Ricci y curvatura escalar.** *Texto redactado, pendiente de revisión.* B26-C07 habla de curvatura cualitativamente; falta el cálculo del tensor de Riemann y sus contracciones.
+- **B39-C04 — Tensor de energía-momento y fuentes de curvatura.** *Texto redactado, pendiente de revisión.* Ninguna clase describe el tensor energía-momento de fluidos y campos que actúa como fuente en las ecuaciones de Einstein.
+- **B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano.** *Texto redactado, pendiente de revisión.* B26-C09 es una introducción; falta la formulación completa, sus simetrías y la recuperación del límite newtoniano.
+- **B39-C06 — Introducción a la relatividad numérica: formalismo 3+1.** *Texto redactado, pendiente de revisión.* B11 trata métodos numéricos generales; ninguna clase presenta la descomposición 3+1 ni la evolución numérica de espacio-tiempos.
 
 ### B40 — Universo temprano y radiación cósmica de fondo
 

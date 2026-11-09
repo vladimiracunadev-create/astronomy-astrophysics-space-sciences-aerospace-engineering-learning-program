@@ -42,17 +42,17 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b39-c01"></a>B39-C01 | Variedades, tensor métrico y geometría diferencial | Métrica, longitudes y cambio de coordenadas. | Ficha de la métrica |
-| <a id="b39-c02"></a>B39-C02 | Conexión afín y símbolos de Christoffel | Christoffel, geodésicas y compatibilidad métrica. | Ficha de la conexión |
-| <a id="b39-c03"></a>B39-C03 | Tensor de Riemann, Ricci y curvatura escalar | Riemann, Ricci y curvatura escalar de la 2-esfera y de Schwarzschild. | Ficha de la curvatura |
+| <a id="b39-c01"></a>[B39-C01](../clases/B39/B39-C01-variedades-tensor-metrico-y-geometria-diferencial/CLASE.md) | Variedades, tensor métrico y geometría diferencial | Métrica, longitudes y cambio de coordenadas. | Ficha de la métrica |
+| <a id="b39-c02"></a>[B39-C02](../clases/B39/B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md) | Conexión afín y símbolos de Christoffel | Christoffel, geodésicas y compatibilidad métrica. | Ficha de la conexión |
+| <a id="b39-c03"></a>[B39-C03](../clases/B39/B39-C03-tensor-de-riemann-ricci-y-curvatura-escalar/CLASE.md) | Tensor de Riemann, Ricci y curvatura escalar | Riemann, Ricci y curvatura escalar de la 2-esfera y de Schwarzschild. | Ficha de la curvatura |
 
 ### Tramo 2 · Dinámica y evolución
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b39-c04"></a>B39-C04 | Tensor de energía-momento y fuentes de curvatura | Fluido perfecto y condiciones de energía. | Ficha del tensor de energía-momento |
-| <a id="b39-c05"></a>B39-C05 | Ecuaciones de campo de Einstein y límite newtoniano | Tensor de Einstein, Bianchi y límite de campo débil. | Ficha de las ecuaciones de campo |
-| <a id="b39-c06"></a>B39-C06 | Introducción a la relatividad numérica: formalismo 3+1 | Lapso, desplazamiento y evolución con convergencia. | Ficha del formalismo 3+1 |
+| <a id="b39-c04"></a>[B39-C04](../clases/B39/B39-C04-tensor-de-energia-momento-y-fuentes-de-curvatura/CLASE.md) | Tensor de energía-momento y fuentes de curvatura | Fluido perfecto y condiciones de energía. | Ficha del tensor de energía-momento |
+| <a id="b39-c05"></a>[B39-C05](../clases/B39/B39-C05-ecuaciones-de-campo-de-einstein-y-limite-newtoniano/CLASE.md) | Ecuaciones de campo de Einstein y límite newtoniano | Tensor de Einstein, Bianchi y límite de campo débil. | Ficha de las ecuaciones de campo |
+| <a id="b39-c06"></a>[B39-C06](../clases/B39/B39-C06-introduccion-a-la-relatividad-numerica-formalismo-3-1/CLASE.md) | Introducción a la relatividad numérica: formalismo 3+1 | Lapso, desplazamiento y evolución con convergencia. | Ficha del formalismo 3+1 |
 
 ## 🧵 Hilos que atraviesan el bloque
 
