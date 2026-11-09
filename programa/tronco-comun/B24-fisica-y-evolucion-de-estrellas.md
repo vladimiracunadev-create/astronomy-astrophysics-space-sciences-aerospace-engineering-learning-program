@@ -98,8 +98,8 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b24-c21"></a>B24-C21 | Rama asintótica de gigantes: pulsos térmicos y proceso s | Pulsos térmicos, dragados y capturas lentas de neutrones. | Ficha de la fase AGB |
-| <a id="b24-c22"></a>B24-C22 | Evolución binaria: lóbulo de Roche y transferencia de masa | Radio del lóbulo de Roche y evolución del semieje con transferencia de masa. | Ficha de una binaria interactuante |
+| <a id="b24-c21"></a>[B24-C21](../clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md) | Rama asintótica de gigantes: pulsos térmicos y proceso s | Pulsos térmicos, dragados y capturas lentas de neutrones. | Ficha de la fase AGB |
+| <a id="b24-c22"></a>[B24-C22](../clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md) | Evolución binaria: lóbulo de Roche y transferencia de masa | Radio del lóbulo de Roche y evolución del semieje con transferencia de masa. | Ficha de una binaria interactuante |
 
 ## 🧵 Hilos que atraviesan el bloque
 

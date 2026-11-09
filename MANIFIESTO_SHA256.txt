@@ -12,7 +12,7 @@ c3e98d66d883c2786eb7ef625b314e167939f25e8114f95f0163b8b9d2cf332c  CODE_OF_CONDUC
 c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4  LICENSE
 18b5380fbe701c7e1e2bce5162c10b48e0ccb0c859619fe4d393ab6777d984c9  LICENSE-CONTENT.md
 fae968f3f7746cc7cb7efd0503439c97c7ca9e528f1896a630efcfe708eecedc  LICENSING_AUDIT.md
-1a32a6da5e343f08b7613ad79b094448fd7706a53298204a5054690cdba301e2  PROGRAMA_ACADEMICO_COMPLETO.md
+e57fdd41c48e10b26139f874680eb024c506df79f7afe8a2208cc00e6b85ff61  PROGRAMA_ACADEMICO_COMPLETO.md
 efa119b25d3f970e950fe1712c80e8e85f726393736835f1cafbfe42f9c8f296  README.md
 ac0570215a757b0be7f8c6a292f5e4c8426134264665bc3cc6c024d392ee0fc8  ROADMAP.md
 47e4d5b165ff6e0f5f6a3df86900e3803ebf83185436be5a427aeaaee5722aed  SECURITY.md
@@ -1370,9 +1370,15 @@ d17733af854bfbdda60502264285d110b3f827004d32d50e7936cf1651793400  programa/clase
 b378420523e8136e626b0cad63b7d9aacb16fdbdaabcb0b5a8eed6a42eba5433  programa/clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md
 76def39186ee4d514f92e404902b44fa47e2f9ea629d19d5a2ad902b91792d74  programa/clases/B24/B24-C19-cumulos-y-edades-estelares/FICHA_EDITORIAL.md
 6b15ad8bc6b07cba24f4c5167002edd2051fb1874b2cb2fcd852fedae779a4a4  programa/clases/B24/B24-C19-cumulos-y-edades-estelares/cumulo.py
-e46e7aabdd1e2bd6d81b8f8b55ab296e7341ddd01f4385253e207d7d52e8d0cd  programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md
+d395e5f56e667fb4d50eeef12b1ba1ca84e6eb2b787915d68ae1025a296650f9  programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md
 9bbd3683a43601e6d6e21033cba57bd81cd7f63ec3a8c53f08c0b1351364bb41  programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/FICHA_EDITORIAL.md
 3e843707cb1d8ad653b0406b087684e7980b1096ba462f935634e2cc67cbbb1f  programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/politropo_solar.py
+8cd6cfbd702b36f01990b409e91ef45e663fe89706842acf25e2a8dad6e575bf  programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md
+9fd3b564b6c3e4da971962d66c18c539f635450ab82c95dd2ce962bd992da395  programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/FICHA_EDITORIAL.md
+6861cb210741cb9f6948e84ef51ecd50a2b3751130c1aa59115b1e264c72c387  programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/proceso_s.py
+20fcc98c5f7b771a5e5e55ac2495a568aba7e5b04e69816eb54134b49bfdd547  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md
+f84aeb256bbdce0e6a0a63b913db9abd3b94cd93679f96eb3d6a11e4f76f50d0  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/FICHA_EDITORIAL.md
+51a93337e23a96867ee85b39b7e2346efed217dd4d90aabd20407bd8e071de7c  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/roche.py
 fd0dea4dd8e08f41d55a6db3507e9a625d06537b8c7aff756a082f7b7205b10a  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 12e2c051acdf5e8f590edb3a729dfc92bf337b009c1e7ced6970d01b0213da2b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
 bc6e94859241614d46812bacdd1fc82af6786e2851993e60fab120164e4c2639  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md
@@ -1636,7 +1642,7 @@ f50de1416d392e4ced9fa8dc86ec9bcbfb635439aa3418cc9d56fdca8cf112ab  programa/tronc
 fdc5cadebb996161ee585fa5fecdacae08943eee3ad73c1d6e2e651d6eb8e130  programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md
 5b83365ccd24a264a0c54e454307b5dc15bc467760c673241c3b391d863a6efe  programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md
 4c42ff420999822642939ad21c7d97989c435f1bfe4c9cb2f172b872ce8097ec  programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md
-1fdb5e42a9dee578e43fcb6fcd44dc10e38952af34b76273320f0d08c6541e61  programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md
+e6084c983b089a05b8ce0654bf8e53c8771a2cfb7f0f24e56598e393cb56fd01  programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md
 8a75c1265eea9c68d3787b7aa9f321ca6ca3f9d2c2d2d312fb9ce77ce7b9a4a8  programa/tronco-comun/B25-galaxias-y-medio-interestelar.md
 23ad1f7627c4c073cd59364453e2ab576a98c2a4f1aa82ce524eefaae590f930  programa/tronco-comun/B26-relatividad-y-cosmologia.md
 bb507372f999fe9299d8f5cb6e1012927f7769bb79be41caea219dbff32a7855  programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md

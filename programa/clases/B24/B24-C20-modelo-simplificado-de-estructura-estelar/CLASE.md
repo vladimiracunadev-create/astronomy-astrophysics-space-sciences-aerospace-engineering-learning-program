@@ -1,7 +1,7 @@
 # B24-C20 — Modelo simplificado de estructura estelar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C19 — Cúmulos y edades estelares](../B24-C19-cumulos-y-edades-estelares/CLASE.md) · [Siguiente: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C19 — Cúmulos y edades estelares](../B24-C19-cumulos-y-edades-estelares/CLASE.md) · [Siguiente: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s →](../B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Un politropo `n = 3` con la masa y el radio del Sol da valores centrales dentro 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B24-C19 — Cúmulos y edades estelares](../B24-C19-cumulos-y-edades-estelares/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c21)
+[← Anterior: B24-C19 — Cúmulos y edades estelares](../B24-C19-cumulos-y-edades-estelares/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s →](../B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md)
 <!-- /nav -->

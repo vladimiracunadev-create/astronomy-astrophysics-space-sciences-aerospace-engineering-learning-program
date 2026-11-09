@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 417 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 419 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -552,8 +552,8 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B24-C18 — Etapas finales de evolución.** Introduce el contexto y los principios de «etapas finales de evolución» para comprender su uso científico.
 - **B24-C19 — Cúmulos y edades estelares.** Describe los componentes principales de «cúmulos y edades estelares» y por qué son relevantes para esta disciplina.
 - **B24-C20 — Modelo simplificado de estructura estelar.** Presenta «modelo simplificado de estructura estelar» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s.** *Programada.* B24-C16 y B24-C18 describen gigantes y etapas finales de forma general; falta la fase AGB, los dragados y la producción de elementos s.
-- **B24-C22 — Evolución binaria: lóbulo de Roche y transferencia de masa.** *Programada.* B27-C13 trata binarias compactas ya formadas; ninguna clase explica cómo la transferencia de masa altera la evolución de estrellas en sistemas binarios.
+- **B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s.** *Texto redactado, pendiente de revisión.* B24-C16 y B24-C18 describen gigantes y etapas finales de forma general; falta la fase AGB, los dragados y la producción de elementos s.
+- **B24-C22 — Evolución binaria: lóbulo de Roche y transferencia de masa.** *Texto redactado, pendiente de revisión.* B27-C13 trata binarias compactas ya formadas; ninguna clase explica cómo la transferencia de masa altera la evolución de estrellas en sistemas binarios.
 
 ### B25 — Galaxias y medio interestelar
 
