@@ -1,7 +1,7 @@
 # B64-C05 — Acidófilos y alcalófilos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [← Anterior: B64-C04 — Halófilos y vida en salmueras](../B64-C04-halofilos-y-vida-en-salmueras/CLASE.md) · [Siguiente: B64-C06 — Biofilms en ambientes extremos →](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md#b64-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [← Anterior: B64-C04 — Halófilos y vida en salmueras](../B64-C04-halofilos-y-vida-en-salmueras/CLASE.md) · [Siguiente: B64-C06 — Biofilms en ambientes extremos →](../B64-C06-biofilms-en-ambientes-extremos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ La fuerza protonmotriz suma un término eléctrico y uno de pH; en los acidófil
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B64-C04 — Halófilos y vida en salmueras](../B64-C04-halofilos-y-vida-en-salmueras/CLASE.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [Siguiente: B64-C06 — Biofilms en ambientes extremos →](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md#b64-c06)
+[← Anterior: B64-C04 — Halófilos y vida en salmueras](../B64-C04-halofilos-y-vida-en-salmueras/CLASE.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [Siguiente: B64-C06 — Biofilms en ambientes extremos →](../B64-C06-biofilms-en-ambientes-extremos/CLASE.md)
 <!-- /nav -->

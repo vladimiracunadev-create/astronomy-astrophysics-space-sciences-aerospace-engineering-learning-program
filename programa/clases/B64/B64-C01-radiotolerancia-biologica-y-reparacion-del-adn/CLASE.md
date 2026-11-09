@@ -1,7 +1,7 @@
 # B64-C01 — Radiotolerancia biológica y reparación del ADN
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [← Anterior: B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md#b63-c06) · [Siguiente: B64-C02 — Termófilos e hipertermófilos →](../B64-C02-termofilos-e-hipertermofilos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [← Anterior: B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión](../../B63/B63-C06-evaluacion-de-riesgos-biologicos-de-muestras-marcos-de-decision/CLASE.md) · [Siguiente: B64-C02 — Termófilos e hipertermófilos →](../B64-C02-termofilos-e-hipertermofilos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ La supervivencia del modelo depende de dos cosas: cuántas roturas llegan (`λ`)
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md#b63-c06) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [Siguiente: B64-C02 — Termófilos e hipertermófilos →](../B64-C02-termofilos-e-hipertermofilos/CLASE.md)
+[← Anterior: B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión](../../B63/B63-C06-evaluacion-de-riesgos-biologicos-de-muestras-marcos-de-decision/CLASE.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [Siguiente: B64-C02 — Termófilos e hipertermófilos →](../B64-C02-termofilos-e-hipertermofilos/CLASE.md)
 <!-- /nav -->

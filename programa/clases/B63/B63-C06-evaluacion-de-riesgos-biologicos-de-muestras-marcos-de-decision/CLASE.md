@@ -1,7 +1,7 @@
 # B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [← Anterior: B63-C05 — Contención de muestras extraterrestres: instalaciones y principios](../B63-C05-contencion-de-muestras-extraterrestres-instalaciones-y-principios/CLASE.md) · [Siguiente: B64-C01 — Radiotolerancia biológica y reparación del ADN →](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md#b64-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [← Anterior: B63-C05 — Contención de muestras extraterrestres: instalaciones y principios](../B63-C05-contencion-de-muestras-extraterrestres-instalaciones-y-principios/CLASE.md) · [Siguiente: B64-C01 — Radiotolerancia biológica y reparación del ADN →](../../B64/B64-C01-radiotolerancia-biologica-y-reparacion-del-adn/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ Con previa `10⁻³`, sensibilidad `0,90` y especificidad `0,95`, tres negativos
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B63-C05 — Contención de muestras extraterrestres: instalaciones y principios](../B63-C05-contencion-de-muestras-extraterrestres-instalaciones-y-principios/CLASE.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [Siguiente: B64-C01 — Radiotolerancia biológica y reparación del ADN →](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md#b64-c01)
+[← Anterior: B63-C05 — Contención de muestras extraterrestres: instalaciones y principios](../B63-C05-contencion-de-muestras-extraterrestres-instalaciones-y-principios/CLASE.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [Siguiente: B64-C01 — Radiotolerancia biológica y reparación del ADN →](../../B64/B64-C01-radiotolerancia-biologica-y-reparacion-del-adn/CLASE.md)
 <!-- /nav -->

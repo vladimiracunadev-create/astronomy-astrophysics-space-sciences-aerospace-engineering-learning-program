@@ -52,8 +52,8 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b64-c06"></a>B64-C06 | Biofilms en ambientes extremos | Matriz de EPS, módulo de Thiele y factor de efectividad de una película. | Ficha del biofilm |
-| <a id="b64-c07"></a>B64-C07 | Cultivo de extremófilos no patógenos en condiciones análogas | Balance de gases de una cámara, crecimiento logístico y límites de un análogo. | Ficha del cultivo en cámara análoga |
+| <a id="b64-c06"></a>[B64-C06](../clases/B64/B64-C06-biofilms-en-ambientes-extremos/CLASE.md) | Biofilms en ambientes extremos | Matriz de EPS, módulo de Thiele y factor de efectividad de una película. | Ficha del biofilm |
+| <a id="b64-c07"></a>[B64-C07](../clases/B64/B64-C07-cultivo-de-extremofilos-no-patogenos-en-condiciones-analogas/CLASE.md) | Cultivo de extremófilos no patógenos en condiciones análogas | Balance de gases de una cámara, crecimiento logístico y límites de un análogo. | Ficha del cultivo en cámara análoga |
 
 ## 🧵 Hilos que atraviesan el bloque
 
