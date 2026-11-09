@@ -1,97 +1,113 @@
 # B43 — Construcción y mecánica de telescopios
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 6 clases programadas (`B43-C21` a `B43-C26`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 6 clases programadas por la ampliación (`B43-C21` a `B43-C26`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 6 de la ampliación · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia construcción y mecánica de telescopios; cubre desde «Requisitos ópticos y mecánicos» hasta «Proyecto mecánico completo de telescopio». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se construye y se sostiene un telescopio con el error óptico y mecánico que la ciencia tolera**: los requisitos y la geometría, los materiales y la fabricación del espejo (desbaste, pulido, pruebas de Foucault y Ronchi, aluminizado), el apoyo y la celda del primario, el tubo y la estabilidad térmica, las monturas ecuatorial y altacimutal con sus reductores, motores y codificadores, la alineación polar y la colimación, la seguridad y el proyecto completo; la ampliación añade la selección de vidrios, la interferometría de superficie, la rugosidad, los recubrimientos multicapa, los rodamientos de precisión y el modelo de apuntado. Cada clase cierra con un cálculo verificable contra un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B43-C01 — Requisitos ópticos y mecánicos
+1. Traducir un tamaño de apertura y una tolerancia de frente de onda en requisitos mecánicos medibles.
+2. Calcular sagita, volumen de vidrio, tiempos de abrasión y la desviación entre esfera y paraboloide.
+3. Interpretar pruebas de Foucault y Ronchi y mapas de interferometría de superficie.
+4. Estimar flexión por peso propio, deriva térmica y deflexión de un tubo con cercha Serrurier.
+5. Calcular velocidades de seguimiento, rotación de campo y error periódico de una montura.
+6. Evaluar alineación polar y colimación con sus tolerancias.
+7. Combinar los errores en un presupuesto con RSS y Monte Carlo y ajustar un modelo de apuntado.
 
-Explica el fenómeno o técnica de «requisitos ópticos y mecánicos» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B43-C02 — Selección de geometría instrumental
+```mermaid
+flowchart LR
+    A["C01-C07<br/>Espejos"]
+    B["C08-C11<br/>Estructura"]
+    C["C12-C16<br/>Montura"]
+    D["C17-C20<br/>Operación"]
+    E["C21-C26<br/>Ampliación"]
+    A --> B --> C --> D --> E
+```
 
-Delimita «selección de geometría instrumental», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cinco tramos encadenados: requisitos y espejos (C01–C07), soporte, tubo y estabilidad (C08–C11), monturas y accionamientos (C12–C16), alineación, operación y proyecto (C17–C20) y la ampliación de vidrio, forma y apoyos (C21–C26).
 
-### B43-C03 — Materiales para espejos
+## 🗂️ Las 26 clases en resumen (20 de la malla base + 6 de la ampliación)
 
-Introduce el contexto y los principios de «materiales para espejos» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B43-C04 — Fabricación y desbaste de espejos
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Introduce «fabricación y desbaste de espejos» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+### Tramo 1 · Requisitos y espejos
 
-### B43-C05 — Pulido óptico
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b43-c01"></a>B43-C01 | Requisitos ópticos y mecánicos | Del tamaño de la apertura y la tolerancia óptica a un cuaderno de requisitos. | Ficha de requisitos |
+| <a id="b43-c02"></a>B43-C02 | Selección de geometría instrumental | Newton, Cassegrain y Ritchey-Chrétien frente al coma y el largo del tubo. | Ficha de geometría instrumental |
+| <a id="b43-c03"></a>B43-C03 | Materiales para espejos | Rigidez específica, figura de mérito térmica y flexión por peso propio. | Ficha de materiales |
+| <a id="b43-c04"></a>B43-C04 | Fabricación y desbaste de espejos | Sagita, volumen de vidrio y etapas de abrasivo con la ley de Preston. | Ficha de desbaste |
+| <a id="b43-c05"></a>B43-C05 | Pulido óptico | Ley de Preston, tiempo de permanencia y paso de la esfera al paraboloide. | Ficha de pulido |
+| <a id="b43-c06"></a>B43-C06 | Pruebas de Ronchi y Foucault | Lectura de zonas de Foucault por trazado de rayos y recuento de bandas de Ronchi. | Ficha de pruebas de Foucault y Ronchi |
+| <a id="b43-c07"></a>B43-C07 | Aluminizado y recubrimientos | Reflectancia del aluminio, espesor opaco y uniformidad de la evaporación. | Ficha de aluminizado |
 
-Presenta qué significa «pulido óptico», sus elementos esenciales y su función dentro de construcción y mecánica de telescopios.
+### Tramo 2 · Soporte, tubo y estabilidad
 
-### B43-C06 — Pruebas de Ronchi y Foucault
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b43-c08"></a>B43-C08 | Montaje de espejo primario | Apoyo axial en anillo y flexión residual de un disco con el método de Ritz. | Ficha del apoyo del primario |
+| <a id="b43-c09"></a>B43-C09 | Celdas y soporte de espejos | Equilibrio de una whiffletree y apoyo lateral con distribución de coseno. | Ficha de celda y soporte |
+| <a id="b43-c10"></a>B43-C10 | Estructura de tubo óptico | Flexión del tubo, cercha Serrurier e igualdad de flechas. | Ficha del tubo óptico |
+| <a id="b43-c11"></a>B43-C11 | Dilatación térmica y estabilidad | Dilatación, constante de tiempo térmica y compensación de foco. | Ficha de estabilidad térmica |
 
-Explica el fenómeno o técnica de «pruebas de Ronchi y Foucault» y su aplicación observable o tecnológica.
+### Tramo 3 · Monturas y accionamientos
 
-### B43-C07 — Aluminizado y recubrimientos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b43-c12"></a>B43-C12 | Montura ecuatorial | Velocidad sidérea, periodo del gusano y deriva por error periódico. | Ficha de la montura ecuatorial |
+| <a id="b43-c13"></a>B43-C13 | Montura altacimutal | Velocidades de acimut y altura, rotación de campo y cenit. | Ficha de la montura altacimutal |
+| <a id="b43-c14"></a>B43-C14 | Reductores y transmisiones | Relación de transmisión, rendimiento del tornillo sin fin, holgura y resonancia. | Ficha del reductor |
+| <a id="b43-c15"></a>B43-C15 | Motores paso a paso y servomotores | Resolución por micropaso y respuesta de un servo con control PD. | Ficha del accionamiento |
+| <a id="b43-c16"></a>B43-C16 | Encoders y medición angular | Cuantización, código Gray e interpolación seno-coseno. | Ficha del codificador |
 
-Delimita «aluminizado y recubrimientos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Alineación, operación y proyecto
 
-### B43-C08 — Montaje de espejo primario
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b43-c17"></a>B43-C17 | Alineación polar | Deriva en declinación por error de alineación polar. | Ficha de la alineación polar |
+| <a id="b43-c18"></a>B43-C18 | Colimación instrumental | Tolerancia de colimación con coma por inclinación del primario. | Ficha de colimación |
+| <a id="b43-c19"></a>B43-C19 | Seguridad y mantenimiento | Concentración solar, equilibrio de balance y cobertura de polvo. | Ficha de seguridad y mantenimiento |
+| <a id="b43-c20"></a>B43-C20 | Proyecto mecánico completo de telescopio | Presupuesto de error del frente de onda y del apuntado con RSS y Monte Carlo. | Dossier mecánico del telescopio |
 
-Introduce el contexto y los principios de «montaje de espejo primario» para comprender su uso científico.
+### Tramo 5 · Ampliación: vidrio, forma y apoyos
 
-### B43-C09 — Celdas y soporte de espejos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b43-c21"></a>B43-C21 | Selección de vidrios ópticos: catálogos, homogeneidad y diagramas | Sellmeier, número de Abbe, doblete acromático y homogeneidad. | Ficha de vidrios ópticos |
+| <a id="b43-c22"></a>B43-C22 | Interferometría de superficie y mapas de error de forma | Interferometría de cuatro pasos, desenvolvimiento de fase y ajuste de modos. | Ficha de interferometría de superficie |
+| <a id="b43-c23"></a>B43-C23 | Medición de rugosidad y su efecto en la luz dispersa | Rugosidad, densidad espectral de potencia y luz dispersa total. | Ficha de rugosidad y luz dispersa |
+| <a id="b43-c24"></a>B43-C24 | Recubrimientos antirreflectantes de capas múltiples | Matrices de transferencia, capa de cuarto de onda y recubrimiento de banda ancha. | Ficha de recubrimiento antirreflectante |
+| <a id="b43-c25"></a>B43-C25 | Rodamientos y apoyos de precisión en telescopios | Contacto de Hertz, rigidez y reparto de carga entre bolas. | Ficha de rodamientos de precisión |
+| <a id="b43-c26"></a>B43-C26 | Modelo de flexiones y de apuntado de una montura | Ajuste por mínimos cuadrados de los términos de un modelo de apuntado. | Ficha del modelo de apuntado |
 
-Describe los componentes principales de «celdas y soporte de espejos» y por qué son relevantes para esta disciplina.
+## 🧵 Hilos que atraviesan el bloque
 
-### B43-C10 — Estructura de tubo óptico
+- **Del requisito a la pieza:** C01–C02 fijan qué tolerancia se pide; C03–C07 y C21–C24 la cumplen en el espejo; C08–C11 y C25 la sostienen; C12–C16 y C26 la apuntan; C17–C20 la ajustan y la integran.
+- **Dos vías independientes:** cada laboratorio contrasta con un caso analítico, una segunda forma de calcular o una simulación con semilla fija 20261109.
+- **Presupuesto de error:** C01, C20 y C26 reúnen errores independientes en una raíz de suma de cuadrados y la comprueban con Monte Carlo.
+- **Observado frente a ilustrativo:** solo se citan con fecha las constantes de NIST y las páginas realmente leídas; los telescopios, materiales, gradientes y errores de los laboratorios son ilustrativos o sintéticos y se rotulan.
 
-Presenta qué significa «estructura de tubo óptico», sus elementos esenciales y su función dentro de construcción y mecánica de telescopios.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B43-C11 — Dilatación térmica y estabilidad
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha de requisitos (C01), ficha de pruebas de Foucault y Ronchi (C06) y dossier mecánico del telescopio (C20).
+- Las condiciones críticas (rotular lo sintético, no presentar un telescopio ilustrativo como medido y citar solo lo consultado) no se compensan con promedio.
 
-Explica el fenómeno o técnica de «dilatación térmica y estabilidad» y su aplicación observable o tecnológica.
+## ⚠️ Seguridad y límites
 
-### B43-C12 — Montura ecuatorial
-
-Delimita «montura ecuatorial», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B43-C13 — Montura altacimutal
-
-Introduce el contexto y los principios de «montura altacimutal» para comprender su uso científico.
-
-### B43-C14 — Reductores y transmisiones
-
-Describe los componentes principales de «reductores y transmisiones» y por qué son relevantes para esta disciplina.
-
-### B43-C15 — Motores paso a paso y servomotores
-
-Presenta qué significa «motores paso a paso y servomotores», sus elementos esenciales y su función dentro de construcción y mecánica de telescopios.
-
-### B43-C16 — Encoders y medición angular
-
-Describe «encoders y medición angular», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B43-C17 — Alineación polar
-
-Delimita «alineación polar», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B43-C18 — Colimación instrumental
-
-Introduce el contexto y los principios de «colimación instrumental» para comprender su uso científico.
-
-### B43-C19 — Seguridad y mantenimiento
-
-Caracteriza «seguridad y mantenimiento», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
-
-### B43-C20 — Proyecto mecánico completo de telescopio
-
-Introduce «proyecto mecánico completo de telescopio» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+El bloque es educativo. Los modelos son simplificados y no sustituyen al análisis por elementos finitos ni a las especificaciones de un fabricante; los valores de materiales son ilustrativos de orden de magnitud. La clase C19 trata riesgos reales (observación solar, cargas pesadas, vidrio, abrasivos, recubrimientos al vacío) solo desde la física y la prevención general, no como procedimiento de taller: antes de trabajar vidrio, aluminizar o mirar al Sol hay que seguir las normas de seguridad vigentes y la supervisión de personal competente.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +116,6 @@ Introduce «proyecto mecánico completo de telescopio» como problema de ingenie
 - **[NASA-SMALLSAT]** [NASA State-of-the-Art of Small Spacecraft Technology, edición 2026](https://www.nasa.gov/smallsat-institute/sst-soa/) — Referencia panorámica sobre plataformas y subsistemas de satélites pequeños.
 - **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos e investigación histórica y actual.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B44 — Detectores y adquisición astronómica](./B44-detectores-y-adquisicion-astronomica.md)
