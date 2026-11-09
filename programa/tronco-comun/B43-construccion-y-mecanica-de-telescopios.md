@@ -45,52 +45,52 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b43-c01"></a>B43-C01 | Requisitos ópticos y mecánicos | Del tamaño de la apertura y la tolerancia óptica a un cuaderno de requisitos. | Ficha de requisitos |
-| <a id="b43-c02"></a>B43-C02 | Selección de geometría instrumental | Newton, Cassegrain y Ritchey-Chrétien frente al coma y el largo del tubo. | Ficha de geometría instrumental |
-| <a id="b43-c03"></a>B43-C03 | Materiales para espejos | Rigidez específica, figura de mérito térmica y flexión por peso propio. | Ficha de materiales |
-| <a id="b43-c04"></a>B43-C04 | Fabricación y desbaste de espejos | Sagita, volumen de vidrio y etapas de abrasivo con la ley de Preston. | Ficha de desbaste |
-| <a id="b43-c05"></a>B43-C05 | Pulido óptico | Ley de Preston, tiempo de permanencia y paso de la esfera al paraboloide. | Ficha de pulido |
-| <a id="b43-c06"></a>B43-C06 | Pruebas de Ronchi y Foucault | Lectura de zonas de Foucault por trazado de rayos y recuento de bandas de Ronchi. | Ficha de pruebas de Foucault y Ronchi |
-| <a id="b43-c07"></a>B43-C07 | Aluminizado y recubrimientos | Reflectancia del aluminio, espesor opaco y uniformidad de la evaporación. | Ficha de aluminizado |
+| <a id="b43-c01"></a>[B43-C01](../clases/B43/B43-C01-requisitos-opticos-y-mecanicos/CLASE.md) | Requisitos ópticos y mecánicos | Del tamaño de la apertura y la tolerancia óptica a un cuaderno de requisitos. | Ficha de requisitos |
+| <a id="b43-c02"></a>[B43-C02](../clases/B43/B43-C02-seleccion-de-geometria-instrumental/CLASE.md) | Selección de geometría instrumental | Newton, Cassegrain y Ritchey-Chrétien frente al coma y el largo del tubo. | Ficha de geometría instrumental |
+| <a id="b43-c03"></a>[B43-C03](../clases/B43/B43-C03-materiales-para-espejos/CLASE.md) | Materiales para espejos | Rigidez específica, figura de mérito térmica y flexión por peso propio. | Ficha de materiales |
+| <a id="b43-c04"></a>[B43-C04](../clases/B43/B43-C04-fabricacion-y-desbaste-de-espejos/CLASE.md) | Fabricación y desbaste de espejos | Sagita, volumen de vidrio y etapas de abrasivo con la ley de Preston. | Ficha de desbaste |
+| <a id="b43-c05"></a>[B43-C05](../clases/B43/B43-C05-pulido-optico/CLASE.md) | Pulido óptico | Ley de Preston, tiempo de permanencia y paso de la esfera al paraboloide. | Ficha de pulido |
+| <a id="b43-c06"></a>[B43-C06](../clases/B43/B43-C06-pruebas-de-ronchi-y-foucault/CLASE.md) | Pruebas de Ronchi y Foucault | Lectura de zonas de Foucault por trazado de rayos y recuento de bandas de Ronchi. | Ficha de pruebas de Foucault y Ronchi |
+| <a id="b43-c07"></a>[B43-C07](../clases/B43/B43-C07-aluminizado-y-recubrimientos/CLASE.md) | Aluminizado y recubrimientos | Reflectancia del aluminio, espesor opaco y uniformidad de la evaporación. | Ficha de aluminizado |
 
 ### Tramo 2 · Soporte, tubo y estabilidad
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b43-c08"></a>B43-C08 | Montaje de espejo primario | Apoyo axial en anillo y flexión residual de un disco con el método de Ritz. | Ficha del apoyo del primario |
-| <a id="b43-c09"></a>B43-C09 | Celdas y soporte de espejos | Equilibrio de una whiffletree y apoyo lateral con distribución de coseno. | Ficha de celda y soporte |
-| <a id="b43-c10"></a>B43-C10 | Estructura de tubo óptico | Flexión del tubo, cercha Serrurier e igualdad de flechas. | Ficha del tubo óptico |
-| <a id="b43-c11"></a>B43-C11 | Dilatación térmica y estabilidad | Dilatación, constante de tiempo térmica y compensación de foco. | Ficha de estabilidad térmica |
+| <a id="b43-c08"></a>[B43-C08](../clases/B43/B43-C08-montaje-de-espejo-primario/CLASE.md) | Montaje de espejo primario | Apoyo axial en anillo y flexión residual de un disco con el método de Ritz. | Ficha del apoyo del primario |
+| <a id="b43-c09"></a>[B43-C09](../clases/B43/B43-C09-celdas-y-soporte-de-espejos/CLASE.md) | Celdas y soporte de espejos | Equilibrio de una whiffletree y apoyo lateral con distribución de coseno. | Ficha de celda y soporte |
+| <a id="b43-c10"></a>[B43-C10](../clases/B43/B43-C10-estructura-de-tubo-optico/CLASE.md) | Estructura de tubo óptico | Flexión del tubo, cercha Serrurier e igualdad de flechas. | Ficha del tubo óptico |
+| <a id="b43-c11"></a>[B43-C11](../clases/B43/B43-C11-dilatacion-termica-y-estabilidad/CLASE.md) | Dilatación térmica y estabilidad | Dilatación, constante de tiempo térmica y compensación de foco. | Ficha de estabilidad térmica |
 
 ### Tramo 3 · Monturas y accionamientos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b43-c12"></a>B43-C12 | Montura ecuatorial | Velocidad sidérea, periodo del gusano y deriva por error periódico. | Ficha de la montura ecuatorial |
-| <a id="b43-c13"></a>B43-C13 | Montura altacimutal | Velocidades de acimut y altura, rotación de campo y cenit. | Ficha de la montura altacimutal |
-| <a id="b43-c14"></a>B43-C14 | Reductores y transmisiones | Relación de transmisión, rendimiento del tornillo sin fin, holgura y resonancia. | Ficha del reductor |
-| <a id="b43-c15"></a>B43-C15 | Motores paso a paso y servomotores | Resolución por micropaso y respuesta de un servo con control PD. | Ficha del accionamiento |
-| <a id="b43-c16"></a>B43-C16 | Encoders y medición angular | Cuantización, código Gray e interpolación seno-coseno. | Ficha del codificador |
+| <a id="b43-c12"></a>[B43-C12](../clases/B43/B43-C12-montura-ecuatorial/CLASE.md) | Montura ecuatorial | Velocidad sidérea, periodo del gusano y deriva por error periódico. | Ficha de la montura ecuatorial |
+| <a id="b43-c13"></a>[B43-C13](../clases/B43/B43-C13-montura-altacimutal/CLASE.md) | Montura altacimutal | Velocidades de acimut y altura, rotación de campo y cenit. | Ficha de la montura altacimutal |
+| <a id="b43-c14"></a>[B43-C14](../clases/B43/B43-C14-reductores-y-transmisiones/CLASE.md) | Reductores y transmisiones | Relación de transmisión, rendimiento del tornillo sin fin, holgura y resonancia. | Ficha del reductor |
+| <a id="b43-c15"></a>[B43-C15](../clases/B43/B43-C15-motores-paso-a-paso-y-servomotores/CLASE.md) | Motores paso a paso y servomotores | Resolución por micropaso y respuesta de un servo con control PD. | Ficha del accionamiento |
+| <a id="b43-c16"></a>[B43-C16](../clases/B43/B43-C16-encoders-y-medicion-angular/CLASE.md) | Encoders y medición angular | Cuantización, código Gray e interpolación seno-coseno. | Ficha del codificador |
 
 ### Tramo 4 · Alineación, operación y proyecto
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b43-c17"></a>B43-C17 | Alineación polar | Deriva en declinación por error de alineación polar. | Ficha de la alineación polar |
-| <a id="b43-c18"></a>B43-C18 | Colimación instrumental | Tolerancia de colimación con coma por inclinación del primario. | Ficha de colimación |
-| <a id="b43-c19"></a>B43-C19 | Seguridad y mantenimiento | Concentración solar, equilibrio de balance y cobertura de polvo. | Ficha de seguridad y mantenimiento |
-| <a id="b43-c20"></a>B43-C20 | Proyecto mecánico completo de telescopio | Presupuesto de error del frente de onda y del apuntado con RSS y Monte Carlo. | Dossier mecánico del telescopio |
+| <a id="b43-c17"></a>[B43-C17](../clases/B43/B43-C17-alineacion-polar/CLASE.md) | Alineación polar | Deriva en declinación por error de alineación polar. | Ficha de la alineación polar |
+| <a id="b43-c18"></a>[B43-C18](../clases/B43/B43-C18-colimacion-instrumental/CLASE.md) | Colimación instrumental | Tolerancia de colimación con coma por inclinación del primario. | Ficha de colimación |
+| <a id="b43-c19"></a>[B43-C19](../clases/B43/B43-C19-seguridad-y-mantenimiento/CLASE.md) | Seguridad y mantenimiento | Concentración solar, equilibrio de balance y cobertura de polvo. | Ficha de seguridad y mantenimiento |
+| <a id="b43-c20"></a>[B43-C20](../clases/B43/B43-C20-proyecto-mecanico-completo-de-telescopio/CLASE.md) | Proyecto mecánico completo de telescopio | Presupuesto de error del frente de onda y del apuntado con RSS y Monte Carlo. | Dossier mecánico del telescopio |
 
 ### Tramo 5 · Ampliación: vidrio, forma y apoyos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b43-c21"></a>B43-C21 | Selección de vidrios ópticos: catálogos, homogeneidad y diagramas | Sellmeier, número de Abbe, doblete acromático y homogeneidad. | Ficha de vidrios ópticos |
-| <a id="b43-c22"></a>B43-C22 | Interferometría de superficie y mapas de error de forma | Interferometría de cuatro pasos, desenvolvimiento de fase y ajuste de modos. | Ficha de interferometría de superficie |
-| <a id="b43-c23"></a>B43-C23 | Medición de rugosidad y su efecto en la luz dispersa | Rugosidad, densidad espectral de potencia y luz dispersa total. | Ficha de rugosidad y luz dispersa |
-| <a id="b43-c24"></a>B43-C24 | Recubrimientos antirreflectantes de capas múltiples | Matrices de transferencia, capa de cuarto de onda y recubrimiento de banda ancha. | Ficha de recubrimiento antirreflectante |
-| <a id="b43-c25"></a>B43-C25 | Rodamientos y apoyos de precisión en telescopios | Contacto de Hertz, rigidez y reparto de carga entre bolas. | Ficha de rodamientos de precisión |
-| <a id="b43-c26"></a>B43-C26 | Modelo de flexiones y de apuntado de una montura | Ajuste por mínimos cuadrados de los términos de un modelo de apuntado. | Ficha del modelo de apuntado |
+| <a id="b43-c21"></a>[B43-C21](../clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md) | Selección de vidrios ópticos: catálogos, homogeneidad y diagramas | Sellmeier, número de Abbe, doblete acromático y homogeneidad. | Ficha de vidrios ópticos |
+| <a id="b43-c22"></a>[B43-C22](../clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md) | Interferometría de superficie y mapas de error de forma | Interferometría de cuatro pasos, desenvolvimiento de fase y ajuste de modos. | Ficha de interferometría de superficie |
+| <a id="b43-c23"></a>[B43-C23](../clases/B43/B43-C23-medicion-de-rugosidad-y-su-efecto-en-la-luz-dispersa/CLASE.md) | Medición de rugosidad y su efecto en la luz dispersa | Rugosidad, densidad espectral de potencia y luz dispersa total. | Ficha de rugosidad y luz dispersa |
+| <a id="b43-c24"></a>[B43-C24](../clases/B43/B43-C24-recubrimientos-antirreflectantes-de-capas-multiples/CLASE.md) | Recubrimientos antirreflectantes de capas múltiples | Matrices de transferencia, capa de cuarto de onda y recubrimiento de banda ancha. | Ficha de recubrimiento antirreflectante |
+| <a id="b43-c25"></a>[B43-C25](../clases/B43/B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md) | Rodamientos y apoyos de precisión en telescopios | Contacto de Hertz, rigidez y reparto de carga entre bolas. | Ficha de rodamientos de precisión |
+| <a id="b43-c26"></a>[B43-C26](../clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md) | Modelo de flexiones y de apuntado de una montura | Ajuste por mínimos cuadrados de los términos de un modelo de apuntado. | Ficha del modelo de apuntado |
 
 ## 🧵 Hilos que atraviesan el bloque
 

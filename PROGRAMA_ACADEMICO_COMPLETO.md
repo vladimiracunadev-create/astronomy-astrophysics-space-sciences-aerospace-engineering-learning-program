@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 713 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 739 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -959,12 +959,12 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 - **B43-C18 — Colimación instrumental.** Introduce el contexto y los principios de «colimación instrumental» para comprender su uso científico.
 - **B43-C19 — Seguridad y mantenimiento.** Caracteriza «seguridad y mantenimiento», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
 - **B43-C20 — Proyecto mecánico completo de telescopio.** Introduce «proyecto mecánico completo de telescopio» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B43-C21 — Selección de vidrios ópticos: catálogos, homogeneidad y diagramas.** *Programada.* B43-C03 trata sustratos de espejos; falta elegir vidrios para lentes según dispersión, transmisión y homogeneidad.
-- **B43-C22 — Interferometría de superficie y mapas de error de forma.** *Programada.* B42-C09 enseña la interferometría de dos haces; falta aplicarla a medir y mapear el error de forma de una superficie.
-- **B43-C23 — Medición de rugosidad y su efecto en la luz dispersa.** *Programada.* Ninguna clase mide la rugosidad superficial ni vincula su valor con dispersión y pérdida de contraste.
-- **B43-C24 — Recubrimientos antirreflectantes de capas múltiples.** *Programada.* B43-C07 trata reflectantes metálicos; falta el diseño de capas antirreflectantes y su respuesta espectral.
-- **B43-C25 — Rodamientos y apoyos de precisión en telescopios.** *Programada.* B84-C14 trata rodamientos espaciales; falta la selección y precarga de apoyos para monturas terrestres.
-- **B43-C26 — Modelo de flexiones y de apuntado de una montura.** *Programada.* B43-C10 y B84-C12 dan estructura y elementos finitos; falta el modelo de apuntado que corrige las flexiones.
+- **B43-C21 — Selección de vidrios ópticos: catálogos, homogeneidad y diagramas.** *Texto redactado, pendiente de revisión.* B43-C03 trata sustratos de espejos; falta elegir vidrios para lentes según dispersión, transmisión y homogeneidad.
+- **B43-C22 — Interferometría de superficie y mapas de error de forma.** *Texto redactado, pendiente de revisión.* B42-C09 enseña la interferometría de dos haces; falta aplicarla a medir y mapear el error de forma de una superficie.
+- **B43-C23 — Medición de rugosidad y su efecto en la luz dispersa.** *Texto redactado, pendiente de revisión.* Ninguna clase mide la rugosidad superficial ni vincula su valor con dispersión y pérdida de contraste.
+- **B43-C24 — Recubrimientos antirreflectantes de capas múltiples.** *Texto redactado, pendiente de revisión.* B43-C07 trata reflectantes metálicos; falta el diseño de capas antirreflectantes y su respuesta espectral.
+- **B43-C25 — Rodamientos y apoyos de precisión en telescopios.** *Texto redactado, pendiente de revisión.* B84-C14 trata rodamientos espaciales; falta la selección y precarga de apoyos para monturas terrestres.
+- **B43-C26 — Modelo de flexiones y de apuntado de una montura.** *Texto redactado, pendiente de revisión.* B43-C10 y B84-C12 dan estructura y elementos finitos; falta el modelo de apuntado que corrige las flexiones.
 
 ### B44 — Detectores y adquisición astronómica
 

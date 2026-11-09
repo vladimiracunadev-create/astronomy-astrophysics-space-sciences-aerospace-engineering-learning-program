@@ -1,7 +1,7 @@
 # B42-C24 — Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C23 — Calibración de la matriz de interacción y aberraciones no comunes](../B42-C23-calibracion-de-la-matriz-de-interaccion-y-aberraciones-no-comunes/CLASE.md) · [Siguiente: B43-C01 — Requisitos ópticos y mecánicos →](../../../tronco-comun/B43-construccion-y-mecanica-de-telescopios.md#b43-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C23 — Calibración de la matriz de interacción y aberraciones no comunes](../B42-C23-calibracion-de-la-matriz-de-interaccion-y-aberraciones-no-comunes/CLASE.md) · [Siguiente: B43-C01 — Requisitos ópticos y mecánicos →](../../B43/B43-C01-requisitos-opticos-y-mecanicos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -325,5 +325,5 @@ El Strehl se calcula por pico, por identidad y por Maréchal y la energía encer
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B42-C23 — Calibración de la matriz de interacción y aberraciones no comunes](../B42-C23-calibracion-de-la-matriz-de-interaccion-y-aberraciones-no-comunes/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B43-C01 — Requisitos ópticos y mecánicos →](../../../tronco-comun/B43-construccion-y-mecanica-de-telescopios.md#b43-c01)
+[← Anterior: B42-C23 — Calibración de la matriz de interacción y aberraciones no comunes](../B42-C23-calibracion-de-la-matriz-de-interaccion-y-aberraciones-no-comunes/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B43-C01 — Requisitos ópticos y mecánicos →](../../B43/B43-C01-requisitos-opticos-y-mecanicos/CLASE.md)
 <!-- /nav -->
