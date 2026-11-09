@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 620 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 624 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -803,10 +803,10 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (11 clases): Crecimiento lineal de perturbaciones de densidad; Función de transferencia y espectro de materia; Funciones de correlación de galaxias…*
 
-- **B36-C01 — Crecimiento lineal de perturbaciones de densidad.** *Programada.* B26-C17 y B25-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones.
-- **B36-C02 — Función de transferencia y espectro de materia.** *Programada.* Ninguna clase explica cómo la evolución en las eras de radiación y materia modifica el espectro primordial.
-- **B36-C03 — Funciones de correlación de galaxias.** *Programada.* B25-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos.
-- **B36-C04 — Espectro de potencia de materia.** *Programada.* Ninguna clase define el espectro de potencia P(k) ni su estimación a partir de catálogos de galaxias.
+- **B36-C01 — Crecimiento lineal de perturbaciones de densidad.** *Texto redactado, pendiente de revisión.* B26-C17 y B25-C18 describen la estructura observada, pero no la teoría lineal de crecimiento de perturbaciones.
+- **B36-C02 — Función de transferencia y espectro de materia.** *Texto redactado, pendiente de revisión.* Ninguna clase explica cómo la evolución en las eras de radiación y materia modifica el espectro primordial.
+- **B36-C03 — Funciones de correlación de galaxias.** *Texto redactado, pendiente de revisión.* B25-C19 trata sesgos de catálogos; falta medir y estimar la función de correlación de dos puntos.
+- **B36-C04 — Espectro de potencia de materia.** *Texto redactado, pendiente de revisión.* Ninguna clase define el espectro de potencia P(k) ni su estimación a partir de catálogos de galaxias.
 - **B36-C05 — Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica.** *Programada.* B73-C08 trata N cuerpos de mecánica celeste; falta la expansión cósmica, condiciones iniciales y fronteras periódicas.
 - **B36-C06 — Formación de halos y función de masa.** *Programada.* B25-C15 trata halos de materia oscura en galaxias; falta el colapso esférico y la función de masa de halos.
 - **B36-C07 — Oscilaciones acústicas bariónicas como regla estándar.** *Programada.* Ninguna clase presenta las BAO como escala característica en la distribución de materia ni su uso en distancias cosmológicas.

@@ -1,7 +1,7 @@
 # B35-C10 — Condiciones de frontera en modelos MHD
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [← Anterior: B35-C09 — Turbulencia en plasmas y MHD](../B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md) · [Siguiente: B36-C01 — Crecimiento lineal de perturbaciones de densidad →](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [← Anterior: B35-C09 — Turbulencia en plasmas y MHD](../B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md) · [Siguiente: B36-C01 — Crecimiento lineal de perturbaciones de densidad →](../../B36/B36-C01-crecimiento-lineal-de-perturbaciones-de-densidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ La pared y el gradiente nulo reflejan toda la energía y la condición de caract
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B35-C09 — Turbulencia en plasmas y MHD](../B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [Siguiente: B36-C01 — Crecimiento lineal de perturbaciones de densidad →](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c01)
+[← Anterior: B35-C09 — Turbulencia en plasmas y MHD](../B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md) · [📚 Bloque B35](../../../tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md) · [Siguiente: B36-C01 — Crecimiento lineal de perturbaciones de densidad →](../../B36/B36-C01-crecimiento-lineal-de-perturbaciones-de-densidad/CLASE.md)
 <!-- /nav -->

@@ -43,10 +43,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b36-c01"></a>B36-C01 | Crecimiento lineal de perturbaciones de densidad | Ecuación de crecimiento y factor f. | Ficha del crecimiento lineal |
-| <a id="b36-c02"></a>B36-C02 | Función de transferencia y espectro de materia | Forma de la función de transferencia y normalización σ8. | Ficha de la función de transferencia |
-| <a id="b36-c03"></a>B36-C03 | Funciones de correlación de galaxias | Estimador de Landy–Szalay frente a ξ analítica. | Ficha de la función de correlación |
-| <a id="b36-c04"></a>B36-C04 | Espectro de potencia de materia | Estimación de P(k) en una rejilla y su varianza. | Ficha del espectro de potencia |
+| <a id="b36-c01"></a>[B36-C01](../clases/B36/B36-C01-crecimiento-lineal-de-perturbaciones-de-densidad/CLASE.md) | Crecimiento lineal de perturbaciones de densidad | Ecuación de crecimiento y factor f. | Ficha del crecimiento lineal |
+| <a id="b36-c02"></a>[B36-C02](../clases/B36/B36-C02-funcion-de-transferencia-y-espectro-de-materia/CLASE.md) | Función de transferencia y espectro de materia | Forma de la función de transferencia y normalización σ8. | Ficha de la función de transferencia |
+| <a id="b36-c03"></a>[B36-C03](../clases/B36/B36-C03-funciones-de-correlacion-de-galaxias/CLASE.md) | Funciones de correlación de galaxias | Estimador de Landy–Szalay frente a ξ analítica. | Ficha de la función de correlación |
+| <a id="b36-c04"></a>[B36-C04](../clases/B36/B36-C04-espectro-de-potencia-de-materia/CLASE.md) | Espectro de potencia de materia | Estimación de P(k) en una rejilla y su varianza. | Ficha del espectro de potencia |
 
 ### Tramo 2 · Estructura no lineal
 
