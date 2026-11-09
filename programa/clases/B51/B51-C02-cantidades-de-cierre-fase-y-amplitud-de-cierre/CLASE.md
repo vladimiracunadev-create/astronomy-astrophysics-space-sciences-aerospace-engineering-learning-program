@@ -1,6 +1,7 @@
 # B51-C02 — Cantidades de cierre: fase y amplitud de cierre
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios](../B51-C01-calibracion-de-amplitud-y-escala-de-flujo-con-calibradores-primarios/CLASE.md) · [Siguiente: B51-C03 — Ganancias complejas por antena y soluciones de calibración →](../B51-C03-ganancias-complejas-por-antena-y-soluciones-de-calibracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,4 +302,5 @@ Los cierres sobreviven a las ganancias por antena y dan 10 fases y 9 amplitudes 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios](../B51-C01-calibracion-de-amplitud-y-escala-de-flujo-con-calibradores-primarios/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C03 — Ganancias complejas por antena y soluciones de calibración →](../B51-C03-ganancias-complejas-por-antena-y-soluciones-de-calibracion/CLASE.md)
 <!-- /nav -->

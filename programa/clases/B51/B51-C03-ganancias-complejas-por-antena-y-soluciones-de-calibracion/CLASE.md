@@ -1,6 +1,7 @@
 # B51-C03 — Ganancias complejas por antena y soluciones de calibración
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C02 — Cantidades de cierre: fase y amplitud de cierre](../B51-C02-cantidades-de-cierre-fase-y-amplitud-de-cierre/CLASE.md) · [Siguiente: B51-C04 — Respuesta de banda y errores dependientes de la frecuencia →](../B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -67,7 +68,7 @@ Analogía: un coro afinado por pares. Límite: modelo conocido, una ganancia por
 
 ### 8.1 Ganancias verdaderas (respecto a la antena 0)
 
-| Antena | |g| | Fase (°) |
+| Antena | Amplitud g | Fase (°) |
 |---|---|---|
 | 0 | 0,9460 | +0,000 |
 | 1 | 0,7668 | +19,281 |
@@ -306,4 +307,5 @@ Con modelo conocido, dos métodos distintos recuperan las ganancias de 7 antenas
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B51-C02 — Cantidades de cierre: fase y amplitud de cierre](../B51-C02-cantidades-de-cierre-fase-y-amplitud-de-cierre/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C04 — Respuesta de banda y errores dependientes de la frecuencia →](../B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md)
 <!-- /nav -->

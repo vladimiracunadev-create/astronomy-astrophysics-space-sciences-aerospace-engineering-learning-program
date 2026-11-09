@@ -1,6 +1,7 @@
 # B51-C05 — Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C04 — Respuesta de banda y errores dependientes de la frecuencia](../B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md) · [Siguiente: B51-C06 — Autocalibración iterativa con modelo de cielo →](../B51-C06-autocalibracion-iterativa-con-modelo-de-cielo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,4 +306,5 @@ El retardo ionosférico crece como `1/ν²` (1195 ns a 150 MHz) y la dispersión
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B51-C04 — Respuesta de banda y errores dependientes de la frecuencia](../B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C06 — Autocalibración iterativa con modelo de cielo →](../B51-C06-autocalibracion-iterativa-con-modelo-de-cielo/CLASE.md)
 <!-- /nav -->

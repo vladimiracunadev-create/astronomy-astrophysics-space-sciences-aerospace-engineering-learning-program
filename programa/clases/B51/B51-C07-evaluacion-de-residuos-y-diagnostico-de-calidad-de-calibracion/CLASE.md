@@ -1,6 +1,7 @@
 # B51-C07 — Evaluación de residuos y diagnóstico de calidad de calibración
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C06 — Autocalibración iterativa con modelo de cielo](../B51-C06-autocalibracion-iterativa-con-modelo-de-cielo/CLASE.md) · [Siguiente: B51-C08 — Compensación de retardo y alineación temporal de flujos de antenas →](../B51-C08-compensacion-de-retardo-y-alineacion-temporal-de-flujos-de-antenas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -85,8 +86,8 @@ El atípico se localiza porque el mayor |z| es 6,59 y cae en la base (2, 7).
 | Reducción esperada `√(dof / (2 N_b))` | 0,8882 |
 | Asimetría | +0,0226 |
 | Curtosis en exceso | +0,0994 |
-| Cola |z| > 3 observada | 59,3 × 10⁻⁵ |
-| Cola gaussiana ingenua | 270,0 × 10⁻⁵ |
+| Cola con módulo de z mayor que 3, observada | 59,3 × 10⁻⁵ |
+| Cola gaussiana ingenua (mismo umbral) | 270,0 × 10⁻⁵ |
 | Cola gaussiana con σ reducida | 73,1 × 10⁻⁵ |
 
 El ajuste «consume» grados de libertad: los residuos son menores que el ruido (`0,888 σ`), así que la cola ingenua sobrestima. La cola con σ reducida explica lo observado.
@@ -300,4 +301,5 @@ El χ² reducido (1,02 ± 0,17) y el mayor |z| localizan problemas del modelo y 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B51-C06 — Autocalibración iterativa con modelo de cielo](../B51-C06-autocalibracion-iterativa-con-modelo-de-cielo/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C08 — Compensación de retardo y alineación temporal de flujos de antenas →](../B51-C08-compensacion-de-retardo-y-alineacion-temporal-de-flujos-de-antenas/CLASE.md)
 <!-- /nav -->

@@ -43,30 +43,30 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b51-c01"></a>B51-C01 | Calibración de amplitud y escala de flujo con calibradores primarios | Escala de flujo, bootstrap y ganancias de amplitud. | Ficha de la escala de flujo |
-| <a id="b51-c02"></a>B51-C02 | Cantidades de cierre: fase y amplitud de cierre | Invariancia de los cierres y su ruido. | Ficha de las cantidades de cierre |
-| <a id="b51-c03"></a>B51-C03 | Ganancias complejas por antena y soluciones de calibración | Ecuación de medida y ganancias complejas por antena. | Ficha de las ganancias complejas |
-| <a id="b51-c04"></a>B51-C04 | Respuesta de banda y errores dependientes de la frecuencia | Retardo, ondulación y ruido de la respuesta de banda. | Ficha de la respuesta de banda |
-| <a id="b51-c05"></a>B51-C05 | Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección | Retardo dispersivo, TEC y rotación de Faraday. | Ficha de los efectos ionosféricos |
-| <a id="b51-c06"></a>B51-C06 | Autocalibración iterativa con modelo de cielo | Iteración imagen–modelo–ganancias y sesgo. | Ficha de la autocalibración |
-| <a id="b51-c07"></a>B51-C07 | Evaluación de residuos y diagnóstico de calidad de calibración | Chi cuadrado reducido, residuos normalizados y valores atípicos. | Ficha de los residuos de calibración |
+| <a id="b51-c01"></a>[B51-C01](../clases/B51/B51-C01-calibracion-de-amplitud-y-escala-de-flujo-con-calibradores-primarios/CLASE.md) | Calibración de amplitud y escala de flujo con calibradores primarios | Escala de flujo, bootstrap y ganancias de amplitud. | Ficha de la escala de flujo |
+| <a id="b51-c02"></a>[B51-C02](../clases/B51/B51-C02-cantidades-de-cierre-fase-y-amplitud-de-cierre/CLASE.md) | Cantidades de cierre: fase y amplitud de cierre | Invariancia de los cierres y su ruido. | Ficha de las cantidades de cierre |
+| <a id="b51-c03"></a>[B51-C03](../clases/B51/B51-C03-ganancias-complejas-por-antena-y-soluciones-de-calibracion/CLASE.md) | Ganancias complejas por antena y soluciones de calibración | Ecuación de medida y ganancias complejas por antena. | Ficha de las ganancias complejas |
+| <a id="b51-c04"></a>[B51-C04](../clases/B51/B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md) | Respuesta de banda y errores dependientes de la frecuencia | Retardo, ondulación y ruido de la respuesta de banda. | Ficha de la respuesta de banda |
+| <a id="b51-c05"></a>[B51-C05](../clases/B51/B51-C05-efectos-ionosfericos-en-radioastronomia-retardo-rotacion-de-faraday-y-su-correccion/CLASE.md) | Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección | Retardo dispersivo, TEC y rotación de Faraday. | Ficha de los efectos ionosféricos |
+| <a id="b51-c06"></a>[B51-C06](../clases/B51/B51-C06-autocalibracion-iterativa-con-modelo-de-cielo/CLASE.md) | Autocalibración iterativa con modelo de cielo | Iteración imagen–modelo–ganancias y sesgo. | Ficha de la autocalibración |
+| <a id="b51-c07"></a>[B51-C07](../clases/B51/B51-C07-evaluacion-de-residuos-y-diagnostico-de-calidad-de-calibracion/CLASE.md) | Evaluación de residuos y diagnóstico de calidad de calibración | Chi cuadrado reducido, residuos normalizados y valores atípicos. | Ficha de los residuos de calibración |
 
 ### Tramo 2 · VLBI y retardos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b51-c08"></a>B51-C08 | Compensación de retardo y alineación temporal de flujos de antenas | Retardo entero y fraccionario por correlación cruzada. | Ficha del retardo y la alineación |
-| <a id="b51-c09"></a>B51-C09 | Fringe stopping y rotación de fase por retardo geométrico | Retardo geométrico, tasa de franjas y pérdida por promediado. | Ficha del fringe stopping |
-| <a id="b51-c10"></a>B51-C10 | Retardo troposférico e ionosférico en VLBI y su modelado | Función de mapeo y combinación libre de ionosfera. | Ficha de los retardos atmosféricos en VLBI |
-| <a id="b51-c11"></a>B51-C11 | Búsqueda de franjas VLBI: ajuste de retardo y tasa | Pico de retardo y tasa, SNR y falsas detecciones. | Ficha de la búsqueda de franjas |
-| <a id="b51-c12"></a>B51-C12 | Formatos de datos VLBI y geodésicos | Cuantización, empaquetado y tasa de datos. | Ficha de los formatos de datos |
+| <a id="b51-c08"></a>[B51-C08](../clases/B51/B51-C08-compensacion-de-retardo-y-alineacion-temporal-de-flujos-de-antenas/CLASE.md) | Compensación de retardo y alineación temporal de flujos de antenas | Retardo entero y fraccionario por correlación cruzada. | Ficha del retardo y la alineación |
+| <a id="b51-c09"></a>[B51-C09](../clases/B51/B51-C09-fringe-stopping-y-rotacion-de-fase-por-retardo-geometrico/CLASE.md) | Fringe stopping y rotación de fase por retardo geométrico | Retardo geométrico, tasa de franjas y pérdida por promediado. | Ficha del fringe stopping |
+| <a id="b51-c10"></a>[B51-C10](../clases/B51/B51-C10-retardo-troposferico-e-ionosferico-en-vlbi-y-su-modelado/CLASE.md) | Retardo troposférico e ionosférico en VLBI y su modelado | Función de mapeo y combinación libre de ionosfera. | Ficha de los retardos atmosféricos en VLBI |
+| <a id="b51-c11"></a>[B51-C11](../clases/B51/B51-C11-busqueda-de-franjas-vlbi-ajuste-de-retardo-y-tasa/CLASE.md) | Búsqueda de franjas VLBI: ajuste de retardo y tasa | Pico de retardo y tasa, SNR y falsas detecciones. | Ficha de la búsqueda de franjas |
+| <a id="b51-c12"></a>[B51-C12](../clases/B51/B51-C12-formatos-de-datos-vlbi-y-geodesicos/CLASE.md) | Formatos de datos VLBI y geodésicos | Cuantización, empaquetado y tasa de datos. | Ficha de los formatos de datos |
 
 ### Tramo 3 · Reducción de datos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b51-c13"></a>B51-C13 | Marcado de datos espurios e interferencia en visibilidades | Umbrales robustos, tasa de falsas alarmas y SumThreshold. | Ficha del marcado de datos |
-| <a id="b51-c14"></a>B51-C14 | Calibración de banda en la reducción de datos de síntesis | Ruido de la solución de banda y sustracción del continuo. | Ficha de la calibración de banda en síntesis |
+| <a id="b51-c13"></a>[B51-C13](../clases/B51/B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md) | Marcado de datos espurios e interferencia en visibilidades | Umbrales robustos, tasa de falsas alarmas y SumThreshold. | Ficha del marcado de datos |
+| <a id="b51-c14"></a>[B51-C14](../clases/B51/B51-C14-calibracion-de-banda-en-la-reduccion-de-datos-de-sintesis/CLASE.md) | Calibración de banda en la reducción de datos de síntesis | Ruido de la solución de banda y sustracción del continuo. | Ficha de la calibración de banda en síntesis |
 
 ## 🧵 Hilos que atraviesan el bloque
 

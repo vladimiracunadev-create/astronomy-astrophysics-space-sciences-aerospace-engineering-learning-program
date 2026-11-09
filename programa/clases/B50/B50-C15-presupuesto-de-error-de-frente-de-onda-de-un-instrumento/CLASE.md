@@ -1,7 +1,7 @@
 # B50-C15 — Presupuesto de error de frente de onda de un instrumento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B50](../../../tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) · [← Anterior: B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones](../B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md) · [Siguiente: B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios →](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md#b51-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B50](../../../tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) · [← Anterior: B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones](../B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md) · [Siguiente: B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios →](../../B51/B51-C01-calibracion-de-amplitud-y-escala-de-flujo-con-calibradores-primarios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ El presupuesto ilustrativo suma `53,2 nm` RMS (Strehl `0,89` a 1000 nm) frente a
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones](../B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md) · [📚 Bloque B50](../../../tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) · [Siguiente: B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios →](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md#b51-c01)
+[← Anterior: B50-C14 — Criterios de aceptación: Strehl, error de frente de onda y especificaciones](../B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md) · [📚 Bloque B50](../../../tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md) · [Siguiente: B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios →](../../B51/B51-C01-calibracion-de-amplitud-y-escala-de-flujo-con-calibradores-primarios/CLASE.md)
 <!-- /nav -->

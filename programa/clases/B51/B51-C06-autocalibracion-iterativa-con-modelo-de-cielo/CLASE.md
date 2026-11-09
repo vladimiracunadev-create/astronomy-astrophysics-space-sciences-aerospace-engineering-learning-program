@@ -1,6 +1,7 @@
 # B51-C06 — Autocalibración iterativa con modelo de cielo
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C05 — Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección](../B51-C05-efectos-ionosfericos-en-radioastronomia-retardo-rotacion-de-faraday-y-su-correccion/CLASE.md) · [Siguiente: B51-C07 — Evaluación de residuos y diagnóstico de calidad de calibración →](../B51-C07-evaluacion-de-residuos-y-diagnostico-de-calidad-de-calibracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,4 +319,5 @@ El ciclo bajó el error de fase de 37,1° a 3,0°, sin alcanzar el control de 0,
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B51-C05 — Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección](../B51-C05-efectos-ionosfericos-en-radioastronomia-retardo-rotacion-de-faraday-y-su-correccion/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C07 — Evaluación de residuos y diagnóstico de calidad de calibración →](../B51-C07-evaluacion-de-residuos-y-diagnostico-de-calidad-de-calibracion/CLASE.md)
 <!-- /nav -->

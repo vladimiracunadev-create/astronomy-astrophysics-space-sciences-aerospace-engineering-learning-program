@@ -1,6 +1,7 @@
 # B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B50-C15 — Presupuesto de error de frente de onda de un instrumento](../../B50/B50-C15-presupuesto-de-error-de-frente-de-onda-de-un-instrumento/CLASE.md) · [Siguiente: B51-C02 — Cantidades de cierre: fase y amplitud de cierre →](../B51-C02-cantidades-de-cierre-fase-y-amplitud-de-cierre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,4 +306,5 @@ La escala de flujo se fija una vez con un primario y se propaga con ganancias; e
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B50-C15 — Presupuesto de error de frente de onda de un instrumento](../../B50/B50-C15-presupuesto-de-error-de-frente-de-onda-de-un-instrumento/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C02 — Cantidades de cierre: fase y amplitud de cierre →](../B51-C02-cantidades-de-cierre-fase-y-amplitud-de-cierre/CLASE.md)
 <!-- /nav -->

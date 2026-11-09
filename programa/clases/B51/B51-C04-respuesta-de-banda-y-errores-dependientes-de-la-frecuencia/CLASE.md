@@ -1,6 +1,7 @@
 # B51-C04 — Respuesta de banda y errores dependientes de la frecuencia
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C03 — Ganancias complejas por antena y soluciones de calibración](../B51-C03-ganancias-complejas-por-antena-y-soluciones-de-calibracion/CLASE.md) · [Siguiente: B51-C05 — Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección →](../B51-C05-efectos-ionosfericos-en-radioastronomia-retardo-rotacion-de-faraday-y-su-correccion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -87,7 +88,7 @@ La fórmula `σ_τ = σ_φ / (2π σ_ν √N)` da 13,46 ps; el Monte Carlo da 12
 | Retardo del pico en la transformada | 41,02 ns |
 | Retardo inyectado | 40,0 ns |
 | Celda de retardo `1/Δν` | 7,81 ns |
-| Amplitud pico a pico de `|B|` | 0,0998 (esperada `4 r = 0,20`... en el borde de la caída) |
+| Amplitud pico a pico de la amplitud de B | 0,0998 (esperada `2 r = 0,10`) |
 
 ## 9. Magnitudes, símbolos y unidades
 
@@ -298,4 +299,5 @@ La banda se separa en una pendiente de fase (retardo, precisión 13 ps) y una on
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B51-C03 — Ganancias complejas por antena y soluciones de calibración](../B51-C03-ganancias-complejas-por-antena-y-soluciones-de-calibracion/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B51-C05 — Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección →](../B51-C05-efectos-ionosfericos-en-radioastronomia-retardo-rotacion-de-faraday-y-su-correccion/CLASE.md)
 <!-- /nav -->
