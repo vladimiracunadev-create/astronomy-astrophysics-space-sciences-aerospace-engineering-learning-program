@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 624 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 628 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -819,10 +819,10 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (14 clases): Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux; Ecuaciones de estado estelares: gas ideal, radiación y degeneración; Opacidad media de Rosseland y tablas de opacidad en interiores…*
 
-- **B37-C01 — Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux.** *Programada.* B24-C05 menciona el transporte convectivo, pero no el criterio de inestabilidad ni la teoría de longitud de mezcla usada en los modelos.
-- **B37-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración.** *Programada.* B27-C01 y B27-C04 cubren degeneración y estado nuclear de objetos compactos, no la ecuación de estado general de interiores de secuencia principal.
-- **B37-C03 — Opacidad media de Rosseland y tablas de opacidad en interiores.** *Programada.* B24-C09 es introductoria; el modelado de interiores exige opacidades medias y su uso en el gradiente radiativo.
-- **B37-C04 — Condiciones de frontera centrales y superficiales en modelos estelares.** *Programada.* B11-C12 trata fronteras en general; falta cómo cerrar el sistema de estructura estelar con condiciones en centro y superficie.
+- **B37-C01 — Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux.** *Texto redactado, pendiente de revisión.* B24-C05 menciona el transporte convectivo, pero no el criterio de inestabilidad ni la teoría de longitud de mezcla usada en los modelos.
+- **B37-C02 — Ecuaciones de estado estelares: gas ideal, radiación y degeneración.** *Texto redactado, pendiente de revisión.* B27-C01 y B27-C04 cubren degeneración y estado nuclear de objetos compactos, no la ecuación de estado general de interiores de secuencia principal.
+- **B37-C03 — Opacidad media de Rosseland y tablas de opacidad en interiores.** *Texto redactado, pendiente de revisión.* B24-C09 es introductoria; el modelado de interiores exige opacidades medias y su uso en el gradiente radiativo.
+- **B37-C04 — Condiciones de frontera centrales y superficiales en modelos estelares.** *Texto redactado, pendiente de revisión.* B11-C12 trata fronteras en general; falta cómo cerrar el sistema de estructura estelar con condiciones en centro y superficie.
 - **B37-C05 — Códigos de evolución estelar: configuración, verificación y límites.** *Programada.* Ninguna clase enseña a configurar y verificar un código evolutivo (malla, pasos de tiempo, física de entrada), competencia central del rol.
 - **B37-C06 — Calibración de modelos estelares con el Sol y binarias.** *Programada.* Falta el contraste sistemático de modelos con restricciones observacionales (Sol, binarias eclipsantes) y el ajuste de parámetros libres.
 - **B37-C07 — Oscilaciones radiales y relación período-densidad media.** *Programada.* B24-C14 es una introducción; falta la teoría de modos radiales y la relación entre período y densidad media.

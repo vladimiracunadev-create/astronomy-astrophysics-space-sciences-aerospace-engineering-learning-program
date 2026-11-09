@@ -44,10 +44,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b37-c01"></a>B37-C01 | Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux | Gradientes, criterios y flujo convectivo. | Ficha de la convección |
-| <a id="b37-c02"></a>B37-C02 | Ecuaciones de estado estelares: gas ideal, radiación y degeneración | Presión de gas, de radiación y degeneración. | Ficha de la ecuación de estado |
-| <a id="b37-c03"></a>B37-C03 | Opacidad media de Rosseland y tablas de opacidad en interiores | Media de Rosseland e interpolación de tablas. | Ficha de la opacidad media |
-| <a id="b37-c04"></a>B37-C04 | Condiciones de frontera centrales y superficiales en modelos estelares | Series centrales y atmósfera gris. | Ficha de las condiciones de frontera |
+| <a id="b37-c01"></a>[B37-C01](../clases/B37/B37-C01-conveccion-longitud-de-mezcla-y-criterios-de-schwarzschild-y-ledoux/CLASE.md) | Convección: longitud de mezcla y criterios de Schwarzschild y Ledoux | Gradientes, criterios y flujo convectivo. | Ficha de la convección |
+| <a id="b37-c02"></a>[B37-C02](../clases/B37/B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md) | Ecuaciones de estado estelares: gas ideal, radiación y degeneración | Presión de gas, de radiación y degeneración. | Ficha de la ecuación de estado |
+| <a id="b37-c03"></a>[B37-C03](../clases/B37/B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md) | Opacidad media de Rosseland y tablas de opacidad en interiores | Media de Rosseland e interpolación de tablas. | Ficha de la opacidad media |
+| <a id="b37-c04"></a>[B37-C04](../clases/B37/B37-C04-condiciones-de-frontera-centrales-y-superficiales-en-modelos-estelares/CLASE.md) | Condiciones de frontera centrales y superficiales en modelos estelares | Series centrales y atmósfera gris. | Ficha de las condiciones de frontera |
 
 ### Tramo 2 · Códigos y calibración
 
