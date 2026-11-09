@@ -1,7 +1,7 @@
 # B26-C12 — Escalas de distancia cosmológicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C11 — Expansión cósmica y ley de Hubble-Lemaître](../B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md) · [Siguiente: B26-C13 — Modelo FLRW — Relatividad y cosmología →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C11 — Expansión cósmica y ley de Hubble-Lemaître](../B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md) · [Siguiente: B26-C13 — Modelo FLRW — Relatividad y cosmología →](../B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ La escalera propaga errores en cuadratura (`2,6 %` con los peldaños del ejemplo
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B26-C11 — Expansión cósmica y ley de Hubble-Lemaître](../B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C13 — Modelo FLRW — Relatividad y cosmología →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c13)
+[← Anterior: B26-C11 — Expansión cósmica y ley de Hubble-Lemaître](../B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C13 — Modelo FLRW — Relatividad y cosmología →](../B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md)
 <!-- /nav -->

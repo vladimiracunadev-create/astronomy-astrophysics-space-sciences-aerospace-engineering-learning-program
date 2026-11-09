@@ -68,15 +68,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b26-c11"></a>[B26-C11](../clases/B26/B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md) | Expansión cósmica y ley de Hubble-Lemaître | Ley de Hubble, ajuste con dispersión y tiempo de Hubble. | Ajuste de la ley con su incertidumbre |
 | <a id="b26-c12"></a>[B26-C12](../clases/B26/B26-C12-escalas-de-distancia-cosmologicas/CLASE.md) | Escalas de distancia cosmológicas | Escalera de distancias y propagación de errores. | Presupuesto de la escalera |
-| <a id="b26-c13"></a>B26-C13 | Modelo FLRW — Relatividad y cosmología | Ecuación de Friedmann y edad del universo. | Cálculo de la edad |
+| <a id="b26-c13"></a>[B26-C13](../clases/B26/B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md) | Modelo FLRW — Relatividad y cosmología | Ecuación de Friedmann y edad del universo. | Cálculo de la edad |
 
 ### Tramo 4 · Universo temprano
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b26-c14"></a>B26-C14 | Evolución térmica del universo | `T(z)`, densidad de radiación e igualdad materia–radiación. | Línea de tiempo térmica |
-| <a id="b26-c15"></a>B26-C15 | Radiación cósmica de fondo | Cuerpo negro cósmico, densidad de fotones y máximo espectral. | Ficha del cuerpo negro cósmico |
-| <a id="b26-c16"></a>B26-C16 | Nucleosíntesis primordial | Razón neutrón/protón y fracción de helio. | Cálculo de la fracción de helio |
+| <a id="b26-c14"></a>[B26-C14](../clases/B26/B26-C14-evolucion-termica-del-universo/CLASE.md) | Evolución térmica del universo | `T(z)`, densidad de radiación e igualdad materia–radiación. | Línea de tiempo térmica |
+| <a id="b26-c15"></a>[B26-C15](../clases/B26/B26-C15-radiacion-cosmica-de-fondo/CLASE.md) | Radiación cósmica de fondo | Cuerpo negro cósmico, densidad de fotones y máximo espectral. | Ficha del cuerpo negro cósmico |
+| <a id="b26-c16"></a>[B26-C16](../clases/B26/B26-C16-nucleosintesis-primordial/CLASE.md) | Nucleosíntesis primordial | Razón neutrón/protón y fracción de helio. | Cálculo de la fracción de helio |
 
 ### Tramo 5 · Estructura y componentes oscuros
 
