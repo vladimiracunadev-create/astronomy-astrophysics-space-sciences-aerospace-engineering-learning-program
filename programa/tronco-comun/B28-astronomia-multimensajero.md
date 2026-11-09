@@ -83,22 +83,22 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b28-c15"></a>[B28-C15](../clases/B28/B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md) | Búsqueda de contrapartidas ópticas | Teselado de una región de localización y probabilidad acumulada. | Plan de teselado con su cobertura |
 | <a id="b28-c16"></a>[B28-C16](../clases/B28/B28-C16-redes-internacionales-de-alertas/CLASE.md) | Redes internacionales de alertas | Visibilidad desde una red de sitios y disponibilidad combinada. | Ficha de cobertura de una red |
-| <a id="b28-c17"></a>B28-C17 | Archivos de eventos multimensajero | Registro con identificador, versión y huella; validación y duplicados. | Archivo validado con informe de errores |
+| <a id="b28-c17"></a>[B28-C17](../clases/B28/B28-C17-archivos-de-eventos-multimensajero/CLASE.md) | Archivos de eventos multimensajero | Registro con identificador, versión y huella; validación y duplicados. | Archivo validado con informe de errores |
 
 ### Tramo 6 · Interpretación y caso integrado
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b28-c18"></a>B28-C18 | Interpretación de kilonovas | Calentamiento radiactivo, tiempo de difusión y luminosidad pico. | Ficha de una kilonova |
-| <a id="b28-c19"></a>B28-C19 | Limitaciones y sesgos de detección | Función de selección y sesgo de Malmquist por simulación. | Ficha de sesgos de selección |
-| <a id="b28-c20"></a>B28-C20 | Caso de estudio de evento combinado | Cronología y coherencia de un evento con varios mensajeros. | Dossier de un evento combinado |
+| <a id="b28-c18"></a>[B28-C18](../clases/B28/B28-C18-interpretacion-de-kilonovas/CLASE.md) | Interpretación de kilonovas | Calentamiento radiactivo, tiempo de difusión y luminosidad pico. | Ficha de una kilonova |
+| <a id="b28-c19"></a>[B28-C19](../clases/B28/B28-C19-limitaciones-y-sesgos-de-deteccion/CLASE.md) | Limitaciones y sesgos de detección | Función de selección y sesgo de Malmquist por simulación. | Ficha de sesgos de selección |
+| <a id="b28-c20"></a>[B28-C20](../clases/B28/B28-C20-caso-de-estudio-de-evento-combinado/CLASE.md) | Caso de estudio de evento combinado | Cronología y coherencia de un evento con varios mensajeros. | Dossier de un evento combinado |
 
 ### Tramo 7 · Ampliación `0.2.0`: filtro acoplado e inferencia conjunta
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b28-c21"></a>B28-C21 | Formas de onda gravitacionales y filtro acoplado | Plantilla de chirrido, relación señal-ruido y desajuste del banco. | Ficha de filtro acoplado |
-| <a id="b28-c22"></a>B28-C22 | Inferencia bayesiana conjunta de parámetros de fuente multimensajero | Verosimilitud conjunta, degeneración distancia–inclinación y propagación de incertidumbres. | Ficha de inferencia conjunta |
+| <a id="b28-c21"></a>[B28-C21](../clases/B28/B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md) | Formas de onda gravitacionales y filtro acoplado | Plantilla de chirrido, relación señal-ruido y desajuste del banco. | Ficha de filtro acoplado |
+| <a id="b28-c22"></a>[B28-C22](../clases/B28/B28-C22-inferencia-bayesiana-conjunta-de-parametros-de-fuente-multimensajero/CLASE.md) | Inferencia bayesiana conjunta de parámetros de fuente multimensajero | Verosimilitud conjunta, degeneración distancia–inclinación y propagación de incertidumbres. | Ficha de inferencia conjunta |
 
 ## 🧵 Hilos que atraviesan el bloque
 

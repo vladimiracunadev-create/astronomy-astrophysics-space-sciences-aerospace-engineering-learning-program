@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 500 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 506 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -657,8 +657,8 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B28-C18 — Interpretación de kilonovas.** Introduce el contexto y los principios de «interpretación de kilonovas» para comprender su uso científico.
 - **B28-C19 — Limitaciones y sesgos de detección.** Describe «limitaciones y sesgos de detección», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B28-C20 — Caso de estudio de evento combinado.** Presenta qué significa «caso de estudio de evento combinado», sus elementos esenciales y su función dentro de astronomía multimensajero.
-- **B28-C21 — Formas de onda gravitacionales y filtro acoplado.** *Programada.* B28-C05 a B28-C07 introducen ondas y fuentes; falta el modelado de plantillas y la detección por filtro acoplado.
-- **B28-C22 — Inferencia bayesiana conjunta de parámetros de fuente multimensajero.** *Programada.* B28-C12 trata modelos de emisión conjunta; falta combinar mensajeros en una verosimilitud única y propagar incertidumbres.
+- **B28-C21 — Formas de onda gravitacionales y filtro acoplado.** *Texto redactado, pendiente de revisión.* B28-C05 a B28-C07 introducen ondas y fuentes; falta el modelado de plantillas y la detección por filtro acoplado.
+- **B28-C22 — Inferencia bayesiana conjunta de parámetros de fuente multimensajero.** *Texto redactado, pendiente de revisión.* B28-C12 trata modelos de emisión conjunta; falta combinar mensajeros en una verosimilitud única y propagar incertidumbres.
 
 ### B29 — Astronomía temporal y exoplanetas
 

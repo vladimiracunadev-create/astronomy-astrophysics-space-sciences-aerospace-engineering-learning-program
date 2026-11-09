@@ -1,7 +1,7 @@
 # B28-C16 — Redes internacionales de alertas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C15 — Búsqueda de contrapartidas ópticas](../B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md) · [Siguiente: B28-C17 — Archivos de eventos multimensajero →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C15 — Búsqueda de contrapartidas ópticas](../B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md) · [Siguiente: B28-C17 — Archivos de eventos multimensajero →](../B28-C17-archivos-de-eventos-multimensajero/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ Un sitio puede observar una fuente aleatoria `1/12` de las veces; seis sitios bi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B28-C15 — Búsqueda de contrapartidas ópticas](../B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C17 — Archivos de eventos multimensajero →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c17)
+[← Anterior: B28-C15 — Búsqueda de contrapartidas ópticas](../B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C17 — Archivos de eventos multimensajero →](../B28-C17-archivos-de-eventos-multimensajero/CLASE.md)
 <!-- /nav -->
