@@ -1,12 +1,12 @@
 # B33-C12 — Pronóstico de llegada y severidad de CME
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C11 — Modelos empíricos y de persistencia en clima espacial](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c11) · [Siguiente: B33-C13 — Pronóstico de actividad geomagnética →](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C11 — Modelos empíricos y de persistencia en clima espacial](../B33-C11-modelos-empiricos-y-de-persistencia-en-clima-espacial/CLASE.md) · [Siguiente: B33-C13 — Pronóstico de actividad geomagnética →](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 12 del bloque B33. Nivel N3. Un pronóstico de llegada se evalúa con su error. Aquí generas 200 eventos sintéticos con un arrastre «verdadero» y los pronosticas con modelos de arrastre mal especificado (mitad, doble y nulo), midiendo **sesgo**, **MAE**, **RMSE** y la fracción dentro de **±6 h**. Usas [B30-C13](../../B30/B30-C13-eyecciones-de-masa-coronal/CLASE.md) y [B33-C02](../B33-C02-propagacion-de-cme/CLASE.md). Los eventos son sintéticos.
+Clase 12 del bloque B33. Nivel N3. Un pronóstico de llegada se evalúa con su error. Aquí generas 200 eventos sintéticos con un arrastre «verdadero» y los pronosticas con modelos de arrastre mal especificado (mitad, doble y nulo), midiendo **sesgo**, **MAE**, **RMSE** y la fracción dentro de **±6 h**. Usas [B30-C13](../../B30/B30-C13-eyecciones-de-masa-coronal/CLASE.md) y [B33-C02](../B33-C02-modelos-de-propagacion-de-cme/CLASE.md). Los eventos son sintéticos.
 
 ## 2. Por qué esta clase existe
 
@@ -285,5 +285,5 @@ Equivocar el arrastre por un factor 2 produce errores de 8–11 h y deja fuera d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B33-C11 — Modelos empíricos y de persistencia en clima espacial](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c11) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B33-C13 — Pronóstico de actividad geomagnética →](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md)
+[← Anterior: B33-C11 — Modelos empíricos y de persistencia en clima espacial](../B33-C11-modelos-empiricos-y-de-persistencia-en-clima-espacial/CLASE.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B33-C13 — Pronóstico de actividad geomagnética →](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md)
 <!-- /nav -->

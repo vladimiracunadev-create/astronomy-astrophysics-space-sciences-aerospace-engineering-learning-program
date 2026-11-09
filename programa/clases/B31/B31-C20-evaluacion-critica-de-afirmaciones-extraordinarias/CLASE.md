@@ -1,7 +1,7 @@
 # B31-C20 — Evaluación crítica de afirmaciones extraordinarias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [← Anterior: B31-C19 — Vacío cuántico y límites conceptuales](../B31-C19-vacio-cuantico-y-limites-conceptuales/CLASE.md) · [Siguiente: B32-C01 — Ecuación de transferencia radiativa en atmósferas estelares →](../../../tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md#b32-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [← Anterior: B31-C19 — Vacío cuántico y límites conceptuales](../B31-C19-vacio-cuantico-y-limites-conceptuales/CLASE.md) · [Siguiente: B32-C01 — Ecuación de transferencia radiativa en atmósferas estelares →](../../B32/B32-C01-ecuacion-de-transferencia-radiativa-en-atmosferas-estelares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -325,5 +325,5 @@ Un 3σ en 100 zonas vale 1,1σ globales, y una hipótesis con a priori 10⁻⁹ 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B31-C19 — Vacío cuántico y límites conceptuales](../B31-C19-vacio-cuantico-y-limites-conceptuales/CLASE.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [Siguiente: B32-C01 — Ecuación de transferencia radiativa en atmósferas estelares →](../../../tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md#b32-c01)
+[← Anterior: B31-C19 — Vacío cuántico y límites conceptuales](../B31-C19-vacio-cuantico-y-limites-conceptuales/CLASE.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [Siguiente: B32-C01 — Ecuación de transferencia radiativa en atmósferas estelares →](../../B32/B32-C01-ecuacion-de-transferencia-radiativa-en-atmosferas-estelares/CLASE.md)
 <!-- /nav -->

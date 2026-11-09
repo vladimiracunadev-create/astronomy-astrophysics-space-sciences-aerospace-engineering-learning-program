@@ -43,30 +43,30 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b33-c01"></a>B33-C01 | Validación de modelos MHD con eventos solares documentados | Sesgo, RMSE, destreza y desfase. | Ficha de validación de un modelo |
-| <a id="b33-c02"></a>B33-C02 | Modelos de propagación de CME | Conjunto y propagación lineal de errores. | Ficha de la propagación de una CME |
-| <a id="b33-c03"></a>B33-C03 | Eventos extremos históricos de clima espacial | Gumbel y niveles de retorno. | Ficha de eventos extremos |
-| <a id="b33-c04"></a>B33-C04 | Escalas de severidad de clima espacial | Escalas G, S y R y conteos por nivel. | Ficha de las escalas de severidad |
+| <a id="b33-c01"></a>[B33-C01](../clases/B33/B33-C01-validacion-de-modelos-mhd-con-eventos-solares-documentados/CLASE.md) | Validación de modelos MHD con eventos solares documentados | Sesgo, RMSE, destreza y desfase. | Ficha de validación de un modelo |
+| <a id="b33-c02"></a>[B33-C02](../clases/B33/B33-C02-modelos-de-propagacion-de-cme/CLASE.md) | Modelos de propagación de CME | Conjunto y propagación lineal de errores. | Ficha de la propagación de una CME |
+| <a id="b33-c03"></a>[B33-C03](../clases/B33/B33-C03-eventos-extremos-historicos-de-clima-espacial/CLASE.md) | Eventos extremos históricos de clima espacial | Gumbel y niveles de retorno. | Ficha de eventos extremos |
+| <a id="b33-c04"></a>[B33-C04](../clases/B33/B33-C04-escalas-de-severidad-de-clima-espacial/CLASE.md) | Escalas de severidad de clima espacial | Escalas G, S y R y conteos por nivel. | Ficha de las escalas de severidad |
 
 ### Tramo 2 · Riesgo e impactos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b33-c05"></a>B33-C05 | Comunicación de riesgo y alertas de clima espacial | Costo–pérdida, Brier y fiabilidad. | Ficha del riesgo y las alertas |
-| <a id="b33-c06"></a>B33-C06 | Corrientes geomagnéticas inducidas (GIC) | Campo geoeléctrico y corriente en una línea. | Ficha de las corrientes inducidas |
-| <a id="b33-c07"></a>B33-C07 | Impactos del clima espacial en redes eléctricas | Análisis nodal de corrientes de tierra. | Ficha de la red eléctrica |
+| <a id="b33-c05"></a>[B33-C05](../clases/B33/B33-C05-comunicacion-de-riesgo-y-alertas-de-clima-espacial/CLASE.md) | Comunicación de riesgo y alertas de clima espacial | Costo–pérdida, Brier y fiabilidad. | Ficha del riesgo y las alertas |
+| <a id="b33-c06"></a>[B33-C06](../clases/B33/B33-C06-corrientes-geomagneticas-inducidas-gic/CLASE.md) | Corrientes geomagnéticas inducidas (GIC) | Campo geoeléctrico y corriente en una línea. | Ficha de las corrientes inducidas |
+| <a id="b33-c07"></a>[B33-C07](../clases/B33/B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md) | Impactos del clima espacial en redes eléctricas | Análisis nodal de corrientes de tierra. | Ficha de la red eléctrica |
 | <a id="b33-c08"></a>[B33-C08](../clases/B33/B33-C08-dosis-de-radiacion-en-aviacion/CLASE.md) | Dosis de radiación en aviación | Profundidad atmosférica y atenuación de juguete. | Ficha de la radiación en aviación |
-| <a id="b33-c09"></a>B33-C09 | Planes de continuidad ante eventos de clima espacial | Redundancia, causa común y disponibilidad. | Ficha de la continuidad |
+| <a id="b33-c09"></a>[B33-C09](../clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md) | Planes de continuidad ante eventos de clima espacial | Redundancia, causa común y disponibilidad. | Ficha de la continuidad |
 
 ### Tramo 3 · Pronóstico y verificación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b33-c10"></a>B33-C10 | Modelos de viento solar para pronóstico (Parker y WSA) | Relación empírica de prueba y Parker. | Ficha del viento solar para pronóstico |
-| <a id="b33-c11"></a>B33-C11 | Modelos empíricos y de persistencia en clima espacial | Persistencia y recurrencia de 27 días. | Ficha de la persistencia |
+| <a id="b33-c10"></a>[B33-C10](../clases/B33/B33-C10-modelos-de-viento-solar-para-pronostico-parker-y-wsa/CLASE.md) | Modelos de viento solar para pronóstico (Parker y WSA) | Relación empírica de prueba y Parker. | Ficha del viento solar para pronóstico |
+| <a id="b33-c11"></a>[B33-C11](../clases/B33/B33-C11-modelos-empiricos-y-de-persistencia-en-clima-espacial/CLASE.md) | Modelos empíricos y de persistencia en clima espacial | Persistencia y recurrencia de 27 días. | Ficha de la persistencia |
 | <a id="b33-c12"></a>[B33-C12](../clases/B33/B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md) | Pronóstico de llegada y severidad de CME | Error de llegada con arrastre mal especificado. | Ficha del pronóstico de llegada |
 | <a id="b33-c13"></a>[B33-C13](../clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md) | Pronóstico de actividad geomagnética | Regresión y pronóstico por umbral. | Ficha del pronóstico geomagnético |
-| <a id="b33-c14"></a>B33-C14 | Verificación de alertas con tablas de contingencia | Tabla, ROC y AUC por dos vías. | Ficha de la verificación de alertas |
+| <a id="b33-c14"></a>[B33-C14](../clases/B33/B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md) | Verificación de alertas con tablas de contingencia | Tabla, ROC y AUC por dos vías. | Ficha de la verificación de alertas |
 
 ## 🧵 Hilos que atraviesan el bloque
 

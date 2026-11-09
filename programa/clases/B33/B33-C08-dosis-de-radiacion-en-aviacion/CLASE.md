@@ -1,7 +1,7 @@
 # B33-C08 — Dosis de radiación en aviación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C07 — Impactos del clima espacial en redes eléctricas](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c07) · [Siguiente: B33-C09 — Planes de continuidad ante eventos de clima espacial →](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C07 — Impactos del clima espacial en redes eléctricas](../B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md) · [Siguiente: B33-C09 — Planes de continuidad ante eventos de clima espacial →](../B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,12 +290,12 @@ A 12 km queda la quinta parte de la atmósfera (200 g/cm²) y el juguete multipl
 
 **Glosario español–inglés.** dosis de radiación · *radiation dose*; profundidad atmosférica · *atmospheric depth*; altura de escala · *scale height*; longitud de atenuación · *attenuation length*; aviación · *aviation*.
 
-**Continuidad.** [B33-C09](../B33-C09-planes-de-continuidad/CLASE.md) estudia los planes de continuidad.
+**Continuidad.** [B33-C09](../B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md) estudia los planes de continuidad.
 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B33-C07 — Impactos del clima espacial en redes eléctricas](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c07) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B33-C09 — Planes de continuidad ante eventos de clima espacial →](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c09)
+[← Anterior: B33-C07 — Impactos del clima espacial en redes eléctricas](../B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B33-C09 — Planes de continuidad ante eventos de clima espacial →](../B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md)
 <!-- /nav -->

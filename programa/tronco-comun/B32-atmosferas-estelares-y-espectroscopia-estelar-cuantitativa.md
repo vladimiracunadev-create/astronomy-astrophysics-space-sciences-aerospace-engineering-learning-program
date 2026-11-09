@@ -43,28 +43,28 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b32-c01"></a>B32-C01 | Ecuación de transferencia radiativa en atmósferas estelares | Intensidad emergente, limbo y flujo. | Ficha de la transferencia radiativa |
-| <a id="b32-c02"></a>B32-C02 | Equilibrio termodinámico local y desviaciones no LTE | Boltzmann, Saha y fracción ionizada. | Ficha del equilibrio local |
-| <a id="b32-c03"></a>B32-C03 | Opacidad continua: ligado-libre, libre-libre y H- | Umbral del H⁻, Kramers y media de Rosseland. | Ficha de la opacidad continua |
-| <a id="b32-c04"></a>B32-C04 | Opacidad de líneas: ensanchamiento y perfil de Voigt | Perfil de Voigt y ancho Doppler. | Ficha del perfil de Voigt |
-| <a id="b32-c05"></a>B32-C05 | Relación T-τ y estructura térmica de la fotosfera | Relación de Eddington y flujo. | Ficha de la estructura térmica |
+| <a id="b32-c01"></a>[B32-C01](../clases/B32/B32-C01-ecuacion-de-transferencia-radiativa-en-atmosferas-estelares/CLASE.md) | Ecuación de transferencia radiativa en atmósferas estelares | Intensidad emergente, limbo y flujo. | Ficha de la transferencia radiativa |
+| <a id="b32-c02"></a>[B32-C02](../clases/B32/B32-C02-equilibrio-termodinamico-local-y-desviaciones-no-lte/CLASE.md) | Equilibrio termodinámico local y desviaciones no LTE | Boltzmann, Saha y fracción ionizada. | Ficha del equilibrio local |
+| <a id="b32-c03"></a>[B32-C03](../clases/B32/B32-C03-opacidad-continua-ligado-libre-libre-libre-y-h/CLASE.md) | Opacidad continua: ligado-libre, libre-libre y H- | Umbral del H⁻, Kramers y media de Rosseland. | Ficha de la opacidad continua |
+| <a id="b32-c04"></a>[B32-C04](../clases/B32/B32-C04-opacidad-de-lineas-ensanchamiento-y-perfil-de-voigt/CLASE.md) | Opacidad de líneas: ensanchamiento y perfil de Voigt | Perfil de Voigt y ancho Doppler. | Ficha del perfil de Voigt |
+| <a id="b32-c05"></a>[B32-C05](../clases/B32/B32-C05-relacion-t-y-estructura-termica-de-la-fotosfera/CLASE.md) | Relación T-τ y estructura térmica de la fotosfera | Relación de Eddington y flujo. | Ficha de la estructura térmica |
 
 ### Tramo 2 · Movimientos y modelos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b32-c06"></a>B32-C06 | Micro y macroturbulencia y granulación estelar | Ensanchamiento térmico y turbulento. | Ficha del ensanchamiento por turbulencia |
-| <a id="b32-c07"></a>B32-C07 | Modelos de atmósferas estelares 1D y 3D hidrodinámicos | Modelo 1D y sesgo de las fluctuaciones. | Ficha de los modelos de atmósfera |
+| <a id="b32-c06"></a>[B32-C06](../clases/B32/B32-C06-micro-y-macroturbulencia-y-granulacion-estelar/CLASE.md) | Micro y macroturbulencia y granulación estelar | Ensanchamiento térmico y turbulento. | Ficha del ensanchamiento por turbulencia |
+| <a id="b32-c07"></a>[B32-C07](../clases/B32/B32-C07-modelos-de-atmosferas-estelares-1d-y-3d-hidrodinamicos/CLASE.md) | Modelos de atmósferas estelares 1D y 3D hidrodinámicos | Modelo 1D y sesgo de las fluctuaciones. | Ficha de los modelos de atmósfera |
 
 ### Tramo 3 · Espectroscopía cuantitativa
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b32-c08"></a>B32-C08 | Síntesis espectral e inversión de perfiles | Milne–Eddington e inversión con errores. | Ficha de la inversión de perfiles |
-| <a id="b32-c09"></a>B32-C09 | Medición de perfiles de línea: ancho equivalente y ajuste | Ancho equivalente y curva de crecimiento. | Ficha de la curva de crecimiento |
-| <a id="b32-c10"></a>B32-C10 | Normalización y modelado del continuo espectral | Ajuste polinómico con recortes. | Ficha de la normalización del continuo |
-| <a id="b32-c11"></a>B32-C11 | Ensanchamiento rotacional y v sin i | Kernel rotacional y recuperación de v sin i. | Ficha del ensanchamiento rotacional |
-| <a id="b32-c12"></a>B32-C12 | Efecto Zeeman y diagnóstico de campos magnéticos estelares | Desdoblamiento y polarización de campo débil. | Ficha del efecto Zeeman estelar |
+| <a id="b32-c08"></a>[B32-C08](../clases/B32/B32-C08-sintesis-espectral-e-inversion-de-perfiles/CLASE.md) | Síntesis espectral e inversión de perfiles | Milne–Eddington e inversión con errores. | Ficha de la inversión de perfiles |
+| <a id="b32-c09"></a>[B32-C09](../clases/B32/B32-C09-medicion-de-perfiles-de-linea-ancho-equivalente-y-ajuste/CLASE.md) | Medición de perfiles de línea: ancho equivalente y ajuste | Ancho equivalente y curva de crecimiento. | Ficha de la curva de crecimiento |
+| <a id="b32-c10"></a>[B32-C10](../clases/B32/B32-C10-normalizacion-y-modelado-del-continuo-espectral/CLASE.md) | Normalización y modelado del continuo espectral | Ajuste polinómico con recortes. | Ficha de la normalización del continuo |
+| <a id="b32-c11"></a>[B32-C11](../clases/B32/B32-C11-ensanchamiento-rotacional-y-v-sin-i/CLASE.md) | Ensanchamiento rotacional y v sin i | Kernel rotacional y recuperación de v sin i. | Ficha del ensanchamiento rotacional |
+| <a id="b32-c12"></a>[B32-C12](../clases/B32/B32-C12-efecto-zeeman-y-diagnostico-de-campos-magneticos-estelares/CLASE.md) | Efecto Zeeman y diagnóstico de campos magnéticos estelares | Desdoblamiento y polarización de campo débil. | Ficha del efecto Zeeman estelar |
 
 ## 🧵 Hilos que atraviesan el bloque
 

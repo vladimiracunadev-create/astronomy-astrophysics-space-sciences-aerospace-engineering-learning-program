@@ -1,7 +1,7 @@
 # B33-C13 — Pronóstico de actividad geomagnética
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C12 — Pronóstico de llegada y severidad de CME](../B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md) · [Siguiente: B33-C14 — Verificación de alertas con tablas de contingencia →](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c14)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C12 — Pronóstico de llegada y severidad de CME](../B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md) · [Siguiente: B33-C14 — Verificación de alertas con tablas de contingencia →](../B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,12 +296,12 @@ Un ajuste con R² de 0,91 pronostica un evento de 1 % con Heidke de apenas 0,15.
 
 **Glosario español–inglés.** función de acoplamiento · *coupling function*; regresión · *regression*; evento raro · *rare event*; umbral · *threshold*; destreza · *skill*.
 
-**Continuidad.** [B33-C14](../B33-C14-verificacion-de-alertas/CLASE.md) estudia la verificación de alertas.
+**Continuidad.** [B33-C14](../B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md) estudia la verificación de alertas.
 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B33-C12 — Pronóstico de llegada y severidad de CME](../B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B33-C14 — Verificación de alertas con tablas de contingencia →](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md#b33-c14)
+[← Anterior: B33-C12 — Pronóstico de llegada y severidad de CME](../B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B33-C14 — Verificación de alertas con tablas de contingencia →](../B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md)
 <!-- /nav -->
