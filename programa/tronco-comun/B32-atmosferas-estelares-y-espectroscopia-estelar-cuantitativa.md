@@ -88,3 +88,13 @@ El bloque es educativo. Los modelos son simplificados (atmósferas grises, perfi
 - [Astrofísica estelar y galáctica](../../rutas/astrofisica-estelar-y-galactica.md)
 
 [🏠 Volver al programa](../../README.md) · [➡️ B33 — Clima espacial: impactos, pronóstico y riesgo](./B33-clima-espacial-impactos-pronostico-y-riesgo.md)
+
+## Fuentes de orientación preliminar
+
+- **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.
+- **[IAU-B3]** [UAI, Resolución B3 de 2015](https://arxiv.org/abs/1510.07674) — Valores nominales solares y planetarios.
+- **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
+
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B33 — Clima espacial: impactos, pronóstico y riesgo](./B33-clima-espacial-impactos-pronostico-y-riesgo.md)
