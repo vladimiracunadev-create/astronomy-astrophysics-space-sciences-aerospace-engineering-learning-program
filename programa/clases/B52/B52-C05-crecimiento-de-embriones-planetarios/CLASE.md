@@ -1,7 +1,7 @@
 # B52-C05 — Crecimiento de embriones planetarios
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C04 — Formación de planetesimales](../B52-C04-formacion-de-planetesimales/CLASE.md) · [Siguiente: B52-C06 — Migración de planetas →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C04 — Formación de planetesimales](../B52-C04-formacion-de-planetesimales/CLASE.md) · [Siguiente: B52-C06 — Migración de planetas →](../B52-C06-migracion-de-planetas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ El enfoque gravitacional lleva el crecimiento a una explosión en `462` años en
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B52-C04 — Formación de planetesimales](../B52-C04-formacion-de-planetesimales/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C06 — Migración de planetas →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c06)
+[← Anterior: B52-C04 — Formación de planetesimales](../B52-C04-formacion-de-planetesimales/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C06 — Migración de planetas →](../B52-C06-migracion-de-planetas/CLASE.md)
 <!-- /nav -->

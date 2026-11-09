@@ -54,11 +54,11 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b52-c06"></a>B52-C06 | Migración de planetas | Par de torsión, escala de tiempo de migración y evolución del semieje. | Ficha de la migración |
-| <a id="b52-c07"></a>B52-C07 | Resonancias orbitales | Resonancia de Laplace de los satélites galileanos con periodos de la NASA. | Ficha de la resonancia de Laplace |
-| <a id="b52-c08"></a>B52-C08 | Formación de gigantes gaseosos | Masa térmica, radios de Bondi y de Hill y límite de captura de gas. | Ficha de la captura de gas |
-| <a id="b52-c09"></a>B52-C09 | Dispersión de discos de gas | Evolución viscosa del disco frente a la solución de semejanza. | Ficha de la dispersión del disco |
-| <a id="b52-c10"></a>B52-C10 | Arquitecturas de sistemas exoplanetarios | Espaciado en radios de Hill mutuos y razones de periodos. | Ficha de la arquitectura de un sistema |
+| <a id="b52-c06"></a>[B52-C06](../clases/B52/B52-C06-migracion-de-planetas/CLASE.md) | Migración de planetas | Par de torsión, escala de tiempo de migración y evolución del semieje. | Ficha de la migración |
+| <a id="b52-c07"></a>[B52-C07](../clases/B52/B52-C07-resonancias-orbitales/CLASE.md) | Resonancias orbitales | Resonancia de Laplace de los satélites galileanos con periodos de la NASA. | Ficha de la resonancia de Laplace |
+| <a id="b52-c08"></a>[B52-C08](../clases/B52/B52-C08-formacion-de-gigantes-gaseosos/CLASE.md) | Formación de gigantes gaseosos | Masa térmica, radios de Bondi y de Hill y límite de captura de gas. | Ficha de la captura de gas |
+| <a id="b52-c09"></a>[B52-C09](../clases/B52/B52-C09-dispersion-de-discos-de-gas/CLASE.md) | Dispersión de discos de gas | Evolución viscosa del disco frente a la solución de semejanza. | Ficha de la dispersión del disco |
+| <a id="b52-c10"></a>[B52-C10](../clases/B52/B52-C10-arquitecturas-de-sistemas-exoplanetarios/CLASE.md) | Arquitecturas de sistemas exoplanetarios | Espaciado en radios de Hill mutuos y razones de periodos. | Ficha de la arquitectura de un sistema |
 
 ### Tramo 3 · Satélites, anillos y cuerpos remanentes
 
