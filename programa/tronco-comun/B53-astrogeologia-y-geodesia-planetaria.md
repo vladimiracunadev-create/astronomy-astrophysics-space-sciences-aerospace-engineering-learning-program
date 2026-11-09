@@ -57,17 +57,17 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b53-c05"></a>[B53-C05](../clases/B53/B53-C05-sistemas-de-coordenadas-lunares/CLASE.md) | Sistemas de coordenadas lunares | Conversión lat/lon, rotación entre marcos y proyección polar. | Ficha del sistema de coordenadas lunar |
-| B53-C06 | Geodesia de Marte | Latitud planetocéntrica y planetográfica y altura elipsoidal. | Ficha de la geodesia sobre un elipsoide |
+| <a id="b53-c06"></a>[B53-C06](../clases/B53/B53-C06-geodesia-de-marte/CLASE.md) | Geodesia de Marte | Latitud planetocéntrica y planetográfica y altura elipsoidal. | Ficha de la geodesia sobre un elipsoide |
 | B53-C21 | Rotación y orientación de cuerpos planetarios: polos y meridiano origen | Polo, meridiano origen y matriz de rotación de un cuerpo. | Ficha de orientación de un cuerpo |
-| B53-C07 | Topografía por altimetría | Cruces de pasadas y estimación de sesgos de órbita. | Ficha del ajuste por cruces de pasadas |
+| <a id="b53-c07"></a>[B53-C07](../clases/B53/B53-C07-topografia-por-altimetria/CLASE.md) | Topografía por altimetría | Cruces de pasadas y estimación de sesgos de órbita. | Ficha del ajuste por cruces de pasadas |
 | B53-C25 | Corrección geométrica y ortorrectificación de imágenes planetarias | Desplazamiento por relieve y corrección con un MDE. | Ficha de la ortorrectificación |
 
 ### Tramo 3 · Superficies, impactos y procesos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B53-C08 | Cartografía de cráteres | Estimación de la pendiente de la distribución de tamaños de cráteres. | Ficha de la distribución de tamaños de cráteres |
-| B53-C09 | Estratigrafía planetaria | Orden topológico, contradicciones y densidad de cráteres. | Ficha de la secuencia estratigráfica |
+| <a id="b53-c08"></a>[B53-C08](../clases/B53/B53-C08-cartografia-de-crateres/CLASE.md) | Cartografía de cráteres | Estimación de la pendiente de la distribución de tamaños de cráteres. | Ficha de la distribución de tamaños de cráteres |
+| <a id="b53-c09"></a>[B53-C09](../clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md) | Estratigrafía planetaria | Orden topológico, contradicciones y densidad de cráteres. | Ficha de la secuencia estratigráfica |
 | B53-C10 | Geología de impacto | Escalamiento del cráter con la gravedad y presión de choque. | Ficha del escalamiento de un impacto |
 | B53-C22 | Meteorización espacial: micrometeoritos, viento solar y maduración del regolito | Enrojecimiento por maduración y mezcla por micrometeoritos. | Ficha de maduración del regolito |
 | B53-C11 | Vulcanismo extraterrestre | Perfil de velocidad de una lámina de lava, gravedad y espesor máximo. | Ficha del flujo de lava y la gravedad |

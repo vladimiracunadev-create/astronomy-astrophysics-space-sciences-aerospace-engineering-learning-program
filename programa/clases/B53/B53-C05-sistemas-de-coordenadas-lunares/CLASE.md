@@ -1,7 +1,7 @@
 # B53-C05 — Sistemas de coordenadas lunares
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C04 — Geoides y elipsoides](../B53-C04-geoides-y-elipsoides/CLASE.md) · [Siguiente: B53-C06 — Geodesia de Marte →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C04 — Geoides y elipsoides](../B53-C04-geoides-y-elipsoides/CLASE.md) · [Siguiente: B53-C06 — Geodesia de Marte →](../B53-C06-geodesia-de-marte/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ Las transformaciones se invierten con error `6 × 10⁻¹² km` y el desfase ilu
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C04 — Geoides y elipsoides](../B53-C04-geoides-y-elipsoides/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C06 — Geodesia de Marte →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c06)
+[← Anterior: B53-C04 — Geoides y elipsoides](../B53-C04-geoides-y-elipsoides/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C06 — Geodesia de Marte →](../B53-C06-geodesia-de-marte/CLASE.md)
 <!-- /nav -->
