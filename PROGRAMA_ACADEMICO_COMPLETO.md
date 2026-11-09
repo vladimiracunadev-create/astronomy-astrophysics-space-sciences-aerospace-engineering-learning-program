@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 595 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 604 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -774,15 +774,15 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (9 clases): Calentamiento coronal: mecanismos y evidencias; Emisión EUV y rayos X de la corona; Bucles magnéticos coronales…*
 
-- **B34-C01 — Calentamiento coronal: mecanismos y evidencias.** *Programada.* B30-C02 describe la corona pero no el problema del calentamiento (ondas frente a nanofulguraciones), competencia central de la física coronal.
-- **B34-C02 — Emisión EUV y rayos X de la corona.** *Programada.* Formación de líneas EUV, función de contribución y medida de emisión; B45 trata espectroscopía general, no plasma coronal.
-- **B34-C03 — Bucles magnéticos coronales.** *Programada.* Estructura, equilibrio y oscilaciones de los bucles; no cubierto en B30.
-- **B34-C04 — Ondas y oscilaciones coronales como sismología solar.** *Programada.* Ondas kink y acústicas en la corona usadas como diagnóstico; ninguna clase actual las trata.
-- **B34-C05 — Diagnóstico de densidad electrónica coronal.** *Programada.* Cocientes de líneas y medida de emisión para inferir densidad; B45 no aplica la espectroscopía a plasma coronal.
-- **B34-C06 — Tomografía coronal.** *Programada.* Reconstrucción 3D de la corona desde vistas múltiples; combina inversión con geometría solar y no existe en el tronco.
-- **B34-C07 — Comparación de modelos coronales con observaciones.** *Programada.* Forward modelling de campos y emisión para contrastar con EUV y magnetogramas; no cubierto.
-- **B34-C08 — Erupciones de filamentos y prominencias.** *Programada.* Equilibrio, inestabilidad y erupción de filamentos como precursores de CME; B30-C13 trata la CME ya eyectada.
-- **B34-C09 — Integración multiinstrumento de datos heliofísicos.** *Programada.* Alinear imágenes, campos y partículas de varios instrumentos para un mismo evento; B28-C11 es multimensajero astrofísico, no heliofísico.
+- **B34-C01 — Calentamiento coronal: mecanismos y evidencias.** *Texto redactado, pendiente de revisión.* B30-C02 describe la corona pero no el problema del calentamiento (ondas frente a nanofulguraciones), competencia central de la física coronal.
+- **B34-C02 — Emisión EUV y rayos X de la corona.** *Texto redactado, pendiente de revisión.* Formación de líneas EUV, función de contribución y medida de emisión; B45 trata espectroscopía general, no plasma coronal.
+- **B34-C03 — Bucles magnéticos coronales.** *Texto redactado, pendiente de revisión.* Estructura, equilibrio y oscilaciones de los bucles; no cubierto en B30.
+- **B34-C04 — Ondas y oscilaciones coronales como sismología solar.** *Texto redactado, pendiente de revisión.* Ondas kink y acústicas en la corona usadas como diagnóstico; ninguna clase actual las trata.
+- **B34-C05 — Diagnóstico de densidad electrónica coronal.** *Texto redactado, pendiente de revisión.* Cocientes de líneas y medida de emisión para inferir densidad; B45 no aplica la espectroscopía a plasma coronal.
+- **B34-C06 — Tomografía coronal.** *Texto redactado, pendiente de revisión.* Reconstrucción 3D de la corona desde vistas múltiples; combina inversión con geometría solar y no existe en el tronco.
+- **B34-C07 — Comparación de modelos coronales con observaciones.** *Texto redactado, pendiente de revisión.* Forward modelling de campos y emisión para contrastar con EUV y magnetogramas; no cubierto.
+- **B34-C08 — Erupciones de filamentos y prominencias.** *Texto redactado, pendiente de revisión.* Equilibrio, inestabilidad y erupción de filamentos como precursores de CME; B30-C13 trata la CME ya eyectada.
+- **B34-C09 — Integración multiinstrumento de datos heliofísicos.** *Texto redactado, pendiente de revisión.* Alinear imágenes, campos y partículas de varios instrumentos para un mismo evento; B28-C11 es multimensajero astrofísico, no heliofísico.
 
 ### B35 — Física avanzada de plasmas y MHD espacial
 

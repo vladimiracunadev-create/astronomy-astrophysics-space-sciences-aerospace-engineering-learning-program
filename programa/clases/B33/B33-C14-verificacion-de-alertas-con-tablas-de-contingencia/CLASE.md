@@ -1,7 +1,7 @@
 # B33-C14 — Verificación de alertas con tablas de contingencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C13 — Pronóstico de actividad geomagnética](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md) · [Siguiente: B34-C01 — Calentamiento coronal: mecanismos y evidencias →](../../../tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md#b34-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [← Anterior: B33-C13 — Pronóstico de actividad geomagnética](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md) · [Siguiente: B34-C01 — Calentamiento coronal: mecanismos y evidencias →](../../B34/B34-C01-calentamiento-coronal-mecanismos-y-evidencias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ El AUC sintético es 0,805 por dos vías idénticas y el mejor Heidke 0,30 en el
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B33-C13 — Pronóstico de actividad geomagnética](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B34-C01 — Calentamiento coronal: mecanismos y evidencias →](../../../tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md#b34-c01)
+[← Anterior: B33-C13 — Pronóstico de actividad geomagnética](../B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md) · [📚 Bloque B33](../../../tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md) · [Siguiente: B34-C01 — Calentamiento coronal: mecanismos y evidencias →](../../B34/B34-C01-calentamiento-coronal-mecanismos-y-evidencias/CLASE.md)
 <!-- /nav -->

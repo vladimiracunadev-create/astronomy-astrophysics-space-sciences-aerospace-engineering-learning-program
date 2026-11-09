@@ -43,25 +43,25 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b34-c01"></a>B34-C01 | Calentamiento coronal: mecanismos y evidencias | Balance conductivo y radiativo y energía de eventos pequeños. | Ficha del calentamiento coronal |
-| <a id="b34-c02"></a>B34-C02 | Emisión EUV y rayos X de la corona | Máximo de Wien, medida de emisión y potencia radiada. | Ficha de la emisión EUV y de rayos X |
-| <a id="b34-c03"></a>B34-C03 | Bucles magnéticos coronales | Estratificación hidrostática de un bucle semicircular. | Ficha de un bucle coronal |
-| <a id="b34-c04"></a>B34-C04 | Ondas y oscilaciones coronales como sismología solar | Modo kink, período y campo inferido con su incertidumbre. | Ficha de la sismología coronal |
+| <a id="b34-c01"></a>[B34-C01](../clases/B34/B34-C01-calentamiento-coronal-mecanismos-y-evidencias/CLASE.md) | Calentamiento coronal: mecanismos y evidencias | Balance conductivo y radiativo y energía de eventos pequeños. | Ficha del calentamiento coronal |
+| <a id="b34-c02"></a>[B34-C02](../clases/B34/B34-C02-emision-euv-y-rayos-x-de-la-corona/CLASE.md) | Emisión EUV y rayos X de la corona | Máximo de Wien, medida de emisión y potencia radiada. | Ficha de la emisión EUV y de rayos X |
+| <a id="b34-c03"></a>[B34-C03](../clases/B34/B34-C03-bucles-magneticos-coronales/CLASE.md) | Bucles magnéticos coronales | Estratificación hidrostática de un bucle semicircular. | Ficha de un bucle coronal |
+| <a id="b34-c04"></a>[B34-C04](../clases/B34/B34-C04-ondas-y-oscilaciones-coronales-como-sismologia-solar/CLASE.md) | Ondas y oscilaciones coronales como sismología solar | Modo kink, período y campo inferido con su incertidumbre. | Ficha de la sismología coronal |
 
 ### Tramo 2 · Diagnóstico y modelos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b34-c05"></a>B34-C05 | Diagnóstico de densidad electrónica coronal | Inversión de un cociente de líneas y propagación del error. | Ficha del diagnóstico de densidad |
-| <a id="b34-c06"></a>B34-C06 | Tomografía coronal | Reconstrucción ART de una emisividad 2D. | Ficha de la tomografía coronal |
-| <a id="b34-c07"></a>B34-C07 | Comparación de modelos coronales con observaciones | Correlación, razón y prueba de Kolmogorov–Smirnov. | Ficha de la comparación modelo–observación |
+| <a id="b34-c05"></a>[B34-C05](../clases/B34/B34-C05-diagnostico-de-densidad-electronica-coronal/CLASE.md) | Diagnóstico de densidad electrónica coronal | Inversión de un cociente de líneas y propagación del error. | Ficha del diagnóstico de densidad |
+| <a id="b34-c06"></a>[B34-C06](../clases/B34/B34-C06-tomografia-coronal/CLASE.md) | Tomografía coronal | Reconstrucción ART de una emisividad 2D. | Ficha de la tomografía coronal |
+| <a id="b34-c07"></a>[B34-C07](../clases/B34/B34-C07-comparacion-de-modelos-coronales-con-observaciones/CLASE.md) | Comparación de modelos coronales con observaciones | Correlación, razón y prueba de Kolmogorov–Smirnov. | Ficha de la comparación modelo–observación |
 
 ### Tramo 3 · Erupciones y datos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b34-c08"></a>B34-C08 | Erupciones de filamentos y prominencias | Índice de decaimiento, altura crítica y energía. | Ficha de la erupción de un filamento |
-| <a id="b34-c09"></a>B34-C09 | Integración multiinstrumento de datos heliofísicos | Alineación temporal de curvas de luz por correlación cruzada. | Ficha de la integración multiinstrumento |
+| <a id="b34-c08"></a>[B34-C08](../clases/B34/B34-C08-erupciones-de-filamentos-y-prominencias/CLASE.md) | Erupciones de filamentos y prominencias | Índice de decaimiento, altura crítica y energía. | Ficha de la erupción de un filamento |
+| <a id="b34-c09"></a>[B34-C09](../clases/B34/B34-C09-integracion-multiinstrumento-de-datos-heliofisicos/CLASE.md) | Integración multiinstrumento de datos heliofísicos | Alineación temporal de curvas de luz por correlación cruzada. | Ficha de la integración multiinstrumento |
 
 ## 🧵 Hilos que atraviesan el bloque
 
