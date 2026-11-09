@@ -89,7 +89,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B53-C17 | Mineralogía espectral | Remoción del continuo, profundidad y centro de banda. | Ficha de una banda de absorción |
+| <a id="b53-c17"></a>[B53-C17](../clases/B53/B53-C17-mineralogia-espectral/CLASE.md) | Mineralogía espectral | Remoción del continuo, profundidad y centro de banda. | Ficha de una banda de absorción |
 | B53-C29 | Imágenes hiperespectrales de superficies planetarias | Mezcla lineal, desmezclado y ángulo espectral. | Ficha del desmezclado espectral |
 | B53-C30 | Radar de penetración subsuperficial en cuerpos planetarios | Coeficiente de reflexión, hipérbola de difracción y ajuste de velocidad. | Ficha del radar de subsuelo |
 
@@ -97,10 +97,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B53-C18 | Cartografía geológica digital | Áreas en proyecciones y topología de polígonos. | Ficha del mapa geológico digital |
+| <a id="b53-c18"></a>[B53-C18](../clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md) | Cartografía geológica digital | Áreas en proyecciones y topología de polígonos. | Ficha del mapa geológico digital |
 | B53-C26 | Publicación de mapas geológicos planetarios: estándares y leyendas | Escala, unidad mínima cartografiable, contraste de leyenda y metadatos. | Ficha de publicación del mapa |
-| B53-C19 | Incertidumbre en mapas planetarios | Propagación de errores de posición y de medición a diámetro y área. | Ficha de incertidumbre de un mapa |
-| B53-C20 | Proyecto SIG de terreno extraterrestre | Pendiente de un MDE, sombreado y máscara de transitabilidad. | Ficha del proyecto SIG de terreno |
+| <a id="b53-c19"></a>[B53-C19](../clases/B53/B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md) | Incertidumbre en mapas planetarios | Propagación de errores de posición y de medición a diámetro y área. | Ficha de incertidumbre de un mapa |
+| <a id="b53-c20"></a>[B53-C20](../clases/B53/B53-C20-proyecto-sig-de-terreno-extraterrestre/CLASE.md) | Proyecto SIG de terreno extraterrestre | Pendiente de un MDE, sombreado y máscara de transitabilidad. | Ficha del proyecto SIG de terreno |
 
 ## 🧵 Hilos que atraviesan el bloque
 

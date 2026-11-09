@@ -1,7 +1,7 @@
 # B53-C16 — Superficies de asteroides
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C15 — Geología de Encélado](../B53-C15-geologia-de-encelado/CLASE.md) · [Siguiente: B53-C17 — Mineralogía espectral →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C15 — Geología de Encélado](../B53-C15-geologia-de-encelado/CLASE.md) · [Siguiente: B53-C17 — Mineralogía espectral →](../B53-C17-mineralogia-espectral/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ El período límite sale igual por bisección y por fórmula (`3,026 h`) y a 4 h
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C15 — Geología de Encélado](../B53-C15-geologia-de-encelado/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C17 — Mineralogía espectral →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c17)
+[← Anterior: B53-C15 — Geología de Encélado](../B53-C15-geologia-de-encelado/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C17 — Mineralogía espectral →](../B53-C17-mineralogia-espectral/CLASE.md)
 <!-- /nav -->
