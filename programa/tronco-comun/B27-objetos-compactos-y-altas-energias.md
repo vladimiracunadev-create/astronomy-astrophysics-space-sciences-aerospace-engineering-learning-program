@@ -79,10 +79,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b27-c13"></a>B27-C13 | Binarias compactas | Pérdida de energía por ondas gravitacionales y tiempo hasta la fusión. | Ficha de una binaria compacta |
-| <a id="b27-c14"></a>B27-C14 | Supernovas termonucleares | Cadena radiactiva y curva de luz tardía. | Curva de luz radiactiva de una SN Ia |
-| <a id="b27-c15"></a>B27-C15 | Supernovas de colapso | Balance de energía y escala de tiempo del colapso. | Balance energético de un colapso |
-| <a id="b27-c16"></a>B27-C16 | Eventos de disrupción por marea | Radio de marea, masa de Hills y tasa de caída de masa. | Ficha de un evento de disrupción |
+| <a id="b27-c13"></a>[B27-C13](../clases/B27/B27-C13-binarias-compactas/CLASE.md) | Binarias compactas | Pérdida de energía por ondas gravitacionales y tiempo hasta la fusión. | Ficha de una binaria compacta |
+| <a id="b27-c14"></a>[B27-C14](../clases/B27/B27-C14-supernovas-termonucleares/CLASE.md) | Supernovas termonucleares | Cadena radiactiva y curva de luz tardía. | Curva de luz radiactiva de una SN Ia |
+| <a id="b27-c15"></a>[B27-C15](../clases/B27/B27-C15-supernovas-de-colapso/CLASE.md) | Supernovas de colapso | Balance de energía y escala de tiempo del colapso. | Balance energético de un colapso |
+| <a id="b27-c16"></a>[B27-C16](../clases/B27/B27-C16-eventos-de-disrupcion-por-marea/CLASE.md) | Eventos de disrupción por marea | Radio de marea, masa de Hills y tasa de caída de masa. | Ficha de un evento de disrupción |
 | <a id="b27-c17"></a>B27-C17 | Explosiones de rayos gamma | Factor de Lorentz, colimación y retardo de llegada. | Ficha energética de una explosión de rayos gamma |
 
 ### Tramo 6 · Mensajeros y observación

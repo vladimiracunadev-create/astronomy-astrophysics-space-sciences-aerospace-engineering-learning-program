@@ -1,7 +1,7 @@
 # B27-C12 — Radiación sincrotrón
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C11 — Chorros relativistas](../B27-C11-chorros-relativistas/CLASE.md) · [Siguiente: B27-C13 — Binarias compactas →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C11 — Chorros relativistas](../B27-C11-chorros-relativistas/CLASE.md) · [Siguiente: B27-C13 — Binarias compactas →](../B27-C13-binarias-compactas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La potencia sincrotrón crece como `γ²`, el enfriamiento como `1/γ` y una pob
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B27-C11 — Chorros relativistas](../B27-C11-chorros-relativistas/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C13 — Binarias compactas →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c13)
+[← Anterior: B27-C11 — Chorros relativistas](../B27-C11-chorros-relativistas/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C13 — Binarias compactas →](../B27-C13-binarias-compactas/CLASE.md)
 <!-- /nav -->
