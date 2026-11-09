@@ -2204,7 +2204,7 @@ f5ae05c3ac0cf1323e1d5b3b49fb5d411dcc371b3ae8fc61e239850a9ed2634a  programa/tronc
 1b9fb6e15e5e61d2ec501a935592fa0740b7af72021160171d87a09170cf56e3  programa/tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md
 48553c0fc21f1f744ca639eca99a12f9bf18a97bb00d57d0374d510408d29231  programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md
 095151665df72bd82dc112f3b3ca0f195240e68d5ca0e8eafffd71cd446a3870  programa/tronco-comun/B33-clima-espacial-impactos-pronostico-y-riesgo.md
-7974e3d0a87f400d1703207113f505418023d4dc4a65c4f01ab14f173dbc0fc5  programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md
+f297773c5d266f46e33216fb86e88b765e73258aba01fd58924ab16844077bad  programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md
 e2e616bc72ad9f1540ddf2ba888f738fb48040217dc3751684e8c7fe9111a3e9  programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md
 a2a72e429d3664976ec35d983c55603efe8403a2935870196860479d85878748  programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md
 8f3bebe9a6dbae3e822d3162a36f995d946d2e79996d2b2974746306e232b666  programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md

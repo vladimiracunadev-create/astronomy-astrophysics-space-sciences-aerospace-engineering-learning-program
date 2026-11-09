@@ -1,54 +1,95 @@
 # B34 — Corona solar y erupciones: diagnóstico y modelos
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 9 clases están programadas y ninguna está redactada: se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
-**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  
-**Área:** A03 — Astrofísica y ciencias fundamentales del universo  
-**Estado:** programado; no contiene clases desarrolladas.  
-**Total:** 9 clases programadas.
+**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+**Área:** A03 — Astrofísica y ciencias fundamentales del universo
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 9 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance
+## 🎯 Propósito del bloque
 
-Este bloque existe porque los contenidos de los roles que lo necesitan no estaban cubiertos por ninguna clase de la línea base. Cubre desde «Calentamiento coronal: mecanismos y evidencias» hasta «Integración multiinstrumento de datos heliofísicos». El orden de las clases es el de su programación y no es todavía una secuencia pedagógica revisada.
+Enseña **cómo se diagnostica y se modela la corona solar y sus erupciones**: el calentamiento coronal, la emisión EUV y de rayos X, los bucles magnéticos, la sismología coronal, el diagnóstico de densidad, la tomografía, la comparación de modelos con observaciones, las erupciones de filamentos y la integración de datos de varios instrumentos. Cada clase cierra con un cálculo verificable contra un caso analítico, una constante de NIST o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases programadas
+## 📚 Al terminar el bloque podrás
 
-### B34-C01 — Calentamiento coronal: mecanismos y evidencias
+1. Comparar la energía conductiva, radiativa y la liberada por eventos pequeños de un bucle.
+2. Relacionar temperatura, longitud de onda y medida de emisión.
+3. Calcular la estratificación hidrostática de un bucle.
+4. Inferir el campo magnético de un bucle desde su período con su incertidumbre.
+5. Invertir un diagnóstico de densidad y reconstruir una emisividad por tomografía.
+6. Comparar mapas modelados y observados con métricas calibradas.
+7. Evaluar la altura crítica de una erupción y alinear datos de varios instrumentos.
 
-*Programada.* B30-C02 describe la corona pero no el problema del calentamiento (ondas frente a nanofulguraciones), competencia central de la física coronal.
+## 🧭 Secuencia del bloque
 
-### B34-C02 — Emisión EUV y rayos X de la corona
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Corona"]
+    B["C05-C07<br/>Diagnóstico"]
+    C["C08-C09<br/>Erupciones"]
+    A --> B --> C
+```
 
-*Programada.* Formación de líneas EUV, función de contribución y medida de emisión; B45 trata espectroscopía general, no plasma coronal.
+**Descripción textual.** Tres tramos encadenados: calentamiento, emisión y estructura (C01–C04), diagnóstico y modelos (C05–C07) y erupciones y datos (C08–C09).
 
-### B34-C03 — Bucles magnéticos coronales
+## 🗂️ Las 9 clases en resumen
 
-*Programada.* Estructura, equilibrio y oscilaciones de los bucles; no cubierto en B30.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B34-C04 — Ondas y oscilaciones coronales como sismología solar
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-*Programada.* Ondas kink y acústicas en la corona usadas como diagnóstico; ninguna clase actual las trata.
+### Tramo 1 · Calentamiento, emisión y estructura
 
-### B34-C05 — Diagnóstico de densidad electrónica coronal
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b34-c01"></a>B34-C01 | Calentamiento coronal: mecanismos y evidencias | Balance conductivo y radiativo y energía de eventos pequeños. | Ficha del calentamiento coronal |
+| <a id="b34-c02"></a>B34-C02 | Emisión EUV y rayos X de la corona | Máximo de Wien, medida de emisión y potencia radiada. | Ficha de la emisión EUV y de rayos X |
+| <a id="b34-c03"></a>B34-C03 | Bucles magnéticos coronales | Estratificación hidrostática de un bucle semicircular. | Ficha de un bucle coronal |
+| <a id="b34-c04"></a>B34-C04 | Ondas y oscilaciones coronales como sismología solar | Modo kink, período y campo inferido con su incertidumbre. | Ficha de la sismología coronal |
 
-*Programada.* Cocientes de líneas y medida de emisión para inferir densidad; B45 no aplica la espectroscopía a plasma coronal.
+### Tramo 2 · Diagnóstico y modelos
 
-### B34-C06 — Tomografía coronal
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b34-c05"></a>B34-C05 | Diagnóstico de densidad electrónica coronal | Inversión de un cociente de líneas y propagación del error. | Ficha del diagnóstico de densidad |
+| <a id="b34-c06"></a>B34-C06 | Tomografía coronal | Reconstrucción ART de una emisividad 2D. | Ficha de la tomografía coronal |
+| <a id="b34-c07"></a>B34-C07 | Comparación de modelos coronales con observaciones | Correlación, razón y prueba de Kolmogorov–Smirnov. | Ficha de la comparación modelo–observación |
 
-*Programada.* Reconstrucción 3D de la corona desde vistas múltiples; combina inversión con geometría solar y no existe en el tronco.
+### Tramo 3 · Erupciones y datos
 
-### B34-C07 — Comparación de modelos coronales con observaciones
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b34-c08"></a>B34-C08 | Erupciones de filamentos y prominencias | Índice de decaimiento, altura crítica y energía. | Ficha de la erupción de un filamento |
+| <a id="b34-c09"></a>B34-C09 | Integración multiinstrumento de datos heliofísicos | Alineación temporal de curvas de luz por correlación cruzada. | Ficha de la integración multiinstrumento |
 
-*Programada.* Forward modelling de campos y emisión para contrastar con EUV y magnetogramas; no cubierto.
+## 🧵 Hilos que atraviesan el bloque
 
-### B34-C08 — Erupciones de filamentos y prominencias
+- **De la física a la imagen:** C01–C04 construyen la corona; C05–C07 la miden y la comparan.
+- **Incertidumbre:** C04, C05 y C09 propagan errores con Monte Carlo y derivadas.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico, una constante de NIST o una simulación con semilla fija.
+- **Observado frente a ilustrativo:** los modelos y mapas son sintéticos y se rotulan como tales.
 
-*Programada.* Equilibrio, inestabilidad y erupción de filamentos como precursores de CME; B30-C13 trata la CME ya eyectada.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B34-C09 — Integración multiinstrumento de datos heliofísicos
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha de la sismología coronal (C04) y ficha de la integración multiinstrumento (C09).
+- Las condiciones críticas (rotular lo sintético, no presentar un modelo ilustrativo como la corona real y citar solo lo consultado) no se compensan con promedio.
 
-*Programada.* Alinear imágenes, campos y partículas de varios instrumentos para un mismo evento; B28-C11 es multimensajero astrofísico, no heliofísico.
+## ⚠️ Seguridad y límites
+
+El bloque es educativo. Los modelos son simplificados y no sustituyen la literatura primaria ni los productos de los instrumentos. Los valores publicados (constantes de NIST, valores nominales de la UAI) se citan con fecha de consulta y el resto de los números son ilustrativos y se rotulan como tales.
 
 ## Roles que lo usan
 
 - [Heliofísica y climatología espacial](../../rutas/heliofisica-y-climatologia-espacial.md)
+
+## Fuentes de orientación preliminar
+
+- **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.
+- **[IAU-B3]** [UAI, Resolución B3 de 2015](https://arxiv.org/abs/1510.07674) — Valores nominales solares y planetarios.
+- **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
+
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B35 — Física avanzada de plasmas y MHD espacial](./B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md)
