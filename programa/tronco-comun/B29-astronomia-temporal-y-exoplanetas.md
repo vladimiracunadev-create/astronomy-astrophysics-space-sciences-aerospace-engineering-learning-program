@@ -1,95 +1,108 @@
 # B29 — Astronomía temporal y exoplanetas
 
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia astronomía temporal y exoplanetas; cubre desde «Tránsitos planetarios» hasta «Proyecto de detección exoplanetaria». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se detectan y caracterizan planetas alrededor de otras estrellas y cómo se estudian los fenómenos que cambian con el tiempo**: tránsitos, velocidad radial, astrometría, microlentes e imagen directa; validación y falsos positivos; órbitas, masas, radios y atmósferas; zonas de habitabilidad; estrellas variables, llamaradas, supernovas y transitorios rápidos; y las redes, series temporales y proyectos que lo hacen posible. Cada clase cierra con un cálculo verificable contra un caso analítico, una simulación con semilla fija o un valor publicado con fuente y fecha, y distingue siempre lo observado de lo ilustrativo.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B29-C01 — Tránsitos planetarios
+1. Calcular profundidades, duraciones y curvas de luz de tránsitos y la precisión fotométrica necesaria.
+2. Calcular semiamplitudes de velocidad radial, firmas astrométricas, escalas de microlentes y contrastes de imagen directa.
+3. Evaluar probabilidades de falso positivo y pruebas de descarte con sus falsas alarmas y su potencia.
+4. Derivar parámetros orbitales, masas, radios y densidades con sus incertidumbres.
+5. Estimar señales de atmósferas y zonas de habitabilidad.
+6. Analizar estrellas variables, llamaradas, supernovas y transitorios rápidos con series temporales regulares e irregulares.
+7. Planificar un proyecto de detección con inyección y recuperación y una red de seguimiento.
 
-Explica el fenómeno o técnica de «tránsitos planetarios» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B29-C02 — Curvas de luz fotométricas
+```mermaid
+flowchart LR
+    A["C01-C06<br/>Métodos de<br/>detección"]
+    B["C07-C10<br/>Validación y<br/>caracterización"]
+    C["C11-C13<br/>Atmósferas y<br/>habitabilidad"]
+    D["C14-C17<br/>Estrellas variables<br/>y transitorios"]
+    E["C18-C20<br/>Seguimiento,<br/>series y proyecto"]
+    A --> B --> C --> D --> E
+```
 
-Delimita «curvas de luz fotométricas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cinco tramos encadenados: métodos de detección (C01–C06), validación y caracterización (C07–C10), atmósferas y habitabilidad (C11–C13), astronomía temporal (C14–C17) y seguimiento, series y proyecto (C18–C20).
 
-### B29-C03 — Velocidad radial estelar
+## 🗂️ Las 20 clases en resumen
 
-Introduce el contexto y los principios de «velocidad radial estelar» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B29-C04 — Astrometría de exoplanetas
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Describe los componentes principales de «astrometría de exoplanetas» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Métodos de detección
 
-### B29-C05 — Microlentes gravitacionales
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b29-c01"></a>[B29-C01](../clases/B29/B29-C01-transitos-planetarios/CLASE.md) | Tránsitos planetarios | Profundidad, duración y oscurecimiento al limbo. | Ficha de un tránsito |
+| <a id="b29-c02"></a>[B29-C02](../clases/B29/B29-C02-curvas-de-luz-fotometricas/CLASE.md) | Curvas de luz fotométricas | Ecuación del CCD, apertura óptima y error en magnitud. | Ficha de fotometría y apertura óptima |
+| <a id="b29-c03"></a>[B29-C03](../clases/B29/B29-C03-velocidad-radial-estelar/CLASE.md) | Velocidad radial estelar | Semiamplitud, ecuación de Kepler y ajuste con sesgo por excentricidad. | Ficha de velocidad radial |
+| <a id="b29-c04"></a>[B29-C04](../clases/B29/B29-C04-astrometria-de-exoplanetas/CLASE.md) | Astrometría de exoplanetas | Firma astrométrica y ajuste conjunto con paralaje y movimiento propio. | Ficha de firma astrométrica |
+| <a id="b29-c05"></a>[B29-C05](../clases/B29/B29-C05-microlentes-gravitacionales/CLASE.md) | Microlentes gravitacionales | Radio de Einstein, magnificación y ajuste de un evento. | Ficha de una microlente |
+| <a id="b29-c06"></a>[B29-C06](../clases/B29/B29-C06-imagen-directa-de-exoplanetas/CLASE.md) | Imagen directa de exoplanetas | Patrón de Airy, contraste reflejado y térmico. | Ficha de contraste y separación |
 
-Presenta qué significa «microlentes gravitacionales», sus elementos esenciales y su función dentro de astronomía temporal y exoplanetas.
+### Tramo 2 · Validación y caracterización
 
-### B29-C06 — Imagen directa de exoplanetas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b29-c07"></a>[B29-C07](../clases/B29/B29-C07-metodos-de-validacion-planetaria/CLASE.md) | Métodos de validación planetaria | Probabilidad bayesiana de falso positivo y su calibración. | Ficha de validación con su calibración |
+| <a id="b29-c08"></a>[B29-C08](../clases/B29/B29-C08-falsos-positivos-de-transito/CLASE.md) | Falsos positivos de tránsito | Dilución de una binaria, prueba par–impar y su potencia. | Ficha de una prueba par–impar |
+| <a id="b29-c09"></a>B29-C09 | Parámetros orbitales exoplanetarios | Semieje, excentricidad y ajuste orbital con incertidumbres. | Ficha de parámetros orbitales |
+| <a id="b29-c10"></a>B29-C10 | Masas y radios planetarios | Densidad, gravedad y propagación de incertidumbres. | Ficha de masa, radio y densidad |
 
-Explica el fenómeno o técnica de «imagen directa de exoplanetas» y su aplicación observable o tecnológica.
+### Tramo 3 · Atmósferas y habitabilidad
 
-### B29-C07 — Métodos de validación planetaria
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b29-c11"></a>B29-C11 | Atmósferas exoplanetarias | Altura de escala y amplitud de la señal de transmisión. | Ficha de una atmósfera |
+| <a id="b29-c12"></a>B29-C12 | Espectroscopía de transmisión | Espectro sintético, absorción y recuperación de una abundancia. | Ficha de un espectro de transmisión |
+| <a id="b29-c13"></a>B29-C13 | Zonas de habitabilidad | Temperatura de equilibrio y bordes de la zona habitable. | Ficha de habitabilidad |
 
-Presenta «métodos de validación planetaria» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
+### Tramo 4 · Astronomía temporal
 
-### B29-C08 — Falsos positivos de tránsito
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b29-c14"></a>B29-C14 | Estrellas variables periódicas | Período, plegado de fases y ajuste de armónicos. | Ficha de una variable periódica |
+| <a id="b29-c15"></a>B29-C15 | Eventos eruptivos estelares | Modelo de llamarada, energía y distribución de energías. | Ficha de llamaradas estelares |
+| <a id="b29-c16"></a>B29-C16 | Supernovas y curvas de luz | Plantilla, ajuste de estiramiento y tiempo del máximo. | Ficha de una curva de luz de supernova |
+| <a id="b29-c17"></a>B29-C17 | Fenómenos transitorios rápidos | Dispersión, desdispersión y búsqueda de pulsos. | Ficha de un pulso desdispersado |
 
-Introduce el contexto y los principios de «falsos positivos de tránsito» para comprender su uso científico.
+### Tramo 5 · Seguimiento, series y proyecto
 
-### B29-C09 — Parámetros orbitales exoplanetarios
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b29-c18"></a>B29-C18 | Redes de seguimiento temporal | Planificación voraz y completitud de una red. | Ficha de planificación de seguimiento |
+| <a id="b29-c19"></a>B29-C19 | Análisis de series temporales irregularmente muestreadas | Periodograma de Lomb–Scargle, ventana y alias. | Ficha de un periodograma irregular |
+| <a id="b29-c20"></a>B29-C20 | Proyecto de detección exoplanetaria | Búsqueda por cajas e inyección–recuperación. | Informe de detección con completitud |
 
-Describe los componentes principales de «parámetros orbitales exoplanetarios» y por qué son relevantes para esta disciplina.
+## 🧵 Hilos que atraviesan el bloque
 
-### B29-C10 — Masas y radios planetarios
+- **De la señal al planeta:** C01–C06 describen la señal de cada método; C07–C10 qué se hace para confirmarla y medirla.
+- **Estadística honesta:** C07, C08, C14, C19 y C20 tratan falsas alarmas, potencia, calibración y completitud.
+- **Series temporales:** C02, C14, C19 y C20 comparten la mirada espectral y de ajuste.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico o una simulación con semilla fija.
+- **Observado frente a modelado:** las cifras publicadas se distinguen de lo sintético en cada clase.
 
-Presenta qué significa «masas y radios planetarios», sus elementos esenciales y su función dentro de astronomía temporal y exoplanetas.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B29-C11 — Atmósferas exoplanetarias
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: informe de detección con completitud (C20) y ficha de habitabilidad (C13).
+- Las condiciones críticas (rotular lo sintético, no presentar un modelo ilustrativo como física real y citar solo lo consultado) no se compensan con promedio.
 
-Explica el fenómeno o técnica de «atmósferas exoplanetarias» y su aplicación observable o tecnológica.
+## ⚠️ Seguridad y límites
 
-### B29-C12 — Espectroscopía de transmisión
-
-Describe «espectroscopía de transmisión», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B29-C13 — Zonas de habitabilidad
-
-Introduce el contexto y los principios de «zonas de habitabilidad» para comprender su uso científico.
-
-### B29-C14 — Estrellas variables periódicas
-
-Describe los componentes principales de «estrellas variables periódicas» y por qué son relevantes para esta disciplina.
-
-### B29-C15 — Eventos eruptivos estelares
-
-Presenta qué significa «eventos eruptivos estelares», sus elementos esenciales y su función dentro de astronomía temporal y exoplanetas.
-
-### B29-C16 — Supernovas y curvas de luz
-
-Explica el fenómeno o técnica de «supernovas y curvas de luz» y su aplicación observable o tecnológica.
-
-### B29-C17 — Fenómenos transitorios rápidos
-
-Delimita «fenómenos transitorios rápidos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B29-C18 — Redes de seguimiento temporal
-
-Introduce el contexto y los principios de «redes de seguimiento temporal» para comprender su uso científico.
-
-### B29-C19 — Análisis de series temporales irregularmente muestreadas
-
-Ubica «análisis de series temporales irregularmente muestreadas» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
-
-### B29-C20 — Proyecto de detección exoplanetaria
-
-Introduce «proyecto de detección exoplanetaria» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+El bloque es educativo. Los modelos son simplificados (órbitas circulares o keplerianas, ruido gaussiano, atmósferas isotermas) y no sustituyen la literatura primaria, los catálogos oficiales ni las canalizaciones de análisis de las misiones. Las cifras publicadas se citan con fecha de consulta; el resto de los números son ilustrativos y se rotulan como tales.
 
 ## Fuentes de orientación preliminar
 
@@ -98,4 +111,6 @@ Introduce «proyecto de detección exoplanetaria» como problema de ingeniería 
 - **[LIGO]** [LIGO Scientific Collaboration](https://www.ligo.org/) — Observaciones y métodos de ondas gravitacionales.
 - **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B30 — Heliofísica y física de plasmas](./B30-heliofisica-y-fisica-de-plasmas.md)

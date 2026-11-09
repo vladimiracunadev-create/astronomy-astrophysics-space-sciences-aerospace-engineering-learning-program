@@ -1,7 +1,7 @@
 # B28-C22 — Inferencia bayesiana conjunta de parámetros de fuente multimensajero
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C21 — Formas de onda gravitacionales y filtro acoplado](../B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md) · [Siguiente: B29-C01 — Tránsitos planetarios →](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md#b29-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C21 — Formas de onda gravitacionales y filtro acoplado](../B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md) · [Siguiente: B29-C01 — Tránsitos planetarios →](../../B29/B29-C01-transitos-planetarios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La degeneración distancia–inclinación hace que una sola señal gravitacional
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B28-C21 — Formas de onda gravitacionales y filtro acoplado](../B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B29-C01 — Tránsitos planetarios →](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md#b29-c01)
+[← Anterior: B28-C21 — Formas de onda gravitacionales y filtro acoplado](../B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B29-C01 — Tránsitos planetarios →](../../B29/B29-C01-transitos-planetarios/CLASE.md)
 <!-- /nav -->
