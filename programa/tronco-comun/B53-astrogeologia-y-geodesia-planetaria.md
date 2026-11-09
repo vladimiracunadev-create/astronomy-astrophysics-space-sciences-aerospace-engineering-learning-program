@@ -1,97 +1,128 @@
 # B53 — Astrogeología y geodesia planetaria
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 10 clases programadas (`B53-C21` a `B53-C30`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Tiene 30 clases: las 20 de la línea base (`B53-C01` a `B53-C20`) y 10 programadas en la ampliación (`B53-C21` a `B53-C30`). Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 30 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia astrogeología y geodesia planetaria; cubre desde «Interior de planetas rocosos» hasta «Proyecto SIG de terreno extraterrestre». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se conoce y se mide la forma, el interior y la superficie de un cuerpo rocoso o helado**: el interior de capas y su presión, la sismología y la gravedad, la figura de referencia (geoide, elipsoide) y los marcos de coordenadas de la Luna y de Marte, la topografía por altimetría, el conteo de cráteres, la estratigrafía y la geología de impacto, el vulcanismo y la tectónica, la mecánica del hielo y los mundos oceánicos (Europa y Encélado), las superficies de asteroides, la mineralogía espectral y el radar de subsuelo, y por último la cartografía digital con su incertidumbre y su publicación. Cada clase cierra con un laboratorio en Python que contrasta con un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo sintético.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B53-C01 — Interior de planetas rocosos
+1. Construir y verificar un modelo de capas de un planeta y relacionar sus observables (masa, inercia, sismos, gravedad) con su estructura.
+2. Distinguir marco, figura de referencia y convención de coordenadas en la Luna y en Marte, y transformar entre ellos.
+3. Estimar topografía, pendientes y errores de órbita con altimetría y modelos digitales de elevación.
+4. Contar cráteres con un estimador con incertidumbre y ordenar unidades con estratigrafía.
+5. Aplicar leyes de escala de impactos, flujo de lava, flexión de la litosfera y reología del hielo.
+6. Explicar la evidencia de océanos subsuperficiales (Europa, Encélado) y los límites de cada método.
+7. Producir y publicar un mapa geológico digital con metadatos, leyenda accesible e incertidumbre declarada.
 
-Explica el fenómeno o técnica de «interior de planetas rocosos» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B53-C02 — Sismología planetaria
+```mermaid
+flowchart LR
+    A["Tramo 1<br/>Interior, gravedad, figura"]
+    B["Tramo 2<br/>Marcos y topografía"]
+    C["Tramo 3<br/>Superficies y procesos"]
+    D["Tramo 4<br/>Hielos y océanos"]
+    E["Tramo 5<br/>Composición y subsuelo"]
+    F["Tramo 6<br/>Cartografía y proyecto"]
+    A --> B --> C --> D --> E --> F
+```
 
-Delimita «sismología planetaria», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Seis tramos encadenados: interior, gravedad y figura (C01–C04, C28); marcos de referencia y topografía (C05–C07, C21, C25); superficies, impactos y procesos (C08–C12, C16, C22); hielos y mundos oceánicos (C13–C15, C23, C24, C27); composición y subsuelo (C17, C29, C30); y cartografía y proyecto (C18–C20, C26). Los IDs conservan el orden del catálogo; la lectura sigue los tramos.
 
-### B53-C03 — Campo gravitatorio planetario
+## 🗂️ Las 30 clases en resumen
 
-Introduce el contexto y los principios de «campo gravitatorio planetario» para comprender su uso científico.
+**Navegación:** cada clase enlaza a la anterior, a la siguiente y a este bloque, en el orden numérico del catálogo.
 
-### B53-C04 — Geoides y elipsoides
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Describe los componentes principales de «geoides y elipsoides» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Interior, gravedad y figura
 
-### B53-C05 — Sistemas de coordenadas lunares
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B53-C01 | Interior de planetas rocosos | Masa, presión e inercia de un modelo de dos capas. | Ficha del interior de un planeta sintético |
+| B53-C02 | Sismología planetaria | Rayo sísmico, tiempo de viaje y distancia por S−P con su error. | Ficha de la distancia sísmica y su incertidumbre |
+| B53-C03 | Campo gravitatorio planetario | Potencial con J2 frente a la suma directa; el error cae como (a/r)⁴. | Ficha del campo gravitatorio de un cuerpo sintético |
+| B53-C04 | Geoides y elipsoides | Esferoide de Maclaurin, achatamiento y ondulación del geoide. | Ficha de la figura de equilibrio y su ondulación |
+| B53-C28 | Inversión gravimétrica y modelos de densidad | Anomalía de una esfera enterrada, ajuste de profundidad y no unicidad. | Ficha de la inversión gravimétrica |
 
-Introduce «sistemas de coordenadas lunares» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+### Tramo 2 · Marcos de referencia y topografía
 
-### B53-C06 — Geodesia de Marte
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B53-C05 | Sistemas de coordenadas lunares | Conversión lat/lon, rotación entre marcos y proyección polar. | Ficha del sistema de coordenadas lunar |
+| B53-C06 | Geodesia de Marte | Latitud planetocéntrica y planetográfica y altura elipsoidal. | Ficha de la geodesia sobre un elipsoide |
+| B53-C21 | Rotación y orientación de cuerpos planetarios: polos y meridiano origen | Polo, meridiano origen y matriz de rotación de un cuerpo. | Ficha de orientación de un cuerpo |
+| B53-C07 | Topografía por altimetría | Cruces de pasadas y estimación de sesgos de órbita. | Ficha del ajuste por cruces de pasadas |
+| B53-C25 | Corrección geométrica y ortorrectificación de imágenes planetarias | Desplazamiento por relieve y corrección con un MDE. | Ficha de la ortorrectificación |
 
-Explica el fenómeno o técnica de «geodesia de Marte» y su aplicación observable o tecnológica.
+### Tramo 3 · Superficies, impactos y procesos
 
-### B53-C07 — Topografía por altimetría
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B53-C08 | Cartografía de cráteres | Estimación de la pendiente de la distribución de tamaños de cráteres. | Ficha de la distribución de tamaños de cráteres |
+| B53-C09 | Estratigrafía planetaria | Orden topológico, contradicciones y densidad de cráteres. | Ficha de la secuencia estratigráfica |
+| B53-C10 | Geología de impacto | Escalamiento del cráter con la gravedad y presión de choque. | Ficha del escalamiento de un impacto |
+| B53-C22 | Meteorización espacial: micrometeoritos, viento solar y maduración del regolito | Enrojecimiento por maduración y mezcla por micrometeoritos. | Ficha de maduración del regolito |
+| B53-C11 | Vulcanismo extraterrestre | Perfil de velocidad de una lámina de lava, gravedad y espesor máximo. | Ficha del flujo de lava y la gravedad |
+| B53-C12 | Tectónica planetaria | Flexión de una placa elástica y contracción global. | Ficha de la flexión de la litosfera y la contracción |
+| B53-C16 | Superficies de asteroides | Gravedad efectiva con rotación, período límite y velocidad de escape. | Ficha de la gravedad en un asteroide |
 
-Delimita «topografía por altimetría», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Hielos y mundos oceánicos
 
-### B53-C08 — Cartografía de cráteres
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B53-C13 | Geomorfología de hielos | Presión de vapor del hielo, sublimación y trampas frías. | Ficha de la estabilidad del hielo superficial |
+| B53-C23 | Mecánica de hielo: reología, fracturas y deformación | Ley de Glen, dependencia con la temperatura y profundidad de grietas. | Ficha de la reología del hielo |
+| B53-C14 | Geología de Europa | Espesor de la capa de hielo por flujo de calor y número de Rayleigh. | Ficha del espesor de la capa de hielo |
+| B53-C15 | Geología de Encélado | Velocidad de escape, fracción de granos que escapa y alturas balísticas. | Ficha de la dinámica de un penacho |
+| B53-C27 | Detección remota de océanos subsuperficiales: inducción magnética, libración y radar | Profundidad de penetración magnética y libración de la capa de hielo. | Ficha de la evidencia de un océano |
+| B53-C24 | Sondeo radar de penetración de hielo | Retraso, resolución y compresión de pulso en hielo. | Ficha del sondeo de hielo |
 
-Introduce el contexto y los principios de «cartografía de cráteres» para comprender su uso científico.
+### Tramo 5 · Composición y subsuelo
 
-### B53-C09 — Estratigrafía planetaria
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B53-C17 | Mineralogía espectral | Remoción del continuo, profundidad y centro de banda. | Ficha de una banda de absorción |
+| B53-C29 | Imágenes hiperespectrales de superficies planetarias | Mezcla lineal, desmezclado y ángulo espectral. | Ficha del desmezclado espectral |
+| B53-C30 | Radar de penetración subsuperficial en cuerpos planetarios | Coeficiente de reflexión, hipérbola de difracción y ajuste de velocidad. | Ficha del radar de subsuelo |
 
-Describe los componentes principales de «estratigrafía planetaria» y por qué son relevantes para esta disciplina.
+### Tramo 6 · Cartografía y proyecto
 
-### B53-C10 — Geología de impacto
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| B53-C18 | Cartografía geológica digital | Áreas en proyecciones y topología de polígonos. | Ficha del mapa geológico digital |
+| B53-C26 | Publicación de mapas geológicos planetarios: estándares y leyendas | Escala, unidad mínima cartografiable, contraste de leyenda y metadatos. | Ficha de publicación del mapa |
+| B53-C19 | Incertidumbre en mapas planetarios | Propagación de errores de posición y de medición a diámetro y área. | Ficha de incertidumbre de un mapa |
+| B53-C20 | Proyecto SIG de terreno extraterrestre | Pendiente de un MDE, sombreado y máscara de transitabilidad. | Ficha del proyecto SIG de terreno |
 
-Presenta qué significa «geología de impacto», sus elementos esenciales y su función dentro de astrogeología y geodesia planetaria.
+## 🧵 Hilos que atraviesan el bloque
 
-### B53-C11 — Vulcanismo extraterrestre
+- **De la observación a la inferencia:** masa, tiempos de llegada, alturas y espectros son datos; capas, océanos y edades son inferencias con incertidumbre. Cada clase separa ambos niveles.
+- **Marco y convención:** latitud, longitud, altura y escala siempre se declaran con su marco y su figura de referencia (C04–C06, C21, C25, C26).
+- **Ley de potencias y escala:** los cráteres (C08, C10), la reología del hielo (C23) y la flexión (C12) se entienden con exponentes y escalas.
+- **Incertidumbre:** C07, C08, C19 y C28 propagan o estiman errores; C26 obliga a declararlos al publicar.
+- **Observado frente a sintético:** los laboratorios usan modelos y datos sintéticos rotulados; nada simulado se presenta como observado.
 
-Explica el fenómeno o técnica de «vulcanismo extraterrestre» y su aplicación observable o tecnológica.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B53-C12 — Tectónica planetaria
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha del sistema de coordenadas (C05), ficha de la distribución de tamaños de cráteres (C08) y ficha del proyecto SIG de terreno (C20).
+- Las condiciones críticas (rotular lo sintético e ilustrativo, declarar marco y convención, no presentar un modelo como un cuerpo real y citar solo lo consultado) no se compensan con promedio.
 
-Delimita «tectónica planetaria», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+## ⚠️ Seguridad y límites
 
-### B53-C13 — Geomorfología de hielos
+El bloque es educativo. Los modelos son simplificados (capas homogéneas, placas elásticas, leyes de escala ilustrativas) y no sustituyen a los productos de una misión, a los modelos geodésicos oficiales ni a la literatura primaria. Los coeficientes y parámetros ilustrativos no son valores publicados. El bloque no entrega ni valida mapas para planificar operaciones reales.
 
-Introduce el contexto y los principios de «geomorfología de hielos» para comprender su uso científico.
+## 📖 Fuentes consultadas en el bloque (resumen)
 
-### B53-C14 — Geología de Europa
-
-Describe los componentes principales de «geología de Europa» y por qué son relevantes para esta disciplina.
-
-### B53-C15 — Geología de Encélado
-
-Presenta qué significa «geología de Encélado», sus elementos esenciales y su función dentro de astrogeología y geodesia planetaria.
-
-### B53-C16 — Superficies de asteroides
-
-Explica el fenómeno o técnica de «superficies de asteroides» y su aplicación observable o tecnológica.
-
-### B53-C17 — Mineralogía espectral
-
-Delimita «mineralogía espectral», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B53-C18 — Cartografía geológica digital
-
-Introduce el contexto y los principios de «cartografía geológica digital» para comprender su uso científico.
-
-### B53-C19 — Incertidumbre en mapas planetarios
-
-Describe los componentes principales de «incertidumbre en mapas planetarios» y por qué son relevantes para esta disciplina.
-
-### B53-C20 — Proyecto SIG de terreno extraterrestre
-
-Introduce «proyecto SIG de terreno extraterrestre» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+Las clases citan, con localizador, qué respalda cada fuente, fecha de consulta (2026-11-09) y estado. Se consultaron páginas institucionales: NIST (constante gravitatoria, CODATA 2022), el nodo de Geociencias del PDS (página de datos de MOLA), el Astrogeology Science Center del USGS y páginas de NASA Science sobre Cassini (Encélado), InSight, OSIRIS-REx, Lunar Reconnaissance Orbiter, Europa Clipper (instrumentos) y Mars Reconnaissance Orbiter. Son páginas de contexto: no dan valores numéricos que el bloque use salvo `G`. El informe del grupo de trabajo de la IAU sobre coordenadas cartográficas y elementos de rotación **no se consultó** (la página redirige a un inicio de sesión), así que ningún valor de rotación o de radio del bloque procede de él. Los radios, gravedades, coeficientes de escala y propiedades de materiales son sintéticos o ilustrativos y están rotulados en cada clase.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +131,6 @@ Introduce «proyecto SIG de terreno extraterrestre» como problema de ingenierí
 - **[COSPAR]** [Committee on Space Research](https://cosparhq.cnes.fr/) — Protección planetaria y cooperación en investigación espacial.
 - **[NASA-EO]** [NASA Earthdata](https://www.earthdata.nasa.gov/) — Datos abiertos de observación de la Tierra.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B54 — Atmósferas y climatología planetaria](./B54-atmosferas-y-climatologia-planetaria.md)
