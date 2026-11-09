@@ -87,8 +87,6 @@ El bloque es educativo. Los modelos son simplificados (atmósferas grises, perfi
 
 - [Astrofísica estelar y galáctica](../../rutas/astrofisica-estelar-y-galactica.md)
 
-[🏠 Volver al programa](../../README.md) · [➡️ B33 — Clima espacial: impactos, pronóstico y riesgo](./B33-clima-espacial-impactos-pronostico-y-riesgo.md)
-
 ## Fuentes de orientación preliminar
 
 - **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.

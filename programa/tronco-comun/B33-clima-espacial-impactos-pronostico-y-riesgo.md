@@ -89,8 +89,6 @@ El bloque es educativo. Los modelos son simplificados y no sustituyen los produc
 
 - [Heliofísica y climatología espacial](../../rutas/heliofisica-y-climatologia-espacial.md)
 
-[🏠 Volver al programa](../../README.md) · [➡️ B34 — Corona solar y erupciones: diagnóstico y modelos](./B34-corona-solar-y-erupciones-diagnostico-y-modelos.md)
-
 ## Fuentes de orientación preliminar
 
 - **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.
