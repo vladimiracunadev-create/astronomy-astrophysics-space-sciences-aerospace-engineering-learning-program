@@ -1,7 +1,7 @@
 # B40-C15 — Varianza cósmica y límites de las mediciones del fondo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [← Anterior: B40-C14 — Productos de datos de Planck y misiones del CMB](../B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md) · [Siguiente: B41-C01 — Naturaleza y propagación de la luz →](../../../tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md#b41-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [← Anterior: B40-C14 — Productos de datos de Planck y misiones del CMB](../B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md) · [Siguiente: B41-C01 — Naturaleza y propagación de la luz →](../../B41/B41-C01-naturaleza-y-propagacion-de-la-luz/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ Cada multipolo tiene una dispersión mínima `√(2/(2ℓ+1))`: 63 % en el cuadr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B40-C14 — Productos de datos de Planck y misiones del CMB](../B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [Siguiente: B41-C01 — Naturaleza y propagación de la luz →](../../../tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md#b41-c01)
+[← Anterior: B40-C14 — Productos de datos de Planck y misiones del CMB](../B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [Siguiente: B41-C01 — Naturaleza y propagación de la luz →](../../B41/B41-C01-naturaleza-y-propagacion-de-la-luz/CLASE.md)
 <!-- /nav -->

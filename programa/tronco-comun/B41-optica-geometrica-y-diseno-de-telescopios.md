@@ -44,41 +44,41 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b41-c01"></a>B41-C01 | Naturaleza y propagación de la luz | Velocidad de la luz en medios y camino óptico. | Ficha de la propagación de la luz |
-| <a id="b41-c02"></a>B41-C02 | Índice de refracción y ley de Snell | Ley de Snell, ángulo crítico y reflexión de Fresnel. | Ficha de la refracción |
-| <a id="b41-c03"></a>B41-C03 | Reflexión y espejos planos | Imagen virtual, desviación por espejo girado y reflexiones múltiples. | Ficha de los espejos planos |
-| <a id="b41-c04"></a>B41-C04 | Espejos esféricos y parabólicos | Foco de espejos, aberración esférica y paraboloide. | Ficha de espejos esféricos y parabólicos |
-| <a id="b41-c05"></a>B41-C05 | Lentes delgadas y gruesas | Ecuación del fabricante de lentes y matrices de rayos. | Ficha de lentes delgadas y gruesas |
-| <a id="b41-c06"></a>B41-C06 | Distancias focales y formación de imagen | Ecuación de imagen, aumento lateral y combinación de focales. | Ficha de distancias focales e imagen |
-| <a id="b41-c07"></a>B41-C07 | Aumentos y sistemas afocales | Aumento angular, pupila de salida y telescopio de Kepler. | Ficha de aumentos y sistemas afocales |
+| <a id="b41-c01"></a>[B41-C01](../clases/B41/B41-C01-naturaleza-y-propagacion-de-la-luz/CLASE.md) | Naturaleza y propagación de la luz | Velocidad de la luz en medios y camino óptico. | Ficha de la propagación de la luz |
+| <a id="b41-c02"></a>[B41-C02](../clases/B41/B41-C02-indice-de-refraccion-y-ley-de-snell/CLASE.md) | Índice de refracción y ley de Snell | Ley de Snell, ángulo crítico y reflexión de Fresnel. | Ficha de la refracción |
+| <a id="b41-c03"></a>[B41-C03](../clases/B41/B41-C03-reflexion-y-espejos-planos/CLASE.md) | Reflexión y espejos planos | Imagen virtual, desviación por espejo girado y reflexiones múltiples. | Ficha de los espejos planos |
+| <a id="b41-c04"></a>[B41-C04](../clases/B41/B41-C04-espejos-esfericos-y-parabolicos/CLASE.md) | Espejos esféricos y parabólicos | Foco de espejos, aberración esférica y paraboloide. | Ficha de espejos esféricos y parabólicos |
+| <a id="b41-c05"></a>[B41-C05](../clases/B41/B41-C05-lentes-delgadas-y-gruesas/CLASE.md) | Lentes delgadas y gruesas | Ecuación del fabricante de lentes y matrices de rayos. | Ficha de lentes delgadas y gruesas |
+| <a id="b41-c06"></a>[B41-C06](../clases/B41/B41-C06-distancias-focales-y-formacion-de-imagen/CLASE.md) | Distancias focales y formación de imagen | Ecuación de imagen, aumento lateral y combinación de focales. | Ficha de distancias focales e imagen |
+| <a id="b41-c07"></a>[B41-C07](../clases/B41/B41-C07-aumentos-y-sistemas-afocales/CLASE.md) | Aumentos y sistemas afocales | Aumento angular, pupila de salida y telescopio de Kepler. | Ficha de aumentos y sistemas afocales |
 
 ### Tramo 2 · Rayos, pupilas y formación de imagen
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b41-c08"></a>B41-C08 | Trazado de rayos para telescopios | Trazado exacto de rayos con la ley de Snell y comparación paraxial. | Ficha del trazado de rayos |
-| <a id="b41-c09"></a>B41-C09 | Pupilas y diafragmas ópticos | Pupila de entrada y salida, obstrucción y viñeteo. | Ficha de pupilas y diafragmas |
-| <a id="b41-c10"></a>B41-C10 | Apertura y relación focal | Relación focal, brillo superficial y número de la apertura. | Ficha de apertura y relación focal |
-| <a id="b41-c11"></a>B41-C11 | Campo visual y escala de placa | Escala de placa, campo en el sensor y muestreo de Nyquist. | Ficha de campo y escala de placa |
-| <a id="b41-c12"></a>B41-C12 | Difracción y límite de Rayleigh | Disco de Airy, criterio de Rayleigh y Dawes. | Ficha de difracción y límite de Rayleigh |
+| <a id="b41-c08"></a>[B41-C08](../clases/B41/B41-C08-trazado-de-rayos-para-telescopios/CLASE.md) | Trazado de rayos para telescopios | Trazado exacto de rayos con la ley de Snell y comparación paraxial. | Ficha del trazado de rayos |
+| <a id="b41-c09"></a>[B41-C09](../clases/B41/B41-C09-pupilas-y-diafragmas-opticos/CLASE.md) | Pupilas y diafragmas ópticos | Pupila de entrada y salida, obstrucción y viñeteo. | Ficha de pupilas y diafragmas |
+| <a id="b41-c10"></a>[B41-C10](../clases/B41/B41-C10-apertura-y-relacion-focal/CLASE.md) | Apertura y relación focal | Relación focal, brillo superficial y número de la apertura. | Ficha de apertura y relación focal |
+| <a id="b41-c11"></a>[B41-C11](../clases/B41/B41-C11-campo-visual-y-escala-de-placa/CLASE.md) | Campo visual y escala de placa | Escala de placa, campo en el sensor y muestreo de Nyquist. | Ficha de campo y escala de placa |
+| <a id="b41-c12"></a>[B41-C12](../clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md) | Difracción y límite de Rayleigh | Disco de Airy, criterio de Rayleigh y Dawes. | Ficha de difracción y límite de Rayleigh |
 
 ### Tramo 3 · Aberraciones y diseños
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b41-c13"></a>B41-C13 | Aberración esférica y coma | Aberración esférica longitudinal y coma de un paraboloide. | Ficha de aberración esférica y coma |
-| <a id="b41-c14"></a>B41-C14 | Aberración cromática y astigmatismo | Dispersión cromática y astigmatismo de un campo. | Ficha de aberración cromática y astigmatismo |
-| <a id="b41-c15"></a>B41-C15 | Refractores acromáticos y apocromáticos | Doblete acromático, espectro secundario y apocromático. | Ficha de refractores acromáticos |
-| <a id="b41-c16"></a>B41-C16 | Telescopios Newton y Dobson | Newton: obstrucción del secundario y Dobson: montura altazimutal. | Ficha de Newton y Dobson |
-| <a id="b41-c17"></a>B41-C17 | Telescopios Cassegrain y derivados | Cassegrain: aumento del secundario, focal efectiva y condición de Ritchey-Chrétien. | Ficha de Cassegrain y derivados |
+| <a id="b41-c13"></a>[B41-C13](../clases/B41/B41-C13-aberracion-esferica-y-coma/CLASE.md) | Aberración esférica y coma | Aberración esférica longitudinal y coma de un paraboloide. | Ficha de aberración esférica y coma |
+| <a id="b41-c14"></a>[B41-C14](../clases/B41/B41-C14-aberracion-cromatica-y-astigmatismo/CLASE.md) | Aberración cromática y astigmatismo | Dispersión cromática y astigmatismo de un campo. | Ficha de aberración cromática y astigmatismo |
+| <a id="b41-c15"></a>[B41-C15](../clases/B41/B41-C15-refractores-acromaticos-y-apocromaticos/CLASE.md) | Refractores acromáticos y apocromáticos | Doblete acromático, espectro secundario y apocromático. | Ficha de refractores acromáticos |
+| <a id="b41-c16"></a>[B41-C16](../clases/B41/B41-C16-telescopios-newton-y-dobson/CLASE.md) | Telescopios Newton y Dobson | Newton: obstrucción del secundario y Dobson: montura altazimutal. | Ficha de Newton y Dobson |
+| <a id="b41-c17"></a>[B41-C17](../clases/B41/B41-C17-telescopios-cassegrain-y-derivados/CLASE.md) | Telescopios Cassegrain y derivados | Cassegrain: aumento del secundario, focal efectiva y condición de Ritchey-Chrétien. | Ficha de Cassegrain y derivados |
 
 ### Tramo 4 · Monturas, ajuste y diseño
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b41-c18"></a>B41-C18 | Monturas y mecanismos de seguimiento | Rotación de campo, error periódico y tasas de seguimiento. | Ficha de monturas y seguimiento |
-| <a id="b41-c19"></a>B41-C19 | Colimación y prueba de enfoque | Colimación por desplazamiento de la sombra y prueba de Foucault. | Ficha de colimación y enfoque |
-| <a id="b41-c20"></a>B41-C20 | Diseño preliminar de un telescopio | Presupuesto de diseño integrado de un telescopio de aficionado. | Memoria de diseño preliminar |
+| <a id="b41-c18"></a>[B41-C18](../clases/B41/B41-C18-monturas-y-mecanismos-de-seguimiento/CLASE.md) | Monturas y mecanismos de seguimiento | Rotación de campo, error periódico y tasas de seguimiento. | Ficha de monturas y seguimiento |
+| <a id="b41-c19"></a>[B41-C19](../clases/B41/B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md) | Colimación y prueba de enfoque | Colimación por desplazamiento de la sombra y prueba de Foucault. | Ficha de colimación y enfoque |
+| <a id="b41-c20"></a>[B41-C20](../clases/B41/B41-C20-diseno-preliminar-de-un-telescopio/CLASE.md) | Diseño preliminar de un telescopio | Presupuesto de diseño integrado de un telescopio de aficionado. | Memoria de diseño preliminar |
 
 ## 🧵 Hilos que atraviesan el bloque
 
