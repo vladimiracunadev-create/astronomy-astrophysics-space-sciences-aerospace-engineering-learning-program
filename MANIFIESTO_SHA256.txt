@@ -2244,7 +2244,7 @@ f5ae05c3ac0cf1323e1d5b3b49fb5d411dcc371b3ae8fc61e239850a9ed2634a  programa/tronc
 2d6c61a10a31a1d327f1963ce549cd33881a8434aaa51d07e963ad4dde545303  programa/tronco-comun/B34-corona-solar-y-erupciones-diagnostico-y-modelos.md
 7a4f6831215ec968bb0b73ebd0453bb5dc11bf6414950725a394aaf177826b4f  programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md
 a2a72e429d3664976ec35d983c55603efe8403a2935870196860479d85878748  programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md
-8f3bebe9a6dbae3e822d3162a36f995d946d2e79996d2b2974746306e232b666  programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md
+4c4a02df99050c4e8a208bec1910b3394094c269b28aba03fe4990ce0f75b2f1  programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md
 abf2957f906b187e3923a0ce8e4fd5536631ca621d6da0ade341ecd2479cca67  programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md
 062ab69f62a12733fa9b87b3a73009e771c54418afd988ce0b1ac1d8fa4ac37a  programa/tronco-comun/B39-relatividad-general-avanzada.md
 2deeb57ae57cf040ed2417c2943a54c7f2699aa0eec5d2e269602bfcfd49c563  programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md
