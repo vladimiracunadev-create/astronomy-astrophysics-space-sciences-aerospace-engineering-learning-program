@@ -1,7 +1,7 @@
 # B26-C08 — Geodésicas gravitacionales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C07 — Curvatura y métricas](../B26-C07-curvatura-y-metricas/CLASE.md) · [Siguiente: B26-C09 — Relatividad general introductoria →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C07 — Curvatura y métricas](../B26-C07-curvatura-y-metricas/CLASE.md) · [Siguiente: B26-C09 — Relatividad general introductoria →](../B26-C09-relatividad-general-introductoria/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ Un cuerpo libre sigue una geodésica; en Schwarzschild, la órbita se abre y el 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B26-C07 — Curvatura y métricas](../B26-C07-curvatura-y-metricas/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C09 — Relatividad general introductoria →](../../../tronco-comun/B26-relatividad-y-cosmologia.md#b26-c09)
+[← Anterior: B26-C07 — Curvatura y métricas](../B26-C07-curvatura-y-metricas/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B26-C09 — Relatividad general introductoria →](../B26-C09-relatividad-general-introductoria/CLASE.md)
 <!-- /nav -->

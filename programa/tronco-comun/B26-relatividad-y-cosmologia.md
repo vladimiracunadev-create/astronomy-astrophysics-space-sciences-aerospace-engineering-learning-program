@@ -59,15 +59,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b26-c06"></a>[B26-C06](../clases/B26/B26-C06-principio-de-equivalencia/CLASE.md) | Principio de equivalencia | Aceleración y gravedad localmente indistinguibles; corrimiento por aceleración. | Ficha de corrimiento por aceleración |
 | <a id="b26-c07"></a>[B26-C07](../clases/B26/B26-C07-curvatura-y-metricas/CLASE.md) | Curvatura y métricas | Métrica, radio de Schwarzschild y distancia propia. | Ficha de métrica y distancia propia |
 | <a id="b26-c08"></a>[B26-C08](../clases/B26/B26-C08-geodesicas-gravitacionales/CLASE.md) | Geodésicas gravitacionales | Geodésicas sobre superficies y precesión del perihelio. | Verificación de la precesión |
-| <a id="b26-c09"></a>B26-C09 | Relatividad general introductoria | Campo débil, ecuación de Einstein cualitativa y deflexión de la luz. | Cálculo de la deflexión solar |
-| <a id="b26-c10"></a>B26-C10 | Desplazamiento gravitacional al rojo | Corrimiento exacto y de campo débil, y contraste con la prueba de Galileo. | Tabla de corrimientos |
+| <a id="b26-c09"></a>[B26-C09](../clases/B26/B26-C09-relatividad-general-introductoria/CLASE.md) | Relatividad general introductoria | Campo débil, ecuación de Einstein cualitativa y deflexión de la luz. | Cálculo de la deflexión solar |
+| <a id="b26-c10"></a>[B26-C10](../clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/CLASE.md) | Desplazamiento gravitacional al rojo | Corrimiento exacto y de campo débil, y contraste con la prueba de Galileo. | Tabla de corrimientos |
 
 ### Tramo 3 · Expansión y modelo FLRW
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b26-c11"></a>B26-C11 | Expansión cósmica y ley de Hubble-Lemaître | Ley de Hubble, ajuste con dispersión y tiempo de Hubble. | Ajuste de la ley con su incertidumbre |
-| <a id="b26-c12"></a>B26-C12 | Escalas de distancia cosmológicas | Escalera de distancias y propagación de errores. | Presupuesto de la escalera |
+| <a id="b26-c11"></a>[B26-C11](../clases/B26/B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md) | Expansión cósmica y ley de Hubble-Lemaître | Ley de Hubble, ajuste con dispersión y tiempo de Hubble. | Ajuste de la ley con su incertidumbre |
+| <a id="b26-c12"></a>[B26-C12](../clases/B26/B26-C12-escalas-de-distancia-cosmologicas/CLASE.md) | Escalas de distancia cosmológicas | Escalera de distancias y propagación de errores. | Presupuesto de la escalera |
 | <a id="b26-c13"></a>B26-C13 | Modelo FLRW — Relatividad y cosmología | Ecuación de Friedmann y edad del universo. | Cálculo de la edad |
 
 ### Tramo 4 · Universo temprano
