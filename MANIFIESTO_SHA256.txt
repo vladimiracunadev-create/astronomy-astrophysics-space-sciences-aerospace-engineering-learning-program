@@ -2400,6 +2400,9 @@ c3f19c8ea3c84091319703d556aba7161205a4e040a850bb46bdf2916e9f9d12  programa/clase
 46b40beb1723dec01ee2c4c3a48d66d6c5dc4c1fa2fba305353f8751ca3d4f91  programa/clases/B44/B44-C20-pipeline-inicial-de-calibracion-de-imagenes/CLASE.md
 87b92b498487b430580accdac15a6c54fa31f0f8aaab8872643077762d86a7bb  programa/clases/B44/B44-C20-pipeline-inicial-de-calibracion-de-imagenes/FICHA_EDITORIAL.md
 d12ccdf9dc632bb44621d38a28c60e68cdaa8a6889593a5e91ceb640adac6048  programa/clases/B44/B44-C20-pipeline-inicial-de-calibracion-de-imagenes/pipeline.py
+b31897f68364a6faf73e4b67bb5ad03c9db49332a93fd608f44439a680ba9d21  programa/clases/B45/B45-C02-magnitudes-y-sistemas-de-filtros/magnitudes.py
+916ca5d3424f566326f4ec46339f4b933d6402dbb10bdb92c3363e9f4e7130bf  programa/clases/B45/B45-C03-curvas-de-transmision/transmision.py
+3bd8b18627c1983bb772d505ff035a4dcd662226cafde945209f7c6320a65b79  programa/clases/B45/B45-C04-redes-de-difraccion/red.py
 fd0dea4dd8e08f41d55a6db3507e9a625d06537b8c7aff756a082f7b7205b10a  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 12e2c051acdf5e8f590edb3a729dfc92bf337b009c1e7ced6970d01b0213da2b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
 bc6e94859241614d46812bacdd1fc82af6786e2851993e60fab120164e4c2639  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md
@@ -2701,7 +2704,7 @@ b4ad91b15221d63c683ba5f673de410af21d59c62125d04e4d89d499046b4258  programa/tronc
 54712e317a1a082a28a748ec4de2c1ddaa3f3d0e2f52fdafe764c57bd4aedeb9  programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md
 a5978b1cdb61c70f48c32889736adaf4d334881d39fb16f5c4d84693737bb006  programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md
 f91e8432e9ba985a16684bf29b5d3004730601c3ec820e9941497466efeb7f06  programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md
-a243a86fbb852bfd70734b514831ca34915f38eaaa690a331ff845402dea4463  programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md
+4b1c2ca5d48bb2a6a58353eadf5bd932bf864d8393eac7d66de0003c60fbffc1  programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md
 60e32ea72ae104228c9a38fed0c39bddd9f409ce8a3917cdb3cc2762131ce4ad  programa/tronco-comun/B46-radioastronomia-e-interferometria.md
 824b6e2716fc190a93f9d369dd608b1e619a0d0f68fe8673c51159d773308aa3  programa/tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md
 0f861ab946b2e53550364a3a87590fbd870aaf1bfda2437e1be7b2415b5a05f7  programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md
