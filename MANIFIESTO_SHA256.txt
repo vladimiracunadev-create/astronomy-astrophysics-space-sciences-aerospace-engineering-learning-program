@@ -2150,7 +2150,6 @@ b817c77823bff9dc62a5960030e3c56d3030e802ccb602271b3dab1ce42a2b37  programa/clase
 432e4bfdb8966b473366ecf58baef4b85385e0d57c95e289dd9bcc6ba398c979  programa/clases/B44/B44-C18-control-electronico-de-camaras/FICHA_EDITORIAL.md
 c3f19c8ea3c84091319703d556aba7161205a4e040a850bb46bdf2916e9f9d12  programa/clases/B44/B44-C19-formato-fits-y-metadatos/FICHA_EDITORIAL.md
 87b92b498487b430580accdac15a6c54fa31f0f8aaab8872643077762d86a7bb  programa/clases/B44/B44-C20-pipeline-inicial-de-calibracion-de-imagenes/FICHA_EDITORIAL.md
-9a6ab70321f21cadf063b7ca2b2c0b03da67356c8737ee98a7f0f59ddaa345fd  programa/clases/B47/B47-C01-ventajas-de-observacion-fuera-de-atmosfera/ventajas_orbita.py
 fd0dea4dd8e08f41d55a6db3507e9a625d06537b8c7aff756a082f7b7205b10a  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 12e2c051acdf5e8f590edb3a729dfc92bf337b009c1e7ced6970d01b0213da2b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
 bc6e94859241614d46812bacdd1fc82af6786e2851993e60fab120164e4c2639  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md
