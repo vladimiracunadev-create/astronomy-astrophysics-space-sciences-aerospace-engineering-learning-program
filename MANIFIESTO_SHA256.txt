@@ -2457,7 +2457,7 @@ ece2a5285243077d761040935a95b048f17dcf082901dfd759be176b72f18d11  programa/tronc
 aa9c7e8014a8f321452a9b83f162c488ff21cbaecde4ae2f53505b995d050464  programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md
 15861a6e76c7a6cd07da137a2148dfc954ec610237ef2e868317213ec0d82b5f  programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md
 5b5fff401369e14b49559da6162377a02f02e21c8ee2dd9501e2b516e3bc5ca4  programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md
-8f67feaa388a0c9dd298027cba993bd863b38b0b962ca6dc61a5715d83bebf32  programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md
+44f2ce267bd9ad233cb345b878eb37b50a6fda97fde217634804bedc4e9e88d1  programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md
 e504203549508620e52e582adef40f430345cd3520ec432e5500fb03e0e09c41  programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md
 99196b5858073dec186709d249236bc8a633eb85ebecae5ea5b90f97469a40d8  programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md
 33e66c7d4409c3be17c850efe1109631e5f90d2afb34497cf082550cd532723e  programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md

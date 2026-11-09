@@ -1,74 +1,100 @@
 # B51 — Interferometría avanzada y reducción de datos de radio
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 14 clases están programadas y ninguna está redactada: se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
-**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  
-**Área:** A04 — Óptica, telescopios y observatorios científicos  
-**Estado:** programado; no contiene clases desarrolladas.  
-**Total:** 14 clases programadas.
+**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+**Área:** A04 — Óptica, telescopios y observatorios científicos
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 14 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance
+## 🎯 Propósito del bloque
 
-Este bloque existe porque los contenidos de los roles que lo necesitan no estaban cubiertos por ninguna clase de la línea base. Cubre desde «Calibración de amplitud y escala de flujo con calibradores primarios» hasta «Calibración de banda en la reducción de datos de síntesis». El orden de las clases es el de su programación y no es todavía una secuencia pedagógica revisada.
+Enseña **cómo se calibra, se corrige y se reduce un conjunto de datos de interferometría de radio**: la escala de flujo, las cantidades de cierre, las ganancias complejas por antena, la respuesta de banda, los efectos de la ionosfera, la autocalibración, el diagnóstico de residuos, la compensación de retardo, el fringe stopping, los retardos atmosféricos en VLBI, la búsqueda de franjas, los formatos de datos, el marcado de interferencia y la calibración de banda en síntesis. Cada clase cierra con un cálculo verificable contra un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases programadas
+## 📚 Al terminar el bloque podrás
 
-### B51-C01 — Calibración de amplitud y escala de flujo con calibradores primarios
+1. Fijar una escala de flujo y propagarla por bootstrap a una fuente secundaria.
+2. Construir cantidades de cierre y comprobar su invariancia frente a errores de antena.
+3. Resolver ganancias complejas por antena con dos métodos independientes.
+4. Modelar retardos, ondulaciones y ruido de la respuesta de banda.
+5. Calcular retardo ionosférico y rotación de Faraday y corregirlos con dos frecuencias.
+6. Iterar una autocalibración y diagnosticar su calidad con los residuos.
+7. Buscar franjas de retardo y tasa, compensar retardos y marcar interferencia con umbrales robustos.
 
-*Programada.* B46-C17 trata solo calibración de fase; ninguna clase enseña escala de flujo, calibradores primarios ni el bootstrap de flujos.
+## 🧭 Secuencia del bloque
 
-### B51-C02 — Cantidades de cierre: fase y amplitud de cierre
+```mermaid
+flowchart LR
+    A["C01-C07<br/>Calibración"]
+    B["C08-C12<br/>VLBI"]
+    C["C13-C14<br/>Reducción"]
+    A --> B --> C
+```
 
-*Programada.* Las cantidades de cierre son la base de la imagen sin fase y de la autocalibración; B46-C17 no las trata.
+**Descripción textual.** Tres tramos encadenados: calibración y cierres (C01–C07), VLBI y retardos (C08–C12) y reducción de datos (C13–C14).
 
-### B51-C03 — Ganancias complejas por antena y soluciones de calibración
+## 🗂️ Las 14 clases en resumen
 
-*Programada.* Ninguna clase formula la ecuación de medida interferométrica ni resuelve ganancias complejas por antena/base (matrices de Jones).
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B51-C04 — Respuesta de banda y errores dependientes de la frecuencia
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-*Programada.* B46-C15 trata correladores y visibilidades; no hay clase sobre respuesta de banda (bandpass) ni sus errores en observaciones espectrales.
+### Tramo 1 · Calibración y cierres
 
-### B51-C05 — Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b51-c01"></a>B51-C01 | Calibración de amplitud y escala de flujo con calibradores primarios | Escala de flujo, bootstrap y ganancias de amplitud. | Ficha de la escala de flujo |
+| <a id="b51-c02"></a>B51-C02 | Cantidades de cierre: fase y amplitud de cierre | Invariancia de los cierres y su ruido. | Ficha de las cantidades de cierre |
+| <a id="b51-c03"></a>B51-C03 | Ganancias complejas por antena y soluciones de calibración | Ecuación de medida y ganancias complejas por antena. | Ficha de las ganancias complejas |
+| <a id="b51-c04"></a>B51-C04 | Respuesta de banda y errores dependientes de la frecuencia | Retardo, ondulación y ruido de la respuesta de banda. | Ficha de la respuesta de banda |
+| <a id="b51-c05"></a>B51-C05 | Efectos ionosféricos en radioastronomía: retardo, rotación de Faraday y su corrección | Retardo dispersivo, TEC y rotación de Faraday. | Ficha de los efectos ionosféricos |
+| <a id="b51-c06"></a>B51-C06 | Autocalibración iterativa con modelo de cielo | Iteración imagen–modelo–ganancias y sesgo. | Ficha de la autocalibración |
+| <a id="b51-c07"></a>B51-C07 | Evaluación de residuos y diagnóstico de calidad de calibración | Chi cuadrado reducido, residuos normalizados y valores atípicos. | Ficha de los residuos de calibración |
 
-*Programada.* B30-C17 trata auroras y corrientes ionosféricas, no los efectos de la ionosfera sobre fase y polarización de señales de radio ni su corrección.
+### Tramo 2 · VLBI y retardos
 
-### B51-C06 — Autocalibración iterativa con modelo de cielo
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b51-c08"></a>B51-C08 | Compensación de retardo y alineación temporal de flujos de antenas | Retardo entero y fraccionario por correlación cruzada. | Ficha del retardo y la alineación |
+| <a id="b51-c09"></a>B51-C09 | Fringe stopping y rotación de fase por retardo geométrico | Retardo geométrico, tasa de franjas y pérdida por promediado. | Ficha del fringe stopping |
+| <a id="b51-c10"></a>B51-C10 | Retardo troposférico e ionosférico en VLBI y su modelado | Función de mapeo y combinación libre de ionosfera. | Ficha de los retardos atmosféricos en VLBI |
+| <a id="b51-c11"></a>B51-C11 | Búsqueda de franjas VLBI: ajuste de retardo y tasa | Pico de retardo y tasa, SNR y falsas detecciones. | Ficha de la búsqueda de franjas |
+| <a id="b51-c12"></a>B51-C12 | Formatos de datos VLBI y geodésicos | Cuantización, empaquetado y tasa de datos. | Ficha de los formatos de datos |
 
-*Programada.* Ninguna clase enseña self-cal (modelo, solución de ganancias, convergencia y sesgos).
+### Tramo 3 · Reducción de datos
 
-### B51-C07 — Evaluación de residuos y diagnóstico de calidad de calibración
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b51-c13"></a>B51-C13 | Marcado de datos espurios e interferencia en visibilidades | Umbrales robustos, tasa de falsas alarmas y SumThreshold. | Ficha del marcado de datos |
+| <a id="b51-c14"></a>B51-C14 | Calibración de banda en la reducción de datos de síntesis | Ruido de la solución de banda y sustracción del continuo. | Ficha de la calibración de banda en síntesis |
 
-*Programada.* B13-C20 valida cadenas de medida en general; falta el diagnóstico de residuos de visibilidad y de calidad de la calibración interferométrica.
+## 🧵 Hilos que atraviesan el bloque
 
-### B51-C08 — Compensación de retardo y alineación temporal de flujos de antenas
+- **Del dato crudo al dato calibrado:** C01–C07 resuelven amplitud, fase, banda y atmósfera; C08–C12 alinean y detectan señales en VLBI; C13–C14 limpian y reducen.
+- **Dos vías independientes:** cada laboratorio contrasta con un caso analítico, una segunda forma de calcular o una simulación con semilla fija.
+- **Incertidumbre:** C01, C02, C04, C11 y C14 propagan el ruido a la calibración y a la detección.
+- **Observado frente a ilustrativo:** solo se citan con fecha los resúmenes de arXiv realmente leídos y las constantes de NIST; todos los datos de visibilidades son sintéticos y se rotulan.
 
-*Programada.* B74-C16 sincroniza tiempo de navegación; ninguna clase trata el seguimiento de retardo y la alineación de flujos digitales en un correlador.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B51-C09 — Fringe stopping y rotación de fase por retardo geométrico
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha de las ganancias complejas (C03) y ficha de la búsqueda de franjas (C11).
+- Las condiciones críticas (rotular lo sintético, no presentar una simulación como reducción de datos reales y citar solo lo consultado) no se compensan con promedio.
 
-*Programada.* B46-C14 define la línea de base; no se enseña la rotación de fase que detiene las franjas ni la tasa de franjas.
+## ⚠️ Seguridad y límites
 
-### B51-C10 — Retardo troposférico e ionosférico en VLBI y su modelado
-
-*Programada.* B89-C04 trata pérdidas de propagación de enlaces; no hay clase sobre retardo húmedo/seco y funciones de mapeo en geodesia por VLBI.
-
-### B51-C11 — Búsqueda de franjas VLBI: ajuste de retardo y tasa
-
-*Programada.* B46-C18 presenta VLBI de forma general; falta el ajuste de franjas (fringe fitting) sobre retardo y tasa de retardo.
-
-### B51-C12 — Formatos de datos VLBI y geodésicos
-
-*Programada.* B14-C06 y B14-C07 tratan FITS y HDF5 genéricos; no hay clase sobre formatos de grabación y de producto de VLBI (VDIF, FITS-IDI, vgosDB).
-
-### B51-C13 — Marcado de datos espurios e interferencia en visibilidades
-
-*Programada.* B12-C19 trata atípicos en general; falta el flagging específico de RFI y fallos de antena en visibilidades.
-
-### B51-C14 — Calibración de banda en la reducción de datos de síntesis
-
-*Programada.* Aplicación operativa de la respuesta de banda en el flujo de reducción (soluciones, interpolación, validación) que ninguna clase actual cubre.
+El bloque es educativo. Los modelos son simplificados y no sustituyen a CASA, AIPS, las cadenas de las colaboraciones ni a la correlación VLBI real; no se descargan ni procesan datos de ningún observatorio. Los valores publicados se citan con su fuente y fecha de consulta (solo resúmenes) y el resto de los números son sintéticos o ilustrativos.
 
 ## Roles que lo usan
 
 - [Radioastronomía e interferometría](../../rutas/radioastronomia-e-interferometria.md)
+
+## Fuentes de orientación preliminar
+
+- **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.
+- **[IAU-B3]** [UAI, Resolución B3 de 2015](https://arxiv.org/abs/1510.07674) — Valores nominales solares y planetarios.
+- **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
+
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B52 — Formación y dinámica de sistemas planetarios](./B52-formacion-y-dinamica-de-sistemas-planetarios.md)
