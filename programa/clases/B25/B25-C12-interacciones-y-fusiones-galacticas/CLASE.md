@@ -1,7 +1,7 @@
 # B25-C12 — Interacciones y fusiones galácticas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C11 — Núcleos activos de galaxias](../B25-C11-nucleos-activos-de-galaxias/CLASE.md) · [Siguiente: B25-C13 — Cúmulos de galaxias →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C11 — Núcleos activos de galaxias](../B25-C11-nucleos-activos-de-galaxias/CLASE.md) · [Siguiente: B25-C13 — Cúmulos de galaxias →](../B25-C13-cumulos-de-galaxias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Un encuentro parabólico de dos masas iguales llega al pericentro en `t = 12` (5
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B25-C11 — Núcleos activos de galaxias](../B25-C11-nucleos-activos-de-galaxias/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C13 — Cúmulos de galaxias →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c13)
+[← Anterior: B25-C11 — Núcleos activos de galaxias](../B25-C11-nucleos-activos-de-galaxias/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C13 — Cúmulos de galaxias →](../B25-C13-cumulos-de-galaxias/CLASE.md)
 <!-- /nav -->
