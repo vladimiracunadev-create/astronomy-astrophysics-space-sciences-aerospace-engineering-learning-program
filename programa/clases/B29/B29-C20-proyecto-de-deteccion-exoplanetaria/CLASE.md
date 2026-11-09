@@ -1,7 +1,7 @@
 # B29-C20 — Proyecto de detección exoplanetaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [← Anterior: B29-C19 — Análisis de series temporales irregularmente muestreadas](../B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md) · [Siguiente: B30-C01 — Estructura interna del Sol →](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md#b30-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [← Anterior: B29-C19 — Análisis de series temporales irregularmente muestreadas](../B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md) · [Siguiente: B30-C01 — Estructura interna del Sol →](../../B30/B30-C01-estructura-interna-del-sol/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Una búsqueda de cajas recupera `P = 7,29 d` con `SNR = 8,4`, el ruido puro no s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B29-C19 — Análisis de series temporales irregularmente muestreadas](../B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [Siguiente: B30-C01 — Estructura interna del Sol →](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md#b30-c01)
+[← Anterior: B29-C19 — Análisis de series temporales irregularmente muestreadas](../B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [Siguiente: B30-C01 — Estructura interna del Sol →](../../B30/B30-C01-estructura-interna-del-sol/CLASE.md)
 <!-- /nav -->
