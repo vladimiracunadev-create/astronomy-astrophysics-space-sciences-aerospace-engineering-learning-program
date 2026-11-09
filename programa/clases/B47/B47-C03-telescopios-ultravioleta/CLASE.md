@@ -1,6 +1,7 @@
 # B47-C03 — Telescopios ultravioleta
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B47-C02 — Requisitos de instrumentos orbitales](../B47-C02-requisitos-de-instrumentos-orbitales/CLASE.md) · [Siguiente: B47-C04 — Telescopios infrarrojos →](../B47-C04-telescopios-infrarrojos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,4 +305,5 @@ Lyman-α está en `121,57 nm` y una estrella ilustrativa exige `0,9 s` para `S/N
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B47-C02 — Requisitos de instrumentos orbitales](../B47-C02-requisitos-de-instrumentos-orbitales/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B47-C04 — Telescopios infrarrojos →](../B47-C04-telescopios-infrarrojos/CLASE.md)
 <!-- /nav -->

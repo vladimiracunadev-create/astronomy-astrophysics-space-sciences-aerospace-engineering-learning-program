@@ -1,6 +1,7 @@
 # B47-C01 — Ventajas de observación fuera de atmósfera
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B46-C20 — Proyecto de observación radioastronómica](../../B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md) · [Siguiente: B47-C02 — Requisitos de instrumentos orbitales →](../B47-C02-requisitos-de-instrumentos-orbitales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,4 +313,5 @@ El suelo empeora la imagen 4,3 veces para una apertura de 0,5 m y la columna de 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C20 — Proyecto de observación radioastronómica](../../B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B47-C02 — Requisitos de instrumentos orbitales →](../B47-C02-requisitos-de-instrumentos-orbitales/CLASE.md)
 <!-- /nav -->

@@ -45,51 +45,51 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b47-c01"></a>B47-C01 | Ventajas de observación fuera de atmósfera | Transmisión atmosférica, resolución de Airy frente a seeing y columna de aire. | Ficha de las ventajas orbitales |
-| <a id="b47-c02"></a>B47-C02 | Requisitos de instrumentos orbitales | Derivar requisitos desde la ciencia: apertura, período orbital y presupuesto de masa. | Ficha de requisitos del instrumento |
+| <a id="b47-c01"></a>[B47-C01](../clases/B47/B47-C01-ventajas-de-observacion-fuera-de-atmosfera/CLASE.md) | Ventajas de observación fuera de atmósfera | Transmisión atmosférica, resolución de Airy frente a seeing y columna de aire. | Ficha de las ventajas orbitales |
+| <a id="b47-c02"></a>[B47-C02](../clases/B47/B47-C02-requisitos-de-instrumentos-orbitales/CLASE.md) | Requisitos de instrumentos orbitales | Derivar requisitos desde la ciencia: apertura, período orbital y presupuesto de masa. | Ficha de requisitos del instrumento |
 
 ### Tramo 2 · Telescopios y detectores por banda
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b47-c03"></a>B47-C03 | Telescopios ultravioleta | Serie de Lyman desde la constante de Rydberg y cuentas fotónicas con estadística de Poisson. | Ficha del telescopio ultravioleta |
-| <a id="b47-c04"></a>B47-C04 | Telescopios infrarrojos | Ley de Planck, fondo térmico del telescopio y temperatura de operación. | Ficha del telescopio infrarrojo |
-| <a id="b47-c05"></a>B47-C05 | Instrumentos de rayos X | Ángulo crítico de reflexión rasante, geometría Wolter I y área efectiva. | Ficha del telescopio de rayos X |
-| <a id="b47-c06"></a>B47-C06 | Instrumentos de rayos gamma | Klein-Nishina, umbral de pares y cinemática del telescopio Compton. | Ficha del instrumento de rayos gamma |
-| <a id="b47-c07"></a>B47-C07 | Coronógrafos espaciales | Supresión de difracción, punto de Poisson y contraste del coronógrafo. | Ficha del coronógrafo |
-| <a id="b47-c08"></a>B47-C08 | Espectrómetros de masas orbitales | Tiempo de vuelo, resolución de masa y resolución de pares isobáricos. | Ficha del espectrómetro de masas |
-| <a id="b47-c09"></a>B47-C09 | Detectores de partículas — Instrumentación y observatorios espaciales | Bethe-Bloch, alcance de protones y escalado de partículas alfa. | Ficha del detector de partículas |
+| <a id="b47-c03"></a>[B47-C03](../clases/B47/B47-C03-telescopios-ultravioleta/CLASE.md) | Telescopios ultravioleta | Serie de Lyman desde la constante de Rydberg y cuentas fotónicas con estadística de Poisson. | Ficha del telescopio ultravioleta |
+| <a id="b47-c04"></a>[B47-C04](../clases/B47/B47-C04-telescopios-infrarrojos/CLASE.md) | Telescopios infrarrojos | Ley de Planck, fondo térmico del telescopio y temperatura de operación. | Ficha del telescopio infrarrojo |
+| <a id="b47-c05"></a>[B47-C05](../clases/B47/B47-C05-instrumentos-de-rayos-x/CLASE.md) | Instrumentos de rayos X | Ángulo crítico de reflexión rasante, geometría Wolter I y área efectiva. | Ficha del telescopio de rayos X |
+| <a id="b47-c06"></a>[B47-C06](../clases/B47/B47-C06-instrumentos-de-rayos-gamma/CLASE.md) | Instrumentos de rayos gamma | Klein-Nishina, umbral de pares y cinemática del telescopio Compton. | Ficha del instrumento de rayos gamma |
+| <a id="b47-c07"></a>[B47-C07](../clases/B47/B47-C07-coronografos-espaciales/CLASE.md) | Coronógrafos espaciales | Supresión de difracción, punto de Poisson y contraste del coronógrafo. | Ficha del coronógrafo |
+| <a id="b47-c08"></a>[B47-C08](../clases/B47/B47-C08-espectrometros-de-masas-orbitales/CLASE.md) | Espectrómetros de masas orbitales | Tiempo de vuelo, resolución de masa y resolución de pares isobáricos. | Ficha del espectrómetro de masas |
+| <a id="b47-c09"></a>[B47-C09](../clases/B47/B47-C09-detectores-de-particulas-instrumentacion-y-observatorios-espaciales/CLASE.md) | Detectores de partículas — Instrumentación y observatorios espaciales | Bethe-Bloch, alcance de protones y escalado de partículas alfa. | Ficha del detector de partículas |
 
 ### Tramo 3 · Plataforma, vacío y criogenia
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b47-c10"></a>B47-C10 | Estabilidad de apuntamiento | Densidad espectral de actitud, RMS de jitter y su efecto en la imagen. | Ficha de estabilidad de apuntamiento |
-| <a id="b47-c11"></a>B47-C11 | Aislamiento vibracional | Transmisibilidad de un aislador y contraste con la integración temporal. | Ficha del aislador vibracional |
-| <a id="b47-c12"></a>B47-C12 | Óptica en ambientes de vacío | Camino libre medio, tiempo de monocapa y película delgada en un espejo. | Ficha de la óptica en vacío |
-| <a id="b47-c13"></a>B47-C13 | Criogenia instrumental | Escudos radiativos, conducción en soportes y vida de un criógeno. | Ficha de la criogenia instrumental |
-| <a id="b47-c14"></a>B47-C14 | Radiación y degradación | Dosis ionizante con blindaje y tasa de eventos por partícula simple. | Ficha de radiación y degradación |
+| <a id="b47-c10"></a>[B47-C10](../clases/B47/B47-C10-estabilidad-de-apuntamiento/CLASE.md) | Estabilidad de apuntamiento | Densidad espectral de actitud, RMS de jitter y su efecto en la imagen. | Ficha de estabilidad de apuntamiento |
+| <a id="b47-c11"></a>[B47-C11](../clases/B47/B47-C11-aislamiento-vibracional/CLASE.md) | Aislamiento vibracional | Transmisibilidad de un aislador y contraste con la integración temporal. | Ficha del aislador vibracional |
+| <a id="b47-c12"></a>[B47-C12](../clases/B47/B47-C12-optica-en-ambientes-de-vacio/CLASE.md) | Óptica en ambientes de vacío | Camino libre medio, tiempo de monocapa y película delgada en un espejo. | Ficha de la óptica en vacío |
+| <a id="b47-c13"></a>[B47-C13](../clases/B47/B47-C13-criogenia-instrumental/CLASE.md) | Criogenia instrumental | Escudos radiativos, conducción en soportes y vida de un criógeno. | Ficha de la criogenia instrumental |
+| <a id="b47-c14"></a>[B47-C14](../clases/B47/B47-C14-radiacion-y-degradacion/CLASE.md) | Radiación y degradación | Dosis ionizante con blindaje y tasa de eventos por partícula simple. | Ficha de radiación y degradación |
 
 ### Tramo 4 · Operación, datos y vida útil
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b47-c15"></a>B47-C15 | Calibración a bordo | Curva de transferencia de fotones, ganancia y ruido de lectura. | Ficha de calibración a bordo |
-| <a id="b47-c16"></a>B47-C16 | Compresión de datos científicos | Entropía, código de Rice y razón de compresión. | Ficha de compresión de datos |
-| <a id="b47-c17"></a>B47-C17 | Planificación de observaciones | Fracción de oclusión terrestre y planificación frente al óptimo exacto. | Ficha de planificación de observaciones |
-| <a id="b47-c18"></a>B47-C18 | Downlink de instrumentos científicos | Presupuesto de enlace, capacidad de Shannon y duración del paso. | Ficha del enlace de bajada |
-| <a id="b47-c19"></a>B47-C19 | Mantenimiento y vida útil | Confiabilidad con redundancia, consumibles y vida útil. | Ficha de vida útil |
-| <a id="b47-c20"></a>B47-C20 | Caso comparativo de observatorios espaciales | Métricas físicas y matriz de decisión con análisis de sensibilidad. | Ficha comparativa de observatorios |
+| <a id="b47-c15"></a>[B47-C15](../clases/B47/B47-C15-calibracion-a-bordo/CLASE.md) | Calibración a bordo | Curva de transferencia de fotones, ganancia y ruido de lectura. | Ficha de calibración a bordo |
+| <a id="b47-c16"></a>[B47-C16](../clases/B47/B47-C16-compresion-de-datos-cientificos/CLASE.md) | Compresión de datos científicos | Entropía, código de Rice y razón de compresión. | Ficha de compresión de datos |
+| <a id="b47-c17"></a>[B47-C17](../clases/B47/B47-C17-planificacion-de-observaciones/CLASE.md) | Planificación de observaciones | Fracción de oclusión terrestre y planificación frente al óptimo exacto. | Ficha de planificación de observaciones |
+| <a id="b47-c18"></a>[B47-C18](../clases/B47/B47-C18-downlink-de-instrumentos-cientificos/CLASE.md) | Downlink de instrumentos científicos | Presupuesto de enlace, capacidad de Shannon y duración del paso. | Ficha del enlace de bajada |
+| <a id="b47-c19"></a>[B47-C19](../clases/B47/B47-C19-mantenimiento-y-vida-util/CLASE.md) | Mantenimiento y vida útil | Confiabilidad con redundancia, consumibles y vida útil. | Ficha de vida útil |
+| <a id="b47-c20"></a>[B47-C20](../clases/B47/B47-C20-caso-comparativo-de-observatorios-espaciales/CLASE.md) | Caso comparativo de observatorios espaciales | Métricas físicas y matriz de decisión con análisis de sensibilidad. | Ficha comparativa de observatorios |
 
 ### Tramo 5 · Heliofísica, in situ y cargas educativas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b47-c21"></a>B47-C21 | Magnetógrafos y medición de campos solares | Efecto Zeeman, Stokes V y recuperación del campo longitudinal. | Ficha del magnetógrafo |
-| <a id="b47-c22"></a>B47-C22 | Misiones de física solar: SOHO, SDO y Solar Orbiter | Punto L1, órbita geosíncrona y flujo en perihelio. | Ficha de misiones de física solar |
-| <a id="b47-c23"></a>B47-C23 | Sondas heliosféricas: Parker Solar Probe y Voyager | Velocidad en perihelio, equilibrio térmico del escudo y decaimiento de un RTG. | Ficha de sondas heliosféricas |
-| <a id="b47-c24"></a>B47-C24 | Instrumentos de plasma y campos in situ | Analizador electrostático, momentos de la distribución y longitud de Debye. | Ficha del instrumento de plasma |
-| <a id="b47-c25"></a>B47-C25 | Diseño de cargas útiles educativas | Resolución en tierra, balance de potencia y verificación de requisitos de un CubeSat. | Ficha de la carga útil educativa |
+| <a id="b47-c21"></a>[B47-C21](../clases/B47/B47-C21-magnetografos-y-medicion-de-campos-solares/CLASE.md) | Magnetógrafos y medición de campos solares | Efecto Zeeman, Stokes V y recuperación del campo longitudinal. | Ficha del magnetógrafo |
+| <a id="b47-c22"></a>[B47-C22](../clases/B47/B47-C22-misiones-de-fisica-solar-soho-sdo-y-solar-orbiter/CLASE.md) | Misiones de física solar: SOHO, SDO y Solar Orbiter | Punto L1, órbita geosíncrona y flujo en perihelio. | Ficha de misiones de física solar |
+| <a id="b47-c23"></a>[B47-C23](../clases/B47/B47-C23-sondas-heliosfericas-parker-solar-probe-y-voyager/CLASE.md) | Sondas heliosféricas: Parker Solar Probe y Voyager | Velocidad en perihelio, equilibrio térmico del escudo y decaimiento de un RTG. | Ficha de sondas heliosféricas |
+| <a id="b47-c24"></a>[B47-C24](../clases/B47/B47-C24-instrumentos-de-plasma-y-campos-in-situ/CLASE.md) | Instrumentos de plasma y campos in situ | Analizador electrostático, momentos de la distribución y longitud de Debye. | Ficha del instrumento de plasma |
+| <a id="b47-c25"></a>[B47-C25](../clases/B47/B47-C25-diseno-de-cargas-utiles-educativas/CLASE.md) | Diseño de cargas útiles educativas | Resolución en tierra, balance de potencia y verificación de requisitos de un CubeSat. | Ficha de la carga útil educativa |
 
 ## 🧵 Hilos que atraviesan el bloque
 

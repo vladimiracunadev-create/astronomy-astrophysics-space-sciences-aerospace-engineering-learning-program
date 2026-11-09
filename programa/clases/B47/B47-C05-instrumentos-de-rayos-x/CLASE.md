@@ -1,6 +1,7 @@
 # B47-C05 — Instrumentos de rayos X
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B47-C04 — Telescopios infrarrojos](../B47-C04-telescopios-infrarrojos/CLASE.md) · [Siguiente: B47-C06 — Instrumentos de rayos gamma →](../B47-C06-instrumentos-de-rayos-gamma/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,4 +316,5 @@ El ángulo crítico baja de `4,96°` a `0,25°` entre 1 y 20 keV y el área efec
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B47-C04 — Telescopios infrarrojos](../B47-C04-telescopios-infrarrojos/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B47-C06 — Instrumentos de rayos gamma →](../B47-C06-instrumentos-de-rayos-gamma/CLASE.md)
 <!-- /nav -->

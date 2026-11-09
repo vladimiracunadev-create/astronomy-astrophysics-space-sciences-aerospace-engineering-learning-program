@@ -1,6 +1,7 @@
 # B47-C04 — Telescopios infrarrojos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B47-C03 — Telescopios ultravioleta](../B47-C03-telescopios-ultravioleta/CLASE.md) · [Siguiente: B47-C05 — Instrumentos de rayos X →](../B47-C05-instrumentos-de-rayos-x/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,4 +317,5 @@ La integral de Planck reproduce `σT⁴` y el fondo del telescopio cae de `3,87 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B47-C03 — Telescopios ultravioleta](../B47-C03-telescopios-ultravioleta/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B47-C05 — Instrumentos de rayos X →](../B47-C05-instrumentos-de-rayos-x/CLASE.md)
 <!-- /nav -->

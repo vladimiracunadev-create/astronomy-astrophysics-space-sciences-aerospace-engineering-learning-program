@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 803 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 828 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -1065,11 +1065,11 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 - **B47-C18 — Downlink de instrumentos científicos.** Introduce el contexto y los principios de «downlink de instrumentos científicos» para comprender su uso científico.
 - **B47-C19 — Mantenimiento y vida útil.** Describe los componentes principales de «mantenimiento y vida útil» y por qué son relevantes para esta disciplina.
 - **B47-C20 — Caso comparativo de observatorios espaciales.** Presenta qué significa «caso comparativo de observatorios espaciales», sus elementos esenciales y su función dentro de instrumentación y observatorios espaciales.
-- **B47-C21 — Magnetógrafos y medición de campos solares.** *Programada.* B45-C15 trata polarimetría general; falta el magnetógrafo (efecto Zeeman) y la producción de magnetogramas.
-- **B47-C22 — Misiones de física solar: SOHO, SDO y Solar Orbiter.** *Programada.* B47 cubre observatorios espaciales generales, sin las misiones heliofísicas ni su instrumental específico.
-- **B47-C23 — Sondas heliosféricas: Parker Solar Probe y Voyager.** *Programada.* Diseño de mediciones in situ cerca del Sol y en el borde de la heliosfera; no cubierto en B47.
-- **B47-C24 — Instrumentos de plasma y campos in situ.** *Programada.* Analizadores electrostáticos, copas de Faraday y magnetómetros fluxgate para viento solar; no cubierto en B47.
-- **B47-C25 — Diseño de cargas útiles educativas.** *Programada.* Muchos CubeSat son universitarios: el rol debe definir requisitos y evidencia de una carga útil con fines educativos, y ninguna clase lo trata.
+- **B47-C21 — Magnetógrafos y medición de campos solares.** *Texto redactado, pendiente de revisión.* B45-C15 trata polarimetría general; falta el magnetógrafo (efecto Zeeman) y la producción de magnetogramas.
+- **B47-C22 — Misiones de física solar: SOHO, SDO y Solar Orbiter.** *Texto redactado, pendiente de revisión.* B47 cubre observatorios espaciales generales, sin las misiones heliofísicas ni su instrumental específico.
+- **B47-C23 — Sondas heliosféricas: Parker Solar Probe y Voyager.** *Texto redactado, pendiente de revisión.* Diseño de mediciones in situ cerca del Sol y en el borde de la heliosfera; no cubierto en B47.
+- **B47-C24 — Instrumentos de plasma y campos in situ.** *Texto redactado, pendiente de revisión.* Analizadores electrostáticos, copas de Faraday y magnetómetros fluxgate para viento solar; no cubierto en B47.
+- **B47-C25 — Diseño de cargas útiles educativas.** *Texto redactado, pendiente de revisión.* Muchos CubeSat son universitarios: el rol debe definir requisitos y evidencia de una carga útil con fines educativos, y ninguna clase lo trata.
 
 ### B48 — Operaciones de observatorios científicos
 

@@ -1,6 +1,7 @@
 # B47-C02 — Requisitos de instrumentos orbitales
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [← Anterior: B47-C01 — Ventajas de observación fuera de atmósfera](../B47-C01-ventajas-de-observacion-fuera-de-atmosfera/CLASE.md) · [Siguiente: B47-C03 — Telescopios ultravioleta →](../B47-C03-telescopios-ultravioleta/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,4 +316,5 @@ La resolución objetivo pide `1,06 m` de apertura; la órbita de 600 km da `96,7
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B47-C01 — Ventajas de observación fuera de atmósfera](../B47-C01-ventajas-de-observacion-fuera-de-atmosfera/CLASE.md) · [📚 Bloque B47](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md) · [Siguiente: B47-C03 — Telescopios ultravioleta →](../B47-C03-telescopios-ultravioleta/CLASE.md)
 <!-- /nav -->
