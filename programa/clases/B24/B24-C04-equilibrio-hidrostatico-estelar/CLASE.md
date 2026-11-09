@@ -1,7 +1,7 @@
 # B24-C04 — Equilibrio hidrostático estelar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C03 — Diagrama de Hertzsprung-Russell](../B24-C03-diagrama-de-hertzsprung-russell/CLASE.md) · [Siguiente: B24-C05 — Transporte radiativo y convectivo →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C03 — Diagrama de Hertzsprung-Russell](../B24-C03-diagrama-de-hertzsprung-russell/CLASE.md) · [Siguiente: B24-C05 — Transporte radiativo y convectivo →](../B24-C05-transporte-radiativo-y-convectivo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Cada capa de una estrella se sostiene si el gradiente de presión equilibra el p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B24-C03 — Diagrama de Hertzsprung-Russell](../B24-C03-diagrama-de-hertzsprung-russell/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C05 — Transporte radiativo y convectivo →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c05)
+[← Anterior: B24-C03 — Diagrama de Hertzsprung-Russell](../B24-C03-diagrama-de-hertzsprung-russell/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C05 — Transporte radiativo y convectivo →](../B24-C05-transporte-radiativo-y-convectivo/CLASE.md)
 <!-- /nav -->

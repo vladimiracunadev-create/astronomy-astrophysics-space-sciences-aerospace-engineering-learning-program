@@ -57,10 +57,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b24-c05"></a>B24-C05 | Transporte radiativo y convectivo | Difusión de fotones, criterio de Schwarzschild y gradiente adiabático. | Informe de transporte de energía |
-| <a id="b24-c06"></a>B24-C06 | Fusión de hidrógeno | Defecto de masa, energía por reacción y tiempo en secuencia principal. | Balance energético de la fusión |
-| <a id="b24-c07"></a>B24-C07 | Ciclo CNO y cadena protón-protón | Pico de Gamow y sensibilidad de la tasa a la temperatura. | Comparación p-p frente a CNO |
-| <a id="b24-c08"></a>B24-C08 | Nucleosíntesis estelar | Etapas de quemado y energía por unidad de masa de cada combustible. | Tabla de combustibles estelares |
+| <a id="b24-c05"></a>[B24-C05](../clases/B24/B24-C05-transporte-radiativo-y-convectivo/CLASE.md) | Transporte radiativo y convectivo | Difusión de fotones, criterio de Schwarzschild y gradiente adiabático. | Informe de transporte de energía |
+| <a id="b24-c06"></a>[B24-C06](../clases/B24/B24-C06-fusion-de-hidrogeno/CLASE.md) | Fusión de hidrógeno | Defecto de masa, energía por reacción y tiempo en secuencia principal. | Balance energético de la fusión |
+| <a id="b24-c07"></a>[B24-C07](../clases/B24/B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md) | Ciclo CNO y cadena protón-protón | Pico de Gamow y sensibilidad de la tasa a la temperatura. | Comparación p-p frente a CNO |
+| <a id="b24-c08"></a>[B24-C08](../clases/B24/B24-C08-nucleosintesis-estelar/CLASE.md) | Nucleosíntesis estelar | Etapas de quemado y energía por unidad de masa de cada combustible. | Tabla de combustibles estelares |
 
 ### Tramo 3 · Superficie y espectros
 
