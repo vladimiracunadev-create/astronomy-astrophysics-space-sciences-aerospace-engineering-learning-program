@@ -1,7 +1,7 @@
 # B30-C23 — Índices geomagnéticos Kp y Dst
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [← Anterior: B30-C22 — Anillo de corriente y corrientes magnetosféricas](../B30-C22-anillo-de-corriente-y-corrientes-magnetosfericas/CLASE.md) · [Siguiente: B31-C01 — Dualidad onda-partícula →](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md#b31-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [← Anterior: B30-C22 — Anillo de corriente y corrientes magnetosféricas](../B30-C22-anillo-de-corriente-y-corrientes-magnetosfericas/CLASE.md) · [Siguiente: B31-C01 — Dualidad onda-partícula →](../../B31/B31-C01-dualidad-onda-particula/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ El Kp tiene 28 etiquetas y se construye promediando trece `K`; un proxy de Dst c
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B30-C22 — Anillo de corriente y corrientes magnetosféricas](../B30-C22-anillo-de-corriente-y-corrientes-magnetosfericas/CLASE.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [Siguiente: B31-C01 — Dualidad onda-partícula →](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md#b31-c01)
+[← Anterior: B30-C22 — Anillo de corriente y corrientes magnetosféricas](../B30-C22-anillo-de-corriente-y-corrientes-magnetosfericas/CLASE.md) · [📚 Bloque B30](../../../tronco-comun/B30-heliofisica-y-fisica-de-plasmas.md) · [Siguiente: B31-C01 — Dualidad onda-partícula →](../../B31/B31-C01-dualidad-onda-particula/CLASE.md)
 <!-- /nav -->
