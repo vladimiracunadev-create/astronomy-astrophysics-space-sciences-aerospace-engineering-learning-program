@@ -48,26 +48,26 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b40-c03"></a>[B40-C03](../clases/B40/B40-C03-desacoplamiento-de-neutrinos-y-fondo-cosmico-de-neutrinos/CLASE.md) | Desacoplamiento de neutrinos y fondo cósmico de neutrinos | Entropía, (4/11)^(1/3) y N_eff. | Ficha del fondo de neutrinos |
 | <a id="b40-c04"></a>[B40-C04](../clases/B40/B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md) | Problemas del horizonte y de la planitud | Horizonte comóvil, ángulo causal y desvanecimiento de la curvatura. | Ficha de horizonte y planitud |
 | <a id="b40-c05"></a>[B40-C05](../clases/B40/B40-C05-perturbaciones-primordiales-y-espectro-escalar/CLASE.md) | Perturbaciones primordiales y espectro escalar | Espectro de potencias, inclinación y razón tensor-escalar. | Ficha del espectro primordial |
-| <a id="b40-c06"></a>B40-C06 | Campos escalares en cosmología: potenciales y evolución | Ecuación de Klein-Gordon y w promedio. | Ficha de campos escalares |
+| <a id="b40-c06"></a>[B40-C06](../clases/B40/B40-C06-campos-escalares-en-cosmologia-potenciales-y-evolucion/CLASE.md) | Campos escalares en cosmología: potenciales y evolución | Ecuación de Klein-Gordon y w promedio. | Ficha de campos escalares |
 
 ### Tramo 2 · Anisotropías y señales
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b40-c07"></a>B40-C07 | Espectro angular de potencias del CMB | Escala acústica, Cℓ y transformada de Legendre. | Ficha del espectro angular |
-| <a id="b40-c08"></a>B40-C08 | Polarización E y B del fondo cósmico | Descomposición E/B en el plano y fuga por máscara. | Ficha de la polarización E/B |
-| <a id="b40-c09"></a>B40-C09 | Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado | Meseta de Sachs-Wolfe y factor de crecimiento. | Ficha de Sachs-Wolfe |
-| <a id="b40-c10"></a>B40-C10 | Emisiones de primer plano galácticas y su separación | Leyes espectrales y combinación lineal interna. | Ficha de los primeros planos |
-| <a id="b40-c11"></a>B40-C11 | Efecto Sunyaev-Zeldovich térmico y cinemático | Función espectral, nulo en 217 GHz e y. | Ficha del efecto Sunyaev-Zeldovich |
+| <a id="b40-c07"></a>[B40-C07](../clases/B40/B40-C07-espectro-angular-de-potencias-del-cmb/CLASE.md) | Espectro angular de potencias del CMB | Escala acústica, Cℓ y transformada de Legendre. | Ficha del espectro angular |
+| <a id="b40-c08"></a>[B40-C08](../clases/B40/B40-C08-polarizacion-e-y-b-del-fondo-cosmico/CLASE.md) | Polarización E y B del fondo cósmico | Descomposición E/B en el plano y fuga por máscara. | Ficha de la polarización E/B |
+| <a id="b40-c09"></a>[B40-C09](../clases/B40/B40-C09-efecto-sachs-wolfe-y-efecto-sachs-wolfe-integrado/CLASE.md) | Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado | Meseta de Sachs-Wolfe y factor de crecimiento. | Ficha de Sachs-Wolfe |
+| <a id="b40-c10"></a>[B40-C10](../clases/B40/B40-C10-emisiones-de-primer-plano-galacticas-y-su-separacion/CLASE.md) | Emisiones de primer plano galácticas y su separación | Leyes espectrales y combinación lineal interna. | Ficha de los primeros planos |
+| <a id="b40-c11"></a>[B40-C11](../clases/B40/B40-C11-efecto-sunyaev-zeldovich-termico-y-cinematico/CLASE.md) | Efecto Sunyaev-Zeldovich térmico y cinemático | Función espectral, nulo en 217 GHz e y. | Ficha del efecto Sunyaev-Zeldovich |
 
 ### Tramo 3 · Mapas e instrumentos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b40-c12"></a>B40-C12 | Análisis de mapas del CMB: pixelización esférica y máscaras | Pixelización equiárea, ida y vuelta y fracción de cielo. | Ficha de pixelización y máscaras |
-| <a id="b40-c13"></a>B40-C13 | Ruido, haz y covarianza instrumental en mapas del fondo | Ventana del haz, ruido blanco y covarianza. | Ficha del ruido y el haz |
-| <a id="b40-c14"></a>B40-C14 | Productos de datos de Planck y misiones del CMB | Cabeceras FITS, conversión de unidades y verosimilitud. | Ficha de los productos de datos |
-| <a id="b40-c15"></a>B40-C15 | Varianza cósmica y límites de las mediciones del fondo | Varianza cósmica 2/(2ℓ+1) y precisión de amplitud. | Ficha de la varianza cósmica |
+| <a id="b40-c12"></a>[B40-C12](../clases/B40/B40-C12-analisis-de-mapas-del-cmb-pixelizacion-esferica-y-mascaras/CLASE.md) | Análisis de mapas del CMB: pixelización esférica y máscaras | Pixelización equiárea, ida y vuelta y fracción de cielo. | Ficha de pixelización y máscaras |
+| <a id="b40-c13"></a>[B40-C13](../clases/B40/B40-C13-ruido-haz-y-covarianza-instrumental-en-mapas-del-fondo/CLASE.md) | Ruido, haz y covarianza instrumental en mapas del fondo | Ventana del haz, ruido blanco y covarianza. | Ficha del ruido y el haz |
+| <a id="b40-c14"></a>[B40-C14](../clases/B40/B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md) | Productos de datos de Planck y misiones del CMB | Cabeceras FITS, conversión de unidades y verosimilitud. | Ficha de los productos de datos |
+| <a id="b40-c15"></a>[B40-C15](../clases/B40/B40-C15-varianza-cosmica-y-limites-de-las-mediciones-del-fondo/CLASE.md) | Varianza cósmica y límites de las mediciones del fondo | Varianza cósmica 2/(2ℓ+1) y precisión de amplitud. | Ficha de la varianza cósmica |
 
 ## 🧵 Hilos que atraviesan el bloque
 

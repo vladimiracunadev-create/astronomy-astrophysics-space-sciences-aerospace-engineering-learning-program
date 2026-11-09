@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 654 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 664 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -868,16 +868,16 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B40-C03 — Desacoplamiento de neutrinos y fondo cósmico de neutrinos.** *Texto redactado, pendiente de revisión.* B31-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano.
 - **B40-C04 — Problemas del horizonte y de la planitud.** *Texto redactado, pendiente de revisión.* Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B26-C13.
 - **B40-C05 — Perturbaciones primordiales y espectro escalar.** *Texto redactado, pendiente de revisión.* Falta cómo las fluctuaciones cuánticas generan el espectro de perturbaciones que siembra el CMB y las estructuras.
-- **B40-C06 — Campos escalares en cosmología: potenciales y evolución.** *Programada.* Ninguna clase trata campos escalares como contenido del universo (inflatón, quintaesencia) ni sus ecuaciones de movimiento.
-- **B40-C07 — Espectro angular de potencias del CMB.** *Programada.* B26-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos.
-- **B40-C08 — Polarización E y B del fondo cósmico.** *Programada.* B42-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico.
-- **B40-C09 — Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado.** *Programada.* Ninguna clase trata el corrimiento gravitacional de los fotones del fondo por potenciales cosmológicos.
-- **B40-C10 — Emisiones de primer plano galácticas y su separación.** *Programada.* Falta identificar y separar sincrotrón, polvo y otras emisiones galácticas que contaminan las mediciones del CMB.
-- **B40-C11 — Efecto Sunyaev-Zeldovich térmico y cinemático.** *Programada.* B25-C13 describe cúmulos de galaxias, pero no la distorsión del fondo por electrones calientes del medio intracúmulo.
-- **B40-C12 — Análisis de mapas del CMB: pixelización esférica y máscaras.** *Programada.* B15-C09 trata imágenes planas; faltan mapas en la esfera, armónicos y manejo de máscaras.
-- **B40-C13 — Ruido, haz y covarianza instrumental en mapas del fondo.** *Programada.* B12-C18 trata matrices de covarianza en general; falta modelar ruido, haz y filtrado en un instrumento de CMB.
-- **B40-C14 — Productos de datos de Planck y misiones del CMB.** *Programada.* Ninguna clase enseña a usar mapas, máscaras y verosimilitudes publicados por las misiones del fondo cósmico.
-- **B40-C15 — Varianza cósmica y límites de las mediciones del fondo.** *Programada.* Falta explicar qué limita la precisión del CMB (varianza cósmica, sistemáticos) y cómo se cuantifica.
+- **B40-C06 — Campos escalares en cosmología: potenciales y evolución.** *Texto redactado, pendiente de revisión.* Ninguna clase trata campos escalares como contenido del universo (inflatón, quintaesencia) ni sus ecuaciones de movimiento.
+- **B40-C07 — Espectro angular de potencias del CMB.** *Texto redactado, pendiente de revisión.* B26-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos.
+- **B40-C08 — Polarización E y B del fondo cósmico.** *Texto redactado, pendiente de revisión.* B42-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico.
+- **B40-C09 — Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el corrimiento gravitacional de los fotones del fondo por potenciales cosmológicos.
+- **B40-C10 — Emisiones de primer plano galácticas y su separación.** *Texto redactado, pendiente de revisión.* Falta identificar y separar sincrotrón, polvo y otras emisiones galácticas que contaminan las mediciones del CMB.
+- **B40-C11 — Efecto Sunyaev-Zeldovich térmico y cinemático.** *Texto redactado, pendiente de revisión.* B25-C13 describe cúmulos de galaxias, pero no la distorsión del fondo por electrones calientes del medio intracúmulo.
+- **B40-C12 — Análisis de mapas del CMB: pixelización esférica y máscaras.** *Texto redactado, pendiente de revisión.* B15-C09 trata imágenes planas; faltan mapas en la esfera, armónicos y manejo de máscaras.
+- **B40-C13 — Ruido, haz y covarianza instrumental en mapas del fondo.** *Texto redactado, pendiente de revisión.* B12-C18 trata matrices de covarianza en general; falta modelar ruido, haz y filtrado en un instrumento de CMB.
+- **B40-C14 — Productos de datos de Planck y misiones del CMB.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña a usar mapas, máscaras y verosimilitudes publicados por las misiones del fondo cósmico.
+- **B40-C15 — Varianza cósmica y límites de las mediciones del fondo.** *Texto redactado, pendiente de revisión.* Falta explicar qué limita la precisión del CMB (varianza cósmica, sistemáticos) y cómo se cuantifica.
 
 ## A04 — Óptica, telescopios y observatorios científicos
 

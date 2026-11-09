@@ -1,7 +1,7 @@
 # B40-C05 — Perturbaciones primordiales y espectro escalar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [← Anterior: B40-C04 — Problemas del horizonte y de la planitud](../B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md) · [Siguiente: B40-C06 — Campos escalares en cosmología: potenciales y evolución →](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md#b40-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [← Anterior: B40-C04 — Problemas del horizonte y de la planitud](../B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md) · [Siguiente: B40-C06 — Campos escalares en cosmología: potenciales y evolución →](../B40-C06-campos-escalares-en-cosmologia-potenciales-y-evolucion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ El modelo cuadrático da `n_s = 0,967` y `r = 0,132`: `n_s` coincide con Planck 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B40-C04 — Problemas del horizonte y de la planitud](../B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [Siguiente: B40-C06 — Campos escalares en cosmología: potenciales y evolución →](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md#b40-c06)
+[← Anterior: B40-C04 — Problemas del horizonte y de la planitud](../B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md) · [📚 Bloque B40](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md) · [Siguiente: B40-C06 — Campos escalares en cosmología: potenciales y evolución →](../B40-C06-campos-escalares-en-cosmologia-potenciales-y-evolucion/CLASE.md)
 <!-- /nav -->
