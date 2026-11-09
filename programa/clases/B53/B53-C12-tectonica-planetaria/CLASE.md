@@ -1,7 +1,7 @@
 # B53-C12 — Tectónica planetaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C11 — Vulcanismo extraterrestre](../B53-C11-vulcanismo-extraterrestre/CLASE.md) · [Siguiente: B53-C13 — Geomorfología de hielos →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C11 — Vulcanismo extraterrestre](../B53-C11-vulcanismo-extraterrestre/CLASE.md) · [Siguiente: B53-C13 — Geomorfología de hielos →](../B53-C13-geomorfologia-de-hielos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ La solución numérica reproduce la analítica (`4,4 × 10⁻⁴` de `w₀`) y l
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C11 — Vulcanismo extraterrestre](../B53-C11-vulcanismo-extraterrestre/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C13 — Geomorfología de hielos →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c13)
+[← Anterior: B53-C11 — Vulcanismo extraterrestre](../B53-C11-vulcanismo-extraterrestre/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C13 — Geomorfología de hielos →](../B53-C13-geomorfologia-de-hielos/CLASE.md)
 <!-- /nav -->

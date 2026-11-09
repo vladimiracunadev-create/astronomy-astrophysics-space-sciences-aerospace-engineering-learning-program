@@ -72,16 +72,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | B53-C22 | Meteorización espacial: micrometeoritos, viento solar y maduración del regolito | Enrojecimiento por maduración y mezcla por micrometeoritos. | Ficha de maduración del regolito |
 | <a id="b53-c11"></a>[B53-C11](../clases/B53/B53-C11-vulcanismo-extraterrestre/CLASE.md) | Vulcanismo extraterrestre | Perfil de velocidad de una lámina de lava, gravedad y espesor máximo. | Ficha del flujo de lava y la gravedad |
 | <a id="b53-c12"></a>[B53-C12](../clases/B53/B53-C12-tectonica-planetaria/CLASE.md) | Tectónica planetaria | Flexión de una placa elástica y contracción global. | Ficha de la flexión de la litosfera y la contracción |
-| B53-C16 | Superficies de asteroides | Gravedad efectiva con rotación, período límite y velocidad de escape. | Ficha de la gravedad en un asteroide |
+| <a id="b53-c16"></a>[B53-C16](../clases/B53/B53-C16-superficies-de-asteroides/CLASE.md) | Superficies de asteroides | Gravedad efectiva con rotación, período límite y velocidad de escape. | Ficha de la gravedad en un asteroide |
 
 ### Tramo 4 · Hielos y mundos oceánicos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| B53-C13 | Geomorfología de hielos | Presión de vapor del hielo, sublimación y trampas frías. | Ficha de la estabilidad del hielo superficial |
+| <a id="b53-c13"></a>[B53-C13](../clases/B53/B53-C13-geomorfologia-de-hielos/CLASE.md) | Geomorfología de hielos | Presión de vapor del hielo, sublimación y trampas frías. | Ficha de la estabilidad del hielo superficial |
 | B53-C23 | Mecánica de hielo: reología, fracturas y deformación | Ley de Glen, dependencia con la temperatura y profundidad de grietas. | Ficha de la reología del hielo |
-| B53-C14 | Geología de Europa | Espesor de la capa de hielo por flujo de calor y número de Rayleigh. | Ficha del espesor de la capa de hielo |
-| B53-C15 | Geología de Encélado | Velocidad de escape, fracción de granos que escapa y alturas balísticas. | Ficha de la dinámica de un penacho |
+| <a id="b53-c14"></a>[B53-C14](../clases/B53/B53-C14-geologia-de-europa/CLASE.md) | Geología de Europa | Espesor de la capa de hielo por flujo de calor y número de Rayleigh. | Ficha del espesor de la capa de hielo |
+| <a id="b53-c15"></a>[B53-C15](../clases/B53/B53-C15-geologia-de-encelado/CLASE.md) | Geología de Encélado | Velocidad de escape, fracción de granos que escapa y alturas balísticas. | Ficha de la dinámica de un penacho |
 | B53-C27 | Detección remota de océanos subsuperficiales: inducción magnética, libración y radar | Profundidad de penetración magnética y libración de la capa de hielo. | Ficha de la evidencia de un océano |
 | B53-C24 | Sondeo radar de penetración de hielo | Retraso, resolución y compresión de pulso en hielo. | Ficha del sondeo de hielo |
 
