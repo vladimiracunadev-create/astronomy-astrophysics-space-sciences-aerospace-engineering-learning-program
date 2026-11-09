@@ -1,7 +1,7 @@
 # B28-C04 — Rayos cósmicos de alta energía
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C03 — Neutrinos astrofísicos](../B28-C03-neutrinos-astrofisicos/CLASE.md) · [Siguiente: B28-C05 — Ondas gravitacionales →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C03 — Neutrinos astrofísicos](../B28-C03-neutrinos-astrofisicos/CLASE.md) · [Siguiente: B28-C05 — Ondas gravitacionales →](../B28-C05-ondas-gravitacionales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ El criterio de Hillas acota la energía por `Z B R`, un espectro con rodilla se 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B28-C03 — Neutrinos astrofísicos](../B28-C03-neutrinos-astrofisicos/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C05 — Ondas gravitacionales →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c05)
+[← Anterior: B28-C03 — Neutrinos astrofísicos](../B28-C03-neutrinos-astrofisicos/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C05 — Ondas gravitacionales →](../B28-C05-ondas-gravitacionales/CLASE.md)
 <!-- /nav -->

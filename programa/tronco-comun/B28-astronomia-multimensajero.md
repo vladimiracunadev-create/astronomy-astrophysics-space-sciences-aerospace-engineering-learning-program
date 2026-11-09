@@ -56,10 +56,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b28-c05"></a>B28-C05 | Ondas gravitacionales | Amplitud, energía transportada y desplazamiento de una onda de una binaria. | Ficha de una onda gravitacional |
-| <a id="b28-c06"></a>B28-C06 | Interferómetros gravitacionales | Respuesta de un interferómetro y límite del ruido de disparo. | Ficha de sensibilidad de un interferómetro |
-| <a id="b28-c07"></a>B28-C07 | Fuentes compactas binarias | Frecuencia de última órbita, distancia de horizonte y número de eventos. | Ficha de fuentes y alcance de detección |
-| <a id="b28-c08"></a>B28-C08 | Señales transitorias | Ajuste de curvas de luz y probabilidad de detección según la cadencia. | Ficha de un transitorio y su cadencia |
+| <a id="b28-c05"></a>[B28-C05](../clases/B28/B28-C05-ondas-gravitacionales/CLASE.md) | Ondas gravitacionales | Amplitud, energía transportada y desplazamiento de una onda de una binaria. | Ficha de una onda gravitacional |
+| <a id="b28-c06"></a>[B28-C06](../clases/B28/B28-C06-interferometros-gravitacionales/CLASE.md) | Interferómetros gravitacionales | Respuesta de un interferómetro y límite del ruido de disparo. | Ficha de sensibilidad de un interferómetro |
+| <a id="b28-c07"></a>[B28-C07](../clases/B28/B28-C07-fuentes-compactas-binarias/CLASE.md) | Fuentes compactas binarias | Frecuencia de última órbita, distancia de horizonte y número de eventos. | Ficha de fuentes y alcance de detección |
+| <a id="b28-c08"></a>[B28-C08](../clases/B28/B28-C08-senales-transitorias/CLASE.md) | Señales transitorias | Ajuste de curvas de luz y probabilidad de detección según la cadencia. | Ficha de un transitorio y su cadencia |
 
 ### Tramo 3 · Alertas, localización y coincidencias
 
