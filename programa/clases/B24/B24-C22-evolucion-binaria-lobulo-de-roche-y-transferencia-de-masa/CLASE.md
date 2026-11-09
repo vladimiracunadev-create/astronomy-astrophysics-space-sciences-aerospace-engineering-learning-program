@@ -1,7 +1,7 @@
 # B24-C22 — Evolución binaria: lóbulo de Roche y transferencia de masa
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s](../B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md) · [Siguiente: B25-C01 — Estructura de la Vía Láctea →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s](../B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md) · [Siguiente: B25-C01 — Estructura de la Vía Láctea →](../../B25/B25-C01-estructura-de-la-via-lactea/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ El lóbulo de Roche se obtiene de la equipotencial que pasa por L1 y aproxima `R
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s](../B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B25-C01 — Estructura de la Vía Láctea →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c01)
+[← Anterior: B24-C21 — Rama asintótica de gigantes: pulsos térmicos y proceso s](../B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B25-C01 — Estructura de la Vía Láctea →](../../B25/B25-C01-estructura-de-la-via-lactea/CLASE.md)
 <!-- /nav -->
