@@ -77,8 +77,8 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b52-c17"></a>[B52-C17](../clases/B52/B52-C17-colisiones-y-evolucion-termica/CLASE.md) | Colisiones y evolución térmica | Calentamiento por impacto y enfriamiento por conducción de una esfera. | Ficha del enfriamiento de un cuerpo |
 | <a id="b52-c18"></a>[B52-C18](../clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md) | Diferenciación planetaria | Calentamiento por decaimiento radiactivo y energía gravitatoria de la diferenciación. | Ficha del calor y la energía de diferenciación |
-| <a id="b52-c19"></a>B52-C19 | Estabilidad a largo plazo de sistemas | Integración simpléctica, conservación y sensibilidad a las condiciones iniciales. | Ficha de la estabilidad de un sistema |
-| <a id="b52-c20"></a>B52-C20 | Simulación de formación planetaria simplificada | Fusión de embriones con comprobaciones de masa, momento angular y energía. | Ficha de la simulación de formación |
+| <a id="b52-c19"></a>[B52-C19](../clases/B52/B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md) | Estabilidad a largo plazo de sistemas | Integración simpléctica, conservación y sensibilidad a las condiciones iniciales. | Ficha de la estabilidad de un sistema |
+| <a id="b52-c20"></a>[B52-C20](../clases/B52/B52-C20-simulacion-de-formacion-planetaria-simplificada/CLASE.md) | Simulación de formación planetaria simplificada | Fusión de embriones con comprobaciones de masa, momento angular y energía. | Ficha de la simulación de formación |
 
 ## 🧵 Hilos que atraviesan el bloque
 

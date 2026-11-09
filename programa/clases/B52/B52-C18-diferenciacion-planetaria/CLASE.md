@@ -1,7 +1,7 @@
 # B52-C18 — Diferenciación planetaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C17 — Colisiones y evolución térmica](../B52-C17-colisiones-y-evolucion-termica/CLASE.md) · [Siguiente: B52-C19 — Estabilidad a largo plazo de sistemas →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C17 — Colisiones y evolución térmica](../B52-C17-colisiones-y-evolucion-termica/CLASE.md) · [Siguiente: B52-C19 — Estabilidad a largo plazo de sistemas →](../B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ La diferenciación libera `1.8e+31 J` en el modelo y el calor radiactivo ilustra
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B52-C17 — Colisiones y evolución térmica](../B52-C17-colisiones-y-evolucion-termica/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C19 — Estabilidad a largo plazo de sistemas →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c19)
+[← Anterior: B52-C17 — Colisiones y evolución térmica](../B52-C17-colisiones-y-evolucion-termica/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C19 — Estabilidad a largo plazo de sistemas →](../B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md)
 <!-- /nav -->

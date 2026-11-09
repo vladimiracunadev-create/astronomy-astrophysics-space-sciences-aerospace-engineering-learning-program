@@ -2847,9 +2847,15 @@ feebbaaebe21c920553d559cce8d00422a34ced1c2c86581a2f1b7929c17220a  programa/clase
 99173bbe13674c1b10532230be48ae86ea8661db13e3d88a1428364a91aecc40  programa/clases/B52/B52-C17-colisiones-y-evolucion-termica/CLASE.md
 fe88e50a77de9ccaf6603b6d02fded4924768be4163b4f2bf14738b241fd5ab8  programa/clases/B52/B52-C17-colisiones-y-evolucion-termica/FICHA_EDITORIAL.md
 7242487eaccbcf70f8bcfb6de571a0cb0bd66e36d2d22a82e92a89546c4a3e53  programa/clases/B52/B52-C17-colisiones-y-evolucion-termica/enfriamiento.py
-3851497cca75256fccbca24bcb6e6d08c60771d11dccec35163018a2d79c3481  programa/clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md
+7dced0672ed9731212ff7764d82ce6c0a24fd6475e466e05b677a0a495bcc3de  programa/clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md
 68242b345780e1f1f8e1bfd4cc2cde27a3de943c4565d34b1f607957db4495d3  programa/clases/B52/B52-C18-diferenciacion-planetaria/FICHA_EDITORIAL.md
 cb1cbdfb74aea742288570e9db2dffef9a16d59001b0465cc83623b81752f916  programa/clases/B52/B52-C18-diferenciacion-planetaria/diferenciacion.py
+9a76e5f8594fe07de9c6a42815f81233791cf47128eba373121e72a5bbdba6cc  programa/clases/B52/B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md
+604cf57f56f81d74bd68557572592cf521b1008ed2896a0f2b6d4f6b33428ba7  programa/clases/B52/B52-C19-estabilidad-a-largo-plazo-de-sistemas/FICHA_EDITORIAL.md
+1b5eb0f8c8cabbd1080ed93f67c6bbdff8b7c67b0e13d12e178ee68955b189a5  programa/clases/B52/B52-C19-estabilidad-a-largo-plazo-de-sistemas/estabilidad.py
+2071fd543f627f7314e202b58871251da5443a1788cd19966e59b15b419574cf  programa/clases/B52/B52-C20-simulacion-de-formacion-planetaria-simplificada/CLASE.md
+2802ce2dbc7752e589dc9104f5836c3de7366c02ad2e00ce91ed9e7a0491888d  programa/clases/B52/B52-C20-simulacion-de-formacion-planetaria-simplificada/FICHA_EDITORIAL.md
+24e41dae454079c5a97d541d2a039eb4b269f0725d38d951a1916c4f772e1f1b  programa/clases/B52/B52-C20-simulacion-de-formacion-planetaria-simplificada/formacion.py
 fd0dea4dd8e08f41d55a6db3507e9a625d06537b8c7aff756a082f7b7205b10a  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
 12e2c051acdf5e8f590edb3a729dfc92bf337b009c1e7ced6970d01b0213da2b  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M01-atmosferas-estelares.md
 bc6e94859241614d46812bacdd1fc82af6786e2851993e60fab120164e4c2639  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/R01-M02-modelos-de-interiores-estelares.md
@@ -3060,7 +3066,7 @@ c9f32b1b7cc169c449a69ad0d5d3faf587f536ff1f4834942eaf43af2252f4bd  programa/rutas
 04a3f13291e4295a31a2f24c8e7c837a7154ce6e4b3b00d2efd3949adaa0ec0f  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M06-ciencia-ciudadana-astronomica.md
 48d7fd3e842554d6471314183d20dea744ad6098ccc895e7cbe9778310f33528  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M07-accesibilidad-e-inclusion-educativa.md
 281501383e1cd58305391f380d94adbcde76cbc63ece437a06f8d37f808e47a3  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M08-investigacion-y-divulgacion-cientifica.md
-685ce73abcc4521a20119a7fa34b65c185b9facbd46c233f5ccadc4d49dfc004  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/RECORRIDO.md
+55ab3b0e2119394ee0efb77711f5172b1d9eff49c53aa85c41cdb987c35c061a  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/RECORRIDO.md
 21e0d33342c034d652298cde0f5882e99795ce8c7d17c083da02c37c03121a00  programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md
 5a2f391eff03b26c44eba9a53b0b75504dff09fc707fee39d94951be6e8765c9  programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md
 f79f3848b1f02c9bd059017d68ce9fc82cda0417e1e2b9997442b3a4b8b5bb30  programa/tronco-comun/B03-matematica-elemental-para-ciencias-espaciales.md
@@ -3146,7 +3152,7 @@ cacdcd3fd9169006a65de4228f2f48e6d2dfcc5f409ec8877c5050139c41c0fe  programa/tronc
 17d06f96aceef7337687adc7938c71faae605d6196edf77c23ab59ca5904175e  programa/tronco-comun/B49-antenas-y-receptores-de-radioastronomia.md
 57d7c9f6b2cd37835e6f3594d38877fad24ac808af812f50f3cdcf99891071c2  programa/tronco-comun/B50-diseno-optico-computacional-y-tolerancias.md
 e0bcc8659d58102c97d0ea8426be8907fbe4820fa62d77d2dd85be20c2382f86  programa/tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md
-e115ffe1d8dc4485dfa4a0fb013d365b37a2c82fcac9fe94b4f2d7049c79190f  programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md
+056f8c87d1a5aa049addc5525c1dfecdff5e5f64ae6b7a4a72db05933ffc5ac2  programa/tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md
 44e5f900c9eb321cea506f6a6c7911091148f84ae40c8232086e834a6b103bb5  programa/tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md
 9b51a1d98e66df6313c7fecf53ae794ac52cfe656d2211b04b68f5ef668f0de0  programa/tronco-comun/B54-atmosferas-y-climatologia-planetaria.md
 371350c4177aae0784fa3623303b340034f40c8ef2504d17afabcd56876143ea  programa/tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md
