@@ -1,7 +1,7 @@
 # B25-C15 — Materia oscura en galaxias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C14 — Lentes gravitacionales galácticas](../B25-C14-lentes-gravitacionales-galacticas/CLASE.md) · [Siguiente: B25-C16 — Retroalimentación estelar →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C14 — Lentes gravitacionales galácticas](../B25-C14-lentes-gravitacionales-galacticas/CLASE.md) · [Siguiente: B25-C16 — Retroalimentación estelar →](../B25-C16-retroalimentacion-estelar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Un halo NFW de `1,3 × 10¹² M☉` y `c = 16` mide `r₂₀₀ = 231 kpc`, da `
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B25-C14 — Lentes gravitacionales galácticas](../B25-C14-lentes-gravitacionales-galacticas/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C16 — Retroalimentación estelar →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c16)
+[← Anterior: B25-C14 — Lentes gravitacionales galácticas](../B25-C14-lentes-gravitacionales-galacticas/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C16 — Retroalimentación estelar →](../B25-C16-retroalimentacion-estelar/CLASE.md)
 <!-- /nav -->
