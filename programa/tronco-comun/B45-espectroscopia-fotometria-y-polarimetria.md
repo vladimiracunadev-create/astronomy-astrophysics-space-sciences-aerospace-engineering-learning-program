@@ -46,55 +46,55 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b45-c01"></a>B45-C01 | Radiometría y fotometría | Magnitudes radiométricas y fotométricas: de la radiancia al flujo y a los fotones. | Ficha radiométrica |
-| <a id="b45-c02"></a>B45-C02 | Magnitudes y sistemas de filtros | Magnitud de Pogson, color, sistema Vega y AB, y fotometría sintética. | Ficha de magnitudes |
-| <a id="b45-c03"></a>B45-C03 | Curvas de transmisión | Producto de curvas, longitud de onda efectiva, ancho equivalente y fugas. | Ficha de la curva de transmisión |
+| <a id="b45-c01"></a>[B45-C01](../clases/B45/B45-C01-radiometria-y-fotometria/CLASE.md) | Radiometría y fotometría | Magnitudes radiométricas y fotométricas: de la radiancia al flujo y a los fotones. | Ficha radiométrica |
+| <a id="b45-c02"></a>[B45-C02](../clases/B45/B45-C02-magnitudes-y-sistemas-de-filtros/CLASE.md) | Magnitudes y sistemas de filtros | Magnitud de Pogson, color, sistema Vega y AB, y fotometría sintética. | Ficha de magnitudes |
+| <a id="b45-c03"></a>[B45-C03](../clases/B45/B45-C03-curvas-de-transmision/CLASE.md) | Curvas de transmisión | Producto de curvas, longitud de onda efectiva, ancho equivalente y fugas. | Ficha de la curva de transmisión |
 
 ### Tramo 2 · Dispersión e instrumentos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b45-c04"></a>B45-C04 | Redes de difracción | Ecuación de la red, dispersión, poder de resolución R = mN y criterio de Rayleigh. | Ficha de la red de difracción |
-| <a id="b45-c05"></a>B45-C05 | Prismas y dispersión | Índice de Sellmeier, desviación mínima y dispersión angular del prisma. | Ficha del prisma |
-| <a id="b45-c06"></a>B45-C06 | Diseño de espectrógrafos | Cadena rendija–colimador–red–cámara y muestreo en el detector. | Ficha del espectrógrafo |
-| <a id="b45-c07"></a>B45-C07 | Resolución espectral | Perfil instrumental, R, muestreo y separación de un doblete. | Ficha de resolución espectral |
-| <a id="b45-c08"></a>B45-C08 | Calibración en longitud de onda | Ajuste polinómico de líneas de lámpara, residuos y validación cruzada. | Ficha de calibración en longitud de onda |
-| <a id="b45-c09"></a>B45-C09 | Calibración de respuesta instrumental | Respuesta de un estándar, planos y corrección de blaze. | Ficha de respuesta instrumental |
+| <a id="b45-c04"></a>[B45-C04](../clases/B45/B45-C04-redes-de-difraccion/CLASE.md) | Redes de difracción | Ecuación de la red, dispersión, poder de resolución R = mN y criterio de Rayleigh. | Ficha de la red de difracción |
+| <a id="b45-c05"></a>[B45-C05](../clases/B45/B45-C05-prismas-y-dispersion/CLASE.md) | Prismas y dispersión | Índice de Sellmeier, desviación mínima y dispersión angular del prisma. | Ficha del prisma |
+| <a id="b45-c06"></a>[B45-C06](../clases/B45/B45-C06-diseno-de-espectrografos/CLASE.md) | Diseño de espectrógrafos | Cadena rendija–colimador–red–cámara y muestreo en el detector. | Ficha del espectrógrafo |
+| <a id="b45-c07"></a>[B45-C07](../clases/B45/B45-C07-resolucion-espectral/CLASE.md) | Resolución espectral | Perfil instrumental, R, muestreo y separación de un doblete. | Ficha de resolución espectral |
+| <a id="b45-c08"></a>[B45-C08](../clases/B45/B45-C08-calibracion-en-longitud-de-onda/CLASE.md) | Calibración en longitud de onda | Ajuste polinómico de líneas de lámpara, residuos y validación cruzada. | Ficha de calibración en longitud de onda |
+| <a id="b45-c09"></a>[B45-C09](../clases/B45/B45-C09-calibracion-de-respuesta-instrumental/CLASE.md) | Calibración de respuesta instrumental | Respuesta de un estándar, planos y corrección de blaze. | Ficha de respuesta instrumental |
 
 ### Tramo 3 · Líneas y física del espectro
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b45-c10"></a>B45-C10 | Líneas de emisión | Serie de Balmer con la constante de Rydberg, masa reducida y centroide de línea. | Ficha de líneas de emisión |
-| <a id="b45-c11"></a>B45-C11 | Líneas de absorción | Profundidad óptica, ancho equivalente y curva de crecimiento. | Ficha de líneas de absorción |
-| <a id="b45-c12"></a>B45-C12 | Efecto Doppler en espectros | Doppler clásico y relativista, correlación cruzada y corrección baricéntrica. | Ficha de velocidad radial |
-| <a id="b45-c13"></a>B45-C13 | Temperatura y espectro de cuerpo negro | Planck, desplazamiento de Wien y ajuste de temperatura a flujos con ruido. | Ficha de temperatura de cuerpo negro |
-| <a id="b45-c14"></a>B45-C14 | Composición química por espectros | Boltzmann y Saha, población de n = 2 y abundancia con líneas débiles. | Ficha de excitación e ionización |
+| <a id="b45-c10"></a>[B45-C10](../clases/B45/B45-C10-lineas-de-emision/CLASE.md) | Líneas de emisión | Serie de Balmer con la constante de Rydberg, masa reducida y centroide de línea. | Ficha de líneas de emisión |
+| <a id="b45-c11"></a>[B45-C11](../clases/B45/B45-C11-lineas-de-absorcion/CLASE.md) | Líneas de absorción | Profundidad óptica, ancho equivalente y curva de crecimiento. | Ficha de líneas de absorción |
+| <a id="b45-c12"></a>[B45-C12](../clases/B45/B45-C12-efecto-doppler-en-espectros/CLASE.md) | Efecto Doppler en espectros | Doppler clásico y relativista, correlación cruzada y corrección baricéntrica. | Ficha de velocidad radial |
+| <a id="b45-c13"></a>[B45-C13](../clases/B45/B45-C13-temperatura-y-espectro-de-cuerpo-negro/CLASE.md) | Temperatura y espectro de cuerpo negro | Planck, desplazamiento de Wien y ajuste de temperatura a flujos con ruido. | Ficha de temperatura de cuerpo negro |
+| <a id="b45-c14"></a>[B45-C14](../clases/B45/B45-C14-composicion-quimica-por-espectros/CLASE.md) | Composición química por espectros | Boltzmann y Saha, población de n = 2 y abundancia con líneas débiles. | Ficha de excitación e ionización |
 
 ### Tramo 4 · Polarimetría
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b45-c15"></a>B45-C15 | Polarización lineal y circular | Vectores de Stokes, matrices de Mueller, ley de Malus y láminas de onda. | Ficha de polarización |
-| <a id="b45-c16"></a>B45-C16 | Polarímetros astronómicos | Placa de media onda rotante, demodulación y sesgo de la polarización. | Ficha del polarímetro |
+| <a id="b45-c15"></a>[B45-C15](../clases/B45/B45-C15-polarizacion-lineal-y-circular/CLASE.md) | Polarización lineal y circular | Vectores de Stokes, matrices de Mueller, ley de Malus y láminas de onda. | Ficha de polarización |
+| <a id="b45-c16"></a>[B45-C16](../clases/B45/B45-C16-polarimetros-astronomicos/CLASE.md) | Polarímetros astronómicos | Placa de media onda rotante, demodulación y sesgo de la polarización. | Ficha del polarímetro |
 
 ### Tramo 5 · Reducción y campaña
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b45-c17"></a>B45-C17 | Fotometría diferencial | Curva de luz diferencial, estrellas de comparación y profundidad de tránsito. | Ficha de fotometría diferencial |
-| <a id="b45-c18"></a>B45-C18 | Extracción de espectros | Suma simple frente a extracción óptima y varianza. | Ficha de extracción |
-| <a id="b45-c19"></a>B45-C19 | Reducción e incertidumbre instrumental | Ecuación del CCD, sesgo, oscuro, plano y curva de transferencia de fotones. | Ficha de reducción e incertidumbre |
-| <a id="b45-c20"></a>B45-C20 | Campaña fotométrica o espectroscópica | Tiempo de exposición, masa de aire, ventana de observación y presupuesto de S/N. | Plan de campaña |
+| <a id="b45-c17"></a>[B45-C17](../clases/B45/B45-C17-fotometria-diferencial/CLASE.md) | Fotometría diferencial | Curva de luz diferencial, estrellas de comparación y profundidad de tránsito. | Ficha de fotometría diferencial |
+| <a id="b45-c18"></a>[B45-C18](../clases/B45/B45-C18-extraccion-de-espectros/CLASE.md) | Extracción de espectros | Suma simple frente a extracción óptima y varianza. | Ficha de extracción |
+| <a id="b45-c19"></a>[B45-C19](../clases/B45/B45-C19-reduccion-e-incertidumbre-instrumental/CLASE.md) | Reducción e incertidumbre instrumental | Ecuación del CCD, sesgo, oscuro, plano y curva de transferencia de fotones. | Ficha de reducción e incertidumbre |
+| <a id="b45-c20"></a>[B45-C20](../clases/B45/B45-C20-campana-fotometrica-o-espectroscopica/CLASE.md) | Campaña fotométrica o espectroscópica | Tiempo de exposición, masa de aire, ventana de observación y presupuesto de S/N. | Plan de campaña |
 
 ### Tramo 6 · Calibración fotométrica avanzada
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b45-c21"></a>B45-C21 | Estándares fotométricos y sistemas de referencia | Ajuste de punto cero y término de color con estándares sintéticos. | Ficha de transformación al sistema estándar |
-| <a id="b45-c22"></a>B45-C22 | Extinción atmosférica, masa de aire y coeficientes de color | Ley de Bouguer, gráfico de Langley y fórmulas de masa de aire. | Ficha de extinción atmosférica |
-| <a id="b45-c23"></a>B45-C23 | Fotometría de apertura y estimación del cielo | Fracción encerrada, relación S/N frente a radio y cielo en anillo. | Ficha de fotometría de apertura |
-| <a id="b45-c24"></a>B45-C24 | Fotometría por ajuste de PSF | Ajuste lineal de flujos con PSF gaussiana, mezcla y covarianza. | Ficha de fotometría PSF |
+| <a id="b45-c21"></a>[B45-C21](../clases/B45/B45-C21-estandares-fotometricos-y-sistemas-de-referencia/CLASE.md) | Estándares fotométricos y sistemas de referencia | Ajuste de punto cero y término de color con estándares sintéticos. | Ficha de transformación al sistema estándar |
+| <a id="b45-c22"></a>[B45-C22](../clases/B45/B45-C22-extincion-atmosferica-masa-de-aire-y-coeficientes-de-color/CLASE.md) | Extinción atmosférica, masa de aire y coeficientes de color | Ley de Bouguer, gráfico de Langley y fórmulas de masa de aire. | Ficha de extinción atmosférica |
+| <a id="b45-c23"></a>[B45-C23](../clases/B45/B45-C23-fotometria-de-apertura-y-estimacion-del-cielo/CLASE.md) | Fotometría de apertura y estimación del cielo | Fracción encerrada, relación S/N frente a radio y cielo en anillo. | Ficha de fotometría de apertura |
+| <a id="b45-c24"></a>[B45-C24](../clases/B45/B45-C24-fotometria-por-ajuste-de-psf/CLASE.md) | Fotometría por ajuste de PSF | Ajuste lineal de flujos con PSF gaussiana, mezcla y covarianza. | Ficha de fotometría PSF |
 
 ## 🧵 Hilos que atraviesan el bloque
 

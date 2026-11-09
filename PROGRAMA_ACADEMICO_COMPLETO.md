@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 759 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 783 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -1013,10 +1013,10 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 - **B45-C18 — Extracción de espectros.** Describe «extracción de espectros», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B45-C19 — Reducción e incertidumbre instrumental.** Describe los componentes principales de «reducción e incertidumbre instrumental» y por qué son relevantes para esta disciplina.
 - **B45-C20 — Campaña fotométrica o espectroscópica.** Describe «campaña fotométrica o espectroscópica», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-- **B45-C21 — Estándares fotométricos y sistemas de referencia.** *Programada.* B45-C02 presenta sistemas de filtros; falta usar estrellas estándar y sistemas de referencia para calibrar la escala.
-- **B45-C22 — Extinción atmosférica, masa de aire y coeficientes de color.** *Programada.* Ninguna clase corrige la absorción de la atmósfera en la fotometría terrestre.
-- **B45-C23 — Fotometría de apertura y estimación del cielo.** *Programada.* B45-C17 trata fotometría diferencial; falta elegir apertura, estimar cielo y razonar el error.
-- **B45-C24 — Fotometría por ajuste de PSF.** *Programada.* B42-C06 define la PSF; falta ajustarla para medir flujos en campos poblados.
+- **B45-C21 — Estándares fotométricos y sistemas de referencia.** *Texto redactado, pendiente de revisión.* B45-C02 presenta sistemas de filtros; falta usar estrellas estándar y sistemas de referencia para calibrar la escala.
+- **B45-C22 — Extinción atmosférica, masa de aire y coeficientes de color.** *Texto redactado, pendiente de revisión.* Ninguna clase corrige la absorción de la atmósfera en la fotometría terrestre.
+- **B45-C23 — Fotometría de apertura y estimación del cielo.** *Texto redactado, pendiente de revisión.* B45-C17 trata fotometría diferencial; falta elegir apertura, estimar cielo y razonar el error.
+- **B45-C24 — Fotometría por ajuste de PSF.** *Texto redactado, pendiente de revisión.* B42-C06 define la PSF; falta ajustarla para medir flujos en campos poblados.
 
 ### B46 — Radioastronomía e interferometría
 

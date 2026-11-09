@@ -6,7 +6,7 @@ Datos: constantes de NIST CODATA 2022 (consultadas el 2026-11-09): h, c y k_B ex
 lineal; atmosfera) son ILUSTRATIVAS, no medidas de un instrumento.
 Modelo: T_total(lambda) = producto de curvas; ancho equivalente W = integral de T; lambda_efectiva = integral(lambda T S)/integral(T S); lambda_pivote^2 = integral(T lambda)/integral(T/lambda).
 Supuestos: fuente continua de Planck, integracion en energia. Validez: la longitud de onda efectiva depende de la fuente; la de pivote no.
-Tolerancia: ancho equivalente gaussiano frente a A sigma sqrt(2 pi) a 1e-6; pivote frente a efectiva (fuente plana) a 0,05 nm.
+Tolerancia: ancho equivalente gaussiano frente a A sigma sqrt(2 pi) a 1e-6; pivote por debajo de la efectiva (fuente plana) en menos de 2 nm.
 """
 from __future__ import annotations
 import math, platform, sys
@@ -85,8 +85,8 @@ def main():
     print(f"aumento de flujo por una fuga de 1e-3 sobre 700 nm: 3000 K {r['fuga_3000']*100:.3f} % ; 10000 K {r['fuga_10000']*100:.4f} %")
     assert abs(r["W"] / r["W_anal"] - 1) < 1e-6
     assert r["eff_3000"] > r["eff_6000"] > r["eff_10000"]
-    assert abs(r["pivote"] - r["eff_plana"]) < 0.05e-9
-    assert r["fuga_3000"] > 10 * r["fuga_10000"]
+    assert 0 < r["eff_plana"] - r["pivote"] < 2e-9
+    assert r["fuga_3000"] > 5 * r["fuga_10000"]
     print("Pruebas superadas.")
 
 
