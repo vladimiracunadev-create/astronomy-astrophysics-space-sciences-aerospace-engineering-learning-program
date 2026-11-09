@@ -1,6 +1,7 @@
 # B46-C14 — Líneas de base interferométricas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C13 — Polarimetría de radio](../B46-C13-polarimetria-de-radio/CLASE.md) · [Siguiente: B46-C15 — Correladores y visibilidades →](../B46-C15-correladores-y-visibilidades/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ La línea de 300 m traza una elipse de 1429 y 489 λ y un retardo de hasta -940 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C13 — Polarimetría de radio](../B46-C13-polarimetria-de-radio/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C15 — Correladores y visibilidades →](../B46-C15-correladores-y-visibilidades/CLASE.md)
 <!-- /nav -->

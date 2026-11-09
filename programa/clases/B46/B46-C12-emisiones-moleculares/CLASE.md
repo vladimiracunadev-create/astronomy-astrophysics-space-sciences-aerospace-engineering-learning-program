@@ -1,6 +1,7 @@
 # B46-C12 — Emisiones moleculares
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C11 — Observación de hidrógeno a 21 centímetros](../B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md) · [Siguiente: B46-C13 — Polarimetría de radio →](../B46-C13-polarimetria-de-radio/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,4 +307,5 @@ La línea 1→0 está en 115,3 GHz y a 30 K el nivel más poblado es J = 2. Qued
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C11 — Observación de hidrógeno a 21 centímetros](../B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C13 — Polarimetría de radio →](../B46-C13-polarimetria-de-radio/CLASE.md)
 <!-- /nav -->

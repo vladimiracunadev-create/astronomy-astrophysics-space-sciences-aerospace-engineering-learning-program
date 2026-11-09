@@ -1,6 +1,7 @@
 # B46-C07 — Receptores superheterodinos
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C06 — Ruido de sistema y radiometría](../B46-C06-ruido-de-sistema-y-radiometria/CLASE.md) · [Siguiente: B46-C08 — Osciladores y estabilidad →](../B46-C08-osciladores-y-estabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,4 +300,5 @@ Señal e imagen aparecen con amplitud 0,50 en la FI; el rechazo de 5 % y 3 grado
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C06 — Ruido de sistema y radiometría](../B46-C06-ruido-de-sistema-y-radiometria/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C08 — Osciladores y estabilidad →](../B46-C08-osciladores-y-estabilidad/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B46-C11 — Observación de hidrógeno a 21 centímetros
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C10 — Radioastronomía mediante SDR](../B46-C10-radioastronomia-mediante-sdr/CLASE.md) · [Siguiente: B46-C12 — Emisiones moleculares →](../B46-C12-emisiones-moleculares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ La velocidad terminal en 30° es 110 km/s y el coeficiente de columna es 1,813 �
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C10 — Radioastronomía mediante SDR](../B46-C10-radioastronomia-mediante-sdr/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C12 — Emisiones moleculares →](../B46-C12-emisiones-moleculares/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B46-C13 — Polarimetría de radio
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C12 — Emisiones moleculares](../B46-C12-emisiones-moleculares/CLASE.md) · [Siguiente: B46-C14 — Líneas de base interferométricas →](../B46-C14-lineas-de-base-interferometricas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,4 +306,5 @@ Ambas vías recuperan RM = 60 rad/m² con error menor que 1 y el coeficiente es 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C12 — Emisiones moleculares](../B46-C12-emisiones-moleculares/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C14 — Líneas de base interferométricas →](../B46-C14-lineas-de-base-interferometricas/CLASE.md)
 <!-- /nav -->

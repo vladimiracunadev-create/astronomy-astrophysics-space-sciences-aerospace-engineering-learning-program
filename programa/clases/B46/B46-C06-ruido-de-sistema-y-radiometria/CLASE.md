@@ -1,6 +1,7 @@
 # B46-C06 — Ruido de sistema y radiometría
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C05 — Ganancia y temperatura de antena](../B46-C05-ganancia-y-temperatura-de-antena/CLASE.md) · [Siguiente: B46-C07 — Receptores superheterodinos →](../B46-C07-receptores-superheterodinos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,4 +302,5 @@ La cadena ilustrativa tiene 52,4 K de sistema y 16,6 mK de sensibilidad en 10 s.
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C05 — Ganancia y temperatura de antena](../B46-C05-ganancia-y-temperatura-de-antena/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C07 — Receptores superheterodinos →](../B46-C07-receptores-superheterodinos/CLASE.md)
 <!-- /nav -->

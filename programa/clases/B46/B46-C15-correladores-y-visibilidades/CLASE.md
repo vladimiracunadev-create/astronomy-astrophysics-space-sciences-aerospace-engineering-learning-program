@@ -1,6 +1,7 @@
 # B46-C15 — Correladores y visibilidades
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C14 — Líneas de base interferométricas](../B46-C14-lineas-de-base-interferometricas/CLASE.md) · [Siguiente: B46-C16 — Síntesis de apertura →](../B46-C16-sintesis-de-apertura/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,4 +293,5 @@ Con 16 000 muestras la visibilidad tiene un error de 0,027 por parte y FX y XF c
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C14 — Líneas de base interferométricas](../B46-C14-lineas-de-base-interferometricas/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C16 — Síntesis de apertura →](../B46-C16-sintesis-de-apertura/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B46-C10 — Radioastronomía mediante SDR
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C09 — Conversión analógica digital](../B46-C09-conversion-analogica-digital/CLASE.md) · [Siguiente: B46-C11 — Observación de hidrógeno a 21 centímetros →](../B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,4 +294,5 @@ Con 64 espectros la dispersión baja a 0,128. Queda una pregunta: ¿qué línea 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C09 — Conversión analógica digital](../B46-C09-conversion-analogica-digital/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C11 — Observación de hidrógeno a 21 centímetros →](../B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md)
 <!-- /nav -->

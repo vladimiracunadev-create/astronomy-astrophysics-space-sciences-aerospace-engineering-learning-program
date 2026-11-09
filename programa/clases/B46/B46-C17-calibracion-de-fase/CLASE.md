@@ -1,6 +1,7 @@
 # B46-C17 — Calibración de fase
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C16 — Síntesis de apertura](../B46-C16-sintesis-de-apertura/CLASE.md) · [Siguiente: B46-C18 — VLBI y geodesia →](../B46-C18-vlbi-y-geodesia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,4 +314,5 @@ El cierre es invariante (1,7 × 10^-16 rad) y el residuo de la referencia de fas
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C16 — Síntesis de apertura](../B46-C16-sintesis-de-apertura/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C18 — VLBI y geodesia →](../B46-C18-vlbi-y-geodesia/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B46-C20 — Proyecto de observación radioastronómica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C19 — Imágenes de radio y CLEAN](../B46-C19-imagenes-de-radio-y-clean/CLASE.md) · [Siguiente: B47-C01 — Ventajas de observación fuera de atmósfera →](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md#b47-c01)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,4 +302,5 @@ El objetivo exige 207 s ON+OFF y 345 s de reloj, y el Monte Carlo confirma una S
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C19 — Imágenes de radio y CLEAN](../B46-C19-imagenes-de-radio-y-clean/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B47-C01 — Ventajas de observación fuera de atmósfera →](../../../tronco-comun/B47-instrumentacion-y-observatorios-espaciales.md#b47-c01)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B46-C18 — VLBI y geodesia
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C17 — Calibración de fase](../B46-C17-calibracion-de-fase/CLASE.md) · [Siguiente: B46-C19 — Imágenes de radio y CLEAN →](../B46-C19-imagenes-de-radio-y-clean/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,4 +296,5 @@ Con S/N = 10 el retardo tiene 26 ps de precisión, equivalente a 15 mm de línea
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C17 — Calibración de fase](../B46-C17-calibracion-de-fase/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C19 — Imágenes de radio y CLEAN →](../B46-C19-imagenes-de-radio-y-clean/CLASE.md)
 <!-- /nav -->

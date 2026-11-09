@@ -1,6 +1,7 @@
 # B46-C03 — Antenas parabólicas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C02 — Propagación de ondas de radio](../B46-C02-propagacion-de-ondas-de-radio/CLASE.md) · [Siguiente: B46-C04 — Diagramas de radiación →](../B46-C04-diagramas-de-radiacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,4 +295,5 @@ La antena de 25 m a 1,4 GHz tiene un haz de 30,3 arcmin y una ganancia de 49,1 d
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C02 — Propagación de ondas de radio](../B46-C02-propagacion-de-ondas-de-radio/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C04 — Diagramas de radiación →](../B46-C04-diagramas-de-radiacion/CLASE.md)
 <!-- /nav -->

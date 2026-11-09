@@ -1,6 +1,7 @@
 # B46-C16 — Síntesis de apertura
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C15 — Correladores y visibilidades](../B46-C15-correladores-y-visibilidades/CLASE.md) · [Siguiente: B46-C17 — Calibración de fase →](../B46-C17-calibracion-de-fase/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,4 +294,5 @@ La rotación multiplica la cobertura por 60 y el haz sucio tiene 73 × 111 arcse
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C15 — Correladores y visibilidades](../B46-C15-correladores-y-visibilidades/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C17 — Calibración de fase →](../B46-C17-calibracion-de-fase/CLASE.md)
 <!-- /nav -->

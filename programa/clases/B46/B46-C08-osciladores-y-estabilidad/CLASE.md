@@ -1,6 +1,7 @@
 # B46-C08 — Osciladores y estabilidad
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C07 — Receptores superheterodinos](../B46-C07-receptores-superheterodinos/CLASE.md) · [Siguiente: B46-C09 — Conversión analógica digital →](../B46-C09-conversion-analogica-digital/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,4 +313,5 @@ Las dos vías coinciden y las pendientes son -0,50 y 0,46. Queda una pregunta: �
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C07 — Receptores superheterodinos](../B46-C07-receptores-superheterodinos/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C09 — Conversión analógica digital →](../B46-C09-conversion-analogica-digital/CLASE.md)
 <!-- /nav -->

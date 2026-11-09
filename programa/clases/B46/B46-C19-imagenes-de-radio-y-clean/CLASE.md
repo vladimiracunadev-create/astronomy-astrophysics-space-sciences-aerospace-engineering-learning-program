@@ -1,6 +1,7 @@
 # B46-C19 — Imágenes de radio y CLEAN
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C18 — VLBI y geodesia](../B46-C18-vlbi-y-geodesia/CLASE.md) · [Siguiente: B46-C20 — Proyecto de observación radioastronómica →](../B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,4 +300,5 @@ CLEAN recupera 1,0, 0,5 y 0,3 Jy con errores de -0,6 %, -1,2 % y -1,7 %. Queda u
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C18 — VLBI y geodesia](../B46-C18-vlbi-y-geodesia/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C20 — Proyecto de observación radioastronómica →](../B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md)
 <!-- /nav -->

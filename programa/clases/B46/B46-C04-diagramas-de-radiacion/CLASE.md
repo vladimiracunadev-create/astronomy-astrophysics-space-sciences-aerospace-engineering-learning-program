@@ -1,6 +1,7 @@
 # B46-C04 — Diagramas de radiación
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C03 — Antenas parabólicas](../B46-C03-antenas-parabolicas/CLASE.md) · [Siguiente: B46-C05 — Ganancia y temperatura de antena →](../B46-C05-ganancia-y-temperatura-de-antena/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,4 +290,5 @@ Pasar a coseno² baja el lóbulo a -31,5 dB y ensancha el haz a 1,44 λ/D. Queda
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C03 — Antenas parabólicas](../B46-C03-antenas-parabolicas/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C05 — Ganancia y temperatura de antena →](../B46-C05-ganancia-y-temperatura-de-antena/CLASE.md)
 <!-- /nav -->

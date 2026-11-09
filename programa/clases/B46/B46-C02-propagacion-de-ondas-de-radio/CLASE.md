@@ -1,6 +1,7 @@
 # B46-C02 — Propagación de ondas de radio
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C01 — Espectro radioastronómico](../B46-C01-espectro-radioastronomico/CLASE.md) · [Siguiente: B46-C03 — Antenas parabólicas →](../B46-C03-antenas-parabolicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ La dispersión de 414,9 ms a 1 GHz con `DM = 100` se verifica por dos vías. Que
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C01 — Espectro radioastronómico](../B46-C01-espectro-radioastronomico/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C03 — Antenas parabólicas →](../B46-C03-antenas-parabolicas/CLASE.md)
 <!-- /nav -->

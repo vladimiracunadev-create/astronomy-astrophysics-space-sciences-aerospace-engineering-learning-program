@@ -1,6 +1,7 @@
 # B46-C09 — Conversión analógica digital
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C08 — Osciladores y estabilidad](../B46-C08-osciladores-y-estabilidad/CLASE.md) · [Siguiente: B46-C10 — Radioastronomía mediante SDR →](../B46-C10-radioastronomia-mediante-sdr/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,4 +309,5 @@ Cada bit añade 6,02 dB y el bit único tiene una eficiencia de 0,63. Queda una 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C08 — Osciladores y estabilidad](../B46-C08-osciladores-y-estabilidad/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C10 — Radioastronomía mediante SDR →](../B46-C10-radioastronomia-mediante-sdr/CLASE.md)
 <!-- /nav -->

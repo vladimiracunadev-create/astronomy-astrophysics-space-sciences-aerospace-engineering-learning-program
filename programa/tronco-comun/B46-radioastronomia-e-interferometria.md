@@ -43,36 +43,36 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b46-c01"></a>B46-C01 | Espectro radioastronómico | Planck, Rayleigh–Jeans y temperatura de brillo. | Ficha del espectro radioastronómico |
-| <a id="b46-c02"></a>B46-C02 | Propagación de ondas de radio | Frecuencia de plasma y retardo por dispersión. | Ficha de la propagación de radio |
-| <a id="b46-c03"></a>B46-C03 | Antenas parabólicas | Geometría, directividad y haz de Airy. | Ficha de la antena parabólica |
-| <a id="b46-c04"></a>B46-C04 | Diagramas de radiación | Iluminación, lóbulos laterales y ancho del haz. | Ficha del diagrama de radiación |
-| <a id="b46-c05"></a>B46-C05 | Ganancia y temperatura de antena | Área efectiva, K/Jy y dilución del haz. | Ficha de la ganancia y la temperatura de antena |
-| <a id="b46-c06"></a>B46-C06 | Ruido de sistema y radiometría | Ecuación del radiómetro y cascada de Friis. | Ficha del ruido y el radiómetro |
-| <a id="b46-c07"></a>B46-C07 | Receptores superheterodinos | Mezcla, frecuencia imagen y rechazo de imagen. | Ficha del receptor superheterodino |
-| <a id="b46-c08"></a>B46-C08 | Osciladores y estabilidad | Varianza de Allan por dos vías. | Ficha de la estabilidad del oscilador |
-| <a id="b46-c09"></a>B46-C09 | Conversión analógica digital | Cuantización y corrección de Van Vleck. | Ficha de la digitalización |
-| <a id="b46-c10"></a>B46-C10 | Radioastronomía mediante SDR | Espectro promediado y ancho de banda de ruido. | Ficha del espectrómetro SDR |
+| <a id="b46-c01"></a>[B46-C01](../clases/B46/B46-C01-espectro-radioastronomico/CLASE.md) | Espectro radioastronómico | Planck, Rayleigh–Jeans y temperatura de brillo. | Ficha del espectro radioastronómico |
+| <a id="b46-c02"></a>[B46-C02](../clases/B46/B46-C02-propagacion-de-ondas-de-radio/CLASE.md) | Propagación de ondas de radio | Frecuencia de plasma y retardo por dispersión. | Ficha de la propagación de radio |
+| <a id="b46-c03"></a>[B46-C03](../clases/B46/B46-C03-antenas-parabolicas/CLASE.md) | Antenas parabólicas | Geometría, directividad y haz de Airy. | Ficha de la antena parabólica |
+| <a id="b46-c04"></a>[B46-C04](../clases/B46/B46-C04-diagramas-de-radiacion/CLASE.md) | Diagramas de radiación | Iluminación, lóbulos laterales y ancho del haz. | Ficha del diagrama de radiación |
+| <a id="b46-c05"></a>[B46-C05](../clases/B46/B46-C05-ganancia-y-temperatura-de-antena/CLASE.md) | Ganancia y temperatura de antena | Área efectiva, K/Jy y dilución del haz. | Ficha de la ganancia y la temperatura de antena |
+| <a id="b46-c06"></a>[B46-C06](../clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md) | Ruido de sistema y radiometría | Ecuación del radiómetro y cascada de Friis. | Ficha del ruido y el radiómetro |
+| <a id="b46-c07"></a>[B46-C07](../clases/B46/B46-C07-receptores-superheterodinos/CLASE.md) | Receptores superheterodinos | Mezcla, frecuencia imagen y rechazo de imagen. | Ficha del receptor superheterodino |
+| <a id="b46-c08"></a>[B46-C08](../clases/B46/B46-C08-osciladores-y-estabilidad/CLASE.md) | Osciladores y estabilidad | Varianza de Allan por dos vías. | Ficha de la estabilidad del oscilador |
+| <a id="b46-c09"></a>[B46-C09](../clases/B46/B46-C09-conversion-analogica-digital/CLASE.md) | Conversión analógica digital | Cuantización y corrección de Van Vleck. | Ficha de la digitalización |
+| <a id="b46-c10"></a>[B46-C10](../clases/B46/B46-C10-radioastronomia-mediante-sdr/CLASE.md) | Radioastronomía mediante SDR | Espectro promediado y ancho de banda de ruido. | Ficha del espectrómetro SDR |
 
 ### Tramo 2 · Espectroscopía y polarización
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b46-c11"></a>B46-C11 | Observación de hidrógeno a 21 centímetros | Velocidad terminal y densidad de columna. | Ficha de la observación de HI |
-| <a id="b46-c12"></a>B46-C12 | Emisiones moleculares | Escalera rotacional y poblaciones en ETL. | Ficha de las emisiones moleculares |
-| <a id="b46-c13"></a>B46-C13 | Polarimetría de radio | Parámetros de Stokes y síntesis de RM. | Ficha de la polarimetría |
+| <a id="b46-c11"></a>[B46-C11](../clases/B46/B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md) | Observación de hidrógeno a 21 centímetros | Velocidad terminal y densidad de columna. | Ficha de la observación de HI |
+| <a id="b46-c12"></a>[B46-C12](../clases/B46/B46-C12-emisiones-moleculares/CLASE.md) | Emisiones moleculares | Escalera rotacional y poblaciones en ETL. | Ficha de las emisiones moleculares |
+| <a id="b46-c13"></a>[B46-C13](../clases/B46/B46-C13-polarimetria-de-radio/CLASE.md) | Polarimetría de radio | Parámetros de Stokes y síntesis de RM. | Ficha de la polarimetría |
 
 ### Tramo 3 · Interferometría y proyecto
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b46-c14"></a>B46-C14 | Líneas de base interferométricas | Coordenadas (u, v, w) y retardo geométrico. | Ficha de la línea de base |
-| <a id="b46-c15"></a>B46-C15 | Correladores y visibilidades | Correlación cruzada y equivalencia FX–XF. | Ficha del correlador |
-| <a id="b46-c16"></a>B46-C16 | Síntesis de apertura | Cobertura uv y haz sucio. | Ficha de la síntesis de apertura |
-| <a id="b46-c17"></a>B46-C17 | Calibración de fase | Cierre de fase y solución de ganancias. | Ficha de la calibración de fase |
-| <a id="b46-c18"></a>B46-C18 | VLBI y geodesia | Retardo, precisión y longitud de línea de base. | Ficha del retardo VLBI |
-| <a id="b46-c19"></a>B46-C19 | Imágenes de radio y CLEAN | Imagen sucia y deconvolución de Högbom. | Ficha de la imagen CLEAN |
-| <a id="b46-c20"></a>B46-C20 | Proyecto de observación radioastronómica | Presupuesto de sensibilidad y tiempo. | Ficha del proyecto de observación |
+| <a id="b46-c14"></a>[B46-C14](../clases/B46/B46-C14-lineas-de-base-interferometricas/CLASE.md) | Líneas de base interferométricas | Coordenadas (u, v, w) y retardo geométrico. | Ficha de la línea de base |
+| <a id="b46-c15"></a>[B46-C15](../clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md) | Correladores y visibilidades | Correlación cruzada y equivalencia FX–XF. | Ficha del correlador |
+| <a id="b46-c16"></a>[B46-C16](../clases/B46/B46-C16-sintesis-de-apertura/CLASE.md) | Síntesis de apertura | Cobertura uv y haz sucio. | Ficha de la síntesis de apertura |
+| <a id="b46-c17"></a>[B46-C17](../clases/B46/B46-C17-calibracion-de-fase/CLASE.md) | Calibración de fase | Cierre de fase y solución de ganancias. | Ficha de la calibración de fase |
+| <a id="b46-c18"></a>[B46-C18](../clases/B46/B46-C18-vlbi-y-geodesia/CLASE.md) | VLBI y geodesia | Retardo, precisión y longitud de línea de base. | Ficha del retardo VLBI |
+| <a id="b46-c19"></a>[B46-C19](../clases/B46/B46-C19-imagenes-de-radio-y-clean/CLASE.md) | Imágenes de radio y CLEAN | Imagen sucia y deconvolución de Högbom. | Ficha de la imagen CLEAN |
+| <a id="b46-c20"></a>[B46-C20](../clases/B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md) | Proyecto de observación radioastronómica | Presupuesto de sensibilidad y tiempo. | Ficha del proyecto de observación |
 
 ## 🧵 Hilos que atraviesan el bloque
 

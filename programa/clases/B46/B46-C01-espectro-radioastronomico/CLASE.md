@@ -1,6 +1,7 @@
 # B46-C01 — Espectro radioastronómico
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B45-C24 — Fotometría por ajuste de PSF](../../B45/B45-C24-fotometria-por-ajuste-de-psf/CLASE.md) · [Siguiente: B46-C02 — Propagación de ondas de radio →](../B46-C02-propagacion-de-ondas-de-radio/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,4 +303,5 @@ A 1,4 GHz el error de RJ es de 0,34 % y a 100 GHz de 28,3 %. Queda una pregunta:
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B45-C24 — Fotometría por ajuste de PSF](../../B45/B45-C24-fotometria-por-ajuste-de-psf/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C02 — Propagación de ondas de radio →](../B46-C02-propagacion-de-ondas-de-radio/CLASE.md)
 <!-- /nav -->

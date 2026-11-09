@@ -1,7 +1,7 @@
 # B45-C24 — Fotometría por ajuste de PSF
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B45](../../../tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) · [← Anterior: B45-C23 — Fotometría de apertura y estimación del cielo](../B45-C23-fotometria-de-apertura-y-estimacion-del-cielo/CLASE.md) · [Siguiente: B46-C01 — Espectro radioastronómico →](../../../tronco-comun/B46-radioastronomia-e-interferometria.md#b46-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B45](../../../tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) · [← Anterior: B45-C23 — Fotometría de apertura y estimación del cielo](../B45-C23-fotometria-de-apertura-y-estimacion-del-cielo/CLASE.md) · [Siguiente: B46-C01 — Espectro radioastronómico →](../../B46/B46-C01-espectro-radioastronomico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ El ajuste de PSF recupera F₁ y F₂ sin sesgo (error 94 y 84 e⁻) mientras la
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B45-C23 — Fotometría de apertura y estimación del cielo](../B45-C23-fotometria-de-apertura-y-estimacion-del-cielo/CLASE.md) · [📚 Bloque B45](../../../tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) · [Siguiente: B46-C01 — Espectro radioastronómico →](../../../tronco-comun/B46-radioastronomia-e-interferometria.md#b46-c01)
+[← Anterior: B45-C23 — Fotometría de apertura y estimación del cielo](../B45-C23-fotometria-de-apertura-y-estimacion-del-cielo/CLASE.md) · [📚 Bloque B45](../../../tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md) · [Siguiente: B46-C01 — Espectro radioastronómico →](../../B46/B46-C01-espectro-radioastronomico/CLASE.md)
 <!-- /nav -->

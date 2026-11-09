@@ -1,6 +1,7 @@
 # B46-C05 — Ganancia y temperatura de antena
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [← Anterior: B46-C04 — Diagramas de radiación](../B46-C04-diagramas-de-radiacion/CLASE.md) · [Siguiente: B46-C06 — Ruido de sistema y radiometría →](../B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,4 +295,5 @@ El plato da 0,1067 K/Jy y la fuente de 15 arcmin produce 9,84 K de antena. Queda
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B46-C04 — Diagramas de radiación](../B46-C04-diagramas-de-radiacion/CLASE.md) · [📚 Bloque B46](../../../tronco-comun/B46-radioastronomia-e-interferometria.md) · [Siguiente: B46-C06 — Ruido de sistema y radiometría →](../B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
 <!-- /nav -->
