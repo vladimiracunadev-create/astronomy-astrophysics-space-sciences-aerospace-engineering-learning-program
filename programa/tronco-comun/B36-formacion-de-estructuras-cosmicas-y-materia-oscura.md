@@ -52,10 +52,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b36-c05"></a>B36-C05 | Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica | Condiciones de Zel'dovich y fuerza en caja periódica. | Ficha de la simulación de N cuerpos |
-| <a id="b36-c06"></a>B36-C06 | Formación de halos y función de masa | Colapso esférico, δc y función de masa. | Ficha de halos y función de masa |
-| <a id="b36-c07"></a>B36-C07 | Oscilaciones acústicas bariónicas como regla estándar | Horizonte sonoro y regla estándar. | Ficha de las oscilaciones acústicas |
-| <a id="b36-c08"></a>B36-C08 | Sesgo de galaxias y trazadores de la materia | Sesgo lineal por umbral y por separación pico-fondo. | Ficha del sesgo |
+| <a id="b36-c05"></a>[B36-C05](../clases/B36/B36-C05-simulaciones-cosmologicas-de-n-cuerpos-condiciones-iniciales-y-caja-periodica/CLASE.md) | Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica | Condiciones de Zel'dovich y fuerza en caja periódica. | Ficha de la simulación de N cuerpos |
+| <a id="b36-c06"></a>[B36-C06](../clases/B36/B36-C06-formacion-de-halos-y-funcion-de-masa/CLASE.md) | Formación de halos y función de masa | Colapso esférico, δc y función de masa. | Ficha de halos y función de masa |
+| <a id="b36-c07"></a>[B36-C07](../clases/B36/B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md) | Oscilaciones acústicas bariónicas como regla estándar | Horizonte sonoro y regla estándar. | Ficha de las oscilaciones acústicas |
+| <a id="b36-c08"></a>[B36-C08](../clases/B36/B36-C08-sesgo-de-galaxias-y-trazadores-de-la-materia/CLASE.md) | Sesgo de galaxias y trazadores de la materia | Sesgo lineal por umbral y por separación pico-fondo. | Ficha del sesgo |
 
 ### Tramo 3 · Materia oscura y alternativas
 

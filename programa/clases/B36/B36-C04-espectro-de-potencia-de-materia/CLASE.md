@@ -1,7 +1,7 @@
 # B36-C04 — Espectro de potencia de materia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [← Anterior: B36-C03 — Funciones de correlación de galaxias](../B36-C03-funciones-de-correlacion-de-galaxias/CLASE.md) · [Siguiente: B36-C05 — Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica →](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [← Anterior: B36-C03 — Funciones de correlación de galaxias](../B36-C03-funciones-de-correlacion-de-galaxias/CLASE.md) · [Siguiente: B36-C05 — Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica →](../B36-C05-simulaciones-cosmologicas-de-n-cuerpos-condiciones-iniciales-y-caja-periodica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ El estimador recupera el espectro dentro de la varianza cósmica (`χ² = 19,3` 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B36-C03 — Funciones de correlación de galaxias](../B36-C03-funciones-de-correlacion-de-galaxias/CLASE.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [Siguiente: B36-C05 — Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica →](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md#b36-c05)
+[← Anterior: B36-C03 — Funciones de correlación de galaxias](../B36-C03-funciones-de-correlacion-de-galaxias/CLASE.md) · [📚 Bloque B36](../../../tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md) · [Siguiente: B36-C05 — Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica →](../B36-C05-simulaciones-cosmologicas-de-n-cuerpos-condiciones-iniciales-y-caja-periodica/CLASE.md)
 <!-- /nav -->
