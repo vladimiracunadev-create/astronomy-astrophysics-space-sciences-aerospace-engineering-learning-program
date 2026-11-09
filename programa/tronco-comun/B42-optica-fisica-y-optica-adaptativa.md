@@ -1,97 +1,105 @@
 # B42 — Óptica física y óptica adaptativa
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 4 clases programadas (`B42-C21` a `B42-C24`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 4 clases programadas por la ampliación (`B42-C21` a `B42-C24`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 4 de la ampliación · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia óptica física y óptica adaptativa; cubre desde «Ecuaciones de onda electromagnética» hasta «Laboratorio de corrección óptica simulada». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo la luz forma imágenes y cómo la atmósfera las degrada y se corrige**: las ecuaciones de onda, el principio de Huygens-Fresnel, la coherencia, la difracción de aperturas y el patrón de Airy, la PSF y la OTF, la polarización, la interferometría de dos haces y de varios telescopios, la turbulencia de Kolmogorov y el parámetro de Fried, la medición del frente de onda con sensores Shack-Hartmann, los espejos deformables, el lazo de control, las estrellas guía, la óptica adaptativa multiconjugada, la reconstrucción de imágenes, la calibración y las métricas de desempeño. Cada clase cierra con un laboratorio en Python (solo biblioteca estándar) contrastado con un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B42-C01 — Ecuaciones de onda electromagnética
+1. Calcular el patrón de difracción de rendijas y aperturas circulares y compararlo con el de Airy.
+2. Obtener la PSF y la OTF de una pupila y relacionarlas con el límite de difracción.
+3. Describir estados de polarización con vectores de Jones y parámetros de Stokes.
+4. Medir visibilidades de franjas y relacionarlas con la coherencia y la línea base.
+5. Simular pantallas de fase de Kolmogorov y estimar r0 y el seeing.
+6. Medir el frente de onda con un sensor Shack-Hartmann y reconstruirlo por métodos zonal y modal.
+7. Cerrar un lazo de óptica adaptativa simulado y evaluarlo con el cociente de Strehl y la energía encerrada.
 
-Ubica «ecuaciones de onda electromagnética» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
+## 🧭 Secuencia del bloque
 
-### B42-C02 — Principio de Huygens-Fresnel
+```mermaid
+flowchart LR
+    A["C01-C07<br/>Imagen"]
+    B["C08-C10<br/>Coherencia"]
+    C["C11-C20<br/>Óptica adaptativa"]
+    D["C21-C24<br/>Ampliación"]
+    A --> B --> C --> D
+```
 
-Delimita «principio de Huygens-Fresnel», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cuatro tramos encadenados: ondas, difracción y formación de imagen (C01–C07), polarización e interferometría (C08–C10), atmósfera y óptica adaptativa (C11–C20) y la ampliación con estrellas guía naturales, reconstructores, calibración y métricas (C21–C24).
 
-### B42-C03 — Interferencia y coherencia
+## 🗂️ Las 24 clases en resumen (20 de la malla base + 4 de la ampliación)
 
-Introduce el contexto y los principios de «interferencia y coherencia» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B42-C04 — Difracción de aperturas
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Describe los componentes principales de «difracción de aperturas» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Ondas, difracción y formación de imagen
 
-### B42-C05 — Patrones de Airy
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b42-c01"></a>B42-C01 | Ecuaciones de onda electromagnética | Ecuación de onda, relación de dispersión y flujo de Poynting. | Ficha de la onda electromagnética |
+| <a id="b42-c02"></a>B42-C02 | Principio de Huygens-Fresnel | Suma de ondas secundarias y límite de Fraunhofer. | Ficha de Huygens-Fresnel |
+| <a id="b42-c03"></a>B42-C03 | Interferencia y coherencia | Visibilidad de franjas y longitud de coherencia. | Ficha de interferencia y coherencia |
+| <a id="b42-c04"></a>B42-C04 | Difracción de aperturas | Difracción de rendijas y aperturas circulares por transformada de Fourier. | Ficha de la difracción de aperturas |
+| <a id="b42-c05"></a>B42-C05 | Patrones de Airy | Patrón de Airy, ceros de J1 y criterio de Rayleigh. | Ficha del patrón de Airy |
+| <a id="b42-c06"></a>B42-C06 | Función de dispersión puntual | PSF como potencia de la transformada de la pupila y sus muestras. | Ficha de la PSF |
+| <a id="b42-c07"></a>B42-C07 | Función de transferencia óptica | OTF, MTF y corte a D/λ. | Ficha de la OTF |
 
-Presenta qué significa «patrones de Airy», sus elementos esenciales y su función dentro de óptica física y óptica adaptativa.
+### Tramo 2 · Polarización e interferometría
 
-### B42-C06 — Función de dispersión puntual
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b42-c08"></a>B42-C08 | Polarización de la luz | Vectores de Jones, ley de Malus y parámetros de Stokes. | Ficha de polarización |
+| <a id="b42-c09"></a>B42-C09 | Interferometría de dos haces | Interferómetro de Michelson, franjas y fase. | Ficha del interferómetro de dos haces |
+| <a id="b42-c10"></a>B42-C10 | Interferometría de múltiples telescopios | Línea base, cobertura uv y síntesis de apertura. | Ficha de la interferometría multitelescopio |
 
-Explica el fenómeno o técnica de «función de dispersión puntual» y su aplicación observable o tecnológica.
+### Tramo 3 · Atmósfera y óptica adaptativa
 
-### B42-C07 — Función de transferencia óptica
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b42-c11"></a>B42-C11 | Turbulencia atmosférica | Espectro de Kolmogorov y pantallas de fase. | Ficha de la turbulencia |
+| <a id="b42-c12"></a>B42-C12 | Parámetro de Fried | r0, seeing y tiempo de coherencia. | Ficha del parámetro de Fried |
+| <a id="b42-c13"></a>B42-C13 | Medición de frente de onda | Medición de pendientes y fase por interferometría. | Ficha de la medición de frente de onda |
+| <a id="b42-c14"></a>B42-C14 | Sensores Shack-Hartmann | Centroides de microlentes y ruido de fotones. | Ficha del sensor Shack-Hartmann |
+| <a id="b42-c15"></a>B42-C15 | Espejos deformables | Funciones de influencia, carrera y error de ajuste. | Ficha del espejo deformable |
+| <a id="b42-c16"></a>B42-C16 | Lazo de control de óptica adaptativa | Integrador, retardo y ancho de banda de rechazo. | Ficha del lazo de control |
+| <a id="b42-c17"></a>B42-C17 | Estrellas guía artificiales | Dispersión Rayleigh, sodio y efecto cono. | Ficha de la estrella guía artificial |
+| <a id="b42-c18"></a>B42-C18 | Óptica adaptativa multiconjugada | Anisoplanatismo, capas y campo corregido. | Ficha de la MCAO |
+| <a id="b42-c19"></a>B42-C19 | Reconstrucción de imágenes | Deconvolución, Wiener y Richardson-Lucy. | Ficha de la reconstrucción de imágenes |
+| <a id="b42-c20"></a>B42-C20 | Laboratorio de corrección óptica simulada | Lazo cerrado simulado con pantalla de fase y Strehl. | Informe del laboratorio de corrección |
 
-Delimita «función de transferencia óptica», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Ampliación: estrellas guía, reconstrucción, calibración y métricas
 
-### B42-C08 — Polarización de la luz
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b42-c21"></a>B42-C21 | Estrellas guía naturales y cobertura de cielo | Presupuesto de fotones, magnitud límite y cobertura de cielo. | Ficha de estrellas guía naturales |
+| <a id="b42-c22"></a>B42-C22 | Reconstructores de frente de onda: zonal y modal | Reconstructor zonal y modal a partir de pendientes. | Ficha de reconstructores |
+| <a id="b42-c23"></a>B42-C23 | Calibración de la matriz de interacción y aberraciones no comunes | Matriz de interacción, modos de control y aberraciones no comunes. | Ficha de calibración |
+| <a id="b42-c24"></a>B42-C24 | Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada | Strehl, energía encerrada y relación con el error de fase. | Ficha de métricas de desempeño |
 
-Introduce el contexto y los principios de «polarización de la luz» para comprender su uso científico.
+## 🧵 Hilos que atraviesan el bloque
 
-### B42-C09 — Interferometría de dos haces
+- **De la onda a la imagen:** C01–C07 llevan la onda plana a la PSF y a la OTF de un telescopio ideal; C08–C10 añaden polarización y coherencia; C11–C20 agregan la atmósfera y su corrección.
+- **Dos vías independientes:** cada laboratorio contrasta con un caso analítico (Airy, Kolmogorov, Fraunhofer), una segunda forma de calcular o una simulación con semilla fija 20261109.
+- **Del frente de onda al error residual:** C13–C16 y C21–C23 miden, reconstruyen, controlan y calibran; C24 y C20 cuantifican el resultado con Strehl y energía encerrada.
+- **Observado frente a ilustrativo:** solo se citan con fecha las constantes de NIST y los resúmenes de arXiv realmente leídos; los instrumentos, las pantallas de fase y los parámetros de los lazos son ilustrativos o sintéticos y se rotulan.
 
-Describe los componentes principales de «interferometría de dos haces» y por qué son relevantes para esta disciplina.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B42-C10 — Interferometría de múltiples telescopios
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha del patrón de Airy (C05), ficha del parámetro de Fried (C12) y el informe del laboratorio de corrección (C20).
+- Las condiciones críticas (rotular lo sintético, no presentar un instrumento ilustrativo como medido y citar solo lo consultado) no se compensan con promedio.
 
-Presenta qué significa «interferometría de múltiples telescopios», sus elementos esenciales y su función dentro de óptica física y óptica adaptativa.
+## ⚠️ Seguridad y límites
 
-### B42-C11 — Turbulencia atmosférica
-
-Explica el fenómeno o técnica de «turbulencia atmosférica» y su aplicación observable o tecnológica.
-
-### B42-C12 — Parámetro de Fried
-
-Delimita «parámetro de Fried», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B42-C13 — Medición de frente de onda
-
-Describe «medición de frente de onda», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B42-C14 — Sensores Shack-Hartmann
-
-Describe los componentes principales de «sensores Shack-Hartmann» y por qué son relevantes para esta disciplina.
-
-### B42-C15 — Espejos deformables
-
-Presenta qué significa «espejos deformables», sus elementos esenciales y su función dentro de óptica física y óptica adaptativa.
-
-### B42-C16 — Lazo de control de óptica adaptativa
-
-Explica el fenómeno o técnica de «lazo de control de óptica adaptativa» y su aplicación observable o tecnológica.
-
-### B42-C17 — Estrellas guía artificiales
-
-Delimita «estrellas guía artificiales», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B42-C18 — Óptica adaptativa multiconjugada
-
-Introduce el contexto y los principios de «óptica adaptativa multiconjugada» para comprender su uso científico.
-
-### B42-C19 — Reconstrucción de imágenes
-
-Introduce «reconstrucción de imágenes» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-
-### B42-C20 — Laboratorio de corrección óptica simulada
-
-Presenta qué significa «laboratorio de corrección óptica simulada», sus elementos esenciales y su función dentro de óptica física y óptica adaptativa.
+El bloque es educativo. Los modelos son simplificados y no sustituyen a los códigos de simulación de óptica adaptativa ni a los datos de ningún observatorio; no se procesan datos reales. Las estrellas guía láser son un tema de seguridad real (control de tráfico aéreo, clasificación de láseres): la clase C17 solo trata su física y no es un procedimiento de operación. Las constantes se citan con su fuente y fecha de consulta y el resto de los números son ilustrativos y se rotulan como tales.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +108,6 @@ Presenta qué significa «laboratorio de corrección óptica simulada», sus ele
 - **[NASA-SMALLSAT]** [NASA State-of-the-Art of Small Spacecraft Technology, edición 2026](https://www.nasa.gov/smallsat-institute/sst-soa/) — Referencia panorámica sobre plataformas y subsistemas de satélites pequeños.
 - **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos e investigación histórica y actual.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B43 — Construcción y mecánica de telescopios](./B43-construccion-y-mecanica-de-telescopios.md)
