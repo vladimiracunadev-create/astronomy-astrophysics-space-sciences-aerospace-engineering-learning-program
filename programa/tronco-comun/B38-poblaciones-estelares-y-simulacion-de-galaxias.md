@@ -43,25 +43,25 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b38-c01"></a>B38-C01 | Funciones de luminosidad estelar | Función de luminosidad y estimador 1/Vmax. | Ficha de la función de luminosidad |
-| <a id="b38-c02"></a>B38-C02 | Función inicial de masa y su universalidad | Momentos de la IMF y dispersión de Poisson de la pendiente. | Ficha de la función inicial de masa |
-| <a id="b38-c03"></a>B38-C03 | Cinemática estelar con Gaia: movimientos propios y espacio de fase | De movimientos propios a velocidades y elipsoide de velocidades. | Ficha de la cinemática estelar |
-| <a id="b38-c04"></a>B38-C04 | Historia de formación estelar a partir de poblaciones resueltas | Inversión de conteos por edad con dos vías. | Ficha de la historia de formación estelar |
+| <a id="b38-c01"></a>[B38-C01](../clases/B38/B38-C01-funciones-de-luminosidad-estelar/CLASE.md) | Funciones de luminosidad estelar | Función de luminosidad y estimador 1/Vmax. | Ficha de la función de luminosidad |
+| <a id="b38-c02"></a>[B38-C02](../clases/B38/B38-C02-funcion-inicial-de-masa-y-su-universalidad/CLASE.md) | Función inicial de masa y su universalidad | Momentos de la IMF y dispersión de Poisson de la pendiente. | Ficha de la función inicial de masa |
+| <a id="b38-c03"></a>[B38-C03](../clases/B38/B38-C03-cinematica-estelar-con-gaia-movimientos-propios-y-espacio-de-fase/CLASE.md) | Cinemática estelar con Gaia: movimientos propios y espacio de fase | De movimientos propios a velocidades y elipsoide de velocidades. | Ficha de la cinemática estelar |
+| <a id="b38-c04"></a>[B38-C04](../clases/B38/B38-C04-historia-de-formacion-estelar-a-partir-de-poblaciones-resueltas/CLASE.md) | Historia de formación estelar a partir de poblaciones resueltas | Inversión de conteos por edad con dos vías. | Ficha de la historia de formación estelar |
 
 ### Tramo 2 · Simulación de galaxias
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b38-c05"></a>B38-C05 | Potenciales galácticos: Plummer, Miyamoto-Nagai y NFW | Velocidad circular, masa encerrada y órbitas. | Ficha de los potenciales galácticos |
-| <a id="b38-c06"></a>B38-C06 | Hidrodinámica en simulaciones: SPH y métodos de malla | Tubo de choque con SPH, malla y solución exacta. | Ficha de la hidrodinámica numérica |
-| <a id="b38-c07"></a>B38-C07 | Modelos submalla de formación estelar y retroalimentación | Ley de formación, carga de masa y equilibrio de una zona. | Ficha de los modelos submalla |
+| <a id="b38-c05"></a>[B38-C05](../clases/B38/B38-C05-potenciales-galacticos-plummer-miyamoto-nagai-y-nfw/CLASE.md) | Potenciales galácticos: Plummer, Miyamoto-Nagai y NFW | Velocidad circular, masa encerrada y órbitas. | Ficha de los potenciales galácticos |
+| <a id="b38-c06"></a>[B38-C06](../clases/B38/B38-C06-hidrodinamica-en-simulaciones-sph-y-metodos-de-malla/CLASE.md) | Hidrodinámica en simulaciones: SPH y métodos de malla | Tubo de choque con SPH, malla y solución exacta. | Ficha de la hidrodinámica numérica |
+| <a id="b38-c07"></a>[B38-C07](../clases/B38/B38-C07-modelos-submalla-de-formacion-estelar-y-retroalimentacion/CLASE.md) | Modelos submalla de formación estelar y retroalimentación | Ley de formación, carga de masa y equilibrio de una zona. | Ficha de los modelos submalla |
 
 ### Tramo 3 · Observación sintética y validación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b38-c08"></a>B38-C08 | Observaciones sintéticas de galaxias simuladas | Imagen, PSF, ruido y radio efectivo. | Ficha de la observación sintética |
-| <a id="b38-c09"></a>B38-C09 | Validación de galaxias simuladas frente a observaciones | Residuos en dex, chi cuadrado y prueba KS. | Ficha de la validación de galaxias simuladas |
+| <a id="b38-c08"></a>[B38-C08](../clases/B38/B38-C08-observaciones-sinteticas-de-galaxias-simuladas/CLASE.md) | Observaciones sintéticas de galaxias simuladas | Imagen, PSF, ruido y radio efectivo. | Ficha de la observación sintética |
+| <a id="b38-c09"></a>[B38-C09](../clases/B38/B38-C09-validacion-de-galaxias-simuladas-frente-a-observaciones/CLASE.md) | Validación de galaxias simuladas frente a observaciones | Residuos en dex, chi cuadrado y prueba KS. | Ficha de la validación de galaxias simuladas |
 
 ## 🧵 Hilos que atraviesan el bloque
 

@@ -1,7 +1,7 @@
 # B39-C01 — Variedades, tensor métrico y geometría diferencial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [← Anterior: B38-C09 — Validación de galaxias simuladas frente a observaciones](../../../tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md#b38-c09) · [Siguiente: B39-C02 — Conexión afín y símbolos de Christoffel →](../B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [← Anterior: B38-C09 — Validación de galaxias simuladas frente a observaciones](../../B38/B38-C09-validacion-de-galaxias-simuladas-frente-a-observaciones/CLASE.md) · [Siguiente: B39-C02 — Conexión afín y símbolos de Christoffel →](../B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ El paralelo de la 2-esfera mide 10,574, el casquete 11,553 y la métrica se tran
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B38-C09 — Validación de galaxias simuladas frente a observaciones](../../../tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md#b38-c09) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [Siguiente: B39-C02 — Conexión afín y símbolos de Christoffel →](../B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md)
+[← Anterior: B38-C09 — Validación de galaxias simuladas frente a observaciones](../../B38/B38-C09-validacion-de-galaxias-simuladas-frente-a-observaciones/CLASE.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [Siguiente: B39-C02 — Conexión afín y símbolos de Christoffel →](../B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md)
 <!-- /nav -->

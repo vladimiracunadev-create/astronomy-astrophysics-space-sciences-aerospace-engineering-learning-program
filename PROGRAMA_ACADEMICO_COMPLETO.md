@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 628 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 637 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -838,15 +838,15 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (9 clases): Funciones de luminosidad estelar; Función inicial de masa y su universalidad; Cinemática estelar con Gaia: movimientos propios y espacio de fase…*
 
-- **B38-C01 — Funciones de luminosidad estelar.** *Programada.* Ninguna clase construye ni interpreta la distribución de estrellas por luminosidad y su corrección por volumen y selección.
-- **B38-C02 — Función inicial de masa y su universalidad.** *Programada.* B24-C01 y B24-C02 tratan formación estelar sin la distribución de masas resultante ni su impacto en poblaciones sintéticas.
-- **B38-C03 — Cinemática estelar con Gaia: movimientos propios y espacio de fase.** *Programada.* B25-C07 trata dinámica de poblaciones en general; falta el uso de astrometría de Gaia y de velocidades 6D.
-- **B38-C04 — Historia de formación estelar a partir de poblaciones resueltas.** *Programada.* Ninguna clase enseña a inferir la historia de formación estelar ajustando diagramas color-magnitud con poblaciones sintéticas.
-- **B38-C05 — Potenciales galácticos: Plummer, Miyamoto-Nagai y NFW.** *Programada.* B09-C20 trata campos gravitatorios generales; faltan los potenciales analíticos estándar de disco, bulbo y halo.
-- **B38-C06 — Hidrodinámica en simulaciones: SPH y métodos de malla.** *Programada.* B11-C13 y B11-C14 dan las bases numéricas de EDP; falta su aplicación al gas en galaxias (SPH, malla adaptativa).
-- **B38-C07 — Modelos submalla de formación estelar y retroalimentación.** *Programada.* B25-C16 trata la retroalimentación físicamente; falta cómo parametrizarla bajo la resolución de una simulación.
-- **B38-C08 — Observaciones sintéticas de galaxias simuladas.** *Programada.* Ninguna clase enseña a generar imágenes y espectros sintéticos para comparar simulaciones con observaciones.
-- **B38-C09 — Validación de galaxias simuladas frente a observaciones.** *Programada.* B14-C10 y B11-C19 validan código numérico; falta validar la física galáctica contra relaciones de escala observadas.
+- **B38-C01 — Funciones de luminosidad estelar.** *Texto redactado, pendiente de revisión.* Ninguna clase construye ni interpreta la distribución de estrellas por luminosidad y su corrección por volumen y selección.
+- **B38-C02 — Función inicial de masa y su universalidad.** *Texto redactado, pendiente de revisión.* B24-C01 y B24-C02 tratan formación estelar sin la distribución de masas resultante ni su impacto en poblaciones sintéticas.
+- **B38-C03 — Cinemática estelar con Gaia: movimientos propios y espacio de fase.** *Texto redactado, pendiente de revisión.* B25-C07 trata dinámica de poblaciones en general; falta el uso de astrometría de Gaia y de velocidades 6D.
+- **B38-C04 — Historia de formación estelar a partir de poblaciones resueltas.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña a inferir la historia de formación estelar ajustando diagramas color-magnitud con poblaciones sintéticas.
+- **B38-C05 — Potenciales galácticos: Plummer, Miyamoto-Nagai y NFW.** *Texto redactado, pendiente de revisión.* B09-C20 trata campos gravitatorios generales; faltan los potenciales analíticos estándar de disco, bulbo y halo.
+- **B38-C06 — Hidrodinámica en simulaciones: SPH y métodos de malla.** *Texto redactado, pendiente de revisión.* B11-C13 y B11-C14 dan las bases numéricas de EDP; falta su aplicación al gas en galaxias (SPH, malla adaptativa).
+- **B38-C07 — Modelos submalla de formación estelar y retroalimentación.** *Texto redactado, pendiente de revisión.* B25-C16 trata la retroalimentación físicamente; falta cómo parametrizarla bajo la resolución de una simulación.
+- **B38-C08 — Observaciones sintéticas de galaxias simuladas.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña a generar imágenes y espectros sintéticos para comparar simulaciones con observaciones.
+- **B38-C09 — Validación de galaxias simuladas frente a observaciones.** *Texto redactado, pendiente de revisión.* B14-C10 y B11-C19 validan código numérico; falta validar la física galáctica contra relaciones de escala observadas.
 
 ### B39 — Relatividad general avanzada
 
