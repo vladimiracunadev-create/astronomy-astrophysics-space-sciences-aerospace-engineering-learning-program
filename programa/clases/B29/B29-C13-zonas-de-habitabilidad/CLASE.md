@@ -1,7 +1,7 @@
 # B29-C13 — Zonas de habitabilidad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [← Anterior: B29-C12 — Espectroscopía de transmisión](../B29-C12-espectroscopia-de-transmision/CLASE.md) · [Siguiente: B29-C14 — Estrellas variables periódicas →](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md#b29-c14)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [← Anterior: B29-C12 — Espectroscopía de transmisión](../B29-C12-espectroscopia-de-transmision/CLASE.md) · [Siguiente: B29-C14 — Estrellas variables periódicas →](../B29-C14-estrellas-variables-periodicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ La Tierra sin atmósfera tendría `254,6 K`; el rango `273–373 K` en el Sol co
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B29-C12 — Espectroscopía de transmisión](../B29-C12-espectroscopia-de-transmision/CLASE.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [Siguiente: B29-C14 — Estrellas variables periódicas →](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md#b29-c14)
+[← Anterior: B29-C12 — Espectroscopía de transmisión](../B29-C12-espectroscopia-de-transmision/CLASE.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [Siguiente: B29-C14 — Estrellas variables periódicas →](../B29-C14-estrellas-variables-periodicas/CLASE.md)
 <!-- /nav -->

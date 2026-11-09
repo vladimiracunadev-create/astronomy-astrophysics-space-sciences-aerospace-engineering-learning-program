@@ -73,18 +73,18 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b29-c14"></a>B29-C14 | Estrellas variables periódicas | Período, plegado de fases y ajuste de armónicos. | Ficha de una variable periódica |
-| <a id="b29-c15"></a>B29-C15 | Eventos eruptivos estelares | Modelo de llamarada, energía y distribución de energías. | Ficha de llamaradas estelares |
-| <a id="b29-c16"></a>B29-C16 | Supernovas y curvas de luz | Plantilla, ajuste de estiramiento y tiempo del máximo. | Ficha de una curva de luz de supernova |
-| <a id="b29-c17"></a>B29-C17 | Fenómenos transitorios rápidos | Dispersión, desdispersión y búsqueda de pulsos. | Ficha de un pulso desdispersado |
+| <a id="b29-c14"></a>[B29-C14](../clases/B29/B29-C14-estrellas-variables-periodicas/CLASE.md) | Estrellas variables periódicas | Período, plegado de fases y ajuste de armónicos. | Ficha de una variable periódica |
+| <a id="b29-c15"></a>[B29-C15](../clases/B29/B29-C15-eventos-eruptivos-estelares/CLASE.md) | Eventos eruptivos estelares | Modelo de llamarada, energía y distribución de energías. | Ficha de llamaradas estelares |
+| <a id="b29-c16"></a>[B29-C16](../clases/B29/B29-C16-supernovas-y-curvas-de-luz/CLASE.md) | Supernovas y curvas de luz | Plantilla, ajuste de estiramiento y tiempo del máximo. | Ficha de una curva de luz de supernova |
+| <a id="b29-c17"></a>[B29-C17](../clases/B29/B29-C17-fenomenos-transitorios-rapidos/CLASE.md) | Fenómenos transitorios rápidos | Dispersión, desdispersión y búsqueda de pulsos. | Ficha de un pulso desdispersado |
 
 ### Tramo 5 · Seguimiento, series y proyecto
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b29-c18"></a>B29-C18 | Redes de seguimiento temporal | Planificación voraz y completitud de una red. | Ficha de planificación de seguimiento |
-| <a id="b29-c19"></a>B29-C19 | Análisis de series temporales irregularmente muestreadas | Periodograma de Lomb–Scargle, ventana y alias. | Ficha de un periodograma irregular |
-| <a id="b29-c20"></a>B29-C20 | Proyecto de detección exoplanetaria | Búsqueda por cajas e inyección–recuperación. | Informe de detección con completitud |
+| <a id="b29-c18"></a>[B29-C18](../clases/B29/B29-C18-redes-de-seguimiento-temporal/CLASE.md) | Redes de seguimiento temporal | Planificación voraz y completitud de una red. | Ficha de planificación de seguimiento |
+| <a id="b29-c19"></a>[B29-C19](../clases/B29/B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md) | Análisis de series temporales irregularmente muestreadas | Periodograma de Lomb–Scargle, ventana y alias. | Ficha de un periodograma irregular |
+| <a id="b29-c20"></a>[B29-C20](../clases/B29/B29-C20-proyecto-de-deteccion-exoplanetaria/CLASE.md) | Proyecto de detección exoplanetaria | Búsqueda por cajas e inyección–recuperación. | Informe de detección con completitud |
 
 ## 🧵 Hilos que atraviesan el bloque
 
