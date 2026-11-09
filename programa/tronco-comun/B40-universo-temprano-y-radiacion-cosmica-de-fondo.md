@@ -1,78 +1,101 @@
 # B40 — Universo temprano y radiación cósmica de fondo
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 15 clases están programadas y ninguna está redactada: se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
-**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  
-**Área:** A03 — Astrofísica y ciencias fundamentales del universo  
-**Estado:** programado; no contiene clases desarrolladas.  
-**Total:** 15 clases programadas.
+**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+**Área:** A03 — Astrofísica y ciencias fundamentales del universo
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 15 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance
+## 🎯 Propósito del bloque
 
-Este bloque existe porque los contenidos de los roles que lo necesitan no estaban cubiertos por ninguna clase de la línea base. Cubre desde «Inflación cósmica: motivación y dinámica básica» hasta «Varianza cósmica y límites de las mediciones del fondo». El orden de las clases es el de su programación y no es todavía una secuencia pedagógica revisada.
+Enseña **cómo se pasa del universo primordial a los mapas del fondo cósmico de microondas**: la inflación y su dinámica, el recalentamiento, el fondo de neutrinos, los problemas del horizonte y la planitud, las perturbaciones primordiales, los campos escalares, el espectro angular y la polarización, los efectos Sachs-Wolfe y Sunyaev-Zeldovich, los primeros planos galácticos, la pixelización de mapas, el ruido y el haz, los productos de datos y la varianza cósmica. Cada clase cierra con un cálculo verificable contra un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases programadas
+## 📚 Al terminar el bloque podrás
 
-### B40-C01 — Inflación cósmica: motivación y dinámica básica
+1. Integrar la dinámica de un campo escalar inflacionario y contar e-pliegues.
+2. Estimar la temperatura de recalentamiento y la temperatura del fondo de neutrinos.
+3. Calcular horizontes comóviles y explicar la planitud con números.
+4. Relacionar el espectro primordial con n_s, r y la escala acústica.
+5. Descomponer una polarización en modos E y B y medir la fuga por máscara.
+6. Separar componentes de primer plano y reconocer la señal Sunyaev-Zeldovich.
+7. Propagar ruido, haz y varianza cósmica a la incertidumbre de un espectro.
 
-*Programada.* Ningún bloque del tronco trata la inflación; B26 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales.
+## 🧭 Secuencia del bloque
 
-### B40-C02 — Recalentamiento y transición a la era de radiación
+```mermaid
+flowchart LR
+    A["C01-C06<br/>Primordial"]
+    B["C07-C11<br/>Señales"]
+    C["C12-C15<br/>Datos"]
+    A --> B --> C
+```
 
-*Programada.* Ninguna clase explica cómo termina la inflación y se puebla el universo con radiación y partículas.
+**Descripción textual.** Tres tramos encadenados: universo primordial (C01–C06), anisotropías y señales (C07–C11) y mapas e instrumentos (C12–C15).
 
-### B40-C03 — Desacoplamiento de neutrinos y fondo cósmico de neutrinos
+## 🗂️ Las 15 clases en resumen
 
-*Programada.* B31-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B40-C04 — Problemas del horizonte y de la planitud
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-*Programada.* Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B26-C13.
+### Tramo 1 · Universo primordial
 
-### B40-C05 — Perturbaciones primordiales y espectro escalar
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b40-c01"></a>B40-C01 | Inflación cósmica: motivación y dinámica básica | Inflación con ecuaciones de fondo y e-pliegues. | Ficha de la inflación cósmica |
+| <a id="b40-c02"></a>B40-C02 | Recalentamiento y transición a la era de radiación | Transferencia de energía del inflatón a radiación y temperatura de recalentamiento. | Ficha del recalentamiento |
+| <a id="b40-c03"></a>B40-C03 | Desacoplamiento de neutrinos y fondo cósmico de neutrinos | Entropía, (4/11)^(1/3) y N_eff. | Ficha del fondo de neutrinos |
+| <a id="b40-c04"></a>B40-C04 | Problemas del horizonte y de la planitud | Horizonte comóvil, ángulo causal y desvanecimiento de la curvatura. | Ficha de horizonte y planitud |
+| <a id="b40-c05"></a>B40-C05 | Perturbaciones primordiales y espectro escalar | Espectro de potencias, inclinación y razón tensor-escalar. | Ficha del espectro primordial |
+| <a id="b40-c06"></a>B40-C06 | Campos escalares en cosmología: potenciales y evolución | Ecuación de Klein-Gordon y w promedio. | Ficha de campos escalares |
 
-*Programada.* Falta cómo las fluctuaciones cuánticas generan el espectro de perturbaciones que siembra el CMB y las estructuras.
+### Tramo 2 · Anisotropías y señales
 
-### B40-C06 — Campos escalares en cosmología: potenciales y evolución
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b40-c07"></a>B40-C07 | Espectro angular de potencias del CMB | Escala acústica, Cℓ y transformada de Legendre. | Ficha del espectro angular |
+| <a id="b40-c08"></a>B40-C08 | Polarización E y B del fondo cósmico | Descomposición E/B en el plano y fuga por máscara. | Ficha de la polarización E/B |
+| <a id="b40-c09"></a>B40-C09 | Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado | Meseta de Sachs-Wolfe y factor de crecimiento. | Ficha de Sachs-Wolfe |
+| <a id="b40-c10"></a>B40-C10 | Emisiones de primer plano galácticas y su separación | Leyes espectrales y combinación lineal interna. | Ficha de los primeros planos |
+| <a id="b40-c11"></a>B40-C11 | Efecto Sunyaev-Zeldovich térmico y cinemático | Función espectral, nulo en 217 GHz e y. | Ficha del efecto Sunyaev-Zeldovich |
 
-*Programada.* Ninguna clase trata campos escalares como contenido del universo (inflatón, quintaesencia) ni sus ecuaciones de movimiento.
+### Tramo 3 · Mapas e instrumentos
 
-### B40-C07 — Espectro angular de potencias del CMB
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b40-c12"></a>B40-C12 | Análisis de mapas del CMB: pixelización esférica y máscaras | Pixelización equiárea, ida y vuelta y fracción de cielo. | Ficha de pixelización y máscaras |
+| <a id="b40-c13"></a>B40-C13 | Ruido, haz y covarianza instrumental en mapas del fondo | Ventana del haz, ruido blanco y covarianza. | Ficha del ruido y el haz |
+| <a id="b40-c14"></a>B40-C14 | Productos de datos de Planck y misiones del CMB | Cabeceras FITS, conversión de unidades y verosimilitud. | Ficha de los productos de datos |
+| <a id="b40-c15"></a>B40-C15 | Varianza cósmica y límites de las mediciones del fondo | Varianza cósmica 2/(2ℓ+1) y precisión de amplitud. | Ficha de la varianza cósmica |
 
-*Programada.* B26-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos.
+## 🧵 Hilos que atraviesan el bloque
 
-### B40-C08 — Polarización E y B del fondo cósmico
+- **De la inflación al mapa:** C01–C06 fijan las condiciones iniciales; C07–C11 las convierten en señal observable; C12–C15 llevan la señal a mapas y límites de medición.
+- **Dos vías independientes:** cada laboratorio contrasta con un caso analítico, una segunda forma de calcular o una simulación con semilla fija.
+- **Incertidumbre:** C13 y C15 cuantifican el ruido y la varianza cósmica; C10 y C12 las contaminaciones y máscaras.
+- **Observado frente a ilustrativo:** solo se citan con fecha los valores de Planck leídos en resúmenes de arXiv y las constantes de NIST; el resto de los números son ilustrativos o sintéticos y se rotulan.
 
-*Programada.* B42-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B40-C09 — Efecto Sachs-Wolfe y efecto Sachs-Wolfe integrado
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha del espectro angular (C07) y ficha de la varianza cósmica (C15).
+- Las condiciones críticas (rotular lo sintético, no presentar un modelo de juguete como análisis de datos reales y citar solo lo consultado) no se compensan con promedio.
 
-*Programada.* Ninguna clase trata el corrimiento gravitacional de los fotones del fondo por potenciales cosmológicos.
+## ⚠️ Seguridad y límites
 
-### B40-C10 — Emisiones de primer plano galácticas y su separación
-
-*Programada.* Falta identificar y separar sincrotrón, polvo y otras emisiones galácticas que contaminan las mediciones del CMB.
-
-### B40-C11 — Efecto Sunyaev-Zeldovich térmico y cinemático
-
-*Programada.* B25-C13 describe cúmulos de galaxias, pero no la distorsión del fondo por electrones calientes del medio intracúmulo.
-
-### B40-C12 — Análisis de mapas del CMB: pixelización esférica y máscaras
-
-*Programada.* B15-C09 trata imágenes planas; faltan mapas en la esfera, armónicos y manejo de máscaras.
-
-### B40-C13 — Ruido, haz y covarianza instrumental en mapas del fondo
-
-*Programada.* B12-C18 trata matrices de covarianza en general; falta modelar ruido, haz y filtrado en un instrumento de CMB.
-
-### B40-C14 — Productos de datos de Planck y misiones del CMB
-
-*Programada.* Ninguna clase enseña a usar mapas, máscaras y verosimilitudes publicados por las misiones del fondo cósmico.
-
-### B40-C15 — Varianza cósmica y límites de las mediciones del fondo
-
-*Programada.* Falta explicar qué limita la precisión del CMB (varianza cósmica, sistemáticos) y cómo se cuantifica.
+El bloque es educativo. Los modelos son simplificados y no sustituyen a los códigos de Boltzmann ni a los análisis publicados de las misiones; no se descargan ni procesan datos reales de Planck. Los valores publicados se citan con su fuente y fecha de consulta (solo resúmenes) y el resto de los números son ilustrativos y se rotulan como tales.
 
 ## Roles que lo usan
 
 - [Cosmología y astrofísica extrema](../../rutas/cosmologia-y-astrofisica-extrema.md)
+
+## Fuentes de orientación preliminar
+
+- **[NIST-CODATA]** [NIST Fundamental Physical Constants (CODATA 2022)](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) — Constantes físicas fundamentales.
+- **[IAU-B3]** [UAI, Resolución B3 de 2015](https://arxiv.org/abs/1510.07674) — Valores nominales solares y planetarios.
+- **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
+
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B41 — Óptica geométrica y diseño de telescopios](./B41-optica-geometrica-y-diseno-de-telescopios.md)

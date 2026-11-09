@@ -2247,7 +2247,7 @@ a2a72e429d3664976ec35d983c55603efe8403a2935870196860479d85878748  programa/tronc
 8f3bebe9a6dbae3e822d3162a36f995d946d2e79996d2b2974746306e232b666  programa/tronco-comun/B37-interiores-estelares-y-asterosismologia.md
 abf2957f906b187e3923a0ce8e4fd5536631ca621d6da0ade341ecd2479cca67  programa/tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md
 062ab69f62a12733fa9b87b3a73009e771c54418afd988ce0b1ac1d8fa4ac37a  programa/tronco-comun/B39-relatividad-general-avanzada.md
-4a06f1b20ec83017f20e2c03d4c52d70b78279046db596459ecd83597025db71  programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md
+2deeb57ae57cf040ed2417c2943a54c7f2699aa0eec5d2e269602bfcfd49c563  programa/tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md
 36cb4bc04fe16e0df93bb83cfebe8789ecceaf050406d9572ba3e32678582248  programa/tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md
 e9103937d8df0e280a217a5d33e54df9a3a0ae800941e276cb3d0a96c6ac6b72  programa/tronco-comun/B42-optica-fisica-y-optica-adaptativa.md
 1c138179443be913f3b6d8bf0a895d4b84b1dc26ca4e31a55f2952f124e8a6fa  programa/tronco-comun/B43-construccion-y-mecanica-de-telescopios.md
