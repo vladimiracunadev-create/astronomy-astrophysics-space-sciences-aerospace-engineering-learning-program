@@ -1,7 +1,7 @@
 # B37-C04 — Condiciones de frontera centrales y superficiales en modelos estelares
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [← Anterior: B37-C03 — Opacidad media de Rosseland y tablas de opacidad en interiores](../B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md) · [Siguiente: B37-C05 — Códigos de evolución estelar: configuración, verificación y límites →](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md#b37-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [← Anterior: B37-C03 — Opacidad media de Rosseland y tablas de opacidad en interiores](../B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md) · [Siguiente: B37-C05 — Códigos de evolución estelar: configuración, verificación y límites →](../B37-C05-codigos-de-evolucion-estelar-configuracion-verificacion-y-limites/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ El centro y la superficie cierran la estructura de un modelo de una variable. Qu
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B37-C03 — Opacidad media de Rosseland y tablas de opacidad en interiores](../B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [Siguiente: B37-C05 — Códigos de evolución estelar: configuración, verificación y límites →](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md#b37-c05)
+[← Anterior: B37-C03 — Opacidad media de Rosseland y tablas de opacidad en interiores](../B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [Siguiente: B37-C05 — Códigos de evolución estelar: configuración, verificación y límites →](../B37-C05-codigos-de-evolucion-estelar-configuracion-verificacion-y-limites/CLASE.md)
 <!-- /nav -->

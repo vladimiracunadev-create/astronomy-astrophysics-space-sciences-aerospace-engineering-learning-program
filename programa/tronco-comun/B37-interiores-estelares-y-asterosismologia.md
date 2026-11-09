@@ -53,16 +53,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b37-c05"></a>B37-C05 | Códigos de evolución estelar: configuración, verificación y límites | Convergencia, orden y paso de tiempo. | Ficha de verificación de un código |
-| <a id="b37-c06"></a>B37-C06 | Calibración de modelos estelares con el Sol y binarias | Resolución de parámetros libres y masas de binarias. | Ficha de calibración |
+| <a id="b37-c05"></a>[B37-C05](../clases/B37/B37-C05-codigos-de-evolucion-estelar-configuracion-verificacion-y-limites/CLASE.md) | Códigos de evolución estelar: configuración, verificación y límites | Convergencia, orden y paso de tiempo. | Ficha de verificación de un código |
+| <a id="b37-c06"></a>[B37-C06](../clases/B37/B37-C06-calibracion-de-modelos-estelares-con-el-sol-y-binarias/CLASE.md) | Calibración de modelos estelares con el Sol y binarias | Resolución de parámetros libres y masas de binarias. | Ficha de calibración |
 
 ### Tramo 3 · Oscilaciones y observables
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b37-c07"></a>B37-C07 | Oscilaciones radiales y relación período-densidad media | Modo fundamental y relación período-densidad. | Ficha de oscilaciones radiales |
-| <a id="b37-c08"></a>B37-C08 | Oscilaciones no radiales: modos p, g y mixtos | Armónicos, diagrama de propagación y cavidades. | Ficha de modos no radiales |
-| <a id="b37-c09"></a>B37-C09 | Frecuencias características: Δν, νmax y espaciado de períodos | Relaciones de escala y espaciados. | Ficha de observables sísmicos |
+| <a id="b37-c07"></a>[B37-C07](../clases/B37/B37-C07-oscilaciones-radiales-y-relacion-periodo-densidad-media/CLASE.md) | Oscilaciones radiales y relación período-densidad media | Modo fundamental y relación período-densidad. | Ficha de oscilaciones radiales |
+| <a id="b37-c08"></a>[B37-C08](../clases/B37/B37-C08-oscilaciones-no-radiales-modos-p-g-y-mixtos/CLASE.md) | Oscilaciones no radiales: modos p, g y mixtos | Armónicos, diagrama de propagación y cavidades. | Ficha de modos no radiales |
+| <a id="b37-c09"></a>[B37-C09](../clases/B37/B37-C09-frecuencias-caracteristicas-max-y-espaciado-de-periodos/CLASE.md) | Frecuencias características: Δν, νmax y espaciado de períodos | Relaciones de escala y espaciados. | Ficha de observables sísmicos |
 
 ### Tramo 4 · Inversión, rotación y datos
 
