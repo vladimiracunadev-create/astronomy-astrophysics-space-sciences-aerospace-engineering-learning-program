@@ -1,7 +1,7 @@
 # B59-C23 — Subproductos y flujos residuales de procesos ISRU
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C22 — Beneficio y separación granulométrica de regolito](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md) · [Siguiente: B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar →](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md#b60-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C22 — Beneficio y separación granulométrica de regolito](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md) · [Siguiente: B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar →](../../B60/B60-C01-colisiones-moleculares-y-secciones-eficaces-en-gas-interestelar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Por kg de O₂ MOXIE produce `1,75 kg` de CO, y el ejemplo de ilmenita deja `94 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C22 — Beneficio y separación granulométrica de regolito](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar →](../../../tronco-comun/B60-cinetica-y-modelado-astroquimico.md#b60-c01)
+[← Anterior: B59-C22 — Beneficio y separación granulométrica de regolito](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar →](../../B60/B60-C01-colisiones-moleculares-y-secciones-eficaces-en-gas-interestelar/CLASE.md)
 <!-- /nav -->
