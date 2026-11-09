@@ -1,7 +1,7 @@
 # B23-C08 — Informe de verificación y validación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C07 — Trazabilidad científica de resultados](../B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md) · [Siguiente: B24-C01 — Colapso de nubes moleculares →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [← Anterior: B23-C07 — Trazabilidad científica de resultados](../B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md) · [Siguiente: B24-C01 — Colapso de nubes moleculares →](../../B24/B24-C01-colapso-de-nubes-moleculares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -347,5 +347,5 @@ Un informe V&V dice para qué uso se evaluó el software, con qué criterios fij
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B23-C07 — Trazabilidad científica de resultados](../B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B24-C01 — Colapso de nubes moleculares →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c01)
+[← Anterior: B23-C07 — Trazabilidad científica de resultados](../B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md) · [📚 Bloque B23](../../../tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md) · [Siguiente: B24-C01 — Colapso de nubes moleculares →](../../B24/B24-C01-colapso-de-nubes-moleculares/CLASE.md)
 <!-- /nav -->
