@@ -1,7 +1,7 @@
 # B31-C06 — Estadísticas cuánticas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [← Anterior: B31-C05 — Espín y momento angular](../B31-C05-espin-y-momento-angular/CLASE.md) · [Siguiente: B31-C07 — Estructura nuclear →](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md#b31-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [← Anterior: B31-C05 — Espín y momento angular](../B31-C05-espin-y-momento-angular/CLASE.md) · [Siguiente: B31-C07 — Estructura nuclear →](../B31-C07-estructura-nuclear/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Las constantes del cuerpo negro salen de `π⁴/15` y coinciden con NIST en diez
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B31-C05 — Espín y momento angular](../B31-C05-espin-y-momento-angular/CLASE.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [Siguiente: B31-C07 — Estructura nuclear →](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md#b31-c07)
+[← Anterior: B31-C05 — Espín y momento angular](../B31-C05-espin-y-momento-angular/CLASE.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [Siguiente: B31-C07 — Estructura nuclear →](../B31-C07-estructura-nuclear/CLASE.md)
 <!-- /nav -->

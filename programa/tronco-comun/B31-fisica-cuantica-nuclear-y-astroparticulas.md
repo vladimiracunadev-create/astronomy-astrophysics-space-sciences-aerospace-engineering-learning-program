@@ -56,17 +56,17 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b31-c07"></a>B31-C07 | Estructura nuclear | Energías de ligadura de núcleos ligeros a partir de masas de NIST. | Ficha de la energía de ligadura |
-| <a id="b31-c08"></a>B31-C08 | Decaimiento radiactivo | Ley exponencial, Monte Carlo y cadenas de Bateman. | Ficha del decaimiento |
+| <a id="b31-c07"></a>[B31-C07](../clases/B31/B31-C07-estructura-nuclear/CLASE.md) | Estructura nuclear | Energías de ligadura de núcleos ligeros a partir de masas de NIST. | Ficha de la energía de ligadura |
+| <a id="b31-c08"></a>[B31-C08](../clases/B31/B31-C08-decaimiento-radiactivo/CLASE.md) | Decaimiento radiactivo | Ley exponencial, Monte Carlo y cadenas de Bateman. | Ficha del decaimiento |
 
 ### Tramo 3 · Partículas e interacciones
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b31-c09"></a>B31-C09 | Interacciones fundamentales | Constante de estructura fina, razón eléctrica-gravitatoria y alcance de Yukawa. | Ficha de las interacciones |
-| <a id="b31-c10"></a>B31-C10 | Modelo estándar de partículas | Leyes de conservación aplicadas a reacciones. | Ficha de las reglas de conservación |
-| <a id="b31-c11"></a>B31-C11 | Neutrinos y oscilaciones | Probabilidad de oscilación de dos sabores y longitud de oscilación. | Ficha de la oscilación |
-| <a id="b31-c12"></a>B31-C12 | Antimateria y aniquilación | Umbrales cinemáticos con cuadrivectores y energía de aniquilación. | Ficha de la aniquilación |
+| <a id="b31-c09"></a>[B31-C09](../clases/B31/B31-C09-interacciones-fundamentales/CLASE.md) | Interacciones fundamentales | Constante de estructura fina, razón eléctrica-gravitatoria y alcance de Yukawa. | Ficha de las interacciones |
+| <a id="b31-c10"></a>[B31-C10](../clases/B31/B31-C10-modelo-estandar-de-particulas/CLASE.md) | Modelo estándar de partículas | Leyes de conservación aplicadas a reacciones. | Ficha de las reglas de conservación |
+| <a id="b31-c11"></a>[B31-C11](../clases/B31/B31-C11-neutrinos-y-oscilaciones/CLASE.md) | Neutrinos y oscilaciones | Probabilidad de oscilación de dos sabores y longitud de oscilación. | Ficha de la oscilación |
+| <a id="b31-c12"></a>[B31-C12](../clases/B31/B31-C12-antimateria-y-aniquilacion/CLASE.md) | Antimateria y aniquilación | Umbrales cinemáticos con cuadrivectores y energía de aniquilación. | Ficha de la aniquilación |
 
 ### Tramo 4 · Astropartículas y detección
 
