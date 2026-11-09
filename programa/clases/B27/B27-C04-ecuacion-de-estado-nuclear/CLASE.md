@@ -1,7 +1,7 @@
 # B27-C04 — Ecuación de estado nuclear
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C03 — Estrellas de neutrones](../B27-C03-estrellas-de-neutrones/CLASE.md) · [Siguiente: B27-C05 — Púlsares y relojes naturales →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C03 — Estrellas de neutrones](../B27-C03-estrellas-de-neutrones/CLASE.md) · [Siguiente: B27-C05 — Púlsares y relojes naturales →](../B27-C05-pulsares-y-relojes-naturales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Una EOS blanda a baja densidad y rígida a alta puede dar radios de 12 km y masa
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B27-C03 — Estrellas de neutrones](../B27-C03-estrellas-de-neutrones/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C05 — Púlsares y relojes naturales →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c05)
+[← Anterior: B27-C03 — Estrellas de neutrones](../B27-C03-estrellas-de-neutrones/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C05 — Púlsares y relojes naturales →](../B27-C05-pulsares-y-relojes-naturales/CLASE.md)
 <!-- /nav -->

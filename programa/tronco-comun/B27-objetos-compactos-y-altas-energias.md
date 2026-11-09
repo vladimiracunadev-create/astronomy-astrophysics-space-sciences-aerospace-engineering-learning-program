@@ -56,15 +56,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b27-c05"></a>B27-C05 | Púlsares y relojes naturales | Frenado magnético, campo y edad característica; tiempos de llegada. | Ficha de un púlsar |
-| <a id="b27-c06"></a>B27-C06 | Magnetares y campos extremos | Campo crítico cuántico, energía magnética y ciclotrón. | Ficha de campo magnético extremo |
+| <a id="b27-c05"></a>[B27-C05](../clases/B27/B27-C05-pulsares-y-relojes-naturales/CLASE.md) | Púlsares y relojes naturales | Frenado magnético, campo y edad característica; tiempos de llegada. | Ficha de un púlsar |
+| <a id="b27-c06"></a>[B27-C06](../clases/B27/B27-C06-magnetares-y-campos-extremos/CLASE.md) | Magnetares y campos extremos | Campo crítico cuántico, energía magnética y ciclotrón. | Ficha de campo magnético extremo |
 
 ### Tramo 3 · Agujeros negros
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b27-c07"></a>B27-C07 | Métricas de agujeros negros | Horizontes de Kerr, órbita estable más interna y eficiencia. | Ficha de una métrica de Kerr |
-| <a id="b27-c08"></a>B27-C08 | Horizonte de sucesos | Caída libre: tiempo propio finito y tiempo coordenado divergente. | Ficha de caída al horizonte |
+| <a id="b27-c07"></a>[B27-C07](../clases/B27/B27-C07-metricas-de-agujeros-negros/CLASE.md) | Métricas de agujeros negros | Horizontes de Kerr, órbita estable más interna y eficiencia. | Ficha de una métrica de Kerr |
+| <a id="b27-c08"></a>[B27-C08](../clases/B27/B27-C08-horizonte-de-sucesos/CLASE.md) | Horizonte de sucesos | Caída libre: tiempo propio finito y tiempo coordenado divergente. | Ficha de caída al horizonte |
 | <a id="b27-c09"></a>B27-C09 | Órbitas en campos fuertes | Esfera de fotones, órbitas ligadas y precesión fuerte. | Ficha de órbitas en campo fuerte |
 
 ### Tramo 4 · Acreción, chorros y sincrotrón
