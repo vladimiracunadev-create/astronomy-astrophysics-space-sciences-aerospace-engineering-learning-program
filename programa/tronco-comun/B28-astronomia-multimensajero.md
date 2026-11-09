@@ -65,15 +65,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b28-c09"></a>B28-C09 | Alertas científicas en tiempo real | Presupuesto de latencia y tasa de falsas alarmas con múltiples pruebas. | Ficha de una alerta con su latencia |
-| <a id="b28-c10"></a>B28-C10 | Localización probabilística de eventos | Triangulación por tiempos de llegada y región creíble sobre la esfera. | Mapa de probabilidad y área creíble |
-| <a id="b28-c11"></a>B28-C11 | Coincidencias entre observatorios | Probabilidad de coincidencia fortuita en tiempo y cielo. | Ficha de una coincidencia con su probabilidad fortuita |
+| <a id="b28-c09"></a>[B28-C09](../clases/B28/B28-C09-alertas-cientificas-en-tiempo-real/CLASE.md) | Alertas científicas en tiempo real | Presupuesto de latencia y tasa de falsas alarmas con múltiples pruebas. | Ficha de una alerta con su latencia |
+| <a id="b28-c10"></a>[B28-C10](../clases/B28/B28-C10-localizacion-probabilistica-de-eventos/CLASE.md) | Localización probabilística de eventos | Triangulación por tiempos de llegada y región creíble sobre la esfera. | Mapa de probabilidad y área creíble |
+| <a id="b28-c11"></a>[B28-C11](../clases/B28/B28-C11-coincidencias-entre-observatorios/CLASE.md) | Coincidencias entre observatorios | Probabilidad de coincidencia fortuita en tiempo y cielo. | Ficha de una coincidencia con su probabilidad fortuita |
 
 ### Tramo 4 · Modelos y estadística
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b28-c12"></a>B28-C12 | Modelos de emisión conjunta | Chorro estructurado y brillo según el ángulo de visión. | Ficha de emisión conjunta según el ángulo |
+| <a id="b28-c12"></a>[B28-C12](../clases/B28/B28-C12-modelos-de-emision-conjunta/CLASE.md) | Modelos de emisión conjunta | Chorro estructurado y brillo según el ángulo de visión. | Ficha de emisión conjunta según el ángulo |
 | <a id="b28-c13"></a>B28-C13 | Estadística de significancia | Valor p a sigma, factor de pruebas y combinación de valores p. | Ficha de significancia combinada |
 | <a id="b28-c14"></a>B28-C14 | Ruidos instrumentales | Ruido coloreado, espectro de potencia y filtro de blanqueo. | Ficha de ruido y blanqueo |
 

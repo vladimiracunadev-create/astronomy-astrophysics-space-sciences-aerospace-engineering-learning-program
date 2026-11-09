@@ -1,7 +1,7 @@
 # B28-C08 — Señales transitorias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C07 — Fuentes compactas binarias](../B28-C07-fuentes-compactas-binarias/CLASE.md) · [Siguiente: B28-C09 — Alertas científicas en tiempo real →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [← Anterior: B28-C07 — Fuentes compactas binarias](../B28-C07-fuentes-compactas-binarias/CLASE.md) · [Siguiente: B28-C09 — Alertas científicas en tiempo real →](../B28-C09-alertas-cientificas-en-tiempo-real/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ El índice de caída se recupera con error `σ/(2,5√S_xx)`, el tiempo visible 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B28-C07 — Fuentes compactas binarias](../B28-C07-fuentes-compactas-binarias/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C09 — Alertas científicas en tiempo real →](../../../tronco-comun/B28-astronomia-multimensajero.md#b28-c09)
+[← Anterior: B28-C07 — Fuentes compactas binarias](../B28-C07-fuentes-compactas-binarias/CLASE.md) · [📚 Bloque B28](../../../tronco-comun/B28-astronomia-multimensajero.md) · [Siguiente: B28-C09 — Alertas científicas en tiempo real →](../B28-C09-alertas-cientificas-en-tiempo-real/CLASE.md)
 <!-- /nav -->
