@@ -1,7 +1,7 @@
 # B38-C01 — Funciones de luminosidad estelar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B38](../../../tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md) · [← Anterior: B37-C14 — Ajuste de modelos estelares a frecuencias sísmicas](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md#b37-c14) · [Siguiente: B38-C02 — Función inicial de masa y su universalidad →](../B38-C02-funcion-inicial-de-masa-y-su-universalidad/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B38](../../../tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md) · [← Anterior: B37-C14 — Ajuste de modelos estelares a frecuencias sísmicas](../../B37/B37-C14-ajuste-de-modelos-estelares-a-frecuencias-sismicas/CLASE.md) · [Siguiente: B38-C02 — Función inicial de masa y su universalidad →](../B38-C02-funcion-inicial-de-masa-y-su-universalidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ El recuento crudo da 0,72 de lo verdadero en `M_bol` de −0,6 a 0,9 y 0,12 en e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B37-C14 — Ajuste de modelos estelares a frecuencias sísmicas](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md#b37-c14) · [📚 Bloque B38](../../../tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md) · [Siguiente: B38-C02 — Función inicial de masa y su universalidad →](../B38-C02-funcion-inicial-de-masa-y-su-universalidad/CLASE.md)
+[← Anterior: B37-C14 — Ajuste de modelos estelares a frecuencias sísmicas](../../B37/B37-C14-ajuste-de-modelos-estelares-a-frecuencias-sismicas/CLASE.md) · [📚 Bloque B38](../../../tronco-comun/B38-poblaciones-estelares-y-simulacion-de-galaxias.md) · [Siguiente: B38-C02 — Función inicial de masa y su universalidad →](../B38-C02-funcion-inicial-de-masa-y-su-universalidad/CLASE.md)
 <!-- /nav -->

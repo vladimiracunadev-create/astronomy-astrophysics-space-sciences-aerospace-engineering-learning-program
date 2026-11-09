@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 664 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 669 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -828,11 +828,11 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 - **B37-C07 — Oscilaciones radiales y relación período-densidad media.** *Texto redactado, pendiente de revisión.* B24-C14 es una introducción; falta la teoría de modos radiales y la relación entre período y densidad media.
 - **B37-C08 — Oscilaciones no radiales: modos p, g y mixtos.** *Texto redactado, pendiente de revisión.* Ninguna clase desarrolla grados e índices de modos, armónicos esféricos ni la distinción entre modos de presión y de gravedad.
 - **B37-C09 — Frecuencias características: Δν, νmax y espaciado de períodos.** *Texto redactado, pendiente de revisión.* Falta la extracción de los observables sísmicos globales que dan masa y radio estelares mediante relaciones de escala.
-- **B37-C10 — Inversión asterosísmica de perfiles internos.** *Programada.* Ninguna clase trata los métodos inversos que recuperan velocidad del sonido y densidad internas a partir de frecuencias.
-- **B37-C11 — Rotación interna a partir del desdoblamiento de frecuencias.** *Programada.* Falta la técnica de medir rotación interna con desdoblamientos rotacionales; B24-C11 solo trata la rotación superficial.
-- **B37-C12 — Gigantes rojas oscilantes y modos mixtos.** *Programada.* B24-C16 describe gigantes rojas, pero no su espectro de oscilaciones ni cómo distinguir rama de gigantes y núcleo de helio.
-- **B37-C13 — Series fotométricas de Kepler, TESS y PLATO para asterosismología.** *Programada.* B29-C02 trata curvas de luz para tránsitos; falta preparar series largas y sistemáticas de misiones para análisis sísmico.
-- **B37-C14 — Ajuste de modelos estelares a frecuencias sísmicas.** *Programada.* Ninguna clase enseña el ajuste de rejillas de modelos a frecuencias y el tratamiento de efectos de superficie.
+- **B37-C10 — Inversión asterosísmica de perfiles internos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata los métodos inversos que recuperan velocidad del sonido y densidad internas a partir de frecuencias.
+- **B37-C11 — Rotación interna a partir del desdoblamiento de frecuencias.** *Texto redactado, pendiente de revisión.* Falta la técnica de medir rotación interna con desdoblamientos rotacionales; B24-C11 solo trata la rotación superficial.
+- **B37-C12 — Gigantes rojas oscilantes y modos mixtos.** *Texto redactado, pendiente de revisión.* B24-C16 describe gigantes rojas, pero no su espectro de oscilaciones ni cómo distinguir rama de gigantes y núcleo de helio.
+- **B37-C13 — Series fotométricas de Kepler, TESS y PLATO para asterosismología.** *Texto redactado, pendiente de revisión.* B29-C02 trata curvas de luz para tránsitos; falta preparar series largas y sistemáticas de misiones para análisis sísmico.
+- **B37-C14 — Ajuste de modelos estelares a frecuencias sísmicas.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña el ajuste de rejillas de modelos a frecuencias y el tratamiento de efectos de superficie.
 
 ### B38 — Poblaciones estelares y simulación de galaxias
 

@@ -68,11 +68,11 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b37-c10"></a>B37-C10 | Inversión asterosísmica de perfiles internos | Problema inverso regularizado. | Ficha de la inversión |
-| <a id="b37-c11"></a>B37-C11 | Rotación interna a partir del desdoblamiento de frecuencias | Desdoblamiento y rotación de núcleo y envoltura. | Ficha de la rotación interna |
-| <a id="b37-c12"></a>B37-C12 | Gigantes rojas oscilantes y modos mixtos | Acoplamiento de modos p y g. | Ficha de modos mixtos |
-| <a id="b37-c13"></a>B37-C13 | Series fotométricas de Kepler, TESS y PLATO para asterosismología | Cadencia, huecos y periodograma. | Ficha de la serie fotométrica |
-| <a id="b37-c14"></a>B37-C14 | Ajuste de modelos estelares a frecuencias sísmicas | Rejilla, ji cuadrado y efecto de superficie. | Ficha del ajuste sísmico |
+| <a id="b37-c10"></a>[B37-C10](../clases/B37/B37-C10-inversion-asterosismica-de-perfiles-internos/CLASE.md) | Inversión asterosísmica de perfiles internos | Problema inverso regularizado. | Ficha de la inversión |
+| <a id="b37-c11"></a>[B37-C11](../clases/B37/B37-C11-rotacion-interna-a-partir-del-desdoblamiento-de-frecuencias/CLASE.md) | Rotación interna a partir del desdoblamiento de frecuencias | Desdoblamiento y rotación de núcleo y envoltura. | Ficha de la rotación interna |
+| <a id="b37-c12"></a>[B37-C12](../clases/B37/B37-C12-gigantes-rojas-oscilantes-y-modos-mixtos/CLASE.md) | Gigantes rojas oscilantes y modos mixtos | Acoplamiento de modos p y g. | Ficha de modos mixtos |
+| <a id="b37-c13"></a>[B37-C13](../clases/B37/B37-C13-series-fotometricas-de-kepler-tess-y-plato-para-asterosismologia/CLASE.md) | Series fotométricas de Kepler, TESS y PLATO para asterosismología | Cadencia, huecos y periodograma. | Ficha de la serie fotométrica |
+| <a id="b37-c14"></a>[B37-C14](../clases/B37/B37-C14-ajuste-de-modelos-estelares-a-frecuencias-sismicas/CLASE.md) | Ajuste de modelos estelares a frecuencias sísmicas | Rejilla, ji cuadrado y efecto de superficie. | Ficha del ajuste sísmico |
 
 ## 🧵 Hilos que atraviesan el bloque
 

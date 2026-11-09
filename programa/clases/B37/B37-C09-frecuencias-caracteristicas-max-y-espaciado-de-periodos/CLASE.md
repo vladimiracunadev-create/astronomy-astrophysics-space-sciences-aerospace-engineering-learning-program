@@ -1,7 +1,7 @@
 # B37-C09 — Frecuencias características: Δν, νmax y espaciado de períodos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [← Anterior: B37-C08 — Oscilaciones no radiales: modos p, g y mixtos](../B37-C08-oscilaciones-no-radiales-modos-p-g-y-mixtos/CLASE.md) · [Siguiente: B37-C10 — Inversión asterosísmica de perfiles internos →](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md#b37-c10)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [← Anterior: B37-C08 — Oscilaciones no radiales: modos p, g y mixtos](../B37-C08-oscilaciones-no-radiales-modos-p-g-y-mixtos/CLASE.md) · [Siguiente: B37-C10 — Inversión asterosísmica de perfiles internos →](../B37-C10-inversion-asterosismica-de-perfiles-internos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ Dos observables globales dan masa y radio con un error del 6 % y 2 %. Queda una 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B37-C08 — Oscilaciones no radiales: modos p, g y mixtos](../B37-C08-oscilaciones-no-radiales-modos-p-g-y-mixtos/CLASE.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [Siguiente: B37-C10 — Inversión asterosísmica de perfiles internos →](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md#b37-c10)
+[← Anterior: B37-C08 — Oscilaciones no radiales: modos p, g y mixtos](../B37-C08-oscilaciones-no-radiales-modos-p-g-y-mixtos/CLASE.md) · [📚 Bloque B37](../../../tronco-comun/B37-interiores-estelares-y-asterosismologia.md) · [Siguiente: B37-C10 — Inversión asterosísmica de perfiles internos →](../B37-C10-inversion-asterosismica-de-perfiles-internos/CLASE.md)
 <!-- /nav -->
