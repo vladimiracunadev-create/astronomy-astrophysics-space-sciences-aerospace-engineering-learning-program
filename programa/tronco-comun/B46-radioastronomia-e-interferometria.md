@@ -1,95 +1,95 @@
 # B46 — Radioastronomía e interferometría
 
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia radioastronomía e interferometría; cubre desde «Espectro radioastronómico» hasta «Proyecto de observación radioastronómica». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se observa el cielo en radio y cómo se combinan antenas para ver más fino**: el espectro y la temperatura de brillo, la propagación, las antenas y sus diagramas, la ganancia y el ruido, el receptor, el oscilador y la digitalización, dos observaciones espectroscópicas (HI y moléculas), la polarización y, por último, la interferometría: líneas de base, correlación, síntesis de apertura, calibración, VLBI, CLEAN y un proyecto de observación. Cada clase cierra con un cálculo verificable contra un caso analítico, dos vías independientes, una constante de NIST o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B46-C01 — Espectro radioastronómico
+1. Relacionar flujo, brillo y temperatura de brillo con Planck y Rayleigh–Jeans.
+2. Calcular directividad, ancho de haz, área efectiva y K/Jy de una antena.
+3. Presupuestar el ruido de un receptor y la sensibilidad del radiómetro.
+4. Explicar la mezcla, la frecuencia imagen, la estabilidad de un oscilador y la digitalización.
+5. Interpretar un espectro de HI y una escalera molecular.
+6. Calcular visibilidades, cobertura uv y haz sucio de un interferómetro.
+7. Calibrar fases, estimar retardos de VLBI, deconvolucionar con CLEAN y planificar una observación.
 
-Describe «espectro radioastronómico», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
+## 🧭 Secuencia del bloque
 
-### B46-C02 — Propagación de ondas de radio
+```mermaid
+flowchart LR
+    A["C01-C10<br/>Antena y receptor"]
+    B["C11-C13<br/>Líneas"]
+    C["C14-C20<br/>Interferometría"]
+    A --> B --> C
+```
 
-Delimita «propagación de ondas de radio», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Tres tramos encadenados: señal, antena y receptor (C01–C10), espectroscopía y polarización (C11–C13) e interferometría y proyecto (C14–C20).
 
-### B46-C03 — Antenas parabólicas
+## 🗂️ Las 20 clases en resumen
 
-Introduce el contexto y los principios de «antenas parabólicas» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B46-C04 — Diagramas de radiación
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Caracteriza «diagramas de radiación», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
+### Tramo 1 · Señal, antena y receptor
 
-### B46-C05 — Ganancia y temperatura de antena
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b46-c01"></a>B46-C01 | Espectro radioastronómico | Planck, Rayleigh–Jeans y temperatura de brillo. | Ficha del espectro radioastronómico |
+| <a id="b46-c02"></a>B46-C02 | Propagación de ondas de radio | Frecuencia de plasma y retardo por dispersión. | Ficha de la propagación de radio |
+| <a id="b46-c03"></a>B46-C03 | Antenas parabólicas | Geometría, directividad y haz de Airy. | Ficha de la antena parabólica |
+| <a id="b46-c04"></a>B46-C04 | Diagramas de radiación | Iluminación, lóbulos laterales y ancho del haz. | Ficha del diagrama de radiación |
+| <a id="b46-c05"></a>B46-C05 | Ganancia y temperatura de antena | Área efectiva, K/Jy y dilución del haz. | Ficha de la ganancia y la temperatura de antena |
+| <a id="b46-c06"></a>B46-C06 | Ruido de sistema y radiometría | Ecuación del radiómetro y cascada de Friis. | Ficha del ruido y el radiómetro |
+| <a id="b46-c07"></a>B46-C07 | Receptores superheterodinos | Mezcla, frecuencia imagen y rechazo de imagen. | Ficha del receptor superheterodino |
+| <a id="b46-c08"></a>B46-C08 | Osciladores y estabilidad | Varianza de Allan por dos vías. | Ficha de la estabilidad del oscilador |
+| <a id="b46-c09"></a>B46-C09 | Conversión analógica digital | Cuantización y corrección de Van Vleck. | Ficha de la digitalización |
+| <a id="b46-c10"></a>B46-C10 | Radioastronomía mediante SDR | Espectro promediado y ancho de banda de ruido. | Ficha del espectrómetro SDR |
 
-Presenta qué significa «ganancia y temperatura de antena», sus elementos esenciales y su función dentro de radioastronomía e interferometría.
+### Tramo 2 · Espectroscopía y polarización
 
-### B46-C06 — Ruido de sistema y radiometría
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b46-c11"></a>B46-C11 | Observación de hidrógeno a 21 centímetros | Velocidad terminal y densidad de columna. | Ficha de la observación de HI |
+| <a id="b46-c12"></a>B46-C12 | Emisiones moleculares | Escalera rotacional y poblaciones en ETL. | Ficha de las emisiones moleculares |
+| <a id="b46-c13"></a>B46-C13 | Polarimetría de radio | Parámetros de Stokes y síntesis de RM. | Ficha de la polarimetría |
 
-Introduce «ruido de sistema y radiometría» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+### Tramo 3 · Interferometría y proyecto
 
-### B46-C07 — Receptores superheterodinos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b46-c14"></a>B46-C14 | Líneas de base interferométricas | Coordenadas (u, v, w) y retardo geométrico. | Ficha de la línea de base |
+| <a id="b46-c15"></a>B46-C15 | Correladores y visibilidades | Correlación cruzada y equivalencia FX–XF. | Ficha del correlador |
+| <a id="b46-c16"></a>B46-C16 | Síntesis de apertura | Cobertura uv y haz sucio. | Ficha de la síntesis de apertura |
+| <a id="b46-c17"></a>B46-C17 | Calibración de fase | Cierre de fase y solución de ganancias. | Ficha de la calibración de fase |
+| <a id="b46-c18"></a>B46-C18 | VLBI y geodesia | Retardo, precisión y longitud de línea de base. | Ficha del retardo VLBI |
+| <a id="b46-c19"></a>B46-C19 | Imágenes de radio y CLEAN | Imagen sucia y deconvolución de Högbom. | Ficha de la imagen CLEAN |
+| <a id="b46-c20"></a>B46-C20 | Proyecto de observación radioastronómica | Presupuesto de sensibilidad y tiempo. | Ficha del proyecto de observación |
 
-Delimita «receptores superheterodinos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+## 🧵 Hilos que atraviesan el bloque
 
-### B46-C08 — Osciladores y estabilidad
+- **De la antena al píxel:** C01–C10 miden una señal; C11–C13 la interpretan; C14–C19 la convierten en imagen; C20 planifica.
+- **Ruido y sensibilidad:** C05, C06, C09, C10 y C20 comparten la ecuación del radiómetro.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico, dos vías de cálculo o una simulación con semilla fija.
+- **Observado frente a ilustrativo:** las constantes de NIST y unos pocos valores de referencia se citan con fecha; los instrumentos, antenas, fuentes y niveles de ruido son sintéticos y se rotulan.
 
-Introduce el contexto y los principios de «osciladores y estabilidad» para comprender su uso científico.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B46-C09 — Conversión analógica digital
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha del ruido y el radiómetro (C06), ficha de la síntesis de apertura (C16) y ficha del proyecto de observación (C20).
+- Las condiciones críticas (rotular lo sintético, no presentar un instrumento real como medido y citar solo lo consultado) no se compensan con promedio.
 
-Describe los componentes principales de «conversión analógica digital» y por qué son relevantes para esta disciplina.
+## ⚠️ Seguridad y límites
 
-### B46-C10 — Radioastronomía mediante SDR
-
-Presenta qué significa «radioastronomía mediante SDR», sus elementos esenciales y su función dentro de radioastronomía e interferometría.
-
-### B46-C11 — Observación de hidrógeno a 21 centímetros
-
-Describe «observación de hidrógeno a 21 centímetros», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B46-C12 — Emisiones moleculares
-
-Delimita «emisiones moleculares», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B46-C13 — Polarimetría de radio
-
-Introduce el contexto y los principios de «polarimetría de radio» para comprender su uso científico.
-
-### B46-C14 — Líneas de base interferométricas
-
-Describe los componentes principales de «líneas de base interferométricas» y por qué son relevantes para esta disciplina.
-
-### B46-C15 — Correladores y visibilidades
-
-Presenta qué significa «correladores y visibilidades», sus elementos esenciales y su función dentro de radioastronomía e interferometría.
-
-### B46-C16 — Síntesis de apertura
-
-Explica el fenómeno o técnica de «síntesis de apertura» y su aplicación observable o tecnológica.
-
-### B46-C17 — Calibración de fase
-
-Describe «calibración de fase», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B46-C18 — VLBI y geodesia
-
-Introduce el contexto y los principios de «vLBI y geodesia» para comprender su uso científico.
-
-### B46-C19 — Imágenes de radio y CLEAN
-
-Describe los componentes principales de «imágenes de radio y CLEAN» y por qué son relevantes para esta disciplina.
-
-### B46-C20 — Proyecto de observación radioastronómica
-
-Introduce «proyecto de observación radioastronómica» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+El bloque es educativo. Los modelos son simplificados y no sustituyen el software de reducción de datos ni los procedimientos de un observatorio; los instrumentos y fuentes de los laboratorios son ilustrativos. Una antena transmisora o un receptor real exigen respetar las normas de espectro y de seguridad eléctrica del lugar.
 
 ## Fuentes de orientación preliminar
 
@@ -98,4 +98,6 @@ Introduce «proyecto de observación radioastronómica» como problema de ingeni
 - **[NASA-SMALLSAT]** [NASA State-of-the-Art of Small Spacecraft Technology, edición 2026](https://www.nasa.gov/smallsat-institute/sst-soa/) — Referencia panorámica sobre plataformas y subsistemas de satélites pequeños.
 - **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos e investigación histórica y actual.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B47 — Instrumentación y observatorios espaciales](./B47-instrumentacion-y-observatorios-espaciales.md)
