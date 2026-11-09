@@ -1,74 +1,92 @@
 # B33 — Clima espacial: impactos, pronóstico y riesgo
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 14 clases están programadas y ninguna está redactada: se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
+> **Bloque de la malla `0.2.0`.** Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
-**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  
-**Área:** A03 — Astrofísica y ciencias fundamentales del universo  
-**Estado:** programado; no contiene clases desarrolladas.  
-**Total:** 14 clases programadas.
+**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
+**Área:** A03 — Astrofísica y ciencias fundamentales del universo
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 14 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance
+## 🎯 Propósito del bloque
 
-Este bloque existe porque los contenidos de los roles que lo necesitan no estaban cubiertos por ninguna clase de la línea base. Cubre desde «Validación de modelos MHD con eventos solares documentados» hasta «Verificación de alertas con tablas de contingencia». El orden de las clases es el de su programación y no es todavía una secuencia pedagógica revisada.
+Enseña **cómo se valida, se pronostica y se comunica el clima espacial y su riesgo**: la validación de modelos, la propagación de eyecciones de masa, los eventos extremos, las escalas de severidad, la comunicación de riesgo, las corrientes inducidas y su efecto en las redes, la radiación en aviación, la continuidad de servicios, los modelos de viento solar, los pronósticos empíricos y de persistencia, el pronóstico de llegada y de actividad geomagnética y la verificación de alertas. Cada clase cierra con un cálculo verificable contra un caso analítico o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases programadas
+## 📚 Al terminar el bloque podrás
 
-### B33-C01 — Validación de modelos MHD con eventos solares documentados
+1. Validar un modelo con sesgo, RMSE, correlación y destreza.
+2. Propagar la incertidumbre del tiempo de llegada de una CME.
+3. Estimar niveles de retorno de eventos extremos con su incertidumbre.
+4. Interpretar las escalas de severidad G, S y R.
+5. Decidir una alerta con el modelo de costo–pérdida y medir su calibración.
+6. Calcular campos geoeléctricos y repartir corrientes en una red.
+7. Verificar alertas con tablas de contingencia y curvas ROC.
 
-*Programada.* Enseña a contrastar simulación y evento observado con métricas; ninguna clase actual trata la validación de modelos heliosféricos.
+## 🧭 Secuencia del bloque
 
-### B33-C02 — Modelos de propagación de CME
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Modelos"]
+    B["C05-C09<br/>Riesgo"]
+    C["C10-C14<br/>Pronóstico"]
+    A --> B --> C
+```
 
-*Programada.* Modelos de arrastre y MHD para la llegada de CME a la Tierra; B30-C13 describe el fenómeno sin modelar su propagación.
+**Descripción textual.** Tres tramos encadenados: modelos y eventos (C01–C04), riesgo e impactos (C05–C09) y pronóstico y verificación (C10–C14).
 
-### B33-C03 — Eventos extremos históricos de clima espacial
+## 🗂️ Las 14 clases en resumen
 
-*Programada.* Carrington 1859, Quebec 1989 y Halloween 2003 como casos para dimensionar el peor escenario; B30-C19 es solo panorama.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B33-C04 — Escalas de severidad de clima espacial
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-*Programada.* Escalas NOAA G/S/R y su construcción; necesarias para medir y comunicar severidad y ausentes en B30.
+### Tramo 1 · Modelos y eventos
 
-### B33-C05 — Comunicación de riesgo y alertas de clima espacial
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b33-c01"></a>B33-C01 | Validación de modelos MHD con eventos solares documentados | Sesgo, RMSE, destreza y desfase. | Ficha de validación de un modelo |
+| <a id="b33-c02"></a>B33-C02 | Modelos de propagación de CME | Conjunto y propagación lineal de errores. | Ficha de la propagación de una CME |
+| <a id="b33-c03"></a>B33-C03 | Eventos extremos históricos de clima espacial | Gumbel y niveles de retorno. | Ficha de eventos extremos |
+| <a id="b33-c04"></a>B33-C04 | Escalas de severidad de clima espacial | Escalas G, S y R y conteos por nivel. | Ficha de las escalas de severidad |
 
-*Programada.* Redacción de alertas operativas para usuarios no expertos; B124-C18 trata divulgación general, no alertas de riesgo.
+### Tramo 2 · Riesgo e impactos
 
-### B33-C06 — Corrientes geomagnéticas inducidas (GIC)
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b33-c05"></a>B33-C05 | Comunicación de riesgo y alertas de clima espacial | Costo–pérdida, Brier y fiabilidad. | Ficha del riesgo y las alertas |
+| <a id="b33-c06"></a>B33-C06 | Corrientes geomagnéticas inducidas (GIC) | Campo geoeléctrico y corriente en una línea. | Ficha de las corrientes inducidas |
+| <a id="b33-c07"></a>B33-C07 | Impactos del clima espacial en redes eléctricas | Análisis nodal de corrientes de tierra. | Ficha de la red eléctrica |
+| <a id="b33-c08"></a>[B33-C08](../clases/B33/B33-C08-dosis-de-radiacion-en-aviacion/CLASE.md) | Dosis de radiación en aviación | Profundidad atmosférica y atenuación de juguete. | Ficha de la radiación en aviación |
+| <a id="b33-c09"></a>B33-C09 | Planes de continuidad ante eventos de clima espacial | Redundancia, causa común y disponibilidad. | Ficha de la continuidad |
 
-*Programada.* Acoplo geoeléctrico entre tormentas y conductores a tierra; B30-C19 solo lo enumera.
+### Tramo 3 · Pronóstico y verificación
 
-### B33-C07 — Impactos del clima espacial en redes eléctricas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b33-c10"></a>B33-C10 | Modelos de viento solar para pronóstico (Parker y WSA) | Relación empírica de prueba y Parker. | Ficha del viento solar para pronóstico |
+| <a id="b33-c11"></a>B33-C11 | Modelos empíricos y de persistencia en clima espacial | Persistencia y recurrencia de 27 días. | Ficha de la persistencia |
+| <a id="b33-c12"></a>[B33-C12](../clases/B33/B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md) | Pronóstico de llegada y severidad de CME | Error de llegada con arrastre mal especificado. | Ficha del pronóstico de llegada |
+| <a id="b33-c13"></a>[B33-C13](../clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md) | Pronóstico de actividad geomagnética | Regresión y pronóstico por umbral. | Ficha del pronóstico geomagnético |
+| <a id="b33-c14"></a>B33-C14 | Verificación de alertas con tablas de contingencia | Tabla, ROC y AUC por dos vías. | Ficha de la verificación de alertas |
 
-*Programada.* Saturación de transformadores y colapso de red como cadena de daño; ninguna clase actual la desarrolla.
+## 🧵 Hilos que atraviesan el bloque
 
-### B33-C08 — Dosis de radiación en aviación
+- **Del dato a la decisión:** C01–C04 caracterizan; C05–C09 evalúan el riesgo; C10–C14 pronostican y verifican.
+- **Incertidumbre:** C02, C03 y C05 la cuantifican con conjuntos, intervalos y probabilidades.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico, dos vías de cálculo o una simulación con semilla fija.
+- **Observado frente a ilustrativo:** las escalas de NOAA se citan con fecha; los demás números son sintéticos y se rotulan.
 
-*Programada.* Cálculo de dosis en vuelos polares y eventos de partículas; B105-C06 trata exposición de tripulaciones espaciales, no aviación.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B33-C09 — Planes de continuidad ante eventos de clima espacial
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha del riesgo y las alertas (C05) y ficha de la verificación de alertas (C14).
+- Las condiciones críticas (rotular lo sintético, no emitir pronósticos ni estimar riesgos reales y citar solo lo consultado) no se compensan con promedio.
 
-*Programada.* Plan escalonado de operación degradada y recuperación; B119-C16 trata la protección de infraestructura de forma general.
+## ⚠️ Seguridad y límites
 
-### B33-C10 — Modelos de viento solar para pronóstico (Parker y WSA)
-
-*Programada.* B30-C10 describe el viento solar; falta construir y usar modelos que lo predicen como entrada de pronóstico.
-
-### B33-C11 — Modelos empíricos y de persistencia en clima espacial
-
-*Programada.* Líneas base empíricas (persistencia, recurrencia de 27 días) para comparar contra modelos físicos; ausentes.
-
-### B33-C12 — Pronóstico de llegada y severidad de CME
-
-*Programada.* Predicción de tiempo de llegada y Bz de una CME; B30-C13 describe CME sin pronóstico.
-
-### B33-C13 — Pronóstico de actividad geomagnética
-
-*Programada.* Predicción de Kp y Dst a partir de viento solar; ninguna clase actual lo cubre.
-
-### B33-C14 — Verificación de alertas con tablas de contingencia
-
-*Programada.* Aciertos, falsas alarmas y razón de falsas alarmas para evaluar alertas; ninguna clase actual trata verificación de pronósticos.
+El bloque es educativo. Los modelos son simplificados y no sustituyen los productos operativos ni los avisos oficiales de clima espacial; no se estiman costos, dosis ni riesgos de ninguna red, vuelo o servicio real. Las escalas oficiales se citan con fecha de consulta y el resto de los números son ilustrativos y se rotulan como tales.
 
 ## Roles que lo usan
 
 - [Heliofísica y climatología espacial](../../rutas/heliofisica-y-climatologia-espacial.md)
+
+[🏠 Volver al programa](../../README.md) · [➡️ B34 — Corona solar y erupciones: diagnóstico y modelos](./B34-corona-solar-y-erupciones-diagnostico-y-modelos.md)

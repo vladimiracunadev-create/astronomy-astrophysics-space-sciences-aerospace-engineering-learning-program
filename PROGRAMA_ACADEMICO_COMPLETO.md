@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 581 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 595 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -755,20 +755,20 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (14 clases): Validación de modelos MHD con eventos solares documentados; Modelos de propagación de CME; Eventos extremos históricos de clima espacial…*
 
-- **B33-C01 — Validación de modelos MHD con eventos solares documentados.** *Programada.* Enseña a contrastar simulación y evento observado con métricas; ninguna clase actual trata la validación de modelos heliosféricos.
-- **B33-C02 — Modelos de propagación de CME.** *Programada.* Modelos de arrastre y MHD para la llegada de CME a la Tierra; B30-C13 describe el fenómeno sin modelar su propagación.
-- **B33-C03 — Eventos extremos históricos de clima espacial.** *Programada.* Carrington 1859, Quebec 1989 y Halloween 2003 como casos para dimensionar el peor escenario; B30-C19 es solo panorama.
-- **B33-C04 — Escalas de severidad de clima espacial.** *Programada.* Escalas NOAA G/S/R y su construcción; necesarias para medir y comunicar severidad y ausentes en B30.
-- **B33-C05 — Comunicación de riesgo y alertas de clima espacial.** *Programada.* Redacción de alertas operativas para usuarios no expertos; B124-C18 trata divulgación general, no alertas de riesgo.
-- **B33-C06 — Corrientes geomagnéticas inducidas (GIC).** *Programada.* Acoplo geoeléctrico entre tormentas y conductores a tierra; B30-C19 solo lo enumera.
-- **B33-C07 — Impactos del clima espacial en redes eléctricas.** *Programada.* Saturación de transformadores y colapso de red como cadena de daño; ninguna clase actual la desarrolla.
-- **B33-C08 — Dosis de radiación en aviación.** *Programada.* Cálculo de dosis en vuelos polares y eventos de partículas; B105-C06 trata exposición de tripulaciones espaciales, no aviación.
-- **B33-C09 — Planes de continuidad ante eventos de clima espacial.** *Programada.* Plan escalonado de operación degradada y recuperación; B119-C16 trata la protección de infraestructura de forma general.
-- **B33-C10 — Modelos de viento solar para pronóstico (Parker y WSA).** *Programada.* B30-C10 describe el viento solar; falta construir y usar modelos que lo predicen como entrada de pronóstico.
-- **B33-C11 — Modelos empíricos y de persistencia en clima espacial.** *Programada.* Líneas base empíricas (persistencia, recurrencia de 27 días) para comparar contra modelos físicos; ausentes.
-- **B33-C12 — Pronóstico de llegada y severidad de CME.** *Programada.* Predicción de tiempo de llegada y Bz de una CME; B30-C13 describe CME sin pronóstico.
-- **B33-C13 — Pronóstico de actividad geomagnética.** *Programada.* Predicción de Kp y Dst a partir de viento solar; ninguna clase actual lo cubre.
-- **B33-C14 — Verificación de alertas con tablas de contingencia.** *Programada.* Aciertos, falsas alarmas y razón de falsas alarmas para evaluar alertas; ninguna clase actual trata verificación de pronósticos.
+- **B33-C01 — Validación de modelos MHD con eventos solares documentados.** *Texto redactado, pendiente de revisión.* Enseña a contrastar simulación y evento observado con métricas; ninguna clase actual trata la validación de modelos heliosféricos.
+- **B33-C02 — Modelos de propagación de CME.** *Texto redactado, pendiente de revisión.* Modelos de arrastre y MHD para la llegada de CME a la Tierra; B30-C13 describe el fenómeno sin modelar su propagación.
+- **B33-C03 — Eventos extremos históricos de clima espacial.** *Texto redactado, pendiente de revisión.* Carrington 1859, Quebec 1989 y Halloween 2003 como casos para dimensionar el peor escenario; B30-C19 es solo panorama.
+- **B33-C04 — Escalas de severidad de clima espacial.** *Texto redactado, pendiente de revisión.* Escalas NOAA G/S/R y su construcción; necesarias para medir y comunicar severidad y ausentes en B30.
+- **B33-C05 — Comunicación de riesgo y alertas de clima espacial.** *Texto redactado, pendiente de revisión.* Redacción de alertas operativas para usuarios no expertos; B124-C18 trata divulgación general, no alertas de riesgo.
+- **B33-C06 — Corrientes geomagnéticas inducidas (GIC).** *Texto redactado, pendiente de revisión.* Acoplo geoeléctrico entre tormentas y conductores a tierra; B30-C19 solo lo enumera.
+- **B33-C07 — Impactos del clima espacial en redes eléctricas.** *Texto redactado, pendiente de revisión.* Saturación de transformadores y colapso de red como cadena de daño; ninguna clase actual la desarrolla.
+- **B33-C08 — Dosis de radiación en aviación.** *Texto redactado, pendiente de revisión.* Cálculo de dosis en vuelos polares y eventos de partículas; B105-C06 trata exposición de tripulaciones espaciales, no aviación.
+- **B33-C09 — Planes de continuidad ante eventos de clima espacial.** *Texto redactado, pendiente de revisión.* Plan escalonado de operación degradada y recuperación; B119-C16 trata la protección de infraestructura de forma general.
+- **B33-C10 — Modelos de viento solar para pronóstico (Parker y WSA).** *Texto redactado, pendiente de revisión.* B30-C10 describe el viento solar; falta construir y usar modelos que lo predicen como entrada de pronóstico.
+- **B33-C11 — Modelos empíricos y de persistencia en clima espacial.** *Texto redactado, pendiente de revisión.* Líneas base empíricas (persistencia, recurrencia de 27 días) para comparar contra modelos físicos; ausentes.
+- **B33-C12 — Pronóstico de llegada y severidad de CME.** *Texto redactado, pendiente de revisión.* Predicción de tiempo de llegada y Bz de una CME; B30-C13 describe CME sin pronóstico.
+- **B33-C13 — Pronóstico de actividad geomagnética.** *Texto redactado, pendiente de revisión.* Predicción de Kp y Dst a partir de viento solar; ninguna clase actual lo cubre.
+- **B33-C14 — Verificación de alertas con tablas de contingencia.** *Texto redactado, pendiente de revisión.* Aciertos, falsas alarmas y razón de falsas alarmas para evaluar alertas; ninguna clase actual trata verificación de pronósticos.
 
 ### B34 — Corona solar y erupciones: diagnóstico y modelos
 
