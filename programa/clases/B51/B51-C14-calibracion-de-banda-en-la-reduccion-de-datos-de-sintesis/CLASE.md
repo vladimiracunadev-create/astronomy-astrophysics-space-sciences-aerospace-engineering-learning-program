@@ -1,7 +1,7 @@
 # B51-C14 — Calibración de banda en la reducción de datos de síntesis
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C13 — Marcado de datos espurios e interferencia en visibilidades](../B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md) · [Siguiente: B52-C01 — Colapso de nebulosa protosolar →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [← Anterior: B51-C13 — Marcado de datos espurios e interferencia en visibilidades](../B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md) · [Siguiente: B52-C01 — Colapso de nebulosa protosolar →](../../B52/B52-C01-colapso-de-nebulosa-protosolar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ La banda calibrada reduce el residuo de 21 mJy a 3,3 mJy y recupera la línea de
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B51-C13 — Marcado de datos espurios e interferencia en visibilidades](../B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B52-C01 — Colapso de nebulosa protosolar →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c01)
+[← Anterior: B51-C13 — Marcado de datos espurios e interferencia en visibilidades](../B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md) · [📚 Bloque B51](../../../tronco-comun/B51-interferometria-avanzada-y-reduccion-de-datos-de-radio.md) · [Siguiente: B52-C01 — Colapso de nebulosa protosolar →](../../B52/B52-C01-colapso-de-nebulosa-protosolar/CLASE.md)
 <!-- /nav -->
