@@ -66,15 +66,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b24-c09"></a>B24-C09 | Atmósferas y opacidades | Atmósfera gris, profundidad óptica, opacidad de Thomson y límite de Eddington. | Perfil de una atmósfera gris |
-| <a id="b24-c10"></a>B24-C10 | Espectros y clasificación estelar | Ley de Wien, Boltzmann y Saha, y la secuencia espectral. | Ficha de clasificación de una estrella |
+| <a id="b24-c09"></a>[B24-C09](../clases/B24/B24-C09-atmosferas-y-opacidades/CLASE.md) | Atmósferas y opacidades | Atmósfera gris, profundidad óptica, opacidad de Thomson y límite de Eddington. | Perfil de una atmósfera gris |
+| <a id="b24-c10"></a>[B24-C10](../clases/B24/B24-C10-espectros-y-clasificacion-estelar/CLASE.md) | Espectros y clasificación estelar | Ley de Wien, Boltzmann y Saha, y la secuencia espectral. | Ficha de clasificación de una estrella |
 
 ### Tramo 4 · Rotación, actividad, variabilidad y oscilaciones
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b24-c11"></a>B24-C11 | Rotación y campos magnéticos | Velocidad ecuatorial, rotación crítica, conservación del momento angular y del flujo. | Ficha de rotación y campo |
-| <a id="b24-c12"></a>B24-C12 | Manchas y actividad estelar | Curva de luz de una mancha, periodo de rotación y contraste. | Curva de luz sintética de una estrella con manchas |
+| <a id="b24-c11"></a>[B24-C11](../clases/B24/B24-C11-rotacion-y-campos-magneticos/CLASE.md) | Rotación y campos magnéticos | Velocidad ecuatorial, rotación crítica, conservación del momento angular y del flujo. | Ficha de rotación y campo |
+| <a id="b24-c12"></a>[B24-C12](../clases/B24/B24-C12-manchas-y-actividad-estelar/CLASE.md) | Manchas y actividad estelar | Curva de luz de una mancha, periodo de rotación y contraste. | Curva de luz sintética de una estrella con manchas |
 | <a id="b24-c13"></a>B24-C13 | Estrellas variables | Relación periodo–luminosidad, módulo de distancia y relación periodo–densidad. | Calibración periodo–luminosidad |
 | <a id="b24-c14"></a>B24-C14 | Asterosismología inicial | Modos acústicos, separación grande y escalas con la densidad media. | Ficha asterosísmica |
 

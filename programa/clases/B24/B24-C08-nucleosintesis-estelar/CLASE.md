@@ -1,7 +1,7 @@
 # B24-C08 — Nucleosíntesis estelar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C07 — Ciclo CNO y cadena protón-protón](../B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md) · [Siguiente: B24-C09 — Atmósferas y opacidades →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C07 — Ciclo CNO y cadena protón-protón](../B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md) · [Siguiente: B24-C09 — Atmósferas y opacidades →](../B24-C09-atmosferas-y-opacidades/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ Cada combustible rinde menos energía por kilogramo que el anterior (el triple a
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B24-C07 — Ciclo CNO y cadena protón-protón](../B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C09 — Atmósferas y opacidades →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c09)
+[← Anterior: B24-C07 — Ciclo CNO y cadena protón-protón](../B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C09 — Atmósferas y opacidades →](../B24-C09-atmosferas-y-opacidades/CLASE.md)
 <!-- /nav -->
