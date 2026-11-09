@@ -1,7 +1,7 @@
 # B52-C10 — Arquitecturas de sistemas exoplanetarios
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C09 — Dispersión de discos de gas](../B52-C09-dispersion-de-discos-de-gas/CLASE.md) · [Siguiente: B52-C11 — Formación de satélites naturales →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [← Anterior: B52-C09 — Dispersión de discos de gas](../B52-C09-dispersion-de-discos-de-gas/CLASE.md) · [Siguiente: B52-C11 — Formación de satélites naturales →](../B52-C11-formacion-de-satelites-naturales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -319,5 +319,5 @@ El espaciado mínimo del Sistema Solar es `7.9` (Júpiter–Saturno) y el sistem
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B52-C09 — Dispersión de discos de gas](../B52-C09-dispersion-de-discos-de-gas/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C11 — Formación de satélites naturales →](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md#b52-c11)
+[← Anterior: B52-C09 — Dispersión de discos de gas](../B52-C09-dispersion-de-discos-de-gas/CLASE.md) · [📚 Bloque B52](../../../tronco-comun/B52-formacion-y-dinamica-de-sistemas-planetarios.md) · [Siguiente: B52-C11 — Formación de satélites naturales →](../B52-C11-formacion-de-satelites-naturales/CLASE.md)
 <!-- /nav -->

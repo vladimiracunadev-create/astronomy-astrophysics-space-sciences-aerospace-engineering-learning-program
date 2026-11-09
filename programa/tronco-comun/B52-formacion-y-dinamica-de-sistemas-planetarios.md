@@ -64,10 +64,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b52-c11"></a>B52-C11 | Formación de satélites naturales | Esfera de Hill y ubicación de los satélites galileanos. | Ficha de los satélites en la esfera de Hill |
-| <a id="b52-c12"></a>B52-C12 | Anillos planetarios | Límite de Roche con un modelo de dos esferas. | Ficha del límite de Roche |
-| <a id="b52-c13"></a>B52-C13 | Pequeños cuerpos remanentes | Distribución de tamaños en ley de potencias y su estimación. | Ficha de la distribución de tamaños |
-| <a id="b52-c14"></a>B52-C14 | Cinturones de asteroides | Lagunas de Kirkwood como resonancias con Júpiter. | Ficha de las lagunas de Kirkwood |
+| <a id="b52-c11"></a>[B52-C11](../clases/B52/B52-C11-formacion-de-satelites-naturales/CLASE.md) | Formación de satélites naturales | Esfera de Hill y ubicación de los satélites galileanos. | Ficha de los satélites en la esfera de Hill |
+| <a id="b52-c12"></a>[B52-C12](../clases/B52/B52-C12-anillos-planetarios/CLASE.md) | Anillos planetarios | Límite de Roche con un modelo de dos esferas. | Ficha del límite de Roche |
+| <a id="b52-c13"></a>[B52-C13](../clases/B52/B52-C13-pequenos-cuerpos-remanentes/CLASE.md) | Pequeños cuerpos remanentes | Distribución de tamaños en ley de potencias y su estimación. | Ficha de la distribución de tamaños |
+| <a id="b52-c14"></a>[B52-C14](../clases/B52/B52-C14-cinturones-de-asteroides/CLASE.md) | Cinturones de asteroides | Lagunas de Kirkwood como resonancias con Júpiter. | Ficha de las lagunas de Kirkwood |
 | <a id="b52-c15"></a>B52-C15 | Cinturón de Kuiper | Resonancias con Neptuno y temperatura de equilibrio a 40 ua. | Ficha del cinturón de Kuiper |
 | <a id="b52-c16"></a>B52-C16 | Nube de Oort | Energía de ligadura, periodo y perturbación por el paso de una estrella. | Ficha de las perturbaciones de la nube de Oort |
 
