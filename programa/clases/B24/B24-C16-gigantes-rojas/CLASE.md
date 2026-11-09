@@ -1,7 +1,7 @@
 # B24-C16 — Gigantes rojas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C15 — Estrellas de baja masa](../B24-C15-estrellas-de-baja-masa/CLASE.md) · [Siguiente: B24-C17 — Estrellas masivas y pérdida de masa →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [← Anterior: B24-C15 — Estrellas de baja masa](../B24-C15-estrellas-de-baja-masa/CLASE.md) · [Siguiente: B24-C17 — Estrellas masivas y pérdida de masa →](../B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Una gigante roja es grande, fría y poco densa, con un núcleo de helio que crec
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B24-C15 — Estrellas de baja masa](../B24-C15-estrellas-de-baja-masa/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C17 — Estrellas masivas y pérdida de masa →](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md#b24-c17)
+[← Anterior: B24-C15 — Estrellas de baja masa](../B24-C15-estrellas-de-baja-masa/CLASE.md) · [📚 Bloque B24](../../../tronco-comun/B24-fisica-y-evolucion-de-estrellas.md) · [Siguiente: B24-C17 — Estrellas masivas y pérdida de masa →](../B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md)
 <!-- /nav -->

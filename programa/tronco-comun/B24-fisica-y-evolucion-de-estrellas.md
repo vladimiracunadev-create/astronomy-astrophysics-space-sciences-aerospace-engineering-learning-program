@@ -84,15 +84,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b24-c15"></a>[B24-C15](../clases/B24/B24-C15-estrellas-de-baja-masa/CLASE.md) | Estrellas de baja masa | Vida en secuencia principal y su dependencia de la masa. | Tabla de vidas por masa |
 | <a id="b24-c16"></a>[B24-C16](../clases/B24/B24-C16-gigantes-rojas/CLASE.md) | Gigantes rojas | Expansión y enfriamiento, radio de gigantes y quemado en capa. | Ficha de una gigante roja |
-| <a id="b24-c17"></a>B24-C17 | Estrellas masivas y pérdida de masa | Límite de Eddington, vientos y masa perdida acumulada. | Balance de masa de una estrella masiva |
-| <a id="b24-c18"></a>B24-C18 | Etapas finales de evolución | Politropo `n = 3`, masa de Chandrasekhar y destinos finales. | Ficha de remanentes |
+| <a id="b24-c17"></a>[B24-C17](../clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md) | Estrellas masivas y pérdida de masa | Límite de Eddington, vientos y masa perdida acumulada. | Balance de masa de una estrella masiva |
+| <a id="b24-c18"></a>[B24-C18](../clases/B24/B24-C18-etapas-finales-de-evolucion/CLASE.md) | Etapas finales de evolución | Politropo `n = 3`, masa de Chandrasekhar y destinos finales. | Ficha de remanentes |
 
 ### Tramo 6 · Cúmulos y modelo integrador
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b24-c19"></a>B24-C19 | Cúmulos y edades estelares | Punto de desvío, isócronas y edad de un cúmulo. | Edad de un cúmulo sintético |
-| <a id="b24-c20"></a>B24-C20 | Modelo simplificado de estructura estelar | Modelo politrópico del Sol contrastado con valores de referencia. | Modelo politrópico validado |
+| <a id="b24-c19"></a>[B24-C19](../clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md) | Cúmulos y edades estelares | Punto de desvío, isócronas y edad de un cúmulo. | Edad de un cúmulo sintético |
+| <a id="b24-c20"></a>[B24-C20](../clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md) | Modelo simplificado de estructura estelar | Modelo politrópico del Sol contrastado con valores de referencia. | Modelo politrópico validado |
 
 ### Tramo 7 · Ampliación `0.2.0`: fase AGB y evolución binaria
 
