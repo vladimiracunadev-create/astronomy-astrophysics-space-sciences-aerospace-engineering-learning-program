@@ -119,6 +119,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 El bloque es educativo. Los modelos son simplificados (esferas sin rotación ni campo, relaciones de escala ilustrativas) y no sustituyen a los códigos de evolución estelar ni a la literatura primaria. Los valores del Sol que proceden de un modelo se rotulan como tales. Las cifras publicadas se citan con fecha de consulta.
 
+## 📖 Fuentes consultadas en el bloque (resumen)
+
+Las clases citan, con localizador, qué respalda cada fuente, fecha de consulta (2026-11-09) y estado. Las constantes proceden de NIST (CODATA 2022) y los valores nominales solares de la IAU 2015 (Resolución B3, texto del PDF extraído); los valores centrales del Sol son de modelo (hoja de datos del Sol de la NASA/NSSDC). De los artículos citados (Gaia DR2, Karakas y Lattanzio, Sana et al., Smith, Heger et al., Riess et al., Chaplin y Miglio, Kjeldsen y Bedding, Bedding et al., McQuillan et al., Wright et al., Pecaut y Mamajek, Asplund et al., Eker et al., Kroupa, Ivanova et al., Choi et al., Paxton et al., Borexino) solo se consultó el resumen. La aproximación de Eggleton del lóbulo de Roche no se consultó y solo se usa como contraste de un cálculo numérico propio (C22). Las cifras sintéticas o ilustrativas están rotuladas como tales en cada clase.
+
 ## Fuentes de orientación preliminar
 
 - **[NASA-DATA]** [NASA Science Data](https://science.data.nasa.gov/) — Portal general de datos y servicios científicos.

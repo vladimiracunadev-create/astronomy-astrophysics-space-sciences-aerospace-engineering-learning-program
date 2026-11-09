@@ -1361,7 +1361,7 @@ c1e6cf1e90c784e0d42b67164b3e2e2f65283b81d31c626f9ac2339b116eafc6  programa/clase
 ef2111585951fceb243cbecd88dbc2bc2c04c0fb53040fab303238b9c982b4ed  programa/clases/B24/B24-C16-gigantes-rojas/CLASE.md
 ca36f8fad322357cb8801623472ed2402930b4d76b54acc053f6b1c6b3579f56  programa/clases/B24/B24-C16-gigantes-rojas/FICHA_EDITORIAL.md
 b16d57b147692a2db378d24f52a6274f89dba628ae91fd31e9fdedf748e2f18a  programa/clases/B24/B24-C16-gigantes-rojas/gigante.py
-9d0353f7d3ea3766daadf48386cc58f162b209bc5f9dc29cf1c6dfe7e52ed74e  programa/clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md
+7e6fa69d786fe679a55b75bd93d38369d0a145e17f1348bf76b4d3b74d67c281  programa/clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md
 895d9b04d64e8165983ff7cbad9c5f92618e325fc1c782afc295dcae75ae59c6  programa/clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/FICHA_EDITORIAL.md
 cb9ede6240a674e3b6a5f691de072d3e08b87e556449740dfcd0b97b2c9e53f3  programa/clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/perdida_masa.py
 5c8540a5d847623dc5a5ff75eced35fd6c6909c67e61a5f2d453f22a7ae0c800  programa/clases/B24/B24-C18-etapas-finales-de-evolucion/CLASE.md
@@ -1376,7 +1376,7 @@ d395e5f56e667fb4d50eeef12b1ba1ca84e6eb2b787915d68ae1025a296650f9  programa/clase
 8cd6cfbd702b36f01990b409e91ef45e663fe89706842acf25e2a8dad6e575bf  programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md
 9fd3b564b6c3e4da971962d66c18c539f635450ab82c95dd2ce962bd992da395  programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/FICHA_EDITORIAL.md
 6861cb210741cb9f6948e84ef51ecd50a2b3751130c1aa59115b1e264c72c387  programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/proceso_s.py
-20fcc98c5f7b771a5e5e55ac2495a568aba7e5b04e69816eb54134b49bfdd547  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md
+ed6ab4cde5faf83adb02bf1e34b5474fe2c9cb89e25e31403659a98d8aa44962  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md
 f84aeb256bbdce0e6a0a63b913db9abd3b94cd93679f96eb3d6a11e4f76f50d0  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/FICHA_EDITORIAL.md
 51a93337e23a96867ee85b39b7e2346efed217dd4d90aabd20407bd8e071de7c  programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/roche.py
 fd0dea4dd8e08f41d55a6db3507e9a625d06537b8c7aff756a082f7b7205b10a  programa/rutas-profesionales/R01-astrofisica-estelar-y-galactica/INDICE.md
@@ -1642,7 +1642,7 @@ f50de1416d392e4ced9fa8dc86ec9bcbfb635439aa3418cc9d56fdca8cf112ab  programa/tronc
 fdc5cadebb996161ee585fa5fecdacae08943eee3ad73c1d6e2e651d6eb8e130  programa/tronco-comun/B21-metodos-numericos-para-edp-y-fluidos-computacionales.md
 5b83365ccd24a264a0c54e454307b5dc15bc467760c673241c3b391d863a6efe  programa/tronco-comun/B22-problemas-inversos-y-estimacion-de-modelos.md
 4c42ff420999822642939ad21c7d97989c435f1bfe4c9cb2f172b872ce8097ec  programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md
-e6084c983b089a05b8ce0654bf8e53c8771a2cfb7f0f24e56598e393cb56fd01  programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md
+e6503636c57790bcf668b86278dc8c9dc4041488da7a7c6dafe90f278172c8f5  programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md
 8a75c1265eea9c68d3787b7aa9f321ca6ca3f9d2c2d2d312fb9ce77ce7b9a4a8  programa/tronco-comun/B25-galaxias-y-medio-interestelar.md
 23ad1f7627c4c073cd59364453e2ab576a98c2a4f1aa82ce524eefaae590f930  programa/tronco-comun/B26-relatividad-y-cosmologia.md
 bb507372f999fe9299d8f5cb6e1012927f7769bb79be41caea219dbff32a7855  programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md

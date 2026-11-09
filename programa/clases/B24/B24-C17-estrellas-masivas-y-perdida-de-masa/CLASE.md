@@ -241,7 +241,7 @@ L_Edd(1 Msol) = 3.863e+04 L_sol (kappa_es = 0.03381 m2/kg)
    10      5e+03   0.013         14.74
    20      4e+04   0.052          3.69
    40    2.5e+05   0.162          1.18
-   80    8e+05   0.259          0.74
+   80      8e+05   0.259          0.74
 M(0) = 40.0 ; M(4 Myr) exacta = 36.3636 ; RK4 = 36.3636 ; perdida = 3.636 Msol
 comparacion: tasa constante 1e-06 Msol/yr -> perdida = 4.000 Msol
 Pruebas superadas.
