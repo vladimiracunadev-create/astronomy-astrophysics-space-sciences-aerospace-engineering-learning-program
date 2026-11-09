@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 637 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 642 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -863,11 +863,11 @@ La física del universo: estrellas, galaxias, cosmología, objetos compactos, me
 
 *Bloque nuevo (15 clases): Inflación cósmica: motivación y dinámica básica; Recalentamiento y transición a la era de radiación; Desacoplamiento de neutrinos y fondo cósmico de neutrinos…*
 
-- **B40-C01 — Inflación cósmica: motivación y dinámica básica.** *Programada.* Ningún bloque del tronco trata la inflación; B26 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales.
-- **B40-C02 — Recalentamiento y transición a la era de radiación.** *Programada.* Ninguna clase explica cómo termina la inflación y se puebla el universo con radiación y partículas.
-- **B40-C03 — Desacoplamiento de neutrinos y fondo cósmico de neutrinos.** *Programada.* B31-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano.
-- **B40-C04 — Problemas del horizonte y de la planitud.** *Programada.* Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B26-C13.
-- **B40-C05 — Perturbaciones primordiales y espectro escalar.** *Programada.* Falta cómo las fluctuaciones cuánticas generan el espectro de perturbaciones que siembra el CMB y las estructuras.
+- **B40-C01 — Inflación cósmica: motivación y dinámica básica.** *Texto redactado, pendiente de revisión.* Ningún bloque del tronco trata la inflación; B26 llega hasta FLRW y nucleosíntesis sin el mecanismo que explica las condiciones iniciales.
+- **B40-C02 — Recalentamiento y transición a la era de radiación.** *Texto redactado, pendiente de revisión.* Ninguna clase explica cómo termina la inflación y se puebla el universo con radiación y partículas.
+- **B40-C03 — Desacoplamiento de neutrinos y fondo cósmico de neutrinos.** *Texto redactado, pendiente de revisión.* B31-C11 trata oscilaciones de neutrinos, pero no su congelamiento térmico en el universo temprano.
+- **B40-C04 — Problemas del horizonte y de la planitud.** *Texto redactado, pendiente de revisión.* Ninguna clase formula los problemas cosmológicos clásicos que motivan la inflación, a partir del modelo FLRW de B26-C13.
+- **B40-C05 — Perturbaciones primordiales y espectro escalar.** *Texto redactado, pendiente de revisión.* Falta cómo las fluctuaciones cuánticas generan el espectro de perturbaciones que siembra el CMB y las estructuras.
 - **B40-C06 — Campos escalares en cosmología: potenciales y evolución.** *Programada.* Ninguna clase trata campos escalares como contenido del universo (inflatón, quintaesencia) ni sus ecuaciones de movimiento.
 - **B40-C07 — Espectro angular de potencias del CMB.** *Programada.* B26-C15 introduce el fondo cósmico, pero no el desarrollo en armónicos esféricos ni el espectro Cℓ y sus picos acústicos.
 - **B40-C08 — Polarización E y B del fondo cósmico.** *Programada.* B42-C08 trata polarización de la luz en general; falta la descomposición E/B y su significado cosmológico.

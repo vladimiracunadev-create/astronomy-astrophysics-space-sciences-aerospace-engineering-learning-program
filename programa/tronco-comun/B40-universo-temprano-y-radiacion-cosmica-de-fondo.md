@@ -43,11 +43,11 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b40-c01"></a>B40-C01 | Inflación cósmica: motivación y dinámica básica | Inflación con ecuaciones de fondo y e-pliegues. | Ficha de la inflación cósmica |
-| <a id="b40-c02"></a>B40-C02 | Recalentamiento y transición a la era de radiación | Transferencia de energía del inflatón a radiación y temperatura de recalentamiento. | Ficha del recalentamiento |
-| <a id="b40-c03"></a>B40-C03 | Desacoplamiento de neutrinos y fondo cósmico de neutrinos | Entropía, (4/11)^(1/3) y N_eff. | Ficha del fondo de neutrinos |
-| <a id="b40-c04"></a>B40-C04 | Problemas del horizonte y de la planitud | Horizonte comóvil, ángulo causal y desvanecimiento de la curvatura. | Ficha de horizonte y planitud |
-| <a id="b40-c05"></a>B40-C05 | Perturbaciones primordiales y espectro escalar | Espectro de potencias, inclinación y razón tensor-escalar. | Ficha del espectro primordial |
+| <a id="b40-c01"></a>[B40-C01](../clases/B40/B40-C01-inflacion-cosmica-motivacion-y-dinamica-basica/CLASE.md) | Inflación cósmica: motivación y dinámica básica | Inflación con ecuaciones de fondo y e-pliegues. | Ficha de la inflación cósmica |
+| <a id="b40-c02"></a>[B40-C02](../clases/B40/B40-C02-recalentamiento-y-transicion-a-la-era-de-radiacion/CLASE.md) | Recalentamiento y transición a la era de radiación | Transferencia de energía del inflatón a radiación y temperatura de recalentamiento. | Ficha del recalentamiento |
+| <a id="b40-c03"></a>[B40-C03](../clases/B40/B40-C03-desacoplamiento-de-neutrinos-y-fondo-cosmico-de-neutrinos/CLASE.md) | Desacoplamiento de neutrinos y fondo cósmico de neutrinos | Entropía, (4/11)^(1/3) y N_eff. | Ficha del fondo de neutrinos |
+| <a id="b40-c04"></a>[B40-C04](../clases/B40/B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md) | Problemas del horizonte y de la planitud | Horizonte comóvil, ángulo causal y desvanecimiento de la curvatura. | Ficha de horizonte y planitud |
+| <a id="b40-c05"></a>[B40-C05](../clases/B40/B40-C05-perturbaciones-primordiales-y-espectro-escalar/CLASE.md) | Perturbaciones primordiales y espectro escalar | Espectro de potencias, inclinación y razón tensor-escalar. | Ficha del espectro primordial |
 | <a id="b40-c06"></a>B40-C06 | Campos escalares en cosmología: potenciales y evolución | Ecuación de Klein-Gordon y w promedio. | Ficha de campos escalares |
 
 ### Tramo 2 · Anisotropías y señales

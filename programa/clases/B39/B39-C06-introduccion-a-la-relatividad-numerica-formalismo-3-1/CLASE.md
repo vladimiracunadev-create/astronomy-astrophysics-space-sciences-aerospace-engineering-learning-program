@@ -1,7 +1,7 @@
 # B39-C06 — Introducción a la relatividad numérica: formalismo 3+1
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [← Anterior: B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano](../B39-C05-ecuaciones-de-campo-de-einstein-y-limite-newtoniano/CLASE.md) · [Siguiente: B40-C01 — Inflación cósmica: motivación y dinámica básica →](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md#b40-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [← Anterior: B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano](../B39-C05-ecuaciones-de-campo-de-einstein-y-limite-newtoniano/CLASE.md) · [Siguiente: B40-C01 — Inflación cósmica: motivación y dinámica básica →](../../B40/B40-C01-inflacion-cosmica-motivacion-y-dinamica-basica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ La métrica de Painlevé–Gullstrand tiene lapso 1, desplazamiento 0,707 y liga
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano](../B39-C05-ecuaciones-de-campo-de-einstein-y-limite-newtoniano/CLASE.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [Siguiente: B40-C01 — Inflación cósmica: motivación y dinámica básica →](../../../tronco-comun/B40-universo-temprano-y-radiacion-cosmica-de-fondo.md#b40-c01)
+[← Anterior: B39-C05 — Ecuaciones de campo de Einstein y límite newtoniano](../B39-C05-ecuaciones-de-campo-de-einstein-y-limite-newtoniano/CLASE.md) · [📚 Bloque B39](../../../tronco-comun/B39-relatividad-general-avanzada.md) · [Siguiente: B40-C01 — Inflación cósmica: motivación y dinámica básica →](../../B40/B40-C01-inflacion-cosmica-motivacion-y-dinamica-basica/CLASE.md)
 <!-- /nav -->
