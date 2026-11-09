@@ -65,15 +65,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b27-c07"></a>[B27-C07](../clases/B27/B27-C07-metricas-de-agujeros-negros/CLASE.md) | Métricas de agujeros negros | Horizontes de Kerr, órbita estable más interna y eficiencia. | Ficha de una métrica de Kerr |
 | <a id="b27-c08"></a>[B27-C08](../clases/B27/B27-C08-horizonte-de-sucesos/CLASE.md) | Horizonte de sucesos | Caída libre: tiempo propio finito y tiempo coordenado divergente. | Ficha de caída al horizonte |
-| <a id="b27-c09"></a>B27-C09 | Órbitas en campos fuertes | Esfera de fotones, órbitas ligadas y precesión fuerte. | Ficha de órbitas en campo fuerte |
+| <a id="b27-c09"></a>[B27-C09](../clases/B27/B27-C09-orbitas-en-campos-fuertes/CLASE.md) | Órbitas en campos fuertes | Esfera de fotones, órbitas ligadas y precesión fuerte. | Ficha de órbitas en campo fuerte |
 
 ### Tramo 4 · Acreción, chorros y sincrotrón
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b27-c10"></a>B27-C10 | Discos de acreción | Perfil de temperatura de un disco delgado y luminosidad. | Perfil de temperatura de un disco |
-| <a id="b27-c11"></a>B27-C11 | Chorros relativistas | Aberración, movimiento superlumínico aparente y amplificación Doppler. | Ficha de un chorro relativista |
-| <a id="b27-c12"></a>B27-C12 | Radiación sincrotrón | Potencia, frecuencia crítica y espectro de una población de electrones. | Ficha de radiación sincrotrón |
+| <a id="b27-c10"></a>[B27-C10](../clases/B27/B27-C10-discos-de-acrecion/CLASE.md) | Discos de acreción | Perfil de temperatura de un disco delgado y luminosidad. | Perfil de temperatura de un disco |
+| <a id="b27-c11"></a>[B27-C11](../clases/B27/B27-C11-chorros-relativistas/CLASE.md) | Chorros relativistas | Aberración, movimiento superlumínico aparente y amplificación Doppler. | Ficha de un chorro relativista |
+| <a id="b27-c12"></a>[B27-C12](../clases/B27/B27-C12-radiacion-sincrotron/CLASE.md) | Radiación sincrotrón | Potencia, frecuencia crítica y espectro de una población de electrones. | Ficha de radiación sincrotrón |
 
 ### Tramo 5 · Binarias y explosiones
 

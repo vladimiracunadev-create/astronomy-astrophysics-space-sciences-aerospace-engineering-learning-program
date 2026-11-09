@@ -1,7 +1,7 @@
 # B27-C08 — Horizonte de sucesos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C07 — Métricas de agujeros negros](../B27-C07-metricas-de-agujeros-negros/CLASE.md) · [Siguiente: B27-C09 — Órbitas en campos fuertes →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [← Anterior: B27-C07 — Métricas de agujeros negros](../B27-C07-metricas-de-agujeros-negros/CLASE.md) · [Siguiente: B27-C09 — Órbitas en campos fuertes →](../B27-C09-orbitas-en-campos-fuertes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ La caída tarda un tiempo propio finito, el tiempo coordenado diverge logarítmi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B27-C07 — Métricas de agujeros negros](../B27-C07-metricas-de-agujeros-negros/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C09 — Órbitas en campos fuertes →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c09)
+[← Anterior: B27-C07 — Métricas de agujeros negros](../B27-C07-metricas-de-agujeros-negros/CLASE.md) · [📚 Bloque B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md) · [Siguiente: B27-C09 — Órbitas en campos fuertes →](../B27-C09-orbitas-en-campos-fuertes/CLASE.md)
 <!-- /nav -->
