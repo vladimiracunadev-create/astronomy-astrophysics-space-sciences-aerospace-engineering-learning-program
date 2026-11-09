@@ -1,7 +1,7 @@
 # B25-C04 — Nubes moleculares y polvo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C03 — Medio interestelar multifásico](../B25-C03-medio-interestelar-multifasico/CLASE.md) · [Siguiente: B25-C05 — Regiones de formación estelar →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [← Anterior: B25-C03 — Medio interestelar multifásico](../B25-C03-medio-interestelar-multifasico/CLASE.md) · [Siguiente: B25-C05 — Regiones de formación estelar →](../B25-C05-regiones-de-formacion-estelar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Una nube con `10 K km/s` sobre `400 pc²` pesa unas `1,7 × 10⁴ M☉` con un m
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B25-C03 — Medio interestelar multifásico](../B25-C03-medio-interestelar-multifasico/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C05 — Regiones de formación estelar →](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md#b25-c05)
+[← Anterior: B25-C03 — Medio interestelar multifásico](../B25-C03-medio-interestelar-multifasico/CLASE.md) · [📚 Bloque B25](../../../tronco-comun/B25-galaxias-y-medio-interestelar.md) · [Siguiente: B25-C05 — Regiones de formación estelar →](../B25-C05-regiones-de-formacion-estelar/CLASE.md)
 <!-- /nav -->
