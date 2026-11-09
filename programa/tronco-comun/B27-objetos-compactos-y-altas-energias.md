@@ -1,97 +1,122 @@
 # B27 — Objetos compactos y altas energías
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 2 clases programadas (`B27-C21` a `B27-C22`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 2 clases programadas por la ampliación (`B27-C21` a `B27-C22`), listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 2 de la ampliación · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia objetos compactos y altas energías; cubre desde «Presión de degeneración» hasta «Análisis multibanda de evento extremo». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo son y cómo se observan los objetos más densos y energéticos del universo**: enanas blancas, estrellas de neutrones, púlsares, magnetares, agujeros negros, sus discos y chorros, las binarias compactas y las explosiones que los forman o los alimentan, y los instrumentos y mensajeros con que se estudian. Cada clase cierra con un cálculo verificable contra un caso analítico o una referencia independiente; las cifras observadas se citan con fuente y se distinguen de lo sintético.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B27-C01 — Presión de degeneración
+1. Calcular la presión de un gas degenerado y la estructura de enanas blancas y estrellas de neutrones, con sus límites de masa.
+2. Relacionar una ecuación de estado con masas y radios medidos y con la causalidad.
+3. Interpretar púlsares y magnetares como relojes y campos extremos.
+4. Calcular horizontes, órbitas y eficiencias radiativas en campos fuertes.
+5. Describir discos de acreción, chorros relativistas y sus procesos de emisión (sincrotrón y Compton inverso).
+6. Evaluar la evolución de binarias compactas y los balances de energía de supernovas, disrupciones por marea y explosiones de rayos gamma.
+7. Planificar y analizar observaciones multibanda y multimensajero, incluido el ajuste de espectros con respuesta instrumental.
 
-Explica el fenómeno o técnica de «presión de degeneración» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B27-C02 — Enanas blancas y límite de Chandrasekhar
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Materia degenerada<br/>y remanentes"]
+    B["C05-C06<br/>Púlsares<br/>y magnetares"]
+    C["C07-C09<br/>Agujeros negros"]
+    D["C10-C12<br/>Acreción, chorros<br/>y sincrotrón"]
+    E["C13-C17<br/>Binarias y explosiones"]
+    F["C18-C20<br/>Mensajeros y observación"]
+    G["C21-C22<br/>Compton inverso<br/>y espectros"]
+    A --> B --> C --> D --> E --> F --> G
+```
 
-Delimita «enanas blancas y límite de Chandrasekhar», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Siete tramos encadenados: materia degenerada (C01–C04), púlsares y magnetares (C05–C06), agujeros negros (C07–C09), acreción y emisión (C10–C12), binarias y explosiones (C13–C17), mensajeros y observatorios (C18–C20) y la ampliación con Compton inverso y análisis espectral (C21–C22).
 
-### B27-C03 — Estrellas de neutrones
+## 🗂️ Las 22 clases en resumen (20 de la malla base + 2 de la ampliación)
 
-Introduce el contexto y los principios de «estrellas de neutrones» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B27-C04 — Ecuación de estado nuclear
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Presenta «ecuación de estado nuclear» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
+### Tramo 1 · Materia degenerada y remanentes
 
-### B27-C05 — Púlsares y relojes naturales
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c01"></a>[B27-C01](../clases/B27/B27-C01-presion-de-degeneracion/CLASE.md) | Presión de degeneración | Presión de Fermi exacta y límites no relativista y ultrarrelativista. | Ficha de presión degenerada |
+| <a id="b27-c02"></a>[B27-C02](../clases/B27/B27-C02-enanas-blancas-y-limite-de-chandrasekhar/CLASE.md) | Enanas blancas y límite de Chandrasekhar | Relación masa–radio por integración del equilibrio. | Tabla masa–radio de enanas blancas |
+| <a id="b27-c03"></a>[B27-C03](../clases/B27/B27-C03-estrellas-de-neutrones/CLASE.md) | Estrellas de neutrones | Ecuación TOV, masa máxima y compacidad. | Ficha de una familia de estrellas de neutrones |
+| <a id="b27-c04"></a>[B27-C04](../clases/B27/B27-C04-ecuacion-de-estado-nuclear/CLASE.md) | Ecuación de estado nuclear | EOS por tramos frente a restricciones de masa y radio. | Tabla de EOS frente a restricciones |
 
-Presenta qué significa «púlsares y relojes naturales», sus elementos esenciales y su función dentro de objetos compactos y altas energías.
+### Tramo 2 · Púlsares y magnetares
 
-### B27-C06 — Magnetares y campos extremos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c05"></a>B27-C05 | Púlsares y relojes naturales | Frenado magnético, campo y edad característica; tiempos de llegada. | Ficha de un púlsar |
+| <a id="b27-c06"></a>B27-C06 | Magnetares y campos extremos | Campo crítico cuántico, energía magnética y ciclotrón. | Ficha de campo magnético extremo |
 
-Explica el fenómeno o técnica de «magnetares y campos extremos» y su aplicación observable o tecnológica.
+### Tramo 3 · Agujeros negros
 
-### B27-C07 — Métricas de agujeros negros
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c07"></a>B27-C07 | Métricas de agujeros negros | Horizontes de Kerr, órbita estable más interna y eficiencia. | Ficha de una métrica de Kerr |
+| <a id="b27-c08"></a>B27-C08 | Horizonte de sucesos | Caída libre: tiempo propio finito y tiempo coordenado divergente. | Ficha de caída al horizonte |
+| <a id="b27-c09"></a>B27-C09 | Órbitas en campos fuertes | Esfera de fotones, órbitas ligadas y precesión fuerte. | Ficha de órbitas en campo fuerte |
 
-Delimita «métricas de agujeros negros», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Acreción, chorros y sincrotrón
 
-### B27-C08 — Horizonte de sucesos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c10"></a>B27-C10 | Discos de acreción | Perfil de temperatura de un disco delgado y luminosidad. | Perfil de temperatura de un disco |
+| <a id="b27-c11"></a>B27-C11 | Chorros relativistas | Aberración, movimiento superlumínico aparente y amplificación Doppler. | Ficha de un chorro relativista |
+| <a id="b27-c12"></a>B27-C12 | Radiación sincrotrón | Potencia, frecuencia crítica y espectro de una población de electrones. | Ficha de radiación sincrotrón |
 
-Introduce el contexto y los principios de «horizonte de sucesos» para comprender su uso científico.
+### Tramo 5 · Binarias y explosiones
 
-### B27-C09 — Órbitas en campos fuertes
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c13"></a>B27-C13 | Binarias compactas | Pérdida de energía por ondas gravitacionales y tiempo hasta la fusión. | Ficha de una binaria compacta |
+| <a id="b27-c14"></a>B27-C14 | Supernovas termonucleares | Cadena radiactiva y curva de luz tardía. | Curva de luz radiactiva de una SN Ia |
+| <a id="b27-c15"></a>B27-C15 | Supernovas de colapso | Balance de energía y escala de tiempo del colapso. | Balance energético de un colapso |
+| <a id="b27-c16"></a>B27-C16 | Eventos de disrupción por marea | Radio de marea, masa de Hills y tasa de caída de masa. | Ficha de un evento de disrupción |
+| <a id="b27-c17"></a>B27-C17 | Explosiones de rayos gamma | Factor de Lorentz, colimación y retardo de llegada. | Ficha energética de una explosión de rayos gamma |
 
-Describe los componentes principales de «órbitas en campos fuertes» y por qué son relevantes para esta disciplina.
+### Tramo 6 · Mensajeros y observación
 
-### B27-C10 — Discos de acreción
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c18"></a>B27-C18 | Neutrinos de supernova | Número de neutrinos, sucesos esperados y retraso por masa. | Ficha de neutrinos de supernova |
+| <a id="b27-c19"></a>B27-C19 | Observatorios de rayos X y gamma | Estadística de conteos, significancia y sensibilidad. | Ficha de sensibilidad de un observatorio |
+| <a id="b27-c20"></a>B27-C20 | Análisis multibanda de evento extremo | Distribución espectral de energía y retardos entre bandas. | Análisis multibanda de un evento |
 
-Presenta qué significa «discos de acreción», sus elementos esenciales y su función dentro de objetos compactos y altas energías.
+### Tramo 7 · Ampliación `0.2.0`: emisión de alta energía y espectros
 
-### B27-C11 — Chorros relativistas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b27-c21"></a>B27-C21 | Dispersión Compton inversa y emisión de alta energía | Energía de fotones dispersados, régimen de Klein–Nishina y razón sincrotrón/Compton. | Ficha de dispersión Compton inversa |
+| <a id="b27-c22"></a>B27-C22 | Análisis espectral de rayos X y gamma: ajuste con respuesta instrumental | Ajuste con matriz de respuesta y estadística de conteos. | Ajuste espectral con respuesta |
 
-Explica el fenómeno o técnica de «chorros relativistas» y su aplicación observable o tecnológica.
+## 🧵 Hilos que atraviesan el bloque
 
-### B27-C12 — Radiación sincrotrón
+- **Presión de degeneración y relatividad:** C01–C04 (materia) y C07–C09 (campos fuertes) se apoyan en B26.
+- **Energía y escalas:** C05, C10, C13–C17 comparan energías y tiempos característicos de cada fenómeno.
+- **Procesos radiativos:** C12 y C21 (sincrotrón y Compton inverso) conectan con C10–C11 y C19–C22.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico o una referencia.
+- **Observado frente a modelado:** las cifras publicadas se distinguen de lo sintético en cada clase.
 
-Caracteriza «radiación sincrotrón», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B27-C13 — Binarias compactas
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: análisis multibanda (C20) y ajuste espectral con respuesta (C22).
+- Las condiciones críticas (rotular lo sintético, no presentar un modelo ilustrativo como física real y citar solo lo consultado) no se compensan con promedio.
 
-Introduce el contexto y los principios de «binarias compactas» para comprender su uso científico.
+## ⚠️ Seguridad y límites
 
-### B27-C14 — Supernovas termonucleares
-
-Describe los componentes principales de «supernovas termonucleares» y por qué son relevantes para esta disciplina.
-
-### B27-C15 — Supernovas de colapso
-
-Presenta qué significa «supernovas de colapso», sus elementos esenciales y su función dentro de objetos compactos y altas energías.
-
-### B27-C16 — Eventos de disrupción por marea
-
-Explica el fenómeno o técnica de «eventos de disrupción por marea» y su aplicación observable o tecnológica.
-
-### B27-C17 — Explosiones de rayos gamma
-
-Delimita «explosiones de rayos gamma», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B27-C18 — Neutrinos de supernova
-
-Introduce el contexto y los principios de «neutrinos de supernova» para comprender su uso científico.
-
-### B27-C19 — Observatorios de rayos X y gamma
-
-Describe los componentes principales de «observatorios de rayos X y gamma» y por qué son relevantes para esta disciplina.
-
-### B27-C20 — Análisis multibanda de evento extremo
-
-Presenta qué significa «análisis multibanda de evento extremo», sus elementos esenciales y su función dentro de objetos compactos y altas energías.
+El bloque es educativo. Los modelos son simplificados (esferas estáticas, ecuaciones de estado ilustrativas, discos delgados) y no sustituyen la literatura primaria ni los códigos de análisis de datos. Las cifras publicadas se citan con fecha de consulta; en esta primera redacción de la mayoría de artículos solo se consultó el resumen.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +125,6 @@ Presenta qué significa «análisis multibanda de evento extremo», sus elemento
 - **[LIGO]** [LIGO Scientific Collaboration](https://www.ligo.org/) — Observaciones y métodos de ondas gravitacionales.
 - **[ADS]** [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu/) — Índice bibliográfico de literatura astronómica y física.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B28 — Astronomía multimensajero](./B28-astronomia-multimensajero.md)

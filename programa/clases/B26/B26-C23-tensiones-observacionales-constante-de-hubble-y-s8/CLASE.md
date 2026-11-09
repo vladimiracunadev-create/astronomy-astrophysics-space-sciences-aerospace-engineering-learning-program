@@ -1,7 +1,7 @@
 # B26-C23 — Tensiones observacionales: constante de Hubble y S8
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C22 — Degeneraciones de parámetros cosmológicos](../B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md) · [Siguiente: B27-C01 — Presión de degeneración →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [← Anterior: B26-C22 — Degeneraciones de parámetros cosmológicos](../B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md) · [Siguiente: B27-C01 — Presión de degeneración →](../../B27/B27-C01-presion-de-degeneracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Con cifras publicadas, la tensión de Hubble es de `4,4σ` (`p ≈ 10⁻⁵`) y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B26-C22 — Degeneraciones de parámetros cosmológicos](../B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B27-C01 — Presión de degeneración →](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md#b27-c01)
+[← Anterior: B26-C22 — Degeneraciones de parámetros cosmológicos](../B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md) · [📚 Bloque B26](../../../tronco-comun/B26-relatividad-y-cosmologia.md) · [Siguiente: B27-C01 — Presión de degeneración →](../../B27/B27-C01-presion-de-degeneracion/CLASE.md)
 <!-- /nav -->
