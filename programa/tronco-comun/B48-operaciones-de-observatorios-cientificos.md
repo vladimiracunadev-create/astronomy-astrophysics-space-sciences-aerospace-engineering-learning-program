@@ -1,97 +1,116 @@
 # B48 — Operaciones de observatorios científicos
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 3 clases programadas (`B48-C21` a `B48-C23`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B48-C21` a `B48-C23`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 3 de la ampliación · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia operaciones de observatorios científicos; cubre desde «Observatorio como sistema socio-técnico» hasta «Diseño de una campaña observacional profesional». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se opera un observatorio científico con criterio cuantitativo**: el observatorio como sistema, la concesión de tiempo y la evaluación de propuestas, la planificación por visibilidad, las ventanas atmosféricas y la meteorología del sitio, la seguridad y el control remoto, la automatización de cúpulas, la sincronización de instrumentos, la calidad de los datos y el seeing, las calibraciones, el mantenimiento y las fallas, el procesamiento en línea y el archivo, el cielo oscuro y la ciencia ciudadana, el diseño de una campaña, los protocolos de control instrumental, el autoenfoque y la observabilidad del software. Cada clase cierra con un cálculo verificable contra un caso analítico, dos vías independientes o una simulación con semilla fija, y distingue lo consultado de lo ilustrativo.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B48-C01 — Observatorio como sistema socio-técnico
+1. Calcular la eficiencia global de un observatorio como producto de factores y verificarla por simulación.
+2. Repartir tiempo de telescopio con cuotas y estimar las horas efectivas tras el clima.
+3. Planificar una observación con altitud, masa de aire y horas de visibilidad.
+4. Estimar extinción, punto de rocío, viento y reglas de cierre con histéresis.
+5. Dimensionar respaldos, latencias, vigilancia y sincronización de reloj de una instalación remota.
+6. Evaluar calidad de datos, seeing y calibraciones con incertidumbre.
+7. Diseñar una campaña con probabilidad de completarse, mantenimiento, archivo y alertas del software.
 
-Introduce «observatorio como sistema socio-técnico» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+## 🧭 Secuencia del bloque
 
-### B48-C02 — Concesión de tiempo de observación
+```mermaid
+flowchart LR
+    A["C01-C04<br/>Gobierno"]
+    B["C05-C07<br/>Sitio"]
+    C["C08-C10<br/>Control"]
+    D["C11-C15<br/>Calidad"]
+    E["C16-C20<br/>Datos"]
+    F["C21-C23<br/>Software"]
+    A --> B --> C --> D --> E --> F
+```
 
-Describe «concesión de tiempo de observación», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
+**Descripción textual.** Seis tramos encadenados: gobierno y planificación (C01–C04), sitio y entorno (C05–C07), telescopio automatizado (C08–C10), calidad y calibración (C11–C15), datos y sociedad (C16–C20) y software de observatorio (C21–C23).
 
-### B48-C03 — Propuestas científicas y criterios
+## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
 
-Introduce el contexto y los principios de «propuestas científicas y criterios» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B48-C04 — Planificación por visibilidad
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Describe los componentes principales de «planificación por visibilidad» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Gobierno y planificación
 
-### B48-C05 — Ventanas atmosféricas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b48-c01"></a>B48-C01 | Observatorio como sistema socio-técnico | Eficiencia global como producto de factores y su verificación. | Ficha del observatorio como sistema |
+| <a id="b48-c02"></a>B48-C02 | Concesión de tiempo de observación | Reparto de horas por cuotas con dos métodos y horas efectivas por clima. | Ficha de la concesión de tiempo |
+| <a id="b48-c03"></a>B48-C03 | Propuestas científicas y criterios | Revisores ruidosos y correlación con el mérito verdadero. | Ficha de propuestas y criterios |
+| <a id="b48-c04"></a>B48-C04 | Planificación por visibilidad | Altitud, masa de aire y horas de visibilidad por dos vías. | Ficha de planificación por visibilidad |
 
-Presenta qué significa «ventanas atmosféricas», sus elementos esenciales y su función dentro de operaciones de observatorios científicos.
+### Tramo 2 · Sitio y entorno
 
-### B48-C06 — Meteorología de observatorios
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b48-c05"></a>B48-C05 | Ventanas atmosféricas | Recta de Bouguer, extinción y fracción de banda útil. | Ficha de las ventanas atmosféricas |
+| <a id="b48-c06"></a>B48-C06 | Meteorología de observatorios | Punto de rocío, viento de Ornstein-Uhlenbeck y cierre con histéresis. | Ficha de meteorología del observatorio |
+| <a id="b48-c07"></a>B48-C07 | Seguridad en instalaciones remotas | Autonomía de respaldo y probabilidad de corte más largo. | Ficha de seguridad en instalaciones remotas |
 
-Explica el fenómeno o técnica de «meteorología de observatorios» y su aplicación observable o tecnológica.
+### Tramo 3 · Telescopio automatizado
 
-### B48-C07 — Seguridad en instalaciones remotas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b48-c08"></a>B48-C08 | Automatización de cúpulas | Azimut de cúpula por cuadrática y por bisección con descentrado. | Ficha de la automatización de cúpulas |
+| <a id="b48-c09"></a>B48-C09 | Control remoto de telescopios | Retardo de propagación, latencia y falsos disparos de vigilancia. | Ficha del control remoto |
+| <a id="b48-c10"></a>B48-C10 | Redes de instrumentos | Estimación de desfase de reloj con rutas asimétricas. | Ficha de la red de instrumentos |
 
-Caracteriza «seguridad en instalaciones remotas», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
+### Tramo 4 · Calidad y calibración
 
-### B48-C08 — Automatización de cúpulas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b48-c11"></a>B48-C11 | Calidad y clasificación de datos | Fracción de noches por clase de calidad, analítica y simulada. | Ficha de calidad y clasificación de datos |
+| <a id="b48-c12"></a>B48-C12 | Monitorización de seeing | Varianza de movimiento diferencial y r0 con su incertidumbre. | Ficha de la monitorización de seeing |
+| <a id="b48-c13"></a>B48-C13 | Calibraciones nocturnas | Curva de transferencia de fotones: ganancia y ruido de lectura. | Ficha de calibraciones nocturnas |
+| <a id="b48-c14"></a>B48-C14 | Mantenimiento preventivo | Costo por unidad de tiempo y reemplazo preventivo óptimo. | Ficha de mantenimiento preventivo |
+| <a id="b48-c15"></a>B48-C15 | Gestión de fallas de instrumentos | Disponibilidad MTBF/MTTR y redundancia 1 de 2. | Ficha de gestión de fallas |
 
-Introduce el contexto y los principios de «automatización de cúpulas» para comprender su uso científico.
+### Tramo 5 · Datos y sociedad
 
-### B48-C09 — Control remoto de telescopios
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b48-c16"></a>B48-C16 | Procesamiento de datos en línea | Cola M/D/1 y tasa de datos de la reducción en línea. | Ficha del procesamiento en línea |
+| <a id="b48-c17"></a>B48-C17 | Gestión de archivos observacionales | SHA-256, CRC y probabilidad de colisión. | Ficha de la gestión de archivos |
+| <a id="b48-c18"></a>B48-C18 | Protección del cielo oscuro | Suma de brillos en magnitudes y tiempo de exposición limitado por cielo. | Ficha del cielo oscuro |
+| <a id="b48-c19"></a>B48-C19 | Divulgación y ciencia ciudadana | Voto mayoritario y ponderado de voluntarios. | Ficha de ciencia ciudadana |
+| <a id="b48-c20"></a>B48-C20 | Diseño de una campaña observacional profesional | Probabilidad de completar una campaña con noches despejadas. | Ficha de la campaña observacional |
 
-Describe los componentes principales de «control remoto de telescopios» y por qué son relevantes para esta disciplina.
+### Tramo 6 · Software de observatorio
 
-### B48-C10 — Redes de instrumentos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b48-c21"></a>B48-C21 | Protocolos estándar de control instrumental (ASCOM e INDI) | Adaptador común sobre dos protocolos y latencia de sondeo. | Ficha de protocolos de control instrumental |
+| <a id="b48-c22"></a>B48-C22 | Control automático del enfocador y autoenfoque | Curva en V, ajuste cuadrático y mínimo de enfoque. | Ficha del autoenfoque |
+| <a id="b48-c23"></a>B48-C23 | Observabilidad del software de observatorio: registros, métricas y alertas | Falsas alarmas k de m y retardo de detección. | Ficha de observabilidad del software |
 
-Presenta qué significa «redes de instrumentos», sus elementos esenciales y su función dentro de operaciones de observatorios científicos.
+## 🧵 Hilos que atraviesan el bloque
 
-### B48-C11 — Calidad y clasificación de datos
+- **De la propuesta al dato archivado:** C01–C04 asignan y planifican; C05–C10 operan en el sitio; C11–C15 garantizan calidad; C16–C20 procesan, archivan y comunican; C21–C23 sostienen el software.
+- **Probabilidad en operaciones:** C01, C02, C07, C14, C15, C20 y C23 usan probabilidades de eventos independientes, colas y renovación, siempre contrastadas con simulación de semilla fija.
+- **Dos vías independientes:** cada laboratorio contrasta con un caso analítico, una segunda forma de calcular o una simulación con semilla 20261109.
+- **Observado frente a ilustrativo:** ningún dato de un observatorio real se presenta como medido; las constantes de NIST y las páginas oficiales realmente leídas se citan con fecha y el resto de los números son ilustrativos o sintéticos y se rotulan.
 
-Describe «calidad y clasificación de datos», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B48-C12 — Monitorización de seeing
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: ficha de planificación por visibilidad (C04) y ficha de la campaña observacional (C20).
+- Las condiciones críticas (rotular lo sintético, no presentar un modelo de juguete como práctica de un observatorio real y citar solo lo consultado) no se compensan con promedio.
 
-Delimita «monitorización de seeing», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+## ⚠️ Seguridad y límites
 
-### B48-C13 — Calibraciones nocturnas
-
-Introduce el contexto y los principios de «calibraciones nocturnas» para comprender su uso científico.
-
-### B48-C14 — Mantenimiento preventivo
-
-Describe los componentes principales de «mantenimiento preventivo» y por qué son relevantes para esta disciplina.
-
-### B48-C15 — Gestión de fallas de instrumentos
-
-Presenta qué significa «gestión de fallas de instrumentos», sus elementos esenciales y su función dentro de operaciones de observatorios científicos.
-
-### B48-C16 — Procesamiento de datos en línea
-
-Describe «procesamiento de datos en línea», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
-
-### B48-C17 — Gestión de archivos observacionales
-
-Delimita «gestión de archivos observacionales», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B48-C18 — Protección del cielo oscuro
-
-Caracteriza «protección del cielo oscuro», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
-
-### B48-C19 — Divulgación y ciencia ciudadana
-
-Describe los componentes principales de «divulgación y ciencia ciudadana» y por qué son relevantes para esta disciplina.
-
-### B48-C20 — Diseño de una campaña observacional profesional
-
-Introduce «diseño de una campaña observacional profesional» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+El bloque es educativo. Los modelos son simplificados y no sustituyen los procedimientos, las normas de seguridad ni los reglamentos de ningún observatorio; no se dan umbrales operativos reales de cierre, de seguridad eléctrica ni de protección de personas. Las cifras de sitio, de instrumentos y de fallas son ilustrativas o sintéticas y se rotulan como tales.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +119,6 @@ Introduce «diseño de una campaña observacional profesional» como problema de
 - **[NASA-SMALLSAT]** [NASA State-of-the-Art of Small Spacecraft Technology, edición 2026](https://www.nasa.gov/smallsat-institute/sst-soa/) — Referencia panorámica sobre plataformas y subsistemas de satélites pequeños.
 - **[NASA-NTRS]** [NASA Technical Reports Server](https://ntrs.nasa.gov/) — Informes técnicos e investigación histórica y actual.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B49 — Antenas y receptores de radioastronomía](./B49-antenas-y-receptores-de-radioastronomia.md)
