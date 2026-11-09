@@ -72,19 +72,19 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b31-c13"></a>B31-C13 | Rayos cósmicos y cascadas | Modelo de Heitler, espectro de potencias y umbral GZK. | Ficha de los rayos cósmicos |
-| <a id="b31-c14"></a>B31-C14 | Detectores de partículas | Umbral y ángulo de Cherenkov, rendimiento de fotones y resolución. | Ficha de un detector |
-| <a id="b31-c15"></a>B31-C15 | Física de aceleradores | Rigidez magnética, energía de un anillo y pérdidas por sincrotrón. | Ficha de un acelerador |
-| <a id="b31-c16"></a>B31-C16 | Astropartículas de alta energía | Criterio de Hillas, neutrinos de decaimiento de piones y número de eventos. | Ficha de una fuente de alta energía |
-| <a id="b31-c17"></a>B31-C17 | Materias oscuras candidatas | Curvas de rotación, longitud de onda de de Broglie y retroceso nuclear. | Ficha de un candidato a materia oscura |
+| <a id="b31-c13"></a>[B31-C13](../clases/B31/B31-C13-rayos-cosmicos-y-cascadas/CLASE.md) | Rayos cósmicos y cascadas | Modelo de Heitler, espectro de potencias y umbral GZK. | Ficha de los rayos cósmicos |
+| <a id="b31-c14"></a>[B31-C14](../clases/B31/B31-C14-detectores-de-particulas/CLASE.md) | Detectores de partículas | Umbral y ángulo de Cherenkov, rendimiento de fotones y resolución. | Ficha de un detector |
+| <a id="b31-c15"></a>[B31-C15](../clases/B31/B31-C15-fisica-de-aceleradores/CLASE.md) | Física de aceleradores | Rigidez magnética, energía de un anillo y pérdidas por sincrotrón. | Ficha de un acelerador |
+| <a id="b31-c16"></a>[B31-C16](../clases/B31/B31-C16-astroparticulas-de-alta-energia/CLASE.md) | Astropartículas de alta energía | Criterio de Hillas, neutrinos de decaimiento de piones y número de eventos. | Ficha de una fuente de alta energía |
+| <a id="b31-c17"></a>[B31-C17](../clases/B31/B31-C17-materias-oscuras-candidatas/CLASE.md) | Materias oscuras candidatas | Curvas de rotación, longitud de onda de de Broglie y retroceso nuclear. | Ficha de un candidato a materia oscura |
 
 ### Tramo 5 · Evaluación crítica
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b31-c18"></a>B31-C18 | Restricciones experimentales de teorías | Límites superiores de Poisson con fondo y cobertura. | Ficha de un límite experimental |
-| <a id="b31-c19"></a>B31-C19 | Vacío cuántico y límites conceptuales | Fuerza de Casimir y regularización de sumas divergentes. | Ficha del vacío cuántico |
-| <a id="b31-c20"></a>B31-C20 | Evaluación crítica de afirmaciones extraordinarias | Significancia, efecto de mirar en otros lugares y actualización bayesiana. | Ficha de evaluación de una afirmación |
+| <a id="b31-c18"></a>[B31-C18](../clases/B31/B31-C18-restricciones-experimentales-de-teorias/CLASE.md) | Restricciones experimentales de teorías | Límites superiores de Poisson con fondo y cobertura. | Ficha de un límite experimental |
+| <a id="b31-c19"></a>[B31-C19](../clases/B31/B31-C19-vacio-cuantico-y-limites-conceptuales/CLASE.md) | Vacío cuántico y límites conceptuales | Fuerza de Casimir y regularización de sumas divergentes. | Ficha del vacío cuántico |
+| <a id="b31-c20"></a>[B31-C20](../clases/B31/B31-C20-evaluacion-critica-de-afirmaciones-extraordinarias/CLASE.md) | Evaluación crítica de afirmaciones extraordinarias | Significancia, efecto de mirar en otros lugares y actualización bayesiana. | Ficha de evaluación de una afirmación |
 
 ## 🧵 Hilos que atraviesan el bloque
 

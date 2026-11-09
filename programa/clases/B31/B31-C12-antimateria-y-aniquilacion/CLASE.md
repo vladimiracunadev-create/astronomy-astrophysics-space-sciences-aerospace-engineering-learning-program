@@ -1,7 +1,7 @@
 # B31-C12 — Antimateria y aniquilación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [← Anterior: B31-C11 — Neutrinos y oscilaciones](../B31-C11-neutrinos-y-oscilaciones/CLASE.md) · [Siguiente: B31-C13 — Rayos cósmicos y cascadas →](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md#b31-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [← Anterior: B31-C11 — Neutrinos y oscilaciones](../B31-C11-neutrinos-y-oscilaciones/CLASE.md) · [Siguiente: B31-C13 — Rayos cósmicos y cascadas →](../B31-C13-rayos-cosmicos-y-cascadas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ El umbral nuclear de pares es 1,022 MeV, el de `pp → pppp̄` 5,63 GeV y 1 g co
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B31-C11 — Neutrinos y oscilaciones](../B31-C11-neutrinos-y-oscilaciones/CLASE.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [Siguiente: B31-C13 — Rayos cósmicos y cascadas →](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md#b31-c13)
+[← Anterior: B31-C11 — Neutrinos y oscilaciones](../B31-C11-neutrinos-y-oscilaciones/CLASE.md) · [📚 Bloque B31](../../../tronco-comun/B31-fisica-cuantica-nuclear-y-astroparticulas.md) · [Siguiente: B31-C13 — Rayos cósmicos y cascadas →](../B31-C13-rayos-cosmicos-y-cascadas/CLASE.md)
 <!-- /nav -->
