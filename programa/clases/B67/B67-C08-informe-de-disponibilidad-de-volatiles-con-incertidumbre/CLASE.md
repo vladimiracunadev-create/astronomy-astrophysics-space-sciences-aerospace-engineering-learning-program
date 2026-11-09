@@ -1,7 +1,7 @@
 # B67-C08 — Informe de disponibilidad de volátiles con incertidumbre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [← Anterior: B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas](../B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md) · [Siguiente: B68-C01 — Desorción térmica de hielos interestelares →](../../../tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md#b68-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [← Anterior: B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas](../B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md) · [Siguiente: B68-C01 — Desorción térmica de hielos interestelares →](../../B68/B68-C01-desorcion-termica-de-hielos-interestelares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -333,5 +333,5 @@ Un bloque sintético tiene `102 / 148 / 213 kt` (P90/P50/P10), una probabilidad 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas](../B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [Siguiente: B68-C01 — Desorción térmica de hielos interestelares →](../../../tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md#b68-c01)
+[← Anterior: B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas](../B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [Siguiente: B68-C01 — Desorción térmica de hielos interestelares →](../../B68/B68-C01-desorcion-termica-de-hielos-interestelares/CLASE.md)
 <!-- /nav -->
