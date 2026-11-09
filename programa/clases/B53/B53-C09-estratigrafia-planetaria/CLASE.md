@@ -1,7 +1,7 @@
 # B53-C09 — Estratigrafía planetaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C08 — Cartografía de cráteres](../B53-C08-cartografia-de-crateres/CLASE.md) · [Siguiente: B53-C10 — Geología de impacto →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c10)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C08 — Cartografía de cráteres](../B53-C08-cartografia-de-crateres/CLASE.md) · [Siguiente: B53-C10 — Geología de impacto →](../B53-C10-geologia-de-impacto/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ El grafo admite `4` órdenes y los cráteres resuelven `A–F` (`1,00`) pero no 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C08 — Cartografía de cráteres](../B53-C08-cartografia-de-crateres/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C10 — Geología de impacto →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c10)
+[← Anterior: B53-C08 — Cartografía de cráteres](../B53-C08-cartografia-de-crateres/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C10 — Geología de impacto →](../B53-C10-geologia-de-impacto/CLASE.md)
 <!-- /nav -->

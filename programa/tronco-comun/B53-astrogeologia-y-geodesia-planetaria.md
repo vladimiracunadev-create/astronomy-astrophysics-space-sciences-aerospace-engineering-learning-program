@@ -68,10 +68,10 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b53-c08"></a>[B53-C08](../clases/B53/B53-C08-cartografia-de-crateres/CLASE.md) | Cartografía de cráteres | Estimación de la pendiente de la distribución de tamaños de cráteres. | Ficha de la distribución de tamaños de cráteres |
 | <a id="b53-c09"></a>[B53-C09](../clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md) | Estratigrafía planetaria | Orden topológico, contradicciones y densidad de cráteres. | Ficha de la secuencia estratigráfica |
-| B53-C10 | Geología de impacto | Escalamiento del cráter con la gravedad y presión de choque. | Ficha del escalamiento de un impacto |
+| <a id="b53-c10"></a>[B53-C10](../clases/B53/B53-C10-geologia-de-impacto/CLASE.md) | Geología de impacto | Escalamiento del cráter con la gravedad y presión de choque. | Ficha del escalamiento de un impacto |
 | B53-C22 | Meteorización espacial: micrometeoritos, viento solar y maduración del regolito | Enrojecimiento por maduración y mezcla por micrometeoritos. | Ficha de maduración del regolito |
-| B53-C11 | Vulcanismo extraterrestre | Perfil de velocidad de una lámina de lava, gravedad y espesor máximo. | Ficha del flujo de lava y la gravedad |
-| B53-C12 | Tectónica planetaria | Flexión de una placa elástica y contracción global. | Ficha de la flexión de la litosfera y la contracción |
+| <a id="b53-c11"></a>[B53-C11](../clases/B53/B53-C11-vulcanismo-extraterrestre/CLASE.md) | Vulcanismo extraterrestre | Perfil de velocidad de una lámina de lava, gravedad y espesor máximo. | Ficha del flujo de lava y la gravedad |
+| <a id="b53-c12"></a>[B53-C12](../clases/B53/B53-C12-tectonica-planetaria/CLASE.md) | Tectónica planetaria | Flexión de una placa elástica y contracción global. | Ficha de la flexión de la litosfera y la contracción |
 | B53-C16 | Superficies de asteroides | Gravedad efectiva con rotación, período límite y velocidad de escape. | Ficha de la gravedad en un asteroide |
 
 ### Tramo 4 · Hielos y mundos oceánicos
