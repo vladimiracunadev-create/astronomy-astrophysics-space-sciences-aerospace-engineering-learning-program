@@ -1,7 +1,7 @@
 # B29-C08 — Falsos positivos de tránsito
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [← Anterior: B29-C07 — Métodos de validación planetaria](../B29-C07-metodos-de-validacion-planetaria/CLASE.md) · [Siguiente: B29-C09 — Parámetros orbitales exoplanetarios →](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md#b29-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [← Anterior: B29-C07 — Métodos de validación planetaria](../B29-C07-metodos-de-validacion-planetaria/CLASE.md) · [Siguiente: B29-C09 — Parámetros orbitales exoplanetarios →](../B29-C09-parametros-orbitales-exoplanetarios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ Una binaria 100 veces más débil con eclipses del 20 % imita un planeta de `4,4
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B29-C07 — Métodos de validación planetaria](../B29-C07-metodos-de-validacion-planetaria/CLASE.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [Siguiente: B29-C09 — Parámetros orbitales exoplanetarios →](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md#b29-c09)
+[← Anterior: B29-C07 — Métodos de validación planetaria](../B29-C07-metodos-de-validacion-planetaria/CLASE.md) · [📚 Bloque B29](../../../tronco-comun/B29-astronomia-temporal-y-exoplanetas.md) · [Siguiente: B29-C09 — Parámetros orbitales exoplanetarios →](../B29-C09-parametros-orbitales-exoplanetarios/CLASE.md)
 <!-- /nav -->

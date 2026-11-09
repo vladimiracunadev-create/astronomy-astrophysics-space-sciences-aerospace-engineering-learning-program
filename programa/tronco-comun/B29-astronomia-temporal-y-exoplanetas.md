@@ -58,16 +58,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b29-c07"></a>[B29-C07](../clases/B29/B29-C07-metodos-de-validacion-planetaria/CLASE.md) | Métodos de validación planetaria | Probabilidad bayesiana de falso positivo y su calibración. | Ficha de validación con su calibración |
 | <a id="b29-c08"></a>[B29-C08](../clases/B29/B29-C08-falsos-positivos-de-transito/CLASE.md) | Falsos positivos de tránsito | Dilución de una binaria, prueba par–impar y su potencia. | Ficha de una prueba par–impar |
-| <a id="b29-c09"></a>B29-C09 | Parámetros orbitales exoplanetarios | Semieje, excentricidad y ajuste orbital con incertidumbres. | Ficha de parámetros orbitales |
-| <a id="b29-c10"></a>B29-C10 | Masas y radios planetarios | Densidad, gravedad y propagación de incertidumbres. | Ficha de masa, radio y densidad |
+| <a id="b29-c09"></a>[B29-C09](../clases/B29/B29-C09-parametros-orbitales-exoplanetarios/CLASE.md) | Parámetros orbitales exoplanetarios | Semieje, excentricidad y ajuste orbital con incertidumbres. | Ficha de parámetros orbitales |
+| <a id="b29-c10"></a>[B29-C10](../clases/B29/B29-C10-masas-y-radios-planetarios/CLASE.md) | Masas y radios planetarios | Densidad, gravedad y propagación de incertidumbres. | Ficha de masa, radio y densidad |
 
 ### Tramo 3 · Atmósferas y habitabilidad
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b29-c11"></a>B29-C11 | Atmósferas exoplanetarias | Altura de escala y amplitud de la señal de transmisión. | Ficha de una atmósfera |
-| <a id="b29-c12"></a>B29-C12 | Espectroscopía de transmisión | Espectro sintético, absorción y recuperación de una abundancia. | Ficha de un espectro de transmisión |
-| <a id="b29-c13"></a>B29-C13 | Zonas de habitabilidad | Temperatura de equilibrio y bordes de la zona habitable. | Ficha de habitabilidad |
+| <a id="b29-c11"></a>[B29-C11](../clases/B29/B29-C11-atmosferas-exoplanetarias/CLASE.md) | Atmósferas exoplanetarias | Altura de escala y amplitud de la señal de transmisión. | Ficha de una atmósfera |
+| <a id="b29-c12"></a>[B29-C12](../clases/B29/B29-C12-espectroscopia-de-transmision/CLASE.md) | Espectroscopía de transmisión | Espectro sintético, absorción y recuperación de una abundancia. | Ficha de un espectro de transmisión |
+| <a id="b29-c13"></a>[B29-C13](../clases/B29/B29-C13-zonas-de-habitabilidad/CLASE.md) | Zonas de habitabilidad | Temperatura de equilibrio y bordes de la zona habitable. | Ficha de habitabilidad |
 
 ### Tramo 4 · Astronomía temporal
 
