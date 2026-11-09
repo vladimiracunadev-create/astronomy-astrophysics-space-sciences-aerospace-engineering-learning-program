@@ -1,7 +1,7 @@
 # B65-C06 — Calentamiento por marea y equilibrio térmico en satélites
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [← Anterior: B65-C05 — Inversión geofísica conjunta: validación de modelos interiores](../B65-C05-inversion-geofisica-conjunta-validacion-de-modelos-interiores/CLASE.md) · [Siguiente: B66-C01 — Valles y canales: morfología y origen en superficies planetarias →](../../../tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md#b66-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [← Anterior: B65-C05 — Inversión geofísica conjunta: validación de modelos interiores](../B65-C05-inversion-geofisica-conjunta-validacion-de-modelos-interiores/CLASE.md) · [Siguiente: B66-C01 — Valles y canales: morfología y origen en superficies planetarias →](../../B66/B66-C01-valles-y-canales-morfologia-y-origen-en-superficies-planetarias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Con un `k₂/Q` ilustrativo, la marea de Io disipa unos 89 TW y la fórmula de P
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B65-C05 — Inversión geofísica conjunta: validación de modelos interiores](../B65-C05-inversion-geofisica-conjunta-validacion-de-modelos-interiores/CLASE.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [Siguiente: B66-C01 — Valles y canales: morfología y origen en superficies planetarias →](../../../tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md#b66-c01)
+[← Anterior: B65-C05 — Inversión geofísica conjunta: validación de modelos interiores](../B65-C05-inversion-geofisica-conjunta-validacion-de-modelos-interiores/CLASE.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [Siguiente: B66-C01 — Valles y canales: morfología y origen en superficies planetarias →](../../B66/B66-C01-valles-y-canales-morfologia-y-origen-en-superficies-planetarias/CLASE.md)
 <!-- /nav -->
