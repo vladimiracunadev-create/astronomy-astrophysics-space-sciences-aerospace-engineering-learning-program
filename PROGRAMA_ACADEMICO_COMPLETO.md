@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 689 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 713 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -930,10 +930,10 @@ Cómo se observa: óptica, telescopios, detectores, espectroscopía, radioastron
 - **B42-C18 — Óptica adaptativa multiconjugada.** Introduce el contexto y los principios de «óptica adaptativa multiconjugada» para comprender su uso científico.
 - **B42-C19 — Reconstrucción de imágenes.** Introduce «reconstrucción de imágenes» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B42-C20 — Laboratorio de corrección óptica simulada.** Presenta qué significa «laboratorio de corrección óptica simulada», sus elementos esenciales y su función dentro de óptica física y óptica adaptativa.
-- **B42-C21 — Estrellas guía naturales y cobertura de cielo.** *Programada.* B42-C17 trata estrellas guía artificiales; falta el presupuesto de fotones y la cobertura de cielo con estrellas naturales.
-- **B42-C22 — Reconstructores de frente de onda: zonal y modal.** *Programada.* B42-C13 mide el frente de onda; falta reconstruir la fase a partir de las pendientes con métodos zonal y modal.
-- **B42-C23 — Calibración de la matriz de interacción y aberraciones no comunes.** *Programada.* Ninguna clase trata cómo calibrar el lazo de óptica adaptativa ni las aberraciones fuera del camino común.
-- **B42-C24 — Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada.** *Programada.* B42-C06 y B42-C07 definen PSF y OTF; falta evaluar la corrección con métricas estandarizadas.
+- **B42-C21 — Estrellas guía naturales y cobertura de cielo.** *Texto redactado, pendiente de revisión.* B42-C17 trata estrellas guía artificiales; falta el presupuesto de fotones y la cobertura de cielo con estrellas naturales.
+- **B42-C22 — Reconstructores de frente de onda: zonal y modal.** *Texto redactado, pendiente de revisión.* B42-C13 mide el frente de onda; falta reconstruir la fase a partir de las pendientes con métodos zonal y modal.
+- **B42-C23 — Calibración de la matriz de interacción y aberraciones no comunes.** *Texto redactado, pendiente de revisión.* Ninguna clase trata cómo calibrar el lazo de óptica adaptativa ni las aberraciones fuera del camino común.
+- **B42-C24 — Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada.** *Texto redactado, pendiente de revisión.* B42-C06 y B42-C07 definen PSF y OTF; falta evaluar la corrección con métricas estandarizadas.
 
 ### B43 — Construcción y mecánica de telescopios
 

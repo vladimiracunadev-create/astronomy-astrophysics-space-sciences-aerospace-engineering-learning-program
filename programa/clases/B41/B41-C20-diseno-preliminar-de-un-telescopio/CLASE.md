@@ -1,7 +1,7 @@
 # B41-C20 — Diseño preliminar de un telescopio
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B41](../../../tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) · [← Anterior: B41-C19 — Colimación y prueba de enfoque](../B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md) · [Siguiente: B42-C01 — Ecuaciones de onda electromagnética →](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md#b42-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B41](../../../tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) · [← Anterior: B41-C19 — Colimación y prueba de enfoque](../B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md) · [Siguiente: B42-C01 — Ecuaciones de onda electromagnética →](../../B42/B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -323,5 +323,5 @@ El diseño cierra el bloque: apertura 250 mm f/5, Strehl `0,875` y coma `30` vec
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B41-C19 — Colimación y prueba de enfoque](../B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md) · [📚 Bloque B41](../../../tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) · [Siguiente: B42-C01 — Ecuaciones de onda electromagnética →](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md#b42-c01)
+[← Anterior: B41-C19 — Colimación y prueba de enfoque](../B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md) · [📚 Bloque B41](../../../tronco-comun/B41-optica-geometrica-y-diseno-de-telescopios.md) · [Siguiente: B42-C01 — Ecuaciones de onda electromagnética →](../../B42/B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md)
 <!-- /nav -->

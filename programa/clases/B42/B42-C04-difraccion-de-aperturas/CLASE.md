@@ -1,6 +1,7 @@
 # B42-C04 — Difracción de aperturas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C03 — Interferencia y coherencia](../B42-C03-interferencia-y-coherencia/CLASE.md) · [Siguiente: B42-C05 — Patrones de Airy →](../B42-C05-patrones-de-airy/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,4 +303,5 @@ La FFT de una rendija da la `sinc²` con cero en 10 mrad; dos y cinco rendijas a
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C03 — Interferencia y coherencia](../B42-C03-interferencia-y-coherencia/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C05 — Patrones de Airy →](../B42-C05-patrones-de-airy/CLASE.md)
 <!-- /nav -->

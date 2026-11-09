@@ -1,6 +1,7 @@
 # B42-C01 — Ecuaciones de onda electromagnética
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B41-C20 — Diseño preliminar de un telescopio](../../B41/B41-C20-diseno-preliminar-de-un-telescopio/CLASE.md) · [Siguiente: B42-C02 — Principio de Huygens-Fresnel →](../B42-C02-principio-de-huygens-fresnel/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,4 +292,5 @@ Una onda de 550 nm tiene `k = 1,1424 × 10⁷ rad/m`, `f = 5,45 × 10¹⁴ Hz` y
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B41-C20 — Diseño preliminar de un telescopio](../../B41/B41-C20-diseno-preliminar-de-un-telescopio/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C02 — Principio de Huygens-Fresnel →](../B42-C02-principio-de-huygens-fresnel/CLASE.md)
 <!-- /nav -->

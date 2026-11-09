@@ -1,6 +1,7 @@
 # B42-C09 — Interferometría de dos haces
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C08 — Polarización de la luz](../B42-C08-polarizacion-de-la-luz/CLASE.md) · [Siguiente: B42-C10 — Interferometría de múltiples telescopios →](../B42-C10-interferometria-de-multiples-telescopios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -204,7 +205,7 @@ Con dos no se separan fase, visibilidad y fondo.
 
 <details><summary>Solución comentada</summary>
 
-Es compatible con el ruido muestral (`4,97/√20 000 = 0,035 mrad` por componente...) y no es significativo.
+El error estándar de la media es `4,97/√20 000 = 0,035 mrad`; el sesgo de `0,065 mrad` son 1,8 errores estándar, compatible con el azar.
 </details>
 
 **Ejercicio 11 · transferencia.** **Transferencia.** ¿Qué limita la precisión real?
@@ -296,4 +297,5 @@ Cuatro pasos de `π/2` recuperan la fase con 5 mrad de dispersión a `σ = 0,01`
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C08 — Polarización de la luz](../B42-C08-polarizacion-de-la-luz/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C10 — Interferometría de múltiples telescopios →](../B42-C10-interferometria-de-multiples-telescopios/CLASE.md)
 <!-- /nav -->

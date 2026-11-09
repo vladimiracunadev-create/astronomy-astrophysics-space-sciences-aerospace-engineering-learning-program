@@ -1,6 +1,7 @@
 # B42-C03 — Interferencia y coherencia
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C02 — Principio de Huygens-Fresnel](../B42-C02-principio-de-huygens-fresnel/CLASE.md) · [Siguiente: B42-C04 — Difracción de aperturas →](../B42-C04-difraccion-de-aperturas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ El contraste de las franjas cae como `exp(−σ_k²D²/2)`; a la longitud de coh
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C02 — Principio de Huygens-Fresnel](../B42-C02-principio-de-huygens-fresnel/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C04 — Difracción de aperturas →](../B42-C04-difraccion-de-aperturas/CLASE.md)
 <!-- /nav -->

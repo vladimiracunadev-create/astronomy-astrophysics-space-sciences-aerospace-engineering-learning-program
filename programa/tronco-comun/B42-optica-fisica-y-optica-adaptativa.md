@@ -44,45 +44,45 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b42-c01"></a>B42-C01 | Ecuaciones de onda electromagnética | Ecuación de onda, relación de dispersión y flujo de Poynting. | Ficha de la onda electromagnética |
-| <a id="b42-c02"></a>B42-C02 | Principio de Huygens-Fresnel | Suma de ondas secundarias y límite de Fraunhofer. | Ficha de Huygens-Fresnel |
-| <a id="b42-c03"></a>B42-C03 | Interferencia y coherencia | Visibilidad de franjas y longitud de coherencia. | Ficha de interferencia y coherencia |
-| <a id="b42-c04"></a>B42-C04 | Difracción de aperturas | Difracción de rendijas y aperturas circulares por transformada de Fourier. | Ficha de la difracción de aperturas |
-| <a id="b42-c05"></a>B42-C05 | Patrones de Airy | Patrón de Airy, ceros de J1 y criterio de Rayleigh. | Ficha del patrón de Airy |
-| <a id="b42-c06"></a>B42-C06 | Función de dispersión puntual | PSF como potencia de la transformada de la pupila y sus muestras. | Ficha de la PSF |
-| <a id="b42-c07"></a>B42-C07 | Función de transferencia óptica | OTF, MTF y corte a D/λ. | Ficha de la OTF |
+| <a id="b42-c01"></a>[B42-C01](../clases/B42/B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md) | Ecuaciones de onda electromagnética | Ecuación de onda, relación de dispersión y flujo de Poynting. | Ficha de la onda electromagnética |
+| <a id="b42-c02"></a>[B42-C02](../clases/B42/B42-C02-principio-de-huygens-fresnel/CLASE.md) | Principio de Huygens-Fresnel | Suma de ondas secundarias y límite de Fraunhofer. | Ficha de Huygens-Fresnel |
+| <a id="b42-c03"></a>[B42-C03](../clases/B42/B42-C03-interferencia-y-coherencia/CLASE.md) | Interferencia y coherencia | Visibilidad de franjas y longitud de coherencia. | Ficha de interferencia y coherencia |
+| <a id="b42-c04"></a>[B42-C04](../clases/B42/B42-C04-difraccion-de-aperturas/CLASE.md) | Difracción de aperturas | Difracción de rendijas y aperturas circulares por transformada de Fourier. | Ficha de la difracción de aperturas |
+| <a id="b42-c05"></a>[B42-C05](../clases/B42/B42-C05-patrones-de-airy/CLASE.md) | Patrones de Airy | Patrón de Airy, ceros de J1 y criterio de Rayleigh. | Ficha del patrón de Airy |
+| <a id="b42-c06"></a>[B42-C06](../clases/B42/B42-C06-funcion-de-dispersion-puntual/CLASE.md) | Función de dispersión puntual | PSF como potencia de la transformada de la pupila y sus muestras. | Ficha de la PSF |
+| <a id="b42-c07"></a>[B42-C07](../clases/B42/B42-C07-funcion-de-transferencia-optica/CLASE.md) | Función de transferencia óptica | OTF, MTF y corte a D/λ. | Ficha de la OTF |
 
 ### Tramo 2 · Polarización e interferometría
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b42-c08"></a>B42-C08 | Polarización de la luz | Vectores de Jones, ley de Malus y parámetros de Stokes. | Ficha de polarización |
-| <a id="b42-c09"></a>B42-C09 | Interferometría de dos haces | Interferómetro de Michelson, franjas y fase. | Ficha del interferómetro de dos haces |
-| <a id="b42-c10"></a>B42-C10 | Interferometría de múltiples telescopios | Línea base, cobertura uv y síntesis de apertura. | Ficha de la interferometría multitelescopio |
+| <a id="b42-c08"></a>[B42-C08](../clases/B42/B42-C08-polarizacion-de-la-luz/CLASE.md) | Polarización de la luz | Vectores de Jones, ley de Malus y parámetros de Stokes. | Ficha de polarización |
+| <a id="b42-c09"></a>[B42-C09](../clases/B42/B42-C09-interferometria-de-dos-haces/CLASE.md) | Interferometría de dos haces | Interferómetro de Michelson, franjas y fase. | Ficha del interferómetro de dos haces |
+| <a id="b42-c10"></a>[B42-C10](../clases/B42/B42-C10-interferometria-de-multiples-telescopios/CLASE.md) | Interferometría de múltiples telescopios | Línea base, cobertura uv y síntesis de apertura. | Ficha de la interferometría multitelescopio |
 
 ### Tramo 3 · Atmósfera y óptica adaptativa
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b42-c11"></a>B42-C11 | Turbulencia atmosférica | Espectro de Kolmogorov y pantallas de fase. | Ficha de la turbulencia |
-| <a id="b42-c12"></a>B42-C12 | Parámetro de Fried | r0, seeing y tiempo de coherencia. | Ficha del parámetro de Fried |
-| <a id="b42-c13"></a>B42-C13 | Medición de frente de onda | Medición de pendientes y fase por interferometría. | Ficha de la medición de frente de onda |
-| <a id="b42-c14"></a>B42-C14 | Sensores Shack-Hartmann | Centroides de microlentes y ruido de fotones. | Ficha del sensor Shack-Hartmann |
-| <a id="b42-c15"></a>B42-C15 | Espejos deformables | Funciones de influencia, carrera y error de ajuste. | Ficha del espejo deformable |
-| <a id="b42-c16"></a>B42-C16 | Lazo de control de óptica adaptativa | Integrador, retardo y ancho de banda de rechazo. | Ficha del lazo de control |
-| <a id="b42-c17"></a>B42-C17 | Estrellas guía artificiales | Dispersión Rayleigh, sodio y efecto cono. | Ficha de la estrella guía artificial |
-| <a id="b42-c18"></a>B42-C18 | Óptica adaptativa multiconjugada | Anisoplanatismo, capas y campo corregido. | Ficha de la MCAO |
-| <a id="b42-c19"></a>B42-C19 | Reconstrucción de imágenes | Deconvolución, Wiener y Richardson-Lucy. | Ficha de la reconstrucción de imágenes |
-| <a id="b42-c20"></a>B42-C20 | Laboratorio de corrección óptica simulada | Lazo cerrado simulado con pantalla de fase y Strehl. | Informe del laboratorio de corrección |
+| <a id="b42-c11"></a>[B42-C11](../clases/B42/B42-C11-turbulencia-atmosferica/CLASE.md) | Turbulencia atmosférica | Espectro de Kolmogorov y pantallas de fase. | Ficha de la turbulencia |
+| <a id="b42-c12"></a>[B42-C12](../clases/B42/B42-C12-parametro-de-fried/CLASE.md) | Parámetro de Fried | r0, seeing y tiempo de coherencia. | Ficha del parámetro de Fried |
+| <a id="b42-c13"></a>[B42-C13](../clases/B42/B42-C13-medicion-de-frente-de-onda/CLASE.md) | Medición de frente de onda | Medición de pendientes y fase por interferometría. | Ficha de la medición de frente de onda |
+| <a id="b42-c14"></a>[B42-C14](../clases/B42/B42-C14-sensores-shack-hartmann/CLASE.md) | Sensores Shack-Hartmann | Centroides de microlentes y ruido de fotones. | Ficha del sensor Shack-Hartmann |
+| <a id="b42-c15"></a>[B42-C15](../clases/B42/B42-C15-espejos-deformables/CLASE.md) | Espejos deformables | Funciones de influencia, carrera y error de ajuste. | Ficha del espejo deformable |
+| <a id="b42-c16"></a>[B42-C16](../clases/B42/B42-C16-lazo-de-control-de-optica-adaptativa/CLASE.md) | Lazo de control de óptica adaptativa | Integrador, retardo y ancho de banda de rechazo. | Ficha del lazo de control |
+| <a id="b42-c17"></a>[B42-C17](../clases/B42/B42-C17-estrellas-guia-artificiales/CLASE.md) | Estrellas guía artificiales | Dispersión Rayleigh, sodio y efecto cono. | Ficha de la estrella guía artificial |
+| <a id="b42-c18"></a>[B42-C18](../clases/B42/B42-C18-optica-adaptativa-multiconjugada/CLASE.md) | Óptica adaptativa multiconjugada | Anisoplanatismo, capas y campo corregido. | Ficha de la MCAO |
+| <a id="b42-c19"></a>[B42-C19](../clases/B42/B42-C19-reconstruccion-de-imagenes/CLASE.md) | Reconstrucción de imágenes | Deconvolución, Wiener y Richardson-Lucy. | Ficha de la reconstrucción de imágenes |
+| <a id="b42-c20"></a>[B42-C20](../clases/B42/B42-C20-laboratorio-de-correccion-optica-simulada/CLASE.md) | Laboratorio de corrección óptica simulada | Lazo cerrado simulado con pantalla de fase y Strehl. | Informe del laboratorio de corrección |
 
 ### Tramo 4 · Ampliación: estrellas guía, reconstrucción, calibración y métricas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b42-c21"></a>B42-C21 | Estrellas guía naturales y cobertura de cielo | Presupuesto de fotones, magnitud límite y cobertura de cielo. | Ficha de estrellas guía naturales |
-| <a id="b42-c22"></a>B42-C22 | Reconstructores de frente de onda: zonal y modal | Reconstructor zonal y modal a partir de pendientes. | Ficha de reconstructores |
-| <a id="b42-c23"></a>B42-C23 | Calibración de la matriz de interacción y aberraciones no comunes | Matriz de interacción, modos de control y aberraciones no comunes. | Ficha de calibración |
-| <a id="b42-c24"></a>B42-C24 | Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada | Strehl, energía encerrada y relación con el error de fase. | Ficha de métricas de desempeño |
+| <a id="b42-c21"></a>[B42-C21](../clases/B42/B42-C21-estrellas-guia-naturales-y-cobertura-de-cielo/CLASE.md) | Estrellas guía naturales y cobertura de cielo | Presupuesto de fotones, magnitud límite y cobertura de cielo. | Ficha de estrellas guía naturales |
+| <a id="b42-c22"></a>[B42-C22](../clases/B42/B42-C22-reconstructores-de-frente-de-onda-zonal-y-modal/CLASE.md) | Reconstructores de frente de onda: zonal y modal | Reconstructor zonal y modal a partir de pendientes. | Ficha de reconstructores |
+| <a id="b42-c23"></a>[B42-C23](../clases/B42/B42-C23-calibracion-de-la-matriz-de-interaccion-y-aberraciones-no-comunes/CLASE.md) | Calibración de la matriz de interacción y aberraciones no comunes | Matriz de interacción, modos de control y aberraciones no comunes. | Ficha de calibración |
+| <a id="b42-c24"></a>[B42-C24](../clases/B42/B42-C24-metricas-de-desempeno-de-optica-adaptativa-strehl-y-energia-encerrada/CLASE.md) | Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada | Strehl, energía encerrada y relación con el error de fase. | Ficha de métricas de desempeño |
 
 ## 🧵 Hilos que atraviesan el bloque
 

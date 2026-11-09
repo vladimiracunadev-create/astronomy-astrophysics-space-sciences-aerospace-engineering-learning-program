@@ -1,6 +1,7 @@
 # B42-C12 — Parámetro de Fried
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C11 — Turbulencia atmosférica](../B42-C11-turbulencia-atmosferica/CLASE.md) · [Siguiente: B42-C13 — Medición de frente de onda →](../B42-C13-medicion-de-frente-de-onda/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,4 +312,5 @@ Con el perfil ilustrativo, `r₀(500 nm) = 13,4 cm` y el seeing es 0,75 arcsec; 
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C11 — Turbulencia atmosférica](../B42-C11-turbulencia-atmosferica/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C13 — Medición de frente de onda →](../B42-C13-medicion-de-frente-de-onda/CLASE.md)
 <!-- /nav -->

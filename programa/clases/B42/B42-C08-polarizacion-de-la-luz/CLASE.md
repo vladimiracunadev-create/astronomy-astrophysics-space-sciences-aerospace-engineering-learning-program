@@ -1,6 +1,7 @@
 # B42-C08 — Polarización de la luz
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C07 — Función de transferencia óptica](../B42-C07-funcion-de-transferencia-optica/CLASE.md) · [Siguiente: B42-C09 — Interferometría de dos haces →](../B42-C09-interferometria-de-dos-haces/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ Malus da 0,75 a 30°, una lámina de cuarto de onda produce luz circular y una m
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C07 — Función de transferencia óptica](../B42-C07-funcion-de-transferencia-optica/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C09 — Interferometría de dos haces →](../B42-C09-interferometria-de-dos-haces/CLASE.md)
 <!-- /nav -->

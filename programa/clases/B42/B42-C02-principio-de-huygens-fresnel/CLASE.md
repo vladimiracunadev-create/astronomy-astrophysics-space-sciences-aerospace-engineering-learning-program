@@ -1,6 +1,7 @@
 # B42-C02 — Principio de Huygens-Fresnel
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C01 — Ecuaciones de onda electromagnética](../B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md) · [Siguiente: B42-C03 — Interferencia y coherencia →](../B42-C03-interferencia-y-coherencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,4 +303,5 @@ La suma de ondas secundarias de una rendija reproduce la `sinc²` con primer cer
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C01 — Ecuaciones de onda electromagnética](../B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C03 — Interferencia y coherencia →](../B42-C03-interferencia-y-coherencia/CLASE.md)
 <!-- /nav -->

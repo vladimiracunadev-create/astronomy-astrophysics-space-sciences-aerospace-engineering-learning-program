@@ -1,6 +1,7 @@
 # B42-C07 — Función de transferencia óptica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C06 — Función de dispersión puntual](../B42-C06-funcion-de-dispersion-puntual/CLASE.md) · [Siguiente: B42-C08 — Polarización de la luz →](../B42-C08-polarizacion-de-la-luz/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -317,4 +318,5 @@ La OTF de la pupila ideal vale 0,39 a la mitad del corte y se anula en `D/λ`; m
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C06 — Función de dispersión puntual](../B42-C06-funcion-de-dispersion-puntual/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C08 — Polarización de la luz →](../B42-C08-polarizacion-de-la-luz/CLASE.md)
 <!-- /nav -->

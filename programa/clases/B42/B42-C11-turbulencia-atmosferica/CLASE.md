@@ -1,6 +1,7 @@
 # B42-C11 — Turbulencia atmosférica
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C10 — Interferometría de múltiples telescopios](../B42-C10-interferometria-de-multiples-telescopios/CLASE.md) · [Siguiente: B42-C12 — Parámetro de Fried →](../B42-C12-parametro-de-fried/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,4 +301,5 @@ Las pantallas reproducen `D(r)` con 77 % a 84 % de la teoría infinita y pendien
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C10 — Interferometría de múltiples telescopios](../B42-C10-interferometria-de-multiples-telescopios/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C12 — Parámetro de Fried →](../B42-C12-parametro-de-fried/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B42-C06 — Función de dispersión puntual
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C05 — Patrones de Airy](../B42-C05-patrones-de-airy/CLASE.md) · [Siguiente: B42-C07 — Función de transferencia óptica →](../B42-C07-funcion-de-transferencia-optica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -102,7 +103,7 @@ FFT radix 2 de 128 × 128; origen de la PSF en el píxel [0,0]; normalización a
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
-| — | Teoría de Fourier de la formación de imágenes (libros de óptica) | — | PSF como |FFT de la pupila|² | No consultado |
+| — | Teoría de Fourier de la formación de imágenes (libros de óptica) | — | PSF como potencia de la FFT de la pupila | No consultado |
 
 Límites: no se consultó una fuente; se contrastan Airy, la identidad exacta y Maréchal.
 
@@ -302,4 +303,5 @@ La PSF es |FFT(P e^{iφ})|²; con 0,1 rad rms el Strehl es 0,9899. Falta pasar a
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C05 — Patrones de Airy](../B42-C05-patrones-de-airy/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C07 — Función de transferencia óptica →](../B42-C07-funcion-de-transferencia-optica/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B42-C05 — Patrones de Airy
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C04 — Difracción de aperturas](../B42-C04-difraccion-de-aperturas/CLASE.md) · [Siguiente: B42-C06 — Función de dispersión puntual →](../B42-C06-funcion-de-dispersion-puntual/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,4 +308,5 @@ El patrón de Airy tiene su primer cero en 1,2197 `λ/D`, FWHM 1,029 `λ/D` y 83
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C04 — Difracción de aperturas](../B42-C04-difraccion-de-aperturas/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C06 — Función de dispersión puntual →](../B42-C06-funcion-de-dispersion-puntual/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B42-C10 — Interferometría de múltiples telescopios
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [← Anterior: B42-C09 — Interferometría de dos haces](../B42-C09-interferometria-de-dos-haces/CLASE.md) · [Siguiente: B42-C11 — Turbulencia atmosférica →](../B42-C11-turbulencia-atmosferica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -56,7 +57,7 @@ flowchart LR
     B --> U["uv por rotación (H)"]
     U --> D["haz sucio"]
     D --> R["resolución lambda/Bmax"]
-    B --> V["visibilidad |cos|"]
+    B --> V["visibilidad abs cos"]
 ```
 
 *Descripción textual:* las bases se proyectan sobre el cielo y se mueven con la rotación terrestre; el haz sucio resume qué frecuencias se miden.
@@ -69,7 +70,7 @@ Analogía: una red de pescar. Límite: fuentes puntuales y cielo plano.
 
 Con 4 telescopios hay 6 bases (`N(N−1)/2`); la más corta mide `42,7 m` y la más larga `129,8 m`. La visibilidad de dos fuentes iguales con base de 50 m:
 
-| `θ` (mas) | `V` suma | `|cos|` |
+| `θ` (mas) | `V` suma | valor absoluto del coseno |
 |---|---|---|
 | 0 | 1,000000 | 1,000000 |
 | 5 | 0,159303 | 0,159303 |
@@ -303,4 +304,5 @@ Cuatro telescopios dan 6 bases, 1164 puntos uv y 3,5 mas de resolución con lób
 <!-- nav:bottom -->
 ---
 
+[← Anterior: B42-C09 — Interferometría de dos haces](../B42-C09-interferometria-de-dos-haces/CLASE.md) · [📚 Bloque B42](../../../tronco-comun/B42-optica-fisica-y-optica-adaptativa.md) · [Siguiente: B42-C11 — Turbulencia atmosférica →](../B42-C11-turbulencia-atmosferica/CLASE.md)
 <!-- /nav -->
