@@ -1,7 +1,7 @@
 # B97-C13 — Ensamblaje de estructuras en órbita
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C12 — Robots de mantenimiento](../B97-C12-robots-de-mantenimiento/CLASE.md) · [Siguiente: B97-C14 — Construcción con regolito — Robótica y construcción extraterrestre →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c14)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C12 — Robots de mantenimiento](../B97-C12-robots-de-mantenimiento/CLASE.md) · [Siguiente: B97-C14 — Construcción con regolito — Robótica y construcción extraterrestre →](../B97-C14-construccion-con-regolito-robotica-y-construccion-extraterrestre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -286,5 +286,5 @@ Con 4 robots el ensamblaje sintético baja de `196` a `118` min, pero la ruta cr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B97-C12 — Robots de mantenimiento](../B97-C12-robots-de-mantenimiento/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C14 — Construcción con regolito — Robótica y construcción extraterrestre →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c14)
+[← Anterior: B97-C12 — Robots de mantenimiento](../B97-C12-robots-de-mantenimiento/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C14 — Construcción con regolito — Robótica y construcción extraterrestre →](../B97-C14-construccion-con-regolito-robotica-y-construccion-extraterrestre/CLASE.md)
 <!-- /nav -->
