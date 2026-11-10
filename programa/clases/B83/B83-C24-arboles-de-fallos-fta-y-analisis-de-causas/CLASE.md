@@ -1,7 +1,7 @@
 # B83-C24 — Árboles de fallos (FTA) y análisis de causas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C23 — Redundancia y tolerancia a fallos de misión](../B83-C23-redundancia-y-tolerancia-a-fallos-de-mision/CLASE.md) · [Siguiente: B84-C01 — Entorno mecánico de lanzamiento →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C23 — Redundancia y tolerancia a fallos de misión](../B83-C23-redundancia-y-tolerancia-a-fallos-de-mision/CLASE.md) · [Siguiente: B84-C01 — Entorno mecánico de lanzamiento →](../../B84/B84-C01-entorno-mecanico-de-lanzamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ El árbol sintético de ESTRELLA-S da `P(top) =` 0,016132 con 4 cortes mínimos;
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C23 — Redundancia y tolerancia a fallos de misión](../B83-C23-redundancia-y-tolerancia-a-fallos-de-mision/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B84-C01 — Entorno mecánico de lanzamiento →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c01)
+[← Anterior: B83-C23 — Redundancia y tolerancia a fallos de misión](../B83-C23-redundancia-y-tolerancia-a-fallos-de-mision/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B84-C01 — Entorno mecánico de lanzamiento →](../../B84/B84-C01-entorno-mecanico-de-lanzamiento/CLASE.md)
 <!-- /nav -->

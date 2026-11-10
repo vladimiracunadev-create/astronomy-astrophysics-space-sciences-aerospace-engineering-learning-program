@@ -1,7 +1,7 @@
 # B84-C01 — Entorno mecánico de lanzamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B83-C24 — Árboles de fallos (FTA) y análisis de causas](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c24) · [Siguiente: B84-C02 — Propiedades de aleaciones →](../B84-C02-propiedades-de-aleaciones/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B83-C24 — Árboles de fallos (FTA) y análisis de causas](../../B83/B83-C24-arboles-de-fallos-fta-y-analisis-de-causas/CLASE.md) · [Siguiente: B84-C02 — Propiedades de aleaciones →](../B84-C02-propiedades-de-aleaciones/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Un espectro de 0,16 g²/Hz de meseta equivale a `14,14 g rms` y la masa lo reduc
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C24 — Árboles de fallos (FTA) y análisis de causas](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c24) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C02 — Propiedades de aleaciones →](../B84-C02-propiedades-de-aleaciones/CLASE.md)
+[← Anterior: B83-C24 — Árboles de fallos (FTA) y análisis de causas](../../B83/B83-C24-arboles-de-fallos-fta-y-analisis-de-causas/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C02 — Propiedades de aleaciones →](../B84-C02-propiedades-de-aleaciones/CLASE.md)
 <!-- /nav -->
