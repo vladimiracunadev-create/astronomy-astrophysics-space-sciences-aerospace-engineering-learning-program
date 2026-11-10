@@ -1,7 +1,7 @@
 # B57-C05 — Imágenes multiespectrales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C04 — Satélites ópticos de observación](../B57-C04-satelites-opticos-de-observacion/CLASE.md) · [Siguiente: B57-C06 — Índices de vegetación →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C04 — Satélites ópticos de observación](../B57-C04-satelites-opticos-de-observacion/CLASE.md) · [Siguiente: B57-C06 — Índices de vegetación →](../B57-C06-indices-de-vegetacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ La razón NIR/rojo separa la vegetación sintética (`9,0`) del suelo (`1,27`) y
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C04 — Satélites ópticos de observación](../B57-C04-satelites-opticos-de-observacion/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C06 — Índices de vegetación →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c06)
+[← Anterior: B57-C04 — Satélites ópticos de observación](../B57-C04-satelites-opticos-de-observacion/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C06 — Índices de vegetación →](../B57-C06-indices-de-vegetacion/CLASE.md)
 <!-- /nav -->
