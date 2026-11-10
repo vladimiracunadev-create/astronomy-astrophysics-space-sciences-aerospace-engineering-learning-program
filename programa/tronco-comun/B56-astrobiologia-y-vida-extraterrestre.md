@@ -69,16 +69,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b56-c08"></a>[B56-C08](../clases/B56/B56-C08-habitabilidad-de-marte/CLASE.md) | Habitabilidad de Marte | Gravedad, escape y temperaturas de Marte frente a los límites de replicación. | Ficha de habitabilidad de Marte |
 | <a id="b56-c09"></a>[B56-C09](../clases/B56/B56-C09-oceanos-de-europa/CLASE.md) | Océanos de Europa | Profundidad de un océano a partir de su volumen y presión en el fondo. | Ficha del océano de Europa |
 | <a id="b56-c10"></a>[B56-C10](../clases/B56/B56-C10-oceanos-de-encelado/CLASE.md) | Océanos de Encélado | Velocidad de escape, balística de las partículas del penacho y destino del material. | Ficha del penacho de Encélado |
-| <a id="b56-c11"></a>B56-C11 | Atmósfera y superficie de Titán | Altura de escala, presión hidrostática y retención de gases por el parámetro de Jeans. | Ficha atmosférica de Titán |
+| <a id="b56-c11"></a>[B56-C11](../clases/B56/B56-C11-atmosfera-y-superficie-de-titan/CLASE.md) | Atmósfera y superficie de Titán | Altura de escala, presión hidrostática y retención de gases por el parámetro de Jeans. | Ficha atmosférica de Titán |
 
 ### Tramo 4 · Exoplanetas, biofirmas y tecnofirmas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b56-c12"></a>B56-C12 | Exoplanetas potencialmente habitables | Flujo estelar y borde interno y externo de la zona habitable. | Ficha de habitabilidad de un exoplaneta sintético |
-| <a id="b56-c13"></a>B56-C13 | Biofirmas químicas | Desequilibrio químico atmosférico como energía libre. | Medida de desequilibrio de una atmósfera |
-| <a id="b56-c14"></a>B56-C14 | Biofirmas espectrales | Profundidad de tránsito, señal atmosférica y número de tránsitos necesarios. | Presupuesto de señal a ruido |
-| <a id="b56-c15"></a>B56-C15 | Falsos positivos de biofirmas | Probabilidad posterior de vida dada una detección con falsos positivos. | Tabla de probabilidad posterior |
+| <a id="b56-c12"></a>[B56-C12](../clases/B56/B56-C12-exoplanetas-potencialmente-habitables/CLASE.md) | Exoplanetas potencialmente habitables | Flujo estelar y borde interno y externo de la zona habitable. | Ficha de habitabilidad de un exoplaneta sintético |
+| <a id="b56-c13"></a>[B56-C13](../clases/B56/B56-C13-biofirmas-quimicas/CLASE.md) | Biofirmas químicas | Desequilibrio químico atmosférico como energía libre. | Medida de desequilibrio de una atmósfera |
+| <a id="b56-c14"></a>[B56-C14](../clases/B56/B56-C14-biofirmas-espectrales/CLASE.md) | Biofirmas espectrales | Profundidad de tránsito, señal atmosférica y número de tránsitos necesarios. | Presupuesto de señal a ruido |
+| <a id="b56-c15"></a>[B56-C15](../clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md) | Falsos positivos de biofirmas | Probabilidad posterior de vida dada una detección con falsos positivos. | Tabla de probabilidad posterior |
 | <a id="b56-c16"></a>B56-C16 | Tecnofirmas y búsqueda SETI | Ecuación del radiómetro, flujo detectable y alcance de una búsqueda de radio. | Ficha de alcance de una búsqueda |
 
 ### Tramo 5 · Contaminación, protección planetaria y ética

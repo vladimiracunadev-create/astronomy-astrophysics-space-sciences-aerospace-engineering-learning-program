@@ -1,7 +1,7 @@
 # B56-C10 — Océanos de Encélado
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C09 — Océanos de Europa](../B56-C09-oceanos-de-europa/CLASE.md) · [Siguiente: B56-C11 — Atmósfera y superficie de Titán →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C09 — Océanos de Europa](../B56-C09-oceanos-de-europa/CLASE.md) · [Siguiente: B56-C11 — Atmósfera y superficie de Titán →](../B56-C11-atmosfera-y-superficie-de-titan/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Con `v_esc = 239 m/s`, un grano a 400 m/s escaparía en el modelo, y uno a 100 m
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B56-C09 — Océanos de Europa](../B56-C09-oceanos-de-europa/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C11 — Atmósfera y superficie de Titán →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c11)
+[← Anterior: B56-C09 — Océanos de Europa](../B56-C09-oceanos-de-europa/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C11 — Atmósfera y superficie de Titán →](../B56-C11-atmosfera-y-superficie-de-titan/CLASE.md)
 <!-- /nav -->
