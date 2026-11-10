@@ -1,7 +1,7 @@
 # B87-C08 — Calibración de sensores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B87-C07 — Rastreadores estelares](../B87-C07-rastreadores-estelares/CLASE.md) · [Siguiente: B87-C09 — Estimación de actitud →](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B87-C07 — Rastreadores estelares](../B87-C07-rastreadores-estelares/CLASE.md) · [Siguiente: B87-C09 — Estimación de actitud →](../B87-C09-estimacion-de-actitud/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ El ajuste de módulo recupera sesgo y escala del magnetómetro (error `< 13 nT` 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B87-C07 — Rastreadores estelares](../B87-C07-rastreadores-estelares/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B87-C09 — Estimación de actitud →](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c09)
+[← Anterior: B87-C07 — Rastreadores estelares](../B87-C07-rastreadores-estelares/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B87-C09 — Estimación de actitud →](../B87-C09-estimacion-de-actitud/CLASE.md)
 <!-- /nav -->
