@@ -75,16 +75,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b54-c13"></a>[B54-C13](../clases/B54/B54-C13-atmosfera-de-venus/CLASE.md) | Atmósfera de Venus | Adiabata de CO₂, estructura hasta 1 bar y masa atmosférica. | Ficha de la atmósfera de Venus |
 | <a id="b54-c14"></a>[B54-C14](../clases/B54/B54-C14-atmosfera-de-marte/CLASE.md) | Atmósfera de Marte | Masa, ciclo estacional del CO₂ y temperatura de escarcha. | Ficha de la atmósfera de Marte |
 | <a id="b54-c15"></a>[B54-C15](../clases/B54/B54-C15-atmosferas-de-gigantes-gaseosos/CLASE.md) | Atmósferas de gigantes gaseosos | Altura de escala de H₂/He, balance de Júpiter y adiabata profunda. | Ficha de la atmósfera de Júpiter |
-| <a id="b54-c16"></a>B54-C16 | Atmósferas de Titán | Gravedad, altura de escala, columna y balance de una atmósfera de N₂ y CH₄. | Ficha de la atmósfera de Titán |
+| <a id="b54-c16"></a>[B54-C16](../clases/B54/B54-C16-atmosferas-de-titan/CLASE.md) | Atmósferas de Titán | Gravedad, altura de escala, columna y balance de una atmósfera de N₂ y CH₄. | Ficha de la atmósfera de Titán |
 
 ### Tramo 5 · Aplicación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b54-c17"></a>B54-C17 | Clima exoplanetario | Instalación estelar, temperatura de equilibrio y redistribución de calor. | Ficha climática de un exoplaneta sintético |
-| <a id="b54-c18"></a>B54-C18 | Medición remota atmosférica | Funciones de peso, sondeo en el nadir y ocultación con ruido. | Informe de un sondeo sintético |
-| <a id="b54-c19"></a>B54-C19 | Modelos climáticos planetarios | Balance de energía de dimensión cero, retroalimentación hielo–albedo e histéresis. | Modelo de balance de energía validado |
-| <a id="b54-c20"></a>B54-C20 | Comparación de habitabilidad climática | Condiciones necesarias para agua líquida y comparación de cuatro mundos. | Tabla comparativa de condiciones climáticas |
+| <a id="b54-c17"></a>[B54-C17](../clases/B54/B54-C17-clima-exoplanetario/CLASE.md) | Clima exoplanetario | Instalación estelar, temperatura de equilibrio y redistribución de calor. | Ficha climática de un exoplaneta sintético |
+| <a id="b54-c18"></a>[B54-C18](../clases/B54/B54-C18-medicion-remota-atmosferica/CLASE.md) | Medición remota atmosférica | Funciones de peso, sondeo en el nadir y ocultación con ruido. | Informe de un sondeo sintético |
+| <a id="b54-c19"></a>[B54-C19](../clases/B54/B54-C19-modelos-climaticos-planetarios/CLASE.md) | Modelos climáticos planetarios | Balance de energía de dimensión cero, retroalimentación hielo–albedo e histéresis. | Modelo de balance de energía validado |
+| <a id="b54-c20"></a>[B54-C20](../clases/B54/B54-C20-comparacion-de-habitabilidad-climatica/CLASE.md) | Comparación de habitabilidad climática | Condiciones necesarias para agua líquida y comparación de cuatro mundos. | Tabla comparativa de condiciones climáticas |
 
 ## 🧵 Hilos que atraviesan el bloque
 

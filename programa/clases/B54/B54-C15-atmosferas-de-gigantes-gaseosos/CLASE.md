@@ -1,7 +1,7 @@
 # B54-C15 — Atmósferas de gigantes gaseosos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C14 — Atmósfera de Marte](../B54-C14-atmosfera-de-marte/CLASE.md) · [Siguiente: B54-C16 — Atmósferas de Titán →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C14 — Atmósfera de Marte](../B54-C14-atmosfera-de-marte/CLASE.md) · [Siguiente: B54-C16 — Atmósferas de Titán →](../B54-C16-atmosferas-de-titan/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ El nivel de 1 bar de Júpiter está 55 K por encima de su equilibrio solar y una
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B54-C14 — Atmósfera de Marte](../B54-C14-atmosfera-de-marte/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B54-C16 — Atmósferas de Titán →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c16)
+[← Anterior: B54-C14 — Atmósfera de Marte](../B54-C14-atmosfera-de-marte/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B54-C16 — Atmósferas de Titán →](../B54-C16-atmosferas-de-titan/CLASE.md)
 <!-- /nav -->
