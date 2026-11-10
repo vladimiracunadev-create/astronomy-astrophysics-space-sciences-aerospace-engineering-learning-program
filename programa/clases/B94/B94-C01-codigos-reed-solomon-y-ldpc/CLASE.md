@@ -1,7 +1,7 @@
 # B94-C01 — Códigos Reed-Solomon y LDPC
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [← Anterior: B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating)](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md#b93-c04) · [Siguiente: B94-C02 — Entrelazado y concatenación de códigos →](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [← Anterior: B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating)](../../B93/B93-C04-analisis-de-confiabilidad-de-electronica-mtbf-y-derating/CLASE.md) · [Siguiente: B94-C02 — Entrelazado y concatenación de códigos →](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ RS(255, 223) añade 32 octetos y corrige 16; con 17 el decodificador falla. Qued
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating)](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md#b93-c04) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [Siguiente: B94-C02 — Entrelazado y concatenación de códigos →](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md)
+[← Anterior: B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating)](../../B93/B93-C04-analisis-de-confiabilidad-de-electronica-mtbf-y-derating/CLASE.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [Siguiente: B94-C02 — Entrelazado y concatenación de códigos →](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md)
 <!-- /nav -->

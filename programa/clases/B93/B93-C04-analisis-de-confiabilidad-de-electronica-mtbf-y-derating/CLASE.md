@@ -1,7 +1,7 @@
 # B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B93](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) · [← Anterior: B93-C03 — Integridad de señal en electrónica embarcada](../B93-C03-integridad-de-senal-en-electronica-embarcada/CLASE.md) · [Siguiente: B94-C01 — Códigos Reed-Solomon y LDPC →](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md#b94-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B93](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) · [← Anterior: B93-C03 — Integridad de señal en electrónica embarcada](../B93-C03-integridad-de-senal-en-electronica-embarcada/CLASE.md) · [Siguiente: B94-C01 — Códigos Reed-Solomon y LDPC →](../../B94/B94-C01-codigos-reed-solomon-y-ldpc/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,5 +313,5 @@ Una unidad de 219 partes con `λ = 1,36` fallas por 10⁶ h tiene un 94,2 % de p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B93-C03 — Integridad de señal en electrónica embarcada](../B93-C03-integridad-de-senal-en-electronica-embarcada/CLASE.md) · [📚 Bloque B93](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) · [Siguiente: B94-C01 — Códigos Reed-Solomon y LDPC →](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md#b94-c01)
+[← Anterior: B93-C03 — Integridad de señal en electrónica embarcada](../B93-C03-integridad-de-senal-en-electronica-embarcada/CLASE.md) · [📚 Bloque B93](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md) · [Siguiente: B94-C01 — Códigos Reed-Solomon y LDPC →](../../B94/B94-C01-codigos-reed-solomon-y-ldpc/CLASE.md)
 <!-- /nav -->
