@@ -1,7 +1,7 @@
 # B58-C13 — Caracterización de rotación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C12 — Radar planetario](../B58-C12-radar-planetario/CLASE.md) · [Siguiente: B58-C14 — Efectos Yarkovsky y YORP →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c14)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C12 — Radar planetario](../B58-C12-radar-planetario/CLASE.md) · [Siguiente: B58-C14 — Efectos Yarkovsky y YORP →](../B58-C14-efectos-yarkovsky-y-yorp/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ El pico está en la mitad del periodo (1.60 h) y la comparación de modelos da 3
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B58-C12 — Radar planetario](../B58-C12-radar-planetario/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C14 — Efectos Yarkovsky y YORP →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c14)
+[← Anterior: B58-C12 — Radar planetario](../B58-C12-radar-planetario/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C14 — Efectos Yarkovsky y YORP →](../B58-C14-efectos-yarkovsky-y-yorp/CLASE.md)
 <!-- /nav -->
