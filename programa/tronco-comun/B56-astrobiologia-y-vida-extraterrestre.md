@@ -79,14 +79,14 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b56-c13"></a>[B56-C13](../clases/B56/B56-C13-biofirmas-quimicas/CLASE.md) | Biofirmas químicas | Desequilibrio químico atmosférico como energía libre. | Medida de desequilibrio de una atmósfera |
 | <a id="b56-c14"></a>[B56-C14](../clases/B56/B56-C14-biofirmas-espectrales/CLASE.md) | Biofirmas espectrales | Profundidad de tránsito, señal atmosférica y número de tránsitos necesarios. | Presupuesto de señal a ruido |
 | <a id="b56-c15"></a>[B56-C15](../clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md) | Falsos positivos de biofirmas | Probabilidad posterior de vida dada una detección con falsos positivos. | Tabla de probabilidad posterior |
-| <a id="b56-c16"></a>B56-C16 | Tecnofirmas y búsqueda SETI | Ecuación del radiómetro, flujo detectable y alcance de una búsqueda de radio. | Ficha de alcance de una búsqueda |
+| <a id="b56-c16"></a>[B56-C16](../clases/B56/B56-C16-tecnofirmas-y-busqueda-seti/CLASE.md) | Tecnofirmas y búsqueda SETI | Ecuación del radiómetro, flujo detectable y alcance de una búsqueda de radio. | Ficha de alcance de una búsqueda |
 
 ### Tramo 5 · Contaminación, protección planetaria y ética
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b56-c17"></a>B56-C17 | Control de contaminación biológica | Reducción logarítmica de esporas y presupuesto de carga biológica. | Presupuesto de carga biológica |
-| <a id="b56-c18"></a>B56-C18 | Protección planetaria COSPAR | Categorías I–V, objetivos y probabilidades límite de la política vigente. | Clasificación de misiones |
+| <a id="b56-c17"></a>[B56-C17](../clases/B56/B56-C17-control-de-contaminacion-biologica/CLASE.md) | Control de contaminación biológica | Reducción logarítmica de esporas y presupuesto de carga biológica. | Presupuesto de carga biológica |
+| <a id="b56-c18"></a>[B56-C18](../clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md) | Protección planetaria COSPAR | Categorías I–V, objetivos y probabilidades límite de la política vigente. | Clasificación de misiones |
 | <a id="b56-c19"></a>B56-C19 | Ética del descubrimiento de vida | Acumulación de evidencia en log-odds y criterios para anunciar o contener. | Protocolo de comunicación de un candidato |
 
 ### Tramo 6 · Integración

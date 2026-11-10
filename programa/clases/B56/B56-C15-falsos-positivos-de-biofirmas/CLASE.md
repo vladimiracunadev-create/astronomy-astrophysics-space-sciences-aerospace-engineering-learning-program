@@ -1,7 +1,7 @@
 # B56-C15 — Falsos positivos de biofirmas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C14 — Biofirmas espectrales](../B56-C14-biofirmas-espectrales/CLASE.md) · [Siguiente: B56-C16 — Tecnofirmas y búsqueda SETI →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C14 — Biofirmas espectrales](../B56-C14-biofirmas-espectrales/CLASE.md) · [Siguiente: B56-C16 — Tecnofirmas y búsqueda SETI →](../B56-C16-tecnofirmas-y-busqueda-seti/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ Una biofirma sensible puede dar una posterior baja si hay muchos falsos positivo
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B56-C14 — Biofirmas espectrales](../B56-C14-biofirmas-espectrales/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C16 — Tecnofirmas y búsqueda SETI →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c16)
+[← Anterior: B56-C14 — Biofirmas espectrales](../B56-C14-biofirmas-espectrales/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C16 — Tecnofirmas y búsqueda SETI →](../B56-C16-tecnofirmas-y-busqueda-seti/CLASE.md)
 <!-- /nav -->
