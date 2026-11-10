@@ -1,7 +1,7 @@
 # B57-C15 — Sequías e inundaciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C14 — Glaciares y criósfera](../B57-C14-glaciares-y-criosfera/CLASE.md) · [Siguiente: B57-C16 — Incendios forestales →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C14 — Glaciares y criósfera](../B57-C14-glaciares-y-criosfera/CLASE.md) · [Siguiente: B57-C16 — Incendios forestales →](../B57-C16-incendios-forestales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ Otsu fija el umbral entre las dos clases y mide el aumento de área en `3,19 km�
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C14 — Glaciares y criósfera](../B57-C14-glaciares-y-criosfera/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C16 — Incendios forestales →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c16)
+[← Anterior: B57-C14 — Glaciares y criósfera](../B57-C14-glaciares-y-criosfera/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C16 — Incendios forestales →](../B57-C16-incendios-forestales/CLASE.md)
 <!-- /nav -->

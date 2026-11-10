@@ -73,11 +73,11 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b57-c13"></a>[B57-C13](../clases/B57/B57-C13-atmosfera-y-aerosoles/CLASE.md) | Atmósfera y aerosoles | Espesor óptico de aerosoles, exponente de Ångström y transmitancia de Beer–Lambert. | Ficha de aerosoles |
 | <a id="b57-c14"></a>[B57-C14](../clases/B57/B57-C14-glaciares-y-criosfera/CLASE.md) | Glaciares y criósfera | Cambio de masa de hielo, equivalente en nivel del mar y conversión de altura a masa. | Ficha del balance de hielo |
 | <a id="b57-c15"></a>[B57-C15](../clases/B57/B57-C15-sequias-e-inundaciones/CLASE.md) | Sequías e inundaciones | Máscara de agua con umbral de Otsu, cambio de área inundada e índice de anomalía de lluvia. | Ficha de sequía e inundación |
-| <a id="b57-c16"></a>B57-C16 | Incendios forestales | Detección de fuego en dos bandas, fracción de píxel en llamas y tamaño mínimo detectable. | Ficha de detección de incendios |
-| <a id="b57-c17"></a>B57-C17 | Terremotos y deformación | Momento sísmico, magnitud, deformación de falla y proyección a la línea de visión. | Ficha de deformación sísmica |
-| <a id="b57-c18"></a>B57-C18 | Volcanismo y monitoreo | Fuente de Mogi, perfil de deformación e inversión de profundidad y volumen. | Ficha de deformación volcánica |
-| <a id="b57-c19"></a>B57-C19 | SIG y análisis de riesgo | Riesgo como amenaza × exposición × vulnerabilidad, superposición de capas y pesos AHP. | Ficha de análisis de riesgo |
-| <a id="b57-c20"></a>B57-C20 | Caso de estudio climático o geológico de Chile | Caso geológico de Chile: terremoto de Maule 2010, momento sísmico y déficit de deslizamiento. | Ficha del caso de Chile |
+| <a id="b57-c16"></a>[B57-C16](../clases/B57/B57-C16-incendios-forestales/CLASE.md) | Incendios forestales | Detección de fuego en dos bandas, fracción de píxel en llamas y tamaño mínimo detectable. | Ficha de detección de incendios |
+| <a id="b57-c17"></a>[B57-C17](../clases/B57/B57-C17-terremotos-y-deformacion/CLASE.md) | Terremotos y deformación | Momento sísmico, magnitud, deformación de falla y proyección a la línea de visión. | Ficha de deformación sísmica |
+| <a id="b57-c18"></a>[B57-C18](../clases/B57/B57-C18-volcanismo-y-monitoreo/CLASE.md) | Volcanismo y monitoreo | Fuente de Mogi, perfil de deformación e inversión de profundidad y volumen. | Ficha de deformación volcánica |
+| <a id="b57-c19"></a>[B57-C19](../clases/B57/B57-C19-sig-y-analisis-de-riesgo/CLASE.md) | SIG y análisis de riesgo | Riesgo como amenaza × exposición × vulnerabilidad, superposición de capas y pesos AHP. | Ficha de análisis de riesgo |
+| <a id="b57-c20"></a>[B57-C20](../clases/B57/B57-C20-caso-de-estudio-climatico-o-geologico-de-chile/CLASE.md) | Caso de estudio climático o geológico de Chile | Caso geológico de Chile: terremoto de Maule 2010, momento sísmico y déficit de deslizamiento. | Ficha del caso de Chile |
 
 ### Tramo 4 · Ampliación: sensores, órbita y procesamiento
 
