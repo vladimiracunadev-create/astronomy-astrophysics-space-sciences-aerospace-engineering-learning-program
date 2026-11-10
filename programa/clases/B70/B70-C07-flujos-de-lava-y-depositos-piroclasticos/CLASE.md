@@ -1,7 +1,7 @@
 # B70-C07 — Flujos de lava y depósitos piroclásticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B70](../../../tronco-comun/B70-vulcanismo-planetario.md) · [← Anterior: B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles](../B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md) · [Siguiente: B71-C01 — Leyes de Kepler →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B70](../../../tronco-comun/B70-vulcanismo-planetario.md) · [← Anterior: B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles](../B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md) · [Siguiente: B71-C01 — Leyes de Kepler →](../../B71/B71-C01-leyes-de-kepler/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -321,5 +321,5 @@ La colada sintética tiene `q = 12,01 m²/s` (newtoniana) y se detiene en Marte 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles](../B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md) · [📚 Bloque B70](../../../tronco-comun/B70-vulcanismo-planetario.md) · [Siguiente: B71-C01 — Leyes de Kepler →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c01)
+[← Anterior: B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles](../B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md) · [📚 Bloque B70](../../../tronco-comun/B70-vulcanismo-planetario.md) · [Siguiente: B71-C01 — Leyes de Kepler →](../../B71/B71-C01-leyes-de-kepler/CLASE.md)
 <!-- /nav -->
