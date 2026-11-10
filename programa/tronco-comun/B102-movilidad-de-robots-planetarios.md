@@ -50,24 +50,24 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b102-c01"></a>B102-C01 | Dinámica multicuerpo de rovers y manipuladores | Ecuaciones de Lagrange de un brazo de dos eslabones, par de gravedad y energía. | Ficha dinámica de un brazo en Tierra y Marte |
-| <a id="b102-c02"></a>B102-C02 | Terramecánica: tracción y hundimiento en suelos sueltos | Presión-hundimiento de Bekker, cizalladura de Mohr–Coulomb y tracción de barra. | Curva de tracción de barra frente al patinaje |
-| <a id="b102-c03"></a>B102-C03 | Deslizamiento y estimación de patinaje | Patinaje desde odometría y referencia, filtro y corrección de distancia. | Informe de patinaje con su incertidumbre |
+| <a id="b102-c01"></a>[B102-C01](../clases/B102/B102-C01-dinamica-multicuerpo-de-rovers-y-manipuladores/CLASE.md) | Dinámica multicuerpo de rovers y manipuladores | Ecuaciones de Lagrange de un brazo de dos eslabones, par de gravedad y energía. | Ficha dinámica de un brazo en Tierra y Marte |
+| <a id="b102-c02"></a>[B102-C02](../clases/B102/B102-C02-terramecanica-traccion-y-hundimiento-en-suelos-sueltos/CLASE.md) | Terramecánica: tracción y hundimiento en suelos sueltos | Presión-hundimiento de Bekker, cizalladura de Mohr–Coulomb y tracción de barra. | Curva de tracción de barra frente al patinaje |
+| <a id="b102-c03"></a>[B102-C03](../clases/B102/B102-C03-deslizamiento-y-estimacion-de-patinaje/CLASE.md) | Deslizamiento y estimación de patinaje | Patinaje desde odometría y referencia, filtro y corrección de distancia. | Informe de patinaje con su incertidumbre |
 
 ### Tramo 2 · Suspensión, cargas y medición
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b102-c04"></a>B102-C04 | Suspensión rocker-bogie y mecánica de rovers | Estática del rocker-bogie, reparto de carga y escalón máximo. | Ficha de suspensión con cargas por rueda |
-| <a id="b102-c05"></a>B102-C05 | Distribución de cargas y estabilidad ante vuelco | Ángulos de vuelco, transferencia de carga y margen en pendiente. | Tabla de márgenes de estabilidad |
-| <a id="b102-c06"></a>B102-C06 | Dinamometría y medición de fuerzas de tracción | Calibración de celda de carga, ajuste lineal e incertidumbre expandida. | Certificado de calibración sintético |
+| <a id="b102-c04"></a>[B102-C04](../clases/B102/B102-C04-suspension-rocker-bogie-y-mecanica-de-rovers/CLASE.md) | Suspensión rocker-bogie y mecánica de rovers | Estática del rocker-bogie, reparto de carga y escalón máximo. | Ficha de suspensión con cargas por rueda |
+| <a id="b102-c05"></a>[B102-C05](../clases/B102/B102-C05-distribucion-de-cargas-y-estabilidad-ante-vuelco/CLASE.md) | Distribución de cargas y estabilidad ante vuelco | Ángulos de vuelco, transferencia de carga y margen en pendiente. | Tabla de márgenes de estabilidad |
+| <a id="b102-c06"></a>[B102-C06](../clases/B102/B102-C06-dinamometria-y-medicion-de-fuerzas-de-traccion/CLASE.md) | Dinamometría y medición de fuerzas de tracción | Calibración de celda de carga, ajuste lineal e incertidumbre expandida. | Certificado de calibración sintético |
 
 ### Tramo 3 · Simular y decidir
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b102-c07"></a>B102-C07 | Simulación de movilidad sobre pendientes y terreno | Dinámica longitudinal con tracción dependiente del patinaje y pendiente máxima. | Curva de pendiente alcanzable en Marte y la Luna |
-| <a id="b102-c08"></a>B102-C08 | Traversabilidad y evaluación de riesgo de terreno | Pendiente, rugosidad y rocas en un coste y una ruta de mínimo riesgo. | Mapa de riesgo y ruta sobre un terreno sintético |
+| <a id="b102-c07"></a>[B102-C07](../clases/B102/B102-C07-simulacion-de-movilidad-sobre-pendientes-y-terreno/CLASE.md) | Simulación de movilidad sobre pendientes y terreno | Dinámica longitudinal con tracción dependiente del patinaje y pendiente máxima. | Curva de pendiente alcanzable en Marte y la Luna |
+| <a id="b102-c08"></a>[B102-C08](../clases/B102/B102-C08-traversabilidad-y-evaluacion-de-riesgo-de-terreno/CLASE.md) | Traversabilidad y evaluación de riesgo de terreno | Pendiente, rugosidad y rocas en un coste y una ruta de mínimo riesgo. | Mapa de riesgo y ruta sobre un terreno sintético |
 
 ## 🧵 Hilos que atraviesan el bloque
 
