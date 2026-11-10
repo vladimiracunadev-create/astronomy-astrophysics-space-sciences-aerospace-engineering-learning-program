@@ -1,7 +1,7 @@
 # B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [← Anterior: B78-C21 — Erosión y vida útil de propulsores eléctricos](../B78-C21-erosion-y-vida-util-de-propulsores-electricos/CLASE.md) · [Siguiente: B79-C01 — Conservación de masa en fluidos →](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md#b79-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [← Anterior: B78-C21 — Erosión y vida útil de propulsores eléctricos](../B78-C21-erosion-y-vida-util-de-propulsores-electricos/CLASE.md) · [Siguiente: B79-C01 — Conservación de masa en fluidos →](../../B79/B79-C01-conservacion-de-masa-en-fluidos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ Con un ciclo de `0,4355`, un propulsor de `40 mN` tarda `52 días` en elevar `30
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B78-C21 — Erosión y vida útil de propulsores eléctricos](../B78-C21-erosion-y-vida-util-de-propulsores-electricos/CLASE.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [Siguiente: B79-C01 — Conservación de masa en fluidos →](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md#b79-c01)
+[← Anterior: B78-C21 — Erosión y vida útil de propulsores eléctricos](../B78-C21-erosion-y-vida-util-de-propulsores-electricos/CLASE.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [Siguiente: B79-C01 — Conservación de masa en fluidos →](../../B79/B79-C01-conservacion-de-masa-en-fluidos/CLASE.md)
 <!-- /nav -->

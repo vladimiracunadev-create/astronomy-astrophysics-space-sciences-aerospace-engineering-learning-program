@@ -1,7 +1,7 @@
 # B79-C01 — Conservación de masa en fluidos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [← Anterior: B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md#b78-c22) · [Siguiente: B79-C02 — Ecuaciones de Euler para flujo no viscoso →](../B79-C02-ecuaciones-de-euler-para-flujo-no-viscoso/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [← Anterior: B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica](../../B78/B78-C22-ciclos-de-trabajo-y-operacion-de-propulsion-electrica/CLASE.md) · [Siguiente: B79-C02 — Ecuaciones de Euler para flujo no viscoso →](../B79-C02-ecuaciones-de-euler-para-flujo-no-viscoso/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Un conducto que se estrecha de `0,010` a `0,004 m²` pasa de `20` a `50 m/s` con
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md#b78-c22) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [Siguiente: B79-C02 — Ecuaciones de Euler para flujo no viscoso →](../B79-C02-ecuaciones-de-euler-para-flujo-no-viscoso/CLASE.md)
+[← Anterior: B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica](../../B78/B78-C22-ciclos-de-trabajo-y-operacion-de-propulsion-electrica/CLASE.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [Siguiente: B79-C02 — Ecuaciones de Euler para flujo no viscoso →](../B79-C02-ecuaciones-de-euler-para-flujo-no-viscoso/CLASE.md)
 <!-- /nav -->
