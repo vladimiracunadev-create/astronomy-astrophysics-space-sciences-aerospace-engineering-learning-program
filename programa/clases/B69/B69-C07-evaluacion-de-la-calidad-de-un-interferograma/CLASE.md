@@ -1,7 +1,7 @@
 # B69-C07 — Evaluación de la calidad de un interferograma
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B69](../../../tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) · [← Anterior: B69-C06 — Deslizamientos y subsidencia medidos con InSAR](../B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md) · [Siguiente: B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias →](../../../tronco-comun/B70-vulcanismo-planetario.md#b70-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B69](../../../tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) · [← Anterior: B69-C06 — Deslizamientos y subsidencia medidos con InSAR](../B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md) · [Siguiente: B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias →](../../B70/B70-C01-volcanismo-basaltico-escudos-fisuras-y-llanuras-planetarias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ La cota de fase (0,0530 frente a 0,0536 simulado), los residuos (de 0 a 241,6 po
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B69-C06 — Deslizamientos y subsidencia medidos con InSAR](../B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md) · [📚 Bloque B69](../../../tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) · [Siguiente: B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias →](../../../tronco-comun/B70-vulcanismo-planetario.md#b70-c01)
+[← Anterior: B69-C06 — Deslizamientos y subsidencia medidos con InSAR](../B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md) · [📚 Bloque B69](../../../tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md) · [Siguiente: B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias →](../../B70/B70-C01-volcanismo-basaltico-escudos-fisuras-y-llanuras-planetarias/CLASE.md)
 <!-- /nav -->
