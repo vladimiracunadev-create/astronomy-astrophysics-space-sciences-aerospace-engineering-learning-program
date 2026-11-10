@@ -1,7 +1,7 @@
 # B83-C18 — Niveles de madurez tecnológica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C17 — Verificación frente a validación](../B83-C17-verificacion-frente-a-validacion/CLASE.md) · [Siguiente: B83-C19 — Aceptación y transferencia a operaciones →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C17 — Verificación frente a validación](../B83-C17-verificacion-frente-a-validacion/CLASE.md) · [Siguiente: B83-C19 — Aceptación y transferencia a operaciones →](../B83-C19-aceptacion-y-transferencia-a-operaciones/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ ESTRELLA-S (sintética) tiene TRL del sistema 4; llevar todo a TRL 6 cuesta 18,7
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C17 — Verificación frente a validación](../B83-C17-verificacion-frente-a-validacion/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C19 — Aceptación y transferencia a operaciones →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c19)
+[← Anterior: B83-C17 — Verificación frente a validación](../B83-C17-verificacion-frente-a-validacion/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C19 — Aceptación y transferencia a operaciones →](../B83-C19-aceptacion-y-transferencia-a-operaciones/CLASE.md)
 <!-- /nav -->
