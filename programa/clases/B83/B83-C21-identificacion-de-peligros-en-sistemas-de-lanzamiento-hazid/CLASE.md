@@ -1,7 +1,7 @@
 # B83-C21 — Identificación de peligros en sistemas de lanzamiento (HAZID)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C20 — Diseño preliminar completo de misión](../B83-C20-diseno-preliminar-completo-de-mision/CLASE.md) · [Siguiente: B83-C22 — Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c22)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C20 — Diseño preliminar completo de misión](../B83-C20-diseno-preliminar-completo-de-mision/CLASE.md) · [Siguiente: B83-C22 — Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales →](../B83-C22-analisis-de-modos-y-efectos-de-fallo-fmea-en-sistemas-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -73,7 +73,7 @@ Se cruzan 6 nodos (preparación, carga de propelente, integración, ascenso, sep
 
 ### 8.2 Índice y severidad
 
-Los índices van de 3 a 8: ninguno alcanza «alto» porque la verosimilitud es baja. Pero cinco peligros tienen severidad 4 (catastrófica) con L1 o L2: un índice moderado oculta una consecuencia máxima. Regla del ejemplo: toda severidad 4 se revisa aunque el índice sea bajo y debe tener barreras independientes.
+Los índices van de 3 a 8: ninguno alcanza «alto» porque la verosimilitud es baja. Pero seis peligros tienen severidad 4 (catastrófica) con L1 o L2: un índice moderado oculta una consecuencia máxima. Regla del ejemplo: toda severidad 4 se revisa aunque el índice sea bajo y debe tener barreras independientes.
 
 ### 8.3 Riesgo para terceros
 
@@ -223,7 +223,7 @@ Secciones 8.1–8.3, el ejemplo 13 y la salida del laboratorio.
 
 El script [registro_hazid.py](registro_hazid.py) recorre una rejilla de nodos y palabras guía, clasifica 12 peligros y estima la esperanza de bajas para dos trayectorias con incertidumbre por Monte Carlo y por fórmula (**comprueba** que ambas vías difieren menos de 0,3 puntos y que tierra no cumple y mar sí). Usa la biblioteca común [sistemas_comun.py](../sistemas_comun.py) del bloque.
 
-**Datos:** todos **sintéticos** (nodos, peligros, probabilidades, densidades, umbral); sin constantes físicas. **Predice antes de ejecutar:** ¿cuántos peligros resultan «altos»? (ninguno, aunque cinco tienen severidad 4.) **Ejecución del 2026-11-10 (Python 3.12.9 | numpy 2.4.4):**
+**Datos:** todos **sintéticos** (nodos, peligros, probabilidades, densidades, umbral); sin constantes físicas. **Predice antes de ejecutar:** ¿cuántos peligros resultan «altos»? (ninguno, aunque seis tienen severidad 4.) **Ejecución del 2026-11-10 (Python 3.12.9 | numpy 2.4.4):**
 
 ```text
 Python 3.12.9 | numpy 2.4.4
@@ -285,7 +285,7 @@ Clase educativa: los modelos son simplificados y los datos son sintéticos; ning
 
 ## 22. Para cerrar y seguir
 
-El HAZID sintético lista 12 peligros sin ninguno alto, pero cinco con severidad 4; la trayectoria sobre tierra no cumple el umbral de ejemplo y la del mar sí. Queda una pregunta: ¿cómo se anticipan los modos de fallo de cada componente? (C22).
+El HAZID sintético lista 12 peligros sin ninguno alto, pero seis con severidad 4; la trayectoria sobre tierra no cumple el umbral de ejemplo y la del mar sí. Queda una pregunta: ¿cómo se anticipan los modos de fallo de cada componente? (C22).
 
 **Glosario español–inglés.** identificación de peligros · *hazard identification*; palabra guía · *guideword*; esperanza de bajas · *casualty expectation*; severidad · *severity*; verosimilitud · *likelihood*.
 
@@ -296,5 +296,5 @@ El HAZID sintético lista 12 peligros sin ninguno alto, pero cinco con severidad
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C20 — Diseño preliminar completo de misión](../B83-C20-diseno-preliminar-completo-de-mision/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C22 — Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c22)
+[← Anterior: B83-C20 — Diseño preliminar completo de misión](../B83-C20-diseno-preliminar-completo-de-mision/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C22 — Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales →](../B83-C22-analisis-de-modos-y-efectos-de-fallo-fmea-en-sistemas-espaciales/CLASE.md)
 <!-- /nav -->
