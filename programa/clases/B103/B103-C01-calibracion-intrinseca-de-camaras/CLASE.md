@@ -1,7 +1,7 @@
 # B103-C01 — Calibración intrínseca de cámaras
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B102-C08 — Traversabilidad y evaluación de riesgo de terreno](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md#b102-c08) · [Siguiente: B103-C02 — Calibración extrínseca y registro multisensor →](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B102-C08 — Traversabilidad y evaluación de riesgo de terreno](../../B102/B102-C08-traversabilidad-y-evaluacion-de-riesgo-de-terreno/CLASE.md) · [Siguiente: B103-C02 — Calibración extrínseca y registro multisensor →](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ La calibración sintética recupera la focal con un 0,28 % de error y la distors
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B102-C08 — Traversabilidad y evaluación de riesgo de terreno](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md#b102-c08) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B103-C02 — Calibración extrínseca y registro multisensor →](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md)
+[← Anterior: B102-C08 — Traversabilidad y evaluación de riesgo de terreno](../../B102/B102-C08-traversabilidad-y-evaluacion-de-riesgo-de-terreno/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B103-C02 — Calibración extrínseca y registro multisensor →](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md)
 <!-- /nav -->

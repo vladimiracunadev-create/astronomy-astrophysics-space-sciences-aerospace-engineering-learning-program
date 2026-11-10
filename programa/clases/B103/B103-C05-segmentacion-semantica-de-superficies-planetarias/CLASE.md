@@ -1,7 +1,7 @@
 # B103-C05 — Segmentación semántica de superficies planetarias
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B103-C04 — Detección de obstáculos y mapas de traversabilidad](../B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md) · [Siguiente: B103-C06 — Detección y catalogación de rocas en imágenes de superficie →](../../../tronco-comun/B103-percepcion-visual-robotica.md#b103-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B103-C04 — Detección de obstáculos y mapas de traversabilidad](../B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md) · [Siguiente: B103-C06 — Detección y catalogación de rocas en imágenes de superficie →](../B103-C06-deteccion-y-catalogacion-de-rocas-en-imagenes-de-superficie/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ El segmentador sintético acierta el 91 % en su dominio y el 45 % con otra ilumi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B103-C04 — Detección de obstáculos y mapas de traversabilidad](../B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B103-C06 — Detección y catalogación de rocas en imágenes de superficie →](../../../tronco-comun/B103-percepcion-visual-robotica.md#b103-c06)
+[← Anterior: B103-C04 — Detección de obstáculos y mapas de traversabilidad](../B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B103-C06 — Detección y catalogación de rocas en imágenes de superficie →](../B103-C06-deteccion-y-catalogacion-de-rocas-en-imagenes-de-superficie/CLASE.md)
 <!-- /nav -->

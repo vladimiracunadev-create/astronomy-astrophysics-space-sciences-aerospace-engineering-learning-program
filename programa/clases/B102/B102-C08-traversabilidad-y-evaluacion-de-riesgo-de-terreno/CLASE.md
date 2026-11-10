@@ -1,7 +1,7 @@
 # B102-C08 — Traversabilidad y evaluación de riesgo de terreno
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [← Anterior: B102-C07 — Simulación de movilidad sobre pendientes y terreno](../B102-C07-simulacion-de-movilidad-sobre-pendientes-y-terreno/CLASE.md) · [Siguiente: B103-C01 — Calibración intrínseca de cámaras →](../../../tronco-comun/B103-percepcion-visual-robotica.md#b103-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [← Anterior: B102-C07 — Simulación de movilidad sobre pendientes y terreno](../B102-C07-simulacion-de-movilidad-sobre-pendientes-y-terreno/CLASE.md) · [Siguiente: B103-C01 — Calibración intrínseca de cámaras →](../../B103/B103-C01-calibracion-intrinseca-de-camaras/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ En un terreno sintético, el `10,6 %` de las celdas es intransitable y la ruta d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B102-C07 — Simulación de movilidad sobre pendientes y terreno](../B102-C07-simulacion-de-movilidad-sobre-pendientes-y-terreno/CLASE.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [Siguiente: B103-C01 — Calibración intrínseca de cámaras →](../../../tronco-comun/B103-percepcion-visual-robotica.md#b103-c01)
+[← Anterior: B102-C07 — Simulación de movilidad sobre pendientes y terreno](../B102-C07-simulacion-de-movilidad-sobre-pendientes-y-terreno/CLASE.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [Siguiente: B103-C01 — Calibración intrínseca de cámaras →](../../B103/B103-C01-calibracion-intrinseca-de-camaras/CLASE.md)
 <!-- /nav -->
