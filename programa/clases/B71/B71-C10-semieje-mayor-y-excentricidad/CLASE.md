@@ -1,7 +1,7 @@
 # B71-C10 — Semieje mayor y excentricidad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C09 — Órbitas parabólicas e hiperbólicas](../B71-C09-orbitas-parabolicas-e-hiperbolicas/CLASE.md) · [Siguiente: B71-C11 — Inclinación y nodo ascendente →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C09 — Órbitas parabólicas e hiperbólicas](../B71-C09-orbitas-parabolicas-e-hiperbolicas/CLASE.md) · [Siguiente: B71-C11 — Inclinación y nodo ascendente →](../B71-C11-inclinacion-y-nodo-ascendente/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ Las tres vías dan los mismos `a` y `e` (peor acuerdo `4e-15`) y +1 m/s en el pe
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B71-C09 — Órbitas parabólicas e hiperbólicas](../B71-C09-orbitas-parabolicas-e-hiperbolicas/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B71-C11 — Inclinación y nodo ascendente →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c11)
+[← Anterior: B71-C09 — Órbitas parabólicas e hiperbólicas](../B71-C09-orbitas-parabolicas-e-hiperbolicas/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B71-C11 — Inclinación y nodo ascendente →](../B71-C11-inclinacion-y-nodo-ascendente/CLASE.md)
 <!-- /nav -->
