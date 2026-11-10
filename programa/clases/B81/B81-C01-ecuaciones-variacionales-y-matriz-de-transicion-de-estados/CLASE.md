@@ -1,7 +1,7 @@
 # B81-C01 — Ecuaciones variacionales y matriz de transición de estados
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [← Anterior: B80-C09 — Odometría inercial y preintegración de IMU](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md#b80-c09) · [Siguiente: B81-C02 — Método de disparo para control óptimo →](../B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [← Anterior: B80-C09 — Odometría inercial y preintegración de IMU](../../B80/B80-C09-odometria-inercial-y-preintegracion-de-imu/CLASE.md) · [Siguiente: B81-C02 — Método de disparo para control óptimo →](../B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ Una matriz de 6×6 obtenida con 42 ecuaciones predice, a seis partes por millón
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B80-C09 — Odometría inercial y preintegración de IMU](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md#b80-c09) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [Siguiente: B81-C02 — Método de disparo para control óptimo →](../B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md)
+[← Anterior: B80-C09 — Odometría inercial y preintegración de IMU](../../B80/B80-C09-odometria-inercial-y-preintegracion-de-imu/CLASE.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [Siguiente: B81-C02 — Método de disparo para control óptimo →](../B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B80-C09 — Odometría inercial y preintegración de IMU
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B80](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) · [← Anterior: B80-C08 — Filtrado distribuido y descentralizado](../B80-C08-filtrado-distribuido-y-descentralizado/CLASE.md) · [Siguiente: B81-C01 — Ecuaciones variacionales y matriz de transición de estados →](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md#b81-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B80](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) · [← Anterior: B80-C08 — Filtrado distribuido y descentralizado](../B80-C08-filtrado-distribuido-y-descentralizado/CLASE.md) · [Siguiente: B81-C01 — Ecuaciones variacionales y matriz de transición de estados →](../../B81/B81-C01-ecuaciones-variacionales-y-matriz-de-transicion-de-estados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ Cien muestras se resumen en tres incrementos que se reutilizan con error de `10�
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B80-C08 — Filtrado distribuido y descentralizado](../B80-C08-filtrado-distribuido-y-descentralizado/CLASE.md) · [📚 Bloque B80](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) · [Siguiente: B81-C01 — Ecuaciones variacionales y matriz de transición de estados →](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md#b81-c01)
+[← Anterior: B80-C08 — Filtrado distribuido y descentralizado](../B80-C08-filtrado-distribuido-y-descentralizado/CLASE.md) · [📚 Bloque B80](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md) · [Siguiente: B81-C01 — Ecuaciones variacionales y matriz de transición de estados →](../../B81/B81-C01-ecuaciones-variacionales-y-matriz-de-transicion-de-estados/CLASE.md)
 <!-- /nav -->
