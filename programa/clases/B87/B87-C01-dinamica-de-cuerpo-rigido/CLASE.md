@@ -1,7 +1,7 @@
 # B87-C01 — Dinámica de cuerpo rígido
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B86-C23 — Priorización y deslastre de cargas eléctricas](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c23) · [Siguiente: B87-C02 — Representaciones de orientación →](../B87-C02-representaciones-de-orientacion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B86-C23 — Priorización y deslastre de cargas eléctricas](../../B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md) · [Siguiente: B87-C02 — Representaciones de orientación →](../B87-C02-representaciones-de-orientacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Un cuerpo libre conserva `H = 0,35 kg·m²/s` y `T = 0,175 J`, y un giro sobre e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B86-C23 — Priorización y deslastre de cargas eléctricas](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c23) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B87-C02 — Representaciones de orientación →](../B87-C02-representaciones-de-orientacion/CLASE.md)
+[← Anterior: B86-C23 — Priorización y deslastre de cargas eléctricas](../../B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B87-C02 — Representaciones de orientación →](../B87-C02-representaciones-de-orientacion/CLASE.md)
 <!-- /nav -->

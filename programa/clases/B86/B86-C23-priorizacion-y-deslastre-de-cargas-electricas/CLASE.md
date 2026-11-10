@@ -1,7 +1,7 @@
 # B86-C23 — Priorización y deslastre de cargas eléctricas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C22 — Suministro de energía durante la noche lunar](../B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md) · [Siguiente: B87-C01 — Dinámica de cuerpo rígido →](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C22 — Suministro de energía durante la noche lunar](../B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md) · [Siguiente: B87-C01 — Dinámica de cuerpo rígido →](../../B87/B87-C01-dinamica-de-cuerpo-rigido/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ Con `70 W` el deslastre estricto deja `6` cargas y el relleno `6`; con valores l
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B86-C22 — Suministro de energía durante la noche lunar](../B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B87-C01 — Dinámica de cuerpo rígido →](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c01)
+[← Anterior: B86-C22 — Suministro de energía durante la noche lunar](../B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B87-C01 — Dinámica de cuerpo rígido →](../../B87/B87-C01-dinamica-de-cuerpo-rigido/CLASE.md)
 <!-- /nav -->
