@@ -1,7 +1,7 @@
 # B84-C31 — Documentación y revisión de análisis de elementos finitos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C30 — Correlación modelo-ensayo y actualización de modelos](../B84-C30-correlacion-modelo-ensayo-y-actualizacion-de-modelos/CLASE.md) · [Siguiente: B84-C32 — Vibración aleatoria y densidad espectral de potencia →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c32)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C30 — Correlación modelo-ensayo y actualización de modelos](../B84-C30-correlacion-modelo-ensayo-y-actualizacion-de-modelos/CLASE.md) · [Siguiente: B84-C32 — Vibración aleatoria y densidad espectral de potencia →](../B84-C32-vibracion-aleatoria-y-densidad-espectral-de-potencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ Los tres errores inyectados caen en comprobaciones distintas y el modelo correct
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C30 — Correlación modelo-ensayo y actualización de modelos](../B84-C30-correlacion-modelo-ensayo-y-actualizacion-de-modelos/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C32 — Vibración aleatoria y densidad espectral de potencia →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c32)
+[← Anterior: B84-C30 — Correlación modelo-ensayo y actualización de modelos](../B84-C30-correlacion-modelo-ensayo-y-actualizacion-de-modelos/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C32 — Vibración aleatoria y densidad espectral de potencia →](../B84-C32-vibracion-aleatoria-y-densidad-espectral-de-potencia/CLASE.md)
 <!-- /nav -->
