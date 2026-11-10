@@ -1,7 +1,7 @@
 # B87-C14 — Saturación y descarga de momento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B87-C13 — Propulsores de control de actitud](../B87-C13-propulsores-de-control-de-actitud/CLASE.md) · [Siguiente: B87-C15 — Apuntamiento de alta precisión →](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B87-C13 — Propulsores de control de actitud](../B87-C13-propulsores-de-control-de-actitud/CLASE.md) · [Siguiente: B87-C15 — Apuntamiento de alta precisión →](../B87-C15-apuntamiento-de-alta-precision/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ Con `4,6 µN·m` de par secular, la rueda satura en `3,0 h`; la descarga magnét
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B87-C13 — Propulsores de control de actitud](../B87-C13-propulsores-de-control-de-actitud/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B87-C15 — Apuntamiento de alta precisión →](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c15)
+[← Anterior: B87-C13 — Propulsores de control de actitud](../B87-C13-propulsores-de-control-de-actitud/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B87-C15 — Apuntamiento de alta precisión →](../B87-C15-apuntamiento-de-alta-precision/CLASE.md)
 <!-- /nav -->
