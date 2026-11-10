@@ -1,7 +1,7 @@
 # B54-C05 — Transporte convectivo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C04 — Presión y densidad](../B54-C04-presion-y-densidad/CLASE.md) · [Siguiente: B54-C06 — Circulación general planetaria →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C04 — Presión y densidad](../B54-C04-presion-y-densidad/CLASE.md) · [Siguiente: B54-C06 — Circulación general planetaria →](../B54-C06-circulacion-general-planetaria/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Una parcela terrestre se enfría 9,8 K por km al subir; una capa que lo hace má
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B54-C04 — Presión y densidad](../B54-C04-presion-y-densidad/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B54-C06 — Circulación general planetaria →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c06)
+[← Anterior: B54-C04 — Presión y densidad](../B54-C04-presion-y-densidad/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B54-C06 — Circulación general planetaria →](../B54-C06-circulacion-general-planetaria/CLASE.md)
 <!-- /nav -->

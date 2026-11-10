@@ -55,16 +55,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b54-c05"></a>[B54-C05](../clases/B54/B54-C05-transporte-convectivo/CLASE.md) | Transporte convectivo | Gradiente adiabático, criterio de estabilidad y frecuencia de flotabilidad. | Informe de estabilidad de una capa |
-| <a id="b54-c06"></a>B54-C06 | Circulación general planetaria | Coriolis, balance geostrófico, número de Rossby y escala de la celda de Hadley. | Ficha de rotación y circulación |
-| <a id="b54-c07"></a>B54-C07 | Dinámica de tormentas | CAPE, velocidad máxima de una corriente ascendente y su límite. | Ficha de energía convectiva de un sondeo sintético |
-| <a id="b54-c08"></a>B54-C08 | Nubes y aerosoles | Clausius–Clapeyron, nivel de condensación y sedimentación de Stokes. | Ficha de condensación y sedimentación |
+| <a id="b54-c06"></a>[B54-C06](../clases/B54/B54-C06-circulacion-general-planetaria/CLASE.md) | Circulación general planetaria | Coriolis, balance geostrófico, número de Rossby y escala de la celda de Hadley. | Ficha de rotación y circulación |
+| <a id="b54-c07"></a>[B54-C07](../clases/B54/B54-C07-dinamica-de-tormentas/CLASE.md) | Dinámica de tormentas | CAPE, velocidad máxima de una corriente ascendente y su límite. | Ficha de energía convectiva de un sondeo sintético |
+| <a id="b54-c08"></a>[B54-C08](../clases/B54/B54-C08-nubes-y-aerosoles/CLASE.md) | Nubes y aerosoles | Clausius–Clapeyron, nivel de condensación y sedimentación de Stokes. | Ficha de condensación y sedimentación |
 
 ### Tramo 3 · Procesos que fijan temperatura y composición
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b54-c09"></a>B54-C09 | Efecto invernadero | Atmósfera gris, profundidad óptica equivalente y capa absorbente. | Tabla de invernadero de tres planetas |
-| <a id="b54-c10"></a>B54-C10 | Fotoquímica atmosférica | Capa de Chapman, tasa de fotólisis, vida fotoquímica y equilibrio. | Ficha de una capa fotoquímica sintética |
+| <a id="b54-c09"></a>[B54-C09](../clases/B54/B54-C09-efecto-invernadero/CLASE.md) | Efecto invernadero | Atmósfera gris, profundidad óptica equivalente y capa absorbente. | Tabla de invernadero de tres planetas |
+| <a id="b54-c10"></a>[B54-C10](../clases/B54/B54-C10-fotoquimica-atmosferica/CLASE.md) | Fotoquímica atmosférica | Capa de Chapman, tasa de fotólisis, vida fotoquímica y equilibrio. | Ficha de una capa fotoquímica sintética |
 | <a id="b54-c11"></a>B54-C11 | Escape atmosférico | Velocidad de escape, parámetro de Jeans y escape térmico relativo. | Tabla de escape por especie |
 | <a id="b54-c12"></a>B54-C12 | Interacción con radiación solar | Inverso del cuadrado, insolación diaria, Beer–Lambert y seguridad al observar el Sol. | Ficha de insolación y atenuación |
 
