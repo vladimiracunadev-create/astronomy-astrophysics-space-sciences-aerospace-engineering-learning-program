@@ -1,7 +1,7 @@
 # B71-C15 — Velocidad de escape
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C14 — Ecuación de Kepler](../B71-C14-ecuacion-de-kepler/CLASE.md) · [Siguiente: B71-C16 — Período orbital →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C14 — Ecuación de Kepler](../B71-C14-ecuacion-de-kepler/CLASE.md) · [Siguiente: B71-C16 — Período orbital →](../B71-C16-periodo-orbital/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ Clase educativa: los modelos son simplificados y sus datos son consultados, sint
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B71-C14 — Ecuación de Kepler](../B71-C14-ecuacion-de-kepler/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B71-C16 — Período orbital →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c16)
+[← Anterior: B71-C14 — Ecuación de Kepler](../B71-C14-ecuacion-de-kepler/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B71-C16 — Período orbital →](../B71-C16-periodo-orbital/CLASE.md)
 <!-- /nav -->
