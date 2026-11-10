@@ -1,7 +1,7 @@
 # B96-C10 — Planificación de cargas útiles
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C09 — Secuencias de misión](../B96-C09-secuencias-de-mision/CLASE.md) · [Siguiente: B96-C11 — Operación durante eclipse →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C09 — Secuencias de misión](../B96-C09-secuencias-de-mision/CLASE.md) · [Siguiente: B96-C11 — Operación durante eclipse →](../B96-C11-operacion-durante-eclipse/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ El plan óptimo sintético vale 29 con 40 Wh y 160 MB; el voraz por valor deja 1
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B96-C09 — Secuencias de misión](../B96-C09-secuencias-de-mision/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C11 — Operación durante eclipse →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c11)
+[← Anterior: B96-C09 — Secuencias de misión](../B96-C09-secuencias-de-mision/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C11 — Operación durante eclipse →](../B96-C11-operacion-durante-eclipse/CLASE.md)
 <!-- /nav -->
