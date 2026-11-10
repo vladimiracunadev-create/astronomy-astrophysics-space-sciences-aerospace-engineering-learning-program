@@ -1,7 +1,7 @@
 # B84-C18 — Control dimensional
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C17 — Soldadura y uniones](../B84-C17-soldadura-y-uniones/CLASE.md) · [Siguiente: B84-C19 — Inspección no destructiva →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C17 — Soldadura y uniones](../B84-C17-soldadura-y-uniones/CLASE.md) · [Siguiente: B84-C19 — Inspección no destructiva →](../B84-C19-inspeccion-no-destructiva/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ El diámetro `49,99986 mm` tiene `U = 1,99 µm`. Queda una pregunta: ¿cómo se 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C17 — Soldadura y uniones](../B84-C17-soldadura-y-uniones/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C19 — Inspección no destructiva →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c19)
+[← Anterior: B84-C17 — Soldadura y uniones](../B84-C17-soldadura-y-uniones/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C19 — Inspección no destructiva →](../B84-C19-inspeccion-no-destructiva/CLASE.md)
 <!-- /nav -->
