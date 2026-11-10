@@ -1,7 +1,7 @@
 # B88-C30 — Análisis de peor caso de tiempo de ejecución (WCET)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C29 — Gestión de memoria determinista en software de vuelo](../B88-C29-gestion-de-memoria-determinista-en-software-de-vuelo/CLASE.md) · [Siguiente: B88-C31 — Topologías de red de datos a bordo →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c31)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C29 — Gestión de memoria determinista en software de vuelo](../B88-C29-gestion-de-memoria-determinista-en-software-de-vuelo/CLASE.md) · [Siguiente: B88-C31 — Topologías de red de datos a bordo →](../B88-C31-topologias-de-red-de-datos-a-bordo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ La cota de 326 ciclos se sostiene por cálculo y no por azar; la caché podría 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C29 — Gestión de memoria determinista en software de vuelo](../B88-C29-gestion-de-memoria-determinista-en-software-de-vuelo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C31 — Topologías de red de datos a bordo →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c31)
+[← Anterior: B88-C29 — Gestión de memoria determinista en software de vuelo](../B88-C29-gestion-de-memoria-determinista-en-software-de-vuelo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C31 — Topologías de red de datos a bordo →](../B88-C31-topologias-de-red-de-datos-a-bordo/CLASE.md)
 <!-- /nav -->

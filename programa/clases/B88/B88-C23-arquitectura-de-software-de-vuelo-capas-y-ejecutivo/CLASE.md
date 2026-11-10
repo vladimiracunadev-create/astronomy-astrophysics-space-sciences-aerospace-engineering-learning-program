@@ -158,7 +158,7 @@ Descripción larga: la trama 0 concentra las cuatro tareas y es el límite del d
 
 <details><summary>Solución comentada</summary>
 
-`10 + 15 + 12`? No: energía y tm_tc (cada 200) más AOCS: `12 + 10 + 15 = 37`.
+`10 + 15 + 12`? En la trama 2 corren AOCS (12), energía (10) y tm_tc (15): `37`.
 </details>
 
 **Ejercicio 5 · autónomo.** ¿Qué dependencia crea el ciclo?
@@ -200,7 +200,7 @@ No: es un grafo sintético.
 
 <details><summary>Solución comentada</summary>
 
-Su carga se suma a todas las tramas: 4×25 ms; la trama 0 pasaría a 62 ms y las otras a 37 o 62.
+Su carga de 25 ms entra en las cuatro tramas: la 0 sigue en 62 ms y las tramas 1, 2 y 3 pasan a 37, 62 y 37 ms.
 </details>
 
 **Ejercicio 11 · transferencia.** **Transferencia.** ¿Qué ventaja tiene la ausencia de ciclos?
