@@ -1,7 +1,7 @@
 # B86-C12 — Eficiencia y disipación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C11 — Redundancia eléctrica](../B86-C11-redundancia-electrica/CLASE.md) · [Siguiente: B86-C13 — Energía durante eclipse →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C11 — Redundancia eléctrica](../B86-C11-redundancia-electrica/CLASE.md) · [Siguiente: B86-C13 — Energía durante eclipse →](../B86-C13-energia-durante-eclipse/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ La cadena sintética de `84,8 %` genera `20,12 W` de calor medio que un radiador
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B86-C11 — Redundancia eléctrica](../B86-C11-redundancia-electrica/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C13 — Energía durante eclipse →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c13)
+[← Anterior: B86-C11 — Redundancia eléctrica](../B86-C11-redundancia-electrica/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C13 — Energía durante eclipse →](../B86-C13-energia-durante-eclipse/CLASE.md)
 <!-- /nav -->
