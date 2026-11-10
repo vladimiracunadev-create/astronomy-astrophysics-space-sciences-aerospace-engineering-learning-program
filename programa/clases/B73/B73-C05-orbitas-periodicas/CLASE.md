@@ -1,7 +1,7 @@
 # B73-C05 — Órbitas periódicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C04 — Estabilidad local de Lagrange](../B73-C04-estabilidad-local-de-lagrange/CLASE.md) · [Siguiente: B73-C06 — Variedades invariantes →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C04 — Estabilidad local de Lagrange](../B73-C04-estabilidad-local-de-lagrange/CLASE.md) · [Siguiente: B73-C06 — Variedades invariantes →](../B73-C06-variedades-invariantes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Cuatro órbitas de Lyapunov alrededor de L1 cierran a `10⁻¹³`, conservan `C`
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B73-C04 — Estabilidad local de Lagrange](../B73-C04-estabilidad-local-de-lagrange/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C06 — Variedades invariantes →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c06)
+[← Anterior: B73-C04 — Estabilidad local de Lagrange](../B73-C04-estabilidad-local-de-lagrange/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C06 — Variedades invariantes →](../B73-C06-variedades-invariantes/CLASE.md)
 <!-- /nav -->
