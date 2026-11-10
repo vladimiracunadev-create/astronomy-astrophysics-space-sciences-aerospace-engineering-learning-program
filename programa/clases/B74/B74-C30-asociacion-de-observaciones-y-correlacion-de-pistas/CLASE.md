@@ -1,7 +1,7 @@
 # B74-C30 — Asociación de observaciones y correlación de pistas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B74](../../../tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) · [← Anterior: B74-C29 — Formatos TLE y OMM de elementos orbitales](../B74-C29-formatos-tle-y-omm-de-elementos-orbitales/CLASE.md) · [Siguiente: B75-C01 — Geometría de transferencias heliocéntricas →](../../../tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md#b75-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B74](../../../tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) · [← Anterior: B74-C29 — Formatos TLE y OMM de elementos orbitales](../B74-C29-formatos-tle-y-omm-de-elementos-orbitales/CLASE.md) · [Siguiente: B75-C01 — Geometría de transferencias heliocéntricas →](../../B75/B75-C01-geometria-de-transferencias-heliocentricas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ La compuerta de `9,210` pierde el 1 % de las observaciones verdaderas; a `1,5σ`
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B74-C29 — Formatos TLE y OMM de elementos orbitales](../B74-C29-formatos-tle-y-omm-de-elementos-orbitales/CLASE.md) · [📚 Bloque B74](../../../tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) · [Siguiente: B75-C01 — Geometría de transferencias heliocéntricas →](../../../tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md#b75-c01)
+[← Anterior: B74-C29 — Formatos TLE y OMM de elementos orbitales](../B74-C29-formatos-tle-y-omm-de-elementos-orbitales/CLASE.md) · [📚 Bloque B74](../../../tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md) · [Siguiente: B75-C01 — Geometría de transferencias heliocéntricas →](../../B75/B75-C01-geometria-de-transferencias-heliocentricas/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B76-C01 — Sistema Tierra-Luna
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [← Anterior: B75-C30 — Validación de maniobras por reintegración](../../../tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md#b75-c30) · [Siguiente: B76-C02 — Escalas sinódicas de referencia →](../B76-C02-escalas-sinodicas-de-referencia/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [← Anterior: B75-C30 — Validación de maniobras por reintegración](../../B75/B75-C30-validacion-de-maniobras-por-reintegracion/CLASE.md) · [Siguiente: B76-C02 — Escalas sinódicas de referencia →](../B76-C02-escalas-sinodicas-de-referencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ El sistema Tierra-Luna se resume en `μ = 0,01215058`: el baricentro está a `46
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B75-C30 — Validación de maniobras por reintegración](../../../tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md#b75-c30) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [Siguiente: B76-C02 — Escalas sinódicas de referencia →](../B76-C02-escalas-sinodicas-de-referencia/CLASE.md)
+[← Anterior: B75-C30 — Validación de maniobras por reintegración](../../B75/B75-C30-validacion-de-maniobras-por-reintegracion/CLASE.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [Siguiente: B76-C02 — Escalas sinódicas de referencia →](../B76-C02-escalas-sinodicas-de-referencia/CLASE.md)
 <!-- /nav -->
