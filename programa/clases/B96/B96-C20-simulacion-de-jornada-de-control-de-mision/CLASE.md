@@ -1,7 +1,7 @@
 # B96-C20 — Simulación de jornada de control de misión
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C19 — Lecciones aprendidas operativas](../B96-C19-lecciones-aprendidas-operativas/CLASE.md) · [Siguiente: B96-C21 — Diagnóstico explicable de anomalías →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C19 — Lecciones aprendidas operativas](../B96-C19-lecciones-aprendidas-operativas/CLASE.md) · [Siguiente: B96-C21 — Diagnóstico explicable de anomalías →](../B96-C21-diagnostico-explicable-de-anomalias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ La jornada sintética ejecuta 12 comandos en 144 s de 1 490 s de contacto, baja 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B96-C19 — Lecciones aprendidas operativas](../B96-C19-lecciones-aprendidas-operativas/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C21 — Diagnóstico explicable de anomalías →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c21)
+[← Anterior: B96-C19 — Lecciones aprendidas operativas](../B96-C19-lecciones-aprendidas-operativas/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C21 — Diagnóstico explicable de anomalías →](../B96-C21-diagnostico-explicable-de-anomalias/CLASE.md)
 <!-- /nav -->

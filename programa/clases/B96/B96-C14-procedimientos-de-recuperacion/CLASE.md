@@ -61,7 +61,7 @@ flowchart LR
 
 *Descripción textual:* seis pasos en cadena; cada uno se verifica y, si falla, se repite hasta dos veces antes de abortar el procedimiento.
 
-Analogía: un procedimiento de recuperación es como la lista de verificación de un piloto tras una falla: cada punto se confirma antes del siguiente. Límite: aquí el piloto está a minutos de distancia por radio.
+Analogía: un procedimiento de recuperación es como la lista de verificación de una tripulación tras una falla: cada punto se confirma antes del siguiente. Límite: aquí la tripulación no está a bordo y se comunica por radio.
 
 ## 8. La explicación, paso a paso
 
