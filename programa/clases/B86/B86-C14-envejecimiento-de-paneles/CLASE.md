@@ -1,7 +1,7 @@
 # B86-C14 — Envejecimiento de paneles
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C13 — Energía durante eclipse](../B86-C13-energia-durante-eclipse/CLASE.md) · [Siguiente: B86-C15 — Sistemas de combustible como alternativa →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C13 — Energía durante eclipse](../B86-C13-energia-durante-eclipse/CLASE.md) · [Siguiente: B86-C15 — Sistemas de combustible como alternativa →](../B86-C15-sistemas-de-combustible-como-alternativa/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ El ala sintética conserva `88,6 %` a cinco años y cumple hasta los `19,8 años
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B86-C13 — Energía durante eclipse](../B86-C13-energia-durante-eclipse/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C15 — Sistemas de combustible como alternativa →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c15)
+[← Anterior: B86-C13 — Energía durante eclipse](../B86-C13-energia-durante-eclipse/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C15 — Sistemas de combustible como alternativa →](../B86-C15-sistemas-de-combustible-como-alternativa/CLASE.md)
 <!-- /nav -->
