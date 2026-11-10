@@ -1,7 +1,7 @@
 # B96-C15 — Operaciones de emergencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C14 — Procedimientos de recuperación](../B96-C14-procedimientos-de-recuperacion/CLASE.md) · [Siguiente: B96-C16 — Gestión de datos científicos →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C14 — Procedimientos de recuperación](../B96-C14-procedimientos-de-recuperacion/CLASE.md) · [Siguiente: B96-C16 — Gestión de datos científicos →](../B96-C16-gestion-de-datos-cientificos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ Sin generación la batería sintética llega a su límite en 2,0 h y la respuest
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B96-C14 — Procedimientos de recuperación](../B96-C14-procedimientos-de-recuperacion/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C16 — Gestión de datos científicos →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c16)
+[← Anterior: B96-C14 — Procedimientos de recuperación](../B96-C14-procedimientos-de-recuperacion/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C16 — Gestión de datos científicos →](../B96-C16-gestion-de-datos-cientificos/CLASE.md)
 <!-- /nav -->
