@@ -1,7 +1,7 @@
 # B57-C34 — Alertas tempranas y ética en el monitoreo de desastres
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C33 — Deforestación y cambio de uso del suelo](../B57-C33-deforestacion-y-cambio-de-uso-del-suelo/CLASE.md) · [Siguiente: B58-C01 — Clasificación de cuerpos menores →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C33 — Deforestación y cambio de uso del suelo](../B57-C33-deforestacion-y-cambio-de-uso-del-suelo/CLASE.md) · [Siguiente: B58-C01 — Clasificación de cuerpos menores →](../../B58/B58-C01-clasificacion-de-cuerpos-menores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ Con el umbral óptimo `1,50` se detecta el `93%` de los eventos, pero solo `12%`
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C33 — Deforestación y cambio de uso del suelo](../B57-C33-deforestacion-y-cambio-de-uso-del-suelo/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B58-C01 — Clasificación de cuerpos menores →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c01)
+[← Anterior: B57-C33 — Deforestación y cambio de uso del suelo](../B57-C33-deforestacion-y-cambio-de-uso-del-suelo/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B58-C01 — Clasificación de cuerpos menores →](../../B58/B58-C01-clasificacion-de-cuerpos-menores/CLASE.md)
 <!-- /nav -->
