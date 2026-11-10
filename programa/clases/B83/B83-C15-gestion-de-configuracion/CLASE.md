@@ -1,7 +1,7 @@
 # B83-C15 — Gestión de configuración
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C14 — Revisiones CDR y TRR](../B83-C14-revisiones-cdr-y-trr/CLASE.md) · [Siguiente: B83-C16 — Gestión de riesgos técnicos →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C14 — Revisiones CDR y TRR](../B83-C14-revisiones-cdr-y-trr/CLASE.md) · [Siguiente: B83-C16 — Gestión de riesgos técnicos →](../B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ La línea base de ESTRELLA-S (sintética) detecta la deriva de la estructura y c
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C14 — Revisiones CDR y TRR](../B83-C14-revisiones-cdr-y-trr/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C16 — Gestión de riesgos técnicos →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c16)
+[← Anterior: B83-C14 — Revisiones CDR y TRR](../B83-C14-revisiones-cdr-y-trr/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C16 — Gestión de riesgos técnicos →](../B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
 <!-- /nav -->
