@@ -1,7 +1,7 @@
 # B97-C19 — Logística de piezas y reparaciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C18 — Pruebas en entornos análogos](../B97-C18-pruebas-en-entornos-analogos/CLASE.md) · [Siguiente: B97-C20 — Misión robótica integrada simulada →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c20)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C18 — Pruebas en entornos análogos](../B97-C18-pruebas-en-entornos-analogos/CLASE.md) · [Siguiente: B97-C20 — Misión robótica integrada simulada →](../B97-C20-mision-robotica-integrada-simulada/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ El plan de masa mínima reabastece cada `240` días y pesa `159` kg frente a `20
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B97-C18 — Pruebas en entornos análogos](../B97-C18-pruebas-en-entornos-analogos/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C20 — Misión robótica integrada simulada →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c20)
+[← Anterior: B97-C18 — Pruebas en entornos análogos](../B97-C18-pruebas-en-entornos-analogos/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C20 — Misión robótica integrada simulada →](../B97-C20-mision-robotica-integrada-simulada/CLASE.md)
 <!-- /nav -->
