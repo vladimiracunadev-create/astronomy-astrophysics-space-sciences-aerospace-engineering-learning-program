@@ -1,7 +1,7 @@
 # B55-C20 — Modelo simplificado de red astroquímica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C19 — Interpretación de firmas químicas](../B55-C19-interpretacion-de-firmas-quimicas/CLASE.md) · [Siguiente: B56-C01 — Definiciones operativas de vida →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C19 — Interpretación de firmas químicas](../B55-C19-interpretacion-de-firmas-quimicas/CLASE.md) · [Siguiente: B56-C01 — Definiciones operativas de vida →](../../B56/B56-C01-definiciones-operativas-de-vida/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -317,5 +317,5 @@ La red sintética conserva el carbono (suma = 1), llega al estacionario `(0,0041
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B55-C19 — Interpretación de firmas químicas](../B55-C19-interpretacion-de-firmas-quimicas/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B56-C01 — Definiciones operativas de vida →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c01)
+[← Anterior: B55-C19 — Interpretación de firmas químicas](../B55-C19-interpretacion-de-firmas-quimicas/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B56-C01 — Definiciones operativas de vida →](../../B56/B56-C01-definiciones-operativas-de-vida/CLASE.md)
 <!-- /nav -->
