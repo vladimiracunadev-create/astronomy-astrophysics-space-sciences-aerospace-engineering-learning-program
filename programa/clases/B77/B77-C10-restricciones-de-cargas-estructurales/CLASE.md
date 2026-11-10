@@ -1,7 +1,7 @@
 # B77-C10 — Restricciones de cargas estructurales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C09 — Pérdidas aerodinámicas](../B77-C09-perdidas-aerodinamicas/CLASE.md) · [Siguiente: B77-C11 — Ventanas de lanzamiento — Dinámica de lanzamiento y reentrada →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C09 — Pérdidas aerodinámicas](../B77-C09-perdidas-aerodinamicas/CLASE.md) · [Siguiente: B77-C11 — Ventanas de lanzamiento — Dinámica de lanzamiento y reentrada →](../B77-C11-ventanas-de-lanzamiento-dinamica-de-lanzamiento-y-reentrada/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ Sin límite, el cohete sintético llega a `10,2 g`; con un límite de `4,5 g` pi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B77-C09 — Pérdidas aerodinámicas](../B77-C09-perdidas-aerodinamicas/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C11 — Ventanas de lanzamiento — Dinámica de lanzamiento y reentrada →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c11)
+[← Anterior: B77-C09 — Pérdidas aerodinámicas](../B77-C09-perdidas-aerodinamicas/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C11 — Ventanas de lanzamiento — Dinámica de lanzamiento y reentrada →](../B77-C11-ventanas-de-lanzamiento-dinamica-de-lanzamiento-y-reentrada/CLASE.md)
 <!-- /nav -->
