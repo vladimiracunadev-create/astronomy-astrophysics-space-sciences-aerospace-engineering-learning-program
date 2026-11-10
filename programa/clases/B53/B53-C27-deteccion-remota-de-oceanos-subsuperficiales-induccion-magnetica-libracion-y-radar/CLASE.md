@@ -1,7 +1,7 @@
 # B53-C27 — Detección remota de océanos subsuperficiales: inducción magnética, libración y radar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C26 — Publicación de mapas geológicos planetarios: estándares y leyendas](../B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md) · [Siguiente: B53-C28 — Inversión gravimétrica y modelos de densidad →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c28)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C26 — Publicación de mapas geológicos planetarios: estándares y leyendas](../B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md) · [Siguiente: B53-C28 — Inversión gravimétrica y modelos de densidad →](../B53-C28-inversion-gravimetrica-y-modelos-de-densidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La profundidad de piel es de `64 km` y la libración se amplifica `3,5` veces si
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C26 — Publicación de mapas geológicos planetarios: estándares y leyendas](../B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C28 — Inversión gravimétrica y modelos de densidad →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c28)
+[← Anterior: B53-C26 — Publicación de mapas geológicos planetarios: estándares y leyendas](../B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C28 — Inversión gravimétrica y modelos de densidad →](../B53-C28-inversion-gravimetrica-y-modelos-de-densidad/CLASE.md)
 <!-- /nav -->

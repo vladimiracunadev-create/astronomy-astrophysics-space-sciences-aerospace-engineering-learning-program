@@ -50,7 +50,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b53-c02"></a>[B53-C02](../clases/B53/B53-C02-sismologia-planetaria/CLASE.md) | Sismología planetaria | Rayo sísmico, tiempo de viaje y distancia por S−P con su error. | Ficha de la distancia sísmica y su incertidumbre |
 | <a id="b53-c03"></a>[B53-C03](../clases/B53/B53-C03-campo-gravitatorio-planetario/CLASE.md) | Campo gravitatorio planetario | Potencial con J2 frente a la suma directa; el error cae como (a/r)⁴. | Ficha del campo gravitatorio de un cuerpo sintético |
 | <a id="b53-c04"></a>[B53-C04](../clases/B53/B53-C04-geoides-y-elipsoides/CLASE.md) | Geoides y elipsoides | Esferoide de Maclaurin, achatamiento y ondulación del geoide. | Ficha de la figura de equilibrio y su ondulación |
-| B53-C28 | Inversión gravimétrica y modelos de densidad | Anomalía de una esfera enterrada, ajuste de profundidad y no unicidad. | Ficha de la inversión gravimétrica |
+| <a id="b53-c28"></a>[B53-C28](../clases/B53/B53-C28-inversion-gravimetrica-y-modelos-de-densidad/CLASE.md) | Inversión gravimétrica y modelos de densidad | Anomalía de una esfera enterrada, ajuste de profundidad y no unicidad. | Ficha de la inversión gravimétrica |
 
 ### Tramo 2 · Marcos de referencia y topografía
 
@@ -90,8 +90,8 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b53-c17"></a>[B53-C17](../clases/B53/B53-C17-mineralogia-espectral/CLASE.md) | Mineralogía espectral | Remoción del continuo, profundidad y centro de banda. | Ficha de una banda de absorción |
-| B53-C29 | Imágenes hiperespectrales de superficies planetarias | Mezcla lineal, desmezclado y ángulo espectral. | Ficha del desmezclado espectral |
-| B53-C30 | Radar de penetración subsuperficial en cuerpos planetarios | Coeficiente de reflexión, hipérbola de difracción y ajuste de velocidad. | Ficha del radar de subsuelo |
+| <a id="b53-c29"></a>[B53-C29](../clases/B53/B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md) | Imágenes hiperespectrales de superficies planetarias | Mezcla lineal, desmezclado y ángulo espectral. | Ficha del desmezclado espectral |
+| <a id="b53-c30"></a>[B53-C30](../clases/B53/B53-C30-radar-de-penetracion-subsuperficial-en-cuerpos-planetarios/CLASE.md) | Radar de penetración subsuperficial en cuerpos planetarios | Coeficiente de reflexión, hipérbola de difracción y ajuste de velocidad. | Ficha del radar de subsuelo |
 
 ### Tramo 6 · Cartografía y proyecto
 
