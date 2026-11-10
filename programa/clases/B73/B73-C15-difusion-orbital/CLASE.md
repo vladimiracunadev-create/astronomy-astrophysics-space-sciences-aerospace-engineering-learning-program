@@ -1,7 +1,7 @@
 # B73-C15 — Difusión orbital
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C14 — Exponentes de Lyapunov](../B73-C14-exponentes-de-lyapunov/CLASE.md) · [Siguiente: B73-C16 — Dinámica de anillos →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C14 — Exponentes de Lyapunov](../B73-C14-exponentes-de-lyapunov/CLASE.md) · [Siguiente: B73-C16 — Dinámica de anillos →](../B73-C16-dinamica-de-anillos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ La difusión del momento es nula con `K = 1`, normal con `K = 5` (`D = 12,2`, co
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B73-C14 — Exponentes de Lyapunov](../B73-C14-exponentes-de-lyapunov/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C16 — Dinámica de anillos →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c16)
+[← Anterior: B73-C14 — Exponentes de Lyapunov](../B73-C14-exponentes-de-lyapunov/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C16 — Dinámica de anillos →](../B73-C16-dinamica-de-anillos/CLASE.md)
 <!-- /nav -->
