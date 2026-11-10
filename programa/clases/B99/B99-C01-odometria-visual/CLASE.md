@@ -1,7 +1,7 @@
 # B99-C01 — Odometría visual
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [← Anterior: B98-C08 — Protocolos de relevo de control entre operadores](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c08) · [Siguiente: B99-C02 — Detección y descriptores de características →](../B99-C02-deteccion-y-descriptores-de-caracteristicas/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [← Anterior: B98-C08 — Protocolos de relevo de control entre operadores](../../B98/B98-C08-protocolos-de-relevo-de-control-entre-operadores/CLASE.md) · [Siguiente: B99-C02 — Detección y descriptores de características →](../B99-C02-deteccion-y-descriptores-de-caracteristicas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Con ruido de 2 cm y 20 % de correspondencias erróneas, RANSAC reduce la deriva 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B98-C08 — Protocolos de relevo de control entre operadores](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c08) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [Siguiente: B99-C02 — Detección y descriptores de características →](../B99-C02-deteccion-y-descriptores-de-caracteristicas/CLASE.md)
+[← Anterior: B98-C08 — Protocolos de relevo de control entre operadores](../../B98/B98-C08-protocolos-de-relevo-de-control-entre-operadores/CLASE.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [Siguiente: B99-C02 — Detección y descriptores de características →](../B99-C02-deteccion-y-descriptores-de-caracteristicas/CLASE.md)
 <!-- /nav -->

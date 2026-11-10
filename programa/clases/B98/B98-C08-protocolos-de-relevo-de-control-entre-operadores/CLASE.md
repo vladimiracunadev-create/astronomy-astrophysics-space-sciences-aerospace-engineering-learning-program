@@ -1,7 +1,7 @@
 # B98-C08 — Protocolos de relevo de control entre operadores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción)](../B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md) · [Siguiente: B99-C01 — Odometría visual →](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md#b99-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción)](../B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md) · [Siguiente: B99-C01 — Odometría visual →](../../B99/B99-C01-odometria-visual/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ Con 15 % de pérdida, el relevo ingenuo deja 1475 relevos sin autoridad; el conf
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción)](../B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B99-C01 — Odometría visual →](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md#b99-c01)
+[← Anterior: B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción)](../B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B99-C01 — Odometría visual →](../../B99/B99-C01-odometria-visual/CLASE.md)
 <!-- /nav -->
