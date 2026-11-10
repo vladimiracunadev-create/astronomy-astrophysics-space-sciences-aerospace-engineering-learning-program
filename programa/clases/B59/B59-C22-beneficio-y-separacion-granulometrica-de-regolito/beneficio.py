@@ -21,7 +21,8 @@ SEMILLA = 20261109
 
 
 def pf(d, d50=D50, k=K):
-    return 1.0 / (1.0 + (d / d50) ** k)
+    z = k * math.log(d / d50)
+    return 0.0 if z > 700 else 1.0 / (1.0 + math.exp(z))
 
 
 def ley(d):

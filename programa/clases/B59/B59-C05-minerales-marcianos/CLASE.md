@@ -1,7 +1,7 @@
 # B59-C05 — Minerales marcianos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C04 — Caracterización de regolito lunar](../B59-C04-caracterizacion-de-regolito-lunar/CLASE.md) · [Siguiente: B59-C06 — Extracción y procesamiento de volátiles →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C04 — Caracterización de regolito lunar](../B59-C04-caracterizacion-de-regolito-lunar/CLASE.md) · [Siguiente: B59-C06 — Extracción y procesamiento de volátiles →](../B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ La desmezcla recupera las abundancias a menos de `0,011` y un rendimiento de `5,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C04 — Caracterización de regolito lunar](../B59-C04-caracterizacion-de-regolito-lunar/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C06 — Extracción y procesamiento de volátiles →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c06)
+[← Anterior: B59-C04 — Caracterización de regolito lunar](../B59-C04-caracterizacion-de-regolito-lunar/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C06 — Extracción y procesamiento de volátiles →](../B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md)
 <!-- /nav -->
