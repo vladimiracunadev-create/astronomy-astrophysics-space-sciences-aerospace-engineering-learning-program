@@ -1,7 +1,7 @@
 # B91-C08 — Antenas de gran apertura y estaciones de espacio profundo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [← Anterior: B91-C07 — Atenuación atmosférica y efectos de la lluvia en enlaces](../B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md) · [Siguiente: B92-C01 — Fuentes láser y amplificadores para enlaces espaciales →](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md#b92-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [← Anterior: B91-C07 — Atenuación atmosférica y efectos de la lluvia en enlaces](../B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md) · [Siguiente: B92-C01 — Fuentes láser y amplificadores para enlaces espaciales →](../../B92/B92-C01-fuentes-laser-y-amplificadores-para-enlaces-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -332,5 +332,5 @@ La antena de 70 m, con `62,33 dB/K`, cierra un enlace sintético a 2 ua con `2,3
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B91-C07 — Atenuación atmosférica y efectos de la lluvia en enlaces](../B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [Siguiente: B92-C01 — Fuentes láser y amplificadores para enlaces espaciales →](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md#b92-c01)
+[← Anterior: B91-C07 — Atenuación atmosférica y efectos de la lluvia en enlaces](../B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [Siguiente: B92-C01 — Fuentes láser y amplificadores para enlaces espaciales →](../../B92/B92-C01-fuentes-laser-y-amplificadores-para-enlaces-espaciales/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B92-C01 — Fuentes láser y amplificadores para enlaces espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B91-C08 — Antenas de gran apertura y estaciones de espacio profundo](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md#b91-c08) · [Siguiente: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico →](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B91-C08 — Antenas de gran apertura y estaciones de espacio profundo](../../B91/B91-C08-antenas-de-gran-apertura-y-estaciones-de-espacio-profundo/CLASE.md) · [Siguiente: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico →](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Cuatro vatios medios son `80 W` de pico con `M = 16`, y un amplificador de 30 dB
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B91-C08 — Antenas de gran apertura y estaciones de espacio profundo](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md#b91-c08) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico →](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md)
+[← Anterior: B91-C08 — Antenas de gran apertura y estaciones de espacio profundo](../../B91/B91-C08-antenas-de-gran-apertura-y-estaciones-de-espacio-profundo/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico →](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md)
 <!-- /nav -->
