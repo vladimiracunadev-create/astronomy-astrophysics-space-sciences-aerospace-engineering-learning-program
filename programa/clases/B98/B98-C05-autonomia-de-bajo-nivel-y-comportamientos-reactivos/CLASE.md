@@ -1,7 +1,7 @@
 # B98-C05 — Autonomía de bajo nivel y comportamientos reactivos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B98-C04 — Interfaces humano-robot para operación remota](../B98-C04-interfaces-humano-robot-para-operacion-remota/CLASE.md) · [Siguiente: B98-C06 — Simulación de teleoperación con retardo →](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B98-C04 — Interfaces humano-robot para operación remota](../B98-C04-interfaces-humano-robot-para-operacion-remota/CLASE.md) · [Siguiente: B98-C06 — Simulación de teleoperación con retardo →](../B98-C06-simulacion-de-teleoperacion-con-retardo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Un reflejo frena al rover en 0,02 m; esperar a Tierra lo deja recorrer entre 38,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B98-C04 — Interfaces humano-robot para operación remota](../B98-C04-interfaces-humano-robot-para-operacion-remota/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B98-C06 — Simulación de teleoperación con retardo →](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c06)
+[← Anterior: B98-C04 — Interfaces humano-robot para operación remota](../B98-C04-interfaces-humano-robot-para-operacion-remota/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B98-C06 — Simulación de teleoperación con retardo →](../B98-C06-simulacion-de-teleoperacion-con-retardo/CLASE.md)
 <!-- /nav -->
