@@ -48,21 +48,21 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b57-c01"></a>B57-C01 | Fundamentos de teledetección | Radiación solar reflejada y emitida por la Tierra, ley de Planck y radiancia en el sensor. | Ficha de la radiación que ve un sensor |
-| <a id="b57-c02"></a>B57-C02 | Resolución espacial y temporal | Tamaño de muestreo en el suelo (GSD), ancho de barrido, píxeles por línea y aliasing. | Ficha de resoluciones espacial y temporal |
-| <a id="b57-c03"></a>B57-C03 | Resolución radiométrica y espectral | Cuantización en bits, relación señal–ruido de cuantización y respuesta de una banda espectral. | Ficha de resoluciones radiométrica y espectral |
-| <a id="b57-c04"></a>B57-C04 | Satélites ópticos de observación | Geometría de visión, límite de difracción y ruido de fotones de un sensor óptico. | Ficha de un sensor óptico espacial |
-| <a id="b57-c05"></a>B57-C05 | Imágenes multiespectrales | Composición de bandas, razones entre bandas y fusión con la pancromática. | Ficha de una imagen multiespectral |
-| <a id="b57-c06"></a>B57-C06 | Índices de vegetación | NDVI y su comportamiento: saturación, suelo de fondo y comparación con SAVI. | Ficha de índices de vegetación |
+| <a id="b57-c01"></a>[B57-C01](../clases/B57/B57-C01-fundamentos-de-teledeteccion/CLASE.md) | Fundamentos de teledetección | Radiación solar reflejada y emitida por la Tierra, ley de Planck y radiancia en el sensor. | Ficha de la radiación que ve un sensor |
+| <a id="b57-c02"></a>[B57-C02](../clases/B57/B57-C02-resolucion-espacial-y-temporal/CLASE.md) | Resolución espacial y temporal | Tamaño de muestreo en el suelo (GSD), ancho de barrido, píxeles por línea y aliasing. | Ficha de resoluciones espacial y temporal |
+| <a id="b57-c03"></a>[B57-C03](../clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md) | Resolución radiométrica y espectral | Cuantización en bits, relación señal–ruido de cuantización y respuesta de una banda espectral. | Ficha de resoluciones radiométrica y espectral |
+| <a id="b57-c04"></a>[B57-C04](../clases/B57/B57-C04-satelites-opticos-de-observacion/CLASE.md) | Satélites ópticos de observación | Geometría de visión, límite de difracción y ruido de fotones de un sensor óptico. | Ficha de un sensor óptico espacial |
+| <a id="b57-c05"></a>[B57-C05](../clases/B57/B57-C05-imagenes-multiespectrales/CLASE.md) | Imágenes multiespectrales | Composición de bandas, razones entre bandas y fusión con la pancromática. | Ficha de una imagen multiespectral |
+| <a id="b57-c06"></a>[B57-C06](../clases/B57/B57-C06-indices-de-vegetacion/CLASE.md) | Índices de vegetación | NDVI y su comportamiento: saturación, suelo de fondo y comparación con SAVI. | Ficha de índices de vegetación |
 
 ### Tramo 2 · Radar, altimetría, geodesia y LiDAR
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b57-c07"></a>B57-C07 | Sistemas radar SAR | Resolución en distancia por compresión de pulso, resolución en acimut y geometría oblicua. | Ficha de un sistema SAR |
-| <a id="b57-c08"></a>B57-C08 | Interferometría radar InSAR | Relación entre fase y desplazamiento en la línea de visión, franjas y desenrollado. | Ficha de una medición InSAR |
-| <a id="b57-c09"></a>B57-C09 | Altimetría satelital | Distancia por tiempo de ida y vuelta, altura de la superficie del mar y precisión temporal. | Ficha de altimetría satelital |
-| <a id="b57-c10"></a>B57-C10 | Geodesia mediante GNSS | Posición por pseudodistancias, sesgo de reloj y geometría de satélites (DOP). | Ficha de geodesia con GNSS |
+| <a id="b57-c07"></a>[B57-C07](../clases/B57/B57-C07-sistemas-radar-sar/CLASE.md) | Sistemas radar SAR | Resolución en distancia por compresión de pulso, resolución en acimut y geometría oblicua. | Ficha de un sistema SAR |
+| <a id="b57-c08"></a>[B57-C08](../clases/B57/B57-C08-interferometria-radar-insar/CLASE.md) | Interferometría radar InSAR | Relación entre fase y desplazamiento en la línea de visión, franjas y desenrollado. | Ficha de una medición InSAR |
+| <a id="b57-c09"></a>[B57-C09](../clases/B57/B57-C09-altimetria-satelital/CLASE.md) | Altimetría satelital | Distancia por tiempo de ida y vuelta, altura de la superficie del mar y precisión temporal. | Ficha de altimetría satelital |
+| <a id="b57-c10"></a>[B57-C10](../clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md) | Geodesia mediante GNSS | Posición por pseudodistancias, sesgo de reloj y geometría de satélites (DOP). | Ficha de geodesia con GNSS |
 | <a id="b57-c11"></a>B57-C11 | LiDAR satelital | Altímetro láser de fotones: tasa de pulsos, espaciado a lo largo de la traza y búsqueda de la superficie. | Ficha de LiDAR satelital |
 
 ### Tramo 3 · Océano, atmósfera, criósfera y peligros

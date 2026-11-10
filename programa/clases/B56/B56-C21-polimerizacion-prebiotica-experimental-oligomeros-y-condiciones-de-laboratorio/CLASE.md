@@ -1,7 +1,7 @@
 # B56-C21 — Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C20 — Diseño de misión astrobiológica conceptual](../B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md) · [Siguiente: B57-C01 — Fundamentos de teledetección →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C20 — Diseño de misión astrobiológica conceptual](../B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md) · [Siguiente: B57-C01 — Fundamentos de teledetección →](../../B57/B57-C01-fundamentos-de-teledeteccion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Con una eficiencia sintética de 0,30 por ciclo, la longitud media pasa de 1,4 a
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B56-C20 — Diseño de misión astrobiológica conceptual](../B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B57-C01 — Fundamentos de teledetección →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c01)
+[← Anterior: B56-C20 — Diseño de misión astrobiológica conceptual](../B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B57-C01 — Fundamentos de teledetección →](../../B57/B57-C01-fundamentos-de-teledeteccion/CLASE.md)
 <!-- /nav -->
