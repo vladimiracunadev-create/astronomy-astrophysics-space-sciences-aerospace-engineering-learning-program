@@ -1,7 +1,7 @@
 # B61-C07 — Cuencas multianillo y grandes impactos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [← Anterior: B61-C06 — Datación por conteo de cráteres: funciones de producción y edades de modelo](../B61-C06-datacion-por-conteo-de-crateres-funciones-de-produccion-y-edades-de-modelo/CLASE.md) · [Siguiente: B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección →](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md#b62-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [← Anterior: B61-C06 — Datación por conteo de cráteres: funciones de producción y edades de modelo](../B61-C06-datacion-por-conteo-de-crateres-funciones-de-produccion-y-edades-de-modelo/CLASE.md) · [Siguiente: B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección →](../../B62/B62-C01-espectros-rotacionales-de-moleculas-niveles-y-reglas-de-seleccion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Una cuenca multianillo condensa geometría, escalado y estructura de la corteza;
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B61-C06 — Datación por conteo de cráteres: funciones de producción y edades de modelo](../B61-C06-datacion-por-conteo-de-crateres-funciones-de-produccion-y-edades-de-modelo/CLASE.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [Siguiente: B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección →](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md#b62-c01)
+[← Anterior: B61-C06 — Datación por conteo de cráteres: funciones de producción y edades de modelo](../B61-C06-datacion-por-conteo-de-crateres-funciones-de-produccion-y-edades-de-modelo/CLASE.md) · [📚 Bloque B61](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md) · [Siguiente: B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección →](../../B62/B62-C01-espectros-rotacionales-de-moleculas-niveles-y-reglas-de-seleccion/CLASE.md)
 <!-- /nav -->

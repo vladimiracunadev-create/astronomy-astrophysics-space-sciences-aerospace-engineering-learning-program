@@ -1,7 +1,7 @@
 # B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [← Anterior: B61-C07 — Cuencas multianillo y grandes impactos](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md#b61-c07) · [Siguiente: B62-C02 — Espectros vibracionales de moléculas →](../B62-C02-espectros-vibracionales-de-moleculas/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [← Anterior: B61-C07 — Cuencas multianillo y grandes impactos](../../B61/B61-C07-cuencas-multianillo-y-grandes-impactos/CLASE.md) · [Siguiente: B62-C02 — Espectros vibracionales de moléculas →](../B62-C02-espectros-vibracionales-de-moleculas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ Con `B₀`, `D` y la regla `ΔJ = ±1` reproduces las seis primeras líneas del 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B61-C07 — Cuencas multianillo y grandes impactos](../../../tronco-comun/B61-crateres-de-impacto-y-geologia-de-impactos.md#b61-c07) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [Siguiente: B62-C02 — Espectros vibracionales de moléculas →](../B62-C02-espectros-vibracionales-de-moleculas/CLASE.md)
+[← Anterior: B61-C07 — Cuencas multianillo y grandes impactos](../../B61/B61-C07-cuencas-multianillo-y-grandes-impactos/CLASE.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [Siguiente: B62-C02 — Espectros vibracionales de moléculas →](../B62-C02-espectros-vibracionales-de-moleculas/CLASE.md)
 <!-- /nav -->
