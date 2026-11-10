@@ -1,7 +1,7 @@
 # B73-C10 — Resonancias de movimiento medio
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C09 — Integración de largo plazo](../B73-C09-integracion-de-largo-plazo/CLASE.md) · [Siguiente: B73-C11 — Resonancias seculares →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C09 — Integración de largo plazo](../B73-C09-integracion-de-largo-plazo/CLASE.md) · [Siguiente: B73-C11 — Resonancias seculares →](../B73-C11-resonancias-seculares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Con periodos medios, Io, Europa y Ganymede cumplen la relación de Laplace a `1e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B73-C09 — Integración de largo plazo](../B73-C09-integracion-de-largo-plazo/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C11 — Resonancias seculares →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c11)
+[← Anterior: B73-C09 — Integración de largo plazo](../B73-C09-integracion-de-largo-plazo/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C11 — Resonancias seculares →](../B73-C11-resonancias-seculares/CLASE.md)
 <!-- /nav -->
