@@ -1,7 +1,7 @@
 # B89-C25 — Protección criptográfica de enlaces espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C24 — Recepción de telemetría débil](../B89-C24-recepcion-de-telemetria-debil/CLASE.md) · [Siguiente: B90-C01 — Plan de ensamblaje e integración →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C24 — Recepción de telemetría débil](../B89-C24-recepcion-de-telemetria-debil/CLASE.md) · [Siguiente: B90-C01 — Plan de ensamblaje e integración →](../../B90/B90-C01-plan-de-ensamblaje-e-integracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ El receptor sintético acepta `5` de 10 tramas, detecta `1000/1000` alteraciones
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B89-C24 — Recepción de telemetría débil](../B89-C24-recepcion-de-telemetria-debil/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B90-C01 — Plan de ensamblaje e integración →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c01)
+[← Anterior: B89-C24 — Recepción de telemetría débil](../B89-C24-recepcion-de-telemetria-debil/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B90-C01 — Plan de ensamblaje e integración →](../../B90/B90-C01-plan-de-ensamblaje-e-integracion/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B90-C01 — Plan de ensamblaje e integración
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B89-C25 — Protección criptográfica de enlaces espaciales](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c25) · [Siguiente: B90-C02 — Buenas prácticas de sala limpia →](../B90-C02-buenas-practicas-de-sala-limpia/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B89-C25 — Protección criptográfica de enlaces espaciales](../../B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md) · [Siguiente: B90-C02 — Buenas prácticas de sala limpia →](../B90-C02-buenas-practicas-de-sala-limpia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Con las duraciones de ejemplo, el proyecto dura 24 d, la ruta crítica tiene 9 t
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B89-C25 — Protección criptográfica de enlaces espaciales](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c25) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C02 — Buenas prácticas de sala limpia →](../B90-C02-buenas-practicas-de-sala-limpia/CLASE.md)
+[← Anterior: B89-C25 — Protección criptográfica de enlaces espaciales](../../B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C02 — Buenas prácticas de sala limpia →](../B90-C02-buenas-practicas-de-sala-limpia/CLASE.md)
 <!-- /nav -->

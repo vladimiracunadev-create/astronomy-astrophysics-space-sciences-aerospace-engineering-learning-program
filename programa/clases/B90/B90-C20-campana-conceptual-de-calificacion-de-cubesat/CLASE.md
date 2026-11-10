@@ -1,7 +1,7 @@
 # B90-C20 — Campaña conceptual de calificación de CubeSat
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C19 — Aceptación de unidades de vuelo](../B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md) · [Siguiente: B90-C21 — Biocarga de naves espaciales: verificación y requisitos normativos →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C19 — Aceptación de unidades de vuelo](../B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md) · [Siguiente: B90-C21 — Biocarga de naves espaciales: verificación y requisitos normativos →](../B90-C21-biocarga-de-naves-espaciales-verificacion-y-requisitos-normativos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -319,5 +319,5 @@ La campaña de ejemplo dura 15 d sin fallas, 18 d en promedio y 25 d con 90 % de
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B90-C19 — Aceptación de unidades de vuelo](../B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C21 — Biocarga de naves espaciales: verificación y requisitos normativos →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c21)
+[← Anterior: B90-C19 — Aceptación de unidades de vuelo](../B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C21 — Biocarga de naves espaciales: verificación y requisitos normativos →](../B90-C21-biocarga-de-naves-espaciales-verificacion-y-requisitos-normativos/CLASE.md)
 <!-- /nav -->

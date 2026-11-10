@@ -1,7 +1,7 @@
 # B91-C01 — Fundamentos de teoría de antenas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [← Anterior: B90-C24 — Prototipado y modelos de ingeniería de subconjuntos](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c24) · [Siguiente: B91-C02 — Polarización de antenas y pérdidas por desadaptación →](../B91-C02-polarizacion-de-antenas-y-perdidas-por-desadaptacion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [← Anterior: B90-C24 — Prototipado y modelos de ingeniería de subconjuntos](../../B90/B90-C24-prototipado-y-modelos-de-ingenieria-de-subconjuntos/CLASE.md) · [Siguiente: B91-C02 — Polarización de antenas y pérdidas por desadaptación →](../B91-C02-polarizacion-de-antenas-y-perdidas-por-desadaptacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ La antena de 70 m logra `74,55 dBi` en X, el `74,7 %` de la ganancia ideal, con 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B90-C24 — Prototipado y modelos de ingeniería de subconjuntos](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c24) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [Siguiente: B91-C02 — Polarización de antenas y pérdidas por desadaptación →](../B91-C02-polarizacion-de-antenas-y-perdidas-por-desadaptacion/CLASE.md)
+[← Anterior: B90-C24 — Prototipado y modelos de ingeniería de subconjuntos](../../B90/B90-C24-prototipado-y-modelos-de-ingenieria-de-subconjuntos/CLASE.md) · [📚 Bloque B91](../../../tronco-comun/B91-antenas-y-propagacion-para-enlaces-espaciales.md) · [Siguiente: B91-C02 — Polarización de antenas y pérdidas por desadaptación →](../B91-C02-polarizacion-de-antenas-y-perdidas-por-desadaptacion/CLASE.md)
 <!-- /nav -->
