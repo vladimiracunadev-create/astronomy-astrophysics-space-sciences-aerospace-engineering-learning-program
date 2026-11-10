@@ -1,7 +1,7 @@
 # B55-C15 — Química de océanos internos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C14 — Química de regolitos](../B55-C14-quimica-de-regolitos/CLASE.md) · [Siguiente: B55-C16 — Procesos hidrotermales extraterrestres →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C14 — Química de regolitos](../B55-C14-quimica-de-regolitos/CLASE.md) · [Siguiente: B55-C16 — Procesos hidrotermales extraterrestres →](../B55-C16-procesos-hidrotermales-extraterrestres/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ El océano sintético tiene pH 7,35 y domina el bicarbonato; cada decena de CO�
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B55-C14 — Química de regolitos](../B55-C14-quimica-de-regolitos/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B55-C16 — Procesos hidrotermales extraterrestres →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c16)
+[← Anterior: B55-C14 — Química de regolitos](../B55-C14-quimica-de-regolitos/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B55-C16 — Procesos hidrotermales extraterrestres →](../B55-C16-procesos-hidrotermales-extraterrestres/CLASE.md)
 <!-- /nav -->

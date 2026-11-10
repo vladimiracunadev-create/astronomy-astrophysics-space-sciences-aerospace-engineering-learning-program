@@ -81,21 +81,21 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b55-c15"></a>[B55-C15](../clases/B55/B55-C15-quimica-de-oceanos-internos/CLASE.md) | Química de océanos internos | Equilibrio carbonato–pH con balance de carga. | pH de un océano sintético |
-| <a id="b55-c16"></a>B55-C16 | Procesos hidrotermales extraterrestres | Estequiometría de la serpentinización y energía disponible. | Balance de `H2` de una roca sintética |
-| <a id="b55-c17"></a>B55-C17 | Compuestos prebióticos | Supervivencia a la radiólisis y exceso enantiomérico con incertidumbre. | Ficha de supervivencia de un aminoácido |
+| <a id="b55-c16"></a>[B55-C16](../clases/B55/B55-C16-procesos-hidrotermales-extraterrestres/CLASE.md) | Procesos hidrotermales extraterrestres | Estequiometría de la serpentinización y energía disponible. | Balance de `H2` de una roca sintética |
+| <a id="b55-c17"></a>[B55-C17](../clases/B55/B55-C17-compuestos-prebioticos/CLASE.md) | Compuestos prebióticos | Supervivencia a la radiólisis y exceso enantiomérico con incertidumbre. | Ficha de supervivencia de un aminoácido |
 
 ### Tramo 6 · Contaminación e interpretación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b55-c18"></a>B55-C18 | Contaminación de muestras | Sustracción de blanco, límite de detección y propagación de incertidumbre. | Informe de blanco y límite de detección |
-| <a id="b55-c19"></a>B55-C19 | Interpretación de firmas químicas | Razonamiento bayesiano, verosimilitud y sensibilidad al prior. | Ficha de interpretación con prior explícito |
+| <a id="b55-c18"></a>[B55-C18](../clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md) | Contaminación de muestras | Sustracción de blanco, límite de detección y propagación de incertidumbre. | Informe de blanco y límite de detección |
+| <a id="b55-c19"></a>[B55-C19](../clases/B55/B55-C19-interpretacion-de-firmas-quimicas/CLASE.md) | Interpretación de firmas químicas | Razonamiento bayesiano, verosimilitud y sensibilidad al prior. | Ficha de interpretación con prior explícito |
 
 ### Tramo 7 · Modelo integrador
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b55-c20"></a>B55-C20 | Modelo simplificado de red astroquímica | Red mínima con conservación de elementos y comprobación del estacionario. | Red astroquímica verificada |
+| <a id="b55-c20"></a>[B55-C20](../clases/B55/B55-C20-modelo-simplificado-de-red-astroquimica/CLASE.md) | Modelo simplificado de red astroquímica | Red mínima con conservación de elementos y comprobación del estacionario. | Red astroquímica verificada |
 
 ## 🧵 Hilos que atraviesan el bloque
 
