@@ -1,7 +1,7 @@
 # B76-C20 — Simulación de encuentro seguro
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [← Anterior: B76-C19 — Órbitas de mantenimiento](../B76-C19-orbitas-de-mantenimiento/CLASE.md) · [Siguiente: B77-C01 — Sistemas de lanzamiento →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [← Anterior: B76-C19 — Órbitas de mantenimiento](../B76-C19-orbitas-de-mantenimiento/CLASE.md) · [Siguiente: B77-C01 — Sistemas de lanzamiento →](../../B77/B77-C01-sistemas-de-lanzamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Sesenta aproximaciones simuladas dan un error final p95 de `16,3 m` y `4,4 m/s`,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B76-C19 — Órbitas de mantenimiento](../B76-C19-orbitas-de-mantenimiento/CLASE.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [Siguiente: B77-C01 — Sistemas de lanzamiento →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c01)
+[← Anterior: B76-C19 — Órbitas de mantenimiento](../B76-C19-orbitas-de-mantenimiento/CLASE.md) · [📚 Bloque B76](../../../tronco-comun/B76-dinamica-cislunar-y-operaciones-de-proximidad.md) · [Siguiente: B77-C01 — Sistemas de lanzamiento →](../../B77/B77-C01-sistemas-de-lanzamiento/CLASE.md)
 <!-- /nav -->
