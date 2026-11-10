@@ -1,7 +1,7 @@
 # B101-C10 — Simulación de una tarea tripulada con manipulador
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [← Anterior: B101-C09 — Coordinación visual y cámaras en operaciones con manipulador](../B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md) · [Siguiente: B102-C01 — Dinámica multicuerpo de rovers y manipuladores →](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md#b102-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [← Anterior: B101-C09 — Coordinación visual y cámaras en operaciones con manipulador](../B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md) · [Siguiente: B102-C01 — Dinámica multicuerpo de rovers y manipuladores →](../../B102/B102-C01-dinamica-multicuerpo-de-rovers-y-manipuladores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -319,5 +319,5 @@ Con `K = 0,4` 1/s, la captura simulada funciona hasta `τ = 2,5` s y falla con 4
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B101-C09 — Coordinación visual y cámaras en operaciones con manipulador](../B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [Siguiente: B102-C01 — Dinámica multicuerpo de rovers y manipuladores →](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md#b102-c01)
+[← Anterior: B101-C09 — Coordinación visual y cámaras en operaciones con manipulador](../B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [Siguiente: B102-C01 — Dinámica multicuerpo de rovers y manipuladores →](../../B102/B102-C01-dinamica-multicuerpo-de-rovers-y-manipuladores/CLASE.md)
 <!-- /nav -->

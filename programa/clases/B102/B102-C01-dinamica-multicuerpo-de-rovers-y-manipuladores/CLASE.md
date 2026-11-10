@@ -1,7 +1,7 @@
 # B102-C01 — Dinámica multicuerpo de rovers y manipuladores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [← Anterior: B101-C10 — Simulación de una tarea tripulada con manipulador](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md#b101-c10) · [Siguiente: B102-C02 — Terramecánica: tracción y hundimiento en suelos sueltos →](../B102-C02-terramecanica-traccion-y-hundimiento-en-suelos-sueltos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [← Anterior: B101-C10 — Simulación de una tarea tripulada con manipulador](../../B101/B101-C10-simulacion-de-una-tarea-tripulada-con-manipulador/CLASE.md) · [Siguiente: B102-C02 — Terramecánica: tracción y hundimiento en suelos sueltos →](../B102-C02-terramecanica-traccion-y-hundimiento-en-suelos-sueltos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ Un brazo de 4 kg y 3 kg necesita `60,8 N·m` de par de hombro en la Tierra y `23
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B101-C10 — Simulación de una tarea tripulada con manipulador](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md#b101-c10) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [Siguiente: B102-C02 — Terramecánica: tracción y hundimiento en suelos sueltos →](../B102-C02-terramecanica-traccion-y-hundimiento-en-suelos-sueltos/CLASE.md)
+[← Anterior: B101-C10 — Simulación de una tarea tripulada con manipulador](../../B101/B101-C10-simulacion-de-una-tarea-tripulada-con-manipulador/CLASE.md) · [📚 Bloque B102](../../../tronco-comun/B102-movilidad-de-robots-planetarios.md) · [Siguiente: B102-C02 — Terramecánica: tracción y hundimiento en suelos sueltos →](../B102-C02-terramecanica-traccion-y-hundimiento-en-suelos-sueltos/CLASE.md)
 <!-- /nav -->
