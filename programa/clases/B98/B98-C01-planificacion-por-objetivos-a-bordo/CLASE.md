@@ -1,7 +1,7 @@
 # B98-C01 — Planificación por objetivos a bordo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B97-C27 — Simulación de productividad de flotas de maquinaria](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c27) · [Siguiente: B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento →](../B98-C02-sistemas-de-decision-autonomos-y-maquinas-de-estados-de-comportamiento/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B97-C27 — Simulación de productividad de flotas de maquinaria](../../B97/B97-C27-simulacion-de-productividad-de-flotas-de-maquinaria/CLASE.md) · [Siguiente: B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento →](../B98-C02-sistemas-de-decision-autonomos-y-maquinas-de-estados-de-comportamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Con 150 Wh el plan óptimo de la jornada aporta utilidad 68 y, tras perder 35 Wh
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B97-C27 — Simulación de productividad de flotas de maquinaria](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c27) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento →](../B98-C02-sistemas-de-decision-autonomos-y-maquinas-de-estados-de-comportamiento/CLASE.md)
+[← Anterior: B97-C27 — Simulación de productividad de flotas de maquinaria](../../B97/B97-C27-simulacion-de-productividad-de-flotas-de-maquinaria/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento →](../B98-C02-sistemas-de-decision-autonomos-y-maquinas-de-estados-de-comportamiento/CLASE.md)
 <!-- /nav -->

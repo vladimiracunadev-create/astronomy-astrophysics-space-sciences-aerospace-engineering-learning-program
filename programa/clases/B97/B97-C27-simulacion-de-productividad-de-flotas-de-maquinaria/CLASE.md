@@ -1,7 +1,7 @@
 # B97-C27 — Simulación de productividad de flotas de maquinaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C26 — Monitoreo de condición de maquinaria extraterrestre](../B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md) · [Siguiente: B98-C01 — Planificación por objetivos a bordo →](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C26 — Monitoreo de condición de maquinaria extraterrestre](../B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md) · [Siguiente: B98-C01 — Planificación por objetivos a bordo →](../../B98/B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ La flota sintética rinde `7,27` t/h con 6 camiones y solo `8,83` t/h con 10 (`1
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B97-C26 — Monitoreo de condición de maquinaria extraterrestre](../B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B98-C01 — Planificación por objetivos a bordo →](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c01)
+[← Anterior: B97-C26 — Monitoreo de condición de maquinaria extraterrestre](../B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B98-C01 — Planificación por objetivos a bordo →](../../B98/B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md)
 <!-- /nav -->
