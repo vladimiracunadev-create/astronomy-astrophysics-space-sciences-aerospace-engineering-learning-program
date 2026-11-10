@@ -1,7 +1,7 @@
 # B56-C05 — Extremófilos y límites ambientales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C04 — Hipótesis de abiogénesis](../B56-C04-hipotesis-de-abiogenesis/CLASE.md) · [Siguiente: B56-C06 — Agua líquida y solventes alternativos →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C04 — Hipótesis de abiogénesis](../B56-C04-hipotesis-de-abiogenesis/CLASE.md) · [Siguiente: B56-C06 — Agua líquida y solventes alternativos →](../B56-C06-agua-liquida-y-solventes-alternativos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ La replicación terrestre exige agua disponible y una temperatura mínima; la po
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B56-C04 — Hipótesis de abiogénesis](../B56-C04-hipotesis-de-abiogenesis/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C06 — Agua líquida y solventes alternativos →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c06)
+[← Anterior: B56-C04 — Hipótesis de abiogénesis](../B56-C04-hipotesis-de-abiogenesis/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C06 — Agua líquida y solventes alternativos →](../B56-C06-agua-liquida-y-solventes-alternativos/CLASE.md)
 <!-- /nav -->

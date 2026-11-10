@@ -59,16 +59,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b56-c05"></a>[B56-C05](../clases/B56/B56-C05-extremofilos-y-limites-ambientales/CLASE.md) | Extremófilos y límites ambientales | Modelo de temperatura cardinal y límites de actividad del agua y temperatura de COSPAR. | Ficha de un ambiente frente a los límites |
-| <a id="b56-c06"></a>B56-C06 | Agua líquida y solventes alternativos | Diagrama de fases, Clausius–Clapeyron y cuándo el agua puede ser líquida. | Decisión de fase en cuatro ambientes |
-| <a id="b56-c07"></a>B56-C07 | Energía química para la vida | Energía libre de reacción con concentraciones y energía disponible por célula. | Presupuesto energético de un metabolismo |
+| <a id="b56-c06"></a>[B56-C06](../clases/B56/B56-C06-agua-liquida-y-solventes-alternativos/CLASE.md) | Agua líquida y solventes alternativos | Diagrama de fases, Clausius–Clapeyron y cuándo el agua puede ser líquida. | Decisión de fase en cuatro ambientes |
+| <a id="b56-c07"></a>[B56-C07](../clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md) | Energía química para la vida | Energía libre de reacción con concentraciones y energía disponible por célula. | Presupuesto energético de un metabolismo |
 
 ### Tramo 3 · Mundos del Sistema Solar
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b56-c08"></a>B56-C08 | Habitabilidad de Marte | Gravedad, escape y temperaturas de Marte frente a los límites de replicación. | Ficha de habitabilidad de Marte |
-| <a id="b56-c09"></a>B56-C09 | Océanos de Europa | Profundidad de un océano a partir de su volumen y presión en el fondo. | Ficha del océano de Europa |
-| <a id="b56-c10"></a>B56-C10 | Océanos de Encélado | Velocidad de escape, balística de las partículas del penacho y destino del material. | Ficha del penacho de Encélado |
+| <a id="b56-c08"></a>[B56-C08](../clases/B56/B56-C08-habitabilidad-de-marte/CLASE.md) | Habitabilidad de Marte | Gravedad, escape y temperaturas de Marte frente a los límites de replicación. | Ficha de habitabilidad de Marte |
+| <a id="b56-c09"></a>[B56-C09](../clases/B56/B56-C09-oceanos-de-europa/CLASE.md) | Océanos de Europa | Profundidad de un océano a partir de su volumen y presión en el fondo. | Ficha del océano de Europa |
+| <a id="b56-c10"></a>[B56-C10](../clases/B56/B56-C10-oceanos-de-encelado/CLASE.md) | Océanos de Encélado | Velocidad de escape, balística de las partículas del penacho y destino del material. | Ficha del penacho de Encélado |
 | <a id="b56-c11"></a>B56-C11 | Atmósfera y superficie de Titán | Altura de escala, presión hidrostática y retención de gases por el parámetro de Jeans. | Ficha atmosférica de Titán |
 
 ### Tramo 4 · Exoplanetas, biofirmas y tecnofirmas
