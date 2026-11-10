@@ -1,7 +1,7 @@
 # B88-C10 — Gestión de eventos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C09 — Telecomandos y estados de misión](../B88-C09-telecomandos-y-estados-de-mision/CLASE.md) · [Siguiente: B88-C11 — Watchdogs y recuperación →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C09 — Telecomandos y estados de misión](../B88-C09-telecomandos-y-estados-de-mision/CLASE.md) · [Siguiente: B88-C11 — Watchdogs y recuperación →](../B88-C11-watchdogs-y-recuperacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -282,5 +282,5 @@ El limitador reduce 1026 eventos a 48 conservando los 2 críticos. Queda una pre
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C09 — Telecomandos y estados de misión](../B88-C09-telecomandos-y-estados-de-mision/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C11 — Watchdogs y recuperación →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c11)
+[← Anterior: B88-C09 — Telecomandos y estados de misión](../B88-C09-telecomandos-y-estados-de-mision/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C11 — Watchdogs y recuperación →](../B88-C11-watchdogs-y-recuperacion/CLASE.md)
 <!-- /nav -->

@@ -174,7 +174,7 @@ Descripción larga: el tiempo de respuesta crece con la interferencia de las tar
 
 <details><summary>Solución comentada</summary>
 
-`R = 3 + 2⌈R/4⌉ + 2⌈R/6⌉`: `3→9→11→13→15…` excede 13: falla.
+`R = 3 + 2⌈R/4⌉ + 2⌈R/6⌉`: `3→7→11→13→17` excede 13: falla.
 </details>
 
 **Ejercicio 7 · autónomo.** ¿Cuántas liberaciones de `t3` hay en 3 hiperperiodos?
