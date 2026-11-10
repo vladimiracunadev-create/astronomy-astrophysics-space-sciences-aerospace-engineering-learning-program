@@ -1,7 +1,7 @@
 # B86-C06 — Gestión de carga
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C05 — Baterías de ion-litio](../B86-C05-baterias-de-ion-litio/CLASE.md) · [Siguiente: B86-C07 — Distribución de potencia →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C05 — Baterías de ion-litio](../B86-C05-baterias-de-ion-litio/CLASE.md) · [Siguiente: B86-C07 — Distribución de potencia →](../B86-C07-distribucion-de-potencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Con `2 A` el paquete sintético se recarga en `2849 s` de los `3667 s` de luz y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B86-C05 — Baterías de ion-litio](../B86-C05-baterias-de-ion-litio/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C07 — Distribución de potencia →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c07)
+[← Anterior: B86-C05 — Baterías de ion-litio](../B86-C05-baterias-de-ion-litio/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C07 — Distribución de potencia →](../B86-C07-distribucion-de-potencia/CLASE.md)
 <!-- /nav -->
