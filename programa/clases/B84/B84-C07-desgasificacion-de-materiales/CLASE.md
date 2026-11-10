@@ -1,7 +1,7 @@
 # B84-C07 — Desgasificación de materiales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C06 — Comportamiento bajo vacío](../B84-C06-comportamiento-bajo-vacio/CLASE.md) · [Siguiente: B84-C08 — Fatiga y fractura →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c08)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C06 — Comportamiento bajo vacío](../B84-C06-comportamiento-bajo-vacio/CLASE.md) · [Siguiente: B84-C08 — Fatiga y fractura →](../B84-C08-fatiga-y-fractura/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -114,7 +114,7 @@ SI y %. Pesadas en mg sintéticas. Criterios ilustrativos: TML ≤ 1,0 % y CVCM 
 
 | ID | Fuente | Localizador | Respalda | Estado |
 |---|---|---|---|---|
-| S1 | NASA/GSFC, GSFC-STD-7000 (GEVS) Versión B, Cambio 0, 2021-04-28 — https://standards.nasa.gov/standard/gsfc/gsfc-std-7000 (PDF descargado y leído con PyMuPDF el 2026-11-10) | menciones de ASTM E595 en la sección de contaminación (alrededor de la página 299 del PDF) | la exigencia de imponer ASTM E595, JSC 0700 Vol. XIV y NASA RP 1124 como cribado mínimo de estabilidad al vacío, y que son insuficientes para instrumentos exigentes | Consultada |
+| S1 | NASA/GSFC, GSFC-STD-7000 (GEVS) Versión B, Cambio 0, 2021-04-28 — https://standards.nasa.gov/standard/gsfc/gsfc-std-7000 (PDF descargado y leído con PyMuPDF el 2026-11-10) | menciones de ASTM E595 en la sección de contaminación (páginas 299 y 300 del PDF) | la exigencia de imponer ASTM E595, JSC 0700 Vol. XIV y NASA RP 1124 como cribado mínimo de estabilidad al vacío, y que son insuficientes para instrumentos exigentes | Consultada |
 | S2 | NASA/GSFC, Outgassing Database — https://etd.gsfc.nasa.gov/capabilities/outgassing-database/ (consultada 2026-11-10; redirigida desde outgassing.nasa.gov) | página principal | TML, WVR y CVCM como campos de la base y que los ensayos siguen ASTM E595 | Consultada (la página no da los límites numéricos de ASTM E595) |
 | — | ASTM E595 (límites numéricos y condiciones de ensayo) y los parámetros de difusión | — | los criterios de 1,0 % y 0,10 % y las condiciones de 125 °C y 24 h, que aquí son ilustrativos | No consultada en una fuente concreta |
 
@@ -310,5 +310,5 @@ La silicona B pierde `0,920 %` pero condensa `0,190 %` y no pasa; a 125 °C se h
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C06 — Comportamiento bajo vacío](../B84-C06-comportamiento-bajo-vacio/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C08 — Fatiga y fractura →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c08)
+[← Anterior: B84-C06 — Comportamiento bajo vacío](../B84-C06-comportamiento-bajo-vacio/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C08 — Fatiga y fractura →](../B84-C08-fatiga-y-fractura/CLASE.md)
 <!-- /nav -->
