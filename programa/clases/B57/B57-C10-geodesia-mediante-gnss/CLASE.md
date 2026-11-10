@@ -1,7 +1,7 @@
 # B57-C10 — Geodesia mediante GNSS
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C09 — Altimetría satelital](../B57-C09-altimetria-satelital/CLASE.md) · [Siguiente: B57-C11 — LiDAR satelital →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C09 — Altimetría satelital](../B57-C09-altimetria-satelital/CLASE.md) · [Siguiente: B57-C11 — LiDAR satelital →](../B57-C11-lidar-satelital/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ La geometría buena tiene `PDOP = 2,80` y la agrupada `14,6`; el error 3D simula
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C09 — Altimetría satelital](../B57-C09-altimetria-satelital/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C11 — LiDAR satelital →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c11)
+[← Anterior: B57-C09 — Altimetría satelital](../B57-C09-altimetria-satelital/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C11 — LiDAR satelital →](../B57-C11-lidar-satelital/CLASE.md)
 <!-- /nav -->

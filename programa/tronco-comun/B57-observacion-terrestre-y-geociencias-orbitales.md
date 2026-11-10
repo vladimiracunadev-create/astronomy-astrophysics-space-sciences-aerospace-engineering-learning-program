@@ -63,16 +63,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b57-c08"></a>[B57-C08](../clases/B57/B57-C08-interferometria-radar-insar/CLASE.md) | Interferometría radar InSAR | Relación entre fase y desplazamiento en la línea de visión, franjas y desenrollado. | Ficha de una medición InSAR |
 | <a id="b57-c09"></a>[B57-C09](../clases/B57/B57-C09-altimetria-satelital/CLASE.md) | Altimetría satelital | Distancia por tiempo de ida y vuelta, altura de la superficie del mar y precisión temporal. | Ficha de altimetría satelital |
 | <a id="b57-c10"></a>[B57-C10](../clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md) | Geodesia mediante GNSS | Posición por pseudodistancias, sesgo de reloj y geometría de satélites (DOP). | Ficha de geodesia con GNSS |
-| <a id="b57-c11"></a>B57-C11 | LiDAR satelital | Altímetro láser de fotones: tasa de pulsos, espaciado a lo largo de la traza y búsqueda de la superficie. | Ficha de LiDAR satelital |
+| <a id="b57-c11"></a>[B57-C11](../clases/B57/B57-C11-lidar-satelital/CLASE.md) | LiDAR satelital | Altímetro láser de fotones: tasa de pulsos, espaciado a lo largo de la traza y búsqueda de la superficie. | Ficha de LiDAR satelital |
 
 ### Tramo 3 · Océano, atmósfera, criósfera y peligros
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b57-c12"></a>B57-C12 | Oceanografía desde órbita | Velocidad geostrófica desde la altura del mar y tendencia del nivel del mar. | Ficha de oceanografía desde órbita |
-| <a id="b57-c13"></a>B57-C13 | Atmósfera y aerosoles | Espesor óptico de aerosoles, exponente de Ångström y transmitancia de Beer–Lambert. | Ficha de aerosoles |
-| <a id="b57-c14"></a>B57-C14 | Glaciares y criósfera | Cambio de masa de hielo, equivalente en nivel del mar y conversión de altura a masa. | Ficha del balance de hielo |
-| <a id="b57-c15"></a>B57-C15 | Sequías e inundaciones | Máscara de agua con umbral de Otsu, cambio de área inundada e índice de anomalía de lluvia. | Ficha de sequía e inundación |
+| <a id="b57-c12"></a>[B57-C12](../clases/B57/B57-C12-oceanografia-desde-orbita/CLASE.md) | Oceanografía desde órbita | Velocidad geostrófica desde la altura del mar y tendencia del nivel del mar. | Ficha de oceanografía desde órbita |
+| <a id="b57-c13"></a>[B57-C13](../clases/B57/B57-C13-atmosfera-y-aerosoles/CLASE.md) | Atmósfera y aerosoles | Espesor óptico de aerosoles, exponente de Ångström y transmitancia de Beer–Lambert. | Ficha de aerosoles |
+| <a id="b57-c14"></a>[B57-C14](../clases/B57/B57-C14-glaciares-y-criosfera/CLASE.md) | Glaciares y criósfera | Cambio de masa de hielo, equivalente en nivel del mar y conversión de altura a masa. | Ficha del balance de hielo |
+| <a id="b57-c15"></a>[B57-C15](../clases/B57/B57-C15-sequias-e-inundaciones/CLASE.md) | Sequías e inundaciones | Máscara de agua con umbral de Otsu, cambio de área inundada e índice de anomalía de lluvia. | Ficha de sequía e inundación |
 | <a id="b57-c16"></a>B57-C16 | Incendios forestales | Detección de fuego en dos bandas, fracción de píxel en llamas y tamaño mínimo detectable. | Ficha de detección de incendios |
 | <a id="b57-c17"></a>B57-C17 | Terremotos y deformación | Momento sísmico, magnitud, deformación de falla y proyección a la línea de visión. | Ficha de deformación sísmica |
 | <a id="b57-c18"></a>B57-C18 | Volcanismo y monitoreo | Fuente de Mogi, perfil de deformación e inversión de profundidad y volumen. | Ficha de deformación volcánica |
