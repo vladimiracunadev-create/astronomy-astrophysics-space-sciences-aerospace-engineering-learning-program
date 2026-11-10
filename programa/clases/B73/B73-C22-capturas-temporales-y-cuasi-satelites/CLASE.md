@@ -1,7 +1,7 @@
 # B73-C22 — Capturas temporales y cuasi-satélites
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C21 — Pasos cercanos a satélites naturales en integración de N cuerpos](../B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) · [Siguiente: B74-C01 — Modelos de observación →](../../../tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md#b74-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C21 — Pasos cercanos a satélites naturales en integración de N cuerpos](../B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) · [Siguiente: B74-C01 — Modelos de observación →](../../B74/B74-C01-modelos-de-observacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,5 +322,5 @@ El ángulo coorbital sin envolver separa tadpole (`50°–72°`), herradura (`12
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B73-C21 — Pasos cercanos a satélites naturales en integración de N cuerpos](../B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B74-C01 — Modelos de observación →](../../../tronco-comun/B74-estimacion-de-orbitas-y-navegacion-espacial.md#b74-c01)
+[← Anterior: B73-C21 — Pasos cercanos a satélites naturales en integración de N cuerpos](../B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B74-C01 — Modelos de observación →](../../B74/B74-C01-modelos-de-observacion/CLASE.md)
 <!-- /nav -->

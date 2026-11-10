@@ -46,56 +46,56 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b74-c01"></a>B74-C01 | Modelos de observación | La función `h(x)`, los residuos y el jacobiano analítico frente al numérico. | Ficha del modelo de observación de una estación |
-| <a id="b74-c02"></a>B74-C02 | Observación angular y astrometría | Conversión de píxeles a ángulo, incertidumbre del centroide y aberración. | Presupuesto de error de una medida angular |
-| <a id="b74-c03"></a>B74-C03 | Medición de alcance por radio | Tiempo de ida y vuelta, resolución del código y corrección del retardo. | Ficha de una medida de alcance con su presupuesto |
-| <a id="b74-c04"></a>B74-C04 | Doppler de navegación | Doppler de dos sentidos, velocidad radial y ruido de la cuenta integrada. | Ficha de una medida Doppler de dos sentidos |
-| <a id="b74-c05"></a>B74-C05 | Sesgos de estaciones terrestres | Error de posición de la estación y sesgo de alcance, y su efecto en el ajuste. | Tabla de sensibilidad a sesgos |
+| <a id="b74-c01"></a>[B74-C01](../clases/B74/B74-C01-modelos-de-observacion/CLASE.md) | Modelos de observación | La función `h(x)`, los residuos y el jacobiano analítico frente al numérico. | Ficha del modelo de observación de una estación |
+| <a id="b74-c02"></a>[B74-C02](../clases/B74/B74-C02-observacion-angular-y-astrometria/CLASE.md) | Observación angular y astrometría | Conversión de píxeles a ángulo, incertidumbre del centroide y aberración. | Presupuesto de error de una medida angular |
+| <a id="b74-c03"></a>[B74-C03](../clases/B74/B74-C03-medicion-de-alcance-por-radio/CLASE.md) | Medición de alcance por radio | Tiempo de ida y vuelta, resolución del código y corrección del retardo. | Ficha de una medida de alcance con su presupuesto |
+| <a id="b74-c04"></a>[B74-C04](../clases/B74/B74-C04-doppler-de-navegacion/CLASE.md) | Doppler de navegación | Doppler de dos sentidos, velocidad radial y ruido de la cuenta integrada. | Ficha de una medida Doppler de dos sentidos |
+| <a id="b74-c05"></a>[B74-C05](../clases/B74/B74-C05-sesgos-de-estaciones-terrestres/CLASE.md) | Sesgos de estaciones terrestres | Error de posición de la estación y sesgo de alcance, y su efecto en el ajuste. | Tabla de sensibilidad a sesgos |
 
 ### Tramo 2 · Estimar el estado
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b74-c06"></a>B74-C06 | Determinación inicial de órbita | Método de Gibbs y de Lambert a partir de posiciones sintéticas. | Órbita inicial con el error frente a la verdad sintética |
-| <a id="b74-c07"></a>B74-C07 | Ajuste por mínimos cuadrados | Gauss–Newton ponderado, matriz de información y covarianza. | Solución por lotes con su covarianza |
-| <a id="b74-c08"></a>B74-C08 | Filtrado recursivo de estados | Bayes recursivo y equivalencia entre mínimos cuadrados recursivos y por lotes. | Comparación recursivo frente a lotes |
-| <a id="b74-c09"></a>B74-C09 | Filtro de Kalman extendido | Predicción, actualización y linealización sobre una órbita. | Filtro extendido de una órbita sintética |
-| <a id="b74-c10"></a>B74-C10 | Filtro de Kalman no lineal | Transformada unscented (puntos sigma) frente a linealización. | Comparación EKF frente a UKF |
-| <a id="b74-c11"></a>B74-C11 | Matrices de covarianza | Correlación, elipses, autovalores y cambio de coordenadas. | Ficha de interpretación de una covarianza |
-| <a id="b74-c12"></a>B74-C12 | Propagación de incertidumbre | Matriz de transición, Monte Carlo y puntos sigma sobre una órbita. | Comparación de tres propagaciones |
+| <a id="b74-c06"></a>[B74-C06](../clases/B74/B74-C06-determinacion-inicial-de-orbita/CLASE.md) | Determinación inicial de órbita | Método de Gibbs y de Lambert a partir de posiciones sintéticas. | Órbita inicial con el error frente a la verdad sintética |
+| <a id="b74-c07"></a>[B74-C07](../clases/B74/B74-C07-ajuste-por-minimos-cuadrados/CLASE.md) | Ajuste por mínimos cuadrados | Gauss–Newton ponderado, matriz de información y covarianza. | Solución por lotes con su covarianza |
+| <a id="b74-c08"></a>[B74-C08](../clases/B74/B74-C08-filtrado-recursivo-de-estados/CLASE.md) | Filtrado recursivo de estados | Bayes recursivo y equivalencia entre mínimos cuadrados recursivos y por lotes. | Comparación recursivo frente a lotes |
+| <a id="b74-c09"></a>[B74-C09](../clases/B74/B74-C09-filtro-de-kalman-extendido/CLASE.md) | Filtro de Kalman extendido | Predicción, actualización y linealización sobre una órbita. | Filtro extendido de una órbita sintética |
+| <a id="b74-c10"></a>[B74-C10](../clases/B74/B74-C10-filtro-de-kalman-no-lineal/CLASE.md) | Filtro de Kalman no lineal | Transformada unscented (puntos sigma) frente a linealización. | Comparación EKF frente a UKF |
+| <a id="b74-c11"></a>[B74-C11](../clases/B74/B74-C11-matrices-de-covarianza-estimacion-de-orbitas-y-navegacion-espacial/CLASE.md) | Matrices de covarianza | Correlación, elipses, autovalores y cambio de coordenadas. | Ficha de interpretación de una covarianza |
+| <a id="b74-c12"></a>[B74-C12](../clases/B74/B74-C12-propagacion-de-incertidumbre-estimacion-de-orbitas-y-navegacion-espacial/CLASE.md) | Propagación de incertidumbre | Matriz de transición, Monte Carlo y puntos sigma sobre una órbita. | Comparación de tres propagaciones |
 
 ### Tramo 3 · Navegar con imágenes, red y tiempo
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b74-c13"></a>B74-C13 | Navegación óptica | Posición de la nave a partir de líneas de visión a cuerpos conocidos. | Ajuste de posición por triangulación |
-| <a id="b74-c14"></a>B74-C14 | Navegación con cámaras estelares | Actitud a partir de vectores de estrellas (TRIAD y Wahba). | Estimación de actitud con su error |
-| <a id="b74-c15"></a>B74-C15 | Geometría de la red de seguimiento | Matriz de información y dilución de la precisión según estaciones. | Mapa de dilución de la precisión |
-| <a id="b74-c16"></a>B74-C16 | Sincronización temporal | Modelo de reloj, deriva y efecto de un error de tiempo en la medida. | Presupuesto de error por tiempo |
-| <a id="b74-c17"></a>B74-C17 | Navegación en espacio profundo | Combinación de Doppler, alcance y DDOR; ambigüedad de declinación. | Ficha de observabilidad en espacio profundo |
-| <a id="b74-c18"></a>B74-C18 | Estimación autónoma a bordo | Filtro con coste fijo, cómputo y consistencia a bordo. | Presupuesto de cómputo y de error a bordo |
+| <a id="b74-c13"></a>[B74-C13](../clases/B74/B74-C13-navegacion-optica/CLASE.md) | Navegación óptica | Posición de la nave a partir de líneas de visión a cuerpos conocidos. | Ajuste de posición por triangulación |
+| <a id="b74-c14"></a>[B74-C14](../clases/B74/B74-C14-navegacion-con-camaras-estelares/CLASE.md) | Navegación con cámaras estelares | Actitud a partir de vectores de estrellas (TRIAD y Wahba). | Estimación de actitud con su error |
+| <a id="b74-c15"></a>[B74-C15](../clases/B74/B74-C15-geometria-de-la-red-de-seguimiento/CLASE.md) | Geometría de la red de seguimiento | Matriz de información y dilución de la precisión según estaciones. | Mapa de dilución de la precisión |
+| <a id="b74-c16"></a>[B74-C16](../clases/B74/B74-C16-sincronizacion-temporal/CLASE.md) | Sincronización temporal | Modelo de reloj, deriva y efecto de un error de tiempo en la medida. | Presupuesto de error por tiempo |
+| <a id="b74-c17"></a>[B74-C17](../clases/B74/B74-C17-navegacion-en-espacio-profundo/CLASE.md) | Navegación en espacio profundo | Combinación de Doppler, alcance y DDOR; ambigüedad de declinación. | Ficha de observabilidad en espacio profundo |
+| <a id="b74-c18"></a>[B74-C18](../clases/B74/B74-C18-estimacion-autonoma-a-bordo/CLASE.md) | Estimación autónoma a bordo | Filtro con coste fijo, cómputo y consistencia a bordo. | Presupuesto de cómputo y de error a bordo |
 
 ### Tramo 4 · Calidad, validación e informe
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b74-c19"></a>B74-C19 | Métricas de precisión de navegación | RMS, percentiles, CEP y límites de confianza. | Tabla de métricas con su incertidumbre |
-| <a id="b74-c20"></a>B74-C20 | Validación frente a efemérides de referencia | Diferencias RTN y comparación contra una referencia. | Informe de comparación con una efeméride |
-| <a id="b74-c21"></a>B74-C21 | Kernels SPICE y su uso en navegación | Tipos de kernel, meta-kernels y prioridad de carga. | Meta-kernel validado y auditado |
-| <a id="b74-c22"></a>B74-C22 | Informe de navegación verificable | Procedencia, versiones, huellas y comprobaciones de completitud. | Informe de navegación con manifiesto |
-| <a id="b74-c23"></a>B74-C23 | Consistencia de filtros: innovaciones y pruebas NEES/NIS | Pruebas χ² del error y de la innovación. | Informe de consistencia de un filtro |
-| <a id="b74-c24"></a>B74-C24 | Medidas retardadas y fuera de secuencia en filtros de estimación | Retrodicción frente a descartar una medida tardía. | Comparación de tratamientos de una medida tardía |
+| <a id="b74-c19"></a>[B74-C19](../clases/B74/B74-C19-metricas-de-precision-de-navegacion/CLASE.md) | Métricas de precisión de navegación | RMS, percentiles, CEP y límites de confianza. | Tabla de métricas con su incertidumbre |
+| <a id="b74-c20"></a>[B74-C20](../clases/B74/B74-C20-validacion-frente-a-efemerides-de-referencia/CLASE.md) | Validación frente a efemérides de referencia | Diferencias RTN y comparación contra una referencia. | Informe de comparación con una efeméride |
+| <a id="b74-c21"></a>[B74-C21](../clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md) | Kernels SPICE y su uso en navegación | Tipos de kernel, meta-kernels y prioridad de carga. | Meta-kernel validado y auditado |
+| <a id="b74-c22"></a>[B74-C22](../clases/B74/B74-C22-informe-de-navegacion-verificable/CLASE.md) | Informe de navegación verificable | Procedencia, versiones, huellas y comprobaciones de completitud. | Informe de navegación con manifiesto |
+| <a id="b74-c23"></a>[B74-C23](../clases/B74/B74-C23-consistencia-de-filtros-innovaciones-y-pruebas-nees-nis/CLASE.md) | Consistencia de filtros: innovaciones y pruebas NEES/NIS | Pruebas χ² del error y de la innovación. | Informe de consistencia de un filtro |
+| <a id="b74-c24"></a>[B74-C24](../clases/B74/B74-C24-medidas-retardadas-y-fuera-de-secuencia-en-filtros-de-estimacion/CLASE.md) | Medidas retardadas y fuera de secuencia en filtros de estimación | Retrodicción frente a descartar una medida tardía. | Comparación de tratamientos de una medida tardía |
 
 ### Tramo 5 · Imagen, formatos y pistas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b74-c25"></a>B74-C25 | Detección de limbo y bordes planetarios en imágenes de navegación | Borde subpíxel y ajuste de círculo por mínimos cuadrados. | Ficha de extracción de limbo |
-| <a id="b74-c26"></a>B74-C26 | Navegación por hitos y correlación de terreno | Correlación cruzada normalizada y desplazamiento subpíxel. | Ficha de correlación de un hito |
-| <a id="b74-c27"></a>B74-C27 | Navegación por púlsares de rayos X como técnica de investigación | Retardo de llegada y error de posición; estado de investigación. | Presupuesto de un fijado por púlsares (simulado) |
-| <a id="b74-c28"></a>B74-C28 | Medidas de rango y Doppler para determinar la órbita | Qué aporta cada observable a la observabilidad de la órbita. | Comparación de la información por observable |
-| <a id="b74-c29"></a>B74-C29 | Formatos TLE y OMM de elementos orbitales | Lectura de un TLE, suma de verificación y conversión a OMM. | TLE sintético validado y convertido |
-| <a id="b74-c30"></a>B74-C30 | Asociación de observaciones y correlación de pistas | Compuerta de Mahalanobis y asignación óptima. | Matriz de asociación de pistas sintéticas |
+| <a id="b74-c25"></a>[B74-C25](../clases/B74/B74-C25-deteccion-de-limbo-y-bordes-planetarios-en-imagenes-de-navegacion/CLASE.md) | Detección de limbo y bordes planetarios en imágenes de navegación | Borde subpíxel y ajuste de círculo por mínimos cuadrados. | Ficha de extracción de limbo |
+| <a id="b74-c26"></a>[B74-C26](../clases/B74/B74-C26-navegacion-por-hitos-y-correlacion-de-terreno/CLASE.md) | Navegación por hitos y correlación de terreno | Correlación cruzada normalizada y desplazamiento subpíxel. | Ficha de correlación de un hito |
+| <a id="b74-c27"></a>[B74-C27](../clases/B74/B74-C27-navegacion-por-pulsares-de-rayos-x-como-tecnica-de-investigacion/CLASE.md) | Navegación por púlsares de rayos X como técnica de investigación | Retardo de llegada y error de posición; estado de investigación. | Presupuesto de un fijado por púlsares (simulado) |
+| <a id="b74-c28"></a>[B74-C28](../clases/B74/B74-C28-medidas-de-rango-y-doppler-para-determinar-la-orbita/CLASE.md) | Medidas de rango y Doppler para determinar la órbita | Qué aporta cada observable a la observabilidad de la órbita. | Comparación de la información por observable |
+| <a id="b74-c29"></a>[B74-C29](../clases/B74/B74-C29-formatos-tle-y-omm-de-elementos-orbitales/CLASE.md) | Formatos TLE y OMM de elementos orbitales | Lectura de un TLE, suma de verificación y conversión a OMM. | TLE sintético validado y convertido |
+| <a id="b74-c30"></a>[B74-C30](../clases/B74/B74-C30-asociacion-de-observaciones-y-correlacion-de-pistas/CLASE.md) | Asociación de observaciones y correlación de pistas | Compuerta de Mahalanobis y asignación óptima. | Matriz de asociación de pistas sintéticas |
 
 ## 🧵 Hilos que atraviesan el bloque
 
