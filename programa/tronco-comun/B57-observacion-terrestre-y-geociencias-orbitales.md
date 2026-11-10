@@ -88,15 +88,15 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b57-c23"></a>[B57-C23](../clases/B57/B57-C23-diseno-de-orbita-y-revisita-para-observacion-terrestre/CLASE.md) | Diseño de órbita y revisita para observación terrestre | Órbita heliosíncrona, período, trazas repetidas y revisita según el barrido. | Ficha del diseño de órbita |
 | <a id="b57-c24"></a>[B57-C24](../clases/B57/B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md) | Diseño de una carga útil de observación terrestre | Cadena de requisitos: GSD, barrido, tasa de líneas, tasa de datos y apertura. | Ficha de una carga útil |
 | <a id="b57-c25"></a>[B57-C25](../clases/B57/B57-C25-seleccion-de-bandas-espectrales-segun-el-fenomeno/CLASE.md) | Selección de bandas espectrales según el fenómeno | Separabilidad entre clases según el subconjunto de bandas y selección exhaustiva o voraz. | Ficha de selección de bandas |
-| <a id="b57-c26"></a>B57-C26 | Corrección atmosférica de imágenes | Inversión de reflectancia en el tope de la atmósfera, objeto oscuro y transmitancia. | Ficha de corrección atmosférica |
-| <a id="b57-c27"></a>B57-C27 | Detección de cambios en series de imágenes | Diferencia de imágenes, umbral, falsas alarmas y ajuste armónico de una serie. | Ficha de detección de cambios |
+| <a id="b57-c26"></a>[B57-C26](../clases/B57/B57-C26-correccion-atmosferica-de-imagenes/CLASE.md) | Corrección atmosférica de imágenes | Inversión de reflectancia en el tope de la atmósfera, objeto oscuro y transmitancia. | Ficha de corrección atmosférica |
+| <a id="b57-c27"></a>[B57-C27](../clases/B57/B57-C27-deteccion-de-cambios-en-series-de-imagenes/CLASE.md) | Detección de cambios en series de imágenes | Diferencia de imágenes, umbral, falsas alarmas y ajuste armónico de una serie. | Ficha de detección de cambios |
 
 ### Tramo 5 · Ampliación: elevación, nubes de puntos y calibración
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b57-c28"></a>B57-C28 | Modelos digitales de elevación | Modelo de superficie frente a modelo de terreno, pendiente y orientación por diferencias finitas. | Ficha de un modelo digital de elevación |
-| <a id="b57-c29"></a>B57-C29 | Correcciones atmosféricas en altimetría | Retardo troposférico seco y retardo ionosférico por dos frecuencias en altimetría. | Ficha de correcciones atmosféricas |
+| <a id="b57-c28"></a>[B57-C28](../clases/B57/B57-C28-modelos-digitales-de-elevacion/CLASE.md) | Modelos digitales de elevación | Modelo de superficie frente a modelo de terreno, pendiente y orientación por diferencias finitas. | Ficha de un modelo digital de elevación |
+| <a id="b57-c29"></a>[B57-C29](../clases/B57/B57-C29-correcciones-atmosfericas-en-altimetria/CLASE.md) | Correcciones atmosféricas en altimetría | Retardo troposférico seco y retardo ionosférico por dos frecuencias en altimetría. | Ficha de correcciones atmosféricas |
 | <a id="b57-c30"></a>B57-C30 | Nubes de puntos tridimensionales | Nube de puntos, filtro de suelo, plano por RANSAC y densidad de puntos. | Ficha de una nube de puntos |
 | <a id="b57-c31"></a>B57-C31 | Errores y validación de modelos de elevación | RMSE, NMAD y error lineal al 90 % frente a puntos de control. | Ficha de validación de un modelo de elevación |
 | <a id="b57-c32"></a>B57-C32 | Sitios de calibración terrestres | Calibración vicaria con un sitio estable: ganancia, desfase e incertidumbre. | Ficha de calibración con un sitio terrestre |

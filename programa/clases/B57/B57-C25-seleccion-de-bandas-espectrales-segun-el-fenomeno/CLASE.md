@@ -1,7 +1,7 @@
 # B57-C25 — Selección de bandas espectrales según el fenómeno
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C24 — Diseño de una carga útil de observación terrestre](../B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md) · [Siguiente: B57-C26 — Corrección atmosférica de imágenes →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c26)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C24 — Diseño de una carga útil de observación terrestre](../B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md) · [Siguiente: B57-C26 — Corrección atmosférica de imágenes →](../B57-C26-correccion-atmosferica-de-imagenes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ Con `2,00` de `JM` mínimo con 8 bandas, tres bien elegidas alcanzan `2,00`, y e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C24 — Diseño de una carga útil de observación terrestre](../B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C26 — Corrección atmosférica de imágenes →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c26)
+[← Anterior: B57-C24 — Diseño de una carga útil de observación terrestre](../B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C26 — Corrección atmosférica de imágenes →](../B57-C26-correccion-atmosferica-de-imagenes/CLASE.md)
 <!-- /nav -->
