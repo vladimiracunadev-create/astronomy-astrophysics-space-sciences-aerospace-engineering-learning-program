@@ -1,7 +1,7 @@
 # B85-C04 — Radiación térmica de superficies
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C03 — Convección y ausencia de convección exterior](../B85-C03-conveccion-y-ausencia-de-conveccion-exterior/CLASE.md) · [Siguiente: B85-C05 — Recubrimientos ópticos térmicos →](../B85-C05-recubrimientos-opticos-termicos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -283,5 +283,7 @@ Un cuerpo negro de 300 K emite `459,3 W/m²` con máximo en `9,66 µm`, y una em
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C03 — Convección y ausencia de convección exterior](../B85-C03-conveccion-y-ausencia-de-conveccion-exterior/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C05 — Recubrimientos ópticos térmicos →](../B85-C05-recubrimientos-opticos-termicos/CLASE.md)
 <!-- /nav -->

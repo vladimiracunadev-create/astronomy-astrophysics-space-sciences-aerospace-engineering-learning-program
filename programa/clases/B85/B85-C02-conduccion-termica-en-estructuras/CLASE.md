@@ -1,7 +1,7 @@
 # B85-C02 — Conducción térmica en estructuras
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C01 — Balance radiativo de satélite](../B85-C01-balance-radiativo-de-satelite/CLASE.md) · [Siguiente: B85-C03 — Convección y ausencia de convección exterior →](../B85-C03-conveccion-y-ausencia-de-conveccion-exterior/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -281,5 +281,7 @@ Una barra con una unión conduce `4,92 W` en lugar de `8,00 W`. Queda una pregun
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C01 — Balance radiativo de satélite](../B85-C01-balance-radiativo-de-satelite/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C03 — Convección y ausencia de convección exterior →](../B85-C03-conveccion-y-ausencia-de-conveccion-exterior/CLASE.md)
 <!-- /nav -->

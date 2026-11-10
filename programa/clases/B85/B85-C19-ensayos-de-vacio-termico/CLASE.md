@@ -1,7 +1,7 @@
 # B85-C19 — Ensayos de vacío térmico
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C18 — Modelado térmico por nodos](../B85-C18-modelado-termico-por-nodos/CLASE.md) · [Siguiente: B85-C20 — Presupuesto térmico de carga útil →](../B85-C20-presupuesto-termico-de-carga-util/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,7 @@ Un ciclado con niveles de `245–330 K` dura `19,3 h` por ciclo con estos datos 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C18 — Modelado térmico por nodos](../B85-C18-modelado-termico-por-nodos/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C20 — Presupuesto térmico de carga útil →](../B85-C20-presupuesto-termico-de-carga-util/CLASE.md)
 <!-- /nav -->

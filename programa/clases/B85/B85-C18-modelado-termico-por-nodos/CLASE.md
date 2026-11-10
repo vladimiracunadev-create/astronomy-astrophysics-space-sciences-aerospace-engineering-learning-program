@@ -1,7 +1,7 @@
 # B85-C18 — Modelado térmico por nodos
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C17 — Criogenia de instrumentos](../B85-C17-criogenia-de-instrumentos/CLASE.md) · [Siguiente: B85-C19 — Ensayos de vacío térmico →](../B85-C19-ensayos-de-vacio-termico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -285,5 +285,7 @@ Una red de cuatro nodos da la electrónica a `272,09 K` y cierra la energía en 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C17 — Criogenia de instrumentos](../B85-C17-criogenia-de-instrumentos/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C19 — Ensayos de vacío térmico →](../B85-C19-ensayos-de-vacio-termico/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B85-C12 — Entorno de vacío
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C11 — Ciclos térmicos](../B85-C11-ciclos-termicos/CLASE.md) · [Siguiente: B85-C13 — Efectos de oxígeno atómico →](../B85-C13-efectos-de-oxigeno-atomico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,7 @@ Una cámara de `2 m³` llega a `10⁻³ Pa` en `74 s` y no baja de `8,0 × 10⁻
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C11 — Ciclos térmicos](../B85-C11-ciclos-termicos/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C13 — Efectos de oxígeno atómico →](../B85-C13-efectos-de-oxigeno-atomico/CLASE.md)
 <!-- /nav -->

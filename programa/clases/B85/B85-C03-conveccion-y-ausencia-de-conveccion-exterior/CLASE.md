@@ -1,7 +1,7 @@
 # B85-C03 — Convección y ausencia de convección exterior
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C02 — Conducción térmica en estructuras](../B85-C02-conduccion-termica-en-estructuras/CLASE.md) · [Siguiente: B85-C04 — Radiación térmica de superficies →](../B85-C04-radiacion-termica-de-superficies/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -285,5 +285,7 @@ A 1 atm la convección aporta `5,67 W/(m² K)` y la radiación `4,90`; en vacío
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C02 — Conducción térmica en estructuras](../B85-C02-conduccion-termica-en-estructuras/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C04 — Radiación térmica de superficies →](../B85-C04-radiacion-termica-de-superficies/CLASE.md)
 <!-- /nav -->

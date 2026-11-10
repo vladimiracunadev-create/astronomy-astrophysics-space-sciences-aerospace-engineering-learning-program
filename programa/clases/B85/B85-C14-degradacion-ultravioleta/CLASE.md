@@ -1,7 +1,7 @@
 # B85-C14 — Degradación ultravioleta
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C13 — Efectos de oxígeno atómico](../B85-C13-efectos-de-oxigeno-atomico/CLASE.md) · [Siguiente: B85-C15 — Electrificación superficial →](../B85-C15-electrificacion-superficial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,7 @@ Con datos sintéticos, `α` sube de `0,20` a `0,38` en cinco años y la placa se
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C13 — Efectos de oxígeno atómico](../B85-C13-efectos-de-oxigeno-atomico/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C15 — Electrificación superficial →](../B85-C15-electrificacion-superficial/CLASE.md)
 <!-- /nav -->

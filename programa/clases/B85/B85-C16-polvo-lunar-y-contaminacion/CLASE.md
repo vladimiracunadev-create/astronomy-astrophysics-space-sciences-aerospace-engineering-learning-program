@@ -1,7 +1,7 @@
 # B85-C16 — Polvo lunar y contaminación
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C15 — Electrificación superficial](../B85-C15-electrificacion-superficial/CLASE.md) · [Siguiente: B85-C17 — Criogenia de instrumentos →](../B85-C17-criogenia-de-instrumentos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,7 @@ Un radiador ilustrativo pasa de `322,22 K` a `342,59 K` con un tercio de su supe
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C15 — Electrificación superficial](../B85-C15-electrificacion-superficial/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C17 — Criogenia de instrumentos →](../B85-C17-criogenia-de-instrumentos/CLASE.md)
 <!-- /nav -->

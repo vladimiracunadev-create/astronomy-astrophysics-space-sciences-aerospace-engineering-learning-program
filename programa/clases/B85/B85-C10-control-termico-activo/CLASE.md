@@ -1,7 +1,7 @@
 # B85-C10 — Control térmico activo
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C09 — Tubos de calor](../B85-C09-tubos-de-calor/CLASE.md) · [Siguiente: B85-C11 — Ciclos térmicos →](../B85-C11-ciclos-termicos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -284,5 +284,7 @@ Un PI de `K_p = 20` y `K_i = 0,05` mantiene `283 K` con error nulo y `9,9 W` de 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C09 — Tubos de calor](../B85-C09-tubos-de-calor/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C11 — Ciclos térmicos →](../B85-C11-ciclos-termicos/CLASE.md)
 <!-- /nav -->

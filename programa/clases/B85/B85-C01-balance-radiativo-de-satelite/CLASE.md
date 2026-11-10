@@ -1,7 +1,7 @@
 # B85-C01 — Balance radiativo de satélite
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B84-C38 — Producción de piezas y repuestos con materia prima in situ](../../B84/B84-C38-produccion-de-piezas-y-repuestos-con-materia-prima-in-situ/CLASE.md) · [Siguiente: B85-C02 — Conducción térmica en estructuras →](../B85-C02-conduccion-termica-en-estructuras/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -286,5 +286,7 @@ Una esfera de 0,5 m a 500 km queda a `262,26 K` al sol y a `201,62 K` en eclipse
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B84-C38 — Producción de piezas y repuestos con materia prima in situ](../../B84/B84-C38-produccion-de-piezas-y-repuestos-con-materia-prima-in-situ/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C02 — Conducción térmica en estructuras →](../B85-C02-conduccion-termica-en-estructuras/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B85-C05 — Recubrimientos ópticos térmicos
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C04 — Radiación térmica de superficies](../B85-C04-radiacion-termica-de-superficies/CLASE.md) · [Siguiente: B85-C06 — Aislamiento multicapa →](../B85-C06-aislamiento-multicapa/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,7 @@ Entre seis recubrimientos ilustrativos, solo la pintura blanca mantiene `250–3
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C04 — Radiación térmica de superficies](../B85-C04-radiacion-termica-de-superficies/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C06 — Aislamiento multicapa →](../B85-C06-aislamiento-multicapa/CLASE.md)
 <!-- /nav -->

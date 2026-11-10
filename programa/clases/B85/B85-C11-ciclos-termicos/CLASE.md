@@ -1,7 +1,7 @@
 # B85-C11 — Ciclos térmicos
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C10 — Control térmico activo](../B85-C10-control-termico-activo/CLASE.md) · [Siguiente: B85-C12 — Entorno de vacío →](../B85-C12-entorno-de-vacio/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,7 @@ Un nodo de `2000 J/K` oscila `24,64 K` por órbita y suma `5844` ciclos al año;
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C10 — Control térmico activo](../B85-C10-control-termico-activo/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C12 — Entorno de vacío →](../B85-C12-entorno-de-vacio/CLASE.md)
 <!-- /nav -->

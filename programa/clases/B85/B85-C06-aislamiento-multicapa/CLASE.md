@@ -1,7 +1,7 @@
 # B85-C06 — Aislamiento multicapa
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C05 — Recubrimientos ópticos térmicos](../B85-C05-recubrimientos-opticos-termicos/CLASE.md) · [Siguiente: B85-C07 — Radiadores espaciales →](../B85-C07-radiadores-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,7 @@ Diez pantallas de `ε = 0,05` reducen el flujo de `11,6` a `1,06 W/m²`, y la co
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C05 — Recubrimientos ópticos térmicos](../B85-C05-recubrimientos-opticos-termicos/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C07 — Radiadores espaciales →](../B85-C07-radiadores-espaciales/CLASE.md)
 <!-- /nav -->

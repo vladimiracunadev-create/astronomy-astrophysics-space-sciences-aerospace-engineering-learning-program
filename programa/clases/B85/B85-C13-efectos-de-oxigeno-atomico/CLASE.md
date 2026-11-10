@@ -1,7 +1,7 @@
 # B85-C13 — Efectos de oxígeno atómico
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C12 — Entorno de vacío](../B85-C12-entorno-de-vacio/CLASE.md) · [Siguiente: B85-C14 — Degradación ultravioleta →](../B85-C14-degradacion-ultravioleta/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,7 @@ A `400 km` el oxígeno atómico erosiona unos `726 µm` por año de un polímero
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C12 — Entorno de vacío](../B85-C12-entorno-de-vacio/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C14 — Degradación ultravioleta →](../B85-C14-degradacion-ultravioleta/CLASE.md)
 <!-- /nav -->

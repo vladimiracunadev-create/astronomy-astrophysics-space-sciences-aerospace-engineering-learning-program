@@ -1,7 +1,7 @@
 # B85-C17 — Criogenia de instrumentos
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C16 — Polvo lunar y contaminación](../B85-C16-polvo-lunar-y-contaminacion/CLASE.md) · [Siguiente: B85-C18 — Modelado térmico por nodos →](../B85-C18-modelado-termico-por-nodos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,7 @@ Un instrumento a `80 K` recibe `0,59 W` y exige `16 W` eléctricos; la MLI lo ha
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C16 — Polvo lunar y contaminación](../B85-C16-polvo-lunar-y-contaminacion/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C18 — Modelado térmico por nodos →](../B85-C18-modelado-termico-por-nodos/CLASE.md)
 <!-- /nav -->

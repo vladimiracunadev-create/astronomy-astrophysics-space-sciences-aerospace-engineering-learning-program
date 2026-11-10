@@ -1,7 +1,7 @@
 # B85-C20 — Presupuesto térmico de carga útil
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C19 — Ensayos de vacío térmico](../B85-C19-ensayos-de-vacio-termico/CLASE.md) · [Siguiente: B85-C21 — Efectos de partículas energéticas en electrónica y materiales →](../B85-C21-efectos-de-particulas-energeticas-en-electronica-y-materiales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,7 @@ El presupuesto sintético cierra con `42,6 W` de margen en pico (`26 %`) y pide 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C19 — Ensayos de vacío térmico](../B85-C19-ensayos-de-vacio-termico/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C21 — Efectos de partículas energéticas en electrónica y materiales →](../B85-C21-efectos-de-particulas-energeticas-en-electronica-y-materiales/CLASE.md)
 <!-- /nav -->

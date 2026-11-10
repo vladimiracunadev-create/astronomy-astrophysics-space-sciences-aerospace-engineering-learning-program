@@ -1,7 +1,7 @@
 # B85-C15 — Electrificación superficial
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C14 — Degradación ultravioleta](../B85-C14-degradacion-ultravioleta/CLASE.md) · [Siguiente: B85-C16 — Polvo lunar y contaminación →](../B85-C16-polvo-lunar-y-contaminacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -285,5 +285,7 @@ Un balance de corrientes da `-0,19 V` en LEO y `-12,9 kV` en eclipse geoestacion
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C14 — Degradación ultravioleta](../B85-C14-degradacion-ultravioleta/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C16 — Polvo lunar y contaminación →](../B85-C16-polvo-lunar-y-contaminacion/CLASE.md)
 <!-- /nav -->

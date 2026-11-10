@@ -1,7 +1,7 @@
 # B85-C07 — Radiadores espaciales
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C06 — Aislamiento multicapa](../B85-C06-aislamiento-multicapa/CLASE.md) · [Siguiente: B85-C08 — Calentadores y termostatos →](../B85-C08-calentadores-y-termostatos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,7 @@ Un radiador de `500 W` a `290 K` pasa de `1,47 m²` en espacio profundo a `2,38 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C06 — Aislamiento multicapa](../B85-C06-aislamiento-multicapa/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C08 — Calentadores y termostatos →](../B85-C08-calentadores-y-termostatos/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B85-C09 — Tubos de calor
 
 <!-- nav:top -->
-x
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C08 — Calentadores y termostatos](../B85-C08-calentadores-y-termostatos/CLASE.md) · [Siguiente: B85-C10 — Control térmico activo →](../B85-C10-control-termico-activo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,7 @@ Un tubo de calor ilustrativo transporta `22,0 W` en horizontal y pierde un 14 % 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
-x
+---
+
+[← Anterior: B85-C08 — Calentadores y termostatos](../B85-C08-calentadores-y-termostatos/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B85-C10 — Control térmico activo →](../B85-C10-control-termico-activo/CLASE.md)
 <!-- /nav -->

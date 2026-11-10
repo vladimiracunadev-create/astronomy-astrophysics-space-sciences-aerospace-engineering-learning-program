@@ -1,7 +1,7 @@
 # B84-C38 — Producción de piezas y repuestos con materia prima in situ
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C37 — Compuestos y aglomerantes a base de regolito](../B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md) · [Siguiente: B85-C01 — Balance radiativo de satélite →](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md#b85-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C37 — Compuestos y aglomerantes a base de regolito](../B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md) · [Siguiente: B85-C01 — Balance radiativo de satélite →](../../B85/B85-C01-balance-radiativo-de-satelite/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ Un repuesto de `2 kg` requiere `73,5 kg` de regolito y `62,9 kWh` y se compensa 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C37 — Compuestos y aglomerantes a base de regolito](../B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B85-C01 — Balance radiativo de satélite →](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md#b85-c01)
+[← Anterior: B84-C37 — Compuestos y aglomerantes a base de regolito](../B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B85-C01 — Balance radiativo de satélite →](../../B85/B85-C01-balance-radiativo-de-satelite/CLASE.md)
 <!-- /nav -->
