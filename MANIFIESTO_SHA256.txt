@@ -3330,9 +3330,18 @@ fda6471b7578830cc3f6071bfcc35233bc9eab3f42634496ff70dd0e478a642c  programa/clase
 707a844a99c6181a4b328d0fea1fc5a08181c2a022fae8002b33bf23c0f9f682  programa/clases/B59/B59-C13-impresion-3d-extraterrestre/CLASE.md
 d5534b2419f1b563929936a4583e23dc2d99783478f966633169023769304c28  programa/clases/B59/B59-C13-impresion-3d-extraterrestre/FICHA_EDITORIAL.md
 27f1f827c0e1d261f9a6acbca79bf5dd04b9cb393e7f77add278f49688271c88  programa/clases/B59/B59-C13-impresion-3d-extraterrestre/capas.py
-10e503e71b42e27140fcc46d7c3738ccfdc62784b934b02d69174026af414de1  programa/clases/B59/B59-C14-agricultura-y-sustratos-artificiales/CLASE.md
+2cee0884a6457d0d6ff238e8bc161970db61f65febcfb0b7d3b74aa6439a4fd8  programa/clases/B59/B59-C14-agricultura-y-sustratos-artificiales/CLASE.md
 2bbf267025397c08a447264e1acb985e2d1641eb917373b186742a0a4e699c30  programa/clases/B59/B59-C14-agricultura-y-sustratos-artificiales/FICHA_EDITORIAL.md
 f6a489fa3464391c69684424b4c80c179210331d8a94b7e8cd4aeb558776103e  programa/clases/B59/B59-C14-agricultura-y-sustratos-artificiales/cultivo.py
+d6f24179f906c8acffc43563c301417f7a295b5d14ae88f8959770361666e607  programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/CLASE.md
+4b6a583f137580c85389968ace9b006c63d43e30366d196538fdec213fd03d5a  programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/FICHA_EDITORIAL.md
+6de4e7a8b45727c3a6aea064eb2e2457887bc8401c334477e2998b2e4cb92331  programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/lazo.py
+bec578f1ce9cd6c70027ddb36dbf683670c26441e92da90cbb64e0ac9e5b96c0  programa/clases/B59/B59-C16-desechos-y-reciclaje/CLASE.md
+4afc2311d8e5072f1094ee09b28db3badfb1888d06ed05eacbfccfd0effc3b35  programa/clases/B59/B59-C16-desechos-y-reciclaje/FICHA_EDITORIAL.md
+217072dba8a57d8f94d38246172e03672c68d3ffe516afc6b61789c6c983d938  programa/clases/B59/B59-C16-desechos-y-reciclaje/oxidacion.py
+58878a23cbf84b628af30cac778595acb70a1082133ef7f9262c60ad2b00f8b6  programa/clases/B59/B59-C17-impacto-ambiental-extraterrestre/CLASE.md
+e8eb520d25a7f6eba9ff833df0758479ce2551b077bf2435cff5a1af50e147ae  programa/clases/B59/B59-C17-impacto-ambiental-extraterrestre/FICHA_EDITORIAL.md
+0f9f002768ea4d2610b2e305fa862dbda1f71ceb31cf00b10255bb4832f1236e  programa/clases/B59/B59-C17-impacto-ambiental-extraterrestre/eyecta.py
 b574da9ae7447ae95ae4e692f6489d022e4bc2ef23b82c175ed7dafeb268b4ed  programa/clases/B59/B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/CLASE.md
 de87882acf467d1c6cbe0dee3ca05a8f9b0fff71ea2debc77cd0ffab7d88d4e1  programa/clases/B59/B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/FICHA_EDITORIAL.md
 cf602b72083c64018de6182b383959157fd7cb5282a8d69bb36569755f0107bf  programa/clases/B59/B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/criogenia.py
@@ -3531,7 +3540,7 @@ be13ca1fd3ec8100b76af112cafba1a95cec82f85fca1b4a7342e6ef6357f83e  programa/rutas
 f5f886779f28d46969eb4515a6ab3272647e4bfcd77dea698aef3ccf4e3bfa2b  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M06-blindaje-y-proteccion-ambiental.md
 070d7701c377e9540e21b1b2e6acfb20c741435c01738753700ba7c9a07ce3e9  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M07-ergonomia-y-bienestar-de-tripulacion.md
 70f54e55c13461d712a20af35bfa8cee86db3854bea42268d0c900bf098eb688  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M08-diseno-integral-de-habitat-lunar-o-marciano.md
-623bcfcf37d0d23704837b93a0a2897f7473db73333800d4fb4f6061554a3cd9  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/RECORRIDO.md
+f2c1dbb63caef4ee2e76c59d130d7bd292e184932b6e7f3650083364134b56d6  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/RECORRIDO.md
 2c4da9c9914bc8a3700892697dc34468cb326056b4701503da1ad92b982ff2f0  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/GUIA_DEL_ROL.md
 6786fd147f92eeb6bf602a91302453616c61883e2bfa58e5fa36f011b1879cb0  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/INDICE.md
 f3c905257458d3c844e7ddb8a64a83e8357a3dbb17f0dff1e5367daf5d0b5a49  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M02-hielos-y-volatiles-de-interes.md
@@ -3550,7 +3559,7 @@ a49fc4c69c5446b505e0ee63c98e1c6b71a6a032c53cce3e9de676592805ff7c  programa/rutas
 98a2a65d53c63a6630d03ba74c88618165d22fab6eb3f0fe06949b025bac8819  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M06-financiamiento-de-negocios-espaciales.md
 8c2bfd1fb23f17391760daecaa9c9d7264add18972cd92723d1006e53906a625  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M07-creacion-y-operacion-de-empresas-espaciales.md
 8b56c706ae0d98c6bed0fa25194135c010f1e8cfd691dcdbc74a0d6475305659  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/R23-M08-gobernanza-etica-y-sostenibilidad.md
-01609613d3d293564d4b9486bad547dfa723bd1b8844ba1788605f012bcde299  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/RECORRIDO.md
+02bcfaf2e620c908e7c1dc3419dfa0e39deb7215afb02db366774d61231314fc  programa/rutas-profesionales/R23-derecho-politicas-y-negocios-espaciales/RECORRIDO.md
 c13cc47caac7b87d599d93037101c97fef778648e566995efd094ead056c363b  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/GUIA_DEL_ROL.md
 a40d20b8733a1ec909cdcc89663b05676174531729fbbf1714f8f18dedf608a7  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/INDICE.md
 6d8f346eefd88d72f33f9672570af7d99d00768feb893a90eca990ae6384926e  programa/rutas-profesionales/R24-educacion-historia-y-divulgacion-astronomica/R24-M01-historia-de-la-ciencia-astronomica.md
