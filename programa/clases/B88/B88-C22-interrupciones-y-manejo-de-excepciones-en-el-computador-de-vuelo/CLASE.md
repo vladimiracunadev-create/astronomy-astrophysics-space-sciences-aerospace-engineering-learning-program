@@ -1,7 +1,7 @@
 # B88-C22 — Interrupciones y manejo de excepciones en el computador de vuelo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C21 — Interfaces y documentos de control de software de vuelo](../B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md) · [Siguiente: B88-C23 — Arquitectura de software de vuelo: capas y ejecutivo →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c23)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C21 — Interfaces y documentos de control de software de vuelo](../B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md) · [Siguiente: B88-C23 — Arquitectura de software de vuelo: capas y ejecutivo →](../B88-C23-arquitectura-de-software-de-vuelo-capas-y-ejecutivo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Anidar da latencia 0 a la interrupción más urgente a cambio de 32 B de pila y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C21 — Interfaces y documentos de control de software de vuelo](../B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C23 — Arquitectura de software de vuelo: capas y ejecutivo →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c23)
+[← Anterior: B88-C21 — Interfaces y documentos de control de software de vuelo](../B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C23 — Arquitectura de software de vuelo: capas y ejecutivo →](../B88-C23-arquitectura-de-software-de-vuelo-capas-y-ejecutivo/CLASE.md)
 <!-- /nav -->

@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 17 del bloque B88. Nivel N3. La ciberseguridad de aviónica protege los enlaces de mando y el software de acciones no autorizadas. Aquí practicas **defensa** sobre un banco propio: autenticas telecomandos con **HMAC**, recházas repeticiones con una **ventana de contadores** y escribes un modelo de amenazas **STRIDE**. La clave es de juguete y los mensajes son **sintéticos**. No hay técnicas contra sistemas reales. Todos los datos son **sintéticos** salvo los que se rotulan como consultados.
+Clase 17 del bloque B88. Nivel N3. La ciberseguridad de aviónica protege los enlaces de mando y el software de acciones no autorizadas. Aquí practicas **defensa** sobre un banco propio: autenticas telecomandos con **HMAC**, rechazas repeticiones con una **ventana de contadores** y escribes un modelo de amenazas **STRIDE**. La clave es de juguete y los mensajes son **sintéticos**. No hay técnicas contra sistemas reales. Todos los datos son **sintéticos** salvo los que se rotulan como consultados.
 
 ## 2. Por qué esta clase existe
 
