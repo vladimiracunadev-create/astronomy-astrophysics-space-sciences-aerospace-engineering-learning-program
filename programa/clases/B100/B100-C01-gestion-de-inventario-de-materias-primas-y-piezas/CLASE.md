@@ -1,7 +1,7 @@
 # B100-C01 — Gestión de inventario de materias primas y piezas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [← Anterior: B99-C07 — Robustez del mapeo ante entornos degradados](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md#b99-c07) · [Siguiente: B100-C02 — Dimensionamiento de carga y volumen de misión →](../B100-C02-dimensionamiento-de-carga-y-volumen-de-mision/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [← Anterior: B99-C07 — Robustez del mapeo ante entornos degradados](../../B99/B99-C07-robustez-del-mapeo-ante-entornos-degradados/CLASE.md) · [Siguiente: B100-C02 — Dimensionamiento de carga y volumen de misión →](../B100-C02-dimensionamiento-de-carga-y-volumen-de-mision/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ Con los mismos 2080 u recibidos, FEFO deja caducar `164 u` y FIFO `324 u`. Queda
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B99-C07 — Robustez del mapeo ante entornos degradados](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md#b99-c07) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [Siguiente: B100-C02 — Dimensionamiento de carga y volumen de misión →](../B100-C02-dimensionamiento-de-carga-y-volumen-de-mision/CLASE.md)
+[← Anterior: B99-C07 — Robustez del mapeo ante entornos degradados](../../B99/B99-C07-robustez-del-mapeo-ante-entornos-degradados/CLASE.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [Siguiente: B100-C02 — Dimensionamiento de carga y volumen de misión →](../B100-C02-dimensionamiento-de-carga-y-volumen-de-mision/CLASE.md)
 <!-- /nav -->

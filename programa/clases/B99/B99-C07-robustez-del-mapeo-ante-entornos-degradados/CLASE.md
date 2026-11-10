@@ -1,7 +1,7 @@
 # B99-C07 — Robustez del mapeo ante entornos degradados
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [← Anterior: B99-C06 — Evaluación de deriva y error de trayectoria](../B99-C06-evaluacion-de-deriva-y-error-de-trayectoria/CLASE.md) · [Siguiente: B100-C01 — Gestión de inventario de materias primas y piezas →](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md#b100-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [← Anterior: B99-C06 — Evaluación de deriva y error de trayectoria](../B99-C06-evaluacion-de-deriva-y-error-de-trayectoria/CLASE.md) · [Siguiente: B100-C01 — Gestión de inventario de materias primas y piezas →](../../B100/B100-C01-gestion-de-inventario-de-materias-primas-y-piezas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -328,5 +328,5 @@ Con 30 % de atípicos LS tiene un error de 0,606 m frente a 0,0067 m de RANSAC; 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B99-C06 — Evaluación de deriva y error de trayectoria](../B99-C06-evaluacion-de-deriva-y-error-de-trayectoria/CLASE.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [Siguiente: B100-C01 — Gestión de inventario de materias primas y piezas →](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md#b100-c01)
+[← Anterior: B99-C06 — Evaluación de deriva y error de trayectoria](../B99-C06-evaluacion-de-deriva-y-error-de-trayectoria/CLASE.md) · [📚 Bloque B99](../../../tronco-comun/B99-localizacion-y-mapeo-robotico.md) · [Siguiente: B100-C01 — Gestión de inventario de materias primas y piezas →](../../B100/B100-C01-gestion-de-inventario-de-materias-primas-y-piezas/CLASE.md)
 <!-- /nav -->
