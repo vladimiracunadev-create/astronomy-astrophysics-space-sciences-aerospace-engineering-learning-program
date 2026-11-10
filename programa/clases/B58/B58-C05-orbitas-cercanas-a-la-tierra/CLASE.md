@@ -1,7 +1,7 @@
 # B58-C05 — Órbitas cercanas a la Tierra
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C04 — Núcleos y colas cometarias](../B58-C04-nucleos-y-colas-cometarias/CLASE.md) · [Siguiente: B58-C06 — Astrometría de objetos menores →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C04 — Núcleos y colas cometarias](../B58-C04-nucleos-y-colas-cometarias/CLASE.md) · [Siguiente: B58-C06 — Astrometría de objetos menores →](../B58-C06-astrometria-de-objetos-menores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ El barrido reproduce tres casos analíticos con `10⁻⁶ au` y entrega MOID de 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B58-C04 — Núcleos y colas cometarias](../B58-C04-nucleos-y-colas-cometarias/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C06 — Astrometría de objetos menores →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c06)
+[← Anterior: B58-C04 — Núcleos y colas cometarias](../B58-C04-nucleos-y-colas-cometarias/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C06 — Astrometría de objetos menores →](../B58-C06-astrometria-de-objetos-menores/CLASE.md)
 <!-- /nav -->
