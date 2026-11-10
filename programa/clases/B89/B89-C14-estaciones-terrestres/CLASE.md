@@ -1,7 +1,7 @@
 # B89-C14 — Estaciones terrestres
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C13 — Protocolos para espacio profundo](../B89-C13-protocolos-para-espacio-profundo/CLASE.md) · [Siguiente: B89-C15 — Rastreo y Doppler →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C13 — Protocolos para espacio profundo](../B89-C13-protocolos-para-espacio-profundo/CLASE.md) · [Siguiente: B89-C15 — Rastreo y Doppler →](../B89-C15-rastreo-y-doppler/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Una estación ve al satélite `4` veces al día durante `28 min` y recibe `3,4 G
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B89-C13 — Protocolos para espacio profundo](../B89-C13-protocolos-para-espacio-profundo/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C15 — Rastreo y Doppler →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c15)
+[← Anterior: B89-C13 — Protocolos para espacio profundo](../B89-C13-protocolos-para-espacio-profundo/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C15 — Rastreo y Doppler →](../B89-C15-rastreo-y-doppler/CLASE.md)
 <!-- /nav -->
