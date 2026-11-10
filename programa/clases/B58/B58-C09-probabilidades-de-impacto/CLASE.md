@@ -1,7 +1,7 @@
 # B58-C09 — Probabilidades de impacto
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C08 — Propagación de incertidumbre orbital](../B58-C08-propagacion-de-incertidumbre-orbital/CLASE.md) · [Siguiente: B58-C10 — Escalas de peligrosidad →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c10)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C08 — Propagación de incertidumbre orbital](../B58-C08-propagacion-de-incertidumbre-orbital/CLASE.md) · [Siguiente: B58-C10 — Escalas de peligrosidad →](../B58-C10-escalas-de-peligrosidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La integral da `P = 2.16e-01` por cuadratura y `2.17e-01` por Monte Carlo en un 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B58-C08 — Propagación de incertidumbre orbital](../B58-C08-propagacion-de-incertidumbre-orbital/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C10 — Escalas de peligrosidad →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c10)
+[← Anterior: B58-C08 — Propagación de incertidumbre orbital](../B58-C08-propagacion-de-incertidumbre-orbital/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C10 — Escalas de peligrosidad →](../B58-C10-escalas-de-peligrosidad/CLASE.md)
 <!-- /nav -->
