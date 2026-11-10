@@ -1,7 +1,7 @@
 # B77-C05 — Ecuación de cohete ideal
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C04 — Coeficientes de arrastre y sustentación](../B77-C04-coeficientes-de-arrastre-y-sustentacion/CLASE.md) · [Siguiente: B77-C06 — Relación masa-impulso →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C04 — Coeficientes de arrastre y sustentación](../B77-C04-coeficientes-de-arrastre-y-sustentacion/CLASE.md) · [Siguiente: B77-C06 — Relación masa-impulso →](../B77-C06-relacion-masa-impulso/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Con `Isp = 350 s` y `MR = 10` el `Δv` ideal es `7903 m/s`, y en vertical la gra
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B77-C04 — Coeficientes de arrastre y sustentación](../B77-C04-coeficientes-de-arrastre-y-sustentacion/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C06 — Relación masa-impulso →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c06)
+[← Anterior: B77-C04 — Coeficientes de arrastre y sustentación](../B77-C04-coeficientes-de-arrastre-y-sustentacion/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C06 — Relación masa-impulso →](../B77-C06-relacion-masa-impulso/CLASE.md)
 <!-- /nav -->
