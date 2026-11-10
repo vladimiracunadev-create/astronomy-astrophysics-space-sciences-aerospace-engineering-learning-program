@@ -1,7 +1,7 @@
 # B103-C03 — Mapas de profundidad y correspondencia estéreo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B103-C02 — Calibración extrínseca y registro multisensor](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md) · [Siguiente: B103-C04 — Detección de obstáculos y mapas de traversabilidad →](../../../tronco-comun/B103-percepcion-visual-robotica.md#b103-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B103-C02 — Calibración extrínseca y registro multisensor](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md) · [Siguiente: B103-C04 — Detección de obstáculos y mapas de traversabilidad →](../B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ La fórmula `σ_Z = Z²σ_d/(f B)` acierta dentro del 3 % en el par sintético: 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B103-C02 — Calibración extrínseca y registro multisensor](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B103-C04 — Detección de obstáculos y mapas de traversabilidad →](../../../tronco-comun/B103-percepcion-visual-robotica.md#b103-c04)
+[← Anterior: B103-C02 — Calibración extrínseca y registro multisensor](../B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B103-C04 — Detección de obstáculos y mapas de traversabilidad →](../B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md)
 <!-- /nav -->
