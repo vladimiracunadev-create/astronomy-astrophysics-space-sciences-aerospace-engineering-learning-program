@@ -1,7 +1,7 @@
 # B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B98-C01 — Planificación por objetivos a bordo](../B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md) · [Siguiente: B98-C03 — Control supervisado y autonomía compartida →](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c03)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [← Anterior: B98-C01 — Planificación por objetivos a bordo](../B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md) · [Siguiente: B98-C03 — Control supervisado y autonomía compartida →](../B98-C03-control-supervisado-y-autonomia-compartida/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Cinco estados, 13 transiciones y dos invariantes que se verifican: eso es un com
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B98-C01 — Planificación por objetivos a bordo](../B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B98-C03 — Control supervisado y autonomía compartida →](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md#b98-c03)
+[← Anterior: B98-C01 — Planificación por objetivos a bordo](../B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md) · [📚 Bloque B98](../../../tronco-comun/B98-autonomia-y-teleoperacion-espacial.md) · [Siguiente: B98-C03 — Control supervisado y autonomía compartida →](../B98-C03-control-supervisado-y-autonomia-compartida/CLASE.md)
 <!-- /nav -->
