@@ -1,7 +1,7 @@
 # B65-C03 — Magnetismo cortical remanente y anomalías magnéticas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [← Anterior: B65-C02 — Dinamos planetarias y campos magnéticos de origen interno](../B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md) · [Siguiente: B65-C04 — Flujo térmico planetario y balance térmico del interior →](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md#b65-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [← Anterior: B65-C02 — Dinamos planetarias y campos magnéticos de origen interno](../B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md) · [Siguiente: B65-C04 — Flujo térmico planetario y balance térmico del interior →](../B65-C04-flujo-termico-planetario-y-balance-termico-del-interior/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Una esfera sintética de `m = 2,6×10¹⁵ A·m²` da 65 nT a 200 km y su moment
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B65-C02 — Dinamos planetarias y campos magnéticos de origen interno](../B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [Siguiente: B65-C04 — Flujo térmico planetario y balance térmico del interior →](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md#b65-c04)
+[← Anterior: B65-C02 — Dinamos planetarias y campos magnéticos de origen interno](../B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md) · [📚 Bloque B65](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md) · [Siguiente: B65-C04 — Flujo térmico planetario y balance térmico del interior →](../B65-C04-flujo-termico-planetario-y-balance-termico-del-interior/CLASE.md)
 <!-- /nav -->

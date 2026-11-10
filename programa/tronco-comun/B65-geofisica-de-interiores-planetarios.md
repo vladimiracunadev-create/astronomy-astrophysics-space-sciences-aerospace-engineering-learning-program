@@ -50,14 +50,14 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b65-c04"></a>B65-C04 | Flujo térmico planetario y balance térmico del interior | Flujo medio, geotermo con producción radiactiva y enfriamiento de la litosfera. | Ficha del balance térmico |
+| <a id="b65-c04"></a>[B65-C04](../clases/B65/B65-C04-flujo-termico-planetario-y-balance-termico-del-interior/CLASE.md) | Flujo térmico planetario y balance térmico del interior | Flujo medio, geotermo con producción radiactiva y enfriamiento de la litosfera. | Ficha del balance térmico |
 
 ### Tramo 3 · Inversión y mareas
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b65-c05"></a>B65-C05 | Inversión geofísica conjunta: validación de modelos interiores | Dos capas con masa y momento de inercia, familia de soluciones y restricción adicional. | Ficha de la inversión conjunta |
-| <a id="b65-c06"></a>B65-C06 | Calentamiento por marea y equilibrio térmico en satélites | Fórmula de Peale frente a integración numérica de la órbita y equilibrio térmico. | Ficha del calentamiento por marea |
+| <a id="b65-c05"></a>[B65-C05](../clases/B65/B65-C05-inversion-geofisica-conjunta-validacion-de-modelos-interiores/CLASE.md) | Inversión geofísica conjunta: validación de modelos interiores | Dos capas con masa y momento de inercia, familia de soluciones y restricción adicional. | Ficha de la inversión conjunta |
+| <a id="b65-c06"></a>[B65-C06](../clases/B65/B65-C06-calentamiento-por-marea-y-equilibrio-termico-en-satelites/CLASE.md) | Calentamiento por marea y equilibrio térmico en satélites | Fórmula de Peale frente a integración numérica de la órbita y equilibrio térmico. | Ficha del calentamiento por marea |
 
 ## 🧵 Hilos que atraviesan el bloque
 
