@@ -1,7 +1,7 @@
 # B77-C15 — Calentamiento aerodinámico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C14 — Dinámica de reentrada](../B77-C14-dinamica-de-reentrada/CLASE.md) · [Siguiente: B77-C16 — Protección térmica →](../B77-C16-proteccion-termica/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C14 — Dinámica de reentrada](../B77-C14-dinamica-de-reentrada/CLASE.md) · [Siguiente: B77-C16 — Protección térmica →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c16)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ La correlación reproduce el ejemplo publicado (`13,6 W/cm²`, `1317 K`) y da `1
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B77-C14 — Dinámica de reentrada](../B77-C14-dinamica-de-reentrada/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C16 — Protección térmica →](../B77-C16-proteccion-termica/CLASE.md)
+[← Anterior: B77-C14 — Dinámica de reentrada](../B77-C14-dinamica-de-reentrada/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C16 — Protección térmica →](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c16)
 <!-- /nav -->
