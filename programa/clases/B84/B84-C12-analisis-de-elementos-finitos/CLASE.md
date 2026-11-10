@@ -1,7 +1,7 @@
 # B84-C12 — Análisis de elementos finitos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C11 — Vibraciones y resonancias](../B84-C11-vibraciones-y-resonancias/CLASE.md) · [Siguiente: B84-C13 — Mecanismos desplegables →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C11 — Vibraciones y resonancias](../B84-C11-vibraciones-y-resonancias/CLASE.md) · [Siguiente: B84-C13 — Mecanismos desplegables →](../B84-C13-mecanismos-desplegables/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ La barra afilada converge con orden `1,999` hacia `0,502281 mm` y la prueba del 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C11 — Vibraciones y resonancias](../B84-C11-vibraciones-y-resonancias/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C13 — Mecanismos desplegables →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c13)
+[← Anterior: B84-C11 — Vibraciones y resonancias](../B84-C11-vibraciones-y-resonancias/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C13 — Mecanismos desplegables →](../B84-C13-mecanismos-desplegables/CLASE.md)
 <!-- /nav -->
