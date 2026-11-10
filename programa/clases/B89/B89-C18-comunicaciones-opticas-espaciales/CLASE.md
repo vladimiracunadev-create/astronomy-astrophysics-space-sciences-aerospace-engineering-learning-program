@@ -1,7 +1,7 @@
 # B89-C18 — Comunicaciones ópticas espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C17 — Constelaciones y cobertura](../B89-C17-constelaciones-y-cobertura/CLASE.md) · [Siguiente: B89-C19 — Coordinación del espectro ante ITU →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C17 — Constelaciones y cobertura](../B89-C17-constelaciones-y-cobertura/CLASE.md) · [Siguiente: B89-C19 — Coordinación del espectro ante ITU →](../B89-C19-coordinacion-del-espectro-ante-itu/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ Un enlace óptico sintético a la Luna recibe `1,08e+10 fotones/s`, `8,68e+01` p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B89-C17 — Constelaciones y cobertura](../B89-C17-constelaciones-y-cobertura/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C19 — Coordinación del espectro ante ITU →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c19)
+[← Anterior: B89-C17 — Constelaciones y cobertura](../B89-C17-constelaciones-y-cobertura/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C19 — Coordinación del espectro ante ITU →](../B89-C19-coordinacion-del-espectro-ante-itu/CLASE.md)
 <!-- /nav -->
