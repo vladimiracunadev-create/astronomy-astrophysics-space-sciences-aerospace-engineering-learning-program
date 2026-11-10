@@ -1,7 +1,7 @@
 # B58-C16 — Consecuencias geofísicas de impactos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C15 — Modelos de impacto planetario](../B58-C15-modelos-de-impacto-planetario/CLASE.md) · [Siguiente: B58-C17 — Principios de mitigación y desviación →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C15 — Modelos de impacto planetario](../B58-C15-modelos-de-impacto-planetario/CLASE.md) · [Siguiente: B58-C17 — Principios de mitigación y desviación →](../B58-C17-principios-de-mitigacion-y-desviacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ La energía de `179 Mt` da `M ≈ 3.4` y un frente de Mach 2 a `5.0 km`; el radi
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B58-C15 — Modelos de impacto planetario](../B58-C15-modelos-de-impacto-planetario/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C17 — Principios de mitigación y desviación →](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c17)
+[← Anterior: B58-C15 — Modelos de impacto planetario](../B58-C15-modelos-de-impacto-planetario/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B58-C17 — Principios de mitigación y desviación →](../B58-C17-principios-de-mitigacion-y-desviacion/CLASE.md)
 <!-- /nav -->
