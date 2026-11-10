@@ -1,7 +1,7 @@
 # B59-C22 — Beneficio y separación granulométrica de regolito
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos](../B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/CLASE.md) · [Siguiente: B59-C23 — Subproductos y flujos residuales de procesos ISRU →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c23)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos](../B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/CLASE.md) · [Siguiente: B59-C23 — Subproductos y flujos residuales de procesos ISRU →](../B59-C23-subproductos-y-flujos-residuales-de-procesos-isru/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Un corte de `75 µm` da `52,61 %` de fino con ley `11,49 %` y recuperación `75,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos](../B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C23 — Subproductos y flujos residuales de procesos ISRU →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c23)
+[← Anterior: B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos](../B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C23 — Subproductos y flujos residuales de procesos ISRU →](../B59-C23-subproductos-y-flujos-residuales-de-procesos-isru/CLASE.md)
 <!-- /nav -->
