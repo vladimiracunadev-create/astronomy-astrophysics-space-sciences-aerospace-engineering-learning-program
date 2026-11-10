@@ -1,7 +1,7 @@
 # B95-C01 — Unidad CubeSat, dimensiones y formatos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [← Anterior: B94-C06 — Validación y conformidad de protocolos de enlace](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md#b94-c06) · [Siguiente: B95-C02 — Componentes comerciales en vuelo: selección y riesgo →](../B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [← Anterior: B94-C06 — Validación y conformidad de protocolos de enlace](../../B94/B94-C06-validacion-y-conformidad-de-protocolos-de-enlace/CLASE.md) · [Siguiente: B95-C02 — Componentes comerciales en vuelo: selección y riesgo →](../B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Un 3U sintético de `5,000 kg` cumple masa y CG con margen de `1,000 kg` y `4,97
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B94-C06 — Validación y conformidad de protocolos de enlace](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md#b94-c06) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [Siguiente: B95-C02 — Componentes comerciales en vuelo: selección y riesgo →](../B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md)
+[← Anterior: B94-C06 — Validación y conformidad de protocolos de enlace](../../B94/B94-C06-validacion-y-conformidad-de-protocolos-de-enlace/CLASE.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [Siguiente: B95-C02 — Componentes comerciales en vuelo: selección y riesgo →](../B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md)
 <!-- /nav -->

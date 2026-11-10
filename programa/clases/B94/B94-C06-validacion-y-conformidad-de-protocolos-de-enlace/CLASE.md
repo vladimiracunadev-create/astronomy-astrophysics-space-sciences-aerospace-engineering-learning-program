@@ -1,7 +1,7 @@
 # B94-C06 — Validación y conformidad de protocolos de enlace
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [← Anterior: B94-C05 — Calidad de servicio y prioridades en redes espaciales](../B94-C05-calidad-de-servicio-y-prioridades-en-redes-espaciales/CLASE.md) · [Siguiente: B95-C01 — Unidad CubeSat, dimensiones y formatos →](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md#b95-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [← Anterior: B94-C05 — Calidad de servicio y prioridades en redes espaciales](../B94-C05-calidad-de-servicio-y-prioridades-en-redes-espaciales/CLASE.md) · [Siguiente: B95-C01 — Unidad CubeSat, dimensiones y formatos →](../../B95/B95-C01-unidad-cubesat-dimensiones-y-formatos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -382,5 +382,5 @@ Una suite de 12 pruebas encontró dos defectos reales en una implementación que
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B94-C05 — Calidad de servicio y prioridades en redes espaciales](../B94-C05-calidad-de-servicio-y-prioridades-en-redes-espaciales/CLASE.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [Siguiente: B95-C01 — Unidad CubeSat, dimensiones y formatos →](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md#b95-c01)
+[← Anterior: B94-C05 — Calidad de servicio y prioridades en redes espaciales](../B94-C05-calidad-de-servicio-y-prioridades-en-redes-espaciales/CLASE.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [Siguiente: B95-C01 — Unidad CubeSat, dimensiones y formatos →](../../B95/B95-C01-unidad-cubesat-dimensiones-y-formatos/CLASE.md)
 <!-- /nav -->
