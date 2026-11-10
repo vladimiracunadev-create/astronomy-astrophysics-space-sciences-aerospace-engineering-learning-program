@@ -1,7 +1,7 @@
 # B95-C04 — Antenas desplegables para satélites pequeños
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [← Anterior: B95-C03 — Selección y comparación de plataformas](../B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md) · [Siguiente: B96-C01 — Segmento espacial y segmento terrestre →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [← Anterior: B95-C03 — Selección y comparación de plataformas](../B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md) · [Siguiente: B96-C01 — Segmento espacial y segmento terrestre →](../../B96/B96-C01-segmento-espacial-y-segmento-terrestre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Una antena de `16,27 cm` cabe en un rollo de `≈ 21 mm` si el radio interior su
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B95-C03 — Selección y comparación de plataformas](../B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [Siguiente: B96-C01 — Segmento espacial y segmento terrestre →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c01)
+[← Anterior: B95-C03 — Selección y comparación de plataformas](../B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md) · [📚 Bloque B95](../../../tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md) · [Siguiente: B96-C01 — Segmento espacial y segmento terrestre →](../../B96/B96-C01-segmento-espacial-y-segmento-terrestre/CLASE.md)
 <!-- /nav -->
