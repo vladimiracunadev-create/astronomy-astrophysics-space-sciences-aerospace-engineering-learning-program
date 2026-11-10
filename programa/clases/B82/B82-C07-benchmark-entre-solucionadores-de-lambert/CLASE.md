@@ -1,7 +1,7 @@
 # B82-C07 — Benchmark entre solucionadores de Lambert
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B82](../../../tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md) · [← Anterior: B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo)](../B82-C06-algoritmos-iterativos-para-lambert-gooding-izzo/CLASE.md) · [Siguiente: B83-C01 — Necesidad de misión y caso científico →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B82](../../../tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md) · [← Anterior: B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo)](../B82-C06-algoritmos-iterativos-para-lambert-gooding-izzo/CLASE.md) · [Siguiente: B83-C01 — Necesidad de misión y caso científico →](../../B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Sobre 1000 transferencias sintéticas, los métodos en `x` resuelven 999–1000 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo)](../B82-C06-algoritmos-iterativos-para-lambert-gooding-izzo/CLASE.md) · [📚 Bloque B82](../../../tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md) · [Siguiente: B83-C01 — Necesidad de misión y caso científico →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c01)
+[← Anterior: B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo)](../B82-C06-algoritmos-iterativos-para-lambert-gooding-izzo/CLASE.md) · [📚 Bloque B82](../../../tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md) · [Siguiente: B83-C01 — Necesidad de misión y caso científico →](../../B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md)
 <!-- /nav -->
