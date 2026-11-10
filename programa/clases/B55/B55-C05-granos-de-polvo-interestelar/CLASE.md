@@ -1,7 +1,7 @@
 # B55-C05 — Granos de polvo interestelar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C04 — Química de nubes moleculares](../B55-C04-quimica-de-nubes-moleculares/CLASE.md) · [Siguiente: B55-C06 — Hielos astrofísicos →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C04 — Química de nubes moleculares](../B55-C04-quimica-de-nubes-moleculares/CLASE.md) · [Siguiente: B55-C06 — Hielos astrofísicos →](../B55-C06-hielos-astrofisicos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Con estos parámetros hay `1,18 × 10⁻²¹ cm²` de sección eficaz de grano p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B55-C04 — Química de nubes moleculares](../B55-C04-quimica-de-nubes-moleculares/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B55-C06 — Hielos astrofísicos →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c06)
+[← Anterior: B55-C04 — Química de nubes moleculares](../B55-C04-quimica-de-nubes-moleculares/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B55-C06 — Hielos astrofísicos →](../B55-C06-hielos-astrofisicos/CLASE.md)
 <!-- /nav -->
