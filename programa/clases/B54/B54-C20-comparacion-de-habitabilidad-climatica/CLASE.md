@@ -1,7 +1,7 @@
 # B54-C20 — Comparación de habitabilidad climática
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C19 — Modelos climáticos planetarios](../B54-C19-modelos-climaticos-planetarios/CLASE.md) · [Siguiente: B55-C01 — Abundancia química cósmica →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C19 — Modelos climáticos planetarios](../B54-C19-modelos-climaticos-planetarios/CLASE.md) · [Siguiente: B55-C01 — Abundancia química cósmica →](../../B55/B55-C01-abundancia-quimica-cosmica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Solo la Tierra cumple las tres condiciones necesarias de la tabla, y eso no bast
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B54-C19 — Modelos climáticos planetarios](../B54-C19-modelos-climaticos-planetarios/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B55-C01 — Abundancia química cósmica →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c01)
+[← Anterior: B54-C19 — Modelos climáticos planetarios](../B54-C19-modelos-climaticos-planetarios/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B55-C01 — Abundancia química cósmica →](../../B55/B55-C01-abundancia-quimica-cosmica/CLASE.md)
 <!-- /nav -->

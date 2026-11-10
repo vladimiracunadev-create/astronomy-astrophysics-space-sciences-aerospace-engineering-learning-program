@@ -2,94 +2,122 @@
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia astroquímica y geoquímica extraterrestre; cubre desde «Abundancia química cósmica» hasta «Modelo simplificado de red astroquímica». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se lee la química del cosmos**: de qué elementos está hecho el universo y cómo se forjaron, qué reacciones ocurren entre estrellas (en gas, sobre granos de polvo y en hielos, bajo luz ultravioleta), cómo se identifican las moléculas por sus líneas de radio y cómo esa misma química se reencuentra en cometas, meteoritos, regolitos y océanos bajo el hielo. Cierra con la pregunta delicada: qué puede y qué no puede concluirse de una firma química, y cómo evitar que la contaminación de una muestra la falsee. Cada clase termina con un cálculo verificable contra un caso analítico o una referencia independiente.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B55-C01 — Abundancia química cósmica
+1. Convertir abundancias logarítmicas en fracciones en número y en masa, y calcular energías de enlace y balances de reacción nuclear.
+2. Plantear velocidades de reacción en el medio interestelar y resolver redes pequeñas hasta su estado estacionario.
+3. Explicar el papel de los granos, los hielos y la catálisis en superficie, y la fotodisociación con apantallamiento.
+4. Predecir frecuencias de rotación de moléculas lineales y emparejar líneas observadas con un catálogo, estimando coincidencias por azar.
+5. Aplicar modelos sencillos de coma cometaria, de normalización y mezcla de meteoritos, de trazadores isotópicos y de jardinería del regolito.
+6. Plantear el equilibrio ácido–base de un océano interno, el balance de la serpentinización y la supervivencia de compuestos prebióticos a la radiación.
+7. Cuantificar la contaminación de una muestra y razonar con probabilidades sobre una firma química.
+8. Construir y verificar una red astroquímica mínima que conserva los elementos.
 
-Explica el fenómeno o técnica de «abundancia química cósmica» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B55-C02 — Nucleosíntesis y elementos
+```mermaid
+flowchart LR
+    A["C01-C02<br/>Elementos y<br/>nucleosíntesis"]
+    B["C03-C08<br/>Reacciones, nubes,<br/>granos, hielos y luz"]
+    C["C09-C10<br/>Espectros de radio e<br/>identificación"]
+    D["C11-C14<br/>Cometas, meteoritos,<br/>isótopos y regolitos"]
+    E["C15-C17<br/>Océanos, hidrotermalismo<br/>y prebióticos"]
+    F["C18-C19<br/>Contaminación e<br/>interpretación"]
+    G["C20<br/>Red<br/>astroquímica"]
+    A --> B --> C --> D --> E --> F --> G
+```
 
-Delimita «nucleosíntesis y elementos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Siete tramos encadenados: el inventario de elementos y su origen (C01–C02); la química del medio interestelar, desde las reacciones hasta la luz ultravioleta (C03–C08); la lectura de esa química con radiotelescopios (C09–C10); los materiales del Sistema Solar que la conservan (C11–C14); los mundos con agua líquida interna y los compuestos prebióticos (C15–C17); la prudencia metodológica sobre contaminación e interpretación (C18–C19); y un modelo integrador (C20).
 
-### B55-C03 — Reacciones en medio interestelar
+## 🗂️ Las 20 clases en resumen
 
-Introduce el contexto y los principios de «reacciones en medio interestelar» para comprender su uso científico.
+**Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
-### B55-C04 — Química de nubes moleculares
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados), o valores publicados con fuente y fecha (catálogo JPL de líneas espectrales, constantes y composiciones isotópicas del NIST).
 
-Describe los componentes principales de «química de nubes moleculares» y por qué son relevantes para esta disciplina.
+### Tramo 1 · Elementos y su origen
 
-### B55-C05 — Granos de polvo interestelar
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c01"></a>[B55-C01](../clases/B55/B55-C01-abundancia-quimica-cosmica/CLASE.md) | Abundancia química cósmica | Escala logarítmica `log ε`, fracciones en número y en masa (`X`, `Y`, `Z`). | Ficha de composición de una mezcla |
+| <a id="b55-c02"></a>[B55-C02](../clases/B55/B55-C02-nucleosintesis-y-elementos/CLASE.md) | Nucleosíntesis y elementos | Energía de enlace por nucleón, pico del hierro y energía de reacciones de quemado. | Tabla de energía de enlace y reacciones |
 
-Presenta qué significa «granos de polvo interestelar», sus elementos esenciales y su función dentro de astroquímica y geoquímica extraterrestre.
+### Tramo 2 · Química del medio interestelar
 
-### B55-C06 — Hielos astrofísicos
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c03"></a>[B55-C03](../clases/B55/B55-C03-reacciones-en-medio-interestelar/CLASE.md) | Reacciones en medio interestelar | Coeficientes de tipo Arrhenius, reacciones ion–molécula y escalas de tiempo. | Ficha de una reacción con su escala de tiempo |
+| <a id="b55-c04"></a>[B55-C04](../clases/B55/B55-C04-quimica-de-nubes-moleculares/CLASE.md) | Química de nubes moleculares | Ionización por rayos cósmicos y estado estacionario de `H3+`. | Estacionario de una mini-nube |
+| <a id="b55-c05"></a>[B55-C05](../clases/B55/B55-C05-granos-de-polvo-interestelar/CLASE.md) | Granos de polvo interestelar | Distribución de tamaños en ley de potencias, superficie y sección eficaz por hidrógeno. | Ficha de la población de granos |
+| <a id="b55-c06"></a>[B55-C06](../clases/B55/B55-C06-hielos-astrofisicos/CLASE.md) | Hielos astrofísicos | Densidad de columna a partir de una banda infrarroja de absorción. | Densidad de columna de una banda sintética |
+| <a id="b55-c07"></a>[B55-C07](../clases/B55/B55-C07-catalisis-en-superficies/CLASE.md) | Catálisis en superficies | Salto térmico, difusión sobre el grano y ventana de temperatura para `H2`. | Ventana de formación de `H2` |
+| <a id="b55-c08"></a>[B55-C08](../clases/B55/B55-C08-fotoquimica-cosmica/CLASE.md) | Fotoquímica cósmica | Fotodisociación, extinción y apantallamiento por polvo. | Perfil de tasa frente a `A_V` |
 
-Explica el fenómeno o técnica de «hielos astrofísicos» y su aplicación observable o tecnológica.
+### Tramo 3 · Leer la química con radio
 
-### B55-C07 — Catálisis en superficies
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c09"></a>[B55-C09](../clases/B55/B55-C09-espectros-moleculares-de-radio/CLASE.md) | Espectros moleculares de radio | Rotor rígido, frecuencias de CO y HCN y velocidad Doppler. | Comparación rotor rígido–catálogo |
+| <a id="b55-c10"></a>[B55-C10](../clases/B55/B55-C10-identificacion-de-moleculas-organicas/CLASE.md) | Identificación de moléculas orgánicas | Emparejado de líneas con catálogo y coincidencias por azar. | Informe de asignación con tasa de falsos positivos |
 
-Delimita «catálisis en superficies», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Cometas, meteoritos, isótopos y regolitos
 
-### B55-C08 — Fotoquímica cósmica
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c11"></a>B55-C11 | Química en cometas | Modelo de Haser para padres e hijos en la coma. | Perfil de densidad de columna de una coma sintética |
+| <a id="b55-c12"></a>B55-C12 | Geoquímica de meteoritos | Normalización, cocientes y norma mineral por mínimos cuadrados. | Norma mineral de un meteorito sintético |
+| <a id="b55-c13"></a>B55-C13 | Isótopos como trazadores | Notación `δ`, mezcla de reservorios y fraccionamiento dependiente de la masa. | Ficha isotópica de una mezcla |
+| <a id="b55-c14"></a>B55-C14 | Química de regolitos | Jardinería por impactos y mezcla de componentes. | Perfil de volteo de un regolito sintético |
 
-Introduce el contexto y los principios de «fotoquímica cósmica» para comprender su uso científico.
+### Tramo 5 · Océanos internos y compuestos prebióticos
 
-### B55-C09 — Espectros moleculares de radio
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c15"></a>B55-C15 | Química de océanos internos | Equilibrio carbonato–pH con balance de carga. | pH de un océano sintético |
+| <a id="b55-c16"></a>B55-C16 | Procesos hidrotermales extraterrestres | Estequiometría de la serpentinización y energía disponible. | Balance de `H2` de una roca sintética |
+| <a id="b55-c17"></a>B55-C17 | Compuestos prebióticos | Supervivencia a la radiólisis y exceso enantiomérico con incertidumbre. | Ficha de supervivencia de un aminoácido |
 
-Describe «espectros moleculares de radio», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
+### Tramo 6 · Contaminación e interpretación
 
-### B55-C10 — Identificación de moléculas orgánicas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c18"></a>B55-C18 | Contaminación de muestras | Sustracción de blanco, límite de detección y propagación de incertidumbre. | Informe de blanco y límite de detección |
+| <a id="b55-c19"></a>B55-C19 | Interpretación de firmas químicas | Razonamiento bayesiano, verosimilitud y sensibilidad al prior. | Ficha de interpretación con prior explícito |
 
-Presenta qué significa «identificación de moléculas orgánicas», sus elementos esenciales y su función dentro de astroquímica y geoquímica extraterrestre.
+### Tramo 7 · Modelo integrador
 
-### B55-C11 — Química en cometas
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b55-c20"></a>B55-C20 | Modelo simplificado de red astroquímica | Red mínima con conservación de elementos y comprobación del estacionario. | Red astroquímica verificada |
 
-Explica el fenómeno o técnica de «química en cometas» y su aplicación observable o tecnológica.
+## 🧵 Hilos que atraviesan el bloque
 
-### B55-C12 — Geoquímica de meteoritos
+- **Escalas de tiempo:** C03, C04, C07, C08 y C17 comparan tiempos de reacción, difusión, destrucción por luz y radiólisis con la vida de una nube o de un cuerpo.
+- **De la reacción al espectro:** C03–C08 producen moléculas; C09–C10 explican cómo se detectan.
+- **Del medio interestelar al Sistema Solar:** C11–C14 retoman los materiales que conservan esa química, con los isótopos (C13) como trazador común.
+- **Prudencia metodológica:** C10, C18 y C19 insisten en probabilidades de falso positivo, blancos y priores explícitos.
+- **Verificación independiente:** cada laboratorio contrasta con un caso analítico o una referencia, y detiene la ejecución si falla.
 
-Delimita «geoquímica de meteoritos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B55-C13 — Isótopos como trazadores
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: la red astroquímica verificada (C20) con su comprobación de conservación y de estado estacionario.
+- Las condiciones críticas (rotular lo sintético, ilustrativo y simulado; no presentar un resultado de modelo como observado; citar solo lo consultado; no afirmar vida a partir de una firma química) no se compensan con promedio.
 
-Introduce el contexto y los principios de «isótopos como trazadores» para comprender su uso científico.
+## ⚠️ Seguridad y límites
 
-### B55-C14 — Química de regolitos
+El bloque es educativo. Las redes y los modelos son mínimos y sus coeficientes, salvo los marcados, son **ilustrativos**: no sustituyen a las bases de datos cinéticas ni a la literatura primaria. Ninguna clase afirma haber detectado una molécula, un compuesto prebiótico ni vida: los espectros y las muestras de los laboratorios son sintéticos, y las frecuencias de referencia proceden del catálogo JPL. La manipulación real de muestras extraterrestres y la protección planetaria se rigen por la política vigente del COSPAR y la normativa de cada agencia, no por estas clases.
 
-Describe los componentes principales de «química de regolitos» y por qué son relevantes para esta disciplina.
+## 📖 Fuentes consultadas en el bloque (resumen)
 
-### B55-C15 — Química de océanos internos
-
-Presenta qué significa «química de océanos internos», sus elementos esenciales y su función dentro de astroquímica y geoquímica extraterrestre.
-
-### B55-C16 — Procesos hidrotermales extraterrestres
-
-Explica el fenómeno o técnica de «procesos hidrotermales extraterrestres» y su aplicación observable o tecnológica.
-
-### B55-C17 — Compuestos prebióticos
-
-Delimita «compuestos prebióticos», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B55-C18 — Contaminación de muestras
-
-Introduce el contexto y los principios de «contaminación de muestras» para comprender su uso científico.
-
-### B55-C19 — Interpretación de firmas químicas
-
-Describe los componentes principales de «interpretación de firmas químicas» y por qué son relevantes para esta disciplina.
-
-### B55-C20 — Modelo simplificado de red astroquímica
-
-Presenta «modelo simplificado de red astroquímica» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
+Las clases citan, con localizador, qué respalda cada fuente, fecha de consulta (2026-11-09) y estado. Se consultaron de verdad: las constantes y composiciones isotópicas del NIST (CODATA 2022); los archivos de líneas y la documentación del catálogo JPL de líneas espectrales para CO, HCN, HCO+ y H2CO; la política de protección planetaria del COSPAR (página institucional, sin el texto completo de las categorías); y los resúmenes (vía la API de arXiv o PubMed) de Asplund et al. 2009, McGuire 2021, Cowan et al. 2021, Kobayashi et al. 2020, McElroy et al. 2013 (UMIST), Heays et al. 2017, Draine 2003, Boogert et al. 2015, Rubin et al. 2019, Zhao et al. 2022, Waite et al. 2017 y Hsu et al. 2015 (estos dos últimos con el resumen truncado). No se consultaron, por error de acceso del servidor, Alexander et al. 2012, Altwegg et al. 2015 ni la publicación de nucleobases en meteoritos de Callahan et al. 2011: no se citan como fuente. Los coeficientes cinéticos, las energías de enlace de superficie y demás parámetros de modelo son ilustrativos y están rotulados en cada clase.
 
 ## Fuentes de orientación preliminar
 
@@ -98,4 +126,6 @@ Presenta «modelo simplificado de red astroquímica» mediante definiciones, sí
 - **[COSPAR]** [Committee on Space Research](https://cosparhq.cnes.fr/) — Protección planetaria y cooperación en investigación espacial.
 - **[NASA-EO]** [NASA Earthdata](https://www.earthdata.nasa.gov/) — Datos abiertos de observación de la Tierra.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B56 — Astrobiología y vida extraterrestre](./B56-astrobiologia-y-vida-extraterrestre.md)
