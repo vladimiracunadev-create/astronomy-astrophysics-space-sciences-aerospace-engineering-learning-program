@@ -1,7 +1,7 @@
 # B57-C29 — Correcciones atmosféricas en altimetría
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C28 — Modelos digitales de elevación](../B57-C28-modelos-digitales-de-elevacion/CLASE.md) · [Siguiente: B57-C30 — Nubes de puntos tridimensionales →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c30)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C28 — Modelos digitales de elevación](../B57-C28-modelos-digitales-de-elevacion/CLASE.md) · [Siguiente: B57-C30 — Nubes de puntos tridimensionales →](../B57-C30-nubes-de-puntos-tridimensionales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -285,5 +285,5 @@ La ionosfera retrasa `0,11 m` en Ku con 50 TECU, la troposfera seca `2,31 m`, y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C28 — Modelos digitales de elevación](../B57-C28-modelos-digitales-de-elevacion/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C30 — Nubes de puntos tridimensionales →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c30)
+[← Anterior: B57-C28 — Modelos digitales de elevación](../B57-C28-modelos-digitales-de-elevacion/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C30 — Nubes de puntos tridimensionales →](../B57-C30-nubes-de-puntos-tridimensionales/CLASE.md)
 <!-- /nav -->

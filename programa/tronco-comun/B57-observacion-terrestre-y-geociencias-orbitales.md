@@ -97,16 +97,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b57-c28"></a>[B57-C28](../clases/B57/B57-C28-modelos-digitales-de-elevacion/CLASE.md) | Modelos digitales de elevación | Modelo de superficie frente a modelo de terreno, pendiente y orientación por diferencias finitas. | Ficha de un modelo digital de elevación |
 | <a id="b57-c29"></a>[B57-C29](../clases/B57/B57-C29-correcciones-atmosfericas-en-altimetria/CLASE.md) | Correcciones atmosféricas en altimetría | Retardo troposférico seco y retardo ionosférico por dos frecuencias en altimetría. | Ficha de correcciones atmosféricas |
-| <a id="b57-c30"></a>B57-C30 | Nubes de puntos tridimensionales | Nube de puntos, filtro de suelo, plano por RANSAC y densidad de puntos. | Ficha de una nube de puntos |
-| <a id="b57-c31"></a>B57-C31 | Errores y validación de modelos de elevación | RMSE, NMAD y error lineal al 90 % frente a puntos de control. | Ficha de validación de un modelo de elevación |
-| <a id="b57-c32"></a>B57-C32 | Sitios de calibración terrestres | Calibración vicaria con un sitio estable: ganancia, desfase e incertidumbre. | Ficha de calibración con un sitio terrestre |
+| <a id="b57-c30"></a>[B57-C30](../clases/B57/B57-C30-nubes-de-puntos-tridimensionales/CLASE.md) | Nubes de puntos tridimensionales | Nube de puntos, filtro de suelo, plano por RANSAC y densidad de puntos. | Ficha de una nube de puntos |
+| <a id="b57-c31"></a>[B57-C31](../clases/B57/B57-C31-errores-y-validacion-de-modelos-de-elevacion/CLASE.md) | Errores y validación de modelos de elevación | RMSE, NMAD y error lineal al 90 % frente a puntos de control. | Ficha de validación de un modelo de elevación |
+| <a id="b57-c32"></a>[B57-C32](../clases/B57/B57-C32-sitios-de-calibracion-terrestres/CLASE.md) | Sitios de calibración terrestres | Calibración vicaria con un sitio estable: ganancia, desfase e incertidumbre. | Ficha de calibración con un sitio terrestre |
 
 ### Tramo 6 · Ampliación: aplicaciones y ética del monitoreo
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b57-c33"></a>B57-C33 | Deforestación y cambio de uso del suelo | Matriz de cambio de cobertura y estimación de área con muestreo estratificado. | Ficha de deforestación |
-| <a id="b57-c34"></a>B57-C34 | Alertas tempranas y ética en el monitoreo de desastres | Umbral de alerta con costos de falsa alarma y omisión, tiempo de aviso y criterios éticos. | Ficha de alertas y ética |
+| <a id="b57-c33"></a>[B57-C33](../clases/B57/B57-C33-deforestacion-y-cambio-de-uso-del-suelo/CLASE.md) | Deforestación y cambio de uso del suelo | Matriz de cambio de cobertura y estimación de área con muestreo estratificado. | Ficha de deforestación |
+| <a id="b57-c34"></a>[B57-C34](../clases/B57/B57-C34-alertas-tempranas-y-etica-en-el-monitoreo-de-desastres/CLASE.md) | Alertas tempranas y ética en el monitoreo de desastres | Umbral de alerta con costos de falsa alarma y omisión, tiempo de aviso y criterios éticos. | Ficha de alertas y ética |
 
 ## 🧵 Hilos que atraviesan el bloque
 
