@@ -1,7 +1,7 @@
 # B86-C01 — Balance de potencia eléctrica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B85-C29 — Evaluación y modelado de la degradación en órbita](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md#b85-c29) · [Siguiente: B86-C02 — Celdas solares →](../B86-C02-celdas-solares/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B85-C29 — Evaluación y modelado de la degradación en órbita](../../B85/B85-C29-evaluacion-y-modelado-de-la-degradacion-en-orbita/CLASE.md) · [Siguiente: B86-C02 — Celdas solares →](../B86-C02-celdas-solares/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Con `100,80 W` en la luz y `64,80 W` en el eclipse, el ala necesita `176,38 W` y
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B85-C29 — Evaluación y modelado de la degradación en órbita](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md#b85-c29) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C02 — Celdas solares →](../B86-C02-celdas-solares/CLASE.md)
+[← Anterior: B85-C29 — Evaluación y modelado de la degradación en órbita](../../B85/B85-C29-evaluacion-y-modelado-de-la-degradacion-en-orbita/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C02 — Celdas solares →](../B86-C02-celdas-solares/CLASE.md)
 <!-- /nav -->

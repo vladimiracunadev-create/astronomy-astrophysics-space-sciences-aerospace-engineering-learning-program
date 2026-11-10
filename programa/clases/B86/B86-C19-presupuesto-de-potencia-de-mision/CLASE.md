@@ -1,6 +1,7 @@
 # B86-C19 — Presupuesto de potencia de misión
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C18 — Seguridad y licenciamiento energético](../B86-C18-seguridad-y-licenciamiento-energetico/CLASE.md) · [Siguiente: B86-C20 — Simulación de ciclo energético orbital →](../B86-C20-simulacion-de-ciclo-energetico-orbital/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -321,4 +322,7 @@ El presupuesto sintético crece `30,3 %` con reservas, tiene un margen mínimo d
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B86-C18 — Seguridad y licenciamiento energético](../B86-C18-seguridad-y-licenciamiento-energetico/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C20 — Simulación de ciclo energético orbital →](../B86-C20-simulacion-de-ciclo-energetico-orbital/CLASE.md)
 <!-- /nav -->

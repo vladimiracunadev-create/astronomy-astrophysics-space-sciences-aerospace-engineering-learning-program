@@ -1,7 +1,7 @@
 # B86-C18 — Seguridad y licenciamiento energético
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C17 — Energía nuclear espacial conceptual](../B86-C17-energia-nuclear-espacial-conceptual/CLASE.md) · [Siguiente: B86-C19 — Presupuesto de potencia de misión →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C17 — Energía nuclear espacial conceptual](../B86-C17-energia-nuclear-espacial-conceptual/CLASE.md) · [Siguiente: B86-C19 — Presupuesto de potencia de misión →](../B86-C19-presupuesto-de-potencia-de-mision/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ NSPM-20 organiza la autorización en tres niveles según actividad, probabilidad
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B86-C17 — Energía nuclear espacial conceptual](../B86-C17-energia-nuclear-espacial-conceptual/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C19 — Presupuesto de potencia de misión →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c19)
+[← Anterior: B86-C17 — Energía nuclear espacial conceptual](../B86-C17-energia-nuclear-espacial-conceptual/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C19 — Presupuesto de potencia de misión →](../B86-C19-presupuesto-de-potencia-de-mision/CLASE.md)
 <!-- /nav -->

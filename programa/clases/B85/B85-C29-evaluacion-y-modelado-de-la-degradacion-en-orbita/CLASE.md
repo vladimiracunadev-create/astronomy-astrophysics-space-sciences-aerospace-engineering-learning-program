@@ -1,7 +1,7 @@
 # B85-C29 — Evaluación y modelado de la degradación en órbita
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C28 — Protección pasiva frente al ambiente espacial](../B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md) · [Siguiente: B86-C01 — Balance de potencia eléctrica →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [← Anterior: B85-C28 — Protección pasiva frente al ambiente espacial](../B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md) · [Siguiente: B86-C01 — Balance de potencia eléctrica →](../../B86/B86-C01-balance-de-potencia-electrica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ Con parámetros sintéticos, la temperatura del radiador llega a `342 K` a 5 añ
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B85-C28 — Protección pasiva frente al ambiente espacial](../B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B86-C01 — Balance de potencia eléctrica →](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md#b86-c01)
+[← Anterior: B85-C28 — Protección pasiva frente al ambiente espacial](../B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md) · [📚 Bloque B85](../../../tronco-comun/B85-gestion-termica-y-entorno-espacial.md) · [Siguiente: B86-C01 — Balance de potencia eléctrica →](../../B86/B86-C01-balance-de-potencia-electrica/CLASE.md)
 <!-- /nav -->

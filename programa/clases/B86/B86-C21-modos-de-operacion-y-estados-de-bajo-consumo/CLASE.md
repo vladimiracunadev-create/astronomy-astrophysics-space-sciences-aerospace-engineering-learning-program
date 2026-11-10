@@ -1,6 +1,7 @@
 # B86-C21 — Modos de operación y estados de bajo consumo
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C20 — Simulación de ciclo energético orbital](../B86-C20-simulacion-de-ciclo-energetico-orbital/CLASE.md) · [Siguiente: B86-C22 — Suministro de energía durante la noche lunar →](../B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,4 +302,7 @@ Con la política de histéresis la nave sintética sobrevive `30` días con `74 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B86-C20 — Simulación de ciclo energético orbital](../B86-C20-simulacion-de-ciclo-energetico-orbital/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C22 — Suministro de energía durante la noche lunar →](../B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md)
 <!-- /nav -->

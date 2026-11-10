@@ -1,6 +1,7 @@
 # B86-C20 — Simulación de ciclo energético orbital
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [← Anterior: B86-C19 — Presupuesto de potencia de misión](../B86-C19-presupuesto-de-potencia-de-mision/CLASE.md) · [Siguiente: B86-C21 — Modos de operación y estados de bajo consumo →](../B86-C21-modos-de-operacion-y-estados-de-bajo-consumo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,4 +295,7 @@ En `30` días la nave sintética mantiene un SOC mínimo de `84,5 %` con cargas 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B86-C19 — Presupuesto de potencia de misión](../B86-C19-presupuesto-de-potencia-de-mision/CLASE.md) · [📚 Bloque B86](../../../tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md) · [Siguiente: B86-C21 — Modos de operación y estados de bajo consumo →](../B86-C21-modos-de-operacion-y-estados-de-bajo-consumo/CLASE.md)
 <!-- /nav -->
