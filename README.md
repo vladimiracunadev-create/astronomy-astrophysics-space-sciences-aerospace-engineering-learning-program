@@ -11,7 +11,7 @@
 
 [![Versión documental](https://img.shields.io/badge/versión_documental-0.2.0-6f42c1?style=for-the-badge)](CHANGELOG.md)
 [![Catálogo](https://img.shields.io/badge/programa-2.077_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
-[![Estado](https://img.shields.io/badge/textos_redactados-397_de_2.077-d97706?style=for-the-badge)](STATUS.md)
+[![Estado](https://img.shields.io/badge/textos_redactados-1.148_de_2.077-d97706?style=for-the-badge)](STATUS.md)
 [![Idioma](https://img.shields.io/badge/idioma-español_de_Chile-007c83?style=for-the-badge)](README.md)
 [![Código](https://img.shields.io/badge/código-Apache--2.0-d22128?style=for-the-badge)](LICENSE)
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
@@ -31,7 +31,7 @@
 ---
 
 > [!IMPORTANT]
-> **El programa está planificado (2.077 clases en 133 bloques) y todas sus clases siguen en E0.** Hay **397 clases con texto redactado**: el área A01 (160, bloques B01 a B08) y el área A02 (237, bloques B09 a B23, de ellas 160 de la línea base y 77 antes programadas), pendientes de aprobación y de revisión disciplinar. Las otras 960 de la línea base solo tienen título y descripción preliminar y las 720 programadas restantes siguen sin redactar. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/2.077**.
+> **El programa está planificado (2.077 clases en 133 bloques) y todas sus clases siguen en E0.** Hay **1.148 clases con texto redactado**: las cinco primeras áreas completas, A01 (160, B01 a B08), A02 (237, B09 a B23), A03 (272, B24 a B40), A04 (222, B41 a B51) y A05 (257, B52 a B70); 800 son de la línea base y 348 estaban programadas. Están pendientes de aprobación y de revisión disciplinar. Las otras 480 de la línea base solo tienen título y descripción preliminar y las 449 programadas restantes siguen sin redactar. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/2.077**.
 
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
@@ -63,7 +63,7 @@ flowchart LR
 Este mapa deja el contenido visible desde la portada. Cada bloque muestra su rango de clases; las **programadas** son clases citadas con su ubicación y la necesidad que resuelven, todavía sin redactar.
 
 > [!IMPORTANT]
-> Todos los registros permanecen en E0. Las clases de A01 (160) y A02 (237) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título y descripción preliminar, o es una clase programada sin redactar. Ninguna está impartida ni verificada.
+> Todos los registros permanecen en E0. Las clases de A01 a A05 (1.148) tienen texto redactado y enlazado desde su bloque, pendiente de revisión; el resto solo tiene título y descripción preliminar, o es una clase programada sin redactar. Ninguna está impartida ni verificada.
 
 ### A01 · Alfabetización científica, astronómica y tecnológica
 
@@ -398,8 +398,8 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`PROGRAMA_ACADEMICO_COMPLETO.md`](PROGRAMA_ACADEMICO_COMPLETO.md): índice unificado de 2.077 clases en 12 áreas y 133 bloques, con la correspondencia de los módulos de ruta.
 - [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
 - [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
-- [`programa/tronco-comun/`](programa/tronco-comun/): guías de los 133 bloques (64 de la línea base y 69 nuevos); las de A01 y A02 están reescritas como guía pedagógica.
-- [`programa/clases/`](programa/clases/): las 397 clases redactadas de A01 y A02.
+- [`programa/tronco-comun/`](programa/tronco-comun/): guías de los 133 bloques (64 de la línea base y 69 nuevos); las de A01 a A05 (B01 a B70) están reescritas como guía pedagógica.
+- [`programa/clases/`](programa/clases/): las 1.148 clases redactadas de A01 a A05.
 - [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
 - [`metadatos/`](metadatos/): inventarios y relaciones estructurales.
 - [`documentacion/`](documentacion/): alcance, pedagogía, experiencia, cobertura, rutas y plan de implementación.
@@ -453,7 +453,7 @@ VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 
 ### ❌ Lo que no es
 
-- 🚫 una colección de 2.077 clases ya redactadas y verificadas: hoy hay 397 con texto redactado (A01 y A02), sin revisión disciplinar; el resto conserva título y descripción preliminar o está programado sin redactar;
+- 🚫 una colección de 2.077 clases ya redactadas y verificadas: hoy hay 1.148 con texto redactado (A01 a A05), sin revisión disciplinar; el resto conserva título y descripción preliminar o está programado sin redactar;
 - 🚫 veinticuatro programas separados: las rutas son recorridos sobre las mismas áreas y bloques de una sola formación;
 - 🚫 una universidad, carrera acreditada, título, certificación ni licencia profesional;
 - 🚫 autorización para diseñar, fabricar, lanzar, pilotar, diagnosticar o intervenir sistemas reales sin normativa y profesionales competentes;

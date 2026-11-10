@@ -16,7 +16,7 @@ Este plan separa tres dimensiones que no deben confundirse:
 | Descripciones y fuentes preliminares | presentes, todavía no verificadas clase por clase |
 | Clases en E0 · catalogada | 5.120 de la línea base (2.077 en el programa `0.2.0`) |
 | Clases en E1 o superior | 0 |
-| Clases con texto redactado, pendientes de revisión (A01: 160; A02: 237) | 397 |
+| Clases con texto redactado, pendientes de revisión (A01: 160; A02: 237; A03: 272; A04: 222; A05: 257) | 1.148 |
 | Clases completamente redactadas y verificadas | 0 |
 | Visor del catálogo | disponible como archivo estático |
 | Plataforma de aprendizaje, laboratorios y simuladores | no implementados |

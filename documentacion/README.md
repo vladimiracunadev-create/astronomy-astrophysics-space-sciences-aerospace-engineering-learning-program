@@ -49,4 +49,4 @@ Esta carpeta contiene el contrato académico, editorial y técnico del **Program
 
 ## Regla de honestidad
 
-Los registros del catálogo están en E0. Las 397 clases de A01 y A02 tienen texto redactado, pendiente de revisión disciplinar y de aprobación del autor; el resto solo tiene título y referencia preliminar o está programado. Ningún documento debe describirlas como impartidas, revisadas, verificadas o certificadas. Cuando una clase avance, su cambio de estado deberá estar respaldado por artefactos auditables y por las puertas E1–E6.
+Los registros del catálogo están en E0. Las 1.148 clases de A01 a A05 tienen texto redactado, pendiente de revisión disciplinar y de aprobación del autor; el resto solo tiene título y referencia preliminar o está programado. Ningún documento debe describirlas como impartidas, revisadas, verificadas o certificadas. Cuando una clase avance, su cambio de estado deberá estar respaldado por artefactos auditables y por las puertas E1–E6.

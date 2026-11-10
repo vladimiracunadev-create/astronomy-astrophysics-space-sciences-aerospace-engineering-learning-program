@@ -177,6 +177,24 @@ def construir():
     return tronco, mod_nombre, bloques_base, extension, orden, propuestas, area_de_existente
 
 
+def areas_redactadas(estructura: list) -> str:
+    """Describe qué áreas tienen todas sus clases redactadas (se calcula con las carpetas de programa/clases)."""
+    completas, parciales = [], []
+    for a in estructura:
+        ids = {b["id"] for b in a["bloques"]}
+        n = sum(1 for f in glob.glob(str(ROOT / "programa" / "clases" / "*" / "*" / "CLASE.md"))
+                if Path(f).parent.parent.name in ids)
+        tot = a["existentes"] + a["programadas"]
+        if n == tot:
+            completas.append(a["area"])
+        elif n:
+            parciales.append(f"{a['area']} parcial ({n} de {tot})")
+    if not completas and not parciales:
+        return "ninguna área completa"
+    txt = "áreas completas: " + (f"{completas[0]} a {completas[-1]}" if len(completas) > 1 else (completas[0] if completas else "ninguna"))
+    return txt + ("; " + "; ".join(parciales) if parciales else "")
+
+
 def escribir_todo() -> dict:
     tronco, mod_nombre, bloques_base, extension, nuevos, propuestas, area_de = construir()
     for e in propuestas.values():
@@ -214,7 +232,7 @@ def escribir_todo() -> dict:
           "Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. "
           f"La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene {len(estructura)} áreas, {nb} bloques y {miles(total_exist + total_prog)} clases. "
           "Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a "
-          f"{total_prog} clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay {len(glob.glob(str(ROOT / 'programa' / 'clases' / '*' / '*' / 'CLASE.md')))} clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.", "",
+          f"{total_prog} clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay {miles(len(glob.glob(str(ROOT / 'programa' / 'clases' / '*' / '*' / 'CLASE.md'))))} clases con texto redactado ({areas_redactadas(estructura)}), todas pendientes de revisión disciplinar; el resto no está redactado.", "",
           "**Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.", ""]
     for a, (aid, titulo, intro) in zip(estructura, AREAS):
         L += [f"## {aid} — {titulo}", "", intro, ""]

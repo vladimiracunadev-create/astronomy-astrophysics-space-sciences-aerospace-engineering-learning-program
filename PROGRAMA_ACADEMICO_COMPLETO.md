@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 891 clases con texto redactado (A01 completa y las de A02 que van avanzando), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 1.148 clases con texto redactado (áreas completas: A01 a A05), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -1205,16 +1205,16 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B53-C18 — Cartografía geológica digital.** Introduce el contexto y los principios de «cartografía geológica digital» para comprender su uso científico.
 - **B53-C19 — Incertidumbre en mapas planetarios.** Describe los componentes principales de «incertidumbre en mapas planetarios» y por qué son relevantes para esta disciplina.
 - **B53-C20 — Proyecto SIG de terreno extraterrestre.** Introduce «proyecto SIG de terreno extraterrestre» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B53-C21 — Rotación y orientación de cuerpos planetarios: polos y meridiano origen.** *Programada.* B53-C05 y B53-C06 tratan marcos lunar y marciano; ninguna clase enseña los modelos de rotación IAU (polo, meridiano origen, precesión) de cuerpos del sistema solar.
-- **B53-C22 — Meteorización espacial: micrometeoritos, viento solar y maduración del regolito.** *Programada.* B55-C14 y B59-C04 tratan composición de regolitos; falta la maduración espectral y la meteorización de superficies sin atmósfera.
-- **B53-C23 — Mecánica de hielo: reología, fracturas y deformación.** *Programada.* Ninguna clase trata reología del hielo ni su deformación a escala planetaria.
-- **B53-C24 — Sondeo radar de penetración de hielo.** *Programada.* B57-C14 trata glaciares terrestres; no hay clase sobre radar de penetración (RIME, REASON, SHARAD) en hielo planetario.
-- **B53-C25 — Corrección geométrica y ortorrectificación de imágenes planetarias.** *Programada.* B15-C14 trata registro genérico; falta la ortorrectificación con modelos de cámara y geometría de misión.
-- **B53-C26 — Publicación de mapas geológicos planetarios: estándares y leyendas.** *Programada.* B53-C18 enseña a producir mapas; falta publicar con estándares de cartografía planetaria, leyenda y metadatos.
-- **B53-C27 — Detección remota de océanos subsuperficiales: inducción magnética, libración y radar.** *Programada.* Ninguna clase trata detección de océanos subsuperficiales por inducción magnética, libración y radar.
-- **B53-C28 — Inversión gravimétrica y modelos de densidad.** *Programada.* B53-C03 trata el campo gravitatorio; falta invertir anomalías para inferir estructura interior.
-- **B53-C29 — Imágenes hiperespectrales de superficies planetarias.** *Programada.* B57-C05 trata imágenes multiespectrales terrestres y B53-C17 la mineralogía; ninguna enseña cubos hiperespectrales y su análisis en cuerpos planetarios.
-- **B53-C30 — Radar de penetración subsuperficial en cuerpos planetarios.** *Programada.* B57-C07 y B58-C12 tratan SAR y radar planetario de superficie; ninguna clase cubre el sondeo del subsuelo.
+- **B53-C21 — Rotación y orientación de cuerpos planetarios: polos y meridiano origen.** *Texto redactado, pendiente de revisión.* B53-C05 y B53-C06 tratan marcos lunar y marciano; ninguna clase enseña los modelos de rotación IAU (polo, meridiano origen, precesión) de cuerpos del sistema solar.
+- **B53-C22 — Meteorización espacial: micrometeoritos, viento solar y maduración del regolito.** *Texto redactado, pendiente de revisión.* B55-C14 y B59-C04 tratan composición de regolitos; falta la maduración espectral y la meteorización de superficies sin atmósfera.
+- **B53-C23 — Mecánica de hielo: reología, fracturas y deformación.** *Texto redactado, pendiente de revisión.* Ninguna clase trata reología del hielo ni su deformación a escala planetaria.
+- **B53-C24 — Sondeo radar de penetración de hielo.** *Texto redactado, pendiente de revisión.* B57-C14 trata glaciares terrestres; no hay clase sobre radar de penetración (RIME, REASON, SHARAD) en hielo planetario.
+- **B53-C25 — Corrección geométrica y ortorrectificación de imágenes planetarias.** *Texto redactado, pendiente de revisión.* B15-C14 trata registro genérico; falta la ortorrectificación con modelos de cámara y geometría de misión.
+- **B53-C26 — Publicación de mapas geológicos planetarios: estándares y leyendas.** *Texto redactado, pendiente de revisión.* B53-C18 enseña a producir mapas; falta publicar con estándares de cartografía planetaria, leyenda y metadatos.
+- **B53-C27 — Detección remota de océanos subsuperficiales: inducción magnética, libración y radar.** *Texto redactado, pendiente de revisión.* Ninguna clase trata detección de océanos subsuperficiales por inducción magnética, libración y radar.
+- **B53-C28 — Inversión gravimétrica y modelos de densidad.** *Texto redactado, pendiente de revisión.* B53-C03 trata el campo gravitatorio; falta invertir anomalías para inferir estructura interior.
+- **B53-C29 — Imágenes hiperespectrales de superficies planetarias.** *Texto redactado, pendiente de revisión.* B57-C05 trata imágenes multiespectrales terrestres y B53-C17 la mineralogía; ninguna enseña cubos hiperespectrales y su análisis en cuerpos planetarios.
+- **B53-C30 — Radar de penetración subsuperficial en cuerpos planetarios.** *Texto redactado, pendiente de revisión.* B57-C07 y B58-C12 tratan SAR y radar planetario de superficie; ninguna clase cubre el sondeo del subsuelo.
 
 ### B54 — Atmósferas y climatología planetaria
 
@@ -1286,7 +1286,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B56-C18 — Protección planetaria COSPAR.** Caracteriza «protección planetaria COSPAR», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
 - **B56-C19 — Ética del descubrimiento de vida.** Ubica «ética del descubrimiento de vida» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B56-C20 — Diseño de misión astrobiológica conceptual.** Introduce «diseño de misión astrobiológica conceptual» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B56-C21 — Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio.** *Programada.* B56-C03 trata el origen de autorreplicantes; ninguna clase trata la polimerización experimental y sus límites.
+- **B56-C21 — Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio.** *Texto redactado, pendiente de revisión.* B56-C03 trata el origen de autorreplicantes; ninguna clase trata la polimerización experimental y sus límites.
 
 ### B57 — Observación terrestre y geociencias orbitales
 
@@ -1312,20 +1312,20 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B57-C18 — Volcanismo y monitoreo.** Introduce el contexto y los principios de «volcanismo y monitoreo» para comprender su uso científico.
 - **B57-C19 — SIG y análisis de riesgo.** Caracteriza «sIG y análisis de riesgo», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
 - **B57-C20 — Caso de estudio climático o geológico de Chile.** Presenta qué significa «caso de estudio climático o geológico de Chile», sus elementos esenciales y su función dentro de observación terrestre y geociencias orbitales.
-- **B57-C21 — Sensores infrarrojos térmicos para observación terrestre.** *Programada.* La temperatura de superficie se mide con sensores térmicos propios; B57 trata ópticos y radar, no los infrarrojos térmicos.
-- **B57-C22 — Espectrómetros de imagen e hiperespectrales.** *Programada.* Los instrumentos hiperespectrales dan cientos de bandas; B57-C05 trata imágenes multiespectrales solamente.
-- **B57-C23 — Diseño de órbita y revisita para observación terrestre.** *Programada.* La frecuencia de revisita depende de la órbita y del ancho de barrido; B71 trata órbitas en general, no su diseño para observación.
-- **B57-C24 — Diseño de una carga útil de observación terrestre.** *Programada.* Integrar bandas, resolución y revisita en una carga útil es el cierre del diseño de observación; B47-C02 fija requisitos de instrumentos, no la carga terrestre.
-- **B57-C25 — Selección de bandas espectrales según el fenómeno.** *Programada.* Qué bandas medir depende del fenómeno (vegetación, agua, fuego); B57-C06 aplica índices, pero no enseña a elegir las bandas.
-- **B57-C26 — Corrección atmosférica de imágenes.** *Programada.* La atmósfera altera lo que registra el satélite; B57-C13 estudia aerosoles como fenómeno, no cómo corregir las imágenes.
-- **B57-C27 — Detección de cambios en series de imágenes.** *Programada.* Monitorear el territorio es comparar fechas; ninguna clase trata la detección de cambios.
-- **B57-C28 — Modelos digitales de elevación.** *Programada.* Los modelos de elevación son el producto de la altimetría; B53-C07 trata topografía planetaria, no el producto terrestre.
-- **B57-C29 — Correcciones atmosféricas en altimetría.** *Programada.* El retardo atmosférico sesga la altura medida y se corrige con modelos específicos; B57-C09 no los trata.
-- **B57-C30 — Nubes de puntos tridimensionales.** *Programada.* Los datos LiDAR son nubes de puntos que se filtran y clasifican; B57-C11 no trata ese procesamiento.
-- **B57-C31 — Errores y validación de modelos de elevación.** *Programada.* Un modelo de elevación solo es útil con su error conocido y validado contra puntos de control; B57-C09 presenta la altimetría sin tratar la validación.
-- **B57-C32 — Sitios de calibración terrestres.** *Programada.* La calibración en vuelo se verifica con superficies terrestres estables; ninguna clase trata esos sitios.
-- **B57-C33 — Deforestación y cambio de uso del suelo.** *Programada.* El cambio de cobertura vegetal es un tema propio de monitoreo; B57-C06 trata solo los índices de vegetación.
-- **B57-C34 — Alertas tempranas y ética en el monitoreo de desastres.** *Programada.* Emitir alertas afecta a personas y exige criterios éticos y de comunicación; ninguna clase de observación terrestre lo trata.
+- **B57-C21 — Sensores infrarrojos térmicos para observación terrestre.** *Texto redactado, pendiente de revisión.* La temperatura de superficie se mide con sensores térmicos propios; B57 trata ópticos y radar, no los infrarrojos térmicos.
+- **B57-C22 — Espectrómetros de imagen e hiperespectrales.** *Texto redactado, pendiente de revisión.* Los instrumentos hiperespectrales dan cientos de bandas; B57-C05 trata imágenes multiespectrales solamente.
+- **B57-C23 — Diseño de órbita y revisita para observación terrestre.** *Texto redactado, pendiente de revisión.* La frecuencia de revisita depende de la órbita y del ancho de barrido; B71 trata órbitas en general, no su diseño para observación.
+- **B57-C24 — Diseño de una carga útil de observación terrestre.** *Texto redactado, pendiente de revisión.* Integrar bandas, resolución y revisita en una carga útil es el cierre del diseño de observación; B47-C02 fija requisitos de instrumentos, no la carga terrestre.
+- **B57-C25 — Selección de bandas espectrales según el fenómeno.** *Texto redactado, pendiente de revisión.* Qué bandas medir depende del fenómeno (vegetación, agua, fuego); B57-C06 aplica índices, pero no enseña a elegir las bandas.
+- **B57-C26 — Corrección atmosférica de imágenes.** *Texto redactado, pendiente de revisión.* La atmósfera altera lo que registra el satélite; B57-C13 estudia aerosoles como fenómeno, no cómo corregir las imágenes.
+- **B57-C27 — Detección de cambios en series de imágenes.** *Texto redactado, pendiente de revisión.* Monitorear el territorio es comparar fechas; ninguna clase trata la detección de cambios.
+- **B57-C28 — Modelos digitales de elevación.** *Texto redactado, pendiente de revisión.* Los modelos de elevación son el producto de la altimetría; B53-C07 trata topografía planetaria, no el producto terrestre.
+- **B57-C29 — Correcciones atmosféricas en altimetría.** *Texto redactado, pendiente de revisión.* El retardo atmosférico sesga la altura medida y se corrige con modelos específicos; B57-C09 no los trata.
+- **B57-C30 — Nubes de puntos tridimensionales.** *Texto redactado, pendiente de revisión.* Los datos LiDAR son nubes de puntos que se filtran y clasifican; B57-C11 no trata ese procesamiento.
+- **B57-C31 — Errores y validación de modelos de elevación.** *Texto redactado, pendiente de revisión.* Un modelo de elevación solo es útil con su error conocido y validado contra puntos de control; B57-C09 presenta la altimetría sin tratar la validación.
+- **B57-C32 — Sitios de calibración terrestres.** *Texto redactado, pendiente de revisión.* La calibración en vuelo se verifica con superficies terrestres estables; ninguna clase trata esos sitios.
+- **B57-C33 — Deforestación y cambio de uso del suelo.** *Texto redactado, pendiente de revisión.* El cambio de cobertura vegetal es un tema propio de monitoreo; B57-C06 trata solo los índices de vegetación.
+- **B57-C34 — Alertas tempranas y ética en el monitoreo de desastres.** *Texto redactado, pendiente de revisión.* Emitir alertas afecta a personas y exige criterios éticos y de comunicación; ninguna clase de observación terrestre lo trata.
 
 ### B58 — Asteroides, cometas y defensa planetaria
 
@@ -1374,133 +1374,133 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B59-C18 — Fiabilidad de equipos mineros.** Introduce el contexto y los principios de «fiabilidad de equipos mineros» para comprender su uso científico.
 - **B59-C19 — Evaluación logística de una instalación.** Describe los componentes principales de «evaluación logística de una instalación» y por qué son relevantes para esta disciplina.
 - **B59-C20 — Diseño conceptual de planta ISRU.** Introduce «diseño conceptual de planta ISRU» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos.** *Programada.* B85-C17 trata criogenia de instrumentos; ninguna clase cubre almacenar volátiles extraídos con aislamiento y mínima pérdida.
-- **B59-C22 — Beneficio y separación granulométrica de regolito.** *Programada.* Cubre tamizado y separación por tamaño o propiedades; B59-C04 caracteriza regolito pero no el beneficio previo al procesamiento.
-- **B59-C23 — Subproductos y flujos residuales de procesos ISRU.** *Programada.* Enseña a aprovechar o gestionar los subproductos (metales, escoria, gases); B59-C16 solo trata desechos de tripulación.
+- **B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos.** *Texto redactado, pendiente de revisión.* B85-C17 trata criogenia de instrumentos; ninguna clase cubre almacenar volátiles extraídos con aislamiento y mínima pérdida.
+- **B59-C22 — Beneficio y separación granulométrica de regolito.** *Texto redactado, pendiente de revisión.* Cubre tamizado y separación por tamaño o propiedades; B59-C04 caracteriza regolito pero no el beneficio previo al procesamiento.
+- **B59-C23 — Subproductos y flujos residuales de procesos ISRU.** *Texto redactado, pendiente de revisión.* Enseña a aprovechar o gestionar los subproductos (metales, escoria, gases); B59-C16 solo trata desechos de tripulación.
 
 ### B60 — Cinética y modelado astroquímico
 
 *Bloque nuevo (4 clases): Colisiones moleculares y secciones eficaces en gas interestelar; Coeficientes de velocidad dependientes de la temperatura y bases cinéticas; Integración numérica de redes químicas rígidas…*
 
-- **B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar.** *Programada.* B06-C14 trata cinética inicial; falta la teoría de colisiones y las secciones eficaces del gas interestelar.
-- **B60-C02 — Coeficientes de velocidad dependientes de la temperatura y bases cinéticas.** *Programada.* B06-C14 trata cinética inicial; falta el uso de coeficientes tipo Arrhenius y de bases de datos astroquímicas (KIDA, UMIST).
-- **B60-C03 — Integración numérica de redes químicas rígidas.** *Programada.* B11-C09 trata estabilidad numérica general; falta la integración de sistemas rígidos (stiff).
-- **B60-C04 — Balance químico gas-grano: modelos de tres fases.** *Programada.* B55-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases.
+- **B60-C01 — Colisiones moleculares y secciones eficaces en gas interestelar.** *Texto redactado, pendiente de revisión.* B06-C14 trata cinética inicial; falta la teoría de colisiones y las secciones eficaces del gas interestelar.
+- **B60-C02 — Coeficientes de velocidad dependientes de la temperatura y bases cinéticas.** *Texto redactado, pendiente de revisión.* B06-C14 trata cinética inicial; falta el uso de coeficientes tipo Arrhenius y de bases de datos astroquímicas (KIDA, UMIST).
+- **B60-C03 — Integración numérica de redes químicas rígidas.** *Texto redactado, pendiente de revisión.* B11-C09 trata estabilidad numérica general; falta la integración de sistemas rígidos (stiff).
+- **B60-C04 — Balance químico gas-grano: modelos de tres fases.** *Texto redactado, pendiente de revisión.* B55-C20 es un modelo simplificado; falta el acople gas-superficie-manto de los modelos de tres fases.
 
 ### B61 — Cráteres de impacto y geología de impactos
 
 *Bloque nuevo (7 clases): Dinámica de eyección y escalado de cráteres; Cráteres simples: morfología y formación; Cráteres complejos: colapso, picos centrales y terrazas…*
 
-- **B61-C01 — Dinámica de eyección y escalado de cráteres.** *Programada.* B53-C10 y B58-C15 son visión general; falta la mecánica de eyección y las leyes de escalado de cráteres.
-- **B61-C02 — Cráteres simples: morfología y formación.** *Programada.* B53-C08 trata cartografía de cráteres; no la morfología ni formación de cráteres simples.
-- **B61-C03 — Cráteres complejos: colapso, picos centrales y terrazas.** *Programada.* Ninguna clase trata la transición simple-compleja ni los mecanismos de colapso.
-- **B61-C04 — Mantos de ejecta y depósitos de impacto.** *Programada.* Ninguna clase enseña la estructura y estratigrafía de los mantos de ejecta ni su uso como marcador.
-- **B61-C05 — Fusión por impacto y metamorfismo de choque.** *Programada.* Ninguna clase trata fusión, brechas ni metamorfismo de choque; B55-C12 se limita a la geoquímica de meteoritos.
-- **B61-C06 — Datación por conteo de cráteres: funciones de producción y edades de modelo.** *Programada.* B53-C09 trata estratigrafía relativa; falta la cronología por conteo de cráteres y sus incertidumbres.
-- **B61-C07 — Cuencas multianillo y grandes impactos.** *Programada.* Ninguna clase trata cuencas multianillo ni su efecto en la historia de la corteza.
+- **B61-C01 — Dinámica de eyección y escalado de cráteres.** *Texto redactado, pendiente de revisión.* B53-C10 y B58-C15 son visión general; falta la mecánica de eyección y las leyes de escalado de cráteres.
+- **B61-C02 — Cráteres simples: morfología y formación.** *Texto redactado, pendiente de revisión.* B53-C08 trata cartografía de cráteres; no la morfología ni formación de cráteres simples.
+- **B61-C03 — Cráteres complejos: colapso, picos centrales y terrazas.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la transición simple-compleja ni los mecanismos de colapso.
+- **B61-C04 — Mantos de ejecta y depósitos de impacto.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña la estructura y estratigrafía de los mantos de ejecta ni su uso como marcador.
+- **B61-C05 — Fusión por impacto y metamorfismo de choque.** *Texto redactado, pendiente de revisión.* Ninguna clase trata fusión, brechas ni metamorfismo de choque; B55-C12 se limita a la geoquímica de meteoritos.
+- **B61-C06 — Datación por conteo de cráteres: funciones de producción y edades de modelo.** *Texto redactado, pendiente de revisión.* B53-C09 trata estratigrafía relativa; falta la cronología por conteo de cráteres y sus incertidumbres.
+- **B61-C07 — Cuencas multianillo y grandes impactos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata cuencas multianillo ni su efecto en la historia de la corteza.
 
 ### B62 — Espectroscopía molecular para astroquímica
 
 *Bloque nuevo (8 clases): Espectros rotacionales de moléculas: niveles y reglas de selección; Espectros vibracionales de moléculas; Transiciones electrónicas moleculares…*
 
-- **B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección.** *Programada.* B06-C17 y B46-C12 son visión general; falta el rotor rígido, sus niveles y reglas de selección.
-- **B62-C02 — Espectros vibracionales de moléculas.** *Programada.* Ninguna clase trata niveles vibracionales ni bandas ro-vibracionales.
-- **B62-C03 — Transiciones electrónicas moleculares.** *Programada.* Ninguna clase trata transiciones electrónicas moleculares ni Franck-Condon.
-- **B62-C04 — Momentos dipolares y fuerza de línea.** *Programada.* Ninguna clase relaciona momento dipolar con intensidad de línea.
-- **B62-C05 — Constantes espectroscópicas y ajuste de espectros.** *Programada.* Ninguna clase trata ajuste de constantes espectroscópicas.
-- **B62-C06 — Ensanchamiento de líneas moleculares: natural, Doppler y por presión.** *Programada.* B45-C12 trata el efecto Doppler; no los mecanismos de ensanchamiento de línea.
-- **B62-C07 — Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA.** *Programada.* B14 no cubre el uso de catálogos espectroscópicos moleculares.
-- **B62-C08 — Mezclas moleculares y confusión de líneas.** *Programada.* Ninguna clase trata mezcla y confusión de líneas en fuentes ricas.
+- **B62-C01 — Espectros rotacionales de moléculas: niveles y reglas de selección.** *Texto redactado, pendiente de revisión.* B06-C17 y B46-C12 son visión general; falta el rotor rígido, sus niveles y reglas de selección.
+- **B62-C02 — Espectros vibracionales de moléculas.** *Texto redactado, pendiente de revisión.* Ninguna clase trata niveles vibracionales ni bandas ro-vibracionales.
+- **B62-C03 — Transiciones electrónicas moleculares.** *Texto redactado, pendiente de revisión.* Ninguna clase trata transiciones electrónicas moleculares ni Franck-Condon.
+- **B62-C04 — Momentos dipolares y fuerza de línea.** *Texto redactado, pendiente de revisión.* Ninguna clase relaciona momento dipolar con intensidad de línea.
+- **B62-C05 — Constantes espectroscópicas y ajuste de espectros.** *Texto redactado, pendiente de revisión.* Ninguna clase trata ajuste de constantes espectroscópicas.
+- **B62-C06 — Ensanchamiento de líneas moleculares: natural, Doppler y por presión.** *Texto redactado, pendiente de revisión.* B45-C12 trata el efecto Doppler; no los mecanismos de ensanchamiento de línea.
+- **B62-C07 — Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA.** *Texto redactado, pendiente de revisión.* B14 no cubre el uso de catálogos espectroscópicos moleculares.
+- **B62-C08 — Mezclas moleculares y confusión de líneas.** *Texto redactado, pendiente de revisión.* Ninguna clase trata mezcla y confusión de líneas en fuentes ricas.
 
 ### B63 — Exploración in situ y análisis de muestras planetarias
 
 *Bloque nuevo (6 clases): Instrumentación de sondas y rovers planetarios; Muestreo superficial y estrategias de recolección; Curaduría y cadena de custodia de muestras…*
 
-- **B63-C01 — Instrumentación de sondas y rovers planetarios.** *Programada.* B47 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros).
-- **B63-C02 — Muestreo superficial y estrategias de recolección.** *Programada.* B59 trata extracción de volátiles; no el muestreo científico ni su estrategia.
-- **B63-C03 — Curaduría y cadena de custodia de muestras.** *Programada.* B13-C02 trata trazabilidad métrica; falta la curaduría de muestras planetarias y su cadena de custodia.
-- **B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias.** *Programada.* B56-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio).
-- **B63-C05 — Contención de muestras extraterrestres: instalaciones y principios.** *Programada.* Ninguna clase trata contención de muestras (enfoque defensivo).
-- **B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión.** *Programada.* Ninguna clase trata marcos de decisión de evaluación de riesgo biológico de muestras.
+- **B63-C01 — Instrumentación de sondas y rovers planetarios.** *Texto redactado, pendiente de revisión.* B47 es orbital; ninguna clase presenta la instrumentación in situ (cámaras, espectrómetros, sismómetros).
+- **B63-C02 — Muestreo superficial y estrategias de recolección.** *Texto redactado, pendiente de revisión.* B59 trata extracción de volátiles; no el muestreo científico ni su estrategia.
+- **B63-C03 — Curaduría y cadena de custodia de muestras.** *Texto redactado, pendiente de revisión.* B13-C02 trata trazabilidad métrica; falta la curaduría de muestras planetarias y su cadena de custodia.
+- **B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias.** *Texto redactado, pendiente de revisión.* B56-C18 trata COSPAR en general; falta la arquitectura de retorno de muestras y sus salvaguardas (enfoque regulatorio).
+- **B63-C05 — Contención de muestras extraterrestres: instalaciones y principios.** *Texto redactado, pendiente de revisión.* Ninguna clase trata contención de muestras (enfoque defensivo).
+- **B63-C06 — Evaluación de riesgos biológicos de muestras: marcos de decisión.** *Texto redactado, pendiente de revisión.* Ninguna clase trata marcos de decisión de evaluación de riesgo biológico de muestras.
 
 ### B64 — Extremófilos y límites de la vida
 
 *Bloque nuevo (7 clases): Radiotolerancia biológica y reparación del ADN; Termófilos e hipertermófilos; Psicrófilos y vida en frío…*
 
-- **B64-C01 — Radiotolerancia biológica y reparación del ADN.** *Programada.* B56-C05 es visión general; falta la radiotolerancia y su reparación del ADN.
-- **B64-C02 — Termófilos e hipertermófilos.** *Programada.* Ninguna clase trata termófilos como categoría.
-- **B64-C03 — Psicrófilos y vida en frío.** *Programada.* Ninguna clase trata psicrófilos.
-- **B64-C04 — Halófilos y vida en salmueras.** *Programada.* Ninguna clase trata halófilos.
-- **B64-C05 — Acidófilos y alcalófilos.** *Programada.* Ninguna clase trata acidófilos.
-- **B64-C06 — Biofilms en ambientes extremos.** *Programada.* Ninguna clase trata biofilms.
-- **B64-C07 — Cultivo de extremófilos no patógenos en condiciones análogas.** *Programada.* Ninguna clase trata cultivo en cámaras análogas de organismos no patógenos.
+- **B64-C01 — Radiotolerancia biológica y reparación del ADN.** *Texto redactado, pendiente de revisión.* B56-C05 es visión general; falta la radiotolerancia y su reparación del ADN.
+- **B64-C02 — Termófilos e hipertermófilos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata termófilos como categoría.
+- **B64-C03 — Psicrófilos y vida en frío.** *Texto redactado, pendiente de revisión.* Ninguna clase trata psicrófilos.
+- **B64-C04 — Halófilos y vida en salmueras.** *Texto redactado, pendiente de revisión.* Ninguna clase trata halófilos.
+- **B64-C05 — Acidófilos y alcalófilos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata acidófilos.
+- **B64-C06 — Biofilms en ambientes extremos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata biofilms.
+- **B64-C07 — Cultivo de extremófilos no patógenos en condiciones análogas.** *Texto redactado, pendiente de revisión.* Ninguna clase trata cultivo en cámaras análogas de organismos no patógenos.
 
 ### B65 — Geofísica de interiores planetarios
 
 *Bloque nuevo (6 clases): Convección del manto y evolución térmica de interiores planetarios; Dinamos planetarias y campos magnéticos de origen interno; Magnetismo cortical remanente y anomalías magnéticas…*
 
-- **B65-C01 — Convección del manto y evolución térmica de interiores planetarios.** *Programada.* B53-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica.
-- **B65-C02 — Dinamos planetarias y campos magnéticos de origen interno.** *Programada.* B30 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos.
-- **B65-C03 — Magnetismo cortical remanente y anomalías magnéticas.** *Programada.* Ninguna clase enseña la magnetización remanente de la corteza ni su uso para reconstruir antiguos campos (Marte, Luna).
-- **B65-C04 — Flujo térmico planetario y balance térmico del interior.** *Programada.* B52-C17 trata evolución térmica por colisiones; no hay clase sobre flujo térmico superficial, radiactividad y enfriamiento secular.
-- **B65-C05 — Inversión geofísica conjunta: validación de modelos interiores.** *Programada.* Ninguna clase enseña a confrontar modelos interiores con gravedad, sísmica y magnetismo ni a tratar la no unicidad de la inversión.
-- **B65-C06 — Calentamiento por marea y equilibrio térmico en satélites.** *Programada.* B72-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado).
+- **B65-C01 — Convección del manto y evolución térmica de interiores planetarios.** *Texto redactado, pendiente de revisión.* B53-C01 describe la estructura interior; ninguna clase trata la convección del manto, los números de Rayleigh ni la evolución térmica.
+- **B65-C02 — Dinamos planetarias y campos magnéticos de origen interno.** *Texto redactado, pendiente de revisión.* B30 trata campos solares y la magnetosfera terrestre; ninguna clase explica el mecanismo de dinamo planetaria ni su presencia o ausencia en otros cuerpos.
+- **B65-C03 — Magnetismo cortical remanente y anomalías magnéticas.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña la magnetización remanente de la corteza ni su uso para reconstruir antiguos campos (Marte, Luna).
+- **B65-C04 — Flujo térmico planetario y balance térmico del interior.** *Texto redactado, pendiente de revisión.* B52-C17 trata evolución térmica por colisiones; no hay clase sobre flujo térmico superficial, radiactividad y enfriamiento secular.
+- **B65-C05 — Inversión geofísica conjunta: validación de modelos interiores.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña a confrontar modelos interiores con gravedad, sísmica y magnetismo ni a tratar la no unicidad de la inversión.
+- **B65-C06 — Calentamiento por marea y equilibrio térmico en satélites.** *Texto redactado, pendiente de revisión.* B72-C16 modela mareas orbitales; falta la disipación por marea y su efecto térmico (Io, Europa, Encélado).
 
 ### B66 — Geomorfología y procesos superficiales planetarios
 
 *Bloque nuevo (5 clases): Valles y canales: morfología y origen en superficies planetarias; Procesos de ladera y transporte de masa; Procesos eólicos: dunas, ripples y erosión planetaria…*
 
-- **B66-C01 — Valles y canales: morfología y origen en superficies planetarias.** *Programada.* B53 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo.
-- **B66-C02 — Procesos de ladera y transporte de masa.** *Programada.* Ninguna clase trata deslizamientos, flujos de detritos ni transporte de masa gravitatorio en cuerpos con gravedad distinta de la terrestre.
-- **B66-C03 — Procesos eólicos: dunas, ripples y erosión planetaria.** *Programada.* B54 trata atmósferas pero ninguna clase enseña transporte de arena y formas eólicas en Marte, Venus y Titán.
-- **B66-C04 — Redes fluviales fósiles y paleohidrología marciana.** *Programada.* Ninguna clase enseña a leer redes de drenaje fósiles ni a estimar caudales y duración del agua superficial.
-- **B66-C05 — Depósitos sedimentarios y sedimentología planetaria.** *Programada.* Ninguna clase trata deltas, estratos y facies sedimentarias como archivo de ambientes pasados en Marte y Titán.
+- **B66-C01 — Valles y canales: morfología y origen en superficies planetarias.** *Texto redactado, pendiente de revisión.* B53 trata estratigrafía y hielos, no morfología de valles y canales (Marte, Titán) ni su inferencia de procesos de flujo.
+- **B66-C02 — Procesos de ladera y transporte de masa.** *Texto redactado, pendiente de revisión.* Ninguna clase trata deslizamientos, flujos de detritos ni transporte de masa gravitatorio en cuerpos con gravedad distinta de la terrestre.
+- **B66-C03 — Procesos eólicos: dunas, ripples y erosión planetaria.** *Texto redactado, pendiente de revisión.* B54 trata atmósferas pero ninguna clase enseña transporte de arena y formas eólicas en Marte, Venus y Titán.
+- **B66-C04 — Redes fluviales fósiles y paleohidrología marciana.** *Texto redactado, pendiente de revisión.* Ninguna clase enseña a leer redes de drenaje fósiles ni a estimar caudales y duración del agua superficial.
+- **B66-C05 — Depósitos sedimentarios y sedimentología planetaria.** *Texto redactado, pendiente de revisión.* Ninguna clase trata deltas, estratos y facies sedimentarias como archivo de ambientes pasados en Marte y Titán.
 
 ### B67 — Prospección y evaluación de reservas de recursos extraterrestres
 
 *Bloque nuevo (8 clases): Selección de sitios de extracción con criterios múltiples; Diseño de un programa de prospección por fases; Muestreo criogénico y preservación de volátiles en muestras…*
 
-- **B67-C01 — Selección de sitios de extracción con criterios múltiples.** *Programada.* Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B59 no trata la selección.
-- **B67-C02 — Diseño de un programa de prospección por fases.** *Programada.* Enseña a secuenciar reconocimiento, muestreo y confirmación; no hay clase que integre la prospección en un programa.
-- **B67-C03 — Muestreo criogénico y preservación de volátiles en muestras.** *Programada.* Cubre toma y conservación de muestras sin pérdida de volátiles; B55-C18 trata solo contaminación de muestras.
-- **B67-C04 — Estimación de reservas y categorías de recursos.** *Programada.* Enseña a clasificar recursos y reservas con incertidumbre; B12 trata estimación general pero no su aplicación a reservas.
-- **B67-C05 — Modelos geoestadísticos de distribución de volátiles.** *Programada.* Aporta interpolación y kriging espacial aplicado a volátiles; B12-C03 trata distribuciones de probabilidad en general.
-- **B67-C06 — Pérdida de volátiles por sublimación y migración térmica.** *Programada.* Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B59 ni B85.
-- **B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas.** *Programada.* Aporta los sensores que detectan y cuantifican volátiles; B44-C02 y B87-C04 no los tratan.
-- **B67-C08 — Informe de disponibilidad de volátiles con incertidumbre.** *Programada.* Enseña a redactar el informe técnico de disponibilidad con intervalos de confianza; sin clase equivalente.
+- **B67-C01 — Selección de sitios de extracción con criterios múltiples.** *Texto redactado, pendiente de revisión.* Aporta la comparación multicriterio de sitios (reserva, accesibilidad, energía, riesgo); B59 no trata la selección.
+- **B67-C02 — Diseño de un programa de prospección por fases.** *Texto redactado, pendiente de revisión.* Enseña a secuenciar reconocimiento, muestreo y confirmación; no hay clase que integre la prospección en un programa.
+- **B67-C03 — Muestreo criogénico y preservación de volátiles en muestras.** *Texto redactado, pendiente de revisión.* Cubre toma y conservación de muestras sin pérdida de volátiles; B55-C18 trata solo contaminación de muestras.
+- **B67-C04 — Estimación de reservas y categorías de recursos.** *Texto redactado, pendiente de revisión.* Enseña a clasificar recursos y reservas con incertidumbre; B12 trata estimación general pero no su aplicación a reservas.
+- **B67-C05 — Modelos geoestadísticos de distribución de volátiles.** *Texto redactado, pendiente de revisión.* Aporta interpolación y kriging espacial aplicado a volátiles; B12-C03 trata distribuciones de probabilidad en general.
+- **B67-C06 — Pérdida de volátiles por sublimación y migración térmica.** *Texto redactado, pendiente de revisión.* Describe pérdida de volátiles durante extracción y almacenamiento; no cubierto en B59 ni B85.
+- **B67-C07 — Sensores para volátiles: espectrometría de neutrones y de masas.** *Texto redactado, pendiente de revisión.* Aporta los sensores que detectan y cuantifican volátiles; B44-C02 y B87-C04 no los tratan.
+- **B67-C08 — Informe de disponibilidad de volátiles con incertidumbre.** *Texto redactado, pendiente de revisión.* Enseña a redactar el informe técnico de disponibilidad con intervalos de confianza; sin clase equivalente.
 
 ### B68 — Química de granos y hielos interestelares
 
 *Bloque nuevo (4 clases): Desorción térmica de hielos interestelares; Fotodesorción de hielos interestelares; Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos…*
 
-- **B68-C01 — Desorción térmica de hielos interestelares.** *Programada.* B55-C06 describe hielos; falta la desorción térmica y su cinética.
-- **B68-C02 — Fotodesorción de hielos interestelares.** *Programada.* Ninguna clase trata fotodesorción.
-- **B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos.** *Programada.* Ninguna clase trata radiólisis de hielos ni los productos de irradiación.
-- **B68-C04 — Laboratorio de astroquímica de hielos en ultra alto vacío criogénico.** *Programada.* Ninguna clase trata montajes de laboratorio criogénico de hielos astrofísicos.
+- **B68-C01 — Desorción térmica de hielos interestelares.** *Texto redactado, pendiente de revisión.* B55-C06 describe hielos; falta la desorción térmica y su cinética.
+- **B68-C02 — Fotodesorción de hielos interestelares.** *Texto redactado, pendiente de revisión.* Ninguna clase trata fotodesorción.
+- **B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata radiólisis de hielos ni los productos de irradiación.
+- **B68-C04 — Laboratorio de astroquímica de hielos en ultra alto vacío criogénico.** *Texto redactado, pendiente de revisión.* Ninguna clase trata montajes de laboratorio criogénico de hielos astrofísicos.
 
 ### B69 — Radar de apertura sintética e interferometría (profundización)
 
 *Bloque nuevo (7 clases): Principio Doppler y resolución en azimut del SAR; Formación de imágenes SAR; Ruido speckle y filtrado en imágenes SAR…*
 
-- **B69-C01 — Principio Doppler y resolución en azimut del SAR.** *Programada.* La resolución fina del SAR sale del procesamiento Doppler; B57-C07 presenta el sistema sin ese principio.
-- **B69-C02 — Formación de imágenes SAR.** *Programada.* Pasar de ecos crudos a una imagen requiere procesamiento SAR; no hay clase que lo trate.
-- **B69-C03 — Ruido speckle y filtrado en imágenes SAR.** *Programada.* El speckle limita la interpretación de imágenes SAR y se filtra con técnicas propias.
-- **B69-C04 — Polarimetría SAR.** *Programada.* Los canales de polarización distinguen superficies; B42-C08 trata polarización de la luz, no del radar.
-- **B69-C05 — Coherencia interferométrica y decorrelación.** *Programada.* La calidad de un interferograma depende de la coherencia; B57-C08 presenta InSAR sin tratarla.
-- **B69-C06 — Deslizamientos y subsidencia medidos con InSAR.** *Programada.* Aplicar InSAR a laderas y subsidencia es una aplicación propia no cubierta por B57-C17 (terremotos).
-- **B69-C07 — Evaluación de la calidad de un interferograma.** *Programada.* Aceptar un resultado InSAR exige revisar fase, coherencia y artefactos; ninguna clase enseña esa evaluación.
+- **B69-C01 — Principio Doppler y resolución en azimut del SAR.** *Texto redactado, pendiente de revisión.* La resolución fina del SAR sale del procesamiento Doppler; B57-C07 presenta el sistema sin ese principio.
+- **B69-C02 — Formación de imágenes SAR.** *Texto redactado, pendiente de revisión.* Pasar de ecos crudos a una imagen requiere procesamiento SAR; no hay clase que lo trate.
+- **B69-C03 — Ruido speckle y filtrado en imágenes SAR.** *Texto redactado, pendiente de revisión.* El speckle limita la interpretación de imágenes SAR y se filtra con técnicas propias.
+- **B69-C04 — Polarimetría SAR.** *Texto redactado, pendiente de revisión.* Los canales de polarización distinguen superficies; B42-C08 trata polarización de la luz, no del radar.
+- **B69-C05 — Coherencia interferométrica y decorrelación.** *Texto redactado, pendiente de revisión.* La calidad de un interferograma depende de la coherencia; B57-C08 presenta InSAR sin tratarla.
+- **B69-C06 — Deslizamientos y subsidencia medidos con InSAR.** *Texto redactado, pendiente de revisión.* Aplicar InSAR a laderas y subsidencia es una aplicación propia no cubierta por B57-C17 (terremotos).
+- **B69-C07 — Evaluación de la calidad de un interferograma.** *Texto redactado, pendiente de revisión.* Aceptar un resultado InSAR exige revisar fase, coherencia y artefactos; ninguna clase enseña esa evaluación.
 
 ### B70 — Vulcanismo planetario
 
 *Bloque nuevo (7 clases): Volcanismo basáltico: escudos, fisuras y llanuras planetarias; Domos volcánicos y vulcanismo evolucionado; Calderas planetarias: formación y colapso…*
 
-- **B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias.** *Programada.* B53-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología.
-- **B70-C02 — Domos volcánicos y vulcanismo evolucionado.** *Programada.* Ninguna clase trata domos ni magmas evolucionados.
-- **B70-C03 — Calderas planetarias: formación y colapso.** *Programada.* Ninguna clase trata la mecánica de calderas.
-- **B70-C04 — Vulcanismo marciano: provincias, edades y evolución.** *Programada.* B53-C11 es genérico; el caso Marte (Tharsis, Olimpo) requiere clase propia.
-- **B70-C05 — Actividad volcánica venusina: llanuras, coronas e indicios de actividad reciente.** *Programada.* B54-C13 trata la atmósfera de Venus; la superficie y su vulcanismo no están cubiertos.
-- **B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles.** *Programada.* B53-C15 describe Encélado; la mecánica del criovulcanismo como categoría no está cubierta.
-- **B70-C07 — Flujos de lava y depósitos piroclásticos.** *Programada.* Ninguna clase trata reología de lavas, longitud de flujo ni depósitos explosivos.
+- **B70-C01 — Volcanismo basáltico: escudos, fisuras y llanuras planetarias.** *Texto redactado, pendiente de revisión.* B53-C11 es panorama de vulcanismo; falta el estudio de estilos basálticos y su morfología.
+- **B70-C02 — Domos volcánicos y vulcanismo evolucionado.** *Texto redactado, pendiente de revisión.* Ninguna clase trata domos ni magmas evolucionados.
+- **B70-C03 — Calderas planetarias: formación y colapso.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la mecánica de calderas.
+- **B70-C04 — Vulcanismo marciano: provincias, edades y evolución.** *Texto redactado, pendiente de revisión.* B53-C11 es genérico; el caso Marte (Tharsis, Olimpo) requiere clase propia.
+- **B70-C05 — Actividad volcánica venusina: llanuras, coronas e indicios de actividad reciente.** *Texto redactado, pendiente de revisión.* B54-C13 trata la atmósfera de Venus; la superficie y su vulcanismo no están cubiertos.
+- **B70-C06 — Criovulcanismo: lavas heladas y emisión de volátiles.** *Texto redactado, pendiente de revisión.* B53-C15 describe Encélado; la mecánica del criovulcanismo como categoría no está cubierta.
+- **B70-C07 — Flujos de lava y depósitos piroclásticos.** *Texto redactado, pendiente de revisión.* Ninguna clase trata reología de lavas, longitud de flujo ni depósitos explosivos.
 
 ## A06 — Mecánica orbital, navegación y vuelo espacial
 
