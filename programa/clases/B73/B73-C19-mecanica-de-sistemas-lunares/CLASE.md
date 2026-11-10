@@ -1,7 +1,7 @@
 # B73-C19 — Mecánica de sistemas lunares
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C18 — Satélites irregulares](../B73-C18-satelites-irregulares/CLASE.md) · [Siguiente: B73-C20 — Proyecto de integración celeste de precisión →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c20)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [← Anterior: B73-C18 — Satélites irregulares](../B73-C18-satelites-irregulares/CLASE.md) · [Siguiente: B73-C20 — Proyecto de integración celeste de precisión →](../B73-C20-proyecto-de-integracion-celeste-de-precision/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ El achatamiento y el Sol dan precesiones del orden correcto pero no exactas (has
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B73-C18 — Satélites irregulares](../B73-C18-satelites-irregulares/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C20 — Proyecto de integración celeste de precisión →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c20)
+[← Anterior: B73-C18 — Satélites irregulares](../B73-C18-satelites-irregulares/CLASE.md) · [📚 Bloque B73](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md) · [Siguiente: B73-C20 — Proyecto de integración celeste de precisión →](../B73-C20-proyecto-de-integracion-celeste-de-precision/CLASE.md)
 <!-- /nav -->

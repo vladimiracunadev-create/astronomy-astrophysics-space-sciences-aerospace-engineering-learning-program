@@ -59,8 +59,8 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b73-c08"></a>[B73-C08](../clases/B73/B73-C08-sistemas-de-n-cuerpos/CLASE.md) | Sistemas de N cuerpos | Suma directa, integrador simpléctico y leyes de conservación en un sistema joviano. | Ficha de conservación de un sistema de cuatro cuerpos |
-| <a id="b73-c09"></a>[B73-C09](../clases/B73/B73-C09-integracion-de-largo-plazo/CLASE.md) | Integración de largo plazo | Error de energía de integradores simplécticos y no simplécticos; ley de Brouwer. | Comparación de integradores en 10⁴ órbitas |
+| <a id="b73-c08"></a>[B73-C08](../clases/B73/B73-C08-sistemas-de-n-cuerpos/CLASE.md) | Sistemas de N cuerpos | Suma directa, integrador simpléctico y leyes de conservación en un sistema joviano. | Ficha de conservación de un sistema de cinco cuerpos |
+| <a id="b73-c09"></a>[B73-C09](../clases/B73/B73-C09-integracion-de-largo-plazo/CLASE.md) | Integración de largo plazo | Error de energía de integradores simplécticos y no simplécticos, pendiente log–log y reversibilidad. | Comparación de integradores en 10⁴ órbitas |
 | <a id="b73-c21"></a>[B73-C21](../clases/B73/B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) | Pasos cercanos a satélites naturales en integración de N cuerpos *(ampliación `0.2.0`)* | Encuentro hiperbólico con una luna, paso fijo frente a paso adaptativo. | Comparación de errores de deflexión |
 
 ### Tramo 3 · Resonancias
@@ -69,7 +69,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b73-c10"></a>[B73-C10](../clases/B73/B73-C10-resonancias-de-movimiento-medio/CLASE.md) | Resonancias de movimiento medio | Cocientes de movimiento medio y la relación de Laplace de los satélites galileanos. | Tabla de resonancias con residuos |
 | <a id="b73-c11"></a>[B73-C11](../clases/B73/B73-C11-resonancias-seculares/CLASE.md) | Resonancias seculares | Teoría secular de Laplace–Lagrange de dos planetas y sus frecuencias propias. | Ficha secular de un par Júpiter–Saturno |
-| <a id="b73-c12"></a>[B73-C12](../clases/B73/B73-C12-captura-y-escape-resonante/CLASE.md) | Captura y escape resonante | Modelo de péndulo con deriva y probabilidad de captura frente a la tasa de migración. | Curva de captura frente a tasa (semilla fija) |
+| <a id="b73-c12"></a>[B73-C12](../clases/B73/B73-C12-captura-y-escape-resonante/CLASE.md) | Captura y escape resonante | Péndulo de intensidad variable: área de la separatriz, invariante adiabático, escape y fracción capturada con deriva. | Curva de captura frente a tasa (semilla fija) |
 
 ### Tramo 4 · Caos
 
@@ -115,7 +115,7 @@ El bloque es educativo. Los integradores son de pocas líneas y de paso fijo o a
 
 ## 📖 Fuentes consultadas en el bloque (resumen)
 
-Consultadas el 2026-11-10: la tabla de parámetros físicos de planetas y de satélites del JPL (radios medios, `GM` de la Luna, los satélites galileanos y Titán), las tablas de elementos orbitales medios de los satélites del JPL (época J2000, plano de Laplace en los planetas gigantes), las fichas de datos de la NASA/NSSDC (Sol, Júpiter, Saturno, planetas, satélites joviano y saturniano) y la página de la órbita del telescopio Webb en L2 (NASA). Las leyes y teorías (Routh, Hill, Laplace–Lagrange, Brouwer, Chirikov, Roche) son resultados estándar que cada laboratorio verifica y no se consultaron en su fuente original. No se consultó el Archivo de Exoplanetas de la NASA (respondió 503): los sistemas exoplanetarios del bloque son sintéticos. Las páginas de la NASA no fijan una incertidumbre propia en varios campos; se indica en cada clase.
+Consultadas el 2026-11-10: la tabla de parámetros físicos de planetas y de satélites del JPL (radios medios, `GM` de la Luna, los satélites galileanos y Titán), las tablas de elementos orbitales medios de los satélites del JPL (época J2000, plano de Laplace en los planetas gigantes), las fichas de datos de la NASA/NSSDC (Sol, Júpiter, Saturno, planetas, satélites joviano y saturniano) y la página de la órbita del telescopio Webb en L2 (NASA). Las leyes y teorías (Routh, Hill, Laplace–Lagrange, Chirikov, Roche, Gladman, Kozai) son resultados estándar que cada laboratorio verifica y no se consultaron en su fuente original. No se consultó el Archivo de Exoplanetas de la NASA (respondió 503): los sistemas exoplanetarios del bloque son sintéticos. La tabla de elementos de satélites del JPL da, para los galileanos, periodos que no sirven para decidir resonancias (ver B73-C10); las páginas de la NASA no fijan una incertidumbre propia en varios campos; se indica en cada clase.
 
 ## Fuentes de orientación preliminar
 
