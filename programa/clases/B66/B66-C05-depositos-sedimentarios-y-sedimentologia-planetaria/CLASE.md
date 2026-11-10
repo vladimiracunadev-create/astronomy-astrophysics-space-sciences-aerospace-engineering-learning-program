@@ -1,7 +1,7 @@
 # B66-C05 — Depósitos sedimentarios y sedimentología planetaria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B66](../../../tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md) · [← Anterior: B66-C04 — Redes fluviales fósiles y paleohidrología marciana](../B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md) · [Siguiente: B67-C01 — Selección de sitios de extracción con criterios múltiples →](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md#b67-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B66](../../../tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md) · [← Anterior: B66-C04 — Redes fluviales fósiles y paleohidrología marciana](../B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md) · [Siguiente: B67-C01 — Selección de sitios de extracción con criterios múltiples →](../../B67/B67-C01-seleccion-de-sitios-de-extraccion-con-criterios-multiples/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ Una arena de 0,5 mm cae al `50 %` de su velocidad terrestre en Marte, un delta s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B66-C04 — Redes fluviales fósiles y paleohidrología marciana](../B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md) · [📚 Bloque B66](../../../tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md) · [Siguiente: B67-C01 — Selección de sitios de extracción con criterios múltiples →](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md#b67-c01)
+[← Anterior: B66-C04 — Redes fluviales fósiles y paleohidrología marciana](../B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md) · [📚 Bloque B66](../../../tronco-comun/B66-geomorfologia-y-procesos-superficiales-planetarios.md) · [Siguiente: B67-C01 — Selección de sitios de extracción con criterios múltiples →](../../B67/B67-C01-seleccion-de-sitios-de-extraccion-con-criterios-multiples/CLASE.md)
 <!-- /nav -->
