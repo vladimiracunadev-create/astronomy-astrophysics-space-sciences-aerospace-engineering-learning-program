@@ -1,7 +1,7 @@
 # B58-C20 — Simulador de riesgo de impacto basado en datos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C19 — Comunicación pública del riesgo](../B58-C19-comunicacion-publica-del-riesgo/CLASE.md) · [Siguiente: B59-C01 — Concepto de utilización de recursos in situ →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [← Anterior: B58-C19 — Comunicación pública del riesgo](../B58-C19-comunicacion-publica-del-riesgo/CLASE.md) · [Siguiente: B59-C01 — Concepto de utilización de recursos in situ →](../../B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ El simulador encadena clasificación, PHA, Palermo y ley de fondo, y reproduce l
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B58-C19 — Comunicación pública del riesgo](../B58-C19-comunicacion-publica-del-riesgo/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B59-C01 — Concepto de utilización de recursos in situ →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c01)
+[← Anterior: B58-C19 — Comunicación pública del riesgo](../B58-C19-comunicacion-publica-del-riesgo/CLASE.md) · [📚 Bloque B58](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md) · [Siguiente: B59-C01 — Concepto de utilización de recursos in situ →](../../B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/CLASE.md)
 <!-- /nav -->

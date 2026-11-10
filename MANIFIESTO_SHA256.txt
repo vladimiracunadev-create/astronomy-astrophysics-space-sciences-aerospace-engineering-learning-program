@@ -3288,10 +3288,10 @@ ccec8682ba6211cf9a1d12e1ea441682f734bc3b53afa278f20b92f64b9d29e9  programa/clase
 92099d59f255995c26bf8da2fe044818158aa41b15508f9816a0c952a6676010  programa/clases/B58/B58-C19-comunicacion-publica-del-riesgo/CLASE.md
 749393d99f772346972e1b507e4f1003dc906369322bdd0d801b72ed3c9c16f6  programa/clases/B58/B58-C19-comunicacion-publica-del-riesgo/FICHA_EDITORIAL.md
 ac1bad8f2bfb7b15702b6c998a657edcd8a2ca1583bc305d97a53855efa5d67e  programa/clases/B58/B58-C19-comunicacion-publica-del-riesgo/comunicacion.py
-9642c8239ff56f815b1918e9fec7db2fbbf07d53693ad82bb5680ef7bb616c56  programa/clases/B58/B58-C20-simulador-de-riesgo-de-impacto-basado-en-datos/CLASE.md
+0a4f686c9d75357ef3b6bf4067b081c9db0e7e3c6e982764448b9ab949360296  programa/clases/B58/B58-C20-simulador-de-riesgo-de-impacto-basado-en-datos/CLASE.md
 80cbd83010a1f00ae3708525ba434685e32e72fe6e708024d7dfdf739201041b  programa/clases/B58/B58-C20-simulador-de-riesgo-de-impacto-basado-en-datos/FICHA_EDITORIAL.md
 21db74ff601307831c8299d2e518a98773342a9c3a335dd96d70806a60cea014  programa/clases/B58/B58-C20-simulador-de-riesgo-de-impacto-basado-en-datos/simulador.py
-55cfb889c0b875fb795a0ca1412057e93f8127244171ac8d931a8df68bea5868  programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/CLASE.md
+bc84321bc9ab03509d49282c5db7d8ac99862688bff9273394ac8f4b8afabd1b  programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/CLASE.md
 03459d58bbc726c02b3981658587ff5c94172a35c645d38c84730e22332d25bd  programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/FICHA_EDITORIAL.md
 3fdaf77626b5364f9b3512423175df9c98a2f06d8c3cd018a25a7dd71b503648  programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/apalancamiento.py
 275a4af3eee0760908cc31547c0d059b421bb4c80878027a2cf646a550ff9caf  programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md
@@ -3499,12 +3499,12 @@ be13ca1fd3ec8100b76af112cafba1a95cec82f85fca1b4a7342e6ef6357f83e  programa/rutas
 f5f886779f28d46969eb4515a6ab3272647e4bfcd77dea698aef3ccf4e3bfa2b  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M06-blindaje-y-proteccion-ambiental.md
 070d7701c377e9540e21b1b2e6acfb20c741435c01738753700ba7c9a07ce3e9  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M07-ergonomia-y-bienestar-de-tripulacion.md
 70f54e55c13461d712a20af35bfa8cee86db3854bea42268d0c900bf098eb688  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/R20-M08-diseno-integral-de-habitat-lunar-o-marciano.md
-a5b26930870d4e52dabc817f00d61a73725a5aa794c02e18e4bce0755a7392f4  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/RECORRIDO.md
+c2373282a94c50849c270a981a68c24fa3be23e6c4eabd0d07b9b9b4a2023890  programa/rutas-profesionales/R20-arquitectura-y-habitats-extraterrestres/RECORRIDO.md
 2c4da9c9914bc8a3700892697dc34468cb326056b4701503da1ad92b982ff2f0  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/GUIA_DEL_ROL.md
 6786fd147f92eeb6bf602a91302453616c61883e2bfa58e5fa36f011b1879cb0  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/INDICE.md
 f3c905257458d3c844e7ddb8a64a83e8357a3dbb17f0dff1e5367daf5d0b5a49  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M02-hielos-y-volatiles-de-interes.md
 6d72bc23349e1498dae25a67ae66fc1ff39ab5e606535bb0b3b8727266fd9a3e  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/R21-M06-manufactura-en-cuerpos-celestes.md
-9cfd7253b0a5bc5a775568037354c829399ae0f95b7d669b90c8f5ed61806b9a  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/RECORRIDO.md
+8fa410bcc54dbfc96c9b2af66e3643592e247817c607fec1ddead00e638e4297  programa/rutas-profesionales/R21-recursos-extraterrestres-y-economia-industrial-espacial/RECORRIDO.md
 48fa4f04ea0f7469c2da08b6c14e5cf2f2538e2f486745d626e1afa0adf4a7b5  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/GUIA_DEL_ROL.md
 859677d1a6aae0ef987dbde54c4f5c7ce8cf80b0a14b48a489ac50fff9828314  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/INDICE.md
 de78af8afb0b0dd8f1f4f561e285e4d0de4a624e4c2a78a914cf1bf7680bc496  programa/rutas-profesionales/R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/RECORRIDO.md

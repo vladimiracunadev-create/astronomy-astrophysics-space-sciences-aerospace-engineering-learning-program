@@ -1,7 +1,7 @@
 # B59-C01 — Concepto de utilización de recursos in situ
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B58-C20 — Simulador de riesgo de impacto basado en datos](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c20) · [Siguiente: B59-C02 — Prospección de hielo lunar →](../B59-C02-prospeccion-de-hielo-lunar/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B58-C20 — Simulador de riesgo de impacto basado en datos](../../B58/B58-C20-simulador-de-riesgo-de-impacto-basado-en-datos/CLASE.md) · [Siguiente: B59-C02 — Prospección de hielo lunar →](../B59-C02-prospeccion-de-hielo-lunar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La ecuación del cohete convierte un delta-v en `5 485,6 kg` de propelente, y pr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B58-C20 — Simulador de riesgo de impacto basado en datos](../../../tronco-comun/B58-asteroides-cometas-y-defensa-planetaria.md#b58-c20) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C02 — Prospección de hielo lunar →](../B59-C02-prospeccion-de-hielo-lunar/CLASE.md)
+[← Anterior: B58-C20 — Simulador de riesgo de impacto basado en datos](../../B58/B58-C20-simulador-de-riesgo-de-impacto-basado-en-datos/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C02 — Prospección de hielo lunar →](../B59-C02-prospeccion-de-hielo-lunar/CLASE.md)
 <!-- /nav -->
