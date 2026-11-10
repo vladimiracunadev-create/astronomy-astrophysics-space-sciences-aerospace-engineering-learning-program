@@ -1,7 +1,7 @@
 # B90-C16 — Pruebas de extremo a extremo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C15 — Pruebas de despliegue](../B90-C15-pruebas-de-despliegue/CLASE.md) · [Siguiente: B90-C17 — Gestión de anomalías de prueba →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C15 — Pruebas de despliegue](../B90-C15-pruebas-de-despliegue/CLASE.md) · [Siguiente: B90-C17 — Gestión de anomalías de prueba →](../B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ Con BER de 10⁻⁴ una trama de 1 040 bits falla el 9,9 % de las veces y cada t
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B90-C15 — Pruebas de despliegue](../B90-C15-pruebas-de-despliegue/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C17 — Gestión de anomalías de prueba →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c17)
+[← Anterior: B90-C15 — Pruebas de despliegue](../B90-C15-pruebas-de-despliegue/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C17 — Gestión de anomalías de prueba →](../B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
 <!-- /nav -->
