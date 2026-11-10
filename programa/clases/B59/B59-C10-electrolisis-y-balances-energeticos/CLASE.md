@@ -1,7 +1,7 @@
 # B59-C10 — Electrólisis y balances energéticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C09 — Fabricación de combustibles conceptuales](../B59-C09-fabricacion-de-combustibles-conceptuales/CLASE.md) · [Siguiente: B59-C11 — Construcción con regolito →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C09 — Fabricación de combustibles conceptuales](../B59-C09-fabricacion-de-combustibles-conceptuales/CLASE.md) · [Siguiente: B59-C11 — Construcción con regolito →](../B59-C11-construccion-con-regolito/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ La tensión termoneutra es `1,2532 V` (`33,32 kWh/kg`); la planta ilustrativa de
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C09 — Fabricación de combustibles conceptuales](../B59-C09-fabricacion-de-combustibles-conceptuales/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C11 — Construcción con regolito →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c11)
+[← Anterior: B59-C09 — Fabricación de combustibles conceptuales](../B59-C09-fabricacion-de-combustibles-conceptuales/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C11 — Construcción con regolito →](../B59-C11-construccion-con-regolito/CLASE.md)
 <!-- /nav -->
