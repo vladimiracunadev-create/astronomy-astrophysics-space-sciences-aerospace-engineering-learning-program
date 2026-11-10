@@ -1,7 +1,7 @@
 # B90-C08 — Procedimientos de prueba funcional
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C07 — Integración eléctrica de buses](../B90-C07-integracion-electrica-de-buses/CLASE.md) · [Siguiente: B90-C09 — Ensayos de vibración →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C07 — Integración eléctrica de buses](../B90-C07-integracion-electrica-de-buses/CLASE.md) · [Siguiente: B90-C09 — Ensayos de vibración →](../B90-C09-ensayos-de-vibracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ Una banda de guarda igual a la incertidumbre reduce la falsa aceptación de 0,01
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B90-C07 — Integración eléctrica de buses](../B90-C07-integracion-electrica-de-buses/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C09 — Ensayos de vibración →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c09)
+[← Anterior: B90-C07 — Integración eléctrica de buses](../B90-C07-integracion-electrica-de-buses/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C09 — Ensayos de vibración →](../B90-C09-ensayos-de-vibracion/CLASE.md)
 <!-- /nav -->
