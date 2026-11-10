@@ -1,7 +1,7 @@
 # B92-C03 — Adquisición, apuntamiento y seguimiento ópticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md) · [Siguiente: B92-C04 — Atmósfera y nubes en enlaces ópticos con la Tierra →](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md#b92-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md) · [Siguiente: B92-C04 — Atmósfera y nubes en enlaces ópticos con la Tierra →](../B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ Cubrir `±500 µrad` con una baliza de `200 µrad` cuesta `16` posiciones y `4,9
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B92-C04 — Atmósfera y nubes en enlaces ópticos con la Tierra →](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md#b92-c04)
+[← Anterior: B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico](../B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B92-C04 — Atmósfera y nubes en enlaces ópticos con la Tierra →](../B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md)
 <!-- /nav -->
