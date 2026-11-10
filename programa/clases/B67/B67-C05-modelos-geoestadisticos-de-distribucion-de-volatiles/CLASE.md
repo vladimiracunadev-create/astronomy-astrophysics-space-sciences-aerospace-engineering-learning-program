@@ -1,7 +1,7 @@
 # B67-C05 — Modelos geoestadísticos de distribución de volátiles
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [← Anterior: B67-C04 — Estimación de reservas y categorías de recursos](../B67-C04-estimacion-de-reservas-y-categorias-de-recursos/CLASE.md) · [Siguiente: B67-C06 — Pérdida de volátiles por sublimación y migración térmica →](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md#b67-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [← Anterior: B67-C04 — Estimación de reservas y categorías de recursos](../B67-C04-estimacion-de-reservas-y-categorias-de-recursos/CLASE.md) · [Siguiente: B67-C06 — Pérdida de volátiles por sublimación y migración térmica →](../B67-C06-perdida-de-volatiles-por-sublimacion-y-migracion-termica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ El kriging estima 360 celdas con un error `31 %` menor que la media, y avisa dó
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B67-C04 — Estimación de reservas y categorías de recursos](../B67-C04-estimacion-de-reservas-y-categorias-de-recursos/CLASE.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [Siguiente: B67-C06 — Pérdida de volátiles por sublimación y migración térmica →](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md#b67-c06)
+[← Anterior: B67-C04 — Estimación de reservas y categorías de recursos](../B67-C04-estimacion-de-reservas-y-categorias-de-recursos/CLASE.md) · [📚 Bloque B67](../../../tronco-comun/B67-prospeccion-y-evaluacion-de-reservas-de-recursos-extraterrestres.md) · [Siguiente: B67-C06 — Pérdida de volátiles por sublimación y migración térmica →](../B67-C06-perdida-de-volatiles-por-sublimacion-y-migracion-termica/CLASE.md)
 <!-- /nav -->
