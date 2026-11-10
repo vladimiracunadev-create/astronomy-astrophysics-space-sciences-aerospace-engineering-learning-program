@@ -1,7 +1,7 @@
 # B68-C04 — Laboratorio de astroquímica de hielos en ultra alto vacío criogénico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B68](../../../tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md) · [← Anterior: B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos](../B68-C03-irradiacion-de-hielos-por-rayos-cosmicos-y-uv-radiolisis-y-productos/CLASE.md) · [Siguiente: B69-C01 — Principio Doppler y resolución en azimut del SAR →](../../../tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md#b69-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B68](../../../tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md) · [← Anterior: B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos](../B68-C03-irradiacion-de-hielos-por-rayos-cosmicos-y-uv-radiolisis-y-productos/CLASE.md) · [Siguiente: B69-C01 — Principio Doppler y resolución en azimut del SAR →](../../B69/B69-C01-principio-doppler-y-resolucion-en-azimut-del-sar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -317,5 +317,5 @@ Un hielo limpio exige presiones de fondo del orden de `10⁻¹⁰` mbar (7,8 h p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos](../B68-C03-irradiacion-de-hielos-por-rayos-cosmicos-y-uv-radiolisis-y-productos/CLASE.md) · [📚 Bloque B68](../../../tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md) · [Siguiente: B69-C01 — Principio Doppler y resolución en azimut del SAR →](../../../tronco-comun/B69-radar-de-apertura-sintetica-e-interferometria-profundizacion.md#b69-c01)
+[← Anterior: B68-C03 — Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos](../B68-C03-irradiacion-de-hielos-por-rayos-cosmicos-y-uv-radiolisis-y-productos/CLASE.md) · [📚 Bloque B68](../../../tronco-comun/B68-quimica-de-granos-y-hielos-interestelares.md) · [Siguiente: B69-C01 — Principio Doppler y resolución en azimut del SAR →](../../B69/B69-C01-principio-doppler-y-resolucion-en-azimut-del-sar/CLASE.md)
 <!-- /nav -->
