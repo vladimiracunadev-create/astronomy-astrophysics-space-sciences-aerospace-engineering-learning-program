@@ -1,7 +1,7 @@
 # B84-C23 — Vigas y placas: flexión y pandeo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C22 — Tensión, deformación y elasticidad lineal](../B84-C22-tension-deformacion-y-elasticidad-lineal/CLASE.md) · [Siguiente: B84-C24 — Factores de seguridad y márgenes estructurales →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c24)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C22 — Tensión, deformación y elasticidad lineal](../B84-C22-tension-deformacion-y-elasticidad-lineal/CLASE.md) · [Siguiente: B84-C24 — Factores de seguridad y márgenes estructurales →](../B84-C24-factores-de-seguridad-y-margenes-estructurales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ La columna articulada pandea a `6810 N` y la FE lo confirma con `0,0033 %`. Qued
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C22 — Tensión, deformación y elasticidad lineal](../B84-C22-tension-deformacion-y-elasticidad-lineal/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C24 — Factores de seguridad y márgenes estructurales →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c24)
+[← Anterior: B84-C22 — Tensión, deformación y elasticidad lineal](../B84-C22-tension-deformacion-y-elasticidad-lineal/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C24 — Factores de seguridad y márgenes estructurales →](../B84-C24-factores-de-seguridad-y-margenes-estructurales/CLASE.md)
 <!-- /nav -->
