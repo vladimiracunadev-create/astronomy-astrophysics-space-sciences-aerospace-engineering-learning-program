@@ -1,7 +1,7 @@
 # B88-C16 — Ingeniería de seguridad funcional
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C15 — Análisis estático de código](../B88-C15-analisis-estatico-de-codigo/CLASE.md) · [Siguiente: B88-C17 — Ciberseguridad de aviónica →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c17)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C15 — Análisis estático de código](../B88-C15-analisis-estatico-de-codigo/CLASE.md) · [Siguiente: B88-C17 — Ciberseguridad de aviónica →](../B88-C17-ciberseguridad-de-avionica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Tres cortes mínimos explican el 100 % del riesgo del ejemplo, y el fallo único
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C15 — Análisis estático de código](../B88-C15-analisis-estatico-de-codigo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C17 — Ciberseguridad de aviónica →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c17)
+[← Anterior: B88-C15 — Análisis estático de código](../B88-C15-analisis-estatico-de-codigo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C17 — Ciberseguridad de aviónica →](../B88-C17-ciberseguridad-de-avionica/CLASE.md)
 <!-- /nav -->
