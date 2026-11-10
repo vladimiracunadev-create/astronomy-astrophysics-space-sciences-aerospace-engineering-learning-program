@@ -1,7 +1,7 @@
 # B63-C03 — Curaduría y cadena de custodia de muestras
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [← Anterior: B63-C02 — Muestreo superficial y estrategias de recolección](../B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md) · [Siguiente: B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias →](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md#b63-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [← Anterior: B63-C02 — Muestreo superficial y estrategias de recolección](../B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md) · [Siguiente: B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias →](../B63-C04-misiones-de-retorno-de-muestras-salvaguardas-historicas-y-regulatorias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Una cadena sintética de cuatro registros detecta una alteración de un solo cam
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B63-C02 — Muestreo superficial y estrategias de recolección](../B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [Siguiente: B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias →](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md#b63-c04)
+[← Anterior: B63-C02 — Muestreo superficial y estrategias de recolección](../B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md) · [📚 Bloque B63](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md) · [Siguiente: B63-C04 — Misiones de retorno de muestras: salvaguardas históricas y regulatorias →](../B63-C04-misiones-de-retorno-de-muestras-salvaguardas-historicas-y-regulatorias/CLASE.md)
 <!-- /nav -->
