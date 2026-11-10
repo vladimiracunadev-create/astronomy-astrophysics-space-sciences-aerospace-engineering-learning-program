@@ -45,16 +45,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b54-c01"></a>B54-C01 | Estructura vertical de atmósferas | Equilibrio hidrostático por capas, gradientes de temperatura, tropopausa y mesopausa. | Perfil de presión y temperatura por capas |
-| <a id="b54-c02"></a>B54-C02 | Composición química atmosférica | Masa molar media, fracciones por volumen y altura de escala de cinco atmósferas. | Tabla de composición y altura de escala |
-| <a id="b54-c03"></a>B54-C03 | Equilibrio radiativo | Temperatura de equilibrio, albedo de Bond y exceso de la temperatura observada. | Tabla de equilibrio de cuatro planetas |
-| <a id="b54-c04"></a>B54-C04 | Presión y densidad | Gas ideal, columna de masa, atmósfera isoterma y su integración numérica. | Ficha de presión y densidad |
+| <a id="b54-c01"></a>[B54-C01](../clases/B54/B54-C01-estructura-vertical-de-atmosferas/CLASE.md) | Estructura vertical de atmósferas | Equilibrio hidrostático por capas, gradientes de temperatura, tropopausa y mesopausa. | Perfil de presión y temperatura por capas |
+| <a id="b54-c02"></a>[B54-C02](../clases/B54/B54-C02-composicion-quimica-atmosferica/CLASE.md) | Composición química atmosférica | Masa molar media, fracciones por volumen y altura de escala de cinco atmósferas. | Tabla de composición y altura de escala |
+| <a id="b54-c03"></a>[B54-C03](../clases/B54/B54-C03-equilibrio-radiativo/CLASE.md) | Equilibrio radiativo | Temperatura de equilibrio, albedo de Bond y exceso de la temperatura observada. | Tabla de equilibrio de cuatro planetas |
+| <a id="b54-c04"></a>[B54-C04](../clases/B54/B54-C04-presion-y-densidad/CLASE.md) | Presión y densidad | Gas ideal, columna de masa, atmósfera isoterma y su integración numérica. | Ficha de presión y densidad |
 
 ### Tramo 2 · Dinámica y agitación de la atmósfera
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b54-c05"></a>B54-C05 | Transporte convectivo | Gradiente adiabático, criterio de estabilidad y frecuencia de flotabilidad. | Informe de estabilidad de una capa |
+| <a id="b54-c05"></a>[B54-C05](../clases/B54/B54-C05-transporte-convectivo/CLASE.md) | Transporte convectivo | Gradiente adiabático, criterio de estabilidad y frecuencia de flotabilidad. | Informe de estabilidad de una capa |
 | <a id="b54-c06"></a>B54-C06 | Circulación general planetaria | Coriolis, balance geostrófico, número de Rossby y escala de la celda de Hadley. | Ficha de rotación y circulación |
 | <a id="b54-c07"></a>B54-C07 | Dinámica de tormentas | CAPE, velocidad máxima de una corriente ascendente y su límite. | Ficha de energía convectiva de un sondeo sintético |
 | <a id="b54-c08"></a>B54-C08 | Nubes y aerosoles | Clausius–Clapeyron, nivel de condensación y sedimentación de Stokes. | Ficha de condensación y sedimentación |

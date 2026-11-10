@@ -1,7 +1,7 @@
 # B53-C30 — Radar de penetración subsuperficial en cuerpos planetarios
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C29 — Imágenes hiperespectrales de superficies planetarias](../B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md) · [Siguiente: B54-C01 — Estructura vertical de atmósferas →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C29 — Imágenes hiperespectrales de superficies planetarias](../B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md) · [Siguiente: B54-C01 — Estructura vertical de atmósferas →](../../B54/B54-C01-estructura-vertical-de-atmosferas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ La hipérbola da `v = 1,731 × 10⁸ m/s` y `d = 3,00 m`, y suponer `ε = 4` ses
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C29 — Imágenes hiperespectrales de superficies planetarias](../B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B54-C01 — Estructura vertical de atmósferas →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c01)
+[← Anterior: B53-C29 — Imágenes hiperespectrales de superficies planetarias](../B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B54-C01 — Estructura vertical de atmósferas →](../../B54/B54-C01-estructura-vertical-de-atmosferas/CLASE.md)
 <!-- /nav -->
