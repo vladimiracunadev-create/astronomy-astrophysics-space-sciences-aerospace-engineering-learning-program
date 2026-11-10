@@ -87,19 +87,19 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b56-c17"></a>[B56-C17](../clases/B56/B56-C17-control-de-contaminacion-biologica/CLASE.md) | Control de contaminación biológica | Reducción logarítmica de esporas y presupuesto de carga biológica. | Presupuesto de carga biológica |
 | <a id="b56-c18"></a>[B56-C18](../clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md) | Protección planetaria COSPAR | Categorías I–V, objetivos y probabilidades límite de la política vigente. | Clasificación de misiones |
-| <a id="b56-c19"></a>B56-C19 | Ética del descubrimiento de vida | Acumulación de evidencia en log-odds y criterios para anunciar o contener. | Protocolo de comunicación de un candidato |
+| <a id="b56-c19"></a>[B56-C19](../clases/B56/B56-C19-etica-del-descubrimiento-de-vida/CLASE.md) | Ética del descubrimiento de vida | Acumulación de evidencia en log-odds y criterios para anunciar o contener. | Protocolo de comunicación de un candidato |
 
 ### Tramo 6 · Integración
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b56-c20"></a>B56-C20 | Diseño de misión astrobiológica conceptual | Requisitos, Δv de transferencia, masa de propelente y verificación contra una integración numérica. | Esbozo de misión con presupuesto |
+| <a id="b56-c20"></a>[B56-C20](../clases/B56/B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md) | Diseño de misión astrobiológica conceptual | Requisitos, Δv de transferencia, masa de propelente y verificación contra una integración numérica. | Esbozo de misión con presupuesto |
 
 ### Tramo 7 · Ampliación `0.2.0`: polimerización prebiótica
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b56-c21"></a>B56-C21 | Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio | Distribución de longitudes de oligómeros (Flory) y efecto de los ciclos húmedo–seco. | Distribución de oligómeros de un experimento sintético |
+| <a id="b56-c21"></a>[B56-C21](../clases/B56/B56-C21-polimerizacion-prebiotica-experimental-oligomeros-y-condiciones-de-laboratorio/CLASE.md) | Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio | Distribución de longitudes de oligómeros (Flory) y efecto de los ciclos húmedo–seco. | Distribución de oligómeros de un experimento sintético |
 
 ## 🧵 Hilos que atraviesan el bloque
 

@@ -1,7 +1,7 @@
 # B56-C18 — Protección planetaria COSPAR
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C17 — Control de contaminación biológica](../B56-C17-control-de-contaminacion-biologica/CLASE.md) · [Siguiente: B56-C19 — Ética del descubrimiento de vida →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [← Anterior: B56-C17 — Control de contaminación biológica](../B56-C17-control-de-contaminacion-biologica/CLASE.md) · [Siguiente: B56-C19 — Ética del descubrimiento de vida →](../B56-C19-etica-del-descubrimiento-de-vida/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ La categoría de una misión sale del cuerpo y del tipo de misión; los mundos h
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B56-C17 — Control de contaminación biológica](../B56-C17-control-de-contaminacion-biologica/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C19 — Ética del descubrimiento de vida →](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md#b56-c19)
+[← Anterior: B56-C17 — Control de contaminación biológica](../B56-C17-control-de-contaminacion-biologica/CLASE.md) · [📚 Bloque B56](../../../tronco-comun/B56-astrobiologia-y-vida-extraterrestre.md) · [Siguiente: B56-C19 — Ética del descubrimiento de vida →](../B56-C19-etica-del-descubrimiento-de-vida/CLASE.md)
 <!-- /nav -->
