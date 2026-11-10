@@ -1,7 +1,7 @@
 # B96-C30 — Registro y auditoría de operaciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C29 — Diagnóstico de fallas de enlace](../B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md) · [Siguiente: B97-C01 — Robots rover y orbitadores →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C29 — Diagnóstico de fallas de enlace](../B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md) · [Siguiente: B97-C01 — Robots rover y orbitadores →](../../B97/B97-C01-robots-rover-y-orbitadores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ La bitácora sintética detecta las 350 manipulaciones probadas, pero no el borr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B96-C29 — Diagnóstico de fallas de enlace](../B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B97-C01 — Robots rover y orbitadores →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c01)
+[← Anterior: B96-C29 — Diagnóstico de fallas de enlace](../B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B97-C01 — Robots rover y orbitadores →](../../B97/B97-C01-robots-rover-y-orbitadores/CLASE.md)
 <!-- /nav -->

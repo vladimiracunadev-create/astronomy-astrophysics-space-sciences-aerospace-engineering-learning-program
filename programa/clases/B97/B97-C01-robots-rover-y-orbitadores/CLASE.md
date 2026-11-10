@@ -1,7 +1,7 @@
 # B97-C01 — Robots rover y orbitadores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B96-C30 — Registro y auditoría de operaciones](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c30) · [Siguiente: B97-C02 — Cinemática de manipuladores →](../B97-C02-cinematica-de-manipuladores/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B96-C30 — Registro y auditoría de operaciones](../../B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md) · [Siguiente: B97-C02 — Cinemática de manipuladores →](../B97-C02-cinematica-de-manipuladores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Un orbitador cubre `100 × 100 km` en unos 4,4 min; un rover tarda 16,4 días en
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B96-C30 — Registro y auditoría de operaciones](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c30) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C02 — Cinemática de manipuladores →](../B97-C02-cinematica-de-manipuladores/CLASE.md)
+[← Anterior: B96-C30 — Registro y auditoría de operaciones](../../B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C02 — Cinemática de manipuladores →](../B97-C02-cinematica-de-manipuladores/CLASE.md)
 <!-- /nav -->

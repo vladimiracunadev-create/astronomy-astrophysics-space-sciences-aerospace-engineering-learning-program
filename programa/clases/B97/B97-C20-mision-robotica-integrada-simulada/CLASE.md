@@ -21,7 +21,7 @@ Una misión se diseña con un presupuesto de días y de margen. Un modelo integr
 5. Calcular el percentil 95 de la duración.
 6. Hacer un análisis de sensibilidad y separar lo consultado de lo sintético.
 
-La evidencia es la **informe de una misión robótica simulada** del ejercicio 12 (sección 20).
+La evidencia es el **informe de una misión robótica simulada** del ejercicio 12 (sección 20).
 
 ## 4. Con qué llegas y cómo comprobarlo
 

@@ -21,7 +21,7 @@ Declarar «el robot funciona» tras diez pruebas buenas no dice nada sin una con
 5. Calcular la descarga de peso necesaria en un análogo terrestre.
 6. Separar lo consultado (gravedades y masa) de lo ilustrativo (objetivos y geometría).
 
-La evidencia es la **plan de campaña de pruebas en un entorno análogo** del ejercicio 12 (sección 20).
+La evidencia es el **plan de campaña de pruebas en un entorno análogo** del ejercicio 12 (sección 20).
 
 ## 4. Con qué llegas y cómo comprobarlo
 
