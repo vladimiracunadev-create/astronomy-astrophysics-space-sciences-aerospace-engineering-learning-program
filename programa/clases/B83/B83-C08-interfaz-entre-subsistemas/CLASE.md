@@ -1,7 +1,7 @@
 # B83-C08 — Interfaz entre subsistemas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C07 — Arquitecturas de sistemas](../B83-C07-arquitecturas-de-sistemas/CLASE.md) · [Siguiente: B83-C09 — Presupuestos de masa →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C07 — Arquitecturas de sistemas](../B83-C07-arquitecturas-de-sistemas/CLASE.md) · [Siguiente: B83-C09 — Presupuestos de masa →](../B83-C09-presupuestos-de-masa/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ De seis interfaces sintéticas, 3 cumplen y tres necesitan corrección distinta.
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C07 — Arquitecturas de sistemas](../B83-C07-arquitecturas-de-sistemas/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C09 — Presupuestos de masa →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c09)
+[← Anterior: B83-C07 — Arquitecturas de sistemas](../B83-C07-arquitecturas-de-sistemas/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C09 — Presupuestos de masa →](../B83-C09-presupuestos-de-masa/CLASE.md)
 <!-- /nav -->
