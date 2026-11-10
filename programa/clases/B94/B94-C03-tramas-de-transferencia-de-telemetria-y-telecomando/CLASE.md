@@ -1,7 +1,7 @@
 # B94-C03 — Tramas de transferencia de telemetría y telecomando
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [← Anterior: B94-C02 — Entrelazado y concatenación de códigos](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md) · [Siguiente: B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento →](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md#b94-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [← Anterior: B94-C02 — Entrelazado y concatenación de códigos](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md) · [Siguiente: B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento →](../B94-C04-redes-con-retardo-y-desconexion-enrutamiento-y-almacenamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -312,5 +312,5 @@ Una trama de 64 octetos lleva 52 de datos, un CRC que detecta ráfagas de hasta 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B94-C02 — Entrelazado y concatenación de códigos](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [Siguiente: B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento →](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md#b94-c04)
+[← Anterior: B94-C02 — Entrelazado y concatenación de códigos](../B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md) · [📚 Bloque B94](../../../tronco-comun/B94-modulacion-codificacion-y-protocolos-de-enlace.md) · [Siguiente: B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento →](../B94-C04-redes-con-retardo-y-desconexion-enrutamiento-y-almacenamiento/CLASE.md)
 <!-- /nav -->
