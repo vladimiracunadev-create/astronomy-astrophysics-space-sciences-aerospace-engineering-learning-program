@@ -1,7 +1,7 @@
 # B78-C01 — Empuje e impulso específico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [← Anterior: B77-C25 — Corredores de entrada y límites de trayectoria](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c25) · [Siguiente: B78-C02 — Propulsión química como sistema físico →](../B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [← Anterior: B77-C25 — Corredores de entrada y límites de trayectoria](../../B77/B77-C25-corredores-de-entrada-y-limites-de-trayectoria/CLASE.md) · [Siguiente: B78-C02 — Propulsión química como sistema físico →](../B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Un motor iónico de `91 mN` gasta `3,25 mg/s` y tiene un `Isp` de unos `2855 s`;
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B77-C25 — Corredores de entrada y límites de trayectoria](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c25) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [Siguiente: B78-C02 — Propulsión química como sistema físico →](../B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md)
+[← Anterior: B77-C25 — Corredores de entrada y límites de trayectoria](../../B77/B77-C25-corredores-de-entrada-y-limites-de-trayectoria/CLASE.md) · [📚 Bloque B78](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md) · [Siguiente: B78-C02 — Propulsión química como sistema físico →](../B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md)
 <!-- /nav -->

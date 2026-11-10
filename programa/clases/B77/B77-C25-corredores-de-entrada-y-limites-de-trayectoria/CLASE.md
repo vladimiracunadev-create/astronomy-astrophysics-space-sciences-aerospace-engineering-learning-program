@@ -1,7 +1,7 @@
 # B77-C25 — Corredores de entrada y límites de trayectoria
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C24 — Guiado y control de actitud de lanzadores (TVC)](../B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md) · [Siguiente: B78-C01 — Empuje e impulso específico →](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md#b78-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C24 — Guiado y control de actitud de lanzadores (TVC)](../B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md) · [Siguiente: B78-C01 — Empuje e impulso específico →](../../B78/B78-C01-empuje-e-impulso-especifico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ El vehículo sintético tiene un corredor balístico de `1,4°` y con sustentaci
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B77-C24 — Guiado y control de actitud de lanzadores (TVC)](../B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B78-C01 — Empuje e impulso específico →](../../../tronco-comun/B78-tecnologias-de-propulsion-espacial.md#b78-c01)
+[← Anterior: B77-C24 — Guiado y control de actitud de lanzadores (TVC)](../B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B78-C01 — Empuje e impulso específico →](../../B78/B78-C01-empuje-e-impulso-especifico/CLASE.md)
 <!-- /nav -->

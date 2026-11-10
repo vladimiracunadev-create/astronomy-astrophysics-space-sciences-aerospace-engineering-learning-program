@@ -1,7 +1,7 @@
 # B77-C20 — Simulación académica de una trayectoria de vuelo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C19 — Seguridad de rango a nivel conceptual](../B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md) · [Siguiente: B77-C21 — Centro de presión y margen estático →](../B77-C21-centro-de-presion-y-margen-estatico/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [← Anterior: B77-C19 — Seguridad de rango a nivel conceptual](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c19) · [Siguiente: B77-C21 — Centro de presión y margen estático →](../B77-C21-centro-de-presion-y-margen-estatico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Una simulación sintética de dos etapas llega a `217 × 243 km` con pérdidas d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B77-C19 — Seguridad de rango a nivel conceptual](../B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C21 — Centro de presión y margen estático →](../B77-C21-centro-de-presion-y-margen-estatico/CLASE.md)
+[← Anterior: B77-C19 — Seguridad de rango a nivel conceptual](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md#b77-c19) · [📚 Bloque B77](../../../tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md) · [Siguiente: B77-C21 — Centro de presión y margen estático →](../B77-C21-centro-de-presion-y-margen-estatico/CLASE.md)
 <!-- /nav -->

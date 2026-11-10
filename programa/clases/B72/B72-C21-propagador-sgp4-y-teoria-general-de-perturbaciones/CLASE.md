@@ -1,7 +1,7 @@
 # B72-C21 — Propagador SGP4 y teoría general de perturbaciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [← Anterior: B72-C20 — Comparación de propagadores de fidelidad distinta](../B72-C20-comparacion-de-propagadores-de-fidelidad-distinta/CLASE.md) · [Siguiente: B73-C01 — Problema restringido de tres cuerpos →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [← Anterior: B72-C20 — Comparación de propagadores de fidelidad distinta](../B72-C20-comparacion-de-propagadores-de-fidelidad-distinta/CLASE.md) · [Siguiente: B73-C01 — Problema restringido de tres cuerpos →](../../B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -327,5 +327,5 @@ Un conjunto sintético de `15,5 rev/día` se convierte de `6794,865 km` (Kozai) 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B72-C20 — Comparación de propagadores de fidelidad distinta](../B72-C20-comparacion-de-propagadores-de-fidelidad-distinta/CLASE.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [Siguiente: B73-C01 — Problema restringido de tres cuerpos →](../../../tronco-comun/B73-mecanica-celeste-resonancias-y-caos.md#b73-c01)
+[← Anterior: B72-C20 — Comparación de propagadores de fidelidad distinta](../B72-C20-comparacion-de-propagadores-de-fidelidad-distinta/CLASE.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [Siguiente: B73-C01 — Problema restringido de tres cuerpos →](../../B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md)
 <!-- /nav -->
