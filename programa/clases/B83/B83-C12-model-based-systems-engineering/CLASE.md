@@ -1,7 +1,7 @@
 # B83-C12 — Model-Based Systems Engineering
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C11 — Presupuestos de datos](../B83-C11-presupuestos-de-datos/CLASE.md) · [Siguiente: B83-C13 — Revisiones SRR y PDR →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [← Anterior: B83-C11 — Presupuestos de datos](../B83-C11-presupuestos-de-datos/CLASE.md) · [Siguiente: B83-C13 — Revisiones SRR y PDR →](../B83-C13-revisiones-srr-y-pdr/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ El modelo de ESTRELLA-S (sintético) muestra que exigir 4 m de GSD en lugar de 5
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B83-C11 — Presupuestos de datos](../B83-C11-presupuestos-de-datos/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C13 — Revisiones SRR y PDR →](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md#b83-c13)
+[← Anterior: B83-C11 — Presupuestos de datos](../B83-C11-presupuestos-de-datos/CLASE.md) · [📚 Bloque B83](../../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) · [Siguiente: B83-C13 — Revisiones SRR y PDR →](../B83-C13-revisiones-srr-y-pdr/CLASE.md)
 <!-- /nav -->
