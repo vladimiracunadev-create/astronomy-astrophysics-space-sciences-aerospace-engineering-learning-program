@@ -1,7 +1,7 @@
 # B90-C11 — Ensayos térmicos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C10 — Ensayos de choque](../B90-C10-ensayos-de-choque/CLASE.md) · [Siguiente: B90-C12 — Vacío térmico y ciclos →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c12)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [← Anterior: B90-C10 — Ensayos de choque](../B90-C10-ensayos-de-choque/CLASE.md) · [Siguiente: B90-C12 — Vacío térmico y ciclos →](../B90-C12-vacio-termico-y-ciclos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Con `τ = 15 min` y una rampa de 1 K/min la unidad va 15 K atrasada y tarda 44 m
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B90-C10 — Ensayos de choque](../B90-C10-ensayos-de-choque/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C12 — Vacío térmico y ciclos →](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md#b90-c12)
+[← Anterior: B90-C10 — Ensayos de choque](../B90-C10-ensayos-de-choque/CLASE.md) · [📚 Bloque B90](../../../tronco-comun/B90-integracion-ensayos-y-calificacion-espacial.md) · [Siguiente: B90-C12 — Vacío térmico y ciclos →](../B90-C12-vacio-termico-y-ciclos/CLASE.md)
 <!-- /nav -->
