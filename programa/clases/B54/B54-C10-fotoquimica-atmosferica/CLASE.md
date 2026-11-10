@@ -1,7 +1,7 @@
 # B54-C10 — Fotoquímica atmosférica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C09 — Efecto invernadero](../B54-C09-efecto-invernadero/CLASE.md) · [Siguiente: B54-C11 — Escape atmosférico →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [← Anterior: B54-C09 — Efecto invernadero](../B54-C09-efecto-invernadero/CLASE.md) · [Siguiente: B54-C11 — Escape atmosférico →](../B54-C11-escape-atmosferico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ La producción máxima cae donde la profundidad óptica es 1 y sube unos 7,5 km 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B54-C09 — Efecto invernadero](../B54-C09-efecto-invernadero/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B54-C11 — Escape atmosférico →](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md#b54-c11)
+[← Anterior: B54-C09 — Efecto invernadero](../B54-C09-efecto-invernadero/CLASE.md) · [📚 Bloque B54](../../../tronco-comun/B54-atmosferas-y-climatologia-planetaria.md) · [Siguiente: B54-C11 — Escape atmosférico →](../B54-C11-escape-atmosferico/CLASE.md)
 <!-- /nav -->

@@ -65,16 +65,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b54-c09"></a>[B54-C09](../clases/B54/B54-C09-efecto-invernadero/CLASE.md) | Efecto invernadero | Atmósfera gris, profundidad óptica equivalente y capa absorbente. | Tabla de invernadero de tres planetas |
 | <a id="b54-c10"></a>[B54-C10](../clases/B54/B54-C10-fotoquimica-atmosferica/CLASE.md) | Fotoquímica atmosférica | Capa de Chapman, tasa de fotólisis, vida fotoquímica y equilibrio. | Ficha de una capa fotoquímica sintética |
-| <a id="b54-c11"></a>B54-C11 | Escape atmosférico | Velocidad de escape, parámetro de Jeans y escape térmico relativo. | Tabla de escape por especie |
-| <a id="b54-c12"></a>B54-C12 | Interacción con radiación solar | Inverso del cuadrado, insolación diaria, Beer–Lambert y seguridad al observar el Sol. | Ficha de insolación y atenuación |
+| <a id="b54-c11"></a>[B54-C11](../clases/B54/B54-C11-escape-atmosferico/CLASE.md) | Escape atmosférico | Velocidad de escape, parámetro de Jeans y escape térmico relativo. | Tabla de escape por especie |
+| <a id="b54-c12"></a>[B54-C12](../clases/B54/B54-C12-interaccion-con-radiacion-solar/CLASE.md) | Interacción con radiación solar | Inverso del cuadrado, insolación diaria, Beer–Lambert y seguridad al observar el Sol. | Ficha de insolación y atenuación |
 
 ### Tramo 4 · Cuatro mundos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b54-c13"></a>B54-C13 | Atmósfera de Venus | Adiabata de CO₂, estructura hasta 1 bar y masa atmosférica. | Ficha de la atmósfera de Venus |
-| <a id="b54-c14"></a>B54-C14 | Atmósfera de Marte | Masa, ciclo estacional del CO₂ y temperatura de escarcha. | Ficha de la atmósfera de Marte |
-| <a id="b54-c15"></a>B54-C15 | Atmósferas de gigantes gaseosos | Altura de escala de H₂/He, balance de Júpiter y adiabata profunda. | Ficha de la atmósfera de Júpiter |
+| <a id="b54-c13"></a>[B54-C13](../clases/B54/B54-C13-atmosfera-de-venus/CLASE.md) | Atmósfera de Venus | Adiabata de CO₂, estructura hasta 1 bar y masa atmosférica. | Ficha de la atmósfera de Venus |
+| <a id="b54-c14"></a>[B54-C14](../clases/B54/B54-C14-atmosfera-de-marte/CLASE.md) | Atmósfera de Marte | Masa, ciclo estacional del CO₂ y temperatura de escarcha. | Ficha de la atmósfera de Marte |
+| <a id="b54-c15"></a>[B54-C15](../clases/B54/B54-C15-atmosferas-de-gigantes-gaseosos/CLASE.md) | Atmósferas de gigantes gaseosos | Altura de escala de H₂/He, balance de Júpiter y adiabata profunda. | Ficha de la atmósfera de Júpiter |
 | <a id="b54-c16"></a>B54-C16 | Atmósferas de Titán | Gravedad, altura de escala, columna y balance de una atmósfera de N₂ y CH₄. | Ficha de la atmósfera de Titán |
 
 ### Tramo 5 · Aplicación
