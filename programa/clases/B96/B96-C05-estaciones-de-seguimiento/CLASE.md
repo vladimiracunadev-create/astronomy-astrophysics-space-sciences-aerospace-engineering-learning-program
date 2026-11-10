@@ -1,7 +1,7 @@
 # B96-C05 — Estaciones de seguimiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C04 — Planificación de contactos](../B96-C04-planificacion-de-contactos/CLASE.md) · [Siguiente: B96-C06 — Telemetría operativa →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [← Anterior: B96-C04 — Planificación de contactos](../B96-C04-planificacion-de-contactos/CLASE.md) · [Siguiente: B96-C06 — Telemetría operativa →](../B96-C06-telemetria-operativa/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ La mejor pasada sintética va de 199° a 327° de azimut, tiene 968,9 km de dist
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B96-C04 — Planificación de contactos](../B96-C04-planificacion-de-contactos/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C06 — Telemetría operativa →](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md#b96-c06)
+[← Anterior: B96-C04 — Planificación de contactos](../B96-C04-planificacion-de-contactos/CLASE.md) · [📚 Bloque B96](../../../tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md) · [Siguiente: B96-C06 — Telemetría operativa →](../B96-C06-telemetria-operativa/CLASE.md)
 <!-- /nav -->
