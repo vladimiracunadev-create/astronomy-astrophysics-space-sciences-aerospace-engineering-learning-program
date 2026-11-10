@@ -1,7 +1,7 @@
 # B64-C07 — Cultivo de extremófilos no patógenos en condiciones análogas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [← Anterior: B64-C06 — Biofilms en ambientes extremos](../B64-C06-biofilms-en-ambientes-extremos/CLASE.md) · [Siguiente: B65-C01 — Convección del manto y evolución térmica de interiores planetarios →](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md#b65-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [← Anterior: B64-C06 — Biofilms en ambientes extremos](../B64-C06-biofilms-en-ambientes-extremos/CLASE.md) · [Siguiente: B65-C01 — Convección del manto y evolución térmica de interiores planetarios →](../../B65/B65-C01-conveccion-del-manto-y-evolucion-termica-de-interiores-planetarios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ Una cámara análoga controla algunas variables: la mezcla de gases de la ficha 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B64-C06 — Biofilms en ambientes extremos](../B64-C06-biofilms-en-ambientes-extremos/CLASE.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [Siguiente: B65-C01 — Convección del manto y evolución térmica de interiores planetarios →](../../../tronco-comun/B65-geofisica-de-interiores-planetarios.md#b65-c01)
+[← Anterior: B64-C06 — Biofilms en ambientes extremos](../B64-C06-biofilms-en-ambientes-extremos/CLASE.md) · [📚 Bloque B64](../../../tronco-comun/B64-extremofilos-y-limites-de-la-vida.md) · [Siguiente: B65-C01 — Convección del manto y evolución térmica de interiores planetarios →](../../B65/B65-C01-conveccion-del-manto-y-evolucion-termica-de-interiores-planetarios/CLASE.md)
 <!-- /nav -->
