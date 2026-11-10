@@ -49,7 +49,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 |---|---|---|
 | `R12-M01-C01..C02` | Objetivo del satélite | [`B83-C01`](../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
 | `R12-M01-C03..C04` | Requisitos de servicio | [`B83-C04`](../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
-| `R12-M01-C05..C06` | Órbita y cobertura | [`B71-C07`](../../tronco-comun/B71-mecanica-orbital-fundamental.md), [`B71-C08`](../../tronco-comun/B71-mecanica-orbital-fundamental.md), [`B89-C17`](../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) |
+| `R12-M01-C05..C06` | Órbita y cobertura | [`B71-C07`](../../clases/B71/B71-C07-orbitas-circulares/CLASE.md), [`B71-C08`](../../clases/B71/B71-C08-orbitas-elipticas/CLASE.md), [`B89-C17`](../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) |
 | `R12-M01-C07..C08` | Presupuesto de masa | [`B83-C09`](../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
 | `R12-M01-C09..C10` | Presupuesto de energía | [`B83-C10`](../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |
 | `R12-M01-C11..C12` | Presupuesto de datos | [`B83-C11`](../../tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md) |

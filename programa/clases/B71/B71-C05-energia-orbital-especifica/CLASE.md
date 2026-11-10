@@ -1,7 +1,7 @@
 # B71-C05 — Energía orbital específica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C04 — Parámetro gravitacional](../B71-C04-parametro-gravitacional/CLASE.md) · [Siguiente: B71-C06 — Momento angular específico →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C04 — Parámetro gravitacional](../B71-C04-parametro-gravitacional/CLASE.md) · [Siguiente: B71-C06 — Momento angular específico →](../B71-C06-momento-angular-especifico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ La transferencia tiene `ε = -8.1777e+06 J/kg` en todos sus puntos y una deriva 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B71-C04 — Parámetro gravitacional](../B71-C04-parametro-gravitacional/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B71-C06 — Momento angular específico →](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c06)
+[← Anterior: B71-C04 — Parámetro gravitacional](../B71-C04-parametro-gravitacional/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B71-C06 — Momento angular específico →](../B71-C06-momento-angular-especifico/CLASE.md)
 <!-- /nav -->
