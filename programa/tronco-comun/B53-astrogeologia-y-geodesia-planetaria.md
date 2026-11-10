@@ -60,7 +60,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b53-c06"></a>[B53-C06](../clases/B53/B53-C06-geodesia-de-marte/CLASE.md) | Geodesia de Marte | Latitud planetocéntrica y planetográfica y altura elipsoidal. | Ficha de la geodesia sobre un elipsoide |
 | <a id="b53-c21"></a>[B53-C21](../clases/B53/B53-C21-rotacion-y-orientacion-de-cuerpos-planetarios-polos-y-meridiano-origen/CLASE.md) | Rotación y orientación de cuerpos planetarios: polos y meridiano origen | Polo, meridiano origen y matriz de rotación de un cuerpo. | Ficha de orientación de un cuerpo |
 | <a id="b53-c07"></a>[B53-C07](../clases/B53/B53-C07-topografia-por-altimetria/CLASE.md) | Topografía por altimetría | Cruces de pasadas y estimación de sesgos de órbita. | Ficha del ajuste por cruces de pasadas |
-| B53-C25 | Corrección geométrica y ortorrectificación de imágenes planetarias | Desplazamiento por relieve y corrección con un MDE. | Ficha de la ortorrectificación |
+| <a id="b53-c25"></a>[B53-C25](../clases/B53/B53-C25-correccion-geometrica-y-ortorrectificacion-de-imagenes-planetarias/CLASE.md) | Corrección geométrica y ortorrectificación de imágenes planetarias | Desplazamiento por relieve y corrección con un MDE. | Ficha de la ortorrectificación |
 
 ### Tramo 3 · Superficies, impactos y procesos
 
@@ -82,7 +82,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b53-c23"></a>[B53-C23](../clases/B53/B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md) | Mecánica de hielo: reología, fracturas y deformación | Ley de Glen, dependencia con la temperatura y profundidad de grietas. | Ficha de la reología del hielo |
 | <a id="b53-c14"></a>[B53-C14](../clases/B53/B53-C14-geologia-de-europa/CLASE.md) | Geología de Europa | Espesor de la capa de hielo por flujo de calor y número de Rayleigh. | Ficha del espesor de la capa de hielo |
 | <a id="b53-c15"></a>[B53-C15](../clases/B53/B53-C15-geologia-de-encelado/CLASE.md) | Geología de Encélado | Velocidad de escape, fracción de granos que escapa y alturas balísticas. | Ficha de la dinámica de un penacho |
-| B53-C27 | Detección remota de océanos subsuperficiales: inducción magnética, libración y radar | Profundidad de penetración magnética y libración de la capa de hielo. | Ficha de la evidencia de un océano |
+| <a id="b53-c27"></a>[B53-C27](../clases/B53/B53-C27-deteccion-remota-de-oceanos-subsuperficiales-induccion-magnetica-libracion-y-radar/CLASE.md) | Detección remota de océanos subsuperficiales: inducción magnética, libración y radar | Profundidad de penetración magnética y libración de la capa de hielo. | Ficha de la evidencia de un océano |
 | <a id="b53-c24"></a>[B53-C24](../clases/B53/B53-C24-sondeo-radar-de-penetracion-de-hielo/CLASE.md) | Sondeo radar de penetración de hielo | Retraso, resolución y compresión de pulso en hielo. | Ficha del sondeo de hielo |
 
 ### Tramo 5 · Composición y subsuelo
@@ -98,7 +98,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b53-c18"></a>[B53-C18](../clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md) | Cartografía geológica digital | Áreas en proyecciones y topología de polígonos. | Ficha del mapa geológico digital |
-| B53-C26 | Publicación de mapas geológicos planetarios: estándares y leyendas | Escala, unidad mínima cartografiable, contraste de leyenda y metadatos. | Ficha de publicación del mapa |
+| <a id="b53-c26"></a>[B53-C26](../clases/B53/B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md) | Publicación de mapas geológicos planetarios: estándares y leyendas | Escala, unidad mínima cartografiable, contraste de leyenda y metadatos. | Ficha de publicación del mapa |
 | <a id="b53-c19"></a>[B53-C19](../clases/B53/B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md) | Incertidumbre en mapas planetarios | Propagación de errores de posición y de medición a diámetro y área. | Ficha de incertidumbre de un mapa |
 | <a id="b53-c20"></a>[B53-C20](../clases/B53/B53-C20-proyecto-sig-de-terreno-extraterrestre/CLASE.md) | Proyecto SIG de terreno extraterrestre | Pendiente de un MDE, sombreado y máscara de transitabilidad. | Ficha del proyecto SIG de terreno |
 

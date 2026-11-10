@@ -1,7 +1,7 @@
 # B53-C24 — Sondeo radar de penetración de hielo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C23 — Mecánica de hielo: reología, fracturas y deformación](../B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md) · [Siguiente: B53-C25 — Corrección geométrica y ortorrectificación de imágenes planetarias →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c25)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C23 — Mecánica de hielo: reología, fracturas y deformación](../B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md) · [Siguiente: B53-C25 — Corrección geométrica y ortorrectificación de imágenes planetarias →](../B53-C25-correccion-geometrica-y-ortorrectificacion-de-imagenes-planetarias/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ La compresión de pulso da un ancho de `7,4 m`, cercano al teórico, y dos refle
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C23 — Mecánica de hielo: reología, fracturas y deformación](../B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C25 — Corrección geométrica y ortorrectificación de imágenes planetarias →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c25)
+[← Anterior: B53-C23 — Mecánica de hielo: reología, fracturas y deformación](../B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C25 — Corrección geométrica y ortorrectificación de imágenes planetarias →](../B53-C25-correccion-geometrica-y-ortorrectificacion-de-imagenes-planetarias/CLASE.md)
 <!-- /nav -->
