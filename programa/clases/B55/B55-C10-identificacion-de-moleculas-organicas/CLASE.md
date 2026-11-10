@@ -1,7 +1,7 @@
 # B55-C10 — Identificación de moléculas orgánicas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C09 — Espectros moleculares de radio](../B55-C09-espectros-moleculares-de-radio/CLASE.md) · [Siguiente: B55-C11 — Química en cometas →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [← Anterior: B55-C09 — Espectros moleculares de radio](../B55-C09-espectros-moleculares-de-radio/CLASE.md) · [Siguiente: B55-C11 — Química en cometas →](../B55-C11-quimica-en-cometas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ De 17 líneas sintéticas se asignaron 14 con `v = 4,94 km/s`, y la probabilidad
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B55-C09 — Espectros moleculares de radio](../B55-C09-espectros-moleculares-de-radio/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B55-C11 — Química en cometas →](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md#b55-c11)
+[← Anterior: B55-C09 — Espectros moleculares de radio](../B55-C09-espectros-moleculares-de-radio/CLASE.md) · [📚 Bloque B55](../../../tronco-comun/B55-astroquimica-y-geoquimica-extraterrestre.md) · [Siguiente: B55-C11 — Química en cometas →](../B55-C11-quimica-en-cometas/CLASE.md)
 <!-- /nav -->

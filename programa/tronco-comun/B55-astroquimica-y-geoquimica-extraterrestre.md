@@ -71,16 +71,16 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b55-c11"></a>B55-C11 | Química en cometas | Modelo de Haser para padres e hijos en la coma. | Perfil de densidad de columna de una coma sintética |
-| <a id="b55-c12"></a>B55-C12 | Geoquímica de meteoritos | Normalización, cocientes y norma mineral por mínimos cuadrados. | Norma mineral de un meteorito sintético |
-| <a id="b55-c13"></a>B55-C13 | Isótopos como trazadores | Notación `δ`, mezcla de reservorios y fraccionamiento dependiente de la masa. | Ficha isotópica de una mezcla |
-| <a id="b55-c14"></a>B55-C14 | Química de regolitos | Jardinería por impactos y mezcla de componentes. | Perfil de volteo de un regolito sintético |
+| <a id="b55-c11"></a>[B55-C11](../clases/B55/B55-C11-quimica-en-cometas/CLASE.md) | Química en cometas | Modelo de Haser para padres e hijos en la coma. | Perfil de densidad de columna de una coma sintética |
+| <a id="b55-c12"></a>[B55-C12](../clases/B55/B55-C12-geoquimica-de-meteoritos/CLASE.md) | Geoquímica de meteoritos | Normalización, cocientes y norma mineral por mínimos cuadrados. | Norma mineral de un meteorito sintético |
+| <a id="b55-c13"></a>[B55-C13](../clases/B55/B55-C13-isotopos-como-trazadores/CLASE.md) | Isótopos como trazadores | Notación `δ`, mezcla de reservorios y fraccionamiento dependiente de la masa. | Ficha isotópica de una mezcla |
+| <a id="b55-c14"></a>[B55-C14](../clases/B55/B55-C14-quimica-de-regolitos/CLASE.md) | Química de regolitos | Jardinería por impactos y mezcla de componentes. | Perfil de volteo de un regolito sintético |
 
 ### Tramo 5 · Océanos internos y compuestos prebióticos
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b55-c15"></a>B55-C15 | Química de océanos internos | Equilibrio carbonato–pH con balance de carga. | pH de un océano sintético |
+| <a id="b55-c15"></a>[B55-C15](../clases/B55/B55-C15-quimica-de-oceanos-internos/CLASE.md) | Química de océanos internos | Equilibrio carbonato–pH con balance de carga. | pH de un océano sintético |
 | <a id="b55-c16"></a>B55-C16 | Procesos hidrotermales extraterrestres | Estequiometría de la serpentinización y energía disponible. | Balance de `H2` de una roca sintética |
 | <a id="b55-c17"></a>B55-C17 | Compuestos prebióticos | Supervivencia a la radiólisis y exceso enantiomérico con incertidumbre. | Ficha de supervivencia de un aminoácido |
 
