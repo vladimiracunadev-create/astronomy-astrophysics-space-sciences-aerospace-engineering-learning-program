@@ -1,7 +1,7 @@
 # B88-C04 — Memorias y corrección de errores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C03 — Procesadores tolerantes a radiación](../B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md) · [Siguiente: B88-C05 — Sistemas de tiempo real →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C03 — Procesadores tolerantes a radiación](../B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md) · [Siguiente: B88-C05 — Sistemas de tiempo real →](../B88-C05-sistemas-de-tiempo-real/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ El código (72,64) corrige un error y detecta dos con 12,5 % de sobrecarga, y el
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C03 — Procesadores tolerantes a radiación](../B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C05 — Sistemas de tiempo real →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c05)
+[← Anterior: B88-C03 — Procesadores tolerantes a radiación](../B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C05 — Sistemas de tiempo real →](../B88-C05-sistemas-de-tiempo-real/CLASE.md)
 <!-- /nav -->
