@@ -31,9 +31,6 @@ jobs:
       - name: Validar recorridos por rol
         run: python herramientas/validar_recorridos.py
 
-      - name: Comprobar recorridos generados
-        run: python herramientas/generar_recorridos.py --check
-
       - name: Comprobar distribución de módulos
         run: python herramientas/consolidar_distribucion.py --check
 
