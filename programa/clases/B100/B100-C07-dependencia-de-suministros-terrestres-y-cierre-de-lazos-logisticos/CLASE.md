@@ -1,7 +1,7 @@
 # B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [← Anterior: B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento](../B100-C06-logistica-cislunar-nodos-depositos-y-rutas-de-reabastecimiento/CLASE.md) · [Siguiente: B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg) →](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md#b101-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [← Anterior: B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento](../B100-C06-logistica-cislunar-nodos-depositos-y-rutas-de-reabastecimiento/CLASE.md) · [Siguiente: B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg) →](../../B101/B101-C01-transformaciones-homogeneas-y-parametrizacion-de-eslabones-denavit-hartenberg/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ Con eficiencia 0,90 la dependencia baja del 100 % al `10,8 %`, con un piso del `
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento](../B100-C06-logistica-cislunar-nodos-depositos-y-rutas-de-reabastecimiento/CLASE.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [Siguiente: B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg) →](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md#b101-c01)
+[← Anterior: B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento](../B100-C06-logistica-cislunar-nodos-depositos-y-rutas-de-reabastecimiento/CLASE.md) · [📚 Bloque B100](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md) · [Siguiente: B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg) →](../../B101/B101-C01-transformaciones-homogeneas-y-parametrizacion-de-eslabones-denavit-hartenberg/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [← Anterior: B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md#b100-c07) · [Siguiente: B101-C02 — Cinemática inversa y redundancia de manipuladores →](../B101-C02-cinematica-inversa-y-redundancia-de-manipuladores/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [← Anterior: B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos](../../B100/B100-C07-dependencia-de-suministros-terrestres-y-cierre-de-lazos-logisticos/CLASE.md) · [Siguiente: B101-C02 — Cinemática inversa y redundancia de manipuladores →](../B101-C02-cinematica-inversa-y-redundancia-de-manipuladores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ La cinemática directa da el extremo a partir de los ángulos y se verifica por 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos](../../../tronco-comun/B100-logistica-y-cadena-de-suministro-extraterrestre.md#b100-c07) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [Siguiente: B101-C02 — Cinemática inversa y redundancia de manipuladores →](../B101-C02-cinematica-inversa-y-redundancia-de-manipuladores/CLASE.md)
+[← Anterior: B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos](../../B100/B100-C07-dependencia-de-suministros-terrestres-y-cierre-de-lazos-logisticos/CLASE.md) · [📚 Bloque B101](../../../tronco-comun/B101-manipuladores-roboticos-espaciales.md) · [Siguiente: B101-C02 — Cinemática inversa y redundancia de manipuladores →](../B101-C02-cinematica-inversa-y-redundancia-de-manipuladores/CLASE.md)
 <!-- /nav -->
