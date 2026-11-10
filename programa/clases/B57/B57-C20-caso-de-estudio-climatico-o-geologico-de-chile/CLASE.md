@@ -1,7 +1,7 @@
 # B57-C20 — Caso de estudio climático o geológico de Chile
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C19 — SIG y análisis de riesgo](../B57-C19-sig-y-analisis-de-riesgo/CLASE.md) · [Siguiente: B57-C21 — Sensores infrarrojos térmicos para observación terrestre →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [← Anterior: B57-C19 — SIG y análisis de riesgo](../B57-C19-sig-y-analisis-de-riesgo/CLASE.md) · [Siguiente: B57-C21 — Sensores infrarrojos térmicos para observación terrestre →](../B57-C21-sensores-infrarrojos-termicos-para-observacion-terrestre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -284,5 +284,5 @@ El Mw 8,8 de Maule equivale a `13,3 m` de deslizamiento medio en la falla ilustr
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B57-C19 — SIG y análisis de riesgo](../B57-C19-sig-y-analisis-de-riesgo/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C21 — Sensores infrarrojos térmicos para observación terrestre →](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md#b57-c21)
+[← Anterior: B57-C19 — SIG y análisis de riesgo](../B57-C19-sig-y-analisis-de-riesgo/CLASE.md) · [📚 Bloque B57](../../../tronco-comun/B57-observacion-terrestre-y-geociencias-orbitales.md) · [Siguiente: B57-C21 — Sensores infrarrojos térmicos para observación terrestre →](../B57-C21-sensores-infrarrojos-termicos-para-observacion-terrestre/CLASE.md)
 <!-- /nav -->

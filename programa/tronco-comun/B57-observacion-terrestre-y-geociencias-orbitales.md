@@ -83,11 +83,11 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
-| <a id="b57-c21"></a>B57-C21 | Sensores infrarrojos térmicos para observación terrestre | Inversión de Planck, emisividad y temperatura de superficie con ventana dividida. | Ficha de temperatura de superficie |
-| <a id="b57-c22"></a>B57-C22 | Espectrómetros de imagen e hiperespectrales | Ángulo espectral, desmezclado lineal y flujo de datos de un espectrómetro de imagen. | Ficha de espectrometría de imagen |
-| <a id="b57-c23"></a>B57-C23 | Diseño de órbita y revisita para observación terrestre | Órbita heliosíncrona, período, trazas repetidas y revisita según el barrido. | Ficha del diseño de órbita |
-| <a id="b57-c24"></a>B57-C24 | Diseño de una carga útil de observación terrestre | Cadena de requisitos: GSD, barrido, tasa de líneas, tasa de datos y apertura. | Ficha de una carga útil |
-| <a id="b57-c25"></a>B57-C25 | Selección de bandas espectrales según el fenómeno | Separabilidad entre clases según el subconjunto de bandas y selección exhaustiva o voraz. | Ficha de selección de bandas |
+| <a id="b57-c21"></a>[B57-C21](../clases/B57/B57-C21-sensores-infrarrojos-termicos-para-observacion-terrestre/CLASE.md) | Sensores infrarrojos térmicos para observación terrestre | Inversión de Planck, emisividad y temperatura de superficie con ventana dividida. | Ficha de temperatura de superficie |
+| <a id="b57-c22"></a>[B57-C22](../clases/B57/B57-C22-espectrometros-de-imagen-e-hiperespectrales/CLASE.md) | Espectrómetros de imagen e hiperespectrales | Ángulo espectral, desmezclado lineal y flujo de datos de un espectrómetro de imagen. | Ficha de espectrometría de imagen |
+| <a id="b57-c23"></a>[B57-C23](../clases/B57/B57-C23-diseno-de-orbita-y-revisita-para-observacion-terrestre/CLASE.md) | Diseño de órbita y revisita para observación terrestre | Órbita heliosíncrona, período, trazas repetidas y revisita según el barrido. | Ficha del diseño de órbita |
+| <a id="b57-c24"></a>[B57-C24](../clases/B57/B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md) | Diseño de una carga útil de observación terrestre | Cadena de requisitos: GSD, barrido, tasa de líneas, tasa de datos y apertura. | Ficha de una carga útil |
+| <a id="b57-c25"></a>[B57-C25](../clases/B57/B57-C25-seleccion-de-bandas-espectrales-segun-el-fenomeno/CLASE.md) | Selección de bandas espectrales según el fenómeno | Separabilidad entre clases según el subconjunto de bandas y selección exhaustiva o voraz. | Ficha de selección de bandas |
 | <a id="b57-c26"></a>B57-C26 | Corrección atmosférica de imágenes | Inversión de reflectancia en el tope de la atmósfera, objeto oscuro y transmitancia. | Ficha de corrección atmosférica |
 | <a id="b57-c27"></a>B57-C27 | Detección de cambios en series de imágenes | Diferencia de imágenes, umbral, falsas alarmas y ajuste armónico de una serie. | Ficha de detección de cambios |
 
