@@ -58,7 +58,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b53-c05"></a>[B53-C05](../clases/B53/B53-C05-sistemas-de-coordenadas-lunares/CLASE.md) | Sistemas de coordenadas lunares | Conversión lat/lon, rotación entre marcos y proyección polar. | Ficha del sistema de coordenadas lunar |
 | <a id="b53-c06"></a>[B53-C06](../clases/B53/B53-C06-geodesia-de-marte/CLASE.md) | Geodesia de Marte | Latitud planetocéntrica y planetográfica y altura elipsoidal. | Ficha de la geodesia sobre un elipsoide |
-| B53-C21 | Rotación y orientación de cuerpos planetarios: polos y meridiano origen | Polo, meridiano origen y matriz de rotación de un cuerpo. | Ficha de orientación de un cuerpo |
+| <a id="b53-c21"></a>[B53-C21](../clases/B53/B53-C21-rotacion-y-orientacion-de-cuerpos-planetarios-polos-y-meridiano-origen/CLASE.md) | Rotación y orientación de cuerpos planetarios: polos y meridiano origen | Polo, meridiano origen y matriz de rotación de un cuerpo. | Ficha de orientación de un cuerpo |
 | <a id="b53-c07"></a>[B53-C07](../clases/B53/B53-C07-topografia-por-altimetria/CLASE.md) | Topografía por altimetría | Cruces de pasadas y estimación de sesgos de órbita. | Ficha del ajuste por cruces de pasadas |
 | B53-C25 | Corrección geométrica y ortorrectificación de imágenes planetarias | Desplazamiento por relieve y corrección con un MDE. | Ficha de la ortorrectificación |
 
@@ -69,7 +69,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b53-c08"></a>[B53-C08](../clases/B53/B53-C08-cartografia-de-crateres/CLASE.md) | Cartografía de cráteres | Estimación de la pendiente de la distribución de tamaños de cráteres. | Ficha de la distribución de tamaños de cráteres |
 | <a id="b53-c09"></a>[B53-C09](../clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md) | Estratigrafía planetaria | Orden topológico, contradicciones y densidad de cráteres. | Ficha de la secuencia estratigráfica |
 | <a id="b53-c10"></a>[B53-C10](../clases/B53/B53-C10-geologia-de-impacto/CLASE.md) | Geología de impacto | Escalamiento del cráter con la gravedad y presión de choque. | Ficha del escalamiento de un impacto |
-| B53-C22 | Meteorización espacial: micrometeoritos, viento solar y maduración del regolito | Enrojecimiento por maduración y mezcla por micrometeoritos. | Ficha de maduración del regolito |
+| <a id="b53-c22"></a>[B53-C22](../clases/B53/B53-C22-meteorizacion-espacial-micrometeoritos-viento-solar-y-maduracion-del-regolito/CLASE.md) | Meteorización espacial: micrometeoritos, viento solar y maduración del regolito | Enrojecimiento por maduración y mezcla por micrometeoritos. | Ficha de maduración del regolito |
 | <a id="b53-c11"></a>[B53-C11](../clases/B53/B53-C11-vulcanismo-extraterrestre/CLASE.md) | Vulcanismo extraterrestre | Perfil de velocidad de una lámina de lava, gravedad y espesor máximo. | Ficha del flujo de lava y la gravedad |
 | <a id="b53-c12"></a>[B53-C12](../clases/B53/B53-C12-tectonica-planetaria/CLASE.md) | Tectónica planetaria | Flexión de una placa elástica y contracción global. | Ficha de la flexión de la litosfera y la contracción |
 | <a id="b53-c16"></a>[B53-C16](../clases/B53/B53-C16-superficies-de-asteroides/CLASE.md) | Superficies de asteroides | Gravedad efectiva con rotación, período límite y velocidad de escape. | Ficha de la gravedad en un asteroide |
@@ -79,11 +79,11 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
 | <a id="b53-c13"></a>[B53-C13](../clases/B53/B53-C13-geomorfologia-de-hielos/CLASE.md) | Geomorfología de hielos | Presión de vapor del hielo, sublimación y trampas frías. | Ficha de la estabilidad del hielo superficial |
-| B53-C23 | Mecánica de hielo: reología, fracturas y deformación | Ley de Glen, dependencia con la temperatura y profundidad de grietas. | Ficha de la reología del hielo |
+| <a id="b53-c23"></a>[B53-C23](../clases/B53/B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md) | Mecánica de hielo: reología, fracturas y deformación | Ley de Glen, dependencia con la temperatura y profundidad de grietas. | Ficha de la reología del hielo |
 | <a id="b53-c14"></a>[B53-C14](../clases/B53/B53-C14-geologia-de-europa/CLASE.md) | Geología de Europa | Espesor de la capa de hielo por flujo de calor y número de Rayleigh. | Ficha del espesor de la capa de hielo |
 | <a id="b53-c15"></a>[B53-C15](../clases/B53/B53-C15-geologia-de-encelado/CLASE.md) | Geología de Encélado | Velocidad de escape, fracción de granos que escapa y alturas balísticas. | Ficha de la dinámica de un penacho |
 | B53-C27 | Detección remota de océanos subsuperficiales: inducción magnética, libración y radar | Profundidad de penetración magnética y libración de la capa de hielo. | Ficha de la evidencia de un océano |
-| B53-C24 | Sondeo radar de penetración de hielo | Retraso, resolución y compresión de pulso en hielo. | Ficha del sondeo de hielo |
+| <a id="b53-c24"></a>[B53-C24](../clases/B53/B53-C24-sondeo-radar-de-penetracion-de-hielo/CLASE.md) | Sondeo radar de penetración de hielo | Retraso, resolución y compresión de pulso en hielo. | Ficha del sondeo de hielo |
 
 ### Tramo 5 · Composición y subsuelo
 

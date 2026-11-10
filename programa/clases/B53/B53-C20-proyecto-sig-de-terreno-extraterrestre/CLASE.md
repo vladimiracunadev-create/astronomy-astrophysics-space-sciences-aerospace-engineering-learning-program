@@ -1,7 +1,7 @@
 # B53-C20 — Proyecto SIG de terreno extraterrestre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C19 — Incertidumbre en mapas planetarios](../B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md) · [Siguiente: B53-C21 — Rotación y orientación de cuerpos planetarios: polos y meridiano origen →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [← Anterior: B53-C19 — Incertidumbre en mapas planetarios](../B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md) · [Siguiente: B53-C21 — Rotación y orientación de cuerpos planetarios: polos y meridiano origen →](../B53-C21-rotacion-y-orientacion-de-cuerpos-planetarios-polos-y-meridiano-origen/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ La pendiente de Horn pasa la verificación y el camino mide `1960 m` con un `71 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B53-C19 — Incertidumbre en mapas planetarios](../B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C21 — Rotación y orientación de cuerpos planetarios: polos y meridiano origen →](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md#b53-c21)
+[← Anterior: B53-C19 — Incertidumbre en mapas planetarios](../B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md) · [📚 Bloque B53](../../../tronco-comun/B53-astrogeologia-y-geodesia-planetaria.md) · [Siguiente: B53-C21 — Rotación y orientación de cuerpos planetarios: polos y meridiano origen →](../B53-C21-rotacion-y-orientacion-de-cuerpos-planetarios-polos-y-meridiano-origen/CLASE.md)
 <!-- /nav -->
