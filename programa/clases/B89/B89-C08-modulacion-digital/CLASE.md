@@ -1,7 +1,7 @@
 # B89-C08 — Modulación digital
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C07 — Figura de ruido de receptor](../B89-C07-figura-de-ruido-de-receptor/CLASE.md) · [Siguiente: B89-C09 — Codificación correctora de errores →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c09)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C07 — Figura de ruido de receptor](../B89-C07-figura-de-ruido-de-receptor/CLASE.md) · [Siguiente: B89-C09 — Codificación correctora de errores →](../B89-C09-codificacion-correctora-de-errores/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ BPSK pide `9,59 dB` de `Eb/N0` para 10⁻⁵ y 16QAM `13,43 dB`. Queda una pregu
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B89-C07 — Figura de ruido de receptor](../B89-C07-figura-de-ruido-de-receptor/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C09 — Codificación correctora de errores →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c09)
+[← Anterior: B89-C07 — Figura de ruido de receptor](../B89-C07-figura-de-ruido-de-receptor/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C09 — Codificación correctora de errores →](../B89-C09-codificacion-correctora-de-errores/CLASE.md)
 <!-- /nav -->
