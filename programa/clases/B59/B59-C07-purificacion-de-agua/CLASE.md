@@ -1,7 +1,7 @@
 # B59-C07 — Purificación de agua
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C06 — Extracción y procesamiento de volátiles](../B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md) · [Siguiente: B59-C08 — Producción de oxígeno →](../B59-C08-produccion-de-oxigeno/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C06 — Extracción y procesamiento de volátiles](../B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md) · [Siguiente: B59-C08 — Producción de oxígeno →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c08)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Con recuperación `90 %` la salmuera llega a `19,98 g/kg` y la energía neta es 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C06 — Extracción y procesamiento de volátiles](../B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C08 — Producción de oxígeno →](../B59-C08-produccion-de-oxigeno/CLASE.md)
+[← Anterior: B59-C06 — Extracción y procesamiento de volátiles](../B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C08 — Producción de oxígeno →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c08)
 <!-- /nav -->
