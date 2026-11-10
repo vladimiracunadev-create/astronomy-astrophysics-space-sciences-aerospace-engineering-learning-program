@@ -1,7 +1,7 @@
 # B89-C22 — Propagación ionosférica y comunicaciones HF
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C21 — Efectos ionosféricos y centelleo en señales GNSS](../B89-C21-efectos-ionosfericos-y-centelleo-en-senales-gnss/CLASE.md) · [Siguiente: B89-C23 — Relación C/N0, Eb/N0 y tasa de error de bit →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c23)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B89-C21 — Efectos ionosféricos y centelleo en señales GNSS](../B89-C21-efectos-ionosfericos-y-centelleo-en-senales-gnss/CLASE.md) · [Siguiente: B89-C23 — Relación C/N0, Eb/N0 y tasa de error de bit →](../B89-C23-relacion-c-n0-eb-n0-y-tasa-de-error-de-bit/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,5 +294,5 @@ Con densidad sintética de día, `foF2 = 9,0 MHz` y la MUF a 2000 km es `25,3 MH
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B89-C21 — Efectos ionosféricos y centelleo en señales GNSS](../B89-C21-efectos-ionosfericos-y-centelleo-en-senales-gnss/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C23 — Relación C/N0, Eb/N0 y tasa de error de bit →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c23)
+[← Anterior: B89-C21 — Efectos ionosféricos y centelleo en señales GNSS](../B89-C21-efectos-ionosfericos-y-centelleo-en-senales-gnss/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C23 — Relación C/N0, Eb/N0 y tasa de error de bit →](../B89-C23-relacion-c-n0-eb-n0-y-tasa-de-error-de-bit/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C43 — Pruebas de carga y estrés del software de vuelo](../B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md) · [Siguiente: B89-C01 — Electromagnetismo aplicado a enlaces →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C43 — Pruebas de carga y estrés del software de vuelo](../B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md) · [Siguiente: B89-C01 — Electromagnetismo aplicado a enlaces →](../../B89/B89-C01-electromagnetismo-aplicado-a-enlaces/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ El ajuste recupera la degradación sintética, estima 88,1 días de vida restant
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C43 — Pruebas de carga y estrés del software de vuelo](../B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B89-C01 — Electromagnetismo aplicado a enlaces →](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md#b89-c01)
+[← Anterior: B88-C43 — Pruebas de carga y estrés del software de vuelo](../B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B89-C01 — Electromagnetismo aplicado a enlaces →](../../B89/B89-C01-electromagnetismo-aplicado-a-enlaces/CLASE.md)
 <!-- /nav -->

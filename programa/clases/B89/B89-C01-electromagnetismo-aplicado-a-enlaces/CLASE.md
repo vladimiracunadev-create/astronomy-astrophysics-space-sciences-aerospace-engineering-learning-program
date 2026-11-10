@@ -1,7 +1,7 @@
 # B89-C01 — Electromagnetismo aplicado a enlaces
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c44) · [Siguiente: B89-C02 — Frecuencia y espectro espacial →](../B89-C02-frecuencia-y-espectro-espacial/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [← Anterior: B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas](../../B88/B88-C44-mantenimiento-predictivo-y-pronostico-de-salud-de-sistemas/CLASE.md) · [Siguiente: B89-C02 — Frecuencia y espectro espacial →](../B89-C02-frecuencia-y-espectro-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -224,7 +224,7 @@ Secciones 8.1–8.3 y la salida del laboratorio.
 
 El script [ondas.py](ondas.py) calcula `λ` en cuatro bandas, la densidad de flujo a dos distancias y la pérdida por polarización (**comprueba** `λ f = c` a 1e-12, la integración sobre la esfera y la razón 4 al duplicar la distancia).
 
-**Datos:** `c` de NIST CODATA 2022 (consultada); potencia, ganancia, distancia y ángulos **sintéticos**. **Predice antes de ejecutar:** ¿qué razón `S(r)/S(2r)` obtendrás? (4,0000.) **Ejecución del 2026-11-10 (Python 3.12 (biblioteca estandar)):**
+**Datos:** `c` de NIST CODATA 2022 (consultada); potencia, ganancia, distancia y ángulos **sintéticos**. **Predice antes de ejecutar:** ¿qué razón `S(r)/S(2r)` obtendrás? (4,0000.) **Ejecución del 2026-11-10 (Python 3.12.9):**
 
 ```text
 3.12.9 (biblioteca estandar)
@@ -297,5 +297,5 @@ Un transmisor de 20 W con 30 dBi deja `1.59e-09 W/m²` a 1000 km y la mitad de l
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c44) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C02 — Frecuencia y espectro espacial →](../B89-C02-frecuencia-y-espectro-espacial/CLASE.md)
+[← Anterior: B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas](../../B88/B88-C44-mantenimiento-predictivo-y-pronostico-de-salud-de-sistemas/CLASE.md) · [📚 Bloque B89](../../../tronco-comun/B89-comunicaciones-y-navegacion-satelital.md) · [Siguiente: B89-C02 — Frecuencia y espectro espacial →](../B89-C02-frecuencia-y-espectro-espacial/CLASE.md)
 <!-- /nav -->
