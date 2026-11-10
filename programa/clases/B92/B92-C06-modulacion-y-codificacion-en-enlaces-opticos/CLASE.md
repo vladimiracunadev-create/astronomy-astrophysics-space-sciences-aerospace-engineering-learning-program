@@ -1,7 +1,7 @@
 # B92-C06 — Modulación y codificación en enlaces ópticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B92-C05 — Receptores y detectores para comunicaciones ópticas](../B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md) · [Siguiente: B92-C07 — Enlaces ópticos de espacio profundo →](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md#b92-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B92-C05 — Receptores y detectores para comunicaciones ópticas](../B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md) · [Siguiente: B92-C07 — Enlaces ópticos de espacio profundo →](../B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ PPM-16 con código de tasa `1/2` ocupa `75 920` ranuras por palabra y da `99,131
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B92-C05 — Receptores y detectores para comunicaciones ópticas](../B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B92-C07 — Enlaces ópticos de espacio profundo →](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md#b92-c07)
+[← Anterior: B92-C05 — Receptores y detectores para comunicaciones ópticas](../B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B92-C07 — Enlaces ópticos de espacio profundo →](../B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md)
 <!-- /nav -->
