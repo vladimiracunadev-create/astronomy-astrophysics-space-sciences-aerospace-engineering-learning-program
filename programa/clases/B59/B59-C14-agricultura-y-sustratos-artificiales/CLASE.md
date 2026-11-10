@@ -1,7 +1,7 @@
 # B59-C14 — Agricultura y sustratos artificiales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C13 — Impresión 3D extraterrestre](../B59-C13-impresion-3d-extraterrestre/CLASE.md) · [Siguiente: B59-C15 — Ciclo cerrado de materiales →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C13 — Impresión 3D extraterrestre](../B59-C13-impresion-3d-extraterrestre/CLASE.md) · [Siguiente: B59-C15 — Ciclo cerrado de materiales →](../B59-C15-ciclo-cerrado-de-materiales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ Una persona necesita `22,8 m²` de cultivo, `3,65 kW` de luz y una reposición d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C13 — Impresión 3D extraterrestre](../B59-C13-impresion-3d-extraterrestre/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C15 — Ciclo cerrado de materiales →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c15)
+[← Anterior: B59-C13 — Impresión 3D extraterrestre](../B59-C13-impresion-3d-extraterrestre/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C15 — Ciclo cerrado de materiales →](../B59-C15-ciclo-cerrado-de-materiales/CLASE.md)
 <!-- /nav -->
