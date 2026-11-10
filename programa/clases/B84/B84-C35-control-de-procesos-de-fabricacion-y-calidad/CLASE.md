@@ -1,7 +1,7 @@
 # B84-C35 — Control de procesos de fabricación y calidad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C34 — Tratamientos y recubrimientos superficiales de componentes espaciales](../B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md) · [Siguiente: B84-C36 — Desgaste abrasivo por regolito en mecanismos →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c36)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [← Anterior: B84-C34 — Tratamientos y recubrimientos superficiales de componentes espaciales](../B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md) · [Siguiente: B84-C36 — Desgaste abrasivo por regolito en mecanismos →](../B84-C36-desgaste-abrasivo-por-regolito-en-mecanismos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ El desplazamiento de `1σ` baja `Cpk` de `1,667` a `1,333` y se detecta en `4,5`
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B84-C34 — Tratamientos y recubrimientos superficiales de componentes espaciales](../B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C36 — Desgaste abrasivo por regolito en mecanismos →](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md#b84-c36)
+[← Anterior: B84-C34 — Tratamientos y recubrimientos superficiales de componentes espaciales](../B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md) · [📚 Bloque B84](../../../tronco-comun/B84-estructuras-materiales-y-fabricacion-espacial.md) · [Siguiente: B84-C36 — Desgaste abrasivo por regolito en mecanismos →](../B84-C36-desgaste-abrasivo-por-regolito-en-mecanismos/CLASE.md)
 <!-- /nav -->
