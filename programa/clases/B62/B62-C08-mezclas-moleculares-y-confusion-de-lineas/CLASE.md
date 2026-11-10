@@ -1,7 +1,7 @@
 # B62-C08 — Mezclas moleculares y confusión de líneas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [← Anterior: B62-C07 — Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md) · [Siguiente: B63-C01 — Instrumentación de sondas y rovers planetarios →](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md#b63-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [← Anterior: B62-C07 — Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md) · [Siguiente: B63-C01 — Instrumentación de sondas y rovers planetarios →](../../B63/B63-C01-instrumentacion-de-sondas-y-rovers-planetarios/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ Una línea aislada no identifica una molécula (3 falsas esperadas entre 300 can
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B62-C07 — Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [Siguiente: B63-C01 — Instrumentación de sondas y rovers planetarios →](../../../tronco-comun/B63-exploracion-in-situ-y-analisis-de-muestras-planetarias.md#b63-c01)
+[← Anterior: B62-C07 — Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md) · [📚 Bloque B62](../../../tronco-comun/B62-espectroscopia-molecular-para-astroquimica.md) · [Siguiente: B63-C01 — Instrumentación de sondas y rovers planetarios →](../../B63/B63-C01-instrumentacion-de-sondas-y-rovers-planetarios/CLASE.md)
 <!-- /nav -->
