@@ -1,7 +1,7 @@
 # B81-C15 — Robustez de trayectoria ante fallas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [← Anterior: B81-C14 — Presupuestos de maniobras de corrección](../B81-C14-presupuestos-de-maniobras-de-correccion/CLASE.md) · [Siguiente: B82-C01 — Lambert de arco corto →](../../../tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md#b82-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [← Anterior: B81-C14 — Presupuestos de maniobras de corrección](../B81-C14-presupuestos-de-maniobras-de-correccion/CLASE.md) · [Siguiente: B82-C01 — Lambert de arco corto →](../../B82/B82-C01-lambert-de-arco-corto/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Corregir a los 10 d cuesta 0,74 m/s y a los 245 d, 100,9 m/s; con 3 m/s de reser
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B81-C14 — Presupuestos de maniobras de corrección](../B81-C14-presupuestos-de-maniobras-de-correccion/CLASE.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [Siguiente: B82-C01 — Lambert de arco corto →](../../../tronco-comun/B82-problema-de-lambert-y-transferencias-de-dos-puntos.md#b82-c01)
+[← Anterior: B81-C14 — Presupuestos de maniobras de corrección](../B81-C14-presupuestos-de-maniobras-de-correccion/CLASE.md) · [📚 Bloque B81](../../../tronco-comun/B81-optimizacion-de-trayectorias-y-diseno-robusto.md) · [Siguiente: B82-C01 — Lambert de arco corto →](../../B82/B82-C01-lambert-de-arco-corto/CLASE.md)
 <!-- /nav -->
