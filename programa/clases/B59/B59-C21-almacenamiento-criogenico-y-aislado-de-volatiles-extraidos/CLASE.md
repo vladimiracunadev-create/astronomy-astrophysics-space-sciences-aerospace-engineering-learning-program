@@ -1,7 +1,7 @@
 # B59-C21 — Almacenamiento criogénico y aislado de volátiles extraídos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C20 — Diseño conceptual de planta ISRU](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c20) · [Siguiente: B59-C22 — Beneficio y separación granulométrica de regolito →](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C20 — Diseño conceptual de planta ISRU](../B59-C20-diseno-conceptual-de-planta-isru/CLASE.md) · [Siguiente: B59-C22 — Beneficio y separación granulométrica de regolito →](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ La fuga media de `20,5 W` evapora `8,3 kg/día` y evitarlo exige `182 W` medios,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C20 — Diseño conceptual de planta ISRU](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c20) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C22 — Beneficio y separación granulométrica de regolito →](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md)
+[← Anterior: B59-C20 — Diseño conceptual de planta ISRU](../B59-C20-diseno-conceptual-de-planta-isru/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C22 — Beneficio y separación granulométrica de regolito →](../B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md)
 <!-- /nav -->

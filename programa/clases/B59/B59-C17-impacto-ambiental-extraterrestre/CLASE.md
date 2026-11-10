@@ -1,7 +1,7 @@
 # B59-C17 — Impacto ambiental extraterrestre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C16 — Desechos y reciclaje](../B59-C16-desechos-y-reciclaje/CLASE.md) · [Siguiente: B59-C18 — Fiabilidad de equipos mineros →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c18)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [← Anterior: B59-C16 — Desechos y reciclaje](../B59-C16-desechos-y-reciclaje/CLASE.md) · [Siguiente: B59-C18 — Fiabilidad de equipos mineros →](../B59-C18-fiabilidad-de-equipos-mineros/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Una partícula de `800 m/s` llega a `442 km`, un `10,9 %` más que la fórmula p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B59-C16 — Desechos y reciclaje](../B59-C16-desechos-y-reciclaje/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C18 — Fiabilidad de equipos mineros →](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md#b59-c18)
+[← Anterior: B59-C16 — Desechos y reciclaje](../B59-C16-desechos-y-reciclaje/CLASE.md) · [📚 Bloque B59](../../../tronco-comun/B59-recursos-in-situ-y-sostenibilidad-extraterrestre.md) · [Siguiente: B59-C18 — Fiabilidad de equipos mineros →](../B59-C18-fiabilidad-de-equipos-mineros/CLASE.md)
 <!-- /nav -->
