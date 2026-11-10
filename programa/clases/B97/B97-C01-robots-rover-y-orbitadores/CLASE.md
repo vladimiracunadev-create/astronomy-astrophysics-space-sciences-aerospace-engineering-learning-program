@@ -278,7 +278,7 @@ Clase educativa: los modelos son simplificados y sus datos son sintéticos o ilu
 
 ## 22. Para cerrar y seguir
 
-Un orbitador cubre `100 × 100 km` en unos 4,4 min; un rover tarda 16,4 días en recorrer `5 km`. Queda una pregunta: ¿cómo se mueve el rover sobre un suelo blando sin atascarse?
+Un orbitador cubre `100 × 100 km` en unos 4,4 min; un rover tarda 16,4 días en recorrer `5 km`. Queda una pregunta: ¿cómo se calcula el movimiento de un brazo robótico que debe alcanzar un objetivo?
 
 **Glosario español–inglés.** rover · *rover*; orbitador · *orbiter*; franja · *swath*; tasa de cobertura · *coverage rate*; parámetro gravitacional · *gravitational parameter*.
 

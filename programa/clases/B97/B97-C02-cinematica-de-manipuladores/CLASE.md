@@ -277,7 +277,7 @@ Clase educativa: los modelos son simplificados y sus datos son sintéticos o ilu
 
 ## 22. Para cerrar y seguir
 
-Un brazo de `17 m` alcanza `(10, 6) m` de dos maneras, y cerca de `q₂ = 0` la velocidad articular se dispara. Queda una pregunta: ¿cómo se sostiene una herramienta con la fuerza necesaria en cada gravedad?
+Un brazo de `17 m` alcanza `(10, 6) m` de dos maneras, y cerca de `q₂ = 0` la velocidad articular se dispara. Queda una pregunta: ¿cómo percibe un robot su entorno y cuánto ruido tienen sus sensores?
 
 **Glosario español–inglés.** cinemática directa · *forward kinematics*; cinemática inversa · *inverse kinematics*; jacobiano · *Jacobian*; singularidad · *singularity*; espacio de trabajo · *workspace*.
 

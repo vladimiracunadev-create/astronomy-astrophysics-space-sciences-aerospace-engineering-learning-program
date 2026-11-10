@@ -1,7 +1,7 @@
 # B97-C06 — Control de movilidad sobre regolito
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C05 — Localización y mapeo SLAM](../B97-C05-localizacion-y-mapeo-slam/CLASE.md) · [Siguiente: B97-C07 — Teleoperación con latencia →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [← Anterior: B97-C05 — Localización y mapeo SLAM](../B97-C05-localizacion-y-mapeo-slam/CLASE.md) · [Siguiente: B97-C07 — Teleoperación con latencia →](../B97-C07-teleoperacion-con-latencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ Con un suelo ilustrativo, `DP/W` pasa de `0,23` (Tierra) a `0,29` (Luna). Queda 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B97-C05 — Localización y mapeo SLAM](../B97-C05-localizacion-y-mapeo-slam/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C07 — Teleoperación con latencia →](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md#b97-c07)
+[← Anterior: B97-C05 — Localización y mapeo SLAM](../B97-C05-localizacion-y-mapeo-slam/CLASE.md) · [📚 Bloque B97](../../../tronco-comun/B97-robotica-y-construccion-extraterrestre.md) · [Siguiente: B97-C07 — Teleoperación con latencia →](../B97-C07-teleoperacion-con-latencia/CLASE.md)
 <!-- /nav -->
