@@ -1,7 +1,7 @@
 # B92-C08 — Márgenes y disponibilidad de enlaces ópticos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B92-C07 — Enlaces ópticos de espacio profundo](../B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md) · [Siguiente: B93-C01 — Diseño de PCB espacial (conceptual) →](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md#b93-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [← Anterior: B92-C07 — Enlaces ópticos de espacio profundo](../B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md) · [Siguiente: B93-C01 — Diseño de PCB espacial (conceptual) →](../../B93/B93-C01-diseno-de-pcb-espacial-conceptual/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -324,5 +324,5 @@ Un presupuesto de `5,86 dB` deja `0,03 %` de salida con cielo despejado, pero la
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B92-C07 — Enlaces ópticos de espacio profundo](../B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B93-C01 — Diseño de PCB espacial (conceptual) →](../../../tronco-comun/B93-electronica-embarcada-y-compatibilidad-electromagnetica.md#b93-c01)
+[← Anterior: B92-C07 — Enlaces ópticos de espacio profundo](../B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md) · [📚 Bloque B92](../../../tronco-comun/B92-comunicaciones-opticas-espaciales-profundizacion.md) · [Siguiente: B93-C01 — Diseño de PCB espacial (conceptual) →](../../B93/B93-C01-diseno-de-pcb-espacial-conceptual/CLASE.md)
 <!-- /nav -->
