@@ -1,7 +1,7 @@
 # B88-C37 — Fuzzing autorizado de software embarcado en banco de pruebas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C36 — Codificación defensiva y estándares de código seguro](../B88-C36-codificacion-defensiva-y-estandares-de-codigo-seguro/CLASE.md) · [Siguiente: B88-C38 — Gestión de claves y secretos en aviónica →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c38)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B88-C36 — Codificación defensiva y estándares de código seguro](../B88-C36-codificacion-defensiva-y-estandares-de-codigo-seguro/CLASE.md) · [Siguiente: B88-C38 — Gestión de claves y secretos en aviónica →](../B88-C38-gestion-de-claves-y-secretos-en-avionica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -280,5 +280,5 @@ La guía por cobertura encontró 20 hallazgos frente a 2 del azar puro, pero no 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B88-C36 — Codificación defensiva y estándares de código seguro](../B88-C36-codificacion-defensiva-y-estandares-de-codigo-seguro/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C38 — Gestión de claves y secretos en aviónica →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c38)
+[← Anterior: B88-C36 — Codificación defensiva y estándares de código seguro](../B88-C36-codificacion-defensiva-y-estandares-de-codigo-seguro/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C38 — Gestión de claves y secretos en aviónica →](../B88-C38-gestion-de-claves-y-secretos-en-avionica/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B87-C22 — Presupuesto de error de apuntamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B87-C21 — Control predictivo basado en modelo (MPC) para vehículos espaciales](../B87-C21-control-predictivo-basado-en-modelo-mpc-para-vehiculos-espaciales/CLASE.md) · [Siguiente: B88-C01 — Arquitectura de computador de vuelo →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [← Anterior: B87-C21 — Control predictivo basado en modelo (MPC) para vehículos espaciales](../B87-C21-control-predictivo-basado-en-modelo-mpc-para-vehiculos-espaciales/CLASE.md) · [Siguiente: B88-C01 — Arquitectura de computador de vuelo →](../../B88/B88-C01-arquitectura-de-computador-de-vuelo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ El presupuesto de ejemplo da `7,9″` (1σ) y `23,7″` (3σ), con `6,3″` de m
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B87-C21 — Control predictivo basado en modelo (MPC) para vehículos espaciales](../B87-C21-control-predictivo-basado-en-modelo-mpc-para-vehiculos-espaciales/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B88-C01 — Arquitectura de computador de vuelo →](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md#b88-c01)
+[← Anterior: B87-C21 — Control predictivo basado en modelo (MPC) para vehículos espaciales](../B87-C21-control-predictivo-basado-en-modelo-mpc-para-vehiculos-espaciales/CLASE.md) · [📚 Bloque B87](../../../tronco-comun/B87-sensores-y-control-de-actitud.md) · [Siguiente: B88-C01 — Arquitectura de computador de vuelo →](../../B88/B88-C01-arquitectura-de-computador-de-vuelo/CLASE.md)
 <!-- /nav -->

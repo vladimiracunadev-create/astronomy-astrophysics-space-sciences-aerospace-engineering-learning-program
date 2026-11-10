@@ -1,7 +1,7 @@
 # B88-C01 — Arquitectura de computador de vuelo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B87-C22 — Presupuesto de error de apuntamiento](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c22) · [Siguiente: B88-C02 — Microcontroladores embarcados →](../B88-C02-microcontroladores-embarcados/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [← Anterior: B87-C22 — Presupuesto de error de apuntamiento](../../B87/B87-C22-presupuesto-de-error-de-apuntamiento/CLASE.md) · [Siguiente: B88-C02 — Microcontroladores embarcados →](../B88-C02-microcontroladores-embarcados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ El computador sintético usa 24,9 % de CPU y su reserva fría eleva la fiabilida
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B87-C22 — Presupuesto de error de apuntamiento](../../../tronco-comun/B87-sensores-y-control-de-actitud.md#b87-c22) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C02 — Microcontroladores embarcados →](../B88-C02-microcontroladores-embarcados/CLASE.md)
+[← Anterior: B87-C22 — Presupuesto de error de apuntamiento](../../B87/B87-C22-presupuesto-de-error-de-apuntamiento/CLASE.md) · [📚 Bloque B88](../../../tronco-comun/B88-avionica-y-software-critico-espacial.md) · [Siguiente: B88-C02 — Microcontroladores embarcados →](../B88-C02-microcontroladores-embarcados/CLASE.md)
 <!-- /nav -->
