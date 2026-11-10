@@ -1,7 +1,7 @@
 # B72-C01 — Limitaciones del problema de dos cuerpos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [← Anterior: B71-C20 — Propagador kepleriano verificable](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c20) · [Siguiente: B72-C02 — Potencial gravitatorio no esférico →](../B72-C02-potencial-gravitatorio-no-esferico/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [← Anterior: B71-C20 — Propagador kepleriano verificable](../../B71/B71-C20-propagador-kepleriano-verificable/CLASE.md) · [Siguiente: B72-C02 — Potencial gravitatorio no esférico →](../B72-C02-potencial-gravitatorio-no-esferico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Una órbita baja se separa `1361,9 km` de la kepleriana en `30` vueltas según u
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B71-C20 — Propagador kepleriano verificable](../../../tronco-comun/B71-mecanica-orbital-fundamental.md#b71-c20) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [Siguiente: B72-C02 — Potencial gravitatorio no esférico →](../B72-C02-potencial-gravitatorio-no-esferico/CLASE.md)
+[← Anterior: B71-C20 — Propagador kepleriano verificable](../../B71/B71-C20-propagador-kepleriano-verificable/CLASE.md) · [📚 Bloque B72](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md) · [Siguiente: B72-C02 — Potencial gravitatorio no esférico →](../B72-C02-potencial-gravitatorio-no-esferico/CLASE.md)
 <!-- /nav -->

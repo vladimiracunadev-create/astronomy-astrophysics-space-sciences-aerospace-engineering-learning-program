@@ -1,7 +1,7 @@
 # B71-C20 — Propagador kepleriano verificable
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C19 — Cambios de plano simples](../B71-C19-cambios-de-plano-simples/CLASE.md) · [Siguiente: B72-C01 — Limitaciones del problema de dos cuerpos →](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md#b72-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [← Anterior: B71-C19 — Cambios de plano simples](../B71-C19-cambios-de-plano-simples/CLASE.md) · [Siguiente: B72-C01 — Limitaciones del problema de dos cuerpos →](../../B72/B72-C01-limitaciones-del-problema-de-dos-cuerpos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ El propagador pasa cinco pruebas con errores de `2e-05 m` frente a un integrador
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B71-C19 — Cambios de plano simples](../B71-C19-cambios-de-plano-simples/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B72-C01 — Limitaciones del problema de dos cuerpos →](../../../tronco-comun/B72-perturbaciones-y-evolucion-de-orbitas.md#b72-c01)
+[← Anterior: B71-C19 — Cambios de plano simples](../B71-C19-cambios-de-plano-simples/CLASE.md) · [📚 Bloque B71](../../../tronco-comun/B71-mecanica-orbital-fundamental.md) · [Siguiente: B72-C01 — Limitaciones del problema de dos cuerpos →](../../B72/B72-C01-limitaciones-del-problema-de-dos-cuerpos/CLASE.md)
 <!-- /nav -->
