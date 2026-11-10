@@ -1,7 +1,7 @@
 # B79-C16 — Eficiencias termodinámicas de motores
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [← Anterior: B79-C15 — Ciclos termodinámicos de propulsión](../B79-C15-ciclos-termodinamicos-de-propulsion/CLASE.md) · [Siguiente: B80-C01 — Principios de navegación inercial espacial →](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md#b80-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [← Anterior: B79-C15 — Ciclos termodinámicos de propulsión](../B79-C15-ciclos-termodinamicos-de-propulsion/CLASE.md) · [Siguiente: B80-C01 — Principios de navegación inercial espacial →](../../B80/B80-C01-principios-de-navegacion-inercial-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -324,5 +324,5 @@ A `M₀ = 0,8` el motor ilustrativo convierte el 45 % de la energía del combust
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B79-C15 — Ciclos termodinámicos de propulsión](../B79-C15-ciclos-termodinamicos-de-propulsion/CLASE.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [Siguiente: B80-C01 — Principios de navegación inercial espacial →](../../../tronco-comun/B80-navegacion-inercial-y-fusion-multisensorial.md#b80-c01)
+[← Anterior: B79-C15 — Ciclos termodinámicos de propulsión](../B79-C15-ciclos-termodinamicos-de-propulsion/CLASE.md) · [📚 Bloque B79](../../../tronco-comun/B79-fluidos-termodinamica-y-aerotermodinamica-de-propulsion.md) · [Siguiente: B80-C01 — Principios de navegación inercial espacial →](../../B80/B80-C01-principios-de-navegacion-inercial-espacial/CLASE.md)
 <!-- /nav -->
