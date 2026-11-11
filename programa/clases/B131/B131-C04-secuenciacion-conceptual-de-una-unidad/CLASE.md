@@ -1,6 +1,7 @@
 # B131-C04 — Secuenciación conceptual de una unidad
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B131-C03 — Conocimientos previos y concepciones alternativas](../B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md) · [Siguiente: B131-C05 — Demostraciones visuales y modelos para el aula →](../B131-C05-demostraciones-visuales-y-modelos-para-el-aula/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,4 +304,7 @@ Doce conceptos, 16 dependencias, un camino crítico de 5 etapas y solo 32 130 ó
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B131-C03 — Conocimientos previos y concepciones alternativas](../B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B131-C05 — Demostraciones visuales y modelos para el aula →](../B131-C05-demostraciones-visuales-y-modelos-para-el-aula/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B131-C03 — Conocimientos previos y concepciones alternativas
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B131-C02 — Resultados de aprendizaje observables en astronomía](../B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md) · [Siguiente: B131-C04 — Secuenciación conceptual de una unidad →](../B131-C04-secuenciacion-conceptual-de-una-unidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,4 +296,7 @@ La distancia da un `6,9 %` de diferencia con signo contrario al esperado, la inc
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B131-C02 — Resultados de aprendizaje observables en astronomía](../B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B131-C04 — Secuenciación conceptual de una unidad →](../B131-C04-secuenciacion-conceptual-de-una-unidad/CLASE.md)
 <!-- /nav -->

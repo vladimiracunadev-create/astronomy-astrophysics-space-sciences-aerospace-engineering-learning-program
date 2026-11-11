@@ -1,6 +1,7 @@
 # B131-C02 — Resultados de aprendizaje observables en astronomía
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B131-C01 — Actividades de medición astronómica para el aula](../B131-C01-actividades-de-medicion-astronomica-para-el-aula/CLASE.md) · [Siguiente: B131-C03 — Conocimientos previos y concepciones alternativas →](../B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,4 +305,7 @@ Siete de diez resultados son observables, ninguno queda huérfano, pero dos íte
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B131-C01 — Actividades de medición astronómica para el aula](../B131-C01-actividades-de-medicion-astronomica-para-el-aula/CLASE.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B131-C03 — Conocimientos previos y concepciones alternativas →](../B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md)
 <!-- /nav -->
