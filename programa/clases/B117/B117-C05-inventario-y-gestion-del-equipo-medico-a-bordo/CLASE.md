@@ -1,7 +1,7 @@
 # B117-C05 — Inventario y gestión del equipo médico a bordo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B117-C04 — Problemas respiratorios simulados](../B117-C04-problemas-respiratorios-simulados/CLASE.md) · [Siguiente: B118-C01 — Población de objetos orbitales →](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md#b118-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B117-C04 — Problemas respiratorios simulados](../B117-C04-problemas-respiratorios-simulados/CLASE.md) · [Siguiente: B118-C01 — Población de objetos orbitales →](../../B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -316,5 +316,5 @@ Un botiquín sintético de 8 artículos llena el `77,2 %` de la masa y el `84,5 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B117-C04 — Problemas respiratorios simulados](../B117-C04-problemas-respiratorios-simulados/CLASE.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B118-C01 — Población de objetos orbitales →](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md#b118-c01)
+[← Anterior: B117-C04 — Problemas respiratorios simulados](../B117-C04-problemas-respiratorios-simulados/CLASE.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B118-C01 — Población de objetos orbitales →](../../B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md)
 <!-- /nav -->
