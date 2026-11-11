@@ -1,7 +1,7 @@
 # B120-C04 — Documentación regulatoria de un sistema satelital
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B120-C03 — Posiciones orbitales y espectro como recursos limitados](../B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md) · [Siguiente: B120-C05 — Riesgos de incumplimiento regulatorio →](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B120-C03 — Posiciones orbitales y espectro como recursos limitados](../B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md) · [Siguiente: B120-C05 — Riesgos de incumplimiento regulatorio →](../B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -295,5 +295,5 @@ Un expediente sintético de 28 campos puede verificarse por dos vías y probarse
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B120-C03 — Posiciones orbitales y espectro como recursos limitados](../B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B120-C05 — Riesgos de incumplimiento regulatorio →](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c05)
+[← Anterior: B120-C03 — Posiciones orbitales y espectro como recursos limitados](../B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B120-C05 — Riesgos de incumplimiento regulatorio →](../B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md)
 <!-- /nav -->
