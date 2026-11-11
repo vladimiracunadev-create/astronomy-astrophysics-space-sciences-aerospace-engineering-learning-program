@@ -1,7 +1,7 @@
 # B119-C24 — Límites legales y de seguridad de la experimentación educativa
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C23 — Protección ambiental de las actividades de lanzamiento](../B119-C23-proteccion-ambiental-de-las-actividades-de-lanzamiento/CLASE.md) · [Siguiente: B119-C25 — Derecho y marcos de recursos espaciales →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c25)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C23 — Protección ambiental de las actividades de lanzamiento](../B119-C23-proteccion-ambiental-de-las-actividades-de-lanzamiento/CLASE.md) · [Siguiente: B119-C25 — Derecho y marcos de recursos espaciales →](../B119-C25-derecho-y-marcos-de-recursos-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -280,5 +280,5 @@ Un impulso de 20 N·s lleva el cohete sintético a `225.3 m` con arrastre, sobre
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C23 — Protección ambiental de las actividades de lanzamiento](../B119-C23-proteccion-ambiental-de-las-actividades-de-lanzamiento/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C25 — Derecho y marcos de recursos espaciales →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c25)
+[← Anterior: B119-C23 — Protección ambiental de las actividades de lanzamiento](../B119-C23-proteccion-ambiental-de-las-actividades-de-lanzamiento/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C25 — Derecho y marcos de recursos espaciales →](../B119-C25-derecho-y-marcos-de-recursos-espaciales/CLASE.md)
 <!-- /nav -->
