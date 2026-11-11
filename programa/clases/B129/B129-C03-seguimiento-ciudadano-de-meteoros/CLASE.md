@@ -1,6 +1,7 @@
 # B129-C03 — Seguimiento ciudadano de meteoros
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C02 — Fotometría participativa](../B129-C02-fotometria-participativa/CLASE.md) · [Siguiente: B129-C04 — Contribución de medidas voluntarias con control de calidad →](../B129-C04-contribucion-de-medidas-voluntarias-con-control-de-calidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -294,4 +295,7 @@ Cuarenta observadores sintéticos estiman `98,45 ± 2,24 /h` frente a 100, mient
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B129-C02 — Fotometría participativa](../B129-C02-fotometria-participativa/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B129-C04 — Contribución de medidas voluntarias con control de calidad →](../B129-C04-contribucion-de-medidas-voluntarias-con-control-de-calidad/CLASE.md)
 <!-- /nav -->

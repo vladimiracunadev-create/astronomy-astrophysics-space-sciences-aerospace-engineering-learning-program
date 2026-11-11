@@ -1,6 +1,7 @@
 # B129-C04 — Contribución de medidas voluntarias con control de calidad
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C03 — Seguimiento ciudadano de meteoros](../B129-C03-seguimiento-ciudadano-de-meteoros/CLASE.md) · [Siguiente: B129-C05 — Consentimiento y privacidad de participantes →](../B129-C05-consentimiento-y-privacidad-de-participantes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,4 +303,7 @@ El filtro de tres etapas atrapa 47 de 48 errores sembrados y retiene el 99,4 % d
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B129-C03 — Seguimiento ciudadano de meteoros](../B129-C03-seguimiento-ciudadano-de-meteoros/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B129-C05 — Consentimiento y privacidad de participantes →](../B129-C05-consentimiento-y-privacidad-de-participantes/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B129-C05 — Consentimiento y privacidad de participantes
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C04 — Contribución de medidas voluntarias con control de calidad](../B129-C04-contribucion-de-medidas-voluntarias-con-control-de-calidad/CLASE.md) · [Siguiente: B129-C06 — Motivación y permanencia de participantes →](../B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -313,4 +314,7 @@ Con edad, comuna, equipo y coordenadas, los 300 participantes sintéticos son id
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B129-C04 — Contribución de medidas voluntarias con control de calidad](../B129-C04-contribucion-de-medidas-voluntarias-con-control-de-calidad/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B129-C06 — Motivación y permanencia de participantes →](../B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md)
 <!-- /nav -->

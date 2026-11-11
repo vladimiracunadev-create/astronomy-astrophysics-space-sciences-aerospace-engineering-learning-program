@@ -1,6 +1,7 @@
 # B129-C01 — Redes de observadores aficionados
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B128-C11 — Auditoría de accesibilidad de un recurso educativo](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md#b128-c11) · [Siguiente: B129-C02 — Fotometría participativa →](../B129-C02-fotometria-participativa/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,4 +290,7 @@ Una red sintética de 12 observadores registra un evento breve el 87 % de las ve
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B128-C11 — Auditoría de accesibilidad de un recurso educativo](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md#b128-c11) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B129-C02 — Fotometría participativa →](../B129-C02-fotometria-participativa/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B129-C06 — Motivación y permanencia de participantes
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C05 — Consentimiento y privacidad de participantes](../B129-C05-consentimiento-y-privacidad-de-participantes/CLASE.md) · [Siguiente: B129-C07 — Proyecto de ciencia ciudadana validable →](../B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -40,7 +41,7 @@ Con cuatro o cinco aciertos, sigue; si no, repasa los prerrequisitos.
 
 ## 5. Un caso de contexto y casos de referencia
 
-Raddick et al. (2009) estudiaron con entrevistas y foros las motivaciones de voluntarios de Galaxy Zoo (a abril de 2009, más de 200 000 voluntarios y más de 100 millones de clasificaciones, según el resumen): de tres evaluadoras surgieron **doce categorías** (contribuir, aprender, descubrir, comunidad, enseñar, belleza, diversión, inmensidad, ayudar, interés por el proyecto, por la astronomía y por la ciencia); el estudio es exploratorio y no mide cuánta gente tiene cada motivación. Aquí se simula una cohorte **sintética** de 500 voluntarios con riesgo `0,08/semana`, sin ninguna motivación modelada.
+Raddick et al. (2009) estudiaron con entrevistas y foros las motivaciones de voluntarios de Galaxy Zoo (a abril de 2009, más de 200 000 voluntarios y más de 100 millones de clasificaciones, según el resumen): de tres personas evaluadoras surgieron **doce categorías** (contribuir, aprender, descubrir, comunidad, enseñar, belleza, diversión, inmensidad, ayudar, interés por el proyecto, por la astronomía y por la ciencia); el estudio es exploratorio y no mide cuánta gente tiene cada motivación. Aquí se simula una cohorte **sintética** de 500 voluntarios con riesgo `0,08/semana`, sin ninguna motivación modelada.
 
 ## 6. Vocabulario
 
@@ -297,4 +298,7 @@ La cohorte sintética tiene mediana de permanencia de 8,4 semanas; un efecto sup
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B129-C05 — Consentimiento y privacidad de participantes](../B129-C05-consentimiento-y-privacidad-de-participantes/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B129-C07 — Proyecto de ciencia ciudadana validable →](../B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md)
 <!-- /nav -->

@@ -1,6 +1,7 @@
 # B129-C02 — Fotometría participativa
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C01 — Redes de observadores aficionados](../B129-C01-redes-de-observadores-aficionados/CLASE.md) · [Siguiente: B129-C03 — Seguimiento ciudadano de meteoros →](../B129-C03-seguimiento-ciudadano-de-meteoros/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,4 +293,7 @@ Ocho voluntarios sintéticos bajan el error de 0,050 a 0,031 mag con pesos y a 0
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B129-C01 — Redes de observadores aficionados](../B129-C01-redes-de-observadores-aficionados/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B129-C03 — Seguimiento ciudadano de meteoros →](../B129-C03-seguimiento-ciudadano-de-meteoros/CLASE.md)
 <!-- /nav -->
