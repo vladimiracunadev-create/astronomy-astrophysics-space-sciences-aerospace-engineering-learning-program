@@ -1,97 +1,116 @@
 # B124 — Industria, economía, ética y proyectos espaciales
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de esta página, el bloque tiene 4 clases programadas (`B124-C21` a `B124-C24`), sin redactar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado (`0.2.0`).** Las 20 clases de la línea base y las 4 programadas por la ampliación (`B124-C21` a `B124-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
-**Área:** A08 — Astronáutica humana, operaciones, sociedad y futuro espacial
-**Estado:** malla preliminar; no contiene clases desarrolladas.
-**Total:** 20 títulos de clase.
+**Área:** A11 — Economía, industria y gestión de proyectos espaciales
+**Nivel:** N3–N4 (fundamentos y aplicación) · **Clases:** 24 · **Carga:** por calibrar con el uso
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en las tablas ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar.
 
-## Alcance preliminar
+## 🎯 Propósito del bloque
 
-Este bloque estudia industria, economía, ética y proyectos espaciales; cubre desde «Cadena de valor de industria espacial» hasta «Proyecto integrador y portafolio profesional». Los títulos son la especificación curricular inicial, no una lección escrita.
+Enseña **cómo se razona con números un proyecto espacial desde el lado de la industria, el dinero, la ética y la gestión**, con modelos pequeños, verificables y siempre rotulados. Recorre la cadena de valor y los mercados, la diferencia entre agencias y empresas, el diseño de una propuesta de valor y los acuerdos de nivel de servicio de un producto de datos; después los costos (de misión, de un servicio, del transporte por kilogramo y de una instalación extraterrestre), el financiamiento público y privado, el seguro y el riesgo, la propiedad intelectual, los contratos y la sostenibilidad económica de una constelación. Sigue con el retorno científico, la ética de datos y la ciencia abierta, y cierra con la gestión de un proyecto: cronograma, equipos, comunicación, propuesta de misión y portafolio. Cada clase termina con un laboratorio en Python con semilla fija; las cifras salen de datos **sintéticos o ilustrativos** (rotulados) o de documentos primarios consultados con fecha.
 
-## Clases: títulos y descripción inicial
+## 📚 Al terminar el bloque podrás
 
-### B124-C01 — Cadena de valor de industria espacial
+1. Descomponer una cadena de valor y un mercado y medir su concentración y su dependencia entre etapas.
+2. Estimar costos con relaciones paramétricas, curvas de aprendizaje, costo por kilogramo y costos de capital y de operación, y decir cuánta incertidumbre arrastran.
+3. Comparar fuentes de financiamiento y contratos con valor actual, tasa interna de retorno, dilución y reparto de sobrecostos.
+4. Cuantificar el riesgo asegurable y la disponibilidad de un servicio de datos con una segunda vía de verificación.
+5. Evaluar el retorno científico, el riesgo de reidentificación de datos y la reproducibilidad de un análisis.
+6. Planificar un proyecto con valor ganado, ruta crítica, equipos y comunicación, y armar una propuesta de misión y un portafolio.
+7. Rotular qué es consultado, qué es sintético y qué es ilustrativo, y recordar que nada de esto es asesoría financiera, legal ni de inversión.
 
-Explica el fenómeno o técnica de «cadena de valor de industria espacial» y su aplicación observable o tecnológica.
+## 🧭 Secuencia del bloque
 
-### B124-C02 — Agencias científicas y empresas
+```mermaid
+flowchart LR
+    A["Tramo 1<br/>Industria, mercados<br/>y propuesta de valor"]
+    B["Tramo 2<br/>Costos y<br/>financiamiento"]
+    C["Tramo 3<br/>Riesgo, derecho<br/>y contratos"]
+    D["Tramo 4<br/>Ciencia, ética<br/>y datos"]
+    E["Tramo 5<br/>Gestión del<br/>proyecto"]
+    A --> B --> C --> D --> E
+```
 
-Delimita «agencias científicas y empresas», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+**Descripción textual.** Cinco tramos encadenados: quién hace qué y qué valor ofrece (tramo 1), cuánto cuesta y cómo se paga (tramo 2), cómo se asegura, se licencia y se contrata (tramo 3), cómo se evalúa lo científico y se protegen los datos (tramo 4) y cómo se gestiona y se presenta el proyecto (tramo 5). El hilo común es poner un número, con su incertidumbre, a cada decisión.
 
-### B124-C03 — Mercados downstream y upstream
+## 🗂️ Las 24 clases en resumen
 
-Introduce el contexto y los principios de «mercados downstream y upstream» para comprender su uso científico.
+**Navegación:** cada clase enlaza a la anterior, a la siguiente y a este bloque.
 
-### B124-C04 — Diseño de propuesta de valor
+La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los laboratorios usan datos **sintéticos** o **ilustrativos** (rotulados) o valores publicados con fuente y fecha.
 
-Introduce «diseño de propuesta de valor» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+### Tramo 1 · Industria, mercados y propuesta de valor
 
-### B124-C05 — Estimación de costos de misión
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b124-c01"></a>[B124-C01](../clases/B124/B124-C01-cadena-de-valor-de-industria-espacial/CLASE.md) | Cadena de valor de industria espacial | Valor agregado por etapa, participación y multiplicador de una cadena sintética. | Ficha de cadena de valor con valor agregado por etapa |
+| <a id="b124-c02"></a>[B124-C02](../clases/B124/B124-C02-agencias-cientificas-y-empresas/CLASE.md) | Agencias científicas y empresas | Comprar un servicio frente a poseer el sistema; precio por asiento recalculado desde un informe de la OIG de la NASA. | Ficha de decisión comprar o poseer |
+| <a id="b124-c03"></a>[B124-C03](../clases/B124/B124-C03-mercados-downstream-y-upstream/CLASE.md) | Mercados downstream y upstream | Concentración (HHI) y arrastre de la demanda aguas abajo con un modelo insumo-producto. | Ficha de concentración y arrastre de un mercado sintético |
+| <a id="b124-c04"></a>[B124-C04](../clases/B124/B124-C04-diseno-de-propuesta-de-valor/CLASE.md) | Diseño de propuesta de valor | Puntaje multicriterio con pesos y estabilidad del ranking ante cambios de peso. | Matriz de propuesta de valor con sensibilidad |
+| <a id="b124-c21"></a>[B124-C21](../clases/B124/B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md) | Acuerdos de nivel de servicio para productos de datos | Disponibilidad desde MTBF y MTTR, presupuesto de error y cumplimiento de un plazo. | Ficha de acuerdo de nivel de servicio de un producto de datos |
 
-Presenta «estimación de costos de misión» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
+### Tramo 2 · Costos y financiamiento
 
-### B124-C06 — Financiamiento público
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b124-c05"></a>[B124-C05](../clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md) | Estimación de costos de misión | Relación paramétrica de costo en escala log-log, curva de aprendizaje y banda de incertidumbre. | Estimación de costo de una misión sintética con banda |
+| <a id="b124-c22"></a>[B124-C22](../clases/B124/B124-C22-modelo-de-costo-de-un-servicio-de-datos/CLASE.md) | Modelo de costo de un servicio de datos | Costos fijos y variables, punto de equilibrio y precio con margen objetivo. | Modelo de costo y precio de un servicio de datos |
+| <a id="b124-c23"></a>[B124-C23](../clases/B124/B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md) | Costos de transporte por kilogramo a superficie | Ecuación del cohete, fracción de carga útil y costo por kilogramo a órbita y a superficie. | Tabla de costo por kilogramo con sensibilidad |
+| <a id="b124-c24"></a>[B124-C24](../clases/B124/B124-C24-capex-y-opex-de-una-instalacion-extraterrestre/CLASE.md) | CapEx y OpEx de una instalación extraterrestre | Factor de recuperación de capital, costo nivelado y peso del transporte. | Costo nivelado de una instalación sintética |
+| <a id="b124-c06"></a>[B124-C06](../clases/B124/B124-C06-financiamiento-publico/CLASE.md) | Financiamiento público | Perfil de gasto frente a tope anual y retraso por brecha de fondos; cifras de adjudicación de la OIG. | Ficha de brecha de financiamiento anual |
+| <a id="b124-c07"></a>[B124-C07](../clases/B124/B124-C07-financiamiento-privado/CLASE.md) | Financiamiento privado | Valor actual neto, tasa interna de retorno y dilución en rondas. | Ficha de flujo, retorno y dilución sintéticos |
 
-Explica el fenómeno o técnica de «financiamiento público» y su aplicación observable o tecnológica.
+### Tramo 3 · Riesgo, derecho y contratos
 
-### B124-C07 — Financiamiento privado
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b124-c08"></a>[B124-C08](../clases/B124/B124-C08-seguros-y-riesgo-espacial/CLASE.md) | Seguros y riesgo espacial | Pérdida esperada, prima con recargo y cola de pérdidas con Monte Carlo; régimen de responsabilidad. | Ficha de prima y riesgo de una cobertura sintética |
+| <a id="b124-c09"></a>[B124-C09](../clases/B124/B124-C09-propiedad-intelectual-y-licencias/CLASE.md) | Propiedad intelectual y licencias | Valor actual de regalías, licencia exclusiva frente a no exclusiva y apilamiento de regalías. | Ficha de valoración de una licencia sintética |
+| <a id="b124-c10"></a>[B124-C10](../clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md) | Contratos y compras espaciales | Precio fijo frente a costo más incentivo y reparto de un sobrecosto. | Ficha comparativa de tipos de contrato |
+| <a id="b124-c11"></a>[B124-C11](../clases/B124/B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md) | Sostenibilidad económica de constelaciones | Reposición de flota, costo por suscriptor y punto de equilibrio. | Ficha de equilibrio de una constelación sintética |
 
-Delimita «financiamiento privado», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+### Tramo 4 · Ciencia, ética y datos
 
-### B124-C08 — Seguros y riesgo espacial
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b124-c12"></a>[B124-C12](../clases/B124/B124-C12-evaluacion-de-retorno-cientifico/CLASE.md) | Evaluación de retorno científico | Valor científico con rendimientos decrecientes y frontera de Pareto costo-ciencia. | Ficha de retorno científico y frontera de Pareto |
+| <a id="b124-c13"></a>[B124-C13](../clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md) | Ética de investigación y datos | k-anonimato, generalización y pérdida de información en datos sintéticos. | Ficha de riesgo de reidentificación |
+| <a id="b124-c14"></a>[B124-C14](../clases/B124/B124-C14-ciencia-abierta-y-reproducibilidad/CLASE.md) | Ciencia abierta y reproducibilidad | Semilla, orden de operaciones y huella criptográfica; lista FAIR puntuada. | Manifiesto reproducible con huella y lista FAIR |
 
-Caracteriza «seguros y riesgo espacial», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
+### Tramo 5 · Gestión del proyecto
 
-### B124-C09 — Propiedad intelectual y licencias
+| ID | Clase | Qué se aprende | Evidencia |
+|---|---|---|---|
+| <a id="b124-c15"></a>[B124-C15](../clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md) | Gestión de proyectos espaciales | Estructura de desglose, valor ganado (CPI, SPI) y estimación al término. | Tablero de valor ganado de un proyecto sintético |
+| <a id="b124-c16"></a>[B124-C16](../clases/B124/B124-C16-planificacion-de-cronograma-y-entregables/CLASE.md) | Planificación de cronograma y entregables | Ruta crítica, holguras y distribución de la duración con Monte Carlo. | Cronograma con ruta crítica y probabilidad de plazo |
+| <a id="b124-c17"></a>[B124-C17](../clases/B124/B124-C17-gestion-de-equipos-multidisciplinarios/CLASE.md) | Gestión de equipos multidisciplinarios | Canales de comunicación, cobertura de competencias y tamaño del equipo. | Ficha de composición de un equipo sintético |
+| <a id="b124-c18"></a>[B124-C18](../clases/B124/B124-C18-comunicacion-y-divulgacion/CLASE.md) | Comunicación y divulgación | Embudo de alcance, prueba de dos proporciones y tamaño de muestra. | Plan de divulgación con prueba A/B sintética |
+| <a id="b124-c19"></a>[B124-C19](../clases/B124/B124-C19-redaccion-de-propuesta-de-mision/CLASE.md) | Redacción de propuesta de misión | Matriz de trazabilidad de requisitos y presupuesto con reservas. | Esqueleto de propuesta con trazabilidad y reservas |
+| <a id="b124-c20"></a>[B124-C20](../clases/B124/B124-C20-proyecto-integrador-y-portafolio-profesional/CLASE.md) | Proyecto integrador y portafolio profesional | Rúbrica ponderada con condiciones críticas no compensables sobre un portafolio. | Portafolio profesional con rúbrica autoaplicada |
 
-Ubica «propiedad intelectual y licencias» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
+## 🧵 Hilos que atraviesan el bloque
 
-### B124-C10 — Contratos y compras espaciales
+- **Todo número tiene incertidumbre:** C05, C08, C16, C18 y C21 la estiman con una segunda vía (analítica y Monte Carlo).
+- **Del costo al precio:** C05, C22, C23 y C24 encadenan costo de misión, de servicio, de transporte y de instalación.
+- **Quién asume el riesgo:** C06 a C11 reparten el riesgo entre el Estado, el privado, el asegurador y el contratista.
+- **Datos con responsabilidad:** C13 y C14 unen ética y reproducibilidad; C21 y C22 las llevan a un servicio.
+- **Observado frente a modelado:** las cifras de los modelos son sintéticas o ilustrativas; las pocas cifras reales vienen de un informe de la OIG de la NASA y se rotulan.
 
-Presenta qué significa «contratos y compras espaciales», sus elementos esenciales y su función dentro de industria, economía, ética y proyectos espaciales.
+## 📝 Evaluación del bloque (propuesta, por calibrar)
 
-### B124-C11 — Sostenibilidad económica de constelaciones
+- Fichas y ejercicios por clase, con retroalimentación y recuperación con evidencia distinta.
+- Portafolio: el proyecto integrador (C20) con su propuesta (C19), su presupuesto con reservas y su cronograma.
+- Las condiciones críticas (rotular lo sintético e ilustrativo, no dar asesoría financiera ni legal, citar solo lo consultado) no se compensan con promedio.
 
-Explica el fenómeno o técnica de «sostenibilidad económica de constelaciones» y su aplicación observable o tecnológica.
+## ⚠️ Seguridad y límites
 
-### B124-C12 — Evaluación de retorno científico
+El bloque es educativo. **No es asesoría financiera, legal, tributaria ni de inversión**, y no sustituye a un profesional habilitado ni a la normativa vigente de cada Estado. Los modelos son simplificados (flujos deterministas o independientes, tasas constantes, distribuciones supuestas). Las cifras de mercado, precios, tasas y probabilidades de falla son sintéticas o ilustrativas, salvo las pocas citadas del informe de la OIG de la NASA; no se consultaron datos de mercado, primas de seguros reales, contratos reales ni normas de gestión de pago.
 
-Delimita «evaluación de retorno científico», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
+## 📖 Fuentes consultadas en el bloque (resumen)
 
-### B124-C13 — Ética de investigación y datos
-
-Ubica «ética de investigación y datos» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
-
-### B124-C14 — Ciencia abierta y reproducibilidad
-
-Describe los componentes principales de «ciencia abierta y reproducibilidad» y por qué son relevantes para esta disciplina.
-
-### B124-C15 — Gestión de proyectos espaciales
-
-Introduce «gestión de proyectos espaciales» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-
-### B124-C16 — Planificación de cronograma y entregables
-
-Explica el fenómeno o técnica de «planificación de cronograma y entregables» y su aplicación observable o tecnológica.
-
-### B124-C17 — Gestión de equipos multidisciplinarios
-
-Delimita «gestión de equipos multidisciplinarios», sus fundamentos, vocabulario y relación con otros conceptos espaciales.
-
-### B124-C18 — Comunicación y divulgación
-
-Introduce el contexto y los principios de «comunicación y divulgación» para comprender su uso científico.
-
-### B124-C19 — Redacción de propuesta de misión
-
-Describe los componentes principales de «redacción de propuesta de misión» y por qué son relevantes para esta disciplina.
-
-### B124-C20 — Proyecto integrador y portafolio profesional
-
-Introduce «proyecto integrador y portafolio profesional» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
+Consultadas el 2026-11-11: el texto de las Naciones Unidas de los tratados sobre el espacio ultraterrestre (Oficina de Asuntos del Espacio Ultraterrestre, UNOOSA; artículos I, II, VI y VII del Tratado de 1967 y II y III del Convenio sobre responsabilidad), el informe IG-20-005 de la Oficina del Inspector General de la NASA (noviembre de 2019) sobre el programa de tripulación comercial, la página del Cost Estimating Handbook v4.0 de la NASA y su apéndice E, el NASA Systems Engineering Handbook (SP-6105, Rev 2; página y PDF, para la ruta crítica y las fases del ciclo de vida), el artículo de los principios FAIR (Wilkinson et al., 2016, vía PubMed Central) y la página de la UNESCO sobre su Recomendación sobre Ciencia Abierta (2021). El Handbook on Measuring the Space Economy de la OCDE solo apareció en resultados de búsqueda y **no se consultó**; tampoco se consultaron normas ISO, ECSS ni de gestión de proyectos de pago, datos de primas de seguros, mercados de lanzamiento ni legislación nacional. Las fórmulas (valor actual, tasa interna de retorno, valor ganado, ruta crítica, Poisson, ecuación del cohete) son relaciones estándar que verifica cada laboratorio y no se consultaron en una fuente concreta.
 
 ## Fuentes de orientación preliminar
 
@@ -100,4 +119,10 @@ Introduce «proyecto integrador y portafolio profesional» como problema de inge
 - **[ITU]** [International Telecommunication Union](https://www.itu.int/) — Telecomunicaciones y coordinación del espectro internacional.
 - **[NASA-SYSTEMS]** [NASA Systems Engineering Handbook](https://www.nasa.gov/reference/systems-engineering-handbook/) — Ingeniería de sistemas, verificación, validación y gestión técnica.
 
-> La asociación de estas fuentes es orientativa por bloque. No significa que cada afirmación de una futura clase esté respaldada todavía. Comprobar documentos, versiones y licencias antes de desarrollar contenido.
+> La asociación de estas fuentes es orientativa por bloque. Las fuentes realmente consultadas para cada afirmación se registran en la sección 11 de cada clase.
+
+## Roles que lo usan
+
+Pendiente: la asignación de roles y recorridos la define el autor al final.
+
+[🏠 Volver al programa](../../README.md) · [➡️ B125 — Creación y operación de empresas espaciales](./B125-creacion-y-operacion-de-empresas-espaciales.md)
