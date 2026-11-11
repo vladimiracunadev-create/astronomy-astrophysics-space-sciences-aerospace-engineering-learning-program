@@ -24,6 +24,12 @@ Los anexos son lecturas de contexto para el programa: cuentan **quién hizo qué
 | [L](ANEXO-L-sistema-solar-a-fondo.md) | El Sistema Solar a fondo | Formación, planetas rocosos y gigantes, lunas con actividad, cuerpos pequeños, escalas y ejercicios resueltos |
 | [M](ANEXO-M-estrellas-galaxias-y-cosmologia.md) | Estrellas, galaxias y cosmología a fondo | Vida y muerte de las estrellas, la Vía Láctea, materia y energía oscuras, línea de tiempo del universo, escalera de distancias |
 | [N](ANEXO-N-exoplanetas-y-astrobiologia.md) | Exoplanetas y astrobiología a fondo | Métodos de detección con fórmulas, zoo de planetas, habitabilidad, extremófilos, biosignaturas, ecuación de Drake, protección planetaria |
+| [O](ANEXO-O-orbitas-y-trayectorias.md) | Órbitas y trayectorias | Tipos de órbita y para qué sirve cada una, velocidades clave, costo en Δv de cambiar de órbita, perturbaciones, puntos de Lagrange y un método para elegir órbita |
+| [P](ANEXO-P-propulsion-y-cohetes.md) | Propulsión y cohetes a fondo | Física del empuje, motores químicos, eléctricos y otros, presupuesto de Δv por meta y ejercicios |
+| [Q](ANEXO-Q-derecho-y-politica-espacial.md) | Derecho, política y sostenibilidad espacial | Los cinco tratados, responsabilidad y Estado de lanzamiento, espectro y órbitas, basura espacial, recursos, uso militar, ética y licencias |
+| [R](ANEXO-R-mitos-y-errores-frecuentes.md) | Mitos y errores frecuentes | Treinta y tres ideas equivocadas corregidas con argumento y cálculo, y un método para detectar mitos |
+| [S](ANEXO-S-chile-y-cielos-originarios.md) | Chile, Latinoamérica y los cielos originarios | Por qué Chile es capital de la astronomía, mapa de observatorios, historia, saberes originarios con principios de respeto, sector espacial regional y dilemas |
+| [T](ANEXO-T-datos-fuentes-y-herramientas.md) | Datos, fuentes y herramientas | Dónde están los datos reales, formatos, trazabilidad, cómo citar, herramientas y un primer proyecto con datos públicos |
 
 ## Cómo usarlos
 

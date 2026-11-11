@@ -132,4 +132,4 @@ Para no contaminar otros mundos (y no traer organismos a la Tierra) las misiones
 4. ¿Qué implicaría descubrir vida microbiana en Marte? ¿Y vida inteligente?
 5. ¿Cómo debería una misión equilibrar la búsqueda de vida con la protección planetaria?
 
-[⬅️ Anexo M](ANEXO-M-estrellas-galaxias-y-cosmologia.md) · [Índice de anexos](README.md)
+[⬅️ Anexo M](ANEXO-M-estrellas-galaxias-y-cosmologia.md) · [Índice de anexos](README.md) · [Siguiente: Anexo O · Órbitas y trayectorias →](ANEXO-O-orbitas-y-trayectorias.md)

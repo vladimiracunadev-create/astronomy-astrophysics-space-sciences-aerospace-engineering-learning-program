@@ -38,7 +38,7 @@
 
 ## 📎 Anexos históricos y pedagógicos
 
-Catorce lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
+Veinte lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
 
 | Anexo | Contenido |
 |---|---|
@@ -56,6 +56,12 @@ Catorce lecturas de contexto, con descripciones **históricas, pedagógicas y pr
 | [L · El Sistema Solar a fondo](anexos/ANEXO-L-sistema-solar-a-fondo.md) | Formación, planetas, lunas, cuerpos pequeños y escalas, con ejercicios resueltos |
 | [M · Estrellas, galaxias y cosmología](anexos/ANEXO-M-estrellas-galaxias-y-cosmologia.md) | Evolución estelar, galaxias, materia y energía oscuras, historia del universo |
 | [N · Exoplanetas y astrobiología](anexos/ANEXO-N-exoplanetas-y-astrobiologia.md) | Métodos de detección, habitabilidad, biosignaturas, ecuación de Drake |
+| [O · Órbitas y trayectorias](anexos/ANEXO-O-orbitas-y-trayectorias.md) | Tipos de órbita, costo de cambiar de órbita en Δv, perturbaciones y cómo elegir órbita |
+| [P · Propulsión y cohetes a fondo](anexos/ANEXO-P-propulsion-y-cohetes.md) | Física del empuje, motores químicos y eléctricos, y presupuesto de Δv por meta |
+| [Q · Derecho, política y sostenibilidad espacial](anexos/ANEXO-Q-derecho-y-politica-espacial.md) | Los cinco tratados, responsabilidad, espectro, basura espacial, recursos y licencias |
+| [R · Mitos y errores frecuentes](anexos/ANEXO-R-mitos-y-errores-frecuentes.md) | Treinta y tres ideas equivocadas corregidas con argumento y cálculo |
+| [S · Chile, Latinoamérica y los cielos originarios](anexos/ANEXO-S-chile-y-cielos-originarios.md) | Por qué Chile es capital de la astronomía, observatorios, saberes originarios y dilemas actuales |
+| [T · Datos, fuentes y herramientas](anexos/ANEXO-T-datos-fuentes-y-herramientas.md) | Dónde están los datos reales, formatos, cómo citar y un primer proyecto con datos públicos |
 
 Índice completo: [`anexos/README.md`](anexos/README.md) · Vocabulario: [🔤 Glosario](glosario/README.md) y [glosario esencial explicado a fondo](glosario/esencial/README.md).
 
@@ -422,7 +428,7 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
 - [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
 - [`programa/tronco-comun/`](programa/tronco-comun/): guías de los 133 bloques (64 de la línea base y 69 nuevos); todas están reescritas como guía pedagógica.
-- [`anexos/`](anexos/README.md): catorce anexos históricos, pedagógicos y de cálculo (agencias, misiones, personas, satélites, telescopios, lanzadores, cronología).
+- [`anexos/`](anexos/README.md): veinte anexos históricos, pedagógicos y de cálculo (agencias, misiones, personas, satélites, telescopios, lanzadores, cronología).
 - [`glosario/`](glosario/README.md): glosario alfabético de términos, siglas y símbolos.
 - [`programa/clases/`](programa/clases/): las 2.077 clases redactadas de A01 a A12.
 - [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
