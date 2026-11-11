@@ -1,7 +1,7 @@
 # B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [← Anterior: B106-C29 — Almacenamiento y distribución de agua potable en hábitats](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c29) · [Siguiente: B107-C02 — Movilidad articular, flexibilidad y postura →](../B107-C02-movilidad-articular-flexibilidad-y-postura/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [← Anterior: B106-C29 — Almacenamiento y distribución de agua potable en hábitats](../../B106/B106-C29-almacenamiento-y-distribucion-de-agua-potable-en-habitats/CLASE.md) · [Siguiente: B107-C02 — Movilidad articular, flexibilidad y postura →](../B107-C02-movilidad-articular-flexibilidad-y-postura/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Con `τ1 = 42 d` y `τ2 = 7 d`, un impulso da su máximo a los 24,28 d y la apti
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C29 — Almacenamiento y distribución de agua potable en hábitats](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c29) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [Siguiente: B107-C02 — Movilidad articular, flexibilidad y postura →](../B107-C02-movilidad-articular-flexibilidad-y-postura/CLASE.md)
+[← Anterior: B106-C29 — Almacenamiento y distribución de agua potable en hábitats](../../B106/B106-C29-almacenamiento-y-distribucion-de-agua-potable-en-habitats/CLASE.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [Siguiente: B107-C02 — Movilidad articular, flexibilidad y postura →](../B107-C02-movilidad-articular-flexibilidad-y-postura/CLASE.md)
 <!-- /nav -->

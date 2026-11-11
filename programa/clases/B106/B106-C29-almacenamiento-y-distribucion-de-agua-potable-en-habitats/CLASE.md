@@ -1,7 +1,7 @@
 # B106-C29 — Almacenamiento y distribución de agua potable en hábitats
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C28 — Monitoreo microbiológico de agua y superficies del hábitat](../B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md) · [Siguiente: B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas →](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md#b107-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C28 — Monitoreo microbiológico de agua y superficies del hábitat](../B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md) · [Siguiente: B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas →](../../B107/B107-C01-entrenamiento-cardiorrespiratorio-y-de-resistencia-de-astronautas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ El agua se guarda en un tanque con membrana, se distribuye por líneas cuyo diá
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C28 — Monitoreo microbiológico de agua y superficies del hábitat](../B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas →](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md#b107-c01)
+[← Anterior: B106-C28 — Monitoreo microbiológico de agua y superficies del hábitat](../B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas →](../../B107/B107-C01-entrenamiento-cardiorrespiratorio-y-de-resistencia-de-astronautas/CLASE.md)
 <!-- /nav -->

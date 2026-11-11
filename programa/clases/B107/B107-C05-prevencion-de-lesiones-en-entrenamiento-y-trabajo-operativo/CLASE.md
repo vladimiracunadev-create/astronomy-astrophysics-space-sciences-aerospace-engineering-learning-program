@@ -1,7 +1,7 @@
 # B107-C05 — Prevención de lesiones en entrenamiento y trabajo operativo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [← Anterior: B107-C04 — Evaluación del rendimiento físico y cognitivo de tripulantes](../B107-C04-evaluacion-del-rendimiento-fisico-y-cognitivo-de-tripulantes/CLASE.md) · [Siguiente: B107-C06 — Estimación y modelado de la recuperación posterior al vuelo →](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md#b107-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [← Anterior: B107-C04 — Evaluación del rendimiento físico y cognitivo de tripulantes](../B107-C04-evaluacion-del-rendimiento-fisico-y-cognitivo-de-tripulantes/CLASE.md) · [Siguiente: B107-C06 — Estimación y modelado de la recuperación posterior al vuelo →](../B107-C06-estimacion-y-modelado-de-la-recuperacion-posterior-al-vuelo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ Una semana de +60 % sube la razón a 1,37 con media móvil, y el tope del ejempl
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B107-C04 — Evaluación del rendimiento físico y cognitivo de tripulantes](../B107-C04-evaluacion-del-rendimiento-fisico-y-cognitivo-de-tripulantes/CLASE.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [Siguiente: B107-C06 — Estimación y modelado de la recuperación posterior al vuelo →](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md#b107-c06)
+[← Anterior: B107-C04 — Evaluación del rendimiento físico y cognitivo de tripulantes](../B107-C04-evaluacion-del-rendimiento-fisico-y-cognitivo-de-tripulantes/CLASE.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [Siguiente: B107-C06 — Estimación y modelado de la recuperación posterior al vuelo →](../B107-C06-estimacion-y-modelado-de-la-recuperacion-posterior-al-vuelo/CLASE.md)
 <!-- /nav -->
