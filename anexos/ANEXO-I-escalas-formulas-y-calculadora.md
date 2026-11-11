@@ -180,4 +180,4 @@ Cada una está implementada en la calculadora; mira la función con el mismo nom
 4. **Cambia un dato y observa** cuánto cambia el resultado (sensibilidad).
 5. **Documenta supuestos:** modelo, marco de referencia, escala de tiempo.
 
-[⬅️ Anexo H](ANEXO-H-cronologia.md) · [Índice de anexos](README.md)
+[⬅️ Anexo H](ANEXO-H-cronologia.md) · [Índice de anexos](README.md) · [Siguiente: Anexo J · Estudios de caso →](ANEXO-J-estudios-de-caso-a-fondo.md)

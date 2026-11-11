@@ -19,6 +19,7 @@ Los anexos son lecturas de contexto para el programa: cuentan **quién hizo qué
 | [G](ANEXO-G-lanzadores-y-estaciones.md) | Lanzadores, estaciones y puertos espaciales | Familias de cohetes, estaciones (Salyut, Skylab, Mir, ISS, Tiangong), puertos, reentrada |
 | [H](ANEXO-H-cronologia.md) | Cronología | Línea de tiempo desde la antigüedad hasta 2025 |
 | [I](ANEXO-I-escalas-formulas-y-calculadora.md) | Escalas de medición, fórmulas y calculadora | Escalas de distancia, brillo, tiempo, energía y riesgo; dónde difieren los cálculos y cómo reconciliarlos; fórmulas con unidades; guía de la [calculadora científica](../herramientas/calculadora_cientifica.py) |
+| [J](ANEXO-J-estudios-de-caso-a-fondo.md) | Estudios de caso a fondo | Diez casos con problema, números, causas, lecciones y un ejercicio resuelto cada uno: Apollo 11, Voyager 2, Hubble, Rosetta, Webb, DART, Challenger, GPS y relatividad, Mars Climate Orbiter, Ariane 5 |
 
 ## Cómo usarlos
 
