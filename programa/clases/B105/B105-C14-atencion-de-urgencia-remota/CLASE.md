@@ -1,7 +1,7 @@
 # B105-C14 — Atención de urgencia remota
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C13 — Farmacología y microgravedad](../B105-C13-farmacologia-y-microgravedad/CLASE.md) · [Siguiente: B105-C15 — Telemedicina espacial →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C13 — Farmacología y microgravedad](../B105-C13-farmacologia-y-microgravedad/CLASE.md) · [Siguiente: B105-C15 — Telemedicina espacial →](../B105-C15-telemedicina-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ Con 0,5 eventos/persona-año, se espera 1,48 eventos en 180 días (`P(≥1) = 0,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B105-C13 — Farmacología y microgravedad](../B105-C13-farmacologia-y-microgravedad/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C15 — Telemedicina espacial →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c15)
+[← Anterior: B105-C13 — Farmacología y microgravedad](../B105-C13-farmacologia-y-microgravedad/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C15 — Telemedicina espacial →](../B105-C15-telemedicina-espacial/CLASE.md)
 <!-- /nav -->
