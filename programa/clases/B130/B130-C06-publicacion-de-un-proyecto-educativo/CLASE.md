@@ -1,7 +1,7 @@
 # B130-C06 — Publicación de un proyecto educativo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B130-C05 — Evaluación de la comprensión del público](../B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md) · [Siguiente: B131-C01 — Actividades de medición astronómica para el aula →](../../../tronco-comun/B131-didactica-de-la-astronomia.md#b131-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B130-C05 — Evaluación de la comprensión del público](../B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md) · [Siguiente: B131-C01 — Actividades de medición astronómica para el aula →](../../B131/B131-C01-actividades-de-medicion-astronomica-para-el-aula/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -325,5 +325,5 @@ Un paquete con seis metadatos, licencia, manifiesto y enlaces sin romper cumple 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B130-C05 — Evaluación de la comprensión del público](../B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B131-C01 — Actividades de medición astronómica para el aula →](../../../tronco-comun/B131-didactica-de-la-astronomia.md#b131-c01)
+[← Anterior: B130-C05 — Evaluación de la comprensión del público](../B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B131-C01 — Actividades de medición astronómica para el aula →](../../B131/B131-C01-actividades-de-medicion-astronomica-para-el-aula/CLASE.md)
 <!-- /nav -->

@@ -1,7 +1,7 @@
 # B131-C01 — Actividades de medición astronómica para el aula
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B130-C06 — Publicación de un proyecto educativo](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c06) · [Siguiente: B131-C02 — Resultados de aprendizaje observables en astronomía →](../B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B130-C06 — Publicación de un proyecto educativo](../../B130/B130-C06-publicacion-de-un-proyecto-educativo/CLASE.md) · [Siguiente: B131-C02 — Resultados de aprendizaje observables en astronomía →](../B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Dos sombras dan `R = 6525 km`, un `+2,3 %` sobre el nominal, con una incertidumb
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B130-C06 — Publicación de un proyecto educativo](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c06) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B131-C02 — Resultados de aprendizaje observables en astronomía →](../B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md)
+[← Anterior: B130-C06 — Publicación de un proyecto educativo](../../B130/B130-C06-publicacion-de-un-proyecto-educativo/CLASE.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B131-C02 — Resultados de aprendizaje observables en astronomía →](../B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md)
 <!-- /nav -->
