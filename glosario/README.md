@@ -1,6 +1,6 @@
 # Glosario del programa
 
-> 📖 **¿Quieres entender, no solo reconocer?** Empieza por el [**glosario esencial**](esencial/README.md): conceptos clave explicados a fondo, con intuición, fórmula con unidades, ejemplo numérico y errores frecuentes. Este glosario completo es el índice extendido: una entrada por término, con la oración de la clase que lo define.
+> 📖 **¿Quieres entender, no solo reconocer?** Empieza por el [**glosario esencial**](esencial/README.md): conceptos clave explicados a fondo, con intuición, fórmula con unidades, ejemplo numérico y errores frecuentes. Este glosario completo es el índice extendido: cada término trae la oración de la clase que lo define, cómo lo explica la clase, su error frecuente y por qué importa.
 
 Glosario en **orden alfabético** de los términos, siglas, magnitudes y símbolos que usan las clases del programa. Se construye con la sección «Vocabulario» y la tabla «Magnitudes, símbolos y unidades» de cada clase: no agrega hechos nuevos, y cada entrada enlaza a las clases donde se aprende, con su modelo mental, ejemplo y ejercicios. Las definiciones heredan el estado de las clases (todas en E0, pendientes de revisión disciplinar).
 
@@ -9,9 +9,10 @@ Contiene **8.702** términos distintos, **445** siglas y **4.207** símbolos, to
 ## Cómo usarlo
 
 1. Busca el término por su letra inicial.
-2. Lee la oración de la clase que lo define (es la definición tal como se enseña) y abre la clase enlazada para ver el ejemplo y los ejercicios.
+2. Lee la definición, la explicación (💡), el error frecuente (⚠️) y por qué importa (🎯); abre la clase enlazada para ver el ejemplo y los ejercicios.
 3. Si ves un símbolo en una fórmula, búscalo en [símbolos y unidades](simbolos-y-unidades.md); si ves una sigla, en [siglas](siglas.md).
-4. Cuando una entrada muestra una frase «tal como aparece en la clase», la clase no define el término en su vocabulario: la explicación está en su modelo mental o su ejemplo trabajado.
+4. Si una entrada dice que la clase no define el término aparte, la explicación (💡) sale de su modelo mental, su explicación paso a paso o su ejemplo trabajado.
+5. Las listas largas están repartidas en partes para que se vean completas en GitHub.
 
 ## Términos por letra
 

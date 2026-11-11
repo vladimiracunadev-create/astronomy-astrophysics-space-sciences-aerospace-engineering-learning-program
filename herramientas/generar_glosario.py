@@ -96,6 +96,59 @@ def contexto_fuera(texto: str, term: str):
     return None
 
 
+SEC_EXPLICA = (8, 7, 13, 14, 5, 12)
+LIMITE_ARCHIVO = 300_000
+
+
+def frases_seccion(texto: str, n: int):
+    out = []
+    for linea in seccion(texto, n).split("\n"):
+        l = linea.strip()
+        if not l or l[0] in "|#`$>!" or l.startswith("```"):
+            continue
+        l = re.sub(r"^(?:[-*]\s+|\d+[.)]\s+)", "", l)
+        out += oraciones(limpiar(l))
+    return out
+
+
+def por_que_clase(texto: str) -> str:
+    s = sin_negritas(limpiar(seccion(texto, 2)))
+    o = oraciones(s)
+    res = ""
+    for x in o[:2]:
+        if len(res) + len(x) > 330:
+            break
+        res += (" " if res else "") + x
+    return res
+
+
+def contexto_clase(cache, term: str, defn):
+    """Oraciones de la propia clase que explican el término (pasos, modelo mental, ejemplo) y su error frecuente."""
+    base = re.sub(r"\([^)]*\)", "", term.lower()).strip()
+    if len(base) < 3:
+        return [], None
+    rx = re.compile(r"(?<!\w)" + re.escape(base) + r"(?!\w)")
+    vistos = {clave(defn)} if defn else set()
+    ex = []
+    for n in SEC_EXPLICA:
+        for o in cache[n]:
+            ol = sin_negritas(o)
+            if rx.search(ol.lower()) and 40 <= len(ol) <= 340 and clave(ol) not in vistos:
+                ex.append(ol)
+                vistos.add(clave(ol))
+                if len(ex) == 2:
+                    break
+        if len(ex) == 2:
+            break
+    er = None
+    for o in cache[18]:
+        ol = sin_negritas(o)
+        if rx.search(ol.lower()) and 30 <= len(ol) <= 300:
+            er = ol
+            break
+    return ex, er
+
+
 def extraer_terminos(texto: str):
     t = limpiar(seccion(texto, 6))
     res = []
@@ -167,9 +220,11 @@ def cargar():
         n_clases += 1
         tit = titulo_clase(texto, cid)
         ruta = "../programa/clases/" + p.parent.parent.name + "/" + p.parent.name + "/CLASE.md"
+        cache = {n: frases_seccion(texto, n) for n in SEC_EXPLICA + (18,)}
+        pq = por_que_clase(texto)
         for term, defn in extraer_terminos(texto):
-            ctx = None if defn else contexto_fuera(texto, term)
-            terminos[clave(term)].append(dict(term=term, defn=defn, ctx=ctx, cid=cid, tit=tit, ruta=ruta))
+            ex, er = contexto_clase(cache, term, defn)
+            terminos[clave(term)].append(dict(term=term, defn=defn, ex=ex, er=er, pq=pq, cid=cid, tit=tit, ruta=ruta))
         for fila in extraer_simbolos(seccion(texto, 9)):
             simbolos[fila[0]].append(dict(fila=fila, cid=cid, tit=tit, ruta=ruta))
     return terminos, simbolos, n_clases
@@ -263,13 +318,45 @@ def lineas_definicion(items):
     if len(defs) > MAX_DEFS:
         out.append(f"- *(y {len(defs) - MAX_DEFS} formulaciones más en otras clases; ábrelas desde los enlaces)*")
     if not defs:
-        for i in sorted(items, key=lambda x: orden_cid(x["cid"])):
-            if i["ctx"]:
-                out.append(f"- {i['ctx']} *(tal como aparece en la clase)*")
-                break
-        if not out:
-            out.append("- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.")
+        out.append("- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.")
     return out
+
+
+def bloque_contexto(items):
+    ordenados = sorted(items, key=lambda x: orden_cid(x["cid"]))
+    for i in ordenados:
+        if i["ex"] or i["er"]:
+            out = ["", f"💡 **Cómo se explica en la clase [{i['cid']}]({i['ruta']}):**"]
+            out += [f"- {s}" for s in i["ex"]]
+            if i["er"]:
+                out.append(f"- ⚠️ **Error frecuente:** {i['er']}")
+            if i["pq"]:
+                out.append(f"- 🎯 **Por qué importa:** {i['pq']}")
+            return out
+    i = ordenados[0]
+    return ["", f"🎯 **Por qué importa (clase {i['cid']}):** {i['pq']}"] if i["pq"] else []
+
+
+def paginar(base, titulo, intro, entradas):
+    """Reparte las entradas en archivos de tamaño razonable para que GitHub los muestre."""
+    partes, actual, tam = [], [], 0
+    for e in entradas:
+        s = "\n".join(e)
+        if actual and tam + len(s) > LIMITE_ARCHIVO:
+            partes.append(actual)
+            actual, tam = [], 0
+        actual.append(s)
+        tam += len(s) + 1
+    if actual:
+        partes.append(actual)
+    nombres = [f"{base}.md" if i == 0 else f"{base}-{i + 1}.md" for i in range(len(partes))]
+    archivos = {}
+    for i, ps in enumerate(partes):
+        cab = [f"# {titulo}" + (f" (parte {i + 1} de {len(partes)})" if len(partes) > 1 else ""), ""] + intro
+        if len(partes) > 1:
+            cab += ["Partes: " + " · ".join(f"**{j + 1}**" if j == i else f"[{j + 1}]({nombres[j]})" for j in range(len(nombres))), ""]
+        archivos[nombres[i]] = "\n".join(cab + ps).rstrip() + "\n"
+    return archivos, nombres
 
 
 def n_clases(items):
@@ -284,18 +371,20 @@ def escribir_terminos(terminos, esencial):
     archivos, indice = {}, []
     for L in letras:
         nav = " · ".join(f"**{x}**" if x == L else f"[{x}](terminos-{x.lower()}.md)" for x in letras)
-        out = [f"# Términos · {L}", "", "[⬅️ Índice del glosario](README.md) · [Siguientes listados: siglas](siglas.md) · [símbolos](simbolos-y-unidades.md)", "", nav, ""]
+        intro = ["[⬅️ Índice del glosario](README.md) · [siglas](siglas.md) · [símbolos](simbolos-y-unidades.md)", "", nav, ""]
+        entradas = []
         for k in sorted(por_letra[L]):
             items = terminos[k]
-            out += [f"### {nombre_visible(items)}", ""] + lineas_definicion(items)
+            e = [f"### {nombre_visible(items)}", ""] + lineas_definicion(items) + bloque_contexto(items)
             if k in esencial:
                 f, h, a = esencial[k]
-                out += ["", f"📖 **Explicado a fondo:** [{h}](esencial/{f}#{a}) (intuición, fórmula, ejemplo numérico y errores frecuentes)."]
+                e += ["", f"📖 **Explicado a fondo:** [{h}](esencial/{f}#{a}) (intuición, fórmula, ejemplo numérico y errores frecuentes)."]
             n = n_clases(items)
-            out += ["", f"📘 **Dónde se aprende** ({n} {'clase' if n == 1 else 'clases'}): {enlaces(items)}.", ""]
-        nombre = f"terminos-{L.lower()}.md"
-        archivos[nombre] = "\n".join(out).rstrip() + "\n"
-        indice.append((L, nombre, len(por_letra[L])))
+            e += ["", f"📘 **Dónde se aprende** ({n} {'clase' if n == 1 else 'clases'}): {enlaces(items)}.", ""]
+            entradas.append(e)
+        arch, nombres = paginar(f"terminos-{L.lower()}", f"Términos · {L}", intro, entradas)
+        archivos.update(arch)
+        indice.append((L, nombres[0], len(por_letra[L])))
     return archivos, indice
 
 
@@ -319,7 +408,7 @@ def escribir_siglas(terminos):
         out += [f"### {sig}", ""]
         if nombres:
             out.append(f"- **Significa:** {'; '.join(nombres)}.")
-        out += lineas_definicion(items)
+        out += lineas_definicion(items) + bloque_contexto(items)
         out += ["", f"📘 **Dónde se aprende:** {enlaces(items)}.", ""]
     return "\n".join(out).rstrip() + "\n", len(filas)
 
@@ -364,14 +453,15 @@ def grupo_simbolo(s: str):
 
 
 def escribir_simbolos(simbolos):
-    out = ["# Símbolos, magnitudes y unidades", "", "[⬅️ Índice del glosario](README.md)", "",
+    intro = ["[⬅️ Índice del glosario](README.md)", "",
            "Cada símbolo que las clases usan en su tabla de magnitudes, en orden alfabético: primero las letras latinas, "
            "después las griegas y al final los signos y operadores. Un mismo símbolo puede significar cosas distintas en "
            "clases distintas: se listan las variantes y cada una enlaza a la clase donde se usa. "
            "Los valores son los de cada clase.", ""]
+    entradas = []
     for s in sorted(simbolos, key=lambda x: (grupo_simbolo(x), clave(x), x)):
         items = simbolos[s]
-        out += [f"### `{s}`", ""]
+        out = [f"### `{s}`", ""]
         variantes = {}
         for it in sorted(items, key=lambda x: orden_cid(x["cid"])):
             _, que, unidad, _ = it["fila"]
@@ -388,7 +478,8 @@ def escribir_simbolos(simbolos):
             ids = ", ".join(sorted({i["cid"] for i in its}, key=orden_cid)[:3])
             out.append("- " + " · ".join(p for p in partes if p) + f" — *{ids}*")
         out += ["", f"📘 **Dónde se usa:** {enlaces(items)}.", ""]
-    return "\n".join(out).rstrip() + "\n"
+        entradas.append(out)
+    return paginar("simbolos-y-unidades", "Símbolos, magnitudes y unidades", intro, entradas)[0]
 
 
 def main():
@@ -399,7 +490,7 @@ def main():
     archivos.update(por_area)
     siglas, n_siglas = escribir_siglas(terminos)
     archivos["siglas.md"] = siglas
-    archivos["simbolos-y-unidades.md"] = escribir_simbolos(simbolos)
+    archivos.update(escribir_simbolos(simbolos))
 
     def fmt(n):
         return f"{n:,}".replace(",", ".")
@@ -407,7 +498,7 @@ def main():
     idx = ["# Glosario del programa", "",
            "> 📖 **¿Quieres entender, no solo reconocer?** Empieza por el [**glosario esencial**](esencial/README.md): "
            "conceptos clave explicados a fondo, con intuición, fórmula con unidades, ejemplo numérico y errores frecuentes. "
-           "Este glosario completo es el índice extendido: una entrada por término, con la oración de la clase que lo define.", "",
+           "Este glosario completo es el índice extendido: cada término trae la oración de la clase que lo define, cómo lo explica la clase, su error frecuente y por qué importa.", "",
            "Glosario en **orden alfabético** de los términos, siglas, magnitudes y símbolos que usan las clases del programa. "
            "Se construye con la sección «Vocabulario» y la tabla «Magnitudes, símbolos y unidades» de cada clase: "
            "no agrega hechos nuevos, y cada entrada enlaza a las clases donde se aprende, con su modelo mental, ejemplo y ejercicios. "
@@ -416,9 +507,10 @@ def main():
            f"tomados de {fmt(n_clases)} clases.", "",
            "## Cómo usarlo", "",
            "1. Busca el término por su letra inicial.",
-           "2. Lee la oración de la clase que lo define (es la definición tal como se enseña) y abre la clase enlazada para ver el ejemplo y los ejercicios.",
+           "2. Lee la definición, la explicación (💡), el error frecuente (⚠️) y por qué importa (🎯); abre la clase enlazada para ver el ejemplo y los ejercicios.",
            "3. Si ves un símbolo en una fórmula, búscalo en [símbolos y unidades](simbolos-y-unidades.md); si ves una sigla, en [siglas](siglas.md).",
-           "4. Cuando una entrada muestra una frase «tal como aparece en la clase», la clase no define el término en su vocabulario: la explicación está en su modelo mental o su ejemplo trabajado.", "",
+           "4. Si una entrada dice que la clase no define el término aparte, la explicación (💡) sale de su modelo mental, su explicación paso a paso o su ejemplo trabajado.",
+           "5. Las listas largas están repartidas en partes para que se vean completas en GitHub.", "",
            "## Términos por letra", ""]
     for L, nombre, n in indice:
         idx.append(f"- [{L}]({nombre}) — {fmt(n)} términos")

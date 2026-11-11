@@ -1,12 +1,16 @@
-# Términos · D
+# Términos · D (parte 1 de 2)
 
-[⬅️ Índice del glosario](README.md) · [Siguientes listados: siglas](siglas.md) · [símbolos](simbolos-y-unidades.md)
+[⬅️ Índice del glosario](README.md) · [siglas](siglas.md) · [símbolos](simbolos-y-unidades.md)
 
 [A](terminos-a.md) · [B](terminos-b.md) · [C](terminos-c.md) · **D** · [E](terminos-e.md) · [F](terminos-f.md) · [G](terminos-g.md) · [H](terminos-h.md) · [I](terminos-i.md) · [J](terminos-j.md) · [K](terminos-k.md) · [L](terminos-l.md) · [M](terminos-m.md) · [N](terminos-n.md) · [O](terminos-o.md) · [P](terminos-p.md) · [Q](terminos-q.md) · [R](terminos-r.md) · [S](terminos-s.md) · [T](terminos-t.md) · [U](terminos-u.md) · [V](terminos-v.md) · [W](terminos-w.md) · [X](terminos-x.md) · [Y](terminos-y.md) · [Z](terminos-z.md) · [0-9](terminos-0-9.md)
+
+Partes: **1** · [2](terminos-d-2.md)
 
 ### D
 
 - S (severidad), O (ocurrencia) y D (detección) puntúan de 1 a 10 (escala de ejemplo; en `D`, 10 es indetectable).
+
+🎯 **Por qué importa (clase B83-C22):** Los fallos que no se anticipan se descubren en órbita. La decisión central: ¿qué modos de fallo hay que atacar primero, cuánta probabilidad tienen en la vida de la misión y qué cambia si mejoro su detección?
 
 📘 **Dónde se aprende** (1 clase): [B83-C22 · Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales](../programa/clases/B83/B83-C22-analisis-de-modos-y-efectos-de-fallo-fmea-en-sistemas-espaciales/CLASE.md).
 
@@ -14,11 +18,22 @@
 
 - La D10 es la dosis con `S = 0,1`.
 
+💡 **Cómo se explica en la clase [B64-C01](../programa/clases/B64/B64-C01-radiotolerancia-biologica-y-reparacion-del-adn/CLASE.md):**
+- La D10 sintética es de 332,6 Gy para el sensible y de 10 434 Gy para el tolerante, un cociente de 31,4.
+- En la D10 el sensible tiene 5,3 DSB de media y el tolerante 166,9: la D10 corresponde a una media de roturas mayor que la capacidad de reparación porque la distribución de Poisson tiene dispersión.
+- ⚠️ **Error frecuente:** Usar la media como umbral. La D10 corresponde a más DSB que la capacidad por la dispersión de Poisson (sección 8.3).
+- 🎯 **Por qué importa:** La radiación ionizante rompe el ADN, y una célula muere cuando el daño supera su capacidad de reparación. La pregunta motivadora: ¿por qué dos organismos con el mismo daño inicial por gray sobreviven a dosis tan distintas?
+
 📘 **Dónde se aprende** (1 clase): [B64-C01 · Radiotolerancia biológica y reparación del ADN](../programa/clases/B64/B64-C01-radiotolerancia-biologica-y-reparacion-del-adn/CLASE.md).
 
 ### Daguerrotipo
 
 - El daguerrotipo es una imagen sobre una placa metálica sensibilizada, de los primeros procedimientos fotográficos.
+
+💡 **Cómo se explica en la clase [B02-C17](../programa/clases/B02/B02-C17-nacimiento-de-la-astrofotografia/CLASE.md):**
+- Con las fuentes consultadas: 1840, daguerrotipo de la Luna de Draper, anunciado el 23 de marzo (S1;
+- El daguerrotipo (Draper 1840, Bond y Whipple 1850) fue el primer registro; las placas secas de gelatina de la década de 1870 llegaron a ser más sensibles y baratas, y con una de ellas Henry Draper expuso 51 minutos la nebulosa de Orión (S5).
+- 🎯 **Por qué importa:** Un dibujo depende de quien lo hace; una placa registra lo que llegó. La pregunta motivadora es: ¿qué cambia cuando la observación puede guardarse, compararse años después y medirse?
 
 📘 **Dónde se aprende** (1 clase): [B02-C17 · Nacimiento de la astrofotografía](../programa/clases/B02/B02-C17-nacimiento-de-la-astrofotografia/CLASE.md).
 
@@ -26,11 +41,23 @@
 
 - El Dall-Kirkham (secundario esférico).
 
+💡 **Cómo se explica en la clase [B41-C17](../programa/clases/B41/B41-C17-telescopios-cassegrain-y-derivados/CLASE.md):**
+- El Dall-Kirkham es fácil de fabricar (secundario esférico) pero paga `12,3` veces más coma; el RC exige dos hiperboloides, pero es plano de coma y aplanático.
+- Con `m = 5` y foco `100 mm` tras el primario: `d = 316,667 mm`, `R₂ = 208,333 mm` y `k₂ = −2,25`; el clásico da coma `10,955 µm` a 10', el Dall-Kirkham `135,089 µm` y el Ritchey-Chrétien `0` (`k₁ = −1,02130`, `k₂ = −2,44971`).
+- ⚠️ **Error frecuente:** Usar `k₂ = 0` esperando un Cassegrain perfecto. Es el Dall-Kirkham.
+- 🎯 **Por qué importa:** Dos espejos permiten un tubo corto y focal larga, y distintos diseños eligen qué aberración corregir. La decisión central: ¿qué diseño corrige la coma y a qué costo?
+
 📘 **Dónde se aprende** (1 clase): [B41-C17 · Telescopios Cassegrain y derivados](../programa/clases/B41/B41-C17-telescopios-cassegrain-y-derivados/CLASE.md).
 
 ### Daño
 
 - El daño, en el artículo I(a) del Convenio leído, es «loss of life, personal injury or other impairment of health» o «loss of or damage to property of States or of persons, natural or juridical».
+
+💡 **Cómo se explica en la clase [B123-C01](../programa/clases/B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md):**
+- El artículo I(a) cubre la pérdida de vida, las lesiones o el deterioro de la salud y la pérdida o el daño de bienes de Estados o personas.
+- En el ejemplo, cubierta, maquinaria y descontaminación son daño a bienes.
+- ⚠️ **Error frecuente:** Contar el plazo solo desde el daño. Se corrige con 8.5.
+- 🎯 **Por qué importa:** Un Estado puede tener derecho a reclamar y aun así perder o cobrar poco si no demuestra el daño o no lo cuantifica de forma defendible. La decisión central: ¿qué partidas puedo sostener con pruebas, por cuánto, en qué moneda y con qué margen de error?
 
 📘 **Dónde se aprende** (1 clase): [B123-C01 · Prueba del daño y cuantificación de la reparación](../programa/clases/B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md).
 
@@ -38,11 +65,18 @@
 
 - Un daño agrupado o complejo reúne varias lesiones (roturas dobles, simples o de bases) a pocos nanómetros.
 
+🎯 **Por qué importa (clase B112-C05):** Falta la clase de mecanismos moleculares de daño y reparación. Sin ella, la diferencia de eficacia biológica entre fotones e iones pesados (B112-C01, C02) y la incertidumbre del riesgo (C04) parecen cifras arbitrarias.
+
 📘 **Dónde se aprende** (1 clase): [B112-C05 · Daño y reparación del ADN por radiación espacial](../programa/clases/B112/B112-C05-dano-y-reparacion-del-adn-por-radiacion-espacial/CLASE.md).
 
 ### Daño esperado
 
 - El daño esperado es `P·D`.
+
+💡 **Cómo se explica en la clase [B119-C10](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md):**
+- *Descripción textual:* el flujo, el área y el tiempo dan la tasa `λ`, de ella la probabilidad y el daño esperado; la conjunción se trata aparte con un modelo gaussiano.
+- ⚠️ **Error frecuente:** Tomar el daño esperado como indemnización. Se corrige con el ejercicio 9.
+- 🎯 **Por qué importa:** C03 reparte una indemnización dada; esta clase cuantifica la exposición que la origina. La prueba del daño y su cuantificación real se tratan en B123.
 
 📘 **Dónde se aprende** (1 clase): [B119-C10 · Responsabilidad por daños espaciales](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md).
 
@@ -50,11 +84,17 @@
 
 - El daño subsuperficial es la capa fracturada que deja cada etapa y que la siguiente debe quitar.
 
+💡 **Cómo se explica en la clase [B43-C04](../programa/clases/B43/B43-C04-fabricacion-y-desbaste-de-espejos/CLASE.md):**
+- ⚠️ **Error frecuente:** Olvidar el daño subsuperficial. Se corrige con 8.4.
+- 🎯 **Por qué importa:** El desbaste fija el radio de curvatura; los errores de esta etapa se pagan en horas de pulido. La decisión central: ¿cuánta profundidad hay que excavar, cómo se mide el radio y cuánto abrasivo se necesita en cada etapa?
+
 📘 **Dónde se aprende** (1 clase): [B43-C04 · Fabricación y desbaste de espejos](../programa/clases/B43/B43-C04-fabricacion-y-desbaste-de-espejos/CLASE.md).
 
 ### Dark maestro
 
 - El dark maestro es la combinación de cuadros oscuros sin bias.
+
+🎯 **Por qué importa (clase B44-C13):** La oscuridad depende de la exposición y de la temperatura, y algunos píxeles son muy calientes. La decisión central: ¿se puede reutilizar un dark de otra exposición, y a qué costo en ruido?
 
 📘 **Dónde se aprende** (1 clase): [B44-C13 · Calibración con dark](../programa/clases/B44/B44-C13-calibracion-con-dark/CLASE.md).
 
@@ -62,11 +102,22 @@
 
 - Un dataset es un arreglo con forma y tipo.
 
+💡 **Cómo se explica en la clase [B14-C07](../programa/clases/B14/B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md):**
+- El dataset `flujo` lleva `unidad = "relativo (adimensional)"`, `cadencia_s = 2,0` y `procedencia = "sintético, semilla 20261105"`.
+- Límite: un archivador no comprime y su orden es tuyo; en HDF5 los fragmentos y la compresión son propiedades que fijas al crear el dataset y que condicionan la velocidad de lectura.
+- 🎯 **Por qué importa:** Una simulación o un instrumento moderno produce series de millones de muestras con sus metadatos. Guardarlas en texto es lento y pesado; cargarlas enteras en memoria para leer un fragmento es inviable.
+
 📘 **Dónde se aprende** (1 clase): [B14-C07 · HDF5 y almacenamiento científico](../programa/clases/B14/B14-C07-hdf5-y-almacenamiento-cientifico/CLASE.md).
 
 ### Dato
 
 - Un dato es el resultado de una observación, con su unidad e incertidumbre.
+
+💡 **Cómo se explica en la clase [B01-C05](../programa/clases/B01/B01-C05-observacion-frente-a-interpretacion/CLASE.md):**
+- Fíjate en que también un dato instrumental ya viene procesado: el espectrógrafo calibra longitudes de onda con lámparas conocidas.
+- (b) O de laboratorio, obtenido en otro lugar: dato de referencia.
+- ⚠️ **Error frecuente:** Creer que un dato es «puro». Todo dato incluye calibración; se corrige con la sección 8.1.
+- 🎯 **Por qué importa:** En septiembre de 2011 la colaboración OPERA publicó que neutrinos enviados desde el CERN habían llegado a su detector, a unos 730 km, 60,7 ns antes de lo que tardaría la luz (S1, versión 1). Una cifra medida pasó rápidamente a titulares que decían otra cosa.
 
 📘 **Dónde se aprende** (1 clase): [B01-C05 · Observación frente a interpretación](../programa/clases/B01/B01-C05-observacion-frente-a-interpretacion/CLASE.md).
 
@@ -74,17 +125,23 @@
 
 - Un dato abierto es de uso libre con condiciones mínimas;
 
+🎯 **Por qué importa (clase B125-C01):** [B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) trata los segmentos de la industria en general; ninguna clase explica por qué un dato crudo puede valer cero y aun así sostener empresas.
+
 📘 **Dónde se aprende** (1 clase): [B125-C01 · Mercado de datos espaciales](../programa/clases/B125/B125-C01-mercado-de-datos-espaciales/CLASE.md).
 
 ### Dato atípico
 
 - Un dato atípico (*outlier*) es una medida que no sigue el modelo.
 
+🎯 **Por qué importa (clase B10-C07):** Una estación mide la distancia a un satélite cada segundo durante diez segundos. Hay once medidas y solo tres parámetros que describir (posición, velocidad y aceleración radiales).
+
 📘 **Dónde se aprende** (1 clase): [B10-C07 · Proyecciones y mínimos cuadrados](../programa/clases/B10/B10-C07-proyecciones-y-minimos-cuadrados/CLASE.md).
 
 ### Dato sintético
 
 - Un dato sintético es el generado por una simulación;
+
+🎯 **Por qué importa (clase B01-C20):** Entender el método no es lo mismo que aplicarlo. Cuando mides de verdad, aparecen problemas que los ejercicios no tienen: el cielo se nubla, el palo no está del todo vertical, la regla se mueve, los datos no coinciden con lo que predijiste.
 
 📘 **Dónde se aprende** (1 clase): [B01-C20 · Proyecto de observación científica inicial](../programa/clases/B01/B01-C20-proyecto-de-observacion-cientifica-inicial/CLASE.md).
 
@@ -94,11 +151,19 @@
 - La incógnita `x` es un vector de `n` números (aquí, el brillo en `n` posiciones); los datos `b` son `m` números;
 - Los datos `yᵢ` se miden en tiempos `tᵢ` con ruido de desviación `σ`.
 
+💡 **Cómo se explica en la clase [B19-C01](../programa/clases/B19/B19-C01-priors-fisicamente-informados/CLASE.md):**
+- Hay conflicto prior–datos cuando la tasa observada queda muy lejos de lo que el prior consideraba plausible: la posterior queda entre ambos y no se parece a ninguno, lo cual es una señal para revisar el modelo, no para confiar en el promedio.
+- Prior y datos producen la posterior, y esta se somete a un análisis de sensibilidad con otros priors.
+- ⚠️ **Error frecuente:** Creer que un prior plano «no influye». Se nota cuando la media sube respecto de Jeffreys con pocos datos.
+- 🎯 **Por qué importa:** Un contador de partículas a bordo de un CubeSat registra 3 eventos en 1 hora. ¿Cuál es la tasa verdadera `λ`, en eventos por hora?
+
 📘 **Dónde se aprende** (3 clases): [B19-C01 · Priors físicamente informados](../programa/clases/B19/B19-C01-priors-fisicamente-informados/CLASE.md); [B22-C01 · Problemas directos e inversos y mal condicionamiento](../programa/clases/B22/B22-C01-problemas-directos-e-inversos-y-mal-condicionamiento/CLASE.md); [B22-C03 · Identificabilidad de parámetros](../programa/clases/B22/B22-C03-identificabilidad-de-parametros/CLASE.md).
 
 ### Datos primarios
 
 - Los datos primarios son los medidos por el sensor.
+
+🎯 **Por qué importa (clase B121-C02):** Ninguna clase anterior trata la regulación de la teledetección. La decisión central: ¿en qué tramo de resolución cae un sensor y qué licencia o condiciones podría implicar?
 
 📘 **Dónde se aprende** (1 clase): [B121-C02 · Licenciamiento de actividades de teledetección](../programa/clases/B121/B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md).
 
@@ -106,11 +171,20 @@
 
 - Los datos sintéticos son datos generados por un programa, como las listas pseudoaleatorias del laboratorio.
 
+💡 **Cómo se explica en la clase [B07-C18](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md):**
+- Con datos sintéticos de semilla 2026: con 100 elementos, inserción hizo 2485 comparaciones (teoría `n(n−1)/4 = 2475`) y mezcla 541; con 5000, inserción hizo 6 270 052 (teoría 6 248 750) y mezcla 55 167.
+- Las cifras son recuentos exactos de una ejecución con datos sintéticos, no mediciones de tiempo.
+- 🎯 **Por qué importa:** Un catálogo estelar tiene millones de objetos. Buscar uno a uno es posible con diez planetas y ruinoso con diez millones.
+
 📘 **Dónde se aprende** (1 clase): [B07-C18 · Algoritmos de búsqueda y ordenamiento](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md).
 
 ### DBd
 
 - Un dBi es dB respecto de una antena isótropa; un dBd, respecto de un dipolo (`dBi = dBd + 2,15`).
+
+💡 **Cómo se explica en la clase [B91-C01](../programa/clases/B91/B91-C01-fundamentos-de-teoria-de-antenas/CLASE.md):**
+- ⚠️ **Error frecuente:** Confundir dBi con dBd. Se corrige con la sección 6.
+- 🎯 **Por qué importa:** Elegir o diseñar una antena empieza por saber qué fija su ganancia y su haz. La decisión central: ¿cuánta ganancia da una apertura de diámetro `D` a la frecuencia `f`, y qué parte de esa ganancia ideal se pierde en la práctica?
 
 📘 **Dónde se aprende** (1 clase): [B91-C01 · Fundamentos de teoría de antenas](../programa/clases/B91/B91-C01-fundamentos-de-teoria-de-antenas/CLASE.md).
 
@@ -118,11 +192,22 @@
 
 - Un dBi es dB respecto de una antena isótropa; un dBd, respecto de un dipolo (`dBi = dBd + 2,15`).
 
+💡 **Cómo se explica en la clase [B91-C01](../programa/clases/B91/B91-C01-fundamentos-de-teoria-de-antenas/CLASE.md):**
+- Integrándolo con la regla de Simpson (`N = 2000` y `N = 4000` subintervalos) resulta `D = 1,6409` (`2,151 dBi`); las dos mallas difieren en `3,1 × 10⁻¹³`.
+- Con `D = 70 m` y `f = 8420 MHz` (`λ = 35,6 mm`): `πD/λ = 6176`, `G = 3,81 × 10⁷`, o `75,81 dBi`.
+- ⚠️ **Error frecuente:** Confundir dBi con dBd. Se corrige con la sección 6.
+- 🎯 **Por qué importa:** Elegir o diseñar una antena empieza por saber qué fija su ganancia y su haz. La decisión central: ¿cuánta ganancia da una apertura de diámetro `D` a la frecuencia `f`, y qué parte de esa ganancia ideal se pierde en la práctica?
+
 📘 **Dónde se aprende** (1 clase): [B91-C01 · Fundamentos de teoría de antenas](../programa/clases/B91/B91-C01-fundamentos-de-teoria-de-antenas/CLASE.md).
 
 ### DBµV
 
 - Emisión conducida: perturbación que viaja por los cables. dBµV: nivel de tensión referido a 1 µV.
+
+💡 **Cómo se explica en la clase [B90-C13](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md):**
+- Dos fuentes de 70 dBµV: incoherentes suman `+3,01 dB` (73,010 dBµV); coherentes y en fase, `+6,02 dB` (76,021).
+- Paso 1 · Emisión. `80 − 20 log₁₀(4) + 9 = 76,96 dBµV`.
+- 🎯 **Por qué importa:** Un convertidor de potencia emite armónicos que viajan por el arnés y pueden perturbar a otro equipo. El margen de 2 dB que pasa hoy puede ser negativo mañana si cambia la incertidumbre.
 
 📘 **Dónde se aprende** (1 clase): [B90-C13 · Compatibilidad electromagnética EMC](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md).
 
@@ -130,11 +215,20 @@
 
 - CCM es la conducción continua y DCM la discontinua.
 
+💡 **Cómo se explica en la clase [B86-C08](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md):**
+- ⚠️ **Error frecuente:** Ignorar CCM/DCM. Se corrige con 8.3.
+- 🎯 **Por qué importa:** Un convertidor que reduce la tensión con un interruptor y una bobina puede ser mucho más eficiente que un regulador lineal, pero introduce rizado, ruido y pérdidas de conmutación que hay que dimensionar. La decisión central: ¿qué ciclo de trabajo, bobina y condensador dan `5 V` desde `28 V` con rizado y eficiencia aceptables?
+
 📘 **Dónde se aprende** (1 clase): [B86-C08 · Convertidores DC-DC](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md).
 
 ### DDOR
 
 - El DDOR resta los retardos de una señal de la nave y de un cuásar medidos en dos estaciones lejanas; da un ángulo con precisión `cσ_τ/B`.
+
+💡 **Cómo se explica en la clase [B74-C17](../programa/clases/B74/B74-C17-navegacion-en-espacio-profundo/CLASE.md):**
+- Al sumar la información del DDOR en la dirección de la declinación, la incertidumbre combinada es `3,75 nrad` a 0° (frente a la ausencia de información del Doppler), y `3,68 nrad` a 60°.
+- *Descripción textual:* el Doppler de una estación rotante da información sobre la ascensión recta y, según la declinación, sobre la declinación; el DDOR añade un ángulo; ambas informaciones se suman y dan la covarianza angular.
+- 🎯 **Por qué importa:** El Doppler apenas distingue la declinación cuando la nave está cerca del ecuador celeste: la firma de la rotación terrestre depende de `sin δ`. La decisión central: ¿qué observable cubre la dirección que los demás no ven?
 
 📘 **Dónde se aprende** (1 clase): [B74-C17 · Navegación en espacio profundo](../programa/clases/B74/B74-C17-navegacion-en-espacio-profundo/CLASE.md).
 
@@ -142,11 +236,18 @@
 
 - El DDREF (factor de efectividad de dosis y tasa de dosis) divide el riesgo de dosis altas y tasas altas para obtener el de dosis bajas;
 
+💡 **Cómo se explica en la clase [B112-C04](../programa/clases/B112/B112-C04-efectos-cronicos-y-carcinogenesis-por-radiacion/CLASE.md):**
+- ICRP 103 mantiene la hipótesis de respuesta lineal a dosis bajas para cáncer y efectos hereditables y estima un detrimento nominal de alrededor del 5 % por Sv, con un DDREF de 2 para cánceres sólidos (extracto consultado).
+- Cucinotta, Kim y Ren (NASA NTRS) señalan que las incertidumbres provienen de los coeficientes epidemiológicos, el DDREF, los factores de calidad y la física del campo y que el cociente entre el nivel del 95 % y la estimación puntual es de unas 4 veces para misiones lunares y a Marte.
+- 🎯 **Por qué importa:** Ninguna clase cubre riesgo de cáncer y efectos tardíos. Los límites de carrera de una misión se expresan como riesgo, no como umbral, y sin entender cómo se estima y cuán incierta es esa estimación, un límite en mSv parece más preciso de lo que es.
+
 📘 **Dónde se aprende** (1 clase): [B112-C04 · Efectos crónicos y carcinogénesis por radiación](../programa/clases/B112/B112-C04-efectos-cronicos-y-carcinogenesis-por-radiacion/CLASE.md).
 
 ### De amortiguamiento
 
 - El régimen lineal, el saturado y el de amortiguamiento.
+
+🎯 **Por qué importa (clase B32-C09):** Medir una abundancia exige saber en qué régimen está la línea. La decisión central: ¿cómo depende el ancho equivalente de la columna de absorbedores?
 
 📘 **Dónde se aprende** (1 clase): [B32-C09 · Medición de perfiles de línea: ancho equivalente y ajuste](../programa/clases/B32/B32-C09-medicion-de-perfiles-de-linea-ancho-equivalente-y-ajuste/CLASE.md).
 
@@ -154,11 +255,20 @@
 
 - de proceso, sobre la estrategia para hacerlo; de autorregulación, sobre cómo el estudiante se monitorea y decide;
 
+💡 **Cómo se explica en la clase [B131-C10](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md):**
+- 12 comentarios sintéticos: 5 de tarea, 0 de proceso, 0 de autorregulación y 7 de persona (`58,3 %`).
+- 12 comentarios reescritos: 4 de tarea, 3 de proceso, 4 de autorregulación y 1 de persona (`8,3 %`); 7 son específicos (`58 %`).
+- 🎯 **Por qué importa:** Un comentario como «muy bien» o «desastre» no dice qué hacer. La decisión central: ¿qué información da este comentario al estudiante para su próximo paso?
+
 📘 **Dónde se aprende** (1 clase): [B131-C10 · Retroalimentación efectiva](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md).
 
 ### De barril
 
 - Es de barril si es negativa y de cojín si es positiva.
+
+💡 **Cómo se explica en la clase [B50-C08](../programa/clases/B50/B50-C08-distorsion-geometrica-y-su-calibracion/CLASE.md):**
+- Todas son de barril y crecen con la distancia del diafragma a la lente.
+- 🎯 **Por qué importa:** En astrometría y en mosaicos una distorsión de 0,1 % mueve las estrellas decenas de píxeles. La decisión central: ¿qué modelo describe la distorsión y con qué precisión se puede calibrar?
 
 📘 **Dónde se aprende** (1 clase): [B50-C08 · Distorsión geométrica y su calibración](../programa/clases/B50/B50-C08-distorsion-geometrica-y-su-calibracion/CLASE.md).
 
@@ -166,11 +276,18 @@
 
 - Una distribución de colas pesadas tiene valores extremos mucho más frecuentes que la normal; en la de Cauchy no existen la media ni la varianza.
 
+💡 **Cómo se explica en la clase [B12-C06](../programa/clases/B12/B12-C06-teorema-central-del-limite/CLASE.md):**
+- Para la distribución de Cauchy la media de `n` observaciones tiene la misma distribución que una sola: el IQR de un dato es `1,992`; el de la media de 100 es `1,997`.
+- Como contraejemplo usaremos errores de Cauchy (de colas muy pesadas) para ver el teorema fallar.
+- 🎯 **Por qué importa:** Ningún instrumento tiene ruido exactamente normal, y sin embargo casi todas las incertidumbres se expresan con campanas. La razón es que se reportan promedios y sumas de muchas contribuciones pequeñas.
+
 📘 **Dónde se aprende** (1 clase): [B12-C06 · Teorema central del límite](../programa/clases/B12/B12-C06-teorema-central-del-limite/CLASE.md).
 
 ### De cojín
 
 - Es de barril si es negativa y de cojín si es positiva.
+
+🎯 **Por qué importa (clase B50-C08):** En astrometría y en mosaicos una distorsión de 0,1 % mueve las estrellas decenas de píxeles. La decisión central: ¿qué modelo describe la distorsión y con qué precisión se puede calibrar?
 
 📘 **Dónde se aprende** (1 clase): [B50-C08 · Distorsión geométrica y su calibración](../programa/clases/B50/B50-C08-distorsion-geometrica-y-su-calibracion/CLASE.md).
 
@@ -178,11 +295,19 @@
 
 - Un parámetro de consideración (*consider parameter*) se reconoce en la covarianza sin estimarlo.
 
+💡 **Cómo se explica en la clase [B74-C05](../programa/clases/B74/B74-C05-sesgos-de-estaciones-terrestres/CLASE.md):**
+- La alternativa es reconocer el sesgo en la covarianza (parámetro de consideración) o mejorar la geometría con una estación cercana.
+- 🎯 **Por qué importa:** Un error sistemático no se promedia: un sesgo de 3 m en cada estación no desaparece con más medidas. La decisión central: ¿qué sesgo conviene estimar, cuál conviene solo reconocer en la covarianza y cuándo el remedio empeora el problema?
+
 📘 **Dónde se aprende** (1 clase): [B74-C05 · Sesgos de estaciones terrestres](../programa/clases/B74/B74-C05-sesgos-de-estaciones-terrestres/CLASE.md).
 
 ### De Dirichlet
 
 - Una condición de Dirichlet fija el valor en la frontera.
+
+💡 **Cómo se explica en la clase [B21-C03](../programa/clases/B21/B21-C03-ecuacion-de-poisson-relajacion-y-multigrid/CLASE.md):**
+- ⚠️ **Error frecuente:** Olvidar que el borde no se actualiza. Es una condición de Dirichlet.
+- 🎯 **Por qué importa:** El potencial gravitatorio de una nube de gas, el potencial electrostático alrededor de una nave que se carga en el plasma y la presión en un fluido incompresible obedecen la misma ecuación: la de Poisson. Los códigos de simulación astrofísica la resuelven en cada paso de tiempo;
 
 📘 **Dónde se aprende** (1 clase): [B21-C03 · Ecuación de Poisson: relajación y multigrid](../programa/clases/B21/B21-C03-ecuacion-de-poisson-relajacion-y-multigrid/CLASE.md).
 
@@ -190,11 +315,15 @@
 
 - Un método de dos etapas evalúa `F` dos veces por paso.
 
+🎯 **Por qué importa (clase B11-C06):** Una evaluación de `F` en un cálculo de trayectorias es cara cuando incluye gravedad de varios cuerpos o un modelo de atmósfera. La pregunta práctica es siempre cuánta precisión compra cada evaluación.
+
 📘 **Dónde se aprende** (1 clase): [B11-C06 · Método de Heun](../programa/clases/B11/B11-C06-metodo-de-heun/CLASE.md).
 
 ### De ganancia
 
 - El margen de fase `PM = 180° + ∠L(jω_c)` y el de ganancia `GM = −20 log|L|` donde `∠L = −180°`.
+
+🎯 **Por qué importa (clase B87-C19):** Una ley que funciona en el caso nominal puede fallar con un retardo o con una inercia distinta. La decisión central: ¿cuánto retardo e incertidumbre tolera y con qué tasa de cumplimiento se cumple el requisito?
 
 📘 **Dónde se aprende** (1 clase): [B87-C19 · Verificación de ley de control](../programa/clases/B87/B87-C19-verificacion-de-ley-de-control/CLASE.md).
 
@@ -202,11 +331,17 @@
 
 - La conductancia de Pedersen (a lo largo de `E`) y la de Hall (perpendicular).
 
+🎯 **Por qué importa (clase B30-C17):** La aurora y las corrientes ionosféricas son la parte visible y eléctrica del acoplamiento entre la magnetosfera y la atmósfera. La decisión central: ¿dónde se produce la ionización y cuánta energía se disipa por efecto Joule?
+
 📘 **Dónde se aprende** (1 clase): [B30-C17 · Auroras y corrientes ionosféricas](../programa/clases/B30/B30-C17-auroras-y-corrientes-ionosfericas/CLASE.md).
 
 ### De lectura
 
 - El ruido de fotones y el de lectura.
+
+💡 **Cómo se explica en la clase [B42-C14](../programa/clases/B42/B42-C14-sensores-shack-hartmann/CLASE.md):**
+- A 400 fotones el ruido de lectura (`0,1375 px`) domina sobre el de fotones (`0,0449 px`).
+- 🎯 **Por qué importa:** El Shack-Hartmann es el sensor más usado en óptica adaptativa. La decisión central: ¿cuántos fotones hacen falta por subapertura para que el centroide sea preciso?
 
 📘 **Dónde se aprende** (1 clase): [B42-C14 · Sensores Shack-Hartmann](../programa/clases/B42/B42-C14-sensores-shack-hartmann/CLASE.md).
 
@@ -214,11 +349,21 @@
 
 - de autorregulación, sobre cómo el estudiante se monitorea y decide; de persona, sobre sus cualidades («eres muy inteligente»).
 
+💡 **Cómo se explica en la clase [B131-C10](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md):**
+- 12 comentarios sintéticos: 5 de tarea, 0 de proceso, 0 de autorregulación y 7 de persona (`58,3 %`).
+- 12 comentarios reescritos: 4 de tarea, 3 de proceso, 4 de autorregulación y 1 de persona (`8,3 %`); 7 son específicos (`58 %`).
+- 🎯 **Por qué importa:** Un comentario como «muy bien» o «desastre» no dice qué hacer. La decisión central: ¿qué información da este comentario al estudiante para su próximo paso?
+
 📘 **Dónde se aprende** (1 clase): [B131-C10 · Retroalimentación efectiva](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md).
 
 ### De proceso
 
 - El comentario de tarea informa si el resultado es correcto o completo; de proceso, sobre la estrategia para hacerlo;
+
+💡 **Cómo se explica en la clase [B131-C10](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md):**
+- 12 comentarios sintéticos: 5 de tarea, 0 de proceso, 0 de autorregulación y 7 de persona (`58,3 %`).
+- 12 comentarios reescritos: 4 de tarea, 3 de proceso, 4 de autorregulación y 1 de persona (`8,3 %`); 7 son específicos (`58 %`).
+- 🎯 **Por qué importa:** Un comentario como «muy bien» o «desastre» no dice qué hacer. La decisión central: ¿qué información da este comentario al estudiante para su próximo paso?
 
 📘 **Dónde se aprende** (1 clase): [B131-C10 · Retroalimentación efectiva](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md).
 
@@ -226,11 +371,17 @@
 
 - El % de recuperación compara el valor actual con el del día 1 y con el previo.
 
+🎯 **Por qué importa (clase B107-C10):** Los fragmentos consultados describen el entrenamiento en la ISS (Loehr et al., 2015) y baterías funcionales con medidas fisiológicas (Mulavara et al., 2018), pero un seguimiento necesita indicadores bien definidos y bien calculados.
+
 📘 **Dónde se aprende** (1 clase): [B107-C10 · Indicadores de rehabilitación y seguimiento](../programa/clases/B107/B107-C10-indicadores-de-rehabilitacion-y-seguimiento/CLASE.md).
 
 ### De salto
 
 - Si falla, hay una discontinuidad: removible (el límite existe pero no coincide con `f(a)` o `f(a)` no existe), de salto (existen ambos límites laterales y son distintos) o infinita (la función crece sin cota).
+
+💡 **Cómo se explica en la clase [B09-C02](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md):**
+- D --> F["Removible, de salto o infinita"]
+- 🎯 **Por qué importa:** Un vehículo espacial cambia de masa de dos maneras: gradualmente, al quemar propelente, y de golpe, al soltar una etapa vacía. Un modelo de trayectoria que ignore los saltos integra mal; uno que los trate como suaves, también.
 
 📘 **Dónde se aprende** (1 clase): [B09-C02 · Continuidad y discontinuidad](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md).
 
@@ -238,11 +389,15 @@
 
 - Un comando de seguridad (`TO_SAFE`) se acepta aun con secuencia fuera de orden, para no impedir la salvaguarda.
 
+🎯 **Por qué importa (clase B88-C09):** Un telecomando aceptado en el estado equivocado puede dañar la nave; uno rechazado en el estado correcto puede perderla. La decisión central: ¿qué comando es válido en cada modo y qué comprobaciones lo protegen?
+
 📘 **Dónde se aprende** (1 clase): [B88-C09 · Telecomandos y estados de misión](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md).
 
 ### De servicio
 
 - La tasa de llegada `λ` y la de servicio `μ` se miden en solicitudes por mes.
+
+🎯 **Por qué importa (clase B119-C08):** C01 enuncia el art. VI como regla; esta clase lo convierte en un proceso con tiempos y cobertura, lo que ninguna clase del bloque hace.
 
 📘 **Dónde se aprende** (1 clase): [B119-C08 · Autorización y supervisión de operadores](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md).
 
@@ -250,11 +405,20 @@
 
 - El comentario de tarea informa si el resultado es correcto o completo;
 
+💡 **Cómo se explica en la clase [B131-C10](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md):**
+- 12 comentarios sintéticos: 5 de tarea, 0 de proceso, 0 de autorregulación y 7 de persona (`58,3 %`).
+- 12 comentarios reescritos: 4 de tarea, 3 de proceso, 4 de autorregulación y 1 de persona (`8,3 %`); 7 son específicos (`58 %`).
+- 🎯 **Por qué importa:** Un comentario como «muy bien» o «desastre» no dice qué hacer. La decisión central: ¿qué información da este comentario al estudiante para su próximo paso?
+
 📘 **Dónde se aprende** (1 clase): [B131-C10 · Retroalimentación efectiva](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md).
 
 ### De ventana
 
 - El de ventana también reinicia si la patada llega antes de `t_min`.
+
+💡 **Cómo se explica en la clase [B88-C11](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md):**
+- Analogía: un watchdog de ventana es como un guardia que exige que lo saludes cada hora, ni antes de los 40 minutos ni después de los 80.
+- 🎯 **Por qué importa:** Un watchdog mal ajustado reinicia sin necesidad o no reinicia cuando hace falta. La decisión central: ¿qué ventana y qué escalera de acciones recuperan un software colgado sin reinicios falsos?
 
 📘 **Dónde se aprende** (1 clase): [B88-C11 · Watchdogs y recuperación](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md).
 
@@ -263,11 +427,18 @@
 - El prior informativo lleva información sustantiva; el débil pesa poco.
 - La solución débil del choque oblicuo tiene `M₂ > 1` (casi siempre); la fuerte, `M₂ < 1`.
 
+💡 **Cómo se explica en la clase [B12-C12](../programa/clases/B12/B12-C12-inferencia-bayesiana/CLASE.md):**
+- Con prior débil `Gamma(1; 0,1)` (media 10, muy difuso), `S = 37` y `n = 10`: posterior `Gamma(38; 10,1)`, media `3,7624`, intervalo creíble 95 % `[2,662; 5,049]`.
+- Paso 6 · Sensibilidad. Con el prior débil, el intervalo es `[2,662; 5,049]` y `P(λ > 5) ≈ 0,029`, algo mayor.
+- 🎯 **Por qué importa:** Una misión rara vez parte de cero: hay pruebas en tierra, misiones anteriores y física conocida. Y a menudo el dato es escaso (diez intervalos, treinta pruebas).
+
 📘 **Dónde se aprende** (2 clases): [B12-C12 · Inferencia bayesiana](../programa/clases/B12/B12-C12-inferencia-bayesiana/CLASE.md); [B79-C07 · Ondas de choque normales y oblicuas](../programa/clases/B79/B79-C07-ondas-de-choque-normales-y-oblicuas/CLASE.md).
 
 ### Débiles
 
 - Los ácidos o bases fuertes se ionizan prácticamente por completo; los débiles, sólo en parte, y su equilibrio se describe con `K_a` o `K_b`.
+
+🎯 **Por qué importa (clase B06-C15):** El extracto en agua caliente de las muestras de Bennu contiene amoníaco libre en unos 13,6 μmol por gramo y ácido fórmico en 4,106 μmol por gramo (S1). Un ácido y una base en el mismo líquido reaccionan entre sí: el ácido cede un protón, la base lo acepta y se forman iones.
 
 📘 **Dónde se aprende** (1 clase): [B06-C15 · Ácidos, bases y soluciones](../programa/clases/B06/B06-C15-acidos-bases-y-soluciones/CLASE.md).
 
@@ -275,11 +446,18 @@
 
 - Un prior débilmente informativo excluye lo físicamente imposible sin forzar un valor.
 
+💡 **Cómo se explica en la clase [B19-C01](../programa/clases/B19/B19-C01-priors-fisicamente-informados/CLASE.md):**
+- Uno débilmente informativo deja fuera lo imposible y deja que los datos decidan lo demás; suele ser un buen punto de partida.
+- Gelman, Simpson y Betancourt (fuente S1) parten de una observación que cualquier analista bayesiano reconoce: elegir el prior es una de las dificultades centrales del análisis, y existen muchas opciones por defecto (uniforme, de Jeffreys, de referencia, de máxima entropía, débilmente informativo).
+- 🎯 **Por qué importa:** Un contador de partículas a bordo de un CubeSat registra 3 eventos en 1 hora. ¿Cuál es la tasa verdadera `λ`, en eventos por hora?
+
 📘 **Dónde se aprende** (1 clase): [B19-C01 · Priors físicamente informados](../programa/clases/B19/B19-C01-priors-fisicamente-informados/CLASE.md).
 
 ### Década
 
-- Los intervalos de los resúmenes cubren `1,68` décadas (JWST), `0,31` (GALEX), `1,42` (NuSTAR) y `4,18` (Fermi LAT). *(tal como aparece en la clase)*
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+🎯 **Por qué importa (clase B47-C20):** Un ranking depende de los pesos elegidos. La decisión central: ¿qué conclusión sobrevive cuando los pesos cambian?
 
 📘 **Dónde se aprende** (1 clase): [B47-C20 · Caso comparativo de observatorios espaciales](../programa/clases/B47/B47-C20-caso-comparativo-de-observatorios-espaciales/CLASE.md).
 
@@ -287,11 +465,22 @@
 
 - El decaimiento es la pérdida de semieje.
 
+💡 **Cómo se explica en la clase [B72-C06](../programa/clases/B72/B72-C06-arrastre-atmosferico/CLASE.md):**
+- *Descripción textual:* la densidad y el coeficiente balístico dan la aceleración; esta da el decaimiento por vuelta, corregido por la rotación del aire, y de él sale la vida útil.
+- Por decaimiento: `Δa` por vuelta o por día.
+- 🎯 **Por qué importa:** Una estación o una constelación baja debe reimpulsarse y un satélite sin propulsión debe reentrar a tiempo. La decisión central: ¿cuánto baja un satélite por vuelta y en cuántos días reentra, según su masa, su área y la densidad del aire?
+
 📘 **Dónde se aprende** (1 clase): [B72-C06 · Arrastre atmosférico](../programa/clases/B72/B72-C06-arrastre-atmosferico/CLASE.md).
 
 ### Decisión
 
 - Una decisión es una elección razonada dentro de lo permitido por el protocolo.
+
+💡 **Cómo se explica en la clase [B14-C24](../programa/clases/B14/B14-C24-documentacion-de-hipotesis-y-decisiones-de-analisis/CLASE.md):**
+- Una decisión es una elección que el protocolo permitía (por ejemplo, usar el modelo trapezoidal que el plan especificaba).
+- E0["Entrada 0<br/>protocolo<br/>huella₀"] --> E1["Entrada 1<br/>decisión<br/>previa = huella₀<br/>huella₁"]
+- ⚠️ **Error frecuente:** Clasificar una desviación como decisión. Se corrige con los ejercicios 1 y 11.
+- 🎯 **Por qué importa:** Seis meses después de un análisis, nadie recuerda por qué se excluyeron tres puntos ni cuándo se cambió el modelo. Y un revisor pregunta si la exclusión estaba prevista.
 
 📘 **Dónde se aprende** (1 clase): [B14-C24 · Documentación de hipótesis y decisiones de análisis](../programa/clases/B14/B14-C24-documentacion-de-hipotesis-y-decisiones-de-analisis/CLASE.md).
 
@@ -299,11 +488,15 @@
 
 - El algoritmo de Viterbi halla la secuencia de máxima verosimilitud; en decisión dura usa la distancia de Hamming.
 
+🎯 **Por qué importa (clase B94-C02):** El decodificador de Viterbi falla en ráfagas y los desvanecimientos también. La decisión central: ¿qué profundidad de entrelazado hace falta para que una ráfaga de `B` octetos no sature ninguna palabra, y qué ganancia da frente a no entrelazar?
+
 📘 **Dónde se aprende** (1 clase): [B94-C02 · Entrelazado y concatenación de códigos](../programa/clases/B94/B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md).
 
 ### Declaración de disponibilidad
 
 - Una declaración de disponibilidad dice dónde están los datos y el código, con su versión.
+
+🎯 **Por qué importa (clase B20-C04):** Un resultado correcto mal comunicado se pierde: nadie sabe qué se midió, con qué incertidumbre ni qué supuestos hay detrás, y no puede reproducirse ni usarse.
 
 📘 **Dónde se aprende** (1 clase): [B20-C04 · Redacción de un artículo científico](../programa/clases/B20/B20-C04-redaccion-de-un-articulo-cientifico/CLASE.md).
 
@@ -314,6 +507,11 @@
 - La declinación `δ` es la coordenada celeste norte–sur.
 - *(y 7 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B01-C11](../programa/clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md):**
+- Por geometría (nuestra), las estrellas de declinación `|δ| > 90° − |φ| = 56,55°`, en el mismo hemisferio que el polo visible, son circumpolares: nunca se ponen.
+- I["Eje inclinado 23,44°"] --> D["Declinación solar entre −23,44° y +23,44°"]
+- 🎯 **Por qué importa:** Antes de cualquier telescopio, la humanidad dedujo mucho del cielo a simple vista. Que el Sol «salga» y «se ponga» es una observación; que la Tierra gire es una interpretación (C05) que explica además el movimiento de todas las estrellas.
+
 📖 **Explicado a fondo:** [Ascensión recta y declinación](esencial/esencial-a-c.md#ascensión-recta-y-declinación) (intuición, fórmula, ejemplo numérico y errores frecuentes).
 
 📘 **Dónde se aprende** (11 clases): [B01-C11 · Movimiento aparente del Sol y las estrellas](../programa/clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md); [B02-C07 · Observaciones de Polinesia y navegación oceánica](../programa/clases/B02/B02-C07-observaciones-de-polinesia-y-navegacion-oceanica/CLASE.md); [B02-C08 · Arqueoastronomía y sus métodos](../programa/clases/B02/B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md); [B04-C11 · Coordenadas esféricas](../programa/clases/B04/B04-C11-coordenadas-esfericas/CLASE.md); [B08-C02 · Esfera celeste y horizonte local](../programa/clases/B08/B08-C02-esfera-celeste-y-horizonte-local/CLASE.md); [B08-C03 · Ascensión recta y declinación](../programa/clases/B08/B08-C03-ascension-recta-y-declinacion/CLASE.md) y 5 más.
@@ -322,11 +520,15 @@
 
 - El norte magnético es la dirección que indica una brújula, ligada al campo magnético terrestre; la declinación magnética es el ángulo entre ambos y varía con el lugar y con el tiempo (S2).
 
+🎯 **Por qué importa (clase B08-C01):** Una persona que llega de noche a un lugar oscuro sin saber dónde está el este no sabe dónde buscar una salida de Luna, ni hacia dónde apuntar un telescopio, ni qué rumbo debe tomar si pierde el sendero. La pregunta motivadora es: ¿cómo sé hacia dónde miro, sin depender de un aparato que se puede descargar o descalibrar?
+
 📘 **Dónde se aprende** (1 clase): [B08-C01 · Orientación geográfica y puntos cardinales](../programa/clases/B08/B08-C01-orientacion-geografica-y-puntos-cardinales/CLASE.md).
 
 ### Declinación solar
 
 - La declinación solar `δ` es el ángulo del Sol por encima o debajo del ecuador celeste (se define bien en C03).
+
+🎯 **Por qué importa (clase B08-C01):** Una persona que llega de noche a un lugar oscuro sin saber dónde está el este no sabe dónde buscar una salida de Luna, ni hacia dónde apuntar un telescopio, ni qué rumbo debe tomar si pierde el sendero. La pregunta motivadora es: ¿cómo sé hacia dónde miro, sin depender de un aparato que se puede descargar o descalibrar?
 
 📘 **Dónde se aprende** (1 clase): [B08-C01 · Orientación geográfica y puntos cardinales](../programa/clases/B08/B08-C01-orientacion-geografica-y-puntos-cardinales/CLASE.md).
 
@@ -334,11 +536,22 @@
 
 - La deconvolución intenta recuperar `x` a partir de `d` y `H`.
 
+💡 **Cómo se explica en la clase [B15-C11](../programa/clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md):**
+- La deconvolución puede resolver mejor estructuras (separar dos máximos) y sacar flujo total conservado.
+- El caso del Hubble (S1) lo muestra: restaurar una óptica corrige a la vez *todas* las frecuencias espaciales; la deconvolución solo puede devolver lo que sobrevivió al desenfoque por encima del ruido.
+- 🎯 **Por qué importa:** Un telescopio con un defecto de enfoque convierte cada estrella en una mancha. Dos estrellas cercanas pueden fundirse en una sola; el brillo de una galaxia, repartirse sobre sus vecinas.
+
 📘 **Dónde se aprende** (1 clase): [B15-C11 · Deconvolución y enfoque](../programa/clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md).
 
 ### Decorativa
 
 - Una imagen decorativa lleva `alt` vacío para que el lector la omita.
+
+💡 **Cómo se explica en la clase [B128-C04](../programa/clases/B128/B128-C04-documentos-y-contenidos-para-lectores-de-pantalla/CLASE.md):**
+- Una imagen decorativa lleva `alt=""` para no distraer.
+- Descripción larga: la revisión pasa de 8 hallazgos a 0 al corregir idioma, título, estructura, imágenes, enlaces y tabla; la imagen decorativa nunca fue un hallazgo.
+- ⚠️ **Error frecuente:** Poner `alt` en una imagen decorativa. Se corrige con 8.2.
+- 🎯 **Por qué importa:** Una imagen sin texto alternativo, una tabla sin encabezados o un enlace «haz clic aquí» no se ven como problema a simple vista pero dejan a una persona sin la información. La decisión central: ¿qué comprobaciones mínimas puedo automatizar y qué debo revisar a mano?
 
 📘 **Dónde se aprende** (1 clase): [B128-C04 · Documentos y contenidos para lectores de pantalla](../programa/clases/B128/B128-C04-documentos-y-contenidos-para-lectores-de-pantalla/CLASE.md).
 
@@ -346,11 +559,21 @@
 
 - La decorrelación es la pérdida de coherencia.
 
+💡 **Cómo se explica en la clase [B69-C05](../programa/clases/B69/B69-C05-coherencia-interferometrica-y-decorrelacion/CLASE.md):**
+- Por simulación: pares con la decorrelación impuesta.
+- 🎯 **Por qué importa:** Un interferograma sin coherencia es ruido con aspecto de franjas. La decisión central: ¿cuánto puedo fiarme de la fase de un pixel y qué la degrada?
+
 📘 **Dónde se aprende** (1 clase): [B69-C05 · Coherencia interferométrica y decorrelación](../programa/clases/B69/B69-C05-coherencia-interferometrica-y-decorrelacion/CLASE.md).
 
 ### Deducible
 
 - El deducible `D` se resta de cada pérdida.
+
+💡 **Cómo se explica en la clase [B127-C04](../programa/clases/B127/B127-C04-exclusiones-deducibles-y-limites-de-polizas/CLASE.md):**
+- Un deducible de `5` quita casi el `40 %` del pago medio de A: solo el `46,4 %` de los eventos lo supera (`P(L > 5) = 0,4637`).
+- *Descripción textual:* una pérdida primero se comprueba contra las exclusiones; si no está excluida, se resta el deducible, se topa en el límite y se multiplica por la fracción coasegurada.
+- ⚠️ **Error frecuente:** Restar el deducible después de aplicar el límite. El orden es deducible, luego límite; se corrige con 8.1.
+- 🎯 **Por qué importa:** Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trataba. La decisión central: ¿qué parte de la pérdida retiene el asegurado y cómo cambia el precio al cambiar las condiciones?
 
 📘 **Dónde se aprende** (1 clase): [B127-C04 · Exclusiones, deducibles y límites de pólizas](../programa/clases/B127/B127-C04-exclusiones-deducibles-y-limites-de-polizas/CLASE.md).
 
@@ -358,11 +581,17 @@
 
 - La deduplicación guarda una sola vez el contenido idéntico.
 
+💡 **Cómo se explica en la clase [B14-C11](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md):**
+- La deduplicación es una consecuencia del diseño, no una función añadida.
+- 🎯 **Por qué importa:** Un análisis usó «la tabla de catálogo de octubre». En noviembre alguien reemplazó el archivo por otro con el mismo nombre.
+
 📘 **Dónde se aprende** (1 clase): [B14-C11 · Control de versiones de datos](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md).
 
 ### Defecto
 
 - El defecto es el residuo de esa ecuación.
+
+🎯 **Por qué importa (clase B81-C03):** Los métodos directos son los más usados cuando no se tiene un buen punto de partida y hay muchas restricciones. La decisión central: ¿cuántos nodos hacen falta y a qué velocidad converge el coste discreto al continuo?
 
 📘 **Dónde se aprende** (1 clase): [B81-C03 · Métodos directos de transcripción](../programa/clases/B81/B81-C03-metodos-directos-de-transcripcion/CLASE.md).
 
@@ -372,11 +601,21 @@
 - El defecto de masa es la diferencia entre la masa de los reactivos y la del producto; se libera como energía `Q = Δm c²`.
 - El defecto de masa es la diferencia entre la masa de los constituyentes y la del núcleo.
 
+💡 **Cómo se explica en la clase [B55-C02](../programa/clases/B55/B55-C02-nucleosintesis-y-elementos/CLASE.md):**
+- M["masas atómicas (NIST)"] --> DM["defecto de masa"]
+- *Descripción textual:* las masas atómicas dan el defecto de masa y la energía de enlace por nucleón, con un máximo en la región del hierro y el níquel; las diferencias de masa entre reactivos y productos dan los valores `Q`.
+- 🎯 **Por qué importa:** Los elementos que encontramos en el espacio, en cometas y en meteoritos se formaron en estrellas. Para saber hasta dónde puede llegar una cadena de fusión y cuánta energía libera hay que mirar la energía de enlace.
+
 📘 **Dónde se aprende** (4 clases): [B06-C08 · Reacciones y conservación de masa](../programa/clases/B06/B06-C08-reacciones-y-conservacion-de-masa/CLASE.md); [B24-C06 · Fusión de hidrógeno](../programa/clases/B24/B24-C06-fusion-de-hidrogeno/CLASE.md); [B31-C07 · Estructura nuclear](../programa/clases/B31/B31-C07-estructura-nuclear/CLASE.md); [B55-C02 · Nucleosíntesis y elementos](../programa/clases/B55/B55-C02-nucleosintesis-y-elementos/CLASE.md).
 
 ### Defectos de continuidad
 
 - El disparo múltiple divide el tiempo en `m` tramos: las incógnitas son `v₀` y los estados de los nodos, y las ecuaciones son los defectos de continuidad (fin de un tramo menos inicio del siguiente) más la condición final.
+
+💡 **Cómo se explica en la clase [B81-C02](../programa/clases/B81/B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md):**
+- M["m tramos + nodos"] --> D["defectos de continuidad"]
+- *Descripción textual:* el disparo simple repite integrar, medir el error final y corregir `v₀` con Newton; el múltiple hace lo mismo sobre `v₀` y los nodos con defectos de continuidad.
+- 🎯 **Por qué importa:** El disparo simple falla cuando la trayectoria es muy sensible a la velocidad inicial; el múltiple reparte el problema en tramos. La decisión central: ¿cuándo basta un solo disparo y cuándo hay que dividir la trayectoria?
 
 📘 **Dónde se aprende** (1 clase): [B81-C02 · Método de disparo para control óptimo](../programa/clases/B81/B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md).
 
@@ -385,11 +624,18 @@
 - La defensa en profundidad es apilar capas.
 - La defensa en profundidad combina varios controles.
 
+🎯 **Por qué importa (clase B119-C14):** La amenaza cibernética conecta el derecho con la seguridad operativa; el modelo defensivo de infraestructura espacial (B122-C03) lo desarrolla, y esta clase fija el razonamiento de riesgo. La decisión central: ¿qué control reduce más el riesgo residual y cuánto se gana al combinarlos?
+
 📘 **Dónde se aprende** (2 clases): [B119-C14 · Amenazas cibernéticas a satélites](../programa/clases/B119/B119-C14-amenazas-ciberneticas-a-satelites/CLASE.md); [B122-C04 · Seguridad de estaciones terrestres y segmento de control](../programa/clases/B122/B122-C04-seguridad-de-estaciones-terrestres-y-segmento-de-control/CLASE.md).
 
 ### Deferente
 
 - El deferente (en S1, el «círculo grande» o excéntrico) es el círculo sobre el cual se mueve el centro del epiciclo, y la Tierra está algo desplazada de su centro.
+
+💡 **Cómo se explica en la clase [B02-C10](../programa/clases/B02/B02-C10-geocentrismo-y-heliocentrismo/CLASE.md):**
+- A["Observación:<br/>planeta se detiene,<br/>retrocede y avanza"] --> B["Modelo geocéntrico:<br/>epiciclo sobre deferente"]
+- *Descripción textual:* una misma observación (el vaivén de un planeta) se explica en dos modelos: con epiciclo sobre deferente en el geocéntrico, y con el movimiento relativo de la Tierra y el planeta en el heliocéntrico; ambos predicen posiciones y se comparan según precisión, simplicidad y consistencia con otras observaciones.
+- 🎯 **Por qué importa:** La pregunta «¿se mueve la Tierra o el cielo?» se puede responder hoy en una línea, pero en 1500 una persona razonable podía defender cualquiera de las dos. La pregunta motivadora es: ¿con qué criterios se elige entre dos modelos que predicen casi lo mismo?
 
 📘 **Dónde se aprende** (1 clase): [B02-C10 · Geocentrismo y heliocentrismo](../programa/clases/B02/B02-C10-geocentrismo-y-heliocentrismo/CLASE.md).
 
@@ -398,11 +644,18 @@
 - El déficit `D` es la pérdida inicial (% del valor previo).
 - El déficit `D = 100 − y`.
 
+💡 **Cómo se explica en la clase [B105-C17](../programa/clases/B105/B105-C17-rehabilitacion-posterior-al-vuelo/CLASE.md):**
+- Con seis mediciones y ruido de 1,5 puntos, el ajuste del déficit da `L = 27,8` y `k = 0,0460` (semivida 15,1 d).
+- *Descripción textual:* las mediciones dan el déficit; su logaritmo es lineal en el tiempo; la recta da `L` y `k`, de ahí la semivida y los tiempos de recuperación, y el bootstrap cuantifica su incertidumbre.
+- 🎯 **Por qué importa:** Prometer una fecha de recuperación sin su incertidumbre es engañoso: unas pocas mediciones ruidosas dan intervalos amplios. La decisión central: ¿cuánto tarda en recuperarse el 95 % y con qué incertidumbre, y cómo cambia para una persona lenta?
+
 📘 **Dónde se aprende** (2 clases): [B105-C17 · Rehabilitación posterior al vuelo](../programa/clases/B105/B105-C17-rehabilitacion-posterior-al-vuelo/CLASE.md); [B107-C06 · Estimación y modelado de la recuperación posterior al vuelo](../programa/clases/B107/B107-C06-estimacion-y-modelado-de-la-recuperacion-posterior-al-vuelo/CLASE.md).
 
 ### Déficit de deslizamiento
 
 - El déficit de deslizamiento es el deslizamiento que se ha acumulado sin liberarse.
+
+🎯 **Por qué importa (clase B57-C20):** Chile vive sobre una zona de subducción activa y las instituciones deben comprender cuánta deformación se acumula y se libera. La decisión central: ¿qué puede decir una cuenta de balance de deslizamiento y qué no puede decir sobre cuándo ocurrirá el próximo terremoto?
 
 📘 **Dónde se aprende** (1 clase): [B57-C20 · Caso de estudio climático o geológico de Chile](../programa/clases/B57/B57-C20-caso-de-estudio-climatico-o-geologico-de-chile/CLASE.md).
 
@@ -410,11 +663,17 @@
 
 - El déficit de irradiancia es la fracción de luz perdida.
 
+💡 **Cómo se explica en la clase [B30-C04](../programa/clases/B30/B30-C04-manchas-solares/CLASE.md):**
+- *Descripción textual:* el campo da una presión magnética que, por el equilibrio, reduce la presión de gas interior; el contraste y el área dan el déficit de irradiancia.
+- 🎯 **Por qué importa:** Las manchas son la huella visible del campo magnético y las más fáciles de contar. Cuantificar su presión, su brillo y su flujo permite relacionarlas con la irradiancia.
+
 📘 **Dónde se aprende** (1 clase): [B30-C04 · Manchas solares](../programa/clases/B30/B30-C04-manchas-solares/CLASE.md).
 
 ### Déficit de presión de vapor
 
 - El déficit de presión de vapor `es − ea` mide lo seco que está el aire.
+
+🎯 **Por qué importa (clase B115-C06):** El cultivo es el mayor flujo de agua de un hábitat con plantas. La decisión central: ¿cuánta agua transpira el cultivo, cuánta se recupera y cuánta hay que reponer, y con qué incertidumbre?
 
 📘 **Dónde se aprende** (1 clase): [B115-C06 · Balance de agua y evapotranspiración en cultivos](../programa/clases/B115/B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md).
 
@@ -422,11 +681,17 @@
 
 - El déficit de vapor es la diferencia entre el vapor de saturación y el del aire.
 
+💡 **Cómo se explica en la clase [B115-C04](../programa/clases/B115/B115-C04-sistemas-aeroponicos/CLASE.md):**
+- *Descripción textual:* cada pulso forma una película en la raíz; la película se seca a un ritmo que depende del déficit de vapor; el siguiente pulso debe llegar antes de que la raíz quede seca más tiempo del admisible.
+- 🎯 **Por qué importa:** En un hábitat, cada litro y cada kilogramo cuentan. La decisión central: ¿cuánto tiempo puede pasar entre dos nieblas sin que la raíz se seque, y cómo depende eso de la humedad de la cámara y del tamaño de las gotas?
+
 📘 **Dónde se aprende** (1 clase): [B115-C04 · Sistemas aeropónicos](../programa/clases/B115/B115-C04-sistemas-aeroponicos/CLASE.md).
 
 ### Déficit por órbita
 
 - El déficit por órbita es la diferencia cuando no cierra.
+
+🎯 **Por qué importa (clase B86-C13):** Una batería que cubre bien un eclipse puede fallar tras cien porque cada órbita pierde un poco más de lo que recupera. El cierre del ciclo es la prueba de que el diseño es sostenible.
 
 📘 **Dónde se aprende** (1 clase): [B86-C13 · Energía durante eclipse](../programa/clases/B86/B86-C13-energia-durante-eclipse/CLASE.md).
 
@@ -434,11 +699,15 @@
 
 - Una definición operativa es una regla que, aplicada a un caso, da un veredicto repetible.
 
+🎯 **Por qué importa (clase B56-C01):** Una misión que busca vida necesita saber qué buscar y qué contará como hallazgo. Si el criterio es vago, cualquier resultado se puede discutir; si es demasiado estrecho, se pasa por alto lo que no se parece a la vida terrestre.
+
 📘 **Dónde se aprende** (1 clase): [B56-C01 · Definiciones operativas de vida](../programa/clases/B56/B56-C01-definiciones-operativas-de-vida/CLASE.md).
 
 ### Definición positiva
 
 - La definición positiva de `K` restringida garantiza solución única.
+
+🎯 **Por qué importa (clase B84-C31):** Un error de unidades da una frecuencia de 0,008 Hz o de 258 Hz sin aviso; solo las comprobaciones sistemáticas lo detectan antes de la revisión. La decisión central: ¿qué comprobaciones demuestran que el modelo es correcto antes de revisar sus resultados?
 
 📘 **Dónde se aprende** (1 clase): [B84-C31 · Documentación y revisión de análisis de elementos finitos](../programa/clases/B84/B84-C31-documentacion-y-revision-de-analisis-de-elementos-finitos/CLASE.md).
 
@@ -446,11 +715,23 @@
 
 - Cholesky: `A = L Lᵀ` con `L` triangular inferior de diagonal positiva, para `A` simétrica definida positiva (`xᵀA x > 0` para todo `x ≠ 0`; sus autovalores son positivos, C08).
 
+💡 **Cómo se explica en la clase [B10-C10](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md):**
+- Cada paso exige que la cantidad bajo la raíz sea positiva; si no lo es, la matriz no es definida positiva y el algoritmo se detiene.
+- Regla práctica: Cholesky si hay simetría definida positiva;
+- ⚠️ **Error frecuente:** Aplicar Cholesky a una matriz que no es definida positiva. Se corrige con los ejercicios 5 y 10.
+- 🎯 **Por qué importa:** Un filtro de navegación resuelve el mismo sistema con miles de lados derechos distintos; una simulación necesita muestras aleatorias con una covarianza dada; un ajuste de mínimos cuadrados quiere estabilidad. En cada caso el trabajo se hace una vez al factorizar y luego se reutiliza.
+
 📘 **Dónde se aprende** (1 clase): [B10-C10 · Descomposiciones matriciales](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md).
 
 ### Deflector
 
 - Un deflector es un anillo que bloquea trayectorias directas.
+
+💡 **Cómo se explica en la clase [B50-C05](../programa/clases/B50/B50-C05-luz-parasita-y-analisis-de-rayos-dispersos/CLASE.md):**
+- El deflector reduce la luz dispersa que llega al detector en un factor de `1,78`.
+- Un recubrimiento reduce el fantasma en potencia y un deflector, la dispersión directa; ninguno elimina la luz que rebota dos veces en la pared.
+- ⚠️ **Error frecuente:** Esperar que un deflector elimine toda la dispersión. Se corrige con 8.4.
+- 🎯 **Por qué importa:** El contraste de un instrumento no depende solo de la imagen: depende de cuánta luz llega por caminos no deseados. La decisión central: ¿qué fracción de luz llega por un camino parásito y cómo se reduce?
 
 📘 **Dónde se aprende** (1 clase): [B50-C05 · Luz parásita y análisis de rayos dispersos](../programa/clases/B50/B50-C05-luz-parasita-y-analisis-de-rayos-dispersos/CLASE.md).
 
@@ -458,11 +739,19 @@
 
 - La deflexión `α` es el cambio de dirección del rayo.
 
+💡 **Cómo se explica en la clase [B26-C09](../programa/clases/B26/B26-C09-relatividad-general-introductoria/CLASE.md):**
+- Paso 3 · Deflexión. `α = 2r_s/b = 2/1000 = 2 × 10⁻³ rad`.
+- 🎯 **Por qué importa:** La luz de una estrella lejana que pasa cerca del Sol, o de una galaxia, se desvía: es la base de las lentes gravitacionales que miden masas de cúmulos (C18) y de las correcciones al seguimiento de naves en el espacio profundo.
+
 📘 **Dónde se aprende** (1 clase): [B26-C09 · Relatividad general introductoria](../programa/clases/B26/B26-C09-relatividad-general-introductoria/CLASE.md).
 
 ### Deflexión asintótica
 
 - La deflexión asintótica es `2 arcsin(1/e)`.
+
+💡 **Cómo se explica en la clase [B73-C21](../programa/clases/B73/B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md):**
+- ⚠️ **Error frecuente:** Usar la deflexión asintótica en vez del ángulo con `r₀` finito. Se corrige con 8.1.
+- 🎯 **Por qué importa:** Un encuentro con una luna cambia la dirección y la energía de un cuerpo en pocos minutos, y un paso de tiempo fijado para el resto del sistema puede dar un resultado muy erróneo allí. Pero un paso adaptativo también cuesta.
 
 📘 **Dónde se aprende** (1 clase): [B73-C21 · Pasos cercanos a satélites naturales en integración de N cuerpos](../programa/clases/B73/B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md).
 
@@ -470,11 +759,20 @@
 
 - El defocus es la diferencia entre el foco y la posición del detector.
 
+💡 **Cómo se explica en la clase [B50-C12](../programa/clases/B50/B50-C12-sensibilidad-termica-del-desempeno-optico-y-atermalizacion/CLASE.md):**
+- E["espejo α_m y tubo α_t"] --> D2["defocus = f ΔT (α_m − α_t)"]
+- *Descripción textual:* la dilatación de vidrio, índice y carcasa determina el defocus; la atermalización iguala el crecimiento de la focal y de la carcasa.
+- 🎯 **Por qué importa:** Un telescopio que se enfría de noche se desenfoca si sus materiales se dilatan distinto. La decisión central: ¿qué dilatación debe tener la estructura para que el foco no se mueva?
+
 📘 **Dónde se aprende** (1 clase): [B50-C12 · Sensibilidad térmica del desempeño óptico y atermalización](../programa/clases/B50/B50-C12-sensibilidad-termica-del-desempeno-optico-y-atermalizacion/CLASE.md).
 
 ### Deformación
 
 - La deformación `h` es la amplitud de la onda.
+
+💡 **Cómo se explica en la clase [B28-C05](../programa/clases/B28/B28-C05-ondas-gravitacionales/CLASE.md):**
+- GW150914 tuvo un pico de deformación de `1,0 × 10⁻²¹`, barrió de `35` a `250 Hz` y se detectó con una relación señal-ruido de `24` (S2, resumen).
+- 🎯 **Por qué importa:** La amplitud de una señal real es de `10⁻²¹` a `10⁻²³`: un cambio de longitud mil veces menor que un protón en un brazo de kilómetros. Entender esa escala explica por qué hace falta un instrumento extraordinario.
 
 📘 **Dónde se aprende** (1 clase): [B28-C05 · Ondas gravitacionales](../programa/clases/B28/B28-C05-ondas-gravitacionales/CLASE.md).
 
@@ -482,11 +780,15 @@
 
 - La deformación cosísmica es el cambio del suelo durante el terremoto; la intersísmica, la acumulada entre terremotos.
 
+🎯 **Por qué importa (clase B57-C17):** Medir la deformación permite saber cuánto deslizó la falla y cuánta tensión queda. La decisión central: ¿cómo se pasa de un número de magnitud al deslizamiento y a la deformación que verá un satélite?
+
 📘 **Dónde se aprende** (1 clase): [B57-C17 · Terremotos y deformación](../programa/clases/B57/B57-C17-terremotos-y-deformacion/CLASE.md).
 
 ### Deformación mínima
 
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+🎯 **Por qué importa (clase B28-C06):** Un detector que mide `10⁻¹⁹ m` necesita muchos fotones y cavidades que multipliquen el efecto. La decisión central: ¿qué fase produce una onda, qué fase mínima permite el ruido de disparo y cómo se mejora la sensibilidad?
 
 📘 **Dónde se aprende** (1 clase): [B28-C06 · Interferómetros gravitacionales](../programa/clases/B28/B28-C06-interferometros-gravitacionales/CLASE.md).
 
@@ -497,11 +799,17 @@
 - La degeneración aparece cuando el principio de exclusión impide ocupar los estados bajos; se mide con `η = μ_químico/kT`.
 - *(y 6 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B15-C18](../programa/clases/B15/B15-C18-filtros-de-particulas-iniciales/CLASE.md):**
+- Las ideas generales —pesos de verosimilitud, remuestreo, degeneración, aptitud para modelos no lineales— son las descritas en S1.
+- 🎯 **Por qué importa:** Un sensor mide la distancia oblicua a un objeto que pasa junto a él. Cuando el objeto está justo frente al sensor, un pequeño cambio de posición casi no cambia la distancia: la medida no distingue bien un lado del otro, y la incertidumbre de la posición deja de ser una campana.
+
 📘 **Dónde se aprende** (9 clases): [B15-C18 · Filtros de partículas iniciales](../programa/clases/B15/B15-C18-filtros-de-particulas-iniciales/CLASE.md); [B26-C20 · Límites observacionales de modelos cosmológicos](../programa/clases/B26/B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md); [B26-C22 · Degeneraciones de parámetros cosmológicos](../programa/clases/B26/B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md); [B31-C05 · Espín y momento angular](../programa/clases/B31/B31-C05-espin-y-momento-angular/CLASE.md); [B37-C02 · Ecuaciones de estado estelares: gas ideal, radiación y degeneración](../programa/clases/B37/B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md); [B37-C06 · Calibración de modelos estelares con el Sol y binarias](../programa/clases/B37/B37-C06-calibracion-de-modelos-estelares-con-el-sol-y-binarias/CLASE.md) y 3 más.
 
 ### Degeneración distancia–inclinación
 
 - La degeneración distancia–inclinación hace que una fuente lejana de frente y una cercana de canto den la misma amplitud.
+
+🎯 **Por qué importa (clase B28-C22):** Un solo mensajero entrega una combinación de parámetros; dos mensajeros, si se combinan correctamente, entregan más que la suma. La decisión central: ¿cuánto se estrecha la distancia cuando se añade la inclinación electromagnética y está bien calibrada la inferencia?
 
 📘 **Dónde se aprende** (1 clase): [B28-C22 · Inferencia bayesiana conjunta de parámetros de fuente multimensajero](../programa/clases/B28/B28-C22-inferencia-bayesiana-conjunta-de-parametros-de-fuente-multimensajero/CLASE.md).
 
@@ -509,11 +817,18 @@
 
 - Una geometría degenerada deja una dirección sin observar.
 
+🎯 **Por qué importa (clase B103-C02):** Un error de 0,02° en la rotación entre una cámara y el brazo de un robot parece nada, pero a 10 m son 3,5 mm de error de posición, y a más distancia crece sin límite. La decisión central: ¿cuántas correspondencias y con qué geometría hacen falta para que la pose entre sensores cumpla un presupuesto de error dado?
+
 📘 **Dónde se aprende** (1 clase): [B103-C02 · Calibración extrínseca y registro multisensor](../programa/clases/B103/B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md).
 
 ### Degenerado
 
 - Un gas es degenerado si `T ≪ T_F`.
+
+💡 **Cómo se explica en la clase [B27-C01](../programa/clases/B27/B27-C01-presion-de-degeneracion/CLASE.md):**
+- Un núcleo estelar a `10⁷ K` es degenerado si `ρ ≳ 10⁶ kg/m³`.
+- La energía cinética de Fermi vale `143,6 keV`, equivalente a `1,7 × 10⁹ K`: a las temperaturas de un núcleo estelar (decenas de millones de kelvin) el gas está profundamente degenerado.
+- 🎯 **Por qué importa:** Una estrella sin fusión no se desploma porque los electrones (o neutrones) no pueden apretarse más allá de lo que permite el principio de exclusión, aunque la temperatura sea cero. La decisión central: dada la densidad de un gas degenerado, ¿cuánto vale el momento de Fermi, la presión y cuál de los dos límites aplica?
 
 📘 **Dónde se aprende** (1 clase): [B27-C01 · Presión de degeneración](../programa/clases/B27/B27-C01-presion-de-degeneracion/CLASE.md).
 
@@ -521,11 +836,19 @@
 
 - La degradación es la pérdida de potencia con el tiempo.
 
+💡 **Cómo se explica en la clase [B47-C19](../programa/clases/B47/B47-C19-mantenimiento-y-vida-util/CLASE.md):**
+- D["degradación"] --> Pw["potencia 70 %"]
+- 🎯 **Por qué importa:** No sirve duplicar un equipo si otro componente falla antes. La decisión central: ¿qué recurso limita la vida de la misión y qué redundancia vale la pena?
+
 📘 **Dónde se aprende** (2 clases): [B47-C19 · Mantenimiento y vida útil](../programa/clases/B47/B47-C19-mantenimiento-y-vida-util/CLASE.md); [B86-C14 · Envejecimiento de paneles](../programa/clases/B86/B86-C14-envejecimiento-de-paneles/CLASE.md).
 
 ### Degradación del termopar
 
 - La degradación del termopar es la pérdida de rendimiento de la conversión.
+
+💡 **Cómo se explica en la clase [B86-C16](../programa/clases/B86/B86-C16-generadores-radioisotopicos/CLASE.md):**
+- *Descripción textual:* el decaimiento y la degradación del termopar dan `P(t)`, que se contrasta con la cifra de la NASA a 17 años; la actividad y la energía alfa dan la potencia térmica, contrastada con `2000 W`.
+- 🎯 **Por qué importa:** Un generador radioisotópico no depende de la distancia al Sol ni del eclipse, pero su potencia decae con el combustible y con los termopares y su eficiencia es baja. Entender esa curva decide qué misiones lo usan.
 
 📘 **Dónde se aprende** (1 clase): [B86-C16 · Generadores radioisotópicos](../programa/clases/B86/B86-C16-generadores-radioisotopicos/CLASE.md).
 
@@ -533,11 +856,20 @@
 
 - La evapotranspiración de referencia (ETo) es la de un cultivo hipotético bien regado; la del cultivo (ETc) es `Kc·ETo`.
 
+💡 **Cómo se explica en la clase [B115-C06](../programa/clases/B115/B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md):**
+- La humedad y la ventilación del hábitat deciden el agua del cultivo.
+- 🎯 **Por qué importa:** El cultivo es el mayor flujo de agua de un hábitat con plantas. La decisión central: ¿cuánta agua transpira el cultivo, cuánta se recupera y cuánta hay que reponer, y con qué incertidumbre?
+
 📘 **Dónde se aprende** (1 clase): [B115-C06 · Balance de agua y evapotranspiración en cultivos](../programa/clases/B115/B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md).
 
 ### Del hijo
 
 - La densidad del padre es `n_p = Q/(4πvr²) e^(−r/l_p)`; la del hijo `n_h = Q/(4πvr²) · l_h/(l_p−l_h) · (e^(−r/l_p) − e^(−r/l_h))`.
+
+💡 **Cómo se explica en la clase [B55-C11](../programa/clases/B55/B55-C11-quimica-en-cometas/CLASE.md):**
+- Una coma sintética con `Q = 10²⁸ s⁻¹`, `v = 0,5 km/s`, vida del padre de `10⁵ s` (longitud `5 × 10⁴ km`) y vida del hijo de `10⁶ s` (`5 × 10⁵ km`).
+- Descripción larga: dos curvas decrecientes en escala log–log; la del padre cae más rápido y la del hijo la cruza cerca de 10⁴ km.
+- 🎯 **Por qué importa:** Un telescopio no ve la densidad en cada punto de la coma sino la columna a lo largo de la línea de visión. Para pasar de lo medido a la producción de moléculas por el núcleo hay que modelar la expansión y la destrucción.
 
 📘 **Dónde se aprende** (1 clase): [B55-C11 · Química en cometas](../programa/clases/B55/B55-C11-quimica-en-cometas/CLASE.md).
 
@@ -545,11 +877,19 @@
 
 - El riesgo del consumidor es aceptar una unidad mala; el del productor, rechazar una buena.
 
+💡 **Cómo se explica en la clase [B50-C14](../programa/clases/B50/B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md):**
+- Descripción larga: la banda de guarda reduce el riesgo del consumidor y aumenta el del productor.
+- 🎯 **Por qué importa:** Una especificación solo sirve si se puede verificar con una medida que tiene incertidumbre. La decisión central: ¿cuánto margen se deja para que una medida incierta no acepte una unidad mala?
+
 📘 **Dónde se aprende** (1 clase): [B50-C14 · Criterios de aceptación: Strehl, error de frente de onda y especificaciones](../programa/clases/B50/B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md).
 
 ### Delgado
 
 - El disco es el conjunto aplanado de estrellas y gas en rotación, dividido en disco delgado y grueso según la altura y la edad.
+
+💡 **Cómo se explica en la clase [B25-C01](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md):**
+- El disco delgado contiene las estrellas jóvenes y el gas; el grueso, estrellas más viejas y a mayor altura (escala de longitud `2,0 ± 0,2 kpc` y masa `6 ± 3 × 10⁹ M☉`, S3); el halo estelar, las más viejas y pobres en metales (C17).
+- 🎯 **Por qué importa:** Estamos dentro de la galaxia y no podemos fotografiarla desde fuera: su forma se reconstruye midiendo distancias y velocidades desde un punto que no es el centro. Sin un esquema claro de componentes (bulbo, barra, disco, halo) y de cifras de referencia, el resto del bloque carece de escala.
 
 📘 **Dónde se aprende** (1 clase): [B25-C01 · Estructura de la Vía Láctea](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md).
 
@@ -557,11 +897,18 @@
 
 - La capa reactiva (reflejos) responde al ritmo del sensor; la ejecutiva interpreta el plan y vigila su ejecución; la deliberativa planifica.
 
+💡 **Cómo se explica en la clase [B98-C07](../programa/clases/B98/B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md):**
+- Deliberativa: tiempos de minutos, fuera del bucle periódico.
+- D["deliberativa<br/>planifica (minutos)"] --> X["ejecutiva<br/>secuencia y vigila (1 s)"]
+- 🎯 **Por qué importa:** Una arquitectura sin presupuesto de tiempos puede parecer correcta hasta que una tarea lenta retrasa un reflejo. La decisión central: ¿cada capa cumple sus plazos aunque las demás consuman su peor caso, y qué pasa cuando el planificador tarda más de lo previsto?
+
 📘 **Dónde se aprende** (1 clase): [B98-C07 · Arquitectura de autonomía a bordo (percepción-decisión-acción)](../programa/clases/B98/B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md).
 
 ### Delimitador
 
 - Un archivo CSV (*comma-separated values*) guarda una tabla como líneas de texto con campos separados por un delimitador, normalmente la coma.
+
+🎯 **Por qué importa (clase B07-C08):** Un archivo CSV parece trivial y por eso engaña: todo se lee como texto, un decimal con coma rompe una columna, una línea vacía pasa inadvertida, y una codificación equivocada convierte «Júpiter» en símbolos raros. Un análisis hecho sobre datos mal leídos puede ser plausible y erróneo a la vez.
 
 📘 **Dónde se aprende** (1 clase): [B07-C08 · Lectura de archivos CSV](../programa/clases/B07/B07-C08-lectura-de-archivos-csv/CLASE.md).
 
@@ -569,11 +916,18 @@
 
 - La delta de Kronecker `δᵢⱼ` vale 1 si `i = j` y 0 si no; es la matriz identidad.
 
+🎯 **Por qué importa (clase B10-C17):** La inercia de un satélite frente a un giro depende de la dirección: se necesita nueve números ordenados en una matriz, y esos nueve números cambian si cambias los ejes del cuerpo, pero de forma que la física no cambie.
+
 📘 **Dónde se aprende** (1 clase): [B10-C17 · Tensores y notación indicial](../programa/clases/B10/B10-C17-tensores-y-notacion-indicial/CLASE.md).
 
 ### Delta1
 
 - MAE es el error absoluto medio, RMSE el cuadrático medio, AbsRel la media de `|ẑ − z|/z` y delta1 la fracción de puntos con `máx(z/ẑ, ẑ/z) < 1,25`.
+
+💡 **Cómo se explica en la clase [B103-C08](../programa/clases/B103/B103-C08-metricas-de-evaluacion-de-percepcion/CLASE.md):**
+- En profundidad (5000 puntos de 4 a 40 m con error `Z²σ_d/(f B)` y 2 % de valores atípicos): global `MAE = 1,058 m`, `RMSE = 2,262 m`, `AbsRel = 0,0409`, `delta1 = 0,9788`; por rango, `RMSE` pasa de 0,519 m (4–10 m) a 2,924 m (20–40 m) mientras `AbsRel` va de 0,0187 a 0,0533: el RMSE refleja sobre todo el rango lejano.
+- S --> D["errores de profundidad<br/>MAE, RMSE, AbsRel, delta1"]
+- 🎯 **Por qué importa:** Un segmentador que acierta el 99 % de los píxeles puede no encontrar nunca la clase que importa, y dos detectores con AP de 0,58 y 0,60 pueden ser indistinguibles con 100 imágenes. La decisión central: ¿qué métricas y qué intervalo hacen falta para afirmar que un algoritmo de percepción es suficiente para una tarea?
 
 📘 **Dónde se aprende** (1 clase): [B103-C08 · Métricas de evaluación de percepción](../programa/clases/B103/B103-C08-metricas-de-evaluacion-de-percepcion/CLASE.md).
 
@@ -581,11 +935,17 @@
 
 - El delta-v apalancado es el cambio de órbita que se logra con casi nada de propulsante.
 
+🎯 **Por qué importa (clase B75-C26):** Cada luna es un peldaño de energía en torno a Júpiter. La decisión central: ¿qué órbitas jovianas puede alcanzar una nave con un sobrevuelo de Ganimedes de `v∞` dado y cuánto cambia la energía en un solo paso?
+
 📘 **Dónde se aprende** (1 clase): [B75-C26 · Sobrevuelos de lunas y tours de sistemas planetarios](../programa/clases/B75/B75-C26-sobrevuelos-de-lunas-y-tours-de-sistemas-planetarios/CLASE.md).
 
 ### Delta-v de captura
 
 - El delta-v de captura es `v_h − v_e`, con `v_e = √(μ(1+e)/r_p)`.
+
+💡 **Cómo se explica en la clase [B75-C14](../programa/clases/B75/B75-C14-captura-en-destino/CLASE.md):**
+- *Descripción textual:* Con `v∞` y el periapsis se obtiene la velocidad hiperbólica; con la excentricidad elegida, la de la elipse; la diferencia es el delta-v de captura; la órbita final queda definida por su periodo y apoapsis.
+- 🎯 **Por qué importa:** Frenar cuesta propulsante; cuanto más baja la órbita final, más cuesta. La decisión central: ¿qué órbita de captura minimiza el delta-v, y qué se paga después por llevarla a la órbita de trabajo?
 
 📘 **Dónde se aprende** (1 clase): [B75-C14 · Captura en destino](../programa/clases/B75/B75-C14-captura-en-destino/CLASE.md).
 
@@ -593,11 +953,19 @@
 
 - El delta-v de salida es el impulso en el periapsis de la órbita baja.
 
+💡 **Cómo se explica en la clase [B75-C23](../programa/clases/B75/B75-C23-energia-caracteristica-c3-y-exceso-hiperbolico/CLASE.md):**
+- *Descripción textual:* El exceso da `C3`; con `C3` y el radio de la órbita baja se obtiene el delta-v de salida; la masa útil depende de `C3`.
+- 🎯 **Por qué importa:** Un lanzador entrega una masa distinta según la energía que se le pida. La decisión central: ¿cuánta energía característica y cuánto delta-v hay que dar desde una órbita baja para alcanzar un destino?
+
 📘 **Dónde se aprende** (1 clase): [B75-C23 · Energía característica C3 y exceso hiperbólico](../programa/clases/B75/B75-C23-energia-caracteristica-c3-y-exceso-hiperbolico/CLASE.md).
 
 ### Delta-v determinista
 
 - El delta-v determinista es la suma sin margen.
+
+💡 **Cómo se explica en la clase [B75-C09](../programa/clases/B75/B75-C09-presupuestos-de-delta-v/CLASE.md):**
+- Con la salida desde una órbita circular de `300 km`, las correcciones de trayectoria, la captura en una órbita de `300 × 20 000 km` alrededor de Marte y un ajuste final, el delta-v determinista es `4,7629 km/s`; con un margen del 10 %, `5,2392 km/s`.
+- 🎯 **Por qué importa:** Un presupuesto de delta-v decide el tamaño del cohete. La decisión central: ¿cuánto delta-v hay que reservar en cada fase y cuánta masa de propulsante implica?
 
 📘 **Dónde se aprende** (1 clase): [B75-C09 · Presupuestos de delta-v](../programa/clases/B75/B75-C09-presupuestos-de-delta-v/CLASE.md).
 
@@ -605,11 +973,18 @@
 
 - El delta-v mínimo para un tiempo es el de la mejor fase de salida.
 
+🎯 **Por qué importa (clase B75-C27):** Un viaje más corto gasta más combustible y uno más largo gasta más tiempo. La decisión central: ¿qué tiempo de vuelo minimiza el costo total cuando se pesan la masa lanzada y la duración?
+
 📘 **Dónde se aprende** (1 clase): [B75-C27 · Duración de misión y tiempo de vuelo como restricción](../programa/clases/B75/B75-C27-duracion-de-mision-y-tiempo-de-vuelo-como-restriccion/CLASE.md).
 
 ### Demanda
 
 - La demanda `N` es el número de veces que se necesita un artículo en la misión.
+
+💡 **Cómo se explica en la clase [B117-C05](../programa/clases/B117/B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md):**
+- D["demanda N ~ Poisson(mu)"] --> B["beneficio w E[min(N,k)]"]
+- *Descripción textual:* la demanda aleatoria da un beneficio por artículo; se elige cuántas unidades llevar bajo los dos límites, se calcula el riesgo de falta y se verifica con dos vías.
+- 🎯 **Por qué importa:** Ninguna clase anterior trata el equipo médico de a bordo. La decisión central: ¿qué embarcar bajo un límite de masa y volumen y qué riesgo de quedarse sin él se acepta?
 
 📘 **Dónde se aprende** (1 clase): [B117-C05 · Inventario y gestión del equipo médico a bordo](../programa/clases/B117/B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md).
 
@@ -617,11 +992,20 @@
 
 - La demanda acumulada `D(t)` es lo que el proyecto necesita haber gastado al año `t`.
 
+💡 **Cómo se explica en la clase [B124-C06](../programa/clases/B124/B124-C06-financiamiento-publico/CLASE.md):**
+- Por curva: demanda acumulada contra gasto acumulado.
+- 🎯 **Por qué importa:** Un proyecto puede estar bien estimado y aun así fallar porque el dinero no llega al ritmo que necesita. La decisión central: ¿qué tope anual evita el atraso y cuánto cuesta cada año de espera?
+
 📘 **Dónde se aprende** (1 clase): [B124-C06 · Financiamiento público](../programa/clases/B124/B124-C06-financiamiento-publico/CLASE.md).
 
 ### Demanda final
 
 - La demanda final `f` es lo que se compra para uso final.
+
+💡 **Cómo se explica en la clase [B124-C01](../programa/clases/B124/B124-C01-cadena-de-valor-de-industria-espacial/CLASE.md):**
+- Con los datos sintéticos, el producto bruto total es `286,150` um para una demanda final de `200,0` um.
+- Sumando todas las etapas, `Σ VA = Σ f − Σ e x`: el valor agregado total es la demanda final menos lo comprado fuera de la cadena.
+- 🎯 **Por qué importa:** El bloque necesita un mapa común antes de hablar de costos, financiamiento o contratos: ¿quién le compra a quién y dónde queda el valor? Ninguna clase anterior del programa trata la estructura económica de la industria espacial.
 
 📘 **Dónde se aprende** (1 clase): [B124-C01 · Cadena de valor de industria espacial](../programa/clases/B124/B124-C01-cadena-de-valor-de-industria-espacial/CLASE.md).
 
@@ -629,11 +1013,18 @@
 
 - La demodulación da `Q = (4/K) Σ I_k cos 4θ_k`.
 
+🎯 **Por qué importa (clase B45-C16):** La polarización medida es siempre positiva y por eso sesgada hacia arriba cuando el ruido es comparable a la señal. La decisión central: ¿cómo se miden Q y U y cómo se corrige el sesgo?
+
 📘 **Dónde se aprende** (1 clase): [B45-C16 · Polarímetros astronómicos](../programa/clases/B45/B45-C16-polarimetros-astronomicos/CLASE.md).
 
 ### Demora
 
 - El intervalo de revisión `R` es el tiempo entre pedidos; la demora `L` es el tiempo entre pedir y recibir; el intervalo de protección es `T = R + L`.
+
+💡 **Cómo se explica en la clase [B100-C03](../programa/clases/B100/B100-C03-gestion-de-inventarios-y-reposicion-de-suministros/CLASE.md):**
+- La demora tecnológica `L` (180 d) pesa menos que el intervalo de revisión `R` (780 d): la ventana fija casi todo el nivel máximo.
+- Caso A: revisión cada 30 d, demora 10 d: `S = 431,2 u` con reserva `31,2 u`.
+- 🎯 **Por qué importa:** Con una reposición de 10 días basta una reserva pequeña; con una ventana sinódica de Marte la misma demanda exige guardar casi dos años y medio de consumo. La decisión central: ¿hasta qué nivel conviene reponer en cada ventana para que la probabilidad de quedarse sin existencias en el ciclo sea de un 5 %?
 
 📘 **Dónde se aprende** (1 clase): [B100-C03 · Gestión de inventarios y reposición de suministros](../programa/clases/B100/B100-C03-gestion-de-inventarios-y-reposicion-de-suministros/CLASE.md).
 
@@ -641,11 +1032,17 @@
 
 - La demora de detección es el tiempo desde el cambio hasta la alarma.
 
+🎯 **Por qué importa (clase B104-C18):** Un seguimiento demasiado sensible cansa por falsas alarmas; uno insensible llega tarde. La decisión central: ¿qué umbral permite detectar un deterioro de una desviación estándar en unos 8 días sin que haya más de una falsa alarma al año?
+
 📘 **Dónde se aprende** (1 clase): [B104-C18 · Aislamiento y convivencia](../programa/clases/B104/B104-C18-aislamiento-y-convivencia/CLASE.md).
 
 ### Demora esperada
 
 - La demora esperada es el promedio de lo que el trámite excede el plazo.
+
+💡 **Cómo se explica en la clase [B125-C05](../programa/clases/B125/B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md):**
+- Con retraso `T ~ Exp(μ)`, `μ = 45` días, plazo `T₀ = 60`, penalización `2 000` u.m./día y probabilidad de denegación `8 %`: la demora esperada es `μ e^(−T₀/μ) = 11,86` días; el costo esperado (sin entrega no se paga demora) es `0,92 × 2 000 × 11,86 = 21 826` u.m.; el Monte Carlo (200 000 casos) da `21 932` (0,5 % de diferencia).
+- 🎯 **Por qué importa:** La tecnología espacial está sujeta a controles de exportación que condicionan el negocio, y las alianzas de la clase anterior chocan con ellos; ninguna clase los trata. La decisión central: ¿qué ruta de exportación debe esperar un producto o una transferencia de tecnología y cuánto cuesta, en promedio, esperar la licencia?
 
 📘 **Dónde se aprende** (1 clase): [B125-C05 · Control de exportaciones y transferencia de tecnología](../programa/clases/B125/B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md).
 
@@ -653,11 +1050,20 @@
 
 - La denegación es su rechazo.
 
+💡 **Cómo se explica en la clase [B125-C05](../programa/clases/B125/B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md):**
+- Con retraso `T ~ Exp(μ)`, `μ = 45` días, plazo `T₀ = 60`, penalización `2 000` u.m./día y probabilidad de denegación `8 %`: la demora esperada es `μ e^(−T₀/μ) = 11,86` días; el costo esperado (sin entrega no se paga demora) es `0,92 × 2 000 × 11,86 = 21 826` u.m.; el Monte Carlo (200 000 casos) da `21 932` (0,5 % de diferencia).
+- 🎯 **Por qué importa:** La tecnología espacial está sujeta a controles de exportación que condicionan el negocio, y las alianzas de la clase anterior chocan con ellos; ninguna clase los trata. La decisión central: ¿qué ruta de exportación debe esperar un producto o una transferencia de tecnología y cuánto cuesta, en promedio, esperar la licencia?
+
 📘 **Dónde se aprende** (1 clase): [B125-C05 · Control de exportaciones y transferencia de tecnología](../programa/clases/B125/B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md).
 
 ### Denominador
 
 - `a` es el numerador y `b` el denominador (nunca cero).
+
+💡 **Cómo se explica en la clase [B03-C02](../programa/clases/B03/B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md):**
+- Esto funciona porque dividir numerador y denominador entre `k` equivale a multiplicar la fracción por `(1/k)/(1/k) = 1`, que no la cambia.
+- Para comparar `3/4` con `2/3`, llévalas a un denominador común: `9/12` frente a `8/12`; gana la primera.
+- 🎯 **Por qué importa:** Una cifra aislada como «69 911 km» no dice si Júpiter es grande o pequeño. Una razón sí: Júpiter tiene un radio unas 11 veces el terrestre.
 
 📘 **Dónde se aprende** (1 clase): [B03-C02 · Fracciones y razones de magnitudes](../programa/clases/B03/B03-C02-fracciones-y-razones-de-magnitudes/CLASE.md).
 
@@ -668,6 +1074,10 @@
 - La densidad `ρ` es la masa por unidad de volumen.
 - *(y 9 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B01-C13](../programa/clases/B01/B01-C13-sistema-solar-como-sistema-fisico/CLASE.md):**
+- La ficha de planetas de NASA (actualizada el 18 de marzo de 2025) tabula masa, diámetro, densidad, período orbital, distancia al Sol, excentricidad y número de lunas para los ocho planetas y Plutón (S1).
+- 🎯 **Por qué importa:** Se dice que el sistema solar «está vacío», y es verdad en un sentido preciso: si el Sol midiera 9 mm, la Tierra sería un grano de 0,085 mm a un metro de distancia, y la estrella más cercana quedaría a más de 260 km. Pero esa imagen solo se entiende si la construyes tú con números.
+
 📖 **Explicado a fondo:** [Densidad](esencial/esencial-d-l.md#densidad) (intuición, fórmula, ejemplo numérico y errores frecuentes).
 
 📘 **Dónde se aprende** (13 clases): [B01-C13 · Sistema solar como sistema físico](../programa/clases/B01/B01-C13-sistema-solar-como-sistema-fisico/CLASE.md); [B03-C17 · Áreas y volúmenes elementales](../programa/clases/B03/B03-C17-areas-y-volumenes-elementales/CLASE.md); [B05-C14 · Gases y presión](../programa/clases/B05/B05-C14-gases-y-presion/CLASE.md); [B06-C09 · Gases ideales y no ideales](../programa/clases/B06/B06-C09-gases-ideales-y-no-ideales/CLASE.md); [B09-C09 · Integración por sustitución](../programa/clases/B09/B09-C09-integracion-por-sustitucion/CLASE.md); [B09-C18 · Integrales dobles y triples](../programa/clases/B09/B09-C18-integrales-dobles-y-triples/CLASE.md) y 7 más.
@@ -676,6 +1086,8 @@
 
 - La densidad acumulada `N(>D)` es el número por km² de cráteres mayores que `D`.
 
+🎯 **Por qué importa (clase B61-C06):** Una edad absoluta de una superficie planetaria sale del conteo de cráteres calibrado con muestras. La decisión central: ¿qué edad implica un conteo y con qué incertidumbre?
+
 📘 **Dónde se aprende** (1 clase): [B61-C06 · Datación por conteo de cráteres: funciones de producción y edades de modelo](../programa/clases/B61/B61-C06-datacion-por-conteo-de-crateres-funciones-de-produccion-y-edades-de-modelo/CLASE.md).
 
 ### Densidad aparente
@@ -683,11 +1095,19 @@
 - La densidad aparente (*bulk*) es la masa total sobre el volumen total.
 - La densidad aparente incluye los poros.
 
+💡 **Cómo se explica en la clase [B58-C03](../programa/clases/B58/B58-C03-composicion-de-asteroides/CLASE.md):**
+- M["masa M"] --> B["densidad aparente<br/>M/V"]
+- *Descripción textual:* la masa y el volumen dan la densidad aparente; con la densidad de grano se obtiene la porosidad.
+- ⚠️ **Error frecuente:** Confundir densidad aparente con densidad de grano. Se corrige con 8.1–8.2.
+- 🎯 **Por qué importa:** La densidad aparente de un asteroide es casi siempre menor que la de sus rocas: la diferencia es porosidad, y de ella depende cuánta energía hace falta para desviarlo o fragmentarlo (C17). La decisión central: ¿cuánto de lo que parece masa es vacío, y cuánta incertidumbre arrastra la masa?
+
 📘 **Dónde se aprende** (2 clases): [B58-C03 · Composición de asteroides](../programa/clases/B58/B58-C03-composicion-de-asteroides/CLASE.md); [B59-C11 · Construcción con regolito](../programa/clases/B59/B59-C11-construccion-con-regolito/CLASE.md).
 
 ### Densidad areal
 
 - La densidad areal `x` es la masa por área del blindaje, en g/cm².
+
+🎯 **Por qué importa (clase B114-C04):** Una tormenta solar no se puede evitar, pero se puede limitar la dosis si la tripulación llega a tiempo a un lugar bien blindado. La decisión central: ¿cuánto blindaje y cuánto tiempo de reacción hacen falta para quedar bajo un objetivo de dosis?
 
 📘 **Dónde se aprende** (1 clase): [B114-C04 · Refugio contra tormentas solares y compartimentos de protección](../programa/clases/B114/B114-C04-refugio-contra-tormentas-solares-y-compartimentos-de-proteccion/CLASE.md).
 
@@ -696,6 +1116,11 @@
 - La densidad central es `ρ_c = ρ̄ ξ₁³/(3ω₃)` con `ω₃ = −ξ₁²θ'(ξ₁)`.
 - La densidad central `ρ_c` parametriza la familia de modelos.
 
+💡 **Cómo se explica en la clase [B24-C20](../programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md):**
+- Con la masa y el radio nominales del Sol (S2) obtiene una densidad central `54,18` veces la media.
+- ⚠️ **Error frecuente:** Olvidar `ξ₁³` en la densidad central. Se corrige con el ejercicio 1.
+- 🎯 **Por qué importa:** Un modelo de estructura real resuelve cuatro ecuaciones acopladas con física detallada; un politropo sustituye esa física por una sola relación `P ∝ ρ^{1+1/n}` y permite resolver todo con una ecuación. Es el mejor modo de ver qué se obtiene con poco y qué falta.
+
 📘 **Dónde se aprende** (2 clases): [B24-C20 · Modelo simplificado de estructura estelar](../programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md); [B27-C02 · Enanas blancas y límite de Chandrasekhar](../programa/clases/B27/B27-C02-enanas-blancas-y-limite-de-chandrasekhar/CLASE.md).
 
 ### Densidad crítica
@@ -703,17 +1128,25 @@
 - La densidad crítica `ρ_crit = 3H²/(8πG)` es la densidad media del universo plano (`H` la constante de Hubble).
 - La densidad crítica es `ρ_c = 3H₀²/(8πG)`.
 
+💡 **Cómo se explica en la clase [B25-C15](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md):**
+- *Descripción textual:* de la constante de Hubble sale la densidad crítica; con la masa y la concentración se obtienen el radio, la escala y la densidad característica del halo; con ellos se calcula la densidad en el Sol y se compara con la medida.
+- 🎯 **Por qué importa:** Varias medidas independientes (rotación, dispersión, lentes, fondo cósmico) piden más masa de la que se ve. Un halo con un perfil de densidad concreto permite comparar esas medidas entre sí y con las simulaciones.
+
 📘 **Dónde se aprende** (3 clases): [B25-C15 · Materia oscura en galaxias](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md); [B26-C13 · Modelo FLRW — Relatividad y cosmología](../programa/clases/B26/B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md); [B34-C05 · Diagnóstico de densidad electrónica coronal](../programa/clases/B34/B34-C05-diagnostico-de-densidad-electronica-coronal/CLASE.md).
 
 ### Densidad de almacenamiento
 
 - La densidad de almacenamiento es la masa de gas por litro de tanque.
 
+🎯 **Por qué importa (clase B78-C10):** Con la misma temperatura, el gas más liviano escapa más rápido, pero ocupa más volumen almacenado. La decisión central: ¿qué gas da más impulso por kilo y qué cuesta en volumen y en límites físicos de la expansión?
+
 📘 **Dónde se aprende** (1 clase): [B78-C10 · Propulsión de gas frío](../programa/clases/B78/B78-C10-propulsion-de-gas-frio/CLASE.md).
 
 ### Densidad de área
 
 - La densidad de área es la masa por unidad de superficie.
+
+🎯 **Por qué importa (clase B86-C17):** En el espacio el único sumidero de calor es la radiación, y el calor rechazado de un ciclo térmico es grande. La temperatura del radiador y la del ciclo determinan la eficiencia y el área, y el área determina la masa.
 
 📘 **Dónde se aprende** (1 clase): [B86-C17 · Energía nuclear espacial conceptual](../programa/clases/B86/B86-C17-energia-nuclear-espacial-conceptual/CLASE.md).
 
@@ -723,11 +1156,17 @@
 - La densidad de columna `N` (moléculas cm⁻²) es `∫τ dν̃ / A`.
 - La densidad de columna `N_HI` y la óptica delgada.
 
+🎯 **Por qué importa (clase B25-C03):** Las estrellas nacen del gas y devuelven gas enriquecido; el medio interestelar (MIS) es el almacén y el escenario de ese ciclo. Pero «gas» sirve de poco: un volumen del MIS puede estar a `10 K` o a `10⁶ K`, y su densidad variar un factor 10⁷ de un punto a otro.
+
 📘 **Dónde se aprende** (3 clases): [B25-C03 · Medio interestelar multifásico](../programa/clases/B25/B25-C03-medio-interestelar-multifasico/CLASE.md); [B46-C11 · Observación de hidrógeno a 21 centímetros](../programa/clases/B46/B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md); [B55-C06 · Hielos astrofísicos](../programa/clases/B55/B55-C06-hielos-astrofisicos/CLASE.md).
 
 ### Densidad de corriente
 
 - La densidad de corriente `j` es la corriente por unidad de área.
+
+💡 **Cómo se explica en la clase [B78-C07](../programa/clases/B78/B78-C07-motores-ionicos/CLASE.md):**
+- Descripción larga: la velocidad crece con `V^(1/2)` y la densidad de corriente con `V^(3/2)`; el empuje por unidad de área de rejilla crece con `V`.
+- 🎯 **Por qué importa:** La velocidad de escape iónica crece con la raíz de la tensión, pero la corriente que cabe en una rejilla está limitada por la carga espacial. La decisión central: ¿qué tensión y qué área de rejilla se necesitan para un empuje dado y qué fracción del propelente llega a ser ion?
 
 📘 **Dónde se aprende** (1 clase): [B78-C07 · Motores iónicos](../programa/clases/B78/B78-C07-motores-ionicos/CLASE.md).
 
@@ -735,11 +1174,17 @@
 
 - La densidad de cráteres `N₁` es el número acumulado de cráteres de diámetro ≥ 1 km por km².
 
+🎯 **Por qué importa (clase B70-C04):** Un conteo de cráteres es un número entero y ruidoso. La decisión central: ¿qué edad y qué incertidumbre le corresponden a una provincia dada su área y su conteo?
+
 📘 **Dónde se aprende** (1 clase): [B70-C04 · Vulcanismo marciano: provincias, edades y evolución](../programa/clases/B70/B70-C04-vulcanismo-marciano-provincias-edades-y-evolucion/CLASE.md).
 
 ### Densidad de drenaje
 
 - La densidad de drenaje es longitud de canal entre área.
+
+💡 **Cómo se explica en la clase [B66-C04](../programa/clases/B66/B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md):**
+- Un terreno sintético de `40 × 40` celdas de `100 m` (`16,00 km²`) con un valle central da `315` celdas de canal, `32,48 km` de canal y una densidad de drenaje de `2,030 km/km²`.
+- 🎯 **Por qué importa:** Un mapa de valles marcianos invita a decir «hubo un océano» o «hubo lluvia». La decisión central: ¿qué se puede inferir del caudal y de la duración con una red, un volumen y supuestos explícitos, y qué incertidumbre arrastra?
 
 📘 **Dónde se aprende** (1 clase): [B66-C04 · Redes fluviales fósiles y paleohidrología marciana](../programa/clases/B66/B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md).
 
@@ -747,11 +1192,15 @@
 
 - La densidad de energía `e` incluye la masa en reposo.
 
+🎯 **Por qué importa (clase B27-C03):** Las masas y radios de las estrellas de neutrones son la mejor ventana a la materia a densidades nucleares. Para interpretarlos hay que saber qué cambia la relatividad respecto de Newton y por qué existe una masa máxima.
+
 📘 **Dónde se aprende** (1 clase): [B27-C03 · Estrellas de neutrones](../programa/clases/B27/B27-C03-estrellas-de-neutrones/CLASE.md).
 
 ### Densidad de energía de los fotones
 
 - La densidad de energía de los fotones es `u = aT⁴`.
+
+🎯 **Por qué importa (clase B26-C14):** Casi todo lo observable del universo temprano (radiación de fondo, abundancia de helio) depende de su temperatura y de qué componente dominaba la densidad en cada época.
 
 📘 **Dónde se aprende** (1 clase): [B26-C14 · Evolución térmica del universo](../programa/clases/B26/B26-C14-evolucion-termica-del-universo/CLASE.md).
 
@@ -759,17 +1208,23 @@
 
 - La densidad de energía magnética es `B²/(2μ₀)`.
 
+🎯 **Por qué importa (clase B30-C05):** Que el gas domine al campo en la fotosfera y el campo al gas en la corona explica por qué la corona se estructura en lazos y por qué las erupciones liberan energía magnética. La decisión central: ¿en qué capa manda el campo y cuánta energía guarda?
+
 📘 **Dónde se aprende** (1 clase): [B30-C05 · Campos magnéticos solares](../programa/clases/B30/B30-C05-campos-magneticos-solares/CLASE.md).
 
 ### Densidad de energía volumétrica
 
 - La densidad de energía volumétrica `E_v = P/(v h t)` (J/mm³) mide la energía por volumen fundido.
 
+🎯 **Por qué importa (clase B84-C15):** Dos piezas idénticas con otra velocidad de barrido pueden salir porosas; una ventana de proceso bien trazada evita el desperdicio, y la rugosidad escalonada decide qué superficies se mecanizan. La decisión central: ¿con qué potencia y velocidad se imprime dentro de la ventana y cuánto tarda y qué acabado deja?
+
 📘 **Dónde se aprende** (1 clase): [B84-C15 · Manufactura aditiva](../programa/clases/B84/B84-C15-manufactura-aditiva/CLASE.md).
 
 ### Densidad de flujo
 
 - La densidad de flujo `S` se mide en Jy.
+
+🎯 **Por qué importa (clase B118-C17):** La radioastronomía opera en bandas donde la ITU asigna protección, pero las constelaciones numerosas y sus emisiones no deseadas pueden degradar la sensibilidad. La decisión central: ¿cuánto debe bajar una emisión para quedar por debajo del umbral de daño y de qué depende ese umbral?
 
 📘 **Dónde se aprende** (1 clase): [B118-C17 · Interferencia radioastronómica](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md).
 
@@ -778,11 +1233,19 @@
 - La densidad de flujo de potencia `S` es la potencia por unidad de área.
 - La densidad de flujo de potencia (pfd) es la potencia por m² y por Hz.
 
+🎯 **Por qué importa (clase B89-C01):** Todo presupuesto de enlace, toda antena y toda banda parten de la misma onda. Confundir longitud de onda con frecuencia, o potencia con densidad de flujo, rompe los cálculos de las clases siguientes.
+
 📘 **Dónde se aprende** (2 clases): [B89-C01 · Electromagnetismo aplicado a enlaces](../programa/clases/B89/B89-C01-electromagnetismo-aplicado-a-enlaces/CLASE.md); [B118-C17 · Interferencia radioastronómica](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md).
 
 ### Densidad de grano
 
 - La densidad de grano es la de la roca sin huecos.
+
+💡 **Cómo se explica en la clase [B58-C03](../programa/clases/B58/B58-C03-composicion-de-asteroides/CLASE.md):**
+- *Descripción textual:* la masa y el volumen dan la densidad aparente; con la densidad de grano se obtiene la porosidad.
+- Descripción larga: la porosidad crece con la densidad de grano supuesta, de `0.29` a `0.75`.
+- ⚠️ **Error frecuente:** Confundir densidad aparente con densidad de grano. Se corrige con 8.1–8.2.
+- 🎯 **Por qué importa:** La densidad aparente de un asteroide es casi siempre menor que la de sus rocas: la diferencia es porosidad, y de ella depende cuánta energía hace falta para desviarlo o fragmentarlo (C17). La decisión central: ¿cuánto de lo que parece masa es vacío, y cuánta incertidumbre arrastra la masa?
 
 📘 **Dónde se aprende** (1 clase): [B58-C03 · Composición de asteroides](../programa/clases/B58/B58-C03-composicion-de-asteroides/CLASE.md).
 
@@ -790,11 +1253,19 @@
 
 - La densidad de Hill es la densidad media dentro de `R_H`: `ρ_H = 9M/(4πD³) = 9Ω²/(4πG)`.
 
+💡 **Cómo se explica en la clase [B52-C04](../programa/clases/B52/B52-C04-formacion-de-planetesimales/CLASE.md):**
+- La densidad de Hill es un umbral necesario, no un mecanismo.
+- *Descripción textual:* la distancia y la masa estelar dan `Ω` y la densidad de Hill, que no depende de `m`; el radio de Hill se verifica con L1 y la comparación con la densidad del gas da la razón polvo/gas necesaria.
+- ⚠️ **Error frecuente:** Confundir la densidad de Hill con la del cuerpo final. Se corrige con 8.4.
+- 🎯 **Por qué importa:** Si la autogravedad solo gana contra las mareas por encima de cierta densidad, esa densidad fija cuánto debe concentrarse el polvo. La decisión central: ¿qué densidad necesita un cúmulo de partículas para colapsar a una distancia dada?
+
 📘 **Dónde se aprende** (1 clase): [B52-C04 · Formación de planetesimales](../programa/clases/B52/B52-C04-formacion-de-planetesimales/CLASE.md).
 
 ### Densidad de jerga
 
 - La densidad de jerga es la fracción de palabras que están en un glosario técnico.
+
+🎯 **Por qué importa (clase B130-C03):** Presentar ante público requiere técnicas propias; la clase de comunicación escrita general no cubre el tiempo, el ritmo ni la jerga hablada. La decisión central: ¿qué cabe en el tiempo disponible y qué entenderá una persona que oye el guion una sola vez?
 
 📘 **Dónde se aprende** (1 clase): [B130-C03 · Comunicación oral de la ciencia](../programa/clases/B130/B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md).
 
@@ -803,11 +1274,15 @@
 - La densidad de líneas `ρ` (líneas/MHz) mide qué tan poblado está el catálogo.
 - La densidad de líneas `ρ` es el número medio de líneas por MHz.
 
+🎯 **Por qué importa (clase B55-C10):** Casi todas las detecciones de moléculas se basan en coincidencias de frecuencia, y hay catálogos con decenas de miles de líneas: una coincidencia aislada puede ser casualidad. La decisión central: ¿cuántas líneas asignadas, con qué velocidad común y con qué probabilidad de falso positivo se justifica afirmar una especie?
+
 📘 **Dónde se aprende** (2 clases): [B55-C10 · Identificación de moléculas orgánicas](../programa/clases/B55/B55-C10-identificacion-de-moleculas-organicas/CLASE.md); [B62-C08 · Mezclas moleculares y confusión de líneas](../programa/clases/B62/B62-C08-mezclas-moleculares-y-confusion-de-lineas/CLASE.md).
 
 ### Densidad de ruido
 
 - La densidad de ruido es `N₀ = k T_sis`.
+
+🎯 **Por qué importa (clase B89-C07):** La primera etapa de una cadena receptora decide casi todo el ruido: un amplificador de bajo ruido bien colocado vale muchos decibelios de `G/T`. La decisión central: ¿qué orden y qué componentes dan la menor temperatura de sistema y el mayor `G/T`?
 
 📘 **Dónde se aprende** (1 clase): [B89-C07 · Figura de ruido de receptor](../programa/clases/B89/B89-C07-figura-de-ruido-de-receptor/CLASE.md).
 
@@ -815,11 +1290,17 @@
 
 - La densidad de transición `ρ_t` separa dos tramos.
 
+🎯 **Por qué importa (clase B27-C04):** Las estrellas de neutrones son el único laboratorio de materia más allá de la densidad nuclear. Su EOS no se conoce con precisión; las medidas de masa máxima y de radio la acotan.
+
 📘 **Dónde se aprende** (1 clase): [B27-C04 · Ecuación de estado nuclear](../programa/clases/B27/B27-C04-ecuacion-de-estado-nuclear/CLASE.md).
 
 ### Densidad del padre
 
 - La densidad del padre es `n_p = Q/(4πvr²) e^(−r/l_p)`; la del hijo `n_h = Q/(4πvr²) · l_h/(l_p−l_h) · (e^(−r/l_p) − e^(−r/l_h))`.
+
+💡 **Cómo se explica en la clase [B55-C11](../programa/clases/B55/B55-C11-quimica-en-cometas/CLASE.md):**
+- *Descripción textual:* la producción y la velocidad dan la densidad del padre, que decae y alimenta al hijo; integrando a lo largo de la línea de visión se obtiene la columna observable.
+- 🎯 **Por qué importa:** Un telescopio no ve la densidad en cada punto de la coma sino la columna a lo largo de la línea de visión. Para pasar de lo medido a la producción de moléculas por el núcleo hay que modelar la expansión y la destrucción.
 
 📘 **Dónde se aprende** (1 clase): [B55-C11 · Química en cometas](../programa/clases/B55/B55-C11-quimica-en-cometas/CLASE.md).
 
@@ -827,17 +1308,27 @@
 
 - Densidad energética: kcal por gramo de alimento.
 
+🎯 **Por qué importa (clase B106-C11):** El alimento es la única entrada del balance humano que aún se lanza casi por completo, y se degrada con el tiempo y la temperatura. La decisión central: ¿cuánta masa de alimento y con qué margen de vida útil hay que embarcar para una misión dada?
+
 📘 **Dónde se aprende** (1 clase): [B106-C11 · Almacenamiento de alimentos](../programa/clases/B106/B106-C11-almacenamiento-de-alimentos/CLASE.md).
 
 ### Densidad espacial
 
 - La densidad espacial `n(h)` es el número de objetos por unidad de volumen en una capa de altitud `h`.
 
+💡 **Cómo se explica en la clase [B118-C01](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md):**
+- *Descripción textual:* de dos conteos acumulados se obtiene la pendiente de la distribución de tamaños; de la población sintética se obtiene el conteo por capa y, dividido por el volumen, la densidad espacial.
+- 🎯 **Por qué importa:** Los catálogos solo contienen los objetos que los sensores pueden seguir; el resto se conoce por modelos y por mediciones in situ. Esta clase fija el vocabulario cuantitativo (conteos acumulados, pendiente, densidad) que usan todas las demás.
+
 📘 **Dónde se aprende** (1 clase): [B118-C01 · Población de objetos orbitales](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md).
 
 ### Densidad espectral
 
 - La densidad espectral `S(f)`.
+
+💡 **Cómo se explica en la clase [B28-C14](../programa/clases/B28/B28-C14-ruidos-instrumentales/CLASE.md):**
+- *Descripción textual:* la densidad espectral genera el ruido; el periodograma la recupera; la relación señal-ruido óptima de una señal se contrasta con la media de la salida del filtro acoplado sobre muchas realizaciones.
+- 🎯 **Por qué importa:** Entender la forma del ruido explica por qué un detector es sensible solo en una banda y por qué una señal débil puede perderse en baja frecuencia aunque sea fuerte en alta. La decisión central: ¿cómo se estima la densidad espectral del ruido y qué relación señal-ruido da el filtro óptimo?
 
 📘 **Dónde se aprende** (1 clase): [B28-C14 · Ruidos instrumentales](../programa/clases/B28/B28-C14-ruidos-instrumentales/CLASE.md).
 
@@ -847,11 +1338,18 @@
 - La densidad espectral de potencia (PSD) es la potencia por unidad de frecuencia.
 - La densidad espectral de potencia `S(f)`.
 
+🎯 **Por qué importa (clase B15-C03):** Una regla heredada de la física del laboratorio dice que, al promediar `N` mediciones, el error baja como `1/√N`. Esa regla solo vale si los errores de cada medición son independientes.
+
 📘 **Dónde se aprende** (3 clases): [B15-C03 · Ruido blanco y coloreado](../programa/clases/B15/B15-C03-ruido-blanco-y-coloreado/CLASE.md); [B15-C06 · Análisis espectral de señales](../programa/clases/B15/B15-C06-analisis-espectral-de-senales/CLASE.md); [B47-C10 · Estabilidad de apuntamiento](../programa/clases/B47/B47-C10-estabilidad-de-apuntamiento/CLASE.md).
 
 ### Densidad estelar
 
 - La densidad estelar se obtiene de `a/R_s` y `P`.
+
+💡 **Cómo se explica en la clase [B29-C09](../programa/clases/B29/B29-C09-parametros-orbitales-exoplanetarios/CLASE.md):**
+- Con la tercera ley de Kepler y `GM_☉` nominal de la UAI (S1), la órbita de la Tierra da `a/R_s = 215,029`; la densidad estelar `3π(a/R_s)³/(GP²)` coincide con `3GM/(4πGR_s³) = 1409,78 kg/m³` con cociente `1,000000`.
+- Descripción larga: la densidad estelar inferida del tránsito se compara con la esperada para el tipo espectral del anfitrión.
+- 🎯 **Por qué importa:** La excentricidad y el argumento del periastro cambian la forma de la curva y el sesgo de `K` que vimos en C03. Y la densidad de la estrella que sale del tránsito ayuda a validar al anfitrión.
 
 📘 **Dónde se aprende** (1 clase): [B29-C09 · Parámetros orbitales exoplanetarios](../programa/clases/B29/B29-C09-parametros-orbitales-exoplanetarios/CLASE.md).
 
@@ -859,11 +1357,15 @@
 
 - La densidad exponencial es `ρ(h) = ρ₀ e^{−h/H}`.
 
+🎯 **Por qué importa (clase B75-C15):** Cada pasada baja el apoapsis un poco, y hace falta algún margen de seguridad con la densidad. La decisión central: ¿cuántas pasadas y cuánto tiempo hacen falta para bajar el apoapsis, y qué delta-v propulsivo se ahorra?
+
 📘 **Dónde se aprende** (1 clase): [B75-C15 · Aerofrenado conceptual](../programa/clases/B75/B75-C15-aerofrenado-conceptual/CLASE.md).
 
 ### Densidad expuesta
 
 - La densidad expuesta es la media a lo largo de la traza.
+
+🎯 **Por qué importa (clase B118-C14):** El riesgo en superficie se controla antes de lanzar: limitando los fragmentos que sobreviven o confinando la reentrada a zonas despobladas. La decisión central: ¿cuánta área de víctima se puede aceptar para respetar 10⁻⁴ y cómo influye dónde cae?
 
 📘 **Dónde se aprende** (1 clase): [B118-C14 · Reentrada y riesgos en superficie](../programa/clases/B118/B118-C14-reentrada-y-riesgos-en-superficie/CLASE.md).
 
@@ -872,11 +1374,18 @@
 - La densidad media es masa entre volumen.
 - La densidad media es `ρ̄ = M/(4πR³/3)`.
 
+💡 **Cómo se explica en la clase [B07-C09](../programa/clases/B07/B07-C09-calculos-cientificos-basicos-con-python/CLASE.md):**
+- La media simple de las ocho densidades es `3129,8 kg/m³`, pero no es la densidad media del conjunto.
+- Paso final · incertidumbre. La coincidencia a 0,01 % confirma las unidades y la fórmula, pero no prueba que la Tierra sea una esfera homogénea: la densidad media no dice cómo se distribuye la masa por dentro.
+- 🎯 **Por qué importa:** Calcular la densidad de ocho planetas con un `for` funciona, pero a escala de millones de datos es lento y verboso. NumPy opera sobre arreglos completos con una sola expresión y es la base de casi toda la ciencia con Python.
+
 📘 **Dónde se aprende** (3 clases): [B07-C09 · Cálculos científicos básicos con Python](../programa/clases/B07/B07-C09-calculos-cientificos-basicos-con-python/CLASE.md); [B24-C14 · Asterosismología inicial](../programa/clases/B24/B24-C14-asterosismologia-inicial/CLASE.md); [B29-C10 · Masas y radios planetarios](../programa/clases/B29/B29-C10-masas-y-radios-planetarios/CLASE.md).
 
 ### Densidad mineral ósea
 
 - La densidad mineral ósea (BMD) se expresa en g/cm².
+
+🎯 **Por qué importa (clase B105-C02):** Un porcentaje por mes parece simple, pero hay que decidir cómo se acumula (lineal o exponencial), para quién vale (promedio o individuo) y qué recupera el cuerpo al volver. La decisión central: ¿qué pérdida esperar a 6 y 12 meses, con qué dispersión y qué parte se recupera?
 
 📘 **Dónde se aprende** (1 clase): [B105-C02 · Pérdida de masa ósea](../programa/clases/B105/B105-C02-perdida-de-masa-osea/CLASE.md).
 
@@ -885,11 +1394,15 @@
 - La densidad numérica es `n = N/V`.
 - Una densidad numérica `n` cuenta núcleos de H por cm³.
 
+🎯 **Por qué importa (clase B25-C03):** Las estrellas nacen del gas y devuelven gas enriquecido; el medio interestelar (MIS) es el almacén y el escenario de ese ciclo. Pero «gas» sirve de poco: un volumen del MIS puede estar a `10 K` o a `10⁶ K`, y su densidad variar un factor 10⁷ de un punto a otro.
+
 📘 **Dónde se aprende** (2 clases): [B25-C03 · Medio interestelar multifásico](../programa/clases/B25/B25-C03-medio-interestelar-multifasico/CLASE.md); [B25-C18 · Estructura cósmica a gran escala](../programa/clases/B25/B25-C18-estructura-cosmica-a-gran-escala/CLASE.md).
 
 ### Densidad numérica de fotones
 
 - La densidad numérica de fotones es `n_γ = (2ζ(3)/π²)(kT/ħc)³`.
+
+🎯 **Por qué importa (clase B26-C15):** El fondo de microondas es la reliquia más antigua observable y da los parámetros del modelo cosmológico. Entender su espectro de cuerpo negro permite calibrar un instrumento, estimar el contenido de fotones y comprender por qué un solo número, la razón barión–fotón, resume tanta física.
 
 📘 **Dónde se aprende** (1 clase): [B26-C15 · Radiación cósmica de fondo](../programa/clases/B26/B26-C15-radiacion-cosmica-de-fondo/CLASE.md).
 
@@ -897,11 +1410,15 @@
 
 - La densidad óptica `OD` es el logaritmo decimal de la atenuación: la transmitancia es `10^(−OD)`.
 
+🎯 **Por qué importa (clase B08-C16):** Una persona que mira un eclipse parcial con gafas falsas, o enfoca el Sol con un telescopio sin filtro frontal, puede quedar con una lesión permanente. La pregunta motivadora: ¿cómo observo el Sol sin dañarme y sin dañar a otros?
+
 📘 **Dónde se aprende** (1 clase): [B08-C16 · Observación solar con filtros certificados](../programa/clases/B08/B08-C16-observacion-solar-con-filtros-certificados/CLASE.md).
 
 ### Densidad predictiva logarítmica esperada
 
 - La densidad predictiva logarítmica esperada (`elpd`) es la suma esperada de `log p(ỹ_i | y)` sobre datos futuros; mayor es mejor.
+
+🎯 **Por qué importa (clase B19-C07):** Miras 10 mediciones de la amplitud de una señal y el promedio es 0,57 con ruido conocido 1. ¿Hay señal (`μ ≠ 0`) o solo ruido (`μ = 0`)?
 
 📘 **Dónde se aprende** (1 clase): [B19-C07 · Comparación de modelos bayesianos](../programa/clases/B19/B19-C07-comparacion-de-modelos-bayesianos/CLASE.md).
 
@@ -912,11 +1429,17 @@
 - La densidad superficial `m` es la masa por unidad de área de la división.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B52-C02](../programa/clases/B52/B52-C02-discos-protoplanetarios/CLASE.md):**
+- *Descripción textual:* la densidad superficial da la masa; la temperatura y la frecuencia kepleriana dan el espesor; con todo ello se calcula el parámetro de Toomre.
+- 🎯 **Por qué importa:** Todo lo que sigue —deriva del polvo, crecimiento, migración— ocurre dentro de un disco y depende de cuánta masa tiene, cuán caliente y cuán grueso es. La decisión central: ¿cómo se resume un disco con tres funciones del radio y cuándo es estable?
+
 📘 **Dónde se aprende** (4 clases): [B52-C02 · Discos protoplanetarios](../programa/clases/B52/B52-C02-discos-protoplanetarios/CLASE.md); [B97-C14 · Construcción con regolito — Robótica y construcción extraterrestre](../programa/clases/B97/B97-C14-construccion-con-regolito-robotica-y-construccion-extraterrestre/CLASE.md); [B109-C09 · Privacidad y espacios personales](../programa/clases/B109/B109-C09-privacidad-y-espacios-personales/CLASE.md); [B112-C03 · Efectos agudos de la radiación](../programa/clases/B112/B112-C03-efectos-agudos-de-la-radiacion/CLASE.md).
 
 ### Densidad superficial de gas
 
 - La densidad superficial de gas `Σ_gas` y de formación estelar `Σ_SFR` se miden en `M☉ pc⁻²` y `M☉ año⁻¹ kpc⁻²`.
+
+🎯 **Por qué importa (clase B25-C05):** Una galaxia no convierte todo su gas en estrellas a la vez: lo hace a un ritmo que puede medirse y comparar. Entender las regiones donde nacen las estrellas masivas permite reconocerlas desde lejos, y entender la relación entre gas y ritmo de formación permite saber cuánto tiempo puede una galaxia seguir formando estrellas.
 
 📘 **Dónde se aprende** (1 clase): [B25-C05 · Regiones de formación estelar](../programa/clases/B25/B25-C05-regiones-de-formacion-estelar/CLASE.md).
 
@@ -924,17 +1447,28 @@
 
 - Un modelo de densidad uniforme supone `ρ` constante, lo que sirve de cota.
 
+💡 **Cómo se explica en la clase [B24-C04](../programa/clases/B24/B24-C04-equilibrio-hidrostatico-estelar/CLASE.md):**
+- La densidad uniforme da una cota inferior de `P_c`.
+- Es el ejemplo conductor: ¿cuánta presión central exigiría un Sol de densidad uniforme y cuánto se queda corto?
+- 🎯 **Por qué importa:** Una estrella es una bola de gas que lleva miles de millones de años sin cambiar de tamaño. Eso exige que, en cada capa, la presión hacia fuera compense el peso del gas de encima.
+
 📘 **Dónde se aprende** (1 clase): [B24-C04 · Equilibrio hidrostático estelar](../programa/clases/B24/B24-C04-equilibrio-hidrostatico-estelar/CLASE.md).
 
 ### Densidades cósmicas
 
 - Las densidades cósmicas `Ω_c` y `Ω_b` son las de materia oscura y bariones divididas entre `ρ_crit`;
 
+🎯 **Por qué importa (clase B25-C15):** Varias medidas independientes (rotación, dispersión, lentes, fondo cósmico) piden más masa de la que se ve. Un halo con un perfil de densidad concreto permite comparar esas medidas entre sí y con las simulaciones.
+
 📘 **Dónde se aprende** (1 clase): [B25-C15 · Materia oscura en galaxias](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md).
 
 ### Dentro de tolerancia
 
 - Bit a bit significa que la cifra coincide exactamente; dentro de tolerancia, que coincide a una tolerancia declarada.
+
+💡 **Cómo se explica en la clase [B23-C07](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md):**
+- La verificación numérica dice «reproducida dentro de tolerancia», porque la cifra casi no se mueve; pero el hash de los datos cambia, y la verificación lista «datos».
+- 🎯 **Por qué importa:** Un informe dice «el modelo reproduce la posición con un error de 8,21 × 10⁻⁴ au». Seis meses después, nadie sabe con qué versión del código, qué archivo de datos ni qué tolerancia se calculó, y el número no se puede reproducir ni defender.
 
 📘 **Dónde se aprende** (1 clase): [B23-C07 · Trazabilidad científica de resultados](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md).
 
@@ -944,11 +1478,15 @@
 - Una dependencia es «X necesita Y».
 - La dependencia es la relación «A necesita a B».
 
+🎯 **Por qué importa (clase B07-C13):** «En mi computador funciona» es la frase más cara de la informática científica: el programa depende, sin decirlo, de la versión de Python y de cada biblioteca instalada. Si cambian, los resultados pueden cambiar o el programa fallar con un `ModuleNotFoundError`.
+
 📘 **Dónde se aprende** (3 clases): [B07-C13 · Entornos y dependencias con uv](../programa/clases/B07/B07-C13-entornos-y-dependencias-con-uv/CLASE.md); [B119-C16 · Protección de infraestructura crítica](../programa/clases/B119/B119-C16-proteccion-de-infraestructura-critica/CLASE.md); [B122-C01 · Dependencias de proveedores y cadena de suministro de infraestructura espacial](../programa/clases/B122/B122-C01-dependencias-de-proveedores-y-cadena-de-suministro-de-infraestructura-espacial/CLASE.md).
 
 ### Dependencia del modelo
 
 - La dependencia del modelo significa que el valor del fondo se infiere en ΛCDM.
+
+🎯 **Por qué importa (clase B26-C23):** Decir «hay una tensión» solo tiene sentido con un número: ¿cuántas sigmas?, ¿qué probabilidad de ocurrir por azar?, ¿qué se asume? Sin ese rigor, una discrepancia se exagera o se descarta.
 
 📘 **Dónde se aprende** (1 clase): [B26-C23 · Tensiones observacionales: constante de Hubble y S8](../programa/clases/B26/B26-C23-tensiones-observacionales-constante-de-hubble-y-s8/CLASE.md).
 
@@ -956,17 +1494,25 @@
 
 - Una dependencia hacia arriba viola la jerarquía.
 
+🎯 **Por qué importa (clase B88-C23):** Las dependencias hacia arriba y los ciclos hacen imposible probar un módulo por separado y convierten un cambio en riesgo global. La decisión central: ¿qué módulo depende de quién, y puede ordenarse el sistema en capas sin ciclos?
+
 📘 **Dónde se aprende** (1 clase): [B88-C23 · Arquitectura de software de vuelo: capas y ejecutivo](../programa/clases/B88/B88-C23-arquitectura-de-software-de-vuelo-capas-y-ejecutivo/CLASE.md).
 
 ### Dependencia parcial
 
 - La dependencia parcial es la respuesta media del modelo cuando se varía una variable y las demás quedan como están.
 
+💡 **Cómo se explica en la clase [B17-C08](../programa/clases/B17/B17-C08-interpretabilidad-con-consistencia-fisica/CLASE.md):**
+- La dependencia parcial muestra la forma de la respuesta, pero promedia sobre las demás variables.
+- 🎯 **Por qué importa:** Dos modelos pueden tener el mismo error en validación y haber aprendido cosas muy distintas: uno la ley física, otro un atajo que funciona en el rango visto. Si solo miras la métrica, no los distingues, y el atajo falla al primer dato fuera de rango.
+
 📘 **Dónde se aprende** (1 clase): [B17-C08 · Interpretabilidad con consistencia física](../programa/clases/B17/B17-C08-interpretabilidad-con-consistencia-fisica/CLASE.md).
 
 ### Dependencias de ejecución
 
 - Las dependencias de ejecución se instalan siempre; las de desarrollo (por ejemplo, la herramienta de pruebas) solo para quien trabaja en el proyecto (S2).
+
+🎯 **Por qué importa (clase B07-C13):** «En mi computador funciona» es la frase más cara de la informática científica: el programa depende, sin decirlo, de la versión de Python y de cada biblioteca instalada. Si cambian, los resultados pueden cambiar o el programa fallar con un `ModuleNotFoundError`.
 
 📘 **Dónde se aprende** (1 clase): [B07-C13 · Entornos y dependencias con uv](../programa/clases/B07/B07-C13-entornos-y-dependencias-con-uv/CLASE.md).
 
@@ -975,11 +1521,18 @@
 - `x` es la variable independiente y `y = f(x)` la dependiente.
 - Un conjunto de vectores es linealmente independiente si ninguna combinación lineal no trivial da el cero; si no, es dependiente.
 
+💡 **Cómo se explica en la clase [B10-C02](../programa/clases/B10/B10-C02-bases-y-dimension/CLASE.md):**
+- Si un conjunto tiene más vectores que la dimensión, es dependiente; por ejemplo, cuatro vectores en `ℝ³`.
+- Una base casi dependiente (vectores casi paralelos) da coordenadas enormes y muy sensibles al error: se verá en C05 y C11.
+- 🎯 **Por qué importa:** Un vector es una entidad geométrica; sus «componentes» dependen de los ejes que elijas. Un operador de estación terrestre describe un satélite con ejes ligados al ecuador; el satélite mismo, con ejes ligados a su órbita; un instrumento, con ejes del instrumento.
+
 📘 **Dónde se aprende** (2 clases): [B04-C04 · Funciones y gráficas](../programa/clases/B04/B04-C04-funciones-y-graficas/CLASE.md); [B10-C02 · Bases y dimensión](../programa/clases/B10/B10-C02-bases-y-dimension/CLASE.md).
 
 ### Deposición completa
 
 - La deposición completa supone que toda la energía se convierte en luz.
+
+🎯 **Por qué importa (clase B27-C14):** La luminosidad tardía de estas supernovas sigue la semivida del cobalto-56, y por eso se usan para medir distancias. La decisión central: ¿cuántos núcleos de cada especie quedan en cada instante y qué luminosidad producen?
 
 📘 **Dónde se aprende** (1 clase): [B27-C14 · Supernovas termonucleares](../programa/clases/B27/B27-C14-supernovas-termonucleares/CLASE.md).
 
@@ -988,11 +1541,17 @@
 - Un depósito es un lugar donde se dejan muestras selladas.
 - Un depósito guarda propelente en un nodo.
 
+💡 **Cómo se explica en la clase [B63-C02](../programa/clases/B63/B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md):**
+- Como contexto real, NASA describe (S4) que Perseverance perfora un testigo con una broca, que un brazo interior lo mueve a estaciones de inspección y sellado, que lo guarda sellado y que puede dejarlo en un depósito de muestras en superficie; también lleva tubos «testigo» (*witness tubes*) que capturan contaminantes terrestres.
+- 🎯 **Por qué importa:** Un rover tiene un número limitado de tubos. La decisión central: ¿cuántas muestras hacen falta para no perderse una litología rara con una confianza dada?
+
 📘 **Dónde se aprende** (2 clases): [B63-C02 · Muestreo superficial y estrategias de recolección](../programa/clases/B63/B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md); [B100-C06 · Logística cislunar: nodos, depósitos y rutas de reabastecimiento](../programa/clases/B100/B100-C06-logistica-cislunar-nodos-depositos-y-rutas-de-reabastecimiento/CLASE.md).
 
 ### Depósito piroclástico
 
 - El depósito piroclástico es el material fragmentado que cae o fluye tras una explosión.
+
+🎯 **Por qué importa (clase B70-C07):** La misma lava fluye distinto según la pendiente, el espesor y la reología; los piroclastos llegan más lejos si no hay aire. La decisión central: ¿cuánto fluye una colada y hasta dónde llegan los clastos en cada mundo?
 
 📘 **Dónde se aprende** (1 clase): [B70-C07 · Flujos de lava y depósitos piroclásticos](../programa/clases/B70/B70-C07-flujos-de-lava-y-depositos-piroclasticos/CLASE.md).
 
@@ -1000,17 +1559,33 @@
 
 - La depreciación reduce el valor asegurado.
 
+💡 **Cómo se explica en la clase [B127-C02](../programa/clases/B127/B127-C02-seguros-en-orbita/CLASE.md):**
+- Límite: la depreciación lineal y un único modo de fallo son simplificaciones; un satélite real pierde capacidad por partes.
+- El ejemplo conductor es un satélite sintético con `β = 0,7`, `η = 120 años`, valor inicial `150 MUSD`, depreciación `8 %` anual y recargo `30 %`.
+- 🎯 **Por qué importa:** La cobertura durante la vida en órbita difiere de la de lanzamiento y no estaba tratada. La decisión central: ¿cuánto debe costar cada año de cobertura si el riesgo baja con la edad pero el valor asegurado también?
+
 📘 **Dónde se aprende** (1 clase): [B127-C02 · Seguros en órbita](../programa/clases/B127/B127-C02-seguros-en-orbita/CLASE.md).
 
 ### Depuración
 
 - La depuración retira CO₂ del aire.
 
+💡 **Cómo se explica en la clase [B104-C05](../programa/clases/B104/B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md):**
+- Para 1,0 kPa bastan 3,2 h: sin depuración el CO₂ es el primer límite, mucho antes que el oxígeno.
+- Sin depuración, 4 kg de CO₂ por día (ilustrativos) elevan la presión parcial de CO₂ en 7,41 kPa/d: 1,0 kPa se alcanza en 3,2 h.
+- 🎯 **Por qué importa:** Lo que importa para respirar no es la presión total sino la presión parcial de cada gas. La decisión central: ¿cuánto tiempo hay para actuar si la cabina pierde presión o si se acumula CO₂?
+
 📘 **Dónde se aprende** (1 clase): [B104-C05 · Sistemas de vehículos tripulados](../programa/clases/B104/B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md).
 
 ### Depurador
 
 - ppCO₂: presión parcial de CO₂ en mmHg. Depurador: equipo que retira CO₂ del aire (tamices moleculares en la página consultada).
+
+💡 **Cómo se explica en la clase [B106-C04](../programa/clases/B106/B106-C04-control-de-dioxido-de-carbono/CLASE.md):**
+- Sin depurador, `d(ppCO₂)/dt = g P/n = 0,624 mmHg/h`.
+- Desde 2,48 mmHg y sin depurador: `t = (3 − 2,48)/0,624 = 0,84 h` hasta el límite de 3 mmHg y 3,24 h hasta 4,5 mmHg.
+- ⚠️ **Error frecuente:** Suponer que el depurador nunca falla. Calcula el reloj (8.3).
+- 🎯 **Por qué importa:** Una cabina cerrada acumula el CO₂ de la tripulación hasta que un depurador lo retira. Si el depurador es insuficiente o falla, hay un tiempo finito antes de pasar los límites.
 
 📘 **Dónde se aprende** (1 clase): [B106-C04 · Control de dióxido de carbono](../programa/clases/B106/B106-C04-control-de-dioxido-de-carbono/CLASE.md).
 
@@ -1019,17 +1594,29 @@
 - El derating es operar un componente por debajo de su valor nominal; el factor de derating es la fracción del nominal que se permite (`0,6` = hasta el 60 %).
 - El derating limita el uso a una fracción del valor nominal.
 
+💡 **Cómo se explica en la clase [B86-C09](../programa/clases/B86/B86-C09-electronica-de-potencia/CLASE.md):**
+- El margen sobre el límite ilustrativo de derating (`110 °C`) es `56,2 K`.
+- Los límites de derating reales los fijan las normas y el proyecto (por ejemplo ECSS-E-ST-20C y sus normas relacionadas; en esta clase solo se consultó la ficha del estándar y no se leyó su texto), no este cálculo.
+- ⚠️ **Error frecuente:** Tomar el límite de derating de la clase como norma. Se corrige con 8.4.
+- 🎯 **Por qué importa:** La eficiencia no se mejora subiendo o bajando la frecuencia sin más: las pérdidas de conmutación crecen con ella y las de rizado decrecen. La temperatura de unión marca además el límite de fiabilidad del componente.
+
 📘 **Dónde se aprende** (2 clases): [B86-C09 · Electrónica de potencia](../programa/clases/B86/B86-C09-electronica-de-potencia/CLASE.md); [B93-C02 · Selección de componentes y derating](../programa/clases/B93/B93-C02-seleccion-de-componentes-y-derating/CLASE.md).
 
 ### Derecha
 
 - La rama izquierda (`x < x_min`) corresponde a más energía en la dirección larga; la derecha (`x > x_min`), a la otra.
 
+💡 **Cómo se explica en la clase [B82-C04](../programa/clases/B82/B82-C04-lambert-multirrevolucion/CLASE.md):**
+- M1 -->|si| DOS["dos soluciones: izquierda y derecha"]
+- 🎯 **Por qué importa:** Si hay tiempo de sobra, la nave puede dar una o más vueltas. La decisión central: ¿cuántas soluciones hay para un tiempo dado, existe alguna, y cuál se elige?
+
 📘 **Dónde se aprende** (1 clase): [B82-C04 · Lambert multirrevolución](../programa/clases/B82/B82-C04-lambert-multirrevolucion/CLASE.md).
 
 ### Derechos
 
 - Las columnas de `U` son los vectores singulares izquierdos; las de `V`, los derechos.
+
+🎯 **Por qué importa (clase B10-C11):** Un instrumento entrega una imagen de miles de píxeles; la mayor parte de su estructura se puede describir con muy pocos patrones. Una matriz de medidas puede tener columnas casi redundantes, de modo que un cálculo «técnicamente posible» sea inútil.
 
 📘 **Dónde se aprende** (1 clase): [B10-C11 · Valores singulares y SVD](../programa/clases/B10/B10-C11-valores-singulares-y-svd/CLASE.md).
 
@@ -1040,11 +1627,19 @@
 - La deriva es su cambio numérico.
 - *(y 15 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B02-C01](../programa/clases/B02/B02-C01-calendarios-astronomicos-en-civilizaciones-antiguas/CLASE.md):**
+- El año juliano promedia 365,25 d (un día cada cuatro años); la deriva baja a `365,242 − 365,25 = −0,008 d` por año, es decir, un día de exceso cada 125 años.
+- El calendario gregoriano usa 97 años bisiestos cada 400, con promedio `(97 × 366 + 303 × 365)/400 = 365,2425 d`, y su deriva baja a `−0,0005 d` por año, un día cada 2 000 años aproximadamente.
+- ⚠️ **Error frecuente:** Creer que la deriva es un defecto. Puede ser una estrategia (sección 8.3).
+- 🎯 **Por qué importa:** Un calendario es una promesa: «dentro de tantos días ocurrirá tal cosa en el cielo o en la tierra». Esa promesa solo se cumple si el calendario sigue algún ciclo natural.
+
 📘 **Dónde se aprende** (18 clases): [B02-C01 · Calendarios astronómicos en civilizaciones antiguas](../programa/clases/B02/B02-C01-calendarios-astronomicos-en-civilizaciones-antiguas/CLASE.md); [B10-C13 · Matrices de rotación tridimensional](../programa/clases/B10/B10-C13-matrices-de-rotacion-tridimensional/CLASE.md); [B11-C10 · Conservación de energía numérica](../programa/clases/B11/B11-C10-conservacion-de-energia-numerica/CLASE.md); [B13-C04 · Errores sistemáticos y aleatorios](../programa/clases/B13/B13-C04-errores-sistematicos-y-aleatorios/CLASE.md); [B13-C23 · Estabilidad y deriva temporal de instrumentos](../programa/clases/B13/B13-C23-estabilidad-y-deriva-temporal-de-instrumentos/CLASE.md); [B43-C12 · Montura ecuatorial](../programa/clases/B43/B43-C12-montura-ecuatorial/CLASE.md) y 12 más.
 
 ### Deriva a lo largo de la traza
 
 - La deriva a lo largo de la traza es el desplazamiento que se acumula por la diferencia de periodo.
+
+🎯 **Por qué importa (clase B118-C07):** La evasión es la respuesta operativa a una conjunción, pero cada maniobra cuesta combustible y vida útil. La decisión central: ¿cuánto Δv hace falta para lograr una separación dada y cuánto más cuesta decidir tarde?
 
 📘 **Dónde se aprende** (1 clase): [B118-C07 · Estrategias de evasión](../programa/clases/B118/B118-C07-estrategias-de-evasion/CLASE.md).
 
@@ -1054,11 +1649,20 @@
 - La deriva de energía mide el error del esquema.
 - La deriva de energía mide el error del integrador.
 
+💡 **Cómo se explica en la clase [B05-C07](../programa/clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md):**
+- Un método numérico también puede violarla por error: medir la deriva de energía es una prueba de calidad del integrador.
+- Comprobación en laboratorio: tras 600 s, `r = 7 937 959 m` (aún sin llegar a `r_max`), `v = 547,1 m/s`, y la deriva de energía es `1,7 × 10⁻¹¹`.
+- 🎯 **Por qué importa:** Si lanzas algo hacia arriba, ¿hasta dónde sube? ¿Con qué rapidez hay que lanzarlo para que no vuelva?
+
 📘 **Dónde se aprende** (3 clases): [B05-C07 · Conservación de energía mecánica](../programa/clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md); [B35-C05 · Simulación de plasmas por partículas (PIC)](../programa/clases/B35/B35-C05-simulacion-de-plasmas-por-particulas-pic/CLASE.md); [B59-C17 · Impacto ambiental extraterrestre](../programa/clases/B59/B59-C17-impacto-ambiental-extraterrestre/CLASE.md).
 
 ### Deriva de fase
 
 - La deriva de fase es el error acumulado de posición angular.
+
+💡 **Cómo se explica en la clase [B52-C19](../programa/clases/B52/B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md):**
+- La distancia a la posición inicial tras 100 periodos exactos es `1.03 ua` y `0.27 ua`: la deriva de fase también escala como `h²` (cociente `3.79`).
+- 🎯 **Por qué importa:** Una simulación solo es creíble si conserva lo que debe conservar y si se sabe qué tan sensible es a los datos de partida. La decisión central: ¿cuándo se puede confiar en una integración de largo plazo y cómo se mide el caos?
 
 📘 **Dónde se aprende** (1 clase): [B52-C19 · Estabilidad a largo plazo de sistemas](../programa/clases/B52/B52-C19-estabilidad-a-largo-plazo-de-sistemas/CLASE.md).
 
@@ -1066,11 +1670,17 @@
 
 - La deriva de foco es la variación de distancia espejo-detector.
 
+🎯 **Por qué importa (clase B43-C11):** La estabilidad térmica fija cuándo se puede observar y cada cuánto hay que reenfocar. La decisión central: ¿cuánto se mueve el foco por kelvin, cómo se compensa y cuánto tarda el espejo en igualarse al aire?
+
 📘 **Dónde se aprende** (1 clase): [B43-C11 · Dilatación térmica y estabilidad](../programa/clases/B43/B43-C11-dilatacion-termica-y-estabilidad/CLASE.md).
 
 ### Deriva de ganancia
 
 - La deriva de ganancia es la variación lenta de la amplificación.
+
+💡 **Cómo se explica en la clase [B49-C08](../programa/clases/B49/B49-C08-estabilidad-de-ganancia-de-receptores-y-variaciones-de-ganancia/CLASE.md):**
+- Con una deriva de ganancia de `0,481 %` rms, la desviación de Allan de potencia total tiene su mínimo en `1,024 s` (`0,07908 K`) y sube después a `0,08998 K`.
+- 🎯 **Por qué importa:** Integrar más tiempo no siempre mejora la medida: la deriva lo impide. La decisión central: ¿hasta qué tiempo de integración vale la pena, y cuándo hay que conmutar?
 
 📘 **Dónde se aprende** (1 clase): [B49-C08 · Estabilidad de ganancia de receptores y variaciones de ganancia](../programa/clases/B49/B49-C08-estabilidad-de-ganancia-de-receptores-y-variaciones-de-ganancia/CLASE.md).
 
@@ -1078,11 +1688,17 @@
 
 - La deriva de inclinación es la rotación del polo orbital respecto al polo terrestre.
 
+💡 **Cómo se explica en la clase [B72-C10](../programa/clases/B72/B72-C10-perturbaciones-lunares/CLASE.md):**
+- Descripción larga: La marea de la Luna supera en más del doble a la del Sol y aporta unos dos tercios de la deriva de inclinación geoestacionaria en el modelo simplificado.
+- 🎯 **Por qué importa:** Un satélite geoestacionario sin maniobras de inclinación deriva de su plano ecuatorial algo menos de un grado por año, y el combustible de ese mantenimiento fija su vida útil. La decisión central: ¿cuánto contribuye cada cuerpo a la deriva de la inclinación y cuánto de ese resultado depende de simplificar la órbita lunar?
+
 📘 **Dónde se aprende** (1 clase): [B72-C10 · Perturbaciones lunares](../programa/clases/B72/B72-C10-perturbaciones-lunares/CLASE.md).
 
 ### Deriva de LTAN
 
 - La deriva de LTAN es el cambio de la hora local por un error en `i` o `a`.
+
+🎯 **Por qué importa (clase B72-C13):** La misma hora local de paso significa la misma iluminación en cada imagen: es lo que usan las misiones de observación de la Tierra. La decisión central: ¿qué inclinación corresponde a cada altitud y cuánta deriva de hora local produce un error de inclinación?
 
 📘 **Dónde se aprende** (1 clase): [B72-C13 · Órbitas heliosincrónicas](../programa/clases/B72/B72-C13-orbitas-heliosincronicas/CLASE.md).
 
@@ -1091,11 +1707,17 @@
 - La deriva E×B `E/B`.
 - La deriva `E×B` tiene velocidad `E/B`.
 
+💡 **Cómo se explica en la clase [B30-C06](../programa/clases/B30/B30-C06-particulas-cargadas-y-movimientos/CLASE.md):**
+- La deriva E×B no depende de la carga ni de la masa.
+- 🎯 **Por qué importa:** El movimiento de las partículas explica cómo se atrapan en los cinturones, cómo derivan y cómo se aceleran. La decisión central: ¿cuándo queda atrapada una partícula y cuánto vale su radio de giro?
+
 📘 **Dónde se aprende** (2 clases): [B30-C06 · Partículas cargadas y movimientos](../programa/clases/B30/B30-C06-particulas-cargadas-y-movimientos/CLASE.md); [B78-C08 · Propulsores Hall](../programa/clases/B78/B78-C08-propulsores-hall/CLASE.md).
 
 ### Deriva en frecuencia
 
 - La deriva en frecuencia es `df/dt`.
+
+🎯 **Por qué importa (clase B30-C21):** Una frecuencia es una altura, y la deriva en frecuencia da la velocidad del haz. La decisión central: ¿cómo se convierte un espectro dinámico en la velocidad de los electrones?
 
 📘 **Dónde se aprende** (1 clase): [B30-C21 · Radioemisión solar: estallidos de radio y su observación](../programa/clases/B30/B30-C21-radioemision-solar-estallidos-de-radio-y-su-observacion/CLASE.md).
 
@@ -1103,11 +1725,20 @@
 
 - La deriva lineal es `y` creciendo de forma lineal con el tiempo.
 
+💡 **Cómo se explica en la clase [B13-C07](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md):**
+- Si `y_k = D k τ₀` (deriva lineal de `D` por segundo, `τ₀ = 1 s`), los promedios contiguos de `m` muestras difieren siempre en `D m τ₀ = D τ`.
+- Tres relojes simulados tienen un ruido blanco de frecuencia (`σ = 10⁻¹²`), un paseo aleatorio de frecuencia y una deriva lineal.
+- 🎯 **Por qué importa:** Dos relojes pueden tener la misma desviación de frecuencia media y comportarse de forma muy distinta: uno oscila alrededor de su valor y otro se aleja de él con el tiempo. La desviación típica ordinaria no sirve para describirlo, porque en un reloj con deriva no converge.
+
 📘 **Dónde se aprende** (1 clase): [B13-C07 · Relojes atómicos y frecuencia](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md).
 
 ### Deriva por órbita
 
 - La deriva por órbita es `−3π x_c`.
+
+💡 **Cómo se explica en la clase [B76-C15](../programa/clases/B76/B76-C15-control-de-formacion-satelital/CLASE.md):**
+- *Descripción textual:* una elipse de radio `ρ` se cierra sola; un error de semieje equivale a un error de velocidad que desplaza el centro radial y crea una deriva por órbita; un impulso opuesto la anula y su suma anual es el presupuesto.
+- 🎯 **Por qué importa:** Un error de un metro en el semieje parece nada y deriva nueve metros por órbita. La decisión central: ¿cuánto se desvía una formación por un error de inserción y cuánto `Δv` cuesta mantenerla?
 
 📘 **Dónde se aprende** (1 clase): [B76-C15 · Control de formación satelital](../programa/clases/B76/B76-C15-control-de-formacion-satelital/CLASE.md).
 
@@ -1115,11 +1746,17 @@
 
 - La deriva radial es el movimiento hacia adentro del grano.
 
+🎯 **Por qué importa (clase B52-C03):** Si los granos derivan más rápido de lo que crecen, el polvo se pierde antes de formar planetesimales. La decisión central: ¿a qué tamaño deriva más rápido un grano y cuánto tarda en caer?
+
 📘 **Dónde se aprende** (1 clase): [B52-C03 · Granulación de polvo y acreción](../programa/clases/B52/B52-C03-granulacion-de-polvo-y-acrecion/CLASE.md).
 
 ### Deriva secular
 
 - La deriva secular es un crecimiento del error proporcional al tiempo.
+
+💡 **Cómo se explica en la clase [B73-C09](../programa/clases/B73/B73-C09-integracion-de-largo-plazo/CLASE.md):**
+- Analogía: un reloj de péndulo oscila alrededor de la hora correcta (error acotado) mientras que otro se atrasa un poco cada día (deriva secular); tras muchos días el segundo está muy lejos aunque cada día su error sea pequeño.
+- 🎯 **Por qué importa:** La estabilidad del sistema solar se estudia con integraciones de millones de órbitas, donde un integrador con deriva secular de energía inventa una dinámica que no existe. La decisión central: ¿qué integrador elijo para un horizonte largo y cómo reconozco que ha derivado?
 
 📘 **Dónde se aprende** (1 clase): [B73-C09 · Integración de largo plazo](../programa/clases/B73/B73-C09-integracion-de-largo-plazo/CLASE.md).
 
@@ -1127,11 +1764,17 @@
 
 - Una función es derivable en un punto si ese límite existe.
 
+💡 **Cómo se explica en la clase [B09-C03](../programa/clases/B09/B09-C03-derivada-como-tasa-de-cambio/CLASE.md):**
+- ⚠️ **Error frecuente:** Suponer que toda función continua es derivable. Se corrige con el ejercicio 8.
+- 🎯 **Por qué importa:** Casi toda cantidad en ciencias espaciales cambia con el tiempo o la posición: la altura de un cohete, la fase de una estrella variable, el brillo de un cometa. Lo que se quiere saber suele ser con qué rapidez cambia, y en qué instante deja de crecer.
+
 📘 **Dónde se aprende** (1 clase): [B09-C03 · Derivada como tasa de cambio](../programa/clases/B09/B09-C03-derivada-como-tasa-de-cambio/CLASE.md).
 
 ### Derivación implícita
 
 - La derivación implícita deriva ambos lados respecto a `x`, tratando `y` como función de `x`.
+
+🎯 **Por qué importa (clase B09-C06):** Para saber dónde está un planeta en su órbita en un instante dado hay que resolver la ecuación de Kepler, `M = E − e sin E`, que no tiene solución en funciones elementales: no se puede despejar `E`.
 
 📘 **Dónde se aprende** (1 clase): [B09-C06 · Derivación implícita](../programa/clases/B09/B09-C06-derivacion-implicita/CLASE.md).
 
@@ -1139,11 +1782,19 @@
 
 - La derivada de `f` en `x` es el límite de ese cociente cuando `h → 0`, escrita `f′(x)` o `df/dx` (S1, §1.4(iii), ec. 1.4.4).
 
+💡 **Cómo se explica en la clase [B09-C03](../programa/clases/B09/B09-C03-derivada-como-tasa-de-cambio/CLASE.md):**
+- La derivada de una altura (m) respecto al tiempo (s) está en m/s; la de la velocidad, en m/s²: `v′ = −g`.
+- Su límite: un velocímetro real promedia en un intervalo corto; la derivada matemática es el límite ideal.
+- ⚠️ **Error frecuente:** Olvidar las unidades de la derivada. Se corrige con la sección 8.5 y el ejercicio 9.
+- 🎯 **Por qué importa:** Casi toda cantidad en ciencias espaciales cambia con el tiempo o la posición: la altura de un cohete, la fase de una estrella variable, el brillo de un cometa. Lo que se quiere saber suele ser con qué rapidez cambia, y en qué instante deja de crecer.
+
 📘 **Dónde se aprende** (1 clase): [B09-C03 · Derivada como tasa de cambio](../programa/clases/B09/B09-C03-derivada-como-tasa-de-cambio/CLASE.md).
 
 ### Derivada covariante
 
 - La derivada covariante corrige la derivada por la curvatura de las coordenadas.
+
+🎯 **Por qué importa (clase B39-C02):** Sin conexión no hay aceleración ni geodésicas. La decisión central: ¿qué símbolos produce una métrica y qué propiedades garantizan que sea la conexión correcta?
 
 📘 **Dónde se aprende** (1 clase): [B39-C02 · Conexión afín y símbolos de Christoffel](../programa/clases/B39/B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md).
 
@@ -1151,11 +1802,19 @@
 
 - La derivada del campo `Ḃ` se obtiene de la medida en el cuerpo.
 
+💡 **Cómo se explica en la clase [B87-C16](../programa/clases/B87/B87-C16-detumbling-despues-del-despliegue/CLASE.md):**
+- *Descripción textual:* la derivada del campo medido es proporcional a `ω × B`; el dipolo opuesto produce un par que se opone a la rotación y disipa energía.
+- 🎯 **Por qué importa:** Sin estimador de actitud ni giroscopio calibrado, el satélite recién desplegado necesita detenerse con lo mínimo. La decisión central: ¿cuánto tarda, qué ganancia usar y qué velocidad residual queda?
+
 📘 **Dónde se aprende** (1 clase): [B87-C16 · Detumbling después del despliegue](../programa/clases/B87/B87-C16-detumbling-despues-del-despliegue/CLASE.md).
 
 ### Derivada direccional
 
 - La derivada direccional de `f` en la dirección del vector unitario `u` es `D_u f = ∇f · u`.
+
+💡 **Cómo se explica en la clase [B09-C17](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md):**
+- Paso 4 · Derivada direccional. Hacia la Luna (`u = (1, 0)`): `D_u Φ = Φ_x = 7,03 × 10⁻⁶ km/s²` (positivo: el potencial sube al alejarse de la Tierra).
+- 🎯 **Por qué importa:** La gravedad no es un número: es un vector que apunta a un lado y tiene una magnitud. En un campo con dos cuerpos, como Tierra–Luna, esa dirección cambia de punto a punto.
 
 📘 **Dónde se aprende** (1 clase): [B09-C17 · Gradiente y derivada direccional](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md).
 
@@ -1163,11 +1822,21 @@
 
 - La derivada espectral es `f′(x_j) = Σ i k f̂_k e^{i k x_j}`.
 
+💡 **Cómo se explica en la clase [B11-C16](../programa/clases/B11/B11-C16-metodos-espectrales-iniciales/CLASE.md):**
+- Con `N = 4` puntos de `sin x`, `(0, 1, 0, −1)`, la derivada espectral devuelve `(1, 0, −1, 0)`, que son los valores de `cos x`: exacto.
+- Su derivada espectral, medida lejos del salto, tiene error `0,83`, `0,88`, `0,91` y `0,92` con `N = 32, 64, 128, 256`: no converge; encima, el máximo de la derivada crece de `6,7` a `56,2` (aproximando el pico del salto).
+- 🎯 **Por qué importa:** Cuando la solución es suave y periódica —una señal a lo largo de una órbita, un perfil de temperatura alrededor de un vehículo que gira, el campo en una caja periódica—, un método espectral logra con 24 puntos lo que unas diferencias finitas lograrían con millones.
+
 📘 **Dónde se aprende** (1 clase): [B11-C16 · Métodos espectrales iniciales](../programa/clases/B11/B11-C16-metodos-espectrales-iniciales/CLASE.md).
 
 ### Derivada parcial
 
 - La derivada parcial de `f(x, y)` respecto a `x` es `∂f/∂x = lim_{h→0} [f(x + h, y) − f(x, y)]/h`, con `y` constante (S1, §1.5(i), ecs. 1.5.3–1.5.4).
+
+💡 **Cómo se explica en la clase [B09-C16](../programa/clases/B09/B09-C16-derivadas-parciales/CLASE.md):**
+- Cada derivada parcial es una derivada ordinaria con la otra variable como constante.
+- Una derivada parcial mide cuánto cambia la salida al girar solo una perilla, con las demás quietas.
+- 🎯 **Por qué importa:** La luminosidad de una estrella calculada con su radio y su temperatura tiene una incertidumbre que viene de las dos. ¿Cuál pesa más?
 
 📘 **Dónde se aprende** (1 clase): [B09-C16 · Derivadas parciales](../programa/clases/B09/B09-C16-derivadas-parciales/CLASE.md).
 
@@ -1175,17 +1844,26 @@
 
 - Una variante muy usada es la derivada sobre la medida: `u = Kp e + Ki ∫e − Kd ẏ`.
 
+🎯 **Por qué importa (clase B16-C11):** En el espacio actúan pares pequeños pero persistentes: presión de radiación solar, gradiente de gravedad, fugas de un propulsor. Un lazo PD termina con un error constante `d/Kp` (C04).
+
 📘 **Dónde se aprende** (1 clase): [B16-C11 · Control proporcional integral derivativo](../programa/clases/B16/B16-C11-control-proporcional-integral-derivativo/CLASE.md).
 
 ### Derivada vectorial
 
 - La derivada vectorial `ds/dt = −ω p × s`.
 
+💡 **Cómo se explica en la clase [B43-C13](../programa/clases/B43/B43-C13-montura-altacimutal/CLASE.md):**
+- Las diferencias finitas centrales (paso de 1 s) y la derivada vectorial coinciden en todos los casos con diferencias relativas menores que `10⁻⁸` (el peor valor es `1,5 × 10⁻⁸` en altura).
+- *Descripción textual:* el vector de la estrella en el horizonte da alt y az; su derivada vectorial da las velocidades, contrastadas con diferencias finitas.
+- 🎯 **Por qué importa:** La altacimutal reemplaza un giro uniforme por dos giros variables y un ángulo de campo que cambia. La decisión central: ¿qué velocidades exigen los motores, cuánto rota el campo y qué región del cielo no se puede seguir?
+
 📘 **Dónde se aprende** (1 clase): [B43-C13 · Montura altacimutal](../programa/clases/B43/B43-C13-montura-altacimutal/CLASE.md).
 
 ### Derivadas de segundo orden
 
 - Las derivadas de segundo orden son `f_xx`, `f_yy` y las mixtas `f_xy = ∂²f/∂y∂x`.
+
+🎯 **Por qué importa (clase B09-C16):** La luminosidad de una estrella calculada con su radio y su temperatura tiene una incertidumbre que viene de las dos. ¿Cuál pesa más?
 
 📘 **Dónde se aprende** (1 clase): [B09-C16 · Derivadas parciales](../programa/clases/B09/B09-C16-derivadas-parciales/CLASE.md).
 
@@ -1194,11 +1872,18 @@
 - El peso de un cuerpo en órbita no interviene: solo `μ`. Derivado significa calculado aquí a partir de otros datos, no medido.
 - Un parámetro de entrada se fija; uno derivado se calcula de otros.
 
+💡 **Cómo se explica en la clase [B71-C04](../programa/clases/B71/B71-C04-parametro-gravitacional/CLASE.md):**
+- Paso 1 · `μ`. `μ = G M = 6,6743 × 10⁻¹¹ × 0,64169 × 10²⁴ = 4.28283e+13 m³/s²` (derivado).
+- ⚠️ **Error frecuente:** Tomar un valor derivado como si fuera determinado por seguimiento. Se corrige con 8.3.
+- 🎯 **Por qué importa:** `G` es la constante fundamental peor medida, pero `GM` de la Tierra o del Sol se conoce cinco órdenes de magnitud mejor. La decisión central: ¿por qué se trabaja con `μ` y qué error introduces si en su lugar usas `G` y `M` por separado?
+
 📘 **Dónde se aprende** (2 clases): [B71-C04 · Parámetro gravitacional](../programa/clases/B71/B71-C04-parametro-gravitacional/CLASE.md); [B83-C12 · Model-Based Systems Engineering](../programa/clases/B83/B83-C12-model-based-systems-engineering/CLASE.md).
 
 ### Derivativo
 
 - El tiempo integral es `Ti = Kp/Ki` (s) y el derivativo `Td = Kd/Kp` (s).
+
+🎯 **Por qué importa (clase B16-C11):** En el espacio actúan pares pequeños pero persistentes: presión de radiación solar, gradiente de gravedad, fugas de un propulsor. Un lazo PD termina con un error constante `d/Kp` (C04).
 
 📘 **Dónde se aprende** (1 clase): [B16-C11 · Control proporcional integral derivativo](../programa/clases/B16/B16-C11-control-proporcional-integral-derivativo/CLASE.md).
 
@@ -1206,11 +1891,18 @@
 
 - El desabastecimiento es `N > k`.
 
+🎯 **Por qué importa (clase B117-C05):** Ninguna clase anterior trata el equipo médico de a bordo. La decisión central: ¿qué embarcar bajo un límite de masa y volumen y qué riesgo de quedarse sin él se acepta?
+
 📘 **Dónde se aprende** (1 clase): [B117-C05 · Inventario y gestión del equipo médico a bordo](../programa/clases/B117/B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md).
 
 ### Desaceleración máxima
 
 - La desaceleración máxima es el pico de `ρv²/(2β)`.
+
+💡 **Cómo se explica en la clase [B77-C14](../programa/clases/B77/B77-C14-dinamica-de-reentrada/CLASE.md):**
+- *Descripción textual:* la entrada, el ángulo y el coeficiente balístico dan la ecuación de movimiento; su solución cerrada da la desaceleración máxima y la altitud del pico, que se contrastan con una integración numérica.
+- Con ángulo de entrada de `5°` la desaceleración máxima es `11,70 g` tanto con `β = 100` como con `1000 kg/m²` (la integración da `11,71` y `11,70 g`), pero el pico ocurre a `60,2 km` en el primero y a `40,6 km` en el segundo.
+- 🎯 **Por qué importa:** La desaceleración máxima fija la carga sobre la carga útil y sobre la tripulación. La decisión central: ¿qué ángulo de entrada limita la desaceleración y de qué propiedades del vehículo no depende?
 
 📘 **Dónde se aprende** (1 clase): [B77-C14 · Dinámica de reentrada](../programa/clases/B77/B77-C14-dinamica-de-reentrada/CLASE.md).
 
@@ -1218,11 +1910,20 @@
 
 - El desacoplamiento deja de acoplar dos especies.
 
+💡 **Cómo se explica en la clase [B40-C03](../programa/clases/B40/B40-C03-desacoplamiento-de-neutrinos-y-fondo-cosmico-de-neutrinos/CLASE.md):**
+- El desacoplamiento instantáneo equivale a `N_eff = 3`; la corrección a `3,044` viene de oscilaciones de neutrinos y de QED a temperatura finita (Bennett et al., solo resumen) y no se calcula aquí.
+- Límite: desacoplamiento instantáneo y distribuciones sin distorsión.
+- 🎯 **Por qué importa:** Los neutrinos contribuyen a la densidad de radiación y condicionan el ritmo de expansión. La decisión central: ¿cuál es la temperatura del fondo de neutrinos y cuánta radiación añade?
+
 📘 **Dónde se aprende** (1 clase): [B40-C03 · Desacoplamiento de neutrinos y fondo cósmico de neutrinos](../programa/clases/B40/B40-C03-desacoplamiento-de-neutrinos-y-fondo-cosmico-de-neutrinos/CLASE.md).
 
 ### Desadaptación
 
 - La desadaptación reduce la potencia transferida.
+
+💡 **Cómo se explica en la clase [B49-C06](../programa/clases/B49/B49-C06-amplificadores-de-bajo-ruido-lna-tecnologia-ganancia-y-adaptacion/CLASE.md):**
+- Con desadaptación `Γ = 0,1; 0,3; 0,5`, la temperatura aproximada `T/(1 − Γ²)` pasa a `12,294; 13,374; 16,228 K`.
+- 🎯 **Por qué importa:** Una décima de decibelio antes del primer amplificador cuesta más que mejorar el mezclador. La decisión central: ¿qué bloque domina la temperatura de ruido y qué pérdidas deben evitarse antes de él?
 
 📘 **Dónde se aprende** (1 clase): [B49-C06 · Amplificadores de bajo ruido (LNA): tecnología, ganancia y adaptación](../programa/clases/B49/B49-C06-amplificadores-de-bajo-ruido-lna-tecnologia-ganancia-y-adaptacion/CLASE.md).
 
@@ -1230,6 +1931,11 @@
 
 - Un observador es quien puede ver el error. Desafío y respuesta es la práctica de decir y confirmar.
 - Leer y hacer (*read-do*) es leer cada paso y ejecutarlo. Desafío y respuesta (*challenge-response*) es que uno lee y otro verifica y responde.
+
+💡 **Cómo se explica en la clase [B104-C22](../programa/clases/B104/B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md):**
+- Pasar de 40 pasos de memoria (0,331) a solo los 10 críticos con desafío y respuesta (0,0100) reduce la omisión en un factor de 33 y el tiempo de 160 a 120 s.
+- Con probabilidades ilustrativas de omisión por paso de 0,010 de memoria, 0,004 leyendo y haciendo y 0,001 con desafío y respuesta, una lista de 10 pasos falla con 0,0956, 0,0393 y 0,0100; una de 40 pasos, con 0,3310, 0,1481 y 0,0392, a costa de 160, 280 y 480 s.
+- 🎯 **Por qué importa:** Una lista larga con verificación a cada paso consume tiempo justo cuando hay poco. La decisión central: ¿qué formato y qué longitud de lista dan la menor probabilidad de omisión que el tiempo disponible permita, y qué hace una interrupción con todo eso?
 
 📘 **Dónde se aprende** (2 clases): [B104-C07 · Factores de liderazgo](../programa/clases/B104/B104-C07-factores-de-liderazgo/CLASE.md); [B104-C22 · Diseño y uso de listas de comprobación de cabina](../programa/clases/B104/B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md).
 
@@ -1239,11 +1945,17 @@
 - El desajuste `M` mide el parecido entre dos plantillas.
 - El desajuste `Δω = 2π/τ − 2π/T`.
 
+💡 **Cómo se explica en la clase [B28-C21](../programa/clases/B28/B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md):**
+- *Descripción textual:* la masa de chirrido da la frecuencia y la fase, de ahí la forma de onda; el filtro acoplado la correlaciona con los datos y el desajuste con plantillas vecinas fija el banco.
+- 🎯 **Por qué importa:** Una plantilla ligeramente errada pierde mucha señal-ruido, porque la fase acumula miles de ciclos. Entender cuánto determina cuántas plantillas hacen falta.
+
 📘 **Dónde se aprende** (3 clases): [B22-C02 · Regularización de Tikhonov](../programa/clases/B22/B22-C02-regularizacion-de-tikhonov/CLASE.md); [B28-C21 · Formas de onda gravitacionales y filtro acoplado](../programa/clases/B28/B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md); [B105-C08 · Sueño y ritmos circadianos](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md).
 
 ### Desarrollo
 
 - Las dependencias de ejecución se instalan siempre; las de desarrollo (por ejemplo, la herramienta de pruebas) solo para quien trabaja en el proyecto (S2).
+
+🎯 **Por qué importa (clase B07-C13):** «En mi computador funciona» es la frase más cara de la informática científica: el programa depende, sin decirlo, de la versión de Python y de cada biblioteca instalada. Si cambian, los resultados pueden cambiar o el programa fallar con un `ModuleNotFoundError`.
 
 📘 **Dónde se aprende** (1 clase): [B07-C13 · Entornos y dependencias con uv](../programa/clases/B07/B07-C13-entornos-y-dependencias-con-uv/CLASE.md).
 
@@ -1251,11 +1963,15 @@
 
 - Un desarrollo perturbativo es una serie en un parámetro pequeño `ε`.
 
+🎯 **Por qué importa (clase B72-C15):** Una fórmula de primer orden se usa mucho tiempo sin preguntar cuándo deja de valer. La decisión central: ¿cómo saber cuándo basta un desarrollo de primer orden y cómo se estima su error?
+
 📘 **Dónde se aprende** (1 clase): [B72-C15 · Aproximaciones perturbativas](../programa/clases/B72/B72-C15-aproximaciones-perturbativas/CLASE.md).
 
 ### Desbalance
 
 - El desbalance `ΔF/F`.
+
+🎯 **Por qué importa (clase B43-C09):** Una celda que no reparte la carga como se diseñó deforma el espejo. La decisión central: ¿cómo se reparte el peso entre los puntos de apoyo y cuánto cambia si el pivote se desplaza unos milímetros?
 
 📘 **Dónde se aprende** (1 clase): [B43-C09 · Celdas y soporte de espejos](../programa/clases/B43/B43-C09-celdas-y-soporte-de-espejos/CLASE.md).
 
@@ -1263,11 +1979,17 @@
 
 - Un desbordamiento es un resultado mayor que el máximo representable (`1,8 × 10³⁰⁸`), que da `inf`; un subdesbordamiento va hacia cero o a un número subnormal.
 
+🎯 **Por qué importa (clase B11-C25):** Un programa de ciencias espaciales hace miles de millones de operaciones. Si una resta pierde 16 cifras en una sola operación, el resultado completo es basura sin que el programa se detenga.
+
 📘 **Dónde se aprende** (1 clase): [B11-C25 · Aritmética de punto flotante y errores de redondeo](../programa/clases/B11/B11-C25-aritmetica-de-punto-flotante-y-errores-de-redondeo/CLASE.md).
 
 ### Desbordamiento del lóbulo
 
 - El desbordamiento del lóbulo (RLOF) ocurre cuando la estrella lo llena y vierte masa por L1.
+
+💡 **Cómo se explica en la clase [B24-C22](../programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md):**
+- Los códigos de evolución, como MESA, ya incluyen el desbordamiento del lóbulo de Roche entre sus casos de demostración (S5, resumen).
+- 🎯 **Por qué importa:** Una estrella que se expande (C16) o se hincha en una binaria puede llenar la región donde su gravedad domina y verter gas sobre su compañera. Esa transferencia cambia las masas, la órbita y el destino de ambas, y es el camino hacia muchos objetos exóticos.
 
 📘 **Dónde se aprende** (1 clase): [B24-C22 · Evolución binaria: lóbulo de Roche y transferencia de masa](../programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md).
 
@@ -1276,11 +1998,19 @@
 - La carga diferencial entre superficies y la descarga son los riesgos.
 - La descarga (*desaturation*) usa un actuador externo para reducir `h`.
 
+💡 **Cómo se explica en la clase [B85-C15](../programa/clases/B85/B85-C15-electrificacion-superficial/CLASE.md):**
+- *Descripción textual:* el plasma define las corrientes de electrones e iones; su igualdad da el potencial flotante, del que se deriva el campo y el riesgo de descarga.
+- 🎯 **Por qué importa:** Una carga diferencial de kilovoltios entre superficies puede producir una descarga que daña la electrónica. La decisión central: ¿a qué potencial flota una superficie en un plasma dado y es probable que alcance un umbral de riesgo?
+
 📘 **Dónde se aprende** (2 clases): [B85-C15 · Electrificación superficial](../programa/clases/B85/B85-C15-electrificacion-superficial/CLASE.md); [B87-C14 · Saturación y descarga de momento](../programa/clases/B87/B87-C14-saturacion-y-descarga-de-momento/CLASE.md).
 
 ### Descarga neta
 
 - Margen: diferencia entre ambos. Descarga neta: carga menos generación.
+
+💡 **Cómo se explica en la clase [B96-C15](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md):**
+- *Descripción textual:* el tiempo hasta lo crítico se calcula con la energía disponible y la descarga neta; se compara con el tiempo de respuesta; el margen indica si hay tiempo y la generación mínima indica cuánto falta.
+- 🎯 **Por qué importa:** Cuando falta el contacto, esperar tiene un costo medible. La decisión central: ¿alcanza el tiempo de respuesta antes del límite crítico y qué se puede hacer para ganar margen?
 
 📘 **Dónde se aprende** (1 clase): [B96-C15 · Operaciones de emergencia](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md).
 
@@ -1289,11 +2019,21 @@
 - El descarte es lo que se pierde por superar la vida útil.
 - El descarte ocurre al estar la cola llena.
 
+💡 **Cómo se explica en la clase [B88-C43](../programa/clases/B88/B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md):**
+- Paso 4 · Cola limitada. Descarte del `0,03 %`.
+- 🎯 **Por qué importa:** Un sistema que funciona al 50 % de carga puede volverse inutilizable al 95 %. La decisión central: ¿a qué tasa de llegada se degrada la latencia y qué política de descarte conviene al saturarse?
+
 📘 **Dónde se aprende** (2 clases): [B88-C43 · Pruebas de carga y estrés del software de vuelo](../programa/clases/B88/B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md); [B115-C05 · Ciclos de producción y calendarización de cultivos](../programa/clases/B115/B115-C05-ciclos-de-produccion-y-calendarizacion-de-cultivos/CLASE.md).
 
 ### Descendente
 
 - El lanzamiento ascendente va hacia el norte; el descendente, hacia el sur.
+
+💡 **Cómo se explica en la clase [B77-C11](../programa/clases/B77/B77-C11-ventanas-de-lanzamiento-dinamica-de-lanzamiento-y-reentrada/CLASE.md):**
+- Paso 3 · Arcoseno. `Az = 44,975°` (ascendente) y `180° − Az = 135,025°` (descendente).
+- Para un sitio sintético a `28,5°` de latitud y un plano de `i = 51,6°` y `RAAN = 120°`, la ventana ascendente se abre cuando el tiempo sideral local es `145,489°` con acimut `44,975°`; la descendente a `274,511°` con acimut `135,025°`.
+- ⚠️ **Error frecuente:** Olvidar la segunda ventana (descendente). Se corrige con 8.1 y 8.2.
+- 🎯 **Por qué importa:** Si el vehículo despega fuera de la ventana, el plano que alcanza no es el deseado y corregirlo cuesta `Δv`. La decisión central: ¿a qué hora sideral y con qué acimut se lanza para entrar en un plano dado, y cuánto error produce un retraso?
 
 📘 **Dónde se aprende** (1 clase): [B77-C11 · Ventanas de lanzamiento — Dinámica de lanzamiento y reentrada](../programa/clases/B77/B77-C11-ventanas-de-lanzamiento-dinamica-de-lanzamiento-y-reentrada/CLASE.md).
 
@@ -1301,11 +2041,21 @@
 
 - El descenso del gradiente es el algoritmo que avanza en la dirección `−∇f`.
 
+💡 **Cómo se explica en la clase [B09-C17](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md):**
+- En optimización, el descenso del gradiente usa `−∇f`; métodos más avanzados (B11, B14) usan segundas derivadas.
+- 🎯 **Por qué importa:** La gravedad no es un número: es un vector que apunta a un lado y tiene una magnitud. En un campo con dos cuerpos, como Tierra–Luna, esa dirección cambia de punto a punto.
+
 📘 **Dónde se aprende** (1 clase): [B09-C17 · Gradiente y derivada direccional](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md).
 
 ### Descenso por gradiente
 
 - El descenso por gradiente avanza `x ← x − η ∇f`.
+
+💡 **Cómo se explica en la clase [B11-C17](../programa/clases/B11/B11-C17-optimizacion-numerica/CLASE.md):**
+- D -->|no| F["Descenso por gradiente:<br/>lento si κ es grande"]
+- *Descripción textual:* según se conozcan o no las derivadas se elige sección áurea, Newton o descenso por gradiente; para ajustes se usa Gauss–Newton; en todos los casos el resultado se verifica con la derivada, un barrido en malla y revisando si cae en una frontera.
+- ⚠️ **Error frecuente:** Usar descenso por gradiente con mal condicionamiento. Se corrige con el ejercicio 8.
+- 🎯 **Por qué importa:** Diseñar una transferencia, ajustar un modelo a datos de seguimiento o calibrar un instrumento son problemas de optimización. Un algoritmo de búsqueda siempre devuelve *algún* número: la tarea del ingeniero es saber si es un mínimo, si es el global, si está en una frontera y con qué incertidumbre.
 
 📘 **Dónde se aprende** (1 clase): [B11-C17 · Optimización numérica](../programa/clases/B11/B11-C17-optimizacion-numerica/CLASE.md).
 
@@ -1313,11 +2063,15 @@
 
 - Ranura: abertura de la cúpula. Descentrado: distancia del pivote al centro.
 
+🎯 **Por qué importa (clase B48-C08):** Una ranura mal orientada viñetea o bloquea el haz. La decisión central: ¿qué azimut debe tener la cúpula para un telescopio descentrado?
+
 📘 **Dónde se aprende** (1 clase): [B48-C08 · Automatización de cúpulas](../programa/clases/B48/B48-C08-automatizacion-de-cupulas/CLASE.md).
 
 ### Descentrado diferencial
 
 - El descentrado diferencial entre primario y secundario.
+
+🎯 **Por qué importa (clase B43-C10):** Lo que decolima no es la flexión sino la flexión diferencial entre primario y secundario. La decisión central: ¿qué rigideces hacen que los dos extremos se muevan lo mismo, de modo que el eje óptico solo se desplace en paralelo?
 
 📘 **Dónde se aprende** (1 clase): [B43-C10 · Estructura de tubo óptico](../programa/clases/B43/B43-C10-estructura-de-tubo-optico/CLASE.md).
 
@@ -1325,11 +2079,19 @@
 
 - El descentramiento es un desplazamiento lateral de una superficie respecto del eje.
 
+💡 **Cómo se explica en la clase [B50-C10](../programa/clases/B50/B50-C10-errores-de-centrado-y-su-efecto-en-el-desempeno/CLASE.md):**
+- Un descentramiento de 0,1 mm del secundario equivale a observar con el sistema nominal a `0,1408°` de campo: la coma por descentramiento imita a la coma de campo.
+- *Descripción textual:* un descentramiento lateral del secundario produce coma proporcional al desplazamiento.
+- ⚠️ **Error frecuente:** Creer que el descentramiento desenfoca. Se corrige con 8.3.
+- 🎯 **Por qué importa:** El descentramiento es una de las tolerancias de montaje que más pesan en un telescopio. La decisión central: ¿cuánto puede desplazarse el secundario antes de degradar la imagen?
+
 📘 **Dónde se aprende** (1 clase): [B50-C10 · Errores de centrado y su efecto en el desempeño](../programa/clases/B50/B50-C10-errores-de-centrado-y-su-efecto-en-el-desempeno/CLASE.md).
 
 ### Descentrarlo
 
 - Inclinar alrededor de un punto del eje equivale a girar alrededor del vértice y descentrarlo `δ = α (z_V − z_P)`.
+
+🎯 **Por qué importa (clase B50-C11):** Un telescopio se alinea corrigiendo inclinaciones y descentramientos. La decisión central: ¿alrededor de qué punto conviene inclinar el secundario para no generar coma?
 
 📘 **Dónde se aprende** (1 clase): [B50-C11 · Errores de inclinación de elementos y superficies](../programa/clases/B50/B50-C11-errores-de-inclinacion-de-elementos-y-superficies/CLASE.md).
 
@@ -1337,11 +2099,18 @@
 
 - La descolimación del secundario.
 
+💡 **Cómo se explica en la clase [B41-C19](../programa/clases/B41/B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md):**
+- Con descolimación normal de sigma `0,1°`, la fracción de equipos con coma menor es `0,6750` (Monte Carlo) frente a `0,6758` (erf).
+- La coma por descolimación usa la fórmula verificada en la clase 13; el modelo no incluye efectos de segundo orden.
+- 🎯 **Por qué importa:** Un buen espejo mal colimado rinde mal. La decisión central: ¿cuánta descolimación y cuánto desenfoque se toleran?
+
 📘 **Dónde se aprende** (1 clase): [B41-C19 · Colimación y prueba de enfoque](../programa/clases/B41/B41-C19-colimacion-y-prueba-de-enfoque/CLASE.md).
 
 ### Descomposición espectral
 
 - La descomposición espectral `P = V Λ Vᵀ` da los ejes principales (columnas de `V`) y las varianzas a lo largo de ellos (autovalores `λ`).
+
+🎯 **Por qué importa (clase B12-C18):** El resultado de una determinación de órbita o de un ajuste no es un número sino un vector con una matriz de covarianza; sin ella no se puede propagar, comparar con otro resultado ni calcular probabilidades.
 
 📘 **Dónde se aprende** (1 clase): [B12-C18 · Matrices de covarianza](../programa/clases/B12/B12-C18-matrices-de-covarianza/CLASE.md).
 
@@ -1349,11 +2118,15 @@
 
 - La descomposición exotérmica libera calor; la disociación lo absorbe.
 
+🎯 **Por qué importa (clase B78-C04):** La descomposición de un monopropelente tiene dos pasos: uno que libera calor y otro que lo absorbe. La decisión central: ¿conviene que el amoníaco intermedio se disocie del todo, por la menor masa molar, o que se conserve, por la mayor temperatura?
+
 📘 **Dónde se aprende** (1 clase): [B78-C04 · Propulsión monopropelente conceptual](../programa/clases/B78/B78-C04-propulsion-monopropelente-conceptual/CLASE.md).
 
 ### Descomposición funcional
 
 - La descomposición funcional la divide en funciones más simples.
+
+🎯 **Por qué importa (clase B83-C06):** Si se salta a las piezas demasiado pronto, se diseñan cosas que nadie sabe para qué sirven; si se descompone bien, se ve qué función domina el tiempo y dónde se acoplan los subsistemas. La decisión central: ¿qué funciones son críticas para el tiempo y qué subsistemas quedan más acoplados?
 
 📘 **Dónde se aprende** (1 clase): [B83-C06 · Descomposición funcional](../programa/clases/B83/B83-C06-descomposicion-funcional/CLASE.md).
 
@@ -1361,11 +2134,19 @@
 
 - Traversable: celda que cumple los umbrales de pendiente y rugosidad. Desconocida: celda sin ninguna observación.
 
+💡 **Cómo se explica en la clase [B99-C05](../programa/clases/B99/B99-C05-mapas-de-ocupacion-y-rejillas-de-elevacion/CLASE.md):**
+- Una celda con `p > 0,5` se declara ocupada; con `p < 0,5`, libre; si nunca se tocó, desconocida.
+- 🎯 **Por qué importa:** Un mapa útil para navegar distingue lo ocupado, lo libre y lo que no se sabe, y dice si el terreno es pisable. La decisión central: ¿cómo fusionar medidas ruidosas en cada celda y qué umbrales de pendiente y rugosidad declaran un terreno traversable?
+
 📘 **Dónde se aprende** (1 clase): [B99-C05 · Mapas de ocupación y rejillas de elevación](../programa/clases/B99/B99-C05-mapas-de-ocupacion-y-rejillas-de-elevacion/CLASE.md).
 
 ### Descripción textual
 
 - La descripción textual reemplaza una imagen con palabras.
+
+💡 **Cómo se explica en la clase [B128-C03](../programa/clases/B128/B128-C03-alternativas-a-la-observacion-visual/CLASE.md):**
+- *Descripción textual:* de la elongación sale la fracción iluminada, que se expresa en texto, tabla y relieve; luego se verifica el orden y se anotan las pérdidas de cada formato.
+- 🎯 **Por qué importa:** «Alternativa» no significa «versión reducida». Si el relieve pierde resolución o el texto omite el lado iluminado, la persona recibe menos información que quien mira.
 
 📘 **Dónde se aprende** (1 clase): [B128-C03 · Alternativas a la observación visual](../programa/clases/B128/B128-C03-alternativas-a-la-observacion-visual/CLASE.md).
 
@@ -1374,11 +2155,20 @@
 - Un descriptor es una cantidad medida que alimenta la regla.
 - Tensor de estructura: matriz `M` de productos de gradientes promediados en una ventana. Descriptor: vector que resume el parche alrededor del punto.
 
+💡 **Cómo se explica en la clase [B25-C20](../programa/clases/B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md):**
+- Paso 1 · Descriptor. Para `n = 1`: `x₂₀ = 0,824` (`1 − 1,824 e^{−0,824} = 0,1998`), `x₈₀ = 2,994` (`1 − 3,994 e^{−2,994} = 0,7998`);
+- Regla por umbral sobre un descriptor (esta clase): transparente y fácil de comprobar.
+- 🎯 **Por qué importa:** Clasificar galaxias a gran escala exige algo más que una regla que parezca razonable: hay que decir qué debe cumplir, probarlo contra casos de respuesta conocida y evaluar con honestidad cómo se comporta donde los datos son malos.
+
 📘 **Dónde se aprende** (2 clases): [B25-C20 · Proyecto de clasificación galáctica](../programa/clases/B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md); [B99-C02 · Detección y descriptores de características](../programa/clases/B99/B99-C02-deteccion-y-descriptores-de-caracteristicas/CLASE.md).
 
 ### Descriptor de lugar
 
 - Cierre de bucle: restricción entre dos poses del mismo lugar (F4, F7). Descriptor de lugar: vector que resume lo observado en una pose.
+
+💡 **Cómo se explica en la clase [B99-C04](../programa/clases/B99/B99-C04-cierre-de-bucles-y-consistencia-global/CLASE.md):**
+- A["Descriptor de lugar<br/>pose i"] --> B["Similitud coseno<br/>con poses antiguas"]
+- 🎯 **Por qué importa:** Aceptar un cierre verdadero reduce el error; aceptar uno falso lo multiplica. La decisión central: ¿con qué umbral y con qué prueba geométrica acepto un cierre de bucle?
 
 📘 **Dónde se aprende** (1 clase): [B99-C04 · Cierre de bucles y consistencia global](../programa/clases/B99/B99-C04-cierre-de-bucles-y-consistencia-global/CLASE.md).
 
@@ -1387,11 +2177,17 @@
 - Un descuento es la parte perdida por equipo, almacenamiento, huecos o basura.
 - El descuento (`d`) fija un precio de conversión igual a `(1 − d)` del precio de la ronda.
 
+💡 **Cómo se explica en la clase [B109-C07](../programa/clases/B109/B109-C07-asignacion-de-volumenes-habitables-por-tripulante/CLASE.md):**
+- ⚠️ **Error frecuente:** No declarar la base de cada descuento. Se corrige con 8.3.
+- 🎯 **Por qué importa:** Una cifra de «metros cúbicos por persona» sin decir qué se descontó no se puede comparar. La decisión central: ¿cuánto volumen utilizable queda por tripulante y qué tan sensible es a lo que se descuenta?
+
 📘 **Dónde se aprende** (2 clases): [B109-C07 · Asignación de volúmenes habitables por tripulante](../programa/clases/B109/B109-C07-asignacion-de-volumenes-habitables-por-tripulante/CLASE.md); [B126-C01 · Capital semilla y financiamiento inicial](../programa/clases/B126/B126-C01-capital-semilla-y-financiamiento-inicial/CLASE.md).
 
 ### Descuento por dependencia
 
 - El descuento por dependencia hace que la línea `i`-ésima cuente como `r^(d^i)`.
+
+🎯 **Por qué importa (clase B132-C05):** El catálogo trata alineaciones sin ese contexto. La decisión central: ¿cuánto apoyo da cada línea de evidencia a la intención de una alineación, y qué parte de la conclusión depende de lo que se supone de antemano?
 
 📘 **Dónde se aprende** (1 clase): [B132-C05 · Contexto ritual y social de la observación del cielo](../programa/clases/B132/B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md).
 
@@ -1399,17 +2195,30 @@
 
 - Aquí: el resbalón es un fallo de ejecución (hacer otra cosa de la prevista), el descuido un fallo de memoria, la equivocación un plan equivocado y la violación una desviación deliberada de una regla; esta clasificación se toma como convención didáctica.
 
+💡 **Cómo se explica en la clase [B111-C06](../programa/clases/B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md):**
+- Por tipo: resbalón, descuido, equivocación, violación.
+- 🎯 **Por qué importa:** Falta la clase sobre tipos de error, barreras y reporte. La decisión central: ¿dónde se pone el esfuerzo: en culpar al que erró o en reforzar las barreras y las condiciones que dejaron pasar el error?
+
 📘 **Dónde se aprende** (1 clase): [B111-C06 · Gestión del error humano y cultura de seguridad](../programa/clases/B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md).
 
 ### Desdispersión
 
 - La desdispersión corrige el retardo.
 
+💡 **Cómo se explica en la clase [B29-C17](../programa/clases/B29/B29-C17-fenomenos-transitorios-rapidos/CLASE.md):**
+- La desdispersión recupera la medida de dispersión con una incertidumbre de pocos `pc/cm³` y más que duplica la relación señal-ruido.
+- 🎯 **Por qué importa:** La medida de dispersión informa de la distancia a la fuente y de la materia que atravesó. Sin desdispersión, un pulso breve se pierde entre canales.
+
 📘 **Dónde se aprende** (1 clase): [B29-C17 · Fenómenos transitorios rápidos](../programa/clases/B29/B29-C17-fenomenos-transitorios-rapidos/CLASE.md).
 
 ### Desdoblamiento
 
-- *Descripción textual:* el campo y el factor de Landé dan el desdoblamiento, que se compara con el Doppler; la polarización exacta se compara con la de campo débil. *(tal como aparece en la clase)*
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+💡 **Cómo se explica en la clase [B32-C12](../programa/clases/B32/B32-C12-efecto-zeeman-y-diagnostico-de-campos-magneticos-estelares/CLASE.md):**
+- La aproximación es buena (error < 2 %) mientras el desdoblamiento sea menor que una quinta parte del ancho.
+- Con 3000 G el desdoblamiento supera 2,5 veces al Doppler.
+- 🎯 **Por qué importa:** Medir campos estelares exige saber cuándo el desdoblamiento se resuelve y cuándo basta la polarización. La decisión central: ¿qué campo produce un desdoblamiento comparable al ancho de la línea?
 
 📘 **Dónde se aprende** (2 clases): [B32-C12 · Efecto Zeeman y diagnóstico de campos magnéticos estelares](../programa/clases/B32/B32-C12-efecto-zeeman-y-diagnostico-de-campos-magneticos-estelares/CLASE.md); [B47-C21 · Magnetógrafos y medición de campos solares](../programa/clases/B47/B47-C21-magnetografos-y-medicion-de-campos-solares/CLASE.md).
 
@@ -1417,11 +2226,15 @@
 
 - El desdoblamiento rotacional separa las frecuencias de `m = −l, …, +l`.
 
+🎯 **Por qué importa (clase B37-C11):** El desdoblamiento promedia la rotación de las regiones que el modo explora. La decisión central: ¿cuánto giran el núcleo y la envoltura y con qué incertidumbre y correlación?
+
 📘 **Dónde se aprende** (1 clase): [B37-C11 · Rotación interna a partir del desdoblamiento de frecuencias](../programa/clases/B37/B37-C11-rotacion-interna-a-partir-del-desdoblamiento-de-frecuencias/CLASE.md).
 
 ### Desecho
 
 - Un desecho es un objeto artificial sin función útil.
+
+🎯 **Por qué importa (clase B118-C01):** Los catálogos solo contienen los objetos que los sensores pueden seguir; el resto se conoce por modelos y por mediciones in situ. Esta clase fija el vocabulario cuantitativo (conteos acumulados, pendiente, densidad) que usan todas las demás.
 
 📘 **Dónde se aprende** (1 clase): [B118-C01 · Población de objetos orbitales](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md).
 
@@ -1429,11 +2242,17 @@
 
 - Micrometeoroide: partícula natural de polvo; desecho orbital: fragmento artificial.
 
+🎯 **Por qué importa (clase B106-C15):** Los impactos son raros pero catastróficos; el diseño elige espesor y separación para una probabilidad de no penetración. La decisión central: ¿qué pared y qué separación dan una probabilidad objetivo en la duración y la superficie de la misión?
+
 📘 **Dónde se aprende** (1 clase): [B106-C15 · Protección frente a micrometeoritos](../programa/clases/B106/B106-C15-proteccion-frente-a-micrometeoritos/CLASE.md).
 
 ### Desenfoque
 
 - El desenfoque es la convolución `d = H ∗ x`.
+
+💡 **Cómo se explica en la clase [B15-C11](../programa/clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md):**
+- El caso del Hubble (S1) lo muestra: restaurar una óptica corrige a la vez *todas* las frecuencias espaciales; la deconvolución solo puede devolver lo que sobrevivió al desenfoque por encima del ruido.
+- 🎯 **Por qué importa:** Un telescopio con un defecto de enfoque convierte cada estrella en una mancha. Dos estrellas cercanas pueden fundirse en una sola; el brillo de una galaxia, repartirse sobre sus vecinas.
 
 📘 **Dónde se aprende** (1 clase): [B15-C11 · Deconvolución y enfoque](../programa/clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md).
 
@@ -1441,11 +2260,21 @@
 
 - El desenrollado reconstruye la fase continua a partir de la envuelta.
 
+💡 **Cómo se explica en la clase [B57-C08](../programa/clases/B57/B57-C08-interferometria-radar-insar/CLASE.md):**
+- En el caso ancho el salto entre píxeles es menor que `π`, el desenrollado cuenta bien las franjas y el error es del orden del ruido.
+- En el estrecho el salto supera `π`: el desenrollado pierde ciclos y el error es de centímetros.
+- ⚠️ **Error frecuente:** Creer que el desenrollado siempre recupera la deformación. Falla con pendientes fuertes (8.2).
+- 🎯 **Por qué importa:** El radar es la única herramienta orbital que mide movimientos del suelo de milímetros a escala regional, pero la fase solo se conoce módulo `2π`. La decisión central: ¿cuándo se puede reconstruir el desplazamiento y cuándo el desenrollado de la fase deja de ser fiable?
+
 📘 **Dónde se aprende** (1 clase): [B57-C08 · Interferometría radar InSAR](../programa/clases/B57/B57-C08-interferometria-radar-insar/CLASE.md).
 
 ### Desenrollado de fase
 
 - El desenrollado de fase suma `2π` para evitar saltos al ajustar ángulos.
+
+💡 **Cómo se explica en la clase [B72-C03](../programa/clases/B72/B72-C03-perturbacion-j2-terrestre/CLASE.md):**
+- `2 s` en Molniya) y se ajusta una recta, con desenrollado de fase, a `Ω(t)` y `ω(t)` muestreados cada `60 s` (cada `60 s` en Molniya):
+- 🎯 **Por qué importa:** J2 no cambia el semieje mayor ni la inclinación en promedio, pero hace girar el plano y el perigeo; con ello se diseñan órbitas heliosíncronas y Molniya. La decisión central: ¿cuánto se mueven `Ω` y `ω` por día en una órbita dada y cuánto confiar en la fórmula de primer orden?
 
 📘 **Dónde se aprende** (1 clase): [B72-C03 · Perturbación J2 terrestre](../programa/clases/B72/B72-C03-perturbacion-j2-terrestre/CLASE.md).
 
@@ -1453,11 +2282,20 @@
 
 - I/N: relación interferencia a ruido. Desensibilización: pérdida de sensibilidad por interferencia.
 
+💡 **Cómo se explica en la clase [B90-C14](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md):**
+- Paso 3 · Desensibilización. `10 log₁₀(1 + 145,2) = 21,64 dB`.
+- Descripción larga: la desensibilización es casi igual a I/N cuando I ≫ N y tiende a 0 cuando I ≪ N.
+- 🎯 **Por qué importa:** Un transmisor de 1 W deja un armónico de −30 dBm; el piso de ruido de un receptor estrecho está cerca de −132 dBm. La diferencia de más de 100 dB se pierde con facilidad en un chasis de 10 cm.
+
 📘 **Dónde se aprende** (1 clase): [B90-C14 · Interferencias electromagnéticas EMI](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md).
 
 ### Desenvolver
 
 - El desplazamiento en la línea de visión (LOS) es la proyección del movimiento sobre la dirección al sensor. Desenvolver es recuperar el múltiplo de 2π perdido.
+
+💡 **Cómo se explica en la clase [B69-C06](../programa/clases/B69/B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md):**
+- La fase envuelta con ruido gaussiano de 0,3 rad (1,3 mm en LOS) tiene 10 saltos de 2π; al desenvolver, el error rms es 1,355 mm y el máximo 4,916 mm, y el mínimo de una serie ruidosa queda sesgado por el ruido.
+- 🎯 **Por qué importa:** Un solo interferograma no dice si el suelo bajó o se movió al este. La decisión central: ¿qué parte del movimiento real mide la línea de visión, hasta qué gradiente se puede desenvolver y qué se puede concluir?
 
 📘 **Dónde se aprende** (1 clase): [B69-C06 · Deslizamientos y subsidencia medidos con InSAR](../programa/clases/B69/B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md).
 
@@ -1465,11 +2303,19 @@
 
 - El desenvolvimiento suma múltiplos de `2π`.
 
+💡 **Cómo se explica en la clase [B43-C22](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md):**
+- *Descripción textual:* cuatro imágenes dan la fase envuelta; el desenvolvimiento la completa y el ajuste de modos deja el error de forma.
+- 🎯 **Por qué importa:** El mapa de error de forma es la prueba de aceptación de un espejo. La decisión central: ¿cómo se recupera la fase, qué se descuenta y qué PV y RMS quedan?
+
 📘 **Dónde se aprende** (1 clase): [B43-C22 · Interferometría de superficie y mapas de error de forma](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md).
 
 ### Desequilibrio químico
 
 - El desequilibrio químico es la distancia de una mezcla a su equilibrio, que se mide con `−ΔG`.
+
+💡 **Cómo se explica en la clase [B56-C13](../programa/clases/B56/B56-C13-biofirmas-quimicas/CLASE.md):**
+- (2018) revisa las biofirmas remotamente detectables, incluidas las gaseosas y los métodos para detectar desequilibrio químico a distancia (S1, solo resumen, consultado el 2026-11-09).
+- 🎯 **Por qué importa:** Una biosfera mantiene en la atmósfera gases que reaccionarían entre sí (como oxígeno y metano) y por eso la composición se aleja del equilibrio. La decisión central: dadas las presiones parciales, ¿cuánta energía libre por mol de CH₄ hay en el desequilibrio CH₄–O₂?
 
 📘 **Dónde se aprende** (1 clase): [B56-C13 · Biofirmas químicas](../programa/clases/B56/B56-C13-biofirmas-quimicas/CLASE.md).
 
@@ -1477,17 +2323,23 @@
 
 - Serializar es convertir un objeto a texto; deserializar, convertir texto en objeto.
 
+🎯 **Por qué importa (clase B07-C16):** Una simulación tiene decenas de parámetros. Si están enterrados en el código, cambiar uno obliga a editar el programa y es fácil olvidar con qué valores se obtuvo cada resultado.
+
 📘 **Dónde se aprende** (1 clase): [B07-C16 · Formatos JSON y YAML](../programa/clases/B07/B07-C16-formatos-json-y-yaml/CLASE.md).
 
 ### Desescalada
 
 - La desescalada es bajar de nivel.
 
+🎯 **Por qué importa (clase B119-C29):** C28 y C27 tratan conductas y negociación; ninguna clase muestra la dinámica de escalada ni el valor de las medidas de confianza, que se apoyan en el principio de informar (art. XI) y consultar (art.
+
 📘 **Dónde se aprende** (1 clase): [B119-C29 · Escalada, desescalada y medidas de fomento de la confianza](../programa/clases/B119/B119-C29-escalada-desescalada-y-medidas-de-fomento-de-la-confianza/CLASE.md).
 
 ### Desfasador de b bits
 
 - Un desfasador de `b` bits solo ofrece `2^b` fases.
+
+🎯 **Por qué importa (clase B91-C03):** Las antenas de barrido electrónico apuntan en microsegundos y no tienen partes móviles, pero cuestan más y pierden ganancia al desviar el haz. La decisión central: ¿cuántos elementos, qué separación y cuántos bits de fase hacen falta para un haz de cierto ancho y un barrido sin lóbulos de rejilla?
 
 📘 **Dónde se aprende** (1 clase): [B91-C03 · Arreglos de antenas y antenas de barrido electrónico](../programa/clases/B91/B91-C03-arreglos-de-antenas-y-antenas-de-barrido-electronico/CLASE.md).
 
@@ -1498,6 +2350,11 @@
 - El desfase `τ` hace ortogonales los términos coseno y seno.
 - *(y 3 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B33-C01](../programa/clases/B33/B33-C01-validacion-de-modelos-mhd-con-eventos-solares-documentados/CLASE.md):**
+- El máximo está en `6 h`, igual al desfase impuesto.
+- Como comparar un reloj con la hora oficial: miras cuánto se adelanta (sesgo), cuánto se desvía (RMSE) y si va con retraso constante (desfase).
+- 🎯 **Por qué importa:** Un modelo sin validación no sirve para pronosticar. La decisión central: ¿cuán bien reproduce el modelo la serie y con qué desfase?
+
 📘 **Dónde se aprende** (6 clases): [B29-C19 · Análisis de series temporales irregularmente muestreadas](../programa/clases/B29/B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md); [B33-C01 · Validación de modelos MHD con eventos solares documentados](../programa/clases/B33/B33-C01-validacion-de-modelos-mhd-con-eventos-solares-documentados/CLASE.md); [B43-C16 · Encoders y medición angular](../programa/clases/B43/B43-C16-encoders-y-medicion-angular/CLASE.md); [B48-C10 · Redes de instrumentos](../programa/clases/B48/B48-C10-redes-de-instrumentos/CLASE.md); [B57-C32 · Sitios de calibración terrestres](../programa/clases/B57/B57-C32-sitios-de-calibracion-terrestres/CLASE.md); [B74-C16 · Sincronización temporal](../programa/clases/B74/B74-C16-sincronizacion-temporal/CLASE.md).
 
 ### Desgasificación
@@ -1505,11 +2362,19 @@
 - Desgasificación: liberación de gases de un material en vacío.
 - Desgasificación: emisión de gases de un material.
 
+💡 **Cómo se explica en la clase [B47-C12](../programa/clases/B47/B47-C12-optica-en-ambientes-de-vacio/CLASE.md):**
+- Los números de contaminación son ilustrativos; cada material tiene su desgasificación y su adherencia.
+- 🎯 **Por qué importa:** La contaminación reduce la reflectancia y la transmisión sin aviso. La decisión central: ¿cuánto tarda en cubrirse una superficie y cuánto cambia la reflectancia por una película?
+
 📘 **Dónde se aprende** (3 clases): [B47-C12 · Óptica en ambientes de vacío](../programa/clases/B47/B47-C12-optica-en-ambientes-de-vacio/CLASE.md); [B90-C04 · Control de contaminación](../programa/clases/B90/B90-C04-control-de-contaminacion/CLASE.md); [B106-C22 · Fuentes e identificación de contaminantes del aire de cabina](../programa/clases/B106/B106-C22-fuentes-e-identificacion-de-contaminantes-del-aire-de-cabina/CLASE.md).
 
 ### Desgaste
 
 - Con `β > 1` la tasa de falla crece con el uso (desgaste).
+
+💡 **Cómo se explica en la clase [B59-C18](../programa/clases/B59/B59-C18-fiabilidad-de-equipos-mineros/CLASE.md):**
+- Con `β = 1` (fallas aleatorias) y el mismo MTBF, `R(200 h) = 0,7549` frente a `0,9208`: el desgaste concentra las fallas en la vejez y hace aconsejable el mantenimiento preventivo.
+- 🎯 **Por qué importa:** El regolito es abrasivo y los equipos se desgastan. La decisión central: ¿cuántos repuestos hay que llevar para que una flota cubra una misión de un año con 95 % de confianza?
 
 📘 **Dónde se aprende** (1 clase): [B59-C18 · Fiabilidad de equipos mineros](../programa/clases/B59/B59-C18-fiabilidad-de-equipos-mineros/CLASE.md).
 
@@ -1517,11 +2382,20 @@
 
 - Un nombre propio es un nombre de uso tradicional; una designación es un código sistemático.
 
+💡 **Cómo se explica en la clase [B08-C06](../programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/CLASE.md):**
+- La designación de catálogo es inequívoca pero exige conocer el catálogo.
+- 🎯 **Por qué importa:** Dos personas dicen «la estrella roja de la Cruz del Sur» y creen hablar de lo mismo; un programa de telescopio pide «HIP 12345». Sin un lenguaje común no puedes repetir una observación ni compartirla.
+
 📘 **Dónde se aprende** (1 clase): [B08-C06 · Constelaciones y catálogos estelares](../programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/CLASE.md).
 
 ### Designador
 
 - El designador es el identificador del objeto.
+
+💡 **Cómo se explica en la clase [B119-C04](../programa/clases/B119/B119-C04-convenio-de-registro/CLASE.md):**
+- Estado(s) de lanzamiento, designador, fecha, lugar, período nodal, inclinación, apogeo, perigeo y función.
+- Fallan uno por designador vacío y otro por función vacía.
+- 🎯 **Por qué importa:** El art. VIII del tratado de 1967 vincula la jurisdicción al registro, y el convenio de 1974 define qué se registra; ninguna clase anterior lo calcula ni lo valida.
 
 📘 **Dónde se aprende** (1 clase): [B119-C04 · Convenio de Registro](../programa/clases/B119/B119-C04-convenio-de-registro/CLASE.md).
 
@@ -1529,11 +2403,15 @@
 
 - Un designador duplicado impide identificar un objeto.
 
+🎯 **Por qué importa (clase B119-C07):** C04 estudia qué se registra y calcula el período; esta clase estudia la calidad del registro como sistema y la auditoría de coherencia, que ninguna otra clase trata. La decisión central: ¿qué reglas mínimas permiten confiar en un registro nacional y cómo se mide su calidad?
+
 📘 **Dónde se aprende** (1 clase): [B119-C07 · Registro nacional de objetos](../programa/clases/B119/B119-C07-registro-nacional-de-objetos/CLASE.md).
 
 ### Desigualdad
 
 - Con desigualdad `T(x) ≤ T_max` aparecen las condiciones KKT: estacionariedad `∇Dv + μ ∇T = 0`; factibilidad `T ≤ T_max`;
+
+🎯 **Por qué importa (clase B11-C23):** Casi todo problema de diseño de trayectorias tiene límites: tiempo máximo, combustible disponible, distancia mínima a un cuerpo. Un optimizador que ignora las restricciones devuelve un resultado imposible; uno que las trata mal da un resultado que parece factible y no es óptimo.
 
 📘 **Dónde se aprende** (1 clase): [B11-C23 · Optimización restringida: Lagrange, KKT y SQP](../programa/clases/B11/B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md).
 
@@ -1541,11 +2419,15 @@
 
 - La desigualdad de Cauchy–Schwarz dice `|⟨u, v⟩| ≤ ‖u‖‖v‖`, con igualdad solo si uno es múltiplo del otro (S1, 1.2.51); la desigualdad triangular, `‖u + v‖ ≤ ‖u‖ + ‖v‖` (S1, 1.2.52).
 
+🎯 **Por qué importa (clase B10-C06):** La potencia que recibe un panel solar depende del ángulo entre su normal y la dirección al Sol: más inclinado, menos luz. El control de actitud, la orientación de antenas y de instrumentos usan el mismo cálculo.
+
 📘 **Dónde se aprende** (1 clase): [B10-C06 · Producto interno y ortogonalidad](../programa/clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md).
 
 ### Desigualdad de Jensen
 
 - La desigualdad de Jensen dice que, si el flujo crece más que linealmente con `T`, el flujo medio supera al flujo a la temperatura media.
+
+🎯 **Por qué importa (clase B67-C06):** Una oscilación de temperatura de pocos kelvin cambia la pérdida en órdenes de magnitud, y esa oscilación decae con la profundidad. La decisión central: ¿a qué profundidad el hielo es estable, y cuánto engaña usar la temperatura media?
 
 📘 **Dónde se aprende** (1 clase): [B67-C06 · Pérdida de volátiles por sublimación y migración térmica](../programa/clases/B67/B67-C06-perdida-de-volatiles-por-sublimacion-y-migracion-termica/CLASE.md).
 
@@ -1553,17 +2435,23 @@
 
 - La desigualdad de Robertson es `ΔA ΔB ≥ |⟨[A, B]⟩|/2`.
 
+🎯 **Por qué importa (clase B31-C03):** Un cúbit, un espín o un átomo de dos niveles obedecen estas reglas, y la medida cambia el estado. La decisión central: ¿cómo se calculan probabilidades y evolución en un sistema de dos niveles?
+
 📘 **Dónde se aprende** (1 clase): [B31-C03 · Estados y observables cuánticos](../programa/clases/B31/B31-C03-estados-y-observables-cuanticos/CLASE.md).
 
 ### Desigualdad triangular
 
 - La desigualdad de Cauchy–Schwarz dice `|⟨u, v⟩| ≤ ‖u‖‖v‖`, con igualdad solo si uno es múltiplo del otro (S1, 1.2.51); la desigualdad triangular, `‖u + v‖ ≤ ‖u‖ + ‖v‖` (S1, 1.2.52).
 
+🎯 **Por qué importa (clase B10-C06):** La potencia que recibe un panel solar depende del ángulo entre su normal y la dirección al Sol: más inclinado, menos luz. El control de actitud, la orientación de antenas y de instrumentos usan el mismo cálculo.
+
 📘 **Dónde se aprende** (1 clase): [B10-C06 · Producto interno y ortogonalidad](../programa/clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md).
 
 ### Desincronización circadiana
 
 - La desincronización circadiana es la desalineación entre el reloj interno y el horario.
+
+🎯 **Por qué importa (clase B104-C17):** NASA reconoce la pérdida de sueño, la desincronización circadiana y la sobrecarga como un riesgo del vuelo. La decisión conceptual: ¿cuánta alerta se pierde en el trabajo diurno al acortar el sueño unas horas, y por qué el modelo no sustituye a la medición?
 
 📘 **Dónde se aprende** (1 clase): [B104-C17 · Gestión de fatiga](../programa/clases/B104/B104-C17-gestion-de-fatiga/CLASE.md).
 
@@ -1572,11 +2460,20 @@
 - La desinformación es información falsa o engañosa difundida; puede ser intencionada o no.
 - La desinformación introduce evidencia falsa.
 
+💡 **Cómo se explica en la clase [B01-C19](../programa/clases/B01/B01-C19-fuentes-confiables-y-desinformacion-espacial/CLASE.md):**
+- Esa es una forma común de desinformación sin mentira: una cifra real, descontextualizada.
+- 🎯 **Por qué importa:** Un titular dice: «Neutrinos superan la velocidad de la luz: Einstein estaba equivocado». Es una afirmación fuerte.
+
 📘 **Dónde se aprende** (2 clases): [B01-C19 · Fuentes confiables y desinformación espacial](../programa/clases/B01/B01-C19-fuentes-confiables-y-desinformacion-espacial/CLASE.md); [B119-C30 · Atribución de incidentes y desinformación en el dominio espacial](../programa/clases/B119/B119-C30-atribucion-de-incidentes-y-desinformacion-en-el-dominio-espacial/CLASE.md).
 
 ### Deslastre estricto
 
 - El deslastre estricto retira de la menor prioridad hacia arriba.
+
+💡 **Cómo se explica en la clase [B86-C23](../programa/clases/B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md):**
+- Con `70 W` disponibles el deslastre estricto deja `6` cargas (`66 W`) y el relleno `6` (`66 W`).
+- Descripción larga: a menos potencia quedan menos cargas encendidas; el relleno recupera cargas que el deslastre estricto no recupera y la histéresis evita oscilar.
+- 🎯 **Por qué importa:** La clase de distribución trató cómo repartir potencia, pero no qué hacer cuando falta. Una política de prioridades bien definida mantiene lo crítico vivo y recupera ciencia cuando vuelve la potencia, sin oscilar entre estados.
 
 📘 **Dónde se aprende** (1 clase): [B86-C23 · Priorización y deslastre de cargas eléctricas](../programa/clases/B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md).
 
@@ -1586,11 +2483,19 @@
 - El deslizamiento ocurre si el cortante supera `μ F_c`, con `F_c = F_p − (1 − C)F`.
 - El deslizamiento `s` compara la velocidad de giro y la de avance.
 
+💡 **Cómo se explica en la clase [B57-C17](../programa/clases/B57/B57-C17-terremotos-y-deformacion/CLASE.md):**
+- Con `μ = 30 GPa` y `A = 500 × 100 km`, el deslizamiento medio es `D = 13,30 m`.
+- *Descripción textual:* la magnitud fija el momento, que con el área da el deslizamiento; el deslizamiento deforma la superficie, y esa deformación se proyecta a la línea de visión del radar.
+- ⚠️ **Error frecuente:** Confundir deslizamiento medio con el máximo. La ruptura no es uniforme (sección 6).
+- 🎯 **Por qué importa:** Medir la deformación permite saber cuánto deslizó la falla y cuánta tensión queda. La decisión central: ¿cómo se pasa de un número de magnitud al deslizamiento y a la deformación que verá un satélite?
+
 📘 **Dónde se aprende** (3 clases): [B57-C17 · Terremotos y deformación](../programa/clases/B57/B57-C17-terremotos-y-deformacion/CLASE.md); [B84-C17 · Soldadura y uniones](../programa/clases/B84/B84-C17-soldadura-y-uniones/CLASE.md); [B97-C06 · Control de movilidad sobre regolito](../programa/clases/B97/B97-C06-control-de-movilidad-sobre-regolito/CLASE.md).
 
 ### Desmezcla
 
 - La desmezcla es el cálculo de las abundancias que explican el espectro medido.
+
+🎯 **Por qué importa (clase B67-C07):** Un sensor no mide «agua»: mide cuentas, y de ellas se infiere la abundancia con un modelo. La decisión central: ¿cuánto tiempo de medición y qué canales hacen falta para detectar y separar un volátil con la incertidumbre requerida?
 
 📘 **Dónde se aprende** (1 clase): [B67-C07 · Sensores para volátiles: espectrometría de neutrones y de masas](../programa/clases/B67/B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md).
 
@@ -1598,11 +2503,15 @@
 
 - La desmezcla lineal supone que el espectro de la mezcla es la suma ponderada de los de sus miembros.
 
+🎯 **Por qué importa (clase B59-C05):** Antes de excavar hay que saber qué se excava. La decisión central: ¿qué rendimiento de agua se espera de una mezcla y con qué dispersión por el ruido?
+
 📘 **Dónde se aprende** (1 clase): [B59-C05 · Minerales marcianos](../programa/clases/B59/B59-C05-minerales-marcianos/CLASE.md).
 
 ### Desmezclado lineal
 
 - El desmezclado lineal estima las abundancias de cada miembro.
+
+🎯 **Por qué importa (clase B57-C22):** Dos materiales distintos pueden parecer iguales en cuatro bandas anchas y diferenciarse en cientos de bandas estrechas. La decisión central: ¿cuándo vale la pena el costo en datos de un sensor hiperespectral y cómo se separa una mezcla de materiales?
 
 📘 **Dónde se aprende** (1 clase): [B57-C22 · Espectrómetros de imagen e hiperespectrales](../programa/clases/B57/B57-C22-espectrometros-de-imagen-e-hiperespectrales/CLASE.md).
 
@@ -1610,11 +2519,17 @@
 
 - La desorbitación (*post-mission disposal*) es el retiro tras la misión.
 
+💡 **Cómo se explica en la clase [B121-C03](../programa/clases/B121/B121-C03-proteccion-ambiental-en-la-legislacion-espacial/CLASE.md):**
+- Límite: un satélite no se retira por voluntad sino por física y por la fiabilidad de su sistema de desorbitación.
+- 🎯 **Por qué importa:** El catálogo no trata la mitigación de desechos como requisito normativo. La decisión central: ¿un diseño cumple el plazo de desorbitación, la probabilidad de éxito y el riesgo de reentrada que exige la norma?
+
 📘 **Dónde se aprende** (1 clase): [B121-C03 · Protección ambiental en la legislación espacial](../programa/clases/B121/B121-C03-proteccion-ambiental-en-la-legislacion-espacial/CLASE.md).
 
 ### Desorbitación controlada
 
 - Una desorbitación controlada dirige la reentrada.
+
+🎯 **Por qué importa (clase B118-C13):** La reentrada controlada dirige los restos a una zona despoblada; la no controlada deja el lugar al azar del arrastre. Pero un impulso con error cambia el ángulo y el punto de entrada.
 
 📘 **Dónde se aprende** (1 clase): [B118-C13 · Desorbitación controlada](../programa/clases/B118/B118-C13-desorbitacion-controlada/CLASE.md).
 
@@ -1622,11 +2537,17 @@
 
 - La desorción es el paso de una molécula del hielo al gas.
 
+💡 **Cómo se explica en la clase [B68-C01](../programa/clases/B68/B68-C01-desorcion-termica-de-hielos-interestelares/CLASE.md):**
+- El estudio de Kruczkiewicz y colaboradores (2024) ajusta la desorción de capa múltiple de orden cero con una energía de enlace de `1040 ± 104 K` y un factor `8,7 × 10¹⁴ ML s⁻¹`.
+- 🎯 **Por qué importa:** Un hielo de CO que dura mil millones de años a 15 K desaparece en un segundo a 30 K. Esa sensibilidad exponencial decide dónde está la «línea de nieve» de cada molécula y qué hay en el gas.
+
 📘 **Dónde se aprende** (1 clase): [B68-C01 · Desorción térmica de hielos interestelares](../programa/clases/B68/B68-C01-desorcion-termica-de-hielos-interestelares/CLASE.md).
 
 ### Desorción térmica
 
 - La desorción térmica es la salida por agitación térmica.
+
+🎯 **Por qué importa (clase B60-C04):** Un modelo de dos fases trata todo el hielo como si estuviera expuesto en la superficie; en la realidad la mayor parte queda enterrada bajo capas posteriores. La decisión central: ¿qué cambia en la predicción de cuánto hielo se libera al calentar si se distingue la superficie del manto?
 
 📘 **Dónde se aprende** (1 clase): [B60-C04 · Balance químico gas-grano: modelos de tres fases](../programa/clases/B60/B60-C04-balance-quimico-gas-grano-modelos-de-tres-fases/CLASE.md).
 
@@ -1635,11 +2556,18 @@
 - Resolver o despejar una incógnita es aislarla en un lado.
 - Una raíz doble ocurre cuando `Δ = 0`. Despejar es aislar una variable usando operaciones inversas, manteniendo la igualdad.
 
+💡 **Cómo se explica en la clase [B03-C14](../programa/clases/B03/B03-C14-despeje-de-ecuaciones-elementales/CLASE.md):**
+- Despejar es una sucesión de estos pasos.
+- Despejar primero (fórmula general) y sustituir al final conserva las cifras y permite revisar unidades; es el camino recomendado.
+- 🎯 **Por qué importa:** La fórmula de la velocidad de escape, `v = √(2GM/R)`, aparece en las fichas de la NASA como un número (11,186 km/s). Pero un ingeniero puede necesitar lo contrario: dado `v`, ¿cuál es el radio?
+
 📘 **Dónde se aprende** (2 clases): [B03-C14 · Despeje de ecuaciones elementales](../programa/clases/B03/B03-C14-despeje-de-ecuaciones-elementales/CLASE.md); [B04-C02 · Ecuaciones lineales y cuadráticas](../programa/clases/B04/B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md).
 
 ### Despejar una variable de una fórmula
 
 - Una fórmula es una ecuación entre magnitudes; despejar una variable de una fórmula da otra fórmula equivalente.
+
+🎯 **Por qué importa (clase B03-C14):** La fórmula de la velocidad de escape, `v = √(2GM/R)`, aparece en las fichas de la NASA como un número (11,186 km/s). Pero un ingeniero puede necesitar lo contrario: dado `v`, ¿cuál es el radio?
 
 📘 **Dónde se aprende** (1 clase): [B03-C14 · Despeje de ecuaciones elementales](../programa/clases/B03/B03-C14-despeje-de-ecuaciones-elementales/CLASE.md).
 
@@ -1647,11 +2575,18 @@
 
 - El despeje incluye la fusión y el arco.
 
+💡 **Cómo se explica en la clase [B86-C10](../programa/clases/B86/B86-C10-proteccion-contra-sobrecorriente/CLASE.md):**
+- Con la falla franca: `I²t` de fusión de F2 `4,505 A²s`, de despeje (`×3`) `13,515 A²s`; de fusión de F1 `346,933 A²s`.
+- *Descripción textual:* el bus da la corriente de falla; de ella salen los tiempos y las integrales `I²t` de cada fusible; si la de despeje del fusible de la rama es menor que la de fusión del de aguas arriba, es selectivo.
+- 🎯 **Por qué importa:** Si el fusible aguas arriba se funde antes que el de la rama averiada, un fallo local deja sin energía a toda la nave. Una protección bien coordinada aísla la rama y conserva el resto.
+
 📘 **Dónde se aprende** (1 clase): [B86-C10 · Protección contra sobrecorriente](../programa/clases/B86/B86-C10-proteccion-contra-sobrecorriente/CLASE.md).
 
 ### Despeje independiente
 
 - Un despeje independiente significa que el estado del cielo de un observador no depende del de otro.
+
+🎯 **Por qué importa (clase B129-C01):** Un fenómeno breve (un meteoro, una ocultación, una explosión de brillo) solo se registra si alguien está mirando en ese momento. La decisión central: ¿cuántos observadores hacen falta para que al menos uno, o al menos dos, estén observando cuando ocurre?
 
 📘 **Dónde se aprende** (1 clase): [B129-C01 · Redes de observadores aficionados](../programa/clases/B129/B129-C01-redes-de-observadores-aficionados/CLASE.md).
 
@@ -1662,11 +2597,17 @@
 - El desplazamiento es la separación entre el centroide de la masa y el del gas.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B05-C02](../programa/clases/B05/B05-C02-posicion-velocidad-y-aceleracion/CLASE.md):**
+- ⚠️ **Error frecuente:** Mezclar distancia y desplazamiento. Ejercicio 4.
+- 🎯 **Por qué importa:** Cuando una agencia dice que un satélite «va a 7,7 km/s», ¿respecto de qué y en qué dirección? La pregunta motivadora es: ¿cómo describo un movimiento de forma que otra persona lo reconstruya sin ambigüedad?
+
 📘 **Dónde se aprende** (6 clases): [B05-C02 · Posición, velocidad y aceleración](../programa/clases/B05/B05-C02-posicion-velocidad-y-aceleracion/CLASE.md); [B15-C14 · Registro y alineación](../programa/clases/B15/B15-C14-registro-y-alineacion/CLASE.md); [B28-C05 · Ondas gravitacionales](../programa/clases/B28/B28-C05-ondas-gravitacionales/CLASE.md); [B34-C07 · Comparación de modelos coronales con observaciones](../programa/clases/B34/B34-C07-comparacion-de-modelos-coronales-con-observaciones/CLASE.md); [B36-C09 · Cúmulos en colisión como prueba de materia oscura](../programa/clases/B36/B36-C09-cumulos-en-colision-como-prueba-de-materia-oscura/CLASE.md); [B39-C06 · Introducción a la relatividad numérica: formalismo 3+1](../programa/clases/B39/B39-C06-introduccion-a-la-relatividad-numerica-formalismo-3-1/CLASE.md).
 
 ### Desplazamiento a lo largo de la órbita
 
 - El desplazamiento a lo largo de la órbita es la diferencia de posición por el cambio de periodo.
+
+🎯 **Por qué importa (clase B58-C17):** Lo que importa no es el tamaño del empuje sino cuándo se da: el desplazamiento crece con el tiempo de aviso. La decisión central: ¿qué `Δv` y cuántos años de aviso se necesitan para mover un objeto lo suficiente?
 
 📘 **Dónde se aprende** (1 clase): [B58-C17 · Principios de mitigación y desviación](../programa/clases/B58/B58-C17-principios-de-mitigacion-y-desviacion/CLASE.md).
 
@@ -1674,11 +2615,17 @@
 
 - El desplazamiento al rojo o *redshift*, `z`, mide cuánto se ha estirado la luz; lo definimos en la sección 8.
 
+💡 **Cómo se explica en la clase [B01-C01](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md):**
+- Se mide con el desplazamiento al rojo `z`:
+- 🎯 **Por qué importa:** Seguramente has leído que «el universo tiene 13 800 millones de años» o que «el universo observable mide 93 000 millones de años luz». Son frases que se repiten con total seguridad.
+
 📘 **Dónde se aprende** (1 clase): [B01-C01 · Naturaleza del universo](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md).
 
 ### Desplazamiento de cero
 
 - El desplazamiento de cero (IA, IE).
+
+🎯 **Por qué importa (clase B49-C03):** Con un haz estrecho, un error de apuntado pequeño pierde ganancia. La decisión central: ¿qué términos modelar, y cuánto error residual queda frente al ancho del haz?
 
 📘 **Dónde se aprende** (1 clase): [B49-C03 · Apuntamiento y seguimiento de radiotelescopios: modelos de apuntado y errores](../programa/clases/B49/B49-C03-apuntamiento-y-seguimiento-de-radiotelescopios-modelos-de-apuntado-y-errores/CLASE.md).
 
@@ -1686,11 +2633,17 @@
 
 - El desplazamiento de fase (0, 90°, 180°, 270°).
 
+🎯 **Por qué importa (clase B43-C22):** El mapa de error de forma es la prueba de aceptación de un espejo. La decisión central: ¿cómo se recupera la fase, qué se descuenta y qué PV y RMS quedan?
+
 📘 **Dónde se aprende** (1 clase): [B43-C22 · Interferometría de superficie y mapas de error de forma](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md).
 
 ### Desplazamiento en la línea de visión
 
 - El desplazamiento en la línea de visión (LOS) es la proyección del movimiento sobre la dirección al sensor.
+
+💡 **Cómo se explica en la clase [B69-C06](../programa/clases/B69/B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md):**
+- Un cuenco gaussiano sintético con 18,0 mm de hundimiento vertical máximo y θ = 34° da un desplazamiento en la línea de visión de −14,92 mm y una fase de −3,379 rad (0,54 franjas).
+- 🎯 **Por qué importa:** Un solo interferograma no dice si el suelo bajó o se movió al este. La decisión central: ¿qué parte del movimiento real mide la línea de visión, hasta qué gradiente se puede desenvolver y qué se puede concluir?
 
 📘 **Dónde se aprende** (1 clase): [B69-C06 · Deslizamientos y subsidencia medidos con InSAR](../programa/clases/B69/B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md).
 
@@ -1698,11 +2651,15 @@
 
 - El desplazamiento estático es `θ_s = M/k`.
 
+🎯 **Por qué importa (clase B108-C04):** Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad. La decisión central: ¿cuánto rigidez y amortiguamiento necesita una sujeción para que una fuerza de trabajo no desplace a la persona más allá de lo útil?
+
 📘 **Dónde se aprende** (1 clase): [B108-C04 · Sistemas de sujeción y restricción de pies](../programa/clases/B108/B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md).
 
 ### Desplazamiento hipermetrópico
 
 - El desplazamiento hipermetrópico es el error refractivo positivo por acortar el eje.
+
+🎯 **Por qué importa (clase B105-C05):** Una variación de décimas de milímetro puede cambiar la refracción en fracciones de dioptría y comparar eso con el error de medida decide si un cambio es real. La decisión central: ¿cuántos milímetros de acortamiento equivalen a una dioptría y cuántas personas la superarían?
 
 📘 **Dónde se aprende** (1 clase): [B105-C05 · Cambios de visión](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md).
 
@@ -1710,11 +2667,15 @@
 
 - El desplazamiento por relieve es `d = r h/(H − h)`.
 
+🎯 **Por qué importa (clase B53-C25):** Una imagen sin ortorrectificar no se superpone con un mapa. La decisión central: ¿cuánto se desplaza cada punto por el relieve y qué MDE y modelo de cámara se necesitan para corregirlo?
+
 📘 **Dónde se aprende** (1 clase): [B53-C25 · Corrección geométrica y ortorrectificación de imágenes planetarias](../programa/clases/B53/B53-C25-correccion-geometrica-y-ortorrectificacion-de-imagenes-planetarias/CLASE.md).
 
 ### Desplegado
 
 - El desplegado es el paso de la pila plegada al ala extendida.
+
+🎯 **Por qué importa (clase B86-C03):** El ala es el mayor elemento del satélite y su geometría define la potencia, el volumen de lanzamiento y la dinámica. Un ala mal orientada pierde potencia con el coseno y un ala demasiado flexible interactúa con el control de actitud.
 
 📘 **Dónde se aprende** (1 clase): [B86-C03 · Arreglos fotovoltaicos desplegables](../programa/clases/B86/B86-C03-arreglos-fotovoltaicos-desplegables/CLASE.md).
 
@@ -1723,11 +2684,19 @@
 - La distribución de entrenamiento es la de los datos con que se ajustó el modelo; la de despliegue, la de los datos donde se usa.
 - Despliegue: paso de la configuración plegada a la operativa.
 
+💡 **Cómo se explica en la clase [B17-C07](../programa/clases/B17/B17-C07-validacion-fuera-de-distribucion/CLASE.md):**
+- En despliegue las clases siguen en ±1 pero el ruido de medida es 1,6 y la clase 1 solo representa el 30 %.
+- Entre entrenamiento y despliegue, el estadístico KS fue 0,129 y el AUC de dominio 0,573: un cambio modesto en los datos, pero un daño de 11 puntos en exactitud.
+- ⚠️ **Error frecuente:** Pensar que la validación cruzada cubre el despliegue. Sección 8.3.
+- 🎯 **Por qué importa:** Un modelo se entrena con un catálogo y se despliega sobre otro: otro telescopio, otra época, otro brillo límite. Su exactitud medida en validación cruzada deja de valer, y el modelo no avisa: responde con la misma seguridad.
+
 📘 **Dónde se aprende** (2 clases): [B17-C07 · Validación fuera de distribución](../programa/clases/B17/B17-C07-validacion-fuera-de-distribucion/CLASE.md); [B90-C15 · Pruebas de despliegue](../programa/clases/B90/B90-C15-pruebas-de-despliegue/CLASE.md).
 
 ### Despresurización
 
 - La despresurización es la pérdida de presión de un volumen cerrado hacia el exterior.
+
+🎯 **Por qué importa (clase B114-C05):** Entre una grieta de `1 mm` y una brecha de `100 mm` el tiempo disponible pasa de días a segundos. La decisión central: ¿cuánto tiempo hay hasta un umbral de presión y alcanza para responder?
 
 📘 **Dónde se aprende** (1 clase): [B114-C05 · Despresurización: escenarios, tiempos y respuesta](../programa/clases/B114/B114-C05-despresurizacion-escenarios-tiempos-y-respuesta/CLASE.md).
 
@@ -1735,11 +2704,19 @@
 
 - La despresurización rápida es una pérdida no planificada de aire de cabina.
 
+🎯 **Por qué importa (clase B110-C01):** Un módulo presurizado siempre pierde algo de aire; lo grave es la fuga por encima de lo especificado. La decisión central: ¿cuánto tiempo queda antes de la presión mínima y qué se hace con ese tiempo (medir, aislar o retirarse)?
+
 📘 **Dónde se aprende** (1 clase): [B110-C01 · Despresurización: detección, aislamiento y respuesta](../programa/clases/B110/B110-C01-despresurizacion-deteccion-aislamiento-y-respuesta/CLASE.md).
 
 ### Después
 
 - Con kernels que compiten, el cargado después tiene prioridad.
+
+💡 **Cómo se explica en la clase [B74-C21](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md):**
+- NAIF documenta que el kernel cargado después tiene prioridad sobre uno anterior cuando comparten cuerpo y tiempo.
+- *Descripción textual:* el meta-kernel define una lista ordenada; los kernels de tiempo se cargan antes que los de posición; entre los que se solapan gana el cargado después, y de ello resulta la cobertura efectiva y sus huecos.
+- ⚠️ **Error frecuente:** Confundir la regla de prioridad con la de versión más reciente. Gana el cargado después, no el más nuevo.
+- 🎯 **Por qué importa:** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
 
 📘 **Dónde se aprende** (1 clase): [B74-C21 · Kernels SPICE y su uso en navegación](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md).
 
@@ -1747,11 +2724,17 @@
 
 - El destello de rayos gamma es una emisión breve e intensa.
 
+🎯 **Por qué importa (clase B27-C17):** Una explosión que parece de energía enorme puede ser de energía moderada vista de frente, y un retardo de segundos entre dos mensajeros, tras viajar 130 millones de años, es una medición extraordinariamente precisa. La decisión central: ¿qué retardo y qué energía real implican un factor de Lorentz y un ángulo dados?
+
 📘 **Dónde se aprende** (1 clase): [B27-C17 · Explosiones de rayos gamma](../programa/clases/B27/B27-C17-explosiones-de-rayos-gamma/CLASE.md).
 
 ### Destilación por lotes
 
 - La destilación por lotes evapora un volumen cerrado hasta cierta fracción.
+
+💡 **Cómo se explica en la clase [B59-C07](../programa/clases/B59/B59-C07-purificacion-de-agua/CLASE.md):**
+- Una destilación por lotes que deja la fracción `f` del líquido concentra la salmuera como `c₀ f^{−(1−φ)}`.
+- 🎯 **Por qué importa:** El agua extraída trae sales y otros solutos, y recuperar más agua concentra la salmuera. La decisión central: ¿qué recuperación se fija para no saturar la salmuera y qué energía cuesta?
 
 📘 **Dónde se aprende** (1 clase): [B59-C07 · Purificación de agua](../programa/clases/B59/B59-C07-purificacion-de-agua/CLASE.md).
 
@@ -1759,11 +2742,19 @@
 
 - La destreza `MSSS = 1 − MSE/MSE_ref`.
 
+💡 **Cómo se explica en la clase [B33-C11](../programa/clases/B33/B33-C11-modelos-empiricos-y-de-persistencia-en-clima-espacial/CLASE.md):**
+- ⚠️ **Error frecuente:** Confundir correlación y destreza. Se corrige con 8.1.
+- 🎯 **Por qué importa:** Un modelo complejo debe superar a la persistencia. La decisión central: ¿qué desfase da el mejor pronóstico simple?
+
 📘 **Dónde se aprende** (2 clases): [B33-C01 · Validación de modelos MHD con eventos solares documentados](../programa/clases/B33/B33-C01-validacion-de-modelos-mhd-con-eventos-solares-documentados/CLASE.md); [B33-C11 · Modelos empíricos y de persistencia en clima espacial](../programa/clases/B33/B33-C11-modelos-empiricos-y-de-persistencia-en-clima-espacial/CLASE.md).
 
 ### Desvanecimiento
 
 - El desvanecimiento es la caída de irradiancia por centelleo.
+
+💡 **Cómo se explica en la clase [B92-C04](../programa/clases/B92/B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md):**
+- Para una probabilidad de desvanecimiento de `10⁻³` con `σ_I² = 0,1` hacen falta `4,35 dB` de margen.
+- 🎯 **Por qué importa:** Un enlace espacial es perfecto hasta que llega a las últimas decenas de kilómetros. La decisión central: ¿cuánto margen exige la turbulencia y cuántas estaciones exige la nubosidad para cumplir una disponibilidad?
 
 📘 **Dónde se aprende** (1 clase): [B92-C04 · Atmósfera y nubes en enlaces ópticos con la Tierra](../programa/clases/B92/B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md).
 
@@ -1774,6 +2765,10 @@
 - Una desviación es cualquier cambio respecto del plan.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B14-C23](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md):**
+- Si cambias el umbral o excluyes datos, registra la desviación (C24).
+- 🎯 **Por qué importa:** Tienes una curva de luz y muchas formas de analizarla: otro filtro, otra ventana, otro modelo, otra prueba. Si pruebas veinte y comunicas la que «sale», el resultado casi seguro parece significativo aunque no haya nada.
+
 📘 **Dónde se aprende** (5 clases): [B14-C23 · Protocolo preregistrado de análisis](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md); [B14-C24 · Documentación de hipótesis y decisiones de análisis](../programa/clases/B14/B14-C24-documentacion-de-hipotesis-y-decisiones-de-analisis/CLASE.md); [B20-C02 · Diseño de un plan de análisis y preregistro](../programa/clases/B20/B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md); [B41-C03 · Reflexión y espejos planos](../programa/clases/B41/B41-C03-reflexion-y-espejos-planos/CLASE.md); [B44-C10 · No linealidad y saturación](../programa/clases/B44/B44-C10-no-linealidad-y-saturacion/CLASE.md).
 
 ### Desviación de Allan
@@ -1783,11 +2778,20 @@
 - La desviación de Allan `σ_A(m)` es la raíz de la mitad de la media del cuadrado de diferencias entre promedios consecutivos de `m` muestras.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B13-C07](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md):**
+- Una ventaja de usar `y` es que un sesgo constante de frecuencia no cambia las diferencias entre promedios contiguos: la desviación de Allan no ve la desviación media, solo su variabilidad.
+- La desviación de Allan es una lupa con la que miras la serie a distintas escalas de tiempo.
+- 🎯 **Por qué importa:** Dos relojes pueden tener la misma desviación de frecuencia media y comportarse de forma muy distinta: uno oscila alrededor de su valor y otro se aleja de él con el tiempo. La desviación típica ordinaria no sirve para describirlo, porque en un reloj con deriva no converge.
+
 📘 **Dónde se aprende** (4 clases): [B13-C07 · Relojes atómicos y frecuencia](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md); [B49-C08 · Estabilidad de ganancia de receptores y variaciones de ganancia](../programa/clases/B49/B49-C08-estabilidad-de-ganancia-de-receptores-y-variaciones-de-ganancia/CLASE.md); [B74-C16 · Sincronización temporal](../programa/clases/B74/B74-C16-sincronizacion-temporal/CLASE.md); [B88-C42 · Simuladores y mocks de sensores para pruebas](../programa/clases/B88/B88-C42-simuladores-y-mocks-de-sensores-para-pruebas/CLASE.md).
 
 ### Desviación de fase
 
 - La desviación de fase es la incertidumbre del valor de la fase de un pixel.
+
+💡 **Cómo se explica en la clase [B69-C07](../programa/clases/B69/B69-C07-evaluacion-de-la-calidad-de-un-interferograma/CLASE.md):**
+- La desviación de fase por pixel sube de 0,138 a 1,416 rad.
+- 🎯 **Por qué importa:** Un interferograma bonito puede ser incorrecto. La decisión central: ¿qué números justifican aceptar, enmascarar o descartar un interferograma?
 
 📘 **Dónde se aprende** (1 clase): [B69-C07 · Evaluación de la calidad de un interferograma](../programa/clases/B69/B69-C07-evaluacion-de-la-calidad-de-un-interferograma/CLASE.md).
 
@@ -1795,11 +2799,15 @@
 
 - La desviación de repetibilidad `s_r` y la desviación de reproducibilidad `s_R` son las desviaciones típicas bajo cada condición.
 
+🎯 **Por qué importa (clase B13-C14):** Ocho estaciones de seguimiento miden el mismo desfase de un reloj de referencia. Cada una repite su medida cinco veces y obtiene resultados muy parecidos entre sí, pero las estaciones discrepan entre ellas.
+
 📘 **Dónde se aprende** (1 clase): [B13-C14 · Repetibilidad y reproducibilidad](../programa/clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md).
 
 ### Desviación de reproducibilidad s_R
 
 - La desviación de repetibilidad `s_r` y la desviación de reproducibilidad `s_R` son las desviaciones típicas bajo cada condición.
+
+🎯 **Por qué importa (clase B13-C14):** Ocho estaciones de seguimiento miden el mismo desfase de un reloj de referencia. Cada una repite su medida cinco veces y obtiene resultados muy parecidos entre sí, pero las estaciones discrepan entre ellas.
 
 📘 **Dónde se aprende** (1 clase): [B13-C14 · Repetibilidad y reproducibilidad](../programa/clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md).
 
@@ -1807,11 +2815,15 @@
 
 - La desviación del conteo de `ee` con `N` moléculas es `σ = √((1−ee²)/N)`.
 
+🎯 **Por qué importa (clase B55-C17):** Que un compuesto prebiótico llegue intacto hasta nosotros depende de cuánta radiación recibió, y que un exceso entre dos formas quirales sea real depende de cuántas moléculas se contaron. La decisión central: ¿cuánto sobrevive y con qué incertidumbre puedo afirmar un exceso enantiomérico distinto de cero?
+
 📘 **Dónde se aprende** (1 clase): [B55-C17 · Compuestos prebióticos](../programa/clases/B55/B55-C17-compuestos-prebioticos/CLASE.md).
 
 ### Desviación del plano
 
 - La desviación del plano es el doble de su inclinación.
+
+🎯 **Por qué importa (clase B43-C18):** Colimar es ajustar tornillos hasta que el coma deje de verse; el modelo dice cuánto es «suficiente». La decisión central: ¿qué inclinación del primario produce un coma igual al radio de Airy y cuánto desvía un plano inclinado?
 
 📘 **Dónde se aprende** (1 clase): [B43-C18 · Colimación instrumental](../programa/clases/B43/B43-C18-colimacion-instrumental/CLASE.md).
 
@@ -1819,11 +2831,15 @@
 
 - La desviación en sigmas es `(estimado − verdadero)/incertidumbre`.
 
+🎯 **Por qué importa (clase B14-C20):** Un análisis reproducible no es un conjunto de herramientas: es una cadena de comprobaciones donde cada eslabón puede fallar a la vista. La pregunta motivadora es: ¿cómo demuestro, con evidencia revisable, que mi resultado se obtuvo de estos datos, con este modelo y este software, y que otra persona lo repetirá?
+
 📘 **Dónde se aprende** (1 clase): [B14-C20 · Proyecto reproducible de análisis astronómico](../programa/clases/B14/B14-C20-proyecto-reproducible-de-analisis-astronomico/CLASE.md).
 
 ### Desviación esfera-paraboloide
 
 - La desviación esfera-paraboloide `y⁴/(8R³)`.
+
+🎯 **Por qué importa (clase B43-C05):** Pulir es controlar un retiro de décimas de micrón: sin un modelo se oscila entre sobrecorregir y subcorregir. La decisión central: ¿cuánto hay que retirar de la mejor esfera para obtener un paraboloide y cuánto tiempo debe permanecer la herramienta en cada zona?
 
 📘 **Dónde se aprende** (1 clase): [B43-C05 · Pulido óptico](../programa/clases/B43/B43-C05-pulido-optico/CLASE.md).
 
@@ -1832,11 +2848,18 @@
 - La media `x̄` es el promedio; la varianza muestral `s²` mide cuánto se dispersan los datos alrededor de la media; la desviación estándar `s` es su raíz.
 - La desviación estándar mide la dispersión.
 
+💡 **Cómo se explica en la clase [B15-C01](../programa/clases/B15/B15-C01-series-temporales-discretas/CLASE.md):**
+- La desviación estándar `s` tiene las unidades del dato.
+- Paso 4 · Desviación estándar. `s² = 0,1/7 = 0,014 29`;
+- 🎯 **Por qué importa:** Un telescopio espacial mide el brillo de una estrella cada dos minutos durante semanas. Lo que llega a tierra no es una curva continua, sino una tabla de números.
+
 📘 **Dónde se aprende** (2 clases): [B15-C01 · Series temporales discretas](../programa/clases/B15/B15-C01-series-temporales-discretas/CLASE.md); [B105-C02 · Pérdida de masa ósea](../programa/clases/B105/B105-C02-perdida-de-masa-osea/CLASE.md).
 
 ### Desviación estándar experimental
 
 - La media es la suma dividida por el número de lecturas; la desviación estándar experimental `s` mide su dispersión; la incertidumbre de la media es `s/√n`.
+
+🎯 **Por qué importa (clase B01-C18):** En C05 dijiste que un resultado de OPERA estaba «a unas 6 incertidumbres de cero» y otro «a menos de una». En C07 dijiste que dos intervalos de ±2σ no debían solaparse.
 
 📘 **Dónde se aprende** (1 clase): [B01-C18 · Incertidumbre y errores elementales](../programa/clases/B01/B01-C18-incertidumbre-y-errores-elementales/CLASE.md).
 
@@ -1845,11 +2868,19 @@
 - La desviación geométrica (`GSD`) es `e^σ`, con `σ` la desviación del logaritmo del diámetro.
 - La desviación geométrica (GSD) mide la dispersión multiplicativa de una lognormal.
 
+💡 **Cómo se explica en la clase [B59-C04](../programa/clases/B59/B59-C04-caracterizacion-de-regolito-lunar/CLASE.md):**
+- Se simulan 50 000 granos con mediana en masa de 70 µm y desviación geométrica 2,6 (ambas ilustrativas).
+- 🎯 **Por qué importa:** Un tamiz, una tolva o un horno de sinterización se diseñan para una distribución de tamaños, no para un grano. La decisión central: ¿qué fracción de la masa es fina (menor de 20 µm) y cuánto cambia si hablo de número o de masa?
+
 📘 **Dónde se aprende** (2 clases): [B59-C04 · Caracterización de regolito lunar](../programa/clases/B59/B59-C04-caracterizacion-de-regolito-lunar/CLASE.md); [B112-C04 · Efectos crónicos y carcinogénesis por radiación](../programa/clases/B112/B112-C04-efectos-cronicos-y-carcinogenesis-por-radiacion/CLASE.md).
 
 ### Desviación mínima
 
 - La desviación mínima `n = sin((A+D)/2)/sin(A/2)`.
+
+💡 **Cómo se explica en la clase [B45-C05](../programa/clases/B45/B45-C05-prismas-y-dispersion/CLASE.md):**
+- Límite: prisma en desviación mínima, sin absorción.
+- 🎯 **Por qué importa:** Los prismas sirven en espectrógrafos de baja resolución y como cruces de dispersión. La decisión central: ¿cómo se desvía cada color y qué resolución da una base dada?
 
 📘 **Dónde se aprende** (1 clase): [B45-C05 · Prismas y dispersión](../programa/clases/B45/B45-C05-prismas-y-dispersion/CLASE.md).
 
@@ -1857,11 +2888,15 @@
 
 - Una desviación no ETL es cualquier diferencia respecto de ellas.
 
+🎯 **Por qué importa (clase B32-C02):** Si el ETL falla, las abundancias que se derivan son erróneas. La decisión central: ¿cuánto hidrógeno está ionizado a cada temperatura y densidad?
+
 📘 **Dónde se aprende** (1 clase): [B32-C02 · Equilibrio termodinámico local y desviaciones no LTE](../programa/clases/B32/B32-C02-equilibrio-termodinamico-local-y-desviaciones-no-lte/CLASE.md).
 
 ### Desviación relativa de frecuencia
 
 - La desviación relativa de frecuencia `y = (ν − ν₀)/ν₀` es adimensional.
+
+🎯 **Por qué importa (clase B13-C06):** Cuando un telémetro láser mide la distancia a la Luna, lo que mide es el tiempo que tarda un pulso en ir y volver. Un error de un nanosegundo en ese tiempo equivale a 15 centímetros de distancia.
 
 📘 **Dónde se aprende** (1 clase): [B13-C06 · Patrones de longitud y tiempo](../programa/clases/B13/B13-C06-patrones-de-longitud-y-tiempo/CLASE.md).
 
@@ -1870,11 +2905,21 @@
 - La desviación residual es `s = √(S/(N − p))`, con `p` parámetros.
 - La desviación residual `s` estima el ruido a partir de los residuos.
 
+💡 **Cómo se explica en la clase [B13-C05](../programa/clases/B13/B13-C05-calibracion-instrumental/CLASE.md):**
+- La desviación residual es `s = √[Σrᵢ²/(n − 2)]` (se pierden dos grados de libertad por estimar `a` y `b`).
+- 🎯 **Por qué importa:** Un sensor solar de una nave devuelve cuentas digitales (DN), no vatios por metro cuadrado. Para saber cuánta luz recibe hay que haberlo expuesto antes a fuentes de irradiancia conocida y haber establecido la relación entre ambas.
+
 📘 **Dónde se aprende** (2 clases): [B13-C05 · Calibración instrumental](../programa/clases/B13/B13-C05-calibracion-instrumental/CLASE.md); [B15-C16 · Ajuste de curvas](../programa/clases/B15/B15-C16-ajuste-de-curvas/CLASE.md).
 
 ### Desviación robusta
 
 - La desviación robusta es `1,4826·MAD`.
+
+💡 **Cómo se explica en la clase [B103-C03](../programa/clases/B103/B103-C03-mapas-de-profundidad-y-correspondencia-estereo/CLASE.md):**
+- El laboratorio mide `σ_d` en el suelo por rango (0,318; 0,272; 0,296 y 0,229 px) y la desviación robusta de `Z` coincide con la fórmula (cociente 1,00; 0,97; 0,99; 0,99).
+- El cálculo de bloques 9 × 9 devuelve la caja en `6,000 m` (mediana) y, en el suelo, una desviación robusta de 0,23 a 0,32 px en la disparidad según el rango.
+- ⚠️ **Error frecuente:** Confundir RMSE con desviación robusta. Las colas dominan el RMSE (8.4).
+- 🎯 **Por qué importa:** La profundidad estéreo es barata y densa, pero su error crece con el cuadrado de la distancia: a 20 m una incertidumbre de 0,3 px en la disparidad son 71 cm. La decisión central: ¿hasta qué distancia se puede confiar en el mapa de profundidad para decidir si un camino es seguro, y qué línea de base lo permite?
 
 📘 **Dónde se aprende** (1 clase): [B103-C03 · Mapas de profundidad y correspondencia estéreo](../programa/clases/B103/B103-C03-mapas-de-profundidad-y-correspondencia-estereo/CLASE.md).
 
@@ -1882,11 +2927,18 @@
 
 - La desviación típica `σ` es su raíz cuadrada positiva (S1, C.2.12); tiene la unidad de la variable.
 
+💡 **Cómo se explica en la clase [B12-C04](../programa/clases/B12/B12-C04-esperanza-y-varianza/CLASE.md):**
+- La constante `b` desplaza pero no cambia la dispersión; el factor `a` la multiplica por `a²` (y la desviación típica por `|a|`).
+- La esperanza es el punto de equilibrio de la distribución, como el centro de masa de una barra con pesos; la varianza es su momento de inercia respecto de ese centro, y la desviación típica su radio de giro.
+- 🎯 **Por qué importa:** Un ingeniero no maneja distribuciones completas; maneja «la medida es 150,0 m con una incertidumbre de 3 m». Esa frase usa exactamente una esperanza y una desviación típica.
+
 📘 **Dónde se aprende** (1 clase): [B12-C04 · Esperanza y varianza](../programa/clases/B12/B12-C04-esperanza-y-varianza/CLASE.md).
 
 ### Desviación típica de la media
 
 - La desviación típica de la media de `n` lecturas independientes es `σ/√n` (S2, 4.2.3).
+
+🎯 **Por qué importa (clase B13-C04):** Una estación mide el instante de llegada de un pulso de una baliza. Cada lectura fluctúa por ruido electrónico, y además hay un retardo constante del cable que nadie incluyó.
 
 📘 **Dónde se aprende** (1 clase): [B13-C04 · Errores sistemáticos y aleatorios](../programa/clases/B13/B13-C04-errores-sistematicos-y-aleatorios/CLASE.md).
 
@@ -1894,17 +2946,25 @@
 
 - La desviación típica de las frecuencias `σ_ν = Δν/√12`.
 
+🎯 **Por qué importa (clase B51-C04):** Un error de banda aparece en las líneas espectrales como una falsa estructura y limita el rango dinámico del continuo. La decisión central: ¿qué parte del error de banda es un retardo, qué parte una ondulación, y con qué precisión se miden?
+
 📘 **Dónde se aprende** (1 clase): [B51-C04 · Respuesta de banda y errores dependientes de la frecuencia](../programa/clases/B51/B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md).
 
 ### Desviación típica experimental
 
 - Un estimador del valor esperado a partir de `n` observaciones independientes en las mismas condiciones es la media aritmética (S1, 4.2.1); la desviación típica experimental estima `σ` con denominador `n − 1` (S1, 4.2.2).
 
+🎯 **Por qué importa (clase B12-C04):** Un ingeniero no maneja distribuciones completas; maneja «la medida es 150,0 m con una incertidumbre de 3 m». Esa frase usa exactamente una esperanza y una desviación típica.
+
 📘 **Dónde se aprende** (1 clase): [B12-C04 · Esperanza y varianza](../programa/clases/B12/B12-C04-esperanza-y-varianza/CLASE.md).
 
 ### Desviación típica s
 
 - La desviación típica `s` de `n` lecturas es `√[Σ(xᵢ − x̄)²/(n−1)]`.
+
+💡 **Cómo se explica en la clase [B13-C03](../programa/clases/B13/B13-C03-exactitud-frente-a-precision/CLASE.md):**
+- A --> C["Desviación típica s<br/>(precisión)"]
+- 🎯 **Por qué importa:** Un telémetro láser que mide la distancia a un reflector de prueba puede dar lecturas muy agrupadas pero todas desplazadas: es repetible y, aun así, está mal. Otro puede dar lecturas dispersas que, en promedio, caen sobre el valor correcto.
 
 📘 **Dónde se aprende** (1 clase): [B13-C03 · Exactitud frente a precisión](../programa/clases/B13/B13-C03-exactitud-frente-a-precision/CLASE.md).
 
@@ -1915,11 +2975,18 @@
 - La detección es que el error se advierta; la corrección, que se acepte y se repare.
 - *(y 5 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B15-C20](../programa/clases/B15/B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md):**
+- (R3) a lo sumo una detección falsa en toda la secuencia;
+- Las posiciones detectadas (centroide de 3 × 3 sobre la imagen filtrada) alimentan un filtro de Kalman de velocidad constante en 2D (C17), con `σ_a = 0,05 px/imagen²`, `R = 0,3² px²`, estado inicial de velocidad `(0,6; 1,8)` px/imagen (aproximada) y salto de la actualización cuando falta la detección.
+- 🎯 **Por qué importa:** Detectar y seguir un objeto móvil —un asteroide, un fragmento de basura espacial, un satélite— combina varios problemas: la cámara no apunta exactamente igual en cada imagen, las estrellas fijas saturan la escena, el objeto es débil y la medida es ruidosa.
+
 📘 **Dónde se aprende** (8 clases): [B15-C20 · Proyecto de detección y seguimiento](../programa/clases/B15/B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md); [B51-C13 · Marcado de datos espurios e interferencia en visibilidades](../programa/clases/B51/B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md); [B57-C27 · Detección de cambios en series de imágenes](../programa/clases/B57/B57-C27-deteccion-de-cambios-en-series-de-imagenes/CLASE.md); [B88-C40 · Auditoría de software espacial](../programa/clases/B88/B88-C40-auditoria-de-software-espacial/CLASE.md); [B96-C25 · Seguridad física y control de acceso de estaciones terrestres](../programa/clases/B96/B96-C25-seguridad-fisica-y-control-de-acceso-de-estaciones-terrestres/CLASE.md); [B104-C07 · Factores de liderazgo](../programa/clases/B104/B104-C07-factores-de-liderazgo/CLASE.md) y 2 más.
 
 ### Detección a 5σ
 
 - La detección a 5σ exige `δ ≥ 5σ/√n`.
+
+🎯 **Por qué importa (clase B29-C11):** Los planetas inflados y calientes tienen señales de cientos de ppm; las Tierras alrededor de estrellas como el Sol, de ~1 ppm, que no se alcanzan. La decisión central: ¿qué señal produce una atmósfera dada y cuántos tránsitos hacen falta para verla?
 
 📘 **Dónde se aprende** (1 clase): [B29-C11 · Atmósferas exoplanetarias](../programa/clases/B29/B29-C11-atmosferas-exoplanetarias/CLASE.md).
 
@@ -1927,11 +2994,15 @@
 
 - Una detección activa de fuego marca un píxel con uno o más focos.
 
+🎯 **Por qué importa (clase B57-C16):** Un incendio pequeño puede ser un desastre en horas, pero un píxel mide cientos de metros. La decisión central: ¿cuál es la fracción de píxel más pequeña que se puede detectar y cuánto sesga la estimación un error en el fondo?
+
 📘 **Dónde se aprende** (1 clase): [B57-C16 · Incendios forestales](../programa/clases/B57/B57-C16-incendios-forestales/CLASE.md).
 
 ### Detección de fotones
 
 - La detección de fotones cuenta fotones por ranura.
+
+🎯 **Por qué importa (clase B89-C18):** Las comunicaciones ópticas prometen más tasa por masa y potencia que la radio; entender el presupuesto de fotones y la modulación por posición de pulso explica por qué y a qué costo (apuntamiento, nubes). La decisión central: ¿cuántos fotones por bit llegan y qué error de símbolo implica la modulación PPM elegida?
 
 📘 **Dónde se aprende** (1 clase): [B89-C18 · Comunicaciones ópticas espaciales](../programa/clases/B89/B89-C18-comunicaciones-opticas-espaciales/CLASE.md).
 
@@ -1939,11 +3010,17 @@
 
 - La detección directa convierte la intensidad en señal.
 
+🎯 **Por qué importa (clase B92-C05):** Un detector de imagen integra luz durante milisegundos; uno de comunicaciones decide, en nanosegundos, en qué ranura llegó el pulso. La decisión central: ¿cuántos fotones hacen falta por símbolo y qué detector soporta la tasa de ranuras sin saturarse?
+
 📘 **Dónde se aprende** (1 clase): [B92-C05 · Receptores y detectores para comunicaciones ópticas](../programa/clases/B92/B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md).
 
 ### Detección falsa
 
 - Una detección falsa no corresponde al objeto.
+
+💡 **Cómo se explica en la clase [B15-C20](../programa/clases/B15/B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md):**
+- (R3) a lo sumo una detección falsa en toda la secuencia;
+- 🎯 **Por qué importa:** Detectar y seguir un objeto móvil —un asteroide, un fragmento de basura espacial, un satélite— combina varios problemas: la cámara no apunta exactamente igual en cada imagen, las estrellas fijas saturan la escena, el objeto es débil y la medida es ruidosa.
 
 📘 **Dónde se aprende** (1 clase): [B15-C20 · Proyecto de detección y seguimiento](../programa/clases/B15/B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md).
 
@@ -1951,17 +3028,26 @@
 
 - La detección por FFT integra `N` muestras: el bin de la portadora acumula `N` veces la potencia y el ruido por bin tiene media `σ²N`.
 
+🎯 **Por qué importa (clase B89-C24):** Cuando una nave está lejos o en emergencia, recibir su portadora a unos pocos dB-Hz marca la diferencia entre confirmar su estado o perderla; el costo es tiempo de integración o un lazo difícil de enganchar. La decisión central: ¿cómo detectar y seguir una portadora muy débil sin tantas falsas alarmas?
+
 📘 **Dónde se aprende** (1 clase): [B89-C24 · Recepción de telemetría débil](../programa/clases/B89/B89-C24-recepcion-de-telemetria-debil/CLASE.md).
 
 ### Detector
 
 - Un detector es un sensor que registra luz (ojo, película, sensor digital).
 
+💡 **Cómo se explica en la clase [B01-C10](../programa/clases/B01/B01-C10-limitaciones-de-los-sentidos-humanos/CLASE.md):**
+- El detector también importa: uno digital puede acumular luz durante segundos o minutos en una exposición, algo que el ojo no hace de la misma manera (explicación nuestra).
+- La luz del objeto pasa por el rango espectral del detector, por la apertura que fija cuánta luz entra, por la resolución que decide qué detalle se separa y por la percepción que interpreta; al final hay un registro o una impresión.
+- 🎯 **Por qué importa:** Si el ojo bastara, no habría observatorios. La luz visible es una franja pequeña del espectro electromagnético (S1, S2); además, tu pupila recoge poca luz, separa detalles hasta cierto tamaño y puede engañarte.
+
 📘 **Dónde se aprende** (1 clase): [B01-C10 · Limitaciones de los sentidos humanos](../programa/clases/B01/B01-C10-limitaciones-de-los-sentidos-humanos/CLASE.md).
 
 ### Determinación de órbitas
 
 - La determinación de órbitas estima los elementos a partir de observaciones.
+
+🎯 **Por qué importa (clase B58-C07):** Una órbita ajustada es el producto central de la defensa planetaria: de ella salen las predicciones y las probabilidades. La decisión central: ¿cuántas observaciones y qué arco hacen falta para que la órbita sea fiable, y cómo se sabe que el ajuste es bueno?
 
 📘 **Dónde se aprende** (1 clase): [B58-C07 · Determinación de órbitas](../programa/clases/B58/B58-C07-determinacion-de-orbitas/CLASE.md).
 
@@ -1970,11 +3056,20 @@
 - El determinante de `[[a, b], [c, d]]` es `ad − bc`; el de una matriz `3×3` se obtiene por expansión por cofactores: se desarrolla por una fila sumando cada elemento por el determinante de la submatriz que queda al tachar su fila y columna, con signo alterno (S1, §1.3(i), ecs. 1.3.1–1.3.4).
 - Es ortogonal (`Rᵀ R = I`) y tiene determinante `+1`.
 
+💡 **Cómo se explica en la clase [B04-C15](../programa/clases/B04/B04-C15-rotacion-de-puntos-y-ejes/CLASE.md):**
+- *Descripción textual:* de las componentes ecuatoriales se pasa a las eclípticas con la rotación pasiva `R_x(ε)`; la traspuesta devuelve las ecuatoriales; de las eclípticas salen longitud y latitud con `atan2` y `arcsen`; y la matriz se comprueba con ortogonalidad y determinante 1.
+- ⚠️ **Error frecuente:** No comprobar la matriz. Se corrige con la ortogonalidad y el determinante (ejercicio 2).
+- 🎯 **Por qué importa:** El ecuador de la Tierra y el plano de su órbita (la eclíptica) forman un ángulo de unos 23,4°. Los catálogos de estrellas se dan en coordenadas ecuatoriales; el movimiento del Sol, la Luna y los planetas es más simple en coordenadas eclípticas.
+
 📘 **Dónde se aprende** (2 clases): [B04-C15 · Rotación de puntos y ejes](../programa/clases/B04/B04-C15-rotacion-de-puntos-y-ejes/CLASE.md); [B10-C04 · Determinantes y soluciones](../programa/clases/B10/B10-C04-determinantes-y-soluciones/CLASE.md).
 
 ### Determinismo
 
 - El determinismo exige la misma semilla y el mismo orden de operaciones.
+
+💡 **Cómo se explica en la clase [B97-C23](../programa/clases/B97/B97-C23-diseno-de-simulador-de-mision-robotica/CLASE.md):**
+- SEM["semilla fija"] --> D["determinismo"]
+- 🎯 **Por qué importa:** Una simulación sin verificar produce números bonitos y erróneos. Cinco pruebas baratas (solución analítica, orden de convergencia, estabilidad, conservación y repetibilidad) detectan casi todos los errores de un integrador antes de poner modelos complejos encima.
 
 📘 **Dónde se aprende** (1 clase): [B97-C23 · Diseño de simulador de misión robótica](../programa/clases/B97/B97-C23-diseno-de-simulador-de-mision-robotica/CLASE.md).
 
@@ -1983,6 +3078,10 @@
 - El detrimento nominal combinado de cáncer y efectos hereditables es de unos 5 % por Sv (ICRP 103).
 - El detrimento cuantifica el daño sobre la salud por cáncer y efectos hereditables.
 
+💡 **Cómo se explica en la clase [B112-C04](../programa/clases/B112/B112-C04-efectos-cronicos-y-carcinogenesis-por-radiacion/CLASE.md):**
+- ICRP 103 mantiene la hipótesis de respuesta lineal a dosis bajas para cáncer y efectos hereditables y estima un detrimento nominal de alrededor del 5 % por Sv, con un DDREF de 2 para cánceres sólidos (extracto consultado).
+- 🎯 **Por qué importa:** Ninguna clase cubre riesgo de cáncer y efectos tardíos. Los límites de carrera de una misión se expresan como riesgo, no como umbral, y sin entender cómo se estima y cuán incierta es esa estimación, un límite en mSv parece más preciso de lo que es.
+
 📘 **Dónde se aprende** (2 clases): [B112-C02 · Dosis equivalente y dosis efectiva](../programa/clases/B112/B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md); [B112-C04 · Efectos crónicos y carcinogénesis por radiación](../programa/clases/B112/B112-C04-efectos-cronicos-y-carcinogenesis-por-radiacion/CLASE.md).
 
 ### Detuning
@@ -1990,11 +3089,18 @@
 - El detuning es reducir las ganancias respecto de una receta para ganar margen.
 - El detuning `Δ` es la desintonía.
 
+💡 **Cómo se explica en la clase [B31-C03](../programa/clases/B31/B31-C03-estados-y-observables-cuanticos/CLASE.md):**
+- Con detuning, la población máxima baja a `Ω²/(Ω² + Δ²) = 0,610` y la frecuencia sube a `√(Ω² + Δ²) = 1,281`.
+- Descripción larga: sin detuning la población llega a 1; con detuning se queda en 0,61 como máximo.
+- 🎯 **Por qué importa:** Un cúbit, un espín o un átomo de dos niveles obedecen estas reglas, y la medida cambia el estado. La decisión central: ¿cómo se calculan probabilidades y evolución en un sistema de dos niveles?
+
 📘 **Dónde se aprende** (2 clases): [B16-C12 · Sintonía de controladores PID](../programa/clases/B16/B16-C12-sintonia-de-controladores-pid/CLASE.md); [B31-C03 · Estados y observables cuánticos](../programa/clases/B31/B31-C03-estados-y-observables-cuanticos/CLASE.md).
 
 ### Deuda de sueño
 
 - La deuda de sueño es lo que se deja de dormir respecto de la necesidad.
+
+🎯 **Por qué importa (clase B104-C17):** NASA reconoce la pérdida de sueño, la desincronización circadiana y la sobrecarga como un riesgo del vuelo. La decisión conceptual: ¿cuánta alerta se pierde en el trabajo diurno al acortar el sueño unas horas, y por qué el modelo no sustituye a la medición?
 
 📘 **Dónde se aprende** (1 clase): [B104-C17 · Gestión de fatiga](../programa/clases/B104/B104-C17-gestion-de-fatiga/CLASE.md).
 
@@ -2002,11 +3108,15 @@
 
 - La devolución es la restitución del personal o del objeto.
 
+🎯 **Por qué importa (clase B119-C02):** El tratado de 1967 (C01) menciona la asistencia a los astronautas (art. V, no discutido en la fuente consultada); el Acuerdo de Salvamento la desarrolla, y ninguna otra clase la cubre.
+
 📘 **Dónde se aprende** (1 clase): [B119-C02 · Acuerdo de Salvamento](../programa/clases/B119/B119-C02-acuerdo-de-salvamento/CLASE.md).
 
 ### Devolución de resultados
 
 - La devolución de resultados es entregar a la comunidad lo producido, de modo que lo pueda usar.
+
+🎯 **Por qué importa (clase B133-C03):** Los saberes del cielo han sido registrados muchas veces sin que las comunidades decidieran qué, cómo ni para qué. La decisión central: ¿qué debe estar acordado, y en qué orden, antes de recoger, usar o enseñar un saber ajeno?
 
 📘 **Dónde se aprende** (1 clase): [B133-C03 · Colaboración con comunidades en investigación y educación](../programa/clases/B133/B133-C03-colaboracion-con-comunidades-en-investigacion-y-educacion/CLASE.md).
 
@@ -2016,11 +3126,17 @@
 - Un dex es una unidad logarítmica: una diferencia de 1 dex es un factor 10.
 - Un dex es un factor 10 en el logaritmo.
 
+💡 **Cómo se explica en la clase [B01-C14](../programa/clases/B01/B01-C14-estrellas-y-sus-principales-propiedades/CLASE.md):**
+- En logaritmo, `−0,307`; la tabla publica `−0,305`: coincide dentro de 0,002 dex.
+- 🎯 **Por qué importa:** Dos estrellas pueden verse igual de brillantes y ser totalmente distintas: una pequeña y cercana, otra enorme y lejana (C09). Para saber cómo es una estrella necesitas separar lo que ves (flujo) de lo que ella es (luminosidad, temperatura, radio) y de dónde está (distancia).
+
 📘 **Dónde se aprende** (3 clases): [B01-C14 · Estrellas y sus principales propiedades](../programa/clases/B01/B01-C14-estrellas-y-sus-principales-propiedades/CLASE.md); [B06-C20 · Análisis químico introductorio de meteoritos](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md); [B55-C01 · Abundancia química cósmica](../programa/clases/B55/B55-C01-abundancia-quimica-cosmica/CLASE.md).
 
 ### DFT
 
 - La DFT es la transformada de Fourier discreta.
+
+🎯 **Por qué importa (clase B31-C04):** La incertidumbre explica el tamaño de los átomos y la energía de punto cero. La decisión central: ¿cuánto vale el producto de incertidumbres de un estado y qué energía implica un confinamiento?
 
 📘 **Dónde se aprende** (1 clase): [B31-C04 · Principio de incertidumbre](../programa/clases/B31/B31-C04-principio-de-incertidumbre/CLASE.md).
 
@@ -2028,11 +3144,21 @@
 
 - El minuto (min), la hora (h) y el día (d) se aceptan con las equivalencias `1 min = 60 s`, `1 h = 60 min = 3600 s`, `1 d = 24 h = 86 400 s` (S2).
 
+💡 **Cómo se explica en la clase [B03-C08](../programa/clases/B03/B03-C08-tiempo-y-conversiones-astronomicas/CLASE.md):**
+- Una vuelta completa son `360°` y un día de rotación `24 h`; por tanto, `360°/24 h = 15°/h`.
+- En un día solar de 24 h gira `360,985°`: casi un grado más que una vuelta, que es la razón de fondo por la que el día sidéreo es más corto (B01-C04).
+- 🎯 **Por qué importa:** El período de Neptuno en las fichas de la NASA es 60 189,018 días. Nadie piensa en 60 mil días; se piensa en años.
+
 📘 **Dónde se aprende** (1 clase): [B03-C08 · Tiempo y conversiones astronómicas](../programa/clases/B03/B03-C08-tiempo-y-conversiones-astronomicas/CLASE.md).
 
 ### Día 0
 
 - El día 0 es el día ideal de Hohmann del modelo.
+
+💡 **Cómo se explica en la clase [B75-C29](../programa/clases/B75/B75-C29-analisis-de-calendario-con-graficos-pork-chop/CLASE.md):**
+- Marte a `44,337°` de la Tierra el día 0 (B75-C02);
+- Mínimo de la malla: `8,67 km²/s²` (día 0, `TOF = 260 d`).
+- 🎯 **Por qué importa:** El diseño de una misión necesita ver el espacio de soluciones, no un solo punto. La decisión central: ¿qué combinaciones de fecha de salida y tiempo de vuelo dan un `C3` aceptable y cuán ancha es la ventana?
 
 📘 **Dónde se aprende** (1 clase): [B75-C29 · Análisis de calendario con gráficos pork-chop](../programa/clases/B75/B75-C29-analisis-de-calendario-con-graficos-pork-chop/CLASE.md).
 
@@ -2040,17 +3166,23 @@
 
 - El día juliano es un conteo continuo de días.
 
+🎯 **Por qué importa (clase B119-C12):** Para leer el derecho vigente conviene saber qué contexto lo produjo; ninguna clase anterior da la cronología comparada entre la tecnología y los instrumentos jurídicos. La decisión central: ¿cuánto tardó el derecho en seguir a la tecnología y por qué importa distinguir fechas verificadas de fechas recordadas?
+
 📘 **Dónde se aprende** (1 clase): [B119-C12 · Historia de competencia estratégica espacial](../programa/clases/B119/B119-C12-historia-de-competencia-estrategica-espacial/CLASE.md).
 
 ### Día juliano (JD)
 
 - El día juliano (JD) es el número de días, con fracción, desde el mediodía de un origen remoto; el JD de J2000 es `2 451 545,0` (S2).
 
+🎯 **Por qué importa (clase B13-C09):** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
+
 📘 **Dónde se aprende** (1 clase): [B13-C09 · Segundos intercalares y cronología](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md).
 
 ### Día juliano modificado (MJD)
 
 - El día juliano modificado (MJD) es `JD − 2 400 000,5` y empieza a medianoche.
+
+🎯 **Por qué importa (clase B13-C09):** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
 
 📘 **Dónde se aprende** (1 clase): [B13-C09 · Segundos intercalares y cronología](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md).
 
@@ -2061,12 +3193,21 @@
 - Un día sidéreo (aquí, el periodo de rotación respecto del origen celeste) es el tiempo en que el ERA avanza una vuelta.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B01-C04](../programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/CLASE.md):**
+- El día solar dura 24,0000 h porque lo medimos de mediodía a mediodía; el día sidéreo dura 23,9345 h, porque lo medimos respecto de las estrellas (S2).
+- 🎯 **Por qué importa:** En 1999 la sonda Mars Climate Orbiter se perdió en la atmósfera de Marte. Según la NASA, el programa en tierra trabajaba en unidades inglesas y el de la sonda en métricas, y esa discrepancia la dirigió demasiado cerca del planeta (S1).
+
 📘 **Dónde se aprende** (4 clases): [B01-C04 · Espacio y tiempo en ciencia](../programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/CLASE.md); [B08-C05 · Tiempo sidéreo y solar](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md); [B13-C10 · Tiempo sidéreo local y terrestre](../programa/clases/B13/B13-C10-tiempo-sidereo-local-y-terrestre/CLASE.md); [B71-C16 · Período orbital](../programa/clases/B71/B71-C16-periodo-orbital/CLASE.md).
 
 ### Día solar
 
 - El día solar es el tiempo entre dos pasos consecutivos del Sol por el meridiano; el día solar medio dura 24 h.
 - El día solar es el intervalo entre dos pasos del Sol por el meridiano.
+
+💡 **Cómo se explica en la clase [B08-C05](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md):**
+- La NASA da el día sidéreo de la Tierra en `23,9345 h` y el día solar en `24,0000 h` (S2).
+- El laboratorio calcula la duración del día sidéreo a partir de la tasa del tiempo sidéreo medio (1,0027379 vueltas por día solar): `23,93447 h = 23 h 56 min 04 s`, coincidente con la NASA dentro de su redondeo (0,0001 h).
+- 🎯 **Por qué importa:** Si una estrella culmina a las 22:00 hoy, culminará a las 21:56 mañana. Quien no lo sabe «pierde» el objeto en pocas semanas.
 
 📘 **Dónde se aprende** (2 clases): [B08-C05 · Tiempo sidéreo y solar](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md); [B113-C04 · Autonomía personal y gestión del tiempo en aislamiento](../programa/clases/B113/B113-C04-autonomia-personal-y-gestion-del-tiempo-en-aislamiento/CLASE.md).
 
@@ -2075,11 +3216,15 @@
 - El día solar medio es el intervalo entre dos pasos consecutivos del Sol por el mismo punto del cielo, en promedio, y dura 24 horas.
 - El día solar es el tiempo entre dos pasos consecutivos del Sol por el meridiano; el día solar medio dura 24 h.
 
+🎯 **Por qué importa (clase B01-C04):** En 1999 la sonda Mars Climate Orbiter se perdió en la atmósfera de Marte. Según la NASA, el programa en tierra trabajaba en unidades inglesas y el de la sonda en métricas, y esa discrepancia la dirigió demasiado cerca del planeta (S1).
+
 📘 **Dónde se aprende** (2 clases): [B01-C04 · Espacio y tiempo en ciencia](../programa/clases/B01/B01-C04-espacio-y-tiempo-en-ciencia/CLASE.md); [B08-C05 · Tiempo sidéreo y solar](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md).
 
 ### Diafonía cercana
 
 - La diafonía cercana (*near-end crosstalk*) es la señal acoplada que aparece en el extremo de la línea víctima más próximo a la fuente.
+
+🎯 **Por qué importa (clase B93-C03):** El tronco no incluía reflexiones, diafonía ni temporización de señales. La decisión central: ¿cuánto se deforma una señal por una terminación mal adaptada, cuánto se acopla a la pista vecina y cuánto margen de reloj queda?
 
 📘 **Dónde se aprende** (1 clase): [B93-C03 · Integridad de señal en electrónica embarcada](../programa/clases/B93/B93-C03-integridad-de-senal-en-electronica-embarcada/CLASE.md).
 
@@ -2087,11 +3232,19 @@
 
 - El diafragma limita el haz.
 
+💡 **Cómo se explica en la clase [B50-C03](../programa/clases/B50/B50-C03-sistemas-catadioptricos-schmidt-y-maksutov/CLASE.md):**
+- Con el diafragma en el espejo el RMS crece con el campo (coma); en `C` es prácticamente constante.
+- E["espejo esférico"] --> D1["diafragma en el espejo: coma"]
+- ⚠️ **Error frecuente:** Poner el diafragma en el espejo y esperar campo plano. Se corrige con 8.1.
+- 🎯 **Por qué importa:** Combinar espejos y elementos refractivos permite campos amplios con superficies fáciles de fabricar. La decisión central: ¿dónde va el diafragma y qué corrige el elemento refractivo?
+
 📘 **Dónde se aprende** (1 clase): [B50-C03 · Sistemas catadióptricos: Schmidt y Maksutov](../programa/clases/B50/B50-C03-sistemas-catadioptricos-schmidt-y-maksutov/CLASE.md).
 
 ### Diagonalizable
 
 - Una matriz es diagonalizable si existe una matriz invertible `V` cuyas columnas son autovectores y `A = V Λ V⁻¹` con `Λ` diagonal de autovalores (S1, §1.2(vi), ec. 1.2.73: es el caso de las matrices no defectuosas).
+
+🎯 **Por qué importa (clase B10-C09):** Un panel solar largo y delgado vibra después de una maniobra. Si la vibración se amortigua, el panel es estable; si crece, hay un problema serio.
 
 📘 **Dónde se aprende** (1 clase): [B10-C09 · Diagonalización y estabilidad](../programa/clases/B10/B10-C09-diagonalizacion-y-estabilidad/CLASE.md).
 
@@ -2099,11 +3252,17 @@
 
 - Un diagrama de bloques representa cada subsistema con un rectángulo y su función de transferencia, y cada señal con una flecha.
 
+💡 **Cómo se explica en la clase [B16-C06](../programa/clases/B16/B16-C06-diagramas-de-bloques/CLASE.md):**
+- Se prefiere el espacio de estados cuando hay varias entradas y salidas o cuando se va a simular; el diagrama de bloques, para razonar.
+- 🎯 **Por qué importa:** Un sistema de control de actitud tiene sensores, un computador, ruedas y un cuerpo, todos conectados y, sobre todo, con la salida de vuelta a la entrada. Para entender qué hace el conjunto no basta conocer las partes: hay que saber cómo se combinan.
+
 📘 **Dónde se aprende** (1 clase): [B16-C06 · Diagramas de bloques](../programa/clases/B16/B16-C06-diagramas-de-bloques/CLASE.md).
 
 ### Diagrama de Bode
 
 - Un diagrama de Bode grafica el módulo en dB y la fase en grados contra `ω` en escala logarítmica.
+
+🎯 **Por qué importa (clase B16-C10):** Los modelos nunca son exactos: la inercia varía, el sensor tarda más de lo supuesto, un modo flexible aparece. La estabilidad nominal no basta; hay que saber cuánto error aguanta el lazo.
 
 📘 **Dónde se aprende** (1 clase): [B16-C10 · Diagramas de Bode y Nyquist](../programa/clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md).
 
@@ -2111,11 +3270,15 @@
 
 - Un diagrama de cuerpo libre (DCL) es un esquema que muestra un cuerpo aislado y todas las fuerzas externas que actúan sobre él, como flechas desde el cuerpo.
 
+🎯 **Por qué importa (clase B05-C05):** En un lanzamiento o en una maniobra hay varias fuerzas a la vez: gravedad, empuje, tensiones, rozamiento. La pregunta motivadora es: ¿cómo dejo de olvidar fuerzas y de contar dos veces una misma?
+
 📘 **Dónde se aprende** (1 clase): [B05-C05 · Diagramas de cuerpo libre](../programa/clases/B05/B05-C05-diagramas-de-cuerpo-libre/CLASE.md).
 
 ### Diagrama de fases
 
 - Un diagrama de fases es un mapa presión–temperatura con las regiones donde una sustancia es sólida, líquida o gaseosa.
+
+🎯 **Por qué importa (clase B06-C11):** La temperatura de ebullición del agua no es una constante de la naturaleza: depende de la presión. En lo alto de una montaña hierve a menos de 100 °C; en Marte, con 6 mb, el agua apenas puede ser líquida; en Venus, a 92 bar y 737 K, el CO₂ no es ni líquido ni gas.
 
 📘 **Dónde se aprende** (1 clase): [B06-C11 · Diagramas de fase](../programa/clases/B06/B06-C11-diagramas-de-fase/CLASE.md).
 
@@ -2123,11 +3286,18 @@
 
 - Un diagrama de fiabilidad (*reliability diagram*) agrupa pronósticos de probabilidad en casillas y compara la probabilidad media pronosticada con la frecuencia observada del suceso.
 
+💡 **Cómo se explica en la clase [B19-C08](../programa/clases/B19/B19-C08-calibracion-probabilistica/CLASE.md):**
+- Diagrama de fiabilidad (pronóstico medio → frecuencia observada; 10 casillas): calibrado: 0,06→0,06; 0,25→0,25; 0,55→0,56; 0,94→0,94.
+- El diagrama de fiabilidad hace lo mismo para pronósticos de sucesos.
+- 🎯 **Por qué importa:** Un intervalo del 90 % que cubre el valor verdadero solo la mitad de las veces es peor que no tener intervalo: transmite una seguridad falsa. Los diagnósticos de C04 dicen si el cómputo funcionó; los chequeos de C06 si el modelo reproduce los datos.
+
 📘 **Dónde se aprende** (1 clase): [B19-C08 · Calibración probabilística](../programa/clases/B19/B19-C08-calibracion-probabilistica/CLASE.md).
 
 ### Diagrama de flujo funcional
 
 - Un diagrama de flujo funcional (FFBD) ordena las funciones por dependencia.
+
+🎯 **Por qué importa (clase B83-C06):** Si se salta a las piezas demasiado pronto, se diseñan cosas que nadie sabe para qué sirven; si se descompone bien, se ve qué función domina el tiempo y dónde se acoplan los subsistemas. La decisión central: ¿qué funciones son críticas para el tiempo y qué subsistemas quedan más acoplados?
 
 📘 **Dónde se aprende** (1 clase): [B83-C06 · Descomposición funcional](../programa/clases/B83/B83-C06-descomposicion-funcional/CLASE.md).
 
@@ -2135,11 +3305,15 @@
 
 - Un diagrama de Nyquist traza `L(jω)` en el plano complejo para `ω` de −∞ a ∞.
 
+🎯 **Por qué importa (clase B16-C10):** Los modelos nunca son exactos: la inercia varía, el sensor tarda más de lo supuesto, un modo flexible aparece. La estabilidad nominal no basta; hay que saber cuánto error aguanta el lazo.
+
 📘 **Dónde se aprende** (1 clase): [B16-C10 · Diagramas de Bode y Nyquist](../programa/clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md).
 
 ### Diagrama de radiación
 
 - El diagrama de radiación es la respuesta en potencia según la dirección.
+
+🎯 **Por qué importa (clase B46-C04):** Bajar los lóbulos laterales evita captar emisión de direcciones no deseadas, pero ensancha el haz y reduce la eficiencia. La decisión central: ¿qué iluminación equilibra resolución y rechazo de lóbulos?
 
 📘 **Dónde se aprende** (1 clase): [B46-C04 · Diagramas de radiación](../programa/clases/B46/B46-C04-diagramas-de-radiacion/CLASE.md).
 
@@ -2147,11 +3321,15 @@
 
 - El diagrama de rebotes suma en el tiempo las ondas que van y vienen.
 
+🎯 **Por qué importa (clase B93-C03):** El tronco no incluía reflexiones, diafonía ni temporización de señales. La decisión central: ¿cuánto se deforma una señal por una terminación mal adaptada, cuánto se acopla a la pista vecina y cuánto margen de reloj queda?
+
 📘 **Dónde se aprende** (1 clase): [B93-C03 · Integridad de señal en electrónica embarcada](../programa/clases/B93/B93-C03-integridad-de-senal-en-electronica-embarcada/CLASE.md).
 
 ### Diagrama HR
 
 - El diagrama HR representa `L` (o la magnitud absoluta) contra `T_ef` (o el tipo espectral), con la temperatura creciente hacia la izquierda por tradición histórica.
+
+🎯 **Por qué importa (clase B24-C03):** Casi todas las propiedades de una estrella (tamaño, masa, edad, fase) se resumen en dos medidas: cuánta energía emite y a qué temperatura. El diagrama HR convierte esas dos medidas en un mapa donde cada región corresponde a un estado físico.
 
 📘 **Dónde se aprende** (1 clase): [B24-C03 · Diagrama de Hertzsprung-Russell](../programa/clases/B24/B24-C03-diagrama-de-hertzsprung-russell/CLASE.md).
 
@@ -2159,11 +3337,21 @@
 
 - El diagrama trabajo-precisión (*work-precision diagram*) grafica el error alcanzado frente al trabajo gastado.
 
+💡 **Cómo se explica en la clase [B11-C26](../programa/clases/B11/B11-C26-benchmark-de-algoritmos-numericos/CLASE.md):**
+- *Descripción textual:* se define el problema y los errores objetivo; cada método se barre con resoluciones crecientes registrando error y evaluaciones; se arma el diagrama trabajo-precisión y se anota el costo mínimo por objetivo; el tiempo de reloj se mide aparte; se repite todo para comprobar que los números coinciden.
+- Equivalente accesible a un diagrama trabajo-precisión (evaluaciones, error): la tabla de 8.3.
+- 🎯 **Por qué importa:** «El método A es mejor que el B» es una afirmación vacía sin el problema, la métrica, la tolerancia y el costo. Una comparación mal diseñada lleva a elegir el algoritmo equivocado para una misión.
+
 📘 **Dónde se aprende** (1 clase): [B11-C26 · Benchmark de algoritmos numéricos](../programa/clases/B11/B11-C26-benchmark-de-algoritmos-numericos/CLASE.md).
 
 ### Diámetro
 
 - El diámetro es la mayor distancia mínima entre pares.
+
+💡 **Cómo se explica en la clase [B88-C31](../programa/clases/B88/B88-C31-topologias-de-red-de-datos-a-bordo/CLASE.md):**
+- El anillo logra 0 puentes con el menor costo, a cambio de diámetro 3.
+- Un anillo es el mínimo con tolerancia a un enlace; la doble estrella reduce el diámetro a 2 con dos concentradores.
+- 🎯 **Por qué importa:** Una red con un enlace crítico único pierde un subsistema entero con una sola falla. La decisión central: ¿qué topología da la tolerancia y la latencia necesarias con el menor número de enlaces?
 
 📘 **Dónde se aprende** (1 clase): [B88-C31 · Topologías de red de datos a bordo](../programa/clases/B88/B88-C31-topologias-de-red-de-datos-a-bordo/CLASE.md).
 
@@ -2172,6 +3360,10 @@
 - El diámetro angular es el ángulo que ocupa un objeto en el cielo.
 - El diámetro angular es el ángulo que subtiende su disco.
 
+💡 **Cómo se explica en la clase [B04-C07](../programa/clases/B04/B04-C07-triangulos-y-distancias-angulares/CLASE.md):**
+- Un objeto a distancia `d` con diámetro angular `δ` tiene un diámetro `D = 2 d tan(δ/2) ≈ d δ`.
+- 🎯 **Por qué importa:** Nadie puede llevar una cinta métrica a una estrella. Pero sí se puede observar la misma estrella desde dos puntos separados una distancia conocida y medir cuánto cambia su dirección.
+
 📘 **Dónde se aprende** (2 clases): [B04-C07 · Triángulos y distancias angulares](../programa/clases/B04/B04-C07-triangulos-y-distancias-angulares/CLASE.md); [B08-C08 · Fases lunares y libración](../programa/clases/B08/B08-C08-fases-lunares-y-libracion/CLASE.md).
 
 ### Diámetro crítico
@@ -2179,11 +3371,18 @@
 - El diámetro crítico `d_c = t^0,9` (mm).
 - desecho orbital: fragmento artificial. Diámetro crítico: el menor proyectil que penetra.
 
+💡 **Cómo se explica en la clase [B106-C15](../programa/clases/B106/B106-C15-proteccion-frente-a-micrometeoritos/CLASE.md):**
+- *Descripción textual:* el flujo, la superficie y el tiempo dan el número esperado de impactos sobre el diámetro crítico, que fija la pared y la separación; de ahí sale la PNP.
+- Con un flujo sintético `N(>d) = 10⁻⁴ (d/1 mm)^−2,5` por m² y año, 100 m² y una pared de 2 mm con diámetro crítico ilustrativo de 0,60 mm, se esperan 0,036 impactos penetrantes al año: P(sin penetración) = 0,9648 el primer año y 0,8359 en 5 años.
+- 🎯 **Por qué importa:** Los impactos son raros pero catastróficos; el diseño elige espesor y separación para una probabilidad de no penetración. La decisión central: ¿qué pared y qué separación dan una probabilidad objetivo en la duración y la superficie de la misión?
+
 📘 **Dónde se aprende** (2 clases): [B85-C28 · Protección pasiva frente al ambiente espacial](../programa/clases/B85/B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md); [B106-C15 · Protección frente a micrometeoritos](../programa/clases/B106/B106-C15-proteccion-frente-a-micrometeoritos/CLASE.md).
 
 ### Diámetro de Sauter
 
 - El diámetro de Sauter `d₃₂` es el de una esfera con la misma razón volumen/superficie que el conjunto.
+
+🎯 **Por qué importa (clase B59-C04):** Un tamiz, una tolva o un horno de sinterización se diseñan para una distribución de tamaños, no para un grano. La decisión central: ¿qué fracción de la masa es fina (menor de 20 µm) y cuánto cambia si hablo de número o de masa?
 
 📘 **Dónde se aprende** (1 clase): [B59-C04 · Caracterización de regolito lunar](../programa/clases/B59/B59-C04-caracterizacion-de-regolito-lunar/CLASE.md).
 
@@ -2192,11 +3391,20 @@
 - El diámetro equivalente es `D = 2√(A/π)` por la escala.
 - El diámetro equivalente es el del orificio que daría esa tasa.
 
+💡 **Cómo se explica en la clase [B114-C02](../programa/clases/B114/B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md):**
+- El análisis recupera `τ = 8,909 × 10⁶ s` (`103 días`), un diámetro equivalente de `0,30 mm` y el origen a `0,00 m` del real.
+- 🎯 **Por qué importa:** Una fuga pequeña no suena ni se ve, pero decide cuántos días quedan para actuar. La decisión central: ¿con qué rapidez pierde presión el hábitat y dónde está el origen?
+
 📘 **Dónde se aprende** (2 clases): [B103-C06 · Detección y catalogación de rocas en imágenes de superficie](../programa/clases/B103/B103-C06-deteccion-y-catalogacion-de-rocas-en-imagenes-de-superficie/CLASE.md); [B114-C02 · Detección, localización y respuesta a fugas de presión](../programa/clases/B114/B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md).
 
 ### Diámetro transitorio
 
 - El diámetro transitorio `D_tc` es el del cráter justo tras la excavación.
+
+💡 **Cómo se explica en la clase [B53-C10](../programa/clases/B53/B53-C10-geologia-de-impacto/CLASE.md):**
+- El diámetro transitorio ilustrativo es `2640 m` con `g = 1,62`, `2200 m` con `g = 3,71` y `1776 m` con `g = 9,81`.
+- ⚠️ **Error frecuente:** Confundir diámetro transitorio con final. se corrige con la sección 6
+- 🎯 **Por qué importa:** Un cráter es una medida indirecta del impacto. La decisión central: ¿cómo cambia el diámetro del cráter con la gravedad y qué incertidumbre tiene un exponente ajustado a pocos experimentos?
 
 📘 **Dónde se aprende** (1 clase): [B53-C10 · Geología de impacto](../programa/clases/B53/B53-C10-geologia-de-impacto/CLASE.md).
 
@@ -2204,11 +3412,23 @@
 
 - Los días nominales son `⌈D f/d⌉`.
 
+💡 **Cómo se explica en la clase [B97-C20](../programa/clases/B97/B97-C20-mision-robotica-integrada-simulada/CLASE.md):**
+- Días nominales con cada cambio de ±20 %: uso +20 %: `14`; uso −20 %: `21`; ruta +20 %: `21`; distancia +20 %: `21`; batería +20 %: `14`; batería −20 %: `21` (frente a `17` nominales).
+- *Descripción textual:* la energía y el tiempo fijan las horas útiles; con la velocidad dan la distancia diaria; la distancia por el factor de ruta da los días nominales y las anomalías los alargan.
+- ⚠️ **Error frecuente:** Presupuestar solo los días nominales. Las anomalías añaden media y cola (8.3)
+- 🎯 **Por qué importa:** Una misión se diseña con un presupuesto de días y de margen. Un modelo integrado, aunque simple, muestra cuál parámetro domina y cuánto margen pide una anomalía, antes de invertir en simulaciones detalladas.
+
 📘 **Dónde se aprende** (1 clase): [B97-C20 · Misión robótica integrada simulada](../programa/clases/B97/B97-C20-mision-robotica-integrada-simulada/CLASE.md).
 
 ### Diccionario
 
 - Un diccionario (`dict`) asocia claves únicas e inmutables a valores, entre llaves (S3).
+
+💡 **Cómo se explica en la clase [B07-C07](../programa/clases/B07/B07-C07-listas-y-estructuras-de-datos/CLASE.md):**
+- Una lista es una fila de cajones numerados; un diccionario es un fichero con etiquetas (claves) para buscar rápido; una tupla es una fila de cajones sellados; un conjunto es una bolsa donde cada cosa entra una vez.
+- *Descripción textual:* una lista con ocho posiciones; la posición 0 contiene el diccionario de Mercurio y la 2 el de la Tierra.
+- ⚠️ **Error frecuente:** `{}` como conjunto vacío. Es un diccionario.
+- 🎯 **Por qué importa:** Una tabla de ocho planetas con tres propiedades cada uno son 24 datos: no cabe en 24 variables sueltas. Necesitas estructuras que agrupen datos, permitan recorrerlos y los mantengan ordenados y consultables.
 
 📘 **Dónde se aprende** (1 clase): [B07-C07 · Listas y estructuras de datos](../programa/clases/B07/B07-C07-listas-y-estructuras-de-datos/CLASE.md).
 
@@ -2216,11 +3436,15 @@
 
 - Firma: vector de desviaciones de una causa. Diccionario de fallas: conjunto de firmas.
 
+🎯 **Por qué importa (clase B96-C29):** Perder tiempo de contacto buscando la causa equivocada es caro. La decisión central: ¿qué medidas distinguen las causas y cuáles se confunden entre sí?
+
 📘 **Dónde se aprende** (1 clase): [B96-C29 · Diagnóstico de fallas de enlace](../programa/clases/B96/B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md).
 
 ### Didáctica
 
 - Una regla de categorías convierte esa medida en una etiqueta; la de esta clase es didáctica.
+
+🎯 **Por qué importa (clase B67-C04):** Decir «hay 330 kt» sin intervalo ni categoría invita a decisiones equivocadas. La decisión central: ¿cuánto del recurso se puede llamar reserva, y qué falta para subir de categoría?
 
 📘 **Dónde se aprende** (1 clase): [B67-C04 · Estimación de reservas y categorías de recursos](../programa/clases/B67/B67-C04-estimacion-de-reservas-y-categorias-de-recursos/CLASE.md).
 
@@ -2228,11 +3452,17 @@
 
 - La DIET (desorción inducida por transiciones electrónicas) es el mecanismo en que la excitación electrónica de una molécula de la superficie provoca su salida;
 
+🎯 **Por qué importa (clase B68-C02):** Si un hielo de CO a 15 K es estable térmicamente durante millones de años, la presencia de CO gaseoso en regiones frías exige otro mecanismo. La decisión central: ¿cuántas moléculas expulsa cada fotón y de qué depende ese número?
+
 📘 **Dónde se aprende** (1 clase): [B68-C02 · Fotodesorción de hielos interestelares](../programa/clases/B68/B68-C02-fotodesorcion-de-hielos-interestelares/CLASE.md).
 
 ### Diez principios
 
 - Los diez principios son los de la ECSA (2015).
+
+💡 **Cómo se explica en la clase [B129-C07](../programa/clases/B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md):**
+- Por lista: estado de los diez principios.
+- 🎯 **Por qué importa:** Un proyecto ciudadano que produce datos sin validar es una anécdota; con validación es evidencia. La decisión central: ¿cuántos votos por objeto hacen falta, cómo se sabe que el resultado coincide con el de los expertos y qué le falta al plan para ser una ciencia ciudadana bien hecha?
 
 📘 **Dónde se aprende** (1 clase): [B129-C07 · Proyecto de ciencia ciudadana validable](../programa/clases/B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md).
 
@@ -2240,17 +3470,25 @@
 
 - La diferencia lista añadidos, eliminados y modificados.
 
+🎯 **Por qué importa (clase B88-C18):** Si no se sabe exactamente qué firmware vuela, no se puede reproducir un fallo ni comprobar que se probó lo que se lanzó. La decisión central: ¿qué registro identifica de manera única una versión y permite verificarla?
+
 📘 **Dónde se aprende** (1 clase): [B88-C18 · Control de configuración de firmware](../programa/clases/B88/B88-C18-control-de-configuracion-de-firmware/CLASE.md).
 
 ### Diferencia de camino
 
-- Con `λ₀ = 600 nm` y un ancho de `10 nm` (ilustrativos) la longitud de coherencia `1/σ_k` es `13,49 µm` y la visibilidad a esa diferencia de camino es `0,6065`. *(tal como aparece en la clase)*
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+💡 **Cómo se explica en la clase [B42-C03](../programa/clases/B42/B42-C03-interferencia-y-coherencia/CLASE.md):**
+- Con `λ₀ = 600 nm` y un ancho de `10 nm` (ilustrativos) la longitud de coherencia `1/σ_k` es `13,49 µm` y la visibilidad a esa diferencia de camino es `0,6065`.
+- 🎯 **Por qué importa:** Sin coherencia no hay franjas: una fuente ancha en frecuencia o en tamaño borra la interferencia. La decisión central: ¿hasta qué diferencia de camino se ven franjas con una fuente de ancho espectral dado?
 
 📘 **Dónde se aprende** (2 clases): [B42-C03 · Interferencia y coherencia](../programa/clases/B42/B42-C03-interferencia-y-coherencia/CLASE.md); [B42-C09 · Interferometría de dos haces](../programa/clases/B42/B42-C09-interferometria-de-dos-haces/CLASE.md).
 
 ### Diferencia de camino óptico
 
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+🎯 **Por qué importa (clase B41-C13):** Dos defectos limitan el campo y la relación focal. La decisión central: ¿hasta qué f/ sirve una esfera y qué campo tolera un paraboloide?
 
 📘 **Dónde se aprende** (1 clase): [B41-C13 · Aberración esférica y coma](../programa/clases/B41/B41-C13-aberracion-esferica-y-coma/CLASE.md).
 
@@ -2258,17 +3496,25 @@
 
 - El desfase `o_s` y la diferencia de ganancia `g`.
 
+💡 **Cómo se explica en la clase [B43-C16](../programa/clases/B43/B43-C16-encoders-y-medicion-angular/CLASE.md):**
+- Con desfase `o_s = 0,01` el error máximo es `0,2063"` (teoría `0,2063"`); con diferencia de ganancia `g = 0,02` es `0,2042"` (teoría `0,2063"`).
+- 🎯 **Por qué importa:** El codificador es el ojo de la montura: lo que no mide, no lo corrige. La decisión central: ¿qué resolución, qué código y qué calidad de señal dan un error angular menor que el presupuesto?
+
 📘 **Dónde se aprende** (1 clase): [B43-C16 · Encoders y medición angular](../programa/clases/B43/B43-C16-encoders-y-medicion-angular/CLASE.md).
 
 ### Diferencia de imágenes
 
 - La diferencia de imágenes `d = I₂ − I₁` tiene ruido `σ_d = √2 σ`.
 
+🎯 **Por qué importa (clase B57-C27):** Un umbral bajo llena el mapa de falsas alarmas; uno alto deja pasar cambios reales. La decisión central: ¿qué umbral equilibra falsas alarmas y detecciones para el cambio que me interesa?
+
 📘 **Dónde se aprende** (1 clase): [B57-C27 · Detección de cambios en series de imágenes](../programa/clases/B57/B57-C27-deteccion-de-cambios-en-series-de-imagenes/CLASE.md).
 
 ### Diferencia de masas
 
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+🎯 **Por qué importa (clase B31-C11):** Detectar neutrinos del Sol, la atmósfera y aceleradores exige saber cuánto oscilan. La decisión central: ¿cuál es la probabilidad de oscilación a cierta distancia y energía?
 
 📘 **Dónde se aprende** (1 clase): [B31-C11 · Neutrinos y oscilaciones](../programa/clases/B31/B31-C11-neutrinos-y-oscilaciones/CLASE.md).
 
@@ -2276,11 +3522,17 @@
 
 - La diferencia de órdenes entre `A` y `B` es `eA − eB` y, de forma más fina, `log₁₀(A/B)`.
 
+💡 **Cómo se explica en la clase [B03-C05](../programa/clases/B03/B03-C05-notacion-cientifica-y-ordenes-de-magnitud/CLASE.md):**
+- La diferencia de órdenes se lee como cuántas veces hay que multiplicar por diez para pasar de una a otra.
+- 🎯 **Por qué importa:** Las fichas de la NASA publican las masas en «10²⁴ kg»: la Tierra es 5,9722, el Sol 1 988 400. Si no sabes leer ese `10²⁴`, tampoco sabrás si 1 988 400 es «un poco más» o «mucho más».
+
 📘 **Dónde se aprende** (1 clase): [B03-C05 · Notación científica y órdenes de magnitud](../programa/clases/B03/B03-C05-notacion-cientifica-y-ordenes-de-magnitud/CLASE.md).
 
 ### Diferencia entre la temperatura de ensayo y la prevista en órbita
 
 - Margen de ensayo: diferencia entre la temperatura de ensayo y la prevista en órbita. Balance térmico: ensayo para correlacionar el modelo térmico.
+
+🎯 **Por qué importa (clase B90-C11):** Una prueba funcional hecha antes de que la unidad se estabilice no demuestra nada sobre la temperatura extrema; una espera excesiva consume cámara y calendario. La decisión central: ¿cuánto debe esperar el ensayo para que la temperatura de la unidad sea la de la prueba?
 
 📘 **Dónde se aprende** (1 clase): [B90-C11 · Ensayos térmicos](../programa/clases/B90/B90-C11-ensayos-termicos/CLASE.md).
 
@@ -2288,11 +3540,15 @@
 
 - Una diferencia finita central aproxima `∂f/∂pⱼ ≈ (f(p + h eⱼ) − f(p − h eⱼ))/(2h)` (B09-C03/C04).
 
+🎯 **Por qué importa (clase B10-C19):** Una estación mide la distancia, el azimut y la elevación de un objeto con incertidumbres. Para decir dónde está en coordenadas cartesianas y cuánta incertidumbre tiene esa posición, hay que transformar los números y sus errores.
+
 📘 **Dónde se aprende** (1 clase): [B10-C19 · Jacobianos y linealización](../programa/clases/B10/B10-C19-jacobianos-y-linealizacion/CLASE.md).
 
 ### Diferencia fotosfera–meteorito
 
 - La diferencia fotosfera–meteorito es `Δ = A_fot − A_met`: positiva si el elemento está empobrecido en el meteorito; negativa si está empobrecido en el Sol.
+
+🎯 **Por qué importa (clase B06-C20):** Hay dos formas de saber de qué está hecho el Sistema Solar. Una es mirar la luz del Sol y deducir su composición; la otra es analizar en laboratorio meteoritos que conservan la composición del material con que se formó.
 
 📘 **Dónde se aprende** (1 clase): [B06-C20 · Análisis químico introductorio de meteoritos](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md).
 
@@ -2300,11 +3556,15 @@
 
 - La diferencia normalizada de dos medidas independientes es `z = |x₁ − x₂|/√(u₁² + u₂²)`: su denominador es la incertidumbre de la diferencia (S1, 5.1.2 con coeficientes `+1` y `−1`).
 
+🎯 **Por qué importa (clase B13-C18):** Tres radiómetros miden la misma irradiancia solar y dan `1361,4`, `1360,1` y `1362,9 W/m²`. Cada uno declara una incertidumbre.
+
 📘 **Dónde se aprende** (1 clase): [B13-C18 · Intercomparación de instrumentos](../programa/clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md).
 
 ### Diferencia RTN
 
 - La diferencia RTN descompone `Δr` en los ejes radial, transversal y normal de la referencia.
+
+🎯 **Por qué importa (clase B74-C20):** Una solución que ajusta bien sus datos puede predecir pésimamente. La decisión central: ¿dentro de qué tolerancia coincide mi solución con la referencia, en qué componente falla y qué modelo falta?
 
 📘 **Dónde se aprende** (1 clase): [B74-C20 · Validación frente a efemérides de referencia](../programa/clases/B74/B74-C20-validacion-frente-a-efemerides-de-referencia/CLASE.md).
 
@@ -2312,11 +3572,20 @@
 
 - La diferenciación es la separación de un cuerpo en capas de distinta densidad.
 
+💡 **Cómo se explica en la clase [B52-C18](../programa/clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md):**
+- Son cotas: parte se disipa, parte se pierde, y la diferenciación no es instantánea.
+- Con un cuerpo del tamaño de la Tierra (masa de la IAU), un núcleo de `11 000 kg/m³` y un manto de `4500 kg/m³` resulta un radio de núcleo de `3412 km`; la diferenciación libera `1.82e+31 J`, equivalentes a `3053 K` si todo se convirtiera en calor del cuerpo entero.
+- 🎯 **Por qué importa:** La energía disponible decide si un cuerpo funde y se diferencia o permanece primitivo. La decisión central: ¿cuánto calor aporta un radionúclido sin pérdidas y cuánta energía libera la diferenciación?
+
 📘 **Dónde se aprende** (2 clases): [B52-C18 · Diferenciación planetaria](../programa/clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md); [B53-C01 · Interior de planetas rocosos](../programa/clases/B53/B53-C01-interior-de-planetas-rocosos/CLASE.md).
 
 ### Diferenciación automática
 
 - La diferenciación automática calcula derivadas exactas llevando valor y derivada juntos.
+
+💡 **Cómo se explica en la clase [B09-C04](../programa/clases/B09/B09-C04-reglas-de-derivacion/CLASE.md):**
+- Con números duales (laboratorio): exacta como las reglas, pero automática; es la base de la diferenciación automática de los programas modernos de simulación.
+- 🎯 **Por qué importa:** La gravedad que siente un cuerpo depende de su distancia al astro: `g(r) = GM/r²`. La marea nace de que esa gravedad cambia de un lado a otro de un cuerpo extenso.
 
 📘 **Dónde se aprende** (1 clase): [B09-C04 · Reglas de derivación](../programa/clases/B09/B09-C04-reglas-de-derivacion/CLASE.md).
 
@@ -2325,6 +3594,10 @@
 - El diferencial `du = g′(x) dx` es la regla que traduce `dx` a `du`.
 - El diferencial conecta ambos balancines con el cuerpo de modo que el cabeceo del cuerpo es el promedio de los de los dos lados.
 
+💡 **Cómo se explica en la clase [B09-C09](../programa/clases/B09/B09-C09-integracion-por-sustitucion/CLASE.md):**
+- *Descripción textual:* se nombra la función interior `u`, se traduce el diferencial, se integra en `u` y se devuelve el resultado a `x`.
+- 🎯 **Por qué importa:** La densidad del aire decae con la altitud de forma exponencial, y la masa de aire sobre un punto determina la presión y la extinción de la luz. Para obtenerla hay que integrar `e^{−h/H}`, que no es una integral básica: la variable aparece dentro de un exponente.
+
 📘 **Dónde se aprende** (2 clases): [B09-C09 · Integración por sustitución](../programa/clases/B09/B09-C09-integracion-por-sustitucion/CLASE.md); [B102-C04 · Suspensión rocker-bogie y mecánica de rovers](../programa/clases/B102/B102-C04-suspension-rocker-bogie-y-mecanica-de-rovers/CLASE.md).
 
 ### Dificultad
@@ -2332,12 +3605,20 @@
 - La dificultad de un ítem es la proporción de respuestas correctas.
 - La dificultad `p` es la proporción de aciertos del ítem (más alto = más fácil).
 
+💡 **Cómo se explica en la clase [B130-C05](../programa/clases/B130/B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md):**
+- *Descripción textual:* los dos cuestionarios dan la ganancia normalizada; el posterior da además dificultad, discriminación y fiabilidad; el remuestreo da un intervalo que dice si la categoría es estable.
+- 🎯 **Por qué importa:** Saber si la divulgación funcionó exige medir la comprensión; ninguna otra clase lo trata. La decisión central: ¿qué número resume la mejora del público, y cuánto se puede confiar en que no sea azar?
+
 📘 **Dónde se aprende** (2 clases): [B130-C05 · Evaluación de la comprensión del público](../programa/clases/B130/B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md); [B131-C08 · Evaluación formativa en el aula de astronomía](../programa/clases/B131/B131-C08-evaluacion-formativa-en-el-aula-de-astronomia/CLASE.md).
 
 ### Difracción
 
 - La difracción es la dispersión de la luz al pasar por una abertura, que fija un límite mínimo a la resolución.
 - La difracción limita la resolución angular de una abertura circular de diámetro `D` a `θ ≈ 1,22 λ/D` (criterio de Rayleigh).
+
+💡 **Cómo se explica en la clase [B01-C10](../programa/clases/B01/B01-C10-limitaciones-de-los-sentidos-humanos/CLASE.md):**
+- ⚠️ **Error frecuente:** Tomar la cota de difracción como resolución real. Ejercicio 8.
+- 🎯 **Por qué importa:** Si el ojo bastara, no habría observatorios. La luz visible es una franja pequeña del espectro electromagnético (S1, S2); además, tu pupila recoge poca luz, separa detalles hasta cierto tamaño y puede engañarte.
 
 📖 **Explicado a fondo:** [Difracción](esencial/esencial-d-l.md#difracción) (intuición, fórmula, ejemplo numérico y errores frecuentes).
 
@@ -2350,11 +3631,21 @@
 - La difusión es la expansión de una práctica.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B14-C02](../programa/clases/B14/B14-C02-arreglos-multidimensionales-numpy/CLASE.md):**
+- La difusión es concisa y rápida, pero consume memoria `S·E·3` y puede volverse ilegible.
+- La estrategia sensata: bucle para verificar, difusión para trabajar, biblioteca cuando el tamaño lo exija.
+- 🎯 **Por qué importa:** Una constelación de seis satélites y cinco estaciones en tierra producen treinta distancias. Un catálogo de estrellas produce millones.
+
 📘 **Dónde se aprende** (4 clases): [B07-C09 · Cálculos científicos básicos con Python](../programa/clases/B07/B07-C09-calculos-cientificos-basicos-con-python/CLASE.md); [B14-C02 · Arreglos multidimensionales NumPy](../programa/clases/B14/B14-C02-arreglos-multidimensionales-numpy/CLASE.md); [B18-C02 · Paso de mensajes con MPI](../programa/clases/B18/B18-C02-paso-de-mensajes-con-mpi/CLASE.md); [B119-C31 · Práctica estatal y costumbre internacional en el derecho espacial](../programa/clases/B119/B119-C31-practica-estatal-y-costumbre-internacional-en-el-derecho-espacial/CLASE.md).
 
 ### Difusión de fotones
 
 - La difusión de fotones es la salida lenta de la radiación por un medio opaco.
+
+💡 **Cómo se explica en la clase [B30-C01](../programa/clases/B30/B30-C01-estructura-interna-del-sol/CLASE.md):**
+- *Descripción textual:* la gravedad y el equilibrio dan el politropo, del que salen las condiciones centrales; la gravedad también fija los tiempos de caída libre y de Kelvin–Helmholtz, y la estructura fija la difusión de fotones.
+- Los cuatro casos de referencia son el politropo `n = 3`, el tiempo de caída libre, el de difusión de fotones y el de Kelvin–Helmholtz.
+- 🎯 **Por qué importa:** Un Sol que pudiera colapsar en media hora, que tardara miles de años en dejar salir su luz y cuya energía no pudiera venir de la gravedad obliga a entender qué sostiene a una estrella. Sin un modelo mínimo de estructura, la actividad de las demás clases queda sin base.
 
 📘 **Dónde se aprende** (1 clase): [B30-C01 · Estructura interna del Sol](../programa/clases/B30/B30-C01-estructura-interna-del-sol/CLASE.md).
 
@@ -2362,11 +3653,15 @@
 
 - La difusión del momento mide `⟨(p_n − p_0)²⟩ = D n` en el mapa con `p` sin envolver.
 
+🎯 **Por qué importa (clase B73-C15):** Un conjunto de cuerpos en una región caótica no escapa de golpe: su excentricidad o su semieje se esparce como una caminata aleatoria, y el tiempo que tarda en recorrer una región fija la escala de supervivencia de la población. La decisión central: ¿cómo medir un coeficiente de difusión y cuándo no tiene sentido hablar de él?
+
 📘 **Dónde se aprende** (1 clase): [B73-C15 · Difusión orbital](../programa/clases/B73/B73-C15-difusion-orbital/CLASE.md).
 
 ### Difusión resistiva
 
 - La difusión resistiva `η = 1/(μ₀σ)`.
+
+🎯 **Por qué importa (clase B30-C11):** Las erupciones liberan en minutos una energía que el campo guardó durante mucho más tiempo, y el modelo más simple de reconexión es demasiado lento para eso. La decisión central: ¿qué tasa de reconexión hace falta y qué dice el modelo de Sweet–Parker?
 
 📘 **Dónde se aprende** (1 clase): [B30-C11 · Reconexión magnética](../programa/clases/B30/B30-C11-reconexion-magnetica/CLASE.md).
 
@@ -2375,11 +3670,19 @@
 - La difusividad `κ = k/(ρ c)`.
 - La difusividad `α = k/(ρc)`.
 
+💡 **Cómo se explica en la clase [B77-C16](../programa/clases/B77/B77-C16-proteccion-termica/CLASE.md):**
+- Paso 1 · Difusividad. `α = 0,5/(1500 × 1200) = 2,78·10⁻⁷ m²/s`.
+- 🎯 **Por qué importa:** La temperatura de la cara trasera es la que decide si la estructura sobrevive. La decisión central: ¿cuánto del calor entrante se re-radia, cuánto se almacena y cuánto sube la temperatura trasera con un espesor dado?
+
 📘 **Dónde se aprende** (2 clases): [B43-C11 · Dilatación térmica y estabilidad](../programa/clases/B43/B43-C11-dilatacion-termica-y-estabilidad/CLASE.md); [B77-C16 · Protección térmica](../programa/clases/B77/B77-C16-proteccion-termica/CLASE.md).
 
 ### Difusividad efectiva
 
 - La difusividad efectiva `D_e` mide qué tan fácil se mueve el soluto en la película.
+
+💡 **Cómo se explica en la clase [B64-C06](../programa/clases/B64/B64-C06-biofilms-en-ambientes-extremos/CLASE.md):**
+- Para calcular, usas una película sintética: difusividad efectiva `D_e = 10⁻⁹ m²/s`, concentración superficial `S₀ = 0,25 mol/m³` y espesores de 20 a 500 µm.
+- 🎯 **Por qué importa:** Una película de células y matriz crea su propio microambiente. La pregunta motivadora: ¿hasta qué profundidad llega un nutriente en un biofilm y qué sucede con las células que quedan más adentro?
 
 📘 **Dónde se aprende** (1 clase): [B64-C06 · Biofilms en ambientes extremos](../programa/clases/B64/B64-C06-biofilms-en-ambientes-extremos/CLASE.md).
 
@@ -2387,11 +3690,15 @@
 
 - La difusividad magnética es `η_m = 1/(μ₀σ)`.
 
+🎯 **Por qué importa (clase B65-C02):** La presencia o ausencia de un campo global dice si un cuerpo tiene un fluido conductor en movimiento. La decisión central: ¿qué intensidad de campo permite un núcleo y cuánto duraría ese campo si el movimiento se detuviera?
+
 📘 **Dónde se aprende** (1 clase): [B65-C02 · Dinamos planetarias y campos magnéticos de origen interno](../programa/clases/B65/B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md).
 
 ### Difusividad térmica
 
 - La difusividad térmica `κ` mide qué tan rápido se difunde el calor.
+
+🎯 **Por qué importa (clase B52-C17):** El calor determina si un cuerpo funde, se diferencia o se enfría rápido. La decisión central: ¿cuánto tarda un cuerpo en perder su calor y cuánto lo calienta un impacto?
 
 📘 **Dónde se aprende** (1 clase): [B52-C17 · Colisiones y evolución térmica](../programa/clases/B52/B52-C17-colisiones-y-evolucion-termica/CLASE.md).
 
@@ -2400,11 +3707,18 @@
 - La heurística octil estima el costo con movimientos ortogonales y diagonales. Dijkstra es A* con `h = 0`.
 - El cordón de seguridad ata a la persona a un anclaje; limita la distancia al anclaje. Dijkstra es el algoritmo que halla el camino de menor coste con costes no negativos.
 
+💡 **Cómo se explica en la clase [B97-C08](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md):**
+- Dijkstra, `1238`: un ahorro de `0,353` (como fracción de los nodos de Dijkstra).
+- La diferencia de costo con Dijkstra es `0,00e+00`.
+- 🎯 **Por qué importa:** Con retardo de comunicación y poca energía, la ruta debe salir buena a la primera. A* garantiza la ruta de costo mínimo si la heurística es admisible, y ahorra cómputo, que a bordo es escaso.
+
 📘 **Dónde se aprende** (2 clases): [B97-C08 · Planificación de trayectorias robóticas](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md); [B108-C02 · Planificación de desplazamientos y rutas de EVA](../programa/clases/B108/B108-C02-planificacion-de-desplazamientos-y-rutas-de-eva/CLASE.md).
 
 ### Dilatación
 
 - La dilatación `α` desplaza el pico.
+
+🎯 **Por qué importa (clase B36-C07):** Una regla estándar permite medir distancias si se conoce su longitud. La decisión central: ¿cuánto mide la regla y cuál es la precisión con que se puede medir su dilatación?
 
 📘 **Dónde se aprende** (1 clase): [B36-C07 · Oscilaciones acústicas bariónicas como regla estándar](../programa/clases/B36/B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md).
 
@@ -2412,12 +3726,19 @@
 
 - La dilatación temporal relaciona ambos: `t = γτ`.
 
+🎯 **Por qué importa (clase B26-C03):** Los muones se producen en la alta atmósfera por rayos cósmicos, viven microsegundos y, sin embargo, llegan al suelo en cantidad. Los relojes de satélites de navegación se ajustan por el mismo efecto.
+
 📘 **Dónde se aprende** (1 clase): [B26-C03 · Dilatación temporal y contracción](../programa/clases/B26/B26-C03-dilatacion-temporal-y-contraccion/CLASE.md).
 
 ### Diligencia debida
 
 - La diligencia debida es la información sobre fabricante y lanzador que prueba que la red se construirá.
 - La diligencia debida exige probar que una red será realmente construida.
+
+💡 **Cómo se explica en la clase [B120-C03](../programa/clases/B120/B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md):**
+- Con diligencia debida, cada país conserva solo lo que usará y lo liberado se reparte de nuevo: 21 países sirven (Gini 0,725).
+- El mismo documento describe dos mecanismos: la coordinación «primero en llegar, primero en ser servido» y los planes a priori (Apéndices 30, 30A y 30B), y explica que la diligencia debida administrativa busca evitar reservar capacidad sin uso real.
+- 🎯 **Por qué importa:** Las posiciones orbitales y el espectro son recursos escasos con reglas de asignación y no están tratados como concepto jurídico. La decisión central: ¿cuánto recurso hay, quién lo obtiene bajo cada régimen y qué mide la desigualdad del reparto?
 
 📘 **Dónde se aprende** (2 clases): [B120-C03 · Posiciones orbitales y espectro como recursos limitados](../programa/clases/B120/B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md); [B120-C04 · Documentación regulatoria de un sistema satelital](../programa/clases/B120/B120-C04-documentacion-regulatoria-de-un-sistema-satelital/CLASE.md).
 
@@ -2428,6 +3749,11 @@
 - La dilución reduce la profundidad.
 - *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
+💡 **Cómo se explica en la clase [B29-C08](../programa/clases/B29/B29-C08-falsos-positivos-de-transito/CLASE.md):**
+- Paso 2 · Dilución. `0,2 × 0,01/1,01 = 1,980 × 10⁻³`.
+- ⚠️ **Error frecuente:** Olvidar la dilución. Se corrige con el ejemplo 13.
+- 🎯 **Por qué importa:** Una pequeña fracción de falsos positivos contamina cualquier muestra de planetas. Conocer qué pruebas los detectan, con qué potencia y con qué falsas alarmas, permite diseñar cribados honestos.
+
 📘 **Dónde se aprende** (5 clases): [B29-C08 · Falsos positivos de tránsito](../programa/clases/B29/B29-C08-falsos-positivos-de-transito/CLASE.md); [B74-C27 · Navegación por púlsares de rayos X como técnica de investigación](../programa/clases/B74/B74-C27-navegacion-por-pulsares-de-rayos-x-como-tecnica-de-investigacion/CLASE.md); [B106-C17 · Prevención y respuesta a incendios](../programa/clases/B106/B106-C17-prevencion-y-respuesta-a-incendios/CLASE.md); [B118-C06 · Probabilidad de colisión](../programa/clases/B118/B118-C06-probabilidad-de-colision/CLASE.md); [B126-C01 · Capital semilla y financiamiento inicial](../programa/clases/B126/B126-C01-capital-semilla-y-financiamiento-inicial/CLASE.md).
 
 ### Dilución de la precisión
@@ -2436,11 +3762,18 @@
 - La dilución de la precisión (DOP) es `√tr[(HᵀH)⁻¹]`: cuánto amplifica la geometría el ruido de la medida.
 - La dilución de la precisión `DOP` viene de `(GᵀG)⁻¹`;
 
+💡 **Cómo se explica en la clase [B74-C05](../programa/clases/B74/B74-C05-sesgos-de-estaciones-terrestres/CLASE.md):**
+- *Descripción textual:* la geometría, el ruido, los sesgos y los errores de posición de estación entran en el ajuste y determinan el error 3D; la geometría fija la dilución de la precisión.
+- ⚠️ **Error frecuente:** Ignorar la geometría. Calcula la dilución de la precisión antes, como en 8.1.
+- 🎯 **Por qué importa:** Un error sistemático no se promedia: un sesgo de 3 m en cada estación no desaparece con más medidas. La decisión central: ¿qué sesgo conviene estimar, cuál conviene solo reconocer en la covarianza y cuándo el remedio empeora el problema?
+
 📘 **Dónde se aprende** (3 clases): [B74-C05 · Sesgos de estaciones terrestres](../programa/clases/B74/B74-C05-sesgos-de-estaciones-terrestres/CLASE.md); [B74-C15 · Geometría de la red de seguimiento](../programa/clases/B74/B74-C15-geometria-de-la-red-de-seguimiento/CLASE.md); [B89-C16 · GNSS como navegación de satélites](../programa/clases/B89/B89-C16-gnss-como-navegacion-de-satelites/CLASE.md).
 
 ### Dilución del haz
 
 - La dilución del haz es la fracción del haz llena por la fuente.
+
+🎯 **Por qué importa (clase B46-C05):** Para saber cuánto flujo hay en una fuente hay que conocer cuánta fracción del haz llena. La decisión central: ¿cuánto vale la temperatura de antena de una fuente extensa en un haz dado?
 
 📘 **Dónde se aprende** (1 clase): [B46-C05 · Ganancia y temperatura de antena](../programa/clases/B46/B46-C05-ganancia-y-temperatura-de-antena/CLASE.md).
 
@@ -2448,1392 +3781,9 @@
 
 - Normoxia: `PIO₂` de 145 a 155 mmHg. Diluyente: gas inerte de la mezcla (al menos 30 %).
 
+💡 **Cómo se explica en la clase [B106-C03](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md):**
+- O₂ puro a 4,3 psia da 175,4 mmHg pero incumple el diluyente y el rango de presión.
+- *Descripción textual:* una atmósfera es aceptable si cumple a la vez normoxia, diluyente mínimo y rango de presión total.
+- 🎯 **Por qué importa:** El cuerpo no responde a la fracción de oxígeno sino a su presión parcial; bajar la presión total exige subir la fracción, y eso trae riesgo de incendio (C17). La decisión central: ¿qué par presión–composición da normoxia dentro de los límites consultados?
+
 📘 **Dónde se aprende** (1 clase): [B106-C03 · Composición atmosférica respirable](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md).
-
-### Dimensión
-
-- La dimensión de una magnitud indica de qué unidades base depende y con qué exponentes.
-- Una dimensión es la naturaleza de la magnitud expresada con las magnitudes base: la dimensión de la velocidad es longitud / tiempo, sea cual sea la unidad que uses.
-- La dimensión es el número de vectores de cualquier base.
-- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📘 **Dónde se aprende** (5 clases): [B03-C06 · Unidades del Sistema Internacional](../programa/clases/B03/B03-C06-unidades-del-sistema-internacional/CLASE.md); [B05-C01 · Magnitudes físicas y dimensiones](../programa/clases/B05/B05-C01-magnitudes-fisicas-y-dimensiones/CLASE.md); [B10-C02 · Bases y dimensión](../programa/clases/B10/B10-C02-bases-y-dimension/CLASE.md); [B13-C02 · Dimensiones y trazabilidad](../programa/clases/B13/B13-C02-dimensiones-y-trazabilidad/CLASE.md); [B14-C04 · Unidades y constantes con Astropy](../programa/clases/B14/B14-C04-unidades-y-constantes-con-astropy/CLASE.md).
-
-### Dimensionalmente consistente
-
-- Una ecuación es dimensionalmente consistente si ambos miembros tienen el mismo vector y solo se suman términos de igual dimensión.
-
-📘 **Dónde se aprende** (1 clase): [B13-C02 · Dimensiones y trazabilidad](../programa/clases/B13/B13-C02-dimensiones-y-trazabilidad/CLASE.md).
-
-### Dimensiones
-
-- Las dimensiones de una magnitud son sus bases (longitud L, tiempo T, masa M); el análisis dimensional comprueba que ambos lados de una ecuación tengan las mismas dimensiones.
-
-📘 **Dónde se aprende** (1 clase): [B01-C08 · Mediciones y unidades astronómicas](../programa/clases/B01/B01-C08-mediciones-y-unidades-astronomicas/CLASE.md).
-
-### DIMM
-
-- Parámetro de Fried `r₀`: diámetro de coherencia de la turbulencia. DIMM: monitor de movimiento diferencial de imagen.
-
-📘 **Dónde se aprende** (1 clase): [B48-C12 · Monitorización de seeing](../programa/clases/B48/B48-C12-monitorizacion-de-seeing/CLASE.md).
-
-### Dinámica
-
-- La dinámica es la de Euler (C17) con tensor de inercia completo.
-
-📘 **Dónde se aprende** (1 clase): [B16-C20 · Control de orientación en un simulador](../programa/clases/B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md).
-
-### Dinamo
-
-- La dinamo es la conversión de energía cinética de un fluido conductor en energía magnética.
-
-📘 **Dónde se aprende** (1 clase): [B65-C02 · Dinamos planetarias y campos magnéticos de origen interno](../programa/clases/B65/B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md).
-
-### Dioptría
-
-- La dioptría (D) es 1/m.
-
-📘 **Dónde se aprende** (1 clase): [B105-C05 · Cambios de visión](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md).
-
-### Dipolo
-
-- Un dipolo son dos cargas opuestas muy próximas.
-- El dipolo es la anisotropía `1 + d cos θ`.
-- El dipolo es el campo de orden más bajo.
-- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📘 **Dónde se aprende** (5 clases): [B05-C15 · Campos eléctricos](../programa/clases/B05/B05-C15-campos-electricos/CLASE.md); [B28-C04 · Rayos cósmicos de alta energía](../programa/clases/B28/B28-C04-rayos-cosmicos-de-alta-energia/CLASE.md); [B30-C15 · Magnetosfera terrestre](../programa/clases/B30/B30-C15-magnetosfera-terrestre/CLASE.md); [B49-C01 · Antenas de hilo: dipolo, monopolo e impedancia de radiación](../programa/clases/B49/B49-C01-antenas-de-hilo-dipolo-monopolo-e-impedancia-de-radiacion/CLASE.md); [B87-C16 · Detumbling después del despliegue](../programa/clases/B87/B87-C16-detumbling-despues-del-despliegue/CLASE.md).
-
-### Dipolo de enlace
-
-- Un dipolo de enlace es el desplazamiento de carga en un enlace polar, representado como un vector.
-
-📘 **Dónde se aprende** (1 clase): [B06-C05 · Moléculas y geometría molecular](../programa/clases/B06/B06-C05-moleculas-y-geometria-molecular/CLASE.md).
-
-### Dipolo magnético en rotación
-
-- El dipolo magnético en rotación pierde energía por radiación dipolar.
-
-📘 **Dónde se aprende** (1 clase): [B27-C05 · Púlsares y relojes naturales](../programa/clases/B27/B27-C05-pulsares-y-relojes-naturales/CLASE.md).
-
-### Dipolo residual
-
-- El dipolo residual da `τ_m = m_res B`.
-
-📘 **Dónde se aprende** (1 clase): [B87-C18 · Estabilidad ante perturbaciones](../programa/clases/B87/B87-C18-estabilidad-ante-perturbaciones/CLASE.md).
-
-### Dirección
-
-- Su dirección `φ` se mide desde la velocidad (0 = tangencial).
-
-📘 **Dónde se aprende** (1 clase): [B75-C22 · Modelos de primer impulso](../programa/clases/B75/B75-C22-modelos-de-primer-impulso/CLASE.md).
-
-### Dirección de azimut
-
-- La dirección de azimut es la de vuelo; el alcance oblicuo `R` es la distancia al blanco.
-
-📘 **Dónde se aprende** (1 clase): [B69-C01 · Principio Doppler y resolución en azimut del SAR](../programa/clases/B69/B69-C01-principio-doppler-y-resolucion-en-azimut-del-sar/CLASE.md).
-
-### Dirección de máximo crecimiento
-
-- La dirección de máximo crecimiento es `∇f/|∇f|` y el ritmo máximo es `|∇f|`.
-
-📘 **Dónde se aprende** (1 clase): [B09-C17 · Gradiente y derivada direccional](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md).
-
-### Direccionamiento por contenido
-
-- El direccionamiento por contenido guarda cada objeto bajo su hash: el nombre *es* el contenido.
-
-📘 **Dónde se aprende** (1 clase): [B14-C11 · Control de versiones de datos](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md).
-
-### Directa
-
-- Una órbita es directa si `i < 90°` y retrógrada si `i > 90°`.
-
-📘 **Dónde se aprende** (1 clase): [B04-C14 · Producto vectorial y orientación](../programa/clases/B04/B04-C14-producto-vectorial-y-orientacion/CLASE.md).
-
-### Directamente proporcionales
-
-- Dos magnitudes son directamente proporcionales si su cociente `y/x` es constante: `y = kx`.
-
-📘 **Dónde se aprende** (1 clase): [B03-C10 · Proporcionalidad directa e inversa](../programa/clases/B03/B03-C10-proporcionalidad-directa-e-inversa/CLASE.md).
-
-### Directividad
-
-- La directividad `D` es el cociente entre la intensidad máxima y la media.
-- La directividad `D` es el cociente entre la intensidad de radiación máxima y la que tendría una fuente isótropa con la misma potencia radiada: `D = 4π U_max/∫U dΩ`.
-- La directividad compara con una antena isótropa.
-
-📘 **Dónde se aprende** (3 clases): [B46-C03 · Antenas parabólicas](../programa/clases/B46/B46-C03-antenas-parabolicas/CLASE.md); [B49-C01 · Antenas de hilo: dipolo, monopolo e impedancia de radiación](../programa/clases/B49/B49-C01-antenas-de-hilo-dipolo-monopolo-e-impedancia-de-radiacion/CLASE.md); [B91-C01 · Fundamentos de teoría de antenas](../programa/clases/B91/B91-C01-fundamentos-de-teoria-de-antenas/CLASE.md).
-
-### Directorio de teselas
-
-- Un directorio de teselas dice dónde empieza cada una y cuántos bytes ocupa.
-
-📘 **Dónde se aprende** (1 clase): [B14-C26 · Formatos de datos ráster geoespaciales: GeoTIFF y COG](../programa/clases/B14/B14-C26-formatos-de-datos-raster-geoespaciales-geotiff-y-cog/CLASE.md).
-
-### Directorio de trabajo
-
-- El directorio de trabajo es la carpeta en la que «estás parado»; los comandos y `open()` relativos se resuelven desde ahí.
-
-📘 **Dónde se aprende** (1 clase): [B07-C15 · Terminal y rutas de archivos](../programa/clases/B07/B07-C15-terminal-y-rutas-de-archivos/CLASE.md).
-
-### Directriz
-
-- Todas cumplen la propiedad foco–directriz: hay un punto (el foco) y una recta (la directriz) tales que la distancia de cada punto de la curva al foco es `e` veces su distancia a la directriz;
-- Una directriz es una recomendación.
-
-📘 **Dónde se aprende** (2 clases): [B04-C18 · Cónicas y secciones orbitales](../programa/clases/B04/B04-C18-conicas-y-secciones-orbitales/CLASE.md); [B118-C19 · Sostenibilidad y gobernanza orbital](../programa/clases/B118/B118-C19-sostenibilidad-y-gobernanza-orbital/CLASE.md).
-
-### Dirichlet
-
-- Las condiciones pueden ser de Dirichlet (valor de la función), Neumann (valor de la derivada) o mixtas.
-
-📘 **Dónde se aprende** (1 clase): [B11-C12 · Problemas de frontera](../programa/clases/B11/B11-C12-problemas-de-frontera/CLASE.md).
-
-### Discernibilidad (DM)
-
-- La discernibilidad (DM) mide la pérdida de información.
-
-📘 **Dónde se aprende** (1 clase): [B124-C13 · Ética de investigación y datos](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md).
-
-### Disco
-
-- El disco es el conjunto aplanado de estrellas y gas en rotación, dividido en disco delgado y grueso según la altura y la edad.
-
-📘 **Dónde se aprende** (1 clase): [B25-C01 · Estructura de la Vía Láctea](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md).
-
-### Disco de Airy
-
-- El disco de Airy es la imagen de una fuente puntual de una apertura circular, con FWHM `1,029 λ/D`.
-- El disco de Airy es la imagen de un punto limitada por difracción.
-
-📘 **Dónde se aprende** (4 clases): [B41-C12 · Difracción y límite de Rayleigh](../programa/clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md); [B42-C05 · Patrones de Airy](../programa/clases/B42/B42-C05-patrones-de-airy/CLASE.md); [B44-C17 · Escala de imagen y muestreo](../programa/clases/B44/B44-C17-escala-de-imagen-y-muestreo/CLASE.md); [B121-C02 · Licenciamiento de actividades de teledetección](../programa/clases/B121/B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md).
-
-### Disco de Miyamoto–Nagai
-
-- El disco de Miyamoto–Nagai `Φ = −GM/√(R² + (a + √(z² + b²))²)`.
-
-📘 **Dónde se aprende** (1 clase): [B38-C05 · Potenciales galácticos: Plummer, Miyamoto-Nagai y NFW](../programa/clases/B38/B38-C05-potenciales-galacticos-plummer-miyamoto-nagai-y-nfw/CLASE.md).
-
-### Disco delgado
-
-- El disco delgado es geométricamente delgado y estacionario.
-
-📘 **Dónde se aprende** (1 clase): [B27-C10 · Discos de acreción](../programa/clases/B27/B27-C10-discos-de-acrecion/CLASE.md).
-
-### Disco exponencial delgado
-
-- Un disco exponencial delgado tiene `Σ(R) = Σ₀e^{−R/R_d}`.
-
-📘 **Dónde se aprende** (1 clase): [B25-C08 · Curvas de rotación de galaxias](../programa/clases/B25/B25-C08-curvas-de-rotacion-de-galaxias/CLASE.md).
-
-### Disco pequeño
-
-- El disco pequeño es la aproximación en la que la gaussiana es casi constante en el disco.
-
-📘 **Dónde se aprende** (1 clase): [B118-C06 · Probabilidad de colisión](../programa/clases/B118/B118-C06-probabilidad-de-colision/CLASE.md).
-
-### Discontinuidad
-
-- Si falla, hay una discontinuidad: removible (el límite existe pero no coincide con `f(a)` o `f(a)` no existe), de salto (existen ambos límites laterales y son distintos) o infinita (la función crece sin cota).
-
-📘 **Dónde se aprende** (1 clase): [B09-C02 · Continuidad y discontinuidad](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md).
-
-### Discontinuidad de contacto
-
-- Una onda de choque es una discontinuidad que se propaga con compresión irreversible; una onda de rarefacción es una expansión continua; la discontinuidad de contacto separa dos gases con distinta densidad pero igual presión y velocidad.
-- La onda de rarefacción, la discontinuidad de contacto y el choque son las tres ondas del tubo de Sod.
-
-📘 **Dónde se aprende** (2 clases): [B21-C01 · Volúmenes finitos y solucionadores de Riemann para leyes de conservación](../programa/clases/B21/B21-C01-volumenes-finitos-y-solucionadores-de-riemann-para-leyes-de-conservacion/CLASE.md); [B38-C06 · Hidrodinámica en simulaciones: SPH y métodos de malla](../programa/clases/B38/B38-C06-hidrodinamica-en-simulaciones-sph-y-metodos-de-malla/CLASE.md).
-
-### Discrepancia
-
-- Realidad sintética: el «sistema» simulado con errores inventados. Discrepancia: diferencia entre el modelo y la realidad.
-
-📘 **Dónde se aprende** (1 clase): [B101-C08 · Gemelo digital para ensayo de reparaciones robóticas](../programa/clases/B101/B101-C08-gemelo-digital-para-ensayo-de-reparaciones-roboticas/CLASE.md).
-
-### Discrepancia de modelo
-
-- La discrepancia de modelo es la diferencia entre ambos, y en una prueba honesta existe.
-
-📘 **Dónde se aprende** (1 clase): [B22-C05 · Pruebas de inversión con datos sintéticos](../programa/clases/B22/B22-C05-pruebas-de-inversion-con-datos-sinteticos/CLASE.md).
-
-### Discreta
-
-- Es discreta si toma valores aislados y continua si toma cualquier valor de un intervalo (S1, C.2.2, nota 1).
-
-📘 **Dónde se aprende** (1 clase): [B12-C02 · Variables aleatorias](../programa/clases/B12/B12-C02-variables-aleatorias/CLASE.md).
-
-### Discreto
-
-- Un modelo es lineal si cumple superposición (lo precisa C03), invariante si sus parámetros no cambian con el tiempo, continuo si el tiempo es una variable real `t` y discreto si solo existe en instantes `kT`.
-
-📘 **Dónde se aprende** (1 clase): [B16-C01 · Modelos dinámicos y estados](../programa/clases/B16/B16-C01-modelos-dinamicos-y-estados/CLASE.md).
-
-### Discriminación
-
-- La discriminación es la correlación entre acertar el ítem y el puntaje en los demás.
-- La discriminación `r` mide si quienes aciertan el ítem puntúan mejor en el resto.
-
-📘 **Dónde se aprende** (2 clases): [B130-C05 · Evaluación de la comprensión del público](../programa/clases/B130/B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md); [B131-C08 · Evaluación formativa en el aula de astronomía](../programa/clases/B131/B131-C08-evaluacion-formativa-en-el-aula-de-astronomia/CLASE.md).
-
-### Discriminante
-
-- El discriminante es `Δ = b² − 4ac`.
-- El hessiano es la matriz de segundas derivadas; su discriminante es `D = f_xx f_yy − f_xy²`.
-
-📘 **Dónde se aprende** (2 clases): [B04-C02 · Ecuaciones lineales y cuadráticas](../programa/clases/B04/B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md); [B09-C16 · Derivadas parciales](../programa/clases/B09/B09-C16-derivadas-parciales/CLASE.md).
-
-### Diseño conceptual
-
-- Un diseño conceptual fija magnitudes y balances, no planos.
-
-📘 **Dónde se aprende** (1 clase): [B59-C20 · Diseño conceptual de planta ISRU](../programa/clases/B59/B59-C20-diseno-conceptual-de-planta-isru/CLASE.md).
-
-### Diseño de experimentos
-
-- El diseño de experimentos elige los puntos de entrada donde se ejecuta el simulador.
-
-📘 **Dónde se aprende** (1 clase): [B17-C04 · Modelos sustitutos (surrogates)](../programa/clases/B17/B17-C04-modelos-sustitutos-surrogates/CLASE.md).
-
-### Diseño equilibrado
-
-- Un diseño equilibrado tiene el mismo número de medidas por grupo.
-
-📘 **Dónde se aprende** (1 clase): [B13-C14 · Repetibilidad y reproducibilidad](../programa/clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md).
-
-### Diseño inclusivo
-
-- El diseño inclusivo busca que un producto o espacio sirva a la mayor diversidad posible de usuarios.
-
-📘 **Dónde se aprende** (1 clase): [B109-C08 · Diseño inclusivo en hábitats](../programa/clases/B109/B109-C08-diseno-inclusivo-en-habitats/CLASE.md).
-
-### Diseño longitudinal
-
-- Un diseño longitudinal mide las mismas unidades repetidamente.
-
-📘 **Dónde se aprende** (1 clase): [B12-C25 · Modelos longitudinales y de efectos mixtos para muestras pequeñas](../programa/clases/B12/B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/CLASE.md).
-
-### Diseño pareado
-
-- El diseño pareado compara a cada persona consigo misma.
-
-📘 **Dónde se aprende** (1 clase): [B105-C20 · Diseño de protocolo médico simulado](../programa/clases/B105/B105-C20-diseno-de-protocolo-medico-simulado/CLASE.md).
-
-### Diseño preliminar
-
-- Un diseño preliminar fija arquitectura, subsistemas y presupuestos con margen.
-
-📘 **Dónde se aprende** (1 clase): [B83-C20 · Diseño preliminar completo de misión](../programa/clases/B83/B83-C20-diseno-preliminar-completo-de-mision/CLASE.md).
-
-### Diseño sin requisito
-
-- Un requisito huérfano no tiene origen; un requisito no verificado no tiene prueba; el diseño sin requisito es *gold plating* o un requisito faltante.
-
-📘 **Dónde se aprende** (1 clase): [B83-C05 · Trazabilidad de requisitos](../programa/clases/B83/B83-C05-trazabilidad-de-requisitos/CLASE.md).
-
-### Diseño universal
-
-- El diseño universal busca que el entorno sirva a la mayoría sin adaptaciones posteriores.
-
-📘 **Dónde se aprende** (1 clase): [B128-C01 · Accesibilidad de la observación nocturna](../programa/clases/B128/B128-C01-accesibilidad-de-la-observacion-nocturna/CLASE.md).
-
-### Disimilitud de Bray–Curtis
-
-- La disimilitud de Bray–Curtis `1 − 2Σ mín(p, q)/(Σp + Σq)` va de 0 a 1.
-
-📘 **Dónde se aprende** (1 clase): [B105-C11 · Microbioma en ambientes cerrados](../programa/clases/B105/B105-C11-microbioma-en-ambientes-cerrados/CLASE.md).
-
-### Disipación
-
-- La disipación es el calor generado.
-- La disipación es `Ṫ = ω·τ_m < 0` en promedio.
-
-📘 **Dónde se aprende** (2 clases): [B86-C12 · Eficiencia y disipación](../programa/clases/B86/B86-C12-eficiencia-y-disipacion/CLASE.md); [B87-C16 · Detumbling después del despliegue](../programa/clases/B87/B87-C16-detumbling-despues-del-despliegue/CLASE.md).
-
-### Disipación del modo
-
-- La disipación del modo es la suma de las unidades.
-
-📘 **Dónde se aprende** (1 clase): [B85-C20 · Presupuesto térmico de carga útil](../programa/clases/B85/B85-C20-presupuesto-termico-de-carga-util/CLASE.md).
-
-### Disipativo
-
-- Un método es disipativo si reduce la energía y antidisipativo si la aumenta.
-
-📘 **Dónde se aprende** (1 clase): [B11-C10 · Conservación de energía numérica](../programa/clases/B11/B11-C10-conservacion-de-energia-numerica/CLASE.md).
-
-### Disociación
-
-- La disociación es la ruptura de moléculas a muy alta temperatura (no modelada).
-- La descomposición exotérmica libera calor; la disociación lo absorbe.
-
-📘 **Dónde se aprende** (2 clases): [B78-C04 · Propulsión monopropelente conceptual](../programa/clases/B78/B78-C04-propulsion-monopropelente-conceptual/CLASE.md); [B79-C14 · Propiedades de gases calientes](../programa/clases/B79/B79-C14-propiedades-de-gases-calientes/CLASE.md).
-
-### Disolución
-
-- Una disolución es una mezcla homogénea de un soluto en un disolvente; en esta clase, el disolvente es el agua.
-
-📘 **Dónde se aprende** (1 clase): [B06-C15 · Ácidos, bases y soluciones](../programa/clases/B06/B06-C15-acidos-bases-y-soluciones/CLASE.md).
-
-### Disolvente
-
-- Una disolución es una mezcla homogénea de un soluto en un disolvente; en esta clase, el disolvente es el agua.
-
-📘 **Dónde se aprende** (1 clase): [B06-C15 · Ácidos, bases y soluciones](../programa/clases/B06/B06-C15-acidos-bases-y-soluciones/CLASE.md).
-
-### Disparidad
-
-- La disparidad `d` es la diferencia de posición del punto en las dos imágenes, en píxeles.
-- La disparidad `d` es el desplazamiento horizontal de un punto entre las dos imágenes.
-
-📘 **Dónde se aprende** (2 clases): [B97-C04 · Visión estereoscópica](../programa/clases/B97/B97-C04-vision-estereoscopica/CLASE.md); [B103-C03 · Mapas de profundidad y correspondencia estéreo](../programa/clases/B103/B103-C03-mapas-de-profundidad-y-correspondencia-estereo/CLASE.md).
-
-### Disparo
-
-- El disparo integra desde el centro y ajusta `ω²` para cumplir la frontera.
-
-📘 **Dónde se aprende** (1 clase): [B37-C07 · Oscilaciones radiales y relación período-densidad media](../programa/clases/B37/B37-C07-oscilaciones-radiales-y-relacion-periodo-densidad-media/CLASE.md).
-
-### Disparo múltiple
-
-- El disparo múltiple divide el tiempo en `m` tramos: las incógnitas son `v₀` y los estados de los nodos, y las ecuaciones son los defectos de continuidad (fin de un tramo menos inicio del siguiente) más la condición final.
-
-📘 **Dónde se aprende** (1 clase): [B81-C02 · Método de disparo para control óptimo](../programa/clases/B81/B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md).
-
-### Disparo simple
-
-- El disparo simple integra desde `v₀` y corrige con Newton usando `∂r_f/∂v₀ = Φ_rv`.
-
-📘 **Dónde se aprende** (1 clase): [B81-C02 · Método de disparo para control óptimo](../programa/clases/B81/B81-C02-metodo-de-disparo-para-control-optimo/CLASE.md).
-
-### Dispensador
-
-- El dispensador es el contenedor que expulsa al CubeSat.
-
-📘 **Dónde se aprende** (1 clase): [B95-C01 · Unidad CubeSat, dimensiones y formatos](../programa/clases/B95/B95-C01-unidad-cubesat-dimensiones-y-formatos/CLASE.md).
-
-### Dispersión
-
-- La dispersión `σ_v` es su desviación típica.
-- La dispersión es la variabilidad del resultado ante un error.
-- La dispersión retrasa las frecuencias bajas.
-- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📘 **Dónde se aprende** (5 clases): [B26-C11 · Expansión cósmica y ley de Hubble-Lemaître](../programa/clases/B26/B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md); [B29-C17 · Fenómenos transitorios rápidos](../programa/clases/B29/B29-C17-fenomenos-transitorios-rapidos/CLASE.md); [B41-C14 · Aberración cromática y astigmatismo](../programa/clases/B41/B41-C14-aberracion-cromatica-y-astigmatismo/CLASE.md); [B46-C02 · Propagación de ondas de radio](../programa/clases/B46/B46-C02-propagacion-de-ondas-de-radio/CLASE.md); [B118-C13 · Desorbitación controlada](../programa/clases/B118/B118-C13-desorbitacion-controlada/CLASE.md).
-
-### Dispersión angular
-
-- La dispersión angular `dβ/dλ = m/(d cos β)`.
-- La dispersión angular `dD/dλ`.
-
-📘 **Dónde se aprende** (2 clases): [B45-C04 · Redes de difracción](../programa/clases/B45/B45-C04-redes-de-difraccion/CLASE.md); [B45-C05 · Prismas y dispersión](../programa/clases/B45/B45-C05-prismas-y-dispersion/CLASE.md).
-
-### Dispersión Compton
-
-- Muestrear la dispersión Compton por rechazo (semilla fija). *(tal como aparece en la clase)*
-
-📘 **Dónde se aprende** (1 clase): [B47-C06 · Instrumentos de rayos gamma](../programa/clases/B47/B47-C06-instrumentos-de-rayos-gamma/CLASE.md).
-
-### Dispersión Compton inversa
-
-- La dispersión Compton inversa transfiere energía de un electrón a un fotón.
-
-📘 **Dónde se aprende** (1 clase): [B27-C21 · Dispersión Compton inversa y emisión de alta energía](../programa/clases/B27/B27-C21-dispersion-compton-inversa-y-emision-de-alta-energia/CLASE.md).
-
-### Dispersión de aterrizaje
-
-- La dispersión de aterrizaje es el área donde puede caer la cápsula.
-
-📘 **Dónde se aprende** (1 clase): [B104-C14 · Supervivencia en entorno terrestre](../programa/clases/B104/B104-C14-supervivencia-en-entorno-terrestre/CLASE.md).
-
-### Dispersión de energía
-
-- La dispersión de energía `ΔE = GMR_*/r_t²`.
-
-📘 **Dónde se aprende** (1 clase): [B27-C16 · Eventos de disrupción por marea](../programa/clases/B27/B27-C16-eventos-de-disrupcion-por-marea/CLASE.md).
-
-### Dispersión de energía inicial
-
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
-
-📘 **Dónde se aprende** (1 clase): [B47-C08 · Espectrómetros de masas orbitales](../programa/clases/B47/B47-C08-espectrometros-de-masas-orbitales/CLASE.md).
-
-### Dispersión de fase
-
-- La dispersión de fase (PDM) mide cuánto varía el brillo dentro de cada bin de fase.
-
-📘 **Dónde se aprende** (1 clase): [B29-C14 · Estrellas variables periódicas](../programa/clases/B29/B29-C14-estrellas-variables-periodicas/CLASE.md).
-
-### Dispersión de Thomson
-
-- La dispersión de Thomson es la dispersión de la luz por electrones libres, con sección eficaz `σ_T`.
-
-📘 **Dónde se aprende** (1 clase): [B24-C09 · Atmósferas y opacidades](../programa/clases/B24/B24-C09-atmosferas-y-opacidades/CLASE.md).
-
-### Dispersión de velocidades
-
-- La dispersión de velocidades `σ` mide la agitación de las estrellas.
-- La dispersión de velocidades `σ_R` y `σ_φ` mide la agitación radial y azimutal.
-
-📘 **Dónde se aprende** (2 clases): [B25-C06 · Cúmulos estelares](../programa/clases/B25/B25-C06-cumulos-estelares/CLASE.md); [B25-C07 · Dinámica de poblaciones estelares](../programa/clases/B25/B25-C07-dinamica-de-poblaciones-estelares/CLASE.md).
-
-### Dispersión del plasma
-
-- La dispersión del plasma retrasa más las frecuencias bajas.
-
-📘 **Dónde se aprende** (1 clase): [B28-C01 · Fundamentos de mensajeros astronómicos](../programa/clases/B28/B28-C01-fundamentos-de-mensajeros-astronomicos/CLASE.md).
-
-### Dispersión en la línea de visión
-
-- La dispersión en la línea de visión `σ_los` es la desviación típica de las velocidades radiales de sus estrellas.
-
-📘 **Dónde se aprende** (1 clase): [B25-C10 · Galaxias irregulares y enanas](../programa/clases/B25/B25-C10-galaxias-irregulares-y-enanas/CLASE.md).
-
-### Dispersión intrínseca
-
-- La dispersión intrínseca es el ancho de la relación por la franja de inestabilidad finita.
-
-📘 **Dónde se aprende** (1 clase): [B24-C13 · Estrellas variables](../programa/clases/B24/B24-C13-estrellas-variables/CLASE.md).
-
-### Dispersión lineal
-
-- La dispersión lineal `d cos β/(m f_cam)` da nm por mm en el detector.
-
-📘 **Dónde se aprende** (1 clase): [B45-C06 · Diseño de espectrógrafos](../programa/clases/B45/B45-C06-diseno-de-espectrografos/CLASE.md).
-
-### Dispersivo
-
-- Un medio o un esquema es dispersivo si ondas de distinta `k` viajan a distinta velocidad.
-
-📘 **Dónde se aprende** (1 clase): [B21-C02 · Ecuación de onda: esquemas y dispersión numérica](../programa/clases/B21/B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md).
-
-### Disponibilidad
-
-- La disponibilidad es la probabilidad de que el sitio funcione.
-- La disponibilidad es `MTBF/(MTBF + MTTR)`.
-- (Es la convención de este curso, didáctica.) La disponibilidad a una demanda `D` es `P(M ≥ D)`.
-- *(y 7 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📘 **Dónde se aprende** (11 clases): [B28-C16 · Redes internacionales de alertas](../programa/clases/B28/B28-C16-redes-internacionales-de-alertas/CLASE.md); [B33-C09 · Planes de continuidad ante eventos de clima espacial](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md); [B48-C15 · Gestión de fallas de instrumentos](../programa/clases/B48/B48-C15-gestion-de-fallas-de-instrumentos/CLASE.md); [B59-C18 · Fiabilidad de equipos mineros](../programa/clases/B59/B59-C18-fiabilidad-de-equipos-mineros/CLASE.md); [B67-C08 · Informe de disponibilidad de volátiles con incertidumbre](../programa/clases/B67/B67-C08-informe-de-disponibilidad-de-volatiles-con-incertidumbre/CLASE.md); [B78-C22 · Ciclos de trabajo y operación de propulsión eléctrica](../programa/clases/B78/B78-C22-ciclos-de-trabajo-y-operacion-de-propulsion-electrica/CLASE.md) y 5 más.
-
-### Disponibilidad individual
-
-- La disponibilidad individual `p` es la probabilidad de que una persona pueda actuar.
-
-📘 **Dónde se aprende** (1 clase): [B122-C10 · Planes de continuidad institucional y de operaciones](../programa/clases/B122/B122-C10-planes-de-continuidad-institucional-y-de-operaciones/CLASE.md).
-
-### Disposición
-
-- No conformidad: producto que no cumple su requisito. Disposición: decisión sobre qué hacer.
-- Disposición: retiro de la nave al final de su vida.
-
-📘 **Dónde se aprende** (2 clases): [B90-C17 · Gestión de anomalías de prueba](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md); [B96-C18 · Fin de vida y disposición orbital](../programa/clases/B96/B96-C18-fin-de-vida-y-disposicion-orbital/CLASE.md).
-
-### Disposición a pagar
-
-- La disposición a pagar (DAP) `v` es lo máximo que un cliente pagaría.
-
-📘 **Dónde se aprende** (1 clase): [B125-C01 · Mercado de datos espaciales](../programa/clases/B125/B125-C01-mercado-de-datos-espaciales/CLASE.md).
-
-### Disposición posmisión
-
-- La disposición posmisión (PMD) es el conjunto de acciones para retirar o dejar segura la nave.
-
-📘 **Dónde se aprende** (1 clase): [B118-C11 · Diseño para mitigación de desechos](../programa/clases/B118/B118-C11-diseno-para-mitigacion-de-desechos/CLASE.md).
-
-### Dispositivo físico entre una fuente de energía y un peligro
-
-- Inhibidor independiente: dispositivo físico entre una fuente de energía y un peligro. Cronología: secuencia de eventos con sus tiempos.
-
-📘 **Dónde se aprende** (1 clase): [B90-C15 · Pruebas de despliegue](../programa/clases/B90/B90-C15-pruebas-de-despliegue/CLASE.md).
-
-### Distancia
-
-- El tiempo de ida y vuelta `t` es lo que tarda el pulso; la distancia (*range*) es `R = ct/2`.
-
-📘 **Dónde se aprende** (1 clase): [B57-C09 · Altimetría satelital](../programa/clases/B57/B57-C09-altimetria-satelital/CLASE.md).
-
-### Distancia angular
-
-- La distancia angular `c` entre dos puntos es el ángulo, medido desde el centro, entre las direcciones a ambos; la distancia de círculo máximo es `d = R c` (con `c` en radianes).
-- La distancia angular `d` al borde de un agujero coronal.
-
-📘 **Dónde se aprende** (2 clases): [B04-C16 · Geometría de esferas y círculos máximos](../programa/clases/B04/B04-C16-geometria-de-esferas-y-circulos-maximos/CLASE.md); [B33-C10 · Modelos de viento solar para pronóstico (Parker y WSA)](../programa/clases/B33/B33-C10-modelos-de-viento-solar-para-pronostico-parker-y-wsa/CLASE.md).
-
-### Distancia cenital
-
-- La altura `h` es el ángulo de un astro sobre el horizonte (0° horizonte, 90° cenit); la distancia cenital es `z = 90° − h`.
-
-📘 **Dónde se aprende** (1 clase): [B08-C04 · Altura y acimut](../programa/clases/B08/B08-C04-altura-y-acimut/CLASE.md).
-
-### Distancia comóvil
-
-- La distancia comóvil es `D_C = (c/H₀)∫dz/E`.
-
-📘 **Dónde se aprende** (4 clases): [B26-C17 · Estructura cosmológica](../programa/clases/B26/B26-C17-estructura-cosmologica/CLASE.md); [B26-C19 · Energía oscura y parámetros](../programa/clases/B26/B26-C19-energia-oscura-y-parametros/CLASE.md); [B40-C04 · Problemas del horizonte y de la planitud](../programa/clases/B40/B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md); [B40-C07 · Espectro angular de potencias del CMB](../programa/clases/B40/B40-C07-espectro-angular-de-potencias-del-cmb/CLASE.md).
-
-### Distancia comóvil transversal
-
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
-
-📘 **Dónde se aprende** (1 clase): [B36-C07 · Oscilaciones acústicas bariónicas como regla estándar](../programa/clases/B36/B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md).
-
-### Distancia crítica
-
-- La distancia crítica es donde el campo directo iguala al reverberante.
-
-📘 **Dónde se aprende** (1 clase): [B109-C10 · Acústica y control de ruido interior](../programa/clases/B109/B109-C10-acustica-y-control-de-ruido-interior/CLASE.md).
-
-### Distancia de campo lejano
-
-- La distancia de campo lejano `2D²/λ` es el criterio clásico para medir el patrón.
-
-📘 **Dónde se aprende** (1 clase): [B91-C05 · Medición y calibración de antenas](../programa/clases/B91/B91-C05-medicion-y-calibracion-de-antenas/CLASE.md).
-
-### Distancia de círculo máximo
-
-- La distancia angular `c` entre dos puntos es el ángulo, medido desde el centro, entre las direcciones a ambos; la distancia de círculo máximo es `d = R c` (con `c` en radianes).
-
-📘 **Dónde se aprende** (1 clase): [B04-C16 · Geometría de esferas y círculos máximos](../programa/clases/B04/B04-C16-geometria-de-esferas-y-circulos-maximos/CLASE.md).
-
-### Distancia de coordinación
-
-- La distancia de coordinación `d` es el radio de esa zona en este modelo circular.
-
-📘 **Dónde se aprende** (1 clase): [B120-C02 · Zonas de coordinación entre servicios radioeléctricos](../programa/clases/B120/B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md).
-
-### Distancia de falla
-
-- La distancia de falla es el módulo del error de llegada.
-
-📘 **Dónde se aprende** (1 clase): [B75-C18 · Propagación de dispersión inicial](../programa/clases/B75/B75-C18-propagacion-de-dispersion-inicial/CLASE.md).
-
-### Distancia de Fraunhofer
-
-- La distancia de Fraunhofer es `2D²/λ`.
-
-📘 **Dónde se aprende** (1 clase): [B49-C05 · Medición y calibración de patrones de antena](../programa/clases/B49/B49-C05-medicion-y-calibracion-de-patrones-de-antena/CLASE.md).
-
-### Distancia de frenado
-
-- La distancia de frenado es `d = v τ + v²/(2a)`, con `τ` la suma del ciclo y la latencia del sensor y `a` la desaceleración.
-
-📘 **Dónde se aprende** (1 clase): [B98-C05 · Autonomía de bajo nivel y comportamientos reactivos](../programa/clases/B98/B98-C05-autonomia-de-bajo-nivel-y-comportamientos-reactivos/CLASE.md).
-
-### Distancia de Hamming
-
-- La distancia de Hamming compara perfiles de obligaciones.
-
-📘 **Dónde se aprende** (1 clase): [B119-C33 · Matriz comparativa de obligaciones jurídicas por actor](../programa/clases/B119/B119-C33-matriz-comparativa-de-obligaciones-juridicas-por-actor/CLASE.md).
-
-### Distancia de Jaccard
-
-- La distancia de Jaccard es `1 − J`.
-
-📘 **Dónde se aprende** (1 clase): [B119-C19 · Legislación comparada y casos nacionales](../programa/clases/B119/B119-C19-legislacion-comparada-y-casos-nacionales/CLASE.md).
-
-### Distancia de Kolmogorov–Smirnov
-
-- La distancia de Kolmogorov–Smirnov (KS) entre la acumulada empírica y la normal es el máximo de la diferencia absoluta de ambas acumuladas.
-
-📘 **Dónde se aprende** (1 clase): [B12-C06 · Teorema central del límite](../programa/clases/B12/B12-C06-teorema-central-del-limite/CLASE.md).
-
-### Distancia de luminosidad
-
-- La distancia de luminosidad `D_L` define cuánto flujo llega: `F = L/(4πD_L²)`.
-
-📘 **Dónde se aprende** (1 clase): [B26-C19 · Energía oscura y parámetros](../programa/clases/B26/B26-C19-energia-oscura-y-parametros/CLASE.md).
-
-### Distancia de Mahalanobis
-
-- La distancia de Mahalanobis al cuadrado, `d² = eᵀP⁻¹e`, mide la distancia en unidades de incertidumbre y, para un vector gaussiano de dimensión `k`, sigue una `χ²` con `k` grados de libertad.
-- La distancia de Mahalanobis de un punto `x` a una distribución con media `μ` y covarianza `Σ` es `d² = (x − μ)ᵀ Σ⁻¹ (x − μ)`: mide la distancia en unidades de desviación, tomando en cuenta la correlación.
-- La distancia de Mahalanobis `d² = eᵀP⁻¹e` marca atípicos multivariados (C18).
-
-📘 **Dónde se aprende** (3 clases): [B12-C18 · Matrices de covarianza](../programa/clases/B12/B12-C18-matrices-de-covarianza/CLASE.md); [B12-C19 · Detección de valores atípicos](../programa/clases/B12/B12-C19-deteccion-de-valores-atipicos/CLASE.md); [B17-C05 · Detección de anomalías](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md).
-
-### Distancia de paso
-
-- La distancia de paso (*miss distance*) es esa mínima distancia.
-
-📘 **Dónde se aprende** (1 clase): [B118-C05 · Conjunciones orbitales](../programa/clases/B118/B118-C05-conjunciones-orbitales/CLASE.md).
-
-### Distancia de seguridad
-
-- La distancia de seguridad separa a las personas del lugar de lanzamiento.
-
-📘 **Dónde se aprende** (1 clase): [B119-C24 · Límites legales y de seguridad de la experimentación educativa](../programa/clases/B119/B119-C24-limites-legales-y-de-seguridad-de-la-experimentacion-educativa/CLASE.md).
-
-### Distancia diaria
-
-- La distancia diaria es velocidad × uso × horas.
-
-📘 **Dónde se aprende** (1 clase): [B97-C20 · Misión robótica integrada simulada](../programa/clases/B97/B97-C20-mision-robotica-integrada-simulada/CLASE.md).
-
-### Distancia epicentral
-
-- La distancia epicentral `Δ` es el ángulo en el centro entre fuente y estación.
-
-📘 **Dónde se aprende** (1 clase): [B53-C02 · Sismología planetaria](../programa/clases/B53/B53-C02-sismologia-planetaria/CLASE.md).
-
-### Distancia equivalente
-
-- La distancia equivalente es la que da cierta `T_eq`.
-
-📘 **Dónde se aprende** (1 clase): [B29-C13 · Zonas de habitabilidad](../programa/clases/B29/B29-C13-zonas-de-habitabilidad/CLASE.md).
-
-### Distancia focal
-
-- La distancia focal `c` es la distancia del centro a cada foco; se cumple `a² = b² + c²`.
-- La apertura `D` es el diámetro del objetivo o espejo; la distancia focal `F`, la longitud del camino óptico; la razón focal `N = F/D`.
-- La distancia focal `f` de un paraboloide `z = r²/(4f)` es la distancia del vértice al foco.
-- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📖 **Explicado a fondo:** [Distancia focal y número f](esencial/esencial-d-l.md#distancia-focal-y-número-f) (intuición, fórmula, ejemplo numérico y errores frecuentes).
-
-📘 **Dónde se aprende** (5 clases): [B04-C09 · Circunferencias y elipses](../programa/clases/B04/B04-C09-circunferencias-y-elipses/CLASE.md); [B08-C14 · Telescopios de iniciación](../programa/clases/B08/B08-C14-telescopios-de-iniciacion/CLASE.md); [B08-C19 · Fotografía astronómica elemental](../programa/clases/B08/B08-C19-fotografia-astronomica-elemental/CLASE.md); [B09-C13 · Áreas y volúmenes por integración](../programa/clases/B09/B09-C13-areas-y-volumenes-por-integracion/CLASE.md); [B71-C08 · Órbitas elípticas](../programa/clases/B71/B71-C08-orbitas-elipticas/CLASE.md).
-
-### Distancia focal posterior
-
-- En la biconvexa gruesa, `f = 103,786 mm`, la distancia focal posterior medida desde el vértice es `89,638 mm` y el plano principal posterior está `14,148 mm` dentro de la lente (fórmula de libro `−14,148 mm`). *(tal como aparece en la clase)*
-
-📘 **Dónde se aprende** (1 clase): [B41-C05 · Lentes delgadas y gruesas](../programa/clases/B41/B41-C05-lentes-delgadas-y-gruesas/CLASE.md).
-
-### Distancia focal posterior (BFD)
-
-- Medir la distancia focal posterior exacta por altura. *(tal como aparece en la clase)*
-
-📘 **Dónde se aprende** (1 clase): [B41-C08 · Trazado de rayos para telescopios](../programa/clases/B41/B41-C08-trazado-de-rayos-para-telescopios/CLASE.md).
-
-### Distancia imagen
-
-- La distancia objeto `s` y la distancia imagen `s'`.
-
-📘 **Dónde se aprende** (1 clase): [B41-C06 · Distancias focales y formación de imagen](../programa/clases/B41/B41-C06-distancias-focales-y-formacion-de-imagen/CLASE.md).
-
-### Distancia interpupilar
-
-- La distancia interpupilar es la separación de tus ojos que debes igualar con las bisagras; el ajuste dióptrico corrige la diferencia entre tus dos ojos.
-
-📘 **Dónde se aprende** (1 clase): [B08-C13 · Uso seguro de binoculares](../programa/clases/B08/B08-C13-uso-seguro-de-binoculares/CLASE.md).
-
-### Distancia KS
-
-- La distancia KS entre distribuciones.
-
-📘 **Dónde se aprende** (1 clase): [B34-C07 · Comparación de modelos coronales con observaciones](../programa/clases/B34/B34-C07-comparacion-de-modelos-coronales-con-observaciones/CLASE.md).
-
-### Distancia límite
-
-- La distancia límite es `d = √(L/S_ef)` con `L` en luminosidades solares y `d` en UA.
-
-📘 **Dónde se aprende** (1 clase): [B56-C12 · Exoplanetas potencialmente habitables](../programa/clases/B56/B56-C12-exoplanetas-potencialmente-habitables/CLASE.md).
-
-### Distancia mínima
-
-- El clasificador de distancia mínima asigna la clase de la media más cercana.
-
-📘 **Dónde se aprende** (1 clase): [B15-C22 · Clasificación supervisada de imágenes](../programa/clases/B15/B15-C22-clasificacion-supervisada-de-imagenes/CLASE.md).
-
-### Distancia mínima de paso
-
-- La distancia mínima de paso es la mínima distancia entre el sensor y la trayectoria.
-
-📘 **Dónde se aprende** (1 clase): [B118-C23 · Cobertura, sesgos y límites de las redes de vigilancia](../programa/clases/B118/B118-C23-cobertura-sesgos-y-limites-de-las-redes-de-vigilancia/CLASE.md).
-
-### Distancia normalizada
-
-- La distancia normalizada entre dos perfiles de `k` dimensiones en escala 0–100 es `√Σ(Δ)² / (100 √k)`.
-
-📘 **Dónde se aprende** (1 clase): [B111-C02 · Gestión intercultural en tripulaciones multinacionales](../programa/clases/B111/B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md).
-
-### Distancia objeto
-
-- La distancia objeto `s` y la distancia imagen `s'`.
-
-📘 **Dónde se aprende** (1 clase): [B41-C06 · Distancias focales y formación de imagen](../programa/clases/B41/B41-C06-distancias-focales-y-formacion-de-imagen/CLASE.md).
-
-### Distancia por Cefeidas
-
-- Una distancia por Cefeidas usa estrellas variables cuya luminosidad se relaciona con su período (S2); una distancia por fluctuaciones de brillo superficial usa la granularidad de la imagen de una galaxia elíptica (S3).
-
-📘 **Dónde se aprende** (1 clase): [B01-C15 · Galaxias y agrupaciones cósmicas](../programa/clases/B01/B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md).
-
-### Distancia por fluctuaciones de brillo superficial
-
-- Una distancia por Cefeidas usa estrellas variables cuya luminosidad se relaciona con su período (S2); una distancia por fluctuaciones de brillo superficial usa la granularidad de la imagen de una galaxia elíptica (S3).
-
-📘 **Dónde se aprende** (1 clase): [B01-C15 · Galaxias y agrupaciones cósmicas](../programa/clases/B01/B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md).
-
-### Distancia propia
-
-- La distancia propia es la longitud medida con la métrica a lo largo de un camino.
-
-📘 **Dónde se aprende** (1 clase): [B26-C07 · Curvatura y métricas](../programa/clases/B26/B26-C07-curvatura-y-metricas/CLASE.md).
-
-### Distancia proyectada
-
-- La distancia proyectada `ρ` es la distancia al núcleo en el plano del cielo.
-
-📘 **Dónde se aprende** (1 clase): [B55-C11 · Química en cometas](../programa/clases/B55/B55-C11-quimica-en-cometas/CLASE.md).
-
-### Distancia recorrida
-
-- El desplazamiento `Δr = r₂ − r₁` es el cambio de posición, y la distancia recorrida es la longitud del camino, que puede ser mayor.
-
-📘 **Dónde se aprende** (1 clase): [B05-C02 · Posición, velocidad y aceleración](../programa/clases/B05/B05-C02-posicion-velocidad-y-aceleracion/CLASE.md).
-
-### Distancia Tierra–Marte
-
-- La distancia Tierra–Marte varía entre un mínimo y un máximo de la ficha de la NASA.
-
-📘 **Dónde se aprende** (1 clase): [B113-C03 · Comunicación diferida y soporte psicológico a distancia](../programa/clases/B113/B113-C03-comunicacion-diferida-y-soporte-psicologico-a-distancia/CLASE.md).
-
-### Distancia transversal
-
-- La distancia transversal `D_M` coincide con `D_C` si no hay curvatura y es `(c/H₀)sinh(√Ω_k D_C H₀/c)/√Ω_k` si `Ω_k > 0`.
-
-📘 **Dónde se aprende** (1 clase): [B26-C19 · Energía oscura y parámetros](../programa/clases/B26/B26-C19-energia-oscura-y-parametros/CLASE.md).
-
-### Distinguible de cero
-
-- Un exceso es distinguible de cero si `ee/σ` supera ~3.
-
-📘 **Dónde se aprende** (1 clase): [B55-C17 · Compuestos prebióticos](../programa/clases/B55/B55-C17-compuestos-prebioticos/CLASE.md).
-
-### Distorsión
-
-- La distorsión es la desviación de la altura de imagen respecto de `f tan θ`.
-
-📘 **Dónde se aprende** (1 clase): [B50-C08 · Distorsión geométrica y su calibración](../programa/clases/B50/B50-C08-distorsion-geometrica-y-su-calibracion/CLASE.md).
-
-### Distorsión centrífuga
-
-- La distorsión centrífuga `D` corrige el alargamiento del enlace al girar.
-
-📘 **Dónde se aprende** (1 clase): [B62-C01 · Espectros rotacionales de moléculas: niveles y reglas de selección](../programa/clases/B62/B62-C01-espectros-rotacionales-de-moleculas-niveles-y-reglas-de-seleccion/CLASE.md).
-
-### Distorsión centrifugal
-
-- La distorsión centrifugal `D` corrige el estiramiento: `ν = 2 B J − 4 D J³`.
-
-📘 **Dónde se aprende** (1 clase): [B55-C09 · Espectros moleculares de radio](../programa/clases/B55/B55-C09-espectros-moleculares-de-radio/CLASE.md).
-
-### Distorsión espectral
-
-- La distorsión espectral es el cambio de los colores respecto al original.
-
-📘 **Dónde se aprende** (1 clase): [B15-C24 · Fusión de imágenes de distintos sensores](../programa/clases/B15/B15-C24-fusion-de-imagenes-de-distintos-sensores/CLASE.md).
-
-### Distorsión radial
-
-- La distorsión radial multiplica las coordenadas normalizadas por `1 + k1 r² + k2 r⁴`.
-
-📘 **Dónde se aprende** (1 clase): [B103-C01 · Calibración intrínseca de cámaras](../programa/clases/B103/B103-C01-calibracion-intrinseca-de-camaras/CLASE.md).
-
-### Distractor diagnóstico
-
-- Un distractor diagnóstico es una opción incorrecta escrita para que la elija quien tiene esa idea.
-
-📘 **Dónde se aprende** (1 clase): [B131-C03 · Conocimientos previos y concepciones alternativas](../programa/clases/B131/B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md).
-
-### Distribución
-
-- Una distribución (S1, C.2.3) es la función que da la probabilidad de cada valor o conjunto de valores de una variable aleatoria.
-
-📘 **Dónde se aprende** (1 clase): [B12-C03 · Distribuciones de probabilidad](../programa/clases/B12/B12-C03-distribuciones-de-probabilidad/CLASE.md).
-
-### Distribución acumulada
-
-- La distribución acumulada `N(>D)` cuenta cráteres mayores que `D`.
-
-📘 **Dónde se aprende** (1 clase): [B53-C08 · Cartografía de cráteres](../programa/clases/B53/B53-C08-cartografia-de-crateres/CLASE.md).
-
-### Distribución binomial
-
-- La distribución binomial da la probabilidad de `m` aciertos entre `N` intentos con probabilidad `p`.
-- La distribución binomial `B(n, p)` cuenta éxitos en `n` ensayos independientes con probabilidad `p`: `P(K = k) = C(n,k) pᵏ (1−p)ⁿ⁻ᵏ`.
-
-📘 **Dónde se aprende** (2 clases): [B02-C09 · Alineaciones arqueológicas y sesgos](../programa/clases/B02/B02-C09-alineaciones-arqueologicas-y-sesgos/CLASE.md); [B12-C03 · Distribuciones de probabilidad](../programa/clases/B12/B12-C03-distribuciones-de-probabilidad/CLASE.md).
-
-### Distribución chi-cuadrado
-
-- La distribución chi-cuadrado con `m` grados de libertad es la de la suma de `m` normales estándar al cuadrado; para datos normales de `m` variables, `d²` la sigue.
-
-📘 **Dónde se aprende** (1 clase): [B17-C05 · Detección de anomalías](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md).
-
-### Distribución de Bose–Einstein
-
-- La distribución de Bose–Einstein, la de Fermi–Dirac y la de Maxwell–Boltzmann.
-
-📘 **Dónde se aprende** (1 clase): [B31-C06 · Estadísticas cuánticas](../programa/clases/B31/B31-C06-estadisticas-cuanticas/CLASE.md).
-
-### Distribución de coseno
-
-- La distribución de coseno `F ∝ cos φ`.
-
-📘 **Dónde se aprende** (1 clase): [B43-C09 · Celdas y soporte de espejos](../programa/clases/B43/B43-C09-celdas-y-soporte-de-espejos/CLASE.md).
-
-### Distribución de entrenamiento
-
-- La distribución de entrenamiento es la de los datos con que se ajustó el modelo; la de despliegue, la de los datos donde se usa.
-
-📘 **Dónde se aprende** (1 clase): [B17-C07 · Validación fuera de distribución](../programa/clases/B17/B17-C07-validacion-fuera-de-distribucion/CLASE.md).
-
-### Distribución de Flory
-
-- La distribución de Flory da la fracción de cadenas de longitud `n`: `(1 − p) pⁿ⁻¹`.
-
-📘 **Dónde se aprende** (1 clase): [B56-C21 · Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio](../programa/clases/B56/B56-C21-polimerizacion-prebiotica-experimental-oligomeros-y-condiciones-de-laboratorio/CLASE.md).
-
-### Distribución de Gumbel
-
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
-
-📘 **Dónde se aprende** (1 clase): [B33-C03 · Eventos extremos históricos de clima espacial](../programa/clases/B33/B33-C03-eventos-extremos-historicos-de-clima-espacial/CLASE.md).
-
-### Distribución de Poisson
-
-- La distribución de Poisson de parámetro `λ` cuenta eventos independientes en un intervalo con tasa constante: `P(N = k) = e^{−λ} λᵏ / k!`.
-- La distribución de Poisson da `P(k) = e^(−μ) μ^k/k!`.
-
-📘 **Dónde se aprende** (2 clases): [B12-C03 · Distribuciones de probabilidad](../programa/clases/B12/B12-C03-distribuciones-de-probabilidad/CLASE.md); [B97-C12 · Robots de mantenimiento](../programa/clases/B97/B97-C12-robots-de-mantenimiento/CLASE.md).
-
-### Distribución de Rayleigh
-
-- La distribución de Rayleigh describe el módulo del error en 2D.
-- La distribución de Rayleigh describe la magnitud de un error 2D con componentes gaussianas independientes de dispersión `σ`.
-
-📘 **Dónde se aprende** (2 clases): [B58-C11 · Observaciones de seguimiento](../programa/clases/B58/B58-C11-observaciones-de-seguimiento/CLASE.md); [B92-C02 · Divergencia del haz y pérdidas por apuntamiento óptico](../programa/clases/B92/B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md).
-
-### Distribución de velocidades
-
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
-
-📘 **Dónde se aprende** (1 clase): [B47-C24 · Instrumentos de plasma y campos in situ](../programa/clases/B47/B47-C24-instrumentos-de-plasma-y-campos-in-situ/CLASE.md).
-
-### Distribución de Weibull
-
-- La distribución de Weibull da `P_f = 1 − exp(−(V/V₀)(σ/σ₀)ᵐ)`;
-
-📘 **Dónde se aprende** (1 clase): [B84-C04 · Cerámicos y polímeros espaciales](../programa/clases/B84/B84-C04-ceramicos-y-polimeros-espaciales/CLASE.md).
-
-### Distribución estacionaria
-
-- La distribución estacionaria `π` cumple `πP = π`: si el estado se distribuye según `π`, lo sigue haciendo.
-
-📘 **Dónde se aprende** (1 clase): [B12-C13 · Cadenas de Markov y muestreo](../programa/clases/B12/B12-C13-cadenas-de-markov-y-muestreo/CLASE.md).
-
-### Distribución exponencial
-
-- La distribución exponencial de tasa `r` describe el tiempo de espera entre eventos de un proceso de Poisson: densidad `r e^{−rt}` y `P(T > t) = e^{−rt}`.
-- Profundidad de descarga (DoD): fracción usable de la batería. Distribución exponencial: duración sin memoria.
-
-📘 **Dónde se aprende** (2 clases): [B12-C03 · Distribuciones de probabilidad](../programa/clases/B12/B12-C03-distribuciones-de-probabilidad/CLASE.md); [B48-C07 · Seguridad en instalaciones remotas](../programa/clases/B48/B48-C07-seguridad-en-instalaciones-remotas/CLASE.md).
-
-### Distribución fuente
-
-- Una rueda (*wheel*) es un paquete ya compilado para una plataforma; una distribución fuente (*sdist*) es el código sin compilar.
-
-📘 **Dónde se aprende** (1 clase): [B14-C12 · Ejecución reproducible con uv](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md).
-
-### Distribución kappa
-
-- La distribución kappa tiene una cola de ley de potencias y se acerca a la maxwelliana si `κ → ∞`.
-
-📘 **Dónde se aprende** (1 clase): [B35-C01 · Funciones de distribución de velocidades en plasmas](../programa/clases/B35/B35-C01-funciones-de-distribucion-de-velocidades-en-plasmas/CLASE.md).
-
-### Distribución normal
-
-- La distribución normal (o de Laplace–Gauss, S1, C.2.14;
-
-📘 **Dónde se aprende** (1 clase): [B12-C03 · Distribuciones de probabilidad](../programa/clases/B12/B12-C03-distribuciones-de-probabilidad/CLASE.md).
-
-### Distribución predictiva posterior
-
-- La distribución predictiva posterior de un dato nuevo `ỹ` es `p(ỹ | y) = ∫ p(ỹ | θ) p(θ | y) dθ`: promedia la predicción para cada valor del parámetro, ponderada por su posterior.
-
-📘 **Dónde se aprende** (1 clase): [B19-C06 · Distribución predictiva posterior](../programa/clases/B19/B19-C06-distribucion-predictiva-posterior/CLASE.md).
-
-### Distribución t de Student
-
-- La distribución `t` de Student con `ν` grados de libertad es la distribución de `(x̄ − μ)/(s/√n)` cuando los datos son normales y `ν = n − 1` (S1, G.3.2 y C.3.8).
-- La distribución t de Student describe la media estandarizada con `s` estimada.
-
-📘 **Dónde se aprende** (2 clases): [B12-C08 · Intervalos de confianza](../programa/clases/B12/B12-C08-intervalos-de-confianza/CLASE.md); [B13-C12 · Incertidumbre expandida](../programa/clases/B13/B13-C12-incertidumbre-expandida/CLASE.md).
-
-### Distribución tamaño-frecuencia
-
-- La distribución tamaño-frecuencia acumulada `N(>D)` cuenta las rocas mayores que `D`.
-
-📘 **Dónde se aprende** (1 clase): [B103-C06 · Detección y catalogación de rocas en imágenes de superficie](../programa/clases/B103/B103-C06-deteccion-y-catalogacion-de-rocas-en-imagenes-de-superficie/CLASE.md).
-
-### Distribución triangular
-
-- La distribución triangular `(a, m, b)` tiene mínimo `a`, moda `m` y máximo `b`.
-
-📘 **Dónde se aprende** (1 clase): [B108-C05 · Evaluación de secuencias y líneas de tiempo de EVA](../programa/clases/B108/B108-C05-evaluacion-de-secuencias-y-lineas-de-tiempo-de-eva/CLASE.md).
-
-### Distribución χ²
-
-- Término del vocabulario de la clase; su explicación completa está en la clase enlazada.
-
-📘 **Dónde se aprende** (1 clase): [B40-C15 · Varianza cósmica y límites de las mediciones del fondo](../programa/clases/B40/B40-C15-varianza-cosmica-y-limites-de-las-mediciones-del-fondo/CLASE.md).
-
-### DITL
-
-- Fit check: ajuste con el dispensador. DITL: prueba de «día en la vida».
-
-📘 **Dónde se aprende** (1 clase): [B90-C20 · Campaña conceptual de calificación de CubeSat](../programa/clases/B90/B90-C20-campana-conceptual-de-calificacion-de-cubesat/CLASE.md).
-
-### Divergencia
-
-- La divergencia `∇·F = ∂F₁/∂x + ∂F₂/∂y + ∂F₃/∂z` mide cuánto «sale» el campo de un punto (S1, §1.6(iii), ec. 1.6.21).
-- Una divergencia es una trayectoria de HMC en la que el error de energía excede un umbral grande (aquí 1000): el integrador no pudo seguir la geometría.
-- La divergencia `θ` es el semiángulo del cono en el campo lejano.
-- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📘 **Dónde se aprende** (4 clases): [B09-C19 · Cálculo vectorial introductorio](../programa/clases/B09/B09-C19-calculo-vectorial-introductorio/CLASE.md); [B19-C04 · Diagnóstico de convergencia de cadenas](../programa/clases/B19/B19-C04-diagnostico-de-convergencia-de-cadenas/CLASE.md); [B77-C17 · Estabilidad durante descenso](../programa/clases/B77/B77-C17-estabilidad-durante-descenso/CLASE.md); [B92-C02 · Divergencia del haz y pérdidas por apuntamiento óptico](../programa/clases/B92/B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md).
-
-### Divergencia cero
-
-- Un campo cuyo gradiente tiene traza nula es de divergencia cero (la divergencia es la traza de su gradiente).
-
-📘 **Dónde se aprende** (1 clase): [B10-C18 · Producto tensorial y contracción](../programa/clases/B10/B10-C18-producto-tensorial-y-contraccion/CLASE.md).
-
-### Divergencia de Kullback–Leibler
-
-- La divergencia de Kullback–Leibler de `q` respecto de `p` es `KL(q ‖ p) = E_q[log q(θ) − log p(θ)]`; es ≥ 0 y vale 0 solo si `q = p`.
-
-📘 **Dónde se aprende** (1 clase): [B19-C05 · Inferencia variacional](../programa/clases/B19/B19-C05-inferencia-variacional/CLASE.md).
-
-### Divergencia logarítmica
-
-- La divergencia logarítmica es el crecimiento de `t` como `ln(1/δ)` al acercarse a `r_s(1 + δ)`.
-
-📘 **Dónde se aprende** (1 clase): [B27-C08 · Horizonte de sucesos](../programa/clases/B27/B27-C08-horizonte-de-sucesos/CLASE.md).
-
-### Diversidad
-
-- La diversidad cuenta valores distintos del atributo sensible por grupo.
-
-📘 **Dónde se aprende** (1 clase): [B124-C13 · Ética de investigación y datos](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md).
-
-### Diversidad de estaciones
-
-- La diversidad de estaciones usa varias estaciones terrestres separadas para que no estén cubiertas a la vez.
-
-📘 **Dónde se aprende** (1 clase): [B92-C04 · Atmósfera y nubes en enlaces ópticos con la Tierra](../programa/clases/B92/B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md).
-
-### Dividendo
-
-- El dividendo es lo que se divide y el divisor entre lo que se divide.
-
-📘 **Dónde se aprende** (1 clase): [B03-C01 · Números y operaciones fundamentales](../programa/clases/B03/B03-C01-numeros-y-operaciones-fundamentales/CLASE.md).
-
-### Divisor
-
-- El dividendo es lo que se divide y el divisor entre lo que se divide.
-- El divisor entrega `V = V_ref R/(R + R_f)`.
-- El divisor de UART `d = f/(16·baud)`.
-
-📘 **Dónde se aprende** (3 clases): [B03-C01 · Números y operaciones fundamentales](../programa/clases/B03/B03-C01-numeros-y-operaciones-fundamentales/CLASE.md); [B85-C25 · Sensores y telemetría térmica](../programa/clases/B85/B85-C25-sensores-y-telemetria-termica/CLASE.md); [B88-C02 · Microcontroladores embarcados](../programa/clases/B88/B88-C02-microcontroladores-embarcados/CLASE.md).
-
-### Divulgación
-
-- Una fuente primaria es un documento de la propia misión o agencia; una de divulgación resume a otras.
-
-📘 **Dónde se aprende** (1 clase): [B104-C01 · Historia de vuelos tripulados](../programa/clases/B104/B104-C01-historia-de-vuelos-tripulados/CLASE.md).
-
-### DLI
-
-- PPFD: flujo de fotones útiles. DLI: mol de fotones por m² y día.
-
-📘 **Dónde se aprende** (1 clase): [B106-C12 · Agricultura en ambiente controlado](../programa/clases/B106/B106-C12-agricultura-en-ambiente-controlado/CLASE.md).
-
-### Doble
-
-- El doble reproduce las salidas.
-
-📘 **Dónde se aprende** (1 clase): [B88-C42 · Simuladores y mocks de sensores para pruebas](../programa/clases/B88/B88-C42-simuladores-y-mocks-de-sensores-para-pruebas/CLASE.md).
-
-### Doble búfer
-
-- El doble búfer alterna entre dos ranuras.
-
-📘 **Dónde se aprende** (1 clase): [B88-C35 · Reinicio en caliente y persistencia de estado](../programa/clases/B88/B88-C35-reinicio-en-caliente-y-persistencia-de-estado/CLASE.md).
-
-### Doble cobertura
-
-- La doble cobertura significa que `q` y `−q` representan la misma rotación (S1).
-- La doble cobertura dice que `q` y `−q` son la misma actitud.
-
-📘 **Dónde se aprende** (2 clases): [B10-C15 · Cuaterniones unitarios](../programa/clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md); [B87-C02 · Representaciones de orientación](../programa/clases/B87/B87-C02-representaciones-de-orientacion/CLASE.md).
-
-### Doble precisión
-
-- Un número en doble precisión (IEEE 754 *binary64*) tiene 1 bit de signo, 11 de exponente y 52 de mantisa (53 cifras binarias efectivas), es decir, unas 15 a 17 cifras decimales; la documentación de Python confirma los 53 bits de precisión (S1).
-
-📘 **Dónde se aprende** (1 clase): [B11-C25 · Aritmética de punto flotante y errores de redondeo](../programa/clases/B11/B11-C25-aritmetica-de-punto-flotante-y-errores-de-redondeo/CLASE.md).
-
-### Doble rendija
-
-- La doble rendija produce franjas de espaciado `λL/d`.
-- La doble rendija de separación `d`.
-
-📘 **Dónde se aprende** (2 clases): [B31-C01 · Dualidad onda-partícula](../programa/clases/B31/B31-C01-dualidad-onda-particula/CLASE.md); [B42-C04 · Difracción de aperturas](../programa/clases/B42/B42-C04-difraccion-de-aperturas/CLASE.md).
-
-### Doble uso
-
-- Doble uso es el que sirve a fines civiles y militares.
-- Un artículo de doble uso sirve para fines civiles y militares.
-
-📘 **Dónde se aprende** (2 clases): [B119-C17 · Conflictos y normas humanitarias aplicables](../programa/clases/B119/B119-C17-conflictos-y-normas-humanitarias-aplicables/CLASE.md); [B125-C05 · Control de exportaciones y transferencia de tecnología](../programa/clases/B125/B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md).
-
-### Doblete acromático
-
-- El doblete acromático anula el cromatismo primario.
-
-📘 **Dónde se aprende** (2 clases): [B41-C15 · Refractores acromáticos y apocromáticos](../programa/clases/B41/B41-C15-refractores-acromaticos-y-apocromaticos/CLASE.md); [B43-C21 · Selección de vidrios ópticos: catálogos, homogeneidad y diagramas](../programa/clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md).
-
-### Dobson
-
-- Un refractor reúne la luz con lentes; un reflector usa espejos y puede necesitar ajustar sus espejos (*colimación*); un Dobson es un reflector sobre una montura simple (S3).
-
-📘 **Dónde se aprende** (1 clase): [B08-C14 · Telescopios de iniciación](../programa/clases/B08/B08-C14-telescopios-de-iniciacion/CLASE.md).
-
-### Dockerfile
-
-- Un Dockerfile es el texto con las instrucciones para construirla (`FROM`, `COPY`, `RUN`, `WORKDIR`, `USER`, `CMD`).
-
-📘 **Dónde se aprende** (1 clase): [B14-C17 · Contenedores y ambientes científicos](../programa/clases/B14/B14-C17-contenedores-y-ambientes-cientificos/CLASE.md).
-
-### Docstring
-
-- Una docstring es la cadena al inicio de un módulo, clase o función que lo describe; la primera línea es un resumen corto, y el resto explica argumentos, valores devueltos, efectos y excepciones (S2).
-- Una docstring documenta un módulo, función o clase (S4).
-
-📘 **Dónde se aprende** (2 clases): [B07-C06 · Funciones y modularidad](../programa/clases/B07/B07-C06-funciones-y-modularidad/CLASE.md); [B07-C19 · Documentación y reproducibilidad](../programa/clases/B07/B07-C19-documentacion-y-reproducibilidad/CLASE.md).
-
-### Doctrina declarada
-
-- Una doctrina declarada es una posición publicada.
-
-📘 **Dónde se aprende** (1 clase): [B119-C26 · Doctrinas y políticas espaciales declaradas públicamente](../programa/clases/B119/B119-C26-doctrinas-y-politicas-espaciales-declaradas-publicamente/CLASE.md).
-
-### Documentar
-
-- Documentar es escribir lo necesario para entender y usar el código y los datos.
-
-📘 **Dónde se aprende** (1 clase): [B07-C19 · Documentación y reproducibilidad](../programa/clases/B07/B07-C19-documentacion-y-reproducibilidad/CLASE.md).
-
-### DoD
-
-- El DoD es la fracción descargada.
-- SOC: estado de carga. DoD: profundidad de descarga.
-
-📘 **Dónde se aprende** (2 clases): [B86-C05 · Baterías de ion-litio](../programa/clases/B86/B86-C05-baterias-de-ion-litio/CLASE.md); [B96-C12 · Gestión de energía en operaciones](../programa/clases/B96/B96-C12-gestion-de-energia-en-operaciones/CLASE.md).
-
-### Domina
-
-- Un sitio domina a otro si es al menos igual en todo y mejor en algo.
-- Un diseño domina a otro si su tiempo es menor o igual y su carga útil es mayor o igual, con una desigualdad estricta.
-- Una solución domina a otra si es mejor o igual en todos los criterios y mejor en alguno.
-- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-📘 **Dónde se aprende** (4 clases): [B67-C01 · Selección de sitios de extracción con criterios múltiples](../programa/clases/B67/B67-C01-seleccion-de-sitios-de-extraccion-con-criterios-multiples/CLASE.md); [B81-C11 · Optimización multicriterio y frentes de Pareto](../programa/clases/B81/B81-C11-optimizacion-multicriterio-y-frentes-de-pareto/CLASE.md); [B91-C06 · Selección y compromiso de diseño de antenas](../programa/clases/B91/B91-C06-seleccion-y-compromiso-de-diseno-de-antenas/CLASE.md); [B124-C12 · Evaluación de retorno científico](../programa/clases/B124/B124-C12-evaluacion-de-retorno-cientifico/CLASE.md).
-
-### Dominancia
-
-- La dominancia ocurre cuando otra opción es igual o mejor en todos los criterios y estrictamente mejor en uno.
-- Una dominancia ocurre cuando una alternativa gana en todos los criterios.
-
-📘 **Dónde se aprende** (2 clases): [B78-C20 · Comparación no operativa de arquitecturas de propulsión](../programa/clases/B78/B78-C20-comparacion-no-operativa-de-arquitecturas-de-propulsion/CLASE.md); [B83-C07 · Arquitecturas de sistemas](../programa/clases/B83/B83-C07-arquitecturas-de-sistemas/CLASE.md).
-
-### Dominante
-
-- La condición de energía débil pide `ρ ≥ 0` y `ρ + p ≥ 0`; la dominante, `ρ ≥ |p|`; la fuerte, `ρ + 3p ≥ 0`.
-
-📘 **Dónde se aprende** (1 clase): [B39-C04 · Tensor de energía-momento y fuentes de curvatura](../programa/clases/B39/B39-C04-tensor-de-energia-momento-y-fuentes-de-curvatura/CLASE.md).
-
-### Dominio
-
-- Una función `f` asigna a cada valor `x` de un conjunto (el dominio) un único valor `f(x)`; el conjunto de los resultados es el rango.
-- Una función de dos variables asigna a cada par `(x, y)` de su dominio un número `f(x, y)` (S1, §1.5).
-
-📘 **Dónde se aprende** (2 clases): [B04-C04 · Funciones y gráficas](../programa/clases/B04/B04-C04-funciones-y-graficas/CLASE.md); [B09-C15 · Funciones de varias variables](../programa/clases/B09/B09-C15-funciones-de-varias-variables/CLASE.md).
-
-### Dominio de electrones
-
-- Un dominio de electrones es una región alrededor del átomo central donde hay electrones: cada enlace (simple, doble o triple) cuenta como uno, y cada par solitario también.
-
-📘 **Dónde se aprende** (1 clase): [B06-C05 · Moléculas y geometría molecular](../programa/clases/B06/B06-C05-moleculas-y-geometria-molecular/CLASE.md).
-
-### Dominio de entrenamiento
-
-- El dominio de entrenamiento es el rango de entradas cubierto.
-
-📘 **Dónde se aprende** (1 clase): [B17-C04 · Modelos sustitutos (surrogates)](../programa/clases/B17/B17-C04-modelos-sustitutos-surrogates/CLASE.md).
-
-### Dominio de validación
-
-- El dominio de validación es el rango (cuerpo, tiempo, precisión) en que la comparación respalda el uso del modelo.
-- El dominio de verificación y el dominio de validación son los rangos en que se comprobó cada cosa.
-
-📘 **Dónde se aprende** (2 clases): [B23-C05 · Validación con conjuntos oficiales](../programa/clases/B23/B23-C05-validacion-con-conjuntos-oficiales/CLASE.md); [B23-C08 · Informe de verificación y validación](../programa/clases/B23/B23-C08-informe-de-verificacion-y-validacion/CLASE.md).
-
-### Dominio de validez
-
-- El dominio de validez es el rango en que el modelo se ha comprobado y se puede usar.
-- El dominio de validez es el rango de entradas para el que el modelo es correcto.
-
-📘 **Dónde se aprende** (2 clases): [B01-C17 · Construcción de modelos científicos](../programa/clases/B01/B01-C17-construccion-de-modelos-cientificos/CLASE.md); [B14-C01 · Arquitectura de software científico](../programa/clases/B14/B14-C01-arquitectura-de-software-cientifico/CLASE.md).
-
-### Dominio de verificación
-
-- El dominio de verificación y el dominio de validación son los rangos en que se comprobó cada cosa.
-
-📘 **Dónde se aprende** (1 clase): [B23-C08 · Informe de verificación y validación](../programa/clases/B23/B23-C08-informe-de-verificacion-y-validacion/CLASE.md).
-
-### Domo
-
-- Un domo es un edificio abovedado de magma muy viscoso.
-
-📘 **Dónde se aprende** (1 clase): [B70-C02 · Domos volcánicos y vulcanismo evolucionado](../programa/clases/B70/B70-C02-domos-volcanicos-y-vulcanismo-evolucionado/CLASE.md).
-
-### DOP
-
-- El DOP (*dilution of precision*) amplifica el error: `PDOP = √(Q₁₁+Q₂₂+Q₃₃)` con `Q = (GᵀG)⁻¹`.
-
-📘 **Dónde se aprende** (1 clase): [B57-C10 · Geodesia mediante GNSS](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md).
-
-### Doppler
-
-- Rango: distancia estación–satélite. Doppler: corrimiento de frecuencia.
-
-📖 **Explicado a fondo:** [Doppler (efecto)](esencial/esencial-d-l.md#doppler-efecto) (intuición, fórmula, ejemplo numérico y errores frecuentes).
-
-📘 **Dónde se aprende** (1 clase): [B96-C05 · Estaciones de seguimiento](../programa/clases/B96/B96-C05-estaciones-de-seguimiento/CLASE.md).
-
-### Doppler clásico
-
-- El Doppler clásico `z = v/c`; el relativista `1 + z = √((1+β)/(1−β))`.
-
-📘 **Dónde se aprende** (1 clase): [B45-C12 · Efecto Doppler en espectros](../programa/clases/B45/B45-C12-efecto-doppler-en-espectros/CLASE.md).
-
-### Doppler de dos sentidos
-
-- El Doppler de dos sentidos mide la diferencia entre la frecuencia emitida y la recibida tras el viaje de ida y vuelta.
-
-📘 **Dónde se aprende** (1 clase): [B74-C04 · Doppler de navegación](../programa/clases/B74/B74-C04-doppler-de-navegacion/CLASE.md).
-
-### Doppler de ida
-
-- El Doppler de ida es `f_D = −f ṙ/c`, con `ṙ` la velocidad radial (positiva si se aleja).
-
-📘 **Dónde se aprende** (1 clase): [B89-C15 · Rastreo y Doppler](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md).
-
-### Doppler de ida y vuelta
-
-- El Doppler de ida y vuelta coherente recibe `f_rx = (880/749) f_up (1 + …)`: la nave devuelve la portadora multiplicada por la razón de transpondedor (880/749 se usa aquí como ilustración).
-
-📘 **Dónde se aprende** (1 clase): [B89-C15 · Rastreo y Doppler](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md).
-
-### Doppler relativista
-
-- El Doppler relativista de una fuente que se aleja con `β` da `f_r/f_e = √((1−β)/(1+β)) = e^{−atanh β}`.
-- El Doppler relativista da `v = c((1+z)²−1)/((1+z)²+1)`.
-
-📘 **Dónde se aprende** (2 clases): [B26-C06 · Principio de equivalencia](../programa/clases/B26/B26-C06-principio-de-equivalencia/CLASE.md); [B26-C11 · Expansión cósmica y ley de Hubble-Lemaître](../programa/clases/B26/B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md).
-
-### Dormand–Prince 5(4)
-
-- RK4 es de orden 4. Dormand–Prince 5(4) es un par encajado de órdenes 5 y 4 cuya diferencia estima el error local.
-
-📘 **Dónde se aprende** (1 clase): [B72-C18 · Integración numérica perturbada](../programa/clases/B72/B72-C18-integracion-numerica-perturbada/CLASE.md).
-
-### Dos corrientes
-
-- La relación de dos corrientes `T_s⁴ = T_e⁴ (1 + 3τ/4)` es la solución gris en equilibrio radiativo.
-
-📘 **Dónde se aprende** (1 clase): [B54-C09 · Efecto invernadero](../programa/clases/B54/B54-C09-efecto-invernadero/CLASE.md).
-
-### Dos cuerpos
-
-- El problema de dos cuerpos describe un punto en el campo de una masa central.
-
-📘 **Dónde se aprende** (1 clase): [B58-C02 · Dinámica de asteroides](../programa/clases/B58/B58-C02-dinamica-de-asteroides/CLASE.md).
-
-### Dos ejes
-
-- un eje gira para seguir al Sol en el plano; dos ejes lo siguen siempre.
-
-📘 **Dónde se aprende** (1 clase): [B86-C04 · Orientación solar y eclipses](../programa/clases/B86/B86-C04-orientacion-solar-y-eclipses/CLASE.md).
-
-### Dos fases
-
-- El modelo de tres fases trata gas, superficie y manto como reservorios distintos; el de dos fases, solo gas y superficie.
-
-📘 **Dónde se aprende** (1 clase): [B60-C04 · Balance químico gas-grano: modelos de tres fases](../programa/clases/B60/B60-C04-balance-quimico-gas-grano-modelos-de-tres-fases/CLASE.md).
-
-### Dos haces
-
-- Los dos haces son dos poblaciones que se cruzan.
-
-📘 **Dónde se aprende** (1 clase): [B35-C03 · Inestabilidades de plasma: cinéticas y de fluido](../programa/clases/B35/B35-C03-inestabilidades-de-plasma-cineticas-y-de-fluido/CLASE.md).
-
-### Dosis
-
-- Una dosis es la energía absorbida por masa.
-- La dosis `D` es la energía depositada por molécula (eV/molécula).
-- La dosis es `p ∫ C dt`.
-
-📘 **Dónde se aprende** (3 clases): [B33-C08 · Dosis de radiación en aviación](../programa/clases/B33/B33-C08-dosis-de-radiacion-en-aviacion/CLASE.md); [B68-C03 · Irradiación de hielos por rayos cósmicos y UV: radiólisis y productos](../programa/clases/B68/B68-C03-irradiacion-de-hielos-por-rayos-cosmicos-y-uv-radiolisis-y-productos/CLASE.md); [B110-C02 · Protocolos operativos de aislamiento de un tripulante enfermo o contaminado](../programa/clases/B110/B110-C02-protocolos-operativos-de-aislamiento-de-un-tripulante-enfermo-o-contaminado/CLASE.md).
-
-### Dosis absorbida
-
-- La dosis absorbida `D` se mide en gray.
-- La dosis absorbida `D` (Gy = J/kg) es energía por masa.
-- La dosis absorbida `D` es la energía depositada por unidad de masa, `D = E/m`, y su unidad es el gray (1 Gy = 1 J/kg).
-
-📘 **Dónde se aprende** (3 clases): [B64-C01 · Radiotolerancia biológica y reparación del ADN](../programa/clases/B64/B64-C01-radiotolerancia-biologica-y-reparacion-del-adn/CLASE.md); [B105-C06 · Radiación ionizante y exposición](../programa/clases/B105/B105-C06-radiacion-ionizante-y-exposicion/CLASE.md); [B112-C01 · Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica](../programa/clases/B112/B112-C01-magnitudes-dosimetricas-dosis-absorbida-let-y-eficacia-biologica/CLASE.md).
-
-### Dosis característica
-
-- La dosis característica `D₀` es la que reduce la población a `1/e`.
-
-📘 **Dónde se aprende** (1 clase): [B55-C17 · Compuestos prebióticos](../programa/clases/B55/B55-C17-compuestos-prebioticos/CLASE.md).
-
-### Dosis de gravedad
-
-- La dosis de gravedad sería la relación entre `g` y la respuesta biológica: se desconoce en este texto.
-
-📘 **Dónde se aprende** (1 clase): [B105-C18 · Investigación de efectos de gravedad parcial](../programa/clases/B105/B105-C18-investigacion-de-efectos-de-gravedad-parcial/CLASE.md).
-
-### Dosis efectiva
-
-- La dosis efectiva es `E = Σ_T w_T H_T`, con `w_T` el factor de ponderación del tejido, que representa su contribución relativa al detrimento total y cuya suma vale 1 (definiciones del glosario de ICRP 103, consultado).
-- La dosis efectiva `E = Σ w_T H_T` (Sv) pondera por tejido; sus factores los fija la ICRP en su Publicación 103 (2007), página consultada el 2026-11-10 en resumen.
-
-📘 **Dónde se aprende** (2 clases): [B105-C06 · Radiación ionizante y exposición](../programa/clases/B105/B105-C06-radiacion-ionizante-y-exposicion/CLASE.md); [B112-C02 · Dosis equivalente y dosis efectiva](../programa/clases/B112/B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md).
-
-### Dosis equivalente
-
-- La dosis equivalente de un tejido es `H_T = Σ_R w_R D_{T,R}`, con `w_R` el factor de ponderación de la radiación (adimensional) que refleja la mayor eficacia biológica del alto LET; su unidad es el sievert.
-- La dosis equivalente `H` se mide en mSv.
-- La dosis equivalente `H_T = w_R D_T` (Sv) pondera por el tipo de radiación.
-
-📘 **Dónde se aprende** (3 clases): [B105-C06 · Radiación ionizante y exposición](../programa/clases/B105/B105-C06-radiacion-ionizante-y-exposicion/CLASE.md); [B112-C02 · Dosis equivalente y dosis efectiva](../programa/clases/B112/B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md); [B114-C04 · Refugio contra tormentas solares y compartimentos de protección](../programa/clases/B114/B114-C04-refugio-contra-tormentas-solares-y-compartimentos-de-proteccion/CLASE.md).
-
-### Dosis ionizante total
-
-- La dosis ionizante total (TID, en Gy).
-
-📘 **Dónde se aprende** (1 clase): [B47-C14 · Radiación y degradación](../programa/clases/B47/B47-C14-radiacion-y-degradacion/CLASE.md).
-
-### Dosis por órbita
-
-- La dosis por órbita es `∫ D dt`.
-
-📘 **Dónde se aprende** (1 clase): [B75-C28 · Restricciones de radiación en trayectorias](../programa/clases/B75/B75-C28-restricciones-de-radiacion-en-trayectorias/CLASE.md).
-
-### Dosis total ionizante
-
-- La dosis total ionizante acumulada se compara con umbrales de material.
-
-📘 **Dónde se aprende** (1 clase): [B85-C24 · Efectos de la radiación ionizante en materiales y electrónica](../programa/clases/B85/B85-C24-efectos-de-la-radiacion-ionizante-en-materiales-y-electronica/CLASE.md).
-
-### Dossier
-
-- El dossier reúne cifras, fuentes y derivaciones.
-- El dossier documenta requisitos, cálculos y verificación.
-
-📘 **Dónde se aprende** (2 clases): [B28-C20 · Caso de estudio de evento combinado](../programa/clases/B28/B28-C20-caso-de-estudio-de-evento-combinado/CLASE.md); [B43-C20 · Proyecto mecánico completo de telescopio](../programa/clases/B43/B43-C20-proyecto-mecanico-completo-de-telescopio/CLASE.md).
-
-### Dotación mínima
-
-- La dotación mínima `k` es el número de personas que necesita.
-
-📘 **Dónde se aprende** (1 clase): [B122-C10 · Planes de continuidad institucional y de operaciones](../programa/clases/B122/B122-C10-planes-de-continuidad-institucional-y-de-operaciones/CLASE.md).
-
-### Dragado
-
-- El dragado (*dredge-up*) es la mezcla convectiva que lleva a la superficie material procesado.
-
-📘 **Dónde se aprende** (1 clase): [B24-C21 · Rama asintótica de gigantes: pulsos térmicos y proceso s](../programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md).
-
-### DRO
-
-- Una DRO es una órbita periódica retrógrada y plana alrededor de la Luna.
-
-📘 **Dónde se aprende** (1 clase): [B76-C06 · Órbitas DRO — Dinámica cislunar y operaciones de proximidad](../programa/clases/B76/B76-C06-orbitas-dro-dinamica-cislunar-y-operaciones-de-proximidad/CLASE.md).
-
-### DSK
-
-- Los tipos descritos por NAIF son SPK (posición y velocidad), CK (orientación de nave), PCK (tamaño, forma y orientación de cuerpos), IK (campo de visión de instrumentos), FK (marcos), LSK (segundos intercalares), SCLK (reloj de nave) y DSK (formas).
-
-📘 **Dónde se aprende** (1 clase): [B74-C21 · Kernels SPICE y su uso en navegación](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md).
-
-### Dunas
-
-- Las ripples y dunas son formas que el transporte genera en el lecho.
-
-📘 **Dónde se aprende** (1 clase): [B66-C03 · Procesos eólicos: dunas, ripples y erosión planetaria](../programa/clases/B66/B66-C03-procesos-eolicos-dunas-ripples-y-erosion-planetaria/CLASE.md).
-
-### Duplicación de paso
-
-- La duplicación de paso compara un paso de tamaño `h` con dos de tamaño `h/2`; para un método de orden 4, el error del resultado de dos pasos medios es aproximadamente `|s₂ − s₁|/15` (extrapolación de Richardson).
-
-📘 **Dónde se aprende** (1 clase): [B11-C08 · Integradores de paso adaptativo](../programa/clases/B11/B11-C08-integradores-de-paso-adaptativo/CLASE.md).
-
-### Duplicado
-
-- Un duplicado es la misma obra registrada más de una vez, por ejemplo la versión de un manuscrito y la del artículo publicado.
-- Un duplicado repite una clave.
-
-📘 **Dónde se aprende** (2 clases): [B20-C01 · Búsqueda bibliográfica sistemática y gestión de referencias](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md); [B129-C04 · Contribución de medidas voluntarias con control de calidad](../programa/clases/B129/B129-C04-contribucion-de-medidas-voluntarias-con-control-de-calidad/CLASE.md).
-
-### Duplicado exacto
-
-- Un duplicado exacto es una fila repetida en todas sus columnas, incluido su identificador.
-
-📘 **Dónde se aprende** (1 clase): [B14-C08 · Pandas y limpieza de datos](../programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/CLASE.md).
-
-### Duración
-
-- La duración es el tiempo del tránsito.
-- La duración `T₁₄` va del primer al último contacto.
-
-📘 **Dónde se aprende** (2 clases): [B29-C01 · Tránsitos planetarios](../programa/clases/B29/B29-C01-transitos-planetarios/CLASE.md); [B131-C06 · Aprendizaje basado en problemas con datos astronómicos](../programa/clases/B131/B131-C06-aprendizaje-basado-en-problemas-con-datos-astronomicos/CLASE.md).
-
-### Duración cenital
-
-- La duración cenital `2λ_max/n` es la máxima.
-
-📘 **Dónde se aprende** (1 clase): [B89-C14 · Estaciones terrestres](../programa/clases/B89/B89-C14-estaciones-terrestres/CLASE.md).
-
-### Duración del vuelo
-
-- La duración del vuelo es el tiempo total de una misión; el período orbital es el de una sola vuelta.
-
-📘 **Dónde se aprende** (1 clase): [B02-C19 · Historia de la exploración espacial](../programa/clases/B02/B02-C19-historia-de-la-exploracion-espacial/CLASE.md).
-
-### Duración mínima
-
-- La duración mínima `T = V/(C_s Q)` supone caudal de banca llena continuo.
-
-📘 **Dónde se aprende** (1 clase): [B66-C04 · Redes fluviales fósiles y paleohidrología marciana](../programa/clases/B66/B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md).
-
-### Duración nominal
-
-- Reintento: repetición de un paso fallido. Duración nominal: suma sin fallos.
-
-📘 **Dónde se aprende** (1 clase): [B96-C14 · Procedimientos de recuperación](../programa/clases/B96/B96-C14-procedimientos-de-recuperacion/CLASE.md).
-
-### Duración singular
-
-- Una duración singular es un `T` en que `det Φ_rv` es casi nulo.
-
-📘 **Dónde se aprende** (1 clase): [B76-C12 · Guiado relativo](../programa/clases/B76/B76-C12-guiado-relativo/CLASE.md).
