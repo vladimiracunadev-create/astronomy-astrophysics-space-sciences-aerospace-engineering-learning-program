@@ -1,6 +1,6 @@
 # Estado verificable
 
-**Fecha de verificación:** 6 de noviembre de 2026 · **Versión documental:** `0.2.0`
+**Fecha de verificación:** 11 de noviembre de 2026 · **Versión documental:** `0.2.0`
 
 ## Resumen
 
@@ -19,8 +19,15 @@
 | Clases con texto redactado (A03, B24–B40) | 272 de 272 (160 de la línea base y 112 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (A04, B41–B51) | 222 de 222 (160 de la línea base y 62 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (A05, B52–B70) | 257 de 257 (160 de la línea base y 97 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
-| Clases con texto redactado (total) | 1.148 de 2.077 (800 de la línea base y 348 antes programadas); faltan 929 (A06 a A12) | `programa/clases/` |
-| Clases programadas (citadas y ubicadas) | 797: 348 (A02 a A05) ya tienen texto y 449 siguen sin redactar | `catalogo/v0.2.0/clases_programadas.jsonl` |
+| Clases con texto redactado (A06, B71–B82) | 237 de 237 (160 de la línea base y 77 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A07, B83–B95) | 259 de 259 (160 de la línea base y 99 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A08, B96–B103) | 105 de 105 (40 de la línea base y 65 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A09, B104–B117) | 153 de 153 (60 de la línea base y 93 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A10, B118–B123) | 85 de 85 (40 de la línea base y 45 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A11, B124–B127) | 44 de 44 (20 de la línea base y 24 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (A12, B128–B133) | 46 de 46 (todas antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
+| Clases con texto redactado (total) | 2.077 de 2.077 (1.280 de la línea base y 797 antes programadas); ninguna con revisión disciplinar | `programa/clases/` |
+| Clases programadas (citadas y ubicadas) | 797: las 797 ya tienen texto | `catalogo/v0.2.0/clases_programadas.jsonl` | `catalogo/v0.2.0/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |
 | Régimen de contenido original | CC BY-NC-SA 4.0 | `LICENSE-CONTENT.md` |
@@ -41,7 +48,8 @@
 - exactitud científica de las futuras clases;
 - lectura completa, vigencia o conformidad de las fuentes preliminares;
 - prerrequisitos clase por clase;
-- ejercicios, soluciones, laboratorios o simulaciones de las clases aún no redactadas (las 1.148 de A01 a A05 en `programa/clases/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa; los laboratorios de A02 a A05 se ejecutaron según los informes de sus sesiones de redacción y no se ha repetido esa ejecución de forma independiente; 144 de 146 scripts de laboratorio de A01 y A02 se ejecutaron sin error el 2026-11-05 en un equipo sin `astropy` (los otros 2 requieren esa biblioteca o comparan versiones declaradas); las fuentes enciclopédicas y divulgativas de B02, B04 y B08 se reemplazaron o se rotularon (quedan secundarias o divulgativas, por ejemplo en B02-C17, y una fuente académica pendiente sobre el calendario mapuche en B02-C01));
+- ejercicios, soluciones, laboratorios o simulaciones con revisión externa (las 2.077 de A01 a A12 en `programa/clases/` tienen ejercicios, soluciones y laboratorio o actividad, sin revisión externa; los laboratorios de A02 a A12 se ejecutaron según los informes de sus sesiones de redacción y no se ha repetido esa ejecución de forma independiente; 144 de 146 scripts de laboratorio de A01 y A02 se ejecutaron sin error el 2026-11-05 en un equipo sin `astropy` (los otros 2 requieren esa biblioteca o comparan versiones declaradas); las fuentes enciclopédicas y divulgativas de B02, B04 y B08 se reemplazaron o se rotularon (quedan secundarias o divulgativas, por ejemplo en B02-C17, y una fuente académica pendiente sobre el calendario mapuche en B02-C01));
+- fuentes primarias en todas las clases: algunas citan páginas de Wikipedia como fuente (B45 en parte, B46 y B50 de A04) y quedan pendientes de reemplazar por fuentes primarias; lo no consultado está rotulado «no consultado» en cada clase;
 - accesibilidad de contenidos todavía inexistentes;
 - equivalencias de horas, créditos, títulos o certificaciones;
 - revisión disciplinar externa o pilotaje con estudiantes;

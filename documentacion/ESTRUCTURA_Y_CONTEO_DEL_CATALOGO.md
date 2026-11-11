@@ -36,4 +36,4 @@ Nadie necesita cursar las 5.120 clases. El diagnóstico indica qué partes del t
 
 ## Estado de la redacción
 
-Todos los registros siguen en E0 en el catálogo. El texto de 1.148 clases está redactado y pendiente de revisión (las de las áreas A01 a A05: 160, 237, 272, 222 y 257); las demás solo tienen título, descripción y referencias preliminares, o son clases programadas sin redactar. El recuento vigente está en [`STATUS.md`](../STATUS.md).
+Todos los registros siguen en E0 en el catálogo. El texto de las 2.077 clases está redactado y pendiente de revisión (A01 a A12: 160, 237, 272, 222, 257, 237, 259, 105, 153, 85, 44 y 46). El recuento vigente está en [`STATUS.md`](../STATUS.md).

@@ -22,7 +22,7 @@
 | **A12** · Educación, historia aplicada y divulgación astronómica | 6 | 0 | 46 | 46 |
 | **Total** | **133** | **1.280** | **797** | **2.077** |
 
-Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 1.148 clases con texto redactado (áreas completas: A01 a A05), todas pendientes de revisión disciplinar; el resto no está redactado.
+Las áreas **no** tienen el mismo tamaño: crecen según el contenido que necesitan. La línea base tenía 8 áreas, 64 bloques y 1.280 clases de tronco; esta propuesta tiene 12 áreas, 133 bloques y 2.077 clases. Las 3.840 clases de las rutas se integraron aquí: 1.101 de sus 1.920 temas ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). Hoy hay 2.077 clases con texto redactado (áreas completas: A01 a A12), todas pendientes de revisión disciplinar; el resto no está redactado.
 
 **Cómo leer una línea:** `- **ID — título.** descripción`. Las clases programadas llevan la marca *Programada* y la necesidad que resuelven.
 
@@ -1553,7 +1553,7 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B72-C18 — Integración numérica perturbada.** Introduce «integración numérica perturbada» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B72-C19 — Análisis de sensibilidad orbital.** Describe los componentes principales de «análisis de sensibilidad orbital» y por qué son relevantes para esta disciplina.
 - **B72-C20 — Comparación de propagadores de fidelidad distinta.** Presenta qué significa «comparación de propagadores de fidelidad distinta», sus elementos esenciales y su función dentro de perturbaciones y evolución de órbitas.
-- **B72-C21 — Propagador SGP4 y teoría general de perturbaciones.** *Programada.* B72-C20 compara propagadores pero no enseña SGP4/SDP4.
+- **B72-C21 — Propagador SGP4 y teoría general de perturbaciones.** *Texto redactado, pendiente de revisión.* B72-C20 compara propagadores pero no enseña SGP4/SDP4.
 
 ### B73 — Mecánica celeste, resonancias y caos
 
@@ -1579,8 +1579,8 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B73-C18 — Satélites irregulares.** Ubica «satélites irregulares» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B73-C19 — Mecánica de sistemas lunares.** Introduce «mecánica de sistemas lunares» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B73-C20 — Proyecto de integración celeste de precisión.** Introduce «proyecto de integración celeste de precisión» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B73-C21 — Pasos cercanos a satélites naturales en integración de N cuerpos.** *Programada.* Manejo de encuentros con lunas y paso de paso adaptativo; ausente en B73.
-- **B73-C22 — Capturas temporales y cuasi-satélites.** *Programada.* Captura de pequeños cuerpos y órbitas de herradura; B73 trata resonancias, no capturas.
+- **B73-C21 — Pasos cercanos a satélites naturales en integración de N cuerpos.** *Texto redactado, pendiente de revisión.* Manejo de encuentros con lunas y paso de paso adaptativo; ausente en B73.
+- **B73-C22 — Capturas temporales y cuasi-satélites.** *Texto redactado, pendiente de revisión.* Captura de pequeños cuerpos y órbitas de herradura; B73 trata resonancias, no capturas.
 
 ### B74 — Estimación de órbitas y navegación espacial
 
@@ -1606,16 +1606,16 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B74-C18 — Estimación autónoma a bordo.** Presenta «estimación autónoma a bordo» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
 - **B74-C19 — Métricas de precisión de navegación.** Describe los componentes principales de «métricas de precisión de navegación» y por qué son relevantes para esta disciplina.
 - **B74-C20 — Validación frente a efemérides de referencia.** Presenta qué significa «validación frente a efemérides de referencia», sus elementos esenciales y su función dentro de estimación de órbitas y navegación espacial.
-- **B74-C21 — Kernels SPICE y su uso en navegación.** *Programada.* Estructura de kernels (SPK, CK, LSK) y toolkit; B74-C20 usa efemérides de referencia sin enseñar SPICE.
-- **B74-C22 — Informe de navegación verificable.** *Programada.* Estructura de informe con datos, versiones y tolerancias; B74-C20 trata la validación, no el informe.
-- **B74-C23 — Consistencia de filtros: innovaciones y pruebas NEES/NIS.** *Programada.* Enseña a verificar que un filtro es estadísticamente consistente con sus covarianzas; B74-C11/C12 tratan covarianza y propagación pero no las pruebas de consistencia.
-- **B74-C24 — Medidas retardadas y fuera de secuencia en filtros de estimación.** *Programada.* Cubre la incorporación de mediciones que llegan con retardo o desordenadas; ninguna clase de B74 ni B15 trata este problema de procesamiento.
-- **B74-C25 — Detección de limbo y bordes planetarios en imágenes de navegación.** *Programada.* Aporta la extracción de horizonte y bordes del cuerpo como medición de navegación; B15-C13 trata segmentación genérica y B74-C13 la navegación óptica sin esta técnica.
-- **B74-C26 — Navegación por hitos y correlación de terreno.** *Programada.* Cubre la localización por reconocimiento de hitos superficiales; B74-C13 presenta la navegación óptica pero no la correspondencia con hitos conocidos.
-- **B74-C27 — Navegación por púlsares de rayos X como técnica de investigación.** *Programada.* Introduce una técnica experimental de navegación autónoma; B74-C13..C17 no la tratan y B27 estudia púlsares solo como objetos astrofísicos.
-- **B74-C28 — Medidas de rango y Doppler para determinar la órbita.** *Programada.* Medir la distancia con señales de radio alimenta la determinación orbital; B74 trata estimación y geometría de seguimiento sin la medida de rango.
-- **B74-C29 — Formatos TLE y OMM de elementos orbitales.** *Programada.* B118-C02 trata catálogos; nadie enseña a leer e interpretar los formatos TLE y OMM.
-- **B74-C30 — Asociación de observaciones y correlación de pistas.** *Programada.* Cubre vincular observaciones con objetos catalogados; B74-C15 trata geometría de red, no la asociación.
+- **B74-C21 — Kernels SPICE y su uso en navegación.** *Texto redactado, pendiente de revisión.* Estructura de kernels (SPK, CK, LSK) y toolkit; B74-C20 usa efemérides de referencia sin enseñar SPICE.
+- **B74-C22 — Informe de navegación verificable.** *Texto redactado, pendiente de revisión.* Estructura de informe con datos, versiones y tolerancias; B74-C20 trata la validación, no el informe.
+- **B74-C23 — Consistencia de filtros: innovaciones y pruebas NEES/NIS.** *Texto redactado, pendiente de revisión.* Enseña a verificar que un filtro es estadísticamente consistente con sus covarianzas; B74-C11/C12 tratan covarianza y propagación pero no las pruebas de consistencia.
+- **B74-C24 — Medidas retardadas y fuera de secuencia en filtros de estimación.** *Texto redactado, pendiente de revisión.* Cubre la incorporación de mediciones que llegan con retardo o desordenadas; ninguna clase de B74 ni B15 trata este problema de procesamiento.
+- **B74-C25 — Detección de limbo y bordes planetarios en imágenes de navegación.** *Texto redactado, pendiente de revisión.* Aporta la extracción de horizonte y bordes del cuerpo como medición de navegación; B15-C13 trata segmentación genérica y B74-C13 la navegación óptica sin esta técnica.
+- **B74-C26 — Navegación por hitos y correlación de terreno.** *Texto redactado, pendiente de revisión.* Cubre la localización por reconocimiento de hitos superficiales; B74-C13 presenta la navegación óptica pero no la correspondencia con hitos conocidos.
+- **B74-C27 — Navegación por púlsares de rayos X como técnica de investigación.** *Texto redactado, pendiente de revisión.* Introduce una técnica experimental de navegación autónoma; B74-C13..C17 no la tratan y B27 estudia púlsares solo como objetos astrofísicos.
+- **B74-C28 — Medidas de rango y Doppler para determinar la órbita.** *Texto redactado, pendiente de revisión.* Medir la distancia con señales de radio alimenta la determinación orbital; B74 trata estimación y geometría de seguimiento sin la medida de rango.
+- **B74-C29 — Formatos TLE y OMM de elementos orbitales.** *Texto redactado, pendiente de revisión.* B118-C02 trata catálogos; nadie enseña a leer e interpretar los formatos TLE y OMM.
+- **B74-C30 — Asociación de observaciones y correlación de pistas.** *Texto redactado, pendiente de revisión.* Cubre vincular observaciones con objetos catalogados; B74-C15 trata geometría de red, no la asociación.
 
 ### B75 — Trayectorias y misiones interplanetarias
 
@@ -1641,16 +1641,16 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B75-C18 — Propagación de dispersión inicial.** Introduce el contexto y los principios de «propagación de dispersión inicial» para comprender su uso científico.
 - **B75-C19 — Restricciones de navegación autónoma.** Describe los componentes principales de «restricciones de navegación autónoma» y por qué son relevantes para esta disciplina.
 - **B75-C20 — Diseño de una misión a luna helada.** Introduce «diseño de una misión a luna helada» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B75-C21 — Intersección de cónicas en transferencias.** *Programada.* Geometría de transferencias por intersección de órbitas elípticas; B75-C01 trata geometría general, no este método.
-- **B75-C22 — Modelos de primer impulso.** *Programada.* Optimización del primer impulso y del tiempo de vuelo; ausente en B75.
-- **B75-C23 — Energía característica C3 y exceso hiperbólico.** *Programada.* Medida de energía de escape (C3, V-infinito) para dimensionar lanzamiento; B71-C15 solo trata velocidad de escape.
-- **B75-C24 — Plano B y parámetro de impacto.** *Programada.* Geometría B-plane para apuntar sobrevuelos; ausente.
-- **B75-C25 — Resonancias para sobrevuelos.** *Programada.* Retornos resonantes de sobrevuelo para encadenar encuentros; ausente.
-- **B75-C26 — Sobrevuelos de lunas y tours de sistemas planetarios.** *Programada.* Diseño de tours de lunas (Galileo, Cassini); B75-C20 es un caso, no la técnica.
-- **B75-C27 — Duración de misión y tiempo de vuelo como restricción.** *Programada.* Relación entre tiempo de vuelo, delta-v y costo; no cubierto.
-- **B75-C28 — Restricciones de radiación en trayectorias.** *Programada.* Cruces de cinturones y eventos solares como restricción de ruta; ausente.
-- **B75-C29 — Análisis de calendario con gráficos pork-chop.** *Programada.* Construcción de mapas fecha lanzamiento-llegada; ausente.
-- **B75-C30 — Validación de maniobras por reintegración.** *Programada.* Chequear una maniobra impulsiva reintegrando antes y después; ausente.
+- **B75-C21 — Intersección de cónicas en transferencias.** *Texto redactado, pendiente de revisión.* Geometría de transferencias por intersección de órbitas elípticas; B75-C01 trata geometría general, no este método.
+- **B75-C22 — Modelos de primer impulso.** *Texto redactado, pendiente de revisión.* Optimización del primer impulso y del tiempo de vuelo; ausente en B75.
+- **B75-C23 — Energía característica C3 y exceso hiperbólico.** *Texto redactado, pendiente de revisión.* Medida de energía de escape (C3, V-infinito) para dimensionar lanzamiento; B71-C15 solo trata velocidad de escape.
+- **B75-C24 — Plano B y parámetro de impacto.** *Texto redactado, pendiente de revisión.* Geometría B-plane para apuntar sobrevuelos; ausente.
+- **B75-C25 — Resonancias para sobrevuelos.** *Texto redactado, pendiente de revisión.* Retornos resonantes de sobrevuelo para encadenar encuentros; ausente.
+- **B75-C26 — Sobrevuelos de lunas y tours de sistemas planetarios.** *Texto redactado, pendiente de revisión.* Diseño de tours de lunas (Galileo, Cassini); B75-C20 es un caso, no la técnica.
+- **B75-C27 — Duración de misión y tiempo de vuelo como restricción.** *Texto redactado, pendiente de revisión.* Relación entre tiempo de vuelo, delta-v y costo; no cubierto.
+- **B75-C28 — Restricciones de radiación en trayectorias.** *Texto redactado, pendiente de revisión.* Cruces de cinturones y eventos solares como restricción de ruta; ausente.
+- **B75-C29 — Análisis de calendario con gráficos pork-chop.** *Texto redactado, pendiente de revisión.* Construcción de mapas fecha lanzamiento-llegada; ausente.
+- **B75-C30 — Validación de maniobras por reintegración.** *Texto redactado, pendiente de revisión.* Chequear una maniobra impulsiva reintegrando antes y después; ausente.
 
 ### B76 — Dinámica cislunar y operaciones de proximidad
 
@@ -1699,11 +1699,11 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B77-C18 — Aterrizaje y recuperación.** Introduce el contexto y los principios de «aterrizaje y recuperación» para comprender su uso científico.
 - **B77-C19 — Seguridad de rango a nivel conceptual.** Caracteriza «seguridad de rango a nivel conceptual», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
 - **B77-C20 — Simulación académica de una trayectoria de vuelo.** Presenta «simulación académica de una trayectoria de vuelo» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B77-C21 — Centro de presión y margen estático.** *Programada.* Es condición de estabilidad de lanzadores; B77-C17 trata estabilidad de descenso pero no el centro de presión.
-- **B77-C22 — Centro de masa y su variación con el consumo de propelente.** *Programada.* Afecta estabilidad y control; ninguna clase de B77 cubre la variación de masa e inercia en ascenso.
-- **B77-C23 — Estabilidad de vuelo de lanzadores en ascenso.** *Programada.* B77 cubre estabilidad en descenso, no en ascenso con cargas aerodinámicas.
-- **B77-C24 — Guiado y control de actitud de lanzadores (TVC).** *Programada.* Aporta el control del vector de empuje; B87 trata ADCS de satélites, no el de lanzadores.
-- **B77-C25 — Corredores de entrada y límites de trayectoria.** *Programada.* B77-C14 trata la dinámica de reentrada, pero no el corredor de entrada permitido.
+- **B77-C21 — Centro de presión y margen estático.** *Texto redactado, pendiente de revisión.* Es condición de estabilidad de lanzadores; B77-C17 trata estabilidad de descenso pero no el centro de presión.
+- **B77-C22 — Centro de masa y su variación con el consumo de propelente.** *Texto redactado, pendiente de revisión.* Afecta estabilidad y control; ninguna clase de B77 cubre la variación de masa e inercia en ascenso.
+- **B77-C23 — Estabilidad de vuelo de lanzadores en ascenso.** *Texto redactado, pendiente de revisión.* B77 cubre estabilidad en descenso, no en ascenso con cargas aerodinámicas.
+- **B77-C24 — Guiado y control de actitud de lanzadores (TVC).** *Texto redactado, pendiente de revisión.* Aporta el control del vector de empuje; B87 trata ADCS de satélites, no el de lanzadores.
+- **B77-C25 — Corredores de entrada y límites de trayectoria.** *Texto redactado, pendiente de revisión.* B77-C14 trata la dinámica de reentrada, pero no el corredor de entrada permitido.
 
 ### B78 — Tecnologías de propulsión espacial
 
@@ -1729,75 +1729,75 @@ Los mundos y la vida: formación planetaria, geología, atmósferas, química, a
 - **B78-C18 — Energía específica y limitaciones.** Introduce el contexto y los principios de «energía específica y limitaciones» para comprender su uso científico.
 - **B78-C19 — Madurez tecnológica TRL.** Describe los componentes principales de «madurez tecnológica TRL» y por qué son relevantes para esta disciplina.
 - **B78-C20 — Comparación no operativa de arquitecturas de propulsión.** Presenta qué significa «comparación no operativa de arquitecturas de propulsión», sus elementos esenciales y su función dentro de tecnologías de propulsión espacial.
-- **B78-C21 — Erosión y vida útil de propulsores eléctricos.** *Programada.* La erosión limita la vida del propulsor y no se trata en B78, que describe tipos sin analizar su degradación.
-- **B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica.** *Programada.* Relaciona potencia disponible y tiempo de empuje; B78 y B86 no tratan el ciclo de trabajo del propulsor.
+- **B78-C21 — Erosión y vida útil de propulsores eléctricos.** *Texto redactado, pendiente de revisión.* La erosión limita la vida del propulsor y no se trata en B78, que describe tipos sin analizar su degradación.
+- **B78-C22 — Ciclos de trabajo y operación de propulsión eléctrica.** *Texto redactado, pendiente de revisión.* Relaciona potencia disponible y tiempo de empuje; B78 y B86 no tratan el ciclo de trabajo del propulsor.
 
 ### B79 — Fluidos, termodinámica y aerotermodinámica de propulsión
 
 *Bloque nuevo (16 clases): Conservación de masa en fluidos; Ecuaciones de Euler para flujo no viscoso; Ecuaciones de Navier-Stokes…*
 
-- **B79-C01 — Conservación de masa en fluidos.** *Programada.* Ninguna clase del tronco trata la mecánica de fluidos; B05-C14 solo ve gases y presión. Es la base para toberas y aerodinámica.
-- **B79-C02 — Ecuaciones de Euler para flujo no viscoso.** *Programada.* Aporta las ecuaciones de flujo ideal base del análisis de toberas; el tronco no incluye mecánica de fluidos.
-- **B79-C03 — Ecuaciones de Navier-Stokes.** *Programada.* Aporta el modelo general de flujo viscoso; ninguna clase del tronco lo trata.
-- **B79-C04 — Regímenes laminar y turbulento.** *Programada.* Enseña a distinguir regímenes y su efecto en arrastre y calor; no existe en el tronco.
-- **B79-C05 — Dinámica de fluidos compresibles.** *Programada.* Cubre el flujo con densidad variable necesario para propulsión; B77-C03 trata fuerzas aerodinámicas sin flujo compresible.
-- **B79-C06 — Flujos supersónicos.** *Programada.* Aporta el comportamiento del flujo a Mach>1 en toberas y vehículos; ninguna clase lo trata.
-- **B79-C07 — Ondas de choque normales y oblicuas.** *Programada.* Enseña saltos de propiedades en choques, clave en reentrada y toberas; B30-C14 trata choques astrofísicos, no gasdinámicos.
-- **B79-C08 — Flujo en toberas convergente-divergentes.** *Programada.* Aporta la teoría de expansión en toberas; B78-C03 trata la cámara pero no el flujo por la tobera.
-- **B79-C09 — CFD académico: fundamentos y límites.** *Programada.* Aplica B11-C14/C15 a flujos; ninguna clase construye una simulación CFD ni discute sus límites.
-- **B79-C10 — Primera ley de la termodinámica en sistemas abiertos.** *Programada.* B05-C13 ve temperatura y energía térmica, pero no la formulación de volumen de control usada en propulsión.
-- **B79-C11 — Segunda ley y entropía.** *Programada.* Ninguna clase del tronco trata entropía ni irreversibilidad, necesarias para eficiencias propulsivas.
-- **B79-C12 — Procesos adiabáticos e isentrópicos.** *Programada.* Aporta las relaciones isentrópicas usadas en toberas; no existe en el tronco.
-- **B79-C13 — Entalpía de flujo y entalpía total.** *Programada.* Concepto de energía de flujo para el análisis de motores; ninguna clase lo trata.
-- **B79-C14 — Propiedades de gases calientes.** *Programada.* Aporta propiedades termofísicas de gases de combustión a alta temperatura; B06-C09 trata gases en general.
-- **B79-C15 — Ciclos termodinámicos de propulsión.** *Programada.* Enseña ciclos de motores térmicos; B85-C11 trata ciclos térmicos de ensayo, no termodinámicos.
-- **B79-C16 — Eficiencias termodinámicas de motores.** *Programada.* Cuantifica la conversión de energía en propulsión; no cubierta por ninguna clase.
+- **B79-C01 — Conservación de masa en fluidos.** *Texto redactado, pendiente de revisión.* Ninguna clase del tronco trata la mecánica de fluidos; B05-C14 solo ve gases y presión. Es la base para toberas y aerodinámica.
+- **B79-C02 — Ecuaciones de Euler para flujo no viscoso.** *Texto redactado, pendiente de revisión.* Aporta las ecuaciones de flujo ideal base del análisis de toberas; el tronco no incluye mecánica de fluidos.
+- **B79-C03 — Ecuaciones de Navier-Stokes.** *Texto redactado, pendiente de revisión.* Aporta el modelo general de flujo viscoso; ninguna clase del tronco lo trata.
+- **B79-C04 — Regímenes laminar y turbulento.** *Texto redactado, pendiente de revisión.* Enseña a distinguir regímenes y su efecto en arrastre y calor; no existe en el tronco.
+- **B79-C05 — Dinámica de fluidos compresibles.** *Texto redactado, pendiente de revisión.* Cubre el flujo con densidad variable necesario para propulsión; B77-C03 trata fuerzas aerodinámicas sin flujo compresible.
+- **B79-C06 — Flujos supersónicos.** *Texto redactado, pendiente de revisión.* Aporta el comportamiento del flujo a Mach>1 en toberas y vehículos; ninguna clase lo trata.
+- **B79-C07 — Ondas de choque normales y oblicuas.** *Texto redactado, pendiente de revisión.* Enseña saltos de propiedades en choques, clave en reentrada y toberas; B30-C14 trata choques astrofísicos, no gasdinámicos.
+- **B79-C08 — Flujo en toberas convergente-divergentes.** *Texto redactado, pendiente de revisión.* Aporta la teoría de expansión en toberas; B78-C03 trata la cámara pero no el flujo por la tobera.
+- **B79-C09 — CFD académico: fundamentos y límites.** *Texto redactado, pendiente de revisión.* Aplica B11-C14/C15 a flujos; ninguna clase construye una simulación CFD ni discute sus límites.
+- **B79-C10 — Primera ley de la termodinámica en sistemas abiertos.** *Texto redactado, pendiente de revisión.* B05-C13 ve temperatura y energía térmica, pero no la formulación de volumen de control usada en propulsión.
+- **B79-C11 — Segunda ley y entropía.** *Texto redactado, pendiente de revisión.* Ninguna clase del tronco trata entropía ni irreversibilidad, necesarias para eficiencias propulsivas.
+- **B79-C12 — Procesos adiabáticos e isentrópicos.** *Texto redactado, pendiente de revisión.* Aporta las relaciones isentrópicas usadas en toberas; no existe en el tronco.
+- **B79-C13 — Entalpía de flujo y entalpía total.** *Texto redactado, pendiente de revisión.* Concepto de energía de flujo para el análisis de motores; ninguna clase lo trata.
+- **B79-C14 — Propiedades de gases calientes.** *Texto redactado, pendiente de revisión.* Aporta propiedades termofísicas de gases de combustión a alta temperatura; B06-C09 trata gases en general.
+- **B79-C15 — Ciclos termodinámicos de propulsión.** *Texto redactado, pendiente de revisión.* Enseña ciclos de motores térmicos; B85-C11 trata ciclos térmicos de ensayo, no termodinámicos.
+- **B79-C16 — Eficiencias termodinámicas de motores.** *Texto redactado, pendiente de revisión.* Cuantifica la conversión de energía en propulsión; no cubierta por ninguna clase.
 
 ### B80 — Navegación inercial y fusión multisensorial
 
 *Bloque nuevo (9 clases): Principios de navegación inercial espacial; Modelo de error de acelerómetros; Mecanización strapdown e integración de actitud y velocidad…*
 
-- **B80-C01 — Principios de navegación inercial espacial.** *Programada.* El rol necesita comprender cómo se propaga posición y velocidad a partir de una IMU; B87 solo trata el giroscopio como sensor de actitud y B74 estima órbita con observaciones externas, por lo que ninguna clase actual cubre la navegación inercial.
-- **B80-C02 — Modelo de error de acelerómetros.** *Programada.* Aporta el modelado de sesgo, factor de escala y ruido de acelerómetros, necesario para predecir el error de navegación; B87 solo cubre sensores de actitud y ninguna clase trata acelerómetros.
-- **B80-C03 — Mecanización strapdown e integración de actitud y velocidad.** *Programada.* Enseña la integración de las mediciones de una IMU fija al vehículo para obtener actitud, velocidad y posición; B10-C12..C15 dan las rotaciones y cuaterniones, pero ninguna clase construye la mecanización.
-- **B80-C04 — Fusión inercial con mediciones externas (acoplamiento débil y fuerte).** *Programada.* Cubre cómo se corrige la deriva inercial con mediciones externas; B74-C08..C10 dan los filtros, pero ninguna clase los aplica al acoplamiento inercial/externo.
-- **B80-C05 — Redundancia de sensores y arbitraje de mediciones.** *Programada.* Enseña a combinar y arbitrar sensores redundantes para mantener la solución de navegación; B88-C12 trata FDIR general, no el arbitraje de mediciones.
-- **B80-C06 — Fusión IMU-cámara.** *Programada.* Aporta la fusión visual-inercial que complementa a cada sensor; ni B74 ni B87 acoplan IMU y cámara en una sola solución de navegación.
-- **B80-C07 — Fusión radio-óptica en navegación de espacio profundo.** *Programada.* Combina Doppler/rango con imágenes ópticas para reducir incertidumbre; B74-C04 y C13 las tratan por separado.
-- **B80-C08 — Filtrado distribuido y descentralizado.** *Programada.* Cubre arquitecturas de estimación repartidas entre nodos o plataformas; B74-C08..C10 tratan filtros centralizados.
-- **B80-C09 — Odometría inercial y preintegración de IMU.** *Programada.* B87-C06 trata giroscopios; falta la integración de acelerómetros y giróscopos para estimar movimiento de un robot y su deriva.
+- **B80-C01 — Principios de navegación inercial espacial.** *Texto redactado, pendiente de revisión.* El rol necesita comprender cómo se propaga posición y velocidad a partir de una IMU; B87 solo trata el giroscopio como sensor de actitud y B74 estima órbita con observaciones externas, por lo que ninguna clase actual cubre la navegación inercial.
+- **B80-C02 — Modelo de error de acelerómetros.** *Texto redactado, pendiente de revisión.* Aporta el modelado de sesgo, factor de escala y ruido de acelerómetros, necesario para predecir el error de navegación; B87 solo cubre sensores de actitud y ninguna clase trata acelerómetros.
+- **B80-C03 — Mecanización strapdown e integración de actitud y velocidad.** *Texto redactado, pendiente de revisión.* Enseña la integración de las mediciones de una IMU fija al vehículo para obtener actitud, velocidad y posición; B10-C12..C15 dan las rotaciones y cuaterniones, pero ninguna clase construye la mecanización.
+- **B80-C04 — Fusión inercial con mediciones externas (acoplamiento débil y fuerte).** *Texto redactado, pendiente de revisión.* Cubre cómo se corrige la deriva inercial con mediciones externas; B74-C08..C10 dan los filtros, pero ninguna clase los aplica al acoplamiento inercial/externo.
+- **B80-C05 — Redundancia de sensores y arbitraje de mediciones.** *Texto redactado, pendiente de revisión.* Enseña a combinar y arbitrar sensores redundantes para mantener la solución de navegación; B88-C12 trata FDIR general, no el arbitraje de mediciones.
+- **B80-C06 — Fusión IMU-cámara.** *Texto redactado, pendiente de revisión.* Aporta la fusión visual-inercial que complementa a cada sensor; ni B74 ni B87 acoplan IMU y cámara en una sola solución de navegación.
+- **B80-C07 — Fusión radio-óptica en navegación de espacio profundo.** *Texto redactado, pendiente de revisión.* Combina Doppler/rango con imágenes ópticas para reducir incertidumbre; B74-C04 y C13 las tratan por separado.
+- **B80-C08 — Filtrado distribuido y descentralizado.** *Texto redactado, pendiente de revisión.* Cubre arquitecturas de estimación repartidas entre nodos o plataformas; B74-C08..C10 tratan filtros centralizados.
+- **B80-C09 — Odometría inercial y preintegración de IMU.** *Texto redactado, pendiente de revisión.* B87-C06 trata giroscopios; falta la integración de acelerómetros y giróscopos para estimar movimiento de un robot y su deriva.
 
 ### B81 — Optimización de trayectorias y diseño robusto
 
 *Bloque nuevo (15 clases): Ecuaciones variacionales y matriz de transición de estados; Método de disparo para control óptimo; Métodos directos de transcripción…*
 
-- **B81-C01 — Ecuaciones variacionales y matriz de transición de estados.** *Programada.* Sensibilidades para optimización y corrección; ausente.
-- **B81-C02 — Método de disparo para control óptimo.** *Programada.* Disparo simple y múltiple; no cubierto.
-- **B81-C03 — Métodos directos de transcripción.** *Programada.* Colocación y programación no lineal; ausente.
-- **B81-C04 — Trayectorias espirales de bajo empuje.** *Programada.* Espirales de escape y captura con propulsión eléctrica; no cubierto.
-- **B81-C05 — Limitaciones de potencia en propulsión eléctrica.** *Programada.* Variación de potencia solar con distancia y su efecto en empuje; B86 y B78 no conectan con trayectoria.
-- **B81-C06 — Restricciones de orientación del empuje.** *Programada.* Pointing del propulsor y paneles; ausente.
-- **B81-C07 — Modelos de aceleración para bajo empuje.** *Programada.* Modelos continuos de aceleración; no cubierto.
-- **B81-C08 — Validación de trayectorias de empuje continuo.** *Programada.* Reintegración y chequeos de optimalidad; ausente.
-- **B81-C09 — Variables de diseño orbital.** *Programada.* Elección y parametrización de variables en problemas de diseño; ausente.
-- **B81-C10 — Funciones objetivo de diseño de trayectorias.** *Programada.* Definir objetivos y costes; no cubierto.
-- **B81-C11 — Optimización multicriterio y frentes de Pareto.** *Programada.* Compromisos entre delta-v, tiempo y riesgo; ausente.
-- **B81-C12 — Restricciones dinámicas en optimización.** *Programada.* Manejo de restricciones de trayectoria; no cubierto.
-- **B81-C13 — Optimización heurística (algoritmos genéticos y enjambres).** *Programada.* Métodos globales para espacios con muchos mínimos locales; ausente.
-- **B81-C14 — Presupuestos de maniobras de corrección.** *Programada.* Estimación estadística de delta-v de corrección; no cubierto.
-- **B81-C15 — Robustez de trayectoria ante fallas.** *Programada.* Diseñar ventanas de recuperación ante fallo de maniobra; ausente.
+- **B81-C01 — Ecuaciones variacionales y matriz de transición de estados.** *Texto redactado, pendiente de revisión.* Sensibilidades para optimización y corrección; ausente.
+- **B81-C02 — Método de disparo para control óptimo.** *Texto redactado, pendiente de revisión.* Disparo simple y múltiple; no cubierto.
+- **B81-C03 — Métodos directos de transcripción.** *Texto redactado, pendiente de revisión.* Colocación y programación no lineal; ausente.
+- **B81-C04 — Trayectorias espirales de bajo empuje.** *Texto redactado, pendiente de revisión.* Espirales de escape y captura con propulsión eléctrica; no cubierto.
+- **B81-C05 — Limitaciones de potencia en propulsión eléctrica.** *Texto redactado, pendiente de revisión.* Variación de potencia solar con distancia y su efecto en empuje; B86 y B78 no conectan con trayectoria.
+- **B81-C06 — Restricciones de orientación del empuje.** *Texto redactado, pendiente de revisión.* Pointing del propulsor y paneles; ausente.
+- **B81-C07 — Modelos de aceleración para bajo empuje.** *Texto redactado, pendiente de revisión.* Modelos continuos de aceleración; no cubierto.
+- **B81-C08 — Validación de trayectorias de empuje continuo.** *Texto redactado, pendiente de revisión.* Reintegración y chequeos de optimalidad; ausente.
+- **B81-C09 — Variables de diseño orbital.** *Texto redactado, pendiente de revisión.* Elección y parametrización de variables en problemas de diseño; ausente.
+- **B81-C10 — Funciones objetivo de diseño de trayectorias.** *Texto redactado, pendiente de revisión.* Definir objetivos y costes; no cubierto.
+- **B81-C11 — Optimización multicriterio y frentes de Pareto.** *Texto redactado, pendiente de revisión.* Compromisos entre delta-v, tiempo y riesgo; ausente.
+- **B81-C12 — Restricciones dinámicas en optimización.** *Texto redactado, pendiente de revisión.* Manejo de restricciones de trayectoria; no cubierto.
+- **B81-C13 — Optimización heurística (algoritmos genéticos y enjambres).** *Texto redactado, pendiente de revisión.* Métodos globales para espacios con muchos mínimos locales; ausente.
+- **B81-C14 — Presupuestos de maniobras de corrección.** *Texto redactado, pendiente de revisión.* Estimación estadística de delta-v de corrección; no cubierto.
+- **B81-C15 — Robustez de trayectoria ante fallas.** *Texto redactado, pendiente de revisión.* Diseñar ventanas de recuperación ante fallo de maniobra; ausente.
 
 ### B82 — Problema de Lambert y transferencias de dos puntos
 
 *Bloque nuevo (7 clases): Lambert de arco corto; Lambert de arco largo; Formulación de variables universales…*
 
-- **B82-C01 — Lambert de arco corto.** *Programada.* Resolución del caso de transferencia < 180°; B75-C04 solo enuncia la ecuación.
-- **B82-C02 — Lambert de arco largo.** *Programada.* Caso > 180° y orientación del plano; ausente.
-- **B82-C03 — Formulación de variables universales.** *Programada.* Solución unificada para elipse, parábola e hipérbola; no cubierto.
-- **B82-C04 — Lambert multirrevolución.** *Programada.* Soluciones con revoluciones completas y selección de rama; ausente.
-- **B82-C05 — Singularidades del problema de Lambert.** *Programada.* Caso colineal y 180°, y su tratamiento numérico; no cubierto.
-- **B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo).** *Programada.* Convergencia y velocidad de algoritmos de solución; ausente.
-- **B82-C07 — Benchmark entre solucionadores de Lambert.** *Programada.* Comparación de precisión y costo entre métodos; no cubierto.
+- **B82-C01 — Lambert de arco corto.** *Texto redactado, pendiente de revisión.* Resolución del caso de transferencia < 180°; B75-C04 solo enuncia la ecuación.
+- **B82-C02 — Lambert de arco largo.** *Texto redactado, pendiente de revisión.* Caso > 180° y orientación del plano; ausente.
+- **B82-C03 — Formulación de variables universales.** *Texto redactado, pendiente de revisión.* Solución unificada para elipse, parábola e hipérbola; no cubierto.
+- **B82-C04 — Lambert multirrevolución.** *Texto redactado, pendiente de revisión.* Soluciones con revoluciones completas y selección de rama; ausente.
+- **B82-C05 — Singularidades del problema de Lambert.** *Texto redactado, pendiente de revisión.* Caso colineal y 180°, y su tratamiento numérico; no cubierto.
+- **B82-C06 — Algoritmos iterativos para Lambert (Gooding, Izzo).** *Texto redactado, pendiente de revisión.* Convergencia y velocidad de algoritmos de solución; ausente.
+- **B82-C07 — Benchmark entre solucionadores de Lambert.** *Texto redactado, pendiente de revisión.* Comparación de precisión y costo entre métodos; no cubierto.
 
 ## A07 — Ingeniería y construcción de sistemas espaciales
 
@@ -1827,10 +1827,10 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B83-C18 — Niveles de madurez tecnológica.** Introduce el contexto y los principios de «niveles de madurez tecnológica» para comprender su uso científico.
 - **B83-C19 — Aceptación y transferencia a operaciones.** Describe los componentes principales de «aceptación y transferencia a operaciones» y por qué son relevantes para esta disciplina.
 - **B83-C20 — Diseño preliminar completo de misión.** Introduce «diseño preliminar completo de misión» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B83-C21 — Identificación de peligros en sistemas de lanzamiento (HAZID).** *Programada.* Aporta el análisis preliminar de peligros; B83-C16 trata riesgos técnicos genéricos, no la identificación de peligros de seguridad.
-- **B83-C22 — Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales.** *Programada.* Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B83-C16 trata la gestión de riesgos técnicos en general y B88-C12 la detección en vuelo, pero ninguna enseña FMEA.
-- **B83-C23 — Redundancia y tolerancia a fallos de misión.** *Programada.* El rol debe decidir qué se duplica y qué falla es aceptable a nivel de misión; B83 trata presupuestos y revisiones, pero no la redundancia de misión.
-- **B83-C24 — Árboles de fallos (FTA) y análisis de causas.** *Programada.* Permite descomponer un evento no deseado en causas combinadas y cuantificar su probabilidad; ninguna clase de B83 o B88 enseña el análisis deductivo de fallos.
+- **B83-C21 — Identificación de peligros en sistemas de lanzamiento (HAZID).** *Texto redactado, pendiente de revisión.* Aporta el análisis preliminar de peligros; B83-C16 trata riesgos técnicos genéricos, no la identificación de peligros de seguridad.
+- **B83-C22 — Análisis de modos y efectos de fallo (FMEA) en sistemas espaciales.** *Texto redactado, pendiente de revisión.* Aporta la técnica sistemática para anticipar modos de fallo y sus efectos; B83-C16 trata la gestión de riesgos técnicos en general y B88-C12 la detección en vuelo, pero ninguna enseña FMEA.
+- **B83-C23 — Redundancia y tolerancia a fallos de misión.** *Texto redactado, pendiente de revisión.* El rol debe decidir qué se duplica y qué falla es aceptable a nivel de misión; B83 trata presupuestos y revisiones, pero no la redundancia de misión.
+- **B83-C24 — Árboles de fallos (FTA) y análisis de causas.** *Texto redactado, pendiente de revisión.* Permite descomponer un evento no deseado en causas combinadas y cuantificar su probabilidad; ninguna clase de B83 o B88 enseña el análisis deductivo de fallos.
 
 ### B84 — Estructuras, materiales y fabricación espacial
 
@@ -1856,24 +1856,24 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B84-C18 — Control dimensional.** Introduce el contexto y los principios de «control dimensional» para comprender su uso científico.
 - **B84-C19 — Inspección no destructiva.** Describe los componentes principales de «inspección no destructiva» y por qué son relevantes para esta disciplina.
 - **B84-C20 — Diseño estructural de plataforma satelital.** Introduce «diseño estructural de plataforma satelital» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B84-C21 — Compatibilidad química y galvánica de materiales.** *Programada.* La elección de materiales debe evitar corrosión galvánica y reacciones con fluidos; B84-C05 selecciona materiales sin tratar su compatibilidad química.
-- **B84-C22 — Tensión, deformación y elasticidad lineal.** *Programada.* El rol de estructuras necesita la base de tensiones y deformaciones antes de cargas y elementos finitos; B84 empieza en el entorno de lanzamiento y en materiales sin esa base.
-- **B84-C23 — Vigas y placas: flexión y pandeo.** *Programada.* Dimensionar largueros y paneles exige flexión y pandeo; B84-C09 analiza cargas pero no el comportamiento de vigas y placas esbeltas.
-- **B84-C24 — Factores de seguridad y márgenes estructurales.** *Programada.* Declarar un margen estructural exige definir factores de seguridad y cargas límite y últimas; ninguna clase de B84 lo hace.
-- **B84-C25 — Comportamiento estructural no lineal: plasticidad y contacto.** *Programada.* Más allá del límite elástico o con contacto el análisis lineal falla; B84-C08 trata fatiga y fractura, no el comportamiento no lineal.
-- **B84-C26 — Generación de mallas y convergencia en elementos finitos.** *Programada.* B84-C12 presenta el método; falta enseñar a construir una malla y a demostrar su convergencia antes de confiar en un resultado.
-- **B84-C27 — Tipos de elementos finitos: viga, placa y sólido.** *Programada.* Elegir el elemento adecuado decide la validez del modelo; B84-C12 no enseña los tipos de elementos.
-- **B84-C28 — Condiciones de contorno y cargas en modelos de elementos finitos.** *Programada.* Un modelo mal restringido da resultados falsos; ninguna clase enseña cómo representar apoyos y cargas reales.
-- **B84-C29 — Concentraciones de tensión y entallas.** *Programada.* Los agujeros y cambios de sección concentran tensión y causan fallas por fatiga; B84-C08 no trata el factor de concentración.
-- **B84-C30 — Correlación modelo-ensayo y actualización de modelos.** *Programada.* Un modelo estructural se acepta cuando coincide con el ensayo; B90 trata ensayos pero no cómo contrastarlos con el modelo.
-- **B84-C31 — Documentación y revisión de análisis de elementos finitos.** *Programada.* Un análisis solo es revisable si queda documentado con supuestos y verificación; B90-C05 documenta interfaces, no análisis.
-- **B84-C32 — Vibración aleatoria y densidad espectral de potencia.** *Programada.* El lanzamiento excita la estructura con vibración aleatoria descrita en el dominio de la frecuencia; B84-C11 trata resonancias, no el análisis estadístico.
-- **B84-C33 — Respuesta armónica y funciones de transferencia estructural.** *Programada.* Predecir la respuesta de una estructura a una excitación periódica requiere funciones de transferencia; el catálogo no las trata para estructuras.
-- **B84-C34 — Tratamientos y recubrimientos superficiales de componentes espaciales.** *Programada.* Anodizado, recubrimientos y acabados protegen y modifican propiedades térmicas y de desgaste; B84 no los trata.
-- **B84-C35 — Control de procesos de fabricación y calidad.** *Programada.* Garantizar piezas repetibles exige controlar el proceso y no solo inspeccionar; B84-C19 inspecciona sin tratar control estadístico de proceso.
-- **B84-C36 — Desgaste abrasivo por regolito en mecanismos.** *Programada.* B84-C14 trata rodamientos y lubricación; el desgaste abrasivo por polvo lunar no está cubierto.
-- **B84-C37 — Compuestos y aglomerantes a base de regolito.** *Programada.* B84-C03 trata compuestos terrestres; no hay clase sobre materiales compuestos con regolito.
-- **B84-C38 — Producción de piezas y repuestos con materia prima in situ.** *Programada.* Cubre la cadena desde regolito hasta pieza funcional; B59-C13 imprime estructuras sin cubrir repuestos.
+- **B84-C21 — Compatibilidad química y galvánica de materiales.** *Texto redactado, pendiente de revisión.* La elección de materiales debe evitar corrosión galvánica y reacciones con fluidos; B84-C05 selecciona materiales sin tratar su compatibilidad química.
+- **B84-C22 — Tensión, deformación y elasticidad lineal.** *Texto redactado, pendiente de revisión.* El rol de estructuras necesita la base de tensiones y deformaciones antes de cargas y elementos finitos; B84 empieza en el entorno de lanzamiento y en materiales sin esa base.
+- **B84-C23 — Vigas y placas: flexión y pandeo.** *Texto redactado, pendiente de revisión.* Dimensionar largueros y paneles exige flexión y pandeo; B84-C09 analiza cargas pero no el comportamiento de vigas y placas esbeltas.
+- **B84-C24 — Factores de seguridad y márgenes estructurales.** *Texto redactado, pendiente de revisión.* Declarar un margen estructural exige definir factores de seguridad y cargas límite y últimas; ninguna clase de B84 lo hace.
+- **B84-C25 — Comportamiento estructural no lineal: plasticidad y contacto.** *Texto redactado, pendiente de revisión.* Más allá del límite elástico o con contacto el análisis lineal falla; B84-C08 trata fatiga y fractura, no el comportamiento no lineal.
+- **B84-C26 — Generación de mallas y convergencia en elementos finitos.** *Texto redactado, pendiente de revisión.* B84-C12 presenta el método; falta enseñar a construir una malla y a demostrar su convergencia antes de confiar en un resultado.
+- **B84-C27 — Tipos de elementos finitos: viga, placa y sólido.** *Texto redactado, pendiente de revisión.* Elegir el elemento adecuado decide la validez del modelo; B84-C12 no enseña los tipos de elementos.
+- **B84-C28 — Condiciones de contorno y cargas en modelos de elementos finitos.** *Texto redactado, pendiente de revisión.* Un modelo mal restringido da resultados falsos; ninguna clase enseña cómo representar apoyos y cargas reales.
+- **B84-C29 — Concentraciones de tensión y entallas.** *Texto redactado, pendiente de revisión.* Los agujeros y cambios de sección concentran tensión y causan fallas por fatiga; B84-C08 no trata el factor de concentración.
+- **B84-C30 — Correlación modelo-ensayo y actualización de modelos.** *Texto redactado, pendiente de revisión.* Un modelo estructural se acepta cuando coincide con el ensayo; B90 trata ensayos pero no cómo contrastarlos con el modelo.
+- **B84-C31 — Documentación y revisión de análisis de elementos finitos.** *Texto redactado, pendiente de revisión.* Un análisis solo es revisable si queda documentado con supuestos y verificación; B90-C05 documenta interfaces, no análisis.
+- **B84-C32 — Vibración aleatoria y densidad espectral de potencia.** *Texto redactado, pendiente de revisión.* El lanzamiento excita la estructura con vibración aleatoria descrita en el dominio de la frecuencia; B84-C11 trata resonancias, no el análisis estadístico.
+- **B84-C33 — Respuesta armónica y funciones de transferencia estructural.** *Texto redactado, pendiente de revisión.* Predecir la respuesta de una estructura a una excitación periódica requiere funciones de transferencia; el catálogo no las trata para estructuras.
+- **B84-C34 — Tratamientos y recubrimientos superficiales de componentes espaciales.** *Texto redactado, pendiente de revisión.* Anodizado, recubrimientos y acabados protegen y modifican propiedades térmicas y de desgaste; B84 no los trata.
+- **B84-C35 — Control de procesos de fabricación y calidad.** *Texto redactado, pendiente de revisión.* Garantizar piezas repetibles exige controlar el proceso y no solo inspeccionar; B84-C19 inspecciona sin tratar control estadístico de proceso.
+- **B84-C36 — Desgaste abrasivo por regolito en mecanismos.** *Texto redactado, pendiente de revisión.* B84-C14 trata rodamientos y lubricación; el desgaste abrasivo por polvo lunar no está cubierto.
+- **B84-C37 — Compuestos y aglomerantes a base de regolito.** *Texto redactado, pendiente de revisión.* B84-C03 trata compuestos terrestres; no hay clase sobre materiales compuestos con regolito.
+- **B84-C38 — Producción de piezas y repuestos con materia prima in situ.** *Texto redactado, pendiente de revisión.* Cubre la cadena desde regolito hasta pieza funcional; B59-C13 imprime estructuras sin cubrir repuestos.
 
 ### B85 — Gestión térmica y entorno espacial
 
@@ -1899,15 +1899,15 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B85-C18 — Modelado térmico por nodos.** Introduce el contexto y los principios de «modelado térmico por nodos» para comprender su uso científico.
 - **B85-C19 — Ensayos de vacío térmico.** Introduce «ensayos de vacío térmico» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B85-C20 — Presupuesto térmico de carga útil.** Presenta qué significa «presupuesto térmico de carga útil», sus elementos esenciales y su función dentro de gestión térmica y entorno espacial.
-- **B85-C21 — Efectos de partículas energéticas en electrónica y materiales.** *Programada.* B85 trata entorno térmico y de superficie, pero no efectos de evento único ni dosis total ionizante en componentes.
-- **B85-C22 — Modelos de exposición a radiación en órbita.** *Programada.* Uso de modelos AE9/AP9 y herramientas tipo SPENVIS para calcular dosis por órbita; ninguna clase actual los trata.
-- **B85-C23 — Dosímetros y monitores de radiación a bordo.** *Programada.* Una carga útil de medición de radiación en un satélite pequeño exige elegir y calibrar el sensor; B85 trata el entorno y la dosimetría personal es de tripulación (B105).
-- **B85-C24 — Efectos de la radiación ionizante en materiales y electrónica.** *Programada.* B85-C14 trata solo la degradación ultravioleta y B105-C06 la radiación sobre personas; ninguna clase enseña el daño por radiación ionizante en materiales y componentes.
-- **B85-C25 — Sensores y telemetría térmica.** *Programada.* Medir la temperatura en vuelo y en ensayo exige elegir sensores y calibrarlos; B85 modela y controla sin tratar la medición.
-- **B85-C26 — Análisis térmico transitorio y casos extremos.** *Programada.* Los casos de diseño térmico son transitorios (eclipse, arranque); B85-C18 modela por nodos sin tratar la dinámica en el tiempo.
-- **B85-C27 — Márgenes y correlación térmica.** *Programada.* Aceptar un diseño térmico exige margen sobre los límites de los componentes y correlación con ensayo; B85-C19 ensaya pero no define márgenes.
-- **B85-C28 — Protección pasiva frente al ambiente espacial.** *Programada.* El diseño de blindajes y del plan de protección integra radiación, micrometeoritos y contaminación; el catálogo trata cada efecto por separado, no la protección como diseño.
-- **B85-C29 — Evaluación y modelado de la degradación en órbita.** *Programada.* Predecir la vida de un material expuesto exige modelar su degradación acumulada; el catálogo trata efectos aislados.
+- **B85-C21 — Efectos de partículas energéticas en electrónica y materiales.** *Texto redactado, pendiente de revisión.* B85 trata entorno térmico y de superficie, pero no efectos de evento único ni dosis total ionizante en componentes.
+- **B85-C22 — Modelos de exposición a radiación en órbita.** *Texto redactado, pendiente de revisión.* Uso de modelos AE9/AP9 y herramientas tipo SPENVIS para calcular dosis por órbita; ninguna clase actual los trata.
+- **B85-C23 — Dosímetros y monitores de radiación a bordo.** *Texto redactado, pendiente de revisión.* Una carga útil de medición de radiación en un satélite pequeño exige elegir y calibrar el sensor; B85 trata el entorno y la dosimetría personal es de tripulación (B105).
+- **B85-C24 — Efectos de la radiación ionizante en materiales y electrónica.** *Texto redactado, pendiente de revisión.* B85-C14 trata solo la degradación ultravioleta y B105-C06 la radiación sobre personas; ninguna clase enseña el daño por radiación ionizante en materiales y componentes.
+- **B85-C25 — Sensores y telemetría térmica.** *Texto redactado, pendiente de revisión.* Medir la temperatura en vuelo y en ensayo exige elegir sensores y calibrarlos; B85 modela y controla sin tratar la medición.
+- **B85-C26 — Análisis térmico transitorio y casos extremos.** *Texto redactado, pendiente de revisión.* Los casos de diseño térmico son transitorios (eclipse, arranque); B85-C18 modela por nodos sin tratar la dinámica en el tiempo.
+- **B85-C27 — Márgenes y correlación térmica.** *Texto redactado, pendiente de revisión.* Aceptar un diseño térmico exige margen sobre los límites de los componentes y correlación con ensayo; B85-C19 ensaya pero no define márgenes.
+- **B85-C28 — Protección pasiva frente al ambiente espacial.** *Texto redactado, pendiente de revisión.* El diseño de blindajes y del plan de protección integra radiación, micrometeoritos y contaminación; el catálogo trata cada efecto por separado, no la protección como diseño.
+- **B85-C29 — Evaluación y modelado de la degradación en órbita.** *Texto redactado, pendiente de revisión.* Predecir la vida de un material expuesto exige modelar su degradación acumulada; el catálogo trata efectos aislados.
 
 ### B86 — Sistemas de potencia y energía espacial
 
@@ -1933,9 +1933,9 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B86-C18 — Seguridad y licenciamiento energético.** Ubica «seguridad y licenciamiento energético» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B86-C19 — Presupuesto de potencia de misión.** Describe los componentes principales de «presupuesto de potencia de misión» y por qué son relevantes para esta disciplina.
 - **B86-C20 — Simulación de ciclo energético orbital.** Presenta «simulación de ciclo energético orbital» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B86-C21 — Modos de operación y estados de bajo consumo.** *Programada.* El presupuesto de potencia depende de los modos del satélite; B86 trata balances y eclipse, pero no la gestión de modos de bajo consumo.
-- **B86-C22 — Suministro de energía durante la noche lunar.** *Programada.* B86-C13 trata eclipses orbitales de horas; la noche lunar de unos 14 días exige otra estrategia.
-- **B86-C23 — Priorización y deslastre de cargas eléctricas.** *Programada.* Aporta la lógica de cargas prioritarias en escasez de energía; B86-C07 trata distribución sin priorización.
+- **B86-C21 — Modos de operación y estados de bajo consumo.** *Texto redactado, pendiente de revisión.* El presupuesto de potencia depende de los modos del satélite; B86 trata balances y eclipse, pero no la gestión de modos de bajo consumo.
+- **B86-C22 — Suministro de energía durante la noche lunar.** *Texto redactado, pendiente de revisión.* B86-C13 trata eclipses orbitales de horas; la noche lunar de unos 14 días exige otra estrategia.
+- **B86-C23 — Priorización y deslastre de cargas eléctricas.** *Texto redactado, pendiente de revisión.* Aporta la lógica de cargas prioritarias en escasez de energía; B86-C07 trata distribución sin priorización.
 
 ### B87 — Sensores y control de actitud
 
@@ -1961,8 +1961,8 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B87-C18 — Estabilidad ante perturbaciones.** Introduce el contexto y los principios de «estabilidad ante perturbaciones» para comprender su uso científico.
 - **B87-C19 — Verificación de ley de control.** Ubica «verificación de ley de control» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B87-C20 — Simulación ADCS integral.** Presenta «simulación ADCS integral» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B87-C21 — Control predictivo basado en modelo (MPC) para vehículos espaciales.** *Programada.* Aporta el control con restricciones explícitas; B16-C15..C17 cubren LQR, robusto y no lineal, pero no el control predictivo.
-- **B87-C22 — Presupuesto de error de apuntamiento.** *Programada.* Para cerrar el control de actitud el rol necesita un presupuesto de error de apuntamiento; B87-C15 trata apuntamiento de alta precisión sin ese presupuesto.
+- **B87-C21 — Control predictivo basado en modelo (MPC) para vehículos espaciales.** *Texto redactado, pendiente de revisión.* Aporta el control con restricciones explícitas; B16-C15..C17 cubren LQR, robusto y no lineal, pero no el control predictivo.
+- **B87-C22 — Presupuesto de error de apuntamiento.** *Texto redactado, pendiente de revisión.* Para cerrar el control de actitud el rol necesita un presupuesto de error de apuntamiento; B87-C15 trata apuntamiento de alta precisión sin ese presupuesto.
 
 ### B88 — Aviónica y software crítico espacial
 
@@ -1988,30 +1988,30 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B88-C18 — Control de configuración de firmware.** Introduce el contexto y los principios de «control de configuración de firmware» para comprender su uso científico.
 - **B88-C19 — Simulación hardware-in-the-loop.** Presenta «simulación hardware-in-the-loop» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
 - **B88-C20 — Plan de verificación de computador de vuelo.** Presenta qué significa «plan de verificación de computador de vuelo», sus elementos esenciales y su función dentro de aviónica y software crítico espacial.
-- **B88-C21 — Interfaces y documentos de control de software de vuelo.** *Programada.* El software de vuelo se controla por documentos de interfaz con los demás subsistemas; B88 trata arquitectura y pruebas, no esos documentos.
-- **B88-C22 — Interrupciones y manejo de excepciones en el computador de vuelo.** *Programada.* B88-C05/C06 tratan RTOS pero no el sistema de interrupciones.
-- **B88-C23 — Arquitectura de software de vuelo: capas y ejecutivo.** *Programada.* B88-C01 trata hardware; nadie trata la jerarquía de software de vuelo.
-- **B88-C24 — Capa de abstracción de hardware (HAL) y controladores.** *Programada.* Aporta la capa que aísla el software del hardware; no cubierta.
-- **B88-C25 — Redundancia de procesamiento y ejecución en paralelo (lockstep).** *Programada.* B88 trata tolerancia a radiación y FDIR, pero no la redundancia de procesadores.
-- **B88-C26 — Latencia de interrupciones y jitter.** *Programada.* Cuantifica el retardo de respuesta; B88-C05/C06 no lo tratan.
-- **B88-C27 — Exclusión mutua y semáforos.** *Programada.* Cubre la sincronización entre tareas; no existe en el tronco.
-- **B88-C28 — Inversión de prioridad y deadlocks.** *Programada.* Cubre errores clásicos de concurrencia; no existe en el tronco.
-- **B88-C29 — Gestión de memoria determinista en software de vuelo.** *Programada.* Asignación estática, fragmentación y fugas; B88-C04 solo corrige errores de memoria.
-- **B88-C30 — Análisis de peor caso de tiempo de ejecución (WCET).** *Programada.* Cubre el cálculo de tiempos máximos; no existe en el tronco.
-- **B88-C31 — Topologías de red de datos a bordo.** *Programada.* B88-C07 trata buses individuales, no la topología.
-- **B88-C32 — Redundancia fría y caliente: estrategias y conmutación.** *Programada.* B83 trata redundancia de misión; B88 no cubre cómo conmutar unidades redundantes.
-- **B88-C33 — Votación y redundancia modular triple (TMR).** *Programada.* Aporta la votación entre canales; B88 no la trata.
-- **B88-C34 — Pruebas de inyección de fallos.** *Programada.* Verifica FDIR provocando fallos; B88-C14 y C19 no cubren inyección.
-- **B88-C35 — Reinicio en caliente y persistencia de estado.** *Programada.* Cubre el estado que sobrevive a reinicios; B88-C11 trata watchdogs pero no la persistencia.
-- **B88-C36 — Codificación defensiva y estándares de código seguro.** *Programada.* B88-C15 analiza código estáticamente, pero no enseña a escribir defensivamente.
-- **B88-C37 — Fuzzing autorizado de software embarcado en banco de pruebas.** *Programada.* Técnica de pruebas con entradas inválidas en entorno controlado; B88-C14 no la cubre.
-- **B88-C38 — Gestión de claves y secretos en aviónica.** *Programada.* B88-C17 trata ciberseguridad general sin gestión de secretos.
-- **B88-C39 — Normas de aseguramiento de software (ECSS, DO-178C).** *Programada.* Ninguna clase presenta las normas de aseguramiento aplicables.
-- **B88-C40 — Auditoría de software espacial.** *Programada.* Cubre la revisión independiente de procesos y evidencias del software; no existe en el tronco.
-- **B88-C41 — Pruebas SIL y PIL del software de vuelo.** *Programada.* B88-C19 cubre HIL, no software-in-the-loop ni processor-in-the-loop.
-- **B88-C42 — Simuladores y mocks de sensores para pruebas.** *Programada.* Aporta dobles de prueba de sensores; no cubierto.
-- **B88-C43 — Pruebas de carga y estrés del software de vuelo.** *Programada.* B88-C14 no cubre pruebas de carga.
-- **B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas.** *Programada.* B88-C12 detecta, aísla y recupera fallos, pero ninguna clase estima vida útil restante ni anticipa degradación de componentes.
+- **B88-C21 — Interfaces y documentos de control de software de vuelo.** *Texto redactado, pendiente de revisión.* El software de vuelo se controla por documentos de interfaz con los demás subsistemas; B88 trata arquitectura y pruebas, no esos documentos.
+- **B88-C22 — Interrupciones y manejo de excepciones en el computador de vuelo.** *Texto redactado, pendiente de revisión.* B88-C05/C06 tratan RTOS pero no el sistema de interrupciones.
+- **B88-C23 — Arquitectura de software de vuelo: capas y ejecutivo.** *Texto redactado, pendiente de revisión.* B88-C01 trata hardware; nadie trata la jerarquía de software de vuelo.
+- **B88-C24 — Capa de abstracción de hardware (HAL) y controladores.** *Texto redactado, pendiente de revisión.* Aporta la capa que aísla el software del hardware; no cubierta.
+- **B88-C25 — Redundancia de procesamiento y ejecución en paralelo (lockstep).** *Texto redactado, pendiente de revisión.* B88 trata tolerancia a radiación y FDIR, pero no la redundancia de procesadores.
+- **B88-C26 — Latencia de interrupciones y jitter.** *Texto redactado, pendiente de revisión.* Cuantifica el retardo de respuesta; B88-C05/C06 no lo tratan.
+- **B88-C27 — Exclusión mutua y semáforos.** *Texto redactado, pendiente de revisión.* Cubre la sincronización entre tareas; no existe en el tronco.
+- **B88-C28 — Inversión de prioridad y deadlocks.** *Texto redactado, pendiente de revisión.* Cubre errores clásicos de concurrencia; no existe en el tronco.
+- **B88-C29 — Gestión de memoria determinista en software de vuelo.** *Texto redactado, pendiente de revisión.* Asignación estática, fragmentación y fugas; B88-C04 solo corrige errores de memoria.
+- **B88-C30 — Análisis de peor caso de tiempo de ejecución (WCET).** *Texto redactado, pendiente de revisión.* Cubre el cálculo de tiempos máximos; no existe en el tronco.
+- **B88-C31 — Topologías de red de datos a bordo.** *Texto redactado, pendiente de revisión.* B88-C07 trata buses individuales, no la topología.
+- **B88-C32 — Redundancia fría y caliente: estrategias y conmutación.** *Texto redactado, pendiente de revisión.* B83 trata redundancia de misión; B88 no cubre cómo conmutar unidades redundantes.
+- **B88-C33 — Votación y redundancia modular triple (TMR).** *Texto redactado, pendiente de revisión.* Aporta la votación entre canales; B88 no la trata.
+- **B88-C34 — Pruebas de inyección de fallos.** *Texto redactado, pendiente de revisión.* Verifica FDIR provocando fallos; B88-C14 y C19 no cubren inyección.
+- **B88-C35 — Reinicio en caliente y persistencia de estado.** *Texto redactado, pendiente de revisión.* Cubre el estado que sobrevive a reinicios; B88-C11 trata watchdogs pero no la persistencia.
+- **B88-C36 — Codificación defensiva y estándares de código seguro.** *Texto redactado, pendiente de revisión.* B88-C15 analiza código estáticamente, pero no enseña a escribir defensivamente.
+- **B88-C37 — Fuzzing autorizado de software embarcado en banco de pruebas.** *Texto redactado, pendiente de revisión.* Técnica de pruebas con entradas inválidas en entorno controlado; B88-C14 no la cubre.
+- **B88-C38 — Gestión de claves y secretos en aviónica.** *Texto redactado, pendiente de revisión.* B88-C17 trata ciberseguridad general sin gestión de secretos.
+- **B88-C39 — Normas de aseguramiento de software (ECSS, DO-178C).** *Texto redactado, pendiente de revisión.* Ninguna clase presenta las normas de aseguramiento aplicables.
+- **B88-C40 — Auditoría de software espacial.** *Texto redactado, pendiente de revisión.* Cubre la revisión independiente de procesos y evidencias del software; no existe en el tronco.
+- **B88-C41 — Pruebas SIL y PIL del software de vuelo.** *Texto redactado, pendiente de revisión.* B88-C19 cubre HIL, no software-in-the-loop ni processor-in-the-loop.
+- **B88-C42 — Simuladores y mocks de sensores para pruebas.** *Texto redactado, pendiente de revisión.* Aporta dobles de prueba de sensores; no cubierto.
+- **B88-C43 — Pruebas de carga y estrés del software de vuelo.** *Texto redactado, pendiente de revisión.* B88-C14 no cubre pruebas de carga.
+- **B88-C44 — Mantenimiento predictivo y pronóstico de salud de sistemas.** *Texto redactado, pendiente de revisión.* B88-C12 detecta, aísla y recupera fallos, pero ninguna clase estima vida útil restante ni anticipa degradación de componentes.
 
 ### B89 — Comunicaciones y navegación satelital
 
@@ -2037,11 +2037,11 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B89-C18 — Comunicaciones ópticas espaciales.** Introduce el contexto y los principios de «comunicaciones ópticas espaciales» para comprender su uso científico.
 - **B89-C19 — Coordinación del espectro ante ITU.** Describe «coordinación del espectro ante ITU», los datos e instrumentos que intervienen y cómo interpretar resultados iniciales.
 - **B89-C20 — Diseño de red de comunicaciones de misión.** Introduce «diseño de red de comunicaciones de misión» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B89-C21 — Efectos ionosféricos y centelleo en señales GNSS.** *Programada.* B89-C16 trata GNSS como navegación, pero no los errores y pérdidas de señal causados por perturbaciones ionosféricas.
-- **B89-C22 — Propagación ionosférica y comunicaciones HF.** *Programada.* B89-C04 trata pérdidas en espacio libre; falta la reflexión ionosférica y la degradación HF durante tormentas.
-- **B89-C23 — Relación C/N0, Eb/N0 y tasa de error de bit.** *Programada.* Cerrar un presupuesto de enlace exige traducir potencia y ruido a tasa de error; B89-C05 da el presupuesto sin tratar esas relaciones.
-- **B89-C24 — Recepción de telemetría débil.** *Programada.* En espacio profundo la señal llega cerca del umbral; B89 no trata las técnicas para recibir telemetría de muy baja potencia.
-- **B89-C25 — Protección criptográfica de enlaces espaciales.** *Programada.* B89 trata modulación y codificación de errores; la confidencialidad y autenticación (CCSDS SDLS) no está cubierta.
+- **B89-C21 — Efectos ionosféricos y centelleo en señales GNSS.** *Texto redactado, pendiente de revisión.* B89-C16 trata GNSS como navegación, pero no los errores y pérdidas de señal causados por perturbaciones ionosféricas.
+- **B89-C22 — Propagación ionosférica y comunicaciones HF.** *Texto redactado, pendiente de revisión.* B89-C04 trata pérdidas en espacio libre; falta la reflexión ionosférica y la degradación HF durante tormentas.
+- **B89-C23 — Relación C/N0, Eb/N0 y tasa de error de bit.** *Texto redactado, pendiente de revisión.* Cerrar un presupuesto de enlace exige traducir potencia y ruido a tasa de error; B89-C05 da el presupuesto sin tratar esas relaciones.
+- **B89-C24 — Recepción de telemetría débil.** *Texto redactado, pendiente de revisión.* En espacio profundo la señal llega cerca del umbral; B89 no trata las técnicas para recibir telemetría de muy baja potencia.
+- **B89-C25 — Protección criptográfica de enlaces espaciales.** *Texto redactado, pendiente de revisión.* B89 trata modulación y codificación de errores; la confidencialidad y autenticación (CCSDS SDLS) no está cubierta.
 
 ### B90 — Integración, ensayos y calificación espacial
 
@@ -2067,65 +2067,65 @@ La ingeniería del satélite y de la misión: sistemas, estructuras, térmica, p
 - **B90-C18 — Trazabilidad de evidencias.** Introduce el contexto y los principios de «trazabilidad de evidencias» para comprender su uso científico.
 - **B90-C19 — Aceptación de unidades de vuelo.** Describe los componentes principales de «aceptación de unidades de vuelo» y por qué son relevantes para esta disciplina.
 - **B90-C20 — Campaña conceptual de calificación de CubeSat.** Presenta qué significa «campaña conceptual de calificación de CubeSat», sus elementos esenciales y su función dentro de integración, ensayos y calificación espacial.
-- **B90-C21 — Biocarga de naves espaciales: verificación y requisitos normativos.** *Programada.* B90-C04 trata contaminación en integración; falta la verificación de biocarga según normas de protección planetaria.
-- **B90-C22 — Validación de procesos de reducción de biocarga.** *Programada.* B90 no trata la validación de procesos de reducción de biocarga.
-- **B90-C23 — Instrumentación y adquisición de datos en ensayos.** *Programada.* Los ensayos dinámicos y de calificación dependen de acelerómetros, sensores y adquisición; B90 trata los ensayos pero no cómo se instrumentan ni cómo se toman los datos.
-- **B90-C24 — Prototipado y modelos de ingeniería de subconjuntos.** *Programada.* Los prototipos reducen riesgo antes del modelo de vuelo; B90 parte de unidades ya definidas y no trata cómo prototipar subconjuntos.
+- **B90-C21 — Biocarga de naves espaciales: verificación y requisitos normativos.** *Texto redactado, pendiente de revisión.* B90-C04 trata contaminación en integración; falta la verificación de biocarga según normas de protección planetaria.
+- **B90-C22 — Validación de procesos de reducción de biocarga.** *Texto redactado, pendiente de revisión.* B90 no trata la validación de procesos de reducción de biocarga.
+- **B90-C23 — Instrumentación y adquisición de datos en ensayos.** *Texto redactado, pendiente de revisión.* Los ensayos dinámicos y de calificación dependen de acelerómetros, sensores y adquisición; B90 trata los ensayos pero no cómo se instrumentan ni cómo se toman los datos.
+- **B90-C24 — Prototipado y modelos de ingeniería de subconjuntos.** *Texto redactado, pendiente de revisión.* Los prototipos reducen riesgo antes del modelo de vuelo; B90 parte de unidades ya definidas y no trata cómo prototipar subconjuntos.
 
 ### B91 — Antenas y propagación para enlaces espaciales
 
 *Bloque nuevo (8 clases): Fundamentos de teoría de antenas; Polarización de antenas y pérdidas por desadaptación; Arreglos de antenas y antenas de barrido electrónico…*
 
-- **B91-C01 — Fundamentos de teoría de antenas.** *Programada.* Diseñar o elegir una antena exige entender cómo radia; el catálogo trata antenas de radiotelescopio (B46-C03) y ganancias de enlace (B89-C06), no los fundamentos de su teoría.
-- **B91-C02 — Polarización de antenas y pérdidas por desadaptación.** *Programada.* Un enlace pierde potencia si la polarización de las antenas no coincide; B42-C08 trata la polarización de la luz y B46-C13 la polarimetría de fuentes, no la desadaptación en un enlace.
-- **B91-C03 — Arreglos de antenas y antenas de barrido electrónico.** *Programada.* Las antenas de barrido electrónico se usan en satélites y estaciones; B46-C17 trata la calibración de fase de interferómetros, no los arreglos de antenas.
-- **B91-C04 — Antenas desplegables y estructuras de gran apertura.** *Programada.* Las antenas de un satélite pequeño deben plegarse y desplegarse; B84-C13 trata mecanismos en general, no el diseño de la antena desplegable.
-- **B91-C05 — Medición y calibración de antenas.** *Programada.* Un patrón de radiación se acepta tras medirlo en cámara o campo abierto; ninguna clase trata la medición de antenas.
-- **B91-C06 — Selección y compromiso de diseño de antenas.** *Programada.* Elegir tipo de antena equilibra ganancia, masa, apertura y costo; ninguna clase enseña a decidirlo.
-- **B91-C07 — Atenuación atmosférica y efectos de la lluvia en enlaces.** *Programada.* La lluvia y los gases atmosféricos reducen la señal en bandas altas; B89-C04 trata solo la pérdida de espacio libre.
-- **B91-C08 — Antenas de gran apertura y estaciones de espacio profundo.** *Programada.* Los enlaces de espacio profundo dependen de antenas de decenas de metros; B46-C03 trata antenas parabólicas de radioastronomía, no su diseño para comunicaciones.
+- **B91-C01 — Fundamentos de teoría de antenas.** *Texto redactado, pendiente de revisión.* Diseñar o elegir una antena exige entender cómo radia; el catálogo trata antenas de radiotelescopio (B46-C03) y ganancias de enlace (B89-C06), no los fundamentos de su teoría.
+- **B91-C02 — Polarización de antenas y pérdidas por desadaptación.** *Texto redactado, pendiente de revisión.* Un enlace pierde potencia si la polarización de las antenas no coincide; B42-C08 trata la polarización de la luz y B46-C13 la polarimetría de fuentes, no la desadaptación en un enlace.
+- **B91-C03 — Arreglos de antenas y antenas de barrido electrónico.** *Texto redactado, pendiente de revisión.* Las antenas de barrido electrónico se usan en satélites y estaciones; B46-C17 trata la calibración de fase de interferómetros, no los arreglos de antenas.
+- **B91-C04 — Antenas desplegables y estructuras de gran apertura.** *Texto redactado, pendiente de revisión.* Las antenas de un satélite pequeño deben plegarse y desplegarse; B84-C13 trata mecanismos en general, no el diseño de la antena desplegable.
+- **B91-C05 — Medición y calibración de antenas.** *Texto redactado, pendiente de revisión.* Un patrón de radiación se acepta tras medirlo en cámara o campo abierto; ninguna clase trata la medición de antenas.
+- **B91-C06 — Selección y compromiso de diseño de antenas.** *Texto redactado, pendiente de revisión.* Elegir tipo de antena equilibra ganancia, masa, apertura y costo; ninguna clase enseña a decidirlo.
+- **B91-C07 — Atenuación atmosférica y efectos de la lluvia en enlaces.** *Texto redactado, pendiente de revisión.* La lluvia y los gases atmosféricos reducen la señal en bandas altas; B89-C04 trata solo la pérdida de espacio libre.
+- **B91-C08 — Antenas de gran apertura y estaciones de espacio profundo.** *Texto redactado, pendiente de revisión.* Los enlaces de espacio profundo dependen de antenas de decenas de metros; B46-C03 trata antenas parabólicas de radioastronomía, no su diseño para comunicaciones.
 
 ### B92 — Comunicaciones ópticas espaciales (profundización)
 
 *Bloque nuevo (8 clases): Fuentes láser y amplificadores para enlaces espaciales; Divergencia del haz y pérdidas por apuntamiento óptico; Adquisición, apuntamiento y seguimiento ópticos…*
 
-- **B92-C01 — Fuentes láser y amplificadores para enlaces espaciales.** *Programada.* Un terminal óptico depende de su láser y amplificador; B89-C18 presenta las comunicaciones ópticas sin tratar sus fuentes.
-- **B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico.** *Programada.* El haz láser es estrecho y cualquier error de apuntamiento cuesta potencia; ninguna clase lo cuantifica.
-- **B92-C03 — Adquisición, apuntamiento y seguimiento ópticos.** *Programada.* Un enlace óptico exige apuntar con precisión de microrradianes; B47-C10 y B87-C15 tratan estabilidad de apuntamiento sin la adquisición del enlace.
-- **B92-C04 — Atmósfera y nubes en enlaces ópticos con la Tierra.** *Programada.* Las nubes y la turbulencia limitan los enlaces ópticos hacia estaciones terrestres; B42 trata turbulencia para telescopios, no su efecto en comunicaciones.
-- **B92-C05 — Receptores y detectores para comunicaciones ópticas.** *Programada.* El receptor óptico de comunicaciones usa detectores distintos a los de imagen (B44); su elección no está cubierta.
-- **B92-C06 — Modulación y codificación en enlaces ópticos.** *Programada.* La modulación óptica difiere de la de radiofrecuencia (B89-C08); ninguna clase la trata.
-- **B92-C07 — Enlaces ópticos de espacio profundo.** *Programada.* Los enlaces ópticos de espacio profundo tienen desafíos de potencia y latencia propios; no hay clase que los reúna.
-- **B92-C08 — Márgenes y disponibilidad de enlaces ópticos.** *Programada.* Decidir la disponibilidad de un enlace óptico exige márgenes por clima y apuntamiento; ninguna clase lo trata.
+- **B92-C01 — Fuentes láser y amplificadores para enlaces espaciales.** *Texto redactado, pendiente de revisión.* Un terminal óptico depende de su láser y amplificador; B89-C18 presenta las comunicaciones ópticas sin tratar sus fuentes.
+- **B92-C02 — Divergencia del haz y pérdidas por apuntamiento óptico.** *Texto redactado, pendiente de revisión.* El haz láser es estrecho y cualquier error de apuntamiento cuesta potencia; ninguna clase lo cuantifica.
+- **B92-C03 — Adquisición, apuntamiento y seguimiento ópticos.** *Texto redactado, pendiente de revisión.* Un enlace óptico exige apuntar con precisión de microrradianes; B47-C10 y B87-C15 tratan estabilidad de apuntamiento sin la adquisición del enlace.
+- **B92-C04 — Atmósfera y nubes en enlaces ópticos con la Tierra.** *Texto redactado, pendiente de revisión.* Las nubes y la turbulencia limitan los enlaces ópticos hacia estaciones terrestres; B42 trata turbulencia para telescopios, no su efecto en comunicaciones.
+- **B92-C05 — Receptores y detectores para comunicaciones ópticas.** *Texto redactado, pendiente de revisión.* El receptor óptico de comunicaciones usa detectores distintos a los de imagen (B44); su elección no está cubierta.
+- **B92-C06 — Modulación y codificación en enlaces ópticos.** *Texto redactado, pendiente de revisión.* La modulación óptica difiere de la de radiofrecuencia (B89-C08); ninguna clase la trata.
+- **B92-C07 — Enlaces ópticos de espacio profundo.** *Texto redactado, pendiente de revisión.* Los enlaces ópticos de espacio profundo tienen desafíos de potencia y latencia propios; no hay clase que los reúna.
+- **B92-C08 — Márgenes y disponibilidad de enlaces ópticos.** *Texto redactado, pendiente de revisión.* Decidir la disponibilidad de un enlace óptico exige márgenes por clima y apuntamiento; ninguna clase lo trata.
 
 ### B93 — Electrónica embarcada y compatibilidad electromagnética
 
 *Bloque nuevo (4 clases): Diseño de PCB espacial (conceptual); Selección de componentes y derating; Integridad de señal en electrónica embarcada…*
 
-- **B93-C01 — Diseño de PCB espacial (conceptual).** *Programada.* El tronco no trata el diseño de placas electrónicas; B90 integra y B86 trata potencia, pero nadie cubre el diseño de PCB.
-- **B93-C02 — Selección de componentes y derating.** *Programada.* Cubre la selección de componentes calificados y derating; ninguna clase lo trata.
-- **B93-C03 — Integridad de señal en electrónica embarcada.** *Programada.* Aporta reflexiones, crosstalk y temporización de señales; no existe en el tronco.
-- **B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating).** *Programada.* Cuantifica la confiabilidad de la electrónica; B83-C16 y B86-C11 no calculan MTBF.
+- **B93-C01 — Diseño de PCB espacial (conceptual).** *Texto redactado, pendiente de revisión.* El tronco no trata el diseño de placas electrónicas; B90 integra y B86 trata potencia, pero nadie cubre el diseño de PCB.
+- **B93-C02 — Selección de componentes y derating.** *Texto redactado, pendiente de revisión.* Cubre la selección de componentes calificados y derating; ninguna clase lo trata.
+- **B93-C03 — Integridad de señal en electrónica embarcada.** *Texto redactado, pendiente de revisión.* Aporta reflexiones, crosstalk y temporización de señales; no existe en el tronco.
+- **B93-C04 — Análisis de confiabilidad de electrónica (MTBF y derating).** *Texto redactado, pendiente de revisión.* Cuantifica la confiabilidad de la electrónica; B83-C16 y B86-C11 no calculan MTBF.
 
 ### B94 — Modulación, codificación y protocolos de enlace
 
 *Bloque nuevo (6 clases): Códigos Reed-Solomon y LDPC; Entrelazado y concatenación de códigos; Tramas de transferencia de telemetría y telecomando…*
 
-- **B94-C01 — Códigos Reed-Solomon y LDPC.** *Programada.* Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B89-C09 trata la corrección de errores en general.
-- **B94-C02 — Entrelazado y concatenación de códigos.** *Programada.* Para soportar ráfagas de errores los códigos se concatenan y entrelazan; B89-C09 no lo trata.
-- **B94-C03 — Tramas de transferencia de telemetría y telecomando.** *Programada.* Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B89-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama.
-- **B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento.** *Programada.* Las redes interplanetarias toleran retardos largos y desconexiones; B89-C13 nombra los protocolos sin tratar el almacenamiento y reenvío.
-- **B94-C05 — Calidad de servicio y prioridades en redes espaciales.** *Programada.* Repartir un enlace escaso entre tráficos exige prioridades; ninguna clase trata la calidad de servicio.
-- **B94-C06 — Validación y conformidad de protocolos de enlace.** *Programada.* Probar que una implementación cumple el protocolo es un requisito de interoperabilidad; B90 trata pruebas generales.
+- **B94-C01 — Códigos Reed-Solomon y LDPC.** *Texto redactado, pendiente de revisión.* Los códigos de bloque y de paridad de baja densidad son los usados en misiones; B89-C09 trata la corrección de errores en general.
+- **B94-C02 — Entrelazado y concatenación de códigos.** *Texto redactado, pendiente de revisión.* Para soportar ráfagas de errores los códigos se concatenan y entrelazan; B89-C09 no lo trata.
+- **B94-C03 — Tramas de transferencia de telemetría y telecomando.** *Texto redactado, pendiente de revisión.* Armar y leer las tramas de transferencia es la base del enlace de datos de una misión; B89-C11 y C12 tratan telemetría y telecomando sin la estructura de la trama.
+- **B94-C04 — Redes con retardo y desconexión: enrutamiento y almacenamiento.** *Texto redactado, pendiente de revisión.* Las redes interplanetarias toleran retardos largos y desconexiones; B89-C13 nombra los protocolos sin tratar el almacenamiento y reenvío.
+- **B94-C05 — Calidad de servicio y prioridades en redes espaciales.** *Texto redactado, pendiente de revisión.* Repartir un enlace escaso entre tráficos exige prioridades; ninguna clase trata la calidad de servicio.
+- **B94-C06 — Validación y conformidad de protocolos de enlace.** *Texto redactado, pendiente de revisión.* Probar que una implementación cumple el protocolo es un requisito de interoperabilidad; B90 trata pruebas generales.
 
 ### B95 — Plataformas de satélites pequeños y CubeSat
 
 *Bloque nuevo (4 clases): Unidad CubeSat, dimensiones y formatos; Componentes comerciales en vuelo: selección y riesgo; Selección y comparación de plataformas…*
 
-- **B95-C01 — Unidad CubeSat, dimensiones y formatos.** *Programada.* El formato por unidades fija masa, volumen y compatibilidad con el lanzador; el catálogo no tiene una clase sobre el estándar de la plataforma.
-- **B95-C02 — Componentes comerciales en vuelo: selección y riesgo.** *Programada.* Los satélites pequeños usan componentes comerciales; elegirlos y evaluar su riesgo de radiación y fiabilidad no está cubierto en B84 a B88.
-- **B95-C03 — Selección y comparación de plataformas.** *Programada.* El rol decide entre plataformas disponibles con criterios trazables; solo existe arquitectura general de sistemas (B83-C07).
-- **B95-C04 — Antenas desplegables para satélites pequeños.** *Programada.* Los CubeSat usan antenas que se despliegan tras el lanzamiento; B89-C06 trata ganancias y pérdidas, no el diseño ni el despliegue en un volumen mínimo.
+- **B95-C01 — Unidad CubeSat, dimensiones y formatos.** *Texto redactado, pendiente de revisión.* El formato por unidades fija masa, volumen y compatibilidad con el lanzador; el catálogo no tiene una clase sobre el estándar de la plataforma.
+- **B95-C02 — Componentes comerciales en vuelo: selección y riesgo.** *Texto redactado, pendiente de revisión.* Los satélites pequeños usan componentes comerciales; elegirlos y evaluar su riesgo de radiación y fiabilidad no está cubierto en B84 a B88.
+- **B95-C03 — Selección y comparación de plataformas.** *Texto redactado, pendiente de revisión.* El rol decide entre plataformas disponibles con criterios trazables; solo existe arquitectura general de sistemas (B83-C07).
+- **B95-C04 — Antenas desplegables para satélites pequeños.** *Texto redactado, pendiente de revisión.* Los CubeSat usan antenas que se despliegan tras el lanzamiento; B89-C06 trata ganancias y pérdidas, no el diseño ni el despliegue en un volumen mínimo.
 
 ## A08 — Operaciones de misión y robótica espacial
 
@@ -2155,16 +2155,16 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 - **B96-C18 — Fin de vida y disposición orbital.** Introduce el contexto y los principios de «fin de vida y disposición orbital» para comprender su uso científico.
 - **B96-C19 — Lecciones aprendidas operativas.** Describe los componentes principales de «lecciones aprendidas operativas» y por qué son relevantes para esta disciplina.
 - **B96-C20 — Simulación de jornada de control de misión.** Presenta «simulación de jornada de control de misión» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B96-C21 — Diagnóstico explicable de anomalías.** *Programada.* Permite justificar un diagnóstico automático; B96-C13 detecta anomalías sin explicabilidad.
-- **B96-C22 — Transferencia de datos entre estación y centro de datos.** *Programada.* Los datos recibidos deben llegar al centro de procesamiento con integridad y plazo; B96-C16 gestiona datos científicos sin tratar el transporte desde la estación.
-- **B96-C23 — Continuidad y redundancia de las operaciones terrestres.** *Programada.* Una estación fuera de servicio puede perder un contacto irrepetible; B96 trata la coordinación de varias estaciones pero no la continuidad operativa.
-- **B96-C24 — Operación remota y automatizada de estaciones.** *Programada.* Muchas estaciones se operan a distancia; ninguna clase trata la operación remota ni su automatización.
-- **B96-C25 — Seguridad física y control de acceso de estaciones terrestres.** *Programada.* Una estación terrena es infraestructura crítica; B119-C16 trata infraestructura crítica en general, no su protección física operativa.
-- **B96-C26 — Gestión de incidentes en la operación de estaciones.** *Programada.* Responder a una falla en pleno contacto exige un procedimiento; B96-C14 trata recuperación del satélite, no incidentes de la estación.
-- **B96-C27 — Operación de equipos de radiofrecuencia en la estación.** *Programada.* Operar transmisores y receptores con seguridad y regulación es tarea diaria de la estación; ninguna clase lo trata.
-- **B96-C28 — Control y seguimiento de la antena de estación.** *Programada.* Seguir un satélite exige controlar la antena con predicciones y correcciones; B89-C15 trata el rastreo y Doppler, no el control de la antena.
-- **B96-C29 — Diagnóstico de fallas de enlace.** *Programada.* Encontrar por qué un enlace no cierra exige un método de diagnóstico; B89-C05 da el presupuesto, no el diagnóstico en operación.
-- **B96-C30 — Registro y auditoría de operaciones.** *Programada.* Las operaciones de estación requieren bitácora y trazabilidad; B119-C07 trata el registro de objetos, no el de operaciones.
+- **B96-C21 — Diagnóstico explicable de anomalías.** *Texto redactado, pendiente de revisión.* Permite justificar un diagnóstico automático; B96-C13 detecta anomalías sin explicabilidad.
+- **B96-C22 — Transferencia de datos entre estación y centro de datos.** *Texto redactado, pendiente de revisión.* Los datos recibidos deben llegar al centro de procesamiento con integridad y plazo; B96-C16 gestiona datos científicos sin tratar el transporte desde la estación.
+- **B96-C23 — Continuidad y redundancia de las operaciones terrestres.** *Texto redactado, pendiente de revisión.* Una estación fuera de servicio puede perder un contacto irrepetible; B96 trata la coordinación de varias estaciones pero no la continuidad operativa.
+- **B96-C24 — Operación remota y automatizada de estaciones.** *Texto redactado, pendiente de revisión.* Muchas estaciones se operan a distancia; ninguna clase trata la operación remota ni su automatización.
+- **B96-C25 — Seguridad física y control de acceso de estaciones terrestres.** *Texto redactado, pendiente de revisión.* Una estación terrena es infraestructura crítica; B119-C16 trata infraestructura crítica en general, no su protección física operativa.
+- **B96-C26 — Gestión de incidentes en la operación de estaciones.** *Texto redactado, pendiente de revisión.* Responder a una falla en pleno contacto exige un procedimiento; B96-C14 trata recuperación del satélite, no incidentes de la estación.
+- **B96-C27 — Operación de equipos de radiofrecuencia en la estación.** *Texto redactado, pendiente de revisión.* Operar transmisores y receptores con seguridad y regulación es tarea diaria de la estación; ninguna clase lo trata.
+- **B96-C28 — Control y seguimiento de la antena de estación.** *Texto redactado, pendiente de revisión.* Seguir un satélite exige controlar la antena con predicciones y correcciones; B89-C15 trata el rastreo y Doppler, no el control de la antena.
+- **B96-C29 — Diagnóstico de fallas de enlace.** *Texto redactado, pendiente de revisión.* Encontrar por qué un enlace no cierra exige un método de diagnóstico; B89-C05 da el presupuesto, no el diagnóstico en operación.
+- **B96-C30 — Registro y auditoría de operaciones.** *Texto redactado, pendiente de revisión.* Las operaciones de estación requieren bitácora y trazabilidad; B119-C07 trata el registro de objetos, no el de operaciones.
 
 ### B97 — Robótica y construcción extraterrestre
 
@@ -2190,91 +2190,91 @@ Operar la misión y construir fuera de la Tierra: control de misión, robótica,
 - **B97-C18 — Pruebas en entornos análogos.** Introduce el contexto y los principios de «pruebas en entornos análogos» para comprender su uso científico.
 - **B97-C19 — Logística de piezas y reparaciones.** Describe los componentes principales de «logística de piezas y reparaciones» y por qué son relevantes para esta disciplina.
 - **B97-C20 — Misión robótica integrada simulada.** Presenta qué significa «misión robótica integrada simulada», sus elementos esenciales y su función dentro de robótica y construcción extraterrestre.
-- **B97-C21 — Clasificación y priorización autónoma de muestras a bordo.** *Programada.* B53-C17 enseña mineralogía espectral en tierra; falta la clasificación autónoma a bordo para decidir qué medir o transmitir.
-- **B97-C22 — Detección autónoma de eventos científicos.** *Programada.* B96-C13 detecta anomalías de plataforma; ninguna clase trata detección autónoma de fenómenos de interés científico (polvo, nubes).
-- **B97-C23 — Diseño de simulador de misión robótica.** *Programada.* B16-C20 y B07-C20 simulan casos concretos; falta diseñar un simulador de entorno, sensores y dinámica para una misión robótica.
-- **B97-C24 — Modelos de actuadores virtuales e integración en simulación.** *Programada.* Ninguna clase modela actuadores virtuales (saturación, retardo, holgura) ni su integración con el software de control.
-- **B97-C25 — Excavación y manejo de regolito con robots.** *Programada.* B97-C06 trata movilidad y C10 manipulación; ninguna enseña excavación, carga y acarreo de regolito.
-- **B97-C26 — Monitoreo de condición de maquinaria extraterrestre.** *Programada.* Aporta sensores y diagnóstico de salud de excavadoras y rovers; B97-C03 trata percepción, no monitoreo de condición.
-- **B97-C27 — Simulación de productividad de flotas de maquinaria.** *Programada.* Enseña a estimar productividad con simulación; B97-C20 integra una misión robótica sin métricas de producción.
+- **B97-C21 — Clasificación y priorización autónoma de muestras a bordo.** *Texto redactado, pendiente de revisión.* B53-C17 enseña mineralogía espectral en tierra; falta la clasificación autónoma a bordo para decidir qué medir o transmitir.
+- **B97-C22 — Detección autónoma de eventos científicos.** *Texto redactado, pendiente de revisión.* B96-C13 detecta anomalías de plataforma; ninguna clase trata detección autónoma de fenómenos de interés científico (polvo, nubes).
+- **B97-C23 — Diseño de simulador de misión robótica.** *Texto redactado, pendiente de revisión.* B16-C20 y B07-C20 simulan casos concretos; falta diseñar un simulador de entorno, sensores y dinámica para una misión robótica.
+- **B97-C24 — Modelos de actuadores virtuales e integración en simulación.** *Texto redactado, pendiente de revisión.* Ninguna clase modela actuadores virtuales (saturación, retardo, holgura) ni su integración con el software de control.
+- **B97-C25 — Excavación y manejo de regolito con robots.** *Texto redactado, pendiente de revisión.* B97-C06 trata movilidad y C10 manipulación; ninguna enseña excavación, carga y acarreo de regolito.
+- **B97-C26 — Monitoreo de condición de maquinaria extraterrestre.** *Texto redactado, pendiente de revisión.* Aporta sensores y diagnóstico de salud de excavadoras y rovers; B97-C03 trata percepción, no monitoreo de condición.
+- **B97-C27 — Simulación de productividad de flotas de maquinaria.** *Texto redactado, pendiente de revisión.* Enseña a estimar productividad con simulación; B97-C20 integra una misión robótica sin métricas de producción.
 
 ### B98 — Autonomía y teleoperación espacial
 
 *Bloque nuevo (8 clases): Planificación por objetivos a bordo; Sistemas de decisión autónomos y máquinas de estados de comportamiento; Control supervisado y autonomía compartida…*
 
-- **B98-C01 — Planificación por objetivos a bordo.** *Programada.* Cubre cómo el vehículo selecciona y secuencia acciones para cumplir objetivos sin intervención de Tierra; B96-C04/C09 planifican desde Tierra y ninguna clase trata la planificación a bordo.
-- **B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento.** *Programada.* Enseña la arquitectura de decisión a bordo (reglas, máquinas de estados, árboles de comportamiento); B07-C04 solo introduce condicionales.
-- **B98-C03 — Control supervisado y autonomía compartida.** *Programada.* B97-C07 trata teleoperación con latencia; falta el paradigma de control supervisado donde el operador da metas y el robot ejecuta.
-- **B98-C04 — Interfaces humano-robot para operación remota.** *Programada.* B106-C16 trata ergonomía física; ninguna clase diseña interfaces y visualización para operar robots a distancia.
-- **B98-C05 — Autonomía de bajo nivel y comportamientos reactivos.** *Programada.* No existe clase sobre comportamientos autónomos de bajo nivel (seguridad, parada, reflejos) que sostienen la operación con retardo.
-- **B98-C06 — Simulación de teleoperación con retardo.** *Programada.* B96-C20 simula una jornada de control; falta simular retardo, pérdida de paquetes y operación supervisada de un robot.
-- **B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción).** *Programada.* B83-C07 trata arquitecturas de sistema en general; falta la arquitectura de software de autonomía (capas, planificador, ejecutivo).
-- **B98-C08 — Protocolos de relevo de control entre operadores.** *Programada.* Ninguna clase trata el traspaso seguro del control robótico entre operadores y entre tripulación y tierra.
+- **B98-C01 — Planificación por objetivos a bordo.** *Texto redactado, pendiente de revisión.* Cubre cómo el vehículo selecciona y secuencia acciones para cumplir objetivos sin intervención de Tierra; B96-C04/C09 planifican desde Tierra y ninguna clase trata la planificación a bordo.
+- **B98-C02 — Sistemas de decisión autónomos y máquinas de estados de comportamiento.** *Texto redactado, pendiente de revisión.* Enseña la arquitectura de decisión a bordo (reglas, máquinas de estados, árboles de comportamiento); B07-C04 solo introduce condicionales.
+- **B98-C03 — Control supervisado y autonomía compartida.** *Texto redactado, pendiente de revisión.* B97-C07 trata teleoperación con latencia; falta el paradigma de control supervisado donde el operador da metas y el robot ejecuta.
+- **B98-C04 — Interfaces humano-robot para operación remota.** *Texto redactado, pendiente de revisión.* B106-C16 trata ergonomía física; ninguna clase diseña interfaces y visualización para operar robots a distancia.
+- **B98-C05 — Autonomía de bajo nivel y comportamientos reactivos.** *Texto redactado, pendiente de revisión.* No existe clase sobre comportamientos autónomos de bajo nivel (seguridad, parada, reflejos) que sostienen la operación con retardo.
+- **B98-C06 — Simulación de teleoperación con retardo.** *Texto redactado, pendiente de revisión.* B96-C20 simula una jornada de control; falta simular retardo, pérdida de paquetes y operación supervisada de un robot.
+- **B98-C07 — Arquitectura de autonomía a bordo (percepción-decisión-acción).** *Texto redactado, pendiente de revisión.* B83-C07 trata arquitecturas de sistema en general; falta la arquitectura de software de autonomía (capas, planificador, ejecutivo).
+- **B98-C08 — Protocolos de relevo de control entre operadores.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el traspaso seguro del control robótico entre operadores y entre tripulación y tierra.
 
 ### B99 — Localización y mapeo robótico
 
 *Bloque nuevo (7 clases): Odometría visual; Detección y descriptores de características; SLAM basado en grafos de poses…*
 
-- **B99-C01 — Odometría visual.** *Programada.* B97-C05 menciona SLAM; ninguna clase desarrolla la estimación de movimiento a partir de secuencias de imágenes.
-- **B99-C02 — Detección y descriptores de características.** *Programada.* B15-C12 detecta fuentes astronómicas; no cubre características locales robustas para correspondencia entre imágenes.
-- **B99-C03 — SLAM basado en grafos de poses.** *Programada.* B97-C05 ofrece solo una introducción; el SLAM gráfico con optimización no lineal necesita su clase.
-- **B99-C04 — Cierre de bucles y consistencia global.** *Programada.* Ninguna clase trata el reconocimiento de lugares visitados y la corrección global del mapa.
-- **B99-C05 — Mapas de ocupación y rejillas de elevación.** *Programada.* El tronco no contiene representaciones de mapa para navegación autónoma.
-- **B99-C06 — Evaluación de deriva y error de trayectoria.** *Programada.* B74-C19 evalúa precisión de navegación orbital; falta la evaluación de error de trayectoria (ATE/RPE) en localización de robots.
-- **B99-C07 — Robustez del mapeo ante entornos degradados.** *Programada.* B12-C11 y C19 dan regresión robusta y valores atípicos, pero no su aplicación a mapeo con texturas pobres, polvo y cambios de iluminación.
+- **B99-C01 — Odometría visual.** *Texto redactado, pendiente de revisión.* B97-C05 menciona SLAM; ninguna clase desarrolla la estimación de movimiento a partir de secuencias de imágenes.
+- **B99-C02 — Detección y descriptores de características.** *Texto redactado, pendiente de revisión.* B15-C12 detecta fuentes astronómicas; no cubre características locales robustas para correspondencia entre imágenes.
+- **B99-C03 — SLAM basado en grafos de poses.** *Texto redactado, pendiente de revisión.* B97-C05 ofrece solo una introducción; el SLAM gráfico con optimización no lineal necesita su clase.
+- **B99-C04 — Cierre de bucles y consistencia global.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el reconocimiento de lugares visitados y la corrección global del mapa.
+- **B99-C05 — Mapas de ocupación y rejillas de elevación.** *Texto redactado, pendiente de revisión.* El tronco no contiene representaciones de mapa para navegación autónoma.
+- **B99-C06 — Evaluación de deriva y error de trayectoria.** *Texto redactado, pendiente de revisión.* B74-C19 evalúa precisión de navegación orbital; falta la evaluación de error de trayectoria (ATE/RPE) en localización de robots.
+- **B99-C07 — Robustez del mapeo ante entornos degradados.** *Texto redactado, pendiente de revisión.* B12-C11 y C19 dan regresión robusta y valores atípicos, pero no su aplicación a mapeo con texturas pobres, polvo y cambios de iluminación.
 
 ### B100 — Logística y cadena de suministro extraterrestre
 
 *Bloque nuevo (7 clases): Gestión de inventario de materias primas y piezas; Dimensionamiento de carga y volumen de misión; Gestión de inventarios y reposición de suministros…*
 
-- **B100-C01 — Gestión de inventario de materias primas y piezas.** *Programada.* Enseña control de existencias y trazabilidad de materiales en una instalación remota; sin clase equivalente.
-- **B100-C02 — Dimensionamiento de carga y volumen de misión.** *Programada.* Aporta el cálculo de masa y volumen de carga por misión; B83-C09 solo trata presupuestos de masa del vehículo.
-- **B100-C03 — Gestión de inventarios y reposición de suministros.** *Programada.* Cubre niveles de reposición y reservas de seguridad con demoras interplanetarias; no cubierto.
-- **B100-C04 — Almacenamiento remoto y depósitos de suministros.** *Programada.* Enseña depósitos de larga duración y su degradación; B106-C11 solo trata alimentos.
-- **B100-C05 — Transporte de carga sobre superficie planetaria.** *Programada.* Aporta vehículos de carga, rutas y energía de transporte; B97-C06 trata solo movilidad robótica.
-- **B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento.** *Programada.* B76 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa.
-- **B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos.** *Programada.* Cuantifica qué parte de los suministros debe venir de la Tierra; B59-C15 trata ciclo cerrado de materiales.
+- **B100-C01 — Gestión de inventario de materias primas y piezas.** *Texto redactado, pendiente de revisión.* Enseña control de existencias y trazabilidad de materiales en una instalación remota; sin clase equivalente.
+- **B100-C02 — Dimensionamiento de carga y volumen de misión.** *Texto redactado, pendiente de revisión.* Aporta el cálculo de masa y volumen de carga por misión; B83-C09 solo trata presupuestos de masa del vehículo.
+- **B100-C03 — Gestión de inventarios y reposición de suministros.** *Texto redactado, pendiente de revisión.* Cubre niveles de reposición y reservas de seguridad con demoras interplanetarias; no cubierto.
+- **B100-C04 — Almacenamiento remoto y depósitos de suministros.** *Texto redactado, pendiente de revisión.* Enseña depósitos de larga duración y su degradación; B106-C11 solo trata alimentos.
+- **B100-C05 — Transporte de carga sobre superficie planetaria.** *Texto redactado, pendiente de revisión.* Aporta vehículos de carga, rutas y energía de transporte; B97-C06 trata solo movilidad robótica.
+- **B100-C06 — Logística cislunar: nodos, depósitos y rutas de reabastecimiento.** *Texto redactado, pendiente de revisión.* B76 enseña la dinámica cislunar; ninguna clase trata la red logística que la usa.
+- **B100-C07 — Dependencia de suministros terrestres y cierre de lazos logísticos.** *Texto redactado, pendiente de revisión.* Cuantifica qué parte de los suministros debe venir de la Tierra; B59-C15 trata ciclo cerrado de materiales.
 
 ### B101 — Manipuladores robóticos espaciales
 
 *Bloque nuevo (10 clases): Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg); Cinemática inversa y redundancia de manipuladores; Singularidades y manipulabilidad de brazos robóticos…*
 
-- **B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg).** *Programada.* B10 enseña rotaciones y cambio de marcos, pero ninguna clase une rotación y traslación en una transformación homogénea ni parametriza la cadena de eslabones de un brazo.
-- **B101-C02 — Cinemática inversa y redundancia de manipuladores.** *Programada.* B97-C02 presenta la cinemática de manipuladores en una sola clase; resolver la cinemática inversa (soluciones múltiples, redundancia, métodos numéricos) exige su propia clase.
-- **B101-C03 — Singularidades y manipulabilidad de brazos robóticos.** *Programada.* B10-C11 (SVD) da la herramienta matemática, pero ninguna clase analiza singularidades y pérdida de movilidad de un brazo ni su evasión.
-- **B101-C04 — Límites articulares, espacio de trabajo y evitación de colisiones.** *Programada.* Ninguna clase del tronco trata las restricciones articulares, el espacio de trabajo alcanzable ni la evitación de autocolisiones de un manipulador.
-- **B101-C05 — Calibración cinemática de manipuladores.** *Programada.* B13-C05 trata calibración instrumental general; no existe una clase sobre identificar parámetros cinemáticos reales de un brazo a partir de mediciones.
-- **B101-C06 — Simulación de un brazo robótico espacial.** *Programada.* B97-C20 integra una misión completa y B16-C20 un simulador de orientación; falta la simulación específica de cinemática y dinámica de un brazo.
-- **B101-C07 — Control de fuerza e impedancia en manipulación.** *Programada.* B16 trata control clásico; falta el control de contacto (fuerza, impedancia) para manipular componentes en microgravedad.
-- **B101-C08 — Gemelo digital para ensayo de reparaciones robóticas.** *Programada.* B97-C20 simula una misión; falta construir y usar un gemelo digital de un satélite y su brazo para ensayar reparaciones.
-- **B101-C09 — Coordinación visual y cámaras en operaciones con manipulador.** *Programada.* Ninguna clase trata las vistas y cámaras disponibles para el operador, los puntos ciegos y la referencia visual en operaciones con brazo.
-- **B101-C10 — Simulación de una tarea tripulada con manipulador.** *Programada.* B97-C20 integra una misión robótica; falta simular una tarea con operador humano (captura, ensamblaje).
+- **B101-C01 — Transformaciones homogéneas y parametrización de eslabones (Denavit-Hartenberg).** *Texto redactado, pendiente de revisión.* B10 enseña rotaciones y cambio de marcos, pero ninguna clase une rotación y traslación en una transformación homogénea ni parametriza la cadena de eslabones de un brazo.
+- **B101-C02 — Cinemática inversa y redundancia de manipuladores.** *Texto redactado, pendiente de revisión.* B97-C02 presenta la cinemática de manipuladores en una sola clase; resolver la cinemática inversa (soluciones múltiples, redundancia, métodos numéricos) exige su propia clase.
+- **B101-C03 — Singularidades y manipulabilidad de brazos robóticos.** *Texto redactado, pendiente de revisión.* B10-C11 (SVD) da la herramienta matemática, pero ninguna clase analiza singularidades y pérdida de movilidad de un brazo ni su evasión.
+- **B101-C04 — Límites articulares, espacio de trabajo y evitación de colisiones.** *Texto redactado, pendiente de revisión.* Ninguna clase del tronco trata las restricciones articulares, el espacio de trabajo alcanzable ni la evitación de autocolisiones de un manipulador.
+- **B101-C05 — Calibración cinemática de manipuladores.** *Texto redactado, pendiente de revisión.* B13-C05 trata calibración instrumental general; no existe una clase sobre identificar parámetros cinemáticos reales de un brazo a partir de mediciones.
+- **B101-C06 — Simulación de un brazo robótico espacial.** *Texto redactado, pendiente de revisión.* B97-C20 integra una misión completa y B16-C20 un simulador de orientación; falta la simulación específica de cinemática y dinámica de un brazo.
+- **B101-C07 — Control de fuerza e impedancia en manipulación.** *Texto redactado, pendiente de revisión.* B16 trata control clásico; falta el control de contacto (fuerza, impedancia) para manipular componentes en microgravedad.
+- **B101-C08 — Gemelo digital para ensayo de reparaciones robóticas.** *Texto redactado, pendiente de revisión.* B97-C20 simula una misión; falta construir y usar un gemelo digital de un satélite y su brazo para ensayar reparaciones.
+- **B101-C09 — Coordinación visual y cámaras en operaciones con manipulador.** *Texto redactado, pendiente de revisión.* Ninguna clase trata las vistas y cámaras disponibles para el operador, los puntos ciegos y la referencia visual en operaciones con brazo.
+- **B101-C10 — Simulación de una tarea tripulada con manipulador.** *Texto redactado, pendiente de revisión.* B97-C20 integra una misión robótica; falta simular una tarea con operador humano (captura, ensamblaje).
 
 ### B102 — Movilidad de robots planetarios
 
 *Bloque nuevo (8 clases): Dinámica multicuerpo de rovers y manipuladores; Terramecánica: tracción y hundimiento en suelos sueltos; Deslizamiento y estimación de patinaje…*
 
-- **B102-C01 — Dinámica multicuerpo de rovers y manipuladores.** *Programada.* B05 y B84 dan mecánica y análisis estructural, pero ninguna clase formula la dinámica de sistemas de cuerpos articulados con contactos.
-- **B102-C02 — Terramecánica: tracción y hundimiento en suelos sueltos.** *Programada.* B97-C06 introduce la movilidad sobre regolito; falta el modelo de interacción rueda-suelo (presión, cizalladura, hundimiento) que sostiene la tracción.
-- **B102-C03 — Deslizamiento y estimación de patinaje.** *Programada.* Ninguna clase trata el deslizamiento de ruedas sobre suelo suelto ni cómo estimarlo para corregir odometría y control.
-- **B102-C04 — Suspensión rocker-bogie y mecánica de rovers.** *Programada.* El tronco no contiene una clase sobre arquitecturas de suspensión de rovers ni su efecto en la adaptación al terreno.
-- **B102-C05 — Distribución de cargas y estabilidad ante vuelco.** *Programada.* B05-C05 da los diagramas de cuerpo libre, pero falta aplicarlos al reparto de carga por rueda y a márgenes de estabilidad en pendiente.
-- **B102-C06 — Dinamometría y medición de fuerzas de tracción.** *Programada.* B13 cubre metrología general; falta la medición de tracción y resistencia al avance con bancos y celdas de carga para validar modelos de locomoción.
-- **B102-C07 — Simulación de movilidad sobre pendientes y terreno.** *Programada.* Ninguna clase simula la dinámica de un rover sobre pendientes y terrenos deformables para evaluar tracción y estabilidad.
-- **B102-C08 — Traversabilidad y evaluación de riesgo de terreno.** *Programada.* B53 describe geología de superficies, pero ninguna clase convierte pendiente, rugosidad y rocas en riesgo de navegación.
+- **B102-C01 — Dinámica multicuerpo de rovers y manipuladores.** *Texto redactado, pendiente de revisión.* B05 y B84 dan mecánica y análisis estructural, pero ninguna clase formula la dinámica de sistemas de cuerpos articulados con contactos.
+- **B102-C02 — Terramecánica: tracción y hundimiento en suelos sueltos.** *Texto redactado, pendiente de revisión.* B97-C06 introduce la movilidad sobre regolito; falta el modelo de interacción rueda-suelo (presión, cizalladura, hundimiento) que sostiene la tracción.
+- **B102-C03 — Deslizamiento y estimación de patinaje.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el deslizamiento de ruedas sobre suelo suelto ni cómo estimarlo para corregir odometría y control.
+- **B102-C04 — Suspensión rocker-bogie y mecánica de rovers.** *Texto redactado, pendiente de revisión.* El tronco no contiene una clase sobre arquitecturas de suspensión de rovers ni su efecto en la adaptación al terreno.
+- **B102-C05 — Distribución de cargas y estabilidad ante vuelco.** *Texto redactado, pendiente de revisión.* B05-C05 da los diagramas de cuerpo libre, pero falta aplicarlos al reparto de carga por rueda y a márgenes de estabilidad en pendiente.
+- **B102-C06 — Dinamometría y medición de fuerzas de tracción.** *Texto redactado, pendiente de revisión.* B13 cubre metrología general; falta la medición de tracción y resistencia al avance con bancos y celdas de carga para validar modelos de locomoción.
+- **B102-C07 — Simulación de movilidad sobre pendientes y terreno.** *Texto redactado, pendiente de revisión.* Ninguna clase simula la dinámica de un rover sobre pendientes y terrenos deformables para evaluar tracción y estabilidad.
+- **B102-C08 — Traversabilidad y evaluación de riesgo de terreno.** *Texto redactado, pendiente de revisión.* B53 describe geología de superficies, pero ninguna clase convierte pendiente, rugosidad y rocas en riesgo de navegación.
 
 ### B103 — Percepción visual robótica
 
 *Bloque nuevo (8 clases): Calibración intrínseca de cámaras; Calibración extrínseca y registro multisensor; Mapas de profundidad y correspondencia estéreo…*
 
-- **B103-C01 — Calibración intrínseca de cámaras.** *Programada.* B44 trata detectores astronómicos, no el modelo geométrico de cámara (focal, distorsión) necesario para visión robótica.
-- **B103-C02 — Calibración extrínseca y registro multisensor.** *Programada.* Ninguna clase cubre la pose relativa cámara-robot ni entre sensores, base de la visión estéreo y la fusión.
-- **B103-C03 — Mapas de profundidad y correspondencia estéreo.** *Programada.* B97-C04 introduce el estéreo; falta la clase de cálculo de disparidad y mapas de profundidad con sus errores.
-- **B103-C04 — Detección de obstáculos y mapas de traversabilidad.** *Programada.* B97-C03 es una visión general de sensores; ninguna clase construye detección de obstáculos y traversabilidad a partir de percepción.
-- **B103-C05 — Segmentación semántica de superficies planetarias.** *Programada.* B15-C13 trata segmentación clásica de imágenes; no hay una clase de segmentación semántica con aprendizaje automático (no existe bloque de aprendizaje automático).
-- **B103-C06 — Detección y catalogación de rocas en imágenes de superficie.** *Programada.* Ningún bloque trata la detección de rocas como peligro de navegación y objetivo científico en imágenes de rovers.
-- **B103-C07 — Estimación de pose de objetos y objetivos por visión.** *Programada.* B87-C09 estima actitud de satélites con sensores específicos; falta la estimación de pose de objetos por visión (PnP, marcadores).
-- **B103-C08 — Métricas de evaluación de percepción.** *Programada.* Ninguna clase define métricas (precisión, recall, IoU, error de profundidad) para validar algoritmos de percepción.
+- **B103-C01 — Calibración intrínseca de cámaras.** *Texto redactado, pendiente de revisión.* B44 trata detectores astronómicos, no el modelo geométrico de cámara (focal, distorsión) necesario para visión robótica.
+- **B103-C02 — Calibración extrínseca y registro multisensor.** *Texto redactado, pendiente de revisión.* Ninguna clase cubre la pose relativa cámara-robot ni entre sensores, base de la visión estéreo y la fusión.
+- **B103-C03 — Mapas de profundidad y correspondencia estéreo.** *Texto redactado, pendiente de revisión.* B97-C04 introduce el estéreo; falta la clase de cálculo de disparidad y mapas de profundidad con sus errores.
+- **B103-C04 — Detección de obstáculos y mapas de traversabilidad.** *Texto redactado, pendiente de revisión.* B97-C03 es una visión general de sensores; ninguna clase construye detección de obstáculos y traversabilidad a partir de percepción.
+- **B103-C05 — Segmentación semántica de superficies planetarias.** *Texto redactado, pendiente de revisión.* B15-C13 trata segmentación clásica de imágenes; no hay una clase de segmentación semántica con aprendizaje automático (no existe bloque de aprendizaje automático).
+- **B103-C06 — Detección y catalogación de rocas en imágenes de superficie.** *Texto redactado, pendiente de revisión.* Ningún bloque trata la detección de rocas como peligro de navegación y objetivo científico en imágenes de rovers.
+- **B103-C07 — Estimación de pose de objetos y objetivos por visión.** *Texto redactado, pendiente de revisión.* B87-C09 estima actitud de satélites con sensores específicos; falta la estimación de pose de objetos por visión (PnP, marcadores).
+- **B103-C08 — Métricas de evaluación de percepción.** *Texto redactado, pendiente de revisión.* Ninguna clase define métricas (precisión, recall, IoU, error de profundidad) para validar algoritmos de percepción.
 
 ## A09 — Astronáutica humana, medicina y hábitats
 
@@ -2304,9 +2304,9 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 - **B104-C18 — Aislamiento y convivencia.** Introduce el contexto y los principios de «aislamiento y convivencia» para comprender su uso científico.
 - **B104-C19 — Operaciones de retorno y reintegración.** Introduce «operaciones de retorno y reintegración» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
 - **B104-C20 — Misión tripulada simulada.** Presenta qué significa «misión tripulada simulada», sus elementos esenciales y su función dentro de astronáutica y preparación de astronautas.
-- **B104-C21 — Inventario, logística y estiba a bordo.** *Programada.* B97-C19 es logística robótica de piezas; no hay clase de inventario, consumibles y estiba de una nave tripulada.
-- **B104-C22 — Diseño y uso de listas de comprobación de cabina.** *Programada.* B104-C06 cubre procedimientos en general; falta diseñar, ejecutar y verificar checklists de cabina.
-- **B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro.** *Programada.* B96-C10 planifica cargas útiles desde tierra; falta la ejecución de experimentos por la tripulación.
+- **B104-C21 — Inventario, logística y estiba a bordo.** *Texto redactado, pendiente de revisión.* B97-C19 es logística robótica de piezas; no hay clase de inventario, consumibles y estiba de una nave tripulada.
+- **B104-C22 — Diseño y uso de listas de comprobación de cabina.** *Texto redactado, pendiente de revisión.* B104-C06 cubre procedimientos en general; falta diseñar, ejecutar y verificar checklists de cabina.
+- **B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro.** *Texto redactado, pendiente de revisión.* B96-C10 planifica cargas útiles desde tierra; falta la ejecución de experimentos por la tripulación.
 
 ### B105 — Medicina y biología espacial
 
@@ -2332,13 +2332,13 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 - **B105-C18 — Investigación de efectos de gravedad parcial.** Introduce el contexto y los principios de «investigación de efectos de gravedad parcial» para comprender su uso científico.
 - **B105-C19 — Bioética en investigación tripulada.** Ubica «bioética en investigación tripulada» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B105-C20 — Diseño de protocolo médico simulado.** Introduce «diseño de protocolo médico simulado» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B105-C21 — Fisiología respiratoria en microgravedad y atmósferas de cabina.** *Programada.* B105 y B106-C03 tratan atmósfera y exposición, pero no la fisiología respiratoria ni los cambios de ventilación y perfusión.
-- **B105-C22 — Sistema neuroendocrino y respuesta al estrés en vuelo.** *Programada.* Ninguna clase trata los ejes neuroendocrinos ni su alteración en el espacio.
-- **B105-C23 — Termorregulación humana en vuelo.** *Programada.* B106-C08 trata el control térmico del hábitat, no la termorregulación del cuerpo.
-- **B105-C24 — Indicadores clínicos y biomarcadores de vuelo.** *Programada.* B105 describe sistemas por separado; falta la clase de indicadores clínicos para seguirlos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B105-C25 — Adaptación sensoriomotora y control motor en microgravedad.** *Programada.* B105-C04 trata el vestibular; falta la adaptación del control motor.
-- **B105-C26 — Medidas fisiológicas y biomarcadores en investigación espacial.** *Programada.* B105-C20 diseña protocolos; falta la elección de medidas.
-- **B105-C27 — Instrumentos validados y psicometría en investigación.** *Programada.* Ninguna clase trata validación de instrumentos.
+- **B105-C21 — Fisiología respiratoria en microgravedad y atmósferas de cabina.** *Texto redactado, pendiente de revisión.* B105 y B106-C03 tratan atmósfera y exposición, pero no la fisiología respiratoria ni los cambios de ventilación y perfusión.
+- **B105-C22 — Sistema neuroendocrino y respuesta al estrés en vuelo.** *Texto redactado, pendiente de revisión.* Ninguna clase trata los ejes neuroendocrinos ni su alteración en el espacio.
+- **B105-C23 — Termorregulación humana en vuelo.** *Texto redactado, pendiente de revisión.* B106-C08 trata el control térmico del hábitat, no la termorregulación del cuerpo.
+- **B105-C24 — Indicadores clínicos y biomarcadores de vuelo.** *Texto redactado, pendiente de revisión.* B105 describe sistemas por separado; falta la clase de indicadores clínicos para seguirlos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B105-C25 — Adaptación sensoriomotora y control motor en microgravedad.** *Texto redactado, pendiente de revisión.* B105-C04 trata el vestibular; falta la adaptación del control motor.
+- **B105-C26 — Medidas fisiológicas y biomarcadores en investigación espacial.** *Texto redactado, pendiente de revisión.* B105-C20 diseña protocolos; falta la elección de medidas.
+- **B105-C27 — Instrumentos validados y psicometría en investigación.** *Texto redactado, pendiente de revisión.* Ninguna clase trata validación de instrumentos.
 
 ### B106 — Hábitats espaciales y soporte vital
 
@@ -2364,144 +2364,144 @@ La persona en el espacio: preparación de astronautas, medicina y biología, há
 - **B106-C18 — Fiabilidad y redundancia.** Introduce el contexto y los principios de «fiabilidad y redundancia» para comprender su uso científico.
 - **B106-C19 — Arquitectura de asentamiento lunar conceptual.** Describe los componentes principales de «arquitectura de asentamiento lunar conceptual» y por qué son relevantes para esta disciplina.
 - **B106-C20 — Proyecto de balance ambiental de hábitat.** Introduce «proyecto de balance ambiental de hábitat» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B106-C21 — Depuración de trazas gaseosas de la atmósfera de cabina.** *Programada.* Cubre carbón activo, catalizadores y filtros para contaminantes gaseosos traza; B106-C03 y C04 tratan composición y CO2 pero no la depuración de trazas.
-- **B106-C22 — Fuentes e identificación de contaminantes del aire de cabina.** *Programada.* Enseña qué contaminantes genera una cabina cerrada (materiales, equipos, metabolismo) y cómo identificarlos; ninguna clase de B106 o B90 lo trata.
-- **B106-C23 — Control de partículas y polvo respirable en cabina.** *Programada.* Aporta filtración HEPA y control de partículas en microgravedad y gravedad parcial; B106-C03 no aborda aerosoles ni polvo respirable.
-- **B106-C24 — Calidad del aire y límites de exposición en cabina.** *Programada.* Introduce índices y límites de exposición (SMAC) para evaluar la salubridad del aire; ninguna clase actual define criterios de calidad del aire.
-- **B106-C25 — Sensores de presión, gases y humedad para monitoreo de hábitat.** *Programada.* Enseña la selección, calibración y redundancia de sensores atmosféricos de cabina; B87-C04 trata sensores de actitud, no ambientales.
-- **B106-C26 — Tratamiento de aguas grises en hábitats.** *Programada.* Cubre filtración, biorreactores y desinfección de aguas grises; B106-C06 trata el reciclaje en general sin esta etapa.
-- **B106-C27 — Tratamiento de orina y recuperación de agua.** *Programada.* Enseña destilación y procesos de recuperación a partir de orina; no hay clase específica y B106-C10 solo trata residuos humanos en general.
-- **B106-C28 — Monitoreo microbiológico de agua y superficies del hábitat.** *Programada.* B105-C11 trata el microbioma humano; ninguna clase enseña el muestreo, límites y control microbiológico del agua potable y superficies.
-- **B106-C29 — Almacenamiento y distribución de agua potable en hábitats.** *Programada.* Aporta tanques, presurización y prevención de contaminación del agua almacenada; no cubierto en B106-C06.
+- **B106-C21 — Depuración de trazas gaseosas de la atmósfera de cabina.** *Texto redactado, pendiente de revisión.* Cubre carbón activo, catalizadores y filtros para contaminantes gaseosos traza; B106-C03 y C04 tratan composición y CO2 pero no la depuración de trazas.
+- **B106-C22 — Fuentes e identificación de contaminantes del aire de cabina.** *Texto redactado, pendiente de revisión.* Enseña qué contaminantes genera una cabina cerrada (materiales, equipos, metabolismo) y cómo identificarlos; ninguna clase de B106 o B90 lo trata.
+- **B106-C23 — Control de partículas y polvo respirable en cabina.** *Texto redactado, pendiente de revisión.* Aporta filtración HEPA y control de partículas en microgravedad y gravedad parcial; B106-C03 no aborda aerosoles ni polvo respirable.
+- **B106-C24 — Calidad del aire y límites de exposición en cabina.** *Texto redactado, pendiente de revisión.* Introduce índices y límites de exposición (SMAC) para evaluar la salubridad del aire; ninguna clase actual define criterios de calidad del aire.
+- **B106-C25 — Sensores de presión, gases y humedad para monitoreo de hábitat.** *Texto redactado, pendiente de revisión.* Enseña la selección, calibración y redundancia de sensores atmosféricos de cabina; B87-C04 trata sensores de actitud, no ambientales.
+- **B106-C26 — Tratamiento de aguas grises en hábitats.** *Texto redactado, pendiente de revisión.* Cubre filtración, biorreactores y desinfección de aguas grises; B106-C06 trata el reciclaje en general sin esta etapa.
+- **B106-C27 — Tratamiento de orina y recuperación de agua.** *Texto redactado, pendiente de revisión.* Enseña destilación y procesos de recuperación a partir de orina; no hay clase específica y B106-C10 solo trata residuos humanos en general.
+- **B106-C28 — Monitoreo microbiológico de agua y superficies del hábitat.** *Texto redactado, pendiente de revisión.* B105-C11 trata el microbioma humano; ninguna clase enseña el muestreo, límites y control microbiológico del agua potable y superficies.
+- **B106-C29 — Almacenamiento y distribución de agua potable en hábitats.** *Texto redactado, pendiente de revisión.* Aporta tanques, presurización y prevención de contaminación del agua almacenada; no cubierto en B106-C06.
 
 ### B107 — Acondicionamiento físico y rehabilitación de astronautas
 
 *Bloque nuevo (10 clases): Entrenamiento cardiorrespiratorio y de resistencia de astronautas; Movilidad articular, flexibilidad y postura; Entrenamiento vestibular y de orientación espacial…*
 
-- **B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas.** *Programada.* B104-C04 es acondicionamiento general; el diseño del entrenamiento de resistencia para vuelo no tiene clase propia.
-- **B107-C02 — Movilidad articular, flexibilidad y postura.** *Programada.* Ninguna clase trata movilidad articular y postura, relevantes en trajes y microgravedad.
-- **B107-C03 — Entrenamiento vestibular y de orientación espacial.** *Programada.* B105-C04 describe el sistema vestibular, pero no el entrenamiento para prepararse a la desorientación.
-- **B107-C04 — Evaluación del rendimiento físico y cognitivo de tripulantes.** *Programada.* B104-C03 trata selección y aptitud; falta la evaluación periódica de rendimiento físico y cognitivo.
-- **B107-C05 — Prevención de lesiones en entrenamiento y trabajo operativo.** *Programada.* No hay clase sobre lesiones típicas de entrenamiento, EVA y reacondicionamiento.
-- **B107-C06 — Estimación y modelado de la recuperación posterior al vuelo.** *Programada.* B105-C17 describe la rehabilitación; falta modelar y estimar la recuperación esperada.
-- **B107-C07 — Rehabilitación vestibular y del equilibrio posterior al vuelo.** *Programada.* B105-C04 describe el sistema vestibular; falta su rehabilitación. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B107-C08 — Evaluación funcional posterior al vuelo.** *Programada.* Falta la clase de pruebas funcionales de retorno.
-- **B107-C09 — Progresión de recuperación y criterios de alta.** *Programada.* Falta la clase de progresión y criterios.
-- **B107-C10 — Indicadores de rehabilitación y seguimiento.** *Programada.* Falta la clase de indicadores de rehabilitación.
+- **B107-C01 — Entrenamiento cardiorrespiratorio y de resistencia de astronautas.** *Texto redactado, pendiente de revisión.* B104-C04 es acondicionamiento general; el diseño del entrenamiento de resistencia para vuelo no tiene clase propia.
+- **B107-C02 — Movilidad articular, flexibilidad y postura.** *Texto redactado, pendiente de revisión.* Ninguna clase trata movilidad articular y postura, relevantes en trajes y microgravedad.
+- **B107-C03 — Entrenamiento vestibular y de orientación espacial.** *Texto redactado, pendiente de revisión.* B105-C04 describe el sistema vestibular, pero no el entrenamiento para prepararse a la desorientación.
+- **B107-C04 — Evaluación del rendimiento físico y cognitivo de tripulantes.** *Texto redactado, pendiente de revisión.* B104-C03 trata selección y aptitud; falta la evaluación periódica de rendimiento físico y cognitivo.
+- **B107-C05 — Prevención de lesiones en entrenamiento y trabajo operativo.** *Texto redactado, pendiente de revisión.* No hay clase sobre lesiones típicas de entrenamiento, EVA y reacondicionamiento.
+- **B107-C06 — Estimación y modelado de la recuperación posterior al vuelo.** *Texto redactado, pendiente de revisión.* B105-C17 describe la rehabilitación; falta modelar y estimar la recuperación esperada.
+- **B107-C07 — Rehabilitación vestibular y del equilibrio posterior al vuelo.** *Texto redactado, pendiente de revisión.* B105-C04 describe el sistema vestibular; falta su rehabilitación. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B107-C08 — Evaluación funcional posterior al vuelo.** *Texto redactado, pendiente de revisión.* Falta la clase de pruebas funcionales de retorno.
+- **B107-C09 — Progresión de recuperación y criterios de alta.** *Texto redactado, pendiente de revisión.* Falta la clase de progresión y criterios.
+- **B107-C10 — Indicadores de rehabilitación y seguimiento.** *Texto redactado, pendiente de revisión.* Falta la clase de indicadores de rehabilitación.
 
 ### B108 — Actividades extravehiculares y trajes espaciales
 
 *Bloque nuevo (5 clases): Sistemas portátiles de soporte vital (PLSS); Planificación de desplazamientos y rutas de EVA; Herramientas y equipos de EVA…*
 
-- **B108-C01 — Sistemas portátiles de soporte vital (PLSS).** *Programada.* B106-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase.
-- **B108-C02 — Planificación de desplazamientos y rutas de EVA.** *Programada.* Ninguna clase planifica rutas y accesibilidad de una EVA en una estructura.
-- **B108-C03 — Herramientas y equipos de EVA.** *Programada.* No hay clase sobre herramientas EVA (torque, reacción, sujeción de herramientas).
-- **B108-C04 — Sistemas de sujeción y restricción de pies.** *Programada.* Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad.
-- **B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA.** *Programada.* Falta evaluar la secuencia de una EVA (tiempos, consumibles, márgenes) antes de ejecutarla.
+- **B108-C01 — Sistemas portátiles de soporte vital (PLSS).** *Texto redactado, pendiente de revisión.* B106-C09 trata ECLSS de hábitat; el soporte vital portátil del traje no tiene clase.
+- **B108-C02 — Planificación de desplazamientos y rutas de EVA.** *Texto redactado, pendiente de revisión.* Ninguna clase planifica rutas y accesibilidad de una EVA en una estructura.
+- **B108-C03 — Herramientas y equipos de EVA.** *Texto redactado, pendiente de revisión.* No hay clase sobre herramientas EVA (torque, reacción, sujeción de herramientas).
+- **B108-C04 — Sistemas de sujeción y restricción de pies.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad.
+- **B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA.** *Texto redactado, pendiente de revisión.* Falta evaluar la secuencia de una EVA (tiempos, consumibles, márgenes) antes de ejecutarla.
 
 ### B109 — Arquitectura y factores humanos de hábitats extraterrestres
 
 *Bloque nuevo (12 clases): Selección de emplazamiento para un asentamiento extraterrestre; Zonificación y distribución funcional de módulos de un hábitat; Accesos, esclusas y transferencia entre ambientes presurizados…*
 
-- **B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre.** *Programada.* Aporta criterios de elección de sitio (relieve, iluminación, recursos, comunicaciones, seguridad); B106-C19 presenta una arquitectura lunar conceptual pero ninguna clase enseña a comparar y elegir emplazamientos.
-- **B109-C02 — Zonificación y distribución funcional de módulos de un hábitat.** *Programada.* Enseña a organizar módulos y zonas (vida, trabajo, higiene, almacenamiento) por flujos y adyacencias; B106-C02 trata solo la presurización de cada módulo.
-- **B109-C03 — Accesos, esclusas y transferencia entre ambientes presurizados.** *Programada.* Cubre el diseño de esclusas y puntos de acceso (ciclo de presurización, polvo, EVA); ninguna clase de B104 o B106 trata la arquitectura de accesos.
-- **B109-C04 — Mitigación de polvo lunar en accesos y hábitats.** *Programada.* B85-C16 describe el polvo lunar como contaminante del entorno, pero no el diseño de barreras, limpieza y esclusas para impedir su ingreso al hábitat.
-- **B109-C05 — Crecimiento modular y escalabilidad de asentamientos.** *Programada.* Enseña a planificar el crecimiento de un asentamiento por fases sin rediseño; B106-C19 es solo un concepto inicial de asentamiento lunar.
-- **B109-C06 — Antropometría y dimensionamiento para tripulación.** *Programada.* Aporta datos antropométricos y de postura en gravedad parcial para dimensionar espacios; B106-C16 trata ergonomía solo en microgravedad.
-- **B109-C07 — Asignación de volúmenes habitables por tripulante.** *Programada.* Enseña el volumen neto habitable y su distribución; no cubierto en B106-C01.
-- **B109-C08 — Diseño inclusivo en hábitats.** *Programada.* Aporta accesibilidad y diversidad de usuarios en el diseño de hábitats; ninguna clase actual lo trata.
-- **B109-C09 — Privacidad y espacios personales.** *Programada.* Cubre diseño de cabinas y privacidad acústica y visual; B104-C18 trata convivencia pero no el diseño.
-- **B109-C10 — Acústica y control de ruido interior.** *Programada.* Aporta límites de ruido y diseño acústico de ventiladores y bombas; no cubierto en ninguna clase.
-- **B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio.** *Programada.* Cubre estaciones de trabajo, accesibilidad a equipos y mantenimiento en hábitat; B106-C16 solo ergonomía en microgravedad.
-- **B109-C12 — Evaluación de factores humanos de maquetas y distribuciones.** *Programada.* Enseña pruebas con maquetas y listas de verificación de habitabilidad; no cubierto en B104 ni B106.
+- **B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre.** *Texto redactado, pendiente de revisión.* Aporta criterios de elección de sitio (relieve, iluminación, recursos, comunicaciones, seguridad); B106-C19 presenta una arquitectura lunar conceptual pero ninguna clase enseña a comparar y elegir emplazamientos.
+- **B109-C02 — Zonificación y distribución funcional de módulos de un hábitat.** *Texto redactado, pendiente de revisión.* Enseña a organizar módulos y zonas (vida, trabajo, higiene, almacenamiento) por flujos y adyacencias; B106-C02 trata solo la presurización de cada módulo.
+- **B109-C03 — Accesos, esclusas y transferencia entre ambientes presurizados.** *Texto redactado, pendiente de revisión.* Cubre el diseño de esclusas y puntos de acceso (ciclo de presurización, polvo, EVA); ninguna clase de B104 o B106 trata la arquitectura de accesos.
+- **B109-C04 — Mitigación de polvo lunar en accesos y hábitats.** *Texto redactado, pendiente de revisión.* B85-C16 describe el polvo lunar como contaminante del entorno, pero no el diseño de barreras, limpieza y esclusas para impedir su ingreso al hábitat.
+- **B109-C05 — Crecimiento modular y escalabilidad de asentamientos.** *Texto redactado, pendiente de revisión.* Enseña a planificar el crecimiento de un asentamiento por fases sin rediseño; B106-C19 es solo un concepto inicial de asentamiento lunar.
+- **B109-C06 — Antropometría y dimensionamiento para tripulación.** *Texto redactado, pendiente de revisión.* Aporta datos antropométricos y de postura en gravedad parcial para dimensionar espacios; B106-C16 trata ergonomía solo en microgravedad.
+- **B109-C07 — Asignación de volúmenes habitables por tripulante.** *Texto redactado, pendiente de revisión.* Enseña el volumen neto habitable y su distribución; no cubierto en B106-C01.
+- **B109-C08 — Diseño inclusivo en hábitats.** *Texto redactado, pendiente de revisión.* Aporta accesibilidad y diversidad de usuarios en el diseño de hábitats; ninguna clase actual lo trata.
+- **B109-C09 — Privacidad y espacios personales.** *Texto redactado, pendiente de revisión.* Cubre diseño de cabinas y privacidad acústica y visual; B104-C18 trata convivencia pero no el diseño.
+- **B109-C10 — Acústica y control de ruido interior.** *Texto redactado, pendiente de revisión.* Aporta límites de ruido y diseño acústico de ventiladores y bombas; no cubierto en ninguna clase.
+- **B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio.** *Texto redactado, pendiente de revisión.* Cubre estaciones de trabajo, accesibilidad a equipos y mantenimiento en hábitat; B106-C16 solo ergonomía en microgravedad.
+- **B109-C12 — Evaluación de factores humanos de maquetas y distribuciones.** *Texto redactado, pendiente de revisión.* Enseña pruebas con maquetas y listas de verificación de habitabilidad; no cubierto en B104 ni B106.
 
 ### B110 — Emergencias y seguridad de tripulación
 
 *Bloque nuevo (5 clases): Despresurización: detección, aislamiento y respuesta; Protocolos operativos de aislamiento de un tripulante enfermo o contaminado; Evacuación y refugio de emergencia…*
 
-- **B110-C01 — Despresurización: detección, aislamiento y respuesta.** *Programada.* B106-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa.
-- **B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado.** *Programada.* B105-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B110-C03 — Evacuación y refugio de emergencia.** *Programada.* Ninguna clase trata evacuación, refugio y vehículos de escape.
-- **B110-C04 — Priorización y decisiones bajo emergencia.** *Programada.* B104-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas.
-- **B110-C05 — Checklists de emergencia: ejecución y verificación cruzada.** *Programada.* Los checklists de emergencia se ejecutan bajo estrés con lectura y verificación cruzada; no tienen clase propia.
+- **B110-C01 — Despresurización: detección, aislamiento y respuesta.** *Texto redactado, pendiente de revisión.* B106-C02 cubre presurización de módulos, pero nada sobre fugas y despresurización ni su respuesta operativa.
+- **B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado.** *Texto redactado, pendiente de revisión.* B105-C11 trata el microbioma, pero no el aislamiento operativo en cabina. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B110-C03 — Evacuación y refugio de emergencia.** *Texto redactado, pendiente de revisión.* Ninguna clase trata evacuación, refugio y vehículos de escape.
+- **B110-C04 — Priorización y decisiones bajo emergencia.** *Texto redactado, pendiente de revisión.* B104-C13 enseña procedimientos de emergencia; falta la priorización de acciones cuando hay varias fallas simultáneas.
+- **B110-C05 — Checklists de emergencia: ejecución y verificación cruzada.** *Texto redactado, pendiente de revisión.* Los checklists de emergencia se ejecutan bajo estrés con lectura y verificación cruzada; no tienen clase propia.
 
 ### B111 — Factores humanos y liderazgo de tripulación
 
 *Bloque nuevo (6 clases): Fundamentos de factores humanos en operaciones espaciales; Gestión intercultural en tripulaciones multinacionales; Carga cognitiva y gestión de la atención…*
 
-- **B111-C01 — Fundamentos de factores humanos en operaciones espaciales.** *Programada.* B106-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores).
-- **B111-C02 — Gestión intercultural en tripulaciones multinacionales.** *Programada.* Ninguna clase trata diferencias culturales y de idioma en equipos internacionales.
-- **B111-C03 — Carga cognitiva y gestión de la atención.** *Programada.* Ninguna clase trata la carga cognitiva ni el diseño de tareas para limitarla.
-- **B111-C04 — Conciencia situacional en operaciones de vuelo.** *Programada.* B119-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación.
-- **B111-C05 — Toma de decisiones con incertidumbre en equipo.** *Programada.* B12 da herramientas estadísticas, no la decisión grupal bajo presión.
-- **B111-C06 — Gestión del error humano y cultura de seguridad.** *Programada.* Falta la clase sobre tipos de error, barreras y reporte.
+- **B111-C01 — Fundamentos de factores humanos en operaciones espaciales.** *Texto redactado, pendiente de revisión.* B106-C16 trata ergonomía física; falta el marco general de factores humanos (capacidades, límites y errores).
+- **B111-C02 — Gestión intercultural en tripulaciones multinacionales.** *Texto redactado, pendiente de revisión.* Ninguna clase trata diferencias culturales y de idioma en equipos internacionales.
+- **B111-C03 — Carga cognitiva y gestión de la atención.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la carga cognitiva ni el diseño de tareas para limitarla.
+- **B111-C04 — Conciencia situacional en operaciones de vuelo.** *Texto redactado, pendiente de revisión.* B119-C13 es conciencia situacional del dominio espacial; falta la conciencia situacional de la tripulación.
+- **B111-C05 — Toma de decisiones con incertidumbre en equipo.** *Texto redactado, pendiente de revisión.* B12 da herramientas estadísticas, no la decisión grupal bajo presión.
+- **B111-C06 — Gestión del error humano y cultura de seguridad.** *Texto redactado, pendiente de revisión.* Falta la clase sobre tipos de error, barreras y reporte.
 
 ### B112 — Radiobiología y protección radiológica espacial
 
 *Bloque nuevo (6 clases): Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica; Dosis equivalente y dosis efectiva; Efectos agudos de la radiación…*
 
-- **B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica.** *Programada.* B105-C06 introduce la exposición; falta la definición de dosis absorbida y LET.
-- **B112-C02 — Dosis equivalente y dosis efectiva.** *Programada.* Ninguna clase trata factores de ponderación y dosis equivalente.
-- **B112-C03 — Efectos agudos de la radiación.** *Programada.* Ninguna clase cubre síndromes agudos y umbrales. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B112-C04 — Efectos crónicos y carcinogénesis por radiación.** *Programada.* Ninguna clase cubre riesgo de cáncer y efectos tardíos.
-- **B112-C05 — Daño y reparación del ADN por radiación espacial.** *Programada.* Falta la clase de mecanismos moleculares de daño y reparación.
-- **B112-C06 — Modelos de riesgo de radiación para misiones.** *Programada.* Falta la clase de estimación de riesgo por misión.
+- **B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica.** *Texto redactado, pendiente de revisión.* B105-C06 introduce la exposición; falta la definición de dosis absorbida y LET.
+- **B112-C02 — Dosis equivalente y dosis efectiva.** *Texto redactado, pendiente de revisión.* Ninguna clase trata factores de ponderación y dosis equivalente.
+- **B112-C03 — Efectos agudos de la radiación.** *Texto redactado, pendiente de revisión.* Ninguna clase cubre síndromes agudos y umbrales. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B112-C04 — Efectos crónicos y carcinogénesis por radiación.** *Texto redactado, pendiente de revisión.* Ninguna clase cubre riesgo de cáncer y efectos tardíos.
+- **B112-C05 — Daño y reparación del ADN por radiación espacial.** *Texto redactado, pendiente de revisión.* Falta la clase de mecanismos moleculares de daño y reparación.
+- **B112-C06 — Modelos de riesgo de radiación para misiones.** *Texto redactado, pendiente de revisión.* Falta la clase de estimación de riesgo por misión.
 
 ### B113 — Salud conductual y bienestar en aislamiento
 
 *Bloque nuevo (5 clases): Estrés operacional y estrategias de afrontamiento; Ansiedad y respuesta emocional en escenarios simulados; Comunicación diferida y soporte psicológico a distancia…*
 
-- **B113-C01 — Estrés operacional y estrategias de afrontamiento.** *Programada.* B105-C09 presenta salud mental en aislamiento, pero no el estrés operacional. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B113-C02 — Ansiedad y respuesta emocional en escenarios simulados.** *Programada.* Ninguna clase trata la respuesta emocional ante simulaciones de riesgo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B113-C03 — Comunicación diferida y soporte psicológico a distancia.** *Programada.* Ninguna clase trata el efecto del retardo en el apoyo psicológico.
-- **B113-C04 — Autonomía personal y gestión del tiempo en aislamiento.** *Programada.* Falta la clase sobre autonomía y rutinas.
-- **B113-C05 — Intervenciones de apoyo y contramedidas conductuales.** *Programada.* Falta la clase sobre intervenciones de apoyo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B113-C01 — Estrés operacional y estrategias de afrontamiento.** *Texto redactado, pendiente de revisión.* B105-C09 presenta salud mental en aislamiento, pero no el estrés operacional. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B113-C02 — Ansiedad y respuesta emocional en escenarios simulados.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la respuesta emocional ante simulaciones de riesgo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B113-C03 — Comunicación diferida y soporte psicológico a distancia.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el efecto del retardo en el apoyo psicológico.
+- **B113-C04 — Autonomía personal y gestión del tiempo en aislamiento.** *Texto redactado, pendiente de revisión.* Falta la clase sobre autonomía y rutinas.
+- **B113-C05 — Intervenciones de apoyo y contramedidas conductuales.** *Texto redactado, pendiente de revisión.* Falta la clase sobre intervenciones de apoyo. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
 
 ### B114 — Seguridad y respuesta a emergencias en hábitats
 
 *Bloque nuevo (6 clases): Rutas de evacuación y salidas de emergencia en hábitats; Detección, localización y respuesta a fugas de presión; Alarmas y procedimientos ante desviaciones atmosféricas…*
 
-- **B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats.** *Programada.* Aporta el diseño y verificación de rutas de evacuación; B104-C13 y B106-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios.
-- **B114-C02 — Detección, localización y respuesta a fugas de presión.** *Programada.* Cubre el análisis de tasa de fuga, localización y respuesta; B106-C02 trata solo la presurización.
-- **B114-C03 — Alarmas y procedimientos ante desviaciones atmosféricas.** *Programada.* Aporta la lógica de alarmas, umbrales y procedimientos ante desviaciones de O2, CO2 o presión; B106-C17 solo trata incendios.
-- **B114-C04 — Refugio contra tormentas solares y compartimentos de protección.** *Programada.* Aporta el diseño de refugios con blindaje reforzado y su uso operativo; B106-C14 trata protección en general.
-- **B114-C05 — Despresurización: escenarios, tiempos y respuesta.** *Programada.* Enseña análisis de despresurización rápida y lenta y el tiempo de respuesta; no cubierto en B106 ni B104.
-- **B114-C06 — Matriz de riesgo ambiental de un hábitat.** *Programada.* Cubre identificación y clasificación de riesgos (radiación, impacto, despresurización) con matriz; B83-C16 trata riesgos técnicos genéricos.
+- **B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats.** *Texto redactado, pendiente de revisión.* Aporta el diseño y verificación de rutas de evacuación; B104-C13 y B106-C17 tratan procedimientos y fuego, no el trazado de salidas y refugios.
+- **B114-C02 — Detección, localización y respuesta a fugas de presión.** *Texto redactado, pendiente de revisión.* Cubre el análisis de tasa de fuga, localización y respuesta; B106-C02 trata solo la presurización.
+- **B114-C03 — Alarmas y procedimientos ante desviaciones atmosféricas.** *Texto redactado, pendiente de revisión.* Aporta la lógica de alarmas, umbrales y procedimientos ante desviaciones de O2, CO2 o presión; B106-C17 solo trata incendios.
+- **B114-C04 — Refugio contra tormentas solares y compartimentos de protección.** *Texto redactado, pendiente de revisión.* Aporta el diseño de refugios con blindaje reforzado y su uso operativo; B106-C14 trata protección en general.
+- **B114-C05 — Despresurización: escenarios, tiempos y respuesta.** *Texto redactado, pendiente de revisión.* Enseña análisis de despresurización rápida y lenta y el tiempo de respuesta; no cubierto en B106 ni B104.
+- **B114-C06 — Matriz de riesgo ambiental de un hábitat.** *Texto redactado, pendiente de revisión.* Cubre identificación y clasificación de riesgos (radiación, impacto, despresurización) con matriz; B83-C16 trata riesgos técnicos genéricos.
 
 ### B115 — Sistemas bioregenerativos y cultivo en hábitats
 
 *Bloque nuevo (7 clases): Cultivos hidropónicos para hábitats; Iluminación de cultivos con LED y espectro de crecimiento; Control de nutrientes y solución nutritiva…*
 
-- **B115-C01 — Cultivos hidropónicos para hábitats.** *Programada.* B106-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos.
-- **B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento.** *Programada.* Aporta espectro, fotoperiodo y eficiencia energética para plantas; B106-C13 trata la iluminación humana.
-- **B115-C03 — Control de nutrientes y solución nutritiva.** *Programada.* Enseña dosificación y monitoreo de nutrientes en circuito cerrado; no hay clase equivalente.
-- **B115-C04 — Sistemas aeropónicos.** *Programada.* Cubre cultivo con raíces en niebla, ventajas de masa y agua; no cubierto en B106-C12.
-- **B115-C05 — Ciclos de producción y calendarización de cultivos.** *Programada.* Aporta la planificación escalonada de siembra y cosecha para cubrir demanda de una tripulación.
-- **B115-C06 — Balance de agua y evapotranspiración en cultivos.** *Programada.* Enseña a cuantificar el agua de cultivo y su recuperación; B106-C06 trata solo reciclaje de agua humana.
-- **B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats.** *Programada.* Cubre patógenos, microbioma de plantas y control higiénico de cultivos; B105-C11 trata solo el microbioma humano.
+- **B115-C01 — Cultivos hidropónicos para hábitats.** *Texto redactado, pendiente de revisión.* B106-C12 introduce la agricultura controlada; ninguna clase enseña el diseño y operación de sistemas hidropónicos.
+- **B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento.** *Texto redactado, pendiente de revisión.* Aporta espectro, fotoperiodo y eficiencia energética para plantas; B106-C13 trata la iluminación humana.
+- **B115-C03 — Control de nutrientes y solución nutritiva.** *Texto redactado, pendiente de revisión.* Enseña dosificación y monitoreo de nutrientes en circuito cerrado; no hay clase equivalente.
+- **B115-C04 — Sistemas aeropónicos.** *Texto redactado, pendiente de revisión.* Cubre cultivo con raíces en niebla, ventajas de masa y agua; no cubierto en B106-C12.
+- **B115-C05 — Ciclos de producción y calendarización de cultivos.** *Texto redactado, pendiente de revisión.* Aporta la planificación escalonada de siembra y cosecha para cubrir demanda de una tripulación.
+- **B115-C06 — Balance de agua y evapotranspiración en cultivos.** *Texto redactado, pendiente de revisión.* Enseña a cuantificar el agua de cultivo y su recuperación; B106-C06 trata solo reciclaje de agua humana.
+- **B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats.** *Texto redactado, pendiente de revisión.* Cubre patógenos, microbioma de plantas y control higiénico de cultivos; B105-C11 trata solo el microbioma humano.
 
 ### B116 — Telemedicina y monitorización de salud en misión
 
 *Bloque nuevo (7 clases): Sensores fisiológicos y wearables para vuelo; Signos vitales: medición, interpretación y límites; Historia clínica remota y registros médicos de misión…*
 
-- **B116-C01 — Sensores fisiológicos y wearables para vuelo.** *Programada.* Ninguna clase trata los sensores fisiológicos ni su precisión.
-- **B116-C02 — Signos vitales: medición, interpretación y límites.** *Programada.* Falta la clase de signos vitales y sus rangos.
-- **B116-C03 — Historia clínica remota y registros médicos de misión.** *Programada.* Ninguna clase trata registros clínicos de misión.
-- **B116-C04 — Triage asistido por decisión.** *Programada.* Falta la clase de apoyo a decisiones de triage a distancia.
-- **B116-C05 — Alertas de salud y umbrales de monitorización.** *Programada.* Ninguna clase trata alertas de salud ni su gestión.
-- **B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico).** *Programada.* Ninguna clase trata los dispositivos biomédicos de a bordo.
-- **B116-C07 — Diseño de paneles de monitoreo de salud.** *Programada.* Falta el diseño de paneles de salud.
+- **B116-C01 — Sensores fisiológicos y wearables para vuelo.** *Texto redactado, pendiente de revisión.* Ninguna clase trata los sensores fisiológicos ni su precisión.
+- **B116-C02 — Signos vitales: medición, interpretación y límites.** *Texto redactado, pendiente de revisión.* Falta la clase de signos vitales y sus rangos.
+- **B116-C03 — Historia clínica remota y registros médicos de misión.** *Texto redactado, pendiente de revisión.* Ninguna clase trata registros clínicos de misión.
+- **B116-C04 — Triage asistido por decisión.** *Texto redactado, pendiente de revisión.* Falta la clase de apoyo a decisiones de triage a distancia.
+- **B116-C05 — Alertas de salud y umbrales de monitorización.** *Texto redactado, pendiente de revisión.* Ninguna clase trata alertas de salud ni su gestión.
+- **B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico).** *Texto redactado, pendiente de revisión.* Ninguna clase trata los dispositivos biomédicos de a bordo.
+- **B116-C07 — Diseño de paneles de monitoreo de salud.** *Texto redactado, pendiente de revisión.* Falta el diseño de paneles de salud.
 
 ### B117 — Urgencias médicas y atención clínica en misión
 
 *Bloque nuevo (5 clases): Primeros auxilios y procedimientos básicos en entorno espacial; Contención de riesgos biológicos y químicos en cabina; Emergencia cardiovascular simulada…*
 
-- **B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial.** *Programada.* Ninguna clase trata primeros auxilios en microgravedad. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B117-C02 — Contención de riesgos biológicos y químicos en cabina.** *Programada.* Ninguna clase trata la contención de riesgos biológicos o químicos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B117-C03 — Emergencia cardiovascular simulada.** *Programada.* Ninguna clase simula una emergencia cardiovascular. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B117-C04 — Problemas respiratorios simulados.** *Programada.* Ninguna clase simula problemas respiratorios. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
-- **B117-C05 — Inventario y gestión del equipo médico a bordo.** *Programada.* Ninguna clase trata el equipo médico de a bordo.
+- **B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial.** *Texto redactado, pendiente de revisión.* Ninguna clase trata primeros auxilios en microgravedad. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B117-C02 — Contención de riesgos biológicos y químicos en cabina.** *Texto redactado, pendiente de revisión.* Ninguna clase trata la contención de riesgos biológicos o químicos. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B117-C03 — Emergencia cardiovascular simulada.** *Texto redactado, pendiente de revisión.* Ninguna clase simula una emergencia cardiovascular. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B117-C04 — Problemas respiratorios simulados.** *Texto redactado, pendiente de revisión.* Ninguna clase simula problemas respiratorios. Contenido educativo: no sustituye formación, licencia ni supervisión profesional.
+- **B117-C05 — Inventario y gestión del equipo médico a bordo.** *Texto redactado, pendiente de revisión.* Ninguna clase trata el equipo médico de a bordo.
 
 ## A10 — Entorno orbital, derecho y seguridad espacial
 
@@ -2531,10 +2531,10 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 - **B118-C18 — Gestión del tráfico espacial.** Introduce el contexto y los principios de «gestión del tráfico espacial» para comprender su uso científico.
 - **B118-C19 — Sostenibilidad y gobernanza orbital.** Ubica «sostenibilidad y gobernanza orbital» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B118-C20 — Evaluación de riesgo de conjunción documentada.** Caracteriza «evaluación de riesgo de conjunción documentada», sus riesgos, medios de observación y medidas preventivas o de respuesta segura.
-- **B118-C21 — Calidad, latencia y trazabilidad de datos de vigilancia espacial.** *Programada.* B48-C11 trata calidad de datos astronómicos; ninguna clase evalúa datos de vigilancia (latencia, cobertura, trazabilidad).
-- **B118-C22 — Intercambio de datos de vigilancia entre operadores y Estados.** *Programada.* B118-C18 trata gestión del tráfico en general; no cubre formatos ni acuerdos de intercambio.
-- **B118-C23 — Cobertura, sesgos y límites de las redes de vigilancia.** *Programada.* Aporta la comprensión de qué no ve una red de sensores; B118-C15 trata solo mega constelaciones.
-- **B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113).** *Programada.* B118-C11 enseña diseño para mitigación; ninguna clase trata las directrices de IADC e ISO ni su verificación.
+- **B118-C21 — Calidad, latencia y trazabilidad de datos de vigilancia espacial.** *Texto redactado, pendiente de revisión.* B48-C11 trata calidad de datos astronómicos; ninguna clase evalúa datos de vigilancia (latencia, cobertura, trazabilidad).
+- **B118-C22 — Intercambio de datos de vigilancia entre operadores y Estados.** *Texto redactado, pendiente de revisión.* B118-C18 trata gestión del tráfico en general; no cubre formatos ni acuerdos de intercambio.
+- **B118-C23 — Cobertura, sesgos y límites de las redes de vigilancia.** *Texto redactado, pendiente de revisión.* Aporta la comprensión de qué no ve una red de sensores; B118-C15 trata solo mega constelaciones.
+- **B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113).** *Texto redactado, pendiente de revisión.* B118-C11 enseña diseño para mitigación; ninguna clase trata las directrices de IADC e ISO ni su verificación.
 
 ### B119 — Derecho, seguridad y geopolítica espacial
 
@@ -2560,67 +2560,67 @@ Un espacio compartido y seguro: tráfico y sostenibilidad orbital, derecho inter
 - **B119-C18 — Ética y derechos en actividades espaciales.** Ubica «ética y derechos en actividades espaciales» en su marco histórico, jurídico o institucional e identifica sus implicaciones y límites.
 - **B119-C19 — Legislación comparada y casos nacionales.** Describe los componentes principales de «legislación comparada y casos nacionales» y por qué son relevantes para esta disciplina.
 - **B119-C20 — Simulación de respuesta institucional a incidentes.** Presenta «simulación de respuesta institucional a incidentes» mediante definiciones, símbolos, supuestos y un ejemplo de uso científico.
-- **B119-C21 — Cultura de seguridad aeroespacial y aprendizaje de incidentes.** *Programada.* Aporta la dimensión cultural de la seguridad; B88-C16 cubre seguridad funcional técnica y ninguna clase trata cultura de seguridad.
-- **B119-C22 — Seguridad de instalaciones y operaciones de sitio de lanzamiento.** *Programada.* Cubre zonas de seguridad, exclusión y gestión de sitio; B77-C19 solo ve seguridad de rango conceptual.
-- **B119-C23 — Protección ambiental de las actividades de lanzamiento.** *Programada.* Cubre impacto ambiental de lanzamientos; ninguna clase de B118, B119 ni B124 lo trata.
-- **B119-C24 — Límites legales y de seguridad de la experimentación educativa.** *Programada.* Establece los límites de lo que una experimentación educativa puede hacer con seguridad; ninguna clase lo trata.
-- **B119-C25 — Derecho y marcos de recursos espaciales.** *Programada.* B119 trata tratados generales; ninguna clase enseña la apropiación y uso de recursos (Acuerdos Artemis, leyes nacionales).
-- **B119-C26 — Doctrinas y políticas espaciales declaradas públicamente.** *Programada.* B119-C11 y C12 tratan límites y la historia; ninguna enseña a leer las doctrinas públicas de los Estados.
-- **B119-C27 — Diplomacia y comunicación entre Estados ante incidentes espaciales.** *Programada.* B119-C20 simula la respuesta institucional; la diplomacia entre Estados no está cubierta.
-- **B119-C28 — Normas de comportamiento responsable en el espacio.** *Programada.* B119-C11 trata límites militares; las normas voluntarias de conducta responsable no tienen clase.
-- **B119-C29 — Escalada, desescalada y medidas de fomento de la confianza.** *Programada.* Enseña la dinámica de escalada y medidas de transparencia; sin clase equivalente.
-- **B119-C30 — Atribución de incidentes y desinformación en el dominio espacial.** *Programada.* B01-C19 trata desinformación general; la atribución técnica y política de incidentes espaciales no está cubierta.
-- **B119-C31 — Práctica estatal y costumbre internacional en el derecho espacial.** *Programada.* El derecho espacial se desarrolla también por la práctica de los Estados; B119 presenta tratados, no la costumbre ni la práctica.
-- **B119-C32 — Interpretación de tratados internacionales.** *Programada.* B119 enseña los tratados y su contenido, pero no el método jurídico de interpretarlos y aplicarlos; este tema lo requiere el rol.
-- **B119-C33 — Matriz comparativa de obligaciones jurídicas por actor.** *Programada.* Distinguir qué obligaciones recaen en Estados y operadores exige una comparación sistemática; B119 las trata una por una.
-- **B119-C34 — Equidad de acceso al espacio.** *Programada.* El acceso desigual al espacio es un asunto de gobernanza que el catálogo no trata.
-- **B119-C35 — Seguridad y gobernanza de datos espaciales.** *Programada.* Los datos espaciales requieren políticas de acceso y seguridad; B124-C13 trata ética de datos de investigación.
-- **B119-C36 — Gobernanza de los recursos espaciales.** *Programada.* La explotación de recursos extraterrestres plantea cuestiones de gobernanza que B59 trata solo técnicamente.
+- **B119-C21 — Cultura de seguridad aeroespacial y aprendizaje de incidentes.** *Texto redactado, pendiente de revisión.* Aporta la dimensión cultural de la seguridad; B88-C16 cubre seguridad funcional técnica y ninguna clase trata cultura de seguridad.
+- **B119-C22 — Seguridad de instalaciones y operaciones de sitio de lanzamiento.** *Texto redactado, pendiente de revisión.* Cubre zonas de seguridad, exclusión y gestión de sitio; B77-C19 solo ve seguridad de rango conceptual.
+- **B119-C23 — Protección ambiental de las actividades de lanzamiento.** *Texto redactado, pendiente de revisión.* Cubre impacto ambiental de lanzamientos; ninguna clase de B118, B119 ni B124 lo trata.
+- **B119-C24 — Límites legales y de seguridad de la experimentación educativa.** *Texto redactado, pendiente de revisión.* Establece los límites de lo que una experimentación educativa puede hacer con seguridad; ninguna clase lo trata.
+- **B119-C25 — Derecho y marcos de recursos espaciales.** *Texto redactado, pendiente de revisión.* B119 trata tratados generales; ninguna clase enseña la apropiación y uso de recursos (Acuerdos Artemis, leyes nacionales).
+- **B119-C26 — Doctrinas y políticas espaciales declaradas públicamente.** *Texto redactado, pendiente de revisión.* B119-C11 y C12 tratan límites y la historia; ninguna enseña a leer las doctrinas públicas de los Estados.
+- **B119-C27 — Diplomacia y comunicación entre Estados ante incidentes espaciales.** *Texto redactado, pendiente de revisión.* B119-C20 simula la respuesta institucional; la diplomacia entre Estados no está cubierta.
+- **B119-C28 — Normas de comportamiento responsable en el espacio.** *Texto redactado, pendiente de revisión.* B119-C11 trata límites militares; las normas voluntarias de conducta responsable no tienen clase.
+- **B119-C29 — Escalada, desescalada y medidas de fomento de la confianza.** *Texto redactado, pendiente de revisión.* Enseña la dinámica de escalada y medidas de transparencia; sin clase equivalente.
+- **B119-C30 — Atribución de incidentes y desinformación en el dominio espacial.** *Texto redactado, pendiente de revisión.* B01-C19 trata desinformación general; la atribución técnica y política de incidentes espaciales no está cubierta.
+- **B119-C31 — Práctica estatal y costumbre internacional en el derecho espacial.** *Texto redactado, pendiente de revisión.* El derecho espacial se desarrolla también por la práctica de los Estados; B119 presenta tratados, no la costumbre ni la práctica.
+- **B119-C32 — Interpretación de tratados internacionales.** *Texto redactado, pendiente de revisión.* B119 enseña los tratados y su contenido, pero no el método jurídico de interpretarlos y aplicarlos; este tema lo requiere el rol.
+- **B119-C33 — Matriz comparativa de obligaciones jurídicas por actor.** *Texto redactado, pendiente de revisión.* Distinguir qué obligaciones recaen en Estados y operadores exige una comparación sistemática; B119 las trata una por una.
+- **B119-C34 — Equidad de acceso al espacio.** *Texto redactado, pendiente de revisión.* El acceso desigual al espacio es un asunto de gobernanza que el catálogo no trata.
+- **B119-C35 — Seguridad y gobernanza de datos espaciales.** *Texto redactado, pendiente de revisión.* Los datos espaciales requieren políticas de acceso y seguridad; B124-C13 trata ética de datos de investigación.
+- **B119-C36 — Gobernanza de los recursos espaciales.** *Texto redactado, pendiente de revisión.* La explotación de recursos extraterrestres plantea cuestiones de gobernanza que B59 trata solo técnicamente.
 
 ### B120 — Espectro, licencias y regulación satelital
 
 *Bloque nuevo (6 clases): Licencias satelitales y procedimiento de notificación; Zonas de coordinación entre servicios radioeléctricos; Posiciones orbitales y espectro como recursos limitados…*
 
-- **B120-C01 — Licencias satelitales y procedimiento de notificación.** *Programada.* Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B119-C09 presenta las normas sin el procedimiento.
-- **B120-C02 — Zonas de coordinación entre servicios radioeléctricos.** *Programada.* Coordinar con otros servicios define dónde y cómo se puede operar; ninguna clase lo trata.
-- **B120-C03 — Posiciones orbitales y espectro como recursos limitados.** *Programada.* Las posiciones orbitales y el espectro son recursos escasos con reglas de asignación; no están tratados como concepto jurídico.
-- **B120-C04 — Documentación regulatoria de un sistema satelital.** *Programada.* El expediente regulatorio es un entregable del rol; B90-C05 documenta interfaces, no trámites regulatorios.
-- **B120-C05 — Riesgos de incumplimiento regulatorio.** *Programada.* Incumplir condiciones de licencia puede inhabilitar una misión; ninguna clase trata ese riesgo.
-- **B120-C06 — Caso de planificación regulatoria de un sistema satelital.** *Programada.* Integrar licencias, frecuencias y plazos en un plan es el cierre del módulo; no existe un caso integrador regulatorio.
+- **B120-C01 — Licencias satelitales y procedimiento de notificación.** *Texto redactado, pendiente de revisión.* Poner en servicio un satélite exige notificar y licenciar sus frecuencias; B119-C09 presenta las normas sin el procedimiento.
+- **B120-C02 — Zonas de coordinación entre servicios radioeléctricos.** *Texto redactado, pendiente de revisión.* Coordinar con otros servicios define dónde y cómo se puede operar; ninguna clase lo trata.
+- **B120-C03 — Posiciones orbitales y espectro como recursos limitados.** *Texto redactado, pendiente de revisión.* Las posiciones orbitales y el espectro son recursos escasos con reglas de asignación; no están tratados como concepto jurídico.
+- **B120-C04 — Documentación regulatoria de un sistema satelital.** *Texto redactado, pendiente de revisión.* El expediente regulatorio es un entregable del rol; B90-C05 documenta interfaces, no trámites regulatorios.
+- **B120-C05 — Riesgos de incumplimiento regulatorio.** *Texto redactado, pendiente de revisión.* Incumplir condiciones de licencia puede inhabilitar una misión; ninguna clase trata ese riesgo.
+- **B120-C06 — Caso de planificación regulatoria de un sistema satelital.** *Texto redactado, pendiente de revisión.* Integrar licencias, frecuencias y plazos en un plan es el cierre del módulo; no existe un caso integrador regulatorio.
 
 ### B121 — Regulación nacional de actividades espaciales
 
 *Bloque nuevo (5 clases): Licencias y requisitos nacionales para el lanzamiento; Licenciamiento de actividades de teledetección; Protección ambiental en la legislación espacial…*
 
-- **B121-C01 — Licencias y requisitos nacionales para el lanzamiento.** *Programada.* Lanzar desde o hacia un país exige licencia y requisitos propios; B119-C08 trata la autorización en general.
-- **B121-C02 — Licenciamiento de actividades de teledetección.** *Programada.* Las imágenes satelitales de alta resolución tienen regulación propia; ninguna clase la trata.
-- **B121-C03 — Protección ambiental en la legislación espacial.** *Programada.* Las leyes nacionales incluyen requisitos ambientales y de mitigación de desechos que el catálogo no trata como tema regulatorio.
-- **B121-C04 — Marco legal espacial en Chile.** *Programada.* El programa se enseña en Chile y requiere reconocer el marco local; B119-C19 compara legislaciones sin centrarse en el marco chileno (a verificar con fuentes oficiales).
-- **B121-C05 — Cumplimiento regulatorio en varias jurisdicciones.** *Programada.* Una misión con socios de varios países debe cumplir regímenes distintos; ninguna clase trata el análisis de cumplimiento.
+- **B121-C01 — Licencias y requisitos nacionales para el lanzamiento.** *Texto redactado, pendiente de revisión.* Lanzar desde o hacia un país exige licencia y requisitos propios; B119-C08 trata la autorización en general.
+- **B121-C02 — Licenciamiento de actividades de teledetección.** *Texto redactado, pendiente de revisión.* Las imágenes satelitales de alta resolución tienen regulación propia; ninguna clase la trata.
+- **B121-C03 — Protección ambiental en la legislación espacial.** *Texto redactado, pendiente de revisión.* Las leyes nacionales incluyen requisitos ambientales y de mitigación de desechos que el catálogo no trata como tema regulatorio.
+- **B121-C04 — Marco legal espacial en Chile.** *Texto redactado, pendiente de revisión.* El programa se enseña en Chile y requiere reconocer el marco local; B119-C19 compara legislaciones sin centrarse en el marco chileno (a verificar con fuentes oficiales).
+- **B121-C05 — Cumplimiento regulatorio en varias jurisdicciones.** *Texto redactado, pendiente de revisión.* Una misión con socios de varios países debe cumplir regímenes distintos; ninguna clase trata el análisis de cumplimiento.
 
 ### B122 — Resiliencia y continuidad de infraestructura espacial
 
 *Bloque nuevo (10 clases): Dependencias de proveedores y cadena de suministro de infraestructura espacial; Continuidad de servicio: impacto y objetivos de recuperación; Modelo defensivo de riesgos de infraestructura espacial…*
 
-- **B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial.** *Programada.* Aporta el análisis de dependencias y concentración de proveedores; B119-C16 solo introduce infraestructura crítica.
-- **B122-C02 — Continuidad de servicio: impacto y objetivos de recuperación.** *Programada.* Enseña análisis de impacto y objetivos de tiempo de recuperación; B96-C14 trata solo procedimientos.
-- **B122-C03 — Modelo defensivo de riesgos de infraestructura espacial.** *Programada.* Cubre identificar activos, amenazas y controles defensivos; B83-C16 trata riesgos técnicos y B119-C14 amenazas sin modelo.
-- **B122-C04 — Seguridad de estaciones terrestres y segmento de control.** *Programada.* Aporta controles de seguridad física y lógica de estaciones; B89-C14 trata solo estaciones como infraestructura de enlace.
-- **B122-C05 — Control de accesos y gestión de identidades en operaciones.** *Programada.* Cubre privilegios mínimos, segregación de roles y auditoría; B96-C07 trata solo autorización de telecomandos.
-- **B122-C06 — Respuesta a incidentes cibernéticos en operaciones de misión.** *Programada.* Aporta el ciclo detección, contención, erradicación y lecciones; B96-C15 trata emergencias operativas, no incidentes cibernéticos.
-- **B122-C07 — Clasificación de severidad e impacto de incidentes espaciales.** *Programada.* Aporta escalas de severidad para priorizar la respuesta; B58-C10 clasifica solo impactos de asteroides.
-- **B122-C08 — Comunicación de crisis con operadores, autoridades y público.** *Programada.* B124-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta.
-- **B122-C09 — Preservación de evidencias y cadena de custodia de datos de incidentes.** *Programada.* B90-C18 trata trazabilidad de ensayos; la custodia de evidencia de incidentes no está cubierta.
-- **B122-C10 — Planes de continuidad institucional y de operaciones.** *Programada.* Cubre continuidad de funciones institucionales; sin clase equivalente.
+- **B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial.** *Texto redactado, pendiente de revisión.* Aporta el análisis de dependencias y concentración de proveedores; B119-C16 solo introduce infraestructura crítica.
+- **B122-C02 — Continuidad de servicio: impacto y objetivos de recuperación.** *Texto redactado, pendiente de revisión.* Enseña análisis de impacto y objetivos de tiempo de recuperación; B96-C14 trata solo procedimientos.
+- **B122-C03 — Modelo defensivo de riesgos de infraestructura espacial.** *Texto redactado, pendiente de revisión.* Cubre identificar activos, amenazas y controles defensivos; B83-C16 trata riesgos técnicos y B119-C14 amenazas sin modelo.
+- **B122-C04 — Seguridad de estaciones terrestres y segmento de control.** *Texto redactado, pendiente de revisión.* Aporta controles de seguridad física y lógica de estaciones; B89-C14 trata solo estaciones como infraestructura de enlace.
+- **B122-C05 — Control de accesos y gestión de identidades en operaciones.** *Texto redactado, pendiente de revisión.* Cubre privilegios mínimos, segregación de roles y auditoría; B96-C07 trata solo autorización de telecomandos.
+- **B122-C06 — Respuesta a incidentes cibernéticos en operaciones de misión.** *Texto redactado, pendiente de revisión.* Aporta el ciclo detección, contención, erradicación y lecciones; B96-C15 trata emergencias operativas, no incidentes cibernéticos.
+- **B122-C07 — Clasificación de severidad e impacto de incidentes espaciales.** *Texto redactado, pendiente de revisión.* Aporta escalas de severidad para priorizar la respuesta; B58-C10 clasifica solo impactos de asteroides.
+- **B122-C08 — Comunicación de crisis con operadores, autoridades y público.** *Texto redactado, pendiente de revisión.* B124-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta.
+- **B122-C09 — Preservación de evidencias y cadena de custodia de datos de incidentes.** *Texto redactado, pendiente de revisión.* B90-C18 trata trazabilidad de ensayos; la custodia de evidencia de incidentes no está cubierta.
+- **B122-C10 — Planes de continuidad institucional y de operaciones.** *Texto redactado, pendiente de revisión.* Cubre continuidad de funciones institucionales; sin clase equivalente.
 
 ### B123 — Responsabilidad, daños y controversias espaciales
 
 *Bloque nuevo (4 clases): Prueba del daño y cuantificación de la reparación; Causalidad y atribución jurídica del daño; Mecanismos de reclamación entre Estados…*
 
-- **B123-C01 — Prueba del daño y cuantificación de la reparación.** *Programada.* Reclamar exige probar y cuantificar el daño; B119-C10 define la responsabilidad sin su prueba.
-- **B123-C02 — Causalidad y atribución jurídica del daño.** *Programada.* Atribuir un daño a un actor exige establecer causalidad; ninguna clase la trata.
-- **B123-C03 — Mecanismos de reclamación entre Estados.** *Programada.* El convenio de responsabilidad prevé vías de reclamación; ninguna clase explica cómo se tramitan.
-- **B123-C04 — Arbitraje y resolución de controversias espaciales.** *Programada.* Las disputas comerciales y entre Estados se resuelven por arbitraje y otras vías; no hay clase al respecto.
+- **B123-C01 — Prueba del daño y cuantificación de la reparación.** *Texto redactado, pendiente de revisión.* Reclamar exige probar y cuantificar el daño; B119-C10 define la responsabilidad sin su prueba.
+- **B123-C02 — Causalidad y atribución jurídica del daño.** *Texto redactado, pendiente de revisión.* Atribuir un daño a un actor exige establecer causalidad; ninguna clase la trata.
+- **B123-C03 — Mecanismos de reclamación entre Estados.** *Texto redactado, pendiente de revisión.* El convenio de responsabilidad prevé vías de reclamación; ninguna clase explica cómo se tramitan.
+- **B123-C04 — Arbitraje y resolución de controversias espaciales.** *Texto redactado, pendiente de revisión.* Las disputas comerciales y entre Estados se resuelven por arbitraje y otras vías; no hay clase al respecto.
 
 ## A11 — Economía, industria y gestión de proyectos espaciales
 
@@ -2650,45 +2650,45 @@ Cadena de valor, costos, financiamiento, seguros, creación de empresas y gesti�
 - **B124-C18 — Comunicación y divulgación.** Introduce el contexto y los principios de «comunicación y divulgación» para comprender su uso científico.
 - **B124-C19 — Redacción de propuesta de misión.** Describe los componentes principales de «redacción de propuesta de misión» y por qué son relevantes para esta disciplina.
 - **B124-C20 — Proyecto integrador y portafolio profesional.** Introduce «proyecto integrador y portafolio profesional» como problema de ingeniería con requisitos, componentes y criterios de comprobación.
-- **B124-C21 — Acuerdos de nivel de servicio para productos de datos.** *Programada.* Un servicio de observación se compromete con plazos y calidad; B124 trata propuestas de valor sin acuerdos de nivel de servicio.
-- **B124-C22 — Modelo de costo de un servicio de datos.** *Programada.* Fijar el precio o presupuesto de un servicio exige un modelo de costo; B124 trata financiamiento sin modelar costos de un servicio.
-- **B124-C23 — Costos de transporte por kilogramo a superficie.** *Programada.* B124-C05 estima costos de misión; el costo por kg a órbita y superficie y su sensibilidad no está cubierto.
-- **B124-C24 — CapEx y OpEx de una instalación extraterrestre.** *Programada.* Introduce modelos de costos de capital y operación de una planta; B124-C05 estima solo misión.
+- **B124-C21 — Acuerdos de nivel de servicio para productos de datos.** *Texto redactado, pendiente de revisión.* Un servicio de observación se compromete con plazos y calidad; B124 trata propuestas de valor sin acuerdos de nivel de servicio.
+- **B124-C22 — Modelo de costo de un servicio de datos.** *Texto redactado, pendiente de revisión.* Fijar el precio o presupuesto de un servicio exige un modelo de costo; B124 trata financiamiento sin modelar costos de un servicio.
+- **B124-C23 — Costos de transporte por kilogramo a superficie.** *Texto redactado, pendiente de revisión.* B124-C05 estima costos de misión; el costo por kg a órbita y superficie y su sensibilidad no está cubierto.
+- **B124-C24 — CapEx y OpEx de una instalación extraterrestre.** *Texto redactado, pendiente de revisión.* Introduce modelos de costos de capital y operación de una planta; B124-C05 estima solo misión.
 
 ### B125 — Creación y operación de empresas espaciales
 
 *Bloque nuevo (6 clases): Mercado de datos espaciales; Modelos de ingresos: suscripción y servicio; Gobierno corporativo de una empresa espacial…*
 
-- **B125-C01 — Mercado de datos espaciales.** *Programada.* Los datos son un producto con mercado propio; B124-C03 trata los segmentos en general.
-- **B125-C02 — Modelos de ingresos: suscripción y servicio.** *Programada.* El modelo de ingresos define la empresa; ninguna clase lo trata.
-- **B125-C03 — Gobierno corporativo de una empresa espacial.** *Programada.* Las decisiones de una empresa se estructuran en su gobierno; no hay clase al respecto.
-- **B125-C04 — Alianzas y cooperación internacional empresarial.** *Programada.* Las empresas espaciales dependen de alianzas con socios de otros países; no está tratado.
-- **B125-C05 — Control de exportaciones y transferencia de tecnología.** *Programada.* La tecnología espacial está sujeta a controles de exportación que condicionan el negocio; ninguna clase los trata.
-- **B125-C06 — Plan empresarial de una empresa espacial.** *Programada.* Integrar mercado, finanzas y operación en un plan es el cierre del módulo; B124-C20 es un proyecto general.
+- **B125-C01 — Mercado de datos espaciales.** *Texto redactado, pendiente de revisión.* Los datos son un producto con mercado propio; B124-C03 trata los segmentos en general.
+- **B125-C02 — Modelos de ingresos: suscripción y servicio.** *Texto redactado, pendiente de revisión.* El modelo de ingresos define la empresa; ninguna clase lo trata.
+- **B125-C03 — Gobierno corporativo de una empresa espacial.** *Texto redactado, pendiente de revisión.* Las decisiones de una empresa se estructuran en su gobierno; no hay clase al respecto.
+- **B125-C04 — Alianzas y cooperación internacional empresarial.** *Texto redactado, pendiente de revisión.* Las empresas espaciales dependen de alianzas con socios de otros países; no está tratado.
+- **B125-C05 — Control de exportaciones y transferencia de tecnología.** *Texto redactado, pendiente de revisión.* La tecnología espacial está sujeta a controles de exportación que condicionan el negocio; ninguna clase los trata.
+- **B125-C06 — Plan empresarial de una empresa espacial.** *Texto redactado, pendiente de revisión.* Integrar mercado, finanzas y operación en un plan es el cierre del módulo; B124-C20 es un proyecto general.
 
 ### B126 — Financiamiento de proyectos y negocios espaciales
 
 *Bloque nuevo (6 clases): Capital semilla y financiamiento inicial; Capital de riesgo en empresas espaciales; Proyección de flujos de caja de un proyecto espacial…*
 
-- **B126-C01 — Capital semilla y financiamiento inicial.** *Programada.* B124-C07 trata el financiamiento privado en general, no las etapas iniciales de una empresa.
-- **B126-C02 — Capital de riesgo en empresas espaciales.** *Programada.* El capital de riesgo tiene lógica y condiciones propias; el catálogo no las trata.
-- **B126-C03 — Proyección de flujos de caja de un proyecto espacial.** *Programada.* Decidir si un proyecto es sostenible exige proyectar sus flujos; B124-C05 estima costos sin flujos de caja.
-- **B126-C04 — Costo de adquisición de clientes y economía unitaria.** *Programada.* Un negocio espacial debe medir cuánto cuesta ganar un cliente; no está tratado.
-- **B126-C05 — Evaluación de viabilidad económica de un negocio espacial.** *Programada.* B124-C12 evalúa retorno científico, no la viabilidad económica de un negocio.
-- **B126-C06 — Presentación financiera ante inversionistas con evidencia.** *Programada.* Presentar a inversionistas exige comunicar cifras con evidencia; B124-C19 redacta propuestas de misión, no financieras.
+- **B126-C01 — Capital semilla y financiamiento inicial.** *Texto redactado, pendiente de revisión.* B124-C07 trata el financiamiento privado en general, no las etapas iniciales de una empresa.
+- **B126-C02 — Capital de riesgo en empresas espaciales.** *Texto redactado, pendiente de revisión.* El capital de riesgo tiene lógica y condiciones propias; el catálogo no las trata.
+- **B126-C03 — Proyección de flujos de caja de un proyecto espacial.** *Texto redactado, pendiente de revisión.* Decidir si un proyecto es sostenible exige proyectar sus flujos; B124-C05 estima costos sin flujos de caja.
+- **B126-C04 — Costo de adquisición de clientes y economía unitaria.** *Texto redactado, pendiente de revisión.* Un negocio espacial debe medir cuánto cuesta ganar un cliente; no está tratado.
+- **B126-C05 — Evaluación de viabilidad económica de un negocio espacial.** *Texto redactado, pendiente de revisión.* B124-C12 evalúa retorno científico, no la viabilidad económica de un negocio.
+- **B126-C06 — Presentación financiera ante inversionistas con evidencia.** *Texto redactado, pendiente de revisión.* Presentar a inversionistas exige comunicar cifras con evidencia; B124-C19 redacta propuestas de misión, no financieras.
 
 ### B127 — Seguros espaciales
 
 *Bloque nuevo (8 clases): Seguros de lanzamiento; Seguros en órbita; Seguros de responsabilidad civil espacial…*
 
-- **B127-C01 — Seguros de lanzamiento.** *Programada.* B124-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias.
-- **B127-C02 — Seguros en órbita.** *Programada.* La cobertura durante la vida en órbita difiere de la de lanzamiento y no está tratada.
-- **B127-C03 — Seguros de responsabilidad civil espacial.** *Programada.* La responsabilidad por daños a terceros se asegura aparte; ninguna clase la trata.
-- **B127-C04 — Exclusiones, deducibles y límites de pólizas.** *Programada.* Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trata.
-- **B127-C05 — Evaluación actuarial básica del riesgo espacial.** *Programada.* Estimar primas y pérdidas requiere nociones actuariales; B12 trata estadística sin su aplicación a seguros.
-- **B127-C06 — Gestión de siniestros espaciales.** *Programada.* Tras una pérdida hay un proceso de reclamación y peritaje que ninguna clase describe.
-- **B127-C07 — Reaseguro espacial.** *Programada.* El riesgo espacial se reparte mediante reaseguro; no hay clase al respecto.
-- **B127-C08 — Simulación de cobertura de seguros para una misión.** *Programada.* Integrar los seguros de una misión en un caso permite practicar la decisión; no existe tal caso.
+- **B127-C01 — Seguros de lanzamiento.** *Texto redactado, pendiente de revisión.* B124-C08 presenta riesgo y seguros en general; el seguro de lanzamiento tiene estructura y coberturas propias.
+- **B127-C02 — Seguros en órbita.** *Texto redactado, pendiente de revisión.* La cobertura durante la vida en órbita difiere de la de lanzamiento y no está tratada.
+- **B127-C03 — Seguros de responsabilidad civil espacial.** *Texto redactado, pendiente de revisión.* La responsabilidad por daños a terceros se asegura aparte; ninguna clase la trata.
+- **B127-C04 — Exclusiones, deducibles y límites de pólizas.** *Texto redactado, pendiente de revisión.* Leer una póliza exige entender sus exclusiones, deducibles y límites; el catálogo no lo trata.
+- **B127-C05 — Evaluación actuarial básica del riesgo espacial.** *Texto redactado, pendiente de revisión.* Estimar primas y pérdidas requiere nociones actuariales; B12 trata estadística sin su aplicación a seguros.
+- **B127-C06 — Gestión de siniestros espaciales.** *Texto redactado, pendiente de revisión.* Tras una pérdida hay un proceso de reclamación y peritaje que ninguna clase describe.
+- **B127-C07 — Reaseguro espacial.** *Texto redactado, pendiente de revisión.* El riesgo espacial se reparte mediante reaseguro; no hay clase al respecto.
+- **B127-C08 — Simulación de cobertura de seguros para una misión.** *Texto redactado, pendiente de revisión.* Integrar los seguros de una misión en un caso permite practicar la decisión; no existe tal caso.
 
 ## A12 — Educación, historia aplicada y divulgación astronómica
 
@@ -2698,77 +2698,77 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 *Bloque nuevo (11 clases): Accesibilidad de la observación nocturna; Diseño universal de aprendizaje aplicado a la astronomía; Alternativas a la observación visual…*
 
-- **B128-C01 — Accesibilidad de la observación nocturna.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C03 — Alternativas a la observación visual.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C04 — Documentos y contenidos para lectores de pantalla.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C05 — Subtítulos y transcripciones.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C06 — Contraste y color accesibles.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C07 — Modelos táctiles y sonificación.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C08 — Lenguaje claro y redacción accesible.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C09 — Apoyo multilingüe y glosarios.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C10 — Acceso con baja conectividad.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
-- **B128-C11 — Auditoría de accesibilidad de un recurso educativo.** *Programada.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C01 — Accesibilidad de la observación nocturna.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C03 — Alternativas a la observación visual.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C04 — Documentos y contenidos para lectores de pantalla.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C05 — Subtítulos y transcripciones.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C06 — Contraste y color accesibles.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C07 — Modelos táctiles y sonificación.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C08 — Lenguaje claro y redacción accesible.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C09 — Apoyo multilingüe y glosarios.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C10 — Acceso con baja conectividad.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
+- **B128-C11 — Auditoría de accesibilidad de un recurso educativo.** *Texto redactado, pendiente de revisión.* Una enseñanza inclusiva requiere esta competencia concreta; el catálogo no tiene clases de accesibilidad educativa.
 
 ### B129 — Ciencia ciudadana astronómica
 
 *Bloque nuevo (7 clases): Redes de observadores aficionados; Fotometría participativa; Seguimiento ciudadano de meteoros…*
 
-- **B129-C01 — Redes de observadores aficionados.** *Programada.* B48-C19 menciona la ciencia ciudadana en un observatorio profesional; falta tratar las redes de aficionados.
-- **B129-C02 — Fotometría participativa.** *Programada.* Medir brillos con voluntarios es una práctica propia de la ciencia ciudadana; B45 trata fotometría profesional.
-- **B129-C03 — Seguimiento ciudadano de meteoros.** *Programada.* El seguimiento de meteoros es un proyecto clásico de aficionados; B08-C18 es solo introductorio.
-- **B129-C04 — Contribución de medidas voluntarias con control de calidad.** *Programada.* Las medidas de voluntarios solo sirven con protocolos de contribución; no hay clase al respecto.
-- **B129-C05 — Consentimiento y privacidad de participantes.** *Programada.* Los proyectos ciudadanos recogen datos de personas; el catálogo no trata su consentimiento ni privacidad.
-- **B129-C06 — Motivación y permanencia de participantes.** *Programada.* Sostener un proyecto ciudadano depende de la motivación de la gente; no está tratado.
-- **B129-C07 — Proyecto de ciencia ciudadana validable.** *Programada.* El cierre integra diseño, calidad y publicación de un proyecto ciudadano; no existe tal proyecto.
+- **B129-C01 — Redes de observadores aficionados.** *Texto redactado, pendiente de revisión.* B48-C19 menciona la ciencia ciudadana en un observatorio profesional; falta tratar las redes de aficionados.
+- **B129-C02 — Fotometría participativa.** *Texto redactado, pendiente de revisión.* Medir brillos con voluntarios es una práctica propia de la ciencia ciudadana; B45 trata fotometría profesional.
+- **B129-C03 — Seguimiento ciudadano de meteoros.** *Texto redactado, pendiente de revisión.* El seguimiento de meteoros es un proyecto clásico de aficionados; B08-C18 es solo introductorio.
+- **B129-C04 — Contribución de medidas voluntarias con control de calidad.** *Texto redactado, pendiente de revisión.* Las medidas de voluntarios solo sirven con protocolos de contribución; no hay clase al respecto.
+- **B129-C05 — Consentimiento y privacidad de participantes.** *Texto redactado, pendiente de revisión.* Los proyectos ciudadanos recogen datos de personas; el catálogo no trata su consentimiento ni privacidad.
+- **B129-C06 — Motivación y permanencia de participantes.** *Texto redactado, pendiente de revisión.* Sostener un proyecto ciudadano depende de la motivación de la gente; no está tratado.
+- **B129-C07 — Proyecto de ciencia ciudadana validable.** *Texto redactado, pendiente de revisión.* El cierre integra diseño, calidad y publicación de un proyecto ciudadano; no existe tal proyecto.
 
 ### B130 — Comunicación y divulgación científica
 
 *Bloque nuevo (6 clases): Infografías con fuentes verificables; Visualización de datos para comunicar; Comunicación oral de la ciencia…*
 
-- **B130-C01 — Infografías con fuentes verificables.** *Programada.* Comunicar con imágenes exige mantener la fuente y la incertidumbre; B124-C18 trata comunicación en general.
-- **B130-C02 — Visualización de datos para comunicar.** *Programada.* Elegir un gráfico honesto para el público es una competencia propia; B15 trata datos, no su comunicación.
-- **B130-C03 — Comunicación oral de la ciencia.** *Programada.* Presentar ante público requiere técnicas propias; B124-C18 es de comunicación escrita y general.
-- **B130-C04 — Divulgación científica en redes sociales.** *Programada.* Las redes tienen formatos y riesgos propios; no están tratados.
-- **B130-C05 — Evaluación de la comprensión del público.** *Programada.* Saber si la divulgación funcionó exige medir la comprensión; ninguna clase lo trata.
-- **B130-C06 — Publicación de un proyecto educativo.** *Programada.* Cerrar un proyecto educativo implica publicarlo de forma abierta y verificable; no hay clase al respecto.
+- **B130-C01 — Infografías con fuentes verificables.** *Texto redactado, pendiente de revisión.* Comunicar con imágenes exige mantener la fuente y la incertidumbre; B124-C18 trata comunicación en general.
+- **B130-C02 — Visualización de datos para comunicar.** *Texto redactado, pendiente de revisión.* Elegir un gráfico honesto para el público es una competencia propia; B15 trata datos, no su comunicación.
+- **B130-C03 — Comunicación oral de la ciencia.** *Texto redactado, pendiente de revisión.* Presentar ante público requiere técnicas propias; B124-C18 es de comunicación escrita y general.
+- **B130-C04 — Divulgación científica en redes sociales.** *Texto redactado, pendiente de revisión.* Las redes tienen formatos y riesgos propios; no están tratados.
+- **B130-C05 — Evaluación de la comprensión del público.** *Texto redactado, pendiente de revisión.* Saber si la divulgación funcionó exige medir la comprensión; ninguna clase lo trata.
+- **B130-C06 — Publicación de un proyecto educativo.** *Texto redactado, pendiente de revisión.* Cerrar un proyecto educativo implica publicarlo de forma abierta y verificable; no hay clase al respecto.
 
 ### B131 — Didáctica de la astronomía
 
 *Bloque nuevo (11 clases): Actividades de medición astronómica para el aula; Resultados de aprendizaje observables en astronomía; Conocimientos previos y concepciones alternativas…*
 
-- **B131-C01 — Actividades de medición astronómica para el aula.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C02 — Resultados de aprendizaje observables en astronomía.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C03 — Conocimientos previos y concepciones alternativas.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C04 — Secuenciación conceptual de una unidad.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C05 — Demostraciones visuales y modelos para el aula.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C06 — Aprendizaje basado en problemas con datos astronómicos.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C07 — Ejercicios de transferencia.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C08 — Evaluación formativa en el aula de astronomía.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C09 — Rúbricas de evaluación.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C10 — Retroalimentación efectiva.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
-- **B131-C11 — Plan completo de una clase de astronomía.** *Programada.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C01 — Actividades de medición astronómica para el aula.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C02 — Resultados de aprendizaje observables en astronomía.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C03 — Conocimientos previos y concepciones alternativas.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C04 — Secuenciación conceptual de una unidad.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C05 — Demostraciones visuales y modelos para el aula.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C06 — Aprendizaje basado en problemas con datos astronómicos.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C07 — Ejercicios de transferencia.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C08 — Evaluación formativa en el aula de astronomía.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C09 — Rúbricas de evaluación.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C10 — Retroalimentación efectiva.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
+- **B131-C11 — Plan completo de una clase de astronomía.** *Texto redactado, pendiente de revisión.* El rol enseña astronomía y necesita este componente del diseño de secuencias; el catálogo no tiene clases de didáctica.
 
 ### B132 — Historia y arqueoastronomía aplicadas
 
 *Bloque nuevo (6 clases): Crítica histórica de fuentes y método historiográfico; Arqueología de observatorios y de instrumentos antiguos; Monumentos megalíticos y astronomía…*
 
-- **B132-C01 — Crítica histórica de fuentes y método historiográfico.** *Programada.* Contar la historia de la astronomía exige evaluar fuentes de época; B01-C19 trata fuentes de desinformación actual, no el método histórico.
-- **B132-C02 — Arqueología de observatorios y de instrumentos antiguos.** *Programada.* B02-C08 presenta los métodos; falta tratar cómo se estudian y datan los observatorios e instrumentos materiales.
-- **B132-C03 — Monumentos megalíticos y astronomía.** *Programada.* Los monumentos megalíticos son el caso clásico de la arqueoastronomía y no tienen clase propia.
-- **B132-C04 — Estadística de orientaciones en arqueoastronomía.** *Programada.* Decidir si un conjunto de orientaciones es intencional exige estadística; B02-C09 trata sesgos, no el análisis estadístico.
-- **B132-C05 — Contexto ritual y social de la observación del cielo.** *Programada.* Interpretar un sitio exige su contexto social y ritual; el catálogo trata alineaciones sin ese contexto.
-- **B132-C06 — Informe de un sitio arqueoastronómico.** *Programada.* El informe de sitio es el producto profesional de la arqueoastronomía; ninguna clase enseña a escribirlo.
+- **B132-C01 — Crítica histórica de fuentes y método historiográfico.** *Texto redactado, pendiente de revisión.* Contar la historia de la astronomía exige evaluar fuentes de época; B01-C19 trata fuentes de desinformación actual, no el método histórico.
+- **B132-C02 — Arqueología de observatorios y de instrumentos antiguos.** *Texto redactado, pendiente de revisión.* B02-C08 presenta los métodos; falta tratar cómo se estudian y datan los observatorios e instrumentos materiales.
+- **B132-C03 — Monumentos megalíticos y astronomía.** *Texto redactado, pendiente de revisión.* Los monumentos megalíticos son el caso clásico de la arqueoastronomía y no tienen clase propia.
+- **B132-C04 — Estadística de orientaciones en arqueoastronomía.** *Texto redactado, pendiente de revisión.* Decidir si un conjunto de orientaciones es intencional exige estadística; B02-C09 trata sesgos, no el análisis estadístico.
+- **B132-C05 — Contexto ritual y social de la observación del cielo.** *Texto redactado, pendiente de revisión.* Interpretar un sitio exige su contexto social y ritual; el catálogo trata alineaciones sin ese contexto.
+- **B132-C06 — Informe de un sitio arqueoastronómico.** *Texto redactado, pendiente de revisión.* El informe de sitio es el producto profesional de la arqueoastronomía; ninguna clase enseña a escribirlo.
 
 ### B133 — Saberes astronómicos y educación intercultural
 
 *Bloque nuevo (5 clases): Relaciones entre cielo y territorio en los saberes tradicionales; Narrativas orales y transmisión del saber del cielo; Colaboración con comunidades en investigación y educación…*
 
-- **B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales.** *Programada.* Los saberes del cielo están ligados al territorio; B02-C05 y C06 los presentan sin tratar esa relación.
-- **B133-C02 — Narrativas orales y transmisión del saber del cielo.** *Programada.* La transmisión oral es la forma de conservación de muchos saberes; ninguna clase la trata.
-- **B133-C03 — Colaboración con comunidades en investigación y educación.** *Programada.* Trabajar con comunidades exige un método respetuoso; B02-C20 trata ética cultural en general.
-- **B133-C04 — Riesgos de apropiación cultural en la divulgación.** *Programada.* Divulgar saberes ajenos puede apropiarlos; el catálogo no trata ese riesgo en la divulgación.
-- **B133-C05 — Diseño de una unidad de enseñanza intercultural.** *Programada.* Integrar saberes y ciencia en el aula es el cierre del módulo; no hay clase que lo trate.
+- **B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales.** *Texto redactado, pendiente de revisión.* Los saberes del cielo están ligados al territorio; B02-C05 y C06 los presentan sin tratar esa relación.
+- **B133-C02 — Narrativas orales y transmisión del saber del cielo.** *Texto redactado, pendiente de revisión.* La transmisión oral es la forma de conservación de muchos saberes; ninguna clase la trata.
+- **B133-C03 — Colaboración con comunidades en investigación y educación.** *Texto redactado, pendiente de revisión.* Trabajar con comunidades exige un método respetuoso; B02-C20 trata ética cultural en general.
+- **B133-C04 — Riesgos de apropiación cultural en la divulgación.** *Texto redactado, pendiente de revisión.* Divulgar saberes ajenos puede apropiarlos; el catálogo no trata ese riesgo en la divulgación.
+- **B133-C05 — Diseño de una unidad de enseñanza intercultural.** *Texto redactado, pendiente de revisión.* Integrar saberes y ciencia en el aula es el cierre del módulo; no hay clase que lo trate.
 
 ## Equivalencias con los módulos de las rutas de la línea base
 

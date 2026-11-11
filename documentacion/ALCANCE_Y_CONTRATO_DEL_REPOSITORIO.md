@@ -9,7 +9,7 @@ Es un programa único, continuo, independiente, versionado y extensible; **no** 
 
 ## 2. Inventario canónico
 
-- 12 áreas y 133 bloques (64 de la línea base y 69 nuevos) con 2.077 clases: 1.280 de la línea base y 797 programadas (348 de ellas, en A02 a A05, ya con texto; las otras 449 sin redactar).
+- 12 áreas y 133 bloques (64 de la línea base y 69 nuevos) con 2.077 clases: 1.280 de la línea base y 797 programadas (las 797, en A02 a A12, ya con texto).
 - 24 rutas profesionales como recorridos sobre áreas y bloques; los 192 módulos de la línea base se conservan como equivalencias.
 - Línea base `0.1.0` de 5.120 registros únicos y programa `0.2.0`; un identificador permanente para cada clase.
 - La clasificación pedagógica de seis niveles: descubrimiento, fundamentos, aplicación, desarrollo, profesional, investigación.

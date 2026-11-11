@@ -10,7 +10,7 @@ Este roadmap resume la resolución del repositorio y de sus contenidos. El detal
 - [x] Visor estático con búsqueda y filtros.
 - [x] Validador reproducible de estructura y estado preliminar.
 - [x] Estándar `clase-profunda-cientifica` y estados E0–E6 documentados.
-- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa `0.2.0`; 1.148 con texto redactado en A01 a A05).
+- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa `0.2.0`; las 2.077 con texto redactado en A01 a A12).
 
 ## Horizonte A · integridad y publicación
 
@@ -31,8 +31,8 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
-- [ ] Guías pedagógicas por bloque (B01–B70, es decir A01 a A05, hechas; faltan B71–B133).
-- [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas: 348 de A02 a A05 ya con texto y 449 sin redactar).
+- [ ] Guías pedagógicas por bloque (B01–B133, es decir A01 a A12, hechas).
+- [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas: las 797 ya con texto).
 - [x] B01-C01 redactada y aprobada por el autor (conserva E0 en el catálogo hasta registrar revisión disciplinar).
 
 **Cierre:** informe de refinamiento y contraste metodológico (un bloque del tronco y un módulo de ruta).
@@ -50,7 +50,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] B02–B08: observación, historia, fundamentos e informática inicial (textos redactados; pendientes revisión disciplinar y aprobación; todas siguen en E0).
 - [ ] B09–B23 (A02): matemática, datos, computación y control (textos redactados, con laboratorio ejecutado según los informes de cada sesión; pendientes de revisión disciplinar y aprobación; todas siguen en E0).
 - [ ] B24–B70 (A03–A05): astrofísica, observación y ciencias planetarias (textos redactados, con laboratorio ejecutado según los informes de cada sesión; pendientes de revisión disciplinar y aprobación; todas siguen en E0).
-- [ ] B71–B133 (A06–A12): astrodinámica, ingeniería, operaciones y sociedad.
+- [ ] B71–B133 (A06–A12): astrodinámica, ingeniería, operaciones y sociedad (textos redactados, con laboratorio ejecutado según los informes de cada sesión; pendientes de revisión disciplinar y aprobación; todas siguen en E0).
 
 **Cierre por bloque:** todas las clases en E5, dependencias auditadas, proyecto integrador y revisión disciplinar registrada.
 
