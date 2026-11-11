@@ -317,6 +317,9 @@ def main():
         return f"{n:,}".replace(",", ".")
 
     idx = ["# Glosario del programa", "",
+           "> 📖 **¿Quieres entender, no solo reconocer?** Empieza por el [**glosario esencial**](esencial/README.md): "
+           "conceptos clave explicados a fondo, con intuición, fórmula con unidades, ejemplo numérico y errores frecuentes. "
+           "Este glosario completo es el índice extendido: una entrada por término, con la oración de la clase que lo define.", "",
            "Glosario en **orden alfabético** de los términos, siglas, magnitudes y símbolos que usan las clases del programa. "
            "Se construye con la sección «Vocabulario» y la tabla «Magnitudes, símbolos y unidades» de cada clase: "
            "no agrega hechos nuevos, y cada entrada enlaza a las clases donde se aprende, con su modelo mental, ejemplo y ejercicios. "

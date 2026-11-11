@@ -1,5 +1,7 @@
 # Glosario del programa
 
+> 📖 **¿Quieres entender, no solo reconocer?** Empieza por el [**glosario esencial**](esencial/README.md): conceptos clave explicados a fondo, con intuición, fórmula con unidades, ejemplo numérico y errores frecuentes. Este glosario completo es el índice extendido: una entrada por término, con la oración de la clase que lo define.
+
 Glosario en **orden alfabético** de los términos, siglas, magnitudes y símbolos que usan las clases del programa. Se construye con la sección «Vocabulario» y la tabla «Magnitudes, símbolos y unidades» de cada clase: no agrega hechos nuevos, y cada entrada enlaza a las clases donde se aprende, con su modelo mental, ejemplo y ejercicios. Las definiciones heredan el estado de las clases (todas en E0, pendientes de revisión disciplinar).
 
 Contiene **8.702** términos distintos, **445** siglas y **4.207** símbolos, tomados de 2.077 clases.
