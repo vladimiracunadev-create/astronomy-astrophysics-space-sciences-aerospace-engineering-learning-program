@@ -92,8 +92,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### ALA
 
 - **Significa:** ala.
-- Los esquemas de datos se nombran LAL (lado–ángulo–lado), LLL (tres lados), ALA (ángulo–lado–ángulo) y LLA (lado–lado–ángulo no incluido).
 - Un ala es un conjunto de paneles unidos por bisagras.
+- Los esquemas de datos se nombran LAL (lado–ángulo–lado), LLL (tres lados), ALA (ángulo–lado–ángulo) y LLA (lado–lado–ángulo no incluido).
 
 📘 **Dónde se aprende:** [B04-C08 · Ley de senos y ley de cosenos](../programa/clases/B04/B04-C08-ley-de-senos-y-ley-de-cosenos/CLASE.md); [B86-C03 · Arreglos fotovoltaicos desplegables](../programa/clases/B86/B86-C03-arreglos-fotovoltaicos-desplegables/CLASE.md).
 
@@ -195,9 +195,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### AUC
 
 - **Significa:** área (AUC).
-- La curva ROC grafica la fracción de anomalías detectadas contra la de falsas alarmas al variar el umbral; su área (AUC) vale 1 si el método separa perfectamente y 0,5 si no distingue (S2).
 - El AUC es el área bajo ella.
 - El AUC es `F D/CL`.
+- El AUC es la probabilidad de que un afectado supere a un sano.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B17-C05 · Detección de anomalías](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md); [B33-C14 · Verificación de alertas con tablas de contingencia](../programa/clases/B33/B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md); [B105-C13 · Farmacología y microgravedad](../programa/clases/B105/B105-C13-farmacologia-y-microgravedad/CLASE.md); [B105-C24 · Indicadores clínicos y biomarcadores de vuelo](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md).
@@ -507,9 +507,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### CUSUM
 
+- El CUSUM inferior es `S_t = máx(0, S_{t−1} − z_t − k)` con alarma si `S_t > h` (`k = 0,5`).
 - Puntuación robusta: desvío en unidades de MAD. CUSUM: suma acumulada de desvíos.
 - El CUSUM acumula `(μ₀ − x)/σ − k` y se reinicia en 0.
-- La CUSUM acumula desviaciones respecto de la media menos un margen `k`.
 - *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B96-C13 · Detección de anomalías](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md); [B97-C22 · Detección autónoma de eventos científicos](../programa/clases/B97/B97-C22-deteccion-autonoma-de-eventos-cientificos/CLASE.md); [B104-C18 · Aislamiento y convivencia](../programa/clases/B104/B104-C18-aislamiento-y-convivencia/CLASE.md); [B105-C09 · Salud mental en aislamiento](../programa/clases/B105/B105-C09-salud-mental-en-aislamiento/CLASE.md); [B107-C10 · Indicadores de rehabilitación y seguimiento](../programa/clases/B107/B107-C10-indicadores-de-rehabilitacion-y-seguimiento/CLASE.md).
@@ -597,8 +597,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### DLI
 
 - **Significa:** integral diaria de luz (DLI).
-- PPFD: flujo de fotones útiles. DLI: mol de fotones por m² y día.
 - La integral diaria de luz (DLI) es su suma en un día (mol m⁻² d⁻¹).
+- PPFD: flujo de fotones útiles. DLI: mol de fotones por m² y día.
 
 📘 **Dónde se aprende:** [B106-C12 · Agricultura en ambiente controlado](../programa/clases/B106/B106-C12-agricultura-en-ambiente-controlado/CLASE.md); [B115-C02 · Iluminación de cultivos con LED y espectro de crecimiento](../programa/clases/B115/B115-C02-iluminacion-de-cultivos-con-led-y-espectro-de-crecimiento/CLASE.md).
 
@@ -798,8 +798,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### ETC
 
 - **Significa:** Equivalente a tiempo completo (ETC).
-- Turno: bloque de 8 h. Equivalente a tiempo completo (ETC): fracción de una posición 24/7.
 - El EAC es la estimación del costo final; el ETC, lo que falta gastar; el VAC, `BAC − EAC`.
+- Turno: bloque de 8 h. Equivalente a tiempo completo (ETC): fracción de una posición 24/7.
 
 📘 **Dónde se aprende:** [B96-C03 · Roles de control de misión](../programa/clases/B96/B96-C03-roles-de-control-de-mision/CLASE.md); [B124-C15 · Gestión de proyectos espaciales](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md).
 
@@ -941,16 +941,16 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### FSPL
 
 - **Significa:** Pérdida en espacio libre (FSPL).
-- PIRE: potencia isotrópica radiada equivalente. Pérdida en espacio libre (FSPL): atenuación por distancia y frecuencia.
 - La FSPL es la pérdida en espacio libre.
+- PIRE: potencia isotrópica radiada equivalente. Pérdida en espacio libre (FSPL): atenuación por distancia y frecuencia.
 
 📘 **Dónde se aprende:** [B96-C27 · Operación de equipos de radiofrecuencia en la estación](../programa/clases/B96/B96-C27-operacion-de-equipos-de-radiofrecuencia-en-la-estacion/CLASE.md); [B119-C09 · Derecho y normas de telecomunicaciones](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md).
 
 ### FWHM
 
-- Una PSF gaussiana de desviación `σ` tiene FWHM `= 2√(2 ln 2) σ = 2,355 σ`.
 - El FWHM es la anchura a media altura.
-- El FWHM `= √(8 ln 2) σ_b`.
+- La FWHM es el ancho a media altura.
+- Una PSF gaussiana de desviación `σ` tiene FWHM `= 2√(2 ln 2) σ = 2,355 σ`.
 - *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B15-C11 · Deconvolución y enfoque](../programa/clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md); [B38-C08 · Observaciones sintéticas de galaxias simuladas](../programa/clases/B38/B38-C08-observaciones-sinteticas-de-galaxias-simuladas/CLASE.md); [B40-C13 · Ruido, haz y covarianza instrumental en mapas del fondo](../programa/clases/B40/B40-C13-ruido-haz-y-covarianza-instrumental-en-mapas-del-fondo/CLASE.md); [B41-C11 · Campo visual y escala de placa](../programa/clases/B41/B41-C11-campo-visual-y-escala-de-placa/CLASE.md); [B42-C05 · Patrones de Airy](../programa/clases/B42/B42-C05-patrones-de-airy/CLASE.md); [B42-C24 · Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada](../programa/clases/B42/B42-C24-metricas-de-desempeno-de-optica-adaptativa-strehl-y-energia-encerrada/CLASE.md) y 1 más.
@@ -964,8 +964,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### GCI
 
 - **Significa:** índice de convergencia de malla (GCI).
-- El índice de convergencia de malla (GCI) estima la incertidumbre numérica a partir de tres mallas.
 - El GCI (Roache) es `1,25 |f₃ − f₂|/(|f₃| (r^p − 1))`.
+- El índice de convergencia de malla (GCI) estima la incertidumbre numérica a partir de tres mallas.
 
 📘 **Dónde se aprende:** [B79-C09 · CFD académico: fundamentos y límites](../programa/clases/B79/B79-C09-cfd-academico-fundamentos-y-limites/CLASE.md); [B84-C26 · Generación de mallas y convergencia en elementos finitos](../programa/clases/B84/B84-C26-generacion-de-mallas-y-convergencia-en-elementos-finitos/CLASE.md).
 
@@ -990,8 +990,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### GIL
 
-- El GIL (bloqueo global del intérprete) impide que dos hilos ejecuten código Python a la vez.
 - El GIL es el bloqueo descrito arriba.
+- El GIL (bloqueo global del intérprete) impide que dos hilos ejecuten código Python a la vez.
 
 📘 **Dónde se aprende:** [B14-C13 · Computación paralela](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md); [B18-C01 · Procesos, hilos y concurrencia](../programa/clases/B18/B18-C01-procesos-hilos-y-concurrencia/CLASE.md).
 
@@ -1035,9 +1035,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### GSD
 
 - **Significa:** Tamaño de pixel en el objeto (GSD).
-- El GSD (distancia de muestreo en tierra).
 - El GSD es el tamaño de píxel proyectado `H p/f`.
 - El GSD (*ground sampling distance*) es la distancia en el suelo entre centros de píxeles contiguos.
+- El GSD (*ground sample distance*) es el tamaño sobre el terreno que cubre un píxel.
 - *(y 4 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B47-C25 · Diseño de cargas útiles educativas](../programa/clases/B47/B47-C25-diseno-de-cargas-utiles-educativas/CLASE.md); [B53-C25 · Corrección geométrica y ortorrectificación de imágenes planetarias](../programa/clases/B53/B53-C25-correccion-geometrica-y-ortorrectificacion-de-imagenes-planetarias/CLASE.md); [B57-C02 · Resolución espacial y temporal](../programa/clases/B57/B57-C02-resolucion-espacial-y-temporal/CLASE.md); [B63-C01 · Instrumentación de sondas y rovers planetarios](../programa/clases/B63/B63-C01-instrumentacion-de-sondas-y-rovers-planetarios/CLASE.md); [B83-C01 · Necesidad de misión y caso científico](../programa/clases/B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md); [B101-C09 · Coordinación visual y cámaras en operaciones con manipulador](../programa/clases/B101/B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md) y 1 más.
@@ -1133,8 +1133,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### ICD
 
-- Un ICD (*interface control document*) lo especifica.
 - El ICD es el contrato entre productor y consumidor.
+- Un ICD (*interface control document*) lo especifica.
 - ICD: documento de control de interfaces.
 
 📘 **Dónde se aprende:** [B83-C08 · Interfaz entre subsistemas](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md); [B88-C21 · Interfaces y documentos de control de software de vuelo](../programa/clases/B88/B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md); [B90-C05 · Documentación de interfaces](../programa/clases/B90/B90-C05-documentacion-de-interfaces/CLASE.md).
@@ -1680,9 +1680,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### MTBF
 
-- El MTBF y el MTTR.
-- MTBF: tiempo medio entre fallas.
 - El MTBF (o MTTF) es `1/λ` en el modelo exponencial.
+- Cota superior de confianza: valor que, con probabilidad `CL`, no es inferior a la tasa verdadera. MTBF: tiempo medio entre fallas.
+- La tasa de falla `λ` es la probabilidad de fallar por unidad de tiempo; el MTBF es `1/λ` con tasa constante.
 - *(y 3 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B33-C09 · Planes de continuidad ante eventos de clima espacial](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md); [B48-C15 · Gestión de fallas de instrumentos](../programa/clases/B48/B48-C15-gestion-de-fallas-de-instrumentos/CLASE.md); [B86-C11 · Redundancia eléctrica](../programa/clases/B86/B86-C11-redundancia-electrica/CLASE.md); [B90-C17 · Gestión de anomalías de prueba](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md); [B93-C04 · Análisis de confiabilidad de electrónica (MTBF y derating)](../programa/clases/B93/B93-C04-analisis-de-confiabilidad-de-electronica-mtbf-y-derating/CLASE.md); [B122-C02 · Continuidad de servicio: impacto y objetivos de recuperación](../programa/clases/B122/B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md).
@@ -1701,16 +1701,16 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### MTF
 
-- La MTF: su módulo.
 - La MTF mide el contraste conservado.
+- La MTF: su módulo.
 
 📘 **Dónde se aprende:** [B42-C07 · Función de transferencia óptica](../programa/clases/B42/B42-C07-funcion-de-transferencia-optica/CLASE.md); [B83-C17 · Verificación frente a validación](../programa/clases/B83/B83-C17-verificacion-frente-a-validacion/CLASE.md).
 
 ### MTTR
 
-- El MTBF y el MTTR.
-- MTBF: tiempo medio entre fallas. MTTR: tiempo medio de reparación.
 - El MTTR es el tiempo medio de reparación.
+- El MTBF es el tiempo medio entre fallas y el MTTR el tiempo medio de reparación.
+- El MTBF y el MTTR.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B33-C09 · Planes de continuidad ante eventos de clima espacial](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md); [B48-C15 · Gestión de fallas de instrumentos](../programa/clases/B48/B48-C15-gestion-de-fallas-de-instrumentos/CLASE.md); [B59-C18 · Fiabilidad de equipos mineros](../programa/clases/B59/B59-C18-fiabilidad-de-equipos-mineros/CLASE.md); [B122-C02 · Continuidad de servicio: impacto y objetivos de recuperación](../programa/clases/B122/B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md).
@@ -1943,8 +1943,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### PIRE
 
 - La PIRE es `P_t − L_t + G_t` (dBW).
-- PIRE: potencia isotrópica radiada equivalente.
 - La PIRE es la potencia isótropa radiada equivalente, en dBW.
+- PIRE: potencia isotrópica radiada equivalente.
 
 📘 **Dónde se aprende:** [B47-C18 · Downlink de instrumentos científicos](../programa/clases/B47/B47-C18-downlink-de-instrumentos-cientificos/CLASE.md); [B89-C05 · Presupuesto de enlace](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md); [B96-C27 · Operación de equipos de radiofrecuencia en la estación](../programa/clases/B96/B96-C27-operacion-de-equipos-de-radiofrecuencia-en-la-estacion/CLASE.md); [B120-C02 · Zonas de coordinación entre servicios radioeléctricos](../programa/clases/B120/B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md).
 
@@ -1971,8 +1971,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### POD
 
 - El POD es la fracción de eventos detectados, el FAR la de alertas falsas y el CSI la de aciertos sobre todos los casos relevantes.
-- El POD, el FAR y el Heidke.
 - La POD es `P(detectar | a)`.
+- El POD, el FAR y el Heidke.
 
 📘 **Dónde se aprende:** [B30-C20 · Análisis de alerta solar real](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md); [B33-C13 · Pronóstico de actividad geomagnética](../programa/clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md); [B84-C19 · Inspección no destructiva](../programa/clases/B84/B84-C19-inspeccion-no-destructiva/CLASE.md).
 
@@ -2029,8 +2029,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### PV
 
-- El PV y el RMS del resto.
 - El PV es el valor del trabajo planificado a la fecha; el EV, el valor del trabajo logrado; el AC, el costo real.
+- El PV y el RMS del resto.
 
 📘 **Dónde se aprende:** [B43-C22 · Interferometría de superficie y mapas de error de forma](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md); [B124-C15 · Gestión de proyectos espaciales](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md).
 
@@ -2151,8 +2151,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### RDM
 
-- El RDM (*radiation design margin*) `= dosis de fallo / dosis de misión`.
 - El RDM (*radiation design margin*) es el cociente exigido entre la dosis tolerada y la de misión.
+- El RDM (*radiation design margin*) `= dosis de fallo / dosis de misión`.
 
 📘 **Dónde se aprende:** [B88-C03 · Procesadores tolerantes a radiación](../programa/clases/B88/B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md); [B95-C02 · Componentes comerciales en vuelo: selección y riesgo](../programa/clases/B95/B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md).
 
@@ -2171,9 +2171,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### RK4
 
 - **Significa:** Runge–Kutta de cuarto orden (RK4).
-- Euler explícito: `q + h q̇`. Runge–Kutta de cuarto orden (RK4): combina cuatro evaluaciones de `q̇` por paso.
 - La temperatura límite es `T_a − Q/G`. RK4 es un integrador de cuarto orden.
 - El baricentro es el centro de masas del par. RK4 es el método de Runge–Kutta de cuarto orden.
+- Euler explícito es de orden 1. RK4 es de orden 4.
 - *(y 4 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B10-C20 · Cinemática de orientación satelital](../programa/clases/B10/B10-C20-cinematica-de-orientacion-satelital/CLASE.md); [B44-C08 · Enfriamiento de detectores](../programa/clases/B44/B44-C08-enfriamiento-de-detectores/CLASE.md); [B71-C03 · Ecuación de movimiento de dos cuerpos](../programa/clases/B71/B71-C03-ecuacion-de-movimiento-de-dos-cuerpos/CLASE.md); [B72-C18 · Integración numérica perturbada](../programa/clases/B72/B72-C18-integracion-numerica-perturbada/CLASE.md); [B85-C26 · Análisis térmico transitorio y casos extremos](../programa/clases/B85/B85-C26-analisis-termico-transitorio-y-casos-extremos/CLASE.md); [B97-C23 · Diseño de simulador de misión robótica](../programa/clases/B97/B97-C23-diseno-de-simulador-de-mision-robotica/CLASE.md) y 1 más.
@@ -2192,9 +2192,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### RMS
 
-- El PV y el RMS del resto.
-- El RMS de los residuos.
 - El RMS mide la calidad.
+- El sesgo es el residuo medio; el RMS, su raíz cuadrática media.
+- El RMS mide la energía de la señal.
 - *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B43-C22 · Interferometría de superficie y mapas de error de forma](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md); [B45-C08 · Calibración en longitud de onda](../programa/clases/B45/B45-C08-calibracion-en-longitud-de-onda/CLASE.md); [B47-C10 · Estabilidad de apuntamiento](../programa/clases/B47/B47-C10-estabilidad-de-apuntamiento/CLASE.md); [B85-C14 · Degradación ultravioleta](../programa/clases/B85/B85-C14-degradacion-ultravioleta/CLASE.md); [B85-C27 · Márgenes y correlación térmica](../programa/clases/B85/B85-C27-margenes-y-correlacion-termica/CLASE.md); [B97-C26 · Monitoreo de condición de maquinaria extraterrestre](../programa/clases/B97/B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md).
@@ -2288,8 +2288,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### RTT
 
 - **Significa:** Ida y vuelta (RTT); latencia (RTT).
-- Retardo de propagación: `d/c`. Ida y vuelta (RTT): `2d/c`.
 - La latencia (RTT) es el tiempo de ida y vuelta.
+- Retardo de propagación: `d/c`. Ida y vuelta (RTT): `2d/c`.
 
 📘 **Dónde se aprende:** [B96-C01 · Segmento espacial y segmento terrestre](../programa/clases/B96/B96-C01-segmento-espacial-y-segmento-terrestre/CLASE.md); [B128-C10 · Acceso con baja conectividad](../programa/clases/B128/B128-C10-acceso-con-baja-conectividad/CLASE.md).
 
@@ -2303,8 +2303,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### RUL
 
 - **Significa:** vida útil restante (RUL).
-- La RUL `= t_cruce − t_actual`.
 - La vida útil restante (RUL) es el tiempo hasta que el indicador cruza su umbral.
+- La RUL `= t_cruce − t_actual`.
 
 📘 **Dónde se aprende:** [B88-C44 · Mantenimiento predictivo y pronóstico de salud de sistemas](../programa/clases/B88/B88-C44-mantenimiento-predictivo-y-pronostico-de-salud-de-sistemas/CLASE.md); [B97-C26 · Monitoreo de condición de maquinaria extraterrestre](../programa/clases/B97/B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md).
 
@@ -2409,8 +2409,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### SEU
 
-- El SEU (*single event upset*) invierte un bit.
 - El SEU es un cambio de estado de un bit por una partícula, no destructivo; el SEL (*latch-up*) es un estado de corriente alta potencialmente destructivo.
+- El SEU (*single event upset*) invierte un bit.
 
 📘 **Dónde se aprende:** [B88-C03 · Procesadores tolerantes a radiación](../programa/clases/B88/B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md); [B95-C02 · Componentes comerciales en vuelo: selección y riesgo](../programa/clases/B95/B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md).
 
@@ -2424,7 +2424,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Una huella (*hash*) es un número de longitud fija calculado a partir del contenido de un archivo; si el contenido cambia, la huella cambia. SHA-256 es una función de huella de 256 bits.
 - Un hash (huella) es una función que resume un contenido; SHA-256 produce 256 bits, que se escriben como 64 caracteres hexadecimales.
-- Suma de verificación: resumen corto de un archivo. SHA-256: hash criptográfico de 256 bits.
+- Un manifiesto lista cada archivo con su huella. SHA-256 es una función hash de 256 bits.
 - *(y 3 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 📘 **Dónde se aprende:** [B07-C19 · Documentación y reproducibilidad](../programa/clases/B07/B07-C19-documentacion-y-reproducibilidad/CLASE.md); [B23-C07 · Trazabilidad científica de resultados](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md); [B48-C17 · Gestión de archivos observacionales](../programa/clases/B48/B48-C17-gestion-de-archivos-observacionales/CLASE.md); [B90-C18 · Trazabilidad de evidencias](../programa/clases/B90/B90-C18-trazabilidad-de-evidencias/CLASE.md); [B96-C22 · Transferencia de datos entre estación y centro de datos](../programa/clases/B96/B96-C22-transferencia-de-datos-entre-estacion-y-centro-de-datos/CLASE.md); [B130-C06 · Publicación de un proyecto educativo](../programa/clases/B130/B130-C06-publicacion-de-un-proyecto-educativo/CLASE.md).
@@ -2473,8 +2473,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### SMAC
 
-- SMAC: concentración máxima permitida en nave.
 - El SMAC es la concentración máxima permitida en nave de la NASA para una duración dada.
+- SMAC: concentración máxima permitida en nave.
 
 📘 **Dónde se aprende:** [B106-C24 · Calidad del aire y límites de exposición en cabina](../programa/clases/B106/B106-C24-calidad-del-aire-y-limites-de-exposicion-en-cabina/CLASE.md); [B117-C02 · Contención de riesgos biológicos y químicos en cabina](../programa/clases/B117/B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md).
 
@@ -2507,8 +2507,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 ### SPI
 
-- El SPI identifica la SA.
 - El CPI es `EV/AC`; el SPI, `EV/PV`.
+- El SPI identifica la SA.
 
 📘 **Dónde se aprende:** [B89-C25 · Protección criptográfica de enlaces espaciales](../programa/clases/B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md); [B124-C15 · Gestión de proyectos espaciales](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md).
 
@@ -2831,17 +2831,17 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 ### VPN
 
 - **Significa:** negativo (VPN).
-- La sensibilidad, la especificidad, el VPP y el VPN miden un umbral.
 - El valor predictivo positivo (VPP) es la fracción de positivos que son verdaderos; el negativo (VPN), la de negativos que son verdaderos.
 - El VPN es la suma de los flujos descontados.
+- La sensibilidad, la especificidad, el VPP y el VPN miden un umbral.
 
 📘 **Dónde se aprende:** [B105-C24 · Indicadores clínicos y biomarcadores de vuelo](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md); [B116-C06 · Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../programa/clases/B116/B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md); [B126-C05 · Evaluación de viabilidad económica de un negocio espacial](../programa/clases/B126/B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md).
 
 ### VPP
 
 - **Significa:** valor predictivo positivo (VPP).
-- La sensibilidad, la especificidad, el VPP y el VPN miden un umbral.
 - El valor predictivo positivo (VPP) es la fracción de positivos que son verdaderos; el negativo (VPN), la de negativos que son verdaderos.
+- La sensibilidad, la especificidad, el VPP y el VPN miden un umbral.
 
 📘 **Dónde se aprende:** [B105-C24 · Indicadores clínicos y biomarcadores de vuelo](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md); [B116-C06 · Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../programa/clases/B116/B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md).
 

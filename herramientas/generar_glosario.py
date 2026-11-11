@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import collections
 import glob
+import json
 import re
 import sys
 import unicodedata
@@ -174,6 +175,46 @@ def cargar():
     return terminos, simbolos, n_clases
 
 
+def slug_github(h: str) -> str:
+    return re.sub(r"[^\w\- ]", "", h.lower()).replace(" ", "-")
+
+
+def cargar_esencial():
+    """Mapa clave de término -> (archivo, encabezado, ancla) del glosario esencial escrito a mano."""
+    mapa = {}
+    carpeta = SALIDA / "esencial"
+    if not carpeta.exists():
+        return mapa
+    for f in sorted(carpeta.glob("*.md")):
+        if f.name == "README.md":
+            continue
+        lineas = f.read_text(encoding="utf-8").replace("\r\n", "\n").split("\n")
+        for i, l in enumerate(lineas):
+            if not l.startswith("### "):
+                continue
+            h = l[4:].strip()
+            siguiente = next((x for x in lineas[i + 1:] if x.strip()), "")
+            if siguiente.startswith("Ver "):
+                continue  # entrada de remisión
+            partes = {h} | {x.strip() for x in re.split(r" y | e |/|\(|\)|,| — ", h) if x.strip()}
+            for parte in partes:
+                k = clave(parte)
+                if len(k) >= 4:
+                    mapa.setdefault(k, (f.name, h, slug_github(h)))
+    return mapa
+
+
+def cargar_areas():
+    """Devuelve {bloque: (área, título del bloque)} y {área: título}."""
+    est = json.loads((ROOT / "catalogo" / "v0.2.0" / "estructura.json").read_text(encoding="utf-8"))
+    bloques, areas = {}, {}
+    for a in est:
+        areas[a["area"]] = a["titulo"]
+        for b in a["bloques"]:
+            bloques[b["id"]] = (a["area"], b["titulo"])
+    return bloques, areas
+
+
 def orden_cid(cid: str):
     m = re.match(r"B(\d+)-C(\d+)", cid)
     return (int(m[1]), int(m[2])) if m else (0, 0)
@@ -209,7 +250,11 @@ def nombre_visible(items):
 
 def lineas_definicion(items):
     vistas, defs = set(), []
-    for i in sorted(items, key=lambda x: orden_cid(x["cid"])):
+    def calidad(x):
+        d = x["defn"] or ""
+        return (not re.search(r"\b(es|son|se llama|se define|mide|indica|describe|significa)\b", d), orden_cid(x["cid"]))
+
+    for i in sorted(items, key=calidad):
         d = i["defn"]
         if d and clave(d) not in vistas:
             vistas.add(clave(d))
@@ -227,17 +272,27 @@ def lineas_definicion(items):
     return out
 
 
-def escribir_terminos(terminos):
+def n_clases(items):
+    return len({i["cid"] for i in items})
+
+
+def escribir_terminos(terminos, esencial):
     por_letra = collections.defaultdict(list)
     for k, items in terminos.items():
         por_letra[letra(items[0]["term"])].append(k)
+    letras = sorted(por_letra, key=lambda x: ("~" if x == "0-9" else x))
     archivos, indice = {}, []
-    for L in sorted(por_letra, key=lambda x: ("~" if x == "0-9" else x)):
-        out = [f"# Términos · {L}", "", "[⬅️ Índice del glosario](README.md)", ""]
+    for L in letras:
+        nav = " · ".join(f"**{x}**" if x == L else f"[{x}](terminos-{x.lower()}.md)" for x in letras)
+        out = [f"# Términos · {L}", "", "[⬅️ Índice del glosario](README.md) · [Siguientes listados: siglas](siglas.md) · [símbolos](simbolos-y-unidades.md)", "", nav, ""]
         for k in sorted(por_letra[L]):
             items = terminos[k]
             out += [f"### {nombre_visible(items)}", ""] + lineas_definicion(items)
-            out += ["", f"📘 **Dónde se aprende:** {enlaces(items)}.", ""]
+            if k in esencial:
+                f, h, a = esencial[k]
+                out += ["", f"📖 **Explicado a fondo:** [{h}](esencial/{f}#{a}) (intuición, fórmula, ejemplo numérico y errores frecuentes)."]
+            n = n_clases(items)
+            out += ["", f"📘 **Dónde se aprende** ({n} {'clase' if n == 1 else 'clases'}): {enlaces(items)}.", ""]
         nombre = f"terminos-{L.lower()}.md"
         archivos[nombre] = "\n".join(out).rstrip() + "\n"
         indice.append((L, nombre, len(por_letra[L])))
@@ -267,6 +322,36 @@ def escribir_siglas(terminos):
         out += lineas_definicion(items)
         out += ["", f"📘 **Dónde se aprende:** {enlaces(items)}.", ""]
     return "\n".join(out).rstrip() + "\n", len(filas)
+
+
+def escribir_por_area(terminos):
+    bloques, areas = cargar_areas()
+    por_bloque = collections.defaultdict(dict)
+    for k, items in terminos.items():
+        for i in sorted(items, key=lambda x: orden_cid(x["cid"])):
+            b = i["cid"].split("-")[0]
+            por_bloque[b].setdefault(k, (nombre_visible(items), i))
+    archivos = {}
+    resumen = []
+    for area in sorted(areas):
+        out = [f"# Términos del área {area} · {areas[area]}", "", "[⬅️ Índice del glosario](README.md)", "",
+               "Los términos que presentan las clases de cada bloque del área, en orden alfabético. "
+               "Cada término enlaza a la clase donde aparece en el vocabulario.", ""]
+        total = 0
+        for b in sorted((x for x, v in bloques.items() if v[0] == area), key=lambda x: int(x[1:])):
+            datos = por_bloque.get(b, {})
+            if not datos:
+                continue
+            total += len(datos)
+            out += [f"## {b} · {bloques[b][1]}", "", f"{len(datos)} términos.", ""]
+            fila = []
+            for k in sorted(datos):
+                nombre, it = datos[k]
+                fila.append(f"[{nombre}]({it['ruta']})")
+            out += [" · ".join(fila), ""]
+        archivos[f"por-area-{area}.md"] = "\n".join(out).rstrip() + "\n"
+        resumen.append((area, areas[area], total))
+    return archivos, resumen
 
 
 def grupo_simbolo(s: str):
@@ -308,7 +393,10 @@ def escribir_simbolos(simbolos):
 
 def main():
     terminos, simbolos, n_clases = cargar()
-    archivos, indice = escribir_terminos(terminos)
+    esencial = cargar_esencial()
+    archivos, indice = escribir_terminos(terminos, esencial)
+    por_area, resumen_areas = escribir_por_area(terminos)
+    archivos.update(por_area)
     siglas, n_siglas = escribir_siglas(terminos)
     archivos["siglas.md"] = siglas
     archivos["simbolos-y-unidades.md"] = escribir_simbolos(simbolos)
@@ -334,6 +422,10 @@ def main():
            "## Términos por letra", ""]
     for L, nombre, n in indice:
         idx.append(f"- [{L}]({nombre}) — {fmt(n)} términos")
+    idx += ["", "## Términos por área del programa", "",
+            "Útil para estudiar un tema: cada área reúne el vocabulario de sus bloques.", ""]
+    for area, titulo, n in resumen_areas:
+        idx.append(f"- [{area} · {titulo}](por-area-{area}.md) — {fmt(n)} términos")
     idx += ["", "## Otros listados", "",
             "- [Siglas y acrónimos](siglas.md)",
             "- [Símbolos, magnitudes y unidades](simbolos-y-unidades.md)", "",

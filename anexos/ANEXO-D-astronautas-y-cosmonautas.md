@@ -118,4 +118,52 @@ Cada accidente cambió procedimientos, diseño y cultura de seguridad.
 
 📘 [B104](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md "Astronáutica y preparación de astronautas"), [B105](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md "Medicina y biología espacial"), [B107](../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md "Acondicionamiento físico y rehabilitación de astronautas"), [B116](../programa/tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md "Telemedicina y monitorización de salud en misión").
 
+---
+
+## 8. A fondo: un día en la estación y el cuerpo en microgravedad
+
+### 8.1 Un día típico a bordo de la ISS
+
+La tripulación sigue la hora universal (UTC) y un horario de trabajo de unas 6,5 horas de sueño, 2 horas de ejercicio y el resto de ciencia, mantenimiento y comunicaciones con tierra.
+
+| Bloque | Actividad |
+|---|---|
+| Despertar | Higiene, revisión de correos y del plan del día |
+| Mañana | Conferencia diaria de planificación con los centros de control; experimentos y mantenimiento |
+| Mediodía | Comida (se fija velcro y bolsas; las bebidas con pajilla) |
+| Tarde | Más ciencia, tareas de carga y descarga, reparación |
+| Ejercicio | Cerca de 2 horas al día: cinta, bicicleta y un dispositivo de resistencia |
+| Noche | Preparación, revisión y sueño en una cabina individual, sujeto a una pared |
+
+**Un dato curioso:** la ISS da una vuelta a la Tierra cada ≈ 92,6 minutos. En 24 horas hay 1 440 / 92,6 ≈ **15,5 amaneceres y atardeceres**. La tripulación usa luces y persianas para mantener un ritmo de sueño.
+
+### 8.2 Qué le pasa al cuerpo
+
+| Sistema | Efecto de la microgravedad | Medida de mitigación |
+|---|---|---|
+| Huesos | Pérdida de densidad ósea: ≈ 1–1,5 % al mes en caderas y columna | Ejercicio de resistencia, nutrición, a veces fármacos |
+| Músculos | Atrofia, sobre todo en piernas y espalda | Ejercicio diario |
+| Fluidos | Se redistribuyen hacia arriba: cara hinchada, piernas más delgadas | Adaptación, trajes de presión al volver |
+| Corazón y vasos | Menos esfuerzo, cambios en la presión | Ejercicio aeróbico |
+| Vista | Algunos astronautas presentan cambios en el nervio óptico y la forma del ojo | Vigilancia y estudio |
+| Equilibrio | Mareo inicial y reajuste al volver | Rehabilitación al regreso |
+| Radiación | ≈ 0,5 mSv al día | Planificación de actividades, protección de zonas de dormir |
+| Psicología | Aislamiento, confinamiento y monotonía | Comunicación con familia, apoyo psicológico |
+
+**Después del regreso:** las primeras semanas incluyen dificultades para caminar, cambios de presión arterial y programas de rehabilitación.
+
+### 8.3 Cómo se seleccionan y entrenan
+
+- **Selección:** miles de candidatos para una docena de plazas por convocatoria; por ejemplo, la NASA seleccionó a 12 personas entre ≈ 12 000 solicitantes en 2017.
+- **Entrenamiento:** simuladores de sistemas, piscina de flotabilidad neutra para caminatas espaciales, geología de campo, supervivencia, idioma ruso, medicina de emergencia, robótica.
+- **Duración:** unos dos años antes de ser asignado a una misión y, después, entre 2 y 3 años de entrenamiento específico.
+
+### 8.4 Ejercicios
+
+1. ¿Cuánta masa ósea pierde un astronauta en seis meses si pierde 1,2 % al mes? *Solución:* 1,2 % × 6 ≈ **7 %** (cálculo simple, no compuesto).
+2. Si en la ISS hay un atardecer cada ≈ 46 minutos, ¿cuánto dura un "día" y una "noche" aproximadamente? (*Solución:* ≈ 46 min de luz y ≈ 46 min de sombra; el reparto real depende de la inclinación de la órbita y del ángulo con el Sol.)
+3. Diseña una rutina de ejercicio de 2 horas que combine fuerza y resistencia y explica qué sistema protege cada parte.
+
+📘 [B104](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md "Astronáutica y preparación de astronautas"), [B105](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md "Medicina y biología espacial"), [B106](../programa/tronco-comun/B106-habitats-espaciales-y-soporte-vital.md "Hábitats espaciales y soporte vital"), [B107](../programa/tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md "Acondicionamiento físico y rehabilitación de astronautas"), [B112](../programa/tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md "Radiobiología y protección radiológica espacial"), [B113](../programa/tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md "Salud conductual y bienestar en aislamiento").
+
 [⬅️ Anexo C](ANEXO-C-cientificos-e-ingenieros.md) · [Índice de anexos](README.md) · [Siguiente: Anexo E · Satélites y sondas →](ANEXO-E-satelites-y-sondas.md)

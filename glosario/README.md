@@ -43,6 +43,23 @@ Contiene **8.702** términos distintos, **445** siglas y **4.207** símbolos, to
 - [Z](terminos-z.md) — 19 términos
 - [0-9](terminos-0-9.md) — 22 términos
 
+## Términos por área del programa
+
+Útil para estudiar un tema: cada área reúne el vocabulario de sus bloques.
+
+- [A01 · Alfabetización científica, astronómica y tecnológica](por-area-A01.md) — 1.369 términos
+- [A02 · Matemática, física computacional y métodos científicos](por-area-A02.md) — 1.919 términos
+- [A03 · Astrofísica y ciencias fundamentales del universo](por-area-A03.md) — 1.633 términos
+- [A04 · Óptica, telescopios y observatorios científicos](por-area-A04.md) — 1.258 términos
+- [A05 · Ciencias planetarias, astroquímica y habitabilidad](por-area-A05.md) — 1.267 términos
+- [A06 · Mecánica orbital, navegación y vuelo espacial](por-area-A06.md) — 1.091 términos
+- [A07 · Ingeniería y construcción de sistemas espaciales](por-area-A07.md) — 1.374 términos
+- [A08 · Operaciones de misión y robótica espacial](por-area-A08.md) — 578 términos
+- [A09 · Astronáutica humana, medicina y hábitats](por-area-A09.md) — 853 términos
+- [A10 · Entorno orbital, derecho y seguridad espacial](por-area-A10.md) — 454 términos
+- [A11 · Economía, industria y gestión de proyectos espaciales](por-area-A11.md) — 271 términos
+- [A12 · Educación, historia aplicada y divulgación astronómica](por-area-A12.md) — 238 términos
+
 ## Otros listados
 
 - [Siglas y acrónimos](siglas.md)

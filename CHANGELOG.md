@@ -13,6 +13,8 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 ### Añadido
 
+- `glosario/`: glosario alfabético generado de las clases (términos, siglas, símbolos y unidades, vocabulario por área) y `glosario/esencial/` con unas 145 entradas explicadas a fondo (intuición, fórmula, ejemplo numérico, error frecuente); generador `herramientas/generar_glosario.py`.
+- `anexos/`: once anexos históricos y pedagógicos (agencias, misiones, científicos, astronautas, satélites, telescopios, lanzadores, cronología, escalas y fórmulas, estudios de caso, perfiles) y `herramientas/calculadora_cientifica.py` con autoprueba.
 - 160 clases redactadas del área A01 (B01–B08), con fichas, ejercicios y laboratorios; pendientes de revisión disciplinar.
 - 237 clases redactadas del área A02 (B09–B23), 160 de la línea base y 77 antes programadas, con fichas, ejercicios, laboratorios y guía de cada bloque; pendientes de revisión disciplinar.
 - 272 clases redactadas del área A03 (B24–B40), 222 del área A04 (B41–B51) y 257 del área A05 (B52–B70), con fichas, ejercicios, laboratorios ejecutados y guía de cada bloque en formato de bloque; pendientes de revisión disciplinar. Con ellas hay 1.148 clases con texto (A01 a A05).

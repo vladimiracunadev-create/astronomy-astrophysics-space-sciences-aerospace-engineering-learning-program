@@ -141,6 +141,61 @@ Vuelo de prueba sin tripulación del cohete SLS y la cápsula Orion alrededor de
 
 ---
 
+## 8. A fondo: leer una misión como ingeniero y como científico
+
+Las fichas anteriores cuentan lo que pasó. Esta sección da herramientas para **comparar** misiones, entender **por qué algunas fallan** y ver qué hay detrás de maniobras que parecen mágicas.
+
+### 8.1 Matriz comparativa de misiones emblemáticas
+
+| Misión | Destino | Duración del viaje | Idea técnica central | Lección principal |
+|---|---|---|---|---|
+| Apollo 11 | Luna | ≈ 3 días | Encuentro en órbita lunar (módulo lunar y de mando) | Gestión de riesgo en tiempo real |
+| Voyager 2 | 4 planetas exteriores | 12 años hasta Neptuno | Asistencia gravitatoria encadenada | La geometría orbital vale más que la fuerza bruta |
+| Viking 1 | Marte | ≈ 11 meses | Orbitador más módulo de aterrizaje y experimentos biológicos | Cómo diseñar una prueba de vida |
+| Cassini–Huygens | Saturno y Titán | 7 años | Cuatro asistencias gravitatorias (Venus ×2, Tierra, Júpiter) | Una misión larga con descenso en un mundo lejano |
+| Mars Pathfinder | Marte | ≈ 7 meses | Entrada directa y rebotes con bolsas de aire | Misiones baratas y rápidas pueden funcionar |
+| Rosetta | Cometa 67P | 10 años | Cuatro asistencias y hibernación | Operar en gravedad casi nula |
+| New Horizons | Plutón | 9,5 años | Lanzamiento muy veloz y paso por Júpiter | Un sobrevuelo único exige toma de datos perfecta |
+| JWST | Punto L2 | ≈ 30 días | Despliegue autónomo de parasol y espejo | Los puntos únicos de fallo se enfrentan antes del lanzamiento |
+| DART | Dimorphos | ≈ 10 meses | Impacto cinético a ≈ 6 km/s | Una prueba de defensa planetaria |
+
+### 8.2 Por qué fallan las misiones: patrones
+
+Una porción grande de las misiones a Marte de la historia (aproximadamente la mitad) no cumplió su objetivo. Los patrones más frecuentes:
+
+1. **Fallos de integración:** dos partes correctas por separado que no encajan juntas (unidades distintas en Mars Climate Orbiter; reutilización de software en Ariane 5).
+2. **Pruebas incompletas:** se prueba cada pieza, pero no el sistema completo en condiciones reales (el espejo del Hubble).
+3. **Cultura y comunicación:** un riesgo conocido que no llega a quien decide (Challenger, Columbia).
+4. **Entorno extremo subestimado:** polvo, radiación, temperatura, corrosión.
+5. **Aterrizaje:** la fase de entrada, descenso y aterrizaje concentra muchos fallos porque ocurre en minutos y no se puede corregir en tiempo real.
+
+**Lección:** los fallos rara vez son un error aislado; suelen ser una cadena de pequeñas decisiones razonables.
+
+### 8.3 Los "siete minutos de terror" de Marte
+
+Los módulos que descienden a Marte entran a ≈ 5,8 km/s (≈ 21 000 km/h) y deben detenerse en unos siete minutos, sin intervención humana, porque la señal tarda entre 3 y 22 minutos en llegar. Secuencia típica de Curiosity y Perseverance: entrada con escudo térmico, paracaídas supersónico, separación del escudo, descenso propulsado con retrocohetes y, en el último tramo, una **"grúa aérea"** que baja el rover con cables hasta tocar el suelo y vuela lejos para no aplastarlo.
+
+**Idea física:** hay que gastar energía cinética que equivale a ≈ ½ v² ≈ 17 MJ/kg. Cada fase sirve para eliminar una parte: el escudo térmico (aire), el paracaídas (más aire), los retrocohetes (propulsión).
+
+**Ejercicio.** Calcula la energía cinética por kilo de la entrada a 5,8 km/s. *Solución:* ½ · 5 800² = 1,68 × 10⁷ J/kg ≈ **17 MJ/kg**, unas 4 veces la energía que libera un kilo de TNT. Comprobación: `calc "0.5*5800**2"`.
+
+### 8.4 Cómo se planifica un viaje a Marte
+
+- **Ventana:** cada ≈ 26 meses (período sinódico); fuera de ella, el Δv necesario crece.
+- **Trayectoria tipo Hohmann:** ≈ 259 días de viaje.
+- **Parámetro C3:** el cuadrado de la velocidad hiperbólica de salida (km²/s²); una misión a Marte requiere un C3 típico de ≈ 8–15 km²/s².
+- **Margen de lanzamiento:** si el cohete falla en la ventana, no hay otro intento hasta dos años después.
+
+### 8.5 Ejercicios
+
+1. Con la matriz de 8.1, ¿qué misión se parece más a una misión de tipo "oportunidad única" y por qué?
+2. Elige una misión fallida y clasifica su causa en uno de los cinco patrones de 8.2.
+3. Si un rover quisiera aterrizar con 0,1 g de desaceleración media, ¿cuánto tardaría en frenar desde 5,8 km/s? (*Solución:* t = v / a = 5 800 / 0,98 ≈ 5 900 s; por eso es imposible: se usa la atmósfera y desaceleraciones de decenas de g.)
+
+📘 [B75](../programa/tronco-comun/B75-trayectorias-y-misiones-interplanetarias.md "Trayectorias y misiones interplanetarias"), [B77](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md "Dinámica de lanzamiento y reentrada"), [B83](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md "Ingeniería de sistemas y diseño de misiones"), [B96](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md "Control y operación de misiones espaciales").
+
+---
+
 ## Cómo estudiar una misión con método
 
 1. **Pregunta científica o de ingeniería:** ¿qué quería responder?

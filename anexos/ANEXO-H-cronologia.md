@@ -114,6 +114,40 @@ Una línea de tiempo ayuda a ver **qué dependía de qué**: el telescopio permi
 
 ---
 
+## Cómo leer la cronología: hilos causales y latencias
+
+Una cronología sola enumera hechos; sirve más cuando se leen **hilos** y se miden los **intervalos** entre una idea y su comprobación.
+
+### Hilos causales
+
+1. **El hilo de los instrumentos:** telescopio (1609) → espectroscopía (1859) → fotografía y placas (siglo XIX) → radiotelescopios (1930–1960) → telescopios espaciales (1990–) → detectores de ondas gravitacionales (2015). Cada instrumento abrió una ventana nueva al universo.
+2. **El hilo de los cohetes:** ecuación del cohete (1903) → cohete líquido (1926) → V-2 (1942) → R-7 y Sputnik (1957) → Apollo (1969) → transbordador (1981) → reutilización comercial (2015).
+3. **El hilo de las teorías:** leyes de Kepler (1609) → gravitación de Newton (1687) → relatividad (1905, 1915) → expansión del universo (1929) → fondo cósmico (1965) → energía oscura (1998).
+4. **El hilo humano:** primeros vuelos (1961–1963) → Luna (1969) → estaciones (1971–2001) → presencia permanente en la ISS (2000) → regreso a la Luna (programa Artemis).
+
+### Tabla de latencias: de la idea a la prueba
+
+| Idea | Propuesta | Comprobación | Intervalo |
+|---|---|---|---|
+| Neptuno | 1846 (cálculo) | 1846 (observación) | Horas |
+| Fondo cósmico | 1948 | 1965 | ≈ 17 años |
+| Estrellas de neutrones | 1934 | 1967 (púlsar) | ≈ 33 años |
+| Agujeros negros (solución de Schwarzschild) | 1916 | 1971 (Cygnus X-1, candidato) / 2019 (imagen) | ≈ 55 / 103 años |
+| Ondas gravitacionales | 1916 | 2015 | ≈ 99 años |
+| Exoplanetas | Antigüedad (hipótesis) | 1992 / 1995 | Siglos |
+
+**Qué enseña:** algunas ideas se confirman en horas; otras necesitan instrumentos que aún no existen. La paciencia, y la formación de generaciones, son parte del método.
+
+### Ejercicios
+
+1. Calcula el intervalo entre la predicción y la confirmación de cada fila de la tabla. Ordénalas de menor a mayor.
+2. Dibuja una línea de tiempo con los cuatro hilos y marca cuándo se cruzan (por ejemplo, el telescopio espacial necesita cohetes e instrumentos).
+3. Elige una fecha de la cronología y escribe qué tecnología previa la hizo posible.
+
+📘 [B02](../programa/tronco-comun/B02-historia-arqueoastronomia-y-culturas-del-cielo.md "Historia, arqueoastronomía y culturas del cielo"), [B132](../programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md "Historia y arqueoastronomía aplicadas"), [B26](../programa/tronco-comun/B26-relatividad-y-cosmologia.md "Relatividad y cosmología").
+
+---
+
 ## Cómo usar la cronología
 
 - **Para estudiar causas:** elige un hito y escribe qué dos hitos anteriores lo hicieron posible.

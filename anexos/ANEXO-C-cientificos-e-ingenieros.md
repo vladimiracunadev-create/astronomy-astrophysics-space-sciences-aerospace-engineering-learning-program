@@ -133,6 +133,56 @@ Pueblos andinos, mapuche, mayas y rapa nui desarrollaron calendarios y observaci
 
 ---
 
+## 6. A fondo: cómo se hace un descubrimiento
+
+Las biografías de este anexo muestran personas; esta sección extrae el **método** que comparten: hipótesis, predicción, prueba y corrección. Los ejemplos incluyen aciertos y también predicciones que fallaron.
+
+### 6.1 Predicciones que se cumplieron
+
+| Predicción | Quién | Qué se predijo | Cómo se comprobó |
+|---|---|---|---|
+| Neptuno (1846) | Le Verrier (y Adams, por separado) | Un planeta que explicara las irregularidades de Urano | Galle lo halló la primera noche, a menos de un grado de la posición calculada |
+| Desviación de la luz (1915–1919) | Einstein | La gravedad del Sol curva la luz: 1,75″ en su borde | Eclipse de 1919: Eddington y otros midieron un valor compatible |
+| Fondo cósmico (1948–1965) | Alpher, Gamow, Herman | Un resto de radiación a unos pocos kelvin | Penzias y Wilson (1965): 2,7 K |
+| Estrellas de neutrones (1934) | Baade y Zwicky | Un remanente ultradenso de supernova | Púlsares (1967), 33 años después |
+| Ondas gravitacionales (1916) | Einstein | Ondulaciones del espacio-tiempo | LIGO (2015), 99 años después |
+| Helio (1868) | Janssen y Lockyer | Una línea espectral solar que no correspondía a ningún elemento conocido (se propuso un elemento nuevo) | Aislado en la Tierra por Ramsay en 1895 |
+
+### 6.2 Una predicción que falló (y por qué enseña más)
+
+Las irregularidades de la órbita de Mercurio (su perihelio avanza más de lo que predice la gravedad de Newton: un exceso de **43″ por siglo**) llevaron a proponer un planeta interior, **Vulcano**, por analogía con Neptuno. Nunca se halló. La solución llegó en 1915: la relatividad general explica exactamente ese exceso.
+
+**Lección:** una anomalía puede indicar un objeto nuevo *o* una teoría que necesita cambiar. El método consiste en poner a prueba ambas.
+
+### 6.3 El ciclo del descubrimiento
+
+1. **Observación o anomalía** (un dato que no encaja).
+2. **Hipótesis** explicativa.
+3. **Predicción** que podría resultar falsa.
+4. **Experimento u observación** diseñada para ponerla a prueba.
+5. **Réplica independiente** y revisión por pares.
+6. **Integración** en el conocimiento, o corrección.
+
+**Importa el paso 3:** una hipótesis que no puede ser contradicha por ningún dato no es ciencia.
+
+### 6.4 Sesgos y errores comunes
+
+- **Sesgo de confirmación:** buscar solo lo que da la razón.
+- **Efecto de selección:** estudiar sólo lo que es fácil de detectar (los exoplanetas gigantes).
+- **Autoridad:** aceptar o rechazar un resultado por quién lo dice (caso de Payne-Gaposchkin).
+- **Atribución del crédito:** quién firmó frente a quién hizo el trabajo (caso de Bell Burnell y de las "computadoras" de Harvard).
+- **Errores sistemáticos no vistos:** el espejo del Hubble; la "anomalía" de neutrinos más rápidos que la luz (2011), que se debía a un cable de fibra mal conectado.
+
+### 6.5 Ejercicios
+
+1. El exceso de precesión de Mercurio es 43″ por siglo. ¿Cuántos grados son en 10 000 años? *Solución:* 43″ × 100 = 4 300″ = **1,19°**.
+2. Elige un descubrimiento del anexo y descompónlo en los seis pasos de 6.3.
+3. Redacta una predicción falsable sobre un fenómeno de tu entorno (por ejemplo, la hora de la puesta de Sol de la próxima semana) y diseña cómo comprobarla.
+
+📘 [B01](../programa/tronco-comun/B01-el-universo-y-el-pensamiento-cientifico.md "El universo y el pensamiento científico"), [B20](../programa/tronco-comun/B20-metodologia-de-la-investigacion-cientifica.md "Metodología de la investigación científica"), [B26](../programa/tronco-comun/B26-relatividad-y-cosmologia.md "Relatividad y cosmología"), [B39](../programa/tronco-comun/B39-relatividad-general-avanzada.md "Relatividad general avanzada").
+
+---
+
 ## Cómo usar este anexo
 
 - **En el aula:** elige una persona por semana y reconstruye en una página **el problema, el método y el resultado**.
