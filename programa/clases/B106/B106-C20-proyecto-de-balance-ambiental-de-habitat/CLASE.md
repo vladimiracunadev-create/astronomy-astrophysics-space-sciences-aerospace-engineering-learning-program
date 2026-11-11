@@ -1,7 +1,7 @@
 # B106-C20 — Proyecto de balance ambiental de hábitat
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C19 — Arquitectura de asentamiento lunar conceptual](../B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md) · [Siguiente: B106-C21 — Depuración de trazas gaseosas de la atmósfera de cabina →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C19 — Arquitectura de asentamiento lunar conceptual](../B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md) · [Siguiente: B106-C21 — Depuración de trazas gaseosas de la atmósfera de cabina →](../B106-C21-depuracion-de-trazas-gaseosas-de-la-atmosfera-de-cabina/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Un balance ambiental integrado cumple los criterios en el caso nominal, rompe el
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C19 — Arquitectura de asentamiento lunar conceptual](../B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C21 — Depuración de trazas gaseosas de la atmósfera de cabina →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c21)
+[← Anterior: B106-C19 — Arquitectura de asentamiento lunar conceptual](../B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C21 — Depuración de trazas gaseosas de la atmósfera de cabina →](../B106-C21-depuracion-de-trazas-gaseosas-de-la-atmosfera-de-cabina/CLASE.md)
 <!-- /nav -->
