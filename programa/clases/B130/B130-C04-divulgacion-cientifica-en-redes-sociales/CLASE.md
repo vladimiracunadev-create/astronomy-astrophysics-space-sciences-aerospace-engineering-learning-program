@@ -1,7 +1,7 @@
 # B130-C04 — Divulgación científica en redes sociales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B130-C03 — Comunicación oral de la ciencia](../B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md) · [Siguiente: B130-C05 — Evaluación de la comprensión del público →](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B130-C03 — Comunicación oral de la ciencia](../B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md) · [Siguiente: B130-C05 — Evaluación de la comprensión del público →](../B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Un hilo de `3` publicaciones con fuente y texto alternativo resiste el recorte, 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B130-C03 — Comunicación oral de la ciencia](../B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B130-C05 — Evaluación de la comprensión del público →](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c05)
+[← Anterior: B130-C03 — Comunicación oral de la ciencia](../B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B130-C05 — Evaluación de la comprensión del público →](../B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md)
 <!-- /nav -->
