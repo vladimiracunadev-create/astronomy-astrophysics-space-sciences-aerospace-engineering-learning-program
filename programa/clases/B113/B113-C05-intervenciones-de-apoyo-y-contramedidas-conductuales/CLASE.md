@@ -1,7 +1,7 @@
 # B113-C05 — Intervenciones de apoyo y contramedidas conductuales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [← Anterior: B113-C04 — Autonomía personal y gestión del tiempo en aislamiento](../B113-C04-autonomia-personal-y-gestion-del-tiempo-en-aislamiento/CLASE.md) · [Siguiente: B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats →](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md#b114-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [← Anterior: B113-C04 — Autonomía personal y gestión del tiempo en aislamiento](../B113-C04-autonomia-personal-y-gestion-del-tiempo-en-aislamiento/CLASE.md) · [Siguiente: B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats →](../../B114/B114-C01-rutas-de-evacuacion-y-salidas-de-emergencia-en-habitats/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ Con un efecto verdadero de `0,5` desviaciones típicas, 10 personas por grupo so
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B113-C04 — Autonomía personal y gestión del tiempo en aislamiento](../B113-C04-autonomia-personal-y-gestion-del-tiempo-en-aislamiento/CLASE.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [Siguiente: B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats →](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md#b114-c01)
+[← Anterior: B113-C04 — Autonomía personal y gestión del tiempo en aislamiento](../B113-C04-autonomia-personal-y-gestion-del-tiempo-en-aislamiento/CLASE.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [Siguiente: B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats →](../../B114/B114-C01-rutas-de-evacuacion-y-salidas-de-emergencia-en-habitats/CLASE.md)
 <!-- /nav -->

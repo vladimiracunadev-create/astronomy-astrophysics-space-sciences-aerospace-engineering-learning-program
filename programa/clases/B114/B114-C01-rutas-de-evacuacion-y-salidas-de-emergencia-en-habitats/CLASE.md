@@ -1,7 +1,7 @@
 # B114-C01 — Rutas de evacuación y salidas de emergencia en hábitats
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [← Anterior: B113-C05 — Intervenciones de apoyo y contramedidas conductuales](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md#b113-c05) · [Siguiente: B114-C02 — Detección, localización y respuesta a fugas de presión →](../B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [← Anterior: B113-C05 — Intervenciones de apoyo y contramedidas conductuales](../../B113/B113-C05-intervenciones-de-apoyo-y-contramedidas-conductuales/CLASE.md) · [Siguiente: B114-C02 — Detección, localización y respuesta a fugas de presión →](../B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Un hábitat sintético de cinco módulos evacúa a seis personas en `47 s` con d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B113-C05 — Intervenciones de apoyo y contramedidas conductuales](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md#b113-c05) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [Siguiente: B114-C02 — Detección, localización y respuesta a fugas de presión →](../B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md)
+[← Anterior: B113-C05 — Intervenciones de apoyo y contramedidas conductuales](../../B113/B113-C05-intervenciones-de-apoyo-y-contramedidas-conductuales/CLASE.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [Siguiente: B114-C02 — Detección, localización y respuesta a fugas de presión →](../B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md)
 <!-- /nav -->
