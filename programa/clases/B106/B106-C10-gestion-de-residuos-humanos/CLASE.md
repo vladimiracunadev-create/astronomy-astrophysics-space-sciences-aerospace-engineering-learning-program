@@ -1,7 +1,7 @@
 # B106-C10 — Gestión de residuos humanos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C09 — Sistemas ECLSS](../B106-C09-sistemas-eclss/CLASE.md) · [Siguiente: B106-C11 — Almacenamiento de alimentos →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C09 — Sistemas ECLSS](../B106-C09-sistemas-eclss/CLASE.md) · [Siguiente: B106-C11 — Almacenamiento de alimentos →](../B106-C11-almacenamiento-de-alimentos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Los máximos del resumen consultado (0,998 kg y 7 L por persona y día) llevan a
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C09 — Sistemas ECLSS](../B106-C09-sistemas-eclss/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C11 — Almacenamiento de alimentos →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c11)
+[← Anterior: B106-C09 — Sistemas ECLSS](../B106-C09-sistemas-eclss/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C11 — Almacenamiento de alimentos →](../B106-C11-almacenamiento-de-alimentos/CLASE.md)
 <!-- /nav -->
