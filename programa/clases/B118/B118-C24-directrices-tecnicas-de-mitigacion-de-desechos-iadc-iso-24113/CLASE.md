@@ -1,7 +1,7 @@
 # B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113)
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [← Anterior: B118-C23 — Cobertura, sesgos y límites de las redes de vigilancia](../B118-C23-cobertura-sesgos-y-limites-de-las-redes-de-vigilancia/CLASE.md) · [Siguiente: B119-C01 — Tratado del Espacio Ultraterrestre →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [← Anterior: B118-C23 — Cobertura, sesgos y límites de las redes de vigilancia](../B118-C23-cobertura-sesgos-y-limites-de-las-redes-de-vigilancia/CLASE.md) · [Siguiente: B119-C01 — Tratado del Espacio Ultraterrestre →](../../B119/B119-C01-tratado-del-espacio-ultraterrestre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ El verificador clasifica 4 de las nueve misiones sintéticas como cumplidoras co
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B118-C23 — Cobertura, sesgos y límites de las redes de vigilancia](../B118-C23-cobertura-sesgos-y-limites-de-las-redes-de-vigilancia/CLASE.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [Siguiente: B119-C01 — Tratado del Espacio Ultraterrestre →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c01)
+[← Anterior: B118-C23 — Cobertura, sesgos y límites de las redes de vigilancia](../B118-C23-cobertura-sesgos-y-limites-de-las-redes-de-vigilancia/CLASE.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [Siguiente: B119-C01 — Tratado del Espacio Ultraterrestre →](../../B119/B119-C01-tratado-del-espacio-ultraterrestre/CLASE.md)
 <!-- /nav -->

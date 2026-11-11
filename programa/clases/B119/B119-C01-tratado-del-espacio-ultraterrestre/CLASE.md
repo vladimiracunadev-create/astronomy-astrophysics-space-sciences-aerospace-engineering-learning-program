@@ -1,7 +1,7 @@
 # B119-C01 — Tratado del Espacio Ultraterrestre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113)](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md#b118-c24) · [Siguiente: B119-C02 — Acuerdo de Salvamento →](../B119-C02-acuerdo-de-salvamento/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113)](../../B118/B118-C24-directrices-tecnicas-de-mitigacion-de-desechos-iadc-iso-24113/CLASE.md) · [Siguiente: B119-C02 — Acuerdo de Salvamento →](../B119-C02-acuerdo-de-salvamento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -283,5 +283,5 @@ De sesenta y cuatro combinaciones solo tres cumplen todas las reglas, y la clase
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113)](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md#b118-c24) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C02 — Acuerdo de Salvamento →](../B119-C02-acuerdo-de-salvamento/CLASE.md)
+[← Anterior: B118-C24 — Directrices técnicas de mitigación de desechos (IADC, ISO 24113)](../../B118/B118-C24-directrices-tecnicas-de-mitigacion-de-desechos-iadc-iso-24113/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C02 — Acuerdo de Salvamento →](../B119-C02-acuerdo-de-salvamento/CLASE.md)
 <!-- /nav -->
