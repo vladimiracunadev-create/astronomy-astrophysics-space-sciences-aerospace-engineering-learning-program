@@ -1,7 +1,7 @@
 # B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md#b108-c05) · [Siguiente: B109-C02 — Zonificación y distribución funcional de módulos de un hábitat →](../B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA](../../B108/B108-C05-evaluacion-de-secuencias-y-lineas-de-tiempo-de-eva/CLASE.md) · [Siguiente: B109-C02 — Zonificación y distribución funcional de módulos de un hábitat →](../B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Con umbrales y pesos explícitos, A lidera con `0,649` y con `75,8 %` de los sor
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md#b108-c05) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B109-C02 — Zonificación y distribución funcional de módulos de un hábitat →](../B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md)
+[← Anterior: B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA](../../B108/B108-C05-evaluacion-de-secuencias-y-lineas-de-tiempo-de-eva/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B109-C02 — Zonificación y distribución funcional de módulos de un hábitat →](../B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md)
 <!-- /nav -->

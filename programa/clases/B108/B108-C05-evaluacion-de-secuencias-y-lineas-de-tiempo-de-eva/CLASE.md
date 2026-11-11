@@ -1,7 +1,7 @@
 # B108-C05 — Evaluación de secuencias y líneas de tiempo de EVA
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B108](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) · [← Anterior: B108-C04 — Sistemas de sujeción y restricción de pies](../B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md) · [Siguiente: B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre →](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B108](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) · [← Anterior: B108-C04 — Sistemas de sujeción y restricción de pies](../B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md) · [Siguiente: B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre →](../../B109/B109-C01-seleccion-de-emplazamiento-para-un-asentamiento-extraterrestre/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ Una EVA sintética que parece caber con las modas (`305 min`) excede el límite 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B108-C04 — Sistemas de sujeción y restricción de pies](../B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md) · [📚 Bloque B108](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) · [Siguiente: B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre →](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c01)
+[← Anterior: B108-C04 — Sistemas de sujeción y restricción de pies](../B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md) · [📚 Bloque B108](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md) · [Siguiente: B109-C01 — Selección de emplazamiento para un asentamiento extraterrestre →](../../B109/B109-C01-seleccion-de-emplazamiento-para-un-asentamiento-extraterrestre/CLASE.md)
 <!-- /nav -->
