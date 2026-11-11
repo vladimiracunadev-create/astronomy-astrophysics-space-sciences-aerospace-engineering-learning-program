@@ -1,7 +1,7 @@
 # B119-C18 — Ética y derechos en actividades espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C17 — Conflictos y normas humanitarias aplicables](../B119-C17-conflictos-y-normas-humanitarias-aplicables/CLASE.md) · [Siguiente: B119-C19 — Legislación comparada y casos nacionales →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C17 — Conflictos y normas humanitarias aplicables](../B119-C17-conflictos-y-normas-humanitarias-aplicables/CLASE.md) · [Siguiente: B119-C19 — Legislación comparada y casos nacionales →](../B119-C19-legislacion-comparada-y-casos-nacionales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -284,5 +284,5 @@ La opción `B` gana con los pesos base, pero la decisión cambia con los pesos. 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C17 — Conflictos y normas humanitarias aplicables](../B119-C17-conflictos-y-normas-humanitarias-aplicables/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C19 — Legislación comparada y casos nacionales →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c19)
+[← Anterior: B119-C17 — Conflictos y normas humanitarias aplicables](../B119-C17-conflictos-y-normas-humanitarias-aplicables/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C19 — Legislación comparada y casos nacionales →](../B119-C19-legislacion-comparada-y-casos-nacionales/CLASE.md)
 <!-- /nav -->
