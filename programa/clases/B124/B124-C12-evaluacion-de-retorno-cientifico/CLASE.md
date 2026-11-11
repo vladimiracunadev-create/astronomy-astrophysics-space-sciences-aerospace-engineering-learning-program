@@ -1,7 +1,7 @@
 # B124-C12 — Evaluación de retorno científico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B124-C11 — Sostenibilidad económica de constelaciones](../B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md) · [Siguiente: B124-C13 — Ética de investigación y datos →](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B124-C11 — Sostenibilidad económica de constelaciones](../B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md) · [Siguiente: B124-C13 — Ética de investigación y datos →](../B124-C13-etica-de-investigacion-y-datos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ De 12 opciones sintéticas, `8` están en la frontera de Pareto; la mejor efecti
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B124-C11 — Sostenibilidad económica de constelaciones](../B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B124-C13 — Ética de investigación y datos →](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c13)
+[← Anterior: B124-C11 — Sostenibilidad económica de constelaciones](../B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B124-C13 — Ética de investigación y datos →](../B124-C13-etica-de-investigacion-y-datos/CLASE.md)
 <!-- /nav -->
