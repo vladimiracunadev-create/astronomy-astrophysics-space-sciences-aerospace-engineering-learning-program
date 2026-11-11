@@ -1,7 +1,7 @@
 # B120-C02 — Zonas de coordinación entre servicios radioeléctricos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B120-C01 — Licencias satelitales y procedimiento de notificación](../B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md) · [Siguiente: B120-C03 — Posiciones orbitales y espectro como recursos limitados →](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c03)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B120-C01 — Licencias satelitales y procedimiento de notificación](../B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md) · [Siguiente: B120-C03 — Posiciones orbitales y espectro como recursos limitados →](../B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Con 40 dBW, −110 dBW y 6 GHz, la zona sintética tiene 125,7 km de radio y obl
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B120-C01 — Licencias satelitales y procedimiento de notificación](../B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B120-C03 — Posiciones orbitales y espectro como recursos limitados →](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c03)
+[← Anterior: B120-C01 — Licencias satelitales y procedimiento de notificación](../B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B120-C03 — Posiciones orbitales y espectro como recursos limitados →](../B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md)
 <!-- /nav -->
