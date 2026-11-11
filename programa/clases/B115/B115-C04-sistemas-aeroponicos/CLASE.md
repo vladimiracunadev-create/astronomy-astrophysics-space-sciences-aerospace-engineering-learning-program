@@ -1,7 +1,7 @@
 # B115-C04 — Sistemas aeropónicos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [← Anterior: B115-C03 — Control de nutrientes y solución nutritiva](../B115-C03-control-de-nutrientes-y-solucion-nutritiva/CLASE.md) · [Siguiente: B115-C05 — Ciclos de producción y calendarización de cultivos →](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md#b115-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [← Anterior: B115-C03 — Control de nutrientes y solución nutritiva](../B115-C03-control-de-nutrientes-y-solucion-nutritiva/CLASE.md) · [Siguiente: B115-C05 — Ciclos de producción y calendarización de cultivos →](../B115-C05-ciclos-de-produccion-y-calendarizacion-de-cultivos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,5 +320,5 @@ Una película de 25 µm se seca en 54 min a 90 % de humedad y en 13 a 60 %; la p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B115-C03 — Control de nutrientes y solución nutritiva](../B115-C03-control-de-nutrientes-y-solucion-nutritiva/CLASE.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [Siguiente: B115-C05 — Ciclos de producción y calendarización de cultivos →](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md#b115-c05)
+[← Anterior: B115-C03 — Control de nutrientes y solución nutritiva](../B115-C03-control-de-nutrientes-y-solucion-nutritiva/CLASE.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [Siguiente: B115-C05 — Ciclos de producción y calendarización de cultivos →](../B115-C05-ciclos-de-produccion-y-calendarizacion-de-cultivos/CLASE.md)
 <!-- /nav -->
