@@ -1,7 +1,7 @@
 # B103-C08 — Métricas de evaluación de percepción
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B103-C07 — Estimación de pose de objetos y objetivos por visión](../B103-C07-estimacion-de-pose-de-objetos-y-objetivos-por-vision/CLASE.md) · [Siguiente: B104-C01 — Historia de vuelos tripulados →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [← Anterior: B103-C07 — Estimación de pose de objetos y objetivos por visión](../B103-C07-estimacion-de-pose-de-objetos-y-objetivos-por-vision/CLASE.md) · [Siguiente: B104-C01 — Historia de vuelos tripulados →](../../B104/B104-C01-historia-de-vuelos-tripulados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ Una salida de percepción se evalúa con varias métricas, por segmento y con in
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B103-C07 — Estimación de pose de objetos y objetivos por visión](../B103-C07-estimacion-de-pose-de-objetos-y-objetivos-por-vision/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B104-C01 — Historia de vuelos tripulados →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c01)
+[← Anterior: B103-C07 — Estimación de pose de objetos y objetivos por visión](../B103-C07-estimacion-de-pose-de-objetos-y-objetivos-por-vision/CLASE.md) · [📚 Bloque B103](../../../tronco-comun/B103-percepcion-visual-robotica.md) · [Siguiente: B104-C01 — Historia de vuelos tripulados →](../../B104/B104-C01-historia-de-vuelos-tripulados/CLASE.md)
 <!-- /nav -->
