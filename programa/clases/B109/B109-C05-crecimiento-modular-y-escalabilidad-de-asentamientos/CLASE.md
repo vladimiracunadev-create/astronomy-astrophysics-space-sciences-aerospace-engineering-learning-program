@@ -1,7 +1,7 @@
 # B109-C05 — Crecimiento modular y escalabilidad de asentamientos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B109-C04 — Mitigación de polvo lunar en accesos y hábitats](../B109-C04-mitigacion-de-polvo-lunar-en-accesos-y-habitats/CLASE.md) · [Siguiente: B109-C06 — Antropometría y dimensionamiento para tripulación →](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B109-C04 — Mitigación de polvo lunar en accesos y hábitats](../B109-C04-mitigacion-de-polvo-lunar-en-accesos-y-habitats/CLASE.md) · [Siguiente: B109-C06 — Antropometría y dimensionamiento para tripulación →](../B109-C06-antropometria-y-dimensionamiento-para-tripulacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Con reglas ilustrativas, tres fases requieren `47,4`, `66,0` y `77,5 m²`, y el 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B109-C04 — Mitigación de polvo lunar en accesos y hábitats](../B109-C04-mitigacion-de-polvo-lunar-en-accesos-y-habitats/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B109-C06 — Antropometría y dimensionamiento para tripulación →](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c06)
+[← Anterior: B109-C04 — Mitigación de polvo lunar en accesos y hábitats](../B109-C04-mitigacion-de-polvo-lunar-en-accesos-y-habitats/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B109-C06 — Antropometría y dimensionamiento para tripulación →](../B109-C06-antropometria-y-dimensionamiento-para-tripulacion/CLASE.md)
 <!-- /nav -->
