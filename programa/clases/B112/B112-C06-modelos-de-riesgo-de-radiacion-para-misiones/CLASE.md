@@ -1,7 +1,7 @@
 # B112-C06 — Modelos de riesgo de radiación para misiones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [← Anterior: B112-C05 — Daño y reparación del ADN por radiación espacial](../B112-C05-dano-y-reparacion-del-adn-por-radiacion-espacial/CLASE.md) · [Siguiente: B113-C01 — Estrés operacional y estrategias de afrontamiento →](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md#b113-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [← Anterior: B112-C05 — Daño y reparación del ADN por radiación espacial](../B112-C05-dano-y-reparacion-del-adn-por-radiacion-espacial/CLASE.md) · [Siguiente: B113-C01 — Estrés operacional y estrategias de afrontamiento →](../../B113/B113-C01-estres-operacional-y-estrategias-de-afrontamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ Una misión se evalúa sumando dosis por tramos, convirtiéndolas en riesgo con 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B112-C05 — Daño y reparación del ADN por radiación espacial](../B112-C05-dano-y-reparacion-del-adn-por-radiacion-espacial/CLASE.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [Siguiente: B113-C01 — Estrés operacional y estrategias de afrontamiento →](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md#b113-c01)
+[← Anterior: B112-C05 — Daño y reparación del ADN por radiación espacial](../B112-C05-dano-y-reparacion-del-adn-por-radiacion-espacial/CLASE.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [Siguiente: B113-C01 — Estrés operacional y estrategias de afrontamiento →](../../B113/B113-C01-estres-operacional-y-estrategias-de-afrontamiento/CLASE.md)
 <!-- /nav -->

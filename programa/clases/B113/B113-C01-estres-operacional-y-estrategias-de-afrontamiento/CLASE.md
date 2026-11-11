@@ -1,7 +1,7 @@
 # B113-C01 — Estrés operacional y estrategias de afrontamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [← Anterior: B112-C06 — Modelos de riesgo de radiación para misiones](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md#b112-c06) · [Siguiente: B113-C02 — Ansiedad y respuesta emocional en escenarios simulados →](../B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [← Anterior: B112-C06 — Modelos de riesgo de radiación para misiones](../../B112/B112-C06-modelos-de-riesgo-de-radiacion-para-misiones/CLASE.md) · [Siguiente: B113-C02 — Ansiedad y respuesta emocional en escenarios simulados →](../B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -303,5 +303,5 @@ Con la misma demanda, la carga estacionaria baja de `50` a `20 u.a.` al actuar s
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B112-C06 — Modelos de riesgo de radiación para misiones](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md#b112-c06) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [Siguiente: B113-C02 — Ansiedad y respuesta emocional en escenarios simulados →](../B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md)
+[← Anterior: B112-C06 — Modelos de riesgo de radiación para misiones](../../B112/B112-C06-modelos-de-riesgo-de-radiacion-para-misiones/CLASE.md) · [📚 Bloque B113](../../../tronco-comun/B113-salud-conductual-y-bienestar-en-aislamiento.md) · [Siguiente: B113-C02 — Ansiedad y respuesta emocional en escenarios simulados →](../B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md)
 <!-- /nav -->
