@@ -1,7 +1,7 @@
 # B130-C02 — Visualización de datos para comunicar
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B130-C01 — Infografías con fuentes verificables](../B130-C01-infografias-con-fuentes-verificables/CLASE.md) · [Siguiente: B130-C03 — Comunicación oral de la ciencia →](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c03)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B130-C01 — Infografías con fuentes verificables](../B130-C01-infografias-con-fuentes-verificables/CLASE.md) · [Siguiente: B130-C03 — Comunicación oral de la ciencia →](../B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ Con las mismas dos barras, el eje puede multiplicar por `26` la diferencia visua
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B130-C01 — Infografías con fuentes verificables](../B130-C01-infografias-con-fuentes-verificables/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B130-C03 — Comunicación oral de la ciencia →](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c03)
+[← Anterior: B130-C01 — Infografías con fuentes verificables](../B130-C01-infografias-con-fuentes-verificables/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B130-C03 — Comunicación oral de la ciencia →](../B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md)
 <!-- /nav -->
