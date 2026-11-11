@@ -17,7 +17,7 @@
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [🌐 Explorar el catálogo](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/) ·
-[📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) ·
+[📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) · [📎 Anexos](anexos/README.md) ·
 [🧭 Rutas profesionales](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md) ·
 [🎓 Estándar de clase](documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
@@ -35,6 +35,24 @@
 
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
+
+## 📎 Anexos históricos y pedagógicos
+
+Nueve lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
+
+| Anexo | Contenido |
+|---|---|
+| [A · Agencias y organizaciones espaciales](anexos/ANEXO-A-agencias-espaciales.md) | NASA, programa soviético y Roscosmos, ESA, ESO, JAXA, CNSA, ISRO, agencias de América Latina, industria privada, derecho y cooperación |
+| [B · Misiones espaciales destacadas](anexos/ANEXO-B-misiones-espaciales.md) | De Sputnik a Artemis: Apollo, Voyager, Viking, Hubble, Cassini, Marte, Rosetta, New Horizons, Webb, DART |
+| [C · Científicos, científicas e ingenieros](anexos/ANEXO-C-cientificos-e-ingenieros.md) | De Copérnico a Ghez y Genzel; pioneros del cohete; voces de Latinoamérica |
+| [D · Astronautas, cosmonautas y taikonautas](anexos/ANEXO-D-astronautas-y-cosmonautas.md) | Primeros vuelos, Luna, diversidad, récords, estudios del cuerpo y accidentes |
+| [E · Satélites y sondas de exploración](anexos/ANEXO-E-satelites-y-sondas.md) | Meteorología, comunicaciones, navegación, observatorios espaciales, sondas planetarias, CubeSats |
+| [F · Telescopios y observatorios](anexos/ANEXO-F-telescopios-y-observatorios.md) | Ópticos, radiotelescopios, observatorios de Chile, EHT, telescopios espaciales, otros mensajeros |
+| [G · Lanzadores, estaciones y puertos espaciales](anexos/ANEXO-G-lanzadores-y-estaciones.md) | Familias de cohetes, Salyut a ISS y Tiangong, puertos, reentrada |
+| [H · Cronología](anexos/ANEXO-H-cronologia.md) | Línea de tiempo de la antigüedad a 2025 |
+| [I · Escalas de medición, fórmulas y calculadora](anexos/ANEXO-I-escalas-formulas-y-calculadora.md) | Escalas, convenciones que hacen diferir los cálculos, fórmulas con unidades y la [calculadora científica en Python](herramientas/calculadora_cientifica.py) |
+
+Índice completo: [`anexos/README.md`](anexos/README.md) · Vocabulario: [🔤 Glosario](glosario/README.md).
 
 ## 🎯 Qué es este programa
 
@@ -399,12 +417,15 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
 - [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
 - [`programa/tronco-comun/`](programa/tronco-comun/): guías de los 133 bloques (64 de la línea base y 69 nuevos); todas están reescritas como guía pedagógica.
+- [`anexos/`](anexos/README.md): nueve anexos históricos, pedagógicos y de cálculo (agencias, misiones, personas, satélites, telescopios, lanzadores, cronología).
+- [`glosario/`](glosario/README.md): glosario alfabético de términos, siglas y símbolos.
 - [`programa/clases/`](programa/clases/): las 2.077 clases redactadas de A01 a A12.
 - [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
 - [`metadatos/`](metadatos/): inventarios y relaciones estructurales.
 - [`documentacion/`](documentacion/): alcance, pedagogía, experiencia, cobertura, rutas y plan de implementación.
 - [`fuentes/`](fuentes/): referencias institucionales preliminares, todavía no verificadas clase por clase.
 - [`visor/index.html`](visor/index.html): explorador estático, accesible y sin dependencias externas.
+- [`herramientas/calculadora_cientifica.py`](herramientas/calculadora_cientifica.py): calculadora científica didáctica (constantes con fuente, conversión de unidades, mecánica orbital, escalas) con `autotest`.
 - [`herramientas/validar_catalogo.py`](herramientas/validar_catalogo.py): control reproducible de cantidades, IDs, orden y estados.
 - [`herramientas/generar_manifiesto.py`](herramientas/generar_manifiesto.py): regeneración determinista de huellas SHA-256.
 
