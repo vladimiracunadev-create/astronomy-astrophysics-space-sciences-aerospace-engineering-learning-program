@@ -1,7 +1,7 @@
 # B132-C01 — Crítica histórica de fuentes y método historiográfico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B131-C11 — Plan completo de una clase de astronomía](../../../tronco-comun/B131-didactica-de-la-astronomia.md#b131-c11) · [Siguiente: B132-C02 — Arqueología de observatorios y de instrumentos antiguos →](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B131-C11 — Plan completo de una clase de astronomía](../../B131/B131-C11-plan-completo-de-una-clase-de-astronomia/CLASE.md) · [Siguiente: B132-C02 — Arqueología de observatorios y de instrumentos antiguos →](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Tres copias de una fuente no son tres fuentes: al contar grupos, la ventaja de A
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B131-C11 — Plan completo de una clase de astronomía](../../../tronco-comun/B131-didactica-de-la-astronomia.md#b131-c11) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B132-C02 — Arqueología de observatorios y de instrumentos antiguos →](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md)
+[← Anterior: B131-C11 — Plan completo de una clase de astronomía](../../B131/B131-C11-plan-completo-de-una-clase-de-astronomia/CLASE.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B132-C02 — Arqueología de observatorios y de instrumentos antiguos →](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md)
 <!-- /nav -->

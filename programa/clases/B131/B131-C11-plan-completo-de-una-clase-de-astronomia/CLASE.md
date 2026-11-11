@@ -1,7 +1,7 @@
 # B131-C11 — Plan completo de una clase de astronomía
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B131-C10 — Retroalimentación efectiva](../B131-C10-retroalimentacion-efectiva/CLASE.md) · [Siguiente: B132-C01 — Crítica histórica de fuentes y método historiográfico →](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md#b132-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [← Anterior: B131-C10 — Retroalimentación efectiva](../B131-C10-retroalimentacion-efectiva/CLASE.md) · [Siguiente: B132-C01 — Crítica histórica de fuentes y método historiográfico →](../../B132/B132-C01-critica-historica-de-fuentes-y-metodo-historiografico/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -324,5 +324,5 @@ Un plan de 90 minutos con siete bloques, tres resultados alineados, 22 % de eval
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B131-C10 — Retroalimentación efectiva](../B131-C10-retroalimentacion-efectiva/CLASE.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B132-C01 — Crítica histórica de fuentes y método historiográfico →](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md#b132-c01)
+[← Anterior: B131-C10 — Retroalimentación efectiva](../B131-C10-retroalimentacion-efectiva/CLASE.md) · [📚 Bloque B131](../../../tronco-comun/B131-didactica-de-la-astronomia.md) · [Siguiente: B132-C01 — Crítica histórica de fuentes y método historiográfico →](../../B132/B132-C01-critica-historica-de-fuentes-y-metodo-historiografico/CLASE.md)
 <!-- /nav -->
