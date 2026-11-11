@@ -1,7 +1,7 @@
 # B104-C18 — Aislamiento y convivencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C17 — Gestión de fatiga](../B104-C17-gestion-de-fatiga/CLASE.md) · [Siguiente: B104-C19 — Operaciones de retorno y reintegración →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c19)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C17 — Gestión de fatiga](../B104-C17-gestion-de-fatiga/CLASE.md) · [Siguiente: B104-C19 — Operaciones de retorno y reintegración →](../B104-C19-operaciones-de-retorno-y-reintegracion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Con `k = 0,5` y `h = 4`, la carta detecta un deterioro de 1σ en unos 8 días y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B104-C17 — Gestión de fatiga](../B104-C17-gestion-de-fatiga/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B104-C19 — Operaciones de retorno y reintegración →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c19)
+[← Anterior: B104-C17 — Gestión de fatiga](../B104-C17-gestion-de-fatiga/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B104-C19 — Operaciones de retorno y reintegración →](../B104-C19-operaciones-de-retorno-y-reintegracion/CLASE.md)
 <!-- /nav -->
