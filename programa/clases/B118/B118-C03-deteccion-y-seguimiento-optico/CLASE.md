@@ -124,7 +124,7 @@ Descripción larga: el diámetro mínimo en GEO es unas 36 veces mayor que en LE
 
 **Paso 2 · Fase.** `Φ(60°) = (2/3π)[(π−π/3) cos 60° + sin 60°] = 0,4060`.
 
-**Paso 3 · Cociente.** `0,1 × 0,05² × Φ / 10¹² = 1.015e-16`.
+**Paso 3 · Cociente.** `0,1 × 0,05² × Φ / 10¹² = 1,015 × 10⁻¹⁶`.
 
 **Paso 4 · Magnitud.** `m = −26,74 − 2,5 log₁₀(cociente) = 13,24`.
 
@@ -164,11 +164,11 @@ Descripción larga: el diámetro mínimo en GEO es unas 36 veces mayor que en LE
 `−5 log₁₀ 2 = −1,51`: 1,51 magnitudes más brillante.
 </details>
 
-**Ejercicio 5 · autónomo.** ¿Cuánto cambia el diámetro mínimo en LEO con apertura de 1,0 m en vez de 0,5 m?
+**Ejercicio 5 · autónomo.** Compara los diámetros mínimos en GEO con aperturas de 0,5 m y de 1,0 m y explica el factor.
 
 <details><summary>Solución comentada</summary>
 
-Aproximadamente a la mitad (1,2 cm) cuando domina el ruido de fondo; con ruido de Poisson puro, el factor es `1/2`.
+`83,8` cm frente a `41,9` cm: la mitad, porque con el cielo oscuro la señal crece con `D²` y el diámetro mínimo con `D⁻¹`.
 </details>
 
 **Ejercicio 6 · autónomo.** Calcula la traza en segundos de arco de un objeto a 36 000 km con 3 km/s de velocidad transversal en 2 s.
@@ -199,7 +199,7 @@ Porque señal y fondo crecen por 4 y el ruido por 2; el SNR crece como `√t`.
 No: hacen falta varias observaciones, astrometría y asociación (B118-C02); un SNR bajo da mala posición.
 </details>
 
-**Ejercicio 10 · transferencia.** **Transferencia.** ¿Por qué el seguimiento óptico en LEO sólo es útil en crepúsculo?
+**Ejercicio 10 · transferencia.** **Transferencia.** ¿Por qué el seguimiento óptico en LEO solo es útil en crepúsculo?
 
 <details><summary>Solución comentada</summary>
 

@@ -174,7 +174,7 @@ Descripción larga: la tabla de capas muestra tres concentraciones (la de 500–
 
 <details><summary>Solución comentada</summary>
 
-`1 200 000 × 5^(−1,380) = 130153`, es decir, ≈ 130153: coherente con ser menos que a 1 cm y más que a 10 cm.
+`1 200 000 × 5^(−1,380) = 130153`, valor coherente con ser menos que a 1 cm y más que a 10 cm.
 </details>
 
 **Ejercicio 6 · autónomo.** ¿Cuántos objetos mayores de 1 mm predice la ley? Compara con la cifra del informe.
@@ -188,7 +188,7 @@ Descripción larga: la tabla de capas muestra tres concentraciones (la de 500–
 
 <details><summary>Solución comentada</summary>
 
-`log₁₀ 20 = 1,301`: más cotas altas en 10 cm achatan la pendiente.
+`log₁₀ 20 = 1,301`: una cota mayor en 10 cm achata la pendiente.
 </details>
 
 **Ejercicio 8 · autónomo.** Con la tabla de la sección 17, ¿qué fracción de la población sintética está en la capa de máxima densidad?
@@ -198,21 +198,21 @@ Descripción larga: la tabla de capas muestra tres concentraciones (la de 500–
 `1842 / 5000 = 0,368`.
 </details>
 
-**Ejercicio 9 · transferencia.** **Transferencia.** **Transferencia.** Un operador dice «la población de 1 cm a 10 cm es 24 veces mayor que la de más de 10 cm». ¿Qué falta para tomarlo como dato?
+**Ejercicio 9 · transferencia.** **Transferencia.** Un operador dice «la población de 1 cm a 10 cm es 24 veces mayor que la de más de 10 cm». ¿Qué falta para tomarlo como dato?
 
 <details><summary>Solución comentada</summary>
 
 Que la ESA da cotas inferiores («más de») y no incertidumbres; la razón 24 es un cociente de cotas, no una medición.
 </details>
 
-**Ejercicio 10 · transferencia.** **Transferencia.** **Transferencia.** ¿Por qué una alta densidad en 500–600 km importa más para el riesgo que el conteo total?
+**Ejercicio 10 · transferencia.** **Transferencia.** ¿Por qué una alta densidad en 500–600 km importa más para el riesgo que el conteo total?
 
 <details><summary>Solución comentada</summary>
 
 Porque la tasa de encuentros crece con la densidad local; muchos objetos en capas distintas casi no interactúan.
 </details>
 
-**Ejercicio 11 · transferencia.** **Transferencia.** **Transferencia.** Tu colega usa `b` para estimar cuántos fragmentos de 1 mm hay y los cita como dato de la ESA. ¿Qué corriges?
+**Ejercicio 11 · transferencia.** **Transferencia.** Tu colega usa `b` para estimar cuántos fragmentos de 1 mm hay y los cita como dato de la ESA. ¿Qué corriges?
 
 <details><summary>Solución comentada</summary>
 

@@ -41,7 +41,7 @@ Con cuatro o cinco aciertos, sigue; si no, repasa los prerrequisitos.
 
 ## 5. Un caso de contexto y casos de referencia
 
-Las directrices IADC Rev. 4 (consultadas) recomiendan, para las constelaciones numerosas, «recomendaciones sobre la capacidad de seguimiento de objetos espaciales pequeños»: es la motivación de por qué importa el límite de detección. El **ejemplo conductor** es una esfera de 10 cm a 1,3 GHz, con `λ = 23,06 cm` y `k r = 1,36`, es decir, en la transición entre el régimen de Rayleigh y el óptico.
+Las directrices IADC Rev. 4 (consultadas) incluyen, en su revisión de enero de 2025, recomendaciones sobre la capacidad de seguimiento de objetos espaciales pequeños: es la motivación de por qué importa el límite de detección. El **ejemplo conductor** es una esfera de 10 cm a 1,3 GHz, con `λ = 23,06 cm` y `k r = 1,36`, es decir, en la transición entre el régimen de Rayleigh y el óptico.
 
 ## 6. Vocabulario
 

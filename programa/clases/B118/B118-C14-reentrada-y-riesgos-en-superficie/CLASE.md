@@ -1,7 +1,7 @@
 # B118-C14 — Reentrada y riesgos en superficie
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [← Anterior: B118-C13 — Desorbitación controlada](../B118-C13-desorbitacion-controlada/CLASE.md) · [Siguiente: B118-C15 — Seguimiento de mega constelaciones →](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md#b118-c15)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [← Anterior: B118-C13 — Desorbitación controlada](../B118-C13-desorbitacion-controlada/CLASE.md) · [Siguiente: B118-C15 — Seguimiento de mega constelaciones →](../B118-C15-seguimiento-de-mega-constelaciones/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ Doce fragmentos sintéticos suman 8,7 m² de área de víctima y un `E_c` de 5,4
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B118-C13 — Desorbitación controlada](../B118-C13-desorbitacion-controlada/CLASE.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [Siguiente: B118-C15 — Seguimiento de mega constelaciones →](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md#b118-c15)
+[← Anterior: B118-C13 — Desorbitación controlada](../B118-C13-desorbitacion-controlada/CLASE.md) · [📚 Bloque B118](../../../tronco-comun/B118-trafico-espacial-y-sostenibilidad-orbital.md) · [Siguiente: B118-C15 — Seguimiento de mega constelaciones →](../B118-C15-seguimiento-de-mega-constelaciones/CLASE.md)
 <!-- /nav -->

@@ -41,7 +41,7 @@ Con cuatro o cinco aciertos, sigue; si no, repasa los prerrequisitos.
 
 ## 5. Un caso de contexto y casos de referencia
 
-La documentación de **Space-Track** (consultada el 2026-11-11) indica que una TLE tiene dos líneas de 69 caracteres, que el último es una suma de comprobación módulo 10, que Alpha-5 reemplaza el primer dígito por una letra para llegar al número 339 999 (A = 10, sin I ni O), que los objetos con número mayor deberían intercambiarse en formatos OMM (XML, KVN, JSON, CSV), que las clases TLE se reemplazan por GP y que los TLE públicos «no deben usarse» para la predicción de conjunciones. El **ejemplo conductor**: el número 123 456 se escribe `C3456` en Alpha-5.
+La documentación de **Space-Track** (consultada el 2026-11-11) indica que una TLE tiene dos líneas de 69 caracteres, que el último es una suma de comprobación módulo 10, que Alpha-5 reemplaza el primer dígito por una letra para llegar al número 339 999 (A = 10, sin I ni O), que los objetos con número mayor deberían intercambiarse en formatos OMM (XML, KVN, JSON, CSV), que las clases TLE se reemplazan por GP y que los TLE públicos no deberían usarse para la predicción de conjunciones. El **ejemplo conductor**: el número 123 456 se escribe `C3456` en Alpha-5.
 
 ## 6. Vocabulario
 
@@ -202,7 +202,7 @@ Son elementos medios generales; Space-Track advierte que no se usen para predeci
 
 <details><summary>Solución comentada</summary>
 
-En Alpha-5 como `Q0000` (Q = 25) en TLE/3LE o en un formato OMM (XML, KVN, JSON o CSV), que no tiene el límite de 5 dígitos.
+En Alpha-5 como `R0000` (R = 25) en TLE/3LE o en un formato OMM (XML, KVN, JSON o CSV), que no tiene el límite de 5 dígitos.
 </details>
 
 **Ejercicio 11 · transferencia.** **Transferencia.** En la clase no hubo asociaciones equivocadas. ¿Por qué podría haberlas en la realidad?

@@ -41,7 +41,7 @@ Con cuatro o cinco aciertos, sigue; si no, repasa los prerrequisitos.
 
 ## 5. Un caso de contexto y casos de referencia
 
-Las directrices de la COPUOS (2010, consultadas) piden estimar y limitar la probabilidad de colisión (directriz 3), pero **no dan una fórmula ni un umbral**; las directrices IADC Rev. 4 (consultadas) tampoco. El **ejemplo conductor** son dos eventos sintéticos: el caso A (miss 200 m, sigmas 150 × 100 m, radio 10 m) y el caso B (miss 50 m, sigmas 60 × 40 m, radio 20 m). Los umbrales operativos de ninguna agencia se consultaron.
+Las directrices de la COPUOS (2010, consultadas) piden estimar y limitar la probabilidad de colisión (directriz 3), pero **en los pasajes leídos no dan una fórmula ni un umbral**; las directrices IADC Rev. 4 (consultadas) tampoco. El **ejemplo conductor** son dos eventos sintéticos: el caso A (miss 200 m, sigmas 150 × 100 m, radio 10 m) y el caso B (miss 50 m, sigmas 60 × 40 m, radio 20 m). Los umbrales operativos de ninguna agencia se consultaron.
 
 ## 6. Vocabulario
 
@@ -105,7 +105,7 @@ Plano de encuentro: `x` a lo largo del desfase, `y` perpendicular. Longitudes en
 | — | Umbrales operativos de `Pc` de agencias | — | decisión de maniobra | No consultada |
 | — | Eventos A y B | — | casos numéricos | Sintético |
 
-Límites: ni las directrices de la COPUOS ni las de la IADC dan la fórmula o un umbral de `Pc`; los métodos son estándar y no se consultaron en una fuente concreta.
+Límites: en los pasajes leídos de las directrices de la COPUOS y de la IADC no figura la fórmula ni un umbral de `Pc`; los métodos son estándar y no se consultaron en una fuente concreta.
 
 ## 12. Cómo ver los resultados
 
