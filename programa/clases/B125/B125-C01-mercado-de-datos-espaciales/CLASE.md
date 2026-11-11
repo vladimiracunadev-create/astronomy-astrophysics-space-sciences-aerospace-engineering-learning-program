@@ -1,7 +1,7 @@
 # B125-C01 — Mercado de datos espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [← Anterior: B124-C24 — CapEx y OpEx de una instalación extraterrestre](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c24) · [Siguiente: B125-C02 — Modelos de ingresos: suscripción y servicio →](../B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [← Anterior: B124-C24 — CapEx y OpEx de una instalación extraterrestre](../../B124/B124-C24-capex-y-opex-de-una-instalacion-extraterrestre/CLASE.md) · [Siguiente: B125-C02 — Modelos de ingresos: suscripción y servicio →](../B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Con un sustituto gratuito que cubre el 80 % del valor, el ingreso óptimo del da
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B124-C24 — CapEx y OpEx de una instalación extraterrestre](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c24) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [Siguiente: B125-C02 — Modelos de ingresos: suscripción y servicio →](../B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md)
+[← Anterior: B124-C24 — CapEx y OpEx de una instalación extraterrestre](../../B124/B124-C24-capex-y-opex-de-una-instalacion-extraterrestre/CLASE.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [Siguiente: B125-C02 — Modelos de ingresos: suscripción y servicio →](../B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md)
 <!-- /nav -->

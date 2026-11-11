@@ -1,7 +1,7 @@
 # B124-C24 — CapEx y OpEx de una instalación extraterrestre
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B124-C23 — Costos de transporte por kilogramo a superficie](../B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md) · [Siguiente: B125-C01 — Mercado de datos espaciales →](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md#b125-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B124-C23 — Costos de transporte por kilogramo a superficie](../B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md) · [Siguiente: B125-C01 — Mercado de datos espaciales →](../../B125/B125-C01-mercado-de-datos-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ La instalación sintética cuesta `999` Mum de capital y `39,2` Mum al año, pro
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B124-C23 — Costos de transporte por kilogramo a superficie](../B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B125-C01 — Mercado de datos espaciales →](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md#b125-c01)
+[← Anterior: B124-C23 — Costos de transporte por kilogramo a superficie](../B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B125-C01 — Mercado de datos espaciales →](../../B125/B125-C01-mercado-de-datos-espaciales/CLASE.md)
 <!-- /nav -->
