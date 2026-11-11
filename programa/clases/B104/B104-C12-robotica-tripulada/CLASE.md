@@ -1,7 +1,7 @@
 # B104-C12 — Robótica tripulada
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C11 — Trajes espaciales](../B104-C11-trajes-espaciales/CLASE.md) · [Siguiente: B104-C13 — Procedimientos de emergencia →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C11 — Trajes espaciales](../B104-C11-trajes-espaciales/CLASE.md) · [Siguiente: B104-C13 — Procedimientos de emergencia →](../B104-C13-procedimientos-de-emergencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Con retardo nulo, mover y esperar tarda 189 s y la autonomía supervisada 75 s; 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B104-C11 — Trajes espaciales](../B104-C11-trajes-espaciales/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B104-C13 — Procedimientos de emergencia →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c13)
+[← Anterior: B104-C11 — Trajes espaciales](../B104-C11-trajes-espaciales/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B104-C13 — Procedimientos de emergencia →](../B104-C13-procedimientos-de-emergencia/CLASE.md)
 <!-- /nav -->
