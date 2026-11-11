@@ -28,7 +28,10 @@
 
 - Ruptura: momento en que el lecho deja pasar el contaminante. Yoon–Nelson: modelo de la curva de ruptura.
 
-🎯 **Por qué importa (clase B106-C21):** Una cabina cerrada acumula trazas que no son CO₂ ni agua; hay que retirarlas con lechos y catalizadores que se saturan o dependen de la temperatura. La decisión central: ¿cuánto dura un lecho, a qué temperatura debe operar el catalizador y qué concentración queda en la cabina?
+💡 **Cómo se explica en la clase [B106-C21](../programa/clases/B106/B106-C21-depuracion-de-trazas-gaseosas-de-la-atmosfera-de-cabina/CLASE.md):**
+- Usar el modelo de Yoon–Nelson para el tiempo al 10 % y 90 % de ruptura.
+- El script [depuracion_de_trazas.py](depuracion_de_trazas.py) calcula el estacionario, la vida de un lecho (con Yoon–Nelson), la conversión de un catalizador frente a la temperatura y el tren combinado (comprueba el estacionario contra la integración y el 0,5 de la ruptura en `τ`).
+- 🎯 **Por qué importa:** Una cabina cerrada acumula trazas que no son CO₂ ni agua; hay que retirarlas con lechos y catalizadores que se saturan o dependen de la temperatura. La decisión central: ¿cuánto dura un lecho, a qué temperatura debe operar el catalizador y qué concentración queda en la cabina?
 
 📘 **Dónde se aprende** (1 clase): [B106-C21 · Depuración de trazas gaseosas de la atmósfera de cabina](../programa/clases/B106/B106-C21-depuracion-de-trazas-gaseosas-de-la-atmosfera-de-cabina/CLASE.md).
 
@@ -36,6 +39,9 @@
 
 - El efecto Yarkovsky es el empuje por la reemisión térmica anisótropa de un cuerpo que rota. YORP es el torque análogo que cambia la rotación.
 
-🎯 **Por qué importa (clase B58-C14):** Una deriva de decenas de kilómetros en un siglo puede decidir si un acercamiento ocurre. La decisión central: ¿cuánto se desplaza un asteroide por empuje térmico y por qué los cuerpos pequeños son más sensibles?
+💡 **Cómo se explica en la clase [B58-C14](../programa/clases/B58/B58-C14-efectos-yarkovsky-y-yorp/CLASE.md):**
+- La evidencia es la ficha de Yarkovsky y YORP del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de Yarkovsky y YORP*: comparación integrada–fórmula, tabla física y barrera.
+- 🎯 **Por qué importa:** Una deriva de decenas de kilómetros en un siglo puede decidir si un acercamiento ocurre. La decisión central: ¿cuánto se desplaza un asteroide por empuje térmico y por qué los cuerpos pequeños son más sensibles?
 
 📘 **Dónde se aprende** (1 clase): [B58-C14 · Efectos Yarkovsky y YORP](../programa/clases/B58/B58-C14-efectos-yarkovsky-y-yorp/CLASE.md).

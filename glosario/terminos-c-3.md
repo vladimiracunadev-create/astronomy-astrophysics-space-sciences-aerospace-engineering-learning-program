@@ -1,10 +1,941 @@
-# Términos · C (parte 3 de 3)
+# Términos · C (parte 3 de 4)
 
 [⬅️ Índice del glosario](README.md) · [siglas](siglas.md) · [símbolos](simbolos-y-unidades.md)
 
 [A](terminos-a.md) · [B](terminos-b.md) · **C** · [D](terminos-d.md) · [E](terminos-e.md) · [F](terminos-f.md) · [G](terminos-g.md) · [H](terminos-h.md) · [I](terminos-i.md) · [J](terminos-j.md) · [K](terminos-k.md) · [L](terminos-l.md) · [M](terminos-m.md) · [N](terminos-n.md) · [O](terminos-o.md) · [P](terminos-p.md) · [Q](terminos-q.md) · [R](terminos-r.md) · [S](terminos-s.md) · [T](terminos-t.md) · [U](terminos-u.md) · [V](terminos-v.md) · [W](terminos-w.md) · [X](terminos-x.md) · [Y](terminos-y.md) · [Z](terminos-z.md) · [0-9](terminos-0-9.md)
 
-Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
+Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3** · [4](terminos-c-4.md)
+
+### Conjunto de referencia
+
+- Un conjunto de referencia (o *dataset* oficial) es un dato publicado con procedencia, versión y marco que se toma como patrón.
+
+🎯 **Por qué importa (clase B23-C05):** Un modelo kepleriano de la Tierra pasó todas las pruebas de C01–C04, pero eso no dice nada sobre si la Tierra se mueve como una elipse perfecta. La pregunta motivadora es: ¿contra qué contrasto mi modelo, y qué diferencia estoy dispuesto a aceptar?
+
+📘 **Dónde se aprende** (1 clase): [B23-C05 · Validación con conjuntos oficiales](../programa/clases/B23/B23-C05-validacion-con-conjuntos-oficiales/CLASE.md).
+
+### Conjunto mínimo de corte
+
+- Un conjunto mínimo de corte no tiene subconjunto que también cause el tope.
+
+💡 **Cómo se explica en la clase [B88-C16](../programa/clases/B88/B88-C16-ingenieria-de-seguridad-funcional/CLASE.md):**
+- Los conjuntos mínimos de corte son `{C}`, `{A, B}` y `{D, E}`.
+- Conjuntos minimos de corte: [['C'], ['A', 'B'], ['D', 'E']]
+- 🎯 **Por qué importa:** Una nave tolera fallos si ninguno solo provoca la pérdida y las combinaciones peligrosas son improbables. La decisión central: ¿qué combinaciones mínimas de fallos causan la pérdida y cuál elemento merece más protección?
+
+📘 **Dónde se aprende** (1 clase): [B88-C16 · Ingeniería de seguridad funcional](../programa/clases/B88/B88-C16-ingenieria-de-seguridad-funcional/CLASE.md).
+
+### Conjunto ponderado
+
+- El conjunto ponderado aproxima la distribución del estado.
+
+🎯 **Por qué importa (clase B15-C18):** Un sensor mide la distancia oblicua a un objeto que pasa junto a él. Cuando el objeto está justo frente al sensor, un pequeño cambio de posición casi no cambia la distancia: la medida no distingue bien un lado del otro, y la incertidumbre de la posición deja de ser una campana.
+
+📘 **Dónde se aprende** (1 clase): [B15-C18 · Filtros de partículas iniciales](../programa/clases/B15/B15-C18-filtros-de-particulas-iniciales/CLASE.md).
+
+### Conmutación
+
+- Las pérdidas de conducción son `R I²`; las de conmutación son `½ V I (t_r + t_f) f`.
+
+💡 **Cómo se explica en la clase [B86-C08](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md):**
+- Por pérdidas: conducción, diodo, conmutación.
+- Simular la conmutación y comparar el rizado y la tensión media con las fórmulas.
+- 🎯 **Por qué importa:** Un convertidor que reduce la tensión con un interruptor y una bobina puede ser mucho más eficiente que un regulador lineal, pero introduce rizado, ruido y pérdidas de conmutación que hay que dimensionar. La decisión central: ¿qué ciclo de trabajo, bobina y condensador dan `5 V` desde `28 V` con rizado y eficiencia aceptables?
+
+📘 **Dónde se aprende** (1 clase): [B86-C08 · Convertidores DC-DC](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md).
+
+### Conmutación de Dicke
+
+- La conmutación de Dicke alterna fuente y referencia.
+
+💡 **Cómo se explica en la clase [B46-C06](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md):**
+- Explicar la penalización de la conmutación de Dicke.
+- Ejercicio 11 · transferencia. Transferencia. ¿Por qué se conmuta con Dicke?
+- 🎯 **Por qué importa:** La señal de una fuente astronómica es mucho menor que el ruido, y solo el promedio la hace visible. La decisión central: ¿cuánto tiempo y ancho de banda se necesitan para alcanzar una sensibilidad dada?
+
+📘 **Dónde se aprende** (1 clase): [B46-C06 · Ruido de sistema y radiometría](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md).
+
+### Conmutación en posición
+
+- La conmutación en posición ON/OFF.
+
+🎯 **Por qué importa (clase B46-C20):** Un proyecto viable cuadra objetivo, sensibilidad, tiempo y datos. La decisión central: ¿cuánto tiempo de observación pide el objetivo y con qué margen?
+
+📘 **Dónde se aprende** (1 clase): [B46-C20 · Proyecto de observación radioastronómica](../programa/clases/B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md).
+
+### Conmutación tipo Dicke
+
+- La conmutación tipo Dicke alterna cielo y referencia.
+
+🎯 **Por qué importa (clase B49-C08):** Integrar más tiempo no siempre mejora la medida: la deriva lo impide. La decisión central: ¿hasta qué tiempo de integración vale la pena, y cuándo hay que conmutar?
+
+📘 **Dónde se aprende** (1 clase): [B49-C08 · Estabilidad de ganancia de receptores y variaciones de ganancia](../programa/clases/B49/B49-C08-estabilidad-de-ganancia-de-receptores-y-variaciones-de-ganancia/CLASE.md).
+
+### Cono de emisión
+
+- El cono de emisión tiene semiángulo `1/γ`.
+
+💡 **Cómo se explica en la clase [B27-C11](../programa/clases/B27/B27-C11-chorros-relativistas/CLASE.md):**
+- Ejercicio 6. Semiángulo del cono de emisión para `γ = 30`.
+- 🎯 **Por qué importa:** Un chorro que se acerca puede parecer más rápido que la luz sin violar nada, y su brillo cambia en órdenes de magnitud según el ángulo. Sin estos efectos no se pueden comparar chorros ni inferir su velocidad.
+
+📘 **Dónde se aprende** (1 clase): [B27-C11 · Chorros relativistas](../programa/clases/B27/B27-C11-chorros-relativistas/CLASE.md).
+
+### Cono de luz
+
+- El cono de luz de un evento es el conjunto de eventos a intervalo nulo; separa el futuro, el pasado y el «en otra parte».
+
+💡 **Cómo se explica en la clase [B26-C04](../programa/clases/B26/B26-C04-espacio-tiempo-de-minkowski/CLASE.md):**
+- Un evento puede influir en otro solo si el segundo está en su cono futuro (o sobre él).
+- Cada punto del mapa tiene un cono de luz dibujado: dentro del cono hacia arriba está su futuro, dentro hacia abajo su pasado; fuera, sus eventos inalcanzables.
+- 🎯 **Por qué importa:** Comunicar con una sonda, sincronizar relojes de dos estaciones o decidir si un evento puede haber causado otro exige saber cuándo dos sucesos están conectados por una señal. El intervalo lo decide para todos los observadores.
+
+📘 **Dónde se aprende** (1 clase): [B26-C04 · Espacio-tiempo de Minkowski](../programa/clases/B26/B26-C04-espacio-tiempo-de-minkowski/CLASE.md).
+
+### Cono de orientación
+
+- El cono de orientación limita `|δ|`.
+
+💡 **Cómo se explica en la clase [B81-C06](../programa/clases/B81/B81-C06-restricciones-de-orientacion-del-empuje/CLASE.md):**
+- Aplicar un cono de orientación `|δ| ≤ δ_max`.
+- El script [orientacion.py](orientacion.py) calcula `E(ψ, δ)`, el óptimo analítico y por rejilla, el efecto de un cono de orientación y el tiempo de misión (comprueba que la rejilla coincida con el analítico a 1e-6 y `E(30°, 0) = 0,5`).
+- 🎯 **Por qué importa:** Una trayectoria óptima en el vacío no es necesariamente volable: el guiado debe respetar la orientación de los paneles. La decisión central: ¿cuánto conviene desviar el empuje de la dirección óptima para recuperar potencia, y dentro de qué cono?
+
+📘 **Dónde se aprende** (1 clase): [B81-C06 · Restricciones de orientación del empuje](../programa/clases/B81/B81-C06-restricciones-de-orientacion-del-empuje/CLASE.md).
+
+### Cono de pérdida
+
+- El cono de pérdida es el rango de `α_eq` con espejo bajo la atmósfera.
+
+💡 **Cómo se explica en la clase [B30-C16](../programa/clases/B30/B30-C16-cinturones-de-van-allen/CLASE.md):**
+- En `L = 4` la línea toca la atmósfera (100 km) en `λ = 59,74°`, donde `B = 53 585 nT`; el cono de pérdida es `α_LC = 5,47°`.
+- A --> LC["cono de pérdida en la atmósfera"]
+- 🎯 **Por qué importa:** Las partículas con ángulo de paso pequeño se pierden en la atmósfera; las demás quedan atrapadas y dañan satélites. La decisión central: ¿qué partículas quedan atrapadas y con qué periodo rebotan?
+
+📘 **Dónde se aprende** (1 clase): [B30-C16 · Cinturones de Van Allen](../programa/clases/B30/B30-C16-cinturones-de-van-allen/CLASE.md).
+
+### Conocimiento tradicional
+
+- El conocimiento tradicional es el saber transmitido por una comunidad.
+
+💡 **Cómo se explica en la clase [B02-C20](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md):**
+- La iniciativa UNESCO–IAU, lanzada en 2003 como actividad de prueba inicial, vincula ciencia y cultura para reconocer sitios relacionados con la astronomía, incluido el «conocimiento comunitario tradicional»; la IAU participa desde un acuerdo con la UNESCO en 2008.
+- 🎯 **Por qué importa:** Los sitios, instrumentos, archivos, saberes y hasta la oscuridad del cielo son patrimonio, y los telescopios, el turismo y las constelaciones de satélites pueden dañarlo. La pregunta motivadora es: ¿qué debo preguntar, a quién y antes de qué, cuando mi trabajo toca un cielo o un lugar que importa a otras personas?
+
+📘 **Dónde se aprende** (1 clase): [B02-C20 · Patrimonio astronómico y ética cultural](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md).
+
+### CONOPS
+
+- Un CONOPS describe fases, modos, actores y escenarios de operación.
+- ConOps: descripción de cómo se opera la misión.
+
+💡 **Cómo se explica en la clase [B83-C03](../programa/clases/B83/B83-C03-concepto-de-operaciones-conops/CLASE.md):**
+- El CONOPS de ejemplo tiene cuatro fases: lanzamiento y primeras órbitas (7 d), puesta en servicio (30 d), operaciones nominales (3 años) y fin de vida (90 d).
+- *Descripción textual:* las fases y modos del CONOPS definen la órbita y la estación; la simulación de visibilidad da pases, duraciones y huecos, de los que sale el tiempo de enlace diario; la cota analítica del pase cenital sirve de comprobación.
+- ⚠️ **Error frecuente:** Escribir un CONOPS sin números. Añade pases, huecos y latencias
+- 🎯 **Por qué importa:** Los requisitos de datos, energía y operaciones dependen de cuántas veces al día se puede hablar con el satélite y por cuánto tiempo. La decisión central: ¿cuánto contacto real ofrece la órbita y cómo se reparte en las fases de la misión?
+
+📘 **Dónde se aprende** (2 clases): [B83-C03 · Concepto de operaciones CONOPS](../programa/clases/B83/B83-C03-concepto-de-operaciones-conops/CLASE.md); [B96-C02 · Concepto de operaciones de misión](../programa/clases/B96/B96-C02-concepto-de-operaciones-de-mision/CLASE.md).
+
+### Consejo
+
+- El consejo es el órgano que dirige la empresa.
+
+💡 **Cómo se explica en la clase [B125-C03](../programa/clases/B125/B125-C03-gobierno-corporativo-de-una-empresa-espacial/CLASE.md):**
+- Consejo sintético con pesos `[3, 2, 1, 1, 1, 1, 1]` y cuota `6` de `10`.
+- Descripción larga: con 20 votos por acción, menos del 5 % de las acciones da la mitad del voto; en un consejo ponderado el poder real se aparta del peso nominal, y un peso dominante lo concentra todo.
+- 🎯 **Por qué importa:** Las decisiones de una empresa se estructuran en su gobierno y, en el espacio, el capital intensivo hace que quien controla la votación controle el rumbo de misiones de años; ninguna clase lo trata.
+
+📘 **Dónde se aprende** (1 clase): [B125-C03 · Gobierno corporativo de una empresa espacial](../programa/clases/B125/B125-C03-gobierno-corporativo-de-una-empresa-espacial/CLASE.md).
+
+### Consenso
+
+- El consenso exige que nadie bloquee.
+
+💡 **Cómo se explica en la clase [B119-C06](../programa/clases/B119/B119-C06-organismos-unoosa-y-copuos/CLASE.md):**
+- El detalle del reglamento y las decisiones por consenso no se consultaron.
+- Para consenso con probabilidad al menos 0,5: `p ≤ 0.03778` con 18 miembros y `p ≤ 0.00691` con 100.
+- ⚠️ **Error frecuente:** Creer que consenso es unanimidad de votos. Se corrige con el vocabulario.
+- 🎯 **Por qué importa:** Quien estudia el derecho espacial necesita saber dónde se negocia y cómo se decide; ninguna clase anterior trata los organismos. La decisión central: ¿cómo cambia la probabilidad de bloqueo cuando crece el número de miembros que deben consentir?
+
+📘 **Dónde se aprende** (1 clase): [B119-C06 · Organismos UNOOSA y COPUOS](../programa/clases/B119/B119-C06-organismos-unoosa-y-copuos/CLASE.md).
+
+### Consentimiento libre, previo e informado
+
+- El consentimiento libre, previo e informado es el derecho de un pueblo a decidir, antes de un proyecto y con información suficiente, si acepta que afecte su territorio o su conocimiento (S3).
+- El consentimiento libre, previo e informado es la aceptación sin coacción, antes de empezar y con información suficiente.
+- El consentimiento libre, previo e informado (CLPI) exige obtener el acuerdo de un pueblo antes de un proyecto que afecte sus tierras o territorios, sin coerción y con información suficiente (S2).
+
+💡 **Cómo se explica en la clase [B02-C06](../programa/clases/B02/B02-C06-astronomia-de-pueblos-originarios-de-chile/CLASE.md):**
+- Reconocer las preguntas de consentimiento libre, previo e informado.
+- 🎯 **Por qué importa:** Chile alberga algunos de los cielos más oscuros del mundo y los más grandes observatorios, y también pueblos que miraron esos cielos durante milenios. La pregunta motivadora es: ¿cómo hablar de saberes celestes de pueblos vivos sin generalizar, sin apropiarse y sin presentar como establecido lo que no hemos podido verificar?
+
+📘 **Dónde se aprende** (3 clases): [B02-C06 · Astronomía de pueblos originarios de Chile](../programa/clases/B02/B02-C06-astronomia-de-pueblos-originarios-de-chile/CLASE.md); [B02-C20 · Patrimonio astronómico y ética cultural](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md); [B133-C03 · Colaboración con comunidades en investigación y educación](../programa/clases/B133/B133-C03-colaboracion-con-comunidades-en-investigacion-y-educacion/CLASE.md).
+
+### Conserva
+
+- La energía mecánica `E = E_c + E_p` se conserva si solo actúan fuerzas conservativas, o si las demás no hacen trabajo.
+- Un sobrevuelo lo conserva (en el límite de cónicas empalmadas con planeta en órbita circular).
+
+💡 **Cómo se explica en la clase [B05-C07](../programa/clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md):**
+- Paso 4 · Sentido físico. Con `g` constante saldrían 1275 km: la conservación con `E_p = −GM/r` es más fiel.
+- En esta clase calcularás ambos valores con conservación de energía y los compararás con los publicados.
+- ⚠️ **Error frecuente:** Aplicar conservación con fuerzas no conservativas. Ejercicios 8 y 11.
+- 🎯 **Por qué importa:** Si lanzas algo hacia arriba, ¿hasta dónde sube? ¿Con qué rapidez hay que lanzarlo para que no vuelva?
+
+📘 **Dónde se aprende** (2 clases): [B05-C07 · Conservación de energía mecánica](../programa/clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md); [B75-C08 · Secuencias múltiples de sobrevuelos](../programa/clases/B75/B75-C08-secuencias-multiples-de-sobrevuelos/CLASE.md).
+
+### Conserva el volumen
+
+- Es reversible y conserva el volumen, pero no exactamente la energía: su error de energía `ΔH` escala como `ε²`.
+
+🎯 **Por qué importa (clase B19-C03):** Una posterior bidimensional con dos parámetros correlacionados al 95 % tiene forma de un óvalo muy alargado y estrecho. Un Metropolis de paso aleatorio, para no salirse del óvalo, da pasos minúsculos y recorre la distribución a paso de tortuga.
+
+📘 **Dónde se aprende** (1 clase): [B19-C03 · Hamiltonian Monte Carlo y NUTS](../programa/clases/B19/B19-C03-hamiltonian-monte-carlo-y-nuts/CLASE.md).
+
+### Conservación
+
+- La conservación es `∇_a T^ab = 0`.
+- La conservación de la corriente.
+- La conservación exige que cada columna de `M` sume cero.
+
+💡 **Cómo se explica en la clase [B33-C07](../programa/clases/B33/B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md):**
+- Ejercicio 12. Integrador. Elabora tu *ficha de la red eléctrica*: matriz, corrientes y conservación.
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de la red eléctrica*: matriz, corrientes y conservación.
+- ⚠️ **Error frecuente:** Ignorar la conservación. Se corrige con 8.2.
+- 🎯 **Por qué importa:** Una subestación con una corriente de tierra alta puede saturar un transformador. La decisión central: ¿cómo se reparte la corriente inducida entre las subestaciones?
+
+📘 **Dónde se aprende** (3 clases): [B33-C07 · Impactos del clima espacial en redes eléctricas](../programa/clases/B33/B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md); [B39-C04 · Tensor de energía-momento y fuentes de curvatura](../programa/clases/B39/B39-C04-tensor-de-energia-momento-y-fuentes-de-curvatura/CLASE.md); [B55-C20 · Modelo simplificado de red astroquímica](../programa/clases/B55/B55-C20-modelo-simplificado-de-red-astroquimica/CLASE.md).
+
+### Conservación de la masa
+
+- La conservación de la masa limita el modelo.
+
+🎯 **Por qué importa (clase B118-C09):** La directriz 5 de la COPUOS dice que la mayor parte de los desechos catalogados proviene de fragmentaciones; entender cuántos fragmentos produce un evento y de qué tamaño es la base de los escenarios futuros. La decisión central: ¿cuántos fragmentos relevantes genera un evento y cuándo es «catastrófico»?
+
+📘 **Dónde se aprende** (1 clase): [B118-C09 · Generación de desechos](../programa/clases/B118/B118-C09-generacion-de-desechos/CLASE.md).
+
+### Conservación de los átomos
+
+- La conservación de los átomos y de la carga son las condiciones que exigimos a una ecuación balanceada.
+
+💡 **Cómo se explica en la clase [B06-C08](../programa/clases/B06/B06-C08-reacciones-y-conservacion-de-masa/CLASE.md):**
+- La analogía de las piezas muestra que se conserva el número de átomos; su límite es que no explica la energía: en una reacción química se libera o absorbe, aunque la masa casi no cambie.
+- 🎯 **Por qué importa:** Una vela y el Sol liberan energía, pero lo hacen de maneras radicalmente distintas. En la vela, los átomos de carbono e hidrógeno se reordenan con el oxígeno y todos siguen ahí al terminar.
+
+📘 **Dónde se aprende** (1 clase): [B06-C08 · Reacciones y conservación de masa](../programa/clases/B06/B06-C08-reacciones-y-conservacion-de-masa/CLASE.md).
+
+### Conservación del flujo
+
+- La conservación del flujo relaciona campo y sección.
+
+💡 **Cómo se explica en la clase [B30-C05](../programa/clases/B30/B30-C05-campos-magneticos-solares/CLASE.md):**
+- *Descripción textual:* la densidad, la temperatura y el campo dan las presiones y el beta; el campo y la densidad dan la velocidad de Alfvén; el campo se rige además por la conservación del flujo.
+- Aplicar la conservación del flujo `B₁A₁ = B₂A₂`.
+- 🎯 **Por qué importa:** Que el gas domine al campo en la fotosfera y el campo al gas en la corona explica por qué la corona se estructura en lazos y por qué las erupciones liberan energía magnética. La decisión central: ¿en qué capa manda el campo y cuánta energía guarda?
+
+📘 **Dónde se aprende** (2 clases): [B30-C05 · Campos magnéticos solares](../programa/clases/B30/B30-C05-campos-magneticos-solares/CLASE.md); [B34-C03 · Bucles magnéticos coronales](../programa/clases/B34/B34-C03-bucles-magneticos-coronales/CLASE.md).
+
+### Conservación del momento
+
+- Impulso: `F·t`. Conservación del momento: la suma `Σ m v` no cambia sin fuerzas externas.
+
+💡 **Cómo se explica en la clase [B106-C16](../programa/clases/B106/B106-C16-ergonomia-en-microgravedad/CLASE.md):**
+- Aplicar la conservación del momento lineal a un empujón entre astronauta y carga.
+- Comprobar la conservación del momento total.
+- 🎯 **Por qué importa:** Sin peso ni fricción, toda fuerza tiene una reacción que mueve al operario o a la carga; un diseño de herramientas y de superficies que lo ignore produce maniobras inseguras. La decisión central: ¿qué sujeciones y qué límites de par o de empuje evitan que la reacción mueva al astronauta fuera de la tarea?
+
+📘 **Dónde se aprende** (1 clase): [B106-C16 · Ergonomía en microgravedad](../programa/clases/B106/B106-C16-ergonomia-en-microgravedad/CLASE.md).
+
+### Conservador
+
+- Optimista significa covarianza menor que el error real; conservador, mayor.
+
+💡 **Cómo se explica en la clase [B74-C23](../programa/clases/B74/B74-C23-consistencia-de-filtros-innovaciones-y-pruebas-nees-nis/CLASE.md):**
+- El conservador (`q` diez veces mayor) tiene NEES `1,132`, por debajo del límite inferior, y NIS `0,865`.
+- L --> V["consistente / optimista / conservador"]
+- 🎯 **Por qué importa:** Un filtro optimista presenta covarianzas pequeñas y errores grandes, y no avisa. La decisión central: ¿cómo sé, con una prueba estadística, si mi filtro es consistente y qué estadístico me avisa de qué fallo?
+
+📘 **Dónde se aprende** (1 clase): [B74-C23 · Consistencia de filtros: innovaciones y pruebas NEES/NIS](../programa/clases/B74/B74-C23-consistencia-de-filtros-innovaciones-y-pruebas-nees-nis/CLASE.md).
+
+### Conservan
+
+- La energía específica (por unidad de masa) es `E = v²/2 − GM/r` y el momento angular específico, `L = x·vy − y·vx`; ambos se conservan en un campo central.
+
+💡 **Cómo se explica en la clase [B07-C20](../programa/clases/B07/B07-C20-primer-simulador-de-un-movimiento-celeste/CLASE.md):**
+- (3) Runge-Kutta de orden 4 y los métodos con paso adaptativo: más precisión por paso, pero tampoco conservan la energía exactamente; se estudian en B11 y no se consultaron.
+- Ejercicio 8. ¿Qué dos cantidades se conservan en un campo central y cómo se comprueba con el simulador?
+- 🎯 **Por qué importa:** Un simulador es la forma de explorar un fenómeno cuya solución no tienes a mano, y de comprobar que entiendes uno cuya solución sí conoces. Aquí conoces la respuesta (una órbita circular se repite con un período dado por una fórmula), así que puedes verificar el simulador antes de confiar en él para casos que no conoces.
+
+📘 **Dónde se aprende** (1 clase): [B07-C20 · Primer simulador de un movimiento celeste](../programa/clases/B07/B07-C20-primer-simulador-de-un-movimiento-celeste/CLASE.md).
+
+### Conservativa
+
+- Una fuerza conservativa es aquella cuyo trabajo no depende del camino, solo de los extremos (la gravedad lo es).
+
+🎯 **Por qué importa (clase B05-C06):** Poner 1000 kg en órbita cuesta mucho más que subirlos 400 km. La pregunta motivadora es: ¿cuánta energía hay que entregar para cambiar el estado de un cuerpo, y en qué se convierte?
+
+📘 **Dónde se aprende** (1 clase): [B05-C06 · Trabajo y energía](../programa/clases/B05/B05-C06-trabajo-y-energia/CLASE.md).
+
+### Conservativo
+
+- Un campo es conservativo si `F = ∇f`; entonces `∫_C F·dr = f(B) − f(A)` (ec. 1.6.42) y `∇×F = 0`.
+
+💡 **Cómo se explica en la clase [B09-C19](../programa/clases/B09/B09-C19-calculo-vectorial-introductorio/CLASE.md):**
+- Para la gravedad, el rotacional es cero (laboratorio: `< 10⁻¹⁵ s⁻²`): el campo es conservativo.
+- Por potencial cuando el campo es conservativo: basta evaluar en los extremos.
+- 🎯 **Por qué importa:** La gravedad no tiene fuentes fuera de la masa que la produce, y eso permite calcular la gravedad de un planeta esférico sin sumar cada átomo: basta medir el flujo. La rotación de la Tierra produce un campo de velocidades con circulación no nula, y esa circulación mide cuánto «gira» el campo.
+
+📘 **Dónde se aprende** (1 clase): [B09-C19 · Cálculo vectorial introductorio](../programa/clases/B09/B09-C19-calculo-vectorial-introductorio/CLASE.md).
+
+### Consistencia
+
+- La consistencia es que el error de truncamiento tienda a cero; la estabilidad, que los errores no crezcan.
+- La consistencia significa que `P_declarada − P_real` es semidefinida positiva.
+- La consistencia (protocolo de Wald) exige que, al degradar la imagen fusionada a la resolución original, se recupere la multiespectral.
+
+💡 **Cómo se explica en la clase [B15-C24](../programa/clases/B15/B15-C24-fusion-de-imagenes-de-distintos-sensores/CLASE.md):**
+- La consistencia garantiza que la fusión no altera los colores promediados a la resolución original;
+- Para el NIR, cuyo detalle es independiente de la pancromática, la fusión empeora el error de 0,0249 a 0,0341: el detalle inyectado es falso, aunque la consistencia sea perfecta.
+- ⚠️ **Error frecuente:** Creer que la consistencia garantiza que el detalle es correcto. Se corrige con el ejercicio 6.
+- 🎯 **Por qué importa:** Un mapa de cobertura exige distinguir objetos pequeños (caminos, parcelas) y también su firma espectral (si son vegetación o suelo). Ninguna imagen entrega ambas cosas a la vez.
+
+📘 **Dónde se aprende** (3 clases): [B11-C14 · Diferencias finitas](../programa/clases/B11/B11-C14-diferencias-finitas/CLASE.md); [B15-C24 · Fusión de imágenes de distintos sensores](../programa/clases/B15/B15-C24-fusion-de-imagenes-de-distintos-sensores/CLASE.md); [B80-C08 · Filtrado distribuido y descentralizado](../programa/clases/B80/B80-C08-filtrado-distribuido-y-descentralizado/CLASE.md).
+
+### Consistencia física
+
+- La consistencia física de un modelo es que sus dependencias respeten leyes o restricciones conocidas (exponentes, monotonía, signos, unidades).
+
+💡 **Cómo se explica en la clase [B17-C08](../programa/clases/B17/B17-C08-interpretabilidad-con-consistencia-fisica/CLASE.md):**
+- *Descripción textual:* un modelo entrenado se somete a dos revisiones paralelas: la importancia por permutación (de qué depende, con atención a variables espurias y duplicadas) y la consistencia física (exponentes, monotonía y extrapolación).
+- Las pruebas de consistencia física (exponentes, signos, monotonía, extrapolación) son las más cercanas a lo que un especialista exige, y se escriben como tests automáticos.
+- 🎯 **Por qué importa:** Dos modelos pueden tener el mismo error en validación y haber aprendido cosas muy distintas: uno la ley física, otro un atajo que funciona en el rango visto. Si solo miras la métrica, no los distingues, y el atajo falla al primer dato fuera de rango.
+
+📘 **Dónde se aprende** (1 clase): [B17-C08 · Interpretabilidad con consistencia física](../programa/clases/B17/B17-C08-interpretabilidad-con-consistencia-fisica/CLASE.md).
+
+### Consistente
+
+- Un estimador es consistente si converge al valor verdadero al crecer `n`.
+- Un filtro es consistente si su promedio está dentro de los límites de la `χ²`.
+
+💡 **Cómo se explica en la clase [B74-C23](../programa/clases/B74/B74-C23-consistencia-de-filtros-innovaciones-y-pruebas-nees-nis/CLASE.md):**
+- L --> V["consistente / optimista / conservador"]
+- *Descripción textual:* el filtro produce errores con covarianza e innovaciones con su covarianza; los promedios de NEES y NIS sobre las simulaciones se comparan con los límites de la χ² para decidir si el filtro es consistente.
+- 🎯 **Por qué importa:** Un filtro optimista presenta covarianzas pequeñas y errores grandes, y no avisa. La decisión central: ¿cómo sé, con una prueba estadística, si mi filtro es consistente y qué estadístico me avisa de qué fallo?
+
+📘 **Dónde se aprende** (2 clases): [B12-C07 · Estimación de parámetros](../programa/clases/B12/B12-C07-estimacion-de-parametros/CLASE.md); [B74-C23 · Consistencia de filtros: innovaciones y pruebas NEES/NIS](../programa/clases/B74/B74-C23-consistencia-de-filtros-innovaciones-y-pruebas-nees-nis/CLASE.md).
+
+### Constante
+
+- Una constante es un valor que no cambia: exacta por definición (como `c = 299 792 458 m/s` en el SI, S4), medida (como `G`, con incertidumbre) o nominal (valor de conversión fijado por acuerdo, como el `(GM)☉` de la IAU).
+- Una constante de `astropy.constants` es una cantidad con unidad, incertidumbre y referencia (S3).
+- Para `ω` constante, la solución exacta es `q(t) = (cos(|ω| t/2), sin(|ω| t/2) ω/|ω|)` partiendo de la identidad.
+- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
+
+💡 **Cómo se explica en la clase [B03-C12](../programa/clases/B03/B03-C12-variables-y-constantes-cientificas/CLASE.md):**
+- La constante de gravitación `G` no está fijada por el SI; se mide en laboratorio.
+- Un símbolo se pregunta si cambia en el problema (variable); si no, si es propio del caso (parámetro) o universal (constante); y la constante universal se clasifica en exacta, medida o nominal.
+- ⚠️ **Error frecuente:** Dar incertidumbre a una constante exacta. Ejercicio 7.
+- 🎯 **Por qué importa:** La masa del Sol se conoce con unas cinco cifras. Sin embargo, el producto `GM` del Sol se conoce con diez, y la constante `G` por sí sola con apenas cinco.
+
+📘 **Dónde se aprende** (4 clases): [B03-C12 · Variables y constantes científicas](../programa/clases/B03/B03-C12-variables-y-constantes-cientificas/CLASE.md); [B07-C11 · Gestión de unidades en programas](../programa/clases/B07/B07-C11-gestion-de-unidades-en-programas/CLASE.md); [B10-C20 · Cinemática de orientación satelital](../programa/clases/B10/B10-C20-cinematica-de-orientacion-satelital/CLASE.md); [B45-C13 · Temperatura y espectro de cuerpo negro](../programa/clases/B45/B45-C13-temperatura-y-espectro-de-cuerpo-negro/CLASE.md).
+
+### Constante cónica
+
+- La constante cónica `k` (0 esfera, −1 paraboloide).
+
+🎯 **Por qué importa (clase B41-C04):** El espejo primario de un telescopio reflector es una superficie cónica. La decisión central: ¿por qué se usa un paraboloide y no una esfera?
+
+📘 **Dónde se aprende** (2 clases): [B41-C04 · Espejos esféricos y parabólicos](../programa/clases/B41/B41-C04-espejos-esfericos-y-parabolicos/CLASE.md); [B41-C17 · Telescopios Cassegrain y derivados](../programa/clases/B41/B41-C17-telescopios-cassegrain-y-derivados/CLASE.md).
+
+### Constante cosmológica
+
+- La constante cosmológica `Λ` es una densidad de energía constante.
+
+💡 **Cómo se explica en la clase [B26-C13](../programa/clases/B26/B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md):**
+- La materia frena la expansión como la gravedad frena una pelota; la constante cosmológica añade un empuje que no se diluye.
+- *Descripción textual:* la tasa de expansión suma la materia, que decae como `a⁻³`, y la constante cosmológica; integrando `1/(aH)` se obtiene la edad, y el signo de `ä` marca el paso de frenar a acelerar.
+- 🎯 **Por qué importa:** La edad del universo, la distancia a una galaxia y el calendario de su historia salen de la ecuación de Friedmann. Con ella se interpreta cualquier parámetro cosmológico.
+
+📘 **Dónde se aprende** (1 clase): [B26-C13 · Modelo FLRW — Relatividad y cosmología](../programa/clases/B26/B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md).
+
+### Constante de Avogadro
+
+- Su unidad es el mol: un mol contiene exactamente 6,022 140 76 × 10²³ entidades elementales, número que es el valor fijado de la constante de Avogadro `N_A` (en mol⁻¹), según la definición vigente del SI (S2).
+
+💡 **Cómo se explica en la clase [B06-C06](../programa/clases/B06/B06-C06-cantidad-de-sustancia-y-mol/CLASE.md):**
+- De masa a cantidad se divide entre la masa molar; de cantidad a número de partículas se multiplica por la constante de Avogadro; las flechas inversas deshacen cada paso.
+- Enunciar la definición del mol y el valor de la constante de Avogadro.
+- 🎯 **Por qué importa:** La misión OSIRIS-REx trajo a la Tierra 121,6 g de material del asteroide Bennu. Los análisis de laboratorio de una parte de esa muestra encontraron entre 4,5 y 4,7 % de carbono y entre 0,23 y 0,25 % de nitrógeno en masa (S1).
+
+📘 **Dónde se aprende** (1 clase): [B06-C06 · Cantidad de sustancia y mol](../programa/clases/B06/B06-C06-cantidad-de-sustancia-y-mol/CLASE.md).
+
+### Constante de Boltzmann
+
+- El SI fija la constante de Boltzmann `k_B = 1,380 649 × 10⁻²³ J/K` (S3), que define el kelvin.
+
+🎯 **Por qué importa (clase B05-C13):** Un satélite recibe luz solar de un lado y emite calor al espacio por el otro, y la electrónica solo trabaja en un rango de temperaturas. La pregunta motivadora es: ¿qué es la temperatura, cómo se relaciona con la energía de las partículas y qué determina la temperatura de equilibrio de un cuerpo en el espacio?
+
+📘 **Dónde se aprende** (1 clase): [B05-C13 · Temperatura y energía térmica](../programa/clases/B05/B05-C13-temperatura-y-energia-termica/CLASE.md).
+
+### Constante de consumo
+
+- La constante de consumo `k` es la tasa de consumo de primer orden.
+
+🎯 **Por qué importa (clase B64-C06):** Una película de células y matriz crea su propio microambiente. La pregunta motivadora: ¿hasta qué profundidad llega un nutriente en un biofilm y qué sucede con las células que quedan más adentro?
+
+📘 **Dónde se aprende** (1 clase): [B64-C06 · Biofilms en ambientes extremos](../programa/clases/B64/B64-C06-biofilms-en-ambientes-extremos/CLASE.md).
+
+### Constante de decaimiento
+
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+🎯 **Por qué importa (clase B31-C08):** Fechar rocas, medir la edad de objetos y modelar la nucleosíntesis usan estas leyes. La decisión central: ¿cómo se estima una constante de decaimiento y cómo evoluciona una cadena?
+
+📘 **Dónde se aprende** (1 clase): [B31-C08 · Decaimiento radiactivo](../programa/clases/B31/B31-C08-decaimiento-radiactivo/CLASE.md).
+
+### Constante de degradación
+
+- La constante de degradación `k` (1/d) fija la velocidad de pérdida.
+
+💡 **Cómo se explica en la clase [B100-C04](../programa/clases/B100/B100-C04-almacenamiento-remoto-y-depositos-de-suministros/CLASE.md):**
+- *Descripción textual:* la temperatura fija la constante de degradación y esta la vida útil; la fuga térmica fija la evaporación; ambas determinan cuánto hay que sobredimensionar.
+- Límite: se supone un único mecanismo de degradación con una `Ea` constante; los materiales reales tienen varios y distintos.
+- 🎯 **Por qué importa:** Guardar más cantidad para cubrir una ventana larga solo sirve si lo guardado sigue siendo útil al final. La decisión central: ¿cuánto sobredimensionar un depósito para que, tras la espera, quede la cantidad útil necesaria, y qué temperatura de almacenamiento reduce esa pérdida?
+
+📘 **Dónde se aprende** (1 clase): [B100-C04 · Almacenamiento remoto y depósitos de suministros](../programa/clases/B100/B100-C04-almacenamiento-remoto-y-depositos-de-suministros/CLASE.md).
+
+### Constante de desintegración
+
+- La constante de desintegración `λ = 1/τ`.
+
+🎯 **Por qué importa (clase B27-C14):** La luminosidad tardía de estas supernovas sigue la semivida del cobalto-56, y por eso se usan para medir distancias. La decisión central: ¿cuántos núcleos de cada especie quedan en cada instante y qué luminosidad producen?
+
+📘 **Dónde se aprende** (1 clase): [B27-C14 · Supernovas termonucleares](../programa/clases/B27/B27-C14-supernovas-termonucleares/CLASE.md).
+
+### Constante de despresurización
+
+- La constante de despresurización `τ = V/(C_d A √(γRT) · 0,5787)`.
+
+🎯 **Por qué importa (clase B104-C13):** Un procedimiento sirve si se puede ejecutar dentro del tiempo disponible. La decisión central: ¿para qué tamaños de orificio alcanza un tiempo de respuesta de 15 minutos y a partir de cuál ya no?
+
+📘 **Dónde se aprende** (1 clase): [B104-C13 · Procedimientos de emergencia](../programa/clases/B104/B104-C13-procedimientos-de-emergencia/CLASE.md).
+
+### Constante de equilibrio
+
+- La constante de equilibrio `K` es el cociente entre productos y reactivos elevados a sus coeficientes, medido en el equilibrio.
+- La constante de equilibrio `K = exp(−ΔG°/RT)`.
+
+💡 **Cómo se explica en la clase [B06-C13](../programa/clases/B06/B06-C13-equilibrio-quimico/CLASE.md):**
+- Abajo, una decisión: si el cociente de reacción es menor que la constante, el sistema avanza hacia productos; si es mayor, hacia reactivos; si es igual, está en equilibrio.
+- Escribir la constante de equilibrio de una reacción, incluyendo sólidos y gases.
+- 🎯 **Por qué importa:** Según el cálculo de esta clase, el CO₂ de Marte puede condensarse como hielo o volver al gas según la temperatura. Es un equilibrio entre CO₂ sólido y gas: `CO₂(s) ⇌ CO₂(g)`.
+
+📘 **Dónde se aprende** (2 clases): [B06-C13 · Equilibrio químico](../programa/clases/B06/B06-C13-equilibrio-quimico/CLASE.md); [B56-C07 · Energía química para la vida](../programa/clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md).
+
+### Constante de estructura
+
+- La constante de estructura `Cn²` mide la intensidad de la turbulencia, en m^(−2/3).
+
+🎯 **Por qué importa (clase B92-C04):** Un enlace espacial es perfecto hasta que llega a las últimas decenas de kilómetros. La decisión central: ¿cuánto margen exige la turbulencia y cuántas estaciones exige la nubosidad para cumplir una disponibilidad?
+
+📘 **Dónde se aprende** (1 clase): [B92-C04 · Atmósfera y nubes en enlaces ópticos con la Tierra](../programa/clases/B92/B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md).
+
+### Constante de estructura fina
+
+- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
+
+💡 **Cómo se explica en la clase [B31-C09](../programa/clases/B31/B31-C09-interacciones-fundamentales/CLASE.md):**
+- La constante de estructura fina calculada es `7,2973525643 × 10⁻³` (`1/α = 137,036`), igual a la de NIST (S1).
+- 🎯 **Por qué importa:** Saber qué interacción domina en cada escala explica por qué los núcleos, los átomos y las estrellas son como son. La decisión central: ¿cuánto más fuerte es la fuerza eléctrica que la gravitatoria y qué fija el alcance de una fuerza?
+
+📘 **Dónde se aprende** (1 clase): [B31-C09 · Interacciones fundamentales](../programa/clases/B31/B31-C09-interacciones-fundamentales/CLASE.md).
+
+### Constante de fuga
+
+- La constante de fuga `τ` hace `p = p₀ e^(−t/τ)`.
+
+💡 **Cómo se explica en la clase [B104-C05](../programa/clases/B104/B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md):**
+- Con una fuga de constante de tiempo de 72 h, la presión baja de 101,3 a 70 kPa en 26,6 h.
+- Modelar una fuga lineal con una constante de tiempo y calcular el tiempo hasta un umbral.
+- 🎯 **Por qué importa:** Lo que importa para respirar no es la presión total sino la presión parcial de cada gas. La decisión central: ¿cuánto tiempo hay para actuar si la cabina pierde presión o si se acumula CO₂?
+
+📘 **Dónde se aprende** (1 clase): [B104-C05 · Sistemas de vehículos tripulados](../programa/clases/B104/B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md).
+
+### Constante de gravitación
+
+- La constante de gravitación `G` tiene un valor medido (con incertidumbre) y unidades `m³ kg⁻¹ s⁻²`.
+
+💡 **Cómo se explica en la clase [B05-C10](../programa/clases/B05/B05-C10-gravitacion-universal/CLASE.md):**
+- Enunciar la ley de gravitación `F = G M m / r²` con su constante y unidades.
+- 🎯 **Por qué importa:** La misma fuerza que hace caer una manzana mantiene a la Luna en órbita: esa idea unificó el cielo y la Tierra. La pregunta motivadora es: ¿cómo comprobar con números que la gravedad de la superficie y la órbita de la Luna son la misma fuerza?
+
+📖 **Explicado a fondo:** [Constante de gravitación (G) y parámetro gravitacional (GM)](esencial/esencial-a-c.md#constante-de-gravitación-g-y-parámetro-gravitacional-gm) (intuición, fórmula, ejemplo numérico y errores frecuentes).
+
+📘 **Dónde se aprende** (2 clases): [B05-C10 · Gravitación universal](../programa/clases/B05/B05-C10-gravitacion-universal/CLASE.md); [B71-C02 · Ley de gravitación universal](../programa/clases/B71/B71-C02-ley-de-gravitacion-universal/CLASE.md).
+
+### Constante de Hubble
+
+- La constante de Hubble `H₀` es la razón entre la velocidad de recesión aparente y la distancia, hoy.
+- La constante de Hubble `H₀` se da en `km s⁻¹ Mpc⁻¹`.
+
+🎯 **Por qué importa (clase B01-C16):** En C01 «medimos» una distancia de 43 Mpc con `H₀ = 70`. Pero ese 70 no es un dato único: Planck 2018 da 67,4 ± 0,5 y SH0ES da 73,04 ± 1,04, ambos en km/s/Mpc (S1, S2).
+
+📘 **Dónde se aprende** (2 clases): [B01-C16 · Expansión del universo como observación](../programa/clases/B01/B01-C16-expansion-del-universo-como-observacion/CLASE.md); [B26-C11 · Expansión cósmica y ley de Hubble-Lemaître](../programa/clases/B26/B26-C11-expansion-cosmica-y-ley-de-hubble-lemaitre/CLASE.md).
+
+### Constante de integración
+
+- La constante de integración `C` es un número arbitrario: derivar lo elimina.
+
+💡 **Cómo se explica en la clase [B09-C08](../programa/clases/B09/B09-C08-integrales-indefinidas/CLASE.md):**
+- En física, cada integración sucesiva trae su constante: la velocidad inicial y la posición inicial.
+- El script [antiderivadas_y_potencial.py](antiderivadas_y_potencial.py) calcula antiderivadas de polinomios generalizados por la regla de la potencia, las comprueba derivando, integra el perfil de aceleración, muestra que dos antiderivadas difieren en una constante y evalúa el potencial terrestre y el sesgo del acelerómetro.
+- ⚠️ **Error frecuente:** Olvidar la constante de integración. Se corrige con los ejercicios 1 y 7.
+- 🎯 **Por qué importa:** Un acelerómetro mide aceleración; lo que se necesita es velocidad y posición. Una gravedad `g(r)` se conoce; lo que decide si una sonda escapa es la energía, que sale de «deshacer» esa derivada.
+
+📘 **Dónde se aprende** (1 clase): [B09-C08 · Integrales indefinidas](../programa/clases/B09/B09-C08-integrales-indefinidas/CLASE.md).
+
+### Constante de Jacobi
+
+- La constante de Jacobi es `C = 2Ω − v²` con `Ω = (x²+y²)/2 + (1−μ)/r₁ + μ/r₂`.
+- La constante de Jacobi es `C = 2Ω − v²`, con `2Ω = x² + y² + 2(1−μ)/r₁ + 2μ/r₂`.
+- La constante de Jacobi `C = 2Ω − v²` en el marco sinódico.
+
+💡 **Cómo se explica en la clase [B73-C01](../programa/clases/B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md):**
+- Una masa de prueba que parte de `(0,85, 0)` con velocidad `(0, −0,40)` en el marco sinódico tiene constante de Jacobi `C = 3,030382` y tras `20` unidades de tiempo (`86,97` d) está a `108018` km de la Luna, con una deriva de `C` de `6,94e-09`.
+- Calcular la constante de Jacobi y medir su deriva.
+- 🎯 **Por qué importa:** Con tres cuerpos no hay solución cerrada, pero sí una cantidad conservada que organiza todo lo demás: puntos de equilibrio, regiones prohibidas y transferencias de bajo costo. La decisión central: ¿cuándo basta el modelo de tres cuerpos restringido, y cómo sé que mi integración no inventa dinámica?
+
+📘 **Dónde se aprende** (3 clases): [B73-C01 · Problema restringido de tres cuerpos](../programa/clases/B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md); [B73-C07 · Constante de Jacobi](../programa/clases/B73/B73-C07-constante-de-jacobi/CLASE.md); [B76-C08 · Transferencias de baja energía](../programa/clases/B76/B76-C08-transferencias-de-baja-energia/CLASE.md).
+
+### Constante de Lipschitz
+
+- La constante de Lipschitz `L` mide cuánto puede cambiar `f` cuando cambia `y`: `|f(t, y₁) − f(t, y₂)| ≤ L |y₁ − y₂|`.
+
+💡 **Cómo se explica en la clase [B11-C02](../programa/clases/B11/B11-C02-problemas-de-valor-inicial/CLASE.md):**
+- En general, si `f` tiene constante de Lipschitz `L`, la diferencia crece como mucho como `δ e^{L t}`.
+- Ejercicio 10 · transferencia. Para `f(y) = y²` en `|y| ≤ M`, ¿cuál es una constante de Lipschitz?
+- 🎯 **Por qué importa:** Una nave no sigue «la» solución de las ecuaciones del movimiento: sigue la que corresponde a *su* posición y velocidad en el instante en que se midieron. Saber cuántos datos exige la ecuación, cuándo garantizan una única trayectoria y cuánto se amplifica su error es la base de toda predicción de trayectoria.
+
+📘 **Dónde se aprende** (1 clase): [B11-C02 · Problemas de valor inicial](../programa/clases/B11/B11-C02-problemas-de-valor-inicial/CLASE.md).
+
+### Constante de proporcionalidad
+
+- La constante de proporcionalidad `k` es ese valor fijo.
+
+🎯 **Por qué importa (clase B03-C10):** Un panel solar en órbita de Marte no recibe la misma energía que uno en órbita de la Tierra. ¿Cuánta menos?
+
+📘 **Dónde se aprende** (1 clase): [B03-C10 · Proporcionalidad directa e inversa](../programa/clases/B03/B03-C10-proporcionalidad-directa-e-inversa/CLASE.md).
+
+### Constante de radiación
+
+- La constante de radiación es `a = 4σ/c`.
+
+🎯 **Por qué importa (clase B26-C14):** Casi todo lo observable del universo temprano (radiación de fondo, abundancia de helio) depende de su temperatura y de qué componente dominaba la densidad en cada época.
+
+📘 **Dónde se aprende** (1 clase): [B26-C14 · Evolución térmica del universo](../programa/clases/B26/B26-C14-evolucion-termica-del-universo/CLASE.md).
+
+### Constante de recuperación
+
+- `τ` es la constante de recuperación dentro de una exposición.
+
+🎯 **Por qué importa (clase B113-C02):** Ninguna clase previa trata la respuesta emocional ante simulaciones de riesgo. La decisión central: ¿cuántas repeticiones de un escenario hacen falta para que el pico baje a un nivel de trabajo, y cuándo la repetición deja de ayudar?
+
+📘 **Dónde se aprende** (1 clase): [B113-C02 · Ansiedad y respuesta emocional en escenarios simulados](../programa/clases/B113/B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md).
+
+### Constante de Rydberg
+
+- La constante de Rydberg `R` fija las longitudes de onda de las líneas del hidrógeno.
+
+💡 **Cómo se explica en la clase [B02-C16](../programa/clases/B02/B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md):**
+- La constante de Rydberg para núcleo infinitamente pesado es `R∞ = 10 973 731,568 157 m⁻¹` (NIST, CODATA 2022, S2); para el hidrógeno se corrige por la masa del protón: `R_H = R∞/(1 + mₑ/mₚ)`, con `mₚ/mₑ = 1 836,152 673 426` (S3).
+- 🎯 **Por qué importa:** Hasta 1859 se pensaba, con razones, que nunca sabríamos de qué están hechas las estrellas: estaban demasiado lejos para tocarlas. La pregunta motivadora es: ¿cómo se puede conocer la composición de un objeto que solo se ve como luz?
+
+📘 **Dónde se aprende** (3 clases): [B02-C16 · Historia de la espectroscopía astronómica](../programa/clases/B02/B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md); [B45-C10 · Líneas de emisión](../programa/clases/B45/B45-C10-lineas-de-emision/CLASE.md); [B47-C03 · Telescopios ultravioleta](../programa/clases/B47/B47-C03-telescopios-ultravioleta/CLASE.md).
+
+### Constante de Stefan–Boltzmann
+
+- La constante de Stefan–Boltzmann `σ` liga la energía emitida por unidad de superficie con `T⁴`.
+- La constante de Stefan–Boltzmann `σ` liga la emisión de un cuerpo negro con `T⁴`.
+
+🎯 **Por qué importa (clase B01-C14):** Dos estrellas pueden verse igual de brillantes y ser totalmente distintas: una pequeña y cercana, otra enorme y lejana (C09). Para saber cómo es una estrella necesitas separar lo que ves (flujo) de lo que ella es (luminosidad, temperatura, radio) y de dónde está (distancia).
+
+📘 **Dónde se aprende** (2 clases): [B01-C14 · Estrellas y sus principales propiedades](../programa/clases/B01/B01-C14-estrellas-y-sus-principales-propiedades/CLASE.md); [B24-C03 · Diagrama de Hertzsprung-Russell](../programa/clases/B24/B24-C03-diagrama-de-hertzsprung-russell/CLASE.md).
+
+### Constante de tiempo
+
+- La constante de tiempo `τ` es el tiempo en que la diferencia con el equilibrio se reduce a `1/e ≈ 36,8 %`.
+- La constante de tiempo `τ` de un sensor de primer orden es el tiempo en que recorre el 63,2 % de un cambio brusco (`1 − e^{−1}`).
+- La constante de tiempo `τ_c` de un sistema de primer orden es el tiempo en el que la respuesta a un escalón alcanza el 63,2 % de su valor final.
+- *(y 6 formulaciones más en otras clases; ábrelas desde los enlaces)*
+
+💡 **Cómo se explica en la clase [B11-C03](../programa/clases/B11/B11-C03-ecuaciones-de-primer-orden/CLASE.md):**
+- La velocidad terminal es `g m/c = 196,1 m/s`, se alcanza con una constante de tiempo `m/c = 20 s`, y a los 30 s la velocidad es `152,4 m/s`.
+- Interpretar la constante de tiempo y el equilibrio.
+- ⚠️ **Error frecuente:** Mezclar la constante de tiempo con la velocidad. Se corrige con el ejercicio 5.
+- 🎯 **Por qué importa:** Muchos procesos espaciales relajan hacia un equilibrio: una cápsula que cae frena hasta una velocidad terminal, un instrumento se enfría hacia la temperatura de su entorno, una población de partículas decae.
+
+📘 **Dónde se aprende** (11 clases): [B11-C03 · Ecuaciones de primer orden](../programa/clases/B11/B11-C03-ecuaciones-de-primer-orden/CLASE.md); [B15-C08 · Convolución y respuesta impulsional](../programa/clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md); [B16-C04 · Respuesta transitoria y estacionaria](../programa/clases/B16/B16-C04-respuesta-transitoria-y-estacionaria/CLASE.md); [B43-C11 · Dilatación térmica y estabilidad](../programa/clases/B43/B43-C11-dilatacion-termica-y-estabilidad/CLASE.md); [B44-C08 · Enfriamiento de detectores](../programa/clases/B44/B44-C08-enfriamiento-de-detectores/CLASE.md); [B85-C11 · Ciclos térmicos](../programa/clases/B85/B85-C11-ciclos-termicos/CLASE.md) y 5 más.
+
+### Constante de tiempo τ
+
+- Nodo concentrado: modelo de una sola temperatura. Constante de tiempo `τ`: `m c/G`.
+- Coeficiente de descarga `Cd`: corrección entre el área geométrica y la efectiva. Constante de tiempo `τ`: escala del vaciado exponencial.
+
+💡 **Cómo se explica en la clase [B90-C11](../programa/clases/B90/B90-C11-ensayos-termicos/CLASE.md):**
+- Paso 1 · Constante de tiempo. `τ = m c/G = 1 800/2 = 900 s`.
+- Plantear la ecuación de un nodo térmico concentrado y calcular su constante de tiempo.
+- 🎯 **Por qué importa:** Una prueba funcional hecha antes de que la unidad se estabilice no demuestra nada sobre la temperatura extrema; una espera excesiva consume cámara y calendario. La decisión central: ¿cuánto debe esperar el ensayo para que la temperatura de la unidad sea la de la prueba?
+
+📘 **Dónde se aprende** (2 clases): [B90-C11 · Ensayos térmicos](../programa/clases/B90/B90-C11-ensayos-termicos/CLASE.md); [B106-C02 · Presurización de módulos](../programa/clases/B106/B106-C02-presurizacion-de-modulos/CLASE.md).
+
+### Constante de velocidad
+
+- La constante de velocidad `k(T)` es el promedio térmico `⟨σ v⟩`.
+- Una reacción de primer orden `A → productos` tiene velocidad `v = −d[A]/dt = k[A]`, con `k` la constante de velocidad (en 1/s).
+
+💡 **Cómo se explica en la clase [B06-C14](../programa/clases/B06/B06-C14-cinetica-quimica-inicial/CLASE.md):**
+- Una reacción real puede tener varios pasos, orden distinto de 1 y una constante de velocidad que no se comporta como Arrhenius a baja temperatura.
+- *Descripción textual:* arriba, dos valles separados por una barrera de altura `E_a`; abajo, la cadena: la temperatura fija la fracción de moléculas con energía suficiente, esa fracción da la constante de velocidad por Arrhenius, y la constante da la velocidad y la vida media.
+- 🎯 **Por qué importa:** Que una reacción sea posible (energía favorable, `K` grande) no significa que ocurra: puede ser tan lenta que no ocurra nunca en la edad del universo. En una nube molecular a 10 K, la energía térmica es de apenas 0,86 meV (C10).
+
+📘 **Dónde se aprende** (2 clases): [B06-C14 · Cinética química inicial](../programa/clases/B06/B06-C14-cinetica-quimica-inicial/CLASE.md); [B60-C01 · Colisiones moleculares y secciones eficaces en gas interestelar](../programa/clases/B60/B60-C01-colisiones-moleculares-y-secciones-eficaces-en-gas-interestelar/CLASE.md).
+
+### Constante definitoria
+
+- Una constante definitoria del SI es una de las siete cuyo valor numérico se fija exactamente (S4).
+- Una constante definitoria es una constante física a la que el SI asigna un valor numérico exacto; las unidades se definen fijándola (S2).
+
+💡 **Cómo se explica en la clase [B13-C01](../programa/clases/B13/B13-C01-sistema-internacional-y-constantes/CLASE.md):**
+- ⚠️ **Error frecuente:** Confundir constante definitoria con constante medida. Se corrige con el ejercicio 5.
+- 🎯 **Por qué importa:** Una señal de radio o de láser viaja a la Luna y regresa. Para decir «la Luna está a 384 400 km» hay que haber acordado qué es un kilómetro, qué es un segundo y a qué velocidad viaja la señal.
+
+📘 **Dónde se aprende** (2 clases): [B03-C12 · Variables y constantes científicas](../programa/clases/B03/B03-C12-variables-y-constantes-cientificas/CLASE.md); [B13-C01 · Sistema Internacional y constantes](../programa/clases/B13/B13-C01-sistema-internacional-y-constantes/CLASE.md).
+
+### Constante espectroscópica
+
+- Una constante espectroscópica es un parámetro del Hamiltoniano efectivo (`B`, `D`, `H`…).
+
+🎯 **Por qué importa (clase B62-C05):** Una constante sin incertidumbre no se puede usar para predecir una línea en otro rango, ni para decidir si una línea observada es de esa molécula. La decisión central: ¿cuántos parámetros justifica el conjunto de datos?
+
+📘 **Dónde se aprende** (1 clase): [B62-C05 · Constantes espectroscópicas y ajuste de espectros](../programa/clases/B62/B62-C05-constantes-espectroscopicas-y-ajuste-de-espectros/CLASE.md).
+
+### Constante física
+
+- Una constante física es un valor con unidad, incertidumbre y referencia.
+
+🎯 **Por qué importa (clase B14-C04):** En 1999 la sonda Mars Climate Orbiter se perdió al llegar a Marte. NASA atribuye la pérdida a un error de navegación causado por no traducir unidades inglesas a métricas: el software en tierra usaba unidades inglesas y el de a bordo, métricas (S1).
+
+📘 **Dónde se aprende** (1 clase): [B14-C04 · Unidades y constantes con Astropy](../programa/clases/B14/B14-C04-unidades-y-constantes-con-astropy/CLASE.md).
+
+### Constante molar de los gases
+
+- La ley de los gases ideales relaciona la presión `P`, el volumen `V`, la cantidad de sustancia `n` y la temperatura absoluta `T`: `PV = nRT`, con `R` la constante molar de los gases.
+
+🎯 **Por qué importa (clase B06-C09):** La NASA publica para Marte, Venus y la Tierra la presión y la temperatura medias en la superficie, la gravedad, el peso molecular de la atmósfera y su densidad (S1, S2, S3). ¿Puedes reproducir esa densidad con sólo lo anterior?
+
+📘 **Dónde se aprende** (1 clase): [B06-C09 · Gases ideales y no ideales](../programa/clases/B06/B06-C09-gases-ideales-y-no-ideales/CLASE.md).
+
+### Constante psicrométrica γ
+
+- La pendiente `Δ` de la curva de saturación y la constante psicrométrica `γ` acoplan temperatura y vapor.
+
+🎯 **Por qué importa (clase B115-C06):** El cultivo es el mayor flujo de agua de un hábitat con plantas. La decisión central: ¿cuánta agua transpira el cultivo, cuánta se recupera y cuánta hay que reponer, y con qué incertidumbre?
+
+📘 **Dónde se aprende** (1 clase): [B115-C06 · Balance de agua y evapotranspiración en cultivos](../programa/clases/B115/B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md).
+
+### Constante rotacional
+
+- La constante rotacional `B` es la energía por unidad de `J(J+1)` expresada en cm⁻¹.
+- La constante rotacional `B` (MHz) depende del momento de inercia.
+
+💡 **Cómo se explica en la clase [B62-C01](../programa/clases/B62/B62-C01-espectros-rotacionales-de-moleculas-niveles-y-reglas-de-seleccion/CLASE.md):**
+- Calcular la constante rotacional `B` desde la masa reducida y la longitud de enlace.
+- 🎯 **Por qué importa:** Una línea de CO a 115,27 GHz no es un dato aislado: es la consecuencia de un momento de inercia. Si entiendes de dónde sale, puedes predecir líneas que nadie ha medido y reconocer cuándo una línea observada no es del CO.
+
+📘 **Dónde se aprende** (2 clases): [B55-C09 · Espectros moleculares de radio](../programa/clases/B55/B55-C09-espectros-moleculares-de-radio/CLASE.md); [B62-C01 · Espectros rotacionales de moléculas: niveles y reglas de selección](../programa/clases/B62/B62-C01-espectros-rotacionales-de-moleculas-niveles-y-reglas-de-seleccion/CLASE.md).
+
+### Constante rotacional del nivel
+
+- La constante rotacional del nivel `B_v = Be − αe(v+½)` decrece al vibrar.
+
+🎯 **Por qué importa (clase B62-C02):** Las bandas del CO a 4,67 µm se observan en el infrarrojo, no en milimétricas. Para interpretarlas necesitas saber de dónde sale el origen de banda, por qué las ramas P y R se separan en dos grupos y qué cambia al pasar a un isotopólogo.
+
+📘 **Dónde se aprende** (1 clase): [B62-C02 · Espectros vibracionales de moléculas](../programa/clases/B62/B62-C02-espectros-vibracionales-de-moleculas/CLASE.md).
+
+### Constantes de Oort
+
+- Las constantes de Oort `A` y `B` miden la rotación y la cizalla locales.
+
+💡 **Cómo se explica en la clase [B25-C07](../programa/clases/B25/B25-C07-dinamica-de-poblaciones-estelares/CLASE.md):**
+- A["Curva de rotación<br/>Theta(R)"] --> B["Constantes de Oort<br/>A, B"]
+- Bland-Hawthorn y Gerhard (S1) adoptan `R₀ = 8,2 kpc` y `Θ₀ = 238 km/s`, y definen las constantes de Oort por `A − B = Θ₀/R₀` y `A + B = −(∂Θ/∂R)_{R₀}`; recogen valores medidos de `A − B` entre `27` y `32 km s⁻¹ kpc⁻¹`, y describen una curva de rotación casi plana entre `5` y `13 kpc`.
+- 🎯 **Por qué importa:** Las estrellas de una galaxia no giran en círculos perfectos: oscilan alrededor de una órbita circular, y su agitación revela la edad y la historia de la población. Además, no nacen todas con la misma masa: la función de masa inicial fija cuántas hay de cada tipo y cuánta luz y metales producirán.
+
+📘 **Dónde se aprende** (1 clase): [B25-C07 · Dinámica de poblaciones estelares](../programa/clases/B25/B25-C07-dinamica-de-poblaciones-estelares/CLASE.md).
+
+### Constantes de placa
+
+- Las constantes de placa son los seis coeficientes de la relación lineal entre píxel y `(ξ, η)`.
+
+💡 **Cómo se explica en la clase [B58-C06](../programa/clases/B58/B58-C06-astrometria-de-objetos-menores/CLASE.md):**
+- Plantear el modelo lineal de seis constantes de placa.
+- El script [astrometria.py](astrometria.py) proyecta, ajusta seis constantes de placa con 40 estrellas sintéticas y mide el error de un asteroide (comprueba ida y vuelta de 10⁻⁹, escala y rotación sin ruido con 10⁻⁹ y RMS entre 0,7 y 1,2 veces el esperado).
+- 🎯 **Por qué importa:** Una órbita no puede ser mejor que sus posiciones: un error de décimas de segundo de arco se amplifica al propagar. La decisión central: ¿con qué exactitud puedo asignar coordenadas a un objeto en una imagen y qué la limita?
+
+📘 **Dónde se aprende** (1 clase): [B58-C06 · Astrometría de objetos menores](../programa/clases/B58/B58-C06-astrometria-de-objetos-menores/CLASE.md).
+
+### Constantes definitorias
+
+- El SI (Sistema Internacional de Unidades) es el sistema acordado internacionalmente; sus siete unidades base son el segundo (s), el metro (m), el kilogramo (kg), el amperio (A), el kelvin (K), el mol (mol) y la candela (cd), definidas a partir de siete constantes definitorias de valor exacto (S2).
+
+🎯 **Por qué importa (clase B03-C06):** El 23 de septiembre de 1999 la NASA perdió contacto con la sonda Mars Climate Orbiter. Según la agencia, un error de navegación se debió a no traducir unidades inglesas a métricas: el programa en tierra usaba unas y el de la nave otras, y la sonda pasó demasiado cerca de Marte y se quemó en su atmósfera (S1).
+
+📘 **Dónde se aprende** (1 clase): [B03-C06 · Unidades del Sistema Internacional](../programa/clases/B03/B03-C06-unidades-del-sistema-internacional/CLASE.md).
+
+### Constelación
+
+- Una constelación es, para la IAU, una de las 88 regiones en que se divide toda la esfera celeste, con límites definidos por líneas de ascensión recta y declinación (S1).
+- Una constelación es un conjunto de satélites que operan coordinados.
+
+💡 **Cómo se explica en la clase [B08-C06](../programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/CLASE.md):**
+- Eugène Delporte, del Observatorio Real de Bruselas, trazó sus límites con líneas de ascensión recta y declinación; la asamblea de 1928 en Leiden los aprobó y se publicaron en 1930; hoy se distribuyen en coordenadas J2000, y las estrellas variables conocidas se mantuvieron en la constelación en que ya estaban (S1).
+- Dos consecuencias: toda posición del cielo cae en una, y solo una, constelación; y el nombre de una constelación sirve para *localizar* («está en…»), no para describir lo que es.
+- ⚠️ **Error frecuente:** Creer que una constelación es una agrupación física. Ejercicio 6.
+- 🎯 **Por qué importa:** Dos personas dicen «la estrella roja de la Cruz del Sur» y creen hablar de lo mismo; un programa de telescopio pide «HIP 12345». Sin un lenguaje común no puedes repetir una observación ni compartirla.
+
+📘 **Dónde se aprende** (2 clases): [B08-C06 · Constelaciones y catálogos estelares](../programa/clases/B08/B08-C06-constelaciones-y-catalogos-estelares/CLASE.md); [B118-C15 · Seguimiento de mega constelaciones](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md).
+
+### Constelación grande
+
+- Una constelación grande son muchos satélites con un mismo diseño.
+
+💡 **Cómo se explica en la clase [B121-C03](../programa/clases/B121/B121-C03-proteccion-ambiental-en-la-legislacion-espacial/CLASE.md):**
+- Ejercicio 11 · transferencia. Transferencia. ¿Por qué `p ≥ 0,9` no basta para una constelación grande?
+- 🎯 **Por qué importa:** El catálogo no trata la mitigación de desechos como requisito normativo. La decisión central: ¿un diseño cumple el plazo de desorbitación, la probabilidad de éxito y el riesgo de reentrada que exige la norma?
+
+📘 **Dónde se aprende** (1 clase): [B121-C03 · Protección ambiental en la legislación espacial](../programa/clases/B121/B121-C03-proteccion-ambiental-en-la-legislacion-espacial/CLASE.md).
+
+### Constelación oscura
+
+- Una constelación oscura es una figura reconocida no en las estrellas sino en las zonas oscuras de la Vía Láctea, que corresponden a nubes de polvo (S1).
+
+💡 **Cómo se explica en la clase [B02-C05](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md):**
+- Describir ejemplos de alineaciones solares y de constelaciones oscuras en la literatura.
+- 🎯 **Por qué importa:** Hablar de «astronomía andina» en singular es un error: los Andes reúnen sociedades de épocas y regiones muy distintas. La pregunta motivadora es: ¿cómo se estudia respetuosamente un cielo que otra cultura leyó de otra manera, sin imponerle nuestras categorías y sin inventar lo que las fuentes no dicen?
+
+📘 **Dónde se aprende** (1 clase): [B02-C05 · Cosmovisiones andinas del cielo](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md).
+
+### Constelación Walker delta
+
+- Una constelación Walker delta `i:T/P/F` tiene `T` satélites en `P` planos con inclinación `i`;
+
+💡 **Cómo se explica en la clase [B89-C17](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md):**
+- Generar una constelación Walker delta `i:T/P/F`.
+- 🎯 **Por qué importa:** El número de satélites, su altitud y la inclinación fijan cuánta gente o cuántos usuarios ven al menos uno (o cuatro, para navegar) y cuánto cuesta lograrlo. La decisión central: ¿cuántos satélites y qué geometría dan la cobertura necesaria?
+
+📘 **Dónde se aprende** (1 clase): [B89-C17 · Constelaciones y cobertura](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md).
+
+### Consulta
+
+- Una consulta selecciona filas y columnas con criterios.
+
+💡 **Cómo se explica en la clase [B14-C18](../programa/clases/B14/B14-C18-flujos-de-datos-espaciales/CLASE.md):**
+- La consulta (`paralaje > 2 mas` y `mag < 15`) devuelve 1594 filas, con distancia mediana 290,12 pc.
+- No hay red, autenticación, reintentos, paginación ni descargas parciales; el servidor es local y la consulta ADQL no se envió, de modo que no sé qué respondería un servicio real.
+- 🎯 **Por qué importa:** Un artículo usa «datos de un archivo público filtrados por paralaje y magnitud». Dos años después nadie puede repetir el filtro: el archivo se actualizó, los parámetros no se anotaron y la consulta no se guardó.
+
+📘 **Dónde se aprende** (1 clase): [B14-C18 · Flujos de datos espaciales](../programa/clases/B14/B14-C18-flujos-de-datos-espaciales/CLASE.md).
+
+### Consulta de solapamiento
+
+- Una consulta de solapamiento devuelve las cajas que se cruzan con la de consulta.
+
+💡 **Cómo se explica en la clase [B14-C28](../programa/clases/B14/B14-C28-bases-de-datos-espaciales/CLASE.md):**
+- Q["Consulta<br/>caja o punto"] --> I["Índice R-tree<br/>candidatos por solapamiento"]
+- *Descripción textual:* la consulta (caja o punto) va primero al índice, que devuelve candidatos por solapamiento; se refinan con una prueba exacta de geometría, se unen con los atributos por identificador y se obtiene el resultado.
+- 🎯 **Por qué importa:** Un archivo tiene 50 000 huellas de escenas y tu aplicación pregunta «¿qué escenas cubren este punto?» miles de veces. Recorrerlas todas cada vez desperdicia tiempo.
+
+📘 **Dónde se aprende** (1 clase): [B14-C28 · Bases de datos espaciales](../programa/clases/B14/B14-C28-bases-de-datos-espaciales/CLASE.md).
+
+### Consulta puntual
+
+- Una consulta puntual devuelve las cajas que contienen un punto.
+
+🎯 **Por qué importa (clase B14-C28):** Un archivo tiene 50 000 huellas de escenas y tu aplicación pregunta «¿qué escenas cubren este punto?» miles de veces. Recorrerlas todas cada vez desperdicia tiempo.
+
+📘 **Dónde se aprende** (1 clase): [B14-C28 · Bases de datos espaciales](../programa/clases/B14/B14-C28-bases-de-datos-espaciales/CLASE.md).
+
+### Consume
+
+- Una falla se consume si se termina después de su plazo.
+
+💡 **Cómo se explica en la clase [B110-C04](../programa/clases/B110/B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md):**
+- Para el orden `(F2, F4, F5, F1, F3, F6)` se acumulan los esfuerzos y se compara con el plazo: F2 termina a `10 ≤ 15`, F4 a `30 ≤ 55`, F5 a `65 ≤ 120`, F1 a `95 > 90` (se consume una de vehículo), F3 a `120`, F6 a `135`.
+- Términos `10, 30, 65, 95, 120, 135`; solo F1 (95 > 90) se consume: `(0, 1, 0)`.
+- 🎯 **Por qué importa:** B104 enseña los procedimientos; falta cómo se ordenan cuando coinciden. La decisión central: ¿qué se atiende primero y cuánto cuesta equivocarse de orden?
+
+📘 **Dónde se aprende** (1 clase): [B110-C04 · Priorización y decisiones bajo emergencia](../programa/clases/B110/B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md).
+
+### Consumo
+
+- El consumo es `m = J_total/(Isp g₀)`.
+- El consumo es la masa esperada de repuestos usados.
+
+💡 **Cómo se explica en la clase [B87-C13](../programa/clases/B87/B87-C13-propulsores-de-control-de-actitud/CLASE.md):**
+- Estimar el consumo por hora de un ciclo límite.
+- La evidencia es la ficha de consumo y ciclo límite de una maniobra con propulsores del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** Los propulsores son el actuador de más par y de respuesta rápida, y el único que cambia el momento total del satélite, pero cada pulso gasta masa que no vuelve. La decisión central: ¿cuánto propergol cuesta una maniobra o un año de mantenimiento de actitud, y qué precisión permite el impulso mínimo?
+
+📘 **Dónde se aprende** (2 clases): [B87-C13 · Propulsores de control de actitud](../programa/clases/B87/B87-C13-propulsores-de-control-de-actitud/CLASE.md); [B97-C19 · Logística de piezas y reparaciones](../programa/clases/B97/B97-C19-logistica-de-piezas-y-reparaciones/CLASE.md).
+
+### Consumo específico
+
+- El consumo específico `TSFC = f/(F/ṁ)`.
+
+💡 **Cómo se explica en la clase [B79-C16](../programa/clases/B79/B79-C16-eficiencias-termodinamicas-de-motores/CLASE.md):**
+- El empuje específico máximo (`838,4 N·s/kg`) está en `r = 15,80`, mientras que el consumo mínimo del barrido (`28,60`) está en el borde (`r = 40`): subir `r` ahorra combustible pero a costa de empuje por kg de aire, es decir, de tamaño del motor.
+- Calcular el flujo de combustible, el empuje específico y el consumo específico.
+- 🎯 **Por qué importa:** Ninguna clase cubre cómo se cuantifica la conversión de energía en propulsión. Sin eficiencias separadas, un cambio de diseño se evalúa a ciegas: no se sabe si mejora el ciclo o el aprovechamiento del chorro.
+
+📘 **Dónde se aprende** (1 clase): [B79-C16 · Eficiencias termodinámicas de motores](../programa/clases/B79/B79-C16-eficiencias-termodinamicas-de-motores/CLASE.md).
+
+### Consumo específico de oxígeno
+
+- Consumo específico de oxígeno: O₂ por kilogramo y minuto.
+
+💡 **Cómo se explica en la clase [B106-C01](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md):**
+- Calcular el oxígeno que consume una persona en reposo a partir de su consumo específico y compararlo con el valor consultado.
+- 🎯 **Por qué importa:** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
+
+📘 **Dónde se aprende** (1 clase): [B106-C01 · Requisitos de habitabilidad](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md).
+
+### Contacto
+
+- Un contacto es una ventana `(origen, destino, inicio, fin, tasa, retardo)`.
+- Un contacto `(de, a, inicio, fin, tasa, retardo)` es una oportunidad de transmisión.
+- El contacto activa un segundo resorte cuando `u > g`.
+- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
+
+💡 **Cómo se explica en la clase [B84-C25](../programa/clases/B84/B84-C25-comportamiento-estructural-no-lineal-plasticidad-y-contacto/CLASE.md):**
+- *Descripción textual:* en cada paso se hace una prueba elástica y, si excede el límite, se retorna; el contacto se resuelve con Newton cambiando la tangente al cerrar la holgura.
+- Paso 1 · Con contacto. `u > g` si `P > k₁ g = 1000 N`.
+- 🎯 **Por qué importa:** Un modelo lineal da tensiones de 400 MPa en un material que cedió a 275: el resultado correcto es una deformación permanente y una tensión residual que solo el análisis no lineal muestra. La decisión central: ¿qué deformación permanente y tensión residual deja una carga que excede el límite elástico, y cuándo actúa un contacto?
+
+📘 **Dónde se aprende** (4 clases): [B84-C25 · Comportamiento estructural no lineal: plasticidad y contacto](../programa/clases/B84/B84-C25-comportamiento-estructural-no-lineal-plasticidad-y-contacto/CLASE.md); [B89-C13 · Protocolos para espacio profundo](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md); [B94-C04 · Redes con retardo y desconexión: enrutamiento y almacenamiento](../programa/clases/B94/B94-C04-redes-con-retardo-y-desconexion-enrutamiento-y-almacenamiento/CLASE.md); [B96-C02 · Concepto de operaciones de misión](../programa/clases/B96/B96-C02-concepto-de-operaciones-de-mision/CLASE.md).
+
+### Contacto de Hertz
+
+- El contacto de Hertz esfera-plano: `a = (3FR/(4E*))^(1/3)`.
+- El contacto de Hertz da el radio de contacto `a = (3 Q R′/(4E*))^(1/3)` y la presión máxima `p₀ = 3Q/(2πa²)`.
+
+💡 **Cómo se explica en la clase [B43-C25](../programa/clases/B43/B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md):**
+- Calcular `a`, `δ` y `p₀` de un contacto de Hertz.
+- 🎯 **Por qué importa:** La rigidez del contacto determina cuánto se mueve el eje bajo carga y la frecuencia de resonancia. La decisión central: ¿cuánto se deforma el contacto, cuánta rigidez aporta y qué fracción de la carga soporta la bola más cargada?
+
+📘 **Dónde se aprende** (2 clases): [B43-C25 · Rodamientos y apoyos de precisión en telescopios](../programa/clases/B43/B43-C25-rodamientos-y-apoyos-de-precision-en-telescopios/CLASE.md); [B84-C14 · Rodamientos y lubricación espacial](../programa/clases/B84/B84-C14-rodamientos-y-lubricacion-espacial/CLASE.md).
+
+### Contacto de penalización
+
+- Un contacto de penalización reacciona con una fuerza `k·penetración + c·velocidad` cuando hay interpenetración.
+
+💡 **Cómo se explica en la clase [B102-C01](../programa/clases/B102/B102-C01-dinamica-multicuerpo-de-rovers-y-manipuladores/CLASE.md):**
+- Una masa de 5 kg sobre un contacto de penalización `k = 2,0 × 10⁴ N/m` termina en reposo con una penetración `m g/k`: `2,4517 mm` en la Tierra, `0,9325 mm` en Marte y `0,4050 mm` en la Luna.
+- Modelar un contacto unilateral con penalización y comparar la penetración estática con `m g/k`.
+- 🎯 **Por qué importa:** Un manipulador de un rover se diseña y se ensaya en la Tierra, pero trabaja en Marte o en la Luna. La decisión central: ¿qué par necesita cada articulación en otro cuerpo, y qué cambia además del par?
+
+📘 **Dónde se aprende** (1 clase): [B102-C01 · Dinámica multicuerpo de rovers y manipuladores](../programa/clases/B102/B102-C01-dinamica-multicuerpo-de-rovers-y-manipuladores/CLASE.md).
+
+### Contactos
+
+- Los contactos son los instantes en que los discos se tocan.
+
+💡 **Cómo se explica en la clase [B29-C01](../programa/clases/B29/B29-C01-transitos-planetarios/CLASE.md):**
+- T --> NUM["contactos numéricos z = 1 + k"]
+- Verificar `T₁₄` buscando numéricamente los contactos.
+- 🎯 **Por qué importa:** El tránsito es el método con más planetas descubiertos. Su profundidad da el radio del planeta y su duración informa del semieje y el parámetro de impacto.
+
+📘 **Dónde se aprende** (1 clase): [B29-C01 · Tránsitos planetarios](../programa/clases/B29/B29-C01-transitos-planetarios/CLASE.md).
+
+### Contador de canal maestro
+
+- El contador de canal maestro (MCFC) cuenta todas las tramas; el de canal virtual (VCFC), las del canal.
+
+🎯 **Por qué importa (clase B94-C03):** Un receptor que recibe un flujo de octetos con pérdidas necesita saber qué trama es, si llegó íntegra, si faltan tramas y dónde retomar los paquetes. La decisión central: ¿qué campos de la trama permiten detectar errores y pérdidas y resincronizar sin retransmitir?
+
+📘 **Dónde se aprende** (1 clase): [B94-C03 · Tramas de transferencia de telemetría y telecomando](../programa/clases/B94/B94-C03-tramas-de-transferencia-de-telemetria-y-telecomando/CLASE.md).
+
+### Contador de secuencia
+
+- El contador de secuencia debe valer el anterior más uno.
+
+💡 **Cómo se explica en la clase [B88-C09](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md):**
+- El último caso muestra que, tras un `TO_SAFE` con secuencia fuera de orden, el contador queda en 200 y hay que resincronizarlo con un procedimiento definido.
+- 🎯 **Por qué importa:** Un telecomando aceptado en el estado equivocado puede dañar la nave; uno rechazado en el estado correcto puede perderla. La decisión central: ¿qué comando es válido en cada modo y qué comprobaciones lo protegen?
+
+📘 **Dónde se aprende** (1 clase): [B88-C09 · Telecomandos y estados de misión](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md).
+
+### Contaminación
+
+- La contaminación es el material terrestre que altera la muestra; un blanco de procedimiento es una muestra de control que sigue el mismo tratamiento sin la muestra para detectarla.
+- El recall es la fracción del suelo verdadero recuperada; la contaminación es la fracción de lo clasificado como suelo que no lo es.
+- La estimación se complica por la contaminación: las alas de las fuentes elevan el fondo medido.
+- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
+
+💡 **Cómo se explica en la clase [B06-C20](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md):**
+- Las muestras de Bennu, devueltas a la Tierra en condiciones controladas para limitar la contaminación, tienen más carbono, nitrógeno y amoníaco que las de Ryugu y que la mayoría de los meteoritos, con C = 4,5–4,7 % y N = 0,23–0,25 % en masa (S2).
+- (2) Controlar la contaminación y usar blancos de procedimiento: los autores de S2 subrayan que la devolución en condiciones controladas permitió estudiar material sin exposición incontrolada a la biosfera terrestre.
+- 🎯 **Por qué importa:** Hay dos formas de saber de qué está hecho el Sistema Solar. Una es mirar la luz del Sol y deducir su composición; la otra es analizar en laboratorio meteoritos que conservan la composición del material con que se formó.
+
+📘 **Dónde se aprende** (5 clases): [B06-C20 · Análisis químico introductorio de meteoritos](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md); [B15-C12 · Detección de fuentes astronómicas](../programa/clases/B15/B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md); [B45-C23 · Fotometría de apertura y estimación del cielo](../programa/clases/B45/B45-C23-fotometria-de-apertura-y-estimacion-del-cielo/CLASE.md); [B57-C30 · Nubes de puntos tridimensionales](../programa/clases/B57/B57-C30-nubes-de-puntos-tridimensionales/CLASE.md); [B86-C14 · Envejecimiento de paneles](../programa/clases/B86/B86-C14-envejecimiento-de-paneles/CLASE.md).
+
+### Contaminación cruzada
+
+- La contaminación cruzada es la transferencia desde otra muestra o del ambiente.
+
+🎯 **Por qué importa (clase B55-C18):** En muestras extraterrestres la cantidad buscada puede ser del orden de la contaminación que entra al manipularlas. La decisión central: ¿la señal neta supera el límite de detección y con qué incertidumbre, una vez restado el blanco?
+
+📘 **Dónde se aprende** (1 clase): [B55-C18 · Contaminación de muestras](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md).
+
+### Contaminación lumínica
+
+- La contaminación lumínica es el exceso de luz artificial que borra la visibilidad del cielo nocturno.
+- La contaminación lumínica es la luz artificial que degrada el cielo nocturno.
+- La contaminación lumínica es el brillo del cielo nocturno por luz artificial emitida o reflejada hacia arriba, y su efecto sobre la observación y los ecosistemas.
+- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
+
+💡 **Cómo se explica en la clase [B02-C06](../programa/clases/B02/B02-C06-astronomia-de-pueblos-originarios-de-chile/CLASE.md):**
+- Ejercicio 10 · transferencia. El autor de S3 propone considerar la contaminación lumínica como pérdida cultural.
+- 🎯 **Por qué importa:** Chile alberga algunos de los cielos más oscuros del mundo y los más grandes observatorios, y también pueblos que miraron esos cielos durante milenios. La pregunta motivadora es: ¿cómo hablar de saberes celestes de pueblos vivos sin generalizar, sin apropiarse y sin presentar como establecido lo que no hemos podido verificar?
+
+📖 **Explicado a fondo:** [Contaminación lumínica](esencial/ampliacion-a-m.md#contaminación-lumínica) (intuición, fórmula, ejemplo numérico y errores frecuentes).
+
+📘 **Dónde se aprende** (4 clases): [B02-C06 · Astronomía de pueblos originarios de Chile](../programa/clases/B02/B02-C06-astronomia-de-pueblos-originarios-de-chile/CLASE.md); [B02-C20 · Patrimonio astronómico y ética cultural](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md); [B08-C12 · Limitación por contaminación lumínica](../programa/clases/B08/B08-C12-limitacion-por-contaminacion-luminica/CLASE.md); [B48-C18 · Protección del cielo oscuro](../programa/clases/B48/B48-C18-proteccion-del-cielo-oscuro/CLASE.md).
+
+### Contaminación molecular
+
+- La contaminación molecular es una película condensada; su espesor sale de `m/ρ`.
+
+💡 **Cómo se explica en la clase [B85-C16](../programa/clases/B85/B85-C16-polvo-lunar-y-contaminacion/CLASE.md):**
+- Contaminacion molecular ILUSTRATIVA: 0.10 g condensables llegan al radiador -> espesor 0.100 um ; delta alfa = 0.0500 ;
+- 🎯 **Por qué importa:** Un radiador que se ensucia rechaza menos calor y se calienta; en la Luna la limpieza no es sencilla. La decisión central: ¿qué cobertura de polvo o espesor de película hace subir la temperatura de un radiador por encima de su límite?
+
+📘 **Dónde se aprende** (1 clase): [B85-C16 · Polvo lunar y contaminación](../programa/clases/B85/B85-C16-polvo-lunar-y-contaminacion/CLASE.md).
+
+### Contención
+
+- La contención es el aislamiento de una muestra.
+- La contención es el conjunto de medidas que impiden que el material salga o entre.
+- La contención es mantener el contaminante en un volumen acotado.
+- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
+
+💡 **Cómo se explica en la clase [B56-C19](../programa/clases/B56/B56-C19-etica-del-descubrimiento-de-vida/CLASE.md):**
+- La política de COSPAR exige contención ante una posible entidad replicante, sea cual sea la probabilidad; el cálculo de esta clase no la reemplaza.
+- La cifra es sintética y depende de supuestos; el anuncio debe describir la evidencia y sus límites, y la política exige contención de muestras mientras se verifica (sección 5).
+- ⚠️ **Error frecuente:** Olvidar la contención. Se corrige con la sección 5.
+- 🎯 **Por qué importa:** Anunciar demasiado pronto un hallazgo puede dañar la ciencia y la confianza pública; ocultarlo puede dañar la transparencia. Hace falta una forma explícita de saber cuánta evidencia hay.
+
+📘 **Dónde se aprende** (5 clases): [B56-C19 · Ética del descubrimiento de vida](../programa/clases/B56/B56-C19-etica-del-descubrimiento-de-vida/CLASE.md); [B63-C05 · Contención de muestras extraterrestres: instalaciones y principios](../programa/clases/B63/B63-C05-contencion-de-muestras-extraterrestres-instalaciones-y-principios/CLASE.md); [B106-C10 · Gestión de residuos humanos](../programa/clases/B106/B106-C10-gestion-de-residuos-humanos/CLASE.md); [B117-C02 · Contención de riesgos biológicos y químicos en cabina](../programa/clases/B117/B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md); [B122-C06 · Respuesta a incidentes cibernéticos en operaciones de misión](../programa/clases/B122/B122-C06-respuesta-a-incidentes-ciberneticos-en-operaciones-de-mision/CLASE.md).
 
 ### Contenedor
 
@@ -12,7 +943,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B14-C17](../programa/clases/B14/B14-C17-contenedores-y-ambientes-cientificos/CLASE.md):**
 - Según S1, un contenedor es autocontenido y aislado, y comparte el núcleo del anfitrión.
-- Un contenedor que lleva datos dentro oculta su procedencia.
+- Por eso dos contenedores idénticos en máquinas distintas pueden diferir en el último dígito de un cálculo (C10) si el procesador es distinto.
 - ⚠️ **Error frecuente:** Creer que el contenedor lo reproduce todo. Se corrige con los ejercicios 3 y 8.
 - 🎯 **Por qué importa:** Tu análisis funciona con el bloqueo de C12 en tu equipo, pero en el servidor del laboratorio falla porque falta una biblioteca del sistema. La pregunta motivadora es: ¿cómo entrego el análisis junto con todo lo que necesita para correr, de modo que otra persona lo ejecute igual?
 
@@ -52,7 +983,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El conteo `N ~ Poisson(sH + B)`.
 
-🎯 **Por qué importa (clase B105-C07):** Un número de dosis sin su incertidumbre no es utilizable: cerca del fondo, el dosímetro no distingue una dosis pequeña de cero. La decisión central: ¿desde qué dosis se puede afirmar que el dosímetro vio algo y con qué incertidumbre se informa?
+💡 **Cómo se explica en la clase [B105-C07](../programa/clases/B105/B105-C07-dosimetria-personal/CLASE.md):**
+- En 20.000 repeticiones por dosis, el intervalo `Ĥ ± 1,96 σ_H` cubre el valor verdadero entre 0,949 y 0,950 de los casos: la aproximación gaussiana funciona con estos conteos.
+- Con seis dosis de referencia (1, 2, 5, 10, 20 y 50 mSv) y conteos sintéticos, `ŝ = Σ H y/Σ H² = 197,04` cuentas/mSv (verdad 200).
+- 🎯 **Por qué importa:** Un número de dosis sin su incertidumbre no es utilizable: cerca del fondo, el dosímetro no distingue una dosis pequeña de cero. La decisión central: ¿desde qué dosis se puede afirmar que el dosímetro vio algo y con qué incertidumbre se informa?
 
 📘 **Dónde se aprende** (1 clase): [B105-C07 · Dosimetría personal](../programa/clases/B105/B105-C07-dosimetria-personal/CLASE.md).
 
@@ -60,7 +994,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El conteo acumulado `N(>d)` es el número de objetos mayores que `d`.
 
-🎯 **Por qué importa (clase B118-C01):** Los catálogos solo contienen los objetos que los sensores pueden seguir; el resto se conoce por modelos y por mediciones in situ. Esta clase fija el vocabulario cuantitativo (conteos acumulados, pendiente, densidad) que usan todas las demás.
+💡 **Cómo se explica en la clase [B118-C01](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md):**
+- *Descripción textual:* de dos conteos acumulados se obtiene la pendiente de la distribución de tamaños; de la población sintética se obtiene el conteo por capa y, dividido por el volumen, la densidad espacial.
+- 🎯 **Por qué importa:** Los catálogos solo contienen los objetos que los sensores pueden seguir; el resto se conoce por modelos y por mediciones in situ. Esta clase fija el vocabulario cuantitativo (conteos acumulados, pendiente, densidad) que usan todas las demás.
 
 📘 **Dónde se aprende** (1 clase): [B118-C01 · Población de objetos orbitales](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md).
 
@@ -70,6 +1006,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B100-C01](../programa/clases/B100/B100-C01-gestion-de-inventario-de-materias-primas-y-piezas/CLASE.md):**
 - *Descripción textual:* los lotes entran al almacén; salen por emisión (que queda registrada) o por caducidad; el conteo cíclico compara el registro con lo físico.
+- Calcular la exactitud del registro con un conteo cíclico.
 - 🎯 **Por qué importa:** Un inventario que solo sabe «cuántas unidades hay» no puede decir de qué lote vienen, cuándo caducan ni dónde se usaron. La decisión central: ¿qué registro mínimo hace falta para emitir primero lo que caduca antes y para encontrar, si un lote resulta defectuoso, adónde fue?
 
 📘 **Dónde se aprende** (1 clase): [B100-C01 · Gestión de inventario de materias primas y piezas](../programa/clases/B100/B100-C01-gestion-de-inventario-de-materias-primas-y-piezas/CLASE.md).
@@ -80,6 +1017,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El conteo de fotones registra eventos individuales.
 
 💡 **Cómo se explica en la clase [B92-C05](../programa/clases/B92/B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md):**
+- *Descripción textual:* la ranura con pulso recibe señal y fondo, las otras solo fondo; el receptor elige la ranura de mayor conteo, de ahí sale el error de símbolo y los fotones necesarios; el tiempo muerto limita la tasa medible.
 - Como contexto publicado, el receptor de DSOC en Palomar es un receptor de conteo de fotones de nanohilos superconductores (NASA/JPL), sin más especificaciones en la página consultada.
 - 🎯 **Por qué importa:** Un detector de imagen integra luz durante milisegundos; uno de comunicaciones decide, en nanosegundos, en qué ranura llegó el pulso. La decisión central: ¿cuántos fotones hacen falta por símbolo y qué detector soporta la tasa de ranuras sin saturarse?
 
@@ -89,7 +1027,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El conteo de Poisson tiene varianza igual a su media.
 
-🎯 **Por qué importa (clase B67-C07):** Un sensor no mide «agua»: mide cuentas, y de ellas se infiere la abundancia con un modelo. La decisión central: ¿cuánto tiempo de medición y qué canales hacen falta para detectar y separar un volátil con la incertidumbre requerida?
+💡 **Cómo se explica en la clase [B67-C07](../programa/clases/B67/B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md):**
+- *Descripción textual:* un parámetro físico (la abundancia) produce una señal media; el azar de Poisson la convierte en un conteo; el cálculo inverso devuelve la abundancia con su incertidumbre, y lo mismo con el espectro de masas.
+- Invertir un conteo de Poisson y propagar su incertidumbre.
+- 🎯 **Por qué importa:** Un sensor no mide «agua»: mide cuentas, y de ellas se infiere la abundancia con un modelo. La decisión central: ¿cuánto tiempo de medición y qué canales hacen falta para detectar y separar un volátil con la incertidumbre requerida?
 
 📘 **Dónde se aprende** (1 clase): [B67-C07 · Sensores para volátiles: espectrometría de neutrones y de masas](../programa/clases/B67/B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md).
 
@@ -111,6 +1052,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B33-C04](../programa/clases/B33/B33-C04-escalas-de-severidad-de-clima-espacial/CLASE.md):**
 - *Descripción textual:* los umbrales definen niveles; la cola de potencias da conteos esperados que el Monte Carlo verifica.
+- Calcular conteos esperados de una cola de potencias.
 - 🎯 **Por qué importa:** Comparar severidades exige conocer cómo se definió cada nivel. La decisión central: ¿cuántos eventos caen en cada nivel y por qué no son comparables entre escalas?
 
 📘 **Dónde se aprende** (1 clase): [B33-C04 · Escalas de severidad de clima espacial](../programa/clases/B33/B33-C04-escalas-de-severidad-de-clima-espacial/CLASE.md).
@@ -119,7 +1061,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Los conteos «off» `N_off` son los de una región de fondo.
 
-🎯 **Por qué importa (clase B27-C19):** Decir «detectamos la fuente a 5σ» exige saber qué fórmula se usó y cuántos falsos positivos produce. La decisión central: ¿qué significancia tiene un par de conteos y qué señal mínima se necesita para una detección?
+💡 **Cómo se explica en la clase [B27-C19](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md):**
+- *Descripción textual:* los conteos alimentan dos fórmulas de significancia; el Monte Carlo bajo la hipótesis nula compara sus tasas de falsos positivos; la razón de verosimilitudes sirve para hallar la señal mínima.
+- Aquí no se usa ninguna cifra de su rendimiento: los conteos son sintéticos.
+- 🎯 **Por qué importa:** Decir «detectamos la fuente a 5σ» exige saber qué fórmula se usó y cuántos falsos positivos produce. La decisión central: ¿qué significancia tiene un par de conteos y qué señal mínima se necesita para una detección?
 
 📘 **Dónde se aprende** (1 clase): [B27-C19 · Observatorios de rayos X y gamma](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md).
 
@@ -127,7 +1072,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Los conteos «on» `N_on` son los de la región de la fuente.
 
-🎯 **Por qué importa (clase B27-C19):** Decir «detectamos la fuente a 5σ» exige saber qué fórmula se usó y cuántos falsos positivos produce. La decisión central: ¿qué significancia tiene un par de conteos y qué señal mínima se necesita para una detección?
+💡 **Cómo se explica en la clase [B27-C19](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md):**
+- *Descripción textual:* los conteos alimentan dos fórmulas de significancia; el Monte Carlo bajo la hipótesis nula compara sus tasas de falsos positivos; la razón de verosimilitudes sirve para hallar la señal mínima.
+- Aquí no se usa ninguna cifra de su rendimiento: los conteos son sintéticos.
+- 🎯 **Por qué importa:** Decir «detectamos la fuente a 5σ» exige saber qué fórmula se usó y cuántos falsos positivos produce. La decisión central: ¿qué significancia tiene un par de conteos y qué señal mínima se necesita para una detección?
 
 📘 **Dónde se aprende** (1 clase): [B27-C19 · Observatorios de rayos X y gamma](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md).
 
@@ -155,7 +1103,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El contexto ritual y social es el conjunto de prácticas, calendarios, jerarquías y creencias en que se inscribe una observación del cielo.
 
-🎯 **Por qué importa (clase B132-C05):** El catálogo trata alineaciones sin ese contexto. La decisión central: ¿cuánto apoyo da cada línea de evidencia a la intención de una alineación, y qué parte de la conclusión depende de lo que se supone de antemano?
+💡 **Cómo se explica en la clase [B132-C05](../programa/clases/B132/B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md):**
+- python programa/clases/B132/B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/contexto.py
+- 🎯 **Por qué importa:** El catálogo trata alineaciones sin ese contexto. La decisión central: ¿cuánto apoyo da cada línea de evidencia a la intención de una alineación, y qué parte de la conclusión depende de lo que se supone de antemano?
 
 📘 **Dónde se aprende** (1 clase): [B132-C05 · Contexto ritual y social de la observación del cielo](../programa/clases/B132/B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md).
 
@@ -186,7 +1136,11 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Una función `f` es continua en `a` si existen `f(a)` y `lim_{x→a} f(x)` y son iguales (S1, §1.4(ii)).
 
-🎯 **Por qué importa (clase B09-C02):** Un vehículo espacial cambia de masa de dos maneras: gradualmente, al quemar propelente, y de golpe, al soltar una etapa vacía. Un modelo de trayectoria que ignore los saltos integra mal; uno que los trate como suaves, también.
+💡 **Cómo se explica en la clase [B09-C02](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md):**
+- Para comprobar que `f(x) = x² + 1` es continua en 2: `f(2) = 5`, el límite es 5, coinciden.
+- Para polinomios, exponenciales, senos y cosenos basta evaluar; sumas, productos y composiciones de funciones continuas son continuas (S1).
+- ⚠️ **Error frecuente:** Creer que «definida» implica «continua». Se corrige con el ejercicio 1.
+- 🎯 **Por qué importa:** Un vehículo espacial cambia de masa de dos maneras: gradualmente, al quemar propelente, y de golpe, al soltar una etapa vacía. Un modelo de trayectoria que ignore los saltos integra mal; uno que los trate como suaves, también.
 
 📘 **Dónde se aprende** (1 clase): [B09-C02 · Continuidad y discontinuidad](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md).
 
@@ -194,7 +1148,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Una función es continua por tramos si lo es salvo en un número finito de saltos.
 
-🎯 **Por qué importa (clase B09-C02):** Un vehículo espacial cambia de masa de dos maneras: gradualmente, al quemar propelente, y de golpe, al soltar una etapa vacía. Un modelo de trayectoria que ignore los saltos integra mal; uno que los trate como suaves, también.
+💡 **Cómo se explica en la clase [B09-C02](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md):**
+- Calcular el valor que hace continua una función definida por tramos.
+- 🎯 **Por qué importa:** Un vehículo espacial cambia de masa de dos maneras: gradualmente, al quemar propelente, y de golpe, al soltar una etapa vacía. Un modelo de trayectoria que ignore los saltos integra mal; uno que los trate como suaves, también.
 
 📘 **Dónde se aprende** (1 clase): [B09-C02 · Continuidad y discontinuidad](../programa/clases/B09/B09-C02-continuidad-y-discontinuidad/CLASE.md).
 
@@ -204,6 +1160,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B76-C06](../programa/clases/B76/B76-C06-orbitas-dro-dinamica-cislunar-y-operaciones-de-proximidad/CLASE.md):**
 - Una búsqueda directa a `70.000 km` puede caer en otra solución; la continuación evita ese riesgo.
+- Seguir la familia por continuación en la amplitud.
 - ⚠️ **Error frecuente:** Buscar la DRO sin continuación. Se corrige con 8.2.
 - 🎯 **Por qué importa:** La NRHO es inestable y exige mantenimiento; la DRO es estable. La decisión central: ¿qué se gana y qué se paga al elegir una órbita estable y lejana frente a una NRHO cercana?
 
@@ -216,6 +1173,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B27-C04](../programa/clases/B27/B27-C04-ecuacion-de-estado-nuclear/CLASE.md):**
 - Para `ρ < ρ_t`, `P = K₁ρ^{Γ₁}`; para `ρ ≥ ρ_t`, `P = K₂ρ^{Γ₂}` con `K₂ = K₁ρ_t^{Γ₁−Γ₂}` (continuidad de `P`).
+- El laboratorio comprueba ambas continuidades a `10⁻¹²`.
 - 🎯 **Por qué importa:** Las estrellas de neutrones son el único laboratorio de materia más allá de la densidad nuclear. Su EOS no se conoce con precisión; las medidas de masa máxima y de radio la acotan.
 
 📘 **Dónde se aprende** (2 clases): [B27-C04 · Ecuación de estado nuclear](../programa/clases/B27/B27-C04-ecuacion-de-estado-nuclear/CLASE.md); [B79-C01 · Conservación de masa en fluidos](../programa/clases/B79/B79-C01-conservacion-de-masa-en-fluidos/CLASE.md).
@@ -267,6 +1225,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B27-C11](../programa/clases/B27/B27-C11-chorros-relativistas/CLASE.md):**
 - Por cociente chorro/contrachorro: observacional.
+- Estimar la razón de brillos entre el chorro y el contrachorro.
 - ⚠️ **Error frecuente:** Olvidar el contrachorro. Se corrige con el ejercicio 10.
 - 🎯 **Por qué importa:** Un chorro que se acerca puede parecer más rápido que la luz sin violar nada, y su brillo cambia en órdenes de magnitud según el ángulo. Sin estos efectos no se pueden comparar chorros ni inferir su velocidad.
 
@@ -323,6 +1282,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B43-C19](../programa/clases/B43/B43-C19-seguridad-y-mantenimiento/CLASE.md):**
 - Un tubo de 7 kg con el centro a 0,20 m y un contrapeso de 4 kg a 0,35 m dejan un desbalance de `2,2 × 10⁻¹⁶ kg m`; el contrapeso necesario es `4,000 kg`.
+- Equilibrar una montura con un contrapeso.
 - 🎯 **Por qué importa:** La seguridad empieza por saber cuán grande es el riesgo. La decisión central: ¿cuánta potencia y qué temperatura aparecen en el foco, cómo se balancea la montura y cuánto polvo es aceptable?
 
 📘 **Dónde se aprende** (1 clase): [B43-C19 · Seguridad y mantenimiento](../programa/clases/B43/B43-C19-seguridad-y-mantenimiento/CLASE.md).
@@ -336,6 +1296,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B24-C12](../programa/clases/B24/B24-C12-manchas-y-actividad-estelar/CLASE.md):**
 - A["Mancha: radio ρ,<br/>contraste c"] --> B["Área proyectada<br/>A cos γ(t)"]
+- Definir mancha, contraste y modulación rotacional.
 - 🎯 **Por qué importa:** La modulación del brillo por manchas permite medir el periodo de rotación de miles de estrellas sin necesitar espectros, pero también contamina la búsqueda de exoplanetas y limita la precisión de las velocidades radiales.
 
 📘 **Dónde se aprende** (8 clases): [B24-C12 · Manchas y actividad estelar](../programa/clases/B24/B24-C12-manchas-y-actividad-estelar/CLASE.md); [B29-C06 · Imagen directa de exoplanetas](../programa/clases/B29/B29-C06-imagen-directa-de-exoplanetas/CLASE.md); [B30-C04 · Manchas solares](../programa/clases/B30/B30-C04-manchas-solares/CLASE.md); [B42-C24 · Métricas de desempeño de óptica adaptativa: Strehl y energía encerrada](../programa/clases/B42/B42-C24-metricas-de-desempeno-de-optica-adaptativa-strehl-y-energia-encerrada/CLASE.md); [B47-C07 · Coronógrafos espaciales](../programa/clases/B47/B47-C07-coronografos-espaciales/CLASE.md); [B53-C26 · Publicación de mapas geológicos planetarios: estándares y leyendas](../programa/clases/B53/B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md) y 2 más.
@@ -347,7 +1308,8 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La contribución de cada dimensión es `tᵢ²/Σt²`.
 
 💡 **Cómo se explica en la clase [B12-C17](../programa/clases/B12/B12-C17-analisis-de-sensibilidad/CLASE.md):**
-- B --> D["Contribución (cᵢ uᵢ)²<br/>y fracción de varianza"]
+- Con `u(v_e) = 60 m/s`, `u(m₀) = 5 kg`, `u(m_f) = 3 kg`: contribuciones `(0,51083·60)² = 939,3`, `(3·5)² = 225` y `(5·3)² = 225` m²/s².
+- Si `v_e` se mide con 1 % (30 m/s) en vez de 2 %: contribuciones `234,9; 225; 225`, total `684,9`, `u = 26,17 m/s`, es decir, 29,8 % menos.
 - 🎯 **Por qué importa:** Mejorar una medida cuesta dinero, masa o tiempo. Si el presupuesto de una misión ofrece mejorar la masa seca o el empuje específico, hay que saber cuál de las dos reduce más la incertidumbre del resultado.
 
 📘 **Dónde se aprende** (3 clases): [B12-C17 · Análisis de sensibilidad](../programa/clases/B12/B12-C17-analisis-de-sensibilidad/CLASE.md); [B13-C13 · Presupuestos de incertidumbre](../programa/clases/B13/B13-C13-presupuestos-de-incertidumbre/CLASE.md); [B84-C16 · Tolerancias de fabricación](../programa/clases/B84/B84-C16-tolerancias-de-fabricacion/CLASE.md).
@@ -357,7 +1319,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La contribución a la varianza de un factor es su `σ²` entre la suma de las `σ²` en la escala logarítmica.
 - La contribución a la varianza de cada parámetro.
 
-🎯 **Por qué importa (clase B33-C02):** Un pronóstico de llegada sin incertidumbre es engañoso. La decisión central: ¿qué parámetro domina la incertidumbre del tiempo de llegada?
+💡 **Cómo se explica en la clase [B33-C02](../programa/clases/B33/B33-C02-modelos-de-propagacion-de-cme/CLASE.md):**
+- parametro dT/dp (h por unidad) contribucion a la varianza [h^2]
+- 🎯 **Por qué importa:** Un pronóstico de llegada sin incertidumbre es engañoso. La decisión central: ¿qué parámetro domina la incertidumbre del tiempo de llegada?
 
 📘 **Dónde se aprende** (2 clases): [B33-C02 · Modelos de propagación de CME](../programa/clases/B33/B33-C02-modelos-de-propagacion-de-cme/CLASE.md); [B67-C08 · Informe de disponibilidad de volátiles con incertidumbre](../programa/clases/B67/B67-C08-informe-de-disponibilidad-de-volatiles-con-incertidumbre/CLASE.md).
 
@@ -379,6 +1343,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B119-C14](../programa/clases/B119/B119-C14-amenazas-ciberneticas-a-satelites/CLASE.md):**
 - Cada control reduce a la mitad una hoja.
+- Con los cuatro controles el riesgo baja a `0.04719` (`56.1 %` menos).
 - 🎯 **Por qué importa:** La amenaza cibernética conecta el derecho con la seguridad operativa; el modelo defensivo de infraestructura espacial (B122-C03) lo desarrolla, y esta clase fija el razonamiento de riesgo. La decisión central: ¿qué control reduce más el riesgo residual y cuánto se gana al combinarlos?
 
 📘 **Dónde se aprende** (2 clases): [B119-C14 · Amenazas cibernéticas a satélites](../programa/clases/B119/B119-C14-amenazas-ciberneticas-a-satelites/CLASE.md); [B122-C03 · Modelo defensivo de riesgos de infraestructura espacial](../programa/clases/B122/B122-C03-modelo-defensivo-de-riesgos-de-infraestructura-espacial/CLASE.md).
@@ -407,7 +1372,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El control PD usa el error y su derivada: `δ = Kp(θ_c − θ) − Kd θ̇`.
 
-🎯 **Por qué importa (clase B77-C24):** El control de un lanzador inestable debe ser lo bastante rápido para estabilizarlo y lo bastante suave para no saturar la tobera. La decisión central: ¿qué ganancias cumplen una especificación dada y qué ocurre cuando la demanda supera los límites del actuador?
+💡 **Cómo se explica en la clase [B77-C24](../programa/clases/B77/B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md):**
+- La ganancia estática es `μ_c Kp/(μ_c Kp − μ_α) = 1,4123`: el vehículo termina a `1,412` veces el comando, porque el control proporcional debe vencer además la rigidez aerodinámica negativa.
+- Un control real añade integrador o realimentación de la dirección de vuelo.
+- 🎯 **Por qué importa:** El control de un lanzador inestable debe ser lo bastante rápido para estabilizarlo y lo bastante suave para no saturar la tobera. La decisión central: ¿qué ganancias cumplen una especificación dada y qué ocurre cuando la demanda supera los límites del actuador?
 
 📘 **Dónde se aprende** (1 clase): [B77-C24 · Guiado y control de actitud de lanzadores (TVC)](../programa/clases/B77/B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md).
 
@@ -417,6 +1385,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B98-C03](../programa/clases/B98/B98-C03-control-supervisado-y-autonomia-compartida/CLASE.md):**
 - Sin retardo, «mover y esperar» (pasos de 1 m, `v = 0,04 m/s`, 30 s de decisión por orden) tarda 1,53 h y el control supervisado (metas de 10 m, `v = 0,02 m/s`, 120 s por meta) 1,72 h: gana el manual.
+- python programa/clases/B98/B98-C03-control-supervisado-y-autonomia-compartida/supervisado.py
 - 🎯 **Por qué importa:** Ni siempre conviene más autonomía ni siempre más control manual: sin retardo, el manual puede ser más rápido. La decisión central: ¿a partir de qué retardo compensa pasar de órdenes cortas a metas supervisadas, y qué se pierde al hacerlo?
 
 📘 **Dónde se aprende** (1 clase): [B98-C03 · Control supervisado y autonomía compartida](../programa/clases/B98/B98-C03-control-supervisado-y-autonomia-compartida/CLASE.md).
@@ -440,6 +1409,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B88-C24](../programa/clases/B88/B88-C24-capa-de-abstraccion-de-hardware-hal-y-controladores/CLASE.md):**
 - HAL --> R["Controlador de registros (FIFO 4)"]
+- El laboratorio ejecuta la misma aplicación en ambos controladores.
 - 🎯 **Por qué importa:** Si la aplicación toca registros, no se puede probar sin el hardware y cada cambio de componente la rompe. La decisión central: ¿qué interfaz mínima expone el dispositivo para que la aplicación no dependa de él?
 
 📘 **Dónde se aprende** (2 clases): [B88-C24 · Capa de abstracción de hardware (HAL) y controladores](../programa/clases/B88/B88-C24-capa-de-abstraccion-de-hardware-hal-y-controladores/CLASE.md); [B106-C20 · Proyecto de balance ambiental de hábitat](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md).
@@ -470,6 +1440,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B85-C03](../programa/clases/B85/B85-C03-conveccion-y-ausencia-de-conveccion-exterior/CLASE.md):**
 - Descripción larga: la convección natural a 1 atm equivale a la radiación; con la presión a la décima parte, `Ra` cae cien veces, y con microgravedad desaparece aunque haya aire.
+- Hallar la presión a la que la convección natural se apaga (`Ra = 1708`).
 - 🎯 **Por qué importa:** Un equipo que se enfría bien sobre la mesa puede sobrecalentarse en vacío y en microgravedad. La decisión central: ¿cuánto del enfriamiento de un equipo se pierde al quitar la convección y qué queda para sustituirla?
 
 📘 **Dónde se aprende** (2 clases): [B85-C03 · Convección y ausencia de convección exterior](../programa/clases/B85/B85-C03-conveccion-y-ausencia-de-conveccion-exterior/CLASE.md); [B105-C23 · Termorregulación humana en vuelo](../programa/clases/B105/B105-C23-termorregulacion-humana-en-vuelo/CLASE.md).
@@ -478,7 +1449,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Una convención es un acuerdo que no se deduce de la naturaleza: el umbral de 20 000 km lo es.
 
-🎯 **Por qué importa (clase B07-C04):** Toda clasificación astronómica es una decisión sobre un dato: ¿esta señal supera el ruido?, ¿esta estrella es más brillante que el umbral?, ¿esta imagen está saturada? Una decisión mal escrita no falla ruidosamente: clasifica mal en silencio, justo en los casos frontera, que son los que importan.
+💡 **Cómo se explica en la clase [B07-C04](../programa/clases/B07/B07-C04-condicionales-y-decisiones/CLASE.md):**
+- Se acepta cualquier umbral declarado como convención.
+- 🎯 **Por qué importa:** Toda clasificación astronómica es una decisión sobre un dato: ¿esta señal supera el ruido?, ¿esta estrella es más brillante que el umbral?, ¿esta imagen está saturada? Una decisión mal escrita no falla ruidosamente: clasifica mal en silencio, justo en los casos frontera, que son los que importan.
 
 📘 **Dónde se aprende** (1 clase): [B07-C04 · Condicionales y decisiones](../programa/clases/B07/B07-C04-condicionales-y-decisiones/CLASE.md).
 
@@ -486,7 +1459,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Una convención de signo es el acuerdo sobre qué sentido es positivo.
 
-🎯 **Por qué importa (clase B03-C09):** Cuando observas una llamarada solar a las 12:00:00, el evento ocurrió antes: su tiempo es el observado menos 499 s. Si sumas en vez de restar, afirmas que la llamarada ocurre en el futuro.
+💡 **Cómo se explica en la clase [B03-C09](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md):**
+- Para magnitudes que no pueden ser negativas (masa, distancia) un signo menos indica un error de datos, no una convención.
+- La evidencia es el registro de signos y convenciones del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** Cuando observas una llamarada solar a las 12:00:00, el evento ocurrió antes: su tiempo es el observado menos 499 s. Si sumas en vez de restar, afirmas que la llamarada ocurre en el futuro.
 
 📘 **Dónde se aprende** (1 clase): [B03-C09 · Operaciones con números negativos](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md).
 
@@ -503,6 +1479,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El convenio de signos aquí es el de `U` positivo, con `J_n` positivo para un achatamiento ecuatorial.
 
 💡 **Cómo se explica en la clase [B72-C02](../programa/clases/B72/B72-C02-potencial-gravitatorio-no-esferico/CLASE.md):**
+- Dos códigos que usen radios o convenios de signo distintos para `J2` no son comparables.
 - ⚠️ **Error frecuente:** Mezclar el convenio de signos del potencial. Se corrige con la sección 10: aquí `U` es positivo.
 - 🎯 **Por qué importa:** Sin un potencial no hay perturbación gravitatoria que calcular, y los números de la bibliografía (J2, J3, J4) dependen de un convenio de signos y de un radio de referencia. La decisión central: ¿qué términos del potencial incluir y con qué radio y convenio, para que J2 signifique lo mismo en tu código y en la fuente?
 
@@ -517,6 +1494,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B16-C19](../programa/clases/B16/B16-C19-verificacion-de-lazo-cerrado/CLASE.md):**
 - (c) el orden de convergencia: el error a `t = 20 s` es 4,1×10⁻⁹ con `h = 0,4`, 1,4×10⁻¹⁰ con 0,2 y 5,3×10⁻¹² con 0,1; los órdenes son 4,89 y 4,71, es decir, al menos 4, como corresponde a RK4.
+- Verificar el integrador: coincidencia con una fórmula y orden de convergencia.
 - 🎯 **Por qué importa:** Un lazo que «se ve bien» en una simulación puede estar mal por tres razones: el diseño no cumple un requisito en parte del rango de parámetros, la discretización en el computador de vuelo cambia el comportamiento, o el simulador tiene un error numérico.
 
 📘 **Dónde se aprende** (5 clases): [B16-C19 · Verificación de lazo cerrado](../programa/clases/B16/B16-C19-verificacion-de-lazo-cerrado/CLASE.md); [B19-C04 · Diagnóstico de convergencia de cadenas](../programa/clases/B19/B19-C04-diagnostico-de-convergencia-de-cadenas/CLASE.md); [B39-C06 · Introducción a la relatividad numérica: formalismo 3+1](../programa/clases/B39/B39-C06-introduccion-a-la-relatividad-numerica-formalismo-3-1/CLASE.md); [B73-C20 · Proyecto de integración celeste de precisión](../programa/clases/B73/B73-C20-proyecto-de-integracion-celeste-de-precision/CLASE.md); [B116-C03 · Historia clínica remota y registros médicos de misión](../programa/clases/B116/B116-C03-historia-clinica-remota-y-registros-medicos-de-mision/CLASE.md).
@@ -525,7 +1503,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La convergencia en el paso es la estabilización del resultado al reducir `Δt`.
 
-🎯 **Por qué importa (clase B77-C20):** Una simulación solo vale si se sabe cuánto error numérico tiene y a dónde va cada metro por segundo. La decisión central: ¿cómo se verifica que una simulación de vuelo es numéricamente fiable y cómo se lee su presupuesto de pérdidas?
+💡 **Cómo se explica en la clase [B77-C20](../programa/clases/B77/B77-C20-simulacion-academica-de-una-trayectoria-de-vuelo/CLASE.md):**
+- Comprobar la convergencia al reducir el paso (RK4).
+- El script [simulacion.py](simulacion.py) integra el ascenso con `Cd(M)`, registra eventos, cierra el presupuesto de pérdidas y estudia la convergencia con tres pasos (comprueba residuo < 1e-6, cambios decrecientes y conservación < 1e-8).
+- 🎯 **Por qué importa:** Una simulación solo vale si se sabe cuánto error numérico tiene y a dónde va cada metro por segundo. La decisión central: ¿cómo se verifica que una simulación de vuelo es numéricamente fiable y cómo se lee su presupuesto de pérdidas?
 
 📘 **Dónde se aprende** (1 clase): [B77-C20 · Simulación académica de una trayectoria de vuelo](../programa/clases/B77/B77-C20-simulacion-academica-de-una-trayectoria-de-vuelo/CLASE.md).
 
@@ -533,7 +1514,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La convergencia espectral (o exponencial) es un error que decae como `e^{−c N}`.
 
-🎯 **Por qué importa (clase B11-C16):** Cuando la solución es suave y periódica —una señal a lo largo de una órbita, un perfil de temperatura alrededor de un vehículo que gira, el campo en una caja periódica—, un método espectral logra con 24 puntos lo que unas diferencias finitas lograrían con millones.
+💡 **Cómo se explica en la clase [B11-C16](../programa/clases/B11/B11-C16-metodos-espectrales-iniciales/CLASE.md):**
+- Espectral: convergencia exponencial en dominios simples con soluciones suaves; delicado con saltos y con condiciones de borde no periódicas.
+- 🎯 **Por qué importa:** Cuando la solución es suave y periódica —una señal a lo largo de una órbita, un perfil de temperatura alrededor de un vehículo que gira, el campo en una caja periódica—, un método espectral logra con 24 puntos lo que unas diferencias finitas lograrían con millones.
 
 📘 **Dónde se aprende** (1 clase): [B11-C16 · Métodos espectrales iniciales](../programa/clases/B11/B11-C16-metodos-espectrales-iniciales/CLASE.md).
 
@@ -542,6 +1525,8 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La convergencia exponencial es un error `~ e^{−c N}` si la solución es analítica.
 
 💡 **Cómo se explica en la clase [B11-C24](../programa/clases/B11/B11-C24-metodos-espectrales-avanzados-chebyshev-y-fourier/CLASE.md):**
+- Medir la convergencia exponencial frente a diferencias finitas.
+- Chebyshev agrupa nodos en los bordes y ayuda, pero la capa muy delgada exige muchos nodos o un cambio de variable; la convergencia exponencial solo aparece cuando `N` resuelve la capa.
 - ⚠️ **Error frecuente:** Esperar convergencia exponencial con funciones no analíticas. Se corrige con el ejercicio 10.
 - 🎯 **Por qué importa:** Cuando la solución es suave, un método espectral reduce un problema que necesita miles de puntos con diferencias a una docena con Chebyshev. Pero tiene un costo: el paso máximo estable de un esquema explícito baja como `1/N⁴`, y funciona mal si la solución no es suave.
 
@@ -551,7 +1536,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La conversación en tiempo real exige retardos pequeños.
 
-🎯 **Por qué importa (clase B113-C03):** Ninguna clase trata el efecto del retardo en el apoyo psicológico. La decisión central: ¿qué formatos de apoyo siguen siendo posibles cuando una respuesta tarda decenas de minutos?
+💡 **Cómo se explica en la clase [B113-C03](../programa/clases/B113/B113-C03-comunicacion-diferida-y-soporte-psicologico-a-distancia/CLASE.md):**
+- Distinguir conversación en tiempo real de mensajes asincrónicos.
+- 🎯 **Por qué importa:** Ninguna clase trata el efecto del retardo en el apoyo psicológico. La decisión central: ¿qué formatos de apoyo siguen siendo posibles cuando una respuesta tarda decenas de minutos?
 
 📘 **Dónde se aprende** (1 clase): [B113-C03 · Comunicación diferida y soporte psicológico a distancia](../programa/clases/B113/B113-C03-comunicacion-diferida-y-soporte-psicologico-a-distancia/CLASE.md).
 
@@ -560,11 +1547,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - Una conversión (o *cast*) transforma un valor de un tipo a otro.
 - Una conversión cambia la unidad sin cambiar la cantidad física.
 
-💡 **Cómo se explica en la clase [B14-C04](../programa/clases/B14/B14-C04-unidades-y-constantes-con-astropy/CLASE.md):**
-- La página enseña `42.0 * u.meter` y conversión con `.to`: `(1.0 * u.parsec).to(u.km)`.
-- Si `a` estuviera en km y `GM_earth` en m³/s², Astropy resuelve la conversión sola; un número sin unidad no lo haría.
-- ⚠️ **Error frecuente:** Confundir `.value` con una conversión. Se corrige con el ejercicio 6.
-- 🎯 **Por qué importa:** En 1999 la sonda Mars Climate Orbiter se perdió al llegar a Marte. NASA atribuye la pérdida a un error de navegación causado por no traducir unidades inglesas a métricas: el software en tierra usaba unidades inglesas y el de a bordo, métricas (S1).
+💡 **Cómo se explica en la clase [B07-C02](../programa/clases/B07/B07-C02-tipos-de-datos-y-variables/CLASE.md):**
+- Imprime cada variable con su tipo y añade al menos tres `assert` que comprueben los tipos y una conversión.
+- Antes de imprimir ejecuta pruebas: tipos esperados, `0.1 + 0.2 != 0.3` y `isclose`, división real/entera/resto, conversiones de texto, `True + True == 2` y consistencia de la masa en notación científica y diámetro = 2 × radio.
+- 🎯 **Por qué importa:** Un dato sin tipo es ambiguo: «12756» puede ser un número con el que calculas o un texto que lees de un archivo. Si el programa los confunde, falla o, peor, da un resultado plausible pero erróneo.
 
 📘 **Dónde se aprende** (2 clases): [B07-C02 · Tipos de datos y variables](../programa/clases/B07/B07-C02-tipos-de-datos-y-variables/CLASE.md); [B14-C04 · Unidades y constantes con Astropy](../programa/clases/B14/B14-C04-unidades-y-constantes-con-astropy/CLASE.md).
 
@@ -582,7 +1568,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La conversión ida y vuelta es la prueba `estado → elementos → estado`.
 
-🎯 **Por qué importa (clase B72-C12):** Un catálogo publica elementos de un instante; usarlos como si fueran constantes introduce errores de kilómetros. La decisión central: ¿cuánto difiere un elemento osculador del medio y qué error de fase o de periodo produce usar el equivocado?
+💡 **Cómo se explica en la clase [B72-C12](../programa/clases/B72/B72-C12-variaciones-de-elementos-osculadores/CLASE.md):**
+- Comprobar la conversión con un error de ida y vuelta de `10⁻¹⁵`.
+- 🎯 **Por qué importa:** Un catálogo publica elementos de un instante; usarlos como si fueran constantes introduce errores de kilómetros. La decisión central: ¿cuánto difiere un elemento osculador del medio y qué error de fase o de periodo produce usar el equivocado?
 
 📘 **Dónde se aprende** (1 clase): [B72-C12 · Variaciones de elementos osculadores](../programa/clases/B72/B72-C12-variaciones-de-elementos-osculadores/CLASE.md).
 
@@ -615,6 +1603,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B15-C08](../programa/clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md):**
 - El teorema de convolución (S1, §1.14, la propiedad de convolución: la transformada de `f ∗ g` es el producto de las transformadas, con la normalización de S1) tiene una versión discreta: la DFT de la convolución circular es el producto de las DFT.
+- No: obtiene la convolución circular; el laboratorio da una desviación máxima de `2,75` respecto a la lineal.
 - 🎯 **Por qué importa:** Un termistor a bordo de una nave no mide la temperatura del instante: mide una versión retrasada y suavizada, porque su cuerpo tarda en calentarse o enfriarse. Si la nave entra en eclipse y el entorno baja 50 K de golpe, el sensor irá bajando poco a poco.
 
 📘 **Dónde se aprende** (1 clase): [B15-C08 · Convolución y respuesta impulsional](../programa/clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md).
@@ -624,8 +1613,8 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La coordenada `r` se define de modo que una circunferencia mide `2πr`.
 
 💡 **Cómo se explica en la clase [B26-C07](../programa/clases/B26/B26-C07-curvatura-y-metricas/CLASE.md):**
-- Paso 2 · Distancia coordenada. `Δr = 6,957 × 10⁸ m`.
-- Paso 6 · Sentido. La distancia propia es `1,5 × 10⁻⁶` mayor que la coordenada.
+- Entre `R☉` y `2R☉`, `s = 6,957 010 × 10⁸ m`, `1023,52 m` más que la diferencia de coordenadas `6,957 × 10⁸ m`.
+- *Descripción textual:* la masa fija `r_s`; el factor `1 − r_s/r` aparece en la métrica; la distancia propia radial integra su raíz inversa y resulta mayor que la diferencia de coordenadas.
 - 🎯 **Por qué importa:** Medir una distancia cerca de una masa grande no da lo mismo que en el espacio plano: el radio de un círculo y su circunferencia dejan de cumplir `C = 2πR`. Los GPS, las lentes gravitacionales y los agujeros negros dependen de esa diferencia.
 
 📘 **Dónde se aprende** (1 clase): [B26-C07 · Curvatura y métricas](../programa/clases/B26/B26-C07-curvatura-y-metricas/CLASE.md).
@@ -646,7 +1635,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Las coordenadas cartesianas `(x, y)` dan la posición por las distancias a dos ejes perpendiculares.
 
-🎯 **Por qué importa (clase B04-C10):** Un cometa se describe mejor diciendo «está a 2,19 au del Sol, a 120° del perihelio» que dando dos coordenadas rectangulares. Y un programa que convierte mal el ángulo coloca el cometa en el lado opuesto del Sol.
+💡 **Cómo se explica en la clase [B04-C10](../programa/clases/B04/B04-C10-coordenadas-polares-y-cartesianas/CLASE.md):**
+- python programa/clases/B04/B04-C10-coordenadas-polares-y-cartesianas/polares_y_orbita.py
+- 🎯 **Por qué importa:** Un cometa se describe mejor diciendo «está a 2,19 au del Sol, a 120° del perihelio» que dando dos coordenadas rectangulares. Y un programa que convierte mal el ángulo coloca el cometa en el lado opuesto del Sol.
 
 📘 **Dónde se aprende** (1 clase): [B04-C10 · Coordenadas polares y cartesianas](../programa/clases/B04/B04-C10-coordenadas-polares-y-cartesianas/CLASE.md).
 
@@ -654,7 +1645,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Las coordenadas esféricas dan un punto del espacio por su distancia `r` al origen y dos ángulos.
 
-🎯 **Por qué importa (clase B04-C11):** Un catálogo de estrellas da para cada una dos números: dónde está en el cielo. Pero un programa que cruza catálogos, calcula separaciones o apunta un telescopio no trabaja con horas y grados: trabaja con vectores.
+💡 **Cómo se explica en la clase [B04-C11](../programa/clases/B04/B04-C11-coordenadas-esfericas/CLASE.md):**
+- Definir coordenadas esféricas `(r, θ, φ)` y su convención de ángulos.
+- python programa/clases/B04/B04-C11-coordenadas-esfericas/direcciones_esfericas.py
+- 🎯 **Por qué importa:** Un catálogo de estrellas da para cada una dos números: dónde está en el cielo. Pero un programa que cruza catálogos, calcula separaciones o apunta un telescopio no trabaja con horas y grados: trabaja con vectores.
 
 📘 **Dónde se aprende** (1 clase): [B04-C11 · Coordenadas esféricas](../programa/clases/B04/B04-C11-coordenadas-esfericas/CLASE.md).
 
@@ -688,7 +1682,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Las coordenadas polares `(r, θ)` la dan por la distancia `r` a un origen (el polo) y el ángulo `θ` medido desde un eje polar.
 
-🎯 **Por qué importa (clase B04-C10):** Un cometa se describe mejor diciendo «está a 2,19 au del Sol, a 120° del perihelio» que dando dos coordenadas rectangulares. Y un programa que convierte mal el ángulo coloca el cometa en el lado opuesto del Sol.
+💡 **Cómo se explica en la clase [B04-C10](../programa/clases/B04/B04-C10-coordenadas-polares-y-cartesianas/CLASE.md):**
+- python programa/clases/B04/B04-C10-coordenadas-polares-y-cartesianas/polares_y_orbita.py
+- 🎯 **Por qué importa:** Un cometa se describe mejor diciendo «está a 2,19 au del Sol, a 120° del perihelio» que dando dos coordenadas rectangulares. Y un programa que convierte mal el ángulo coloca el cometa en el lado opuesto del Sol.
 
 📘 **Dónde se aprende** (1 clase): [B04-C10 · Coordenadas polares y cartesianas](../programa/clases/B04/B04-C10-coordenadas-polares-y-cartesianas/CLASE.md).
 
@@ -706,8 +1702,8 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La coordinación busca evitar interferencia entre sistemas.
 
 💡 **Cómo se explica en la clase [B119-C09](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md):**
+- La UIT-R examina, coordina, inscribe y ayuda con las interferencias; los criterios numéricos quedan como «no consultados».
 - N["Notificación a la UIT"] --> C["Coordinación"]
-- Por procedimiento: notificación, coordinación, inscripción.
 - 🎯 **Por qué importa:** Ninguna clase anterior vincula el derecho de telecomunicaciones con el cálculo de interferencia; B120 trata licencias y espectro en detalle y esta clase fija el marco.
 
 📘 **Dónde se aprende** (2 clases): [B119-C09 · Derecho y normas de telecomunicaciones](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md); [B120-C01 · Licencias satelitales y procedimiento de notificación](../programa/clases/B120/B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md).
@@ -726,6 +1722,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B14-C02](../programa/clases/B14/B14-C02-arreglos-multidimensionales-numpy/CLASE.md):**
 - Indexar con una lista de posiciones `est[[0, 1]]` crea una copia.
+- Distinguir si una operación devuelve una vista o una copia, y por qué importa.
 - ⚠️ **Error frecuente:** Confundir vista y copia. Se corrige con los ejercicios 5 y 11.
 - 🎯 **Por qué importa:** Una constelación de seis satélites y cinco estaciones en tierra producen treinta distancias. Un catálogo de estrellas produce millones.
 
@@ -785,7 +1782,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El coronógrafo bloquea el disco solar para ver la corona.
 
-🎯 **Por qué importa (clase B30-C13):** Saber cuándo llegará una CME determina el margen de alerta. La decisión central: ¿cuánto tarda en llegar y cuánto depende ese tiempo del arrastre?
+💡 **Cómo se explica en la clase [B30-C13](../programa/clases/B30/B30-C13-eyecciones-de-masa-coronal/CLASE.md):**
+- Las eyecciones de masa se observan con coronógrafos; un estudio de 909 CME de tipo *streamer-blowout* con LASCO/C2 forma parte del contexto (S3, solo resumen).
+- 🎯 **Por qué importa:** Saber cuándo llegará una CME determina el margen de alerta. La decisión central: ¿cuánto tarda en llegar y cuánto depende ese tiempo del arrastre?
 
 📘 **Dónde se aprende** (1 clase): [B30-C13 · Eyecciones de masa coronal](../programa/clases/B30/B30-C13-eyecciones-de-masa-coronal/CLASE.md).
 
@@ -818,7 +1817,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La corrección atmosférica convierte `ρ_TOA` en `ρ_s`.
 
-🎯 **Por qué importa (clase B57-C26):** Comparar imágenes de fechas distintas con atmósferas distintas confunde atmósfera con cambio. La decisión central: ¿cuánto sesga la atmósfera y cómo se estima y descuenta con la información disponible?
+💡 **Cómo se explica en la clase [B57-C26](../programa/clases/B57/B57-C26-correccion-atmosferica-de-imagenes/CLASE.md):**
+- La evidencia es la ficha de corrección atmosférica del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de corrección atmosférica*: la tabla de reflectancias del suelo, el TOA y la corregida, el sesgo del NDVI y el error del objeto oscuro y de un `τ` mal estimado.
+- 🎯 **Por qué importa:** Comparar imágenes de fechas distintas con atmósferas distintas confunde atmósfera con cambio. La decisión central: ¿cuánto sesga la atmósfera y cómo se estima y descuenta con la información disponible?
 
 📘 **Dónde se aprende** (1 clase): [B57-C26 · Corrección atmosférica de imágenes](../programa/clases/B57/B57-C26-correccion-atmosferica-de-imagenes/CLASE.md).
 
@@ -827,6 +1829,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La corrección baricéntrica quita el movimiento de la Tierra.
 
 💡 **Cómo se explica en la clase [B45-C12](../programa/clases/B45/B45-C12-efecto-doppler-en-espectros/CLASE.md):**
+- Ejercicio 10 · transferencia. Transferencia. ¿Qué es la corrección baricéntrica?
 - ⚠️ **Error frecuente:** Olvidar la corrección baricéntrica. Se corrige con 8.3.
 - 🎯 **Por qué importa:** Las velocidades radiales descubren planetas, binarias y la expansión del universo. La decisión central: ¿cómo se pasa de un corrimiento a una velocidad y con qué precisión?
 
@@ -838,9 +1841,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La corrección de Bonferroni divide `α` entre el número de pruebas.
 - Las comparaciones múltiples inflan `α`; la corrección de Bonferroni usa `α/m`.
 
-💡 **Cómo se explica en la clase [B20-C02](../programa/clases/B20/B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md):**
-- La corrección de Bonferroni exige `p < α/k` en cada prueba.
-- 🎯 **Por qué importa:** Un grupo mide cinco variantes razonables de un mismo análisis y publica la que da «un resultado significativo». Nadie mintió con un número, y sin embargo el resultado ya no significa lo que dice.
+💡 **Cómo se explica en la clase [B14-C23](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md):**
+- Aplicar la corrección de Bonferroni y explicar su coste.
+- 🎯 **Por qué importa:** Tienes una curva de luz y muchas formas de analizarla: otro filtro, otra ventana, otro modelo, otra prueba. Si pruebas veinte y comunicas la que «sale», el resultado casi seguro parece significativo aunque no haya nada.
 
 📘 **Dónde se aprende** (3 clases): [B14-C23 · Protocolo preregistrado de análisis](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md); [B20-C02 · Diseño de un plan de análisis y preregistro](../programa/clases/B20/B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md); [B105-C20 · Diseño de protocolo médico simulado](../programa/clases/B105/B105-C20-diseno-de-protocolo-medico-simulado/CLASE.md).
 
@@ -850,6 +1853,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B21-C05](../programa/clases/B21/B21-C05-mallas-adaptativas-amr/CLASE.md):**
 - Paso 4 · Corrección de flujo. Sea la advección con `a = 1`, `ν = 0,8` y una celda gruesa a la izquierda del parche con `u_viejo = 1,0`.
+- Explicar el subciclado y la corrección de flujo en las interfaces grueso–fino.
 - 🎯 **Por qué importa:** Los códigos de referencia en astrofísica, como RAMSES (S1) y Athena++ (S2), usan mallas adaptativas porque los problemas tienen rangos de escala enormes. Pero un esquema adaptativo mal construido no conserva: crea o destruye masa en las interfaces entre niveles, justo donde está el fenómeno interesante.
 
 📘 **Dónde se aprende** (1 clase): [B21-C05 · Mallas adaptativas (AMR)](../programa/clases/B21/B21-C05-mallas-adaptativas-amr/CLASE.md).
@@ -868,6 +1872,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B103-C04](../programa/clases/B103/B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md):**
 - Con el ruido ilustrativo `σ_h = 0,0005 r²` (5 cm a 10 m), el clasificador bruto deja pasar solo 27 peligros de 22 144, pero da un 99,4 % de falsas alarmas entre 10 y 15 m; con corrección de sesgo, las falsas alarmas bajan a 0,6 % pero se pierde el 72,9 % de los peligros en esa banda.
+- El script [traversabilidad.py](traversabilidad.py) genera un MDE con rocas, calcula pendiente, escalón y rugosidad en ventanas, clasifica con y sin corrección de sesgo y muestra la matriz de confusión por rango (comprueba 0 errores sin ruido y el compromiso entre falsos «seguro» y falsas alarmas).
 - 🎯 **Por qué importa:** El ruido del MDE crece con el cuadrado del rango y, a partir de cierta distancia, la señal de un obstáculo queda por debajo del ruido. La decisión central: ¿hasta qué rango se puede clasificar el terreno de forma útil, y qué política (conservadora o corregida) elegir más allá?
 
 📘 **Dónde se aprende** (1 clase): [B103-C04 · Detección de obstáculos y mapas de traversabilidad](../programa/clases/B103/B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md).
@@ -876,7 +1881,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La corrección de Van Vleck: `ρ = sin(π ρ_q/2)` para 1 bit.
 
-🎯 **Por qué importa (clase B51-C12):** La elección de bits y de formato fija cuánta sensibilidad se pierde y cuánto disco y red se necesitan. La decisión central: ¿cuántos bits por muestra, qué eficiencia se obtiene y cómo se empaqueta sin perder información?
+💡 **Cómo se explica en la clase [B51-C12](../programa/clases/B51/B51-C12-formatos-de-datos-vlbi-y-geodesicos/CLASE.md):**
+- Aplicar la corrección de Van Vleck para 1 bit.
+- El script [formatos_de_datos.py](formatos_de_datos.py) cuantiza, corrige, empaqueta y arma una cabecera (comprueba `η` a 0,01, la corrección de Van Vleck a tres errores estándar y la ida y vuelta exacta).
+- 🎯 **Por qué importa:** La elección de bits y de formato fija cuánta sensibilidad se pierde y cuánto disco y red se necesitan. La decisión central: ¿cuántos bits por muestra, qué eficiencia se obtiene y cómo se empaqueta sin perder información?
 
 📘 **Dónde se aprende** (1 clase): [B51-C12 · Formatos de datos VLBI y geodésicos](../programa/clases/B51/B51-C12-formatos-de-datos-vlbi-y-geodesicos/CLASE.md).
 
@@ -893,7 +1901,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La corrección diferencial ajusta `v_y0` hasta anular `vx` en el cruce.
 - La corrección diferencial ajusta el estado inicial hasta que la órbita se cierre.
 
-🎯 **Por qué importa (clase B73-C05):** Una nave que orbita un punto de Lagrange sigue una órbita periódica, no el punto. Hallarla exige resolver un problema de contorno: no hay fórmula.
+💡 **Cómo se explica en la clase [B76-C05](../programa/clases/B76/B76-C05-orbitas-nrho/CLASE.md):**
+- Aplicar la corrección diferencial de Newton sobre `x0` y `vy0`.
+- 🎯 **Por qué importa:** La NRHO es la órbita de referencia publicada para la estación Gateway. La decisión central: ¿cómo se calcula una órbita periódica inestable y qué tan cerca queda un modelo simple de la referencia en un modelo de efemérides?
 
 📘 **Dónde se aprende** (2 clases): [B73-C05 · Órbitas periódicas](../programa/clases/B73/B73-C05-orbitas-periodicas/CLASE.md); [B76-C05 · Órbitas NRHO](../programa/clases/B76/B76-C05-orbitas-nrho/CLASE.md).
 
@@ -917,7 +1927,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - `s_{k+1} = s_k + (h/2)(k₁ + k₂)` (corrector).
 
-🎯 **Por qué importa (clase B11-C06):** Una evaluación de `F` en un cálculo de trayectorias es cara cuando incluye gravedad de varios cuerpos o un modelo de atmósfera. La pregunta práctica es siempre cuánta precisión compra cada evaluación.
+💡 **Cómo se explica en la clase [B11-C06](../programa/clases/B11/B11-C06-metodo-de-heun/CLASE.md):**
+- Aplicar a mano el método de Heun (predictor y corrector).
+- Heun existe precisamente por el corrector.
+- 🎯 **Por qué importa:** Una evaluación de `F` en un cálculo de trayectorias es cara cuando incluye gravedad de varios cuerpos o un modelo de atmósfera. La pregunta práctica es siempre cuánta precisión compra cada evaluación.
 
 📘 **Dónde se aprende** (1 clase): [B11-C06 · Método de Heun](../programa/clases/B11/B11-C06-metodo-de-heun/CLASE.md).
 
@@ -927,6 +1940,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B41-C20](../programa/clases/B41/B41-C20-diseno-preliminar-de-un-telescopio/CLASE.md):**
 - El cálculo muestra que el espejo y el plano cumplen, pero que el instrumento no cubre el sensor completo sin un corrector de coma: la conclusión del diseño no es «todo cumple» sino qué hay que añadir.
+- La conclusión importante: la coma en el borde del sensor es `100,57 µm`, unas `30` veces el radio de Airy: se necesita un corrector.
 - 🎯 **Por qué importa:** Un diseño es un conjunto de compromisos. La decisión central: ¿qué apertura y qué focal cumplen el objetivo y qué defecto domina?
 
 📘 **Dónde se aprende** (1 clase): [B41-C20 · Diseño preliminar de un telescopio](../programa/clases/B41/B41-C20-diseno-preliminar-de-un-telescopio/CLASE.md).
@@ -943,7 +1957,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El corredor de entrada es el intervalo de ángulos de entrada aceptables.
 
-🎯 **Por qué importa (clase B77-C25):** El corredor es la tolerancia que se le deja a la navegación y a la guía antes de entrar. La decisión central: ¿entre qué ángulos puede entrar el vehículo, cuánto ensancha el corredor la sustentación y cuándo falla la estimación de Allen–Eggers?
+💡 **Cómo se explica en la clase [B77-C25](../programa/clases/B77/B77-C25-corredores-de-entrada-y-limites-de-trayectoria/CLASE.md):**
+- *Descripción textual:* para cada ángulo de entrada se simula el paso por la atmósfera; el máximo de desaceleración da el límite empinado y el apogeo de salida da el somero; su diferencia es el corredor, que la sustentación ensancha.
+- La evidencia es la ficha de corredor de entrada del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** El corredor es la tolerancia que se le deja a la navegación y a la guía antes de entrar. La decisión central: ¿entre qué ángulos puede entrar el vehículo, cuánto ensancha el corredor la sustentación y cuándo falla la estimación de Allen–Eggers?
 
 📘 **Dónde se aprende** (1 clase): [B77-C25 · Corredores de entrada y límites de trayectoria](../programa/clases/B77/B77-C25-corredores-de-entrada-y-limites-de-trayectoria/CLASE.md).
 
@@ -956,6 +1973,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B26-C21](../programa/clases/B26/B26-C21-verosimilitud-cosmologica-con-datos-combinados/CLASE.md):**
 - Con dos medidas de `σ = 0,018` y `0,015` y correlación `ρ`, la incertidumbre combinada es `0,01152` si `ρ = 0`, `0,01400` si `ρ = 0,5` y `0,01483` si `ρ = 0,9`: la correlación quita información.
+- Incluir una correlación entre dos medidas.
 - 🎯 **Por qué importa:** Ninguna sonda fija sola todos los parámetros; combinarlas reduce la incertidumbre, pero solo si son compatibles entre sí y si se tratan bien sus correlaciones. La decisión central: dadas tres restricciones sobre `Ω_m`, ¿cuál es el valor combinado, qué incertidumbre tiene y son consistentes entre sí?
 
 📘 **Dónde se aprende** (7 clases): [B26-C21 · Verosimilitud cosmológica con datos combinados](../programa/clases/B26/B26-C21-verosimilitud-cosmologica-con-datos-combinados/CLASE.md); [B33-C01 · Validación de modelos MHD con eventos solares documentados](../programa/clases/B33/B33-C01-validacion-de-modelos-mhd-con-eventos-solares-documentados/CLASE.md); [B34-C07 · Comparación de modelos coronales con observaciones](../programa/clases/B34/B34-C07-comparacion-de-modelos-coronales-con-observaciones/CLASE.md); [B48-C03 · Propuestas científicas y criterios](../programa/clases/B48/B48-C03-propuestas-cientificas-y-criterios/CLASE.md); [B74-C11 · Matrices de covarianza — Estimación de órbitas y navegación espacial](../programa/clases/B74/B74-C11-matrices-de-covarianza-estimacion-de-orbitas-y-navegacion-espacial/CLASE.md); [B85-C27 · Márgenes y correlación térmica](../programa/clases/B85/B85-C27-margenes-y-correlacion-termica/CLASE.md) y 1 más.
@@ -989,7 +2007,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La correlación ítem–total corregida correlaciona un ítem con la suma de los demás.
 
-🎯 **Por qué importa (clase B105-C27):** Un cuestionario con ítems que no miden lo mismo produce una puntuación poco fiable, y con pocos participantes su fiabilidad ni siquiera se puede estimar. La decisión central: ¿qué ítems sobran, cuántos ítems hacen falta y cuántos participantes se necesitan para estimar el alfa con una incertidumbre aceptable?
+💡 **Cómo se explica en la clase [B105-C27](../programa/clases/B105/B105-C27-instrumentos-validados-y-psicometria-en-investigacion/CLASE.md):**
+- Correlaciones ítem–total corregidas: 0,716; 0,623; 0,649; 0,715; 0,624; 0,669; 0,594; 0,689 (ítems 1–8) y 0,283 y 0,145 (9 y 10).
+- Calcular la correlación ítem–total corregida y el alfa si se elimina cada ítem.
+- 🎯 **Por qué importa:** Un cuestionario con ítems que no miden lo mismo produce una puntuación poco fiable, y con pocos participantes su fiabilidad ni siquiera se puede estimar. La decisión central: ¿qué ítems sobran, cuántos ítems hacen falta y cuántos participantes se necesitan para estimar el alfa con una incertidumbre aceptable?
 
 📘 **Dónde se aprende** (1 clase): [B105-C27 · Instrumentos validados y psicometría en investigación](../programa/clases/B105/B105-C27-instrumentos-validados-y-psicometria-en-investigacion/CLASE.md).
 
@@ -1005,7 +2026,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Odometría visual: estimación del movimiento propio a partir de imágenes (F6). Correspondencia: par de observaciones del mismo punto en dos instantes.
 
-🎯 **Por qué importa (clase B99-C01):** Una trayectoria se obtiene sumando movimientos pequeños, y cada uno trae un error; esos errores no se corrigen solos. La decisión central: ¿con qué calidad de correspondencias y de medida puedo confiar en la odometría, y cuándo necesito corregirla con cierres de bucle (C04)?
+💡 **Cómo se explica en la clase [B99-C01](../programa/clases/B99/B99-C01-odometria-visual/CLASE.md):**
+- Se eligen 2 correspondencias al azar (basta para fijar un movimiento 2D rígido), se ajusta `(R, t)`, se cuentan los inliers (error `< 0,10 m`) y tras 60 hipótesis se reajusta con los inliers de la mejor.
+- A["Observaciones<br/>instante k y k+1"] --> B["Correspondencias<br/>mismo punto"]
+- 🎯 **Por qué importa:** Una trayectoria se obtiene sumando movimientos pequeños, y cada uno trae un error; esos errores no se corrigen solos. La decisión central: ¿con qué calidad de correspondencias y de medida puedo confiar en la odometría, y cuándo necesito corregirla con cierres de bucle (C04)?
 
 📘 **Dónde se aprende** (1 clase): [B99-C01 · Odometría visual](../programa/clases/B99/B99-C01-odometria-visual/CLASE.md).
 
@@ -1033,6 +2057,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B93-C01](../programa/clases/B93/B93-C01-diseno-de-pcb-espacial-conceptual/CLASE.md):**
 - Por margen: corriente admisible menos corriente real.
+- Ejercicio 5 · autónomo. Si el cobre fuera de 70 µm con el mismo ancho, ¿cómo cambia la corriente admisible?
 - 🎯 **Por qué importa:** El tronco no trataba el diseño de placas: B90 integra y B86 trata potencia, pero nadie calculaba una pista. La decisión central: ¿qué ancho de cobre y qué geometría de microtira necesita una placa para llevar una corriente y una señal dadas, y qué margen queda?
 
 📘 **Dónde se aprende** (1 clase): [B93-C01 · Diseño de PCB espacial (conceptual)](../programa/clases/B93/B93-C01-diseno-de-pcb-espacial-conceptual/CLASE.md).
@@ -1072,6 +2097,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La corriente de fusión `I_f` es la mínima que lo funde.
 
 💡 **Cómo se explica en la clase [B86-C10](../programa/clases/B86/B86-C10-proteccion-contra-sobrecorriente/CLASE.md):**
+- *Descripción textual:* el bus da la corriente de falla; de ella salen los tiempos y las integrales `I²t` de cada fusible; si la de despeje del fusible de la rama es menor que la de fusión del de aguas arriba, es selectivo.
 - Paso 4 · Lectura. Con `10 A`, más de tres veces la corriente de fusión, el fusible abre en unas décimas de segundo.
 - 🎯 **Por qué importa:** Si el fusible aguas arriba se funde antes que el de la rama averiada, un fallo local deja sin energía a toda la nave. Una protección bien coordinada aísla la rama y conserva el resto.
 
@@ -1092,7 +2118,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La corriente de oscuridad `D` es la carga generada térmicamente, en `e⁻/s/píxel`.
 
-🎯 **Por qué importa (clase B13-C15):** Una cámara espacial debe decidir cuánto tiempo exponer para detectar una fuente débil con una relación señal-ruido (SNR) dada. Exponer poco no la detecta; exponer demasiado satura los píxeles brillantes o desperdicia tiempo de misión.
+💡 **Cómo se explica en la clase [B13-C15](../programa/clases/B13/B13-C15-sensibilidad-de-detectores/CLASE.md):**
+- Con estos órdenes de magnitud (`R = 3,0 e⁻`, `1,6 e⁻/DN`) y un cielo, una corriente de oscuridad y una apertura sintéticos, se analiza una fuente débil.
+- 🎯 **Por qué importa:** Una cámara espacial debe decidir cuánto tiempo exponer para detectar una fuente débil con una relación señal-ruido (SNR) dada. Exponer poco no la detecta; exponer demasiado satura los píxeles brillantes o desperdicia tiempo de misión.
 
 📘 **Dónde se aprende** (1 clase): [B13-C15 · Sensibilidad de detectores](../programa/clases/B13/B13-C15-sensibilidad-de-detectores/CLASE.md).
 
@@ -1108,7 +2136,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B33-C07):** Una subestación con una corriente de tierra alta puede saturar un transformador. La decisión central: ¿cómo se reparte la corriente inducida entre las subestaciones?
+💡 **Cómo se explica en la clase [B33-C07](../programa/clases/B33/B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md):**
+- La subestación de menor resistencia a tierra (nodo 2) recibe la mayor corriente.
+- 🎯 **Por qué importa:** Una subestación con una corriente de tierra alta puede saturar un transformador. La decisión central: ¿cómo se reparte la corriente inducida entre las subestaciones?
 
 📘 **Dónde se aprende** (1 clase): [B33-C07 · Impactos del clima espacial en redes eléctricas](../programa/clases/B33/B33-C07-impactos-del-clima-espacial-en-redes-electricas/CLASE.md).
 
@@ -1132,7 +2162,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La corriente galvánica `I = ΔV/(Rp_a/A_a + Rp_c/A_c)` es la de la pila.
 
-🎯 **Por qué importa (clase B84-C21):** Un tornillo de acero inoxidable en un panel de aluminio puede corroerlo 90 veces más rápido que otro de aluminio, y la corrosión ocurre en tierra, antes del lanzamiento. La decisión central: ¿qué pares de materiales pueden ir en contacto y cómo debe ser la relación de áreas?
+💡 **Cómo se explica en la clase [B84-C21](../programa/clases/B84/B84-C21-compatibilidad-quimica-y-galvanica-de-materiales/CLASE.md):**
+- Calcular la corriente galvánica con un modelo de resistencias.
+- El script [galvanica.py](galvanica.py) calcula `ΔV`, la corriente galvánica y la velocidad de corrosión según la relación de áreas (comprueba coincidencia entre la masa de Faraday y `ρ × espesor × área` (< 1e-12)).
+- 🎯 **Por qué importa:** Un tornillo de acero inoxidable en un panel de aluminio puede corroerlo 90 veces más rápido que otro de aluminio, y la corrosión ocurre en tierra, antes del lanzamiento. La decisión central: ¿qué pares de materiales pueden ir en contacto y cómo debe ser la relación de áreas?
 
 📘 **Dónde se aprende** (1 clase): [B84-C21 · Compatibilidad química y galvánica de materiales](../programa/clases/B84/B84-C21-compatibilidad-quimica-y-galvanica-de-materiales/CLASE.md).
 
@@ -1140,7 +2173,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B33-C06):** El campo eléctrico depende de la conductividad y de la frecuencia. La decisión central: ¿cuánto vale el campo geoeléctrico y la corriente en una línea para un campo magnético dado?
+💡 **Cómo se explica en la clase [B33-C06](../programa/clases/B33/B33-C06-corrientes-geomagneticas-inducidas-gic/CLASE.md):**
+- Ejercicio 12. Integrador. Elabora tu *ficha de las corrientes inducidas*: campo, serie temporal y corriente.
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de las corrientes inducidas*: campo, serie temporal y corriente.
+- 🎯 **Por qué importa:** El campo eléctrico depende de la conductividad y de la frecuencia. La decisión central: ¿cuánto vale el campo geoeléctrico y la corriente en una línea para un campo magnético dado?
 
 📘 **Dónde se aprende** (1 clase): [B33-C06 · Corrientes geomagnéticas inducidas (GIC)](../programa/clases/B33/B33-C06-corrientes-geomagneticas-inducidas-gic/CLASE.md).
 
@@ -1150,6 +2186,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B44-C07](../programa/clases/B44/B44-C07-corriente-oscura/CLASE.md):**
 - Paso 3 · Resultado. La corriente oscura baja `6,34` veces.
+- Evaluar una ley térmica de la corriente oscura.
 - 🎯 **Por qué importa:** La oscuridad añade señal y ruido; saber cómo escala permite elegir temperatura y exposición. La decisión central: ¿cuánto hay que enfriar para que la corriente oscura deje de importar?
 
 📘 **Dónde se aprende** (1 clase): [B44-C07 · Corriente oscura](../programa/clases/B44/B44-C07-corriente-oscura/CLASE.md).
@@ -1160,6 +2197,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B45-C12](../programa/clases/B45/B45-C12-efecto-doppler-en-espectros/CLASE.md):**
 - Como la sirena de una ambulancia: el tono sube al acercarse y baja al alejarse; el corrimiento de las líneas es proporcional a la velocidad.
+- Medir un corrimiento por correlación cruzada.
 - 🎯 **Por qué importa:** Las velocidades radiales descubren planetas, binarias y la expansión del universo. La decisión central: ¿cómo se pasa de un corrimiento a una velocidad y con qué precisión?
 
 📘 **Dónde se aprende** (1 clase): [B45-C12 · Efecto Doppler en espectros](../programa/clases/B45/B45-C12-efecto-doppler-en-espectros/CLASE.md).
@@ -1186,7 +2224,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El corrimiento de transición `z_t` es aquel en que `ä = 0`.
 
-🎯 **Por qué importa (clase B26-C13):** La edad del universo, la distancia a una galaxia y el calendario de su historia salen de la ecuación de Friedmann. Con ella se interpreta cualquier parámetro cosmológico.
+💡 **Cómo se explica en la clase [B26-C13](../programa/clases/B26/B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md):**
+- Calcular el parámetro de deceleración y el corrimiento de transición.
+- 🎯 **Por qué importa:** La edad del universo, la distancia a una galaxia y el calendario de su historia salen de la ecuación de Friedmann. Con ella se interpreta cualquier parámetro cosmológico.
 
 📘 **Dónde se aprende** (1 clase): [B26-C13 · Modelo FLRW — Relatividad y cosmología](../programa/clases/B26/B26-C13-modelo-flrw-relatividad-y-cosmologia/CLASE.md).
 
@@ -1194,7 +2234,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El corrimiento exacto (Schwarzschild) es `1 + z = 1/√(1 − r_s/R)`.
 
-🎯 **Por qué importa (clase B26-C10):** El corrimiento gravitacional ajusta los relojes de los satélites de navegación, contamina la medida de velocidades en enanas blancas y revela la compacidad de las estrellas de neutrones. La decisión central: dada la compacidad de un cuerpo, ¿cuánto vale el corrimiento de su luz y cuándo falla la aproximación de campo débil?
+💡 **Cómo se explica en la clase [B26-C10](../programa/clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/CLASE.md):**
+- Ejercicio 5. Corrimiento exacto de la estrella de neutrones.
+- Ejercicio 12 · integrador. Elabora tu *tabla de corrimientos*: calcula `z` exacto y débil para cuatro cuerpos, el error de la serie, la velocidad equivalente y la razón suelo–órbita; interpreta la prueba Galileo.
+- 🎯 **Por qué importa:** El corrimiento gravitacional ajusta los relojes de los satélites de navegación, contamina la medida de velocidades en enanas blancas y revela la compacidad de las estrellas de neutrones. La decisión central: dada la compacidad de un cuerpo, ¿cuánto vale el corrimiento de su luz y cuándo falla la aproximación de campo débil?
 
 📘 **Dónde se aprende** (1 clase): [B26-C10 · Desplazamiento gravitacional al rojo](../programa/clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/CLASE.md).
 
@@ -1203,7 +2246,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El corrimiento gravitacional al rojo es el cambio de frecuencia de la luz al subir en un campo.
 - El corrimiento gravitacional al rojo es el aumento de longitud de onda de la luz al salir de un pozo de potencial.
 
-🎯 **Por qué importa (clase B26-C06):** Los relojes de los satélites de navegación van a un ritmo ligeramente distinto de los terrestres, y un maser en una torre ve su frecuencia cambiar con la altura. Todo eso se deduce de la equivalencia entre aceleración y gravedad.
+💡 **Cómo se explica en la clase [B26-C10](../programa/clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/CLASE.md):**
+- python programa/clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/corrimientos.py
+- 🎯 **Por qué importa:** El corrimiento gravitacional ajusta los relojes de los satélites de navegación, contamina la medida de velocidades en enanas blancas y revela la compacidad de las estrellas de neutrones. La decisión central: dada la compacidad de un cuerpo, ¿cuánto vale el corrimiento de su luz y cuándo falla la aproximación de campo débil?
 
 📘 **Dónde se aprende** (2 clases): [B26-C06 · Principio de equivalencia](../programa/clases/B26/B26-C06-principio-de-equivalencia/CLASE.md); [B26-C10 · Desplazamiento gravitacional al rojo](../programa/clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/CLASE.md).
 
@@ -1212,9 +2257,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La corrupción es una alteración involuntaria de los bytes.
 - La corrupción es el cambio de un elemento a una versión errónea.
 
-💡 **Cómo se explica en la clase [B133-C02](../programa/clases/B133/B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md):**
-- El ejemplo conductor es sintético: un relato de 12 elementos sostenido por `k` canales, con una pérdida de 0,15 y una corrupción de 0,05 por canal y generación.
-- 🎯 **Por qué importa:** La transmisión oral se trata a menudo como una cadena frágil («se pierde») o como un archivo infalible («se conservó intacto»). Ninguna de las dos cosas está probada en general.
+💡 **Cómo se explica en la clase [B14-C11](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md):**
+- Detectar la corrupción de un solo bit y la modificación de un único valor.
+- El script [versiones_de_datos.py](versiones_de_datos.py) implementa un almacén direccionado por contenido con SHA-256, comprueba el vector de prueba del NIST, inserta dos versiones y un duplicado, usa manifiestos como versiones, localiza el cambio, detecta la corrupción de un bit y mide el efecto avalancha.
+- 🎯 **Por qué importa:** Un análisis usó «la tabla de catálogo de octubre». En noviembre alguien reemplazó el archivo por otro con el mismo nombre.
 
 📘 **Dónde se aprende** (2 clases): [B14-C11 · Control de versiones de datos](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md); [B133-C02 · Narrativas orales y transmisión del saber del cielo](../programa/clases/B133/B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md).
 
@@ -1235,7 +2281,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Un corte de energía interrumpe la escritura en un byte.
 
-🎯 **Por qué importa (clase B88-C35):** Un corte durante una escritura deja un registro a medias. La decisión central: ¿qué esquema garantiza que, cortes donde cortes, siempre haya un estado válido recuperable?
+💡 **Cómo se explica en la clase [B88-C35](../programa/clases/B88/B88-C35-reinicio-en-caliente-y-persistencia-de-estado/CLASE.md):**
+- La evidencia es la prueba exhaustiva de corte de energía del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *prueba exhaustiva de corte de energía*: registro, esquema, cortes, resultados y lista de qué es sintético.
+- 🎯 **Por qué importa:** Un corte durante una escritura deja un registro a medias. La decisión central: ¿qué esquema garantiza que, cortes donde cortes, siempre haya un estado válido recuperable?
 
 📘 **Dónde se aprende** (1 clase): [B88-C35 · Reinicio en caliente y persistencia de estado](../programa/clases/B88/B88-C35-reinicio-en-caliente-y-persistencia-de-estado/CLASE.md).
 
@@ -1253,6 +2302,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B61-C07](../programa/clases/B61/B61-C07-cuencas-multianillo-y-grandes-impactos/CLASE.md):**
 - Con profundidad de excavación ilustrativa 0,1 D y corteza de 40 km: 300 km → 30 km (corteza); 600 km → 60 km (manto); 1000 km → 100 km (manto).
+- Comparar una profundidad de excavación ilustrativa con el espesor de la corteza.
 - 🎯 **Por qué importa:** Las cuencas dejan huella en la corteza entera. La decisión central: ¿cómo se espacian los anillos, qué proyectil implica una cuenca y cuándo excava hasta el manto?
 
 📘 **Dónde se aprende** (1 clase): [B61-C07 · Cuencas multianillo y grandes impactos](../programa/clases/B61/B61-C07-cuencas-multianillo-y-grandes-impactos/CLASE.md).
@@ -1303,6 +2353,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B14-C13](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md):**
 - Decisión. Para esta tarea de poco más de un segundo, no compensa; sí compensaría con trozos cien veces más largos, donde el coste de arranque es una fracción pequeña.
+- Límites: los tiempos cambian en cada ejecución y en cada máquina; en Linux, con `fork`, el coste de arranque sería menor; no se probaron hilos; el ajuste de `s` usa tres puntos.
 - 🎯 **Por qué importa:** Un análisis de miles de simulaciones tarda una noche. Tienes ocho núcleos.
 
 📘 **Dónde se aprende** (1 clase): [B14-C13 · Computación paralela](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md).
@@ -1312,7 +2363,8 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El coste de celda es `1 + w_s (pendiente/límite)² + w_r (rugosidad/límite)` y es infinito si se supera algún umbral.
 
 💡 **Cómo se explica en la clase [B102-C08](../programa/clases/B102/B102-C08-traversabilidad-y-evaluacion-de-riesgo-de-terreno/CLASE.md):**
-- *Descripción textual:* las elevaciones dan la pendiente y, con el plano local, la altura de obstáculo y la rugosidad; los tres forman el coste de celda y Dijkstra obtiene la ruta de mínimo coste.
+- Dijkstra con 8 vecinos y paso `Δx √2` o `Δx` por la media de los costes de las dos celdas encuentra una ruta de `56` celdas, `122,4 m` y coste `257,1`, frente a `99,0 m` en línea recta (`23,6 %` más larga).
+- Endurecer el límite de `30°` a `20°` triplica las celdas prohibidas y sube el coste de la ruta un `18,5 %`, aunque la geometría de la ruta no cambia.
 - 🎯 **Por qué importa:** Elegir la ruta es elegir qué riesgo se acepta. La decisión central: ¿qué celdas son intransitables, cuánto cuesta cruzar las demás y cuánto se alarga la ruta de mínimo riesgo respecto de la recta?
 
 📘 **Dónde se aprende** (1 clase): [B102-C08 · Traversabilidad y evaluación de riesgo de terreno](../programa/clases/B102/B102-C08-traversabilidad-y-evaluacion-de-riesgo-de-terreno/CLASE.md).
@@ -1321,7 +2373,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El coste de trazado es `Σ f·d`.
 
-🎯 **Por qué importa (clase B109-C02):** Un buen plano ahorra pasos, separa lo sucio de lo limpio y deja las zonas tranquilas lejos de las ruidosas. La decisión central: ¿dónde pongo cada zona para que los recorridos frecuentes sean cortos y las zonas incompatibles estén lejos?
+💡 **Cómo se explica en la clase [B109-C02](../programa/clases/B109/B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md):**
+- *Descripción textual:* las zonas y sus flujos definen un coste; una cuadrícula fija las posiciones posibles; la enumeración de todas las permutaciones da el mejor trazado, que se compara con los trazados al azar.
+- Calcular el coste de un trazado como suma de flujo por distancia.
+- 🎯 **Por qué importa:** Un buen plano ahorra pasos, separa lo sucio de lo limpio y deja las zonas tranquilas lejos de las ruidosas. La decisión central: ¿dónde pongo cada zona para que los recorridos frecuentes sean cortos y las zonas incompatibles estén lejos?
 
 📘 **Dónde se aprende** (1 clase): [B109-C02 · Zonificación y distribución funcional de módulos de un hábitat](../programa/clases/B109/B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md).
 
@@ -1334,6 +2389,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B07-C18](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md):**
 - Casos: lista vacía, un elemento, repetidos, ya ordenada (mínimo costo de inserción), inversa (máximo), y listas aleatorias contrastadas con `sorted`.
+- Contar comparaciones para medir el costo sin depender de la velocidad del equipo.
 - 🎯 **Por qué importa:** Un catálogo estelar tiene millones de objetos. Buscar uno a uno es posible con diez planetas y ruinoso con diez millones.
 
 📘 **Dónde se aprende** (4 clases): [B07-C18 · Algoritmos de búsqueda y ordenamiento](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md); [B33-C05 · Comunicación de riesgo y alertas de clima espacial](../programa/clases/B33/B33-C05-comunicacion-de-riesgo-y-alertas-de-clima-espacial/CLASE.md); [B75-C12 · Optimización de trayectoria](../programa/clases/B75/B75-C12-optimizacion-de-trayectoria/CLASE.md); [B97-C09 · Robótica colaborativa](../programa/clases/B97/B97-C09-robotica-colaborativa/CLASE.md).
@@ -1366,6 +2422,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B127-C08](../programa/clases/B127/B127-C08-simulacion-de-cobertura-de-seguros-para-una-mision/CLASE.md):**
 - *Descripción textual:* el mismo conjunto de eventos aleatorios se aplica a cuatro estrategias que añaden coberturas de a una; para cada una se simula el costo del operador y se resumen su media, su desviación, su cuantil 99 % y la probabilidad de superar `60 MUSD`.
+- Límite: aquí el operador es neutral al costo de capital y no hay efectos de segundo orden, como la caída del negocio tras una pérdida.
 - 🎯 **Por qué importa:** Integrar los seguros de una misión en un caso permite practicar la decisión; no existía tal caso. La decisión central: ¿cuánto se paga de más por reducir el riesgo y qué riesgo se está dispuesto a retener?
 
 📘 **Dónde se aprende** (1 clase): [B127-C08 · Simulación de cobertura de seguros para una misión](../programa/clases/B127/B127-C08-simulacion-de-cobertura-de-seguros-para-una-mision/CLASE.md).
@@ -1376,6 +2433,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B17-C12](../programa/clases/B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md):**
 - Costo esperado: el que lleva a una decisión; exige conocer costos.
+- Elegir un umbral minimizando un costo esperado.
 - 🎯 **Por qué importa:** Un modelo marca candidatos a planeta, y cada alerta cuesta horas de revisión. Si el modelo acierta el 99 % en una muestra donde el 99 % son negativos, no dice nada útil.
 
 📘 **Dónde se aprende** (1 clase): [B17-C12 · Evaluación de modelos: precisión, exhaustividad y falsos positivos](../programa/clases/B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md).
@@ -1386,6 +2444,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B124-C22](../programa/clases/B124/B124-C22-modelo-de-costo-de-un-servicio-de-datos/CLASE.md):**
 - F["costo fijo F"] --> C["C(Q) = F + vQ + S ⌈Q/cap⌉"]
+- *Descripción textual:* los costos fijo, variable y escalonado forman el costo total, del que salen el costo medio, el precio con margen y el equilibrio; la incertidumbre de la demanda se evalúa con dos métodos.
 - 🎯 **Por qué importa:** B124 trata financiamiento, pero un servicio sostenible depende de un modelo de costo que explique cómo cambia el costo medio con el volumen. La decisión central: ¿a qué precio y con qué volumen el servicio cubre sus costos, y cuánto riesgo tiene si la demanda varía?
 
 📘 **Dónde se aprende** (1 clase): [B124-C22 · Modelo de costo de un servicio de datos](../programa/clases/B124/B124-C22-modelo-de-costo-de-un-servicio-de-datos/CLASE.md).
@@ -1394,7 +2453,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Precio fijo (FFP): el pago no depende del costo real. Costo más incentivo (CPIF): se paga el costo real más un honorario que baja cuando el costo supera el objetivo.
 
-🎯 **Por qué importa (clase B124-C10):** El tipo de contrato reparte el riesgo de sobrecosto entre quien compra y quien vende. La decisión central: ¿cuánto riesgo asume cada parte con cada tipo de contrato y cuánto cuesta ese reparto en promedio?
+💡 **Cómo se explica en la clase [B124-C10](../programa/clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md):**
+- Ninguno es mejor en sí: depende de qué tan bien se conoce el costo, y el modelo no incluye incentivos a ocultar costos ni renegociaciones.
+- Describir un contrato de precio fijo y uno de costo más honorario con incentivo.
+- 🎯 **Por qué importa:** El tipo de contrato reparte el riesgo de sobrecosto entre quien compra y quien vende. La decisión central: ¿cuánto riesgo asume cada parte con cada tipo de contrato y cuánto cuesta ese reparto en promedio?
 
 📘 **Dónde se aprende** (1 clase): [B124-C10 · Contratos y compras espaciales](../programa/clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md).
 
@@ -1437,7 +2499,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B124-C23](../programa/clases/B124/B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md):**
 - El costo por kilogramo es el precio dividido por una fracción pequeña: cualquier mejora de la fracción mejora el costo en la misma proporción.
-- *Descripción textual:* el Δv y la eficiencia dan la razón de masas de cada etapa y, con el coeficiente estructural, la fracción de carga; el producto de fracciones y el precio dan el costo por kilogramo a órbita, que se divide por la fracción de descenso para llegar a superficie.
+- El descenso desde órbita baja (`Δv = 6 000 m/s`, `Isp` 340 s, `e = 0,12`) deja una fracción de `0,05157`, así que cada kilogramo en superficie exige `1/0,05157` kg en órbita: el costo sube a `87176` um/kg (`19,4` veces); con reutilización, `61024`.
 - ⚠️ **Error frecuente:** Tomar un costo por kilogramo como un dato universal. Se corrige con la sección 10 y el ejercicio 11.
 - 🎯 **Por qué importa:** El costo por kilogramo a superficie no se puede leer en una lista de precios: depende de una cadena de fracciones de masa que se multiplican. La decisión central: ¿cuánto cuesta llevar un kilogramo a la superficie, de qué depende ese costo y qué lo hace más sensible?
 
@@ -1447,7 +2509,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El costo por metro es el `Δv` entre el cambio de posición.
 
-🎯 **Por qué importa (clase B76-C11):** Una aproximación a baja velocidad no puede depender de que todos los impulsos se ejecuten. La decisión central: ¿cuántos tramos usar, cuánto cuestan y qué ocurre si el segundo impulso de un tramo falla?
+💡 **Cómo se explica en la clase [B76-C11](../programa/clases/B76/B76-C11-operaciones-de-aproximacion/CLASE.md):**
+- Comparar el costo por metro de tramos de distinta duración.
+- Ejercicio 2 · con una pista. Calcula el costo por metro del tramo 1.
+- 🎯 **Por qué importa:** Una aproximación a baja velocidad no puede depender de que todos los impulsos se ejecuten. La decisión central: ¿cuántos tramos usar, cuánto cuestan y qué ocurre si el segundo impulso de un tramo falla?
 
 📘 **Dónde se aprende** (1 clase): [B76-C11 · Operaciones de aproximación](../programa/clases/B76/B76-C11-operaciones-de-aproximacion/CLASE.md).
 
@@ -1457,6 +2522,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B124-C11](../programa/clases/B124/B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md):**
 - Con 100 000 suscriptores el ingreso es `60,0` Mum/año, el margen `21,100` Mum/año y el costo por suscriptor-mes `32,42` um; el despliegue se recupera en `4,27` años (sin descuento).
+- *Descripción textual:* la flota y su vida dan la tasa de reposición, que se verifica por simulación; esta, más el costo operativo, da el costo anual y, con el ARPU, el equilibrio en suscriptores.
 - 🎯 **Por qué importa:** Una constelación puede ser técnicamente exitosa y económicamente inviable si la reposición se come el margen. La decisión central: ¿cuántos suscriptores se necesitan para cubrir la reposición y la operación, y qué tan sensible es eso a la vida útil?
 
 📘 **Dónde se aprende** (1 clase): [B124-C11 · Sostenibilidad económica de constelaciones](../programa/clases/B124/B124-C11-sostenibilidad-economica-de-constelaciones/CLASE.md).
@@ -1477,7 +2543,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Los costos se reparten por igual salvo decisión distinta (art.
 
-🎯 **Por qué importa (clase B123-C03):** Un derecho a reclamar se pierde o se debilita si no se ejerce por la vía y en el plazo previstos. La decisión central: ¿cuándo y cómo se presenta la reclamación, cuándo se puede pedir una comisión y qué valor tiene su decisión?
+💡 **Cómo se explica en la clase [B123-C03](../programa/clases/B123/B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md):**
+- Ejercicio 5 · autónomo. ¿Quién paga los costos de la comisión?
+- 🎯 **Por qué importa:** Un derecho a reclamar se pierde o se debilita si no se ejerce por la vía y en el plazo previstos. La decisión central: ¿cuándo y cómo se presenta la reclamación, cuándo se puede pedir una comisión y qué valor tiene su decisión?
 
 📘 **Dónde se aprende** (1 clase): [B123-C03 · Mecanismos de reclamación entre Estados](../programa/clases/B123/B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md).
 
@@ -1488,6 +2556,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 💡 **Cómo se explica en la clase [B14-C27](../programa/clases/B14/B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md):**
 - Un píxel junto a la costura necesita hasta 2 píxeles de la tesela vecina.
 - El laboratorio comprueba que todos esos píxeles están a 2 o menos píxeles de una costura interior: el error vive en las franjas de ancho `2R` alrededor de las costuras, no en el interior de las teselas.
+- ⚠️ **Error frecuente:** Culpar al redondeo de un error de costuras. Se corrige con el ejercicio 11.
 - 🎯 **Por qué importa:** Una cobertura global de imágenes ocupa terabytes y ningún equipo la carga entera. Para suavizarla, calcular un índice o detectar cambios hay que procesarla por pedazos.
 
 📘 **Dónde se aprende** (1 clase): [B14-C27 · Procesamiento por teselas de grandes volúmenes de imágenes](../programa/clases/B14/B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md).
@@ -1510,7 +2579,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La cota aproximada supone `k × (celdas medias por campo)` celdas.
 
-🎯 **Por qué importa (clase B28-C15):** Observar más campos cubre más probabilidad, pero cada campo recibe menos tiempo y es menos profundo. Si la fuente es débil, el exceso de campos hace que no se vea.
+💡 **Cómo se explica en la clase [B28-C15](../programa/clases/B28/B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md):**
+- Comparar la cobertura con una cota aproximada y con la garantía `1 − 1/e`.
+- Ejercicio 11 · transferencia. ¿Qué valida la comparación con la cota aproximada?
+- 🎯 **Por qué importa:** Observar más campos cubre más probabilidad, pero cada campo recibe menos tiempo y es menos profundo. Si la fuente es débil, el exceso de campos hace que no se vea.
 
 📘 **Dónde se aprende** (1 clase): [B28-C15 · Búsqueda de contrapartidas ópticas](../programa/clases/B28/B28-C15-busqueda-de-contrapartidas-opticas/CLASE.md).
 
@@ -1520,6 +2592,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B83-C24](../programa/clases/B83/B83-C24-arboles-de-fallos-fta-y-analisis-de-causas/CLASE.md):**
 - La enumeración exacta de los 128 estados da 0,016132; la inclusión–exclusión, 0,016132; la aproximación de evento raro, 0,016200 (un 0,42 % de más); la cota de cortes mínimos, 0,016132 (aquí coincide porque los cortes mínimos no comparten eventos);
+- Comparar la aproximación de evento raro y la cota de cortes mínimos con el valor exacto.
 - 🎯 **Por qué importa:** Un fallo combinado como «dos sensores fallan a la vez» no aparece en una lista de modos individuales. La decisión central: ¿qué combinaciones de fallos causan el evento no deseado, cuál es su probabilidad y qué evento básico conviene proteger primero?
 
 📘 **Dónde se aprende** (1 clase): [B83-C24 · Árboles de fallos (FTA) y análisis de causas](../programa/clases/B83/B83-C24-arboles-de-fallos-fta-y-analisis-de-causas/CLASE.md).
@@ -1533,6 +2606,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B15-C15](../programa/clases/B15/B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md):**
 - *Descripción textual:* los datos con ruido alimentan un estimador; de su sesgo y su varianza sale el error cuadrático medio; la varianza de un estimador sin sesgo se compara con la cota de Cramér–Rao.
+- Calcular la información de Fisher y la cota de Cramér–Rao.
 - 🎯 **Por qué importa:** Un telescopio recoge 100 fotones de una estrella y quieres su posición con la mayor exactitud posible. ¿Basta con promediar las posiciones?
 
 📘 **Dónde se aprende** (6 clases): [B15-C15 · Estimación de parámetros — Señales, imágenes y estimación científica](../programa/clases/B15/B15-C15-estimacion-de-parametros-senales-imagenes-y-estimacion-cientifica/CLASE.md); [B22-C03 · Identificabilidad de parámetros](../programa/clases/B22/B22-C03-identificabilidad-de-parametros/CLASE.md); [B29-C16 · Supernovas y curvas de luz](../programa/clases/B29/B29-C16-supernovas-y-curvas-de-luz/CLASE.md); [B46-C18 · VLBI y geodesia](../programa/clases/B46/B46-C18-vlbi-y-geodesia/CLASE.md); [B74-C03 · Medición de alcance por radio](../programa/clases/B74/B74-C03-medicion-de-alcance-por-radio/CLASE.md); [B74-C27 · Navegación por púlsares de rayos X como técnica de investigación](../programa/clases/B74/B74-C27-navegacion-por-pulsares-de-rayos-x-como-tecnica-de-investigacion/CLASE.md).
@@ -1561,7 +2635,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La cota de Liu–Layland `n(2^(1/n) − 1)` es una condición suficiente de planificabilidad con prioridades por tasa.
 
-🎯 **Por qué importa (clase B98-C07):** Una arquitectura sin presupuesto de tiempos puede parecer correcta hasta que una tarea lenta retrasa un reflejo. La decisión central: ¿cada capa cumple sus plazos aunque las demás consuman su peor caso, y qué pasa cuando el planificador tarda más de lo previsto?
+💡 **Cómo se explica en la clase [B98-C07](../programa/clases/B98/B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md):**
+- Calcular la utilización de un conjunto de tareas periódicas y compararla con la cota de Liu–Layland.
+- El script [tres_capas.py](tres_capas.py) calcula la utilización, la cota de Liu–Layland, el tiempo de respuesta de cada tarea por punto fijo y la probabilidad de plan tardío por Monte Carlo y por fórmula (comprueba `R ≤ T`, `U ≤` cota, latencia reflejo ≤ 0,5 s y concordancia Monte Carlo–fórmula < 0,005).
+- 🎯 **Por qué importa:** Una arquitectura sin presupuesto de tiempos puede parecer correcta hasta que una tarea lenta retrasa un reflejo. La decisión central: ¿cada capa cumple sus plazos aunque las demás consuman su peor caso, y qué pasa cuando el planificador tarda más de lo previsto?
 
 📘 **Dónde se aprende** (1 clase): [B98-C07 · Arquitectura de autonomía a bordo (percepción-decisión-acción)](../programa/clases/B98/B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md).
 
@@ -1572,6 +2649,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B03-C19](../programa/clases/B03/B03-C19-propagacion-elemental-de-redondeos/CLASE.md):**
 - La cota de peor caso, que considera todos los redondeos en la dirección peor, es `[29,745; 30,027] km/s`; la incertidumbre en cuadratura es `0,062 km/s`.
+- Distinguir la cota de peor caso de la incertidumbre estándar en cuadratura, y usar `a/√3` para una distribución uniforme.
 - ⚠️ **Error frecuente:** Confundir cota de peor caso con incertidumbre estándar. Ejercicio 11.
 - 🎯 **Por qué importa:** Con los datos de la Tierra redondeados a tres cifras (semieje `1,50 × 10⁸ km` y período `365 d`), la rapidez orbital sale `29,89 km/s`. La NASA publica 29,78 km/s.
 
@@ -1581,7 +2659,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La cota de pila suma un marco por nivel de prioridad.
 
-🎯 **Por qué importa (clase B88-C22):** Las interrupciones fijan cuánto tarda el sistema en reaccionar y cuánta pila usa. La decisión central: ¿se permite que una interrupción de mayor prioridad interrumpa a otra, y qué cuesta eso en latencia y pila?
+💡 **Cómo se explica en la clase [B88-C22](../programa/clases/B88/B88-C22-interrupciones-y-manejo-de-excepciones-en-el-computador-de-vuelo/CLASE.md):**
+- Ejercicio 4 · autónomo. Calcula la cota de pila.
+- Cota de pila (un marco por nivel) = 120 B ; observada con anidamiento = 80 B
+- 🎯 **Por qué importa:** Las interrupciones fijan cuánto tarda el sistema en reaccionar y cuánta pila usa. La decisión central: ¿se permite que una interrupción de mayor prioridad interrumpa a otra, y qué cuesta eso en latencia y pila?
 
 📘 **Dónde se aprende** (1 clase): [B88-C22 · Interrupciones y manejo de excepciones en el computador de vuelo](../programa/clases/B88/B88-C22-interrupciones-y-manejo-de-excepciones-en-el-computador-de-vuelo/CLASE.md).
 
@@ -1609,6 +2690,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B96-C29](../programa/clases/B96/B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md):**
 - La cota de unión `1 − Σ Q(d/2)` queda por debajo de cada acierto simulado (por ejemplo, 0,8191 frente a 0,8159 en apuntamiento, dentro de 0,01).
+- Comparar el acierto con una cota inferior de unión.
 - 🎯 **Por qué importa:** Perder tiempo de contacto buscando la causa equivocada es caro. La decisión central: ¿qué medidas distinguen las causas y cuáles se confunden entre sí?
 
 📘 **Dónde se aprende** (1 clase): [B96-C29 · Diagnóstico de fallas de enlace](../programa/clases/B96/B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md).
@@ -1617,7 +2699,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La cota de Δv es el valor al que tiende la etapa con propelente infinito.
 
-🎯 **Por qué importa (clase B78-C02):** Más propelente da más Δv, pero cada kilo de propelente exige tanques, y esos tanques también se aceleran. La decisión central: ¿cuánto propelente hace falta para un Δv dado y existe un máximo de Δv que ninguna cantidad de propelente supera?
+💡 **Cómo se explica en la clase [B78-C02](../programa/clases/B78/B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md):**
+- Descripción larga: el Δv crece con el logaritmo de la razón de masas y tiene una cota que depende solo de la fracción de tanques y del `Isp`.
+- Calcular la cota de Δv que impone la fracción de tanques.
+- 🎯 **Por qué importa:** Más propelente da más Δv, pero cada kilo de propelente exige tanques, y esos tanques también se aceleran. La decisión central: ¿cuánto propelente hace falta para un Δv dado y existe un máximo de Δv que ninguna cantidad de propelente supera?
 
 📘 **Dónde se aprende** (1 clase): [B78-C02 · Propulsión química como sistema físico](../programa/clases/B78/B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md).
 
@@ -1637,7 +2722,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Causa raíz: origen de la falla. Cota superior de confianza: valor que, con probabilidad `CL`, no es inferior a la tasa verdadera.
 
-🎯 **Por qué importa (clase B90-C17):** Una falla única en 500 horas de ensayo no demuestra que el equipo sea confiable: solo acota la tasa de fallas. Y una anomalía mal registrada se pierde.
+💡 **Cómo se explica en la clase [B90-C17](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md):**
+- Calcular la cota superior de Poisson de la tasa de fallas con una confianza dada.
+- 🎯 **Por qué importa:** Una falla única en 500 horas de ensayo no demuestra que el equipo sea confiable: solo acota la tasa de fallas. Y una anomalía mal registrada se pierde.
 
 📘 **Dónde se aprende** (1 clase): [B90-C17 · Gestión de anomalías de prueba](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md).
 
@@ -1645,7 +2732,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Las cotas de Voigt y Reuss son `E_V = V_f E_f + (1 − V_f)E_m` y `E_R = 1/(V_f/E_f + (1 − V_f)/E_m)`.
 
-🎯 **Por qué importa (clase B84-C37):** La resistencia de un compuesto cae exponencialmente con la porosidad: pasar de 10 a 25 % de huecos divide la resistencia por 2,4. La decisión central: ¿qué porosidad máxima permite cumplir una resistencia mínima y cuánto ligante hay que transportar?
+💡 **Cómo se explica en la clase [B84-C37](../programa/clases/B84/B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md):**
+- Calcular las cotas de rigidez de Voigt y Reuss.
+- 🎯 **Por qué importa:** La resistencia de un compuesto cae exponencialmente con la porosidad: pasar de 10 a 25 % de huecos divide la resistencia por 2,4. La decisión central: ¿qué porosidad máxima permite cumplir una resistencia mínima y cuánto ligante hay que transportar?
 
 📘 **Dónde se aprende** (1 clase): [B84-C37 · Compuestos y aglomerantes a base de regolito](../programa/clases/B84/B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md).
 
@@ -1663,6 +2752,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B79-C03](../programa/clases/B79/B79-C03-ecuaciones-de-navier-stokes/CLASE.md):**
 - Paso 1 · Término de Couette. `0,5 × 0,2 = 0,10 m/s`.
+- Obtener el perfil de Couette–Poiseuille analítico.
 - 🎯 **Por qué importa:** Casi todo flujo de ingeniería tiene paredes, y en ellas la viscosidad impone velocidad cero. Sin Navier–Stokes no hay arrastre ni fricción ni calentamiento por pared.
 
 📘 **Dónde se aprende** (1 clase): [B79-C03 · Ecuaciones de Navier-Stokes](../programa/clases/B79/B79-C03-ecuaciones-de-navier-stokes/CLASE.md).
@@ -1673,6 +2763,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B06-C04](../programa/clases/B06/B06-C04-enlaces-ionicos-y-covalentes/CLASE.md):**
 - E -->|"Sí"| F["Covalente polar (cargas parciales)"]
+- Si ambos atraen electrones, los comparten (covalente); si el reparto es desigual, el enlace es polar.
 - 🎯 **Por qué importa:** Las muestras del asteroide Bennu contienen amoníaco, pero en gran parte no como gas libre: los autores concluyen que la mayor parte probablemente quedó retenida como sales o ligada a minerales arcillosos y a materia orgánica, porque el amoníaco libre es muy volátil y se pierde (S1).
 
 📘 **Dónde se aprende** (1 clase): [B06-C04 · Enlaces iónicos y covalentes](../programa/clases/B06/B06-C04-enlaces-ionicos-y-covalentes/CLASE.md).
@@ -1696,7 +2787,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La covarianza cruzada entre el estado actual y el ruido de proceso del intervalo es lo que las aproximaciones deben tratar.
 
-🎯 **Por qué importa (clase B74-C24):** Una medida tardía contiene información valiosa pero tratarla mal puede dañar más que descartarla. La decisión central: ¿qué tratamiento de una medida tardía mejora el estimado sin romper la consistencia, y a qué coste?
+💡 **Cómo se explica en la clase [B74-C24](../programa/clases/B74/B74-C24-medidas-retardadas-y-fuera-de-secuencia-en-filtros-de-estimacion/CLASE.md):**
+- Descripción larga: reprocesar en orden es el mejor; usar la medida como actual es el peor; una retrodicción sin correlación cruzada es peor que descartar y deja una covarianza inválida.
+- 🎯 **Por qué importa:** Una medida tardía contiene información valiosa pero tratarla mal puede dañar más que descartarla. La decisión central: ¿qué tratamiento de una medida tardía mejora el estimado sin romper la consistencia, y a qué coste?
 
 📘 **Dónde se aprende** (1 clase): [B74-C24 · Medidas retardadas y fuera de secuencia en filtros de estimación](../programa/clases/B74/B74-C24-medidas-retardadas-y-fuera-de-secuencia-en-filtros-de-estimacion/CLASE.md).
 
@@ -1706,6 +2799,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B12-C10](../programa/clases/B12/B12-C10-regresion-lineal-y-no-lineal/CLASE.md):**
 - *Descripción textual:* de los datos y un modelo se minimizan los cuadrados de los residuos; se obtienen los parámetros y la varianza del ruido; con ellos, la covarianza de los parámetros; los residuos se examinan por si muestran patrón; con la covarianza se da una predicción con su incertidumbre.
+- Ejercicio 12 · integrador. Elabora tu *informe de ajuste*: elige datos sintéticos que sigan una recta y otros una exponencial; ajusta cada uno, tabula parámetros con errores típicos, verifica la covarianza por simulación, examina los residuos y da una predicción fuera del rango con su incertidumbre y su advertencia.
 - 🎯 **Por qué importa:** Casi todo en ciencias espaciales es un ajuste: la deriva de un oscilador, la curva de luz de un tránsito, la degradación de una celda solar, la relación período–luminosidad. Un ajuste sin incertidumbre de parámetros ni diagnóstico de residuos es sólo una línea dibujada.
 
 📘 **Dónde se aprende** (1 clase): [B12-C10 · Regresión lineal y no lineal](../programa/clases/B12/B12-C10-regresion-lineal-y-no-lineal/CLASE.md).
@@ -1714,7 +2808,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La covarianza de medida es `R` (ruido) o `H P Hᵀ` (efecto de la incertidumbre del estado).
 
-🎯 **Por qué importa (clase B74-C01):** Todo método de B74 (mínimos cuadrados, filtros, validación) deriva del par `h` y `H = ∂h/∂x`. La decisión central: ¿qué función y qué derivadas describen la medida, y cómo sé que están bien escritas antes de dárselas a un estimador?
+💡 **Cómo se explica en la clase [B74-C01](../programa/clases/B74/B74-C01-modelos-de-observacion/CLASE.md):**
+- Propagar una covarianza de posición a covarianza de medida con `H P Hᵀ`.
+- Ejercicio 8 · autónomo. Para `σ_ρ = 5 m` y `σ_r = 100 m`, ¿qué domina la covarianza de la medida esperada?
+- 🎯 **Por qué importa:** Todo método de B74 (mínimos cuadrados, filtros, validación) deriva del par `h` y `H = ∂h/∂x`. La decisión central: ¿qué función y qué derivadas describen la medida, y cómo sé que están bien escritas antes de dárselas a un estimador?
 
 📘 **Dónde se aprende** (1 clase): [B74-C01 · Modelos de observación](../programa/clases/B74/B74-C01-modelos-de-observacion/CLASE.md).
 
@@ -1739,11 +2836,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La covarianza formal `(JᵀWJ)⁻¹` mide la incertidumbre bajo el modelo lineal.
 - La covarianza formal `P = (HᵀWH)⁻¹` supone modelo lineal y ruido bien descrito.
 
-💡 **Cómo se explica en la clase [B74-C07](../programa/clases/B74/B74-C07-ajuste-por-minimos-cuadrados/CLASE.md):**
-- La covarianza formal da `σ = (1,848, 17,342, 12,628) m` y `(0,00470, 0,01652, 0,00815) m/s`; el error real queda dentro de unos pocos sigma.
-- Con 100 realizaciones de ruido, el cociente entre la dispersión empírica y la formal está entre `0,923` y `1,100`: la covarianza formal describe bien la dispersión en este problema casi lineal.
-- ⚠️ **Error frecuente:** Usar la covarianza formal sin comprobarla. Contrástala con Monte Carlo o con `χ²`, como en 8.3–8.4.
-- 🎯 **Por qué importa:** Un estado sin covarianza es un número sin garantía. La decisión central: ¿cuál es el estado que mejor explica las observaciones, qué incertidumbre tiene y cómo compruebo que esa incertidumbre es honesta?
+💡 **Cómo se explica en la clase [B58-C07](../programa/clases/B58/B58-C07-determinacion-de-orbitas/CLASE.md):**
+- Límites: dos cuerpos, Tierra circular, sin aberración ni retardo de luz; covarianza formal lineal.
+- 🎯 **Por qué importa:** Una órbita ajustada es el producto central de la defensa planetaria: de ella salen las predicciones y las probabilidades. La decisión central: ¿cuántas observaciones y qué arco hacen falta para que la órbita sea fiable, y cómo se sabe que el ajuste es bueno?
 
 📘 **Dónde se aprende** (2 clases): [B58-C07 · Determinación de órbitas](../programa/clases/B58/B58-C07-determinacion-de-orbitas/CLASE.md); [B74-C07 · Ajuste por mínimos cuadrados](../programa/clases/B74/B74-C07-ajuste-por-minimos-cuadrados/CLASE.md).
 
@@ -1763,7 +2858,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El CR3BP estudia una masa despreciable bajo la gravedad de dos cuerpos masivos en órbita circular mutua.
 
-🎯 **Por qué importa (clase B73-C01):** Con tres cuerpos no hay solución cerrada, pero sí una cantidad conservada que organiza todo lo demás: puntos de equilibrio, regiones prohibidas y transferencias de bajo costo. La decisión central: ¿cuándo basta el modelo de tres cuerpos restringido, y cómo sé que mi integración no inventa dinámica?
+💡 **Cómo se explica en la clase [B73-C01](../programa/clases/B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md):**
+- Escribir las ecuaciones del CR3BP adimensional con el parámetro de masa `μ`.
+- La evidencia es la ficha del CR3BP Tierra–Luna con control de conservación del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** Con tres cuerpos no hay solución cerrada, pero sí una cantidad conservada que organiza todo lo demás: puntos de equilibrio, regiones prohibidas y transferencias de bajo costo. La decisión central: ¿cuándo basta el modelo de tres cuerpos restringido, y cómo sé que mi integración no inventa dinámica?
 
 📘 **Dónde se aprende** (1 clase): [B73-C01 · Problema restringido de tres cuerpos](../programa/clases/B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md).
 
@@ -1786,6 +2884,8 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B61-C02](../programa/clases/B61/B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md):**
 - Con `d/D` = 0,2, un cráter aparente de 1000 m tiene 200 m de profundidad y un volumen de 8,27×10⁷ m³; su radio de curvatura vale 1,45 `R`.
+- Distinguir el cráter transitorio del aparente y usar el factor de ensanchamiento.
+- ⚠️ **Error frecuente:** Confundir cráter transitorio y aparente. Se corrige con 8.2.
 - 🎯 **Por qué importa:** Medir un cráter es medir un bol, pero lo que se ve es el bol después de colapsar y rellenarse. La decisión central: ¿cuánto volumen tenía la cavidad original y cuánto se perdió en el relleno de brecha?
 
 📘 **Dónde se aprende** (1 clase): [B61-C02 · Cráteres simples: morfología y formación](../programa/clases/B61/B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md).
@@ -1794,7 +2894,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El cráter simple conserva forma de cuenco.
 
-🎯 **Por qué importa (clase B58-C15):** Para decidir si una desviación es necesaria hay que saber qué haría el impacto. La decisión central: ¿cómo escalan la energía y el cráter con el tamaño, la velocidad y el ángulo?
+💡 **Cómo se explica en la clase [B58-C15](../programa/clases/B58/B58-C15-modelos-de-impacto-planetario/CLASE.md):**
+- El escalamiento recordado da un cráter transitorio de `6.01 km` y uno final simple de `7.51 km`.
+- Crater transitorio D_tc = 6.010 km ; crater simple final = 7.512 km
+- 🎯 **Por qué importa:** Para decidir si una desviación es necesaria hay que saber qué haría el impacto. La decisión central: ¿cómo escalan la energía y el cráter con el tamaño, la velocidad y el ángulo?
 
 📘 **Dónde se aprende** (1 clase): [B58-C15 · Modelos de impacto planetario](../programa/clases/B58/B58-C15-modelos-de-impacto-planetario/CLASE.md).
 
@@ -1824,7 +2927,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El CRC-15 usa el polinomio `0x4599`.
 
-🎯 **Por qué importa (clase B88-C07):** El bus fija cuánta telemetría y cuántos comandos caben y con qué retardo. La decisión central: ¿cuál es el caudal útil y el peor tiempo de trama de cada bus para mi carga?
+💡 **Cómo se explica en la clase [B88-C07](../programa/clases/B88/B88-C07-buses-i2c-spi-can-y-spacewire/CLASE.md):**
+- Implementar el CRC-15 del CAN y el relleno.
+- Ejercicio 10 · transferencia. Transferencia. ¿Qué cambia si el CRC-15 se calcula con un polinomio distinto?
+- 🎯 **Por qué importa:** El bus fija cuánta telemetría y cuántos comandos caben y con qué retardo. La decisión central: ¿cuál es el caudal útil y el peor tiempo de trama de cada bus para mi carga?
 
 📘 **Dónde se aprende** (1 clase): [B88-C07 · Buses I2C SPI CAN y SpaceWire](../programa/clases/B88/B88-C07-buses-i2c-spi-can-y-spacewire/CLASE.md).
 
@@ -1856,7 +2962,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El CRC-8 con polinomio `0x07` da `0xF4` para `123456789`.
 
-🎯 **Por qué importa (clase B88-C09):** Un telecomando aceptado en el estado equivocado puede dañar la nave; uno rechazado en el estado correcto puede perderla. La decisión central: ¿qué comando es válido en cada modo y qué comprobaciones lo protegen?
+💡 **Cómo se explica en la clase [B88-C09](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md):**
+- Ejercicio 6 · autónomo. Calcula el CRC-8 de un solo byte `0x00` con polinomio `0x07`.
+- El script [telecomandos_modos.py](telecomandos_modos.py) imprime la matriz estado–comando, ejecuta un guion de nueve telecomandos con CRC y secuencia y comprueba 11 celdas aceptadas, el modo final `SAFE` y el CRC-8 de prueba `0xF4`.
+- 🎯 **Por qué importa:** Un telecomando aceptado en el estado equivocado puede dañar la nave; uno rechazado en el estado correcto puede perderla. La decisión central: ¿qué comando es válido en cada modo y qué comprobaciones lo protegen?
 
 📘 **Dónde se aprende** (1 clase): [B88-C09 · Telecomandos y estados de misión](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md).
 
@@ -1867,6 +2976,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B04-C04](../programa/clases/B04/B04-C04-funciones-y-graficas/CLASE.md):**
 - Comprueba: la función creciente da `P(292) ≈ 996 d`, coherente con redondeo.
+- Componer funciones y hallar la inversa de una función creciente.
 - 🎯 **Por qué importa:** Un astrónomo no solo calcula un valor: pregunta «¿qué pasa con el periodo de un planeta si su órbita es el doble de grande?». Responderlo con un solo caso no basta; hace falta la regla que liga ambas magnitudes.
 
 📘 **Dónde se aprende** (2 clases): [B04-C04 · Funciones y gráficas](../programa/clases/B04/B04-C04-funciones-y-graficas/CLASE.md); [B08-C08 · Fases lunares y libración](../programa/clases/B08/B08-C08-fases-lunares-y-libracion/CLASE.md).
@@ -1883,7 +2993,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El crecimiento del núcleo es `dM_c/dt = L/(X ε c²)` si toda la luminosidad viene de la capa.
 
-🎯 **Por qué importa (clase B24-C16):** Una gigante roja es mucho mayor y más luminosa que su estrella original y tiene una densidad media ínfima. Entender su tamaño, su gravedad y cómo crece su núcleo permite interpretar las gigantes observadas, usarlas como sondas asterosísmicas y anticipar el destino del Sol.
+💡 **Cómo se explica en la clase [B24-C16](../programa/clases/B24/B24-C16-gigantes-rojas/CLASE.md):**
+- Estimar el crecimiento del núcleo por quemado de hidrógeno en capa.
+- Ejercicio 12 · integrador. Elabora tu *ficha de una gigante roja*: elige `M`, `L` y `T_ef` (ilustrativos), calcula `R`, `g`, `ρ̄`, `t_dyn`, `Δν` por escala, el ritmo de crecimiento del núcleo y nombra dos fenómenos omitidos.
+- 🎯 **Por qué importa:** Una gigante roja es mucho mayor y más luminosa que su estrella original y tiene una densidad media ínfima. Entender su tamaño, su gravedad y cómo crece su núcleo permite interpretar las gigantes observadas, usarlas como sondas asterosísmicas y anticipar el destino del Sol.
 
 📘 **Dónde se aprende** (1 clase): [B24-C16 · Gigantes rojas](../programa/clases/B24/B24-C16-gigantes-rojas/CLASE.md).
 
@@ -1899,7 +3012,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El crecimiento lineal `D(a)` describe cómo `δ` crece mientras `δ ≪ 1`.
 
-🎯 **Por qué importa (clase B26-C17):** Los grandes sondeos de galaxias miden cómo se agrupan, y de su agrupamiento salen la densidad de materia y la historia de la expansión. Para interpretarlos hace falta saber cómo crece una fluctuación y qué distancia angular corresponde a una escala física.
+💡 **Cómo se explica en la clase [B26-C17](../programa/clases/B26/B26-C17-estructura-cosmologica/CLASE.md):**
+- Escribir la ecuación de crecimiento lineal.
+- 🎯 **Por qué importa:** Los grandes sondeos de galaxias miden cómo se agrupan, y de su agrupamiento salen la densidad de materia y la historia de la expansión. Para interpretarlos hace falta saber cómo crece una fluctuación y qué distancia angular corresponde a una escala física.
 
 📘 **Dónde se aprende** (1 clase): [B26-C17 · Estructura cosmológica](../programa/clases/B26/B26-C17-estructura-cosmologica/CLASE.md).
 
@@ -1907,7 +3022,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Confianza: probabilidad de detectar. Crecimiento logístico: curva en S.
 
-🎯 **Por qué importa (clase B106-C28):** Una muestra pequeña puede no contener ningún organismo de una contaminación real, y un muestreo espaciado deja crecer la población. La decisión central: ¿qué volumen y qué intervalo de muestreo dan una confianza dada de detectar una contaminación antes de que supere el umbral de acción?
+💡 **Cómo se explica en la clase [B106-C28](../programa/clases/B106/B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md):**
+- G["crecimiento logistico"] --> T["t hasta el umbral"]
+- Calcular el crecimiento logístico y el tiempo hasta el umbral de acción.
+- 🎯 **Por qué importa:** Una muestra pequeña puede no contener ningún organismo de una contaminación real, y un muestreo espaciado deja crecer la población. La decisión central: ¿qué volumen y qué intervalo de muestreo dan una confianza dada de detectar una contaminación antes de que supere el umbral de acción?
 
 📘 **Dónde se aprende** (1 clase): [B106-C28 · Monitoreo microbiológico de agua y superficies del hábitat](../programa/clases/B106/B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md).
 
@@ -1916,6 +3034,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - Un tiempo de renovación es lo que tarda en renovarse una unidad de carbono celular. Crecimiento, mantenimiento y supervivencia son tres regímenes de actividad.
 
 💡 **Cómo se explica en la clase [B64-C03](../programa/clases/B64/B64-C03-psicrofilos-y-vida-en-frio/CLASE.md):**
+- Si a 25 °C una unidad de carbono se renovara en 1 h (supuesto sintético), el régimen de crecimiento a −40 °C tardaría 26,9 años, el de mantenimiento 2,69·10⁴ años y el de supervivencia 2,69·10⁷ años.
 - Price y Sowers [S1] compararon tasas metabólicas de microbios en muchos ambientes fríos y no hallaron una temperatura mínima de metabolismo; según su resumen, crecimiento, mantenimiento y supervivencia siguen una misma energía de activación de unos 110 kJ y se escalan aproximadamente como 10⁶ : 10³ : 1.
 - 🎯 **Por qué importa:** El frío no detiene la vida de golpe: la ralentiza. La pregunta motivadora: ¿cuánto más lento es el metabolismo a −40 °C que a 25 °C, y qué significa «vivir» a esa velocidad?
 
@@ -1955,7 +3074,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El crédito de servicio compensa al cliente.
 
-🎯 **Por qué importa (clase B124-C21):** B124 trata propuestas de valor, pero un servicio de observación se compromete con plazos y calidad, y esos compromisos tienen una aritmética precisa. La decisión central: ¿qué disponibilidad y qué plazo puede prometer un servicio sin incumplir seguido y cuánto cuesta cada incumplimiento?
+💡 **Cómo se explica en la clase [B124-C21](../programa/clases/B124/B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md):**
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de acuerdo de nivel de servicio de un producto de datos*: componentes con MTBF y MTTR, disponibilidad en serie y con redundancia, presupuesto de error, simulación, plazo, créditos esperados y lista de qué es sintético, con el aviso de que no es un contrato.
+- 🎯 **Por qué importa:** B124 trata propuestas de valor, pero un servicio de observación se compromete con plazos y calidad, y esos compromisos tienen una aritmética precisa. La decisión central: ¿qué disponibilidad y qué plazo puede prometer un servicio sin incumplir seguido y cuánto cuesta cada incumplimiento?
 
 📘 **Dónde se aprende** (1 clase): [B124-C21 · Acuerdos de nivel de servicio para productos de datos](../programa/clases/B124/B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md).
 
@@ -1967,7 +3088,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 💡 **Cómo se explica en la clase [B20-C01](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md):**
-- Paso 5 · Cribado. Fuera de periodo: `a6` (2012), `a15` (2014), `a16` (2013).
+- Cuenta en cada etapa: identificados; duplicados eliminados; cribados; excluidos por cada motivo; incluidos.
+- Debe cumplirse una conservación sencilla: `identificados − duplicados = cribados = incluidos + excluidos`.
+- ⚠️ **Error frecuente:** Contar mal el flujo. Restar dos veces o mezclar cribados con identificados.
 - 🎯 **Por qué importa:** Cuando alguien afirma «no hay estudios sobre esto» o «es sabido que…», la frase vale tanto como el procedimiento con que se buscó. Dos personas que buscan lo mismo sin anotar cómo lo hicieron obtendrán listas distintas y no podrán explicar por qué.
 
 📘 **Dónde se aprende** (4 clases): [B20-C01 · Búsqueda bibliográfica sistemática y gestión de referencias](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md); [B118-C15 · Seguimiento de mega constelaciones](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md); [B118-C18 · Gestión del tráfico espacial](../programa/clases/B118/B118-C18-gestion-del-trafico-espacial/CLASE.md); [B119-C13 · Vigilancia y conciencia situacional espacial](../programa/clases/B119/B119-C13-vigilancia-y-conciencia-situacional-espacial/CLASE.md).
@@ -1978,6 +3101,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B22-C05](../programa/clases/B22/B22-C05-pruebas-de-inversion-con-datos-sinteticos/CLASE.md):**
 - Wirgin define el crimen inverso como usar los mismos componentes teóricos, o casi los mismos, para generar los datos y para invertirlos en un problema inverso, y recuerda que Colton y Kress lo consideran una práctica trivial que debe evitarse (S3).
+- Definir el crimen inverso y reconocerlo en un experimento.
 - 🎯 **Por qué importa:** Con datos reales no conoces la verdad, así que no puedes medir el error de tu inversión. Con datos sintéticos sí: tú fijas la verdad, generas los datos y miras si el método la recupera.
 
 📘 **Dónde se aprende** (1 clase): [B22-C05 · Pruebas de inversión con datos sintéticos](../programa/clases/B22/B22-C05-pruebas-de-inversion-con-datos-sinteticos/CLASE.md).
@@ -2005,7 +3129,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El criovulcanismo es la erupción de volátiles helados o agua en lugar de silicatos.
 
-🎯 **Por qué importa (clase B70-C06):** El agua líquida es más densa que el hielo, así que no sube sola. La decisión central: ¿qué presión extra y qué mecanismo hacen falta para que el agua llegue a la superficie?
+💡 **Cómo se explica en la clase [B70-C06](../programa/clases/B70/B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md):**
+- La evidencia es la ficha del criovulcanismo del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha del criovulcanismo*: gravedad, escape, sobrepresión, chorro y límites.
+- 🎯 **Por qué importa:** El agua líquida es más densa que el hielo, así que no sube sola. La decisión central: ¿qué presión extra y qué mecanismo hacen falta para que el agua llegue a la superficie?
 
 📘 **Dónde se aprende** (1 clase): [B70-C06 · Criovulcanismo: lavas heladas y emisión de volátiles](../programa/clases/B70/B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md).
 
@@ -2018,7 +3145,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B67-C01](../programa/clases/B67/B67-C01-seleccion-de-sitios-de-extraccion-con-criterios-multiples/CLASE.md):**
 - Para un criterio donde más es mejor, `z = (x − mín)/(máx − mín)`; donde menos es mejor, `z = 1 − (x − mín)/(máx − mín)`.
-- Límite: los criterios se suponen independientes y los puntajes lineales; un sitio con un valor inaceptable en un criterio (por ejemplo, riesgo extremo) puede requerir una regla de exclusión y no un promedio.
+- S7 (90 kt, 7°, 35 %, riesgo 5) está dominado por S4 (95 kt, 6°, 40 %, riesgo 4): S4 es mejor en los cuatro criterios.
 - 🎯 **Por qué importa:** Elegir con una sola cifra (la reserva) lleva a sitios que no se pueden explotar; elegir con una suma de unidades distintas es un error. La decisión central: ¿cuál sitio conviene, y cuánto de esa respuesta depende de los pesos que fija quien decide?
 
 📘 **Dónde se aprende** (6 clases): [B43-C20 · Proyecto mecánico completo de telescopio](../programa/clases/B43/B43-C20-proyecto-mecanico-completo-de-telescopio/CLASE.md); [B67-C01 · Selección de sitios de extracción con criterios múltiples](../programa/clases/B67/B67-C01-seleccion-de-sitios-de-extraccion-con-criterios-multiples/CLASE.md); [B83-C13 · Revisiones SRR y PDR](../programa/clases/B83/B83-C13-revisiones-srr-y-pdr/CLASE.md); [B104-C09 · Entrenamiento en simuladores](../programa/clases/B104/B104-C09-entrenamiento-en-simuladores/CLASE.md); [B124-C04 · Diseño de propuesta de valor](../programa/clases/B124/B124-C04-diseno-de-propuesta-de-valor/CLASE.md); [B128-C11 · Auditoría de accesibilidad de un recurso educativo](../programa/clases/B128/B128-C11-auditoria-de-accesibilidad-de-un-recurso-educativo/CLASE.md).
@@ -2029,7 +3156,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El criterio de aceptación es una condición medible (p. ej. «error ≤ 10⁻³ au a 91 d») fijada antes de comparar.
 - Un criterio de aceptación es una condición medible con umbral.
 
-🎯 **Por qué importa (clase B13-C20):** Un telémetro calibrado, con presupuesto y registro, puede seguir fallando: un error de escala oculto que la calibración en una sola distancia no ve.
+💡 **Cómo se explica en la clase [B13-C20](../programa/clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md):**
+- Definir un criterio de aceptación `z ≤ 2` por blanco.
+- 🎯 **Por qué importa:** Un telémetro calibrado, con presupuesto y registro, puede seguir fallando: un error de escala oculto que la calibración en una sola distancia no ve.
 
 📘 **Dónde se aprende** (3 clases): [B13-C20 · Validación de una cadena de medida](../programa/clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md); [B23-C05 · Validación con conjuntos oficiales](../programa/clases/B23/B23-C05-validacion-con-conjuntos-oficiales/CLASE.md); [B23-C08 · Informe de verificación y validación](../programa/clases/B23/B23-C08-informe-de-verificacion-y-validacion/CLASE.md).
 
@@ -2037,7 +3166,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Un criterio de beneficio es mejor cuanto mayor; uno de coste es mejor cuanto menor.
 
-🎯 **Por qué importa (clase B95-C03):** Elegir una plataforma «porque la conocemos» no se puede defender. La decisión central: ¿qué plataforma cumple lo imprescindible, cuál puntúa mejor y cuánto depende ese resultado de los pesos que elegimos?
+💡 **Cómo se explica en la clase [B95-C03](../programa/clases/B95/B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md):**
+- Normalizar criterios de beneficio y de coste a `[0, 1]`.
+- 🎯 **Por qué importa:** Elegir una plataforma «porque la conocemos» no se puede defender. La decisión central: ¿qué plataforma cumple lo imprescindible, cuál puntúa mejor y cuánto depende ese resultado de los pesos que elegimos?
 
 📘 **Dónde se aprende** (1 clase): [B95-C03 · Selección y comparación de plataformas](../programa/clases/B95/B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md).
 
@@ -2047,6 +3178,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B01-C17](../programa/clases/B01/B01-C17-construccion-de-modelos-cientificos/CLASE.md):**
 - Ese es el criterio de comparación: el que deje menor residuo en escala logarítmica, declarado antes de calcular.
+- Ejercicio 8. ¿Por qué el criterio de comparación se escribe antes de calcular?
 - 🎯 **Por qué importa:** Al final de C13, la tercera ley de Kepler daba `T²/a³ = 1` para siete planetas con error menor al 1,5 %, y 0,975 para Neptuno. ¿Falla el modelo con Neptuno?
 
 📘 **Dónde se aprende** (1 clase): [B01-C17 · Construcción de modelos científicos](../programa/clases/B01/B01-C17-construccion-de-modelos-cientificos/CLASE.md).
@@ -2056,7 +3188,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - Un criterio de comprobación es una prueba objetiva que dice si el requisito se cumple.
 - Un requisito es una condición que la campaña debe cumplir; debe ser verificable: tener un criterio de comprobación (un número o un sí/no) y un método de comprobación.
 
-🎯 **Por qué importa (clase B03-C20):** Un ingeniero no recibe un ejercicio con una sola fórmula: recibe requisitos («que quepa en un patio de 350 m», «que se vea el Sol», «que Neptuno esté a su sitio») y debe decidir qué se puede cumplir y qué no.
+💡 **Cómo se explica en la clase [B08-C20](../programa/clases/B08/B08-C20-proyecto-de-campana-de-observacion-nocturna/CLASE.md):**
+- Cada uno tiene criterio, método de comprobación y fuente: R1, seguridad solar (nadie mira el Sol sin protección certificada verificada; revisión por una segunda persona;
+- Escribir requisitos de una campaña con su criterio y método de comprobación.
+- 🎯 **Por qué importa:** Una salida sin plan termina en una noche perdida o en un accidente. La pregunta motivadora: ¿cómo preparo una salida de observación para que sea segura, útil, accesible y reproducible?
 
 📘 **Dónde se aprende** (2 clases): [B03-C20 · Problema integrado de escala del sistema solar](../programa/clases/B03/B03-C20-problema-integrado-de-escala-del-sistema-solar/CLASE.md); [B08-C20 · Proyecto de campaña de observación nocturna](../programa/clases/B08/B08-C20-proyecto-de-campana-de-observacion-nocturna/CLASE.md).
 
@@ -2064,7 +3199,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El criterio de correlación (aquí `|ΔT| ≤ 3 K`, ilustrativo) acepta o rechaza el modelo.
 
-🎯 **Por qué importa (clase B85-C27):** Un modelo sin correlación no sirve para predecir y un margen sin incertidumbre es una apuesta. La decisión central: ¿el modelo reproduce el ensayo dentro del criterio y cuánto margen queda tras la incertidumbre?
+💡 **Cómo se explica en la clase [B85-C27](../programa/clases/B85/B85-C27-margenes-y-correlacion-termica/CLASE.md):**
+- Ejercicio 10 · transferencia. Transferencia. Un criterio de correlación de `±3 K` ¿es universal?
+- Ejercicio 12 · integrador. Integrador. Elabora tu *informe de correlación y margen térmico*: residuos, ajuste, criterio, Monte Carlo, margen y lista de lo sintético.
+- 🎯 **Por qué importa:** Un modelo sin correlación no sirve para predecir y un margen sin incertidumbre es una apuesta. La decisión central: ¿el modelo reproduce el ensayo dentro del criterio y cuánto margen queda tras la incertidumbre?
 
 📘 **Dónde se aprende** (1 clase): [B85-C27 · Márgenes y correlación térmica](../programa/clases/B85/B85-C27-margenes-y-correlacion-termica/CLASE.md).
 
@@ -2089,6 +3227,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El criterio de éxito combina condiciones (agua y ciencia).
 
 💡 **Cómo se explica en la clase [B104-C20](../programa/clases/B104/B104-C20-mision-tripulada-simulada/CLASE.md):**
+- Fallas independientes y del mismo tamaño, sin cascadas, sin consumos que cambien por fatiga o estrés, sin reabastecimiento ni abortos, y criterios de éxito inventados.
 - *Descripción textual:* la tasa de fallas determina cuántas ocurren; cada una consume horas y agua; junto con el consumo variable, determinan si se cumple el criterio de éxito.
 - 🎯 **Por qué importa:** Cada margen parece suficiente por separado, pero las fallas consumen a la vez agua y tiempo. La decisión central: ¿hasta qué tasa de fallas mantiene la misión una probabilidad de éxito alta, y cuál recurso se agota primero?
 
@@ -2100,6 +3239,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B73-C17](../programa/clases/B73/B73-C17-estabilidad-de-sistemas-exoplanetarios/CLASE.md):**
 - El criterio de Gladman no se consultó en su fuente y solo se contrasta numéricamente.
+- Ejercicio 10 · transferencia. Transferencia. Un colega usa el criterio de Gladman para tres planetas.
 - 🎯 **Por qué importa:** Muchos sistemas exoplanetarios son compactos y su existencia depende de no haberse desestabilizado. Un criterio simple de separación permite descartar configuraciones inviables antes de integrar.
 
 📘 **Dónde se aprende** (1 clase): [B73-C17 · Estabilidad de sistemas exoplanetarios](../programa/clases/B73/B73-C17-estabilidad-de-sistemas-exoplanetarios/CLASE.md).
@@ -2110,6 +3250,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B73-C16](../programa/clases/B73/B73-C16-dinamica-de-anillos/CLASE.md):**
 - El criterio de Hill cae entre los dos límites, como debe.
+- Calcular los límites de Roche rígido y fluido y el criterio de Hill.
 - 🎯 **Por qué importa:** Un anillo existe donde las mareas impiden que las partículas se junten, se ensancha por viscosidad y se estructura por resonancias con las lunas. La decisión central: ¿qué escalas fijan dónde hay un anillo, cuánto dura y dónde lo moldean las lunas?
 
 📘 **Dónde se aprende** (1 clase): [B73-C16 · Dinámica de anillos](../programa/clases/B73/B73-C16-dinamica-de-anillos/CLASE.md).
@@ -2136,7 +3277,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El criterio de ligada de este laboratorio: la distancia a la Luna no supera `R_H` en 30 d.
 
-🎯 **Por qué importa (clase B76-C03):** Un orbitador lunar bajo y un satélite de relevo alto obedecen leyes distintas. La decisión central: ¿hasta qué distancia de la Luna puede mantenerse una órbita casi circular y qué sentido de giro resiste mejor la perturbación terrestre?
+💡 **Cómo se explica en la clase [B76-C03](../programa/clases/B76/B76-C03-orbitas-alrededor-de-la-luna/CLASE.md):**
+- Límites: CR3BP plano, 30 d, un solo criterio de ligada; sin Sol ni campo no esférico.
+- 🎯 **Por qué importa:** Un orbitador lunar bajo y un satélite de relevo alto obedecen leyes distintas. La decisión central: ¿hasta qué distancia de la Luna puede mantenerse una órbita casi circular y qué sentido de giro resiste mejor la perturbación terrestre?
 
 📘 **Dónde se aprende** (1 clase): [B76-C03 · Órbitas alrededor de la Luna](../programa/clases/B76/B76-C03-orbitas-alrededor-de-la-luna/CLASE.md).
 
@@ -2144,7 +3287,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El criterio de muestreo usado aquí (supuesto del ejemplo) pide al menos dos píxeles por rasgo: `GSD ≤ rasgo/2`.
 
-🎯 **Por qué importa (clase B83-C01):** Un equipo sabe que quiere «mirar la costa» pero no cuánto debe resolver ni qué objetivo merece el presupuesto. La decisión central: ¿qué requisito de medición se deduce de la pregunta científica y qué objetivo conviene perseguir primero?
+💡 **Cómo se explica en la clase [B83-C01](../programa/clases/B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md):**
+- Derivar la resolución en tierra (GSD) a partir del tamaño del rasgo con un criterio de muestreo explícito.
+- Límites: difracción sin aberraciones ni ruido; criterio de muestreo de ejemplo; puntajes inventados; no hay una misión real detrás.
+- 🎯 **Por qué importa:** Un equipo sabe que quiere «mirar la costa» pero no cuánto debe resolver ni qué objetivo merece el presupuesto. La decisión central: ¿qué requisito de medición se deduce de la pregunta científica y qué objetivo conviene perseguir primero?
 
 📘 **Dónde se aprende** (1 clase): [B83-C01 · Necesidad de misión y caso científico](../programa/clases/B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md).
 
@@ -2154,9 +3300,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El ruido de fotones (o de disparo) es de tamaño `√N`; el criterio de Rayleigh da el límite de difracción `1,22 λ/D`.
 - El criterio de Rayleigh: separación igual al primer cero.
 
-💡 **Cómo se explica en la clase [B50-C14](../programa/clases/B50/B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md):**
-- La esférica de una onda con el mejor enfoque tiene PV `0,2500`, RMS `0,0746`, `S = 0,8002` y Maréchal `0,8030`: el criterio de Rayleigh (λ/4 PV) y el de Maréchal (`S ≈ 0,8`) coinciden.
-- 🎯 **Por qué importa:** Una especificación solo sirve si se puede verificar con una medida que tiene incertidumbre. La decisión central: ¿cuánto margen se deja para que una medida incierta no acepte una unidad mala?
+💡 **Cómo se explica en la clase [B41-C12](../programa/clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md):**
+- Ejercicio 11 · transferencia. Transferencia. ¿Qué criterio da el menor ángulo, Rayleigh, Sparrow o Dawes?
+- ⚠️ **Error frecuente:** Usar Rayleigh como límite absoluto. Es un criterio, no un muro.
+- 🎯 **Por qué importa:** La difracción fija el mejor detalle posible. La decisión central: ¿cuándo se resuelven dos estrellas y qué cuesta una obstrucción?
 
 📘 **Dónde se aprende** (4 clases): [B41-C12 · Difracción y límite de Rayleigh](../programa/clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md); [B42-C05 · Patrones de Airy](../programa/clases/B42/B42-C05-patrones-de-airy/CLASE.md); [B50-C14 · Criterios de aceptación: Strehl, error de frente de onda y especificaciones](../programa/clases/B50/B50-C14-criterios-de-aceptacion-strehl-error-de-frente-de-onda-y-especificaciones/CLASE.md); [B57-C04 · Satélites ópticos de observación](../programa/clases/B57/B57-C04-satelites-opticos-de-observacion/CLASE.md).
 
@@ -2172,7 +3319,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Un criterio de refinamiento decide qué celdas se dividen.
 
-🎯 **Por qué importa (clase B21-C05):** Los códigos de referencia en astrofísica, como RAMSES (S1) y Athena++ (S2), usan mallas adaptativas porque los problemas tienen rangos de escala enormes. Pero un esquema adaptativo mal construido no conserva: crea o destruye masa en las interfaces entre niveles, justo donde está el fenómeno interesante.
+💡 **Cómo se explica en la clase [B21-C05](../programa/clases/B21/B21-C05-mallas-adaptativas-amr/CLASE.md):**
+- Por eso el criterio equivale a fijar una tolerancia de error `≈ C/2`, y hay refinamiento solo mientras no se alcance.
+- 🎯 **Por qué importa:** Los códigos de referencia en astrofísica, como RAMSES (S1) y Athena++ (S2), usan mallas adaptativas porque los problemas tienen rangos de escala enormes. Pero un esquema adaptativo mal construido no conserva: crea o destruye masa en las interfaces entre niveles, justo donde está el fenómeno interesante.
 
 📘 **Dónde se aprende** (1 clase): [B21-C05 · Mallas adaptativas (AMR)](../programa/clases/B21/B21-C05-mallas-adaptativas-amr/CLASE.md).
 
@@ -2182,6 +3331,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B01-C07](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md):**
 - Paso 4 · Criterio de refutación. Se rechaza si `|R − 1| ≤ 2σ_R`; se mantiene si `|R − 1,116| ≤ 2σ_R` y no es compatible con 1.
+- Distinguir hipótesis, predicción y criterio de refutación.
 - 🎯 **Por qué importa:** Una afirmación que ningún resultado posible contradice no enseña nada. Si dices «la Luna cambia de tamaño aparente» y, ocurra lo que ocurra, tu frase queda a salvo, no has dicho gran cosa.
 
 📘 **Dónde se aprende** (1 clase): [B01-C07 · Hipótesis y predicciones falsables](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md).
@@ -2190,7 +3340,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - El arreglo de Routh es una tabla construida con los coeficientes; el criterio de Routh–Hurwitz dice que el número de cambios de signo en su primera columna es el número de raíces con parte real positiva.
 
-🎯 **Por qué importa (clase B16-C08):** Al diseñar un lazo, la ganancia `K` es una incógnita que quieres elegir. Calcular las raíces para cada `K` es posible con un computador, pero no da la frontera: el valor exacto de `K` por encima del cual el sistema se desestabiliza.
+💡 **Cómo se explica en la clase [B16-C08](../programa/clases/B16/B16-C08-criterio-de-routh-hurwitz/CLASE.md):**
+- python programa/clases/B16/B16-C08-criterio-de-routh-hurwitz/arreglo_de_routh.py
+- 🎯 **Por qué importa:** Al diseñar un lazo, la ganancia `K` es una incógnita que quieres elegir. Calcular las raíces para cada `K` es posible con un computador, pero no da la frontera: el valor exacto de `K` por encima del cual el sistema se desestabiliza.
 
 📘 **Dónde se aprende** (1 clase): [B16-C08 · Criterio de Routh-Hurwitz](../programa/clases/B16/B16-C08-criterio-de-routh-hurwitz/CLASE.md).
 
@@ -2199,7 +3351,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - El criterio de Schwarzschild dice que una capa es inestable si su gradiente real `−dT/dz` supera `Γ`.
 - El criterio de Schwarzschild dice que hay convección si `∇_rad > ∇_ad`.
 
-🎯 **Por qué importa (clase B24-C05):** La energía generada en el núcleo tarda milenios en salir y el modo de transporte decide la estructura: si el interior de una estrella es convectivo, su composición se mezcla; si es radiativo, no. De ello depende cuánto combustible alcanza el núcleo, y por tanto la vida de la estrella.
+💡 **Cómo se explica en la clase [B24-C05](../programa/clases/B24/B24-C05-transporte-radiativo-y-convectivo/CLASE.md):**
+- El criterio de Schwarzschild se cumple en las capas externas, donde `κ` es alta y `T` baja, aunque en el interior profundo sea radiativo.
+- 🎯 **Por qué importa:** La energía generada en el núcleo tarda milenios en salir y el modo de transporte decide la estructura: si el interior de una estrella es convectivo, su composición se mezcla; si es radiativo, no. De ello depende cuánto combustible alcanza el núcleo, y por tanto la vida de la estrella.
 
 📘 **Dónde se aprende** (2 clases): [B24-C05 · Transporte radiativo y convectivo](../programa/clases/B24/B24-C05-transporte-radiativo-y-convectivo/CLASE.md); [B54-C05 · Transporte convectivo](../programa/clases/B54/B54-C05-transporte-convectivo/CLASE.md).
 
@@ -2207,7 +3361,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B41-C12):** La difracción fija el mejor detalle posible. La decisión central: ¿cuándo se resuelven dos estrellas y qué cuesta una obstrucción?
+💡 **Cómo se explica en la clase [B41-C12](../programa/clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md):**
+- Ejercicio 11 · transferencia. Transferencia. ¿Qué criterio da el menor ángulo, Rayleigh, Sparrow o Dawes?
+- 🎯 **Por qué importa:** La difracción fija el mejor detalle posible. La decisión central: ¿cuándo se resuelven dos estrellas y qué cuesta una obstrucción?
 
 📘 **Dónde se aprende** (1 clase): [B41-C12 · Difracción y límite de Rayleigh](../programa/clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md).
 
@@ -2223,7 +3379,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Un criterio necesario debe cumplirse siempre; uno suficiente basta por sí solo.
 
-🎯 **Por qué importa (clase B56-C01):** Una misión que busca vida necesita saber qué buscar y qué contará como hallazgo. Si el criterio es vago, cualquier resultado se puede discutir; si es demasiado estrecho, se pasa por alto lo que no se parece a la vida terrestre.
+💡 **Cómo se explica en la clase [B56-C01](../programa/clases/B56/B56-C01-definiciones-operativas-de-vida/CLASE.md):**
+- Definir definición operativa, criterio necesario y suficiente, caso límite y coincidencia entre definiciones.
+- 🎯 **Por qué importa:** Una misión que busca vida necesita saber qué buscar y qué contará como hallazgo. Si el criterio es vago, cualquier resultado se puede discutir; si es demasiado estrecho, se pasa por alto lo que no se parece a la vida terrestre.
 
 📘 **Dónde se aprende** (1 clase): [B56-C01 · Definiciones operativas de vida](../programa/clases/B56/B56-C01-definiciones-operativas-de-vida/CLASE.md).
 
@@ -2232,7 +3390,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - Los criterios de aceptación del ejemplo son: base sin defectos, 100 % de comandos probados y todos los operadores con al menos 32 h.
 
 💡 **Cómo se explica en la clase [B83-C19](../programa/clases/B83/B83-C19-aceptacion-y-transferencia-a-operaciones/CLASE.md):**
-- *Descripción textual:* la base de datos se revisa y se calibra; los límites dan alarmas; junto con los comandos probados y el entrenamiento forman los criterios de aceptación, que deciden si la transferencia se acepta.
+- Con los tres criterios fallidos la transferencia no se acepta; las acciones son corregir la base, probar los dos comandos con un simulador y completar 8 h al operador con 24 h.
+- T["Comandos probados"] --> A["Criterios de aceptacion"]
+- ⚠️ **Error frecuente:** Aceptar por calendario. Acepta por criterios cumplidos
 - 🎯 **Por qué importa:** Un satélite entregado con una base de datos errónea muestra valores falsos o alarmas inútiles; operadores sin entrenamiento no saben responder. La decisión central: ¿la base de datos, los comandos y las personas están listos, de modo que operaciones pueda recibir el sistema?
 
 📘 **Dónde se aprende** (1 clase): [B83-C19 · Aceptación y transferencia a operaciones](../programa/clases/B83/B83-C19-aceptacion-y-transferencia-a-operaciones/CLASE.md).
@@ -2241,7 +3401,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - Los criterios de inclusión y exclusión son reglas escritas antes de ver los resultados que deciden qué obra entra al análisis.
 
-🎯 **Por qué importa (clase B20-C01):** Cuando alguien afirma «no hay estudios sobre esto» o «es sabido que…», la frase vale tanto como el procedimiento con que se buscó. Dos personas que buscan lo mismo sin anotar cómo lo hicieron obtendrán listas distintas y no podrán explicar por qué.
+💡 **Cómo se explica en la clase [B20-C01](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md):**
+- Redactar criterios de inclusión y exclusión operativos, fijados antes de ver los resultados.
+- 🎯 **Por qué importa:** Cuando alguien afirma «no hay estudios sobre esto» o «es sabido que…», la frase vale tanto como el procedimiento con que se buscó. Dos personas que buscan lo mismo sin anotar cómo lo hicieron obtendrán listas distintas y no podrán explicar por qué.
 
 📘 **Dónde se aprende** (1 clase): [B20-C01 · Búsqueda bibliográfica sistemática y gestión de referencias](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md).
 
@@ -2249,7 +3411,10 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 - La crítica de fuentes es el examen de origen, fecha, propósito y dependencia de un testimonio.
 
-🎯 **Por qué importa (clase B132-C01):** Un relato histórico es tan fiable como las fuentes que lo sostienen, y tres copias de una misma fuente no son tres fuentes. La decisión central: ¿cuánto apoyo da realmente un conjunto de fuentes a una afirmación y cuánto de ese apoyo es robusto ante cambios razonables de criterio?
+💡 **Cómo se explica en la clase [B132-C01](../programa/clases/B132/B132-C01-critica-historica-de-fuentes-y-metodo-historiografico/CLASE.md):**
+- La evidencia es la matriz de crítica de fuentes con sensibilidad del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *matriz de crítica de fuentes con sensibilidad* para un hecho ficticio con 5 fuentes: tipo, distancia, grupo, sesgo, peso, soporte ingenuo y por grupos, y un barrido de al menos un parámetro.
+- 🎯 **Por qué importa:** Un relato histórico es tan fiable como las fuentes que lo sostienen, y tres copias de una misma fuente no son tres fuentes. La decisión central: ¿cuánto apoyo da realmente un conjunto de fuentes a una afirmación y cuánto de ese apoyo es robusto ante cambios razonables de criterio?
 
 📘 **Dónde se aprende** (1 clase): [B132-C01 · Crítica histórica de fuentes y método historiográfico](../programa/clases/B132/B132-C01-critica-historica-de-fuentes-y-metodo-historiografico/CLASE.md).
 
@@ -2272,7 +3437,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B83-C13](../programa/clases/B83/B83-C13-revisiones-srr-y-pdr/CLASE.md):**
 - SRR: requisitos verificables (≥ 95 %), necesidades con requisito (100 %), requisitos con origen (100 %), CONOPS documentado y estabilidad del orden de necesidades (≥ 70 %, no crítico).
-- Analogía: la lista de verificación previa al despegue de un avión: si un punto crítico falla, no se despega, aunque el resto esté bien.
+- *Descripción textual:* el estado del proyecto y los umbrales dan criterios evaluados; los críticos fallidos determinan si la revisión está lista y generan acciones, cuyo cierre se estima en semanas.
 - ⚠️ **Error frecuente:** Promediar criterios críticos. Un crítico fallido impide la revisión
 - 🎯 **Por qué importa:** Una revisión aprobada sin criterios es un trámite; una revisión con criterios medibles es una decisión. La decisión central: ¿el proyecto cumple los criterios de entrada de la SRR y de la PDR y qué falta para llegar?
 
@@ -2284,7 +3449,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B88-C10](../programa/clases/B88/B88-C10-gestion-de-eventos/CLASE.md):**
 - Con limitador: registrados `48`, suprimidos `978` (todos del identificador 5) y críticos registrados `2` de `2`.
-- Paso 4 · Críticos. Ambos `RESET_WDG` se registran.
+- E["Evento con id y severidad"] --> Q{"Critico?"}
 - ⚠️ **Error frecuente:** Limitar también los críticos. Exímelos del limitador (8.2)
 - 🎯 **Por qué importa:** Un sensor que parpadea puede generar miles de eventos y saturar el registro y el enlace, ocultando el único evento importante. La decisión central: ¿cómo se limita el ruido sin perder lo crítico?
 
@@ -2296,6 +3461,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B30-C02](../programa/clases/B30/B30-C02-fotosfera-cromosfera-y-corona/CLASE.md):**
 - Las temperaturas (5772 K nominal de la fotosfera; 10⁴ K y 1,5 × 10⁶ K ilustrativas para cromosfera y corona) y las masas moleculares medias (1,3; 1,2; 0,6) son ilustrativas.
+- `T` y `μ` de cromosfera y corona ilustrativos.
 - 🎯 **Por qué importa:** La corona caliente es el origen del viento solar y de gran parte de la actividad. Entender por qué no puede estar en reposo conecta el Sol con el medio interplanetario.
 
 📘 **Dónde se aprende** (1 clase): [B30-C02 · Fotosfera, cromosfera y corona](../programa/clases/B30/B30-C02-fotosfera-cromosfera-y-corona/CLASE.md).
@@ -2306,7 +3472,9 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 - La carga aguda es el promedio de los últimos 7 días; la crónica, el de 28.
 
 💡 **Cómo se explica en la clase [B02-C05](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md):**
-- La crónica da contexto, pero fue escrita desde fuera.
+- B["Texto: crónicas del siglo XVI<br/>(escritas por terceros)"] --> D
+- El límite: en los Andes, el «diario» de las crónicas fue escrito por quienes ocupaban el territorio, con sus propios sesgos.
+- ⚠️ **Error frecuente:** Tomar crónicas como voz indígena. Ejercicio 8.
 - 🎯 **Por qué importa:** Hablar de «astronomía andina» en singular es un error: los Andes reúnen sociedades de épocas y regiones muy distintas. La pregunta motivadora es: ¿cómo se estudia respetuosamente un cielo que otra cultura leyó de otra manera, sin imponerle nuestras categorías y sin inventar lo que las fuentes no dicen?
 
 📘 **Dónde se aprende** (2 clases): [B02-C05 · Cosmovisiones andinas del cielo](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md); [B107-C05 · Prevención de lesiones en entrenamiento y trabajo operativo](../programa/clases/B107/B107-C05-prevencion-de-lesiones-en-entrenamiento-y-trabajo-operativo/CLASE.md).
@@ -2356,6 +3524,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B16-C10](../programa/clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md):**
 - El cruce de fase ocurre en `ω_pc = √2 = 1,414 rad/s`, donde `|L| = K/(√2·√3·√6) = K/6`.
+- Obtener las frecuencias de cruce y los márgenes de ganancia y de fase.
 - 🎯 **Por qué importa:** Los modelos nunca son exactos: la inercia varía, el sensor tarda más de lo supuesto, un modo flexible aparece. La estabilidad nominal no basta; hay que saber cuánto error aguanta el lazo.
 
 📘 **Dónde se aprende** (1 clase): [B16-C10 · Diagramas de Bode y Nyquist](../programa/clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md).
@@ -2366,1045 +3535,7 @@ Partes: [1](terminos-c.md) · [2](terminos-c-2.md) · **3**
 
 💡 **Cómo se explica en la clase [B16-C10](../programa/clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md):**
 - Paso 1 · cruce de ganancia. Se resuelve `|L(jω)| = 1` con `K = 2`: `ω_gc = 0,749 rad/s`.
+- Obtener las frecuencias de cruce y los márgenes de ganancia y de fase.
 - 🎯 **Por qué importa:** Los modelos nunca son exactos: la inercia varía, el sensor tarda más de lo supuesto, un modo flexible aparece. La estabilidad nominal no basta; hay que saber cuánto error aguanta el lazo.
 
 📘 **Dónde se aprende** (1 clase): [B16-C10 · Diagramas de Bode y Nyquist](../programa/clases/B16/B16-C10-diagramas-de-bode-y-nyquist/CLASE.md).
-
-### Cruce de láminas
-
-- El cruce de láminas ocurre cuando `1 − aε = 0`.
-
-🎯 **Por qué importa (clase B36-C05):** Una simulación sin comprobar contra un caso exacto no es una prueba. La decisión central: ¿converge el integrador al resultado analítico y qué pasa cuando las láminas se cruzan?
-
-📘 **Dónde se aprende** (1 clase): [B36-C05 · Simulaciones cosmológicas de N cuerpos: condiciones iniciales y caja periódica](../programa/clases/B36/B36-C05-simulaciones-cosmologicas-de-n-cuerpos-condiciones-iniciales-y-caja-periodica/CLASE.md).
-
-### Cruce de planos
-
-- El cruce de planos es donde dos planos se intersecan.
-
-🎯 **Por qué importa (clase B118-C15):** La sección 5.5 de la IADC Rev. 4 pide planificar y operar las constelaciones para minimizar la probabilidad de colisión entre sus miembros, en los cruces de planos y con otras constelaciones, y minimizar el riesgo acumulado de reentradas.
-
-📘 **Dónde se aprende** (1 clase): [B118-C15 · Seguimiento de mega constelaciones](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md).
-
-### Cruce posicional
-
-- Un cruce posicional (*cross-match*) empareja filas de dos catálogos que probablemente son el mismo objeto.
-
-💡 **Cómo se explica en la clase [B14-C05](../programa/clases/B14/B14-C05-tablas-astronomicas-y-catalogos/CLASE.md):**
-- A["Catálogo A<br/>id, ra, dec, paralaje, procedencia"] --> X["Cruce posicional<br/>vecino más cercano"]
-- *Descripción textual:* los dos catálogos entran a un cruce posicional que busca, para cada fuente de B, la más cercana de A.
-- 🎯 **Por qué importa:** Un catálogo de estrellas no es una lista de números: cada columna tiene una unidad, algunas filas no tienen paralaje, y la tabla viene de un instrumento, una época y una versión. Si pierdes eso al copiar los datos a un arreglo, pierdes la mitad del significado.
-
-📘 **Dónde se aprende** (1 clase): [B14-C05 · Tablas astronómicas y catálogos](../programa/clases/B14/B14-C05-tablas-astronomicas-y-catalogos/CLASE.md).
-
-### Cruda
-
-- La carga ponderada es `Σ valoración × peso / 15`; la cruda, la media simple.
-
-💡 **Cómo se explica en la clase [B111-C03](../programa/clases/B111/B111-C03-carga-cognitiva-y-gestion-de-la-atencion/CLASE.md):**
-- Con los pesos de sus 15 comparaciones por pares la carga ponderada es `65,333` frente a `51,667` de la cruda.
-- 🎯 **Por qué importa:** Ninguna clase trataba la carga cognitiva ni el diseño de tareas para limitarla. La decisión central: ¿cómo se mide la carga y cómo se rediseña una secuencia para que no haya picos que superen la capacidad?
-
-📘 **Dónde se aprende** (1 clase): [B111-C03 · Carga cognitiva y gestión de la atención](../programa/clases/B111/B111-C03-carga-cognitiva-y-gestion-de-la-atencion/CLASE.md).
-
-### CSI
-
-- El POD es la fracción de eventos detectados, el FAR la de alertas falsas y el CSI la de aciertos sobre todos los casos relevantes.
-
-🎯 **Por qué importa (clase B30-C20):** Una alerta con muchas falsas alarmas se ignora y una con muchos fallos no sirve; medir ambas cosas es parte del oficio. La decisión central: ¿cómo se clasifica un evento y cómo se mide si una regla de alerta tiene habilidad?
-
-📘 **Dónde se aprende** (1 clase): [B30-C20 · Análisis de alerta solar real](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md).
-
-### CSV
-
-- Un archivo CSV (*comma-separated values*) guarda una tabla como líneas de texto con campos separados por un delimitador, normalmente la coma.
-
-💡 **Cómo se explica en la clase [B07-C08](../programa/clases/B07/B07-C08-lectura-de-archivos-csv/CLASE.md):**
-- Un CSV sin procedencia no es un dato científico.
-- Para `planetas_nssdc.csv` se declara en la cabecera del script y en la sección 11: quién publicó cada valor (NASA NSSDC), qué páginas, cuándo se consultaron y cuáles valores están redondeados (la densidad y la gravedad vienen de la tabla comparativa, con precisión menor).
-- 🎯 **Por qué importa:** Un archivo CSV parece trivial y por eso engaña: todo se lee como texto, un decimal con coma rompe una columna, una línea vacía pasa inadvertida, y una codificación equivocada convierte «Júpiter» en símbolos raros. Un análisis hecho sobre datos mal leídos puede ser plausible y erróneo a la vez.
-
-📘 **Dónde se aprende** (1 clase): [B07-C08 · Lectura de archivos CSV](../programa/clases/B07/B07-C08-lectura-de-archivos-csv/CLASE.md).
-
-### CT
-
-- Chick–Watson: inactivación proporcional a `C·t`. CT: concentración por tiempo.
-
-🎯 **Por qué importa (clase B106-C26):** Las aguas grises son el mayor volumen del lazo y su carga orgánica hay que destruirla antes de potabilizar. La decisión central: ¿qué volumen de biorreactor y qué desinfección dan la remoción y la reducción de microorganismos requeridas?
-
-📘 **Dónde se aprende** (1 clase): [B106-C26 · Tratamiento de aguas grises en hábitats](../programa/clases/B106/B106-C26-tratamiento-de-aguas-grises-en-habitats/CLASE.md).
-
-### CTE
-
-- La CTE es la fracción de carga que pasa de un píxel al siguiente.
-
-💡 **Cómo se explica en la clase [B44-C02](../programa/clases/B44/B44-C02-sensores-ccd/CLASE.md):**
-- Con `1000 e⁻`, `CTE = 0,9999` y `400` transferencias, el valor analítico es `960,79 e⁻` y el simulado (300 repeticiones, semilla 20261109) `960,75 e⁻`, con error estándar de la media `0,35 e⁻`.
-- *Descripción textual:* la carga inicial atraviesa `n` transferencias; la fracción restante es `CTE^n` y la simulación lo confirma.
-- ⚠️ **Error frecuente:** Creer que la CTE es irrelevante por ser casi 1. Se corrige con 8.4.
-- 🎯 **Por qué importa:** Cada transferencia pierde una pequeña fracción de carga, y un píxel lejano se transfiere miles de veces. La decisión central: ¿qué CTE hace aceptable un sensor de 2048 × 2048?
-
-📘 **Dónde se aprende** (1 clase): [B44-C02 · Sensores CCD](../programa/clases/B44/B44-C02-sensores-ccd/CLASE.md).
-
-### Cuaderno
-
-- Un cuaderno es un documento con celdas de texto y de código, y las salidas de ese código.
-
-💡 **Cómo se explica en la clase [B14-C09](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md):**
-- El laboratorio construye el cuaderno con `nbformat` y lo valida contra el esquema: sus claves de nivel superior son `cells`, `metadata`, `nbformat` y `nbformat_minor`, con versión 4.5 y cuatro celdas (una de texto y tres de código).
-- El texto del cuaderno no cambió, la salida sí.
-- 🎯 **Por qué importa:** Alguien te manda un cuaderno con un gráfico que apoya una conclusión. Lo abres, ejecutas las celdas y el gráfico sale distinto.
-
-📘 **Dónde se aprende** (1 clase): [B14-C09 · Jupyter y experimentos reproducibles](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md).
-
-### Cuadrada
-
-- Una matriz es cuadrada si `m = n`.
-
-🎯 **Por qué importa (clase B10-C03):** Una estación terrestre está fija respecto de la Tierra, pero la Tierra gira respecto del espacio inercial. Para saber dónde está la estación en el sistema inercial a cada instante hay que aplicar una transformación que depende del tiempo.
-
-📘 **Dónde se aprende** (1 clase): [B10-C03 · Matrices y operadores lineales](../programa/clases/B10/B10-C03-matrices-y-operadores-lineales/CLASE.md).
-
-### Cuadrado
-
-- El cuadrado de `a` es `a²`; el cubo, `a³`.
-
-💡 **Cómo se explica en la clase [B03-C04](../programa/clases/B03/B03-C04-potencias-y-raices/CLASE.md):**
-- Si `√a` es el número que al cuadrado da `a`, entonces `(a^(1/2))² = a^(1/2 · 2) = a`, así que `a^(1/2) = √a` (por la regla 8.2).
-- Un cuadrado de lado 3 se llena con `3 × 3 = 9` casillas; un cubo de arista 3, con `3 × 3 × 3 = 27` cajas.
-- ⚠️ **Error frecuente:** Sumar al elevar una suma al cuadrado. Ejercicio 8.
-- 🎯 **Por qué importa:** En 1619 Johannes Kepler publicó que el cuadrado del período de un planeta es proporcional al cubo del tamaño de su órbita. Hoy esa relación sigue sirviendo para estimar el período de cualquier objeto que orbita otro conocido.
-
-📘 **Dónde se aprende** (1 clase): [B03-C04 · Potencias y raíces](../programa/clases/B03/B03-C04-potencias-y-raices/CLASE.md).
-
-### Cuadrante
-
-- Un instrumento es un dispositivo para medir la posición del Sol, la Luna o las estrellas; un gnomon es una varilla vertical que proyecta sombra, y un cuadrante mide ángulos con un arco.
-
-💡 **Cómo se explica en la clase [B02-C04](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md):**
-- Tenía un cuadrante mural de cobre de unos 4 m y un cuadrante azimutal inventado por al-Tusi, y una biblioteca con libros de muchas ciencias.
-- 🎯 **Por qué importa:** Contar la historia de la astronomía como una línea recta de Grecia a Europa deja fuera lo que otras sociedades observaron, calcularon y construyeron. La pregunta motivadora es: ¿qué sabemos con precisión de estas tradiciones, qué falta y cómo evitar contar la historia desde un solo lado?
-
-📘 **Dónde se aprende** (1 clase): [B02-C04 · Astronomía de India, China y mundo islámico](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md).
-
-### Cuadrática
-
-- Una ecuación es lineal si la incógnita aparece solo a la primera potencia, y cuadrática si el mayor exponente es 2.
-
-💡 **Cómo se explica en la clase [B04-C02](../programa/clases/B04/B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md):**
-- Para la cuadrática, piensa que `y = ax² + bx + c` dibuja una curva en forma de «U» (o «∩»), una parábola, y las raíces son los puntos donde corta el eje horizontal: dos, uno o ninguno.
-- Su límite: en la cuadrática hay dos «pesos» que equilibran, no uno, y hay que decidir cuál es el real.
-- 🎯 **Por qué importa:** Una sonda desciende hacia la Luna; un instrumento cae desde una mesa de trabajo; una señal de radio viaja hasta un espejo y vuelve. En cada caso hay un número que no conoces (un tiempo, una distancia) y una relación que lo liga a otros que sí conoces.
-
-📘 **Dónde se aprende** (1 clase): [B04-C02 · Ecuaciones lineales y cuadráticas](../programa/clases/B04/B04-C02-ecuaciones-lineales-y-cuadraticas/CLASE.md).
-
-### Cuadratura
-
-- La cuadratura es una integral numérica.
-- La cuadratura es la suma numérica de la integral.
-- La cuadratura suma los cuadrados de los errores.
-- *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-💡 **Cómo se explica en la clase [B26-C12](../programa/clases/B26/B26-C12-escalas-de-distancia-cosmologicas/CLASE.md):**
-- El laboratorio genera `10⁵` distancias multiplicando tres factores aleatorios (gaussiano `1,2 %` y dos con `10^{0,2 g}`) y obtiene una desviación de `2,593 %`, a un `0,2 %` de la cuadratura.
-- La incertidumbre sistemática (extinción, metalicidad) no entra en la cuadratura estadística.
-- 🎯 **Por qué importa:** Una distancia con un error de `2,6 %` produce un `H₀` con un error similar, y la discusión actual sobre `H₀` gira alrededor de esas décimas de punto porcentual. Entender cómo se acumulan los errores en una cadena de pasos evita confiar en una cifra más de lo debido.
-
-📘 **Dónde se aprende** (4 clases): [B26-C12 · Escalas de distancia cosmológicas](../programa/clases/B26/B26-C12-escalas-de-distancia-cosmologicas/CLASE.md); [B32-C06 · Micro y macroturbulencia y granulación estelar](../programa/clases/B32/B32-C06-micro-y-macroturbulencia-y-granulacion-estelar/CLASE.md); [B58-C09 · Probabilidades de impacto](../programa/clases/B58/B58-C09-probabilidades-de-impacto/CLASE.md); [B77-C19 · Seguridad de rango a nivel conceptual](../programa/clases/B77/B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md).
-
-### Cuadro maestro
-
-- El cuadro maestro combina muchos cuadros para reducir ruido.
-
-🎯 **Por qué importa (clase B44-C12):** Si el bias no se resta, el patrón fijo queda en la imagen. La decisión central: ¿cuántos cuadros se necesitan para que el maestro no añada ruido apreciable?
-
-📘 **Dónde se aprende** (1 clase): [B44-C12 · Calibración con bias](../programa/clases/B44/B44-C12-calibracion-con-bias/CLASE.md).
-
-### Cuádruple
-
-- La cobertura simple es la fracción de tiempo con al menos un satélite visible; la cuádruple, con al menos cuatro.
-
-💡 **Cómo se explica en la clase [B89-C17](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md):**
-- La cobertura global simple es `83,7 %` y la cuádruple `0,0 %`.
-- Una constelación sintética 55°: 24/6/1 a 1200 km, con máscara de 10°, tiene una huella de semiángulo `24,03°`, `1,04` satélites visibles en promedio (teoría `1,04`), cobertura simple `83,7 %` y cuádruple `0,0 %`.
-- 🎯 **Por qué importa:** El número de satélites, su altitud y la inclinación fijan cuánta gente o cuántos usuarios ven al menos uno (o cuatro, para navegar) y cuánto cuesta lograrlo. La decisión central: ¿cuántos satélites y qué geometría dan la cobertura necesaria?
-
-📘 **Dónde se aprende** (1 clase): [B89-C17 · Constelaciones y cobertura](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md).
-
-### Cuadrupolo
-
-- El cuadrupolo `ℓ = 2`.
-
-🎯 **Por qué importa (clase B40-C15):** La varianza cósmica es el límite fundamental de la medición del fondo. La decisión central: ¿qué precisión máxima permite el número de modos disponibles?
-
-📘 **Dónde se aprende** (1 clase): [B40-C15 · Varianza cósmica y límites de las mediciones del fondo](../programa/clases/B40/B40-C15-varianza-cosmica-y-limites-de-las-mediciones-del-fondo/CLASE.md).
-
-### Cualquier
-
-- Un límite en dos variables exige que el valor sea el mismo por cualquier trayectoria.
-
-🎯 **Por qué importa (clase B09-C15):** Una sonda que viaja de la Tierra a la Luna se mueve en un campo de potencial que depende de dos coordenadas del plano. Dónde están los puntos de equilibrio y qué forma tiene el campo alrededor de ellos se lee en un mapa de curvas de nivel.
-
-📘 **Dónde se aprende** (1 clase): [B09-C15 · Funciones de varias variables](../programa/clases/B09/B09-C15-funciones-de-varias-variables/CLASE.md).
-
-### Cuantía
-
-- La cuantía es la cifra reclamada.
-
-💡 **Cómo se explica en la clase [B123-C01](../programa/clases/B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md):**
-- Con los grados `0,95; 0,85; 0,60; 0,40`, la cuantía ponderada es `171 000 + 357 000 + 180 000 + 100 000 = 808 000` UMF.
-- Si el costo de descontaminación varía de forma lognormal con sigma `0,25`, la cuantía ponderada tiene mediana `807 690` UMF y un intervalo P5–P95 de `747 588` a `900 205` UMF (20 000 sorteos, semilla 123).
-- 🎯 **Por qué importa:** Un Estado puede tener derecho a reclamar y aun así perder o cobrar poco si no demuestra el daño o no lo cuantifica de forma defendible. La decisión central: ¿qué partidas puedo sostener con pruebas, por cuánto, en qué moneda y con qué margen de error?
-
-📘 **Dónde se aprende** (1 clase): [B123-C01 · Prueba del daño y cuantificación de la reparación](../programa/clases/B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md).
-
-### Cuantil
-
-- Un cuantil `q_α` cumple `F(q_α) = α`; la mediana es `q_0,5`.
-
-💡 **Cómo se explica en la clase [B12-C02](../programa/clases/B12/B12-C02-variables-aleatorias/CLASE.md):**
-- El cuantil del 95 % cumple `F(q) = 0,95`: `(q + 2)/4 = 0,95`, `q = 1,8 m`.
-- 🎯 **Por qué importa:** Casi nunca interesa *qué* resultado ocurrió, sino *un número* que resume el resultado: cuántos computadores funcionan, qué error tuvo una medición, cuántos fotones llegaron. Poner un número en cada resultado permite sumar, promediar y comparar.
-
-📘 **Dónde se aprende** (1 clase): [B12-C02 · Variables aleatorias](../programa/clases/B12/B12-C02-variables-aleatorias/CLASE.md).
-
-### Cuantización
-
-- La cuantización es el redondeo del ADC, con varianza `1/12 ADU²`.
-- La cuantización reemplaza el valor por el nivel más cercano.
-- La cuantización con pérdida.
-- *(y 6 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-💡 **Cómo se explica en la clase [B44-C06](../programa/clases/B44/B44-C06-ruido-de-lectura/CLASE.md):**
-- La cuantización importa solo si el ruido es menor que unos `1 ADU`.
-- ⚠️ **Error frecuente:** Ignorar la cuantización con ruido pequeño. Se corrige con 8.2.
-- 🎯 **Por qué importa:** Sin conocer el ruido de lectura no se puede planificar una exposición ni estimar una incertidumbre. La decisión central: ¿cómo medirlo sin que el patrón fijo del sensor lo contamine?
-
-📘 **Dónde se aprende** (9 clases): [B44-C06 · Ruido de lectura](../programa/clases/B44/B44-C06-ruido-de-lectura/CLASE.md); [B46-C09 · Conversión analógica digital](../programa/clases/B46/B46-C09-conversion-analogica-digital/CLASE.md); [B47-C16 · Compresión de datos científicos](../programa/clases/B47/B47-C16-compresion-de-datos-cientificos/CLASE.md); [B51-C12 · Formatos de datos VLBI y geodésicos](../programa/clases/B51/B51-C12-formatos-de-datos-vlbi-y-geodesicos/CLASE.md); [B57-C03 · Resolución radiométrica y espectral](../programa/clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md); [B85-C25 · Sensores y telemetría térmica](../programa/clases/B85/B85-C25-sensores-y-telemetria-termica/CLASE.md) y 3 más.
-
-### Cuantización de Sheppard
-
-- La cuantización de Sheppard `1/12` px².
-
-🎯 **Por qué importa (clase B42-C14):** El Shack-Hartmann es el sensor más usado en óptica adaptativa. La decisión central: ¿cuántos fotones hacen falta por subapertura para que el centroide sea preciso?
-
-📘 **Dónde se aprende** (1 clase): [B42-C14 · Sensores Shack-Hartmann](../programa/clases/B42/B42-C14-sensores-shack-hartmann/CLASE.md).
-
-### Cuartos
-
-- La luna nueva ocurre cuando la Luna está entre la Tierra y el Sol (no se ve el lado iluminado); la luna llena, cuando la Tierra está entre la Luna y el Sol; los cuartos, cuando el ángulo Sol–Tierra–Luna es de 90°.
-
-💡 **Cómo se explica en la clase [B01-C12](../programa/clases/B01/B01-C12-fases-lunares-y-ciclos-celestes/CLASE.md):**
-- *Descripción textual:* un ciclo de cuatro estaciones: luna nueva (edad 0), cuarto creciente (un cuarto del período), luna llena (la mitad) y cuarto menguante (tres cuartos); luego vuelve a la luna nueva.
-- 🎯 **Por qué importa:** La Luna es el reloj más a mano del cielo: cada noche cambia, y cada 29,5 días vuelve a empezar. Pero «a mano» no significa «fácil de explicar»: muchas personas creen que las fases son la sombra de la Tierra sobre la Luna.
-
-📘 **Dónde se aprende** (1 clase): [B01-C12 · Fases lunares y ciclos celestes](../programa/clases/B01/B01-C12-fases-lunares-y-ciclos-celestes/CLASE.md).
-
-### Cuásar
-
-- Un cuásar es un núcleo galáctico activo muy lejano; su movimiento propio esperado es despreciable (S1, cap. 2).
-
-💡 **Cómo se explica en la clase [B13-C21](../programa/clases/B13/B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md):**
-- Las coordenadas de cada cuásar son las marcas del mapa; los ejes salen de ellas.
-- 🎯 **Por qué importa:** Para seguir una nave en el espacio profundo hay que decir en qué dirección está respecto de un marco fijo. Si el marco gira aunque sea un poco, todas las direcciones se desplazan.
-
-📘 **Dónde se aprende** (1 clase): [B13-C21 · Sistema de referencia celeste ICRF y cuásares](../programa/clases/B13/B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md).
-
-### Cuasiespecie
-
-- Una cuasiespecie es la nube de mutantes alrededor de la maestra.
-
-💡 **Cómo se explica en la clase [B56-C03](../programa/clases/B56/B56-C03-origen-de-moleculas-autorreplicantes/CLASE.md):**
-- Cuasiespecie completa: resuelve una matriz de mutación; más realista, costosa.
-- 🎯 **Por qué importa:** Un replicador que copia mal pierde su información; uno que copia bien necesita una maquinaria que, sin vida previa, aún no existe. Esa tensión limita el tamaño de los primeros genomas.
-
-📘 **Dónde se aprende** (1 clase): [B56-C03 · Origen de moléculas autorreplicantes](../programa/clases/B56/B56-C03-origen-de-moleculas-autorreplicantes/CLASE.md).
-
-### Cuasi-identificador
-
-- El cuasi-identificador combina atributos.
-
-🎯 **Por qué importa (clase B105-C19):** No basta con quitar el nombre: con edad, sexo, profesión y misión, una persona de una cohorte de 6 suele ser única. La decisión central: ¿qué se puede publicar de una cohorte pequeña sin identificar a nadie y cuánta utilidad se pierde al protegerla?
-
-📘 **Dónde se aprende** (1 clase): [B105-C19 · Bioética en investigación tripulada](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md).
-
-### Cuasi-isótropo
-
-- Un laminado cuasi-isótropo tiene `A` isótropa en el plano.
-
-💡 **Cómo se explica en la clase [B84-C03](../programa/clases/B84/B84-C03-materiales-compuestos/CLASE.md):**
-- El cuasi-isótropo pierde 61 % del módulo longitudinal del UD y gana igualdad en todas las direcciones.
-- En el cuasi-isótropo `|A₁₁ − A₂₂|/A₁₁ = 0` y `|A₆₆ − (A₁₁ − A₁₂)/2|/A₆₆ = 3,6 × 10⁻¹⁶`, y `E = 54,07 GPa`, `ν = 0,311` dan `G = 20,62 GPa`, igual a `A₆₆/h`.
-- 🎯 **Por qué importa:** Un panel de fibra con las capas mal orientadas puede ser 14 veces más blando en una dirección que en otra sin que el material cambie. La decisión central: ¿cómo cambia la rigidez efectiva de un laminado según el ángulo de sus capas?
-
-📘 **Dónde se aprende** (1 clase): [B84-C03 · Materiales compuestos](../programa/clases/B84/B84-C03-materiales-compuestos/CLASE.md).
-
-### Cuasineutralidad
-
-- La cuasineutralidad es la neutralidad a escalas mayores que `λ_D`.
-
-🎯 **Por qué importa (clase B30-C07):** Sin apantallamiento no hay plasma, y sin muchas partículas en la esfera de Debye no hay comportamiento colectivo. La decisión central: ¿cuándo un gas ionizado es un plasma?
-
-📘 **Dónde se aprende** (1 clase): [B30-C07 · Longitud de Debye y plasma](../programa/clases/B30/B30-C07-longitud-de-debye-y-plasma/CLASE.md).
-
-### Cuasi-satélite
-
-- El ángulo coorbital `θ = λ_part − λ_Tierra` (sin envolver) distingue: tadpole (`θ` oscila alrededor de `±60°` sin cruzar `0` ni `π`), herradura (`θ` cubre `π` sin cruzar `0` ni `2π`) y cuasi-satélite (`θ` oscila alrededor de `0` con una amplitud pequeña y la partícula se mantiene a unos pocos `R_H`).
-
-💡 **Cómo se explica en la clase [B73-C22](../programa/clases/B73/B73-C22-capturas-temporales-y-cuasi-satelites/CLASE.md):**
-- El caso `e = 0,02` se acerca a `0,04 R_H` de la Tierra, es dispersado y sale de la coorbitalidad: no todo estado inicial parecido a un cuasi-satélite lo es.
-- Un cuasi-satélite no es un satélite: `θ` libra alrededor de `0` pero la partícula orbita al Sol en un año con `a ≈ 1`; su distancia a la Tierra (`4,7–11,7 R_H`) la deja fuera de la esfera de Hill.
-- ⚠️ **Error frecuente:** Tomar un cuasi-satélite por un satélite. Se corrige con 8.5.
-- 🎯 **Por qué importa:** Un asteroide puede acompañar a la Tierra durante siglos sin orbitarla: dando vueltas alrededor de L4 (tadpole), de L3–L4–L5 (herradura) o de la propia Tierra (cuasi-satélite); y puede ser capturado temporalmente dentro de su esfera de Hill. Distinguirlos requiere una clasificación operativa y una advertencia: no son satélites.
-
-📘 **Dónde se aprende** (1 clase): [B73-C22 · Capturas temporales y cuasi-satélites](../programa/clases/B73/B73-C22-capturas-temporales-y-cuasi-satelites/CLASE.md).
-
-### Cuaternión
-
-- Un cuaternión es `q = (q₀, q₁, q₂, q₃) = q₀ + q₁ i + q₂ j + q₃ k` con `i² = j² = k² = ijk = −1`.
-- El cuaternión `q = (w, x, y, z)` rota del cuerpo al marco de navegación.
-- El cuaternión `q = [qv; qw]` tiene norma 1.
-
-💡 **Cómo se explica en la clase [B10-C15](../programa/clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md):**
-- Un cuaternión unitario tiene tres grados de libertad reales (cuatro números, una restricción de norma), igual que una rotación.
-- El ángulo del cuaternión es la mitad del de la rotación: `θ = 2 arccos q₀`.
-- 🎯 **Por qué importa:** Un seguidor estelar entrega la actitud del satélite varias veces por segundo; el sistema de control la combina con las lecturas de giróscopos, la propaga y la compara con la actitud deseada. Hacerlo con ángulos de Euler es frágil; hacerlo con matrices cuesta más y acumula deriva.
-
-📘 **Dónde se aprende** (3 clases): [B10-C15 · Cuaterniones unitarios](../programa/clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md); [B80-C03 · Mecanización strapdown e integración de actitud y velocidad](../programa/clases/B80/B80-C03-mecanizacion-strapdown-e-integracion-de-actitud-y-velocidad/CLASE.md); [B87-C02 · Representaciones de orientación](../programa/clases/B87/B87-C02-representaciones-de-orientacion/CLASE.md).
-
-### Cuaternión de error
-
-- El cuaternión de error es `q_e = q_obj⁻¹ ⊗ q`; vale `[1, 0, 0, 0]` (o su opuesto) cuando la orientación alcanzó el objetivo.
-
-💡 **Cómo se explica en la clase [B16-C20](../programa/clases/B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md):**
-- *Descripción textual:* se calcula el cuaternión de error entre la orientación y el objetivo; si su escalar es no negativo se aplica la ley normal, y si es negativo se invierte el signo de la parte proporcional para tomar el camino corto; el par actúa sobre el cuerpo cuya orientación realimenta el error.
-- 🎯 **Por qué importa:** Un telescopio debe girar desde una orientación a otra y quedarse allí. Con tres ejes acoplados y rotaciones grandes, ni los ángulos de Euler (tienen singularidades y dependen de la secuencia de giros) ni el modelo lineal bastan.
-
-📘 **Dónde se aprende** (1 clase): [B16-C20 · Control de orientación en un simulador](../programa/clases/B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md).
-
-### Cuaternión puro
-
-- Un cuaternión puro `(0, v)` representa un vector.
-
-🎯 **Por qué importa (clase B10-C15):** Un seguidor estelar entrega la actitud del satélite varias veces por segundo; el sistema de control la combina con las lecturas de giróscopos, la propaga y la compara con la actitud deseada. Hacerlo con ángulos de Euler es frágil; hacerlo con matrices cuesta más y acumula deriva.
-
-📘 **Dónde se aprende** (1 clase): [B10-C15 · Cuaterniones unitarios](../programa/clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md).
-
-### Cuaternión unitario
-
-- Un cuaternión unitario `q = [q0, q_v]` (escalar primero, `q_v` de tres componentes) con `q0² + |q_v|² = 1` representa una rotación; usamos la convención de que lleva componentes del sistema inercial al del cuerpo.
-
-🎯 **Por qué importa (clase B16-C20):** Un telescopio debe girar desde una orientación a otra y quedarse allí. Con tres ejes acoplados y rotaciones grandes, ni los ángulos de Euler (tienen singularidades y dependen de la secuencia de giros) ni el modelo lineal bastan.
-
-📘 **Dónde se aprende** (1 clase): [B16-C20 · Control de orientación en un simulador](../programa/clases/B16/B16-C20-control-de-orientacion-en-un-simulador/CLASE.md).
-
-### CubeSat 3U
-
-- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
-
-🎯 **Por qué importa (clase B47-C25):** Muchos CubeSat universitarios fracasan por requisitos sin cifra o sin evidencia. La decisión central: ¿qué requisitos medibles se fijan, cómo se verifican y cuáles cumple un diseño preliminar?
-
-📘 **Dónde se aprende** (1 clase): [B47-C25 · Diseño de cargas útiles educativas](../programa/clases/B47/B47-C25-diseno-de-cargas-utiles-educativas/CLASE.md).
-
-### Cubierta
-
-- Regolito: material suelto de la superficie. Cubierta: capa de regolito sobre el habitat.
-
-💡 **Cómo se explica en la clase [B106-C19](../programa/clases/B106/B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md):**
-- V["cubierta 3 m"] --> X["excavacion y blindaje"]
-- *Descripción textual:* la noche fija la energía almacenada; la gravedad baja la presión que ejerce el regolito, de modo que el casco sostiene la presión interior y la cubierta se reserva para blindaje y estabilidad térmica.
-- 🎯 **Por qué importa:** La Luna cambia las reglas: noches de dos semanas, gravedad de un sexto y un regolito que protege pero no contiene la presión. La decisión central: ¿qué recursos (energía, masa de cubierta, esfuerzo de excavación) exige un asentamiento enterrado y qué parte soporta cada elemento?
-
-📘 **Dónde se aprende** (1 clase): [B106-C19 · Arquitectura de asentamiento lunar conceptual](../programa/clases/B106/B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md).
-
-### Cubo
-
-- El cuadrado de `a` es `a²`; el cubo, `a³`.
-
-💡 **Cómo se explica en la clase [B03-C04](../programa/clases/B03/B03-C04-potencias-y-raices/CLASE.md):**
-- Y `a^(3/2) = (√a)³ = √(a³)`: primero raíz y luego cubo, o al revés.
-- Un cuadrado de lado 3 se llena con `3 × 3 = 9` casillas; un cubo de arista 3, con `3 × 3 × 3 = 27` cajas.
-- 🎯 **Por qué importa:** En 1619 Johannes Kepler publicó que el cuadrado del período de un planeta es proporcional al cubo del tamaño de su órbita. Hoy esa relación sigue sirviendo para estimar el período de cualquier objeto que orbita otro conocido.
-
-📘 **Dónde se aprende** (1 clase): [B03-C04 · Potencias y raíces](../programa/clases/B03/B03-C04-potencias-y-raices/CLASE.md).
-
-### Cubo de fichas
-
-- El cubo de fichas tiene capacidad `B` y se rellena a `r` fichas por segundo; cada evento gasta una.
-
-🎯 **Por qué importa (clase B88-C10):** Un sensor que parpadea puede generar miles de eventos y saturar el registro y el enlace, ocultando el único evento importante. La decisión central: ¿cómo se limita el ruido sin perder lo crítico?
-
-📘 **Dónde se aprende** (1 clase): [B88-C10 · Gestión de eventos](../programa/clases/B88/B88-C10-gestion-de-eventos/CLASE.md).
-
-### Cubo hiperespectral
-
-- El cubo hiperespectral tiene dos dimensiones espaciales y una espectral.
-
-🎯 **Por qué importa (clase B57-C22):** Dos materiales distintos pueden parecer iguales en cuatro bandas anchas y diferenciarse en cientos de bandas estrechas. La decisión central: ¿cuándo vale la pena el costo en datos de un sensor hiperespectral y cómo se separa una mezcla de materiales?
-
-📘 **Dónde se aprende** (1 clase): [B57-C22 · Espectrómetros de imagen e hiperespectrales](../programa/clases/B57/B57-C22-espectrometros-de-imagen-e-hiperespectrales/CLASE.md).
-
-### Cuello
-
-- El cuello es la zona de unión entre dos partículas y `x/a` su razón.
-- Un cuello está abierto si `C ≤ C(Li)`.
-
-💡 **Cómo se explica en la clase [B59-C12](../programa/clases/B59/B59-C12-sinterizacion-de-materiales/CLASE.md):**
-- Como miel que se espesa al enfriarse: a baja temperatura casi no fluye y el cuello crece muy despacio.
-- *Descripción textual:* la temperatura fija la viscosidad; la ley de Frenkel da el tiempo para un cuello; la regresión del logaritmo del tiempo recupera la energía de activación.
-- 🎯 **Por qué importa:** Una variación de 50 K en el horno cambia el tiempo de sinterización en un factor 2,6. La decisión central: ¿con qué precisión hay que controlar la temperatura, y cuánta energía cuesta alcanzarla?
-
-📘 **Dónde se aprende** (2 clases): [B59-C12 · Sinterización de materiales](../programa/clases/B59/B59-C12-sinterizacion-de-materiales/CLASE.md); [B76-C08 · Transferencias de baja energía](../programa/clases/B76/B76-C08-transferencias-de-baja-energia/CLASE.md).
-
-### Cuello de botella
-
-- Un cuello de botella es la parte que domina el tiempo.
-- Un cuello de botella es la parte que fija el tiempo total.
-- El cuello de botella es el eslabón de menor capacidad.
-- *(y 4 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-💡 **Cómo se explica en la clase [B14-C14](../programa/clases/B14/B14-C14-vectorizacion-y-rendimiento/CLASE.md):**
-- Y si el cuello de botella es leer un archivo (C06–C07), vectorizar el cálculo no cambia nada.
-- Optimizar es un ciclo de cuatro pasos y el orden importa: medir el tiempo actual, localizar el cuello de botella, cambiar solo eso y verificar que el resultado no cambió y que el tiempo bajó.
-- 🎯 **Por qué importa:** Una función que calcula la distancia de 200 000 posiciones tarda medio minuto en tu cuaderno, y alguien propone «comprar un servidor». La pregunta motivadora es: ¿es el cálculo lento por su matemática o por cómo lo escribí, y cuánto puedo ganar sin cambiar el resultado?
-
-📘 **Dónde se aprende** (7 clases): [B14-C14 · Vectorización y rendimiento](../programa/clases/B14/B14-C14-vectorizacion-y-rendimiento/CLASE.md); [B18-C04 · Perfilado de rendimiento](../programa/clases/B18/B18-C04-perfilado-de-rendimiento/CLASE.md); [B89-C20 · Diseño de red de comunicaciones de misión](../programa/clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md); [B97-C27 · Simulación de productividad de flotas de maquinaria](../programa/clases/B97/B97-C27-simulacion-de-productividad-de-flotas-de-maquinaria/CLASE.md); [B110-C03 · Evacuación y refugio de emergencia](../programa/clases/B110/B110-C03-evacuacion-y-refugio-de-emergencia/CLASE.md); [B114-C01 · Rutas de evacuación y salidas de emergencia en hábitats](../programa/clases/B114/B114-C01-rutas-de-evacuacion-y-salidas-de-emergencia-en-habitats/CLASE.md) y 1 más.
-
-### Cuello de botella del deuterio
-
-- El cuello de botella del deuterio es el retraso hasta que el deuterio deja de fotodisociarse.
-
-🎯 **Por qué importa (clase B26-C16):** La cuarta parte de la masa bariónica del universo es helio, y la proporción casi no cambió desde los primeros minutos. Su valor da información sobre cuántas especies de neutrinos existen y sobre la densidad de bariones.
-
-📘 **Dónde se aprende** (1 clase): [B26-C16 · Nucleosíntesis primordial](../programa/clases/B26/B26-C16-nucleosintesis-primordial/CLASE.md).
-
-### Cuenca multianillo
-
-- Una cuenca multianillo tiene varios anillos concéntricos.
-
-🎯 **Por qué importa (clase B61-C07):** Las cuencas dejan huella en la corteza entera. La decisión central: ¿cómo se espacian los anillos, qué proyectil implica una cuenca y cuándo excava hasta el manto?
-
-📘 **Dónde se aprende** (1 clase): [B61-C07 · Cuencas multianillo y grandes impactos](../programa/clases/B61/B61-C07-cuencas-multianillo-y-grandes-impactos/CLASE.md).
-
-### Cuenta
-
-- La cuenta `N = f/(presc)·Δt`.
-- Parámetro: una magnitud con nombre, unidad y límites. Cuenta: valor entero del conversor.
-
-💡 **Cómo se explica en la clase [B88-C02](../programa/clases/B88/B88-C02-microcontroladores-embarcados/CLASE.md):**
-- Paso 1 · Cuenta. `16·10⁶/64 · 10⁻³ = 250`.
-- El laboratorio verifica que la cuenta 250 sea exacta.
-- 🎯 **Por qué importa:** Un error de configuración (un divisor mal calculado, una resolución insuficiente) no se ve en el escritorio y aparece en órbita. La decisión central: ¿qué valores de registro dan la temporización, la velocidad y la resolución que exige el requisito, con qué error?
-
-📘 **Dónde se aprende** (2 clases): [B88-C02 · Microcontroladores embarcados](../programa/clases/B88/B88-C02-microcontroladores-embarcados/CLASE.md); [B96-C06 · Telemetría operativa](../programa/clases/B96/B96-C06-telemetria-operativa/CLASE.md).
-
-### Cuenta continua
-
-- La cuenta continua es una numeración de segundos sin saltos (aquí desde 1972-01-01 00:00:00 UTC, basada en TAI).
-
-💡 **Cómo se explica en la clase [B13-C09](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md):**
-- La cuenta continua es la regla uniforme.
-- C --> D["Cuenta continua<br/>de segundos"]
-- 🎯 **Por qué importa:** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
-
-📘 **Dónde se aprende** (1 clase): [B13-C09 · Segundos intercalares y cronología](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md).
-
-### Cuenta de arranques
-
-- La cuenta de arranques limita los intentos.
-
-🎯 **Por qué importa (clase B88-C13):** Una actualización fallida en órbita no se arregla con un cable. La decisión central: ¿qué comprobaciones aceptan solo la imagen correcta y qué mecanismo vuelve a una versión conocida si la nueva no arranca?
-
-📘 **Dónde se aprende** (1 clase): [B88-C13 · Actualización segura de software](../programa/clases/B88/B88-C13-actualizacion-segura-de-software/CLASE.md).
-
-### Cuenta de Coulomb
-
-- La cuenta de Coulomb integra la corriente.
-
-🎯 **Por qué importa (clase B86-C06):** Cargar más rápido reduce el tiempo pero eleva el calor y la tensión sobre la celda; cargar más lento puede no completar el ciclo antes del siguiente eclipse. El perfil de carga decide si la batería vuelve a su estado de carga en cada órbita.
-
-📘 **Dónde se aprende** (1 clase): [B86-C06 · Gestión de carga](../programa/clases/B86/B86-C06-gestion-de-carga/CLASE.md).
-
-### Cuenta integrada
-
-- La cuenta integrada acumula ciclos de Doppler y da la variación de alcance.
-
-🎯 **Por qué importa (clase B74-C04):** Una velocidad radial de `1 mm/s` produce un desplazamiento de decenas de milihercios, medible; por eso el Doppler es el observable más preciso de la navegación en espacio profundo. La decisión central: ¿qué información da el Doppler (velocidad en la línea de visión) y qué no (posición transversal)?
-
-📘 **Dónde se aprende** (1 clase): [B74-C04 · Doppler de navegación](../programa/clases/B74/B74-C04-doppler-de-navegacion/CLASE.md).
-
-### Cuenta regresiva
-
-- Una cuenta regresiva usa T− antes de un instante de referencia y T+ después.
-
-💡 **Cómo se explica en la clase [B03-C09](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md):**
-- La cuenta regresiva es una recta de tiempo con signos.
-- 🎯 **Por qué importa:** Cuando observas una llamarada solar a las 12:00:00, el evento ocurrió antes: su tiempo es el observado menos 499 s. Si sumas en vez de restar, afirmas que la llamarada ocurre en el futuro.
-
-📘 **Dónde se aprende** (1 clase): [B03-C09 · Operaciones con números negativos](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md).
-
-### Cuentas
-
-- Las cuentas son el número de partículas por canal.
-- La línea del disco y las cuentas `4 × líneas`.
-
-💡 **Cómo se explica en la clase [B35-C06](../programa/clases/B35/B35-C06-mediciones-in-situ-de-plasmas-espaciales/CLASE.md):**
-- Con `σ = 28,730 km/s` y bins de `5,746 km/s`, 300 realizaciones de 20 000 cuentas dan: `V − V₀ = −11,9 m/s` (error estándar `11,6`), dispersión de `V` de `201,7 m/s` frente a `σ/√N = 203,2 m/s`, `T` media `100 078 K` con sesgo `78 K` (error estándar `53 K`) y dispersión `913 K` frente a `T√(2/N) = 1000 K`.
-- El ruido de Poisson se controla con más cuentas (`σ_V ∝ 1/√N`).
-- ⚠️ **Error frecuente:** Creer que más cuentas quitan el sesgo. Se corrige con 8.4.
-- 🎯 **Por qué importa:** Un momento sin su incertidumbre ni sus sesgos no es una medición. La decisión central: ¿cuántas cuentas hacen falta y qué sesgos introduce el instrumento?
-
-📘 **Dónde se aprende** (2 clases): [B35-C06 · Mediciones in situ de plasmas espaciales](../programa/clases/B35/B35-C06-mediciones-in-situ-de-plasmas-espaciales/CLASE.md); [B43-C16 · Encoders y medición angular](../programa/clases/B43/B43-C16-encoders-y-medicion-angular/CLASE.md).
-
-### Cuerda
-
-- La cuerda entre dos puntos de la esfera unidad es la longitud del segmento que los une, `|u − v|`; se relaciona con el ángulo por `|u − v| = 2 sen(γ/2)`.
-- La cuerda `c` es la distancia entre los dos puntos y el semiperímetro `s = (r₁ + r₂ + c)/2`.
-- La cuerda `c = |r2 − r1|`.
-
-💡 **Cómo se explica en la clase [B04-C13](../programa/clases/B04/B04-C13-producto-escalar-y-angulo-entre-vectores/CLASE.md):**
-- La fórmula por cuerda, `γ = 2 arcsen(|u − v|/2)`, no resta números casi iguales y da `1,000000 × 10⁻³″` en esos casos.
-- Regla de la clase: usar la forma por cuerda cuando `γ` sea menor de unos minutos de arco.
-- 🎯 **Por qué importa:** Antes de apuntar un telescopio de una estrella a otra, antes de saber si dos objetos caben en el mismo campo de visión, antes de decidir si un planeta está demasiado cerca del Sol para observarlo, hay que saber cuántos grados los separan en el cielo.
-
-📘 **Dónde se aprende** (3 clases): [B04-C13 · Producto escalar y ángulo entre vectores](../programa/clases/B04/B04-C13-producto-escalar-y-angulo-entre-vectores/CLASE.md); [B75-C04 · Ecuación de Lambert](../programa/clases/B75/B75-C04-ecuacion-de-lambert/CLASE.md); [B82-C01 · Lambert de arco corto](../programa/clases/B82/B82-C01-lambert-de-arco-corto/CLASE.md).
-
-### Cuerpo celeste
-
-- Un cuerpo celeste incluye la Luna.
-
-💡 **Cómo se explica en la clase [B119-C11](../programa/clases/B119/B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md):**
-- *Descripción textual:* primero se pregunta por armas de destrucción masiva; luego por el cuerpo celeste; por último por bases o ensayos; el resultado puede ser prohibido, condicionado, permitido o fuera del artículo.
-- Paso 1. `loc = cuerpo celeste`, `wmd = 0`, `inst = 0`, `pers = 1`.
-- 🎯 **Por qué importa:** C01 reduce el art. IV a una regla booleana; esta clase lo desagrega por ubicación y propósito y conecta con el art. 3 del Acuerdo sobre la Luna, y deja explícito lo no consultado.
-
-📘 **Dónde se aprende** (1 clase): [B119-C11 · Uso pacífico y limitaciones militares](../programa/clases/B119/B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md).
-
-### Cuerpo gris
-
-- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
-
-💡 **Cómo se explica en la clase [B47-C04](../programa/clases/B47/B47-C04-telescopios-infrarrojos/CLASE.md):**
-- Cuerpo gris con emisividad constante, sin fondo zodiacal ni emisión del cielo residual.
-- 🎯 **Por qué importa:** Enfriar un telescopio cuesta masa, potencia y complejidad. La decisión central: ¿a qué temperatura el fondo propio deja de dominar sobre el detector?
-
-📘 **Dónde se aprende** (1 clase): [B47-C04 · Telescopios infrarrojos](../programa/clases/B47/B47-C04-telescopios-infrarrojos/CLASE.md).
-
-### Cuerpo menor
-
-- Un cuerpo menor es un asteroide o cometa.
-
-🎯 **Por qué importa (clase B58-C01):** La pregunta que organiza el bloque es *¿qué es este objeto y qué tan cerca pasa?* Un mismo punto de luz puede ser un asteroide del cinturón principal sin ningún interés para la defensa planetaria o un objeto cercano a la Tierra.
-
-📘 **Dónde se aprende** (1 clase): [B58-C01 · Clasificación de cuerpos menores](../programa/clases/B58/B58-C01-clasificacion-de-cuerpos-menores/CLASE.md).
-
-### Cuerpo menor del sistema solar
-
-- Un cuerpo menor del sistema solar es cualquier otro objeto que orbita el Sol y no es satélite (la IAU incluye a la mayoría de los asteroides, la mayoría de los objetos transneptunianos y los cometas).
-
-🎯 **Por qué importa (clase B01-C03):** En 2006 la Asamblea General de la Unión Astronómica Internacional votó una definición de planeta y, desde entonces, Plutón dejó de contarse como el noveno planeta. Muchas personas sintieron que «se había cambiado la realidad».
-
-📘 **Dónde se aprende** (1 clase): [B01-C03 · Objetos celestes y sus diferencias](../programa/clases/B01/B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md).
-
-### Cuerpo negro
-
-- Un cuerpo negro es un emisor ideal cuyo espectro depende solo de su temperatura.
-- Un cuerpo negro es un emisor ideal cuyo espectro depende solo de `T`.
-- Un cuerpo negro absorbe toda la radiación incidente y emite según `P = σ A T⁴`, con `σ = 5,670 374 419… × 10⁻⁸ W/(m²·K⁴)` (S4).
-- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-💡 **Cómo se explica en la clase [B01-C09](../programa/clases/B01/B01-C09-luz-como-fuente-de-informacion/CLASE.md):**
-- Y el cuerpo negro es una aproximación: las estrellas tienen líneas y la temperatura de Wien es solo una estimación del color dominante.
-- Sentido físico. La luz permitió identificar un patrón, medir un corrimiento y estimar una temperatura, con tres supuestos declarados: líneas bien identificadas, corrimiento común, cuerpo negro.
-- 🎯 **Por qué importa:** Sobre una galaxia a 43 Mpc solo tienes luz. De esa luz sale su dirección, cuánto brilla, de qué color es y qué líneas aparecen en su espectro; de las líneas sale `z = 0,0101` (C01).
-
-📖 **Explicado a fondo:** [Cuerpo negro](esencial/esencial-a-c.md#cuerpo-negro) (intuición, fórmula, ejemplo numérico y errores frecuentes).
-
-📘 **Dónde se aprende** (5 clases): [B01-C09 · Luz como fuente de información](../programa/clases/B01/B01-C09-luz-como-fuente-de-informacion/CLASE.md); [B05-C13 · Temperatura y energía térmica](../programa/clases/B05/B05-C13-temperatura-y-energia-termica/CLASE.md); [B13-C17 · Calibración radiométrica](../programa/clases/B13/B13-C17-calibracion-radiometrica/CLASE.md); [B22-C04 · Inversión espectral](../programa/clases/B22/B22-C04-inversion-espectral/CLASE.md); [B28-C02 · Fotones en múltiples longitudes de onda](../programa/clases/B28/B28-C02-fotones-en-multiples-longitudes-de-onda/CLASE.md).
-
-### Cuerpo rígido
-
-- Un cuerpo rígido tiene un único `Ω`.
-
-💡 **Cómo se explica en la clase [B37-C11](../programa/clases/B37/B37-C11-rotacion-interna-a-partir-del-desdoblamiento-de-frecuencias/CLASE.md):**
-- Un cuerpo rígido (`0,25 μHz` en todos los modos) recupera `Ω_c = Ω_e = 0,250000`.
-- 🎯 **Por qué importa:** El desdoblamiento promedia la rotación de las regiones que el modo explora. La decisión central: ¿cuánto giran el núcleo y la envoltura y con qué incertidumbre y correlación?
-
-📘 **Dónde se aprende** (1 clase): [B37-C11 · Rotación interna a partir del desdoblamiento de frecuencias](../programa/clases/B37/B37-C11-rotacion-interna-a-partir-del-desdoblamiento-de-frecuencias/CLASE.md).
-
-### Culminación
-
-- La culminación es el paso por el meridiano, el punto más alto del día.
-- El ángulo horario `H` es el ángulo, medido hacia el oeste, entre el meridiano y el círculo que pasa por el astro y los polos; vale cero cuando el astro cruza el meridiano (tránsito o culminación, S2).
-- La culminación (o tránsito meridiano) es el momento en que el astro cruza el meridiano, con `H = 0`.
-
-💡 **Cómo se explica en la clase [B09-C05](../programa/clases/B09/B09-C05-derivadas-trigonometricas/CLASE.md):**
-- (Esto es derivación implícita en pequeño; se generaliza en C06.) Se anula en `H = 0`: en la culminación la altitud deja de subir y todavía no baja.
-- Descripción larga: la curva baja de 12,55 a 0 ″/s, casi plana al principio y con más pendiente cerca de la culminación; después cambia de signo (la estrella desciende).
-- 🎯 **Por qué importa:** Un telescopio con montura altacimutal apunta con dos ejes: altitud y azimut. Para mantener una estrella en el centro del campo, cada eje debe girar a una velocidad que cambia con el tiempo.
-
-📘 **Dónde se aprende** (3 clases): [B01-C11 · Movimiento aparente del Sol y las estrellas](../programa/clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md); [B08-C04 · Altura y acimut](../programa/clases/B08/B08-C04-altura-y-acimut/CLASE.md); [B09-C05 · Derivadas trigonométricas](../programa/clases/B09/B09-C05-derivadas-trigonometricas/CLASE.md).
-
-### Cultura de seguridad
-
-- La cultura de seguridad son las actitudes y prácticas compartidas sobre el riesgo.
-- La cultura de seguridad se modela como un factor `r` que aumenta la tasa de reporte.
-
-💡 **Cómo se explica en la clase [B111-C06](../programa/clases/B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md):**
-- Pero las cifras son sintéticas, el modelo no distingue tipos de daño y la cultura de seguridad real no se reduce a un factor `r`.
-- De 1000 casi-eventos se reportan `395` con las tasas sintéticas y `592,5` si una cultura de seguridad las multiplica por `1,5`.
-- 🎯 **Por qué importa:** Falta la clase sobre tipos de error, barreras y reporte. La decisión central: ¿dónde se pone el esfuerzo: en culpar al que erró o en reforzar las barreras y las condiciones que dejaron pasar el error?
-
-📘 **Dónde se aprende** (2 clases): [B111-C06 · Gestión del error humano y cultura de seguridad](../programa/clases/B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md); [B119-C21 · Cultura de seguridad aeroespacial y aprendizaje de incidentes](../programa/clases/B119/B119-C21-cultura-de-seguridad-aeroespacial-y-aprendizaje-de-incidentes/CLASE.md).
-
-### Cultura justa
-
-- Una cultura justa protege el reporte honesto.
-
-🎯 **Por qué importa (clase B119-C21):** B88-C16 cubre la seguridad funcional técnica; ninguna clase trata la dimensión cultural, y los indicadores de reportes se malinterpretan con facilidad. La decisión central: ¿qué indicador permite saber si una organización aprende cuando los reportes dependen de la confianza para informar?
-
-📘 **Dónde se aprende** (1 clase): [B119-C21 · Cultura de seguridad aeroespacial y aprendizaje de incidentes](../programa/clases/B119/B119-C21-cultura-de-seguridad-aeroespacial-y-aprendizaje-de-incidentes/CLASE.md).
-
-### Cúmulo
-
-- Un grupo de galaxias tiene unas cien o menos; un cúmulo puede contener miles (S3).
-- Un grupo de galaxias reúne típicamente cien o menos (S1); un cúmulo, hasta miles (S1).
-
-💡 **Cómo se explica en la clase [B01-C03](../programa/clases/B01/B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md):**
-- Un grupo reúne a unas cien galaxias o menos (la Vía Láctea y Andrómeda pertenecen al Grupo Local, con más de 50 galaxias), y un cúmulo puede reunir miles, como el de Virgo de C02 (S3).
-- C --> D["Grupo o cúmulo<br/>galaxias ligadas entre sí"]
-- 🎯 **Por qué importa:** En 2006 la Asamblea General de la Unión Astronómica Internacional votó una definición de planeta y, desde entonces, Plutón dejó de contarse como el noveno planeta. Muchas personas sintieron que «se había cambiado la realidad».
-
-📘 **Dónde se aprende** (2 clases): [B01-C03 · Objetos celestes y sus diferencias](../programa/clases/B01/B01-C03-objetos-celestes-y-sus-diferencias/CLASE.md); [B01-C15 · Galaxias y agrupaciones cósmicas](../programa/clases/B01/B01-C15-galaxias-y-agrupaciones-cosmicas/CLASE.md).
-
-### Cúmulo abierto
-
-- Un cúmulo abierto es un grupo ligado de estrellas jóvenes y poco masivo del disco; un cúmulo globular es un grupo masivo, esférico y viejo; un cúmulo masivo joven (S2) tiene menos de ~100 Myr y más de ~10⁴ M☉.
-
-🎯 **Por qué importa (clase B25-C06):** La mayoría de las estrellas nace en grupos. Los cúmulos son laboratorios: sus estrellas comparten edad, distancia y composición.
-
-📘 **Dónde se aprende** (1 clase): [B25-C06 · Cúmulos estelares](../programa/clases/B25/B25-C06-cumulos-estelares/CLASE.md).
-
-### Cúmulo de escombros
-
-- Un cúmulo de escombros (*rubble pile*) es un cuerpo hecho de fragmentos unidos por gravedad.
-
-🎯 **Por qué importa (clase B58-C03):** La densidad aparente de un asteroide es casi siempre menor que la de sus rocas: la diferencia es porosidad, y de ella depende cuánta energía hace falta para desviarlo o fragmentarlo (C17). La decisión central: ¿cuánto de lo que parece masa es vacío, y cuánta incertidumbre arrastra la masa?
-
-📘 **Dónde se aprende** (1 clase): [B58-C03 · Composición de asteroides](../programa/clases/B58/B58-C03-composicion-de-asteroides/CLASE.md).
-
-### Cúmulo de galaxias
-
-- Un cúmulo de galaxias es un sistema ligado de cientos a miles de galaxias, gas caliente y materia oscura.
-
-🎯 **Por qué importa (clase B25-C13):** Los cúmulos de galaxias son las mayores estructuras ligadas por la gravedad. Contienen galaxias, un gas a decenas de millones de kelvin y mucha más masa de la que ambos aportan; por eso sirven para estudiar la materia oscura y poner a prueba el modelo cosmológico.
-
-📘 **Dónde se aprende** (1 clase): [B25-C13 · Cúmulos de galaxias](../programa/clases/B25/B25-C13-cumulos-de-galaxias/CLASE.md).
-
-### Cúmulo estelar
-
-- Un cúmulo estelar es un conjunto ligado de estrellas nacidas de la misma nube.
-
-🎯 **Por qué importa (clase B24-C19):** La edad de una estrella aislada es difícil de medir; la de un cúmulo se puede leer en su diagrama HR, porque las estrellas más masivas ya han salido de la secuencia principal y el «punto de desvío» marca la edad. Esas edades fijan la cronología de la Galaxia y calibran los modelos.
-
-📘 **Dónde se aprende** (1 clase): [B24-C19 · Cúmulos y edades estelares](../programa/clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md).
-
-### Cúmulo globular
-
-- Un cúmulo abierto es un grupo ligado de estrellas jóvenes y poco masivo del disco; un cúmulo globular es un grupo masivo, esférico y viejo; un cúmulo masivo joven (S2) tiene menos de ~100 Myr y más de ~10⁴ M☉.
-
-🎯 **Por qué importa (clase B25-C06):** La mayoría de las estrellas nace en grupos. Los cúmulos son laboratorios: sus estrellas comparten edad, distancia y composición.
-
-📖 **Explicado a fondo:** [Cúmulo globular](esencial/tercera-a-e.md#cúmulo-globular) (intuición, fórmula, ejemplo numérico y errores frecuentes).
-
-📘 **Dónde se aprende** (1 clase): [B25-C06 · Cúmulos estelares](../programa/clases/B25/B25-C06-cumulos-estelares/CLASE.md).
-
-### Cúmulo masivo joven
-
-- Un cúmulo abierto es un grupo ligado de estrellas jóvenes y poco masivo del disco; un cúmulo globular es un grupo masivo, esférico y viejo; un cúmulo masivo joven (S2) tiene menos de ~100 Myr y más de ~10⁴ M☉.
-
-🎯 **Por qué importa (clase B25-C06):** La mayoría de las estrellas nace en grupos. Los cúmulos son laboratorios: sus estrellas comparten edad, distancia y composición.
-
-📘 **Dónde se aprende** (1 clase): [B25-C06 · Cúmulos estelares](../programa/clases/B25/B25-C06-cumulos-estelares/CLASE.md).
-
-### Cuota
-
-- La cuota `s_i` es `q_i/Q`.
-- La cuota es el peso mínimo para ganar una votación.
-
-💡 **Cómo se explica en la clase [B124-C03](../programa/clases/B124/B124-C03-mercados-downstream-y-upstream/CLASE.md):**
-- Aguas arriba la mayor cuota es `0,5238` y el HHI `4059`; aguas abajo, `1989`.
-- El promedio ponderado por cuota es `HHI/ε = 0,4486`, igual al calculado directamente `0,4486`.
-- 🎯 **Por qué importa:** Hablar de «mercado upstream» o «downstream» sin medir su concentración deja la discusión en opinión. La decisión central: ¿qué tan concentrado está un mercado y qué margen de precio permite esa concentración?
-
-📘 **Dónde se aprende** (3 clases): [B48-C02 · Concesión de tiempo de observación](../programa/clases/B48/B48-C02-concesion-de-tiempo-de-observacion/CLASE.md); [B124-C03 · Mercados downstream y upstream](../programa/clases/B124/B124-C03-mercados-downstream-y-upstream/CLASE.md); [B125-C03 · Gobierno corporativo de una empresa espacial](../programa/clases/B125/B125-C03-gobierno-corporativo-de-una-empresa-espacial/CLASE.md).
-
-### Cuota inicial
-
-- La cuota inicial `U` se paga al firmar.
-
-💡 **Cómo se explica en la clase [B124-C09](../programa/clases/B124/B124-C09-propiedad-intelectual-y-licencias/CLASE.md):**
-- Paso 4 · Con cuota. Con una cuota inicial de 1: valor total `2,2434` Mum.
-- 🎯 **Por qué importa:** La propiedad intelectual es un activo, pero su valor depende de cuánto se vende con ella y de cuánto del margen se queda el que la usa. La decisión central: ¿qué licencia conviene ofrecer y cuántas regalías soporta el licenciatario?
-
-📘 **Dónde se aprende** (1 clase): [B124-C09 · Propiedad intelectual y licencias](../programa/clases/B124/B124-C09-propiedad-intelectual-y-licencias/CLASE.md).
-
-### Cuota interna
-
-- La cuota interna es la parte final de cada responsable.
-
-💡 **Cómo se explica en la clase [B119-C03](../programa/clases/B119/B119-C03-convenio-de-responsabilidad/CLASE.md):**
-- Si A no puede pagar, B paga `100.0` u.m. a la víctima; su cuota interna es `30.0`; reclama a A el regreso de `70.0` u.m.
-- 🎯 **Por qué importa:** El art. VII del tratado de 1967 (no discutido en la fuente de C01) fundamenta la responsabilidad; el convenio de 1972 la desarrolla, y la cuantificación del daño se trata en el bloque de reclamaciones (B123); esta clase fija la regla de reparto.
-
-📘 **Dónde se aprende** (1 clase): [B119-C03 · Convenio de Responsabilidad](../programa/clases/B119/B119-C03-convenio-de-responsabilidad/CLASE.md).
-
-### Cuota parte
-
-- La cuota parte cede una fracción fija `q` de cada siniestro y de la prima.
-
-💡 **Cómo se explica en la clase [B127-C07](../programa/clases/B127/B127-C07-reaseguro-espacial/CLASE.md):**
-- La cuota parte lo hace barato porque la comisión es generosa (dato sintético); el exceso de pérdida lo hace caro pero solo protege contra siniestros grandes, como los que dominan este tipo de cartera, y deja intacta la frecuencia de los pequeños.
-- X["siniestro X"] --> Q["cuota parte: reasegurador paga q X"]
-- 🎯 **Por qué importa:** El riesgo espacial se reparte mediante reaseguro; no había clase al respecto. La decisión central: ¿qué parte del riesgo se cede y cuánto cuesta reducir la cola?
-
-📘 **Dónde se aprende** (1 clase): [B127-C07 · Reaseguro espacial](../programa/clases/B127/B127-C07-reaseguro-espacial/CLASE.md).
-
-### Curaduría
-
-- La curaduría es el cuidado, registro y distribución de una colección.
-
-💡 **Cómo se explica en la clase [B63-C03](../programa/clases/B63/B63-C03-curaduria-y-cadena-de-custodia-de-muestras/CLASE.md):**
-- La página de curaduría no detalla procedimientos de manejo ni de contaminación, y esos procedimientos no se describen aquí como reales.
-- 🎯 **Por qué importa:** Una muestra planetaria es irrepetible y se estudia durante décadas. La decisión central: ¿cómo demuestras, años después, qué le pasó a una muestra y cuánto de lo que mides es suyo?
-
-📘 **Dónde se aprende** (1 clase): [B63-C03 · Curaduría y cadena de custodia de muestras](../programa/clases/B63/B63-C03-curaduria-y-cadena-de-custodia-de-muestras/CLASE.md).
-
-### Curtosis
-
-- La curtosis mide las colas.
-- La curtosis mide su carácter impulsivo.
-- La curtosis `E[x⁴]/σ⁴` vale 3 en una gaussiana.
-
-💡 **Cómo se explica en la clase [B35-C09](../programa/clases/B35/B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md):**
-- Un campo gaussiano tiene curtosis 3 a todas las escalas; la cascada multiplicativa la hace crecer al disminuir la escala.
-- La curtosis de los incrementos gaussianos es `≈ 3`, mientras que una cascada binomial con `p = 0,7` llega a `106,6` en 12 niveles.
-- 🎯 **Por qué importa:** La pendiente de un espectro y su intermitencia distinguen modelos de turbulencia. La decisión central: ¿qué pendiente y qué curtosis tiene la serie y qué modelo sugiere?
-
-📘 **Dónde se aprende** (3 clases): [B35-C09 · Turbulencia en plasmas y MHD](../programa/clases/B35/B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md); [B84-C32 · Vibración aleatoria y densidad espectral de potencia](../programa/clases/B84/B84-C32-vibracion-aleatoria-y-densidad-espectral-de-potencia/CLASE.md); [B97-C26 · Monitoreo de condición de maquinaria extraterrestre](../programa/clases/B97/B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md).
-
-### Curtosis en exceso
-
-- La asimetría y la curtosis en exceso: momentos de la forma de `z`.
-
-🎯 **Por qué importa (clase B51-C07):** Una calibración mala puede dar una imagen bonita. La decisión central: ¿qué valor de χ² reducido y qué forma de los residuos indican que el modelo es suficiente?
-
-📘 **Dónde se aprende** (1 clase): [B51-C07 · Evaluación de residuos y diagnóstico de calidad de calibración](../programa/clases/B51/B51-C07-evaluacion-de-residuos-y-diagnostico-de-calidad-de-calibracion/CLASE.md).
-
-### Curva
-
-- Una curva tiene pendiente que cambia.
-
-💡 **Cómo se explica en la clase [B03-C16](../programa/clases/B03/B03-C16-pendiente-e-interpretacion-de-graficos/CLASE.md):**
-- En escalas lineales, el gráfico `T` frente a `a` de los planetas es una curva.
-- Hablar de «la pendiente» de una curva es engañoso: cada tramo tiene la suya.
-- ⚠️ **Error frecuente:** Hablar de «la pendiente» de una curva. Ejercicio 8.
-- 🎯 **Por qué importa:** Si sitúas en un gráfico logarítmico el período frente al semieje de los planetas, los puntos forman una recta. Su pendiente es 1,5: ese número es el exponente de la tercera ley de Kepler.
-
-📘 **Dónde se aprende** (1 clase): [B03-C16 · Pendiente e interpretación de gráficos](../programa/clases/B03/B03-C16-pendiente-e-interpretacion-de-graficos/CLASE.md).
-
-### Curva de aprendizaje
-
-- Una curva de aprendizaje relaciona el error con el número de sesiones.
-- La curva de aprendizaje muestra la baja de la tasa de fallas con la experiencia.
-- La curva de aprendizaje de Wright da `T_n = T₁ n^β` con `β = log₂(pendiente)`.
-
-💡 **Cómo se explica en la clase [B107-C03](../programa/clases/B107/B107-C03-entrenamiento-vestibular-y-de-orientacion-espacial/CLASE.md):**
-- Una curva de aprendizaje sintética baja de 20,0° a `5,01°` en 20 sesiones;
-- 🎯 **Por qué importa:** Los fragmentos consultados indican que tras el vuelo hay alteraciones del control postural y locomotor (Macaulay et al., 2021) y que el equilibrio dinámico, la percepción del tiempo y el tiempo de reacción cambian tras el aterrizaje (Clément et al., 2023). Antes del vuelo la pregunta es cómo preparar la desorientación.
-
-📘 **Dónde se aprende** (3 clases): [B107-C03 · Entrenamiento vestibular y de orientación espacial](../programa/clases/B107/B107-C03-entrenamiento-vestibular-y-de-orientacion-espacial/CLASE.md); [B119-C21 · Cultura de seguridad aeroespacial y aprendizaje de incidentes](../programa/clases/B119/B119-C21-cultura-de-seguridad-aeroespacial-y-aprendizaje-de-incidentes/CLASE.md); [B124-C05 · Estimación de costos de misión](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md).
-
-### Curva de calibración
-
-- La curva de calibración es la relación entre indicación y valor de la magnitud.
-
-🎯 **Por qué importa (clase B13-C05):** Un sensor solar de una nave devuelve cuentas digitales (DN), no vatios por metro cuadrado. Para saber cuánta luz recibe hay que haberlo expuesto antes a fuentes de irradiancia conocida y haber establecido la relación entre ambas.
-
-📘 **Dónde se aprende** (1 clase): [B13-C05 · Calibración instrumental](../programa/clases/B13/B13-C05-calibracion-instrumental/CLASE.md).
-
-### Curva de costo
-
-- La curva de costo tiene un mínimo de delta-v en el tiempo de Hohmann.
-
-🎯 **Por qué importa (clase B75-C27):** Un viaje más corto gasta más combustible y uno más largo gasta más tiempo. La decisión central: ¿qué tiempo de vuelo minimiza el costo total cuando se pesan la masa lanzada y la duración?
-
-📘 **Dónde se aprende** (1 clase): [B75-C27 · Duración de misión y tiempo de vuelo como restricción](../programa/clases/B75/B75-C27-duracion-de-mision-y-tiempo-de-vuelo-como-restriccion/CLASE.md).
-
-### Curva de crecimiento
-
-- La curva de crecimiento es `W` frente a la columna.
-
-🎯 **Por qué importa (clase B32-C09):** Medir una abundancia exige saber en qué régimen está la línea. La decisión central: ¿cómo depende el ancho equivalente de la columna de absorbedores?
-
-📘 **Dónde se aprende** (2 clases): [B32-C09 · Medición de perfiles de línea: ancho equivalente y ajuste](../programa/clases/B32/B32-C09-medicion-de-perfiles-de-linea-ancho-equivalente-y-ajuste/CLASE.md); [B45-C11 · Líneas de absorción](../programa/clases/B45/B45-C11-lineas-de-absorcion/CLASE.md).
-
-### Curva de fase
-
-- La curva de fase pliega la serie al periodo.
-
-🎯 **Por qué importa (clase B29-C14):** El periodo es la propiedad básica de una variable periódica; de él y de la forma de la curva se deducen la masa, la edad o la distancia en muchos casos. La decisión central: ¿qué periodo y qué incertidumbre da la serie y qué métodos coinciden?
-
-📘 **Dónde se aprende** (1 clase): [B29-C14 · Estrellas variables periódicas](../programa/clases/B29/B29-C14-estrellas-variables-periodicas/CLASE.md).
-
-### Curva de Hill
-
-- La curva de Hill `R(L) = Rmax L/(L + L50)` satura en `Rmax`;
-
-💡 **Cómo se explica en la clase [B105-C16](../programa/clases/B105/B105-C16-contramedidas-de-ejercicio/CLASE.md):**
-- Una curva de Hill `R = Rmax L/(L + L50)` con `Rmax = 0,8` y `L50 = 100` (ilustrativas) reduce la pérdida ósea: con `L = 100`, `R = 0,40` y la pérdida a 6 meses baja de 7,27 % a 4,21 %; con `L = 800`, a 2,15 %.
-- 🎯 **Por qué importa:** Más ejercicio ayuda, pero con rendimientos decrecientes y con un costo de energía y tiempo. La decisión central: ¿qué parte de la pérdida se evita con una carga dada y cuánta energía extra exige?
-
-📘 **Dónde se aprende** (1 clase): [B105-C16 · Contramedidas de ejercicio](../programa/clases/B105/B105-C16-contramedidas-de-ejercicio/CLASE.md).
-
-### Curva de la bañera
-
-- La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
-
-🎯 **Por qué importa (clase B47-C19):** No sirve duplicar un equipo si otro componente falla antes. La decisión central: ¿qué recurso limita la vida de la misión y qué redundancia vale la pena?
-
-📘 **Dónde se aprende** (1 clase): [B47-C19 · Mantenimiento y vida útil](../programa/clases/B47/B47-C19-mantenimiento-y-vida-util/CLASE.md).
-
-### Curva de Lorenz
-
-- La curva de Lorenz la visualiza.
-
-🎯 **Por qué importa (clase B119-C34):** El acceso desigual al espacio es un asunto de gobernanza que el catálogo no trata; esta clase da las herramientas de medición antes de las discusiones de política (C25, C36). La decisión central: ¿qué tan desigual es el acceso y cuánto lo reduce una regla de uso compartido?
-
-📘 **Dónde se aprende** (1 clase): [B119-C34 · Equidad de acceso al espacio](../programa/clases/B119/B119-C34-equidad-de-acceso-al-espacio/CLASE.md).
-
-### Curva de luz
-
-- La curva de luz es el brillo en función del tiempo.
-- La curva de luz es el brillo frente al tiempo.
-- La curva de luz es la magnitud en función del tiempo.
-
-💡 **Cómo se explica en la clase [B28-C08](../programa/clases/B28/B28-C08-senales-transitorias/CLASE.md):**
-- *Descripción textual:* la curva de luz se ajusta con una recta en `log t`; el tiempo sobre el límite sale del modelo; la probabilidad de detección depende de la razón entre el tiempo visible y la cadencia.
-- Esta clase no usa ninguna curva de luz medida: genera una sintética con `m₀ = 17`, `t₀ = 1 d`, `α = 1,3` (ilustrativos), 14 épocas entre `1` y `18,2 d` y un ruido de `0,1 mag`.
-- 🎯 **Por qué importa:** Un transitorio que dura menos que el intervalo entre visitas se pierde. El índice de caída decide cuánto dura un evento sobre el límite de detección.
-
-📖 **Explicado a fondo:** [Curva de luz](esencial/esencial-a-c.md#curva-de-luz) (intuición, fórmula, ejemplo numérico y errores frecuentes).
-
-📘 **Dónde se aprende** (3 clases): [B28-C08 · Señales transitorias](../programa/clases/B28/B28-C08-senales-transitorias/CLASE.md); [B58-C13 · Caracterización de rotación](../programa/clases/B58/B58-C13-caracterizacion-de-rotacion/CLASE.md); [B129-C02 · Fotometría participativa](../programa/clases/B129/B129-C02-fotometria-participativa/CLASE.md).
-
-### Curva de nivel
-
-- Una curva de nivel es el conjunto de puntos donde `f` vale una constante `c`.
-- Una curva de nivel es `f = c`; el gradiente es perpendicular a ella.
-
-💡 **Cómo se explica en la clase [B09-C17](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md):**
-- Un paso de `100 km` a lo largo de la tangente a la curva de nivel cambia `Φ` en `1,75 × 10⁻⁷ km²/s²`; a lo largo del gradiente, en `7,90 × 10⁻⁴`.
-- Caminar por una curva de nivel no sube ni baja.
-- ⚠️ **Error frecuente:** Olvidar que el gradiente es perpendicular a la curva de nivel. Se corrige con el ejercicio 6.
-- 🎯 **Por qué importa:** La gravedad no es un número: es un vector que apunta a un lado y tiene una magnitud. En un campo con dos cuerpos, como Tierra–Luna, esa dirección cambia de punto a punto.
-
-📘 **Dónde se aprende** (2 clases): [B09-C15 · Funciones de varias variables](../programa/clases/B09/B09-C15-funciones-de-varias-variables/CLASE.md); [B09-C17 · Gradiente y derivada direccional](../programa/clases/B09/B09-C17-gradiente-y-derivada-direccional/CLASE.md).
-
-### Curva de olvido
-
-- La curva de olvido `R = e^(−Δt/S)` da la retención tras `Δt` días con estabilidad `S`.
-
-💡 **Cómo se explica en la clase [B104-C06](../programa/clases/B104/B104-C06-entrenamiento-de-procedimientos/CLASE.md):**
-- ⚠️ **Error frecuente:** Suponer que el dominio es permanente. Aplica la curva de olvido (8.3).
-- 🎯 **Por qué importa:** Los procedimientos se practican en tierra y a veces se usan meses después, en el momento crítico. La decisión central: ¿cuándo repasar para que el procedimiento siga disponible sin gastar tiempo de entrenamiento de más?
-
-📘 **Dónde se aprende** (1 clase): [B104-C06 · Entrenamiento de procedimientos](../programa/clases/B104/B104-C06-entrenamiento-de-procedimientos/CLASE.md).
-
-### Curva de partición
-
-- La curva de partición (de Tromp) da la probabilidad de que un grano de tamaño `d` vaya a un producto.
-
-🎯 **Por qué importa (clase B59-C22):** Calentar o reducir todo el regolito es caro; separar la fracción rica antes ahorra energía. La decisión central: ¿qué tamaño de corte equilibra la ley del concentrado y la recuperación del mineral?
-
-📘 **Dónde se aprende** (1 clase): [B59-C22 · Beneficio y separación granulométrica de regolito](../programa/clases/B59/B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md).
-
-### Curva de polarización
-
-- La curva de polarización `V(i)` suma el potencial reversible, la caída óhmica y la activación.
-
-💡 **Cómo se explica en la clase [B59-C10](../programa/clases/B59/B59-C10-electrolisis-y-balances-energeticos/CLASE.md):**
-- *Descripción textual:* la entalpía fija la tensión termoneutra; la curva de polarización da la tensión de operación; su comparación indica si la celda absorbe o cede calor.
-- 🎯 **Por qué importa:** La electrólisis es el mayor consumidor de energía de la planta. La decisión central: ¿a qué densidad de corriente conviene operar, entre una celda pequeña que gasta más electricidad y una grande que gasta menos?
-
-📘 **Dónde se aprende** (1 clase): [B59-C10 · Electrólisis y balances energéticos](../programa/clases/B59/B59-C10-electrolisis-y-balances-energeticos/CLASE.md).
-
-### Curva de precisión–exhaustividad
-
-- La curva de precisión–exhaustividad grafica precisión contra exhaustividad, y la precisión promedio resume su área (S2).
-
-🎯 **Por qué importa (clase B17-C12):** Un modelo marca candidatos a planeta, y cada alerta cuesta horas de revisión. Si el modelo acierta el 99 % en una muestra donde el 99 % son negativos, no dice nada útil.
-
-📘 **Dónde se aprende** (1 clase): [B17-C12 · Evaluación de modelos: precisión, exhaustividad y falsos positivos](../programa/clases/B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md).
-
-### Curva de rotación
-
-- La curva de rotación es la velocidad circular en función del radio.
-- La curva de rotación `v(R)` da la velocidad circular en función del radio.
-
-💡 **Cómo se explica en la clase [B25-C08](../programa/clases/B25/B25-C08-curvas-de-rotacion-de-galaxias/CLASE.md):**
-- *Descripción textual:* del disco visible se calcula su curva de rotación; la diferencia de cuadrados con la observada indica la masa que falta, que se modela como un halo.
-- Para una espiral de disco sirve la curva de rotación; para elípticas, dispersiones o lentes.
-- 🎯 **Por qué importa:** Si la masa estuviera donde brilla, la velocidad de rotación debería caer en las afueras de una galaxia, como la de los planetas lejanos del Sol. Que una curva de rotación se mantenga plana indica más masa de la que se ve.
-
-📘 **Dónde se aprende** (4 clases): [B25-C08 · Curvas de rotación de galaxias](../programa/clases/B25/B25-C08-curvas-de-rotacion-de-galaxias/CLASE.md); [B26-C18 · Materia oscura y evidencias](../programa/clases/B26/B26-C18-materia-oscura-y-evidencias/CLASE.md); [B31-C17 · Materias oscuras candidatas](../programa/clases/B31/B31-C17-materias-oscuras-candidatas/CLASE.md); [B46-C11 · Observación de hidrógeno a 21 centímetros](../programa/clases/B46/B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md).
-
-### Curva de transferencia
-
-- Plano (*flat*): imagen de iluminación uniforme. Curva de transferencia: varianza contra media.
-
-🎯 **Por qué importa (clase B48-C13):** Sin ganancia ni ruido de lectura, las incertidumbres de cada medida no se pueden calcular. La decisión central: ¿cuánto valen la ganancia y el ruido de lectura del detector?
-
-📘 **Dónde se aprende** (1 clase): [B48-C13 · Calibraciones nocturnas](../programa/clases/B48/B48-C13-calibraciones-nocturnas/CLASE.md).
-
-### Curva de transferencia de fotones
-
-- La curva de transferencia de fotones es `var = media/g + RN²/g²`.
-- La curva de transferencia de fotones (PTC): varianza frente a media.
-
-🎯 **Por qué importa (clase B45-C19):** Un flujo sin incertidumbre no es una medida. La decisión central: ¿qué términos dominan el ruido y cómo se estiman ganancia y ruido de lectura?
-
-📘 **Dónde se aprende** (2 clases): [B45-C19 · Reducción e incertidumbre instrumental](../programa/clases/B45/B45-C19-reduccion-e-incertidumbre-instrumental/CLASE.md); [B47-C15 · Calibración a bordo](../programa/clases/B47/B47-C15-calibracion-a-bordo/CLASE.md).
-
-### Curva diferencial
-
-- La curva diferencial es objetivo/comparación.
-
-🎯 **Por qué importa (clase B45-C17):** La atmósfera varía más que la señal; sin una referencia, la curva de luz no sirve. La decisión central: ¿qué comparaciones y qué precisión se necesitan para una profundidad dada?
-
-📘 **Dónde se aprende** (1 clase): [B45-C17 · Fotometría diferencial](../programa/clases/B45/B45-C17-fotometria-diferencial/CLASE.md).
-
-### Curva dosis-profundidad
-
-- La curva dosis-profundidad `D(x) ∝ (1 + x/x₀)^−p`.
-
-💡 **Cómo se explica en la clase [B85-C22](../programa/clases/B85/B85-C22-modelos-de-exposicion-a-radiacion-en-orbita/CLASE.md):**
-- *Descripción textual:* la órbita da la posición geográfica en cada instante, el mapa sintético da la tasa local, el promedio sobre un día da la dosis diaria y anual, y la curva dosis-profundidad ajusta el blindaje.
-- 🎯 **Por qué importa:** La dosis anual decide el blindaje y la vida de la electrónica y los materiales. La decisión central: ¿cuánta dosis acumula una órbita al año y cuánto la reduce un milímetro más de blindaje?
-
-📘 **Dónde se aprende** (1 clase): [B85-C22 · Modelos de exposición a radiación en órbita](../programa/clases/B85/B85-C22-modelos-de-exposicion-a-radiacion-en-orbita/CLASE.md).
-
-### Curva en V
-
-- HFD: diámetro de media energía de una estrella. Curva en V: HFD contra posición.
-
-🎯 **Por qué importa (clase B48-C22):** Un enfoque erróneo pierde resolución en todas las imágenes de la noche. La decisión central: ¿en qué posición del enfocador está el mínimo y con qué incertidumbre?
-
-📘 **Dónde se aprende** (1 clase): [B48-C22 · Control automático del enfocador y autoenfoque](../programa/clases/B48/B48-C22-control-automatico-del-enfocador-y-autoenfoque/CLASE.md).
-
-### Curva L
-
-- La curva L es la gráfica, en escala log–log, de la norma de la solución frente a la norma del residuo al variar `λ` (S2).
-
-💡 **Cómo se explica en la clase [B22-C02](../programa/clases/B22/B22-C02-regularizacion-de-tikhonov/CLASE.md):**
-- Exige conocer `σ_ruido`; la curva L, no.
-- Hansen advierte que el vértice de la curva L falla cuando la solución exacta es muy suave, es decir, cuando está dominada por pocos modos de la SVD: cuanto más suave, peor es el `λ` que da el criterio (S2, sec. 8.1, que atribuye el resultado a Hanke).
-- 🎯 **Por qué importa:** Si no puedes confiar en `x = A⁻¹ b` y no puedes bajar el ruido a voluntad, necesitas una regla que ignore lo que los datos no pueden decir. Esa regla debe tener una perilla: cuánto ignorar.
-
-📘 **Dónde se aprende** (1 clase): [B22-C02 · Regularización de Tikhonov](../programa/clases/B22/B22-C02-regularizacion-de-tikhonov/CLASE.md).
-
-### Curva NC
-
-- La curva NC es un límite por bandas de octava.
-
-💡 **Cómo se explica en la clase [B109-C10](../programa/clases/B109/B109-C10-acustica-y-control-de-ruido-interior/CLASE.md):**
-- El resumen técnico OCHMO-TB-035 de NASA (Rev C, 2023) indica que NASA-STD-3001 Vol. 2 limita el ruido peligroso a menos de `85 dBA` sin importar la duración y el ruido continuo de las áreas de trabajo a la curva NC-50.
-- 🎯 **Por qué importa:** El ruido continuo degrada la comunicación, el sueño y el trabajo aunque no dañe el oído. La decisión central: ¿qué fuente reduzco primero y cuánto baja el nivel de la cabina?
-
-📘 **Dónde se aprende** (1 clase): [B109-C10 · Acústica y control de ruido interior](../programa/clases/B109/B109-C10-acustica-y-control-de-ruido-interior/CLASE.md).
-
-### Curva plana
-
-- La curva plana es la velocidad de rotación constante a gran radio.
-
-🎯 **Por qué importa (clase B36-C11):** Una alternativa debe confrontarse con todas las pruebas. La decisión central: ¿qué observación separa la materia oscura de la gravedad modificada?
-
-📘 **Dónde se aprende** (1 clase): [B36-C11 · Gravedad modificada (MOND y relativistas) frente a materia oscura](../programa/clases/B36/B36-C11-gravedad-modificada-mond-y-relativistas-frente-a-materia-oscura/CLASE.md).
-
-### Curva ROC
-
-- La curva ROC grafica exhaustividad contra tasa de falsos positivos al variar el umbral; su área es el AUC.
-- La curva ROC es POD frente a la tasa de falsas alarmas.
-- La curva ROC grafica la fracción de anomalías detectadas contra la de falsas alarmas al variar el umbral; su área (AUC) vale 1 si el método separa perfectamente y 0,5 si no distingue (S2).
-
-💡 **Cómo se explica en la clase [B17-C12](../programa/clases/B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md):**
-- La curva ROC no cambia con la prevalencia, porque usa tasas dentro de cada clase; la de precisión–exhaustividad sí, y por eso refleja la carga de falsos positivos.
-- Esa cifra es de ordenamiento, el equivalente de un área bajo la curva ROC: no dice cuántas alertas son reales a un umbral dado, que depende además de cuántos candidatos son planetas.
-- 🎯 **Por qué importa:** Un modelo marca candidatos a planeta, y cada alerta cuesta horas de revisión. Si el modelo acierta el 99 % en una muestra donde el 99 % son negativos, no dice nada útil.
-
-📘 **Dónde se aprende** (3 clases): [B17-C05 · Detección de anomalías](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md); [B17-C12 · Evaluación de modelos: precisión, exhaustividad y falsos positivos](../programa/clases/B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md); [B33-C14 · Verificación de alertas con tablas de contingencia](../programa/clases/B33/B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md).
-
-### Curvas de equilibrio
-
-- Las curvas de equilibrio separan regiones: fusión (sólido–líquido), vaporización (líquido–gas) y sublimación (sólido–gas).
-
-💡 **Cómo se explica en la clase [B06-C11](../programa/clases/B06/B06-C11-diagramas-de-fase/CLASE.md):**
-- Las fronteras son las curvas de equilibrio.
-- 🎯 **Por qué importa:** La temperatura de ebullición del agua no es una constante de la naturaleza: depende de la presión. En lo alto de una montaña hierve a menos de 100 °C; en Marte, con 6 mb, el agua apenas puede ser líquida; en Venus, a 92 bar y 737 K, el CO₂ no es ni líquido ni gas.
-
-📘 **Dónde se aprende** (1 clase): [B06-C11 · Diagramas de fase](../programa/clases/B06/B06-C11-diagramas-de-fase/CLASE.md).
-
-### Curvatura escalar
-
-- La curvatura escalar es `R = g^bd R_bd`.
-
-💡 **Cómo se explica en la clase [B39-C03](../programa/clases/B39/B39-C03-tensor-de-riemann-ricci-y-curvatura-escalar/CLASE.md):**
-- La curvatura escalar numérica es `0,50000006` frente a `2/a² = 0,50000000`.
-- Descripción larga: la esfera tiene la curvatura escalar esperada y Schwarzschild es vacío con Kretschmann no nulo.
-- 🎯 **Por qué importa:** Un espacio-tiempo es curvo si el Riemann no se anula. La decisión central: ¿qué mide cada contracción del Riemann y cómo se comprueba un cálculo de curvatura?
-
-📘 **Dónde se aprende** (1 clase): [B39-C03 · Tensor de Riemann, Ricci y curvatura escalar](../programa/clases/B39/B39-C03-tensor-de-riemann-ricci-y-curvatura-escalar/CLASE.md).
-
-### Curvatura extrínseca
-
-- La curvatura extrínseca `K_ij` mide cómo se curva la capa en el espacio-tiempo.
-
-💡 **Cómo se explica en la clase [B39-C06](../programa/clases/B39/B39-C06-introduccion-a-la-relatividad-numerica-formalismo-3-1/CLASE.md):**
-- La rebanada de Painlevé–Gullstrand es plana pero tiene curvatura extrínseca no nula: `K² = K_ij K^ij` hace que la ligadura de vacío se cumpla.
-- 🎯 **Por qué importa:** Una simulación necesita un tiempo y un espacio. La decisión central: ¿cómo se separa el espacio-tiempo en capas y cómo se sabe que una evolución converge?
-
-📘 **Dónde se aprende** (1 clase): [B39-C06 · Introducción a la relatividad numérica: formalismo 3+1](../programa/clases/B39/B39-C06-introduccion-a-la-relatividad-numerica-formalismo-3-1/CLASE.md).
-
-### Curvatura gaussiana
-
-- La curvatura gaussiana `K` de una superficie es `1/R²` para una esfera de radio `R`.
-
-🎯 **Por qué importa (clase B26-C07):** Medir una distancia cerca de una masa grande no da lo mismo que en el espacio plano: el radio de un círculo y su circunferencia dejan de cumplir `C = 2πR`. Los GPS, las lentes gravitacionales y los agujeros negros dependen de esa diferencia.
-
-📘 **Dónde se aprende** (1 clase): [B26-C07 · Curvatura y métricas](../programa/clases/B26/B26-C07-curvatura-y-metricas/CLASE.md).
-
-### CUSUM
-
-- El CUSUM inferior es `S_t = máx(0, S_{t−1} − z_t − k)` con alarma si `S_t > h` (`k = 0,5`).
-- Puntuación robusta: desvío en unidades de MAD. CUSUM: suma acumulada de desvíos.
-- El CUSUM acumula `(μ₀ − x)/σ − k` y se reinicia en 0.
-- *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
-
-💡 **Cómo se explica en la clase [B96-C13](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md):**
-- (3) CUSUM: `S = max(0, S + (x − μ)/σ − 0,5)` y alarma si `S > 5`, con reinicio.
-- CUSUM acumula el exceso y detecta la deriva en 7 muestras, a costa de falsas alarmas y de necesitar μ y σ de referencia.
-- 🎯 **Por qué importa:** Un detector que no ve una deriva lenta avisa cuando ya es tarde, y uno que alarma por todo se ignora. La decisión central: ¿qué detector ve cada tipo de anomalía, con qué retraso y a qué costo en falsas alarmas?
-
-📘 **Dónde se aprende** (5 clases): [B96-C13 · Detección de anomalías](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md); [B97-C22 · Detección autónoma de eventos científicos](../programa/clases/B97/B97-C22-deteccion-autonoma-de-eventos-cientificos/CLASE.md); [B104-C18 · Aislamiento y convivencia](../programa/clases/B104/B104-C18-aislamiento-y-convivencia/CLASE.md); [B105-C09 · Salud mental en aislamiento](../programa/clases/B105/B105-C09-salud-mental-en-aislamiento/CLASE.md); [B107-C10 · Indicadores de rehabilitación y seguimiento](../programa/clases/B107/B107-C10-indicadores-de-rehabilitacion-y-seguimiento/CLASE.md).
-
-### CVCM
-
-- RML `= TML − WVR`; CVCM (*collected volatile condensable material*) es la masa condensada en el colector, en % de la masa inicial.
-- TML: pérdida total de masa, `100 (mᵢ − m_f)/mᵢ`. CVCM: volátiles condensables recogidos, `100 m_col/mᵢ`.
-
-💡 **Cómo se explica en la clase [B84-C07](../programa/clases/B84/B84-C07-desgasificacion-de-materiales/CLASE.md):**
-- Con `m_i = 500 mg`: `TML = (m_i − m_f)/m_i`, `WVR = (m_h − m_f)/m_i`, `RML = TML − WVR`, `CVCM = Δm_colector/m_i`.
-- La silicona B pasa en `TML` y falla en `CVCM`: por eso se exigen ambos criterios.
-- 🎯 **Por qué importa:** Una película de 10 nm sobre un espejo de telescopio o un sensor estelar degrada la misión; el cribado de desgasificación se hace antes de elegir el adhesivo. La decisión central: ¿pasa un material el cribado de desgasificación y cuántos días de bakeout necesita para limpiarlo?
-
-📘 **Dónde se aprende** (2 clases): [B84-C07 · Desgasificación de materiales](../programa/clases/B84/B84-C07-desgasificacion-de-materiales/CLASE.md); [B90-C04 · Control de contaminación](../programa/clases/B90/B90-C04-control-de-contaminacion/CLASE.md).

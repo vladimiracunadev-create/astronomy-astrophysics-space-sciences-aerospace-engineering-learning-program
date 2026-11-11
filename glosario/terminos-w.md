@@ -19,7 +19,10 @@
 
 - Una Walker-delta reparte los satélites en planos igualmente espaciados en la ascensión recta.
 
-🎯 **Por qué importa (clase B118-C15):** La sección 5.5 de la IADC Rev. 4 pide planificar y operar las constelaciones para minimizar la probabilidad de colisión entre sus miembros, en los cruces de planos y con otras constelaciones, y minimizar el riesgo acumulado de reentradas.
+💡 **Cómo se explica en la clase [B118-C15](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md):**
+- Generar una constelación Walker-delta `P/S/F` y propagarla con Kepler.
+- Constelacion SINTETICA Walker-delta 24 x 22 (528 satelites), inclinacion 53 deg, 550 km; fases con error de +-3 deg (semilla 118).
+- 🎯 **Por qué importa:** La sección 5.5 de la IADC Rev. 4 pide planificar y operar las constelaciones para minimizar la probabilidad de colisión entre sus miembros, en los cruces de planos y con otras constelaciones, y minimizar el riesgo acumulado de reentradas.
 
 📘 **Dónde se aprende** (1 clase): [B118-C15 · Seguimiento de mega constelaciones](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md).
 
@@ -37,6 +40,7 @@
 
 💡 **Cómo se explica en la clase [B88-C30](../programa/clases/B88/B88-C30-analisis-de-peor-caso-de-tiempo-de-ejecucion-wcet/CLASE.md):**
 - Analogía: el WCET es como el tiempo del viaje más lento posible con todos los semáforos en rojo: puede no ocurrir nunca, pero el horario se arma con él.
+- Calcular el WCET como camino más largo con cotas de bucle.
 - ⚠️ **Error frecuente:** Medir y llamar WCET al máximo. Una cota se calcula (8.1)
 - 🎯 **Por qué importa:** El análisis de planificación (C05) necesita `C` de cada tarea, y medir no basta porque el peor camino puede no ejercitarse. La decisión central: ¿cuál es una cota segura del tiempo de ejecución y cuánto pesimismo trae?
 
@@ -57,7 +61,10 @@
 
 - La audiodescripción narra lo visual. WebVTT es el formato web común de subtítulos.
 
-🎯 **Por qué importa (clase B128-C05):** Un subtítulo mal sincronizado o demasiado rápido no se alcanza a leer, y una transcripción automática sin revisar puede decir lo contrario de lo dicho. La decisión central: ¿cómo compruebo que los subtítulos se pueden leer y que no cambian el sentido?
+💡 **Cómo se explica en la clase [B128-C05](../programa/clases/B128/B128-C05-subtitulos-y-transcripciones/CLASE.md):**
+- Leer un archivo WebVTT y calcular la velocidad de lectura de cada bloque.
+- El script [subtitulos.py](subtitulos.py) analiza un WebVTT sintético y calcula el WER por programación dinámica (comprueba contra una recursión con memoria y una hipótesis idéntica).
+- 🎯 **Por qué importa:** Un subtítulo mal sincronizado o demasiado rápido no se alcanza a leer, y una transcripción automática sin revisar puede decir lo contrario de lo dicho. La decisión central: ¿cómo compruebo que los subtítulos se pueden leer y que no cambian el sentido?
 
 📘 **Dónde se aprende** (1 clase): [B128-C05 · Subtítulos y transcripciones](../programa/clases/B128/B128-C05-subtitulos-y-transcripciones/CLASE.md).
 

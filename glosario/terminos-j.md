@@ -8,7 +8,10 @@
 
 - El coeficiente `J₂` mide el exceso de masa ecuatorial: en el potencial, `V = (GM/r)[1 − J₂ (a/r)² P₂(sin φ)]` con `P₂(s) = (3s² − 1)/2` y `φ` la latitud.
 
-🎯 **Por qué importa (clase B09-C20):** Una sonda en órbita, un satélite geodésico o un gravímetro en una montaña reciben la atracción de un cuerpo que no es un punto: tiene tamaño, forma achatada, rotación y estructura interna. Reducirlo a un punto es correcto fuera de una esfera homogénea, pero deja de serlo cuando importa el achatamiento o el interior.
+💡 **Cómo se explica en la clase [B09-C20](../programa/clases/B09/B09-C20-aplicaciones-a-campos-gravitatorios/CLASE.md):**
+- Para un punto del eje del polo (`φ = 90°`, `P₂ = 1`) y del ecuador (`φ = 0`, `P₂ = −1/2`), el módulo de la atracción es `g = GM/r² [1 − 3 J₂ (a/r)² P₂]`.
+- Para la Tierra, el error de usar `GM/R²` con un `R` genérico es del orden de 0,5 %; la corrección de `J₂` en órbita decae como `(a/r)²` (a 400 km de altitud, `J₂ (a/r)² ≈ 9,6 × 10⁻⁴`): una corrección de esa magnitud no puede ignorarse en un seguimiento orbital preciso (B11, B13).
+- 🎯 **Por qué importa:** Una sonda en órbita, un satélite geodésico o un gravímetro en una montaña reciben la atracción de un cuerpo que no es un punto: tiene tamaño, forma achatada, rotación y estructura interna. Reducirlo a un punto es correcto fuera de una esfera homogénea, pero deja de serlo cuando importa el achatamiento o el interior.
 
 📘 **Dónde se aprende** (1 clase): [B09-C20 · Aplicaciones a campos gravitatorios](../programa/clases/B09/B09-C20-aplicaciones-a-campos-gravitatorios/CLASE.md).
 
@@ -17,7 +20,11 @@
 - Un armónico zonal `J_n` es el coeficiente de un término que solo depende de la latitud. J2 mide el achatamiento dinámico.
 - El J2 causa la precesión de la línea de nodos.
 
-🎯 **Por qué importa (clase B72-C02):** Sin un potencial no hay perturbación gravitatoria que calcular, y los números de la bibliografía (J2, J3, J4) dependen de un convenio de signos y de un radio de referencia. La decisión central: ¿qué términos del potencial incluir y con qué radio y convenio, para que J2 signifique lo mismo en tu código y en la fuente?
+💡 **Cómo se explica en la clase [B72-C02](../programa/clases/B72/B72-C02-potencial-gravitatorio-no-esferico/CLASE.md):**
+- La forma general con `n = 2` coincide con la fórmula cerrada de J2 en `0` (diferencia relativa exacta).
+- J2 es unas `300` a `500` veces mayor que J3 y J4.
+- ⚠️ **Error frecuente:** Creer que J2 es igual en todas las latitudes. Se corrige con 8.4.
+- 🎯 **Por qué importa:** Sin un potencial no hay perturbación gravitatoria que calcular, y los números de la bibliografía (J2, J3, J4) dependen de un convenio de signos y de un radio de referencia. La decisión central: ¿qué términos del potencial incluir y con qué radio y convenio, para que J2 signifique lo mismo en tu código y en la fuente?
 
 📘 **Dónde se aprende** (2 clases): [B72-C02 · Potencial gravitatorio no esférico](../programa/clases/B72/B72-C02-potencial-gravitatorio-no-esferico/CLASE.md); [B74-C20 · Validación frente a efemérides de referencia](../programa/clases/B74/B74-C20-validacion-frente-a-efemerides-de-referencia/CLASE.md).
 
@@ -39,6 +46,7 @@
 
 💡 **Cómo se explica en la clase [B20-C03](../programa/clases/B20/B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md):**
 - En el jackknife se calcula `b₋ᵢ` sin el punto `i` para cada `i`.
+- Ejercicio 4. Calcula a mano el jackknife de la pendiente para los puntos `(0,0), (1,1), (2,2), (3,6)`: la pendiente completa y la que resulta al quitar cada punto.
 - 🎯 **Por qué importa:** Una crítica recibida a las once de la noche se lee con el estómago antes que con la cabeza. La reacción inmediata, defenderse o rendirse, suele empeorar el trabajo y la relación con quien revisa.
 
 📘 **Dónde se aprende** (1 clase): [B20-C03 · Revisión por pares y respuesta a árbitros](../programa/clases/B20/B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md).
@@ -59,7 +67,10 @@
 
 - El Jacobi inercial es `−2(E_in − h_z)` con `E_in = ½ v² − (1−μ)/r1 − μ/r2`.
 
-🎯 **Por qué importa (clase B76-C17):** Una posición correcta en el marco equivocado es una colisión. La decisión central: ¿cómo se convierten posición y velocidad entre los marcos de la misión y cómo se comprueba la conversión?
+💡 **Cómo se explica en la clase [B76-C17](../programa/clases/B76/B76-C17-sistemas-de-referencia-relativos/CLASE.md):**
+- *Descripción textual:* se convierte entre el marco inercial y los rotantes (LVLH y sinódico) rotando y restando la velocidad de arrastre; dos invariantes (la velocidad de un punto fijo y Jacobi) comprueban cada conversión.
+- Un estado cislunar convertido a inercial recupera su valor con error `10⁻¹⁶` y la constante de Jacobi coincide en las dos formas (`3,0007976884`).
+- 🎯 **Por qué importa:** Una posición correcta en el marco equivocado es una colisión. La decisión central: ¿cómo se convierten posición y velocidad entre los marcos de la misión y cómo se comprueba la conversión?
 
 📘 **Dónde se aprende** (1 clase): [B76-C17 · Sistemas de referencia relativos](../programa/clases/B76/B76-C17-sistemas-de-referencia-relativos/CLASE.md).
 
@@ -82,7 +93,9 @@
 
 - El jacobiano de medida `H` se evalúa en el estado predicho.
 
-🎯 **Por qué importa (clase B74-C09):** Una órbita no es lineal en el estado, pero a cortos intervalos y con errores pequeños se comporta casi como tal. La decisión central: ¿hasta cuándo es válida la linealización del EKF y cómo me doy cuenta de que dejó de serlo?
+💡 **Cómo se explica en la clase [B74-C09](../programa/clases/B74/B74-C09-filtro-de-kalman-extendido/CLASE.md):**
+- Escribir los pasos del EKF con matriz de transición y jacobiano de medida.
+- 🎯 **Por qué importa:** Una órbita no es lineal en el estado, pero a cortos intervalos y con errores pequeños se comporta casi como tal. La decisión central: ¿hasta cuándo es válida la linealización del EKF y cómo me doy cuenta de que dejó de serlo?
 
 📘 **Dónde se aprende** (1 clase): [B74-C09 · Filtro de Kalman extendido](../programa/clases/B74/B74-C09-filtro-de-kalman-extendido/CLASE.md).
 
@@ -90,7 +103,9 @@
 
 - Jacobiano geométrico: `J(q)` de 6×7, con filas de velocidad lineal y angular.
 
-🎯 **Por qué importa (clase B101-C03):** Con el brazo casi estirado, pedirle un movimiento de 5 cm/s a lo largo de su eje exige velocidades articulares de varios rad/s. La decisión central: ¿cuán cerca de una singularidad estoy y qué error de seguimiento acepto para no exigir lo imposible?
+💡 **Cómo se explica en la clase [B101-C03](../programa/clases/B101/B101-C03-singularidades-y-manipulabilidad-de-brazos-roboticos/CLASE.md):**
+- Calcular el jacobiano geométrico de 6×7 y verificarlo por diferencias finitas.
+- 🎯 **Por qué importa:** Con el brazo casi estirado, pedirle un movimiento de 5 cm/s a lo largo de su eje exige velocidades articulares de varios rad/s. La decisión central: ¿cuán cerca de una singularidad estoy y qué error de seguimiento acepto para no exigir lo imposible?
 
 📘 **Dónde se aprende** (1 clase): [B101-C03 · Singularidades y manipulabilidad de brazos robóticos](../programa/clases/B101/B101-C03-singularidades-y-manipulabilidad-de-brazos-roboticos/CLASE.md).
 
@@ -115,7 +130,9 @@
 - La jardinería es la mezcla vertical por impactos.
 - La jardineria es la mezcla vertical del regolito por impactos.
 
-🎯 **Por qué importa (clase B53-C22):** Una superficie «vieja» se ve distinta de una «fresca» aunque tenga la misma composición. La decisión central: ¿cuánto del cambio espectral se debe al tiempo de exposición y con qué incertidumbre se estima su escala?
+💡 **Cómo se explica en la clase [B55-C14](../programa/clases/B55/B55-C14-quimica-de-regolitos/CLASE.md):**
+- Jardineria: fraccion de una capa de 1 cm que sigue sin voltear (lambda = 1/1e8 anos, ILUSTRATIVA)
+- 🎯 **Por qué importa:** El regolito es el suelo de un cuerpo sin atmósfera y su química depende de qué impactos lo removieron y de qué componentes lo formaron. La decisión central: ¿cuánto tiempo hace falta para que una capa se voltee y qué mezcla de componentes explica la composición medida?
 
 📘 **Dónde se aprende** (2 clases): [B53-C22 · Meteorización espacial: micrometeoritos, viento solar y maduración del regolito](../programa/clases/B53/B53-C22-meteorizacion-espacial-micrometeoritos-viento-solar-y-maduracion-del-regolito/CLASE.md); [B55-C14 · Química de regolitos](../programa/clases/B55/B55-C14-quimica-de-regolitos/CLASE.md).
 
@@ -123,7 +140,10 @@
 
 - La distancia de Jeffries–Matusita es `JM = 2(1 − e^{−B})`, entre 0 (idénticas) y 2 (perfectamente separables).
 
-🎯 **Por qué importa (clase B57-C25):** Cada banda cuesta datos, masa y complejidad. La decisión central: ¿con qué menor número de bandas se separan las clases que me interesan y cuál es el par más difícil de distinguir?
+💡 **Cómo se explica en la clase [B57-C25](../programa/clases/B57/B57-C25-seleccion-de-bandas-espectrales-segun-el-fenomeno/CLASE.md):**
+- Calcular la distancia de Bhattacharyya y la de Jeffries–Matusita entre clases gaussianas.
+- El script [bandas.py](bandas.py) calcula la separabilidad Jeffries–Matusita entre cuatro clases sintéticas y busca el mejor subconjunto de bandas por fuerza bruta y por búsqueda voraz (comprueba la JM calculada frente a la fórmula analítica a 1e-12 y que el óptimo exhaustivo no es peor que el voraz).
+- 🎯 **Por qué importa:** Cada banda cuesta datos, masa y complejidad. La decisión central: ¿con qué menor número de bandas se separan las clases que me interesan y cuál es el par más difícil de distinguir?
 
 📘 **Dónde se aprende** (1 clase): [B57-C25 · Selección de bandas espectrales según el fenómeno](../programa/clases/B57/B57-C25-seleccion-de-bandas-espectrales-segun-el-fenomeno/CLASE.md).
 
@@ -131,7 +151,10 @@
 
 - La jerarquía de memoria es la escalera de almacenamientos de la CPU: registros, cachés de nivel 1, 2 y 3, memoria principal; cuanto más cerca de la CPU, más pequeña y rápida.
 
-🎯 **Por qué importa (clase B18-C03):** Un catálogo con millones de estrellas o una rejilla de simulación pasan cada dato por la CPU una o pocas veces. Cuando las operaciones por dato son pocas, el tiempo no lo fija la CPU sino el viaje de los datos.
+💡 **Cómo se explica en la clase [B18-C03](../programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md):**
+- Describir la jerarquía de memoria y la función de la línea de caché.
+- python programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/memoria_y_cache.py
+- 🎯 **Por qué importa:** Un catálogo con millones de estrellas o una rejilla de simulación pasan cada dato por la CPU una o pocas veces. Cuando las operaciones por dato son pocas, el tiempo no lo fija la CPU sino el viaje de los datos.
 
 📘 **Dónde se aprende** (1 clase): [B18-C03 · Jerarquía y estructuras de memoria](../programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md).
 
@@ -175,7 +198,10 @@
 
 - El jitter de fase teórico es `σ_φ ≈ 1/√SNR_L`.
 
-🎯 **Por qué importa (clase B89-C10):** Un lazo demasiado ancho deja pasar ruido; uno demasiado estrecho pierde el Doppler. Ajustarlo es el equilibrio central de la sincronización y condiciona la recepción de señales débiles (C24).
+💡 **Cómo se explica en la clase [B89-C10](../programa/clases/B89/B89-C10-sincronizacion-de-portadora/CLASE.md):**
+- PD --> E["error de fase: media y jitter"]
+- *Descripción textual:* el detector de fase compara la señal con el NCO; el filtro proporcional-integral corrige el NCO; el ancho de lazo fija el error medio por la rampa y el jitter por ruido.
+- 🎯 **Por qué importa:** Un lazo demasiado ancho deja pasar ruido; uno demasiado estrecho pierde el Doppler. Ajustarlo es el equilibrio central de la sincronización y condiciona la recepción de señales débiles (C24).
 
 📘 **Dónde se aprende** (1 clase): [B89-C10 · Sincronización de portadora](../programa/clases/B89/B89-C10-sincronizacion-de-portadora/CLASE.md).
 
@@ -218,8 +244,8 @@
 - Una jurisdicción es un régimen aplicable.
 
 💡 **Cómo se explica en la clase [B121-C05](../programa/clases/B121/B121-C05-cumplimiento-regulatorio-en-varias-jurisdicciones/CLASE.md):**
+- Cumplir la envolvente equivale a cumplir todas las jurisdicciones (el laboratorio lo comprueba).
 - R["Requisitos por jurisdicción"] --> M["Matriz requisito x jurisdicción"]
-- Se añade una tercera jurisdicción hipotética y sintética (10 años, `P ≥ 0,95`, `Ec ≤ 5×10⁻⁵`).
 - ⚠️ **Error frecuente:** Tomar la jurisdicción hipotética como real. Se corrige con la sección 10.
 - 🎯 **Por qué importa:** Ninguna clase trata el análisis de cumplimiento. La decisión central: ¿cuál es el requisito más estricto de cada tipo, qué incumple el diseño y cuánto tardan los trámites?
 

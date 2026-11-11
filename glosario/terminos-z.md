@@ -52,7 +52,8 @@
 - Una zona agrupa funciones que comparten espacio.
 
 💡 **Cómo se explica en la clase [B109-C02](../programa/clases/B109/B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md):**
-- Por área: m² por zona frente al mínimo recomendado.
+- Z["Zonas<br/>y áreas"] --> C["Matriz de<br/>flujos"]
+- *Descripción textual:* las zonas y sus flujos definen un coste; una cuadrícula fija las posiciones posibles; la enumeración de todas las permutaciones da el mejor trazado, que se compara con los trazados al azar.
 - 🎯 **Por qué importa:** Un buen plano ahorra pasos, separa lo sucio de lo limpio y deja las zonas tranquilas lejos de las ruidosas. La decisión central: ¿dónde pongo cada zona para que los recorridos frecuentes sean cortos y las zonas incompatibles estén lejos?
 
 📘 **Dónde se aprende** (1 clase): [B109-C02 · Zonificación y distribución funcional de módulos de un hábitat](../programa/clases/B109/B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md).
@@ -63,6 +64,7 @@
 
 💡 **Cómo se explica en la clase [B43-C13](../programa/clases/B43/B43-C13-montura-altacimutal/CLASE.md):**
 - Con un máximo de `1°/s` en acimut, la zona ciega del cenit tiene radio `0,207°`.
+- Estimar el radio de la zona ciega del cenit.
 - 🎯 **Por qué importa:** La altacimutal reemplaza un giro uniforme por dos giros variables y un ángulo de campo que cambia. La decisión central: ¿qué velocidades exigen los motores, cuánto rota el campo y qué región del cielo no se puede seguir?
 
 📘 **Dónde se aprende** (1 clase): [B43-C13 · Montura altacimutal](../programa/clases/B43/B43-C13-montura-altacimutal/CLASE.md).
@@ -71,7 +73,9 @@
 
 - La zona de alimentación es la franja del disco de la que un embrión toma material, de ancho `b` en radios de Hill.
 
-🎯 **Por qué importa (clase B52-C05):** El tiempo de crecimiento decide si un núcleo existe antes de que el gas se disipe. La decisión central: ¿cómo cambia la tasa de acreción con la masa y cuándo se detiene?
+💡 **Cómo se explica en la clase [B52-C05](../programa/clases/B52/B52-C05-crecimiento-de-embriones-planetarios/CLASE.md):**
+- Ejercicio 10 · transferencia. Transferencia. Transferencia. ¿Qué ocurre con `M_iso` si la zona de alimentación fuera de `5 R_H`?
+- 🎯 **Por qué importa:** El tiempo de crecimiento decide si un núcleo existe antes de que el gas se disipe. La decisión central: ¿cómo cambia la tasa de acreción con la masa y cuándo se detiene?
 
 📘 **Dónde se aprende** (1 clase): [B52-C05 · Crecimiento de embriones planetarios](../programa/clases/B52/B52-C05-crecimiento-de-embriones-planetarios/CLASE.md).
 
@@ -79,7 +83,10 @@
 
 - La zona de coordinación es el área dentro de la cual hay que coordinar.
 
-🎯 **Por qué importa (clase B120-C02):** Coordinar con otros servicios define dónde y cómo se puede operar y ninguna clase lo trata. La decisión central: ¿con qué administraciones hay que coordinar una estación terrena y en cuánto tiempo deben responder?
+💡 **Cómo se explica en la clase [B120-C02](../programa/clases/B120/B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md):**
+- Explicar qué es una zona de coordinación y por qué se calcula.
+- La evidencia es la ficha de zona de coordinación de una estación terrena sintética del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** Coordinar con otros servicios define dónde y cómo se puede operar y ninguna clase lo trata. La decisión central: ¿con qué administraciones hay que coordinar una estación terrena y en cuánto tiempo deben responder?
 
 📘 **Dónde se aprende** (1 clase): [B120-C02 · Zonas de coordinación entre servicios radioeléctricos](../programa/clases/B120/B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md).
 
@@ -87,7 +94,10 @@
 
 - Zona de salud: intervalo de temperatura y humedad que protege la salud; zona de desempeño: el más estrecho en el que el trabajo rutinario no se degrada por estrés térmico.
 
-🎯 **Por qué importa (clase B106-C01):** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
+💡 **Cómo se explica en la clase [B106-C01](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md):**
+- El resumen consultado da dos zonas: salud (18–27 °C, 25–75 % de humedad relativa) y desempeño (20–25 °C, 30–60 %).
+- Clasificar un par temperatura-humedad como dentro o fuera de las zonas de salud y de desempeño del resumen consultado.
+- 🎯 **Por qué importa:** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
 
 📘 **Dónde se aprende** (1 clase): [B106-C01 · Requisitos de habitabilidad](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md).
 
@@ -104,10 +114,10 @@
 - La zona de exclusión es el área cerrada a terceros durante el lanzamiento.
 - La zona de exclusión es una distancia que no se cruza sin coordinación.
 
-💡 **Cómo se explica en la clase [B119-C28](../programa/clases/B119/B119-C28-normas-de-comportamiento-responsable-en-el-espacio/CLASE.md):**
-- Una geometría sin deriva es previsible, pero cruzar una zona de exclusión sin avisar puede percibirse como amenaza; por eso el deber de consulta del art.
-- *Descripción textual:* la órbita de referencia y las condiciones iniciales determinan la distancia relativa en el tiempo; se compara con una zona de exclusión para decidir si hace falta coordinar.
-- 🎯 **Por qué importa:** B119-C11 trata límites militares; las normas voluntarias de conducta responsable no tienen clase y se apoyan en conceptos físicos (distancia relativa, deriva, previsibilidad) que esta clase muestra. La decisión central: ¿qué condiciones iniciales mantienen al vecino a distancia constante y cuáles lo hacen derivar o acercarse?
+💡 **Cómo se explica en la clase [B119-C22](../programa/clases/B119/B119-C22-seguridad-de-instalaciones-y-operaciones-de-sitio-de-lanzamiento/CLASE.md):**
+- Relacionar la zona de exclusión con la responsabilidad del Estado (arts. consultados).
+- La evidencia es la ficha de zona de exclusión sintética del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** B77-C19 solo ve seguridad de rango de forma conceptual; esta clase cuantifica el razonamiento y lo liga a la responsabilidad del Estado por actividades privadas (art. VI) y al régimen de daños (C03).
 
 📘 **Dónde se aprende** (2 clases): [B119-C22 · Seguridad de instalaciones y operaciones de sitio de lanzamiento](../programa/clases/B119/B119-C22-seguridad-de-instalaciones-y-operaciones-de-sitio-de-lanzamiento/CLASE.md); [B119-C28 · Normas de comportamiento responsable en el espacio](../programa/clases/B119/B119-C28-normas-de-comportamiento-responsable-en-el-espacio/CLASE.md).
 
@@ -116,7 +126,9 @@
 - La zona de impacto es la distribución de dónde caen los escombros.
 - La zona de impacto es un área donde pueden caer fragmentos.
 
-🎯 **Por qué importa (clase B77-C19):** Mover el sitio de impacto un par de decenas de kilómetros cambia el riesgo en un factor de varios. La decisión central: ¿cómo se calculan las víctimas esperadas y cuánto depende de dónde cae lo que cae?
+💡 **Cómo se explica en la clase [B77-C19](../programa/clases/B77/B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md):**
+- Definir las víctimas esperadas `E_c` como una integral sobre la zona de impactos.
+- 🎯 **Por qué importa:** Mover el sitio de impacto un par de decenas de kilómetros cambia el riesgo en un factor de varios. La decisión central: ¿cómo se calculan las víctimas esperadas y cuánto depende de dónde cae lo que cae?
 
 📘 **Dónde se aprende** (2 clases): [B77-C19 · Seguridad de rango a nivel conceptual](../programa/clases/B77/B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md); [B121-C01 · Licencias y requisitos nacionales para el lanzamiento](../programa/clases/B121/B121-C01-licencias-y-requisitos-nacionales-para-el-lanzamiento/CLASE.md).
 
@@ -124,7 +136,10 @@
 
 - Normoxia: oxígeno suficiente sin exceso. Zona de salud: intervalo de temperatura y humedad que protege la salud;
 
-🎯 **Por qué importa (clase B106-C01):** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
+💡 **Cómo se explica en la clase [B106-C01](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md):**
+- El resumen consultado da dos zonas: salud (18–27 °C, 25–75 % de humedad relativa) y desempeño (20–25 °C, 30–60 %).
+- Clasificar un par temperatura-humedad como dentro o fuera de las zonas de salud y de desempeño del resumen consultado.
+- 🎯 **Por qué importa:** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
 
 📘 **Dónde se aprende** (1 clase): [B106-C01 · Requisitos de habitabilidad](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md).
 
@@ -133,7 +148,8 @@
 - La zona de seguridad es el área alrededor de una instalación.
 
 💡 **Cómo se explica en la clase [B119-C05](../programa/clases/B119/B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md):**
-- El ejemplo conductor: 12 instalaciones sintéticas con zona de seguridad de 5 km y cinco Estados genéricos con contribuciones 0,40; 0,25; 0,15; 0,12 y 0,08.
+- Z["Zonas de seguridad"] --> F["Fracción ocupada"]
+- *Descripción textual:* el patrimonio común excluye la apropiación y prevé un régimen de reparto; las zonas de seguridad miden cuánto se ocupa y el peso `a` modela la equidad.
 - 🎯 **Por qué importa:** La clase C01 establece la no apropiación; este acuerdo la aplica a los recursos y es la base de los debates de C25 y C36. La decisión central: ¿cómo se compara lo que ocupan las instalaciones con la superficie total y qué regla de reparto da un resultado más equitativo?
 
 📘 **Dónde se aprende** (1 clase): [B119-C05 · Acuerdo sobre la Luna y alcance](../programa/clases/B119/B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md).

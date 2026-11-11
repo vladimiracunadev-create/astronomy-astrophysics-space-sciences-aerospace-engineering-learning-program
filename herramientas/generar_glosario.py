@@ -96,7 +96,7 @@ def contexto_fuera(texto: str, term: str):
     return None
 
 
-SEC_EXPLICA = (8, 7, 13, 14, 5, 12)
+SEC_EXPLICA = (8, 7, 13, 14, 5, 12, 3, 15, 16, 17)
 LIMITE_ARCHIVO = 300_000
 
 
@@ -108,7 +108,8 @@ def frases_seccion(texto: str, n: int):
             continue
         l = re.sub(r"^(?:[-*]\s+|\d+[.)]\s+)", "", l)
         out += oraciones(limpiar(l))
-    return out
+    out = [sin_negritas(o) for o in out]
+    return [(o, raices(o)) for o in out]
 
 
 def por_que_clase(texto: str) -> str:
@@ -122,18 +123,48 @@ def por_que_clase(texto: str) -> str:
     return res
 
 
+PALABRAS_VACIAS = {"de", "del", "la", "el", "los", "las", "en", "con", "por", "para", "una", "uno", "que", "al", "sus", "sin", "como"}
+
+
+def norm(s: str) -> str:
+    s = unicodedata.normalize("NFD", s.lower())
+    return "".join(c for c in s if unicodedata.category(c) != "Mn")
+
+
+def raiz(w: str) -> str:
+    w = norm(w)
+    for suf in ("ciones", "cion", "es", "s"):
+        if len(w) > len(suf) + 3 and w.endswith(suf):
+            return w[: -len(suf)]
+    return w
+
+
+def raices(s: str):
+    return {raiz(w) for w in re.findall(r"\w+", s) if len(w) >= 3}
+
+
+def palabras_clave(term: str):
+    base = re.sub(r"\([^)]*\)", "", term)
+    return [raiz(w) for w in re.findall(r"\w+", base) if len(w) >= 4 and w.lower() not in PALABRAS_VACIAS]
+
+
+def coincide(term: str, oracion: str, raices_oracion) -> bool:
+    ks = palabras_clave(term)
+    if not ks:
+        base = re.sub(r"\([^)]*\)", "", term.lower()).strip()
+        return len(base) >= 2 and re.search(r"(?<!\w)" + re.escape(base) + r"(?!\w)", oracion.lower()) is not None
+    return all(k in raices_oracion for k in ks)
+
+
 def contexto_clase(cache, term: str, defn):
     """Oraciones de la propia clase que explican el término (pasos, modelo mental, ejemplo) y su error frecuente."""
-    base = re.sub(r"\([^)]*\)", "", term.lower()).strip()
-    if len(base) < 3:
+    if len(re.sub(r"\W", "", term)) < 2:
         return [], None
-    rx = re.compile(r"(?<!\w)" + re.escape(base) + r"(?!\w)")
     vistos = {clave(defn)} if defn else set()
     ex = []
     for n in SEC_EXPLICA:
-        for o in cache[n]:
-            ol = sin_negritas(o)
-            if rx.search(ol.lower()) and 40 <= len(ol) <= 340 and clave(ol) not in vistos:
+        for ol, rs in cache[n]:
+            if 40 <= len(ol) <= 340 and clave(ol) not in vistos and coincide(term, ol, rs):
                 ex.append(ol)
                 vistos.add(clave(ol))
                 if len(ex) == 2:
@@ -141,9 +172,8 @@ def contexto_clase(cache, term: str, defn):
         if len(ex) == 2:
             break
     er = None
-    for o in cache[18]:
-        ol = sin_negritas(o)
-        if rx.search(ol.lower()) and 30 <= len(ol) <= 300:
+    for ol, rs in cache[18]:
+        if 30 <= len(ol) <= 300 and coincide(term, ol, rs):
             er = ol
             break
     return ex, er
@@ -413,6 +443,24 @@ def escribir_siglas(terminos):
     return "\n".join(out).rstrip() + "\n", len(filas)
 
 
+def escribir_mas_usados(terminos, esencial, minimo=6):
+    candidatos = sorted(((n_clases(items), k) for k, items in terminos.items()), key=lambda x: (-x[0], x[1]))
+    candidatos = [(n, k) for n, k in candidatos if n >= minimo][:300]
+    entradas = []
+    for n, k in sorted(candidatos, key=lambda x: clave(terminos[x[1]][0]["term"])):
+        items = terminos[k]
+        e = [f"### {nombre_visible(items)}", "", f"*Aparece en {n} clases.*", ""] + lineas_definicion(items) + bloque_contexto(items)
+        if k in esencial:
+            f, h, a = esencial[k]
+            e += ["", f"📖 **Explicado a fondo:** [{h}](esencial/{f}#{a})."]
+        e += ["", f"📘 **Dónde se aprende:** {enlaces(items)}.", ""]
+        entradas.append(e)
+    intro = ["[⬅️ Índice del glosario](README.md)", "",
+             f"Los {len(entradas)} términos que más clases comparten (desde {minimo} clases), en orden alfabético. "
+             "Son el vocabulario transversal del programa: conviene dominarlos primero.", ""]
+    return paginar("mas-usados", "Los términos más usados del programa", intro, entradas)[0], len(entradas)
+
+
 def escribir_por_area(terminos):
     bloques, areas = cargar_areas()
     por_bloque = collections.defaultdict(dict)
@@ -488,6 +536,8 @@ def main():
     archivos, indice = escribir_terminos(terminos, esencial)
     por_area, resumen_areas = escribir_por_area(terminos)
     archivos.update(por_area)
+    mas_usados, n_mas = escribir_mas_usados(terminos, esencial)
+    archivos.update(mas_usados)
     siglas, n_siglas = escribir_siglas(terminos)
     archivos["siglas.md"] = siglas
     archivos.update(escribir_simbolos(simbolos))
@@ -514,7 +564,9 @@ def main():
            "## Términos por letra", ""]
     for L, nombre, n in indice:
         idx.append(f"- [{L}]({nombre}) — {fmt(n)} términos")
-    idx += ["", "## Términos por área del programa", "",
+    idx += ["", "## Vocabulario transversal", "",
+            f"- [Los {n_mas} términos más usados](mas-usados.md): los que comparten más clases; conviene dominarlos primero.", "",
+            "## Términos por área del programa", "",
             "Útil para estudiar un tema: cada área reúne el vocabulario de sus bloques.", ""]
     for area, titulo, n in resumen_areas:
         idx.append(f"- [{area} · {titulo}](por-area-{area}.md) — {fmt(n)} términos")

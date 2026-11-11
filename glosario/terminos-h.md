@@ -18,6 +18,7 @@
 
 💡 **Cómo se explica en la clase [B113-C02](../programa/clases/B113/B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md):**
 - Por forma: habituación (`k > 0`) o sensibilización (`k < 0`).
+- La evidencia es la curva de habituación con sus límites del ejercicio 12 (sección 20).
 - ⚠️ **Error frecuente:** Suponer que la habituación siempre ocurre. Se corrige con 8.4.
 - 🎯 **Por qué importa:** Ninguna clase previa trata la respuesta emocional ante simulaciones de riesgo. La decisión central: ¿cuántas repeticiones de un escenario hacen falta para que el pico baje a un nivel de trabajo, y cuándo la repetición deja de ayudar?
 
@@ -27,7 +28,9 @@
 
 - Un hadrón como protón o pion.
 
-🎯 **Por qué importa (clase B31-C10):** Antes de calcular una sección eficaz, una reacción debe respetar las leyes de conservación. La decisión central: ¿está permitida esta reacción por las reglas de conservación?
+💡 **Cómo se explica en la clase [B31-C10](../programa/clases/B31/B31-C10-modelo-estandar-de-particulas/CLASE.md):**
+- *Descripción textual:* los quarks forman hadrones con números cuánticos; para una reacción se comparan las sumas inicial y final y se declara permitida o prohibida.
+- 🎯 **Por qué importa:** Antes de calcular una sección eficaz, una reacción debe respetar las leyes de conservación. La decisión central: ¿está permitida esta reacción por las reglas de conservación?
 
 📘 **Dónde se aprende** (1 clase): [B31-C10 · Modelo estándar de partículas](../programa/clases/B31/B31-C10-modelo-estandar-de-particulas/CLASE.md).
 
@@ -48,10 +51,11 @@
 - Un hallazgo es una violación detectada.
 - Un hallazgo es una excepción distinta del objetivo.
 
-💡 **Cómo se explica en la clase [B88-C37](../programa/clases/B88/B88-C37-fuzzing-autorizado-de-software-embarcado-en-banco-de-pruebas/CLASE.md):**
-- Parte de tres semillas válidas y conserva las entradas que abren ramas: `11,0/13` ramas, 2 errores distintos por campaña (20 en total) y primer hallazgo a las `40` ejecuciones.
-- Paso 4 · Registro. Hallazgo guardado con la entrada.
-- 🎯 **Por qué importa:** Las pruebas diseñadas por una persona no prevén todas las combinaciones. La decisión central: ¿qué estrategia de entradas encuentra más fallos con menos ejecuciones en un banco autorizado?
+💡 **Cómo se explica en la clase [B88-C15](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md):**
+- Se reescribe `factorial` con `for` acotado, `esperar` con `max_iter`, y se agregan dos aserciones por función y el uso del valor devuelto: `0` hallazgos.
+- *Descripción textual:* el código se convierte en árbol y cada regla recorre el árbol buscando su patrón; los resultados forman la lista de hallazgos.
+- ⚠️ **Error frecuente:** Creer que cero hallazgos significa correcto. Hay falsos negativos (8.4)
+- 🎯 **Por qué importa:** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
 
 📘 **Dónde se aprende** (2 clases): [B88-C15 · Análisis estático de código](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md); [B88-C37 · Fuzzing autorizado de software embarcado en banco de pruebas](../programa/clases/B88/B88-C37-fuzzing-autorizado-de-software-embarcado-en-banco-de-pruebas/CLASE.md).
 
@@ -59,7 +63,10 @@
 
 - Un hallazgo mayor afecta un requisito crítico.
 
-🎯 **Por qué importa (clase B88-C40):** No se puede revisar todo; se revisa una muestra. La decisión central: ¿qué tamaño de muestra da una probabilidad aceptable de detectar desviaciones y cómo se protege el registro de lo auditado?
+💡 **Cómo se explica en la clase [B88-C40](../programa/clases/B88/B88-C40-auditoria-de-software-espacial/CLASE.md):**
+- Hallazgos sintéticos: 2 mayores, 7 menores y 11 observaciones (20).
+- Ejercicio 8 · autónomo. ¿Qué haces con un hallazgo mayor?
+- 🎯 **Por qué importa:** No se puede revisar todo; se revisa una muestra. La decisión central: ¿qué tamaño de muestra da una probabilidad aceptable de detectar desviaciones y cómo se protege el registro de lo auditado?
 
 📘 **Dónde se aprende** (1 clase): [B88-C40 · Auditoría de software espacial](../programa/clases/B88/B88-C40-auditoria-de-software-espacial/CLASE.md).
 
@@ -102,6 +109,7 @@
 
 💡 **Cómo se explica en la clase [B25-C01](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md):**
 - El disco delgado contiene las estrellas jóvenes y el gas; el grueso, estrellas más viejas y a mayor altura (escala de longitud `2,0 ± 0,2 kpc` y masa `6 ± 3 × 10⁹ M☉`, S3); el halo estelar, las más viejas y pobres en metales (C17).
+- Paso 5 · Sentido. La parte estelar del disco ronda un tercio de la masa interior estimada; el resto es bulbo, barra, gas y, sobre todo, un halo oscuro.
 - 🎯 **Por qué importa:** Estamos dentro de la galaxia y no podemos fotografiarla desde fuera: su forma se reconstruye midiendo distancias y velocidades desde un punto que no es el centro. Sin un esquema claro de componentes (bulbo, barra, disco, halo) y de cifras de referencia, el resto del bloque carece de escala.
 
 📘 **Dónde se aprende** (1 clase): [B25-C01 · Estructura de la Vía Láctea](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md).
@@ -152,7 +160,9 @@
 
 - El hamiltoniano modificado (o «de sombra») es una energía ligeramente distinta que el método conserva con mucha precisión.
 
-🎯 **Por qué importa (clase B11-C11):** Para el sistema solar, anillos planetarios o constelaciones se necesitan integraciones de millones de vueltas. Un método que añade o quita un poco de energía en cada vuelta termina destruyendo la órbita.
+💡 **Cómo se explica en la clase [B11-C11](../programa/clases/B11/B11-C11-metodos-simplecticos/CLASE.md):**
+- Porque el hamiltoniano modificado depende de `h`; al cambiar `h` se cambia de «pista», y los errores no se compensan.
+- 🎯 **Por qué importa:** Para el sistema solar, anillos planetarios o constelaciones se necesitan integraciones de millones de vueltas. Un método que añade o quita un poco de energía en cada vuelta termina destruyendo la órbita.
 
 📘 **Dónde se aprende** (1 clase): [B11-C11 · Métodos simplécticos](../programa/clases/B11/B11-C11-metodos-simplecticos/CLASE.md).
 
@@ -162,6 +172,7 @@
 
 💡 **Cómo se explica en la clase [B89-C09](../programa/clases/B89/B89-C09-codificacion-correctora-de-errores/CLASE.md):**
 - Un Hamming(7,4) en un canal con `p = 0,02` baja la probabilidad de bloque erróneo a `0,00786` (simulada `0,00786`).
+- Codificar y decodificar un Hamming(7,4) y corregir un error.
 - 🎯 **Por qué importa:** La codificación es la herramienta que permite cerrar enlaces de espacio profundo con potencias modestas: cada decibelio de ganancia de código equivale a una antena más grande o a más potencia. La decisión central: ¿cuánta redundancia añadir y cuánto `Eb/N0` se ahorra con ella?
 
 📘 **Dónde se aprende** (1 clase): [B89-C09 · Codificación correctora de errores](../programa/clases/B89/B89-C09-codificacion-correctora-de-errores/CLASE.md).
@@ -185,8 +196,8 @@
 - *(y 4 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 💡 **Cómo se explica en la clase [B23-C07](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md):**
+- El registro agrupa: la cifra y su unidad, los parámetros, los hashes de datos y código, las versiones y el valor.
 - La verificación numérica dice «reproducida dentro de tolerancia», porque la cifra casi no se mueve; pero el hash de los datos cambia, y la verificación lista «datos».
-- Tampoco sustituye el control de versiones de datos ni del código (el hash del script identifica el contenido, no su historia), ni garantiza que un hardware distinto dé el mismo resultado bit a bit.
 - 🎯 **Por qué importa:** Un informe dice «el modelo reproduce la posición con un error de 8,21 × 10⁻⁴ au». Seis meses después, nadie sabe con qué versión del código, qué archivo de datos ni qué tolerancia se calculó, y el número no se puede reproducir ni defender.
 
 📘 **Dónde se aprende** (7 clases): [B14-C12 · Ejecución reproducible con uv](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md); [B23-C07 · Trazabilidad científica de resultados](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md); [B63-C03 · Curaduría y cadena de custodia de muestras](../programa/clases/B63/B63-C03-curaduria-y-cadena-de-custodia-de-muestras/CLASE.md); [B88-C13 · Actualización segura de software](../programa/clases/B88/B88-C13-actualizacion-segura-de-software/CLASE.md); [B96-C22 · Transferencia de datos entre estación y centro de datos](../programa/clases/B96/B96-C22-transferencia-de-datos-entre-estacion-y-centro-de-datos/CLASE.md); [B116-C03 · Historia clínica remota y registros médicos de misión](../programa/clases/B116/B116-C03-historia-clinica-remota-y-registros-medicos-de-mision/CLASE.md) y 1 más.
@@ -196,7 +207,8 @@
 - Anexado solo: no se editan entradas previas. Hash anclado: hash final guardado aparte.
 
 💡 **Cómo se explica en la clase [B96-C30](../programa/clases/B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md):**
-- Descripción larga: la cadena detecta cualquier cambio interno; el truncamiento final exige un hash anclado aparte.
+- *Descripción textual:* cada entrada contiene el hash de la anterior; modificar, borrar o reordenar rompe la cadena; el hash final anclado aparte detecta el truncamiento de las últimas entradas.
+- Borrar la última entrada deja una cadena válida: solo el hash final anclado aparte lo delata.
 - 🎯 **Por qué importa:** Sin registro verificable no se puede reconstruir un incidente ni demostrar quién aprobó un comando. La decisión central: ¿cómo se registra para que una alteración se detecte y cuánto hay que revisar en una auditoría?
 
 📘 **Dónde se aprende** (1 clase): [B96-C30 · Registro y auditoría de operaciones](../programa/clases/B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md).
@@ -217,7 +229,9 @@
 - Un hash SHA-256 es una huella de 256 bits del contenido: cualquier cambio de un carácter cambia la huella.
 
 💡 **Cómo se explica en la clase [B13-C19](../programa/clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md):**
-- R --> H["Hash SHA-256<br/>del contenido canónico"]
+- Si alguien cambia un parámetro y no rehace el hash, el validador lo detecta.
+- Si lo rehace, el cambio queda a la vista porque el hash viejo está en otras copias.
+- ⚠️ **Error frecuente:** Creer que el hash prueba autoría. Se corrige con el ejercicio 8.
 - 🎯 **Por qué importa:** Dentro de un año alguien usará los datos de un fotodiodo calibrado hoy. Necesitará saber con qué patrones, a qué temperatura, con qué incertidumbre y hasta cuándo es válida la calibración.
 
 📘 **Dónde se aprende** (1 clase): [B13-C19 · Metadatos y registros de calibración](../programa/clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md).
@@ -274,7 +288,10 @@
 
 - El DOP (*dilution of precision*) amplifica el error: `PDOP = √(Q₁₁+Q₂₂+Q₃₃)` con `Q = (GᵀG)⁻¹`. HDOP y VDOP separan lo horizontal de lo vertical.
 
-🎯 **Por qué importa (clase B57-C10):** La geodesia con GNSS mide posiciones de estaciones con precisión de milímetros a centímetros y sirve para ver cómo se mueve la corteza. Pero la precisión depende de la geometría de los satélites.
+💡 **Cómo se explica en la clase [B57-C10](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md):**
+- Calcular HDOP, VDOP, PDOP y TDOP desde la matriz de geometría.
+- Ejercicio 6. ¿Qué mide el VDOP frente al HDOP?
+- 🎯 **Por qué importa:** La geodesia con GNSS mide posiciones de estaciones con precisión de milímetros a centímetros y sirve para ver cómo se mueve la corteza. Pero la precisión depende de la geometría de los satélites.
 
 📘 **Dónde se aprende** (1 clase): [B57-C10 · Geodesia mediante GNSS](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md).
 
@@ -283,9 +300,10 @@
 - Un HDU (*Header Data Unit*) es una unidad formada por un encabezado y, normalmente, un bloque de datos; el primero del archivo es el HDU primario.
 - Una HDU es una unidad de cabecera y datos.
 
-💡 **Cómo se explica en la clase [B44-C19](../programa/clases/B44/B44-C19-formato-fits-y-metadatos/CLASE.md):**
-- Límite: una sola HDU sin extensiones ni compresión.
-- 🎯 **Por qué importa:** Un cuadro sin metadatos es un arreglo de números sin contexto. La decisión central: ¿qué debe llevar la cabecera para interpretar los datos?
+💡 **Cómo se explica en la clase [B14-C06](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md):**
+- Describir la estructura de un archivo FITS (bloques, HDU, encabezado, datos).
+- (`info()` también imprime una tabla del HDU con la ruta temporal, que no se reproduce aquí.)
+- 🎯 **Por qué importa:** Una imagen astronómica es una matriz de números, pero esos números no significan nada sin su encabezado: ¿qué unidad tienen?, ¿cuánto duró la exposición?, ¿a qué punto del cielo apunta el píxel central? Si el encabezado miente o se pierde, la imagen no sirve.
 
 📘 **Dónde se aprende** (2 clases): [B14-C06 · Formato FITS y encabezados](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md); [B44-C19 · Formato FITS y metadatos](../programa/clases/B44/B44-C19-formato-fits-y-metadatos/CLASE.md).
 
@@ -301,7 +319,10 @@
 
 - Un hecho no confirmado se rotula como tal.
 
-🎯 **Por qué importa (clase B122-C08):** B124-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta. La decisión central: ¿qué hay que comunicar, a quién y antes de qué plazo?
+💡 **Cómo se explica en la clase [B122-C08](../programa/clases/B122/B122-C08-comunicacion-de-crisis-con-operadores-autoridades-y-publico/CLASE.md):**
+- Un mensaje sintético con 5 hechos confirmados y 3 no confirmados tiene una fracción confirmada de `0,625`: los tres restantes se rotulan «no confirmado» con la hora de la próxima actualización.
+- Rotular los hechos confirmados y los no confirmados.
+- 🎯 **Por qué importa:** B124-C18 trata divulgación; la comunicación de crisis con mensajes oportunos no está cubierta. La decisión central: ¿qué hay que comunicar, a quién y antes de qué plazo?
 
 📘 **Dónde se aprende** (1 clase): [B122-C08 · Comunicación de crisis con operadores, autoridades y público](../programa/clases/B122/B122-C08-comunicacion-de-crisis-con-operadores-autoridades-y-publico/CLASE.md).
 
@@ -311,6 +332,7 @@
 
 💡 **Cómo se explica en la clase [B33-C13](../programa/clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md):**
 - El ajuste recupera `b = 2,185 ± 0,012` (verdadero 2,2) con `R² = 0,913`; el pronóstico binario de `Kp ≥ 5` (33 de 3000 intervalos) tiene `Heidke = 0,153` en el mejor umbral.
+- El script [acoplamiento.py](acoplamiento.py) ajusta, barre el umbral y calcula Heidke (comprueba la pendiente a 4 errores y Heidke positivo).
 - 🎯 **Por qué importa:** Predecir una tormenta es predecir un evento raro. La decisión central: ¿qué precisión tiene un pronóstico por umbral de un evento raro?
 
 📘 **Dónde se aprende** (1 clase): [B33-C13 · Pronóstico de actividad geomagnética](../programa/clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md).
@@ -319,7 +341,10 @@
 
 - La helicidad `K = ∫A·B dV` mide el enlace del campo.
 
-🎯 **Por qué importa (clase B35-C07):** La conservación del flujo explica por qué el campo se amplifica al comprimirse y por qué la reconexión exige romper la idealidad. La decisión central: ¿cuándo el campo se mueve con el plasma y cuándo se difunde?
+💡 **Cómo se explica en la clase [B35-C07](../programa/clases/B35/B35-C07-congelamiento-del-flujo-magnetico-y-conservacion-en-mhd-ideal/CLASE.md):**
+- Ejercicio 6. Helicidad de dos tubos enlazados con `Φ₁ = Φ₂ = 1`.
+- Ejercicio 7. ¿Qué ocurre con la helicidad de tubos separados?
+- 🎯 **Por qué importa:** La conservación del flujo explica por qué el campo se amplifica al comprimirse y por qué la reconexión exige romper la idealidad. La decisión central: ¿cuándo el campo se mueve con el plasma y cuándo se difunde?
 
 📘 **Dónde se aprende** (1 clase): [B35-C07 · Congelamiento del flujo magnético y conservación en MHD ideal](../programa/clases/B35/B35-C07-congelamiento-del-flujo-magnetico-y-conservacion-en-mhd-ideal/CLASE.md).
 
@@ -327,7 +352,9 @@
 
 - La helicidad cruzada mide la correlación entre velocidad y campo.
 
-🎯 **Por qué importa (clase B35-C09):** La pendiente de un espectro y su intermitencia distinguen modelos de turbulencia. La decisión central: ¿qué pendiente y qué curtosis tiene la serie y qué modelo sugiere?
+💡 **Cómo se explica en la clase [B35-C09](../programa/clases/B35/B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md):**
+- helicidad cruzada: medida 0.8015 ; analitica 0.8000
+- 🎯 **Por qué importa:** La pendiente de un espectro y su intermitencia distinguen modelos de turbulencia. La decisión central: ¿qué pendiente y qué curtosis tiene la serie y qué modelo sugiere?
 
 📘 **Dónde se aprende** (1 clase): [B35-C09 · Turbulencia en plasmas y MHD](../programa/clases/B35/B35-C09-turbulencia-en-plasmas-y-mhd/CLASE.md).
 
@@ -379,7 +406,10 @@
 
 - La herencia de prioridad sube temporalmente la prioridad del dueño del mutex a la del que espera.
 
-🎯 **Por qué importa (clase B88-C28):** El caso Pathfinder mostró que un error de concurrencia puede aparecer solo en operación y provocar reinicios por watchdog. La decisión central: ¿cómo se garantiza que una tarea de alta prioridad no quede bloqueada indefinidamente por otras de menor prioridad?
+💡 **Cómo se explica en la clase [B88-C28](../programa/clases/B88/B88-C28-inversion-de-prioridad-y-deadlocks/CLASE.md):**
+- H["Herencia: B sube a prioridad de A"] --> B
+- M desplaza a B y alarga la espera de A; con herencia, B corre con la prioridad de A y M no puede desplazarla.
+- 🎯 **Por qué importa:** El caso Pathfinder mostró que un error de concurrencia puede aparecer solo en operación y provocar reinicios por watchdog. La decisión central: ¿cómo se garantiza que una tarea de alta prioridad no quede bloqueada indefinidamente por otras de menor prioridad?
 
 📘 **Dónde se aprende** (1 clase): [B88-C28 · Inversión de prioridad y deadlocks](../programa/clases/B88/B88-C28-inversion-de-prioridad-y-deadlocks/CLASE.md).
 
@@ -432,7 +462,9 @@
 
 - La heurística octil estima el costo con movimientos ortogonales y diagonales.
 
-🎯 **Por qué importa (clase B97-C08):** Con retardo de comunicación y poca energía, la ruta debe salir buena a la primera. A* garantiza la ruta de costo mínimo si la heurística es admisible, y ahorra cómputo, que a bordo es escaso.
+💡 **Cómo se explica en la clase [B97-C08](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md):**
+- Ejercicio 3 · casi autónomo. ¿Por qué la heurística octil es admisible?
+- 🎯 **Por qué importa:** Con retardo de comunicación y poca energía, la ruta debe salir buena a la primera. A* garantiza la ruta de costo mínimo si la heurística es admisible, y ahorra cómputo, que a bordo es escaso.
 
 📘 **Dónde se aprende** (1 clase): [B97-C08 · Planificación de trayectorias robóticas](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md).
 
@@ -463,6 +495,7 @@
 
 💡 **Cómo se explica en la clase [B122-C01](../programa/clases/B122/B122-C01-dependencias-de-proveedores-y-cadena-de-suministro-de-infraestructura-espacial/CLASE.md):**
 - *Descripción textual:* los proveedores abastecen componentes y estos sostienen servicios; del reparto sale el HHI y de la estructura la indisponibilidad con uno o varios proveedores.
+- Calcular el HHI de las cuotas de compra de un componente.
 - ⚠️ **Error frecuente:** Confundir HHI con la suma de cuotas. Se corrige con 8.1.
 - 🎯 **Por qué importa:** B119-C16 solo introduce la infraestructura crítica y no analiza de quién depende. La decisión central: ¿qué proveedor, si cae, daña más servicios, y cuánto baja el riesgo si hay una segunda fuente?
 
@@ -481,7 +514,10 @@
 - Un hidrocarburo es un compuesto de carbono e hidrógeno, como el metano.
 - Un hidrocarburo contiene sólo carbono e hidrógeno: alcano (enlaces simples, `CₙH₂ₙ₊₂`, como el metano `CH₄`), alqueno (un doble enlace, `CₙH₂ₙ`, como el eteno `C₂H₄`), alquino (un triple enlace) y aromático (anillos con enlaces alternados, como el benceno `C₆H₆`).
 
-🎯 **Por qué importa (clase B06-C16):** El análisis de las muestras de Bennu detectó aminoácidos (incluidos 14 de los 20 usados en la biología terrestre), aminas, formaldehído, ácidos carboxílicos, hidrocarburos aromáticos policíclicos y heterociclos de nitrógeno, entre ellos las cinco nucleobases del ADN y el ARN, además de unas 10 000 especies nitrogenadas (S1).
+💡 **Cómo se explica en la clase [B06-C16](../programa/clases/B06/B06-C16-quimica-organica-esencial/CLASE.md):**
+- C["Carbono: 4 enlaces"] --> H["Hidrocarburos (C, H)"]
+- La primera son los hidrocarburos: alcanos (insaturación 0), alquenos (1) y aromáticos como el benceno (4).
+- 🎯 **Por qué importa:** El análisis de las muestras de Bennu detectó aminoácidos (incluidos 14 de los 20 usados en la biología terrestre), aminas, formaldehído, ácidos carboxílicos, hidrocarburos aromáticos policíclicos y heterociclos de nitrógeno, entre ellos las cinco nucleobases del ADN y el ARN, además de unas 10 000 especies nitrogenadas (S1).
 
 📘 **Dónde se aprende** (2 clases): [B06-C16 · Química orgánica esencial](../programa/clases/B06/B06-C16-quimica-organica-esencial/CLASE.md); [B56-C11 · Atmósfera y superficie de Titán](../programa/clases/B56/B56-C11-atmosfera-y-superficie-de-titan/CLASE.md).
 
@@ -499,7 +535,9 @@
 
 - El hidrógeno importado es el que no se recupera.
 
-🎯 **Por qué importa (clase B59-C09):** Un combustible fabricado en destino depende de qué parte del hidrógeno se recicla. La decisión central: ¿cuánto hidrógeno hay que importar para fabricar 1 000 kg de propelente O₂/CH₄?
+💡 **Cómo se explica en la clase [B59-C09](../programa/clases/B59/B59-C09-fabricacion-de-combustibles-conceptuales/CLASE.md):**
+- Ejercicio 12 · integrador. Elabora tu *ficha del combustible conceptual*: reacciones, entalpía, masas por corriente, hidrógeno importado, O₂ que falta y calor a evacuar.
+- 🎯 **Por qué importa:** Un combustible fabricado en destino depende de qué parte del hidrógeno se recicla. La decisión central: ¿cuánto hidrógeno hay que importar para fabricar 1 000 kg de propelente O₂/CH₄?
 
 📘 **Dónde se aprende** (1 clase): [B59-C09 · Fabricación de combustibles conceptuales](../programa/clases/B59/B59-C09-fabricacion-de-combustibles-conceptuales/CLASE.md).
 
@@ -507,7 +545,10 @@
 
 - La hidroponía cultiva con las raíces en solución acuosa o en un sustrato inerte.
 
-🎯 **Por qué importa (clase B115-C01):** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
+💡 **Cómo se explica en la clase [B115-C01](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md):**
+- El script [hidroponia.py](hidroponia.py) calcula la lámina por Manning, el régimen, el oxígeno y el balance del depósito (comprueba el caudal reconstruido, `Fr < 1`, la saturación a 22 °C y la coincidencia del depósito con la solución analítica).
+- python programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/hidroponia.py
+- 🎯 **Por qué importa:** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
 
 📘 **Dónde se aprende** (1 clase): [B115-C01 · Cultivos hidropónicos para hábitats](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md).
 
@@ -540,6 +581,7 @@
 - PIL: en el procesador objetivo o en un modelo de su aritmética. HIL: con el hardware real conectado (C19).
 
 💡 **Cómo se explica en la clase [B88-C41](../programa/clases/B88/B88-C41-pruebas-sil-y-pil-del-software-de-vuelo/CLASE.md):**
+- Ejercicio 7 · autónomo. ¿Qué error de otro tipo detecta HIL y no PIL?
 - ⚠️ **Error frecuente:** Creer que SIL basta. Hace falta PIL y HIL (8.4)
 - 🎯 **Por qué importa:** La aritmética del procesador objetivo puede ser distinta de la del escritorio. La decisión central: ¿cuánto se aparta la respuesta con la precisión del objetivo y cumple la tolerancia?
 
@@ -551,10 +593,10 @@
 - Un hilo es una serie numerada de publicaciones.
 - Un proceso tiene su memoria propia; un hilo comparte la memoria del proceso.
 
-💡 **Cómo se explica en la clase [B18-C01](../programa/clases/B18/B18-C01-procesos-hilos-y-concurrencia/CLASE.md):**
-- Cuando un hilo hace E/S, el lock se libera y otro avanza.
-- La defensa es un cerrojo (`with cerrojo: cuenta += 1`) o, mejor, no compartir datos mutables: que cada hilo devuelva su resultado y combinarlos al final.
-- 🎯 **Por qué importa:** Tienes ocho órbitas simuladas que propagar y un portátil con varios núcleos. La tentación es «lanzar ocho hilos y listo».
+💡 **Cómo se explica en la clase [B14-C13](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md):**
+- Para cálculo puro en Python, los hilos no ayudan por el GIL (S1); los procesos sí, a costa de memoria y de serializar los datos.
+- Para bibliotecas que liberan el GIL (como NumPy en muchas operaciones), los hilos pueden servir.
+- 🎯 **Por qué importa:** Un análisis de miles de simulaciones tarda una noche. Tienes ocho núcleos.
 
 📘 **Dónde se aprende** (3 clases): [B14-C13 · Computación paralela](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md); [B18-C01 · Procesos, hilos y concurrencia](../programa/clases/B18/B18-C01-procesos-hilos-y-concurrencia/CLASE.md); [B130-C04 · Divulgación científica en redes sociales](../programa/clases/B130/B130-C04-divulgacion-cientifica-en-redes-sociales/CLASE.md).
 
@@ -562,7 +604,9 @@
 
 - Un hilo con corriente en un campo `B` siente `F/L = I B` (perpendicular).
 
-🎯 **Por qué importa (clase B05-C17):** La Tierra tiene un campo magnético que un satélite puede medir con un magnetómetro y que actúa sobre las partículas cargadas que lo atraviesan; además, una corriente a bordo crea su propio campo, que puede perturbar esas medidas.
+💡 **Cómo se explica en la clase [B05-C17](../programa/clases/B05/B05-C17-campos-magneticos/CLASE.md):**
+- Calcular el campo de un hilo recto con corriente.
+- 🎯 **Por qué importa:** La Tierra tiene un campo magnético que un satélite puede medir con un magnetómetro y que actúa sobre las partículas cargadas que lo atraviesan; además, una corriente a bordo crea su propio campo, que puede perturbar esas medidas.
 
 📘 **Dónde se aprende** (1 clase): [B05-C17 · Campos magnéticos](../programa/clases/B05/B05-C17-campos-magneticos/CLASE.md).
 
@@ -631,8 +675,8 @@
 - El hiperperiodo `H = mcm(Tᵢ)`.
 
 💡 **Cómo se explica en la clase [B88-C05](../programa/clases/B88/B88-C05-sistemas-de-tiempo-real/CLASE.md):**
+- Con paso de 1 ms sobre 3 hiperperiodos (468 ms), el tiempo de respuesta máximo observado es 1, 3 y 10 ms: igual al analítico, con 0 plazos incumplidos.
 - T --> S["Simulacion en el hiperperiodo"]
-- El tiempo de respuesta de `t3` converge a `10 ms`, menor que su plazo de `13 ms`; el hiperperiodo es 156 ms.
 - 🎯 **Por qué importa:** En una nave, una tarea de control que llega tarde puede ser tan mala como una que da un resultado incorrecto. La decisión central: ¿cada tarea termina siempre antes de su plazo, aun cuando las de mayor prioridad la interrumpen?
 
 📘 **Dónde se aprende** (1 clase): [B88-C05 · Sistemas de tiempo real](../programa/clases/B88/B88-C05-sistemas-de-tiempo-real/CLASE.md).
@@ -653,7 +697,10 @@
 
 - Un termófilo tiene óptimo moderadamente alto y un hipertermófilo muy alto (los intervalos exactos varían por autor; aquí no se fijan).
 
-🎯 **Por qué importa (clase B64-C02):** Un hipertermófilo crece donde casi todo lo demás muere, pero el agua hierve a 100 °C a presión ambiente. La pregunta motivadora: ¿qué fija el límite superior de temperatura de la vida y cómo se mide ese límite?
+💡 **Cómo se explica en la clase [B64-C02](../programa/clases/B64/B64-C02-termofilos-e-hipertermofilos/CLASE.md):**
+- Definir las temperaturas cardinales y los intervalos térmicos de termófilos e hipertermófilos.
+- No: son magnitudes distintas (rama ascendente de un hipertermófilo sintético frente a un parámetro de escalado de metabolismo en frío).
+- 🎯 **Por qué importa:** Un hipertermófilo crece donde casi todo lo demás muere, pero el agua hierve a 100 °C a presión ambiente. La pregunta motivadora: ¿qué fija el límite superior de temperatura de la vida y cómo se mide ese límite?
 
 📘 **Dónde se aprende** (1 clase): [B64-C02 · Termófilos e hipertermófilos](../programa/clases/B64/B64-C02-termofilos-e-hipertermofilos/CLASE.md).
 
@@ -696,7 +743,11 @@
 
 - Una hipótesis ad hoc es un parche añadido solo para salvar la idea de un resultado adverso.
 
-🎯 **Por qué importa (clase B01-C07):** Una afirmación que ningún resultado posible contradice no enseña nada. Si dices «la Luna cambia de tamaño aparente» y, ocurra lo que ocurra, tu frase queda a salvo, no has dicho gran cosa.
+💡 **Cómo se explica en la clase [B01-C07](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md):**
+- Una hipótesis útil dice sobre qué, bajo qué condiciones y con qué variables.
+- Esa hipótesis nombra el objeto, la magnitud, el intervalo y el mecanismo propuesto.
+- ⚠️ **Error frecuente:** Hipótesis que nada contradice. Ejercicio 2.
+- 🎯 **Por qué importa:** Una afirmación que ningún resultado posible contradice no enseña nada. Si dices «la Luna cambia de tamaño aparente» y, ocurra lo que ocurra, tu frase queda a salvo, no has dicho gran cosa.
 
 📘 **Dónde se aprende** (1 clase): [B01-C07 · Hipótesis y predicciones falsables](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md).
 
@@ -704,7 +755,10 @@
 
 - Una hipótesis alternativa (o nula) es la que se espera si la tuya falla: aquí, «no hay cambio».
 
-🎯 **Por qué importa (clase B01-C07):** Una afirmación que ningún resultado posible contradice no enseña nada. Si dices «la Luna cambia de tamaño aparente» y, ocurra lo que ocurra, tu frase queda a salvo, no has dicho gran cosa.
+💡 **Cómo se explica en la clase [B01-C07](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md):**
+- Fijar antes de medir un criterio de refutación y comprobar que el instrumento distingue la hipótesis de su alternativa.
+- Ejercicio 12 · integrador. Elabora tu ficha de hipótesis: hipótesis con alcance, hipótesis alternativa, predicción numérica con unidades y fuente de los datos, criterio de refutación, prueba de discriminación con el instrumento que tendrás, y fecha de registro anterior a la medida.
+- 🎯 **Por qué importa:** Una afirmación que ningún resultado posible contradice no enseña nada. Si dices «la Luna cambia de tamaño aparente» y, ocurra lo que ocurra, tu frase queda a salvo, no has dicho gran cosa.
 
 📘 **Dónde se aprende** (1 clase): [B01-C07 · Hipótesis y predicciones falsables](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md).
 
@@ -720,7 +774,9 @@
 
 - La hipótesis de pequeños ángulos linealiza el modelo y solo vale para ángulos pequeños.
 
-🎯 **Por qué importa (clase B108-C04):** Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad. La decisión central: ¿cuánto rigidez y amortiguamiento necesita una sujeción para que una fuerza de trabajo no desplace a la persona más allá de lo útil?
+💡 **Cómo se explica en la clase [B108-C04](../programa/clases/B108/B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md):**
+- Con F = 400 N (extremo inferior del rango consultado): theta estatico = 0.250 rad = 14.32 grados -> fuera de la hipotesis de pequenos angulos (limite ilustrativo 0.2 rad)
+- 🎯 **Por qué importa:** Ninguna clase trata la estabilización del astronauta durante trabajo en microgravedad. La decisión central: ¿cuánto rigidez y amortiguamiento necesita una sujeción para que una fuerza de trabajo no desplace a la persona más allá de lo útil?
 
 📘 **Dónde se aprende** (1 clase): [B108-C04 · Sistemas de sujeción y restricción de pies](../programa/clases/B108/B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md).
 
@@ -750,10 +806,9 @@
 - La hipoventilación es una ventilación insuficiente que eleva el CO₂.
 - La hipoventilación eleva `PaCO₂` y baja `PAO₂`.
 
-💡 **Cómo se explica en la clase [B117-C04](../programa/clases/B117/B117-C04-problemas-respiratorios-simulados/CLASE.md):**
-- Las fugas y la hipoventilación son ilustrativas.
-- Descripción larga: la saturación casi no cambia entre los extremos nominales, pero cae mucho cuando se combinan fuga e hipoventilación.
-- 🎯 **Por qué importa:** Ninguna clase anterior simula problemas respiratorios. La decisión central: ¿cuánto margen de oxigenación hay entre la atmósfera nominal de la cabina y una condición peligrosa, y qué variable lo consume más rápido?
+💡 **Cómo se explica en la clase [B105-C21](../programa/clases/B105/B105-C21-fisiologia-respiratoria-en-microgravedad-y-atmosferas-de-cabina/CLASE.md):**
+- Ejercicio 7 · autónomo. Con `v = 0,5` (hipoventilación) en A, ¿cuánto vale `PAO₂`?
+- 🎯 **Por qué importa:** La misma cantidad de oxígeno inspirado no significa lo mismo a 101 kPa que a 70 kPa: importa la presión parcial. La decisión central: ¿qué presión parcial de oxígeno alveolar resulta de una atmósfera dada y cómo cambia con el CO₂ ambiente y la ventilación?
 
 📘 **Dónde se aprende** (2 clases): [B105-C21 · Fisiología respiratoria en microgravedad y atmósferas de cabina](../programa/clases/B105/B105-C21-fisiologia-respiratoria-en-microgravedad-y-atmosferas-de-cabina/CLASE.md); [B117-C04 · Problemas respiratorios simulados](../programa/clases/B117/B117-C04-problemas-respiratorios-simulados/CLASE.md).
 
@@ -777,6 +832,7 @@
 
 💡 **Cómo se explica en la clase [B86-C23](../programa/clases/B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md):**
 - En un perfil sintético de `400` pasos (luz de unos `140 W` y eclipse de unos `62 W` con ruido), la política con histéresis de reposición hace `79` transiciones; el relleno aplicado en cada paso sin histéresis hace `181`.
+- Probar una histéresis de reposición con un perfil de potencia ruidoso.
 - 🎯 **Por qué importa:** La clase de distribución trató cómo repartir potencia, pero no qué hacer cuando falta. Una política de prioridades bien definida mantiene lo crítico vivo y recupera ciencia cuando vuelve la potencia, sin oscilar entre estados.
 
 📘 **Dónde se aprende** (1 clase): [B86-C23 · Priorización y deslastre de cargas eléctricas](../programa/clases/B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md).
@@ -807,7 +863,10 @@
 
 - La historia de formación estelar `ψ(t)` es la tasa de formación en función de la edad.
 
-🎯 **Por qué importa (clase B38-C04):** Los conteos de estrellas son una suma sobre edades y la inversión amplifica el ruido. La decisión central: ¿con qué resolución en edad se puede recuperar la historia con un número dado de estrellas?
+💡 **Cómo se explica en la clase [B38-C04](../programa/clases/B38/B38-C04-historia-de-formacion-estelar-a-partir-de-poblaciones-resueltas/CLASE.md):**
+- La evidencia es la ficha de la historia de formación estelar del ejercicio 12 (sección 20).
+- Ejercicio 12. Integrador. Elabora tu *ficha de la historia de formación estelar*: masas de salida, recuperación sin ruido y efecto del ruido.
+- 🎯 **Por qué importa:** Los conteos de estrellas son una suma sobre edades y la inversión amplifica el ruido. La decisión central: ¿con qué resolución en edad se puede recuperar la historia con un número dado de estrellas?
 
 📘 **Dónde se aprende** (1 clase): [B38-C04 · Historia de formación estelar a partir de poblaciones resueltas](../programa/clases/B38/B38-C04-historia-de-formacion-estelar-a-partir-de-poblaciones-resueltas/CLASE.md).
 
@@ -830,6 +889,7 @@
 - *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
 💡 **Cómo se explica en la clase [B119-C12](../programa/clases/B119/B119-C12-historia-de-competencia-estrategica-espacial/CLASE.md):**
+- De los diez hitos, seis tienen fecha consultada y cuatro no.
 - *Descripción textual:* cada hito técnico precede a un instrumento jurídico tras un rezago; las fechas se separan en consultadas y no consultadas antes de calcular intervalos.
 - 🎯 **Por qué importa:** Para leer el derecho vigente conviene saber qué contexto lo produjo; ninguna clase anterior da la cronología comparada entre la tecnología y los instrumentos jurídicos. La decisión central: ¿cuánto tardó el derecho en seguir a la tecnología y por qué importa distinguir fechas verificadas de fechas recordadas?
 
@@ -839,7 +899,10 @@
 
 - El hito de evidencia es la prueba asociada a cada nivel.
 
-🎯 **Por qué importa (clase B78-C19):** Una tecnología con un buen desempeño en papel puede estar lejos de volar. La decisión central: ¿en qué nivel está una tecnología según la evidencia que tiene, y qué nivel tiene un sistema formado por componentes de madureces distintas?
+💡 **Cómo se explica en la clase [B78-C19](../programa/clases/B78/B78-C19-madurez-tecnologica-trl/CLASE.md):**
+- H["hitos con evidencia"] --> CAD["cadena contigua 1..L"]
+- *Descripción textual:* los hitos de evidencia dan el TRL por cadena contigua; el sistema toma el mínimo de sus componentes; el máximo con evidencia y la media son referencias engañosas; el hito siguiente indica qué falta.
+- 🎯 **Por qué importa:** Una tecnología con un buen desempeño en papel puede estar lejos de volar. La decisión central: ¿en qué nivel está una tecnología según la evidencia que tiene, y qué nivel tiene un sistema formado por componentes de madureces distintas?
 
 📘 **Dónde se aprende** (1 clase): [B78-C19 · Madurez tecnológica TRL](../programa/clases/B78/B78-C19-madurez-tecnologica-trl/CLASE.md).
 
@@ -847,7 +910,10 @@
 
 - Un hito de precio fijo es un pago contra un objetivo cumplido.
 
-🎯 **Por qué importa (clase B126-C03):** [B124-C05](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) estima costos sin flujos de caja. La decisión central: ¿cuánto dinero hay que levantar y cuándo, y qué tan sensible es esa cifra a un retraso o a un sobrecosto?
+💡 **Cómo se explica en la clase [B126-C03](../programa/clases/B126/B126-C03-proyeccion-de-flujos-de-caja-de-un-proyecto-espacial/CLASE.md):**
+- Separar lo consultado (el esquema de hitos de precio fijo del programa COTS) de lo ilustrativo (todas las cifras).
+- Datos SINTETICOS (ilustrativos); de COTS solo se consulto el esquema de hitos de precio fijo (NASA SP-2014-617, 2026-11-11).
+- 🎯 **Por qué importa:** [B124-C05](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) estima costos sin flujos de caja. La decisión central: ¿cuánto dinero hay que levantar y cuándo, y qué tan sensible es esa cifra a un retraso o a un sobrecosto?
 
 📘 **Dónde se aprende** (1 clase): [B126-C03 · Proyección de flujos de caja de un proyecto espacial](../programa/clases/B126/B126-C03-proyeccion-de-flujos-de-caja-de-un-proyecto-espacial/CLASE.md).
 
@@ -866,7 +932,9 @@
 
 - El HMAC-SHA256 con clave secreta autentica.
 
-🎯 **Por qué importa (clase B88-C13):** Una actualización fallida en órbita no se arregla con un cable. La decisión central: ¿qué comprobaciones aceptan solo la imagen correcta y qué mecanismo vuelve a una versión conocida si la nueva no arranca?
+💡 **Cómo se explica en la clase [B88-C13](../programa/clases/B88/B88-C13-actualizacion-segura-de-software/CLASE.md):**
+- El script [actualizacion_segura.py](actualizacion_segura.py) ejecuta cuatro casos de actualización con SHA-256 y HMAC-SHA256 y comprueba que solo el caso bueno cambia de ranura y que el no-arranque revierte a A.
+- 🎯 **Por qué importa:** Una actualización fallida en órbita no se arregla con un cable. La decisión central: ¿qué comprobaciones aceptan solo la imagen correcta y qué mecanismo vuelve a una versión conocida si la nueva no arranca?
 
 📘 **Dónde se aprende** (1 clase): [B88-C13 · Actualización segura de software](../programa/clases/B88/B88-C13-actualizacion-segura-de-software/CLASE.md).
 
@@ -927,7 +995,10 @@
 
 - Es homogénea si todos sus términos contienen la incógnita.
 
-🎯 **Por qué importa (clase B11-C01):** Casi ninguna ley de la mecánica espacial nos dice *dónde está* un satélite; nos dice *cómo cambia* su movimiento: la aceleración depende de la posición. Eso es una ecuación diferencial.
+💡 **Cómo se explica en la clase [B11-C01](../programa/clases/B11/B11-C01-ecuaciones-diferenciales-ordinarias/CLASE.md):**
+- Segundo orden, lineal, homogénea, autónoma.
+- (b) 3.er orden, lineal, no homogénea (el término `sin t` no contiene `y`), no autónoma.
+- 🎯 **Por qué importa:** Casi ninguna ley de la mecánica espacial nos dice *dónde está* un satélite; nos dice *cómo cambia* su movimiento: la aceleración depende de la posición. Eso es una ecuación diferencial.
 
 📘 **Dónde se aprende** (1 clase): [B11-C01 · Ecuaciones diferenciales ordinarias](../programa/clases/B11/B11-C01-ecuaciones-diferenciales-ordinarias/CLASE.md).
 
@@ -938,6 +1009,7 @@
 
 💡 **Cómo se explica en la clase [B16-C03](../programa/clases/B16/B16-C03-sistemas-lineales-invariantes/CLASE.md):**
 - La función `sat(τ) = clip(τ, −τ_max, τ_max)` viola la homogeneidad: si `τ_max = 0,2` y pides 0,15, obtienes 0,15; si pides el doble (0,30), obtienes 0,20 y no 0,30.
+- El script [superposicion_e_invariancia.py](superposicion_e_invariancia.py) integra con `solve_ivp` (Radau) la ecuación con fricción, verifica superposición e invariancia, compara la convolución con la integración directa y muestra que la saturación viola la homogeneidad.
 - 🎯 **Por qué importa:** Un ingeniero de control no puede ensayar todos los pares posibles en un telescopio de miles de millones de euros. La esperanza es que, con unas pocas pruebas, se pueda predecir la respuesta a cualquier par.
 
 📘 **Dónde se aprende** (2 clases): [B16-C03 · Sistemas lineales invariantes](../programa/clases/B16/B16-C03-sistemas-lineales-invariantes/CLASE.md); [B43-C21 · Selección de vidrios ópticos: catálogos, homogeneidad y diagramas](../programa/clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md).
@@ -968,8 +1040,8 @@
 - El minuto (min), la hora (h) y el día (d) se aceptan con las equivalencias `1 min = 60 s`, `1 h = 60 min = 3600 s`, `1 d = 24 h = 86 400 s` (S2).
 
 💡 **Cómo se explica en la clase [B03-C08](../programa/clases/B03/B03-C08-tiempo-y-conversiones-astronomicas/CLASE.md):**
-- Con las equivalencias del SI, 1 d = 86 400 s (S2), puedes expresar esos períodos en segundos o en años, y calcular que la Tierra gira unos 15,04° por hora respecto de las estrellas.
-- Descripción larga: una circunferencia con dos anillos concéntricos; el exterior marca 0 a 360° y el interior 0 a 24 h; cada hora corresponde a 15°.
+- Esto relaciona la ascensión recta en horas con grados: `6 h = 90°`.
+- *Descripción textual:* dos entradas (tiempo en horas–minutos–segundos y ángulo en grados–minutos–segundos) se llevan a una unidad decimal; se opera allí; y, si hace falta, se regresa a la forma sexagesimal dividiendo y tomando el resto.
 - 🎯 **Por qué importa:** El período de Neptuno en las fichas de la NASA es 60 189,018 días. Nadie piensa en 60 mil días; se piensa en años.
 
 📘 **Dónde se aprende** (1 clase): [B03-C08 · Tiempo y conversiones astronómicas](../programa/clases/B03/B03-C08-tiempo-y-conversiones-astronomicas/CLASE.md).
@@ -996,6 +1068,8 @@
 
 💡 **Cómo se explica en la clase [B08-C05](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md):**
 - Se calcula `GMST` a partir de la fecha y hora UT con una fórmula polinómica (coeficientes IAU 1982), y `TSL = GMST + λ`.
+- Analogía y su límite. Es la aguja de las horas que se mueve mientras la de los minutos da una vuelta: la manecilla rápida necesita ir más lejos para alcanzarla.
+- ⚠️ **Error frecuente:** Esperar que una estrella salga a la misma hora cada noche. Ejercicio 9.
 - 🎯 **Por qué importa:** Si una estrella culmina a las 22:00 hoy, culminará a las 21:56 mañana. Quien no lo sabe «pierde» el objeto en pocas semanas.
 
 📘 **Dónde se aprende** (1 clase): [B08-C05 · Tiempo sidéreo y solar](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md).
@@ -1007,6 +1081,8 @@
 
 💡 **Cómo se explica en la clase [B48-C02](../programa/clases/B48/B48-C02-concesion-de-tiempo-de-observacion/CLASE.md):**
 - E --> C["x p despejado = horas efectivas"]
+- *Descripción textual:* las cuotas se convierten en horas enteras por dos métodos y las horas asignadas se reducen por el clima para dar las efectivas.
+- ⚠️ **Error frecuente:** Confundir horas asignadas y efectivas. Se corrige con 8.2.
 - 🎯 **Por qué importa:** Un reparto sin regla clara genera conflicto, y uno sin clima genera promesas incumplibles. La decisión central: ¿cuántas horas se asignan y cuántas se esperan efectivas?
 
 📘 **Dónde se aprende** (2 clases): [B48-C02 · Concesión de tiempo de observación](../programa/clases/B48/B48-C02-concesion-de-tiempo-de-observacion/CLASE.md); [B96-C03 · Roles de control de misión](../programa/clases/B96/B96-C03-roles-de-control-de-mision/CLASE.md).
@@ -1037,7 +1113,9 @@
 
 - El horizonte de predicción es el tiempo en que un error inicial `δ₀` alcanza una tolerancia `δ_f`: `n_h = ln(δ_f/δ₀)/λ`.
 
-🎯 **Por qué importa (clase B73-C13):** Un sistema determinista puede ser impredecible a largo plazo: el error de medida se amplifica exponencialmente y fija un horizonte más allá del cual la predicción no vale, por más cómputo que se use. La decisión central: ¿hasta cuándo puedo confiar en una integración y cómo reconozco el régimen caótico?
+💡 **Cómo se explica en la clase [B73-C13](../programa/clases/B73/B73-C13-caos-determinista/CLASE.md):**
+- Estimar la pendiente de `ln d` frente a `n` y el horizonte de predicción.
+- 🎯 **Por qué importa:** Un sistema determinista puede ser impredecible a largo plazo: el error de medida se amplifica exponencialmente y fija un horizonte más allá del cual la predicción no vale, por más cómputo que se use. La decisión central: ¿hasta cuándo puedo confiar en una integración y cómo reconozco el régimen caótico?
 
 📘 **Dónde se aprende** (1 clase): [B73-C13 · Caos determinista](../programa/clases/B73/B73-C13-caos-determinista/CLASE.md).
 
@@ -1053,7 +1131,10 @@
 
 - El horizonte local es el círculo máximo que separa la mitad visible de la oculta; el cenit es el punto sobre tu cabeza y el nadir su opuesto.
 
-🎯 **Por qué importa (clase B08-C02):** Alguien en Punta Arenas ve girar algunas estrellas sin ponerse jamás; alguien en el valle del Elqui las ve rozar el horizonte, y alguien en el hemisferio norte no las ve nunca. Entender por qué evita comprar un telescopio para un objeto que no sale en tu cielo.
+💡 **Cómo se explica en la clase [B08-C02](../programa/clases/B08/B08-C02-esfera-celeste-y-horizonte-local/CLASE.md):**
+- Dibujar tu horizonte local con obstáculos y corregir tu plan.
+- La evidencia es la carta del horizonte local del ejercicio 12.
+- 🎯 **Por qué importa:** Alguien en Punta Arenas ve girar algunas estrellas sin ponerse jamás; alguien en el valle del Elqui las ve rozar el horizonte, y alguien en el hemisferio norte no las ve nunca. Entender por qué evita comprar un telescopio para un objeto que no sale en tu cielo.
 
 📘 **Dónde se aprende** (1 clase): [B08-C02 · Esfera celeste y horizonte local](../programa/clases/B08/B08-C02-esfera-celeste-y-horizonte-local/CLASE.md).
 
@@ -1061,7 +1142,9 @@
 
 - El horizonte sonoro `r_s = ∫ c_s da/(a²H)`.
 
-🎯 **Por qué importa (clase B36-C07):** Una regla estándar permite medir distancias si se conoce su longitud. La decisión central: ¿cuánto mide la regla y cuál es la precisión con que se puede medir su dilatación?
+💡 **Cómo se explica en la clase [B40-C07](../programa/clases/B40/B40-C07-espectro-angular-de-potencias-del-cmb/CLASE.md):**
+- Integrar el horizonte sonoro `r_s` y la distancia `D_M`.
+- 🎯 **Por qué importa:** Los picos acústicos fijan la geometría y el contenido del universo. La decisión central: ¿dónde caen los picos (`ℓ_A = π/θ*`) y cómo se pasa del espectro a la correlación y de vuelta?
 
 📘 **Dónde se aprende** (2 clases): [B36-C07 · Oscilaciones acústicas bariónicas como regla estándar](../programa/clases/B36/B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md); [B40-C07 · Espectro angular de potencias del CMB](../programa/clases/B40/B40-C07-espectro-angular-de-potencias-del-cmb/CLASE.md).
 
@@ -1080,7 +1163,9 @@
 
 - Una huaca es un lugar sagrado en el mundo andino.
 
-🎯 **Por qué importa (clase B02-C05):** Hablar de «astronomía andina» en singular es un error: los Andes reúnen sociedades de épocas y regiones muy distintas. La pregunta motivadora es: ¿cómo se estudia respetuosamente un cielo que otra cultura leyó de otra manera, sin imponerle nuestras categorías y sin inventar lo que las fuentes no dicen?
+💡 **Cómo se explica en la clase [B02-C05](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md):**
+- Ejercicio 10 · transferencia. Propón cómo conseguir permiso antes de publicar fotos de una huaca en uso ritual.
+- 🎯 **Por qué importa:** Hablar de «astronomía andina» en singular es un error: los Andes reúnen sociedades de épocas y regiones muy distintas. La pregunta motivadora es: ¿cómo se estudia respetuosamente un cielo que otra cultura leyó de otra manera, sin imponerle nuestras categorías y sin inventar lo que las fuentes no dicen?
 
 📘 **Dónde se aprende** (1 clase): [B02-C05 · Cosmovisiones andinas del cielo](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md).
 
@@ -1099,7 +1184,10 @@
 
 - Atípico: dato que no sigue el modelo. Huber / IRLS: pesos `w = min(1, δ/|r|)` reajustados iterativamente (la teoría de M-estimadores no se consultó).
 
-🎯 **Por qué importa (clase B99-C07):** Un estimador que funciona en el laboratorio puede fallar sin avisar cuando el entorno empeora. La decisión central: ¿qué estimador usar, cómo detectar que el entorno no determina el movimiento y cuándo dejar de confiar en el mapa?
+💡 **Cómo se explica en la clase [B99-C07](../programa/clases/B99/B99-C07-robustez-del-mapeo-ante-entornos-degradados/CLASE.md):**
+- Huber (IRLS, `δ = 0,05 m`, 30 iteraciones) da 0,0060; 0,0090 y 0,0134 m.
+- Comparar mínimos cuadrados, Huber (IRLS) y RANSAC con una fracción creciente de atípicos.
+- 🎯 **Por qué importa:** Un estimador que funciona en el laboratorio puede fallar sin avisar cuando el entorno empeora. La decisión central: ¿qué estimador usar, cómo detectar que el entorno no determina el movimiento y cuándo dejar de confiar en el mapa?
 
 📘 **Dónde se aprende** (1 clase): [B99-C07 · Robustez del mapeo ante entornos degradados](../programa/clases/B99/B99-C07-robustez-del-mapeo-ante-entornos-degradados/CLASE.md).
 
@@ -1110,8 +1198,9 @@
 - Paquete: unidad de datos con número de secuencia. Hueco: rango de números faltantes.
 
 💡 **Cómo se explica en la clase [B15-C01](../programa/clases/B15/B15-C01-series-temporales-discretas/CLASE.md):**
+- Conviene guardar siempre el instante de cada dato, no solo su posición `n`, porque con huecos la posición engaña.
 - En el laboratorio, la pendiente real es `−1,000 × 10⁻⁴` por día y el ajuste da `−2,238 × 10⁻⁴`: la modulación de 2,5 días contamina una ventana de 7 días (2,8 periodos) y el hueco empeora el efecto.
-- Lo que no debe hacerse es olvidar el hueco y tratar la serie como equiespaciada.
+- ⚠️ **Error frecuente:** Usar el índice `n` como si fuera tiempo. Con huecos o cadencia variable, el tiempo real manda.
 - 🎯 **Por qué importa:** Un telescopio espacial mide el brillo de una estrella cada dos minutos durante semanas. Lo que llega a tierra no es una curva continua, sino una tabla de números.
 
 📘 **Dónde se aprende** (4 clases): [B15-C01 · Series temporales discretas](../programa/clases/B15/B15-C01-series-temporales-discretas/CLASE.md); [B15-C19 · Reconstrucción por datos incompletos](../programa/clases/B15/B15-C19-reconstruccion-por-datos-incompletos/CLASE.md); [B83-C03 · Concepto de operaciones CONOPS](../programa/clases/B83/B83-C03-concepto-de-operaciones-conops/CLASE.md); [B96-C16 · Gestión de datos científicos](../programa/clases/B96/B96-C16-gestion-de-datos-cientificos/CLASE.md).
@@ -1120,7 +1209,10 @@
 
 - Un hueco de autoridad es un intervalo en el que nadie puede comandar.
 
-🎯 **Por qué importa (clase B98-C08):** Los relevos fallan en los bordes: un «es tuyo» que no llega deja el vehículo sin dueño, y un «lo sigo yo» sin confirmar deja a dos operadores dando órdenes. La decisión central: ¿cómo se garantiza que siempre hay exactamente un operador con autoridad, o que las órdenes de uno antiguo no se acepten?
+💡 **Cómo se explica en la clase [B98-C08](../programa/clases/B98/B98-C08-protocolos-de-relevo-de-control-entre-operadores/CLASE.md):**
+- Con 15 % de pérdida y 10 000 relevos (semilla 98008): el protocolo ingenuo («es tuyo» sin confirmar) deja a `1475` relevos sin autoridad (hueco medio `44,25 s`).
+- Descripción larga: el protocolo ingenuo pierde la autoridad una de cada siete veces; confirmar elimina los huecos pero crea solapamientos; la época los neutraliza.
+- 🎯 **Por qué importa:** Los relevos fallan en los bordes: un «es tuyo» que no llega deja el vehículo sin dueño, y un «lo sigo yo» sin confirmar deja a dos operadores dando órdenes. La decisión central: ¿cómo se garantiza que siempre hay exactamente un operador con autoridad, o que las órdenes de uno antiguo no se acepten?
 
 📘 **Dónde se aprende** (1 clase): [B98-C08 · Protocolos de relevo de control entre operadores](../programa/clases/B98/B98-C08-protocolos-de-relevo-de-control-entre-operadores/CLASE.md).
 
@@ -1138,6 +1230,7 @@
 
 💡 **Cómo se explica en la clase [B17-C09](../programa/clases/B17/B17-C09-prevencion-de-fuga-de-datos/CLASE.md):**
 - Si serán de épocas futuras, parte por tiempo (`TimeSeriesSplit` o bloques) con hueco de purga.
+- ¿Qué hueco de purga usas entre entrenamiento y prueba?
 - 🎯 **Por qué importa:** Un equipo anuncia una exactitud del 95 % para clasificar señales; al aplicarlo a datos de una campaña nueva, baja al 55 %. Nadie mintió: la validación estaba mal hecha.
 
 📘 **Dónde se aprende** (1 clase): [B17-C09 · Prevención de fuga de datos](../programa/clases/B17/B17-C09-prevencion-de-fuga-de-datos/CLASE.md).
@@ -1172,6 +1265,7 @@
 - La huella del cálculo es el hash del registro canónico.
 
 💡 **Cómo se explica en la clase [B23-C07](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md):**
+- La fecha UTC, el commit de git y la plataforma se guardan en un campo de contexto fuera de la huella: son información útil pero cambian entre ejecuciones sin que cambie el cálculo.
 - R --> H["Huella del cálculo<br/>(SHA-256)"]
 - 🎯 **Por qué importa:** Un informe dice «el modelo reproduce la posición con un error de 8,21 × 10⁻⁴ au». Seis meses después, nadie sabe con qué versión del código, qué archivo de datos ni qué tolerancia se calculó, y el número no se puede reproducir ni defender.
 
@@ -1183,6 +1277,7 @@
 
 💡 **Cómo se explica en la clase [B14-C12](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md):**
 - Registra la huella del entorno junto al resultado del análisis.
+- Registrar la huella del entorno (Python, plataforma y bibliotecas) junto a un resultado.
 - 🎯 **Por qué importa:** Tu análisis dio un período de 5553,624562 s en 2026. Un colega lo ejecuta con otra versión de SciPy y obtiene un cierre distinto; otro usa Python más antiguo y falla al importar. «En mi máquina funciona» no es un resultado científico.
 
 📘 **Dónde se aprende** (1 clase): [B14-C12 · Ejecución reproducible con uv](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md).
@@ -1191,7 +1286,10 @@
 
 - La huella del protocolo es el SHA-256 de su texto normalizado.
 
-🎯 **Por qué importa (clase B14-C23):** Tienes una curva de luz y muchas formas de analizarla: otro filtro, otra ventana, otro modelo, otra prueba. Si pruebas veinte y comunicas la que «sale», el resultado casi seguro parece significativo aunque no haya nada.
+💡 **Cómo se explica en la clase [B14-C23](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md):**
+- El protocolo se serializa con claves ordenadas y se calcula su huella (`7d33aedcb3fb001f…`).
+- Si el análisis ejecutado coincide con el protocolo, la huella coincide y no hay desviaciones.
+- 🎯 **Por qué importa:** Tienes una curva de luz y muchas formas de analizarla: otro filtro, otra ventana, otro modelo, otra prueba. Si pruebas veinte y comunicas la que «sale», el resultado casi seguro parece significativo aunque no haya nada.
 
 📘 **Dónde se aprende** (1 clase): [B14-C23 · Protocolo preregistrado de análisis](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md).
 
@@ -1208,7 +1306,11 @@
 - Un huérfano es un caso sin requisito válido.
 - Un resultado huérfano no tiene actividad o no tiene ítem.
 
-🎯 **Por qué importa (clase B88-C20):** Un requisito sin caso es una promesa sin evidencia; un caso sin requisito es esfuerzo sin objeto. La decisión central: ¿cada requisito tiene al menos un caso adecuado, y cada caso responde a un requisito?
+💡 **Cómo se explica en la clase [B88-C20](../programa/clases/B88/B88-C20-plan-de-verificacion-de-computador-de-vuelo/CLASE.md):**
+- *Descripción textual:* requisitos y casos se cruzan en la matriz, de la que salen la cobertura, los requisitos sin caso, los huérfanos y la coherencia de métodos.
+- Sin verificación quedan `R12` (sin memoria dinámica) y `R16` (documento de interfaz); los casos `V11` (apunta a un requisito inexistente `R99`) y `V12` (sin requisito) son huérfanos.
+- ⚠️ **Error frecuente:** Dejar huérfanos. Elimínalos o vincúlalos (8.3)
+- 🎯 **Por qué importa:** Un requisito sin caso es una promesa sin evidencia; un caso sin requisito es esfuerzo sin objeto. La decisión central: ¿cada requisito tiene al menos un caso adecuado, y cada caso responde a un requisito?
 
 📘 **Dónde se aprende** (2 clases): [B88-C20 · Plan de verificación de computador de vuelo](../programa/clases/B88/B88-C20-plan-de-verificacion-de-computador-de-vuelo/CLASE.md); [B131-C02 · Resultados de aprendizaje observables en astronomía](../programa/clases/B131/B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md).
 
@@ -1217,6 +1319,8 @@
 - La Hugoniot relaciona la velocidad del choque con la de partícula.
 
 💡 **Cómo se explica en la clase [B61-C05](../programa/clases/B61/B61-C05-fusion-por-impacto-y-metamorfismo-de-choque/CLASE.md):**
+- Usar la Hugoniot lineal `Us = C + s up` y la presión `P = ρ₀ (C + s up) up`.
+- Datos: Hugoniot, proyectil y atenuación ilustrativos; umbrales de resúmenes de terceros.
 - ⚠️ **Error frecuente:** Presentar la Hugoniot ilustrativa como medida. Se corrige con la sección 9.
 - 🎯 **Por qué importa:** Las rocas con rasgos de choque son la evidencia de un impacto. La decisión central: ¿qué presión produce cada efecto y cuánta roca se funde?
 
@@ -1238,6 +1342,7 @@
 - Presión de saturación `e_s(T)`: presión de vapor del aire saturado. Humedad relativa: `p_v/e_s`.
 
 💡 **Cómo se explica en la clase [B106-C07](../programa/clases/B106/B106-C07-gestion-de-humedad/CLASE.md):**
+- Estimar cuánto tarda la humedad relativa en subir sin retirar vapor.
 - ⚠️ **Error frecuente:** Confundir humedad relativa con humedad absoluta. Usa `w` o `p_v` (8.1).
 - 🎯 **Por qué importa:** Sin convección y con 4 personas, el vapor se acumula, sube la humedad relativa y se condensa en superficies frías. La decisión central: ¿cuánto vapor hay que retirar y con qué superficie fría, sin condensar sobre las paredes?
 
@@ -1269,6 +1374,9 @@
 
 - Un astrónomo apunta un espectrógrafo a una galaxia y registra que una línea característica del hidrógeno, llamada Hα, aparece en 662,9 nm.
 
-🎯 **Por qué importa (clase B01-C01):** Seguramente has leído que «el universo tiene 13 800 millones de años» o que «el universo observable mide 93 000 millones de años luz». Son frases que se repiten con total seguridad.
+💡 **Cómo se explica en la clase [B01-C01](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md):**
+- Para el hidrógeno, una de esas «huellas» es la línea Hα, que en un laboratorio aparece en 656,3 nm.
+- Fíjate cómo se encadenan las tres capas: Hα en 662,9 nm (observación) → `z` y `v` (inferencia) → `d` con `H₀` (modelo).
+- 🎯 **Por qué importa:** Seguramente has leído que «el universo tiene 13 800 millones de años» o que «el universo observable mide 93 000 millones de años luz». Son frases que se repiten con total seguridad.
 
 📘 **Dónde se aprende** (1 clase): [B01-C01 · Naturaleza del universo](../programa/clases/B01/B01-C01-naturaleza-del-universo/CLASE.md).

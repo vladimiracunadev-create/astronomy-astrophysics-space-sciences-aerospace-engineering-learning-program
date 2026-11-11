@@ -19,7 +19,9 @@
 - Un objetivo es un resultado deseado con utilidad `u`, energía `e`, duración `d` y ventana `[a, b]`.
 
 💡 **Cómo se explica en la clase [B02-C09](../programa/clases/B02/B02-C09-alineaciones-arqueologicas-y-sesgos/CLASE.md):**
-- Cada estructura es un boleto con una probabilidad `p` de «acertar» un objetivo.
+- Si el azimut es uniforme en `[0°, 360°)` y hay `K` objetivos con ventanas disjuntas de `±tol`, la probabilidad de que una estructura acierte es `p = K·2·tol/360`.
+- A mayor número de objetivos, la existencia de al menos un acierto deja de ser informativa.
+- ⚠️ **Error frecuente:** Ignorar el número de objetivos. Ejercicio 7.
 - 🎯 **Por qué importa:** Con suficientes estructuras, suficientes objetivos celestes y una tolerancia generosa, siempre aparece alguna «alineación». La pregunta motivadora es: ¿cuántas alineaciones esperaríamos si nadie hubiese mirado el cielo?
 
 📘 **Dónde se aprende** (3 clases): [B02-C09 · Alineaciones arqueológicas y sesgos](../programa/clases/B02/B02-C09-alineaciones-arqueologicas-y-sesgos/CLASE.md); [B08-C13 · Uso seguro de binoculares](../programa/clases/B08/B08-C13-uso-seguro-de-binoculares/CLASE.md); [B98-C01 · Planificación por objetivos a bordo](../programa/clases/B98/B98-C01-planificacion-por-objetivos-a-bordo/CLASE.md).
@@ -48,6 +50,7 @@
 - El objetivo mínimo es el menor `JM` entre pares de clases.
 
 💡 **Cómo se explica en la clase [B57-C25](../programa/clases/B57/B57-C25-seleccion-de-bandas-espectrales-segun-el-fenomeno/CLASE.md):**
+- J --> O["objetivo = minimo JM entre pares"]
 - *Descripción textual:* las medias por banda dan una distancia normalizada, de ella la separabilidad JM, y el objetivo mínimo guía la búsqueda exhaustiva o voraz del mejor subconjunto.
 - 🎯 **Por qué importa:** Cada banda cuesta datos, masa y complejidad. La decisión central: ¿con qué menor número de bandas se separan las clases que me interesan y cuál es el par más difícil de distinguir?
 
@@ -58,8 +61,8 @@
 - Los objetivos son el Sol en los solsticios (`δ = ±ε`) y el equinoccio (`δ = 0`), y la Luna en las paradas mayores (`δ = ±(ε + i)`) y menores (`δ = ±(ε − i)`), con `i = 5,145°` la inclinación de la órbita lunar (valor estándar, no consultado).
 
 💡 **Cómo se explica en la clase [B132-C06](../programa/clases/B132/B132-C06-informe-de-un-sitio-arqueoastronomico/CLASE.md):**
+- Cada estructura tiene entre `22,6 %` y `25 %` de probabilidad de caer a menos de `2σ` de *algún* objetivo.
 - *Descripción textual:* la medición se corrige, produce una declinación con incertidumbre, se compara con siete objetivos, se estima la probabilidad de azar, se asigna una categoría de credibilidad y todo se escribe en un informe cuya estructura se verifica.
-- Por gráfico: declinaciones frente a objetivos.
 - 🎯 **Por qué importa:** Ninguna clase enseñaba a escribir el informe. La decisión central: ¿qué debe contener el informe para que sus conclusiones puedan evaluarse, y cuántas coincidencias esperaría uno por azar?
 
 📘 **Dónde se aprende** (1 clase): [B132-C06 · Informe de un sitio arqueoastronómico](../programa/clases/B132/B132-C06-informe-de-un-sitio-arqueoastronomico/CLASE.md).
@@ -68,7 +71,10 @@
 
 - Un objeto cercano a la Tierra (NEO) tiene perihelio `q < 1,3 au` [S3].
 
-🎯 **Por qué importa (clase B58-C01):** La pregunta que organiza el bloque es *¿qué es este objeto y qué tan cerca pasa?* Un mismo punto de luz puede ser un asteroide del cinturón principal sin ningún interés para la defensa planetaria o un objeto cercano a la Tierra.
+💡 **Cómo se explica en la clase [B58-C01](../programa/clases/B58/B58-C01-clasificacion-de-cuerpos-menores/CLASE.md):**
+- Descripción larga: de los doce objetos, 3 son Apollo y 2 no son cercanos a la Tierra.
+- Asignar un objeto a Atira, Aten, Apollo, Amor o «no cercano a la Tierra» con los criterios de la fuente.
+- 🎯 **Por qué importa:** La pregunta que organiza el bloque es *¿qué es este objeto y qué tan cerca pasa?* Un mismo punto de luz puede ser un asteroide del cinturón principal sin ningún interés para la defensa planetaria o un objeto cercano a la Tierra.
 
 📘 **Dónde se aprende** (1 clase): [B58-C01 · Clasificación de cuerpos menores](../programa/clases/B58/B58-C01-clasificacion-de-cuerpos-menores/CLASE.md).
 
@@ -76,7 +82,11 @@
 
 - Un objeto difícil es el que confunde a la mayoría.
 
-🎯 **Por qué importa (clase B129-C07):** Un proyecto ciudadano que produce datos sin validar es una anécdota; con validación es evidencia. La decisión central: ¿cuántos votos por objeto hacen falta, cómo se sabe que el resultado coincide con el de los expertos y qué le falta al plan para ser una ciencia ciudadana bien hecha?
+💡 **Cómo se explica en la clase [B129-C07](../programa/clases/B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md):**
+- Por simulación: Monte Carlo con objetos difíciles.
+- Aquí se simulan 1000 objetos sintéticos con etiqueta experta binaria (prevalencia nominal 0,30), votantes que aciertan con probabilidad `p = 0,80` y un 10 % de objetos difíciles que engañan a todos.
+- ⚠️ **Error frecuente:** Pedir más votos a objetos difíciles. Hay un techo (8.3)
+- 🎯 **Por qué importa:** Un proyecto ciudadano que produce datos sin validar es una anécdota; con validación es evidencia. La decisión central: ¿cuántos votos por objeto hacen falta, cómo se sabe que el resultado coincide con el de los expertos y qué le falta al plan para ser una ciencia ciudadana bien hecha?
 
 📘 **Dónde se aprende** (1 clase): [B129-C07 · Proyecto de ciencia ciudadana validable](../programa/clases/B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md).
 
@@ -84,7 +94,11 @@
 
 - Una fuente puntual es la que el instrumento no resuelve (una estrella); un objeto extenso (la Luna, una nebulosa) no cumple las reglas de esta clase.
 
-🎯 **Por qué importa (clase B08-C11):** Un informe dice «cometa de magnitud 6» y otro «galaxia de magnitud 9». Sin entender la escala, no sabrás si los verás a simple vista, con binoculares o solo con telescopio.
+💡 **Cómo se explica en la clase [B08-C11](../programa/clases/B08/B08-C11-magnitudes-aparentes-y-brillo/CLASE.md):**
+- Límite ideal: `5,5 + 4,27 = 9,77 > 9`: posible en teoría, pero con margen de solo 0,77 mag; objeto extenso (galaxia) sería más difícil que una estrella.
+- Porque son objetos extensos: más apertura no los hace más brillantes por unidad de área de la imagen; la ganancia de 5 log₁₀(D/d) solo vale para fuentes puntuales.
+- ⚠️ **Error frecuente:** Aplicar la fórmula a objetos extensos. Ejercicio 11.
+- 🎯 **Por qué importa:** Un informe dice «cometa de magnitud 6» y otro «galaxia de magnitud 9». Sin entender la escala, no sabrás si los verás a simple vista, con binoculares o solo con telescopio.
 
 📘 **Dónde se aprende** (1 clase): [B08-C11 · Magnitudes aparentes y brillo](../programa/clases/B08/B08-C11-magnitudes-aparentes-y-brillo/CLASE.md).
 
@@ -104,7 +118,10 @@
 
 - Un objeto seguido es el que está en un catálogo.
 
-🎯 **Por qué importa (clase B118-C01):** Los catálogos solo contienen los objetos que los sensores pueden seguir; el resto se conoce por modelos y por mediciones in situ. Esta clase fija el vocabulario cuantitativo (conteos acumulados, pendiente, densidad) que usan todas las demás.
+💡 **Cómo se explica en la clase [B118-C01](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md):**
+- Distinguir objetos seguidos, cargas útiles activas y desechos por clase de tamaño.
+- Ejercicio 4 · autónomo. Fracción de cargas útiles activas entre los objetos seguidos.
+- 🎯 **Por qué importa:** Los catálogos solo contienen los objetos que los sensores pueden seguir; el resto se conoce por modelos y por mediciones in situ. Esta clase fija el vocabulario cuantitativo (conteos acumulados, pendiente, densidad) que usan todas las demás.
 
 📘 **Dónde se aprende** (1 clase): [B118-C01 · Población de objetos orbitales](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md).
 
@@ -126,6 +143,7 @@
 
 💡 **Cómo se explica en la clase [B01-C11](../programa/clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md):**
 - La ficha de la Tierra de NASA indica una oblicuidad (inclinación del eje respecto del plano de la órbita) de 23,44°, una rotación sidérea de 23,9345 h, un día de 24,0000 h y un año trópico de 365,242 días (S1).
+- Explicar las estaciones por la inclinación del eje (oblicuidad) y no por la distancia al Sol.
 - 🎯 **Por qué importa:** Antes de cualquier telescopio, la humanidad dedujo mucho del cielo a simple vista. Que el Sol «salga» y «se ponga» es una observación; que la Tierra gire es una interpretación (C05) que explica además el movimiento de todas las estrellas.
 
 📘 **Dónde se aprende** (2 clases): [B01-C11 · Movimiento aparente del Sol y las estrellas](../programa/clases/B01/B01-C11-movimiento-aparente-del-sol-y-las-estrellas/CLASE.md); [B131-C03 · Conocimientos previos y concepciones alternativas](../programa/clases/B131/B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md).
@@ -144,7 +162,7 @@
 
 💡 **Cómo se explica en la clase [B79-C07](../programa/clases/B79/B79-C07-ondas-de-choque-normales-y-oblicuas/CLASE.md):**
 - El choque oblicuo se reduce a uno normal con `M_n1 = M₁ sin β`; la componente tangencial se conserva.
-- Las ecuaciones del oblicuo no se leyeron en la fuente de NASA (solo su descripción): se aplican las estándar y se verifican con el balance tangencial.
+- Comprimir con varios choques oblicuos débiles pierde mucha menos presión total que con uno normal fuerte, razón por la que las tomas supersónicas los usan.
 - ⚠️ **Error frecuente:** Usar el `M₁` y no el `M_n1` en el oblicuo. Se corrige con 8.3.
 - 🎯 **Por qué importa:** B30-C14 trata choques astrofísicos, no gasdinámicos. Para tomas de aire, toberas y reentrada hace falta saber cuánto sube la presión y cuánta energía útil se pierde.
 
@@ -164,7 +182,10 @@
 
 - Una obligación directa se impone en el texto al actor.
 
-🎯 **Por qué importa (clase B119-C33):** B119 presenta los instrumentos uno por uno; distinguir qué obligaciones recaen en Estados y en operadores exige compararlos sistemáticamente. Esta clase integra las clases C01 a C11 y es la evidencia de portafolio del bloque.
+💡 **Cómo se explica en la clase [B119-C33](../programa/clases/B119/B119-C33-matriz-comparativa-de-obligaciones-juridicas-por-actor/CLASE.md):**
+- El Estado de lanzamiento tiene `7` obligaciones directas y el Estado de registro `7`.
+- El operador privado no tiene obligaciones directas: el tratado lo alcanza mediante la autorización y supervisión del Estado (art.
+- 🎯 **Por qué importa:** B119 presenta los instrumentos uno por uno; distinguir qué obligaciones recaen en Estados y en operadores exige compararlos sistemáticamente. Esta clase integra las clases C01 a C11 y es la evidencia de portafolio del bloque.
 
 📘 **Dónde se aprende** (1 clase): [B119-C33 · Matriz comparativa de obligaciones jurídicas por actor](../programa/clases/B119/B119-C33-matriz-comparativa-de-obligaciones-juridicas-por-actor/CLASE.md).
 
@@ -211,7 +232,10 @@
 
 - La observación sintética es la imagen simulada con los efectos del instrumento.
 
-🎯 **Por qué importa (clase B38-C08):** La imagen que se compara con el telescopio no es la simulación, sino la simulación vista a través de un instrumento. La decisión central: ¿cuánto cambian la PSF, la inclinación y el ruido lo que mides?
+💡 **Cómo se explica en la clase [B38-C08](../programa/clases/B38/B38-C08-observaciones-sinteticas-de-galaxias-simuladas/CLASE.md):**
+- Nombrar los límites de una observación sintética sin polvo.
+- La evidencia es la ficha de la observación sintética del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** La imagen que se compara con el telescopio no es la simulación, sino la simulación vista a través de un instrumento. La decisión central: ¿cuánto cambian la PSF, la inclinación y el ruido lo que mides?
 
 📘 **Dónde se aprende** (1 clase): [B38-C08 · Observaciones sintéticas de galaxias simuladas](../programa/clases/B38/B38-C08-observaciones-sinteticas-de-galaxias-simuladas/CLASE.md).
 
@@ -219,7 +243,9 @@
 
 - La observación sistemática es aquella con instrumentos calibrados, series largas y registro del error.
 
-🎯 **Por qué importa (clase B02-C12):** Una teoría solo es tan buena como los datos con que se contrasta. La pregunta motivadora es: ¿qué diferencia hay entre «mirar el cielo» y «observar sistemáticamente», y por qué esa diferencia cambió la astronomía?
+💡 **Cómo se explica en la clase [B02-C12](../programa/clases/B02/B02-C12-tycho-brahe-y-observaciones-sistematicas/CLASE.md):**
+- Describir qué hizo sistemática la observación de Tycho.
+- 🎯 **Por qué importa:** Una teoría solo es tan buena como los datos con que se contrasta. La pregunta motivadora es: ¿qué diferencia hay entre «mirar el cielo» y «observar sistemáticamente», y por qué esa diferencia cambió la astronomía?
 
 📘 **Dónde se aprende** (1 clase): [B02-C12 · Tycho Brahe y observaciones sistemáticas](../programa/clases/B02/B02-C12-tycho-brahe-y-observaciones-sistematicas/CLASE.md).
 
@@ -228,8 +254,8 @@
 - La longitud de onda de reposo `λ_reposo` es la medida en el laboratorio, con la fuente en reposo; la observada, `λ_obs`, es la que llega.
 
 💡 **Cómo se explica en la clase [B06-C17](../programa/clases/B06/B06-C17-espectros-atomicos-y-moleculares/CLASE.md):**
+- Con las cuatro líneas de Balmer de reposo (S1) y cuatro longitudes observadas sintéticas (414,306; 438,450; 491,003; 662,939 nm), se prueba una rejilla de valores de `z` y se elige el que minimiza la suma de discrepancias.
 - Si comparas una longitud de onda de reposo en el vacío (656,470 nm para H-alfa) con una observada en aire, el corrimiento aparente se desplaza en `(656,470 − 656,281)/656,281 = 2,9 × 10⁻⁴`, es decir, unos 86 km/s: un error pequeño, pero sistemático y evitable.
-- M --> R["Residuos: observada − predicha"]
 - 🎯 **Por qué importa:** En B01-C01 estimaste la velocidad de una galaxia con una sola línea, H-alfa en 662,9 nm. Pero ¿cómo se sabe que esa línea es H-alfa y no otra?
 
 📘 **Dónde se aprende** (1 clase): [B06-C17 · Espectros atómicos y moleculares](../programa/clases/B06/B06-C17-espectros-atomicos-y-moleculares/CLASE.md).
@@ -238,7 +264,11 @@
 
 - Un dato sintético es el generado por una simulación; observado, el medido;
 
-🎯 **Por qué importa (clase B01-C20):** Entender el método no es lo mismo que aplicarlo. Cuando mides de verdad, aparecen problemas que los ejercicios no tienen: el cielo se nubla, el palo no está del todo vertical, la regla se mueve, los datos no coinciden con lo que predijiste.
+💡 **Cómo se explica en la clase [B01-C20](../programa/clases/B01/B01-C20-proyecto-de-observacion-cientifica-inicial/CLASE.md):**
+- De la bitácora salen los datos observados; lo que calcules a partir de ellos es estimado.
+- Escribir una conclusión acotada que distinga observado, inferido y modelo.
+- ⚠️ **Error frecuente:** Mezclar datos sintéticos con observados. Se corrige con la sección 10.
+- 🎯 **Por qué importa:** Entender el método no es lo mismo que aplicarlo. Cuando mides de verdad, aparecen problemas que los ejercicios no tienen: el cielo se nubla, el palo no está del todo vertical, la regla se mueve, los datos no coinciden con lo que predijiste.
 
 📘 **Dónde se aprende** (1 clase): [B01-C20 · Proyecto de observación científica inicial](../programa/clases/B01/B01-C20-proyecto-de-observacion-cientifica-inicial/CLASE.md).
 
@@ -248,7 +278,8 @@
 
 💡 **Cómo se explica en la clase [B104-C07](../programa/clases/B104/B104-C07-factores-de-liderazgo/CLASE.md):**
 - Un observador corrige con `x = 0,6 · P(habla) · P(acepta)`.
-- O["3 observadores<br/>P(ve) = 0,6"] --> X["P(observador corrige)"]
+- Con tres observadores independientes y el líder, `P = 1 − (1 − 0,5)(1 − x)³`.
+- ⚠️ **Error frecuente:** Creer que más observadores bastan. Revisa el gradiente (8.4).
 - 🎯 **Por qué importa:** Los procedimientos fallan no solo por lo que se desconoce sino por lo que nadie se atreve a decir. La decisión central: ¿cuántos errores del líder pasan sin corregirse cuando el gradiente de autoridad sube, y cuánto ayuda añadir observadores?
 
 📘 **Dónde se aprende** (1 clase): [B104-C07 · Factores de liderazgo](../programa/clases/B104/B104-C07-factores-de-liderazgo/CLASE.md).
@@ -257,7 +288,10 @@
 
 - Un observador de estados es un sistema dinámico que recibe la entrada y la salida de la planta y produce una estimación `x̂`: `x̂̇ = A x̂ + B u + L (y − C x̂)`.
 
-🎯 **Por qué importa (clase B16-C14):** Los sensores miden poco y mal: un rastreador de estrellas da la orientación, pero a baja frecuencia y con ruido; un giróscopo da la velocidad con un sesgo que deriva. El controlador necesita el estado completo (C15) y limpio.
+💡 **Cómo se explica en la clase [B16-C14](../programa/clases/B16/B16-C14-observadores-de-estados/CLASE.md):**
+- Ejercicio 8. Verifica el principio de separación: ¿cuántos autovalores tiene el lazo completo con 2 estados de planta y 2 del observador?
+- Con un observador de ángulo y velocidad (ejercicio 5): `ω̂` sale del estado estimado, filtrada por el modelo.
+- 🎯 **Por qué importa:** Los sensores miden poco y mal: un rastreador de estrellas da la orientación, pero a baja frecuencia y con ruido; un giróscopo da la velocidad con un sesgo que deriva. El controlador necesita el estado completo (C15) y limpio.
 
 📘 **Dónde se aprende** (1 clase): [B16-C14 · Observadores de estados](../programa/clases/B16/B16-C14-observadores-de-estados/CLASE.md).
 
@@ -266,8 +300,8 @@
 - Un observatorio es el conjunto de instrumentos y personal.
 
 💡 **Cómo se explica en la clase [B02-C04](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md):**
+- El portal oficial de turismo de India describe Jantar Mantar de Jaipur como un conjunto construido entre 1728 y 1734 por el maharajá Sawai Jai Singh II, quien estableció cinco observatorios en la India, y señala que el de Jaipur es el más grande y sofisticado.
 - C., procedentes sobre todo de historias dinásticas con registros del observatorio real (S7).
-- S6 no trata ni el observatorio de Gaocheng ni la influencia islámica, de modo que no afirmamos nada al respecto.
 - 🎯 **Por qué importa:** Contar la historia de la astronomía como una línea recta de Grecia a Europa deja fuera lo que otras sociedades observaron, calcularon y construyeron. La pregunta motivadora es: ¿qué sabemos con precisión de estas tradiciones, qué falta y cómo evitar contar la historia desde un solo lado?
 
 📘 **Dónde se aprende** (1 clase): [B02-C04 · Astronomía de India, China y mundo islámico](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md).
@@ -277,6 +311,7 @@
 - Un observatorio internacional es operado por varios países o instituciones.
 
 💡 **Cómo se explica en la clase [B02-C18](../programa/clases/B02/B02-C18-expansion-de-la-astronomia-en-chile/CLASE.md):**
+- *Descripción textual:* tres etapas encadenadas: una expedición que da origen a un observatorio nacional (1849–1853), la búsqueda de sitios y llegada de observatorios internacionales (1958–1974) y la expansión posterior con Paranal, Las Campanas y ALMA; todas conducen a preguntas actuales sobre territorio, comunidades y cielos oscuros.
 - Un observatorio internacional (ESO, CTIO, ALMA) concentra recursos y sitios, con acuerdos con Chile.
 - 🎯 **Por qué importa:** Chile alberga observatorios de primer nivel porque combina cielos oscuros, aire seco y altitud. Pero un observatorio también es una historia de decisiones, instituciones y territorios.
 
@@ -288,7 +323,7 @@
 
 💡 **Cómo se explica en la clase [B02-C18](../programa/clases/B02/B02-C18-expansion-de-la-astronomia-en-chile/CLASE.md):**
 - S2 añade que el observatorio nacional se trasladó dos veces a mejores sitios, y la primera por un problema: el calor del basalto expuesto inclinaba el cerro durante el día y desalineaba el instrumento principal.
-- *Descripción textual:* tres etapas encadenadas: una expedición que da origen a un observatorio nacional (1849–1853), la búsqueda de sitios y llegada de observatorios internacionales (1958–1974) y la expansión posterior con Paranal, Las Campanas y ALMA; todas conducen a preguntas actuales sobre territorio, comunidades y cielos oscuros.
+- Tampoco tratamos en esta clase la astronomía de las universidades chilenas ni los observatorios nacionales actuales, por falta de fuentes consultadas.
 - 🎯 **Por qué importa:** Chile alberga observatorios de primer nivel porque combina cielos oscuros, aire seco y altitud. Pero un observatorio también es una historia de decisiones, instituciones y territorios.
 
 📘 **Dónde se aprende** (1 clase): [B02-C18 · Expansión de la astronomía en Chile](../programa/clases/B02/B02-C18-expansion-de-la-astronomia-en-chile/CLASE.md).
@@ -298,8 +333,8 @@
 - La antigüedad es `ahora − instante efectivo`. Obsoleto es un dato cuya antigüedad supera su límite.
 
 💡 **Cómo se explica en la clase [B116-C07](../programa/clases/B116/B116-C07-diseno-de-paneles-de-monitoreo-de-salud/CLASE.md):**
+- Con las antigüedades del laboratorio (2, 8, 24 y 50 min) hay 4 de 12 indicadores obsoletos.
 - Un valor obsoleto se muestra atenuado y con la etiqueta «obsoleto» y su edad;
-- No hay casos de categoría alta con dato obsoleto.
 - 🎯 **Por qué importa:** Un panel que muestra «FC 72» sin decir de cuándo es, o que usa un gris que no se lee, puede ser peor que no tener panel. La decisión central: ¿qué debe mostrar un panel de salud para que quien lo mira sepa qué está pasando, cuán fresco es el dato y a quién atender primero?
 
 📘 **Dónde se aprende** (1 clase): [B116-C07 · Diseño de paneles de monitoreo de salud](../programa/clases/B116/B116-C07-diseno-de-paneles-de-monitoreo-de-salud/CLASE.md).
@@ -321,6 +356,7 @@
 
 💡 **Cómo se explica en la clase [B41-C09](../programa/clases/B41/B41-C09-pupilas-y-diafragmas-opticos/CLASE.md):**
 - La obstrucción central reduce poco la luz (9 %) pero cambia el contraste (clase 12); el viñeteo, en cambio, oscurece el borde del campo.
+- Calcular la pérdida por obstrucción central.
 - 🎯 **Por qué importa:** La pupila limita la luz y el viñeteo oscurece los bordes. La decisión central: ¿qué diafragma manda y cuánta luz se pierde fuera del eje?
 
 📘 **Dónde se aprende** (2 clases): [B41-C09 · Pupilas y diafragmas ópticos](../programa/clases/B41/B41-C09-pupilas-y-diafragmas-opticos/CLASE.md); [B41-C12 · Difracción y límite de Rayleigh](../programa/clases/B41/B41-C12-difraccion-y-limite-de-rayleigh/CLASE.md).
@@ -352,7 +388,9 @@
 
 - Un océano subsuperficial es agua líquida bajo una capa de hielo.
 
-🎯 **Por qué importa (clase B56-C09):** Un océano global bajo el hielo es un candidato a hábitat, protegido de la radiación y del vacío. Saber cuán profundo es y qué presión soporta fija qué sondas podrían llegar y qué ambientes existen.
+💡 **Cómo se explica en la clase [B56-C09](../programa/clases/B56/B56-C09-oceanos-de-europa/CLASE.md):**
+- Definir océano subsuperficial, cascarón esférico y presión hidrostática.
+- 🎯 **Por qué importa:** Un océano global bajo el hielo es un candidato a hábitat, protegido de la radiación y del vacío. Saber cuán profundo es y qué presión soporta fija qué sondas podrían llegar y qué ambientes existen.
 
 📘 **Dónde se aprende** (1 clase): [B56-C09 · Océanos de Europa](../programa/clases/B56/B56-C09-oceanos-de-europa/CLASE.md).
 
@@ -362,6 +400,7 @@
 
 💡 **Cómo se explica en la clase [B47-C20](../programa/clases/B47/B47-C20-caso-comparativo-de-observatorios-espaciales/CLASE.md):**
 - Una órbita a 600 km (la de un resumen consultado) tiene período `96,686 min` y oclusión máxima `0,3670`, es decir, una eficiencia máxima de `63,3 %`.
+- Calcular la oclusión de una órbita de 600 km.
 - 🎯 **Por qué importa:** Un ranking depende de los pesos elegidos. La decisión central: ¿qué conclusión sobrevive cuando los pesos cambian?
 
 📘 **Dónde se aprende** (2 clases): [B47-C20 · Caso comparativo de observatorios espaciales](../programa/clases/B47/B47-C20-caso-comparativo-de-observatorios-espaciales/CLASE.md); [B101-C09 · Coordinación visual y cámaras en operaciones con manipulador](../programa/clases/B101/B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md).
@@ -411,6 +450,7 @@
 
 💡 **Cómo se explica en la clase [B48-C16](../programa/clases/B48/B48-C16-procesamiento-de-datos-en-linea/CLASE.md):**
 - *Descripción textual:* la ocupación determina la espera de la cola: pequeña con carga baja, divergente cerca de uno; la recursión de Lindley la verifica.
+- Calcular la ocupación `ρ` de la reducción.
 - 🎯 **Por qué importa:** Si la reducción no sigue el ritmo, se acumulan cuadros y el resultado llega tarde. La decisión central: ¿hasta qué ocupación del procesador es tolerable la espera?
 
 📘 **Dónde se aprende** (2 clases): [B48-C16 · Procesamiento de datos en línea](../programa/clases/B48/B48-C16-procesamiento-de-datos-en-linea/CLASE.md); [B88-C08 · Telemetría interna](../programa/clases/B88/B88-C08-telemetria-interna/CLASE.md).
@@ -421,6 +461,7 @@
 
 💡 **Cómo se explica en la clase [B56-C15](../programa/clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md):**
 - La actualización secuencial y la conjunta coinciden, y los odds posteriores son los previos por `(s/f)²`.
+- Ejercicio 1 · con los pasos indicados. Calcula los odds de `p = 0,2`.
 - 🎯 **Por qué importa:** Una detección no es una prueba. Si la señal puede producirse por procesos sin vida, su significado depende de cuán frecuentes son.
 
 📘 **Dónde se aprende** (1 clase): [B56-C15 · Falsos positivos de biofirmas](../programa/clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md).
@@ -429,7 +470,10 @@
 
 - Las odds posteriores son `BF₁₀` por las odds a priori.
 
-🎯 **Por qué importa (clase B19-C07):** Miras 10 mediciones de la amplitud de una señal y el promedio es 0,57 con ruido conocido 1. ¿Hay señal (`μ ≠ 0`) o solo ruido (`μ = 0`)?
+💡 **Cómo se explica en la clase [B19-C07](../programa/clases/B19/B19-C07-comparacion-de-modelos-bayesianos/CLASE.md):**
+- Ejercicio 2 · con una pista. Con odds a priori 1 (igual confianza en ambos modelos), calcula la probabilidad posterior de M₁ si `BF₁₀ = 1,32`.
+- Odds a priori `0,25`; posteriores `0,25 · 1,32 = 0,33`;
+- 🎯 **Por qué importa:** Miras 10 mediciones de la amplitud de una señal y el promedio es 0,57 con ruido conocido 1. ¿Hay señal (`μ ≠ 0`) o solo ruido (`μ = 0`)?
 
 📘 **Dónde se aprende** (1 clase): [B19-C07 · Comparación de modelos bayesianos](../programa/clases/B19/B19-C07-comparacion-de-modelos-bayesianos/CLASE.md).
 
@@ -437,7 +481,10 @@
 
 - La odometría inercial integra solo la IMU y su error crece con el tiempo.
 
-🎯 **Por qué importa (clase B80-C09):** B87-C06 trata los giroscopios; falta la integración conjunta de acelerómetros y giroscopios para estimar el movimiento de un robot y su deriva. La decisión central: ¿cómo se reutiliza una integración inercial cuando cambian el estado inicial y los sesgos estimados?
+💡 **Cómo se explica en la clase [B80-C09](../programa/clases/B80/B80-C09-odometria-inercial-y-preintegracion-de-imu/CLASE.md):**
+- Estimar la deriva de una odometría inercial pura.
+- python programa/clases/B80/B80-C09-odometria-inercial-y-preintegracion-de-imu/preintegracion.py
+- 🎯 **Por qué importa:** B87-C06 trata los giroscopios; falta la integración conjunta de acelerómetros y giroscopios para estimar el movimiento de un robot y su deriva. La decisión central: ¿cómo se reutiliza una integración inercial cuando cambian el estado inicial y los sesgos estimados?
 
 📘 **Dónde se aprende** (1 clase): [B80-C09 · Odometría inercial y preintegración de IMU](../programa/clases/B80/B80-C09-odometria-inercial-y-preintegracion-de-imu/CLASE.md).
 
@@ -447,6 +494,7 @@
 
 💡 **Cómo se explica en la clase [B99-C01](../programa/clases/B99/B99-C01-odometria-visual/CLASE.md):**
 - Scaramuzza y Fraundorfer (F6) definen la odometría visual (VO) como la estimación del egomovimiento de un agente usando solo las imágenes de una o varias cámaras, por analogía con la odometría de ruedas.
+- Separar lo consultado (qué es la odometría visual y por qué deriva) de lo sintético.
 - 🎯 **Por qué importa:** Una trayectoria se obtiene sumando movimientos pequeños, y cada uno trae un error; esos errores no se corrigen solos. La decisión central: ¿con qué calidad de correspondencias y de medida puedo confiar en la odometría, y cuándo necesito corregirla con cierres de bucle (C04)?
 
 📘 **Dónde se aprende** (1 clase): [B99-C01 · Odometría visual](../programa/clases/B99/B99-C01-odometria-visual/CLASE.md).
@@ -457,6 +505,7 @@
 
 💡 **Cómo se explica en la clase [B08-C10](../programa/clases/B08/B08-C10-planetas-observables-y-elongacion/CLASE.md):**
 - Júpiter, a 107,75° al oeste, subió y alcanzó 35,9° al amanecer;
+- Ejercicio 8. Venus estuvo a 15,3° al oeste del Sol el 5 de noviembre.
 - 🎯 **Por qué importa:** Los planetas parecen «estrellas errantes» y un titular promete «alineación de planetas». La pregunta motivadora: ¿qué planetas puedo ver esta noche, dónde y a qué hora?
 
 📘 **Dónde se aprende** (1 clase): [B08-C10 · Planetas observables y elongación](../programa/clases/B08/B08-C10-planetas-observables-y-elongacion/CLASE.md).
@@ -477,6 +526,7 @@
 
 💡 **Cómo se explica en la clase [B105-C05](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md):**
 - Un ojo reducido con `n = 1,336` y `L = 22,3 mm` tiene 59,91 D y una sensibilidad de 2,687 D por mm.
+- Calcular la potencia del ojo reducido `P = n/L` y su sensibilidad `dD/dL`.
 - 🎯 **Por qué importa:** Una variación de décimas de milímetro puede cambiar la refracción en fracciones de dioptría y comparar eso con el error de medida decide si un cambio es real. La decisión central: ¿cuántos milímetros de acortamiento equivalen a una dioptría y cuántas personas la superarían?
 
 📘 **Dónde se aprende** (1 clase): [B105-C05 · Cambios de visión](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md).
@@ -496,7 +546,10 @@
 
 - Un monómero es la unidad; un oligómero, una cadena corta de monómeros.
 
-🎯 **Por qué importa (clase B56-C21):** C03 trata el origen de autorreplicantes, pero ninguna clase trata la polimerización experimental y sus límites. Antes de que un replicador pueda copiarse, hay que formar cadenas lo bastante largas.
+💡 **Cómo se explica en la clase [B56-C21](../programa/clases/B56/B56-C21-polimerizacion-prebiotica-experimental-oligomeros-y-condiciones-de-laboratorio/CLASE.md):**
+- Definir monómero, oligómero, extensión de reacción y ciclo húmedo–seco.
+- La evidencia es la distribución de oligómeros de un experimento sintético del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** C03 trata el origen de autorreplicantes, pero ninguna clase trata la polimerización experimental y sus límites. Antes de que un replicador pueda copiarse, hay que formar cadenas lo bastante largas.
 
 📘 **Dónde se aprende** (1 clase): [B56-C21 · Polimerización prebiótica experimental: oligómeros y condiciones de laboratorio](../programa/clases/B56/B56-C21-polimerizacion-prebiotica-experimental-oligomeros-y-condiciones-de-laboratorio/CLASE.md).
 
@@ -542,6 +595,7 @@
 
 💡 **Cómo se explica en la clase [B30-C09](../programa/clases/B30/B30-C09-magnetohidrodinamica/CLASE.md):**
 - *Descripción textual:* las ecuaciones de la MHD dan la onda de Alfvén; la simulación y la fórmula WKB dan el tiempo de viaje y se comparan.
+- La evidencia es la ficha de las ondas de Alfvén del ejercicio 12 (sección 20).
 - 🎯 **Por qué importa:** La velocidad de Alfvén fija cuánto tarda una perturbación en recorrer un lazo coronal o una línea de campo del viento solar. La decisión central: ¿con qué velocidad viaja una perturbación magnética y cómo cambia el tiempo de viaje en un medio estratificado?
 
 📘 **Dónde se aprende** (2 clases): [B30-C09 · Magnetohidrodinámica](../programa/clases/B30/B30-C09-magnetohidrodinamica/CLASE.md); [B35-C02 · Ondas de Alfvén y ondas magnetosónicas](../programa/clases/B35/B35-C02-ondas-de-alfven-y-ondas-magnetosonicas/CLASE.md).
@@ -561,7 +615,10 @@
 
 - Un brazo material sería un brazo formado siempre por las mismas estrellas; una onda de densidad es un patrón que atraviesa a las estrellas.
 
-🎯 **Por qué importa (clase B25-C02):** Los brazos espirales son lo más llamativo de una galaxia de disco, pero la rotación diferencial debería enrollarlos hasta borrarlos en unas pocas vueltas. Entender esa paradoja es entender qué es un brazo: no un montón fijo de materia, sino un patrón.
+💡 **Cómo se explica en la clase [B25-C02](../programa/clases/B25/B25-C02-brazos-espirales-y-barra-galactica/CLASE.md):**
+- E -- "no coinciden" --> F["Patrón de ondas de densidad,<br/>no tubos de materia"]
+- No prueba la teoría de ondas de densidad; solo descarta los brazos como tubos fijos.
+- 🎯 **Por qué importa:** Los brazos espirales son lo más llamativo de una galaxia de disco, pero la rotación diferencial debería enrollarlos hasta borrarlos en unas pocas vueltas. Entender esa paradoja es entender qué es un brazo: no un montón fijo de materia, sino un patrón.
 
 📘 **Dónde se aprende** (1 clase): [B25-C02 · Brazos espirales y barra galáctica](../programa/clases/B25/B25-C02-brazos-espirales-y-barra-galactica/CLASE.md).
 
@@ -582,6 +639,7 @@
 
 💡 **Cómo se explica en la clase [B05-C18](../programa/clases/B05/B05-C18-electromagnetismo-y-radiacion/CLASE.md):**
 - Es un resultado notable: dos constantes eléctricas y magnéticas dan la velocidad de la luz, lo que indica que la luz es una onda electromagnética.
+- Explicar que luz, radio y rayos X son ondas electromagnéticas que viajan a `c` en el vacío.
 - 🎯 **Por qué importa:** Un satélite se comunica con ondas de radio, un telescopio observa luz y rayos X, y la misma radiación a otras energías puede dañar electrónica y tejidos. La pregunta motivadora es: ¿qué es la radiación electromagnética, cómo se ordena por frecuencia y energía, cómo decae con la distancia y qué la hace peligrosa?
 
 📘 **Dónde se aprende** (1 clase): [B05-C18 · Electromagnetismo y radiación](../programa/clases/B05/B05-C18-electromagnetismo-y-radiacion/CLASE.md).
@@ -591,7 +649,9 @@
 - Una onda estacionaria es de la forma `sin(kx) cos(ωt)`.
 - Una onda estacionaria surge al superponer dos ondas iguales en sentidos opuestos.
 
-🎯 **Por qué importa (clase B05-C12):** Un sensor de vibración a bordo de una nave registra 30 Hz cuando la estructura vibra a 130 Hz. Un trueno llega segundos después del rayo.
+💡 **Cómo se explica en la clase [B05-C12](../programa/clases/B05/B05-C12-ondas-mecanicas-y-frecuencia/CLASE.md):**
+- Interpretar superposición, ondas estacionarias y batidos.
+- 🎯 **Por qué importa:** Un sensor de vibración a bordo de una nave registra 30 Hz cuando la estructura vibra a 130 Hz. Un trueno llega segundos después del rayo.
 
 📘 **Dónde se aprende** (2 clases): [B05-C12 · Ondas mecánicas y frecuencia](../programa/clases/B05/B05-C12-ondas-mecanicas-y-frecuencia/CLASE.md); [B21-C02 · Ecuación de onda: esquemas y dispersión numérica](../programa/clases/B21/B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md).
 
@@ -601,6 +661,7 @@
 
 💡 **Cómo se explica en la clase [B05-C12](../programa/clases/B05/B05-C12-ondas-mecanicas-y-frecuencia/CLASE.md):**
 - Esto sigue de la definición de onda mecánica y es nuestra explicación, no una cita.
+- El sonido es una onda mecánica que necesita un medio; en el vacío no se propaga.
 - 🎯 **Por qué importa:** Un sensor de vibración a bordo de una nave registra 30 Hz cuando la estructura vibra a 130 Hz. Un trueno llega segundos después del rayo.
 
 📘 **Dónde se aprende** (1 clase): [B05-C12 · Ondas mecánicas y frecuencia](../programa/clases/B05/B05-C12-ondas-mecanicas-y-frecuencia/CLASE.md).
@@ -610,8 +671,8 @@
 - La onda plana: frentes de fase planos.
 
 💡 **Cómo se explica en la clase [B42-C01](../programa/clases/B42/B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md):**
+- *Descripción textual:* las ecuaciones de Maxwell producen la ecuación de onda; su solución plana fija la relación entre `ω` y `k` y el flujo de energía.
 - Límite: la luz real no es una onda plana perfecta ni escalar.
-- Una onda plana de `λ = 550 nm` y `E₀ = 1 V/m` (ilustrativo) tiene `k = 1,142397 × 10⁷ rad/m`, `f = 5,450772 × 10¹⁴ Hz` y un flujo medio de `1,327209 × 10⁻³ W/m²`.
 - 🎯 **Por qué importa:** Sin una descripción ondulatoria no hay fase, y sin fase no hay difracción, interferencia ni óptica adaptativa. La decisión central: ¿qué parte de la luz se puede tratar como una onda escalar con amplitud y fase y qué parte exige el campo vectorial completo?
 
 📘 **Dónde se aprende** (1 clase): [B42-C01 · Ecuaciones de onda electromagnética](../programa/clases/B42/B42-C01-ecuaciones-de-onda-electromagnetica/CLASE.md).
@@ -622,6 +683,7 @@
 
 💡 **Cómo se explica en la clase [B67-C06](../programa/clases/B67/B67-C06-perdida-de-volatiles-por-sublimacion-y-migracion-termica/CLASE.md):**
 - Pasar de `0,1 m` a `0,2 m` reduce la pérdida unas `90` veces: `W` baja a la mitad y la onda térmica se amortigua.
+- Resolver la conducción 1D con Crank–Nicolson y comparar con la onda térmica analítica.
 - 🎯 **Por qué importa:** Una oscilación de temperatura de pocos kelvin cambia la pérdida en órdenes de magnitud, y esa oscilación decae con la profundidad. La decisión central: ¿a qué profundidad el hielo es estable, y cuánto engaña usar la temperatura media?
 
 📘 **Dónde se aprende** (1 clase): [B67-C06 · Pérdida de volátiles por sublimación y migración térmica](../programa/clases/B67/B67-C06-perdida-de-volatiles-por-sublimacion-y-migracion-termica/CLASE.md).
@@ -632,6 +694,7 @@
 
 💡 **Cómo se explica en la clase [B21-C02](../programa/clases/B21/B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md):**
 - Es una onda viajera hacia `x` positivo con velocidad `c`.
+- Escribir la ecuación de onda y su solución de ondas viajeras y estacionarias.
 - 🎯 **Por qué importa:** Casi toda señal que viaja en el espacio —ondas de radio, ondas de Alfvén en la corona solar, ondas sísmicas en una luna, vibraciones de una estructura— obedece alguna forma de la ecuación de onda.
 
 📘 **Dónde se aprende** (1 clase): [B21-C02 · Ecuación de onda: esquemas y dispersión numérica](../programa/clases/B21/B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md).
@@ -680,7 +743,10 @@
 
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B32-C03):** La opacidad fija la profundidad desde la que escapa la luz. La decisión central: ¿cómo se promedia una opacidad que depende de la frecuencia?
+💡 **Cómo se explica en la clase [B32-C03](../programa/clases/B32/B32-C03-opacidad-continua-ligado-libre-libre-libre-y-h/CLASE.md):**
+- La evidencia es la ficha de la opacidad continua del ejercicio 12 (sección 20).
+- Ejercicio 12. Integrador. Elabora tu *ficha de la opacidad continua*: umbral, Kramers y Rosseland.
+- 🎯 **Por qué importa:** La opacidad fija la profundidad desde la que escapa la luz. La decisión central: ¿cómo se promedia una opacidad que depende de la frecuencia?
 
 📘 **Dónde se aprende** (1 clase): [B32-C03 · Opacidad continua: ligado-libre, libre-libre y H-](../programa/clases/B32/B32-C03-opacidad-continua-ligado-libre-libre-libre-y-h/CLASE.md).
 
@@ -699,6 +765,7 @@
 
 💡 **Cómo se explica en la clase [B28-C18](../programa/clases/B28/B28-C18-interpretacion-de-kilonovas/CLASE.md):**
 - Límite: opacidad gris y esfera homogénea.
+- Límites: opacidad gris, esfera homogénea, sin dependencia espectral ni angular.
 - 🎯 **Por qué importa:** La escala de tiempo y el brillo de una kilonova dependen de la masa eyectada y de su velocidad. Entender esa relación permite estimar ambos a partir de la curva de luz.
 
 📘 **Dónde se aprende** (2 clases): [B28-C18 · Interpretación de kilonovas](../programa/clases/B28/B28-C18-interpretacion-de-kilonovas/CLASE.md); [B37-C03 · Opacidad media de Rosseland y tablas de opacidad en interiores](../programa/clases/B37/B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md).
@@ -707,7 +774,10 @@
 
 - La opacidad media de Rosseland `1/κ_R = ∫ (1/κ_ν)(∂B_ν/∂T) dν / ∫ (∂B_ν/∂T) dν`.
 
-🎯 **Por qué importa (clase B37-C03):** Un código no integra en frecuencia en cada capa: lee una tabla de `κ_R(ρ, T)`. La decisión central: ¿cómo se promedia la opacidad y qué error añade la interpolación de la tabla?
+💡 **Cómo se explica en la clase [B37-C03](../programa/clases/B37/B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md):**
+- Ejercicio 2 · con una pista. Media de Rosseland de una opacidad gris de 3,0.
+- python programa/clases/B37/B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/opacidad_rosseland.py
+- 🎯 **Por qué importa:** Un código no integra en frecuencia en cada capa: lee una tabla de `κ_R(ρ, T)`. La decisión central: ¿cómo se promedia la opacidad y qué error añade la interpolación de la tabla?
 
 📘 **Dónde se aprende** (1 clase): [B37-C03 · Opacidad media de Rosseland y tablas de opacidad en interiores](../programa/clases/B37/B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md).
 
@@ -717,7 +787,7 @@
 
 💡 **Cómo se explica en la clase [B128-C02](../programa/clases/B128/B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md):**
 - *Descripción textual:* se etiquetan las actividades, se mide la cobertura, se encuentran los huecos y se agrega una opción, volviendo al plan.
-- Paso 2 · Opción. Reformular el cierre: elegir entre escribir, dibujar o hablar lo que costó, con una meta pequeña para la próxima sesión.
+- Analogía: un menú con varias opciones sirve a más comensales que un plato único.
 - 🎯 **Por qué importa:** Un plan pensado para «el estudiante promedio» deja barreras que luego se parchean una a una. La decisión central: ¿qué pautas cubre ya mi plan, cuáles no, y dónde falta una opción?
 
 📘 **Dónde se aprende** (1 clase): [B128-C02 · Diseño universal de aprendizaje aplicado a la astronomía](../programa/clases/B128/B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md).
@@ -728,6 +798,7 @@
 
 💡 **Cómo se explica en la clase [B43-C21](../programa/clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md):**
 - Una variación de índice `Δn = 2 × 10⁻⁶` en `30 mm` da `OPD = 60 nm`, comparable al presupuesto de un telescopio (C20).
+- Estimar la OPD por falta de homogeneidad `Δn t`.
 - 🎯 **Por qué importa:** Un telescopio refractor o un corrector necesita vidrios que compensen el color. La decisión central: ¿qué par de vidrios, con qué potencias, anula el cromatismo primario de un doblete y qué error aporta la falta de homogeneidad?
 
 📘 **Dónde se aprende** (1 clase): [B43-C21 · Selección de vidrios ópticos: catálogos, homogeneidad y diagramas](../programa/clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md).
@@ -736,7 +807,10 @@
 
 - Una operación combina números: suma, resta, multiplicación, división.
 
-🎯 **Por qué importa (clase B03-C01):** Una agencia espacial no «confía» en un cálculo: lo comprueba. Para saber cuánto tarda la Luna en dar una vuelta alrededor de la Tierra basta multiplicar, dividir y respetar el orden de las operaciones; pero un paréntesis mal puesto convierte 27 días en una cifra absurda.
+💡 **Cómo se explica en la clase [B03-C01](../programa/clases/B03/B03-C01-numeros-y-operaciones-fundamentales/CLASE.md):**
+- Con solo esas dos primeras cifras y operaciones elementales puedes predecir el tercer dato: si el resultado se acerca a 27,3 días, tu aritmética y tu modelo son coherentes.
+- Aplicar la jerarquía de operaciones (paréntesis, potencias, multiplicación y división, suma y resta).
+- 🎯 **Por qué importa:** Una agencia espacial no «confía» en un cálculo: lo comprueba. Para saber cuánto tarda la Luna en dar una vuelta alrededor de la Tierra basta multiplicar, dividir y respetar el orden de las operaciones; pero un paréntesis mal puesto convierte 27 días en una cifra absurda.
 
 📘 **Dónde se aprende** (1 clase): [B03-C01 · Números y operaciones fundamentales](../programa/clases/B03/B03-C01-numeros-y-operaciones-fundamentales/CLASE.md).
 
@@ -762,7 +836,9 @@
 
 - Una operación inversa deshace otra (suma/resta, multiplicación/división, potencia/raíz).
 
-🎯 **Por qué importa (clase B03-C14):** La fórmula de la velocidad de escape, `v = √(2GM/R)`, aparece en las fichas de la NASA como un número (11,186 km/s). Pero un ingeniero puede necesitar lo contrario: dado `v`, ¿cuál es el radio?
+💡 **Cómo se explica en la clase [B03-C14](../programa/clases/B03/B03-C14-despeje-de-ecuaciones-elementales/CLASE.md):**
+- Elegir el orden de las operaciones inversas.
+- 🎯 **Por qué importa:** La fórmula de la velocidad de escape, `v = √(2GM/R)`, aparece en las fichas de la NASA como un número (11,186 km/s). Pero un ingeniero puede necesitar lo contrario: dado `v`, ¿cuál es el radio?
 
 📘 **Dónde se aprende** (1 clase): [B03-C14 · Despeje de ecuaciones elementales](../programa/clases/B03/B03-C14-despeje-de-ecuaciones-elementales/CLASE.md).
 
@@ -772,6 +848,7 @@
 
 💡 **Cómo se explica en la clase [B14-C27](../programa/clases/B14/B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md):**
 - El experimento usa una operación local simple.
+- Para operaciones que no son locales, ninguna de las tres basta sin más.
 - 🎯 **Por qué importa:** Una cobertura global de imágenes ocupa terabytes y ningún equipo la carga entera. Para suavizarla, calcular un índice o detectar cambios hay que procesarla por pedazos.
 
 📘 **Dónde se aprende** (1 clase): [B14-C27 · Procesamiento por teselas de grandes volúmenes de imágenes](../programa/clases/B14/B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md).
@@ -780,7 +857,10 @@
 
 - Un operador es un símbolo que combina valores: `+`, `*`, `>`, `and`.
 
-🎯 **Por qué importa (clase B07-C03):** Casi cualquier resultado científico es una expresión: una masa dividida por un volumen, un cociente de períodos. Si no sabes en qué orden Python evalúa `a / b  3`, escribirás una fórmula distinta de la que piensas y no recibirás ningún aviso: el programa funcionará y dará un número equivocado.
+💡 **Cómo se explica en la clase [B07-C03](../programa/clases/B07/B07-C03-operadores-y-expresiones/CLASE.md):**
+- Escribirla bien exige conocer los operadores.
+- python programa/clases/B07/B07-C03-operadores-y-expresiones/expresiones_kepler.py
+- 🎯 **Por qué importa:** Casi cualquier resultado científico es una expresión: una masa dividida por un volumen, un cociente de períodos. Si no sabes en qué orden Python evalúa `a / b  3`, escribirás una fórmula distinta de la que piensas y no recibirás ningún aviso: el programa funcionará y dará un número equivocado.
 
 📘 **Dónde se aprende** (1 clase): [B07-C03 · Operadores y expresiones](../programa/clases/B07/B07-C03-operadores-y-expresiones/CLASE.md).
 
@@ -807,7 +887,9 @@
 
 - El operador de Kompaneets describe la difusión de fotones en energía.
 
-🎯 **Por qué importa (clase B40-C11):** El tSZ no depende del corrimiento al rojo y permite detectar cúmulos lejanos. La decisión central: ¿cuánto vale la distorsión a cada frecuencia y dónde se anula?
+💡 **Cómo se explica en la clase [B40-C11](../programa/clases/B40/B40-C11-efecto-sunyaev-zeldovich-termico-y-cinematico/CLASE.md):**
+- Verificarla con el operador de Kompaneets.
+- 🎯 **Por qué importa:** El tSZ no depende del corrimiento al rojo y permite detectar cúmulos lejanos. La decisión central: ¿cuánto vale la distorsión a cada frecuencia y dónde se anula?
 
 📘 **Dónde se aprende** (1 clase): [B40-C11 · Efecto Sunyaev-Zeldovich térmico y cinemático](../programa/clases/B40/B40-C11-efecto-sunyaev-zeldovich-termico-y-cinematico/CLASE.md).
 
@@ -817,6 +899,7 @@
 
 💡 **Cómo se explica en la clase [B42-C22](../programa/clases/B42/B42-C22-reconstructores-de-frente-de-onda-zonal-y-modal/CLASE.md):**
 - *Descripción textual:* ambos reconstructores invierten el mismo operador de pendientes; el modal restringe la solución y propaga menos ruido pero trunca.
+- Construir el operador de pendientes de Fried.
 - 🎯 **Por qué importa:** El reconstructor decide qué parte del frente se recupera y cuánto ruido se propaga. La decisión central: ¿zonal o modal, y con cuántos modos?
 
 📘 **Dónde se aprende** (1 clase): [B42-C22 · Reconstructores de frente de onda: zonal y modal](../programa/clases/B42/B42-C22-reconstructores-de-frente-de-onda-zonal-y-modal/CLASE.md).
@@ -825,7 +908,10 @@
 
 - Un operador lineal (o transformación lineal) `T` cumple `T(a u + b v) = a T(u) + b T(v)` para todo par de vectores y escalares.
 
-🎯 **Por qué importa (clase B10-C03):** Una estación terrestre está fija respecto de la Tierra, pero la Tierra gira respecto del espacio inercial. Para saber dónde está la estación en el sistema inercial a cada instante hay que aplicar una transformación que depende del tiempo.
+💡 **Cómo se explica en la clase [B10-C03](../programa/clases/B10/B10-C03-matrices-y-operadores-lineales/CLASE.md):**
+- Ejercicio 4. ¿Es `T(x, y) = (x + 1, y)` un operador lineal?
+- python programa/clases/B10/B10-C03-matrices-y-operadores-lineales/matrices_y_operadores.py
+- 🎯 **Por qué importa:** Una estación terrestre está fija respecto de la Tierra, pero la Tierra gira respecto del espacio inercial. Para saber dónde está la estación en el sistema inercial a cada instante hay que aplicar una transformación que depende del tiempo.
 
 📘 **Dónde se aprende** (1 clase): [B10-C03 · Matrices y operadores lineales](../programa/clases/B10/B10-C03-matrices-y-operadores-lineales/CLASE.md).
 
@@ -834,7 +920,9 @@
 - Un operador lógico (`and`, `or`, `not`) combina valores booleanos.
 - Un operador lógico combina términos: `AND` exige ambos, `OR` admite cualquiera, `ANDNOT` excluye el segundo (S2).
 
-🎯 **Por qué importa (clase B07-C03):** Casi cualquier resultado científico es una expresión: una masa dividida por un volumen, un cociente de períodos. Si no sabes en qué orden Python evalúa `a / b  3`, escribirás una fórmula distinta de la que piensas y no recibirás ningún aviso: el programa funcionará y dará un número equivocado.
+💡 **Cómo se explica en la clase [B20-C01](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md):**
+- Traducir una pregunta de investigación en una consulta con términos, campos y operadores lógicos.
+- 🎯 **Por qué importa:** Cuando alguien afirma «no hay estudios sobre esto» o «es sabido que…», la frase vale tanto como el procedimiento con que se buscó. Dos personas que buscan lo mismo sin anotar cómo lo hicieron obtendrán listas distintas y no podrán explicar por qué.
 
 📘 **Dónde se aprende** (2 clases): [B07-C03 · Operadores y expresiones](../programa/clases/B07/B07-C03-operadores-y-expresiones/CLASE.md); [B20-C01 · Búsqueda bibliográfica sistemática y gestión de referencias](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md).
 
@@ -876,8 +964,8 @@
 - La oposición ocurre cuando un planeta exterior está opuesto al Sol en el cielo.
 
 💡 **Cómo se explica en la clase [B02-C11](../programa/clases/B02/B02-C11-revolucion-copernicana-y-metodos/CLASE.md):**
-- El límite: las órbitas reales son elípticas (C14); el modelo da el promedio, no cada oposición.
-- Incertidumbre. Diferencia con el publicado: 0,01 d, dentro de la precisión de los datos (seis cifras); la oposición real varía por la elipticidad.
+- Desde la Tierra se observa `S`: cuánto pasa entre dos oposiciones.
+- Si lo que se mide es `S` (observable a simple vista, contando entre oposiciones) y se conoce `T_Tierra`, se puede despejar `T_Marte = 1/(1/T_Tierra − 1/S)`.
 - 🎯 **Por qué importa:** La «revolución copernicana» suele resumirse como «el Sol en el centro». Pero lo que cambió la ciencia fue que el modelo permitió calcular cosas nuevas: convertir lo observado en lo real.
 
 📘 **Dónde se aprende** (3 clases): [B02-C11 · Revolución copernicana y métodos](../programa/clases/B02/B02-C11-revolucion-copernicana-y-metodos/CLASE.md); [B04-C08 · Ley de senos y ley de cosenos](../programa/clases/B04/B04-C08-ley-de-senos-y-ley-de-cosenos/CLASE.md); [B08-C10 · Planetas observables y elongación](../programa/clases/B08/B08-C10-planetas-observables-y-elongacion/CLASE.md).
@@ -939,7 +1027,9 @@
 
 - El óptimo del radiador es la `T_c` que minimiza el área para una potencia eléctrica dada.
 
-🎯 **Por qué importa (clase B86-C17):** En el espacio el único sumidero de calor es la radiación, y el calor rechazado de un ciclo térmico es grande. La temperatura del radiador y la del ciclo determinan la eficiencia y el área, y el área determina la masa.
+💡 **Cómo se explica en la clase [B86-C17](../programa/clases/B86/B86-C17-energia-nuclear-espacial-conceptual/CLASE.md):**
+- El script [fision_conceptual.py](fision_conceptual.py) calcula la eficiencia, el calor rechazado, el área y la masa del radiador y busca la temperatura de rechazo de área mínima (comprueba sección áurea frente a barrido < `0,5 K` y, con `f = 1`, el óptimo `3/4` con diferencia < 1e-6).
+- 🎯 **Por qué importa:** En el espacio el único sumidero de calor es la radiación, y el calor rechazado de un ciclo térmico es grande. La temperatura del radiador y la del ciclo determinan la eficiencia y el área, y el área determina la masa.
 
 📘 **Dónde se aprende** (1 clase): [B86-C17 · Energía nuclear espacial conceptual](../programa/clases/B86/B86-C17-energia-nuclear-espacial-conceptual/CLASE.md).
 
@@ -958,6 +1048,7 @@
 
 💡 **Cómo se explica en la clase [B03-C09](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md):**
 - Restar es sumar el opuesto: `5 − (−3) = 5 + 3 = 8`.
+- No se obtiene sumando absolutos en general (sí cuando están a lados opuestos del cero).
 - 🎯 **Por qué importa:** Cuando observas una llamarada solar a las 12:00:00, el evento ocurrió antes: su tiempo es el observado menos 499 s. Si sumas en vez de restar, afirmas que la llamarada ocurre en el futuro.
 
 📘 **Dónde se aprende** (2 clases): [B03-C09 · Operaciones con números negativos](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md); [B10-C01 · Espacios vectoriales](../programa/clases/B10/B10-C01-espacios-vectoriales/CLASE.md).
@@ -1009,7 +1100,9 @@
 
 - Una órbita circular coplanar es la simplificación de Copérnico: círculos en un mismo plano (S1 señala que conservó los círculos).
 
-🎯 **Por qué importa (clase B02-C11):** La «revolución copernicana» suele resumirse como «el Sol en el centro». Pero lo que cambió la ciencia fue que el modelo permitió calcular cosas nuevas: convertir lo observado en lo real.
+💡 **Cómo se explica en la clase [B02-C11](../programa/clases/B02/B02-C11-revolucion-copernicana-y-metodos/CLASE.md):**
+- Límites: órbitas circulares y coplanares; no predice fechas de oposición.
+- 🎯 **Por qué importa:** La «revolución copernicana» suele resumirse como «el Sol en el centro». Pero lo que cambió la ciencia fue que el modelo permitió calcular cosas nuevas: convertir lo observado en lo real.
 
 📘 **Dónde se aprende** (1 clase): [B02-C11 · Revolución copernicana y métodos](../programa/clases/B02/B02-C11-revolucion-copernicana-y-metodos/CLASE.md).
 
@@ -1025,7 +1118,10 @@
 
 - La órbita congelada tiene `ė ≈ 0` y `ω̇ ≈ 0` en promedio.
 
-🎯 **Por qué importa (clase B72-C14):** Un altímetro o un radar que observa la misma traza necesita pasar por cada latitud a la misma altitud; si el perigeo girara, la altitud sobre un punto cambiaría decenas de kilómetros. La decisión central: ¿qué excentricidad y argumento del perigeo congelan la órbita para una inclinación y altitud dadas?
+💡 **Cómo se explica en la clase [B72-C14](../programa/clases/B72/B72-C14-orbitas-congeladas/CLASE.md):**
+- Esa es la lógica de las órbitas congeladas de observación de la Tierra: elegir `e` y `ω` que anulan el giro.
+- La evidencia es la ficha de órbita congelada del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** Un altímetro o un radar que observa la misma traza necesita pasar por cada latitud a la misma altitud; si el perigeo girara, la altitud sobre un punto cambiaría decenas de kilómetros. La decisión central: ¿qué excentricidad y argumento del perigeo congelan la órbita para una inclinación y altitud dadas?
 
 📘 **Dónde se aprende** (1 clase): [B72-C14 · Órbitas congeladas](../programa/clases/B72/B72-C14-orbitas-congeladas/CLASE.md).
 
@@ -1033,7 +1129,10 @@
 
 - Una órbita de antelación es una vuelta completa antes del TCA.
 
-🎯 **Por qué importa (clase B118-C07):** La evasión es la respuesta operativa a una conjunción, pero cada maniobra cuesta combustible y vida útil. La decisión central: ¿cuánto Δv hace falta para lograr una separación dada y cuánto más cuesta decidir tarde?
+💡 **Cómo se explica en la clase [B118-C07](../programa/clases/B118/B118-C07-estrategias-de-evasion/CLASE.md):**
+- Ver que el Δv cae como `1/k` al dar más órbitas de antelación.
+- Porque separaciones de km con varias órbitas de antelación exigen solo decímetros por segundo.
+- 🎯 **Por qué importa:** La evasión es la respuesta operativa a una conjunción, pero cada maniobra cuesta combustible y vida útil. La decisión central: ¿cuánto Δv hace falta para lograr una separación dada y cuánto más cuesta decidir tarde?
 
 📘 **Dónde se aprende** (1 clase): [B118-C07 · Estrategias de evasión](../programa/clases/B118/B118-C07-estrategias-de-evasion/CLASE.md).
 
@@ -1041,7 +1140,10 @@
 
 - La órbita de inspección es la elipse relativa cerrada.
 
-🎯 **Por qué importa (clase B97-C11):** Una inspección segura se diseña de modo que, si falla el empuje, el robot no se acerque ni se aleje: la elipse sin deriva lo garantiza. Con una condición inicial mal elegida, el robot se aleja decenas de veces la distancia deseada en una órbita.
+💡 **Cómo se explica en la clase [B97-C11](../programa/clases/B97/B97-C11-robots-de-inspeccion-orbital/CLASE.md):**
+- La evidencia es la ficha de una órbita relativa de inspección del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Elabora tu *ficha de una órbita relativa de inspección*: `n`, elipse, velocidades, distancia mínima y la comparación con RK4, con lo consultado y lo ilustrativo rotulados.
+- 🎯 **Por qué importa:** Una inspección segura se diseña de modo que, si falla el empuje, el robot no se acerque ni se aleje: la elipse sin deriva lo garantiza. Con una condición inicial mal elegida, el robot se aleja decenas de veces la distancia deseada en una órbita.
 
 📘 **Dónde se aprende** (1 clase): [B97-C11 · Robots de inspección orbital](../programa/clases/B97/B97-C11-robots-de-inspeccion-orbital/CLASE.md).
 
@@ -1049,7 +1151,10 @@
 
 - Una órbita de Lyapunov es una órbita periódica plana alrededor de un punto colineal.
 
-🎯 **Por qué importa (clase B73-C05):** Una nave que orbita un punto de Lagrange sigue una órbita periódica, no el punto. Hallarla exige resolver un problema de contorno: no hay fórmula.
+💡 **Cómo se explica en la clase [B73-C05](../programa/clases/B73/B73-C05-orbitas-periodicas/CLASE.md):**
+- Resolver por disparo y bisección la velocidad inicial de una órbita de Lyapunov.
+- Ejercicio 11 · transferencia. Transferencia. ¿Es estable la órbita de Lyapunov alrededor de L1?
+- 🎯 **Por qué importa:** Una nave que orbita un punto de Lagrange sigue una órbita periódica, no el punto. Hallarla exige resolver un problema de contorno: no hay fórmula.
 
 📘 **Dónde se aprende** (1 clase): [B73-C05 · Órbitas periódicas](../programa/clases/B73/B73-C05-orbitas-periodicas/CLASE.md).
 
@@ -1067,6 +1172,7 @@
 
 💡 **Cómo se explica en la clase [B75-C14](../programa/clases/B75/B75-C14-captura-en-destino/CLASE.md):**
 - El periodo de la órbita de un día solar reproduce `24,6597 h`.
+- Para quedar en órbita circular (`3,4040 km/s`) hay que frenar `2,0908 km/s`; para quedar en una elipse de un día solar marciano (`e = 0,8192`, apoapsis a `33 804 km`), solo `0,9036 km/s`.
 - 🎯 **Por qué importa:** Frenar cuesta propulsante; cuanto más baja la órbita final, más cuesta. La decisión central: ¿qué órbita de captura minimiza el delta-v, y qué se paga después por llevarla a la órbita de trabajo?
 
 📘 **Dónde se aprende** (1 clase): [B75-C14 · Captura en destino](../programa/clases/B75/B75-C14-captura-en-destino/CLASE.md).
@@ -1078,6 +1184,7 @@
 
 💡 **Cómo se explica en la clase [B02-C19](../programa/clases/B02/B02-C19-historia-de-la-exploracion-espacial/CLASE.md):**
 - Incertidumbre. «Unos 98 minutos» tiene al menos ±0,5 min, que cambia `a` en `±0,3 %` (≈ ±20 km); además la masa de la Luna produce una diferencia de ~0,4 % (el laboratorio la verifica con la órbita geoestacionaria).
+- Ejercicio 7. Calcula la altitud de una órbita geoestacionaria con la rotación sidérea de 23,9345 h.
 - 🎯 **Por qué importa:** La exploración espacial es una historia científica y también política. La pregunta motivadora es: ¿qué cambió, para la astronomía y para la sociedad, cuando los instrumentos y las personas empezaron a salir de la atmósfera, y qué reglas se acordaron?
 
 📘 **Dónde se aprende** (2 clases): [B02-C19 · Historia de la exploración espacial](../programa/clases/B02/B02-C19-historia-de-la-exploracion-espacial/CLASE.md); [B71-C07 · Órbitas circulares](../programa/clases/B71/B71-C07-orbitas-circulares/CLASE.md).
@@ -1088,6 +1195,7 @@
 
 💡 **Cómo se explica en la clase [B30-C15](../programa/clases/B30/B30-C15-magnetosfera-terrestre/CLASE.md):**
 - La órbita geosíncrona queda a `6,611 R_⊕` (S1).
+- Comparar la magnetopausa con la órbita geosíncrona.
 - ⚠️ **Error frecuente:** Pensar que la magnetopausa nunca llega a la órbita geosíncrona. Se corrige con 8.4.
 - 🎯 **Por qué importa:** Los satélites geosíncronos están cerca del borde de la magnetosfera cuando el viento es fuerte. La decisión central: ¿dónde está la magnetopausa y qué pasa cuando se comprime?
 
@@ -1098,7 +1206,10 @@
 - La órbita heliosíncrona tiene inclinación cercana a 98° para que la precesión nodal compense el movimiento anual del Sol.
 - La órbita heliosíncrona cumple `dΩ/dt = 2π/año tropical`.
 
-🎯 **Por qué importa (clase B57-C23):** Si la órbita no repite sus trazas o el barrido no cubre el espacio entre ellas, quedan huecos. La decisión central: ¿qué altitud e inclinación dan un ciclo de repetición que cubre todo con el barrido disponible?
+💡 **Cómo se explica en la clase [B57-C23](../programa/clases/B57/B57-C23-diseno-de-orbita-y-revisita-para-observacion-terrestre/CLASE.md):**
+- *Descripción textual:* la altitud fija el periodo y la inclinación heliosíncrona; la condición de repetición fija el número de órbitas por ciclo; el espaciado entre trazas se compara con el barrido.
+- ¿Basta un satélite de órbita baja heliosíncrona?
+- 🎯 **Por qué importa:** Si la órbita no repite sus trazas o el barrido no cubre el espacio entre ellas, quedan huecos. La decisión central: ¿qué altitud e inclinación dan un ciclo de repetición que cubre todo con el barrido disponible?
 
 📘 **Dónde se aprende** (2 clases): [B57-C23 · Diseño de órbita y revisita para observación terrestre](../programa/clases/B57/B57-C23-diseno-de-orbita-y-revisita-para-observacion-terrestre/CLASE.md); [B72-C13 · Órbitas heliosincrónicas](../programa/clases/B72/B72-C13-orbitas-heliosincronicas/CLASE.md).
 
@@ -1108,7 +1219,9 @@
 - La energía de ligadura es `−ε`: lo que falta para escapar. Órbita ligada significa `ε < 0`.
 - Una órbita ligada tiene `E < 0`.
 
-🎯 **Por qué importa (clase B03-C09):** Cuando observas una llamarada solar a las 12:00:00, el evento ocurrió antes: su tiempo es el observado menos 499 s. Si sumas en vez de restar, afirmas que la llamarada ocurre en el futuro.
+💡 **Cómo se explica en la clase [B05-C07](../programa/clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md):**
+- Distinguir órbita ligada (`E < 0`), parabólica (`E = 0`) y no ligada (`E > 0`).
+- 🎯 **Por qué importa:** Si lanzas algo hacia arriba, ¿hasta dónde sube? ¿Con qué rapidez hay que lanzarlo para que no vuelva?
 
 📘 **Dónde se aprende** (3 clases): [B03-C09 · Operaciones con números negativos](../programa/clases/B03/B03-C09-operaciones-con-numeros-negativos/CLASE.md); [B05-C07 · Conservación de energía mecánica](../programa/clases/B05/B05-C07-conservacion-de-energia-mecanica/CLASE.md); [B71-C05 · Energía orbital específica](../programa/clases/B71/B71-C05-energia-orbital-especifica/CLASE.md).
 
@@ -1116,7 +1229,9 @@
 
 - La órbita lunar simplificada es circular y con plano a `23,44°` fijo.
 
-🎯 **Por qué importa (clase B72-C10):** Un satélite geoestacionario sin maniobras de inclinación deriva de su plano ecuatorial algo menos de un grado por año, y el combustible de ese mantenimiento fija su vida útil. La decisión central: ¿cuánto contribuye cada cuerpo a la deriva de la inclinación y cuánto de ese resultado depende de simplificar la órbita lunar?
+💡 **Cómo se explica en la clase [B72-C10](../programa/clases/B72/B72-C10-perturbaciones-lunares/CLASE.md):**
+- Datos: `μ_L`, `d_L`, periodo sideral, `μ_s`, `UA` y oblicuidad consultados; órbita lunar circular simplificada y satélite sintético.
+- 🎯 **Por qué importa:** Un satélite geoestacionario sin maniobras de inclinación deriva de su plano ecuatorial algo menos de un grado por año, y el combustible de ese mantenimiento fija su vida útil. La decisión central: ¿cuánto contribuye cada cuerpo a la deriva de la inclinación y cuánto de ese resultado depende de simplificar la órbita lunar?
 
 📘 **Dónde se aprende** (1 clase): [B72-C10 · Perturbaciones lunares](../programa/clases/B72/B72-C10-perturbaciones-lunares/CLASE.md).
 
@@ -1136,7 +1251,9 @@
 
 - La órbita preliminar es la entrada del ajuste.
 
-🎯 **Por qué importa (clase B74-C06):** Un ajuste por mínimos cuadrados converge solo si parte cerca de la solución. La decisión central: ¿qué método entrega una buena velocidad inicial con las observaciones disponibles, y cuánto empeora con el ruido y con poca separación angular?
+💡 **Cómo se explica en la clase [B74-C06](../programa/clases/B74/B74-C06-determinacion-inicial-de-orbita/CLASE.md):**
+- ⚠️ **Error frecuente:** Confundir orbita preliminar con solución. Es solo el punto de partida; ver 8.4.
+- 🎯 **Por qué importa:** Un ajuste por mínimos cuadrados converge solo si parte cerca de la solución. La decisión central: ¿qué método entrega una buena velocidad inicial con las observaciones disponibles, y cuánto empeora con el ruido y con poca separación angular?
 
 📘 **Dónde se aprende** (1 clase): [B74-C06 · Determinación inicial de órbita](../programa/clases/B74/B74-C06-determinacion-inicial-de-orbita/CLASE.md).
 
@@ -1152,7 +1269,10 @@
 
 - La órbita rasante tiene `r` igual al radio del cuerpo.
 
-🎯 **Por qué importa (clase B71-C07):** Una circular fija la velocidad de referencia de cualquier maniobra. La decisión central: ¿qué velocidad y qué período corresponden a un radio dado y cómo cambian de un cuerpo a otro?
+💡 **Cómo se explica en la clase [B71-C07](../programa/clases/B71/B71-C07-orbitas-circulares/CLASE.md):**
+- V --> S["sin atmosfera: orbita rasante"]
+- Ejercicio 12 · integrador. Integrador. Integrador. Elabora tu *tabla de órbitas circulares en cuatro entornos* (rasante, 400 km, GEO, Luna y Marte): `r`, `v`, `T`, `ε` y `h`, más la comprobación RK4.
+- 🎯 **Por qué importa:** Una circular fija la velocidad de referencia de cualquier maniobra. La decisión central: ¿qué velocidad y qué período corresponden a un radio dado y cómo cambian de un cuerpo a otro?
 
 📘 **Dónde se aprende** (1 clase): [B71-C07 · Órbitas circulares](../programa/clases/B71/B71-C07-orbitas-circulares/CLASE.md).
 
@@ -1162,6 +1282,8 @@
 - La órbita tipo Molniya es una órbita de periodo cercano a `12 h`, `e ≈ 0,74` e inclinación crítica.
 
 💡 **Cómo se explica en la clase [B71-C08](../programa/clases/B71/B71-C08-orbitas-elipticas/CLASE.md):**
+- Una órbita sintética tipo Molniya (500 × 39 700 km de altitud) tiene `a = 26478100 m`, `e = 0.74023` y velocidades de `10042.4` y `1499.0 m/s`.
+- Separar lo consultado (ficha de Marte, `μ`) de lo sintético (la órbita tipo Molniya).
 - ⚠️ **Error frecuente:** Presentar la órbita tipo Molniya como real. Se corrige con la sección 10.
 - 🎯 **Por qué importa:** Elegir `a` y `e` es elegir energía y forma; de ellos salen el perigeo, el apogeo, el período y las velocidades. La decisión central: ¿cómo se obtienen las distancias, velocidades y áreas de una elipse desde `a` y `e`, y cómo compruebas que tu geometría es correcta?
 
@@ -1174,6 +1296,7 @@
 
 💡 **Cómo se explica en la clase [B75-C20](../programa/clases/B75/B75-C20-diseno-de-una-mision-a-luna-helada/CLASE.md):**
 - El orbitador pide una razón de masa de `25,6`; esas cifras de una etapa con `I_sp = 320 s` son ilustrativas, no realistas.
+- Armar dos presupuestos (orbitador y sobrevuelos) con margen y masa de propulsante.
 - 🎯 **Por qué importa:** Antes de diseñar una misión hay que saber si es viable y qué la hace cara. La decisión central: ¿cuánto delta-v y cuánta masa cuesta ir de la Tierra a una luna de Júpiter, y cuánto se ahorra con una misión de sobrevuelos en lugar de un orbitador?
 
 📘 **Dónde se aprende** (2 clases): [B75-C20 · Diseño de una misión a luna helada](../programa/clases/B75/B75-C20-diseno-de-una-mision-a-luna-helada/CLASE.md); [B97-C01 · Robots rover y orbitadores](../programa/clases/B97/B97-C01-robots-rover-y-orbitadores/CLASE.md).
@@ -1196,7 +1319,9 @@
 
 - El orden anillo numera los pixeles por anillos de latitud.
 
-🎯 **Por qué importa (clase B40-C12):** Sin una pixelización de área igual, el ruido y las estadísticas dependen de la posición. La decisión central: ¿cuántos pixeles, de qué tamaño, y cómo se cuenta la fracción de cielo de una máscara?
+💡 **Cómo se explica en la clase [B40-C12](../programa/clases/B40/B40-C12-analisis-de-mapas-del-cmb-pixelizacion-esferica-y-mascaras/CLASE.md):**
+- Límites: orden anillo, sin orden anidado.
+- 🎯 **Por qué importa:** Sin una pixelización de área igual, el ruido y las estadísticas dependen de la posición. La decisión central: ¿cuántos pixeles, de qué tamaño, y cómo se cuenta la fracción de cielo de una máscara?
 
 📘 **Dónde se aprende** (1 clase): [B40-C12 · Análisis de mapas del CMB: pixelización esférica y máscaras](../programa/clases/B40/B40-C12-analisis-de-mapas-del-cmb-pixelizacion-esferica-y-mascaras/CLASE.md).
 
@@ -1206,7 +1331,8 @@
 
 💡 **Cómo se explica en la clase [B18-C03](../programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md):**
 - Para un arreglo en orden C de forma `(m, n)` con elementos de `s` bytes, los pasos son `(n·s, s)`: avanzar una columna salta `s` bytes (el vecino) y avanzar una fila salta `n·s`.
-- Orden C y Fortran son equivalentes en información y distintos en rendimiento según el recorrido: elige el que haga contiguo el eje del bucle interior.
+- Incertidumbre. Una máquina cargada: son órdenes de magnitud, no valores de referencia.
+- ⚠️ **Error frecuente:** Recorrer contra el orden de almacenamiento. Se corrige con el ejercicio 9.
 - 🎯 **Por qué importa:** Un catálogo con millones de estrellas o una rejilla de simulación pasan cada dato por la CPU una o pocas veces. Cuando las operaciones por dato son pocas, el tiempo no lo fija la CPU sino el viaje de los datos.
 
 📘 **Dónde se aprende** (1 clase): [B18-C03 · Jerarquía y estructuras de memoria](../programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md).
@@ -1241,7 +1367,9 @@
 - El orden de convergencia es `log₂` del cociente de diferencias al halvar el paso.
 - El orden de convergencia es `log(e₁/e₂)/log 2` al duplicar elementos.
 
-🎯 **Por qué importa (clase B37-C05):** Un código sin verificación puede dar resultados bonitos y falsos. La decisión central: ¿converge el error con el orden teórico al refinar la malla y el paso de tiempo?
+💡 **Cómo se explica en la clase [B37-C05](../programa/clases/B37/B37-C05-codigos-de-evolucion-estelar-configuracion-verificacion-y-limites/CLASE.md):**
+- Falta el orden de convergencia y una solución exacta.
+- 🎯 **Por qué importa:** Un código sin verificación puede dar resultados bonitos y falsos. La decisión central: ¿converge el error con el orden teórico al refinar la malla y el paso de tiempo?
 
 📘 **Dónde se aprende** (3 clases): [B37-C05 · Códigos de evolución estelar: configuración, verificación y límites](../programa/clases/B37/B37-C05-codigos-de-evolucion-estelar-configuracion-verificacion-y-limites/CLASE.md); [B75-C30 · Validación de maniobras por reintegración](../programa/clases/B75/B75-C30-validacion-de-maniobras-por-reintegracion/CLASE.md); [B84-C12 · Análisis de elementos finitos](../programa/clases/B84/B84-C12-analisis-de-elementos-finitos/CLASE.md).
 
@@ -1249,7 +1377,10 @@
 
 - El orden de cuadrupolo es la primera aproximación de la emisión.
 
-🎯 **Por qué importa (clase B27-C13):** La fusión de dos estrellas de neutrones fue el primer evento detectado en ondas gravitacionales y en luz. Saber cuánto falta para una fusión, a qué frecuencia, y cómo la excentricidad la acelera, es la base de toda búsqueda.
+💡 **Cómo se explica en la clase [B27-C13](../programa/clases/B27/B27-C13-binarias-compactas/CLASE.md):**
+- Reconocer los límites del orden de cuadrupolo.
+- Límites: orden de cuadrupolo, sin efectos post-newtonianos ni espines, sin mareas.
+- 🎯 **Por qué importa:** La fusión de dos estrellas de neutrones fue el primer evento detectado en ondas gravitacionales y en luz. Saber cuánto falta para una fusión, a qué frecuencia, y cómo la excentricidad la acelera, es la base de toda búsqueda.
 
 📘 **Dónde se aprende** (1 clase): [B27-C13 · Binarias compactas](../programa/clases/B27/B27-C13-binarias-compactas/CLASE.md).
 
@@ -1270,6 +1401,7 @@
 - Un orden de magnitud es, a efectos de esta clase, el exponente `e` de la forma normalizada: `86 400` está en el orden 4.
 
 💡 **Cómo se explica en la clase [B01-C02](../programa/clases/B01/B01-C02-escalas-desde-la-tierra-al-cosmos-observable/CLASE.md):**
+- Las distancias de esta clase van de unos 10⁶ m (el radio de la Tierra) a unos 10²⁶ m (el borde observable), es decir, de veinte órdenes de magnitud.
 - Comparar con el cociente da directamente el factor; los exponentes dan una estimación inmediata de orden de magnitud.
 - 🎯 **Por qué importa:** Cuando alguien dice que Próxima Centauri está «a cuatro años luz» y que Andrómeda está «a dos millones y medio», es fácil oír solo «lejos» y «más lejos». Pero entre una y otra hay un factor de casi seis cien mil.
 
@@ -1279,7 +1411,9 @@
 
 - El orden de operaciones afecta al redondeo: la suma en coma flotante no es asociativa.
 
-🎯 **Por qué importa (clase B14-C10):** Cambias una línea de un propagador orbital «solo para ordenarlo» y el período de una órbita pasa de 5553,624562 s a 5553,627342 s (situación ilustrativa con cifras de esta clase). ¿Es un error o ruido?
+💡 **Cómo se explica en la clase [B14-C10](../programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/CLASE.md):**
+- Reconocer la asimetría de la comparación y el efecto del orden de las operaciones.
+- 🎯 **Por qué importa:** Cambias una línea de un propagador orbital «solo para ordenarlo» y el período de una órbita pasa de 5553,624562 s a 5553,627342 s (situación ilustrativa con cifras de esta clase). ¿Es un error o ruido?
 
 📘 **Dónde se aprende** (1 clase): [B14-C10 · Pruebas de regresión numérica](../programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/CLASE.md).
 
@@ -1296,6 +1430,7 @@
 - El orden C (*row-major*) guarda las filas contiguas; el orden Fortran (*column-major*), las columnas.
 
 💡 **Cómo se explica en la clase [B18-C03](../programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md):**
+- Orden C y Fortran son equivalentes en información y distintos en rendimiento según el recorrido: elige el que haga contiguo el eje del bucle interior.
 - En orden C (por filas, el predeterminado) el paso del eje `k` es el tamaño del elemento por el producto de las longitudes de los ejes posteriores; en orden Fortran (por columnas), por el de los anteriores.
 - 🎯 **Por qué importa:** Un catálogo con millones de estrellas o una rejilla de simulación pasan cada dato por la CPU una o pocas veces. Cuando las operaciones por dato son pocas, el tiempo no lo fija la CPU sino el viaje de los datos.
 
@@ -1306,6 +1441,7 @@
 - Un orden lineal es aquel en que los `execution_count` son 1, 2, 3, … sin saltos ni retrocesos.
 
 💡 **Cómo se explica en la clase [B14-C09](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md):**
+- Si son 1, 2, 3 el orden es lineal; si son 1, 3, 2 alguien ejecutó la tercera celda antes que la segunda y la salida guardada puede depender de ese orden.
 - No es una prueba suficiente de reproducibilidad (un orden lineal también puede esconder estado), pero es barata y detecta un error frecuente.
 - 🎯 **Por qué importa:** Alguien te manda un cuaderno con un gráfico que apoya una conclusión. Lo abres, ejecutas las celdas y el gráfico sale distinto.
 
@@ -1329,10 +1465,10 @@
 - El orden observado se estima como `p ≈ log₂(E(h)/E(h/2))`.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
-💡 **Cómo se explica en la clase [B23-C03](../programa/clases/B23/B23-C03-casos-analiticos-de-validacion/CLASE.md):**
-- Para Euler hubo que usar pasos muy finos (`N` de 1600 a 12 800): con `N = 50..400` el error es de ~1 au y el orden observado es 0,5–0,8, porque los pasos aún no están en el régimen asintótico.
-- Un RK4 con un coeficiente mal escrito (`k3` calculado con `k1` en vez de `k2`) da errores razonables a simple vista (4,2 × 10⁻³ a 1,0 × 10⁻⁴ au) pero un orden observado de 1,62, 1,84 y 1,93: es un método de orden 2, no de 4.
-- 🎯 **Por qué importa:** Un integrador de órbitas puede conservar la energía, ser reversible e invariante ante rotaciones y aun así describir un Sol con otra masa o una ley de fuerza distinta. Para detectarlo necesitas una referencia con valores: «tras exactamente un período, el planeta vuelve a su punto de partida».
+💡 **Cómo se explica en la clase [B11-C05](../programa/clases/B11/B11-C05-metodo-de-euler/CLASE.md):**
+- En el laboratorio, para `y′ = −y` hasta `t = 2`, los errores `1,376 × 10⁻²`, `6,82 × 10⁻³`, `3,40 × 10⁻³`, `1,70 × 10⁻³` con `N = 20, 40, 80, 160` dan órdenes observados `1,012`, `1,006`, `1,003`.
+- Medir el orden observado a partir de una tabla de errores.
+- 🎯 **Por qué importa:** La mayoría de las ecuaciones del movimiento no tiene solución en forma cerrada. Un computador no resuelve la ecuación: da pasos pequeños, y cada paso usa la pendiente conocida para estimar el estado siguiente.
 
 📘 **Dónde se aprende** (4 clases): [B11-C05 · Método de Euler](../programa/clases/B11/B11-C05-metodo-de-euler/CLASE.md); [B23-C03 · Casos analíticos de validación](../programa/clases/B23/B23-C03-casos-analiticos-de-validacion/CLASE.md); [B79-C09 · CFD académico: fundamentos y límites](../programa/clases/B79/B79-C09-cfd-academico-fundamentos-y-limites/CLASE.md); [B84-C26 · Generación de mallas y convergencia en elementos finitos](../programa/clases/B84/B84-C26-generacion-de-mallas-y-convergencia-en-elementos-finitos/CLASE.md).
 
@@ -1340,7 +1476,11 @@
 
 - Un método de orden `p` tiene error global `∝ h^p`.
 
-🎯 **Por qué importa (clase B11-C07):** La mayoría de los programas de simulación científica usa, de forma directa o como base, un método de la familia Runge–Kutta. Entender RK4 permite leer cualquier código de propagación, estimar cuántos pasos necesita una órbita y saber en qué punto empieza a ser conveniente algo más sofisticado.
+💡 **Cómo se explica en la clase [B11-C07](../programa/clases/B11/B11-C07-runge-kutta-de-cuarto-orden/CLASE.md):**
+- En el laboratorio, para `y′ = −y` hasta `t = 2`: errores `2,452 × 10⁻⁷`, `1,470 × 10⁻⁸`, `8,996 × 10⁻¹⁰`, `5,565 × 10⁻¹¹` con `N = 20, 40, 80, 160` y órdenes `4,060`, `4,030`, `4,015`.
+- RK4 supera a Heun por más de cuatro órdenes de magnitud.
+- ⚠️ **Error frecuente:** Extrapolar el error sin verificar el orden. Se corrige con los ejercicios 4 y 9.
+- 🎯 **Por qué importa:** La mayoría de los programas de simulación científica usa, de forma directa o como base, un método de la familia Runge–Kutta. Entender RK4 permite leer cualquier código de propagación, estimar cuántos pasos necesita una órbita y saber en qué punto empieza a ser conveniente algo más sofisticado.
 
 📘 **Dónde se aprende** (1 clase): [B11-C07 · Runge-Kutta de cuarto orden](../programa/clases/B11/B11-C07-runge-kutta-de-cuarto-orden/CLASE.md).
 
@@ -1349,6 +1489,7 @@
 - El orden PPM `M` es el número de ranuras de un símbolo, con `m = log₂ M` bits.
 
 💡 **Cómo se explica en la clase [B92-C06](../programa/clases/B92/B92-C06-modulacion-y-codificacion-en-enlaces-opticos/CLASE.md):**
+- Con ranuras de `1 ns`, PPM-16 y código de tasa `1/2`, el bloque de `7526` bits de información ocupa `75 920` ranuras y da `99,131 Mbps`; con orden 256 la tasa baja a `12,339 Mbps` y la potencia de pico sube a `320` veces la media.
 - Descripción larga: al subir el orden PPM cae la tasa en proporción casi inversa a `M/log₂ M`, sube la potencia de pico en proporción a `M` y aumenta el límite de bits por fotón.
 - 🎯 **Por qué importa:** En un canal con pocos fotones, la eficiencia es bits por fotón, no bits por hercio. La decisión central: ¿qué orden PPM y qué tasa de código elegir para equilibrar tasa de información, fotones por bit y potencia de pico?
 
@@ -1360,7 +1501,9 @@
 - Un orden topológico respeta todas las flechas.
 - Un orden topológico lista los nodos de modo que cada uno aparece después de sus prerrequisitos.
 
-🎯 **Por qué importa (clase B14-C30):** Cada madrugada llegan datos nuevos. Si un humano debe lanzar cada paso, tarde o temprano se olvida uno; si un lote corrupto atraviesa la cadena, contamina el producto final; si un fallo de red detiene todo y al reiniciar se repite desde cero, se pierde tiempo.
+💡 **Cómo se explica en la clase [B14-C30](../programa/clases/B14/B14-C30-cadenas-de-procesamiento-automatizado-de-datos/CLASE.md):**
+- orden topológico de las etapas: ['ingestar', 'validar', 'procesar', 'publicar']
+- 🎯 **Por qué importa:** Cada madrugada llegan datos nuevos. Si un humano debe lanzar cada paso, tarde o temprano se olvida uno; si un lote corrupto atraviesa la cadena, contamina el producto final; si un fallo de red detiene todo y al reiniciar se repite desde cero, se pierde tiempo.
 
 📘 **Dónde se aprende** (3 clases): [B14-C30 · Cadenas de procesamiento automatizado de datos](../programa/clases/B14/B14-C30-cadenas-de-procesamiento-automatizado-de-datos/CLASE.md); [B53-C09 · Estratigrafía planetaria](../programa/clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md); [B131-C04 · Secuenciación conceptual de una unidad](../programa/clases/B131/B131-C04-secuenciacion-conceptual-de-una-unidad/CLASE.md).
 
@@ -1368,7 +1511,10 @@
 
 - El orden total de recursos evita ciclos.
 
-🎯 **Por qué importa (clase B88-C28):** El caso Pathfinder mostró que un error de concurrencia puede aparecer solo en operación y provocar reinicios por watchdog. La decisión central: ¿cómo se garantiza que una tarea de alta prioridad no quede bloqueada indefinidamente por otras de menor prioridad?
+💡 **Cómo se explica en la clase [B88-C28](../programa/clases/B88/B88-C28-inversion-de-prioridad-y-deadlocks/CLASE.md):**
+- Prevenirlo con un orden total de recursos.
+- El script [inversion_prioridad.py](inversion_prioridad.py) simula tres tareas con y sin herencia y analiza un grafo de espera con y sin orden de recursos, y comprueba que A termina antes con herencia y que el orden total elimina el ciclo.
+- 🎯 **Por qué importa:** El caso Pathfinder mostró que un error de concurrencia puede aparecer solo en operación y provocar reinicios por watchdog. La decisión central: ¿cómo se garantiza que una tarea de alta prioridad no quede bloqueada indefinidamente por otras de menor prioridad?
 
 📘 **Dónde se aprende** (1 clase): [B88-C28 · Inversión de prioridad y deadlocks](../programa/clases/B88/B88-C28-inversion-de-prioridad-y-deadlocks/CLASE.md).
 
@@ -1377,7 +1523,8 @@
 - El orden cero significa que la tasa no depende de cuánto hielo queda (capa múltiple: solo desorbe la superficie); el orden uno, que es proporcional a lo que queda (submonocapa).
 
 💡 **Cómo se explica en la clase [B68-C01](../programa/clases/B68/B68-C01-desorcion-termica-de-hielos-interestelares/CLASE.md):**
-- En orden uno el caudal baja con el nivel y el vaciado es exponencial.
+- En orden cero (capa múltiple) la tasa de pérdida es `-dN/dt = k₀(T) = ν e^(-E/T)` en ML s⁻¹: no depende de `N` mientras quede hielo.
+- Para una película de `N₀` ML a temperatura constante, el tiempo de residencia de orden cero es `t = N₀ / k₀`.
 - ⚠️ **Error frecuente:** Usar orden uno para una película gruesa. Se corrige con la sección 6 y 8.1.
 - 🎯 **Por qué importa:** Un hielo de CO que dura mil millones de años a 15 K desaparece en un segundo a 30 K. Esa sensibilidad exponencial decide dónde está la «línea de nieve» de cada molécula y qué hay en el gas.
 
@@ -1407,7 +1554,9 @@
 
 - El ordenamiento por inserción toma cada elemento y lo inserta en su lugar dentro de la parte ya ordenada.
 
-🎯 **Por qué importa (clase B07-C18):** Un catálogo estelar tiene millones de objetos. Buscar uno a uno es posible con diez planetas y ruinoso con diez millones.
+💡 **Cómo se explica en la clase [B07-C18](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md):**
+- Implementar el ordenamiento por inserción y por mezcla.
+- 🎯 **Por qué importa:** Un catálogo estelar tiene millones de objetos. Buscar uno a uno es posible con diez planetas y ruinoso con diez millones.
 
 📘 **Dónde se aprende** (1 clase): [B07-C18 · Algoritmos de búsqueda y ordenamiento](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md).
 
@@ -1415,7 +1564,9 @@
 
 - El ordenamiento por mezcla divide la lista en dos, ordena cada mitad y las mezcla (se escribe con recursión: una función que se llama a sí misma con un problema menor).
 
-🎯 **Por qué importa (clase B07-C18):** Un catálogo estelar tiene millones de objetos. Buscar uno a uno es posible con diez planetas y ruinoso con diez millones.
+💡 **Cómo se explica en la clase [B07-C18](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md):**
+- Implementar el ordenamiento por inserción y por mezcla.
+- 🎯 **Por qué importa:** Un catálogo estelar tiene millones de objetos. Buscar uno a uno es posible con diez planetas y ruinoso con diez millones.
 
 📘 **Dónde se aprende** (1 clase): [B07-C18 · Algoritmos de búsqueda y ordenamiento](../programa/clases/B07/B07-C18-algoritmos-de-busqueda-y-ordenamiento/CLASE.md).
 
@@ -1423,7 +1574,9 @@
 
 - Es ordinaria si la función depende de una sola variable independiente (aquí el tiempo `t`); si depende de varias (tiempo y posición), se llama «en derivadas parciales» y se verá en [C13](../B11-C13-ecuaciones-en-derivadas-parciales/CLASE.md).
 
-🎯 **Por qué importa (clase B11-C01):** Casi ninguna ley de la mecánica espacial nos dice *dónde está* un satélite; nos dice *cómo cambia* su movimiento: la aceleración depende de la posición. Eso es una ecuación diferencial.
+💡 **Cómo se explica en la clase [B11-C01](../programa/clases/B11/B11-C01-ecuaciones-diferenciales-ordinarias/CLASE.md):**
+- python programa/clases/B11/B11-C01-ecuaciones-diferenciales-ordinarias/residuo_de_soluciones.py
+- 🎯 **Por qué importa:** Casi ninguna ley de la mecánica espacial nos dice *dónde está* un satélite; nos dice *cómo cambia* su movimiento: la aceleración depende de la posición. Eso es una ecuación diferencial.
 
 📘 **Dónde se aprende** (1 clase): [B11-C01 · Ecuaciones diferenciales ordinarias](../programa/clases/B11/B11-C01-ecuaciones-diferenciales-ordinarias/CLASE.md).
 
@@ -1434,6 +1587,7 @@
 
 💡 **Cómo se explica en la clase [B02-C08](../programa/clases/B02/B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md):**
 - Eso es compatible con una orientación solsticial, pero no la prueba: puede ser casualidad (C09).
+- Un estudio de 2023 midió las orientaciones de 41 capillas e iglesias de las misiones jesuitas del noroeste de Nueva España, de los siglos XVII y XVIII.
 - 🎯 **Por qué importa:** Decir «esta puerta mira al solsticio» es fácil; demostrarlo es difícil. Hay que medir bien, conocer el horizonte, descartar el azar y entender el contexto cultural.
 
 📘 **Dónde se aprende** (2 clases): [B02-C08 · Arqueoastronomía y sus métodos](../programa/clases/B02/B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md); [B57-C28 · Modelos digitales de elevación](../programa/clases/B57/B57-C28-modelos-digitales-de-elevacion/CLASE.md).
@@ -1451,6 +1605,8 @@
 - El origen de banda `ν₀` es la frecuencia pura vibracional sin rotación.
 
 💡 **Cómo se explica en la clase [B62-C02](../programa/clases/B62/B62-C02-espectros-vibracionales-de-moleculas/CLASE.md):**
+- El origen de la banda fundamental es `ν₀ = 2143,237 cm⁻¹` (4,6658 µm) y el primer sobretono, `4259,897 cm⁻¹`, queda `26,577 cm⁻¹` por debajo de `2ν₀`.
+- En ¹³C¹⁶O, con masas enteras 13 y 16, `ωe` se escala por `√(μ/μ') = 0,97778`: `ωe ≈ 2121,6 cm⁻¹` y el origen de la banda baja a `≈ 2096,2 cm⁻¹`.
 - ⚠️ **Error frecuente:** Usar `ωe` como origen de banda. Se corrige con 8.1: `ν₀ = ωe − 2ωexe`.
 - 🎯 **Por qué importa:** Las bandas del CO a 4,67 µm se observan en el infrarrojo, no en milimétricas. Para interpretarlas necesitas saber de dónde sale el origen de banda, por qué las ramas P y R se separan en dos grupos y qué cambia al pasar a un isotopólogo.
 
@@ -1460,7 +1616,9 @@
 
 - Un sistema de coordenadas esféricas se define por un polo (el eje de la latitud), un círculo fundamental (el «ecuador» del sistema, a 90° del polo) y un origen de longitud sobre él.
 
-🎯 **Por qué importa (clase B04-C19):** Un catálogo da las posiciones en ecuatoriales; un estudio de la Vía Láctea necesita galácticas; un análisis del plano del sistema solar usa eclípticas. Cambiar de sistema es rutina, y un error de signo o de matriz mueve el objeto decenas de grados.
+💡 **Cómo se explica en la clase [B04-C19](../programa/clases/B04/B04-C19-transformaciones-de-coordenadas-astronomicas/CLASE.md):**
+- Describir un sistema de coordenadas por su polo, su círculo fundamental y su origen de longitud.
+- 🎯 **Por qué importa:** Un catálogo da las posiciones en ecuatoriales; un estudio de la Vía Láctea necesita galácticas; un análisis del plano del sistema solar usa eclípticas. Cambiar de sistema es rutina, y un error de signo o de matriz mueve el objeto decenas de grados.
 
 📘 **Dónde se aprende** (1 clase): [B04-C19 · Transformaciones de coordenadas astronómicas](../programa/clases/B04/B04-C19-transformaciones-de-coordenadas-astronomicas/CLASE.md).
 
@@ -1478,6 +1636,7 @@
 
 💡 **Cómo se explica en la clase [B08-C19](../programa/clases/B08/B08-C19-fotografia-astronomica-elemental/CLASE.md):**
 - Decide también qué documentas: la foto original se guarda sin alterar; las versiones procesadas llevan una nota con lo que se hizo.
+- Documentar una fotografía con metadatos y su condición (original o procesada).
 - ⚠️ **Error frecuente:** Presentar una foto procesada como original. Ejercicio 12.
 - 🎯 **Por qué importa:** Un teléfono o una cámara réflex puede captar la Vía Láctea o la Luna con detalle, pero una exposición demasiado larga convierte las estrellas en rayas. La pregunta motivadora: ¿cuánto puedo exponer y con qué focal para obtener estrellas puntuales, y qué debo anotar para que la foto sirva como dato?
 
@@ -1489,6 +1648,7 @@
 
 💡 **Cómo se explica en la clase [B106-C27](../programa/clases/B106/B106-C27-tratamiento-de-orina-y-recuperacion-de-agua/CLASE.md):**
 - U["orina pretratada Ca, SO4"] --> D["destilacion r"]
+- Recuperacion maxima antes de precipitar CaSO4 segun la composicion de la orina pretratada:
 - 🎯 **Por qué importa:** Evaporar la orina concentra sales hasta que precipitan y obstruyen el equipo; el límite lo fija la química, no la termodinámica del agua. La decisión central: ¿hasta qué fracción se puede recuperar el agua antes de precipitar y cómo se supera ese límite?
 
 📘 **Dónde se aprende** (1 clase): [B106-C27 · Tratamiento de orina y recuperación de agua](../programa/clases/B106/B106-C27-tratamiento-de-orina-y-recuperacion-de-agua/CLASE.md).
@@ -1531,7 +1691,10 @@
 - Una matriz ortogonal `Q` cumple `QᵀQ = I`: sus columnas son ortonormales.
 - Es ortogonal (`Rᵀ R = I`) y tiene determinante `+1`.
 
-🎯 **Por qué importa (clase B04-C15):** El ecuador de la Tierra y el plano de su órbita (la eclíptica) forman un ángulo de unos 23,4°. Los catálogos de estrellas se dan en coordenadas ecuatoriales; el movimiento del Sol, la Luna y los planetas es más simple en coordenadas eclípticas.
+💡 **Cómo se explica en la clase [B04-C15](../programa/clases/B04/B04-C15-rotacion-de-puntos-y-ejes/CLASE.md):**
+- Comprobar que una matriz es una rotación: ortogonal y con determinante +1.
+- Ejercicio 2 · con una pista. Verifica que `R_x(ε)` con `ε = 23,4393°` es ortogonal.
+- 🎯 **Por qué importa:** El ecuador de la Tierra y el plano de su órbita (la eclíptica) forman un ángulo de unos 23,4°. Los catálogos de estrellas se dan en coordenadas ecuatoriales; el movimiento del Sol, la Luna y los planetas es más simple en coordenadas eclípticas.
 
 📘 **Dónde se aprende** (2 clases): [B04-C15 · Rotación de puntos y ejes](../programa/clases/B04/B04-C15-rotacion-de-puntos-y-ejes/CLASE.md); [B10-C06 · Producto interno y ortogonalidad](../programa/clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md).
 
@@ -1541,6 +1704,7 @@
 
 💡 **Cómo se explica en la clase [B10-C06](../programa/clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md):**
 - Dos vectores con `⟨u, v⟩ = 0`, como `(1, 2, −1)` y `(3, −1, 1)` (`3 − 2 − 1 = 0`), son ortogonales.
+- Ejercicio 2 · con una pista. ¿Son ortogonales `(1, 2, −1)` y `(3, −1, 1)`?
 - 🎯 **Por qué importa:** La potencia que recibe un panel solar depende del ángulo entre su normal y la dirección al Sol: más inclinado, menos luz. El control de actitud, la orientación de antenas y de instrumentos usan el mismo cálculo.
 
 📘 **Dónde se aprende** (1 clase): [B10-C06 · Producto interno y ortogonalidad](../programa/clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md).
@@ -1574,6 +1738,7 @@
 
 💡 **Cómo se explica en la clase [B10-C06](../programa/clases/B10/B10-C06-producto-interno-y-ortogonalidad/CLASE.md):**
 - Si `{q₁, …, qₙ}` es ortonormal, las coordenadas de `v` son `cₖ = ⟨qₖ, v⟩` (S2, §1.3, ecs. 1.3.20–1.3.21 para la expansión en una base ortonormal).
+- La evidencia es la ficha de ángulos y bases ortonormales del ejercicio 12 (sección 20).
 - ⚠️ **Error frecuente:** Creer que un algoritmo que termina entrega una base ortonormal. Se corrige con el ejercicio 10.
 - 🎯 **Por qué importa:** La potencia que recibe un panel solar depende del ángulo entre su normal y la dirección al Sol: más inclinado, menos luz. El control de actitud, la orientación de antenas y de instrumentos usan el mismo cálculo.
 
@@ -1594,7 +1759,9 @@
 
 - La oscilación de Rabi es el vaivén de población bajo un campo resonante.
 
-🎯 **Por qué importa (clase B31-C03):** Un cúbit, un espín o un átomo de dos niveles obedecen estas reglas, y la medida cambia el estado. La decisión central: ¿cómo se calculan probabilidades y evolución en un sistema de dos niveles?
+💡 **Cómo se explica en la clase [B31-C03](../programa/clases/B31/B31-C03-estados-y-observables-cuanticos/CLASE.md):**
+- El script [estados.py](estados.py) verifica el conmutador, la regla de Born por Monte Carlo, la desigualdad de Robertson y la oscilación de Rabi (comprueba la norma a `10⁻⁹` y RK4 frente a la fórmula a `10⁻⁸`).
+- 🎯 **Por qué importa:** Un cúbit, un espín o un átomo de dos niveles obedecen estas reglas, y la medida cambia el estado. La decisión central: ¿cómo se calculan probabilidades y evolución en un sistema de dos niveles?
 
 📘 **Dónde se aprende** (1 clase): [B31-C03 · Estados y observables cuánticos](../programa/clases/B31/B31-C03-estados-y-observables-cuanticos/CLASE.md).
 
@@ -1631,11 +1798,10 @@
 - El oscurecimiento al limbo es la caída de brillo hacia el borde del disco.
 - El oscurecimiento al limbo hace al borde más tenue.
 
-💡 **Cómo se explica en la clase [B29-C01](../programa/clases/B29/B29-C01-transitos-planetarios/CLASE.md):**
-- El radio se infiere de la profundidad, pero hay que corregir por oscurecimiento al limbo y por el parámetro de impacto; la duración, a su vez, depende de `a`, `b` y `k`.
-- *Descripción textual:* los radios dan la profundidad; el periodo y la masa estelar dan el semieje, y con el parámetro de impacto la duración, que se verifica con una búsqueda numérica; el oscurecimiento al limbo modifica la profundidad central.
-- ⚠️ **Error frecuente:** Ignorar el oscurecimiento al limbo. Se corrige con el ejercicio 9.
-- 🎯 **Por qué importa:** El tránsito es el método con más planetas descubiertos. Su profundidad da el radio del planeta y su duración informa del semieje y el parámetro de impacto.
+💡 **Cómo se explica en la clase [B24-C09](../programa/clases/B24/B24-C09-atmosferas-y-opacidades/CLASE.md):**
+- Calcular el oscurecimiento al limbo en la aproximación de Eddington.
+- Ejercicio 12 · integrador. Elabora tu *perfil de una atmósfera gris*: elige una `T_ef`, calcula `T` para cinco valores de `τ`, el oscurecimiento al limbo, `κ_es` y `L_Edd` para una masa, la escala de altura y dos límites.
+- 🎯 **Por qué importa:** Toda temperatura o composición que atribuimos a una estrella se infiere de una capa delgada. Saber de qué profundidad viene la luz, cuánto vale la opacidad y cuánto puede brillar una estrella sin expulsar su atmósfera es lo que permite interpretar espectros (C10) y entender los vientos (C17).
 
 📘 **Dónde se aprende** (2 clases): [B24-C09 · Atmósferas y opacidades](../programa/clases/B24/B24-C09-atmosferas-y-opacidades/CLASE.md); [B29-C01 · Tránsitos planetarios](../programa/clases/B29/B29-C01-transitos-planetarios/CLASE.md).
 
@@ -1643,7 +1809,9 @@
 
 - El oscurecimiento del limbo es la caída de `I` hacia el borde.
 
-🎯 **Por qué importa (clase B32-C01):** El espectro depende de dónde se forma la luz. La decisión central: ¿qué capa determina la intensidad emergente y cómo cambia con el ángulo?
+💡 **Cómo se explica en la clase [B32-C01](../programa/clases/B32/B32-C01-ecuacion-de-transferencia-radiativa-en-atmosferas-estelares/CLASE.md):**
+- Calcular el oscurecimiento del limbo de una atmósfera gris.
+- 🎯 **Por qué importa:** El espectro depende de dónde se forma la luz. La decisión central: ¿qué capa determina la intensidad emergente y cómo cambia con el ángulo?
 
 📘 **Dónde se aprende** (2 clases): [B32-C01 · Ecuación de transferencia radiativa en atmósferas estelares](../programa/clases/B32/B32-C01-ecuacion-de-transferencia-radiativa-en-atmosferas-estelares/CLASE.md); [B32-C11 · Ensanchamiento rotacional y v sin i](../programa/clases/B32/B32-C11-ensanchamiento-rotacional-y-v-sin-i/CLASE.md).
 
@@ -1653,6 +1821,7 @@
 
 💡 **Cómo se explica en la clase [B44-C11](../programa/clases/B44/B44-C11-tiempo-de-exposicion/CLASE.md):**
 - Con una fuente de `20 e⁻/s`, cielo de `2 e⁻/s/pix`, oscuridad de `0,1 e⁻/s/pix`, lectura de `6 e⁻` y `20` píxeles, un cuadro de `100 s` tiene SNR `24,042`;
+- Calcular la SNR de un cuadro con fuente, cielo, oscuridad y lectura.
 - 🎯 **Por qué importa:** Exponer poco multiplica el ruido de lectura; exponer mucho arriesga la saturación. La decisión central: ¿cuánto debe durar cada cuadro dentro de un tiempo total dado?
 
 📘 **Dónde se aprende** (1 clase): [B44-C11 · Tiempo de exposición](../programa/clases/B44/B44-C11-tiempo-de-exposicion/CLASE.md).
@@ -1661,7 +1830,9 @@
 
 - La oscuridad local se toma aquí fija entre las 21:00 y las 05:00 de hora solar media.
 
-🎯 **Por qué importa (clase B129-C01):** Un fenómeno breve (un meteoro, una ocultación, una explosión de brillo) solo se registra si alguien está mirando en ese momento. La decisión central: ¿cuántos observadores hacen falta para que al menos uno, o al menos dos, estén observando cuando ocurre?
+💡 **Cómo se explica en la clase [B129-C01](../programa/clases/B129/B129-C01-redes-de-observadores-aficionados/CLASE.md):**
+- Red SINTETICA: p(despeje) = 0.4, oscuridad local 21:00-5:00 (8 h), longitudes equiespaciadas
+- 🎯 **Por qué importa:** Un fenómeno breve (un meteoro, una ocultación, una explosión de brillo) solo se registra si alguien está mirando en ese momento. La decisión central: ¿cuántos observadores hacen falta para que al menos uno, o al menos dos, estén observando cuando ocurre?
 
 📘 **Dónde se aprende** (1 clase): [B129-C01 · Redes de observadores aficionados](../programa/clases/B129/B129-C01-redes-de-observadores-aficionados/CLASE.md).
 
@@ -1680,7 +1851,10 @@
 
 - El OSR (*optical solar reflector*) es un vidrio plateado de `α` baja y `ε` alta.
 
-🎯 **Por qué importa (clase B84-C34):** Cambiar el recubrimiento de una placa de aluminio cambia su temperatura de equilibrio en 400 K; la degradación en órbita lo desplaza decenas de kelvin. La decisión central: ¿qué recubrimiento mantiene la temperatura de una superficie en su rango y qué espesor de anodizado se necesita?
+💡 **Cómo se explica en la clase [B84-C34](../programa/clases/B84/B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md):**
+- Ejercicio 1 · con los pasos indicados Calcula `α/ε` del OSR.
+- Pintura blanca u OSR según la carga interna y la degradación.
+- 🎯 **Por qué importa:** Cambiar el recubrimiento de una placa de aluminio cambia su temperatura de equilibrio en 400 K; la degradación en órbita lo desplaza decenas de kelvin. La decisión central: ¿qué recubrimiento mantiene la temperatura de una superficie en su rango y qué espesor de anodizado se necesita?
 
 📘 **Dónde se aprende** (1 clase): [B84-C34 · Tratamientos y recubrimientos superficiales de componentes espaciales](../programa/clases/B84/B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md).
 
@@ -1715,6 +1889,7 @@
 💡 **Cómo se explica en la clase [B105-C04](../programa/clases/B105/B105-C04-sistema-vestibular/CLASE.md):**
 - A["aceleración a<br/>y gravedad g"] --> O["otolitos<br/>f = a - g"]
 - *Descripción textual:* los otolitos miden `a − g` y los canales la velocidad angular filtrada; el cerebro combina ambas señales para estimar la orientación, y cuando cambia `g` la combinación debe readaptarse.
+- ⚠️ **Error frecuente:** Creer que el otolito mide la inclinación directamente. Mide `a − g` (8.1).
 - 🎯 **Por qué importa:** En la Tierra el cerebro usa la gravedad como referencia de «abajo». En caída libre esa referencia desaparece y el sensor sigue midiendo, pero su señal significa otra cosa.
 
 📘 **Dónde se aprende** (1 clase): [B105-C04 · Sistema vestibular](../programa/clases/B105/B105-C04-sistema-vestibular/CLASE.md).
@@ -1723,7 +1898,10 @@
 
 - La oxidación completa quema todo el carbono a CO₂.
 
-🎯 **Por qué importa (clase B59-C16):** Los residuos son una fuente de agua y de dióxido de carbono, pero también consumen oxígeno. La decisión central: ¿cuánto oxígeno cuesta cerrar el residuo y cuánta agua se recupera?
+💡 **Cómo se explica en la clase [B59-C16](../programa/clases/B59/B59-C16-desechos-y-reciclaje/CLASE.md):**
+- Escribir la oxidación completa de un residuo de fórmula empírica `CHₐO_bN_c`.
+- Límites: oxidación completa e ideal, un solo tipo de residuo, sin tóxicos ni metales.
+- 🎯 **Por qué importa:** Los residuos son una fuente de agua y de dióxido de carbono, pero también consumen oxígeno. La decisión central: ¿cuánto oxígeno cuesta cerrar el residuo y cuánta agua se recupera?
 
 📘 **Dónde se aprende** (1 clase): [B59-C16 · Desechos y reciclaje](../programa/clases/B59/B59-C16-desechos-y-reciclaje/CLASE.md).
 
@@ -1752,6 +1930,9 @@
 
 - El oxígeno disuelto (DO) es el que pueden respirar las raíces.
 
-🎯 **Por qué importa (clase B115-C01):** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
+💡 **Cómo se explica en la clase [B115-C01](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md):**
+- Estimar el oxígeno disuelto de entrada y la caída producida por la respiración de las raíces.
+- Oxigeno disuelto en la entrada (saturacion empirica, nivel del mar, aire 20.9 % O2)
+- 🎯 **Por qué importa:** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
 
 📘 **Dónde se aprende** (1 clase): [B115-C01 · Cultivos hidropónicos para hábitats](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md).

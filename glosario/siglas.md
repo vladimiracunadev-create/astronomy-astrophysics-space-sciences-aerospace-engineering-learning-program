@@ -8,7 +8,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los niveles I, II y III escalan la revisión según actividad, probabilidad de dosis y fisión. A2 es el valor de actividad de la tabla de la IAEA SSR-6.
 
-🎯 **Por qué importa (clase B86-C18):** Los límites de la energía nuclear en el espacio son tanto jurídicos y de seguridad como técnicos: quién aprueba, con qué análisis y con qué umbrales. Un ingeniero de potencia debe saber que estas decisiones existen y qué datos las gobiernan.
+💡 **Cómo se explica en la clase [B86-C18](../programa/clases/B86/B86-C18-seguridad-y-licenciamiento-energetico/CLASE.md):**
+- El Nivel I cubre fuentes radiactivas hasta `100000 × A2` (valor de la tabla 2 de la IAEA SSR-6, Rev.1).
+- El nivel de la fuente de `3408 g` con `A2 = 10⁸`, `10⁹`, `10¹⁰` y `10¹¹ Bq` es `2`, `2`, `2` y `1`, y el umbral de masa del Nivel I se mueve de `15,8 g` a `15783 g`.
+- ⚠️ **Error frecuente:** Tomar el `A2` ilustrativo como dato real. Se corrige con 8.3.
+- 🎯 **Por qué importa:** Los límites de la energía nuclear en el espacio son tanto jurídicos y de seguridad como técnicos: quién aprueba, con qué análisis y con qué umbrales. Un ingeniero de potencia debe saber que estas decisiones existen y qué datos las gobiernan.
 
 📘 **Dónde se aprende:** [B86-C18 · Seguridad y licenciamiento energético](../programa/clases/B86/B86-C18-seguridad-y-licenciamiento-energetico/CLASE.md).
 
@@ -16,7 +20,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El PV es el valor del trabajo planificado a la fecha; el EV, el valor del trabajo logrado; el AC, el costo real.
 
-🎯 **Por qué importa (clase B124-C15):** Un proyecto se descontrola de a poco; el valor ganado convierte «vamos bien» en números comparables. La decisión central: ¿cuánto va a costar el proyecto al terminar si el rendimiento actual se mantiene y qué paquete es el problema?
+💡 **Cómo se explica en la clase [B124-C15](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md):**
+- La suma de los paquetes coincide con la de los elementos y con el proyecto para BAC, PV, EV y AC (error `0,0e+00`): lo que está en los hijos es todo lo que está en el padre.
+- Con `PV = 57,00`, `EV = 47,70` y `AC = 60,00`: `CV = EV − AC = -12,30` y `SV = EV − PV = -9,30` Mum;
+- 🎯 **Por qué importa:** Un proyecto se descontrola de a poco; el valor ganado convierte «vamos bien» en números comparables. La decisión central: ¿cuánto va a costar el proyecto al terminar si el rendimiento actual se mantiene y qué paquete es el problema?
 
 📘 **Dónde se aprende:** [B124-C15 · Gestión de proyectos espaciales](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md).
 
@@ -107,7 +114,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B90-C12](../programa/clases/B90/B90-C12-vacio-termico-y-ciclos/CLASE.md):**
 - El coeficiente 1,9, el exponente 1/3 y el 1 414 K del factor de aceleración son valores de la literatura que no se consultaron.
-- *Descripción textual:* la órbita aporta amplitud y número de ciclos de servicio; el ensayo, su amplitud, frecuencia y temperatura máxima; el factor de aceleración reduce los ciclos a 485, que ocupan 42,7 días de cámara.
+- O["Orbita: dT 40 K<br/>5840 ciclos/ano"] --> A["Factor de aceleracion<br/>AF = 12.04"]
 - 🎯 **Por qué importa:** Una nave en órbita baja sufre unos 16 ciclos térmicos por día; no se pueden repetir 5 840 ciclos en tierra. La decisión central: ¿cuántos ciclos de ensayo con mayor amplitud representan un año de órbita y cuánto tarda la campaña?
 
 📘 **Dónde se aprende:** [B90-C12 · Vacío térmico y ciclos](../programa/clases/B90/B90-C12-vacio-termico-y-ciclos/CLASE.md).
@@ -117,7 +124,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** rama asintótica de gigantes (AGB).
 - La rama asintótica de gigantes (AGB) es la fase de masa baja e intermedia con un núcleo inerte de carbono y oxígeno rodeado de dos capas de fusión, de helio y de hidrógeno (descripción cualitativa estándar; las cifras no se consultaron).
 
-🎯 **Por qué importa (clase B24-C21):** Las estrellas AGB son una fuente importante de carbono, nitrógeno y elementos pesados del medio interestelar, y sus abundancias superficiales son el registro observable de lo que ocurre en su interior.
+💡 **Cómo se explica en la clase [B24-C21](../programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md):**
+- python programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/proceso_s.py
+- 🎯 **Por qué importa:** Las estrellas AGB son una fuente importante de carbono, nitrógeno y elementos pesados del medio interestelar, y sus abundancias superficiales son el registro observable de lo que ocurre en su interior.
 
 📘 **Dónde se aprende:** [B24-C21 · Rama asintótica de gigantes: pulsos térmicos y proceso s](../programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md).
 
@@ -126,7 +135,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** núcleo activo de galaxia (AGN).
 - Un núcleo activo de galaxia (AGN) es una región central cuya luminosidad no procede de estrellas sino de la acreción de gas sobre un agujero negro supermasivo.
 
-🎯 **Por qué importa (clase B25-C11):** Algunas galaxias tienen en el centro una fuente que supera a todas sus estrellas, y casi todas las galaxias grandes albergan un agujero negro supermasivo. Entender el AGN une el centro de la galaxia, su gas y su evolución.
+💡 **Cómo se explica en la clase [B25-C11](../programa/clases/B25/B25-C11-nucleos-activos-de-galaxias/CLASE.md):**
+- python programa/clases/B25/B25-C11-nucleos-activos-de-galaxias/agn_basico.py
+- 🎯 **Por qué importa:** Algunas galaxias tienen en el centro una fuente que supera a todas sus estrellas, y casi todas las galaxias grandes albergan un agujero negro supermasivo. Entender el AGN une el centro de la galaxia, su gas y su evolución.
 
 📘 **Dónde se aprende:** [B25-C11 · Núcleos activos de galaxias](../programa/clases/B25/B25-C11-nucleos-activos-de-galaxias/CLASE.md).
 
@@ -165,7 +176,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los términos del modelo: IA y IE (ceros de acimut y altura), CA (colimación), NPAE (no perpendicularidad de ejes), AN y AW (inclinación del eje vertical al norte y al oeste) y TF (flexión del tubo).
 
-🎯 **Por qué importa (clase B43-C26):** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
+💡 **Cómo se explica en la clase [B43-C26](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md):**
+- Montura sintética con `IA = 120"`, `IE = −80"`, `CA = 45"`, `NPAE = 20"`, `AN = 30"`, `AW = −25"` y `TF = 15"`, con 60 estrellas y ruido gaussiano de `1"` (el ruido realmente inyectado resulta de `1,162"` con la semilla).
+- 🎯 **Por qué importa:** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
 
 📘 **Dónde se aprende:** [B43-C26 · Modelo de flexiones y de apuntado de una montura](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md).
 
@@ -174,7 +187,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** análisis de varianza (ANOVA) de un factor.
 - Un análisis de varianza (ANOVA) de un factor descompone la variación total en una parte entre grupos y una parte dentro de los grupos.
 
-🎯 **Por qué importa (clase B13-C14):** Ocho estaciones de seguimiento miden el mismo desfase de un reloj de referencia. Cada una repite su medida cinco veces y obtiene resultados muy parecidos entre sí, pero las estaciones discrepan entre ellas.
+💡 **Cómo se explica en la clase [B13-C14](../programa/clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md):**
+- Realizar un análisis de varianza de un factor con diseño equilibrado.
+- 🎯 **Por qué importa:** Ocho estaciones de seguimiento miden el mismo desfase de un reloj de referencia. Cada una repite su medida cinco veces y obtiene resultados muy parecidos entre sí, pero las estaciones discrepan entre ellas.
 
 📘 **Dónde se aprende:** [B13-C14 · Repetibilidad y reproducibilidad](../programa/clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md).
 
@@ -190,7 +205,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El AP es el área bajo la curva precisión-exhaustividad con la precisión interpolada.
 
-🎯 **Por qué importa (clase B103-C08):** Un segmentador que acierta el 99 % de los píxeles puede no encontrar nunca la clase que importa, y dos detectores con AP de 0,58 y 0,60 pueden ser indistinguibles con 100 imágenes. La decisión central: ¿qué métricas y qué intervalo hacen falta para afirmar que un algoritmo de percepción es suficiente para una tarea?
+💡 **Cómo se explica en la clase [B103-C08](../programa/clases/B103/B103-C08-metricas-de-evaluacion-de-percepcion/CLASE.md):**
+- Control: un detector perfecto da `AP = 1,000`.
+- El AP es el área bajo la curva con precisión interpolada: `AP50 = 0,581`.
+- 🎯 **Por qué importa:** Un segmentador que acierta el 99 % de los píxeles puede no encontrar nunca la clase que importa, y dos detectores con AP de 0,58 y 0,60 pueden ser indistinguibles con 100 imágenes. La decisión central: ¿qué métricas y qué intervalo hacen falta para afirmar que un algoritmo de percepción es suficiente para una tarea?
 
 📘 **Dónde se aprende:** [B103-C08 · Métricas de evaluación de percepción](../programa/clases/B103/B103-C08-metricas-de-evaluacion-de-percepcion/CLASE.md).
 
@@ -312,11 +330,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El AUC es la probabilidad de que un afectado supere a un sano.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
-💡 **Cómo se explica en la clase [B33-C14](../programa/clases/B33/B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md):**
-- El AUC resume la discriminación sin depender del umbral.
-- Paso 4 · AUC. `U/(n_pos n_neg) = 0,8047`.
-- ⚠️ **Error frecuente:** Tomar el AUC por real. Se corrige con la sección 10.
-- 🎯 **Por qué importa:** La verificación decide si una alerta merece confianza. La decisión central: ¿cómo resumir la capacidad de discriminar de un pronóstico?
+💡 **Cómo se explica en la clase [B17-C05](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md):**
+- Comparar métodos con el área bajo la curva ROC.
+- 🎯 **Por qué importa:** El subsistema térmico de un satélite entrega temperatura y corriente. Cada una, por separado, puede estar dentro de su rango normal y sin embargo la pareja ser imposible: la corriente alta con temperatura baja no ocurre nunca en operación sana.
 
 📘 **Dónde se aprende:** [B17-C05 · Detección de anomalías](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md); [B33-C14 · Verificación de alertas con tablas de contingencia](../programa/clases/B33/B33-C14-verificacion-de-alertas-con-tablas-de-contingencia/CLASE.md); [B105-C13 · Farmacología y microgravedad](../programa/clases/B105/B105-C13-farmacologia-y-microgravedad/CLASE.md); [B105-C24 · Indicadores clínicos y biomarcadores de vuelo](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md).
 
@@ -324,7 +340,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los términos del modelo: IA y IE (ceros de acimut y altura), CA (colimación), NPAE (no perpendicularidad de ejes), AN y AW (inclinación del eje vertical al norte y al oeste) y TF (flexión del tubo).
 
-🎯 **Por qué importa (clase B43-C26):** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
+💡 **Cómo se explica en la clase [B43-C26](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md):**
+- Montura sintética con `IA = 120"`, `IE = −80"`, `CA = 45"`, `NPAE = 20"`, `AN = 30"`, `AW = −25"` y `TF = 15"`, con 60 estrellas y ruido gaussiano de `1"` (el ruido realmente inyectado resulta de `1,162"` con la semilla).
+- 🎯 **Por qué importa:** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
 
 📘 **Dónde se aprende:** [B43-C26 · Modelo de flexiones y de apuntado de una montura](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md).
 
@@ -352,7 +370,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El BCET es la inferior.
 
-🎯 **Por qué importa (clase B88-C30):** El análisis de planificación (C05) necesita `C` de cada tarea, y medir no basta porque el peor camino puede no ejercitarse. La decisión central: ¿cuál es una cota segura del tiempo de ejecución y cuánto pesimismo trae?
+💡 **Cómo se explica en la clase [B88-C30](../programa/clases/B88/B88-C30-analisis-de-peor-caso-de-tiempo-de-ejecucion-wcet/CLASE.md):**
+- El script [wcet.py](wcet.py) calcula el WCET y el BCET estáticos, mide 100 000 entradas aleatorias, estima el efecto de la caché y convierte a µs y utilización, y comprueba que el máximo medido no supera la cota.
+- 🎯 **Por qué importa:** El análisis de planificación (C05) necesita `C` de cada tarea, y medir no basta porque el peor camino puede no ejercitarse. La decisión central: ¿cuál es una cota segura del tiempo de ejecución y cuánto pesimismo trae?
 
 📘 **Dónde se aprende:** [B88-C30 · Análisis de peor caso de tiempo de ejecución (WCET)](../programa/clases/B88/B88-C30-analisis-de-peor-caso-de-tiempo-de-ejecucion-wcet/CLASE.md).
 
@@ -374,6 +394,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B47-C18](../programa/clases/B47/B47-C18-downlink-de-instrumentos-cientificos/CLASE.md):**
 - *Descripción textual:* la potencia radiada, las ganancias y las pérdidas dan `C/N₀`; dividido por la velocidad da `Eb/N₀`, que fija la BER.
+- Hallar la `Eb/N₀` requerida para BER 10⁻⁵.
 - ⚠️ **Error frecuente:** Tomar la BER teórica como medida. Se corrige con 8.2.
 - 🎯 **Por qué importa:** Los datos que no caben en un paso se pierden o se acumulan. La decisión central: ¿cuántos bits por paso admite el enlace con margen suficiente?
 
@@ -384,7 +405,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** distancia focal posterior (BFD).
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B41-C08):** Los programas de diseño óptico trazan rayos exactos. La decisión central: ¿cuándo se separa el rayo real del paraxial y cómo crece esa diferencia?
+💡 **Cómo se explica en la clase [B41-C08](../programa/clases/B41/B41-C08-trazado-de-rayos-para-telescopios/CLASE.md):**
+- Medir la distancia focal posterior exacta por altura.
+- paraxial (matrices): f = 195.0857 mm ; distancia focal posterior (vertice) = 191.7614 mm
+- 🎯 **Por qué importa:** Los programas de diseño óptico trazan rayos exactos. La decisión central: ¿cuándo se separa el rayo real del paraxial y cómo crece esa diferencia?
 
 📘 **Dónde se aprende:** [B41-C08 · Trazado de rayos para telescopios](../programa/clases/B41/B41-C08-trazado-de-rayos-para-telescopios/CLASE.md).
 
@@ -412,7 +436,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** Bundle Protocol (BP).
 - El Bundle Protocol (BP) crea una red de almacenamiento y reenvío con tolerancia a conectividad intermitente, retransmisión basada en custodia y reportes de estado (CCSDS 734.2-B-1).
 
-🎯 **Por qué importa (clase B89-C13):** Sin almacenamiento y reenvío, un rover marciano no podría comunicarse con Tierra: nunca hay una ruta continua. Entender los contactos, las capacidades y el encaminamiento es la base del diseño de redes interplanetarias.
+💡 **Cómo se explica en la clase [B89-C13](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md):**
+- Describir el almacenamiento y reenvío del Bundle Protocol.
+- 🎯 **Por qué importa:** Sin almacenamiento y reenvío, un rover marciano no podría comunicarse con Tierra: nunca hay una ruta continua. Entender los contactos, las capacidades y el encaminamiento es la base del diseño de redes interplanetarias.
 
 📘 **Dónde se aprende:** [B89-C13 · Protocolos para espacio profundo](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md).
 
@@ -431,7 +457,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los términos del modelo: IA y IE (ceros de acimut y altura), CA (colimación), NPAE (no perpendicularidad de ejes), AN y AW (inclinación del eje vertical al norte y al oeste) y TF (flexión del tubo).
 
-🎯 **Por qué importa (clase B43-C26):** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
+💡 **Cómo se explica en la clase [B43-C26](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md):**
+- Los errores formales más grandes son los de `CA` y `NPAE`, que están más correlacionados con otros términos.
+- Montura sintética con `IA = 120"`, `IE = −80"`, `CA = 45"`, `NPAE = 20"`, `AN = 30"`, `AW = −25"` y `TF = 15"`, con 60 estrellas y ruido gaussiano de `1"` (el ruido realmente inyectado resulta de `1,162"` con la semilla).
+- 🎯 **Por qué importa:** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
 
 📘 **Dónde se aprende:** [B43-C26 · Modelo de flexiones y de apuntado de una montura](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md).
 
@@ -442,6 +471,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B125-C02](../programa/clases/B125/B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md):**
 - Con `CAC = 6 000`: `LTV/CAC = 5,83` y el CAC se recupera en `6 000/700 = 8,6` meses.
+- Calcular la recuperación del costo de adquisición y la relación `LTV/CAC`.
 - 🎯 **Por qué importa:** El modelo de ingresos define cuándo entra el dinero y cuánto vale un cliente; ninguna clase anterior lo trata. La decisión central: ¿cuánto vale un cliente de suscripción, cuándo se reconoce su ingreso y cuánto abandono puede tolerar el negocio?
 
 📘 **Dónde se aprende:** [B125-C02 · Modelos de ingresos: suscripción y servicio](../programa/clases/B125/B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md); [B126-C04 · Costo de adquisición de clientes y economía unitaria](../programa/clases/B126/B126-C04-costo-de-adquisicion-de-clientes-y-economia-unitaria/CLASE.md).
@@ -463,6 +493,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B19-C05](../programa/clases/B19/B19-C05-inferencia-variacional/CLASE.md):**
 - CAVI converge a factores normales con media exacta y varianza `1/Λ_ii = 1 − r²`, es decir, desviación `√(1 − r²)`.
+- (b) CAVI da media 0 y desviación 0,4359 = `√(1 − r²)` para `r = 0,9`; cobertura nominal 90 % → ≈ 53 %.
 - 🎯 **Por qué importa:** Con miles de parámetros o millones de datos, un muestreador puede tardar horas o días. La inferencia variacional (VI) elige una familia de distribuciones manejables, por ejemplo gaussianas, y busca dentro de ella la más cercana a la posterior.
 
 📘 **Dónde se aprende:** [B19-C05 · Inferencia variacional](../programa/clases/B19/B19-C05-inferencia-variacional/CLASE.md).
@@ -507,6 +538,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B62-C07](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md):**
 - L["datos de laboratorio"] --> J["JPL / CDMS: FREQ, ERR, LGINT, ELO, GUP"]
+- Describir qué contiene y para qué sirve cada banco (CDMS, JPL, HITRAN, LAMDA).
 - 🎯 **Por qué importa:** Una identificación depende de una frecuencia, y esa frecuencia viene de un archivo que alguien ajustó y versionó. Si no sabes leer la columna de error, la unidad de la intensidad o la temperatura de referencia, importarás un error silencioso.
 
 📘 **Dónde se aprende:** [B62-C07 · Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md).
@@ -517,6 +549,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B83-C14](../programa/clases/B83/B83-C14-revisiones-cdr-y-trr/CLASE.md):**
 - Solo 2 de 3 criterios de CDR del ejemplo se cumplen.
+- La evidencia es la informe de preparación de CDR/TRR y nivel de ensayo del ejercicio 12 (sección 20).
 - 🎯 **Por qué importa:** Un ensayo mal preparado destruye hardware o no demuestra nada. La decisión central: ¿cada requisito tiene un método asignado, y cada ensayo está listo (procedimiento, equipo, configuración, personal e instalación) y con un nivel de carga definido?
 
 📘 **Dónde se aprende:** [B83-C14 · Revisiones CDR y TRR](../programa/clases/B83/B83-C14-revisiones-cdr-y-trr/CLASE.md).
@@ -561,7 +594,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** relación de estimación de costo (CER).
 - Una relación de estimación de costo (CER) es una ecuación que da el costo en función de un atributo.
 
-🎯 **Por qué importa (clase B124-C05):** Un costo sin banda de incertidumbre parece más preciso de lo que es. La decisión central: ¿cuánto cuesta esta misión, con qué banda y cuánto baja el costo unitario si se fabrican varias unidades?
+💡 **Cómo se explica en la clase [B124-C05](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md):**
+- El NASA Cost Estimating Handbook v4.0 (febrero de 2015) es la guía de la agencia para estimar costos; su apéndice E menciona relaciones de estimación de costo (CER) y reportes de curvas de aprendizaje, y su glosario dice que, en la teoría de la curva de aprendizaje, la primera unidad es la más cara.
+- 🎯 **Por qué importa:** Un costo sin banda de incertidumbre parece más preciso de lo que es. La decisión central: ¿cuánto cuesta esta misión, con qué banda y cuánto baja el costo unitario si se fabrican varias unidades?
 
 📘 **Dónde se aprende:** [B124-C05 · Estimación de costos de misión](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md).
 
@@ -572,6 +607,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B90-C06](../programa/clases/B90/B90-C06-integracion-mecanica-de-subsistemas/CLASE.md):**
 - Un CubeSat 3U de siete piezas suma 3,25 kg, con centro de masa en (1,85; −1,11; 22,92) mm, dentro de los límites de ±20, ±20 y ±70 mm.
+- Calcular el centro de masa y el tensor de inercia de un ensamble por ejes paralelos.
 - 🎯 **Por qué importa:** Un perno mal apretado se afloja con la vibración o se rompe por exceso de carga; un centro de masa fuera de rango desvía la nave en el despliegue. La decisión central: ¿qué par de apriete garantiza que la unión no se separe ni se plastifique, y el conjunto queda dentro de los límites de masa?
 
 📘 **Dónde se aprende:** [B90-C06 · Integración mecánica de subsistemas](../programa/clases/B90/B90-C06-integracion-mecanica-de-subsistemas/CLASE.md).
@@ -581,6 +617,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Los elementos CHNOPS (carbono, hidrógeno, nitrógeno, oxígeno, fósforo, azufre) forman la mayor parte de la materia viva conocida.
 
 💡 **Cómo se explica en la clase [B56-C02](../programa/clases/B56/B56-C02-bioquimica-y-metabolismo-terrestre/CLASE.md):**
+- Ejercicio 8. Balancea `N₂ + 3 H₂ → 2 NH₃` y di qué elementos de CHNOPS intervienen.
+- Ejercicio 10 · transferencia. ¿Por qué la química de CHNOPS no demuestra que toda vida use esos elementos?
 - ⚠️ **Error frecuente:** Generalizar CHNOPS a toda la vida posible. Se corrige con el ejercicio 10.
 - 🎯 **Por qué importa:** Para buscar vida hay que saber qué hace la vida conocida con la materia: qué elementos usa y de dónde saca energía. La decisión central: dada una reacción metabólica, ¿está balanceada y cuánta energía libre libera o consume por mol?
 
@@ -590,7 +628,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Una condrita es un meteorito formado por materiales que no se fundieron del todo; las condritas carbonáceas son ricas en carbono, y las CI son las más primitivas en cuanto a su composición.
 
-🎯 **Por qué importa (clase B06-C20):** Hay dos formas de saber de qué está hecho el Sistema Solar. Una es mirar la luz del Sol y deducir su composición; la otra es analizar en laboratorio meteoritos que conservan la composición del material con que se formó.
+💡 **Cómo se explica en la clase [B06-C20](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md):**
+- Las CI son las que menos se han modificado, aunque sufrieron alteración por agua y calentamiento, y se les considera una buena aproximación al material no volátil del que se formó el Sistema Solar (S1).
+- No se puede concluir que Bennu sea «más rico en carbono que las CI» con tanta seguridad: la comparación mezcla un valor medido en porciones de una muestra (S2) con un cálculo propio a partir de abundancias promedio (S1), con omisiones y sin incertidumbre propagada.
+- ⚠️ **Error frecuente:** Tratar la «CI media» como un dato medido. Se corrige con la sección 8.4 y el ejercicio 9.
+- 🎯 **Por qué importa:** Hay dos formas de saber de qué está hecho el Sistema Solar. Una es mirar la luz del Sol y deducir su composición; la otra es analizar en laboratorio meteoritos que conservan la composición del material con que se formó.
 
 📘 **Dónde se aprende:** [B06-C20 · Análisis químico introductorio de meteoritos](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md).
 
@@ -606,7 +648,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los tipos descritos por NAIF son SPK (posición y velocidad), CK (orientación de nave), PCK (tamaño, forma y orientación de cuerpos), IK (campo de visión de instrumentos), FK (marcos), LSK (segundos intercalares), SCLK (reloj de nave) y DSK (formas).
 
-🎯 **Por qué importa (clase B74-C21):** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
+💡 **Cómo se explica en la clase [B74-C21](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md):**
+- Por tipo: SPK, CK, PCK, IK, FK, LSK, SCLK.
+- Un CK (actitud de la nave) junto con IK y FK.
+- 🎯 **Por qué importa:** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
 
 📘 **Dónde se aprende:** [B74-C21 · Kernels SPICE y su uso en navegación](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md).
 
@@ -693,7 +738,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** Costo más incentivo (CPIF).
 - Precio fijo (FFP): el pago no depende del costo real. Costo más incentivo (CPIF): se paga el costo real más un honorario que baja cuando el costo supera el objetivo.
 
-🎯 **Por qué importa (clase B124-C10):** El tipo de contrato reparte el riesgo de sobrecosto entre quien compra y quien vende. La decisión central: ¿cuánto riesgo asume cada parte con cada tipo de contrato y cuánto cuesta ese reparto en promedio?
+💡 **Cómo se explica en la clase [B124-C10](../programa/clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md):**
+- Ninguno es mejor en sí: depende de qué tan bien se conoce el costo, y el modelo no incluye incentivos a ocultar costos ni renegociaciones.
+- Describir un contrato de precio fijo y uno de costo más honorario con incentivo.
+- 🎯 **Por qué importa:** El tipo de contrato reparte el riesgo de sobrecosto entre quien compra y quien vende. La decisión central: ¿cuánto riesgo asume cada parte con cada tipo de contrato y cuánto cuesta ese reparto en promedio?
 
 📘 **Dónde se aprende:** [B124-C10 · Contratos y compras espaciales](../programa/clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md).
 
@@ -701,7 +749,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El CR3BP estudia una masa despreciable bajo la gravedad de dos cuerpos masivos en órbita circular mutua.
 
-🎯 **Por qué importa (clase B73-C01):** Con tres cuerpos no hay solución cerrada, pero sí una cantidad conservada que organiza todo lo demás: puntos de equilibrio, regiones prohibidas y transferencias de bajo costo. La decisión central: ¿cuándo basta el modelo de tres cuerpos restringido, y cómo sé que mi integración no inventa dinámica?
+💡 **Cómo se explica en la clase [B73-C01](../programa/clases/B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md):**
+- Escribir las ecuaciones del CR3BP adimensional con el parámetro de masa `μ`.
+- La evidencia es la ficha del CR3BP Tierra–Luna con control de conservación del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** Con tres cuerpos no hay solución cerrada, pero sí una cantidad conservada que organiza todo lo demás: puntos de equilibrio, regiones prohibidas y transferencias de bajo costo. La decisión central: ¿cuándo basta el modelo de tres cuerpos restringido, y cómo sé que mi integración no inventa dinámica?
 
 📘 **Dónde se aprende:** [B73-C01 · Problema restringido de tres cuerpos](../programa/clases/B73/B73-C01-problema-restringido-de-tres-cuerpos/CLASE.md).
 
@@ -720,7 +771,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El CRC-15 usa el polinomio `0x4599`.
 
-🎯 **Por qué importa (clase B88-C07):** El bus fija cuánta telemetría y cuántos comandos caben y con qué retardo. La decisión central: ¿cuál es el caudal útil y el peor tiempo de trama de cada bus para mi carga?
+💡 **Cómo se explica en la clase [B88-C07](../programa/clases/B88/B88-C07-buses-i2c-spi-can-y-spacewire/CLASE.md):**
+- Implementar el CRC-15 del CAN y el relleno.
+- Ejercicio 10 · transferencia. Transferencia. ¿Qué cambia si el CRC-15 se calcula con un polinomio distinto?
+- 🎯 **Por qué importa:** El bus fija cuánta telemetría y cuántos comandos caben y con qué retardo. La decisión central: ¿cuál es el caudal útil y el peor tiempo de trama de cada bus para mi carga?
 
 📘 **Dónde se aprende:** [B88-C07 · Buses I2C SPI CAN y SpaceWire](../programa/clases/B88/B88-C07-buses-i2c-spi-can-y-spacewire/CLASE.md).
 
@@ -752,7 +806,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El CRC-8 con polinomio `0x07` da `0xF4` para `123456789`.
 
-🎯 **Por qué importa (clase B88-C09):** Un telecomando aceptado en el estado equivocado puede dañar la nave; uno rechazado en el estado correcto puede perderla. La decisión central: ¿qué comando es válido en cada modo y qué comprobaciones lo protegen?
+💡 **Cómo se explica en la clase [B88-C09](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md):**
+- Ejercicio 6 · autónomo. Calcula el CRC-8 de un solo byte `0x00` con polinomio `0x07`.
+- El script [telecomandos_modos.py](telecomandos_modos.py) imprime la matriz estado–comando, ejecuta un guion de nueve telecomandos con CRC y secuencia y comprueba 11 celdas aceptadas, el modo final `SAFE` y el CRC-8 de prueba `0xF4`.
+- 🎯 **Por qué importa:** Un telecomando aceptado en el estado equivocado puede dañar la nave; uno rechazado en el estado correcto puede perderla. La decisión central: ¿qué comando es válido en cada modo y qué comprobaciones lo protegen?
 
 📘 **Dónde se aprende:** [B88-C09 · Telecomandos y estados de misión](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md).
 
@@ -760,7 +817,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El POD es la fracción de eventos detectados, el FAR la de alertas falsas y el CSI la de aciertos sobre todos los casos relevantes.
 
-🎯 **Por qué importa (clase B30-C20):** Una alerta con muchas falsas alarmas se ignora y una con muchos fallos no sirve; medir ambas cosas es parte del oficio. La decisión central: ¿cómo se clasifica un evento y cómo se mide si una regla de alerta tiene habilidad?
+💡 **Cómo se explica en la clase [B30-C20](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md):**
+- Calcular POD, FAR, CSI y la puntuación de Heidke por dos fórmulas.
+- El script [alerta.py](alerta.py) clasifica un año sintético, arma la tabla de contingencia y calcula POD, FAR, CSI y Heidke por dos fórmulas (comprueba que las dos fórmulas de Heidke coinciden a `10⁻¹²`).
+- 🎯 **Por qué importa:** Una alerta con muchas falsas alarmas se ignora y una con muchos fallos no sirve; medir ambas cosas es parte del oficio. La decisión central: ¿cómo se clasifica un evento y cómo se mide si una regla de alerta tiene habilidad?
 
 📘 **Dónde se aprende:** [B30-C20 · Análisis de alerta solar real](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md).
 
@@ -792,7 +852,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Chick–Watson: inactivación proporcional a `C·t`. CT: concentración por tiempo.
 
-🎯 **Por qué importa (clase B106-C26):** Las aguas grises son el mayor volumen del lazo y su carga orgánica hay que destruirla antes de potabilizar. La decisión central: ¿qué volumen de biorreactor y qué desinfección dan la remoción y la reducción de microorganismos requeridas?
+💡 **Cómo se explica en la clase [B106-C26](../programa/clases/B106/B106-C26-tratamiento-de-aguas-grises-en-habitats/CLASE.md):**
+- Una desinfección de 4 log exige `CT = 8 mg·min/L`.
+- Ejercicio 6 · autónomo. ¿Qué `CT` da 3 log?
+- ⚠️ **Error frecuente:** Olvidar la desinfección. Añade CT (8.3).
+- 🎯 **Por qué importa:** Las aguas grises son el mayor volumen del lazo y su carga orgánica hay que destruirla antes de potabilizar. La decisión central: ¿qué volumen de biorreactor y qué desinfección dan la remoción y la reducción de microorganismos requeridas?
 
 📘 **Dónde se aprende:** [B106-C26 · Tratamiento de aguas grises en hábitats](../programa/clases/B106/B106-C26-tratamiento-de-aguas-grises-en-habitats/CLASE.md).
 
@@ -871,7 +935,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** diagrama de cuerpo libre (DCL).
 - Un diagrama de cuerpo libre (DCL) es un esquema que muestra un cuerpo aislado y todas las fuerzas externas que actúan sobre él, como flechas desde el cuerpo.
 
-🎯 **Por qué importa (clase B05-C05):** En un lanzamiento o en una maniobra hay varias fuerzas a la vez: gravedad, empuje, tensiones, rozamiento. La pregunta motivadora es: ¿cómo dejo de olvidar fuerzas y de contar dos veces una misma?
+💡 **Cómo se explica en la clase [B05-C05](../programa/clases/B05/B05-C05-diagramas-de-cuerpo-libre/CLASE.md):**
+- Dibujar un diagrama de cuerpo libre con ejes y ángulos declarados.
+- python programa/clases/B05/B05-C05-diagramas-de-cuerpo-libre/equilibrio_de_fuerzas.py
+- 🎯 **Por qué importa:** En un lanzamiento o en una maniobra hay varias fuerzas a la vez: gravedad, empuje, tensiones, rozamiento. La pregunta motivadora es: ¿cómo dejo de olvidar fuerzas y de contar dos veces una misma?
 
 📘 **Dónde se aprende:** [B05-C05 · Diagramas de cuerpo libre](../programa/clases/B05/B05-C05-diagramas-de-cuerpo-libre/CLASE.md).
 
@@ -880,6 +947,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - CCM es la conducción continua y DCM la discontinua.
 
 💡 **Cómo se explica en la clase [B86-C08](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md):**
+- Inductancia critica CCM/DCM = 5.04 uH (L = 22 uH: conduccion continua)
 - ⚠️ **Error frecuente:** Ignorar CCM/DCM. Se corrige con 8.3.
 - 🎯 **Por qué importa:** Un convertidor que reduce la tensión con un interruptor y una bobina puede ser mucho más eficiente que un regulador lineal, pero introduce rizado, ruido y pérdidas de conmutación que hay que dimensionar. La decisión central: ¿qué ciclo de trabajo, bobina y condensador dan `5 V` desde `28 V` con rizado y eficiencia aceptables?
 
@@ -913,7 +981,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - La transformada discreta de Fourier (DFT) de `N` muestras es `X[k] = Σ_{n=0}^{N−1} x[n] e^{−2π i k n/N}`, para `k = 0, …, N − 1`; es la convención usada en NumPy y en esta clase.
 - La DFT es la transformada de Fourier discreta.
 
-🎯 **Por qué importa (clase B15-C04):** Si una estrella pulsa con una pequeña amplitud en medio del ruido, mirar la curva de luz no la revela, pero su espectro de frecuencias sí: un pico a una frecuencia concreta. Lo mismo ocurre con una vibración en una estructura espacial, una señal de radio o un periodo en un registro geofísico.
+💡 **Cómo se explica en la clase [B15-C04](../programa/clases/B15/B15-C04-transformada-de-fourier/CLASE.md):**
+- Definir la transformada discreta de Fourier (DFT) y calcular una de 4 muestras a mano.
+- 🎯 **Por qué importa:** Si una estrella pulsa con una pequeña amplitud en medio del ruido, mirar la curva de luz no la revela, pero su espectro de frecuencias sí: un pico a una frecuencia concreta. Lo mismo ocurre con una vibración en una estructura espacial, una señal de radio o un periodo en un registro geofísico.
 
 📘 **Dónde se aprende:** [B15-C04 · Transformada de Fourier](../programa/clases/B15/B15-C04-transformada-de-fourier/CLASE.md); [B31-C04 · Principio de incertidumbre](../programa/clases/B31/B31-C04-principio-de-incertidumbre/CLASE.md).
 
@@ -971,7 +1041,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** oxígeno disuelto (DO).
 - El oxígeno disuelto (DO) es el que pueden respirar las raíces.
 
-🎯 **Por qué importa (clase B115-C01):** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
+💡 **Cómo se explica en la clase [B115-C01](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md):**
+- Estimar el oxígeno disuelto de entrada y la caída producida por la respiración de las raíces.
+- Oxigeno disuelto en la entrada (saturacion empirica, nivel del mar, aire 20.9 % O2)
+- 🎯 **Por qué importa:** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
 
 📘 **Dónde se aprende:** [B115-C01 · Cultivos hidropónicos para hábitats](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md).
 
@@ -1060,7 +1133,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Elevación máxima: pico de la pasada. ECI/ECEF: marcos inercial y fijo a la Tierra.
 
-🎯 **Por qué importa (clase B96-C04):** Un contacto perdido por mala planificación no se recupera hasta la siguiente pasada, que puede estar a horas. La decisión central: ¿qué ventanas hay, cuánto duran y cuáles merece la pena usar?
+💡 **Cómo se explica en la clase [B96-C04](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md):**
+- Se rota a ECEF con `θ = ωₑ t` y se calcula la elevación con el vector hacia arriba de la estación.
+- O["Orbita circular ECI"] --> R["Rotacion a ECEF"]
+- ⚠️ **Error frecuente:** Olvidar la rotación terrestre. Pasa de ECI a ECEF (8.2)
+- 🎯 **Por qué importa:** Un contacto perdido por mala planificación no se recupera hasta la siguiente pasada, que puede estar a horas. La decisión central: ¿qué ventanas hay, cuánto duran y cuáles merece la pena usar?
 
 📘 **Dónde se aprende:** [B96-C04 · Planificación de contactos](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md).
 
@@ -1080,7 +1157,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El ECM es el error cuadrático medio.
 
-🎯 **Por qué importa (clase B74-C10):** Un filtro puede dar una estimación aceptable y una covarianza falsa. La decisión central: ¿cuándo basta el EKF y cuándo la covarianza obliga a usar un filtro no lineal, y cómo lo verifico con una referencia?
+💡 **Cómo se explica en la clase [B74-C10](../programa/clases/B74/B74-C10-filtro-de-kalman-no-lineal/CLASE.md):**
+- Ejercicio 4 · autónomo. ¿Por qué el ECM de los tres es casi igual?
+- Ejercicio 12 · integrador. Integrador. Elabora tu *comparación EKF frente a UKF*: ECM y NEES de EKF, UKF y Bayes, explicación de la diferencia y límites, rotulando lo sintético.
+- 🎯 **Por qué importa:** Un filtro puede dar una estimación aceptable y una covarianza falsa. La decisión central: ¿cuándo basta el EKF y cuándo la covarianza obliga a usar un filtro no lineal, y cómo lo verifico con una referencia?
 
 📘 **Dónde se aprende:** [B74-C10 · Filtro de Kalman no lineal](../programa/clases/B74/B74-C10-filtro-de-kalman-no-lineal/CLASE.md).
 
@@ -1112,6 +1192,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Una EDP relaciona una función de varias variables con sus derivadas parciales.
 
 💡 **Cómo se explica en la clase [B11-C13](../programa/clases/B11/B11-C13-ecuaciones-en-derivadas-parciales/CLASE.md):**
+- Escribir las EDP del calor, de la onda, de Laplace y de la advección.
+- Clasificar una EDP lineal de segundo orden con `B² − 4AC`.
 - ⚠️ **Error frecuente:** Confundir EDO y EDP. Se corrige con el ejercicio 1 y el vocabulario (sección 6).
 - 🎯 **Por qué importa:** El calor que atraviesa un escudo, las ondas en una estructura, el potencial gravitatorio de un cuerpo extenso, el transporte de partículas en un plasma: todos son EDP. Antes de discretizar hay que saber *qué tipo de problema es* (qué datos pide, cómo viaja la información) porque de ello depende el método.
 
@@ -1160,6 +1242,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Prototipo: versión temprana para explorar el diseño. Modelo de ingeniería (EM): modelo funcionalmente representativo para probar el diseño.
 
 💡 **Cómo se explica en la clase [B90-C24](../programa/clases/B90/B90-C24-prototipado-y-modelos-de-ingenieria-de-subconjuntos/CLASE.md):**
+- D["Defecto de diseno<br/>q = 0.30"] --> E["Modelo de ingenieria<br/>detecta 0.80"]
 - *Descripción textual:* un defecto de diseño pasa por el modelo de ingeniería, que detecta la mayoría y lo corrige a bajo costo; los que escapan pasan a la unidad de vuelo, que detecta parte a mayor costo de corrección; los que escapan de ambas llegan a órbita y cuestan la pérdida.
 - 🎯 **Por qué importa:** Un modelo de ingeniería cuesta dinero y calendario; un defecto que llega a órbita cuesta la misión. La decisión central: ¿vale la pena construir un modelo previo, o conviene el protovuelo o solo la unidad de vuelo, dado el valor de lo que se arriesga?
 
@@ -1169,7 +1252,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - EMC: capacidad de un equipo de funcionar en su entorno sin perturbarlo ni ser perturbado.
 
-🎯 **Por qué importa (clase B90-C13):** Un convertidor de potencia emite armónicos que viajan por el arnés y pueden perturbar a otro equipo. El margen de 2 dB que pasa hoy puede ser negativo mañana si cambia la incertidumbre.
+💡 **Cómo se explica en la clase [B90-C13](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md):**
+- No: el límite es sintético; el vigente sale de los requisitos de EMC del proyecto.
+- python programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/margenes_emc.py
+- 🎯 **Por qué importa:** Un convertidor de potencia emite armónicos que viajan por el arnés y pueden perturbar a otro equipo. El margen de 2 dB que pasa hoy puede ser negativo mañana si cambia la incertidumbre.
 
 📘 **Dónde se aprende:** [B90-C13 · Compatibilidad electromagnética EMC](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md).
 
@@ -1177,7 +1263,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B90-C14):** Un transmisor de 1 W deja un armónico de −30 dBm; el piso de ruido de un receptor estrecho está cerca de −132 dBm. La diferencia de más de 100 dB se pierde con facilidad en un chasis de 10 cm.
+💡 **Cómo se explica en la clase [B90-C14](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md):**
+- Ejercicio 10 · transferencia. Transferencia. ¿Qué medidas reducen la EMI sin cambiar la distancia?
+- Ejercicio 11 · transferencia. Transferencia. ¿Por qué la prueba de EMI se hace con el sistema integrado?
+- 🎯 **Por qué importa:** Un transmisor de 1 W deja un armónico de −30 dBm; el piso de ruido de un receptor estrecho está cerca de −132 dBm. La diferencia de más de 100 dB se pierde con facilidad en un chasis de 10 cm.
 
 📘 **Dónde se aprende:** [B90-C14 · Interferencias electromagnéticas EMI](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md).
 
@@ -1187,6 +1276,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B46-C10](../programa/clases/B46/B46-C10-radioastronomia-mediante-sdr/CLASE.md):**
 - Con `fs = 2,4 MHz` y `N = 1024` la resolución es `2343,75 Hz`; el ENBW de Hann vale `1,5000` bines; la dispersión relativa de un canal pasa de `0,963` con `M = 1` a `0,128` con `M = 64`.
+- Ejercicio 4. ENBW en Hz de Hann con `Δf = 2343,75 Hz`.
 - ⚠️ **Error frecuente:** Olvidar el ENBW. Se corrige con 8.1.
 - 🎯 **Por qué importa:** Promediar espectros es la forma práctica de aplicar la ecuación del radiómetro con un instrumento barato, pero la ventana cambia el ancho de banda efectivo. La decisión central: ¿cuántos espectros promediar para detectar una línea débil?
 
@@ -1231,7 +1321,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** parámetros de orientación terrestre (EOP).
 - Los parámetros de orientación terrestre (EOP) describen la orientación del Polo Celeste Intermedio (CIP) en el sistema terrestre y en el celeste y la orientación de la Tierra en torno a ese eje (S1, 2.2.2).
 
-🎯 **Por qué importa (clase B13-C22):** Una estación terrestre apunta a una nave en el sistema celeste. Para ello debe saber cuánto ha girado la Tierra, hacia dónde apunta su eje en el cielo y dónde está ese eje dentro de la corteza.
+💡 **Cómo se explica en la clase [B13-C22](../programa/clases/B13/B13-C22-parametros-de-orientacion-terrestre-precesion-nutacion-ut1-y-movimiento-polar/CLASE.md):**
+- python programa/clases/B13/B13-C22-parametros-de-orientacion-terrestre-precesion-nutacion-ut1-y-movimiento-polar/orientacion_terrestre.py
+- 🎯 **Por qué importa:** Una estación terrestre apunta a una nave en el sistema celeste. Para ello debe saber cuánto ha girado la Tierra, hacia dónde apunta su eje en el cielo y dónde está ese eje dentro de la corteza.
 
 📘 **Dónde se aprende:** [B13-C22 · Parámetros de orientación terrestre: precesión, nutación, UT1 y movimiento polar](../programa/clases/B13/B13-C22-parametros-de-orientacion-terrestre-precesion-nutacion-ut1-y-movimiento-polar/CLASE.md).
 
@@ -1240,7 +1332,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** ángulo de rotación terrestre (ERA).
 - El ángulo de rotación terrestre (ERA) es el ángulo entre un origen celeste de referencia y un origen terrestre, que describe la rotación de la Tierra en torno a su eje; la convención IERS lo define como una función lineal de `UT1` (S1, ec. 5.14).
 
-🎯 **Por qué importa (clase B13-C10):** Un telescopio en el desierto debe saber cuándo un objeto pasa por su meridiano, que es cuando está más alto y se observa mejor. Esa hora no es la del reloj civil: el cielo se adelanta casi cuatro minutos cada día.
+💡 **Cómo se explica en la clase [B13-C10](../programa/clases/B13/B13-C10-tiempo-sidereo-local-y-terrestre/CLASE.md):**
+- Definir el ángulo de rotación terrestre (ERA) y su fórmula convencional.
+- 🎯 **Por qué importa:** Un telescopio en el desierto debe saber cuándo un objeto pasa por su meridiano, que es cuando está más alto y se observa mejor. Esa hora no es la del reloj civil: el cielo se adelanta casi cuatro minutos cada día.
 
 📘 **Dónde se aprende:** [B13-C10 · Tiempo sidéreo local y terrestre](../programa/clases/B13/B13-C10-tiempo-sidereo-local-y-terrestre/CLASE.md).
 
@@ -1250,6 +1344,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B90-C03](../programa/clases/B90/B90-C03-proteccion-frente-a-esd/CLASE.md):**
 - La ESD Association (F11) publica ANSI/ESD S20.20 (versión 2021 citada en su página) y su página indica que el Departamento de Defensa de EE.
+- Ejercicio 11 · transferencia. Transferencia. ¿Por qué la ESD es un tema de integración y no solo de diseño?
 - 🎯 **Por qué importa:** Un componente electrónico puede quedar con una falla latente tras una descarga que nadie sintió: una persona percibe una chispa solo por encima de unos miles de voltios (orden de magnitud no consultado), por encima de lo que puede dañar a un componente sensible.
 
 📘 **Dónde se aprende:** [B90-C03 · Protección frente a ESD](../programa/clases/B90/B90-C03-proteccion-frente-a-esd/CLASE.md).
@@ -1280,6 +1375,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El ETL reparte la población con `(2J+1) exp(−E_J/kT)`.
 
 💡 **Cómo se explica en la clase [B32-C02](../programa/clases/B32/B32-C02-equilibrio-termodinamico-local-y-desviaciones-no-lte/CLASE.md):**
+- Ejercicio 11 · transferencia. Transferencia. ¿Qué falla si no hay ETL?
 - ⚠️ **Error frecuente:** Aplicar ETL sin discutirlo. Se corrige con 8.3.
 - 🎯 **Por qué importa:** Si el ETL falla, las abundancias que se derivan son erróneas. La decisión central: ¿cuánto hidrógeno está ionizado a cada temperatura y densidad?
 
@@ -1289,7 +1385,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El PV es el valor del trabajo planificado a la fecha; el EV, el valor del trabajo logrado; el AC, el costo real.
 
-🎯 **Por qué importa (clase B124-C15):** Un proyecto se descontrola de a poco; el valor ganado convierte «vamos bien» en números comparables. La decisión central: ¿cuánto va a costar el proyecto al terminar si el rendimiento actual se mantiene y qué paquete es el problema?
+💡 **Cómo se explica en la clase [B124-C15](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md):**
+- La suma de los paquetes coincide con la de los elementos y con el proyecto para BAC, PV, EV y AC (error `0,0e+00`): lo que está en los hijos es todo lo que está en el padre.
+- Con `PV = 57,00`, `EV = 47,70` y `AC = 60,00`: `CV = EV − AC = -12,30` y `SV = EV − PV = -9,30` Mum;
+- 🎯 **Por qué importa:** Un proyecto se descontrola de a poco; el valor ganado convierte «vamos bien» en números comparables. La decisión central: ¿cuánto va a costar el proyecto al terminar si el rendimiento actual se mantiene y qué paquete es el problema?
 
 📘 **Dónde se aprende:** [B124-C15 · Gestión de proyectos espaciales](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md).
 
@@ -1309,7 +1408,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - La exactitud es `(TP + TN)/total`; la precisión, `TP/(TP + FP)`; la exhaustividad (*recall*), `TP/(TP + FN)`; el F1, la media armónica de las dos últimas.
 
-🎯 **Por qué importa (clase B25-C20):** Clasificar galaxias a gran escala exige algo más que una regla que parezca razonable: hay que decir qué debe cumplir, probarlo contra casos de respuesta conocida y evaluar con honestidad cómo se comporta donde los datos son malos.
+💡 **Cómo se explica en la clase [B25-C20](../programa/clases/B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md):**
+- G --> H["Exactitud, precisión, recall, F1"]
+- Construir la matriz de confusión y calcular exactitud, precisión, exhaustividad y F1.
+- 🎯 **Por qué importa:** Clasificar galaxias a gran escala exige algo más que una regla que parezca razonable: hay que decir qué debe cumplir, probarlo contra casos de respuesta conocida y evaluar con honestidad cómo se comporta donde los datos son malos.
 
 📘 **Dónde se aprende:** [B25-C20 · Proyecto de clasificación galáctica](../programa/clases/B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md).
 
@@ -1332,6 +1434,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B30-C20](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md):**
 - *Descripción textual:* las medidas se convierten en escalas G, S y R; la regla y lo observado forman la tabla de contingencia, de la que salen POD, FAR y Heidke.
+- Calcular POD, FAR, CSI y la puntuación de Heidke por dos fórmulas.
 - 🎯 **Por qué importa:** Una alerta con muchas falsas alarmas se ignora y una con muchos fallos no sirve; medir ambas cosas es parte del oficio. La decisión central: ¿cómo se clasifica un evento y cómo se mide si una regla de alerta tiene habilidad?
 
 📘 **Dónde se aprende:** [B30-C20 · Análisis de alerta solar real](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md); [B33-C13 · Pronóstico de actividad geomagnética](../programa/clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md).
@@ -1414,6 +1517,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B15-C07](../programa/clases/B15/B15-C07-filtrado-digital/CLASE.md):**
 - Un FIR de coeficientes simétricos y `M` términos retrasa todas las frecuencias por igual, `(M − 1)/2` muestras (en el laboratorio, un pulso con centroide en 150 sale en `165` con `M = 31`: retardo `15,000` exacto).
+- (4) retardo del FIR causal (M=31): centroide de 150.000 a 165.000 (retardo 15.000; teoría 15.0)
 - 🎯 **Por qué importa:** Una curva de luz tiene una modulación lenta de la estrella (manchas que rotan) de 2000 partes por millón y, escondido en ella, el paso de un planeta que reduce el brillo 1000 ppm durante tres horas. Para ver el tránsito hay que quitar la modulación; pero si el filtro es demasiado agresivo, también se come parte del tránsito.
 
 📘 **Dónde se aprende:** [B15-C07 · Filtrado digital](../programa/clases/B15/B15-C07-filtrado-digital/CLASE.md).
@@ -1435,6 +1539,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B40-C14](../programa/clases/B40/B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md):**
 - *Descripción textual:* se escribe y se lee un FITS, se convierten unidades y se evalúa una verosimilitud por bandas.
+- Escribir y leer cabeceras FITS de 80 caracteres.
 - 🎯 **Por qué importa:** Usar un producto sin leer su cabecera es una fuente clásica de errores de unidades y de orden de pixeles. La decisión central: ¿qué dice la cabecera y cómo se convierte y se compara con un modelo?
 
 📘 **Dónde se aprende:** [B40-C14 · Productos de datos de Planck y misiones del CMB](../programa/clases/B40/B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md).
@@ -1443,7 +1548,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los tipos descritos por NAIF son SPK (posición y velocidad), CK (orientación de nave), PCK (tamaño, forma y orientación de cuerpos), IK (campo de visión de instrumentos), FK (marcos), LSK (segundos intercalares), SCLK (reloj de nave) y DSK (formas).
 
-🎯 **Por qué importa (clase B74-C21):** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
+💡 **Cómo se explica en la clase [B74-C21](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md):**
+- Por tipo: SPK, CK, PCK, IK, FK, LSK, SCLK.
+- Un CK (actitud de la nave) junto con IK y FK.
+- 🎯 **Por qué importa:** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
 
 📘 **Dónde se aprende:** [B74-C21 · Kernels SPICE y su uso en navegación](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md).
 
@@ -1488,6 +1596,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B29-C07](../programa/clases/B29/B29-C07-metodos-de-validacion-planetaria/CLASE.md):**
 - Con un solo observable débil, el FPP mínimo es `0,21`: no se puede validar.
+- Definir la probabilidad de falso positivo `FPP = 1 − P(planeta)`.
 - ⚠️ **Error frecuente:** Dar por validado un FPP alto. Se corrige con el ejercicio 9.
 - 🎯 **Por qué importa:** Hay muchos más candidatos que posibilidades de seguimiento. Validar bien exige probabilidades honestas: ni optimistas ni conservadoras en exceso.
 
@@ -1500,6 +1609,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B106-C02](../programa/clases/B106/B106-C02-presurizacion-de-modulos/CLASE.md):**
 - Un cilindro de 2 m de radio a 101,325 kPa necesita, con factor de seguridad 2 y una aleación ilustrativa de 276 MPa, un espesor mínimo de 1,468 mm (51,7 kg de pared por metro); a 34,5 kPa bastan 0,500 mm.
+- Calcular el esfuerzo de aro de un cilindro de pared delgada y el espesor mínimo con un factor de seguridad.
 - 🎯 **Por qué importa:** La presión interior empuja hacia afuera sobre todo el casco; un espesor insuficiente rompe el recinto y un orificio pequeño lo vacía lentamente. La decisión central: ¿qué espesor mínimo y qué tiempo de respuesta hay que garantizar para una presión y un tamaño de orificio dados?
 
 📘 **Dónde se aprende:** [B106-C02 · Presurización de módulos](../programa/clases/B106/B106-C02-presurizacion-de-modulos/CLASE.md).
@@ -1512,6 +1622,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B96-C27](../programa/clases/B96/B96-C27-operacion-de-equipos-de-radiofrecuencia-en-la-estacion/CLASE.md):**
 - *Descripción textual:* la potencia, la ganancia y las pérdidas dan la PIRE; con la pérdida en espacio libre y el ruido del receptor se obtiene `C/N₀`; restando la tasa en dB da `Eb/N₀` y el margen; la PIRE se compara con el límite autorizado.
+- Calcular la pérdida en espacio libre y la relación `C/N₀`.
 - 🎯 **Por qué importa:** Un transmisor con potencia de más interfiere con otros y viola la licencia; con potencia de menos, no cierra el enlace. La decisión central: ¿qué potencia hace falta para un margen suficiente sin exceder el límite autorizado?
 
 📘 **Dónde se aprende:** [B96-C27 · Operación de equipos de radiofrecuencia en la estación](../programa/clases/B96/B96-C27-operacion-de-equipos-de-radiofrecuencia-en-la-estacion/CLASE.md); [B119-C09 · Derecho y normas de telecomunicaciones](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md).
@@ -1534,7 +1645,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El correlador XF correlaciona en el tiempo y luego transforma; el FX transforma y luego multiplica.
 
-🎯 **Por qué importa (clase B46-C15):** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
+💡 **Cómo se explica en la clase [B46-C15](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md):**
+- La diferencia máxima relativa entre el espectro cruzado FX y la FFT de la correlación XF es `5,6 × 10^-16` (error de redondeo).
+- F["FX: FFT y producto"] --> EQ["mismo espectro cruzado"]
+- ⚠️ **Error frecuente:** Creer que FX y XF difieren. Se corrige con 8.2.
+- 🎯 **Por qué importa:** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
 
 📘 **Dónde se aprende:** [B46-C15 · Correladores y visibilidades](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md).
 
@@ -1544,10 +1659,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El GCI (Roache) es `1,25 |f₃ − f₂|/(|f₃| (r^p − 1))`.
 - El índice de convergencia de malla (GCI) estima la incertidumbre numérica a partir de tres mallas.
 
-💡 **Cómo se explica en la clase [B84-C26](../programa/clases/B84/B84-C26-generacion-de-mallas-y-convergencia-en-elementos-finitos/CLASE.md):**
-- `p = 0,935`, Richardson `25,0367 MPa` (dif `1,5 × 10⁻³`) y GCI `3,14 %`.
-- Se reporta el valor de la malla fina, `p`, la extrapolación y el GCI; si `p` difiere mucho del teórico se investiga (singularidad, malla pobre).
-- 🎯 **Por qué importa:** Una malla más gruesa puede errar 30 % en tensión sin que el resultado «parezca» mal; la convergencia dice cuánto y cuánto refinar. La decisión central: ¿cuántos elementos hacen falta para que la magnitud de interés cambie menos que una tolerancia dada?
+💡 **Cómo se explica en la clase [B79-C09](../programa/clases/B79/B79-C09-cfd-academico-fundamentos-y-limites/CLASE.md):**
+- Calcular un índice de convergencia de malla (GCI).
+- 🎯 **Por qué importa:** B11-C14/C15 no construyen simulaciones de flujo ni discuten sus límites. Sin esa discusión, una malla fina y un colorido mapa de campos se confunden con una predicción fiable.
 
 📘 **Dónde se aprende:** [B79-C09 · CFD académico: fundamentos y límites](../programa/clases/B79/B79-C09-cfd-academico-fundamentos-y-limites/CLASE.md); [B84-C26 · Generación de mallas y convergencia en elementos finitos](../programa/clases/B84/B84-C26-generacion-de-mallas-y-convergencia-en-elementos-finitos/CLASE.md).
 
@@ -1566,6 +1680,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B10-C16](../programa/clases/B10/B10-C16-transformacion-de-marcos-de-referencia/CLASE.md):**
 - C -->|"Q: precesión-nutación<br/>(omitido aquí)"| D["GCRS<br/>(celeste)"]
+- Escribir la cadena `[GCRS] = Q(t) R(t) W(t) [ITRS]` y reconocer qué parte se calcula aquí.
 - ⚠️ **Error frecuente:** Llamar «GCRS» o «inercial exacto» a un modelo simplificado. Se corrige en las secciones 8.7 y 10.
 - 🎯 **Por qué importa:** Una estación terrestre tiene coordenadas fijas en la Tierra. Un satélite se propaga en un sistema inercial, donde las leyes de Newton valen.
 
@@ -1575,7 +1690,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - La GIC es la corriente casi continua inducida en un conductor.
 
-🎯 **Por qué importa (clase B30-C19):** Las infraestructuras se diseñan para eventos raros, que no están en un registro corto. La decisión central: ¿qué corriente induce un campo dado y cuán fiable es extrapolar un nivel de 100 años?
+💡 **Cómo se explica en la clase [B30-C19](../programa/clases/B30/B30-C19-impactos-del-clima-espacial/CLASE.md):**
+- Ejercicio 9 · transferencia. Transferencia. Un compañero afirma que una GIC de 17 A es típica.
+- Ejercicio 12. Integrador. Elabora tu *ficha de los impactos del clima espacial*: GIC, niveles de retorno e incertidumbre.
+- 🎯 **Por qué importa:** Las infraestructuras se diseñan para eventos raros, que no están en un registro corto. La decisión central: ¿qué corriente induce un campo dado y cuán fiable es extrapolar un nivel de 100 años?
 
 📘 **Dónde se aprende:** [B30-C19 · Impactos del clima espacial](../programa/clases/B30/B30-C19-impactos-del-clima-espacial/CLASE.md).
 
@@ -1595,7 +1713,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El GM (parámetro gravitacional estándar) es el producto de la constante de gravitación por la masa del cuerpo; para el Sol, 1,32712 × 10¹¹ km³/s² (S1).
 
-🎯 **Por qué importa (clase B07-C20):** Un simulador es la forma de explorar un fenómeno cuya solución no tienes a mano, y de comprobar que entiendes uno cuya solución sí conoces. Aquí conoces la respuesta (una órbita circular se repite con un período dado por una fórmula), así que puedes verificar el simulador antes de confiar en él para casos que no conoces.
+💡 **Cómo se explica en la clase [B07-C20](../programa/clases/B07/B07-C20-primer-simulador-de-un-movimiento-celeste/CLASE.md):**
+- El simulador lee `parametros_tierra.yaml` con `yaml.safe_load` y valida que GM, semieje, período y paso sean números positivos (C16).
+- Trabaja en km y s: `GM` en km³/s², `a` en km, `v` en km/s.
+- 🎯 **Por qué importa:** Un simulador es la forma de explorar un fenómeno cuya solución no tienes a mano, y de comprobar que entiendes uno cuya solución sí conoces. Aquí conoces la respuesta (una órbita circular se repite con un período dado por una fórmula), así que puedes verificar el simulador antes de confiar en él para casos que no conoces.
 
 📘 **Dónde se aprende:** [B07-C20 · Primer simulador de un movimiento celeste](../programa/clases/B07/B07-C20-primer-simulador-de-un-movimiento-celeste/CLASE.md).
 
@@ -1642,6 +1763,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B13-C11](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md):**
 - Un punto fijo en el sistema terrestre se mueve respecto del cielo con `v = ω √(X² + Y²)`, con `ω = 7,292 115 × 10⁻⁵ rad/s` (valor nominal de GRS80, S1 Tabla 1.2).
+- Convertir latitud, longitud y altura geodésicas a X, Y, Z con GRS80.
 - 🎯 **Por qué importa:** Una estación terrestre transmite a un satélite; el software de seguimiento necesita su posición en X, Y, Z. El técnico de campo tiene su posición en latitud, longitud y altura.
 
 📘 **Dónde se aprende:** [B13-C11 · Sistemas de referencia terrestres](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md).
@@ -1711,7 +1833,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El DOP (*dilution of precision*) amplifica el error: `PDOP = √(Q₁₁+Q₂₂+Q₃₃)` con `Q = (GᵀG)⁻¹`. HDOP y VDOP separan lo horizontal de lo vertical.
 
-🎯 **Por qué importa (clase B57-C10):** La geodesia con GNSS mide posiciones de estaciones con precisión de milímetros a centímetros y sirve para ver cómo se mueve la corteza. Pero la precisión depende de la geometría de los satélites.
+💡 **Cómo se explica en la clase [B57-C10](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md):**
+- Calcular HDOP, VDOP, PDOP y TDOP desde la matriz de geometría.
+- Ejercicio 6. ¿Qué mide el VDOP frente al HDOP?
+- 🎯 **Por qué importa:** La geodesia con GNSS mide posiciones de estaciones con precisión de milímetros a centímetros y sirve para ver cómo se mueve la corteza. Pero la precisión depende de la geometría de los satélites.
 
 📘 **Dónde se aprende:** [B57-C10 · Geodesia mediante GNSS](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md).
 
@@ -1720,9 +1845,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Un HDU (*Header Data Unit*) es una unidad formada por un encabezado y, normalmente, un bloque de datos; el primero del archivo es el HDU primario.
 - Una HDU es una unidad de cabecera y datos.
 
-💡 **Cómo se explica en la clase [B44-C19](../programa/clases/B44/B44-C19-formato-fits-y-metadatos/CLASE.md):**
-- Límite: una sola HDU sin extensiones ni compresión.
-- 🎯 **Por qué importa:** Un cuadro sin metadatos es un arreglo de números sin contexto. La decisión central: ¿qué debe llevar la cabecera para interpretar los datos?
+💡 **Cómo se explica en la clase [B14-C06](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md):**
+- Describir la estructura de un archivo FITS (bloques, HDU, encabezado, datos).
+- (`info()` también imprime una tabla del HDU con la ruta temporal, que no se reproduce aquí.)
+- 🎯 **Por qué importa:** Una imagen astronómica es una matriz de números, pero esos números no significan nada sin su encabezado: ¿qué unidad tienen?, ¿cuánto duró la exposición?, ¿a qué punto del cielo apunta el píxel central? Si el encabezado miente o se pierde, la imagen no sirve.
 
 📘 **Dónde se aprende:** [B14-C06 · Formato FITS y encabezados](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md); [B44-C19 · Formato FITS y metadatos](../programa/clases/B44/B44-C19-formato-fits-y-metadatos/CLASE.md).
 
@@ -1755,6 +1881,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B122-C01](../programa/clases/B122/B122-C01-dependencias-de-proveedores-y-cadena-de-suministro-de-infraestructura-espacial/CLASE.md):**
 - *Descripción textual:* los proveedores abastecen componentes y estos sostienen servicios; del reparto sale el HHI y de la estructura la indisponibilidad con uno o varios proveedores.
+- Calcular el HHI de las cuotas de compra de un componente.
 - ⚠️ **Error frecuente:** Confundir HHI con la suma de cuotas. Se corrige con 8.1.
 - 🎯 **Por qué importa:** B119-C16 solo introduce la infraestructura crítica y no analiza de quién depende. La decisión central: ¿qué proveedor, si cae, daña más servicios, y cuánto baja el riesgo si hay una segunda fuente?
 
@@ -1765,6 +1892,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - PIL: en el procesador objetivo o en un modelo de su aritmética. HIL: con el hardware real conectado (C19).
 
 💡 **Cómo se explica en la clase [B88-C41](../programa/clases/B88/B88-C41-pruebas-sil-y-pil-del-software-de-vuelo/CLASE.md):**
+- Ejercicio 7 · autónomo. ¿Qué error de otro tipo detecta HIL y no PIL?
 - ⚠️ **Error frecuente:** Creer que SIL basta. Hace falta PIL y HIL (8.4)
 - 🎯 **Por qué importa:** La aritmética del procesador objetivo puede ser distinta de la del escritorio. La decisión central: ¿cuánto se aparta la respuesta con la precisión del objetivo y cumple la tolerancia?
 
@@ -1785,7 +1913,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los términos del modelo: IA y IE (ceros de acimut y altura), CA (colimación), NPAE (no perpendicularidad de ejes), AN y AW (inclinación del eje vertical al norte y al oeste) y TF (flexión del tubo).
 
-🎯 **Por qué importa (clase B43-C26):** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
+💡 **Cómo se explica en la clase [B43-C26](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md):**
+- Montura sintética con `IA = 120"`, `IE = −80"`, `CA = 45"`, `NPAE = 20"`, `AN = 30"`, `AW = −25"` y `TF = 15"`, con 60 estrellas y ruido gaussiano de `1"` (el ruido realmente inyectado resulta de `1,162"` con la semilla).
+- Ejercicio 3 · casi autónomo. Error de `IA` ajustado frente al verdadero.
+- 🎯 **Por qué importa:** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
 
 📘 **Dónde se aprende:** [B43-C26 · Modelo de flexiones y de apuntado de una montura](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md).
 
@@ -1807,6 +1938,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B58-C18](../programa/clases/B58/B58-C18-marco-internacional-de-defensa-planetaria/CLASE.md):**
 - Según [S7], IAWN es una colaboración mundial de astrónomos y modeladores coordinada por NASA, establecida por recomendación del grupo de trabajo sobre objetos cercanos a la Tierra de la subcomisión científica de la COPUOS, endosada en febrero de 2013 y reconocida por la Asamblea General de la ONU.
+- Describir qué son IAWN y SMPAG según la fuente consultada.
 - ⚠️ **Error frecuente:** Atribuir a IAWN la decisión de desviar. Se corrige con 8.1.
 - 🎯 **Por qué importa:** Un umbral de notificación decide cuántos casos entran en el circuito internacional y cuántos tienen tiempo suficiente. La decisión central: ¿qué umbral activa la alerta y qué margen de tiempo deja para actuar?
 
@@ -1820,6 +1952,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B83-C08](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md):**
 - I["Interfaz"] --> P["Parametros del ICD"]
+- Ejercicio 8 · autónomo. ¿Por qué conviene un caso más desfavorable en el ICD?
 - 🎯 **Por qué importa:** La mayoría de los fallos de integración aparecen en las interfaces: un conector mal definido, una tensión fuera de rango o una tasa de datos insuficiente. La decisión central: ¿cada interfaz cumple en su caso más desfavorable, con margen, antes de construir?
 
 📘 **Dónde se aprende:** [B83-C08 · Interfaz entre subsistemas](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md); [B88-C21 · Interfaces y documentos de control de software de vuelo](../programa/clases/B88/B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md); [B90-C05 · Documentación de interfaces](../programa/clases/B90/B90-C05-documentacion-de-interfaces/CLASE.md).
@@ -1829,7 +1962,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** medio intracúmulo (ICM).
 - El medio intracúmulo (ICM) es ese gas caliente, ionizado, que emite en rayos X.
 
-🎯 **Por qué importa (clase B25-C13):** Los cúmulos de galaxias son las mayores estructuras ligadas por la gravedad. Contienen galaxias, un gas a decenas de millones de kelvin y mucha más masa de la que ambos aportan; por eso sirven para estudiar la materia oscura y poner a prueba el modelo cosmológico.
+💡 **Cómo se explica en la clase [B25-C13](../programa/clases/B25/B25-C13-cumulos-de-galaxias/CLASE.md):**
+- Definir cúmulo de galaxias, medio intracúmulo, equilibrio hidrostático y perfil beta.
+- 🎯 **Por qué importa:** Los cúmulos de galaxias son las mayores estructuras ligadas por la gravedad. Contienen galaxias, un gas a decenas de millones de kelvin y mucha más masa de la que ambos aportan; por eso sirven para estudiar la materia oscura y poner a prueba el modelo cosmológico.
 
 📘 **Dónde se aprende:** [B25-C13 · Cúmulos de galaxias](../programa/clases/B25/B25-C13-cumulos-de-galaxias/CLASE.md).
 
@@ -1859,7 +1994,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los términos del modelo: IA y IE (ceros de acimut y altura), CA (colimación), NPAE (no perpendicularidad de ejes), AN y AW (inclinación del eje vertical al norte y al oeste) y TF (flexión del tubo).
 
-🎯 **Por qué importa (clase B43-C26):** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
+💡 **Cómo se explica en la clase [B43-C26](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md):**
+- Montura sintética con `IA = 120"`, `IE = −80"`, `CA = 45"`, `NPAE = 20"`, `AN = 30"`, `AW = −25"` y `TF = 15"`, con 60 estrellas y ruido gaussiano de `1"` (el ruido realmente inyectado resulta de `1,162"` con la semilla).
+- 🎯 **Por qué importa:** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
 
 📘 **Dónde se aprende:** [B43-C26 · Modelo de flexiones y de apuntado de una montura](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md).
 
@@ -1902,7 +2039,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los tipos descritos por NAIF son SPK (posición y velocidad), CK (orientación de nave), PCK (tamaño, forma y orientación de cuerpos), IK (campo de visión de instrumentos), FK (marcos), LSK (segundos intercalares), SCLK (reloj de nave) y DSK (formas).
 
-🎯 **Por qué importa (clase B74-C21):** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
+💡 **Cómo se explica en la clase [B74-C21](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md):**
+- Por tipo: SPK, CK, PCK, IK, FK, LSK, SCLK.
+- Un CK (actitud de la nave) junto con IK y FK.
+- 🎯 **Por qué importa:** Un resultado de navegación depende de qué kernels se cargaron y en qué orden: dos corridas con el mismo código pueden dar trayectorias distintas. La decisión central: ¿cómo declaro, valido y audito el conjunto de kernels de una solución para que sea reproducible?
 
 📘 **Dónde se aprende:** [B74-C21 · Kernels SPICE y su uso en navegación](../programa/clases/B74/B74-C21-kernels-spice-y-su-uso-en-navegacion/CLASE.md).
 
@@ -1921,7 +2061,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El IMM es el modelo probabilístico de riesgo médico de la NASA.
 
-🎯 **Por qué importa (clase B117-C05):** Ninguna clase anterior trata el equipo médico de a bordo. La decisión central: ¿qué embarcar bajo un límite de masa y volumen y qué riesgo de quedarse sin él se acepta?
+💡 **Cómo se explica en la clase [B117-C05](../programa/clases/B117/B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md):**
+- Separar lo consultado (el concepto del IMM de la NASA) de lo ilustrativo (todos los artículos y números).
+- Datos: solo el concepto del IMM consultado; artículos, tasas, pesos y límites ilustrativos.
+- 🎯 **Por qué importa:** Ninguna clase anterior trata el equipo médico de a bordo. La decisión central: ¿qué embarcar bajo un límite de masa y volumen y qué riesgo de quedarse sin él se acepta?
 
 📘 **Dónde se aprende:** [B117-C05 · Inventario y gestión del equipo médico a bordo](../programa/clases/B117/B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md).
 
@@ -1976,7 +2119,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - La exposición es el tiempo con el obturador abierto; el ISO es la amplificación de la señal; la apertura relativa del objetivo (f/) controla la luz.
 
-🎯 **Por qué importa (clase B08-C19):** Un teléfono o una cámara réflex puede captar la Vía Láctea o la Luna con detalle, pero una exposición demasiado larga convierte las estrellas en rayas. La pregunta motivadora: ¿cuánto puedo exponer y con qué focal para obtener estrellas puntuales, y qué debo anotar para que la foto sirva como dato?
+💡 **Cómo se explica en la clase [B08-C19](../programa/clases/B08/B08-C19-fotografia-astronomica-elemental/CLASE.md):**
+- Ejercicio 12 · integrador. Elabora la ficha de una fotografía: objeto, UT, lugar, cámara y objetivo (con focal y píxel), exposición e ISO, escala, campo y estela calculadas, estado de la imagen (original o procesada), y limitaciones.
+- 🎯 **Por qué importa:** Un teléfono o una cámara réflex puede captar la Vía Láctea o la Luna con detalle, pero una exposición demasiado larga convierte las estrellas en rayas. La pregunta motivadora: ¿cuánto puedo exponer y con qué focal para obtener estrellas puntuales, y qué debo anotar para que la foto sirva como dato?
 
 📘 **Dónde se aprende:** [B08-C19 · Fotografía astronómica elemental](../programa/clases/B08/B08-C19-fotografia-astronomica-elemental/CLASE.md).
 
@@ -1985,7 +2130,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** utilización de recursos in situ (ISRU).
 - La utilización de recursos in situ (ISRU) es el aprovechamiento de los recursos naturales locales del destino, según la definición que usa NASA (S2).
 
-🎯 **Por qué importa (clase B59-C01):** Cada kilogramo que se lanza arrastra consigo más propelente para lanzarlo. La decisión central: ¿cuánta masa de planta de producción compensa el oxidante que dejas de llevar?
+💡 **Cómo se explica en la clase [B59-C01](../programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/CLASE.md):**
+- python programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/apalancamiento.py
+- 🎯 **Por qué importa:** Cada kilogramo que se lanza arrastra consigo más propelente para lanzarlo. La decisión central: ¿cuánta masa de planta de producción compensa el oxidante que dejas de llevar?
 
 📘 **Dónde se aprende:** [B59-C01 · Concepto de utilización de recursos in situ](../programa/clases/B59/B59-C01-concepto-de-utilizacion-de-recursos-in-situ/CLASE.md).
 
@@ -2005,7 +2152,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Una realización del ITRS se llama ITRF (*International Terrestrial Reference Frame*): coordenadas y velocidades de estaciones que materializan el sistema (S1, §4.1.5).
 
-🎯 **Por qué importa (clase B13-C11):** Una estación terrestre transmite a un satélite; el software de seguimiento necesita su posición en X, Y, Z. El técnico de campo tiene su posición en latitud, longitud y altura.
+💡 **Cómo se explica en la clase [B13-C11](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md):**
+- Explicar qué es el ITRS y qué es una realización (ITRF).
+- 🎯 **Por qué importa:** Una estación terrestre transmite a un satélite; el software de seguimiento necesita su posición en X, Y, Z. El técnico de campo tiene su posición en latitud, longitud y altura.
 
 📘 **Dónde se aprende:** [B13-C11 · Sistemas de referencia terrestres](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md).
 
@@ -2017,6 +2166,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B10-C16](../programa/clases/B10/B10-C16-transformacion-de-marcos-de-referencia/CLASE.md):**
 - A["ITRS<br/>(fijo a la Tierra)"] -->|"W: movimiento polar<br/>(omitido aquí)"| B["Marco intermedio"]
+- Escribir la cadena `[GCRS] = Q(t) R(t) W(t) [ITRS]` y reconocer qué parte se calcula aquí.
 - 🎯 **Por qué importa:** Una estación terrestre tiene coordenadas fijas en la Tierra. Un satélite se propaga en un sistema inercial, donde las leyes de Newton valen.
 
 📘 **Dónde se aprende:** [B10-C16 · Transformación de marcos de referencia](../programa/clases/B10/B10-C16-transformacion-de-marcos-de-referencia/CLASE.md); [B13-C11 · Sistemas de referencia terrestres](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md).
@@ -2026,7 +2176,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Un armónico zonal `J_n` es el coeficiente de un término que solo depende de la latitud. J2 mide el achatamiento dinámico.
 - El J2 causa la precesión de la línea de nodos.
 
-🎯 **Por qué importa (clase B72-C02):** Sin un potencial no hay perturbación gravitatoria que calcular, y los números de la bibliografía (J2, J3, J4) dependen de un convenio de signos y de un radio de referencia. La decisión central: ¿qué términos del potencial incluir y con qué radio y convenio, para que J2 signifique lo mismo en tu código y en la fuente?
+💡 **Cómo se explica en la clase [B72-C02](../programa/clases/B72/B72-C02-potencial-gravitatorio-no-esferico/CLASE.md):**
+- La forma general con `n = 2` coincide con la fórmula cerrada de J2 en `0` (diferencia relativa exacta).
+- J2 es unas `300` a `500` veces mayor que J3 y J4.
+- ⚠️ **Error frecuente:** Creer que J2 es igual en todas las latitudes. Se corrige con 8.4.
+- 🎯 **Por qué importa:** Sin un potencial no hay perturbación gravitatoria que calcular, y los números de la bibliografía (J2, J3, J4) dependen de un convenio de signos y de un radio de referencia. La decisión central: ¿qué términos del potencial incluir y con qué radio y convenio, para que J2 signifique lo mismo en tu código y en la fuente?
 
 📘 **Dónde se aprende:** [B72-C02 · Potencial gravitatorio no esférico](../programa/clases/B72/B72-C02-potencial-gravitatorio-no-esferico/CLASE.md); [B74-C20 · Validación frente a efemérides de referencia](../programa/clases/B74/B74-C20-validacion-frente-a-efemerides-de-referencia/CLASE.md).
 
@@ -2047,7 +2201,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** día juliano (JD).
 - El día juliano (JD) es el número de días, con fracción, desde el mediodía de un origen remoto; el JD de J2000 es `2 451 545,0` (S2).
 
-🎯 **Por qué importa (clase B13-C09):** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
+💡 **Cómo se explica en la clase [B13-C09](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md):**
+- Convertir una fecha gregoriana en día juliano modificado (MJD) y viceversa.
+- 🎯 **Por qué importa:** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
 
 📘 **Dónde se aprende:** [B13-C09 · Segundos intercalares y cronología](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md).
 
@@ -2170,6 +2326,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B94-C01](../programa/clases/B94/B94-C01-codigos-reed-solomon-y-ldpc/CLASE.md):**
 - Descripción larga: la corrección es todo o nada alrededor de `E`; el LDPC degrada con suavidad al subir el ruido y gasta más iteraciones.
+- Describir un LDPC por su matriz de paridad y su decodificador iterativo, y separar el código de juguete del del estándar.
 - ⚠️ **Error frecuente:** Presentar el LDPC de juguete como el del estándar. Se corrige con 8.5 y la sección 10.
 - 🎯 **Por qué importa:** Un enlace profundo opera con relaciones señal-ruido bajas y no puede reenviar cada trama. La decisión central: ¿cuántos símbolos erróneos tolera una palabra de código, cuánta redundancia cuesta y qué ocurre cuando se supera esa capacidad?
 
@@ -2216,6 +2373,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B86-C18](../programa/clases/B86/B86-C18-seguridad-y-licenciamiento-energetico/CLASE.md):**
 - *Descripción textual:* primero se ve si hay fisión (LEU nivel II, otro combustible nivel III); luego la probabilidad de más de 25 rem (nivel III); luego la actividad frente a `100000 × A2` (nivel II) y la probabilidad de 5–25 rem (nivel II); si nada se cumple, es nivel I.
+- Tabla de verdad (1 g): sin probabilidades -> 1 ; p(5-25 rem) = 1e-6 -> 2 ; 1e-7 -> 1 ; p(>25 rem) = 1e-6 -> 3 ; fision LEU -> 2 ; fision otro combustible -> 3
 - 🎯 **Por qué importa:** Los límites de la energía nuclear en el espacio son tanto jurídicos y de seguridad como técnicos: quién aprueba, con qué análisis y con qué umbrales. Un ingeniero de potencia debe saber que estas decisiones existen y qué datos las gobiernan.
 
 📘 **Dónde se aprende:** [B86-C18 · Seguridad y licenciamiento energético](../programa/clases/B86/B86-C18-seguridad-y-licenciamiento-energetico/CLASE.md).
@@ -2246,7 +2404,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El LLT es el límite inferior de temperatura de replicación, −28 °C.
 
-🎯 **Por qué importa (clase B56-C18):** La política protege los otros mundos de la contaminación (para no estropear la búsqueda de vida) y la Tierra del material devuelto. Saber en qué categoría cae una misión determina su documentación, su limpieza y sus restricciones.
+💡 **Cómo se explica en la clase [B56-C18](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md):**
+- Probabilidad anual media equivalente de acceso a ambientes > LLT: 1.0e-07
+- 🎯 **Por qué importa:** La política protege los otros mundos de la contaminación (para no estropear la búsqueda de vida) y la Tierra del material devuelto. Saber en qué categoría cae una misión determina su documentación, su limpieza y sus restricciones.
 
 📘 **Dónde se aprende:** [B56-C18 · Protección planetaria COSPAR](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md).
 
@@ -2267,7 +2427,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** inserción en órbita lunar (LOI).
 - La inserción en órbita lunar (LOI) es el impulso en el perilune de la hipérbola.
 
-🎯 **Por qué importa (clase B76-C07):** Un diseño preliminar de misión empieza por el presupuesto de velocidad. La decisión central: ¿cuánto `Δv` cuestan la salida de la Tierra y la captura en la Luna, y cuánto cambia la segunda según la órbita lunar elegida?
+💡 **Cómo se explica en la clase [B76-C07](../programa/clases/B76/B76-C07-maniobras-de-insercion-cislunar/CLASE.md):**
+- Calcular el `Δv` de inserción lunar en función de la altitud de la órbita final.
+- 🎯 **Por qué importa:** Un diseño preliminar de misión empieza por el presupuesto de velocidad. La decisión central: ¿cuánto `Δv` cuestan la salida de la Tierra y la captura en la Luna, y cuánto cambia la segunda según la órbita lunar elegida?
 
 📘 **Dónde se aprende:** [B76-C07 · Maniobras de inserción cislunar](../programa/clases/B76/B76-C07-maniobras-de-insercion-cislunar/CLASE.md).
 
@@ -2288,6 +2450,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B55-C18](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md):**
 - Descripción larga: una recta con las marcas LOD en 1,5, neta en 3,0 y LOQ en 5,0; la neta cae entre el LOD y el LOQ.
+- Calcular LOD y LOQ a partir de la desviación del blanco.
 - 🎯 **Por qué importa:** En muestras extraterrestres la cantidad buscada puede ser del orden de la contaminación que entra al manipularlas. La decisión central: ¿la señal neta supera el límite de detección y con qué incertidumbre, una vez restado el blanco?
 
 📘 **Dónde se aprende:** [B55-C18 · Contaminación de muestras](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md).
@@ -2353,6 +2516,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B72-C13](../programa/clases/B72/B72-C13-orbitas-heliosincronicas/CLASE.md):**
 - Por periodo y LTAN. Por altitud máxima. Por deriva: minutos por año por cada décima de grado.
+- Ejercicio 6 · autónomo. ¿A cuántos minutos de LTAN equivalen `5°` de longitud del nodo?
 - 🎯 **Por qué importa:** La misma hora local de paso significa la misma iluminación en cada imagen: es lo que usan las misiones de observación de la Tierra. La decisión central: ¿qué inclinación corresponde a cada altitud y cuánta deriva de hora local produce un error de inclinación?
 
 📘 **Dónde se aprende:** [B72-C13 · Órbitas heliosincrónicas](../programa/clases/B72/B72-C13-orbitas-heliosincronicas/CLASE.md).
@@ -2363,6 +2527,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B15-C08](../programa/clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md):**
 - X["Entrada x[n]<br/>= suma de impulsos<br/>escalados y retrasados"] --> S["Sistema LTI<br/>respuesta h[n]"]
+- Ejercicio 8. Un sistema LTI responde al impulso con `h = [0,5; 0,3; 0,2]`.
 - 🎯 **Por qué importa:** Un termistor a bordo de una nave no mide la temperatura del instante: mide una versión retrasada y suavizada, porque su cuerpo tarda en calentarse o enfriarse. Si la nave entra en eclipse y el entorno baja 50 K de golpe, el sensor irá bajando poco a poco.
 
 📘 **Dónde se aprende:** [B15-C08 · Convolución y respuesta impulsional](../programa/clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md).
@@ -2384,7 +2549,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Una factorización (o descomposición) escribe `A` como producto de factores con estructura. LU: `P A = L U` con `L` triangular inferior de unos en la diagonal, `U` triangular superior y `P` una matriz de permutación (reordena filas) —es la eliminación gaussiana guardada—.
 
-🎯 **Por qué importa (clase B10-C10):** Un filtro de navegación resuelve el mismo sistema con miles de lados derechos distintos; una simulación necesita muestras aleatorias con una covarianza dada; un ajuste de mínimos cuadrados quiere estabilidad. En cada caso el trabajo se hace una vez al factorizar y luego se reutiliza.
+💡 **Cómo se explica en la clase [B10-C10](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md):**
+- Aproximadamente: LU cuesta `2n³/3` operaciones, Cholesky `n³/3` (la mitad, por usar la simetría), QR cerca de `4n³/3` para matrices cuadradas.
+- B -->|"cuadrada, general"| C["LU con pivoteo<br/>P A = L U"]
+- ⚠️ **Error frecuente:** Confundir `L` de LU con `L` de Cholesky. Se corrige en la sección 10.
+- 🎯 **Por qué importa:** Un filtro de navegación resuelve el mismo sistema con miles de lados derechos distintos; una simulación necesita muestras aleatorias con una covarianza dada; un ajuste de mínimos cuadrados quiere estabilidad. En cada caso el trabajo se hace una vez al factorizar y luego se reutiliza.
 
 📘 **Dónde se aprende:** [B10-C10 · Descomposiciones matriciales](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md).
 
@@ -2418,6 +2587,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B12-C11](../programa/clases/B12/B12-C11-regresion-robusta/CLASE.md):**
 - Paso 4 · Diagnóstico. Los residuos de OLS son grandes en los tres puntos y mucho menores en los demás; los residuos de Huber destacan los tres atípicos (`MAD` pequeña).
+- Calcular la mediana, la MAD y una desviación robusta `σ̂ = MAD/0,6745`.
 - 🎯 **Por qué importa:** Los datos reales traen errores de transmisión, rayos cósmicos en un detector, una lectura perdida o un salto del sensor. Un solo punto muy alejado puede torcer la recta de mínimos cuadrados y producir parámetros y predicciones erróneos con errores típicos pequeños y engañosos.
 
 📘 **Dónde se aprende:** [B12-C11 · Regresión robusta](../programa/clases/B12/B12-C11-regresion-robusta/CLASE.md); [B14-C08 · Pandas y limpieza de datos](../programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/CLASE.md); [B44-C15 · Píxeles defectuosos](../programa/clases/B44/B44-C15-pixeles-defectuosos/CLASE.md); [B51-C13 · Marcado de datos espurios e interferencia en visibilidades](../programa/clases/B51/B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md).
@@ -2427,6 +2597,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - `AP50` y `AP75` exigen IoU de 0,50 y 0,75. MAE es el error absoluto medio, RMSE el cuadrático medio, AbsRel la media de `|ẑ − z|/z` y delta1 la fracción de puntos con `máx(z/ẑ, ẑ/z) < 1,25`.
 
 💡 **Cómo se explica en la clase [B33-C12](../programa/clases/B33/B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md):**
+- Ejercicio 2 · con una pista. MAE de `γ`/2.
+- Ejercicio 6. Cociente RMSE/MAE de `γ` × 2.
 - ⚠️ **Error frecuente:** Confundir sesgo y MAE. Se corrige con 8.1.
 - 🎯 **Por qué importa:** Saber cómo falla un modelo orienta su mejora. La decisión central: ¿qué sesgo y qué precisión tiene cada especificación del arrastre?
 
@@ -2487,7 +2659,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - En M/D/1, `W_q = ρS/(2(1 − ρ))`.
 
-🎯 **Por qué importa (clase B88-C43):** Un sistema que funciona al 50 % de carga puede volverse inutilizable al 95 %. La decisión central: ¿a qué tasa de llegada se degrada la latencia y qué política de descarte conviene al saturarse?
+💡 **Cómo se explica en la clase [B88-C43](../programa/clases/B88/B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md):**
+- La espera real es mayor que la de M/D/1.
+- El script [carga_estres.py](carga_estres.py) simula una cola M/D/1 con cinco cargas, compara con la teoría y estudia el descarte con cola de 16, y comprueba que el error relativo es menor que 10 % para `ρ < 0,9`.
+- 🎯 **Por qué importa:** Un sistema que funciona al 50 % de carga puede volverse inutilizable al 95 %. La decisión central: ¿a qué tasa de llegada se degrada la latencia y qué política de descarte conviene al saturarse?
 
 📘 **Dónde se aprende:** [B88-C43 · Pruebas de carga y estrés del software de vuelo](../programa/clases/B88/B88-C43-pruebas-de-carga-y-estres-del-software-de-vuelo/CLASE.md).
 
@@ -2545,6 +2720,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B105-C16](../programa/clases/B105/B105-C16-contramedidas-de-ejercicio/CLASE.md):**
 - Un tripulante sintético de 75 kg hace 2 h/día de resistencia a 6 MET: 900 kcal/día (33,7 % del gasto de 2.668 kcal/día de B105-C12) y 5.400 kcal por semana de 6 días.
+- Calcular la energía del ejercicio con `kcal = MET·kg·h`.
 - ⚠️ **Error frecuente:** Confundir MET con kcal. Multiplica por kg y h (8.1).
 - 🎯 **Por qué importa:** Más ejercicio ayuda, pero con rendimientos decrecientes y con un costo de energía y tiempo. La decisión central: ¿qué parte de la pérdida se evita con una carga dada y cuánta energía extra exige?
 
@@ -2568,10 +2744,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El MIFR es el registro de frecuencias.
 - El MIFR es el Registro Internacional de Frecuencias.
 
-💡 **Cómo se explica en la clase [B120-C01](../programa/clases/B120/B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md):**
-- Luego coordina y, después, notifica para registrar en el MIFR.
-- BIU --> M["MIFR: registro e informe en 30 dias"]
-- 🎯 **Por qué importa:** B119-C09 presenta las normas sin el procedimiento. La decisión central: dada la fecha de recepción de la publicación anticipada, ¿entre qué fechas deben ocurrir la coordinación, la notificación y la puesta en servicio, y qué se pierde si no ocurren?
+💡 **Cómo se explica en la clase [B119-C09](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md):**
+- Describir lo que hace la UIT-R: notificación, coordinación, MIFR e interferencia perjudicial.
+- La examina, aplica la coordinación y la inscribe en el MIFR (S4).
+- 🎯 **Por qué importa:** Ninguna clase anterior vincula el derecho de telecomunicaciones con el cálculo de interferencia; B120 trata licencias y espectro en detalle y esta clase fija el marco.
 
 📘 **Dónde se aprende:** [B119-C09 · Derecho y normas de telecomunicaciones](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md); [B120-C01 · Licencias satelitales y procedimiento de notificación](../programa/clases/B120/B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md).
 
@@ -2580,7 +2756,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** medio interestelar (MIS).
 - El medio interestelar (MIS) es la materia (gas y polvo), los rayos cósmicos y el campo magnético entre las estrellas.
 
-🎯 **Por qué importa (clase B25-C03):** Las estrellas nacen del gas y devuelven gas enriquecido; el medio interestelar (MIS) es el almacén y el escenario de ese ciclo. Pero «gas» sirve de poco: un volumen del MIS puede estar a `10 K` o a `10⁶ K`, y su densidad variar un factor 10⁷ de un punto a otro.
+💡 **Cómo se explica en la clase [B25-C03](../programa/clases/B25/B25-C03-medio-interestelar-multifasico/CLASE.md):**
+- python programa/clases/B25/B25-C03-medio-interestelar-multifasico/fases_ism.py
+- 🎯 **Por qué importa:** Las estrellas nacen del gas y devuelven gas enriquecido; el medio interestelar (MIS) es el almacén y el escenario de ese ciclo. Pero «gas» sirve de poco: un volumen del MIS puede estar a `10 K` o a `10⁶ K`, y su densidad variar un factor 10⁷ de un punto a otro.
 
 📘 **Dónde se aprende:** [B25-C03 · Medio interestelar multifásico](../programa/clases/B25/B25-C03-medio-interestelar-multifasico/CLASE.md).
 
@@ -2589,7 +2767,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** día juliano modificado (MJD).
 - El día juliano modificado (MJD) es `JD − 2 400 000,5` y empieza a medianoche.
 
-🎯 **Por qué importa (clase B13-C09):** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
+💡 **Cómo se explica en la clase [B13-C09](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md):**
+- Convertir una fecha gregoriana en día juliano modificado (MJD) y viceversa.
+- 🎯 **Por qué importa:** Una nave graba un evento a las `23:59:59` del 31 de diciembre de 2016 y otro a las `00:00:00` del 1 de enero de 2017. ¿Cuánto tiempo pasó?
 
 📘 **Dónde se aprende:** [B13-C09 · Segundos intercalares y cronología](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md).
 
@@ -2597,7 +2777,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Una ML es una monocapa (por convención `10¹⁵` moléculas cm⁻²).
 
-🎯 **Por qué importa (clase B68-C02):** Si un hielo de CO a 15 K es estable térmicamente durante millones de años, la presencia de CO gaseoso en regiones frías exige otro mecanismo. La decisión central: ¿cuántas moléculas expulsa cada fotón y de qué depende ese número?
+💡 **Cómo se explica en la clase [B68-C02](../programa/clases/B68/B68-C02-fotodesorcion-de-hielos-interestelares/CLASE.md):**
+- Para CO₂ a 15–18 K, Öberg y colaboradores dan `Y(x) = 1,2 × 10⁻³ (1 − e^(−x/2,9)) + 1,1 × 10⁻³ (1 − e^(−x/4,6))`, con `x` en ML: dos términos, uno para el CO₂ que sale tras disociarse y recombinarse y otro para el CO que sale.
+- El límite es `2,30 × 10⁻³` y se alcanza el 90 % a `x = 8,63 ML`.
+- 🎯 **Por qué importa:** Si un hielo de CO a 15 K es estable térmicamente durante millones de años, la presencia de CO gaseoso en regiones frías exige otro mecanismo. La decisión central: ¿cuántas moléculas expulsa cada fotón y de qué depende ese número?
 
 📘 **Dónde se aprende:** [B68-C02 · Fotodesorción de hielos interestelares](../programa/clases/B68/B68-C02-fotodesorcion-de-hielos-interestelares/CLASE.md).
 
@@ -2606,7 +2789,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** manta multicapa (MLI).
 - La manta multicapa (MLI) es un apilado de láminas reflectantes separadas por espaciadores.
 
-🎯 **Por qué importa (clase B85-C06):** Aislar una caja que opera a `300 K` de un entorno a `100 K` con una sola superficie cuesta cientos de W/m²; con unas pocas capas cuesta unidades. La decisión central: ¿cuántas capas y de qué emisividad hacen falta para limitar el flujo, y cuánto se pierde si se comprimen?
+💡 **Cómo se explica en la clase [B85-C06](../programa/clases/B85/B85-C06-aislamiento-multicapa/CLASE.md):**
+- La evidencia es la ficha de dimensionado de una manta multicapa del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de dimensionado de una manta multicapa*: `q`, `ε_eff` y temperaturas para `N` capas, número de capas para un objetivo, efecto de la compresión y lista de lo consultado e ilustrativo.
+- 🎯 **Por qué importa:** Aislar una caja que opera a `300 K` de un entorno a `100 K` con una sola superficie cuesta cientos de W/m²; con unas pocas capas cuesta unidades. La decisión central: ¿cuántas capas y de qué emisividad hacen falta para limitar el flujo, y cuánto se pierde si se comprimen?
 
 📘 **Dónde se aprende:** [B85-C06 · Aislamiento multicapa](../programa/clases/B85/B85-C06-aislamiento-multicapa/CLASE.md).
 
@@ -2616,6 +2802,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B96-C26](../programa/clases/B96/B96-C26-gestion-de-incidentes-en-la-operacion-de-estaciones/CLASE.md):**
 - Las fórmulas de la teoría de colas (M/M/1 y la de Cobham para prioridad no expropiativa) son estándar y las verifica el laboratorio.
+- Calcular la utilización y la espera media de una cola M/M/1.
 - 🎯 **Por qué importa:** Sin un procedimiento de priorización, un incidente leve puede retrasar a uno grave. La decisión central: ¿cuánto esperan los incidentes de alta y de baja prioridad y cuánto mejora la priorización al grave sin colapsar al leve?
 
 📘 **Dónde se aprende:** [B96-C26 · Gestión de incidentes en la operación de estaciones](../programa/clases/B96/B96-C26-gestion-de-incidentes-en-la-operacion-de-estaciones/CLASE.md).
@@ -2694,7 +2881,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** millonésima de hemisferio (MSH).
 - La millonésima de hemisferio (MSH) es la unidad de área de manchas.
 
-🎯 **Por qué importa (clase B30-C04):** Las manchas son la huella visible del campo magnético y las más fáciles de contar. Cuantificar su presión, su brillo y su flujo permite relacionarlas con la irradiancia.
+💡 **Cómo se explica en la clase [B30-C04](../programa/clases/B30/B30-C04-manchas-solares/CLASE.md):**
+- Una mancha ilustrativa de `r = 10 Mm` y `B = 0,3 T` tiene un área de `3,14 × 10¹⁴ m²` (103 millonésimas de hemisferio) y un flujo de `9,42 × 10¹³ Wb`.
+- Convertir áreas a millonésimas de hemisferio.
+- 🎯 **Por qué importa:** Las manchas son la huella visible del campo magnético y las más fáciles de contar. Cuantificar su presión, su brillo y su flujo permite relacionarlas con la irradiancia.
 
 📘 **Dónde se aprende:** [B30-C04 · Manchas solares](../programa/clases/B30/B30-C04-manchas-solares/CLASE.md).
 
@@ -2707,6 +2897,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B33-C09](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md):**
 - M["MTBF, MTTR"] --> A["A = MTBF/(MTBF+MTTR)"]
+- Ejercicio 5. `A` con MTBF = 2000 h y MTTR = 24 h.
 - 🎯 **Por qué importa:** Una unidad adicional mejora menos que la anterior y las fallas comunes limitan la ganancia. La decisión central: ¿cuántas unidades de respaldo valen la pena?
 
 📘 **Dónde se aprende:** [B33-C09 · Planes de continuidad ante eventos de clima espacial](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md); [B48-C15 · Gestión de fallas de instrumentos](../programa/clases/B48/B48-C15-gestion-de-fallas-de-instrumentos/CLASE.md); [B86-C11 · Redundancia eléctrica](../programa/clases/B86/B86-C11-redundancia-electrica/CLASE.md); [B90-C17 · Gestión de anomalías de prueba](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md); [B93-C04 · Análisis de confiabilidad de electrónica (MTBF y derating)](../programa/clases/B93/B93-C04-analisis-de-confiabilidad-de-electronica-mtbf-y-derating/CLASE.md); [B122-C02 · Continuidad de servicio: impacto y objetivos de recuperación](../programa/clases/B122/B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md).
@@ -2715,7 +2906,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - MTBF/MTTR: tiempo medio entre fallas y de reparación.
 
-🎯 **Por qué importa (clase B96-C23):** Redundancia no es solo tener más estaciones: si comparten la causa de falla (red, energía, software) el beneficio desaparece. La decisión central: ¿cuántas estaciones y qué independencia hacen falta para que la probabilidad de perder un contacto sea aceptable?
+💡 **Cómo se explica en la clase [B96-C23](../programa/clases/B96/B96-C23-continuidad-y-redundancia-de-las-operaciones-terrestres/CLASE.md):**
+- Solo se leyó la parte inicial; no da MTBF ni MTTR.
+- Calcular la disponibilidad `A = MTBF/(MTBF + MTTR)` de un componente.
+- ⚠️ **Error frecuente:** Usar MTBF sin MTTR. Calcula `A` (8.2)
+- 🎯 **Por qué importa:** Redundancia no es solo tener más estaciones: si comparten la causa de falla (red, energía, software) el beneficio desaparece. La decisión central: ¿cuántas estaciones y qué independencia hacen falta para que la probabilidad de perder un contacto sea aceptable?
 
 📘 **Dónde se aprende:** [B96-C23 · Continuidad y redundancia de las operaciones terrestres](../programa/clases/B96/B96-C23-continuidad-y-redundancia-de-las-operaciones-terrestres/CLASE.md).
 
@@ -2751,6 +2946,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B33-C09](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md):**
 - M["MTBF, MTTR"] --> A["A = MTBF/(MTBF+MTTR)"]
+- Ejercicio 5. `A` con MTBF = 2000 h y MTTR = 24 h.
 - 🎯 **Por qué importa:** Una unidad adicional mejora menos que la anterior y las fallas comunes limitan la ganancia. La decisión central: ¿cuántas unidades de respaldo valen la pena?
 
 📘 **Dónde se aprende:** [B33-C09 · Planes de continuidad ante eventos de clima espacial](../programa/clases/B33/B33-C09-planes-de-continuidad-ante-eventos-de-clima-espacial/CLASE.md); [B48-C15 · Gestión de fallas de instrumentos](../programa/clases/B48/B48-C15-gestion-de-fallas-de-instrumentos/CLASE.md); [B59-C18 · Fiabilidad de equipos mineros](../programa/clases/B59/B59-C18-fiabilidad-de-equipos-mineros/CLASE.md); [B122-C02 · Continuidad de servicio: impacto y objetivos de recuperación](../programa/clases/B122/B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md).
@@ -2833,7 +3029,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** película de nutrientes (NFT).
 - En una película de nutrientes (NFT) una lámina delgada y recirculante moja las raíces en un canal inclinado.
 
-🎯 **Por qué importa (clase B115-C01):** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
+💡 **Cómo se explica en la clase [B115-C01](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md):**
+- Calcular la profundidad y la velocidad de una película de nutrientes con la ecuación de Manning.
+- 🎯 **Por qué importa:** Un cultivo sin suelo depende por completo de que el caudal, el oxígeno y el nivel del depósito no fallen. La decisión central: ¿qué caudal y qué volumen hacen falta para que las raíces reciban oxígeno y agua sin que el sistema se vacíe o se inunde, y cómo se comprueba?
 
 📘 **Dónde se aprende:** [B115-C01 · Cultivos hidropónicos para hábitats](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md).
 
@@ -2844,6 +3042,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B109-C07](../programa/clases/B109/B109-C07-asignacion-de-volumenes-habitables-por-tripulante/CLASE.md):**
 - El informe de consenso del Human Research Program (2014) define el volumen neto habitable como el volumen que queda disponible para la tripulación tras descontar el equipo desplegado, el almacenamiento, la basura y otras ineficiencias, y recomendó `25 m³` por persona para una misión de `30` meses a Marte.
+- Definir el volumen neto habitable según el informe de consenso del HRP.
 - 🎯 **Por qué importa:** Una cifra de «metros cúbicos por persona» sin decir qué se descontó no se puede comparar. La decisión central: ¿cuánto volumen utilizable queda por tripulante y qué tan sensible es a lo que se descuenta?
 
 📘 **Dónde se aprende:** [B109-C07 · Asignación de volúmenes habitables por tripulante](../programa/clases/B109/B109-C07-asignacion-de-volumenes-habitables-por-tripulante/CLASE.md).
@@ -2896,11 +3095,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Los mínimos cuadrados no negativos (NNLS) buscan las abundancias que mejor ajustan sin salir de `a ≥ 0`.
 - Biblioteca: conjunto de espectros de referencia. NNLS: ajuste con pesos no negativos.
 
-💡 **Cómo se explica en la clase [B106-C22](../programa/clases/B106/B106-C22-fuentes-e-identificacion-de-contaminantes-del-aire-de-cabina/CLASE.md):**
-- La mezcla `y = L w + ruido` con 6 espectros sintéticos de 24 canales y pesos `(0; 3; 0; 1,2; 0; 0,6)`: el NNLS da `(0; 3,008; 0,006; 1,196; 0,003; 0,592)` con error máximo 0,008.
-- S["espectro medido"] --> N["NNLS con biblioteca"]
-- ⚠️ **Error frecuente:** Identificar solo por similitud. Descompón con NNLS (8.3).
-- 🎯 **Por qué importa:** Nada sale al exterior de una cabina cerrada: los materiales emiten gases durante meses, los equipos liberan trazas y las personas emiten vapor y CO₂. La decisión central: ¿qué fuentes dominan en cada momento y cómo se identifican los compuestos para decidir qué retirar?
+💡 **Cómo se explica en la clase [B59-C05](../programa/clases/B59/B59-C05-minerales-marcianos/CLASE.md):**
+- Resolver con mínimos cuadrados no negativos y contrastar con SciPy.
+- 🎯 **Por qué importa:** Antes de excavar hay que saber qué se excava. La decisión central: ¿qué rendimiento de agua se espera de una mezcla y con qué dispersión por el ruido?
 
 📘 **Dónde se aprende:** [B59-C05 · Minerales marcianos](../programa/clases/B59/B59-C05-minerales-marcianos/CLASE.md); [B106-C22 · Fuentes e identificación de contaminantes del aire de cabina](../programa/clases/B106/B106-C22-fuentes-e-identificacion-de-contaminantes-del-aire-de-cabina/CLASE.md).
 
@@ -2920,6 +3117,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - La NRHO es la parte casi rectilínea de la familia halo.
 
 💡 **Cómo se explica en la clase [B76-C05](../programa/clases/B76/B76-C05-orbitas-nrho/CLASE.md):**
+- La evidencia es la ficha de una NRHO en el modelo CR3BP del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de una NRHO en el modelo CR3BP*: estado inicial, periodo, radios, resonancia, monodromia y comparación con la referencia publicada, con fuentes.
 - ⚠️ **Error frecuente:** Presentar la NRHO del CR3BP como la de Gateway. Se corrige con 8.5.
 - 🎯 **Por qué importa:** La NRHO es la órbita de referencia publicada para la estación Gateway. La decisión central: ¿cómo se calcula una órbita periódica inestable y qué tan cerca queda un modelo simple de la referencia en un modelo de efemérides?
 
@@ -2962,6 +3161,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B43-C21](../programa/clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md):**
 - Una variación de índice `Δn = 2 × 10⁻⁶` en `30 mm` da `OPD = 60 nm`, comparable al presupuesto de un telescopio (C20).
+- Estimar la OPD por falta de homogeneidad `Δn t`.
 - 🎯 **Por qué importa:** Un telescopio refractor o un corrector necesita vidrios que compensen el color. La decisión central: ¿qué par de vidrios, con qué potencias, anula el cromatismo primario de un doblete y qué error aporta la falta de homogeneidad?
 
 📘 **Dónde se aprende:** [B43-C21 · Selección de vidrios ópticos: catálogos, homogeneidad y diagramas](../programa/clases/B43/B43-C21-seleccion-de-vidrios-opticos-catalogos-homogeneidad-y-diagramas/CLASE.md).
@@ -2981,7 +3181,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El OSR (*optical solar reflector*) es un vidrio plateado de `α` baja y `ε` alta.
 - Un espejo solar óptico (OSR) es un radiador de `α` bajo y `ε` alta.
 
-🎯 **Por qué importa (clase B84-C34):** Cambiar el recubrimiento de una placa de aluminio cambia su temperatura de equilibrio en 400 K; la degradación en órbita lo desplaza decenas de kelvin. La decisión central: ¿qué recubrimiento mantiene la temperatura de una superficie en su rango y qué espesor de anodizado se necesita?
+💡 **Cómo se explica en la clase [B84-C34](../programa/clases/B84/B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md):**
+- Ejercicio 1 · con los pasos indicados Calcula `α/ε` del OSR.
+- Pintura blanca u OSR según la carga interna y la degradación.
+- 🎯 **Por qué importa:** Cambiar el recubrimiento de una placa de aluminio cambia su temperatura de equilibrio en 400 K; la degradación en órbita lo desplaza decenas de kelvin. La decisión central: ¿qué recubrimiento mantiene la temperatura de una superficie en su rango y qué espesor de anodizado se necesita?
 
 📘 **Dónde se aprende:** [B84-C34 · Tratamientos y recubrimientos superficiales de componentes espaciales](../programa/clases/B84/B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md); [B85-C05 · Recubrimientos ópticos térmicos](../programa/clases/B85/B85-C05-recubrimientos-opticos-termicos/CLASE.md).
 
@@ -3198,6 +3401,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B30-C20](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md):**
 - *Descripción textual:* las medidas se convierten en escalas G, S y R; la regla y lo observado forman la tabla de contingencia, de la que salen POD, FAR y Heidke.
+- Calcular POD, FAR, CSI y la puntuación de Heidke por dos fórmulas.
 - 🎯 **Por qué importa:** Una alerta con muchas falsas alarmas se ignora y una con muchos fallos no sirve; medir ambas cosas es parte del oficio. La decisión central: ¿cómo se clasifica un evento y cómo se mide si una regla de alerta tiene habilidad?
 
 📘 **Dónde se aprende:** [B30-C20 · Análisis de alerta solar real](../programa/clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md); [B33-C13 · Pronóstico de actividad geomagnética](../programa/clases/B33/B33-C13-pronostico-de-actividad-geomagnetica/CLASE.md); [B84-C19 · Inspección no destructiva](../programa/clases/B84/B84-C19-inspeccion-no-destructiva/CLASE.md).
@@ -3243,6 +3447,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B44-C14](../programa/clases/B44/B44-C14-calibracion-con-flat/CLASE.md):**
 - Con una respuesta de `3,77 %` de dispersión (PRNU de `1,5 %` y viñeteo de `15 %`) y `20 000 e⁻` por píxel, un flat de `80` cuadros deja una no uniformidad residual de `0,00738`, frente a `0,0386` sin flat.
+- respuesta verdadera: std relativa 0.0377 (PRNU + vineteo)
 - 🎯 **Por qué importa:** Los píxeles no responden igual y el campo se oscurece hacia el borde. La decisión central: ¿cuántos flats hacen falta para que el ruido del flat no domine?
 
 📘 **Dónde se aprende:** [B44-C14 · Calibración con flat](../programa/clases/B44/B44-C14-calibracion-con-flat/CLASE.md).
@@ -3279,7 +3484,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El PSLR es la razón entre el mayor lóbulo lateral y el pico principal.
 
-🎯 **Por qué importa (clase B69-C02):** Sin procesamiento, un eco crudo parece ruido. La decisión central: ¿qué operaciones convierten el eco crudo en una imagen con la resolución teórica, y cuándo fallan?
+💡 **Cómo se explica en la clase [B69-C02](../programa/clases/B69/B69-C02-formacion-de-imagenes-sar/CLASE.md):**
+- Medir anchuras a −3 dB y el nivel del lóbulo lateral (PSLR).
+- Ejercicio 8 · autónomo. ¿A qué amplitud corresponde un PSLR de −13,26 dB?
+- 🎯 **Por qué importa:** Sin procesamiento, un eco crudo parece ruido. La decisión central: ¿qué operaciones convierten el eco crudo en una imagen con la resolución teórica, y cuándo fallan?
 
 📘 **Dónde se aprende:** [B69-C02 · Formación de imágenes SAR](../programa/clases/B69/B69-C02-formacion-de-imagenes-sar/CLASE.md).
 
@@ -3288,7 +3496,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El PV es el valor del trabajo planificado a la fecha; el EV, el valor del trabajo logrado; el AC, el costo real.
 - El PV y el RMS del resto.
 
-🎯 **Por qué importa (clase B43-C22):** El mapa de error de forma es la prueba de aceptación de un espejo. La decisión central: ¿cómo se recupera la fase, qué se descuenta y qué PV y RMS quedan?
+💡 **Cómo se explica en la clase [B43-C22](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md):**
+- La superficie tiene `14,84` franjas (PV total/(λ/2)); el resto, `0,308`.
+- La superficie tiene `14,8` franjas en total; tras ajustar piston, inclinaciones y desenfoque queda un resto de `97,3 nm` PV y `19,90 nm` RMS (`0,0314 λ`).
+- 🎯 **Por qué importa:** El mapa de error de forma es la prueba de aceptación de un espejo. La decisión central: ¿cómo se recupera la fase, qué se descuenta y qué PV y RMS quedan?
 
 📘 **Dónde se aprende:** [B43-C22 · Interferometría de superficie y mapas de error de forma](../programa/clases/B43/B43-C22-interferometria-de-superficie-y-mapas-de-error-de-forma/CLASE.md); [B124-C15 · Gestión de proyectos espaciales](../programa/clases/B124/B124-C15-gestion-de-proyectos-espaciales/CLASE.md).
 
@@ -3310,7 +3521,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** Modelo de calificación (QM).
 - Modelo de ingeniería (EM): modelo funcionalmente representativo para probar el diseño. Modelo de calificación (QM): unidad idéntica a la de vuelo para calificar.
 
-🎯 **Por qué importa (clase B90-C24):** Un modelo de ingeniería cuesta dinero y calendario; un defecto que llega a órbita cuesta la misión. La decisión central: ¿vale la pena construir un modelo previo, o conviene el protovuelo o solo la unidad de vuelo, dado el valor de lo que se arriesga?
+💡 **Cómo se explica en la clase [B90-C24](../programa/clases/B90/B90-C24-prototipado-y-modelos-de-ingenieria-de-subconjuntos/CLASE.md):**
+- Distinguir prototipo, modelo de ingeniería, modelo de calificación, protovuelo y unidad de vuelo.
+- 🎯 **Por qué importa:** Un modelo de ingeniería cuesta dinero y calendario; un defecto que llega a órbita cuesta la misión. La decisión central: ¿vale la pena construir un modelo previo, o conviene el protovuelo o solo la unidad de vuelo, dado el valor de lo que se arriesga?
 
 📘 **Dónde se aprende:** [B90-C24 · Prototipado y modelos de ingeniería de subconjuntos](../programa/clases/B90/B90-C24-prototipado-y-modelos-de-ingenieria-de-subconjuntos/CLASE.md).
 
@@ -3329,7 +3542,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El TAG identifica la especie; su signo negativo indica frecuencia medida. QNFMT declara el formato de los números cuánticos.
 
-🎯 **Por qué importa (clase B62-C07):** Una identificación depende de una frecuencia, y esa frecuencia viene de un archivo que alguien ajustó y versionó. Si no sabes leer la columna de error, la unidad de la intensidad o la temperatura de referencia, importarás un error silencioso.
+💡 **Cómo se explica en la clase [B62-C07](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md):**
+- Leer los campos de una línea JPL (`FREQ`, `ERR`, `LGINT`, `DR`, `ELO`, `GUP`, `TAG`, `QNFMT`, cuantos).
+- FREQ [MHz] ERR [MHz] LGINT DR ELO [cm^-1] GUP TAG QNFMT J' J'' nu [GHz] E_sup [cm^-1]
+- 🎯 **Por qué importa:** Una identificación depende de una frecuencia, y esa frecuencia viene de un archivo que alguien ajustó y versionó. Si no sabes leer la columna de error, la unidad de la intensidad o la temperatura de referencia, importarás un error silencioso.
 
 📘 **Dónde se aprende:** [B62-C07 · Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md).
 
@@ -3348,7 +3564,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - LU: `P A = L U` con `L` triangular inferior de unos en la diagonal, `U` triangular superior y `P` una matriz de permutación (reordena filas) —es la eliminación gaussiana guardada—. QR: `A = Q R` con `Q` de columnas ortonormales y `R` triangular superior.
 
-🎯 **Por qué importa (clase B10-C10):** Un filtro de navegación resuelve el mismo sistema con miles de lados derechos distintos; una simulación necesita muestras aleatorias con una covarianza dada; un ajuste de mínimos cuadrados quiere estabilidad. En cada caso el trabajo se hace una vez al factorizar y luego se reutiliza.
+💡 **Cómo se explica en la clase [B10-C10](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md):**
+- Aproximadamente: LU cuesta `2n³/3` operaciones, Cholesky `n³/3` (la mitad, por usar la simetría), QR cerca de `4n³/3` para matrices cuadradas.
+- B -->|"rectangular o<br/>mínimos cuadrados"| D["QR<br/>A = Q R"]
+- 🎯 **Por qué importa:** Un filtro de navegación resuelve el mismo sistema con miles de lados derechos distintos; una simulación necesita muestras aleatorias con una covarianza dada; un ajuste de mínimos cuadrados quiere estabilidad. En cada caso el trabajo se hace una vez al factorizar y luego se reutiliza.
 
 📘 **Dónde se aprende:** [B10-C10 · Descomposiciones matriciales](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md).
 
@@ -3356,7 +3575,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Holzmann propone, entre otras, R1 flujo simple sin recursión, R2 bucles con cota fija, R3 sin memoria dinámica tras la inicialización, R4 funciones de unas 60 líneas, R5 al menos 2 aserciones por función, R6 alcance mínimo y R7 comprobar los valores devueltos.
 
-🎯 **Por qué importa (clase B88-C15):** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
+💡 **Cómo se explica en la clase [B88-C15](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md):**
+- Se toman del texto de Holzmann: flujo simple sin recursión (R1), bucles con cota (R2), unas 60 líneas por función (R4), mínimo de dos aserciones por función (R5) y comprobar valores devueltos (R7).
+- Paso 2 · Bucle. `while True` sin `break` ni `return`: R2.
+- 🎯 **Por qué importa:** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
 
 📘 **Dónde se aprende:** [B88-C15 · Análisis estático de código](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md).
 
@@ -3372,7 +3594,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Holzmann propone, entre otras, R1 flujo simple sin recursión, R2 bucles con cota fija, R3 sin memoria dinámica tras la inicialización, R4 funciones de unas 60 líneas, R5 al menos 2 aserciones por función, R6 alcance mínimo y R7 comprobar los valores devueltos.
 
-🎯 **Por qué importa (clase B88-C15):** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
+💡 **Cómo se explica en la clase [B88-C15](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md):**
+- Se toman del texto de Holzmann: flujo simple sin recursión (R1), bucles con cota (R2), unas 60 líneas por función (R4), mínimo de dos aserciones por función (R5) y comprobar valores devueltos (R7).
+- Ejercicio 10 · transferencia. Transferencia. ¿Qué cambia si se aplica R4 con 10 líneas?
+- 🎯 **Por qué importa:** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
 
 📘 **Dónde se aprende:** [B88-C15 · Análisis estático de código](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md).
 
@@ -3380,7 +3605,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Holzmann propone, entre otras, R1 flujo simple sin recursión, R2 bucles con cota fija, R3 sin memoria dinámica tras la inicialización, R4 funciones de unas 60 líneas, R5 al menos 2 aserciones por función, R6 alcance mínimo y R7 comprobar los valores devueltos.
 
-🎯 **Por qué importa (clase B88-C15):** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
+💡 **Cómo se explica en la clase [B88-C15](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md):**
+- Se toman del texto de Holzmann: flujo simple sin recursión (R1), bucles con cota (R2), unas 60 líneas por función (R4), mínimo de dos aserciones por función (R5) y comprobar valores devueltos (R7).
+- Paso 3 · Aserciones. Ninguna función tiene 2: R5 ×4.
+- ⚠️ **Error frecuente:** Poner aserciones vacías. Deben comprobar algo real (R5)
+- 🎯 **Por qué importa:** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
 
 📘 **Dónde se aprende:** [B88-C15 · Análisis estático de código](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md).
 
@@ -3396,7 +3625,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Holzmann propone, entre otras, R1 flujo simple sin recursión, R2 bucles con cota fija, R3 sin memoria dinámica tras la inicialización, R4 funciones de unas 60 líneas, R5 al menos 2 aserciones por función, R6 alcance mínimo y R7 comprobar los valores devueltos.
 
-🎯 **Por qué importa (clase B88-C15):** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
+💡 **Cómo se explica en la clase [B88-C15](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md):**
+- Se toman del texto de Holzmann: flujo simple sin recursión (R1), bucles con cota (R2), unas 60 líneas por función (R4), mínimo de dos aserciones por función (R5) y comprobar valores devueltos (R7).
+- Paso 4 · Retorno. `leer(x)` se llama como sentencia y devuelve valor: R7.
+- 🎯 **Por qué importa:** Un defecto que el compilador acepta puede costar una misión: recursión sin cota, bucles que no terminan, valores de retorno ignorados. La decisión central: ¿qué reglas simples y verificables mecánicamente reducen esas clases de error?
 
 📘 **Dónde se aprende:** [B88-C15 · Análisis estático de código](../programa/clases/B88/B88-C15-analisis-estatico-de-codigo/CLASE.md).
 
@@ -3438,7 +3670,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** Ritchey-Chrétien (RC).
 - El Ritchey-Chrétien (RC) usa dos hiperboloides.
 
-🎯 **Por qué importa (clase B43-C02):** La geometría decide qué aberraciones quedan y cuánto mide el tubo. La decisión central: ¿qué conicidades de primario y secundario anulan la aberración esférica y el coma, y qué se paga en largo y obstrucción?
+💡 **Cómo se explica en la clase [B43-C02](../programa/clases/B43/B43-C02-seleccion-de-geometria-instrumental/CLASE.md):**
+- Obtener las conicidades de un Ritchey-Chrétien resolviendo dos condiciones.
+- 🎯 **Por qué importa:** La geometría decide qué aberraciones quedan y cuánto mide el tubo. La decisión central: ¿qué conicidades de primario y secundario anulan la aberración esférica y el coma, y qué se paga en largo y obstrucción?
 
 📘 **Dónde se aprende:** [B43-C02 · Selección de geometría instrumental](../programa/clases/B43/B43-C02-seleccion-de-geometria-instrumental/CLASE.md).
 
@@ -3493,6 +3727,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - Un RID (*review item discrepancy*) es un hallazgo que debe cerrarse. «Lista» significa que pasan todos los criterios críticos; los no críticos se registran.
 
 💡 **Cómo se explica en la clase [B83-C13](../programa/clases/B83/B83-C13-revisiones-srr-y-pdr/CLASE.md):**
+- Estimar el tiempo para cerrar las acciones de revisión (RID).
+- Acciones (RID): 10 en total, 3 criticas, capacidad 2 por semana -> 5 semanas para cerrar todas, 2 para las criticas
 - ⚠️ **Error frecuente:** Cerrar RID sin evidencia. Registra la evidencia del cierre
 - 🎯 **Por qué importa:** Una revisión aprobada sin criterios es un trámite; una revisión con criterios medibles es una decisión. La decisión central: ¿el proyecto cumple los criterios de entrada de la SRR y de la PDR y qué falta para llegar?
 
@@ -3508,6 +3744,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B44-C08](../programa/clases/B44/B44-C08-enfriamiento-de-detectores/CLASE.md):**
 - Con paso de `0,5 s`, el error máximo de Euler es `0,01380 K` y el de RK4 `4,8 × 10⁻¹³ K`.
+- Ejercicio 7. Error de Euler frente a RK4.
 - 🎯 **Por qué importa:** La cámara no está fría al encenderla. La decisión central: ¿cuánto hay que esperar antes de calibrar y qué temperatura final se alcanza?
 
 📘 **Dónde se aprende:** [B10-C20 · Cinemática de orientación satelital](../programa/clases/B10/B10-C20-cinematica-de-orientacion-satelital/CLASE.md); [B44-C08 · Enfriamiento de detectores](../programa/clases/B44/B44-C08-enfriamiento-de-detectores/CLASE.md); [B71-C03 · Ecuación de movimiento de dos cuerpos](../programa/clases/B71/B71-C03-ecuacion-de-movimiento-de-dos-cuerpos/CLASE.md); [B72-C18 · Integración numérica perturbada](../programa/clases/B72/B72-C18-integracion-numerica-perturbada/CLASE.md); [B85-C26 · Análisis térmico transitorio y casos extremos](../programa/clases/B85/B85-C26-analisis-termico-transitorio-y-casos-extremos/CLASE.md); [B97-C23 · Diseño de simulador de misión robótica](../programa/clases/B97/B97-C23-diseno-de-simulador-de-mision-robotica/CLASE.md) y 1 más.
@@ -3557,6 +3794,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B13-C03](../programa/clases/B13/B13-C03-exactitud-frente-a-precision/CLASE.md):**
 - *Descripción textual:* de una serie salen dos cantidades independientes, el sesgo y la desviación típica; juntas componen el error cuadrático medio.
+- Calcular sesgo, desviación típica y error cuadrático medio de una serie.
 - 🎯 **Por qué importa:** Un telémetro láser que mide la distancia a un reflector de prueba puede dar lecturas muy agrupadas pero todas desplazadas: es repetible y, aun así, está mal. Otro puede dar lecturas dispersas que, en promedio, caen sobre el valor correcto.
 
 📘 **Dónde se aprende:** [B13-C03 · Exactitud frente a precisión](../programa/clases/B13/B13-C03-exactitud-frente-a-precision/CLASE.md); [B33-C01 · Validación de modelos MHD con eventos solares documentados](../programa/clases/B33/B33-C01-validacion-de-modelos-mhd-con-eventos-solares-documentados/CLASE.md); [B33-C12 · Pronóstico de llegada y severidad de CME](../programa/clases/B33/B33-C12-pronostico-de-llegada-y-severidad-de-cme/CLASE.md); [B57-C31 · Errores y validación de modelos de elevación](../programa/clases/B57/B57-C31-errores-y-validacion-de-modelos-de-elevacion/CLASE.md); [B103-C08 · Métricas de evaluación de percepción](../programa/clases/B103/B103-C08-metricas-de-evaluacion-de-percepcion/CLASE.md).
@@ -3567,6 +3805,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B46-C13](../programa/clases/B46/B46-C13-polarimetria-de-radio/CLASE.md):**
 - Con una fuente sintética de `RM = 60 rad/m²` y `p = 0,3`, la síntesis da el pico en `59,5 rad/m²` (amplitud `0,297`) y el ajuste `59,54 rad/m²`; la RMSF mide `61,3 rad/m²`.
+- Ejercicio 6. ¿Cuánto vale la RMSF para `Δλ² = 0,113 m²`?
 - 🎯 **Por qué importa:** El ángulo de polarización gira con `λ²`, y hay que medirlo en varias frecuencias para saber cuánto. La decisión central: ¿cómo se obtiene la medida de rotación sin ambigüedad de `nπ`?
 
 📘 **Dónde se aprende:** [B46-C13 · Polarimetría de radio](../programa/clases/B46/B46-C13-polarimetria-de-radio/CLASE.md).
@@ -3624,7 +3863,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** Cociente respiratorio (RQ).
 - Consumo específico de oxígeno: O₂ por kilogramo y minuto. Cociente respiratorio (RQ): mol de CO₂ por mol de O₂.
 
-🎯 **Por qué importa (clase B106-C01):** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
+💡 **Cómo se explica en la clase [B106-C01](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md):**
+- Obtener el CO₂ exhalado con un cociente respiratorio y escalar el balance a una tripulación.
+- 🎯 **Por qué importa:** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
 
 📘 **Dónde se aprende:** [B106-C01 · Requisitos de habitabilidad](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md).
 
@@ -3744,7 +3985,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B89-C25](../programa/clases/B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md):**
 - Los parámetros de la asociación de seguridad incluyen algoritmo, clave, máscara de autenticación y ventana de secuencia.
-- *Descripción textual:* el emisor calcula una etiqueta con la clave de la asociación de seguridad; el receptor verifica la etiqueta y luego la ventana de secuencia: solo las tramas válidas y nuevas se aceptan.
+- SA["asociacion de seguridad: SPI, clave, ventana"] --> TX["emisor: etiqueta = MAC(clave, SPI, ASN, carga)"]
 - 🎯 **Por qué importa:** Los comandos son la superficie más sensible de una misión; sin autenticación y sin protección contra repetición, una trama capturada podría reutilizarse, y un CRC solo detecta errores, no ataques (C12). La decisión central: ¿cómo garantizar que una trama es auténtica, íntegra y no repetida, y cuánto cuesta en sobrecarga?
 
 📘 **Dónde se aprende:** [B89-C25 · Protección criptográfica de enlaces espaciales](../programa/clases/B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md).
@@ -3765,7 +4006,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** ángulo espectral (SAM).
 - El ángulo espectral (SAM) es `arccos(u·v/(|u||v|))`.
 
-🎯 **Por qué importa (clase B53-C29):** Un píxel gris puede ser una mezcla de tres minerales. La decisión central: ¿qué abundancias explican el espectro de un píxel y con qué error, dado el ruido y la similitud entre miembros extremos?
+💡 **Cómo se explica en la clase [B53-C29](../programa/clases/B53/B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md):**
+- Los ángulos espectrales entre miembros son `11,3°`, `13,6°` y `9,3°`.
+- Calcular el ángulo espectral entre miembros extremos.
+- 🎯 **Por qué importa:** Un píxel gris puede ser una mezcla de tres minerales. La decisión central: ¿qué abundancias explican el espectro de un píxel y con qué error, dado el ruido y la similitud entre miembros extremos?
 
 📘 **Dónde se aprende:** [B53-C29 · Imágenes hiperespectrales de superficies planetarias](../programa/clases/B53/B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md).
 
@@ -3818,7 +4062,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** protocolo de seguridad de enlace de datos (SDLS).
 - El protocolo de seguridad de enlace de datos (SDLS) de la CCSDS protege tramas con autenticación y/o cifrado.
 
-🎯 **Por qué importa (clase B89-C25):** Los comandos son la superficie más sensible de una misión; sin autenticación y sin protección contra repetición, una trama capturada podría reutilizarse, y un CRC solo detecta errores, no ataques (C12). La decisión central: ¿cómo garantizar que una trama es auténtica, íntegra y no repetida, y cuánto cuesta en sobrecarga?
+💡 **Cómo se explica en la clase [B89-C25](../programa/clases/B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md):**
+- Explicar qué servicios da el protocolo de seguridad de enlace de datos según la CCSDS 355.0-B-2.
+- 🎯 **Por qué importa:** Los comandos son la superficie más sensible de una misión; sin autenticación y sin protección contra repetición, una trama capturada podría reutilizarse, y un CRC solo detecta errores, no ataques (C12). La decisión central: ¿cómo garantizar que una trama es auténtica, íntegra y no repetida, y cuánto cuesta en sobrecarga?
 
 📘 **Dónde se aprende:** [B89-C25 · Protección criptográfica de enlaces espaciales](../programa/clases/B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md).
 
@@ -3838,6 +4084,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - La paridad global distingue uno de dos errores. SECDED corrige uno y detecta dos.
 
 💡 **Cómo se explica en la clase [B88-C04](../programa/clases/B88/B88-C04-memorias-y-correccion-de-errores/CLASE.md):**
+- Codificar y decodificar una palabra con SECDED.
+- Ejercicio 9 · transferencia. Transferencia. Un colega dice que SECDED protege contra cualquier radiación.
 - ⚠️ **Error frecuente:** Creer que SECDED corrige dos errores. Corrige uno y detecta dos (8.2)
 - 🎯 **Por qué importa:** Sin corrección, un SEU corrompe un dato; con SECDED lo corrige al leerlo, pero si dos errores se acumulan en la misma palabra el código ya no corrige. La decisión central: ¿cada cuánto hay que barrer la memoria para que la probabilidad de doble error sea aceptable?
 
@@ -3861,6 +4109,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B124-C05](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md):**
 - La desviación de predicción incluye el SEE y la distancia al centro de los datos; con `z = 1,2816` el intervalo al 80 % es `[22,27, 39,07]` y contiene el valor verdadero `30,35`.
+- Que la masa explica solo parte del costo; el resto está en el SEE y en atributos no incluidos (complejidad, madurez tecnológica).
 - 🎯 **Por qué importa:** Un costo sin banda de incertidumbre parece más preciso de lo que es. La decisión central: ¿cuánto cuesta esta misión, con qué banda y cuánto baja el costo unitario si se fabrican varias unidades?
 
 📘 **Dónde se aprende:** [B124-C05 · Estimación de costos de misión](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md).
@@ -3871,6 +4120,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B46-C20](../programa/clases/B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md):**
 - I["conjunto de 6 antenas"] --> SS["sigma_S con SEFD"]
+- Ejercicio 8. SEFD si `T_sys` sube de 35 a 70 K.
 - 🎯 **Por qué importa:** Un proyecto viable cuadra objetivo, sensibilidad, tiempo y datos. La decisión central: ¿cuánto tiempo de observación pide el objetivo y con qué margen?
 
 📘 **Dónde se aprende:** [B46-C20 · Proyecto de observación radioastronómica](../programa/clases/B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md).
@@ -3881,6 +4131,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B95-C02](../programa/clases/B95/B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md):**
 - Límite: el modelo usa tasa constante y conmutador ideal; no incluye SEL ni SEU, que se mitigan con detección y reinicio.
+- No: la TID no cubre el SEL, que es otro mecanismo; se necesita detección y corte de corriente o un ensayo de SEL.
 - 🎯 **Por qué importa:** Un componente comercial puede funcionar bien en tierra y degradarse o fallar en órbita. La decisión central: ¿qué componente comercial se puede usar en esta misión, con qué margen de radiación y con qué fiabilidad del conjunto?
 
 📘 **Dónde se aprende:** [B95-C02 · Componentes comerciales en vuelo: selección y riesgo](../programa/clases/B95/B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md).
@@ -3954,7 +4205,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El Sistema Internacional (SI) es el conjunto de unidades acordado internacionalmente; tiene siete unidades base: segundo, metro, kilogramo, amperio, kelvin, mol y candela (S1).
 - *(y 2 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
-🎯 **Por qué importa (clase B01-C08):** En 1999 se perdió la sonda Mars Climate Orbiter por una discrepancia entre unidades inglesas y métricas (C04, fuente NASA). La ciencia estaba bien; la conversión, no.
+💡 **Cómo se explica en la clase [B03-C06](../programa/clases/B03/B03-C06-unidades-del-sistema-internacional/CLASE.md):**
+- Para saber si una unidad es coherente basta con reconstruirla desde las base.
+- La tabla del SI llega hoy hasta ronna `10²⁷`, quetta `10³⁰`, ronto `10⁻²⁷` y quecto `10⁻³⁰` (S2).
+- 🎯 **Por qué importa:** El 23 de septiembre de 1999 la NASA perdió contacto con la sonda Mars Climate Orbiter. Según la agencia, un error de navegación se debió a no traducir unidades inglesas a métricas: el programa en tierra usaba unas y el de la nave otras, y la sonda pasó demasiado cerca de Marte y se quemó en su atmósfera (S1).
 
 📘 **Dónde se aprende:** [B01-C08 · Mediciones y unidades astronómicas](../programa/clases/B01/B01-C08-mediciones-y-unidades-astronomicas/CLASE.md); [B03-C06 · Unidades del Sistema Internacional](../programa/clases/B03/B03-C06-unidades-del-sistema-internacional/CLASE.md); [B05-C01 · Magnitudes físicas y dimensiones](../programa/clases/B05/B05-C01-magnitudes-fisicas-y-dimensiones/CLASE.md); [B13-C01 · Sistema Internacional y constantes](../programa/clases/B13/B13-C01-sistema-internacional-y-constantes/CLASE.md); [B14-C04 · Unidades y constantes con Astropy](../programa/clases/B14/B14-C04-unidades-y-constantes-con-astropy/CLASE.md).
 
@@ -3964,6 +4218,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B88-C41](../programa/clases/B88/B88-C41-pruebas-sil-y-pil-del-software-de-vuelo/CLASE.md):**
 - L["Misma ley de control"] --> S["SIL: doble precision"]
+- La evidencia es la presupuesto de error numérico SIL/PIL del ejercicio 12 (sección 20).
 - ⚠️ **Error frecuente:** Creer que SIL basta. Hace falta PIL y HIL (8.4)
 - 🎯 **Por qué importa:** La aritmética del procesador objetivo puede ser distinta de la del escritorio. La decisión central: ¿cuánto se aparta la respuesta con la precisión del objetivo y cumple la tolerancia?
 
@@ -3975,7 +4230,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - La esfera isoterma singular (SIS) tiene `ρ ∝ r⁻²` y `M(<r) = 2σ² r/G`.
 - Para una esfera isoterma singular (SIS) con dispersión `σ`, `θ_E = 4π(σ/c)² D_ls/D_s`.
 
-🎯 **Por qué importa (clase B25-C13):** Los cúmulos de galaxias son las mayores estructuras ligadas por la gravedad. Contienen galaxias, un gas a decenas de millones de kelvin y mucha más masa de la que ambos aportan; por eso sirven para estudiar la materia oscura y poner a prueba el modelo cosmológico.
+💡 **Cómo se explica en la clase [B25-C13](../programa/clases/B25/B25-C13-cumulos-de-galaxias/CLASE.md):**
+- Comparar esa masa con la de una esfera isoterma singular obtenida de la dispersión de las galaxias.
+- 🎯 **Por qué importa:** Los cúmulos de galaxias son las mayores estructuras ligadas por la gravedad. Contienen galaxias, un gas a decenas de millones de kelvin y mucha más masa de la que ambos aportan; por eso sirven para estudiar la materia oscura y poner a prueba el modelo cosmológico.
 
 📘 **Dónde se aprende:** [B25-C13 · Cúmulos de galaxias](../programa/clases/B25/B25-C13-cumulos-de-galaxias/CLASE.md); [B25-C14 · Lentes gravitacionales galácticas](../programa/clases/B25/B25-C14-lentes-gravitacionales-galacticas/CLASE.md).
 
@@ -3983,7 +4240,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El SLO es el objetivo de nivel de servicio; el SLA, el acuerdo que fija consecuencias si no se cumple.
 
-🎯 **Por qué importa (clase B124-C21):** B124 trata propuestas de valor, pero un servicio de observación se compromete con plazos y calidad, y esos compromisos tienen una aritmética precisa. La decisión central: ¿qué disponibilidad y qué plazo puede prometer un servicio sin incumplir seguido y cuánto cuesta cada incumplimiento?
+💡 **Cómo se explica en la clase [B124-C21](../programa/clases/B124/B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md):**
+- Que el servicio puede estar «arriba» pero entregando datos lentos o incompletos; el SLA debería incluir el plazo y la calidad del producto.
+- Ejercicio 11 · transferencia. Transferencia. ¿Por qué conviene un SLO interno más estricto que el SLA?
+- 🎯 **Por qué importa:** B124 trata propuestas de valor, pero un servicio de observación se compromete con plazos y calidad, y esos compromisos tienen una aritmética precisa. La decisión central: ¿qué disponibilidad y qué plazo puede prometer un servicio sin incumplir seguido y cuánto cuesta cada incumplimiento?
 
 📘 **Dónde se aprende:** [B124-C21 · Acuerdos de nivel de servicio para productos de datos](../programa/clases/B124/B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md).
 
@@ -3993,6 +4253,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B10-C15](../programa/clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md):**
 - SLERP entre `(1, 0, 0, 0)` (sin giro) y `q_y(100°)` en `t = 0,5` da una rotación de `50,000 000 000°`: gira a velocidad angular constante.
+- Convertir entre cuaternión, matriz y eje–ángulo, e interpolar con SLERP.
 - 🎯 **Por qué importa:** Un seguidor estelar entrega la actitud del satélite varias veces por segundo; el sistema de control la combina con las lecturas de giróscopos, la propaga y la compara con la actitud deseada. Hacerlo con ángulos de Euler es frágil; hacerlo con matrices cuesta más y acumula deriva.
 
 📘 **Dónde se aprende:** [B10-C15 · Cuaterniones unitarios](../programa/clases/B10/B10-C15-cuaterniones-unitarios/CLASE.md).
@@ -4028,6 +4289,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B58-C18](../programa/clases/B58/B58-C18-marco-internacional-de-defensa-planetaria/CLASE.md):**
 - SMPAG implementa la respuesta internacional, con UNOOSA como secretaría permanente.
+- Describir qué son IAWN y SMPAG según la fuente consultada.
 - 🎯 **Por qué importa:** Un umbral de notificación decide cuántos casos entran en el circuito internacional y cuántos tienen tiempo suficiente. La decisión central: ¿qué umbral activa la alerta y qué margen de tiempo deja para actuar?
 
 📘 **Dónde se aprende:** [B58-C18 · Marco internacional de defensa planetaria](../programa/clases/B58/B58-C18-marco-internacional-de-defensa-planetaria/CLASE.md).
@@ -4052,6 +4314,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B96-C12](../programa/clases/B96/B96-C12-gestion-de-energia-en-operaciones/CLASE.md):**
 - Por simulación: SOC a lo largo del tiempo (esta clase).
+- El script [balance_de_energia.py](balance_de_energia.py) simula el SOC de la batería durante 30 órbitas con cuatro planes de operación, calcula la DoD máxima y la contrasta con la fórmula analítica;
 - 🎯 **Por qué importa:** Una batería descargada en exceso se degrada y una nave sin energía deja de ser comandable. La decisión central: ¿qué plan de operación mantiene la batería dentro de su criterio de descarga y recupera la carga en cada órbita?
 
 📘 **Dónde se aprende:** [B96-C12 · Gestión de energía en operaciones](../programa/clases/B96/B96-C12-gestion-de-energia-en-operaciones/CLASE.md).
@@ -4094,7 +4357,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El tamaño es cuántos procesos hay y el rango (*rank*) es el número de cada uno, de 0 a tamaño−1. SPMD (un programa, muchos datos) significa que todos ejecutan el mismo código y se comportan distinto según su rango.
 
-🎯 **Por qué importa (clase B18-C02):** Ocho, cuarenta o cuatro mil núcleos de un clúster no comparten memoria. Para que cada uno propague su parte de un catálogo de órbitas y luego se junten los resultados, hay que decir quién envía qué a quién, y cuándo.
+💡 **Cómo se explica en la clase [B18-C02](../programa/clases/B18/B18-C02-paso-de-mensajes-con-mpi/CLASE.md):**
+- Explicar el modelo SPMD, el rango y el tamaño de un comunicador.
+- 🎯 **Por qué importa:** Ocho, cuarenta o cuatro mil núcleos de un clúster no comparten memoria. Para que cada uno propague su parte de un catálogo de órbitas y luego se junten los resultados, hay que decir quién envía qué a quién, y cuándo.
 
 📘 **Dónde se aprende:** [B18-C02 · Paso de mensajes con MPI](../programa/clases/B18/B18-C02-paso-de-mensajes-con-mpi/CLASE.md).
 
@@ -4104,6 +4369,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B57-C03](../programa/clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md):**
 - Para una sinusoide a plena escala, la SQNR teórica es `6,02 N + 1,76 dB`.
+- Ejercicio 2 · con una pista. Calcula la SQNR teórica de 10 bits.
 - 🎯 **Por qué importa:** Dos sensores con el mismo píxel pueden dar información muy distinta si uno distingue 256 niveles y otro 65.536, o si una banda es ancha y otra estrecha. La decisión central: ¿cuántos bits y qué ancho de banda hacen falta para ver el cambio que me interesa?
 
 📘 **Dónde se aprende:** [B57-C03 · Resolución radiométrica y espectral](../programa/clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md).
@@ -4157,7 +4423,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - La probabilidad de acierto al azar es `2^−b`. STRIDE son seis categorías de amenaza.
 
-🎯 **Por qué importa (clase B88-C17):** Una orden falsa o repetida puede apagar un subsistema o poner la nave en riesgo. La decisión central: ¿qué comprobaciones aseguran que cada comando viene de quien tiene la clave y no es una repetición?
+💡 **Cómo se explica en la clase [B88-C17](../programa/clases/B88/B88-C17-ciberseguridad-de-avionica/CLASE.md):**
+- Escribir un modelo de amenazas STRIDE con mitigaciones.
+- Ejercicio 11 · transferencia. Transferencia. ¿Qué amenaza de STRIDE no cubre el HMAC?
+- 🎯 **Por qué importa:** Una orden falsa o repetida puede apagar un subsistema o poner la nave en riesgo. La decisión central: ¿qué comprobaciones aseguran que cada comando viene de quien tiene la clave y no es una repetición?
 
 📘 **Dónde se aprende:** [B88-C17 · Ciberseguridad de aviónica](../programa/clases/B88/B88-C17-ciberseguridad-de-avionica/CLASE.md).
 
@@ -4189,6 +4458,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B62-C07](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md):**
 - El laboratorio las lee con ancho fijo y comprueba, para las seis líneas, que `GUP = 2J'+1`, que `TAG = −28001` (negativo: frecuencia medida en laboratorio) y que `DR = 2`.
+- Leer los campos de una línea JPL (`FREQ`, `ERR`, `LGINT`, `DR`, `ELO`, `GUP`, `TAG`, `QNFMT`, cuantos).
 - 🎯 **Por qué importa:** Una identificación depende de una frecuencia, y esa frecuencia viene de un archivo que alguien ajustó y versionó. Si no sabes leer la columna de error, la unidad de la intensidad o la temperatura de referencia, importarás un error silencioso.
 
 📘 **Dónde se aprende:** [B62-C07 · Bancos de datos moleculares: CDMS, JPL, HITRAN y LAMDA](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md).
@@ -4268,7 +4538,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - Los términos del modelo: IA y IE (ceros de acimut y altura), CA (colimación), NPAE (no perpendicularidad de ejes), AN y AW (inclinación del eje vertical al norte y al oeste) y TF (flexión del tubo).
 
-🎯 **Por qué importa (clase B43-C26):** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
+💡 **Cómo se explica en la clase [B43-C26](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md):**
+- Montura sintética con `IA = 120"`, `IE = −80"`, `CA = 45"`, `NPAE = 20"`, `AN = 30"`, `AW = −25"` y `TF = 15"`, con 60 estrellas y ruido gaussiano de `1"` (el ruido realmente inyectado resulta de `1,162"` con la semilla).
+- 🎯 **Por qué importa:** El modelo convierte errores de decenas de segundos de arco en residuos de segundos de arco. La decisión central: ¿qué términos incluir, cuántas estrellas medir y con qué incertidumbre se determina cada parámetro?
 
 📘 **Dónde se aprende:** [B43-C26 · Modelo de flexiones y de apuntado de una montura](../programa/clases/B43/B43-C26-modelo-de-flexiones-y-de-apuntado-de-una-montura/CLASE.md).
 
@@ -4286,6 +4558,8 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - La TID es la dosis ionizante total.
 
 💡 **Cómo se explica en la clase [B88-C03](../programa/clases/B88/B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md):**
+- Ejercicio 11 · transferencia. Transferencia. ¿Qué diferencia hay entre SEU y TID?
+- TID es acumulativa y degrada el componente.
 - ⚠️ **Error frecuente:** Confundir SEU con TID. SEU es instantáneo y TID acumulativo (ejercicio 11)
 - 🎯 **Por qué importa:** Un procesador comercial puede fallar en órbita por una sola partícula. La decisión central: ¿cuántos eventos esperar al año y qué margen de dosis hay respecto del fallo del componente?
 
@@ -4333,7 +4607,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** inyección translunar (TLI).
 - La inyección translunar (TLI) es el impulso en el perigeo.
 
-🎯 **Por qué importa (clase B76-C07):** Un diseño preliminar de misión empieza por el presupuesto de velocidad. La decisión central: ¿cuánto `Δv` cuestan la salida de la Tierra y la captura en la Luna, y cuánto cambia la segunda según la órbita lunar elegida?
+💡 **Cómo se explica en la clase [B76-C07](../programa/clases/B76/B76-C07-maniobras-de-insercion-cislunar/CLASE.md):**
+- Calcular el `Δv` de inyección translunar con una elipse de Hohmann hasta la distancia lunar.
+- 🎯 **Por qué importa:** Un diseño preliminar de misión empieza por el presupuesto de velocidad. La decisión central: ¿cuánto `Δv` cuestan la salida de la Tierra y la captura en la Luna, y cuánto cambia la segunda según la órbita lunar elegida?
 
 📘 **Dónde se aprende:** [B76-C07 · Maniobras de inserción cislunar](../programa/clases/B76/B76-C07-maniobras-de-insercion-cislunar/CLASE.md).
 
@@ -4357,7 +4633,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** tiempo de llegada (TOA).
 - El tiempo de llegada (TOA) es el instante de un pulso.
 
-🎯 **Por qué importa (clase B27-C05):** Un púlsar da, a la vez, un reloj de precisión, la medida de su campo magnético y, en una binaria, la masa de las estrellas y una prueba de la relatividad general. La decisión central: dados el periodo y su derivada, ¿qué campo, edad y potencia de frenado tiene el púlsar y qué se aprende de su binaria?
+💡 **Cómo se explica en la clase [B27-C05](../programa/clases/B27/B27-C05-pulsares-y-relojes-naturales/CLASE.md):**
+- En el púlsar binario PSR B1913+16, `9257` tiempos de llegada durante unos `35` años dieron masas de `1,438` y `1,390 M☉` y un decaimiento orbital que coincide con la relatividad general con razón `0,9983 ± 0,0016` (S4, resumen).
+- Interpretar una prueba de la radiación gravitacional con tiempos de llegada.
+- 🎯 **Por qué importa:** Un púlsar da, a la vez, un reloj de precisión, la medida de su campo magnético y, en una binaria, la masa de las estrellas y una prueba de la relatividad general. La decisión central: dados el periodo y su derivada, ¿qué campo, edad y potencia de frenado tiene el púlsar y qué se aprende de su binaria?
 
 📘 **Dónde se aprende:** [B27-C05 · Púlsares y relojes naturales](../programa/clases/B27/B27-C05-pulsares-y-relojes-naturales/CLASE.md).
 
@@ -4389,7 +4668,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El rendimiento es aptitud menos fatiga. TRIMP es una carga basada en frecuencia cardiaca.
 
-🎯 **Por qué importa (clase B104-C04):** Entrenar más no siempre significa rendir más el día que importa. La decisión central: ¿cómo distribuir una misma carga total para llegar con la mejor combinación de aptitud y fatiga?
+💡 **Cómo se explica en la clase [B104-C04](../programa/clases/B104/B104-C04-acondicionamiento-fisico-general/CLASE.md):**
+- Calcular la fracción de reserva de frecuencia cardiaca (Karvonen) y una carga tipo TRIMP.
+- Ejercicio 2 · con una pista. Calcula el TRIMP de 30 min a 110 lpm.
+- 🎯 **Por qué importa:** Entrenar más no siempre significa rendir más el día que importa. La decisión central: ¿cómo distribuir una misma carga total para llegar con la mejor combinación de aptitud y fatiga?
 
 📘 **Dónde se aprende:** [B104-C04 · Acondicionamiento físico general](../programa/clases/B104/B104-C04-acondicionamiento-fisico-general/CLASE.md).
 
@@ -4425,6 +4707,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B08-C05](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md):**
 - A las 00:00 UT del 5 de noviembre, el tiempo sidéreo local fue `22,25 h` (laboratorio, simulado).
+- Calcular el tiempo sidéreo local a una hora UT y usarlo para ubicar el tránsito de un objeto.
 - 🎯 **Por qué importa:** Si una estrella culmina a las 22:00 hoy, culminará a las 21:56 mañana. Quien no lo sabe «pierde» el objeto en pocas semanas.
 
 📘 **Dónde se aprende:** [B08-C05 · Tiempo sidéreo y solar](../programa/clases/B08/B08-C05-tiempo-sidereo-y-solar/CLASE.md).
@@ -4443,7 +4726,9 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - **Significa:** Vacío térmico (TVAC).
 - Vacío térmico (TVAC): ensayo de temperatura en vacío.
 
-🎯 **Por qué importa (clase B90-C12):** Una nave en órbita baja sufre unos 16 ciclos térmicos por día; no se pueden repetir 5 840 ciclos en tierra. La decisión central: ¿cuántos ciclos de ensayo con mayor amplitud representan un año de órbita y cuánto tarda la campaña?
+💡 **Cómo se explica en la clase [B90-C12](../programa/clases/B90/B90-C12-vacio-termico-y-ciclos/CLASE.md):**
+- python programa/clases/B90/B90-C12-vacio-termico-y-ciclos/vacio_y_ciclos.py
+- 🎯 **Por qué importa:** Una nave en órbita baja sufre unos 16 ciclos térmicos por día; no se pueden repetir 5 840 ciclos en tierra. La decisión central: ¿cuántos ciclos de ensayo con mayor amplitud representan un año de órbita y cuánto tarda la campaña?
 
 📘 **Dónde se aprende:** [B90-C12 · Vacío térmico y ciclos](../programa/clases/B90/B90-C12-vacio-termico-y-ciclos/CLASE.md).
 
@@ -4451,7 +4736,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - La UA es la unidad astronómica.
 
-🎯 **Por qué importa (clase B89-C04):** La pérdida de espacio libre domina cualquier presupuesto de enlace de espacio profundo y fija la potencia, la ganancia y el tiempo de ida y vuelta que tendrá una misión. La decisión central: ¿cuántos decibelios se pierden entre transmisor y receptor y cuánto tarda la señal en llegar?
+💡 **Cómo se explica en la clase [B89-C04](../programa/clases/B89/B89-C04-propagacion-y-perdidas-de-espacio-libre/CLASE.md):**
+- Pasar de X a Ka a 2,5 UA cuesta `11,617 dB` más de espacio libre (`20 log₁₀(32/8,4)`).
+- A la Luna (384 400 km) la pérdida en banda X es de `222,63 dB` y la luz tarda `1,282 s`; a Neptuno (30 UA) la pérdida es de `303,97 dB` y el viaje de ida dura `4,16 h`.
+- 🎯 **Por qué importa:** La pérdida de espacio libre domina cualquier presupuesto de enlace de espacio profundo y fija la potencia, la ganancia y el tiempo de ida y vuelta que tendrá una misión. La decisión central: ¿cuántos decibelios se pierden entre transmisor y receptor y cuánto tarda la señal en llegar?
 
 📘 **Dónde se aprende:** [B89-C04 · Propagación y pérdidas de espacio libre](../programa/clases/B89/B89-C04-propagacion-y-perdidas-de-espacio-libre/CLASE.md).
 
@@ -4485,6 +4773,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B68-C04](../programa/clases/B68/B68-C04-laboratorio-de-astroquimica-de-hielos-en-ultra-alto-vacio-criogenico/CLASE.md):**
 - Los experimentos de las clases anteriores se hacen en cámaras de ultra alto vacío con una superficie enfriada a 10–18 K.
+- python programa/clases/B68/B68-C04-laboratorio-de-astroquimica-de-hielos-en-ultra-alto-vacio-criogenico/montaje_uhv.py
 - 🎯 **Por qué importa:** Un hielo de 10 ML de CO sobre una superficie a 10 K se contamina con agua residual en horas si la presión de fondo no es lo bastante baja, y una TPD con bombeo insuficiente deforma el pico que se mide.
 
 📘 **Dónde se aprende:** [B68-C04 · Laboratorio de astroquímica de hielos en ultra alto vacío criogénico](../programa/clases/B68/B68-C04-laboratorio-de-astroquimica-de-hielos-en-ultra-alto-vacio-criogenico/CLASE.md).
@@ -4506,6 +4795,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B02-C20](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md):**
 - S2 cita el artículo 32.2 de la UNDRIP, que pide a los estados obtener consentimiento libre e informado antes de aprobar proyectos que afecten sus tierras o territorios, y propone no tratar a los pueblos indígenas solo como «partes interesadas» o «compromiso cultural».
+- Hecho: que la astronomía canadiense usa Maunakea y que hay tensiones por el TMT; propuesta: que la sociedad adopte una posición guiada por UNDRIP y use las directrices como modelo.
 - 🎯 **Por qué importa:** Los sitios, instrumentos, archivos, saberes y hasta la oscuridad del cielo son patrimonio, y los telescopios, el turismo y las constelaciones de satélites pueden dañarlo. La pregunta motivadora es: ¿qué debo preguntar, a quién y antes de qué, cuando mi trabajo toca un cielo o un lugar que importa a otras personas?
 
 📘 **Dónde se aprende:** [B02-C20 · Patrimonio astronómico y ética cultural](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md).
@@ -4540,7 +4830,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El Tiempo Universal Coordinado (UTC) es una forma de nombrar instantes con fecha y hora civil que sigue a TAI con saltos de un segundo para mantenerse a menos de `0,9 s` de UT1 (S3); no es una escala continua.
 - Muestra de auditoría: entradas revisadas. UTC: tiempo universal coordinado.
 
-🎯 **Por qué importa (clase B13-C08):** Una efeméride planetaria se tabula en una escala de tiempo; el reloj civil usa otra; y la hora de una nave, otra distinta. Si usas la escala equivocada, una posición calculada para la Luna se desplaza: un segundo de diferencia son unos mil metros de movimiento orbital lunar.
+💡 **Cómo se explica en la clase [B96-C30](../programa/clases/B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md):**
+- Ejercicio 10 · transferencia. Transferencia. ¿Por qué las marcas de tiempo deben ser UTC y no decrecientes?
+- Datos SINTETICOS: operadores, acciones y marcas de tiempo ficticios (UTC fijo); semilla 96
+- 🎯 **Por qué importa:** Sin registro verificable no se puede reconstruir un incidente ni demostrar quién aprobó un comando. La decisión central: ¿cómo se registra para que una alteración se detecte y cuánto hay que revisar en una auditoría?
 
 📘 **Dónde se aprende:** [B13-C08 · Escalas UTC, TAI, TT y TDB](../programa/clases/B13/B13-C08-escalas-utc-tai-tt-y-tdb/CLASE.md); [B96-C30 · Registro y auditoría de operaciones](../programa/clases/B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md).
 
@@ -4571,6 +4864,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B94-C03](../programa/clases/B94/B94-C03-tramas-de-transferencia-de-telemetria-y-telecomando/CLASE.md):**
 - Paso 2 · Primeros 16 bits. `0x2A53 = 0010 1010 0101 0011`: versión `00`, SCID `10 1010 0101 = 0x2A5`, VCID `001`, OCF `1`.
+- Ejercicio 5 · autónomo. Calcula `0x2A5 << 4` y súmale VCID = 3 desplazado 1 bit y OCF = 0.
 - 🎯 **Por qué importa:** Un receptor que recibe un flujo de octetos con pérdidas necesita saber qué trama es, si llegó íntegra, si faltan tramas y dónde retomar los paquetes. La decisión central: ¿qué campos de la trama permiten detectar errores y pérdidas y resincronizar sin retransmitir?
 
 📘 **Dónde se aprende:** [B94-C03 · Tramas de transferencia de telemetría y telecomando](../programa/clases/B94/B94-C03-tramas-de-transferencia-de-telemetria-y-telecomando/CLASE.md).
@@ -4579,7 +4873,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - HDOP y VDOP separan lo horizontal de lo vertical.
 
-🎯 **Por qué importa (clase B57-C10):** La geodesia con GNSS mide posiciones de estaciones con precisión de milímetros a centímetros y sirve para ver cómo se mueve la corteza. Pero la precisión depende de la geometría de los satélites.
+💡 **Cómo se explica en la clase [B57-C10](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md):**
+- Calcular HDOP, VDOP, PDOP y TDOP desde la matriz de geometría.
+- Ejercicio 6. ¿Qué mide el VDOP frente al HDOP?
+- 🎯 **Por qué importa:** La geodesia con GNSS mide posiciones de estaciones con precisión de milímetros a centímetros y sirve para ver cómo se mueve la corteza. Pero la precisión depende de la geometría de los satélites.
 
 📘 **Dónde se aprende:** [B57-C10 · Geodesia mediante GNSS](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md).
 
@@ -4589,6 +4886,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B89-C03](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md):**
 - La ganancia es `1,4` dBi en VHF, `10,3` en UHF, `25,0` en S, `36,7` en X y `48,3` en Ka; el haz pasa de `144,7°` a `0,66°`.
+- Ejercicio 3 · casi autónomo. ¿Por qué una antena de 1 m en VHF tiene un haz tan ancho?
 - 🎯 **Por qué importa:** Elegir la banda es la primera decisión de diseño de un enlace y determina el tamaño de la antena y la tasa alcanzable. La decisión central: ¿qué banda usar para una ganancia de antena dada y qué se paga en apuntamiento por usarla?
 
 📘 **Dónde se aprende:** [B89-C03 · Bandas VHF UHF S X Ka](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md).
@@ -4600,11 +4898,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 - El VPN es la suma de los flujos descontados.
 - La sensibilidad, la especificidad, el VPP y el VPN miden un umbral.
 
-💡 **Cómo se explica en la clase [B126-C05](../programa/clases/B126/B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md):**
-- A `r = 0` el VPN es la caja acumulada del año 9, `191,56`.
-- La TIR es `33,013269 %` por bisección y por Newton (acuerdo a 10⁻⁹), y `VPN(TIR) = 3 × 10⁻¹⁴`: el VPN en la TIR es cero.
-- ⚠️ **Error frecuente:** Presentar un único VPN sin sensibilidad. Se corrige con 8.4.
-- 🎯 **Por qué importa:** [B124-C12](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) evalúa retorno científico, no viabilidad económica. La decisión central: ¿vale hoy más lo que el negocio devolverá que lo que cuesta, y cuánto pueden equivocarse los supuestos antes de que deje de valer?
+💡 **Cómo se explica en la clase [B105-C24](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md):**
+- Calcular sensibilidad, especificidad, VPP y VPN de un umbral con una prevalencia dada.
+- umbral sensibilidad especificidad VPP (prevalencia 2 %) VPN
+- 🎯 **Por qué importa:** Con tripulaciones pequeñas, el intervalo de la población general es poco sensible a los cambios personales, y un umbral con baja prevalencia da más falsas alarmas que aciertos. La decisión central: ¿cuándo un cambio de un indicador es real y qué umbral equilibra sensibilidad y valor predictivo?
 
 📘 **Dónde se aprende:** [B105-C24 · Indicadores clínicos y biomarcadores de vuelo](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md); [B116-C06 · Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../programa/clases/B116/B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md); [B126-C05 · Evaluación de viabilidad económica de un negocio espacial](../programa/clases/B126/B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md).
 
@@ -4639,6 +4936,7 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 💡 **Cómo se explica en la clase [B88-C30](../programa/clases/B88/B88-C30-analisis-de-peor-caso-de-tiempo-de-ejecucion-wcet/CLASE.md):**
 - Analogía: el WCET es como el tiempo del viaje más lento posible con todos los semáforos en rojo: puede no ocurrir nunca, pero el horario se arma con él.
+- Calcular el WCET como camino más largo con cotas de bucle.
 - ⚠️ **Error frecuente:** Medir y llamar WCET al máximo. Una cota se calcula (8.1)
 - 🎯 **Por qué importa:** El análisis de planificación (C05) necesita `C` de cada tarea, y medir no basta porque el peor camino puede no ejercitarse. La decisión central: ¿cuál es una cota segura del tiempo de ejecución y cuánto pesimismo trae?
 
@@ -4702,7 +5000,11 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El correlador XF correlaciona en el tiempo y luego transforma; el FX transforma y luego multiplica.
 
-🎯 **Por qué importa (clase B46-C15):** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
+💡 **Cómo se explica en la clase [B46-C15](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md):**
+- La diferencia máxima relativa entre el espectro cruzado FX y la FFT de la correlación XF es `5,6 × 10^-16` (error de redondeo).
+- FX y XF difieren `5,6 × 10^-16` y el retardo de 5 muestras se recupera.
+- ⚠️ **Error frecuente:** Creer que FX y XF difieren. Se corrige con 8.2.
+- 🎯 **Por qué importa:** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
 
 📘 **Dónde se aprende:** [B46-C15 · Correladores y visibilidades](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md).
 
@@ -4722,7 +5024,10 @@ Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabéti
 
 - El efecto Yarkovsky es el empuje por la reemisión térmica anisótropa de un cuerpo que rota. YORP es el torque análogo que cambia la rotación.
 
-🎯 **Por qué importa (clase B58-C14):** Una deriva de decenas de kilómetros en un siglo puede decidir si un acercamiento ocurre. La decisión central: ¿cuánto se desplaza un asteroide por empuje térmico y por qué los cuerpos pequeños son más sensibles?
+💡 **Cómo se explica en la clase [B58-C14](../programa/clases/B58/B58-C14-efectos-yarkovsky-y-yorp/CLASE.md):**
+- La evidencia es la ficha de Yarkovsky y YORP del ejercicio 12 (sección 20).
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de Yarkovsky y YORP*: comparación integrada–fórmula, tabla física y barrera.
+- 🎯 **Por qué importa:** Una deriva de decenas de kilómetros en un siglo puede decidir si un acercamiento ocurre. La decisión central: ¿cuánto se desplaza un asteroide por empuje térmico y por qué los cuerpos pequeños son más sensibles?
 
 📘 **Dónde se aprende:** [B58-C14 · Efectos Yarkovsky y YORP](../programa/clases/B58/B58-C14-efectos-yarkovsky-y-yorp/CLASE.md).
 

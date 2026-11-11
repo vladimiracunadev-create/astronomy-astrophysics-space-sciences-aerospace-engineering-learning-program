@@ -44,6 +44,10 @@ Contiene **8.702** términos distintos, **445** siglas y **4.207** símbolos, to
 - [Z](terminos-z.md) — 19 términos
 - [0-9](terminos-0-9.md) — 22 términos
 
+## Vocabulario transversal
+
+- [Los 179 términos más usados](mas-usados.md): los que comparten más clases; conviene dominarlos primero.
+
 ## Términos por área del programa
 
 Útil para estudiar un tema: cada área reúne el vocabulario de sus bloques.

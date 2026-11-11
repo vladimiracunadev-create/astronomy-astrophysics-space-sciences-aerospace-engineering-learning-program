@@ -17,6 +17,10 @@
 
 - El correlador XF correlaciona en el tiempo y luego transforma; el FX transforma y luego multiplica.
 
-🎯 **Por qué importa (clase B46-C15):** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
+💡 **Cómo se explica en la clase [B46-C15](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md):**
+- La diferencia máxima relativa entre el espectro cruzado FX y la FFT de la correlación XF es `5,6 × 10^-16` (error de redondeo).
+- FX y XF difieren `5,6 × 10^-16` y el retardo de 5 muestras se recupera.
+- ⚠️ **Error frecuente:** Creer que FX y XF difieren. Se corrige con 8.2.
+- 🎯 **Por qué importa:** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
 
 📘 **Dónde se aprende** (1 clase): [B46-C15 · Correladores y visibilidades](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md).

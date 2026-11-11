@@ -16,7 +16,11 @@
 
 - Las bandas VHF (~145 MHz), UHF (~401 MHz), S (~2,2 GHz), X (~8,4 GHz) y Ka (~32 GHz) se tratan aquí con frecuencias centrales ilustrativas.
 
-🎯 **Por qué importa (clase B89-C03):** Elegir la banda es la primera decisión de diseño de un enlace y determina el tamaño de la antena y la tasa alcanzable. La decisión central: ¿qué banda usar para una ganancia de antena dada y qué se paga en apuntamiento por usarla?
+💡 **Cómo se explica en la clase [B89-C03](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md):**
+- La ganancia es `1,4` dBi en VHF, `10,3` en UHF, `25,0` en S, `36,7` en X y `48,3` en Ka; el haz pasa de `144,7°` a `0,66°`.
+- Para una ganancia de 30 dBi hace falta una parábola de `9,72 m` en UHF, de `0,464 m` en X y de `0,122 m` en Ka.
+- ⚠️ **Error frecuente:** Olvidar el apuntamiento al elegir Ka. Se corrige con 8.3.
+- 🎯 **Por qué importa:** Elegir la banda es la primera decisión de diseño de un enlace y determina el tamaño de la antena y la tasa alcanzable. La decisión central: ¿qué banda usar para una ganancia de antena dada y qué se paga en apuntamiento por usarla?
 
 📘 **Dónde se aprende** (1 clase): [B89-C03 · Bandas VHF UHF S X Ka](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md).
 
@@ -26,6 +30,7 @@
 
 💡 **Cómo se explica en la clase [B103-C02](../programa/clases/B103/B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md):**
 - Kabsch devuelve una rotación con 0,0220° de error y una traslación con 0,72 mm de error; el residuo RMS es de 3,08 mm (el ruido por tres ejes es `2 mm·√3 = 3,46 mm`).
+- Estimar `R` y `t` con Kabsch (centrado, SVD y corrección de reflexión).
 - 🎯 **Por qué importa:** Un error de 0,02° en la rotación entre una cámara y el brazo de un robot parece nada, pero a 10 m son 3,5 mm de error de posición, y a más distancia crece sin límite. La decisión central: ¿cuántas correspondencias y con qué geometría hacen falta para que la pose entre sensores cumpla un presupuesto de error dado?
 
 📘 **Dónde se aprende** (1 clase): [B103-C02 · Calibración extrínseca y registro multisensor](../programa/clases/B103/B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md).
@@ -36,10 +41,10 @@
 - El `k`-anonimato es el tamaño mínimo de los grupos de personas con los mismos cuasi-identificadores.
 - El k-anonimato exige que cada combinación de cuasi-identificadores aparezca al menos `k` veces.
 
-💡 **Cómo se explica en la clase [B124-C13](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md):**
-- Además, un atacante con datos externos nuevos puede reducir el grupo; por eso el k-anonimato reduce, no elimina, el riesgo, y no sustituye el consentimiento ni la evaluación ética.
-- ⚠️ **Error frecuente:** Tomar el k-anonimato como cumplimiento ético o legal. Se corrige con el ejercicio 11.
-- 🎯 **Por qué importa:** Abrir datos sin proteger a las personas es un daño, y proteger sin medir es una promesa vacía. La decisión central: ¿cuánto generalizar los datos para que ninguna persona sea identificable y cuánta información se pierde?
+💡 **Cómo se explica en la clase [B105-C19](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md):**
+- Calcular el k-anonimato y la fracción de registros únicos de una tabla.
+- El script [privacidad.py](privacidad.py) mide el k-anonimato y la unicidad de cohortes sintéticas de 6 con cinco esquemas de cuasi-identificadores y calcula el error del ruido de Laplace por `ε` (comprueba que más cuasi-identificadores no reduce la unicidad y que el error del ruido iguala la escala de Laplace).
+- 🎯 **Por qué importa:** No basta con quitar el nombre: con edad, sexo, profesión y misión, una persona de una cohorte de 6 suele ser única. La decisión central: ¿qué se puede publicar de una cohorte pequeña sin identificar a nadie y cuánta utilidad se pierde al protegerla?
 
 📘 **Dónde se aprende** (3 clases): [B105-C19 · Bioética en investigación tripulada](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md); [B124-C13 · Ética de investigación y datos](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md); [B129-C05 · Consentimiento y privacidad de participantes](../programa/clases/B129/B129-C05-consentimiento-y-privacidad-de-participantes/CLASE.md).
 
@@ -48,8 +53,8 @@
 - La censura es no haber alcanzado el criterio al terminar. Kaplan–Meier estima `S(t)` con censura.
 
 💡 **Cómo se explica en la clase [B107-C10](../programa/clases/B107/B107-C10-indicadores-de-rehabilitacion-y-seguimiento/CLASE.md):**
+- T["tiempo al criterio, con censura"] --> K["Kaplan-Meier S(t)"]
 - *Descripción textual:* las medidas dan el porcentaje de recuperación y la pendiente semanal; los tiempos con censura dan la curva de Kaplan–Meier y el CUSUM de la pendiente emite una alerta de estancamiento.
-- Kaplan–Meier da `S = 0,525` a 15 d, `0,300` a 30 d y `0,250` a 45 d (teóricas 0,607; 0,368; 0,223) y una mediana de `15,7 d` (teórica 20,8).
 - 🎯 **Por qué importa:** Los fragmentos consultados describen el entrenamiento en la ISS (Loehr et al., 2015) y baterías funcionales con medidas fisiológicas (Mulavara et al., 2018), pero un seguimiento necesita indicadores bien definidos y bien calculados.
 
 📘 **Dónde se aprende** (1 clase): [B107-C10 · Indicadores de rehabilitación y seguimiento](../programa/clases/B107/B107-C10-indicadores-de-rehabilitacion-y-seguimiento/CLASE.md).
@@ -73,7 +78,9 @@
 - El kappa de Cohen mide el acuerdo entre dos evaluadores corrigiendo el azar.
 - *(y 1 formulaciones más en otras clases; ábrelas desde los enlaces)*
 
-🎯 **Por qué importa (clase B17-C10):** Se quiere entrenar un modelo que distinga galaxias espirales de elípticas. Hay un millón de imágenes y nadie las ha etiquetado.
+💡 **Cómo se explica en la clase [B17-C10](../programa/clases/B17/B17-C10-conjuntos-de-datos-etiquetados-para-aprendizaje-supervisado/CLASE.md):**
+- Calcular el acuerdo observado y el coeficiente kappa de Cohen entre dos anotadores.
+- 🎯 **Por qué importa:** Se quiere entrenar un modelo que distinga galaxias espirales de elípticas. Hay un millón de imágenes y nadie las ha etiquetado.
 
 📘 **Dónde se aprende** (4 clases): [B17-C10 · Conjuntos de datos etiquetados para aprendizaje supervisado](../programa/clases/B17/B17-C10-conjuntos-de-datos-etiquetados-para-aprendizaje-supervisado/CLASE.md); [B56-C01 · Definiciones operativas de vida](../programa/clases/B56/B56-C01-definiciones-operativas-de-vida/CLASE.md); [B109-C12 · Evaluación de factores humanos de maquetas y distribuciones](../programa/clases/B109/B109-C12-evaluacion-de-factores-humanos-de-maquetas-y-distribuciones/CLASE.md); [B124-C20 · Proyecto integrador y portafolio profesional](../programa/clases/B124/B124-C20-proyecto-integrador-y-portafolio-profesional/CLASE.md).
 
@@ -89,7 +96,9 @@
 
 - El kappa ponderado cuadrático penaliza más las discrepancias grandes.
 
-🎯 **Por qué importa (clase B131-C09):** Una rúbrica sin acuerdo entre evaluadores asigna notas que dependen de quién corrige. La decisión central: ¿dos personas distintas darían el mismo nivel a este trabajo, y cómo lo sabes?
+💡 **Cómo se explica en la clase [B131-C09](../programa/clases/B131/B131-C09-rubricas-de-evaluacion/CLASE.md):**
+- Calcular kappa de Cohen y kappa ponderado cuadrático.
+- 🎯 **Por qué importa:** Una rúbrica sin acuerdo entre evaluadores asigna notas que dependen de quién corrige. La decisión central: ¿dos personas distintas darían el mismo nivel a este trabajo, y cómo lo sabes?
 
 📘 **Dónde se aprende** (1 clase): [B131-C09 · Rúbricas de evaluación](../programa/clases/B131/B131-C09-rubricas-de-evaluacion/CLASE.md).
 
@@ -98,6 +107,7 @@
 - Las unidades `K_CMB` y `K_RJ`.
 
 💡 **Cómo se explica en la clase [B40-C10](../programa/clases/B40/B40-C10-emisiones-de-primer-plano-galacticas-y-su-separacion/CLASE.md):**
+- Convertir temperaturas RJ y brillo a `K_CMB`.
 - ⚠️ **Error frecuente:** Mezclar unidades `K_RJ` y `K_CMB`. Se corrige con la sección 9.
 - 🎯 **Por qué importa:** Sin separar los primeros planos no se mide el fondo. La decisión central: ¿qué pesos por frecuencia minimizan la contaminación sin tocar la señal del CMB?
 
@@ -109,6 +119,7 @@
 
 💡 **Cómo se explica en la clase [B13-C16](../programa/clases/B13/B13-C16-calibracion-termica/CLASE.md):**
 - Desde 2019 el kelvin se define fijando `k = 1,380 649 × 10⁻²³ J/K`: un kelvin es el cambio de temperatura termodinámica que cambia la energía térmica `kT` en esa cantidad.
+- Explicar cómo el kelvin se define con la constante de Boltzmann y qué papel conserva el punto triple del agua.
 - ⚠️ **Error frecuente:** Usar grados Celsius en la ley de Stefan–Boltzmann. Se corrige en el ejercicio 4 (usa kelvin).
 - 🎯 **Por qué importa:** Un sensor de temperatura pegado a un panel de una nave devuelve una resistencia. Convertirla en kelvin exige calibrarlo contra referencias conocidas, y comprobar que la temperatura medida concuerda con un balance térmico previsto.
 
@@ -131,6 +142,8 @@
 - El período nodal es el tiempo entre dos pasos consecutivos por el nodo ascendente; el kepleriano ignora las perturbaciones.
 
 💡 **Cómo se explica en la clase [B119-C04](../programa/clases/B119/B119-C04-convenio-de-registro/CLASE.md):**
+- Calcular el período kepleriano desde apogeo y perigeo con `T = 2π √(a³/GM)`.
+- Distinguir el período kepleriano del nodal y nombrar el efecto que se ignora (J2).
 - ⚠️ **Error frecuente:** Confundir período kepleriano y nodal. Se corrige con 8.4.
 - 🎯 **Por qué importa:** El art. VIII del tratado de 1967 vincula la jurisdicción al registro, y el convenio de 1974 define qué se registra; ninguna clase anterior lo calcula ni lo valida.
 
@@ -152,7 +165,10 @@
 
 - La clase presenta este término en su vocabulario sin una definición aparte; su explicación está en lo que sigue y en la clase enlazada.
 
-🎯 **Por qué importa (clase B32-C11):** `v sin i` es la rotación proyectada y da pistas de edad y actividad. La decisión central: ¿cómo se mide `v sin i` de un perfil?
+💡 **Cómo se explica en la clase [B32-C11](../programa/clases/B32/B32-C11-ensanchamiento-rotacional-y-v-sin-i/CLASE.md):**
+- Ejercicio 12. Integrador. Elabora tu *ficha del ensanchamiento rotacional*: kernel, FWHM y recuperación.
+- Ejercicio 12 · integrador. Integrador. Elabora tu *ficha del ensanchamiento rotacional*: kernel, FWHM y recuperación.
+- 🎯 **Por qué importa:** `v sin i` es la rotación proyectada y da pistas de edad y actividad. La decisión central: ¿cómo se mide `v sin i` de un perfil?
 
 📘 **Dónde se aprende** (1 clase): [B32-C11 · Ensanchamiento rotacional y v sin i](../programa/clases/B32/B32-C11-ensanchamiento-rotacional-y-v-sin-i/CLASE.md).
 
@@ -160,7 +176,10 @@
 
 - La kilonova es el transitorio térmico tras una fusión de estrellas de neutrones.
 
-🎯 **Por qué importa (clase B28-C18):** La escala de tiempo y el brillo de una kilonova dependen de la masa eyectada y de su velocidad. Entender esa relación permite estimar ambos a partir de la curva de luz.
+💡 **Cómo se explica en la clase [B28-C18](../programa/clases/B28/B28-C18-interpretacion-de-kilonovas/CLASE.md):**
+- Metzger describe las kilonovas como transitorios térmicos casi isótropos alimentados por la desintegración radiactiva de núcleos inestables formados en la fusión (S3, resumen).
+- La evidencia es la ficha de una kilonova del ejercicio 12 (sección 20).
+- 🎯 **Por qué importa:** La escala de tiempo y el brillo de una kilonova dependen de la masa eyectada y de su velocidad. Entender esa relación permite estimar ambos a partir de la curva de luz.
 
 📘 **Dónde se aprende** (1 clase): [B28-C18 · Interpretación de kilonovas](../programa/clases/B28/B28-C18-interpretacion-de-kilonovas/CLASE.md).
 
@@ -182,7 +201,8 @@
 - El agrupamiento (*clustering*) asigna cada objeto a un grupo. K-medias repite dos pasos (algoritmo de Lloyd): asignar cada punto al centro más cercano y recalcular cada centro como la media de sus puntos.
 
 💡 **Cómo se explica en la clase [B15-C23](../programa/clases/B15/B15-C23-clasificacion-no-supervisada-y-agrupamiento-de-imagenes/CLASE.md):**
-- k-medias: rápido, grupos redondos, exige `k`.
+- (2) `c_j = media{x_i : g(i) = j}`; se repite hasta que los centroides no cambian.
+- Cada paso no aumenta la inercia: asignar al más cercano la disminuye o la mantiene; recalcular la media también (la media minimiza la suma de cuadrados).
 - 🎯 **Por qué importa:** Un satélite fotografía una región que nadie ha cartografiado. Sin muestras, no se puede entrenar un clasificador, pero sí se puede preguntar cuántos «tipos» de superficie distintos hay en las bandas.
 
 📘 **Dónde se aprende** (2 clases): [B15-C23 · Clasificación no supervisada y agrupamiento de imágenes](../programa/clases/B15/B15-C23-clasificacion-no-supervisada-y-agrupamiento-de-imagenes/CLASE.md); [B17-C06 · Aprendizaje no supervisado](../programa/clases/B17/B17-C06-aprendizaje-no-supervisado/CLASE.md).
@@ -201,7 +221,11 @@
 
 - El Kp es un índice trihorario planetario.
 
-🎯 **Por qué importa (clase B30-C23):** Kp y Dst son los índices con que se habla de tormentas. Saber cómo se construyen y con qué incertidumbre ayuda a leer un registro.
+💡 **Cómo se explica en la clase [B30-C23](../programa/clases/B30/B30-C23-indices-geomagneticos-kp-y-dst/CLASE.md):**
+- Trece estaciones ilustrativas dan `K = [3, 4, 4, 4, 4, 5, 6, 6, 2, 4, 4, 2, 5]`, promedio `4,077` y Kp `4o` (12 tercios).
+- El Kp redondeado al tercio pierde información: dos conjuntos de `K` distintos pueden dar la misma etiqueta.
+- ⚠️ **Error frecuente:** Pensar que el Kp es lineal. Se corrige con 8.2.
+- 🎯 **Por qué importa:** Kp y Dst son los índices con que se habla de tormentas. Saber cómo se construyen y con qué incertidumbre ayuda a leer un registro.
 
 📘 **Dónde se aprende** (1 clase): [B30-C23 · Índices geomagnéticos Kp y Dst](../programa/clases/B30/B30-C23-indices-geomagneticos-kp-y-dst/CLASE.md).
 
@@ -221,7 +245,10 @@
 
 - El kriging ordinario es el mejor estimador lineal insesgado con media constante desconocida.
 
-🎯 **Por qué importa (clase B67-C05):** Promediar muestras ignora que dos puntos cercanos se parecen más que dos lejanos, y una interpolación sin varianza no dice dónde se sabe poco. La decisión central: ¿qué valor y qué incertidumbre se asigna a un punto sin muestra, y dónde conviene muestrear más?
+💡 **Cómo se explica en la clase [B67-C05](../programa/clases/B67/B67-C05-modelos-geoestadisticos-de-distribucion-de-volatiles/CLASE.md):**
+- Plantear y resolver el sistema de kriging ordinario con la restricción de suma de pesos igual a 1.
+- Ejercicio 3 · casi autónomo. ¿Por qué los pesos de kriging ordinario deben sumar 1?
+- 🎯 **Por qué importa:** Promediar muestras ignora que dos puntos cercanos se parecen más que dos lejanos, y una interpolación sin varianza no dice dónde se sabe poco. La decisión central: ¿qué valor y qué incertidumbre se asigna a un punto sin muestra, y dónde conviene muestrear más?
 
 📘 **Dónde se aprende** (1 clase): [B67-C05 · Modelos geoestadísticos de distribución de volátiles](../programa/clases/B67/B67-C05-modelos-geoestadisticos-de-distribucion-de-volatiles/CLASE.md).
 
@@ -252,6 +279,7 @@
 
 💡 **Cómo se explica en la clase [B40-C11](../programa/clases/B40/B40-C11-efecto-sunyaev-zeldovich-termico-y-cinematico/CLASE.md):**
 - El tSZ es un déficit por debajo de 217,5 GHz y un exceso por encima; el kSZ conserva la forma del cuerpo negro y no se anula.
+- Ejercicio 6. Cociente tSZ/kSZ a 143 GHz.
 - ⚠️ **Error frecuente:** Confundir tSZ y kSZ. Se corrige con 8.4.
 - 🎯 **Por qué importa:** El tSZ no depende del corrimiento al rojo y permite detectar cúmulos lejanos. La decisión central: ¿cuánto vale la distorsión a cada frecuencia y dónde se anula?
 
