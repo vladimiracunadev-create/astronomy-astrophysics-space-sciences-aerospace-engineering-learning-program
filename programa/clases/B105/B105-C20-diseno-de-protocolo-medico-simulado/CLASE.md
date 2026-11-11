@@ -1,7 +1,7 @@
 # B105-C20 — Diseño de protocolo médico simulado
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C19 — Bioética en investigación tripulada](../B105-C19-bioetica-en-investigacion-tripulada/CLASE.md) · [Siguiente: B105-C21 — Fisiología respiratoria en microgravedad y atmósferas de cabina →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C19 — Bioética en investigación tripulada](../B105-C19-bioetica-en-investigacion-tripulada/CLASE.md) · [Siguiente: B105-C21 — Fisiología respiratoria en microgravedad y atmósferas de cabina →](../B105-C21-fisiologia-respiratoria-en-microgravedad-y-atmosferas-de-cabina/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ Con 6 personas, la potencia para `d = 1,0` es 0,51 y el efecto mínimo con 80 % 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B105-C19 — Bioética en investigación tripulada](../B105-C19-bioetica-en-investigacion-tripulada/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C21 — Fisiología respiratoria en microgravedad y atmósferas de cabina →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c21)
+[← Anterior: B105-C19 — Bioética en investigación tripulada](../B105-C19-bioetica-en-investigacion-tripulada/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C21 — Fisiología respiratoria en microgravedad y atmósferas de cabina →](../B105-C21-fisiologia-respiratoria-en-microgravedad-y-atmosferas-de-cabina/CLASE.md)
 <!-- /nav -->
