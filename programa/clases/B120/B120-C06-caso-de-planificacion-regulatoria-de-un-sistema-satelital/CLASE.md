@@ -1,7 +1,7 @@
 # B120-C06 — Caso de planificación regulatoria de un sistema satelital
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B120-C05 — Riesgos de incumplimiento regulatorio](../B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md) · [Siguiente: B121-C01 — Licencias y requisitos nacionales para el lanzamiento →](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md#b121-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B120-C05 — Riesgos de incumplimiento regulatorio](../B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md) · [Siguiente: B121-C01 — Licencias y requisitos nacionales para el lanzamiento →](../../B121/B121-C01-licencias-y-requisitos-nacionales-para-el-lanzamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -321,5 +321,5 @@ Para una puesta en servicio sintética del 2033-09-01, la ventana de anticipaci�
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B120-C05 — Riesgos de incumplimiento regulatorio](../B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B121-C01 — Licencias y requisitos nacionales para el lanzamiento →](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md#b121-c01)
+[← Anterior: B120-C05 — Riesgos de incumplimiento regulatorio](../B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B121-C01 — Licencias y requisitos nacionales para el lanzamiento →](../../B121/B121-C01-licencias-y-requisitos-nacionales-para-el-lanzamiento/CLASE.md)
 <!-- /nav -->

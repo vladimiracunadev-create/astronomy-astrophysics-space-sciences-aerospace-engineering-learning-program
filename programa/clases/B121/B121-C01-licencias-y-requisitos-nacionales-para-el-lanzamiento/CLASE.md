@@ -1,7 +1,7 @@
 # B121-C01 — Licencias y requisitos nacionales para el lanzamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [← Anterior: B120-C06 — Caso de planificación regulatoria de un sistema satelital](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c06) · [Siguiente: B121-C02 — Licenciamiento de actividades de teledetección →](../B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [← Anterior: B120-C06 — Caso de planificación regulatoria de un sistema satelital](../../B120/B120-C06-caso-de-planificacion-regulatoria-de-un-sistema-satelital/CLASE.md) · [Siguiente: B121-C02 — Licenciamiento de actividades de teledetección →](../B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Con `P_f = 0,03`, una trayectoria sobre mar abierto da `Ec = 1,8 × 10⁻⁵` y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B120-C06 — Caso de planificación regulatoria de un sistema satelital](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c06) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [Siguiente: B121-C02 — Licenciamiento de actividades de teledetección →](../B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md)
+[← Anterior: B120-C06 — Caso de planificación regulatoria de un sistema satelital](../../B120/B120-C06-caso-de-planificacion-regulatoria-de-un-sistema-satelital/CLASE.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [Siguiente: B121-C02 — Licenciamiento de actividades de teledetección →](../B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md)
 <!-- /nav -->
