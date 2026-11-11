@@ -1,7 +1,7 @@
 # B126-C06 — Presentación financiera ante inversionistas con evidencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [← Anterior: B126-C05 — Evaluación de viabilidad económica de un negocio espacial](../B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md) · [Siguiente: B127-C01 — Seguros de lanzamiento →](../../../tronco-comun/B127-seguros-espaciales.md#b127-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [← Anterior: B126-C05 — Evaluación de viabilidad económica de un negocio espacial](../B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md) · [Siguiente: B127-C01 — Seguros de lanzamiento →](../../B127/B127-C01-seguros-de-lanzamiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ De siete cifras de una presentación sintética, el auditor detecta un error de 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B126-C05 — Evaluación de viabilidad económica de un negocio espacial](../B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [Siguiente: B127-C01 — Seguros de lanzamiento →](../../../tronco-comun/B127-seguros-espaciales.md#b127-c01)
+[← Anterior: B126-C05 — Evaluación de viabilidad económica de un negocio espacial](../B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [Siguiente: B127-C01 — Seguros de lanzamiento →](../../B127/B127-C01-seguros-de-lanzamiento/CLASE.md)
 <!-- /nav -->

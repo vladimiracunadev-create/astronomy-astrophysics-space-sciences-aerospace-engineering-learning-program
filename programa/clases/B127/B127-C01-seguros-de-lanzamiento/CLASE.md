@@ -1,7 +1,7 @@
 # B127-C01 — Seguros de lanzamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [← Anterior: B126-C06 — Presentación financiera ante inversionistas con evidencia](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md#b126-c06) · [Siguiente: B127-C02 — Seguros en órbita →](../B127-C02-seguros-en-orbita/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [← Anterior: B126-C06 — Presentación financiera ante inversionistas con evidencia](../../B126/B126-C06-presentacion-financiera-ante-inversionistas-con-evidencia/CLASE.md) · [Siguiente: B127-C02 — Seguros en órbita →](../B127-C02-seguros-en-orbita/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Un lanzamiento sintético de `200 MUSD` con `6 %` de frecuencia de siniestro y `
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B126-C06 — Presentación financiera ante inversionistas con evidencia](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md#b126-c06) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [Siguiente: B127-C02 — Seguros en órbita →](../B127-C02-seguros-en-orbita/CLASE.md)
+[← Anterior: B126-C06 — Presentación financiera ante inversionistas con evidencia](../../B126/B126-C06-presentacion-financiera-ante-inversionistas-con-evidencia/CLASE.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [Siguiente: B127-C02 — Seguros en órbita →](../B127-C02-seguros-en-orbita/CLASE.md)
 <!-- /nav -->
