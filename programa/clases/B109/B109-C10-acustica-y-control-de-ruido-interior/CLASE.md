@@ -1,7 +1,7 @@
 # B109-C10 — Acústica y control de ruido interior
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B109-C09 — Privacidad y espacios personales](../B109-C09-privacidad-y-espacios-personales/CLASE.md) · [Siguiente: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio →](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c11)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B109-C09 — Privacidad y espacios personales](../B109-C09-privacidad-y-espacios-personales/CLASE.md) · [Siguiente: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio →](../B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Cuatro fuentes ilustrativas suman `65,0 dBA` de potencia y `55,9 dBA` a `3 m`; e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B109-C09 — Privacidad y espacios personales](../B109-C09-privacidad-y-espacios-personales/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio →](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c11)
+[← Anterior: B109-C09 — Privacidad y espacios personales](../B109-C09-privacidad-y-espacios-personales/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio →](../B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md)
 <!-- /nav -->
