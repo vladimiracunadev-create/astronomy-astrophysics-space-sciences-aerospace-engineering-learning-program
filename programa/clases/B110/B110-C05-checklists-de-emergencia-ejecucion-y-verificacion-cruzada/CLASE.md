@@ -1,7 +1,7 @@
 # B110-C05 — Checklists de emergencia: ejecución y verificación cruzada
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [← Anterior: B110-C04 — Priorización y decisiones bajo emergencia](../B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md) · [Siguiente: B111-C01 — Fundamentos de factores humanos en operaciones espaciales →](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md#b111-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [← Anterior: B110-C04 — Priorización y decisiones bajo emergencia](../B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md) · [Siguiente: B111-C01 — Fundamentos de factores humanos en operaciones espaciales →](../../B111/B111-C01-fundamentos-de-factores-humanos-en-operaciones-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -318,5 +318,5 @@ Con 20 pasos y un error por paso de `0,01`, la probabilidad de un error sin dete
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B110-C04 — Priorización y decisiones bajo emergencia](../B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [Siguiente: B111-C01 — Fundamentos de factores humanos en operaciones espaciales →](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md#b111-c01)
+[← Anterior: B110-C04 — Priorización y decisiones bajo emergencia](../B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [Siguiente: B111-C01 — Fundamentos de factores humanos en operaciones espaciales →](../../B111/B111-C01-fundamentos-de-factores-humanos-en-operaciones-espaciales/CLASE.md)
 <!-- /nav -->

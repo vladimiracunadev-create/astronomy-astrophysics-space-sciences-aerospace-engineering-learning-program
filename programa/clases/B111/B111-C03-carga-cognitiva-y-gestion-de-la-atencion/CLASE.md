@@ -1,7 +1,7 @@
 # B111-C03 — Carga cognitiva y gestión de la atención
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [← Anterior: B111-C02 — Gestión intercultural en tripulaciones multinacionales](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md) · [Siguiente: B111-C04 — Conciencia situacional en operaciones de vuelo →](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md#b111-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [← Anterior: B111-C02 — Gestión intercultural en tripulaciones multinacionales](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md) · [Siguiente: B111-C04 — Conciencia situacional en operaciones de vuelo →](../B111-C04-conciencia-situacional-en-operaciones-de-vuelo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ La carga ponderada sintética es `65,333` y una ventana de `1,30` desaparece al 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B111-C02 — Gestión intercultural en tripulaciones multinacionales](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [Siguiente: B111-C04 — Conciencia situacional en operaciones de vuelo →](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md#b111-c04)
+[← Anterior: B111-C02 — Gestión intercultural en tripulaciones multinacionales](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [Siguiente: B111-C04 — Conciencia situacional en operaciones de vuelo →](../B111-C04-conciencia-situacional-en-operaciones-de-vuelo/CLASE.md)
 <!-- /nav -->

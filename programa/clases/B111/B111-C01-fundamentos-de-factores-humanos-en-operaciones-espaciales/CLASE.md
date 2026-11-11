@@ -1,7 +1,7 @@
 # B111-C01 — Fundamentos de factores humanos en operaciones espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [← Anterior: B110-C05 — Checklists de emergencia: ejecución y verificación cruzada](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md#b110-c05) · [Siguiente: B111-C02 — Gestión intercultural en tripulaciones multinacionales →](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [← Anterior: B110-C05 — Checklists de emergencia: ejecución y verificación cruzada](../../B110/B110-C05-checklists-de-emergencia-ejecucion-y-verificacion-cruzada/CLASE.md) · [Siguiente: B111-C02 — Gestión intercultural en tripulaciones multinacionales →](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -311,5 +311,5 @@ Un botón con guante cuesta `0,6538 s` frente a `0,5877 s`, y elegir entre ocho 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B110-C05 — Checklists de emergencia: ejecución y verificación cruzada](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md#b110-c05) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [Siguiente: B111-C02 — Gestión intercultural en tripulaciones multinacionales →](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md)
+[← Anterior: B110-C05 — Checklists de emergencia: ejecución y verificación cruzada](../../B110/B110-C05-checklists-de-emergencia-ejecucion-y-verificacion-cruzada/CLASE.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [Siguiente: B111-C02 — Gestión intercultural en tripulaciones multinacionales →](../B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md)
 <!-- /nav -->
