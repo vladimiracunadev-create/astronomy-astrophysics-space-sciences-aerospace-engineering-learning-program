@@ -129,6 +129,64 @@ Desde la década de 2000 se sumaron empresas que ya no son solo "proveedoras" si
 
 ---
 
+## 7. A fondo: cómo nace, se financia y se aprueba una misión
+
+Detrás de cada misión hay un proceso largo y regulado que explica por qué tarda de 8 a 15 años y por qué se cancelan o se retrasan proyectos. Entenderlo ayuda a leer cualquier noticia espacial.
+
+### 7.1 El ciclo de vida en fases
+
+Las agencias dividen una misión en fases con **revisiones formales** (puertas de decisión) al final de cada una. Con pequeñas variaciones, el esquema de NASA es:
+
+| Fase | Qué se hace | Revisión típica |
+|---|---|---|
+| Pre-A | Estudios de concepto: ¿qué pregunta científica? ¿es viable? | Revisión de concepto de misión |
+| A | Definición del concepto y desarrollo de tecnologías críticas | Revisión de requisitos de sistema |
+| B | Diseño preliminar; se fijan interfaces | Revisión preliminar de diseño (PDR) |
+| C | Diseño final y fabricación de componentes | Revisión crítica de diseño (CDR) |
+| D | Ensamble, integración, pruebas y lanzamiento | Revisión de preparación para vuelo |
+| E | Operaciones y análisis de datos | Revisiones de operación |
+| F | Cierre: desorbitar, desactivar, archivar los datos | Revisión de cierre |
+
+**Qué enseña:** cada puerta compara lo diseñado con los requisitos, el costo y el riesgo. Si no se supera, se corrige o se cancela. Los cambios tardíos son mucho más caros que los tempranos: el costo de corregir un error crece de forma notoria con cada fase.
+
+### 7.2 Cómo se elige qué misión hacer
+
+- **Estudios decenales (NASA/EE. UU.):** las comunidades científicas redactan cada diez años una lista priorizada de preguntas y misiones por disciplina; el Congreso y la agencia la usan como guía.
+- **Cosmic Vision / Voyage 2050 (ESA):** el programa científico se organiza por categorías de misión según el costo: S (pequeña, del orden de decenas de millones de euros), M (mediana, del orden de 500 millones) y L (grande, del orden de 1 000 millones).
+- **Programas por tamaño en NASA:** líneas de misiones de costo limitado (clase Discovery, del orden de 500 millones de dólares; New Frontiers, del orden de 1 000 millones) frente a las grandes "insignia" que superan ese límite.
+- **Competencia por mérito:** en las líneas de costo limitado se presentan propuestas y un comité científico y técnico selecciona las mejores.
+
+**Qué enseña:** un tope de costo obliga a decidir qué se sacrifica; las grandes misiones requieren más años, más socios y más riesgo político.
+
+### 7.3 Por qué se retrasan y se encarecen las misiones
+
+1. **Requisitos que cambian** durante el desarrollo.
+2. **Tecnologías inmaduras** (TRL bajo) que resultan más difíciles de lo previsto.
+3. **Integración** de instrumentos de varios países o contratistas.
+4. **Ensayos** que descubren fallos (vibración, vacío térmico, compatibilidad electromagnética) y exigen rediseño.
+5. **Ventanas de lanzamiento** fijas: perder una ventana puede significar esperar meses o años.
+6. **Presupuestos anuales** inestables, que obligan a estirar el calendario.
+
+**Ejemplo:** el telescopio espacial James Webb se planeó para costar una fracción de su costo final (del orden de 10 000 millones de dólares) y lanzarse años antes; su historia es un caso de estudio de crecimiento de costo por complejidad técnica y de gestión.
+
+### 7.4 Cooperación: cómo se reparten las tareas
+
+- **Intercambio de especialidades:** una agencia aporta el lanzador y otra el instrumento. Ej.: Cassini (NASA) llevó a Huygens (ESA) y recibió apoyo de la agencia italiana (ASI) para su antena principal.
+- **Acuerdos formales** (memorandos de entendimiento) fijan responsabilidades, propiedad de los datos y plazos.
+- **Control de exportaciones:** el uso de tecnología sensible (en EE. UU. el régimen ITAR) limita lo que se puede compartir y condiciona qué socios participan.
+
+**Para reflexionar:** ¿qué ventajas tiene que una misión pertenezca a una sola agencia? ¿Y a un consorcio?
+
+### 7.5 Ejercicios
+
+1. Una misión pasa de estar en fase B a fase C. ¿Qué pruebas esperas haber superado y qué decisiones ya no deberían cambiar?
+2. Si el tope de costo de una misión es 500 M€ y el instrumento principal cuesta 40 % más de lo previsto, enumera tres opciones y sus consecuencias.
+3. Busca una misión reciente y ubica en qué fase está según su historia pública.
+
+📘 [B83](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md "Ingeniería de sistemas y diseño de misiones"), [B124](../programa/tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md "Industria, economía, ética y proyectos espaciales"), [B126](../programa/tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md "Financiamiento de proyectos y negocios espaciales").
+
+---
+
 ## Preguntas para estudiar
 
 1. ¿Qué diferencia hay entre una agencia que construye y opera (NASA JPL) y una que compra servicios?

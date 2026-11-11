@@ -109,6 +109,65 @@ Red de radiotelescopios del mundo que, mediante interferometría de línea de ba
 
 ---
 
+## 8. A fondo: del fotón al dato
+
+Un telescopio es la primera parte de una cadena. Para entender qué hay detrás de una imagen publicada hay que seguir el camino de la luz hasta un archivo calibrado.
+
+### 8.1 La cadena de observación
+
+1. **Colección.** El espejo primario recoge fotones; el área colectora (∝ D²) determina cuánta luz llega.
+2. **Óptica.** Espejos secundarios y terciarios llevan la luz al instrumento; la óptica adaptativa corrige la turbulencia.
+3. **Instrumento.** Una cámara (imagen), un espectrógrafo (reparte por longitud de onda) o un polarímetro.
+4. **Detector.** Un CCD o un sensor infrarrojo convierte fotones en electrones. La *eficiencia cuántica* (QE) es la fracción que se detecta (a menudo 80–95 % en visible).
+5. **Lectura.** Los electrones se cuentan con un conversor analógico-digital; se añade ruido de lectura.
+6. **Calibración y reducción.** Se corrigen los efectos del instrumento.
+7. **Análisis.** Fotometría, espectros, mediciones físicas, y una incertidumbre asociada.
+
+### 8.2 Cuántos fotones llegan: un orden de magnitud
+
+Una estrella de magnitud V = 0 entrega del orden de 10¹⁰ fotones por segundo y por metro cuadrado en una banda visible ancha. Cada 5 magnitudes de diferencia son un factor 100.
+
+**Ejemplo.** Un objeto de V = 20 aporta ≈ 10¹⁰ × 10⁻⁸ = 100 fotones/s/m². Con un telescopio de 8 m (área ≈ 50 m²) y QE de 0,8, se registran **del orden de 4 000 electrones por segundo** (sin contar pérdidas por óptica y atmósfera). En una hora de exposición, ≈ 1,4 × 10⁷ electrones, suficiente para una buena razón señal-ruido si el cielo es oscuro. (Cálculo de orden de magnitud; los valores exactos dependen de la banda y del instrumento.)
+
+### 8.3 Reducción de datos: lo que hay que restar y dividir
+
+Una imagen cruda tiene defectos instrumentales que se corrigen con imágenes de calibración:
+
+- **Sesgo (bias):** nivel base que añade la electrónica.
+- **Oscuro (dark):** electrones generados por el calor del sensor; crece con el tiempo y la temperatura.
+- **Campo plano (flat):** diferencias de sensibilidad entre píxeles y viñeteo.
+
+**Fórmula básica:** imagen corregida = (cruda − sesgo − oscuro) / campo plano normalizado. Luego se resta el brillo del cielo y se calibra el flujo con estrellas patrón.
+
+### 8.4 Ruido y detectabilidad
+
+La señal-ruido de una fuente débil se modela con S / √(S + B + D + R²) (S: fuente, B: cielo, D: oscuro, R: ruido de lectura). Para fuentes débiles dominadas por el cielo, SNR ∝ √t: cuadruplicar la exposición **duplica** la SNR.
+
+**Ejercicio resuelto.** S = 2 000 e⁻, B = 8 000 e⁻, D = 100 e⁻, R = 5 e⁻: SNR = 2 000 / √(2 000 + 8 000 + 100 + 25) = 2 000 / 100,6 ≈ **19,9**. Con 4 exposiciones iguales apiladas: señal y ruido de fotones crecen, la SNR sube ≈ √4 = 2, a **≈ 40**.
+
+### 8.5 Espectroscopía: resolución
+
+La resolución espectral R = λ / Δλ mide cuán finamente se separan dos longitudes de onda. R ≈ 1 000 distingue bandas; R ≈ 100 000 mide el Doppler de una estrella con una precisión de decenas de metros por segundo en condiciones ideales.
+
+**Ejemplo.** Para resolver una diferencia de velocidad de 3 km/s se necesita R ≈ c / Δv = 3 × 10⁵ / 3 = **10⁵**.
+
+### 8.6 Los observatorios como organizaciones
+
+- **Propuestas de tiempo:** comités de asignación evalúan el mérito científico; la demanda suele superar varias veces el tiempo disponible.
+- **Operación en servicio vs. visitante:** un operador observa según condiciones atmosféricas, o el investigador viaja.
+- **Archivo y datos abiertos:** tras un período de propiedad (a menudo 12 meses), los datos son públicos. Esto multiplica el valor científico.
+- **Seguridad y logística en altura:** a 5 000 m (ALMA) hay riesgos de salud, y se requieren procedimientos específicos.
+
+### 8.7 Ejercicios
+
+1. Calcula la escala de placa de un telescopio con focal de 12 m en segundos de arco por milímetro (206 265 / focal en mm).
+2. Un sensor tiene QE = 90 % y recibe 10 000 fotones. ¿Cuántos electrones se espera? ¿Cuál es el ruido de Poisson?
+3. Explica por qué dos exposiciones de 30 minutos apiladas no son idénticas a una de 60 en un sensor con ruido de lectura alto.
+
+📘 [B44](../programa/tronco-comun/B44-detectores-y-adquisicion-astronomica.md "Detectores y adquisición astronómica"), [B45](../programa/tronco-comun/B45-espectroscopia-fotometria-y-polarimetria.md "Espectroscopía, fotometría y polarimetría"), [B48](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md "Operaciones de observatorios científicos"), [B15](../programa/tronco-comun/B15-senales-imagenes-y-estimacion-cientifica.md "Señales, imágenes y estimación científica").
+
+---
+
 ## Preguntas para estudiar
 
 1. ¿Por qué un espejo de 10 m no se construye de una sola pieza, y cómo lo resuelven los segmentos?

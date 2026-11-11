@@ -22,9 +22,11 @@ El [glosario completo](../README.md) reúne miles de términos con la oración q
 | [M – Z](esencial-m-z.md) | Magnitud estelar · Masa e inercia · Materia oscura · Microgravedad · Momento angular · Movimiento propio · Nebulosa · Nucleosíntesis · Óptica adaptativa · Ondas gravitacionales · Órbita · Paralaje y parsec · Perturbación orbital · Plasma · Precesión · Radiación cósmica de fondo · Radioastronomía · Reentrada · Relatividad · Resonancia orbital · Señal-ruido · Supernova · Temperatura efectiva · Tiempo sidéreo · Tránsito · Unidad astronómica · Velocidad de escape · Viento solar · Vis-viva |
 | [Ampliación A – M](ampliacion-a-m.md) | Aerofrenado · Agujero negro · Ancho de banda · Arrastre atmosférico · Basura espacial · Constelación satelital · Contaminación lumínica · Control térmico · Decibelio · Dosis de radiación · Eclipse · Energía solar espacial · Filtro de Kalman · Órbita geoestacionaria · Órbita heliosíncrona · Ionosfera · Latencia · Límite de Roche · Margen de diseño · Marea |
 | [Ampliación N – Z](ampliacion-n-z.md) | Navegación inercial · TRL · Período sinódico · Presión dinámica y Max-Q · Propulsión eléctrica · RTG · Reconexión magnética · Redundancia y fiabilidad · Rover · Seeing · Telemetría · Torque · Tratado del Espacio Exterior · Ventana de lanzamiento |
+| [Tercera tanda A – E](tercera-a-e.md) | Anomalía y ecuación de Kepler · Asteroides y cometas · Aurora · Biosignatura · CCD · Clase espectral · Cinturón de Kuiper y nube de Oort · Código de corrección de errores · Cráter de impacto · Cúmulo globular · Enfermedad por descompresión · Diagrama H-R · Disco de acreción y límite de Eddington · DTN · Elementos orbitales · Energía oscura · Equilibrio hidrostático · Espectro de transmisión · Espectrógrafo · Eyección de masa coronal |
+| [Tercera tanda F – T](tercera-f-t.md) | Fusión estelar · Heliosfera · Esfera de Hill · Inflación · Ley de Hubble y H₀ · Magnetosfera · Metalicidad · Montura ecuatorial · Neutrino · Quásar · Radiación en la electrónica · Rayos cósmicos · Regolito · Seguros espaciales · Síndrome de adaptación · Soporte vital · Traje espacial |
 
 ## Qué no es
 
 - No sustituye a las clases: cada entrada remite al bloque donde el tema se desarrolla con ejercicios y laboratorio.
 - Los valores son redondeados y de redacción propia, pendientes de revisión disciplinar (nivel E0). Verifica en la fuente antes de citarlos.
-- Es una selección inicial; irá creciendo con nuevos conceptos.
+- Es una selección que crece por tandas; hoy reúne unas 145 entradas.

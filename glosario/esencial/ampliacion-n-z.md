@@ -226,4 +226,4 @@ Continuación de la ampliación. Mismo esquema: **en una frase**, **cómo pensar
 
 ---
 
-[← A – M de la ampliación](ampliacion-a-m.md) · [Índice](README.md)
+[← A – M de la ampliación](ampliacion-a-m.md) · [Índice](README.md) · [Siguiente: tercera tanda A – E →](tercera-a-e.md)

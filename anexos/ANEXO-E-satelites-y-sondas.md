@@ -109,4 +109,59 @@ Un **satélite** orbita un cuerpo; una **sonda** viaja a explorar otro cuerpo o 
 4. **Datos:** cómo llegan, quién los procesa y dónde se archivan.
 5. **Fin de vida:** reentrada controlada, órbita cementerio o permanencia.
 
+---
+
+## 7. A fondo: cómo funciona un satélite por dentro
+
+Un satélite no es "una caja con antenas": es un conjunto de **subsistemas** que cooperan, y cada uno tiene una restricción física que explica su diseño.
+
+### 7.1 Los subsistemas y para qué sirven
+
+| Subsistema | Función | Restricción que lo gobierna |
+|---|---|---|
+| **Carga útil** | La razón de ser: cámara, instrumento, transpondedor | Define la masa, la potencia y el apuntamiento necesarios |
+| **Estructura** | Soporta el lanzamiento (vibración, aceleración) | Rigidez frente a masa mínima |
+| **Potencia (EPS)** | Paneles solares, baterías, regulación | Energía en luz y en eclipse |
+| **Térmico** | Mantiene cada pieza en su rango de temperatura | Solo se intercambia calor por radiación y conducción |
+| **Actitud (ADCS)** | Orienta el satélite: sensores de estrellas y Sol, ruedas de reacción, magnetopares | Precisión de apuntamiento, torques externos |
+| **Propulsión** | Mantiene o cambia la órbita, evita colisiones | Δv y masa de propelente |
+| **Computador y datos (C&DH)** | Ejecuta el software, guarda datos | Radiación, fiabilidad, memoria |
+| **Comunicaciones (TT&C)** | Telemetría, telecomando y bajada de datos | Balance de enlace, tiempo de visibilidad |
+
+**Idea clave:** los subsistemas se acoplan. Más potencia exige paneles más grandes (masa y arrastre), que cambian la inercia y el torque de arrastre, que afecta a la actitud, que afecta al apuntamiento de la carga útil.
+
+### 7.2 Presupuestos: la contabilidad del diseño
+
+Tres presupuestos se llevan desde el primer día, con **márgenes** que se reducen a medida que los datos maduran:
+
+1. **Masa:** suma de todas las piezas más margen (en fases tempranas, del orden de 20–30 %).
+2. **Potencia:** consumo de cada modo (carga, observación, transmisión) frente a la generación en luz y a la capacidad de la batería en eclipse.
+3. **Datos y enlace:** cuántos bits se generan por órbita frente a cuántos se pueden bajar durante los pases sobre tierra.
+
+### 7.3 Ejemplos con números
+
+**Ejemplo 1 · Potencia en eclipse.** Un satélite en órbita baja pasa hasta unos 35 minutos en sombra de cada 92. Si consume 60 W medios, la batería debe aportar 60 W × 35 min = 2 100 W·min = 35 W·h. Con una profundidad de descarga admisible del 30 % para alargar la vida, la batería nominal debe ser ≥ 35 / 0,30 ≈ **117 W·h** (más pérdidas).
+
+**Ejemplo 2 · Volumen de datos.** Una cámara de 10 000 × 10 000 píxeles con 12 bits por píxel produce 1,2 Gbit por imagen. Si en un pase de 8 minutos se baja a 100 Mbit/s, caben 100 × 10⁶ × 480 = 4,8 × 10¹⁰ bit, es decir **≈ 40 imágenes** por pase.
+
+**Ejemplo 3 · CubeSat.** Un CubeSat de tres unidades (3U) mide 10 × 10 × 34 cm y pesa del orden de 4 kg; su generación media suele ser de pocos vatios. Esto limita qué instrumento cabe y cuánto puede transmitir.
+
+### 7.4 Cómo falla un satélite
+
+- **Fallos de arranque:** paneles que no se despliegan, antenas atascadas.
+- **Radiación:** eventos de inversión de un bit (SEU) en memoria y degradación acumulada de la electrónica y de las celdas.
+- **Térmicos:** una pieza fuera de rango por una actitud inesperada.
+- **Actitud:** una rueda de reacción que falla; el satélite pierde estabilidad (caso de Kepler, que perdió dos ruedas, en 2012 y 2013, y siguió con otro modo de operación).
+- **Software:** un comando erróneo o una condición no prevista.
+
+**Para reflexionar:** ¿qué subsistema pondrías con redundancia en un satélite de comunicaciones, y cuál no? ¿Por qué?
+
+### 7.5 Ejercicios
+
+1. Calcula la batería necesaria si el consumo medio sube a 100 W y la sombra dura 30 minutos con una descarga admisible del 40 %.
+2. Con 60 Mbit/s y pases de 6 minutos, ¿cuántas imágenes de 800 Mbit se pueden bajar por pase?
+3. Haz un diagrama con los ocho subsistemas y dibuja flechas de dependencia.
+
+📘 [B83](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md "Ingeniería de sistemas y diseño de misiones"), [B85](../programa/tronco-comun/B85-gestion-termica-y-entorno-espacial.md "Gestión térmica y entorno espacial"), [B86](../programa/tronco-comun/B86-sistemas-de-potencia-y-energia-espacial.md "Sistemas de potencia y energía espacial"), [B87](../programa/tronco-comun/B87-sensores-y-control-de-actitud.md "Sensores y control de actitud"), [B88](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md "Aviónica y software crítico espacial"), [B89](../programa/tronco-comun/B89-comunicaciones-y-navegacion-satelital.md "Comunicaciones y navegación satelital"), [B95](../programa/tronco-comun/B95-plataformas-de-satelites-pequenos-y-cubesat.md "Plataformas de satélites pequeños y CubeSat").
+
 [⬅️ Anexo D](ANEXO-D-astronautas-y-cosmonautas.md) · [Índice de anexos](README.md) · [Siguiente: Anexo F · Telescopios →](ANEXO-F-telescopios-y-observatorios.md)
