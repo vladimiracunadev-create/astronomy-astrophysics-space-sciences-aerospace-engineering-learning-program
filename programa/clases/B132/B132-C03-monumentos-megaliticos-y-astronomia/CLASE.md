@@ -1,7 +1,7 @@
 # B132-C03 — Monumentos megalíticos y astronomía
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B132-C02 — Arqueología de observatorios y de instrumentos antiguos](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md) · [Siguiente: B132-C04 — Estadística de orientaciones en arqueoastronomía →](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md#b132-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B132-C02 — Arqueología de observatorios y de instrumentos antiguos](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md) · [Siguiente: B132-C04 — Estadística de orientaciones en arqueoastronomía →](../B132-C04-estadistica-de-orientaciones-en-arqueoastronomia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Un eje de `50,6° ± 0,5°` en un horizonte de `0,5°` apunta a `δ = +24,10° �
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B132-C02 — Arqueología de observatorios y de instrumentos antiguos](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B132-C04 — Estadística de orientaciones en arqueoastronomía →](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md#b132-c04)
+[← Anterior: B132-C02 — Arqueología de observatorios y de instrumentos antiguos](../B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B132-C04 — Estadística de orientaciones en arqueoastronomía →](../B132-C04-estadistica-de-orientaciones-en-arqueoastronomia/CLASE.md)
 <!-- /nav -->

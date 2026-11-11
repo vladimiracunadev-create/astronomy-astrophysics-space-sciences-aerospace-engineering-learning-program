@@ -1,6 +1,7 @@
 # B132-C04 — Estadística de orientaciones en arqueoastronomía
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B132-C03 — Monumentos megalíticos y astronomía](../B132-C03-monumentos-megaliticos-y-astronomia/CLASE.md) · [Siguiente: B132-C05 — Contexto ritual y social de la observación del cielo →](../B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -286,4 +287,7 @@ Una muestra agrupada da `p ≈ 10⁻¹⁵` y una uniforme `0,597`, pero elegir l
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B132-C03 — Monumentos megalíticos y astronomía](../B132-C03-monumentos-megaliticos-y-astronomia/CLASE.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B132-C05 — Contexto ritual y social de la observación del cielo →](../B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md)
 <!-- /nav -->
