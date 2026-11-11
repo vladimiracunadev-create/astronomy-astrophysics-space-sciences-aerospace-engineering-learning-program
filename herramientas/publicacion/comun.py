@@ -22,7 +22,12 @@ WEB = BUILD / "web"
 UNIDADES = BUILD / "pdf" / "unidades"
 DIST = BUILD / "dist"
 
-VERSION = "0.2.0"
+def _version() -> str:
+    m = re.search(r"^## \[(\d+\.\d+\.\d+)\]", (ROOT / "CHANGELOG.md").read_text(encoding="utf-8"), re.M)
+    return m.group(1) if m else "0.0.0"
+
+
+VERSION = _version()
 TITULO = "Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial"
 AVISO = ("Texto de estudio en nivel E0: redactado y pendiente de revisión disciplinar. "
          "No otorga títulos ni habilita decisiones de vuelo, seguridad, médicas o jurídicas.")

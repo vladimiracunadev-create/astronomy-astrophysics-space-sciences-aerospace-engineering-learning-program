@@ -281,7 +281,7 @@ def plan_volumenes():
         if rel.startswith("por-area"):
             continue
         ent.append((2, titulo_de(p.read_text(encoding="utf-8"), p.stem), "glosario-" + rel[:-3].replace("/", "-")))
-    vols[f"Programa-General_v{VERSION}.pdf"] = ("Programa general con anexos y glosarios", ent)
+    vols["Programa-General.pdf"] = ("Programa general con anexos y glosarios", ent)
 
     # --- Por área ---
     for a, ta in areas.items():
@@ -294,7 +294,7 @@ def plan_volumenes():
             for c in clases_de_bloque(bid):
                 cid = "-".join(c.parent.name.split("-")[:2])
                 ent.append((2, f"{cid} · {titulo_de(c.read_text(encoding='utf-8'), cid).split('—', 1)[-1].strip()}", "clase-" + cid))
-        vols[f"Area-{a}-{nombre_slug(ta)}_v{VERSION}.pdf"] = (f"Área {a} · {ta}", ent)
+        vols[f"Area-{a}-{nombre_slug(ta)}.pdf"] = (f"Área {a} · {ta}", ent)
 
     # --- Por rol ---
     for r in rutas:
@@ -319,7 +319,7 @@ def plan_volumenes():
                 p = next((x for x in clases_de_bloque(bid) if x.parent.name.startswith(cid + "-")), None)
                 if p:
                     ent.append((3, f"{cid} · {titulo_de(p.read_text(encoding='utf-8'), cid).split('—', 1)[-1].strip()}", "clase-" + cid))
-        vols[f"Rol-{rid}-{nombre_slug(r['nombre'])}_v{VERSION}.pdf"] = (f"Rol {rid} · {r['nombre']}", ent)
+        vols[f"Rol-{rid}-{nombre_slug(r['nombre'])}.pdf"] = (f"Rol {rid} · {r['nombre']}", ent)
     return vols, rutas, uso, fund, areas, bloques
 
 

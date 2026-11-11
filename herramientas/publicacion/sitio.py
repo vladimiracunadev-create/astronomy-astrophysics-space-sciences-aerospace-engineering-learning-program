@@ -171,20 +171,8 @@ def construir():
         for c in clases_de_bloque(bid):
             titulos_clase[c.parent.name] = titulo_de(c.read_text(encoding="utf-8"), c.parent.name).split("—", 1)[-1].strip()
 
-    tarjetas = [
-        ("📚 Áreas y bloques", "12 áreas, 133 bloques y 2.077 clases", "areas.html"),
-        ("🧭 Roles profesionales", "24 rutas sobre las áreas y bloques", "roles.html"),
-        ("📎 Anexos", "20 anexos históricos, pedagógicos y de cálculo", "anexos/README.html"),
-        ("🔤 Glosario esencial", "Conceptos clave explicados a fondo", "glosario/esencial/README.html"),
-        ("🔤 Glosario completo", "8.702 términos, siglas y símbolos", "glosario/README.html"),
-        ("🔎 Buscar", "Clases, bloques, anexos y términos", "buscar.html"),
-        ("🗺️ Programa completo", "Índice unificado de todas las clases", "PROGRAMA_ACADEMICO_COMPLETO.html"),
-        ("ℹ️ Acerca del programa", "Qué es, cómo se organiza y sus límites", "README.html"),
-    ]
-    cuerpo = (f"<h1>{esc(TITULO)}</h1><p><b>Versión {VERSION}</b> · {date.today().isoformat()}</p>"
-              f"<blockquote>{esc(AVISO)}</blockquote><div class=\"tarjetas\">" +
-              "".join(f'<a href="{u}"><b>{esc(t)}</b><span>{esc(d)}</span></a>' for t, d, u in tarjetas) + "</div>")
-    (WEB / "index.html").write_text(pagina("Inicio", cuerpo, Path("index.html")), encoding="utf-8")
+    import landing
+    landing.escribir(WEB)
 
     cuerpo = "<h1>Áreas, bloques y clases</h1>"
     for a, ta in areas.items():

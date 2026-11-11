@@ -9,6 +9,7 @@
 [![Validación](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/actions/workflows/validate.yml)
 [![Pages](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/actions/workflows/pages.yml/badge.svg?branch=main)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/)
 
+[![Release](https://img.shields.io/github/v/release/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program?style=for-the-badge&label=release)](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest)
 [![Versión documental](https://img.shields.io/badge/versión_documental-0.2.0-6f42c1?style=for-the-badge)](CHANGELOG.md)
 [![Catálogo](https://img.shields.io/badge/programa-2.077_clases-0969da?style=for-the-badge)](PROGRAMA_ACADEMICO_COMPLETO.md)
 [![Estado](https://img.shields.io/badge/textos_redactados-2.077_de_2.077-d97706?style=for-the-badge)](STATUS.md)
@@ -17,7 +18,7 @@
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [🌐 Explorar el catálogo](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/) ·
-[📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) · [📎 Anexos](anexos/README.md) ·
+[📕 PDF general](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) · [📦 Descargas](#-descargas-y-pdf) · [📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) · [📎 Anexos](anexos/README.md) ·
 [🧭 Rutas profesionales](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md) ·
 [🎓 Estándar de clase](documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
@@ -64,6 +65,77 @@ Veinte lecturas de contexto, con descripciones **históricas, pedagógicas y pro
 | [T · Datos, fuentes y herramientas](anexos/ANEXO-T-datos-fuentes-y-herramientas.md) | Dónde están los datos reales, formatos, cómo citar y un primer proyecto con datos públicos |
 
 Índice completo: [`anexos/README.md`](anexos/README.md) · Vocabulario: [🔤 Glosario](glosario/README.md) y [glosario esencial explicado a fondo](glosario/esencial/README.md).
+
+<!-- descargas:inicio -->
+## 📦 Descargas y PDF
+
+Los enlaces apuntan siempre a la **última versión** publicada, así que no caducan al publicar una nueva. Cada versión adjunta `SHA256SUMS.txt` y notas con lo que contiene. Versión actual del repositorio: **0.2.0**.
+
+### 📕 PDF
+
+| PDF | Contenido |
+|---|---|
+| [**📕 Programa general**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) (4.268 págs.) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos y los glosarios (esencial y completo) |
+
+**Por área** (guía de cada bloque y todas sus clases):
+
+- [A01 · Alfabetización científica, astronómica y tecnológica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A01-alfabetizacion-cientifica-astronomica-y-tecnologica.pdf) (1.471 págs.)
+- [A02 · Matemática, física computacional y métodos científicos](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A02-matematica-fisica-computacional-y-metodos-cientificos.pdf) (2.226 págs.)
+- [A03 · Astrofísica y ciencias fundamentales del universo](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A03-astrofisica-y-ciencias-fundamentales-del-universo.pdf) (2.183 págs.)
+- [A04 · Óptica, telescopios y observatorios científicos](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A04-optica-telescopios-y-observatorios-cientificos.pdf) (1.701 págs.)
+- [A05 · Ciencias planetarias, astroquímica y habitabilidad](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A05-ciencias-planetarias-astroquimica-y-habitabilidad.pdf) (2.103 págs.)
+- [A06 · Mecánica orbital, navegación y vuelo espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A06-mecanica-orbital-navegacion-y-vuelo-espacial.pdf) (1.994 págs.)
+- [A07 · Ingeniería y construcción de sistemas espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A07-ingenieria-y-construccion-de-sistemas-espaciales.pdf) (2.200 págs.)
+- [A08 · Operaciones de misión y robótica espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A08-operaciones-de-mision-y-robotica-espacial.pdf) (902 págs.)
+- [A09 · Astronáutica humana, medicina y hábitats](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A09-astronautica-humana-medicina-y-habitats.pdf) (1.337 págs.)
+- [A10 · Entorno orbital, derecho y seguridad espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A10-entorno-orbital-derecho-y-seguridad-espacial.pdf) (717 págs.)
+- [A11 · Economía, industria y gestión de proyectos espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A11-economia-industria-y-gestion-de-proyectos-espaciales.pdf) (383 págs.)
+- [A12 · Educación, historia aplicada y divulgación astronómica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A12-educacion-historia-aplicada-y-divulgacion-astronomica.pdf) (416 págs.)
+
+**Por rol** (guía del rol y las clases que usa, en orden):
+
+- [R01 · Astrofísica estelar y galáctica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R01-astrofisica-estelar-y-galactica.pdf) (921 págs.)
+- [R02 · Cosmología y astrofísica extrema](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R02-cosmologia-y-astrofisica-extrema.pdf) (835 págs.)
+- [R03 · Ingeniería óptica y telescopios profesionales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R03-ingenieria-optica-y-telescopios-profesionales.pdf) (970 págs.)
+- [R04 · Radioastronomía e interferometría](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R04-radioastronomia-e-interferometria.pdf) (788 págs.)
+- [R05 · Ciencias planetarias y astrogeología](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R05-ciencias-planetarias-y-astrogeologia.pdf) (801 págs.)
+- [R06 · Astroquímica y astrobiología](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R06-astroquimica-y-astrobiologia.pdf) (864 págs.)
+- [R07 · Heliofísica y climatología espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R07-heliofisica-y-climatologia-espacial.pdf) (757 págs.)
+- [R08 · Matemática y computación científica espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R08-matematica-y-computacion-cientifica-espacial.pdf) (834 págs.)
+- [R09 · Astrodinámica interplanetaria](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R09-astrodinamica-interplanetaria.pdf) (858 págs.)
+- [R10 · Navegación guiado y autonomía espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R10-navegacion-guiado-y-autonomia-espacial.pdf) (968 págs.)
+- [R11 · Ingeniería de lanzadores y propulsión](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R11-ingenieria-de-lanzadores-y-propulsion.pdf) (848 págs.)
+- [R12 · Ingeniería y construcción de satélites y CubeSats](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R12-ingenieria-y-construccion-de-satelites-y-cubesats.pdf) (995 págs.)
+- [R13 · Aviónica y software espacial de alta fiabilidad](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R13-avionica-y-software-espacial-de-alta-fiabilidad.pdf) (683 págs.)
+- [R14 · Materiales estructuras e ingeniería térmica espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R14-materiales-estructuras-e-ingenieria-termica-espacial.pdf) (626 págs.)
+- [R15 · Telecomunicaciones y estaciones terrestres espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R15-telecomunicaciones-y-estaciones-terrestres-espaciales.pdf) (667 págs.)
+- [R16 · Observación terrestre y geointeligencia científica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R16-observacion-terrestre-y-geointeligencia-cientifica.pdf) (810 págs.)
+- [R17 · Robótica espacial y sistemas autónomos](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R17-robotica-espacial-y-sistemas-autonomos.pdf) (874 págs.)
+- [R18 · Astronáutica tripulada y entrenamiento de astronautas](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R18-astronautica-tripulada-y-entrenamiento-de-astronautas.pdf) (837 págs.)
+- [R19 · Medicina y bioingeniería espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R19-medicina-y-bioingenieria-espacial.pdf) (742 págs.)
+- [R20 · Arquitectura y hábitats extraterrestres](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R20-arquitectura-y-habitats-extraterrestres.pdf) (845 págs.)
+- [R21 · Recursos extraterrestres y economía industrial espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R21-recursos-extraterrestres-y-economia-industrial-espacial.pdf) (920 págs.)
+- [R22 · Seguridad defensa y resiliencia de infraestructuras espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espacial.pdf) (869 págs.)
+- [R23 · Derecho políticas y negocios espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R23-derecho-politicas-y-negocios-espaciales.pdf) (682 págs.)
+- [R24 · Educación historia y divulgación astronómica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R24-educacion-historia-y-divulgacion-astronomica.pdf) (787 págs.)
+
+### 🖥️ Aplicaciones sin conexión
+
+| Descarga | Formato | Para qué |
+|---|---|---|
+| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.2.0_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
+| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.2.0_Android.apk` | Móvil y tableta (Android 7 o superior) |
+
+Las aplicaciones muestran el mismo contenido que el sitio web (Markdown convertido a HTML), con búsqueda y sin conexión. Para verificar lo que descargas:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+> El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
+
+El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): ver [`STATUS.md`](STATUS.md). Cómo se generan estos archivos: [`herramientas/publicacion/`](herramientas/publicacion/README.md).
+<!-- /descargas -->
 
 ## 🎯 Qué es este programa
 
@@ -437,6 +509,7 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`fuentes/`](fuentes/): referencias institucionales preliminares, todavía no verificadas clase por clase.
 - [`visor/index.html`](visor/index.html): explorador estático, accesible y sin dependencias externas.
 - [`herramientas/calculadora_cientifica.py`](herramientas/calculadora_cientifica.py): calculadora científica didáctica (constantes con fuente, conversión de unidades, mecánica orbital, escalas) con `autotest`.
+- [`herramientas/publicacion/`](herramientas/publicacion/README.md): generación del sitio, los PDF y las aplicaciones de cada versión.
 - [`herramientas/validar_catalogo.py`](herramientas/validar_catalogo.py): control reproducible de cantidades, IDs, orden y estados.
 - [`herramientas/generar_manifiesto.py`](herramientas/generar_manifiesto.py): regeneración determinista de huellas SHA-256.
 

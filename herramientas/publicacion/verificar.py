@@ -33,7 +33,7 @@ def verificar_pdfs():
     rutas = json.loads((ROOT / "metadatos" / "rutas.json").read_text(encoding="utf-8"))
     bloque_d, uso, fund = gr.datos()
     # --- general
-    f = DIST / f"Programa-General_v{VERSION}.pdf"
+    f = DIST / "Programa-General.pdf"
     ok(f.exists(), f"existe {f.name}")
     if f.exists():
         d = fitz.open(f)
@@ -127,7 +127,11 @@ def verificar_sitio_en_navegador():
         pg = nav.new_page()
         pg.on("pageerror", lambda e: errores_js.append(str(e)))
         pg.goto((WEB / "index.html").as_uri())
-        ok("Programa Integral" in pg.inner_text("h1"), "sitio: inicio muestra el título")
+        pg.wait_for_timeout(300)
+        ok("ingeniería de misiones" in pg.inner_text("h1"), "sitio: el inicio muestra el título")
+        ok(pg.locator("#catalogo .card").count() == 133, "sitio: el inicio lista los 133 bloques")
+        ok(pg.locator("#roles .card").count() == 24, "sitio: el inicio lista los 24 roles")
+        ok(pg.locator("#anexos .card").count() >= 20, "sitio: el inicio lista los anexos")
         pg.goto((WEB / "buscar.html").as_uri())
         pg.fill("#q", "hohmann")
         pg.wait_for_timeout(300)
