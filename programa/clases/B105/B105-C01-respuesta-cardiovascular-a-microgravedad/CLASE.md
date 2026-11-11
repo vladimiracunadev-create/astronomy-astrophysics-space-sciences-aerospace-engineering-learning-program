@@ -1,7 +1,7 @@
 # B105-C01 — Respuesta cardiovascular a microgravedad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c23) · [Siguiente: B105-C02 — Pérdida de masa ósea →](../B105-C02-perdida-de-masa-osea/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro](../../B104/B104-C23-ejecucion-de-experimentos-a-bordo-procedimientos-y-registro/CLASE.md) · [Siguiente: B105-C02 — Pérdida de masa ósea →](../B105-C02-perdida-de-masa-osea/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -287,5 +287,5 @@ Con una población sintética, el gradiente de 27,3 mmHg en la cabeza de pie y u
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c23) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C02 — Pérdida de masa ósea →](../B105-C02-perdida-de-masa-osea/CLASE.md)
+[← Anterior: B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro](../../B104/B104-C23-ejecucion-de-experimentos-a-bordo-procedimientos-y-registro/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C02 — Pérdida de masa ósea →](../B105-C02-perdida-de-masa-osea/CLASE.md)
 <!-- /nav -->

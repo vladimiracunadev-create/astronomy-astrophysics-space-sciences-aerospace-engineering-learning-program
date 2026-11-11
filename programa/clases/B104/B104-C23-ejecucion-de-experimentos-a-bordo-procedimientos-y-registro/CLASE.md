@@ -1,7 +1,7 @@
 # B104-C23 — Ejecución de experimentos a bordo: procedimientos y registro
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C22 — Diseño y uso de listas de comprobación de cabina](../B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md) · [Siguiente: B105-C01 — Respuesta cardiovascular a microgravedad →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C22 — Diseño y uso de listas de comprobación de cabina](../B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md) · [Siguiente: B105-C01 — Respuesta cardiovascular a microgravedad →](../../B105/B105-C01-respuesta-cardiovascular-a-microgravedad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,5 +305,5 @@ Con 20 h, el reparto exacto da un valor de 99,3 frente a 90,6 del voraz, y la ca
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B104-C22 — Diseño y uso de listas de comprobación de cabina](../B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B105-C01 — Respuesta cardiovascular a microgravedad →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c01)
+[← Anterior: B104-C22 — Diseño y uso de listas de comprobación de cabina](../B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B105-C01 — Respuesta cardiovascular a microgravedad →](../../B105/B105-C01-respuesta-cardiovascular-a-microgravedad/CLASE.md)
 <!-- /nav -->
