@@ -1,7 +1,7 @@
 # B123-C01 — Prueba del daño y cuantificación de la reparación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [← Anterior: B122-C10 — Planes de continuidad institucional y de operaciones](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md#b122-c10) · [Siguiente: B123-C02 — Causalidad y atribución jurídica del daño →](../B123-C02-causalidad-y-atribucion-juridica-del-dano/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [← Anterior: B122-C10 — Planes de continuidad institucional y de operaciones](../../B122/B122-C10-planes-de-continuidad-institucional-y-de-operaciones/CLASE.md) · [Siguiente: B123-C02 — Causalidad y atribución jurídica del daño →](../B123-C02-causalidad-y-atribucion-juridica-del-dano/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -298,5 +298,5 @@ Un expediente sintético de `1 150 000` UMF brutos queda en `808 000` ponderados
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B122-C10 — Planes de continuidad institucional y de operaciones](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md#b122-c10) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [Siguiente: B123-C02 — Causalidad y atribución jurídica del daño →](../B123-C02-causalidad-y-atribucion-juridica-del-dano/CLASE.md)
+[← Anterior: B122-C10 — Planes de continuidad institucional y de operaciones](../../B122/B122-C10-planes-de-continuidad-institucional-y-de-operaciones/CLASE.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [Siguiente: B123-C02 — Causalidad y atribución jurídica del daño →](../B123-C02-causalidad-y-atribucion-juridica-del-dano/CLASE.md)
 <!-- /nav -->

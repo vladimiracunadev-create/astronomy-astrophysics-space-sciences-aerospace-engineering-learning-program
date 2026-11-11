@@ -1,7 +1,7 @@
 # B122-C10 — Planes de continuidad institucional y de operaciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [← Anterior: B122-C09 — Preservación de evidencias y cadena de custodia de datos de incidentes](../B122-C09-preservacion-de-evidencias-y-cadena-de-custodia-de-datos-de-incidentes/CLASE.md) · [Siguiente: B123-C01 — Prueba del daño y cuantificación de la reparación →](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md#b123-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [← Anterior: B122-C09 — Preservación de evidencias y cadena de custodia de datos de incidentes](../B122-C09-preservacion-de-evidencias-y-cadena-de-custodia-de-datos-de-incidentes/CLASE.md) · [Siguiente: B123-C01 — Prueba del daño y cuantificación de la reparación →](../../B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Con `p = 0,85` y objetivo 99 %, el plan sintético necesita 19 personas para 8 p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B122-C09 — Preservación de evidencias y cadena de custodia de datos de incidentes](../B122-C09-preservacion-de-evidencias-y-cadena-de-custodia-de-datos-de-incidentes/CLASE.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [Siguiente: B123-C01 — Prueba del daño y cuantificación de la reparación →](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md#b123-c01)
+[← Anterior: B122-C09 — Preservación de evidencias y cadena de custodia de datos de incidentes](../B122-C09-preservacion-de-evidencias-y-cadena-de-custodia-de-datos-de-incidentes/CLASE.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [Siguiente: B123-C01 — Prueba del daño y cuantificación de la reparación →](../../B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md)
 <!-- /nav -->
