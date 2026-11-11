@@ -302,7 +302,9 @@ def autotest() -> int:
 
 
 def main(argv=None) -> int:
-    p = argparse.ArgumentParser(description="Calculadora científica del programa (didáctica, solo biblioteca estándar).")
+    if hasattr(sys.stdout, "reconfigure"):  # consolas de Windows con cp1252
+        sys.stdout.reconfigure(encoding="utf-8")
+    p =argparse.ArgumentParser(description="Calculadora científica del programa (didáctica, solo biblioteca estándar).")
     sp = p.add_subparsers(dest="cmd", required=True)
     s = sp.add_parser("const", help="Muestra una constante con su unidad y fuente (o todas).")
     s.add_argument("nombre", nargs="?")
