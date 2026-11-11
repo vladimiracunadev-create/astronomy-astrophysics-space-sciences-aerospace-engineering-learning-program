@@ -1,7 +1,7 @@
 # B127-C04 — Exclusiones, deducibles y límites de pólizas
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [← Anterior: B127-C03 — Seguros de responsabilidad civil espacial](../B127-C03-seguros-de-responsabilidad-civil-espacial/CLASE.md) · [Siguiente: B127-C05 — Evaluación actuarial básica del riesgo espacial →](../../../tronco-comun/B127-seguros-espaciales.md#b127-c05)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [← Anterior: B127-C03 — Seguros de responsabilidad civil espacial](../B127-C03-seguros-de-responsabilidad-civil-espacial/CLASE.md) · [Siguiente: B127-C05 — Evaluación actuarial básica del riesgo espacial →](../B127-C05-evaluacion-actuarial-basica-del-riesgo-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -301,5 +301,5 @@ Con una severidad sintética de media `9,207 MUSD`, un deducible de `5` baja el 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B127-C03 — Seguros de responsabilidad civil espacial](../B127-C03-seguros-de-responsabilidad-civil-espacial/CLASE.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [Siguiente: B127-C05 — Evaluación actuarial básica del riesgo espacial →](../../../tronco-comun/B127-seguros-espaciales.md#b127-c05)
+[← Anterior: B127-C03 — Seguros de responsabilidad civil espacial](../B127-C03-seguros-de-responsabilidad-civil-espacial/CLASE.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [Siguiente: B127-C05 — Evaluación actuarial básica del riesgo espacial →](../B127-C05-evaluacion-actuarial-basica-del-riesgo-espacial/CLASE.md)
 <!-- /nav -->
