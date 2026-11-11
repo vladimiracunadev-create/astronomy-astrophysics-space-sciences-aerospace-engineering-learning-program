@@ -1,7 +1,7 @@
 # B106-C25 — Sensores de presión, gases y humedad para monitoreo de hábitat
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C24 — Calidad del aire y límites de exposición en cabina](../B106-C24-calidad-del-aire-y-limites-de-exposicion-en-cabina/CLASE.md) · [Siguiente: B106-C26 — Tratamiento de aguas grises en hábitats →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c26)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C24 — Calidad del aire y límites de exposición en cabina](../B106-C24-calidad-del-aire-y-limites-de-exposicion-en-cabina/CLASE.md) · [Siguiente: B106-C26 — Tratamiento de aguas grises en hábitats →](../B106-C26-tratamiento-de-aguas-grises-en-habitats/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Un sensor se hace fiable calibrándolo, votándolo y vigilando su deriva: la vot
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C24 — Calidad del aire y límites de exposición en cabina](../B106-C24-calidad-del-aire-y-limites-de-exposicion-en-cabina/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C26 — Tratamiento de aguas grises en hábitats →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c26)
+[← Anterior: B106-C24 — Calidad del aire y límites de exposición en cabina](../B106-C24-calidad-del-aire-y-limites-de-exposicion-en-cabina/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C26 — Tratamiento de aguas grises en hábitats →](../B106-C26-tratamiento-de-aguas-grises-en-habitats/CLASE.md)
 <!-- /nav -->
