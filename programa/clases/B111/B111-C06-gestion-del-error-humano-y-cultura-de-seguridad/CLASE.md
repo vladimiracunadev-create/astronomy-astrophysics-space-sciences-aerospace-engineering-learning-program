@@ -1,7 +1,7 @@
 # B111-C06 — Gestión del error humano y cultura de seguridad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [← Anterior: B111-C05 — Toma de decisiones con incertidumbre en equipo](../B111-C05-toma-de-decisiones-con-incertidumbre-en-equipo/CLASE.md) · [Siguiente: B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica →](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md#b112-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [← Anterior: B111-C05 — Toma de decisiones con incertidumbre en equipo](../B111-C05-toma-de-decisiones-con-incertidumbre-en-equipo/CLASE.md) · [Siguiente: B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica →](../../B112/B112-C01-magnitudes-dosimetricas-dosis-absorbida-let-y-eficacia-biologica/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,5 +322,5 @@ Cinco barreras valen `1,500 × 10⁻⁵` si son independientes y `3,780 × 10⁻
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B111-C05 — Toma de decisiones con incertidumbre en equipo](../B111-C05-toma-de-decisiones-con-incertidumbre-en-equipo/CLASE.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [Siguiente: B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica →](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md#b112-c01)
+[← Anterior: B111-C05 — Toma de decisiones con incertidumbre en equipo](../B111-C05-toma-de-decisiones-con-incertidumbre-en-equipo/CLASE.md) · [📚 Bloque B111](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md) · [Siguiente: B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica →](../../B112/B112-C01-magnitudes-dosimetricas-dosis-absorbida-let-y-eficacia-biologica/CLASE.md)
 <!-- /nav -->

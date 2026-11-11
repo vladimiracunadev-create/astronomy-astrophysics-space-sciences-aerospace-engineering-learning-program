@@ -1,7 +1,7 @@
 # B112-C01 — Magnitudes dosimétricas: dosis absorbida, LET y eficacia biológica
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [← Anterior: B111-C06 — Gestión del error humano y cultura de seguridad](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md#b111-c06) · [Siguiente: B112-C02 — Dosis equivalente y dosis efectiva →](../B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [← Anterior: B111-C06 — Gestión del error humano y cultura de seguridad](../../B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md) · [Siguiente: B112-C02 — Dosis equivalente y dosis efectiva →](../B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -302,5 +302,5 @@ La dosis absorbida cuenta la energía por kilogramo; el LET dice cómo se repart
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B111-C06 — Gestión del error humano y cultura de seguridad](../../../tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md#b111-c06) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [Siguiente: B112-C02 — Dosis equivalente y dosis efectiva →](../B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md)
+[← Anterior: B111-C06 — Gestión del error humano y cultura de seguridad](../../B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md) · [📚 Bloque B112](../../../tronco-comun/B112-radiobiologia-y-proteccion-radiologica-espacial.md) · [Siguiente: B112-C02 — Dosis equivalente y dosis efectiva →](../B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md)
 <!-- /nav -->
