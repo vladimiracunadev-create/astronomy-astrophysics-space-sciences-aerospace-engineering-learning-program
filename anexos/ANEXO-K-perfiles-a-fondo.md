@@ -2,6 +2,39 @@
 
 [⬅️ Anexo J](ANEXO-J-estudios-de-caso-a-fondo.md) · [Índice de anexos](README.md)
 
+## Para qué sirve este anexo
+
+**Problema que resuelve.** Aprender un concepto (la ley de Kepler, el púlsar, la materia oscura) sin saber *cómo se llegó a él* hace que parezca un dato que alguien decretó. Este anexo muestra, en catorce casos, **el problema concreto que alguien tuvo, qué decidió y qué método usó**, para que veas que cada contenido del programa nació de una duda real y de un error corregido.
+
+**Qué es y qué no es.** No es una galería de héroes ni una lista de premios. Cada persona está aquí porque (1) su trabajo es la base de un contenido que el programa enseña y (2) deja una **lección de método** que puedes aplicar a tus propios proyectos. Si solo quieres datos rápidos de muchas personas, usa los anexos [C](ANEXO-C-cientificos-e-ingenieros.md) y [D](ANEXO-D-astronautas-y-cosmonautas.md).
+
+**Cómo se usa.**
+1. Elige un perfil según el contenido que estás estudiando (tabla siguiente).
+2. Lee *Contexto* y *Qué hizo*, y extrae por escrito: problema, decisión, resultado.
+3. Responde la *Pregunta* del final: sirve para aplicar la lección.
+4. Abre el bloque indicado (📘) para ver la parte técnica con ejercicios.
+
+### Mapa: qué problema resolvió cada persona y dónde se estudia
+
+| Persona | Problema que enfrentó | Lección de método | Se estudia en |
+|---|---|---|---|
+| Kepler | Un modelo bello (círculos) no coincidía con los datos | Los datos mandan sobre la belleza del modelo | [B71](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md "Mecánica orbital fundamental") |
+| Tsiolkovski y Goddard | ¿Cómo se puede viajar en el vacío? | Teoría y experimento se necesitan | [B77](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md "Dinámica de lanzamiento y reentrada"), [B78](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md "Tecnologías de propulsión espacial") |
+| Leavitt | ¿Cómo se miden distancias a otras galaxias? | Un catálogo paciente puede resolver un problema cósmico | [B25](../programa/tronco-comun/B25-galaxias-y-medio-interestelar.md "Galaxias y medio interestelar"), [B26](../programa/tronco-comun/B26-relatividad-y-cosmologia.md "Relatividad y cosmología") |
+| Payne-Gaposchkin | ¿De qué están hechas las estrellas? | Un resultado correcto puede ser rechazado por autoridad | [B24](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md "Física y evolución de estrellas"), [B32](../programa/tronco-comun/B32-atmosferas-estelares-y-espectroscopia-estelar-cuantitativa.md "Atmósferas estelares y espectroscopía estelar cuantitativa") |
+| Rubin | Las galaxias giran más rápido de lo esperado | Una anomalía sistemática exige hipótesis nuevas | [B36](../programa/tronco-comun/B36-formacion-de-estructuras-cosmicas-y-materia-oscura.md "Formación de estructuras cósmicas y materia oscura") |
+| Bell Burnell | Una señal periódica que parecía ruido | Investigar la anomalía; el crédito importa | [B27](../programa/tronco-comun/B27-objetos-compactos-y-altas-energias.md "Objetos compactos y altas energías"), [B46](../programa/tronco-comun/B46-radioastronomia-e-interferometria.md "Radioastronomía e interferometría") |
+| Koroliov | Construir el primer lanzador | Liderar ingeniería de sistemas bajo presión política | [B77](../programa/tronco-comun/B77-dinamica-de-lanzamiento-y-reentrada.md "Dinámica de lanzamiento y reentrada"), [B83](../programa/tronco-comun/B83-ingenieria-de-sistemas-y-diseno-de-misiones.md "Ingeniería de sistemas y diseño de misiones") |
+| Gagarin | Demostrar que un humano puede orbitar | Riesgo asumido con información incompleta | [B104](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md "Astronáutica y preparación de astronautas"), [B110](../programa/tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md "Emergencias y seguridad de tripulación") |
+| Armstrong | Pilotar un descenso sin margen | Entrenar fallos, no solo la operación normal | [B96](../programa/tronco-comun/B96-control-y-operacion-de-misiones-espaciales.md "Control y operación de misiones espaciales"), [B111](../programa/tronco-comun/B111-factores-humanos-y-liderazgo-de-tripulacion.md "Factores humanos y liderazgo de tripulación") |
+| Johnson | Verificar el cálculo de una máquina nueva | Verificación independiente | [B71](../programa/tronco-comun/B71-mecanica-orbital-fundamental.md "Mecánica orbital fundamental"), [B23](../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md "Verificación y validación de software científico") |
+| Hamilton | Un software que no podía repararse en vuelo | Diseñar para el error | [B88](../programa/tronco-comun/B88-avionica-y-software-critico-espacial.md "Aviónica y software crítico espacial"), [B23](../programa/tronco-comun/B23-verificacion-y-validacion-de-software-cientifico.md "Verificación y validación de software científico") |
+| Jemison | Volar con una formación médica y de campo | La diversidad de experiencias mejora una tripulación | [B104](../programa/tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md "Astronáutica y preparación de astronautas"), [B105](../programa/tronco-comun/B105-medicina-y-biologia-espacial.md "Medicina y biología espacial") |
+| Chang-Díaz | Un motor eficiente para viajes largos | Del laboratorio a la demostración | [B78](../programa/tronco-comun/B78-tecnologias-de-propulsion-espacial.md "Tecnologías de propulsión espacial"), [B35](../programa/tronco-comun/B35-fisica-avanzada-de-plasmas-y-mhd-espacial.md "Física avanzada de plasmas y MHD espacial") |
+| Ruiz | Hacer astronomía de primer nivel desde Chile | Construir comunidad científica local | [B24](../programa/tronco-comun/B24-fisica-y-evolucion-de-estrellas.md "Física y evolución de estrellas"), [B48](../programa/tronco-comun/B48-operaciones-de-observatorios-cientificos.md "Operaciones de observatorios científicos") |
+
+---
+
 Los anexos [C](ANEXO-C-cientificos-e-ingenieros.md) y [D](ANEXO-D-astronautas-y-cosmonautas.md) resumen a muchas personas en pocas líneas. Aquí se profundiza en catorce, elegidas porque su historia muestra **cómo se hace ciencia e ingeniería de verdad**: con datos imperfectos, obstáculos humanos, errores y decisiones difíciles.
 
 > **Estado del texto.** Síntesis propia, sin citas textuales, pendiente de revisión disciplinar y de contraste con biografías y fuentes primarias (nivel E0). Los hechos biográficos son los comúnmente documentados; los matices (fechas exactas, detalles de conversaciones) deben confirmarse antes de citarlos.
@@ -242,4 +275,4 @@ Los anexos [C](ANEXO-C-cientificos-e-ingenieros.md) y [D](ANEXO-D-astronautas-y-
 4. **Busca** un paralelo actual en tu entorno.
 5. **Contrasta** esta ficha con una biografía o artículo de la persona y anota diferencias.
 
-[⬅️ Anexo J](ANEXO-J-estudios-de-caso-a-fondo.md) · [Índice de anexos](README.md)
+[⬅️ Anexo J](ANEXO-J-estudios-de-caso-a-fondo.md) · [Índice de anexos](README.md) · [Siguiente: Anexo L · Sistema Solar →](ANEXO-L-sistema-solar-a-fondo.md)

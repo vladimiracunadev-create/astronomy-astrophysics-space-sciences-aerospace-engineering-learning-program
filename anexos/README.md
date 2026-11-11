@@ -21,6 +21,9 @@ Los anexos son lecturas de contexto para el programa: cuentan **quién hizo qué
 | [I](ANEXO-I-escalas-formulas-y-calculadora.md) | Escalas de medición, fórmulas y calculadora | Escalas de distancia, brillo, tiempo, energía y riesgo; dónde difieren los cálculos y cómo reconciliarlos; fórmulas con unidades; guía de la [calculadora científica](../herramientas/calculadora_cientifica.py) |
 | [J](ANEXO-J-estudios-de-caso-a-fondo.md) | Estudios de caso a fondo | Diez casos con problema, números, causas, lecciones y un ejercicio resuelto cada uno: Apollo 11, Voyager 2, Hubble, Rosetta, Webb, DART, Challenger, GPS y relatividad, Mars Climate Orbiter, Ariane 5 |
 | [K](ANEXO-K-perfiles-a-fondo.md) | Perfiles a fondo | Catorce biografías con contexto, obstáculos, legado y preguntas: Kepler, Tsiolkovski y Goddard, Leavitt, Payne-Gaposchkin, Rubin, Bell Burnell, Koroliov, Gagarin, Armstrong, Johnson, Hamilton, Jemison, Chang-Díaz, Ruiz |
+| [L](ANEXO-L-sistema-solar-a-fondo.md) | El Sistema Solar a fondo | Formación, planetas rocosos y gigantes, lunas con actividad, cuerpos pequeños, escalas y ejercicios resueltos |
+| [M](ANEXO-M-estrellas-galaxias-y-cosmologia.md) | Estrellas, galaxias y cosmología a fondo | Vida y muerte de las estrellas, la Vía Láctea, materia y energía oscuras, línea de tiempo del universo, escalera de distancias |
+| [N](ANEXO-N-exoplanetas-y-astrobiologia.md) | Exoplanetas y astrobiología a fondo | Métodos de detección con fórmulas, zoo de planetas, habitabilidad, extremófilos, biosignaturas, ecuación de Drake, protección planetaria |
 
 ## Cómo usarlos
 
