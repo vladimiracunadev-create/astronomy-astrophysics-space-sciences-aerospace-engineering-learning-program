@@ -1,7 +1,7 @@
 # B120-C01 — Licencias satelitales y procedimiento de notificación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B119-C36 — Gobernanza de los recursos espaciales](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c36) · [Siguiente: B120-C02 — Zonas de coordinación entre servicios radioeléctricos →](../B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [← Anterior: B119-C36 — Gobernanza de los recursos espaciales](../../B119/B119-C36-gobernanza-de-los-recursos-espaciales/CLASE.md) · [Siguiente: B120-C02 — Zonas de coordinación entre servicios radioeléctricos →](../B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ Una red sintética con API recibida el 2027-03-01 puede coordinar desde 2027-09-
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C36 — Gobernanza de los recursos espaciales](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c36) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B120-C02 — Zonas de coordinación entre servicios radioeléctricos →](../B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md)
+[← Anterior: B119-C36 — Gobernanza de los recursos espaciales](../../B119/B119-C36-gobernanza-de-los-recursos-espaciales/CLASE.md) · [📚 Bloque B120](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md) · [Siguiente: B120-C02 — Zonas de coordinación entre servicios radioeléctricos →](../B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md)
 <!-- /nav -->

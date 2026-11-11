@@ -1,7 +1,7 @@
 # B119-C36 — Gobernanza de los recursos espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C35 — Seguridad y gobernanza de datos espaciales](../B119-C35-seguridad-y-gobernanza-de-datos-espaciales/CLASE.md) · [Siguiente: B120-C01 — Licencias satelitales y procedimiento de notificación →](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C35 — Seguridad y gobernanza de datos espaciales](../B119-C35-seguridad-y-gobernanza-de-datos-espaciales/CLASE.md) · [Siguiente: B120-C01 — Licencias satelitales y procedimiento de notificación →](../../B120/B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -283,5 +283,5 @@ Shapley reparte `38.33`, `23.33` y `38.33` del valor total sintético y es estab
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C35 — Seguridad y gobernanza de datos espaciales](../B119-C35-seguridad-y-gobernanza-de-datos-espaciales/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B120-C01 — Licencias satelitales y procedimiento de notificación →](../../../tronco-comun/B120-espectro-licencias-y-regulacion-satelital.md#b120-c01)
+[← Anterior: B119-C35 — Seguridad y gobernanza de datos espaciales](../B119-C35-seguridad-y-gobernanza-de-datos-espaciales/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B120-C01 — Licencias satelitales y procedimiento de notificación →](../../B120/B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md)
 <!-- /nav -->
