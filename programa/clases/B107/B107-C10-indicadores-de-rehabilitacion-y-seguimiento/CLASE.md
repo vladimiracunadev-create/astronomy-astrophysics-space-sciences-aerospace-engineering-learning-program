@@ -1,7 +1,7 @@
 # B107-C10 — Indicadores de rehabilitación y seguimiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [← Anterior: B107-C09 — Progresión de recuperación y criterios de alta](../B107-C09-progresion-de-recuperacion-y-criterios-de-alta/CLASE.md) · [Siguiente: B108-C01 — Sistemas portátiles de soporte vital (PLSS) →](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md#b108-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [← Anterior: B107-C09 — Progresión de recuperación y criterios de alta](../B107-C09-progresion-de-recuperacion-y-criterios-de-alta/CLASE.md) · [Siguiente: B108-C01 — Sistemas portátiles de soporte vital (PLSS) →](../../B108/B108-C01-sistemas-portatiles-de-soporte-vital-plss/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ Con 40 personas sintéticas, KM da `S(30) = 0,300` con error típico de 0,07 y e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B107-C09 — Progresión de recuperación y criterios de alta](../B107-C09-progresion-de-recuperacion-y-criterios-de-alta/CLASE.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [Siguiente: B108-C01 — Sistemas portátiles de soporte vital (PLSS) →](../../../tronco-comun/B108-actividades-extravehiculares-y-trajes-espaciales.md#b108-c01)
+[← Anterior: B107-C09 — Progresión de recuperación y criterios de alta](../B107-C09-progresion-de-recuperacion-y-criterios-de-alta/CLASE.md) · [📚 Bloque B107](../../../tronco-comun/B107-acondicionamiento-fisico-y-rehabilitacion-de-astronautas.md) · [Siguiente: B108-C01 — Sistemas portátiles de soporte vital (PLSS) →](../../B108/B108-C01-sistemas-portatiles-de-soporte-vital-plss/CLASE.md)
 <!-- /nav -->
