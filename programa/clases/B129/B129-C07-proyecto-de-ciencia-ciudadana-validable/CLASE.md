@@ -1,7 +1,7 @@
 # B129-C07 — Proyecto de ciencia ciudadana validable
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C06 — Motivación y permanencia de participantes](../B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md) · [Siguiente: B130-C01 — Infografías con fuentes verificables →](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [← Anterior: B129-C06 — Motivación y permanencia de participantes](../B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md) · [Siguiente: B130-C01 — Infografías con fuentes verificables →](../../B130/B130-C01-infografias-con-fuentes-verificables/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -310,5 +310,5 @@ Con 7 votos por objeto la exactitud sintética llega a 0,967 y la `κ` a 0,92, p
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B129-C06 — Motivación y permanencia de participantes](../B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B130-C01 — Infografías con fuentes verificables →](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md#b130-c01)
+[← Anterior: B129-C06 — Motivación y permanencia de participantes](../B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md) · [📚 Bloque B129](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md) · [Siguiente: B130-C01 — Infografías con fuentes verificables →](../../B130/B130-C01-infografias-con-fuentes-verificables/CLASE.md)
 <!-- /nav -->

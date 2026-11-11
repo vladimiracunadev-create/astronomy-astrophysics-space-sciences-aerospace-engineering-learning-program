@@ -1,7 +1,7 @@
 # B130-C01 — Infografías con fuentes verificables
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B129-C07 — Proyecto de ciencia ciudadana validable](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md#b129-c07) · [Siguiente: B130-C02 — Visualización de datos para comunicar →](../B130-C02-visualizacion-de-datos-para-comunicar/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [← Anterior: B129-C07 — Proyecto de ciencia ciudadana validable](../../B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md) · [Siguiente: B130-C02 — Visualización de datos para comunicar →](../B130-C02-visualizacion-de-datos-para-comunicar/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -309,5 +309,5 @@ Una cifra con ficha completa se puede comprobar; un círculo mal escalado exager
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B129-C07 — Proyecto de ciencia ciudadana validable](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md#b129-c07) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B130-C02 — Visualización de datos para comunicar →](../B130-C02-visualizacion-de-datos-para-comunicar/CLASE.md)
+[← Anterior: B129-C07 — Proyecto de ciencia ciudadana validable](../../B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md) · [📚 Bloque B130](../../../tronco-comun/B130-comunicacion-y-divulgacion-cientifica.md) · [Siguiente: B130-C02 — Visualización de datos para comunicar →](../B130-C02-visualizacion-de-datos-para-comunicar/CLASE.md)
 <!-- /nav -->
