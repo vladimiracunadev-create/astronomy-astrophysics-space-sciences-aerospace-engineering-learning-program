@@ -1,6 +1,7 @@
 # B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B133](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) · [← Anterior: B132-C06 — Informe de un sitio arqueoastronómico](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md#b132-c06) · [Siguiente: B133-C02 — Narrativas orales y transmisión del saber del cielo →](../B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -322,4 +323,7 @@ Con un horizonte de 8° el orto de junio se corre 7,7° y un rayo a 5 m cambia d
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B132-C06 — Informe de un sitio arqueoastronómico](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md#b132-c06) · [📚 Bloque B133](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) · [Siguiente: B133-C02 — Narrativas orales y transmisión del saber del cielo →](../B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md)
 <!-- /nav -->
