@@ -1,7 +1,7 @@
 # B123-C04 — Arbitraje y resolución de controversias espaciales
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [← Anterior: B123-C03 — Mecanismos de reclamación entre Estados](../B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md) · [Siguiente: B124-C01 — Cadena de valor de industria espacial →](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [← Anterior: B123-C03 — Mecanismos de reclamación entre Estados](../B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md) · [Siguiente: B124-C01 — Cadena de valor de industria espacial →](../../B124/B124-C01-cadena-de-valor-de-industria-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Sin acuerdo, un arbitraje bajo las reglas de 2011 tiene tres árbitros; con dura
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B123-C03 — Mecanismos de reclamación entre Estados](../B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [Siguiente: B124-C01 — Cadena de valor de industria espacial →](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c01)
+[← Anterior: B123-C03 — Mecanismos de reclamación entre Estados](../B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md) · [📚 Bloque B123](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md) · [Siguiente: B124-C01 — Cadena de valor de industria espacial →](../../B124/B124-C01-cadena-de-valor-de-industria-espacial/CLASE.md)
 <!-- /nav -->

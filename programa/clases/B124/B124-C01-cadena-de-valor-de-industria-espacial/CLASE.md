@@ -1,7 +1,7 @@
 # B124-C01 — Cadena de valor de industria espacial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B123-C04 — Arbitraje y resolución de controversias espaciales](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md#b123-c04) · [Siguiente: B124-C02 — Agencias científicas y empresas →](../B124-C02-agencias-cientificas-y-empresas/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B123-C04 — Arbitraje y resolución de controversias espaciales](../../B123/B123-C04-arbitraje-y-resolucion-de-controversias-espaciales/CLASE.md) · [Siguiente: B124-C02 — Agencias científicas y empresas →](../B124-C02-agencias-cientificas-y-empresas/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ Una cadena sintética de 5 etapas con una demanda final de `200` um genera `286,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B123-C04 — Arbitraje y resolución de controversias espaciales](../../../tronco-comun/B123-responsabilidad-danos-y-controversias-espaciales.md#b123-c04) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B124-C02 — Agencias científicas y empresas →](../B124-C02-agencias-cientificas-y-empresas/CLASE.md)
+[← Anterior: B123-C04 — Arbitraje y resolución de controversias espaciales](../../B123/B123-C04-arbitraje-y-resolucion-de-controversias-espaciales/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B124-C02 — Agencias científicas y empresas →](../B124-C02-agencias-cientificas-y-empresas/CLASE.md)
 <!-- /nav -->
