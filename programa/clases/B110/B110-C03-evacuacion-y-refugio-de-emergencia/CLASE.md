@@ -1,7 +1,7 @@
 # B110-C03 — Evacuación y refugio de emergencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [← Anterior: B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado](../B110-C02-protocolos-operativos-de-aislamiento-de-un-tripulante-enfermo-o-contaminado/CLASE.md) · [Siguiente: B110-C04 — Priorización y decisiones bajo emergencia →](../B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -330,5 +330,5 @@ Con un orificio de 20 mm el ASET es `14,55 min` y el RSET mediano `6,90 min`; co
 <!-- nav:bottom -->
 ---
 
-[📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[← Anterior: B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado](../B110-C02-protocolos-operativos-de-aislamiento-de-un-tripulante-enfermo-o-contaminado/CLASE.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [Siguiente: B110-C04 — Priorización y decisiones bajo emergencia →](../B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md)
 <!-- /nav -->

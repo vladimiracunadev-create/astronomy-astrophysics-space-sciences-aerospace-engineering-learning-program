@@ -1,7 +1,7 @@
 # B110-C01 — Despresurización: detección, aislamiento y respuesta
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [← Anterior: B109-C12 — Evaluación de factores humanos de maquetas y distribuciones](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c12) · [Siguiente: B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado →](../B110-C02-protocolos-operativos-de-aislamiento-de-un-tripulante-enfermo-o-contaminado/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ Un orificio de 2 mm en 100 m³ deja `24,2 h`; uno de 10 mm, `58 min`; reducir el
 <!-- nav:bottom -->
 ---
 
-[📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[← Anterior: B109-C12 — Evaluación de factores humanos de maquetas y distribuciones](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md#b109-c12) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [Siguiente: B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado →](../B110-C02-protocolos-operativos-de-aislamiento-de-un-tripulante-enfermo-o-contaminado/CLASE.md)
 <!-- /nav -->

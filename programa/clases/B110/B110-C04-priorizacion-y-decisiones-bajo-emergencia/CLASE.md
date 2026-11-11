@@ -1,7 +1,7 @@
 # B110-C04 — Priorización y decisiones bajo emergencia
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [← Anterior: B110-C03 — Evacuación y refugio de emergencia](../B110-C03-evacuacion-y-refugio-de-emergencia/CLASE.md) · [Siguiente: B110-C05 — Checklists de emergencia: ejecución y verificación cruzada →](../B110-C05-checklists-de-emergencia-ejecucion-y-verificacion-cruzada/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -324,5 +324,5 @@ En el caso de seis fallas existe un orden sin pérdidas, pero con dos holguras e
 <!-- nav:bottom -->
 ---
 
-[📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[← Anterior: B110-C03 — Evacuación y refugio de emergencia](../B110-C03-evacuacion-y-refugio-de-emergencia/CLASE.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [Siguiente: B110-C05 — Checklists de emergencia: ejecución y verificación cruzada →](../B110-C05-checklists-de-emergencia-ejecucion-y-verificacion-cruzada/CLASE.md)
 <!-- /nav -->

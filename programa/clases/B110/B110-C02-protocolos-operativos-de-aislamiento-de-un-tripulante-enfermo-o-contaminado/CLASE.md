@@ -1,7 +1,7 @@
 # B110-C02 — Protocolos operativos de aislamiento de un tripulante enfermo o contaminado
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [← Anterior: B110-C01 — Despresurización: detección, aislamiento y respuesta](../B110-C01-despresurizacion-deteccion-aislamiento-y-respuesta/CLASE.md) · [Siguiente: B110-C03 — Evacuación y refugio de emergencia →](../B110-C03-evacuacion-y-refugio-de-emergencia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -315,5 +315,5 @@ Con los mismos 10 quanta/h, la exposición de 72 h baja de `0,41` a `0,13` con u
 <!-- nav:bottom -->
 ---
 
-[📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md)
+[← Anterior: B110-C01 — Despresurización: detección, aislamiento y respuesta](../B110-C01-despresurizacion-deteccion-aislamiento-y-respuesta/CLASE.md) · [📚 Bloque B110](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md) · [Siguiente: B110-C03 — Evacuación y refugio de emergencia →](../B110-C03-evacuacion-y-refugio-de-emergencia/CLASE.md)
 <!-- /nav -->
