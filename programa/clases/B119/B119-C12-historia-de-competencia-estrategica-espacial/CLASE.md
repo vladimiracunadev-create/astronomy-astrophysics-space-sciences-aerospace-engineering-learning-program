@@ -1,7 +1,7 @@
 # B119-C12 — Historia de competencia estratégica espacial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C11 — Uso pacífico y limitaciones militares](../B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md) · [Siguiente: B119-C13 — Vigilancia y conciencia situacional espacial →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c13)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C11 — Uso pacífico y limitaciones militares](../B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md) · [Siguiente: B119-C13 — Vigilancia y conciencia situacional espacial →](../B119-C13-vigilancia-y-conciencia-situacional-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ El derecho tardó `10.02` años en llegar al tratado vigente y los otros dos tra
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C11 — Uso pacífico y limitaciones militares](../B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C13 — Vigilancia y conciencia situacional espacial →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c13)
+[← Anterior: B119-C11 — Uso pacífico y limitaciones militares](../B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C13 — Vigilancia y conciencia situacional espacial →](../B119-C13-vigilancia-y-conciencia-situacional-espacial/CLASE.md)
 <!-- /nav -->
