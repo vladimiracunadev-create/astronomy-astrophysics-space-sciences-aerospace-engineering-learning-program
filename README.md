@@ -38,7 +38,7 @@
 
 ## 📎 Anexos históricos y pedagógicos
 
-Diez lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
+Once lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
 
 | Anexo | Contenido |
 |---|---|
@@ -52,6 +52,7 @@ Diez lecturas de contexto, con descripciones **históricas, pedagógicas y profu
 | [H · Cronología](anexos/ANEXO-H-cronologia.md) | Línea de tiempo de la antigüedad a 2025 |
 | [I · Escalas de medición, fórmulas y calculadora](anexos/ANEXO-I-escalas-formulas-y-calculadora.md) | Escalas, convenciones que hacen diferir los cálculos, fórmulas con unidades y la [calculadora científica en Python](herramientas/calculadora_cientifica.py) |
 | [J · Estudios de caso a fondo](anexos/ANEXO-J-estudios-de-caso-a-fondo.md) | Diez casos analizados con números, causas y ejercicios resueltos |
+| [K · Perfiles a fondo](anexos/ANEXO-K-perfiles-a-fondo.md) | Catorce biografías analizadas: contexto, obstáculos, legado y preguntas |
 
 Índice completo: [`anexos/README.md`](anexos/README.md) · Vocabulario: [🔤 Glosario](glosario/README.md) y [glosario esencial explicado a fondo](glosario/esencial/README.md).
 
@@ -418,7 +419,7 @@ La secuencia de implementación comenzará con pilotos completos y pequeños; de
 - [`catalogo/clases.jsonl`](catalogo/clases.jsonl): línea base `0.1.0` (5.120 registros), sincronizada con CSV y JSON.
 - [`catalogo/v0.2.0/`](catalogo/v0.2.0/): estructura unificada (áreas y bloques), clases programadas, equivalencias y colocación de los módulos de ruta.
 - [`programa/tronco-comun/`](programa/tronco-comun/): guías de los 133 bloques (64 de la línea base y 69 nuevos); todas están reescritas como guía pedagógica.
-- [`anexos/`](anexos/README.md): diez anexos históricos, pedagógicos y de cálculo (agencias, misiones, personas, satélites, telescopios, lanzadores, cronología).
+- [`anexos/`](anexos/README.md): once anexos históricos, pedagógicos y de cálculo (agencias, misiones, personas, satélites, telescopios, lanzadores, cronología).
 - [`glosario/`](glosario/README.md): glosario alfabético de términos, siglas y símbolos.
 - [`programa/clases/`](programa/clases/): las 2.077 clases redactadas de A01 a A12.
 - [`programa/rutas-profesionales/`](programa/rutas-profesionales/): 24 rutas con su recorrido; los 192 módulos de la línea base se conservan como equivalencias.
