@@ -1,7 +1,7 @@
 # B132-C06 — Informe de un sitio arqueoastronómico
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B132-C05 — Contexto ritual y social de la observación del cielo](../B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md) · [Siguiente: B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales →](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md#b133-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [← Anterior: B132-C05 — Contexto ritual y social de la observación del cielo](../B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md) · [Siguiente: B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales →](../../B133/B133-C01-relaciones-entre-cielo-y-territorio-en-los-saberes-tradicionales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,5 +299,5 @@ Un sitio sintético de cinco estructuras tiene una compatible con un objetivo y 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B132-C05 — Contexto ritual y social de la observación del cielo](../B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales →](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md#b133-c01)
+[← Anterior: B132-C05 — Contexto ritual y social de la observación del cielo](../B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md) · [📚 Bloque B132](../../../tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) · [Siguiente: B133-C01 — Relaciones entre cielo y territorio en los saberes tradicionales →](../../B133/B133-C01-relaciones-entre-cielo-y-territorio-en-los-saberes-tradicionales/CLASE.md)
 <!-- /nav -->
