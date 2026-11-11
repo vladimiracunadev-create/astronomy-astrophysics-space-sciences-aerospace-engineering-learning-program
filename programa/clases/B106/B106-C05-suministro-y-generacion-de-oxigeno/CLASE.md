@@ -1,7 +1,7 @@
 # B106-C05 — Suministro y generación de oxígeno
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C04 — Control de dióxido de carbono](../B106-C04-control-de-dioxido-de-carbono/CLASE.md) · [Siguiente: B106-C06 — Reciclaje de agua →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c06)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C04 — Control de dióxido de carbono](../B106-C04-control-de-dioxido-de-carbono/CLASE.md) · [Siguiente: B106-C06 — Reciclaje de agua →](../B106-C06-reciclaje-de-agua/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -292,5 +292,5 @@ Un kilogramo de O₂ cuesta 1,126 kg de agua y al menos 4,96 kWh; Sabatier devue
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C04 — Control de dióxido de carbono](../B106-C04-control-de-dioxido-de-carbono/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C06 — Reciclaje de agua →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c06)
+[← Anterior: B106-C04 — Control de dióxido de carbono](../B106-C04-control-de-dioxido-de-carbono/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C06 — Reciclaje de agua →](../B106-C06-reciclaje-de-agua/CLASE.md)
 <!-- /nav -->
