@@ -17,7 +17,7 @@
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [🌐 Explorar el catálogo](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/) ·
-[📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) ·
+[📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) ·
 [🧭 Rutas profesionales](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md) ·
 [🎓 Estándar de clase](documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
