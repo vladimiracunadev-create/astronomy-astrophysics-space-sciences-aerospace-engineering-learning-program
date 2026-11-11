@@ -1,7 +1,7 @@
 # B133-C03 — Colaboración con comunidades en investigación y educación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B133](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) · [← Anterior: B133-C02 — Narrativas orales y transmisión del saber del cielo](../B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md) · [Siguiente: B133-C04 — Riesgos de apropiación cultural en la divulgación →](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md#b133-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B133](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) · [← Anterior: B133-C02 — Narrativas orales y transmisión del saber del cielo](../B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md) · [Siguiente: B133-C04 — Riesgos de apropiación cultural en la divulgación →](../B133-C04-riesgos-de-apropiacion-cultural-en-la-divulgacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -320,5 +320,5 @@ Un acuerdo completo (A) cumple los cuatro campos de consentimiento, los cuatro e
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B133-C02 — Narrativas orales y transmisión del saber del cielo](../B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md) · [📚 Bloque B133](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) · [Siguiente: B133-C04 — Riesgos de apropiación cultural en la divulgación →](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md#b133-c04)
+[← Anterior: B133-C02 — Narrativas orales y transmisión del saber del cielo](../B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md) · [📚 Bloque B133](../../../tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) · [Siguiente: B133-C04 — Riesgos de apropiación cultural en la divulgación →](../B133-C04-riesgos-de-apropiacion-cultural-en-la-divulgacion/CLASE.md)
 <!-- /nav -->
