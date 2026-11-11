@@ -1,7 +1,7 @@
 # B115-C01 — Cultivos hidropónicos para hábitats
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [← Anterior: B114-C06 — Matriz de riesgo ambiental de un hábitat](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md#b114-c06) · [Siguiente: B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento →](../B115-C02-iluminacion-de-cultivos-con-led-y-espectro-de-crecimiento/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [← Anterior: B114-C06 — Matriz de riesgo ambiental de un hábitat](../../B114/B114-C06-matriz-de-riesgo-ambiental-de-un-habitat/CLASE.md) · [Siguiente: B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento →](../B115-C02-iluminacion-de-cultivos-con-led-y-espectro-de-crecimiento/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -304,5 +304,5 @@ Un canal NFT sintético tiene una lámina de 2,7 mm, 32 s de residencia y un mar
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B114-C06 — Matriz de riesgo ambiental de un hábitat](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md#b114-c06) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [Siguiente: B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento →](../B115-C02-iluminacion-de-cultivos-con-led-y-espectro-de-crecimiento/CLASE.md)
+[← Anterior: B114-C06 — Matriz de riesgo ambiental de un hábitat](../../B114/B114-C06-matriz-de-riesgo-ambiental-de-un-habitat/CLASE.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [Siguiente: B115-C02 — Iluminación de cultivos con LED y espectro de crecimiento →](../B115-C02-iluminacion-de-cultivos-con-led-y-espectro-de-crecimiento/CLASE.md)
 <!-- /nav -->

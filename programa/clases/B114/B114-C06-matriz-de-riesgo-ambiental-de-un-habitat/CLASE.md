@@ -1,7 +1,7 @@
 # B114-C06 — Matriz de riesgo ambiental de un hábitat
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [← Anterior: B114-C05 — Despresurización: escenarios, tiempos y respuesta](../B114-C05-despresurizacion-escenarios-tiempos-y-respuesta/CLASE.md) · [Siguiente: B115-C01 — Cultivos hidropónicos para hábitats →](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md#b115-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [← Anterior: B114-C05 — Despresurización: escenarios, tiempos y respuesta](../B114-C05-despresurizacion-escenarios-tiempos-y-respuesta/CLASE.md) · [Siguiente: B115-C01 — Cultivos hidropónicos para hábitats →](../../B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -319,5 +319,5 @@ Siete peligros sintéticos pasan de `62` a `37` puntos de riesgo con medidas, pe
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B114-C05 — Despresurización: escenarios, tiempos y respuesta](../B114-C05-despresurizacion-escenarios-tiempos-y-respuesta/CLASE.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [Siguiente: B115-C01 — Cultivos hidropónicos para hábitats →](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md#b115-c01)
+[← Anterior: B114-C05 — Despresurización: escenarios, tiempos y respuesta](../B114-C05-despresurizacion-escenarios-tiempos-y-respuesta/CLASE.md) · [📚 Bloque B114](../../../tronco-comun/B114-seguridad-y-respuesta-a-emergencias-en-habitats.md) · [Siguiente: B115-C01 — Cultivos hidropónicos para hábitats →](../../B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md)
 <!-- /nav -->
