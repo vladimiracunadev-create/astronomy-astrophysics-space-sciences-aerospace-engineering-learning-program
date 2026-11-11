@@ -1,7 +1,7 @@
 # B105-C09 — Salud mental en aislamiento
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C08 — Sueño y ritmos circadianos](../B105-C08-sueno-y-ritmos-circadianos/CLASE.md) · [Siguiente: B105-C10 — Respuesta inmune →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c10)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C08 — Sueño y ritmos circadianos](../B105-C08-sueno-y-ritmos-circadianos/CLASE.md) · [Siguiente: B105-C10 — Respuesta inmune →](../B105-C10-respuesta-inmune/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -288,5 +288,5 @@ Con `h = 4`, el CUSUM detecta casi todos los cambios en 6 días, pero el 64,8 % 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B105-C08 — Sueño y ritmos circadianos](../B105-C08-sueno-y-ritmos-circadianos/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C10 — Respuesta inmune →](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c10)
+[← Anterior: B105-C08 — Sueño y ritmos circadianos](../B105-C08-sueno-y-ritmos-circadianos/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B105-C10 — Respuesta inmune →](../B105-C10-respuesta-inmune/CLASE.md)
 <!-- /nav -->
