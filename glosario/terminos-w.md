@@ -12,6 +12,7 @@
 - LOO/WAIC responden «¿qué modelo predecirá mejor datos nuevos?»; son menos sensibles al prior y adecuadas para elegir con fines predictivos (S2).
 - LOO y WAIC miran hacia adelante: «con lo aprendido de estos datos, ¿cómo predice un dato nuevo?».
 - 🎯 **Por qué importa:** Miras 10 mediciones de la amplitud de una señal y el promedio es 0,57 con ruido conocido 1. ¿Hay señal (`μ ≠ 0`) o solo ruido (`μ = 0`)?
+- 🔗 **Se estudia junto con:** evidencia, factor de Bayes, odds posteriores, factor de Occam.
 
 📘 **Dónde se aprende** (1 clase): [B19-C07 · Comparación de modelos bayesianos](../programa/clases/B19/B19-C07-comparacion-de-modelos-bayesianos/CLASE.md).
 
@@ -23,6 +24,7 @@
 - Generar una constelación Walker-delta `P/S/F` y propagarla con Kepler.
 - Constelacion SINTETICA Walker-delta 24 x 22 (528 satelites), inclinacion 53 deg, 550 km; fases con error de +-3 deg (semilla 118).
 - 🎯 **Por qué importa:** La sección 5.5 de la IADC Rev. 4 pide planificar y operar las constelaciones para minimizar la probabilidad de colisión entre sus miembros, en los cruces de planos y con otras constelaciones, y minimizar el riesgo acumulado de reentradas.
+- 🔗 **Se estudia junto con:** constelación, cruce de planos, par cercano, expectativa de gas uniforme.
 
 📘 **Dónde se aprende** (1 clase): [B118-C15 · Seguimiento de mega constelaciones](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md).
 
@@ -30,7 +32,10 @@
 
 - El watchdog simple reinicia si pasa demasiado tiempo sin patada.
 
-🎯 **Por qué importa (clase B88-C11):** Un watchdog mal ajustado reinicia sin necesidad o no reinicia cuando hace falta. La decisión central: ¿qué ventana y qué escalera de acciones recuperan un software colgado sin reinicios falsos?
+💡 **Contexto en la clase [B88-C11](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md):**
+- **Idea central (modelo mental):** ```mermaid flowchart LR K["Patada cada 100 ms + jitter"] --> V{"Dentro de [60,140] ms?"} V -->|si| OK["Seguir"] V -->|no| R["Reinicio"] R --> E["Escalera: tarea, computador, modo seguro"] ``` *Descripción textual:* cada patada se compara con la ventana; si queda fuera, se reinicia y la escalera decide la respuesta según cuántos reinicios hubo recientemente.
+- 🎯 **Por qué importa:** Un watchdog mal ajustado reinicia sin necesidad o no reinicia cuando hace falta. La decisión central: ¿qué ventana y qué escalera de acciones recuperan un software colgado sin reinicios falsos?
+- 🔗 **Se estudia junto con:** de ventana, antes, reinicio falso, escalera de recuperación.
 
 📘 **Dónde se aprende** (1 clase): [B88-C11 · Watchdogs y recuperación](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md).
 
@@ -43,6 +48,7 @@
 - Calcular el WCET como camino más largo con cotas de bucle.
 - ⚠️ **Error frecuente:** Medir y llamar WCET al máximo. Una cota se calcula (8.1)
 - 🎯 **Por qué importa:** El análisis de planificación (C05) necesita `C` de cada tarea, y medir no basta porque el peor camino puede no ejercitarse. La decisión central: ¿cuál es una cota segura del tiempo de ejecución y cuánto pesimismo trae?
+- 🔗 **Se estudia junto con:** BCET, camino más largo, pesimismo, fallo de caché.
 
 📘 **Dónde se aprende** (1 clase): [B88-C30 · Análisis de peor caso de tiempo de ejecución (WCET)](../programa/clases/B88/B88-C30-analisis-de-peor-caso-de-tiempo-de-ejecucion-wcet/CLASE.md).
 
@@ -54,6 +60,7 @@
 - Para el campo pequeño del ejemplo, la WCS es: `CRPIX = (33, 25)` (píxel de referencia, numerado desde 1), `CRVAL = (150°, 2°)` (coordenadas del cielo de ese píxel), `CDELT = (−1″, +1″)` expresadas en grados, `CTYPE = RA---TAN, DEC--TAN`.
 - (No consulté el estándar de WCS: lo uso como convención y verifico su resultado, ver sección 11.)
 - 🎯 **Por qué importa:** Una imagen astronómica es una matriz de números, pero esos números no significan nada sin su encabezado: ¿qué unidad tienen?, ¿cuánto duró la exposición?, ¿a qué punto del cielo apunta el píxel central? Si el encabezado miente o se pierde, la imagen no sirve.
+- 🔗 **Se estudia junto con:** HDU, HDU primario, encabezado, tarjetas.
 
 📘 **Dónde se aprende** (1 clase): [B14-C06 · Formato FITS y encabezados](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md).
 
@@ -65,6 +72,7 @@
 - Leer un archivo WebVTT y calcular la velocidad de lectura de cada bloque.
 - El script [subtitulos.py](subtitulos.py) analiza un WebVTT sintético y calcula el WER por programación dinámica (comprueba contra una recursión con memoria y una hipótesis idéntica).
 - 🎯 **Por qué importa:** Un subtítulo mal sincronizado o demasiado rápido no se alcanza a leer, y una transcripción automática sin revisar puede decir lo contrario de lo dicho. La decisión central: ¿cómo compruebo que los subtítulos se pueden leer y que no cambian el sentido?
+- 🔗 **Se estudia junto con:** subtítulos, transcripción, audiodescripción, WER.
 
 📘 **Dónde se aprende** (1 clase): [B128-C05 · Subtítulos y transcripciones](../programa/clases/B128/B128-C05-subtitulos-y-transcripciones/CLASE.md).
 
@@ -77,6 +85,7 @@
 💡 **Cómo se explica en la clase [B48-C14](../programa/clases/B48/B48-C14-mantenimiento-preventivo/CLASE.md):**
 - Con vida Weibull de forma 2,5 y escala 1000 h, costo preventivo 1 y costo por falla 10, el reemplazo óptimo está en 354,6 h con costo 0,004751 por hora, frente a 0,011271 sin prevención: ahorro de 57,9 %.
 - 🎯 **Por qué importa:** Reemplazar muy pronto desperdicia vida útil; muy tarde, produce fallas caras. La decisión central: ¿cada cuántas horas conviene reemplazar?
+- 🔗 **Se estudia junto con:** Confiabilidad, Reemplazo por edad, Tasa de costo, Renovación.
 
 📘 **Dónde se aprende** (3 clases): [B48-C14 · Mantenimiento preventivo](../programa/clases/B48/B48-C14-mantenimiento-preventivo/CLASE.md); [B88-C03 · Procesadores tolerantes a radiación](../programa/clases/B88/B88-C03-procesadores-tolerantes-a-radiacion/CLASE.md); [B127-C02 · Seguros en órbita](../programa/clases/B127/B127-C02-seguros-en-orbita/CLASE.md).
 
@@ -88,6 +97,7 @@
 - Con referencia de 12 palabras y una hipótesis sin «no»: `D = 1`, `WER = 1/12 = 8,3 %`.
 - Un WER pequeño puede ocultar un error que invierte el sentido.
 - 🎯 **Por qué importa:** Un subtítulo mal sincronizado o demasiado rápido no se alcanza a leer, y una transcripción automática sin revisar puede decir lo contrario de lo dicho. La decisión central: ¿cómo compruebo que los subtítulos se pueden leer y que no cambian el sentido?
+- 🔗 **Se estudia junto con:** subtítulos, transcripción, audiodescripción, WebVTT.
 
 📘 **Dónde se aprende** (1 clase): [B128-C05 · Subtítulos y transcripciones](../programa/clases/B128/B128-C05-subtitulos-y-transcripciones/CLASE.md).
 
@@ -100,6 +110,7 @@
 - Resultado: la integral máxima es 0,099 rad·s (frente a 5,29), el sobreimpulso baja a 0,8 % y el asentamiento (2 %) a 40,9 s (frente a 61,9 s sin anti-windup).
 - ⚠️ **Error frecuente:** Medir el anti-windup solo en el caso saturado. Se corrige con el ejercicio 6 y la sección 8.4.
 - 🎯 **Por qué importa:** Una rueda de reacción entrega un par máximo y almacena un momento angular máximo (el Hubble usa ruedas de hasta unas 3000 rpm, y magnetopares para gestionar su velocidad, S1). Cuando el controlador pide más de lo que el actuador puede dar, el lazo deja de comportarse como se diseñó.
+- 🔗 **Se estudia junto con:** saturación, anti-windup, recálculo hacia atrás, integración condicional.
 
 📘 **Dónde se aprende** (1 clase): [B16-C18 · Saturación y anti-windup](../programa/clases/B16/B16-C18-saturacion-y-anti-windup/CLASE.md).
 
@@ -112,6 +123,7 @@
 - Analogía: un grifo roto que inunda más cada minuto: arreglarlo (RTO) y secar (WRT) debe caber antes del daño inaceptable (MTD).
 - ⚠️ **Error frecuente:** Olvidar el WRT. Se corrige con 8.2.
 - 🎯 **Por qué importa:** B96-C14 trata procedimientos y no enseña a fijar objetivos de recuperación a partir del impacto. La decisión central: ¿cuál debe ser el RTO para no superar el tiempo máximo tolerable y qué frecuencia de copias exige el RPO?
+- 🔗 **Se estudia junto con:** disponibilidad, MTBF, MTTR, RTO.
 
 📘 **Dónde se aprende** (1 clase): [B122-C02 · Continuidad de servicio: impacto y objetivos de recuperación](../programa/clases/B122/B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md).
 
@@ -123,5 +135,6 @@
 - Con `m_i = 500 mg`: `TML = (m_i − m_f)/m_i`, `WVR = (m_h − m_f)/m_i`, `RML = TML − WVR`, `CVCM = Δm_colector/m_i`.
 - A["pesadas mi, mf, mh, dc"] --> B["TML, WVR, RML, CVCM"]
 - 🎯 **Por qué importa:** Una película de 10 nm sobre un espejo de telescopio o un sensor estelar degrada la misión; el cribado de desgasificación se hace antes de elegir el adhesivo. La decisión central: ¿pasa un material el cribado de desgasificación y cuántos días de bakeout necesita para limpiarlo?
+- 🔗 **Se estudia junto con:** TML, RML, CVCM, bakeout.
 
 📘 **Dónde se aprende** (1 clase): [B84-C07 · Desgasificación de materiales](../programa/clases/B84/B84-C07-desgasificacion-de-materiales/CLASE.md).

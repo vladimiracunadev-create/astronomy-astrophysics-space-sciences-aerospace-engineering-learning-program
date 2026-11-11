@@ -267,4 +267,4 @@ Continuación de la tercera tanda. Mismo esquema: **en una frase**, **cómo pens
 
 ---
 
-[← A – E](tercera-a-e.md) · [Índice](README.md)
+[← A – E](tercera-a-e.md) · [Índice](README.md) · [Siguiente: cuarta tanda, fundamentos →](cuarta-fundamentos.md)

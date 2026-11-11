@@ -8,7 +8,10 @@
 
 - En astronomía, X es la fracción en masa del hidrógeno, Y la del helio y Z la de todo lo demás, llamado en bloque «metales» aunque incluya carbono, nitrógeno y oxígeno (S1).
 
-🎯 **Por qué importa (clase B06-C02):** Cuando alguien dice «el universo es casi todo hidrógeno y helio», ¿en qué sentido es cierto? ¿En número de átomos, en masa, en el Sol, en la Tierra?
+💡 **Contexto en la clase [B06-C02](../programa/clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md):**
+- **Idea central (modelo mental):** Piensa en un edificio de cuartos que se ocupan de abajo hacia arriba: cada «piso» (capa) tiene un número limitado de lugares para electrones. Cuando un piso se llena, el siguiente electrón tiene que ir al piso siguiente, más lejos del núcleo. Cada vez que empieza un piso nuevo, empieza un periodo nuevo.
+- 🎯 **Por qué importa:** Cuando alguien dice «el universo es casi todo hidrógeno y helio», ¿en qué sentido es cierto? ¿En número de átomos, en masa, en el Sol, en la Tierra?
+- 🔗 **Se estudia junto con:** tabla periódica, fila, periodo, columna.
 
 📘 **Dónde se aprende** (1 clase): [B06-C02 · Tabla periódica y abundancias cósmicas](../programa/clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md).
 
@@ -21,6 +24,7 @@
 - La versión 1.2 de YAML es un superconjunto de JSON (todo JSON válido es YAML válido), según la especificación (S4).
 - ⚠️ **Error frecuente:** Usar `yaml.load` con datos ajenos. Se corrige con el ejercicio 9.
 - 🎯 **Por qué importa:** Una simulación tiene decenas de parámetros. Si están enterrados en el código, cambiar uno obliga a editar el programa y es fácil olvidar con qué valores se obtuvo cada resultado.
+- 🔗 **Se estudia junto con:** JSON, sangría, comentario, Serializar.
 
 📘 **Dónde se aprende** (1 clase): [B07-C16 · Formatos JSON y YAML](../programa/clases/B07/B07-C16-formatos-json-y-yaml/CLASE.md).
 
@@ -32,6 +36,7 @@
 - Usar el modelo de Yoon–Nelson para el tiempo al 10 % y 90 % de ruptura.
 - El script [depuracion_de_trazas.py](depuracion_de_trazas.py) calcula el estacionario, la vida de un lecho (con Yoon–Nelson), la conversión de un catalizador frente a la temperatura y el tren combinado (comprueba el estacionario contra la integración y el 0,5 de la ruptura en `τ`).
 - 🎯 **Por qué importa:** Una cabina cerrada acumula trazas que no son CO₂ ni agua; hay que retirarlas con lechos y catalizadores que se saturan o dependen de la temperatura. La decisión central: ¿cuánto dura un lecho, a qué temperatura debe operar el catalizador y qué concentración queda en la cabina?
+- 🔗 **Se estudia junto con:** Traza, Adsorción, Ruptura, Oxidador catalítico.
 
 📘 **Dónde se aprende** (1 clase): [B106-C21 · Depuración de trazas gaseosas de la atmósfera de cabina](../programa/clases/B106/B106-C21-depuracion-de-trazas-gaseosas-de-la-atmosfera-de-cabina/CLASE.md).
 
@@ -43,5 +48,6 @@
 - La evidencia es la ficha de Yarkovsky y YORP del ejercicio 12 (sección 20).
 - Ejercicio 12 · integrador. Integrador. Elabora tu *ficha de Yarkovsky y YORP*: comparación integrada–fórmula, tabla física y barrera.
 - 🎯 **Por qué importa:** Una deriva de decenas de kilómetros en un siglo puede decidir si un acercamiento ocurre. La decisión central: ¿cuánto se desplaza un asteroide por empuje térmico y por qué los cuerpos pequeños son más sensibles?
+- 🔗 **Se estudia junto con:** efecto Yarkovsky, ecuación de Gauss, barrera de rotación.
 
 📘 **Dónde se aprende** (1 clase): [B58-C14 · Efectos Yarkovsky y YORP](../programa/clases/B58/B58-C14-efectos-yarkovsky-y-yorp/CLASE.md).

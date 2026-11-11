@@ -24,9 +24,10 @@ El [glosario completo](../README.md) reúne miles de términos con la oración q
 | [Ampliación N – Z](ampliacion-n-z.md) | Navegación inercial · TRL · Período sinódico · Presión dinámica y Max-Q · Propulsión eléctrica · RTG · Reconexión magnética · Redundancia y fiabilidad · Rover · Seeing · Telemetría · Torque · Tratado del Espacio Exterior · Ventana de lanzamiento |
 | [Tercera tanda A – E](tercera-a-e.md) | Anomalía y ecuación de Kepler · Asteroides y cometas · Aurora · Biosignatura · CCD · Clase espectral · Cinturón de Kuiper y nube de Oort · Código de corrección de errores · Cráter de impacto · Cúmulo globular · Enfermedad por descompresión · Diagrama H-R · Disco de acreción y límite de Eddington · DTN · Elementos orbitales · Energía oscura · Equilibrio hidrostático · Espectro de transmisión · Espectrógrafo · Eyección de masa coronal |
 | [Tercera tanda F – T](tercera-f-t.md) | Fusión estelar · Heliosfera · Esfera de Hill · Inflación · Ley de Hubble y H₀ · Magnetosfera · Metalicidad · Montura ecuatorial · Neutrino · Quásar · Radiación en la electrónica · Rayos cósmicos · Regolito · Seguros espaciales · Síndrome de adaptación · Soporte vital · Traje espacial |
+| [Cuarta tanda · Fundamentos](cuarta-fundamentos.md) | Altura y acimut · Año tropical y sidéreo · Teorema de Bayes · Cifras significativas · Constelación y asterismo · Derivada · Ecuación diferencial y método de Euler · Error e incertidumbre · Esfera celeste · Fases de la Luna · Transformada de Fourier · Integral · Logaritmo · Media y desviación estándar · Mínimos cuadrados · Monte Carlo · Notación científica · Oposición y conjunción · Punto flotante · Retrogradación · Vector y producto escalar |
 
 ## Qué no es
 
 - No sustituye a las clases: cada entrada remite al bloque donde el tema se desarrolla con ejercicios y laboratorio.
 - Los valores son redondeados y de redacción propia, pendientes de revisión disciplinar (nivel E0). Verifica en la fuente antes de citarlos.
-- Es una selección que crece por tandas; hoy reúne unas 145 entradas.
+- Es una selección que crece por tandas; hoy reúne unas 165 entradas.

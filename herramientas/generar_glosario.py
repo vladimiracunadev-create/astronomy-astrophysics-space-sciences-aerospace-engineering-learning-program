@@ -112,6 +112,16 @@ def frases_seccion(texto: str, n: int):
     return [(o, raices(o)) for o in out]
 
 
+def modelo_mental_clase(texto: str) -> str:
+    s = sin_negritas(limpiar(seccion(texto, 7)))
+    res = ""
+    for x in oraciones(s)[:3]:
+        if len(res) + len(x) > 360:
+            break
+        res += (" " if res else "") + x
+    return res
+
+
 def por_que_clase(texto: str) -> str:
     s = sin_negritas(limpiar(seccion(texto, 2)))
     o = oraciones(s)
@@ -252,9 +262,13 @@ def cargar():
         ruta = "../programa/clases/" + p.parent.parent.name + "/" + p.parent.name + "/CLASE.md"
         cache = {n: frases_seccion(texto, n) for n in SEC_EXPLICA + (18,)}
         pq = por_que_clase(texto)
-        for term, defn in extraer_terminos(texto):
+        mm = modelo_mental_clase(texto)
+        lista = extraer_terminos(texto)
+        nombres = [x for x, _ in lista]
+        for term, defn in lista:
             ex, er = contexto_clase(cache, term, defn)
-            terminos[clave(term)].append(dict(term=term, defn=defn, ex=ex, er=er, pq=pq, cid=cid, tit=tit, ruta=ruta))
+            vec = [n for n in nombres if clave(n) != clave(term)][:4]
+            terminos[clave(term)].append(dict(term=term, defn=defn, ex=ex, er=er, pq=pq, mm=mm, vec=vec, cid=cid, tit=tit, ruta=ruta))
         for fila in extraer_simbolos(seccion(texto, 9)):
             simbolos[fila[0]].append(dict(fila=fila, cid=cid, tit=tit, ruta=ruta))
     return terminos, simbolos, n_clases
@@ -362,9 +376,18 @@ def bloque_contexto(items):
                 out.append(f"- ⚠️ **Error frecuente:** {i['er']}")
             if i["pq"]:
                 out.append(f"- 🎯 **Por qué importa:** {i['pq']}")
+            if i["vec"]:
+                out.append("- 🔗 **Se estudia junto con:** " + ", ".join(i["vec"]) + ".")
             return out
     i = ordenados[0]
-    return ["", f"🎯 **Por qué importa (clase {i['cid']}):** {i['pq']}"] if i["pq"] else []
+    out = ["", f"💡 **Contexto en la clase [{i['cid']}]({i['ruta']}):**"]
+    if i["mm"]:
+        out.append(f"- **Idea central (modelo mental):** {i['mm']}")
+    if i["pq"]:
+        out.append(f"- 🎯 **Por qué importa:** {i['pq']}")
+    if i["vec"]:
+        out.append("- 🔗 **Se estudia junto con:** " + ", ".join(i["vec"]) + ".")
+    return out if len(out) > 1 else []
 
 
 def paginar(base, titulo, intro, entradas):
@@ -429,18 +452,20 @@ def escribir_siglas(terminos):
                 s = sigla_en(i["term"])
                 if s and s.upper() == s:
                     filas.setdefault(s, []).append(i)
-    out = ["# Siglas y acrónimos", "", "[⬅️ Índice del glosario](README.md)", "",
-           "Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabético. "
-           "Si una sigla no aparece, ninguna clase la presentó en su vocabulario.", ""]
+    intro = ["[⬅️ Índice del glosario](README.md)", "",
+             "Siglas y acrónimos que las clases definen en su vocabulario, en orden alfabético. "
+             "Si una sigla no aparece, ninguna clase la presentó en su vocabulario.", ""]
+    entradas = []
     for sig in sorted(filas, key=clave):
         items = filas[sig]
         nombres = sorted({i["term"] for i in items if not es_sigla(i["term"])})
-        out += [f"### {sig}", ""]
+        out = [f"### {sig}", ""]
         if nombres:
             out.append(f"- **Significa:** {'; '.join(nombres)}.")
         out += lineas_definicion(items) + bloque_contexto(items)
         out += ["", f"📘 **Dónde se aprende:** {enlaces(items)}.", ""]
-    return "\n".join(out).rstrip() + "\n", len(filas)
+        entradas.append(out)
+    return paginar("siglas", "Siglas y acrónimos", intro, entradas)[0], len(filas)
 
 
 def escribir_mas_usados(terminos, esencial, minimo=6):
@@ -539,7 +564,7 @@ def main():
     mas_usados, n_mas = escribir_mas_usados(terminos, esencial)
     archivos.update(mas_usados)
     siglas, n_siglas = escribir_siglas(terminos)
-    archivos["siglas.md"] = siglas
+    archivos.update(siglas)
     archivos.update(escribir_simbolos(simbolos))
 
     def fmt(n):

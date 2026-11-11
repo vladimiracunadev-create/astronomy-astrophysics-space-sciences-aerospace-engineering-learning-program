@@ -9,7 +9,10 @@
 - En astronomía, X es la fracción en masa del hidrógeno, Y la del helio y Z la de todo lo demás, llamado en bloque «metales» aunque incluya carbono, nitrógeno y oxígeno (S1).
 - Las bandas VHF (~145 MHz), UHF (~401 MHz), S (~2,2 GHz), X (~8,4 GHz) y Ka (~32 GHz) se tratan aquí con frecuencias centrales ilustrativas.
 
-🎯 **Por qué importa (clase B06-C02):** Cuando alguien dice «el universo es casi todo hidrógeno y helio», ¿en qué sentido es cierto? ¿En número de átomos, en masa, en el Sol, en la Tierra?
+💡 **Contexto en la clase [B06-C02](../programa/clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md):**
+- **Idea central (modelo mental):** Piensa en un edificio de cuartos que se ocupan de abajo hacia arriba: cada «piso» (capa) tiene un número limitado de lugares para electrones. Cuando un piso se llena, el siguiente electrón tiene que ir al piso siguiente, más lejos del núcleo. Cada vez que empieza un piso nuevo, empieza un periodo nuevo.
+- 🎯 **Por qué importa:** Cuando alguien dice «el universo es casi todo hidrógeno y helio», ¿en qué sentido es cierto? ¿En número de átomos, en masa, en el Sol, en la Tierra?
+- 🔗 **Se estudia junto con:** tabla periódica, fila, periodo, columna.
 
 📘 **Dónde se aprende** (2 clases): [B06-C02 · Tabla periódica y abundancias cósmicas](../programa/clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md); [B89-C03 · Bandas VHF UHF S X Ka](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md).
 
@@ -22,5 +25,6 @@
 - FX y XF difieren `5,6 × 10^-16` y el retardo de 5 muestras se recupera.
 - ⚠️ **Error frecuente:** Creer que FX y XF difieren. Se corrige con 8.2.
 - 🎯 **Por qué importa:** La visibilidad es el dato básico de la imagen, y su ruido determina la sensibilidad. La decisión central: ¿cuántas muestras hay que correlacionar para fijar amplitud y fase con la precisión requerida?
+- 🔗 **Se estudia junto con:** visibilidad, ruido de correlación, FX, lag.
 
 📘 **Dónde se aprende** (1 clase): [B46-C15 · Correladores y visibilidades](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md).

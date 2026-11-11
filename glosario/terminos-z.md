@@ -8,7 +8,10 @@
 
 - En astronomía, X es la fracción en masa del hidrógeno, Y la del helio y Z la de todo lo demás, llamado en bloque «metales» aunque incluya carbono, nitrógeno y oxígeno (S1).
 
-🎯 **Por qué importa (clase B06-C02):** Cuando alguien dice «el universo es casi todo hidrógeno y helio», ¿en qué sentido es cierto? ¿En número de átomos, en masa, en el Sol, en la Tierra?
+💡 **Contexto en la clase [B06-C02](../programa/clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md):**
+- **Idea central (modelo mental):** Piensa en un edificio de cuartos que se ocupan de abajo hacia arriba: cada «piso» (capa) tiene un número limitado de lugares para electrones. Cuando un piso se llena, el siguiente electrón tiene que ir al piso siguiente, más lejos del núcleo. Cada vez que empieza un piso nuevo, empieza un periodo nuevo.
+- 🎯 **Por qué importa:** Cuando alguien dice «el universo es casi todo hidrógeno y helio», ¿en qué sentido es cierto? ¿En número de átomos, en masa, en el Sol, en la Tierra?
+- 🔗 **Se estudia junto con:** tabla periódica, fila, periodo, columna.
 
 📘 **Dónde se aprende** (1 clase): [B06-C02 · Tabla periódica y abundancias cósmicas](../programa/clases/B06/B06-C02-tabla-periodica-y-abundancias-cosmicas/CLASE.md).
 
@@ -21,6 +24,7 @@
 - La página consultada no da radiantes ni ZHR, y tiene una incoherencia interna en el período de las Alfa Capricórnidas, por lo que su detalle no se reproduce aquí.
 - De la definición de ZHR (S3) se deduce, bajo supuestos declarados, que `ZHR = N · r^(6,5 − lm) / (T · sen h · (1 − c))`, donde `N` es el número de meteoros de la lluvia en `T` horas, `lm` la magnitud límite, `r` el índice de población (aquí 2,5, valor de ejemplo), `h` la altura del radiante y `c` la fracción de cielo cubierta por nubes.
 - 🎯 **Por qué importa:** Cada año, titulares prometen «cientos de estrellas fugaces por hora». Con un cielo contaminado o con el radiante bajo el horizonte, verás muy pocas.
+- 🔗 **Se estudia junto con:** meteoroide, meteoro, meteorito, lluvia de meteoros.
 
 📘 **Dónde se aprende** (2 clases): [B08-C18 · Introducción a meteoros y lluvias](../programa/clases/B08/B08-C18-introduccion-a-meteoros-y-lluvias/CLASE.md); [B129-C03 · Seguimiento ciudadano de meteoros](../programa/clases/B129/B129-C03-seguimiento-ciudadano-de-meteoros/CLASE.md).
 
@@ -32,6 +36,7 @@
 - El *Zij-i Ilkhani*, escrito primero en persa y luego traducido al árabe, se basó en unos 12 años de observaciones y contiene tablas para calcular posiciones planetarias y un catálogo de estrellas (S5).
 - T["Texto de método: zij,<br/>calendarios"] --> W["Uso actual:<br/>historia de modelos"]
 - 🎯 **Por qué importa:** Contar la historia de la astronomía como una línea recta de Grecia a Europa deja fuera lo que otras sociedades observaron, calcularon y construyeron. La pregunta motivadora es: ¿qué sabemos con precisión de estas tradiciones, qué falta y cómo evitar contar la historia desde un solo lado?
+- 🔗 **Se estudia junto con:** estrella visitante, instrumento, gnomon, cuadrante.
 
 📘 **Dónde se aprende** (1 clase): [B02-C04 · Astronomía de India, China y mundo islámico](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md).
 
@@ -44,6 +49,7 @@
 - En el laboratorio (100 parches de `11×11`, ruido de 4 niveles): a contraste 40 y sin cambio ambos aciertan 100 %; con `g = 1,5` y `b = 25` la SSD baja a 80 % y a 4 % con contraste 10, mientras la ZNCC mantiene 100 %.
 - ⚠️ **Error frecuente:** Confiar en ZNCC cuando el contraste es menor que el ruido. A contraste 1 el acierto cae a 55 % (8.4).
 - 🎯 **Por qué importa:** Un estimador que funciona en el laboratorio puede fallar sin avisar cuando el entorno empeora. La decisión central: ¿qué estimador usar, cómo detectar que el entorno no determina el movimiento y cuándo dejar de confiar en el mapa?
+- 🔗 **Se estudia junto con:** Atípico, Huber / IRLS, RANSAC, Degeneración.
 
 📘 **Dónde se aprende** (1 clase): [B99-C07 · Robustez del mapeo ante entornos degradados](../programa/clases/B99/B99-C07-robustez-del-mapeo-ante-entornos-degradados/CLASE.md).
 
@@ -55,6 +61,7 @@
 - Z["Zonas<br/>y áreas"] --> C["Matriz de<br/>flujos"]
 - *Descripción textual:* las zonas y sus flujos definen un coste; una cuadrícula fija las posiciones posibles; la enumeración de todas las permutaciones da el mejor trazado, que se compara con los trazados al azar.
 - 🎯 **Por qué importa:** Un buen plano ahorra pasos, separa lo sucio de lo limpio y deja las zonas tranquilas lejos de las ruidosas. La decisión central: ¿dónde pongo cada zona para que los recorridos frecuentes sean cortos y las zonas incompatibles estén lejos?
+- 🔗 **Se estudia junto con:** flujo, adyacencia, incompatibilidad, coste de trazado.
 
 📘 **Dónde se aprende** (1 clase): [B109-C02 · Zonificación y distribución funcional de módulos de un hábitat](../programa/clases/B109/B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md).
 
@@ -66,6 +73,7 @@
 - Con un máximo de `1°/s` en acimut, la zona ciega del cenit tiene radio `0,207°`.
 - Estimar el radio de la zona ciega del cenit.
 - 🎯 **Por qué importa:** La altacimutal reemplaza un giro uniforme por dos giros variables y un ángulo de campo que cambia. La decisión central: ¿qué velocidades exigen los motores, cuánto rota el campo y qué región del cielo no se puede seguir?
+- 🔗 **Se estudia junto con:** vector horizontal, rotación de campo, ángulo paraláctico, derivada vectorial.
 
 📘 **Dónde se aprende** (1 clase): [B43-C13 · Montura altacimutal](../programa/clases/B43/B43-C13-montura-altacimutal/CLASE.md).
 
@@ -76,6 +84,7 @@
 💡 **Cómo se explica en la clase [B52-C05](../programa/clases/B52/B52-C05-crecimiento-de-embriones-planetarios/CLASE.md):**
 - Ejercicio 10 · transferencia. Transferencia. Transferencia. ¿Qué ocurre con `M_iso` si la zona de alimentación fuera de `5 R_H`?
 - 🎯 **Por qué importa:** El tiempo de crecimiento decide si un núcleo existe antes de que el gas se disipe. La decisión central: ¿cómo cambia la tasa de acreción con la masa y cuándo se detiene?
+- 🔗 **Se estudia junto con:** enfoque gravitacional, crecimiento descontrolado, masa de aislamiento.
 
 📘 **Dónde se aprende** (1 clase): [B52-C05 · Crecimiento de embriones planetarios](../programa/clases/B52/B52-C05-crecimiento-de-embriones-planetarios/CLASE.md).
 
@@ -87,6 +96,7 @@
 - Explicar qué es una zona de coordinación y por qué se calcula.
 - La evidencia es la ficha de zona de coordinación de una estación terrena sintética del ejercicio 12 (sección 20).
 - 🎯 **Por qué importa:** Coordinar con otros servicios define dónde y cómo se puede operar y ninguna clase lo trata. La decisión central: ¿con qué administraciones hay que coordinar una estación terrena y en cuánto tiempo deben responder?
+- 🔗 **Se estudia junto con:** distancia de coordinación, PIRE, pérdida de espacio libre, potencia permisible.
 
 📘 **Dónde se aprende** (1 clase): [B120-C02 · Zonas de coordinación entre servicios radioeléctricos](../programa/clases/B120/B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md).
 
@@ -98,6 +108,7 @@
 - El resumen consultado da dos zonas: salud (18–27 °C, 25–75 % de humedad relativa) y desempeño (20–25 °C, 30–60 %).
 - Clasificar un par temperatura-humedad como dentro o fuera de las zonas de salud y de desempeño del resumen consultado.
 - 🎯 **Por qué importa:** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
+- 🔗 **Se estudia junto con:** Consumo específico de oxígeno, Cociente respiratorio (RQ), Normoxia, Zona de salud.
 
 📘 **Dónde se aprende** (1 clase): [B106-C01 · Requisitos de habitabilidad](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md).
 
@@ -105,7 +116,9 @@
 
 - La zona de dispersión es el área de caída posible.
 
-🎯 **Por qué importa (clase B118-C14):** El riesgo en superficie se controla antes de lanzar: limitando los fragmentos que sobreviven o confinando la reentrada a zonas despobladas. La decisión central: ¿cuánta área de víctima se puede aceptar para respetar 10⁻⁴ y cómo influye dónde cae?
+💡 **Contexto en la clase [B118-C14](../programa/clases/B118/B118-C14-reentrada-y-riesgos-en-superficie/CLASE.md):**
+- 🎯 **Por qué importa:** El riesgo en superficie se controla antes de lanzar: limitando los fragmentos que sobreviven o confinando la reentrada a zonas despobladas. La decisión central: ¿cuánta área de víctima se puede aceptar para respetar 10⁻⁴ y cómo influye dónde cae?
+- 🔗 **Se estudia junto con:** área de víctima, número esperado de víctimas, densidad expuesta, supervivencia.
 
 📘 **Dónde se aprende** (1 clase): [B118-C14 · Reentrada y riesgos en superficie](../programa/clases/B118/B118-C14-reentrada-y-riesgos-en-superficie/CLASE.md).
 
@@ -118,6 +131,7 @@
 - Relacionar la zona de exclusión con la responsabilidad del Estado (arts. consultados).
 - La evidencia es la ficha de zona de exclusión sintética del ejercicio 12 (sección 20).
 - 🎯 **Por qué importa:** B77-C19 solo ve seguridad de rango de forma conceptual; esta clase cuantifica el razonamiento y lo liga a la responsabilidad del Estado por actividades privadas (art. VI) y al régimen de daños (C03).
+- 🔗 **Se estudia junto con:** alcance, esperanza de bajas, área expuesta, densidad.
 
 📘 **Dónde se aprende** (2 clases): [B119-C22 · Seguridad de instalaciones y operaciones de sitio de lanzamiento](../programa/clases/B119/B119-C22-seguridad-de-instalaciones-y-operaciones-de-sitio-de-lanzamiento/CLASE.md); [B119-C28 · Normas de comportamiento responsable en el espacio](../programa/clases/B119/B119-C28-normas-de-comportamiento-responsable-en-el-espacio/CLASE.md).
 
@@ -129,6 +143,7 @@
 💡 **Cómo se explica en la clase [B77-C19](../programa/clases/B77/B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md):**
 - Definir las víctimas esperadas `E_c` como una integral sobre la zona de impactos.
 - 🎯 **Por qué importa:** Mover el sitio de impacto un par de decenas de kilómetros cambia el riesgo en un factor de varios. La decisión central: ¿cómo se calculan las víctimas esperadas y cuánto depende de dónde cae lo que cae?
+- 🔗 **Se estudia junto con:** víctimas esperadas, riesgo individual, área de víctima, cuadratura.
 
 📘 **Dónde se aprende** (2 clases): [B77-C19 · Seguridad de rango a nivel conceptual](../programa/clases/B77/B77-C19-seguridad-de-rango-a-nivel-conceptual/CLASE.md); [B121-C01 · Licencias y requisitos nacionales para el lanzamiento](../programa/clases/B121/B121-C01-licencias-y-requisitos-nacionales-para-el-lanzamiento/CLASE.md).
 
@@ -140,6 +155,7 @@
 - El resumen consultado da dos zonas: salud (18–27 °C, 25–75 % de humedad relativa) y desempeño (20–25 °C, 30–60 %).
 - Clasificar un par temperatura-humedad como dentro o fuera de las zonas de salud y de desempeño del resumen consultado.
 - 🎯 **Por qué importa:** Un hábitat se diseña de adentro hacia afuera: primero lo que consume y emite la tripulación, después la máquina que lo repone. Si el balance humano está mal, todo el ECLSS queda mal dimensionado.
+- 🔗 **Se estudia junto con:** Consumo específico de oxígeno, Cociente respiratorio (RQ), Normoxia, zona de desempeño.
 
 📘 **Dónde se aprende** (1 clase): [B106-C01 · Requisitos de habitabilidad](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md).
 
@@ -151,6 +167,7 @@
 - Z["Zonas de seguridad"] --> F["Fracción ocupada"]
 - *Descripción textual:* el patrimonio común excluye la apropiación y prevé un régimen de reparto; las zonas de seguridad miden cuánto se ocupa y el peso `a` modela la equidad.
 - 🎯 **Por qué importa:** La clase C01 establece la no apropiación; este acuerdo la aplica a los recursos y es la base de los debates de C25 y C36. La decisión central: ¿cómo se compara lo que ocupan las instalaciones con la superficie total y qué regla de reparto da un resultado más equitativo?
+- 🔗 **Se estudia junto con:** patrimonio común de la humanidad, régimen internacional, peso de igualdad.
 
 📘 **Dónde se aprende** (1 clase): [B119-C05 · Acuerdo sobre la Luna y alcance](../programa/clases/B119/B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md).
 
@@ -164,6 +181,7 @@
 💡 **Cómo se explica en la clase [B29-C13](../programa/clases/B29/B29-C13-zonas-de-habitabilidad/CLASE.md):**
 - Una `T_eq` entre `273` y `373 K` no define la zona habitable porque ignora el invernadero y el ciclo del carbono: en el Sol da `0,47–0,87 au`, bastante más cerca de lo que dan los modelos climáticos.
 - 🎯 **Por qué importa:** La temperatura de equilibrio es la primera estimación de si un mundo es cálido o helado, pero no es la temperatura de la superficie: depende del albedo y del efecto invernadero. La decisión central: ¿a qué distancias una estrella da una temperatura de equilibrio dada y cuánto cambia con el albedo?
+- 🔗 **Se estudia junto con:** temperatura de equilibrio, albedo, flujo, efecto invernadero.
 
 📖 **Explicado a fondo:** [Habitabilidad y zona habitable](esencial/esencial-d-l.md#habitabilidad-y-zona-habitable) (intuición, fórmula, ejemplo numérico y errores frecuentes).
 
@@ -176,6 +194,7 @@
 💡 **Cómo se explica en la clase [B47-C08](../programa/clases/B47/B47-C08-espectrometros-de-masas-orbitales/CLASE.md):**
 - Límite: campo uniforme, zona libre de campo.
 - 🎯 **Por qué importa:** La resolución de masa decide qué especies se separan. La decisión central: ¿qué tiempo de vuelo, qué dispersión y qué resolución permiten distinguir dos iones casi isobáricos?
+- 🔗 **Se estudia junto con:** tiempo de vuelo, resolución de masa, dispersión de energía inicial, anchura del pulso.
 
 📘 **Dónde se aprende** (1 clase): [B47-C08 · Espectrómetros de masas orbitales](../programa/clases/B47/B47-C08-espectrometros-de-masas-orbitales/CLASE.md).
 
@@ -188,6 +207,7 @@
 - *Descripción textual:* el controlador envía un par que pasa por retardo, saturación y zona muerta antes de llegar a la planta; la salida se mide en sobreimpulso, establecimiento y error final.
 - ⚠️ **Error frecuente:** Llamar «juego» a la zona muerta. Es una simplificación (ver los límites)
 - 🎯 **Por qué importa:** Un controlador que funciona en simulación con un actuador ideal puede oscilar o no llegar al objetivo con uno real. Conocer qué efecto causa cada fenómeno evita sorpresas al integrar el control con el hardware.
+- 🔗 **Se estudia junto con:** saturación, retardo, sobreimpulso, tiempo de establecimiento al 2 %.
 
 📘 **Dónde se aprende** (1 clase): [B97-C24 · Modelos de actuadores virtuales e integración en simulación](../programa/clases/B97/B97-C24-modelos-de-actuadores-virtuales-e-integracion-en-simulacion/CLASE.md).
 
@@ -195,7 +215,9 @@
 
 - Falla latente: daño que no se manifiesta hasta después. Zona protegida contra ESD: área con control de carga (superficies disipativas, puesta a tierra, ropa).
 
-🎯 **Por qué importa (clase B90-C03):** Un componente electrónico puede quedar con una falla latente tras una descarga que nadie sintió: una persona percibe una chispa solo por encima de unos miles de voltios (orden de magnitud no consultado), por encima de lo que puede dañar a un componente sensible.
+💡 **Contexto en la clase [B90-C03](../programa/clases/B90/B90-C03-proteccion-frente-a-esd/CLASE.md):**
+- 🎯 **Por qué importa:** Un componente electrónico puede quedar con una falla latente tras una descarga que nadie sintió: una persona percibe una chispa solo por encima de unos miles de voltios (orden de magnitud no consultado), por encima de lo que puede dañar a un componente sensible.
+- 🔗 **Se estudia junto con:** ESD, Modelo de cuerpo humano, Carga triboeléctrica, Resistencia de fuga.
 
 📘 **Dónde se aprende** (1 clase): [B90-C03 · Protección frente a ESD](../programa/clases/B90/B90-C03-proteccion-frente-a-esd/CLASE.md).
 
@@ -203,6 +225,9 @@
 
 - Las zonas de sombra permanente son regiones polares que no reciben luz solar directa;
 
-🎯 **Por qué importa (clase B59-C02):** Un recurso no se planifica con un valor central sino con un rango. La decisión central: ¿cuánto regolito hay que procesar si la abundancia es 2,7 % en vez de 5,6 %?
+💡 **Contexto en la clase [B59-C02](../programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md):**
+- **Idea central (modelo mental):** Como estimar cuánta harina cae de una nube que solo ves de lejos: la báscula mide lo que cae en un plato, y el resto es extrapolación. Límite: aquí no hay un plato; el agua se infiere por su luz.
+- 🎯 **Por qué importa:** Un recurso no se planifica con un valor central sino con un rango. La decisión central: ¿cuánto regolito hay que procesar si la abundancia es 2,7 % en vez de 5,6 %?
+- 🔗 **Se estudia junto con:** abundancia, masa proyectada, propagación de primer orden, cola larga.
 
 📘 **Dónde se aprende** (1 clase): [B59-C02 · Prospección de hielo lunar](../programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md).
