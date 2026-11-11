@@ -1,7 +1,7 @@
 # B127-C08 — Simulación de cobertura de seguros para una misión
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [← Anterior: B127-C07 — Reaseguro espacial](../B127-C07-reaseguro-espacial/CLASE.md) · [Siguiente: B128-C01 — Accesibilidad de la observación nocturna →](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md#b128-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [← Anterior: B127-C07 — Reaseguro espacial](../B127-C07-reaseguro-espacial/CLASE.md) · [Siguiente: B128-C01 — Accesibilidad de la observación nocturna →](../../B128/B128-C01-accesibilidad-de-la-observacion-nocturna/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -307,5 +307,5 @@ En una misión sintética, la estrategia sin seguro cuesta `24,69 MUSD` en prome
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B127-C07 — Reaseguro espacial](../B127-C07-reaseguro-espacial/CLASE.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [Siguiente: B128-C01 — Accesibilidad de la observación nocturna →](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md#b128-c01)
+[← Anterior: B127-C07 — Reaseguro espacial](../B127-C07-reaseguro-espacial/CLASE.md) · [📚 Bloque B127](../../../tronco-comun/B127-seguros-espaciales.md) · [Siguiente: B128-C01 — Accesibilidad de la observación nocturna →](../../B128/B128-C01-accesibilidad-de-la-observacion-nocturna/CLASE.md)
 <!-- /nav -->

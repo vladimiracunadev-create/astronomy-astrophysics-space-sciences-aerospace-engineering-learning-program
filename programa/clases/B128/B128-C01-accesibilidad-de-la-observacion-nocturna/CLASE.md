@@ -1,7 +1,7 @@
 # B128-C01 — Accesibilidad de la observación nocturna
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [← Anterior: B127-C08 — Simulación de cobertura de seguros para una misión](../../../tronco-comun/B127-seguros-espaciales.md#b127-c08) · [Siguiente: B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía →](../B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [← Anterior: B127-C08 — Simulación de cobertura de seguros para una misión](../../B127/B127-C08-simulacion-de-cobertura-de-seguros-para-una-mision/CLASE.md) · [Siguiente: B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía →](../B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -308,5 +308,5 @@ Con la montura a `0,90 m` la persona sentada alcanza de 15,0° a 18,6°; con `0,
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B127-C08 — Simulación de cobertura de seguros para una misión](../../../tronco-comun/B127-seguros-espaciales.md#b127-c08) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [Siguiente: B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía →](../B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md)
+[← Anterior: B127-C08 — Simulación de cobertura de seguros para una misión](../../B127/B127-C08-simulacion-de-cobertura-de-seguros-para-una-mision/CLASE.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [Siguiente: B128-C02 — Diseño universal de aprendizaje aplicado a la astronomía →](../B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md)
 <!-- /nav -->
