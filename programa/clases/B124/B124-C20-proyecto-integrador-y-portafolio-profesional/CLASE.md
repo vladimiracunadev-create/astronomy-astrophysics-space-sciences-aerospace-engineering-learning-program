@@ -1,7 +1,7 @@
 # B124-C20 — Proyecto integrador y portafolio profesional
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B124-C19 — Redacción de propuesta de misión](../B124-C19-redaccion-de-propuesta-de-mision/CLASE.md) · [Siguiente: B124-C21 — Acuerdos de nivel de servicio para productos de datos →](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c21)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [← Anterior: B124-C19 — Redacción de propuesta de misión](../B124-C19-redaccion-de-propuesta-de-mision/CLASE.md) · [Siguiente: B124-C21 — Acuerdos de nivel de servicio para productos de datos →](../B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -290,5 +290,5 @@ El mayor puntaje sintético (`100`) queda «no logrado» por una condición crí
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B124-C19 — Redacción de propuesta de misión](../B124-C19-redaccion-de-propuesta-de-mision/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B124-C21 — Acuerdos de nivel de servicio para productos de datos →](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md#b124-c21)
+[← Anterior: B124-C19 — Redacción de propuesta de misión](../B124-C19-redaccion-de-propuesta-de-mision/CLASE.md) · [📚 Bloque B124](../../../tronco-comun/B124-industria-economia-etica-y-proyectos-espaciales.md) · [Siguiente: B124-C21 — Acuerdos de nivel de servicio para productos de datos →](../B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md)
 <!-- /nav -->
