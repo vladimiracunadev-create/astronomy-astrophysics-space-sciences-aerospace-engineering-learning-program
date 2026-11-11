@@ -1,7 +1,7 @@
 # B109-C12 — Evaluación de factores humanos de maquetas y distribuciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio](../B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md) · [Siguiente: B110-C01 — Despresurización: detección, aislamiento y respuesta →](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md#b110-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [← Anterior: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio](../B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md) · [Siguiente: B110-C01 — Despresurización: detección, aislamiento y respuesta →](../../B110/B110-C01-despresurizacion-deteccion-aislamiento-y-respuesta/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,5 +289,5 @@ Con doce evaluadores simulados, la maqueta B puntúa `75,5` frente a `58,3` (dif
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio](../B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B110-C01 — Despresurización: detección, aislamiento y respuesta →](../../../tronco-comun/B110-emergencias-y-seguridad-de-tripulacion.md#b110-c01)
+[← Anterior: B109-C11 — Diseño de espacios de trabajo, mantenimiento y laboratorio](../B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md) · [📚 Bloque B109](../../../tronco-comun/B109-arquitectura-y-factores-humanos-de-habitats-extraterrestres.md) · [Siguiente: B110-C01 — Despresurización: detección, aislamiento y respuesta →](../../B110/B110-C01-despresurizacion-deteccion-aislamiento-y-respuesta/CLASE.md)
 <!-- /nav -->
