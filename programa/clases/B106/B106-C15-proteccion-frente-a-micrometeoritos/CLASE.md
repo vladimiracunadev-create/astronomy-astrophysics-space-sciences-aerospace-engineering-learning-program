@@ -1,7 +1,7 @@
 # B106-C15 — Protección frente a micrometeoritos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C14 — Protección contra radiación](../B106-C14-proteccion-contra-radiacion/CLASE.md) · [Siguiente: B106-C16 — Ergonomía en microgravedad →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c16)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B106-C14 — Protección contra radiación](../B106-C14-proteccion-contra-radiacion/CLASE.md) · [Siguiente: B106-C16 — Ergonomía en microgravedad →](../B106-C16-ergonomia-en-microgravedad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -291,5 +291,5 @@ Los impactos se modelan con `P = exp(−N)`; en el modelo sintético una pared d
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B106-C14 — Protección contra radiación](../B106-C14-proteccion-contra-radiacion/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C16 — Ergonomía en microgravedad →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c16)
+[← Anterior: B106-C14 — Protección contra radiación](../B106-C14-proteccion-contra-radiacion/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C16 — Ergonomía en microgravedad →](../B106-C16-ergonomia-en-microgravedad/CLASE.md)
 <!-- /nav -->
