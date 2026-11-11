@@ -1,7 +1,7 @@
 # B116-C07 — Diseño de paneles de monitoreo de salud
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [← Anterior: B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md) · [Siguiente: B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial →](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md#b117-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [← Anterior: B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md) · [Siguiente: B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial →](../../B117/B117-C01-primeros-auxilios-y-procedimientos-basicos-en-entorno-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -342,5 +342,5 @@ Un panel de salud se diseña con reglas comprobables: contraste suficiente, esta
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [Siguiente: B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial →](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md#b117-c01)
+[← Anterior: B116-C06 — Dispositivos biomédicos portátiles (ultrasonido, diagnóstico)](../B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [Siguiente: B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial →](../../B117/B117-C01-primeros-auxilios-y-procedimientos-basicos-en-entorno-espacial/CLASE.md)
 <!-- /nav -->

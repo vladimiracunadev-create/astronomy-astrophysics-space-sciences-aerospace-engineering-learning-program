@@ -1,7 +1,7 @@
 # B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B116-C07 — Diseño de paneles de monitoreo de salud](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md#b116-c07) · [Siguiente: B117-C02 — Contención de riesgos biológicos y químicos en cabina →](../B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B116-C07 — Diseño de paneles de monitoreo de salud](../../B116/B116-C07-diseno-de-paneles-de-monitoreo-de-salud/CLASE.md) · [Siguiente: B117-C02 — Contención de riesgos biológicos y químicos en cabina →](../B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Un reanimador sintético mantiene el 80 % de su profundidad inicial `1,444 min` 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B116-C07 — Diseño de paneles de monitoreo de salud](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md#b116-c07) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B117-C02 — Contención de riesgos biológicos y químicos en cabina →](../B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md)
+[← Anterior: B116-C07 — Diseño de paneles de monitoreo de salud](../../B116/B116-C07-diseno-de-paneles-de-monitoreo-de-salud/CLASE.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B117-C02 — Contención de riesgos biológicos y químicos en cabina →](../B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md)
 <!-- /nav -->
