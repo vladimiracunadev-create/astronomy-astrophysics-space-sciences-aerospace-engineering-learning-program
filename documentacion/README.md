@@ -6,10 +6,14 @@ Esta carpeta contiene el contrato académico, editorial y técnico del **Program
 
 1. [Alcance y contrato del repositorio](ALCANCE_Y_CONTRATO_DEL_REPOSITORIO.md)
 2. [Estándar pedagógico, científico, de evidencia y evaluación](ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
+   - [Estándar para generar los contenidos](ESTANDAR_PARA_GENERAR_CONTENIDOS.md): las 22 funciones de una clase y cómo se escribió cada una
 3. [Plan de implementación y estados](PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md)
+   - [Resolución de contenidos por etapas](RESOLUCION_DE_CONTENIDOS_POR_ETAPAS.md): qué significan E0–E6 y qué falta para que una clase sea aceptada
    - [Plan de refinamiento curricular](PLAN_DE_REFINAMIENTO_CURRICULAR.md)
    - [Guía de redacción de clases](GUIA_DE_REDACCION_DE_CLASES.md)
    - [Estructura y conteo del catálogo](ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md)
+   - [Mapa del repositorio](MAPA_DEL_REPOSITORIO.md): qué hay en cada carpeta, qué se escribe y qué se genera
+   - [Mapa de áreas y bloques](MAPA_DE_AREAS_Y_BLOQUES.md): las 12 áreas con sus 133 bloques
    - [Recorridos por rol](GUIA_DE_RECORRIDOS_POR_ROL.md)
    - [Ampliación del tronco común](AMPLIACION_DEL_TRONCO_COMUN.md)
 4. [Matriz de cobertura temática](MATRIZ_DE_COBERTURA.md)

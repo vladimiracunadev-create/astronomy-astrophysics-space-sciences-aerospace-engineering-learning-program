@@ -2,7 +2,25 @@
 
 Todos los cambios relevantes de este programa se documentan aquí. Las referencias históricas se conservan; el estado actual se mantiene en `STATUS.md`.
 
-## [0.2.0] — 2026-11-05
+> **Tres versiones, tres cosas distintas.** La **publicación** (`VERSION`, etiqueta `vX.Y.Z` de GitHub) es lo que se descarga: PDF, aplicaciones y sitio. La **malla curricular** (`catalogo/v0.2.0/`) es la estructura de 12 áreas, 133 bloques y 2.077 clases. La **línea base del catálogo** (`catalogo/clases.*`, 5.120 registros) es el punto de partida histórico y no se edita.
+
+## [0.1.0] — 2026-11-11 · primera publicación
+
+### Añadido
+
+- Primera publicación: 37 PDF (general con anexos y glosarios, 12 por área y 24 por rol, con marcadores y numeración), aplicación sin conexión para Windows (ZIP portable) y Android (APK) con búsqueda, y `SHA256SUMS.txt`. Los archivos se adjuntan a la página de la versión, no al repositorio.
+- Sitio de documentación y de lectura en GitHub Pages: navegación por árbol, índice de cada página, búsqueda, tema claro/oscuro, página de inicio con descargas y progreso local, y aplicación web instalable.
+- `herramientas/publicacion/`: sitio, PDF por unidades y volúmenes, APK, lanzador de Windows y verificador de artefactos.
+- Documentos nuevos en `documentacion/`: estándar para generar los contenidos, resolución por etapas, mapa del repositorio y mapa de áreas y bloques (antes ocupaban el README).
+- 20 anexos históricos, pedagógicos y de cálculo (`anexos/`), glosarios (`glosario/`) y calculadora científica (`herramientas/calculadora_cientifica.py`).
+- `.github/workflows/pages.yml` genera y publica el sitio completo (2.077 páginas de clase) en cada cambio de `main`.
+
+### Cambiado
+
+- El README se reescribió: más corto y coherente con el estado actual (2.077 clases con texto en E0).
+
+
+## Malla curricular 0.2.0 — 2026-11-05
 
 ### Cambiado
 
@@ -13,10 +31,6 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 ### Añadido
 
-- Primera versión publicada (`v0.2.0`): 37 PDF (general con anexos y glosarios, 12 por área y 24 por rol, con marcadores y numeración), aplicación sin conexión para Windows (ZIP portable) y para Android (APK) con búsqueda, y `SHA256SUMS.txt`. Los archivos se adjuntan a la página de la versión, no al repositorio.
-- Página de inicio nueva en GitHub Pages (`index.html` generado): cifras, descargas de la última versión, tarjetas por área y bloque con progreso local, búsqueda, roles, anexos y glosarios, y aplicación web instalable (PWA). El explorador anterior se conserva en `/visor/`.
-- `herramientas/publicacion/`: sitio HTML sin conexión, PDF por unidades y volúmenes, APK y lanzador de Windows, verificador de artefactos y sección «Descargas y PDF» del README.
-- `.github/workflows/pages.yml` genera y publica el sitio completo (2.077 páginas de clase) en cada cambio de `main`.
 - `glosario/`: glosario alfabético generado de las clases (términos, siglas, símbolos y unidades, vocabulario por área) y `glosario/esencial/` con unas 145 entradas explicadas a fondo (intuición, fórmula, ejemplo numérico, error frecuente); generador `herramientas/generar_glosario.py`.
 - `anexos/`: once anexos históricos y pedagógicos (agencias, misiones, científicos, astronautas, satélites, telescopios, lanzadores, cronología, escalas y fórmulas, estudios de caso, perfiles) y `herramientas/calculadora_cientifica.py` con autoprueba.
 - 160 clases redactadas del área A01 (B01–B08), con fichas, ejercicios y laboratorios; pendientes de revisión disciplinar.
@@ -29,7 +43,7 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 - Todas las clases del programa siguen en E0 en el catálogo; clases redactadas y verificadas: 0.
 
-## [0.1.0] — 2026-11-05
+## Línea base del catálogo 0.1.0 — 2026-11-05
 
 ### Añadido
 

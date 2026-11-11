@@ -78,6 +78,8 @@ def registro_unidades():
         U["rutas-" + p.stem] = ([p], None)
     for p in sorted((ROOT / "anexos").glob("*.md")):
         U["anexos-" + p.stem] = ([p], None)
+    for p in sorted((ROOT / "documentacion").glob("*.md")):
+        U["doc-" + p.stem] = ([p], None)
     for p in sorted((ROOT / "glosario").rglob("*.md")):
         rel = p.relative_to(ROOT / "glosario").as_posix()
         if rel.startswith("por-area"):
@@ -275,6 +277,9 @@ def plan_volumenes():
     ent.append((1, "Anexos", None))
     for p in sorted((ROOT / "anexos").glob("*.md")):
         ent.append((2, titulo_de(p.read_text(encoding="utf-8"), p.stem), "anexos-" + p.stem))
+    ent.append((1, "Documentación del programa", None))
+    for p in sorted((ROOT / "documentacion").glob("*.md")):
+        ent.append((2, titulo_de(p.read_text(encoding="utf-8"), p.stem), "doc-" + p.stem))
     ent.append((1, "Glosarios", None))
     for p in sorted((ROOT / "glosario").rglob("*.md")):
         rel = p.relative_to(ROOT / "glosario").as_posix()
@@ -329,7 +334,7 @@ def portadas(vols, rutas, uso, areas, bloques):
     res = {}
     res["portada-general"] = html_portada(TITULO, "Programa general con anexos y glosarios",
                                           [f"Versión {VERSION} · {hoy}", "12 áreas · 133 bloques · 2.077 clases · 24 roles",
-                                           "Incluye: guías de roles y bloques, 20 anexos y glosarios (esencial y completo)",
+                                           "Incluye: guías de roles y bloques, 20 anexos, documentación y glosarios (esencial y completo)",
                                            "Las clases están en los volúmenes por área y por rol"])
     for a, ta in areas.items():
         bl = [f"{bid} · {b['titulo']} ({len(clases_de_bloque(bid))} clases)" for bid, b in bloques.items() if b["area"] == a]

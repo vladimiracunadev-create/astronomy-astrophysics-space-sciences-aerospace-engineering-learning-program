@@ -30,7 +30,7 @@ jobs:
       - name: Instalar dependencias del sitio
         run: python -m pip install markdown Pillow
 
-      - name: Generar sitio (inicio, áreas, roles, anexos, glosarios y búsqueda)
+      - name: Generar sitio de documentación (navegación, índice de página, búsqueda, roles, anexos y glosarios)
         run: python herramientas/publicacion/sitio.py
 
       - name: Comprobar que el sitio está completo
@@ -38,7 +38,8 @@ jobs:
         run: |
           set -euo pipefail
           for f in index.html buscar.html areas.html roles.html manifest.webmanifest service-worker.js \
-                   assets/landing.js assets/datos.js indice-busqueda.js visor/index.html \
+                   assets/landing.js assets/datos.js assets/docs.css assets/docs.js assets/nav.js indice-busqueda.js visor/index.html \
+                   README.html documentacion/README.html documentacion/MAPA_DEL_REPOSITORIO.html \
                    programa/clases/B71/B71-C18-maniobra-de-hohmann/CLASE.html \
                    anexos/README.html glosario/README.html glosario/esencial/README.html; do
             test -s "build/web/$f"

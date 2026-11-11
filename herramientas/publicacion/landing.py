@@ -234,6 +234,7 @@ def pagina_inicio(d: dict) -> str:
     <a class="btn btn-primary" href="#catalogo-sec">🚀 Explorar áreas y bloques</a>
     <a class="btn" href="#roles-sec">🧭 Roles profesionales</a>
     <a class="btn" href="buscar.html">🔎 Buscar</a>
+    <a class="btn" href="documentacion/README.html">📖 Documentación</a>
     <a class="btn" href="#sec-descargas" id="btn-desc">⬇️ Descargas y PDF</a>
     <a class="btn" href="{URL_REPO}" rel="noopener">⭐ Repositorio</a>
   </div>
@@ -273,7 +274,7 @@ def icono_svg() -> str:
 
 def service_worker(version: str) -> str:
     return f"""const CACHE = "programa-aeroespacial-v{version}";
-const BASE = ["./", "./index.html", "./assets/landing.css", "./assets/landing.js", "./assets/datos.js", "./assets/icon.svg", "./buscar.html", "./estilos.css"];
+const BASE = ["./", "./index.html", "./assets/landing.css", "./assets/landing.js", "./assets/datos.js", "./assets/icon.svg", "./assets/docs.css", "./assets/docs.js", "./assets/nav.js", "./buscar.html"];
 self.addEventListener("install", e => e.waitUntil(caches.open(CACHE).then(c => c.addAll(BASE))));
 self.addEventListener("activate", e => e.waitUntil(caches.keys().then(k => Promise.all(k.filter(x => x !== CACHE).map(x => caches.delete(x))))));
 self.addEventListener("fetch", e => {{

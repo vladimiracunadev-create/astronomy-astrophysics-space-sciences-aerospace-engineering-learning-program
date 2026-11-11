@@ -23,8 +23,8 @@ UNIDADES = BUILD / "pdf" / "unidades"
 DIST = BUILD / "dist"
 
 def _version() -> str:
-    m = re.search(r"^## \[(\d+\.\d+\.\d+)\]", (ROOT / "CHANGELOG.md").read_text(encoding="utf-8"), re.M)
-    return m.group(1) if m else "0.0.0"
+    """Versión de publicación (release): archivo VERSION de la raíz del repositorio."""
+    return (ROOT / "VERSION").read_text(encoding="utf-8").strip()
 
 
 VERSION = _version()
@@ -36,7 +36,8 @@ AVISO = ("Texto de estudio en nivel E0: redactado y pendiente de revisión disci
 RAICES_MD = ["programa", "rutas", "anexos", "glosario", "documentacion", "fuentes", "instrucciones"]
 ARCHIVOS_RAIZ = ["README.md", "PROGRAMA_ACADEMICO_COMPLETO.md", "STATUS.md", "ROADMAP.md", "SYLLABUS.md",
                  "CHANGELOG.md", "LICENSE-CONTENT.md", "CONTRIBUTING.md", "SECURITY.md", "SUPPORT.md",
-                 "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md", "DATA_LICENSES.md", "ASSET_LICENSES.md"]
+                 "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md", "DATA_LICENSES.md", "ASSET_LICENSES.md",
+                 "AGENTS.md", "FILE_INDEX.md", "LICENSING_AUDIT.md", "CODE_OF_CONDUCT.md"]
 EXT_ACTIVOS = {".py", ".png", ".csv", ".jpg", ".jpeg", ".svg", ".txt", ".json", ".yaml", ".toml"}
 
 
@@ -81,6 +82,7 @@ def archivos_md() -> list[Path]:
     for r in RAICES_MD:
         res += sorted((ROOT / r).rglob("*.md"))
     res += [p for p in sorted((ROOT / "catalogo").rglob("README.md"))]
+    res += [ROOT / "herramientas" / "publicacion" / "README.md"]
     return res
 
 
