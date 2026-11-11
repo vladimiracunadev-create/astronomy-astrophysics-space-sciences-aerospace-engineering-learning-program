@@ -1,7 +1,7 @@
 # B116-C01 — Sensores fisiológicos y wearables para vuelo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [← Anterior: B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md#b115-c07) · [Siguiente: B116-C02 — Signos vitales: medición, interpretación y límites →](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [← Anterior: B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats](../../B115/B115-C07-bioseguridad-e-inocuidad-alimentaria-en-habitats/CLASE.md) · [Siguiente: B116-C02 — Signos vitales: medición, interpretación y límites →](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -314,5 +314,5 @@ Un sensor óptico da una medida con un error que depende del movimiento: nulo en
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md#b115-c07) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [Siguiente: B116-C02 — Signos vitales: medición, interpretación y límites →](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md)
+[← Anterior: B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats](../../B115/B115-C07-bioseguridad-e-inocuidad-alimentaria-en-habitats/CLASE.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [Siguiente: B116-C02 — Signos vitales: medición, interpretación y límites →](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md)
 <!-- /nav -->

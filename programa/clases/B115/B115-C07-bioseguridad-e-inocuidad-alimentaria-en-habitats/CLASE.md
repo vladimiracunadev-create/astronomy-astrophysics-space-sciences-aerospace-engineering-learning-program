@@ -1,7 +1,7 @@
 # B115-C07 — Bioseguridad e inocuidad alimentaria en hábitats
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [← Anterior: B115-C06 — Balance de agua y evapotranspiración en cultivos](../B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md) · [Siguiente: B116-C01 — Sensores fisiológicos y wearables para vuelo →](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md#b116-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [← Anterior: B115-C06 — Balance de agua y evapotranspiración en cultivos](../B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md) · [Siguiente: B116-C01 — Sensores fisiológicos y wearables para vuelo →](../../B116/B116-C01-sensores-fisiologicos-y-wearables-para-vuelo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -331,5 +331,5 @@ Con 0,1 L/min de desinfección, un circuito de 40 L se limpia solo hasta unos 23
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B115-C06 — Balance de agua y evapotranspiración en cultivos](../B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [Siguiente: B116-C01 — Sensores fisiológicos y wearables para vuelo →](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md#b116-c01)
+[← Anterior: B115-C06 — Balance de agua y evapotranspiración en cultivos](../B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md) · [📚 Bloque B115](../../../tronco-comun/B115-sistemas-bioregenerativos-y-cultivo-en-habitats.md) · [Siguiente: B116-C01 — Sensores fisiológicos y wearables para vuelo →](../../B116/B116-C01-sensores-fisiologicos-y-wearables-para-vuelo/CLASE.md)
 <!-- /nav -->
