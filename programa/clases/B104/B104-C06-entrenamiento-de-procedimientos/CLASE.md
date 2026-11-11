@@ -1,7 +1,7 @@
 # B104-C06 — Entrenamiento de procedimientos
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C05 — Sistemas de vehículos tripulados](../B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md) · [Siguiente: B104-C07 — Factores de liderazgo →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [← Anterior: B104-C05 — Sistemas de vehículos tripulados](../B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md) · [Siguiente: B104-C07 — Factores de liderazgo →](../B104-C07-factores-de-liderazgo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ Con una ley potencial de exponente 0,3 hacen falta unas 10 repeticiones para red
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B104-C05 — Sistemas de vehículos tripulados](../B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B104-C07 — Factores de liderazgo →](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md#b104-c07)
+[← Anterior: B104-C05 — Sistemas de vehículos tripulados](../B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md) · [📚 Bloque B104](../../../tronco-comun/B104-astronautica-y-preparacion-de-astronautas.md) · [Siguiente: B104-C07 — Factores de liderazgo →](../B104-C07-factores-de-liderazgo/CLASE.md)
 <!-- /nav -->
