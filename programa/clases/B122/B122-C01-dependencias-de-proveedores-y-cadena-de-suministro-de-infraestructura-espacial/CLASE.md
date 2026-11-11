@@ -1,7 +1,7 @@
 # B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [← Anterior: B121-C05 — Cumplimiento regulatorio en varias jurisdicciones](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md#b121-c05) · [Siguiente: B122-C02 — Continuidad de servicio: impacto y objetivos de recuperación →](../B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [← Anterior: B121-C05 — Cumplimiento regulatorio en varias jurisdicciones](../../B121/B121-C05-cumplimiento-regulatorio-en-varias-jurisdicciones/CLASE.md) · [Siguiente: B122-C02 — Continuidad de servicio: impacto y objetivos de recuperación →](../B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -296,5 +296,5 @@ En la cadena sintética, el HHI va de 3400 a 10 000 y la caída de P1 o P2 afect
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B121-C05 — Cumplimiento regulatorio en varias jurisdicciones](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md#b121-c05) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [Siguiente: B122-C02 — Continuidad de servicio: impacto y objetivos de recuperación →](../B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md)
+[← Anterior: B121-C05 — Cumplimiento regulatorio en varias jurisdicciones](../../B121/B121-C05-cumplimiento-regulatorio-en-varias-jurisdicciones/CLASE.md) · [📚 Bloque B122](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md) · [Siguiente: B122-C02 — Continuidad de servicio: impacto y objetivos de recuperación →](../B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md)
 <!-- /nav -->

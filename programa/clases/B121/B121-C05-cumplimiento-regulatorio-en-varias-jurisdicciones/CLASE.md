@@ -1,7 +1,7 @@
 # B121-C05 — Cumplimiento regulatorio en varias jurisdicciones
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [← Anterior: B121-C04 — Marco legal espacial en Chile](../B121-C04-marco-legal-espacial-en-chile/CLASE.md) · [Siguiente: B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial →](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md#b122-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [← Anterior: B121-C04 — Marco legal espacial en Chile](../B121-C04-marco-legal-espacial-en-chile/CLASE.md) · [Siguiente: B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial →](../../B122/B122-C01-dependencias-de-proveedores-y-cadena-de-suministro-de-infraestructura-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -293,5 +293,5 @@ Con tres regímenes, la envolvente fija un plazo de `5 a` y una probabilidad de 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B121-C04 — Marco legal espacial en Chile](../B121-C04-marco-legal-espacial-en-chile/CLASE.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [Siguiente: B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial →](../../../tronco-comun/B122-resiliencia-y-continuidad-de-infraestructura-espacial.md#b122-c01)
+[← Anterior: B121-C04 — Marco legal espacial en Chile](../B121-C04-marco-legal-espacial-en-chile/CLASE.md) · [📚 Bloque B121](../../../tronco-comun/B121-regulacion-nacional-de-actividades-espaciales.md) · [Siguiente: B122-C01 — Dependencias de proveedores y cadena de suministro de infraestructura espacial →](../../B122/B122-C01-dependencias-de-proveedores-y-cadena-de-suministro-de-infraestructura-espacial/CLASE.md)
 <!-- /nav -->
