@@ -1,7 +1,7 @@
 # B119-C06 — Organismos UNOOSA y COPUOS
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C05 — Acuerdo sobre la Luna y alcance](../B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md) · [Siguiente: B119-C07 — Registro nacional de objetos →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c07)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C05 — Acuerdo sobre la Luna y alcance](../B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md) · [Siguiente: B119-C07 — Registro nacional de objetos →](../B119-C07-registro-nacional-de-objetos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -281,5 +281,5 @@ Con la misma `p`, pasar de 18 a 100 miembros lleva el bloqueo de `0.3049` a `0.8
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C05 — Acuerdo sobre la Luna y alcance](../B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C07 — Registro nacional de objetos →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c07)
+[← Anterior: B119-C05 — Acuerdo sobre la Luna y alcance](../B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C07 — Registro nacional de objetos →](../B119-C07-registro-nacional-de-objetos/CLASE.md)
 <!-- /nav -->
