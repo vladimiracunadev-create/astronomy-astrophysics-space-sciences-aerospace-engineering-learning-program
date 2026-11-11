@@ -1,7 +1,7 @@
 # B128-C11 — Auditoría de accesibilidad de un recurso educativo
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [← Anterior: B128-C10 — Acceso con baja conectividad](../B128-C10-acceso-con-baja-conectividad/CLASE.md) · [Siguiente: B129-C01 — Redes de observadores aficionados →](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md#b129-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [← Anterior: B128-C10 — Acceso con baja conectividad](../B128-C10-acceso-con-baja-conectividad/CLASE.md) · [Siguiente: B129-C01 — Redes de observadores aficionados →](../../B129/B129-C01-redes-de-observadores-aficionados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ Ocho criterios evaluados dan 50,0 %, tres críticos bloquean el veredicto y un c
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B128-C10 — Acceso con baja conectividad](../B128-C10-acceso-con-baja-conectividad/CLASE.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [Siguiente: B129-C01 — Redes de observadores aficionados →](../../../tronco-comun/B129-ciencia-ciudadana-astronomica.md#b129-c01)
+[← Anterior: B128-C10 — Acceso con baja conectividad](../B128-C10-acceso-con-baja-conectividad/CLASE.md) · [📚 Bloque B128](../../../tronco-comun/B128-accesibilidad-e-inclusion-en-la-ensenanza-de-la-astronomia.md) · [Siguiente: B129-C01 — Redes de observadores aficionados →](../../B129/B129-C01-redes-de-observadores-aficionados/CLASE.md)
 <!-- /nav -->
