@@ -1,7 +1,7 @@
 # B116-C03 — Historia clínica remota y registros médicos de misión
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [← Anterior: B116-C02 — Signos vitales: medición, interpretación y límites](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md) · [Siguiente: B116-C04 — Triage asistido por decisión →](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md#b116-c04)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [← Anterior: B116-C02 — Signos vitales: medición, interpretación y límites](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md) · [Siguiente: B116-C04 — Triage asistido por decisión →](../B116-C04-triage-asistido-por-decision/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -321,5 +321,5 @@ El registro clínico de misión es un conjunto de observaciones estructuradas qu
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B116-C02 — Signos vitales: medición, interpretación y límites](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [Siguiente: B116-C04 — Triage asistido por decisión →](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md#b116-c04)
+[← Anterior: B116-C02 — Signos vitales: medición, interpretación y límites](../B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md) · [📚 Bloque B116](../../../tronco-comun/B116-telemedicina-y-monitorizacion-de-salud-en-mision.md) · [Siguiente: B116-C04 — Triage asistido por decisión →](../B116-C04-triage-asistido-por-decision/CLASE.md)
 <!-- /nav -->
