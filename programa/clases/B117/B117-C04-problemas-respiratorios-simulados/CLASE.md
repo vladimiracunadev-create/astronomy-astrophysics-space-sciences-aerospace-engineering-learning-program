@@ -1,6 +1,7 @@
 # B117-C04 — Problemas respiratorios simulados
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B117-C03 — Emergencia cardiovascular simulada](../B117-C03-emergencia-cardiovascular-simulada/CLASE.md) · [Siguiente: B117-C05 — Inventario y gestión del equipo médico a bordo →](../B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -299,4 +300,7 @@ Con la atmósfera nominal la `PAO₂` simulada es `100,1 mmHg`; una fuga sin rep
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B117-C03 — Emergencia cardiovascular simulada](../B117-C03-emergencia-cardiovascular-simulada/CLASE.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B117-C05 — Inventario y gestión del equipo médico a bordo →](../B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md)
 <!-- /nav -->

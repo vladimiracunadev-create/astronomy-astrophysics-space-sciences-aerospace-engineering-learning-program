@@ -1,6 +1,7 @@
 # B117-C02 — Contención de riesgos biológicos y químicos en cabina
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial](../B117-C01-primeros-auxilios-y-procedimientos-basicos-en-entorno-espacial/CLASE.md) · [Siguiente: B117-C03 — Emergencia cardiovascular simulada →](../B117-C03-emergencia-cardiovascular-simulada/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -289,4 +290,7 @@ Un derrame de 5 g produce `102,6 ppm` en un módulo de 70 m³ y `8,9 ppm` si se 
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B117-C01 — Primeros auxilios y procedimientos básicos en entorno espacial](../B117-C01-primeros-auxilios-y-procedimientos-basicos-en-entorno-espacial/CLASE.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B117-C03 — Emergencia cardiovascular simulada →](../B117-C03-emergencia-cardiovascular-simulada/CLASE.md)
 <!-- /nav -->

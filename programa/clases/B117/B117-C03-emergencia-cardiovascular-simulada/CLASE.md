@@ -1,6 +1,7 @@
 # B117-C03 — Emergencia cardiovascular simulada
 
 <!-- nav:top -->
+[🏠 Programa](../../../../README.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [← Anterior: B117-C02 — Contención de riesgos biológicos y químicos en cabina](../B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md) · [Siguiente: B117-C04 — Problemas respiratorios simulados →](../B117-C04-problemas-respiratorios-simulados/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -305,4 +306,7 @@ Una hemorragia simulada deja la presión media casi intacta y sube el índice de
 **Referencias:** ver sección 11.
 
 <!-- nav:bottom -->
+---
+
+[← Anterior: B117-C02 — Contención de riesgos biológicos y químicos en cabina](../B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md) · [📚 Bloque B117](../../../tronco-comun/B117-urgencias-medicas-y-atencion-clinica-en-mision.md) · [Siguiente: B117-C04 — Problemas respiratorios simulados →](../B117-C04-problemas-respiratorios-simulados/CLASE.md)
 <!-- /nav -->
