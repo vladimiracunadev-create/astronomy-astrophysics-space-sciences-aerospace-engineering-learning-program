@@ -1,7 +1,7 @@
 # B125-C06 — Plan empresarial de una empresa espacial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [← Anterior: B125-C05 — Control de exportaciones y transferencia de tecnología](../B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md) · [Siguiente: B126-C01 — Capital semilla y financiamiento inicial →](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md#b126-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [← Anterior: B125-C05 — Control de exportaciones y transferencia de tecnología](../B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md) · [Siguiente: B126-C01 — Capital semilla y financiamiento inicial →](../../B126/B126-C01-capital-semilla-y-financiamiento-inicial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -338,5 +338,5 @@ El plan sintético llega al equilibrio operativo en el trimestre 6 y a `185,6` M
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B125-C05 — Control de exportaciones y transferencia de tecnología](../B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [Siguiente: B126-C01 — Capital semilla y financiamiento inicial →](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md#b126-c01)
+[← Anterior: B125-C05 — Control de exportaciones y transferencia de tecnología](../B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md) · [📚 Bloque B125](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md) · [Siguiente: B126-C01 — Capital semilla y financiamiento inicial →](../../B126/B126-C01-capital-semilla-y-financiamiento-inicial/CLASE.md)
 <!-- /nav -->

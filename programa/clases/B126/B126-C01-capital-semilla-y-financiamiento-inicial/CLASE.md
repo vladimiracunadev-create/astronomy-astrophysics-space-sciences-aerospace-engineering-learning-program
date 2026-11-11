@@ -1,7 +1,7 @@
 # B126-C01 — Capital semilla y financiamiento inicial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [← Anterior: B125-C06 — Plan empresarial de una empresa espacial](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md#b125-c06) · [Siguiente: B126-C02 — Capital de riesgo en empresas espaciales →](../B126-C02-capital-de-riesgo-en-empresas-espaciales/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [← Anterior: B125-C06 — Plan empresarial de una empresa espacial](../../B125/B125-C06-plan-empresarial-de-una-empresa-espacial/CLASE.md) · [Siguiente: B126-C02 — Capital de riesgo en empresas espaciales →](../B126-C02-capital-de-riesgo-en-empresas-espaciales/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -300,5 +300,5 @@ Con un SAFE de 500 000 USD, tope de 5 M y descuento de 20 %, los fundadores qued
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B125-C06 — Plan empresarial de una empresa espacial](../../../tronco-comun/B125-creacion-y-operacion-de-empresas-espaciales.md#b125-c06) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [Siguiente: B126-C02 — Capital de riesgo en empresas espaciales →](../B126-C02-capital-de-riesgo-en-empresas-espaciales/CLASE.md)
+[← Anterior: B125-C06 — Plan empresarial de una empresa espacial](../../B125/B125-C06-plan-empresarial-de-una-empresa-espacial/CLASE.md) · [📚 Bloque B126](../../../tronco-comun/B126-financiamiento-de-proyectos-y-negocios-espaciales.md) · [Siguiente: B126-C02 — Capital de riesgo en empresas espaciales →](../B126-C02-capital-de-riesgo-en-empresas-espaciales/CLASE.md)
 <!-- /nav -->
