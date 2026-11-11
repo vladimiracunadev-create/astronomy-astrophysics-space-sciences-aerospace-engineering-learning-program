@@ -1,7 +1,7 @@
 # B106-C01 — Requisitos de habitabilidad
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B105-C27 — Instrumentos validados y psicometría en investigación](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c27) · [Siguiente: B106-C02 — Presurización de módulos →](../B106-C02-presurizacion-de-modulos/CLASE.md)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [← Anterior: B105-C27 — Instrumentos validados y psicometría en investigación](../../B105/B105-C27-instrumentos-validados-y-psicometria-en-investigacion/CLASE.md) · [Siguiente: B106-C02 — Presurización de módulos →](../B106-C02-presurizacion-de-modulos/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -297,5 +297,5 @@ El balance humano son pocos números: **0,771 kg de O₂**, **0,90 kg de CO₂**
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B105-C27 — Instrumentos validados y psicometría en investigación](../../../tronco-comun/B105-medicina-y-biologia-espacial.md#b105-c27) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C02 — Presurización de módulos →](../B106-C02-presurizacion-de-modulos/CLASE.md)
+[← Anterior: B105-C27 — Instrumentos validados y psicometría en investigación](../../B105/B105-C27-instrumentos-validados-y-psicometria-en-investigacion/CLASE.md) · [📚 Bloque B106](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md) · [Siguiente: B106-C02 — Presurización de módulos →](../B106-C02-presurizacion-de-modulos/CLASE.md)
 <!-- /nav -->

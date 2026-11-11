@@ -1,7 +1,7 @@
 # B105-C27 — Instrumentos validados y psicometría en investigación
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C26 — Medidas fisiológicas y biomarcadores en investigación espacial](../B105-C26-medidas-fisiologicas-y-biomarcadores-en-investigacion-espacial/CLASE.md) · [Siguiente: B106-C01 — Requisitos de habitabilidad →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c01)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [← Anterior: B105-C26 — Medidas fisiológicas y biomarcadores en investigación espacial](../B105-C26-medidas-fisiologicas-y-biomarcadores-en-investigacion-espacial/CLASE.md) · [Siguiente: B106-C01 — Requisitos de habitabilidad →](../../B106/B106-C01-requisitos-de-habitabilidad/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -306,5 +306,5 @@ Con 10 ítems (2 defectuosos), el alfa es 0,857; con los 8 buenos, 0,894; con 6 
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B105-C26 — Medidas fisiológicas y biomarcadores en investigación espacial](../B105-C26-medidas-fisiologicas-y-biomarcadores-en-investigacion-espacial/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B106-C01 — Requisitos de habitabilidad →](../../../tronco-comun/B106-habitats-espaciales-y-soporte-vital.md#b106-c01)
+[← Anterior: B105-C26 — Medidas fisiológicas y biomarcadores en investigación espacial](../B105-C26-medidas-fisiologicas-y-biomarcadores-en-investigacion-espacial/CLASE.md) · [📚 Bloque B105](../../../tronco-comun/B105-medicina-y-biologia-espacial.md) · [Siguiente: B106-C01 — Requisitos de habitabilidad →](../../B106/B106-C01-requisitos-de-habitabilidad/CLASE.md)
 <!-- /nav -->
