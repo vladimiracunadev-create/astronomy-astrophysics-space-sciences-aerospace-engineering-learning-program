@@ -1,7 +1,7 @@
 # B119-C30 — Atribución de incidentes y desinformación en el dominio espacial
 
 <!-- nav:top -->
-[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C29 — Escalada, desescalada y medidas de fomento de la confianza](../B119-C29-escalada-desescalada-y-medidas-de-fomento-de-la-confianza/CLASE.md) · [Siguiente: B119-C31 — Práctica estatal y costumbre internacional en el derecho espacial →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c31)
+[🏠 Programa](../../../../README.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [← Anterior: B119-C29 — Escalada, desescalada y medidas de fomento de la confianza](../B119-C29-escalada-desescalada-y-medidas-de-fomento-de-la-confianza/CLASE.md) · [Siguiente: B119-C31 — Práctica estatal y costumbre internacional en el derecho espacial →](../B119-C31-practica-estatal-y-costumbre-internacional-en-el-derecho-espacial/CLASE.md)
 <!-- /nav -->
 
 ## 1. Ubicación, nivel y alcance
@@ -286,5 +286,5 @@ Con la evidencia sintética ninguna hipótesis supera `0.8090` de confianza. Que
 <!-- nav:bottom -->
 ---
 
-[← Anterior: B119-C29 — Escalada, desescalada y medidas de fomento de la confianza](../B119-C29-escalada-desescalada-y-medidas-de-fomento-de-la-confianza/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C31 — Práctica estatal y costumbre internacional en el derecho espacial →](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md#b119-c31)
+[← Anterior: B119-C29 — Escalada, desescalada y medidas de fomento de la confianza](../B119-C29-escalada-desescalada-y-medidas-de-fomento-de-la-confianza/CLASE.md) · [📚 Bloque B119](../../../tronco-comun/B119-derecho-seguridad-y-geopolitica-espacial.md) · [Siguiente: B119-C31 — Práctica estatal y costumbre internacional en el derecho espacial →](../B119-C31-practica-estatal-y-costumbre-internacional-en-el-derecho-espacial/CLASE.md)
 <!-- /nav -->
