@@ -1,7 +1,7 @@
 {
   "nombre": "Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial",
   "repositorio": "astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "fecha_corte": "2026-10-31",
   "tipo": "programa_educativo",
   "idioma_principal": "es-CL",
@@ -23,7 +23,7 @@
   "licenciamiento_diferenciado": true,
   "politica_licencias": "documentacion/LICENCIAS_Y_PROCEDENCIA.md",
   "estructura_vigente": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "areas": 12,
     "bloques": 133,
     "clases": 2077,

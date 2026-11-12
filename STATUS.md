@@ -1,6 +1,6 @@
 # Estado verificable
 
-**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.1`
+**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.2`
 
 ## Resumen
 
@@ -28,7 +28,7 @@
 | Clases con texto redactado (A12, B128–B133) | 46 de 46 (todas antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (total) | 2.077 de 2.077 (1.280 de la línea base y 797 antes programadas); ninguna con revisión disciplinar | `programa/clases/` |
 | Talleres de misión | 10 de 10 redactados (T01 a T10), con laboratorio en Python, figuras SVG y diez capítulos cada uno; todos en E0, con datos de referencia pública marcados ⚠ para contrastar con la fuente | `talleres/`, `herramientas/validar_talleres.py` |
-| Publicación `v0.1.1` | 37 PDF verificados (12 áreas y 24 roles con todas sus clases), con los diagramas dibujados; APK de Android y ZIP portable de Windows; contenido en E0 | `herramientas/publicacion/verificar.py` |
+| Publicación `v0.1.2` | 47 PDF verificados (general, 12 áreas, 24 roles y 10 talleres), con los diagramas dibujados; APK de Android y ZIP portable de Windows; contenido en E0 | `herramientas/publicacion/verificar.py` |
 | Clases programadas (citadas y ubicadas) | 797: las 797 ya tienen texto | `catalogo/estructura/clases_programadas.jsonl` | `catalogo/estructura/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |

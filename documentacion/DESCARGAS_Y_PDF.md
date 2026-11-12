@@ -1,6 +1,6 @@
 # 📦 Descargas y PDF: lista completa
 
-Versión **0.1.1**. Todos los enlaces apuntan a la última versión publicada en [Releases](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) y no caducan. Cada versión adjunta `SHA256SUMS.txt`:
+Versión **0.1.2**. Todos los enlaces apuntan a la última versión publicada en [Releases](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) y no caducan. Cada versión adjunta `SHA256SUMS.txt`:
 
 ```bash
 sha256sum -c SHA256SUMS.txt
@@ -62,7 +62,7 @@ Guía del rol y las clases que usa, en orden.
 
 ## 🛠️ PDF por taller
 
-Cada taller de misión completo, con sus capítulos y figuras. **Disponibles a partir de la versión 0.1.2** (hasta entonces, léelos en el [sitio](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/talleres/README.html) o en [`talleres/`](../talleres/README.md)).
+Cada taller de misión completo, con sus capítulos y figuras.
 
 | Taller | PDF |
 |---|---|
@@ -81,8 +81,8 @@ Cada taller de misión completo, con sus capítulos y figuras. **Disponibles a p
 
 | Descarga | Archivo | Para qué |
 |---|---|---|
-| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.1_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
-| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.1_Android.apk` | Móvil y tableta (Android 7 o superior) |
+| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.2_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
+| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.2_Android.apk` | Móvil y tableta (Android 7 o superior) |
 
 > El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
 

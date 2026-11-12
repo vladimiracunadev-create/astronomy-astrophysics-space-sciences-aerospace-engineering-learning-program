@@ -4,7 +4,7 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 > La versión de la publicación está en el archivo `VERSION` y en la etiqueta `vX.Y.Z` de GitHub. La carpeta `catalogo/estructura/` conserva su nombre histórico: contiene la estructura vigente (12 áreas, 133 bloques, 2.077 clases).
 
-## [Sin publicar]
+## [0.1.2] — 2026-11-12 · talleres de misión
 
 ### Añadido
 

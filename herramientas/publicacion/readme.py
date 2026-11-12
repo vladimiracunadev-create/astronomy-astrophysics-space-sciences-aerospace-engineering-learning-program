@@ -83,7 +83,7 @@ def pagina_pdf() -> str:
         o.append(f"| {r['id']} · {r['nombre']} | [{r['pdf']}]({L(r['pdf'])}) |")
     tall = sorted((ROOT / "talleres").glob("T*/README.md"))
     if tall:
-        o += ["", "## 🛠️ PDF por taller", "", "Cada taller de misión completo, con sus capítulos y figuras. **Disponibles a partir de la versión 0.1.2** (hasta entonces, léelos en el [sitio](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/talleres/README.html) o en [`talleres/`](../talleres/README.md)).", "", "| Taller | PDF |", "|---|---|"]
+        o += ["", "## 🛠️ PDF por taller", "", "Cada taller de misión completo, con sus capítulos y figuras.", "", "| Taller | PDF |", "|---|---|"]
         for r in tall:
             nombre = f"Taller-{r.parent.name}.pdf"
             tit = titulo_de(r.read_text(encoding="utf-8"), r.parent.name)
