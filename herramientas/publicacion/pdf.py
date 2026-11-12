@@ -49,11 +49,29 @@ img{max-width:100%;height:auto}
 """
 
 
+def _imagenes_incrustadas(html_: str, base: Path) -> str:
+    """El PDF se imprime desde HTML en memoria: las imágenes relativas se incrustan como data URI."""
+    import base64
+    import mimetypes
+
+    def sub(m):
+        src = m.group(2)
+        if re.match(r"(https?:|data:)", src):
+            return m.group(0)
+        f = (base / src).resolve()
+        if not f.is_file():
+            return m.group(0)
+        mime = mimetypes.guess_type(f.name)[0] or "image/png"
+        return m.group(1) + "data:" + mime + ";base64," + base64.b64encode(f.read_bytes()).decode() + m.group(3)
+
+    return re.sub(r'(<img[^>]*?\ssrc=")([^"]+)(")', sub, html_)
+
+
 def html_unidad(rutas: list[Path], titulos_extra: list[str] | None = None) -> str:
     partes = []
     for i, p in enumerate(rutas):
         texto = p.read_text(encoding="utf-8")
-        cuerpo = md_a_html(texto)
+        cuerpo = _imagenes_incrustadas(md_a_html(texto), p.parent)
         # sin enlaces internos: texto plano; se conservan los enlaces http(s)
         cuerpo = re.sub(r'<a href="(?!https?:)[^"]*"[^>]*>(.*?)</a>', r"\1", cuerpo, flags=re.S)
         if i and titulos_extra:
@@ -102,9 +120,11 @@ async def imprimir(U, solo_faltantes=True, paralelo=6):
     from playwright.async_api import async_playwright
     UNIDADES.mkdir(parents=True, exist_ok=True)
     pend = []
+    import mermaid_svg
+    dib = max((f.stat().st_mtime for f in mermaid_svg.CACHE.glob("*.svg")), default=0)
     for uid, (rutas, extra) in U.items():
         destino = UNIDADES / f"{uid}.pdf"
-        if solo_faltantes and destino.exists() and destino.stat().st_size > 1000 and destino.stat().st_mtime >= max(r.stat().st_mtime for r in rutas):
+        if solo_faltantes and destino.exists() and destino.stat().st_size > 1000 and destino.stat().st_mtime >= max([r.stat().st_mtime for r in rutas] + [dib]):
             continue
         pend.append((uid, rutas, extra, destino))
     print(f"Unidades por imprimir: {len(pend)} de {len(U)}", flush=True)
