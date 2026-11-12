@@ -331,7 +331,7 @@ def construir_nav(titulos: dict[str, str], areas, bloques, rutas) -> list:
     grupo("Siglas", lambda r: r.startswith("glosario/siglas"))
     grupo("Símbolos y unidades", lambda r: r.startswith("glosario/simbolos"))
 
-    tec = [hoja(r) for r in ("herramientas/publicacion/README.md", "catalogo/v0.2.0/README.md", "fuentes/REFERENCIAS_INSTITUCIONALES_PRELIMINARES.md", "instrucciones/PROMPT_MAESTRO_DE_IMPLEMENTACION.md") if existe(r)]
+    tec = [hoja(r) for r in ("herramientas/publicacion/README.md", "catalogo/estructura/README.md", "fuentes/REFERENCIAS_INSTITUCIONALES_PRELIMINARES.md", "instrucciones/PROMPT_MAESTRO_DE_IMPLEMENTACION.md") if existe(r)]
     heredada = []
     for rid_dir in sorted({Path(r).parts[2] for r in titulos if r.startswith("programa/rutas-profesionales/") and len(Path(r).parts) > 3}):
         hs = [hoja(r) for r in sorted(titulos) if r.startswith(f"programa/rutas-profesionales/{rid_dir}/")]

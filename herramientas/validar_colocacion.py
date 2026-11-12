@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Valida catalogo/v0.2.0/colocacion/Rxx.json: dónde vive en áreas (A) y bloques (B) el contenido de cada módulo M.
+"""Valida catalogo/estructura/colocacion/Rxx.json: dónde vive en áreas (A) y bloques (B) el contenido de cada módulo M.
 
 Cada archivo describe los 8 módulos de una ruta y, para cada uno de sus 10 temas (pares de clases
 C01..C02, ..., C19..C20), una de dos cosas:
@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DIR = ROOT / "catalogo" / "v0.2.0" / "colocacion"
+DIR = ROOT / "catalogo" / "estructura" / "colocacion"
 AREAS_OK = {f"A0{i}" for i in range(2, 9)}
 
 

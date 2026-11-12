@@ -3,7 +3,7 @@
 """Consolida la distribución de los módulos de las rutas en el tronco común.
 
 Lee el campo `modulos` de metadatos/recorridos/Rxx.json (solo lectura) y escribe, en
-catalogo/ampliaciones/v0.2.0/, la propuesta aditiva:
+catalogo/ampliaciones/estructura/, la propuesta aditiva:
   - distribucion_modulos.json : para cada par de clases de ruta (Rxx-Mxx-Cnn..Cmm) dónde vive su contenido;
   - clases_nuevas.jsonl       : temas sin clase en el tronco, con ID propuesto y solo título (no se redacta contenido);
   - bloques_nuevos.json       : bloques que la ampliación necesita crear;
@@ -26,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from validar_recorridos import cargar_roles  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-SALIDA = ROOT / "catalogo" / "ampliaciones" / "v0.2.0"
+SALIDA = ROOT / "catalogo" / "ampliaciones" / "estructura"
 PAT_NUEVO = re.compile(r"^nuevo: (.+)$")
 
 

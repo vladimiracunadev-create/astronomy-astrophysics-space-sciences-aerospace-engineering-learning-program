@@ -1,4 +1,4 @@
-# Catálogo v0.2.0 (en construcción)
+# Catálogo de la estructura vigente
 
 Reorganización del contenido para que **todo viva dentro de áreas (A) y bloques (B)**. A01 (B01–B08, 160 clases) no cambia. La línea base `0.1.0` (`catalogo/clases.*`) se conserva intacta.
 

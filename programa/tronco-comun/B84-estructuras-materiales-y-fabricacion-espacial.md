@@ -33,7 +33,7 @@ flowchart LR
     A --> B --> C --> D --> E
 ```
 
-**Descripción textual.** Cinco grupos encadenados: los materiales y su respuesta al vacío (C02–C07, C21); la mecánica de sólidos que los carga (C08–C09, C22–C25, C29); la dinámica del lanzamiento y los elementos finitos que la modelan (C01, C10–C12, C26–C28, C30–C33); los mecanismos y la fabricación que materializan el diseño (C13–C19, C34–C36); y la integración en una plataforma y el uso de materiales in situ (C20, C37–C38). Se recomienda leer por tramos, no solo por número, porque las clases programadas en `0.2.0` (C21–C38) rellenan huecos de las 20 clases originales.
+**Descripción textual.** Cinco grupos encadenados: los materiales y su respuesta al vacío (C02–C07, C21); la mecánica de sólidos que los carga (C08–C09, C22–C25, C29); la dinámica del lanzamiento y los elementos finitos que la modelan (C01, C10–C12, C26–C28, C30–C33); los mecanismos y la fabricación que materializan el diseño (C13–C19, C34–C36); y la integración en una plataforma y el uso de materiales in situ (C20, C37–C38). Se recomienda leer por tramos, no solo por número, porque las clases de la ampliación (C21–C38) rellenan huecos de las 20 clases originales.
 
 ## 🗂️ Las 38 clases en resumen
 

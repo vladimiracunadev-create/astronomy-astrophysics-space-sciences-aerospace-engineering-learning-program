@@ -1,6 +1,6 @@
 # Ampliación del tronco común
 
-> **Estado actual:** la ampliación se ejecutó. La colocación de los 192 módulos de ruta vive en `catalogo/v0.2.0/colocacion/Rxx.json`; el resultado (12 áreas, 133 bloques, 2.077 clases) es el [programa completo](../PROGRAMA_ACADEMICO_COMPLETO.md). `consolidar_distribucion.py` y `metadatos/recorridos/` son la ruta anterior basada en recorridos y no son la fuente de esta estructura.
+> **Estado actual:** la ampliación se ejecutó. La colocación de los 192 módulos de ruta vive en `catalogo/estructura/colocacion/Rxx.json`; el resultado (12 áreas, 133 bloques, 2.077 clases) es el [programa completo](../PROGRAMA_ACADEMICO_COMPLETO.md). `consolidar_distribucion.py` y `metadatos/recorridos/` son la ruta anterior basada en recorridos y no son la fuente de esta estructura.
 
 > **Modelo.** Hay un solo conjunto de clases (el tronco común: áreas y bloques) y los roles son recorridos sobre él, como en el programa de ciberseguridad del autor. Los módulos de las rutas no tienen contenido propio: sus temas se ubican en el bloque del tronco que les corresponde o, si no existe, se proponen como clases nuevas. **En esta etapa no se redacta ninguna clase nueva**: se obtienen, se distribuyen y se amplía la estructura.
 
@@ -18,7 +18,7 @@ El tronco común de la línea base inicial tiene 8 áreas, 64 bloques y 1.280 cl
 
 | Qué se añade | ID | Ejemplo |
 |---|---|---|
-| Bloque nuevo | propuesta intermedia `BP01`, `BP02`, … (superada: en la estructura vigente los bloques se numeran de forma consecutiva, ver `catalogo/v0.2.0/numeracion_bloques.json`) | `BP01-C01` |
+| Bloque nuevo | propuesta intermedia `BP01`, `BP02`, … (superada: en la estructura vigente los bloques se numeran de forma consecutiva, ver `catalogo/estructura/numeracion_bloques.json`) | `BP01-C01` |
 | Clases nuevas en un bloque existente | continúan: `B83-C21`, `B83-C22`, … | `B83-C21` |
 | Módulo nuevo en una ruta | `R12-M09`, con clases `R12-M09-C01…` | `R12-M09-C01` |
 
@@ -27,7 +27,7 @@ Un bloque nuevo no tiene por qué tener exactamente 20 clases; el tamaño se jus
 ## Dónde se registran
 
 ```text
-catalogo/ampliaciones/v0.2.0/
+catalogo/ampliaciones/estructura/
   bloques.json                 # bloques nuevos: id, nombre, area, justificación, roles que lo requieren
   clases.jsonl                 # clases nuevas con la misma estructura que catalogo/clases.jsonl
   matriz_compatibilidad.json   # qué IDs de la línea base permanecen idénticos
@@ -46,7 +46,7 @@ Cada módulo de ruta tiene 10 temas (sus 20 clases son pares «concepto + aplica
 - `existente`: el tema ya está en una o varias clases del tronco (se listan sus IDs);
 - `nueva`: no existe; se propone una clase en un bloque existente (continúa su numeración: `B83-C21`) o en un bloque nuevo (`B17`, …), con su área.
 
-`python herramientas/consolidar_distribucion.py` recoge lo que declaran todos los roles y genera, en `catalogo/ampliaciones/v0.2.0/`: `distribucion_modulos.json` (dónde vive cada par de clases de ruta; los IDs `Rxx-Mxx-Cnn` se conservan como alias), `clases_nuevas.jsonl` (solo título y estado E0, deduplicadas entre roles), `bloques_nuevos.json` y `TAMANOS_DE_AREA.md`.
+`python herramientas/consolidar_distribucion.py` recoge lo que declaran todos los roles y genera, en `catalogo/ampliaciones/estructura/`: `distribucion_modulos.json` (dónde vive cada par de clases de ruta; los IDs `Rxx-Mxx-Cnn` se conservan como alias), `clases_nuevas.jsonl` (solo título y estado E0, deduplicadas entre roles), `bloques_nuevos.json` y `TAMANOS_DE_AREA.md`.
 
 ## Las áreas no tienen el mismo tamaño
 

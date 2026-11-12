@@ -96,7 +96,7 @@ def activos() -> list[Path]:
 
 
 def bloques_y_areas():
-    est = json.loads((ROOT / "catalogo" / "v0.2.0" / "estructura.json").read_text(encoding="utf-8"))
+    est = json.loads((ROOT / "catalogo" / "estructura" / "estructura.json").read_text(encoding="utf-8"))
     areas, bloques = {}, {}
     for a in est:
         areas[a["area"]] = a["titulo"]

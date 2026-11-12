@@ -3,7 +3,7 @@
 | Necesidad | Punto de entrada |
 |---|---|
 | entender propósito y estado | `README.md`, `STATUS.md` |
-| recorrer las 2.077 clases del programa | `PROGRAMA_ACADEMICO_COMPLETO.md`, `catalogo/v0.2.0/` |
+| recorrer las 2.077 clases del programa | `PROGRAMA_ACADEMICO_COMPLETO.md`, `catalogo/estructura/` |
 | consultar la línea base inicial (5.120 registros) | `catalogo/clases.jsonl` |
 | comprender estructura y carga futura | `SYLLABUS.md`, `documentacion/SYLLABUS_Y_CARGA.md` |
 | redactar o evaluar una clase futura | `documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md` |

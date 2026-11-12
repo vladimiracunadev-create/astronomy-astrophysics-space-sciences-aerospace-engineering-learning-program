@@ -32,7 +32,7 @@ Qué hay en cada carpeta, **qué se escribe a mano y qué se genera**, y cómo f
 |---|---|---|
 | Clases (`CLASE.md`), guías de bloque, anexos, documentación | Escritos | — |
 | Navegación anterior/siguiente de las clases | Generada | `python herramientas/actualizar_navegacion.py` |
-| `PROGRAMA_ACADEMICO_COMPLETO.md` | Generado desde `catalogo/` | `python herramientas/generar_programa_v020.py` |
+| `PROGRAMA_ACADEMICO_COMPLETO.md` | Generado desde `catalogo/` | `python herramientas/generar_programa.py` |
 | Ruta de áreas y bloques de cada rol (`rutas/*.md`) y su tabla en el README | Generada (la prosa del rol es escrita) | `python herramientas/generar_rutas_por_rol.py` |
 | `RECORRIDO.md` de las rutas heredadas | Generado desde `metadatos/recorridos/` | `python herramientas/generar_recorridos.py` |
 | Glosario completo (`glosario/*.md`, salvo `esencial/`) | Generado desde las clases | `python herramientas/generar_glosario.py` |
@@ -46,7 +46,7 @@ Qué hay en cada carpeta, **qué se escribe a mano y qué se genera**, y cómo f
 catalogo/clases.*  (línea base, no se edita)
       │  colocación de los 192 módulos de ruta
       ▼
-catalogo/v0.2.0/  (estructura.json · clases_programadas.jsonl · equivalencias · colocacion/)
+catalogo/estructura/  (estructura.json · clases_programadas.jsonl · equivalencias · colocacion/)
       │                                   │
       ▼                                   ▼
 PROGRAMA_ACADEMICO_COMPLETO.md      programa/tronco-comun/  →  programa/clases/  →  rutas/ · glosario/
@@ -68,7 +68,7 @@ Una clase pertenece a un **bloque**, un bloque a un **área**, y un **rol** es u
 | `validar_colocacion.py` | Dónde vive, en áreas y bloques, cada tema de cada módulo de ruta |
 | `validar_recorridos.py` | Qué clases usa cada rol y en qué orden |
 | `consolidar_distribucion.py` · `candidatos_colocacion.py` | Reparto de los módulos de las rutas en el tronco común |
-| `generar_programa_v020.py` | Programa unificado con IDs estables |
+| `generar_programa.py` | Programa unificado con IDs estables |
 | `generar_rutas_por_rol.py` · `generar_recorridos.py` | Guías y recorridos por rol |
 | `actualizar_navegacion.py` | Enlaces entre clases y su guía de bloque |
 | `generar_glosario.py` | Glosario alfabético con contexto de cada clase |

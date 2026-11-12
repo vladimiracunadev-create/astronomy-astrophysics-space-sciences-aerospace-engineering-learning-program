@@ -1,6 +1,6 @@
 # Plan de refinamiento curricular (Horizonte 0)
 
-> **Actualización:** las líneas L2 a L5 se resolvieron al ubicar los 1.920 temas de los módulos de ruta en áreas y bloques (`catalogo/v0.2.0/colocacion/`) y producir el programa unificado de 2.077 clases. Este plan conserva el diagnóstico de la línea base.
+> **Actualización:** las líneas L2 a L5 se resolvieron al ubicar los 1.920 temas de los módulos de ruta en áreas y bloques (`catalogo/estructura/colocacion/`) y producir el programa unificado de 2.077 clases. Este plan conserva el diagnóstico de la línea base.
 
 **Fecha:** 5 de noviembre de 2026 · **Versión documental:** `0.1.0` · **Estado:** propuesta; ninguna clase cambia de estado con este documento.
 

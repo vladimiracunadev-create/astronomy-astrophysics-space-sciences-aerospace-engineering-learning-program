@@ -118,49 +118,49 @@
    "area": "A02",
    "titulo": "Aprendizaje automático científico",
    "id_anterior": "B65",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B18",
    "area": "A02",
    "titulo": "Computación de alto rendimiento",
    "id_anterior": "B66",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B19",
    "area": "A02",
    "titulo": "Inferencia bayesiana y computación probabilística",
    "id_anterior": "B67",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B20",
    "area": "A02",
    "titulo": "Metodología de la investigación científica",
    "id_anterior": "B68",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B21",
    "area": "A02",
    "titulo": "Métodos numéricos para EDP y fluidos computacionales",
    "id_anterior": "B69",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B22",
    "area": "A02",
    "titulo": "Problemas inversos y estimación de modelos",
    "id_anterior": "B70",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B23",
    "area": "A02",
    "titulo": "Verificación y validación de software científico",
    "id_anterior": "B71",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B24",
@@ -223,63 +223,63 @@
    "area": "A03",
    "titulo": "Atmósferas estelares y espectroscopía estelar cuantitativa",
    "id_anterior": "B72",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B33",
    "area": "A03",
    "titulo": "Clima espacial: impactos, pronóstico y riesgo",
    "id_anterior": "B73",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B34",
    "area": "A03",
    "titulo": "Corona solar y erupciones: diagnóstico y modelos",
    "id_anterior": "B74",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B35",
    "area": "A03",
    "titulo": "Física avanzada de plasmas y MHD espacial",
    "id_anterior": "B75",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B36",
    "area": "A03",
    "titulo": "Formación de estructuras cósmicas y materia oscura",
    "id_anterior": "B76",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B37",
    "area": "A03",
    "titulo": "Interiores estelares y asterosismología",
    "id_anterior": "B77",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B38",
    "area": "A03",
    "titulo": "Poblaciones estelares y simulación de galaxias",
    "id_anterior": "B78",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B39",
    "area": "A03",
    "titulo": "Relatividad general avanzada",
    "id_anterior": "B79",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B40",
    "area": "A03",
    "titulo": "Universo temprano y radiación cósmica de fondo",
    "id_anterior": "B80",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B41",
@@ -342,21 +342,21 @@
    "area": "A04",
    "titulo": "Antenas y receptores de radioastronomía",
    "id_anterior": "B81",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B50",
    "area": "A04",
    "titulo": "Diseño óptico computacional y tolerancias",
    "id_anterior": "B82",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B51",
    "area": "A04",
    "titulo": "Interferometría avanzada y reducción de datos de radio",
    "id_anterior": "B83",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B52",
@@ -419,77 +419,77 @@
    "area": "A05",
    "titulo": "Cinética y modelado astroquímico",
    "id_anterior": "B84",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B61",
    "area": "A05",
    "titulo": "Cráteres de impacto y geología de impactos",
    "id_anterior": "B85",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B62",
    "area": "A05",
    "titulo": "Espectroscopía molecular para astroquímica",
    "id_anterior": "B86",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B63",
    "area": "A05",
    "titulo": "Exploración in situ y análisis de muestras planetarias",
    "id_anterior": "B87",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B64",
    "area": "A05",
    "titulo": "Extremófilos y límites de la vida",
    "id_anterior": "B88",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B65",
    "area": "A05",
    "titulo": "Geofísica de interiores planetarios",
    "id_anterior": "B89",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B66",
    "area": "A05",
    "titulo": "Geomorfología y procesos superficiales planetarios",
    "id_anterior": "B90",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B67",
    "area": "A05",
    "titulo": "Prospección y evaluación de reservas de recursos extraterrestres",
    "id_anterior": "B91",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B68",
    "area": "A05",
    "titulo": "Química de granos y hielos interestelares",
    "id_anterior": "B92",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B69",
    "area": "A05",
    "titulo": "Radar de apertura sintética e interferometría (profundización)",
    "id_anterior": "B93",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B70",
    "area": "A05",
    "titulo": "Vulcanismo planetario",
    "id_anterior": "B94",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B71",
@@ -552,28 +552,28 @@
    "area": "A06",
    "titulo": "Fluidos, termodinámica y aerotermodinámica de propulsión",
    "id_anterior": "B95",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B80",
    "area": "A06",
    "titulo": "Navegación inercial y fusión multisensorial",
    "id_anterior": "B96",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B81",
    "area": "A06",
    "titulo": "Optimización de trayectorias y diseño robusto",
    "id_anterior": "B97",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B82",
    "area": "A06",
    "titulo": "Problema de Lambert y transferencias de dos puntos",
    "id_anterior": "B98",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B83",
@@ -636,35 +636,35 @@
    "area": "A07",
    "titulo": "Antenas y propagación para enlaces espaciales",
    "id_anterior": "B99",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B92",
    "area": "A07",
    "titulo": "Comunicaciones ópticas espaciales (profundización)",
    "id_anterior": "B100",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B93",
    "area": "A07",
    "titulo": "Electrónica embarcada y compatibilidad electromagnética",
    "id_anterior": "B101",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B94",
    "area": "A07",
    "titulo": "Modulación, codificación y protocolos de enlace",
    "id_anterior": "B102",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B95",
    "area": "A07",
    "titulo": "Plataformas de satélites pequeños y CubeSat",
    "id_anterior": "B103",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B96",
@@ -685,42 +685,42 @@
    "area": "A08",
    "titulo": "Autonomía y teleoperación espacial",
    "id_anterior": "B104",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B99",
    "area": "A08",
    "titulo": "Localización y mapeo robótico",
    "id_anterior": "B105",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B100",
    "area": "A08",
    "titulo": "Logística y cadena de suministro extraterrestre",
    "id_anterior": "B106",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B101",
    "area": "A08",
    "titulo": "Manipuladores robóticos espaciales",
    "id_anterior": "B107",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B102",
    "area": "A08",
    "titulo": "Movilidad de robots planetarios",
    "id_anterior": "B108",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B103",
    "area": "A08",
    "titulo": "Percepción visual robótica",
    "id_anterior": "B109",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B104",
@@ -748,77 +748,77 @@
    "area": "A09",
    "titulo": "Acondicionamiento físico y rehabilitación de astronautas",
    "id_anterior": "B110",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B108",
    "area": "A09",
    "titulo": "Actividades extravehiculares y trajes espaciales",
    "id_anterior": "B111",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B109",
    "area": "A09",
    "titulo": "Arquitectura y factores humanos de hábitats extraterrestres",
    "id_anterior": "B112",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B110",
    "area": "A09",
    "titulo": "Emergencias y seguridad de tripulación",
    "id_anterior": "B113",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B111",
    "area": "A09",
    "titulo": "Factores humanos y liderazgo de tripulación",
    "id_anterior": "B114",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B112",
    "area": "A09",
    "titulo": "Radiobiología y protección radiológica espacial",
    "id_anterior": "B115",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B113",
    "area": "A09",
    "titulo": "Salud conductual y bienestar en aislamiento",
    "id_anterior": "B116",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B114",
    "area": "A09",
    "titulo": "Seguridad y respuesta a emergencias en hábitats",
    "id_anterior": "B117",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B115",
    "area": "A09",
    "titulo": "Sistemas bioregenerativos y cultivo en hábitats",
    "id_anterior": "B118",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B116",
    "area": "A09",
    "titulo": "Telemedicina y monitorización de salud en misión",
    "id_anterior": "B119",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B117",
    "area": "A09",
    "titulo": "Urgencias médicas y atención clínica en misión",
    "id_anterior": "B120",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B118",
@@ -839,28 +839,28 @@
    "area": "A10",
    "titulo": "Espectro, licencias y regulación satelital",
    "id_anterior": "B121",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B121",
    "area": "A10",
    "titulo": "Regulación nacional de actividades espaciales",
    "id_anterior": "B122",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B122",
    "area": "A10",
    "titulo": "Resiliencia y continuidad de infraestructura espacial",
    "id_anterior": "B123",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B123",
    "area": "A10",
    "titulo": "Responsabilidad, daños y controversias espaciales",
    "id_anterior": "B124",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B124",
@@ -874,63 +874,63 @@
    "area": "A11",
    "titulo": "Creación y operación de empresas espaciales",
    "id_anterior": "B125",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B126",
    "area": "A11",
    "titulo": "Financiamiento de proyectos y negocios espaciales",
    "id_anterior": "B126",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B127",
    "area": "A11",
    "titulo": "Seguros espaciales",
    "id_anterior": "B127",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B128",
    "area": "A12",
    "titulo": "Accesibilidad e inclusión en la enseñanza de la astronomía",
    "id_anterior": "B128",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B129",
    "area": "A12",
    "titulo": "Ciencia ciudadana astronómica",
    "id_anterior": "B129",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B130",
    "area": "A12",
    "titulo": "Comunicación y divulgación científica",
    "id_anterior": "B130",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B131",
    "area": "A12",
    "titulo": "Didáctica de la astronomía",
    "id_anterior": "B131",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B132",
    "area": "A12",
    "titulo": "Historia y arqueoastronomía aplicadas",
    "id_anterior": "B132",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   },
   {
    "id": "B133",
    "area": "A12",
    "titulo": "Saberes astronómicos y educación intercultural",
    "id_anterior": "B133",
-   "origen": "bloque nuevo de la propuesta 0.2.0 (commit c0fe067)"
+   "origen": "bloque nuevo de la propuesta de reorganización (commit c0fe067)"
   }
  ]
 }

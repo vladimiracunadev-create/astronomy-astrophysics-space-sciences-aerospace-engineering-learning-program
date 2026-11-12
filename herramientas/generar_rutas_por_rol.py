@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 """Genera las guías por rol (rutas/) con las áreas y bloques que cada rol necesita.
 
-Entradas (solo lectura): catalogo/v0.2.0/{colocacion,estructura.json,equivalencias.json},
+Entradas (solo lectura): catalogo/estructura/{colocacion,estructura.json,equivalencias.json},
 catalogo/clases.jsonl, metadatos/rutas.json y la tabla de documentacion/MAPA_DE_RUTAS_PROFESIONALES.md.
 Salidas:
   rutas/<slug>.md      guía del rol: la prosa la escribe una persona; el tramo entre
@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import generar_programa_v020 as gp  # noqa: E402
+import generar_programa as gp  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RUTAS = ROOT / "rutas"
@@ -81,14 +81,14 @@ def mapa_fundamentos() -> dict[str, list[str]]:
 
 
 def datos():
-    est = json.loads((ROOT / "catalogo" / "v0.2.0" / "estructura.json").read_text(encoding="utf-8"))
-    equiv = json.loads((ROOT / "catalogo" / "v0.2.0" / "equivalencias.json").read_text(encoding="utf-8"))
+    est = json.loads((ROOT / "catalogo" / "estructura" / "estructura.json").read_text(encoding="utf-8"))
+    equiv = json.loads((ROOT / "catalogo" / "estructura" / "equivalencias.json").read_text(encoding="utf-8"))
     bloque = {}
     for a in est:
         for b in a["bloques"]:
             bloque[b["id"]] = {**b, "area": a["area"], "total": b["existentes"] + b["programadas"]}
     uso = {}
-    for f in sorted(glob.glob(str(ROOT / "catalogo" / "v0.2.0" / "colocacion" / "R*.json"))):
+    for f in sorted(glob.glob(str(ROOT / "catalogo" / "estructura" / "colocacion" / "R*.json"))):
         d = json.loads(Path(f).read_text(encoding="utf-8"))
         ids = set()
         for m in d["modulos"]:

@@ -8,10 +8,10 @@
 |---|---:|---|
 | Línea base inicial: registros del catálogo | 5.120 (1.280 de tronco + 3.840 de rutas), todos en E0 | `catalogo/clases.jsonl` |
 | Línea base: IDs únicos | 5.120 | `herramientas/validar_catalogo.py` |
-| Programa vigente (aprobado por el autor): áreas | 12 | `catalogo/v0.2.0/estructura.json` |
-| Programa vigente: bloques | 133 (64 de la línea base + 69 nuevos) | `catalogo/v0.2.0/estructura.json` |
+| Programa vigente (aprobado por el autor): áreas | 12 | `catalogo/estructura/estructura.json` |
+| Programa vigente: bloques | 133 (64 de la línea base + 69 nuevos) | `catalogo/estructura/estructura.json` |
 | Programa vigente: clases | 2.077 (1.280 de la línea base + 797 programadas) | `PROGRAMA_ACADEMICO_COMPLETO.md` |
-| Módulos de ruta ubicados en áreas y bloques | 192 módulos, 1.920 temas: 1.101 en clases existentes y 819 en clases programadas | `catalogo/v0.2.0/colocacion/` |
+| Módulos de ruta ubicados en áreas y bloques | 192 módulos, 1.920 temas: 1.101 en clases existentes y 819 en clases programadas | `catalogo/estructura/colocacion/` |
 | Rutas profesionales (recorridos sobre áreas y bloques) | 24 | `metadatos/recorridos/` |
 | Clases en E0 | todas las del programa | catálogo |
 | Clases con texto redactado (A01, B01–B08) | 160 de 160; B01-C01 aprobada por el autor, las otras 159 pendientes de aprobación; ninguna con revisión disciplinar | `programa/clases/` |
@@ -28,7 +28,7 @@
 | Clases con texto redactado (A12, B128–B133) | 46 de 46 (todas antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (total) | 2.077 de 2.077 (1.280 de la línea base y 797 antes programadas); ninguna con revisión disciplinar | `programa/clases/` |
 | Publicación `v0.1.0` | 37 PDF verificados (general: 4.268 págs.; 12 áreas y 24 roles con todas sus clases), APK de Android probado en emulador y ZIP portable de Windows; contenido en E0 | `herramientas/publicacion/verificar.py` |
-| Clases programadas (citadas y ubicadas) | 797: las 797 ya tienen texto | `catalogo/v0.2.0/clases_programadas.jsonl` | `catalogo/v0.2.0/clases_programadas.jsonl` |
+| Clases programadas (citadas y ubicadas) | 797: las 797 ya tienen texto | `catalogo/estructura/clases_programadas.jsonl` | `catalogo/estructura/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |
 | Régimen de contenido original | CC BY-NC-SA 4.0 | `LICENSE-CONTENT.md` |

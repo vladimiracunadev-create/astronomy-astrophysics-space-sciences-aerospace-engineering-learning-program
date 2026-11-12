@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
-"""Genera el programa académico unificado (v0.2.0) a partir de la línea base y de la colocación de los módulos.
+"""Genera el programa académico unificado  a partir de la línea base y de la colocación de los módulos.
 
-Entradas (solo lectura): catalogo/clases.jsonl y catalogo/v0.2.0/colocacion/Rxx.json.
+Entradas (solo lectura): catalogo/clases.jsonl y catalogo/estructura/colocacion/Rxx.json.
 Salidas:
   PROGRAMA_ACADEMICO_COMPLETO.md         índice unificado por áreas y bloques
-  catalogo/v0.2.0/estructura.json        áreas y bloques con su tamaño
-  catalogo/v0.2.0/clases_programadas.jsonl  clases programadas (no redactadas) con su necesidad
-  catalogo/v0.2.0/equivalencias.json     dónde vive cada tema de cada módulo de ruta
+  catalogo/estructura/estructura.json        áreas y bloques con su tamaño
+  catalogo/estructura/clases_programadas.jsonl  clases programadas (no redactadas) con su necesidad
+  catalogo/estructura/equivalencias.json     dónde vive cada tema de cada módulo de ruta
 
 Reglas: A01 (B01-B08) no cambia; los bloques se numeran de forma consecutiva en orden de área; las clases programadas se agregan al
 final de un bloque existente (Bnn-C21, ...) o forman bloques nuevos (con numeración consecutiva). No se redacta ninguna clase.
@@ -24,7 +24,7 @@ import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SALIDA = ROOT / "catalogo" / "v0.2.0"
+SALIDA = ROOT / "catalogo" / "estructura"
 
 AREAS = [
     ("A01", "Alfabetización científica, astronómica y tecnológica",
@@ -325,7 +325,7 @@ def escribir_guias_y_metadatos(estructura, nuevos, bloques_base) -> None:
     areas = {aid: titulo for aid, titulo, _ in AREAS}
     for b in nuevos:
         L = [f"# {b['id']} — {b['nombre']}", "",
-             f"> **Bloque nuevo de la estructura `0.2.0`.** Sus {len(b['clases'])} clases están programadas y ninguna está redactada: "
+             f"> **Bloque nuevo de la estructura vigente.** Sus {len(b['clases'])} clases están programadas y ninguna está redactada: "
              "se citan aquí con la necesidad que resuelven. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.", "",
              "**Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  ",
              f"**Área:** {b['area']} — {areas[b['area']]}  ",
@@ -365,5 +365,5 @@ def escribir_guias_y_metadatos(estructura, nuevos, bloques_base) -> None:
 
 if __name__ == "__main__":
     r = escribir_todo()
-    print(f"Programa v0.2.0: {r['areas']} áreas, {r['bloques']} bloques, {r['existentes']} clases de la línea base y {r['programadas']} programadas "
+    print(f"Programa: {r['areas']} áreas, {r['bloques']} bloques, {r['existentes']} clases de la línea base y {r['programadas']} programadas "
           f"(total {miles(r['existentes'] + r['programadas'])}).")

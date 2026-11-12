@@ -27,7 +27,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 - [ ] Auditoría reproducible de plantillas, descripciones repetidas y solapamientos.
 - [ ] Decidir los 88 solapamientos ruta/tronco sin renumerar IDs.
-- [x] Ubicar los 1.920 temas de los 192 módulos en áreas y bloques (`catalogo/v0.2.0/colocacion/`); resuelve las clases derivadas por plantilla.
+- [x] Ubicar los 1.920 temas de los 192 módulos en áreas y bloques (`catalogo/estructura/colocacion/`); resuelve las clases derivadas por plantilla.
 - [ ] Clasificar unidades como núcleo, ampliable o consolidada; proponer ampliaciones aditivas.
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.

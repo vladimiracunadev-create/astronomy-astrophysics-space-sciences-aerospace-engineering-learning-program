@@ -33,12 +33,12 @@ def slug(titulo: str) -> str:
 
 
 def cargar() -> list[dict]:
-    """Clases de la línea base más las programadas de la estructura 0.2.0, en el orden de lectura del programa
+    """Clases de la línea base más las programadas de la estructura vigente, en el orden de lectura del programa
     (áreas y bloques consecutivos; las programadas de un bloque ampliado van después de sus 20 clases)."""
     with (ROOT / "catalogo" / "clases.jsonl").open(encoding="utf-8") as f:
         base = [json.loads(x) for x in f if x.strip() and '"tipo": "tronco_comun"' in x]
-    estructura = ROOT / "catalogo" / "v0.2.0" / "estructura.json"
-    programadas = ROOT / "catalogo" / "v0.2.0" / "clases_programadas.jsonl"
+    estructura = ROOT / "catalogo" / "estructura" / "estructura.json"
+    programadas = ROOT / "catalogo" / "estructura" / "clases_programadas.jsonl"
     if not (estructura.exists() and programadas.exists()):
         return base
     por_bloque: dict[str, list[dict]] = {}

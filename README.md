@@ -36,117 +36,36 @@
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
 
-## 📎 Anexos históricos y pedagógicos
-
-Veinte lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
-
-| Anexo | Contenido |
-|---|---|
-| [A · Agencias y organizaciones espaciales](anexos/ANEXO-A-agencias-espaciales.md) | NASA, programa soviético y Roscosmos, ESA, ESO, JAXA, CNSA, ISRO, agencias de América Latina, industria privada, derecho y cooperación |
-| [B · Misiones espaciales destacadas](anexos/ANEXO-B-misiones-espaciales.md) | De Sputnik a Artemis: Apollo, Voyager, Viking, Hubble, Cassini, Marte, Rosetta, New Horizons, Webb, DART |
-| [C · Científicos, científicas e ingenieros](anexos/ANEXO-C-cientificos-e-ingenieros.md) | De Copérnico a Ghez y Genzel; pioneros del cohete; voces de Latinoamérica |
-| [D · Astronautas, cosmonautas y taikonautas](anexos/ANEXO-D-astronautas-y-cosmonautas.md) | Primeros vuelos, Luna, diversidad, récords, estudios del cuerpo y accidentes |
-| [E · Satélites y sondas de exploración](anexos/ANEXO-E-satelites-y-sondas.md) | Meteorología, comunicaciones, navegación, observatorios espaciales, sondas planetarias, CubeSats |
-| [F · Telescopios y observatorios](anexos/ANEXO-F-telescopios-y-observatorios.md) | Ópticos, radiotelescopios, observatorios de Chile, EHT, telescopios espaciales, otros mensajeros |
-| [G · Lanzadores, estaciones y puertos espaciales](anexos/ANEXO-G-lanzadores-y-estaciones.md) | Familias de cohetes, Salyut a ISS y Tiangong, puertos, reentrada |
-| [H · Cronología](anexos/ANEXO-H-cronologia.md) | Línea de tiempo de la antigüedad a 2025 |
-| [I · Escalas de medición, fórmulas y calculadora](anexos/ANEXO-I-escalas-formulas-y-calculadora.md) | Escalas, convenciones que hacen diferir los cálculos, fórmulas con unidades y la [calculadora científica en Python](herramientas/calculadora_cientifica.py) |
-| [J · Estudios de caso a fondo](anexos/ANEXO-J-estudios-de-caso-a-fondo.md) | Diez casos analizados con números, causas y ejercicios resueltos |
-| [K · Perfiles a fondo](anexos/ANEXO-K-perfiles-a-fondo.md) | Catorce biografías analizadas: contexto, obstáculos, legado y preguntas |
-| [L · El Sistema Solar a fondo](anexos/ANEXO-L-sistema-solar-a-fondo.md) | Formación, planetas, lunas, cuerpos pequeños y escalas, con ejercicios resueltos |
-| [M · Estrellas, galaxias y cosmología](anexos/ANEXO-M-estrellas-galaxias-y-cosmologia.md) | Evolución estelar, galaxias, materia y energía oscuras, historia del universo |
-| [N · Exoplanetas y astrobiología](anexos/ANEXO-N-exoplanetas-y-astrobiologia.md) | Métodos de detección, habitabilidad, biosignaturas, ecuación de Drake |
-| [O · Órbitas y trayectorias](anexos/ANEXO-O-orbitas-y-trayectorias.md) | Tipos de órbita, costo de cambiar de órbita en Δv, perturbaciones y cómo elegir órbita |
-| [P · Propulsión y cohetes a fondo](anexos/ANEXO-P-propulsion-y-cohetes.md) | Física del empuje, motores químicos y eléctricos, y presupuesto de Δv por meta |
-| [Q · Derecho, política y sostenibilidad espacial](anexos/ANEXO-Q-derecho-y-politica-espacial.md) | Los cinco tratados, responsabilidad, espectro, basura espacial, recursos y licencias |
-| [R · Mitos y errores frecuentes](anexos/ANEXO-R-mitos-y-errores-frecuentes.md) | Treinta y tres ideas equivocadas corregidas con argumento y cálculo |
-| [S · Chile, Latinoamérica y los cielos originarios](anexos/ANEXO-S-chile-y-cielos-originarios.md) | Por qué Chile es capital de la astronomía, observatorios, saberes originarios y dilemas actuales |
-| [T · Datos, fuentes y herramientas](anexos/ANEXO-T-datos-fuentes-y-herramientas.md) | Dónde están los datos reales, formatos, cómo citar y un primer proyecto con datos públicos |
-
-Índice completo: [`anexos/README.md`](anexos/README.md) · Vocabulario: [🔤 Glosario](glosario/README.md) y [glosario esencial explicado a fondo](glosario/esencial/README.md).
-
-<!-- descargas:inicio -->
-## 📦 Descargas y PDF
-
-Los enlaces apuntan siempre a la **última versión** publicada, así que no caducan al publicar una nueva. Cada versión adjunta `SHA256SUMS.txt` y notas con lo que contiene. Versión actual del repositorio: **0.1.0**.
-
-### 📕 PDF
-
-| PDF | Contenido |
-|---|---|
-| [**📕 Programa general**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos y los glosarios (esencial y completo) |
-
-**Por área** (guía de cada bloque y todas sus clases):
-
-- [A01 · Alfabetización científica, astronómica y tecnológica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A01-alfabetizacion-cientifica-astronomica-y-tecnologica.pdf)
-- [A02 · Matemática, física computacional y métodos científicos](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A02-matematica-fisica-computacional-y-metodos-cientificos.pdf)
-- [A03 · Astrofísica y ciencias fundamentales del universo](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A03-astrofisica-y-ciencias-fundamentales-del-universo.pdf)
-- [A04 · Óptica, telescopios y observatorios científicos](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A04-optica-telescopios-y-observatorios-cientificos.pdf)
-- [A05 · Ciencias planetarias, astroquímica y habitabilidad](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A05-ciencias-planetarias-astroquimica-y-habitabilidad.pdf)
-- [A06 · Mecánica orbital, navegación y vuelo espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A06-mecanica-orbital-navegacion-y-vuelo-espacial.pdf)
-- [A07 · Ingeniería y construcción de sistemas espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A07-ingenieria-y-construccion-de-sistemas-espaciales.pdf)
-- [A08 · Operaciones de misión y robótica espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A08-operaciones-de-mision-y-robotica-espacial.pdf)
-- [A09 · Astronáutica humana, medicina y hábitats](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A09-astronautica-humana-medicina-y-habitats.pdf)
-- [A10 · Entorno orbital, derecho y seguridad espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A10-entorno-orbital-derecho-y-seguridad-espacial.pdf)
-- [A11 · Economía, industria y gestión de proyectos espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A11-economia-industria-y-gestion-de-proyectos-espaciales.pdf)
-- [A12 · Educación, historia aplicada y divulgación astronómica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Area-A12-educacion-historia-aplicada-y-divulgacion-astronomica.pdf)
-
-**Por rol** (guía del rol y las clases que usa, en orden):
-
-- [R01 · Astrofísica estelar y galáctica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R01-astrofisica-estelar-y-galactica.pdf)
-- [R02 · Cosmología y astrofísica extrema](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R02-cosmologia-y-astrofisica-extrema.pdf)
-- [R03 · Ingeniería óptica y telescopios profesionales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R03-ingenieria-optica-y-telescopios-profesionales.pdf)
-- [R04 · Radioastronomía e interferometría](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R04-radioastronomia-e-interferometria.pdf)
-- [R05 · Ciencias planetarias y astrogeología](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R05-ciencias-planetarias-y-astrogeologia.pdf)
-- [R06 · Astroquímica y astrobiología](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R06-astroquimica-y-astrobiologia.pdf)
-- [R07 · Heliofísica y climatología espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R07-heliofisica-y-climatologia-espacial.pdf)
-- [R08 · Matemática y computación científica espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R08-matematica-y-computacion-cientifica-espacial.pdf)
-- [R09 · Astrodinámica interplanetaria](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R09-astrodinamica-interplanetaria.pdf)
-- [R10 · Navegación guiado y autonomía espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R10-navegacion-guiado-y-autonomia-espacial.pdf)
-- [R11 · Ingeniería de lanzadores y propulsión](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R11-ingenieria-de-lanzadores-y-propulsion.pdf)
-- [R12 · Ingeniería y construcción de satélites y CubeSats](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R12-ingenieria-y-construccion-de-satelites-y-cubesats.pdf)
-- [R13 · Aviónica y software espacial de alta fiabilidad](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R13-avionica-y-software-espacial-de-alta-fiabilidad.pdf)
-- [R14 · Materiales estructuras e ingeniería térmica espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R14-materiales-estructuras-e-ingenieria-termica-espacial.pdf)
-- [R15 · Telecomunicaciones y estaciones terrestres espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R15-telecomunicaciones-y-estaciones-terrestres-espaciales.pdf)
-- [R16 · Observación terrestre y geointeligencia científica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R16-observacion-terrestre-y-geointeligencia-cientifica.pdf)
-- [R17 · Robótica espacial y sistemas autónomos](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R17-robotica-espacial-y-sistemas-autonomos.pdf)
-- [R18 · Astronáutica tripulada y entrenamiento de astronautas](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R18-astronautica-tripulada-y-entrenamiento-de-astronautas.pdf)
-- [R19 · Medicina y bioingeniería espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R19-medicina-y-bioingenieria-espacial.pdf)
-- [R20 · Arquitectura y hábitats extraterrestres](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R20-arquitectura-y-habitats-extraterrestres.pdf)
-- [R21 · Recursos extraterrestres y economía industrial espacial](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R21-recursos-extraterrestres-y-economia-industrial-espacial.pdf)
-- [R22 · Seguridad defensa y resiliencia de infraestructuras espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espacial.pdf)
-- [R23 · Derecho políticas y negocios espaciales](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R23-derecho-politicas-y-negocios-espaciales.pdf)
-- [R24 · Educación historia y divulgación astronómica](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R24-educacion-historia-y-divulgacion-astronomica.pdf)
-
-### 🖥️ Aplicaciones sin conexión
-
-| Descarga | Formato | Para qué |
-|---|---|---|
-| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.0_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
-| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.0_Android.apk` | Móvil y tableta (Android 7 o superior) |
-
-Las aplicaciones muestran el mismo contenido que el sitio web (Markdown convertido a HTML), con búsqueda y sin conexión. Para verificar lo que descargas:
-
-```bash
-sha256sum -c SHA256SUMS.txt
-```
-
-> El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
-
-El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): ver [`STATUS.md`](STATUS.md). Cómo se generan estos archivos: [`herramientas/publicacion/`](herramientas/publicacion/README.md).
-<!-- /descargas -->
-
 ## 🎯 Qué es este programa
 
-Es una arquitectura curricular única y extensible: **un solo conjunto de clases organizado en áreas y bloques**. Las rutas profesionales no tienen contenido propio: son recorridos que ordenan clases de esas áreas y bloques. No son 24 programas separados.
+Es un **programa de formación independiente, en español**, que ordena en un solo recorrido lo que hace falta para entender y trabajar en astronomía, astrofísica, ciencias espaciales e ingeniería aeroespacial: desde mirar el cielo y aprender la matemática y la física básicas, hasta diseñar trayectorias, construir satélites, operar misiones, cuidar astronautas y comprender el derecho y la economía del espacio.
+
+**Cómo está hecho.** Son **2.077 clases** agrupadas en **133 bloques** y **12 áreas**. Todas las clases siguen la misma estructura de 22 secciones (por qué existe la clase, qué podrás hacer al terminar, modelo mental, explicación paso a paso, ejemplo trabajado, práctica, laboratorio en Python, errores frecuentes, evaluación y límites). Cada laboratorio declara unidades, sistema de referencia, datos y tolerancias.
+
+**Un solo programa, muchos caminos.** Los **24 roles profesionales** (astrofísica, astrodinámica, ingeniería de satélites, astronáutica, derecho espacial, divulgación…) no tienen clases propias: son rutas que ordenan clases de las mismas áreas y bloques. No son 24 programas separados, y nadie necesita cursar todo: un diagnóstico indica qué fundamentos hacen falta y una ruta ordena el camino.
+
+**Material de apoyo.** Alrededor de las clases hay **20 anexos** históricos y pedagógicos (agencias, misiones, personas, escalas y fórmulas, mitos frecuentes, Chile y los cielos originarios…), un **glosario completo** de 8.702 términos, un **glosario esencial** explicado a fondo y una **calculadora científica**.
+
+**Cómo se usa.** Para estudiar en pantalla está el [sitio web](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/); para leer sin conexión, los [PDF y las aplicaciones](#-descargas-y-pdf).
+
+**Qué estado tiene.** Todo el texto está redactado y en nivel **E0**: pendiente de revisión disciplinar y de aprobación del autor. El programa no otorga títulos ni habilita decisiones de vuelo, seguridad, médicas o jurídicas.
 
 ## 🧮 Cómo se organiza y cuánto suma
 
-El tronco de la línea base inicial tenía 8 áreas, 64 bloques y 1.280 clases; las rutas profesionales sumaban otras 3.840 clases en 192 módulos, para una referencia inicial de 5.120. Esa cifra fue un punto de partida, no una meta. En esta versión **todo el contenido de los módulos de las rutas se ubicó dentro de áreas y bloques**: de sus 1.920 temas, 1.101 ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases programadas distintas (varios temas coinciden en una misma clase). El resultado son **12 áreas, 133 bloques y 2.077 clases**.
+| Nivel | Qué es | Cantidad | Cómo se identifica |
+|---|---|---:|---|
+| **Área** | Gran campo del conocimiento | 12 | `A01` a `A12` |
+| **Bloque** | Conjunto de clases sobre un tema | 133 | `B01` a `B133`, consecutivos y en el orden de las áreas |
+| **Clase** | Unidad de estudio con su laboratorio | 2.077 | Bloque + número de clase, por ejemplo `B71-C18` |
+| **Rol** | Ruta ordenada sobre clases de varios bloques | 24 | `R01` a `R24` |
+| **Anexo** | Lectura de contexto | 20 | Letras `A` a `T` |
+| **Glosario** | Términos, siglas y símbolos | 8.702 · 445 · 4.207 | Orden alfabético |
 
-Las áreas **no** tienen el mismo tamaño: crecen con el contenido que necesitan, y A01 (160 clases, conocimiento básico) no cambia. Los bloques se numeran de forma consecutiva (B01–B133) en el orden de las áreas; la tabla con el número anterior de cada bloque está en [`numeracion_bloques.json`](catalogo/v0.2.0/numeracion_bloques.json). Las clases programadas se agregan al final de un bloque existente (`B83-C21`…) o forman bloques nuevos. Los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias: el [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) indica, módulo por módulo, dónde vive hoy su contenido. Detalle de la línea base: [estructura y conteo del catálogo](documentacion/ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md).
+Las áreas **no** tienen el mismo tamaño: crecen con el contenido que necesitan (A01, de conocimiento básico, tiene 160 clases; A11, 44). Los identificadores son permanentes y no se reutilizan.
 
-Nadie necesita cursar todo: el diagnóstico indica qué partes del tronco hacen falta y una ruta profesional ordena las clases de su campo. La carga y las equivalencias se definirán después de pilotajes reales.
+**De dónde salen las 2.077 clases.** 1.280 vienen de la línea base inicial (8 áreas y 64 bloques) y 797 se agregaron al ubicar dentro de las áreas todo el contenido de los 192 módulos de las rutas profesionales: de sus 1.920 temas, 1.101 ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases nuevas (varios temas coinciden en una misma clase). Los IDs de los módulos (`Rxx-Mxx-Cnn`) se conservan como equivalencias, y el [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) indica dónde vive hoy cada uno. La numeración anterior de los bloques está en [`numeracion_bloques.json`](catalogo/estructura/numeracion_bloques.json); el detalle del conteo, en [estructura y conteo del catálogo](documentacion/ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md).
+
+**Niveles y estados.** La profundidad que demuestra quien estudia va de N0 a N5 y el avance editorial de cada clase, de E0 a E6 ([resolución por etapas](documentacion/RESOLUCION_DE_CONTENIDOS_POR_ETAPAS.md)).
 
 ```mermaid
 flowchart LR
@@ -406,7 +325,36 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 | B132 | Historia y arqueoastronomía aplicadas | C01 a C06 | [📘](programa/tronco-comun/B132-historia-y-arqueoastronomia-aplicadas.md) |
 | B133 | Saberes astronómicos y educación intercultural | C01 a C05 | [📘](programa/tronco-comun/B133-saberes-astronomicos-y-educacion-intercultural.md) |
 
-📖 **Detalle de cada clase.** El [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) lista, bloque por bloque, el título y la descripción de cada clase. Para estudiar una clase redactada, ábrela desde la guía de su bloque (columna 📘); la numeración anterior de los bloques está en [`numeracion_bloques.json`](catalogo/v0.2.0/numeracion_bloques.json).
+📖 **Detalle de cada clase.** El [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) lista, bloque por bloque, el título y la descripción de cada clase. Para estudiar una clase redactada, ábrela desde la guía de su bloque (columna 📘); la numeración anterior de los bloques está en [`numeracion_bloques.json`](catalogo/estructura/numeracion_bloques.json).
+
+## 📎 Anexos históricos y pedagógicos
+
+Veinte lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
+
+| Anexo | Contenido |
+|---|---|
+| [A · Agencias y organizaciones espaciales](anexos/ANEXO-A-agencias-espaciales.md) | NASA, programa soviético y Roscosmos, ESA, ESO, JAXA, CNSA, ISRO, agencias de América Latina, industria privada, derecho y cooperación |
+| [B · Misiones espaciales destacadas](anexos/ANEXO-B-misiones-espaciales.md) | De Sputnik a Artemis: Apollo, Voyager, Viking, Hubble, Cassini, Marte, Rosetta, New Horizons, Webb, DART |
+| [C · Científicos, científicas e ingenieros](anexos/ANEXO-C-cientificos-e-ingenieros.md) | De Copérnico a Ghez y Genzel; pioneros del cohete; voces de Latinoamérica |
+| [D · Astronautas, cosmonautas y taikonautas](anexos/ANEXO-D-astronautas-y-cosmonautas.md) | Primeros vuelos, Luna, diversidad, récords, estudios del cuerpo y accidentes |
+| [E · Satélites y sondas de exploración](anexos/ANEXO-E-satelites-y-sondas.md) | Meteorología, comunicaciones, navegación, observatorios espaciales, sondas planetarias, CubeSats |
+| [F · Telescopios y observatorios](anexos/ANEXO-F-telescopios-y-observatorios.md) | Ópticos, radiotelescopios, observatorios de Chile, EHT, telescopios espaciales, otros mensajeros |
+| [G · Lanzadores, estaciones y puertos espaciales](anexos/ANEXO-G-lanzadores-y-estaciones.md) | Familias de cohetes, Salyut a ISS y Tiangong, puertos, reentrada |
+| [H · Cronología](anexos/ANEXO-H-cronologia.md) | Línea de tiempo de la antigüedad a 2025 |
+| [I · Escalas de medición, fórmulas y calculadora](anexos/ANEXO-I-escalas-formulas-y-calculadora.md) | Escalas, convenciones que hacen diferir los cálculos, fórmulas con unidades y la [calculadora científica en Python](herramientas/calculadora_cientifica.py) |
+| [J · Estudios de caso a fondo](anexos/ANEXO-J-estudios-de-caso-a-fondo.md) | Diez casos analizados con números, causas y ejercicios resueltos |
+| [K · Perfiles a fondo](anexos/ANEXO-K-perfiles-a-fondo.md) | Catorce biografías analizadas: contexto, obstáculos, legado y preguntas |
+| [L · El Sistema Solar a fondo](anexos/ANEXO-L-sistema-solar-a-fondo.md) | Formación, planetas, lunas, cuerpos pequeños y escalas, con ejercicios resueltos |
+| [M · Estrellas, galaxias y cosmología](anexos/ANEXO-M-estrellas-galaxias-y-cosmologia.md) | Evolución estelar, galaxias, materia y energía oscuras, historia del universo |
+| [N · Exoplanetas y astrobiología](anexos/ANEXO-N-exoplanetas-y-astrobiologia.md) | Métodos de detección, habitabilidad, biosignaturas, ecuación de Drake |
+| [O · Órbitas y trayectorias](anexos/ANEXO-O-orbitas-y-trayectorias.md) | Tipos de órbita, costo de cambiar de órbita en Δv, perturbaciones y cómo elegir órbita |
+| [P · Propulsión y cohetes a fondo](anexos/ANEXO-P-propulsion-y-cohetes.md) | Física del empuje, motores químicos y eléctricos, y presupuesto de Δv por meta |
+| [Q · Derecho, política y sostenibilidad espacial](anexos/ANEXO-Q-derecho-y-politica-espacial.md) | Los cinco tratados, responsabilidad, espectro, basura espacial, recursos y licencias |
+| [R · Mitos y errores frecuentes](anexos/ANEXO-R-mitos-y-errores-frecuentes.md) | Treinta y tres ideas equivocadas corregidas con argumento y cálculo |
+| [S · Chile, Latinoamérica y los cielos originarios](anexos/ANEXO-S-chile-y-cielos-originarios.md) | Por qué Chile es capital de la astronomía, observatorios, saberes originarios y dilemas actuales |
+| [T · Datos, fuentes y herramientas](anexos/ANEXO-T-datos-fuentes-y-herramientas.md) | Dónde están los datos reales, formatos, cómo citar y un primer proyecto con datos públicos |
+
+Índice completo: [`anexos/README.md`](anexos/README.md) · Vocabulario: [🔤 Glosario](glosario/README.md) y [glosario esencial explicado a fondo](glosario/esencial/README.md).
 
 ## 🧭 Los 24 roles y su ruta de áreas y bloques
 
@@ -445,6 +393,29 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 <!-- /roles -->
 
 🧭 **Elegir un rol.** El [índice de rutas](rutas/README.md) reúne los 24 roles con el orden recomendado de áreas y bloques de cada uno; la guía de cada rol detalla su práctica, sus evidencias y su progresión. Un rol no tiene clases propias: todo lo que estudia vive en las áreas y bloques de arriba.
+
+<!-- descargas:inicio -->
+## 📦 Descargas y PDF
+
+**Versión: 0.1.0** (primera publicación). Es la única versión del programa: está en el archivo [`VERSION`](VERSION) y los enlaces apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.
+
+| PDF principal | Contenido |
+|---|---|
+| [**📕 Programa general**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos, la documentación y los glosarios |
+
+📚 **Todos los demás PDF** (12 áreas y 24 roles, con todas sus clases) están listados en [**Descargas y PDF · lista completa**](documentacion/DESCARGAS_Y_PDF.md).
+
+### 🖥️ Aplicaciones sin conexión
+
+| Descarga | Archivo | Para qué |
+|---|---|---|
+| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.0_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
+| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.0_Android.apk` | Móvil y tableta (Android 7 o superior) |
+
+> El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
+
+El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): ver [`STATUS.md`](STATUS.md). Cómo se generan estos archivos: [`herramientas/publicacion/`](herramientas/publicacion/README.md).
+<!-- /descargas -->
 
 ## 📖 Cómo se escribió y cómo está construido
 

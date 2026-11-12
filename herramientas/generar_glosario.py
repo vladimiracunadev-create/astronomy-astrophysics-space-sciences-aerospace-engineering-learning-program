@@ -305,7 +305,7 @@ def cargar_esencial():
 
 def cargar_areas():
     """Devuelve {bloque: (área, título del bloque)} y {área: título}."""
-    est = json.loads((ROOT / "catalogo" / "v0.2.0" / "estructura.json").read_text(encoding="utf-8"))
+    est = json.loads((ROOT / "catalogo" / "estructura" / "estructura.json").read_text(encoding="utf-8"))
     bloques, areas = {}, {}
     for a in est:
         areas[a["area"]] = a["titulo"]
