@@ -78,9 +78,6 @@ flowchart LR
 
 Este mapa deja el contenido visible desde la portada. Cada bloque muestra su rango de clases y el enlace a su guía; todas las clases tienen texto.
 
-> [!IMPORTANT]
-> Todos los registros permanecen en E0. Las 2.077 clases (A01 a A12) tienen texto redactado y enlazado desde su bloque, pendiente de revisión. Ninguna está impartida ni verificada.
-
 ### A01 · Alfabetización científica, astronómica y tecnológica
 
 Punto de partida común: observar y medir el cielo, entender la ciencia como método y adquirir la matemática, la física, la química y la informática básicas. Nivel N0–N1. **Sin cambios respecto de la línea base.**
