@@ -30,9 +30,6 @@
 
 ---
 
-> [!IMPORTANT]
-> **El programa tiene 2.077 clases en 133 bloques, todas con texto redactado y todas en E0.** Las clases están en las 12 áreas: A01 (160, B01 a B08), A02 (237, B09 a B23), A03 (272, B24 a B40), A04 (222, B41 a B51), A05 (257, B52 a B70), A06 (237, B71 a B82), A07 (259, B83 a B95), A08 (105, B96 a B103), A09 (153, B104 a B117), A10 (85, B118 a B123), A11 (44, B124 a B127) y A12 (46, B128 a B133); 1.280 son de la línea base y 797 estaban programadas. Todas están pendientes de aprobación y de revisión disciplinar. Ninguna debe presentarse como impartida, revisada o verificada. Clases completamente redactadas **y verificadas**: **0/2.077**.
-
 > [!WARNING]
 > **Formación independiente, no habilitación profesional.** El programa no otorga títulos, grados, licencias ni certificaciones; tampoco autoriza decisiones médicas, jurídicas, de vuelo, lanzamiento, seguridad o ingeniería crítica. Toda aplicación real exige normativa vigente, datos adecuados y profesionales competentes.
 
