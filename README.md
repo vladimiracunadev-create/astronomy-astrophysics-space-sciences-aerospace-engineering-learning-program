@@ -60,8 +60,6 @@ Es un **programa de formación independiente, en español**, que ordena en un so
 
 Las áreas **no** tienen el mismo tamaño: crecen con el contenido que necesitan (A01, de conocimiento básico, tiene 160 clases; A11, 44). Los identificadores son permanentes y no se reutilizan.
 
-**De dónde salen las 2.077 clases.** 1.280 vienen de la línea base inicial (8 áreas y 64 bloques) y 797 se agregaron al ubicar dentro de las áreas todo el contenido de los 192 módulos de las rutas profesionales: de sus 1.920 temas, 1.101 ya estaban cubiertos por clases existentes y 819 dieron lugar a 797 clases nuevas (varios temas coinciden en una misma clase). Los IDs de los módulos (`Rxx-Mxx-Cnn`) se conservan como equivalencias, y el [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) indica dónde vive hoy cada uno. La numeración anterior de los bloques está en [`numeracion_bloques.json`](catalogo/estructura/numeracion_bloques.json); el detalle del conteo, en [estructura y conteo del catálogo](documentacion/ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md).
-
 **Niveles y estados.** La profundidad que demuestra quien estudia va de N0 a N5 y el avance editorial de cada clase, de E0 a E6 ([resolución por etapas](documentacion/RESOLUCION_DE_CONTENIDOS_POR_ETAPAS.md)).
 
 ```mermaid
