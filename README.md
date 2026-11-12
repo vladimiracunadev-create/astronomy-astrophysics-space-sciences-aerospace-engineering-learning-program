@@ -417,6 +417,193 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): ver [`STATUS.md`](STATUS.md). Cómo se generan estos archivos: [`herramientas/publicacion/`](herramientas/publicacion/README.md).
 <!-- /descargas -->
 
+<!-- documentos:inicio -->
+## 🗃️ Todos los documentos del repositorio
+
+Índice de los `.md` que no tienen enlace en las secciones anteriores. Para navegarlos con buscador y menú, usa el [sitio de documentación](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/documentacion/).
+
+### 📁 Raíz del repositorio
+
+- [Reglas para agentes de desarrollo](AGENTS.md)
+- [Registro de cambios](CHANGELOG.md)
+- [Código de conducta](CODE_OF_CONDUCT.md)
+- [Contribuir](CONTRIBUTING.md)
+- [Índice de archivos](FILE_INDEX.md)
+- [Roadmap del programa](ROADMAP.md)
+- [Seguridad](SECURITY.md)
+- [Estado verificable](STATUS.md)
+- [Soporte](SUPPORT.md)
+- [Syllabus general](SYLLABUS.md)
+- [Licencias y procedencia de activos](ASSET_LICENSES.md)
+- [Licencias y procedencia de datos](DATA_LICENSES.md)
+- [Licencia del contenido educativo](LICENSE-CONTENT.md)
+- [Auditoría de licenciamiento](LICENSING_AUDIT.md)
+- [Avisos de terceros](THIRD_PARTY_NOTICES.md)
+- [Marcas y nombres](TRADEMARKS.md)
+- [Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial](PROGRAMA_ACADEMICO_COMPLETO.md)
+
+### 📖 Documentación (`documentacion/`)
+
+- [Alcance y contrato obligatorio del repositorio](documentacion\ALCANCE_Y_CONTRATO_DEL_REPOSITORIO.md)
+- [Ampliación del tronco común](documentacion\AMPLIACION_DEL_TRONCO_COMUN.md)
+- [Uso comercial y licencias adicionales](documentacion\COMMERCIAL_USE.md)
+- [Cómo usar el programa](documentacion\COMO_USAR_EL_PROGRAMA.md)
+- [IDs, ampliaciones y compatibilidad](documentacion\CONVENIOS_DE_IDENTIFICACION_Y_AMPLIACION.md)
+- [📦 Descargas y PDF: lista completa](documentacion\DESCARGAS_Y_PDF.md)
+- [Estándar de fuentes](documentacion\ESTANDAR_DE_FUENTES.md)
+- [Estándar para generar los contenidos](documentacion\ESTANDAR_PARA_GENERAR_CONTENIDOS.md)
+- [Estándar pedagógico, científico, de evidencia y evaluación](documentacion\ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
+- [Contrato visual y de experiencia académica](documentacion\ESTANDAR_VISUAL_Y_DE_EXPERIENCIA.md)
+- [Estructura y conteo del catálogo](documentacion\ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md)
+- [Fuentes y evidencia](documentacion\FUENTES_Y_EVIDENCIA.md)
+- [Guía de recorridos por rol](documentacion\GUIA_DE_RECORRIDOS_POR_ROL.md)
+- [Guía de redacción de clases](documentacion\GUIA_DE_REDACCION_DE_CLASES.md)
+- [Licencias, procedencia y derechos](documentacion\LICENCIAS_Y_PROCEDENCIA.md)
+- [Historia del licenciamiento](documentacion\LICENSING_HISTORY.md)
+- [Matriz de licenciamiento](documentacion\LICENSING_MATRIX.md)
+- [Mapa del repositorio](documentacion\MAPA_DEL_REPOSITORIO.md)
+- [Mapa de áreas y bloques](documentacion\MAPA_DE_AREAS_Y_BLOQUES.md)
+- [Mapa de dependencias](documentacion\MAPA_DE_DEPENDENCIAS.md)
+- [Rutas profesionales y reconocimientos de conocimiento previo](documentacion\MAPA_DE_RUTAS_PROFESIONALES.md)
+- [Matriz de cobertura temática](documentacion\MATRIZ_DE_COBERTURA.md)
+- [Niveles de verificación](documentacion\NIVELES_DE_VERIFICACION.md)
+- [Plan de implementación, resolución de contenidos y estados](documentacion\PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md)
+- [Plan de refinamiento curricular (Horizonte 0)](documentacion\PLAN_DE_REFINAMIENTO_CURRICULAR.md)
+- [Portafolio y evidencias](documentacion\PORTAFOLIO_Y_EVIDENCIAS.md)
+- [Documentación del programa](documentacion\README.md)
+- [Resolución de contenidos por etapas](documentacion\RESOLUCION_DE_CONTENIDOS_POR_ETAPAS.md)
+- [Seguridad y ética profesional](documentacion\SEGURIDAD_Y_ETICA_PROFESIONAL.md)
+- [Syllabus, progresión y carga](documentacion\SYLLABUS_Y_CARGA.md)
+
+### 🔬 Catálogo, fuentes e instrucciones
+
+- [Catálogo de la estructura vigente](catalogo/estructura/README.md)
+- [Tamaños de área tras la distribución de los módulos de las rutas](catalogo/ampliaciones/estructura/TAMANOS_DE_AREA.md)
+- [Referencias científicas e institucionales preliminares](fuentes/REFERENCIAS_INSTITUCIONALES_PRELIMINARES.md)
+- [Prompt maestro de implementación incremental](instrucciones/PROMPT_MAESTRO_DE_IMPLEMENTACION.md)
+
+### 🧭 Módulos de las rutas profesionales
+
+Cada ruta tiene un índice y sus 8 módulos (`Rxx-Mxx`), conservados como equivalencias: [`programa/rutas-profesionales/`](programa/rutas-profesionales/). Índices:
+
+<details><summary>Ver los 24 índices de módulos</summary>
+
+- [R01-astrofisica-estelar-y-galactica](programa/rutas-profesionales\R01-astrofisica-estelar-y-galactica/INDICE.md)
+- [R02-cosmologia-y-astrofisica-extrema](programa/rutas-profesionales\R02-cosmologia-y-astrofisica-extrema/INDICE.md)
+- [R03-ingenieria-optica-y-telescopios-profesionales](programa/rutas-profesionales\R03-ingenieria-optica-y-telescopios-profesionales/INDICE.md)
+- [R04-radioastronomia-e-interferometria](programa/rutas-profesionales\R04-radioastronomia-e-interferometria/INDICE.md)
+- [R05-ciencias-planetarias-y-astrogeologia](programa/rutas-profesionales\R05-ciencias-planetarias-y-astrogeologia/INDICE.md)
+- [R06-astroquimica-y-astrobiologia](programa/rutas-profesionales\R06-astroquimica-y-astrobiologia/INDICE.md)
+- [R07-heliofisica-y-climatologia-espacial](programa/rutas-profesionales\R07-heliofisica-y-climatologia-espacial/INDICE.md)
+- [R08-matematica-y-computacion-cientifica-espacial](programa/rutas-profesionales\R08-matematica-y-computacion-cientifica-espacial/INDICE.md)
+- [R09-astrodinamica-interplanetaria](programa/rutas-profesionales\R09-astrodinamica-interplanetaria/INDICE.md)
+- [R10-navegacion-guiado-y-autonomia-espacial](programa/rutas-profesionales\R10-navegacion-guiado-y-autonomia-espacial/INDICE.md)
+- [R11-ingenieria-de-lanzadores-y-propulsion](programa/rutas-profesionales\R11-ingenieria-de-lanzadores-y-propulsion/INDICE.md)
+- [R12-ingenieria-y-construccion-de-satelites-y-cubesats](programa/rutas-profesionales\R12-ingenieria-y-construccion-de-satelites-y-cubesats/INDICE.md)
+- [R13-avionica-y-software-espacial-de-alta-fiabilidad](programa/rutas-profesionales\R13-avionica-y-software-espacial-de-alta-fiabilidad/INDICE.md)
+- [R14-materiales-estructuras-e-ingenieria-termica-espacial](programa/rutas-profesionales\R14-materiales-estructuras-e-ingenieria-termica-espacial/INDICE.md)
+- [R15-telecomunicaciones-y-estaciones-terrestres-espaciales](programa/rutas-profesionales\R15-telecomunicaciones-y-estaciones-terrestres-espaciales/INDICE.md)
+- [R16-observacion-terrestre-y-geointeligencia-cientifica](programa/rutas-profesionales\R16-observacion-terrestre-y-geointeligencia-cientifica/INDICE.md)
+- [R17-robotica-espacial-y-sistemas-autonomos](programa/rutas-profesionales\R17-robotica-espacial-y-sistemas-autonomos/INDICE.md)
+- [R18-astronautica-tripulada-y-entrenamiento-de-astronautas](programa/rutas-profesionales\R18-astronautica-tripulada-y-entrenamiento-de-astronautas/INDICE.md)
+- [R19-medicina-y-bioingenieria-espacial](programa/rutas-profesionales\R19-medicina-y-bioingenieria-espacial/INDICE.md)
+- [R20-arquitectura-y-habitats-extraterrestres](programa/rutas-profesionales\R20-arquitectura-y-habitats-extraterrestres/INDICE.md)
+- [R21-recursos-extraterrestres-y-economia-industrial-espacial](programa/rutas-profesionales\R21-recursos-extraterrestres-y-economia-industrial-espacial/INDICE.md)
+- [R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales](programa/rutas-profesionales\R22-seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales/INDICE.md)
+- [R23-derecho-politicas-y-negocios-espaciales](programa/rutas-profesionales\R23-derecho-politicas-y-negocios-espaciales/INDICE.md)
+- [R24-educacion-historia-y-divulgacion-astronomica](programa/rutas-profesionales\R24-educacion-historia-y-divulgacion-astronomica/INDICE.md)
+
+</details>
+
+### 📚 Glosarios (`glosario/`)
+
+Punto de entrada: [glosario/README.md](glosario/README.md). Todos los archivos:
+
+<details><summary>Ver los archivos de los glosarios</summary>
+
+- [esencial\ampliacion-a-m.md](glosario/esencial\ampliacion-a-m.md)
+- [esencial\ampliacion-n-z.md](glosario/esencial\ampliacion-n-z.md)
+- [esencial\cuarta-fundamentos.md](glosario/esencial\cuarta-fundamentos.md)
+- [esencial\esencial-a-c.md](glosario/esencial\esencial-a-c.md)
+- [esencial\esencial-d-l.md](glosario/esencial\esencial-d-l.md)
+- [esencial\esencial-m-z.md](glosario/esencial\esencial-m-z.md)
+- [esencial\tercera-a-e.md](glosario/esencial\tercera-a-e.md)
+- [esencial\tercera-f-t.md](glosario/esencial\tercera-f-t.md)
+- [mas-usados-2.md](glosario\mas-usados-2.md)
+- [mas-usados.md](glosario\mas-usados.md)
+- [por-area-A01.md](glosario\por-area-A01.md)
+- [por-area-A02.md](glosario\por-area-A02.md)
+- [por-area-A03.md](glosario\por-area-A03.md)
+- [por-area-A04.md](glosario\por-area-A04.md)
+- [por-area-A05.md](glosario\por-area-A05.md)
+- [por-area-A06.md](glosario\por-area-A06.md)
+- [por-area-A07.md](glosario\por-area-A07.md)
+- [por-area-A08.md](glosario\por-area-A08.md)
+- [por-area-A09.md](glosario\por-area-A09.md)
+- [por-area-A10.md](glosario\por-area-A10.md)
+- [por-area-A11.md](glosario\por-area-A11.md)
+- [por-area-A12.md](glosario\por-area-A12.md)
+- [siglas-2.md](glosario\siglas-2.md)
+- [siglas.md](glosario\siglas.md)
+- [simbolos-y-unidades-2.md](glosario\simbolos-y-unidades-2.md)
+- [simbolos-y-unidades-3.md](glosario\simbolos-y-unidades-3.md)
+- [simbolos-y-unidades-4.md](glosario\simbolos-y-unidades-4.md)
+- [simbolos-y-unidades-5.md](glosario\simbolos-y-unidades-5.md)
+- [simbolos-y-unidades.md](glosario\simbolos-y-unidades.md)
+- [terminos-0-9.md](glosario\terminos-0-9.md)
+- [terminos-a-2.md](glosario\terminos-a-2.md)
+- [terminos-a-3.md](glosario\terminos-a-3.md)
+- [terminos-a.md](glosario\terminos-a.md)
+- [terminos-b.md](glosario\terminos-b.md)
+- [terminos-c-2.md](glosario\terminos-c-2.md)
+- [terminos-c-3.md](glosario\terminos-c-3.md)
+- [terminos-c-4.md](glosario\terminos-c-4.md)
+- [terminos-c.md](glosario\terminos-c.md)
+- [terminos-d-2.md](glosario\terminos-d-2.md)
+- [terminos-d-3.md](glosario\terminos-d-3.md)
+- [terminos-d.md](glosario\terminos-d.md)
+- [terminos-e-2.md](glosario\terminos-e-2.md)
+- [terminos-e-3.md](glosario\terminos-e-3.md)
+- [terminos-e.md](glosario\terminos-e.md)
+- [terminos-f-2.md](glosario\terminos-f-2.md)
+- [terminos-f.md](glosario\terminos-f.md)
+- [terminos-g.md](glosario\terminos-g.md)
+- [terminos-h.md](glosario\terminos-h.md)
+- [terminos-i-2.md](glosario\terminos-i-2.md)
+- [terminos-i.md](glosario\terminos-i.md)
+- [terminos-j.md](glosario\terminos-j.md)
+- [terminos-k.md](glosario\terminos-k.md)
+- [terminos-l-2.md](glosario\terminos-l-2.md)
+- [terminos-l.md](glosario\terminos-l.md)
+- [terminos-m-2.md](glosario\terminos-m-2.md)
+- [terminos-m-3.md](glosario\terminos-m-3.md)
+- [terminos-m.md](glosario\terminos-m.md)
+- [terminos-n.md](glosario\terminos-n.md)
+- [terminos-o.md](glosario\terminos-o.md)
+- [terminos-p-2.md](glosario\terminos-p-2.md)
+- [terminos-p-3.md](glosario\terminos-p-3.md)
+- [terminos-p-4.md](glosario\terminos-p-4.md)
+- [terminos-p.md](glosario\terminos-p.md)
+- [terminos-q.md](glosario\terminos-q.md)
+- [terminos-r-2.md](glosario\terminos-r-2.md)
+- [terminos-r-3.md](glosario\terminos-r-3.md)
+- [terminos-r.md](glosario\terminos-r.md)
+- [terminos-s-2.md](glosario\terminos-s-2.md)
+- [terminos-s.md](glosario\terminos-s.md)
+- [terminos-t-2.md](glosario\terminos-t-2.md)
+- [terminos-t.md](glosario\terminos-t.md)
+- [terminos-u.md](glosario\terminos-u.md)
+- [terminos-v-2.md](glosario\terminos-v-2.md)
+- [terminos-v.md](glosario\terminos-v.md)
+- [terminos-w.md](glosario\terminos-w.md)
+- [terminos-x.md](glosario\terminos-x.md)
+- [terminos-y.md](glosario\terminos-y.md)
+- [terminos-z.md](glosario\terminos-z.md)
+
+</details>
+
+<!-- /documentos -->
+
 ## 📖 Cómo se escribió y cómo está construido
 
 Los detalles de proceso que antes ocupaban esta portada están en `documentacion/`:
