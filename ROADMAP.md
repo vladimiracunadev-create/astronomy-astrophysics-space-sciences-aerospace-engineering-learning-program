@@ -54,6 +54,13 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 **Cierre por bloque:** todas las clases en E5, dependencias auditadas, proyecto integrador y revisión disciplinar registrada.
 
+## Material de integración · anexos, glosarios y talleres
+
+- [x] 20 anexos históricos y pedagógicos, glosario completo y glosario esencial.
+- [x] Diez talleres de misión redactados (E0): Marte, Luna, Plutón, punto L2, Saturno, cometa, Sol, asteroide, órbita baja tripulada y defensa planetaria.
+- [ ] Revisión disciplinar de las cifras de cada taller marcadas con ⚠ contra la fuente primaria (E1 en adelante).
+- [ ] Nuevos talleres según el [estándar](documentacion/ESTANDAR_DE_TALLERES_DE_MISION.md) (por ejemplo, una misión de retorno de muestras de Marte, un observatorio terrestre o una constelación de comunicaciones).
+
 ## Horizonte G · rutas R01–R24
 
 - [ ] Resolver módulos por ruta reutilizando el tronco común.

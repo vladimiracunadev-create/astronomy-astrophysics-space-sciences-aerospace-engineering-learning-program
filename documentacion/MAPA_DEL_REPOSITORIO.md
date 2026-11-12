@@ -73,6 +73,7 @@ Una clase pertenece a un **bloque**, un bloque a un **área**, y un **rol** es u
 | `generar_rutas_por_rol.py` · `generar_recorridos.py` | Guías y recorridos por rol |
 | `actualizar_navegacion.py` | Enlaces entre clases y su guía de bloque |
 | `generar_glosario.py` | Glosario alfabético con contexto de cada clase |
+| `validar_talleres.py` | Valida los diez talleres de misión: estructura, enlaces, laboratorios y figuras (ver el [estándar](ESTANDAR_DE_TALLERES_DE_MISION.md)) |
 | `calculadora_cientifica.py` | Calculadora didáctica con `autotest` (ver el [Anexo I](../anexos/ANEXO-I-escalas-formulas-y-calculadora.md)) |
 | `generar_manifiesto.py` | Huellas SHA-256 de los archivos versionables |
 | `publicacion/` | Sitio, PDF, APK, lanzador de Windows y verificador de artefactos |

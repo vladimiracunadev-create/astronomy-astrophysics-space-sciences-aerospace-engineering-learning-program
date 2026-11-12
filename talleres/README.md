@@ -33,17 +33,17 @@ Los diez capítulos siguen la misma estructura para que puedas comparar misiones
 | Taller | Misión real de referencia | Qué reto domina | Estado |
 |---|---|---|---|
 | [**T01 · Marte**](T01-marte-mars-2020-perseverance/README.md) | Mars 2020 / Perseverance (2020-2021) | Entrada, descenso y aterrizaje autónomos; muestras para retorno | ✅ Redactado |
-| T02 · Luna | Artemis I (2022) | Cápsula tripulable en un viaje de ida y vuelta, escudo térmico y reentrada | ⏳ En preparación |
-| T03 · Plutón | New Horizons (2006-2015) | Sobrevuelo a 30 UA, asistencia gravitatoria de Júpiter, enlace débil | ⏳ En preparación |
-| T04 · Punto L2 | Telescopio James Webb (2021) | Observatorio desplegable en un punto de equilibrio, despliegues sin retorno | ⏳ En preparación |
-| T05 · Saturno | Cassini-Huygens (1997-2017) | Asistencias gravitatorias múltiples, inserción orbital, sonda de descenso | ⏳ En preparación |
-| T06 · Cometa | Rosetta y Philae (2004-2016) | Encuentro de baja velocidad con un cuerpo de gravedad casi nula | ⏳ En preparación |
-| T07 · Sol | Parker Solar Probe (2018-) | Protección térmica extrema, aproximación por asistencias de Venus | ⏳ En preparación |
-| T08 · Asteroide | OSIRIS-REx (2016-2023) | Toma de muestra y retorno a la Tierra | ⏳ En preparación |
-| T09 · Órbita baja | Crew Dragon Demo-2 (2020) | Vuelo tripulado, acoplamiento, abortos y seguridad de la tripulación | ⏳ En preparación |
-| T10 · Defensa planetaria | DART (2021-2022) | Impacto cinético sobre un asteroide, navegación autónoma terminal | ⏳ En preparación |
+| [**T02 · Luna**](T02-luna-artemis-i/README.md) | Artemis I (2022) | Cápsula tripulable en un viaje de ida y vuelta, escudo térmico y reentrada | ✅ Redactado |
+| [**T03 · Plutón**](T03-pluton-new-horizons/README.md) | New Horizons (2006-2015) | Sobrevuelo a 30 UA, asistencia gravitatoria de Júpiter, enlace débil | ✅ Redactado |
+| [**T04 · Punto L2**](T04-punto-l2-james-webb/README.md) | Telescopio James Webb (2021) | Observatorio desplegable en un punto de equilibrio, despliegues sin retorno | ✅ Redactado |
+| [**T05 · Saturno**](T05-saturno-cassini-huygens/README.md) | Cassini-Huygens (1997-2017) | Asistencias gravitatorias múltiples, inserción orbital, sonda de descenso | ✅ Redactado |
+| [**T06 · Cometa**](T06-cometa-rosetta-philae/README.md) | Rosetta y Philae (2004-2016) | Encuentro de baja velocidad con un cuerpo de gravedad casi nula | ✅ Redactado |
+| [**T07 · Sol**](T07-sol-parker-solar-probe/README.md) | Parker Solar Probe (2018-) | Protección térmica extrema, aproximación por asistencias de Venus | ✅ Redactado |
+| [**T08 · Asteroide**](T08-asteroide-osiris-rex/README.md) | OSIRIS-REx (2016-2023) | Toma de muestra y retorno a la Tierra | ✅ Redactado |
+| [**T09 · Órbita baja**](T09-orbita-baja-crew-dragon-demo-2/README.md) | Crew Dragon Demo-2 (2020) | Vuelo tripulado, acoplamiento, abortos y seguridad de la tripulación | ✅ Redactado |
+| [**T10 · Defensa planetaria**](T10-defensa-planetaria-dart/README.md) | DART (2021-2022) | Impacto cinético sobre un asteroide, navegación autónoma terminal | ✅ Redactado |
 
-Los talleres se publican **uno por uno**. Se empieza por T01 porque sirve de plantilla de calidad para los demás.
+Los diez talleres están redactados con la misma estructura. T01 fue la plantilla de calidad; los demás la siguen y cada uno añade el reto propio de su misión.
 
 ## Para quién y cuánto toma
 

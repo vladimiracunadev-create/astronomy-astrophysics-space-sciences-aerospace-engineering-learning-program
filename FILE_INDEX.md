@@ -9,6 +9,7 @@
 | redactar o evaluar una clase futura | `documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md` |
 | planificar implementación | `ROADMAP.md`, `documentacion/PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md` |
 | elegir una ruta profesional | `documentacion/MAPA_DE_RUTAS_PROFESIONALES.md` |
+| planificar una misión real de principio a fin | `talleres/README.md`, `documentacion/ESTANDAR_DE_TALLERES_DE_MISION.md` |
 | gestionar fuentes y evidencia | `documentacion/ESTANDAR_DE_FUENTES.md`, `documentacion/FUENTES_Y_EVIDENCIA.md` |
 | interpretar licencias | `documentacion/LICENCIAS_Y_PROCEDENCIA.md`, `documentacion/LICENSING_MATRIX.md` |
 | contribuir | `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` |

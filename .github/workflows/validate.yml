@@ -39,3 +39,6 @@ jobs:
 
       - name: Comprobar guías por rol
         run: python herramientas/generar_rutas_por_rol.py --check
+
+      - name: Validar talleres de misión
+        run: python herramientas/validar_talleres.py

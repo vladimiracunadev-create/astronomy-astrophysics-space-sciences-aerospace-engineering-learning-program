@@ -4,6 +4,15 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 > La versión de la publicación está en el archivo `VERSION` y en la etiqueta `vX.Y.Z` de GitHub. La carpeta `catalogo/estructura/` conserva su nombre histórico: contiene la estructura vigente (12 áreas, 133 bloques, 2.077 clases).
 
+## [Sin publicar]
+
+### Añadido
+
+- **Talleres integradores de misión** (`talleres/`): diez talleres, uno por misión real, con la misma estructura de diez capítulos, laboratorio en Python y esquemas SVG generados con el mismo modelo. Misiones: Mars 2020 (T01), Artemis I (T02), New Horizons (T03), telescopio James Webb (T04), Cassini-Huygens (T05), Rosetta y Philae (T06), Parker Solar Probe (T07), OSIRIS-REx (T08), Crew Dragon Demo-2 (T09) y DART (T10). Estado E0; las cifras inciertas llevan ⚠.
+- `herramientas/validar_talleres.py` (en la integración continua) y `talleres/_comun/` (utilidades y verificador de figuras).
+- `documentacion/ESTANDAR_DE_TALLERES_DE_MISION.md` y la sección «Talleres integradores de misión» del README, antes de los anexos.
+- Integración en el sitio (menú «Talleres», búsqueda), en los PDF (un volumen por taller y un bloque en el PDF general) y en la página de descargas.
+
 ## [0.1.1] — 2026-11-12 · diagramas dibujados
 
 ### Cambiado

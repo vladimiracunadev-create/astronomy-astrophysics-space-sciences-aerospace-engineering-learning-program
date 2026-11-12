@@ -323,10 +323,18 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 Los anexos se leen; los **talleres se hacen**. Cada uno toma una **misión espacial real**, la desarma por capítulos (objetivo, trayectoria, vehículo, subsistemas, fase crítica, operaciones, fiabilidad, seguridad, costos y derecho) y pide planificar tu propia versión con todo lo aprendido en el programa. Incluyen laboratorio en Python y esquemas SVG generados con el mismo modelo.
 
-| Taller | Misión real | Estado |
+| Taller | Misión real | Qué reto domina |
 |---|---|---|
-| [**T01 · Marte**](talleres/T01-marte-mars-2020-perseverance/README.md) | Mars 2020 / Perseverance | ✅ Redactado |
-| T02 a T10 | Luna (Artemis I), Plutón (New Horizons), L2 (James Webb), Saturno (Cassini-Huygens), cometa (Rosetta), Sol (Parker), asteroide (OSIRIS-REx), órbita baja tripulada (Crew Dragon) y defensa planetaria (DART) | ⏳ En preparación |
+| [**T01 · Marte**](talleres/T01-marte-mars-2020-perseverance/README.md) | Mars 2020 / Perseverance | Entrada, descenso y aterrizaje autónomos |
+| [**T02 · Luna**](talleres/T02-luna-artemis-i/README.md) | Artemis I | Reentrada lunar y vuelo de prueba para personas |
+| [**T03 · Plutón**](talleres/T03-pluton-new-horizons/README.md) | New Horizons | Sobrevuelo único a 32 UA con asistencia de Júpiter |
+| [**T04 · Punto L2**](talleres/T04-punto-l2-james-webb/README.md) | Telescopio James Webb | 344 despliegues sin posibilidad de reparación |
+| [**T05 · Saturno**](talleres/T05-saturno-cassini-huygens/README.md) | Cassini-Huygens | Cuatro asistencias, inserción en Saturno y sonda en Titán |
+| [**T06 · Cometa**](talleres/T06-cometa-rosetta-philae/README.md) | Rosetta y Philae | Encuentro con un cometa y aterrizaje en gravedad casi nula |
+| [**T07 · Sol**](talleres/T07-sol-parker-solar-probe/README.md) | Parker Solar Probe | Frenar con Venus y sobrevivir a 476 veces el calor terrestre |
+| [**T08 · Asteroide**](talleres/T08-asteroide-osiris-rex/README.md) | OSIRIS-REx | Muestra de un asteroide y retorno a la Tierra |
+| [**T09 · Órbita baja**](talleres/T09-orbita-baja-crew-dragon-demo-2/README.md) | Crew Dragon Demo-2 | Vuelo tripulado: abortos, acoplamiento y riesgo acumulado |
+| [**T10 · Defensa planetaria**](talleres/T10-defensa-planetaria-dart/README.md) | DART | Impacto cinético y medición de una desviación |
 
 [Ver el índice de talleres](talleres/README.md).
 
@@ -454,6 +462,7 @@ El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): 
 - [IDs, ampliaciones y compatibilidad](documentacion\CONVENIOS_DE_IDENTIFICACION_Y_AMPLIACION.md)
 - [📦 Descargas y PDF: lista completa](documentacion\DESCARGAS_Y_PDF.md)
 - [Estándar de fuentes](documentacion\ESTANDAR_DE_FUENTES.md)
+- [Estándar de los talleres de misión](documentacion\ESTANDAR_DE_TALLERES_DE_MISION.md)
 - [Estándar para generar los contenidos](documentacion\ESTANDAR_PARA_GENERAR_CONTENIDOS.md)
 - [Estándar pedagógico, científico, de evidencia y evaluación](documentacion\ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
 - [Contrato visual y de experiencia académica](documentacion\ESTANDAR_VISUAL_Y_DE_EXPERIENCIA.md)
@@ -622,6 +631,7 @@ Requiere Python 3.11 o posterior y no instala dependencias:
 
 ```bash
 python herramientas/validar_catalogo.py
+python herramientas/validar_talleres.py
 ```
 
 La salida esperada es:

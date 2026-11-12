@@ -12,3 +12,4 @@
 - Cualquier fórmula o simulación futura debe señalar unidades, sistema de referencia, datos, versiones y tolerancias.
 - No modificar proyectos ajenos. Integrar con ellos mediante manifiestos/metadatos.
 - Mantener estructura pedagógica, accesibilidad y controles de calidad.
+- Los talleres de misión (`talleres/`) no son clases ni anexos: no cuentan en las 2.077 clases ni en los 20 anexos. Toda cifra de una misión real que no esté respaldada por una fuente pública verificable se marca con ⚠; los repartos ilustrativos se rotulan como tales. Cualquier taller nuevo sigue `documentacion/ESTANDAR_DE_TALLERES_DE_MISION.md` y debe pasar `python herramientas/validar_talleres.py`.
