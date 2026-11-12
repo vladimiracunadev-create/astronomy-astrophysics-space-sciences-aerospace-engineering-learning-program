@@ -319,6 +319,17 @@ Enseñar, divulgar e investigar el cielo: historia y arqueoastronomía aplicadas
 
 📖 **Detalle de cada clase.** El [programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) lista, bloque por bloque, el título y la descripción de cada clase. Para estudiar una clase redactada, ábrela desde la guía de su bloque (columna 📘); la numeración anterior de los bloques está en [`numeracion_bloques.json`](catalogo/estructura/numeracion_bloques.json).
 
+## 🛠️ Talleres integradores de misión
+
+Los anexos se leen; los **talleres se hacen**. Cada uno toma una **misión espacial real**, la desarma por capítulos (objetivo, trayectoria, vehículo, subsistemas, fase crítica, operaciones, fiabilidad, seguridad, costos y derecho) y pide planificar tu propia versión con todo lo aprendido en el programa. Incluyen laboratorio en Python y esquemas SVG generados con el mismo modelo.
+
+| Taller | Misión real | Estado |
+|---|---|---|
+| [**T01 · Marte**](talleres/T01-marte-mars-2020-perseverance/README.md) | Mars 2020 / Perseverance | ✅ Redactado |
+| T02 a T10 | Luna (Artemis I), Plutón (New Horizons), L2 (James Webb), Saturno (Cassini-Huygens), cometa (Rosetta), Sol (Parker), asteroide (OSIRIS-REx), órbita baja tripulada (Crew Dragon) y defensa planetaria (DART) | ⏳ En preparación |
+
+[Ver el índice de talleres](talleres/README.md).
+
 ## 📎 Anexos históricos y pedagógicos
 
 Veinte lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
@@ -395,7 +406,7 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 |---|---|
 | [**📕 Programa general**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos, la documentación y los glosarios |
 
-📚 **Todos los demás PDF** (12 áreas y 24 roles, con todas sus clases) están listados en [**Descargas y PDF · lista completa**](documentacion/DESCARGAS_Y_PDF.md).
+📚 **Todos los demás PDF** (12 áreas, 24 roles y los talleres, con todas sus clases) están listados en [**Descargas y PDF · lista completa**](documentacion/DESCARGAS_Y_PDF.md).
 
 ### 🖥️ Aplicaciones sin conexión
 

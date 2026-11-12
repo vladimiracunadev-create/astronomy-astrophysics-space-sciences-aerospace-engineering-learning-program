@@ -314,6 +314,13 @@ def construir_nav(titulos: dict[str, str], areas, bloques, rutas) -> list:
     anex = [hoja(r) for r in sorted(titulos) if r.startswith("anexos/")]
     anex.sort(key=lambda n: (n[1] != "anexos/README.html", n[1]))
 
+    tall = []
+    if "talleres/README.md" in titulos:
+        tall.append(hoja("talleres/README.md"))
+    for td in sorted({Path(r).parts[1] for r in titulos if r.startswith("talleres/") and len(Path(r).parts) > 2}):
+        hs = [hoja(r) for r in sorted(titulos, key=lambda x: (Path(x).name != "README.md", x)) if r.startswith(f"talleres/{td}/")]
+        tall.append([td.split("-", 1)[0] + " · " + td.split("-", 1)[1].replace("-", " ").capitalize(), None, hs])
+
     glo = []
     gl_rel = sorted(r for r in titulos if r.startswith("glosario/"))
 
@@ -340,7 +347,7 @@ def construir_nav(titulos: dict[str, str], areas, bloques, rutas) -> list:
         tec.append(["Capa heredada: módulos de ruta (línea base)", None, heredada])
 
     return [["Inicio", None, inicio, 1], ["Proyecto", None, proyecto], ["Documentación", None, doc], ["Programa", None, prog],
-            ["Roles", None, rol], ["Anexos", None, anex], ["Glosario", None, glo], ["Referencia técnica", None, tec]]
+            ["Roles", None, rol], ["Anexos", None, anex], ["Talleres", None, tall], ["Glosario", None, glo], ["Referencia técnica", None, tec]]
 
 
 def hojas_planas(nodos, acum=None):
@@ -355,7 +362,7 @@ def hojas_planas(nodos, acum=None):
 
 def migas_de(rel_html: Path, rel_md: str) -> str:
     p = prefijo(rel_html)
-    etiquetas = {"programa": "Programa", "clases": "Clases", "tronco-comun": "Guías de bloque", "rutas": "Roles", "anexos": "Anexos", "glosario": "Glosario",
+    etiquetas = {"programa": "Programa", "clases": "Clases", "tronco-comun": "Guías de bloque", "rutas": "Roles", "anexos": "Anexos", "talleres": "Talleres", "figuras": "Figuras", "glosario": "Glosario",
                  "documentacion": "Documentación", "esencial": "Esencial", "rutas-profesionales": "Capa heredada", "herramientas": "Herramientas", "catalogo": "Catálogo"}
     partes = [f'<a href="{p}index.html">Inicio</a>']
     for seg in Path(rel_md).parts[:-1]:
@@ -434,6 +441,8 @@ def construir():
             indice.append([tit, ruta_html, "Bloque"])
         elif rel.parts[0] == "anexos":
             indice.append([tit, ruta_html, "Anexo"])
+        elif rel.parts[0] == "talleres":
+            indice.append([tit, ruta_html, "Taller"])
         elif rel.parts[0] == "rutas":
             indice.append([tit, ruta_html, "Rol"])
         elif rel.parts[0] == "glosario":

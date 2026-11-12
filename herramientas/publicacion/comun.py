@@ -33,7 +33,7 @@ AVISO = ("Texto de estudio en nivel E0: redactado y pendiente de revisión disci
          "No otorga títulos ni habilita decisiones de vuelo, seguridad, médicas o jurídicas.")
 
 # Carpetas y archivos que forman la publicación
-RAICES_MD = ["programa", "rutas", "anexos", "glosario", "documentacion", "fuentes", "instrucciones"]
+RAICES_MD = ["programa", "rutas", "anexos", "talleres", "glosario", "documentacion", "fuentes", "instrucciones"]
 ARCHIVOS_RAIZ = ["README.md", "PROGRAMA_ACADEMICO_COMPLETO.md", "STATUS.md", "ROADMAP.md", "SYLLABUS.md",
                  "CHANGELOG.md", "LICENSE-CONTENT.md", "CONTRIBUTING.md", "SECURITY.md", "SUPPORT.md",
                  "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md", "DATA_LICENSES.md", "ASSET_LICENSES.md",
@@ -103,7 +103,7 @@ def archivos_md() -> list[Path]:
 
 def activos() -> list[Path]:
     res = []
-    for r in ("programa",):
+    for r in ("programa", "talleres"):
         for p in (ROOT / r).rglob("*"):
             if p.is_file() and p.suffix.lower() in EXT_ACTIVOS and "__pycache__" not in p.parts:
                 res.append(p)

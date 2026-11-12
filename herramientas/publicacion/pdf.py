@@ -97,6 +97,12 @@ def registro_unidades():
         U["rutas-" + p.stem] = ([p], None)
     for p in sorted((ROOT / "anexos").glob("*.md")):
         U["anexos-" + p.stem] = ([p], None)
+    if (ROOT / "talleres" / "README.md").exists():
+        U["talleres-indice"] = ([ROOT / "talleres" / "README.md"], None)
+    for d in sorted((ROOT / "talleres").glob("T*")):
+        if d.is_dir():
+            for p in sorted(d.glob("*.md"), key=lambda p: (p.name != "README.md", p.name)):
+                U["taller-" + d.name.split("-")[0] + "-" + p.stem] = ([p], None)
     for p in sorted((ROOT / "documentacion").glob("*.md")):
         U["doc-" + p.stem] = ([p], None)
     for p in sorted((ROOT / "glosario").rglob("*.md")):
@@ -277,6 +283,18 @@ def nombre_slug(s: str) -> str:
     return s[:60]
 
 
+def talleres_existentes():
+    return [d for d in sorted((ROOT / "talleres").glob("T*")) if d.is_dir() and (d / "README.md").exists()]
+
+
+def entradas_taller(d: Path, nivel: int) -> list:
+    tid = d.name.split("-")[0]
+    res = []
+    for p in sorted(d.glob("*.md"), key=lambda p: (p.name != "README.md", p.name)):
+        res.append((nivel, titulo_de(p.read_text(encoding="utf-8"), p.stem), f"taller-{tid}-{p.stem}"))
+    return res
+
+
 def plan_volumenes():
     areas, bloques = bloques_y_areas()
     rutas = json.loads((ROOT / "metadatos" / "rutas.json").read_text(encoding="utf-8"))
@@ -295,6 +313,11 @@ def plan_volumenes():
         for bid, b in bloques.items():
             if b["area"] == a and guia_bloque(bid):
                 ent.append((3, f"{bid} · {b['titulo']}", "bloque-" + bid))
+    ent.append((1, "Talleres integradores de misión", None))
+    if (ROOT / "talleres" / "README.md").exists():
+        ent.append((2, "Índice de talleres", "talleres-indice"))
+    for d in talleres_existentes():
+        ent += entradas_taller(d, 2)
     ent.append((1, "Anexos", None))
     for p in sorted((ROOT / "anexos").glob("*.md")):
         ent.append((2, titulo_de(p.read_text(encoding="utf-8"), p.stem), "anexos-" + p.stem))
@@ -346,6 +369,11 @@ def plan_volumenes():
                 if p:
                     ent.append((3, f"{cid} · {titulo_de(p.read_text(encoding='utf-8'), cid).split('—', 1)[-1].strip()}", "clase-" + cid))
         vols[f"Rol-{rid}-{nombre_slug(r['nombre'])}.pdf"] = (f"Rol {rid} · {r['nombre']}", ent)
+    for d in talleres_existentes():
+        tid = d.name.split("-")[0]
+        tit = titulo_de((d / "README.md").read_text(encoding="utf-8"), d.name)
+        ent = [(1, "Portada", f"portada-taller-{tid}")] + entradas_taller(d, 1)
+        vols[f"Taller-{d.name}.pdf"] = (tit, ent)
     return vols, rutas, uso, fund, areas, bloques
 
 
@@ -369,6 +397,11 @@ def portadas(vols, rutas, uso, areas, bloques):
         items = [f"{b} · {bloques[b]['titulo']}: {n} clases" for b, n in sorted(pb.items(), key=lambda x: int(x[0][1:]))]
         res[f"portada-rol-{rid}"] = html_portada(TITULO, f"Rol {rid} · {r['nombre']}",
                                                  [f"Versión {VERSION} · {hoy}", f"{len(uso[rid])} clases en {len(pb)} bloques"], items)
+    for d in talleres_existentes():
+        tid = d.name.split("-")[0]
+        tit = titulo_de((d / "README.md").read_text(encoding="utf-8"), d.name)
+        caps = [titulo_de(p.read_text(encoding="utf-8"), p.stem) for p in sorted(d.glob("[0-9]*.md"))]
+        res[f"portada-taller-{tid}"] = html_portada(TITULO, tit, [f"Versión {VERSION} · {hoy}", "Taller integrador de misión · nivel E0"], caps)
     return res
 
 

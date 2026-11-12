@@ -17,6 +17,7 @@ Qué hay en cada carpeta, **qué se escribe a mano y qué se genera**, y cómo f
 │   └── rutas-profesionales/            Capa heredada: módulos de la línea base inicial
 ├── rutas/                              24 guías de rol (prosa escrita + ruta generada)
 ├── anexos/                             20 anexos históricos, pedagógicos y de cálculo  (escritos)
+├── talleres/                           talleres integradores de misión (un taller por misión real; T01 Marte redactado)
 ├── glosario/                           Glosario completo (generado) y esencial (escrito)
 ├── documentacion/                      Contratos, estándares, planes y guías           (escritos)
 ├── metadatos/ · fuentes/ · instrucciones/   Inventarios, referencias preliminares y prompt maestro

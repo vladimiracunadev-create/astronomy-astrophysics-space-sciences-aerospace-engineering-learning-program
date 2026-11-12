@@ -60,6 +60,17 @@ Guía del rol y las clases que usa, en orden.
 | R23 · Derecho políticas y negocios espaciales | [Rol-R23-derecho-politicas-y-negocios-espaciales.pdf](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R23-derecho-politicas-y-negocios-espaciales.pdf) |
 | R24 · Educación historia y divulgación astronómica | [Rol-R24-educacion-historia-y-divulgacion-astronomica.pdf](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Rol-R24-educacion-historia-y-divulgacion-astronomica.pdf) |
 
+## 🛠️ PDF por taller
+
+Cada taller de misión completo, con sus capítulos y figuras. **Disponibles a partir de la versión 0.1.2** (hasta entonces, léelos en el [sitio](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/talleres/README.html) o en [`talleres/`](../talleres/README.md)).
+
+| Taller | PDF |
+|---|---|
+| T01 · Marte: planificar una misión como Mars 2020 / Perseverance | [Taller-T01-marte-mars-2020-perseverance.pdf](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Taller-T01-marte-mars-2020-perseverance.pdf) |
+| T02 · Luna: planificar una misión como Artemis I | [Taller-T02-luna-artemis-i.pdf](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Taller-T02-luna-artemis-i.pdf) |
+| T03 · Plutón: planificar un sobrevuelo como New Horizons | [Taller-T03-pluton-new-horizons.pdf](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Taller-T03-pluton-new-horizons.pdf) |
+| T04 · Punto L2: planificar un observatorio como el telescopio James Webb | [Taller-T04-punto-l2-james-webb.pdf](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Taller-T04-punto-l2-james-webb.pdf) |
+
 ## 🖥️ Aplicaciones sin conexión
 
 | Descarga | Archivo | Para qué |
