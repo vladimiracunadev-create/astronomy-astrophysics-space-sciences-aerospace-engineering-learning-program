@@ -389,7 +389,7 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 <!-- descargas:inicio -->
 ## 📦 Descargas y PDF
 
-**Versión: 0.1.0** (primera publicación). Es la única versión del programa: está en el archivo [`VERSION`](VERSION) y los enlaces apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.
+**Versión: 0.1.1.** Es la única versión numerada del programa: está en el archivo [`VERSION`](VERSION) y los enlaces apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.
 
 | PDF principal | Contenido |
 |---|---|
@@ -401,8 +401,8 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 
 | Descarga | Archivo | Para qué |
 |---|---|---|
-| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.0_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
-| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.0_Android.apk` | Móvil y tableta (Android 7 o superior) |
+| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.1_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
+| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.1_Android.apk` | Móvil y tableta (Android 7 o superior) |
 
 > El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
 

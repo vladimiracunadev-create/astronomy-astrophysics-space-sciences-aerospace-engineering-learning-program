@@ -114,7 +114,7 @@ def render(rol: dict, cat: dict) -> str:
         out.append("")
     out += ["## Huecos detectados en el catálogo", ""]
     if rol["huecos"]:
-        out += ["Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.", ""]
+        out += ["Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.", ""]
         for h in rol["huecos"]:
             out.append(f"- **{h['tema']}.** {h['motivo']} *Propuesta:* {h['propuesta']}.")
     else:

@@ -4,7 +4,7 @@ Cada una de las 24 rutas profesionales es un **rol**. Un rol no cursa «160 clas
 
 ## Qué cambia respecto del catálogo plano
 
-El catálogo `0.1.0` da a todas las rutas el mismo tamaño (8 módulos × 20 clases). El recorrido corrige esa simetría desde el uso: dos roles pueden compartir el tronco común y, aun así, usar clases distintas, en distinto orden y con distinto peso. El número de clases de un recorrido no tiene por qué coincidir con el de otro.
+El catálogo inicial da a todas las rutas el mismo tamaño (8 módulos × 20 clases). El recorrido corrige esa simetría desde el uso: dos roles pueden compartir el tronco común y, aun así, usar clases distintas, en distinto orden y con distinto peso. El número de clases de un recorrido no tiene por qué coincidir con el de otro.
 
 ## Fuente de verdad y herramientas
 

@@ -45,7 +45,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Biología celular y molecular, anatomía y fisiología humana generales.** Ningún título del catálogo trata biología celular, genética general, anatomía ni fisiología humana como base: B06 es química, B56-C02 y C05 son bioquímica y extremófilos, y B105 y R19-M01 presuponen esa base. Se verificó buscando «biolog», «celula», «genet» y «adn», que solo devuelve astrobiología y R19-M03. *Propuesta:* bloque nuevo de biología y fisiología humana de base (fundamentos).
 - **Bioingeniería, biotecnología y biomanufactura en microgravedad.** La búsqueda de «bioingenier», «biotecnolog» y «bioreactor» no devuelve ningún título; el nombre de la ruta incluye bioingeniería pero sus módulos son de medicina y fisiología. *Propuesta:* módulo nuevo de R19 o bloque nuevo de biotecnología espacial.

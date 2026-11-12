@@ -43,7 +43,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Derecho internacional público general: fuentes, sujetos y responsabilidad del Estado.** B119 y R23-M01 parten de los tratados espaciales, pero ningún título trata las fuentes del derecho internacional, la costumbre ni los criterios generales de atribución; la búsqueda de «derecho internacional» no devolvió clases. *Propuesta:* clases nuevas en B119.
 - **Derecho chileno aplicable a actividades espaciales, con jurisdicción y vigencia.** R23-M02-C15 y C16 son títulos («Ley chilena aplicable a verificar») sin una clase concreta; no se pudo verificar en esta sesión la normativa vigente, por lo que no se afirma contenido. *Propuesta:* clases nuevas en R23-M02 una vez se documenten las fuentes oficiales.

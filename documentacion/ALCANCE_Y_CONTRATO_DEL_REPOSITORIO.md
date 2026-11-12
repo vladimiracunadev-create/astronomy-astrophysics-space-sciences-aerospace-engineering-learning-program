@@ -4,7 +4,7 @@
 
 **Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial**  
 Repositorio: `astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program`  
-Versión académica documental: `0.1.0`.  
+Versión académica documental: `0.1.1`.  
 Es un programa único, continuo, independiente, versionado y extensible; **no** una colección de subprogramas separados.
 
 ## 2. Inventario canónico

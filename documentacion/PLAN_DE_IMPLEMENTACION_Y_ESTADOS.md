@@ -1,6 +1,6 @@
 # Plan de implementación, resolución de contenidos y estados
 
-**Última actualización:** 5 de noviembre de 2026 · **Versión documental:** `0.1.0`
+**Última actualización:** 5 de noviembre de 2026 · **Versión documental:** `0.1.1`
 
 Este plan separa tres dimensiones que no deben confundirse:
 

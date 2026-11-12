@@ -47,7 +47,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Aprendizaje automático general, validación y exactitud temática.** Sólo hay aprendizaje automático en R08-M06 (redes neuronales informadas por la física, anomalías) y en R16-M07; no hay clases de aprendizaje supervisado general, matriz de confusión, muestreo para validación ni sobreajuste. *Propuesta:* bloque nuevo de aprendizaje automático científico o clases nuevas en B15.
 - **Series temporales de imágenes y cubos de datos.** B14-C13 a C18 tratan paralelismo y flujos pero no cubos de datos ni catálogos de series de imágenes; R16-M06-C05 cubre STAC en una clase. *Propuesta:* clases nuevas en B14 o módulo nuevo de R16.

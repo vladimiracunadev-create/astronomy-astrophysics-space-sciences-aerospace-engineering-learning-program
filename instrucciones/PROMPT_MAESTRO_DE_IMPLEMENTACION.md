@@ -6,7 +6,7 @@ No renombrar ni simplificar como CIETES o acrónimos equivalentes.
 
 ## Encargo
 
-Transformar gradualmente la **malla documental (línea base de 5.120 registros; programa vigente de 2.077 clases)** en un programa educativo científico y profesional, preservando todas las convenciones, archivos y relaciones establecidas en la versión 0.1.0, sin inventar contenidos desarrollados ni sobrescribir trabajo válido. La línea base actual solo contiene títulos y referencias preliminares.
+Transformar gradualmente la **malla documental (línea base de 5.120 registros; programa vigente de 2.077 clases)** en un programa educativo científico y profesional, preservando todas las convenciones, archivos y relaciones establecidas en la línea base inicial, sin inventar contenidos desarrollados ni sobrescribir trabajo válido. La línea base actual solo contiene títulos y referencias preliminares.
 
 ## Primera acción obligatoria
 

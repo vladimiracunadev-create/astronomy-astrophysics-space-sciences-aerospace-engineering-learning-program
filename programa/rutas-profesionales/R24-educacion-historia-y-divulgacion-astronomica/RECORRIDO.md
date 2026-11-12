@@ -40,7 +40,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Saberes astronómicos específicos de pueblos originarios de Chile y su transmisión.** B02-C06 y R24-M03 nombran el tema de manera general; ningún título identifica pueblos concretos ni una fuente elaborada con las comunidades (búsqueda de mapuche, aymara, selk’nam, kawésqar, diaguita, atacameño y rapanui sin resultados). Tampoco se pudo verificar en esta sesión una fuente que los respalde, por lo que no se afirma contenido. *Propuesta:* clases nuevas en B02 o módulo nuevo de R24, con fuentes verificadas y consentimiento de las comunidades.
 - **Producción de recursos audiovisuales, planetario y museografía.** R24-M08 trata redacción, infografías y comunicación oral; la búsqueda de «planetario», «museo», «podcast», «audiovisual» y «video» no devolvió clases sobre producción multimedia ni espacios de divulgación. *Propuesta:* clases nuevas en R24-M08 o módulo nuevo de R24.

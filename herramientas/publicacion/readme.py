@@ -53,7 +53,7 @@ def _avisos() -> list[str]:
 def bloque() -> str:
     L = landing.url_descarga
     out = [INI, "## 📦 Descargas y PDF", "",
-           f"**Versión: {VERSION}** (primera publicación). Es la única versión del programa: está en el archivo [`VERSION`](VERSION) y los enlaces "
+           f"**Versión: {VERSION}.** Es la única versión numerada del programa: está en el archivo [`VERSION`](VERSION) y los enlaces "
            "apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.", "",
            f"| PDF principal | Contenido |", "|---|---|",
            f"| [**📕 Programa general**]({L('Programa-General.pdf')}) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos, la documentación y los glosarios |", "",

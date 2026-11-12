@@ -43,7 +43,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Entrenamiento aeronáutico, vuelo parabólico y pilotaje.** Ningún título trata aeronáutica, vuelo en aeronave, vuelo parabólico ni pilotaje; B77 es dinámica de lanzamiento y reentrada. Se verificó buscando en los títulos «aeronave», «parabólico», «aeronáutica» y «aviación», sin resultados pertinentes. *Propuesta:* bloque nuevo de aeronáutica y vuelo, o clases nuevas en B104.
 - **Selección psicológica y evaluación psicométrica de candidatos.** Sólo B104-C03 (Selección y aptitud) y R18-M07 tratan el tema; no hay clases de psicología aplicada, psicometría ni evaluación de aislamiento y estrés. *Propuesta:* clases nuevas en B104 o módulo nuevo de R18.

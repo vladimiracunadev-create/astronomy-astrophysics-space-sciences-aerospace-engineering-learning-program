@@ -6,112 +6,112 @@
    "area": "A01",
    "titulo": "El universo y el pensamiento científico",
    "id_anterior": "B01",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B02",
    "area": "A01",
    "titulo": "Historia, arqueoastronomía y culturas del cielo",
    "id_anterior": "B02",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B03",
    "area": "A01",
    "titulo": "Matemática elemental para ciencias espaciales",
    "id_anterior": "B03",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B04",
    "area": "A01",
    "titulo": "Álgebra, trigonometría y geometría espacial",
    "id_anterior": "B04",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B05",
    "area": "A01",
    "titulo": "Física fundamental para el espacio",
    "id_anterior": "B05",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B06",
    "area": "A01",
    "titulo": "Química y materia del universo",
    "id_anterior": "B06",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B07",
    "area": "A01",
    "titulo": "Informática científica desde cero",
    "id_anterior": "B07",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B08",
    "area": "A01",
    "titulo": "Observación del cielo y astronomía práctica",
    "id_anterior": "B08",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B09",
    "area": "A02",
    "titulo": "Cálculo diferencial e integral",
    "id_anterior": "B09",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B10",
    "area": "A02",
    "titulo": "Álgebra lineal y matemáticas geométricas",
    "id_anterior": "B10",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B11",
    "area": "A02",
    "titulo": "Ecuaciones diferenciales y simulación numérica",
    "id_anterior": "B11",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B12",
    "area": "A02",
    "titulo": "Probabilidad, estadística e incertidumbre",
    "id_anterior": "B12",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B13",
    "area": "A02",
    "titulo": "Metrología, tiempo y mediciones científicas",
    "id_anterior": "B13",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B14",
    "area": "A02",
    "titulo": "Computación científica y ciencia abierta",
    "id_anterior": "B14",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B15",
    "area": "A02",
    "titulo": "Señales, imágenes y estimación científica",
    "id_anterior": "B15",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B16",
    "area": "A02",
    "titulo": "Sistemas dinámicos y control automático",
    "id_anterior": "B16",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B17",
@@ -167,56 +167,56 @@
    "area": "A03",
    "titulo": "Física y evolución de estrellas",
    "id_anterior": "B17",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B25",
    "area": "A03",
    "titulo": "Galaxias y medio interestelar",
    "id_anterior": "B18",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B26",
    "area": "A03",
    "titulo": "Relatividad y cosmología",
    "id_anterior": "B19",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B27",
    "area": "A03",
    "titulo": "Objetos compactos y altas energías",
    "id_anterior": "B20",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B28",
    "area": "A03",
    "titulo": "Astronomía multimensajero",
    "id_anterior": "B21",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B29",
    "area": "A03",
    "titulo": "Astronomía temporal y exoplanetas",
    "id_anterior": "B22",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B30",
    "area": "A03",
    "titulo": "Heliofísica y física de plasmas",
    "id_anterior": "B23",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B31",
    "area": "A03",
    "titulo": "Física cuántica, nuclear y astropartículas",
    "id_anterior": "B24",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B32",
@@ -286,56 +286,56 @@
    "area": "A04",
    "titulo": "Óptica geométrica y diseño de telescopios",
    "id_anterior": "B25",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B42",
    "area": "A04",
    "titulo": "Óptica física y óptica adaptativa",
    "id_anterior": "B26",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B43",
    "area": "A04",
    "titulo": "Construcción y mecánica de telescopios",
    "id_anterior": "B27",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B44",
    "area": "A04",
    "titulo": "Detectores y adquisición astronómica",
    "id_anterior": "B28",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B45",
    "area": "A04",
    "titulo": "Espectroscopía, fotometría y polarimetría",
    "id_anterior": "B29",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B46",
    "area": "A04",
    "titulo": "Radioastronomía e interferometría",
    "id_anterior": "B30",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B47",
    "area": "A04",
    "titulo": "Instrumentación y observatorios espaciales",
    "id_anterior": "B31",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B48",
    "area": "A04",
    "titulo": "Operaciones de observatorios científicos",
    "id_anterior": "B32",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B49",
@@ -363,56 +363,56 @@
    "area": "A05",
    "titulo": "Formación y dinámica de sistemas planetarios",
    "id_anterior": "B33",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B53",
    "area": "A05",
    "titulo": "Astrogeología y geodesia planetaria",
    "id_anterior": "B34",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B54",
    "area": "A05",
    "titulo": "Atmósferas y climatología planetaria",
    "id_anterior": "B35",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B55",
    "area": "A05",
    "titulo": "Astroquímica y geoquímica extraterrestre",
    "id_anterior": "B36",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B56",
    "area": "A05",
    "titulo": "Astrobiología y vida extraterrestre",
    "id_anterior": "B37",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B57",
    "area": "A05",
    "titulo": "Observación terrestre y geociencias orbitales",
    "id_anterior": "B38",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B58",
    "area": "A05",
    "titulo": "Asteroides, cometas y defensa planetaria",
    "id_anterior": "B39",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B59",
    "area": "A05",
    "titulo": "Recursos in situ y sostenibilidad extraterrestre",
    "id_anterior": "B40",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B60",
@@ -496,56 +496,56 @@
    "area": "A06",
    "titulo": "Mecánica orbital fundamental",
    "id_anterior": "B41",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B72",
    "area": "A06",
    "titulo": "Perturbaciones y evolución de órbitas",
    "id_anterior": "B42",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B73",
    "area": "A06",
    "titulo": "Mecánica celeste, resonancias y caos",
    "id_anterior": "B43",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B74",
    "area": "A06",
    "titulo": "Estimación de órbitas y navegación espacial",
    "id_anterior": "B44",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B75",
    "area": "A06",
    "titulo": "Trayectorias y misiones interplanetarias",
    "id_anterior": "B45",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B76",
    "area": "A06",
    "titulo": "Dinámica cislunar y operaciones de proximidad",
    "id_anterior": "B46",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B77",
    "area": "A06",
    "titulo": "Dinámica de lanzamiento y reentrada",
    "id_anterior": "B47",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B78",
    "area": "A06",
    "titulo": "Tecnologías de propulsión espacial",
    "id_anterior": "B48",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B79",
@@ -580,56 +580,56 @@
    "area": "A07",
    "titulo": "Ingeniería de sistemas y diseño de misiones",
    "id_anterior": "B49",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B84",
    "area": "A07",
    "titulo": "Estructuras, materiales y fabricación espacial",
    "id_anterior": "B50",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B85",
    "area": "A07",
    "titulo": "Gestión térmica y entorno espacial",
    "id_anterior": "B51",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B86",
    "area": "A07",
    "titulo": "Sistemas de potencia y energía espacial",
    "id_anterior": "B52",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B87",
    "area": "A07",
    "titulo": "Sensores y control de actitud",
    "id_anterior": "B53",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B88",
    "area": "A07",
    "titulo": "Aviónica y software crítico espacial",
    "id_anterior": "B54",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B89",
    "area": "A07",
    "titulo": "Comunicaciones y navegación satelital",
    "id_anterior": "B55",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B90",
    "area": "A07",
    "titulo": "Integración, ensayos y calificación espacial",
    "id_anterior": "B56",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B91",
@@ -671,14 +671,14 @@
    "area": "A08",
    "titulo": "Control y operación de misiones espaciales",
    "id_anterior": "B57",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B97",
    "area": "A08",
    "titulo": "Robótica y construcción extraterrestre",
    "id_anterior": "B61",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B98",
@@ -727,21 +727,21 @@
    "area": "A09",
    "titulo": "Astronáutica y preparación de astronautas",
    "id_anterior": "B58",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B105",
    "area": "A09",
    "titulo": "Medicina y biología espacial",
    "id_anterior": "B59",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B106",
    "area": "A09",
    "titulo": "Hábitats espaciales y soporte vital",
    "id_anterior": "B60",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B107",
@@ -825,14 +825,14 @@
    "area": "A10",
    "titulo": "Tráfico espacial y sostenibilidad orbital",
    "id_anterior": "B62",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B119",
    "area": "A10",
    "titulo": "Derecho, seguridad y geopolítica espacial",
    "id_anterior": "B63",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B120",
@@ -867,7 +867,7 @@
    "area": "A11",
    "titulo": "Industria, economía, ética y proyectos espaciales",
    "id_anterior": "B64",
-   "origen": "línea base 0.1.0"
+   "origen": "línea base inicial"
   },
   {
    "id": "B125",

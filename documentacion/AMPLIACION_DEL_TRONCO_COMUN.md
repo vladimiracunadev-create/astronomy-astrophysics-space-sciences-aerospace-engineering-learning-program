@@ -50,7 +50,7 @@ Cada módulo de ruta tiene 10 temas (sus 20 clases son pares «concepto + aplica
 
 ## Las áreas no tienen el mismo tamaño
 
-La línea base reparte 160 clases a cada área (8 bloques × 20). Esa simetría es una convención de la versión `0.1.0`, no una medida de lo que cada campo necesita. La ampliación hace crecer cada área según la demanda real de los roles; `TAMANOS_DE_AREA.md` muestra el resultado y se actualiza con cada rol que se ubica. Las 160 clases básicas del área A01 no se tocan.
+La línea base reparte 160 clases a cada área (8 bloques × 20). Esa simetría es una convención de la línea base inicial, no una medida de lo que cada campo necesita. La ampliación hace crecer cada área según la demanda real de los roles; `TAMANOS_DE_AREA.md` muestra el resultado y se actualiza con cada rol que se ubica. Las 160 clases básicas del área A01 no se tocan.
 
 ## Orden de trabajo
 

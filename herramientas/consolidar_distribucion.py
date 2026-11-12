@@ -108,7 +108,7 @@ def tamanos(datos: dict) -> str:
     for c in datos["clases"]:
         nuevas[c["area"]] += 1
     out = ["# Tamaños de área tras la distribución de los módulos de las rutas", "",
-           "Generado por `herramientas/consolidar_distribucion.py`. Cada tema de un módulo de ruta que no tiene clase en el tronco común aparece como clase nueva (solo título, estado E0). Las áreas **no** tienen el mismo tamaño: crecen según lo que los roles necesitan. La línea base `0.1.0` no cambia.", "",
+           "Generado por `herramientas/consolidar_distribucion.py`. Cada tema de un módulo de ruta que no tiene clase en el tronco común aparece como clase nueva (solo título, estado E0). Las áreas **no** tienen el mismo tamaño: crecen según lo que los roles necesitan. La línea base inicial no cambia.", "",
            "| Área | Clases base | Clases nuevas propuestas | Total |", "|---|---:|---:|---:|"]
     for a in sorted(base):
         out.append(f"| {a} | {base[a]} | {nuevas.get(a, 0)} | {base[a] + nuevas.get(a, 0)} |")

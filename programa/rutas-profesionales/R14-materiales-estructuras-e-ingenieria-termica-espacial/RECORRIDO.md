@@ -45,7 +45,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Ensayo acústico y ruido de lanzamiento.** Ningún título del catálogo trata el ensayo acústico ni el campo acústico del lanzamiento; B84-C01, B90-C09 y B90-C10 cubren vibración y choque pero no ruido acústico. *Propuesta:* clases nuevas en B90 sobre ensayos acústicos y entorno de lanzamiento.
 - **Normas y estándares de ingeniería espacial con versión y jurisdicción.** No hay clases sobre estándares de ingeniería espacial (por ejemplo de agencias o ECSS); R13-M07-C17 menciona normas de aseguramiento solo para software. *Propuesta:* bloque nuevo transversal de estándares y aseguramiento del producto.

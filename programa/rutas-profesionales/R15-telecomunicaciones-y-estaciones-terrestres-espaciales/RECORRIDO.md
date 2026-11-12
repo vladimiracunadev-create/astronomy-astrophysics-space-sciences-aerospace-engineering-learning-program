@@ -44,7 +44,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Medida y caracterización de hardware de radiofrecuencia en laboratorio.** Ningún título del catálogo trata analizadores de espectro, analizadores vectoriales de redes, ni bancos de prueba de transpondedores; R15-M03-C19 y C20 cubren solo la prueba de un enlace digital. *Propuesta:* clases nuevas en B89 o módulo nuevo de R15.
 - **Enlaces entre satélites y redes de retransmisión.** B89-C17 trata constelaciones y cobertura, y R18-M05 protocolos de relevo para astronautas, pero no hay clases de enlaces intersatelitales ni de integración con redes de relevo. *Propuesta:* clases nuevas en B89 o módulo nuevo de R15.

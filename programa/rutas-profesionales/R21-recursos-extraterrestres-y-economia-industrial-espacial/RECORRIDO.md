@@ -47,7 +47,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Clasificación de recursos y reservas con estándares de reporte.** R21-M02-C09 trata la estimación de reservas, pero ningún título aborda marcos de reporte de recursos y reservas minerales ni su adaptación extraterrestre (búsqueda de «reserva», «recursos minerales» y «geoestadística»). *Propuesta:* clases nuevas en B59 o módulo nuevo de R21.
 - **Ingeniería minera: geotecnia, excavación y planificación de mina.** Búsqueda de «minería», «voladura», «geotecnia» y «cielo abierto» sin resultados; B59-C18 trata la fiabilidad de equipos y R21-M04-C03 la excavación robótica conceptual. *Propuesta:* módulo nuevo de R21.

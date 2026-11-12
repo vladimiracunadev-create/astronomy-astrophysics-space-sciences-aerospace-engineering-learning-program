@@ -54,7 +54,7 @@ AREAS = [
 ]
 AREA_ORDEN = [a[0] for a in AREAS]
 
-# Cinco bloques existentes (antes B57-B64 en la línea base 0.1.0) se reubican en áreas más claras.
+# Cinco bloques existentes (antes B57-B64 en la línea base inicial) se reubican en áreas más claras.
 AREA_BLOQUE_EXISTENTE = {"B96": "A08", "B97": "A08", "B104": "A09", "B105": "A09", "B106": "A09", "B118": "A10", "B119": "A10", "B124": "A11"}
 
 # Bloques nuevos pequeños que se absorben en un bloque existente (como clases C21+).

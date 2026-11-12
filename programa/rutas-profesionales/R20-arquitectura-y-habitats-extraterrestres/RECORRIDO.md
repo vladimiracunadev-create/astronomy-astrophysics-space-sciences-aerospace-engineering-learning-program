@@ -47,7 +47,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Normas de factores humanos y habitabilidad con edición y alcance.** El catálogo trata habitabilidad (B106-C01, R20-M07) pero ninguna clase estudia estándares como NASA-STD-3001 Vol. 2 (Rev. F, 14/07/2026 según standards.nasa.gov/node/237, consultado el 05/11/2026) ni su traducción a requisitos; la búsqueda por «norma» y «estándar» en los títulos solo devolvió CCSDS y mitigación de desechos. *Propuesta:* clases nuevas en B106 o bloque transversal de estándares y aseguramiento del producto.
 - **Diseño arquitectónico y planificación espacial (programa, circulación, composición) como disciplina.** R20-M01 cubre distribución de módulos, pero ningún título trata el análisis de programa, la representación de planos ni el modelado de información de construcción. *Propuesta:* módulo nuevo de R20 o clases nuevas en B106.

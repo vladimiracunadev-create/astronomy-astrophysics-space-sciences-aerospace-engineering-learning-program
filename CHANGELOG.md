@@ -4,6 +4,14 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 > La versión de la publicación está en el archivo `VERSION` y en la etiqueta `vX.Y.Z` de GitHub. La carpeta `catalogo/estructura/` conserva su nombre histórico: contiene la estructura vigente (12 áreas, 133 bloques, 2.077 clases).
 
+## [0.1.1] — 2026-11-12 · diagramas dibujados
+
+### Cambiado
+
+- Los 2.211 diagramas Mermaid de las clases, las guías de bloque y los glosarios se dibujan como SVG vectorial en el sitio, las aplicaciones (Android y Windows) y los PDF; antes aparecían como texto. Los diagramas anchos de izquierda a derecha se dibujan de arriba abajo y con letra más grande para que se lean. Los `.md` no cambian: GitHub los sigue dibujando.
+- README: nuevo orden (descripción, áreas y bloques, anexos, roles, descargas e índice de todos los documentos), lista completa de PDF en `documentacion/DESCARGAS_Y_PDF.md` y avisos redundantes retirados.
+- Las etiquetas «línea base 0.1.0» pasan a «línea base inicial»: la única versión numerada es la de la publicación.
+
 ## [0.1.0] — 2026-11-11 · primera publicación
 
 ### Añadido

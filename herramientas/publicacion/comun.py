@@ -74,7 +74,22 @@ def titulo_de(texto: str, defecto: str) -> str:
 def md_a_html(texto: str) -> str:
     texto = re.sub(r"<!--.*?-->", "", texto, flags=re.S)
     _MD.reset()
-    return _MD.convert(texto)
+    return _diagramas(_MD.convert(texto))
+
+
+def _diagramas(html_: str) -> str:
+    """Sustituye los bloques Mermaid por su SVG (build/mermaid/cache); si falta, deja el texto."""
+    import html as _h
+    import mermaid_svg
+
+    def sub(m):
+        fuente = _h.unescape(m.group(1))
+        svg = mermaid_svg.leer(fuente)
+        if svg is None:
+            return m.group(0)
+        return f'<figure class="diagrama diagrama-svg">{svg}</figure>'
+
+    return re.sub(r'<pre><code class="language-mermaid">(.*?)</code></pre>', sub, html_, flags=re.S)
 
 
 def archivos_md() -> list[Path]:

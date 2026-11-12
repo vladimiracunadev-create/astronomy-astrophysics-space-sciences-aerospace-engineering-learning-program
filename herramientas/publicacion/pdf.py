@@ -40,6 +40,7 @@ pre{background:#f4f4f4;padding:6px 8px;border:1px solid #ddd;font-size:8.6pt;whi
 pre code{background:none;padding:0}
 blockquote{margin:.8em 0;padding:.1em 1em;border-left:3px solid #999;color:#333;background:#fafafa}
 img{max-width:100%;height:auto}
+.diagrama-svg{margin:.8em 0;text-align:center;break-inside:avoid}.diagrama-svg svg{max-width:100%;height:auto;max-height:230mm}
 .unidad{break-before:page}.unidad:first-child{break-before:auto}
 .portada{text-align:center;padding-top:60mm}
 .portada h1{border:none;font-size:26pt}.portada .sub{font-size:15pt;margin:.8em 0}.portada .meta{margin-top:2em;color:#444}

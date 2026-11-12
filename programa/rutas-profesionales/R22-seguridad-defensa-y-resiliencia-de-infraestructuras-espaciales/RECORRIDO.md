@@ -47,7 +47,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Marcos y estándares de ciberseguridad aplicados a sistemas espaciales con edición y fecha.** R22-M06 y B88-C17 tratan ciberseguridad, pero ningún título estudia marcos publicados como NIST IR 8401 (Satellite Ground Segment: Applying the Cybersecurity Framework to Satellite Command and Control, 03/01/2023 según csrc.nist.gov consultado el 05/11/2026) ni estándares de seguridad de enlace; la búsqueda de «CCSDS» solo devolvió telemetría y telecomando, y «norma»/«estándar» no devolvió clases de ciberseguridad. *Propuesta:* clases nuevas en B88 o bloque nuevo transversal de estándares y aseguramiento del producto.
 - **Resiliencia de navegación y sincronización (PNT) frente a interferencias, con enfoque defensivo.** B89-C16 y B118 tratan GNSS y radiointerferencia, pero ningún título aborda la detección, la mitigación o la redundancia de PNT frente a interferencias; la búsqueda de «suplantación», «jamming» y «spoofing» no devolvió clases. *Propuesta:* clases nuevas en B89 o módulo nuevo de R22.

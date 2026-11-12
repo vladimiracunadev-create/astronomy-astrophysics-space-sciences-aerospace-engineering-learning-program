@@ -46,7 +46,7 @@ Cada módulo de la ruta es una lista de 10 temas. Su contenido pertenece al áre
 
 ## Huecos detectados en el catálogo
 
-Temas que este rol necesita y que el catálogo `0.1.0` no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
+Temas que este rol necesita y que el catálogo inicial no cubre. Alimentan la [ampliación del tronco común](../../../documentacion/AMPLIACION_DEL_TRONCO_COMUN.md); no cambian ningún ID existente.
 
 - **Middleware, arquitectura de software y herramientas de integración de robots.** La búsqueda de «middleware» y «sistema operativo de robots» no devuelve títulos; B88 trata aviónica y R17-M08-C07 la arquitectura de autonomía, pero no hay clases de software de robots modular ni de integración de sensores y actuadores reales. *Propuesta:* clases nuevas en B97 o módulo nuevo de R17.
 - **Aprendizaje por refuerzo y planificación automática de tareas.** El único aprendizaje automático del catálogo es R08-M06 (supervisado, no supervisado y PINN) y R16-M07; ningún título trata aprendizaje por refuerzo ni planificación de tareas de alto nivel para autonomía. *Propuesta:* bloque nuevo de aprendizaje automático científico o clases nuevas en B97.

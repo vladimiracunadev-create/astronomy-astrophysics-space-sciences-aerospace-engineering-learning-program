@@ -2,7 +2,7 @@
 
 > **Actualización:** las líneas L2 a L5 se resolvieron al ubicar los 1.920 temas de los módulos de ruta en áreas y bloques (`catalogo/estructura/colocacion/`) y producir el programa unificado de 2.077 clases. Este plan conserva el diagnóstico de la línea base.
 
-**Fecha:** 5 de noviembre de 2026 · **Versión documental:** `0.1.0` · **Estado:** propuesta; ninguna clase cambia de estado con este documento.
+**Fecha:** 5 de noviembre de 2026 · **Versión documental:** `0.1.1` · **Estado:** propuesta; ninguna clase cambia de estado con este documento.
 
 Este plan se ejecuta **antes** de la resolución masiva de B01 del [plan de implementación](PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md). Su objetivo es que el contenido que se redacte sea completo, diferenciado y no repetitivo, en lugar de redactar 5.120 clases sobre una estructura uniforme.
 

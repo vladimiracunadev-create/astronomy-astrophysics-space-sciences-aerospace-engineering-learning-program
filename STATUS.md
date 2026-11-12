@@ -1,6 +1,6 @@
 # Estado verificable
 
-**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.0`
+**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.1`
 
 ## Resumen
 
@@ -27,7 +27,7 @@
 | Clases con texto redactado (A11, B124–B127) | 44 de 44 (20 de la línea base y 24 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (A12, B128–B133) | 46 de 46 (todas antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (total) | 2.077 de 2.077 (1.280 de la línea base y 797 antes programadas); ninguna con revisión disciplinar | `programa/clases/` |
-| Publicación `v0.1.0` | 37 PDF verificados (general: 4.268 págs.; 12 áreas y 24 roles con todas sus clases), APK de Android probado en emulador y ZIP portable de Windows; contenido en E0 | `herramientas/publicacion/verificar.py` |
+| Publicación `v0.1.1` | 37 PDF verificados (12 áreas y 24 roles con todas sus clases), con los diagramas dibujados; APK de Android y ZIP portable de Windows; contenido en E0 | `herramientas/publicacion/verificar.py` |
 | Clases programadas (citadas y ubicadas) | 797: las 797 ya tienen texto | `catalogo/estructura/clases_programadas.jsonl` | `catalogo/estructura/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |

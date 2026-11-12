@@ -73,7 +73,7 @@ article summary{cursor:pointer}
 .alerta{margin:1.1em 0;padding:10px 16px;border-radius:8px;border-left:5px solid var(--ac);background:var(--info);color:var(--fg)}
 .alerta p{margin:.4em 0}.alerta .etiq{display:block;font-weight:700;text-transform:uppercase;font-size:.78rem;letter-spacing:.06em}
 .alerta.a-important,.alerta.a-warning,.alerta.a-caution{background:var(--aviso);border-left-color:#e0a100}.alerta.a-caution{background:var(--peli);border-left-color:#d23}
-.diagrama{margin:1em 0}.diagrama figcaption{font-size:.8rem;color:var(--mut)}
+.diagrama-svg{background:#fff;border:1px solid var(--bd,#ddd);border-radius:8px;padding:10px;overflow-x:auto;text-align:center}.diagrama-svg svg{max-width:100%;height:auto}.diagrama{margin:1em 0}.diagrama figcaption{font-size:.8rem;color:var(--mut)}
 .enlace-ausente{border-bottom:1px dotted var(--mut);cursor:help}
 .copiar{position:absolute;top:6px;right:6px;font-size:.72rem;padding:2px 8px;border:1px solid var(--lin);border-radius:6px;background:var(--card);color:var(--mut);cursor:pointer;opacity:0}
 article pre:hover .copiar{opacity:1}
