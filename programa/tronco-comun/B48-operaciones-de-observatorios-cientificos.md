@@ -1,6 +1,6 @@
 # B48 — Operaciones de observatorios científicos
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B48-C21` a `B48-C23`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 3 clases programadas por la ampliación (`B48-C21` a `B48-C23`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
@@ -36,7 +36,7 @@ flowchart LR
 
 **Descripción textual.** Seis tramos encadenados: gobierno y planificación (C01–C04), sitio y entorno (C05–C07), telescopio automatizado (C08–C10), calidad y calibración (C11–C15), datos y sociedad (C16–C20) y software de observatorio (C21–C23).
 
-## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
+## 🗂️ Las 23 clases en resumen (20 de la línea base + 3 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 

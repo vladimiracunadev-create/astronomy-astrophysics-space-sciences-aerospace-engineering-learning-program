@@ -1,6 +1,6 @@
 # B15 — Señales, imágenes y estimación científica
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 4 clases ampliadas (`B15-C21` a `B15-C24`), redactadas por orden expresa del autor y pendientes de revisión como todas las demás. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 4 clases ampliadas (`B15-C21` a `B15-C24`), redactadas por orden expresa del autor y pendientes de revisión como todas las demás. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
@@ -41,7 +41,7 @@ flowchart LR
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga en E0, su enlace lleva a su fila en esta tabla.
 
-Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje. Las clases B15-C21 a C24 son la ampliación `0.2.0` del bloque y se resumen en el tramo 6.
+Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcial, pendiente de revisión). La columna «Evidencia» indica el producto que demostrará el aprendizaje. Las clases B15-C21 a C24 son la ampliación del bloque y se resumen en el tramo 6.
 
 ### Tramo 1 · Señales en una dimensión
 
@@ -88,7 +88,7 @@ Los resúmenes son la **especificación pedagógica propuesta** (nivel E1 parcia
 |---|---|---|---|
 | <a id="b15-c20"></a>[B15-C20](../clases/B15/B15-C20-proyecto-de-deteccion-y-seguimiento/CLASE.md) | Proyecto de detección y seguimiento | Integrar calibración, detección, alineación y seguimiento en un caso sintético con verdad conocida. | Proyecto con datos sintéticos, código verificado e informe |
 
-### Tramo 6 · Ampliación (`0.2.0`)
+### Tramo 6 · Ampliación
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

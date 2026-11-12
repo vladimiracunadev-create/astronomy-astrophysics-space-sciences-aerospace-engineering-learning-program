@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B104, nivel N3 (clase añadida en la estructura `0.2.0`). B96-C10 planifica cargas útiles desde tierra; esta clase trata lo que hace la tripulación a bordo: **repartir las horas** entre experimentos, **ejecutar** un procedimiento y **registrar** lo hecho de forma que el dato sea íntegro y reproducible. Usas una mochila para asignar horas por valor, y un registro encadenado con hash para detectar ediciones. Todo es **sintético** (semilla 104).
+Clase 23 del bloque B104, nivel N3 (clase añadida en la estructura vigente). B96-C10 planifica cargas útiles desde tierra; esta clase trata lo que hace la tripulación a bordo: **repartir las horas** entre experimentos, **ejecutar** un procedimiento y **registrar** lo hecho de forma que el dato sea íntegro y reproducible. Usas una mochila para asignar horas por valor, y un registro encadenado con hash para detectar ediciones. Todo es **sintético** (semilla 104).
 
 ## 2. Por qué esta clase existe
 

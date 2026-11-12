@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B13 (ampliación `0.2.0`). [C10](../B13-C10-tiempo-sidereo-local-y-terrestre/CLASE.md) trató el ángulo de rotación terrestre; [C11](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md), el marco terrestre; [C21](../B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md), el celeste. Aquí unes los tres con la cadena de transformación `[GCRS] = Q R W [ITRS]` y estudias los **parámetros de orientación terrestre (EOP)**: UT1−UTC, movimiento polar y movimiento del polo celeste (precesión y nutación). Nivel N2. Construyes las matrices de rotación y mides en metros el efecto de cada parámetro. No implementas el modelo completo de precesión-nutación ni descargas series reales de EOP.
+Clase 22 del bloque B13 (ampliación). [C10](../B13-C10-tiempo-sidereo-local-y-terrestre/CLASE.md) trató el ángulo de rotación terrestre; [C11](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md), el marco terrestre; [C21](../B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md), el celeste. Aquí unes los tres con la cadena de transformación `[GCRS] = Q R W [ITRS]` y estudias los **parámetros de orientación terrestre (EOP)**: UT1−UTC, movimiento polar y movimiento del polo celeste (precesión y nutación). Nivel N2. Construyes las matrices de rotación y mides en metros el efecto de cada parámetro. No implementas el modelo completo de precesión-nutación ni descargas series reales de EOP.
 
 ## 2. Por qué esta clase existe
 

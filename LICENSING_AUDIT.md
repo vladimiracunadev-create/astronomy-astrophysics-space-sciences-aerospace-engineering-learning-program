@@ -20,7 +20,7 @@
 
 ## Inventario actual
 
-- 5.120 registros curriculares preliminares de la línea base y su reorganización en el programa `0.2.0`, cuya selección, estructura y redacción original quedan bajo la licencia de contenido.
+- 5.120 registros curriculares preliminares de la línea base y su reorganización en el programa vigente, cuya selección, estructura y redacción original quedan bajo la licencia de contenido.
 - 25 referencias institucionales preliminares, enlazadas pero no relicenciadas.
 - 832 relaciones preliminares de trazabilidad, que no prueban verificación de las fuentes.
 - ningún activo visual, audiovisual, tipográfico o 3D externo redistribuido en la revisión auditada.

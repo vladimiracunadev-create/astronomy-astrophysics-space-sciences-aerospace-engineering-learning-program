@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B83 (clase de la ampliación `0.2.0`). Nivel N3. El **análisis de modos y efectos de fallo** (FMEA) recorre cada componente, lista cómo puede fallar (modo), qué provoca (efecto) y cuán grave, probable y detectable es, para priorizar acciones antes de construir. Aquí armas un FMEA de diez modos **sintéticos** de cinco componentes de ESTRELLA-S, calculas el número de prioridad de riesgo (RPN) y la probabilidad de cada modo en 3 años a partir de tasas de falla, y reevalúas tras mejorar la detección. El manual de NASA (S4) pide identificar y analizar fuentes, consecuencias y verosimilitud de los riesgos; el FMEA es una técnica que alimenta ese registro (la página consultada no la menciona).
+Clase 22 del bloque B83 (clase de la ampliación). Nivel N3. El **análisis de modos y efectos de fallo** (FMEA) recorre cada componente, lista cómo puede fallar (modo), qué provoca (efecto) y cuán grave, probable y detectable es, para priorizar acciones antes de construir. Aquí armas un FMEA de diez modos **sintéticos** de cinco componentes de ESTRELLA-S, calculas el número de prioridad de riesgo (RPN) y la probabilidad de cada modo en 3 años a partir de tasas de falla, y reevalúas tras mejorar la detección. El manual de NASA (S4) pide identificar y analizar fuentes, consecuencias y verosimilitud de los riesgos; el FMEA es una técnica que alimenta ese registro (la página consultada no la menciona).
 
 ## 2. Por qué esta clase existe
 

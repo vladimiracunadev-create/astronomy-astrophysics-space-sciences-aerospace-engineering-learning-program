@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase programada del bloque B12 (ampliación `0.2.0`), pensada para quienes analizan medidas repetidas en muy pocas unidades (por ejemplo, un estudio fisiológico con una tripulación pequeña). Hasta [C24](../B12-C24-metricas-de-habilidad-skill-scores-de-pronostico/CLASE.md) tratabas las observaciones como independientes. Aquí, las mediciones de una misma unidad se parecen entre sí. Verás el modelo de **intercepto aleatorio**, la correlación intraclase, el efecto del agrupamiento sobre los errores típicos y los intervalos, y por qué con muestras pequeñas todo es más delicado. Nivel N4. No verás el ajuste general por REML con datos faltantes ni pendientes aleatorias.
+Clase programada del bloque B12 (ampliación), pensada para quienes analizan medidas repetidas en muy pocas unidades (por ejemplo, un estudio fisiológico con una tripulación pequeña). Hasta [C24](../B12-C24-metricas-de-habilidad-skill-scores-de-pronostico/CLASE.md) tratabas las observaciones como independientes. Aquí, las mediciones de una misma unidad se parecen entre sí. Verás el modelo de **intercepto aleatorio**, la correlación intraclase, el efecto del agrupamiento sobre los errores típicos y los intervalos, y por qué con muestras pequeñas todo es más delicado. Nivel N4. No verás el ajuste general por REML con datos faltantes ni pendientes aleatorias.
 
 ## 2. Por qué esta clase existe
 

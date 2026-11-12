@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Última clase programada del bloque B12 (ampliación `0.2.0`). En [C09](../B12-C09-pruebas-de-hipotesis/CLASE.md) definiste la potencia y el error tipo I; en [C25](../B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/CLASE.md) viste lo frágil que es la estimación con pocas unidades. Aquí juntas ambas ideas: **qué se puede detectar con una población pequeña, cuánto exagera el efecto lo que sí se detecta y cuán creíbles son los resultados «significativos»**. Nivel N4. No verás metaanálisis ni diseño secuencial.
+Última clase programada del bloque B12 (ampliación). En [C09](../B12-C09-pruebas-de-hipotesis/CLASE.md) definiste la potencia y el error tipo I; en [C25](../B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/CLASE.md) viste lo frágil que es la estimación con pocas unidades. Aquí juntas ambas ideas: **qué se puede detectar con una población pequeña, cuánto exagera el efecto lo que sí se detecta y cuán creíbles son los resultados «significativos»**. Nivel N4. No verás metaanálisis ni diseño secuencial.
 
 ## 2. Por qué esta clase existe
 

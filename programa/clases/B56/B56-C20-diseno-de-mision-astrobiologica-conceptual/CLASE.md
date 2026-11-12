@@ -282,7 +282,7 @@ La clase es educativa y no diseña hardware real ni afirma viabilidad. La protec
 
 ## 22. Para cerrar y seguir
 
-Un esbozo de misión traduce una pregunta en requisitos, una categoría de protección y un presupuesto: en el ejemplo, 5,6 km/s de Δv y casi 5 toneladas de propelente por tonelada seca. Queda la ampliación `0.2.0`: cómo se forman en el laboratorio los oligómeros prebióticos.
+Un esbozo de misión traduce una pregunta en requisitos, una categoría de protección y un presupuesto: en el ejemplo, 5,6 km/s de Δv y casi 5 toneladas de propelente por tonelada seca. Queda la ampliación: cómo se forman en el laboratorio los oligómeros prebióticos.
 
 **Glosario español–inglés.** requisito · *requirement*; verificación · *verification*; transferencia de Hohmann · *Hohmann transfer*; ecuación del cohete · *rocket equation*; masa seca · *dry mass*; impulso específico · *specific impulse*.
 

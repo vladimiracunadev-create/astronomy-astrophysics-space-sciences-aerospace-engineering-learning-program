@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B78 (clase programada por la ampliación `0.2.0`). Nivel N3. B78 describe los tipos de propulsores; esta clase añade lo que los limita en el tiempo: la erosión. Los iones de alta energía arrancan material de las paredes de un Hall o de las rejillas de un motor iónico, y el desgaste decide cuántas horas de empuje pueden entregar. Aquí construyes un modelo **sintético** de erosión por pulverización, calculas la vida útil en función de la tensión de descarga y la verificas contra una integración numérica. Usas [C07](../B78-C07-motores-ionicos/CLASE.md) y [C08](../B78-C08-propulsores-hall/CLASE.md). Ningún parámetro del modelo es de un material real.
+Clase 21 del bloque B78 (clase programada por la ampliación). Nivel N3. B78 describe los tipos de propulsores; esta clase añade lo que los limita en el tiempo: la erosión. Los iones de alta energía arrancan material de las paredes de un Hall o de las rejillas de un motor iónico, y el desgaste decide cuántas horas de empuje pueden entregar. Aquí construyes un modelo **sintético** de erosión por pulverización, calculas la vida útil en función de la tensión de descarga y la verificas contra una integración numérica. Usas [C07](../B78-C07-motores-ionicos/CLASE.md) y [C08](../B78-C08-propulsores-hall/CLASE.md). Ningún parámetro del modelo es de un material real.
 
 ## 2. Por qué esta clase existe
 

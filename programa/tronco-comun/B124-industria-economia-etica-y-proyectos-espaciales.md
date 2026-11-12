@@ -1,6 +1,6 @@
 # B124 — Industria, economía, ética y proyectos espaciales
 
-> **Bloque ampliado (`0.2.0`).** Las 20 clases de la línea base y las 4 programadas por la ampliación (`B124-C21` a `B124-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Las 20 clases de la línea base y las 4 programadas por la ampliación (`B124-C21` a `B124-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A11 — Economía, industria y gestión de proyectos espaciales

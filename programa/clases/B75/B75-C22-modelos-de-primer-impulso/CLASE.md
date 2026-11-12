@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B75 (programada en la `0.2.0`). Nivel N3. El primer impulso lo fija todo: con él la elipse queda determinada y el apoapsis y el tiempo de vuelo se deducen. Aquí estudias cómo el módulo y la dirección del primer impulso heliocéntrico determinan el apoapsis alcanzado y el tiempo de vuelo, y compruebas que el impulso tangencial es el mínimo para alcanzar un radio dado. Modelo circular y coplanar.
+Clase 22 del bloque B75 (programada en la ampliación). Nivel N3. El primer impulso lo fija todo: con él la elipse queda determinada y el apoapsis y el tiempo de vuelo se deducen. Aquí estudias cómo el módulo y la dirección del primer impulso heliocéntrico determinan el apoapsis alcanzado y el tiempo de vuelo, y compruebas que el impulso tangencial es el mínimo para alcanzar un radio dado. Modelo circular y coplanar.
 
 ## 2. Por qué esta clase existe
 

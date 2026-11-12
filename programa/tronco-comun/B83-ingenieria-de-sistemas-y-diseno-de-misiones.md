@@ -1,6 +1,6 @@
 # B83 — Ingeniería de sistemas y diseño de misiones
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y sus 4 clases programadas (`B83-C21` a `B83-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y sus 4 clases programadas (`B83-C21` a `B83-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales
@@ -89,7 +89,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b83-c20"></a>[B83-C20](../clases/B83/B83-C20-diseno-preliminar-completo-de-mision/CLASE.md) | Diseño preliminar completo de misión | Cerrar el diseño preliminar integrando masa, energía, datos y propelente en un lazo iterativo hasta converger. | Diseño preliminar integrado con presupuestos cerrados |
 
-### Tramo 6 · Seguridad y confiabilidad (ampliación `0.2.0`)
+### Tramo 6 · Seguridad y confiabilidad (ampliación)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

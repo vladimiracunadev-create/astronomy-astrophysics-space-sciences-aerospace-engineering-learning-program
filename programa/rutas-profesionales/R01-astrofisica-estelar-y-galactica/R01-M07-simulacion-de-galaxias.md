@@ -1,6 +1,6 @@
 # R01-M07 — Simulación de galaxias
 
-> **Capa heredada (`0.2.0`).** El contenido de esta ruta vive en las áreas y bloques del tronco común; esta página conserva la lista de la línea base `0.1.0`. Para saber dónde está cada tema, consulta el [programa completo](../../../PROGRAMA_ACADEMICO_COMPLETO.md) (sección de equivalencias) y el recorrido de la ruta (`RECORRIDO.md`).
+> **Capa heredada.** El contenido de esta ruta vive en las áreas y bloques del tronco común; esta página conserva la lista de la línea base inicial. Para saber dónde está cada tema, consulta el [programa completo](../../../PROGRAMA_ACADEMICO_COMPLETO.md) (sección de equivalencias) y el recorrido de la ruta (`RECORRIDO.md`).
 
 **Ruta profesional:** R01 — Astrofísica estelar y galáctica
 **Estado:** 20 títulos de clases más referencias de alcance. No son lecciones desarrolladas.

@@ -3,7 +3,7 @@
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Nivel:** N3 · **Clases:** 5 · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (bloque nuevo de la estructura `0.2.0`). Las 5 clases están redactadas y pendientes de revisión disciplinar; todas conservan el estado E0 en el catálogo hasta registrar esa revisión. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) lista el área.
+**Estado:** guía pedagógica del bloque (bloque nuevo de la estructura vigente). Las 5 clases están redactadas y pendientes de revisión disciplinar; todas conservan el estado E0 en el catálogo hasta registrar esa revisión. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) lista el área.
 
 ## 🎯 Propósito del bloque
 

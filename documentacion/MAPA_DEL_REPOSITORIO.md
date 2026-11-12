@@ -10,11 +10,11 @@ Qué hay en cada carpeta, **qué se escribe a mano y qué se genera**, y cómo f
 .
 ├── README.md · STATUS.md · ROADMAP.md · CHANGELOG.md · VERSION   Portada, estado verificable, plan, cambios y versión
 ├── PROGRAMA_ACADEMICO_COMPLETO.md      Índice unificado de las 2.077 clases            (generado)
-├── catalogo/                           Línea base 0.1.0 (5.120 registros) y malla 0.2.0 (estructura, colocación)
+├── catalogo/                           Línea base inicial (5.120 registros) y estructura vigente (estructura, colocación)
 ├── programa/
 │   ├── tronco-comun/                   133 guías de bloque (B01–B133)                  (escritas)
 │   ├── clases/Bnn/<ID>-<slug>/         2.077 clases: CLASE.md + FICHA_EDITORIAL.md + laboratorio
-│   └── rutas-profesionales/            Capa heredada: módulos de la línea base 0.1.0
+│   └── rutas-profesionales/            Capa heredada: módulos de la línea base inicial
 ├── rutas/                              24 guías de rol (prosa escrita + ruta generada)
 ├── anexos/                             20 anexos históricos, pedagógicos y de cálculo  (escritos)
 ├── glosario/                           Glosario completo (generado) y esencial (escrito)

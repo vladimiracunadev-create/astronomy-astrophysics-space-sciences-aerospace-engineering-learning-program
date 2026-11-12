@@ -1,6 +1,6 @@
 # B87 — Sensores y control de actitud
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y las 2 clases programadas (`B87-C21` a `B87-C22`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y las 2 clases programadas (`B87-C21` a `B87-C22`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales
@@ -87,7 +87,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b87-c19"></a>[B87-C19](../clases/B87/B87-C19-verificacion-de-ley-de-control/CLASE.md) | Verificación de ley de control | Márgenes de ganancia y fase, retardo, Monte Carlo. | Matriz de verificación con tasa de cumplimiento |
 | <a id="b87-c20"></a>[B87-C20](../clases/B87/B87-C20-simulacion-adcs-integral/CLASE.md) | Simulación ADCS integral | Lazo completo sensores–estimador–control–actuadores–dinámica. | Informe de una simulación integral |
 
-### Tramo 6 · Ampliación (clases programadas en la `0.2.0`)
+### Tramo 6 · Ampliación (clases programadas en la estructura vigente)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

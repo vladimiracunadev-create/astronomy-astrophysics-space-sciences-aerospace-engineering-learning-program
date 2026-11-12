@@ -1,6 +1,6 @@
 # B42 — Óptica física y óptica adaptativa
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 4 clases programadas por la ampliación (`B42-C21` a `B42-C24`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 4 clases programadas por la ampliación (`B42-C21` a `B42-C24`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
@@ -34,7 +34,7 @@ flowchart LR
 
 **Descripción textual.** Cuatro tramos encadenados: ondas, difracción y formación de imagen (C01–C07), polarización e interferometría (C08–C10), atmósfera y óptica adaptativa (C11–C20) y la ampliación con estrellas guía naturales, reconstructores, calibración y métricas (C21–C24).
 
-## 🗂️ Las 24 clases en resumen (20 de la malla base + 4 de la ampliación)
+## 🗂️ Las 24 clases en resumen (20 de la línea base + 4 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 

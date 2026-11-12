@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 28 del bloque B75 (programada en la `0.2.0`). Nivel N3. Cerca de Júpiter la radiación limita cuánto tiempo puede estar una nave en cada región. Esta clase **no** enseña el entorno real de radiación, que no se consultó: enseña a convertir una tasa de dosis **sintética** en una dosis acumulada por órbita con una integral analítica verificada, y a pesar la dosis contra el blindaje y el periapsis. Todo número de dosis es sintético.
+Clase 28 del bloque B75 (programada en la ampliación). Nivel N3. Cerca de Júpiter la radiación limita cuánto tiempo puede estar una nave en cada región. Esta clase **no** enseña el entorno real de radiación, que no se consultó: enseña a convertir una tasa de dosis **sintética** en una dosis acumulada por órbita con una integral analítica verificada, y a pesar la dosis contra el blindaje y el periapsis. Todo número de dosis es sintético.
 
 ## 2. Por qué esta clase existe
 

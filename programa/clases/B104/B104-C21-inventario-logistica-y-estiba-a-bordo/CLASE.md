@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B104, nivel N3 (clase añadida en la estructura `0.2.0`). Una nave tripulada consume y recibe suministros durante meses: hay que saber qué hay, cuánto queda, cuándo pedir más y dónde guardarlo. Aquí modelas el **inventario** de un consumible con plazo de reabastecimiento y variación del consumo, y la **estiba** de objetos en bolsas de volumen fijo. No repite B97-C19 (logística robótica de piezas): aquí el foco es el inventario y el volumen a bordo. Datos **sintéticos** (semilla 104).
+Clase 21 del bloque B104, nivel N3 (clase añadida en la estructura vigente). Una nave tripulada consume y recibe suministros durante meses: hay que saber qué hay, cuánto queda, cuándo pedir más y dónde guardarlo. Aquí modelas el **inventario** de un consumible con plazo de reabastecimiento y variación del consumo, y la **estiba** de objetos en bolsas de volumen fijo. No repite B97-C19 (logística robótica de piezas): aquí el foco es el inventario y el volumen a bordo. Datos **sintéticos** (semilla 104).
 
 ## 2. Por qué esta clase existe
 

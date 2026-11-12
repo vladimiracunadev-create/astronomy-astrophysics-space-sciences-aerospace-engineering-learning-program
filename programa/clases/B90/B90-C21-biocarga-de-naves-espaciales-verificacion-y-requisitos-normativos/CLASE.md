@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B90 (clase de la ampliación `0.2.0`). Nivel N3. La **biocarga** es el número de microorganismos viables sobre una nave; la **protección planetaria** limita la contaminación de otros cuerpos con vida terrestre. B90-C04 trata la contaminación en la integración; aquí tratas la **verificación de la biocarga por muestreo de superficies**: qué dicen las fuentes, cómo se estima la densidad de esporas y cómo se acota con una cota de Poisson. Todos los datos son **sintéticos**; el límite de 300 esporas/m² es solo un **ejemplo** tomado de lo que cita una página de NASA para un rover de Marte.
+Clase 21 del bloque B90 (clase de la ampliación). Nivel N3. La **biocarga** es el número de microorganismos viables sobre una nave; la **protección planetaria** limita la contaminación de otros cuerpos con vida terrestre. B90-C04 trata la contaminación en la integración; aquí tratas la **verificación de la biocarga por muestreo de superficies**: qué dicen las fuentes, cómo se estima la densidad de esporas y cómo se acota con una cota de Poisson. Todos los datos son **sintéticos**; el límite de 300 esporas/m² es solo un **ejemplo** tomado de lo que cita una página de NASA para un rover de Marte.
 
 ## 2. Por qué esta clase existe
 

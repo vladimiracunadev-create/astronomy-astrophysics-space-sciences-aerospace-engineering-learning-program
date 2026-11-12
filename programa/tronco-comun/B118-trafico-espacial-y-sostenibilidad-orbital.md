@@ -1,6 +1,6 @@
 # B118 — Tráfico espacial y sostenibilidad orbital
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y las 4 clases programadas (`B118-C21` a `B118-C24`) ya están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y las 4 clases programadas (`B118-C21` a `B118-C24`) ya están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A10 — Entorno orbital, derecho y seguridad espacial

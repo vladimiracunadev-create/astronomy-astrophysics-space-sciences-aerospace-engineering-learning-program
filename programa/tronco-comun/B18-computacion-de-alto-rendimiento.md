@@ -1,6 +1,6 @@
 # B18 — Computación de alto rendimiento
 
-> **Bloque nuevo (`0.2.0`).** Sus 5 clases están redactadas y listadas abajo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque nuevo.** Sus 5 clases están redactadas y listadas abajo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos

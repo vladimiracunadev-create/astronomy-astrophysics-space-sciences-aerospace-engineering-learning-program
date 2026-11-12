@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B73 (clase programada de la ampliación `0.2.0`, ahora redactada). Nivel N3. Sigue a [B73-C20](../B73-C20-proyecto-de-integracion-celeste-de-precision/CLASE.md), cuyo presupuesto usaba un paso fijo adecuado para órbitas casi circulares. Aquí integras un paso cercano a Europa con gravedad solo de Europa y lo comparas con la solución hiperbólica analítica: leapfrog y Runge–Kutta 4 de paso fijo frente a RK4 con paso adaptativo `dt = η min(r/|v|, √(r³/GM))`. Los `GM`, radio y semieje de Europa son publicados; el cuerpo de prueba es **sintético**.
+Clase 21 del bloque B73 (clase programada de la ampliación, ahora redactada). Nivel N3. Sigue a [B73-C20](../B73-C20-proyecto-de-integracion-celeste-de-precision/CLASE.md), cuyo presupuesto usaba un paso fijo adecuado para órbitas casi circulares. Aquí integras un paso cercano a Europa con gravedad solo de Europa y lo comparas con la solución hiperbólica analítica: leapfrog y Runge–Kutta 4 de paso fijo frente a RK4 con paso adaptativo `dt = η min(r/|v|, √(r³/GM))`. Los `GM`, radio y semieje de Europa son publicados; el cuerpo de prueba es **sintético**.
 
 ## 2. Por qué esta clase existe
 

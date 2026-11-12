@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B86. Nivel N3. Vigesimoprimera clase del bloque, programada por la ampliación `0.2.0`. El presupuesto de potencia depende de los modos de la nave, y hasta aquí la carga era un solo número por fase. Aquí modelas una máquina de estados de tres modos (nominal, reducido y seguro) con umbrales de estado de carga e histéresis, la simulas durante `30` días con una generación insuficiente para el modo nominal y mides cuánto tiempo pasa en cada modo, cuántas veces cambia de modo y si la batería sobrevive. La nave y la política son sintéticas.
+Clase 21 del bloque B86. Nivel N3. Vigesimoprimera clase del bloque, programada por la ampliación. El presupuesto de potencia depende de los modos de la nave, y hasta aquí la carga era un solo número por fase. Aquí modelas una máquina de estados de tres modos (nominal, reducido y seguro) con umbrales de estado de carga e histéresis, la simulas durante `30` días con una generación insuficiente para el modo nominal y mides cuánto tiempo pasa en cada modo, cuántas veces cambia de modo y si la batería sobrevive. La nave y la política son sintéticas.
 
 ## 2. Por qué esta clase existe
 

@@ -1,6 +1,6 @@
 # B106 — Hábitats espaciales y soporte vital
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y sus 9 clases programadas (`B106-C21` a `B106-C29`) están ahora redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y sus 9 clases programadas (`B106-C21` a `B106-C29`) están ahora redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A09 — Astronáutica humana, medicina y hábitats

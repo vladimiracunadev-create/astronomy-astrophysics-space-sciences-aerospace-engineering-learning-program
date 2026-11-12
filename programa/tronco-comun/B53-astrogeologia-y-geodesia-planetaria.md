@@ -1,6 +1,6 @@
 # B53 — Astrogeología y geodesia planetaria
 
-> **Bloque ampliado (`0.2.0`).** Tiene 30 clases: las 20 de la línea base (`B53-C01` a `B53-C20`) y 10 programadas en la ampliación (`B53-C21` a `B53-C30`). Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Tiene 30 clases: las 20 de la línea base (`B53-C01` a `B53-C20`) y 10 programadas en la ampliación (`B53-C21` a `B53-C30`). Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad

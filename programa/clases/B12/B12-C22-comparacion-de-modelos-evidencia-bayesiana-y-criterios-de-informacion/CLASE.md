@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase programada del bloque B12 (ampliación `0.2.0`). En [C09](../B12-C09-pruebas-de-hipotesis/CLASE.md) contrastaste un valor frente a una hipótesis; aquí comparas **modelos completos** que compiten por explicar los mismos datos: la evidencia bayesiana, el factor de Bayes y los criterios de información AIC y BIC. Nivel N4. Ejemplo conductor: elegir el grado de un polinomio para la deriva de un reloj. No verás la implementación de la evidencia por muestreo anidado ni la validación cruzada.
+Clase programada del bloque B12 (ampliación). En [C09](../B12-C09-pruebas-de-hipotesis/CLASE.md) contrastaste un valor frente a una hipótesis; aquí comparas **modelos completos** que compiten por explicar los mismos datos: la evidencia bayesiana, el factor de Bayes y los criterios de información AIC y BIC. Nivel N4. Ejemplo conductor: elegir el grado de un polinomio para la deriva de un reloj. No verás la implementación de la evidencia por muestreo anidado ni la validación cruzada.
 
 ## 2. Por qué esta clase existe
 

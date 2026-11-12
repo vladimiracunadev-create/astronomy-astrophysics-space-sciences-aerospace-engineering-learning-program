@@ -1,6 +1,6 @@
 # B90 — Integración, ensayos y calificación espacial
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y las 4 clases programadas por la ampliación (`B90-C21` a `B90-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y las 4 clases programadas por la ampliación (`B90-C21` a `B90-C24`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales

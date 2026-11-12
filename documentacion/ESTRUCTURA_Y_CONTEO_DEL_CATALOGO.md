@@ -1,6 +1,6 @@
 # Estructura y conteo del catálogo
 
-> **Este documento describe la línea base `0.1.0`.** La estructura vigente (`0.2.0`) tiene 12 áreas, 133 bloques y 2.077 clases: las 1.280 del tronco más 797 programadas, porque los 192 módulos de las rutas se integraron en áreas y bloques. Ver el [programa completo](../PROGRAMA_ACADEMICO_COMPLETO.md) y `catalogo/v0.2.0/`. Lo que sigue explica de dónde sale la cifra de 5.120 de la línea base.
+> **Este documento describe la línea base inicial.** La estructura vigente tiene 12 áreas, 133 bloques y 2.077 clases: las 1.280 del tronco más 797 programadas, porque los 192 módulos de las rutas se integraron en áreas y bloques. Ver el [programa completo](../PROGRAMA_ACADEMICO_COMPLETO.md) y `catalogo/v0.2.0/`. Lo que sigue explica de dónde sale la cifra de 5.120 de la línea base.
 
 El catálogo tiene **5.120 clases**. Este documento explica de dónde sale esa cifra, porque una lectura rápida («8 bloques de 20 clases por área») lleva a otro número.
 
@@ -12,7 +12,7 @@ Rutas profesionales 24 rutas × 8 módulos × 20 clases  = 3.840 clases
                                               Total   = 5.120 clases
 ```
 
-- **Tronco común.** Cada área (A01–A08) agrupa 8 bloques (64 bloques en la línea base `0.1.0`; en la estructura `0.2.0` se numeran de forma consecutiva dentro de B01–B133) y cada bloque tiene 20 clases. Un área tiene 8 × 20 = 160 clases; las 8 áreas suman 1.280.
+- **Tronco común.** Cada área (A01–A08) agrupa 8 bloques (64 bloques en la línea base inicial; en la estructura vigente se numeran de forma consecutiva dentro de B01–B133) y cada bloque tiene 20 clases. Un área tiene 8 × 20 = 160 clases; las 8 áreas suman 1.280.
 - **Rutas profesionales.** Cada ruta (R01–R24) tiene 8 módulos (192 módulos en total) y cada módulo tiene 20 clases. Una ruta tiene también 160 clases; las 24 rutas suman 3.840.
 - Las rutas **no** son parte de las áreas: son un segundo eje que reutiliza el tronco y lo profundiza.
 

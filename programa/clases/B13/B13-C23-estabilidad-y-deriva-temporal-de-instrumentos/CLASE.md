@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B13 (ampliación `0.2.0`). En [C05](../B13-C05-calibracion-instrumental/CLASE.md) calibraste un instrumento en un instante; en [C07](../B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) describiste la estabilidad de un reloj. Aquí sigues **cómo cambia la respuesta de un instrumento con los años**: la **deriva**. Aprendes a medirla con una fuente de referencia estable, a ajustar una tendencia con su incertidumbre, a decidir **cuánto tiempo de datos hace falta para detectarla** y a corregirla. Nivel N2. Trabajas con una serie simulada; no tratas fuentes de referencia que a su vez derivan ni modelos no lineales.
+Clase 23 del bloque B13 (ampliación). En [C05](../B13-C05-calibracion-instrumental/CLASE.md) calibraste un instrumento en un instante; en [C07](../B13-C07-relojes-atomicos-y-frecuencia/CLASE.md) describiste la estabilidad de un reloj. Aquí sigues **cómo cambia la respuesta de un instrumento con los años**: la **deriva**. Aprendes a medirla con una fuente de referencia estable, a ajustar una tendencia con su incertidumbre, a decidir **cuánto tiempo de datos hace falta para detectarla** y a corregirla. Nivel N2. Trabajas con una serie simulada; no tratas fuentes de referencia que a su vez derivan ni modelos no lineales.
 
 ## 2. Por qué esta clase existe
 

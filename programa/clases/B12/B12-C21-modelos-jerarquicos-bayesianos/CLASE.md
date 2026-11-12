@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase programada del bloque B12 (ampliación `0.2.0`), que sigue a [C20](../B12-C20-informe-de-incertidumbre-de-una-mision/CLASE.md). En [C12](../B12-C12-inferencia-bayesiana/CLASE.md) inferiste un único parámetro con un prior fijo. Aquí varios grupos (sensores, instrumentos, observaciones) comparten una **distribución común** cuyos parámetros —los *hiperparámetros*— también se infieren. Verás la agrupación parcial (*partial pooling*), la contracción hacia la media y la incertidumbre sobre la heterogeneidad. Nivel N4. No verás la implementación general con muestreadores (C13, C23) ni la comparación de modelos (C22).
+Clase programada del bloque B12 (ampliación), que sigue a [C20](../B12-C20-informe-de-incertidumbre-de-una-mision/CLASE.md). En [C12](../B12-C12-inferencia-bayesiana/CLASE.md) inferiste un único parámetro con un prior fijo. Aquí varios grupos (sensores, instrumentos, observaciones) comparten una **distribución común** cuyos parámetros —los *hiperparámetros*— también se infieren. Verás la agrupación parcial (*partial pooling*), la contracción hacia la media y la incertidumbre sobre la heterogeneidad. Nivel N4. No verás la implementación general con muestreadores (C13, C23) ni la comparación de modelos (C22).
 
 ## 2. Por qué esta clase existe
 

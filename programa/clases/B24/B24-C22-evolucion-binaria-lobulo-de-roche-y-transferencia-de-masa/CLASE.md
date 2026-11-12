@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B24 (ampliación `0.2.0`). Nivel N3. Todo el bloque trató estrellas aisladas, pero [C17](../B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md) ya adelantó que la mayoría de las estrellas masivas interactúa con una compañera. Aquí explicas **cuándo** una estrella llena su lóbulo de Roche, **cómo** cambia la órbita al transferir masa y qué desenlaces posibles hay. `B27-C13` (bloque [B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md)) trata las binarias compactas ya formadas; esta clase explica cómo se llega a ellas. Usas gravitación y marcos rotantes ([B05-C10](../../B05/B05-C10-gravitacion-universal/CLASE.md), [B05-C09](../../B05/B05-C09-momento-angular-y-torque/CLASE.md)), búsqueda de raíces y cuadratura numérica ([B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
+Clase 22 del bloque B24 (ampliación). Nivel N3. Todo el bloque trató estrellas aisladas, pero [C17](../B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md) ya adelantó que la mayoría de las estrellas masivas interactúa con una compañera. Aquí explicas **cuándo** una estrella llena su lóbulo de Roche, **cómo** cambia la órbita al transferir masa y qué desenlaces posibles hay. `B27-C13` (bloque [B27](../../../tronco-comun/B27-objetos-compactos-y-altas-energias.md)) trata las binarias compactas ya formadas; esta clase explica cómo se llega a ellas. Usas gravitación y marcos rotantes ([B05-C10](../../B05/B05-C10-gravitacion-universal/CLASE.md), [B05-C09](../../B05/B05-C09-momento-angular-y-torque/CLASE.md)), búsqueda de raíces y cuadratura numérica ([B11](../../../tronco-comun/B11-ecuaciones-diferenciales-y-simulacion-numerica.md)).
 
 ## 2. Por qué esta clase existe
 

@@ -1,11 +1,11 @@
 # B56 — Astrobiología y vida extraterrestre
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 1 clase programada por la ampliación (`B56-C21`), redactada y listada en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 1 clase programada por la ampliación (`B56-C21`), redactada y listada en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad
 **Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 1 de la ampliación · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. La clase `B56-C21` (ampliación `0.2.0`) también está redactada y conserva el mismo estado.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. La clase `B56-C21` (ampliación) también está redactada y conserva el mismo estado.
 
 ## 🎯 Propósito del bloque
 
@@ -37,9 +37,9 @@ flowchart LR
     A --> B --> C --> D --> E --> F --> G
 ```
 
-**Descripción textual.** Siete tramos encadenados: qué es la vida y cómo pudo empezar (C01–C04), qué límites y qué energía impone la química (C05–C07), los mundos del Sistema Solar con interés astrobiológico (C08–C11), la búsqueda de señales en exoplanetas y de tecnología (C12–C16), el control de contaminación, la protección planetaria y la ética (C17–C19), el diseño conceptual de una misión (C20) y la ampliación `0.2.0` sobre polimerización prebiótica experimental (C21).
+**Descripción textual.** Siete tramos encadenados: qué es la vida y cómo pudo empezar (C01–C04), qué límites y qué energía impone la química (C05–C07), los mundos del Sistema Solar con interés astrobiológico (C08–C11), la búsqueda de señales en exoplanetas y de tecnología (C12–C16), el control de contaminación, la protección planetaria y la ética (C17–C19), el diseño conceptual de una misión (C20) y la ampliación sobre polimerización prebiótica experimental (C21).
 
-## 🗂️ Las 21 clases en resumen (20 de la malla base + 1 de la ampliación)
+## 🗂️ Las 21 clases en resumen (20 de la línea base + 1 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque.
 
@@ -95,7 +95,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b56-c20"></a>[B56-C20](../clases/B56/B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md) | Diseño de misión astrobiológica conceptual | Requisitos, Δv de transferencia, masa de propelente y verificación contra una integración numérica. | Esbozo de misión con presupuesto |
 
-### Tramo 7 · Ampliación `0.2.0`: polimerización prebiótica
+### Tramo 7 · Ampliación: polimerización prebiótica
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

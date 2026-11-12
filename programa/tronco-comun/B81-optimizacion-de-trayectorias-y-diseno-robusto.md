@@ -1,6 +1,6 @@
 # B81 — Optimización de trayectorias y diseño robusto
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 15 clases estaban programadas y ahora están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque nuevo de la estructura vigente.** Sus 15 clases estaban programadas y ahora están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial

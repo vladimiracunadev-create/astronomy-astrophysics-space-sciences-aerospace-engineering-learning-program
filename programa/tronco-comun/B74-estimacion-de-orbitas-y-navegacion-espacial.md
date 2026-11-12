@@ -1,6 +1,6 @@
 # B74 — Estimación de órbitas y navegación espacial
 
-> **Bloque ampliado (`0.2.0`).** Tiene las 20 clases de la línea base (`B74-C01` a `B74-C20`) y 10 clases programadas por la ampliación (`B74-C21` a `B74-C30`), ahora redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Tiene las 20 clases de la línea base (`B74-C01` a `B74-C20`) y 10 clases programadas por la ampliación (`B74-C21` a `B74-C30`), ahora redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial

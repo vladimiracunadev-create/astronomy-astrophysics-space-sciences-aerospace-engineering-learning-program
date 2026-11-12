@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B118. Nivel N4. Tercera clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación `0.2.0`). Una red de vigilancia solo ve lo que alcanza. Aquí generas una población **sintética** de 20 000 objetos con la pendiente de B118-C01 y la observas con una red **hipotética** cuyo alcance crece con el tamaño; mides la **completitud por tamaño**, el **sesgo de selección** y cómo una pendiente estimada solo con lo detectado **no recupera** la verdadera. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
+Clase 23 del bloque B118. Nivel N4. Tercera clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación). Una red de vigilancia solo ve lo que alcanza. Aquí generas una población **sintética** de 20 000 objetos con la pendiente de B118-C01 y la observas con una red **hipotética** cuyo alcance crece con el tamaño; mides la **completitud por tamaño**, el **sesgo de selección** y cómo una pendiente estimada solo con lo detectado **no recupera** la verdadera. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
 
 ## 2. Por qué esta clase existe
 

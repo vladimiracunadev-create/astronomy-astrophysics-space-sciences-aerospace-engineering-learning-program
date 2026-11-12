@@ -1,6 +1,6 @@
 # B119 — Derecho, seguridad y geopolítica espacial
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y sus 16 clases programadas (`B119-C21` a `B119-C36`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y sus 16 clases programadas (`B119-C21` a `B119-C36`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A10 — Entorno orbital, derecho y seguridad espacial

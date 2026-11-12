@@ -1,6 +1,6 @@
 # B27 — Objetos compactos y altas energías
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 2 clases programadas por la ampliación (`B27-C21` a `B27-C22`), listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 2 clases programadas por la ampliación (`B27-C21` a `B27-C22`), listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
@@ -37,7 +37,7 @@ flowchart LR
 
 **Descripción textual.** Siete tramos encadenados: materia degenerada (C01–C04), púlsares y magnetares (C05–C06), agujeros negros (C07–C09), acreción y emisión (C10–C12), binarias y explosiones (C13–C17), mensajeros y observatorios (C18–C20) y la ampliación con Compton inverso y análisis espectral (C21–C22).
 
-## 🗂️ Las 22 clases en resumen (20 de la malla base + 2 de la ampliación)
+## 🗂️ Las 22 clases en resumen (20 de la línea base + 2 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
@@ -93,7 +93,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b27-c19"></a>[B27-C19](../clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md) | Observatorios de rayos X y gamma | Estadística de conteos, significancia y sensibilidad. | Ficha de sensibilidad de un observatorio |
 | <a id="b27-c20"></a>[B27-C20](../clases/B27/B27-C20-analisis-multibanda-de-evento-extremo/CLASE.md) | Análisis multibanda de evento extremo | Distribución espectral de energía y retardos entre bandas. | Análisis multibanda de un evento |
 
-### Tramo 7 · Ampliación `0.2.0`: emisión de alta energía y espectros
+### Tramo 7 · Ampliación: emisión de alta energía y espectros
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

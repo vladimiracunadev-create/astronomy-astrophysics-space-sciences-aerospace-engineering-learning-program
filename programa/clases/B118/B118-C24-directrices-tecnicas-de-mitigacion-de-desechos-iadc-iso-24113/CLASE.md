@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 24 del bloque B118. Nivel N4. Cuarta clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación `0.2.0`). Las directrices técnicas se vuelven útiles cuando se pueden **verificar**. Aquí escribes un **verificador didáctico** con los valores de la **IADC-02-01 Rev. 4** (enero de 2025) y lo pruebas con nueve misiones **sintéticas**, incluidos los **casos límite** (25,0 contra 25,01 años; 0,90 contra 0,89; 248,0 contra 247,9 km). **ISO 24113 no se consultó**: la página de ISO devolvió 403. No es una verificación de conformidad ni asesoría legal o regulatoria. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
+Clase 24 del bloque B118. Nivel N4. Cuarta clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación). Las directrices técnicas se vuelven útiles cuando se pueden **verificar**. Aquí escribes un **verificador didáctico** con los valores de la **IADC-02-01 Rev. 4** (enero de 2025) y lo pruebas con nueve misiones **sintéticas**, incluidos los **casos límite** (25,0 contra 25,01 años; 0,90 contra 0,89; 248,0 contra 247,9 km). **ISO 24113 no se consultó**: la página de ISO devolvió 403. No es una verificación de conformidad ni asesoría legal o regulatoria. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
 
 ## 2. Por qué esta clase existe
 

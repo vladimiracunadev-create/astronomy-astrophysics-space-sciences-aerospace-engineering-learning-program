@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B105 (clase ampliada de la estructura `0.2.0`). Nivel N3. La atmósfera de la cabina y la ventilación del cuerpo determinan cuánto oxígeno llega a los alvéolos y cuánto CO₂ se retiene. Aquí calculas la presión inspirada y alveolar de oxígeno con la ecuación del gas alveolar, comparas tres atmósferas **ilustrativas**, el efecto del CO₂ ambiente y de la ventilación, y la altitud equivalente. El entorno de la cabina se trata en el bloque de hábitats; aquí interesa la fisiología.
+Clase 21 del bloque B105 (clase ampliada de la estructura vigente). Nivel N3. La atmósfera de la cabina y la ventilación del cuerpo determinan cuánto oxígeno llega a los alvéolos y cuánto CO₂ se retiene. Aquí calculas la presión inspirada y alveolar de oxígeno con la ecuación del gas alveolar, comparas tres atmósferas **ilustrativas**, el efecto del CO₂ ambiente y de la ventilación, y la altitud equivalente. El entorno de la cabina se trata en el bloque de hábitats; aquí interesa la fisiología.
 
 ## 2. Por qué esta clase existe
 

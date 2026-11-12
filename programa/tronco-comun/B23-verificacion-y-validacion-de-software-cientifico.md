@@ -1,6 +1,6 @@
 # B23 — Verificación y validación de software científico
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 8 clases están redactadas y pendientes de revisión disciplinar; no están verificadas, impartidas ni validadas por terceros y conservan el estado E0 en el catálogo de la línea base, donde no figuran. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
+> **Bloque nuevo de la estructura vigente.** Sus 8 clases están redactadas y pendientes de revisión disciplinar; no están verificadas, impartidas ni validadas por terceros y conservan el estado E0 en el catálogo de la línea base, donde no figuran. El [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md) las lista junto con el resto del área.
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos

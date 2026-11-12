@@ -1,11 +1,11 @@
 # B85 — Gestión térmica y entorno espacial
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 9 clases programadas por la ampliación (`B85-C21` a `B85-C29`), redactadas y listadas en los tramos 6 y 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 9 clases programadas por la ampliación (`B85-C21` a `B85-C29`), redactadas y listadas en los tramos 6 y 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales
 **Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 9 de la ampliación · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B85-C21` a `B85-C29` (ampliación `0.2.0`) también están redactadas y conservan el mismo estado.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B85-C21` a `B85-C29` (ampliación) también están redactadas y conservan el mismo estado.
 
 ## 🎯 Propósito del bloque
 
@@ -91,7 +91,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b85-c19"></a>[B85-C19](../clases/B85/B85-C19-ensayos-de-vacio-termico/CLASE.md) | Ensayos de vacío térmico | Perfil de ensayo de vacío térmico, tiempos y criterio de estabilización. | Plan de un ensayo de vacío térmico |
 | <a id="b85-c20"></a>[B85-C20](../clases/B85/B85-C20-presupuesto-termico-de-carga-util/CLASE.md) | Presupuesto térmico de carga útil | Balance de disipación, capacidad del radiador y margen por modo de operación. | Presupuesto térmico de una carga útil |
 
-### Tramo 6 · Radiación y protección (ampliación `0.2.0`)
+### Tramo 6 · Radiación y protección (ampliación)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|
@@ -100,7 +100,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b85-c23"></a>[B85-C23](../clases/B85/B85-C23-dosimetros-y-monitores-de-radiacion-a-bordo/CLASE.md) | Dosímetros y monitores de radiación a bordo | Calibración de un dosímetro, límite de detección y tiempo muerto. | Ficha de calibración de un monitor de radiación |
 | <a id="b85-c24"></a>[B85-C24](../clases/B85/B85-C24-efectos-de-la-radiacion-ionizante-en-materiales-y-electronica/CLASE.md) | Efectos de la radiación ionizante en materiales y electrónica | Daño por desplazamiento y pérdida de potencia de una celda solar con fluencia equivalente. | Ficha de daño por radiación en una celda |
 
-### Tramo 7 · Medición, margen y vida en órbita (ampliación `0.2.0`)
+### Tramo 7 · Medición, margen y vida en órbita (ampliación)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

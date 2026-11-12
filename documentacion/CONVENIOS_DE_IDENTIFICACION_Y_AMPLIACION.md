@@ -2,9 +2,9 @@
 
 ## IDs permanentes
 
-- `B01-C01` en adelante: clases del tronco común; los bloques van de B01 a B133 en orden de área (en la línea base `0.1.0` eran 64 bloques, de `B01-C01` a `B64-C20`).
+- `B01-C01` en adelante: clases del tronco común; los bloques van de B01 a B133 en orden de área (en la línea base inicial eran 64 bloques, de `B01-C01` a `B64-C20`).
 - `R01-M01-C01` a `R24-M08-C20`: clases profesionales del catálogo actual.
-- En la línea base `0.1.0` un bloque tiene 20 clases y una ruta ocho módulos. En la estructura `0.2.0` los bloques tienen el tamaño que pide su contenido: las clases programadas continúan la numeración (`B83-C21`…) o forman bloques nuevos (`B17`…); los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias.
+- En la línea base inicial un bloque tiene 20 clases y una ruta ocho módulos. En la estructura vigente los bloques tienen el tamaño que pide su contenido: las clases programadas continúan la numeración (`B83-C21`…) o forman bloques nuevos (`B17`…); los IDs `Rxx-Mxx-Cnn` se conservan como equivalencias.
 
 ## Ampliación posterior
 
@@ -16,4 +16,4 @@
 
 ## Transparencia
 
-El inventario de 5.120 unidades es la **línea base 0.1.0**. Es extensible. La exhaustividad afirmada solo se refiere al alcance especificado y comprobado, nunca a todo conocimiento espacial futuro.
+El inventario de 5.120 unidades es la **línea base inicial**. Es extensible. La exhaustividad afirmada solo se refiere al alcance especificado y comprobado, nunca a todo conocimiento espacial futuro.

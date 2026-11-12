@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B83 (clase de la ampliación `0.2.0`). Nivel N3. La **redundancia** duplica funciones para que la misión sobreviva al fallo de una unidad; cada duplicado cuesta masa, energía y complejidad. Aquí comparas cuatro configuraciones de una unidad (simple, paralelo activo, redundancia fría con conmutador imperfecto y 2-de-3 con votador), las verificas con Monte Carlo y decides qué unidades duplicar de una cadena en serie con un presupuesto de masa. Las tasas de falla, masas y la duración de la misión son **sintéticas**; el manual de NASA (S4) enmarca el riesgo como escenarios, verosimilitudes y consecuencias, lo que aquí se cuantifica como confiabilidad.
+Clase 23 del bloque B83 (clase de la ampliación). Nivel N3. La **redundancia** duplica funciones para que la misión sobreviva al fallo de una unidad; cada duplicado cuesta masa, energía y complejidad. Aquí comparas cuatro configuraciones de una unidad (simple, paralelo activo, redundancia fría con conmutador imperfecto y 2-de-3 con votador), las verificas con Monte Carlo y decides qué unidades duplicar de una cadena en serie con un presupuesto de masa. Las tasas de falla, masas y la duración de la misión son **sintéticas**; el manual de NASA (S4) enmarca el riesgo como escenarios, verosimilitudes y consecuencias, lo que aquí se cuantifica como confiabilidad.
 
 ## 2. Por qué esta clase existe
 

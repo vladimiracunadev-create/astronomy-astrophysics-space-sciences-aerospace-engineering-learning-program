@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B90 (clase de la ampliación `0.2.0`). Nivel N3. Un ensayo vale lo que valen sus datos: dónde están los **sensores**, con qué **sensibilidad**, cómo se **muestrean** y con cuántos **bits**. Aquí calculas el **aliasing** de una señal mal muestreada, el efecto de un filtro antialias, la **relación señal-ruido** de un cuantizador y la resolución de una cadena con acelerómetro. Todos los datos son **sintéticos**.
+Clase 23 del bloque B90 (clase de la ampliación). Nivel N3. Un ensayo vale lo que valen sus datos: dónde están los **sensores**, con qué **sensibilidad**, cómo se **muestrean** y con cuántos **bits**. Aquí calculas el **aliasing** de una señal mal muestreada, el efecto de un filtro antialias, la **relación señal-ruido** de un cuantizador y la resolución de una cadena con acelerómetro. Todos los datos son **sintéticos**.
 
 ## 2. Por qué esta clase existe
 

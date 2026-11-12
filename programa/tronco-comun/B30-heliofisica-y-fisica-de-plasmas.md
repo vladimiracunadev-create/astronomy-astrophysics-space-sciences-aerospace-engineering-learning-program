@@ -1,6 +1,6 @@
 # B30 — Heliofísica y física de plasmas
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B30-C21` a `B30-C23`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 3 clases programadas por la ampliación (`B30-C21` a `B30-C23`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
@@ -36,7 +36,7 @@ flowchart LR
 
 **Descripción textual.** Seis tramos encadenados: el Sol (C01–C05), física de plasmas (C06–C09), viento, reconexión y erupciones (C10–C14), magnetosfera, tormentas e impactos (C15–C19), una alerta real (C20) y la ampliación con radioemisión, anillo de corriente e índices (C21–C23).
 
-## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
+## 🗂️ Las 23 clases en resumen (20 de la línea base + 3 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
@@ -87,7 +87,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b30-c20"></a>[B30-C20](../clases/B30/B30-C20-analisis-de-alerta-solar-real/CLASE.md) | Análisis de alerta solar real | Escalas oficiales G, S y R y clasificación de series. | Informe de alerta |
 
-### Tramo 6 · Ampliación `0.2.0`: radio, anillo de corriente e índices
+### Tramo 6 · Ampliación: radio, anillo de corriente e índices
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

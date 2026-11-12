@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B75 (programada en la `0.2.0`). Nivel N3. La clase B75-C01 trata la geometría general de la transferencia; esta clase estudia un método distinto: encontrar dónde se cruzan la elipse de transferencia y la órbita real del destino. Dos cónicas con foco común (el Sol) se cortan en dos puntos como máximo y se resuelven en forma cerrada. Usas los elementos de Marte de la tabla del JPL, con su excentricidad.
+Clase 21 del bloque B75 (programada en la ampliación). Nivel N3. La clase B75-C01 trata la geometría general de la transferencia; esta clase estudia un método distinto: encontrar dónde se cruzan la elipse de transferencia y la órbita real del destino. Dos cónicas con foco común (el Sol) se cortan en dos puntos como máximo y se resuelven en forma cerrada. Usas los elementos de Marte de la tabla del JPL, con su excentricidad.
 
 ## 2. Por qué esta clase existe
 

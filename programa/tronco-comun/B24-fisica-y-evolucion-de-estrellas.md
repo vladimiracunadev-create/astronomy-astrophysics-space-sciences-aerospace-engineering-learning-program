@@ -1,11 +1,11 @@
 # B24 — Física y evolución de estrellas
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 2 clases programadas por la ampliación (`B24-C21` a `B24-C22`), redactadas y listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 2 clases programadas por la ampliación (`B24-C21` a `B24-C22`), redactadas y listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
 **Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 2 de la ampliación · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B24-C21` y `B24-C22` (ampliación `0.2.0`) también están redactadas y conservan el mismo estado.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B24-C21` y `B24-C22` (ampliación) también están redactadas y conservan el mismo estado.
 
 ## 🎯 Propósito del bloque
 
@@ -38,7 +38,7 @@ flowchart LR
 
 **Descripción textual.** Siete tramos encadenados: nacimiento y equilibrio (C01–C04), fuentes y transporte de energía (C05–C08), lo que vemos de la superficie (C09–C10), rotación, actividad y variabilidad (C11–C14), evolución según la masa (C15–C18), cúmulos y modelo integrador (C19–C20) y la ampliación con la fase AGB y la evolución binaria (C21–C22).
 
-## 🗂️ Las 22 clases en resumen (20 de la malla base + 2 de la ampliación)
+## 🗂️ Las 22 clases en resumen (20 de la línea base + 2 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
@@ -94,7 +94,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b24-c19"></a>[B24-C19](../clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md) | Cúmulos y edades estelares | Punto de desvío, isócronas y edad de un cúmulo. | Edad de un cúmulo sintético |
 | <a id="b24-c20"></a>[B24-C20](../clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md) | Modelo simplificado de estructura estelar | Modelo politrópico del Sol contrastado con valores de referencia. | Modelo politrópico validado |
 
-### Tramo 7 · Ampliación `0.2.0`: fase AGB y evolución binaria
+### Tramo 7 · Ampliación: fase AGB y evolución binaria
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

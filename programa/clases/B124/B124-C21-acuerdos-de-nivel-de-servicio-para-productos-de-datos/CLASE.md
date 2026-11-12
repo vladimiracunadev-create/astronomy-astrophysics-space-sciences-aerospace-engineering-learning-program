@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B124 (clase programada por la ampliación `0.2.0`). Nivel N3–N4. Un servicio de observación no solo vende datos: se compromete con plazos y calidad en un acuerdo de nivel de servicio (SLA). Aquí calculas la disponibilidad de un producto de datos a partir del tiempo medio entre fallas y de reparación, el presupuesto de error que deja un objetivo de disponibilidad y la probabilidad de entregar a tiempo, y ves cuánto cuesta incumplir. Retomas la propuesta de valor de [C04](../B124-C04-diseno-de-propuesta-de-valor/CLASE.md). **Esta clase es educativa: no es un contrato ni asesoría legal.** Los números son sintéticos.
+Clase 21 del bloque B124 (clase programada por la ampliación). Nivel N3–N4. Un servicio de observación no solo vende datos: se compromete con plazos y calidad en un acuerdo de nivel de servicio (SLA). Aquí calculas la disponibilidad de un producto de datos a partir del tiempo medio entre fallas y de reparación, el presupuesto de error que deja un objetivo de disponibilidad y la probabilidad de entregar a tiempo, y ves cuánto cuesta incumplir. Retomas la propuesta de valor de [C04](../B124-C04-diseno-de-propuesta-de-valor/CLASE.md). **Esta clase es educativa: no es un contrato ni asesoría legal.** Los números son sintéticos.
 
 ## 2. Por qué esta clase existe
 

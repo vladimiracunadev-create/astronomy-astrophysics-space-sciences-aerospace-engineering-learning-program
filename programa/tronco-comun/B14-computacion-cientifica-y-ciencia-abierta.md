@@ -1,6 +1,6 @@
 # B14 — Computación científica y ciencia abierta
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 11 clases programadas (`B14-C21` a `B14-C31`), ya redactadas y en la tabla como tramo 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 11 clases programadas (`B14-C21` a `B14-C31`), ya redactadas y en la tabla como tramo 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos

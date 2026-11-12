@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 24 del bloque B90 (clase de la ampliación `0.2.0`). Nivel N3. Antes de construir la unidad de vuelo se pueden construir **prototipos** y **modelos de ingeniería** de subconjuntos para encontrar defectos de diseño cuando corregirlos es barato. B90 parte de unidades ya definidas; aquí comparas tres **filosofías de modelos** (solo vuelo, protovuelo, ingeniería más vuelo) con un modelo de **costo esperado y riesgo residual**. Todas las probabilidades y costos son **sintéticos**, en unidades de costo (uc).
+Clase 24 del bloque B90 (clase de la ampliación). Nivel N3. Antes de construir la unidad de vuelo se pueden construir **prototipos** y **modelos de ingeniería** de subconjuntos para encontrar defectos de diseño cuando corregirlos es barato. B90 parte de unidades ya definidas; aquí comparas tres **filosofías de modelos** (solo vuelo, protovuelo, ingeniería más vuelo) con un modelo de **costo esperado y riesgo residual**. Todas las probabilidades y costos son **sintéticos**, en unidades de costo (uc).
 
 ## 2. Por qué esta clase existe
 

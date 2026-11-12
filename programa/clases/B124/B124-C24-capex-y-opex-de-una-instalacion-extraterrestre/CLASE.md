@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 24 del bloque B124 (clase programada por la ampliación `0.2.0`) y última del bloque. Nivel N4. Una planta en la superficie de otro cuerpo se paga con capital (lo que cuesta fabricarla, transportarla e instalarla) y con operación (repuestos, transporte de repuestos y personal remoto). Aquí valoras ambas partes con el factor de recuperación de capital, calculas el costo nivelado de lo que produce y lo comparas con traerlo de la Tierra, usando el costo de transporte por kilogramo de [C23](../B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md). **Esta clase es educativa: no es asesoría financiera ni de inversión.** La instalación es sintética.
+Clase 24 del bloque B124 (clase programada por la ampliación) y última del bloque. Nivel N4. Una planta en la superficie de otro cuerpo se paga con capital (lo que cuesta fabricarla, transportarla e instalarla) y con operación (repuestos, transporte de repuestos y personal remoto). Aquí valoras ambas partes con el factor de recuperación de capital, calculas el costo nivelado de lo que produce y lo comparas con traerlo de la Tierra, usando el costo de transporte por kilogramo de [C23](../B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md). **Esta clase es educativa: no es asesoría financiera ni de inversión.** La instalación es sintética.
 
 ## 2. Por qué esta clase existe
 

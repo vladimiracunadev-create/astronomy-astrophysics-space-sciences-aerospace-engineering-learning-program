@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 30 del bloque B75 (programada en la `0.2.0`). Nivel N3. Una maniobra calculada con cónicas empalmadas debe comprobarse antes de aceptarse: se reintegra el movimiento antes y después del impulso con un integrador independiente y se compara con lo previsto. Aquí validas la salida heliocéntrica de B75-C01 con cinco comprobaciones: salto de energía, equivalencia con Kepler, convergencia con el paso, reversibilidad y escala de una perturbación sintética.
+Clase 30 del bloque B75 (programada en la ampliación). Nivel N3. Una maniobra calculada con cónicas empalmadas debe comprobarse antes de aceptarse: se reintegra el movimiento antes y después del impulso con un integrador independiente y se compara con lo previsto. Aquí validas la salida heliocéntrica de B75-C01 con cinco comprobaciones: salto de energía, equivalencia con Kepler, convergencia con el paso, reversibilidad y escala de una perturbación sintética.
 
 ## 2. Por qué esta clase existe
 

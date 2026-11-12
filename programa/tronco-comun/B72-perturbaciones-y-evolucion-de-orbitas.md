@@ -1,11 +1,11 @@
 # B72 — Perturbaciones y evolución de órbitas
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 1 clase programada por la ampliación (`B72-C21`), redactada y listada en el tramo 8. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 1 clase programada por la ampliación (`B72-C21`), redactada y listada en el tramo 8. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial  
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial  
 **Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 1 de la ampliación · **Carga:** por calibrar con el uso  
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. La clase `B72-C21` (ampliación `0.2.0`) también está redactada y conserva el mismo estado.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. La clase `B72-C21` (ampliación) también está redactada y conserva el mismo estado.
 
 ## 🎯 Propósito del bloque
 
@@ -38,7 +38,7 @@ flowchart LR
 
 **Descripción textual.** Ocho tramos encadenados: el límite de dos cuerpos y el campo no esférico (C01–C02), J2 y sus tasas seculares (C03–C05), las fuerzas no gravitatorias (C06–C08), los terceros cuerpos y las resonancias (C09–C11), los elementos y las órbitas de diseño (C12–C14), las aproximaciones, mareas y relatividad (C15–C17), la integración, la sensibilidad y la comparación de propagadores (C18–C20) y la ampliación con SGP4 (C21).
 
-## 🗂️ Las 21 clases en resumen (20 de la malla base + 1 de la ampliación)
+## 🗂️ Las 21 clases en resumen (20 de la línea base + 1 de la ampliación)
 
 **Navegación:** cada clase enlaza a la anterior, a la siguiente y a este bloque.
 
@@ -99,7 +99,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b72-c19"></a>[B72-C19](../clases/B72/B72-C19-analisis-de-sensibilidad-orbital/CLASE.md) | Análisis de sensibilidad orbital | Error a lo largo de la trayectoria por `δa`, linealidad y sensibilidad a `B`. | Ficha de sensibilidad orbital |
 | <a id="b72-c20"></a>[B72-C20](../clases/B72/B72-C20-comparacion-de-propagadores-de-fidelidad-distinta/CLASE.md) | Comparación de propagadores de fidelidad distinta | Escalera de cuatro propagadores frente a una verdad sintética. | Ficha de fidelidad de propagadores |
 
-### Tramo 8 · Ampliación `0.2.0`: SGP4 y teoría general de perturbaciones
+### Tramo 8 · Ampliación: SGP4 y teoría general de perturbaciones
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

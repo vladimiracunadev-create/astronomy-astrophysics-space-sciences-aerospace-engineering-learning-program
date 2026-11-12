@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B56, de la ampliación `0.2.0`. Nivel N3. Complementa a [C03](../B56-C03-origen-de-moleculas-autorreplicantes/CLASE.md), que trata el origen de replicadores, y a [C04](../B56-C04-hipotesis-de-abiogenesis/CLASE.md), con una pregunta que esas clases dejan abierta: **qué longitudes de oligómeros produce una polimerización experimental y cómo la mejoran los ciclos húmedo–seco**. Usas un modelo estadístico (Flory) con datos sintéticos; no das procedimientos de laboratorio ni reproduces experimentos.
+Clase 21 del bloque B56, de la ampliación. Nivel N3. Complementa a [C03](../B56-C03-origen-de-moleculas-autorreplicantes/CLASE.md), que trata el origen de replicadores, y a [C04](../B56-C04-hipotesis-de-abiogenesis/CLASE.md), con una pregunta que esas clases dejan abierta: **qué longitudes de oligómeros produce una polimerización experimental y cómo la mejoran los ciclos húmedo–seco**. Usas un modelo estadístico (Flory) con datos sintéticos; no das procedimientos de laboratorio ni reproduces experimentos.
 
 ## 2. Por qué esta clase existe
 

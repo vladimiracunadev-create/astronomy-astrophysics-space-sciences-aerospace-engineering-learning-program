@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase programada del bloque B12 (ampliación `0.2.0`). En [C13](../B12-C13-cadenas-de-markov-y-muestreo/CLASE.md) escribiste un muestreador de Metropolis y viste que una traza «que parece estable» no prueba convergencia. Aquí aprendes a **diagnosticarla** con varias cadenas (el estadístico `R̂`), a medir cuántas muestras independientes valen realmente (tamaño efectivo, `ESS`) y a hacer que el resultado sea **reproducible** (semillas, versiones, registros, huellas). Nivel N4. No verás muestreadores avanzados ni modelos concretos de misión.
+Clase programada del bloque B12 (ampliación). En [C13](../B12-C13-cadenas-de-markov-y-muestreo/CLASE.md) escribiste un muestreador de Metropolis y viste que una traza «que parece estable» no prueba convergencia. Aquí aprendes a **diagnosticarla** con varias cadenas (el estadístico `R̂`), a medir cuántas muestras independientes valen realmente (tamaño efectivo, `ESS`) y a hacer que el resultado sea **reproducible** (semillas, versiones, registros, huellas). Nivel N4. No verás muestreadores avanzados ni modelos concretos de misión.
 
 ## 2. Por qué esta clase existe
 

@@ -1,16 +1,16 @@
 # Estado verificable
 
-**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.0` · **Malla curricular:** `0.2.0`
+**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.0`
 
 ## Resumen
 
 | Superficie | Estado actual | Evidencia |
 |---|---:|---|
-| Línea base `0.1.0`: registros del catálogo | 5.120 (1.280 de tronco + 3.840 de rutas), todos en E0 | `catalogo/clases.jsonl` |
+| Línea base inicial: registros del catálogo | 5.120 (1.280 de tronco + 3.840 de rutas), todos en E0 | `catalogo/clases.jsonl` |
 | Línea base: IDs únicos | 5.120 | `herramientas/validar_catalogo.py` |
-| Programa `0.2.0` (aprobado por el autor): áreas | 12 | `catalogo/v0.2.0/estructura.json` |
-| Programa `0.2.0`: bloques | 133 (64 de la línea base + 69 nuevos) | `catalogo/v0.2.0/estructura.json` |
-| Programa `0.2.0`: clases | 2.077 (1.280 de la línea base + 797 programadas) | `PROGRAMA_ACADEMICO_COMPLETO.md` |
+| Programa vigente (aprobado por el autor): áreas | 12 | `catalogo/v0.2.0/estructura.json` |
+| Programa vigente: bloques | 133 (64 de la línea base + 69 nuevos) | `catalogo/v0.2.0/estructura.json` |
+| Programa vigente: clases | 2.077 (1.280 de la línea base + 797 programadas) | `PROGRAMA_ACADEMICO_COMPLETO.md` |
 | Módulos de ruta ubicados en áreas y bloques | 192 módulos, 1.920 temas: 1.101 en clases existentes y 819 en clases programadas | `catalogo/v0.2.0/colocacion/` |
 | Rutas profesionales (recorridos sobre áreas y bloques) | 24 | `metadatos/recorridos/` |
 | Clases en E0 | todas las del programa | catálogo |
@@ -65,7 +65,7 @@ python herramientas/validar_catalogo.py
 Resultado de la línea base:
 
 ```text
-Catálogo: 5120 clases | 64 bloques | 24 rutas | 192 módulos   (línea base 0.1.0)
+Catálogo: 5120 clases | 64 bloques | 24 rutas | 192 módulos   (línea base inicial)
 VALIDACIÓN DOCUMENTAL APROBADA (no implica clases desarrolladas).
 ```
 

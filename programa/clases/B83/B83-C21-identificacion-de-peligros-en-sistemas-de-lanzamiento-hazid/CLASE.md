@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B83 (clase de la ampliación `0.2.0`). Nivel N3. La **identificación de peligros** (HAZID) es un análisis preliminar y estructurado de qué puede causar daño en un sistema, antes de calcular cuánto riesgo implica. Aquí aplicas palabras guía a seis nodos de una campaña de lanzamiento **sintética**, clasificas doce peligros y estimas el riesgo para terceros de dos trayectorias con un modelo simple de esperanza de bajas. El manual de NASA (S4) enmarca el riesgo como un triplete de escenario, verosimilitud y consecuencia, que es lo que este registro captura.
+Clase 21 del bloque B83 (clase de la ampliación). Nivel N3. La **identificación de peligros** (HAZID) es un análisis preliminar y estructurado de qué puede causar daño en un sistema, antes de calcular cuánto riesgo implica. Aquí aplicas palabras guía a seis nodos de una campaña de lanzamiento **sintética**, clasificas doce peligros y estimas el riesgo para terceros de dos trayectorias con un modelo simple de esperanza de bajas. El manual de NASA (S4) enmarca el riesgo como un triplete de escenario, verosimilitud y consecuencia, que es lo que este registro captura.
 
 ## 2. Por qué esta clase existe
 

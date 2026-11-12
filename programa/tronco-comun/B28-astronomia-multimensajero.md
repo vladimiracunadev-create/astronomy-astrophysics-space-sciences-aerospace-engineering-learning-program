@@ -1,6 +1,6 @@
 # B28 — Astronomía multimensajero
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 2 clases programadas por la ampliación (`B28-C21` a `B28-C22`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 2 clases programadas por la ampliación (`B28-C21` a `B28-C22`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
@@ -37,7 +37,7 @@ flowchart LR
 
 **Descripción textual.** Siete tramos encadenados: los cuatro mensajeros (C01–C04), las ondas gravitacionales y sus fuentes (C05–C08), alertas, localización y coincidencias (C09–C11), modelos y estadística (C12–C14), seguimiento, redes y archivos (C15–C17), interpretación y un caso integrado (C18–C20) y la ampliación con filtro acoplado e inferencia conjunta (C21–C22).
 
-## 🗂️ Las 22 clases en resumen (20 de la malla base + 2 de la ampliación)
+## 🗂️ Las 22 clases en resumen (20 de la línea base + 2 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
@@ -93,7 +93,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b28-c19"></a>[B28-C19](../clases/B28/B28-C19-limitaciones-y-sesgos-de-deteccion/CLASE.md) | Limitaciones y sesgos de detección | Función de selección y sesgo de Malmquist por simulación. | Ficha de sesgos de selección |
 | <a id="b28-c20"></a>[B28-C20](../clases/B28/B28-C20-caso-de-estudio-de-evento-combinado/CLASE.md) | Caso de estudio de evento combinado | Cronología y coherencia de un evento con varios mensajeros. | Dossier de un evento combinado |
 
-### Tramo 7 · Ampliación `0.2.0`: filtro acoplado e inferencia conjunta
+### Tramo 7 · Ampliación: filtro acoplado e inferencia conjunta
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B78 (clase programada por la ampliación `0.2.0`), última del bloque. Nivel N3. Un propulsor eléctrico no empuja todo el tiempo: la potencia solo está disponible a la luz del Sol, la actitud de la nave limita cuándo se puede empujar en la dirección útil y el calor exige pausas. Esa fracción de tiempo es el **ciclo de trabajo**, y fija el Δv por día. Aquí calculas el eclipse de una órbita baja, el ciclo de trabajo y el tiempo para elevar la órbita, con dos métodos. Usas [C06](../B78-C06-propulsion-electrica-general/CLASE.md) para el empuje por potencia. La nave y el propulsor son sintéticos.
+Clase 22 del bloque B78 (clase programada por la ampliación), última del bloque. Nivel N3. Un propulsor eléctrico no empuja todo el tiempo: la potencia solo está disponible a la luz del Sol, la actitud de la nave limita cuándo se puede empujar en la dirección útil y el calor exige pausas. Esa fracción de tiempo es el **ciclo de trabajo**, y fija el Δv por día. Aquí calculas el eclipse de una órbita baja, el ciclo de trabajo y el tiempo para elevar la órbita, con dos métodos. Usas [C06](../B78-C06-propulsion-electrica-general/CLASE.md) para el empuje por potencia. La nave y el propulsor son sintéticos.
 
 ## 2. Por qué esta clase existe
 

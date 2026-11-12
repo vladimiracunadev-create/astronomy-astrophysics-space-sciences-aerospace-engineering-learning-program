@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B13 (ampliación `0.2.0`). En [C11](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md) fijaste dónde está un punto sobre la Tierra; aquí fijas **hacia dónde apunta** una dirección en el cielo con un sistema que no depende de la Tierra: el **ICRS** y su materialización, el **ICRF**, apoyado en fuentes extragalácticas (cuásares). Nivel N2. Aprendes qué fija el sistema, cómo se mide su calidad en milisegundos de arco y qué significa esa cifra en metros. La conexión con el sistema terrestre se trata en C22.
+Clase 21 del bloque B13 (ampliación). En [C11](../B13-C11-sistemas-de-referencia-terrestres/CLASE.md) fijaste dónde está un punto sobre la Tierra; aquí fijas **hacia dónde apunta** una dirección en el cielo con un sistema que no depende de la Tierra: el **ICRS** y su materialización, el **ICRF**, apoyado en fuentes extragalácticas (cuásares). Nivel N2. Aprendes qué fija el sistema, cómo se mide su calidad en milisegundos de arco y qué significa esa cifra en metros. La conexión con el sistema terrestre se trata en C22.
 
 ## 2. Por qué esta clase existe
 

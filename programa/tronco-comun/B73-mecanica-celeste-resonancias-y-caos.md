@@ -1,6 +1,6 @@
 # B73 — Mecánica celeste, resonancias y caos
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 2 clases programadas por la ampliación (`B73-C21` a `B73-C22`), redactadas y listadas en el tramo 2 y el tramo 5. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 2 clases programadas por la ampliación (`B73-C21` a `B73-C22`), redactadas y listadas en el tramo 2 y el tramo 5. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial
@@ -36,7 +36,7 @@ flowchart LR
 
 **Descripción textual.** Seis tramos encadenados: el problema restringido de tres cuerpos (C01–C07), la integración de muchos cuerpos y de largo plazo (C08, C09 y la programada C21), las resonancias (C10–C12), el caos (C13–C15), las aplicaciones a anillos, exoplanetas, irregulares, lunas y coorbitales (C16–C19 y la programada C22) y el proyecto integrador (C20). El hilo común es que cada resultado se contrasta con una segunda vía y se acota su validez.
 
-## 🗂️ Las 22 clases en resumen (20 de la malla base + 2 de la ampliación)
+## 🗂️ Las 22 clases en resumen (20 de la línea base + 2 de la ampliación)
 
 **Navegación:** cada clase enlaza a la anterior, a la siguiente y a este bloque.
 
@@ -61,7 +61,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 |---|---|---|---|
 | <a id="b73-c08"></a>[B73-C08](../clases/B73/B73-C08-sistemas-de-n-cuerpos/CLASE.md) | Sistemas de N cuerpos | Suma directa, integrador simpléctico y leyes de conservación en un sistema joviano. | Ficha de conservación de un sistema de cinco cuerpos |
 | <a id="b73-c09"></a>[B73-C09](../clases/B73/B73-C09-integracion-de-largo-plazo/CLASE.md) | Integración de largo plazo | Error de energía de integradores simplécticos y no simplécticos, pendiente log–log y reversibilidad. | Comparación de integradores en 10⁴ órbitas |
-| <a id="b73-c21"></a>[B73-C21](../clases/B73/B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) | Pasos cercanos a satélites naturales en integración de N cuerpos *(ampliación `0.2.0`)* | Encuentro hiperbólico con una luna, paso fijo frente a paso adaptativo. | Comparación de errores de deflexión |
+| <a id="b73-c21"></a>[B73-C21](../clases/B73/B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md) | Pasos cercanos a satélites naturales en integración de N cuerpos *(ampliación)* | Encuentro hiperbólico con una luna, paso fijo frente a paso adaptativo. | Comparación de errores de deflexión |
 
 ### Tramo 3 · Resonancias
 
@@ -87,7 +87,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b73-c17"></a>[B73-C17](../clases/B73/B73-C17-estabilidad-de-sistemas-exoplanetarios/CLASE.md) | Estabilidad de sistemas exoplanetarios | Separación en radios de Hill mutuos y tiempo hasta el primer cruce. | Mapa de estabilidad frente a separación (sintético) |
 | <a id="b73-c18"></a>[B73-C18](../clases/B73/B73-C18-satelites-irregulares/CLASE.md) | Satélites irregulares | Fracción de la esfera de Hill, inclinación y estabilidad prógrada y retrógrada. | Ficha de los irregulares de Júpiter con su estabilidad |
 | <a id="b73-c19"></a>[B73-C19](../clases/B73/B73-C19-mecanica-de-sistemas-lunares/CLASE.md) | Mecánica de sistemas lunares | Esfera de Hill, plano de Laplace y precesión por `J2` en Júpiter. | Ficha dinámica del sistema galileano |
-| <a id="b73-c22"></a>[B73-C22](../clases/B73/B73-C22-capturas-temporales-y-cuasi-satelites/CLASE.md) | Capturas temporales y cuasi-satélites *(ampliación `0.2.0`)* | Clasificar órbitas coorbitales: renacuajo, herradura y cuasi-satélite. | Tabla de clasificación de órbitas coorbitales |
+| <a id="b73-c22"></a>[B73-C22](../clases/B73/B73-C22-capturas-temporales-y-cuasi-satelites/CLASE.md) | Capturas temporales y cuasi-satélites *(ampliación)* | Clasificar órbitas coorbitales: renacuajo, herradura y cuasi-satélite. | Tabla de clasificación de órbitas coorbitales |
 
 ### Tramo 6 · Proyecto integrador
 

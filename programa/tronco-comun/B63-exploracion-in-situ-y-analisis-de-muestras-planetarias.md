@@ -1,6 +1,6 @@
 # B63 — Exploración in situ y análisis de muestras planetarias
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 6 clases fueron programadas por la reorganización y están redactadas en estado E0 (texto redactado, pendiente de revisión). Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque nuevo de la estructura vigente.** Sus 6 clases fueron programadas por la reorganización y están redactadas en estado E0 (texto redactado, pendiente de revisión). Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad

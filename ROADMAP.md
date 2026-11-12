@@ -2,15 +2,15 @@
 
 Este roadmap resume la resolución del repositorio y de sus contenidos. El detalle operativo, los artefactos y las condiciones de cierre están en el [plan de implementación](documentacion/PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md).
 
-## Línea base `0.1.0` · publicada como catálogo
+## Línea base inicial · publicada como catálogo
 
-- [x] 5.120 IDs estables con título y descripción preliminar (línea base `0.1.0`).
-- [x] 64 bloques transversales y 24 rutas con 192 módulos (línea base `0.1.0`).
+- [x] 5.120 IDs estables con título y descripción preliminar (línea base inicial).
+- [x] 64 bloques transversales y 24 rutas con 192 módulos (línea base inicial).
 - [x] Catálogo equivalente en JSONL, JSON y CSV.
 - [x] Visor estático con búsqueda y filtros.
 - [x] Validador reproducible de estructura y estado preliminar.
 - [x] Estándar `clase-profunda-cientifica` y estados E0–E6 documentados.
-- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa `0.2.0`; las 2.077 con texto redactado en A01 a A12).
+- [ ] Clases completamente redactadas y verificadas: **0/2.077** (programa vigente; las 2.077 con texto redactado en A01 a A12).
 
 ## Horizonte A · integridad y publicación
 
@@ -32,7 +32,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 - [ ] Confirmar vacíos (misiones reales, IA y datos, transitorios, Chile y hemisferio sur, inclusión).
 - [ ] Dependencias por capacidad sin ciclos.
 - [ ] Guías pedagógicas por bloque (B01–B133, es decir A01 a A12, hechas).
-- [x] Programa unificado `0.2.0` aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas: las 797 ya con texto).
+- [x] Programa unificado aprobado por el autor: 12 áreas, 133 bloques, 2.077 clases (797 programadas: las 797 ya con texto).
 - [x] B01-C01 redactada y aprobada por el autor (conserva E0 en el catálogo hasta registrar revisión disciplinar).
 
 **Cierre:** informe de refinamiento y contraste metodológico (un bloque del tronco y un módulo de ruta).

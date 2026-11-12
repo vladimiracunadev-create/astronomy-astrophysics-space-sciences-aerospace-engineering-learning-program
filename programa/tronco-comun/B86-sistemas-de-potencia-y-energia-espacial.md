@@ -1,6 +1,6 @@
 # B86 — Sistemas de potencia y energía espacial
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y las 3 clases programadas por la ampliación (`B86-C21` a `B86-C23`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y las 3 clases programadas por la ampliación (`B86-C21` a `B86-C23`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales

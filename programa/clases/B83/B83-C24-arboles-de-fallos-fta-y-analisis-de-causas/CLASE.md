@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 24 del bloque B83 (clase de la ampliación `0.2.0`). Nivel N3. Un **árbol de fallos** (FTA) parte de un evento no deseado (el *evento superior*) y lo descompone, con compuertas Y/O, en combinaciones de eventos básicos; permite hallar las combinaciones mínimas que lo causan y calcular su probabilidad. Es un análisis **deductivo** (de efecto a causas), complementario del FMEA de C22, que es inductivo. Aquí construyes un árbol **sintético** de «pérdida de control de actitud» de ESTRELLA-S con un evento repetido, obtienes los conjuntos mínimos de corte y calculas la probabilidad por tres vías. El manual de NASA (S4) refiere el análisis de escenarios, verosimilitudes y consecuencias; no se consultó ningún texto específico de FTA.
+Clase 24 del bloque B83 (clase de la ampliación). Nivel N3. Un **árbol de fallos** (FTA) parte de un evento no deseado (el *evento superior*) y lo descompone, con compuertas Y/O, en combinaciones de eventos básicos; permite hallar las combinaciones mínimas que lo causan y calcular su probabilidad. Es un análisis **deductivo** (de efecto a causas), complementario del FMEA de C22, que es inductivo. Aquí construyes un árbol **sintético** de «pérdida de control de actitud» de ESTRELLA-S con un evento repetido, obtienes los conjuntos mínimos de corte y calculas la probabilidad por tres vías. El manual de NASA (S4) refiere el análisis de escenarios, verosimilitudes y consecuencias; no se consultó ningún texto específico de FTA.
 
 ## 2. Por qué esta clase existe
 

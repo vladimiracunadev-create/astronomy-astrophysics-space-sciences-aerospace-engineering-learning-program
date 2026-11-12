@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B89, nivel N3 (ampliación `0.2.0`). Las ondas de HF (3–30 MHz) se reflejan en la ionosfera y permiten comunicar más allá del horizonte; la frecuencia máxima utilizable depende de la densidad de electrones y de la distancia, y una tormenta geomagnética la reduce. Aquí calculas la frecuencia de plasma, la frecuencia crítica, la MUF por la ley de la secante en geometría esférica y el efecto de una tormenta. Completa [B89-C04](../B89-C04-propagacion-y-perdidas-de-espacio-libre/CLASE.md), que trata la pérdida en espacio libre sin ionosfera. **La relación `f_p = 8,98√N` y la ley de la secante son estándar y no se consultaron;** las densidades son sintéticas.
+Clase 22 del bloque B89, nivel N3 (ampliación). Las ondas de HF (3–30 MHz) se reflejan en la ionosfera y permiten comunicar más allá del horizonte; la frecuencia máxima utilizable depende de la densidad de electrones y de la distancia, y una tormenta geomagnética la reduce. Aquí calculas la frecuencia de plasma, la frecuencia crítica, la MUF por la ley de la secante en geometría esférica y el efecto de una tormenta. Completa [B89-C04](../B89-C04-propagacion-y-perdidas-de-espacio-libre/CLASE.md), que trata la pérdida en espacio libre sin ionosfera. **La relación `f_p = 8,98√N` y la ley de la secante son estándar y no se consultaron;** las densidades son sintéticas.
 
 ## 2. Por qué esta clase existe
 

@@ -1,6 +1,6 @@
 # B89 — Comunicaciones y navegación satelital
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 5 clases que estaban programadas (`B89-C21` a `B89-C25`) y ahora están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 5 clases que estaban programadas (`B89-C21` a `B89-C25`) y ahora están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales
@@ -98,7 +98,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b89-c19"></a>[B89-C19](../clases/B89/B89-C19-coordinacion-del-espectro-ante-itu/CLASE.md) | Coordinación del espectro ante ITU | Relación interferencia/ruido y criterio de separación orbital para una coordinación. | Ficha de coordinación sintética |
 | <a id="b89-c20"></a>[B89-C20](../clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md) | Diseño de red de comunicaciones de misión | Volumen de datos por pasada, relevo, margen por fase y verificación de requisitos. | Arquitectura de red de una misión sintética |
 
-### Tramo 8 · Ampliación de la estructura `0.2.0`
+### Tramo 8 · Ampliación de la estructura vigente
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

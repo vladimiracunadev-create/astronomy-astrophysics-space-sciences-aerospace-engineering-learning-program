@@ -3,7 +3,7 @@
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Nivel:** N2 (análisis cuantitativo avanzado) · **Clases:** 8 · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque, nuevo en la estructura `0.2.0`. Las ocho clases están redactadas y pendientes de revisión disciplinar y aprobación del autor; no existen en la línea base y conservan el estado E0.
+**Estado:** guía pedagógica del bloque, nuevo en la estructura vigente. Las ocho clases están redactadas y pendientes de revisión disciplinar y aprobación del autor; no existen en la línea base y conservan el estado E0.
 
 ## 🎯 Propósito del bloque
 

@@ -2,7 +2,7 @@
 
 Todos los cambios relevantes de este programa se documentan aquí. Las referencias históricas se conservan; el estado actual se mantiene en `STATUS.md`.
 
-> **Tres versiones, tres cosas distintas.** La **publicación** (`VERSION`, etiqueta `vX.Y.Z` de GitHub) es lo que se descarga: PDF, aplicaciones y sitio. La **malla curricular** (`catalogo/v0.2.0/`) es la estructura de 12 áreas, 133 bloques y 2.077 clases. La **línea base del catálogo** (`catalogo/clases.*`, 5.120 registros) es el punto de partida histórico y no se edita.
+> La versión de la publicación está en el archivo `VERSION` y en la etiqueta `vX.Y.Z` de GitHub. La carpeta `catalogo/v0.2.0/` conserva su nombre histórico: contiene la estructura vigente (12 áreas, 133 bloques, 2.077 clases).
 
 ## [0.1.0] — 2026-11-11 · primera publicación
 
@@ -17,10 +17,11 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 ### Cambiado
 
-- El README se reescribió: más corto y coherente con el estado actual (2.077 clases con texto en E0).
+- README: las secciones «Estándar para generar los contenidos», «Resolución de contenidos por etapas» y «Qué contiene hoy» pasan a `documentacion/`; el resto de la portada conserva su estructura y se corrigen las incoherencias de datos (2.077 clases con texto en E0).
+- Versiones: la publicación es la `0.1.0` (archivo `VERSION`); en los documentos y guías ya no se usan «0.2.0» ni «línea base 0.1.0» como etiquetas de versión (ahora «estructura vigente» y «línea base inicial»).
 
 
-## Malla curricular 0.2.0 — 2026-11-05
+## Reorganización del programa en áreas y bloques — 2026-11-05
 
 ### Cambiado
 
@@ -43,7 +44,7 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 - Todas las clases del programa siguen en E0 en el catálogo; clases redactadas y verificadas: 0.
 
-## Línea base del catálogo 0.1.0 — 2026-11-05
+## Línea base inicial del catálogo — 2026-11-05
 
 ### Añadido
 

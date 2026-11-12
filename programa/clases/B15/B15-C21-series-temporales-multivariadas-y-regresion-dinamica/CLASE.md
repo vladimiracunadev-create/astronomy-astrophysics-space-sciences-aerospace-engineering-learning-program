@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Primera clase programada del bloque B15 (necesidad registrada en el catálogo de la estructura `0.2.0`): hasta C20 las series eran de una sola variable; para relacionar el viento solar con un índice geomagnético hacen falta modelos con **varias series** y **retardos**. Aprenderás la regresión dinámica (una respuesta que depende de su propio pasado y del pasado de un impulsor), la selección del retardo, la prueba de causalidad en el sentido de Granger y el peligro de la regresión espuria. Nivel N3. Usas series ([C01](../B15-C01-series-temporales-discretas/CLASE.md)), ruido coloreado ([C03](../B15-C03-ruido-blanco-y-coloreado/CLASE.md)) y ajuste ([C16](../B15-C16-ajuste-de-curvas/CLASE.md)). Los datos son **sintéticos**; no se usan datos reales de viento solar.
+Primera clase programada del bloque B15 (necesidad registrada en el catálogo de la estructura vigente): hasta C20 las series eran de una sola variable; para relacionar el viento solar con un índice geomagnético hacen falta modelos con **varias series** y **retardos**. Aprenderás la regresión dinámica (una respuesta que depende de su propio pasado y del pasado de un impulsor), la selección del retardo, la prueba de causalidad en el sentido de Granger y el peligro de la regresión espuria. Nivel N3. Usas series ([C01](../B15-C01-series-temporales-discretas/CLASE.md)), ruido coloreado ([C03](../B15-C03-ruido-blanco-y-coloreado/CLASE.md)) y ajuste ([C16](../B15-C16-ajuste-de-curvas/CLASE.md)). Los datos son **sintéticos**; no se usan datos reales de viento solar.
 
 ## 2. Por qué esta clase existe
 

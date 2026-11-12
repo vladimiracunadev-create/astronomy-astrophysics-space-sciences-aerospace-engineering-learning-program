@@ -1,6 +1,6 @@
 # B104 — Astronáutica y preparación de astronautas
 
-> **Bloque ampliado (`0.2.0`).** Tiene 23 clases: las 20 de la línea base y 3 programadas por la ampliación (`B104-C21` a `B104-C23`), todas ya redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Tiene 23 clases: las 20 de la línea base y 3 programadas por la ampliación (`B104-C21` a `B104-C23`), todas ya redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A09 — Astronáutica humana, medicina y hábitats
@@ -97,7 +97,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b104-c19"></a>[B104-C19](../clases/B104/B104-C19-operaciones-de-retorno-y-reintegracion/CLASE.md) | Operaciones de retorno y reintegración | Desaceleración máxima de un reingreso balístico y ángulo de entrada. | Tabla de g máximos por ángulo |
 | <a id="b104-c20"></a>[B104-C20](../clases/B104/B104-C20-mision-tripulada-simulada/CLASE.md) | Misión tripulada simulada | Simulación Monte Carlo de una misión analógica que integra consumibles, fallas y tiempo. | Informe de misión simulada con margen |
 
-### Tramo 7 · Operación a bordo (clases añadidas en la `0.2.0`)
+### Tramo 7 · Operación a bordo (clases añadidas en la estructura vigente)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

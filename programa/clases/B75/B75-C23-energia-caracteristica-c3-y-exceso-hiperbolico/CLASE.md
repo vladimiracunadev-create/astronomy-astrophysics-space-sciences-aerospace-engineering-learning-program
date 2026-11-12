@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B75 (programada en la `0.2.0`). Nivel N3. La clase B71-C15 trata la velocidad de escape; esta clase define la medida con la que se dimensiona un lanzamiento interplanetario: la energía característica `C3 = v∞²`. Calculas `C3` y el delta-v de salida desde una órbita baja para Venus, Marte y Júpiter, y verificas la energía con una propagación de Kepler.
+Clase 23 del bloque B75 (programada en la ampliación). Nivel N3. La clase B71-C15 trata la velocidad de escape; esta clase define la medida con la que se dimensiona un lanzamiento interplanetario: la energía característica `C3 = v∞²`. Calculas `C3` y el delta-v de salida desde una órbita baja para Venus, Marte y Júpiter, y verificas la energía con una propagación de Kepler.
 
 ## 2. Por qué esta clase existe
 

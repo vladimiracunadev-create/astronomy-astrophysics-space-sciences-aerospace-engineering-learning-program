@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B28 (ampliación `0.2.0`). Nivel N3. Las ondas gravitacionales de una binaria ([B28-C05](../B28-C05-ondas-gravitacionales/CLASE.md)) son tan débiles que solo se detectan comparando los datos con **plantillas**. Aquí escribes la **forma de onda newtoniana** de un chirrido, aplicas el **filtro acoplado** en ruido blanco y estudias el **desajuste** al cambiar la masa de chirrido, lo que fija el espaciado de un banco de plantillas. Usas la masa de chirrido de [B27-C13](../../B27/B27-C13-binarias-compactas/CLASE.md), el filtro de [B28-C14](../B28-C14-ruidos-instrumentales/CLASE.md) y la significancia de [B28-C13](../B28-C13-estadistica-de-significancia/CLASE.md). Los datos son sintéticos y el tiempo de coalescencia se supone conocido.
+Clase 21 del bloque B28 (ampliación). Nivel N3. Las ondas gravitacionales de una binaria ([B28-C05](../B28-C05-ondas-gravitacionales/CLASE.md)) son tan débiles que solo se detectan comparando los datos con **plantillas**. Aquí escribes la **forma de onda newtoniana** de un chirrido, aplicas el **filtro acoplado** en ruido blanco y estudias el **desajuste** al cambiar la masa de chirrido, lo que fija el espaciado de un banco de plantillas. Usas la masa de chirrido de [B27-C13](../../B27/B27-C13-binarias-compactas/CLASE.md), el filtro de [B28-C14](../B28-C14-ruidos-instrumentales/CLASE.md) y la significancia de [B28-C13](../B28-C13-estadistica-de-significancia/CLASE.md). Los datos son sintéticos y el tiempo de coalescencia se supone conocido.
 
 ## 2. Por qué esta clase existe
 

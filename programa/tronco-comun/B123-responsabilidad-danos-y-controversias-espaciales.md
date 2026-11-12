@@ -1,6 +1,6 @@
 # B123 — Responsabilidad, daños y controversias espaciales
 
-> **Bloque nuevo de la estructura `0.2.0`.** Sus 4 clases estaban programadas por la ampliación y ahora están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque nuevo de la estructura vigente.** Sus 4 clases estaban programadas por la ampliación y ahora están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A10 — Entorno orbital, derecho y seguridad espacial

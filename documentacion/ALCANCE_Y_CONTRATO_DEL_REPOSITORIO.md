@@ -11,7 +11,7 @@ Es un programa único, continuo, independiente, versionado y extensible; **no** 
 
 - 12 áreas y 133 bloques (64 de la línea base y 69 nuevos) con 2.077 clases: 1.280 de la línea base y 797 programadas (las 797, en A02 a A12, ya con texto).
 - 24 rutas profesionales como recorridos sobre áreas y bloques; los 192 módulos de la línea base se conservan como equivalencias.
-- Línea base `0.1.0` de 5.120 registros únicos y programa `0.2.0`; un identificador permanente para cada clase.
+- Línea base inicial de 5.120 registros únicos y programa vigente; un identificador permanente para cada clase.
 - La clasificación pedagógica de seis niveles: descubrimiento, fundamentos, aplicación, desarrollo, profesional, investigación.
 - Prerrequisitos explícitos; posibilidad de diagnóstico inicial y reconocimiento de conocimientos demostrado mediante evaluaciones.
 - Relación entre contenido fundamental y especializaciones para evitar duplicar temas ya explicados.
@@ -98,7 +98,7 @@ Evitar interfaces decorativas sin funcionalidad. Priorizar carga rápida, diseñ
 
 - Revisar siempre README, el catálogo, la estructura existente, las instrucciones de repositorio y el estado de pruebas antes de cambiar nada.
 - No sobrescribir ni eliminar módulos, clases, rutas, fuentes o trabajos previos válidos.
-- Conservar las 5.120 clases de la línea base; la reorganización `0.2.0` no borra ninguna, numera los bloques de forma consecutiva (B01–B133) y registra el número anterior de cada bloque.
+- Conservar las 5.120 clases de la línea base; la reorganización no borra ninguna, numera los bloques de forma consecutiva (B01–B133) y registra el número anterior de cada bloque.
 - Cada etapa debe incluir matriz de cambios, pruebas automatizadas, registro de fuentes y contraste de cobertura.
 - Por cada bloque implementado: pruebas de calidad, reporte de errores y documentación de evolución.
 - Preferencias técnicas: `uv` para proyectos Python; `pnpm` para JS, evitando dependencias innecesarias. No imponer frameworks pesados.

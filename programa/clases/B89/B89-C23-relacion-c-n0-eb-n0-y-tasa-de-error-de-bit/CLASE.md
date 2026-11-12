@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B89, nivel N3 (ampliación `0.2.0`). Cerrar un presupuesto de enlace ([B89-C05](../B89-C05-presupuesto-de-enlace/CLASE.md)) exige traducir la potencia y el ruido en una tasa de error de bit: `C/N₀` pasa a `Eb/N₀` al fijar la tasa de bits, y de ahí sale la BER de la modulación ([B89-C08](../B89-C08-modulacion-digital/CLASE.md)). Aquí encadenas las tres magnitudes, calculas la tasa máxima para una BER objetivo y verificas la cadena con una simulación de Monte Carlo. Los valores de `C/N₀` y las tasas son sintéticos.
+Clase 23 del bloque B89, nivel N3 (ampliación). Cerrar un presupuesto de enlace ([B89-C05](../B89-C05-presupuesto-de-enlace/CLASE.md)) exige traducir la potencia y el ruido en una tasa de error de bit: `C/N₀` pasa a `Eb/N₀` al fijar la tasa de bits, y de ahí sale la BER de la modulación ([B89-C08](../B89-C08-modulacion-digital/CLASE.md)). Aquí encadenas las tres magnitudes, calculas la tasa máxima para una BER objetivo y verificas la cadena con una simulación de Monte Carlo. Los valores de `C/N₀` y las tasas son sintéticos.
 
 ## 2. Por qué esta clase existe
 

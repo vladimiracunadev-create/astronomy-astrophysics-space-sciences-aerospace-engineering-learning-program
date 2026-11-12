@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B73 (clase programada de la ampliación `0.2.0`, ahora redactada), con la que cierra el bloque. Nivel N3. Sigue a [B73-C21](../B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md). Aquí clasificas órbitas coorbitales de la Tierra en el problema restringido Sol–Tierra (tadpole, herradura y cuasi-satélite) a partir del ángulo heliocéntrico respecto de la Tierra, y estudias capturas temporales de partículas a `0,5 R_H` según su velocidad inicial. **Todas las partículas son sintéticas**; solo el `GM` del Sol y la distancia Sol–Tierra son datos publicados, y el `GM` de la Tierra es aproximado.
+Clase 22 del bloque B73 (clase programada de la ampliación, ahora redactada), con la que cierra el bloque. Nivel N3. Sigue a [B73-C21](../B73-C21-pasos-cercanos-a-satelites-naturales-en-integracion-de-n-cuerpos/CLASE.md). Aquí clasificas órbitas coorbitales de la Tierra en el problema restringido Sol–Tierra (tadpole, herradura y cuasi-satélite) a partir del ángulo heliocéntrico respecto de la Tierra, y estudias capturas temporales de partículas a `0,5 R_H` según su velocidad inicial. **Todas las partículas son sintéticas**; solo el `GM` del Sol y la distancia Sol–Tierra son datos publicados, y el `GM` de la Tierra es aproximado.
 
 ## 2. Por qué esta clase existe
 

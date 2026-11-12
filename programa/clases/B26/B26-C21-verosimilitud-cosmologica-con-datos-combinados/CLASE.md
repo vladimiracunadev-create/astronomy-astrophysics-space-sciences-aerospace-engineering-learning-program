@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B26 (ampliación `0.2.0`). Nivel N3. [B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) enseña estimación general; en [C20](../B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md) ajustaste una sola sonda, las supernovas. Falta construir la **verosimilitud conjunta** de varias sondas, como el fondo cósmico, las oscilaciones acústicas y las supernovas, y juzgar si son compatibles. Aquí lo haces con restricciones gaussianas sobre `Ω_m`, con cifras publicadas usadas como ejercicio de técnica. Usas verosimilitud gaussiana ([B12-C07](../../B12/B12-C07-estimacion-de-parametros/CLASE.md)), covarianzas ([B12-C18](../../B12/B12-C18-matrices-de-covarianza/CLASE.md)) y la inferencia de [B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md).
+Clase 21 del bloque B26 (ampliación). Nivel N3. [B12](../../../tronco-comun/B12-probabilidad-estadistica-e-incertidumbre.md) enseña estimación general; en [C20](../B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md) ajustaste una sola sonda, las supernovas. Falta construir la **verosimilitud conjunta** de varias sondas, como el fondo cósmico, las oscilaciones acústicas y las supernovas, y juzgar si son compatibles. Aquí lo haces con restricciones gaussianas sobre `Ω_m`, con cifras publicadas usadas como ejercicio de técnica. Usas verosimilitud gaussiana ([B12-C07](../../B12/B12-C07-estimacion-de-parametros/CLASE.md)), covarianzas ([B12-C18](../../B12/B12-C18-matrices-de-covarianza/CLASE.md)) y la inferencia de [B19](../../../tronco-comun/B19-inferencia-bayesiana-y-computacion-probabilistica.md).
 
 ## 2. Por qué esta clase existe
 

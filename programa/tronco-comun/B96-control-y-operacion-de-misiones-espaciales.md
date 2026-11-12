@@ -1,6 +1,6 @@
 # B96 — Control y operación de misiones espaciales
 
-> **Bloque ampliado (`0.2.0`).** Sus 30 clases (20 de la línea base y 10 programadas por la ampliación, `B96-C21` a `B96-C30`) están redactadas. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 30 clases (20 de la línea base y 10 programadas por la ampliación, `B96-C21` a `B96-C30`) están redactadas. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A08 — Astronáutica humana, operaciones, sociedad y futuro espacial

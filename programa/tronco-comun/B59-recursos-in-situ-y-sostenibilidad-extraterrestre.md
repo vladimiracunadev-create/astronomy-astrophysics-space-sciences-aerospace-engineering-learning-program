@@ -1,11 +1,11 @@
 # B59 — Recursos in situ y sostenibilidad extraterrestre
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B59-C21` a `B59-C23`), redactadas y listadas en los tramos 2 y 3. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 3 clases programadas por la ampliación (`B59-C21` a `B59-C23`), redactadas y listadas en los tramos 2 y 3. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad
 **Nivel:** N3 (fundamentos disciplinares) · **Clases:** 20 + 3 de la ampliación · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B59-C21` a `B59-C23` (ampliación `0.2.0`) también están redactadas y conservan el mismo estado.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las clases enlazadas en la tabla ya están redactadas; todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Las clases `B59-C21` a `B59-C23` (ampliación) también están redactadas y conservan el mismo estado.
 
 ## 🎯 Propósito del bloque
 
@@ -35,9 +35,9 @@ flowchart LR
     A --> B --> C --> D --> E --> F
 ```
 
-**Descripción textual.** Seis tramos encadenados: concepto y prospección de recursos (C01–C05), beneficio, extracción, almacenamiento y purificación de volátiles (C22, C06, C21, C07), oxígeno, combustibles, electrólisis y subproductos (C08–C10, C23), construcción y manufactura con regolito (C11–C13), sostenibilidad, ciclos, residuos e impacto (C14–C17) y fiabilidad, logística y diseño de planta (C18–C20). Las clases de la ampliación `0.2.0` (C21–C23) se leen donde el proceso las necesita, no al final.
+**Descripción textual.** Seis tramos encadenados: concepto y prospección de recursos (C01–C05), beneficio, extracción, almacenamiento y purificación de volátiles (C22, C06, C21, C07), oxígeno, combustibles, electrólisis y subproductos (C08–C10, C23), construcción y manufactura con regolito (C11–C13), sostenibilidad, ciclos, residuos e impacto (C14–C17) y fiabilidad, logística y diseño de planta (C18–C20). Las clases de la ampliación (C21–C23) se leen donde el proceso las necesita, no al final.
 
-## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
+## 🗂️ Las 23 clases en resumen (20 de la línea base + 3 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 

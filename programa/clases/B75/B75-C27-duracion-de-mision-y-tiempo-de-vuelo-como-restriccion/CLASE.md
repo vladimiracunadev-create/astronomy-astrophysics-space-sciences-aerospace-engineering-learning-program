@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 27 del bloque B75 (programada en la `0.2.0`). Nivel N3. El tiempo de vuelo no es solo un dato de la transferencia: es una restricción de la misión, porque cada día cuesta operación, riesgo y exposición, y porque acortar el viaje cuesta delta-v. Aquí calculas, con Lambert, el delta-v mínimo para cada tiempo de vuelo (eligiendo la mejor fecha de salida), lo conviertes en masa, y buscas el tiempo que minimiza un costo total con un costo temporal ilustrativo.
+Clase 27 del bloque B75 (programada en la ampliación). Nivel N3. El tiempo de vuelo no es solo un dato de la transferencia: es una restricción de la misión, porque cada día cuesta operación, riesgo y exposición, y porque acortar el viaje cuesta delta-v. Aquí calculas, con Lambert, el delta-v mínimo para cada tiempo de vuelo (eligiendo la mejor fecha de salida), lo conviertes en masa, y buscas el tiempo que minimiza un costo total con un costo temporal ilustrativo.
 
 ## 2. Por qué esta clase existe
 

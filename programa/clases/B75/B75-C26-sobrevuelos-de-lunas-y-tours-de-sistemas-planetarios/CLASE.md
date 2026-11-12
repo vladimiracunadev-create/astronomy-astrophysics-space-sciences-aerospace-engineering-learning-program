@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 26 del bloque B75 (programada en la `0.2.0`). Nivel N3. La clase B75-C20 trata una misión a una luna como caso de diseño; esta clase estudia la técnica: un tour por un sistema de lunas encadena sobrevuelos de lunas distintas para cambiar la órbita joviana casi sin propulsante. Aplicas el criterio de Tisserand (B75-C08) a las lunas galileanas, ves un paso del tour (un sobrevuelo de Ganimedes) y compruebas que el parámetro se conserva en 100 sobrevuelos aleatorios.
+Clase 26 del bloque B75 (programada en la ampliación). Nivel N3. La clase B75-C20 trata una misión a una luna como caso de diseño; esta clase estudia la técnica: un tour por un sistema de lunas encadena sobrevuelos de lunas distintas para cambiar la órbita joviana casi sin propulsante. Aplicas el criterio de Tisserand (B75-C08) a las lunas galileanas, ves un paso del tour (un sobrevuelo de Ganimedes) y compruebas que el parámetro se conserva en 100 sobrevuelos aleatorios.
 
 ## 2. Por qué esta clase existe
 

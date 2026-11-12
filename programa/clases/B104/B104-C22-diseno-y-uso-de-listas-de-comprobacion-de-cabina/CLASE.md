@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B104, nivel N3 (clase añadida en la estructura `0.2.0`). B104-C06 trata el entrenamiento de procedimientos en general; esta clase se centra en la **lista de comprobación de cabina**: cómo se diseña, cómo se ejecuta y cómo se verifica que cumple su función. Comparas tres formatos de ejecución (de memoria, leer y hacer, desafío y respuesta) por su probabilidad de omitir un paso y por su costo en tiempo, con **probabilidades ilustrativas**.
+Clase 22 del bloque B104, nivel N3 (clase añadida en la estructura vigente). B104-C06 trata el entrenamiento de procedimientos en general; esta clase se centra en la **lista de comprobación de cabina**: cómo se diseña, cómo se ejecuta y cómo se verifica que cumple su función. Comparas tres formatos de ejecución (de memoria, leer y hacer, desafío y respuesta) por su probabilidad de omitir un paso y por su costo en tiempo, con **probabilidades ilustrativas**.
 
 ## 2. Por qué esta clase existe
 

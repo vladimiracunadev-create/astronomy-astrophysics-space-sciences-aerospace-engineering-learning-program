@@ -1,6 +1,6 @@
 # B47 — Instrumentación y observatorios espaciales
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 5 clases programadas por la ampliación (`B47-C21` a `B47-C25`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 5 clases programadas por la ampliación (`B47-C21` a `B47-C25`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
@@ -35,7 +35,7 @@ flowchart LR
 
 **Descripción textual.** Cinco tramos encadenados: entorno y requisitos (C01–C02), telescopios y detectores por banda (C03–C09), plataforma, vacío y criogenia (C10–C14), operación, datos y vida útil (C15–C20) y la ampliación de heliofísica, instrumentos in situ y cargas educativas (C21–C25).
 
-## 🗂️ Las 25 clases en resumen (20 de la malla base + 5 de la ampliación)
+## 🗂️ Las 25 clases en resumen (20 de la línea base + 5 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 

@@ -1,6 +1,6 @@
 # B78 — Tecnologías de propulsión espacial
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y las 2 programadas por la ampliación (`B78-C21` y `B78-C22`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y las 2 programadas por la ampliación (`B78-C21` y `B78-C22`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial

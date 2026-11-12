@@ -1,6 +1,6 @@
 # B57 — Observación terrestre y geociencias orbitales
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 14 clases programadas por la ampliación (`B57-C21` a `B57-C34`), redactadas y listadas en los tramos 4 a 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 14 clases programadas por la ampliación (`B57-C21` a `B57-C34`), redactadas y listadas en los tramos 4 a 6. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A05 — Ciencias planetarias, astroquímica y habitabilidad
@@ -37,7 +37,7 @@ flowchart LR
 
 **Descripción textual.** Seis tramos encadenados: fundamentos y sensores ópticos (C01–C06), radar, altimetría, geodesia y LiDAR (C07–C11), aplicaciones a océano, atmósfera, criósfera y peligros naturales con el caso de Chile (C12–C20), la ampliación sobre sensores térmicos e hiperespectrales, órbita, carga útil y procesamiento (C21–C27), modelos de elevación y calibración (C28–C32) y las aplicaciones de deforestación y ética de alertas (C33–C34).
 
-## 🗂️ Las 34 clases en resumen (20 de la malla base + 14 de la ampliación)
+## 🗂️ Las 34 clases en resumen (20 de la línea base + 14 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 

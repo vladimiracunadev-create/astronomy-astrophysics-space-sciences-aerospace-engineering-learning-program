@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B90 (clase de la ampliación `0.2.0`). Nivel N3. Un **proceso de reducción de biocarga** (por ejemplo, calor seco, peróxido de hidrógeno en vapor o radiación ultravioleta, según F5) mata una fracción de los microorganismos en cada unidad de tiempo; **validarlo** es demostrar con evidencia que alcanza la reducción exigida de forma repetible. Aquí modelas la cinética de primer orden con el **valor D** y el **valor z**, calculas la exposición necesaria y la probabilidad de que sobreviva alguna espora. Todos los parámetros son **sintéticos**: no son de ningún material, norma ni misión.
+Clase 22 del bloque B90 (clase de la ampliación). Nivel N3. Un **proceso de reducción de biocarga** (por ejemplo, calor seco, peróxido de hidrógeno en vapor o radiación ultravioleta, según F5) mata una fracción de los microorganismos en cada unidad de tiempo; **validarlo** es demostrar con evidencia que alcanza la reducción exigida de forma repetible. Aquí modelas la cinética de primer orden con el **valor D** y el **valor z**, calculas la exposición necesaria y la probabilidad de que sobreviva alguna espora. Todos los parámetros son **sintéticos**: no son de ningún material, norma ni misión.
 
 ## 2. Por qué esta clase existe
 

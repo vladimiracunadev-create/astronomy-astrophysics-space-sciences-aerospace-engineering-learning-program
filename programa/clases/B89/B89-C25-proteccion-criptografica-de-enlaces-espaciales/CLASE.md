@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 25 del bloque B89, nivel N3 (ampliación `0.2.0`). Un enlace espacial sin protección permite que cualquiera con una antena envíe comandos o repita los que escuchó. La capa de seguridad de enlace de datos añade autenticación (y, opcionalmente, cifrado) a cada trama y una ventana contra repeticiones. Aquí lees lo que dice la CCSDS 355.0-B-2 sobre el algoritmo base y simulas, con una herramienta **solo didáctica**, la autenticación de tramas, la ventana anti-repetición y la sobrecarga. Usas [B89-C11](../B89-C11-telemetria-ccsds/CLASE.md) y [B89-C12](../B89-C12-telecomandos-ccsds/CLASE.md) para las tramas. **El laboratorio no implementa AES-GCM ni el protocolo SDLS y no es criptografía de producción.**
+Clase 25 del bloque B89, nivel N3 (ampliación). Un enlace espacial sin protección permite que cualquiera con una antena envíe comandos o repita los que escuchó. La capa de seguridad de enlace de datos añade autenticación (y, opcionalmente, cifrado) a cada trama y una ventana contra repeticiones. Aquí lees lo que dice la CCSDS 355.0-B-2 sobre el algoritmo base y simulas, con una herramienta **solo didáctica**, la autenticación de tramas, la ventana anti-repetición y la sobrecarga. Usas [B89-C11](../B89-C11-telemetria-ccsds/CLASE.md) y [B89-C12](../B89-C12-telecomandos-ccsds/CLASE.md) para las tramas. **El laboratorio no implementa AES-GCM ni el protocolo SDLS y no es criptografía de producción.**
 
 ## 2. Por qué esta clase existe
 

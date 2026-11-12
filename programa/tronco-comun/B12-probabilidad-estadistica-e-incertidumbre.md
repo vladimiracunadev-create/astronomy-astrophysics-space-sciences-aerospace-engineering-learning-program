@@ -3,9 +3,9 @@
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A02 — Matemática, física computacional y métodos científicos
 **Nivel:** N1 → N4 (de los fundamentos de la probabilidad al informe de incertidumbre) · **Clases:** 20 de la línea base + 6 programadas (C21–C26) · **Carga:** por calibrar con el uso
-**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 26 clases (20 de la línea base y 6 de la ampliación `0.2.0`) están redactadas y enlazadas en la tabla, pendientes de revisión disciplinar. Todas conservan el estado E0 en el catálogo hasta registrar esa revisión.
+**Estado:** guía pedagógica del bloque (resumen de qué se aprende en cada clase). Las 26 clases (20 de la línea base y 6 de la ampliación) están redactadas y enlazadas en la tabla, pendientes de revisión disciplinar. Todas conservan el estado E0 en el catálogo hasta registrar esa revisión.
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque tiene 6 clases programadas (`B12-C21` a `B12-C26`), ya redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 6 clases programadas (`B12-C21` a `B12-C26`), ya redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 ## 🎯 Propósito del bloque
 

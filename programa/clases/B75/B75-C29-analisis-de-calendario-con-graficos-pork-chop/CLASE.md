@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 29 del bloque B75 (programada en la `0.2.0`). Nivel N3. Un gráfico *pork-chop* es el mapa de una magnitud (aquí `C3`) frente a la fecha de salida y la de llegada; su forma de chuleta señala la ventana. Con el Lambert de B75-C04 construyes la malla para Tierra–Marte en el modelo circular y coplanar, con fechas **relativas** al día ideal del modelo, localizas el mínimo y mides el ancho de la ventana.
+Clase 29 del bloque B75 (programada en la ampliación). Nivel N3. Un gráfico *pork-chop* es el mapa de una magnitud (aquí `C3`) frente a la fecha de salida y la de llegada; su forma de chuleta señala la ventana. Con el Lambert de B75-C04 construyes la malla para Tierra–Marte en el modelo circular y coplanar, con fechas **relativas** al día ideal del modelo, localizas el mínimo y mides el ancho de la ventana.
 
 ## 2. Por qué esta clase existe
 

@@ -1,6 +1,6 @@
 # B43 — Construcción y mecánica de telescopios
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 6 clases programadas por la ampliación (`B43-C21` a `B43-C26`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 6 clases programadas por la ampliación (`B43-C21` a `B43-C26`), listadas en el último tramo. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A04 — Óptica, telescopios y observatorios científicos
@@ -35,7 +35,7 @@ flowchart LR
 
 **Descripción textual.** Cinco tramos encadenados: requisitos y espejos (C01–C07), soporte, tubo y estabilidad (C08–C11), monturas y accionamientos (C12–C16), alineación, operación y proyecto (C17–C20) y la ampliación de vidrio, forma y apoyos (C21–C26).
 
-## 🗂️ Las 26 clases en resumen (20 de la malla base + 6 de la ampliación)
+## 🗂️ Las 26 clases en resumen (20 de la línea base + 6 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 

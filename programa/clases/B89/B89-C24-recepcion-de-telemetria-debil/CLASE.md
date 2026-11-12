@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 24 del bloque B89, nivel N3 (ampliación `0.2.0`). En espacio profundo la señal llega cerca del umbral: hay que recibirla con lazos de portadora muy estrechos o detectarla por integración larga. Aquí calculas la SNR del lazo y su umbral, el ancho de banda mínimo frente al Doppler y simulas la detección de una portadora por FFT con falsa alarma controlada. Usas [B89-C10](../B89-C10-sincronizacion-de-portadora/CLASE.md) para el lazo y [B89-C23](../B89-C23-relacion-c-n0-eb-n0-y-tasa-de-error-de-bit/CLASE.md) para `C/N₀`. Señal y ruido son sintéticos; los umbrales y relaciones son estándar no consultados.
+Clase 24 del bloque B89, nivel N3 (ampliación). En espacio profundo la señal llega cerca del umbral: hay que recibirla con lazos de portadora muy estrechos o detectarla por integración larga. Aquí calculas la SNR del lazo y su umbral, el ancho de banda mínimo frente al Doppler y simulas la detección de una portadora por FFT con falsa alarma controlada. Usas [B89-C10](../B89-C10-sincronizacion-de-portadora/CLASE.md) para el lazo y [B89-C23](../B89-C23-relacion-c-n0-eb-n0-y-tasa-de-error-de-bit/CLASE.md) para `C/N₀`. Señal y ruido son sintéticos; los umbrales y relaciones son estándar no consultados.
 
 ## 2. Por qué esta clase existe
 

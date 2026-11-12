@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B124 (clase programada por la ampliación `0.2.0`). Nivel N3–N4. [C05](../B124-C05-estimacion-de-costos-de-mision/CLASE.md) estima el costo de una misión; aquí te detienes en un costo que atraviesa casi todos los modelos del bloque: el costo de llevar un kilogramo a órbita y a una superficie. Lo derivas con la ecuación del cohete, que da la fracción de carga útil, y con el precio de un lanzamiento, y mides su sensibilidad a la eficiencia, a la estructura y a la velocidad requerida. **Esta clase es educativa: no es una cotización ni asesoría financiera.** Los valores son ilustrativos.
+Clase 23 del bloque B124 (clase programada por la ampliación). Nivel N3–N4. [C05](../B124-C05-estimacion-de-costos-de-mision/CLASE.md) estima el costo de una misión; aquí te detienes en un costo que atraviesa casi todos los modelos del bloque: el costo de llevar un kilogramo a órbita y a una superficie. Lo derivas con la ecuación del cohete, que da la fracción de carga útil, y con el precio de un lanzamiento, y mides su sensibilidad a la eficiencia, a la estructura y a la velocidad requerida. **Esta clase es educativa: no es una cotización ni asesoría financiera.** Los valores son ilustrativos.
 
 ## 2. Por qué esta clase existe
 

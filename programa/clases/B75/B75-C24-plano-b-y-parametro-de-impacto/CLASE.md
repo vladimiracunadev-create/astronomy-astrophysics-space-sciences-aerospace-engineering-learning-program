@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 24 del bloque B75 (programada en la `0.2.0`). Nivel N3. Para apuntar un sobrevuelo no se maneja la hipérbola entera sino el punto donde su asíntota corta un plano perpendicular a la llegada: el **plano B**. Aquí defines el vector `B`, sus componentes `B·T` y `B·R`, la relación con la distancia de periapsis y la inclinación, y compruebas con Kepler que la construcción es coherente. El sobrevuelo es sintético, de la Tierra.
+Clase 24 del bloque B75 (programada en la ampliación). Nivel N3. Para apuntar un sobrevuelo no se maneja la hipérbola entera sino el punto donde su asíntota corta un plano perpendicular a la llegada: el **plano B**. Aquí defines el vector `B`, sus componentes `B·T` y `B·R`, la relación con la distancia de periapsis y la inclinación, y compruebas con Kepler que la construcción es coherente. El sobrevuelo es sintético, de la Tierra.
 
 ## 2. Por qué esta clase existe
 

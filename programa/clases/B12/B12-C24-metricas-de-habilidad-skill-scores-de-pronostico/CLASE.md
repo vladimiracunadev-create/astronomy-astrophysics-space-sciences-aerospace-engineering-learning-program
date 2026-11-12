@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase programada del bloque B12 (ampliación `0.2.0`), pensada para quien pronostica fenómenos como las llamaradas solares o la actividad geomagnética. Aquí tiene sentido preguntar no solo *cuánto* se equivoca un pronóstico, sino *cuánto mejor es que una referencia sencilla*. Verás el puntaje de Brier, su versión de habilidad (BSS), la tabla de contingencia y los índices POD, POFD, TSS y HSS, junto con la incertidumbre de la propia evaluación. Nivel N4. No verás los modelos físicos de pronóstico ni la validación operativa.
+Clase programada del bloque B12 (ampliación), pensada para quien pronostica fenómenos como las llamaradas solares o la actividad geomagnética. Aquí tiene sentido preguntar no solo *cuánto* se equivoca un pronóstico, sino *cuánto mejor es que una referencia sencilla*. Verás el puntaje de Brier, su versión de habilidad (BSS), la tabla de contingencia y los índices POD, POFD, TSS y HSS, junto con la incertidumbre de la propia evaluación. Nivel N4. No verás los modelos físicos de pronóstico ni la validación operativa.
 
 ## 2. Por qué esta clase existe
 

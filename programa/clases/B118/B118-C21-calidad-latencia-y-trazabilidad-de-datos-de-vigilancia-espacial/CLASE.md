@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B118. Nivel N4. Primera clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación `0.2.0`). Un dato de vigilancia llega tarde, con edad y con un historial. Aquí mides, con un flujo **sintético** de 5000 observaciones, la **latencia por etapas**, la **edad de los elementos al usarlos**, el **error de posición** que esa edad produce y una **cadena de huellas** que detecta alteraciones. Todos los retardos son **ilustrativos**. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
+Clase 21 del bloque B118. Nivel N4. Primera clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación). Un dato de vigilancia llega tarde, con edad y con un historial. Aquí mides, con un flujo **sintético** de 5000 observaciones, la **latencia por etapas**, la **edad de los elementos al usarlos**, el **error de posición** que esa edad produce y una **cadena de huellas** que detecta alteraciones. Todos los retardos son **ilustrativos**. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
 
 ## 2. Por qué esta clase existe
 

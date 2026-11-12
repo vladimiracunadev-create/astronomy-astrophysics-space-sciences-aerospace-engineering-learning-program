@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 23 del bloque B86. Nivel N3. Vigesimotercera y última clase del bloque, programada por la ampliación `0.2.0`. Cuando la potencia disponible no alcanza para todas las cargas, hay que decidir cuáles se apagan. Aquí implementas tres estrategias de deslastre sobre diez cargas sintéticas con prioridades (deslastre estricto, relleno por prioridad y óptimo por fuerza bruta), las comparas con dos modelos de valor y pruebas una histéresis de reposición con un perfil de potencia ruidoso. Las cargas y prioridades son sintéticas; la clase no define una política de misión.
+Clase 23 del bloque B86. Nivel N3. Vigesimotercera y última clase del bloque, programada por la ampliación. Cuando la potencia disponible no alcanza para todas las cargas, hay que decidir cuáles se apagan. Aquí implementas tres estrategias de deslastre sobre diez cargas sintéticas con prioridades (deslastre estricto, relleno por prioridad y óptimo por fuerza bruta), las comparas con dos modelos de valor y pruebas una histéresis de reposición con un perfil de potencia ruidoso. Las cargas y prioridades son sintéticas; la clase no define una política de misión.
 
 ## 2. Por qué esta clase existe
 

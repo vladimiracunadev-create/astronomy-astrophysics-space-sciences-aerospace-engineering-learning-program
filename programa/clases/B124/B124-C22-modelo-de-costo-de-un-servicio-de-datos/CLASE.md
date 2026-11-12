@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B124 (clase programada por la ampliación `0.2.0`). Nivel N3–N4. Fijar el precio o el presupuesto de un servicio de datos exige un modelo de su costo: lo que se paga aunque no se venda nada, lo que cuesta cada producto entregado y los escalones de capacidad que se agregan al crecer. Aquí construyes ese modelo, calculas el costo medio, el punto de equilibrio y el precio con un margen, y la probabilidad de utilidad cuando la demanda es incierta. Sigues a [C21](../B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md), que fija los compromisos de servicio. **Esta clase es educativa: no es asesoría financiera ni de precios.** Los costos son sintéticos.
+Clase 22 del bloque B124 (clase programada por la ampliación). Nivel N3–N4. Fijar el precio o el presupuesto de un servicio de datos exige un modelo de su costo: lo que se paga aunque no se venda nada, lo que cuesta cada producto entregado y los escalones de capacidad que se agregan al crecer. Aquí construyes ese modelo, calculas el costo medio, el punto de equilibrio y el precio con un margen, y la probabilidad de utilidad cuando la demanda es incierta. Sigues a [C21](../B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md), que fija los compromisos de servicio. **Esta clase es educativa: no es asesoría financiera ni de precios.** Los costos son sintéticos.
 
 ## 2. Por qué esta clase existe
 

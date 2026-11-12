@@ -1,6 +1,6 @@
 # B88 — Aviónica y software crítico espacial
 
-> **Bloque ampliado (`0.2.0`).** Sus 44 clases (20 de la línea base y 24 programadas por la ampliación) están redactadas. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 44 clases (20 de la línea base y 24 programadas por la ampliación) están redactadas. Todas conservan el estado E0 en el catálogo hasta registrar revisión disciplinar. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A07 — Ingeniería y construcción de sistemas espaciales

@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 21 del bloque B89, nivel N3 (ampliación `0.2.0`). La ionosfera retrasa las señales de GNSS en proporción a su contenido electrónico y al inverso del cuadrado de la frecuencia; además, sus irregularidades producen centelleo, un desvanecimiento rápido que puede romper el seguimiento. Aquí calculas el retardo de primer orden, el factor de oblicuidad, la combinación libre de ionosfera con dos frecuencias y el desvanecimiento por centelleo. Completa [B89-C16](../B89-C16-gnss-como-navegacion-de-satelites/CLASE.md), que supuso un medio sin ionosfera. **La constante 40,3 y las frecuencias de GPS son valores usuales no consultados** (la fuente prevista, Navipedia, no estuvo disponible); TEC, ruido y centelleo son sintéticos.
+Clase 21 del bloque B89, nivel N3 (ampliación). La ionosfera retrasa las señales de GNSS en proporción a su contenido electrónico y al inverso del cuadrado de la frecuencia; además, sus irregularidades producen centelleo, un desvanecimiento rápido que puede romper el seguimiento. Aquí calculas el retardo de primer orden, el factor de oblicuidad, la combinación libre de ionosfera con dos frecuencias y el desvanecimiento por centelleo. Completa [B89-C16](../B89-C16-gnss-como-navegacion-de-satelites/CLASE.md), que supuso un medio sin ionosfera. **La constante 40,3 y las frecuencias de GPS son valores usuales no consultados** (la fuente prevista, Navipedia, no estuvo disponible); TEC, ruido y centelleo son sintéticos.
 
 ## 2. Por qué esta clase existe
 

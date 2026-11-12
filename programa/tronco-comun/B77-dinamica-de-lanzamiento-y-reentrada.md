@@ -1,6 +1,6 @@
 # B77 — Dinámica de lanzamiento y reentrada
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la línea base, el bloque incorpora 5 clases programadas (`B77-C21` a `B77-C25`), ya redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque incorpora 5 clases programadas (`B77-C21` a `B77-C25`), ya redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial

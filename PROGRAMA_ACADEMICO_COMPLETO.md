@@ -1,6 +1,6 @@
 # Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 
-**Versión:** 0.2.0 (aprobada por el autor, 2026-11-05)  |  **Base:** línea base 0.1.0 (2026-10-31)
+**Estructura vigente** (aprobada por el autor, 2026-11-05)  |  **Base:** línea base inicial (2026-10-31)
 
 **Alcance:** índice unificado de clases: todo el contenido del programa vive dentro de áreas (A) y bloques (B). Los contenidos que antes formaban los módulos de las rutas profesionales se ubicaron en el bloque que les corresponde; lo que ningún bloque cubría aparece como **clase programada**: citada, ubicada y justificada, **no redactada**. El área A01 no cambia. Los bloques están numerados de forma consecutiva (B01–B133).
 

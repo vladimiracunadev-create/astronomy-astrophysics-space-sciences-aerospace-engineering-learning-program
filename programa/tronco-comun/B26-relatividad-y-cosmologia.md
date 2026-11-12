@@ -1,6 +1,6 @@
 # B26 — Relatividad y cosmología
 
-> **Bloque ampliado (`0.2.0`).** Además de las 20 clases de la malla base, el bloque tiene 3 clases programadas por la ampliación (`B26-C21` a `B26-C23`), listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Además de las 20 clases de la línea base, el bloque tiene 3 clases programadas por la ampliación (`B26-C21` a `B26-C23`), listadas en el tramo 7. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A03 — Astrofísica y ciencias fundamentales del universo
@@ -36,7 +36,7 @@ flowchart LR
 
 **Descripción textual.** Seis tramos encadenados: relatividad especial (C01–C05), relatividad general introductoria (C06–C10), expansión y modelo de Friedmann (C11–C13), universo temprano (C14–C16), estructura y componentes oscuros (C17–C20) y la ampliación con verosimilitudes, degeneraciones y tensiones (C21–C23).
 
-## 🗂️ Las 23 clases en resumen (20 de la malla base + 3 de la ampliación)
+## 🗂️ Las 23 clases en resumen (20 de la línea base + 3 de la ampliación)
 
 **Navegación:** cada clase desarrollada enlaza a la anterior, a la siguiente y a este bloque; mientras una clase siga solo programada, su enlace lleva a su fila en esta tabla.
 
@@ -87,7 +87,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b26-c19"></a>[B26-C19](../clases/B26/B26-C19-energia-oscura-y-parametros/CLASE.md) | Energía oscura y parámetros | Distancia de luminosidad y aceleración cósmica. | Tabla de distancias de luminosidad |
 | <a id="b26-c20"></a>[B26-C20](../clases/B26/B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md) | Límites observacionales de modelos cosmológicos | Ajuste por `χ²` y regiones de confianza. | Ajuste de `Ω_m` con su incertidumbre |
 
-### Tramo 6 · Ampliación `0.2.0`: inferencia y tensiones
+### Tramo 6 · Ampliación: inferencia y tensiones
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

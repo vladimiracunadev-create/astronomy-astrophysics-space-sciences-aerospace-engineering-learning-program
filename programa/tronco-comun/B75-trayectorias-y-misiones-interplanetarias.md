@@ -1,6 +1,6 @@
 # B75 — Trayectorias y misiones interplanetarias
 
-> **Bloque ampliado (`0.2.0`).** Sus 20 clases de la línea base y sus 10 clases programadas (`B75-C21` a `B75-C30`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
+> **Bloque ampliado.** Sus 20 clases de la línea base y sus 10 clases programadas (`B75-C21` a `B75-C30`) están redactadas. Ver el [programa completo](../../PROGRAMA_ACADEMICO_COMPLETO.md).
 
 **Programa:** Programa Integral de Astronomía, Astrofísica, Ciencias Espaciales e Ingeniería Aeroespacial
 **Área:** A06 — Mecánica orbital, navegación y vuelo espacial
@@ -81,7 +81,7 @@ La columna «Evidencia» indica el producto que demostrará el aprendizaje. Los 
 | <a id="b75-c19"></a>[B75-C19](../clases/B75/B75-C19-restricciones-de-navegacion-autonoma/CLASE.md) | Restricciones de navegación autónoma | Retardo de luz, ciclo de comando y eventos que exigen autonomía. | Tabla de eventos y retardos |
 | <a id="b75-c20"></a>[B75-C20](../clases/B75/B75-C20-diseno-de-una-mision-a-luna-helada/CLASE.md) | Diseño de una misión a luna helada | Presupuesto preliminar Tierra–Júpiter–luna con captura y tour. | Esbozo de misión a Europa en el modelo |
 
-### Tramo 5 · Ampliación (clases programadas en la `0.2.0`)
+### Tramo 5 · Ampliación (clases programadas en la estructura vigente)
 
 | ID | Clase | Qué se aprende | Evidencia |
 |---|---|---|---|

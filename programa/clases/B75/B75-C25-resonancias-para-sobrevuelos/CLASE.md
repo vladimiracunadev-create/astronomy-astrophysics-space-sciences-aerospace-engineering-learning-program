@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 25 del bloque B75 (programada en la `0.2.0`). Nivel N3. Un sobrevuelo puede dejar a la nave en una órbita cuyo periodo sea un múltiplo racional del año terrestre, de modo que vuelve a encontrar la Tierra. Estos retornos resonantes permiten encadenar sobrevuelos del mismo planeta. Aquí calculas el semieje, la excentricidad y la viabilidad de cada resonancia `k:m` para un `v∞` dado y el `v∞` mínimo que cada una exige.
+Clase 25 del bloque B75 (programada en la ampliación). Nivel N3. Un sobrevuelo puede dejar a la nave en una órbita cuyo periodo sea un múltiplo racional del año terrestre, de modo que vuelve a encontrar la Tierra. Estos retornos resonantes permiten encadenar sobrevuelos del mismo planeta. Aquí calculas el semieje, la excentricidad y la viabilidad de cada resonancia `k:m` para un `v∞` dado y el `v∞` mínimo que cada una exige.
 
 ## 2. Por qué esta clase existe
 

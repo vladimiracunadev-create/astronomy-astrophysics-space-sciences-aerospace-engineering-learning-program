@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B86. Nivel N3. Vigesimosegunda clase del bloque, programada por la ampliación `0.2.0`. Los eclipses orbitales duran unos `35` minutos; en la superficie de la Luna la noche dura unos `14` días. Aquí calculas la energía que hay que guardar o generar para sobrevivir a esa noche con una carga mínima y comparas, por masa, una batería, una pila de combustible y un generador radioisotópico. La noche se toma como la mitad del periodo sinódico (ecuador, sin libración); la carga y los sistemas son sintéticos.
+Clase 22 del bloque B86. Nivel N3. Vigesimosegunda clase del bloque, programada por la ampliación. Los eclipses orbitales duran unos `35` minutos; en la superficie de la Luna la noche dura unos `14` días. Aquí calculas la energía que hay que guardar o generar para sobrevivir a esa noche con una carga mínima y comparas, por masa, una batería, una pila de combustible y un generador radioisotópico. La noche se toma como la mitad del periodo sinódico (ecuador, sin libración); la carga y los sistemas son sintéticos.
 
 ## 2. Por qué esta clase existe
 

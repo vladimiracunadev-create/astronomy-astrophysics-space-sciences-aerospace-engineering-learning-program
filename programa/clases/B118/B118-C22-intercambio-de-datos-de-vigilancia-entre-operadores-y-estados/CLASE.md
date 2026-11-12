@@ -6,7 +6,7 @@
 
 ## 1. Ubicación, nivel y alcance
 
-Clase 22 del bloque B118. Nivel N4. Segunda clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación `0.2.0`). Dos operadores solo pueden coordinar una maniobra si sus mensajes significan lo mismo. Aquí implementas un **mensaje de conjunción sintético** en texto `clave = valor [unidad]`, **inspirado** en el estilo de los mensajes CCSDS pero **no conforme** a ellos, con **serialización, análisis, validación de unidades y reconciliación** entre dos operadores. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
+Clase 22 del bloque B118. Nivel N4. Segunda clase del tramo «Datos, cobertura y normas de vigilancia» (clase programada de la ampliación). Dos operadores solo pueden coordinar una maniobra si sus mensajes significan lo mismo. Aquí implementas un **mensaje de conjunción sintético** en texto `clave = valor [unidad]`, **inspirado** en el estilo de los mensajes CCSDS pero **no conforme** a ellos, con **serialización, análisis, validación de unidades y reconciliación** entre dos operadores. **Esta clase es educativa: no constituye asesoría legal, regulatoria, financiera ni operativa y no sustituye la lectura del texto normativo vigente ni a un profesional habilitado.**
 
 ## 2. Por qué esta clase existe
 
