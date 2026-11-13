@@ -29,7 +29,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 SIM = RAIZ / "simuladores"
 errores: list[str] = []
 ENTORNO = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-SISTEMAS = ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton"]
+SISTEMAS = ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "planetas_hist", "misiones"]
 
 
 def err(msg: str) -> None:
@@ -55,12 +55,12 @@ def datos() -> None:
             bytes_ = {"f64": 8, "f32": 4, "i16": 2}[c["fmt"]]
             if c["longitud"] != c["n"] * 3 * bytes_:
                 err(f"datos/{n}/{c['nombre']}: longitud {c['longitud']} != n*3*{bytes_}")
-            if c["offset"] != fin:
+            if c["offset"] < fin or c["offset"] - fin > 7:  # se permite el relleno a 8 bytes entre bloques
                 err(f"datos/{n}/{c['nombre']}: desplazamiento no contiguo")
             fin = c["offset"] + c["longitud"]
             if c["jd_valido_ini"] > 2461406.5 + 1e-6:
                 err(f"datos/{n}/{c['nombre']}: no cubre el 2027-01-01")
-        if fin != tam:
+        if not (fin <= tam <= fin + 7):
             err(f"datos/{n}.bin: {tam} bytes y el json describe {fin}")
         if len(ids) != len(meta["cuerpos"]):
             err(f"datos/{n}: identificadores repetidos")
@@ -158,7 +158,7 @@ def coherencia() -> None:
         for ruta in (SIM / href, SIM / "img" / f"{imagen}.svg", SIM / "paginas" / f"{href[:-5]}.js", SIM / "documentacion" / f"{href[:-5]}.md"):
             if not ruta.exists():
                 err(f"simulador {clave}: falta {ruta.relative_to(RAIZ)}")
-        if clave not in ("sol", "trayectorias", "eclipses-solares") and not clave.startswith("cielo-") and not (SIM / "datos" / f"{clave}.bin").exists():
+        if clave not in ("sol", "trayectorias", "eclipses-solares", "asteroides", "misiones") and not clave.startswith("cielo-") and not (SIM / "datos" / f"{clave}.bin").exists():
             err(f"simulador {clave}: faltan datos/{clave}.bin")
     doc = (SIM / "documentacion" / "README.md").read_text(encoding="utf-8")
     for _, _, href in nav:

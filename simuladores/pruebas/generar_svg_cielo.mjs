@@ -113,12 +113,41 @@ function figuraEclipse(sol) {
   return L.join("\n") + "\n";
 }
 
+// ---- figura de misiones: trayectorias de las naves a los planetas exteriores y su distancia al Sol
+function figuraMisiones() {
+  const ph = cargar("planetas_hist"), nv = cargar("misiones"), UA = 149597870.7;
+  const L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
+    `<title id="t">Misiones espaciales</title>`, `<desc id="d">Trayectorias de Pioneer 10 y 11, Voyager 1 y 2 y New Horizons vistas desde el polo norte eclíptico, y su distancia al Sol en el tiempo, con datos de JPL.</desc>`,
+    `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Misiones espaciales</text>`,
+    `<text x="32" y="70" font-size="14" fill="#9fb0cf">Pioneer 10 y 11, Voyager 1 y 2 y New Horizons · trayectorias reconstruidas por JPL (las posteriores a 2026 son predicciones)</text>`];
+  const cx = 330, cy = 360, R = 250, esc = R / (46 * UA);
+  L.push(`<rect x="60" y="100" width="540" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="76" y="126" font-size="13" fill="#ffd45e" font-weight="600">Vista desde el polo norte eclíptico (hasta 46 UA)</text>`);
+  for (const [id, P] of [["599", 4333], ["699", 10759], ["799", 30688], ["899", 60182]]) { L.push(`<circle cx="${cx}" cy="${cy}" r="${n1(ph.cuerpo(id).pos(2451545 + 0)[0] ? Math.hypot(...ph.cuerpo(id).pos(2451545)) * esc : 0)}" fill="none" stroke="#7d93c0" stroke-opacity="0.3" stroke-dasharray="3 4"/>`); }
+  L.push(`<circle cx="${cx}" cy="${cy}" r="5" fill="#ffd45e"/>`);
+  const NAVES = [["-23", "Pioneer 10", "#ffb454"], ["-24", "Pioneer 11", "#ffd166"], ["-31", "Voyager 1", "#6cb4ff"], ["-32", "Voyager 2", "#7ee0a1"], ["-98", "New Horizons", "#ff7a7a"]];
+  for (const [id, nom, col] of NAVES) { const t = nv.cuerpo(id); let d = "", ult = null; for (let k = 0; k <= 400; k++) { const jd = t.meta.jd_valido_ini + (Math.min(t.meta.jd_valido_fin, 2470172) - t.meta.jd_valido_ini) * k / 400, p = t.pos(jd), x = cx + p[0] * esc, y = cy - p[1] * esc; if (Math.hypot(p[0], p[1]) > 46 * UA) break; d += (d ? "L" : "M") + n1(x) + " " + n1(y); ult = [x, y]; } L.push(`<path d="${d}" fill="none" stroke="${col}" stroke-width="1.6"/>`); if (ult) L.push(`<text x="${n1(ult[0] + 4)}" y="${n1(ult[1] - 4)}" font-size="11" fill="${col}">${nom}</text>`); }
+  // distancia al Sol frente al año
+  const x0 = 650, y0 = 100, w = 520, h = 520, ax = (a) => x0 + 45 + (a - 1970) / 80 * (w - 70), ay = (r) => y0 + h - 40 - r / 200 * (h - 80);
+  L.push(`<rect x="${x0}" y="${y0}" width="${w}" height="${h}" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${x0 + 16}" y="${y0 + 26}" font-size="13" fill="#ffd45e" font-weight="600">Distancia al Sol (UA)</text>`);
+  for (const r of [0, 50, 100, 150, 200]) L.push(`<path d="M${x0 + 45} ${n1(ay(r))}H${x0 + w - 25}" stroke="#26314f"/>`, `<text x="${x0 + 38}" y="${n1(ay(r) + 4)}" font-size="10" fill="#9fb0cf" text-anchor="end">${r}</text>`);
+  for (const a of [1970, 1990, 2010, 2030, 2050]) L.push(`<text x="${n1(ax(a))}" y="${y0 + h - 20}" font-size="10" fill="#9fb0cf" text-anchor="middle">${a}</text>`);
+  for (const [id, nom, col] of NAVES) { const t = nv.cuerpo(id); let d = ""; for (let k = 0; k <= 300; k++) { const jd = t.meta.jd_valido_ini + (Math.min(t.meta.jd_valido_fin, 2470172) - t.meta.jd_valido_ini) * k / 300, a = 1970 + (jd - 2440587.5) / 365.25, r = Math.hypot(...t.pos(jd)) / UA; d += (k ? "L" : "M") + n1(ax(a)) + " " + n1(ay(r)); } L.push(`<path d="${d}" fill="none" stroke="${col}" stroke-width="1.6"/>`); }
+  NAVES.forEach(([id, nom, col], i) => L.push(`<rect x="${x0 + 60}" y="${y0 + 44 + i * 18}" width="10" height="10" fill="${col}"/><text x="${x0 + 76}" y="${y0 + 53 + i * 18}" font-size="12" fill="#e6ecf8">${nom}</text>`));
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Trayectorias: NASA/JPL Horizons (SPICE) · calculado con el motor del simulador</text>`, `</svg>`);
+  return L.join("\n") + "\n";
+}
+
 const sol = cargar("sol");
 let mal = 0;
 for (const f of FIGURAS) {
   if (!existsSync(join(datos, `${f.sistema}.bin`)) || !existsSync(join(aqui, "..", `${f.archivo}.html`))) continue;  // sólo las páginas publicadas
   const svg = figura(f, sol), ruta = join(img, `${f.archivo}.svg`);
   if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log(`ERROR ${f.archivo}.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs`); mal++; } }
+  else writeFileSync(ruta, svg);
+}
+if (existsSync(join(aqui, "..", "misiones.html"))) {
+  const svg = figuraMisiones(), ruta = join(img, "misiones.svg");
+  if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log("ERROR misiones.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs"); mal++; } }
   else writeFileSync(ruta, svg);
 }
 if (existsSync(join(aqui, "..", "eclipses-solares.html"))) {

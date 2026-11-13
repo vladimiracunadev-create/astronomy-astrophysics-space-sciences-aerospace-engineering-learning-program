@@ -7,6 +7,8 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
 import { crearFranja } from "../motor/franja.js";
+import { hitosDeMision, MISIONES } from "../motor/misiones.js";
+import { posicion as posAst } from "../motor/asteroides.js";
 import { Observador, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { SOL, LUNA } from "../motor/cuerpos.js";
 import { lambert, propagar, evaluar, porkchop, elementosTransferencia, deltaVOrbita } from "../motor/trayectoria.js";
@@ -24,7 +26,7 @@ function cargar(nombre) {
   return sistemaDesdeBytes(meta, readFileSync(join(datos, `${nombre}.bin`)));
 }
 const sistemas = {};
-for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
+for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "planetas_hist", "misiones"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
 const verif = JSON.parse(readFileSync(join(datos, "verificacion.json"), "utf8"));
 
 // 1. Interpolación: reproduce el error medido contra JPL en épocas que no son nodos de la tabla
@@ -45,7 +47,7 @@ console.log(`interpolación: ${Object.keys(verif).length} cuerpos comprobados`);
 for (const [n, s] of Object.entries(sistemas)) {
   for (const c of s.meta.cuerpos) {
     const a = c.a_km || (n === "sol" ? 1.5e8 : 1e6);
-    const lim = n === "sol" ? 300 : Math.max(5, 6e-4 * a);
+    const lim = (n === "sol" || n === "planetas_hist") ? 300 : n === "misiones" ? 3e5 : Math.max(5, 6e-4 * a);
     afirmar(c.error_max_km <= lim, `${n}/${c.nombre}: error máx ${c.error_max_km} km > ${lim}`);
   }
 }
@@ -316,6 +318,47 @@ if (sistemas.sol && sistemas.tierra) {
   }
   afirmar(okAncho >= 30, `anchura de la franja dentro de ±12 % (o 12 km): ${okAncho} de ${ref.length}`);
   console.log(`Franjas: ${ref.length} eclipses centrales; mayor eclipse a ≤ ${peorPos.toFixed(2)}°; anchura ±12 %: ${okAncho}; duración ±10 %: ${okDur}; magnitud ≤ ${peorMag.toFixed(4)}`);
+}
+
+// 12. Asteroides: propagación kepleriana contra Horizons (error medido; no es una efemérides oficial)
+if (existsSync(join(datos, "asteroides.json")) && existsSync(join(aqui, "verificacion_asteroides.json"))) {
+  const ast = JSON.parse(readFileSync(join(datos, "asteroides.json"), "utf8")), ver = JSON.parse(readFileSync(join(aqui, "verificacion_asteroides.json"), "utf8")).asteroides;
+  const porId = new Map(ast.asteroides.map((f) => [f[0], f]));
+  const errs = [[], [], []];
+  for (const v of ver) { const f = porId.get(v.spkid); if (!f) continue; v.epocas.forEach(([jd, x, y, z], k) => { const p = posAst(f, jd); errs[k].push(Math.hypot(p[0] - x, p[1] - y, p[2] - z)); }); }
+  const med = (a) => a.slice().sort((p, q) => p - q)[Math.floor(a.length / 2)], p95 = (a) => a.slice().sort((p, q) => p - q)[Math.floor(a.length * 0.95)];
+  console.log(`Asteroides (${ast.asteroides.length}): error kepleriano vs Horizons en ${errs[0].length} cuerpos — 2030 mediana ${(med(errs[0]) / 1e3).toFixed(0)} mil km, 2039 ${(med(errs[1]) / 1e3).toFixed(0)} mil km, 2050 mediana ${(med(errs[2]) / 1e3).toFixed(0)} mil km (p95 ${(p95(errs[2]) / 1e3).toFixed(0)} mil km)`);
+  afirmar(errs[0].length >= 40, "muestra de verificación de asteroides");
+  afirmar(med(errs[2]) < 3e6 && p95(errs[2]) < 4e7, `error kepleriano de asteroides en 2050 acotado: mediana ${med(errs[2]).toFixed(0)} km`);
+  afirmar(ast.asteroides.length > 1000, "asteroides cargados");
+}
+
+// 13. Misiones: los acercamientos detectados en las trayectorias de JPL coinciden con las fechas históricas publicadas (±2 días)
+if (existsSync(join(datos, "misiones.bin")) && existsSync(join(datos, "planetas_hist.bin"))) {
+  const ph = cargar("planetas_hist"), nv = cargar("misiones");
+  const pl = ["199", "299", "399", "499", "599", "699", "799", "899", "9"].map((i) => [i, ph.cuerpo(i)]);
+  const conocidos = { // [misión, planeta, fecha publicada]
+    "-23": [["599", "1973-12-04"]], "-24": [["599", "1974-12-03"], ["699", "1979-09-01"]], "-31": [["599", "1979-03-05"], ["699", "1980-11-12"]],
+    "-32": [["599", "1979-07-09"], ["699", "1981-08-25"], ["799", "1986-01-24"], ["899", "1989-08-25"]], "-77": [["599", "1995-12-07"]], "-82": [["299", "1998-04-26"], ["299", "1999-06-24"], ["399", "1999-08-18"], ["699", "2004-07-01"]],
+    "-98": [["599", "2007-02-28"], ["9", "2015-07-14"]], "-61": [["599", "2016-07-05"]], "-159": [["499", "2025-03-01"], ["399", "2026-12-03"], ["599", "2030-04-11"]],
+    "-96": [["299", "2018-10-03"], ["299", "2019-12-26"], ["299", "2020-07-11"], ["299", "2021-02-20"], ["299", "2021-10-16"], ["299", "2023-08-21"], ["299", "2024-11-06"]],
+  };
+  let n = 0;
+  for (const [id, lista] of Object.entries(conocidos)) {
+    const t = nv.cuerpo(id); afirmar(!!t, `misión ${id} sin datos`); if (!t) continue;
+    const ev = hitosDeMision(id, t, pl);
+    for (const [pid, fecha] of lista) {
+      const jd = jdUtcDesdeInput(fecha + "T12:00"); const e = ev.filter((x) => x.planeta === pid).map((x) => ({ x, d: Math.abs(jdUtcDesdeTdb(x.jdTdb) - jd) })).sort((a, b) => a.d - b.d)[0];
+      afirmar(!!e && e.d < 2.5, `${MISIONES[id].nombre} ${pid} ${fecha}: ${e ? e.d.toFixed(1) + " d de diferencia" : "no detectado"}`); n++;
+    }
+  }
+  // heliopausa: Voyager 1 (2012-08-25) a ≈ 121 UA y Voyager 2 (2018-11-05) a ≈ 119 UA
+  for (const [id, f, au] of [["-31", "2012-08-25", 121.6], ["-32", "2018-11-05", 119.0]]) { const r = nv.cuerpo(id).pos(jdTdbDesdeUtc(jdUtcDesdeInput(f + "T00:00"))); cerca(Math.hypot(...r) / UA_KM, au, 1.5, `distancia de ${MISIONES[id].nombre} al cruzar la heliopausa [UA]`); }
+  // JWST en L2: ~ 1,5 millones de km de la Tierra, en el lado opuesto al Sol
+  const j = jdTdbDesdeUtc(jdUtcDesdeInput("2024-06-01T00:00")), w = nv.cuerpo("-170").pos(j), e = ph.cuerpo("399").pos(j), dJ = Math.hypot(w[0] - e[0], w[1] - e[1], w[2] - e[2]);
+  afirmar(dJ > 1.0e6 && dJ < 1.9e6, `JWST a ${(dJ / 1e6).toFixed(2)} millones de km de la Tierra`);
+  afirmar(Math.hypot(...w) > Math.hypot(...e), "JWST más lejos del Sol que la Tierra (L2)");
+  console.log(`Misiones: ${n} acercamientos contrastados con las fechas históricas (±2,5 d); heliopausa y L2 verificados`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

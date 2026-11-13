@@ -1,6 +1,6 @@
 # 🪐 Simuladores del Sistema Solar 2027–2050
 
-Catorce simuladores interactivos en **JavaScript puro** (sin dependencias ni servidores) que funcionan en **GitHub Pages**. Dibujan posiciones **oficiales** de NASA/JPL Horizons entre el **1 de enero de 2027** y el **31 de diciembre de 2050**, con **tamaños y distancias reales**, y cada número está validado de forma automática.
+Quince simuladores interactivos en **JavaScript puro** (sin dependencias ni servidores) que funcionan en **GitHub Pages**. Dibujan posiciones **oficiales** de NASA/JPL Horizons entre el **1 de enero de 2027** y el **31 de diciembre de 2050**, con **tamaños y distancias reales**, y cada número está validado de forma automática.
 
 [🌐 Abrir los simuladores](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/index.html) · [📖 Documentación](documentacion/README.md) · [📏 Estándar](../documentacion/ESTANDAR_DE_SIMULADORES.md)
 
@@ -28,18 +28,19 @@ Los enlaces a los simuladores abren la **página funcional** en GitHub Pages; lo
 | [**Cielo desde Júpiter**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-jupiter.html) | Las lunas galileanas como discos desde la cima de las nubes | [cielo-jupiter.md](documentacion/cielo-jupiter.md) |
 | [**Cielo desde Saturno**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-saturno.html) | Los anillos como un arco inmenso, Titán y las demás lunas | [cielo-saturno.md](documentacion/cielo-saturno.md) |
 
-## Trayectorias y eclipses
+## Trayectorias, eclipses y misiones
 
 | Simulador | Qué muestra | Documentación |
 |---|---|---|
 | [**Trayectorias entre planetas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/trayectorias.html) | Gráfico porkchop, problema de Lambert, C3, v∞ y Δv entre dos planetas | [trayectorias.md](documentacion/trayectorias.md) |
 | [**Eclipses solares**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/eclipses-solares.html) | Franja de totalidad y anularidad de los 54 eclipses solares de 2027–2050 sobre un mapa y circunstancias locales; validado con la NASA | [eclipses-solares.md](documentacion/eclipses-solares.md) |
+| [**Misiones espaciales**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/misiones.html) | Voyager 1 y 2, Pioneer 10 y 11, Galileo, Cassini, New Horizons, Juno, James Webb y más: se elige una misión y se recorre su trayectoria real con fechas y acercamientos | [misiones.md](documentacion/misiones.md) |
 
 ![Sistema Solar a escala](img/sistema-solar.svg)
 
 ## Qué los hace distintos
 
-- **Datos oficiales, medidos.** Las posiciones salen de JPL Horizons (DE441 y efemérides de satélites), se interpolan con Lagrange de 10 puntos y cada cuerpo lleva su error medido contra JPL en épocas que no son nodos: [tabla de precisión de 469 cuerpos](documentacion/TABLA_DE_PRECISION.md).
+- **Datos oficiales, medidos.** Las posiciones salen de JPL Horizons (DE441 y efemérides de satélites), se interpolan con Lagrange de 10 puntos y cada cuerpo lleva su error medido contra JPL en épocas que no son nodos: [tabla de precisión de 489 cuerpos](documentacion/TABLA_DE_PRECISION.md).
 - **Validados con fuentes independientes**: 109 eclipses de 2027–2050 contra el catálogo de la NASA (hora ≤ 0,8 min); contra el U.S. Naval Observatory, 1 187 fases de la Luna, 96 equinoccios y solsticios, 48 ápsides (≤ 1,6 min) y 188 salidas y puestas del Sol y la Luna (≤ 0,52 min); perihelios de Marte con Ls = 251°; oposiciones de Marte; el problema de Lambert contra un ejemplo publicado y la transferencia de Hohmann.
 - **Realistas.** Tamaños y distancias reales; los factores de ampliación son opciones visibles y siempre rotuladas. Las texturas, los anillos, el color del cielo y el fondo son ilustrativos y así se declara.
 - **Honestos con los huecos.** Las lunas sin efemérides hasta 2050 se ocultan tras su fecha final (10 de Saturno) y Dafne se excluye: nunca se inventa una posición.

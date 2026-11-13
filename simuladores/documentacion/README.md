@@ -29,6 +29,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 | ![Cielo desde Saturno](../img/cielo-saturno.svg) | **Cielo desde Saturno** | [cielo-saturno.md](cielo-saturno.md) | Publicado |
 | ![Trayectorias entre planetas](../img/trayectorias.svg) | **Trayectorias entre planetas** | [trayectorias.md](trayectorias.md) | Publicado |
 | ![Eclipses solares](../img/eclipses-solares.svg) | **Eclipses solares** | [eclipses-solares.md](eclipses-solares.md) | Publicado |
+| ![Misiones espaciales](../img/misiones.svg) | **Misiones espaciales** | [misiones.md](misiones.md) | Publicado |
 
 ## Qué se valida y contra qué
 

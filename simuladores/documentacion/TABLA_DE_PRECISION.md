@@ -528,3 +528,37 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 | 904 | Kerberos | 6,0 | 1,147 d | 28,4 | f32 | 2,901 | 1,017 |  |
 | 905 | Styx | 5,2 | 1017 min | 29,9 | f32 | 0,798 | 0,233 |  |
 | 999 | Pluto | 1 188,3 | 790 min | 11,6 | f32 | 0,001 | 0,001 |  |
+
+## Planetas 1970–2050 (simulador de misiones)
+
+9 cuerpos · peor error máximo: Júpiter (165,09 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@10`.
+
+| ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
+|---:|---|---:|---:|---:|---|---:|---:|---|
+| 199 | Mercurio | — | 1 d | — | f64 | 0,002 | 0,001 |  |
+| 299 | Venus | — | 2 d | — | f64 | 0,000 | 0,000 |  |
+| 399 | Tierra | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 499 | Marte | — | 2 d | — | f64 | 0,000 | 0,000 |  |
+| 599 | Júpiter | — | 4 d | — | f64 | 165,088 | 95,771 |  |
+| 699 | Saturno | — | 4 d | — | f64 | 12,127 | 5,425 |  |
+| 799 | Urano | — | 4 d | — | f64 | 21,266 | 10,118 |  |
+| 899 | Neptuno | — | 4 d | — | f64 | 142,892 | 101,940 |  |
+| 9 | Plutón (baricentro) | — | 4 d | — | f64 | 0,000 | 0,000 |  |
+
+## Naves espaciales (simulador de misiones)
+
+11 cuerpos · peor error máximo: Juno (286 820,34 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@10`.
+
+| ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
+|---:|---|---:|---:|---:|---|---:|---:|---|
+| -23 | Pioneer 10 | — | 3 d | — | f32 | 1 031,275 | 372,045 | hasta 2049-12-14 |
+| -24 | Pioneer 11 | — | 3 d | — | f32 | 1 021,053 | 361,608 | hasta 2049-12-12 |
+| -32 | Voyager 2 | — | 3 d | — | f32 | 7 126,759 | 812,031 |  |
+| -31 | Voyager 1 | — | 3 d | — | f32 | 1 236,180 | 460,312 |  |
+| -77 | Galileo | — | 1 d | — | f32 | 94 617,015 | 14 879,358 | hasta 2003-09-24 |
+| -82 | Cassini | — | 1 d | — | f32 | 231 996,139 | 35 594,823 | hasta 2017-09-09 |
+| -98 | New Horizons | — | 1 d | — | f32 | 1 214,116 | 288,371 | hasta 2049-12-26 |
+| -61 | Juno | — | 1 d | — | f32 | 286 820,343 | 38 637,161 | hasta 2028-08-27 |
+| -96 | Parker Solar Probe | — | 1 d | — | f32 | 160 683,744 | 24 358,740 | hasta 2029-12-26 |
+| -170 | James Webb | — | 1 d | — | f32 | 7,753 | 3,844 | hasta 2031-11-03 |
+| -159 | Europa Clipper | — | 1 d | — | f32 | 75 637,193 | 9 547,194 | hasta 2034-08-28 |

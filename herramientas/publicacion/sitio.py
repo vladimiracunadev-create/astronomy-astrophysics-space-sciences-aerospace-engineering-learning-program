@@ -407,7 +407,8 @@ SIMULADORES = [("Sistema Solar", "sistema-solar.html"),
                ("Cielo desde Júpiter", "cielo-jupiter.html"),
                ("Cielo desde Saturno", "cielo-saturno.html"),
                ("Trayectorias entre planetas", "trayectorias.html"),
-               ("Eclipses solares", "eclipses-solares.html")]
+               ("Eclipses solares", "eclipses-solares.html"),
+               ("Misiones espaciales", "misiones.html")]
 
 
 # ------------------------------------------------------------------ construcción
