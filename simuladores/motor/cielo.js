@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Cálculo del cielo visto desde la superficie (o la cima de las nubes) de la Tierra, Marte, Júpiter o Saturno.
 // Posiciones: efemérides de JPL (planetas heliocéntricos y satélites respecto de su planeta). Estrellas: Hipparcos/Tycho vía d3-celestial,
-// coordenadas ICRS J2000 sin movimiento propio. Todo se calcula en el marco eclíptico J2000 de las efemérides y se pasa al horizonte local
+// coordenadas ICRS J2000 con movimiento propio lineal de Hipparcos. Todo se calcula en el marco eclíptico J2000 de las efemérides y se pasa al horizonte local
 // con la orientación IAU del planeta (la Tierra, con el ángulo de rotación terrestre ERA).
 import { PLANETAS, SOL, LUNA, OBLICUIDAD_J2000, C_KM_S, UA_KM, baseDelCuerpo } from "./cuerpos.js";
 import { anguloRotacionTerrestre, jdUtcDesdeTdb } from "./tiempo.js";

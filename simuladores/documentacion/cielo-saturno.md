@@ -13,7 +13,7 @@ El cielo desde la **cima de las nubes** de Saturno (1 bar) en cualquier lugar (5
 1. **Observador:** latitud (planetográfica) y longitud este sobre el elipsoide IAU del planeta; el cénit es la normal al elipsoide (en Júpiter y Saturno, achatados 6,5 % y 9,8 %, difiere hasta ≈ 4° de la dirección al centro).
 2. **Orientación:** el horizonte local sale del polo y del meridiano origen IAU del planeta en cada instante (para la Tierra, del ángulo de rotación terrestre ERA).
 3. **Astros:** el Sol, los planetas (con corrección de tiempo luz, una iteración) y las lunas del propio sistema salen de las efemérides de JPL; cada uno se resta de la posición del observador y se pasa a altura y acimut. Se calculan su **tamaño angular**, su **fase** y su **magnitud** (Meeus/Almanaque para planetas vistos desde la Tierra; modelo de Lambert con albedo geométrico en los demás casos).
-4. **Estrellas:** 5 044 estrellas hasta la magnitud 6 del catálogo Hipparcos/Tycho (vía d3-celestial, licencia BSD), con 493 nombres propios y las figuras de las 88 constelaciones; coordenadas ICRS J2000 sin movimiento propio (error típico < 1′).
+4. **Estrellas:** 5 044 estrellas hasta la magnitud 6 del catálogo Hipparcos/Tycho (vía d3-celestial, licencia BSD), con 493 nombres propios y las figuras de las 88 constelaciones; coordenadas ICRS J2000 con el **movimiento propio** de Hipparcos aplicado hasta la fecha mostrada.
 5. **Proyección:** estereográfica sobre el eje de la vista (campo de 4° a 170°); arrastrar gira, la rueda cambia el campo.
 
 ## Validación
@@ -22,7 +22,7 @@ La geometría del observador sobre un elipsoide IAU (achatamiento 9,8 %, el mayo
 
 ## Tolerancias y límites
 
-Sin atmósfera ni refracción; anillos con radios orientativos y opacidad ilustrativa, sin sombras ni espesor; magnitud de Saturno vista desde la Tierra sin el efecto de los anillos. Magnitudes de lunas con albedo medio 0,25. Estrellas sin movimiento propio. El observador está sobre las nubes y rota con el sistema III.
+Sin atmósfera ni refracción; anillos con radios orientativos y opacidad ilustrativa, sin sombras ni espesor; magnitud de Saturno vista desde la Tierra sin el efecto de los anillos. Magnitudes de lunas con albedo medio 0,25. Estrellas con movimiento propio lineal. El observador está sobre las nubes y rota con el sistema III.
 
 ## Archivos
 

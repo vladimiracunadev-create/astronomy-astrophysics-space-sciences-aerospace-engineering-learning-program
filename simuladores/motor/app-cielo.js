@@ -57,7 +57,7 @@ export async function iniciarCielo(cfg) {
       <h2>Astro seleccionado</h2><div class="ficha" id="ficha"></div>
       <h2>Sobre el horizonte</h2><div class="lista" id="lista" role="listbox" aria-label="Astros sobre el horizonte"></div>
       <details><summary>Datos, modelo y tolerancias</summary><div class="aviso" id="meta"></div></details>
-      <p class="aviso">Posiciones: NASA/JPL Horizons. Estrellas: Hipparcos/Tycho vía d3-celestial (BSD). Documentación: <a href="documentacion/README.html">documentación de los simuladores</a>.</p>
+      <p class="aviso">Posiciones: NASA/JPL Horizons. Estrellas: Hipparcos/Tycho vía d3-celestial (BSD) con movimiento propio. Documentación: <a href="documentacion/README.html">documentación de los simuladores</a>.</p>
     </aside>`;
   const $ = (i) => document.getElementById(i);
   const lienzo = $("lienzo"), ctx = lienzo.getContext("2d");
@@ -75,7 +75,14 @@ export async function iniciarCielo(cfg) {
   $("cargando").remove();
 
   const obs = new Observador({ id: cfg.id, sol, sis });
-  const est = cielo.estrellas.map(([ra, de, mag, bv], i) => ({ v: ecuatorialAEclipticoJ2000(ra, de), mag, rgb: colorEstrella(bv), nombre: cielo.nombres[i] || null, ra, de }));
+  const est = cielo.estrellas.map(([ra, de, mag, bv], i) => ({ v: ecuatorialAEclipticoJ2000(ra, de), mag, rgb: colorEstrella(bv), nombre: cielo.nombres[i] || null, ra, de, pm: cielo.pm_mas_ano[i] }));
+  let anioEst = null;
+  /** Aplica el movimiento propio de Hipparcos desde J2000 hasta el año `anio` (se recalcula si cambia más de ~3 días). */
+  const moverEstrellas = (anio) => {
+    if (anioEst !== null && Math.abs(anio - anioEst) < 0.008) return; anioEst = anio;
+    const dt = anio - 2000;
+    for (const s of est) { if (!s.pm[0] && !s.pm[1]) continue; const de = s.de + s.pm[1] * dt / 3.6e6, ra = s.ra + s.pm[0] * dt / 3.6e6 / Math.cos(s.de * RAD); s.v = ecuatorialAEclipticoJ2000(ra, de); }
+  };
   const figuras = cielo.figuras.map((f) => ({ id: f.id, nombre: cielo.constelaciones[f.id] || f.id, lineas: f.lineas.map((l) => l.map(([ra, de]) => ecuatorialAEclipticoJ2000(ra, de))) }));
   const reloj = new Reloj(jdUtcDesdeInput(cfg.fechaInicial));
   reloj.velocidad = 60;
@@ -148,6 +155,7 @@ export async function iniciarCielo(cfg) {
     baseVista();
     const jd = reloj.jdTdb;
     obs.actualizar(jd, reloj.jdUtc);
+    moverEstrellas(2000 + (jd - 2451545.0) / 365.25);
     cuerpos = obs.cuerpos();
     const sunC = cuerpos.find((c) => c.id === "10"); alturaSol = sunC.alt / RAD;
     ctx.fillStyle = colorCielo(alturaSol); ctx.fillRect(0, 0, W, H);
@@ -297,7 +305,7 @@ export async function iniciarCielo(cfg) {
     $("estado").innerHTML = html + "</dl>";
     const sobre = cuerpos.filter((c) => c.alt > 0 && c.id !== "10" && (c.mag < 9 || c.tipo === "planeta")).sort((a, b) => a.mag - b.mag);
     $("lista").innerHTML = sobre.map((c) => `<button data-id="${c.id}"><span>${c.nombre}</span><small>${fmt(c.alt / RAD, 0)}° · mag ${fmt(c.mag, 1)}</small></button>`).join("") || "<div class='aviso' style='padding:8px'>Ningún astro de la lista sobre el horizonte.</div>";
-    $("meta").innerHTML = `<p>Marco: eclíptica J2000 de las efemérides; horizonte local por la orientación IAU de ${NOMBRE_PLAN[cfg.id]} (${cfg.id === "399" ? "ángulo de rotación terrestre ERA" : "polo y meridiano IAU sin términos periódicos"}). Planetas con corrección de tiempo luz; sin aberración ni paralaje estelar; estrellas sin movimiento propio (error típico < 1′). ${cfg.nota}</p>`;
+    $("meta").innerHTML = `<p>Marco: eclíptica J2000 de las efemérides; horizonte local por la orientación IAU de ${NOMBRE_PLAN[cfg.id]} (${cfg.id === "399" ? "ángulo de rotación terrestre ERA" : "polo y meridiano IAU sin términos periódicos"}). Planetas con corrección de tiempo luz; sin aberración ni paralaje estelar; estrellas con el movimiento propio de Hipparcos aplicado desde J2000. ${cfg.nota}</p>`;
   }
   $("lista").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; const c = cuerpos.find((x) => x.id === b.dataset.id); if (c) { seleccionar(c); vista.az = c.az; vista.alt = Math.max(3 * RAD, c.alt); } });
   seleccionar(cuerpos.find((c) => c.id === "10") || null);

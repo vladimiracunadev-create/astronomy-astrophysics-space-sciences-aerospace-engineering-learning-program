@@ -284,5 +284,16 @@ if (sistemas.sol) {
   const el = elementosTransferencia(ev.r1, ev.v1); afirmar(el.perihelio < 1.02 * 149597870.7 && el.afelio > 1.3 * 149597870.7, "la transferencia a Marte va del perihelio terrestre al afelio marciano");
 }
 
+// 10. Movimiento propio estelar (Hipparcos): Sirio se desplaza ~ -1,223″/año en declinación
+{
+  const cielo = JSON.parse(readFileSync(join(datos, "cielo.json"), "utf8"));
+  const i = cielo.estrellas.findIndex(([ra, de]) => Math.abs(ra - 101.287) < 0.01 && Math.abs(de + 16.716) < 0.01);
+  afirmar(i >= 0, "Sirio presente en el catálogo");
+  if (i >= 0) { const [pa, pd] = cielo.pm_mas_ano[i]; cerca(pa, -546, 2, "movimiento propio de Sirio en AR [mas/año]"); cerca(pd, -1223, 2, "movimiento propio de Sirio en Dec [mas/año]");
+    cerca(pd * 50 / 1000, -61.15, 0.2, "desplazamiento de Sirio en 50 años [″]"); }
+  const n = cielo.pm_mas_ano.filter(([a, d]) => Math.hypot(a, d) > 100).length;
+  afirmar(n > 200 && n < 3000, `estrellas con movimiento propio > 100 mas/año: ${n}`);
+}
+
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);
 process.exit(fallos ? 1 : 0);

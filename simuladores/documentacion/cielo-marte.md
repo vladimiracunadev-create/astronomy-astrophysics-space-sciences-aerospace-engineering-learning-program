@@ -13,7 +13,7 @@ El cielo marciano en cualquier instante de 2027 a 2050 desde siete lugares (crá
 1. **Observador:** latitud (planetográfica) y longitud este sobre el elipsoide IAU del planeta; el cénit es la normal al elipsoide (en Júpiter y Saturno, achatados 6,5 % y 9,8 %, difiere hasta ≈ 4° de la dirección al centro).
 2. **Orientación:** el horizonte local sale del polo y del meridiano origen IAU del planeta en cada instante (para la Tierra, del ángulo de rotación terrestre ERA).
 3. **Astros:** el Sol, los planetas (con corrección de tiempo luz, una iteración) y las lunas del propio sistema salen de las efemérides de JPL; cada uno se resta de la posición del observador y se pasa a altura y acimut. Se calculan su **tamaño angular**, su **fase** y su **magnitud** (Meeus/Almanaque para planetas vistos desde la Tierra; modelo de Lambert con albedo geométrico en los demás casos).
-4. **Estrellas:** 5 044 estrellas hasta la magnitud 6 del catálogo Hipparcos/Tycho (vía d3-celestial, licencia BSD), con 493 nombres propios y las figuras de las 88 constelaciones; coordenadas ICRS J2000 sin movimiento propio (error típico < 1′).
+4. **Estrellas:** 5 044 estrellas hasta la magnitud 6 del catálogo Hipparcos/Tycho (vía d3-celestial, licencia BSD), con 493 nombres propios y las figuras de las 88 constelaciones; coordenadas ICRS J2000 con el **movimiento propio** de Hipparcos aplicado hasta la fecha mostrada.
 5. **Proyección:** estereográfica sobre el eje de la vista (campo de 4° a 170°); arrastrar gira, la rueda cambia el campo.
 
 ## Validación
@@ -23,7 +23,7 @@ El cielo marciano en cualquier instante de 2027 a 2050 desde siete lugares (crá
 
 ## Tolerancias y límites
 
-Sin refracción atmosférica ni polvo; el color ocre del día y el azul del crepúsculo son **ilustrativos**. Las magnitudes de las lunas usan un albedo medio de 0,25 (Fobos y Deimos reales: ≈ 0,07), así que su brillo está sobreestimado. Posiciones de las lunas: efemérides de JPL con error de interpolación de 2,4 km como máximo. Estrellas sin movimiento propio. Los lugares se dan en latitud planetográfica y longitud este del marco IAU.
+Sin refracción atmosférica ni polvo; el color ocre del día y el azul del crepúsculo son **ilustrativos**. Las magnitudes de las lunas usan un albedo medio de 0,25 (Fobos y Deimos reales: ≈ 0,07), así que su brillo está sobreestimado. Posiciones de las lunas: efemérides de JPL con error de interpolación de 2,4 km como máximo. Estrellas con movimiento propio lineal. Los lugares se dan en latitud planetográfica y longitud este del marco IAU.
 
 ## Archivos
 

@@ -29,6 +29,7 @@ NASA, ESA, ESO, ALMA, IAU, JPL, NIST, USGS, ITU, OECD, OpenStax y los demás org
 | NASA GSFC, Five Millennium Catalog of Solar/Lunar Eclipses (Espenak y Meeus) | referencia de validación del cálculo de eclipses | Datos de la NASA; sólo se usan como contraste |
 | Natural Earth 1:110m («land») vía `world-atlas` 2.0.2 | máscara tierra/mar de la Tierra renderizada | Dominio público |
 | d3-celestial (Olaf Frohn), BSD de 3 cláusulas | estrellas hasta magnitud 6 (Hipparcos/Tycho, ESA), nombres y figuras de constelaciones de `simuladores/datos/cielo.json` | Copyright (c) 2015, Olaf Frohn. Redistribución permitida conservando el aviso de copyright, las condiciones y el descargo de la licencia ([texto](https://github.com/ofrohn/d3-celestial/blob/master/LICENSE)); sin garantía; el nombre del titular no se usa para promocionar |
+| HYG Database (David Nash), CC BY-SA 4.0 | sólo los movimientos propios de Hipparcos (valores astrométricos de la ESA) de `cielo.json`; no se redistribuye la base | Atribución: HYG Database, https://github.com/astronexus/HYG-Database |
 | U.S. Naval Observatory, Astronomical Applications API | referencia de contraste: estaciones, ápsides, fases lunares, salidas y puestas | Datos del gobierno de EE. UU.; sólo como contraste |
 | Node.js (22) | ejecución de las pruebas del motor en CI | [MIT y licencias de componentes](https://github.com/nodejs/node/blob/main/LICENSE) |
 | `actions/setup-node` | preparación de Node.js en CI | [MIT](https://github.com/actions/setup-node/blob/main/LICENSE) |

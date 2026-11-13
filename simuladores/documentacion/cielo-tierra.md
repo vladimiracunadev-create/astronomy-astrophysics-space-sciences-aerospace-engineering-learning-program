@@ -13,7 +13,7 @@ El cielo visto desde cualquier lugar de la Tierra (latitud y longitud, o 11 luga
 1. **Observador:** latitud (planetográfica) y longitud este sobre el elipsoide IAU del planeta; el cénit es la normal al elipsoide (en Júpiter y Saturno, achatados 6,5 % y 9,8 %, difiere hasta ≈ 4° de la dirección al centro).
 2. **Orientación:** el horizonte local sale del polo y del meridiano origen IAU del planeta en cada instante (para la Tierra, del ángulo de rotación terrestre ERA).
 3. **Astros:** el Sol, los planetas (con corrección de tiempo luz, una iteración) y las lunas del propio sistema salen de las efemérides de JPL; cada uno se resta de la posición del observador y se pasa a altura y acimut. Se calculan su **tamaño angular**, su **fase** y su **magnitud** (Meeus/Almanaque para planetas vistos desde la Tierra; modelo de Lambert con albedo geométrico en los demás casos).
-4. **Estrellas:** 5 044 estrellas hasta la magnitud 6 del catálogo Hipparcos/Tycho (vía d3-celestial, licencia BSD), con 493 nombres propios y las figuras de las 88 constelaciones; coordenadas ICRS J2000 sin movimiento propio (error típico < 1′).
+4. **Estrellas:** 5 044 estrellas hasta la magnitud 6 del catálogo Hipparcos/Tycho (vía d3-celestial, licencia BSD), con 493 nombres propios y las figuras de las 88 constelaciones; coordenadas ICRS J2000 con el **movimiento propio** de Hipparcos aplicado hasta la fecha mostrada.
 5. **Proyección:** estereográfica sobre el eje de la vista (campo de 4° a 170°); arrastrar gira, la rueda cambia el campo.
 
 ## Validación
@@ -32,7 +32,7 @@ Las salidas y puestas usan la convención de los almanaques: borde superior del 
 | Magnitud | Tolerancia |
 |---|---|
 | Posición de Sol, Luna y planetas | Efemérides de JPL (error de interpolación en la [tabla](TABLA_DE_PRECISION.md)); sin aberración |
-| Posición de las estrellas | ICRS J2000 sin movimiento propio ni paralaje: < 1′ típico, hasta ≈ 5′ en las de mayor movimiento propio (Barnard) |
+| Posición de las estrellas | ICRS J2000 más movimiento propio lineal de Hipparcos (HYG): sin paralaje ni aceleración; error típico de segundos de arco |
 | Refracción | Fórmula de Bennett (opcional); no modela la variación con la presión y la temperatura |
 | Magnitudes de planetas | Fórmulas de Meeus: ≈ ± 0,3; la de Saturno omite el efecto de los anillos |
 | Orientación de la Tierra | ERA con UT1 ≈ UTC (≤ 0,9 s); precesión-nutación omitidas (≈ 0,7°) |

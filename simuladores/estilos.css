@@ -69,6 +69,10 @@ summary { cursor: pointer; color: var(--acento2); }
 .tarjeta p { margin: 0; color: var(--suave); font-size: .88rem; }
 
 @media (max-width: 900px) {
+  .barra { padding: 4px 8px; gap: 4px 8px; }
+  .barra .etq { display: none; }
+  .barra button, .barra select, .barra input[type="datetime-local"] { min-height: 32px; padding: 3px 8px; font-size: .85rem; }
+  .barra input[type="range"] { width: 40vw !important; }
   .app { grid-template-columns: 1fr; grid-template-rows: 62vh auto; height: auto; }
   .lateral { border-left: 0; border-top: 1px solid var(--borde); }
 }
