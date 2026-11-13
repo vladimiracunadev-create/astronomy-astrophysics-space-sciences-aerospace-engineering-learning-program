@@ -41,7 +41,7 @@ jobs:
                    assets/landing.js assets/datos.js assets/docs.css assets/docs.js assets/nav.js indice-busqueda.js visor/index.html \
                    README.html documentacion/README.html documentacion/MAPA_DEL_REPOSITORIO.html \
                    programa/clases/B71/B71-C18-maniobra-de-hohmann/CLASE.html \
-                   anexos/README.html glosario/README.html glosario/esencial/README.html; do
+                   anexos/README.html glosario/README.html glosario/esencial/README.html \n                   simuladores/index.html simuladores/sistema-solar.html simuladores/tierra-sol-luna.html simuladores/jupiter.html \n                   simuladores/datos/jupiter.bin simuladores/datos/sol.bin simuladores/img/sistema-solar.svg simuladores/documentacion/README.html \n                   simuladores/documentacion/sistema-solar.html; do
             test -s "build/web/$f"
           done
           CLASES=$(find build/web/programa/clases -name CLASE.html | wc -l)

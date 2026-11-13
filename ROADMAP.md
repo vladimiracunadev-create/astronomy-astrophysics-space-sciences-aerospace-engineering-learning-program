@@ -54,6 +54,11 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 **Cierre por bloque:** todas las clases en E5, dependencias auditadas, proyecto integrador y revisión disciplinar registrada.
 
+## Simuladores del Sistema Solar
+
+- [x] Siete simuladores con efemérides oficiales de JPL (2027–2050): Sistema Solar, Tierra · Sol · Luna, Marte, Júpiter, Saturno, Urano y Neptuno, con error medido y validación contra la NASA y el U.S. Naval Observatory.
+- [ ] Ampliaciones futuras según el [estándar](documentacion/ESTANDAR_DE_SIMULADORES.md): cuerpos menores y cometas, un simulador de un cinturón de asteroides, una ventana temporal mayor o la visibilidad desde un lugar de la Tierra.
+
 ## Material de integración · anexos, glosarios y talleres
 
 - [x] 20 anexos históricos y pedagógicos, glosario completo y glosario esencial.

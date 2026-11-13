@@ -136,6 +136,24 @@ def tabla() -> None:
         err("TABLA_DE_PRECISION.md desfasada respecto de los datos")
 
 
+def coherencia() -> None:
+    """La lista de simuladores es única: navegacion.js (barra y concentrador), sitio.py (menú y búsqueda), páginas, imágenes y documentos."""
+    nav = re.findall(r'clave: "(\w+)", imagen: "([\w-]+)", href: "([\w.-]+)"', (SIM / "motor" / "navegacion.js").read_text(encoding="utf-8"))
+    sitio = re.findall(r'\("[^"]+", "([\w.-]+\.html)"\)', (RAIZ / "herramientas" / "publicacion" / "sitio.py").read_text(encoding="utf-8").split("SIMULADORES = [", 1)[1].split("]", 1)[0])
+    if [h for _, _, h in nav] != sitio:
+        err(f"simuladores/motor/navegacion.js y herramientas/publicacion/sitio.py no listan los mismos simuladores: {[h for _, _, h in nav]} vs {sitio}")
+    for clave, imagen, href in nav:
+        for ruta in (SIM / href, SIM / "img" / f"{imagen}.svg", SIM / "paginas" / f"{href[:-5]}.js", SIM / "documentacion" / f"{href[:-5]}.md"):
+            if not ruta.exists():
+                err(f"simulador {clave}: falta {ruta.relative_to(RAIZ)}")
+        if clave != "sol" and not (SIM / "datos" / f"{clave}.bin").exists():
+            err(f"simulador {clave}: faltan datos/{clave}.bin")
+    doc = (SIM / "documentacion" / "README.md").read_text(encoding="utf-8")
+    for _, _, href in nav:
+        if f"{href[:-5]}.md" not in doc:
+            err(f"documentacion/README.md no enlaza {href[:-5]}.md")
+
+
 def main() -> int:
     if not SIM.exists():
         err("falta simuladores/")
@@ -143,6 +161,7 @@ def main() -> int:
         datos()
         paginas()
         documentacion()
+        coherencia()
         node()
         tabla()
         svg()

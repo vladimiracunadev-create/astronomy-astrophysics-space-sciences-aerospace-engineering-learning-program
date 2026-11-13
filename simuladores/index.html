@@ -21,7 +21,7 @@
 import { SIMULADORES, barraNavegacion } from "./motor/navegacion.js";
 document.getElementById("nav").replaceWith(barraNavegacion(""));
 document.getElementById("tarjetas").innerHTML = SIMULADORES.map((s) =>
-  `<a class="tarjeta" href="${s.href}"><img src="img/${s.clave}.svg" alt="Esquema a escala de ${s.titulo}" width="480" height="270" loading="lazy"><h3>${s.titulo}</h3><p>${s.resumen}</p></a>`).join("");
+  `<a class="tarjeta" href="${s.href}"><img src="img/${s.imagen}.svg" alt="Esquema a escala de ${s.titulo}" width="480" height="270" loading="lazy"><h3>${s.titulo}</h3><p>${s.resumen}</p></a>`).join("");
 document.querySelectorAll(".tarjeta img").forEach((i) => i.addEventListener("error", () => i.remove()));
 </script>
 </body>

@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: Apache-2.0
 // Lista única de simuladores (la usan el concentrador y la barra de navegación de cada página).
 export const SIMULADORES = [
-  { clave: "tierra", href: "tierra-sol-luna.html", titulo: "Tierra · Sol · Luna", resumen: "Fases, distancia y tamaños angulares, iluminación y eclipses calculados desde las efemérides." },
-  { clave: "marte", href: "marte.html", titulo: "Marte y sus dos lunas", resumen: "Fobos y Deimos alrededor de Marte, con órbitas, sombras y tamaños reales." },
-  { clave: "jupiter", href: "jupiter.html", titulo: "Júpiter y sus lunas", resumen: "Las lunas jovianas con efemérides (Io, Europa, Ganimedes, Calisto y el resto), anillos y eclipses por el planeta." },
-  { clave: "saturno", href: "saturno.html", titulo: "Saturno y sus lunas", resumen: "Titán, Encélado y las demás lunas, más los anillos a escala." },
-  { clave: "urano", href: "urano.html", titulo: "Urano y sus lunas", resumen: "Un sistema tumbado: ejes casi en el plano orbital, lunas mayores y menores, y anillos." },
-  { clave: "neptuno", href: "neptuno.html", titulo: "Neptuno y sus lunas", resumen: "Tritón retrógrada, Nereida excéntrica y las lunas internas." },
+  { clave: "sol", imagen: "sistema-solar", href: "sistema-solar.html", titulo: "Sistema Solar", resumen: "Sol, ocho planetas, Plutón y Ceres con posiciones heliocéntricas oficiales de JPL (2027–2050)." },
+  { clave: "tierra", imagen: "tierra", href: "tierra-sol-luna.html", titulo: "Tierra · Sol · Luna", resumen: "Fases, distancia y tamaños angulares, iluminación y eclipses calculados desde las efemérides." },
+  { clave: "marte", imagen: "marte", href: "marte.html", titulo: "Marte y sus dos lunas", resumen: "Fobos y Deimos alrededor de Marte, con órbitas, sombras y tamaños reales." },
+  { clave: "jupiter", imagen: "jupiter", href: "jupiter.html", titulo: "Júpiter y sus lunas", resumen: "Las lunas jovianas con efemérides (Io, Europa, Ganimedes, Calisto y el resto), anillos y eclipses por el planeta." },
+  { clave: "saturno", imagen: "saturno", href: "saturno.html", titulo: "Saturno y sus lunas", resumen: "Titán, Encélado y las demás lunas, más los anillos a escala." },
+  { clave: "urano", imagen: "urano", href: "urano.html", titulo: "Urano y sus lunas", resumen: "Un sistema tumbado: ejes casi en el plano orbital, lunas mayores y menores, y anillos." },
+  { clave: "neptuno", imagen: "neptuno", href: "neptuno.html", titulo: "Neptuno y sus lunas", resumen: "Tritón retrógrada, Nereida excéntrica y las lunas internas." },
 ];
 
 export function barraNavegacion(actual) {

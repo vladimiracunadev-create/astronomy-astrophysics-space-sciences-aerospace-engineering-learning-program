@@ -13,6 +13,7 @@ Esta carpeta contiene el contrato académico, editorial y técnico del **Program
    - [Guía de redacción de clases](GUIA_DE_REDACCION_DE_CLASES.md)
    - [Estructura y conteo del catálogo](ESTRUCTURA_Y_CONTEO_DEL_CATALOGO.md)
    - [Estándar de los talleres de misión](ESTANDAR_DE_TALLERES_DE_MISION.md): estructura, reglas, validación y cómo añadir un taller
+   - [Estándar de los simuladores](ESTANDAR_DE_SIMULADORES.md): datos oficiales, error medido, validación y cómo añadir un simulador (ver también la [documentación de los simuladores](../simuladores/documentacion/README.md))
    - [Mapa del repositorio](MAPA_DEL_REPOSITORIO.md): qué hay en cada carpeta, qué se escribe y qué se genera
    - [Descargas y PDF: lista completa](DESCARGAS_Y_PDF.md): todos los PDF por área y por rol, y las aplicaciones
    - [Mapa de áreas y bloques](MAPA_DE_AREAS_Y_BLOQUES.md): las 12 áreas con sus 133 bloques

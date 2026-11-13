@@ -17,7 +17,7 @@
 [![Contenido](https://img.shields.io/badge/contenido-CC_BY--NC--SA_4.0-2f7d32?style=for-the-badge)](LICENSE-CONTENT.md)
 
 [🌐 Explorar el catálogo](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/) ·
-[📕 PDF general](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) · [📦 Descargas](#-descargas-y-pdf) · [📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) · [🛠️ Talleres de misión](talleres/README.md) · [📎 Anexos](anexos/README.md) ·
+[📕 PDF general](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) · [📦 Descargas](#-descargas-y-pdf) · [📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) · [🛠️ Talleres de misión](talleres/README.md) · [🪐 Simuladores](simuladores/README.md) · [📎 Anexos](anexos/README.md) ·
 [🧭 Rutas profesionales](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md) ·
 [🎓 Estándar de clase](documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md) ·
 [🗺️ Roadmap](ROADMAP.md) ·
@@ -338,6 +338,22 @@ Los anexos se leen; los **talleres se hacen**. Cada uno toma una **misión espac
 
 [Ver el índice de talleres](talleres/README.md).
 
+## 🪐 Simuladores del Sistema Solar 2027–2050
+
+Además de estudiar, puedes **ver** el Sistema Solar. Siete simuladores interactivos en JavaScript —sin servidores— funcionan en [GitHub Pages](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/index.html) con posiciones **oficiales** de NASA/JPL Horizons entre el 1 de enero de 2027 y el 31 de diciembre de 2050, tamaños y distancias reales, y **463 cuerpos** (8 planetas, Plutón, Ceres, la Luna y 453 satélites). Cada número está documentado y validado: eclipses contra el catálogo de la NASA, fases lunares, estaciones y ápsides contra el U.S. Naval Observatory, y error de cada cuerpo contra JPL.
+
+| | Simulador | Qué muestra |
+|---|---|---|
+| [![Sistema Solar](simuladores/img/sistema-solar.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/sistema-solar.html) | [**Sistema Solar**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/sistema-solar.html) · [doc](simuladores/documentacion/sistema-solar.md) | Sol, ocho planetas, Plutón, Ceres y la Luna; oposiciones y órbitas |
+| [![Tierra, Sol y Luna](simuladores/img/tierra.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/tierra-sol-luna.html) | [**Tierra · Sol · Luna**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/tierra-sol-luna.html) · [doc](simuladores/documentacion/tierra-sol-luna.md) | Fases, 109 eclipses, estaciones, perihelio y afelio |
+| [![Marte](simuladores/img/marte.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/marte.html) | [**Marte y sus dos lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/marte.html) · [doc](simuladores/documentacion/marte.md) | Fobos, Deimos y la longitud solar Ls |
+| [![Júpiter](simuladores/img/jupiter.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/jupiter.html) | [**Júpiter y sus lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/jupiter.html) · [doc](simuladores/documentacion/jupiter.md) | 115 lunas, anillos y eclipses por la sombra del planeta |
+| [![Saturno](simuladores/img/saturno.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/saturno.html) | [**Saturno y sus lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/saturno.html) · [doc](simuladores/documentacion/saturno.md) | 291 lunas y los anillos a escala |
+| [![Urano](simuladores/img/urano.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/urano.html) | [**Urano y sus lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/urano.html) · [doc](simuladores/documentacion/urano.md) | 28 lunas, anillos y un eje a 97,8° |
+| [![Neptuno](simuladores/img/neptuno.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/neptuno.html) | [**Neptuno y sus lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/neptuno.html) · [doc](simuladores/documentacion/neptuno.md) | 16 lunas: Tritón retrógrada y Nereida excéntrica |
+
+Las figuras son esquemas **a escala** calculados con los mismos datos del simulador. [Documentación completa](simuladores/documentacion/README.md) · [Estándar de los simuladores](documentacion/ESTANDAR_DE_SIMULADORES.md) · [Tabla de precisión](simuladores/documentacion/TABLA_DE_PRECISION.md). Son material de apoyo: no sirven para planificar misiones ni habilitan decisiones de vuelo.
+
 ## 📎 Anexos históricos y pedagógicos
 
 Veinte lecturas de contexto, con descripciones **históricas, pedagógicas y profundas**, que acompañan a las clases y enlazan a los bloques donde cada tema se estudia. Textos de síntesis propia, pendientes de revisión disciplinar (E0).
@@ -462,6 +478,7 @@ El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): 
 - [IDs, ampliaciones y compatibilidad](documentacion\CONVENIOS_DE_IDENTIFICACION_Y_AMPLIACION.md)
 - [📦 Descargas y PDF: lista completa](documentacion\DESCARGAS_Y_PDF.md)
 - [Estándar de fuentes](documentacion\ESTANDAR_DE_FUENTES.md)
+- [Estándar de los simuladores](documentacion/ESTANDAR_DE_SIMULADORES.md)
 - [Estándar de los talleres de misión](documentacion\ESTANDAR_DE_TALLERES_DE_MISION.md)
 - [Estándar para generar los contenidos](documentacion\ESTANDAR_PARA_GENERAR_CONTENIDOS.md)
 - [Estándar pedagógico, científico, de evidencia y evaluación](documentacion\ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
@@ -632,6 +649,7 @@ Requiere Python 3.11 o posterior y no instala dependencias:
 ```bash
 python herramientas/validar_catalogo.py
 python herramientas/validar_talleres.py
+python herramientas/validar_simuladores.py   # necesita Node.js 22 o posterior
 ```
 
 La salida esperada es:

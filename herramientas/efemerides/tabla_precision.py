@@ -52,7 +52,7 @@ def construir() -> str:
             radio = c.get("radio_km") or (RADIO_PLANETAS.get(str(c["id"])) if n == "sol" else (1737.4 if str(c["id"]) == "301" else None))
             P = c.get("periodo_d") or (PERIODO_PLANETAS.get(str(c["id"])) if n == "sol" else None)
             paso = (f"{c['paso_min'] / 1440:.4g} d" if c["paso_min"] >= 1440 else f"{c['paso_min']} min").replace(".", ",")
-            nodos = f"{P * 1440 / c['paso_min']:.1f}" if P else "—"
+            nodos = (f"{P * 1440 / c['paso_min']:.1f}".replace('.', ',') if P else "—")
             cob = "" if c["jd_valido_fin"] >= 2470172 else f"hasta {fecha(c['jd_valido_fin'])}"
             L.append(f"| {c['id']} | {c['nombre'].replace('|', '/')} | {fmt(radio, 1) if radio else '—'} | {paso} | {nodos} | {c['fmt']} | {fmt(c['error_max_km'], 3)} | {fmt(c['error_rms_km'], 3)} | {cob} |")
         L.append("")

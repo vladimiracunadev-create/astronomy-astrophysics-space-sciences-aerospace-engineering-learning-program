@@ -18,6 +18,7 @@ Qué hay en cada carpeta, **qué se escribe a mano y qué se genera**, y cómo f
 ├── rutas/                              24 guías de rol (prosa escrita + ruta generada)
 ├── anexos/                             20 anexos históricos, pedagógicos y de cálculo  (escritos)
 ├── talleres/                           talleres integradores de misión (un taller por misión real; T01 Marte redactado)
+├── simuladores/                        siete simuladores del Sistema Solar 2027–2050 (JavaScript, datos de JPL, pruebas y documentación)
 ├── glosario/                           Glosario completo (generado) y esencial (escrito)
 ├── documentacion/                      Contratos, estándares, planes y guías           (escritos)
 ├── metadatos/ · fuentes/ · instrucciones/   Inventarios, referencias preliminares y prompt maestro
@@ -73,6 +74,8 @@ Una clase pertenece a un **bloque**, un bloque a un **área**, y un **rol** es u
 | `generar_rutas_por_rol.py` · `generar_recorridos.py` | Guías y recorridos por rol |
 | `actualizar_navegacion.py` | Enlaces entre clases y su guía de bloque |
 | `generar_glosario.py` | Glosario alfabético con contexto de cada clase |
+| `validar_simuladores.py` | Valida los simuladores: datos de JPL, pruebas del motor en Node (eclipses, fases, estaciones), páginas, enlaces y figuras (ver el [estándar](ESTANDAR_DE_SIMULADORES.md)) |
+| `efemerides/` | Descarga de JPL Horizons, empaquetado de efemérides, tabla de precisión y figuras SVG de los simuladores |
 | `validar_talleres.py` | Valida los diez talleres de misión: estructura, enlaces, laboratorios y figuras (ver el [estándar](ESTANDAR_DE_TALLERES_DE_MISION.md)) |
 | `calculadora_cientifica.py` | Calculadora didáctica con `autotest` (ver el [Anexo I](../anexos/ANEXO-I-escalas-formulas-y-calculadora.md)) |
 | `generar_manifiesto.py` | Huellas SHA-256 de los archivos versionables |

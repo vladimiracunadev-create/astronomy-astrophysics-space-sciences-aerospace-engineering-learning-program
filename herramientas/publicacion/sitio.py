@@ -321,6 +321,14 @@ def construir_nav(titulos: dict[str, str], areas, bloques, rutas) -> list:
         hs = [hoja(r) for r in sorted(titulos, key=lambda x: (Path(x).name != "README.md", x)) if r.startswith(f"talleres/{td}/")]
         tall.append([td.split("-", 1)[0] + " · " + td.split("-", 1)[1].replace("-", " ").capitalize(), None, hs])
 
+    sim = []
+    if "simuladores/README.md" in titulos:
+        sim.append(["Concentrador de simuladores", "simuladores/index.html", None])
+        sim += [[t, f"simuladores/{h}", None] for t, h in SIMULADORES]
+        sim.append(hoja("simuladores/README.md"))
+        docs_sim = [hoja(r) for r in sorted(titulos, key=lambda x: (Path(x).name != "README.md", x)) if r.startswith("simuladores/documentacion/")]
+        sim.append(["Documentación de los simuladores", None, docs_sim])
+
     glo = []
     gl_rel = sorted(r for r in titulos if r.startswith("glosario/"))
 
@@ -347,7 +355,7 @@ def construir_nav(titulos: dict[str, str], areas, bloques, rutas) -> list:
         tec.append(["Capa heredada: módulos de ruta (línea base)", None, heredada])
 
     return [["Inicio", None, inicio, 1], ["Proyecto", None, proyecto], ["Documentación", None, doc], ["Programa", None, prog],
-            ["Roles", None, rol], ["Anexos", None, anex], ["Talleres", None, tall], ["Glosario", None, glo], ["Referencia técnica", None, tec]]
+            ["Roles", None, rol], ["Anexos", None, anex], ["Talleres", None, tall], ["Simuladores", None, sim], ["Glosario", None, glo], ["Referencia técnica", None, tec]]
 
 
 def hojas_planas(nodos, acum=None):
@@ -362,7 +370,7 @@ def hojas_planas(nodos, acum=None):
 
 def migas_de(rel_html: Path, rel_md: str) -> str:
     p = prefijo(rel_html)
-    etiquetas = {"programa": "Programa", "clases": "Clases", "tronco-comun": "Guías de bloque", "rutas": "Roles", "anexos": "Anexos", "talleres": "Talleres", "figuras": "Figuras", "glosario": "Glosario",
+    etiquetas = {"programa": "Programa", "clases": "Clases", "tronco-comun": "Guías de bloque", "rutas": "Roles", "anexos": "Anexos", "talleres": "Talleres", "simuladores": "Simuladores", "figuras": "Figuras", "glosario": "Glosario",
                  "documentacion": "Documentación", "esencial": "Esencial", "rutas-profesionales": "Capa heredada", "herramientas": "Herramientas", "catalogo": "Catálogo"}
     partes = [f'<a href="{p}index.html">Inicio</a>']
     for seg in Path(rel_md).parts[:-1]:
@@ -383,6 +391,11 @@ def pie_de(rel_md: str, anterior, siguiente, p: str) -> str:
         h += f'<a class="nav" href="{p}{siguiente[1]}" style="margin-left:auto;text-align:right"><small>Siguiente →</small>{esc(siguiente[0])}</a>'
     h += f'<div class="meta"><a href="{GH}/blob/main/{rel_md}" rel="noopener">✏️ Ver o editar este archivo en GitHub</a> · Publicación {VERSION}</div>'
     return f'<footer class="pie-pag">{h}</footer>'
+
+
+# Simuladores interactivos (páginas HTML propias, fuera del generador de Markdown); el orden es el de simuladores/motor/navegacion.js
+SIMULADORES = [("Sistema Solar", "sistema-solar.html"), ("Tierra · Sol · Luna", "tierra-sol-luna.html"), ("Marte y sus dos lunas", "marte.html"),
+               ("Júpiter y sus lunas", "jupiter.html"), ("Saturno y sus lunas", "saturno.html"), ("Urano y sus lunas", "urano.html"), ("Neptuno y sus lunas", "neptuno.html")]
 
 
 # ------------------------------------------------------------------ construcción
@@ -443,6 +456,8 @@ def construir():
             indice.append([tit, ruta_html, "Anexo"])
         elif rel.parts[0] == "talleres":
             indice.append([tit, ruta_html, "Taller"])
+        elif rel.parts[0] == "simuladores":
+            indice.append([tit, ruta_html, "Simulador"])
         elif rel.parts[0] == "rutas":
             indice.append([tit, ruta_html, "Rol"])
         elif rel.parts[0] == "glosario":
@@ -453,6 +468,8 @@ def construir():
         elif rel.parts[0] == "documentacion" or len(rel.parts) == 1:
             indice.append([tit, ruta_html, "Documento"])
 
+    for t_, h_ in SIMULADORES:
+        indice.append([t_, f"simuladores/{h_}", "Simulador"])
     landing.escribir(WEB)
     titulos_clase = {c.parent.name: titulos[c.relative_to(ROOT).as_posix()].split("—", 1)[-1].strip()
                      for bid in bloques for c in clases_de_bloque(bid)}
