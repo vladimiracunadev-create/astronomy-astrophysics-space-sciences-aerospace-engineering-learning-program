@@ -10,6 +10,7 @@ export const SIMULADORES = [
   { clave: "neptuno", imagen: "neptuno", href: "neptuno.html", titulo: "Neptuno y sus lunas", resumen: "Tritón retrógrada, Nereida excéntrica y las lunas internas." },
   { clave: "pluton", imagen: "pluton", href: "pluton.html", titulo: "Plutón y sus lunas", resumen: "Plutón, Caronte, Estigia, Nix, Cerbero e Hidra girando en torno a un baricentro exterior a Plutón." },
   { clave: "cielo-tierra", imagen: "cielo-tierra", href: "cielo-tierra.html", titulo: "Cielo desde la Tierra", resumen: "Sol, Luna, planetas y 5.000 estrellas desde cualquier lugar, con salidas y puestas validadas con el U.S. Naval Observatory." },
+  { clave: "cielo-marte", imagen: "cielo-marte", href: "cielo-marte.html", titulo: "Cielo desde Marte", resumen: "Fobos y Deimos cruzando el cielo, el Sol de 21′, la Tierra como una estrella y los planetas." },
 ];
 
 export function barraNavegacion(actual) {
