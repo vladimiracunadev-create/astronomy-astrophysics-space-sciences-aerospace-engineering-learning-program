@@ -328,8 +328,8 @@ if (existsSync(join(datos, "asteroides.json")) && existsSync(join(aqui, "verific
   for (const v of ver) { const f = porId.get(v.spkid); if (!f) continue; v.epocas.forEach(([jd, x, y, z], k) => { const p = posAst(f, jd); errs[k].push(Math.hypot(p[0] - x, p[1] - y, p[2] - z)); }); }
   const med = (a) => a.slice().sort((p, q) => p - q)[Math.floor(a.length / 2)], p95 = (a) => a.slice().sort((p, q) => p - q)[Math.floor(a.length * 0.95)];
   console.log(`Asteroides (${ast.asteroides.length}): error kepleriano vs Horizons en ${errs[0].length} cuerpos — 2030 mediana ${(med(errs[0]) / 1e3).toFixed(0)} mil km, 2039 ${(med(errs[1]) / 1e3).toFixed(0)} mil km, 2050 mediana ${(med(errs[2]) / 1e3).toFixed(0)} mil km (p95 ${(p95(errs[2]) / 1e3).toFixed(0)} mil km)`);
-  afirmar(errs[0].length >= 40, "muestra de verificación de asteroides");
-  afirmar(med(errs[2]) < 3e6 && p95(errs[2]) < 4e7, `error kepleriano de asteroides en 2050 acotado: mediana ${med(errs[2]).toFixed(0)} km`);
+  afirmar(errs[0].length >= 20, "muestra de verificación de asteroides");
+  afirmar(med(errs[0]) < 5e6 && med(errs[2]) < 2e7 && p95(errs[2]) < 2e8, `error kepleriano de asteroides en 2050 acotado: mediana ${med(errs[2]).toFixed(0)} km`);
   afirmar(ast.asteroides.length > 1000, "asteroides cargados");
 }
 

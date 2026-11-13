@@ -18,7 +18,7 @@ Qué hay en cada carpeta, **qué se escribe a mano y qué se genera**, y cómo f
 ├── rutas/                              24 guías de rol (prosa escrita + ruta generada)
 ├── anexos/                             20 anexos históricos, pedagógicos y de cálculo  (escritos)
 ├── talleres/                           talleres integradores de misión (un taller por misión real; T01 Marte redactado)
-├── simuladores/                        trece simuladores del Sistema Solar 2027–2050 (JavaScript, datos de JPL, pruebas y documentación)
+├── simuladores/                        dieciséis simuladores del Sistema Solar 2027–2050 (JavaScript, datos de JPL, pruebas y documentación)
 ├── glosario/                           Glosario completo (generado) y esencial (escrito)
 ├── documentacion/                      Contratos, estándares, planes y guías           (escritos)
 ├── metadatos/ · fuentes/ · instrucciones/   Inventarios, referencias preliminares y prompt maestro

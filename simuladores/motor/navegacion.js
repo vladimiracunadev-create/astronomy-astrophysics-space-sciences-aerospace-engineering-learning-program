@@ -16,6 +16,7 @@ export const SIMULADORES = [
   { clave: "trayectorias", imagen: "trayectorias", href: "trayectorias.html", titulo: "Trayectorias entre planetas", resumen: "Gráfico porkchop, problema de Lambert, C3, v∞ y delta-v entre dos planetas con posiciones oficiales de JPL." },
   { clave: "eclipses-solares", imagen: "eclipses-solares", href: "eclipses-solares.html", titulo: "Eclipses solares", resumen: "Franja de totalidad y anularidad de los 54 eclipses solares de 2027–2050 sobre un mapa y circunstancias locales, validadas con la NASA." },
   { clave: "misiones", imagen: "misiones", href: "misiones.html", titulo: "Misiones espaciales", resumen: "Voyager 1 y 2, Pioneer 10 y 11, Galileo, Cassini, New Horizons, Juno, James Webb y más: elige una misión y recorre su trayectoria real con fechas y acercamientos." },
+  { clave: "asteroides", imagen: "asteroides", href: "asteroides.html", titulo: "Cinturón de asteroides", resumen: "1.674 asteroides (cinturón principal, troyanos, Hildas y cercanos a la Tierra) con elementos del JPL y el error de la aproximación medido." },
 ];
 
 export function barraNavegacion(actual) {

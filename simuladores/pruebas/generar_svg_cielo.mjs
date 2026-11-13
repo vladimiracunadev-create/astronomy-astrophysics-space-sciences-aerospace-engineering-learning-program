@@ -11,6 +11,7 @@ import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../mo
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearFranja } from "../motor/franja.js";
+import { posicion as posAst } from "../motor/asteroides.js";
 import { BITS, ANCHO as MW, ALTO as MH } from "../motor/mascara_tierra.js";
 
 const aqui = dirname(fileURLToPath(import.meta.url)), datos = join(aqui, "..", "datos"), img = join(aqui, "..", "img");
@@ -137,12 +138,34 @@ function figuraMisiones() {
   return L.join("\n") + "\n";
 }
 
+// ---- figura del cinturón de asteroides el 1 de enero de 2027 (propagación kepleriana de los elementos de JPL)
+function figuraAsteroides(sol) {
+  const ast = JSON.parse(readFileSync(join(datos, "asteroides.json"), "utf8")).asteroides, UA = 149597870.7, jd = jdTdbDesdeUtc(jdUtcDesdeInput("2027-01-01T00:00")), NL = String.fromCharCode(10);
+  const col = { MBA: "#9fb0cf", IMB: "#a8d08d", OMB: "#8ab4f8", MCA: "#f6b26b", TJN: "#ea9999", HYA: "#d5a6bd", IEO: "#ffd966", ATE: "#ffd966", APO: "#ffe599", AMO: "#ffe599" };
+  const L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
+    `<title id="t">Cinturón de asteroides</title>`, `<desc id="d">${ast.length} asteroides y las órbitas de Mercurio a Júpiter el 1 de enero de 2027, vistos desde el polo norte eclíptico.</desc>`,
+    `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Cinturón de asteroides</text>`,
+    `<text x="32" y="70" font-size="14" fill="#9fb0cf">${ast.length} asteroides del JPL Small-Body Database · 1 de enero de 2027 · posiciones keplerianas aproximadas (error medido en la documentación)</text>`];
+  const cx = 600, cy = 365, R = 270, esc = R / (6 * UA);
+  L.push(`<circle cx="${cx}" cy="${cy}" r="${R + 6}" fill="#0b1020" stroke="#26314f"/>`);
+  for (const [id, nom] of [["199", "Mercurio"], ["299", "Venus"], ["399", "Tierra"], ["499", "Marte"], ["599", "Júpiter"]]) { const p = sol.pos(id, jd), r = Math.hypot(p[0], p[1]) * esc; L.push(`<circle cx="${cx}" cy="${cy}" r="${n1(r)}" fill="none" stroke="#7d93c0" stroke-opacity="0.35" stroke-dasharray="3 4"/>`, `<circle cx="${n1(cx + p[0] * esc)}" cy="${n1(cy - p[1] * esc)}" r="4" fill="#fff"/>`, `<text x="${n1(cx + p[0] * esc + 6)}" y="${n1(cy - p[1] * esc - 5)}" font-size="12" fill="#e6ecf8">${nom}</text>`); }
+  L.push(`<circle cx="${cx}" cy="${cy}" r="5" fill="#ffd45e"/>`);
+  for (const f of ast) { const p = posAst(f, jd), x = cx + p[0] * esc, y = cy - p[1] * esc; if ((x - cx) ** 2 + (y - cy) ** 2 < R * R) L.push(`<circle cx="${n1(x)}" cy="${n1(y)}" r="1.1" fill="${col[f[3]] || "#ccc"}"/>`); }
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Elementos orbitales: NASA/JPL Small-Body Database · planetas: NASA/JPL Horizons · calculado con el motor del simulador</text>`, `</svg>`);
+  return L.join(NL) + NL;
+}
+
 const sol = cargar("sol");
 let mal = 0;
 for (const f of FIGURAS) {
   if (!existsSync(join(datos, `${f.sistema}.bin`)) || !existsSync(join(aqui, "..", `${f.archivo}.html`))) continue;  // sólo las páginas publicadas
   const svg = figura(f, sol), ruta = join(img, `${f.archivo}.svg`);
   if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log(`ERROR ${f.archivo}.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs`); mal++; } }
+  else writeFileSync(ruta, svg);
+}
+if (existsSync(join(aqui, "..", "asteroides.html")) && existsSync(join(datos, "asteroides.json"))) {
+  const svg = figuraAsteroides(sol), ruta = join(img, "asteroides.svg");
+  if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").split(String.fromCharCode(13)).join("") !== svg) { console.log("ERROR asteroides.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs"); mal++; } }
   else writeFileSync(ruta, svg);
 }
 if (existsSync(join(aqui, "..", "misiones.html"))) {

@@ -53,11 +53,11 @@ def main() -> None:
     print(len(filas), "asteroides")
     # verificación: Horizons (heliocéntrico) en tres épocas para una muestra con semilla fija
     rng = random.Random(2027)
-    muestra = rng.sample(filas, 18)  # Horizons tarda ~1 min por cuerpo pequeño
+    muestra = rng.sample(filas, 24)  # Horizons tarda ~1 min por cuerpo pequeño
     verif = []
     for f in muestra:
         try:
-            pos = H.vectores_lista(str(f[0]), "500@10", EPOCAS_VERIF, tabla="1")
+            pos = H.vectores_lista(f"{f[1]};", "500@10", EPOCAS_VERIF, tabla="1")  # «;» fuerza cuerpo menor
         except Exception as e:  # noqa: BLE001
             print("sin datos", f[2], str(e)[:80]); continue
         verif.append({"spkid": f[0], "nombre": f[2], "clase": f[3], "epocas": [[p[0], p[1], p[2], p[3]] for p in pos]})

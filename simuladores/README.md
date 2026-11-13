@@ -1,6 +1,6 @@
 # 🪐 Simuladores del Sistema Solar 2027–2050
 
-Quince simuladores interactivos en **JavaScript puro** (sin dependencias ni servidores) que funcionan en **GitHub Pages**. Dibujan posiciones **oficiales** de NASA/JPL Horizons entre el **1 de enero de 2027** y el **31 de diciembre de 2050**, con **tamaños y distancias reales**, y cada número está validado de forma automática.
+Dieciséis simuladores interactivos en **JavaScript puro** (sin dependencias ni servidores) que funcionan en **GitHub Pages**. Dibujan posiciones **oficiales** de NASA/JPL Horizons entre el **1 de enero de 2027** y el **31 de diciembre de 2050**, con **tamaños y distancias reales**, y cada número está validado de forma automática.
 
 [🌐 Abrir los simuladores](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/index.html) · [📖 Documentación](documentacion/README.md) · [📏 Estándar](../documentacion/ESTANDAR_DE_SIMULADORES.md)
 
@@ -35,6 +35,7 @@ Los enlaces a los simuladores abren la **página funcional** en GitHub Pages; lo
 | [**Trayectorias entre planetas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/trayectorias.html) | Gráfico porkchop, problema de Lambert, C3, v∞ y Δv entre dos planetas | [trayectorias.md](documentacion/trayectorias.md) |
 | [**Eclipses solares**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/eclipses-solares.html) | Franja de totalidad y anularidad de los 54 eclipses solares de 2027–2050 sobre un mapa y circunstancias locales; validado con la NASA | [eclipses-solares.md](documentacion/eclipses-solares.md) |
 | [**Misiones espaciales**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/misiones.html) | Voyager 1 y 2, Pioneer 10 y 11, Galileo, Cassini, New Horizons, Juno, James Webb y más: se elige una misión y se recorre su trayectoria real con fechas y acercamientos | [misiones.md](documentacion/misiones.md) |
+| [**Cinturón de asteroides**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/asteroides.html) | 1 674 asteroides (cinturón principal, troyanos, Hildas y cercanos a la Tierra) con elementos del JPL; aproximación con error medido | [asteroides.md](documentacion/asteroides.md) |
 
 ![Sistema Solar a escala](img/sistema-solar.svg)
 
