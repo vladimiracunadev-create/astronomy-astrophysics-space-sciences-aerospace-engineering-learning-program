@@ -272,6 +272,8 @@ export async function iniciar(cfg) {
       const el = elementos(rel, v, PLANETAS[pid].gm);
       out.push(["a, e, i osculadores", `${fmt(el.a)} km · ${fmt(el.e, 4)} · ${fmt(el.i, 2)}°`]);
       out.push(["Periodo osculador", `${fmt(el.periodo_d, 3)} d`]);
+      const hv = [rel[1] * v[2] - rel[2] * v[1], rel[2] * v[0] - rel[0] * v[2], rel[0] * v[1] - rel[1] * v[0]];
+      out.push(["Sentido de la órbita", dot(hv, central.base ? central.base.z : [0, 0, 1]) >= 0 ? "directo (como rota el planeta)" : "retrógrado"]);
       const lon = (Math.atan2(rel[1], rel[0]) / RAD + 360) % 360, lat = Math.asin(rel[2] / d) / RAD;
       out.push(["Long./lat. eclíptica J2000", `${fmt(lon, 2)}° · ${fmt(lat, 2)}°`]);
       const s = [solObj.pos[0] - p[0], solObj.pos[1] - p[1], solObj.pos[2] - p[2]];
