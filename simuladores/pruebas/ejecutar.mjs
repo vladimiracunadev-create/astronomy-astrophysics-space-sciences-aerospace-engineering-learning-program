@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
-import { jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
+import { jdUtcDesdeTdb, jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
 import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM, longitudSolar } from "../motor/cuerpos.js";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
@@ -99,6 +99,23 @@ if (sistemas.sol) {
   const v1 = ls(j0), v2 = ls(j0 + 10);
   afirmar(dif(v2 - v1, 5) < 2.5, `Ls crece ${((v2 - v1 + 360) % 360).toFixed(2)}° en 10 d`);
   console.log(`Marte Ls: ${n} perihelios, peor desvío de 251°: ${peor.toFixed(2)}°`);
+}
+
+// 5c. Estaciones de los gigantes: la latitud subsolar sale de la posición del Sol y del polo IAU
+if (sistemas.sol) {
+  const lat = (id, jd) => { const r = sistemas.sol.cuerpo(id).pos(jd); const d = Math.hypot(...r); const z = baseDelCuerpo(PLANETAS[id].polo, jd).z; return Math.asin(-(r[0] * z[0] + r[1] * z[1] + r[2] * z[2]) / d) * 180 / Math.PI; };
+  const j0 = jdTdbDesdeUtc(JD_UTC_INICIO), anio = (jd) => 2027 + (jd - j0) / 365.25;
+  // Urano: latitud subsolar máxima = 180° - 97,77° = 82,2°. Desde el equinoccio de 2007-12 el Sol tarda ~22,8 años en alcanzar el solsticio
+  // (parte del afelio, donde el planeta va más lento): hacia 2030
+  let mejor = -99, tmax = 0;
+  for (let jd = j0; jd < j0 + 8766; jd += 5) { const l = lat("799", jd); if (l > mejor) { mejor = l; tmax = jd; } }
+  afirmar(Math.abs(mejor - 82.2) < 0.7, `latitud subsolar máxima de Urano ${mejor.toFixed(2)}°`);
+  afirmar(anio(tmax) > 2029.5 && anio(tmax) < 2031.0, `solsticio de Urano en ${anio(tmax).toFixed(2)}`);
+  // Saturno: el Sol cruza el plano de los anillos hacia 2039 (equinoccio)
+  let cruce = null;
+  for (let jd = j0; jd < j0 + 8766; jd += 1) { const a = lat("699", jd), b = lat("699", jd + 1); if (a * b < 0) { cruce = jd; break; } }
+  afirmar(cruce !== null && anio(cruce) > 2038.5 && anio(cruce) < 2040.0, `equinoccio de Saturno en ${cruce ? anio(cruce).toFixed(2) : "ninguno"}`);
+  console.log(`Urano: latitud subsolar máx ${mejor.toFixed(2)}° en ${anio(tmax).toFixed(2)}; Saturno: el Sol cruza el plano de los anillos en ${cruce ? formatoUtc(jdUtcDesdeTdb(cruce), false) : "-"}`);
 }
 
 // 6. Eclipses (Sol/Luna) contra el catálogo de la NASA
