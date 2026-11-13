@@ -1,6 +1,6 @@
 # Simulador de Urano y sus lunas
 
-[▶ Abrir el simulador](../urano.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/urano.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
 
 ![Esquema a escala del sistema de Urano con sus 28 lunas](../img/urano.svg)
 
@@ -48,4 +48,4 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); unidades: km y día
 
 ## Archivos
 
-[`urano.html`](../urano.html) · [`paginas/urano.js`](../paginas/urano.js) · [`datos/urano.json`](../datos/urano.json) · [`datos/urano.bin`](../datos/urano.bin)
+[`urano.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/urano.html) · [`paginas/urano.js`](../paginas/urano.js) · [`datos/urano.json`](../datos/urano.json) · [`datos/urano.bin`](../datos/urano.bin)

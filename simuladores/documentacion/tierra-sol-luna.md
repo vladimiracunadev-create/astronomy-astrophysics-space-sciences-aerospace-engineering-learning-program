@@ -1,6 +1,6 @@
 # Simulador Tierra · Sol · Luna
 
-[▶ Abrir el simulador](../tierra-sol-luna.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Fuentes y modelos](FUENTES_Y_MODELOS.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/tierra-sol-luna.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Fuentes y modelos](FUENTES_Y_MODELOS.md)
 
 ![Esquema a escala del sistema Tierra–Luna con la dirección del Sol](../img/tierra.svg)
 
@@ -73,6 +73,6 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); unidades: km y día
 
 ## Archivos
 
-- Página: [`tierra-sol-luna.html`](../tierra-sol-luna.html) · lógica específica: [`paginas/tierra-sol-luna.js`](../paginas/tierra-sol-luna.js)
+- Página: [`tierra-sol-luna.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/tierra-sol-luna.html) · lógica específica: [`paginas/tierra-sol-luna.js`](../paginas/tierra-sol-luna.js)
 - Motor común: [`motor/`](../motor/) · datos: [`datos/sol.*`](../datos/) y [`datos/tierra.*`](../datos/)
 - Pruebas: [`pruebas/ejecutar.mjs`](../pruebas/ejecutar.mjs)

@@ -1,6 +1,6 @@
 # Simulador del Sistema Solar
 
-[▶ Abrir el simulador](../sistema-solar.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/sistema-solar.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
 
 ![Esquema a escala del Sistema Solar: planetas interiores y sistema completo](../img/sistema-solar.svg)
 
@@ -47,4 +47,4 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); centro: el Sol; uni
 
 ## Archivos
 
-[`sistema-solar.html`](../sistema-solar.html) · [`paginas/sistema-solar.js`](../paginas/sistema-solar.js) · [`datos/sol.json`](../datos/sol.json) · [`datos/sol.bin`](../datos/sol.bin) · [`motor/astronomia.js`](../motor/astronomia.js)
+[`sistema-solar.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/sistema-solar.html) · [`paginas/sistema-solar.js`](../paginas/sistema-solar.js) · [`datos/sol.json`](../datos/sol.json) · [`datos/sol.bin`](../datos/sol.bin) · [`motor/astronomia.js`](../motor/astronomia.js)

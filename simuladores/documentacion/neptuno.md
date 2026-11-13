@@ -1,6 +1,6 @@
 # Simulador de Neptuno y sus lunas
 
-[▶ Abrir el simulador](../neptuno.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/neptuno.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
 
 ![Esquema a escala del sistema de Neptuno con sus 16 lunas](../img/neptuno.svg)
 
@@ -49,4 +49,4 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); unidades: km y día
 
 ## Archivos
 
-[`neptuno.html`](../neptuno.html) · [`paginas/neptuno.js`](../paginas/neptuno.js) · [`datos/neptuno.json`](../datos/neptuno.json) · [`datos/neptuno.bin`](../datos/neptuno.bin)
+[`neptuno.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/neptuno.html) · [`paginas/neptuno.js`](../paginas/neptuno.js) · [`datos/neptuno.json`](../datos/neptuno.json) · [`datos/neptuno.bin`](../datos/neptuno.bin)

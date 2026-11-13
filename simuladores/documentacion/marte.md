@@ -1,6 +1,6 @@
 # Simulador de Marte y sus dos lunas
 
-[▶ Abrir el simulador](../marte.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/marte.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
 
 ![Esquema a escala del sistema de Marte: Fobos y Deimos](../img/marte.svg)
 
@@ -44,4 +44,4 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); unidades: km y día
 
 ## Archivos
 
-[`marte.html`](../marte.html) · [`paginas/marte.js`](../paginas/marte.js) · [`datos/marte.json`](../datos/marte.json) · [`datos/marte.bin`](../datos/marte.bin)
+[`marte.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/marte.html) · [`paginas/marte.js`](../paginas/marte.js) · [`datos/marte.json`](../datos/marte.json) · [`datos/marte.bin`](../datos/marte.bin)

@@ -13,6 +13,8 @@ Los **simuladores** (`simuladores/`) son material interactivo de apoyo: dibujan 
 7. **Autónomo y accesible.** Sin dependencias, CDN ni llamadas a internet salvo la descarga de sus propios datos; funciona en GitHub Pages; controles con teclado, etiquetas, contraste suficiente y sin movimiento automático al abrir.
 8. **Documentado.** Cada simulador tiene su página en `simuladores/documentacion/` (qué muestra, datos que calcula, validación, tolerancias, archivos) y una figura SVG a escala **generada desde los datos**.
 
+9. **Dos tipos de enlaces, cada uno a su destino.** Para *usar* un simulador, los enlaces apuntan a la **página HTML funcional en GitHub Pages** (URL absoluta; un `.html` relativo mostraría el código fuente en GitHub). Para *entender* un simulador, el README y las páginas hacen enlaces relativos a los **`.md` explicativos** de `simuladores/documentacion/`. La validación rechaza `.md` que enlacen a un `.html` relativo.
+
 ## Estructura
 
 | Ruta | Contenido |

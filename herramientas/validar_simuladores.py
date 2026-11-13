@@ -114,6 +114,9 @@ def documentacion() -> None:
             u = m.group(1)
             if re.match(r"(https?:|mailto:)", u):
                 continue
+            if u.split("#")[0].endswith(".html"):
+                err(f"{f.relative_to(RAIZ)}: enlace relativo a .html ({u}); use la URL de GitHub Pages para la página funcional")
+                continue
             if not (f.parent / u.split("#")[0]).resolve().exists():
                 err(f"{f.relative_to(RAIZ)}: enlace roto {u}")
 

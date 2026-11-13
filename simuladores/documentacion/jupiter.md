@@ -1,6 +1,6 @@
 # Simulador de Júpiter y sus lunas
 
-[▶ Abrir el simulador](../jupiter.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/jupiter.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
 
 ![Esquema a escala del sistema de Júpiter con sus 115 lunas](../img/jupiter.svg)
 
@@ -49,4 +49,4 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); unidades: km y día
 
 ## Archivos
 
-[`jupiter.html`](../jupiter.html) · [`paginas/jupiter.js`](../paginas/jupiter.js) · [`datos/jupiter.json`](../datos/jupiter.json) · [`datos/jupiter.bin`](../datos/jupiter.bin)
+[`jupiter.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/jupiter.html) · [`paginas/jupiter.js`](../paginas/jupiter.js) · [`datos/jupiter.json`](../datos/jupiter.json) · [`datos/jupiter.bin`](../datos/jupiter.bin)

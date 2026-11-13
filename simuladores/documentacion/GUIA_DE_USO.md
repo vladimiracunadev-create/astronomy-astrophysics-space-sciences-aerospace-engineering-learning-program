@@ -31,7 +31,7 @@ Radio; distancia al Sol (UA y tiempo luz); distancia al planeta (km y radios pla
 
 ## Enlaces compartibles
 
-La dirección se actualiza con `#o=<id>&f=<fecha UTC>`. Por ejemplo, [el eclipse total del 2 de agosto de 2027](../tierra-sol-luna.html#o=301&f=2027-08-02T10:07).
+La dirección se actualiza con `#o=<id>&f=<fecha UTC>`. Por ejemplo, [el eclipse total del 2 de agosto de 2027](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/tierra-sol-luna.html#o=301&f=2027-08-02T10:07).
 
 ## Accesibilidad
 

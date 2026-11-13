@@ -1,6 +1,6 @@
 # Simulador de Saturno y sus lunas
 
-[▶ Abrir el simulador](../saturno.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
+[▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/saturno.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Tabla de precisión](TABLA_DE_PRECISION.md)
 
 ![Esquema a escala del sistema de Saturno con sus 291 lunas](../img/saturno.svg)
 
@@ -63,4 +63,4 @@ Sistema de referencia: eclíptica y equinoccio J2000 (ICRF); unidades: km y día
 
 ## Archivos
 
-[`saturno.html`](../saturno.html) · [`paginas/saturno.js`](../paginas/saturno.js) · [`datos/saturno.json`](../datos/saturno.json) · [`datos/saturno.bin`](../datos/saturno.bin)
+[`saturno.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/saturno.html) · [`paginas/saturno.js`](../paginas/saturno.js) · [`datos/saturno.json`](../datos/saturno.json) · [`datos/saturno.bin`](../datos/saturno.bin)
