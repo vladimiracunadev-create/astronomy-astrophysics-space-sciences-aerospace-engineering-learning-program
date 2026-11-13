@@ -122,7 +122,7 @@ def trazar_orbita(c, jd0: float, cx, cy, km_px, clip) -> str | None:
     return "M" + "L".join(f"{f1(x)} {f1(y)}" for x, y in pts)
 
 
-def panel(sis, pid, centro, R_km, lado, jd0, nombre_panel, rotular, solo_regulares=None):
+def panel(sis, pid, centro, R_km, lado, jd0, nombre_panel, rotular, solo_regulares=None, orbitas=True):
     """Dibuja un panel cuadrado `lado` px con centro en `centro` y radio `R_km`."""
     cx, cy = centro
     km_px = R_km / (lado / 2 - 12)
@@ -142,7 +142,7 @@ def panel(sis, pid, centro, R_km, lado, jd0, nombre_panel, rotular, solo_regular
             continue
         pts.append((c, p))
     for c, p in pts:
-        o = trazar_orbita(c, jd0, cx, cy, km_px, None)
+        o = trazar_orbita(c, jd0, cx, cy, km_px, None) if orbitas else None
         if o and (c.meta.get("a_km") or 0) / km_px > 6:
             out.append(f'<path d="{o}" fill="none" stroke="#7d93c0" stroke-opacity="{0.55 if c.meta.get("principal") else 0.25}" stroke-width="0.8"/>')
     ocupado = []
@@ -179,7 +179,7 @@ def fig_sistema(clave: str) -> str:
     L = abrir(titulo, f"Esquema a escala de {titulo} el {formato_fecha(JD_UTC_2027)}: {len(todas)} lunas con efemérides oficiales de JPL.")
     L += encabezado(titulo, f"{len(todas)} lunas con efemérides oficiales · época {formato_fecha(JD_UTC_2027)}")
     p1, n1 = panel(sis, pid, (32 + lado / 2, 100 + lado / 2 + 8), R1, lado, jd0, f"Panel 1 · {desc1} (radio {R1 / 1e3:,.0f} mil km)".replace(",", " "), 14)
-    p2, n2 = panel(sis, pid, (W - 32 - lado / 2, 100 + lado / 2 + 8), R2, lado, jd0, f"Panel 2 · todas las lunas ({n_ef} visibles)", 0)
+    p2, n2 = panel(sis, pid, (W - 32 - lado / 2, 100 + lado / 2 + 8), R2, lado, jd0, f"Panel 2 · todas las lunas ({n_ef} visibles)", 0, orbitas=False)
     L += p1 + p2
     L.append(texto(W / 2, 100 + lado + 4 + 20, "El planeta, sus anillos y las lunas están dibujados con su tamaño real en la misma escala del panel (las lunas pequeñas se marcan con puntos de 3 px).", 11, SUAVE, "middle"))
     L.append("</svg>")

@@ -184,6 +184,30 @@ export async function iniciar(cfg) {
   const planetas = objetos.filter((o) => o.tipo === "planeta" || o.tipo === "planeta enano");
   const geo = cfg.eclipses ? crearGeometria(sol, sis) : null;
 
+  // Fracción de la luna dentro del cono de umbra del planeta. p: posición de la luna respecto del planeta; h: posición heliocéntrica del planeta.
+  function sombra(p, h, rm) {
+    const dS = nrm(h), s = [-h[0] / dS, -h[1] / dS, -h[2] / dS];
+    const x = -dot(p, s);
+    if (x <= 0) return 0;
+    const Rp = PLANETAS[pid].radio;
+    const q = nrm([p[0] + s[0] * x, p[1] + s[1] * x, p[2] + s[2] * x]);
+    const ru = Rp - x * ((SOL.radio - Rp) / dS);
+    return ru > 0 ? Math.max(0, Math.min(1, (ru + rm - q) / (2 * Math.max(rm, 1)))) : 0;
+  }
+  /** Primer eclipse (por la sombra del planeta) posterior a `jd`: [inicio, fin] en JD TDB, o null. */
+  function proximoEclipse(o, jd) {
+    const P = o.meta.periodo_d, hor = Math.min(3 * P, 60), dt = Math.max(P / 300, 1e-3);
+    const t = o.tabla, pp = [0, 0, 0], hh = [0, 0, 0];
+    const f = (x) => sombra(t.pos(x, pp), sol.pos(pid, x, hh), o.radio || 0);
+    let ini = null;
+    for (let x = jd; x < Math.min(jd + hor, t.meta.jd_valido_fin); x += dt) {
+      const e = f(x) > 0.02;
+      if (ini === null && e) { let a = x - dt, b = x; for (let k = 0; k < 12; k++) { const m = (a + b) / 2; if (f(m) > 0.02) b = m; else a = m; } ini = b; }
+      else if (ini !== null && !e) { let a = x - dt, b = x; for (let k = 0; k < 12; k++) { const m = (a + b) / 2; if (f(m) > 0.02) a = m; else b = m; } return [ini, a]; }
+    }
+    return ini === null ? null : [ini, ini];
+  }
+
   // La Tierra gira según el ángulo de rotación terrestre (ERA, UT1 ~ UTC); W = ERA - (alfa0 + 90 grados).
   const baseTierra = (jdTdb) => {
     const pol = PLANETAS["399"].polo, T = (jdTdb - 2451545.0) / 36525;
@@ -213,13 +237,7 @@ export async function iniciar(cfg) {
         if (o.oculto) continue;
         o.tabla.pos(jd, o.pos);
         // eclipse por la sombra del planeta (cono de umbra)
-        const x = -dot(o.pos, s);
-        if (x > 0) {
-          const q = nrm([o.pos[0] + s[0] * x, o.pos[1] + s[1] * x, o.pos[2] + s[2] * x]);
-          const ru = Rp - x * ((SOL.radio - Rp) / dSol);
-          const rm = o.radio || 0;
-          o.eclipsado = ru > 0 ? Math.max(0, Math.min(1, (ru + rm - q) / (2 * Math.max(rm, 1)))) : 0;
-        } else o.eclipsado = 0;
+        o.eclipsado = sombra(o.pos, h, o.radio || 0);
         if (o.id === "301") { // rotación síncrona media (sin libración)
           const ex = [-o.pos[0], -o.pos[1], -o.pos[2]]; const n = nrm(ex);
           const X = [ex[0] / n, ex[1] / n, ex[2] / n];
@@ -261,6 +279,10 @@ export async function iniciar(cfg) {
       const fase = (1 + cosA) / 2; // iluminada vista desde el planeta
       out.push(["Iluminación vista desde el planeta", `${fmt(fase * 100, 1)} %`]);
       if (o.eclipsado > 0) out.push(["Estado", `en la sombra de ${PLANETAS[pid].nombre} (${fmt(o.eclipsado * 100, 0)} %)`]);
+      if (pid !== "399" && o.meta && o.meta.periodo_d < 60 && !o.oculto) {
+        const ev = proximoEclipse(o, jd);
+        out.push([`Próximo eclipse por ${PLANETAS[pid].nombre}`, ev ? `${formatoUtc(jdUtcDesdeTdb2(ev[0]), false)}${ev[1] > ev[0] ? ` · ${fmt((ev[1] - ev[0]) * 1440, 0)} min` : ""}` : `ninguno en ${fmt(Math.min(3 * o.meta.periodo_d, 60), 0)} d`]);
+      }
       if (o.meta) {
         out.push(["Error máx. de interpolación", `${fmt(o.meta.error_max_km, 2)} km (medido vs. JPL)`]);
         if (o.meta.jd_valido_fin < 2470150) out.push(["Cobertura JPL", `hasta ${formatoUtc(jdUtcDesdeTdb2(o.meta.jd_valido_fin), false)}`]);

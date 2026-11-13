@@ -253,7 +253,9 @@ export class Vista {
       if (o.orbitaMinPx && o.orbitaRadioKm) {
         const cen = o.centroOrbita || [0, 0, 0];
         const vz = this.proyectar(cen).z;
-        if (vz <= 0 || (o.orbitaRadioKm * this.F) / vz < o.orbitaMinPx) continue;
+        const rpx = (o.orbitaRadioKm * this.F) / vz;
+        const lejos = rpx > 1.4 * Math.max(this.W, this.H) && o !== this.seleccionado; // arcos casi rectos: sólo ensucian
+        if (vz <= 0 || rpx < o.orbitaMinPx || lejos) continue;
       }
       if (o.actualizarOrbita) o.actualizarOrbita();
       if (!o.orbita) continue;
