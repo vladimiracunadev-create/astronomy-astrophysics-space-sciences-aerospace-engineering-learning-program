@@ -3,7 +3,7 @@
 import { cargarSistema } from "./efemerides.js";
 import { Reloj, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, valorInputUtc, jdUtcDesdeInput, jdTdbDesdeUtc } from "./tiempo.js";
 import { PLANETAS, ANILLOS, UA_KM, baseDelCuerpo } from "./cuerpos.js";
-import { Observador, ecuatorialAEclipticoJ2000, salidasYPuestas } from "./cielo.js";
+import { Observador, ObservadorLuna, ecuatorialAEclipticoJ2000, salidasYPuestas } from "./cielo.js";
 import { barraNavegacion } from "./navegacion.js";
 
 const RAD = Math.PI / 180;
@@ -13,7 +13,7 @@ const unit = (a) => { const n = Math.hypot(a[0], a[1], a[2]) || 1; return [a[0] 
 const fmt = (x, d = 0) => x.toLocaleString("es-CL", { minimumFractionDigits: d, maximumFractionDigits: d });
 const VELOCIDADES = [["Tiempo real (1×)", 1], ["1 min / s", 60], ["10 min / s", 600], ["1 h / s", 3600], ["6 h / s", 21600], ["1 día / s", 86400], ["30 días / s", 2592000]];
 const PUNTOS = ["N", "E", "S", "O"];
-const NOMBRE_PLAN = { "399": "la Tierra", "499": "Marte", "599": "Júpiter", "699": "Saturno" };
+const NOMBRE_PLAN = { "399": "la Tierra", "499": "Marte", "599": "Júpiter", "699": "Saturno", "799": "Urano", "899": "Neptuno" };
 
 function colorEstrella(bv) {
   const t = Math.max(0, Math.min(1, (bv + 0.4) / 2.4));
@@ -74,7 +74,7 @@ export async function iniciarCielo(cfg) {
   }
   $("cargando").remove();
 
-  const obs = new Observador({ id: cfg.id, sol, sis });
+  const obs = cfg.luna ? new ObservadorLuna({ idPlaneta: cfg.id, idLuna: cfg.luna, sol, sis }) : new Observador({ id: cfg.id, sol, sis });
   const est = cielo.estrellas.map(([ra, de, mag, bv], i) => ({ v: ecuatorialAEclipticoJ2000(ra, de), mag, rgb: colorEstrella(bv), nombre: cielo.nombres[i] || null, ra, de, pm: cielo.pm_mas_ano[i] }));
   let anioEst = null;
   /** Aplica el movimiento propio de Hipparcos desde J2000 hasta el año `anio` (se recalcula si cambia más de ~3 días). */
@@ -85,7 +85,7 @@ export async function iniciarCielo(cfg) {
   };
   const figuras = cielo.figuras.map((f) => ({ id: f.id, nombre: cielo.constelaciones[f.id] || f.id, lineas: f.lineas.map((l) => l.map(([ra, de]) => ecuatorialAEclipticoJ2000(ra, de))) }));
   const reloj = new Reloj(jdUtcDesdeInput(cfg.fechaInicial));
-  reloj.velocidad = 60;
+  reloj.velocidad = cfg.velocidad || 60;
   const vista = { az: cfg.vista.az * RAD, alt: cfg.vista.alt * RAD, fov: cfg.vista.fov * RAD };
   const lugares = cfg.lugares;
   $("sLugar").innerHTML = lugares.map((l, i) => `<option value="${i}">${l[0]}</option>`).join("");
@@ -94,7 +94,7 @@ export async function iniciarCielo(cfg) {
   $("sLugar").onchange = () => { const l = lugares[+$("sLugar").value]; fijarLugar(l[1], l[2]); };
   const leerLatLon = () => { const la = Math.max(-90, Math.min(90, +$("iLat").value)), lo = +$("iLon").value; obs.lugar(la, lo); };
   $("iLat").onchange = leerLatLon; $("iLon").onchange = leerLatLon;
-  $("sVel").innerHTML = VELOCIDADES.map(([t, v]) => `<option value="${v}">${t}</option>`).join(""); $("sVel").value = "60"; $("sPaso").value = "3600";
+  $("sVel").innerHTML = VELOCIDADES.map(([t, v]) => `<option value="${v}">${t}</option>`).join(""); $("sVel").value = String(cfg.velocidad || 60); $("sPaso").value = "3600";
   $("sVel").onchange = () => { reloj.velocidad = +$("sVel").value; };
   const play = () => { reloj.activo = !reloj.activo; $("bPlay").textContent = reloj.activo ? "⏸" : "▶"; $("bPlay").setAttribute("aria-label", reloj.activo ? "Pausar" : "Reproducir"); };
   $("bPlay").onclick = play;
@@ -305,7 +305,7 @@ export async function iniciarCielo(cfg) {
     $("estado").innerHTML = html + "</dl>";
     const sobre = cuerpos.filter((c) => c.alt > 0 && c.id !== "10" && (c.mag < 9 || c.tipo === "planeta")).sort((a, b) => a.mag - b.mag);
     $("lista").innerHTML = sobre.map((c) => `<button data-id="${c.id}"><span>${c.nombre}</span><small>${fmt(c.alt / RAD, 0)}° · mag ${fmt(c.mag, 1)}</small></button>`).join("") || "<div class='aviso' style='padding:8px'>Ningún astro de la lista sobre el horizonte.</div>";
-    $("meta").innerHTML = `<p>Marco: eclíptica J2000 de las efemérides; horizonte local por la orientación IAU de ${NOMBRE_PLAN[cfg.id]} (${cfg.id === "399" ? "ángulo de rotación terrestre ERA" : "polo y meridiano IAU sin términos periódicos"}). Planetas con corrección de tiempo luz; sin aberración ni paralaje estelar; estrellas con el movimiento propio de Hipparcos aplicado desde J2000. ${cfg.nota}</p>`;
+    $("meta").innerHTML = `<p>Marco: eclíptica J2000 de las efemérides; ${cfg.luna ? `horizonte local sobre ${obs.nombreLuna} en rotación síncrona (cara fija hacia ${NOMBRE_PLAN[cfg.id]}; ejes: x hacia el planeta, z normal a la órbita; esfera de radio ${fmt(obs.radioLuna, 1)} km).` : `horizonte local por la orientación IAU de ${NOMBRE_PLAN[cfg.id]} (${cfg.id === "399" ? "ángulo de rotación terrestre ERA" : "polo y meridiano IAU sin términos periódicos"}).`} Planetas con corrección de tiempo luz; sin aberración ni paralaje estelar; estrellas con el movimiento propio de Hipparcos aplicado desde J2000. ${cfg.nota}</p>`;
   }
   $("lista").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; const c = cuerpos.find((x) => x.id === b.dataset.id); if (c) { seleccionar(c); vista.az = c.az; vista.alt = Math.max(3 * RAD, c.alt); } });
   seleccionar(cuerpos.find((c) => c.id === "10") || null);
@@ -322,6 +322,7 @@ export async function iniciarCielo(cfg) {
     requestAnimationFrame(cuadro);
   }
   reloj.fijar(reloj.jdUtc); mirar(vista.az / RAD, vista.alt / RAD);
+  if (cfg.mirarPlaneta) { obs.actualizar(reloj.jdTdb, reloj.jdUtc); const hp = obs.cuerpos().find((c) => c.anfitrion); if (hp) { mirar(hp.az / RAD, Math.max(3, hp.alt / RAD)); vista.fov = (cfg.vista.fov || 90) * RAD; } }
   requestAnimationFrame(cuadro);
   window.__cielo = { obs, reloj, vista, sol, sis, est, get cuerpos() { return cuerpos; } };
 }

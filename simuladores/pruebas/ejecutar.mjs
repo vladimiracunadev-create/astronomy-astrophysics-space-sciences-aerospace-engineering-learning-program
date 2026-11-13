@@ -9,7 +9,7 @@ import { crearAstronomia } from "../motor/astronomia.js";
 import { crearFranja } from "../motor/franja.js";
 import { hitosDeMision, MISIONES } from "../motor/misiones.js";
 import { posicion as posAst } from "../motor/asteroides.js";
-import { Observador, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
+import { Observador, ObservadorLuna, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { SOL, LUNA } from "../motor/cuerpos.js";
 import { lambert, propagar, evaluar, porkchop, elementosTransferencia, deltaVOrbita } from "../motor/trayectoria.js";
 import { jdUtcDesdeTdb, jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
@@ -246,6 +246,20 @@ if (sistemas.sol && sistemas.jupiter) {
   o.lugar(0, 0); o.actualizar(jd, JD_UTC_INICIO);
   const io = o.cuerpos().find((x) => x.id === "501"); const grados = io.tam * 180 / Math.PI;
   afirmar(grados > 0.25 && grados < 0.6, `Ío visto desde las nubes de Júpiter: ${grados.toFixed(2)}° (esperado ≈ 0,3–0,5°)`);
+}
+
+// 8b. Cielo desde las lunas: el planeta anfitrión (rotación síncrona) y el Sol
+for (const [pid, sid, lid, nom, esperado] of [["599", "jupiter", "502", "Júpiter desde Europa", 12.2], ["799", "urano", "703", "Urano desde Titania", 6.7], ["899", "neptuno", "801", "Neptuno desde Tritón", 8.0]]) {
+  if (!(sistemas.sol && sistemas[sid])) continue;
+  const o = new ObservadorLuna({ idPlaneta: pid, idLuna: lid, sol: sistemas.sol, sis: sistemas[sid] }), jd0 = jdTdbDesdeUtc(JD_UTC_INICIO);
+  o.lugar(0, 0); o.actualizar(jd0, JD_UTC_INICIO);
+  const h = o.cuerpos().find((x) => x.anfitrion);
+  afirmar(!!h, `${nom}: aparece el planeta anfitrión`);
+  if (h) { cerca(h.tam * 180 / Math.PI, esperado, 0.5, `diámetro angular de ${nom} [°]`); cerca(h.alt * 180 / Math.PI, 90, 1, `${nom}: en el cénit del punto subplanetario [°]`);
+    // rotación síncrona: en cualquier otro día el planeta sigue casi en el mismo lugar del cielo
+    const jd1 = jd0 + 3.3; o.actualizar(jd1, jd1 - (jd0 - JD_UTC_INICIO) * 0 - (jd0 - JD_UTC_INICIO));
+    const h2 = o.cuerpos().find((x) => x.anfitrion), dalt = Math.abs(h2.alt - h.alt) * 180 / Math.PI;
+    afirmar(dalt < 12, `${nom}: casi fijo en el cielo (libración ${dalt.toFixed(1)}°)`); }
 }
 
 // 9. Trayectorias: problema de Lambert, propagación y ventanas Tierra–Marte/Júpiter/Venus

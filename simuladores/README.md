@@ -27,6 +27,7 @@ Los enlaces a los simuladores abren la **página funcional** en GitHub Pages; lo
 | [**Cielo desde Marte**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-marte.html) | Fobos y Deimos cruzando el cielo, el Sol de 19′ y la Tierra como una estrella | [cielo-marte.md](documentacion/cielo-marte.md) |
 | [**Cielo desde Júpiter**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-jupiter.html) | Las lunas galileanas como discos desde la cima de las nubes | [cielo-jupiter.md](documentacion/cielo-jupiter.md) |
 | [**Cielo desde Saturno**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-saturno.html) | Los anillos como un arco inmenso, Titán y las demás lunas | [cielo-saturno.md](documentacion/cielo-saturno.md) |
+| [**Cielo desde Europa**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-europa.html) | Júpiter de 12° fijo en el cielo, con fases, y las lunas galileanas | [cielo-europa.md](documentacion/cielo-europa.md) |
 
 ## Trayectorias, eclipses y misiones
 

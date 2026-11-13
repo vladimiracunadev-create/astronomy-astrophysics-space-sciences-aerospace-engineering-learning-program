@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { sistemaDesdeBytes } from "../motor/efemerides.js";
-import { Observador, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
+import { Observador, ObservadorLuna, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../motor/tiempo.js";
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
 import { crearGeometria } from "../motor/eclipses.js";
@@ -25,10 +25,13 @@ const FIGURAS = [
   { archivo: "cielo-marte", id: "499", sistema: "marte", titulo: "Cielo desde Marte", lugar: "Cráter Jezero (18,44° N, 77,45° E)", lat: 18.44, lon: 77.45, fecha: "2027-03-21T13:00", fondo: "#02030a" },
   { archivo: "cielo-jupiter", id: "599", sistema: "jupiter", titulo: "Cielo desde Júpiter", lugar: "Cima de las nubes, latitud 22° S", lat: -22, lon: 0, fecha: "2027-03-21T00:00", fondo: "#02030a" },
   { archivo: "cielo-saturno", id: "699", sistema: "saturno", titulo: "Cielo desde Saturno", lugar: "Cima de las nubes, latitud 30° N", lat: 30, lon: 0, fecha: "2027-03-21T00:00", fondo: "#02030a" },
+  { archivo: "cielo-europa", id: "599", luna: "502", sistema: "jupiter", titulo: "Cielo desde Europa", lugar: "Superficie de Europa, hemisferio que mira a Júpiter (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
+  { archivo: "cielo-titania", id: "799", luna: "703", sistema: "urano", titulo: "Cielo desde Titania", lugar: "Superficie de Titania, hemisferio que mira a Urano (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
+  { archivo: "cielo-triton", id: "899", luna: "801", sistema: "neptuno", titulo: "Cielo desde Tritón", lugar: "Superficie de Tritón, hemisferio que mira a Neptuno (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
 ];
 
 function figura(f, sol) {
-  const sis = cargar(f.sistema), obs = new Observador({ id: f.id, sol, sis });
+  const sis = cargar(f.sistema), obs = f.luna ? new ObservadorLuna({ idPlaneta: f.id, idLuna: f.luna, sol, sis }) : new Observador({ id: f.id, sol, sis });
   const jdU = jdUtcDesdeInput(f.fecha), jd = jdTdbDesdeUtc(jdU);
   obs.lugar(f.lat, f.lon); obs.actualizar(jd, jdU);
   const cx = 330, cy = 350, R = 285;
@@ -49,6 +52,7 @@ function figura(f, sol) {
   const cuerpos = obs.cuerpos(), vis = [];
   for (const c of cuerpos) { if (c.alt < 0) continue; const p = Pm(c.dir); if (!p) continue; vis.push(c);
     if (c.tipo === "sol") L.push(`<circle cx="${n1(p[0])}" cy="${n1(p[1])}" r="9" fill="#ffd45e"/>`);
+    else if (c.anfitrion) L.push(`<circle cx="${n1(p[0])}" cy="${n1(p[1])}" r="${n1(Math.max(4, c.tam * R / 4))}" fill="${c.color || "#ccc"}" fill-opacity="0.85"/>`);
     else if (c.tipo === "luna" && c.mag > 9) continue;
     else L.push(`<circle cx="${n1(p[0])}" cy="${n1(p[1])}" r="${Math.max(2.2, Math.min(6, 2.5 + (1 - c.mag) * 0.6)).toFixed(1)}" fill="${c.color || "#fff"}"/>`);
     L.push(`<text x="${n1(p[0] + 9)}" y="${n1(p[1] - 6)}" font-size="12" fill="#ffe9a8">${esc(c.nombre)}</text>`); }

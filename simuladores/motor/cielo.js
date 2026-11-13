@@ -162,3 +162,45 @@ export function salidasYPuestas(obs, fnVector, umbral, jd0Utc) {
   }
   return res;
 }
+
+/**
+ * Observador sobre la superficie de una luna en rotación síncrona (Europa, Titania, Tritón…): el planeta anfitrión queda fijo en el cielo
+ * (salvo libración) y el Sol sale y se pone una vez por órbita. Ejes de la luna: x hacia el planeta, z = normal a la órbita (sentido de
+ * la órbita = sentido de rotación), y = z × x (este). Longitud 0° = punto subplanetario. Superficie esférica de radio `radioLuna`.
+ */
+export class ObservadorLuna extends Observador {
+  constructor({ idPlaneta, idLuna, sol, sis }) {
+    super({ id: idPlaneta, sol, sis });
+    this.idLuna = String(idLuna);
+    this.meta = sis.cuerpo(this.idLuna).meta;
+    this.radioLuna = this.meta.radio_km || LUNA.radio;
+    this.nombreLuna = this.meta.nombre;
+  }
+  actualizar(jdTdb, jdUtc = jdUtcDesdeTdb(jdTdb)) {
+    this.jd = jdTdb;
+    this.base = this.baseEn(jdTdb, jdUtc);                       // orientación del PLANETA (para sus anillos)
+    this.centro = this.sol.pos(this.id, jdTdb);
+    const rel = this.sis.pos(this.idLuna, jdTdb), v = this.sis.cuerpo(this.idLuna).vel(jdTdb);
+    this.relLuna = rel;
+    const x = unit([-rel[0], -rel[1], -rel[2]]);                // hacia el planeta
+    let z = unit(cruz(rel, v));                                  // normal a la órbita (momento angular)
+    const k = dot(z, x); z = unit([z[0] - k * x[0], z[1] - k * x[1], z[2] - k * x[2]]);
+    const y = cruz(z, x);
+    const phi = this.lat * RAD, lam = this.lon * RAD, cp = Math.cos(phi), sp = Math.sin(phi);
+    const n = [cp * Math.cos(lam) * x[0] + cp * Math.sin(lam) * y[0] + sp * z[0], cp * Math.cos(lam) * x[1] + cp * Math.sin(lam) * y[1] + sp * z[1], cp * Math.cos(lam) * x[2] + cp * Math.sin(lam) * y[2] + sp * z[2]];
+    this.up = n;
+    this.rel = [rel[0] + n[0] * this.radioLuna, rel[1] + n[1] * this.radioLuna, rel[2] + n[2] * this.radioLuna];
+    this.este = unit(cruz(z, n)); this.norte = cruz(n, this.este);
+    this.pos = [this.centro[0] + this.rel[0], this.centro[1] + this.rel[1], this.centro[2] + this.rel[2]];
+  }
+  cuerpos() {
+    const lista = super.cuerpos().filter((c) => c.id !== this.idLuna);
+    const v = [-this.rel[0], -this.rel[1], -this.rel[2]], f = this.fis, d = norma(v);
+    const sP = [this.centro[0], this.centro[1], this.centro[2]];
+    const i = Math.acos(Math.max(-1, Math.min(1, dot(unit([-sP[0], -sP[1], -sP[2]]), unit([-v[0], -v[1], -v[2]])))));
+    const r = norma(sP) / UA_KM, delta = d / UA_KM, h = this.horizonte(v);
+    lista.push({ id: this.id, nombre: f.nombre + " (anfitrión)", vec: v, dir: unit(v), dist_km: d, ...h, tam: 2 * Math.asin(Math.min(1, f.radio / d)), radio: f.radio, tipo: "planeta", fase: (1 + Math.cos(i)) / 2, angFase: i,
+      mag: magnitud(this.id, r, delta, i, false, f.radio, ALBEDO[this.id] || 0.4), color: f.color, anfitrion: true });
+    return lista;
+  }
+}
