@@ -122,6 +122,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular la gravedad superficial de un cuerpo a partir de su masa y radio?
+- ¿Distingues roca ígnea, sedimentaria y metamórfica?
+- ¿Sabes leer un mapa con curvas de nivel y una escala?
+- ¿Puedes calcular edades relativas por conteo de cráteres?
+
+#### R05-M01 · Geodesia planetaria
+
+1. **Marcos de coordenadas planetarias** — [`B53-C05`](../programa/clases/B53/B53-C05-sistemas-de-coordenadas-lunares/CLASE.md), [`B53-C06`](../programa/clases/B53/B53-C06-geodesia-de-marte/CLASE.md)
+2. **Rotación y orientación de cuerpos** — [`B53-C21`](../programa/clases/B53/B53-C21-rotacion-y-orientacion-de-cuerpos-planetarios-polos-y-meridiano-origen/CLASE.md)
+3. **Geoides planetarios** — [`B53-C04`](../programa/clases/B53/B53-C04-geoides-y-elipsoides/CLASE.md)
+4. **Gravedad por armónicos** — [`B53-C03`](../programa/clases/B53/B53-C03-campo-gravitatorio-planetario/CLASE.md)
+5. **Medición de campo gravitatorio** — [`B53-C03`](../programa/clases/B53/B53-C03-campo-gravitatorio-planetario/CLASE.md), [`B74-C04`](../programa/clases/B74/B74-C04-doppler-de-navegacion/CLASE.md)
+6. **Altimetría láser** — [`B53-C07`](../programa/clases/B53/B53-C07-topografia-por-altimetria/CLASE.md)
+7. **Topografía radial** — [`B53-C07`](../programa/clases/B53/B53-C07-topografia-por-altimetria/CLASE.md), [`B53-C04`](../programa/clases/B53/B53-C04-geoides-y-elipsoides/CLASE.md)
+8. **Geodesia Doppler** — [`B74-C04`](../programa/clases/B74/B74-C04-doppler-de-navegacion/CLASE.md), [`B89-C15`](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md)
+9. **Geodesia satelital** — [`B57-C10`](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md), [`B53-C06`](../programa/clases/B53/B53-C06-geodesia-de-marte/CLASE.md)
+10. **Ajuste de sistemas de referencia** — [`B74-C07`](../programa/clases/B74/B74-C07-ajuste-por-minimos-cuadrados/CLASE.md), [`B13-C11`](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md), [`B53-C05`](../programa/clases/B53/B53-C05-sistemas-de-coordenadas-lunares/CLASE.md)
+
+✅ **Checkpoint R05-M01.** Sin mirar el material, explica cómo se relacionan «Marcos de coordenadas planetarias», «Altimetría láser» y «Ajuste de sistemas de referencia», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M02 · Geofísica de interiores
+
+1. **Diferenciación de interiores** — [`B52-C18`](../programa/clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md), [`B53-C01`](../programa/clases/B53/B53-C01-interior-de-planetas-rocosos/CLASE.md)
+2. **Densidad y momento de inercia** — [`B53-C01`](../programa/clases/B53/B53-C01-interior-de-planetas-rocosos/CLASE.md), [`B53-C03`](../programa/clases/B53/B53-C03-campo-gravitatorio-planetario/CLASE.md)
+3. **Sismología lunar** — [`B53-C02`](../programa/clases/B53/B53-C02-sismologia-planetaria/CLASE.md)
+4. **Sismología marciana** — [`B53-C02`](../programa/clases/B53/B53-C02-sismologia-planetaria/CLASE.md)
+5. **Convección del manto** — [`B65-C01`](../programa/clases/B65/B65-C01-conveccion-del-manto-y-evolucion-termica-de-interiores-planetarios/CLASE.md)
+6. **Dinamos planetarias** — [`B65-C02`](../programa/clases/B65/B65-C02-dinamos-planetarias-y-campos-magneticos-de-origen-interno/CLASE.md)
+7. **Campo magnético residual** — [`B65-C03`](../programa/clases/B65/B65-C03-magnetismo-cortical-remanente-y-anomalias-magneticas/CLASE.md)
+8. **Flujo térmico** — [`B65-C04`](../programa/clases/B65/B65-C04-flujo-termico-planetario-y-balance-termico-del-interior/CLASE.md)
+9. **Modelos de estructura interior** — [`B53-C01`](../programa/clases/B53/B53-C01-interior-de-planetas-rocosos/CLASE.md), [`B53-C02`](../programa/clases/B53/B53-C02-sismologia-planetaria/CLASE.md), [`B53-C03`](../programa/clases/B53/B53-C03-campo-gravitatorio-planetario/CLASE.md)
+10. **Validación con datos geofísicos** — [`B65-C05`](../programa/clases/B65/B65-C05-inversion-geofisica-conjunta-validacion-de-modelos-interiores/CLASE.md)
+
+✅ **Checkpoint R05-M02.** Sin mirar el material, explica cómo se relacionan «Diferenciación de interiores», «Dinamos planetarias» y «Validación con datos geofísicos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M03 · Geomorfología comparada
+
+1. **Morfología de cráteres** — [`B53-C08`](../programa/clases/B53/B53-C08-cartografia-de-crateres/CLASE.md), [`B53-C10`](../programa/clases/B53/B53-C10-geologia-de-impacto/CLASE.md)
+2. **Valles y canales** — [`B66-C01`](../programa/clases/B66/B66-C01-valles-y-canales-morfologia-y-origen-en-superficies-planetarias/CLASE.md)
+3. **Laderas y transporte** — [`B66-C02`](../programa/clases/B66/B66-C02-procesos-de-ladera-y-transporte-de-masa/CLASE.md)
+4. **Formas de origen glaciar** — [`B53-C13`](../programa/clases/B53/B53-C13-geomorfologia-de-hielos/CLASE.md)
+5. **Dunas y erosión eólica** — [`B66-C03`](../programa/clases/B66/B66-C03-procesos-eolicos-dunas-ripples-y-erosion-planetaria/CLASE.md)
+6. **Sistemas fluviales fósiles** — [`B66-C04`](../programa/clases/B66/B66-C04-redes-fluviales-fosiles-y-paleohidrologia-marciana/CLASE.md)
+7. **Depósitos sedimentarios** — [`B66-C05`](../programa/clases/B66/B66-C05-depositos-sedimentarios-y-sedimentologia-planetaria/CLASE.md)
+8. **Tectónica superficial** — [`B53-C12`](../programa/clases/B53/B53-C12-tectonica-planetaria/CLASE.md)
+9. **Estadística de formas geológicas** — [`B53-C08`](../programa/clases/B53/B53-C08-cartografia-de-crateres/CLASE.md), [`B12-C03`](../programa/clases/B12/B12-C03-distribuciones-de-probabilidad/CLASE.md)
+10. **Interpretación geomorfológica** — [`B53-C09`](../programa/clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md)
+
+✅ **Checkpoint R05-M03.** Sin mirar el material, explica cómo se relacionan «Morfología de cráteres», «Sistemas fluviales fósiles» y «Interpretación geomorfológica», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M04 · Geología de impactos
+
+1. **Física del impacto** — [`B53-C10`](../programa/clases/B53/B53-C10-geologia-de-impacto/CLASE.md), [`B58-C15`](../programa/clases/B58/B58-C15-modelos-de-impacto-planetario/CLASE.md)
+2. **Dinámica de eyección** — [`B61-C01`](../programa/clases/B61/B61-C01-dinamica-de-eyeccion-y-escalado-de-crateres/CLASE.md)
+3. **Cráteres simples** — [`B61-C02`](../programa/clases/B61/B61-C02-crateres-simples-morfologia-y-formacion/CLASE.md)
+4. **Cráteres complejos** — [`B61-C03`](../programa/clases/B61/B61-C03-crateres-complejos-colapso-picos-centrales-y-terrazas/CLASE.md)
+5. **Mantos de ejecta** — [`B61-C04`](../programa/clases/B61/B61-C04-mantos-de-ejecta-y-depositos-de-impacto/CLASE.md)
+6. **Fusión por impacto** — [`B61-C05`](../programa/clases/B61/B61-C05-fusion-por-impacto-y-metamorfismo-de-choque/CLASE.md)
+7. **Datación por conteo de cráteres** — [`B61-C06`](../programa/clases/B61/B61-C06-datacion-por-conteo-de-crateres-funciones-de-produccion-y-edades-de-modelo/CLASE.md)
+8. **Cuencas multianillo** — [`B61-C07`](../programa/clases/B61/B61-C07-cuencas-multianillo-y-grandes-impactos/CLASE.md)
+9. **Meteorización espacial** — [`B53-C22`](../programa/clases/B53/B53-C22-meteorizacion-espacial-micrometeoritos-viento-solar-y-maduracion-del-regolito/CLASE.md)
+10. **Cartografía de terreno de impacto** — [`B53-C08`](../programa/clases/B53/B53-C08-cartografia-de-crateres/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md), [`B53-C10`](../programa/clases/B53/B53-C10-geologia-de-impacto/CLASE.md)
+
+✅ **Checkpoint R05-M04.** Sin mirar el material, explica cómo se relacionan «Física del impacto», «Fusión por impacto» y «Cartografía de terreno de impacto», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M05 · Vulcanismo planetario
+
+1. **Magma y diferenciación** — [`B52-C18`](../programa/clases/B52/B52-C18-diferenciacion-planetaria/CLASE.md), [`B53-C11`](../programa/clases/B53/B53-C11-vulcanismo-extraterrestre/CLASE.md)
+2. **Volcanismo basáltico** — [`B70-C01`](../programa/clases/B70/B70-C01-volcanismo-basaltico-escudos-fisuras-y-llanuras-planetarias/CLASE.md)
+3. **Domos volcánicos** — [`B70-C02`](../programa/clases/B70/B70-C02-domos-volcanicos-y-vulcanismo-evolucionado/CLASE.md)
+4. **Calderas planetarias** — [`B70-C03`](../programa/clases/B70/B70-C03-calderas-planetarias-formacion-y-colapso/CLASE.md)
+5. **Vulcanismo marciano** — [`B70-C04`](../programa/clases/B70/B70-C04-vulcanismo-marciano-provincias-edades-y-evolucion/CLASE.md)
+6. **Actividad volcánica venusina** — [`B70-C05`](../programa/clases/B70/B70-C05-actividad-volcanica-venusina-llanuras-coronas-e-indicios-de-actividad-reciente/CLASE.md)
+7. **Criovulcanismo** — [`B70-C06`](../programa/clases/B70/B70-C06-criovulcanismo-lavas-heladas-y-emision-de-volatiles/CLASE.md)
+8. **Flujos y depósitos** — [`B70-C07`](../programa/clases/B70/B70-C07-flujos-de-lava-y-depositos-piroclasticos/CLASE.md)
+9. **Teledetección térmica volcánica** — [`B57-C18`](../programa/clases/B57/B57-C18-volcanismo-y-monitoreo/CLASE.md), [`B57-C01`](../programa/clases/B57/B57-C01-fundamentos-de-teledeteccion/CLASE.md)
+10. **Reconstrucción de historia eruptiva** — [`B53-C09`](../programa/clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md), [`B53-C11`](../programa/clases/B53/B53-C11-vulcanismo-extraterrestre/CLASE.md)
+
+✅ **Checkpoint R05-M05.** Sin mirar el material, explica cómo se relacionan «Magma y diferenciación», «Actividad volcánica venusina» y «Reconstrucción de historia eruptiva», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M06 · Criósferas y mundos helados
+
+1. **Hielos de agua y otros volátiles** — [`B55-C06`](../programa/clases/B55/B55-C06-hielos-astrofisicos/CLASE.md), [`B06-C19`](../programa/clases/B06/B06-C19-quimica-de-hielos-y-minerales/CLASE.md), [`B53-C13`](../programa/clases/B53/B53-C13-geomorfologia-de-hielos/CLASE.md)
+2. **Mecánica de hielo** — [`B53-C23`](../programa/clases/B53/B53-C23-mecanica-de-hielo-reologia-fracturas-y-deformacion/CLASE.md)
+3. **Fracturas de corteza helada** — [`B53-C14`](../programa/clases/B53/B53-C14-geologia-de-europa/CLASE.md), [`B53-C12`](../programa/clases/B53/B53-C12-tectonica-planetaria/CLASE.md)
+4. **Océanos subsuperficiales** — [`B55-C15`](../programa/clases/B55/B55-C15-quimica-de-oceanos-internos/CLASE.md), [`B56-C09`](../programa/clases/B56/B56-C09-oceanos-de-europa/CLASE.md), [`B56-C10`](../programa/clases/B56/B56-C10-oceanos-de-encelado/CLASE.md)
+5. **Mareas y calentamiento** — [`B65-C06`](../programa/clases/B65/B65-C06-calentamiento-por-marea-y-equilibrio-termico-en-satelites/CLASE.md)
+6. **Plumas de Encélado** — [`B53-C15`](../programa/clases/B53/B53-C15-geologia-de-encelado/CLASE.md), [`B56-C10`](../programa/clases/B56/B56-C10-oceanos-de-encelado/CLASE.md)
+7. **Geología de Europa** — [`B53-C14`](../programa/clases/B53/B53-C14-geologia-de-europa/CLASE.md)
+8. **Terrenos poligonales** — [`B53-C13`](../programa/clases/B53/B53-C13-geomorfologia-de-hielos/CLASE.md)
+9. **Radar de penetración de hielo** — [`B53-C24`](../programa/clases/B53/B53-C24-sondeo-radar-de-penetracion-de-hielo/CLASE.md)
+10. **Inferencias de habitabilidad** — [`B56-C09`](../programa/clases/B56/B56-C09-oceanos-de-europa/CLASE.md), [`B56-C10`](../programa/clases/B56/B56-C10-oceanos-de-encelado/CLASE.md), [`B56-C06`](../programa/clases/B56/B56-C06-agua-liquida-y-solventes-alternativos/CLASE.md)
+
+✅ **Checkpoint R05-M06.** Sin mirar el material, explica cómo se relacionan «Hielos de agua y otros volátiles», «Plumas de Encélado» y «Inferencias de habitabilidad», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M07 · Cartografía y estratigrafía planetaria
+
+1. **Cartografía orbital** — [`B53-C08`](../programa/clases/B53/B53-C08-cartografia-de-crateres/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md)
+2. **Modelos digitales de elevación** — [`B53-C07`](../programa/clases/B53/B53-C07-topografia-por-altimetria/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md)
+3. **Estratigrafía relativa** — [`B53-C09`](../programa/clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md)
+4. **Unidades geológicas** — [`B53-C09`](../programa/clases/B53/B53-C09-estratigrafia-planetaria/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md)
+5. **Análisis de lineamientos** — [`B53-C12`](../programa/clases/B53/B53-C12-tectonica-planetaria/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md)
+6. **Composición mineral multiespectral** — [`B53-C17`](../programa/clases/B53/B53-C17-mineralogia-espectral/CLASE.md), [`B57-C05`](../programa/clases/B57/B57-C05-imagenes-multiespectrales/CLASE.md)
+7. **Sistemas GIS** — [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md), [`B57-C19`](../programa/clases/B57/B57-C19-sig-y-analisis-de-riesgo/CLASE.md), [`B53-C20`](../programa/clases/B53/B53-C20-proyecto-sig-de-terreno-extraterrestre/CLASE.md)
+8. **Corrección geométrica** — [`B53-C25`](../programa/clases/B53/B53-C25-correccion-geometrica-y-ortorrectificacion-de-imagenes-planetarias/CLASE.md)
+9. **Mapas con incertidumbre** — [`B53-C19`](../programa/clases/B53/B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md)
+10. **Publicación de mapas geológicos** — [`B53-C26`](../programa/clases/B53/B53-C26-publicacion-de-mapas-geologicos-planetarios-estandares-y-leyendas/CLASE.md)
+
+✅ **Checkpoint R05-M07.** Sin mirar el material, explica cómo se relacionan «Cartografía orbital», «Composición mineral multiespectral» y «Publicación de mapas geológicos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R05-M08 · Muestras y resultados de misiones planetarias
+
+1. **Instrumentos de sondas planetarias** — [`B63-C01`](../programa/clases/B63/B63-C01-instrumentacion-de-sondas-y-rovers-planetarios/CLASE.md)
+2. **Muestreo superficial** — [`B63-C02`](../programa/clases/B63/B63-C02-muestreo-superficial-y-estrategias-de-recoleccion/CLASE.md)
+3. **Espectrómetros de rover** — [`B45-C14`](../programa/clases/B45/B45-C14-composicion-quimica-por-espectros/CLASE.md), [`B47-C08`](../programa/clases/B47/B47-C08-espectrometros-de-masas-orbitales/CLASE.md), [`B55-C10`](../programa/clases/B55/B55-C10-identificacion-de-moleculas-organicas/CLASE.md)
+4. **Análisis de meteoritos** — [`B55-C12`](../programa/clases/B55/B55-C12-geoquimica-de-meteoritos/CLASE.md), [`B06-C20`](../programa/clases/B06/B06-C20-analisis-quimico-introductorio-de-meteoritos/CLASE.md)
+5. **Cadenas de custodia** — [`B63-C03`](../programa/clases/B63/B63-C03-curaduria-y-cadena-de-custodia-de-muestras/CLASE.md)
+6. **Contaminación de muestras** — [`B55-C18`](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md), [`B56-C17`](../programa/clases/B56/B56-C17-control-de-contaminacion-biologica/CLASE.md)
+7. **Control de calidad de laboratorio** — [`B13-C14`](../programa/clases/B13/B13-C14-repetibilidad-y-reproducibilidad/CLASE.md), [`B13-C18`](../programa/clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md), [`B13-C20`](../programa/clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md)
+8. **Datos PDS** — [`B14-C21`](../programa/clases/B14/B14-C21-datos-de-misiones-planetarias-pds4-etiquetas-y-spice/CLASE.md)
+9. **Integración de mediciones** — [`B55-C19`](../programa/clases/B55/B55-C19-interpretacion-de-firmas-quimicas/CLASE.md), [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md), [`B13-C18`](../programa/clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md)
+10. **Redacción de reporte de misión** — [`B124-C19`](../programa/clases/B124/B124-C19-redaccion-de-propuesta-de-mision/CLASE.md), [`B12-C20`](../programa/clases/B12/B12-C20-informe-de-incertidumbre-de-una-mision/CLASE.md)
+
+✅ **Checkpoint R05-M08.** Sin mirar el material, explica cómo se relacionan «Instrumentos de sondas planetarias», «Contaminación de muestras» y «Redacción de reporte de misión», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Mapa geológico de un sitio de aterrizaje.** Con imágenes y topografía públicas de un cuerpo, produce un mapa geomorfológico y estratigráfico de un sitio candidato y propone una historia geológica con edades relativas.
+
+Entregables:
+
+- Mapa con leyenda y unidades definidas
+- Perfil estratigráfico con el orden de eventos
+- Conteo de cráteres con el método y su incertidumbre
+- Propuesta de tres hipótesis a contrastar con una misión
+
+Criterios de evaluación:
+
+- Las unidades se definen con criterios observables
+- Las edades relativas son coherentes con los contactos
+- Se citan los datos y sus resoluciones
+- Las hipótesis son falsables
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes cartografiar y datar unidades de un cuerpo planetario con datos públicos.
+- Puedes explicar procesos de impacto, vulcanismo y mundos helados con evidencia.
+- Puedes reconocer qué puede y qué no puede decir una muestra.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **análisis geológico de un cuerpo con datos abiertos**:

@@ -4,6 +4,17 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 > La versión de la publicación está en el archivo `VERSION` y en la etiqueta `vX.Y.Z` de GitHub. La carpeta `catalogo/estructura/` conserva su nombre histórico: contiene la estructura vigente (12 áreas, 133 bloques, 2.077 clases).
 
+## [Sin publicar]
+
+### Añadido
+
+- Las 24 guías de rol (`rutas/`) incluyen el **recorrido módulo por módulo**: diagnóstico de entrada, los 8 módulos con sus 10 temas y las clases exactas enlazadas (2.674 enlaces), un checkpoint por módulo, un proyecto final con entregables y criterios de evaluación y un criterio de salida. Se genera con `herramientas/generar_rutas_por_rol.py` a partir de la colocación de módulos y de `metadatos/rutas_evaluacion.json`.
+- `rutas/README.md` muestra el proyecto final de cada rol.
+
+### Cambiado
+
+- El aviso del validador de recorridos aclara que el mapa de módulos de las 24 rutas ya está completo en `catalogo/estructura/colocacion/`; el recorrido por fases de `metadatos/recorridos/` es una capa heredada.
+
 ## [0.1.2] — 2026-11-12 · talleres de misión
 
 ### Añadido

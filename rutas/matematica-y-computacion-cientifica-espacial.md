@@ -105,6 +105,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes resolver un sistema lineal y estimar el error numérico?
+- ¿Sabes aplicar el teorema de Bayes a un ejemplo concreto?
+- ¿Escribes código reproducible con control de versiones?
+- ¿Entiendes la complejidad de un algoritmo?
+
+#### R08-M01 · Algoritmos numéricos avanzados
+
+1. **Integración de alta precisión** — [`B11-C21`](../programa/clases/B11/B11-C21-integracion-numerica-de-alta-precision/CLASE.md)
+2. **Integradores simplécticos** — [`B11-C11`](../programa/clases/B11/B11-C11-metodos-simplecticos/CLASE.md)
+3. **Métodos implícitos** — [`B11-C22`](../programa/clases/B11/B11-C22-metodos-implicitos-y-sistemas-rigidos/CLASE.md)
+4. **Tolerancias adaptativas** — [`B11-C08`](../programa/clases/B11/B11-C08-integradores-de-paso-adaptativo/CLASE.md)
+5. **Resolución de sistemas lineales** — [`B10-C05`](../programa/clases/B10/B10-C05-sistemas-lineales-y-eliminacion/CLASE.md), [`B10-C10`](../programa/clases/B10/B10-C10-descomposiciones-matriciales/CLASE.md)
+6. **Optimización restringida** — [`B11-C23`](../programa/clases/B11/B11-C23-optimizacion-restringida-lagrange-kkt-y-sqp/CLASE.md)
+7. **Métodos espectrales** — [`B11-C24`](../programa/clases/B11/B11-C24-metodos-espectrales-avanzados-chebyshev-y-fourier/CLASE.md)
+8. **Errores de redondeo** — [`B11-C25`](../programa/clases/B11/B11-C25-aritmetica-de-punto-flotante-y-errores-de-redondeo/CLASE.md)
+9. **Benchmark de algoritmos** — [`B11-C26`](../programa/clases/B11/B11-C26-benchmark-de-algoritmos-numericos/CLASE.md)
+10. **Pruebas de convergencia** — [`B11-C19`](../programa/clases/B11/B11-C19-estimacion-de-error-y-convergencia/CLASE.md)
+
+✅ **Checkpoint R08-M01.** Sin mirar el material, explica cómo se relacionan «Integración de alta precisión», «Optimización restringida» y «Pruebas de convergencia», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M02 · Computación de alto rendimiento
+
+1. **Arquitecturas HPC** — [`B14-C16`](../programa/clases/B14/B14-C16-computacion-distribuida-y-hpc/CLASE.md)
+2. **Procesamiento multinúcleo** — [`B14-C13`](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md)
+3. **Ejecución por procesos** — [`B18-C01`](../programa/clases/B18/B18-C01-procesos-hilos-y-concurrencia/CLASE.md)
+4. **MPI conceptual** — [`B18-C02`](../programa/clases/B18/B18-C02-paso-de-mensajes-con-mpi/CLASE.md)
+5. **Programación GPU** — [`B14-C15`](../programa/clases/B14/B14-C15-calculo-en-gpu-y-limitaciones/CLASE.md)
+6. **Estructuras de memoria** — [`B18-C03`](../programa/clases/B18/B18-C03-jerarquia-y-estructuras-de-memoria/CLASE.md)
+7. **Vectorización** — [`B14-C14`](../programa/clases/B14/B14-C14-vectorizacion-y-rendimiento/CLASE.md)
+8. **Paralelismo de datos** — [`B14-C13`](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md)
+9. **Perfilado de rendimiento** — [`B18-C04`](../programa/clases/B18/B18-C04-perfilado-de-rendimiento/CLASE.md)
+10. **Experimentos de escalabilidad** — [`B18-C05`](../programa/clases/B18/B18-C05-experimentos-de-escalabilidad/CLASE.md)
+
+✅ **Checkpoint R08-M02.** Sin mirar el material, explica cómo se relacionan «Arquitecturas HPC», «Estructuras de memoria» y «Experimentos de escalabilidad», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M03 · Métodos para ecuaciones en derivadas parciales
+
+1. **Ecuación de calor** — [`B11-C13`](../programa/clases/B11/B11-C13-ecuaciones-en-derivadas-parciales/CLASE.md), [`B11-C14`](../programa/clases/B11/B11-C14-diferencias-finitas/CLASE.md)
+2. **Ecuación de onda** — [`B21-C02`](../programa/clases/B21/B21-C02-ecuacion-de-onda-esquemas-y-dispersion-numerica/CLASE.md)
+3. **Ecuaciones de Poisson** — [`B21-C03`](../programa/clases/B21/B21-C03-ecuacion-de-poisson-relajacion-y-multigrid/CLASE.md)
+4. **Ecuaciones de Navier-Stokes** — [`B21-C04`](../programa/clases/B21/B21-C04-ecuaciones-de-navier-stokes-y-dinamica-de-fluidos-computacional/CLASE.md)
+5. **Discretización espacial** — [`B11-C14`](../programa/clases/B11/B11-C14-diferencias-finitas/CLASE.md), [`B11-C15`](../programa/clases/B11/B11-C15-elementos-finitos-introductorios/CLASE.md)
+6. **Condiciones de contorno** — [`B11-C12`](../programa/clases/B11/B11-C12-problemas-de-frontera/CLASE.md)
+7. **Mallas regulares** — [`B11-C14`](../programa/clases/B11/B11-C14-diferencias-finitas/CLASE.md)
+8. **Mallas adaptativas** — [`B21-C05`](../programa/clases/B21/B21-C05-mallas-adaptativas-amr/CLASE.md)
+9. **Estabilidad CFL** — [`B11-C09`](../programa/clases/B11/B11-C09-analisis-de-estabilidad-numerica/CLASE.md)
+10. **Comparación de soluciones** — [`B11-C19`](../programa/clases/B11/B11-C19-estimacion-de-error-y-convergencia/CLASE.md)
+
+✅ **Checkpoint R08-M03.** Sin mirar el material, explica cómo se relacionan «Ecuación de calor», «Condiciones de contorno» y «Comparación de soluciones», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M04 · Problemas inversos astronómicos
+
+1. **Problemas directos e inversos** — [`B22-C01`](../programa/clases/B22/B22-C01-problemas-directos-e-inversos-y-mal-condicionamiento/CLASE.md)
+2. **Regularización de Tikhonov** — [`B22-C02`](../programa/clases/B22/B22-C02-regularizacion-de-tikhonov/CLASE.md)
+3. **Máxima verosimilitud** — [`B12-C07`](../programa/clases/B12/B12-C07-estimacion-de-parametros/CLASE.md)
+4. **Modelos de observación** — [`B74-C01`](../programa/clases/B74/B74-C01-modelos-de-observacion/CLASE.md)
+5. **Identificabilidad** — [`B22-C03`](../programa/clases/B22/B22-C03-identificabilidad-de-parametros/CLASE.md)
+6. **Reconstrucción tomográfica** — [`B15-C19`](../programa/clases/B15/B15-C19-reconstruccion-por-datos-incompletos/CLASE.md)
+7. **Inversión espectral** — [`B22-C04`](../programa/clases/B22/B22-C04-inversion-espectral/CLASE.md)
+8. **Inversión gravimétrica** — [`B53-C28`](../programa/clases/B53/B53-C28-inversion-gravimetrica-y-modelos-de-densidad/CLASE.md)
+9. **Cuantificación de incertidumbre** — [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md)
+10. **Pruebas con datos sintéticos** — [`B22-C05`](../programa/clases/B22/B22-C05-pruebas-de-inversion-con-datos-sinteticos/CLASE.md)
+
+✅ **Checkpoint R08-M04.** Sin mirar el material, explica cómo se relacionan «Problemas directos e inversos», «Reconstrucción tomográfica» y «Pruebas con datos sintéticos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M05 · Modelos bayesianos científicos
+
+1. **Regla de Bayes** — [`B12-C12`](../programa/clases/B12/B12-C12-inferencia-bayesiana/CLASE.md)
+2. **Priors físicos** — [`B19-C01`](../programa/clases/B19/B19-C01-priors-fisicamente-informados/CLASE.md)
+3. **Modelos jerárquicos** — [`B19-C02`](../programa/clases/B19/B19-C02-modelos-jerarquicos/CLASE.md)
+4. **MCMC** — [`B12-C13`](../programa/clases/B12/B12-C13-cadenas-de-markov-y-muestreo/CLASE.md)
+5. **Hamiltonian Monte Carlo conceptual** — [`B19-C03`](../programa/clases/B19/B19-C03-hamiltonian-monte-carlo-y-nuts/CLASE.md)
+6. **Diagnóstico de convergencia** — [`B19-C04`](../programa/clases/B19/B19-C04-diagnostico-de-convergencia-de-cadenas/CLASE.md)
+7. **Inferencia variacional** — [`B19-C05`](../programa/clases/B19/B19-C05-inferencia-variacional/CLASE.md)
+8. **Predicción posterior** — [`B19-C06`](../programa/clases/B19/B19-C06-distribucion-predictiva-posterior/CLASE.md)
+9. **Comparación de modelos** — [`B19-C07`](../programa/clases/B19/B19-C07-comparacion-de-modelos-bayesianos/CLASE.md)
+10. **Calibración probabilística** — [`B19-C08`](../programa/clases/B19/B19-C08-calibracion-probabilistica/CLASE.md)
+
+✅ **Checkpoint R08-M05.** Sin mirar el material, explica cómo se relacionan «Regla de Bayes», «Diagnóstico de convergencia» y «Calibración probabilística», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M06 · Aprendizaje automático científico
+
+1. **Ingeniería de características científicas** — [`B17-C01`](../programa/clases/B17/B17-C01-ingenieria-de-caracteristicas-cientificas/CLASE.md)
+2. **Aprendizaje supervisado** — [`B17-C02`](../programa/clases/B17/B17-C02-aprendizaje-supervisado/CLASE.md)
+3. **Regresión no lineal** — [`B12-C10`](../programa/clases/B12/B12-C10-regresion-lineal-y-no-lineal/CLASE.md)
+4. **Redes neuronales físicas PINN** — [`B17-C03`](../programa/clases/B17/B17-C03-redes-neuronales-informadas-por-la-fisica-pinn/CLASE.md)
+5. **Modelos sustitutos** — [`B17-C04`](../programa/clases/B17/B17-C04-modelos-sustitutos-surrogates/CLASE.md)
+6. **Detección de anomalías** — [`B17-C05`](../programa/clases/B17/B17-C05-deteccion-de-anomalias/CLASE.md)
+7. **Aprendizaje no supervisado** — [`B17-C06`](../programa/clases/B17/B17-C06-aprendizaje-no-supervisado/CLASE.md)
+8. **Validación fuera de distribución** — [`B17-C07`](../programa/clases/B17/B17-C07-validacion-fuera-de-distribucion/CLASE.md)
+9. **Interpretabilidad física** — [`B17-C08`](../programa/clases/B17/B17-C08-interpretabilidad-con-consistencia-fisica/CLASE.md)
+10. **Prevención de fuga de datos** — [`B17-C09`](../programa/clases/B17/B17-C09-prevencion-de-fuga-de-datos/CLASE.md)
+
+✅ **Checkpoint R08-M06.** Sin mirar el material, explica cómo se relacionan «Ingeniería de características científicas», «Detección de anomalías» y «Prevención de fuga de datos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M07 · Verificación y validación computacional
+
+1. **Pruebas unitarias numéricas** — [`B23-C01`](../programa/clases/B23/B23-C01-pruebas-unitarias-numericas-con-tolerancias/CLASE.md)
+2. **Pruebas de propiedades físicas** — [`B23-C02`](../programa/clases/B23/B23-C02-pruebas-de-propiedades-fisicas/CLASE.md)
+3. **Casos analíticos** — [`B23-C03`](../programa/clases/B23/B23-C03-casos-analiticos-de-validacion/CLASE.md)
+4. **Soluciones de referencia** — [`B23-C04`](../programa/clases/B23/B23-C04-soluciones-de-referencia-y-manufactured-solutions/CLASE.md)
+5. **Validación por conjuntos oficiales** — [`B23-C05`](../programa/clases/B23/B23-C05-validacion-con-conjuntos-oficiales/CLASE.md)
+6. **Análisis dimensional automatizado** — [`B14-C04`](../programa/clases/B14/B14-C04-unidades-y-constantes-con-astropy/CLASE.md), [`B13-C02`](../programa/clases/B13/B13-C02-dimensiones-y-trazabilidad/CLASE.md)
+7. **Pruebas metamórficas** — [`B23-C06`](../programa/clases/B23/B23-C06-pruebas-metamorficas/CLASE.md)
+8. **Pruebas de regresión** — [`B14-C10`](../programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/CLASE.md)
+9. **Trazabilidad científica** — [`B23-C07`](../programa/clases/B23/B23-C07-trazabilidad-cientifica-de-resultados/CLASE.md)
+10. **Informe de verificación** — [`B23-C08`](../programa/clases/B23/B23-C08-informe-de-verificacion-y-validacion/CLASE.md)
+
+✅ **Checkpoint R08-M07.** Sin mirar el material, explica cómo se relacionan «Pruebas unitarias numéricas», «Análisis dimensional automatizado» y «Informe de verificación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R08-M08 · Publicación de investigación reproducible
+
+1. **Protocolo preregistrado** — [`B14-C23`](../programa/clases/B14/B14-C23-protocolo-preregistrado-de-analisis/CLASE.md)
+2. **Gestión de datos FAIR** — [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md), [`B124-C14`](../programa/clases/B124/B124-C14-ciencia-abierta-y-reproducibilidad/CLASE.md)
+3. **Versionado de experimentos** — [`B14-C11`](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md)
+4. **Repositorios de código** — [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md)
+5. **Entornos reproducibles uv** — [`B14-C12`](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md)
+6. **Metadatos científicos** — [`B13-C19`](../programa/clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md), [`B14-C06`](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md)
+7. **Documentación de hipótesis** — [`B14-C24`](../programa/clases/B14/B14-C24-documentacion-de-hipotesis-y-decisiones-de-analisis/CLASE.md)
+8. **Notebooks auditables** — [`B14-C09`](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md)
+9. **Licencias de datos** — [`B124-C09`](../programa/clases/B124/B124-C09-propiedad-intelectual-y-licencias/CLASE.md)
+10. **Paquete de reproducibilidad completo** — [`B14-C20`](../programa/clases/B14/B14-C20-proyecto-reproducible-de-analisis-astronomico/CLASE.md), [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md)
+
+✅ **Checkpoint R08-M08.** Sin mirar el material, explica cómo se relacionan «Protocolo preregistrado», «Metadatos científicos» y «Paquete de reproducibilidad completo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Pipeline reproducible de inferencia con datos astronómicos.** Implementa un problema inverso (por ejemplo, ajustar una curva de luz) con verificación contra una solución conocida y publica el estudio con todo lo necesario para reproducirlo.
+
+Entregables:
+
+- Código con pruebas automatizadas
+- Verificación contra un caso con solución analítica
+- Análisis de sensibilidad y de convergencia
+- Repositorio con datos, entorno y documentación
+
+Criterios de evaluación:
+
+- Un tercero reproduce los resultados sin ayuda
+- Las pruebas cubren los casos límite
+- Se separan verificación (¿resuelvo bien las ecuaciones?) y validación (¿son las ecuaciones correctas?)
+- Se reportan los costos de cómputo
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes elegir, implementar y verificar un método numérico para un problema científico.
+- Puedes hacer inferencia bayesiana con diagnósticos de convergencia.
+- Puedes publicar un estudio computacional reproducible.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **código científico verificado**:

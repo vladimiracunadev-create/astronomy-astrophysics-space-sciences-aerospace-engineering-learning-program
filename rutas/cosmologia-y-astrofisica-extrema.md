@@ -108,6 +108,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular la dilatación del tiempo y la contracción de longitudes en un caso de relatividad especial?
+- ¿Sabes qué mide el corrimiento al rojo y cómo se relaciona con la distancia en un universo en expansión?
+- ¿Puedes integrar numéricamente una ecuación diferencial y comprobar la convergencia?
+- ¿Distingues una medida de una inferencia y un modelo?
+
+#### R02-M01 · Relatividad avanzada
+
+1. **Cálculo tensorial relativista** — [`B10-C17`](../programa/clases/B10/B10-C17-tensores-y-notacion-indicial/CLASE.md), [`B10-C18`](../programa/clases/B10/B10-C18-producto-tensorial-y-contraccion/CLASE.md), [`B26-C04`](../programa/clases/B26/B26-C04-espacio-tiempo-de-minkowski/CLASE.md)
+2. **Geometría diferencial** — [`B39-C01`](../programa/clases/B39/B39-C01-variedades-tensor-metrico-y-geometria-diferencial/CLASE.md)
+3. **Conexión afín** — [`B39-C02`](../programa/clases/B39/B39-C02-conexion-afin-y-simbolos-de-christoffel/CLASE.md)
+4. **Geodésicas** — [`B26-C08`](../programa/clases/B26/B26-C08-geodesicas-gravitacionales/CLASE.md)
+5. **Curvatura de Riemann** — [`B39-C03`](../programa/clases/B39/B39-C03-tensor-de-riemann-ricci-y-curvatura-escalar/CLASE.md)
+6. **Tensor energía-momento** — [`B39-C04`](../programa/clases/B39/B39-C04-tensor-de-energia-momento-y-fuentes-de-curvatura/CLASE.md)
+7. **Ecuaciones de Einstein** — [`B39-C05`](../programa/clases/B39/B39-C05-ecuaciones-de-campo-de-einstein-y-limite-newtoniano/CLASE.md)
+8. **Métricas estacionarias** — [`B27-C07`](../programa/clases/B27/B27-C07-metricas-de-agujeros-negros/CLASE.md), [`B27-C08`](../programa/clases/B27/B27-C08-horizonte-de-sucesos/CLASE.md)
+9. **Relatividad numérica inicial** — [`B39-C06`](../programa/clases/B39/B39-C06-introduccion-a-la-relatividad-numerica-formalismo-3-1/CLASE.md)
+10. **Predicciones observacionales** — [`B26-C10`](../programa/clases/B26/B26-C10-desplazamiento-gravitacional-al-rojo/CLASE.md), [`B27-C09`](../programa/clases/B27/B27-C09-orbitas-en-campos-fuertes/CLASE.md), [`B28-C05`](../programa/clases/B28/B28-C05-ondas-gravitacionales/CLASE.md)
+
+✅ **Checkpoint R02-M01.** Sin mirar el material, explica cómo se relacionan «Cálculo tensorial relativista», «Tensor energía-momento» y «Predicciones observacionales», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M02 · Universo temprano
+
+1. **Inflación cósmica** — [`B40-C01`](../programa/clases/B40/B40-C01-inflacion-cosmica-motivacion-y-dinamica-basica/CLASE.md)
+2. **Recalentamiento** — [`B40-C02`](../programa/clases/B40/B40-C02-recalentamiento-y-transicion-a-la-era-de-radiacion/CLASE.md)
+3. **Era de radiación** — [`B26-C14`](../programa/clases/B26/B26-C14-evolucion-termica-del-universo/CLASE.md)
+4. **Desacoplamiento de neutrinos** — [`B40-C03`](../programa/clases/B40/B40-C03-desacoplamiento-de-neutrinos-y-fondo-cosmico-de-neutrinos/CLASE.md)
+5. **Nucleosíntesis primordial** — [`B26-C16`](../programa/clases/B26/B26-C16-nucleosintesis-primordial/CLASE.md), [`B55-C02`](../programa/clases/B55/B55-C02-nucleosintesis-y-elementos/CLASE.md)
+6. **Recombinación cósmica** — [`B26-C14`](../programa/clases/B26/B26-C14-evolucion-termica-del-universo/CLASE.md), [`B26-C15`](../programa/clases/B26/B26-C15-radiacion-cosmica-de-fondo/CLASE.md)
+7. **Horizonte y planitud** — [`B40-C04`](../programa/clases/B40/B40-C04-problemas-del-horizonte-y-de-la-planitud/CLASE.md)
+8. **Perturbaciones primordiales** — [`B40-C05`](../programa/clases/B40/B40-C05-perturbaciones-primordiales-y-espectro-escalar/CLASE.md)
+9. **Campos escalares cosmológicos** — [`B40-C06`](../programa/clases/B40/B40-C06-campos-escalares-en-cosmologia-potenciales-y-evolucion/CLASE.md)
+10. **Restricciones de teorías tempranas** — [`B26-C20`](../programa/clases/B26/B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md), [`B31-C18`](../programa/clases/B31/B31-C18-restricciones-experimentales-de-teorias/CLASE.md)
+
+✅ **Checkpoint R02-M02.** Sin mirar el material, explica cómo se relacionan «Inflación cósmica», «Recombinación cósmica» y «Restricciones de teorías tempranas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M03 · Radiación cósmica de fondo
+
+1. **Anisotropías del fondo** — [`B26-C15`](../programa/clases/B26/B26-C15-radiacion-cosmica-de-fondo/CLASE.md)
+2. **Espectro angular de potencias** — [`B40-C07`](../programa/clases/B40/B40-C07-espectro-angular-de-potencias-del-cmb/CLASE.md)
+3. **Polarización E y B** — [`B40-C08`](../programa/clases/B40/B40-C08-polarizacion-e-y-b-del-fondo-cosmico/CLASE.md)
+4. **Efecto Sachs-Wolfe** — [`B40-C09`](../programa/clases/B40/B40-C09-efecto-sachs-wolfe-y-efecto-sachs-wolfe-integrado/CLASE.md)
+5. **Foregrounds galácticos** — [`B40-C10`](../programa/clases/B40/B40-C10-emisiones-de-primer-plano-galacticas-y-su-separacion/CLASE.md)
+6. **Efecto Sunyaev-Zeldovich** — [`B40-C11`](../programa/clases/B40/B40-C11-efecto-sunyaev-zeldovich-termico-y-cinematico/CLASE.md)
+7. **Análisis de mapas** — [`B40-C12`](../programa/clases/B40/B40-C12-analisis-de-mapas-del-cmb-pixelizacion-esferica-y-mascaras/CLASE.md)
+8. **Covarianza instrumental** — [`B40-C13`](../programa/clases/B40/B40-C13-ruido-haz-y-covarianza-instrumental-en-mapas-del-fondo/CLASE.md)
+9. **Datos de Planck** — [`B40-C14`](../programa/clases/B40/B40-C14-productos-de-datos-de-planck-y-misiones-del-cmb/CLASE.md)
+10. **Limitaciones observacionales** — [`B40-C15`](../programa/clases/B40/B40-C15-varianza-cosmica-y-limites-de-las-mediciones-del-fondo/CLASE.md)
+
+✅ **Checkpoint R02-M03.** Sin mirar el material, explica cómo se relacionan «Anisotropías del fondo», «Efecto Sunyaev-Zeldovich» y «Limitaciones observacionales», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M04 · Formación de estructuras cósmicas
+
+1. **Fluctuaciones de densidad** — [`B26-C17`](../programa/clases/B26/B26-C17-estructura-cosmologica/CLASE.md), [`B25-C18`](../programa/clases/B25/B25-C18-estructura-cosmica-a-gran-escala/CLASE.md)
+2. **Crecimiento lineal** — [`B36-C01`](../programa/clases/B36/B36-C01-crecimiento-lineal-de-perturbaciones-de-densidad/CLASE.md)
+3. **Transferencia de materia** — [`B36-C02`](../programa/clases/B36/B36-C02-funcion-de-transferencia-y-espectro-de-materia/CLASE.md)
+4. **Funciones de correlación** — [`B36-C03`](../programa/clases/B36/B36-C03-funciones-de-correlacion-de-galaxias/CLASE.md)
+5. **Espectro de potencia** — [`B36-C04`](../programa/clases/B36/B36-C04-espectro-de-potencia-de-materia/CLASE.md)
+6. **Simulaciones cosmológicas** — [`B36-C05`](../programa/clases/B36/B36-C05-simulaciones-cosmologicas-de-n-cuerpos-condiciones-iniciales-y-caja-periodica/CLASE.md)
+7. **Halos de materia** — [`B36-C06`](../programa/clases/B36/B36-C06-formacion-de-halos-y-funcion-de-masa/CLASE.md)
+8. **Formación de cúmulos** — [`B25-C13`](../programa/clases/B25/B25-C13-cumulos-de-galaxias/CLASE.md)
+9. **Oscilaciones acústicas bariónicas** — [`B36-C07`](../programa/clases/B36/B36-C07-oscilaciones-acusticas-barionicas-como-regla-estandar/CLASE.md)
+10. **Sesgos de trazadores** — [`B36-C08`](../programa/clases/B36/B36-C08-sesgo-de-galaxias-y-trazadores-de-la-materia/CLASE.md)
+
+✅ **Checkpoint R02-M04.** Sin mirar el material, explica cómo se relacionan «Fluctuaciones de densidad», «Simulaciones cosmológicas» y «Sesgos de trazadores», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M05 · Materia oscura
+
+1. **Evidencia de materia no luminosa** — [`B26-C18`](../programa/clases/B26/B26-C18-materia-oscura-y-evidencias/CLASE.md)
+2. **Curvas de rotación** — [`B25-C08`](../programa/clases/B25/B25-C08-curvas-de-rotacion-de-galaxias/CLASE.md)
+3. **Lentes gravitacionales** — [`B25-C14`](../programa/clases/B25/B25-C14-lentes-gravitacionales-galacticas/CLASE.md)
+4. **Cúmulos en colisión** — [`B36-C09`](../programa/clases/B36/B36-C09-cumulos-en-colision-como-prueba-de-materia-oscura/CLASE.md)
+5. **Modelos de halo** — [`B25-C15`](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md)
+6. **Candidatos de partículas** — [`B31-C17`](../programa/clases/B31/B31-C17-materias-oscuras-candidatas/CLASE.md)
+7. **Búsqueda directa** — [`B36-C10`](../programa/clases/B36/B36-C10-busqueda-directa-de-materia-oscura-en-laboratorio/CLASE.md)
+8. **Búsqueda indirecta** — [`B31-C16`](../programa/clases/B31/B31-C16-astroparticulas-de-alta-energia/CLASE.md), [`B27-C19`](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md)
+9. **Modelos modificados como alternativas** — [`B36-C11`](../programa/clases/B36/B36-C11-gravedad-modificada-mond-y-relativistas-frente-a-materia-oscura/CLASE.md)
+10. **Restricciones conjuntas** — [`B31-C18`](../programa/clases/B31/B31-C18-restricciones-experimentales-de-teorias/CLASE.md), [`B26-C20`](../programa/clases/B26/B26-C20-limites-observacionales-de-modelos-cosmologicos/CLASE.md)
+
+✅ **Checkpoint R02-M05.** Sin mirar el material, explica cómo se relacionan «Evidencia de materia no luminosa», «Candidatos de partículas» y «Restricciones conjuntas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M06 · Astrofísica de altas energías
+
+1. **Procesos de acreción** — [`B27-C10`](../programa/clases/B27/B27-C10-discos-de-acrecion/CLASE.md)
+2. **Radiación sincrotrón** — [`B27-C12`](../programa/clases/B27/B27-C12-radiacion-sincrotron/CLASE.md)
+3. **Compton inverso** — [`B27-C21`](../programa/clases/B27/B27-C21-dispersion-compton-inversa-y-emision-de-alta-energia/CLASE.md)
+4. **Partículas aceleradas** — [`B30-C14`](../programa/clases/B30/B30-C14-choques-y-aceleracion-de-particulas/CLASE.md), [`B31-C13`](../programa/clases/B31/B31-C13-rayos-cosmicos-y-cascadas/CLASE.md)
+5. **Estrellas compactas** — [`B27-C02`](../programa/clases/B27/B27-C02-enanas-blancas-y-limite-de-chandrasekhar/CLASE.md), [`B27-C03`](../programa/clases/B27/B27-C03-estrellas-de-neutrones/CLASE.md), [`B27-C05`](../programa/clases/B27/B27-C05-pulsares-y-relojes-naturales/CLASE.md)
+6. **Explosiones gamma** — [`B27-C17`](../programa/clases/B27/B27-C17-explosiones-de-rayos-gamma/CLASE.md)
+7. **Chorros relativistas** — [`B27-C11`](../programa/clases/B27/B27-C11-chorros-relativistas/CLASE.md)
+8. **Fuentes de rayos X** — [`B27-C19`](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md), [`B47-C05`](../programa/clases/B47/B47-C05-instrumentos-de-rayos-x/CLASE.md)
+9. **Detectores de alta energía** — [`B27-C19`](../programa/clases/B27/B27-C19-observatorios-de-rayos-x-y-gamma/CLASE.md), [`B47-C05`](../programa/clases/B47/B47-C05-instrumentos-de-rayos-x/CLASE.md), [`B47-C06`](../programa/clases/B47/B47-C06-instrumentos-de-rayos-gamma/CLASE.md), [`B31-C14`](../programa/clases/B31/B31-C14-detectores-de-particulas/CLASE.md)
+10. **Análisis espectral energético** — [`B27-C22`](../programa/clases/B27/B27-C22-analisis-espectral-de-rayos-x-y-gamma/CLASE.md)
+
+✅ **Checkpoint R02-M06.** Sin mirar el material, explica cómo se relacionan «Procesos de acreción», «Explosiones gamma» y «Análisis espectral energético», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M07 · Astronomía multimensajero
+
+1. **Formas de onda gravitacional** — [`B28-C21`](../programa/clases/B28/B28-C21-formas-de-onda-gravitacionales-y-filtro-acoplado/CLASE.md)
+2. **Fuentes de neutrinos** — [`B28-C03`](../programa/clases/B28/B28-C03-neutrinos-astrofisicos/CLASE.md), [`B27-C18`](../programa/clases/B27/B27-C18-neutrinos-de-supernova/CLASE.md)
+3. **Alertas electromagnéticas** — [`B28-C09`](../programa/clases/B28/B28-C09-alertas-cientificas-en-tiempo-real/CLASE.md), [`B28-C16`](../programa/clases/B28/B28-C16-redes-internacionales-de-alertas/CLASE.md)
+4. **Kilonovas** — [`B28-C18`](../programa/clases/B28/B28-C18-interpretacion-de-kilonovas/CLASE.md)
+5. **Redes de interferómetros** — [`B28-C06`](../programa/clases/B28/B28-C06-interferometros-gravitacionales/CLASE.md), [`B28-C16`](../programa/clases/B28/B28-C16-redes-internacionales-de-alertas/CLASE.md)
+6. **Significancia de coincidencias** — [`B28-C13`](../programa/clases/B28/B28-C13-estadistica-de-significancia/CLASE.md)
+7. **Localización de eventos** — [`B28-C10`](../programa/clases/B28/B28-C10-localizacion-probabilistica-de-eventos/CLASE.md)
+8. **Modelos multiobservatorio** — [`B28-C11`](../programa/clases/B28/B28-C11-coincidencias-entre-observatorios/CLASE.md), [`B28-C12`](../programa/clases/B28/B28-C12-modelos-de-emision-conjunta/CLASE.md)
+9. **Datos de eventos públicos** — [`B28-C17`](../programa/clases/B28/B28-C17-archivos-de-eventos-multimensajero/CLASE.md)
+10. **Inferencia de fuente conjunta** — [`B28-C22`](../programa/clases/B28/B28-C22-inferencia-bayesiana-conjunta-de-parametros-de-fuente-multimensajero/CLASE.md)
+
+✅ **Checkpoint R02-M07.** Sin mirar el material, explica cómo se relacionan «Formas de onda gravitacional», «Significancia de coincidencias» y «Inferencia de fuente conjunta», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R02-M08 · Inferencia y parámetros cosmológicos
+
+1. **Parámetros de modelo Lambda-CDM** — [`B26-C19`](../programa/clases/B26/B26-C19-energia-oscura-y-parametros/CLASE.md)
+2. **Verosimilitud cosmológica** — [`B26-C21`](../programa/clases/B26/B26-C21-verosimilitud-cosmologica-con-datos-combinados/CLASE.md)
+3. **Covarianzas de datos** — [`B12-C18`](../programa/clases/B12/B12-C18-matrices-de-covarianza/CLASE.md)
+4. **Muestreo MCMC** — [`B12-C13`](../programa/clases/B12/B12-C13-cadenas-de-markov-y-muestreo/CLASE.md)
+5. **Priors científicos** — [`B12-C12`](../programa/clases/B12/B12-C12-inferencia-bayesiana/CLASE.md)
+6. **Inferencia jerárquica** — [`B12-C21`](../programa/clases/B12/B12-C21-modelos-jerarquicos-bayesianos/CLASE.md)
+7. **Degeneraciones de parámetros** — [`B26-C22`](../programa/clases/B26/B26-C22-degeneraciones-de-parametros-cosmologicos/CLASE.md)
+8. **Comparación de modelos** — [`B12-C22`](../programa/clases/B12/B12-C22-comparacion-de-modelos-evidencia-bayesiana-y-criterios-de-informacion/CLASE.md)
+9. **Tensiones observacionales** — [`B26-C23`](../programa/clases/B26/B26-C23-tensiones-observacionales-constante-de-hubble-y-s8/CLASE.md)
+10. **Reproducibilidad de cadenas** — [`B12-C23`](../programa/clases/B12/B12-C23-diagnostico-de-convergencia-y-reproducibilidad-de-cadenas-mcmc/CLASE.md)
+
+✅ **Checkpoint R02-M08.** Sin mirar el material, explica cómo se relacionan «Parámetros de modelo Lambda-CDM», «Inferencia jerárquica» y «Reproducibilidad de cadenas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Estimación de parámetros cosmológicos con datos públicos.** Ajusta un modelo de universo plano a un catálogo público de supernovas y compara con otra prueba independiente, informando con honestidad la tensión entre ambas.
+
+Entregables:
+
+- Código de inferencia con priors declarados
+- Cadenas y gráficos de contorno de los parámetros
+- Comparación con una segunda prueba (por ejemplo, oscilaciones acústicas)
+- Memoria con la discusión de sesgos y sistemáticos
+
+Criterios de evaluación:
+
+- Los priors y el modelo están justificados y versionados
+- La convergencia de las cadenas está demostrada
+- Se explica qué datos se usan y cuáles se excluyen y por qué
+- Las conclusiones no superan lo que permiten los errores
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes plantear y resolver un modelo cosmológico sencillo y estimar sus parámetros con incertidumbre.
+- Puedes explicar la evidencia de la expansión, la radiación de fondo y la materia oscura sin sobreafirmar.
+- Puedes criticar un resultado de la literatura identificando sus supuestos.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es una **inferencia de parámetros reproducible**:

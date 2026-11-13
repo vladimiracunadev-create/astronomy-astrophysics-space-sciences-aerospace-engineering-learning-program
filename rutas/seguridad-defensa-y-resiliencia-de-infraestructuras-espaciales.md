@@ -116,6 +116,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular la posición de un satélite a partir de elementos orbitales?
+- ¿Sabes qué es una conjunción y una probabilidad de colisión?
+- ¿Entiendes conceptos básicos de seguridad de la información?
+- ¿Conoces el marco jurídico básico del uso del espacio?
+
+#### R22-M01 · Vigilancia y conciencia situacional espacial
+
+1. **Objetos residentes espaciales** — [`B118-C01`](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md), [`B118-C02`](../programa/clases/B118/B118-C02-catalogos-de-objetos-espaciales/CLASE.md)
+2. **Sensores ópticos** — [`B118-C03`](../programa/clases/B118/B118-C03-deteccion-y-seguimiento-optico/CLASE.md), [`B119-C13`](../programa/clases/B119/B119-C13-vigilancia-y-conciencia-situacional-espacial/CLASE.md)
+3. **Radar de seguimiento** — [`B118-C04`](../programa/clases/B118/B118-C04-deteccion-por-radar/CLASE.md)
+4. **Catálogos orbitales** — [`B118-C02`](../programa/clases/B118/B118-C02-catalogos-de-objetos-espaciales/CLASE.md)
+5. **Identificación de objetos** — [`B118-C02`](../programa/clases/B118/B118-C02-catalogos-de-objetos-espaciales/CLASE.md), [`B119-C04`](../programa/clases/B119/B119-C04-convenio-de-registro/CLASE.md), [`B119-C07`](../programa/clases/B119/B119-C07-registro-nacional-de-objetos/CLASE.md)
+6. **Calidad de datos SSA** — [`B118-C21`](../programa/clases/B118/B118-C21-calidad-latencia-y-trazabilidad-de-datos-de-vigilancia-espacial/CLASE.md)
+7. **Situational awareness civil** — [`B119-C13`](../programa/clases/B119/B119-C13-vigilancia-y-conciencia-situacional-espacial/CLASE.md), [`B118-C18`](../programa/clases/B118/B118-C18-gestion-del-trafico-espacial/CLASE.md)
+8. **Compartición de información** — [`B118-C22`](../programa/clases/B118/B118-C22-intercambio-de-datos-de-vigilancia-entre-operadores-y-estados/CLASE.md)
+9. **Limitaciones de vigilancia** — [`B118-C23`](../programa/clases/B118/B118-C23-cobertura-sesgos-y-limites-de-las-redes-de-vigilancia/CLASE.md)
+10. **Reporte de evento orbital** — [`B118-C20`](../programa/clases/B118/B118-C20-evaluacion-de-riesgo-de-conjuncion-documentada/CLASE.md), [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md)
+
+✅ **Checkpoint R22-M01.** Sin mirar el material, explica cómo se relacionan «Objetos residentes espaciales», «Calidad de datos SSA» y «Reporte de evento orbital», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M02 · Seguimiento de objetos orbitales
+
+1. **Observaciones de rastreo** — [`B74-C01`](../programa/clases/B74/B74-C01-modelos-de-observacion/CLASE.md), [`B74-C02`](../programa/clases/B74/B74-C02-observacion-angular-y-astrometria/CLASE.md), [`B74-C03`](../programa/clases/B74/B74-C03-medicion-de-alcance-por-radio/CLASE.md), [`B74-C04`](../programa/clases/B74/B74-C04-doppler-de-navegacion/CLASE.md), [`B89-C15`](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md)
+2. **Órbitas preliminares** — [`B74-C06`](../programa/clases/B74/B74-C06-determinacion-inicial-de-orbita/CLASE.md)
+3. **Estimación de estados** — [`B74-C07`](../programa/clases/B74/B74-C07-ajuste-por-minimos-cuadrados/CLASE.md), [`B74-C08`](../programa/clases/B74/B74-C08-filtrado-recursivo-de-estados/CLASE.md), [`B74-C09`](../programa/clases/B74/B74-C09-filtro-de-kalman-extendido/CLASE.md)
+4. **Catálogos TLE/OMM** — [`B74-C29`](../programa/clases/B74/B74-C29-formatos-tle-y-omm-de-elementos-orbitales/CLASE.md)
+5. **Propagación SGP4** — [`B72-C21`](../programa/clases/B72/B72-C21-propagador-sgp4-y-teoria-general-de-perturbaciones/CLASE.md)
+6. **Covarianza de seguimiento** — [`B74-C11`](../programa/clases/B74/B74-C11-matrices-de-covarianza-estimacion-de-orbitas-y-navegacion-espacial/CLASE.md), [`B74-C12`](../programa/clases/B74/B74-C12-propagacion-de-incertidumbre-estimacion-de-orbitas-y-navegacion-espacial/CLASE.md)
+7. **Asociación de objetos** — [`B74-C30`](../programa/clases/B74/B74-C30-asociacion-de-observaciones-y-correlacion-de-pistas/CLASE.md)
+8. **Diferencias entre propagadores** — [`B72-C20`](../programa/clases/B72/B72-C20-comparacion-de-propagadores-de-fidelidad-distinta/CLASE.md)
+9. **Validación con efemérides** — [`B74-C20`](../programa/clases/B74/B74-C20-validacion-frente-a-efemerides-de-referencia/CLASE.md)
+10. **Informe de precisión de seguimiento** — [`B74-C19`](../programa/clases/B74/B74-C19-metricas-de-precision-de-navegacion/CLASE.md)
+
+✅ **Checkpoint R22-M02.** Sin mirar el material, explica cómo se relacionan «Observaciones de rastreo», «Covarianza de seguimiento» y «Informe de precisión de seguimiento», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M03 · Riesgo de conjunciones y colisiones
+
+1. **Detección de conjunciones** — [`B118-C05`](../programa/clases/B118/B118-C05-conjunciones-orbitales/CLASE.md)
+2. **Distancia de aproximación** — [`B118-C05`](../programa/clases/B118/B118-C05-conjunciones-orbitales/CLASE.md), [`B76-C11`](../programa/clases/B76/B76-C11-operaciones-de-aproximacion/CLASE.md)
+3. **Incertidumbre de posición** — [`B74-C11`](../programa/clases/B74/B74-C11-matrices-de-covarianza-estimacion-de-orbitas-y-navegacion-espacial/CLASE.md), [`B118-C08`](../programa/clases/B118/B118-C08-propagacion-de-incertidumbre-en-conjunciones/CLASE.md)
+4. **Probabilidad de colisión** — [`B118-C06`](../programa/clases/B118/B118-C06-probabilidad-de-colision/CLASE.md)
+5. **Ventanas de maniobra** — [`B118-C07`](../programa/clases/B118/B118-C07-estrategias-de-evasion/CLASE.md), [`B76-C14`](../programa/clases/B76/B76-C14-evasion-de-colision/CLASE.md)
+6. **Restricciones operativas** — [`B118-C07`](../programa/clases/B118/B118-C07-estrategias-de-evasion/CLASE.md), [`B96-C04`](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md)
+7. **Evaluación de alertas** — [`B118-C20`](../programa/clases/B118/B118-C20-evaluacion-de-riesgo-de-conjuncion-documentada/CLASE.md), [`B118-C05`](../programa/clases/B118/B118-C05-conjunciones-orbitales/CLASE.md)
+8. **Decisión documentada** — [`B118-C20`](../programa/clases/B118/B118-C20-evaluacion-de-riesgo-de-conjuncion-documentada/CLASE.md)
+9. **Postanálisis de conjunción** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md), [`B118-C20`](../programa/clases/B118/B118-C20-evaluacion-de-riesgo-de-conjuncion-documentada/CLASE.md)
+10. **Simulacro de respuesta a alerta** — [`B119-C20`](../programa/clases/B119/B119-C20-simulacion-de-respuesta-institucional-a-incidentes/CLASE.md), [`B118-C20`](../programa/clases/B118/B118-C20-evaluacion-de-riesgo-de-conjuncion-documentada/CLASE.md)
+
+✅ **Checkpoint R22-M03.** Sin mirar el material, explica cómo se relacionan «Detección de conjunciones», «Restricciones operativas» y «Simulacro de respuesta a alerta», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M04 · Mitigación de desechos espaciales
+
+1. **Fragmentación orbital** — [`B118-C09`](../programa/clases/B118/B118-C09-generacion-de-desechos/CLASE.md), [`B118-C10`](../programa/clases/B118/B118-C10-sindrome-de-kessler-como-escenario/CLASE.md)
+2. **Entorno de residuos** — [`B118-C01`](../programa/clases/B118/B118-C01-poblacion-de-objetos-orbitales/CLASE.md), [`B118-C09`](../programa/clases/B118/B118-C09-generacion-de-desechos/CLASE.md), [`B118-C10`](../programa/clases/B118/B118-C10-sindrome-de-kessler-como-escenario/CLASE.md)
+3. **Diseño para desorbitación** — [`B118-C11`](../programa/clases/B118/B118-C11-diseno-para-mitigacion-de-desechos/CLASE.md), [`B118-C13`](../programa/clases/B118/B118-C13-desorbitacion-controlada/CLASE.md)
+4. **Pasivación al fin de vida** — [`B118-C11`](../programa/clases/B118/B118-C11-diseno-para-mitigacion-de-desechos/CLASE.md), [`B118-C12`](../programa/clases/B118/B118-C12-disposicion-al-fin-de-vida/CLASE.md)
+5. **Reentrada no controlada** — [`B118-C14`](../programa/clases/B118/B118-C14-reentrada-y-riesgos-en-superficie/CLASE.md), [`B77-C14`](../programa/clases/B77/B77-C14-dinamica-de-reentrada/CLASE.md)
+6. **Seguimiento de fragmentos** — [`B118-C03`](../programa/clases/B118/B118-C03-deteccion-y-seguimiento-optico/CLASE.md), [`B118-C04`](../programa/clases/B118/B118-C04-deteccion-por-radar/CLASE.md), [`B118-C15`](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md)
+7. **Prevención de colisiones** — [`B118-C07`](../programa/clases/B118/B118-C07-estrategias-de-evasion/CLASE.md), [`B76-C14`](../programa/clases/B76/B76-C14-evasion-de-colision/CLASE.md)
+8. **Medición de sostenibilidad** — [`B118-C19`](../programa/clases/B118/B118-C19-sostenibilidad-y-gobernanza-orbital/CLASE.md), [`B118-C18`](../programa/clases/B118/B118-C18-gestion-del-trafico-espacial/CLASE.md)
+9. **Normas de mitigación** — [`B118-C24`](../programa/clases/B118/B118-C24-directrices-tecnicas-de-mitigacion-de-desechos-iadc-iso-24113/CLASE.md)
+10. **Evaluación de plan de fin de vida** — [`B118-C12`](../programa/clases/B118/B118-C12-disposicion-al-fin-de-vida/CLASE.md), [`B118-C13`](../programa/clases/B118/B118-C13-desorbitacion-controlada/CLASE.md)
+
+✅ **Checkpoint R22-M04.** Sin mirar el material, explica cómo se relacionan «Fragmentación orbital», «Seguimiento de fragmentos» y «Evaluación de plan de fin de vida», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M05 · Seguridad de infraestructura crítica espacial
+
+1. **Segmentos críticos de sistema** — [`B119-C16`](../programa/clases/B119/B119-C16-proteccion-de-infraestructura-critica/CLASE.md), [`B96-C01`](../programa/clases/B96/B96-C01-segmento-espacial-y-segmento-terrestre/CLASE.md)
+2. **Amenazas de disponibilidad** — [`B119-C14`](../programa/clases/B119/B119-C14-amenazas-ciberneticas-a-satelites/CLASE.md), [`B119-C15`](../programa/clases/B119/B119-C15-interferencias-y-resiliencia-de-comunicaciones/CLASE.md)
+3. **Pérdidas de comunicación** — [`B119-C15`](../programa/clases/B119/B119-C15-interferencias-y-resiliencia-de-comunicaciones/CLASE.md), [`B89-C20`](../programa/clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md)
+4. **Fallos de energía** — [`B86-C11`](../programa/clases/B86/B86-C11-redundancia-electrica/CLASE.md), [`B96-C12`](../programa/clases/B96/B96-C12-gestion-de-energia-en-operaciones/CLASE.md), [`B86-C13`](../programa/clases/B86/B86-C13-energia-durante-eclipse/CLASE.md)
+5. **Dependencias de proveedores** — [`B122-C01`](../programa/clases/B122/B122-C01-dependencias-de-proveedores-y-cadena-de-suministro-de-infraestructura-espacial/CLASE.md)
+6. **Respaldo de estaciones** — [`B96-C17`](../programa/clases/B96/B96-C17-coordinacion-de-multiples-estaciones/CLASE.md), [`B89-C14`](../programa/clases/B89/B89-C14-estaciones-terrestres/CLASE.md)
+7. **Gestión de incidentes** — [`B96-C15`](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md), [`B119-C20`](../programa/clases/B119/B119-C20-simulacion-de-respuesta-institucional-a-incidentes/CLASE.md)
+8. **Monitoreo de integridad** — [`B96-C13`](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md), [`B88-C12`](../programa/clases/B88/B88-C12-deteccion-aislamiento-y-recuperacion-de-fallos/CLASE.md)
+9. **Continuidad de servicio** — [`B122-C02`](../programa/clases/B122/B122-C02-continuidad-de-servicio-impacto-y-objetivos-de-recuperacion/CLASE.md)
+10. **Modelo defensivo de riesgos** — [`B122-C03`](../programa/clases/B122/B122-C03-modelo-defensivo-de-riesgos-de-infraestructura-espacial/CLASE.md)
+
+✅ **Checkpoint R22-M05.** Sin mirar el material, explica cómo se relacionan «Segmentos críticos de sistema», «Respaldo de estaciones» y «Modelo defensivo de riesgos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M06 · Ciberdefensa y continuidad satelital
+
+1. **Modelo de amenazas satelital** — [`B119-C14`](../programa/clases/B119/B119-C14-amenazas-ciberneticas-a-satelites/CLASE.md), [`B88-C17`](../programa/clases/B88/B88-C17-ciberseguridad-de-avionica/CLASE.md)
+2. **Seguridad de estaciones terrestres** — [`B122-C04`](../programa/clases/B122/B122-C04-seguridad-de-estaciones-terrestres-y-segmento-de-control/CLASE.md)
+3. **Autenticación de telecomandos** — [`B96-C07`](../programa/clases/B96/B96-C07-telecomandos-y-autorizaciones/CLASE.md), [`B89-C12`](../programa/clases/B89/B89-C12-telecomandos-ccsds/CLASE.md)
+4. **Cifrado de enlaces** — [`B89-C25`](../programa/clases/B89/B89-C25-proteccion-criptografica-de-enlaces-espaciales/CLASE.md)
+5. **Control de accesos** — [`B122-C05`](../programa/clases/B122/B122-C05-control-de-accesos-y-gestion-de-identidades-en-operaciones/CLASE.md)
+6. **Inventario y parches** — [`B88-C13`](../programa/clases/B88/B88-C13-actualizacion-segura-de-software/CLASE.md), [`B88-C18`](../programa/clases/B88/B88-C18-control-de-configuracion-de-firmware/CLASE.md), [`B83-C15`](../programa/clases/B83/B83-C15-gestion-de-configuracion/CLASE.md)
+7. **Detección de anomalías** — [`B96-C13`](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md), [`B88-C12`](../programa/clases/B88/B88-C12-deteccion-aislamiento-y-recuperacion-de-fallos/CLASE.md)
+8. **Respuesta a incidentes** — [`B122-C06`](../programa/clases/B122/B122-C06-respuesta-a-incidentes-ciberneticos-en-operaciones-de-mision/CLASE.md)
+9. **Recuperación segura** — [`B96-C14`](../programa/clases/B96/B96-C14-procedimientos-de-recuperacion/CLASE.md), [`B88-C11`](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md), [`B88-C13`](../programa/clases/B88/B88-C13-actualizacion-segura-de-software/CLASE.md)
+10. **Ejercicio de defensa controlada** — [`B88-C19`](../programa/clases/B88/B88-C19-simulacion-hardware-in-the-loop/CLASE.md), [`B119-C20`](../programa/clases/B119/B119-C20-simulacion-de-respuesta-institucional-a-incidentes/CLASE.md)
+
+✅ **Checkpoint R22-M06.** Sin mirar el material, explica cómo se relacionan «Modelo de amenazas satelital», «Inventario y parches» y «Ejercicio de defensa controlada», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M07 · Geopolítica y doctrina espacial
+
+1. **Historia de seguridad espacial** — [`B119-C12`](../programa/clases/B119/B119-C12-historia-de-competencia-estrategica-espacial/CLASE.md), [`B02-C19`](../programa/clases/B02/B02-C19-historia-de-la-exploracion-espacial/CLASE.md)
+2. **Doctrinas declaradas públicamente** — [`B119-C26`](../programa/clases/B119/B119-C26-doctrinas-y-politicas-espaciales-declaradas-publicamente/CLASE.md)
+3. **Tratados y restricciones** — [`B119-C01`](../programa/clases/B119/B119-C01-tratado-del-espacio-ultraterrestre/CLASE.md), [`B119-C11`](../programa/clases/B119/B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md)
+4. **Protección de servicios duales** — [`B119-C16`](../programa/clases/B119/B119-C16-proteccion-de-infraestructura-critica/CLASE.md), [`B119-C11`](../programa/clases/B119/B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md)
+5. **Diplomacia de incidentes** — [`B119-C27`](../programa/clases/B119/B119-C27-diplomacia-y-comunicacion-entre-estados-ante-incidentes-espaciales/CLASE.md)
+6. **Normas de conducta responsable** — [`B119-C28`](../programa/clases/B119/B119-C28-normas-de-comportamiento-responsable-en-el-espacio/CLASE.md)
+7. **Escalada y desescalada** — [`B119-C29`](../programa/clases/B119/B119-C29-escalada-desescalada-y-medidas-de-fomento-de-la-confianza/CLASE.md)
+8. **Desinformación y atribución** — [`B119-C30`](../programa/clases/B119/B119-C30-atribucion-de-incidentes-y-desinformacion-en-el-dominio-espacial/CLASE.md)
+9. **Ética de decisiones** — [`B119-C18`](../programa/clases/B119/B119-C18-etica-y-derechos-en-actividades-espaciales/CLASE.md)
+10. **Análisis comparado de políticas** — [`B119-C19`](../programa/clases/B119/B119-C19-legislacion-comparada-y-casos-nacionales/CLASE.md)
+
+✅ **Checkpoint R22-M07.** Sin mirar el material, explica cómo se relacionan «Historia de seguridad espacial», «Normas de conducta responsable» y «Análisis comparado de políticas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R22-M08 · Gestión institucional de crisis espaciales
+
+1. **Detección de crisis** — [`B96-C13`](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md), [`B119-C13`](../programa/clases/B119/B119-C13-vigilancia-y-conciencia-situacional-espacial/CLASE.md)
+2. **Clasificación de impacto** — [`B122-C07`](../programa/clases/B122/B122-C07-clasificacion-de-severidad-e-impacto-de-incidentes-espaciales/CLASE.md)
+3. **Roles institucionales** — [`B96-C03`](../programa/clases/B96/B96-C03-roles-de-control-de-mision/CLASE.md), [`B119-C06`](../programa/clases/B119/B119-C06-organismos-unoosa-y-copuos/CLASE.md), [`B119-C08`](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md)
+4. **Comunicaciones de crisis** — [`B122-C08`](../programa/clases/B122/B122-C08-comunicacion-de-crisis-con-operadores-autoridades-y-publico/CLASE.md)
+5. **Coordinación internacional** — [`B119-C06`](../programa/clases/B119/B119-C06-organismos-unoosa-y-copuos/CLASE.md), [`B118-C18`](../programa/clases/B118/B118-C18-gestion-del-trafico-espacial/CLASE.md)
+6. **Preservación de evidencias** — [`B122-C09`](../programa/clases/B122/B122-C09-preservacion-de-evidencias-y-cadena-de-custodia-de-datos-de-incidentes/CLASE.md)
+7. **Continuidad de servicios** — [`B122-C10`](../programa/clases/B122/B122-C10-planes-de-continuidad-institucional-y-de-operaciones/CLASE.md)
+8. **Planes de recuperación** — [`B96-C14`](../programa/clases/B96/B96-C14-procedimientos-de-recuperacion/CLASE.md), [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md)
+9. **Simulacro de mesa** — [`B119-C20`](../programa/clases/B119/B119-C20-simulacion-de-respuesta-institucional-a-incidentes/CLASE.md), [`B104-C09`](../programa/clases/B104/B104-C09-entrenamiento-en-simuladores/CLASE.md)
+10. **Informe posterior al incidente** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md), [`B118-C20`](../programa/clases/B118/B118-C20-evaluacion-de-riesgo-de-conjuncion-documentada/CLASE.md)
+
+✅ **Checkpoint R22-M08.** Sin mirar el material, explica cómo se relacionan «Detección de crisis», «Preservación de evidencias» y «Informe posterior al incidente», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Evaluación de riesgo de conjunciones y plan de resiliencia.** Con datos públicos de objetos orbitales, evalúa el riesgo de conjunción de un satélite y diseña su plan de continuidad ante colisión o ciberataque.
+
+Entregables:
+
+- Cálculo de acercamientos y probabilidad de colisión con incertidumbre
+- Criterios de maniobra de evasión con su costo
+- Análisis de amenazas cibernéticas de la misión
+- Plan de continuidad y de gestión de crisis
+
+Criterios de evaluación:
+
+- La incertidumbre orbital se incorpora al riesgo
+- Los umbrales de maniobra están justificados
+- El plan de continuidad tiene responsables y tiempos
+- Las conclusiones no exigen información restringida
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes evaluar el riesgo orbital y decidir una maniobra con criterios explícitos.
+- Puedes analizar amenazas y diseñar continuidad de operaciones.
+- Puedes explicar el entorno de seguridad espacial sin sobrepasar lo público.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de seguridad y resiliencia** (educativo, sobre sistemas propios o simulados):

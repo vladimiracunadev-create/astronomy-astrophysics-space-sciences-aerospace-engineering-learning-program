@@ -117,6 +117,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular pérdidas por espacio libre y ganancia de antena?
+- ¿Sabes qué es la relación señal-ruido y la tasa de error?
+- ¿Entiendes la modulación digital básica?
+- ¿Conoces el retardo de la luz y su efecto en los protocolos?
+
+#### R15-M01 · Antenas espaciales avanzadas
+
+1. **Teoría de antenas** — [`B91-C01`](../programa/clases/B91/B91-C01-fundamentos-de-teoria-de-antenas/CLASE.md)
+2. **Apertura y ganancia** — [`B46-C05`](../programa/clases/B46/B46-C05-ganancia-y-temperatura-de-antena/CLASE.md), [`B89-C06`](../programa/clases/B89/B89-C06-ganancias-y-perdidas-de-antena/CLASE.md)
+3. **Diagramas y lóbulos** — [`B46-C04`](../programa/clases/B46/B46-C04-diagramas-de-radiacion/CLASE.md)
+4. **Polarización** — [`B91-C02`](../programa/clases/B91/B91-C02-polarizacion-de-antenas-y-perdidas-por-desadaptacion/CLASE.md)
+5. **Arreglos de fase** — [`B91-C03`](../programa/clases/B91/B91-C03-arreglos-de-antenas-y-antenas-de-barrido-electronico/CLASE.md)
+6. **Antenas desplegables** — [`B91-C04`](../programa/clases/B91/B91-C04-antenas-desplegables-y-estructuras-de-gran-apertura/CLASE.md)
+7. **Eficiencia de antena** — [`B89-C06`](../programa/clases/B89/B89-C06-ganancias-y-perdidas-de-antena/CLASE.md)
+8. **Apuntado de estación** — [`B96-C05`](../programa/clases/B96/B96-C05-estaciones-de-seguimiento/CLASE.md), [`B89-C15`](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md)
+9. **Calibración de patrón** — [`B91-C05`](../programa/clases/B91/B91-C05-medicion-y-calibracion-de-antenas/CLASE.md)
+10. **Análisis de compromiso de antenas** — [`B91-C06`](../programa/clases/B91/B91-C06-seleccion-y-compromiso-de-diseno-de-antenas/CLASE.md)
+
+✅ **Checkpoint R15-M01.** Sin mirar el material, explica cómo se relacionan «Teoría de antenas», «Antenas desplegables» y «Análisis de compromiso de antenas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M02 · Presupuesto de enlace de misión
+
+1. **Ecuación de Friis** — [`B89-C04`](../programa/clases/B89/B89-C04-propagacion-y-perdidas-de-espacio-libre/CLASE.md), [`B89-C05`](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md)
+2. **Atenuación atmosférica** — [`B91-C07`](../programa/clases/B91/B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md)
+3. **Pérdidas de polarización** — [`B91-C02`](../programa/clases/B91/B91-C02-polarizacion-de-antenas-y-perdidas-por-desadaptacion/CLASE.md)
+4. **Temperatura de ruido** — [`B89-C07`](../programa/clases/B89/B89-C07-figura-de-ruido-de-receptor/CLASE.md), [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
+5. **Relación C/N0** — [`B89-C23`](../programa/clases/B89/B89-C23-relacion-c-n0-eb-n0-y-tasa-de-error-de-bit/CLASE.md)
+6. **Margen de enlace** — [`B89-C05`](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md)
+7. **BER y Eb/N0** — [`B89-C23`](../programa/clases/B89/B89-C23-relacion-c-n0-eb-n0-y-tasa-de-error-de-bit/CLASE.md)
+8. **Efectos de lluvia** — [`B91-C07`](../programa/clases/B91/B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md)
+9. **Presupuesto ascendente** — [`B89-C05`](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md)
+10. **Presupuesto descendente** — [`B89-C05`](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md)
+
+✅ **Checkpoint R15-M02.** Sin mirar el material, explica cómo se relacionan «Ecuación de Friis», «Margen de enlace» y «Presupuesto descendente», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M03 · Modulación y codificación de canal
+
+1. **Modulación PSK** — [`B89-C08`](../programa/clases/B89/B89-C08-modulacion-digital/CLASE.md)
+2. **Modulación QAM** — [`B89-C08`](../programa/clases/B89/B89-C08-modulacion-digital/CLASE.md)
+3. **Codificación convolucional** — [`B89-C09`](../programa/clases/B89/B89-C09-codificacion-correctora-de-errores/CLASE.md)
+4. **Códigos Reed-Solomon** — [`B94-C01`](../programa/clases/B94/B94-C01-codigos-reed-solomon-y-ldpc/CLASE.md)
+5. **Códigos LDPC** — [`B94-C01`](../programa/clases/B94/B94-C01-codigos-reed-solomon-y-ldpc/CLASE.md)
+6. **Entrelazado** — [`B94-C02`](../programa/clases/B94/B94-C02-entrelazado-y-concatenacion-de-codigos/CLASE.md)
+7. **Sincronización de bit** — [`B89-C10`](../programa/clases/B89/B89-C10-sincronizacion-de-portadora/CLASE.md)
+8. **Corrección de errores** — [`B89-C09`](../programa/clases/B89/B89-C09-codificacion-correctora-de-errores/CLASE.md), [`B88-C04`](../programa/clases/B88/B88-C04-memorias-y-correccion-de-errores/CLASE.md)
+9. **Tramas CCSDS** — [`B94-C03`](../programa/clases/B94/B94-C03-tramas-de-transferencia-de-telemetria-y-telecomando/CLASE.md)
+10. **Prueba de enlace digital** — [`B90-C16`](../programa/clases/B90/B90-C16-pruebas-de-extremo-a-extremo/CLASE.md)
+
+✅ **Checkpoint R15-M03.** Sin mirar el material, explica cómo se relacionan «Modulación PSK», «Entrelazado» y «Prueba de enlace digital», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M04 · Diseño de redes de estaciones terrestres
+
+1. **Cobertura de estaciones** — [`B89-C17`](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md), [`B96-C05`](../programa/clases/B96/B96-C05-estaciones-de-seguimiento/CLASE.md)
+2. **Visibilidad de pases** — [`B96-C04`](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md), [`B48-C04`](../programa/clases/B48/B48-C04-planificacion-por-visibilidad/CLASE.md)
+3. **Coordinación temporal** — [`B96-C17`](../programa/clases/B96/B96-C17-coordinacion-de-multiples-estaciones/CLASE.md), [`B74-C16`](../programa/clases/B74/B74-C16-sincronizacion-temporal/CLASE.md)
+4. **Redes de estaciones** — [`B96-C05`](../programa/clases/B96/B96-C05-estaciones-de-seguimiento/CLASE.md), [`B96-C17`](../programa/clases/B96/B96-C17-coordinacion-de-multiples-estaciones/CLASE.md)
+5. **Enlaces hacia centros de datos** — [`B96-C22`](../programa/clases/B96/B96-C22-transferencia-de-datos-entre-estacion-y-centro-de-datos/CLASE.md)
+6. **Redundancia terrestre** — [`B96-C23`](../programa/clases/B96/B96-C23-continuidad-y-redundancia-de-las-operaciones-terrestres/CLASE.md)
+7. **Operación remota** — [`B96-C24`](../programa/clases/B96/B96-C24-operacion-remota-y-automatizada-de-estaciones/CLASE.md)
+8. **Seguridad física** — [`B96-C25`](../programa/clases/B96/B96-C25-seguridad-fisica-y-control-de-acceso-de-estaciones-terrestres/CLASE.md)
+9. **Gestión de incidentes** — [`B96-C26`](../programa/clases/B96/B96-C26-gestion-de-incidentes-en-la-operacion-de-estaciones/CLASE.md)
+10. **Diseño de red global** — [`B89-C20`](../programa/clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md), [`B96-C17`](../programa/clases/B96/B96-C17-coordinacion-de-multiples-estaciones/CLASE.md)
+
+✅ **Checkpoint R15-M04.** Sin mirar el material, explica cómo se relacionan «Cobertura de estaciones», «Redundancia terrestre» y «Diseño de red global», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M05 · Enlaces de radiofrecuencia profundos
+
+1. **Pérdidas de espacio profundo** — [`B89-C04`](../programa/clases/B89/B89-C04-propagacion-y-perdidas-de-espacio-libre/CLASE.md), [`B89-C13`](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md)
+2. **Antenas de gran apertura** — [`B91-C08`](../programa/clases/B91/B91-C08-antenas-de-gran-apertura-y-estaciones-de-espacio-profundo/CLASE.md)
+3. **Bandas X y Ka** — [`B89-C03`](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md)
+4. **Seguimiento Doppler** — [`B89-C15`](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md)
+5. **Medidas de rango** — [`B74-C28`](../programa/clases/B74/B74-C28-medidas-de-rango-y-doppler-para-determinar-la-orbita/CLASE.md)
+6. **Osciladores ultraestables** — [`B46-C08`](../programa/clases/B46/B46-C08-osciladores-y-estabilidad/CLASE.md)
+7. **Telemetría débil** — [`B89-C24`](../programa/clases/B89/B89-C24-recepcion-de-telemetria-debil/CLASE.md)
+8. **Corrección atmosférica** — [`B91-C07`](../programa/clases/B91/B91-C07-atenuacion-atmosferica-y-efectos-de-la-lluvia-en-enlaces/CLASE.md)
+9. **Planificación de sesiones** — [`B96-C04`](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md)
+10. **Caso de enlace interplanetario** — [`B89-C05`](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md), [`B89-C13`](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md)
+
+✅ **Checkpoint R15-M05.** Sin mirar el material, explica cómo se relacionan «Pérdidas de espacio profundo», «Osciladores ultraestables» y «Caso de enlace interplanetario», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M06 · Enlaces ópticos espaciales
+
+1. **Terminales ópticos** — [`B89-C18`](../programa/clases/B89/B89-C18-comunicaciones-opticas-espaciales/CLASE.md)
+2. **Fuentes láser espaciales** — [`B92-C01`](../programa/clases/B92/B92-C01-fuentes-laser-y-amplificadores-para-enlaces-espaciales/CLASE.md)
+3. **Dispersión del haz** — [`B92-C02`](../programa/clases/B92/B92-C02-divergencia-del-haz-y-perdidas-por-apuntamiento-optico/CLASE.md)
+4. **Apuntamiento fino** — [`B92-C03`](../programa/clases/B92/B92-C03-adquisicion-apuntamiento-y-seguimiento-opticos/CLASE.md)
+5. **Atmósfera y nubes** — [`B92-C04`](../programa/clases/B92/B92-C04-atmosfera-y-nubes-en-enlaces-opticos-con-la-tierra/CLASE.md)
+6. **Detectores ópticos** — [`B92-C05`](../programa/clases/B92/B92-C05-receptores-y-detectores-para-comunicaciones-opticas/CLASE.md)
+7. **Modulación óptica** — [`B92-C06`](../programa/clases/B92/B92-C06-modulacion-y-codificacion-en-enlaces-opticos/CLASE.md)
+8. **Enlace óptico de espacio profundo** — [`B92-C07`](../programa/clases/B92/B92-C07-enlaces-opticos-de-espacio-profundo/CLASE.md)
+9. **Márgenes y disponibilidad** — [`B92-C08`](../programa/clases/B92/B92-C08-margenes-y-disponibilidad-de-enlaces-opticos/CLASE.md)
+10. **Evaluación de arquitectura óptica** — [`B89-C18`](../programa/clases/B89/B89-C18-comunicaciones-opticas-espaciales/CLASE.md), [`B89-C20`](../programa/clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md)
+
+✅ **Checkpoint R15-M06.** Sin mirar el material, explica cómo se relacionan «Terminales ópticos», «Detectores ópticos» y «Evaluación de arquitectura óptica», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M07 · Sincronización y protocolos de misión
+
+1. **Tiempo UTC y TAI** — [`B13-C08`](../programa/clases/B13/B13-C08-escalas-utc-tai-tt-y-tdb/CLASE.md), [`B13-C09`](../programa/clases/B13/B13-C09-segundos-intercalares-y-cronologia/CLASE.md)
+2. **Estándares de frecuencia** — [`B13-C07`](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md)
+3. **Sincronización de estación** — [`B74-C16`](../programa/clases/B74/B74-C16-sincronizacion-temporal/CLASE.md)
+4. **Protocolos CCSDS** — [`B89-C11`](../programa/clases/B89/B89-C11-telemetria-ccsds/CLASE.md), [`B89-C12`](../programa/clases/B89/B89-C12-telecomandos-ccsds/CLASE.md), [`B89-C13`](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md)
+5. **Telemetría transfer frame** — [`B94-C03`](../programa/clases/B94/B94-C03-tramas-de-transferencia-de-telemetria-y-telecomando/CLASE.md)
+6. **Telecomandos transfer frame** — [`B94-C03`](../programa/clases/B94/B94-C03-tramas-de-transferencia-de-telemetria-y-telecomando/CLASE.md)
+7. **Enrutamiento y almacenamiento** — [`B94-C04`](../programa/clases/B94/B94-C04-redes-con-retardo-y-desconexion-enrutamiento-y-almacenamiento/CLASE.md)
+8. **Calidad de servicio** — [`B94-C05`](../programa/clases/B94/B94-C05-calidad-de-servicio-y-prioridades-en-redes-espaciales/CLASE.md)
+9. **Gestión de configuraciones** — [`B83-C15`](../programa/clases/B83/B83-C15-gestion-de-configuracion/CLASE.md)
+10. **Validación de protocolos** — [`B94-C06`](../programa/clases/B94/B94-C06-validacion-y-conformidad-de-protocolos-de-enlace/CLASE.md)
+
+✅ **Checkpoint R15-M07.** Sin mirar el material, explica cómo se relacionan «Tiempo UTC y TAI», «Telecomandos transfer frame» y «Validación de protocolos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R15-M08 · Operaciones integrales de estaciones terrestres
+
+1. **Gestión de estación terrestre** — [`B89-C14`](../programa/clases/B89/B89-C14-estaciones-terrestres/CLASE.md), [`B96-C05`](../programa/clases/B96/B96-C05-estaciones-de-seguimiento/CLASE.md)
+2. **Planificación de pases** — [`B96-C04`](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md)
+3. **Operación de RF** — [`B96-C27`](../programa/clases/B96/B96-C27-operacion-de-equipos-de-radiofrecuencia-en-la-estacion/CLASE.md)
+4. **Control de antena** — [`B96-C28`](../programa/clases/B96/B96-C28-control-y-seguimiento-de-la-antena-de-estacion/CLASE.md)
+5. **Recepción de telemetría** — [`B96-C06`](../programa/clases/B96/B96-C06-telemetria-operativa/CLASE.md)
+6. **Envío autorizado de telecomandos** — [`B96-C07`](../programa/clases/B96/B96-C07-telecomandos-y-autorizaciones/CLASE.md)
+7. **Diagnóstico de enlace** — [`B96-C29`](../programa/clases/B96/B96-C29-diagnostico-de-fallas-de-enlace/CLASE.md)
+8. **Mantenimiento preventivo** — [`B48-C14`](../programa/clases/B48/B48-C14-mantenimiento-preventivo/CLASE.md)
+9. **Registro de operaciones** — [`B96-C30`](../programa/clases/B96/B96-C30-registro-y-auditoria-de-operaciones/CLASE.md)
+10. **Simulación de campaña de operación** — [`B96-C20`](../programa/clases/B96/B96-C20-simulacion-de-jornada-de-control-de-mision/CLASE.md)
+
+✅ **Checkpoint R15-M08.** Sin mirar el material, explica cómo se relacionan «Gestión de estación terrestre», «Envío autorizado de telecomandos» y «Simulación de campaña de operación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Presupuesto de enlace y diseño de una estación terrestre.** Para una misión de órbita baja y otra de espacio profundo, calcula el presupuesto de enlace, elige modulación y codificación y diseña la estación y su red.
+
+Entregables:
+
+- Presupuestos de enlace con márgenes
+- Elección de modulación y codificación con su justificación
+- Diseño de la estación y de la red de apoyo
+- Plan de operaciones con contactos y recuperación
+
+Criterios de evaluación:
+
+- Los presupuestos se verifican con una segunda herramienta
+- Los márgenes cubren lluvia y desapuntado
+- El diseño de red cubre las ventanas de la misión
+- El plan contempla pérdida de enlace
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes cerrar un presupuesto de enlace y justificar sus márgenes.
+- Puedes diseñar una estación terrestre y una red de apoyo.
+- Puedes planear operaciones de comunicaciones con contingencias.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de enlace y operación** (educativo, sin transmitir):

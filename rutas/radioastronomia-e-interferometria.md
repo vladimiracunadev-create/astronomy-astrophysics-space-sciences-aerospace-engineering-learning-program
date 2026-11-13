@@ -120,6 +120,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular la ganancia y el ancho de haz de una antena de apertura circular?
+- ¿Sabes qué es la temperatura de ruido de un receptor?
+- ¿Entiendes la transformada de Fourier y su relación con el muestreo?
+- ¿Programas un filtro digital sencillo sobre una señal?
+
+#### R04-M01 · Ingeniería de antenas
+
+1. **Antenas dipolo y monopolo** — [`B49-C01`](../programa/clases/B49/B49-C01-antenas-de-hilo-dipolo-monopolo-e-impedancia-de-radiacion/CLASE.md)
+2. **Antenas parabólicas** — [`B46-C03`](../programa/clases/B46/B46-C03-antenas-parabolicas/CLASE.md)
+3. **Diagramas de radiación** — [`B46-C04`](../programa/clases/B46/B46-C04-diagramas-de-radiacion/CLASE.md)
+4. **Ganancia y apertura efectiva** — [`B46-C05`](../programa/clases/B46/B46-C05-ganancia-y-temperatura-de-antena/CLASE.md), [`B89-C06`](../programa/clases/B89/B89-C06-ganancias-y-perdidas-de-antena/CLASE.md)
+5. **Polarización de antenas** — [`B46-C13`](../programa/clases/B46/B46-C13-polarimetria-de-radio/CLASE.md), [`B42-C08`](../programa/clases/B42/B42-C08-polarizacion-de-la-luz/CLASE.md)
+6. **Temperatura de ruido** — [`B46-C05`](../programa/clases/B46/B46-C05-ganancia-y-temperatura-de-antena/CLASE.md), [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
+7. **Impedancias y adaptación** — [`B49-C02`](../programa/clases/B49/B49-C02-adaptacion-de-impedancias-y-lineas-de-transmision-en-antenas/CLASE.md)
+8. **Apuntado de antenas** — [`B49-C03`](../programa/clases/B49/B49-C03-apuntamiento-y-seguimiento-de-radiotelescopios-modelos-de-apuntado-y-errores/CLASE.md)
+9. **Arreglos de antenas** — [`B49-C04`](../programa/clases/B49/B49-C04-arreglos-de-antenas-factor-de-arreglo-y-formacion-de-haz/CLASE.md)
+10. **Calibración de patrones** — [`B49-C05`](../programa/clases/B49/B49-C05-medicion-y-calibracion-de-patrones-de-antena/CLASE.md)
+
+✅ **Checkpoint R04-M01.** Sin mirar el material, explica cómo se relacionan «Antenas dipolo y monopolo», «Temperatura de ruido» y «Calibración de patrones», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M02 · Receptores de bajo ruido
+
+1. **Ruido térmico** — [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
+2. **Amplificadores LNA** — [`B49-C06`](../programa/clases/B49/B49-C06-amplificadores-de-bajo-ruido-lna-tecnologia-ganancia-y-adaptacion/CLASE.md)
+3. **Criogenia de receptores** — [`B49-C07`](../programa/clases/B49/B49-C07-criogenia-y-refrigeracion-de-receptores-de-radio/CLASE.md)
+4. **Figura de ruido** — [`B89-C07`](../programa/clases/B89/B89-C07-figura-de-ruido-de-receptor/CLASE.md), [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
+5. **Estabilidad de ganancia** — [`B49-C08`](../programa/clases/B49/B49-C08-estabilidad-de-ganancia-de-receptores-y-variaciones-de-ganancia/CLASE.md)
+6. **Ancho de banda efectivo** — [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
+7. **Linealidad de receptor** — [`B49-C09`](../programa/clases/B49/B49-C09-linealidad-compresion-e-intermodulacion-de-receptores-de-rf/CLASE.md)
+8. **Calibración de temperatura** — [`B13-C17`](../programa/clases/B13/B13-C17-calibracion-radiometrica/CLASE.md), [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md)
+9. **Interferencias de radiofrecuencia** — [`B118-C17`](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md), [`B90-C14`](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md)
+10. **Evaluación de sensibilidad** — [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md), [`B46-C20`](../programa/clases/B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md)
+
+✅ **Checkpoint R04-M02.** Sin mirar el material, explica cómo se relacionan «Ruido térmico», «Ancho de banda efectivo» y «Evaluación de sensibilidad», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M03 · Radiofrecuencia y cadenas de recepción
+
+1. **Amplificación en radiofrecuencia** — [`B46-C07`](../programa/clases/B46/B46-C07-receptores-superheterodinos/CLASE.md)
+2. **Filtros pasabanda** — [`B49-C10`](../programa/clases/B49/B49-C10-filtros-de-radiofrecuencia-pasabanda-y-rechazo-de-banda-imagen/CLASE.md)
+3. **Conversión de frecuencia** — [`B46-C07`](../programa/clases/B46/B46-C07-receptores-superheterodinos/CLASE.md)
+4. **Osciladores locales** — [`B46-C08`](../programa/clases/B46/B46-C08-osciladores-y-estabilidad/CLASE.md)
+5. **Relojes y fase** — [`B46-C08`](../programa/clases/B46/B46-C08-osciladores-y-estabilidad/CLASE.md), [`B13-C07`](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md)
+6. **Mezcladores de frecuencia** — [`B49-C11`](../programa/clases/B49/B49-C11-mezcladores-de-frecuencia-perdida-de-conversion-y-productos-espurios/CLASE.md)
+7. **Digitalización de IF** — [`B46-C09`](../programa/clases/B46/B46-C09-conversion-analogica-digital/CLASE.md), [`B15-C02`](../programa/clases/B15/B15-C02-muestreo-y-aliasing/CLASE.md)
+8. **Blindaje electromagnético** — [`B90-C13`](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md), [`B90-C14`](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md)
+9. **Compatibilidad RF** — [`B90-C13`](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md), [`B118-C17`](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md)
+10. **Ensayo de cadena de recepción** — [`B13-C20`](../programa/clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md), [`B13-C17`](../programa/clases/B13/B13-C17-calibracion-radiometrica/CLASE.md)
+
+✅ **Checkpoint R04-M03.** Sin mirar el material, explica cómo se relacionan «Amplificación en radiofrecuencia», «Mezcladores de frecuencia» y «Ensayo de cadena de recepción», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M04 · Radioastronomía con SDR
+
+1. **Plataformas de radio definida por software** — [`B46-C10`](../programa/clases/B46/B46-C10-radioastronomia-mediante-sdr/CLASE.md)
+2. **Ganancia y muestreo SDR** — [`B46-C10`](../programa/clases/B46/B46-C10-radioastronomia-mediante-sdr/CLASE.md), [`B15-C02`](../programa/clases/B15/B15-C02-muestreo-y-aliasing/CLASE.md), [`B46-C09`](../programa/clases/B46/B46-C09-conversion-analogica-digital/CLASE.md)
+3. **Calibración de frecuencias** — [`B46-C08`](../programa/clases/B46/B46-C08-osciladores-y-estabilidad/CLASE.md), [`B13-C05`](../programa/clases/B13/B13-C05-calibracion-instrumental/CLASE.md)
+4. **Espectrogramas astronómicos** — [`B15-C06`](../programa/clases/B15/B15-C06-analisis-espectral-de-senales/CLASE.md), [`B46-C10`](../programa/clases/B46/B46-C10-radioastronomia-mediante-sdr/CLASE.md)
+5. **Observación de radio solar** — [`B30-C21`](../programa/clases/B30/B30-C21-radioemision-solar-estallidos-de-radio-y-su-observacion/CLASE.md)
+6. **Recepción de hidrógeno neutral** — [`B46-C11`](../programa/clases/B46/B46-C11-observacion-de-hidrogeno-a-21-centimetros/CLASE.md)
+7. **Interferencias locales** — [`B118-C17`](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md)
+8. **Filtrado de señales** — [`B15-C07`](../programa/clases/B15/B15-C07-filtrado-digital/CLASE.md), [`B15-C06`](../programa/clases/B15/B15-C06-analisis-espectral-de-senales/CLASE.md)
+9. **Registro de observaciones** — [`B48-C17`](../programa/clases/B48/B48-C17-gestion-de-archivos-observacionales/CLASE.md), [`B13-C19`](../programa/clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md)
+10. **Validación de observaciones caseras** — [`B46-C20`](../programa/clases/B46/B46-C20-proyecto-de-observacion-radioastronomica/CLASE.md), [`B13-C18`](../programa/clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md)
+
+✅ **Checkpoint R04-M04.** Sin mirar el material, explica cómo se relacionan «Plataformas de radio definida por software», «Recepción de hidrógeno neutral» y «Validación de observaciones caseras», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M05 · Calibración de interferómetros
+
+1. **Visibilidades interferométricas** — [`B46-C15`](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md)
+2. **Calibradores de fase** — [`B46-C17`](../programa/clases/B46/B46-C17-calibracion-de-fase/CLASE.md)
+3. **Calibradores de amplitud** — [`B51-C01`](../programa/clases/B51/B51-C01-calibracion-de-amplitud-y-escala-de-flujo-con-calibradores-primarios/CLASE.md)
+4. **Cierre de fase** — [`B51-C02`](../programa/clases/B51/B51-C02-cantidades-de-cierre-fase-y-amplitud-de-cierre/CLASE.md)
+5. **Ganancias complejas** — [`B51-C03`](../programa/clases/B51/B51-C03-ganancias-complejas-por-antena-y-soluciones-de-calibracion/CLASE.md)
+6. **Errores de banda** — [`B51-C04`](../programa/clases/B51/B51-C04-respuesta-de-banda-y-errores-dependientes-de-la-frecuencia/CLASE.md)
+7. **Corrección ionosférica** — [`B51-C05`](../programa/clases/B51/B51-C05-efectos-ionosfericos-en-radioastronomia-retardo-rotacion-de-faraday-y-su-correccion/CLASE.md)
+8. **Auto calibración** — [`B51-C06`](../programa/clases/B51/B51-C06-autocalibracion-iterativa-con-modelo-de-cielo/CLASE.md)
+9. **Evaluación de residuos** — [`B51-C07`](../programa/clases/B51/B51-C07-evaluacion-de-residuos-y-diagnostico-de-calidad-de-calibracion/CLASE.md)
+10. **Validación de imágenes calibradas** — [`B46-C19`](../programa/clases/B46/B46-C19-imagenes-de-radio-y-clean/CLASE.md), [`B13-C18`](../programa/clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md)
+
+✅ **Checkpoint R04-M05.** Sin mirar el material, explica cómo se relacionan «Visibilidades interferométricas», «Errores de banda» y «Validación de imágenes calibradas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M06 · Correlación de señales astronómicas
+
+1. **Muestreo de señales** — [`B15-C02`](../programa/clases/B15/B15-C02-muestreo-y-aliasing/CLASE.md), [`B46-C09`](../programa/clases/B46/B46-C09-conversion-analogica-digital/CLASE.md)
+2. **Alineación temporal** — [`B51-C08`](../programa/clases/B51/B51-C08-compensacion-de-retardo-y-alineacion-temporal-de-flujos-de-antenas/CLASE.md)
+3. **Correlación cruzada** — [`B46-C15`](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md), [`B12-C05`](../programa/clases/B12/B12-C05-covarianza-y-correlacion/CLASE.md)
+4. **Correladores FX** — [`B46-C15`](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md), [`B15-C05`](../programa/clases/B15/B15-C05-transformada-rapida-de-fourier/CLASE.md)
+5. **Correladores XF** — [`B46-C15`](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md), [`B15-C08`](../programa/clases/B15/B15-C08-convolucion-y-respuesta-impulsional/CLASE.md)
+6. **Geometría de líneas de base** — [`B46-C14`](../programa/clases/B46/B46-C14-lineas-de-base-interferometricas/CLASE.md)
+7. **Fringe stopping** — [`B51-C09`](../programa/clases/B51/B51-C09-fringe-stopping-y-rotacion-de-fase-por-retardo-geometrico/CLASE.md)
+8. **Canalización espectral** — [`B15-C05`](../programa/clases/B15/B15-C05-transformada-rapida-de-fourier/CLASE.md), [`B15-C06`](../programa/clases/B15/B15-C06-analisis-espectral-de-senales/CLASE.md)
+9. **Capacidad de procesamiento** — [`B14-C13`](../programa/clases/B14/B14-C13-computacion-paralela/CLASE.md), [`B14-C14`](../programa/clases/B14/B14-C14-vectorizacion-y-rendimiento/CLASE.md), [`B14-C16`](../programa/clases/B14/B14-C16-computacion-distribuida-y-hpc/CLASE.md)
+10. **Prueba numérica de correlador** — [`B14-C10`](../programa/clases/B14/B14-C10-pruebas-de-regresion-numerica/CLASE.md)
+
+✅ **Checkpoint R04-M06.** Sin mirar el material, explica cómo se relacionan «Muestreo de señales», «Geometría de líneas de base» y «Prueba numérica de correlador», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M07 · VLBI y geodesia
+
+1. **Redes de antenas geodésicas** — [`B46-C18`](../programa/clases/B46/B46-C18-vlbi-y-geodesia/CLASE.md), [`B13-C11`](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md)
+2. **Relojes atómicos de estación** — [`B13-C07`](../programa/clases/B13/B13-C07-relojes-atomicos-y-frecuencia/CLASE.md), [`B46-C08`](../programa/clases/B46/B46-C08-osciladores-y-estabilidad/CLASE.md)
+3. **Retardos geométricos** — [`B46-C14`](../programa/clases/B46/B46-C14-lineas-de-base-interferometricas/CLASE.md), [`B46-C18`](../programa/clases/B46/B46-C18-vlbi-y-geodesia/CLASE.md)
+4. **Retardos atmosféricos** — [`B51-C10`](../programa/clases/B51/B51-C10-retardo-troposferico-e-ionosferico-en-vlbi-y-su-modelado/CLASE.md)
+5. **Fringes VLBI** — [`B51-C11`](../programa/clases/B51/B51-C11-busqueda-de-franjas-vlbi-ajuste-de-retardo-y-tasa/CLASE.md)
+6. **Sistemas de referencia celestes** — [`B13-C21`](../programa/clases/B13/B13-C21-sistema-de-referencia-celeste-icrf-y-cuasares/CLASE.md)
+7. **Rotación terrestre** — [`B13-C22`](../programa/clases/B13/B13-C22-parametros-de-orientacion-terrestre-precesion-nutacion-ut1-y-movimiento-polar/CLASE.md)
+8. **Análisis de observaciones VLBI** — [`B46-C18`](../programa/clases/B46/B46-C18-vlbi-y-geodesia/CLASE.md), [`B74-C07`](../programa/clases/B74/B74-C07-ajuste-por-minimos-cuadrados/CLASE.md), [`B74-C01`](../programa/clases/B74/B74-C01-modelos-de-observacion/CLASE.md)
+9. **Geodesia de alta precisión** — [`B57-C10`](../programa/clases/B57/B57-C10-geodesia-mediante-gnss/CLASE.md), [`B46-C18`](../programa/clases/B46/B46-C18-vlbi-y-geodesia/CLASE.md), [`B53-C04`](../programa/clases/B53/B53-C04-geoides-y-elipsoides/CLASE.md)
+10. **Estándares de archivos VLBI** — [`B51-C12`](../programa/clases/B51/B51-C12-formatos-de-datos-vlbi-y-geodesicos/CLASE.md)
+
+✅ **Checkpoint R04-M07.** Sin mirar el material, explica cómo se relacionan «Redes de antenas geodésicas», «Sistemas de referencia celestes» y «Estándares de archivos VLBI», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R04-M08 · Reducción profesional de datos de radio
+
+1. **Importación de visibilidades** — [`B46-C15`](../programa/clases/B46/B46-C15-correladores-y-visibilidades/CLASE.md), [`B14-C05`](../programa/clases/B14/B14-C05-tablas-astronomicas-y-catalogos/CLASE.md)
+2. **Inspección de metadatos** — [`B44-C19`](../programa/clases/B44/B44-C19-formato-fits-y-metadatos/CLASE.md), [`B14-C06`](../programa/clases/B14/B14-C06-formato-fits-y-encabezados/CLASE.md)
+3. **Marcado de datos espurios** — [`B51-C13`](../programa/clases/B51/B51-C13-marcado-de-datos-espurios-e-interferencia-en-visibilidades/CLASE.md)
+4. **Calibración de banda** — [`B51-C14`](../programa/clases/B51/B51-C14-calibracion-de-banda-en-la-reduccion-de-datos-de-sintesis/CLASE.md)
+5. **Síntesis de apertura** — [`B46-C16`](../programa/clases/B46/B46-C16-sintesis-de-apertura/CLASE.md)
+6. **Algoritmo CLEAN** — [`B46-C19`](../programa/clases/B46/B46-C19-imagenes-de-radio-y-clean/CLASE.md)
+7. **Restauración de imágenes** — [`B15-C11`](../programa/clases/B15/B15-C11-deconvolucion-y-enfoque/CLASE.md), [`B46-C19`](../programa/clases/B46/B46-C19-imagenes-de-radio-y-clean/CLASE.md)
+8. **Medición de flujo** — [`B15-C12`](../programa/clases/B15/B15-C12-deteccion-de-fuentes-astronomicas/CLASE.md), [`B15-C16`](../programa/clases/B15/B15-C16-ajuste-de-curvas/CLASE.md), [`B13-C17`](../programa/clases/B13/B13-C17-calibracion-radiometrica/CLASE.md)
+9. **Incertidumbre de imágenes** — [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md), [`B13-C12`](../programa/clases/B13/B13-C12-incertidumbre-expandida/CLASE.md)
+10. **Archivo científico reproducible** — [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md), [`B14-C12`](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md), [`B48-C17`](../programa/clases/B48/B48-C17-gestion-de-archivos-observacionales/CLASE.md)
+
+✅ **Checkpoint R04-M08.** Sin mirar el material, explica cómo se relacionan «Importación de visibilidades», «Algoritmo CLEAN» y «Archivo científico reproducible», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Observación de la línea de 21 cm con un receptor propio.** Diseña, calibra y opera una cadena de recepción de bajo costo para detectar la línea de hidrógeno neutro y estima la rotación de la galaxia con tus datos.
+
+Entregables:
+
+- Diagrama de la cadena con presupuesto de ruido
+- Procedimiento de calibración con patrón conocido
+- Espectros reducidos con su incertidumbre
+- Curva de velocidad con la interpretación y sus límites
+
+Criterios de evaluación:
+
+- El presupuesto de ruido concuerda con lo medido
+- La calibración es reproducible por otra persona
+- La interferencia se identifica y se trata
+- Se declara la resolución y la sensibilidad obtenidas
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes dimensionar una cadena de recepción de radio y verificar su sensibilidad.
+- Puedes reducir datos de radio y de interferometría con calibración documentada.
+- Puedes explicar cómo la correlación de señales produce imágenes.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **sistema o un análisis radioastronómico documentado**:

@@ -122,6 +122,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes derivar la luminosidad de una estrella a partir de su radio y su temperatura efectiva, con unidades?
+- ¿Sabes leer un diagrama de Hertzsprung-Russell y ubicar en él una estrella de 1 y de 10 masas solares?
+- ¿Puedes ajustar una recta a datos con incertidumbres y reportar el error del ajuste?
+- ¿Escribes un script que lea un espectro y mida la posición de una línea?
+
+#### R01-M01 · Atmósferas estelares
+
+1. **Transferencia radiativa** — [`B32-C01`](../programa/clases/B32/B32-C01-ecuacion-de-transferencia-radiativa-en-atmosferas-estelares/CLASE.md)
+2. **Modelos LTE y no LTE** — [`B32-C02`](../programa/clases/B32/B32-C02-equilibrio-termodinamico-local-y-desviaciones-no-lte/CLASE.md)
+3. **Opacidad continua** — [`B32-C03`](../programa/clases/B32/B32-C03-opacidad-continua-ligado-libre-libre-libre-y-h/CLASE.md)
+4. **Opacidad de líneas** — [`B32-C04`](../programa/clases/B32/B32-C04-opacidad-de-lineas-ensanchamiento-y-perfil-de-voigt/CLASE.md)
+5. **Equilibrio radiativo** — [`B24-C05`](../programa/clases/B24/B24-C05-transporte-radiativo-y-convectivo/CLASE.md), [`B24-C09`](../programa/clases/B24/B24-C09-atmosferas-y-opacidades/CLASE.md)
+6. **Estructura de temperatura** — [`B32-C05`](../programa/clases/B32/B32-C05-relacion-t-y-estructura-termica-de-la-fotosfera/CLASE.md)
+7. **Turbulencia atmosférica estelar** — [`B32-C06`](../programa/clases/B32/B32-C06-micro-y-macroturbulencia-y-granulacion-estelar/CLASE.md)
+8. **Campos magnéticos superficiales** — [`B24-C11`](../programa/clases/B24/B24-C11-rotacion-y-campos-magneticos/CLASE.md), [`B24-C12`](../programa/clases/B24/B24-C12-manchas-y-actividad-estelar/CLASE.md)
+9. **Modelos de atmósferas 1D y 3D** — [`B32-C07`](../programa/clases/B32/B32-C07-modelos-de-atmosferas-estelares-1d-y-3d-hidrodinamicos/CLASE.md)
+10. **Inversión de perfiles espectrales** — [`B32-C08`](../programa/clases/B32/B32-C08-sintesis-espectral-e-inversion-de-perfiles/CLASE.md)
+
+✅ **Checkpoint R01-M01.** Sin mirar el material, explica cómo se relacionan «Transferencia radiativa», «Estructura de temperatura» y «Inversión de perfiles espectrales», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M02 · Modelos de interiores estelares
+
+1. **Ecuaciones de estructura estelar** — [`B24-C04`](../programa/clases/B24/B24-C04-equilibrio-hidrostatico-estelar/CLASE.md), [`B24-C05`](../programa/clases/B24/B24-C05-transporte-radiativo-y-convectivo/CLASE.md), [`B24-C20`](../programa/clases/B24/B24-C20-modelo-simplificado-de-estructura-estelar/CLASE.md)
+2. **Equilibrio hidrostático** — [`B24-C04`](../programa/clases/B24/B24-C04-equilibrio-hidrostatico-estelar/CLASE.md)
+3. **Gradientes radiativos** — [`B24-C05`](../programa/clases/B24/B24-C05-transporte-radiativo-y-convectivo/CLASE.md)
+4. **Transporte convectivo** — [`B37-C01`](../programa/clases/B37/B37-C01-conveccion-longitud-de-mezcla-y-criterios-de-schwarzschild-y-ledoux/CLASE.md)
+5. **Ecuaciones de estado** — [`B37-C02`](../programa/clases/B37/B37-C02-ecuaciones-de-estado-estelares-gas-ideal-radiacion-y-degeneracion/CLASE.md)
+6. **Generación de energía nuclear** — [`B24-C06`](../programa/clases/B24/B24-C06-fusion-de-hidrogeno/CLASE.md), [`B24-C07`](../programa/clases/B24/B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md), [`B24-C08`](../programa/clases/B24/B24-C08-nucleosintesis-estelar/CLASE.md)
+7. **Opacidades estelares** — [`B37-C03`](../programa/clases/B37/B37-C03-opacidad-media-de-rosseland-y-tablas-de-opacidad-en-interiores/CLASE.md)
+8. **Condiciones de frontera** — [`B37-C04`](../programa/clases/B37/B37-C04-condiciones-de-frontera-centrales-y-superficiales-en-modelos-estelares/CLASE.md)
+9. **Códigos evolutivos estelares** — [`B37-C05`](../programa/clases/B37/B37-C05-codigos-de-evolucion-estelar-configuracion-verificacion-y-limites/CLASE.md)
+10. **Calibración por observaciones** — [`B37-C06`](../programa/clases/B37/B37-C06-calibracion-de-modelos-estelares-con-el-sol-y-binarias/CLASE.md)
+
+✅ **Checkpoint R01-M02.** Sin mirar el material, explica cómo se relacionan «Ecuaciones de estructura estelar», «Generación de energía nuclear» y «Calibración por observaciones», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M03 · Evolución estelar avanzada
+
+1. **Presecuencia principal** — [`B24-C01`](../programa/clases/B24/B24-C01-colapso-de-nubes-moleculares/CLASE.md), [`B24-C02`](../programa/clases/B24/B24-C02-formacion-de-protoestrellas/CLASE.md)
+2. **Secuencia principal** — [`B24-C03`](../programa/clases/B24/B24-C03-diagrama-de-hertzsprung-russell/CLASE.md), [`B24-C06`](../programa/clases/B24/B24-C06-fusion-de-hidrogeno/CLASE.md), [`B24-C07`](../programa/clases/B24/B24-C07-ciclo-cno-y-cadena-proton-proton/CLASE.md)
+3. **Subgigantes y gigantes** — [`B24-C15`](../programa/clases/B24/B24-C15-estrellas-de-baja-masa/CLASE.md), [`B24-C16`](../programa/clases/B24/B24-C16-gigantes-rojas/CLASE.md)
+4. **Rama asintótica de gigantes** — [`B24-C21`](../programa/clases/B24/B24-C21-rama-asintotica-de-gigantes-pulsos-termicos-y-proceso-s/CLASE.md)
+5. **Pérdida de masa** — [`B24-C17`](../programa/clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md)
+6. **Estrellas masivas** — [`B24-C17`](../programa/clases/B24/B24-C17-estrellas-masivas-y-perdida-de-masa/CLASE.md), [`B27-C15`](../programa/clases/B27/B27-C15-supernovas-de-colapso/CLASE.md)
+7. **Binariedad y transferencia de masa** — [`B24-C22`](../programa/clases/B24/B24-C22-evolucion-binaria-lobulo-de-roche-y-transferencia-de-masa/CLASE.md)
+8. **Remanentes estelares** — [`B24-C18`](../programa/clases/B24/B24-C18-etapas-finales-de-evolucion/CLASE.md), [`B27-C02`](../programa/clases/B27/B27-C02-enanas-blancas-y-limite-de-chandrasekhar/CLASE.md), [`B27-C03`](../programa/clases/B27/B27-C03-estrellas-de-neutrones/CLASE.md)
+9. **Metallicidad y evolución** — [`B25-C17`](../programa/clases/B25/B25-C17-metallicidad-y-evolucion-quimica/CLASE.md)
+10. **Isocronas y edades** — [`B24-C19`](../programa/clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md)
+
+✅ **Checkpoint R01-M03.** Sin mirar el material, explica cómo se relacionan «Presecuencia principal», «Estrellas masivas» y «Isocronas y edades», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M04 · Espectroscopía estelar avanzada
+
+1. **Medición de perfiles de línea** — [`B32-C09`](../programa/clases/B32/B32-C09-medicion-de-perfiles-de-linea-ancho-equivalente-y-ajuste/CLASE.md)
+2. **Resolución y dispersión espectral** — [`B45-C06`](../programa/clases/B45/B45-C06-diseno-de-espectrografos/CLASE.md), [`B45-C07`](../programa/clases/B45/B45-C07-resolucion-espectral/CLASE.md)
+3. **Modelado de continua** — [`B32-C10`](../programa/clases/B32/B32-C10-normalizacion-y-modelado-del-continuo-espectral/CLASE.md)
+4. **Abundancias químicas** — [`B45-C14`](../programa/clases/B45/B45-C14-composicion-quimica-por-espectros/CLASE.md), [`B24-C10`](../programa/clases/B24/B24-C10-espectros-y-clasificacion-estelar/CLASE.md)
+5. **Velocidades radiales** — [`B29-C03`](../programa/clases/B29/B29-C03-velocidad-radial-estelar/CLASE.md), [`B45-C12`](../programa/clases/B45/B45-C12-efecto-doppler-en-espectros/CLASE.md)
+6. **Rotación y ensanchamiento** — [`B32-C11`](../programa/clases/B32/B32-C11-ensanchamiento-rotacional-y-v-sin-i/CLASE.md)
+7. **Efecto Zeeman** — [`B32-C12`](../programa/clases/B32/B32-C12-efecto-zeeman-y-diagnostico-de-campos-magneticos-estelares/CLASE.md)
+8. **Calibraciones espectroscópicas** — [`B45-C08`](../programa/clases/B45/B45-C08-calibracion-en-longitud-de-onda/CLASE.md), [`B45-C09`](../programa/clases/B45/B45-C09-calibracion-de-respuesta-instrumental/CLASE.md)
+9. **Espectros de alta resolución** — [`B45-C06`](../programa/clases/B45/B45-C06-diseno-de-espectrografos/CLASE.md), [`B45-C07`](../programa/clases/B45/B45-C07-resolucion-espectral/CLASE.md), [`B45-C18`](../programa/clases/B45/B45-C18-extraccion-de-espectros/CLASE.md)
+10. **Evaluación de incertidumbre química** — [`B45-C19`](../programa/clases/B45/B45-C19-reduccion-e-incertidumbre-instrumental/CLASE.md), [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md)
+
+✅ **Checkpoint R01-M04.** Sin mirar el material, explica cómo se relacionan «Medición de perfiles de línea», «Rotación y ensanchamiento» y «Evaluación de incertidumbre química», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M05 · Asterosismología
+
+1. **Modos de oscilación** — [`B24-C14`](../programa/clases/B24/B24-C14-asterosismologia-inicial/CLASE.md)
+2. **Oscilaciones radiales** — [`B37-C07`](../programa/clases/B37/B37-C07-oscilaciones-radiales-y-relacion-periodo-densidad-media/CLASE.md)
+3. **Oscilaciones no radiales** — [`B37-C08`](../programa/clases/B37/B37-C08-oscilaciones-no-radiales-modos-p-g-y-mixtos/CLASE.md)
+4. **Transformadas de series temporales** — [`B15-C05`](../programa/clases/B15/B15-C05-transformada-rapida-de-fourier/CLASE.md), [`B15-C06`](../programa/clases/B15/B15-C06-analisis-espectral-de-senales/CLASE.md), [`B29-C19`](../programa/clases/B29/B29-C19-analisis-de-series-temporales-irregularmente-muestreadas/CLASE.md)
+5. **Frecuencias características** — [`B37-C09`](../programa/clases/B37/B37-C09-frecuencias-caracteristicas-max-y-espaciado-de-periodos/CLASE.md)
+6. **Inversión del interior estelar** — [`B37-C10`](../programa/clases/B37/B37-C10-inversion-asterosismica-de-perfiles-internos/CLASE.md)
+7. **Rotación interna** — [`B37-C11`](../programa/clases/B37/B37-C11-rotacion-interna-a-partir-del-desdoblamiento-de-frecuencias/CLASE.md)
+8. **Gigantes rojas oscilantes** — [`B37-C12`](../programa/clases/B37/B37-C12-gigantes-rojas-oscilantes-y-modos-mixtos/CLASE.md)
+9. **Datos de misiones fotométricas** — [`B37-C13`](../programa/clases/B37/B37-C13-series-fotometricas-de-kepler-tess-y-plato-para-asterosismologia/CLASE.md)
+10. **Ajuste de modelos sísmicos** — [`B37-C14`](../programa/clases/B37/B37-C14-ajuste-de-modelos-estelares-a-frecuencias-sismicas/CLASE.md)
+
+✅ **Checkpoint R01-M05.** Sin mirar el material, explica cómo se relacionan «Modos de oscilación», «Inversión del interior estelar» y «Ajuste de modelos sísmicos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M06 · Poblaciones estelares
+
+1. **Diagramas color-magnitud** — [`B24-C03`](../programa/clases/B24/B24-C03-diagrama-de-hertzsprung-russell/CLASE.md), [`B24-C19`](../programa/clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md), [`B45-C02`](../programa/clases/B45/B45-C02-magnitudes-y-sistemas-de-filtros/CLASE.md)
+2. **Funciones de luminosidad** — [`B38-C01`](../programa/clases/B38/B38-C01-funciones-de-luminosidad-estelar/CLASE.md)
+3. **Funciones iniciales de masa** — [`B38-C02`](../programa/clases/B38/B38-C02-funcion-inicial-de-masa-y-su-universalidad/CLASE.md)
+4. **Metallicidad poblacional** — [`B25-C17`](../programa/clases/B25/B25-C17-metallicidad-y-evolucion-quimica/CLASE.md)
+5. **Poblaciones de disco** — [`B25-C01`](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md), [`B25-C07`](../programa/clases/B25/B25-C07-dinamica-de-poblaciones-estelares/CLASE.md)
+6. **Poblaciones de halo** — [`B25-C01`](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md), [`B25-C07`](../programa/clases/B25/B25-C07-dinamica-de-poblaciones-estelares/CLASE.md), [`B25-C15`](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md)
+7. **Cúmulos globulares** — [`B25-C06`](../programa/clases/B25/B25-C06-cumulos-estelares/CLASE.md), [`B24-C19`](../programa/clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md)
+8. **Cúmulos abiertos** — [`B25-C06`](../programa/clases/B25/B25-C06-cumulos-estelares/CLASE.md), [`B24-C19`](../programa/clases/B24/B24-C19-cumulos-y-edades-estelares/CLASE.md)
+9. **Cinemática estelar Gaia** — [`B38-C03`](../programa/clases/B38/B38-C03-cinematica-estelar-con-gaia-movimientos-propios-y-espacio-de-fase/CLASE.md)
+10. **Reconstrucción de historia estelar** — [`B38-C04`](../programa/clases/B38/B38-C04-historia-de-formacion-estelar-a-partir-de-poblaciones-resueltas/CLASE.md)
+
+✅ **Checkpoint R01-M06.** Sin mirar el material, explica cómo se relacionan «Diagramas color-magnitud», «Poblaciones de halo» y «Reconstrucción de historia estelar», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M07 · Simulación de galaxias
+
+1. **Potenciales gravitatorios galácticos** — [`B38-C05`](../programa/clases/B38/B38-C05-potenciales-galacticos-plummer-miyamoto-nagai-y-nfw/CLASE.md)
+2. **Distribuciones de masa** — [`B25-C08`](../programa/clases/B25/B25-C08-curvas-de-rotacion-de-galaxias/CLASE.md), [`B25-C15`](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md), [`B09-C20`](../programa/clases/B09/B09-C20-aplicaciones-a-campos-gravitatorios/CLASE.md)
+3. **Modelos de discos** — [`B25-C01`](../programa/clases/B25/B25-C01-estructura-de-la-via-lactea/CLASE.md), [`B25-C02`](../programa/clases/B25/B25-C02-brazos-espirales-y-barra-galactica/CLASE.md)
+4. **Halos de materia oscura** — [`B25-C15`](../programa/clases/B25/B25-C15-materia-oscura-en-galaxias/CLASE.md)
+5. **Simulación de N cuerpos** — [`B73-C08`](../programa/clases/B73/B73-C08-sistemas-de-n-cuerpos/CLASE.md), [`B73-C09`](../programa/clases/B73/B73-C09-integracion-de-largo-plazo/CLASE.md)
+6. **Simulación hidrodinámica** — [`B38-C06`](../programa/clases/B38/B38-C06-hidrodinamica-en-simulaciones-sph-y-metodos-de-malla/CLASE.md)
+7. **Formación estelar submalla** — [`B38-C07`](../programa/clases/B38/B38-C07-modelos-submalla-de-formacion-estelar-y-retroalimentacion/CLASE.md)
+8. **Interacciones de galaxias** — [`B25-C12`](../programa/clases/B25/B25-C12-interacciones-y-fusiones-galacticas/CLASE.md)
+9. **Postprocesamiento observacional** — [`B38-C08`](../programa/clases/B38/B38-C08-observaciones-sinteticas-de-galaxias-simuladas/CLASE.md)
+10. **Validación de galaxias simuladas** — [`B38-C09`](../programa/clases/B38/B38-C09-validacion-de-galaxias-simuladas-frente-a-observaciones/CLASE.md)
+
+✅ **Checkpoint R01-M07.** Sin mirar el material, explica cómo se relacionan «Potenciales gravitatorios galácticos», «Simulación hidrodinámica» y «Validación de galaxias simuladas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R01-M08 · Investigación estelar y galáctica
+
+1. **Preguntas de investigación** — [`B01-C06`](../programa/clases/B01/B01-C06-preguntas-investigables-en-astronomia/CLASE.md)
+2. **Búsqueda sistemática bibliográfica** — [`B20-C01`](../programa/clases/B20/B20-C01-busqueda-bibliografica-sistematica-y-gestion-de-referencias/CLASE.md)
+3. **Selección de catálogos** — [`B25-C19`](../programa/clases/B25/B25-C19-catalogos-y-sesgos-de-seleccion/CLASE.md), [`B14-C05`](../programa/clases/B14/B14-C05-tablas-astronomicas-y-catalogos/CLASE.md)
+4. **Curación de datos** — [`B14-C08`](../programa/clases/B14/B14-C08-pandas-y-limpieza-de-datos/CLASE.md), [`B12-C19`](../programa/clases/B12/B12-C19-deteccion-de-valores-atipicos/CLASE.md)
+5. **Definición de hipótesis** — [`B01-C07`](../programa/clases/B01/B01-C07-hipotesis-y-predicciones-falsables/CLASE.md), [`B12-C09`](../programa/clases/B12/B12-C09-pruebas-de-hipotesis/CLASE.md)
+6. **Diseño de análisis** — [`B20-C02`](../programa/clases/B20/B20-C02-diseno-de-un-plan-de-analisis-y-preregistro/CLASE.md)
+7. **Estadística de resultados** — [`B12-C08`](../programa/clases/B12/B12-C08-intervalos-de-confianza/CLASE.md), [`B12-C09`](../programa/clases/B12/B12-C09-pruebas-de-hipotesis/CLASE.md), [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md)
+8. **Reproducibilidad de código** — [`B14-C09`](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md), [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md), [`B124-C14`](../programa/clases/B124/B124-C14-ciencia-abierta-y-reproducibilidad/CLASE.md)
+9. **Revisión por pares** — [`B20-C03`](../programa/clases/B20/B20-C03-revision-por-pares-y-respuesta-a-arbitros/CLASE.md)
+10. **Redacción de artículo científico** — [`B20-C04`](../programa/clases/B20/B20-C04-redaccion-de-un-articulo-cientifico/CLASE.md)
+
+✅ **Checkpoint R01-M08.** Sin mirar el material, explica cómo se relacionan «Preguntas de investigación», «Diseño de análisis» y «Redacción de artículo científico», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Modelo y diagnóstico de un cúmulo estelar.** Construye un modelo simplificado de interior estelar para tres masas y confróntalo con datos públicos de un cúmulo: su edad se infiere del punto de desvío de la secuencia principal.
+
+Entregables:
+
+- Cuaderno reproducible con el modelo y sus supuestos
+- Diagrama color-magnitud del cúmulo con isócronas superpuestas
+- Estimación de edad y metalicidad con su incertidumbre
+- Informe de dos páginas con límites del modelo
+
+Criterios de evaluación:
+
+- Cada cifra con unidad, fuente y versión de los datos
+- La edad se justifica con al menos dos indicadores independientes
+- El código se ejecuta desde cero sin editar rutas
+- Se discuten explícitamente las degeneraciones edad-metalicidad-enrojecimiento
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes explicar y calcular la estructura y evolución de una estrella de masa dada, y decir dónde falla tu modelo.
+- Puedes interpretar un espectro estelar y obtener temperatura, gravedad y abundancias con su incertidumbre.
+- Puedes defender por escrito la edad de una población estelar con datos públicos.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **análisis reproducible de un problema estelar o galáctico**:

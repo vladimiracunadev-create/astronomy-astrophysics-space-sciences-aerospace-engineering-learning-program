@@ -113,6 +113,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular esfuerzos y deformaciones en una viga?
+- ¿Sabes qué son el módulo elástico y el límite de fluencia?
+- ¿Entiendes la transferencia de calor por conducción y radiación?
+- ¿Manejas una hoja de cálculo o un script para análisis paramétrico?
+
+#### R14-M01 · Materiales aeroespaciales avanzados
+
+1. **Aleaciones de aluminio** — [`B84-C02`](../programa/clases/B84/B84-C02-propiedades-de-aleaciones/CLASE.md)
+2. **Titanio aeroespacial** — [`B84-C02`](../programa/clases/B84/B84-C02-propiedades-de-aleaciones/CLASE.md), [`B84-C05`](../programa/clases/B84/B84-C05-seleccion-de-materiales/CLASE.md)
+3. **Materiales compuestos** — [`B84-C03`](../programa/clases/B84/B84-C03-materiales-compuestos/CLASE.md)
+4. **Polímeros espaciales** — [`B84-C04`](../programa/clases/B84/B84-C04-ceramicos-y-polimeros-espaciales/CLASE.md)
+5. **Cerámicos térmicos** — [`B84-C04`](../programa/clases/B84/B84-C04-ceramicos-y-polimeros-espaciales/CLASE.md)
+6. **Fatiga en vacío** — [`B84-C06`](../programa/clases/B84/B84-C06-comportamiento-bajo-vacio/CLASE.md), [`B84-C08`](../programa/clases/B84/B84-C08-fatiga-y-fractura/CLASE.md)
+7. **Desgasificación** — [`B84-C07`](../programa/clases/B84/B84-C07-desgasificacion-de-materiales/CLASE.md)
+8. **Radiación de materiales** — [`B85-C24`](../programa/clases/B85/B85-C24-efectos-de-la-radiacion-ionizante-en-materiales-y-electronica/CLASE.md)
+9. **Compatibilidad química** — [`B84-C21`](../programa/clases/B84/B84-C21-compatibilidad-quimica-y-galvanica-de-materiales/CLASE.md)
+10. **Selección multicriterio** — [`B84-C05`](../programa/clases/B84/B84-C05-seleccion-de-materiales/CLASE.md)
+
+✅ **Checkpoint R14-M01.** Sin mirar el material, explica cómo se relacionan «Aleaciones de aluminio», «Fatiga en vacío» y «Selección multicriterio», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M02 · Mecánica estructural espacial
+
+1. **Tensiones y deformaciones** — [`B84-C22`](../programa/clases/B84/B84-C22-tension-deformacion-y-elasticidad-lineal/CLASE.md)
+2. **Elasticidad lineal** — [`B84-C22`](../programa/clases/B84/B84-C22-tension-deformacion-y-elasticidad-lineal/CLASE.md)
+3. **Flexión de vigas** — [`B84-C23`](../programa/clases/B84/B84-C23-vigas-y-placas-flexion-y-pandeo/CLASE.md)
+4. **Pandeo de paneles** — [`B84-C23`](../programa/clases/B84/B84-C23-vigas-y-placas-flexion-y-pandeo/CLASE.md)
+5. **Uniones atornilladas** — [`B84-C17`](../programa/clases/B84/B84-C17-soldadura-y-uniones/CLASE.md)
+6. **Cargas estáticas** — [`B84-C09`](../programa/clases/B84/B84-C09-analisis-de-cargas/CLASE.md)
+7. **Dinámica estructural** — [`B84-C10`](../programa/clases/B84/B84-C10-analisis-modal/CLASE.md), [`B84-C11`](../programa/clases/B84/B84-C11-vibraciones-y-resonancias/CLASE.md)
+8. **Coeficientes de seguridad** — [`B84-C24`](../programa/clases/B84/B84-C24-factores-de-seguridad-y-margenes-estructurales/CLASE.md)
+9. **Comportamiento no lineal** — [`B84-C25`](../programa/clases/B84/B84-C25-comportamiento-estructural-no-lineal-plasticidad-y-contacto/CLASE.md)
+10. **Margen estructural** — [`B84-C24`](../programa/clases/B84/B84-C24-factores-de-seguridad-y-margenes-estructurales/CLASE.md)
+
+✅ **Checkpoint R14-M02.** Sin mirar el material, explica cómo se relacionan «Tensiones y deformaciones», «Cargas estáticas» y «Margen estructural», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M03 · Elementos finitos y análisis de tensiones
+
+1. **Generación de mallas** — [`B84-C26`](../programa/clases/B84/B84-C26-generacion-de-mallas-y-convergencia-en-elementos-finitos/CLASE.md)
+2. **Elementos de viga** — [`B84-C27`](../programa/clases/B84/B84-C27-tipos-de-elementos-finitos-viga-placa-y-solido/CLASE.md)
+3. **Elementos de placa** — [`B84-C27`](../programa/clases/B84/B84-C27-tipos-de-elementos-finitos-viga-placa-y-solido/CLASE.md)
+4. **Elementos sólidos** — [`B84-C27`](../programa/clases/B84/B84-C27-tipos-de-elementos-finitos-viga-placa-y-solido/CLASE.md)
+5. **Condiciones de contorno** — [`B84-C28`](../programa/clases/B84/B84-C28-condiciones-de-contorno-y-cargas-en-modelos-de-elementos-finitos/CLASE.md)
+6. **Convergencia de malla** — [`B84-C26`](../programa/clases/B84/B84-C26-generacion-de-mallas-y-convergencia-en-elementos-finitos/CLASE.md)
+7. **Concentraciones de tensión** — [`B84-C29`](../programa/clases/B84/B84-C29-concentraciones-de-tension-y-entallas/CLASE.md)
+8. **Análisis modal** — [`B84-C10`](../programa/clases/B84/B84-C10-analisis-modal/CLASE.md), [`B84-C12`](../programa/clases/B84/B84-C12-analisis-de-elementos-finitos/CLASE.md)
+9. **Correlación con pruebas** — [`B84-C30`](../programa/clases/B84/B84-C30-correlacion-modelo-ensayo-y-actualizacion-de-modelos/CLASE.md)
+10. **Documentación de FEA** — [`B84-C31`](../programa/clases/B84/B84-C31-documentacion-y-revision-de-analisis-de-elementos-finitos/CLASE.md)
+
+✅ **Checkpoint R14-M03.** Sin mirar el material, explica cómo se relacionan «Generación de mallas», «Convergencia de malla» y «Documentación de FEA», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M04 · Vibraciones y dinámica estructural
+
+1. **Frecuencias naturales** — [`B84-C10`](../programa/clases/B84/B84-C10-analisis-modal/CLASE.md), [`B84-C11`](../programa/clases/B84/B84-C11-vibraciones-y-resonancias/CLASE.md)
+2. **Modos propios** — [`B84-C10`](../programa/clases/B84/B84-C10-analisis-modal/CLASE.md)
+3. **Resonancia** — [`B84-C11`](../programa/clases/B84/B84-C11-vibraciones-y-resonancias/CLASE.md)
+4. **Vibraciones aleatorias** — [`B84-C32`](../programa/clases/B84/B84-C32-vibracion-aleatoria-y-densidad-espectral-de-potencia/CLASE.md)
+5. **Respuesta armónica** — [`B84-C33`](../programa/clases/B84/B84-C33-respuesta-armonica-y-funciones-de-transferencia-estructural/CLASE.md)
+6. **Choque mecánico** — [`B90-C10`](../programa/clases/B90/B90-C10-ensayos-de-choque/CLASE.md)
+7. **Fatiga por vibración** — [`B84-C08`](../programa/clases/B84/B84-C08-fatiga-y-fractura/CLASE.md)
+8. **Aislamiento** — [`B47-C11`](../programa/clases/B47/B47-C11-aislamiento-vibracional/CLASE.md)
+9. **Instrumentación de acelerómetros** — [`B90-C23`](../programa/clases/B90/B90-C23-instrumentacion-y-adquisicion-de-datos-en-ensayos/CLASE.md)
+10. **Interpretación de ensayos** — [`B90-C09`](../programa/clases/B90/B90-C09-ensayos-de-vibracion/CLASE.md), [`B90-C17`](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
+
+✅ **Checkpoint R14-M04.** Sin mirar el material, explica cómo se relacionan «Frecuencias naturales», «Choque mecánico» y «Interpretación de ensayos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M05 · Fabricación avanzada y mecanismos
+
+1. **Fabricación aditiva metálica** — [`B84-C15`](../programa/clases/B84/B84-C15-manufactura-aditiva/CLASE.md)
+2. **Fabricación aditiva polimérica** — [`B84-C15`](../programa/clases/B84/B84-C15-manufactura-aditiva/CLASE.md)
+3. **Mecanismos desplegables** — [`B84-C13`](../programa/clases/B84/B84-C13-mecanismos-desplegables/CLASE.md)
+4. **Lubricación espacial** — [`B84-C14`](../programa/clases/B84/B84-C14-rodamientos-y-lubricacion-espacial/CLASE.md)
+5. **Tratamientos superficiales** — [`B84-C34`](../programa/clases/B84/B84-C34-tratamientos-y-recubrimientos-superficiales-de-componentes-espaciales/CLASE.md)
+6. **Tolerancias geométricas** — [`B84-C16`](../programa/clases/B84/B84-C16-tolerancias-de-fabricacion/CLASE.md)
+7. **Inspección dimensional** — [`B84-C18`](../programa/clases/B84/B84-C18-control-dimensional/CLASE.md), [`B84-C19`](../programa/clases/B84/B84-C19-inspeccion-no-destructiva/CLASE.md)
+8. **Prototipado de subconjuntos** — [`B90-C24`](../programa/clases/B90/B90-C24-prototipado-y-modelos-de-ingenieria-de-subconjuntos/CLASE.md)
+9. **Control de procesos** — [`B84-C35`](../programa/clases/B84/B84-C35-control-de-procesos-de-fabricacion-y-calidad/CLASE.md)
+10. **Aceptación de pieza** — [`B90-C19`](../programa/clases/B90/B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md)
+
+✅ **Checkpoint R14-M05.** Sin mirar el material, explica cómo se relacionan «Fabricación aditiva metálica», «Tolerancias geométricas» y «Aceptación de pieza», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M06 · Control térmico de vehículos
+
+1. **Balance térmico** — [`B85-C01`](../programa/clases/B85/B85-C01-balance-radiativo-de-satelite/CLASE.md)
+2. **Radiación de superficies** — [`B85-C04`](../programa/clases/B85/B85-C04-radiacion-termica-de-superficies/CLASE.md)
+3. **Aislantes MLI** — [`B85-C06`](../programa/clases/B85/B85-C06-aislamiento-multicapa/CLASE.md)
+4. **Radiadores** — [`B85-C07`](../programa/clases/B85/B85-C07-radiadores-espaciales/CLASE.md)
+5. **Tubos de calor** — [`B85-C09`](../programa/clases/B85/B85-C09-tubos-de-calor/CLASE.md)
+6. **Control activo** — [`B85-C10`](../programa/clases/B85/B85-C10-control-termico-activo/CLASE.md)
+7. **Sensores térmicos** — [`B85-C25`](../programa/clases/B85/B85-C25-sensores-y-telemetria-termica/CLASE.md)
+8. **Análisis transitorio** — [`B85-C26`](../programa/clases/B85/B85-C26-analisis-termico-transitorio-y-casos-extremos/CLASE.md)
+9. **Modelos de nodos** — [`B85-C18`](../programa/clases/B85/B85-C18-modelado-termico-por-nodos/CLASE.md)
+10. **Márgenes térmicos** — [`B85-C27`](../programa/clases/B85/B85-C27-margenes-y-correlacion-termica/CLASE.md)
+
+✅ **Checkpoint R14-M06.** Sin mirar el material, explica cómo se relacionan «Balance térmico», «Control activo» y «Márgenes térmicos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M07 · Protección contra ambientes espaciales
+
+1. **Oxígeno atómico** — [`B85-C13`](../programa/clases/B85/B85-C13-efectos-de-oxigeno-atomico/CLASE.md)
+2. **Radiación ionizante** — [`B85-C24`](../programa/clases/B85/B85-C24-efectos-de-la-radiacion-ionizante-en-materiales-y-electronica/CLASE.md)
+3. **Radiación ultravioleta** — [`B85-C14`](../programa/clases/B85/B85-C14-degradacion-ultravioleta/CLASE.md)
+4. **Micrometeoritos** — [`B106-C15`](../programa/clases/B106/B106-C15-proteccion-frente-a-micrometeoritos/CLASE.md)
+5. **Polvo abrasivo** — [`B85-C16`](../programa/clases/B85/B85-C16-polvo-lunar-y-contaminacion/CLASE.md)
+6. **Ciclos térmicos extremos** — [`B85-C11`](../programa/clases/B85/B85-C11-ciclos-termicos/CLASE.md)
+7. **Contaminación de superficies** — [`B90-C04`](../programa/clases/B90/B90-C04-control-de-contaminacion/CLASE.md)
+8. **Blindaje pasivo** — [`B85-C28`](../programa/clases/B85/B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md)
+9. **Evaluación de degradación** — [`B85-C29`](../programa/clases/B85/B85-C29-evaluacion-y-modelado-de-la-degradacion-en-orbita/CLASE.md)
+10. **Plan de protección** — [`B85-C28`](../programa/clases/B85/B85-C28-proteccion-pasiva-frente-al-ambiente-espacial/CLASE.md)
+
+✅ **Checkpoint R14-M07.** Sin mirar el material, explica cómo se relacionan «Oxígeno atómico», «Ciclos térmicos extremos» y «Plan de protección», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R14-M08 · Calificación estructural y térmica
+
+1. **Plan de calificación** — [`B90-C20`](../programa/clases/B90/B90-C20-campana-conceptual-de-calificacion-de-cubesat/CLASE.md)
+2. **Cargas límite** — [`B84-C09`](../programa/clases/B84/B84-C09-analisis-de-cargas/CLASE.md), [`B77-C10`](../programa/clases/B77/B77-C10-restricciones-de-cargas-estructurales/CLASE.md)
+3. **Ensayos de vibración** — [`B90-C09`](../programa/clases/B90/B90-C09-ensayos-de-vibracion/CLASE.md)
+4. **Ensayos de choque** — [`B90-C10`](../programa/clases/B90/B90-C10-ensayos-de-choque/CLASE.md)
+5. **Vacío térmico** — [`B90-C12`](../programa/clases/B90/B90-C12-vacio-termico-y-ciclos/CLASE.md), [`B85-C19`](../programa/clases/B85/B85-C19-ensayos-de-vacio-termico/CLASE.md)
+6. **Ciclado térmico** — [`B90-C11`](../programa/clases/B90/B90-C11-ensayos-termicos/CLASE.md), [`B85-C11`](../programa/clases/B85/B85-C11-ciclos-termicos/CLASE.md)
+7. **Instrumentación de prueba** — [`B90-C23`](../programa/clases/B90/B90-C23-instrumentacion-y-adquisicion-de-datos-en-ensayos/CLASE.md)
+8. **Análisis de desviaciones** — [`B90-C17`](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
+9. **Criterios de aceptación** — [`B90-C19`](../programa/clases/B90/B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md)
+10. **Informe de calificación** — [`B90-C18`](../programa/clases/B90/B90-C18-trazabilidad-de-evidencias/CLASE.md), [`B90-C20`](../programa/clases/B90/B90-C20-campana-conceptual-de-calificacion-de-cubesat/CLASE.md)
+
+✅ **Checkpoint R14-M08.** Sin mirar el material, explica cómo se relacionan «Plan de calificación», «Ciclado térmico» y «Informe de calificación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Análisis estructural y térmico de un panel para un satélite.** Dimensiona un panel con su material, calcula su respuesta a cargas de lanzamiento y a ciclos térmicos y define las pruebas de calificación.
+
+Entregables:
+
+- Selección de materiales con justificación
+- Modelo de elementos finitos con su verificación
+- Análisis térmico con casos extremos
+- Plan de pruebas de vibración y de vacío térmico
+
+Criterios de evaluación:
+
+- El modelo se verifica contra un caso analítico
+- Los márgenes de seguridad están declarados
+- Los casos térmicos extremos son realistas
+- El plan de pruebas cubre los modos de falla
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes dimensionar y verificar una estructura espacial preliminar.
+- Puedes analizar el equilibrio térmico de un vehículo.
+- Puedes planear su calificación con pruebas.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de análisis y calificación** (educativo, no de vuelo):

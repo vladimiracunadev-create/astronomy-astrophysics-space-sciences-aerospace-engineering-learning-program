@@ -6,6 +6,22 @@ Cada una de las 24 rutas profesionales es un **rol**. Un rol no cursa «160 clas
 
 El catálogo inicial da a todas las rutas el mismo tamaño (8 módulos × 20 clases). El recorrido corrige esa simetría desde el uso: dos roles pueden compartir el tronco común y, aun así, usar clases distintas, en distinto orden y con distinto peso. El número de clases de un recorrido no tiene por qué coincidir con el de otro.
 
+## Recorrido vigente de cada rol (guías de `rutas/`)
+
+El recorrido que se publica en el sitio, en los PDF y en las aplicaciones sale de la **colocación de módulos** (`catalogo/estructura/colocacion/Rxx.json`, 24 de 24 rutas) y de `metadatos/rutas_evaluacion.json`, y lo genera `herramientas/generar_rutas_por_rol.py` dentro de cada guía, entre las marcas `<!-- recorrido:inicio -->` y `<!-- /recorrido -->`. Contiene, por rol:
+
+| Parte | Qué es |
+|---|---|
+| Diagnóstico de entrada | 4 preguntas concretas del rol; con dos «no sé» se empieza por los fundamentos |
+| 8 módulos | Cada uno con sus 10 temas y las **clases exactas** enlazadas (existentes o añadidas por la reorganización) |
+| Checkpoint por módulo | Una comprobación de comprensión armada con los temas del propio módulo, con evidencia que se guarda |
+| Proyecto final | Un producto con 4 entregables y 4 criterios de evaluación específicos del rol |
+| Criterio de salida | 3 capacidades verificables que indican que la ruta está terminada |
+
+Para cambiar el diagnóstico, el proyecto o el criterio de salida de un rol, edita `metadatos/rutas_evaluacion.json` y ejecuta `python herramientas/generar_rutas_por_rol.py`. La integración continua falla si alguna guía no está al día.
+
+> La capa que describe el resto de esta página (`metadatos/recorridos/`, recorrido por fases) es **heredada**: define 12 de las 24 rutas, no se usa en lo publicado y se conserva por trazabilidad.
+
 ## Fuente de verdad y herramientas
 
 - `metadatos/recorridos/Rxx.json`: un archivo por ruta (así varias personas pueden editar roles distintos sin conflictos). Estado `definido` o `pendiente`.

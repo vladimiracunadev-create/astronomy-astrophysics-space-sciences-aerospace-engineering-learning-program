@@ -12,7 +12,7 @@
 | Programa vigente: bloques | 133 (64 de la línea base + 69 nuevos) | `catalogo/estructura/estructura.json` |
 | Programa vigente: clases | 2.077 (1.280 de la línea base + 797 programadas) | `PROGRAMA_ACADEMICO_COMPLETO.md` |
 | Módulos de ruta ubicados en áreas y bloques | 192 módulos, 1.920 temas: 1.101 en clases existentes y 819 en clases programadas | `catalogo/estructura/colocacion/` |
-| Rutas profesionales (recorridos sobre áreas y bloques) | 24 con sus 192 módulos ubicados en áreas y bloques; 12 con recorrido por fases heredado (R12, R14 a R24) y 12 pendientes (R01 a R11 y R13) | `catalogo/estructura/colocacion/`, `metadatos/recorridos/` |
+| Rutas profesionales (recorridos sobre áreas y bloques) | 24 con sus 192 módulos ubicados en áreas y bloques; las 24 guías incluyen diagnóstico, 8 módulos con sus clases enlazadas y checkpoint, proyecto final y criterio de salida (la capa heredada `metadatos/recorridos/` define solo 12 rutas y no alimenta nada publicado) | `catalogo/estructura/colocacion/`, `metadatos/recorridos/` |
 | Clases en E0 | todas las del programa | catálogo |
 | Clases con texto redactado (A01, B01–B08) | 160 de 160; B01-C01 aprobada por el autor, las otras 159 pendientes de aprobación; ninguna con revisión disciplinar | `programa/clases/` |
 | Clases con texto redactado (A02, B09–B23) | 237 de 237 (160 de la línea base y 77 antes programadas); todas pendientes de aprobación y de revisión disciplinar | `programa/clases/` |

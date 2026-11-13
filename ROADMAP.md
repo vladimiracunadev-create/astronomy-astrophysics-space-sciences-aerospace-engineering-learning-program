@@ -65,7 +65,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 - [x] Ubicar los 192 módulos de las 24 rutas en áreas y bloques (`catalogo/estructura/colocacion/`, 1.920 temas); es la base de las guías por rol, el sitio y los PDF.
 - [ ] Recorrido por fases (`metadatos/recorridos/`, capa heredada): definir R01 a R11 y R13 y pasar los de R12 y R14 a R24 a las clases actuales.
-- [ ] Añadir diagnóstico, checkpoints, proyecto final y criterio de salida.
+- [x] Añadir diagnóstico, checkpoints, proyecto final y criterio de salida (24 rutas, `metadatos/rutas_evaluacion.json` y el recorrido generado en cada guía de `rutas/`).
 - [ ] Probar que no hay duplicación mecánica con bloques ya desarrollados.
 
 **Cierre por ruta:** el recorrido completo de la ruta en E5, evidencia acumulativa y límites profesionales explícitos. La ruta no se presenta como titulación independiente.

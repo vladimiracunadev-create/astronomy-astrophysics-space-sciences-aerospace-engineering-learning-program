@@ -14,6 +14,7 @@ Estudias cómo nacen, viven y mueren las estrellas y cómo se organizan en galax
 4. 📚 A04 · Óptica, telescopios y observatorios científicos: B45
 5. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B73
 6. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Modelo y diagnóstico de un cúmulo estelar
 
 - 📖 **[Guía completa del rol →](astrofisica-estelar-y-galactica.md)**
 
@@ -25,6 +26,7 @@ Estudias el universo a gran escala y sus fenómenos más extremos: relatividad, 
 2. 📚 A03 · Astrofísica y ciencias fundamentales del universo: B25, B26, B27, B28, B30, B31, B36, B39, B40
 3. 📚 A04 · Óptica, telescopios y observatorios científicos: B47
 4. 📚 A05 · Ciencias planetarias, astroquímica y habitabilidad: B55
+- 🎯 Proyecto final: Estimación de parámetros cosmológicos con datos públicos
 
 - 📖 **[Guía completa del rol →](cosmologia-y-astrofisica-extrema.md)**
 
@@ -37,6 +39,7 @@ Diseñas, construyes y pruebas telescopios e instrumentos ópticos: de la óptic
 3. 📚 A04 · Óptica, telescopios y observatorios científicos: B41, B42, B43, B44, B45, B47, B48, B50
 4. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B84, B88, B90
 5. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Diseño y tolerancia de un telescopio de 40 cm
 
 - 📖 **[Guía completa del rol →](ingenieria-optica-y-telescopios-profesionales.md)**
 
@@ -51,6 +54,7 @@ Observas el universo con ondas de radio: diseñas antenas y receptores de bajo r
 5. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B74
 6. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B89, B90
 7. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B118
+- 🎯 Proyecto final: Observación de la línea de 21 cm con un receptor propio
 
 - 📖 **[Guía completa del rol →](radioastronomia-e-interferometria.md)**
 
@@ -65,6 +69,7 @@ Estudias la geología y la física de los cuerpos del sistema solar: su forma, i
 5. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B74
 6. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B89
 7. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Mapa geológico de un sitio de aterrizaje
 
 - 📖 **[Guía completa del rol →](ciencias-planetarias-y-astrogeologia.md)**
 
@@ -79,6 +84,7 @@ Estudias la química del espacio y las condiciones en que podría existir vida: 
 5. 📚 A05 · Ciencias planetarias, astroquímica y habitabilidad: B52, B53, B54, B55, B56, B60, B62, B63, B64, B65, B68
 6. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B90
 7. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B119
+- 🎯 Proyecto final: Evaluación de biofirmas en un mundo oceánico
 
 - 📖 **[Guía completa del rol →](astroquimica-y-astrobiologia.md)**
 
@@ -93,6 +99,7 @@ Estudias el Sol y su influencia sobre el entorno espacial: plasma, campo magnét
 5. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B85, B89
 6. 📚 A09 · Astronáutica humana, medicina y hábitats: B105
 7. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B119
+- 🎯 Proyecto final: Pronóstico de un evento de clima espacial
 
 - 📖 **[Guía completa del rol →](heliofisica-y-climatologia-espacial.md)**
 
@@ -104,6 +111,7 @@ Construyes los métodos matemáticos y el software con que se resuelven problema
 2. 📚 A05 · Ciencias planetarias, astroquímica y habitabilidad: B53
 3. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B74
 4. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Pipeline reproducible de inferencia con datos astronómicos
 
 - 📖 **[Guía completa del rol →](matematica-y-computacion-cientifica-espacial.md)**
 
@@ -117,6 +125,7 @@ Diseñas trayectorias para llegar a otros cuerpos del sistema solar: transferenc
 4. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B71, B72, B73, B74, B75, B76, B77, B81, B82
 5. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B86, B89
 6. 📚 A08 · Operaciones de misión y robótica espacial: B96
+- 🎯 Proyecto final: Diseño de una trayectoria interplanetaria con asistencias
 
 - 📖 **[Guía completa del rol →](astrodinamica-interplanetaria.md)**
 
@@ -130,6 +139,7 @@ Haces que un vehículo sepa dónde está y hacia dónde va, y decida qué hacer:
 4. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B87, B88, B89, B90
 5. 📚 A08 · Operaciones de misión y robótica espacial: B96, B97, B98
 6. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B118
+- 🎯 Proyecto final: Navegador autónomo para un encuentro orbital simulado
 
 - 📖 **[Guía completa del rol →](navegacion-guiado-y-autonomia-espacial.md)**
 
@@ -143,6 +153,7 @@ Diseñas y analizas los sistemas que llevan una carga al espacio: motores, flujo
 4. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B84, B85, B86, B90
 5. 📚 A08 · Operaciones de misión y robótica espacial: B96
 6. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B119
+- 🎯 Proyecto final: Dimensionamiento de un lanzador de dos etapas
 
 - 📖 **[Guía completa del rol →](ingenieria-de-lanzadores-y-propulsion.md)**
 
@@ -156,6 +167,7 @@ Diseñas, integras y calificas un satélite pequeño: conviertes una necesidad d
 4. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B84, B85, B86, B87, B88, B89, B90, B95
 5. 📚 A08 · Operaciones de misión y robótica espacial: B96
 6. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B119
+- 🎯 Proyecto final: Diseño preliminar de un CubeSat de observación
 
 - 📖 **[Guía completa del rol →](ingenieria-y-construccion-de-satelites-y-cubesats.md)**
 
@@ -168,6 +180,7 @@ Escribes y verificas el software y la electrónica que controlan un vehículo es
 3. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B74
 4. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B86, B88, B89, B90, B93
 5. 📚 A08 · Operaciones de misión y robótica espacial: B96
+- 🎯 Proyecto final: Software de vuelo tolerante a fallos para un computador de a bordo
 
 - 📖 **[Guía completa del rol →](avionica-y-software-espacial-de-alta-fiabilidad.md)**
 
@@ -179,6 +192,7 @@ Respondes dos preguntas sobre un vehículo o instrumento espacial: ¿aguanta el 
 2. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B77
 3. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B84, B85, B90
 4. 📚 A09 · Astronáutica humana, medicina y hábitats: B106
+- 🎯 Proyecto final: Análisis estructural y térmico de un panel para un satélite
 
 - 📖 **[Guía completa del rol →](materiales-estructuras-e-ingenieria-termica-espacial.md)**
 
@@ -191,6 +205,7 @@ Haces que una nave y el suelo se oigan: calculas si un enlace cierra, eliges ant
 3. 📚 A06 · Mecánica orbital, navegación y vuelo espacial: B74
 4. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B88, B89, B90, B91, B92, B94
 5. 📚 A08 · Operaciones de misión y robótica espacial: B96
+- 🎯 Proyecto final: Presupuesto de enlace y diseño de una estación terrestre
 
 - 📖 **[Guía completa del rol →](telecomunicaciones-y-estaciones-terrestres-espaciales.md)**
 
@@ -205,6 +220,7 @@ Conviertes lo que miden los satélites que miran la Tierra en información que a
 5. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B89, B90
 6. 📚 A08 · Operaciones de misión y robótica espacial: B96
 7. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Servicio de monitoreo de un desastre con imágenes satelitales
 
 - 📖 **[Guía completa del rol →](observacion-terrestre-y-geointeligencia-cientifica.md)**
 
@@ -217,6 +233,7 @@ Haces que una máquina actúe sola, o casi sola, donde nadie puede tocarla: un b
 3. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B86, B88, B89
 4. 📚 A08 · Operaciones de misión y robótica espacial: B96, B97, B98, B99, B101, B102, B103
 5. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Robot explorador autónomo simulado
 
 - 📖 **[Guía completa del rol →](robotica-espacial-y-sistemas-autonomos.md)**
 
@@ -228,6 +245,7 @@ Preparas a una tripulación para que cumpla una misión y vuelva: diseñas escen
 2. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B86, B88, B89, B90
 3. 📚 A08 · Operaciones de misión y robótica espacial: B96, B97, B98, B101
 4. 📚 A09 · Astronáutica humana, medicina y hábitats: B104, B105, B106, B107, B108, B110, B111
+- 🎯 Proyecto final: Plan de entrenamiento y operaciones de una misión tripulada de 14 días
 
 - 📖 **[Guía completa del rol →](astronautica-tripulada-y-entrenamiento-de-astronautas.md)**
 
@@ -242,6 +260,7 @@ Estudias y apoyas con método científico la salud de quienes viajan al espacio:
 5. 📚 A09 · Astronáutica humana, medicina y hábitats: B104, B105, B106, B107, B112, B113, B116, B117
 6. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B119
 7. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Expediente de investigación biomédica simulada
 
 - 📖 **[Guía completa del rol →](medicina-y-bioingenieria-espacial.md)**
 
@@ -254,6 +273,7 @@ Diseñas el recinto donde personas viven y trabajan fuera de la Tierra: decides 
 3. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B83, B84, B85, B86, B90
 4. 📚 A08 · Operaciones de misión y robótica espacial: B96, B97
 5. 📚 A09 · Astronáutica humana, medicina y hábitats: B104, B105, B106, B109, B114, B115
+- 🎯 Proyecto final: Diseño conceptual de un hábitat lunar para cuatro personas
 
 - 📖 **[Guía completa del rol →](arquitectura-y-habitats-extraterrestres.md)**
 
@@ -270,6 +290,7 @@ Evalúas si un recurso de otro cuerpo (hielo, regolito, minerales, un asteroide)
 7. 📚 A09 · Astronáutica humana, medicina y hábitats: B106
 8. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B119
 9. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
+- 🎯 Proyecto final: Estudio de viabilidad de una planta de agua lunar
 
 - 📖 **[Guía completa del rol →](recursos-extraterrestres-y-economia-industrial-espacial.md)**
 
@@ -283,6 +304,7 @@ Proteges la continuidad de lo que el espacio presta a la sociedad —satélites,
 4. 📚 A08 · Operaciones de misión y robótica espacial: B96
 5. 📚 A09 · Astronáutica humana, medicina y hábitats: B104
 6. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B118, B119, B122
+- 🎯 Proyecto final: Evaluación de riesgo de conjunciones y plan de resiliencia
 
 - 📖 **[Guía completa del rol →](seguridad-defensa-y-resiliencia-de-infraestructuras-espaciales.md)**
 
@@ -295,6 +317,7 @@ Interpretas las reglas dentro de las cuales opera una actividad espacial —trat
 3. 📚 A07 · Ingeniería y construcción de sistemas espaciales: B89
 4. 📚 A10 · Entorno orbital, derecho y seguridad espacial: B118, B119, B120, B121, B123
 5. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124, B125, B126, B127
+- 🎯 Proyecto final: Estructura jurídica y de negocio de una empresa satelital
 
 - 📖 **[Guía completa del rol →](derecho-politicas-y-negocios-espaciales.md)**
 
@@ -309,6 +332,7 @@ Llevas la astronomía a personas concretas —estudiantes, familias, comunidades
 5. 📚 A09 · Astronáutica humana, medicina y hábitats: B104
 6. 📚 A11 · Economía, industria y gestión de proyectos espaciales: B124
 7. 📚 A12 · Educación, historia aplicada y divulgación astronómica: B128, B129, B130, B131, B132, B133
+- 🎯 Proyecto final: Unidad didáctica de astronomía accesible
 
 - 📖 **[Guía completa del rol →](educacion-historia-y-divulgacion-astronomica.md)**
 

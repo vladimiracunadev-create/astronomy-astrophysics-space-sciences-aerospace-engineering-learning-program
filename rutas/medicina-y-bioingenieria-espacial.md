@@ -128,6 +128,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Conoces los sistemas del cuerpo afectados por la microgravedad?
+- ¿Sabes interpretar una gráfica de datos fisiológicos con su variabilidad?
+- ¿Entiendes la dosis de radiación y sus unidades?
+- ¿Conoces los principios éticos de la investigación con personas?
+
+#### R19-M01 · Fisiología espacial avanzada
+
+1. **Fisiología cardiovascular** — [`B105-C01`](../programa/clases/B105/B105-C01-respuesta-cardiovascular-a-microgravedad/CLASE.md)
+2. **Fisiología musculoesquelética** — [`B105-C02`](../programa/clases/B105/B105-C02-perdida-de-masa-osea/CLASE.md), [`B105-C03`](../programa/clases/B105/B105-C03-atrofia-muscular/CLASE.md)
+3. **Sistema vestibular** — [`B105-C04`](../programa/clases/B105/B105-C04-sistema-vestibular/CLASE.md)
+4. **Fisiología respiratoria** — [`B105-C21`](../programa/clases/B105/B105-C21-fisiologia-respiratoria-en-microgravedad-y-atmosferas-de-cabina/CLASE.md)
+5. **Sistema neuroendocrino** — [`B105-C22`](../programa/clases/B105/B105-C22-sistema-neuroendocrino-y-respuesta-al-estres-en-vuelo/CLASE.md)
+6. **Funciones visuales** — [`B105-C05`](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md)
+7. **Termorregulación** — [`B105-C23`](../programa/clases/B105/B105-C23-termorregulacion-humana-en-vuelo/CLASE.md)
+8. **Ritmos circadianos** — [`B105-C08`](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md), [`B106-C13`](../programa/clases/B106/B106-C13-iluminacion-y-ciclos-circadianos/CLASE.md)
+9. **Respuesta inmune** — [`B105-C10`](../programa/clases/B105/B105-C10-respuesta-inmune/CLASE.md)
+10. **Indicadores clínicos de vuelo** — [`B105-C24`](../programa/clases/B105/B105-C24-indicadores-clinicos-y-biomarcadores-de-vuelo/CLASE.md)
+
+✅ **Checkpoint R19-M01.** Sin mirar el material, explica cómo se relacionan «Fisiología cardiovascular», «Funciones visuales» y «Indicadores clínicos de vuelo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M02 · Adaptaciones a microgravedad
+
+1. **Redistribución de fluidos** — [`B105-C01`](../programa/clases/B105/B105-C01-respuesta-cardiovascular-a-microgravedad/CLASE.md), [`B105-C05`](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md)
+2. **Pérdida de densidad ósea** — [`B105-C02`](../programa/clases/B105/B105-C02-perdida-de-masa-osea/CLASE.md)
+3. **Atrofia muscular** — [`B105-C03`](../programa/clases/B105/B105-C03-atrofia-muscular/CLASE.md)
+4. **Desacondicionamiento cardiovascular** — [`B105-C01`](../programa/clases/B105/B105-C01-respuesta-cardiovascular-a-microgravedad/CLASE.md)
+5. **Cambios vestibulares** — [`B105-C04`](../programa/clases/B105/B105-C04-sistema-vestibular/CLASE.md)
+6. **Cambios de visión** — [`B105-C05`](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md)
+7. **Adaptación motora** — [`B105-C25`](../programa/clases/B105/B105-C25-adaptacion-sensoriomotora-y-control-motor-en-microgravedad/CLASE.md)
+8. **Efectos de gravedad parcial** — [`B105-C18`](../programa/clases/B105/B105-C18-investigacion-de-efectos-de-gravedad-parcial/CLASE.md)
+9. **Contramedidas de ejercicio** — [`B105-C16`](../programa/clases/B105/B105-C16-contramedidas-de-ejercicio/CLASE.md)
+10. **Estimación de recuperación** — [`B107-C06`](../programa/clases/B107/B107-C06-estimacion-y-modelado-de-la-recuperacion-posterior-al-vuelo/CLASE.md)
+
+✅ **Checkpoint R19-M02.** Sin mirar el material, explica cómo se relacionan «Redistribución de fluidos», «Cambios de visión» y «Estimación de recuperación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M03 · Radiobiología espacial
+
+1. **Radiación de partículas** — [`B30-C14`](../programa/clases/B30/B30-C14-choques-y-aceleracion-de-particulas/CLASE.md), [`B31-C13`](../programa/clases/B31/B31-C13-rayos-cosmicos-y-cascadas/CLASE.md), [`B105-C06`](../programa/clases/B105/B105-C06-radiacion-ionizante-y-exposicion/CLASE.md)
+2. **Dosis absorbida** — [`B112-C01`](../programa/clases/B112/B112-C01-magnitudes-dosimetricas-dosis-absorbida-let-y-eficacia-biologica/CLASE.md)
+3. **Dosis equivalente** — [`B112-C02`](../programa/clases/B112/B112-C02-dosis-equivalente-y-dosis-efectiva/CLASE.md)
+4. **Efectos agudos** — [`B112-C03`](../programa/clases/B112/B112-C03-efectos-agudos-de-la-radiacion/CLASE.md)
+5. **Efectos crónicos** — [`B112-C04`](../programa/clases/B112/B112-C04-efectos-cronicos-y-carcinogenesis-por-radiacion/CLASE.md)
+6. **Mutación y reparación del ADN** — [`B112-C05`](../programa/clases/B112/B112-C05-dano-y-reparacion-del-adn-por-radiacion-espacial/CLASE.md)
+7. **Dosímetros de tripulación** — [`B105-C07`](../programa/clases/B105/B105-C07-dosimetria-personal/CLASE.md), [`B31-C14`](../programa/clases/B31/B31-C14-detectores-de-particulas/CLASE.md)
+8. **Blindaje biológico** — [`B106-C14`](../programa/clases/B106/B106-C14-proteccion-contra-radiacion/CLASE.md)
+9. **Modelos de riesgo** — [`B112-C06`](../programa/clases/B112/B112-C06-modelos-de-riesgo-de-radiacion-para-misiones/CLASE.md)
+10. **Restricciones éticas y de exposición** — [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md), [`B119-C18`](../programa/clases/B119/B119-C18-etica-y-derechos-en-actividades-espaciales/CLASE.md)
+
+✅ **Checkpoint R19-M03.** Sin mirar el material, explica cómo se relacionan «Radiación de partículas», «Mutación y reparación del ADN» y «Restricciones éticas y de exposición», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M04 · Salud conductual en aislamiento
+
+1. **Aislamiento prolongado** — [`B105-C09`](../programa/clases/B105/B105-C09-salud-mental-en-aislamiento/CLASE.md), [`B104-C18`](../programa/clases/B104/B104-C18-aislamiento-y-convivencia/CLASE.md)
+2. **Ritmos de sueño** — [`B105-C08`](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md)
+3. **Estrés operacional** — [`B113-C01`](../programa/clases/B113/B113-C01-estres-operacional-y-estrategias-de-afrontamiento/CLASE.md)
+4. **Ansiedad en escenarios simulados** — [`B113-C02`](../programa/clases/B113/B113-C02-ansiedad-y-respuesta-emocional-en-escenarios-simulados/CLASE.md)
+5. **Cohesión de equipo** — [`B104-C18`](../programa/clases/B104/B104-C18-aislamiento-y-convivencia/CLASE.md), [`B104-C16`](../programa/clases/B104/B104-C16-manejo-de-conflictos/CLASE.md)
+6. **Comunicación diferida** — [`B113-C03`](../programa/clases/B113/B113-C03-comunicacion-diferida-y-soporte-psicologico-a-distancia/CLASE.md)
+7. **Autonomía personal** — [`B113-C04`](../programa/clases/B113/B113-C04-autonomia-personal-y-gestion-del-tiempo-en-aislamiento/CLASE.md)
+8. **Fatiga cognitiva** — [`B104-C17`](../programa/clases/B104/B104-C17-gestion-de-fatiga/CLASE.md)
+9. **Intervenciones de apoyo** — [`B113-C05`](../programa/clases/B113/B113-C05-intervenciones-de-apoyo-y-contramedidas-conductuales/CLASE.md)
+10. **Evaluación ética de bienestar** — [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md)
+
+✅ **Checkpoint R19-M04.** Sin mirar el material, explica cómo se relacionan «Aislamiento prolongado», «Comunicación diferida» y «Evaluación ética de bienestar», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M05 · Telemedicina y monitorización
+
+1. **Sensores fisiológicos** — [`B116-C01`](../programa/clases/B116/B116-C01-sensores-fisiologicos-y-wearables-para-vuelo/CLASE.md)
+2. **Signos vitales** — [`B116-C02`](../programa/clases/B116/B116-C02-signos-vitales-medicion-interpretacion-y-limites/CLASE.md)
+3. **Teleconsulta diferida** — [`B105-C15`](../programa/clases/B105/B105-C15-telemedicina-espacial/CLASE.md)
+4. **Historia clínica remota** — [`B116-C03`](../programa/clases/B116/B116-C03-historia-clinica-remota-y-registros-medicos-de-mision/CLASE.md)
+5. **Transmisión segura de datos** — [`B88-C17`](../programa/clases/B88/B88-C17-ciberseguridad-de-avionica/CLASE.md), [`B89-C12`](../programa/clases/B89/B89-C12-telecomandos-ccsds/CLASE.md)
+6. **Triage asistido** — [`B116-C04`](../programa/clases/B116/B116-C04-triage-asistido-por-decision/CLASE.md)
+7. **Alertas de salud** — [`B116-C05`](../programa/clases/B116/B116-C05-alertas-de-salud-y-umbrales-de-monitorizacion/CLASE.md)
+8. **Dispositivos biomédicos** — [`B116-C06`](../programa/clases/B116/B116-C06-dispositivos-biomedicos-portatiles-ultrasonido-diagnostico/CLASE.md)
+9. **Privacidad de tripulación** — [`B124-C13`](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md), [`B119-C18`](../programa/clases/B119/B119-C18-etica-y-derechos-en-actividades-espaciales/CLASE.md)
+10. **Diseño de panel de monitoreo** — [`B116-C07`](../programa/clases/B116/B116-C07-diseno-de-paneles-de-monitoreo-de-salud/CLASE.md)
+
+✅ **Checkpoint R19-M05.** Sin mirar el material, explica cómo se relacionan «Sensores fisiológicos», «Triage asistido» y «Diseño de panel de monitoreo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M06 · Urgencias médicas simuladas
+
+1. **Triage en misión** — [`B105-C14`](../programa/clases/B105/B105-C14-atencion-de-urgencia-remota/CLASE.md), [`B104-C13`](../programa/clases/B104/B104-C13-procedimientos-de-emergencia/CLASE.md)
+2. **Procedimientos de primeros auxilios** — [`B117-C01`](../programa/clases/B117/B117-C01-primeros-auxilios-y-procedimientos-basicos-en-entorno-espacial/CLASE.md)
+3. **Atención remota simulada** — [`B105-C14`](../programa/clases/B105/B105-C14-atencion-de-urgencia-remota/CLASE.md)
+4. **Gestión de medicamentos** — [`B105-C13`](../programa/clases/B105/B105-C13-farmacologia-y-microgravedad/CLASE.md)
+5. **Contención médica** — [`B117-C02`](../programa/clases/B117/B117-C02-contencion-de-riesgos-biologicos-y-quimicos-en-cabina/CLASE.md)
+6. **Emergencia cardiovascular simulada** — [`B117-C03`](../programa/clases/B117/B117-C03-emergencia-cardiovascular-simulada/CLASE.md)
+7. **Problemas respiratorios simulados** — [`B117-C04`](../programa/clases/B117/B117-C04-problemas-respiratorios-simulados/CLASE.md)
+8. **Gestión de equipo médico** — [`B117-C05`](../programa/clases/B117/B117-C05-inventario-y-gestion-del-equipo-medico-a-bordo/CLASE.md)
+9. **Comunicaciones críticas** — [`B104-C08`](../programa/clases/B104/B104-C08-comunicacion-de-tripulacion/CLASE.md), [`B89-C20`](../programa/clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md)
+10. **Debriefing de escenario clínico** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md)
+
+✅ **Checkpoint R19-M06.** Sin mirar el material, explica cómo se relacionan «Triage en misión», «Emergencia cardiovascular simulada» y «Debriefing de escenario clínico», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M07 · Rehabilitación de astronautas
+
+1. **Reacondicionamiento muscular** — [`B105-C17`](../programa/clases/B105/B105-C17-rehabilitacion-posterior-al-vuelo/CLASE.md), [`B105-C03`](../programa/clases/B105/B105-C03-atrofia-muscular/CLASE.md)
+2. **Recuperación ósea** — [`B105-C17`](../programa/clases/B105/B105-C17-rehabilitacion-posterior-al-vuelo/CLASE.md), [`B105-C02`](../programa/clases/B105/B105-C02-perdida-de-masa-osea/CLASE.md)
+3. **Rehabilitación vestibular** — [`B107-C07`](../programa/clases/B107/B107-C07-rehabilitacion-vestibular-y-del-equilibrio-posterior-al-vuelo/CLASE.md)
+4. **Rehabilitación visual** — [`B105-C05`](../programa/clases/B105/B105-C05-cambios-de-vision/CLASE.md), [`B105-C17`](../programa/clases/B105/B105-C17-rehabilitacion-posterior-al-vuelo/CLASE.md)
+5. **Seguimiento cardiovascular** — [`B105-C17`](../programa/clases/B105/B105-C17-rehabilitacion-posterior-al-vuelo/CLASE.md), [`B105-C01`](../programa/clases/B105/B105-C01-respuesta-cardiovascular-a-microgravedad/CLASE.md)
+6. **Readaptación terrestre** — [`B104-C19`](../programa/clases/B104/B104-C19-operaciones-de-retorno-y-reintegracion/CLASE.md)
+7. **Planes de ejercicio** — [`B105-C16`](../programa/clases/B105/B105-C16-contramedidas-de-ejercicio/CLASE.md)
+8. **Evaluación funcional** — [`B107-C08`](../programa/clases/B107/B107-C08-evaluacion-funcional-posterior-al-vuelo/CLASE.md)
+9. **Progresión de recuperación** — [`B107-C09`](../programa/clases/B107/B107-C09-progresion-de-recuperacion-y-criterios-de-alta/CLASE.md)
+10. **Indicadores de rehabilitación** — [`B107-C10`](../programa/clases/B107/B107-C10-indicadores-de-rehabilitacion-y-seguimiento/CLASE.md)
+
+✅ **Checkpoint R19-M07.** Sin mirar el material, explica cómo se relacionan «Reacondicionamiento muscular», «Readaptación terrestre» y «Indicadores de rehabilitación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R19-M08 · Investigación biomédica en ambiente espacial
+
+1. **Formulación de hipótesis biomédica** — [`B12-C09`](../programa/clases/B12/B12-C09-pruebas-de-hipotesis/CLASE.md), [`B105-C20`](../programa/clases/B105/B105-C20-diseno-de-protocolo-medico-simulado/CLASE.md)
+2. **Protocolos con sujetos** — [`B105-C20`](../programa/clases/B105/B105-C20-diseno-de-protocolo-medico-simulado/CLASE.md), [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md)
+3. **Consentimiento informado** — [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md)
+4. **Riesgos de investigación** — [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md), [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
+5. **Medidas fisiológicas** — [`B105-C26`](../programa/clases/B105/B105-C26-medidas-fisiologicas-y-biomarcadores-en-investigacion-espacial/CLASE.md)
+6. **Instrumentos validados** — [`B105-C27`](../programa/clases/B105/B105-C27-instrumentos-validados-y-psicometria-en-investigacion/CLASE.md)
+7. **Estadística longitudinal** — [`B12-C25`](../programa/clases/B12/B12-C25-modelos-longitudinales-y-de-efectos-mixtos-para-muestras-pequenas/CLASE.md)
+8. **Sesgos en poblaciones pequeñas** — [`B12-C26`](../programa/clases/B12/B12-C26-sesgos-y-potencia-estadistica-en-poblaciones-pequenas/CLASE.md)
+9. **Reproducibilidad** — [`B14-C09`](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md), [`B124-C14`](../programa/clases/B124/B124-C14-ciencia-abierta-y-reproducibilidad/CLASE.md)
+10. **Informe ético de investigación** — [`B124-C13`](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md), [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md)
+
+✅ **Checkpoint R19-M08.** Sin mirar el material, explica cómo se relacionan «Formulación de hipótesis biomédica», «Instrumentos validados» y «Informe ético de investigación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Expediente de investigación biomédica simulada.** Plantea un estudio sobre una contramedida de pérdida ósea o muscular, con datos sintéticos o públicos, protocolo, análisis y revisión ética.
+
+Entregables:
+
+- Protocolo con hipótesis, consentimiento y criterios de detención
+- Análisis reproducible de datos de ejemplo
+- Diseño de un panel de monitorización con alertas y privacidad
+- Informe ético y de limitaciones
+
+Criterios de evaluación:
+
+- Ningún dato personal real se usa sin aprobación
+- El análisis maneja la variabilidad entre sujetos
+- Los criterios de detención protegen a los participantes
+- Se declaran los límites de lo que se puede concluir
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes explicar los efectos del espacio sobre el cuerpo y las contramedidas.
+- Puedes diseñar y analizar un estudio biomédico con rigor y ética.
+- Puedes planear la monitorización y la telemedicina de una misión.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de investigación simulada**, con datos sintéticos o públicos (nunca con datos de personas sin aprobación ética):

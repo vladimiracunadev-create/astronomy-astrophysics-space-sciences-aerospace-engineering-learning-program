@@ -114,6 +114,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes aplicar la ecuación del cohete y calcular un presupuesto de masa?
+- ¿Sabes el balance de energía en una tobera?
+- ¿Manejas termodinámica de gases ideales?
+- ¿Entiendes la presión dinámica y el máximo Q?
+
+#### R11-M01 · Mecánica de fluidos para propulsión
+
+1. **Conservación de masa en fluidos** — [`B79-C01`](../programa/clases/B79/B79-C01-conservacion-de-masa-en-fluidos/CLASE.md)
+2. **Ecuaciones de Euler** — [`B79-C02`](../programa/clases/B79/B79-C02-ecuaciones-de-euler-para-flujo-no-viscoso/CLASE.md)
+3. **Ecuaciones de Navier-Stokes** — [`B79-C03`](../programa/clases/B79/B79-C03-ecuaciones-de-navier-stokes/CLASE.md)
+4. **Regímenes laminares y turbulentos** — [`B79-C04`](../programa/clases/B79/B79-C04-regimenes-laminar-y-turbulento/CLASE.md)
+5. **Fluidos compresibles** — [`B79-C05`](../programa/clases/B79/B79-C05-dinamica-de-fluidos-compresibles/CLASE.md)
+6. **Flujos supersónicos** — [`B79-C06`](../programa/clases/B79/B79-C06-flujos-supersonicos/CLASE.md)
+7. **Ondas de choque** — [`B79-C07`](../programa/clases/B79/B79-C07-ondas-de-choque-normales-y-oblicuas/CLASE.md)
+8. **Flujo por toberas como teoría** — [`B79-C08`](../programa/clases/B79/B79-C08-flujo-en-toberas-convergente-divergentes/CLASE.md)
+9. **CFD académico** — [`B79-C09`](../programa/clases/B79/B79-C09-cfd-academico-fundamentos-y-limites/CLASE.md)
+10. **Validación de flujo idealizado** — [`B11-C19`](../programa/clases/B11/B11-C19-estimacion-de-error-y-convergencia/CLASE.md), [`B83-C17`](../programa/clases/B83/B83-C17-verificacion-frente-a-validacion/CLASE.md)
+
+✅ **Checkpoint R11-M01.** Sin mirar el material, explica cómo se relacionan «Conservación de masa en fluidos», «Flujos supersónicos» y «Validación de flujo idealizado», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M02 · Termodinámica de sistemas propulsivos
+
+1. **Primera ley termodinámica** — [`B79-C10`](../programa/clases/B79/B79-C10-primera-ley-de-la-termodinamica-en-sistemas-abiertos/CLASE.md)
+2. **Segunda ley y entropía** — [`B79-C11`](../programa/clases/B79/B79-C11-segunda-ley-y-entropia/CLASE.md)
+3. **Gas ideal y real** — [`B06-C09`](../programa/clases/B06/B06-C09-gases-ideales-y-no-ideales/CLASE.md), [`B05-C14`](../programa/clases/B05/B05-C14-gases-y-presion/CLASE.md)
+4. **Procesos adiabáticos** — [`B79-C12`](../programa/clases/B79/B79-C12-procesos-adiabaticos-e-isentropicos/CLASE.md)
+5. **Entalpía de flujo** — [`B79-C13`](../programa/clases/B79/B79-C13-entalpia-de-flujo-y-entalpia-total/CLASE.md)
+6. **Transferencia de calor** — [`B85-C02`](../programa/clases/B85/B85-C02-conduccion-termica-en-estructuras/CLASE.md), [`B85-C04`](../programa/clases/B85/B85-C04-radiacion-termica-de-superficies/CLASE.md)
+7. **Propiedades de gases calientes** — [`B79-C14`](../programa/clases/B79/B79-C14-propiedades-de-gases-calientes/CLASE.md)
+8. **Ciclos térmicos** — [`B79-C15`](../programa/clases/B79/B79-C15-ciclos-termodinamicos-de-propulsion/CLASE.md)
+9. **Eficiencias termodinámicas** — [`B79-C16`](../programa/clases/B79/B79-C16-eficiencias-termodinamicas-de-motores/CLASE.md)
+10. **Análisis de límites físicos** — [`B78-C18`](../programa/clases/B78/B78-C18-energia-especifica-y-limitaciones/CLASE.md)
+
+✅ **Checkpoint R11-M02.** Sin mirar el material, explica cómo se relacionan «Primera ley termodinámica», «Transferencia de calor» y «Análisis de límites físicos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M03 · Modelos de propulsión química
+
+1. **Impulso específico** — [`B78-C01`](../programa/clases/B78/B78-C01-empuje-e-impulso-especifico/CLASE.md)
+2. **Balance energético de propulsión** — [`B78-C18`](../programa/clases/B78/B78-C18-energia-especifica-y-limitaciones/CLASE.md), [`B06-C12`](../programa/clases/B06/B06-C12-termoquimica-y-energia-de-reaccion/CLASE.md)
+3. **Modelos de combustión conceptual** — [`B78-C02`](../programa/clases/B78/B78-C02-propulsion-quimica-como-sistema-fisico/CLASE.md), [`B06-C12`](../programa/clases/B06/B06-C12-termoquimica-y-energia-de-reaccion/CLASE.md), [`B06-C14`](../programa/clases/B06/B06-C14-cinetica-quimica-inicial/CLASE.md)
+4. **Expansión de gases** — [`B78-C03`](../programa/clases/B78/B78-C03-termodinamica-de-camaras/CLASE.md), [`B06-C09`](../programa/clases/B06/B06-C09-gases-ideales-y-no-ideales/CLASE.md)
+5. **Rendimiento ideal de cohetes** — [`B78-C01`](../programa/clases/B78/B78-C01-empuje-e-impulso-especifico/CLASE.md), [`B77-C05`](../programa/clases/B77/B77-C05-ecuacion-de-cohete-ideal/CLASE.md)
+6. **Modelos de masa** — [`B78-C17`](../programa/clases/B78/B78-C17-masa-de-propelente-y-presupuesto/CLASE.md), [`B77-C06`](../programa/clases/B77/B77-C06-relacion-masa-impulso/CLASE.md)
+7. **Ecuación de Tsiolkovski** — [`B77-C05`](../programa/clases/B77/B77-C05-ecuacion-de-cohete-ideal/CLASE.md)
+8. **Presupuesto de delta-v** — [`B75-C09`](../programa/clases/B75/B75-C09-presupuestos-de-delta-v/CLASE.md), [`B78-C17`](../programa/clases/B78/B78-C17-masa-de-propelente-y-presupuesto/CLASE.md)
+9. **Pérdidas de rendimiento** — [`B77-C08`](../programa/clases/B77/B77-C08-perdidas-gravitacionales/CLASE.md), [`B77-C09`](../programa/clases/B77/B77-C09-perdidas-aerodinamicas/CLASE.md)
+10. **Comparación de arquitecturas conceptuales** — [`B78-C20`](../programa/clases/B78/B78-C20-comparacion-no-operativa-de-arquitecturas-de-propulsion/CLASE.md), [`B78-C05`](../programa/clases/B78/B78-C05-propulsion-bipropelente-conceptual/CLASE.md), [`B78-C04`](../programa/clases/B78/B78-C04-propulsion-monopropelente-conceptual/CLASE.md)
+
+✅ **Checkpoint R11-M03.** Sin mirar el material, explica cómo se relacionan «Impulso específico», «Modelos de masa» y «Comparación de arquitecturas conceptuales», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M04 · Tecnologías de propulsión eléctrica
+
+1. **Propulsión electrostática** — [`B78-C07`](../programa/clases/B78/B78-C07-motores-ionicos/CLASE.md), [`B78-C06`](../programa/clases/B78/B78-C06-propulsion-electrica-general/CLASE.md)
+2. **Propulsión electromagnética** — [`B78-C09`](../programa/clases/B78/B78-C09-propulsion-por-plasma/CLASE.md), [`B78-C08`](../programa/clases/B78/B78-C08-propulsores-hall/CLASE.md)
+3. **Motores iónicos** — [`B78-C07`](../programa/clases/B78/B78-C07-motores-ionicos/CLASE.md)
+4. **Propulsores Hall** — [`B78-C08`](../programa/clases/B78/B78-C08-propulsores-hall/CLASE.md)
+5. **Fuentes de alimentación** — [`B86-C08`](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md), [`B86-C09`](../programa/clases/B86/B86-C09-electronica-de-potencia/CLASE.md), [`B78-C06`](../programa/clases/B78/B78-C06-propulsion-electrica-general/CLASE.md)
+6. **Erosión de componentes** — [`B78-C21`](../programa/clases/B78/B78-C21-erosion-y-vida-util-de-propulsores-electricos/CLASE.md)
+7. **Ciclos de trabajo** — [`B78-C22`](../programa/clases/B78/B78-C22-ciclos-de-trabajo-y-operacion-de-propulsion-electrica/CLASE.md)
+8. **Balance de energía** — [`B78-C18`](../programa/clases/B78/B78-C18-energia-especifica-y-limitaciones/CLASE.md), [`B86-C01`](../programa/clases/B86/B86-C01-balance-de-potencia-electrica/CLASE.md)
+9. **Eficiencia propulsiva** — [`B78-C01`](../programa/clases/B78/B78-C01-empuje-e-impulso-especifico/CLASE.md), [`B78-C18`](../programa/clases/B78/B78-C18-energia-especifica-y-limitaciones/CLASE.md)
+10. **Madurez de tecnologías eléctricas** — [`B78-C19`](../programa/clases/B78/B78-C19-madurez-tecnologica-trl/CLASE.md)
+
+✅ **Checkpoint R11-M04.** Sin mirar el material, explica cómo se relacionan «Propulsión electrostática», «Erosión de componentes» y «Madurez de tecnologías eléctricas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M05 · Dinámica de vehículos de lanzamiento
+
+1. **Ecuaciones de movimiento** — [`B77-C02`](../programa/clases/B77/B77-C02-movimiento-en-atmosfera/CLASE.md), [`B77-C12`](../programa/clases/B77/B77-C12-perfil-de-ascenso-orbital/CLASE.md)
+2. **Modelos de atmósfera** — [`B72-C07`](../programa/clases/B72/B72-C07-modelos-de-densidad-atmosferica/CLASE.md), [`B77-C02`](../programa/clases/B77/B77-C02-movimiento-en-atmosfera/CLASE.md)
+3. **Arrastre y sustentación** — [`B77-C03`](../programa/clases/B77/B77-C03-fuerzas-aerodinamicas/CLASE.md), [`B77-C04`](../programa/clases/B77/B77-C04-coeficientes-de-arrastre-y-sustentacion/CLASE.md)
+4. **Centro de presión** — [`B77-C21`](../programa/clases/B77/B77-C21-centro-de-presion-y-margen-estatico/CLASE.md)
+5. **Centro de masa** — [`B77-C22`](../programa/clases/B77/B77-C22-centro-de-masa-y-su-variacion-con-el-consumo-de-propelente/CLASE.md)
+6. **Estabilidad de vuelo** — [`B77-C23`](../programa/clases/B77/B77-C23-estabilidad-de-vuelo-de-lanzadores-en-ascenso/CLASE.md)
+7. **Cargas dinámicas** — [`B77-C10`](../programa/clases/B77/B77-C10-restricciones-de-cargas-estructurales/CLASE.md), [`B84-C09`](../programa/clases/B84/B84-C09-analisis-de-cargas/CLASE.md)
+8. **Orientación y control** — [`B77-C24`](../programa/clases/B77/B77-C24-guiado-y-control-de-actitud-de-lanzadores-tvc/CLASE.md)
+9. **Separación como evento simulado** — [`B77-C07`](../programa/clases/B77/B77-C07-separacion-de-etapas-conceptual/CLASE.md)
+10. **Análisis de dispersión de trayectoria** — [`B77-C13`](../programa/clases/B77/B77-C13-inyeccion-y-dispersion-orbital/CLASE.md), [`B75-C18`](../programa/clases/B75/B75-C18-propagacion-de-dispersion-inicial/CLASE.md), [`B12-C14`](../programa/clases/B12/B12-C14-simulacion-monte-carlo/CLASE.md)
+
+✅ **Checkpoint R11-M05.** Sin mirar el material, explica cómo se relacionan «Ecuaciones de movimiento», «Estabilidad de vuelo» y «Análisis de dispersión de trayectoria», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M06 · Ascenso y reentrada atmosféricos
+
+1. **Perfiles de ascenso** — [`B77-C12`](../programa/clases/B77/B77-C12-perfil-de-ascenso-orbital/CLASE.md)
+2. **Pérdidas gravitacionales** — [`B77-C08`](../programa/clases/B77/B77-C08-perdidas-gravitacionales/CLASE.md)
+3. **Pérdidas aerodinámicas** — [`B77-C09`](../programa/clases/B77/B77-C09-perdidas-aerodinamicas/CLASE.md)
+4. **Inyección orbital** — [`B77-C13`](../programa/clases/B77/B77-C13-inyeccion-y-dispersion-orbital/CLASE.md)
+5. **Dinámica de reentrada** — [`B77-C14`](../programa/clases/B77/B77-C14-dinamica-de-reentrada/CLASE.md)
+6. **Flujo de calor de reentrada** — [`B77-C15`](../programa/clases/B77/B77-C15-calentamiento-aerodinamico/CLASE.md)
+7. **Escudos térmicos** — [`B77-C16`](../programa/clases/B77/B77-C16-proteccion-termica/CLASE.md)
+8. **Corredores de entrada** — [`B77-C25`](../programa/clases/B77/B77-C25-corredores-de-entrada-y-limites-de-trayectoria/CLASE.md)
+9. **Aterrizaje controlado como modelo** — [`B77-C18`](../programa/clases/B77/B77-C18-aterrizaje-y-recuperacion/CLASE.md)
+10. **Simulación de misión de entrada** — [`B77-C20`](../programa/clases/B77/B77-C20-simulacion-academica-de-una-trayectoria-de-vuelo/CLASE.md), [`B77-C14`](../programa/clases/B77/B77-C14-dinamica-de-reentrada/CLASE.md)
+
+✅ **Checkpoint R11-M06.** Sin mirar el material, explica cómo se relacionan «Perfiles de ascenso», «Flujo de calor de reentrada» y «Simulación de misión de entrada», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M07 · Seguridad y evaluación de sistemas de lanzamiento
+
+1. **Cultura de seguridad aeroespacial** — [`B119-C21`](../programa/clases/B119/B119-C21-cultura-de-seguridad-aeroespacial-y-aprendizaje-de-incidentes/CLASE.md)
+2. **Identificación de peligros** — [`B83-C21`](../programa/clases/B83/B83-C21-identificacion-de-peligros-en-sistemas-de-lanzamiento-hazid/CLASE.md)
+3. **Análisis de fallos** — [`B83-C22`](../programa/clases/B83/B83-C22-analisis-de-modos-y-efectos-de-fallo-fmea-en-sistemas-espaciales/CLASE.md)
+4. **Revisiones de seguridad** — [`B83-C13`](../programa/clases/B83/B83-C13-revisiones-srr-y-pdr/CLASE.md), [`B83-C14`](../programa/clases/B83/B83-C14-revisiones-cdr-y-trr/CLASE.md)
+5. **Seguridad de instalaciones** — [`B119-C22`](../programa/clases/B119/B119-C22-seguridad-de-instalaciones-y-operaciones-de-sitio-de-lanzamiento/CLASE.md)
+6. **Protección ambiental** — [`B119-C23`](../programa/clases/B119/B119-C23-proteccion-ambiental-de-las-actividades-de-lanzamiento/CLASE.md)
+7. **Responsabilidad regulatoria** — [`B119-C08`](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md), [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md)
+8. **Límites de experimentación educativa** — [`B119-C24`](../programa/clases/B119/B119-C24-limites-legales-y-de-seguridad-de-la-experimentacion-educativa/CLASE.md)
+9. **Procesos de autorización** — [`B119-C08`](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md), [`B119-C07`](../programa/clases/B119/B119-C07-registro-nacional-de-objetos/CLASE.md)
+10. **Casos documentados de accidentes** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md), [`B90-C17`](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
+
+✅ **Checkpoint R11-M07.** Sin mirar el material, explica cómo se relacionan «Cultura de seguridad aeroespacial», «Protección ambiental» y «Casos documentados de accidentes», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R11-M08 · Simulación de misión propulsiva
+
+1. **Modelo integrado de vehículo** — [`B77-C20`](../programa/clases/B77/B77-C20-simulacion-academica-de-una-trayectoria-de-vuelo/CLASE.md), [`B83-C07`](../programa/clases/B83/B83-C07-arquitecturas-de-sistemas/CLASE.md)
+2. **Definición de etapas conceptuales** — [`B77-C01`](../programa/clases/B77/B77-C01-sistemas-de-lanzamiento/CLASE.md), [`B77-C07`](../programa/clases/B77/B77-C07-separacion-de-etapas-conceptual/CLASE.md)
+3. **Perfil de empuje como entrada** — [`B78-C01`](../programa/clases/B78/B78-C01-empuje-e-impulso-especifico/CLASE.md)
+4. **Trayectoria simulada** — [`B77-C20`](../programa/clases/B77/B77-C20-simulacion-academica-de-una-trayectoria-de-vuelo/CLASE.md), [`B77-C12`](../programa/clases/B77/B77-C12-perfil-de-ascenso-orbital/CLASE.md)
+5. **Condiciones iniciales** — [`B77-C13`](../programa/clases/B77/B77-C13-inyeccion-y-dispersion-orbital/CLASE.md), [`B11-C02`](../programa/clases/B11/B11-C02-problemas-de-valor-inicial/CLASE.md)
+6. **Variaciones ambientales** — [`B72-C07`](../programa/clases/B72/B72-C07-modelos-de-densidad-atmosferica/CLASE.md), [`B12-C14`](../programa/clases/B12/B12-C14-simulacion-monte-carlo/CLASE.md)
+7. **Integración numérica** — [`B11-C07`](../programa/clases/B11/B11-C07-runge-kutta-de-cuarto-orden/CLASE.md), [`B11-C08`](../programa/clases/B11/B11-C08-integradores-de-paso-adaptativo/CLASE.md), [`B11-C19`](../programa/clases/B11/B11-C19-estimacion-de-error-y-convergencia/CLASE.md)
+8. **Rendimiento contra requisitos** — [`B83-C04`](../programa/clases/B83/B83-C04-requisitos-verificables/CLASE.md), [`B83-C17`](../programa/clases/B83/B83-C17-verificacion-frente-a-validacion/CLASE.md)
+9. **Análisis de fallo simulado** — [`B77-C20`](../programa/clases/B77/B77-C20-simulacion-academica-de-una-trayectoria-de-vuelo/CLASE.md), [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
+10. **Informe de simulación y límites** — [`B12-C20`](../programa/clases/B12/B12-C20-informe-de-incertidumbre-de-una-mision/CLASE.md), [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md), [`B83-C17`](../programa/clases/B83/B83-C17-verificacion-frente-a-validacion/CLASE.md)
+
+✅ **Checkpoint R11-M08.** Sin mirar el material, explica cómo se relacionan «Modelo integrado de vehículo», «Variaciones ambientales» y «Informe de simulación y límites», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Dimensionamiento de un lanzador de dos etapas.** Define un lanzador pequeño: motores, masas, trayectoria de ascenso y análisis de seguridad, y verifica que alcanza una órbita baja con margen.
+
+Entregables:
+
+- Dimensionamiento de etapas y motores con la ecuación del cohete
+- Simulación del ascenso con pérdidas
+- Análisis de cargas en el máximo Q
+- Evaluación de seguridad del lanzamiento y de rango
+
+Criterios de evaluación:
+
+- La simulación reproduce un caso de lanzamiento real dentro de ±10 %
+- Los márgenes de masa y de delta-v están declarados
+- El análisis de seguridad cubre trayectorias de fallo
+- Las suposiciones propulsivas están referenciadas
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes dimensionar un sistema propulsivo y un perfil de ascenso preliminares.
+- Puedes analizar cargas y seguridad de un lanzamiento.
+- Puedes comparar propulsión química y eléctrica según la misión.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **análisis de desempeño documentado**:

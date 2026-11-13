@@ -122,6 +122,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular la cinemática directa de un brazo de dos articulaciones?
+- ¿Sabes qué es la odometría y su deriva?
+- ¿Manejas transformaciones homogéneas?
+- ¿Entiendes el retardo de comunicación y su efecto en el control?
+
+#### R17-M01 · Cinemática de manipuladores espaciales
+
+1. **Marcos de referencia robóticos** — [`B10-C16`](../programa/clases/B10/B10-C16-transformacion-de-marcos-de-referencia/CLASE.md), [`B97-C02`](../programa/clases/B97/B97-C02-cinematica-de-manipuladores/CLASE.md)
+2. **Transformaciones homogéneas** — [`B101-C01`](../programa/clases/B101/B101-C01-transformaciones-homogeneas-y-parametrizacion-de-eslabones-denavit-hartenberg/CLASE.md)
+3. **Cinemática directa** — [`B97-C02`](../programa/clases/B97/B97-C02-cinematica-de-manipuladores/CLASE.md)
+4. **Cinemática inversa** — [`B101-C02`](../programa/clases/B101/B101-C02-cinematica-inversa-y-redundancia-de-manipuladores/CLASE.md)
+5. **Jacobianos cinemáticos** — [`B10-C19`](../programa/clases/B10/B10-C19-jacobianos-y-linealizacion/CLASE.md), [`B97-C02`](../programa/clases/B97/B97-C02-cinematica-de-manipuladores/CLASE.md)
+6. **Singularidades** — [`B101-C03`](../programa/clases/B101/B101-C03-singularidades-y-manipulabilidad-de-brazos-roboticos/CLASE.md)
+7. **Restricciones articulares** — [`B101-C04`](../programa/clases/B101/B101-C04-limites-articulares-espacio-de-trabajo-y-evitacion-de-colisiones/CLASE.md)
+8. **Planificación en espacio articular** — [`B97-C08`](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md)
+9. **Calibración de manipuladores** — [`B101-C05`](../programa/clases/B101/B101-C05-calibracion-cinematica-de-manipuladores/CLASE.md)
+10. **Simulación de brazo robótico** — [`B101-C06`](../programa/clases/B101/B101-C06-simulacion-de-un-brazo-robotico-espacial/CLASE.md)
+
+✅ **Checkpoint R17-M01.** Sin mirar el material, explica cómo se relacionan «Marcos de referencia robóticos», «Singularidades» y «Simulación de brazo robótico», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M02 · Dinámica de robots sobre otros cuerpos
+
+1. **Dinámica multibody** — [`B102-C01`](../programa/clases/B102/B102-C01-dinamica-multicuerpo-de-rovers-y-manipuladores/CLASE.md)
+2. **Contacto rueda-regolito** — [`B97-C06`](../programa/clases/B97/B97-C06-control-de-movilidad-sobre-regolito/CLASE.md)
+3. **Tracción en terrenos sueltos** — [`B102-C02`](../programa/clases/B102/B102-C02-terramecanica-traccion-y-hundimiento-en-suelos-sueltos/CLASE.md)
+4. **Deslizamiento** — [`B102-C03`](../programa/clases/B102/B102-C03-deslizamiento-y-estimacion-de-patinaje/CLASE.md)
+5. **Suspensión rover** — [`B102-C04`](../programa/clases/B102/B102-C04-suspension-rocker-bogie-y-mecanica-de-rovers/CLASE.md)
+6. **Distribución de cargas** — [`B102-C05`](../programa/clases/B102/B102-C05-distribucion-de-cargas-y-estabilidad-ante-vuelco/CLASE.md)
+7. **Dinamometría** — [`B102-C06`](../programa/clases/B102/B102-C06-dinamometria-y-medicion-de-fuerzas-de-traccion/CLASE.md)
+8. **Modelos de locomoción** — [`B97-C06`](../programa/clases/B97/B97-C06-control-de-movilidad-sobre-regolito/CLASE.md), [`B97-C01`](../programa/clases/B97/B97-C01-robots-rover-y-orbitadores/CLASE.md)
+9. **Simulación de pendiente** — [`B102-C07`](../programa/clases/B102/B102-C07-simulacion-de-movilidad-sobre-pendientes-y-terreno/CLASE.md)
+10. **Pruebas de movilidad en entorno análogo** — [`B97-C18`](../programa/clases/B97/B97-C18-pruebas-en-entornos-analogos/CLASE.md)
+
+✅ **Checkpoint R17-M02.** Sin mirar el material, explica cómo se relacionan «Dinámica multibody», «Distribución de cargas» y «Pruebas de movilidad en entorno análogo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M03 · Visión artificial y percepción espacial
+
+1. **Cámaras estereoscópicas** — [`B97-C04`](../programa/clases/B97/B97-C04-vision-estereoscopica/CLASE.md)
+2. **Calibración intrínseca** — [`B103-C01`](../programa/clases/B103/B103-C01-calibracion-intrinseca-de-camaras/CLASE.md)
+3. **Calibración extrínseca** — [`B103-C02`](../programa/clases/B103/B103-C02-calibracion-extrinseca-y-registro-multisensor/CLASE.md)
+4. **Mapas de profundidad** — [`B103-C03`](../programa/clases/B103/B103-C03-mapas-de-profundidad-y-correspondencia-estereo/CLASE.md)
+5. **Detección de obstáculos** — [`B103-C04`](../programa/clases/B103/B103-C04-deteccion-de-obstaculos-y-mapas-de-traversabilidad/CLASE.md)
+6. **Segmentación semántica** — [`B103-C05`](../programa/clases/B103/B103-C05-segmentacion-semantica-de-superficies-planetarias/CLASE.md)
+7. **Detección de piedras** — [`B103-C06`](../programa/clases/B103/B103-C06-deteccion-y-catalogacion-de-rocas-en-imagenes-de-superficie/CLASE.md)
+8. **Estimación de pose** — [`B103-C07`](../programa/clases/B103/B103-C07-estimacion-de-pose-de-objetos-y-objetivos-por-vision/CLASE.md)
+9. **Fusión de imágenes** — [`B15-C14`](../programa/clases/B15/B15-C14-registro-y-alineacion/CLASE.md)
+10. **Métricas de percepción** — [`B103-C08`](../programa/clases/B103/B103-C08-metricas-de-evaluacion-de-percepcion/CLASE.md)
+
+✅ **Checkpoint R17-M03.** Sin mirar el material, explica cómo se relacionan «Cámaras estereoscópicas», «Segmentación semántica» y «Métricas de percepción», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M04 · Localización y mapeo SLAM
+
+1. **Odómetro visual** — [`B99-C01`](../programa/clases/B99/B99-C01-odometria-visual/CLASE.md)
+2. **Odometría inercial** — [`B80-C09`](../programa/clases/B80/B80-C09-odometria-inercial-y-preintegracion-de-imu/CLASE.md)
+3. **Mapas de características** — [`B99-C02`](../programa/clases/B99/B99-C02-deteccion-y-descriptores-de-caracteristicas/CLASE.md)
+4. **SLAM gráfico** — [`B99-C03`](../programa/clases/B99/B99-C03-slam-basado-en-grafos-de-poses/CLASE.md)
+5. **Cierre de bucles** — [`B99-C04`](../programa/clases/B99/B99-C04-cierre-de-bucles-y-consistencia-global/CLASE.md)
+6. **Mapas de ocupación** — [`B99-C05`](../programa/clases/B99/B99-C05-mapas-de-ocupacion-y-rejillas-de-elevacion/CLASE.md)
+7. **Localización probabilística** — [`B97-C05`](../programa/clases/B97/B97-C05-localizacion-y-mapeo-slam/CLASE.md), [`B15-C17`](../programa/clases/B15/B15-C17-filtros-de-kalman-introductorios/CLASE.md), [`B15-C18`](../programa/clases/B15/B15-C18-filtros-de-particulas-iniciales/CLASE.md)
+8. **Evaluación de deriva** — [`B99-C06`](../programa/clases/B99/B99-C06-evaluacion-de-deriva-y-error-de-trayectoria/CLASE.md)
+9. **Robustez de mapeo** — [`B99-C07`](../programa/clases/B99/B99-C07-robustez-del-mapeo-ante-entornos-degradados/CLASE.md)
+10. **Validación con rutas conocidas** — [`B97-C18`](../programa/clases/B97/B97-C18-pruebas-en-entornos-analogos/CLASE.md)
+
+✅ **Checkpoint R17-M04.** Sin mirar el material, explica cómo se relacionan «Odómetro visual», «Mapas de ocupación» y «Validación con rutas conocidas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M05 · Teleoperación con retardo
+
+1. **Latencia Tierra-Marte** — [`B97-C07`](../programa/clases/B97/B97-C07-teleoperacion-con-latencia/CLASE.md), [`B89-C13`](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md)
+2. **Control supervisado** — [`B98-C03`](../programa/clases/B98/B98-C03-control-supervisado-y-autonomia-compartida/CLASE.md)
+3. **Comandos discretos** — [`B88-C09`](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md), [`B96-C07`](../programa/clases/B96/B96-C07-telecomandos-y-autorizaciones/CLASE.md)
+4. **Protocolos seguros** — [`B88-C17`](../programa/clases/B88/B88-C17-ciberseguridad-de-avionica/CLASE.md), [`B89-C12`](../programa/clases/B89/B89-C12-telecomandos-ccsds/CLASE.md)
+5. **Interfaces humano-robot** — [`B98-C04`](../programa/clases/B98/B98-C04-interfaces-humano-robot-para-operacion-remota/CLASE.md)
+6. **Autonomía de bajo nivel** — [`B98-C05`](../programa/clases/B98/B98-C05-autonomia-de-bajo-nivel-y-comportamientos-reactivos/CLASE.md)
+7. **Respuestas a pérdida de enlace** — [`B88-C11`](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md), [`B96-C15`](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md), [`B96-C14`](../programa/clases/B96/B96-C14-procedimientos-de-recuperacion/CLASE.md)
+8. **Colas de comandos** — [`B96-C09`](../programa/clases/B96/B96-C09-secuencias-de-mision/CLASE.md), [`B96-C07`](../programa/clases/B96/B96-C07-telecomandos-y-autorizaciones/CLASE.md)
+9. **Telemetría de operación** — [`B96-C06`](../programa/clases/B96/B96-C06-telemetria-operativa/CLASE.md), [`B88-C08`](../programa/clases/B88/B88-C08-telemetria-interna/CLASE.md)
+10. **Simulación de teleoperación retardada** — [`B98-C06`](../programa/clases/B98/B98-C06-simulacion-de-teleoperacion-con-retardo/CLASE.md)
+
+✅ **Checkpoint R17-M05.** Sin mirar el material, explica cómo se relacionan «Latencia Tierra-Marte», «Autonomía de bajo nivel» y «Simulación de teleoperación retardada», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M06 · Manipulación y mantenimiento orbital
+
+1. **Inspección visual de satélites** — [`B97-C11`](../programa/clases/B97/B97-C11-robots-de-inspeccion-orbital/CLASE.md)
+2. **Control relativo** — [`B76-C09`](../programa/clases/B76/B76-C09-dinamica-relativa-de-hill-clohessy-wiltshire/CLASE.md), [`B76-C12`](../programa/clases/B76/B76-C12-guiado-relativo/CLASE.md)
+3. **Agarre en microgravedad** — [`B76-C16`](../programa/clases/B76/B76-C16-acoplamiento-y-captura/CLASE.md), [`B97-C10`](../programa/clases/B97/B97-C10-manipulacion-de-herramientas/CLASE.md)
+4. **Herramientas robóticas** — [`B97-C10`](../programa/clases/B97/B97-C10-manipulacion-de-herramientas/CLASE.md)
+5. **Manipulación de componentes** — [`B97-C12`](../programa/clases/B97/B97-C12-robots-de-mantenimiento/CLASE.md), [`B97-C10`](../programa/clases/B97/B97-C10-manipulacion-de-herramientas/CLASE.md)
+6. **Reabastecimiento como concepto** — [`B97-C12`](../programa/clases/B97/B97-C12-robots-de-mantenimiento/CLASE.md), [`B97-C19`](../programa/clases/B97/B97-C19-logistica-de-piezas-y-reparaciones/CLASE.md)
+7. **Mantenimiento predictivo** — [`B88-C44`](../programa/clases/B88/B88-C44-mantenimiento-predictivo-y-pronostico-de-salud-de-sistemas/CLASE.md)
+8. **Control de fuerzas** — [`B101-C07`](../programa/clases/B101/B101-C07-control-de-fuerza-e-impedancia-en-manipulacion/CLASE.md)
+9. **Prevención de contactos peligrosos** — [`B97-C17`](../programa/clases/B97/B97-C17-seguridad-funcional-robotica/CLASE.md), [`B76-C14`](../programa/clases/B76/B76-C14-evasion-de-colision/CLASE.md)
+10. **Ensayo de reparación en gemelo digital** — [`B101-C08`](../programa/clases/B101/B101-C08-gemelo-digital-para-ensayo-de-reparaciones-roboticas/CLASE.md)
+
+✅ **Checkpoint R17-M06.** Sin mirar el material, explica cómo se relacionan «Inspección visual de satélites», «Reabastecimiento como concepto» y «Ensayo de reparación en gemelo digital», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M07 · Exploración autónoma planetaria
+
+1. **Selección de objetivos científicos** — [`B97-C16`](../programa/clases/B97/B97-C16-autonomia-de-exploracion/CLASE.md), [`B83-C01`](../programa/clases/B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md)
+2. **Planificación de ruta** — [`B97-C08`](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md)
+3. **Evaluación de riesgo de terreno** — [`B102-C08`](../programa/clases/B102/B102-C08-traversabilidad-y-evaluacion-de-riesgo-de-terreno/CLASE.md)
+4. **Autonomía de navegación** — [`B97-C16`](../programa/clases/B97/B97-C16-autonomia-de-exploracion/CLASE.md)
+5. **Clasificación de muestras** — [`B97-C21`](../programa/clases/B97/B97-C21-clasificacion-y-priorizacion-autonoma-de-muestras-a-bordo/CLASE.md)
+6. **Gestión de energía rover** — [`B86-C19`](../programa/clases/B86/B86-C19-presupuesto-de-potencia-de-mision/CLASE.md), [`B96-C12`](../programa/clases/B96/B96-C12-gestion-de-energia-en-operaciones/CLASE.md)
+7. **Gestión de ventanas de comunicación** — [`B96-C04`](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md)
+8. **Detección de eventos** — [`B97-C22`](../programa/clases/B97/B97-C22-deteccion-autonoma-de-eventos-cientificos/CLASE.md)
+9. **Diagnóstico autónomo** — [`B88-C12`](../programa/clases/B88/B88-C12-deteccion-aislamiento-y-recuperacion-de-fallos/CLASE.md), [`B96-C13`](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md)
+10. **Validación de misión exploratoria** — [`B97-C20`](../programa/clases/B97/B97-C20-mision-robotica-integrada-simulada/CLASE.md), [`B97-C18`](../programa/clases/B97/B97-C18-pruebas-en-entornos-analogos/CLASE.md)
+
+✅ **Checkpoint R17-M07.** Sin mirar el material, explica cómo se relacionan «Selección de objetivos científicos», «Gestión de energía rover» y «Validación de misión exploratoria», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R17-M08 · Integración de misión robótica
+
+1. **Requisitos de misión robótica** — [`B83-C04`](../programa/clases/B83/B83-C04-requisitos-verificables/CLASE.md), [`B83-C03`](../programa/clases/B83/B83-C03-concepto-de-operaciones-conops/CLASE.md)
+2. **Diseño de plataforma** — [`B83-C07`](../programa/clases/B83/B83-C07-arquitecturas-de-sistemas/CLASE.md), [`B97-C01`](../programa/clases/B97/B97-C01-robots-rover-y-orbitadores/CLASE.md)
+3. **Selección de sensores** — [`B97-C03`](../programa/clases/B97/B97-C03-sensores-y-percepcion-robotica/CLASE.md)
+4. **Arquitectura de autonomía** — [`B98-C07`](../programa/clases/B98/B98-C07-arquitectura-de-autonomia-a-bordo-percepcion-decision-accion/CLASE.md)
+5. **Diseño de simulador** — [`B97-C23`](../programa/clases/B97/B97-C23-diseno-de-simulador-de-mision-robotica/CLASE.md)
+6. **Integración de actuadores virtuales** — [`B97-C24`](../programa/clases/B97/B97-C24-modelos-de-actuadores-virtuales-e-integracion-en-simulacion/CLASE.md)
+7. **Pruebas SIL** — [`B88-C14`](../programa/clases/B88/B88-C14-pruebas-de-software-embarcado/CLASE.md), [`B88-C19`](../programa/clases/B88/B88-C19-simulacion-hardware-in-the-loop/CLASE.md)
+8. **Pruebas de escenarios adversos** — [`B97-C17`](../programa/clases/B97/B97-C17-seguridad-funcional-robotica/CLASE.md), [`B88-C12`](../programa/clases/B88/B88-C12-deteccion-aislamiento-y-recuperacion-de-fallos/CLASE.md)
+9. **Métricas de éxito** — [`B83-C17`](../programa/clases/B83/B83-C17-verificacion-frente-a-validacion/CLASE.md), [`B124-C12`](../programa/clases/B124/B124-C12-evaluacion-de-retorno-cientifico/CLASE.md)
+10. **Informe de misión robótica** — [`B97-C20`](../programa/clases/B97/B97-C20-mision-robotica-integrada-simulada/CLASE.md), [`B124-C19`](../programa/clases/B124/B124-C19-redaccion-de-propuesta-de-mision/CLASE.md)
+
+✅ **Checkpoint R17-M08.** Sin mirar el material, explica cómo se relacionan «Requisitos de misión robótica», «Integración de actuadores virtuales» y «Informe de misión robótica», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Robot explorador autónomo simulado.** Implementa localización, mapeo y planificación de ruta para un rover simulado en un terreno con rocas y pendientes, con teleoperación limitada por retardo.
+
+Entregables:
+
+- Módulo de localización y mapeo
+- Planificador de rutas con restricciones de seguridad
+- Modo de teleoperación con retardo simulado
+- Campaña de pruebas con fallos de sensor
+
+Criterios de evaluación:
+
+- El rover evita obstáculos en el 99 % de los casos
+- La deriva de localización se acota y se mide
+- El modo seguro se activa ante anomalías
+- Las pruebas son reproducibles con semillas fijas
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes diseñar un robot autónomo para un ambiente planetario simulado.
+- Puedes manejar el compromiso entre autonomía y teleoperación con retardo.
+- Puedes verificar un sistema robótico con pruebas sistemáticas.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **portafolio de simulaciones verificadas** (educativo, sin operar robots reales):

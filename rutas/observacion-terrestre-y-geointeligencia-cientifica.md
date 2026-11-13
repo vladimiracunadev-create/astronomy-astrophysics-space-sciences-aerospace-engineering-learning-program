@@ -128,6 +128,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Sabes qué es una banda espectral y una firma espectral?
+- ¿Puedes operar con imágenes como matrices en Python?
+- ¿Entiendes la geometría de una órbita sincrónica con el Sol?
+- ¿Conoces nociones de georreferenciación?
+
+#### R16-M01 · Instrumentos orbitales para observación terrestre
+
+1. **Radiometría terrestre** — [`B57-C03`](../programa/clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md), [`B45-C01`](../programa/clases/B45/B45-C01-radiometria-y-fotometria/CLASE.md)
+2. **Óptica multibanda** — [`B57-C04`](../programa/clases/B57/B57-C04-satelites-opticos-de-observacion/CLASE.md), [`B57-C05`](../programa/clases/B57/B57-C05-imagenes-multiespectrales/CLASE.md)
+3. **Sensores térmicos** — [`B57-C21`](../programa/clases/B57/B57-C21-sensores-infrarrojos-termicos-para-observacion-terrestre/CLASE.md)
+4. **Instrumentos hiperespectrales** — [`B57-C22`](../programa/clases/B57/B57-C22-espectrometros-de-imagen-e-hiperespectrales/CLASE.md)
+5. **Radar orbital** — [`B57-C07`](../programa/clases/B57/B57-C07-sistemas-radar-sar/CLASE.md)
+6. **Altímetros** — [`B57-C09`](../programa/clases/B57/B57-C09-altimetria-satelital/CLASE.md), [`B57-C11`](../programa/clases/B57/B57-C11-lidar-satelital/CLASE.md)
+7. **Órbita y revisita** — [`B57-C23`](../programa/clases/B57/B57-C23-diseno-de-orbita-y-revisita-para-observacion-terrestre/CLASE.md)
+8. **Calibración a bordo** — [`B47-C15`](../programa/clases/B47/B47-C15-calibracion-a-bordo/CLASE.md)
+9. **Limitaciones de resolución** — [`B57-C02`](../programa/clases/B57/B57-C02-resolucion-espacial-y-temporal/CLASE.md), [`B57-C03`](../programa/clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md)
+10. **Diseño de carga de observación** — [`B57-C24`](../programa/clases/B57/B57-C24-diseno-de-una-carga-util-de-observacion-terrestre/CLASE.md)
+
+✅ **Checkpoint R16-M01.** Sin mirar el material, explica cómo se relacionan «Radiometría terrestre», «Altímetros» y «Diseño de carga de observación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M02 · Procesamiento multiespectral
+
+1. **Selección de bandas** — [`B57-C25`](../programa/clases/B57/B57-C25-seleccion-de-bandas-espectrales-segun-el-fenomeno/CLASE.md)
+2. **Corrección atmosférica** — [`B57-C26`](../programa/clases/B57/B57-C26-correccion-atmosferica-de-imagenes/CLASE.md)
+3. **Corrección radiométrica** — [`B13-C17`](../programa/clases/B13/B13-C17-calibracion-radiometrica/CLASE.md), [`B44-C20`](../programa/clases/B44/B44-C20-pipeline-inicial-de-calibracion-de-imagenes/CLASE.md)
+4. **Índices espectrales** — [`B57-C06`](../programa/clases/B57/B57-C06-indices-de-vegetacion/CLASE.md)
+5. **Clasificación supervisada** — [`B15-C22`](../programa/clases/B15/B15-C22-clasificacion-supervisada-de-imagenes/CLASE.md)
+6. **Clasificación no supervisada** — [`B15-C23`](../programa/clases/B15/B15-C23-clasificacion-no-supervisada-y-agrupamiento-de-imagenes/CLASE.md)
+7. **Detección de cambios** — [`B57-C27`](../programa/clases/B57/B57-C27-deteccion-de-cambios-en-series-de-imagenes/CLASE.md)
+8. **Fusión de imágenes** — [`B15-C24`](../programa/clases/B15/B15-C24-fusion-de-imagenes-de-distintos-sensores/CLASE.md)
+9. **Incertidumbre de clasificación** — [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md), [`B12-C18`](../programa/clases/B12/B12-C18-matrices-de-covarianza/CLASE.md)
+10. **Mapa multiespectral reproducible** — [`B14-C09`](../programa/clases/B14/B14-C09-jupyter-y-experimentos-reproducibles/CLASE.md), [`B14-C12`](../programa/clases/B14/B14-C12-ejecucion-reproducible-con-uv/CLASE.md)
+
+✅ **Checkpoint R16-M02.** Sin mirar el material, explica cómo se relacionan «Selección de bandas», «Clasificación no supervisada» y «Mapa multiespectral reproducible», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M03 · Radar de apertura sintética
+
+1. **Geometría radar** — [`B57-C07`](../programa/clases/B57/B57-C07-sistemas-radar-sar/CLASE.md)
+2. **Doppler SAR** — [`B69-C01`](../programa/clases/B69/B69-C01-principio-doppler-y-resolucion-en-azimut-del-sar/CLASE.md)
+3. **Formación de imagen SAR** — [`B69-C02`](../programa/clases/B69/B69-C02-formacion-de-imagenes-sar/CLASE.md)
+4. **Speckle** — [`B69-C03`](../programa/clases/B69/B69-C03-ruido-speckle-y-filtrado-en-imagenes-sar/CLASE.md)
+5. **Polarimetría SAR** — [`B69-C04`](../programa/clases/B69/B69-C04-polarimetria-sar/CLASE.md)
+6. **Interferometría InSAR** — [`B57-C08`](../programa/clases/B57/B57-C08-interferometria-radar-insar/CLASE.md)
+7. **Coherencia radar** — [`B69-C05`](../programa/clases/B69/B69-C05-coherencia-interferometrica-y-decorrelacion/CLASE.md)
+8. **Desplazamiento del terreno** — [`B57-C08`](../programa/clases/B57/B57-C08-interferometria-radar-insar/CLASE.md), [`B57-C17`](../programa/clases/B57/B57-C17-terremotos-y-deformacion/CLASE.md)
+9. **Deslizamientos y subsidencia** — [`B69-C06`](../programa/clases/B69/B69-C06-deslizamientos-y-subsidencia-medidos-con-insar/CLASE.md)
+10. **Evaluación de interferograma** — [`B69-C07`](../programa/clases/B69/B69-C07-evaluacion-de-la-calidad-de-un-interferograma/CLASE.md)
+
+✅ **Checkpoint R16-M03.** Sin mirar el material, explica cómo se relacionan «Geometría radar», «Interferometría InSAR» y «Evaluación de interferograma», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M04 · Altimetría y LiDAR orbital
+
+1. **Principios de altimetría** — [`B57-C09`](../programa/clases/B57/B57-C09-altimetria-satelital/CLASE.md)
+2. **Altimetría radar** — [`B57-C09`](../programa/clases/B57/B57-C09-altimetria-satelital/CLASE.md)
+3. **Altimetría láser** — [`B57-C11`](../programa/clases/B57/B57-C11-lidar-satelital/CLASE.md), [`B53-C07`](../programa/clases/B53/B53-C07-topografia-por-altimetria/CLASE.md)
+4. **LiDAR orbital** — [`B57-C11`](../programa/clases/B57/B57-C11-lidar-satelital/CLASE.md)
+5. **Modelos digitales de elevación** — [`B57-C28`](../programa/clases/B57/B57-C28-modelos-digitales-de-elevacion/CLASE.md)
+6. **Correcciones atmosféricas** — [`B57-C29`](../programa/clases/B57/B57-C29-correcciones-atmosfericas-en-altimetria/CLASE.md)
+7. **Altura de hielo y océano** — [`B57-C12`](../programa/clases/B57/B57-C12-oceanografia-desde-orbita/CLASE.md), [`B57-C14`](../programa/clases/B57/B57-C14-glaciares-y-criosfera/CLASE.md)
+8. **Nubes de puntos** — [`B57-C30`](../programa/clases/B57/B57-C30-nubes-de-puntos-tridimensionales/CLASE.md)
+9. **Errores de elevación** — [`B57-C31`](../programa/clases/B57/B57-C31-errores-y-validacion-de-modelos-de-elevacion/CLASE.md)
+10. **Validación con puntos de control** — [`B57-C31`](../programa/clases/B57/B57-C31-errores-y-validacion-de-modelos-de-elevacion/CLASE.md)
+
+✅ **Checkpoint R16-M04.** Sin mirar el material, explica cómo se relacionan «Principios de altimetría», «Correcciones atmosféricas» y «Validación con puntos de control», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M05 · Calibración radiométrica de imágenes
+
+1. **Radiancia y reflectancia** — [`B45-C01`](../programa/clases/B45/B45-C01-radiometria-y-fotometria/CLASE.md), [`B57-C03`](../programa/clases/B57/B57-C03-resolucion-radiometrica-y-espectral/CLASE.md)
+2. **Calibración absoluta** — [`B13-C17`](../programa/clases/B13/B13-C17-calibracion-radiometrica/CLASE.md), [`B47-C15`](../programa/clases/B47/B47-C15-calibracion-a-bordo/CLASE.md)
+3. **Calibración relativa** — [`B13-C05`](../programa/clases/B13/B13-C05-calibracion-instrumental/CLASE.md)
+4. **Targets terrestres** — [`B57-C32`](../programa/clases/B57/B57-C32-sitios-de-calibracion-terrestres/CLASE.md)
+5. **Corrección de detector** — [`B44-C12`](../programa/clases/B44/B44-C12-calibracion-con-bias/CLASE.md), [`B44-C13`](../programa/clases/B44/B44-C13-calibracion-con-dark/CLASE.md), [`B44-C14`](../programa/clases/B44/B44-C14-calibracion-con-flat/CLASE.md)
+6. **Deriva temporal** — [`B13-C23`](../programa/clases/B13/B13-C23-estabilidad-y-deriva-temporal-de-instrumentos/CLASE.md)
+7. **Intercalibración de misiones** — [`B13-C18`](../programa/clases/B13/B13-C18-intercomparacion-de-instrumentos/CLASE.md)
+8. **Detección de anomalías** — [`B96-C13`](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md)
+9. **Presupuestos de incertidumbre** — [`B13-C13`](../programa/clases/B13/B13-C13-presupuestos-de-incertidumbre/CLASE.md)
+10. **Informe de calidad radiométrica** — [`B13-C19`](../programa/clases/B13/B13-C19-metadatos-y-registros-de-calibracion/CLASE.md), [`B13-C20`](../programa/clases/B13/B13-C20-validacion-de-una-cadena-de-medida/CLASE.md)
+
+✅ **Checkpoint R16-M05.** Sin mirar el material, explica cómo se relacionan «Radiancia y reflectancia», «Deriva temporal» y «Informe de calidad radiométrica», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M06 · Plataformas de datos geoespaciales
+
+1. **Sistemas de coordenadas** — [`B04-C11`](../programa/clases/B04/B04-C11-coordenadas-esfericas/CLASE.md), [`B04-C19`](../programa/clases/B04/B04-C19-transformaciones-de-coordenadas-astronomicas/CLASE.md), [`B13-C11`](../programa/clases/B13/B13-C11-sistemas-de-referencia-terrestres/CLASE.md)
+2. **Proyecciones cartográficas** — [`B04-C17`](../programa/clases/B04/B04-C17-proyecciones-cartograficas-elementales/CLASE.md)
+3. **Catálogos STAC** — [`B14-C25`](../programa/clases/B14/B14-C25-catalogos-de-datos-geoespaciales-y-metadatos-stac/CLASE.md)
+4. **GeoTIFF y COG** — [`B14-C26`](../programa/clases/B14/B14-C26-formatos-de-datos-raster-geoespaciales-geotiff-y-cog/CLASE.md)
+5. **Procesamiento por teselas** — [`B14-C27`](../programa/clases/B14/B14-C27-procesamiento-por-teselas-de-grandes-volumenes-de-imagenes/CLASE.md)
+6. **Bases espaciales** — [`B14-C28`](../programa/clases/B14/B14-C28-bases-de-datos-espaciales/CLASE.md)
+7. **Publicación de servicios OGC** — [`B14-C29`](../programa/clases/B14/B14-C29-servicios-de-datos-geoespaciales-estandar-ogc/CLASE.md)
+8. **Indexación de escenas** — [`B14-C25`](../programa/clases/B14/B14-C25-catalogos-de-datos-geoespaciales-y-metadatos-stac/CLASE.md)
+9. **Versionado de datos** — [`B14-C11`](../programa/clases/B14/B14-C11-control-de-versiones-de-datos/CLASE.md)
+10. **Plataforma geoespacial documentada** — [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md), [`B07-C19`](../programa/clases/B07/B07-C19-documentacion-y-reproducibilidad/CLASE.md)
+
+✅ **Checkpoint R16-M06.** Sin mirar el material, explica cómo se relacionan «Sistemas de coordenadas», «Bases espaciales» y «Plataforma geoespacial documentada», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M07 · IA para monitoreo de desastres
+
+1. **Conjuntos etiquetados** — [`B17-C10`](../programa/clases/B17/B17-C10-conjuntos-de-datos-etiquetados-para-aprendizaje-supervisado/CLASE.md)
+2. **Eventos de incendio** — [`B57-C16`](../programa/clases/B57/B57-C16-incendios-forestales/CLASE.md)
+3. **Inundaciones y sequías** — [`B57-C15`](../programa/clases/B57/B57-C15-sequias-e-inundaciones/CLASE.md)
+4. **Volcanismo** — [`B57-C18`](../programa/clases/B57/B57-C18-volcanismo-y-monitoreo/CLASE.md)
+5. **Deformación sísmica** — [`B57-C17`](../programa/clases/B57/B57-C17-terremotos-y-deformacion/CLASE.md)
+6. **Deforestación** — [`B57-C33`](../programa/clases/B57/B57-C33-deforestacion-y-cambio-de-uso-del-suelo/CLASE.md)
+7. **Modelos de segmentación** — [`B17-C11`](../programa/clases/B17/B17-C11-redes-de-segmentacion-semantica-de-imagenes/CLASE.md)
+8. **Evaluación de falsos positivos** — [`B17-C12`](../programa/clases/B17/B17-C12-evaluacion-de-modelos-precision-exhaustividad-y-falsos-positivos/CLASE.md)
+9. **Alertas y ética** — [`B57-C34`](../programa/clases/B57/B57-C34-alertas-tempranas-y-etica-en-el-monitoreo-de-desastres/CLASE.md)
+10. **Estudio de caso de desastre en Chile** — [`B57-C20`](../programa/clases/B57/B57-C20-caso-de-estudio-climatico-o-geologico-de-chile/CLASE.md)
+
+✅ **Checkpoint R16-M07.** Sin mirar el material, explica cómo se relacionan «Conjuntos etiquetados», «Deforestación» y «Estudio de caso de desastre en Chile», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R16-M08 · Diseño de servicios satelitales de observación
+
+1. **Necesidades del usuario final** — [`B83-C01`](../programa/clases/B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md), [`B83-C02`](../programa/clases/B83/B83-C02-partes-interesadas-y-usuarios/CLASE.md)
+2. **Cobertura espacial** — [`B57-C02`](../programa/clases/B57/B57-C02-resolucion-espacial-y-temporal/CLASE.md), [`B89-C17`](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md)
+3. **SLA de observación** — [`B124-C21`](../programa/clases/B124/B124-C21-acuerdos-de-nivel-de-servicio-para-productos-de-datos/CLASE.md)
+4. **Catálogo de datos** — [`B14-C25`](../programa/clases/B14/B14-C25-catalogos-de-datos-geoespaciales-y-metadatos-stac/CLASE.md)
+5. **Procesamiento automatizado** — [`B14-C30`](../programa/clases/B14/B14-C30-cadenas-de-procesamiento-automatizado-de-datos/CLASE.md)
+6. **API de servicios** — [`B14-C31`](../programa/clases/B14/B14-C31-apis-de-servicios-de-datos/CLASE.md)
+7. **Modelo de costo** — [`B124-C22`](../programa/clases/B124/B124-C22-modelo-de-costo-de-un-servicio-de-datos/CLASE.md)
+8. **Protección de datos** — [`B124-C13`](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md)
+9. **Pruebas operativas** — [`B90-C16`](../programa/clases/B90/B90-C16-pruebas-de-extremo-a-extremo/CLASE.md), [`B96-C20`](../programa/clases/B96/B96-C20-simulacion-de-jornada-de-control-de-mision/CLASE.md)
+10. **Propuesta técnica y comercial** — [`B124-C04`](../programa/clases/B124/B124-C04-diseno-de-propuesta-de-valor/CLASE.md), [`B124-C19`](../programa/clases/B124/B124-C19-redaccion-de-propuesta-de-mision/CLASE.md)
+
+✅ **Checkpoint R16-M08.** Sin mirar el material, explica cómo se relacionan «Necesidades del usuario final», «API de servicios» y «Propuesta técnica y comercial», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Servicio de monitoreo de un desastre con imágenes satelitales.** Diseña un servicio que detecte y cartografíe una inundación o un incendio con imágenes ópticas y de radar, con calibración y evaluación del error.
+
+Entregables:
+
+- Cadena de procesamiento de imágenes reproducible
+- Mapa de la zona afectada con su exactitud
+- Validación con datos de referencia independientes
+- Diseño del servicio: latencia, cobertura y entrega a usuarios
+
+Criterios de evaluación:
+
+- La calibración radiométrica está documentada
+- La exactitud se mide con muestras independientes
+- La latencia cumple el requisito del usuario
+- Se tratan los sesgos y los límites del método
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes procesar y calibrar imágenes de observación terrestre.
+- Puedes evaluar la exactitud de un producto geoespacial.
+- Puedes diseñar un servicio satelital con requisitos de usuario.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **portafolio de productos reproducibles** (con datos públicos):

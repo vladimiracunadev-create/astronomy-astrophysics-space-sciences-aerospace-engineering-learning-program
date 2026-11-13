@@ -113,6 +113,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Conoces los tratados espaciales básicos y su idea central?
+- ¿Sabes leer una cláusula contractual y distinguir obligaciones?
+- ¿Entiendes un flujo de caja sencillo?
+- ¿Sabes redactar con precisión y citar normas?
+
+#### R23-M01 · Tratados de derecho espacial
+
+1. **Tratado del Espacio Ultraterrestre** — [`B119-C01`](../programa/clases/B119/B119-C01-tratado-del-espacio-ultraterrestre/CLASE.md)
+2. **Acuerdo de Salvamento** — [`B119-C02`](../programa/clases/B119/B119-C02-acuerdo-de-salvamento/CLASE.md)
+3. **Convenio de Responsabilidad** — [`B119-C03`](../programa/clases/B119/B119-C03-convenio-de-responsabilidad/CLASE.md)
+4. **Convenio de Registro** — [`B119-C04`](../programa/clases/B119/B119-C04-convenio-de-registro/CLASE.md)
+5. **Acuerdo de la Luna** — [`B119-C05`](../programa/clases/B119/B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md)
+6. **Resoluciones ONU sobre sostenibilidad** — [`B119-C06`](../programa/clases/B119/B119-C06-organismos-unoosa-y-copuos/CLASE.md), [`B118-C19`](../programa/clases/B118/B118-C19-sostenibilidad-y-gobernanza-orbital/CLASE.md)
+7. **Práctica estatal** — [`B119-C31`](../programa/clases/B119/B119-C31-practica-estatal-y-costumbre-internacional-en-el-derecho-espacial/CLASE.md)
+8. **Interpretación de tratados** — [`B119-C32`](../programa/clases/B119/B119-C32-interpretacion-de-tratados-internacionales/CLASE.md)
+9. **Casos jurídicos** — [`B119-C19`](../programa/clases/B119/B119-C19-legislacion-comparada-y-casos-nacionales/CLASE.md)
+10. **Matriz comparativa de obligaciones** — [`B119-C33`](../programa/clases/B119/B119-C33-matriz-comparativa-de-obligaciones-juridicas-por-actor/CLASE.md)
+
+✅ **Checkpoint R23-M01.** Sin mirar el material, explica cómo se relacionan «Tratado del Espacio Ultraterrestre», «Resoluciones ONU sobre sostenibilidad» y «Matriz comparativa de obligaciones», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M02 · Legislaciones y supervisión nacionales
+
+1. **Autorización de operadores** — [`B119-C08`](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md)
+2. **Supervisión continua** — [`B119-C08`](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md)
+3. **Registro de objetos** — [`B119-C07`](../programa/clases/B119/B119-C07-registro-nacional-de-objetos/CLASE.md)
+4. **Requisitos de lanzamiento** — [`B121-C01`](../programa/clases/B121/B121-C01-licencias-y-requisitos-nacionales-para-el-lanzamiento/CLASE.md)
+5. **Licenciamiento remoto** — [`B121-C02`](../programa/clases/B121/B121-C02-licenciamiento-de-actividades-de-teledeteccion/CLASE.md)
+6. **Responsabilidad nacional** — [`B119-C03`](../programa/clases/B119/B119-C03-convenio-de-responsabilidad/CLASE.md), [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md)
+7. **Protección ambiental** — [`B121-C03`](../programa/clases/B121/B121-C03-proteccion-ambiental-en-la-legislacion-espacial/CLASE.md)
+8. **Ley chilena aplicable a verificar** — [`B121-C04`](../programa/clases/B121/B121-C04-marco-legal-espacial-en-chile/CLASE.md)
+9. **Comparación regional** — [`B119-C19`](../programa/clases/B119/B119-C19-legislacion-comparada-y-casos-nacionales/CLASE.md)
+10. **Análisis de cumplimiento multinacional** — [`B121-C05`](../programa/clases/B121/B121-C05-cumplimiento-regulatorio-en-varias-jurisdicciones/CLASE.md)
+
+✅ **Checkpoint R23-M02.** Sin mirar el material, explica cómo se relacionan «Autorización de operadores», «Responsabilidad nacional» y «Análisis de cumplimiento multinacional», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M03 · Espectro radioeléctrico y licencias
+
+1. **Asignación de frecuencias** — [`B89-C02`](../programa/clases/B89/B89-C02-frecuencia-y-espectro-espacial/CLASE.md), [`B89-C19`](../programa/clases/B89/B89-C19-coordinacion-del-espectro-ante-itu/CLASE.md)
+2. **Coordinación internacional ITU** — [`B89-C19`](../programa/clases/B89/B89-C19-coordinacion-del-espectro-ante-itu/CLASE.md), [`B119-C09`](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md)
+3. **Licencias satelitales** — [`B120-C01`](../programa/clases/B120/B120-C01-licencias-satelitales-y-procedimiento-de-notificacion/CLASE.md)
+4. **Interferencias perjudiciales** — [`B119-C15`](../programa/clases/B119/B119-C15-interferencias-y-resiliencia-de-comunicaciones/CLASE.md), [`B118-C17`](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md)
+5. **Radioastronomía protegida** — [`B118-C17`](../programa/clases/B118/B118-C17-interferencia-radioastronomica/CLASE.md), [`B46-C01`](../programa/clases/B46/B46-C01-espectro-radioastronomico/CLASE.md)
+6. **Zonas de coordinación** — [`B120-C02`](../programa/clases/B120/B120-C02-zonas-de-coordinacion-entre-servicios-radioelectricos/CLASE.md)
+7. **Slots orbitales como concepto** — [`B120-C03`](../programa/clases/B120/B120-C03-posiciones-orbitales-y-espectro-como-recursos-limitados/CLASE.md)
+8. **Documentación regulatoria** — [`B120-C04`](../programa/clases/B120/B120-C04-documentacion-regulatoria-de-un-sistema-satelital/CLASE.md)
+9. **Riesgos de incumplimiento** — [`B120-C05`](../programa/clases/B120/B120-C05-riesgos-de-incumplimiento-regulatorio/CLASE.md)
+10. **Caso de planificación regulatoria** — [`B120-C06`](../programa/clases/B120/B120-C06-caso-de-planificacion-regulatoria-de-un-sistema-satelital/CLASE.md)
+
+✅ **Checkpoint R23-M03.** Sin mirar el material, explica cómo se relacionan «Asignación de frecuencias», «Zonas de coordinación» y «Caso de planificación regulatoria», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M04 · Responsabilidad civil y estatal espacial
+
+1. **Responsabilidad estatal** — [`B119-C03`](../programa/clases/B119/B119-C03-convenio-de-responsabilidad/CLASE.md), [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md)
+2. **Responsabilidad de operadores** — [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md)
+3. **Daños en superficie** — [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md), [`B118-C14`](../programa/clases/B118/B118-C14-reentrada-y-riesgos-en-superficie/CLASE.md)
+4. **Daños en órbita** — [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md), [`B118-C05`](../programa/clases/B118/B118-C05-conjunciones-orbitales/CLASE.md)
+5. **Prueba de daño** — [`B123-C01`](../programa/clases/B123/B123-C01-prueba-del-dano-y-cuantificacion-de-la-reparacion/CLASE.md)
+6. **Causalidad jurídica** — [`B123-C02`](../programa/clases/B123/B123-C02-causalidad-y-atribucion-juridica-del-dano/CLASE.md)
+7. **Mecanismos de reclamación** — [`B123-C03`](../programa/clases/B123/B123-C03-mecanismos-de-reclamacion-entre-estados/CLASE.md)
+8. **Arbitraje y resolución** — [`B123-C04`](../programa/clases/B123/B123-C04-arbitraje-y-resolucion-de-controversias-espaciales/CLASE.md)
+9. **Cláusulas contractuales** — [`B124-C10`](../programa/clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md)
+10. **Caso jurídico de incidente** — [`B119-C20`](../programa/clases/B119/B119-C20-simulacion-de-respuesta-institucional-a-incidentes/CLASE.md)
+
+✅ **Checkpoint R23-M04.** Sin mirar el material, explica cómo se relacionan «Responsabilidad estatal», «Causalidad jurídica» y «Caso jurídico de incidente», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M05 · Seguros espaciales
+
+1. **Riesgos asegurables** — [`B124-C08`](../programa/clases/B124/B124-C08-seguros-y-riesgo-espacial/CLASE.md)
+2. **Seguro de lanzamiento** — [`B127-C01`](../programa/clases/B127/B127-C01-seguros-de-lanzamiento/CLASE.md)
+3. **Seguro en órbita** — [`B127-C02`](../programa/clases/B127/B127-C02-seguros-en-orbita/CLASE.md)
+4. **Seguro de responsabilidad** — [`B127-C03`](../programa/clases/B127/B127-C03-seguros-de-responsabilidad-civil-espacial/CLASE.md)
+5. **Exclusiones de pólizas** — [`B127-C04`](../programa/clases/B127/B127-C04-exclusiones-deducibles-y-limites-de-polizas/CLASE.md)
+6. **Evaluación actuarial básica** — [`B127-C05`](../programa/clases/B127/B127-C05-evaluacion-actuarial-basica-del-riesgo-espacial/CLASE.md)
+7. **Deducibles y límites** — [`B127-C04`](../programa/clases/B127/B127-C04-exclusiones-deducibles-y-limites-de-polizas/CLASE.md)
+8. **Gestión de siniestros** — [`B127-C06`](../programa/clases/B127/B127-C06-gestion-de-siniestros-espaciales/CLASE.md)
+9. **Reaseguro espacial** — [`B127-C07`](../programa/clases/B127/B127-C07-reaseguro-espacial/CLASE.md)
+10. **Simulación de cobertura** — [`B127-C08`](../programa/clases/B127/B127-C08-simulacion-de-cobertura-de-seguros-para-una-mision/CLASE.md)
+
+✅ **Checkpoint R23-M05.** Sin mirar el material, explica cómo se relacionan «Riesgos asegurables», «Evaluación actuarial básica» y «Simulación de cobertura», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M06 · Financiamiento de negocios espaciales
+
+1. **Fuentes públicas de financiamiento** — [`B124-C06`](../programa/clases/B124/B124-C06-financiamiento-publico/CLASE.md)
+2. **Capital semilla** — [`B126-C01`](../programa/clases/B126/B126-C01-capital-semilla-y-financiamiento-inicial/CLASE.md)
+3. **Capital de riesgo** — [`B126-C02`](../programa/clases/B126/B126-C02-capital-de-riesgo-en-empresas-espaciales/CLASE.md)
+4. **Financiación de infraestructura** — [`B124-C06`](../programa/clases/B124/B124-C06-financiamiento-publico/CLASE.md), [`B124-C07`](../programa/clases/B124/B124-C07-financiamiento-privado/CLASE.md)
+5. **Contratos de servicios** — [`B124-C10`](../programa/clases/B124/B124-C10-contratos-y-compras-espaciales/CLASE.md)
+6. **Presupuestos de misión** — [`B124-C05`](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md)
+7. **Proyección de flujos** — [`B126-C03`](../programa/clases/B126/B126-C03-proyeccion-de-flujos-de-caja-de-un-proyecto-espacial/CLASE.md)
+8. **Costo de adquisición** — [`B126-C04`](../programa/clases/B126/B126-C04-costo-de-adquisicion-de-clientes-y-economia-unitaria/CLASE.md)
+9. **Evaluación de viabilidad** — [`B126-C05`](../programa/clases/B126/B126-C05-evaluacion-de-viabilidad-economica-de-un-negocio-espacial/CLASE.md)
+10. **Pitch financiero basado en evidencia** — [`B126-C06`](../programa/clases/B126/B126-C06-presentacion-financiera-ante-inversionistas-con-evidencia/CLASE.md)
+
+✅ **Checkpoint R23-M06.** Sin mirar el material, explica cómo se relacionan «Fuentes públicas de financiamiento», «Presupuestos de misión» y «Pitch financiero basado en evidencia», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M07 · Creación y operación de empresas espaciales
+
+1. **Cadena de valor espacial** — [`B124-C01`](../programa/clases/B124/B124-C01-cadena-de-valor-de-industria-espacial/CLASE.md)
+2. **Segmento upstream** — [`B124-C03`](../programa/clases/B124/B124-C03-mercados-downstream-y-upstream/CLASE.md)
+3. **Segmento downstream** — [`B124-C03`](../programa/clases/B124/B124-C03-mercados-downstream-y-upstream/CLASE.md)
+4. **Mercado de datos** — [`B125-C01`](../programa/clases/B125/B125-C01-mercado-de-datos-espaciales/CLASE.md)
+5. **Propiedad intelectual** — [`B124-C09`](../programa/clases/B124/B124-C09-propiedad-intelectual-y-licencias/CLASE.md)
+6. **Modelo de suscripción** — [`B125-C02`](../programa/clases/B125/B125-C02-modelos-de-ingresos-suscripcion-y-servicio/CLASE.md)
+7. **Gobierno corporativo** — [`B125-C03`](../programa/clases/B125/B125-C03-gobierno-corporativo-de-una-empresa-espacial/CLASE.md)
+8. **Alianzas internacionales** — [`B125-C04`](../programa/clases/B125/B125-C04-alianzas-y-cooperacion-internacional-empresarial/CLASE.md)
+9. **Riesgos de exportación y controles** — [`B125-C05`](../programa/clases/B125/B125-C05-control-de-exportaciones-y-transferencia-de-tecnologia/CLASE.md)
+10. **Plan empresarial de empresa espacial** — [`B125-C06`](../programa/clases/B125/B125-C06-plan-empresarial-de-una-empresa-espacial/CLASE.md)
+
+✅ **Checkpoint R23-M07.** Sin mirar el material, explica cómo se relacionan «Cadena de valor espacial», «Modelo de suscripción» y «Plan empresarial de empresa espacial», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R23-M08 · Gobernanza ética y sostenibilidad
+
+1. **Uso pacífico del espacio** — [`B119-C11`](../programa/clases/B119/B119-C11-uso-pacifico-y-limitaciones-militares/CLASE.md)
+2. **Principio de no apropiación** — [`B119-C01`](../programa/clases/B119/B119-C01-tratado-del-espacio-ultraterrestre/CLASE.md), [`B119-C05`](../programa/clases/B119/B119-C05-acuerdo-sobre-la-luna-y-alcance/CLASE.md)
+3. **Sostenibilidad orbital** — [`B118-C19`](../programa/clases/B118/B118-C19-sostenibilidad-y-gobernanza-orbital/CLASE.md)
+4. **Equidad de acceso** — [`B119-C34`](../programa/clases/B119/B119-C34-equidad-de-acceso-al-espacio/CLASE.md)
+5. **Protección planetaria** — [`B56-C18`](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md)
+6. **Ciencia abierta** — [`B124-C14`](../programa/clases/B124/B124-C14-ciencia-abierta-y-reproducibilidad/CLASE.md)
+7. **Seguridad de datos** — [`B119-C35`](../programa/clases/B119/B119-C35-seguridad-y-gobernanza-de-datos-espaciales/CLASE.md)
+8. **Impacto de mega constelaciones** — [`B118-C15`](../programa/clases/B118/B118-C15-seguimiento-de-mega-constelaciones/CLASE.md)
+9. **Gobernanza de recursos** — [`B119-C36`](../programa/clases/B119/B119-C36-gobernanza-de-los-recursos-espaciales/CLASE.md)
+10. **Código de conducta profesional** — [`B119-C18`](../programa/clases/B119/B119-C18-etica-y-derechos-en-actividades-espaciales/CLASE.md), [`B124-C13`](../programa/clases/B124/B124-C13-etica-de-investigacion-y-datos/CLASE.md)
+
+✅ **Checkpoint R23-M08.** Sin mirar el material, explica cómo se relacionan «Uso pacífico del espacio», «Ciencia abierta» y «Código de conducta profesional», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Estructura jurídica y de negocio de una empresa satelital.** Diseña la estructura legal, de licencias y de financiamiento de una empresa que opera una pequeña constelación, con su análisis de responsabilidad y seguros.
+
+Entregables:
+
+- Mapa de licencias nacionales, de espectro y de lanzamiento
+- Matriz de responsabilidades y seguros
+- Plan de financiamiento con riesgos
+- Memorando de gobernanza ética y sostenibilidad
+
+Criterios de evaluación:
+
+- Cada obligación cita la norma que la origina
+- La matriz de responsabilidades cubre daños en tierra y en órbita
+- El plan financiero contempla retrasos y fallos de lanzamiento
+- El memorando aborda los desechos y el uso sostenible
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes identificar y ordenar las obligaciones jurídicas de una actividad espacial.
+- Puedes estructurar financiamiento, seguros y responsabilidad de un negocio espacial.
+- Puedes argumentar posturas de política espacial con fuentes.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente regulatorio y de negocio** (educativo, no asesoría):

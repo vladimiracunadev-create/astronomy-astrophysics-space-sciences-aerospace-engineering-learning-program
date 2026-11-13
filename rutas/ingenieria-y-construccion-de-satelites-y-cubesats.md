@@ -123,6 +123,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes hacer un presupuesto de masa y de energía de un sistema sencillo?
+- ¿Sabes qué es un presupuesto de enlace?
+- ¿Entiendes la estabilización por giro y por ruedas?
+- ¿Puedes leer un diagrama de bloques de ingeniería?
+
+#### R12-M01 · Arquitectura de misión satelital
+
+1. **Objetivo del satélite** — [`B83-C01`](../programa/clases/B83/B83-C01-necesidad-de-mision-y-caso-cientifico/CLASE.md)
+2. **Requisitos de servicio** — [`B83-C04`](../programa/clases/B83/B83-C04-requisitos-verificables/CLASE.md)
+3. **Órbita y cobertura** — [`B71-C07`](../programa/clases/B71/B71-C07-orbitas-circulares/CLASE.md), [`B71-C08`](../programa/clases/B71/B71-C08-orbitas-elipticas/CLASE.md), [`B89-C17`](../programa/clases/B89/B89-C17-constelaciones-y-cobertura/CLASE.md)
+4. **Presupuesto de masa** — [`B83-C09`](../programa/clases/B83/B83-C09-presupuestos-de-masa/CLASE.md)
+5. **Presupuesto de energía** — [`B83-C10`](../programa/clases/B83/B83-C10-presupuestos-de-energia/CLASE.md)
+6. **Presupuesto de datos** — [`B83-C11`](../programa/clases/B83/B83-C11-presupuestos-de-datos/CLASE.md)
+7. **Arquitectura de plataforma** — [`B83-C07`](../programa/clases/B83/B83-C07-arquitecturas-de-sistemas/CLASE.md)
+8. **Cargas útiles compatibles** — [`B83-C08`](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md)
+9. **Redundancia de misión** — [`B83-C23`](../programa/clases/B83/B83-C23-redundancia-y-tolerancia-a-fallos-de-mision/CLASE.md)
+10. **Revisión conceptual de diseño** — [`B83-C13`](../programa/clases/B83/B83-C13-revisiones-srr-y-pdr/CLASE.md)
+
+✅ **Checkpoint R12-M01.** Sin mirar el material, explica cómo se relacionan «Objetivo del satélite», «Presupuesto de datos» y «Revisión conceptual de diseño», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M02 · Diseño de cargas útiles
+
+1. **Objetivos de carga útil** — [`B47-C02`](../programa/clases/B47/B47-C02-requisitos-de-instrumentos-orbitales/CLASE.md)
+2. **Sensores ópticos** — [`B44-C02`](../programa/clases/B44/B44-C02-sensores-ccd/CLASE.md), [`B44-C03`](../programa/clases/B44/B44-C03-sensores-cmos/CLASE.md)
+3. **Sensores de radio** — [`B46-C06`](../programa/clases/B46/B46-C06-ruido-de-sistema-y-radiometria/CLASE.md), [`B46-C07`](../programa/clases/B46/B46-C07-receptores-superheterodinos/CLASE.md)
+4. **Dosímetros** — [`B85-C23`](../programa/clases/B85/B85-C23-dosimetros-y-monitores-de-radiacion-a-bordo/CLASE.md)
+5. **Carga útil educativa** — [`B47-C25`](../programa/clases/B47/B47-C25-diseno-de-cargas-utiles-educativas/CLASE.md)
+6. **Resolución y sensibilidad** — [`B44-C04`](../programa/clases/B44/B44-C04-eficiencia-cuantica-espectral/CLASE.md), [`B44-C06`](../programa/clases/B44/B44-C06-ruido-de-lectura/CLASE.md), [`B44-C17`](../programa/clases/B44/B44-C17-escala-de-imagen-y-muestreo/CLASE.md)
+7. **Masa y energía de instrumento** — [`B83-C09`](../programa/clases/B83/B83-C09-presupuestos-de-masa/CLASE.md), [`B83-C10`](../programa/clases/B83/B83-C10-presupuestos-de-energia/CLASE.md), [`B85-C20`](../programa/clases/B85/B85-C20-presupuesto-termico-de-carga-util/CLASE.md)
+8. **Calibración de carga útil** — [`B47-C15`](../programa/clases/B47/B47-C15-calibracion-a-bordo/CLASE.md), [`B13-C05`](../programa/clases/B13/B13-C05-calibracion-instrumental/CLASE.md)
+9. **Flujo de datos científicos** — [`B47-C16`](../programa/clases/B47/B47-C16-compresion-de-datos-cientificos/CLASE.md), [`B47-C18`](../programa/clases/B47/B47-C18-downlink-de-instrumentos-cientificos/CLASE.md), [`B96-C16`](../programa/clases/B96/B96-C16-gestion-de-datos-cientificos/CLASE.md)
+10. **Aceptación de carga útil** — [`B90-C19`](../programa/clases/B90/B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md)
+
+✅ **Checkpoint R12-M02.** Sin mirar el material, explica cómo se relacionan «Objetivos de carga útil», «Resolución y sensibilidad» y «Aceptación de carga útil», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M03 · Plataformas y buses satelitales
+
+1. **CubeSat Unit y dimensiones** — [`B95-C01`](../programa/clases/B95/B95-C01-unidad-cubesat-dimensiones-y-formatos/CLASE.md)
+2. **Plataforma estructural** — [`B84-C20`](../programa/clases/B84/B84-C20-diseno-estructural-de-plataforma-satelital/CLASE.md)
+3. **Arquitectura de buses** — [`B83-C07`](../programa/clases/B83/B83-C07-arquitecturas-de-sistemas/CLASE.md), [`B88-C07`](../programa/clases/B88/B88-C07-buses-i2c-spi-can-y-spacewire/CLASE.md)
+4. **Mecanismos y desplegables** — [`B84-C13`](../programa/clases/B84/B84-C13-mecanismos-desplegables/CLASE.md)
+5. **Paneles de interfaces** — [`B90-C05`](../programa/clases/B90/B90-C05-documentacion-de-interfaces/CLASE.md)
+6. **Componentes comerciales** — [`B95-C02`](../programa/clases/B95/B95-C02-componentes-comerciales-en-vuelo-seleccion-y-riesgo/CLASE.md)
+7. **Compatibilidad electromagnética** — [`B90-C13`](../programa/clases/B90/B90-C13-compatibilidad-electromagnetica-emc/CLASE.md), [`B90-C14`](../programa/clases/B90/B90-C14-interferencias-electromagneticas-emi/CLASE.md)
+8. **Diseño térmico de plataforma** — [`B85-C01`](../programa/clases/B85/B85-C01-balance-radiativo-de-satelite/CLASE.md), [`B85-C18`](../programa/clases/B85/B85-C18-modelado-termico-por-nodos/CLASE.md)
+9. **Análisis de compatibilidad** — [`B83-C08`](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md)
+10. **Selección argumentada de plataforma** — [`B95-C03`](../programa/clases/B95/B95-C03-seleccion-y-comparacion-de-plataformas/CLASE.md)
+
+✅ **Checkpoint R12-M03.** Sin mirar el material, explica cómo se relacionan «CubeSat Unit y dimensiones», «Componentes comerciales» y «Selección argumentada de plataforma», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M04 · Sistema eléctrico de potencia
+
+1. **Generación fotovoltaica** — [`B86-C02`](../programa/clases/B86/B86-C02-celdas-solares/CLASE.md), [`B86-C03`](../programa/clases/B86/B86-C03-arreglos-fotovoltaicos-desplegables/CLASE.md)
+2. **Baterías de a bordo** — [`B86-C05`](../programa/clases/B86/B86-C05-baterias-de-ion-litio/CLASE.md), [`B86-C06`](../programa/clases/B86/B86-C06-gestion-de-carga/CLASE.md)
+3. **Regulación de potencia** — [`B86-C08`](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md), [`B86-C09`](../programa/clases/B86/B86-C09-electronica-de-potencia/CLASE.md)
+4. **Distribución de buses** — [`B86-C07`](../programa/clases/B86/B86-C07-distribucion-de-potencia/CLASE.md)
+5. **Protecciones eléctricas** — [`B86-C10`](../programa/clases/B86/B86-C10-proteccion-contra-sobrecorriente/CLASE.md), [`B90-C03`](../programa/clases/B90/B90-C03-proteccion-frente-a-esd/CLASE.md)
+6. **Estados de bajo consumo** — [`B86-C21`](../programa/clases/B86/B86-C21-modos-de-operacion-y-estados-de-bajo-consumo/CLASE.md)
+7. **Energía en eclipse** — [`B86-C04`](../programa/clases/B86/B86-C04-orientacion-solar-y-eclipses/CLASE.md), [`B86-C13`](../programa/clases/B86/B86-C13-energia-durante-eclipse/CLASE.md)
+8. **Dimensionamiento de arreglos** — [`B86-C01`](../programa/clases/B86/B86-C01-balance-de-potencia-electrica/CLASE.md), [`B86-C19`](../programa/clases/B86/B86-C19-presupuesto-de-potencia-de-mision/CLASE.md)
+9. **Márgenes de potencia** — [`B86-C12`](../programa/clases/B86/B86-C12-eficiencia-y-disipacion/CLASE.md)
+10. **Prueba de ciclo eléctrico** — [`B86-C20`](../programa/clases/B86/B86-C20-simulacion-de-ciclo-energetico-orbital/CLASE.md), [`B90-C16`](../programa/clases/B90/B90-C16-pruebas-de-extremo-a-extremo/CLASE.md)
+
+✅ **Checkpoint R12-M04.** Sin mirar el material, explica cómo se relacionan «Generación fotovoltaica», «Estados de bajo consumo» y «Prueba de ciclo eléctrico», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M05 · Sistema de comunicaciones satelitales
+
+1. **Antenas de CubeSat** — [`B95-C04`](../programa/clases/B95/B95-C04-antenas-desplegables-para-satelites-pequenos/CLASE.md)
+2. **Presupuesto de enlace** — [`B89-C05`](../programa/clases/B89/B89-C05-presupuesto-de-enlace/CLASE.md), [`B89-C06`](../programa/clases/B89/B89-C06-ganancias-y-perdidas-de-antena/CLASE.md)
+3. **Radio TT&C** — [`B89-C11`](../programa/clases/B89/B89-C11-telemetria-ccsds/CLASE.md), [`B89-C12`](../programa/clases/B89/B89-C12-telecomandos-ccsds/CLASE.md)
+4. **Bandas autorizadas** — [`B89-C03`](../programa/clases/B89/B89-C03-bandas-vhf-uhf-s-x-ka/CLASE.md), [`B89-C19`](../programa/clases/B89/B89-C19-coordinacion-del-espectro-ante-itu/CLASE.md), [`B119-C09`](../programa/clases/B119/B119-C09-derecho-y-normas-de-telecomunicaciones/CLASE.md)
+5. **Codificación de datos** — [`B89-C08`](../programa/clases/B89/B89-C08-modulacion-digital/CLASE.md), [`B89-C09`](../programa/clases/B89/B89-C09-codificacion-correctora-de-errores/CLASE.md)
+6. **Protocolo de comunicación** — [`B89-C13`](../programa/clases/B89/B89-C13-protocolos-para-espacio-profundo/CLASE.md)
+7. **Estación terrestre** — [`B89-C14`](../programa/clases/B89/B89-C14-estaciones-terrestres/CLASE.md)
+8. **Gestión de telemetría** — [`B88-C08`](../programa/clases/B88/B88-C08-telemetria-interna/CLASE.md), [`B96-C06`](../programa/clases/B96/B96-C06-telemetria-operativa/CLASE.md)
+9. **Análisis de contactos** — [`B89-C15`](../programa/clases/B89/B89-C15-rastreo-y-doppler/CLASE.md), [`B96-C04`](../programa/clases/B96/B96-C04-planificacion-de-contactos/CLASE.md)
+10. **Prueba de enlace extremo a extremo** — [`B90-C16`](../programa/clases/B90/B90-C16-pruebas-de-extremo-a-extremo/CLASE.md)
+
+✅ **Checkpoint R12-M05.** Sin mirar el material, explica cómo se relacionan «Antenas de CubeSat», «Protocolo de comunicación» y «Prueba de enlace extremo a extremo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M06 · Sistema de determinación y control de actitud
+
+1. **Sensores de actitud** — [`B87-C03`](../programa/clases/B87/B87-C03-sensores-solares/CLASE.md), [`B87-C04`](../programa/clases/B87/B87-C04-sensores-terrestres/CLASE.md), [`B87-C05`](../programa/clases/B87/B87-C05-magnetometros/CLASE.md), [`B87-C06`](../programa/clases/B87/B87-C06-giroscopios-mems/CLASE.md), [`B87-C07`](../programa/clases/B87/B87-C07-rastreadores-estelares/CLASE.md)
+2. **Dinámica rotacional** — [`B87-C01`](../programa/clases/B87/B87-C01-dinamica-de-cuerpo-rigido/CLASE.md), [`B87-C02`](../programa/clases/B87/B87-C02-representaciones-de-orientacion/CLASE.md)
+3. **Detumbling** — [`B87-C16`](../programa/clases/B87/B87-C16-detumbling-despues-del-despliegue/CLASE.md)
+4. **Ruedas de reacción** — [`B87-C11`](../programa/clases/B87/B87-C11-ruedas-de-reaccion/CLASE.md)
+5. **Magnetopares** — [`B87-C12`](../programa/clases/B87/B87-C12-magnetopares/CLASE.md)
+6. **Control de apuntamiento** — [`B87-C15`](../programa/clases/B87/B87-C15-apuntamiento-de-alta-precision/CLASE.md)
+7. **Perturbaciones orbitales** — [`B87-C18`](../programa/clases/B87/B87-C18-estabilidad-ante-perturbaciones/CLASE.md)
+8. **Presupuesto de error** — [`B87-C22`](../programa/clases/B87/B87-C22-presupuesto-de-error-de-apuntamiento/CLASE.md)
+9. **Modos seguros** — [`B88-C11`](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md), [`B88-C12`](../programa/clases/B88/B88-C12-deteccion-aislamiento-y-recuperacion-de-fallos/CLASE.md)
+10. **Prueba de controlador ADCS** — [`B87-C19`](../programa/clases/B87/B87-C19-verificacion-de-ley-de-control/CLASE.md), [`B87-C20`](../programa/clases/B87/B87-C20-simulacion-adcs-integral/CLASE.md)
+
+✅ **Checkpoint R12-M06.** Sin mirar el material, explica cómo se relacionan «Sensores de actitud», «Control de apuntamiento» y «Prueba de controlador ADCS», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M07 · Ingeniería de interfaces y configuración
+
+1. **Documentos de control de interfaces** — [`B90-C05`](../programa/clases/B90/B90-C05-documentacion-de-interfaces/CLASE.md), [`B83-C08`](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md)
+2. **Matriz de requisitos** — [`B83-C04`](../programa/clases/B83/B83-C04-requisitos-verificables/CLASE.md), [`B83-C05`](../programa/clases/B83/B83-C05-trazabilidad-de-requisitos/CLASE.md)
+3. **Control de configuración** — [`B83-C15`](../programa/clases/B83/B83-C15-gestion-de-configuracion/CLASE.md), [`B88-C18`](../programa/clases/B88/B88-C18-control-de-configuracion-de-firmware/CLASE.md)
+4. **Gestión de masas** — [`B83-C09`](../programa/clases/B83/B83-C09-presupuestos-de-masa/CLASE.md)
+5. **Gestión térmica** — [`B85-C20`](../programa/clases/B85/B85-C20-presupuesto-termico-de-carga-util/CLASE.md), [`B85-C18`](../programa/clases/B85/B85-C18-modelado-termico-por-nodos/CLASE.md)
+6. **Interfaces mecánicas** — [`B90-C06`](../programa/clases/B90/B90-C06-integracion-mecanica-de-subsistemas/CLASE.md)
+7. **Interfaces eléctricas** — [`B90-C07`](../programa/clases/B90/B90-C07-integracion-electrica-de-buses/CLASE.md)
+8. **Interfaces de software** — [`B88-C21`](../programa/clases/B88/B88-C21-interfaces-y-documentos-de-control-de-software-de-vuelo/CLASE.md)
+9. **Gestión de cambios** — [`B83-C15`](../programa/clases/B83/B83-C15-gestion-de-configuracion/CLASE.md)
+10. **Revisión de coherencia integral** — [`B83-C14`](../programa/clases/B83/B83-C14-revisiones-cdr-y-trr/CLASE.md)
+
+✅ **Checkpoint R12-M07.** Sin mirar el material, explica cómo se relacionan «Documentos de control de interfaces», «Interfaces mecánicas» y «Revisión de coherencia integral», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R12-M08 · Integración y calificación de CubeSat
+
+1. **Plan de ensamblaje** — [`B90-C01`](../programa/clases/B90/B90-C01-plan-de-ensamblaje-e-integracion/CLASE.md)
+2. **Procedimientos de integración** — [`B90-C06`](../programa/clases/B90/B90-C06-integracion-mecanica-de-subsistemas/CLASE.md), [`B90-C07`](../programa/clases/B90/B90-C07-integracion-electrica-de-buses/CLASE.md), [`B90-C08`](../programa/clases/B90/B90-C08-procedimientos-de-prueba-funcional/CLASE.md)
+3. **Control ESD** — [`B90-C02`](../programa/clases/B90/B90-C02-buenas-practicas-de-sala-limpia/CLASE.md), [`B90-C03`](../programa/clases/B90/B90-C03-proteccion-frente-a-esd/CLASE.md)
+4. **Pruebas de subsistemas** — [`B90-C08`](../programa/clases/B90/B90-C08-procedimientos-de-prueba-funcional/CLASE.md)
+5. **Pruebas funcionales** — [`B90-C16`](../programa/clases/B90/B90-C16-pruebas-de-extremo-a-extremo/CLASE.md)
+6. **Vibración y choque** — [`B90-C09`](../programa/clases/B90/B90-C09-ensayos-de-vibracion/CLASE.md), [`B90-C10`](../programa/clases/B90/B90-C10-ensayos-de-choque/CLASE.md)
+7. **Vacío térmico** — [`B90-C12`](../programa/clases/B90/B90-C12-vacio-termico-y-ciclos/CLASE.md), [`B85-C19`](../programa/clases/B85/B85-C19-ensayos-de-vacio-termico/CLASE.md)
+8. **Trazabilidad de evidencia** — [`B90-C18`](../programa/clases/B90/B90-C18-trazabilidad-de-evidencias/CLASE.md)
+9. **Resolución de no conformidades** — [`B90-C17`](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
+10. **Revisión de aceptación de CubeSat** — [`B90-C19`](../programa/clases/B90/B90-C19-aceptacion-de-unidades-de-vuelo/CLASE.md), [`B90-C20`](../programa/clases/B90/B90-C20-campana-conceptual-de-calificacion-de-cubesat/CLASE.md)
+
+✅ **Checkpoint R12-M08.** Sin mirar el material, explica cómo se relacionan «Plan de ensamblaje», «Vibración y choque» y «Revisión de aceptación de CubeSat», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Diseño preliminar de un CubeSat de observación.** Diseña un CubeSat 3U para una misión de observación: arquitectura, presupuestos y plan de integración y pruebas, con revisión de diseño preliminar.
+
+Entregables:
+
+- Concepto de misión y requisitos verificables
+- Presupuestos de masa, energía, datos y enlace
+- Arquitectura de bus con interfaces
+- Plan de integración, calificación y operación
+
+Criterios de evaluación:
+
+- Cada requisito tiene un método de verificación
+- Los presupuestos tienen margen y reserva
+- Las interfaces están documentadas con unidades
+- El plan contempla fallos y pruebas ambientales
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes llevar una misión satelital pequeña desde el requisito hasta un diseño preliminar revisable.
+- Puedes dimensionar los subsistemas principales de un satélite.
+- Puedes planear su integración y calificación.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de diseño de un CubeSat** (educativo, no de vuelo):

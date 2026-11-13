@@ -129,6 +129,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes explicar con tus palabras por qué ocurren las fases de la Luna?
+- ¿Sabes citar y contrastar fuentes históricas?
+- ¿Puedes adaptar una explicación a distintas edades?
+- ¿Conoces criterios básicos de accesibilidad de materiales?
+
+#### R24-M01 · Historia de la ciencia astronómica
+
+1. **Astronomía en Mesopotamia** — [`B02-C02`](../programa/clases/B02/B02-C02-observacion-mesopotamica-y-egipcia/CLASE.md)
+2. **Astronomía grecorromana** — [`B02-C03`](../programa/clases/B02/B02-C03-astronomia-griega-y-helenistica/CLASE.md)
+3. **Astronomía islámica** — [`B02-C04`](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md)
+4. **Astronomía de Asia** — [`B02-C04`](../programa/clases/B02/B02-C04-astronomia-de-india-china-y-mundo-islamico/CLASE.md)
+5. **Revolución copernicana** — [`B02-C10`](../programa/clases/B02/B02-C10-geocentrismo-y-heliocentrismo/CLASE.md), [`B02-C11`](../programa/clases/B02/B02-C11-revolucion-copernicana-y-metodos/CLASE.md)
+6. **Nacimiento de la astrofísica** — [`B02-C16`](../programa/clases/B02/B02-C16-historia-de-la-espectroscopia-astronomica/CLASE.md), [`B02-C17`](../programa/clases/B02/B02-C17-nacimiento-de-la-astrofotografia/CLASE.md)
+7. **Observación desde Chile** — [`B02-C18`](../programa/clases/B02/B02-C18-expansion-de-la-astronomia-en-chile/CLASE.md)
+8. **Historia de satélites** — [`B02-C19`](../programa/clases/B02/B02-C19-historia-de-la-exploracion-espacial/CLASE.md)
+9. **Historia de misiones tripuladas** — [`B104-C01`](../programa/clases/B104/B104-C01-historia-de-vuelos-tripulados/CLASE.md)
+10. **Crítica histórica de fuentes** — [`B132-C01`](../programa/clases/B132/B132-C01-critica-historica-de-fuentes-y-metodo-historiografico/CLASE.md)
+
+✅ **Checkpoint R24-M01.** Sin mirar el material, explica cómo se relacionan «Astronomía en Mesopotamia», «Nacimiento de la astrofísica» y «Crítica histórica de fuentes», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M02 · Arqueoastronomía comparada
+
+1. **Métodos arqueoastronómicos** — [`B02-C08`](../programa/clases/B02/B02-C08-arqueoastronomia-y-sus-metodos/CLASE.md)
+2. **Arqueología de observatorios** — [`B132-C02`](../programa/clases/B132/B132-C02-arqueologia-de-observatorios-y-de-instrumentos-antiguos/CLASE.md)
+3. **Monumentos megalíticos** — [`B132-C03`](../programa/clases/B132/B132-C03-monumentos-megaliticos-y-astronomia/CLASE.md)
+4. **Calendarios agrícolas** — [`B02-C01`](../programa/clases/B02/B02-C01-calendarios-astronomicos-en-civilizaciones-antiguas/CLASE.md)
+5. **Geometría de alineamientos** — [`B02-C09`](../programa/clases/B02/B02-C09-alineaciones-arqueologicas-y-sesgos/CLASE.md)
+6. **Estadística de orientación** — [`B132-C04`](../programa/clases/B132/B132-C04-estadistica-de-orientaciones-en-arqueoastronomia/CLASE.md)
+7. **Contexto ritual** — [`B132-C05`](../programa/clases/B132/B132-C05-contexto-ritual-y-social-de-la-observacion-del-cielo/CLASE.md)
+8. **Sesgos de interpretación** — [`B02-C09`](../programa/clases/B02/B02-C09-alineaciones-arqueologicas-y-sesgos/CLASE.md)
+9. **Patrimonio astronómico** — [`B02-C20`](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md)
+10. **Informe de sitio arqueoastronómico** — [`B132-C06`](../programa/clases/B132/B132-C06-informe-de-un-sitio-arqueoastronomico/CLASE.md)
+
+✅ **Checkpoint R24-M02.** Sin mirar el material, explica cómo se relacionan «Métodos arqueoastronómicos», «Estadística de orientación» y «Informe de sitio arqueoastronómico», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M03 · Astronomías culturales y saberes
+
+1. **Cosmovisiones indígenas** — [`B02-C05`](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md), [`B02-C06`](../programa/clases/B02/B02-C06-astronomia-de-pueblos-originarios-de-chile/CLASE.md)
+2. **Astronomía de los Andes** — [`B02-C05`](../programa/clases/B02/B02-C05-cosmovisiones-andinas-del-cielo/CLASE.md)
+3. **Relaciones cielo-territorio** — [`B133-C01`](../programa/clases/B133/B133-C01-relaciones-entre-cielo-y-territorio-en-los-saberes-tradicionales/CLASE.md)
+4. **Calendarios tradicionales** — [`B02-C01`](../programa/clases/B02/B02-C01-calendarios-astronomicos-en-civilizaciones-antiguas/CLASE.md), [`B02-C06`](../programa/clases/B02/B02-C06-astronomia-de-pueblos-originarios-de-chile/CLASE.md)
+5. **Narrativas orales** — [`B133-C02`](../programa/clases/B133/B133-C02-narrativas-orales-y-transmision-del-saber-del-cielo/CLASE.md)
+6. **Astronomía polinesia** — [`B02-C07`](../programa/clases/B02/B02-C07-observaciones-de-polinesia-y-navegacion-oceanica/CLASE.md)
+7. **Colaboración con comunidades** — [`B133-C03`](../programa/clases/B133/B133-C03-colaboracion-con-comunidades-en-investigacion-y-educacion/CLASE.md)
+8. **Consentimiento cultural** — [`B02-C20`](../programa/clases/B02/B02-C20-patrimonio-astronomico-y-etica-cultural/CLASE.md)
+9. **Riesgos de apropiación** — [`B133-C04`](../programa/clases/B133/B133-C04-riesgos-de-apropiacion-cultural-en-la-divulgacion/CLASE.md)
+10. **Unidad de enseñanza intercultural** — [`B133-C05`](../programa/clases/B133/B133-C05-diseno-de-una-unidad-de-ensenanza-intercultural/CLASE.md)
+
+✅ **Checkpoint R24-M03.** Sin mirar el material, explica cómo se relacionan «Cosmovisiones indígenas», «Astronomía polinesia» y «Unidad de enseñanza intercultural», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M04 · Observación astronómica educativa
+
+1. **Uso didáctico de planisferios** — [`B08-C07`](../programa/clases/B08/B08-C07-planisferios-y-aplicaciones-celestes/CLASE.md)
+2. **Observación solar segura** — [`B08-C16`](../programa/clases/B08/B08-C16-observacion-solar-con-filtros-certificados/CLASE.md)
+3. **Observación lunar** — [`B08-C08`](../programa/clases/B08/B08-C08-fases-lunares-y-libracion/CLASE.md)
+4. **Eclipses escolares** — [`B08-C09`](../programa/clases/B08/B08-C09-eclipses-y-geometria-de-sombras/CLASE.md)
+5. **Meteoros y cometas** — [`B08-C18`](../programa/clases/B08/B08-C18-introduccion-a-meteoros-y-lluvias/CLASE.md)
+6. **Telescopios escolares** — [`B08-C14`](../programa/clases/B08/B08-C14-telescopios-de-iniciacion/CLASE.md), [`B08-C15`](../programa/clases/B08/B08-C15-monturas-y-seguimiento-inicial/CLASE.md)
+7. **Registro de observaciones** — [`B08-C17`](../programa/clases/B08/B08-C17-registro-sistematico-en-bitacora/CLASE.md)
+8. **Actividades de medición** — [`B131-C01`](../programa/clases/B131/B131-C01-actividades-de-medicion-astronomica-para-el-aula/CLASE.md)
+9. **Problemas de accesibilidad nocturna** — [`B128-C01`](../programa/clases/B128/B128-C01-accesibilidad-de-la-observacion-nocturna/CLASE.md)
+10. **Diseño de salida observacional** — [`B08-C20`](../programa/clases/B08/B08-C20-proyecto-de-campana-de-observacion-nocturna/CLASE.md)
+
+✅ **Checkpoint R24-M04.** Sin mirar el material, explica cómo se relacionan «Uso didáctico de planisferios», «Telescopios escolares» y «Diseño de salida observacional», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M05 · Diseño de secuencias pedagógicas
+
+1. **Resultados de aprendizaje** — [`B131-C02`](../programa/clases/B131/B131-C02-resultados-de-aprendizaje-observables-en-astronomia/CLASE.md)
+2. **Conocimientos previos** — [`B131-C03`](../programa/clases/B131/B131-C03-conocimientos-previos-y-concepciones-alternativas/CLASE.md)
+3. **Secuenciación conceptual** — [`B131-C04`](../programa/clases/B131/B131-C04-secuenciacion-conceptual-de-una-unidad/CLASE.md)
+4. **Demostraciones visuales** — [`B131-C05`](../programa/clases/B131/B131-C05-demostraciones-visuales-y-modelos-para-el-aula/CLASE.md)
+5. **Aprendizaje basado en problemas** — [`B131-C06`](../programa/clases/B131/B131-C06-aprendizaje-basado-en-problemas-con-datos-astronomicos/CLASE.md)
+6. **Ejercicios de transferencia** — [`B131-C07`](../programa/clases/B131/B131-C07-ejercicios-de-transferencia/CLASE.md)
+7. **Evaluación formativa** — [`B131-C08`](../programa/clases/B131/B131-C08-evaluacion-formativa-en-el-aula-de-astronomia/CLASE.md)
+8. **Rúbricas** — [`B131-C09`](../programa/clases/B131/B131-C09-rubricas-de-evaluacion/CLASE.md)
+9. **Retroalimentación** — [`B131-C10`](../programa/clases/B131/B131-C10-retroalimentacion-efectiva/CLASE.md)
+10. **Plan completo de clase astronómica** — [`B131-C11`](../programa/clases/B131/B131-C11-plan-completo-de-una-clase-de-astronomia/CLASE.md)
+
+✅ **Checkpoint R24-M05.** Sin mirar el material, explica cómo se relacionan «Resultados de aprendizaje», «Ejercicios de transferencia» y «Plan completo de clase astronómica», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M06 · Ciencia ciudadana astronómica
+
+1. **Redes de observadores aficionados** — [`B129-C01`](../programa/clases/B129/B129-C01-redes-de-observadores-aficionados/CLASE.md)
+2. **Proyectos de clasificación** — [`B25-C20`](../programa/clases/B25/B25-C20-proyecto-de-clasificacion-galactica/CLASE.md)
+3. **Fotometría participativa** — [`B129-C02`](../programa/clases/B129/B129-C02-fotometria-participativa/CLASE.md)
+4. **Seguimiento de meteoros** — [`B129-C03`](../programa/clases/B129/B129-C03-seguimiento-ciudadano-de-meteoros/CLASE.md)
+5. **Contribución de medidas** — [`B129-C04`](../programa/clases/B129/B129-C04-contribucion-de-medidas-voluntarias-con-control-de-calidad/CLASE.md)
+6. **Calidad de datos voluntarios** — [`B48-C11`](../programa/clases/B48/B48-C11-calidad-y-clasificacion-de-datos/CLASE.md)
+7. **Consentimiento y privacidad** — [`B129-C05`](../programa/clases/B129/B129-C05-consentimiento-y-privacidad-de-participantes/CLASE.md)
+8. **Motivación de participantes** — [`B129-C06`](../programa/clases/B129/B129-C06-motivacion-y-permanencia-de-participantes/CLASE.md)
+9. **Publicación de resultados** — [`B14-C19`](../programa/clases/B14/B14-C19-publicacion-de-codigo-y-datos/CLASE.md)
+10. **Proyecto ciudadano validable** — [`B129-C07`](../programa/clases/B129/B129-C07-proyecto-de-ciencia-ciudadana-validable/CLASE.md)
+
+✅ **Checkpoint R24-M06.** Sin mirar el material, explica cómo se relacionan «Redes de observadores aficionados», «Calidad de datos voluntarios» y «Proyecto ciudadano validable», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M07 · Accesibilidad e inclusión educativa
+
+1. **Diseño universal de aprendizaje** — [`B128-C02`](../programa/clases/B128/B128-C02-diseno-universal-de-aprendizaje-aplicado-a-la-astronomia/CLASE.md)
+2. **Alternativas a observación visual** — [`B128-C03`](../programa/clases/B128/B128-C03-alternativas-a-la-observacion-visual/CLASE.md)
+3. **Lectores de pantalla** — [`B128-C04`](../programa/clases/B128/B128-C04-documentos-y-contenidos-para-lectores-de-pantalla/CLASE.md)
+4. **Subtítulos y transcripciones** — [`B128-C05`](../programa/clases/B128/B128-C05-subtitulos-y-transcripciones/CLASE.md)
+5. **Contraste visual** — [`B128-C06`](../programa/clases/B128/B128-C06-contraste-y-color-accesibles/CLASE.md)
+6. **Modelos táctiles** — [`B128-C07`](../programa/clases/B128/B128-C07-modelos-tactiles-y-sonificacion/CLASE.md)
+7. **Lenguaje claro** — [`B128-C08`](../programa/clases/B128/B128-C08-lenguaje-claro-y-redaccion-accesible/CLASE.md)
+8. **Apoyo multilingüe** — [`B128-C09`](../programa/clases/B128/B128-C09-apoyo-multilingue-y-glosarios/CLASE.md)
+9. **Acceso con baja conectividad** — [`B128-C10`](../programa/clases/B128/B128-C10-acceso-con-baja-conectividad/CLASE.md)
+10. **Auditoría de accesibilidad** — [`B128-C11`](../programa/clases/B128/B128-C11-auditoria-de-accesibilidad-de-un-recurso-educativo/CLASE.md)
+
+✅ **Checkpoint R24-M07.** Sin mirar el material, explica cómo se relacionan «Diseño universal de aprendizaje», «Modelos táctiles» y «Auditoría de accesibilidad», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R24-M08 · Investigación y divulgación científica
+
+1. **Búsqueda de fuentes científicas** — [`B01-C19`](../programa/clases/B01/B01-C19-fuentes-confiables-y-desinformacion-espacial/CLASE.md)
+2. **Comunicación de incertidumbre** — [`B01-C18`](../programa/clases/B01/B01-C18-incertidumbre-y-errores-elementales/CLASE.md), [`B124-C18`](../programa/clases/B124/B124-C18-comunicacion-y-divulgacion/CLASE.md)
+3. **Redacción divulgativa** — [`B124-C18`](../programa/clases/B124/B124-C18-comunicacion-y-divulgacion/CLASE.md)
+4. **Infografías con fuentes** — [`B130-C01`](../programa/clases/B130/B130-C01-infografias-con-fuentes-verificables/CLASE.md)
+5. **Visualización de datos** — [`B130-C02`](../programa/clases/B130/B130-C02-visualizacion-de-datos-para-comunicar/CLASE.md)
+6. **Comunicación oral** — [`B130-C03`](../programa/clases/B130/B130-C03-comunicacion-oral-de-la-ciencia/CLASE.md)
+7. **Divulgación en redes** — [`B130-C04`](../programa/clases/B130/B130-C04-divulgacion-cientifica-en-redes-sociales/CLASE.md)
+8. **Lucha contra desinformación** — [`B01-C19`](../programa/clases/B01/B01-C19-fuentes-confiables-y-desinformacion-espacial/CLASE.md)
+9. **Evaluación de comprensión** — [`B130-C05`](../programa/clases/B130/B130-C05-evaluacion-de-la-comprension-del-publico/CLASE.md)
+10. **Publicación de proyecto educativo** — [`B130-C06`](../programa/clases/B130/B130-C06-publicacion-de-un-proyecto-educativo/CLASE.md)
+
+✅ **Checkpoint R24-M08.** Sin mirar el material, explica cómo se relacionan «Búsqueda de fuentes científicas», «Comunicación oral» y «Publicación de proyecto educativo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Unidad didáctica de astronomía accesible.** Diseña una secuencia de cinco sesiones sobre un tema astronómico, con observación, historia y saberes culturales, accesible para estudiantes diversos y con evaluación.
+
+Entregables:
+
+- Secuencia de cinco sesiones con objetivos y actividades
+- Materiales accesibles en al menos dos formatos
+- Instrumentos de evaluación con criterios
+- Informe de una prueba piloto con ajustes
+
+Criterios de evaluación:
+
+- Cada objetivo tiene una evaluación alineada
+- Los materiales cumplen criterios de accesibilidad básicos
+- Las referencias históricas y culturales son verificables
+- Se documenta lo aprendido del piloto
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes diseñar y evaluar una secuencia didáctica de astronomía accesible.
+- Puedes tratar la historia y las astronomías culturales con rigor y respeto.
+- Puedes divulgar un resultado científico sin deformarlo.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **portafolio de experiencias de aprendizaje** (educativo, con su evidencia):

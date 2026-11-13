@@ -126,6 +126,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes escribir y balancear una reacción química y calcular una constante de velocidad?
+- ¿Sabes cómo se origina un espectro de absorción molecular?
+- ¿Entiendes el concepto de equilibrio y de cinética?
+- ¿Distingues una molécula orgánica de una biofirma?
+
+#### R06-M01 · Cinética astroquímica
+
+1. **Ecuaciones de reacción** — [`B06-C08`](../programa/clases/B06/B06-C08-reacciones-y-conservacion-de-masa/CLASE.md), [`B55-C03`](../programa/clases/B55/B55-C03-reacciones-en-medio-interestelar/CLASE.md)
+2. **Colisiones moleculares** — [`B60-C01`](../programa/clases/B60/B60-C01-colisiones-moleculares-y-secciones-eficaces-en-gas-interestelar/CLASE.md)
+3. **Reacciones ion-molécula** — [`B55-C03`](../programa/clases/B55/B55-C03-reacciones-en-medio-interestelar/CLASE.md), [`B55-C04`](../programa/clases/B55/B55-C04-quimica-de-nubes-moleculares/CLASE.md)
+4. **Reacciones fotolíticas** — [`B55-C08`](../programa/clases/B55/B55-C08-fotoquimica-cosmica/CLASE.md), [`B06-C18`](../programa/clases/B06/B06-C18-fotoquimica-y-radiacion/CLASE.md)
+5. **Química de fase gaseosa** — [`B55-C04`](../programa/clases/B55/B55-C04-quimica-de-nubes-moleculares/CLASE.md), [`B55-C03`](../programa/clases/B55/B55-C03-reacciones-en-medio-interestelar/CLASE.md)
+6. **Tasas de reacción** — [`B60-C02`](../programa/clases/B60/B60-C02-coeficientes-de-velocidad-dependientes-de-la-temperatura-y-bases-cineticas/CLASE.md)
+7. **Equilibrio frente a no equilibrio** — [`B06-C13`](../programa/clases/B06/B06-C13-equilibrio-quimico/CLASE.md), [`B55-C04`](../programa/clases/B55/B55-C04-quimica-de-nubes-moleculares/CLASE.md)
+8. **Redes de reacción** — [`B55-C20`](../programa/clases/B55/B55-C20-modelo-simplificado-de-red-astroquimica/CLASE.md)
+9. **Solución numérica de redes** — [`B60-C03`](../programa/clases/B60/B60-C03-integracion-numerica-de-redes-quimicas-rigidas/CLASE.md)
+10. **Validación con abundancias observadas** — [`B55-C19`](../programa/clases/B55/B55-C19-interpretacion-de-firmas-quimicas/CLASE.md), [`B55-C10`](../programa/clases/B55/B55-C10-identificacion-de-moleculas-organicas/CLASE.md), [`B12-C10`](../programa/clases/B12/B12-C10-regresion-lineal-y-no-lineal/CLASE.md)
+
+✅ **Checkpoint R06-M01.** Sin mirar el material, explica cómo se relacionan «Ecuaciones de reacción», «Tasas de reacción» y «Validación con abundancias observadas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M02 · Espectros moleculares
+
+1. **Espectros rotacionales** — [`B62-C01`](../programa/clases/B62/B62-C01-espectros-rotacionales-de-moleculas-niveles-y-reglas-de-seleccion/CLASE.md)
+2. **Espectros vibracionales** — [`B62-C02`](../programa/clases/B62/B62-C02-espectros-vibracionales-de-moleculas/CLASE.md)
+3. **Transiciones electrónicas** — [`B62-C03`](../programa/clases/B62/B62-C03-transiciones-electronicas-moleculares/CLASE.md)
+4. **Momentos dipolares** — [`B62-C04`](../programa/clases/B62/B62-C04-momentos-dipolares-y-fuerza-de-linea/CLASE.md)
+5. **Constantes espectroscópicas** — [`B62-C05`](../programa/clases/B62/B62-C05-constantes-espectroscopicas-y-ajuste-de-espectros/CLASE.md)
+6. **Anchos de línea** — [`B62-C06`](../programa/clases/B62/B62-C06-ensanchamiento-de-lineas-moleculares-natural-doppler-y-por-presion/CLASE.md)
+7. **Bancos de datos moleculares** — [`B62-C07`](../programa/clases/B62/B62-C07-bancos-de-datos-moleculares-cdms-jpl-hitran-y-lamda/CLASE.md)
+8. **Identificación de líneas** — [`B55-C10`](../programa/clases/B55/B55-C10-identificacion-de-moleculas-organicas/CLASE.md), [`B55-C09`](../programa/clases/B55/B55-C09-espectros-moleculares-de-radio/CLASE.md)
+9. **Mezclas moleculares** — [`B62-C08`](../programa/clases/B62/B62-C08-mezclas-moleculares-y-confusion-de-lineas/CLASE.md)
+10. **Incertidumbre de identificación** — [`B55-C19`](../programa/clases/B55/B55-C19-interpretacion-de-firmas-quimicas/CLASE.md), [`B12-C09`](../programa/clases/B12/B12-C09-pruebas-de-hipotesis/CLASE.md), [`B12-C16`](../programa/clases/B12/B12-C16-propagacion-de-incertidumbre/CLASE.md)
+
+✅ **Checkpoint R06-M02.** Sin mirar el material, explica cómo se relacionan «Espectros rotacionales», «Anchos de línea» y «Incertidumbre de identificación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M03 · Química de granos interestelares
+
+1. **Composición de granos** — [`B55-C05`](../programa/clases/B55/B55-C05-granos-de-polvo-interestelar/CLASE.md), [`B25-C04`](../programa/clases/B25/B25-C04-nubes-moleculares-y-polvo/CLASE.md)
+2. **Adsorción molecular** — [`B55-C07`](../programa/clases/B55/B55-C07-catalisis-en-superficies/CLASE.md), [`B55-C05`](../programa/clases/B55/B55-C05-granos-de-polvo-interestelar/CLASE.md)
+3. **Desorción térmica** — [`B68-C01`](../programa/clases/B68/B68-C01-desorcion-termica-de-hielos-interestelares/CLASE.md)
+4. **Fotodesorción** — [`B68-C02`](../programa/clases/B68/B68-C02-fotodesorcion-de-hielos-interestelares/CLASE.md)
+5. **Reacciones superficiales** — [`B55-C07`](../programa/clases/B55/B55-C07-catalisis-en-superficies/CLASE.md)
+6. **Hielos mixtos** — [`B55-C06`](../programa/clases/B55/B55-C06-hielos-astrofisicos/CLASE.md)
+7. **Irradiación de granos** — [`B68-C03`](../programa/clases/B68/B68-C03-irradiacion-de-hielos-por-rayos-cosmicos-y-uv-radiolisis-y-productos/CLASE.md)
+8. **Crecimiento del polvo** — [`B52-C03`](../programa/clases/B52/B52-C03-granulacion-de-polvo-y-acrecion/CLASE.md), [`B25-C04`](../programa/clases/B25/B25-C04-nubes-moleculares-y-polvo/CLASE.md)
+9. **Modelos de laboratorio criogénico** — [`B68-C04`](../programa/clases/B68/B68-C04-laboratorio-de-astroquimica-de-hielos-en-ultra-alto-vacio-criogenico/CLASE.md)
+10. **Balance químico de fases** — [`B60-C04`](../programa/clases/B60/B60-C04-balance-quimico-gas-grano-modelos-de-tres-fases/CLASE.md)
+
+✅ **Checkpoint R06-M03.** Sin mirar el material, explica cómo se relacionan «Composición de granos», «Hielos mixtos» y «Balance químico de fases», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M04 · Química prebiótica
+
+1. **Moléculas orgánicas simples** — [`B06-C16`](../programa/clases/B06/B06-C16-quimica-organica-esencial/CLASE.md), [`B55-C10`](../programa/clases/B55/B55-C10-identificacion-de-moleculas-organicas/CLASE.md)
+2. **Nucleótidos y precursores** — [`B55-C17`](../programa/clases/B55/B55-C17-compuestos-prebioticos/CLASE.md), [`B56-C03`](../programa/clases/B56/B56-C03-origen-de-moleculas-autorreplicantes/CLASE.md)
+3. **Aminoácidos de origen no biológico** — [`B55-C17`](../programa/clases/B55/B55-C17-compuestos-prebioticos/CLASE.md), [`B55-C12`](../programa/clases/B55/B55-C12-geoquimica-de-meteoritos/CLASE.md)
+4. **Química hidrotermal** — [`B55-C16`](../programa/clases/B55/B55-C16-procesos-hidrotermales-extraterrestres/CLASE.md), [`B56-C07`](../programa/clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md)
+5. **Ciclos de energía y gradientes** — [`B56-C07`](../programa/clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md)
+6. **Síntesis abiótica** — [`B56-C04`](../programa/clases/B56/B56-C04-hipotesis-de-abiogenesis/CLASE.md), [`B55-C17`](../programa/clases/B55/B55-C17-compuestos-prebioticos/CLASE.md)
+7. **Autoorganización molecular** — [`B56-C03`](../programa/clases/B56/B56-C03-origen-de-moleculas-autorreplicantes/CLASE.md)
+8. **Polimerización experimental** — [`B56-C21`](../programa/clases/B56/B56-C21-polimerizacion-prebiotica-experimental-oligomeros-y-condiciones-de-laboratorio/CLASE.md)
+9. **Falsos positivos prebióticos** — [`B56-C15`](../programa/clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md), [`B55-C19`](../programa/clases/B55/B55-C19-interpretacion-de-firmas-quimicas/CLASE.md), [`B55-C18`](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md)
+10. **Evaluación de hipótesis de origen** — [`B56-C04`](../programa/clases/B56/B56-C04-hipotesis-de-abiogenesis/CLASE.md), [`B56-C01`](../programa/clases/B56/B56-C01-definiciones-operativas-de-vida/CLASE.md)
+
+✅ **Checkpoint R06-M04.** Sin mirar el material, explica cómo se relacionan «Moléculas orgánicas simples», «Síntesis abiótica» y «Evaluación de hipótesis de origen», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M05 · Extremófilos y biosferas límite
+
+1. **Tolerancia a radiación biológica** — [`B64-C01`](../programa/clases/B64/B64-C01-radiotolerancia-biologica-y-reparacion-del-adn/CLASE.md)
+2. **Termófilos** — [`B64-C02`](../programa/clases/B64/B64-C02-termofilos-e-hipertermofilos/CLASE.md)
+3. **Psicrófilos** — [`B64-C03`](../programa/clases/B64/B64-C03-psicrofilos-y-vida-en-frio/CLASE.md)
+4. **Halófilos** — [`B64-C04`](../programa/clases/B64/B64-C04-halofilos-y-vida-en-salmueras/CLASE.md)
+5. **Acidófilos** — [`B64-C05`](../programa/clases/B64/B64-C05-acidofilos-y-alcalofilos/CLASE.md)
+6. **Metabolismos quimiolitotróficos** — [`B56-C07`](../programa/clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md), [`B56-C02`](../programa/clases/B56/B56-C02-bioquimica-y-metabolismo-terrestre/CLASE.md)
+7. **Biofilms extremos** — [`B64-C06`](../programa/clases/B64/B64-C06-biofilms-en-ambientes-extremos/CLASE.md)
+8. **Energética microbiana** — [`B56-C07`](../programa/clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md), [`B56-C02`](../programa/clases/B56/B56-C02-bioquimica-y-metabolismo-terrestre/CLASE.md)
+9. **Cultivo en condiciones análogas** — [`B64-C07`](../programa/clases/B64/B64-C07-cultivo-de-extremofilos-no-patogenos-en-condiciones-analogas/CLASE.md)
+10. **Extrapolación y límites planetarios** — [`B56-C05`](../programa/clases/B56/B56-C05-extremofilos-y-limites-ambientales/CLASE.md), [`B56-C06`](../programa/clases/B56/B56-C06-agua-liquida-y-solventes-alternativos/CLASE.md), [`B56-C08`](../programa/clases/B56/B56-C08-habitabilidad-de-marte/CLASE.md)
+
+✅ **Checkpoint R06-M05.** Sin mirar el material, explica cómo se relacionan «Tolerancia a radiación biológica», «Metabolismos quimiolitotróficos» y «Extrapolación y límites planetarios», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M06 · Mundos oceánicos
+
+1. **Interior de Europa** — [`B53-C14`](../programa/clases/B53/B53-C14-geologia-de-europa/CLASE.md), [`B56-C09`](../programa/clases/B56/B56-C09-oceanos-de-europa/CLASE.md)
+2. **Interior de Encélado** — [`B53-C15`](../programa/clases/B53/B53-C15-geologia-de-encelado/CLASE.md), [`B56-C10`](../programa/clases/B56/B56-C10-oceanos-de-encelado/CLASE.md)
+3. **Tidal heating** — [`B65-C06`](../programa/clases/B65/B65-C06-calentamiento-por-marea-y-equilibrio-termico-en-satelites/CLASE.md)
+4. **Química oceánica** — [`B55-C15`](../programa/clases/B55/B55-C15-quimica-de-oceanos-internos/CLASE.md)
+5. **Interacción agua-roca** — [`B55-C16`](../programa/clases/B55/B55-C16-procesos-hidrotermales-extraterrestres/CLASE.md), [`B55-C15`](../programa/clases/B55/B55-C15-quimica-de-oceanos-internos/CLASE.md)
+6. **Plumas y emisiones** — [`B53-C15`](../programa/clases/B53/B53-C15-geologia-de-encelado/CLASE.md), [`B56-C10`](../programa/clases/B56/B56-C10-oceanos-de-encelado/CLASE.md)
+7. **Fuentes de energía químicas** — [`B56-C07`](../programa/clases/B56/B56-C07-energia-quimica-para-la-vida/CLASE.md), [`B55-C16`](../programa/clases/B55/B55-C16-procesos-hidrotermales-extraterrestres/CLASE.md)
+8. **Estrategias de detección remota** — [`B53-C27`](../programa/clases/B53/B53-C27-deteccion-remota-de-oceanos-subsuperficiales-induccion-magnetica-libracion-y-radar/CLASE.md)
+9. **Contaminación biológica** — [`B56-C17`](../programa/clases/B56/B56-C17-control-de-contaminacion-biologica/CLASE.md), [`B56-C18`](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md), [`B55-C18`](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md)
+10. **Priorización de objetivos científicos** — [`B56-C20`](../programa/clases/B56/B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md), [`B56-C09`](../programa/clases/B56/B56-C09-oceanos-de-europa/CLASE.md), [`B56-C10`](../programa/clases/B56/B56-C10-oceanos-de-encelado/CLASE.md)
+
+✅ **Checkpoint R06-M06.** Sin mirar el material, explica cómo se relacionan «Interior de Europa», «Plumas y emisiones» y «Priorización de objetivos científicos», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M07 · Biofirmas y tecnofirmas
+
+1. **Gases con potencial biológico** — [`B56-C13`](../programa/clases/B56/B56-C13-biofirmas-quimicas/CLASE.md), [`B29-C11`](../programa/clases/B29/B29-C11-atmosferas-exoplanetarias/CLASE.md)
+2. **Combinaciones de biofirmas** — [`B56-C13`](../programa/clases/B56/B56-C13-biofirmas-quimicas/CLASE.md), [`B56-C14`](../programa/clases/B56/B56-C14-biofirmas-espectrales/CLASE.md)
+3. **Contexto geoquímico** — [`B56-C15`](../programa/clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md), [`B55-C19`](../programa/clases/B55/B55-C19-interpretacion-de-firmas-quimicas/CLASE.md)
+4. **Fotosíntesis y espectros** — [`B56-C14`](../programa/clases/B56/B56-C14-biofirmas-espectrales/CLASE.md)
+5. **Falsos positivos atmosféricos** — [`B56-C15`](../programa/clases/B56/B56-C15-falsos-positivos-de-biofirmas/CLASE.md), [`B54-C10`](../programa/clases/B54/B54-C10-fotoquimica-atmosferica/CLASE.md)
+6. **Señales de actividad tecnológica** — [`B56-C16`](../programa/clases/B56/B56-C16-tecnofirmas-y-busqueda-seti/CLASE.md)
+7. **Radio SETI** — [`B56-C16`](../programa/clases/B56/B56-C16-tecnofirmas-y-busqueda-seti/CLASE.md), [`B46-C01`](../programa/clases/B46/B46-C01-espectro-radioastronomico/CLASE.md)
+8. **Artefactos de datos** — [`B28-C14`](../programa/clases/B28/B28-C14-ruidos-instrumentales/CLASE.md), [`B15-C03`](../programa/clases/B15/B15-C03-ruido-blanco-y-coloreado/CLASE.md), [`B13-C04`](../programa/clases/B13/B13-C04-errores-sistematicos-y-aleatorios/CLASE.md)
+9. **Estadística de detección** — [`B12-C09`](../programa/clases/B12/B12-C09-pruebas-de-hipotesis/CLASE.md), [`B28-C13`](../programa/clases/B28/B28-C13-estadistica-de-significancia/CLASE.md)
+10. **Evaluación de evidencias extraordinarias** — [`B31-C20`](../programa/clases/B31/B31-C20-evaluacion-critica-de-afirmaciones-extraordinarias/CLASE.md), [`B56-C19`](../programa/clases/B56/B56-C19-etica-del-descubrimiento-de-vida/CLASE.md)
+
+✅ **Checkpoint R06-M07.** Sin mirar el material, explica cómo se relacionan «Gases con potencial biológico», «Señales de actividad tecnológica» y «Evaluación de evidencias extraordinarias», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R06-M08 · Protección planetaria aplicada
+
+1. **Categorías COSPAR** — [`B56-C18`](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md)
+2. **Misiones de retorno de muestra** — [`B63-C04`](../programa/clases/B63/B63-C04-misiones-de-retorno-de-muestras-salvaguardas-historicas-y-regulatorias/CLASE.md)
+3. **Biocarga inicial** — [`B90-C21`](../programa/clases/B90/B90-C21-biocarga-de-naves-espaciales-verificacion-y-requisitos-normativos/CLASE.md)
+4. **Esterilización y validación** — [`B90-C22`](../programa/clases/B90/B90-C22-validacion-de-procesos-de-reduccion-de-biocarga/CLASE.md)
+5. **Restricciones de aterrizaje** — [`B56-C18`](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md), [`B119-C01`](../programa/clases/B119/B119-C01-tratado-del-espacio-ultraterrestre/CLASE.md)
+6. **Contención de muestras** — [`B63-C05`](../programa/clases/B63/B63-C05-contencion-de-muestras-extraterrestres-instalaciones-y-principios/CLASE.md)
+7. **Análisis de riesgos biológicos** — [`B63-C06`](../programa/clases/B63/B63-C06-evaluacion-de-riesgos-biologicos-de-muestras-marcos-de-decision/CLASE.md)
+8. **Documentación de conformidad** — [`B90-C18`](../programa/clases/B90/B90-C18-trazabilidad-de-evidencias/CLASE.md), [`B119-C08`](../programa/clases/B119/B119-C08-autorizacion-y-supervision-de-operadores/CLASE.md)
+9. **Gestión de incumplimientos** — [`B90-C17`](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md), [`B119-C10`](../programa/clases/B119/B119-C10-responsabilidad-por-danos-espaciales/CLASE.md)
+10. **Protocolo de protección conceptual** — [`B56-C18`](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md), [`B56-C20`](../programa/clases/B56/B56-C20-diseno-de-mision-astrobiologica-conceptual/CLASE.md)
+
+✅ **Checkpoint R06-M08.** Sin mirar el material, explica cómo se relacionan «Categorías COSPAR», «Contención de muestras» y «Protocolo de protección conceptual», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Evaluación de biofirmas en un mundo oceánico.** Para un mundo candidato, plantea qué moléculas observarías, con qué instrumento y cómo descartarías falsos positivos abióticos.
+
+Entregables:
+
+- Modelo de equilibrio y cinética de las especies clave
+- Espectros sintéticos con la señal esperada
+- Análisis de falsos positivos con alternativas abióticas
+- Plan de protección planetaria de la misión propuesta
+
+Criterios de evaluación:
+
+- Los falsos positivos se tratan con el mismo rigor que la señal
+- Las condiciones químicas son consistentes con el ambiente
+- El instrumento propuesto puede medir lo que se pide
+- El plan cumple la política de protección planetaria vigente
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes modelar química en ambientes extremos y explicar su cinética.
+- Puedes evaluar una afirmación de biofirma con criterios explícitos.
+- Puedes diseñar un plan de protección planetaria básico.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **análisis químico o de habitabilidad documentado**:

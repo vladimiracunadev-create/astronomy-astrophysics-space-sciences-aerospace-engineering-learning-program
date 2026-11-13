@@ -119,6 +119,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Puedes calcular el consumo de oxígeno y agua de una tripulación?
+- ¿Sabes qué es una presión parcial y una atmósfera respirable?
+- ¿Entiendes el balance de masa y de energía de un sistema cerrado?
+- ¿Sabes leer planos y escalas?
+
+#### R20-M01 · Arquitectura de entornos extraterrestres
+
+1. **Selección de emplazamiento** — [`B109-C01`](../programa/clases/B109/B109-C01-seleccion-de-emplazamiento-para-un-asentamiento-extraterrestre/CLASE.md)
+2. **Regolito y relieve** — [`B59-C04`](../programa/clases/B59/B59-C04-caracterizacion-de-regolito-lunar/CLASE.md), [`B59-C11`](../programa/clases/B59/B59-C11-construccion-con-regolito/CLASE.md), [`B53-C07`](../programa/clases/B53/B53-C07-topografia-por-altimetria/CLASE.md)
+3. **Arquitecturas presurizadas** — [`B106-C02`](../programa/clases/B106/B106-C02-presurizacion-de-modulos/CLASE.md), [`B106-C19`](../programa/clases/B106/B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md)
+4. **Distribución de módulos** — [`B109-C02`](../programa/clases/B109/B109-C02-zonificacion-y-distribucion-funcional-de-modulos-de-un-habitat/CLASE.md)
+5. **Accesos y esclusas** — [`B109-C03`](../programa/clases/B109/B109-C03-accesos-esclusas-y-transferencia-entre-ambientes-presurizados/CLASE.md)
+6. **Iluminación y ciclo circadiano** — [`B106-C13`](../programa/clases/B106/B106-C13-iluminacion-y-ciclos-circadianos/CLASE.md), [`B105-C08`](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md)
+7. **Protección contra polvo** — [`B109-C04`](../programa/clases/B109/B109-C04-mitigacion-de-polvo-lunar-en-accesos-y-habitats/CLASE.md)
+8. **Rutas de evacuación** — [`B114-C01`](../programa/clases/B114/B114-C01-rutas-de-evacuacion-y-salidas-de-emergencia-en-habitats/CLASE.md)
+9. **Escalabilidad de asentamiento** — [`B109-C05`](../programa/clases/B109/B109-C05-crecimiento-modular-y-escalabilidad-de-asentamientos/CLASE.md)
+10. **Evaluación arquitectónica de hábitat** — [`B106-C01`](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md), [`B106-C19`](../programa/clases/B106/B106-C19-arquitectura-de-asentamiento-lunar-conceptual/CLASE.md)
+
+✅ **Checkpoint R20-M01.** Sin mirar el material, explica cómo se relacionan «Selección de emplazamiento», «Iluminación y ciclo circadiano» y «Evaluación arquitectónica de hábitat», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M02 · Sistemas de soporte vital ECLSS
+
+1. **Balance metabólico de oxígeno** — [`B106-C03`](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md), [`B106-C05`](../programa/clases/B106/B106-C05-suministro-y-generacion-de-oxigeno/CLASE.md)
+2. **Remoción de dióxido de carbono** — [`B106-C04`](../programa/clases/B106/B106-C04-control-de-dioxido-de-carbono/CLASE.md)
+3. **Reciclaje de agua** — [`B106-C06`](../programa/clases/B106/B106-C06-reciclaje-de-agua/CLASE.md)
+4. **Filtración atmosférica** — [`B106-C21`](../programa/clases/B106/B106-C21-depuracion-de-trazas-gaseosas-de-la-atmosfera-de-cabina/CLASE.md)
+5. **Detección de contaminantes** — [`B106-C22`](../programa/clases/B106/B106-C22-fuentes-e-identificacion-de-contaminantes-del-aire-de-cabina/CLASE.md)
+6. **Gestión de residuos** — [`B106-C10`](../programa/clases/B106/B106-C10-gestion-de-residuos-humanos/CLASE.md), [`B59-C16`](../programa/clases/B59/B59-C16-desechos-y-reciclaje/CLASE.md)
+7. **Subsistemas ECLSS** — [`B106-C09`](../programa/clases/B106/B106-C09-sistemas-eclss/CLASE.md)
+8. **Consumo de potencia** — [`B106-C09`](../programa/clases/B106/B106-C09-sistemas-eclss/CLASE.md), [`B86-C01`](../programa/clases/B86/B86-C01-balance-de-potencia-electrica/CLASE.md)
+9. **Redundancia vital** — [`B106-C18`](../programa/clases/B106/B106-C18-fiabilidad-y-redundancia/CLASE.md)
+10. **Verificación de balance de masas** — [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md)
+
+✅ **Checkpoint R20-M02.** Sin mirar el material, explica cómo se relacionan «Balance metabólico de oxígeno», «Gestión de residuos» y «Verificación de balance de masas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M03 · Control de atmósfera y presiones
+
+1. **Presión de cabina** — [`B106-C02`](../programa/clases/B106/B106-C02-presurizacion-de-modulos/CLASE.md), [`B106-C03`](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md)
+2. **Fracciones de oxígeno** — [`B106-C03`](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md), [`B106-C05`](../programa/clases/B106/B106-C05-suministro-y-generacion-de-oxigeno/CLASE.md)
+3. **Concentración de CO2** — [`B106-C04`](../programa/clases/B106/B106-C04-control-de-dioxido-de-carbono/CLASE.md)
+4. **Control de humedad** — [`B106-C07`](../programa/clases/B106/B106-C07-gestion-de-humedad/CLASE.md)
+5. **Filtración de partículas** — [`B106-C23`](../programa/clases/B106/B106-C23-control-de-particulas-y-polvo-respirable-en-cabina/CLASE.md)
+6. **Calidad del aire** — [`B106-C24`](../programa/clases/B106/B106-C24-calidad-del-aire-y-limites-de-exposicion-en-cabina/CLASE.md)
+7. **Sensores ambientales** — [`B106-C25`](../programa/clases/B106/B106-C25-sensores-de-presion-gases-y-humedad-para-monitoreo-de-habitat/CLASE.md)
+8. **Fugas de presión** — [`B114-C02`](../programa/clases/B114/B114-C02-deteccion-localizacion-y-respuesta-a-fugas-de-presion/CLASE.md)
+9. **Respuestas ante desviaciones** — [`B114-C03`](../programa/clases/B114/B114-C03-alarmas-y-procedimientos-ante-desviaciones-atmosfericas/CLASE.md)
+10. **Control de atmósfera de hábitat** — [`B106-C03`](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md), [`B106-C04`](../programa/clases/B106/B106-C04-control-de-dioxido-de-carbono/CLASE.md), [`B106-C05`](../programa/clases/B106/B106-C05-suministro-y-generacion-de-oxigeno/CLASE.md), [`B106-C07`](../programa/clases/B106/B106-C07-gestion-de-humedad/CLASE.md)
+
+✅ **Checkpoint R20-M03.** Sin mirar el material, explica cómo se relacionan «Presión de cabina», «Calidad del aire» y «Control de atmósfera de hábitat», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M04 · Ciclos cerrados de agua
+
+1. **Fuentes de agua** — [`B59-C02`](../programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md), [`B59-C03`](../programa/clases/B59/B59-C03-agua-en-regolito-y-minerales/CLASE.md)
+2. **Balance hídrico** — [`B106-C06`](../programa/clases/B106/B106-C06-reciclaje-de-agua/CLASE.md), [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md)
+3. **Tratamiento de aguas grises** — [`B106-C26`](../programa/clases/B106/B106-C26-tratamiento-de-aguas-grises-en-habitats/CLASE.md)
+4. **Tratamiento de orina** — [`B106-C27`](../programa/clases/B106/B106-C27-tratamiento-de-orina-y-recuperacion-de-agua/CLASE.md)
+5. **Condensación de humedad** — [`B106-C07`](../programa/clases/B106/B106-C07-gestion-de-humedad/CLASE.md)
+6. **Purificación por membranas** — [`B59-C07`](../programa/clases/B59/B59-C07-purificacion-de-agua/CLASE.md), [`B106-C06`](../programa/clases/B106/B106-C06-reciclaje-de-agua/CLASE.md)
+7. **Monitoreo microbiológico** — [`B106-C28`](../programa/clases/B106/B106-C28-monitoreo-microbiologico-de-agua-y-superficies-del-habitat/CLASE.md)
+8. **Almacenamiento de agua** — [`B106-C29`](../programa/clases/B106/B106-C29-almacenamiento-y-distribucion-de-agua-potable-en-habitats/CLASE.md)
+9. **Pérdidas del circuito** — [`B59-C15`](../programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/CLASE.md), [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md)
+10. **Cálculo de recuperación total** — [`B106-C06`](../programa/clases/B106/B106-C06-reciclaje-de-agua/CLASE.md), [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md)
+
+✅ **Checkpoint R20-M04.** Sin mirar el material, explica cómo se relacionan «Fuentes de agua», «Purificación por membranas» y «Cálculo de recuperación total», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M05 · Producción de alimentos en hábitats
+
+1. **Necesidades nutricionales** — [`B105-C12`](../programa/clases/B105/B105-C12-nutricion-espacial/CLASE.md)
+2. **Cultivos hidropónicos** — [`B115-C01`](../programa/clases/B115/B115-C01-cultivos-hidroponicos-para-habitats/CLASE.md)
+3. **Iluminación de cultivos** — [`B115-C02`](../programa/clases/B115/B115-C02-iluminacion-de-cultivos-con-led-y-espectro-de-crecimiento/CLASE.md)
+4. **Control de nutrientes** — [`B115-C03`](../programa/clases/B115/B115-C03-control-de-nutrientes-y-solucion-nutritiva/CLASE.md)
+5. **Sistemas aeropónicos** — [`B115-C04`](../programa/clases/B115/B115-C04-sistemas-aeroponicos/CLASE.md)
+6. **Ciclos de producción** — [`B115-C05`](../programa/clases/B115/B115-C05-ciclos-de-produccion-y-calendarizacion-de-cultivos/CLASE.md)
+7. **Uso de agua** — [`B115-C06`](../programa/clases/B115/B115-C06-balance-de-agua-y-evapotranspiracion-en-cultivos/CLASE.md)
+8. **Bioseguridad alimentaria** — [`B115-C07`](../programa/clases/B115/B115-C07-bioseguridad-e-inocuidad-alimentaria-en-habitats/CLASE.md)
+9. **Almacenamiento y conservación** — [`B106-C11`](../programa/clases/B106/B106-C11-almacenamiento-de-alimentos/CLASE.md)
+10. **Plan de alimentos de hábitat** — [`B106-C11`](../programa/clases/B106/B106-C11-almacenamiento-de-alimentos/CLASE.md), [`B106-C12`](../programa/clases/B106/B106-C12-agricultura-en-ambiente-controlado/CLASE.md), [`B105-C12`](../programa/clases/B105/B105-C12-nutricion-espacial/CLASE.md)
+
+✅ **Checkpoint R20-M05.** Sin mirar el material, explica cómo se relacionan «Necesidades nutricionales», «Ciclos de producción» y «Plan de alimentos de hábitat», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M06 · Blindaje y protección ambiental
+
+1. **Flujo de radiación externa** — [`B105-C06`](../programa/clases/B105/B105-C06-radiacion-ionizante-y-exposicion/CLASE.md), [`B106-C14`](../programa/clases/B106/B106-C14-proteccion-contra-radiacion/CLASE.md)
+2. **Blindaje por regolito** — [`B59-C11`](../programa/clases/B59/B59-C11-construccion-con-regolito/CLASE.md), [`B106-C14`](../programa/clases/B106/B106-C14-proteccion-contra-radiacion/CLASE.md)
+3. **Protección por materiales** — [`B106-C14`](../programa/clases/B106/B106-C14-proteccion-contra-radiacion/CLASE.md), [`B84-C05`](../programa/clases/B84/B84-C05-seleccion-de-materiales/CLASE.md)
+4. **Micrometeoritos** — [`B106-C15`](../programa/clases/B106/B106-C15-proteccion-frente-a-micrometeoritos/CLASE.md)
+5. **Tormentas solares** — [`B30-C12`](../programa/clases/B30/B30-C12-erupciones-y-fulguraciones-solares/CLASE.md), [`B30-C13`](../programa/clases/B30/B30-C13-eyecciones-de-masa-coronal/CLASE.md), [`B30-C14`](../programa/clases/B30/B30-C14-choques-y-aceleracion-de-particulas/CLASE.md), [`B105-C06`](../programa/clases/B105/B105-C06-radiacion-ionizante-y-exposicion/CLASE.md)
+6. **Protección térmica de hábitat** — [`B106-C08`](../programa/clases/B106/B106-C08-control-termico-interior/CLASE.md), [`B85-C06`](../programa/clases/B85/B85-C06-aislamiento-multicapa/CLASE.md), [`B85-C07`](../programa/clases/B85/B85-C07-radiadores-espaciales/CLASE.md)
+7. **Compartimentos de refugio** — [`B114-C04`](../programa/clases/B114/B114-C04-refugio-contra-tormentas-solares-y-compartimentos-de-proteccion/CLASE.md)
+8. **Despresurización** — [`B114-C05`](../programa/clases/B114/B114-C05-despresurizacion-escenarios-tiempos-y-respuesta/CLASE.md)
+9. **Control de contaminación** — [`B90-C04`](../programa/clases/B90/B90-C04-control-de-contaminacion/CLASE.md), [`B56-C17`](../programa/clases/B56/B56-C17-control-de-contaminacion-biologica/CLASE.md), [`B85-C16`](../programa/clases/B85/B85-C16-polvo-lunar-y-contaminacion/CLASE.md)
+10. **Matriz de riesgo ambiental** — [`B114-C06`](../programa/clases/B114/B114-C06-matriz-de-riesgo-ambiental-de-un-habitat/CLASE.md)
+
+✅ **Checkpoint R20-M06.** Sin mirar el material, explica cómo se relacionan «Flujo de radiación externa», «Protección térmica de hábitat» y «Matriz de riesgo ambiental», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M07 · Ergonomía y bienestar de tripulación
+
+1. **Antropometría** — [`B109-C06`](../programa/clases/B109/B109-C06-antropometria-y-dimensionamiento-para-tripulacion/CLASE.md)
+2. **Distribución de volúmenes** — [`B109-C07`](../programa/clases/B109/B109-C07-asignacion-de-volumenes-habitables-por-tripulante/CLASE.md)
+3. **Diseño inclusivo** — [`B109-C08`](../programa/clases/B109/B109-C08-diseno-inclusivo-en-habitats/CLASE.md)
+4. **Privacidad** — [`B109-C09`](../programa/clases/B109/B109-C09-privacidad-y-espacios-personales/CLASE.md)
+5. **Ruido interior** — [`B109-C10`](../programa/clases/B109/B109-C10-acustica-y-control-de-ruido-interior/CLASE.md)
+6. **Iluminación saludable** — [`B106-C13`](../programa/clases/B106/B106-C13-iluminacion-y-ciclos-circadianos/CLASE.md), [`B105-C08`](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md)
+7. **Gestión de fatiga** — [`B104-C17`](../programa/clases/B104/B104-C17-gestion-de-fatiga/CLASE.md)
+8. **Espacios de trabajo** — [`B109-C11`](../programa/clases/B109/B109-C11-diseno-de-espacios-de-trabajo-mantenimiento-y-laboratorio/CLASE.md)
+9. **Diseño psicológico de convivencia** — [`B104-C18`](../programa/clases/B104/B104-C18-aislamiento-y-convivencia/CLASE.md), [`B104-C16`](../programa/clases/B104/B104-C16-manejo-de-conflictos/CLASE.md), [`B105-C09`](../programa/clases/B105/B105-C09-salud-mental-en-aislamiento/CLASE.md)
+10. **Evaluación humana de distribución** — [`B109-C12`](../programa/clases/B109/B109-C12-evaluacion-de-factores-humanos-de-maquetas-y-distribuciones/CLASE.md)
+
+✅ **Checkpoint R20-M07.** Sin mirar el material, explica cómo se relacionan «Antropometría», «Iluminación saludable» y «Evaluación humana de distribución», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R20-M08 · Diseño integral de hábitat lunar o marciano
+
+1. **Necesidades de una tripulación** — [`B104-C02`](../programa/clases/B104/B104-C02-requisitos-de-tripulacion/CLASE.md), [`B106-C01`](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md)
+2. **Requisitos estructurales** — [`B106-C01`](../programa/clases/B106/B106-C01-requisitos-de-habitabilidad/CLASE.md), [`B84-C09`](../programa/clases/B84/B84-C09-analisis-de-cargas/CLASE.md)
+3. **Balance de energía** — [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md), [`B86-C19`](../programa/clases/B86/B86-C19-presupuesto-de-potencia-de-mision/CLASE.md)
+4. **Balance hídrico** — [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md), [`B106-C06`](../programa/clases/B106/B106-C06-reciclaje-de-agua/CLASE.md)
+5. **Balance de atmósfera** — [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md), [`B106-C03`](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md)
+6. **Logística y suministros** — [`B59-C19`](../programa/clases/B59/B59-C19-evaluacion-logistica-de-una-instalacion/CLASE.md), [`B97-C19`](../programa/clases/B97/B97-C19-logistica-de-piezas-y-reparaciones/CLASE.md)
+7. **Interfaces de sistemas** — [`B83-C08`](../programa/clases/B83/B83-C08-interfaz-entre-subsistemas/CLASE.md), [`B90-C05`](../programa/clases/B90/B90-C05-documentacion-de-interfaces/CLASE.md)
+8. **Seguridad y emergencias** — [`B104-C13`](../programa/clases/B104/B104-C13-procedimientos-de-emergencia/CLASE.md), [`B106-C17`](../programa/clases/B106/B106-C17-prevencion-y-respuesta-a-incendios/CLASE.md), [`B96-C15`](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md)
+9. **Simulación integrada** — [`B106-C20`](../programa/clases/B106/B106-C20-proyecto-de-balance-ambiental-de-habitat/CLASE.md), [`B104-C20`](../programa/clases/B104/B104-C20-mision-tripulada-simulada/CLASE.md)
+10. **Revisión final de hábitat** — [`B83-C13`](../programa/clases/B83/B83-C13-revisiones-srr-y-pdr/CLASE.md), [`B83-C14`](../programa/clases/B83/B83-C14-revisiones-cdr-y-trr/CLASE.md)
+
+✅ **Checkpoint R20-M08.** Sin mirar el material, explica cómo se relacionan «Necesidades de una tripulación», «Logística y suministros» y «Revisión final de hábitat», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Diseño conceptual de un hábitat lunar para cuatro personas.** Diseña un hábitat con su soporte vital, blindaje y distribución interior para 30 días, con balance de masas y energía y evaluación de factores humanos.
+
+Entregables:
+
+- Distribución interior con zonas y circulaciones
+- Balance de soporte vital: aire, agua y residuos
+- Análisis de blindaje contra radiación y micrometeoroides
+- Presupuesto de masa y energía con márgenes
+
+Criterios de evaluación:
+
+- El balance de masa cierra con la reserva declarada
+- La ergonomía se evalúa con criterios de espacio y tiempo
+- El blindaje cumple el límite de dosis elegido
+- Los modos de falla de soporte vital tienen respaldo
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes diseñar un hábitat extraterrestre con soporte vital cerrado y evaluarlo.
+- Puedes dimensionar blindaje, atmósfera y ciclos de agua.
+- Puedes integrar factores humanos en un diseño espacial.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de diseño de un hábitat** (educativo, no de vuelo):

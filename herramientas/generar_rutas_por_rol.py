@@ -101,6 +101,62 @@ def datos():
     return bloque, uso, mapa_fundamentos()
 
 
+_CLASES: dict[str, str] = {}
+
+
+def ruta_clase(cid: str) -> str:
+    """Enlace relativo (desde rutas/) a la CLASE.md de una clase del programa."""
+    if not _CLASES:
+        for d in glob.glob(str(ROOT / "programa" / "clases" / "B*" / "B*-C*-*")):
+            n = os.path.basename(d)
+            _CLASES["-".join(n.split("-")[:2])] = os.path.relpath(os.path.join(d, "CLASE.md"), RUTAS).replace(os.sep, "/")
+    return _CLASES[cid]
+
+
+def evaluacion() -> dict:
+    ev = json.loads((ROOT / "metadatos" / "rutas_evaluacion.json").read_text(encoding="utf-8"))
+    for n in range(1, 25):
+        rid = f"R{n:02d}"
+        e = ev.get(rid)
+        if not e:
+            raise SystemExit(f"metadatos/rutas_evaluacion.json: falta {rid}")
+        p = e.get("proyecto", {})
+        if len(e.get("diagnostico", [])) < 4 or len(e.get("salida", [])) < 3 or not (p.get("titulo") and p.get("descripcion"))                 or len(p.get("entregables", [])) < 4 or len(p.get("criterios", [])) < 4:
+            raise SystemExit(f"metadatos/rutas_evaluacion.json: {rid} está incompleto (4 preguntas, proyecto con 4 entregables y 4 criterios, 3 criterios de salida)")
+    return ev
+
+
+def recorrido_de(rid: str, equiv: dict) -> str:
+    """Tramo generado: diagnóstico, módulos con sus clases y checkpoint, proyecto final y criterio de salida."""
+    ev = evaluacion()[rid]
+    col = json.loads((ROOT / "catalogo" / "estructura" / "colocacion" / f"{rid}.json").read_text(encoding="utf-8"))
+    L = ["<!-- recorrido:inicio -->", "### 🗺️ Recorrido módulo por módulo", "",
+         "El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). "
+         "Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.", "",
+         "**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:", ""]
+    L += [f"- {q}" for q in ev["diagnostico"]]
+    L.append("")
+    for m in col["modulos"]:
+        temas = m["temas"]
+        L += [f"#### {m['modulo']} · {m['nombre']}", ""]
+        for i, tm in enumerate(temas, 1):
+            clases = tm["tronco"] if tm["destino"] == "existente" else equiv[tm["clases_ruta"]]["clases"]
+            enl = ", ".join(f"[`{c}`]({ruta_clase(c)})" for c in clases)
+            L.append(f"{i}. **{tm['tema']}** — {enl}")
+        sel = [temas[0]["tema"], temas[len(temas) // 2]["tema"], temas[-1]["tema"]]
+        L += ["", f"✅ **Checkpoint {m['modulo']}.** Sin mirar el material, explica cómo se relacionan «{sel[0]}», «{sel[1]}» y «{sel[2]}», y resuelve un ejercicio de dos de esos temas. "
+              "Guarda el resultado como evidencia de este módulo.", ""]
+    p = ev["proyecto"]
+    L += [f"**🎯 Proyecto final · {p['titulo']}.** {p['descripcion']}", "", "Entregables:", ""]
+    L += [f"- {x}" for x in p["entregables"]]
+    L += ["", "Criterios de evaluación:", ""]
+    L += [f"- {x}" for x in p["criterios"]]
+    L += ["", "**🏁 Criterio de salida.** Has terminado la ruta cuando:", ""]
+    L += [f"- {x}" for x in ev["salida"]]
+    L += ["", "<!-- /recorrido -->"]
+    return chr(10).join(L)
+
+
 def enlace_bloque(bid: str, b: dict) -> str:
     return "../programa/tronco-comun/" + os.path.basename(glob.glob(str(ROOT / "programa" / "tronco-comun" / f"{bid}-*.md"))[0])
 
@@ -226,6 +282,7 @@ def sustituir(texto: str, marca: str, bloque: str) -> str:
 def main() -> int:
     check = "--check" in sys.argv
     bloque, uso, fund = datos()
+    equiv = json.loads((ROOT / "catalogo" / "estructura" / "equivalencias.json").read_text(encoding="utf-8"))
     rutas = json.loads((ROOT / "metadatos" / "rutas.json").read_text(encoding="utf-8"))
     nombres = {r["id"]: r["nombre"] for r in rutas}
     slugs = {r["id"]: slug_de(r["id"]) for r in rutas}
@@ -238,7 +295,13 @@ def main() -> int:
         breves[rid] = breve
         destino = RUTAS / f"{slugs[rid]}.md"
         actual = destino.read_text(encoding="utf-8").replace("\r\n", "\n") if destino.exists() else ESQUELETO.format(emoji=EMOJI[rid], nombre=nombres[rid])
-        nuevo = sustituir(sustituir(actual, "ruta", tramo), "pie", pie(rid, nombres, slugs))
+        nuevo = sustituir(actual, "ruta", tramo)
+        rec = recorrido_de(rid, equiv)
+        if "<!-- recorrido:inicio -->" in nuevo:
+            nuevo = sustituir(nuevo, "recorrido", rec)
+        else:
+            nuevo = nuevo.replace("<!-- /ruta -->", "<!-- /ruta -->" + chr(10) + chr(10) + rec, 1)
+        nuevo = sustituir(nuevo, "pie", pie(rid, nombres, slugs))
         if not destino.exists() or nuevo != actual:
             cambios.append(destino.name)
             if not check:
@@ -257,6 +320,7 @@ def main() -> int:
         L += [f"## {EMOJI[rid]} {nombres[rid]}", "", resumen, ""]
         for i, linea in enumerate(breves[rid], 1):
             L.append(f"{i}. 📚 {linea}")
+        L.append(f"- 🎯 Proyecto final: {evaluacion()[rid]['proyecto']['titulo']}")
         L += ["", f"- 📖 **[Guía completa del rol →]({slugs[rid]}.md)**", ""]
     L += ["---", "", "- 🏠 [Inicio del programa](../README.md)", "- 📚 [Programa completo](../PROGRAMA_ACADEMICO_COMPLETO.md)", ""]
     nuevo_idx = "\n".join(L)

@@ -133,6 +133,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Sabes cómo se identifica un mineral por sus propiedades?
+- ¿Puedes hacer un balance de masa de un proceso químico?
+- ¿Entiendes el costo por kilo de llevar masa al espacio?
+- ¿Sabes interpretar una hoja de cálculo financiera sencilla?
+
+#### R21-M01 · Prospección geológica extraterrestre
+
+1. **Espectroscopía de minerales** — [`B53-C17`](../programa/clases/B53/B53-C17-mineralogia-espectral/CLASE.md), [`B45-C14`](../programa/clases/B45/B45-C14-composicion-quimica-por-espectros/CLASE.md)
+2. **Imágenes hiperespectrales** — [`B53-C29`](../programa/clases/B53/B53-C29-imagenes-hiperespectrales-de-superficies-planetarias/CLASE.md)
+3. **Cartografía de regolito** — [`B53-C08`](../programa/clases/B53/B53-C08-cartografia-de-crateres/CLASE.md), [`B53-C18`](../programa/clases/B53/B53-C18-cartografia-geologica-digital/CLASE.md), [`B59-C04`](../programa/clases/B59/B59-C04-caracterizacion-de-regolito-lunar/CLASE.md)
+4. **Altimetría de terreno** — [`B53-C07`](../programa/clases/B53/B53-C07-topografia-por-altimetria/CLASE.md), [`B57-C09`](../programa/clases/B57/B57-C09-altimetria-satelital/CLASE.md)
+5. **Radar subsuperficial** — [`B53-C30`](../programa/clases/B53/B53-C30-radar-de-penetracion-subsuperficial-en-cuerpos-planetarios/CLASE.md)
+6. **Prospección de volátiles** — [`B59-C02`](../programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md), [`B59-C03`](../programa/clases/B59/B59-C03-agua-en-regolito-y-minerales/CLASE.md)
+7. **Incertidumbre geológica** — [`B53-C19`](../programa/clases/B53/B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md)
+8. **Selección de sitios** — [`B67-C01`](../programa/clases/B67/B67-C01-seleccion-de-sitios-de-extraccion-con-criterios-multiples/CLASE.md)
+9. **Evaluación ambiental** — [`B59-C17`](../programa/clases/B59/B59-C17-impacto-ambiental-extraterrestre/CLASE.md), [`B56-C18`](../programa/clases/B56/B56-C18-proteccion-planetaria-cospar/CLASE.md)
+10. **Programa de prospección** — [`B67-C02`](../programa/clases/B67/B67-C02-diseno-de-un-programa-de-prospeccion-por-fases/CLASE.md)
+
+✅ **Checkpoint R21-M01.** Sin mirar el material, explica cómo se relacionan «Espectroscopía de minerales», «Prospección de volátiles» y «Programa de prospección», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M02 · Hielos y volátiles de interés
+
+1. **Hielo en cráteres sombreados** — [`B59-C02`](../programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md), [`B53-C13`](../programa/clases/B53/B53-C13-geomorfologia-de-hielos/CLASE.md)
+2. **Hidratación de minerales** — [`B59-C03`](../programa/clases/B59/B59-C03-agua-en-regolito-y-minerales/CLASE.md), [`B53-C17`](../programa/clases/B53/B53-C17-mineralogia-espectral/CLASE.md)
+3. **Volátiles en regolito** — [`B59-C03`](../programa/clases/B59/B59-C03-agua-en-regolito-y-minerales/CLASE.md), [`B59-C06`](../programa/clases/B59/B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md)
+4. **Muestreo criogénico conceptual** — [`B67-C03`](../programa/clases/B67/B67-C03-muestreo-criogenico-y-preservacion-de-volatiles-en-muestras/CLASE.md)
+5. **Estimación de reservas** — [`B67-C04`](../programa/clases/B67/B67-C04-estimacion-de-reservas-y-categorias-de-recursos/CLASE.md)
+6. **Modelos de distribución** — [`B67-C05`](../programa/clases/B67/B67-C05-modelos-geoestadisticos-de-distribucion-de-volatiles/CLASE.md)
+7. **Pérdida de volátiles** — [`B67-C06`](../programa/clases/B67/B67-C06-perdida-de-volatiles-por-sublimacion-y-migracion-termica/CLASE.md)
+8. **Almacenamiento aislado** — [`B59-C21`](../programa/clases/B59/B59-C21-almacenamiento-criogenico-y-aislado-de-volatiles-extraidos/CLASE.md)
+9. **Sensores de volátiles** — [`B67-C07`](../programa/clases/B67/B67-C07-sensores-para-volatiles-espectrometria-de-neutrones-y-de-masas/CLASE.md)
+10. **Informe de disponibilidad** — [`B67-C08`](../programa/clases/B67/B67-C08-informe-de-disponibilidad-de-volatiles-con-incertidumbre/CLASE.md)
+
+✅ **Checkpoint R21-M02.** Sin mirar el material, explica cómo se relacionan «Hielo en cráteres sombreados», «Modelos de distribución» y «Informe de disponibilidad», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M03 · Procesamiento de recursos in situ
+
+1. **Separación granulométrica** — [`B59-C22`](../programa/clases/B59/B59-C22-beneficio-y-separacion-granulometrica-de-regolito/CLASE.md)
+2. **Procesamiento de regolito** — [`B59-C06`](../programa/clases/B59/B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md), [`B59-C08`](../programa/clases/B59/B59-C08-produccion-de-oxigeno/CLASE.md)
+3. **Extracción de agua conceptual** — [`B59-C06`](../programa/clases/B59/B59-C06-extraccion-y-procesamiento-de-volatiles/CLASE.md), [`B59-C07`](../programa/clases/B59/B59-C07-purificacion-de-agua/CLASE.md)
+4. **Purificación de recursos** — [`B59-C07`](../programa/clases/B59/B59-C07-purificacion-de-agua/CLASE.md)
+5. **Procesamiento electroquímico** — [`B59-C10`](../programa/clases/B59/B59-C10-electrolisis-y-balances-energeticos/CLASE.md), [`B59-C08`](../programa/clases/B59/B59-C08-produccion-de-oxigeno/CLASE.md)
+6. **Producción de oxígeno** — [`B59-C08`](../programa/clases/B59/B59-C08-produccion-de-oxigeno/CLASE.md)
+7. **Análisis energético** — [`B59-C10`](../programa/clases/B59/B59-C10-electrolisis-y-balances-energeticos/CLASE.md)
+8. **Subproductos** — [`B59-C23`](../programa/clases/B59/B59-C23-subproductos-y-flujos-residuales-de-procesos-isru/CLASE.md)
+9. **Sistemas cerrados** — [`B59-C15`](../programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/CLASE.md)
+10. **Balance de proceso ISRU** — [`B59-C20`](../programa/clases/B59/B59-C20-diseno-conceptual-de-planta-isru/CLASE.md)
+
+✅ **Checkpoint R21-M03.** Sin mirar el material, explica cómo se relacionan «Separación granulométrica», «Producción de oxígeno» y «Balance de proceso ISRU», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M04 · Robótica para recursos espaciales
+
+1. **Rovers de prospección** — [`B97-C01`](../programa/clases/B97/B97-C01-robots-rover-y-orbitadores/CLASE.md), [`B59-C02`](../programa/clases/B59/B59-C02-prospeccion-de-hielo-lunar/CLASE.md)
+2. **Excavación robótica conceptual** — [`B97-C25`](../programa/clases/B97/B97-C25-excavacion-y-manejo-de-regolito-con-robots/CLASE.md)
+3. **Movilidad en regolito** — [`B97-C06`](../programa/clases/B97/B97-C06-control-de-movilidad-sobre-regolito/CLASE.md)
+4. **Manipulación de muestras** — [`B97-C10`](../programa/clases/B97/B97-C10-manipulacion-de-herramientas/CLASE.md), [`B55-C18`](../programa/clases/B55/B55-C18-contaminacion-de-muestras/CLASE.md)
+5. **Autonomía de transporte** — [`B97-C16`](../programa/clases/B97/B97-C16-autonomia-de-exploracion/CLASE.md), [`B97-C08`](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md)
+6. **Sensores de maquinaria** — [`B97-C26`](../programa/clases/B97/B97-C26-monitoreo-de-condicion-de-maquinaria-extraterrestre/CLASE.md)
+7. **Gestión de polvo** — [`B85-C16`](../programa/clases/B85/B85-C16-polvo-lunar-y-contaminacion/CLASE.md)
+8. **Desgaste mecánico** — [`B84-C36`](../programa/clases/B84/B84-C36-desgaste-abrasivo-por-regolito-en-mecanismos/CLASE.md)
+9. **Seguridad robótica** — [`B97-C17`](../programa/clases/B97/B97-C17-seguridad-funcional-robotica/CLASE.md)
+10. **Evaluación de productividad virtual** — [`B97-C27`](../programa/clases/B97/B97-C27-simulacion-de-productividad-de-flotas-de-maquinaria/CLASE.md)
+
+✅ **Checkpoint R21-M04.** Sin mirar el material, explica cómo se relacionan «Rovers de prospección», «Sensores de maquinaria» y «Evaluación de productividad virtual», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M05 · Sistemas energéticos de instalaciones
+
+1. **Energía solar superficial** — [`B86-C02`](../programa/clases/B86/B86-C02-celdas-solares/CLASE.md), [`B86-C03`](../programa/clases/B86/B86-C03-arreglos-fotovoltaicos-desplegables/CLASE.md)
+2. **Almacenamiento electroquímico** — [`B86-C05`](../programa/clases/B86/B86-C05-baterias-de-ion-litio/CLASE.md), [`B86-C06`](../programa/clases/B86/B86-C06-gestion-de-carga/CLASE.md)
+3. **Suministro en noche lunar** — [`B86-C22`](../programa/clases/B86/B86-C22-suministro-de-energia-durante-la-noche-lunar/CLASE.md)
+4. **Generadores alternativos conceptuales** — [`B86-C15`](../programa/clases/B86/B86-C15-sistemas-de-combustible-como-alternativa/CLASE.md), [`B86-C16`](../programa/clases/B86/B86-C16-generadores-radioisotopicos/CLASE.md), [`B86-C17`](../programa/clases/B86/B86-C17-energia-nuclear-espacial-conceptual/CLASE.md)
+5. **Distribución de potencia** — [`B86-C07`](../programa/clases/B86/B86-C07-distribucion-de-potencia/CLASE.md), [`B86-C08`](../programa/clases/B86/B86-C08-convertidores-dc-dc/CLASE.md)
+6. **Gestión térmica** — [`B85-C07`](../programa/clases/B85/B85-C07-radiadores-espaciales/CLASE.md), [`B85-C10`](../programa/clases/B85/B85-C10-control-termico-activo/CLASE.md), [`B85-C08`](../programa/clases/B85/B85-C08-calentadores-y-termostatos/CLASE.md)
+7. **Cargas prioritarias** — [`B86-C23`](../programa/clases/B86/B86-C23-priorizacion-y-deslastre-de-cargas-electricas/CLASE.md)
+8. **Mantenimiento energético** — [`B97-C12`](../programa/clases/B97/B97-C12-robots-de-mantenimiento/CLASE.md), [`B86-C14`](../programa/clases/B86/B86-C14-envejecimiento-de-paneles/CLASE.md)
+9. **Riesgo de disponibilidad** — [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md), [`B86-C11`](../programa/clases/B86/B86-C11-redundancia-electrica/CLASE.md)
+10. **Dimensionamiento de energía de planta** — [`B86-C19`](../programa/clases/B86/B86-C19-presupuesto-de-potencia-de-mision/CLASE.md), [`B83-C10`](../programa/clases/B83/B83-C10-presupuestos-de-energia/CLASE.md)
+
+✅ **Checkpoint R21-M05.** Sin mirar el material, explica cómo se relacionan «Energía solar superficial», «Gestión térmica» y «Dimensionamiento de energía de planta», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M06 · Manufactura en cuerpos celestes
+
+1. **Sinterización de regolito** — [`B59-C12`](../programa/clases/B59/B59-C12-sinterizacion-de-materiales/CLASE.md)
+2. **Impresión aditiva** — [`B59-C13`](../programa/clases/B59/B59-C13-impresion-3d-extraterrestre/CLASE.md), [`B84-C15`](../programa/clases/B84/B84-C15-manufactura-aditiva/CLASE.md), [`B97-C15`](../programa/clases/B97/B97-C15-impresion-3d-espacial/CLASE.md)
+3. **Materiales compuestos locales** — [`B84-C37`](../programa/clases/B84/B84-C37-compuestos-y-aglomerantes-a-base-de-regolito/CLASE.md)
+4. **Producción de piezas** — [`B84-C38`](../programa/clases/B84/B84-C38-produccion-de-piezas-y-repuestos-con-materia-prima-in-situ/CLASE.md)
+5. **Tolerancias de fabricación** — [`B84-C16`](../programa/clases/B84/B84-C16-tolerancias-de-fabricacion/CLASE.md)
+6. **Control de defectos** — [`B84-C08`](../programa/clases/B84/B84-C08-fatiga-y-fractura/CLASE.md), [`B84-C18`](../programa/clases/B84/B84-C18-control-dimensional/CLASE.md)
+7. **Reciclaje de materiales** — [`B59-C15`](../programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/CLASE.md), [`B59-C16`](../programa/clases/B59/B59-C16-desechos-y-reciclaje/CLASE.md)
+8. **Inspección no destructiva** — [`B84-C19`](../programa/clases/B84/B84-C19-inspeccion-no-destructiva/CLASE.md)
+9. **Gestión de inventario** — [`B100-C01`](../programa/clases/B100/B100-C01-gestion-de-inventario-de-materias-primas-y-piezas/CLASE.md)
+10. **Propuesta de manufactura espacial** — [`B124-C04`](../programa/clases/B124/B124-C04-diseno-de-propuesta-de-valor/CLASE.md), [`B124-C19`](../programa/clases/B124/B124-C19-redaccion-de-propuesta-de-mision/CLASE.md), [`B84-C15`](../programa/clases/B84/B84-C15-manufactura-aditiva/CLASE.md)
+
+✅ **Checkpoint R21-M06.** Sin mirar el material, explica cómo se relacionan «Sinterización de regolito», «Control de defectos» y «Propuesta de manufactura espacial», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M07 · Logística de suministros interplanetarios
+
+1. **Carga y volumen de misión** — [`B100-C02`](../programa/clases/B100/B100-C02-dimensionamiento-de-carga-y-volumen-de-mision/CLASE.md)
+2. **Ventanas de transporte** — [`B75-C03`](../programa/clases/B75/B75-C03-ventanas-de-lanzamiento/CLASE.md), [`B75-C09`](../programa/clases/B75/B75-C09-presupuestos-de-delta-v/CLASE.md)
+3. **Inventarios** — [`B100-C03`](../programa/clases/B100/B100-C03-gestion-de-inventarios-y-reposicion-de-suministros/CLASE.md)
+4. **Repuestos críticos** — [`B97-C19`](../programa/clases/B97/B97-C19-logistica-de-piezas-y-reparaciones/CLASE.md), [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
+5. **Almacenamiento remoto** — [`B100-C04`](../programa/clases/B100/B100-C04-almacenamiento-remoto-y-depositos-de-suministros/CLASE.md)
+6. **Transporte sobre superficie** — [`B100-C05`](../programa/clases/B100/B100-C05-transporte-de-carga-sobre-superficie-planetaria/CLASE.md)
+7. **Gestión de fallas** — [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md), [`B96-C14`](../programa/clases/B96/B96-C14-procedimientos-de-recuperacion/CLASE.md), [`B106-C18`](../programa/clases/B106/B106-C18-fiabilidad-y-redundancia/CLASE.md)
+8. **Logística cislunar** — [`B100-C06`](../programa/clases/B100/B100-C06-logistica-cislunar-nodos-depositos-y-rutas-de-reabastecimiento/CLASE.md)
+9. **Análisis de dependencia terrestre** — [`B100-C07`](../programa/clases/B100/B100-C07-dependencia-de-suministros-terrestres-y-cierre-de-lazos-logisticos/CLASE.md)
+10. **Optimización logística conceptual** — [`B59-C19`](../programa/clases/B59/B59-C19-evaluacion-logistica-de-una-instalacion/CLASE.md), [`B11-C17`](../programa/clases/B11/B11-C17-optimizacion-numerica/CLASE.md)
+
+✅ **Checkpoint R21-M07.** Sin mirar el material, explica cómo se relacionan «Carga y volumen de misión», «Transporte sobre superficie» y «Optimización logística conceptual», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R21-M08 · Viabilidad técnica y económica ISRU
+
+1. **Capacidad tecnológica TRL** — [`B83-C18`](../programa/clases/B83/B83-C18-niveles-de-madurez-tecnologica/CLASE.md), [`B78-C19`](../programa/clases/B78/B78-C19-madurez-tecnologica-trl/CLASE.md)
+2. **Costos de transporte** — [`B124-C23`](../programa/clases/B124/B124-C23-costos-de-transporte-por-kilogramo-a-superficie/CLASE.md)
+3. **CapEx y OpEx conceptuales** — [`B124-C24`](../programa/clases/B124/B124-C24-capex-y-opex-de-una-instalacion-extraterrestre/CLASE.md)
+4. **Riesgo geológico** — [`B53-C19`](../programa/clases/B53/B53-C19-incertidumbre-en-mapas-planetarios/CLASE.md), [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
+5. **Disponibilidad energética** — [`B86-C19`](../programa/clases/B86/B86-C19-presupuesto-de-potencia-de-mision/CLASE.md), [`B59-C10`](../programa/clases/B59/B59-C10-electrolisis-y-balances-energeticos/CLASE.md)
+6. **Mercados potenciales** — [`B124-C03`](../programa/clases/B124/B124-C03-mercados-downstream-y-upstream/CLASE.md)
+7. **Marco legal de recursos** — [`B119-C25`](../programa/clases/B119/B119-C25-derecho-y-marcos-de-recursos-espaciales/CLASE.md)
+8. **Sostenibilidad ambiental** — [`B59-C17`](../programa/clases/B59/B59-C17-impacto-ambiental-extraterrestre/CLASE.md), [`B59-C15`](../programa/clases/B59/B59-C15-ciclo-cerrado-de-materiales/CLASE.md)
+9. **Escenarios financieros** — [`B124-C05`](../programa/clases/B124/B124-C05-estimacion-de-costos-de-mision/CLASE.md), [`B124-C06`](../programa/clases/B124/B124-C06-financiamiento-publico/CLASE.md), [`B124-C07`](../programa/clases/B124/B124-C07-financiamiento-privado/CLASE.md)
+10. **Estudio de viabilidad de instalación** — [`B59-C19`](../programa/clases/B59/B59-C19-evaluacion-logistica-de-una-instalacion/CLASE.md), [`B59-C20`](../programa/clases/B59/B59-C20-diseno-conceptual-de-planta-isru/CLASE.md), [`B124-C12`](../programa/clases/B124/B124-C12-evaluacion-de-retorno-cientifico/CLASE.md)
+
+✅ **Checkpoint R21-M08.** Sin mirar el material, explica cómo se relacionan «Capacidad tecnológica TRL», «Mercados potenciales» y «Estudio de viabilidad de instalación», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Estudio de viabilidad de una planta de agua lunar.** Evalúa técnica y económicamente la extracción de hielo de agua en un cráter polar, con su logística, energía y modelo de costos.
+
+Entregables:
+
+- Caracterización del recurso con incertidumbre
+- Diseño preliminar del proceso y sus balances
+- Modelo logístico de suministros
+- Modelo económico con escenarios y sensibilidad
+
+Criterios de evaluación:
+
+- La incertidumbre del recurso se propaga a la viabilidad
+- Los balances de energía y de masa cierran
+- El modelo económico explicita sus supuestos
+- Se identifican los riesgos técnicos y legales principales
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes evaluar un recurso extraterrestre y el proceso para aprovecharlo.
+- Puedes modelar la logística y la economía de una instalación.
+- Puedes decir con honestidad cuándo un proyecto no es viable.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **estudio de viabilidad de una instalación conceptual** (educativo, no una recomendación de inversión):

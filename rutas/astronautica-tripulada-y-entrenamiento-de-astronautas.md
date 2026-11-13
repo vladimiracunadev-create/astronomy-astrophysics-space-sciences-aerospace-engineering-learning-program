@@ -118,6 +118,162 @@ Orden recomendado. El programa es un solo conjunto de áreas y bloques; este rol
 
 <!-- /ruta -->
 
+<!-- recorrido:inicio -->
+### 🗺️ Recorrido módulo por módulo
+
+El rol se estudia en **8 módulos** de 10 temas cada uno (cada tema es un par «concepto + aplicación»). Haz el diagnóstico, avanza por los módulos **en orden** y cierra cada uno con su checkpoint; al final, el proyecto y el criterio de salida.
+
+**🩺 Diagnóstico de entrada.** Si respondes «no sé» a dos o más, empieza por los fundamentos de arriba:
+
+- ¿Conoces los efectos básicos de la microgravedad en el cuerpo?
+- ¿Puedes seguir un procedimiento con una lista de verificación sin saltar pasos?
+- ¿Sabes trabajar en equipo bajo presión y comunicar con claridad?
+- ¿Entiendes los sistemas básicos de una nave tripulada?
+
+#### R18-M01 · Preparación física y factores humanos
+
+1. **Adaptación física previa al vuelo** — [`B104-C04`](../programa/clases/B104/B104-C04-acondicionamiento-fisico-general/CLASE.md), [`B104-C03`](../programa/clases/B104/B104-C03-seleccion-y-aptitud/CLASE.md)
+2. **Resistencia cardiovascular** — [`B107-C01`](../programa/clases/B107/B107-C01-entrenamiento-cardiorrespiratorio-y-de-resistencia-de-astronautas/CLASE.md)
+3. **Fortalecimiento muscular** — [`B105-C03`](../programa/clases/B105/B105-C03-atrofia-muscular/CLASE.md), [`B105-C16`](../programa/clases/B105/B105-C16-contramedidas-de-ejercicio/CLASE.md)
+4. **Movilidad articular** — [`B107-C02`](../programa/clases/B107/B107-C02-movilidad-articular-flexibilidad-y-postura/CLASE.md)
+5. **Entrenamiento vestibular** — [`B107-C03`](../programa/clases/B107/B107-C03-entrenamiento-vestibular-y-de-orientacion-espacial/CLASE.md)
+6. **Nutrición preoperacional** — [`B105-C12`](../programa/clases/B105/B105-C12-nutricion-espacial/CLASE.md)
+7. **Sueño y ritmos** — [`B105-C08`](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md), [`B106-C13`](../programa/clases/B106/B106-C13-iluminacion-y-ciclos-circadianos/CLASE.md)
+8. **Evaluación de rendimiento** — [`B107-C04`](../programa/clases/B107/B107-C04-evaluacion-del-rendimiento-fisico-y-cognitivo-de-tripulantes/CLASE.md)
+9. **Prevención de lesiones** — [`B107-C05`](../programa/clases/B107/B107-C05-prevencion-de-lesiones-en-entrenamiento-y-trabajo-operativo/CLASE.md)
+10. **Límites médicos de entrenamiento** — [`B104-C03`](../programa/clases/B104/B104-C03-seleccion-y-aptitud/CLASE.md), [`B105-C19`](../programa/clases/B105/B105-C19-bioetica-en-investigacion-tripulada/CLASE.md)
+
+✅ **Checkpoint R18-M01.** Sin mirar el material, explica cómo se relacionan «Adaptación física previa al vuelo», «Nutrición preoperacional» y «Límites médicos de entrenamiento», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M02 · Sistemas de vehículos tripulados
+
+1. **Cabinas presurizadas** — [`B106-C02`](../programa/clases/B106/B106-C02-presurizacion-de-modulos/CLASE.md)
+2. **Sistemas de energía** — [`B86-C01`](../programa/clases/B86/B86-C01-balance-de-potencia-electrica/CLASE.md), [`B86-C07`](../programa/clases/B86/B86-C07-distribucion-de-potencia/CLASE.md)
+3. **Sistemas de navegación** — [`B74-C18`](../programa/clases/B74/B74-C18-estimacion-autonoma-a-bordo/CLASE.md), [`B89-C16`](../programa/clases/B89/B89-C16-gnss-como-navegacion-de-satelites/CLASE.md)
+4. **Control ambiental de cabina** — [`B106-C09`](../programa/clases/B106/B106-C09-sistemas-eclss/CLASE.md), [`B106-C08`](../programa/clases/B106/B106-C08-control-termico-interior/CLASE.md), [`B106-C07`](../programa/clases/B106/B106-C07-gestion-de-humedad/CLASE.md)
+5. **Monitoreo de atmósfera** — [`B106-C03`](../programa/clases/B106/B106-C03-composicion-atmosferica-respirable/CLASE.md), [`B106-C04`](../programa/clases/B106/B106-C04-control-de-dioxido-de-carbono/CLASE.md)
+6. **Gestión de agua** — [`B106-C06`](../programa/clases/B106/B106-C06-reciclaje-de-agua/CLASE.md)
+7. **Sistema contra incendios** — [`B106-C17`](../programa/clases/B106/B106-C17-prevencion-y-respuesta-a-incendios/CLASE.md)
+8. **Comunicaciones a Tierra** — [`B89-C20`](../programa/clases/B89/B89-C20-diseno-de-red-de-comunicaciones-de-mision/CLASE.md), [`B89-C14`](../programa/clases/B89/B89-C14-estaciones-terrestres/CLASE.md)
+9. **Configuración de nave** — [`B104-C05`](../programa/clases/B104/B104-C05-sistemas-de-vehiculos-tripulados/CLASE.md)
+10. **Procedimientos de inventario** — [`B104-C21`](../programa/clases/B104/B104-C21-inventario-logistica-y-estiba-a-bordo/CLASE.md)
+
+✅ **Checkpoint R18-M02.** Sin mirar el material, explica cómo se relacionan «Cabinas presurizadas», «Gestión de agua» y «Procedimientos de inventario», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M03 · Operaciones de cabina espacial
+
+1. **Roles del comandante** — [`B104-C07`](../programa/clases/B104/B104-C07-factores-de-liderazgo/CLASE.md), [`B104-C02`](../programa/clases/B104/B104-C02-requisitos-de-tripulacion/CLASE.md)
+2. **Procedimientos nominales** — [`B104-C06`](../programa/clases/B104/B104-C06-entrenamiento-de-procedimientos/CLASE.md)
+3. **Listas de comprobación** — [`B104-C22`](../programa/clases/B104/B104-C22-diseno-y-uso-de-listas-de-comprobacion-de-cabina/CLASE.md)
+4. **Gestión de estados de vehículo** — [`B96-C08`](../programa/clases/B96/B96-C08-gestion-de-estados-de-satelite/CLASE.md), [`B88-C09`](../programa/clases/B88/B88-C09-telecomandos-y-estados-de-mision/CLASE.md)
+5. **Comunicaciones operacionales** — [`B104-C08`](../programa/clases/B104/B104-C08-comunicacion-de-tripulacion/CLASE.md), [`B96-C03`](../programa/clases/B96/B96-C03-roles-de-control-de-mision/CLASE.md)
+6. **Control de carga útil** — [`B96-C10`](../programa/clases/B96/B96-C10-planificacion-de-cargas-utiles/CLASE.md)
+7. **Trabajo en turnos** — [`B104-C17`](../programa/clases/B104/B104-C17-gestion-de-fatiga/CLASE.md), [`B105-C08`](../programa/clases/B105/B105-C08-sueno-y-ritmos-circadianos/CLASE.md)
+8. **Ejecución de experimentos** — [`B104-C23`](../programa/clases/B104/B104-C23-ejecucion-de-experimentos-a-bordo-procedimientos-y-registro/CLASE.md)
+9. **Registro de anomalías** — [`B96-C13`](../programa/clases/B96/B96-C13-deteccion-de-anomalias/CLASE.md), [`B90-C17`](../programa/clases/B90/B90-C17-gestion-de-anomalias-de-prueba/CLASE.md)
+10. **Debriefing de cabina** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md)
+
+✅ **Checkpoint R18-M03.** Sin mirar el material, explica cómo se relacionan «Roles del comandante», «Control de carga útil» y «Debriefing de cabina», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M04 · Actividades extravehiculares EVA
+
+1. **Objetivos y tipos de EVA** — [`B104-C10`](../programa/clases/B104/B104-C10-actividades-extravehiculares-eva/CLASE.md)
+2. **Trajes presurizados** — [`B104-C11`](../programa/clases/B104/B104-C11-trajes-espaciales/CLASE.md)
+3. **Sistemas portátiles de soporte vital** — [`B108-C01`](../programa/clases/B108/B108-C01-sistemas-portatiles-de-soporte-vital-plss/CLASE.md)
+4. **Planificación de desplazamiento** — [`B108-C02`](../programa/clases/B108/B108-C02-planificacion-de-desplazamientos-y-rutas-de-eva/CLASE.md)
+5. **Herramientas EVA** — [`B108-C03`](../programa/clases/B108/B108-C03-herramientas-y-equipos-de-eva/CLASE.md)
+6. **Sistemas de sujeción** — [`B108-C04`](../programa/clases/B108/B108-C04-sistemas-de-sujecion-y-restriccion-de-pies/CLASE.md)
+7. **Gestión de fatiga** — [`B104-C17`](../programa/clases/B104/B104-C17-gestion-de-fatiga/CLASE.md)
+8. **Comunicaciones EVA** — [`B104-C08`](../programa/clases/B104/B104-C08-comunicacion-de-tripulacion/CLASE.md)
+9. **Emergencias simuladas** — [`B104-C13`](../programa/clases/B104/B104-C13-procedimientos-de-emergencia/CLASE.md)
+10. **Evaluación de secuencia de EVA** — [`B108-C05`](../programa/clases/B108/B108-C05-evaluacion-de-secuencias-y-lineas-de-tiempo-de-eva/CLASE.md)
+
+✅ **Checkpoint R18-M04.** Sin mirar el material, explica cómo se relacionan «Objetivos y tipos de EVA», «Sistemas de sujeción» y «Evaluación de secuencia de EVA», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M05 · Robótica para tripulaciones
+
+1. **Manipuladores de estaciones** — [`B97-C02`](../programa/clases/B97/B97-C02-cinematica-de-manipuladores/CLASE.md), [`B104-C12`](../programa/clases/B104/B104-C12-robotica-tripulada/CLASE.md)
+2. **Interfaces de teleoperación** — [`B97-C07`](../programa/clases/B97/B97-C07-teleoperacion-con-latencia/CLASE.md), [`B104-C12`](../programa/clases/B104/B104-C12-robotica-tripulada/CLASE.md)
+3. **Captura de carga útil** — [`B76-C16`](../programa/clases/B76/B76-C16-acoplamiento-y-captura/CLASE.md), [`B97-C13`](../programa/clases/B97/B97-C13-ensamblaje-de-estructuras-en-orbita/CLASE.md)
+4. **Coordinación visual** — [`B101-C09`](../programa/clases/B101/B101-C09-coordinacion-visual-y-camaras-en-operaciones-con-manipulador/CLASE.md)
+5. **Zonas de seguridad** — [`B97-C17`](../programa/clases/B97/B97-C17-seguridad-funcional-robotica/CLASE.md)
+6. **Planificación de movimientos** — [`B97-C08`](../programa/clases/B97/B97-C08-planificacion-de-trayectorias-roboticas/CLASE.md)
+7. **Gestión de fallas robóticas** — [`B97-C17`](../programa/clases/B97/B97-C17-seguridad-funcional-robotica/CLASE.md), [`B88-C12`](../programa/clases/B88/B88-C12-deteccion-aislamiento-y-recuperacion-de-fallos/CLASE.md)
+8. **Robótica compartida** — [`B97-C09`](../programa/clases/B97/B97-C09-robotica-colaborativa/CLASE.md)
+9. **Protocolos de relevo** — [`B98-C08`](../programa/clases/B98/B98-C08-protocolos-de-relevo-de-control-entre-operadores/CLASE.md)
+10. **Simulación de tarea con manipulador** — [`B101-C10`](../programa/clases/B101/B101-C10-simulacion-de-una-tarea-tripulada-con-manipulador/CLASE.md)
+
+✅ **Checkpoint R18-M05.** Sin mirar el material, explica cómo se relacionan «Manipuladores de estaciones», «Planificación de movimientos» y «Simulación de tarea con manipulador», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M06 · Procedimientos de emergencia espacial
+
+1. **Despresurización simulada** — [`B110-C01`](../programa/clases/B110/B110-C01-despresurizacion-deteccion-aislamiento-y-respuesta/CLASE.md)
+2. **Pérdida de comunicación** — [`B96-C15`](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md), [`B88-C11`](../programa/clases/B88/B88-C11-watchdogs-y-recuperacion/CLASE.md)
+3. **Incendio en hábitat como escenario** — [`B106-C17`](../programa/clases/B106/B106-C17-prevencion-y-respuesta-a-incendios/CLASE.md)
+4. **Pérdida de energía** — [`B86-C11`](../programa/clases/B86/B86-C11-redundancia-electrica/CLASE.md), [`B96-C15`](../programa/clases/B96/B96-C15-operaciones-de-emergencia/CLASE.md)
+5. **Falla de sistema ambiental** — [`B106-C09`](../programa/clases/B106/B106-C09-sistemas-eclss/CLASE.md), [`B106-C18`](../programa/clases/B106/B106-C18-fiabilidad-y-redundancia/CLASE.md)
+6. **Aislamiento médico** — [`B110-C02`](../programa/clases/B110/B110-C02-protocolos-operativos-de-aislamiento-de-un-tripulante-enfermo-o-contaminado/CLASE.md)
+7. **Evacuación simulada** — [`B110-C03`](../programa/clases/B110/B110-C03-evacuacion-y-refugio-de-emergencia/CLASE.md)
+8. **Priorización de decisiones** — [`B110-C04`](../programa/clases/B110/B110-C04-priorizacion-y-decisiones-bajo-emergencia/CLASE.md)
+9. **Uso de checklists** — [`B110-C05`](../programa/clases/B110/B110-C05-checklists-de-emergencia-ejecucion-y-verificacion-cruzada/CLASE.md)
+10. **Evaluación postincidente** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md), [`B83-C16`](../programa/clases/B83/B83-C16-gestion-de-riesgos-tecnicos/CLASE.md)
+
+✅ **Checkpoint R18-M06.** Sin mirar el material, explica cómo se relacionan «Despresurización simulada», «Aislamiento médico» y «Evaluación postincidente», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M07 · Coordinación y liderazgo de tripulación
+
+1. **Factores humanos** — [`B111-C01`](../programa/clases/B111/B111-C01-fundamentos-de-factores-humanos-en-operaciones-espaciales/CLASE.md)
+2. **Liderazgo distribuido** — [`B104-C07`](../programa/clases/B104/B104-C07-factores-de-liderazgo/CLASE.md)
+3. **Comunicación cerrada** — [`B104-C08`](../programa/clases/B104/B104-C08-comunicacion-de-tripulacion/CLASE.md)
+4. **Resolución de conflictos** — [`B104-C16`](../programa/clases/B104/B104-C16-manejo-de-conflictos/CLASE.md)
+5. **Gestión intercultural** — [`B111-C02`](../programa/clases/B111/B111-C02-gestion-intercultural-en-tripulaciones-multinacionales/CLASE.md)
+6. **Carga cognitiva** — [`B111-C03`](../programa/clases/B111/B111-C03-carga-cognitiva-y-gestion-de-la-atencion/CLASE.md)
+7. **Conciencia situacional** — [`B111-C04`](../programa/clases/B111/B111-C04-conciencia-situacional-en-operaciones-de-vuelo/CLASE.md)
+8. **Toma de decisiones con incertidumbre** — [`B111-C05`](../programa/clases/B111/B111-C05-toma-de-decisiones-con-incertidumbre-en-equipo/CLASE.md)
+9. **Gestión del error humano** — [`B111-C06`](../programa/clases/B111/B111-C06-gestion-del-error-humano-y-cultura-de-seguridad/CLASE.md)
+10. **Evaluación de desempeño de equipo** — [`B104-C20`](../programa/clases/B104/B104-C20-mision-tripulada-simulada/CLASE.md), [`B104-C09`](../programa/clases/B104/B104-C09-entrenamiento-en-simuladores/CLASE.md)
+
+✅ **Checkpoint R18-M07.** Sin mirar el material, explica cómo se relacionan «Factores humanos», «Carga cognitiva» y «Evaluación de desempeño de equipo», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+#### R18-M08 · Simulación integral de vuelo tripulado
+
+1. **Arquitectura de misión tripulada** — [`B83-C07`](../programa/clases/B83/B83-C07-arquitecturas-de-sistemas/CLASE.md), [`B104-C02`](../programa/clases/B104/B104-C02-requisitos-de-tripulacion/CLASE.md)
+2. **Plan de fases de vuelo** — [`B83-C03`](../programa/clases/B83/B83-C03-concepto-de-operaciones-conops/CLASE.md), [`B96-C09`](../programa/clases/B96/B96-C09-secuencias-de-mision/CLASE.md)
+3. **Asignación de roles** — [`B104-C02`](../programa/clases/B104/B104-C02-requisitos-de-tripulacion/CLASE.md), [`B96-C03`](../programa/clases/B96/B96-C03-roles-de-control-de-mision/CLASE.md)
+4. **Procedimientos de cabina** — [`B104-C06`](../programa/clases/B104/B104-C06-entrenamiento-de-procedimientos/CLASE.md)
+5. **Cronograma de experimentos** — [`B96-C10`](../programa/clases/B96/B96-C10-planificacion-de-cargas-utiles/CLASE.md)
+6. **Eventos EVA simulados** — [`B104-C10`](../programa/clases/B104/B104-C10-actividades-extravehiculares-eva/CLASE.md), [`B104-C15`](../programa/clases/B104/B104-C15-entrenamiento-subacuatico-como-analogia/CLASE.md)
+7. **Escenarios de emergencia** — [`B104-C13`](../programa/clases/B104/B104-C13-procedimientos-de-emergencia/CLASE.md)
+8. **Control de misión** — [`B96-C03`](../programa/clases/B96/B96-C03-roles-de-control-de-mision/CLASE.md), [`B96-C20`](../programa/clases/B96/B96-C20-simulacion-de-jornada-de-control-de-mision/CLASE.md)
+9. **Criterios de desempeño** — [`B104-C20`](../programa/clases/B104/B104-C20-mision-tripulada-simulada/CLASE.md), [`B83-C17`](../programa/clases/B83/B83-C17-verificacion-frente-a-validacion/CLASE.md)
+10. **Informe y lecciones aprendidas** — [`B96-C19`](../programa/clases/B96/B96-C19-lecciones-aprendidas-operativas/CLASE.md), [`B104-C20`](../programa/clases/B104/B104-C20-mision-tripulada-simulada/CLASE.md)
+
+✅ **Checkpoint R18-M08.** Sin mirar el material, explica cómo se relacionan «Arquitectura de misión tripulada», «Eventos EVA simulados» y «Informe y lecciones aprendidas», y resuelve un ejercicio de dos de esos temas. Guarda el resultado como evidencia de este módulo.
+
+**🎯 Proyecto final · Plan de entrenamiento y operaciones de una misión tripulada de 14 días.** Diseña el plan de entrenamiento de una tripulación y la secuencia de operaciones de cabina, incluyendo una actividad extravehicular y tres emergencias simuladas.
+
+Entregables:
+
+- Plan de entrenamiento por competencias
+- Secuencia de operaciones con listas de verificación
+- Plan de una actividad extravehicular con riesgos y controles
+- Procedimientos de tres emergencias con criterios de decisión
+
+Criterios de evaluación:
+
+- Cada competencia tiene un método de evaluación
+- Los procedimientos son ejecutables en el tiempo disponible
+- Los riesgos tienen un control y un responsable
+- Se contempla la carga de trabajo y el descanso
+
+**🏁 Criterio de salida.** Has terminado la ruta cuando:
+
+- Puedes planear entrenamiento y operaciones de una misión tripulada con seguridad.
+- Puedes explicar y ejecutar en simulación procedimientos de emergencia.
+- Puedes coordinar una tripulación aplicando comunicación y liderazgo.
+
+<!-- /recorrido -->
+
 ### 🧪 Práctica y evidencias
 
 El producto que demuestra el rol es un **expediente de entrenamiento simulado** (sin participantes humanos reales a menos que exista aprobación ética y supervisión profesional):
