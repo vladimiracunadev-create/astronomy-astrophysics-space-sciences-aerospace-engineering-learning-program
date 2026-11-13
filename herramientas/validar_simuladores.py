@@ -121,6 +121,15 @@ def documentacion() -> None:
                 err(f"{f.relative_to(RAIZ)}: enlace roto {u}")
 
 
+def svg_cielo() -> None:
+    if not shutil.which("node"):
+        return
+    r = subprocess.run(["node", str(SIM / "pruebas" / "generar_svg_cielo.mjs"), "--check"], capture_output=True, text=True, encoding="utf-8", errors="replace", env=ENTORNO)
+    print(r.stdout.strip())
+    if r.returncode != 0:
+        err("figuras de cielo desfasadas: " + r.stdout[-600:] + r.stderr[-300:])
+
+
 def svg() -> None:
     gen = RAIZ / "herramientas" / "efemerides" / "generar_svg.py"
     if not gen.exists():
@@ -141,7 +150,7 @@ def tabla() -> None:
 
 def coherencia() -> None:
     """La lista de simuladores es única: navegacion.js (barra y concentrador), sitio.py (menú y búsqueda), páginas, imágenes y documentos."""
-    nav = re.findall(r'clave: "(\w+)", imagen: "([\w-]+)", href: "([\w.-]+)"', (SIM / "motor" / "navegacion.js").read_text(encoding="utf-8"))
+    nav = re.findall(r'clave: "([\w-]+)", imagen: "([\w-]+)", href: "([\w.-]+)"', (SIM / "motor" / "navegacion.js").read_text(encoding="utf-8"))
     sitio = re.findall(r'\("[^"]+", "([\w.-]+\.html)"\)', (RAIZ / "herramientas" / "publicacion" / "sitio.py").read_text(encoding="utf-8").split("SIMULADORES = [", 1)[1].split("]", 1)[0])
     if [h for _, _, h in nav] != sitio:
         err(f"simuladores/motor/navegacion.js y herramientas/publicacion/sitio.py no listan los mismos simuladores: {[h for _, _, h in nav]} vs {sitio}")
@@ -149,7 +158,7 @@ def coherencia() -> None:
         for ruta in (SIM / href, SIM / "img" / f"{imagen}.svg", SIM / "paginas" / f"{href[:-5]}.js", SIM / "documentacion" / f"{href[:-5]}.md"):
             if not ruta.exists():
                 err(f"simulador {clave}: falta {ruta.relative_to(RAIZ)}")
-        if clave != "sol" and not (SIM / "datos" / f"{clave}.bin").exists():
+        if clave != "sol" and not clave.startswith("cielo-") and not (SIM / "datos" / f"{clave}.bin").exists():
             err(f"simulador {clave}: faltan datos/{clave}.bin")
     doc = (SIM / "documentacion" / "README.md").read_text(encoding="utf-8")
     for _, _, href in nav:
@@ -168,6 +177,7 @@ def main() -> int:
         node()
         tabla()
         svg()
+        svg_cielo()
     print(f"\n{len(errores)} errores")
     return 1 if errores else 0
 

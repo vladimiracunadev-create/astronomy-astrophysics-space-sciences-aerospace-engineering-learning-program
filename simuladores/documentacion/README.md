@@ -23,6 +23,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 | ![Urano](../img/urano.svg) | **Urano y sus lunas** | [urano.md](urano.md) | Publicado |
 | ![Neptuno](../img/neptuno.svg) | **Neptuno y sus lunas** | [neptuno.md](neptuno.md) | Publicado |
 | ![Plutón](../img/pluton.svg) | **Plutón y sus lunas** | [pluton.md](pluton.md) | Publicado |
+| ![Cielo desde la Tierra](../img/cielo-tierra.svg) | **Cielo desde la Tierra** | [cielo-tierra.md](cielo-tierra.md) | Publicado |
 
 ## Qué se valida y contra qué
 

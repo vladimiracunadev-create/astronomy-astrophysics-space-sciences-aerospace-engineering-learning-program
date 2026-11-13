@@ -16,6 +16,8 @@ No existe una licencia única para cualquier dato presente o futuro. Esta polít
 | `simuladores/datos/*.json`, `*.bin`, `verificacion.json` | posiciones de planetas y satélites 2027–2050 (observadas/estimadas por ajuste de órbitas), obtenidas de **NASA/JPL Horizons** e interpoladas | datos del JPL/NASA (productos de gobierno de EE. UU.; condiciones de uso de NASA); la empaquetación y el método son originales (Apache-2.0); procedencia, versión y fecha de descarga en `simuladores/documentacion/DATOS_Y_EFEMERIDES.md` |
 | `simuladores/pruebas/referencia_nasa_eclipses.json` | referencia de contraste: catálogo de eclipses de NASA GSFC (Espenak y Meeus) 2027–2050 | datos de la NASA; sólo se usan hechos (fechas, tipos, γ, magnitudes) para validar el cálculo propio |
 | `simuladores/motor/mascara_tierra.js` | máscara tierra/mar de 0,5° derivada de **Natural Earth** 1:110m | Natural Earth es de dominio público; sólo se usa para dibujar |
+| `simuladores/datos/cielo.json` | estrellas hasta la magnitud 6, nombres y figuras de constelaciones (Hipparcos/Tycho vía d3-celestial) | BSD de 3 cláusulas (Olaf Frohn); datos astrométricos de la ESA; véase `THIRD_PARTY_NOTICES.md` |
+| `simuladores/pruebas/referencia_usno*.json` | contraste: estaciones, fases y salidas y puestas del U.S. Naval Observatory | datos del USNO; sólo hechos (fechas y horas) como referencia de validación |
 
 ## Datos externos futuros
 

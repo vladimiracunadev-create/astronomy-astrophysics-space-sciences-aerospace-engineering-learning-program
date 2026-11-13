@@ -9,6 +9,7 @@ export const SIMULADORES = [
   { clave: "urano", imagen: "urano", href: "urano.html", titulo: "Urano y sus lunas", resumen: "Un sistema tumbado: ejes casi en el plano orbital, lunas mayores y menores, y anillos." },
   { clave: "neptuno", imagen: "neptuno", href: "neptuno.html", titulo: "Neptuno y sus lunas", resumen: "Tritón retrógrada, Nereida excéntrica y las lunas internas." },
   { clave: "pluton", imagen: "pluton", href: "pluton.html", titulo: "Plutón y sus lunas", resumen: "Plutón, Caronte, Estigia, Nix, Cerbero e Hidra girando en torno a un baricentro exterior a Plutón." },
+  { clave: "cielo-tierra", imagen: "cielo-tierra", href: "cielo-tierra.html", titulo: "Cielo desde la Tierra", resumen: "Sol, Luna, planetas y 5.000 estrellas desde cualquier lugar, con salidas y puestas validadas con el U.S. Naval Observatory." },
 ];
 
 export function barraNavegacion(actual) {

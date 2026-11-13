@@ -9,6 +9,9 @@ import urllib.request
 from pathlib import Path
 
 SALIDA = Path(__file__).resolve().parents[2] / "simuladores" / "pruebas" / "referencia_usno.json"
+SALIDA_RST = SALIDA.with_name("referencia_usno_salidas.json")
+LUGARES = [("Santiago", -33.45, -70.67), ("Greenwich", 51.4769, 0.0), ("Quito", -0.18, -78.5), ("Tokio", 35.68, 139.69), ("Reikiavik", 64.15, -21.94), ("Sídney", -33.87, 151.2)]
+FECHAS = ["2027-03-20", "2027-06-21", "2028-12-21", "2030-09-23", "2035-01-15", "2040-07-04", "2045-05-10", "2049-11-30"]
 
 
 def pedir(ruta: str) -> dict:
@@ -19,6 +22,18 @@ def pedir(ruta: str) -> dict:
         except Exception:  # noqa: BLE001
             time.sleep(2 * (i + 1))
     raise RuntimeError(ruta)
+
+
+def salidas() -> None:
+    out = []
+    for nom, lat, lon in LUGARES:
+        for f in FECHAS:
+            d = pedir(f"rstt/oneday?date={f}&coords={lat},{lon}&tz=0")["properties"]["data"]
+            ev = lambda lista: [[e["phen"], e["time"]] for e in (lista or []) if e["phen"] in ("Rise", "Set")]
+            out.append({"lugar": nom, "lat": lat, "lon": lon, "fecha": f, "sol": ev(d.get("sundata")), "luna": ev(d.get("moondata"))})
+            time.sleep(0.3)
+    SALIDA_RST.write_text(json.dumps({"fuente": "U.S. Naval Observatory, Astronomical Applications API v4 (rstt/oneday, tz=0); horas UT en minutos", "dias": out}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(len(out), "días de salidas y puestas")
 
 
 def main() -> None:
@@ -35,3 +50,4 @@ def main() -> None:
 
 
 main()
+salidas()

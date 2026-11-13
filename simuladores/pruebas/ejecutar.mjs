@@ -6,6 +6,8 @@ import { dirname, join } from "node:path";
 import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
+import { Observador, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
+import { SOL, LUNA } from "../motor/cuerpos.js";
 import { jdUtcDesdeTdb, jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
 import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM, longitudSolar } from "../motor/cuerpos.js";
 
@@ -192,6 +194,54 @@ if (sistemas.pluton) {
   cerca(dP / dC, 0.1218, 0.001, "cociente de masas Caronte/Plutón"); // M_Caronte/M_Plutón ≈ 0,1218 (New Horizons)
   cerca(sep, 19591, 15, "separación Plutón–Caronte [km]");
   afirmar(dP > 1188.3, "el baricentro debe quedar fuera de Plutón");
+}
+
+// 8. Cielo: salidas y puestas del Sol y de la Luna contra el USNO; geometría de los demás mundos
+if (sistemas.sol && sistemas.tierra) {
+  const ref = JSON.parse(readFileSync(join(aqui, "referencia_usno_salidas.json"), "utf8")).dias;
+  const obs = new Observador({ id: "399", sol: sistemas.sol, sis: sistemas.tierra });
+  const REF = 34 / 60 * Math.PI / 180;
+  let peor = { sol: 0, luna: 0 }, n = { sol: 0, luna: 0 };
+  for (const r of ref) {
+    obs.lugar(r.lat, r.lon);
+    const jd0 = jdUtcDesdeInput(r.fecha + "T00:00");
+    const vSol = (j) => { const e = sistemas.sol.pos("399", j); return [-(e[0] + obs.rel[0]), -(e[1] + obs.rel[1]), -(e[2] + obs.rel[2])]; };
+    const vLuna = (j) => { const m = sistemas.tierra.pos("301", j); return [m[0] - obs.rel[0], m[1] - obs.rel[1], m[2] - obs.rel[2]]; };
+    for (const [clave, fn, radio, lista] of [["sol", vSol, SOL.radio, r.sol], ["luna", vLuna, LUNA.radio, r.luna]]) {
+      obs.actualizar(jd0 + 0.5 + 69.184 / 86400, jd0 + 0.5);
+      const um = -(REF + Math.asin(radio / Math.hypot(...fn(jd0 + 0.5 + 69.184 / 86400))));
+      const ev = salidasYPuestas(obs, fn, um, jd0);
+      for (const [phen, hhmm] of lista) {
+        const t = jdUtcDesdeInput(r.fecha + "T" + hhmm);
+        const dm = ev.filter((e) => e.tipo === (phen === "Rise" ? "salida" : "puesta")).map((e) => Math.abs((e.jdUtc - t) * 1440)).sort((a, b) => a - b)[0];
+        afirmar(dm !== undefined && dm < 2, `${r.lugar} ${r.fecha} ${clave} ${phen}: ${dm === undefined ? "sin evento" : dm.toFixed(2) + " min"}`);
+        if (dm !== undefined) { peor[clave] = Math.max(peor[clave], dm); n[clave]++; }
+      }
+    }
+  }
+  console.log(`USNO · salidas y puestas: Sol ${n.sol} (peor ${peor.sol.toFixed(2)} min), Luna ${n.luna} (peor ${peor.luna.toFixed(2)} min)`);
+  // Polaris (AR 37,95°, Dec +89,26°) en el polo norte está a ~89,3° de altura; en el ecuador, a ~0°
+  const jd = jdTdbDesdeUtc(JD_UTC_INICIO), pol = ecuatorialAEclipticoJ2000(37.95, 89.264);
+  obs.lugar(90, 0); obs.actualizar(jd, JD_UTC_INICIO); cerca(obs.horizonte(pol).alt * 180 / Math.PI, 89.26, 0.15, "Polaris en el polo norte (altura)");
+  obs.lugar(0, 0); obs.actualizar(jd, JD_UTC_INICIO); cerca(obs.horizonte(pol).alt * 180 / Math.PI, 0.7, 1.0, "Polaris en el ecuador (≈ 0°)");
+  obs.lugar(-33.45, -70.67); obs.actualizar(jd, JD_UTC_INICIO); afirmar(obs.horizonte(pol).alt < 0, "Polaris no es visible desde Santiago");
+  // la Luna desde la Tierra mide ≈ 29–34′ y el Sol ≈ 31,4–32,6′
+  const c = obs.cuerpos(); const sol = c.find((x) => x.id === "10"), luna = c.find((x) => x.id === "301");
+  cerca(sol.tam * 180 / Math.PI * 60, 32.5, 0.6, "diámetro angular del Sol en enero [′]"); afirmar(luna.tam * 180 / Math.PI * 60 > 29 && luna.tam * 180 / Math.PI * 60 < 34.2, "diámetro angular de la Luna");
+}
+if (sistemas.sol && sistemas.marte) {
+  const o = new Observador({ id: "499", sol: sistemas.sol, sis: sistemas.marte }), jd = jdTdbDesdeUtc(JD_UTC_INICIO);
+  o.lugar(18.44, 77.45); o.actualizar(jd, JD_UTC_INICIO);
+  const c = o.cuerpos(); const sol = c.find((x) => x.id === "10"); const ang = sol.tam * 180 / Math.PI * 60;
+  cerca(ang, 2 * Math.asin(SOL.radio / (1.6467 * 149597870.7)) * 180 / Math.PI * 60, 0.3, "Sol visto desde Marte [′]");   // ≈ 19,4′ en enero de 2027 (Marte a 1,65 UA)
+  const fobos = c.find((x) => x.id === "401"); afirmar(fobos && fobos.tam * 180 / Math.PI * 60 > 3 && fobos.tam * 180 / Math.PI * 60 < 15, "tamaño angular de Fobos visto desde Marte");
+  afirmar(c.some((x) => x.id === "399"), "la Tierra aparece en el cielo de Marte");
+}
+if (sistemas.sol && sistemas.jupiter) {
+  const o = new Observador({ id: "599", sol: sistemas.sol, sis: sistemas.jupiter }), jd = jdTdbDesdeUtc(JD_UTC_INICIO);
+  o.lugar(0, 0); o.actualizar(jd, JD_UTC_INICIO);
+  const io = o.cuerpos().find((x) => x.id === "501"); const grados = io.tam * 180 / Math.PI;
+  afirmar(grados > 0.25 && grados < 0.6, `Ío visto desde las nubes de Júpiter: ${grados.toFixed(2)}° (esperado ≈ 0,3–0,5°)`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);
