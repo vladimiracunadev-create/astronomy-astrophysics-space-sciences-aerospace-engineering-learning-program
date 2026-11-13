@@ -6,6 +6,7 @@ export const SIMULADORES = [
   { clave: "jupiter", href: "jupiter.html", titulo: "Júpiter y sus lunas", resumen: "Las lunas jovianas con efemérides (Io, Europa, Ganimedes, Calisto y el resto), anillos y eclipses por el planeta." },
   { clave: "saturno", href: "saturno.html", titulo: "Saturno y sus lunas", resumen: "Titán, Encélado y las demás lunas, más los anillos a escala." },
   { clave: "urano", href: "urano.html", titulo: "Urano y sus lunas", resumen: "Un sistema tumbado: ejes casi en el plano orbital, lunas mayores y menores, y anillos." },
+  { clave: "neptuno", href: "neptuno.html", titulo: "Neptuno y sus lunas", resumen: "Tritón retrógrada, Nereida excéntrica y las lunas internas." },
 ];
 
 export function barraNavegacion(actual) {

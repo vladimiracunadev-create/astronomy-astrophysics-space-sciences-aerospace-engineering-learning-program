@@ -492,3 +492,26 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 | 726 | Mab | — | 188 min | 7.1 | i16 | 14,359 | 6,891 |  |
 | 727 | Cupid | — | 124 min | 7.1 | i16 | 12,314 | 5,973 |  |
 | 75051 | 2023U1 | — | 16,45 d | 41.3 | f32 | 66,065 | 39,231 |  |
+
+## Neptuno
+
+16 cuerpos · peor error máximo: Psamathe (149,30 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@899`.
+
+| ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
+|---:|---|---:|---:|---:|---|---:|---:|---|
+| 801 | Triton | 1 352,6 | 727 min | 11.6 | f32 | 0,202 | 0,126 |  |
+| 802 | Nereid | 170,0 | 1,249 d | 289.0 | f32 | 0,777 | 0,261 |  |
+| 803 | Naiad | 29,0 | 60 min | 7.1 | i16 | 3,320 | 2,067 |  |
+| 804 | Thalassa | 40,0 | 64 min | 7.0 | i16 | 3,726 | 2,358 |  |
+| 805 | Despina | 74,0 | 68 min | 7.1 | i16 | 3,904 | 2,081 |  |
+| 806 | Galatea | 79,0 | 88 min | 7.0 | i16 | 4,560 | 2,896 |  |
+| 807 | Larissa | 96,0 | 114 min | 7.0 | i16 | 6,559 | 3,711 |  |
+| 808 | Proteus | 208,0 | 138 min | 11.7 | f32 | 0,064 | 0,037 |  |
+| 809 | Halimede | — | 30 d | 62.9 | f32 | 148,474 | 98,618 |  |
+| 810 | Psamathe | — | 30 d | 317.1 | f32 | 149,298 | 104,325 |  |
+| 811 | Sao | — | 30 d | 97.2 | f32 | 148,367 | 104,218 |  |
+| 812 | Laomedeia | — | 30 d | 106.8 | f32 | 148,199 | 102,393 |  |
+| 813 | Neso | — | 30 d | 322.3 | f32 | 148,602 | 103,051 |  |
+| 814 | Hippocamp | — | 195 min | 7.0 | i16 | 9,184 | 5,003 |  |
+| 85051 | S2002_N5 | — | 28,35 d | 111.6 | f32 | 148,143 | 109,566 |  |
+| 85052 | S2021_N1 | — | 30 d | 343.3 | f32 | 148,351 | 100,874 |  |
