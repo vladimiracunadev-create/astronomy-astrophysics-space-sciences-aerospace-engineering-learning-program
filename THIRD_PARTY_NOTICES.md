@@ -21,6 +21,16 @@ Las acciones se invocan por versión y no se copian en el repositorio. Cada depe
 
 NASA, ESA, ESO, ALMA, IAU, JPL, NIST, USGS, ITU, OECD, OpenStax y los demás organismos, autores, productos y estándares mencionados conservan sus derechos, licencias y marcas. Una cita no implica patrocinio, conformidad, certificación ni permiso para redistribuir la obra.
 
+## Datos de los simuladores
+
+| Componente | Uso | Condiciones |
+|---|---|---|
+| NASA/JPL Horizons (API v1.2; efemérides DE441 y de satélites) | posiciones de planetas y lunas 2027–2050 en `simuladores/datos/` | Servicio y datos del JPL/NASA; se citan fuente y versión; no implica patrocinio |
+| NASA GSFC, Five Millennium Catalog of Solar/Lunar Eclipses (Espenak y Meeus) | referencia de validación del cálculo de eclipses | Datos de la NASA; sólo se usan como contraste |
+| Natural Earth 1:110m («land») vía `world-atlas` 2.0.2 | máscara tierra/mar de la Tierra renderizada | Dominio público |
+| Node.js (22) | ejecución de las pruebas del motor en CI | [MIT y licencias de componentes](https://github.com/nodejs/node/blob/main/LICENSE) |
+| `actions/setup-node` | preparación de Node.js en CI | [MIT](https://github.com/actions/setup-node/blob/main/LICENSE) |
+
 ## Obligación al contribuir
 
 Antes de añadir texto extenso, imagen, dataset, software, norma o activo de terceros, documenta titular, URL, versión, licencia o permiso, alcance de reutilización y cambios. Si la licencia no está clara, enlaza en vez de copiar.

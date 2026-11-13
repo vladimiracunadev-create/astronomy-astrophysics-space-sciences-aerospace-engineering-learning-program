@@ -1,0 +1,932 @@
+{
+"fuente": "NASA GSFC, Five Millennium Catalog of Solar/Lunar Eclipses (Espenak y Meeus), SE2001-2100 y LE2001-2100; hora del máximo en TD",
+"eclipses": [
+{
+"tipo": "solar",
+"fecha": "2027-02-06",
+"td": "16:00:48",
+"clase": "A",
+"gamma": -0.2952,
+"mag": 0.9281
+},
+{
+"tipo": "solar",
+"fecha": "2027-08-02",
+"td": "10:07:50",
+"clase": "T",
+"gamma": 0.1421,
+"mag": 1.079
+},
+{
+"tipo": "solar",
+"fecha": "2028-01-26",
+"td": "15:08:59",
+"clase": "A",
+"gamma": 0.3901,
+"mag": 0.9208
+},
+{
+"tipo": "solar",
+"fecha": "2028-07-22",
+"td": "02:56:40",
+"clase": "T",
+"gamma": -0.6056,
+"mag": 1.056
+},
+{
+"tipo": "solar",
+"fecha": "2029-01-14",
+"td": "17:13:48",
+"clase": "P",
+"gamma": 1.0553,
+"mag": 0.8714
+},
+{
+"tipo": "solar",
+"fecha": "2029-06-12",
+"td": "04:06:13",
+"clase": "P",
+"gamma": 1.2943,
+"mag": 0.4576
+},
+{
+"tipo": "solar",
+"fecha": "2029-07-11",
+"td": "15:37:19",
+"clase": "P",
+"gamma": -1.4191,
+"mag": 0.2303
+},
+{
+"tipo": "solar",
+"fecha": "2029-12-05",
+"td": "15:03:58",
+"clase": "P",
+"gamma": -1.0609,
+"mag": 0.8911
+},
+{
+"tipo": "solar",
+"fecha": "2030-06-01",
+"td": "06:29:13",
+"clase": "A",
+"gamma": 0.5626,
+"mag": 0.9443
+},
+{
+"tipo": "solar",
+"fecha": "2030-11-25",
+"td": "06:51:37",
+"clase": "T",
+"gamma": -0.3867,
+"mag": 1.0468
+},
+{
+"tipo": "solar",
+"fecha": "2031-05-21",
+"td": "07:16:04",
+"clase": "A",
+"gamma": -0.197,
+"mag": 0.9589
+},
+{
+"tipo": "solar",
+"fecha": "2031-11-14",
+"td": "21:07:31",
+"clase": "H",
+"gamma": 0.3078,
+"mag": 1.0106
+},
+{
+"tipo": "solar",
+"fecha": "2032-05-09",
+"td": "13:26:42",
+"clase": "A",
+"gamma": -0.9375,
+"mag": 0.9957
+},
+{
+"tipo": "solar",
+"fecha": "2032-11-03",
+"td": "05:34:13",
+"clase": "P",
+"gamma": 1.0643,
+"mag": 0.8554
+},
+{
+"tipo": "solar",
+"fecha": "2033-03-30",
+"td": "18:02:36",
+"clase": "T",
+"gamma": 0.9778,
+"mag": 1.0462
+},
+{
+"tipo": "solar",
+"fecha": "2033-09-23",
+"td": "13:54:31",
+"clase": "P",
+"gamma": -1.1583,
+"mag": 0.689
+},
+{
+"tipo": "solar",
+"fecha": "2034-03-20",
+"td": "10:18:45",
+"clase": "T",
+"gamma": 0.2894,
+"mag": 1.0458
+},
+{
+"tipo": "solar",
+"fecha": "2034-09-12",
+"td": "16:19:28",
+"clase": "A",
+"gamma": -0.3936,
+"mag": 0.9736
+},
+{
+"tipo": "solar",
+"fecha": "2035-03-09",
+"td": "23:05:54",
+"clase": "A",
+"gamma": -0.4368,
+"mag": 0.9919
+},
+{
+"tipo": "solar",
+"fecha": "2035-09-02",
+"td": "01:56:46",
+"clase": "T",
+"gamma": 0.3727,
+"mag": 1.032
+},
+{
+"tipo": "solar",
+"fecha": "2036-02-27",
+"td": "04:46:49",
+"clase": "P",
+"gamma": -1.1942,
+"mag": 0.6286
+},
+{
+"tipo": "solar",
+"fecha": "2036-07-23",
+"td": "10:32:06",
+"clase": "P",
+"gamma": -1.425,
+"mag": 0.1991
+},
+{
+"tipo": "solar",
+"fecha": "2036-08-21",
+"td": "17:25:45",
+"clase": "P",
+"gamma": 1.0825,
+"mag": 0.8622
+},
+{
+"tipo": "solar",
+"fecha": "2037-01-16",
+"td": "09:48:55",
+"clase": "P",
+"gamma": 1.1477,
+"mag": 0.7049
+},
+{
+"tipo": "solar",
+"fecha": "2037-07-13",
+"td": "02:40:36",
+"clase": "T",
+"gamma": -0.7246,
+"mag": 1.0413
+},
+{
+"tipo": "solar",
+"fecha": "2038-01-05",
+"td": "13:47:11",
+"clase": "A",
+"gamma": 0.4169,
+"mag": 0.9728
+},
+{
+"tipo": "solar",
+"fecha": "2038-07-02",
+"td": "13:32:55",
+"clase": "A",
+"gamma": 0.0398,
+"mag": 0.9911
+},
+{
+"tipo": "solar",
+"fecha": "2038-12-26",
+"td": "01:00:10",
+"clase": "T",
+"gamma": -0.2881,
+"mag": 1.0268
+},
+{
+"tipo": "solar",
+"fecha": "2039-06-21",
+"td": "17:12:54",
+"clase": "A",
+"gamma": 0.8312,
+"mag": 0.9454
+},
+{
+"tipo": "solar",
+"fecha": "2039-12-15",
+"td": "16:23:46",
+"clase": "T",
+"gamma": -0.9458,
+"mag": 1.0356
+},
+{
+"tipo": "solar",
+"fecha": "2040-05-11",
+"td": "03:43:02",
+"clase": "P",
+"gamma": -1.2529,
+"mag": 0.5306
+},
+{
+"tipo": "solar",
+"fecha": "2040-11-04",
+"td": "19:09:02",
+"clase": "P",
+"gamma": 1.0993,
+"mag": 0.8074
+},
+{
+"tipo": "solar",
+"fecha": "2041-04-30",
+"td": "11:52:21",
+"clase": "T",
+"gamma": -0.4492,
+"mag": 1.0189
+},
+{
+"tipo": "solar",
+"fecha": "2041-10-25",
+"td": "01:36:22",
+"clase": "A",
+"gamma": 0.4133,
+"mag": 0.9467
+},
+{
+"tipo": "solar",
+"fecha": "2042-04-20",
+"td": "02:17:30",
+"clase": "T",
+"gamma": 0.2956,
+"mag": 1.0614
+},
+{
+"tipo": "solar",
+"fecha": "2042-10-14",
+"td": "02:00:42",
+"clase": "A",
+"gamma": -0.303,
+"mag": 0.93
+},
+{
+"tipo": "solar",
+"fecha": "2043-04-09",
+"td": "18:57:49",
+"clase": "T+",
+"gamma": 1.0031,
+"mag": 1.0095
+},
+{
+"tipo": "solar",
+"fecha": "2043-10-03",
+"td": "03:01:49",
+"clase": "A-",
+"gamma": -1.0102,
+"mag": 0.9497
+},
+{
+"tipo": "solar",
+"fecha": "2044-02-28",
+"td": "20:24:39",
+"clase": "As",
+"gamma": -0.9954,
+"mag": 0.96
+},
+{
+"tipo": "solar",
+"fecha": "2044-08-23",
+"td": "01:17:02",
+"clase": "T",
+"gamma": 0.9613,
+"mag": 1.0364
+},
+{
+"tipo": "solar",
+"fecha": "2045-02-16",
+"td": "23:56:07",
+"clase": "A",
+"gamma": -0.3125,
+"mag": 0.9285
+},
+{
+"tipo": "solar",
+"fecha": "2045-08-12",
+"td": "17:42:39",
+"clase": "T",
+"gamma": 0.2116,
+"mag": 1.0774
+},
+{
+"tipo": "solar",
+"fecha": "2046-02-05",
+"td": "23:06:26",
+"clase": "A",
+"gamma": 0.3765,
+"mag": 0.9232
+},
+{
+"tipo": "solar",
+"fecha": "2046-08-02",
+"td": "10:21:13",
+"clase": "T",
+"gamma": -0.535,
+"mag": 1.0531
+},
+{
+"tipo": "solar",
+"fecha": "2047-01-26",
+"td": "01:33:18",
+"clase": "P",
+"gamma": 1.045,
+"mag": 0.8907
+},
+{
+"tipo": "solar",
+"fecha": "2047-06-23",
+"td": "10:52:31",
+"clase": "P",
+"gamma": 1.3766,
+"mag": 0.3129
+},
+{
+"tipo": "solar",
+"fecha": "2047-07-22",
+"td": "22:36:17",
+"clase": "P",
+"gamma": -1.3477,
+"mag": 0.3604
+},
+{
+"tipo": "solar",
+"fecha": "2047-12-16",
+"td": "23:50:12",
+"clase": "P",
+"gamma": -1.0661,
+"mag": 0.8816
+},
+{
+"tipo": "solar",
+"fecha": "2048-06-11",
+"td": "12:58:53",
+"clase": "A",
+"gamma": 0.6468,
+"mag": 0.9441
+},
+{
+"tipo": "solar",
+"fecha": "2048-12-05",
+"td": "15:35:27",
+"clase": "T",
+"gamma": -0.3973,
+"mag": 1.044
+},
+{
+"tipo": "solar",
+"fecha": "2049-05-31",
+"td": "13:59:59",
+"clase": "A",
+"gamma": -0.1187,
+"mag": 0.9631
+},
+{
+"tipo": "solar",
+"fecha": "2049-11-25",
+"td": "05:33:48",
+"clase": "H",
+"gamma": 0.2943,
+"mag": 1.0057
+},
+{
+"tipo": "solar",
+"fecha": "2050-05-20",
+"td": "20:42:50",
+"clase": "H",
+"gamma": -0.8688,
+"mag": 1.0038
+},
+{
+"tipo": "solar",
+"fecha": "2050-11-14",
+"td": "13:30:53",
+"clase": "P",
+"gamma": 1.0447,
+"mag": 0.8874
+},
+{
+"tipo": "lunar",
+"fecha": "2027-02-20",
+"td": "23:14:06",
+"clase": "N",
+"gamma": -1.048,
+"mag_pen": 0.9266,
+"mag_umbral": -0.0569
+},
+{
+"tipo": "lunar",
+"fecha": "2027-07-18",
+"td": "16:04:09",
+"clase": "Ne",
+"gamma": -1.5758,
+"mag_pen": 0.0014,
+"mag_umbral": -1.068
+},
+{
+"tipo": "lunar",
+"fecha": "2027-08-17",
+"td": "07:14:59",
+"clase": "N",
+"gamma": 1.2797,
+"mag_pen": 0.5456,
+"mag_umbral": -0.5254
+},
+{
+"tipo": "lunar",
+"fecha": "2028-01-12",
+"td": "04:14:13",
+"clase": "P",
+"gamma": 0.9817,
+"mag_pen": 1.0468,
+"mag_umbral": 0.0662
+},
+{
+"tipo": "lunar",
+"fecha": "2028-07-06",
+"td": "18:20:57",
+"clase": "P",
+"gamma": -0.7903,
+"mag_pen": 1.4266,
+"mag_umbral": 0.3892
+},
+{
+"tipo": "lunar",
+"fecha": "2028-12-31",
+"td": "16:53:15",
+"clase": "T",
+"gamma": 0.3258,
+"mag_pen": 2.2742,
+"mag_umbral": 1.2463
+},
+{
+"tipo": "lunar",
+"fecha": "2029-06-26",
+"td": "03:23:22",
+"clase": "T+",
+"gamma": 0.0124,
+"mag_pen": 2.8266,
+"mag_umbral": 1.8436
+},
+{
+"tipo": "lunar",
+"fecha": "2029-12-20",
+"td": "22:43:12",
+"clase": "T",
+"gamma": -0.3811,
+"mag_pen": 2.2008,
+"mag_umbral": 1.1174
+},
+{
+"tipo": "lunar",
+"fecha": "2030-06-15",
+"td": "18:34:34",
+"clase": "P",
+"gamma": 0.7534,
+"mag_pen": 1.448,
+"mag_umbral": 0.5025
+},
+{
+"tipo": "lunar",
+"fecha": "2030-12-09",
+"td": "22:28:51",
+"clase": "N",
+"gamma": -1.0731,
+"mag_pen": 0.9416,
+"mag_umbral": -0.1628
+},
+{
+"tipo": "lunar",
+"fecha": "2031-05-07",
+"td": "03:52:02",
+"clase": "N",
+"gamma": -1.0694,
+"mag_pen": 0.8814,
+"mag_umbral": -0.0904
+},
+{
+"tipo": "lunar",
+"fecha": "2031-06-05",
+"td": "11:45:17",
+"clase": "N",
+"gamma": 1.4731,
+"mag_pen": 0.1292,
+"mag_umbral": -0.8199
+},
+{
+"tipo": "lunar",
+"fecha": "2031-10-30",
+"td": "07:46:45",
+"clase": "N",
+"gamma": 1.1773,
+"mag_pen": 0.7161,
+"mag_umbral": -0.3204
+},
+{
+"tipo": "lunar",
+"fecha": "2032-04-25",
+"td": "15:14:51",
+"clase": "T",
+"gamma": -0.3558,
+"mag_pen": 2.2192,
+"mag_umbral": 1.1913
+},
+{
+"tipo": "lunar",
+"fecha": "2032-10-18",
+"td": "19:03:40",
+"clase": "T",
+"gamma": 0.4169,
+"mag_pen": 2.083,
+"mag_umbral": 1.1028
+},
+{
+"tipo": "lunar",
+"fecha": "2033-04-14",
+"td": "19:13:51",
+"clase": "T",
+"gamma": 0.3954,
+"mag_pen": 2.1711,
+"mag_umbral": 1.0944
+},
+{
+"tipo": "lunar",
+"fecha": "2033-10-08",
+"td": "10:56:23",
+"clase": "T",
+"gamma": -0.2889,
+"mag_pen": 2.3057,
+"mag_umbral": 1.3497
+},
+{
+"tipo": "lunar",
+"fecha": "2034-04-03",
+"td": "19:06:59",
+"clase": "N",
+"gamma": 1.1144,
+"mag_pen": 0.8545,
+"mag_umbral": -0.2274
+},
+{
+"tipo": "lunar",
+"fecha": "2034-09-28",
+"td": "02:47:37",
+"clase": "P",
+"gamma": -1.011,
+"mag_pen": 0.9911,
+"mag_umbral": 0.0144
+},
+{
+"tipo": "lunar",
+"fecha": "2035-02-22",
+"td": "09:06:12",
+"clase": "N",
+"gamma": -1.0367,
+"mag_pen": 0.9652,
+"mag_umbral": -0.0535
+},
+{
+"tipo": "lunar",
+"fecha": "2035-08-19",
+"td": "01:12:15",
+"clase": "P",
+"gamma": 0.9433,
+"mag_pen": 1.1507,
+"mag_umbral": 0.1037
+},
+{
+"tipo": "lunar",
+"fecha": "2036-02-11",
+"td": "22:13:06",
+"clase": "T",
+"gamma": -0.311,
+"mag_pen": 2.2751,
+"mag_umbral": 1.2995
+},
+{
+"tipo": "lunar",
+"fecha": "2036-08-07",
+"td": "02:52:32",
+"clase": "T+",
+"gamma": 0.2004,
+"mag_pen": 2.5266,
+"mag_umbral": 1.4544
+},
+{
+"tipo": "lunar",
+"fecha": "2037-01-31",
+"td": "14:01:38",
+"clase": "T",
+"gamma": 0.3619,
+"mag_pen": 2.1803,
+"mag_umbral": 1.2074
+},
+{
+"tipo": "lunar",
+"fecha": "2037-07-27",
+"td": "04:09:53",
+"clase": "P",
+"gamma": -0.5582,
+"mag_pen": 1.8584,
+"mag_umbral": 0.8095
+},
+{
+"tipo": "lunar",
+"fecha": "2038-01-21",
+"td": "03:49:52",
+"clase": "N",
+"gamma": 1.071,
+"mag_pen": 0.8996,
+"mag_umbral": -0.114
+},
+{
+"tipo": "lunar",
+"fecha": "2038-06-17",
+"td": "02:45:02",
+"clase": "N",
+"gamma": 1.3082,
+"mag_pen": 0.4422,
+"mag_umbral": -0.5275
+},
+{
+"tipo": "lunar",
+"fecha": "2038-07-16",
+"td": "11:35:56",
+"clase": "N",
+"gamma": -1.2837,
+"mag_pen": 0.4999,
+"mag_umbral": -0.4952
+},
+{
+"tipo": "lunar",
+"fecha": "2038-12-11",
+"td": "17:45:00",
+"clase": "N",
+"gamma": -1.1448,
+"mag_pen": 0.8046,
+"mag_umbral": -0.2892
+},
+{
+"tipo": "lunar",
+"fecha": "2039-06-06",
+"td": "18:54:25",
+"clase": "P",
+"gamma": 0.546,
+"mag_pen": 1.8272,
+"mag_umbral": 0.8846
+},
+{
+"tipo": "lunar",
+"fecha": "2039-11-30",
+"td": "16:56:28",
+"clase": "P",
+"gamma": -0.4721,
+"mag_pen": 2.0418,
+"mag_umbral": 0.9426
+},
+{
+"tipo": "lunar",
+"fecha": "2040-05-26",
+"td": "11:46:22",
+"clase": "T-",
+"gamma": -0.1872,
+"mag_pen": 2.4938,
+"mag_umbral": 1.5348
+},
+{
+"tipo": "lunar",
+"fecha": "2040-11-18",
+"td": "19:04:40",
+"clase": "T+",
+"gamma": 0.2361,
+"mag_pen": 2.4525,
+"mag_umbral": 1.3974
+},
+{
+"tipo": "lunar",
+"fecha": "2041-05-16",
+"td": "00:43:03",
+"clase": "P",
+"gamma": -0.9746,
+"mag_pen": 1.0747,
+"mag_umbral": 0.0645
+},
+{
+"tipo": "lunar",
+"fecha": "2041-11-08",
+"td": "04:35:05",
+"clase": "P",
+"gamma": 0.9212,
+"mag_pen": 1.1656,
+"mag_umbral": 0.1696
+},
+{
+"tipo": "lunar",
+"fecha": "2042-04-05",
+"td": "14:30:11",
+"clase": "N",
+"gamma": 1.108,
+"mag_pen": 0.868,
+"mag_umbral": -0.2176
+},
+{
+"tipo": "lunar",
+"fecha": "2042-09-29",
+"td": "10:45:47",
+"clase": "N",
+"gamma": -1.0261,
+"mag_pen": 0.9528,
+"mag_umbral": -0.0031
+},
+{
+"tipo": "lunar",
+"fecha": "2043-03-25",
+"td": "14:32:04",
+"clase": "T",
+"gamma": 0.3849,
+"mag_pen": 2.19,
+"mag_umbral": 1.1142
+},
+{
+"tipo": "lunar",
+"fecha": "2043-09-19",
+"td": "01:51:50",
+"clase": "T",
+"gamma": -0.3316,
+"mag_pen": 2.2433,
+"mag_umbral": 1.2556
+},
+{
+"tipo": "lunar",
+"fecha": "2044-03-13",
+"td": "19:38:33",
+"clase": "T",
+"gamma": -0.3496,
+"mag_pen": 2.2303,
+"mag_umbral": 1.2031
+},
+{
+"tipo": "lunar",
+"fecha": "2044-09-07",
+"td": "11:20:44",
+"clase": "T",
+"gamma": 0.4318,
+"mag_pen": 2.086,
+"mag_umbral": 1.0456
+},
+{
+"tipo": "lunar",
+"fecha": "2045-03-03",
+"td": "07:43:26",
+"clase": "N",
+"gamma": -1.0274,
+"mag_pen": 0.9623,
+"mag_umbral": -0.0168
+},
+{
+"tipo": "lunar",
+"fecha": "2045-08-27",
+"td": "13:54:50",
+"clase": "N",
+"gamma": 1.206,
+"mag_pen": 0.6825,
+"mag_umbral": -0.3919
+},
+{
+"tipo": "lunar",
+"fecha": "2046-01-22",
+"td": "13:02:37",
+"clase": "P",
+"gamma": 0.9885,
+"mag_pen": 1.0347,
+"mag_umbral": 0.0532
+},
+{
+"tipo": "lunar",
+"fecha": "2046-07-18",
+"td": "01:06:05",
+"clase": "P",
+"gamma": -0.8691,
+"mag_pen": 1.2807,
+"mag_umbral": 0.2461
+},
+{
+"tipo": "lunar",
+"fecha": "2047-01-12",
+"td": "01:26:14",
+"clase": "T",
+"gamma": 0.3317,
+"mag_pen": 2.2649,
+"mag_umbral": 1.2341
+},
+{
+"tipo": "lunar",
+"fecha": "2047-07-07",
+"td": "10:35:45",
+"clase": "T-",
+"gamma": -0.0636,
+"mag_pen": 2.731,
+"mag_umbral": 1.7513
+},
+{
+"tipo": "lunar",
+"fecha": "2048-01-01",
+"td": "06:53:55",
+"clase": "T",
+"gamma": -0.3745,
+"mag_pen": 2.2141,
+"mag_umbral": 1.128
+},
+{
+"tipo": "lunar",
+"fecha": "2048-06-26",
+"td": "02:02:28",
+"clase": "P",
+"gamma": 0.6796,
+"mag_pen": 1.5825,
+"mag_umbral": 0.6388
+},
+{
+"tipo": "lunar",
+"fecha": "2048-12-20",
+"td": "06:27:48",
+"clase": "N",
+"gamma": -1.0624,
+"mag_pen": 0.9617,
+"mag_umbral": -0.1436
+},
+{
+"tipo": "lunar",
+"fecha": "2049-05-17",
+"td": "11:26:39",
+"clase": "N",
+"gamma": -1.1337,
+"mag_pen": 0.7638,
+"mag_umbral": -0.2085
+},
+{
+"tipo": "lunar",
+"fecha": "2049-06-15",
+"td": "19:14:12",
+"clase": "N",
+"gamma": 1.4068,
+"mag_pen": 0.2511,
+"mag_umbral": -0.6985
+},
+{
+"tipo": "lunar",
+"fecha": "2049-11-09",
+"td": "15:52:11",
+"clase": "N",
+"gamma": 1.1964,
+"mag_pen": 0.6808,
+"mag_umbral": -0.3553
+},
+{
+"tipo": "lunar",
+"fecha": "2050-05-06",
+"td": "22:32:02",
+"clase": "T",
+"gamma": -0.4181,
+"mag_pen": 2.1052,
+"mag_umbral": 1.0767
+},
+{
+"tipo": "lunar",
+"fecha": "2050-10-30",
+"td": "03:21:47",
+"clase": "T",
+"gamma": 0.4435,
+"mag_pen": 2.0345,
+"mag_umbral": 1.0538
+}
+]
+}

@@ -9,3 +9,5 @@ venv/
 dist/
 build/
 *.log
+# caché de descargas de JPL Horizons (regenerable)
+herramientas/efemerides/_cache/

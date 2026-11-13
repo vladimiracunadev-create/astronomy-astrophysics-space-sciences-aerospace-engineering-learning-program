@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simuladores del Sistema Solar 2027–2050</title>
+<meta name="description" content="Simuladores interactivos del Sistema Solar, Tierra–Sol–Luna y los sistemas de Marte, Júpiter, Saturno, Urano y Neptuno con efemérides oficiales de NASA/JPL Horizons entre 2027 y 2050.">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<header class="cabecera"><h1>Simuladores 2027–2050</h1><nav id="nav" aria-label="Simuladores"></nav></header>
+<main id="contenido" class="contenido">
+  <h2>Simuladores del Sistema Solar con datos oficiales</h2>
+  <p>Cada simulador dibuja, en tu navegador y sin servidores, posiciones <strong>oficiales</strong> de NASA/JPL Horizons entre el 1 de enero de 2027 y el 31 de diciembre de 2050,
+  con tamaños y distancias reales. Todo el código y todos los datos están en este repositorio.</p>
+  <div class="tarjetas" id="tarjetas"></div>
+  <p><a href="documentacion/README.html">Documentación de los simuladores</a> (método, fuentes, precisión y cómo regenerar los datos).</p>
+</main>
+<script type="module">
+import { SIMULADORES, barraNavegacion } from "./motor/navegacion.js";
+document.getElementById("nav").replaceWith(barraNavegacion(""));
+document.getElementById("tarjetas").innerHTML = SIMULADORES.map((s) =>
+  `<a class="tarjeta" href="${s.href}"><img src="img/${s.clave}.svg" alt="Esquema a escala de ${s.titulo}" width="480" height="270" loading="lazy"><h3>${s.titulo}</h3><p>${s.resumen}</p></a>`).join("");
+document.querySelectorAll(".tarjeta img").forEach((i) => i.addEventListener("error", () => i.remove()));
+</script>
+</body>
+</html>

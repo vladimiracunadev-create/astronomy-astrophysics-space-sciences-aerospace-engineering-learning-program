@@ -255,7 +255,8 @@ def pagina_inicio(d: dict) -> str:
   <div class="grid"><a class="card" href="glosario/esencial/README.html"><h3>🔤 Glosario esencial</h3><p>Conceptos clave con intuición, fórmula, ejemplo y errores frecuentes.</p></a>
   <a class="card" href="glosario/README.html"><h3>🔤 Glosario completo</h3><p>{s['terminos']} términos, {s['siglas']} siglas y {s['simbolos']} símbolos, con enlaces a sus clases.</p></a>
   <a class="card" href="PROGRAMA_ACADEMICO_COMPLETO.html"><h3>🗺️ Programa completo</h3><p>Índice unificado de todas las clases.</p></a>
-  <a class="card" href="visor/index.html"><h3>🌐 Visor del catálogo</h3><p>Explorador del catálogo estructurado.</p></a></div>
+  <a class="card" href="visor/index.html"><h3>🌐 Visor del catálogo</h3><p>Explorador del catálogo estructurado.</p></a>
+  <a class="card" href="simuladores/index.html"><h3>🪐 Simuladores 2027–2050</h3><p>Sistema Solar, Tierra–Sol–Luna y los sistemas de los planetas con efemérides oficiales de JPL.</p></a></div>
   <div id="anexos"></div></section>
 <footer>Código: Apache-2.0 · Contenido: CC BY-NC-SA 4.0 · Sin rastreo: el progreso permanece en tu navegador. ·
 <a href="{URL_REPO}" rel="noopener">GitHub</a> · <a href="README.html">Acerca del programa</a></footer>
@@ -312,4 +313,7 @@ def escribir(web: Path):
     import shutil
     (web / "visor").mkdir(exist_ok=True)
     shutil.copy2(ROOT / "visor" / "index.html", web / "visor" / "index.html")
+    # simuladores interactivos (JavaScript + efemerides de JPL); la documentación en Markdown se publica como HTML aparte
+    shutil.copytree(ROOT / "simuladores", web / "simuladores", dirs_exist_ok=True,
+                    ignore=shutil.ignore_patterns("*.md", "pruebas", "__pycache__", "package.json"))
     return d

@@ -42,3 +42,11 @@ jobs:
 
       - name: Validar talleres de misión
         run: python herramientas/validar_talleres.py
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validar simuladores (datos de JPL, motor JavaScript, páginas y documentación)
+        run: python herramientas/validar_simuladores.py

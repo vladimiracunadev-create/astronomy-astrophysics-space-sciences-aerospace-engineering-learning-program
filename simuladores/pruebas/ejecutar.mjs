@@ -1,0 +1,113 @@
+// SPDX-License-Identifier: Apache-2.0
+// Pruebas del motor de simuladores (sin red, sin navegador): node simuladores/pruebas/ejecutar.mjs
+import { readFileSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+import { sistemaDesdeBytes } from "../motor/efemerides.js";
+import { crearGeometria } from "../motor/eclipses.js";
+import { jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
+import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM } from "../motor/cuerpos.js";
+
+const aqui = dirname(fileURLToPath(import.meta.url));
+const datos = join(aqui, "..", "datos");
+let fallos = 0, ok = 0;
+const afirmar = (cond, msg) => { if (cond) ok++; else { fallos++; console.log("FALLO:", msg); } };
+const cerca = (a, b, tol, msg) => afirmar(Math.abs(a - b) <= tol, `${msg}: ${a} vs ${b} (tol ${tol})`);
+
+function cargar(nombre) {
+  const meta = JSON.parse(readFileSync(join(datos, `${nombre}.json`), "utf8"));
+  return sistemaDesdeBytes(meta, readFileSync(join(datos, `${nombre}.bin`)));
+}
+const sistemas = {};
+for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
+const verif = JSON.parse(readFileSync(join(datos, "verificacion.json"), "utf8"));
+
+// 1. Interpolación: reproduce el error medido contra JPL en épocas que no son nodos de la tabla
+for (const [clave, v] of Object.entries(verif)) {
+  const [sis, id] = clave.split("/");
+  if (!sistemas[sis]) continue;
+  const t = sistemas[sis].cuerpo(id);
+  let peor = 0;
+  for (const [jd, x, y, z] of v.epocas) {
+    const p = t.pos(jd);
+    peor = Math.max(peor, Math.hypot(p[0] - x, p[1] - y, p[2] - z));
+  }
+  afirmar(peor <= v.error_max_km * 1.001 + 0.01, `${clave} (${v.nombre}): error ${peor} km > ${v.error_max_km}`);
+}
+console.log(`interpolación: ${Object.keys(verif).length} cuerpos comprobados`);
+
+// 2. Tolerancias de calidad por cuerpo (relativas al radio orbital)
+for (const [n, s] of Object.entries(sistemas)) {
+  for (const c of s.meta.cuerpos) {
+    const a = c.a_km || (n === "sol" ? 1.5e8 : 1e6);
+    const lim = n === "sol" ? 300 : Math.max(5, 6e-4 * a);
+    afirmar(c.error_max_km <= lim, `${n}/${c.nombre}: error máx ${c.error_max_km} km > ${lim}`);
+  }
+}
+
+// 3. Tiempo
+cerca(JD_UTC_INICIO, 2461406.5, 1e-9, "JD 2027-01-01");
+afirmar(formatoUtc(jdUtcDesdeMs(Date.UTC(2040, 5, 15, 12, 30, 5))) === "2040-06-15 12:30:05 UTC", "formato UTC");
+cerca(jdUtcDesdeInput(valorInputUtc(2461500.25)), 2461500.25, 1e-6, "ida y vuelta input fecha");
+cerca(jdTdbDesdeUtc(2461406.5) - 2461406.5, 69.184 / 86400, 1e-9, "TDB-UTC");
+
+// 4. Sistema Solar: distancias reales
+if (sistemas.sol) {
+  const sol = sistemas.sol;
+  const jd = jdTdbDesdeUtc(JD_UTC_INICIO);
+  const d = (id) => Math.hypot(...sol.pos(id, jd)) / UA_KM;
+  console.log("distancias al Sol 2027-01-01 (UA):", ["199", "299", "399", "499", "599", "699", "799", "899", "9"].map((i) => d(i).toFixed(3)).join(" "));
+  cerca(d("399"), 0.9833, 0.0015, "Tierra cerca del perihelio a inicios de enero"); // ~0,9833 UA
+  cerca(d("599"), 5.0, 0.6, "Júpiter ~5 UA"); cerca(d("899"), 30.0, 0.5, "Neptuno ~30 UA");
+  // elementos osculadores de la Tierra
+  const tE = sol.cuerpo("399"); const el = elementos(tE.pos(jd), tE.vel(jd), 132712440041.94 + 398600.435 + 4902.8);
+  cerca(el.a / UA_KM, 1.0, 0.003, "a de la Tierra"); cerca(el.e, 0.0167, 0.0015, "e de la Tierra"); cerca(el.i, 0.0, 0.01, "i de la Tierra (eclíptica J2000)");
+  // continuidad: sin saltos en 24 años
+  for (const c of sol.meta.cuerpos) {
+    const t = sol.cuerpo(c.id); let prev = t.pos(jd), maxSalto = 0;
+    for (let k = 1; k <= 400; k++) { const p = t.pos(jd + k * 21.9); maxSalto = Math.max(maxSalto, Math.hypot(p[0] - prev[0], p[1] - prev[1], p[2] - prev[2])); prev = p; }
+    const v = Math.hypot(...t.vel(jd)) * 86400 * 21.9 * 4;
+    afirmar(maxSalto < v, `${c.nombre}: salto inesperado`);
+  }
+}
+
+// 5. Orientación: polo de la Tierra y de Marte en la eclíptica
+{
+  const polo = poloEclipticoJ2000(orientacion(PLANETAS["399"].polo, 2451545.0));
+  cerca(polo[2], Math.cos(23.4392911 * Math.PI / 180), 1e-9, "polo terrestre J2000 vs oblicuidad");
+  const b = baseDelCuerpo(PLANETAS["499"].polo, 2461406.5);
+  cerca(b.x[0] * b.y[0] + b.x[1] * b.y[1] + b.x[2] * b.y[2], 0, 1e-9, "base ortogonal");
+}
+
+// 6. Eclipses (Sol/Luna) contra el catálogo de la NASA
+if (sistemas.sol && sistemas.tierra) {
+  const geo = crearGeometria(sistemas.sol, sistemas.tierra);
+  const lista = geo.buscar(jdTdbDesdeUtc(JD_UTC_INICIO), jdTdbDesdeUtc(JD_UTC_FIN));
+  const f = (e) => `${formatoUtc(e.jdUtc, false)} ${e.tipo} ${e.clase}`;
+  console.log(`eclipses 2027–2050 encontrados: ${lista.filter((e) => e.tipo === "solar").length} solares, ${lista.filter((e) => e.tipo === "lunar").length} lunares`);
+  // Catálogo de la NASA (Espenak y Meeus), 2027–2050: debe coincidir uno a uno (mismo número, clase, hora del máximo y γ)
+  const ref = JSON.parse(readFileSync(join(aqui, "referencia_nasa_eclipses.json"), "utf8")).eclipses;
+  const claseNasa = (e) => (e.tipo === "solar" ? { T: ["total"], A: ["anular"], H: ["total", "anular"], P: ["parcial"] }[e.clase[0]] : { T: ["total"], P: ["parcial"], N: ["penumbral"] }[e.clase[0]]);
+  const hms = (td) => { const [h, m, s] = td.split(":").map(Number); return h * 3600 + m * 60 + s; };
+  let peorMin = 0, peorGamma = 0, peorMag = 0, n = 0;
+  for (const r of ref) {
+    const dia = Date.UTC(+r.fecha.slice(0, 4), +r.fecha.slice(5, 7) - 1, +r.fecha.slice(8, 10)) / 86400000 + 2440587.5; // 00:00 TD de ese día (TD ~ TDB)
+    const jdNasa = dia + hms(r.td) / 86400; // JD en TD
+    const e = lista.find((x) => x.tipo === r.tipo && Math.abs(x.jdTdb - jdNasa) < 0.25);
+    afirmar(!!e, `eclipse NASA ${r.tipo} ${r.fecha} (${r.clase}) no encontrado`);
+    if (!e) continue;
+    n++;
+    afirmar(claseNasa(r).includes(e.clase), `${r.fecha} ${r.tipo}: clase ${e.clase}, NASA ${r.clase}`);
+    const dmin = Math.abs(e.jdTdb - jdNasa) * 1440; peorMin = Math.max(peorMin, dmin);
+    afirmar(dmin < 3, `${r.fecha} ${r.tipo}: hora del máximo difiere ${dmin.toFixed(2)} min`);
+    if (r.tipo === "solar") { const dg = Math.abs(e.gamma - Math.abs(r.gamma)); peorGamma = Math.max(peorGamma, dg); afirmar(dg < 0.01, `${r.fecha}: γ ${e.gamma.toFixed(4)} vs ${r.gamma}`); }
+    else if (r.clase[0] !== "N") { const dm = Math.abs(e.mag_umbral - r.mag_umbral); peorMag = Math.max(peorMag, dm); afirmar(dm < 0.005, `${r.fecha}: magnitud umbral ${e.mag_umbral.toFixed(3)} vs ${r.mag_umbral}`); }
+  }
+  afirmar(lista.length === ref.length, `número de eclipses: ${lista.length} vs NASA ${ref.length}`);
+  console.log(`eclipses contrastados con NASA: ${n}/${ref.length}; peor diferencia de hora ${peorMin.toFixed(2)} min, de γ ${peorGamma.toFixed(4)}, de magnitud umbral ${peorMag.toFixed(3)}`);
+  // ningún eclipse inventado: cada lunación con eclipse solar debe tener γ < 1,6
+  afirmar(lista.filter((e) => e.tipo === "solar").every((e) => e.gamma < 1.6), "γ fuera de rango");
+}
+
+console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);
+process.exit(fallos ? 1 : 0);
