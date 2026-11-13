@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: Apache-2.0
 import { iniciar } from "../motor/app.js";
 import { PLANETAS, LUNA, SOL, UA_KM } from "../motor/cuerpos.js";
+import { crearAstronomia } from "../motor/astronomia.js";
+import { formatoUtc, JD_UTC_INICIO, JD_UTC_FIN, jdTdbDesdeUtc } from "../motor/tiempo.js";
+
+let astro = null;
 
 const RAD = Math.PI / 180;
 const nombreFase = (d) => {
@@ -22,8 +26,23 @@ iniciar({
     { texto: "Sólo la Luna", accion: () => vista.enfocar(vista.porId.get("301"), 9e3) },
     { texto: "Desde sobre el Sol", accion: () => { vista.seguir = central; vista.cam.pitch = 1.5; vista.cam.distObj = 8e5; } },
   ],
-  extra: ({ o, geo, reloj, central, solObj, nrm, dot, fmt }) => {
+  eventos: ({ sol, sis }) => {
+    astro ??= crearAstronomia(sol, sis);
+    const j0 = jdTdbDesdeUtc(JD_UTC_INICIO) - 1, j1 = jdTdbDesdeUtc(JD_UTC_FIN) + 1;
+    const est = astro.estaciones(j0, j1).map((e) => ({ jdUtc: e.jdUtc, etiqueta: e.nombre }));
+    const aps = astro.apsides(j0, j1).map((e) => ({ jdUtc: e.jdUtc, etiqueta: e.nombre, dato: `${e.dist_ua.toFixed(5).replace(".", ",")} UA` }));
+    return [
+      { titulo: "Equinoccios y solsticios", aviso: "Longitud aparente del Sol 0°, 90°, 180°, 270° (precesión, nutación y aberración incluidas). Contrastado con el U.S. Naval Observatory: ≤ 1 minuto en los 96.", filas: est },
+      { titulo: "Perihelio y afelio", aviso: "Extremos de la distancia entre el Sol y el centro de la Tierra. Contrastado con el U.S. Naval Observatory: ≤ 1 minuto en los 48.", filas: aps.sort((a, b) => a.jdUtc - b.jdUtc) },
+    ];
+  },
+  extra: ({ o, geo, reloj, sol, sis, central, solObj, nrm, dot, fmt }) => {
     const out = [];
+    astro ??= crearAstronomia(sol, sis);
+    if (o.id === "301") {
+      const proximas = astro.fases(reloj.jdTdb, reloj.jdTdb + 24).slice(0, 4);
+      out.push(["Próximas fases", proximas.map((f) => `${f.nombre.replace("Luna ", "").replace("Cuarto ", "C. ")} ${formatoUtc(f.jdUtc, false).slice(5, 16)}`).join(" · ")]);
+    }
     const sd = solObj.pos, sn = nrm(sd);
     if (o.id === "301") {
       const m = o.pos, d = nrm(m);

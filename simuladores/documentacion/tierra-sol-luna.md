@@ -11,7 +11,7 @@ La Tierra, la Luna y el Sol entre el 1 de enero de 2027 y el 31 de diciembre de 
 - la **Luna** con su posición geocéntrica oficial de JPL Horizons (kernel DE441), su órbita real de un mes sidéreo (no una elipse ideal: se ve la perturbación solar) y su fase vista desde donde esté la cámara;
 - la **Tierra** con su orientación (polo IAU y ángulo de rotación terrestre ERA), la línea día/noche calculada con la posición real del Sol, el **punto subsolar** y su achatamiento;
 - el **Sol** como una dirección y una distancia en UA (a 1 UA no cabe en pantalla a escala), con su diámetro angular;
-- los **eclipses** de Sol y de Luna de todo el periodo.
+- las **fases de la Luna** (el panel indica las próximas), los **equinoccios y solsticios**, el **perihelio y el afelio** de la Tierra y los **eclipses** de Sol y de Luna de todo el periodo.
 
 A escala real, en la vista inicial la Tierra mide pocos píxeles y la Luna aún menos: la Luna está a unos 60 radios terrestres. Eso **es** la escala del sistema. La opción «Tamaño de los cuerpos» amplía **sólo la Luna** (×5 o ×20) para verla; las distancias siempre son las reales.
 
@@ -25,6 +25,18 @@ A escala real, en la vista inicial la Tierra mide pocos píxeles y la Luna aún 
 | Elongación e iluminación | Ángulo Sol–Tierra–Luna e iluminación (1 − cos ε)/2 |
 | Diámetros angulares | 2·asin(R/d) de la Luna y del Sol con sus radios reales |
 | Punto subsolar | Dirección del Sol en el sistema fijo a la Tierra |
+
+## Fases, estaciones y ápsides: validación con el U.S. Naval Observatory
+
+Además de los eclipses, las pruebas comparan **toda** la mecánica celeste del sistema con el U.S. Naval Observatory (API pública de Astronomical Applications, descargada con `herramientas/efemerides/descargar_referencia_usno.py` y guardada en [`pruebas/referencia_usno.json`](../pruebas/referencia_usno.json)):
+
+| Fenómeno 2027–2050 | Cuántos | Peor diferencia con el USNO | Sesgo medio |
+|---|---:|---:|---:|
+| Equinoccios y solsticios (longitud aparente del Sol 0°, 90°, 180°, 270°) | 96 de 96 | 0,94 min | +0,30 min |
+| Perihelio y afelio (distancia Sol–centro de la Tierra) | 48 de 48 | 0,83 min | +0,36 min |
+| Fases de la Luna (nueva, cuartos y llena) | 1 187 de 1 187 | 1,59 min | +0,29 min |
+
+El USNO publica horas en minutos enteros, por lo que un sesgo de ≈ +0,3 min es el esperable del redondeo. Para las estaciones se aplican precesión, nutación (cuatro términos principales) y aberración anual al Sol; para las fases, la aberración, que no se cancela en la oposición (~ 80 s). Los ápsides coinciden con el USNO sólo si se mide la distancia al **centro de la Tierra** (no al baricentro Tierra–Luna, que difiere en hasta ± 31 horas).
 
 ## Eclipses: cómo se calculan y cómo se validaron
 
@@ -52,6 +64,7 @@ Por ejemplo, el eclipse total del **2 de agosto de 2027** (máximo ≈ 10:07 UTC
 | Posición de la Luna (interpolación vs. Horizons) | ≤ 0,02 km (máximo medido en 120 épocas) |
 | Posición del Sol visto desde la Tierra | < 0,001 km |
 | Hora del máximo de un eclipse | ≤ 1 minuto respecto del catálogo de NASA |
+| Fases lunares, equinoccios, solsticios y ápsides | ≤ 1,6 minutos respecto del USNO (1 187 + 96 + 48 eventos) |
 | Tiempo UTC ↔ TDB | 69,184 s constantes (véase [datos](DATOS_Y_EFEMERIDES.md)) |
 | Orientación de la Tierra (línea día/noche, punto subsolar) | ≈ 0,7° (precesión-nutación omitidas) |
 | Superficie de la Tierra y la Luna | Ilustrativa (máscara tierra/mar de Natural Earth; mares lunares aproximados) |

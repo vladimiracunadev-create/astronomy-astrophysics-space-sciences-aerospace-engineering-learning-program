@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
+import { crearAstronomia } from "../motor/astronomia.js";
 import { jdUtcDesdeTdb, jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
 import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM, longitudSolar } from "../motor/cuerpos.js";
 
@@ -146,6 +147,41 @@ if (sistemas.sol && sistemas.tierra) {
   console.log(`eclipses contrastados con NASA: ${n}/${ref.length}; peor diferencia de hora ${peorMin.toFixed(2)} min, de γ ${peorGamma.toFixed(4)}, de magnitud umbral ${peorMag.toFixed(3)}`);
   // ningún eclipse inventado: cada lunación con eclipse solar debe tener γ < 1,6
   afirmar(lista.filter((e) => e.tipo === "solar").every((e) => e.gamma < 1.6), "γ fuera de rango");
+}
+
+// 7. Estaciones, ápsides y fases lunares frente al U.S. Naval Observatory (2027–2050)
+if (sistemas.sol && sistemas.tierra) {
+  const ast = crearAstronomia(sistemas.sol, sistemas.tierra);
+  const usno = JSON.parse(readFileSync(join(aqui, "referencia_usno.json"), "utf8"));
+  const j0 = jdTdbDesdeUtc(JD_UTC_INICIO) - 1, j1 = jdTdbDesdeUtc(JD_UTC_FIN) + 1;
+  const cmp = (lista, refs, coincide, etiqueta, tolMin) => {
+    let peor = 0, n = 0, suma = 0;
+    for (const [f, h, tipo] of refs) {
+      const jd = jdUtcDesdeInput(`${f}T${h}`); const e = lista.find((x) => Math.abs(x.jdUtc - jd) < 1.5 && coincide(x, tipo));
+      afirmar(!!e, `${etiqueta} ${f} ${tipo} no encontrado`);
+      if (!e) continue;
+      const dm = (e.jdUtc - jd) * 1440; suma += dm; n++; peor = Math.max(peor, Math.abs(dm));
+      afirmar(Math.abs(dm) < tolMin, `${etiqueta} ${f} ${tipo}: diferencia ${dm.toFixed(2)} min`);
+    }
+    afirmar(lista.length === refs.length, `${etiqueta}: ${lista.length} eventos y USNO tiene ${refs.length}`);
+    console.log(`USNO · ${etiqueta}: ${n}/${refs.length}, peor diferencia ${peor.toFixed(2)} min, sesgo ${(suma / n).toFixed(2)} min`);
+  };
+  const FASE = { "New Moon": 0, "First Quarter": 1, "Full Moon": 2, "Last Quarter": 3 };
+  cmp(ast.estaciones(j0, j1), usno.estaciones.filter((r) => /Equinox|Solstice/.test(r[2])), () => true, "equinoccios y solsticios", 2);
+  cmp(ast.apsides(j0, j1), usno.estaciones.filter((r) => /Peri|Aph/.test(r[2])), (x, t) => (t === "Perihelion") === (x.nombre === "Perihelio"), "perihelio y afelio", 2);
+  cmp(ast.fases(j0, j1), usno.fases, (x, t) => x.k === FASE[t], "fases de la Luna", 2.5);
+}
+
+// 7b. Oposiciones de Marte (fechas conocidas: 2027-02-19, 2029-03-25, 2031-05-04)
+if (sistemas.sol && sistemas.tierra) {
+  const ast = crearAstronomia(sistemas.sol, sistemas.tierra);
+  const op = ast.oposiciones("499", jdTdbDesdeUtc(JD_UTC_INICIO), jdTdbDesdeUtc(JD_UTC_FIN));
+  for (const [f, d] of [["2027-02-19", 0.678], ["2029-03-25", 0.649], ["2031-05-04", 0.559]]) {
+    const o = op.find((x) => formatoUtc(x.jdUtc, false).startsWith(f));
+    afirmar(!!o, `oposición de Marte del ${f} no encontrada`);
+    if (o) cerca(o.dist_ua, d, 0.002, `distancia en la oposición de Marte ${f}`);
+  }
+  afirmar(op.length === 12, `oposiciones de Marte 2027–2050: ${op.length}`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

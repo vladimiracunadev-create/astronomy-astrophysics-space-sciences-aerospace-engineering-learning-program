@@ -87,6 +87,7 @@ export async function iniciar(cfg) {
         <select id="orden" aria-label="Ordenar"><option value="dist">Por distancia</option><option value="radio">Por tamaño</option><option value="nombre">Por nombre</option></select></div>
       <div class="lista" id="lista" role="listbox" aria-label="Lista de cuerpos"></div>
       ${cfg.eclipses ? '<h2>Eclipses 2027–2050</h2><p class="aviso">Calculados aquí con la geometría de conos a partir de las efemérides; clic para ir al máximo.</p><div id="eclipses"></div>' : ""}
+      ${cfg.eventos ? '<h2>Fenómenos 2027–2050</h2><div id="eventos"></div>' : ""}
       <details><summary>Datos, modelo y tolerancias</summary><div id="meta" class="aviso"></div></details>
       <p class="aviso">Posiciones: NASA/JPL Horizons (DE440 y efemérides de satélites), interpoladas aquí. Texturas ilustrativas. Documentación: <a href="documentacion/README.html">documentación de los simuladores</a>.</p>
     </aside>`;
@@ -134,7 +135,7 @@ export async function iniciar(cfg) {
     for (const id of Object.keys(PLANETAS)) {
       const o = crearPlaneta(id, true);
       o.centroOrbita = [0, 0, 0];
-      o.orbitaMinPx = 6; o.orbitaRadioKm = 1e9;
+      o.orbitaMinPx = 6; o.orbitaRadioKm = Math.cbrt(SOL.gm * Math.pow((PERIODO_PLANETA_D[id] * 86400) / (2 * Math.PI), 2)); // semieje mayor kepleriano inicial
       o.actualizarOrbita = function () {
         const jd = reloj.jdTdb;
         if (this._orbJd !== undefined && Math.abs(jd - this._orbJd) < 20) return;
@@ -377,6 +378,14 @@ export async function iniciar(cfg) {
       ecl.map((e, i) => `<tr><td><button data-i="${i}" title="Ir al máximo">${formatoUtc(e.jdUtc, false).replace(" UTC", "")}</button></td><td>${e.tipo === "solar" ? "☀ Sol" : "☾ Luna"} ${e.clase}</td><td>${e.tipo === "solar" ? "γ " + fmt(e.gamma, 3) : e.clase === "penumbral" ? "mag. penumbral " + fmt(e.mag_penumbral, 2) : "mag. umbral " + fmt(e.mag_umbral, 2)}</td></tr>`).join("") + "</tbody></table>";
     $("eclipses").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; const x = ecl[+b.dataset.i]; reloj.fijar(x.jdUtc - 0 / 1); reloj.activo = false; $("bPlay").textContent = "▶"; vista.seleccionar(vista.porId.get("301")); });
     cfg._eclipses = ecl;
+  }
+
+  // fenómenos calculados (estaciones, ápsides, oposiciones…): grupos {titulo, aviso, filas:[{jdUtc, etiqueta, dato}]}
+  if (cfg.eventos) {
+    const grupos = cfg.eventos({ sol, sis, reloj });
+    $("eventos").innerHTML = grupos.map((g, gi) => `<details><summary>${g.titulo} (${g.filas.length})</summary><p class="aviso">${g.aviso || ""}</p>
+      <div class="lista" style="max-height:240px"><table class="tabla"><tbody>${g.filas.map((f, i) => `<tr><td><button data-g="${gi}" data-i="${i}" title="Ir a este instante">${formatoUtc(f.jdUtc, false).replace(" UTC", "")}</button></td><td>${f.etiqueta}</td><td>${f.dato || ""}</td></tr>`).join("")}</tbody></table></div></details>`).join("");
+    $("eventos").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; reloj.fijar(grupos[+b.dataset.g].filas[+b.dataset.i].jdUtc); reloj.activo = false; $("bPlay").textContent = "▶"; });
   }
 
   // metadatos
