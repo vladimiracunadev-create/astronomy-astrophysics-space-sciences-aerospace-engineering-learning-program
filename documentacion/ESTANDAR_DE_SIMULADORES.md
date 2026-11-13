@@ -20,9 +20,9 @@ Los **simuladores** (`simuladores/`) son material interactivo de apoyo: dibujan 
 | Ruta | Contenido |
 |---|---|
 | `simuladores/datos/<sistema>.json` y `.bin` | Efemérides empaquetadas (formato en [Datos y efemérides](../simuladores/documentacion/DATOS_Y_EFEMERIDES.md)) |
-| `simuladores/motor/` | Motor común: tiempo, interpolación, cámara, esferas, eclipses, astronomía |
+| `simuladores/motor/` | Motor común: tiempo, interpolación, cámara, esferas, eclipses, astronomía, cielo y trayectorias |
 | `simuladores/paginas/<sistema>.js` y `<sistema>.html` | Configuración y página de cada simulador |
-| `simuladores/pruebas/` | Pruebas en Node y referencias versionadas (NASA, USNO) |
+| `simuladores/pruebas/` | Pruebas en Node, referencias versionadas (NASA, USNO) y generador de las figuras de cielo y trayectorias |
 | `simuladores/img/<sistema>.svg` | Figura a escala generada por `herramientas/efemerides/generar_svg.py` |
 | `simuladores/documentacion/` | Documentación (una página por simulador más la guía, los datos y las fuentes) |
 | `herramientas/efemerides/` | Descarga de Horizons, empaquetado, tabla de precisión y figuras |

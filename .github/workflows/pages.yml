@@ -44,7 +44,8 @@ jobs:
                    anexos/README.html glosario/README.html glosario/esencial/README.html \
                    simuladores/index.html simuladores/sistema-solar.html simuladores/tierra-sol-luna.html simuladores/jupiter.html \
                    simuladores/datos/jupiter.bin simuladores/datos/sol.bin simuladores/img/sistema-solar.svg simuladores/documentacion/README.html \
-                   simuladores/documentacion/sistema-solar.html; do
+                   simuladores/documentacion/sistema-solar.html simuladores/cielo-tierra.html simuladores/trayectorias.html \
+                   simuladores/datos/cielo.json simuladores/datos/pluton.bin simuladores/img/trayectorias.svg; do
             test -s "build/web/$f"
           done
           CLASES=$(find build/web/programa/clases -name CLASE.html | wc -l)

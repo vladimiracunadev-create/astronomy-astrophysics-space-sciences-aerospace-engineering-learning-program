@@ -8,6 +8,7 @@ import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
 import { Observador, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { SOL, LUNA } from "../motor/cuerpos.js";
+import { lambert, propagar, evaluar, porkchop, elementosTransferencia, deltaVOrbita } from "../motor/trayectoria.js";
 import { jdUtcDesdeTdb, jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
 import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM, longitudSolar } from "../motor/cuerpos.js";
 
@@ -242,6 +243,45 @@ if (sistemas.sol && sistemas.jupiter) {
   o.lugar(0, 0); o.actualizar(jd, JD_UTC_INICIO);
   const io = o.cuerpos().find((x) => x.id === "501"); const grados = io.tam * 180 / Math.PI;
   afirmar(grados > 0.25 && grados < 0.6, `Ío visto desde las nubes de Júpiter: ${grados.toFixed(2)}° (esperado ≈ 0,3–0,5°)`);
+}
+
+// 9. Trayectorias: problema de Lambert, propagación y ventanas Tierra–Marte/Júpiter/Venus
+{
+  // Ejemplo 5.2 de Curtis (Orbital Mechanics for Engineering Students): el resultado publicado es v1 = (-5,9925; 1,9254; 3,2456) y v2 = (-3,3125; -4,1966; -0,38529) km/s
+  const L = lambert([5000, 10000, 2100], [-14600, 2500, 7000], 3600, 398600, true);
+  afirmar(!!L, "Lambert (Curtis 5.2) sin solución");
+  if (L) { [-5.9925, 1.9254, 3.2456].forEach((v, k) => cerca(L.v1[k], v, 5e-4, `Curtis 5.2 v1[${k}]`)); [-3.3125, -4.1966, -0.38529].forEach((v, k) => cerca(L.v2[k], v, 5e-4, `Curtis 5.2 v2[${k}]`));
+    const p = propagar([5000, 10000, 2100], L.v1, 3600, 398600); [-14600, 2500, 7000].forEach((v, k) => cerca(p.r[k], v, 0.05, `propagación hasta r2[${k}] [km]`)); }
+  // Hohmann Tierra–Marte con órbitas circulares y coplanares (ángulo de transferencia 179,99°): v∞ de salida 2,945 km/s y 258,8 d
+  const mu = 132712440041.94, r1 = 149597870.7, r2 = 1.523679 * r1, th = 179.99 * Math.PI / 180;
+  const a = (r1 + r2) / 2, tof = Math.PI * Math.sqrt(a ** 3 / mu), H = lambert([r1, 0, 0], [r2 * Math.cos(th), r2 * Math.sin(th), 0], tof, mu, true);
+  afirmar(!!H, "Lambert Hohmann sin solución");
+  if (H) { cerca(Math.hypot(H.v1[0], H.v1[1]) - Math.sqrt(mu / r1), Math.sqrt(mu / r1) * (Math.sqrt(2 * r2 / (r1 + r2)) - 1), 0.02, "Hohmann: Δv de salida [km/s]"); cerca(tof / 86400, 258.8, 0.3, "Hohmann: tiempo de vuelo Tierra–Marte [d]"); }
+  cerca(deltaVOrbita(3.6, 398600.435, 6678.14), Math.sqrt(3.6 ** 2 + 2 * 398600.435 / 6678.14) - Math.sqrt(398600.435 / 6678.14), 1e-9, "Δv desde órbita circular");
+}
+if (sistemas.sol) {
+  const sol = sistemas.sol, j0 = jdTdbDesdeUtc(JD_UTC_INICIO);
+  const ventana = (desde, hacia, ini, fin, tmin, tmax) => porkchop(sol, desde, hacia, { jdIni: jdTdbDesdeUtc(jdUtcDesdeInput(ini)), jdFin: jdTdbDesdeUtc(jdUtcDesdeInput(fin)), nSalida: 120, tofMin: tmin, tofMax: tmax, nTof: 120 });
+  const mejor = (pk, f) => pk.celdas.filter(Boolean).reduce((m, c) => (f(c) < f(m) ? c : m));
+  // Marte: la ventana de salida de 2028-2029 (oposición 2029-03-25): C3 mínimo ≈ 8–15 km²/s² hacia diciembre de 2028 – febrero de 2029
+  const pm = ventana("399", "499", "2028-08-01T00:00", "2029-06-01T00:00", 150, 450), bm = mejor(pm, (c) => c.c3);
+  console.log(`Tierra→Marte 2028-29: C3 mín ${bm.c3.toFixed(2)} km²/s², salida ${formatoUtc(jdUtcDesdeTdb(bm.jdSalida), false)}, ${bm.tof_d.toFixed(0)} d, v∞ llegada ${bm.vinfLlegada.toFixed(2)} km/s`);
+  afirmar(bm.c3 > 7 && bm.c3 < 16, `C3 mínimo Tierra→Marte: ${bm.c3.toFixed(2)}`);
+  const d0 = jdUtcDesdeInput("2028-11-01T00:00"), d1 = jdUtcDesdeInput("2029-02-28T00:00"), sd = jdUtcDesdeTdb(bm.jdSalida);
+  afirmar(sd > d0 && sd < d1, `la salida óptima a Marte cae entre noviembre de 2028 y febrero de 2029: ${formatoUtc(sd, false)}`);
+  afirmar(bm.tof_d > 180 && bm.tof_d < 320, `tiempo de vuelo óptimo a Marte: ${bm.tof_d.toFixed(0)} d`);
+  // Venus: salida hacia fines de 2027, C3 mínimo bajo (≈ 5–12), vuelo de 3–5 meses
+  const pv = ventana("399", "299", "2027-06-01T00:00", "2028-06-01T00:00", 80, 250), bv = mejor(pv, (c) => c.c3);
+  console.log(`Tierra→Venus 2027-28: C3 mín ${bv.c3.toFixed(2)} km²/s², salida ${formatoUtc(jdUtcDesdeTdb(bv.jdSalida), false)}, ${bv.tof_d.toFixed(0)} d`);
+  afirmar(bv.c3 > 3 && bv.c3 < 16, `C3 mínimo Tierra→Venus: ${bv.c3.toFixed(2)}`);
+  // Júpiter directo: Hohmann v∞ = 8,8 km/s (C3 ≈ 77); con la excentricidad real entre ≈ 75 y ≈ 95 km²/s²
+  const pj = ventana("399", "599", "2027-01-01T00:00", "2028-06-01T00:00", 600, 1200), bj = mejor(pj, (c) => c.c3);
+  console.log(`Tierra→Júpiter 2027-28: C3 mín ${bj.c3.toFixed(1)} km²/s², ${bj.tof_d.toFixed(0)} d`);
+  afirmar(bj.c3 > 70 && bj.c3 < 100, `C3 mínimo Tierra→Júpiter: ${bj.c3.toFixed(1)}`);
+  // consistencia: la nave llega al planeta (propagación de 2 cuerpos contra la posición de JPL)
+  const ev = evaluar(sol, "399", "499", bm.jdSalida, bm.jdLlegada), pp = propagar(ev.r1, ev.v1, ev.tof_d * 86400), rr = sol.cuerpo("499").pos(bm.jdLlegada);
+  cerca(Math.hypot(pp.r[0] - rr[0], pp.r[1] - rr[1], pp.r[2] - rr[2]), 0, 1, "la nave llega a Marte [km]");
+  const el = elementosTransferencia(ev.r1, ev.v1); afirmar(el.perihelio < 1.02 * 149597870.7 && el.afelio > 1.3 * 149597870.7, "la transferencia a Marte va del perihelio terrestre al afelio marciano");
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

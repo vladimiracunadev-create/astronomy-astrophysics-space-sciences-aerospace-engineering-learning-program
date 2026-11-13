@@ -32,6 +32,8 @@ Cada sistema son dos archivos en [`simuladores/datos/`](../datos/): `<sistema>.j
 
 - **`sol`**: Mercurio a Neptuno, el baricentro del sistema de Plutón y Ceres, heliocéntricos, `float64`.
 - **`tierra`, `marte`, `jupiter`, `saturno`, `urano`, `neptuno`**: cada luna respecto del centro de su planeta.
+- **`pluton`**: Plutón, Caronte, Estigia, Nix, Cerbero e Hidra respecto del **baricentro** del sistema (`500@9`), que queda fuera de Plutón (≈ 2 132 km de su centro).
+- **`cielo.json`**: 5 044 estrellas hasta la magnitud 6, 493 nombres y las figuras de las 88 constelaciones (d3-celestial, BSD; Hipparcos/Tycho), ICRS J2000 sin movimiento propio.
 - En el `.bin` cada cuerpo ocupa un bloque contiguo de posiciones `x, y, z` (km), *little-endian*, con **paso regular** `paso_min` (minutos) y época del primer nodo `t0` (JD TDB).
 - Formatos: `f64` (planetas), `f32` (lunas mayores y de órbita lenta) o `i16` (lunas pequeñas y rápidas, escaladas por `escala_i16` km/unidad). La cuantización queda incluida en el error medido.
 - Cada cuerpo declara `jd_valido_ini` y `jd_valido_fin`: **el intervalo donde la interpolación es válida**. Si Horizons no publica efemérides hasta 2050 (por ejemplo, Jano termina el 9 de enero de 2050), el cuerpo se **oculta** fuera de su cobertura; nunca se inventa una posición.

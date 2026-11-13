@@ -33,6 +33,14 @@ Radio; distancia al Sol (UA y tiempo luz); distancia al planeta (km y radios pla
 
 La dirección se actualiza con `#o=<id>&f=<fecha UTC>`. Por ejemplo, [el eclipse total del 2 de agosto de 2027](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/tierra-sol-luna.html#o=301&f=2027-08-02T10:07).
 
+## Simuladores de cielo
+
+Elija un **lugar** (lista, o latitud y longitud este), arrastre para **girar la vista** y use la rueda para el **campo** (de 4° a 170°). Los botones «Norte, Este, Sur, Oeste y Cénit» orientan la vista; un clic en un astro muestra su altura, acimut, ascensión recta y declinación (J2000), distancia, magnitud, tamaño angular e iluminación. «Sobre el horizonte» lista lo visible y centra la vista al hacer clic. Constelaciones, nombres, cuadrículas, eclíptica, ecuador celeste y refracción (en la Tierra) se activan en «Vista».
+
+## Trayectorias
+
+Elija **Desde** y **Hacia**, la ventana de salida y los tiempos de vuelo, y pulse **Calcular** (o un ejemplo). En el gráfico porkchop **un clic** elige cualquier transferencia; el círculo blanco es el mínimo de la métrica elegida. Las altitudes de las órbitas de salida y llegada cambian el Δv. En la vista 3D, el control «Instante del viaje» (o ▶) recorre el viaje.
+
 ## Accesibilidad
 
 Los controles se manejan con teclado y tienen etiquetas; el escenario puede enfocarse con Tab y manejarse con flechas. Los colores cumplen contraste sobre fondo oscuro. Los simuladores no reproducen nada solos ni usan sonido. La información visual relevante (fase, distancia, iluminación) también aparece como texto en el panel.

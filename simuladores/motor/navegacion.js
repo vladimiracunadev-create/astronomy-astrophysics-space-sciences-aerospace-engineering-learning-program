@@ -13,6 +13,7 @@ export const SIMULADORES = [
   { clave: "cielo-marte", imagen: "cielo-marte", href: "cielo-marte.html", titulo: "Cielo desde Marte", resumen: "Fobos y Deimos cruzando el cielo, el Sol de 21′, la Tierra como una estrella y los planetas." },
   { clave: "cielo-jupiter", imagen: "cielo-jupiter", href: "cielo-jupiter.html", titulo: "Cielo desde Júpiter", resumen: "Desde la cima de las nubes: las lunas galileanas como discos, los planetas y las estrellas." },
   { clave: "cielo-saturno", imagen: "cielo-saturno", href: "cielo-saturno.html", titulo: "Cielo desde Saturno", resumen: "Los anillos como un arco inmenso, Titán y las demás lunas, los planetas y las estrellas." },
+  { clave: "trayectorias", imagen: "trayectorias", href: "trayectorias.html", titulo: "Trayectorias entre planetas", resumen: "Gráfico porkchop, problema de Lambert, C3, v∞ y delta-v entre dos planetas con posiciones oficiales de JPL." },
 ];
 
 export function barraNavegacion(actual) {

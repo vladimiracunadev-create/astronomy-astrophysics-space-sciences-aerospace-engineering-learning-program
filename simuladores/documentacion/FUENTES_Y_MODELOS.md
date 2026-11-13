@@ -30,6 +30,10 @@ El polo norte y el meridiano origen de cada planeta siguen el informe del grupo 
 | Elementos osculadores (a, e, i, periodo) | Calculados del estado instantáneo respecto del planeta (o del Sol); **osculadores**, no medios |
 | Eclipses | Cálculo propio de conos de sombra, validado contra el catálogo de la NASA (véase [Tierra, Sol y Luna](tierra-sol-luna.md)) |
 | Sombras de un planeta sobre sus lunas | Cono de umbra (radio del planeta y Sol extenso); sin penumbra ni atmósfera |
+| Estrellas, constelaciones y nombres | Catálogo **de terceros** (d3-celestial, BSD; Hipparcos/Tycho de la ESA), sin movimiento propio |
+| Magnitudes aparentes | Fórmulas de Meeus para los planetas vistos desde la Tierra; modelo de Lambert con albedo geométrico en los demás casos (albedo 0,25 para las lunas) |
+| Trayectorias | Cónicas empalmadas (Lambert) con la gravedad del Sol; sin asistencias, perturbaciones ni empuje continuo |
+| Color del cielo y del suelo | Ilustrativos |
 | Texturas de superficie | **Ilustrativas**: procedurales; la Tierra usa la máscara tierra/mar de Natural Earth 1:110m (dominio público) y la Luna sus mares principales en coordenadas aproximadas. No son fotografías |
 | Fondo de estrellas | Decorativo (posiciones aleatorias con semilla fija); no es un catálogo |
 | Anillos | Radios orientativos de NASA, opacidad ilustrativa |
