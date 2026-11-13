@@ -340,7 +340,7 @@ Los anexos se leen; los **talleres se hacen**. Cada uno toma una **misión espac
 
 ## 🪐 Simuladores del Sistema Solar 2027–2050
 
-Además de estudiar, puedes **ver** el Sistema Solar. **Trece simuladores** interactivos en JavaScript —sin servidores— funcionan en [GitHub Pages](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/index.html) con posiciones **oficiales** de NASA/JPL Horizons entre el 1 de enero de 2027 y el 31 de diciembre de 2050, tamaños y distancias reales, y **469 tablas de efemérides** (8 planetas, Plutón, Ceres y 458 satélites, incluida la Luna). Cada número está documentado y validado: eclipses contra el catálogo de la NASA; fases lunares, estaciones, ápsides y salidas y puestas contra el U.S. Naval Observatory; el problema de Lambert contra la literatura; y el error de cada cuerpo contra JPL.
+Además de estudiar, puedes **ver** el Sistema Solar. **Catorce simuladores** interactivos en JavaScript —sin servidores— funcionan en [GitHub Pages](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/index.html) con posiciones **oficiales** de NASA/JPL Horizons entre el 1 de enero de 2027 y el 31 de diciembre de 2050, tamaños y distancias reales, y **469 tablas de efemérides** (8 planetas, Plutón, Ceres y 458 satélites, incluida la Luna). Cada número está documentado y validado: eclipses contra el catálogo de la NASA; fases lunares, estaciones, ápsides y salidas y puestas contra el U.S. Naval Observatory; el problema de Lambert contra la literatura; y el error de cada cuerpo contra JPL.
 
 Los enlaces con imagen y el nombre de cada simulador abren la **página funcional en GitHub Pages**; «doc» abre la **explicación detallada** en Markdown.
 
@@ -366,11 +366,12 @@ Los enlaces con imagen y el nombre de cada simulador abren la **página funciona
 | [![Cielo desde Júpiter](simuladores/img/cielo-jupiter.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-jupiter.html) | [**Cielo desde Júpiter**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-jupiter.html) · [doc](simuladores/documentacion/cielo-jupiter.md) | Las lunas galileanas como discos desde la cima de las nubes |
 | [![Cielo desde Saturno](simuladores/img/cielo-saturno.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-saturno.html) | [**Cielo desde Saturno**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-saturno.html) · [doc](simuladores/documentacion/cielo-saturno.md) | Los anillos como un arco inmenso, Titán y las demás lunas |
 
-### Trayectorias entre planetas
+### Trayectorias y eclipses
 
 | | Simulador | Qué muestra |
 |---|---|---|
 | [![Trayectorias entre planetas](simuladores/img/trayectorias.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/trayectorias.html) | [**Trayectorias entre planetas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/trayectorias.html) · [doc](simuladores/documentacion/trayectorias.md) | Gráfico porkchop, problema de Lambert, C3, v∞ y Δv entre dos planetas |
+| [![Eclipses solares](simuladores/img/eclipses-solares.svg)](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/eclipses-solares.html) | [**Eclipses solares**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/eclipses-solares.html) · [doc](simuladores/documentacion/eclipses-solares.md) | Franja de totalidad y anularidad de los 54 eclipses solares de 2027–2050 sobre un mapa y circunstancias locales |
 
 Las figuras son esquemas **a escala** calculados con los mismos datos del simulador. [Documentación completa](simuladores/documentacion/README.md) · [Estándar de los simuladores](documentacion/ESTANDAR_DE_SIMULADORES.md) · [Tabla de precisión](simuladores/documentacion/TABLA_DE_PRECISION.md). Son material de apoyo: no sirven para planificar misiones ni habilitan decisiones de vuelo.
 

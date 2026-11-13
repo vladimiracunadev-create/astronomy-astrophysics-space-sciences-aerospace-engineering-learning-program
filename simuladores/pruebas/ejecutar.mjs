@@ -6,6 +6,7 @@ import { dirname, join } from "node:path";
 import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
+import { crearFranja } from "../motor/franja.js";
 import { Observador, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { SOL, LUNA } from "../motor/cuerpos.js";
 import { lambert, propagar, evaluar, porkchop, elementosTransferencia, deltaVOrbita } from "../motor/trayectoria.js";
@@ -293,6 +294,28 @@ if (sistemas.sol) {
     cerca(pd * 50 / 1000, -61.15, 0.2, "desplazamiento de Sirio en 50 años [″]"); }
   const n = cielo.pm_mas_ano.filter(([a, d]) => Math.hypot(a, d) > 100).length;
   afirmar(n > 200 && n < 3000, `estrellas con movimiento propio > 100 mas/año: ${n}`);
+}
+
+// 11. Franjas de eclipses centrales 2027–2050 contra el catálogo de la NASA (34 eclipses): lugar del mayor eclipse, anchura y magnitud
+if (sistemas.sol && sistemas.tierra) {
+  const geo = crearGeometria(sistemas.sol, sistemas.tierra), fr = crearFranja(sistemas.sol, sistemas.tierra, geo);
+  const ref = JSON.parse(readFileSync(join(aqui, "referencia_nasa_franjas.json"), "utf8")).eclipses;
+  const todos = geo.buscar(jdTdbDesdeUtc(JD_UTC_INICIO), jdTdbDesdeUtc(JD_UTC_FIN)).filter((x) => x.tipo === "solar");
+  let peorPos = 0, peorMag = 0, okAncho = 0, okDur = 0;
+  for (const r of ref) {
+    const jdn = Date.UTC(+r.fecha.slice(0, 4), +r.fecha.slice(5, 7) - 1, +r.fecha.slice(8, 10)) / 86400000 + 2440587.5 + r.td.split(":").reduce((a, x, i) => a + x * [3600, 60, 1][i], 0) / 86400;
+    const e = todos.find((x) => Math.abs(x.jdTdb - jdn) < 0.25), g = e && fr.mayorEclipse(e.jdTdb);
+    afirmar(!!g, `franja de ${r.fecha}: sin punto de mayor eclipse`);
+    if (!g) continue;
+    const dist = Math.hypot(g.lat - r.lat, (g.lon - r.lon) * Math.cos(r.lat * Math.PI / 180)); peorPos = Math.max(peorPos, dist);
+    afirmar(dist < 1.0, `${r.fecha}: mayor eclipse a ${dist.toFixed(2)}° del catálogo (${g.lat.toFixed(1)}, ${g.lon.toFixed(1)} vs ${r.lat}, ${r.lon}; el catálogo redondea a 1°)`);
+    if (Math.abs(g.anchoKm - r.ancho_km) <= Math.max(12, 0.12 * r.ancho_km)) okAncho++;
+    if (g.duracion_s && Math.abs(g.duracion_s - r.dur_s) <= 0.1 * r.dur_s) okDur++;
+    const loc = fr.local(g.lat, g.lon, e.jdTdb), dm = Math.abs(loc.mag - r.mag); peorMag = Math.max(peorMag, dm);
+    afirmar(dm < 0.02, `${r.fecha}: magnitud en el mayor eclipse ${loc.mag.toFixed(4)} vs ${r.mag}`);
+  }
+  afirmar(okAncho >= 30, `anchura de la franja dentro de ±12 % (o 12 km): ${okAncho} de ${ref.length}`);
+  console.log(`Franjas: ${ref.length} eclipses centrales; mayor eclipse a ≤ ${peorPos.toFixed(2)}°; anchura ±12 %: ${okAncho}; duración ±10 %: ${okDur}; magnitud ≤ ${peorMag.toFixed(4)}`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

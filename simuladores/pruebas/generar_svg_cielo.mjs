@@ -9,6 +9,9 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { Observador, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../motor/tiempo.js";
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
+import { crearGeometria } from "../motor/eclipses.js";
+import { crearFranja } from "../motor/franja.js";
+import { BITS, ANCHO as MW, ALTO as MH } from "../motor/mascara_tierra.js";
 
 const aqui = dirname(fileURLToPath(import.meta.url)), datos = join(aqui, "..", "datos"), img = join(aqui, "..", "img");
 const cargar = (n) => sistemaDesdeBytes(JSON.parse(readFileSync(join(datos, `${n}.json`), "utf8")), readFileSync(join(datos, `${n}.bin`)));
@@ -89,12 +92,38 @@ function figuraTrayectoria(sol) {
   return L.join("\n") + "\n";
 }
 
+// ---- figura de eclipses solares: franja del eclipse total del 2 de agosto de 2027
+function figuraEclipse(sol) {
+  const tierra = cargar("tierra"), geo = crearGeometria(sol, tierra), fr = crearFranja(sol, tierra, geo);
+  const e = geo.buscar(jdTdbDesdeUtc(jdUtcDesdeInput("2027-07-30T00:00")), jdTdbDesdeUtc(jdUtcDesdeInput("2027-08-05T00:00"))).find((x) => x.tipo === "solar"), g = fr.mayorEclipse(e.jdTdb), tr = fr.trayectoria(g.jdTdb, 4);
+  const bytes = Buffer.from(BITS, "base64"), tierraEn = (x, y) => (bytes[(y * MW + x) >> 3] >> (7 - ((y * MW + x) & 7))) & 1;
+  const x0 = 60, y0 = 110, w = 1080, h = 540, X = (lon) => x0 + (lon + 180) / 360 * w, Y = (lat) => y0 + (90 - lat) / 180 * h;
+  const L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
+    `<title id="t">Eclipses solares</title>`, `<desc id="d">Franja de totalidad del eclipse solar total del 2 de agosto de 2027 sobre un mapamundi, calculada con efemérides de JPL.</desc>`,
+    `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Eclipses solares</text>`,
+    `<text x="32" y="70" font-size="14" fill="#9fb0cf">Eclipse total del 2 de agosto de 2027 · mayor eclipse a ${coma(Math.abs(g.lat).toFixed(1))}° N, ${coma(Math.abs(g.lon).toFixed(1))}° E · franja de ≈ ${g.anchoKm.toFixed(0)} km · fase central de ≈ ${Math.floor(g.duracion_s / 60)} min ${Math.round(g.duracion_s % 60)} s</text>`,
+    `<rect x="${x0}" y="${y0}" width="${w}" height="${h}" fill="#0b1426" stroke="#26314f"/>`];
+  let d = ""; const cw = w / MW, ch = h / MH;
+  for (let y = 0; y < MH; y++) { let ini = -1; for (let x = 0; x <= MW; x++) { const t = x < MW && tierraEn(x, y); if (t && ini < 0) ini = x; if (!t && ini >= 0) { d += `M${n1(x0 + ini * cw)} ${n1(y0 + y * ch)}h${n1((x - ini) * cw)}v${n1(ch + 0.3)}h${n1(-(x - ini) * cw)}z`; ini = -1; } } }
+  L.push(`<path d="${d}" fill="#26402c"/>`);
+  for (const q of tr) { const rx = Math.max(1.5, q.anchoKm / 2 / 111.32 / Math.max(0.2, Math.cos(q.lat * Math.PI / 180)) / 360 * w), ry = Math.max(1.5, q.anchoKm / 2 / 111.32 / 180 * h); L.push(`<ellipse cx="${n1(X(q.lon))}" cy="${n1(Y(q.lat))}" rx="${n1(rx)}" ry="${n1(ry)}" fill="#ffb347" fill-opacity="0.9"/>`); }
+  L.push(`<path d="M${tr.map((q) => n1(X(q.lon)) + " " + n1(Y(q.lat))).join("L")}" fill="none" stroke="#fff4d6" stroke-width="1.4"/>`);
+  for (const q of tr) { const m = Math.round((q.jdTdb - tr[0].jdTdb) * 1440); if (m % 30 === 0) L.push(`<circle cx="${n1(X(q.lon))}" cy="${n1(Y(q.lat))}" r="3" fill="#fff"/>`, `<text x="${n1(X(q.lon) + 6)}" y="${n1(Y(q.lat) - 6)}" font-size="12" fill="#e6ecf8">${formatoUtc(jdUtcDesdeTdb(q.jdTdb), false).slice(11, 16)}</text>`); }
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Efemérides de NASA/JPL Horizons · tierra/mar: Natural Earth · horas en UTC · calculado con el motor del simulador</text>`, `</svg>`);
+  return L.join("\n") + "\n";
+}
+
 const sol = cargar("sol");
 let mal = 0;
 for (const f of FIGURAS) {
   if (!existsSync(join(datos, `${f.sistema}.bin`)) || !existsSync(join(aqui, "..", `${f.archivo}.html`))) continue;  // sólo las páginas publicadas
   const svg = figura(f, sol), ruta = join(img, `${f.archivo}.svg`);
   if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log(`ERROR ${f.archivo}.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs`); mal++; } }
+  else writeFileSync(ruta, svg);
+}
+if (existsSync(join(aqui, "..", "eclipses-solares.html"))) {
+  const svg = figuraEclipse(sol), ruta = join(img, "eclipses-solares.svg");
+  if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log("ERROR eclipses-solares.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs"); mal++; } }
   else writeFileSync(ruta, svg);
 }
 if (existsSync(join(aqui, "..", "trayectorias.html"))) {

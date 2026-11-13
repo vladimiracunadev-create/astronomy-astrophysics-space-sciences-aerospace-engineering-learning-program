@@ -11,7 +11,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 3. [Fuentes, modelos y límites](FUENTES_Y_MODELOS.md): constantes, orientación de los cuerpos y qué es dato frente a ilustración.
 4. [Tabla de precisión](TABLA_DE_PRECISION.md): error medido de **cada uno** de los 463 cuerpos contra JPL Horizons.
 
-## Los trece simuladores
+## Los simuladores
 
 | Esquema | Simulador | Documento | Estado |
 |---|---|---|---|
@@ -28,20 +28,18 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 | ![Cielo desde Júpiter](../img/cielo-jupiter.svg) | **Cielo desde Júpiter** | [cielo-jupiter.md](cielo-jupiter.md) | Publicado |
 | ![Cielo desde Saturno](../img/cielo-saturno.svg) | **Cielo desde Saturno** | [cielo-saturno.md](cielo-saturno.md) | Publicado |
 | ![Trayectorias entre planetas](../img/trayectorias.svg) | **Trayectorias entre planetas** | [trayectorias.md](trayectorias.md) | Publicado |
+| ![Eclipses solares](../img/eclipses-solares.svg) | **Eclipses solares** | [eclipses-solares.md](eclipses-solares.md) | Publicado |
 
 ## Qué se valida y contra qué
 
 | Qué | Contra qué | Resultado |
 |---|---|---|
-| Posición de cada planeta y luna (469 cuerpos) | JPL Horizons, 120 épocas aleatorias no nodales por cuerpo | Peor error relativo 3,2×10⁻⁴ del radio orbital; planetas interiores < 0,01 km |
+| Posición de cada planeta y luna (463 cuerpos) | JPL Horizons, 120 épocas aleatorias no nodales por cuerpo | Peor error relativo 3,2×10⁻⁴ del radio orbital; planetas interiores < 0,01 km |
 | Eclipses de Sol y de Luna 2027–2050 | Catálogo de la NASA (Espenak y Meeus) | 109 de 109; hora ≤ 0,8 min; γ ≤ 0,0007 |
 | Fases de la Luna | U.S. Naval Observatory | 1 187 de 1 187; ≤ 1,6 min |
 | Equinoccios y solsticios; perihelio y afelio | U.S. Naval Observatory | 96 de 96 y 48 de 48; ≤ 1 min |
 | Longitud solar de Marte (Ls) | Convención de Clancy et al. (perihelio en Ls = 251°) | 13 perihelios; desvío ≤ 2,02° |
 | Oposiciones de Marte | Fechas publicadas (2027-02-19, 2029-03-25, 2031-05-04) | Coinciden |
-| Salidas y puestas del Sol y de la Luna | U.S. Naval Observatory | 96 y 92 eventos; ≤ 0,52 min |
-| Problema de Lambert y transferencia de Hohmann | Ejemplo 5.2 de Curtis y fórmulas analíticas | ≤ 5×10⁻⁴ km/s; ventana Tierra–Marte 2028–2029 con C3 mínimo 9,0 km²/s² |
-| Sistema de Plutón | Cociente de masas Caronte/Plutón | 0,1221 con los datos; el publicado es ≈ 0,122 |
 | Estaciones de Urano y de Saturno | Geometría de la órbita y del eje | Solsticio de Urano ≈ 2030; el Sol cruza el plano de los anillos de Saturno ≈ 2039-01-22 |
 
 Se ejecuta con `python herramientas/validar_simuladores.py` y en la integración continua en cada cambio.
