@@ -97,3 +97,17 @@ export const ANILLOS = {
   "799": [ { n: "6", a: 41837, b: 41840, o: 0.5 }, { n: "5", a: 42234, b: 42237, o: 0.5 }, { n: "4", a: 42570, b: 42573, o: 0.5 }, { n: "α", a: 44718, b: 44724, o: 0.55 }, { n: "β", a: 45661, b: 45667, o: 0.55 }, { n: "η", a: 47176, b: 47178, o: 0.4 }, { n: "γ", a: 47627, b: 47631, o: 0.5 }, { n: "δ", a: 48300, b: 48304, o: 0.5 }, { n: "λ", a: 50024, b: 50026, o: 0.35 }, { n: "ε", a: 51149, b: 51159, o: 0.7 } ],
   "899": [ { n: "Galle", a: 40900, b: 42900, o: 0.1 }, { n: "Le Verrier", a: 53200, b: 53250, o: 0.3 }, { n: "Arago", a: 57200, b: 57250, o: 0.1 }, { n: "Adams", a: 62900, b: 62960, o: 0.4 } ],
 };
+
+const RAD_ = Math.PI / 180;
+/** Longitud solar areocéntrica Ls (0° = equinoccio de primavera boreal). */
+export function longitudSolar(rM, vM, polo) {
+  const nrm = (a) => Math.hypot(a[0], a[1], a[2]);
+  const cr = (a, b) => [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]];
+  const dt = (a, b) => a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
+  let h = cr(rM, vM); const hn = nrm(h); h = [h[0] / hn, h[1] / hn, h[2] / hn];
+  let x = cr(polo, h); const xn = nrm(x); x = [x[0] / xn, x[1] / xn, x[2] / xn];
+  if (dt(cr(h, x), polo) < 0) x = [-x[0], -x[1], -x[2]]; // el Sol cruza el ecuador hacia el norte en x
+  const y = cr(h, x);
+  const rn = nrm(rM), s = [-rM[0] / rn, -rM[1] / rn, -rM[2] / rn];
+  return ((Math.atan2(dt(s, y), dt(s, x)) / RAD_) + 360) % 360;
+}

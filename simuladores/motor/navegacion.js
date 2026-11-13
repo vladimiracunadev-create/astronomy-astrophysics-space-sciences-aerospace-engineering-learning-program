@@ -2,6 +2,7 @@
 // Lista única de simuladores (la usan el concentrador y la barra de navegación de cada página).
 export const SIMULADORES = [
   { clave: "tierra", href: "tierra-sol-luna.html", titulo: "Tierra · Sol · Luna", resumen: "Fases, distancia y tamaños angulares, iluminación y eclipses calculados desde las efemérides." },
+  { clave: "marte", href: "marte.html", titulo: "Marte y sus dos lunas", resumen: "Fobos y Deimos alrededor de Marte, con órbitas, sombras y tamaños reales." },
 ];
 
 export function barraNavegacion(actual) {

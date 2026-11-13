@@ -6,7 +6,7 @@ import { dirname, join } from "node:path";
 import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
-import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM } from "../motor/cuerpos.js";
+import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM, longitudSolar } from "../motor/cuerpos.js";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const datos = join(aqui, "..", "datos");
@@ -77,6 +77,28 @@ if (sistemas.sol) {
   cerca(polo[2], Math.cos(23.4392911 * Math.PI / 180), 1e-9, "polo terrestre J2000 vs oblicuidad");
   const b = baseDelCuerpo(PLANETAS["499"].polo, 2461406.5);
   cerca(b.x[0] * b.y[0] + b.x[1] * b.y[1] + b.x[2] * b.y[2], 0, 1e-9, "base ortogonal");
+}
+
+// 5b. Marte: longitud solar Ls. Por definición, el perihelio de Marte ocurre en Ls ≈ 251° (convención de Clancy et al. 2000)
+if (sistemas.sol) {
+  const m = sistemas.sol.cuerpo("499");
+  const dist = (jd) => Math.hypot(...m.pos(jd));
+  const ls = (jd) => longitudSolar(m.pos(jd), m.vel(jd), baseDelCuerpo(PLANETAS["499"].polo, jd).z);
+  const dif = (a, b) => Math.abs(((a - b + 540) % 360) - 180);
+  const j0 = jdTdbDesdeUtc(JD_UTC_INICIO); let n = 0, peor = 0;
+  for (let jd = j0 + 1; jd < j0 + 8700; jd += 1) {
+    if (dist(jd) < dist(jd - 1) && dist(jd) < dist(jd + 1)) {
+      let lo = jd - 1, hi = jd + 1; // mínimo por sección áurea
+      for (let k = 0; k < 40; k++) { const c = lo + (hi - lo) * 0.382, d = lo + (hi - lo) * 0.618; if (dist(c) < dist(d)) hi = d; else lo = c; }
+      const v = ls((lo + hi) / 2); peor = Math.max(peor, dif(v, 251)); n++;
+    }
+  }
+  afirmar(n >= 12, `perihelios de Marte encontrados: ${n}`);
+  afirmar(peor < 3, `Ls en el perihelio de Marte se aparta ${peor.toFixed(2)}° de 251°`);
+  // continuidad y sentido: Ls crece ~0,5°/día
+  const v1 = ls(j0), v2 = ls(j0 + 10);
+  afirmar(dif(v2 - v1, 5) < 2.5, `Ls crece ${((v2 - v1 + 360) % 360).toFixed(2)}° en 10 d`);
+  console.log(`Marte Ls: ${n} perihelios, peor desvío de 251°: ${peor.toFixed(2)}°`);
 }
 
 // 6. Eclipses (Sol/Luna) contra el catálogo de la NASA

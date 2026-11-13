@@ -28,3 +28,12 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 | ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
 |---:|---|---:|---:|---:|---|---:|---:|---|
 | 301 | Moon | 1 737,4 | 751 min | 52.7 | f32 | 0,019 | 0,010 |  |
+
+## Marte
+
+2 cuerpos · peor error máximo: Phobos (2,35 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@499`.
+
+| ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
+|---:|---|---:|---:|---:|---|---:|---:|---|
+| 401 | Phobos | 11,1 | 63 min | 7.3 | i16 | 2,350 | 1,195 |  |
+| 402 | Deimos | 6,2 | 260 min | 7.0 | i16 | 1,919 | 1,160 |  |
