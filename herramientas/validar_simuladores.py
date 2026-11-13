@@ -29,7 +29,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 SIM = RAIZ / "simuladores"
 errores: list[str] = []
 ENTORNO = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-SISTEMAS = ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno"]
+SISTEMAS = ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton"]
 
 
 def err(msg: str) -> None:

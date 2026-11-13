@@ -20,7 +20,7 @@ function cargar(nombre) {
   return sistemaDesdeBytes(meta, readFileSync(join(datos, `${nombre}.bin`)));
 }
 const sistemas = {};
-for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
+for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
 const verif = JSON.parse(readFileSync(join(datos, "verificacion.json"), "utf8"));
 
 // 1. Interpolación: reproduce el error medido contra JPL en épocas que no son nodos de la tabla
@@ -182,6 +182,16 @@ if (sistemas.sol && sistemas.tierra) {
     if (o) cerca(o.dist_ua, d, 0.002, `distancia en la oposición de Marte ${f}`);
   }
   afirmar(op.length === 12, `oposiciones de Marte 2027–2050: ${op.length}`);
+}
+
+// 5d. Sistema de Plutón: baricentro fuera de Plutón; cociente de masas = cociente inverso de distancias al baricentro
+if (sistemas.pluton) {
+  const P = sistemas.pluton, jd = jdTdbDesdeUtc(JD_UTC_INICIO);
+  const dP = Math.hypot(...P.pos("999", jd)), dC = Math.hypot(...P.pos("901", jd));
+  const sep = Math.hypot(...[0, 1, 2].map((k) => P.pos("901", jd)[k] - P.pos("999", jd)[k]));
+  cerca(dP / dC, 0.1218, 0.001, "cociente de masas Caronte/Plutón"); // M_Caronte/M_Plutón ≈ 0,1218 (New Horizons)
+  cerca(sep, 19591, 15, "separación Plutón–Caronte [km]");
+  afirmar(dP > 1188.3, "el baricentro debe quedar fuera de Plutón");
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

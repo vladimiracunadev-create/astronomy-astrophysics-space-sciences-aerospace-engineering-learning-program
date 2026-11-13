@@ -151,14 +151,19 @@ export async function iniciar(cfg) {
     const l = vista.añadir({ id: "301", nombre: "Luna", radio: LUNA.radio, color: LUNA.color, textura: "luna", prioridad: 50, ampliable: true, tipo: "luna", tabla: tierraSis.cuerpo("301"), fisico: LUNA, relativo: "399" });
     objetos.push(l); lunas.push(l);
   } else {
-    const c = crearPlaneta(pid, false);
+    const c = cfg.baricentro
+      ? vista.añadir({ id: "bari", nombre: cfg.baricentro, radio: 0, color: "#ffffff", prioridad: 900, ampliable: false, tipo: "baricentro", tabla: null })
+      : crearPlaneta(pid, false);
     c.pos = [0, 0, 0]; c.esCentro = true; c.noMover = true;
     objetos.push(c);
     for (const m of sis.meta.cuerpos) {
       const t = sis.cuerpo(m.id);
       const radio = m.radio_km || (m.id === "301" ? LUNA.radio : 0);
       const o = vista.añadir({ id: String(m.id), nombre: m.nombre, designacion: m.designacion, radio, color: COLOR_SATELITE[m.id] || "#b9b4aa",
-        textura: m.id === "301" ? "luna" : (COLOR_SATELITE[m.id] || "#b9b4aa"), prioridad: radio ? Math.min(900, radio) : 0, ampliable: true, tipo: "luna", tabla: t, meta: m, orbitaMinPx: 5, orbitaRadioKm: m.a_km });
+        textura: m.id === "301" ? "luna" : m.id === "999" ? "pluton" : (COLOR_SATELITE[m.id] || "#b9b4aa"), prioridad: radio ? Math.min(900, radio) : 0, ampliable: true,
+        tipo: m.id === "999" ? "planeta enano" : "luna", tabla: t, meta: m, orbitaMinPx: 5, orbitaRadioKm: m.a_km, aplan: 0, color2: null });
+      if (m.id === "999") { o.fisico = PLANETAS["9"]; o.color = PLANETAS["9"].color; o.nombre = "Plutón"; }
+      if (m.id === "901") o.nombre = "Caronte";
       o.actualizarOrbita = function () {
         const jd = reloj.jdTdb, P = this.meta.periodo_d || 1;
         const ref = this._orbJd;
@@ -181,7 +186,7 @@ export async function iniciar(cfg) {
       objetos.push(o); lunas.push(o);
     }
   }
-  const central = esSol ? solObj : vista.porId.get(pid);
+  const central = esSol ? solObj : vista.porId.get(cfg.baricentro ? "bari" : pid);
   const planetas = objetos.filter((o) => o.tipo === "planeta" || o.tipo === "planeta enano");
   const geo = cfg.eclipses ? crearGeometria(sol, sis) : null;
 
@@ -230,6 +235,7 @@ export async function iniciar(cfg) {
       const h = sol.pos(pid, jd, tmp);
       solObj.pos[0] = -h[0]; solObj.pos[1] = -h[1]; solObj.pos[2] = -h[2];
       central.base = pid === "399" ? baseTierra(jd) : baseDelCuerpo(PLANETAS[pid].polo, jd);
+      const pluto = cfg.baricentro ? vista.porId.get("999") : null;
       const dSol = nrm(solObj.pos), s = [solObj.pos[0] / dSol, solObj.pos[1] / dSol, solObj.pos[2] / dSol];
       const Rp = PLANETAS[pid].radio;
       for (const o of lunas) {
@@ -238,8 +244,15 @@ export async function iniciar(cfg) {
         if (o.oculto) continue;
         o.tabla.pos(jd, o.pos);
         // eclipse por la sombra del planeta (cono de umbra)
-        o.eclipsado = sombra(o.pos, h, o.radio || 0);
-        if (o.id === "301") { // rotación síncrona media (sin libración)
+        o.eclipsado = cfg.baricentro ? 0 : sombra(o.pos, h, o.radio || 0);
+        if (cfg.baricentro && (o.id === "901" || o.id === "999")) { // Plutón y Caronte: rotación síncrona, se miran siempre la misma cara
+          const otro = vista.porId.get(o.id === "901" ? "999" : "901");
+          const ex = [otro.pos[0] - o.pos[0], otro.pos[1] - o.pos[1], otro.pos[2] - o.pos[2]]; const n = nrm(ex);
+          const X = [ex[0] / n, ex[1] / n, ex[2] / n];
+          let Z = o.id === "999" ? baseDelCuerpo(PLANETAS["9"].polo, jd).z : [0, 0, 1];
+          const k = dot(Z, X); Z = [Z[0] - k * X[0], Z[1] - k * X[1], Z[2] - k * X[2]]; const zn = nrm(Z); Z = [Z[0] / zn, Z[1] / zn, Z[2] / zn];
+          o.base = { x: X, y: [Z[1] * X[2] - Z[2] * X[1], Z[2] * X[0] - Z[0] * X[2], Z[0] * X[1] - Z[1] * X[0]], z: Z };
+        } else if (o.id === "301") { // rotación síncrona media (sin libración)
           const ex = [-o.pos[0], -o.pos[1], -o.pos[2]]; const n = nrm(ex);
           const X = [ex[0] / n, ex[1] / n, ex[2] / n];
           let Z = [0, 0, 1]; const k = dot(Z, X); Z = [Z[0] - k * X[0], Z[1] - k * X[1], Z[2] - k * X[2]]; const zn = nrm(Z); Z = [Z[0] / zn, Z[1] / zn, Z[2] / zn];
@@ -266,13 +279,19 @@ export async function iniciar(cfg) {
     out.push(["Radio" + (fis && fis.aplan ? " ecuatorial" : ""), o.radio ? `${fmt(o.radio, o.radio < 100 ? 1 : 0)} km` : "no publicado"]);
     out.push(["Distancia al Sol", `${fmt(dSol / UA_KM, 4)} UA · luz ${fmt(dSol / C_KM_S / 60, 1)} min`]);
     if (o !== solObj && !o.esCentro && !esSol && o.tabla) {
-      const rel = p, d = nrm(rel);
-      out.push([`Distancia a ${PLANETAS[pid].nombre}`, `${fmt(d)} km · ${fmt(d / PLANETAS[pid].radio, 1)} R`]);
-      const v = o.tabla.vel(jd);
+      // En el sistema de Plutón todo gira en torno al baricentro; Caronte se describe respecto de Plutón (órbita relativa).
+      const plu = cfg.baricentro && o.id === "901" ? vista.porId.get("999") : null;
+      const rel = plu ? [p[0] - plu.pos[0], p[1] - plu.pos[1], p[2] - plu.pos[2]] : p, d = nrm(rel);
+      const refN = cfg.baricentro ? (plu ? "Plutón" : "el baricentro") : PLANETAS[pid].nombre;
+      out.push([`Distancia a ${refN}`, `${fmt(d)} km${cfg.baricentro ? "" : ` · ${fmt(d / PLANETAS[pid].radio, 1)} R`}`]);
+      const v0 = o.tabla.vel(jd), vp = plu ? plu.tabla.vel(jd) : [0, 0, 0];
+      const v = [v0[0] - vp[0], v0[1] - vp[1], v0[2] - vp[2]];
       out.push(["Velocidad orbital", `${fmt(nrm(v), 3)} km/s`]);
       const el = elementos(rel, v, PLANETAS[pid].gm);
-      out.push(["a, e, i osculadores", `${fmt(el.a)} km · ${fmt(el.e, 4)} · ${fmt(el.i, 2)}°`]);
-      out.push(["Periodo osculador", `${fmt(el.periodo_d, 3)} d`]);
+      if (!(cfg.baricentro && o.id === "999")) {
+        out.push(["a, e, i osculadores", `${fmt(el.a)} km · ${fmt(el.e, 4)} · ${fmt(el.i, 2)}°`]);
+        out.push(["Periodo osculador", `${fmt(el.periodo_d, 3)} d`]);
+      }
       const hv = [rel[1] * v[2] - rel[2] * v[1], rel[2] * v[0] - rel[0] * v[2], rel[0] * v[1] - rel[1] * v[0]];
       out.push(["Sentido de la órbita", dot(hv, central.base ? central.base.z : [0, 0, 1]) >= 0 ? "directo (como rota el planeta)" : "retrógrado"]);
       const lon = (Math.atan2(rel[1], rel[0]) / RAD + 360) % 360, lat = Math.asin(rel[2] / d) / RAD;
@@ -282,7 +301,7 @@ export async function iniciar(cfg) {
       const fase = (1 + cosA) / 2; // iluminada vista desde el planeta
       out.push(["Iluminación vista desde el planeta", `${fmt(fase * 100, 1)} %`]);
       if (o.eclipsado > 0) out.push(["Estado", `en la sombra de ${PLANETAS[pid].nombre} (${fmt(o.eclipsado * 100, 0)} %)`]);
-      if (pid !== "399" && o.meta && o.meta.periodo_d < 60 && !o.oculto) {
+      if (pid !== "399" && !cfg.baricentro && o.meta && o.meta.periodo_d < 60 && !o.oculto) {
         const ev = proximoEclipse(o, jd);
         out.push([`Próximo eclipse por ${PLANETAS[pid].nombre}`, ev ? `${formatoUtc(jdUtcDesdeTdb2(ev[0]), false)}${ev[1] > ev[0] ? ` · ${fmt((ev[1] - ev[0]) * 1440, 0)} min` : ""}` : `ninguno en ${fmt(Math.min(3 * o.meta.periodo_d, 60), 0)} d`]);
       }
@@ -323,7 +342,7 @@ export async function iniciar(cfg) {
     const dist = (o) => nrm(sub(o.pos, esSol ? [0, 0, 0] : [0, 0, 0]));
     if (ord === "dist") l.sort((a, b) => dist(a) - dist(b)); else if (ord === "radio") l.sort((a, b) => (b.radio || 0) - (a.radio || 0)); else l.sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
     $("lista").innerHTML = l.slice(0, 400).map((o) => `<button role="option" data-id="${o.id}" aria-current="${o === vista.seleccionado}"><span>${o.nombre}${o.oculto ? " (sin efemérides)" : ""}</span><small>${o.radio ? fmt(o.radio, o.radio < 100 ? 1 : 0) + " km" : "—"}</small></button>`).join("");
-    $("tCuerpos").textContent = esSol ? `Cuerpos (${objetos.length + 1})` : `Lunas de ${PLANETAS[pid].nombre} (${lunas.length})`;
+    $("tCuerpos").textContent = esSol ? `Cuerpos (${objetos.length + 1})` : cfg.baricentro ? `Cuerpos del sistema (${lunas.length})` : `Lunas de ${PLANETAS[pid].nombre} (${lunas.length})`;
   }
   $("lista").addEventListener("click", (e) => {
     const b = e.target.closest("button"); if (!b) return;

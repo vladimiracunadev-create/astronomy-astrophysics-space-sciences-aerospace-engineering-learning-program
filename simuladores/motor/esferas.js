@@ -103,6 +103,13 @@ function colorTextura(clave, x, y, z, lon, lat) {
     case "saturno": return colorAnillos(BANDAS_SATURNO, lat + (turb - 0.5) * 4, lon, turb);
     case "urano": { const f = 1 - Math.abs(lat) / 260; return [150 * f + 12 * turb, 214 * f + 8 * turb, 224 * f]; }
     case "neptuno": { const f = 0.9 + 0.2 * turb; const banda = 0.5 + 0.5 * Math.sin(lat * 0.18 + turb * 2); return mezcla([48, 82, 190], [86, 124, 226], banda * 0.5).map((v) => v * f); }
+    case "pluton": { // ilustrativo: llanuras claras («corazón») y terreno oscuro rojizo
+      const n = fbm(x * 6, y * 6, z * 6, 5);
+      const dl = ((lon - 178 + 540) % 360) - 180, d = Math.hypot(dl * Math.cos(20 * Math.PI / 180), lat - 20) / 22;
+      const claro = Math.exp(-d * d * 2);
+      const base = mezcla([112, 78, 62], [176, 140, 112], n);
+      return mezcla(base, [232, 214, 196], Math.min(0.92, claro));
+    }
     case "mercurio": { const n = fbm(x * 10, y * 10, z * 10, 5); const g = 120 + 80 * n; return [g, g * 0.97, g * 0.94]; }
     case "venus": { const n = fbm(x * 3, y * 3, z * 3, 4); return mezcla([226, 196, 130], [244, 226, 176], n); }
     case "sol": { const n = fbm(x * 8, y * 8, z * 8, 4); return mezcla([255, 190, 70], [255, 232, 140], n); }

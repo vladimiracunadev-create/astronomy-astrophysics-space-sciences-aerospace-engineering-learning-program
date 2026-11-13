@@ -45,7 +45,7 @@ FILAS_POR_PETICION = 40000
 N_VERIF = 120          # épocas de verificación por cuerpo
 
 # GM [km^3/s^2] (DE440 / JPL SSD) para estimar periodos orbitales al planificar la tabla
-GM = {"399": 398600.435, "499": 42828.375, "599": 126686534.9, "699": 37931207.8, "799": 5793951.3, "899": 6835099.5}
+GM = {"399": 398600.435, "499": 42828.375, "599": 126686534.9, "699": 37931207.8, "799": 5793951.3, "899": 6835099.5, "9": 975.5}
 
 SISTEMAS = {  # clave: (id del planeta, nombre, filtro de ids de satélites)
     "tierra": ("399", "Tierra", lambda i: i == 301),
@@ -54,6 +54,7 @@ SISTEMAS = {  # clave: (id del planeta, nombre, filtro de ids de satélites)
     "saturno": ("699", "Saturno", lambda i: 601 <= i <= 698 or 65000 < i < 66000),
     "urano": ("799", "Urano", lambda i: 701 <= i <= 798 or 75000 < i < 76000),
     "neptuno": ("899", "Neptuno", lambda i: 801 <= i <= 898 or 85000 < i < 86000),
+    "pluton": ("9", "Plutón (baricentro)", lambda i: i == 999 or 901 <= i <= 905),  # centrado en el baricentro del sistema: Plutón y Caronte lo orbitan
 }
 
 # Planetas heliocéntricos: (id Horizons, nombre, paso en minutos)
@@ -99,8 +100,13 @@ def catalogo_satelites() -> list[dict]:
         return list(ex.map(estado, pedidos))
 
 
+# Plutón y Caronte orbitan su baricentro común: el periodo osculador respecto del GM total del sistema no es el real, se fija el publicado (6,3872 d)
+FIJOS = {"901": {"periodo_d": 6.3872, "e": 0.0002, "radio_km": 606.0}, "999": {"periodo_d": 6.3872, "e": 0.0002}}
+
+
 def planificar(c: dict) -> dict:
     """Elige formato y paso de la tabla. Principal (radio >= 190 km o Luna/lunas de Marte): nodos más densos y float32."""
+    c.update(FIJOS.get(str(c["id"]), {}))
     P = c["periodo_d"]
     principal = (c.get("radio_km") or 0) >= 190 or c["id"] == 301
     if c["id"] == 301:

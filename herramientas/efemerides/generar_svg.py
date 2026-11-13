@@ -25,11 +25,12 @@ DELTA = 69.184 / 86400
 JD_UTC_2027 = 2461406.5
 FONDO, TEXTO, SUAVE, ACENTO = "#070a14", "#e6ecf8", "#9fb0cf", "#ffd45e"
 
+NOMBRE_ES = {"Pluto": "Plutón", "Charon": "Caronte", "Styx": "Estigia", "Kerberos": "Cerbero", "Hydra": "Hidra"}
 RADIO_PLANETA = {"199": 2439.4, "299": 6051.8, "399": 6378.1366, "499": 3396.19, "599": 71492, "699": 60268, "799": 25559, "899": 24764, "9": 1188.3, "2000001": 469.7}
 COLOR_PLANETA = {"199": "#a8a29e", "299": "#e6c88b", "399": "#3b82c4", "499": "#c8643c", "599": "#d8b48a", "699": "#e3cf9f", "799": "#9fd8e0", "899": "#4b70dd", "9": "#c9b79c", "2000001": "#9a948c"}
 NOMBRE_PLANETA = {"199": "Mercurio", "299": "Venus", "399": "Tierra", "499": "Marte", "599": "Júpiter", "699": "Saturno", "799": "Urano", "899": "Neptuno", "9": "Plutón", "2000001": "Ceres"}
 PERIODO_PLANETA = {"199": 87.969, "299": 224.701, "399": 365.256, "499": 686.98, "599": 4332.59, "699": 10759.22, "799": 30688.5, "899": 60182, "9": 90560, "2000001": 1680}
-COLOR_LUNA = {"301": "#cfcfc8", "401": "#8d8174", "402": "#a89a88", "501": "#e8d36a", "502": "#c9b79a", "503": "#9d9488", "504": "#6f685f", "505": "#a35c3c", "606": "#d9a441", "602": "#f1f3f5",
+COLOR_LUNA = {"999": "#c9b79c", "901": "#a39d96", "902": "#c8c0b4", "903": "#d2cabc", "904": "#b6ada0", "905": "#c0b8ac", "301": "#cfcfc8", "401": "#8d8174", "402": "#a89a88", "501": "#e8d36a", "502": "#c9b79a", "503": "#9d9488", "504": "#6f685f", "505": "#a35c3c", "606": "#d9a441", "602": "#f1f3f5",
               "601": "#c8c4bd", "603": "#d7d3cc", "604": "#c3b9ae", "605": "#cdc6bb", "607": "#9a8f82", "608": "#6c6256", "701": "#b9b6b0", "702": "#7d7a76", "703": "#a8a5a0", "704": "#9b9893", "705": "#bdb8b0", "801": "#d9cfc6"}
 ANILLOS = {
     "599": [(122500, 129000, 0.35), (129000, 226000, 0.1)],
@@ -44,6 +45,7 @@ SISTEMAS = {
     "saturno": ("699", "Saturno y sus lunas", 3.9e6, "Titán, Encélado, Jápeto y las demás lunas regulares"),
     "urano": ("799", "Urano y sus lunas", 6.4e5, "las cinco lunas mayores y las internas"),
     "neptuno": ("899", "Neptuno y sus lunas", 4.2e5, "Tritón y las lunas internas"),
+    "pluton": ("9", "Plutón y sus lunas", 75000, "Plutón, Caronte, Estigia, Nix, Cerbero e Hidra"),
 }
 ids_texto: list[str] = []
 
@@ -129,7 +131,10 @@ def panel(sis, pid, centro, R_km, lado, jd0, nombre_panel, rotular, solo_regular
     out = [f'<rect x="{f1(cx - lado / 2)}" y="{f1(cy - lado / 2)}" width="{lado}" height="{lado}" rx="10" fill="#0b1020" stroke="#26314f"/>',
            f'<clipPath id="cp{int(cx)}"><rect x="{f1(cx - lado / 2)}" y="{f1(cy - lado / 2)}" width="{lado}" height="{lado}" rx="10"/></clipPath>', f'<g clip-path="url(#cp{int(cx)})">']
     out += anillos(cx, cy, pid, km_px)
-    out.append(planeta_disco(cx, cy, RADIO_PLANETA[pid], km_px, COLOR_PLANETA[pid]))
+    if pid == "9":  # centro = baricentro (no es un cuerpo)
+        out.append(f'<path d="M{f1(cx - 5)} {f1(cy)}H{f1(cx + 5)}M{f1(cx)} {f1(cy - 5)}V{f1(cy + 5)}" stroke="#ffffff" stroke-width="1"/>')
+    else:
+        out.append(planeta_disco(cx, cy, RADIO_PLANETA[pid], km_px, COLOR_PLANETA[pid]))
     pts = []
     for c in sis.cuerpos.values():
         a = c.meta.get("a_km") or 0
@@ -156,12 +161,12 @@ def panel(sis, pid, centro, R_km, lado, jd0, nombre_panel, rotular, solo_regular
         if n_rot >= rotular:
             break
         x, y = cx + p[0] / km_px, cy - p[1] / km_px
-        w = 6.4 * len(c.nombre)
+        w = 6.4 * len(NOMBRE_ES.get(c.nombre, c.nombre))
         caja = (x + 6, y - 14, x + 6 + w, y + 2)
         if caja[2] > cx + lado / 2 - 6 or any(not (caja[2] < o[0] or caja[0] > o[2] or caja[3] < o[1] or caja[1] > o[3]) for o in ocupado):
             continue
         ocupado.append(caja); n_rot += 1
-        out.append(texto(x + 6, y - 3, c.nombre, 11, TEXTO))
+        out.append(texto(x + 6, y - 3, NOMBRE_ES.get(c.nombre, c.nombre), 11, TEXTO))
     out.append("</g>")
     out += barra_escala(cx - lado / 2 + 16, cy + lado / 2 - 14, km_px, elegir_escala(R_km, lado / 2))
     out.append(texto(cx - lado / 2 + 16, cy - lado / 2 + 24, nombre_panel, 13, ACENTO, peso="600"))
@@ -173,13 +178,13 @@ def fig_sistema(clave: str) -> str:
     sis = lectura.Sistema(clave)
     jd0 = jd_tdb(JD_UTC_2027)
     todas = list(sis.cuerpos.values())
-    R2 = max((c.meta.get("a_km") or 0) for c in todas) * 1.1
+    R2 = 24000 if pid == "9" else max((c.meta.get("a_km") or 0) for c in todas) * 1.1
     n_ef = sum(1 for c in todas if c.meta["jd_valido_ini"] <= jd0 <= c.meta["jd_valido_fin"])
     lado = 520
-    L = abrir(titulo, f"Esquema a escala de {titulo} el {formato_fecha(JD_UTC_2027)}: {len(todas)} lunas con efemérides oficiales de JPL.")
+    L = abrir(titulo, f"Esquema a escala de {titulo} el {formato_fecha(JD_UTC_2027)}: {len(todas)} cuerpos con efemérides oficiales de JPL.")
     L += encabezado(titulo, f"{len(todas)} lunas con efemérides oficiales · época {formato_fecha(JD_UTC_2027)}")
     p1, n1 = panel(sis, pid, (32 + lado / 2, 100 + lado / 2 + 8), R1, lado, jd0, f"Panel 1 · {desc1} (radio {R1 / 1e3:,.0f} mil km)".replace(",", " "), 14)
-    p2, n2 = panel(sis, pid, (W - 32 - lado / 2, 100 + lado / 2 + 8), R2, lado, jd0, f"Panel 2 · todas las lunas ({n_ef} visibles)", 0, orbitas=False)
+    p2, n2 = panel(sis, pid, (W - 32 - lado / 2, 100 + lado / 2 + 8), R2, lado, jd0, (f"Panel 2 · Plutón y Caronte (radio 24 mil km)" if pid == "9" else f"Panel 2 · todas las lunas ({n_ef} visibles)"), 4 if pid == "9" else 0, orbitas=(pid == "9"))
     L += p1 + p2
     L.append(texto(W / 2, 100 + lado + 4 + 20, "El planeta, sus anillos y las lunas están dibujados con su tamaño real en la misma escala del panel (las lunas pequeñas se marcan con puntos de 3 px).", 11, SUAVE, "middle"))
     L.append("</svg>")

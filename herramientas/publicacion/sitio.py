@@ -395,7 +395,7 @@ def pie_de(rel_md: str, anterior, siguiente, p: str) -> str:
 
 # Simuladores interactivos (páginas HTML propias, fuera del generador de Markdown); el orden es el de simuladores/motor/navegacion.js
 SIMULADORES = [("Sistema Solar", "sistema-solar.html"), ("Tierra · Sol · Luna", "tierra-sol-luna.html"), ("Marte y sus dos lunas", "marte.html"),
-               ("Júpiter y sus lunas", "jupiter.html"), ("Saturno y sus lunas", "saturno.html"), ("Urano y sus lunas", "urano.html"), ("Neptuno y sus lunas", "neptuno.html")]
+               ("Júpiter y sus lunas", "jupiter.html"), ("Saturno y sus lunas", "saturno.html"), ("Urano y sus lunas", "urano.html"), ("Neptuno y sus lunas", "neptuno.html"), ("Plutón y sus lunas", "pluton.html")]
 
 
 # ------------------------------------------------------------------ construcción

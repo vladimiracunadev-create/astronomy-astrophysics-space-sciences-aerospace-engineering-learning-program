@@ -11,7 +11,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 3. [Fuentes, modelos y límites](FUENTES_Y_MODELOS.md): constantes, orientación de los cuerpos y qué es dato frente a ilustración.
 4. [Tabla de precisión](TABLA_DE_PRECISION.md): error medido de **cada uno** de los 463 cuerpos contra JPL Horizons.
 
-## Los siete simuladores
+## Los simuladores
 
 | Esquema | Simulador | Documento | Estado |
 |---|---|---|---|
@@ -22,6 +22,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 | ![Saturno](../img/saturno.svg) | **Saturno y sus lunas** | [saturno.md](saturno.md) | Publicado |
 | ![Urano](../img/urano.svg) | **Urano y sus lunas** | [urano.md](urano.md) | Publicado |
 | ![Neptuno](../img/neptuno.svg) | **Neptuno y sus lunas** | [neptuno.md](neptuno.md) | Publicado |
+| ![Plutón](../img/pluton.svg) | **Plutón y sus lunas** | [pluton.md](pluton.md) | Publicado |
 
 ## Qué se valida y contra qué
 

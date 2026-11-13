@@ -21,7 +21,7 @@ export const PLANETAS = {
   "699": { nombre: "Saturno", radio: 60268, gm: 37931207.8, aplan: 0.09796, color: "#e3cf9f", albedo: 0.342, polo: { a0: 40.589, d0: 83.537, W0: 38.90, Wd: 810.7939024, da0: -0.036, dd0: -0.004 } },
   "799": { nombre: "Urano", radio: 25559, gm: 5793951.3, aplan: 0.02293, color: "#9fd8e0", albedo: 0.3, polo: { a0: 257.311, d0: -15.175, W0: 203.81, Wd: -501.1600928 } },
   "899": { nombre: "Neptuno", radio: 24764, gm: 6835099.5, aplan: 0.01708, color: "#4b70dd", albedo: 0.29, polo: { a0: 299.36, d0: 43.46, W0: 249.978, Wd: 541.1397757 } },
-  "9": { nombre: "Plutón", radio: 1188.3, gm: 869.6, aplan: 0, color: "#c9b79c", albedo: 0.52, polo: { a0: 132.993, d0: -6.163, W0: 302.695, Wd: 56.3625225 }, enano: true },
+  "9": { nombre: "Plutón", radio: 1188.3, gm: 975.5 /* GM del sistema Plutón–Caronte */, aplan: 0, color: "#c9b79c", albedo: 0.52, polo: { a0: 132.993, d0: -6.163, W0: 302.695, Wd: 56.3625225 }, enano: true },
   "2000001": { nombre: "Ceres", radio: 469.7, gm: 62.6284, aplan: 0, color: "#9a948c", albedo: 0.09, polo: { a0: 291.418, d0: 66.764, W0: 170.650, Wd: 952.1532 }, enano: true },
 };
 

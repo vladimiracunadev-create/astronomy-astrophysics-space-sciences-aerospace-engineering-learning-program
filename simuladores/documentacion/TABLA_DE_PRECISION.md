@@ -515,3 +515,16 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 | 814 | Hippocamp | — | 195 min | 7,0 | i16 | 9,184 | 5,003 |  |
 | 85051 | S2002_N5 | — | 28,35 d | 111,6 | f32 | 148,143 | 109,566 |  |
 | 85052 | S2021_N1 | — | 30 d | 343,3 | f32 | 148,351 | 100,874 |  |
+
+## Plutón y sus lunas (centro: baricentro)
+
+6 cuerpos · peor error máximo: Hydra (3,55 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@9`.
+
+| ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
+|---:|---|---:|---:|---:|---|---:|---:|---|
+| 901 | Charon | 606,0 | 790 min | 11,6 | f32 | 0,009 | 0,006 |  |
+| 902 | Nix | 18,0 | 1276 min | 29,1 | f32 | 1,537 | 0,510 |  |
+| 903 | Hydra | 18,5 | 1,358 d | 28,4 | f32 | 3,551 | 1,450 |  |
+| 904 | Kerberos | 6,0 | 1,147 d | 28,4 | f32 | 2,901 | 1,017 |  |
+| 905 | Styx | 5,2 | 1017 min | 29,9 | f32 | 0,798 | 0,233 |  |
+| 999 | Pluto | 1 188,3 | 790 min | 11,6 | f32 | 0,001 | 0,001 |  |
