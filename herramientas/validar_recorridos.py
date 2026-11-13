@@ -152,7 +152,7 @@ def main() -> int:
             if faltan:
                 errores.append(f"{rid}: los pasos no incluyen {len(faltan)} clases que exige el mapa de módulos, p. ej. {sorted(faltan)[:5]}")
         else:
-            avisos.append(f"{rid}: sin mapa de módulos (pendiente): falta ubicar sus 10 temas por módulo en el tronco común")
+            avisos.append(f"{rid}: recorrido por fases sin campo 'modulos' (capa heredada); la ubicación de sus 8 módulos en áreas y bloques ya está en catalogo/estructura/colocacion/{rid}.json y es la que usan las guías, el sitio y los PDF")
         tronco = {c for c in usadas if c.startswith("B")}
         ruta = {c for c in usadas if c.startswith("R")}
         for c in usadas:

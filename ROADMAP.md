@@ -63,7 +63,8 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 ## Horizonte G · rutas R01–R24
 
-- [ ] Resolver módulos por ruta reutilizando el tronco común.
+- [x] Ubicar los 192 módulos de las 24 rutas en áreas y bloques (`catalogo/estructura/colocacion/`, 1.920 temas); es la base de las guías por rol, el sitio y los PDF.
+- [ ] Recorrido por fases (`metadatos/recorridos/`, capa heredada): definir R01 a R11 y R13 y pasar los de R12 y R14 a R24 a las clases actuales.
 - [ ] Añadir diagnóstico, checkpoints, proyecto final y criterio de salida.
 - [ ] Probar que no hay duplicación mecánica con bloques ya desarrollados.
 
