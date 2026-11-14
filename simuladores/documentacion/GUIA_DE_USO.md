@@ -41,6 +41,14 @@ Elija un **lugar** (lista, o latitud y longitud este), arrastre para **girar la 
 
 Elija **Desde** y **Hacia**, la ventana de salida y los tiempos de vuelo, y pulse **Calcular** (o un ejemplo). En el gráfico porkchop **un clic** elige cualquier transferencia; el círculo blanco es el mínimo de la métrica elegida. Las altitudes de las órbitas de salida y llegada cambian el Δv. En la vista 3D, el control «Instante del viaje» (o ▶) recorre el viaje.
 
+## Misiones, calendario, cometas y asistencias
+
+- **[Misiones espaciales](misiones.md)**: elija la misión en la lista de arriba y pulse ▶. El mapa muestra cada encuentro con un planeta (anillo vacío = futuro, lleno = ya ocurrió) y lo que ganó o perdió de velocidad (▲ / ▼); un clic en el gráfico de velocidad o en un encuentro salta a esa fecha; ⏪ y ⏩ saltan al encuentro anterior y siguiente; «Cámara lenta en los encuentros» frena el tiempo al acercarse a cada planeta; «Escala lineal» muestra las proporciones reales (por defecto se comprime la distancia para ver a la vez los planetas interiores y los exteriores). El detalle del encuentro, en la barra lateral, muestra el planeta a escala.
+- **[Calendario planetario](calendario.md)**: filtre por año, planeta y tipo de fenómeno, elija uno en la lista (o ⏪ ⏩) y vea la geometría Sol–Tierra–planeta con el ángulo de elongación; el gráfico inferior es la longitud del planeta menos la del Sol, y se puede descargar la lista filtrada en CSV.
+- **[Cometas](cometas.md)**: elija el cometa, la vista (desde el polo norte o de canto) y pulse ▶; los hitos (perihelio, afelio y acercamientos a la Tierra y Júpiter) son clicables.
+- **[Asistencias gravitatorias](asistencias.md)**: cargue un caso real o mueva v∞, la altura del paso y los ángulos θ y γ; «Máxima ganancia» y «Máximo frenado» buscan la mejor geometría.
+- Los enlaces de misiones y cometas se comparten con `#m=<id de la nave>` y `#c=<designación>`.
+
 ## Accesibilidad
 
 Los controles se manejan con teclado y tienen etiquetas; el escenario puede enfocarse con Tab y manejarse con flechas. Los colores cumplen contraste sobre fondo oscuro. Los simuladores no reproducen nada solos ni usan sonido. La información visual relevante (fase, distancia, iluminación) también aparece como texto en el panel.

@@ -1,6 +1,6 @@
 # 🪐 Simuladores del Sistema Solar 2027–2050
 
-Dieciséis simuladores interactivos en **JavaScript puro** (sin dependencias ni servidores) que funcionan en **GitHub Pages**. Dibujan posiciones **oficiales** de NASA/JPL Horizons entre el **1 de enero de 2027** y el **31 de diciembre de 2050**, con **tamaños y distancias reales**, y cada número está validado de forma automática.
+Veintitrés simuladores interactivos en **JavaScript puro** (sin dependencias ni servidores) que funcionan en **GitHub Pages**. Dibujan posiciones **oficiales** de NASA/JPL Horizons entre el **1 de enero de 2027** y el **31 de diciembre de 2050**, con **tamaños y distancias reales**, y cada número está validado de forma automática.
 
 [🌐 Abrir los simuladores](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/index.html) · [📖 Documentación](documentacion/README.md) · [📏 Estándar](../documentacion/ESTANDAR_DE_SIMULADORES.md)
 
@@ -19,7 +19,7 @@ Los enlaces a los simuladores abren la **página funcional** en GitHub Pages; lo
 | [**Neptuno y sus lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/neptuno.html) | 16 lunas: Tritón retrógrada, Nereida excéntrica y anillos | [neptuno.md](documentacion/neptuno.md) |
 | [**Plutón y sus lunas**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/pluton.html) | Plutón, Caronte, Estigia, Nix, Cerbero e Hidra girando en torno a un baricentro exterior a Plutón | [pluton.md](documentacion/pluton.md) |
 
-## El cielo desde cuatro mundos
+## El cielo desde ocho mundos
 
 | Simulador | Qué muestra | Documentación |
 |---|---|---|
@@ -32,7 +32,7 @@ Los enlaces a los simuladores abren la **página funcional** en GitHub Pages; lo
 | [**Cielo desde Tritón**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-triton.html) | Neptuno de ≈ 8° fijo en el cielo, con fases, desde una luna de órbita retrógrada | [cielo-triton.md](documentacion/cielo-triton.md) |
 | [**Cielo desde Titán**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-titan.html) | Saturno de ≈ 5° fijo en el cielo, con fases, y los anillos casi de canto | [cielo-titan.md](documentacion/cielo-titan.md) |
 
-## Trayectorias, eclipses y misiones
+## Trayectorias, eclipses, calendario, misiones, asistencias y cometas
 
 | Simulador | Qué muestra | Documentación |
 |---|---|---|

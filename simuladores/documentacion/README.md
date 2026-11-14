@@ -9,7 +9,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 1. [Guía de uso](GUIA_DE_USO.md): tiempo, cámara, escala, enlaces compartibles y accesibilidad.
 2. [Datos y efemérides](DATOS_Y_EFEMERIDES.md): fuentes, formato, interpolación, sistema de referencia, tiempo y errores.
 3. [Fuentes, modelos y límites](FUENTES_Y_MODELOS.md): constantes, orientación de los cuerpos y qué es dato frente a ilustración.
-4. [Tabla de precisión](TABLA_DE_PRECISION.md): error medido de **cada uno** de los 463 cuerpos contra JPL Horizons.
+4. [Tabla de precisión](TABLA_DE_PRECISION.md): error medido de **cada uno** de los 516 cuerpos contra JPL Horizons.
 
 ## Los simuladores
 
@@ -43,13 +43,16 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 
 | Qué | Contra qué | Resultado |
 |---|---|---|
-| Posición de cada planeta y luna (463 cuerpos) | JPL Horizons, 120 épocas aleatorias no nodales por cuerpo | Peor error relativo 3,2×10⁻⁴ del radio orbital; planetas interiores < 0,01 km |
+| Posición de cada planeta, luna, nave y cometa (516 cuerpos) | JPL Horizons, 120 épocas aleatorias no nodales por cuerpo | Peor error relativo 3,2×10⁻⁴ del radio orbital; planetas interiores < 0,01 km |
 | Eclipses de Sol y de Luna 2027–2050 | Catálogo de la NASA (Espenak y Meeus) | 109 de 109; hora ≤ 0,8 min; γ ≤ 0,0007 |
 | Fases de la Luna | U.S. Naval Observatory | 1 187 de 1 187; ≤ 1,6 min |
 | Equinoccios y solsticios; perihelio y afelio | U.S. Naval Observatory | 96 de 96 y 48 de 48; ≤ 1 min |
 | Longitud solar de Marte (Ls) | Convención de Clancy et al. (perihelio en Ls = 251°) | 13 perihelios; desvío ≤ 2,02° |
 | Oposiciones de Marte | Fechas publicadas (2027-02-19, 2029-03-25, 2031-05-04) | Coinciden |
 | Estaciones de Urano y de Saturno | Geometría de la órbita y del eje | Solsticio de Urano ≈ 2030; el Sol cruza el plano de los anillos de Saturno ≈ 2039-01-22 |
+| Calendario planetario (1 563 fenómenos) | JPL Horizons (tabla OBSERVER) en 168 épocas; oposiciones de Marte, Saturno y Neptuno y gran conjunción de 2040 | Elongación ≤ 0,0003° y longitud ≤ 0,0006° (menos de 1 min); fechas dentro de ±0,75 d |
+| Encuentros de las misiones (77) y asistencias gravitatorias | Fechas y distancias publicadas de 60 sobrevuelos; Galileo–Tierra (v∞ 8,95 km/s) | Mismo día en los 60; distancias a ≤ 1,5–150 km; el modelo de cónicas empalmadas reproduce la velocidad de salida de 69 encuentros con error < 0,001 km/s |
+| Cometas (16) | Perihelios publicados de 55P/Tempel–Tuttle y 67P/Churyumov–Gerasimenko; periodo de 2P/Encke; perihelio de 96P | ±5 d; 3,31 ± 0,05 años; ±0,02 UA |
 
 Se ejecuta con `python herramientas/validar_simuladores.py` y en la integración continua en cada cambio.
 

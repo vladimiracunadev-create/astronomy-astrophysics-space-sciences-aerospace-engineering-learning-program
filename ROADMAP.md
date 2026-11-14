@@ -56,7 +56,7 @@ Detalle en el [plan de refinamiento](documentacion/PLAN_DE_REFINAMIENTO_CURRICUL
 
 ## Simuladores del Sistema Solar
 
-- [x] Dieciséis simuladores con efemérides oficiales de JPL (2027–2050): Sistema Solar, Tierra · Sol · Luna, Marte, Júpiter, Saturno, Urano, Neptuno, Plutón, el cielo desde la Tierra, Marte, Júpiter y Saturno, trayectorias entre planetas, franjas de eclipses solares, misiones espaciales y el cinturón de asteroides, con error medido y validación contra la NASA, el U.S. Naval Observatory y la literatura.
+- [x] Veintitrés simuladores con efemérides oficiales de JPL (2027–2050): Sistema Solar, Tierra · Sol · Luna, Marte, Júpiter, Saturno, Urano, Neptuno, Plutón, el cielo desde la Tierra, Marte, Júpiter, Saturno y las lunas Europa, Titania, Tritón y Titán, trayectorias entre planetas, franjas de eclipses solares, calendario planetario, 22 misiones espaciales, asistencias gravitatorias, 16 cometas y el cinturón de asteroides, con error medido y validación contra la NASA, el U.S. Naval Observatory y la literatura.
 - [ ] Ampliaciones futuras según el [estándar](documentacion/ESTANDAR_DE_SIMULADORES.md): cuerpos menores y cometas, un simulador del cinturón de asteroides, una ventana temporal mayor, el cielo desde Urano y Neptuno, asistencias gravitatorias y trayectorias de empuje continuo.
 
 ## Material de integración · anexos, glosarios y talleres
