@@ -145,6 +145,11 @@ def main() -> None:
                 e["excentricidad"] = round(ecc, 4)
                 if ecc <= 1.0:
                     e["orbita"] = orbita = True     # capturada: elipse alrededor del planeta
+                else:
+                    # la distancia mínima exacta sale de la hipérbola del estado (el ajuste parabólico de una malla de minutos se desvía en los pasos rápidos y bajos)
+                    a_h = mu / (float(v @ v) - 2 * mu / float(np.linalg.norm(r)))     # |a| = μ/v∞²; el periastro es |a|·(e − 1)
+                    rp = a_h * (ecc - 1.0)
+                    e["dist_km"] = round(rp, 1); e["alt_km"] = round(rp - RADIO[pid], 1); e["vrel_kms"] = round(math.sqrt(float(v @ v) - 2 * mu / float(np.linalg.norm(r)) + 2 * mu / rp), 3)
                 if ecc > 1.0 and not orbita:
                     ph_, hh = ev / ecc, h / np.linalg.norm(h)
                     qh = np.cross(hh, ph_); th = math.acos(-1 / ecc); k = mu / np.linalg.norm(h)

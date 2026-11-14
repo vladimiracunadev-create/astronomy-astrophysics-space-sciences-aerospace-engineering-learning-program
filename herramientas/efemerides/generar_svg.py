@@ -347,7 +347,7 @@ def main() -> int:
         else:
             f.write_text(svg + "\n", encoding="utf-8")
     if "--check" in sys.argv:
-        previas = {p.name for p in SALIDA.glob("*.svg") if not p.name.startswith("cielo-") and p.name not in ("trayectorias.svg", "eclipses-solares.svg", "misiones.svg", "asteroides.svg", "calendario.svg", "cometas.svg")}  # las de cielo las genera Node
+        previas = {p.name for p in SALIDA.glob("*.svg") if not p.name.startswith("cielo-") and p.name not in ("trayectorias.svg", "eclipses-solares.svg", "misiones.svg", "asteroides.svg", "calendario.svg", "cometas.svg", "asistencias.svg")}  # las de cielo las genera Node
         mal += [f"{n}: figura sin datos de origen" for n in sorted(previas - set(figs))]
     for m in mal:
         print("ERROR", m)

@@ -158,7 +158,7 @@ def coherencia() -> None:
         for ruta in (SIM / href, SIM / "img" / f"{imagen}.svg", SIM / "paginas" / f"{href[:-5]}.js", SIM / "documentacion" / f"{href[:-5]}.md"):
             if not ruta.exists():
                 err(f"simulador {clave}: falta {ruta.relative_to(RAIZ)}")
-        if clave not in ("sol", "trayectorias", "eclipses-solares", "asteroides", "misiones", "calendario", "cometas") and not clave.startswith("cielo-") and not (SIM / "datos" / f"{clave}.bin").exists():
+        if clave not in ("sol", "trayectorias", "eclipses-solares", "asteroides", "misiones", "calendario", "cometas", "asistencias") and not clave.startswith("cielo-") and not (SIM / "datos" / f"{clave}.bin").exists():
             err(f"simulador {clave}: faltan datos/{clave}.bin")
     doc = (SIM / "documentacion" / "README.md").read_text(encoding="utf-8")
     for _, _, href in nav:

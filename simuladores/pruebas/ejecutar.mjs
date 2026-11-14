@@ -7,6 +7,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
 import { crearFranja } from "../motor/franja.js";
+import { hiperbola, asistencia, desdeEncuentro } from "../motor/asistencia.js";
 import { COMETAS, hitosCometa } from "../motor/cometas.js";
 import { crearCalendario, NOMBRE as NOMBRE_CAL } from "../motor/calendario.js";
 import { MISIONES, crearNave, posicionPlanetocentrica } from "../motor/misiones.js";
@@ -17,6 +18,7 @@ import { lambert, propagar, evaluar, porkchop, elementosTransferencia, deltaVOrb
 import { jdUtcDesdeTdb, jdTdbDesdeUtc, jdUtcDesdeMs, JD_UTC_INICIO, JD_UTC_FIN, formatoUtc, jdUtcDesdeInput, valorInputUtc } from "../motor/tiempo.js";
 import { elementos, PLANETAS, baseDelCuerpo, poloEclipticoJ2000, orientacion, UA_KM, longitudSolar } from "../motor/cuerpos.js";
 
+const RADG = Math.PI / 180;
 const aqui = dirname(fileURLToPath(import.meta.url));
 const datos = join(aqui, "..", "datos");
 let fallos = 0, ok = 0;
@@ -441,6 +443,26 @@ if (sistemas.sol && sistemas.cometas) {
   afirmar(r27 > 33 && r27 < 36 && r50 < r27 && hit("1P").every((h) => h.tipo !== "perihelio"), `1P/Halley en 2027 a ${r27.toFixed(1)} UA (cerca del afelio de 35 UA), acercándose y sin perihelio hasta 2061`);
   for (const id of Object.keys(COMETAS)) { const el = elementos(sistemas.cometas.cuerpo(id).pos(jdTdbDesdeUtc(JD_UTC_INICIO)), sistemas.cometas.cuerpo(id).vel(jdTdbDesdeUtc(JD_UTC_INICIO)), 132712440041.94); afirmar(el.e < 1 && el.a > 0, `${COMETAS[id].nombre}: órbita elíptica en 2027 (e=${el.e.toFixed(3)})`); }
   console.log(`Cometas: ${Object.keys(COMETAS).length} cometas; hitos contrastados con perihelios y distancias publicadas`);
+}
+
+// 16. Asistencias gravitatorias: el modelo de cónicas empalmadas reproduce los encuentros reales de Horizons
+if (existsSync(join(datos, "encuentros.json")) && existsSync(join(datos, "planetas_hist.bin"))) {
+  const ph = cargar("planetas_hist"), EN = JSON.parse(readFileSync(join(datos, "encuentros.json"), "utf8")), reales = EN.encuentros.filter((e) => !e.orbita && e.vh_out);
+  let peor = 0, cota = 0;
+  for (const e of reales) {
+    const Vp = Math.hypot(...ph.cuerpo(e.planeta).vel(e.jd_ca)), d = desdeEncuentro(e, EN.gm_km3_s2[e.planeta], Vp);
+    peor = Math.max(peor, d.err);
+    // el cambio de velocidad no puede superar el módulo del cambio del vector, 2·v∞·sin(δ/2); y el giro de la hipérbola coincide con el del encuentro
+    cota = Math.max(cota, Math.abs(d.r.dv) - 2 * e.vinf_kms * Math.sin(d.r.delta / 2));
+    cerca(d.r.delta / RADG, e.desvio_deg, 0.05, `giro de ${e.nombre} en ${e.planeta}: 2·asin(1/e) [°]`);
+    cerca(d.r.vhIn, e.vh_in, 0.01, `velocidad de entrada de ${e.nombre} en ${e.planeta} [km/s]`);
+  }
+  afirmar(peor < 0.05, `asistencias: el modelo reproduce la velocidad de salida de ${reales.length} encuentros reales con error máximo ${peor.toFixed(3)} km/s`);
+  afirmar(cota < 1e-9, "asistencias: |Δv| ≤ 2·v∞·sin(δ/2) en todos los encuentros");
+  const h = hiperbola(126686534, 10, 71492 * 4); cerca(h.e, 1 + 71492 * 4 * 100 / 126686534, 1e-12, "excentricidad e = 1 + rp·v∞²/μ"); cerca(h.vperi, Math.sqrt(100 + 2 * 126686534 / (71492 * 4)), 1e-9, "velocidad en el periastro");
+  // asistencia ideal: v∞ = 10 km/s en Júpiter (13 km/s) llegando de frente con giro en el plano gana a lo sumo 2·v∞·sin(δ/2)
+  const a = asistencia(126686534, 10, 71492 * 1.5, 13, 160 * RADG, 0); afirmar(a.dv > 0 && a.dv <= 2 * 10 * Math.sin(a.delta / 2) + 1e-9, `asistencia de prueba en Júpiter: ${a.dv.toFixed(2)} km/s con giro de ${(a.delta * 180 / Math.PI).toFixed(0)}°`);
+  console.log(`Asistencias: ${reales.length} encuentros reales reproducidos; error máximo ${peor.toFixed(3)} km/s en la velocidad de salida`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

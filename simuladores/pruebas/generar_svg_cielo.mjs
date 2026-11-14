@@ -9,6 +9,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { Observador, ObservadorLuna, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../motor/tiempo.js";
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
+import { asistencia as asist, desdeEncuentro as desdeEnc } from "../motor/asistencia.js";
 import { COMETAS, hitosCometa, ETIQUETA as ETQ_COM } from "../motor/cometas.js";
 import { crearCalendario, NOMBRE as NOMB_CAL, TIPOS as TIPOS_CAL, COLOR as COL_CAL } from "../motor/calendario.js";
 import { crearNave } from "../motor/misiones.js";
@@ -223,12 +224,52 @@ function figuraCometas(sol) {
   return L.join(NL) + NL;
 }
 
+// ---- figura de asistencias gravitatorias: Voyager 2 en Júpiter (1979) y las mayores ganancias de velocidad
+function figuraAsistencias() {
+  const ph = cargar("planetas_hist"), EN = JSON.parse(readFileSync(join(datos, "encuentros.json"), "utf8")), NL = String.fromCharCode(10), RJ = EN.radio_km["599"];
+  const e = EN.encuentros.find((x) => x.nave === "-32" && x.planeta === "599"), Vp = Math.hypot(...ph.cuerpo("599").vel(e.jd_ca)), d = desdeEnc(e, EN.gm_km3_s2["599"], Vp), r = d.r;
+  const miles = (x) => Math.round(x).toString().split("").reverse().join("").replace(/(\d{3})(?=\d)/g, "$1 ").split("").reverse().join("");
+  const L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
+    `<title id="t">Asistencias gravitatorias</title>`, `<desc id="d">Asistencia gravitatoria de Voyager 2 en Júpiter el 9 de julio de 1979: la hipérbola respecto del planeta, el diagrama de velocidades respecto del Sol y las mayores ganancias de velocidad de las misiones, con datos de JPL.</desc>`,
+    `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Asistencias gravitatorias</text>`,
+    `<text x="32" y="70" font-size="14" fill="#9fb0cf">Voyager 2 en Júpiter, 9 de julio de 1979 · pasó a ${miles(e.alt_km)} km de la superficie y ganó ${coma(e.dv_helio.toFixed(1))} km/s respecto del Sol</text>`];
+  // hipérbola en el sistema de Júpiter
+  const cx = 250, cy = 330, rp = e.dist_km, vista = rp * 3, k = 170 / vista, a = -r.a, b = a * Math.sqrt(r.e * r.e - 1), Hm = Math.acosh(Math.max(1.0001, (vista / a + 1) / r.e)), th = Math.acos(-1 / r.e);
+  const Q = (x, y) => [cx - x * k, cy - y * k], en = (h) => Q(a * (r.e - Math.cosh(h)), b * Math.sinh(h));
+  L.push(`<rect x="40" y="100" width="420" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="56" y="126" font-size="13" fill="#ffd45e" font-weight="600">En el sistema de Júpiter: una hipérbola (planeta a escala)</text>`);
+  for (const f of [1, 2, 3]) L.push(`<circle cx="${cx}" cy="${cy}" r="${n1(rp * f * k)}" fill="none" stroke="#7d93c0" stroke-opacity="0.25"/>`);
+  L.push(`<circle cx="${cx}" cy="${cy}" r="${n1(RJ * k)}" fill="#e8c18a"/>`);
+  let dd = ""; for (let i = -80; i <= 80; i++) { const p = en(Hm * i / 80); dd += (i === -80 ? "M" : "L") + n1(p[0]) + " " + n1(p[1]); } L.push(`<path d="${dd}" fill="none" stroke="#fff" stroke-width="2.4"/>`);
+  const nn = Math.hypot(Math.sin(th), r.e - 1 / r.e), vi = [-Math.sin(th) / nn, -(r.e - 1 / r.e) / nn], vo = [Math.sin(th) / nn, -(r.e - 1 / r.e) / nn], pI = en(-Hm), pO = en(Hm), Lf = 70;
+  const fl = (x0, y0, x1, y1, col) => { const an = Math.atan2(y1 - y0, x1 - x0); return `<path d="M${n1(x0)} ${n1(y0)}L${n1(x1)} ${n1(y1)}" stroke="${col}" stroke-width="2.6"/><path d="M${n1(x1)} ${n1(y1)}L${n1(x1 - 10 * Math.cos(an - 0.4))} ${n1(y1 - 10 * Math.sin(an - 0.4))}L${n1(x1 - 10 * Math.cos(an + 0.4))} ${n1(y1 - 10 * Math.sin(an + 0.4))}Z" fill="${col}"/>`; };
+  L.push(fl(pI[0], pI[1], pI[0] + vi[0] * Lf, pI[1] + vi[1] * Lf, "#6cb4ff"), fl(pO[0] - vo[0] * Lf, pO[1] - vo[1] * Lf, pO[0], pO[1], "#7ee0a1"), `<text x="${n1(pI[0] + 10)}" y="${n1(pI[1] - 4)}" font-size="12" fill="#6cb4ff">v∞ de entrada ${coma(e.vinf_kms.toFixed(1))} km/s</text>`, `<text x="${n1(pO[0] + 10)}" y="${n1(pO[1] + 10)}" font-size="12" fill="#7ee0a1">v∞ de salida (girada ${coma(e.desvio_deg.toFixed(0))}°)</text>`);
+  const pp = Q(rp, 0); L.push(`<circle cx="${n1(pp[0])}" cy="${n1(pp[1])}" r="4.5" fill="none" stroke="#ffd45e" stroke-width="1.5"/>`, `<text x="${n1(pp[0] - 8)}" y="${n1(pp[1] - 12)}" font-size="12" fill="#ffd45e" text-anchor="end">periastro</text>`);
+  // triángulo de velocidades respecto del Sol
+  const ox = 670, oy = 570, ek = 330 / Math.max(r.vhIn, r.vhOut, Vp + e.vinf_kms), T = (v) => [ox + v[0] * ek, oy - v[1] * ek], pT = T([0, Vp]), ai = T(r.hin), ao = T(r.hout);
+  L.push(`<rect x="500" y="100" width="340" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="516" y="126" font-size="13" fill="#ffd45e" font-weight="600">En el sistema del Sol: sumar velocidades</text>`,
+    `<circle cx="${n1(pT[0])}" cy="${n1(pT[1])}" r="${n1(e.vinf_kms * ek)}" fill="none" stroke="#7d93c0" stroke-opacity="0.5"/>`,
+    fl(ox, oy, pT[0], pT[1], "#e8c18a"), fl(pT[0], pT[1], ai[0], ai[1], "#6cb4ff"), fl(pT[0], pT[1], ao[0], ao[1], "#7ee0a1"), fl(ox, oy, ai[0], ai[1], "#6cb4ff"), fl(ox, oy, ao[0], ao[1], "#7ee0a1"),
+    `<text x="${n1(ox - 10)}" y="${n1((oy + pT[1]) / 2)}" font-size="12" fill="#e8c18a" text-anchor="end">Júpiter ${coma(Vp.toFixed(1))} km/s</text>`, `<text x="${n1(ai[0] + 10)}" y="${n1(ai[1] + 4)}" font-size="12" fill="#6cb4ff">antes ${coma(r.vhIn.toFixed(1))} km/s</text>`, `<text x="${n1(ao[0] - 10)}" y="${n1(ao[1] - 8)}" font-size="12" fill="#7ee0a1" text-anchor="end">después ${coma(r.vhOut.toFixed(1))} km/s</text>`);
+  // mayores ganancias de velocidad
+  const NP = { "199": "Mercurio", "299": "Venus", "399": "Tierra", "499": "Marte", "599": "Júpiter", "699": "Saturno", "799": "Urano", "899": "Neptuno" };
+  const top = EN.encuentros.filter((x) => !x.orbita && x.dv_helio).sort((p, q) => q.dv_helio - p.dv_helio).slice(0, 10), tx = 870;
+  L.push(`<rect x="${tx}" y="100" width="${W - tx - 32}" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${tx + 14}" y="126" font-size="13" fill="#ffd45e" font-weight="600">Mayores ganancias (km/s)</text>`);
+  top.forEach((x, i) => L.push(`<text x="${tx + 14}" y="${160 + i * 44}" font-size="13" fill="#e6ecf8">${esc(x.nombre)} · ${NP[x.planeta]}</text>`, `<text x="${tx + 14}" y="${178 + i * 44}" font-size="12" fill="#9fb0cf">${formatoUtc(jdUtcDesdeTdb(x.jd_ca), false).slice(0, 10)}</text>`, `<text x="${W - 46}" y="${170 + i * 44}" font-size="15" fill="#7ee0a1" text-anchor="end">▲ ${coma(x.dv_helio.toFixed(1))}</text>`));
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Encuentros: NASA/JPL Horizons (SPICE) · cónicas empalmadas · calculado con el motor del simulador</text>`, `</svg>`);
+  return L.join(NL) + NL;
+}
+
 const sol = cargar("sol");
 let mal = 0;
 for (const f of FIGURAS) {
   if (!existsSync(join(datos, `${f.sistema}.bin`)) || !existsSync(join(aqui, "..", `${f.archivo}.html`))) continue;  // sólo las páginas publicadas
   const svg = figura(f, sol), ruta = join(img, `${f.archivo}.svg`);
   if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log(`ERROR ${f.archivo}.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs`); mal++; } }
+  else writeFileSync(ruta, svg);
+}
+if (existsSync(join(aqui, "..", "asistencias.html")) && existsSync(join(datos, "encuentros.json"))) {
+  const svg = figuraAsistencias(), ruta = join(img, "asistencias.svg");
+  if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").split(String.fromCharCode(13)).join("") !== svg) { console.log("ERROR asistencias.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs"); mal++; } }
   else writeFileSync(ruta, svg);
 }
 if (existsSync(join(aqui, "..", "cometas.html")) && existsSync(join(datos, "cometas.bin"))) {

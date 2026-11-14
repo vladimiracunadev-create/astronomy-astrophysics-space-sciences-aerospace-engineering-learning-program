@@ -47,12 +47,12 @@
 <text x="717.0" y="182" font-size="12" fill="#7ee0a1">▲ 9,9 km/s · 649 884 km de altura</text>
 <path d="M723.8 150V570" stroke="#ead7a2" stroke-dasharray="3 4"/>
 <text x="729.8" y="196" font-size="12" fill="#ead7a2">Saturno 1981</text>
-<text x="729.8" y="212" font-size="12" fill="#7ee0a1">▲ 4,9 km/s · 100 424 km de altura</text>
+<text x="729.8" y="212" font-size="12" fill="#7ee0a1">▲ 4,9 km/s · 100 423 km de altura</text>
 <path d="M750.3 150V570" stroke="#9be1e8" stroke-dasharray="3 4"/>
 <text x="756.3" y="226" font-size="12" fill="#9be1e8">Urano 1986</text>
-<text x="756.3" y="242" font-size="12" fill="#7ee0a1">▲ 1,9 km/s · 81 596 km de altura</text>
+<text x="756.3" y="242" font-size="12" fill="#7ee0a1">▲ 1,9 km/s · 81 595 km de altura</text>
 <path d="M771.8 150V570" stroke="#5b7dff" stroke-dasharray="3 4"/>
 <text x="777.8" y="256" font-size="12" fill="#5b7dff">Neptuno 1989</text>
-<text x="777.8" y="272" font-size="12" fill="#ff8a8a">▼ 2,1 km/s · 4 591 km de altura</text>
+<text x="777.8" y="272" font-size="12" fill="#ff8a8a">▼ 2,1 km/s · 4 472 km de altura</text>
 <text x="1168" y="665" font-size="11" fill="#9fb0cf" text-anchor="end">Trayectorias y encuentros: NASA/JPL Horizons (SPICE) · calculado con el motor del simulador</text>
 </svg>

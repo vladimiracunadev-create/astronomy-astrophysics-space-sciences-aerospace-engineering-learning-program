@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">
+<title id="t">Asistencias gravitatorias</title>
+<desc id="d">Asistencia gravitatoria de Voyager 2 en Júpiter el 9 de julio de 1979: la hipérbola respecto del planeta, el diagrama de velocidades respecto del Sol y las mayores ganancias de velocidad de las misiones, con datos de JPL.</desc>
+<rect width="1200" height="675" fill="#070a14"/>
+<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Asistencias gravitatorias</text>
+<text x="32" y="70" font-size="14" fill="#9fb0cf">Voyager 2 en Júpiter, 9 de julio de 1979 · pasó a 649 884 km de la superficie y ganó 9,9 km/s respecto del Sol</text>
+<rect x="40" y="100" width="420" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>
+<text x="56" y="126" font-size="13" fill="#ffd45e" font-weight="600">En el sistema de Júpiter: una hipérbola (planeta a escala)</text>
+<circle cx="250" cy="330" r="56.7" fill="none" stroke="#7d93c0" stroke-opacity="0.25"/>
+<circle cx="250" cy="330" r="113.3" fill="none" stroke="#7d93c0" stroke-opacity="0.25"/>
+<circle cx="250" cy="330" r="170.0" fill="none" stroke="#7d93c0" stroke-opacity="0.25"/>
+<circle cx="250" cy="330" r="5.6" fill="#e8c18a"/>
+<path d="M278.5 497.6L276.3 494.9L274.0 492.2L271.8 489.6L269.7 487.0L267.5 484.4L265.4 481.8L263.4 479.2L261.4 476.7L259.4 474.2L257.4 471.7L255.5 469.2L253.6 466.8L251.8 464.4L249.9 462.0L248.1 459.6L246.4 457.2L244.7 454.8L243.0 452.5L241.3 450.2L239.7 447.9L238.1 445.6L236.5 443.3L235.0 441.1L233.5 438.8L232.0 436.6L230.6 434.4L229.2 432.2L227.8 430.1L226.4 427.9L225.1 425.8L223.8 423.6L222.5 421.5L221.3 419.4L220.1 417.3L218.9 415.2L217.8 413.2L216.7 411.1L215.6 409.1L214.5 407.0L213.5 405.0L212.4 403.0L211.5 401.0L210.5 399.0L209.6 397.0L208.7 395.0L207.8 393.1L206.9 391.1L206.1 389.2L205.3 387.3L204.6 385.3L203.8 383.4L203.1 381.5L202.4 379.6L201.7 377.7L201.1 375.8L200.5 373.9L199.9 372.0L199.3 370.2L198.8 368.3L198.3 366.4L197.8 364.6L197.3 362.7L196.9 360.9L196.5 359.1L196.1 357.2L195.8 355.4L195.4 353.6L195.1 351.7L194.8 349.9L194.6 348.1L194.3 346.3L194.1 344.5L193.9 342.6L193.8 340.8L193.6 339.0L193.5 337.2L193.4 335.4L193.4 333.6L193.3 331.8L193.3 330.0L193.3 328.2L193.4 326.4L193.4 324.6L193.5 322.8L193.6 321.0L193.8 319.2L193.9 317.4L194.1 315.5L194.3 313.7L194.6 311.9L194.8 310.1L195.1 308.3L195.4 306.4L195.8 304.6L196.1 302.8L196.5 300.9L196.9 299.1L197.3 297.3L197.8 295.4L198.3 293.6L198.8 291.7L199.3 289.8L199.9 288.0L200.5 286.1L201.1 284.2L201.7 282.3L202.4 280.4L203.1 278.5L203.8 276.6L204.6 274.7L205.3 272.7L206.1 270.8L206.9 268.9L207.8 266.9L208.7 265.0L209.6 263.0L210.5 261.0L211.5 259.0L212.4 257.0L213.5 255.0L214.5 253.0L215.6 250.9L216.7 248.9L217.8 246.8L218.9 244.8L220.1 242.7L221.3 240.6L222.5 238.5L223.8 236.4L225.1 234.2L226.4 232.1L227.8 229.9L229.2 227.8L230.6 225.6L232.0 223.4L233.5 221.2L235.0 218.9L236.5 216.7L238.1 214.4L239.7 212.1L241.3 209.8L243.0 207.5L244.7 205.2L246.4 202.8L248.1 200.4L249.9 198.0L251.8 195.6L253.6 193.2L255.5 190.8L257.4 188.3L259.4 185.8L261.4 183.3L263.4 180.8L265.4 178.2L267.5 175.6L269.7 173.0L271.8 170.4L274.0 167.8L276.3 165.1L278.5 162.4" fill="none" stroke="#fff" stroke-width="2.4"/>
+<path d="M278.5 497.6L225.9 451.4" stroke="#6cb4ff" stroke-width="2.6"/><path d="M225.9 451.4L235.4 454.6L230.3 460.4Z" fill="#6cb4ff"/>
+<path d="M225.9 208.6L278.5 162.4" stroke="#7ee0a1" stroke-width="2.6"/><path d="M278.5 162.4L274.2 171.4L269.0 165.6Z" fill="#7ee0a1"/>
+<text x="288.5" y="493.6" font-size="12" fill="#6cb4ff">v∞ de entrada 7,6 km/s</text>
+<text x="288.5" y="172.4" font-size="12" fill="#7ee0a1">v∞ de salida (girada 97°)</text>
+<circle cx="193.3" cy="330.0" r="4.5" fill="none" stroke="#ffd45e" stroke-width="1.5"/>
+<text x="185.3" y="318.0" font-size="12" fill="#ffd45e" text-anchor="end">periastro</text>
+<rect x="500" y="100" width="340" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>
+<text x="516" y="126" font-size="13" fill="#ffd45e" font-weight="600">En el sistema del Sol: sumar velocidades</text>
+<circle cx="670.0" cy="363.4" r="123.4" fill="none" stroke="#7d93c0" stroke-opacity="0.5"/>
+<path d="M670.0 570.0L670.0 363.4" stroke="#e8c18a" stroke-width="2.6"/><path d="M670.0 363.4L673.9 372.6L666.1 372.6Z" fill="#e8c18a"/>
+<path d="M670.0 363.4L762.5 445.1" stroke="#6cb4ff" stroke-width="2.6"/><path d="M762.5 445.1L753.0 442.0L758.2 436.1Z" fill="#6cb4ff"/>
+<path d="M670.0 363.4L738.3 261.9" stroke="#7ee0a1" stroke-width="2.6"/><path d="M738.3 261.9L736.4 271.7L729.9 267.3Z" fill="#7ee0a1"/>
+<path d="M670.0 570.0L762.5 445.1" stroke="#6cb4ff" stroke-width="2.6"/><path d="M762.5 445.1L760.1 454.9L753.9 450.2Z" fill="#6cb4ff"/>
+<path d="M670.0 570.0L738.3 261.9" stroke="#7ee0a1" stroke-width="2.6"/><path d="M738.3 261.9L740.1 271.7L732.5 270.0Z" fill="#7ee0a1"/>
+<text x="660.0" y="466.7" font-size="12" fill="#e8c18a" text-anchor="end">Júpiter 12,7 km/s</text>
+<text x="772.5" y="449.1" font-size="12" fill="#6cb4ff">antes 9,6 km/s</text>
+<text x="728.3" y="253.9" font-size="12" fill="#7ee0a1" text-anchor="end">después 19,5 km/s</text>
+<rect x="870" y="100" width="298" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>
+<text x="884" y="126" font-size="13" fill="#ffd45e" font-weight="600">Mayores ganancias (km/s)</text>
+<text x="884" y="160" font-size="13" fill="#e6ecf8">Pioneer 10 · Júpiter</text>
+<text x="884" y="178" font-size="12" fill="#9fb0cf">1973-12-04</text>
+<text x="1154" y="170" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 12,1</text>
+<text x="884" y="204" font-size="13" fill="#e6ecf8">Voyager 1 · Júpiter</text>
+<text x="884" y="222" font-size="12" fill="#9fb0cf">1979-03-05</text>
+<text x="1154" y="214" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 10,7</text>
+<text x="884" y="248" font-size="13" fill="#e6ecf8">Voyager 2 · Júpiter</text>
+<text x="884" y="266" font-size="12" fill="#9fb0cf">1979-07-09</text>
+<text x="1154" y="258" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 9,9</text>
+<text x="884" y="292" font-size="13" fill="#e6ecf8">Pioneer 11 · Júpiter</text>
+<text x="884" y="310" font-size="12" fill="#9fb0cf">1974-12-03</text>
+<text x="1154" y="302" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 7,2</text>
+<text x="884" y="336" font-size="13" fill="#e6ecf8">OSIRIS-REx · Tierra</text>
+<text x="884" y="354" font-size="12" fill="#9fb0cf">2029-04-13</text>
+<text x="1154" y="346" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 6,6</text>
+<text x="884" y="380" font-size="13" fill="#e6ecf8">OSIRIS-REx · Tierra</text>
+<text x="884" y="398" font-size="12" fill="#9fb0cf">2025-09-23</text>
+<text x="1154" y="390" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 6,0</text>
+<text x="884" y="424" font-size="13" fill="#e6ecf8">Pioneer 11 · Saturno</text>
+<text x="884" y="442" font-size="12" fill="#9fb0cf">1979-09-01</text>
+<text x="1154" y="434" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 5,7</text>
+<text x="884" y="468" font-size="13" fill="#e6ecf8">Lucy · Tierra</text>
+<text x="884" y="486" font-size="12" fill="#9fb0cf">2022-10-16</text>
+<text x="1154" y="478" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 5,2</text>
+<text x="884" y="512" font-size="13" fill="#e6ecf8">Galileo · Tierra</text>
+<text x="884" y="530" font-size="12" fill="#9fb0cf">1990-12-08</text>
+<text x="1154" y="522" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 5,2</text>
+<text x="884" y="556" font-size="13" fill="#e6ecf8">Voyager 2 · Saturno</text>
+<text x="884" y="574" font-size="12" fill="#9fb0cf">1981-08-26</text>
+<text x="1154" y="566" font-size="15" fill="#7ee0a1" text-anchor="end">▲ 4,9</text>
+<text x="1168" y="665" font-size="11" fill="#9fb0cf" text-anchor="end">Encuentros: NASA/JPL Horizons (SPICE) · cónicas empalmadas · calculado con el motor del simulador</text>
+</svg>

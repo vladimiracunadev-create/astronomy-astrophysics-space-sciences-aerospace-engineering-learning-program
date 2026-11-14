@@ -35,6 +35,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 | ![Eclipses solares](../img/eclipses-solares.svg) | **Eclipses solares** | [eclipses-solares.md](eclipses-solares.md) | Publicado |
 | ![Calendario planetario](../img/calendario.svg) | **Calendario planetario** | [calendario.md](calendario.md) | Publicado |
 | ![Cometas](../img/cometas.svg) | **Cometas** | [cometas.md](cometas.md) | Publicado |
+| ![Asistencias gravitatorias](../img/asistencias.svg) | **Asistencias gravitatorias** | [asistencias.md](asistencias.md) | Publicado |
 | ![Misiones espaciales](../img/misiones.svg) | **Misiones espaciales** | [misiones.md](misiones.md) | Publicado |
 | ![Cinturón de asteroides](../img/asteroides.svg) | **Cinturón de asteroides** | [asteroides.md](asteroides.md) | Publicado |
 
