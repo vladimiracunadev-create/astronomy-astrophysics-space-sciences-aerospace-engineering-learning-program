@@ -89,7 +89,7 @@ export async function iniciar(cfg) {
       ${cfg.eclipses ? '<h2>Eclipses 2027–2050</h2><p class="aviso">Calculados aquí con la geometría de conos a partir de las efemérides; clic para ir al máximo.</p><div id="eclipses"></div>' : ""}
       ${cfg.eventos ? '<h2>Fenómenos 2027–2050</h2><div id="eventos"></div>' : ""}
       <details><summary>Datos, modelo y tolerancias</summary><div id="meta" class="aviso"></div></details>
-      <p class="aviso">Posiciones: NASA/JPL Horizons (DE440 y efemérides de satélites), interpoladas aquí. Texturas ilustrativas, salvo la de Marte: mapa de imágenes Viking procesadas por el USGS (NASA/JPL-Caltech). Documentación: <a href="documentacion/README.html">documentación de los simuladores</a>.</p>
+      <p class="aviso">Posiciones: NASA/JPL Horizons (DE440 y efemérides de satélites), interpoladas aquí. Texturas ilustrativas, salvo la de Marte (mapa de imágenes Viking procesadas por el USGS; NASA/JPL-Caltech) y la de Plutón (mosaico de New Horizons: NASA, JHUAPL, SwRI, LPI, USGS; monocromo, el tercio sur no se fotografió). Documentación: <a href="documentacion/README.html">documentación de los simuladores</a>.</p>
     </aside>`;
 
   const $ = (id) => document.getElementById(id);

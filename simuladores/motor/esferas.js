@@ -7,7 +7,11 @@ import { BITS, ANCHO as MW, ALTO as MH } from "./mascara_tierra.js";
 const GRANDES = new Set(["tierra", "luna"]);
 const cache = new Map();
 /** Texturas de imágenes reales (mapas equirectangulares, longitud −180…180 hacia el este); el resto son procedurales e ilustrativas. Créditos en DATA_LICENSES.md. */
-export const TEXTURAS_REALES = { marte: { url: "texturas/marte.jpg", credito: "mapa de imágenes Viking procesadas por el USGS · NASA/JPL-Caltech" } };
+export const TEXTURAS_REALES = {
+  marte: { url: "texturas/marte.jpg", credito: "mapa de imágenes Viking procesadas por el USGS · NASA/JPL-Caltech" },
+  // mosaico monocromo de 300 m/píxel; la longitud va de 0° a 360° E (Sputnik Planitia en el centro) y el tercio sur no se fotografió (negro = sin datos)
+  pluton: { url: "texturas/pluton.jpg", desplazamiento: 0.5, credito: "mosaico global de New Horizons (LORRI y MVIC) de 2017 · NASA, JHUAPL, SwRI, LPI · USGS · dominio público" },
+};
 const pedidas = new Set();
 function cargarImagen(clave) {
   if (pedidas.has(clave) || typeof document === "undefined") return; pedidas.add(clave);
@@ -15,8 +19,8 @@ function cargarImagen(clave) {
   im.onload = () => {
     const w = Math.min(1440, im.naturalWidth), h = Math.round(w / 2), c = document.createElement("canvas"); c.width = w; c.height = h;
     const g = c.getContext("2d", { willReadFrequently: true }); g.drawImage(im, 0, 0, w, h);
-    const px = g.getImageData(0, 0, w, h).data, d = new Uint8ClampedArray(w * h * 3);
-    for (let i = 0, k = 0; i < px.length; i += 4, k += 3) { d[k] = px[i]; d[k + 1] = px[i + 1]; d[k + 2] = px[i + 2]; }
+    const px = g.getImageData(0, 0, w, h).data, d = new Uint8ClampedArray(w * h * 3), dx = Math.round((TEXTURAS_REALES[clave].desplazamiento || 0) * w);   // desplazamiento: fracción de vuelta si el mapa no va de −180° a 180°
+    for (let j = 0; j < h; j++) for (let i = 0; i < w; i++) { const s = (j * w + (i + dx) % w) * 4, k = (j * w + i) * 3; d[k] = px[s]; d[k + 1] = px[s + 1]; d[k + 2] = px[s + 2]; }
     d.ancho = w; d.alto = h; cache.set(clave, d);
     for (const e of porObjeto.values()) e.clave = "";            // fuerza a redibujar con la imagen
   };

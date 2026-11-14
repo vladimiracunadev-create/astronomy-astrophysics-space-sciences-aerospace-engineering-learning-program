@@ -20,7 +20,7 @@
 [📕 PDF general](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) · [📦 Descargas](#-descargas-y-pdf) · [📚 Programa completo](PROGRAMA_ACADEMICO_COMPLETO.md) · [🔤 Glosario](glosario/README.md) · [🛠️ Talleres de misión](talleres/README.md) · [🪐 Simuladores](simuladores/README.md) · [📎 Anexos](anexos/README.md) ·
 [🧭 Rutas profesionales](documentacion/MAPA_DE_RUTAS_PROFESIONALES.md) ·
 [🎓 Estándar de clase](documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md) ·
-[🗺️ Roadmap](ROADMAP.md) ·
+[🤖 Agentes y skills](documentacion/AGENTES_Y_SKILLS.md) · [🗺️ Roadmap](ROADMAP.md) ·
 [✅ Estado verificable](STATUS.md) ·
 [📖 Documentación](documentacion/README.md) ·
 [⚖️ Licencias](documentacion/LICENCIAS_Y_PROCEDENCIA.md) ·
@@ -509,7 +509,6 @@ El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): 
 - [📦 Descargas y PDF: lista completa](documentacion\DESCARGAS_Y_PDF.md)
 - [Estándar de fuentes](documentacion\ESTANDAR_DE_FUENTES.md)
 - [Estándar de los simuladores](documentacion/ESTANDAR_DE_SIMULADORES.md)
-- [Agentes y skills especializados](documentacion/AGENTES_Y_SKILLS.md): 11 agentes y 7 skills de Claude Code que trabajan con el programa (planificador de viaje espacial, ingeniería de sistemas, ciencia planetaria, operaciones, hábitats, derecho, proyecto, pitch, tutor y estratega de competencias)
 - [Estándar de los talleres de misión](documentacion\ESTANDAR_DE_TALLERES_DE_MISION.md)
 - [Estándar para generar los contenidos](documentacion\ESTANDAR_PARA_GENERAR_CONTENIDOS.md)
 - [Estándar pedagógico, científico, de evidencia y evaluación](documentacion\ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)
@@ -741,7 +740,7 @@ Este repositorio separa las obras por su naturaleza:
 - **Código propio, scripts, workflows, configuración y componentes funcionales:** [Apache License 2.0](LICENSE).
 - **Arquitectura curricular, documentación, rutas, futuras clases, ejercicios, evaluaciones, diagramas y materiales educativos originales:** [CC BY-NC-SA 4.0](LICENSE-CONTENT.md).
 - **Catálogos, metadatos y futuros datos científicos:** consulta [DATA_LICENSES.md](DATA_LICENSES.md); hechos y datos externos no se relicencian automáticamente.
-- **Imágenes de terceros en los simuladores:** la textura de Marte es un mapa de imágenes Viking procesado por el USGS (crédito NASA/JPL-Caltech; la fuente no declara una licencia explícita y NASA indica que sus imágenes en general no tienen copyright en EE. UU.); procedencia, huella SHA-256 y condiciones en [DATA_LICENSES.md](DATA_LICENSES.md) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). El resto de las texturas son ilustrativas y están generadas por el código.
+- **Imágenes de terceros en los simuladores:** la textura de Marte es un mapa de imágenes Viking procesado por el USGS (crédito NASA/JPL-Caltech; la fuente no declara una licencia explícita y NASA indica que sus imágenes en general no tienen copyright en EE. UU.) y la de Plutón, el mosaico de New Horizons de 2017 del USGS (dominio público según su página; crédito NASA, JHUAPL, SwRI y LPI); procedencia, huella SHA-256 y condiciones en [DATA_LICENSES.md](DATA_LICENSES.md) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). El resto de las texturas son ilustrativas y están generadas por el código.
 - **Imágenes, audio, video, modelos, tipografías y otros activos:** consulta [ASSET_LICENSES.md](ASSET_LICENSES.md).
 - **Herramientas, fuentes y material de terceros:** conservan sus licencias y derechos originales; consulta [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
