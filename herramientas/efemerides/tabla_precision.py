@@ -13,9 +13,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parents[2]
 DATOS = RAIZ / "simuladores" / "datos"
 SALIDA = RAIZ / "simuladores" / "documentacion" / "TABLA_DE_PRECISION.md"
-ORDEN = ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "planetas_hist", "misiones"]
+ORDEN = ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "planetas_hist", "misiones", "cometas"]
 TITULO = {"sol": "Sistema Solar (heliocéntrico)", "tierra": "Tierra: la Luna", "marte": "Marte", "jupiter": "Júpiter", "saturno": "Saturno",
-          "urano": "Urano", "neptuno": "Neptuno", "pluton": "Plutón y sus lunas (centro: baricentro)", "planetas_hist": "Planetas 1970–2050 (simulador de misiones)", "misiones": "Naves espaciales (simulador de misiones)"}
+          "urano": "Urano", "neptuno": "Neptuno", "pluton": "Plutón y sus lunas (centro: baricentro)", "planetas_hist": "Planetas 1970–2050 (simulador de misiones)", "misiones": "Naves espaciales (simulador de misiones)", "cometas": "Cometas (simulador de cometas)"}
 
 
 RADIO_PLANETAS = {"199": 2439.4, "299": 6051.8, "399": 6378.1366, "499": 3396.19, "599": 71492, "699": 60268, "799": 25559, "899": 24764, "9": 1188.3, "2000001": 469.7}

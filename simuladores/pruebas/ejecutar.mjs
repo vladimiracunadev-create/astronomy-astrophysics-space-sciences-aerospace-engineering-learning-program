@@ -7,6 +7,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
 import { crearFranja } from "../motor/franja.js";
+import { COMETAS, hitosCometa } from "../motor/cometas.js";
 import { crearCalendario, NOMBRE as NOMBRE_CAL } from "../motor/calendario.js";
 import { MISIONES, crearNave, posicionPlanetocentrica } from "../motor/misiones.js";
 import { posicion as posAst } from "../motor/asteroides.js";
@@ -27,7 +28,7 @@ function cargar(nombre) {
   return sistemaDesdeBytes(meta, readFileSync(join(datos, `${nombre}.bin`)));
 }
 const sistemas = {};
-for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "planetas_hist", "misiones"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
+for (const n of ["sol", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton", "planetas_hist", "misiones", "cometas"]) if (existsSync(join(datos, `${n}.bin`))) sistemas[n] = cargar(n);
 const verif = JSON.parse(readFileSync(join(datos, "verificacion.json"), "utf8"));
 
 // 1. Interpolación: reproduce el error medido contra JPL en épocas que no son nodos de la tabla
@@ -425,6 +426,21 @@ if (sistemas.sol && existsSync(join(aqui, "referencia_calendario.json"))) {
   afirmar(!!gc && Math.abs(gc.jdUtc - jdUtcDesdeInput("2040-10-31T12:00")) < 1 && Math.abs(gc.sep_grados - 1.1) < 0.1, "gran conjunción Júpiter–Saturno del 31 de octubre de 2040 (separación 1,1°)");
   const cuenta = (t, p) => por(t, p).length; afirmar(cuenta("oposicion", "499") === 12 && cuenta("oposicion", "599") >= 21 && cuenta("oposicion", "699") >= 22, `oposiciones 2027–2050: Marte ${cuenta("oposicion", "499")}, Júpiter ${cuenta("oposicion", "599")}, Saturno ${cuenta("oposicion", "699")}`);
   console.log(`Calendario: ${ev.length} fenómenos 2027–2050; posiciones aparentes contra Horizons: elongación ≤ ${pe.toFixed(5)}°, longitud ≤ ${pl.toFixed(5)}°`);
+}
+
+// 15. Cometas: hitos hallados en las efemérides de JPL contra fechas y distancias publicadas
+if (sistemas.sol && sistemas.cometas) {
+  const sol = sistemas.sol, hit = (id) => hitosCometa(sistemas.cometas.cuerpo(id), sol), ua = (km) => km / UA_KM;
+  const peri = (id) => hit(id).filter((h) => h.tipo === "perihelio");
+  afirmar(peri("55P").length === 1 && Math.abs(jdUtcDesdeTdb(peri("55P")[0].jdTdb) - jdUtcDesdeInput("2031-05-20T12:00")) < 5, "perihelio de 55P/Tempel–Tuttle hacia el 20 de mayo de 2031");
+  cerca(peri("55P")[0].dist_ua, 0.976, 0.03, "distancia del perihelio de 55P/Tempel–Tuttle [UA]");
+  cerca(peri("96P")[0].dist_ua, 0.12, 0.02, "distancia del perihelio de 96P/Machholz 1 [UA]");
+  const e = peri("2P"); cerca((e[1].jdTdb - e[0].jdTdb) / 365.25, 3.31, 0.05, "periodo de 2P/Encke entre perihelios [años]");
+  const p67 = peri("67P")[0]; afirmar(Math.abs(jdUtcDesdeTdb(p67.jdTdb) - jdUtcDesdeInput("2028-04-09T12:00")) < 5, "perihelio de 67P/Churyumov–Gerasimenko en abril de 2028");
+  const h1 = sistemas.cometas.cuerpo("1P"), r27 = ua(Math.hypot(...h1.pos(jdTdbDesdeUtc(JD_UTC_INICIO)))), r50 = ua(Math.hypot(...h1.pos(jdTdbDesdeUtc(JD_UTC_FIN))));
+  afirmar(r27 > 33 && r27 < 36 && r50 < r27 && hit("1P").every((h) => h.tipo !== "perihelio"), `1P/Halley en 2027 a ${r27.toFixed(1)} UA (cerca del afelio de 35 UA), acercándose y sin perihelio hasta 2061`);
+  for (const id of Object.keys(COMETAS)) { const el = elementos(sistemas.cometas.cuerpo(id).pos(jdTdbDesdeUtc(JD_UTC_INICIO)), sistemas.cometas.cuerpo(id).vel(jdTdbDesdeUtc(JD_UTC_INICIO)), 132712440041.94); afirmar(el.e < 1 && el.a > 0, `${COMETAS[id].nombre}: órbita elíptica en 2027 (e=${el.e.toFixed(3)})`); }
+  console.log(`Cometas: ${Object.keys(COMETAS).length} cometas; hitos contrastados con perihelios y distancias publicadas`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

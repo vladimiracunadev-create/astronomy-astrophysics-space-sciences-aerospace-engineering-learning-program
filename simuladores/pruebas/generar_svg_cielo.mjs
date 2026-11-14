@@ -9,6 +9,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { Observador, ObservadorLuna, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../motor/tiempo.js";
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
+import { COMETAS, hitosCometa, ETIQUETA as ETQ_COM } from "../motor/cometas.js";
 import { crearCalendario, NOMBRE as NOMB_CAL, TIPOS as TIPOS_CAL, COLOR as COL_CAL } from "../motor/calendario.js";
 import { crearNave } from "../motor/misiones.js";
 import { crearGeometria } from "../motor/eclipses.js";
@@ -199,12 +200,40 @@ function figuraCalendario(sol) {
   return L.join(NL) + NL;
 }
 
+// ---- figura de cometas: órbitas de seis cometas entre 2027 y 2050 y sus perihelios
+function figuraCometas(sol) {
+  const com = cargar("cometas"), UA = 149597870.7, NL = String.fromCharCode(10), J0 = jdTdbDesdeUtc(jdUtcDesdeInput("2027-01-01T00:00")), J1 = jdTdbDesdeUtc(jdUtcDesdeInput("2050-12-31T23:59"));
+  const ids = ["2P", "9P", "67P", "55P", "96P", "1P"], L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
+    `<title id="t">Cometas</title>`, `<desc id="d">Órbitas de los cometas Encke, Tempel 1, Churyumov–Gerasimenko, Tempel–Tuttle, Machholz 1 y Halley entre 2027 y 2050 vistas desde el polo norte eclíptico, y sus perihelios, con efemérides de JPL.</desc>`,
+    `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Cometas</text>`,
+    `<text x="32" y="70" font-size="14" fill="#9fb0cf">${Object.keys(COMETAS).length} cometas periódicos · tramos 2027–2050 de sus órbitas (predicción de JPL) · escala comprimida (√ de la distancia)</text>`];
+  const cx = 360, cy = 370, R = 255, rfit = 36, P = (v) => { const r = Math.hypot(v[0], v[1]) / UA; if (r < 1e-9) return [cx, cy]; const k = Math.sqrt(r / rfit) * R / r; return [cx + v[0] / UA * k, cy - v[1] / UA * k]; };
+  L.push(`<circle cx="${cx}" cy="${cy}" r="${R + 6}" fill="#0b1020" stroke="#26314f"/>`);
+  for (const [id, a] of [["199", 0.387], ["399", 1], ["599", 5.203], ["799", 19.19]]) L.push(`<circle cx="${cx}" cy="${cy}" r="${n1(Math.sqrt(a / rfit) * R)}" fill="none" stroke="#7d93c0" stroke-opacity="0.3" stroke-dasharray="3 4"/>`);
+  for (const [id, a, n] of [["399", 1, "Tierra"], ["599", 5.203, "Júpiter"], ["799", 19.19, "Urano"]]) L.push(`<text x="${n1(cx + Math.sqrt(a / rfit) * R + 4)}" y="${cy - 4}" font-size="10" fill="#9fb0cf">${n}</text>`);
+  for (const id of ids) { const t = com.cuerpo(id); let d = ""; for (let k = 0; k <= 500; k++) { const p = P(t.pos(J0 + (J1 - J0) * k / 500)); d += (k ? "L" : "M") + n1(p[0]) + " " + n1(p[1]); } L.push(`<path d="${d}" fill="none" stroke="${COMETAS[id].color}" stroke-width="1.8"/>`); const p0 = P(t.pos(J0)); L.push(`<circle cx="${n1(p0[0])}" cy="${n1(p0[1])}" r="3.5" fill="${COMETAS[id].color}"/>`);
+    for (const h of hitosCometa(t, sol).filter((x) => x.tipo === "perihelio")) { const p = P(t.pos(h.jdTdb)); L.push(`<circle cx="${n1(p[0])}" cy="${n1(p[1])}" r="3" fill="#ffd45e" stroke="${COMETAS[id].color}"/>`); } }
+  L.push(`<circle cx="${cx}" cy="${cy}" r="6" fill="#ffd45e"/>`);
+  // lista de perihelios
+  const x0 = 660, y0 = 100, w = 510, h = 520, filas = []; for (const id of Object.keys(COMETAS)) for (const q of hitosCometa(com.cuerpo(id), sol).filter((x) => x.tipo === "perihelio")) filas.push([q.jdTdb, id, q.dist_ua]);
+  filas.sort((a, b) => a[0] - b[0]);
+  L.push(`<rect x="${x0}" y="${y0}" width="${w}" height="${h}" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${x0 + 16}" y="${y0 + 26}" font-size="13" fill="#ffd45e" font-weight="600">Próximos perihelios entre 2027 y 2050 (UTC)</text>`);
+  filas.slice(0, 18).forEach(([j, id, d], i) => L.push(`<circle cx="${x0 + 22}" cy="${y0 + 52 + i * 26 - 4}" r="4" fill="${COMETAS[id].color}"/>`, `<text x="${x0 + 34}" y="${y0 + 52 + i * 26}" font-size="13" fill="#e6ecf8">${formatoUtc(jdUtcDesdeTdb(j), false).slice(0, 10)} · ${esc(COMETAS[id].nombre)}</text>`, `<text x="${x0 + w - 18}" y="${y0 + 52 + i * 26}" font-size="13" fill="#9fb0cf" text-anchor="end">${coma(d.toFixed(2))} UA</text>`));
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Efemérides de NASA/JPL Horizons (predicción) · calculado con el motor del simulador</text>`, `</svg>`);
+  return L.join(NL) + NL;
+}
+
 const sol = cargar("sol");
 let mal = 0;
 for (const f of FIGURAS) {
   if (!existsSync(join(datos, `${f.sistema}.bin`)) || !existsSync(join(aqui, "..", `${f.archivo}.html`))) continue;  // sólo las páginas publicadas
   const svg = figura(f, sol), ruta = join(img, `${f.archivo}.svg`);
   if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log(`ERROR ${f.archivo}.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs`); mal++; } }
+  else writeFileSync(ruta, svg);
+}
+if (existsSync(join(aqui, "..", "cometas.html")) && existsSync(join(datos, "cometas.bin"))) {
+  const svg = figuraCometas(sol), ruta = join(img, "cometas.svg");
+  if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").split(String.fromCharCode(13)).join("") !== svg) { console.log("ERROR cometas.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs"); mal++; } }
   else writeFileSync(ruta, svg);
 }
 if (existsSync(join(aqui, "..", "calendario.html"))) {

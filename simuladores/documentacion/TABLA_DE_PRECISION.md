@@ -573,3 +573,26 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 | -255 | Psyche | — | 1 d | — | f32 | 17,420 | 7,482 | hasta 2029-02-18 |
 | -37 | Hayabusa2 | — | 1 d | — | f32 | 153,288 | 21,042 | hasta 2027-01-23 |
 | -202 | MAVEN | — | 1 d | — | f32 | 13 407,351 | 6 850,468 | hasta 2026-02-23 |
+
+## Cometas (simulador de cometas)
+
+16 cuerpos · peor error máximo: 2P/Encke (0,03 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@10`.
+
+| ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
+|---:|---|---:|---:|---:|---|---:|---:|---|
+| 1P | 1P/Halley | — | 2 d | — | f64 | 0,000 | 0,000 |  |
+| 2P | 2P/Encke | — | 1 d | — | f64 | 0,026 | 0,002 |  |
+| 8P | 8P/Tuttle | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 9P | 9P/Tempel 1 | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 10P | 10P/Tempel 2 | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 12P | 12P/Pons–Brooks | — | 2 d | — | f64 | 0,000 | 0,000 |  |
+| 17P | 17P/Holmes | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 19P | 19P/Borrelly | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 21P | 21P/Giacobini–Zinner | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 46P | 46P/Wirtanen | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 55P | 55P/Tempel–Tuttle | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 67P | 67P/Churyumov–Gerasimenko | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 81P | 81P/Wild 2 | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 96P | 96P/Machholz 1 | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 103P | 103P/Hartley 2 | — | 1 d | — | f64 | 0,000 | 0,000 |  |
+| 109P | 109P/Swift–Tuttle | — | 2 d | — | f64 | 0,000 | 0,000 |  |

@@ -83,7 +83,7 @@ def empaquetar(nombre: str, cuerpos: list[dict], rng: random.Random) -> None:
         jds = sorted(rng.uniform(lo, hi) for _ in range(G.N_VERIF))
         ref = []
         for k in range(0, len(jds), 60):
-            ref += H.vectores_lista(c["id"], "500@10", jds[k:k + 60], tabla="1")
+            ref += H.vectores_lista(c.get("cmd", c["id"]), "500@10", jds[k:k + 60], tabla="1")
         errs, muestras = [], []
         for r in ref:
             p = G.lagrange(tabq, t0, h, r[0]); errs.append(float(np.linalg.norm(p - np.array(r[1:4])))); muestras.append([r[0], r[1], r[2], r[3]])
@@ -119,4 +119,5 @@ def main() -> None:
     empaquetar("misiones", naves, rng)
 
 
-main()
+if __name__ == "__main__":
+    main()
