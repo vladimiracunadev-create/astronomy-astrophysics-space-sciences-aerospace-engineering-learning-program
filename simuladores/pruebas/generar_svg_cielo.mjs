@@ -9,6 +9,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { Observador, ObservadorLuna, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../motor/tiempo.js";
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
+import { crearCalendario, NOMBRE as NOMB_CAL, TIPOS as TIPOS_CAL, COLOR as COL_CAL } from "../motor/calendario.js";
 import { crearNave } from "../motor/misiones.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearFranja } from "../motor/franja.js";
@@ -165,12 +166,50 @@ function figuraAsteroides(sol) {
   return L.join(NL) + NL;
 }
 
+// ---- figura del calendario planetario: oposición de Marte del 19 de febrero de 2027 y lista de los próximos fenómenos
+function figuraCalendario(sol) {
+  const cal = crearCalendario(sol), J0 = jdTdbDesdeUtc(jdUtcDesdeInput("2027-01-01T00:00")), J1 = jdTdbDesdeUtc(jdUtcDesdeInput("2050-12-31T23:59")), NL = String.fromCharCode(10);
+  const todos = cal.todos(J0, J1), op = todos.find((e) => e.tipo === "oposicion" && e.planeta === "499"), UA = 149597870.7;
+  const L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
+    `<title id="t">Calendario planetario</title>`, `<desc id="d">Geometría Sol–Tierra–Marte en la oposición del 19 de febrero de 2027, la longitud de Marte menos la del Sol de 2027 a 2037 con sus oposiciones y los fenómenos planetarios de los primeros meses de 2027, calculados con efemérides de JPL.</desc>`,
+    `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Calendario planetario</text>`,
+    `<text x="32" y="70" font-size="14" fill="#9fb0cf">${todos.length} fenómenos entre 2027 y 2050 · oposiciones, conjunciones, cuadraturas, máximas elongaciones y estacionarios · efemérides de JPL</text>`];
+  // diagrama a la fecha de la oposición
+  const cx = 230, cy = 360, R = 170, k = R / 1.9, P = (v) => [cx + v[0] / UA * k, cy - v[1] / UA * k], E = P(sol.pos("399", op.jdTdb)), M = P(sol.pos("499", op.jdTdb));
+  L.push(`<rect x="40" y="100" width="380" height="520" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="56" y="126" font-size="13" fill="#ffd45e" font-weight="600">Oposición de Marte · ${formatoUtc(op.jdUtc, false).slice(0, 16)} UTC</text>`);
+  for (const a of [0.387, 0.723, 1, 1.524]) L.push(`<circle cx="${cx}" cy="${cy}" r="${n1(a * k)}" fill="none" stroke="#7d93c0" stroke-opacity="0.35" stroke-dasharray="3 4"/>`);
+  L.push(`<path d="M${n1(E[0])} ${n1(E[1])}L${cx} ${cy}" stroke="#ffd45e" stroke-width="1.4"/>`, `<path d="M${n1(E[0])} ${n1(E[1])}L${n1(M[0])} ${n1(M[1])}" stroke="${COL_CAL["499"]}" stroke-width="1.4"/>`, `<circle cx="${cx}" cy="${cy}" r="9" fill="#ffd45e"/>`,
+    `<circle cx="${n1(E[0])}" cy="${n1(E[1])}" r="6" fill="${COL_CAL["399"]}"/><text x="${n1(E[0] + 10)}" y="${n1(E[1] - 8)}" font-size="12" fill="#e6ecf8">Tierra</text>`,
+    `<circle cx="${n1(M[0])}" cy="${n1(M[1])}" r="6" fill="${COL_CAL["499"]}"/><text x="${n1(M[0] + 10)}" y="${n1(M[1] - 8)}" font-size="12" fill="#e6ecf8">Marte · ${coma(op.dist_ua.toFixed(2))} UA</text>`,
+    `<text x="${cx + 10}" y="${cy + 24}" font-size="12" fill="#ffd45e">Sol</text>`, `<text x="56" y="600" font-size="11" fill="#9fb0cf">Vista desde el polo norte eclíptico · el Sol, la Tierra y Marte alineados</text>`);
+  // longitud de Marte menos la del Sol de 2027 a 2037
+  const x0 = 480, y0 = 110, w = 690, h = 230, jf = jdTdbDesdeUtc(jdUtcDesdeInput("2037-12-31T00:00")), X = (j) => x0 + 40 + (j - J0) / (jf - J0) * (w - 60), Y = (v) => y0 + h - 25 - (v + 180) / 360 * (h - 85);
+  L.push(`<rect x="${x0}" y="${y0}" width="${w}" height="${h}" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${x0 + 16}" y="${y0 + 24}" font-size="13" fill="#ffd45e" font-weight="600">Longitud de Marte menos la del Sol: cada oposición es un paso por ±180°</text>`);
+  for (const v of [-180, -90, 0, 90, 180]) L.push(`<path d="M${x0 + 40} ${n1(Y(v))}H${x0 + w - 20}" stroke="#26314f"/>`, `<text x="${x0 + 34}" y="${n1(Y(v) + 4)}" font-size="10" fill="#9fb0cf" text-anchor="end">${v}°</text>`);
+  for (let a = 2027; a <= 2037; a += 2) L.push(`<text x="${n1(X(jdTdbDesdeUtc(jdUtcDesdeInput(a + "-01-01T00:00"))))}" y="${y0 + h - 8}" font-size="10" fill="#9fb0cf" text-anchor="middle">${a}</text>`);
+  let d = "", prev = null; for (let i = 0; i <= 1400; i++) { const j = J0 + (jf - J0) * i / 1400, v = cal.elLon("499", j) * 180 / Math.PI; d += (prev === null || Math.abs(v - prev) > 180 ? "M" : "L") + n1(X(j)) + " " + n1(Y(v)); prev = v; }
+  L.push(`<path d="${d}" fill="none" stroke="${COL_CAL["499"]}" stroke-width="1.8"/>`);
+  for (const e of todos.filter((q) => q.tipo === "oposicion" && q.planeta === "499" && q.jdTdb < jf)) L.push(`<circle cx="${n1(X(e.jdTdb))}" cy="${n1(Y(180))}" r="4" fill="#ffd45e"/>`, `<text x="${n1(X(e.jdTdb))}" y="${n1(Y(180) - 8)}" font-size="10" fill="#ffd45e" text-anchor="middle">${formatoUtc(e.jdUtc, false).slice(0, 7)}</text>`);
+  // fenómenos de los primeros meses de 2027
+  const ty = 370, lista = todos.filter((e) => e.jdUtc < jdUtcDesdeInput("2027-12-31T00:00")).filter((e) => !["est_retro", "est_directo", "cuad_este", "cuad_oeste"].includes(e.tipo)).slice(0, 14);
+  L.push(`<rect x="${x0}" y="${ty}" width="${w}" height="250" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${x0 + 16}" y="${ty + 24}" font-size="13" fill="#ffd45e" font-weight="600">Fenómenos de 2027 (UTC)</text>`);
+  lista.forEach((e, i) => { const col = i < 7 ? 0 : 1, fila = i % 7, tx = x0 + 16 + col * 340, tyy = ty + 50 + fila * 26, nom = e.planeta2 ? `${NOMB_CAL[e.planeta]}–${NOMB_CAL[e.planeta2]} (conjunción)` : `${NOMB_CAL[e.planeta]}: ${TIPOS_CAL[e.tipo].toLowerCase()}`;
+    L.push(`<circle cx="${tx}" cy="${tyy - 4}" r="4" fill="${COL_CAL[e.planeta]}"/>`, `<text x="${tx + 12}" y="${tyy}" font-size="12" fill="#e6ecf8">${formatoUtc(e.jdUtc, false).slice(5, 16)} · ${esc(nom)}</text>`); });
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Posiciones aparentes: NASA/JPL Horizons · calculado con el motor del simulador</text>`, `</svg>`);
+  return L.join(NL) + NL;
+}
+
 const sol = cargar("sol");
 let mal = 0;
 for (const f of FIGURAS) {
   if (!existsSync(join(datos, `${f.sistema}.bin`)) || !existsSync(join(aqui, "..", `${f.archivo}.html`))) continue;  // sólo las páginas publicadas
   const svg = figura(f, sol), ruta = join(img, `${f.archivo}.svg`);
   if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").replace(/\r\n/g, "\n") !== svg) { console.log(`ERROR ${f.archivo}.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs`); mal++; } }
+  else writeFileSync(ruta, svg);
+}
+if (existsSync(join(aqui, "..", "calendario.html"))) {
+  const svg = figuraCalendario(sol), ruta = join(img, "calendario.svg");
+  if (process.argv.includes("--check")) { if (!existsSync(ruta) || readFileSync(ruta, "utf8").split(String.fromCharCode(13)).join("") !== svg) { console.log("ERROR calendario.svg desfasada: ejecute node simuladores/pruebas/generar_svg_cielo.mjs"); mal++; } }
   else writeFileSync(ruta, svg);
 }
 if (existsSync(join(aqui, "..", "asteroides.html")) && existsSync(join(datos, "asteroides.json"))) {

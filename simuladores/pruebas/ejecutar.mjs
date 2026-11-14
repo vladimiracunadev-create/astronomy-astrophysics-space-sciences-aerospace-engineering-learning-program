@@ -7,6 +7,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
 import { crearFranja } from "../motor/franja.js";
+import { crearCalendario, NOMBRE as NOMBRE_CAL } from "../motor/calendario.js";
 import { MISIONES, crearNave, posicionPlanetocentrica } from "../motor/misiones.js";
 import { posicion as posAst } from "../motor/asteroides.js";
 import { Observador, ObservadorLuna, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
@@ -403,6 +404,27 @@ if (existsSync(join(datos, "misiones.bin")) && existsSync(join(datos, "planetas_
   afirmar(dJ > 1.0e6 && dJ < 1.9e6, `JWST a ${(dJ / 1e6).toFixed(2)} millones de km de la Tierra`);
   afirmar(Math.hypot(...w) > Math.hypot(...e), "JWST más lejos del Sol que la Tierra (L2)");
   console.log(`Misiones: ${n} encuentros contrastados con las fechas históricas (±0,75 d) y con distancias y velocidades publicadas; heliopausa y L2 verificados`);
+}
+
+// 14. Calendario de fenómenos planetarios: posiciones aparentes contra JPL Horizons y definición de cada fenómeno
+if (sistemas.sol && existsSync(join(aqui, "referencia_calendario.json"))) {
+  const cal = crearCalendario(sistemas.sol), ref = JSON.parse(readFileSync(join(aqui, "referencia_calendario.json"), "utf8")), D = 180 / Math.PI;
+  const env = (x) => { x = (x + 180) % 360; if (x < 0) x += 360; return x - 180; };
+  let pe = 0, pl = 0;
+  for (const m of ref.muestras) { const jd = m.jdUtc + 69.184 / 86400; pe = Math.max(pe, Math.abs(cal.elongacion(m.planeta, jd) * D - m.elong)); pl = Math.max(pl, Math.abs(env(cal.elLon(m.planeta, jd) * D - env(m.lonP - m.lonS)))); }
+  afirmar(pe < 0.001 && pl < 0.001, `calendario: elongación (${pe.toFixed(5)}°) y longitud relativa al Sol (${pl.toFixed(5)}°) contra Horizons en ${ref.muestras.length} épocas`);
+  const ev = cal.todos(jdTdbDesdeUtc(JD_UTC_INICIO), jdTdbDesdeUtc(JD_UTC_FIN)), por = (t, p) => ev.filter((e) => e.tipo === t && (!p || e.planeta === p));
+  for (const e of por("oposicion")) cerca(Math.abs(env(cal.elLon(e.planeta, e.jdTdb) * D)), 180, 0.001, `oposición de ${NOMBRE_CAL[e.planeta]}: longitud relativa 180°`);
+  for (const e of por("cuad_este")) cerca(env(cal.elLon(e.planeta, e.jdTdb) * D), 90, 0.001, `cuadratura oriental de ${NOMBRE_CAL[e.planeta]}`);
+  for (const e of [...por("conj_sup"), ...por("conj_inf"), ...por("conjuncion")]) cerca(env(cal.elLon(e.planeta, e.jdTdb) * D), 0, 0.001, `conjunción con el Sol de ${NOMBRE_CAL[e.planeta]}`);
+  for (const e of [...por("elong_este"), ...por("elong_oeste")]) { const a = cal.elongacion(e.planeta, e.jdTdb), b = cal.elongacion(e.planeta, e.jdTdb - 0.5), c = cal.elongacion(e.planeta, e.jdTdb + 0.5); afirmar(a >= b && a >= c, `máxima elongación de ${NOMBRE_CAL[e.planeta]} es un máximo`); afirmar(e.elong > 17 && e.elong < 48, `elongación máxima de ${NOMBRE_CAL[e.planeta]}: ${e.elong.toFixed(1)}° (esperado 17°–47°)`); }
+  for (const e of [...por("est_retro"), ...por("est_directo")]) { const h = cal.geo(e.planeta, e.jdTdb + 0.01, {}).lam, g = cal.geo(e.planeta, e.jdTdb - 0.01, {}).lam, dl = env((h - g) * D) / 0.02; afirmar(Math.abs(dl) < 0.002, `estacionario de ${NOMBRE_CAL[e.planeta]}: velocidad en longitud ${dl.toFixed(5)}°/d`); }
+  // fechas publicadas: oposición de Marte 2027-02-19, de Saturno 2027-10-18 y de Neptuno 2027-09-28; conjunción Júpiter–Saturno 2040-10-31 a ≈ 1,1°
+  for (const [p, f] of [["499", "2027-02-19"], ["699", "2027-10-18"], ["899", "2027-09-28"]]) { const e = por("oposicion", p).sort((a, b) => Math.abs(a.jdUtc - jdUtcDesdeInput(f + "T12:00")) - Math.abs(b.jdUtc - jdUtcDesdeInput(f + "T12:00")))[0]; afirmar(Math.abs(e.jdUtc - jdUtcDesdeInput(f + "T12:00")) < 0.75, `oposición de ${NOMBRE_CAL[p]} el ${f}`); }
+  const gc = ev.find((e) => e.tipo === "conj_planetas" && e.planeta === "599" && e.planeta2 === "699" && e.jdUtc > jdUtcDesdeInput("2040-10-01T00:00") && e.jdUtc < jdUtcDesdeInput("2040-12-01T00:00"));
+  afirmar(!!gc && Math.abs(gc.jdUtc - jdUtcDesdeInput("2040-10-31T12:00")) < 1 && Math.abs(gc.sep_grados - 1.1) < 0.1, "gran conjunción Júpiter–Saturno del 31 de octubre de 2040 (separación 1,1°)");
+  const cuenta = (t, p) => por(t, p).length; afirmar(cuenta("oposicion", "499") === 12 && cuenta("oposicion", "599") >= 21 && cuenta("oposicion", "699") >= 22, `oposiciones 2027–2050: Marte ${cuenta("oposicion", "499")}, Júpiter ${cuenta("oposicion", "599")}, Saturno ${cuenta("oposicion", "699")}`);
+  console.log(`Calendario: ${ev.length} fenómenos 2027–2050; posiciones aparentes contra Horizons: elongación ≤ ${pe.toFixed(5)}°, longitud ≤ ${pl.toFixed(5)}°`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);
