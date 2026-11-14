@@ -34,7 +34,7 @@ El polo norte y el meridiano origen de cada planeta siguen el informe del grupo 
 | Magnitudes aparentes | Fórmulas de Meeus para los planetas vistos desde la Tierra; modelo de Lambert con albedo geométrico en los demás casos (albedo 0,25 para las lunas) |
 | Trayectorias | Cónicas empalmadas (Lambert) con la gravedad del Sol; sin asistencias, perturbaciones ni empuje continuo |
 | Color del cielo y del suelo | Ilustrativos |
-| Texturas de superficie | **Ilustrativas**: procedurales; la Tierra usa la máscara tierra/mar de Natural Earth 1:110m (dominio público) y la Luna sus mares principales en coordenadas aproximadas. No son fotografías |
+| Texturas de superficie | **Ilustrativas**: procedurales, salvo **Marte**, que usa un mapa real de imágenes Viking (USGS; crédito NASA/JPL-Caltech, ver [DATA_LICENSES.md](../../DATA_LICENSES.md)); la Tierra usa la máscara tierra/mar de Natural Earth 1:110m (dominio público) y la Luna sus mares principales en coordenadas aproximadas. No son fotografías |
 | Fondo de estrellas | Decorativo (posiciones aleatorias con semilla fija); no es un catálogo |
 | Anillos | Radios orientativos de NASA, opacidad ilustrativa |
 

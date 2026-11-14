@@ -6,6 +6,23 @@ import { BITS, ANCHO as MW, ALTO as MH } from "./mascara_tierra.js";
 
 const GRANDES = new Set(["tierra", "luna"]);
 const cache = new Map();
+/** Texturas de imágenes reales (mapas equirectangulares, longitud −180…180 hacia el este); el resto son procedurales e ilustrativas. Créditos en DATA_LICENSES.md. */
+export const TEXTURAS_REALES = { marte: { url: "texturas/marte.jpg", credito: "mapa de imágenes Viking procesadas por el USGS · NASA/JPL-Caltech" } };
+const pedidas = new Set();
+function cargarImagen(clave) {
+  if (pedidas.has(clave) || typeof document === "undefined") return; pedidas.add(clave);
+  const im = new Image();
+  im.onload = () => {
+    const w = Math.min(1440, im.naturalWidth), h = Math.round(w / 2), c = document.createElement("canvas"); c.width = w; c.height = h;
+    const g = c.getContext("2d", { willReadFrequently: true }); g.drawImage(im, 0, 0, w, h);
+    const px = g.getImageData(0, 0, w, h).data, d = new Uint8ClampedArray(w * h * 3);
+    for (let i = 0, k = 0; i < px.length; i += 4, k += 3) { d[k] = px[i]; d[k + 1] = px[i + 1]; d[k + 2] = px[i + 2]; }
+    d.ancho = w; d.alto = h; cache.set(clave, d);
+    for (const e of porObjeto.values()) e.clave = "";            // fuerza a redibujar con la imagen
+  };
+  im.onerror = () => {};                                          // sin la imagen se conserva la textura procedural
+  im.src = TEXTURAS_REALES[clave].url;
+}
 
 // ---- ruido de valor 3D determinista
 function hash(ix, iy, iz) {
@@ -123,6 +140,7 @@ function colorTextura(clave, x, y, z, lon, lat) {
 }
 
 function textura(clave) {
+  if (TEXTURAS_REALES[clave]) cargarImagen(clave);
   if (cache.has(clave)) return cache.get(clave);
   const ANCHO_T = GRANDES.has(clave) ? 1024 : 512, ALTO_T = ANCHO_T / 2;
   const d = new Uint8ClampedArray(ANCHO_T * ALTO_T * 3);
@@ -138,7 +156,7 @@ function textura(clave) {
     }
   }
   d.ancho = ANCHO_T; d.alto = ALTO_T;
-  cache.set(clave, d);
+  if (!TEXTURAS_REALES[clave]) cache.set(clave, d);               // la procedural de un cuerpo con imagen real es provisional
   return d;
 }
 

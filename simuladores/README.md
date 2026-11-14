@@ -75,4 +75,4 @@ cd simuladores && python -m http.server 8000   # abrir http://localhost:8000/
 python herramientas/validar_simuladores.py     # desde la raíz: datos, motor, páginas, enlaces y figuras (necesita Node.js 22)
 ```
 
-Código Apache-2.0; documentación CC BY-NC-SA 4.0; datos de NASA/JPL, Natural Earth y el catálogo estelar (d3-celestial, BSD) según [DATA_LICENSES.md](../DATA_LICENSES.md). Los simuladores son material de apoyo: no sirven para planificar misiones ni habilitan decisiones de vuelo.
+Código Apache-2.0; documentación CC BY-NC-SA 4.0; datos de NASA/JPL, Natural Earth, el mapa de Marte de NASA/JPL-Caltech (Viking, USGS) y el catálogo estelar (d3-celestial, BSD) según [DATA_LICENSES.md](../DATA_LICENSES.md). Los simuladores son material de apoyo: no sirven para planificar misiones ni habilitan decisiones de vuelo.

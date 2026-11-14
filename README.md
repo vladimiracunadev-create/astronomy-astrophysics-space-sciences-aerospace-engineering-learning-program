@@ -740,6 +740,7 @@ Este repositorio separa las obras por su naturaleza:
 - **Código propio, scripts, workflows, configuración y componentes funcionales:** [Apache License 2.0](LICENSE).
 - **Arquitectura curricular, documentación, rutas, futuras clases, ejercicios, evaluaciones, diagramas y materiales educativos originales:** [CC BY-NC-SA 4.0](LICENSE-CONTENT.md).
 - **Catálogos, metadatos y futuros datos científicos:** consulta [DATA_LICENSES.md](DATA_LICENSES.md); hechos y datos externos no se relicencian automáticamente.
+- **Imágenes de terceros en los simuladores:** la textura de Marte es un mapa de imágenes Viking procesado por el USGS (crédito NASA/JPL-Caltech; la fuente no declara una licencia explícita y NASA indica que sus imágenes en general no tienen copyright en EE. UU.); procedencia, huella SHA-256 y condiciones en [DATA_LICENSES.md](DATA_LICENSES.md) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). El resto de las texturas son ilustrativas y están generadas por el código.
 - **Imágenes, audio, video, modelos, tipografías y otros activos:** consulta [ASSET_LICENSES.md](ASSET_LICENSES.md).
 - **Herramientas, fuentes y material de terceros:** conservan sus licencias y derechos originales; consulta [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
