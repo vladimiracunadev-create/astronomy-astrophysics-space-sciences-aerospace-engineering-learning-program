@@ -25,6 +25,7 @@ Esta carpeta contiene el contrato académico, editorial y técnico del **Program
 7. [IDs, ampliaciones y compatibilidad](CONVENIOS_DE_IDENTIFICACION_Y_AMPLIACION.md)
 8. [Licencias, fuentes y atribuciones](LICENCIAS_Y_PROCEDENCIA.md)
 9. [Cómo usar el programa](COMO_USAR_EL_PROGRAMA.md)
+   - [Agentes y skills especializados](AGENTES_Y_SKILLS.md): 11 agentes y 7 skills de Claude Code con herramientas de consulta y de planificación de misiones
 10. [Syllabus, progresión y carga](SYLLABUS_Y_CARGA.md)
 11. [Estándar de fuentes](ESTANDAR_DE_FUENTES.md)
 12. [Fuentes y evidencia](FUENTES_Y_EVIDENCIA.md)

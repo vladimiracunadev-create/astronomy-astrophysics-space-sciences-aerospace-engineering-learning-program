@@ -509,6 +509,7 @@ El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): 
 - [📦 Descargas y PDF: lista completa](documentacion\DESCARGAS_Y_PDF.md)
 - [Estándar de fuentes](documentacion\ESTANDAR_DE_FUENTES.md)
 - [Estándar de los simuladores](documentacion/ESTANDAR_DE_SIMULADORES.md)
+- [Agentes y skills especializados](documentacion/AGENTES_Y_SKILLS.md): 11 agentes y 7 skills de Claude Code que trabajan con el programa (planificador de viaje espacial, ingeniería de sistemas, ciencia planetaria, operaciones, hábitats, derecho, proyecto, pitch, tutor y estratega de competencias)
 - [Estándar de los talleres de misión](documentacion\ESTANDAR_DE_TALLERES_DE_MISION.md)
 - [Estándar para generar los contenidos](documentacion\ESTANDAR_PARA_GENERAR_CONTENIDOS.md)
 - [Estándar pedagógico, científico, de evidencia y evaluación](documentacion\ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md)

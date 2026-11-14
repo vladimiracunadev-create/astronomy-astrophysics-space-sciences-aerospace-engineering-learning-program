@@ -40,6 +40,11 @@ jobs:
       - name: Comprobar guías por rol
         run: python herramientas/generar_rutas_por_rol.py --check
 
+      - name: Comprobar las herramientas de consulta y de planificación de misiones
+        run: |
+          python herramientas/consulta_programa.py autotest
+          python herramientas/planificador_de_misiones.py autotest
+
       - name: Validar talleres de misión
         run: python herramientas/validar_talleres.py
 

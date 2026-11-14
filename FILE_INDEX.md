@@ -9,6 +9,7 @@
 | redactar o evaluar una clase futura | `documentacion/ESTANDAR_PEDAGOGICO_Y_DE_EVALUACION.md` |
 | planificar implementación | `ROADMAP.md`, `documentacion/PLAN_DE_IMPLEMENTACION_Y_ESTADOS.md` |
 | elegir una ruta profesional | `documentacion/MAPA_DE_RUTAS_PROFESIONALES.md` |
+| usar agentes y skills especializados (viaje espacial, sistemas, pitch, competencias) | `documentacion/AGENTES_Y_SKILLS.md`, `.claude/agents/`, `.claude/skills/`, `herramientas/consulta_programa.py`, `herramientas/planificador_de_misiones.py` |
 | ver el Sistema Solar, el cielo desde otros mundos o calcular trayectorias 2027–2050 con datos oficiales de JPL | `simuladores/README.md`, `simuladores/documentacion/README.md`, `documentacion/ESTANDAR_DE_SIMULADORES.md` |
 | planificar una misión real de principio a fin | `talleres/README.md`, `documentacion/ESTANDAR_DE_TALLERES_DE_MISION.md` |
 | gestionar fuentes y evidencia | `documentacion/ESTANDAR_DE_FUENTES.md`, `documentacion/FUENTES_Y_EVIDENCIA.md` |
