@@ -249,7 +249,7 @@ if (sistemas.sol && sistemas.jupiter) {
 }
 
 // 8b. Cielo desde las lunas: el planeta anfitrión (rotación síncrona) y el Sol
-for (const [pid, sid, lid, nom, esperado] of [["599", "jupiter", "502", "Júpiter desde Europa", 12.2], ["799", "urano", "703", "Urano desde Titania", 6.7], ["899", "neptuno", "801", "Neptuno desde Tritón", 8.0]]) {
+for (const [pid, sid, lid, nom, esperado] of [["599", "jupiter", "502", "Júpiter desde Europa", 12.2], ["799", "urano", "703", "Urano desde Titania", 6.7], ["899", "neptuno", "801", "Neptuno desde Tritón", 8.0], ["699", "saturno", "606", "Saturno desde Titán", 5.5]]) {
   if (!(sistemas.sol && sistemas[sid])) continue;
   const o = new ObservadorLuna({ idPlaneta: pid, idLuna: lid, sol: sistemas.sol, sis: sistemas[sid] }), jd0 = jdTdbDesdeUtc(JD_UTC_INICIO);
   o.lugar(0, 0); o.actualizar(jd0, JD_UTC_INICIO);

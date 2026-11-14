@@ -28,6 +28,7 @@ const FIGURAS = [
   { archivo: "cielo-europa", id: "599", luna: "502", sistema: "jupiter", titulo: "Cielo desde Europa", lugar: "Superficie de Europa, hemisferio que mira a Júpiter (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
   { archivo: "cielo-titania", id: "799", luna: "703", sistema: "urano", titulo: "Cielo desde Titania", lugar: "Superficie de Titania, hemisferio que mira a Urano (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
   { archivo: "cielo-triton", id: "899", luna: "801", sistema: "neptuno", titulo: "Cielo desde Tritón", lugar: "Superficie de Tritón, hemisferio que mira a Neptuno (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
+  { archivo: "cielo-titan", id: "699", luna: "606", sistema: "saturno", titulo: "Cielo desde Titán", lugar: "Superficie de Titán, hemisferio que mira a Saturno (20° N, 30° E)", lat: 20, lon: 30, fecha: "2027-03-21T00:00", fondo: "#02030a" },
 ];
 
 function figura(f, sol) {

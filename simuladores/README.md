@@ -30,6 +30,7 @@ Los enlaces a los simuladores abren la **página funcional** en GitHub Pages; lo
 | [**Cielo desde Europa**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-europa.html) | Júpiter de 12° fijo en el cielo, con fases, y las lunas galileanas | [cielo-europa.md](documentacion/cielo-europa.md) |
 | [**Cielo desde Titania**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-titania.html) | Urano de ≈ 7° fijo en el cielo, con fases, y las demás lunas mayores | [cielo-titania.md](documentacion/cielo-titania.md) |
 | [**Cielo desde Tritón**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-triton.html) | Neptuno de ≈ 8° fijo en el cielo, con fases, desde una luna de órbita retrógrada | [cielo-triton.md](documentacion/cielo-triton.md) |
+| [**Cielo desde Titán**](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/cielo-titan.html) | Saturno de ≈ 5° fijo en el cielo, con fases, y los anillos casi de canto | [cielo-titan.md](documentacion/cielo-titan.md) |
 
 ## Trayectorias, eclipses y misiones
 
