@@ -7,16 +7,18 @@ genera en `build/` (ignorado por git) y se adjunta a la página de la versión (
 |---|---|---|
 | 1. Sitio sin conexión | `python herramientas/publicacion/sitio.py` | `build/web/` (HTML + búsqueda); lo usan las apps |
 | 2. Unidades PDF | `python herramientas/publicacion/pdf.py unidades` | Un PDF por clase, guía, anexo y archivo del glosario |
-| 3. Volúmenes PDF | `python herramientas/publicacion/pdf.py ensamblar` | General, 12 áreas y 24 roles, con marcadores y numeración |
+| 3. Volúmenes PDF | `python herramientas/publicacion/pdf.py ensamblar [nombre]` | General, 12 áreas y 24 roles, con marcadores y numeración (`ensamblar Programa-General` arma solo el general). **El release adjunta solo el PDF general**; el resto queda en `build/dist/` |
 | 4. Android | `python herramientas/publicacion/android.py` | `.apk` firmado (WebView + sitio en los assets) |
-| 5. Windows | `python herramientas/publicacion/windows.py` | `.zip` portable con lanzador `.exe` |
+| 5. Windows (portable) | `python herramientas/publicacion/windows.py` | `.zip` portable con lanzador `.exe` |
+| 5b. Windows (instalador) | `python herramientas/publicacion/windows_instalador.py` | `Setup.exe` de un solo archivo con el paquete portable incrustado: instala por usuario, crea accesos directos y se desinstala desde «Aplicaciones instaladas» (`/S` silencioso, `/D=<carpeta>`, `/desinstalar`) |
 | 6. Verificación | `python herramientas/publicacion/verificar.py` | Abre cada artefacto y cuenta su contenido |
 
 ## Requisitos
 
 - Python 3.12 con `markdown`, `PyMuPDF` (`fitz`), `playwright` (con Chromium) y `Pillow`.
 - Android: Android SDK (build-tools y plataforma 34) y un JDK (sirve el de Android Studio). No usa Gradle.
-- Windows: el compilador de C# incluido en Windows (.NET Framework 4); la app usa Microsoft Edge o Google Chrome ya instalados.
+- Windows: el compilador de C# incluido en Windows (.NET Framework 4); la app usa Microsoft Edge o Google Chrome ya instalados. El instalador no necesita Inno Setup ni NSIS.
+- Las herramientas de trabajo del repositorio (`.claude/`, `documentacion/AGENTES_Y_SKILLS.md`) **no se incluyen** en la publicación.
 
 ## Decisiones
 

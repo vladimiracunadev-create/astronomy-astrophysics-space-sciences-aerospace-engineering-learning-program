@@ -6,9 +6,16 @@ Todos los cambios relevantes de este programa se documentan aquí. Las referenci
 
 ## [Sin publicar]
 
+_Sin cambios todavía._
+
+## [0.2.0] — 2026-11-13 · simuladores del Sistema Solar
+
 ### Añadido
 
 - **Simuladores del Sistema Solar 2027–2050** (`simuladores/`): veintitrés simuladores interactivos en JavaScript puro que funcionan en GitHub Pages —Sistema Solar, Tierra · Sol · Luna, Marte, Júpiter, Saturno, Urano, Neptuno, Plutón, el cielo desde la Tierra, Marte, Júpiter, Saturno y desde Europa, Titania, Tritón y Titán, trayectorias entre planetas, franjas de eclipses solares, calendario planetario, 22 misiones espaciales con sus encuentros y asistencias gravitatorias, una calculadora de asistencias, 16 cometas y el cinturón de asteroides— con efemérides oficiales de NASA/JPL Horizons (DE441 y efemérides de satélites) de 516 tablas (planetas, Plutón, Ceres, 458 satélites, 22 naves, los planetas 1970–2050 y 16 cometas), 77 encuentros con planetas con su trayectoria planetocéntrica, 5.044 estrellas (d3-celestial, BSD) y un solucionador de Lambert, tamaños y distancias reales, anillos, sombras y eclipses. Cada cuerpo lleva su error de interpolación medido contra JPL; los eclipses (109) se contrastan con el catálogo de la NASA y las fases lunares (1.187), los equinoccios y solsticios (96), los ápsides (48) y las salidas y puestas del Sol y la Luna (188) con el U.S. Naval Observatory; el problema de Lambert, con un ejemplo publicado y la transferencia de Hohmann. Documentación en `simuladores/documentacion/`, figuras SVG a escala generadas desde los datos y [estándar](documentacion/ESTANDAR_DE_SIMULADORES.md).
+- **Herramientas de consulta y de planificación de misiones** (`herramientas/consulta_programa.py` y `herramientas/planificador_de_misiones.py`, con autotest en la integración continua) y agentes y skills de Claude Code para trabajar con el programa (`.claude/`, guía `documentacion/AGENTES_Y_SKILLS.md`): son herramientas del repositorio y **no se incluyen en la publicación** (PDF, Windows y Android).
+- **Publicación:** el release adjunta el **PDF general**, el **instalador de Windows** (`Setup.exe`, por usuario, con desinstalador), el **ZIP portable de Windows** y el **APK de Android**, con `SHA256SUMS.txt`. Los PDF por área, por rol y por taller dejan de adjuntarse (se generan localmente con `herramientas/publicacion/pdf.py`).
+- Texturas reales de Marte (mapa Viking, USGS; NASA/JPL-Caltech) y de Plutón (mosaico de New Horizons, USGS, dominio público), con su procedencia y huella en `DATA_LICENSES.md`.
 - `herramientas/validar_simuladores.py` (en la integración continua, con Node.js 22) y `herramientas/efemerides/` (descarga, empaquetado, tabla de precisión y figuras).
 - Integración en el sitio (menú «Simuladores», búsqueda y tarjeta en la portada) y en el README.
 - Las 24 guías de rol (`rutas/`) incluyen el **recorrido módulo por módulo**: diagnóstico de entrada, los 8 módulos con sus 10 temas y las clases exactas enlazadas (2.674 enlaces), un checkpoint por módulo, un proyecto final con entregables y criterios de evaluación y un criterio de salida. Se genera con `herramientas/generar_rutas_por_rol.py` a partir de la colocación de módulos y de `metadatos/rutas_evaluacion.json`.

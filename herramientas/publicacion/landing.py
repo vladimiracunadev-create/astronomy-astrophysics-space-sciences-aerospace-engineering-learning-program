@@ -105,6 +105,7 @@ def datos_landing():
             "release": URL_RELEASE, "repo": URL_REPO,
             "general": url_descarga("Programa-General.pdf"),
             "windows": f"Programa-Aeroespacial_v{VERSION}_Windows.zip",
+            "windows_setup": f"Programa-Aeroespacial_v{VERSION}_Windows_Setup.exe",
             "android": f"Programa-Aeroespacial_v{VERSION}_Android.apk",
             "base": f"{URL_REPO}/releases/latest/download/",
         },
@@ -169,14 +170,13 @@ JS = r"""
   $('#descargas').innerHTML=
    '<div class="grid descargas">'+
    '<a class="card" href="'+d.general+'"><b>📕 Programa general (PDF)</b><small>Guías de roles y bloques, anexos y glosarios</small></a>'+
-   '<a class="card" href="'+d.release+'"><b>🖥️ Windows</b><small>ZIP portable · '+esc(d.windows)+'</small></a>'+
+   '<a class="card" href="'+d.release+'"><b>🖥️ Windows · instalador</b><small>Setup.exe · '+esc(d.windows_setup)+'</small></a>'+
+   '<a class="card" href="'+d.release+'"><b>🖥️ Windows · portable</b><small>ZIP portable · '+esc(d.windows)+'</small></a>'+
    '<a class="card" href="'+d.release+'"><b>📱 Android</b><small>APK · '+esc(d.android)+'</small></a>'+
-   '<a class="card" href="'+d.release+'"><b>🔐 Verificación</b><small>SHA256SUMS.txt y notas de la versión</small></a></div>'+
-   '<details class="lista"><summary>📕 PDF por área (12)</summary><ul>'+D.areas.map(function(a){return '<li><a href="'+d.base+a.pdf+'">'+esc(a.id+' · '+a.titulo)+'</a></li>'}).join('')+'</ul></details>'+
-   '<details class="lista"><summary>📕 PDF por rol (24)</summary><ul>'+D.roles.map(function(r){return '<li><a href="'+d.base+r.pdf+'">'+esc(r.id+' · '+r.nombre)+'</a></li>'}).join('')+'</ul></details>';
+   '<a class="card" href="'+d.release+'"><b>🔐 Verificación</b><small>SHA256SUMS.txt y notas de la versión</small></a></div>';
  }else{$('#sec-descargas').classList.add('oculto');$('#btn-desc').classList.add('oculto')}
  // roles
- $('#roles').innerHTML=D.roles.map(function(r){return '<article class="card"><div class="meta"><span>'+r.id+'</span>'+(en_linea?'<a href="'+d.base+r.pdf+'">PDF</a>':'')+'</div><h3>'+esc(r.nombre)+'</h3><p>'+esc(r.resumen)+'</p><div class="act"><a href="'+r.guia+'">Abrir la guía del rol</a></div></article>'}).join('');
+ $('#roles').innerHTML=D.roles.map(function(r){return '<article class="card"><div class="meta"><span>'+r.id+'</span>'+''+'</div><h3>'+esc(r.nombre)+'</h3><p>'+esc(r.resumen)+'</p><div class="act"><a href="'+r.guia+'">Abrir la guía del rol</a></div></article>'}).join('');
  // anexos y glosarios
  $('#anexos').innerHTML='<div class="grid">'+D.anexos.map(function(a){return '<a class="card" href="'+a.href+'"><h3>'+esc(a.titulo)+'</h3></a>'}).join('')+'</div>';
  // áreas y bloques
@@ -187,7 +187,7 @@ JS = r"""
    if(af&&a.id!==af)return;
    var bl=a.bloques.filter(function(b){return !q||norm(b.id+' '+b.titulo+' '+b.resumen).indexOf(q)>=0});
    if(!bl.length)return;
-   html+='<div class="area-cab"><h3>'+a.id+' · '+esc(a.titulo)+'</h3>'+(en_linea?'<a href="'+d.base+a.pdf+'">📕 PDF del área</a>':'')+'</div><div class="grid">';
+   html+='<div class="area-cab"><h3>'+a.id+' · '+esc(a.titulo)+'</h3>'+''+'</div><div class="grid">';
    bl.forEach(function(b){var ok=hecho.has(b.id);
     html+='<article class="card'+(ok?' done':'')+'"><div class="meta"><span>'+b.id+'</span><span>'+b.n+' clases</span></div><h3>'+esc(b.titulo)+'</h3><p>'+esc(b.resumen)+'</p>'+
      '<div class="act"><span><a href="'+b.guia+'">Guía del bloque</a>'+(b.clase1?' · <a href="'+b.clase1+'">Primera clase</a>':'')+'</span>'+

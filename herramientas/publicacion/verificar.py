@@ -113,6 +113,21 @@ def verificar_windows():
         n_clases = sum(1 for n in nombres if "/web/programa/clases/" in n and n.endswith("CLASE.html"))
         ok(n_clases == 2077, f"Windows: {n_clases} de 2077 páginas de clase")
         ok(zz.testzip() is None, "Windows: ZIP íntegro")
+        ok(not any("AGENTES_Y_SKILLS" in n or "/.claude/" in n for n in nombres), "Windows: sin los agentes y skills de trabajo (no van en la publicación)")
+        ok(any(n.endswith("/web/simuladores/misiones.html") for n in nombres) and any(n.endswith("/web/simuladores/datos/cometas.bin") for n in nombres), "Windows: incluye los simuladores y sus datos")
+
+
+def verificar_instalador():
+    """El instalador (Setup.exe) debe existir, ser un ejecutable de Windows y llevar incrustado el paquete portable."""
+    e = DIST / f"Programa-Aeroespacial_v{VERSION}_Windows_Setup.exe"
+    z = DIST / f"Programa-Aeroespacial_v{VERSION}_Windows.zip"
+    ok(e.exists(), f"existe {e.name}")
+    if not e.exists() or not z.exists():
+        return
+    datos = e.read_bytes()
+    ok(datos[:2] == b"MZ", "instalador: es un ejecutable de Windows")
+    ok(e.stat().st_size > z.stat().st_size, "instalador: lleva incrustado el paquete portable")
+    ok(b"paquete.zip" in datos and VERSION.encode() in datos, "instalador: recurso del paquete y versión")
 
 
 def verificar_sitio_en_navegador():
@@ -157,6 +172,7 @@ if __name__ == "__main__":
     verificar_pdfs()
     verificar_apk()
     verificar_windows()
+    verificar_instalador()
     print()
     if FALLOS:
         print(f"{len(FALLOS)} comprobaciones fallaron")

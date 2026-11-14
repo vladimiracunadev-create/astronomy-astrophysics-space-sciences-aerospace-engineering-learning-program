@@ -1,6 +1,6 @@
 # Estado verificable
 
-**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.1.2`
+**Fecha de verificación:** 11 de noviembre de 2026 · **Publicación:** `0.2.0`
 
 ## Resumen
 
@@ -29,7 +29,7 @@
 | Clases con texto redactado (total) | 2.077 de 2.077 (1.280 de la línea base y 797 antes programadas); ninguna con revisión disciplinar | `programa/clases/` |
 | Simuladores del Sistema Solar | 23 simuladores publicados en GitHub Pages con efemérides oficiales de JPL 2027–2050 (516 tablas): sistemas planetarios, el cielo desde la Tierra, Marte, Júpiter, Saturno y desde Europa, Titania, Tritón y Titán, trayectorias entre planetas, franjas de eclipses solares, calendario planetario, 22 misiones espaciales con sus encuentros, asistencias gravitatorias, 16 cometas y el cinturón de asteroides; eclipses, fases, estaciones, ápsides y salidas y puestas validados contra la NASA y el U.S. Naval Observatory; el error de cada cuerpo está medido | `simuladores/`, `herramientas/validar_simuladores.py` |
 | Talleres de misión | 10 de 10 redactados (T01 a T10), con laboratorio en Python, figuras SVG y diez capítulos cada uno; todos en E0, con datos de referencia pública marcados ⚠ para contrastar con la fuente | `talleres/`, `herramientas/validar_talleres.py` |
-| Publicación `v0.1.2` | 47 PDF verificados (general, 12 áreas, 24 roles y 10 talleres), con los diagramas dibujados; APK de Android y ZIP portable de Windows; contenido en E0 | `herramientas/publicacion/verificar.py` |
+| Publicación `v0.2.0` | el release adjunta el PDF general (verificado, con los diagramas dibujados), el APK de Android y el instalador y el ZIP portable de Windows; los PDF por área, rol y taller se generan localmente (47 PDF verificados en la compilación); contenido en E0 | `herramientas/publicacion/verificar.py` |
 | Clases programadas (citadas y ubicadas) | 797: las 797 ya tienen texto | `catalogo/estructura/clases_programadas.jsonl` | `catalogo/estructura/clases_programadas.jsonl` |
 | Clases completamente redactadas y verificadas | **0** | catálogo y metadatos |
 | Régimen de software | Apache-2.0 | `LICENSE` |

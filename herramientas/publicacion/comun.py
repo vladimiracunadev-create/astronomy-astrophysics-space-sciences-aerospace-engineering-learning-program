@@ -34,6 +34,8 @@ AVISO = ("Texto de estudio en nivel E0: redactado y pendiente de revisión disci
 
 # Carpetas y archivos que forman la publicación
 RAICES_MD = ["programa", "rutas", "anexos", "talleres", "glosario", "documentacion", "fuentes", "instrucciones", "simuladores"]
+# Herramientas de trabajo del repositorio que NO forman parte de la publicación (PDF, sitio y aplicaciones)
+EXCLUIDOS = {"documentacion/AGENTES_Y_SKILLS.md"}
 ARCHIVOS_RAIZ = ["README.md", "PROGRAMA_ACADEMICO_COMPLETO.md", "STATUS.md", "ROADMAP.md", "SYLLABUS.md",
                  "CHANGELOG.md", "LICENSE-CONTENT.md", "CONTRIBUTING.md", "SECURITY.md", "SUPPORT.md",
                  "THIRD_PARTY_NOTICES.md", "TRADEMARKS.md", "DATA_LICENSES.md", "ASSET_LICENSES.md",
@@ -98,7 +100,7 @@ def archivos_md() -> list[Path]:
         res += sorted((ROOT / r).rglob("*.md"))
     res += [p for p in sorted((ROOT / "catalogo").rglob("README.md"))]
     res += [ROOT / "herramientas" / "publicacion" / "README.md"]
-    return res
+    return [p for p in res if p.relative_to(ROOT).as_posix() not in EXCLUIDOS]
 
 
 def activos() -> list[Path]:

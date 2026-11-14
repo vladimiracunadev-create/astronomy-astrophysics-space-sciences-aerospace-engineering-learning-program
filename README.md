@@ -454,22 +454,23 @@ Cada rol tiene una guía (qué es, qué no es, un día de trabajo, qué necesita
 <!-- descargas:inicio -->
 ## 📦 Descargas y PDF
 
-**Versión: 0.1.2.** Es la única versión numerada del programa: está en el archivo [`VERSION`](VERSION) y los enlaces apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.
+**Versión: 0.2.0.** Es la única versión numerada del programa: está en el archivo [`VERSION`](VERSION) y los enlaces apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.
 
 | PDF principal | Contenido |
 |---|---|
 | [**📕 Programa general**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest/download/Programa-General.pdf) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos, la documentación y los glosarios |
 
-📚 **Todos los demás PDF** (12 áreas, 24 roles y los talleres, con todas sus clases) están listados en [**Descargas y PDF · lista completa**](documentacion/DESCARGAS_Y_PDF.md).
+📚 Cada versión adjunta **el PDF general y las aplicaciones**. Los PDF por área, por rol y por taller **no se publican como archivos**: todo su contenido está en el sitio y en las aplicaciones, y se pueden generar localmente. Detalles en [**Descargas y PDF**](documentacion/DESCARGAS_Y_PDF.md).
 
 ### 🖥️ Aplicaciones sin conexión
 
 | Descarga | Archivo | Para qué |
 |---|---|---|
-| [**Windows**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.2_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
-| [**Android**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.1.2_Android.apk` | Móvil y tableta (Android 7 o superior) |
+| [**Windows · instalador**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.2.0_Windows_Setup.exe` | Instala por usuario (sin permisos de administrador), crea accesos directos en el menú Inicio y el escritorio y se desinstala desde «Aplicaciones instaladas» |
+| [**Windows · portable**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.2.0_Windows.zip` | Sin instalar: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |
+| [**Android · instalador**](https://github.com/vladimiracunadev-create/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/releases/latest) | `Programa-Aeroespacial_v0.2.0_Android.apk` | Móvil y tableta (Android 7 o superior): el propio APK es el instalador; Android no tiene versión portable |
 
-> El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
+> El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala permitiendo «orígenes desconocidos». Los ejecutables de Windows (instalador y portable) **no están firmados digitalmente**; SmartScreen puede avisar. Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos.
 
 El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): ver [`STATUS.md`](STATUS.md). Cómo se generan estos archivos: [`herramientas/publicacion/`](herramientas/publicacion/README.md).
 <!-- /descargas -->

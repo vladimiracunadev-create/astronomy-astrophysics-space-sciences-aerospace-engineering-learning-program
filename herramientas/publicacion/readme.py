@@ -40,13 +40,14 @@ ARCHIVO_PDF = ROOT / "documentacion" / "DESCARGAS_Y_PDF.md"
 def _apps() -> list[str]:
     rel = landing.URL_RELEASE
     return ["| Descarga | Archivo | Para qué |", "|---|---|---|",
-            f"| [**Windows**]({rel}) | `Programa-Aeroespacial_v{VERSION}_Windows.zip` | Portable: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |",
-            f"| [**Android**]({rel}) | `Programa-Aeroespacial_v{VERSION}_Android.apk` | Móvil y tableta (Android 7 o superior) |"]
+            f"| [**Windows · instalador**]({rel}) | `Programa-Aeroespacial_v{VERSION}_Windows_Setup.exe` | Instala por usuario (sin permisos de administrador), crea accesos directos en el menú Inicio y el escritorio y se desinstala desde «Aplicaciones instaladas» |",
+            f"| [**Windows · portable**]({rel}) | `Programa-Aeroespacial_v{VERSION}_Windows.zip` | Sin instalar: extraer todo el ZIP y abrir `ProgramaAeroespacial.exe` (usa Edge o Chrome ya instalados) |",
+            f"| [**Android · instalador**]({rel}) | `Programa-Aeroespacial_v{VERSION}_Android.apk` | Móvil y tableta (Android 7 o superior): el propio APK es el instalador; Android no tiene versión portable |"]
 
 
 def _avisos() -> list[str]:
     return ["> El APK está firmado con una clave de publicación propia del proyecto, **no** procede de Google Play: se instala "
-            "permitiendo «orígenes desconocidos». Los ejecutables de Windows **no están firmados digitalmente**; SmartScreen puede avisar. "
+            "permitiendo «orígenes desconocidos». Los ejecutables de Windows (instalador y portable) **no están firmados digitalmente**; SmartScreen puede avisar. "
             "Comprueba siempre el `SHA256SUMS.txt` de la versión antes de ejecutarlos."]
 
 
@@ -57,8 +58,9 @@ def bloque() -> str:
            "apuntan siempre a la última publicada, así que no caducan. Las estructuras y líneas base internas no llevan número de versión.", "",
            f"| PDF principal | Contenido |", "|---|---|",
            f"| [**📕 Programa general**]({L('Programa-General.pdf')}) | Portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos, la documentación y los glosarios |", "",
-           "📚 **Todos los demás PDF** (12 áreas, 24 roles y los talleres, con todas sus clases) están listados en "
-           "[**Descargas y PDF · lista completa**](documentacion/DESCARGAS_Y_PDF.md).", "",
+           "📚 Cada versión adjunta **el PDF general y las aplicaciones**. Los PDF por área, por rol y por taller **no se publican como archivos**: "
+           "todo su contenido está en el sitio y en las aplicaciones, y se pueden generar localmente. Detalles en "
+           "[**Descargas y PDF**](documentacion/DESCARGAS_Y_PDF.md).", "",
            "### 🖥️ Aplicaciones sin conexión", ""] + _apps() + [""] + _avisos() + ["",
            "El contenido sigue en nivel E0 (redactado, pendiente de revisión disciplinar): ver [`STATUS.md`](STATUS.md). "
            "Cómo se generan estos archivos: [`herramientas/publicacion/`](herramientas/publicacion/README.md).", FIN]
@@ -66,29 +68,19 @@ def bloque() -> str:
 
 
 def pagina_pdf() -> str:
-    d = landing.datos_landing()
     L = landing.url_descarga
-    o = ["# 📦 Descargas y PDF: lista completa", "",
+    o = ["# 📦 Descargas y PDF", "",
          f"Versión **{VERSION}**. Todos los enlaces apuntan a la última versión publicada en "
          f"[Releases]({landing.URL_RELEASE}) y no caducan. Cada versión adjunta `SHA256SUMS.txt`:", "",
          "```bash", "sha256sum -c SHA256SUMS.txt", "```", "",
          "## 📕 PDF general", "",
          f"- [**Programa general**]({L('Programa-General.pdf')}): portada, programa completo, guías de los 24 roles y de los 133 bloques, los 20 anexos, la documentación y los glosarios.", "",
-         "## 🗂️ PDF por área", "",
-         "Guía de cada bloque del área y todas sus clases.", "", "| Área | PDF |", "|---|---|"]
-    for a in d["areas"]:
-        o.append(f"| {a['id']} · {a['titulo']} | [{a['pdf']}]({L(a['pdf'])}) |")
-    o += ["", "## 🧭 PDF por rol", "", "Guía del rol y las clases que usa, en orden.", "", "| Rol | PDF |", "|---|---|"]
-    for r in d["roles"]:
-        o.append(f"| {r['id']} · {r['nombre']} | [{r['pdf']}]({L(r['pdf'])}) |")
-    tall = sorted((ROOT / "talleres").glob("T*/README.md"))
-    if tall:
-        o += ["", "## 🛠️ PDF por taller", "", "Cada taller de misión completo, con sus capítulos y figuras.", "", "| Taller | PDF |", "|---|---|"]
-        for r in tall:
-            nombre = f"Taller-{r.parent.name}.pdf"
-            tit = titulo_de(r.read_text(encoding="utf-8"), r.parent.name)
-            o.append(f"| {tit} | [{nombre}]({L(nombre)}) |")
-    o += ["", "## 🖥️ Aplicaciones sin conexión", ""] + _apps() + [""] + _avisos() + ["",
+         "El release adjunta **solo este PDF** y las aplicaciones. El resto del contenido está completo en el sitio y en las aplicaciones sin conexión.", "",
+         "## 🗂️ PDF por área, por rol y por taller (generación local)", "",
+         "Los volúmenes por **área** (12), por **rol** (24) y por **taller de misión** (10) no se adjuntan a la versión; se generan en `build/dist/` con las herramientas de publicación:", "",
+         "```bash", "python herramientas/publicacion/sitio.py", "python herramientas/publicacion/pdf.py unidades", "python herramientas/publicacion/pdf.py ensamblar", "```", "",
+         "Requisitos y detalles: [`herramientas/publicacion/`](../herramientas/publicacion/README.md). Las guías de rol y de bloque también se leen directamente en [`rutas/`](../rutas/README.md) y en [`programa/`](../programa/tronco-comun).", "",
+         "## 🖥️ Aplicaciones sin conexión", ""] + _apps() + [""] + _avisos() + ["",
           "Volver al [README](../README.md) · [Índice de la documentación](README.md)", ""]
     return chr(10).join(o)
 
