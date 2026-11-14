@@ -29,6 +29,7 @@ Los simuladores del Sistema Solar (2027–2050) están pensados para que cualqui
 | ![Cielo desde Saturno](../img/cielo-saturno.svg) | **Cielo desde Saturno** | [cielo-saturno.md](cielo-saturno.md) | Publicado |
 | ![Cielo desde Europa](../img/cielo-europa.svg) | **Cielo desde Europa** | [cielo-europa.md](cielo-europa.md) | Publicado |
 | ![Cielo desde Titania](../img/cielo-titania.svg) | **Cielo desde Titania** | [cielo-titania.md](cielo-titania.md) | Publicado |
+| ![Cielo desde Tritón](../img/cielo-triton.svg) | **Cielo desde Tritón** | [cielo-triton.md](cielo-triton.md) | Publicado |
 | ![Trayectorias entre planetas](../img/trayectorias.svg) | **Trayectorias entre planetas** | [trayectorias.md](trayectorias.md) | Publicado |
 | ![Eclipses solares](../img/eclipses-solares.svg) | **Eclipses solares** | [eclipses-solares.md](eclipses-solares.md) | Publicado |
 | ![Misiones espaciales](../img/misiones.svg) | **Misiones espaciales** | [misiones.md](misiones.md) | Publicado |
