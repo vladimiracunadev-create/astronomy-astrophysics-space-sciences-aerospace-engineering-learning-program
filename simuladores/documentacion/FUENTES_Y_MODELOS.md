@@ -38,6 +38,10 @@ El polo norte y el meridiano origen de cada planeta siguen el informe del grupo 
 | Fondo de estrellas | Decorativo (posiciones aleatorias con semilla fija); no es un catálogo |
 | Anillos | Radios orientativos de NASA, opacidad ilustrativa |
 
+## Misiones: encuentros y asistencias gravitatorias
+
+Los encuentros del [simulador de misiones](misiones.md) se **detectan** (mínimos de la distancia nave–planeta dentro de la esfera de influencia a·(m/M☉)^0,4) y se **miden** con vectores planetocéntricos de JPL Horizons (paso de minutos cerca del mayor acercamiento). La **ganancia de velocidad** usa el método de las cónicas empalmadas: la hipérbola de dos cuerpos con el estado en el mayor acercamiento (μ de cada planeta en `datos/encuentros.json`), sus asíntotas de entrada y de salida sumadas a la velocidad heliocéntrica del planeta. Es un modelo de dos cuerpos: la medida en vuelo difiere en décimas de km/s por la gravedad del Sol y las maniobras.
+
 ## Límites conocidos
 
 - El simulador **no propaga órbitas**: sólo evalúa tablas. No sirve para planificar misiones ni para efemérides de precisión sub-kilométrica de lunas pequeñas.

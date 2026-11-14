@@ -19,6 +19,8 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .cabecera nav a[aria-current="page"], .cabecera nav a:hover { color: var(--texto); background: var(--panel2); }
 
 .app { display: grid; grid-template-columns: minmax(0, 1fr) 360px; height: calc(100vh - 54px); min-height: 520px; }
+body:has(> .app) { display: flex; flex-direction: column; }
+body:has(> .app) > .app { flex: 1 1 auto; height: auto; min-height: 520px; }   /* la cabecera puede ocupar varias líneas: el simulador ocupa el resto */
 .escena { position: relative; min-width: 0; background: #02030a; overflow: hidden; }
 .escena canvas { display: block; touch-action: none; cursor: grab; }
 .escena canvas:active { cursor: grabbing; }

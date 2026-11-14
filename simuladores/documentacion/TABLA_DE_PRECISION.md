@@ -547,14 +547,14 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 
 ## Naves espaciales (simulador de misiones)
 
-11 cuerpos · peor error máximo: Juno (286 820,34 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@10`.
+22 cuerpos · peor error máximo: Juno (286 820,34 km). Marco: Eclíptica y equinoccio J2000 (ICRF), geométrico; centro `500@10`.
 
 | ID | Cuerpo | Radio (km) | Paso | Nodos/órbita | Formato | Err. máx. (km) | Err. rms (km) | Cobertura |
 |---:|---|---:|---:|---:|---|---:|---:|---|
-| -23 | Pioneer 10 | — | 3 d | — | f32 | 1 031,275 | 372,045 | hasta 2049-12-14 |
-| -24 | Pioneer 11 | — | 3 d | — | f32 | 1 021,053 | 361,608 | hasta 2049-12-12 |
-| -32 | Voyager 2 | — | 3 d | — | f32 | 7 126,759 | 812,031 |  |
-| -31 | Voyager 1 | — | 3 d | — | f32 | 1 236,180 | 460,312 |  |
+| -23 | Pioneer 10 | — | 3 d | — | f32 | 1 078,793 | 385,713 | hasta 2049-12-13 |
+| -24 | Pioneer 11 | — | 3 d | — | f32 | 1 128,663 | 360,037 | hasta 2049-12-13 |
+| -32 | Voyager 2 | — | 3 d | — | f32 | 2 988,692 | 551,053 |  |
+| -31 | Voyager 1 | — | 3 d | — | f32 | 1 275,635 | 564,506 |  |
 | -77 | Galileo | — | 1 d | — | f32 | 94 617,015 | 14 879,358 | hasta 2003-09-24 |
 | -82 | Cassini | — | 1 d | — | f32 | 231 996,139 | 35 594,823 | hasta 2017-09-09 |
 | -98 | New Horizons | — | 1 d | — | f32 | 1 214,116 | 288,371 | hasta 2049-12-26 |
@@ -562,3 +562,14 @@ El **error** es la distancia entre la posición interpolada y la que entrega JPL
 | -96 | Parker Solar Probe | — | 1 d | — | f32 | 160 683,744 | 24 358,740 | hasta 2029-12-26 |
 | -170 | James Webb | — | 1 d | — | f32 | 7,753 | 3,844 | hasta 2031-11-03 |
 | -159 | Europa Clipper | — | 1 d | — | f32 | 75 637,193 | 9 547,194 | hasta 2034-08-28 |
+| -55 | Ulysses | — | 2 d | — | f32 | 91,387 | 16,330 | hasta 2049-12-19 |
+| -236 | MESSENGER | — | 1 d | — | f32 | 18 086,766 | 6 090,839 | hasta 2015-04-25 |
+| -226 | Rosetta | — | 1 d | — | f32 | 11 196,697 | 1 022,439 | hasta 2016-09-29 |
+| -203 | Dawn | — | 1 d | — | f32 | 4 884,039 | 2 298,994 | hasta 2043-10-24 |
+| -121 | BepiColombo | — | 1 d | — | f32 | 12 510,446 | 1 731,572 | hasta 2027-04-05 |
+| -144 | Solar Orbiter | — | 1 d | — | f32 | 44,179 | 4,930 | hasta 2030-11-14 |
+| -64 | OSIRIS-REx | — | 1 d | — | f32 | 1 713,090 | 157,172 | hasta 2030-03-16 |
+| -49 | Lucy | — | 1 d | — | f32 | 1 094,892 | 101,059 | hasta 2033-03-07 |
+| -255 | Psyche | — | 1 d | — | f32 | 17,420 | 7,482 | hasta 2029-02-18 |
+| -37 | Hayabusa2 | — | 1 d | — | f32 | 153,288 | 21,042 | hasta 2027-01-23 |
+| -202 | MAVEN | — | 1 d | — | f32 | 13 407,351 | 6 850,468 | hasta 2026-02-23 |

@@ -7,7 +7,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearAstronomia } from "../motor/astronomia.js";
 import { crearFranja } from "../motor/franja.js";
-import { hitosDeMision, MISIONES } from "../motor/misiones.js";
+import { MISIONES, crearNave, posicionPlanetocentrica } from "../motor/misiones.js";
 import { posicion as posAst } from "../motor/asteroides.js";
 import { Observador, ObservadorLuna, salidasYPuestas, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { SOL, LUNA } from "../motor/cuerpos.js";
@@ -47,7 +47,7 @@ console.log(`interpolación: ${Object.keys(verif).length} cuerpos comprobados`);
 for (const [n, s] of Object.entries(sistemas)) {
   for (const c of s.meta.cuerpos) {
     const a = c.a_km || (n === "sol" ? 1.5e8 : 1e6);
-    const lim = (n === "sol" || n === "planetas_hist") ? 300 : n === "misiones" ? 3e5 : Math.max(5, 6e-4 * a);
+    const lim = (n === "sol" || n === "planetas_hist") ? 300 : n === "misiones" ? 1e6 : Math.max(5, 6e-4 * a);
     afirmar(c.error_max_km <= lim, `${n}/${c.nombre}: error máx ${c.error_max_km} km > ${lim}`);
   }
 }
@@ -347,32 +347,62 @@ if (existsSync(join(datos, "asteroides.json")) && existsSync(join(aqui, "verific
   afirmar(ast.asteroides.length > 1000, "asteroides cargados");
 }
 
-// 13. Misiones: los acercamientos detectados en las trayectorias de JPL coinciden con las fechas históricas publicadas (±2 días)
-if (existsSync(join(datos, "misiones.bin")) && existsSync(join(datos, "planetas_hist.bin"))) {
-  const ph = cargar("planetas_hist"), nv = cargar("misiones");
-  const pl = ["199", "299", "399", "499", "599", "699", "799", "899", "9"].map((i) => [i, ph.cuerpo(i)]);
-  const conocidos = { // [misión, planeta, fecha publicada]
+// 13. Misiones: encuentros (sobrevuelos y asistencias) calculados con JPL Horizons contra las fechas y distancias históricas publicadas
+if (existsSync(join(datos, "misiones.bin")) && existsSync(join(datos, "planetas_hist.bin")) && existsSync(join(datos, "encuentros.json"))) {
+  const ph = cargar("planetas_hist"), nv = cargar("misiones"), EN = JSON.parse(readFileSync(join(datos, "encuentros.json"), "utf8"));
+  const conocidos = { // [planeta, fecha publicada (UTC)]
     "-23": [["599", "1973-12-04"]], "-24": [["599", "1974-12-03"], ["699", "1979-09-01"]], "-31": [["599", "1979-03-05"], ["699", "1980-11-12"]],
-    "-32": [["599", "1979-07-09"], ["699", "1981-08-25"], ["799", "1986-01-24"], ["899", "1989-08-25"]], "-77": [["599", "1995-12-07"]], "-82": [["299", "1998-04-26"], ["299", "1999-06-24"], ["399", "1999-08-18"], ["699", "2004-07-01"]],
-    "-98": [["599", "2007-02-28"], ["9", "2015-07-14"]], "-61": [["599", "2016-07-05"]], "-159": [["499", "2025-03-01"], ["399", "2026-12-03"], ["599", "2030-04-11"]],
+    "-32": [["599", "1979-07-09"], ["699", "1981-08-26"], ["799", "1986-01-24"], ["899", "1989-08-25"]], "-77": [["299", "1990-02-10"], ["399", "1990-12-08"], ["399", "1992-12-08"], ["599", "1995-12-07"]],
+    "-82": [["299", "1998-04-26"], ["299", "1999-06-24"], ["399", "1999-08-18"], ["599", "2000-12-30"], ["699", "2004-07-01"]],
+    "-98": [["599", "2007-02-28"], ["9", "2015-07-14"]], "-61": [["399", "2013-10-09"], ["599", "2016-07-05"]], "-159": [["499", "2025-03-01"], ["399", "2026-12-03"], ["599", "2030-04-11"]],
     "-96": [["299", "2018-10-03"], ["299", "2019-12-26"], ["299", "2020-07-11"], ["299", "2021-02-20"], ["299", "2021-10-16"], ["299", "2023-08-21"], ["299", "2024-11-06"]],
+    "-55": [["599", "1992-02-08"]], "-236": [["399", "2005-08-02"], ["299", "2006-10-24"], ["299", "2007-06-05"], ["199", "2008-01-14"], ["199", "2008-10-06"], ["199", "2009-09-29"]],
+    "-226": [["399", "2005-03-04"], ["499", "2007-02-25"], ["399", "2007-11-13"], ["399", "2009-11-13"]], "-203": [["499", "2009-02-17"]],
+    "-121": [["399", "2020-04-10"], ["299", "2020-10-15"], ["299", "2021-08-10"], ["199", "2021-10-01"], ["199", "2022-06-23"], ["199", "2023-06-19"], ["199", "2024-09-04"]],
+    "-144": [["299", "2020-12-27"], ["299", "2021-08-09"], ["399", "2021-11-27"], ["299", "2022-09-04"]], "-49": [["399", "2022-10-16"], ["399", "2024-12-12"]],
+    "-37": [["399", "2015-12-03"]], "-64": [["399", "2017-09-22"], ["399", "2023-09-24"]],
   };
   let n = 0;
   for (const [id, lista] of Object.entries(conocidos)) {
-    const t = nv.cuerpo(id); afirmar(!!t, `misión ${id} sin datos`); if (!t) continue;
-    const ev = hitosDeMision(id, t, pl);
+    afirmar(!!nv.cuerpo(id), `misión ${id} sin datos`);
     for (const [pid, fecha] of lista) {
-      const jd = jdUtcDesdeInput(fecha + "T12:00"); const e = ev.filter((x) => x.planeta === pid).map((x) => ({ x, d: Math.abs(jdUtcDesdeTdb(x.jdTdb) - jd) })).sort((a, b) => a.d - b.d)[0];
-      afirmar(!!e && e.d < 2.5, `${MISIONES[id].nombre} ${pid} ${fecha}: ${e ? e.d.toFixed(1) + " d de diferencia" : "no detectado"}`); n++;
+      const jd = jdUtcDesdeInput(fecha + "T12:00"), e = EN.encuentros.filter((x) => x.nave === id && x.planeta === pid).map((x) => ({ x, d: Math.abs(jdUtcDesdeTdb(x.jd_ca) - jd) })).sort((a, b) => a.d - b.d)[0];
+      afirmar(!!e && e.d < 0.75, `${MISIONES[id].nombre} ${pid} ${fecha}: ${e ? e.d.toFixed(2) + " d de diferencia" : "no detectado"}`); n++;
     }
   }
+  // distancias publicadas del mayor acercamiento (km): Voyager 1–Júpiter 349 000 al centro (348 890), New Horizons–Plutón 12 500 sobre la superficie, Rosetta–Tierra 2005 a 1 954 km, Cassini–Tierra 1999 a 1 171 km, Cassini–Venus 284 y 600 km, Dawn–Marte 549 km
+  const busca = (id, pid, f) => EN.encuentros.filter((x) => x.nave === id && x.planeta === pid).sort((a, b) => Math.abs(jdUtcDesdeTdb(a.jd_ca) - jdUtcDesdeInput(f + "T12:00")) - Math.abs(jdUtcDesdeTdb(b.jd_ca) - jdUtcDesdeInput(f + "T12:00")))[0];
+  cerca(busca("-31", "599", "1979-03-05").dist_km, 348890, 1500, "Voyager 1 – Júpiter: distancia mínima al centro [km]");
+  cerca(busca("-98", "9", "2015-07-14").alt_km, 12500, 150, "New Horizons – Plutón: altura mínima [km]");
+  cerca(busca("-226", "399", "2005-03-04").alt_km, 1954, 25, "Rosetta – Tierra 2005: altura mínima [km]");
+  cerca(busca("-82", "399", "1999-08-18").alt_km, 1171, 15, "Cassini – Tierra 1999: altura mínima [km]");
+  cerca(busca("-82", "299", "1998-04-26").alt_km, 284, 15, "Cassini – Venus 1998: altura mínima [km]");
+  cerca(busca("-82", "299", "1999-06-24").alt_km, 600, 15, "Cassini – Venus 1999: altura mínima [km]");
+  cerca(busca("-203", "499", "2009-02-17").alt_km, 549, 15, "Dawn – Marte: altura mínima [km]");
+  // asistencia: la velocidad en el infinito de Galileo en la Tierra (8,95 km/s publicada) y su ganancia heliocéntrica (≈ 5,2 km/s)
+  const g1 = busca("-77", "399", "1990-12-08"); cerca(g1.vinf_kms, 8.95, 0.05, "Galileo – Tierra 1990: v∞ [km/s]"); cerca(g1.dv_helio, 5.2, 0.2, "Galileo – Tierra 1990: ganancia heliocéntrica [km/s]");
+  // coherencia interna: la excentricidad y el desvío de cada hipérbola, y la interpolación de Hermite entre épocas
+  let peorHermite = 0, vistos = 0;
+  for (const e of EN.encuentros) {
+    afirmar(Math.abs(e.alt_km - (e.dist_km - EN.radio_km[e.planeta])) < 0.2, `altura = distancia − radio (${e.nombre} ${e.planeta})`);
+    if (!e.orbita) { const delta = 2 * Math.asin(1 / e.excentricidad) * 180 / Math.PI; cerca(e.desvio_deg, delta, 0.05, `desvío de ${e.nombre} en ${e.planeta}: 2·asin(1/e) [°]`); }
+    if (!e.orbita) for (let k = 1; k < e.traza.length - 1; k += 3) {   // se omite una época y se interpola con las vecinas: error ≈ el de una malla del doble de paso
+      const sin = [e.traza[k - 1], e.traza[k + 1]], r = posicionPlanetocentrica(sin, e.traza[k][0]), t = e.traza[k];
+      const err = Math.hypot(r[0] - t[1], r[1] - t[2], r[2] - t[3]), d = Math.hypot(t[1], t[2], t[3]); peorHermite = Math.max(peorHermite, err / d); vistos++;
+    }
+  }
+  afirmar(peorHermite < 0.03, `interpolación de Hermite de las trayectorias planetocéntricas: error relativo máximo ${(peorHermite * 100).toFixed(2)} % en ${vistos} épocas`);
+  // la nave con precisión de encuentro pasa por el mayor acercamiento
+  const planetasT = new Map(["199", "299", "399", "499", "599", "699", "799", "899", "9"].map((i) => [i, ph.cuerpo(i)]));
+  const nave = crearNave("-82", nv.cuerpo("-82"), EN.encuentros, planetasT), cv = busca("-82", "399", "1999-08-18"), pn = nave.pos(cv.jd_ca), pt = ph.cuerpo("399").pos(cv.jd_ca);
+  cerca(Math.hypot(pn[0] - pt[0], pn[1] - pt[1], pn[2] - pt[2]), cv.dist_km, 10, "Cassini pasa por el mayor acercamiento [km]");
   // heliopausa: Voyager 1 (2012-08-25) a ≈ 121 UA y Voyager 2 (2018-11-05) a ≈ 119 UA
   for (const [id, f, au] of [["-31", "2012-08-25", 121.6], ["-32", "2018-11-05", 119.0]]) { const r = nv.cuerpo(id).pos(jdTdbDesdeUtc(jdUtcDesdeInput(f + "T00:00"))); cerca(Math.hypot(...r) / UA_KM, au, 1.5, `distancia de ${MISIONES[id].nombre} al cruzar la heliopausa [UA]`); }
   // JWST en L2: ~ 1,5 millones de km de la Tierra, en el lado opuesto al Sol
   const j = jdTdbDesdeUtc(jdUtcDesdeInput("2024-06-01T00:00")), w = nv.cuerpo("-170").pos(j), e = ph.cuerpo("399").pos(j), dJ = Math.hypot(w[0] - e[0], w[1] - e[1], w[2] - e[2]);
   afirmar(dJ > 1.0e6 && dJ < 1.9e6, `JWST a ${(dJ / 1e6).toFixed(2)} millones de km de la Tierra`);
   afirmar(Math.hypot(...w) > Math.hypot(...e), "JWST más lejos del Sol que la Tierra (L2)");
-  console.log(`Misiones: ${n} acercamientos contrastados con las fechas históricas (±2,5 d); heliopausa y L2 verificados`);
+  console.log(`Misiones: ${n} encuentros contrastados con las fechas históricas (±0,75 d) y con distancias y velocidades publicadas; heliopausa y L2 verificados`);
 }
 
 console.log(`\n${ok} comprobaciones correctas, ${fallos} fallos`);

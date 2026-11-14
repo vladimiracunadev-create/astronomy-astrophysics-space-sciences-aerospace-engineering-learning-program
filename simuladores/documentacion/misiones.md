@@ -2,48 +2,59 @@
 
 [▶ Abrir el simulador](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/misiones.html) · [Guía de uso](GUIA_DE_USO.md) · [Datos y efemérides](DATOS_Y_EFEMERIDES.md) · [Talleres de misión](../../talleres/README.md)
 
-![Trayectorias de Pioneer, Voyager y New Horizons](../img/misiones.svg)
+![Trayectorias de Pioneer, Voyager y New Horizons y las asistencias gravitatorias de Voyager 2](../img/misiones.svg)
 
 ## Qué hace
 
-Se **elige una misión**, se pulsa ▶ y se ve su trayectoria real moverse entre los planetas, con la fecha, los días desde el inicio de los datos, la distancia al Sol y a la Tierra, la velocidad, el tiempo que tarda la señal en llegar a la Tierra y el planeta más cercano. Una lista de **hitos y acercamientos** permite saltar al instante de cada sobrevuelo. Se puede «seguir la nave» con la cámara, recorrer el tiempo con la barra y cambiar la velocidad (de 1 día por segundo a 3 años por segundo).
+Se **elige una misión en una lista**, se pulsa ▶ y se ve su trayectoria real moverse entre los planetas. La pantalla tiene tres vistas coordinadas:
 
-| Misión | Qué se ve |
+1. **Mapa del Sistema Solar** visto desde el polo norte eclíptico, con las órbitas planetarias, los planetas en la fecha actual, la trayectoria recorrida (intensa) y la que falta (tenue) y **cada encuentro con un planeta** marcado con un anillo del color del planeta (vacío si aún no ocurrió, lleno si ya ocurrió), su fecha y la ganancia o pérdida de velocidad (▲ / ▼ km/s). El encuadre crece con la nave; la escala puede ser comprimida (raíz cuadrada de la distancia, para ver a la vez los planetas interiores y los exteriores) o lineal (proporciones reales).
+2. **Velocidad respecto del Sol** en toda la misión, con la velocidad de escape del Sol (línea de trazos) y los encuentros como marcas verticales: **cada asistencia gravitatoria se ve como un salto**. Un clic o arrastre en el gráfico lleva a esa fecha.
+3. **Detalle del encuentro** (barra lateral): la trayectoria de la nave respecto del planeta, con **el planeta a escala**, la dirección al Sol y el movimiento del planeta, que son los que determinan si la nave gana o pierde velocidad. Debajo, los números: altura mínima, velocidad relativa, velocidad en el infinito, ángulo de desvío, excentricidad y la velocidad heliocéntrica antes y después.
+
+Los botones ⏪ y ⏩ saltan al encuentro anterior y siguiente; la **cámara lenta en los encuentros** frena el tiempo al acercarse a cada planeta (de entrar en su esfera de influencia hasta el mayor acercamiento) para ver el sobrevuelo; se puede desactivar.
+
+## Misiones
+
+| Grupo | Misiones |
 |---|---|
-| **Pioneer 10** y **Pioneer 11** | Los primeros sobrevuelos de Júpiter (1973 y 1974) y el de Saturno de Pioneer 11 (1979) |
-| **Voyager 1** y **Voyager 2** | El «Gran Tour»: Júpiter, Saturno, Urano y Neptuno (Voyager 2) y el cruce de la heliopausa (2012 y 2018) |
-| **Galileo** | La llegada a Júpiter (1995) y su órbita hasta 2003 |
-| **Cassini** | Asistencias de Venus (1998 y 1999), la Tierra (1999) y Júpiter (2000), y la llegada a Saturno (2004) |
-| **New Horizons** | La asistencia de Júpiter (2007) y el sobrevuelo de Plutón (2015) |
-| **Juno** | La órbita polar de Júpiter desde 2016 |
-| **Parker Solar Probe** | Las siete asistencias de Venus de 2018 a 2024 |
-| **James Webb** | El punto L2 Sol–Tierra, a ≈ 1,5 millones de km, siempre en el lado opuesto al Sol |
-| **Europa Clipper** | Asistencias de Marte (2025) y la Tierra (2026) y la llegada a Júpiter en 2030 |
+| Planetas exteriores | Pioneer 10 y 11, Voyager 1 y 2, Galileo, Ulysses, Cassini, New Horizons, Juno, Europa Clipper |
+| Mercurio, Venus y el Sol | MESSENGER, BepiColombo, Parker Solar Probe, Solar Orbiter |
+| Marte, asteroides y cometas | Rosetta, Dawn, OSIRIS-REx, Hayabusa2, Lucy, Psyche, MAVEN |
+| Telescopios | James Webb (en L2) |
 
 ## Datos
 
-Las trayectorias son las **reconstruidas por JPL con datos de seguimiento** (SPICE), descargadas de Horizons como posiciones heliocéntricas (eclíptica y equinoccio J2000) con paso de 1 a 3 días y evaluadas con la misma interpolación de Lagrange que el resto de los simuladores. Los planetas (Mercurio a Neptuno y el baricentro de Plutón) salen de las efemérides oficiales de 1970 a 2051. Las trayectorias posteriores al 13 de noviembre de 2026 (Voyager y Pioneer más allá de esa fecha, Juno, Parker, Webb y Europa Clipper) son **predicciones** de JPL y se rotulan así. Generador: [`herramientas/efemerides/generar_misiones.py`](../../herramientas/efemerides/generar_misiones.py).
+- **Trayectorias**: reconstruidas por JPL con datos de seguimiento (SPICE), descargadas de Horizons como posiciones heliocéntricas (eclíptica y equinoccio J2000) con paso de 1 a 3 días e interpolación de Lagrange. Las posteriores al 13 de noviembre de 2026 son **predicciones**; las de Pioneer 10 y 11 posteriores a su último contacto se rotulan como extrapolación.
+- **Encuentros** ([`datos/encuentros.json`](../datos/encuentros.json), 77 sobrevuelos e inserciones en órbita): se **detectan** como mínimos de la distancia nave–planeta dentro de la esfera de influencia del planeta (a·(m/M☉)^0,4), y para cada uno Horizons entrega el estado planetocéntrico con paso de 5 a 20 minutos (para encontrar el instante y la distancia exactos) y 73 épocas con espaciado geométrico, muy denso cerca del acercamiento (en el simulador se interpolan con Hermite cúbico). Dentro de cada encuentro la nave sigue esa trayectoria de alta resolución, por lo que pasa por el planeta a la altura real y no a la que daría la tabla de 1 a 3 días.
+- **Ganancia de velocidad**: método de las cónicas empalmadas. Con el estado en el mayor acercamiento se calcula la hipérbola (excentricidad, asíntotas de entrada y de salida), se suma la velocidad del planeta y se comparan los módulos de la velocidad heliocéntrica de salida y de entrada. Los encuentros en que la nave queda capturada (inserciones en órbita, p. ej. Cassini en Saturno) no son asistencias y se rotulan así.
+- **Planetas**: efemérides oficiales de 1970 a 2050 (Mercurio a Neptuno y el baricentro de Plutón).
+
+Generadores: [`generar_misiones.py`](../../herramientas/efemerides/generar_misiones.py) (trayectorias) y [`generar_encuentros.py`](../../herramientas/efemerides/generar_encuentros.py) (encuentros).
 
 ## Validación
 
 | Comprobación | Referencia | Resultado |
 |---|---|---|
-| Acercamientos a planetas detectados en los datos | Fechas históricas publicadas por la NASA de 27 sobrevuelos e inserciones en órbita | Coinciden a ≤ 2,5 días en los 27 |
+| Instante de 60 encuentros | Fechas históricas publicadas (Pioneer, Voyager, Galileo, Cassini, New Horizons, Juno, Europa Clipper, Parker, Ulysses, MESSENGER, Rosetta, Dawn, BepiColombo, Solar Orbiter, Lucy, Hayabusa2, OSIRIS-REx) | Coinciden en el mismo día (±0,75 d) en los 60 |
+| Distancia del mayor acercamiento | Voyager 1–Júpiter 348 890 km al centro; New Horizons–Plutón 12 500 km de altura; Rosetta–Tierra (2005) 1 954 km; Cassini–Tierra (1999) 1 171 km; Cassini–Venus 284 y 600 km; Dawn–Marte 549 km | Dentro de 1,5 km a 150 km según el dato publicado (ver [`pruebas/ejecutar.mjs`](../pruebas/ejecutar.mjs)) |
+| Asistencia gravitatoria | Galileo–Tierra (1990): v∞ 8,95 km/s y ganancia ≈ 5,2 km/s | Coincide (8,95 y 5,19 km/s) |
+| Coherencia de cada hipérbola | Desvío = 2·asin(1/e) | Idéntico en todos los encuentros que no son órbitas |
+| Interpolación de Hermite | Omitir una época y recuperarla con sus vecinas | Error relativo máximo bajo el 3 % con la mitad de la densidad |
 | Distancia al cruzar la heliopausa | Voyager 1 (25-08-2012) ≈ 121 UA, Voyager 2 (05-11-2018) ≈ 119 UA | Dentro de ±1,5 UA |
 | James Webb | En L2: 1,0–1,9 millones de km de la Tierra y más lejos del Sol que ella | Cumple |
-| Interpolación contra Horizons | 120 épocas no nodales por cuerpo | Planetas interiores y Plutón ≤ 0,01 km, Saturno 12 km, Urano 21 km, Neptuno 143 km y Júpiter 165 km (oscilación real del centro del planeta); naves: del orden de 10³ km en la mayoría y hasta ≈ 3×10⁵ km en las que hacen maniobras y sobrevuelos cercanos (Cassini, Juno, Galileo, Parker, Europa Clipper) |
-
-Los acercamientos **se detectan** como mínimos de la distancia nave–planeta en los datos; no se escriben a mano. Por eso la distancia indicada en un sobrevuelo rápido es aproximada: con datos heliocéntricos de 1 día, una nave que pasa a 200 000 km de un planeta a 30 km/s se mueve ≈ 2,6 millones de km por muestra.
+| Interpolación de las tablas contra Horizons | 120 épocas no nodales por cuerpo | Planetas y Plutón ≤ 165 km; naves: del orden de 10³ km y hasta ≈ 10⁶ km en las que hacen maniobras o sobrevuelos (Psyche, Cassini, Juno); **esos casos se corrigen con la trayectoria planetocéntrica de cada encuentro** |
 
 ## Límites
 
-- **Es una visualización de trayectorias heliocéntricas, no un simulador de sobrevuelos.** No muestra la geometría del encuentro (planos de la trayectoria, ocultaciones, fases de la nave respecto del planeta).
-- Los **tamaños** de los puntos son simbólicos; las distancias, reales.
-- La precisión de la posición cae durante las maniobras y los sobrevuelos (véase la tabla); lejos de ellos es de pocos cientos de km.
-- Sólo se incluyen las misiones citadas; otras relevantes (Mariner 10, Ulysses, Dawn, Rosetta, OSIRIS-REx, Hayabusa2, las misiones a Marte) podrían añadirse con el mismo generador.
+- **Es una visualización de trayectorias heliocéntricas con el detalle de los encuentros, no un simulador de sobrevuelos completo**: no muestra ocultaciones, la orientación de la nave ni las maniobras de corrección.
+- La **ganancia de velocidad** es la del modelo de cónicas empalmadas (dos cuerpos y velocidades asintóticas); la que se mide en vuelo difiere en décimas de km/s por la gravedad del Sol y las maniobras.
+- El **detalle del encuentro** proyecta la trayectoria en el plano de la hipérbola (la real se aparta unos pocos grados de un plano exacto); Plutón se trata como baricentro del sistema (diferencia de ≈ 2 000 km). Tras una inserción en órbita sólo se muestra la llegada.
+- Los tamaños de los puntos son simbólicos; las distancias, reales. Las trayectorias de naves cuyo ciclo de operaciones terminó (Dawn, 2018) se cortan en esa fecha.
+- Faltan misiones relevantes como las sondas a Marte (Viking, MER, MSL, Perseverance), Magellan o Stardust; podrían añadirse con los mismos generadores. Mariner 10 se excluyó: su efeméride de Horizons no reproduce sus sobrevuelos.
 
-Sistema de referencia: eclíptica y equinoccio J2000 (ICRF), centro el Sol; unidades: km, UA, km/s y días; tiempo: TDB mostrado en UTC; datos descargados el 13 de noviembre de 2026.
+Sistema de referencia: eclíptica y equinoccio J2000 (ICRF), centro el Sol (mapa) o el planeta (detalle); unidades: km, UA, km/s y días; tiempo: TDB mostrado en UTC; datos descargados el 13 de noviembre de 2026.
 
 ## Archivos
 
-[`misiones.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/misiones.html) · [`paginas/misiones.js`](../paginas/misiones.js) · [`motor/misiones.js`](../motor/misiones.js) · [`motor/app-misiones.js`](../motor/app-misiones.js) · [`datos/misiones.json`](../datos/misiones.json) · [`datos/planetas_hist.json`](../datos/planetas_hist.json)
+[`misiones.html`](https://vladimiracunadev-create.github.io/astronomy-astrophysics-space-sciences-aerospace-engineering-learning-program/simuladores/misiones.html) · [`paginas/misiones.js`](../paginas/misiones.js) · [`motor/misiones.js`](../motor/misiones.js) · [`motor/app-misiones.js`](../motor/app-misiones.js) · [`datos/misiones.json`](../datos/misiones.json) · [`datos/planetas_hist.json`](../datos/planetas_hist.json) · [`datos/encuentros.json`](../datos/encuentros.json)

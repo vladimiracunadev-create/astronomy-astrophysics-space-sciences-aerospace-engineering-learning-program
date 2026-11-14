@@ -28,9 +28,38 @@ NAVES = [
     ("-23", "Pioneer 10", 2441379.5, 3), ("-24", "Pioneer 11", 2441779.5, 3), ("-32", "Voyager 2", 2443375.5, 3), ("-31", "Voyager 1", 2443392.5, 3),
     ("-77", "Galileo", 2447817.5, 1), ("-82", "Cassini", 2450737.5, 1), ("-98", "New Horizons", 2453755.5, 1), ("-61", "Juno", 2455778.5, 1),
     ("-96", "Parker Solar Probe", 2458342.5, 1), ("-170", "James Webb", 2459573.5, 1), ("-159", "Europa Clipper", 2460597.5, 1),
+    ("-55", "Ulysses", 2448170.5, 2), ("-236", "MESSENGER", 2453220.5, 1), ("-226", "Rosetta", 2453066.5, 1),
+    ("-203", "Dawn", 2454370.5, 1), ("-121", "BepiColombo", 2458411.5, 1), ("-144", "Solar Orbiter", 2458889.5, 1), ("-64", "OSIRIS-REx", 2457639.5, 1),
+    ("-49", "Lucy", 2459503.5, 1), ("-255", "Psyche", 2460230.5, 1), ("-37", "Hayabusa2", 2456994.5, 1), ("-202", "MAVEN", 2456615.5, 1),
 ]
 PLANETAS = [("199", "Mercurio", 1), ("299", "Venus", 2), ("399", "Tierra", 1), ("499", "Marte", 2), ("599", "Júpiter", 4), ("699", "Saturno", 4), ("799", "Urano", 4), ("899", "Neptuno", 4), ("9", "Plutón (baricentro)", 4)]
 NV = 80
+
+
+MESES = {m: i + 1 for i, m in enumerate("JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split())}
+
+
+def _jd_fecha(txt: str) -> float:
+    """'2043-OCT-30' -> JD (0 h) mediante el calendario gregoriano proléptico."""
+    import datetime
+    a, m, d = txt.split("-")
+    return datetime.date(int(a), MESES[m], int(d)).toordinal() + 1721424.5
+
+
+def rango_valido(cid: str, jd0: float, jd1: float) -> tuple[float, float]:
+    """Recorta [jd0, jd1] a la cobertura de las efemérides de la nave (los límites salen del mensaje de error de Horizons)."""
+    import re
+    for fecha, sentido in (("1960-01-01", "prior to"), ("2060-01-01", "after")):
+        t = H.consulta({"COMMAND": cid, "OBJ_DATA": "NO", "MAKE_EPHEM": "YES", "EPHEM_TYPE": "VECTORS", "CENTER": "500@10", "START_TIME": fecha, "STOP_TIME": fecha[:-1] + "2",
+                        "STEP_SIZE": "1d", "REF_PLANE": "ECLIPTIC", "REF_SYSTEM": "ICRF", "OUT_UNITS": "KM-S", "VEC_TABLE": "2", "CSV_FORMAT": "YES"})
+        m = re.search(sentido + r" A\.D\. (\d{4}-[A-Z]{3}-\d{2})", t)
+        if m:
+            j = _jd_fecha(m.group(1))
+            if sentido == "prior to":
+                jd0 = max(jd0, j + 2)
+            else:
+                jd1 = min(jd1, j - 2)
+    return jd0, jd1
 
 
 def tramo(cid: str, jd0: float, jd1: float, paso_d: float):
@@ -79,7 +108,8 @@ def main() -> None:
     naves = []
     for cid, nom, lanz, paso in NAVES:
         try:
-            tab, t0, n = tramo(cid, lanz, JD_2051, paso)
+            a, b = rango_valido(cid, lanz, JD_2051)
+            tab, t0, n = tramo(cid, a, b, paso)
         except Exception as e:  # noqa: BLE001
             print("sin efemérides", nom, str(e)[:120]); continue
         naves.append({"id": cid, "nombre": nom, "tab": tab, "t0": t0, "paso_d": paso, "fmt": "f32"})

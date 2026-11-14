@@ -9,6 +9,7 @@ import { sistemaDesdeBytes } from "../motor/efemerides.js";
 import { Observador, ObservadorLuna, ecuatorialAEclipticoJ2000 } from "../motor/cielo.js";
 import { jdUtcDesdeInput, jdTdbDesdeUtc, jdUtcDesdeTdb, formatoUtc } from "../motor/tiempo.js";
 import { porkchop, trazaTransferencia } from "../motor/trayectoria.js";
+import { crearNave } from "../motor/misiones.js";
 import { crearGeometria } from "../motor/eclipses.js";
 import { crearFranja } from "../motor/franja.js";
 import { posicion as posAst } from "../motor/asteroides.js";
@@ -123,7 +124,7 @@ function figuraEclipse(sol) {
 function figuraMisiones() {
   const ph = cargar("planetas_hist"), nv = cargar("misiones"), UA = 149597870.7;
   const L = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H0}" width="${W}" height="${H0}" role="img" aria-labelledby="t d" font-family="system-ui, Segoe UI, Roboto, sans-serif">`,
-    `<title id="t">Misiones espaciales</title>`, `<desc id="d">Trayectorias de Pioneer 10 y 11, Voyager 1 y 2 y New Horizons vistas desde el polo norte eclíptico, y su distancia al Sol en el tiempo, con datos de JPL.</desc>`,
+    `<title id="t">Misiones espaciales</title>`, `<desc id="d">Trayectorias de Pioneer 10 y 11, Voyager 1 y 2 y New Horizons vistas desde el polo norte eclíptico, y la velocidad de Voyager 2 con sus cuatro asistencias gravitatorias, con datos de JPL.</desc>`,
     `<rect width="${W}" height="${H0}" fill="#070a14"/>`, `<text x="32" y="44" font-size="28" fill="#e6ecf8" font-weight="600">Misiones espaciales</text>`,
     `<text x="32" y="70" font-size="14" fill="#9fb0cf">Pioneer 10 y 11, Voyager 1 y 2 y New Horizons · trayectorias reconstruidas por JPL (las posteriores a 2026 son predicciones)</text>`];
   const cx = 330, cy = 360, R = 250, esc = R / (46 * UA);
@@ -132,14 +133,18 @@ function figuraMisiones() {
   L.push(`<circle cx="${cx}" cy="${cy}" r="5" fill="#ffd45e"/>`);
   const NAVES = [["-23", "Pioneer 10", "#ffb454"], ["-24", "Pioneer 11", "#ffd166"], ["-31", "Voyager 1", "#6cb4ff"], ["-32", "Voyager 2", "#7ee0a1"], ["-98", "New Horizons", "#ff7a7a"]];
   for (const [id, nom, col] of NAVES) { const t = nv.cuerpo(id); let d = "", ult = null; for (let k = 0; k <= 400; k++) { const jd = t.meta.jd_valido_ini + (Math.min(t.meta.jd_valido_fin, 2470172) - t.meta.jd_valido_ini) * k / 400, p = t.pos(jd), x = cx + p[0] * esc, y = cy - p[1] * esc; if (Math.hypot(p[0], p[1]) > 46 * UA) break; d += (d ? "L" : "M") + n1(x) + " " + n1(y); ult = [x, y]; } L.push(`<path d="${d}" fill="none" stroke="${col}" stroke-width="1.6"/>`); if (ult) L.push(`<text x="${n1(ult[0] + 4)}" y="${n1(ult[1] - 4)}" font-size="11" fill="${col}">${nom}</text>`); }
-  // distancia al Sol frente al año
-  const x0 = 650, y0 = 100, w = 520, h = 520, ax = (a) => x0 + 45 + (a - 1970) / 80 * (w - 70), ay = (r) => y0 + h - 40 - r / 200 * (h - 80);
-  L.push(`<rect x="${x0}" y="${y0}" width="${w}" height="${h}" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${x0 + 16}" y="${y0 + 26}" font-size="13" fill="#ffd45e" font-weight="600">Distancia al Sol (UA)</text>`);
-  for (const r of [0, 50, 100, 150, 200]) L.push(`<path d="M${x0 + 45} ${n1(ay(r))}H${x0 + w - 25}" stroke="#26314f"/>`, `<text x="${x0 + 38}" y="${n1(ay(r) + 4)}" font-size="10" fill="#9fb0cf" text-anchor="end">${r}</text>`);
-  for (const a of [1970, 1990, 2010, 2030, 2050]) L.push(`<text x="${n1(ax(a))}" y="${y0 + h - 20}" font-size="10" fill="#9fb0cf" text-anchor="middle">${a}</text>`);
-  for (const [id, nom, col] of NAVES) { const t = nv.cuerpo(id); let d = ""; for (let k = 0; k <= 300; k++) { const jd = t.meta.jd_valido_ini + (Math.min(t.meta.jd_valido_fin, 2470172) - t.meta.jd_valido_ini) * k / 300, a = 1970 + (jd - 2440587.5) / 365.25, r = Math.hypot(...t.pos(jd)) / UA; d += (k ? "L" : "M") + n1(ax(a)) + " " + n1(ay(r)); } L.push(`<path d="${d}" fill="none" stroke="${col}" stroke-width="1.6"/>`); }
-  NAVES.forEach(([id, nom, col], i) => L.push(`<rect x="${x0 + 60}" y="${y0 + 44 + i * 18}" width="10" height="10" fill="${col}"/><text x="${x0 + 76}" y="${y0 + 53 + i * 18}" font-size="12" fill="#e6ecf8">${nom}</text>`));
-  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Trayectorias: NASA/JPL Horizons (SPICE) · calculado con el motor del simulador</text>`, `</svg>`);
+  // velocidad respecto del Sol de Voyager 2 y sus cuatro encuentros: cada asistencia gravitatoria deja su marca
+  const EN = JSON.parse(readFileSync(join(datos, "encuentros.json"), "utf8")).encuentros, plan = new Map(["199", "299", "399", "499", "599", "699", "799", "899", "9"].map((i) => [i, ph.cuerpo(i)]));
+  const NOMP = { "599": "Júpiter", "699": "Saturno", "799": "Urano", "899": "Neptuno" }, v2 = crearNave("-32", nv.cuerpo("-32"), EN, plan), x0 = 650, y0 = 100, w = 520, h = 520;
+  const j0 = v2.ini, j1 = Math.min(v2.fin, 2470172), ax = (j) => x0 + 50 + (j - j0) / (j1 - j0) * (w - 80), ay = (v) => y0 + h - 50 - v / 40 * (h - 120);
+  L.push(`<rect x="${x0}" y="${y0}" width="${w}" height="${h}" rx="10" fill="#0b1020" stroke="#26314f"/>`, `<text x="${x0 + 16}" y="${y0 + 26}" font-size="13" fill="#ffd45e" font-weight="600">Voyager 2: velocidad respecto del Sol (km/s) y asistencias gravitatorias</text>`);
+  for (const v of [0, 10, 20, 30, 40]) L.push(`<path d="M${x0 + 50} ${n1(ay(v))}H${x0 + w - 30}" stroke="#26314f"/>`, `<text x="${x0 + 42}" y="${n1(ay(v) + 4)}" font-size="10" fill="#9fb0cf" text-anchor="end">${v}</text>`);
+  for (const a of [1980, 1990, 2000, 2010, 2020, 2030, 2040, 2050]) { const j = 2440587.5 + (a - 1970) * 365.25; if (j > j0 && j < j1) L.push(`<text x="${n1(ax(j))}" y="${y0 + h - 30}" font-size="10" fill="#9fb0cf" text-anchor="middle">${a}</text>`); }
+  let d = ""; for (let k = 0; k <= 500; k++) { const j = j0 + (j1 - j0) * k / 500, v = Math.hypot(...v2.vel(j)); d += (k ? "L" : "M") + n1(ax(j)) + " " + n1(ay(v)); }
+  L.push(`<path d="${d}" fill="none" stroke="#7ee0a1" stroke-width="2"/>`);
+  const COLP = { "599": "#e8c18a", "699": "#ead7a2", "799": "#9be1e8", "899": "#5b7dff" };
+  EN.filter((e) => e.nave === "-32" && NOMP[e.planeta]).forEach((e, i) => { const x = ax(e.jd_ca); L.push(`<path d="M${n1(x)} ${y0 + 50}V${y0 + h - 50}" stroke="${COLP[e.planeta]}" stroke-dasharray="3 4"/>`, `<text x="${n1(x + 6)}" y="${y0 + 66 + i * 30}" font-size="12" fill="${COLP[e.planeta]}">${NOMP[e.planeta]} ${formatoUtc(jdUtcDesdeTdb(e.jd_ca), false).slice(0, 4)}</text>`, `<text x="${n1(x + 6)}" y="${y0 + 82 + i * 30}" font-size="12" fill="${e.dv_helio > 0 ? "#7ee0a1" : "#ff8a8a"}">${e.dv_helio > 0 ? "▲" : "▼"} ${coma(Math.abs(e.dv_helio).toFixed(1))} km/s · ${coma(e.alt_km.toFixed(0)).replace(/\B(?=(\d{3})+(?!\d))/g, " ")} km de altura</text>`); });
+  L.push(`<text x="${W - 32}" y="${H0 - 10}" font-size="11" fill="#9fb0cf" text-anchor="end">Trayectorias y encuentros: NASA/JPL Horizons (SPICE) · calculado con el motor del simulador</text>`, `</svg>`);
   return L.join("\n") + "\n";
 }
 
